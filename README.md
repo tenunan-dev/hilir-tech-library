@@ -2,7 +2,7 @@
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and (where the licence allows) read them.
 
-Phase 1 is the catalog: 342 sources across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia. Later phases add the content corpus, a search index and an MCP server (see [Roadmap](#roadmap)).
+It holds 342 catalog sources across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia, a licence-tagged corpus of collected documents, and a search index with an MCP server so agents can query both (see [Roadmap](#roadmap)).
 
 ## Layout
 
@@ -14,7 +14,10 @@ Phase 1 is the catalog: 342 sources across 8 sectors and 6 engineering disciplin
 | `catalog/catalog.jsonl` | Generated: all records, one per line, for loaders and embedding pipelines |
 | `catalog/index/<CODE>.md` | Generated: one page per code, Asia Pacific and Southeast Asia sources listed first |
 | `catalog/index/README.md` | Generated: counts by code, region, type, reuse level and verification |
-| `corpus/` | Phase 2: collected content, as Markdown chunks with provenance |
+| `corpus/` | Collected content, as Markdown files with licence and provenance front matter |
+| `collectors/` | Licence-aware collectors (see `collectors/README.md`) |
+| `agent/` | Search index and MCP server (see `agent/README.md`) |
+| `tools/check_links.py` | Checks every catalog url and writes `catalog/index/link-check.md` |
 | `tools/build.py` | Validates every record and regenerates the generated files |
 | `tools/seed/*.psv`, `tools/seed_to_json.py` | The one-time seed lists the records were created from |
 
@@ -44,6 +47,7 @@ Sites whose terms forbid copying are `summary-only`; Honeywell and Caterpillar, 
 
 - Simplest: load `catalog/catalog.jsonl` and filter by `sectors`, `disciplines`, `regions` or `reuse_level`.
 - For browsing or a Claude Project: attach `catalog/index/*.md`.
+- Search and retrieval: run the MCP server in `agent/` (tools `search`, `get_source`, `get_document`, `list_by_tag`, `library_stats`), optionally with embeddings for semantic search.
 - Always cite `url` and respect `reuse_level` and `licence` when quoting.
 
 ## Adding or changing a source
@@ -55,5 +59,5 @@ Sites whose terms forbid copying are `summary-only`; Honeywell and Caterpillar, 
 ## Roadmap
 
 1. **Catalog (done):** taxonomy, schema, 342 records, generated indexes.
-2. **Verification and corpus (in progress):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
-3. **Agent access and refresh:** keyword and vector search index, MCP server (`search`, `get_source`, `list_by_tag`), scheduled refresh and link and licence checks.
+2. **Verification and corpus (ongoing):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
+3. **Agent access and refresh (done):** SQLite FTS5 keyword index with optional embeddings, MCP server, and a GitHub Actions workflow (`refresh.yml`) that collects new arXiv and OSTI records weekly and checks every catalog link monthly.

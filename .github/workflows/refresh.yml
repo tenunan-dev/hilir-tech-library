@@ -1,0 +1,37 @@
+name: Refresh corpus and links
+on:
+  schedule:
+    - cron: "0 2 * * 1"   # Mondays 02:00 UTC: collect new arXiv and OSTI records
+    - cron: "0 3 1 * *"   # 1st of the month: also check every catalog link
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: refresh
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt -r requirements-collect.txt -r requirements-agent.txt pytest
+      - run: pytest -q tests
+      - name: Collect
+        run: |
+          python collectors/collect.py --source arxiv --limit 25
+          python collectors/collect.py --source osti --limit 25
+      - name: Check links
+        if: github.event.schedule == '0 3 1 * *' || github.event_name == 'workflow_dispatch'
+        run: python tools/check_links.py
+      - run: python tools/build.py && python agent/library.py build
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add corpus catalog
+          if ! git diff --cached --quiet; then
+            git commit -m "Scheduled refresh: new corpus documents and link check"
+            git push
+          fi

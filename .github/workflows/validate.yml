@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt -r requirements-collect.txt pytest
+      - run: pip install -r requirements.txt -r requirements-collect.txt -r requirements-agent.txt pytest
       - run: python tools/build.py
       - run: pytest -q tests
       - name: Generated files are up to date
