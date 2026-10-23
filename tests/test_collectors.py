@@ -134,3 +134,19 @@ def test_robots_unreachable_disallows(monkeypatch):
     monkeypatch.setattr(common, "_robots", {})
     monkeypatch.setattr(common.requests, "get", boom)
     assert common.allowed_by_robots("https://example.org/x") is False
+
+
+def test_osti_adapter_requests_json(monkeypatch):
+    seen = {}
+    item = {"osti_id": "3413920", "title": "Lignin dissolution", "publication_date": "2026-09-01T00:00:00Z",
+            "authors": ["Steuck, D."], "description": "Abstract.",
+            "links": [{"rel": "citation", "href": "https://www.osti.gov/biblio/3413920"}]}
+
+    def fake_fetch(url, headers=None, **kw):
+        seen["headers"] = headers
+        return FakeResponse(json.dumps([item]), "application/json")
+    monkeypatch.setattr(adapters, "fetch", fake_fetch)
+    docs = list(adapters.osti(record(id="osti"), 1))
+    assert seen["headers"]["Accept"] == "application/json"
+    assert docs[0][0] == "Lignin dissolution" and docs[0][1] == "https://www.osti.gov/biblio/3413920"
+    assert "Abstract." in docs[0][2]

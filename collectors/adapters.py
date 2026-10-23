@@ -58,7 +58,7 @@ def arxiv(rec, limit):
 
 def osti(rec, limit):
     """OSTI records API. Abstracts are stored; full text is left to per-document rights review."""
-    resp = fetch("https://www.osti.gov/api/v1/records",
+    resp = fetch("https://www.osti.gov/api/v1/records", headers={"Accept": "application/json"},  # XML by default
                  q="hydrogen OR \"carbon capture\" OR refining OR \"natural gas\" OR petrochemical",
                  sort="publication_date desc", rows=limit)
     for item in resp.json():

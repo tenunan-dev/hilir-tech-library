@@ -59,7 +59,7 @@ def allowed_by_robots(url):
     return _robots[base].can_fetch(USER_AGENT, url)
 
 
-def fetch(url, **params):
+def fetch(url, headers=None, **params):
     """GET with robots.txt check and a per-host delay. Returns a requests.Response."""
     if not allowed_by_robots(url):
         raise PermissionError(f"robots.txt disallows {url}")
@@ -68,7 +68,7 @@ def fetch(url, **params):
     if wait > 0:
         time.sleep(wait)
     _last_hit[host] = time.monotonic()
-    resp = requests.get(url, params=params or None, headers={"User-Agent": USER_AGENT}, timeout=60)
+    resp = requests.get(url, params=params or None, headers={"User-Agent": USER_AGENT, **(headers or {})}, timeout=60)
     resp.raise_for_status()
     return resp
 
