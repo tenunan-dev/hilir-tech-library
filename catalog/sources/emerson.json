@@ -1,0 +1,30 @@
+{
+  "id": "emerson",
+  "name": "Emerson Automation Solutions",
+  "url": "https://www.emerson.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "publisher_org": "Emerson Electric",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "DeltaV, valves, measurement; white papers.",
+  "verification": "unverified",
+  "last_verified": null
+}

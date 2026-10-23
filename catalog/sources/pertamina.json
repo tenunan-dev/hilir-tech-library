@@ -1,0 +1,28 @@
+{
+  "id": "pertamina",
+  "name": "Pertamina",
+  "url": "https://www.pertamina.com/en",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "PT Pertamina (Persero)",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

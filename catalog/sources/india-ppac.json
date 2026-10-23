@@ -1,0 +1,27 @@
+{
+  "id": "india-ppac",
+  "name": "India Petroleum Planning and Analysis Cell (PPAC)",
+  "url": "https://ppac.gov.in/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Ministry of Petroleum and Natural Gas",
+  "country": "IN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "GODL-India",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Government Open Data Licence India (verify).",
+  "verification": "unverified",
+  "last_verified": null
+}

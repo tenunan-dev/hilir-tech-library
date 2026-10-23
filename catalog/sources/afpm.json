@@ -1,0 +1,28 @@
+{
+  "id": "afpm",
+  "name": "American Fuel & Petrochemical Manufacturers (AFPM)",
+  "url": "https://www.afpm.org/",
+  "source_type": "association",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "AFPM",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Annual meeting papers sold; Q&A transcripts.",
+  "verification": "unverified",
+  "last_verified": null
+}

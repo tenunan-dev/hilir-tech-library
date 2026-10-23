@@ -1,0 +1,25 @@
+{
+  "id": "ntu-erian",
+  "name": "NTU Energy Research Institute (ERI@N)",
+  "url": "https://www.ntu.edu.sg/erian",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Nanyang Technological University",
+  "country": "SG",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

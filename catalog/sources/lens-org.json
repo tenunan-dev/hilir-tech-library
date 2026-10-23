@@ -1,0 +1,36 @@
+{
+  "id": "lens-org",
+  "name": "The Lens patents and scholarly works",
+  "url": "https://www.lens.org/",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "Cambia",
+  "country": "AU",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "mixed",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "API with free scholarly-use key.",
+  "verification": "unverified",
+  "last_verified": null
+}

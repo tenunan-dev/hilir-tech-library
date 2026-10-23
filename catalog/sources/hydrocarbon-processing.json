@@ -1,0 +1,30 @@
+{
+  "id": "hydrocarbon-processing",
+  "name": "Hydrocarbon Processing",
+  "url": "https://www.hydrocarbonprocessing.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS"
+  ],
+  "publisher_org": "Gulf Energy Information",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Process handbooks (Refining, Petrochemical, Gas Processing) list licensor processes.",
+  "verification": "unverified",
+  "last_verified": null
+}

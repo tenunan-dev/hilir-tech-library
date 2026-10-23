@@ -1,0 +1,29 @@
+{
+  "id": "energy-reports",
+  "name": "Energy Reports (Elsevier, open access)",
+  "url": "https://www.sciencedirect.com/journal/energy-reports",
+  "source_type": "journal",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Elsevier",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Check per-article licence; most CC BY.",
+  "verification": "unverified",
+  "last_verified": null
+}

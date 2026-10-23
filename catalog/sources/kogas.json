@@ -1,0 +1,26 @@
+{
+  "id": "kogas",
+  "name": "KOGAS Korea Gas Corporation",
+  "url": "https://www.kogas.or.kr/site/eng/main.do",
+  "source_type": "licensor",
+  "sectors": [
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "KOGAS",
+  "country": "KR",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "KC-1 LNG containment technology.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "adnoc-tech",
+  "name": "ADNOC technology",
+  "url": "https://www.adnoc.ae/en/",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "ADNOC",
+  "country": "AE",
+  "regions": [
+    "me"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "notes": "Al Reyadah CCUS.",
+  "verification": "unverified",
+  "last_verified": null
+}

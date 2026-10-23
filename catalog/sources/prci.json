@@ -1,0 +1,28 @@
+{
+  "id": "prci",
+  "name": "Pipeline Research Council International (PRCI)",
+  "url": "https://www.prci.org/",
+  "source_type": "research-institute",
+  "sectors": [
+    "MID",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "PRCI",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Reports for members; abstracts public.",
+  "verification": "unverified",
+  "last_verified": null
+}

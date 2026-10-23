@@ -1,0 +1,24 @@
+{
+  "id": "albemarle-catalysts",
+  "name": "Ketjen (Albemarle) refining catalysts",
+  "url": "https://www.ketjen.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "REF"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Ketjen Corporation",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

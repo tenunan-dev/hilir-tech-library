@@ -1,0 +1,25 @@
+{
+  "id": "sabic-licensing",
+  "name": "SABIC Technology",
+  "url": "https://www.sabic.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "SABIC",
+  "country": "SA",
+  "regions": [
+    "global",
+    "me"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

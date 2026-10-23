@@ -1,0 +1,25 @@
+{
+  "id": "chevron-lummus-global",
+  "name": "Chevron Lummus Global (CLG)",
+  "url": "https://www.chevronlummus.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "REF"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Chevron Lummus Global",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Hydrocracking and residue upgrading.",
+  "verification": "unverified",
+  "last_verified": null
+}

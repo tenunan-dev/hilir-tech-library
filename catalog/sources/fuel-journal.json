@@ -1,0 +1,27 @@
+{
+  "id": "fuel-journal",
+  "name": "Fuel (Elsevier)",
+  "url": "https://www.sciencedirect.com/journal/fuel",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "H2",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Elsevier",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Hybrid OA.",
+  "verification": "unverified",
+  "last_verified": null
+}

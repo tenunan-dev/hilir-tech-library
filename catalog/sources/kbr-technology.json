@@ -1,0 +1,28 @@
+{
+  "id": "kbr-technology",
+  "name": "KBR Technology",
+  "url": "https://www.kbr.com/en/solutions/technologies",
+  "source_type": "licensor",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "KBR",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Ammonia, olefins (SCORE, K-COT), refining, hydrogen.",
+  "verification": "unverified",
+  "last_verified": null
+}

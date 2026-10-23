@@ -1,0 +1,28 @@
+{
+  "id": "khalifa-university",
+  "name": "Khalifa University research",
+  "url": "https://www.ku.ac.ae/research",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Khalifa University",
+  "country": "AE",
+  "regions": [
+    "me"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

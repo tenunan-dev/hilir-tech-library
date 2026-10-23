@@ -1,0 +1,26 @@
+{
+  "id": "th-eppo",
+  "name": "Thailand Energy Policy and Planning Office (EPPO)",
+  "url": "https://www.eppo.go.th/index.php/en/",
+  "source_type": "agency-data",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "EPPO",
+  "country": "TH",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

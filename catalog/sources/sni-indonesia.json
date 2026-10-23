@@ -1,0 +1,30 @@
+{
+  "id": "sni-indonesia",
+  "name": "SNI Indonesian National Standards (BSN)",
+  "url": "https://bsn.go.id/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "publisher_org": "Badan Standardisasi Nasional",
+  "country": "ID",
+  "regions": [
+    "apac",
+    "sea"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Indonesian national standards, many adopt ISO/IEC.",
+  "verification": "unverified",
+  "last_verified": null
+}

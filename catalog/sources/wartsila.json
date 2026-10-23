@@ -1,0 +1,27 @@
+{
+  "id": "wartsila",
+  "name": "Wärtsilä Energy",
+  "url": "https://www.wartsila.com/energy",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Wärtsilä",
+  "country": "FI",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Engine power plants, LNG regas and fuel systems, energy storage.",
+  "verification": "unverified",
+  "last_verified": null
+}

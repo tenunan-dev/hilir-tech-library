@@ -1,0 +1,30 @@
+{
+  "id": "man-energy",
+  "name": "MAN Energy Solutions (Everllence)",
+  "url": "https://www.man-es.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "MID",
+    "REF",
+    "PCH",
+    "GAS",
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "MAN Energy Solutions",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Compressors, engines, CCS compression, electrolysis (Quest One).",
+  "verification": "unverified",
+  "last_verified": null
+}

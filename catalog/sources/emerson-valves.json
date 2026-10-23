@@ -1,0 +1,29 @@
+{
+  "id": "emerson-valves",
+  "name": "Fisher valves (Emerson)",
+  "url": "https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "ROT",
+    "INS"
+  ],
+  "publisher_org": "Emerson",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Control Valve Handbook freely downloadable.",
+  "verification": "unverified",
+  "last_verified": null
+}

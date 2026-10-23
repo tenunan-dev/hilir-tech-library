@@ -1,0 +1,32 @@
+{
+  "id": "worley",
+  "name": "Worley",
+  "url": "https://www.worley.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Worley",
+  "country": "AU",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Energy transition insights and reports.",
+  "verification": "unverified",
+  "last_verified": null
+}

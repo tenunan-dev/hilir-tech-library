@@ -1,0 +1,26 @@
+{
+  "id": "nus-energy",
+  "name": "NUS Energy Studies Institute",
+  "url": "https://esi.nus.edu.sg/",
+  "source_type": "research-institute",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "National University of Singapore",
+  "country": "SG",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

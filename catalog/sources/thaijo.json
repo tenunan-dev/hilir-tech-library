@@ -1,0 +1,26 @@
+{
+  "id": "thaijo",
+  "name": "ThaiJO Thai Journals Online",
+  "url": "https://www.tci-thaijo.org/",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Thai-Journal Citation Index Centre",
+  "country": "TH",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

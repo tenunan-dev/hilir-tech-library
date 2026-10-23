@@ -1,0 +1,29 @@
+{
+  "id": "utp",
+  "name": "Universiti Teknologi PETRONAS (UTP) research",
+  "url": "https://www.utp.edu.my/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Universiti Teknologi PETRONAS",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Institutional repository (UTPedia).",
+  "verification": "unverified",
+  "last_verified": null
+}

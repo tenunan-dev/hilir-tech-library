@@ -1,0 +1,28 @@
+{
+  "id": "nedo",
+  "name": "NEDO New Energy and Industrial Technology Development Organization",
+  "url": "https://www.nedo.go.jp/english/",
+  "source_type": "agency-data",
+  "sectors": [
+    "H2",
+    "CCS",
+    "PWR",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "NEDO",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Green Innovation Fund projects: hydrogen, ammonia co-firing, CO2 recycling.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "iea-methane-tracker",
+  "name": "IEA Global Methane Tracker",
+  "url": "https://www.iea.org/reports/global-methane-tracker-2025",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "International Energy Agency",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Annual edition; URL changes per year.",
+  "verification": "unverified",
+  "last_verified": null
+}

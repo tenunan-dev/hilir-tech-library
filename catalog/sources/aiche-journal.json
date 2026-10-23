@@ -1,0 +1,26 @@
+{
+  "id": "aiche-journal",
+  "name": "AIChE Journal",
+  "url": "https://aiche.onlinelibrary.wiley.com/journal/15475905",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "AIChE / Wiley",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

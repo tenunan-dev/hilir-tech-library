@@ -1,0 +1,28 @@
+{
+  "id": "doe-fecm",
+  "name": "US DOE Office of Fossil Energy and Carbon Management",
+  "url": "https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "U.S. Department of Energy",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cfihos",
+  "name": "CFIHOS Capital Facilities Information Handover Specification",
+  "url": "https://www.jip36-cfihos.org/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "IOGP JIP36",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "koch-engineered",
+  "name": "Koch Engineered Solutions",
+  "url": "https://www.kochengineeredsolutions.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "ROT",
+    "PRC"
+  ],
+  "publisher_org": "Koch Engineered Solutions",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Burners, heat transfer, membranes.",
+  "verification": "unverified",
+  "last_verified": null
+}

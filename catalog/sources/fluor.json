@@ -1,0 +1,28 @@
+{
+  "id": "fluor",
+  "name": "Fluor",
+  "url": "https://www.fluor.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Fluor Corporation",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Econamine FG Plus carbon capture.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mpi-plastics-europe",
+  "name": "Plastics Europe",
+  "url": "https://plasticseurope.org/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Plastics Europe",
+  "country": "BE",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Plastics - the fast Facts.",
+  "verification": "unverified",
+  "last_verified": null
+}

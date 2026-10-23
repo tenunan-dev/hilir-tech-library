@@ -1,0 +1,29 @@
+{
+  "id": "epri",
+  "name": "EPRI Electric Power Research Institute",
+  "url": "https://www.epri.com/",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "ROT",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "EPRI",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Many reports free with registration; others members only.",
+  "verification": "unverified",
+  "last_verified": null
+}

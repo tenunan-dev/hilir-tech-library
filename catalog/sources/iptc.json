@@ -1,0 +1,30 @@
+{
+  "id": "iptc",
+  "name": "International Petroleum Technology Conference (IPTC)",
+  "url": "https://www.iptcnet.org/",
+  "source_type": "conference",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG",
+    "PRC"
+  ],
+  "publisher_org": "IPTC",
+  "country": "INT",
+  "regions": [
+    "apac",
+    "me"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Alternates between Asia (KL, Bangkok) and Middle East.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "samsung-ea",
+  "name": "Samsung E&A",
+  "url": "https://www.samsungena.com/en/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Samsung E&A",
+  "country": "KR",
+  "regions": [
+    "apac",
+    "me"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

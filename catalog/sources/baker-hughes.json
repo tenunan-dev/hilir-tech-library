@@ -1,0 +1,32 @@
+{
+  "id": "baker-hughes",
+  "name": "Baker Hughes",
+  "url": "https://www.bakerhughes.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "ROT",
+    "INS",
+    "DIG"
+  ],
+  "publisher_org": "Baker Hughes",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Turbomachinery, LNG trains, subsea, oilfield services, carbon capture.",
+  "verification": "unverified",
+  "last_verified": null
+}

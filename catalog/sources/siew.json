@@ -1,0 +1,27 @@
+{
+  "id": "siew",
+  "name": "Asia Pacific Clean Hydrogen / Singapore International Energy Week",
+  "url": "https://www.siew.gov.sg/",
+  "source_type": "conference",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Energy Market Authority Singapore",
+  "country": "SG",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

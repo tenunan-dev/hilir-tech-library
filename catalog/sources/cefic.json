@@ -1,0 +1,24 @@
+{
+  "id": "cefic",
+  "name": "Cefic European Chemical Industry Council",
+  "url": "https://cefic.org/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Cefic",
+  "country": "BE",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

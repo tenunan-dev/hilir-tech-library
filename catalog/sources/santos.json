@@ -1,0 +1,27 @@
+{
+  "id": "santos",
+  "name": "Santos",
+  "url": "https://www.santos.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Santos",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Moomba CCS.",
+  "verification": "unverified",
+  "last_verified": null
+}

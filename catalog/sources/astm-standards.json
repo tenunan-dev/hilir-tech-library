@@ -1,0 +1,28 @@
+{
+  "id": "astm-standards",
+  "name": "ASTM International petroleum products standards (Committee D02)",
+  "url": "https://www.astm.org/products-services/standards-and-publications.html",
+  "source_type": "standards-body",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "ASTM International",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Fuel and lubricant test methods.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ampp-annual",
+  "name": "AMPP Annual Conference + Expo",
+  "url": "https://ace.ampp.org/",
+  "source_type": "conference",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF"
+  ],
+  "disciplines": [
+    "MAT"
+  ],
+  "publisher_org": "AMPP",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

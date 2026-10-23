@@ -1,0 +1,28 @@
+{
+  "id": "aist-japan",
+  "name": "AIST Japan energy and environment research",
+  "url": "https://www.aist.go.jp/index_en.html",
+  "source_type": "research-institute",
+  "sectors": [
+    "H2",
+    "CCS",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "AIST",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Fukushima Renewable Energy Institute.",
+  "verification": "unverified",
+  "last_verified": null
+}

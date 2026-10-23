@@ -1,0 +1,28 @@
+{
+  "id": "koch-glitsch",
+  "name": "Koch-Glitsch",
+  "url": "https://koch-glitsch.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "ROT",
+    "PRC"
+  ],
+  "publisher_org": "Koch-Glitsch",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Mass transfer internals; technical articles.",
+  "verification": "unverified",
+  "last_verified": null
+}

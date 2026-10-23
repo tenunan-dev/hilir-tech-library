@@ -1,0 +1,31 @@
+{
+  "id": "yokogawa",
+  "name": "Yokogawa",
+  "url": "https://www.yokogawa.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "publisher_org": "Yokogawa Electric",
+  "country": "JP",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "CENTUM DCS, analysers, technical reports (Yokogawa Technical Report).",
+  "verification": "unverified",
+  "last_verified": null
+}

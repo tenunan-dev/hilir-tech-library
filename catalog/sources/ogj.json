@@ -1,0 +1,28 @@
+{
+  "id": "ogj",
+  "name": "Oil & Gas Journal",
+  "url": "https://www.ogj.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Endeavor Business Media",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

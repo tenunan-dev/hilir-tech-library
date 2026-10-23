@@ -1,0 +1,30 @@
+{
+  "id": "semantic-scholar",
+  "name": "Semantic Scholar API",
+  "url": "https://www.semanticscholar.org/product/api",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Allen Institute for AI",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "API terms apply; abstracts and TLDRs.",
+  "verification": "unverified",
+  "last_verified": null
+}

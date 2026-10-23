@@ -1,0 +1,28 @@
+{
+  "id": "meti-japan",
+  "name": "METI Agency for Natural Resources and Energy",
+  "url": "https://www.enecho.meti.go.jp/en/",
+  "source_type": "agency-data",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Ministry of Economy, Trade and Industry",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Strategic Energy Plan, hydrogen strategy.",
+  "verification": "unverified",
+  "last_verified": null
+}

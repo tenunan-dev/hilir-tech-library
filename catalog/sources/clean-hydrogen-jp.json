@@ -1,0 +1,26 @@
+{
+  "id": "clean-hydrogen-jp",
+  "name": "Clean Hydrogen Partnership (EU) programme reviews",
+  "url": "https://www.clean-hydrogen.europa.eu/",
+  "source_type": "agency-data",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Clean Hydrogen Partnership",
+  "country": "INT",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Verify licence.",
+  "verification": "unverified",
+  "last_verified": null
+}

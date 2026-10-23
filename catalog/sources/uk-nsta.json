@@ -1,0 +1,27 @@
+{
+  "id": "uk-nsta",
+  "name": "UK North Sea Transition Authority",
+  "url": "https://www.nstauthority.co.uk/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "CCS"
+  ],
+  "disciplines": [
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "North Sea Transition Authority",
+  "country": "GB",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "OGL-UK-3.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Open Government Licence; National Data Repository.",
+  "verification": "unverified",
+  "last_verified": null
+}

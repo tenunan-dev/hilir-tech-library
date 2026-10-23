@@ -1,0 +1,28 @@
+{
+  "id": "inpex",
+  "name": "INPEX",
+  "url": "https://www.inpex.com.au/",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "INPEX",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Ichthys LNG, Abadi.",
+  "verification": "unverified",
+  "last_verified": null
+}

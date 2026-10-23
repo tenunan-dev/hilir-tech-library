@@ -1,0 +1,31 @@
+{
+  "id": "asme-codes",
+  "name": "ASME Codes and Standards (BPVC, B31)",
+  "url": "https://www.asme.org/codes-standards",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "American Society of Mechanical Engineers",
+  "country": "US",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Boiler and Pressure Vessel Code, B31.3 process piping, B31.4/B31.8 pipelines.",
+  "verification": "unverified",
+  "last_verified": null
+}

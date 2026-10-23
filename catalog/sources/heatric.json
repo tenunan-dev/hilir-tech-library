@@ -1,0 +1,26 @@
+{
+  "id": "heatric",
+  "name": "Heatric printed circuit heat exchangers",
+  "url": "https://www.heatric.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "H2",
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Heatric (Meggitt/Parker)",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

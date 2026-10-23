@@ -1,0 +1,28 @@
+{
+  "id": "slb",
+  "name": "SLB",
+  "url": "https://www.slb.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG",
+    "PRC"
+  ],
+  "publisher_org": "SLB",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Oilfield technology, technical papers, Delfi digital platform.",
+  "verification": "unverified",
+  "last_verified": null
+}

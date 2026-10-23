@@ -1,0 +1,28 @@
+{
+  "id": "ieej",
+  "name": "Institute of Energy Economics, Japan (IEEJ)",
+  "url": "https://eneken.ieej.or.jp/en/",
+  "source_type": "research-institute",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "IEEJ",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "IEEJ Outlook; some reports members only.",
+  "verification": "unverified",
+  "last_verified": null
+}

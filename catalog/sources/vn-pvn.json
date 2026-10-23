@@ -1,0 +1,27 @@
+{
+  "id": "vn-pvn",
+  "name": "Petrovietnam",
+  "url": "https://www.pvn.vn/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Vietnam Oil and Gas Group",
+  "country": "VN",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

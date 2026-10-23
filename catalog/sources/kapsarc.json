@@ -1,0 +1,30 @@
+{
+  "id": "kapsarc",
+  "name": "KAPSARC King Abdullah Petroleum Studies and Research Center",
+  "url": "https://www.kapsarc.org/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "KAPSARC",
+  "country": "SA",
+  "regions": [
+    "me",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "KAPSARC data portal is open.",
+  "verification": "unverified",
+  "last_verified": null
+}

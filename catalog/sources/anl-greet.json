@@ -1,0 +1,28 @@
+{
+  "id": "anl-greet",
+  "name": "Argonne GREET model",
+  "url": "https://greet.anl.gov/",
+  "source_type": "research-institute",
+  "sectors": [
+    "REF",
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Argonne National Laboratory",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Life-cycle emissions model for fuels.",
+  "verification": "unverified",
+  "last_verified": null
+}

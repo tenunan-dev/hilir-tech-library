@@ -1,0 +1,28 @@
+{
+  "id": "pnnl",
+  "name": "Pacific Northwest National Laboratory",
+  "url": "https://www.pnnl.gov/",
+  "source_type": "research-institute",
+  "sectors": [
+    "H2",
+    "CCS",
+    "PWR"
+  ],
+  "disciplines": [
+    "MAT",
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "U.S. Department of Energy",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

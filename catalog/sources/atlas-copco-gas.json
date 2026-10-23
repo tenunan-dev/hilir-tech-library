@@ -1,0 +1,27 @@
+{
+  "id": "atlas-copco-gas",
+  "name": "Atlas Copco Gas and Process",
+  "url": "https://www.atlascopco.com/en-us/compressors/products/process-gas-compressors",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Atlas Copco",
+  "country": "SE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Turbo-expanders, integrally geared compressors.",
+  "verification": "unverified",
+  "last_verified": null
+}

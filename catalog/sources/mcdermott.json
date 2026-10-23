@@ -1,0 +1,26 @@
+{
+  "id": "mcdermott",
+  "name": "McDermott",
+  "url": "https://www.mcdermott.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "McDermott International",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

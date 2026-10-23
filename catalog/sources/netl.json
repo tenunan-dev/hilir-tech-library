@@ -1,0 +1,30 @@
+{
+  "id": "netl",
+  "name": "National Energy Technology Laboratory (NETL)",
+  "url": "https://netl.doe.gov/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "CCS",
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "U.S. Department of Energy",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Cost and performance baselines for fossil plants and CCS.",
+  "verification": "unverified",
+  "last_verified": null
+}

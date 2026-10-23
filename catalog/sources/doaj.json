@@ -1,0 +1,35 @@
+{
+  "id": "doaj",
+  "name": "Directory of Open Access Journals",
+  "url": "https://doaj.org/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "DOAJ",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC0-1.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Metadata CC0; use to discover OA journals in energy.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "norway-sodir",
+  "name": "Norwegian Offshore Directorate (Sokkeldirektoratet)",
+  "url": "https://www.sodir.no/en/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "Norwegian Offshore Directorate",
+  "country": "NO",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "NLOD-2.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "FactPages and CO2 storage atlas.",
+  "verification": "unverified",
+  "last_verified": null
+}

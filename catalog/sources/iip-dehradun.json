@@ -1,0 +1,26 @@
+{
+  "id": "iip-dehradun",
+  "name": "CSIR-Indian Institute of Petroleum",
+  "url": "https://www.iip.res.in/",
+  "source_type": "research-institute",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "CSIR",
+  "country": "IN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

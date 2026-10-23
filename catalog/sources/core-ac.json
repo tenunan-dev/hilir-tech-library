@@ -1,0 +1,31 @@
+{
+  "id": "core-ac",
+  "name": "CORE open-access aggregator",
+  "url": "https://core.ac.uk/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "CORE (Open University / Jisc)",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "API with free key; respects source licence per paper.",
+  "verification": "unverified",
+  "last_verified": null
+}

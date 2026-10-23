@@ -1,0 +1,35 @@
+{
+  "id": "openalex",
+  "name": "OpenAlex scholarly graph",
+  "url": "https://openalex.org/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "OurResearch",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC0-1.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Metadata CC0; use for discovery and citation counts, not full text.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hanwha-ocean",
+  "name": "Hanwha Ocean",
+  "url": "https://www.hanwhaocean.com/en/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "UPS",
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Hanwha Ocean",
+  "country": "KR",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "LNG carriers, offshore platforms.",
+  "verification": "unverified",
+  "last_verified": null
+}

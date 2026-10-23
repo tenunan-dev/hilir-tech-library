@@ -1,0 +1,28 @@
+{
+  "id": "mdpi-processes",
+  "name": "Processes (MDPI)",
+  "url": "https://www.mdpi.com/journal/processes",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "MDPI AG",
+  "country": "CH",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

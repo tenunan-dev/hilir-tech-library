@@ -1,0 +1,24 @@
+{
+  "id": "carbon-herald",
+  "name": "Carbon Herald",
+  "url": "https://carbonherald.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Carbon Herald",
+  "country": "BG",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

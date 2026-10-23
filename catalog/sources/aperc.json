@@ -1,0 +1,28 @@
+{
+  "id": "aperc",
+  "name": "APEC Asia Pacific Energy Research Centre (APERC)",
+  "url": "https://aperc.or.jp/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "APERC / IEEJ",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "APEC Energy Demand and Supply Outlook.",
+  "verification": "unverified",
+  "last_verified": null
+}

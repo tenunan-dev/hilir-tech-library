@@ -1,0 +1,29 @@
+{
+  "id": "phmsa",
+  "name": "US PHMSA pipeline safety data and regulations",
+  "url": "https://www.phmsa.dot.gov/",
+  "source_type": "agency-data",
+  "sectors": [
+    "MID",
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "publisher_org": "Pipeline and Hazardous Materials Safety Administration",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Incident data, CO2 pipeline rulemaking.",
+  "verification": "unverified",
+  "last_verified": null
+}

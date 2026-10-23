@@ -1,0 +1,26 @@
+{
+  "id": "vega",
+  "name": "VEGA Grieshaber",
+  "url": "https://www.vega.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "MID"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "publisher_org": "VEGA",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

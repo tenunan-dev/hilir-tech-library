@@ -1,0 +1,27 @@
+{
+  "id": "samsung-heavy",
+  "name": "Samsung Heavy Industries",
+  "url": "https://www.samsungshi.com/eng/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Samsung Heavy Industries",
+  "country": "KR",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "FLNG, LNG carriers.",
+  "verification": "unverified",
+  "last_verified": null
+}

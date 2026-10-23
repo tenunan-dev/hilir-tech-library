@@ -1,0 +1,28 @@
+{
+  "id": "air-products-tech",
+  "name": "Air Products LNG and hydrogen technology",
+  "url": "https://www.airproducts.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Air Products",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "AP-C3MR LNG process and coil-wound heat exchangers.",
+  "verification": "unverified",
+  "last_verified": null
+}

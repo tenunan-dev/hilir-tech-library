@@ -1,0 +1,25 @@
+{
+  "id": "mpa-malaysia",
+  "name": "Malaysian Petrochemicals Association",
+  "url": "https://www.mpa.org.my/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Malaysian Petrochemicals Association",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Verify URL.",
+  "verification": "unverified",
+  "last_verified": null
+}

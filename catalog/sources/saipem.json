@@ -1,0 +1,27 @@
+{
+  "id": "saipem",
+  "name": "Saipem",
+  "url": "https://www.saipem.com/en",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Saipem",
+  "country": "IT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

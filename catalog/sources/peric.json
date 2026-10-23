@@ -1,0 +1,25 @@
+{
+  "id": "peric",
+  "name": "PERIC Hydrogen Technologies",
+  "url": "https://www.peric718.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "PERIC (CSSC 718 Institute)",
+  "country": "CN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Alkaline electrolysers; verify English site URL.",
+  "verification": "unverified",
+  "last_verified": null
+}

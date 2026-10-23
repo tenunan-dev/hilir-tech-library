@@ -1,0 +1,29 @@
+{
+  "id": "oxford-oies",
+  "name": "Oxford Institute for Energy Studies (OIES)",
+  "url": "https://www.oxfordenergy.org/",
+  "source_type": "research-institute",
+  "sectors": [
+    "GAS",
+    "UPS",
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "OIES",
+  "country": "GB",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Strong Asian LNG and gas market research.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-edge-energy",
+  "name": "The Edge Malaysia energy coverage",
+  "url": "https://theedgemalaysia.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "The Edge Communications",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

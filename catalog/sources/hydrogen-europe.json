@@ -1,0 +1,24 @@
+{
+  "id": "hydrogen-europe",
+  "name": "Hydrogen Europe",
+  "url": "https://hydrogeneurope.eu/",
+  "source_type": "association",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Hydrogen Europe",
+  "country": "BE",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "jlpp",
+  "name": "Journal of Loss Prevention in the Process Industries",
+  "url": "https://www.sciencedirect.com/journal/journal-of-loss-prevention-in-the-process-industries",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Elsevier",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "uk-hse",
+  "name": "UK Health and Safety Executive (offshore and COMAH)",
+  "url": "https://www.hse.gov.uk/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Health and Safety Executive",
+  "country": "GB",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "OGL-UK-3.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Research reports (RR series) are valuable for process safety.",
+  "verification": "unverified",
+  "last_verified": null
+}

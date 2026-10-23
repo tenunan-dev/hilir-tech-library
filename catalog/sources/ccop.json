@@ -1,0 +1,27 @@
+{
+  "id": "ccop",
+  "name": "CCOP Coordinating Committee for Geoscience Programmes in East and Southeast Asia",
+  "url": "https://www.ccop.or.th/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "CCOP",
+  "country": "TH",
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Regional CO2 storage mapping.",
+  "verification": "unverified",
+  "last_verified": null
+}

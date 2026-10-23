@@ -1,0 +1,27 @@
+{
+  "id": "nov",
+  "name": "NOV",
+  "url": "https://www.nov.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT",
+    "DIG"
+  ],
+  "publisher_org": "NOV Inc.",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Drilling rigs and equipment, wind installation vessels.",
+  "verification": "unverified",
+  "last_verified": null
+}

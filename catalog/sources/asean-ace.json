@@ -1,0 +1,31 @@
+{
+  "id": "asean-ace",
+  "name": "ASEAN Centre for Energy (ACE)",
+  "url": "https://aseanenergy.org/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "ASEAN Centre for Energy",
+  "country": "ID",
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "ASEAN Energy Outlook, regional hydrogen and CCS studies.",
+  "verification": "unverified",
+  "last_verified": null
+}

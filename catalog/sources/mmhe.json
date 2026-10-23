@@ -1,0 +1,26 @@
+{
+  "id": "mmhe",
+  "name": "Malaysia Marine and Heavy Engineering",
+  "url": "https://www.mhb.com.my/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "MAT"
+  ],
+  "publisher_org": "MMHE",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Offshore fabrication, Malaysia.",
+  "verification": "unverified",
+  "last_verified": null
+}

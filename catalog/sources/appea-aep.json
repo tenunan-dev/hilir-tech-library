@@ -1,0 +1,28 @@
+{
+  "id": "appea-aep",
+  "name": "Australian Energy Producers (formerly APPEA)",
+  "url": "https://energyproducers.au/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Australian Energy Producers",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "AEP Journal (formerly APPEA Journal) via CSIRO Publishing.",
+  "verification": "unverified",
+  "last_verified": null
+}

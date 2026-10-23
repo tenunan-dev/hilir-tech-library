@@ -1,0 +1,30 @@
+{
+  "id": "jpo-jplatpat",
+  "name": "J-PlatPat Japan Platform for Patent Information",
+  "url": "https://www.j-platpat.inpit.go.jp/",
+  "source_type": "patents",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2",
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "INPIT / JPO",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

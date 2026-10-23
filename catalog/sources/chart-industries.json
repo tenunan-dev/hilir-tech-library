@@ -1,0 +1,28 @@
+{
+  "id": "chart-industries",
+  "name": "Chart Industries",
+  "url": "https://www.chartindustries.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "ROT",
+    "PRC"
+  ],
+  "publisher_org": "Chart Industries",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Brazed aluminium heat exchangers, IPSMR LNG process, cryogenic equipment.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mitsubishi-heavy",
+  "name": "Mitsubishi Heavy Industries Compressor and gas turbines",
+  "url": "https://www.mhi.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "GAS",
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Mitsubishi Heavy Industries",
+  "country": "JP",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Hydrogen-fired gas turbines; MHI Technical Review.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "my-meih",
+  "name": "Malaysia Energy Information Hub",
+  "url": "https://meih.st.gov.my/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Energy Commission Malaysia",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

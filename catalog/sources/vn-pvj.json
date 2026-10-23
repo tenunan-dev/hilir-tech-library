@@ -1,0 +1,28 @@
+{
+  "id": "vn-pvj",
+  "name": "Petrovietnam Journal",
+  "url": "https://tapchidaukhi.vn/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Vietnam Oil and Gas Group",
+  "country": "VN",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Bilingual technical journal (verify licence).",
+  "verification": "unverified",
+  "last_verified": null
+}

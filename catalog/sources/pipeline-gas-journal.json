@@ -1,0 +1,27 @@
+{
+  "id": "pipeline-gas-journal",
+  "name": "Pipeline & Gas Journal",
+  "url": "https://pgjonline.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "MID",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "Gulf Energy Information",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

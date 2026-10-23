@@ -1,0 +1,29 @@
+{
+  "id": "isa-standards",
+  "name": "ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)",
+  "url": "https://www.isa.org/standards-and-publications/isa-standards",
+  "source_type": "standards-body",
+  "sectors": [
+    "REF",
+    "PCH",
+    "PWR",
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "International Society of Automation",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

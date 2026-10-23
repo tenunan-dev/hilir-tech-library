@@ -1,0 +1,35 @@
+{
+  "id": "crossref",
+  "name": "Crossref metadata API",
+  "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "Crossref",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC0-1.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "DOI metadata; often includes licence URLs per article.",
+  "verification": "unverified",
+  "last_verified": null
+}

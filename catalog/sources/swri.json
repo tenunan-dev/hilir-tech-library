@@ -1,0 +1,28 @@
+{
+  "id": "swri",
+  "name": "Southwest Research Institute (SwRI) energy",
+  "url": "https://www.swri.org/industries/energy",
+  "source_type": "research-institute",
+  "sectors": [
+    "MID",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "ROT",
+    "MAT"
+  ],
+  "publisher_org": "SwRI",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Supercritical CO2, compressor testing.",
+  "verification": "unverified",
+  "last_verified": null
+}

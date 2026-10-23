@@ -1,0 +1,27 @@
+{
+  "id": "longi-hydrogen",
+  "name": "LONGi Hydrogen",
+  "url": "https://www.longi.com/en/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "LONGi Green Energy",
+  "country": "CN",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Alkaline electrolysers, solar modules.",
+  "verification": "unverified",
+  "last_verified": null
+}

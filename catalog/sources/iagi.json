@@ -1,0 +1,24 @@
+{
+  "id": "iagi",
+  "name": "IAGI Indonesian Association of Geologists",
+  "url": "https://iagi.or.id/",
+  "source_type": "association",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "IAGI",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

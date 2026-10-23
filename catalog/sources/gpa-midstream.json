@@ -1,0 +1,27 @@
+{
+  "id": "gpa-midstream",
+  "name": "GPA Midstream Association",
+  "url": "https://gpamidstream.org/",
+  "source_type": "association",
+  "sectors": [
+    "GAS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "GPA Midstream",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Engineering Data Book (sold), research reports.",
+  "verification": "unverified",
+  "last_verified": null
+}

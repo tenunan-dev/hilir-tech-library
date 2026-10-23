@@ -1,0 +1,29 @@
+{
+  "id": "technip-energies",
+  "name": "Technip Energies",
+  "url": "https://www.technipenergies.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "GAS",
+    "PCH",
+    "REF",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Technip Energies",
+  "country": "FR",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Ethylene technology, LNG, Canopy CCS, hydrogen.",
+  "verification": "unverified",
+  "last_verified": null
+}

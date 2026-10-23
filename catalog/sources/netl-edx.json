@@ -1,0 +1,29 @@
+{
+  "id": "netl-edx",
+  "name": "NETL Energy Data eXchange (EDX)",
+  "url": "https://edx.netl.doe.gov/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "CCS",
+    "MID"
+  ],
+  "disciplines": [
+    "DIG",
+    "MAT"
+  ],
+  "publisher_org": "U.S. Department of Energy",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "mixed-per-dataset",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Datasets carry individual licences.",
+  "verification": "unverified",
+  "last_verified": null
+}

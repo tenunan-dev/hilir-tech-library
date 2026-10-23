@@ -1,0 +1,28 @@
+{
+  "id": "dicp-cas",
+  "name": "Dalian Institute of Chemical Physics (CAS)",
+  "url": "https://english.dicp.cas.cn/",
+  "source_type": "research-institute",
+  "sectors": [
+    "PCH",
+    "H2",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Chinese Academy of Sciences",
+  "country": "CN",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Methanol-to-olefins (DMTO) origin.",
+  "verification": "unverified",
+  "last_verified": null
+}

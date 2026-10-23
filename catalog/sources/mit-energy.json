@@ -1,0 +1,27 @@
+{
+  "id": "mit-energy",
+  "name": "MIT Energy Initiative",
+  "url": "https://energy.mit.edu/",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Massachusetts Institute of Technology",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

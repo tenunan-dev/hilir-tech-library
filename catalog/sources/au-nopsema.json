@@ -1,0 +1,27 @@
+{
+  "id": "au-nopsema",
+  "name": "NOPSEMA offshore safety regulator",
+  "url": "https://www.nopsema.gov.au/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "National Offshore Petroleum Safety and Environmental Management Authority",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Includes decommissioning guidance.",
+  "verification": "unverified",
+  "last_verified": null
+}

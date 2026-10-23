@@ -1,0 +1,27 @@
+{
+  "id": "ptq-digital-refining",
+  "name": "PTQ Petroleum Technology Quarterly / Digital Refining",
+  "url": "https://www.digitalrefining.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Crambeth Allen Publishing",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Technical articles from licensors and refiners.",
+  "verification": "unverified",
+  "last_verified": null
+}

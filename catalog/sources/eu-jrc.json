@@ -1,0 +1,30 @@
+{
+  "id": "eu-jrc",
+  "name": "EU Joint Research Centre publications",
+  "url": "https://joint-research-centre.ec.europa.eu/publications_en",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "European Commission JRC",
+  "country": "INT",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Includes Best Available Techniques reference documents (BREFs).",
+  "verification": "unverified",
+  "last_verified": null
+}

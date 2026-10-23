@@ -1,0 +1,25 @@
+{
+  "id": "india-dgh",
+  "name": "India Directorate General of Hydrocarbons",
+  "url": "https://www.dghindia.gov.in/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Directorate General of Hydrocarbons",
+  "country": "IN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "GODL-India",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

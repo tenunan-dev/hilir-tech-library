@@ -1,0 +1,32 @@
+{
+  "id": "petronas-tech",
+  "name": "PETRONAS Technology",
+  "url": "https://www.petronas.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PCH",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "PETRONAS",
+  "country": "MY",
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Technology and innovation news, CCS projects (Kasawari).",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gpsa",
+  "name": "GPSA Engineering Data Book",
+  "url": "https://gpsamidstreamsuppliers.org/",
+  "source_type": "association",
+  "sectors": [
+    "GAS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "GPSA Midstream Suppliers",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

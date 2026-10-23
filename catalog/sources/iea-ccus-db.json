@@ -1,0 +1,24 @@
+{
+  "id": "iea-ccus-db",
+  "name": "IEA CCUS Projects Database",
+  "url": "https://www.iea.org/data-and-statistics/data-product/ccus-projects-database",
+  "source_type": "agency-data",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "International Energy Agency",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

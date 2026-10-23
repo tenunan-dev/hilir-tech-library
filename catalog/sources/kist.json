@@ -1,0 +1,26 @@
+{
+  "id": "kist",
+  "name": "KIST Korea Institute of Science and Technology",
+  "url": "https://www.kist.re.kr/eng/",
+  "source_type": "research-institute",
+  "sectors": [
+    "H2",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "KIST",
+  "country": "KR",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

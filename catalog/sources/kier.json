@@ -1,0 +1,27 @@
+{
+  "id": "kier",
+  "name": "Korea Institute of Energy Research (KIER)",
+  "url": "https://www.kier.re.kr/eng/",
+  "source_type": "research-institute",
+  "sectors": [
+    "H2",
+    "PWR",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "KIER",
+  "country": "KR",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

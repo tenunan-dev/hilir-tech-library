@@ -1,0 +1,29 @@
+{
+  "id": "au-csiro",
+  "name": "CSIRO energy research",
+  "url": "https://www.csiro.au/en/research/technology-space/energy",
+  "source_type": "research-institute",
+  "sectors": [
+    "H2",
+    "CCS",
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "CSIRO",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "HyResource hydrogen knowledge hub.",
+  "verification": "unverified",
+  "last_verified": null
+}

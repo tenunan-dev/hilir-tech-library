@@ -1,0 +1,27 @@
+{
+  "id": "kaust",
+  "name": "KAUST research (clean combustion, catalysis)",
+  "url": "https://www.kaust.edu.sa/en/research",
+  "source_type": "research-institute",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "KAUST",
+  "country": "SA",
+  "regions": [
+    "me"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

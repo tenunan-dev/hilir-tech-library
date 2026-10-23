@@ -1,0 +1,27 @@
+{
+  "id": "opec-asb",
+  "name": "OPEC Annual Statistical Bulletin",
+  "url": "https://asb.opec.org/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "REF",
+    "MID"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "OPEC",
+  "country": "INT",
+  "regions": [
+    "global",
+    "me"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

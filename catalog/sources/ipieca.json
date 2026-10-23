@@ -1,0 +1,28 @@
+{
+  "id": "ipieca",
+  "name": "Ipieca resources",
+  "url": "https://www.ipieca.org/resources",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Ipieca",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Good-practice guides on emissions, flaring, biodiversity.",
+  "verification": "unverified",
+  "last_verified": null
+}

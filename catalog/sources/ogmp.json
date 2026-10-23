@@ -1,0 +1,27 @@
+{
+  "id": "ogmp",
+  "name": "OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)",
+  "url": "https://www.ogmpartnership.com/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "UNEP International Methane Emissions Observatory",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Reporting framework and technical guidance.",
+  "verification": "unverified",
+  "last_verified": null
+}

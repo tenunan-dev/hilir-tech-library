@@ -1,0 +1,29 @@
+{
+  "id": "iogp-jip33",
+  "name": "IOGP JIP33 Standardized equipment specifications",
+  "url": "https://www.iogp.org/workstreams/engineering/standards/jip33/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "ROT",
+    "MAT",
+    "INS"
+  ],
+  "publisher_org": "International Association of Oil & Gas Producers",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Supplementary specs to API/IEC standards for valves, pumps, compressors, instruments.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "uk-desnz",
+  "name": "UK DESNZ energy statistics and hydrogen/CCUS policy",
+  "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS",
+    "UPS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Department for Energy Security and Net Zero",
+  "country": "GB",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "OGL-UK-3.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

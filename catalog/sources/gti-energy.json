@@ -1,0 +1,28 @@
+{
+  "id": "gti-energy",
+  "name": "GTI Energy",
+  "url": "https://www.gti.energy/",
+  "source_type": "research-institute",
+  "sectors": [
+    "GAS",
+    "H2",
+    "MID",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "GTI Energy",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

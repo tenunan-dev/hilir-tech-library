@@ -1,0 +1,29 @@
+{
+  "id": "jgc",
+  "name": "JGC Holdings",
+  "url": "https://www.jgc.com/en/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "GAS",
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "JGC Holdings",
+  "country": "JP",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "LNG and refinery EPC; JGC Technical Journal.",
+  "verification": "unverified",
+  "last_verified": null
+}

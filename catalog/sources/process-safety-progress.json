@@ -1,0 +1,25 @@
+{
+  "id": "process-safety-progress",
+  "name": "Process Safety Progress",
+  "url": "https://aiche.onlinelibrary.wiley.com/journal/15475913",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "AIChE / Wiley",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "quarterly",
+  "verification": "unverified",
+  "last_verified": null
+}

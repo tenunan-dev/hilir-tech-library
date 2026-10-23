@@ -1,0 +1,27 @@
+{
+  "id": "jodi",
+  "name": "JODI Oil and Gas World Database",
+  "url": "https://www.jodidata.org/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Joint Organisations Data Initiative",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Free data, attribution required (verify).",
+  "verification": "unverified",
+  "last_verified": null
+}

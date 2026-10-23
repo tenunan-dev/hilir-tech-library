@@ -1,0 +1,26 @@
+{
+  "id": "iso-15926",
+  "name": "ISO 15926 / POSC Caesar reference data library",
+  "url": "https://www.posccaesar.org/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "POSC Caesar Association",
+  "country": "NO",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

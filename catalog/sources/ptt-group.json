@@ -1,0 +1,27 @@
+{
+  "id": "ptt-group",
+  "name": "PTT Public Company and PTTEP",
+  "url": "https://www.pttplc.com/en/",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PCH",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "PTT",
+  "country": "TH",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

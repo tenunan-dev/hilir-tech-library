@@ -1,0 +1,30 @@
+{
+  "id": "eia-reports",
+  "name": "U.S. EIA analysis and outlooks (STEO, AEO, IEO)",
+  "url": "https://www.eia.gov/analysis/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "U.S. Energy Information Administration",
+  "country": "US",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "US federal works.",
+  "verification": "unverified",
+  "last_verified": null
+}

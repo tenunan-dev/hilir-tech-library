@@ -1,0 +1,29 @@
+{
+  "id": "honeywell-process",
+  "name": "Honeywell Process Solutions",
+  "url": "https://process.honeywell.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "publisher_org": "Honeywell",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Experion DCS, safety systems.",
+  "verification": "unverified",
+  "last_verified": null
+}

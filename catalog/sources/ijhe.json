@@ -1,0 +1,26 @@
+{
+  "id": "ijhe",
+  "name": "International Journal of Hydrogen Energy",
+  "url": "https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy",
+  "source_type": "journal",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Elsevier / IAHE",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Hybrid; harvest only articles flagged open access with CC licence.",
+  "verification": "unverified",
+  "last_verified": null
+}

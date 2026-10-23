@@ -1,0 +1,28 @@
+{
+  "id": "usgs-energy",
+  "name": "USGS Energy Resources Program",
+  "url": "https://www.usgs.gov/programs/energy-resources-program",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "U.S. Geological Survey",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Includes geologic hydrogen and CO2 storage assessments.",
+  "verification": "unverified",
+  "last_verified": null
+}

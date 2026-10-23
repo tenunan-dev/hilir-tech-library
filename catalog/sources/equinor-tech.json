@@ -1,0 +1,30 @@
+{
+  "id": "equinor-tech",
+  "name": "Equinor technology",
+  "url": "https://www.equinor.com/energy",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "PWR",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG",
+    "PRC"
+  ],
+  "publisher_org": "Equinor",
+  "country": "NO",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Northern Lights, Sleipner CCS.",
+  "verification": "unverified",
+  "last_verified": null
+}

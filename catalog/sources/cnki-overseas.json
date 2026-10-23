@@ -1,0 +1,30 @@
+{
+  "id": "cnki-overseas",
+  "name": "CNKI China National Knowledge Infrastructure",
+  "url": "https://oversea.cnki.net/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "CNKI",
+  "country": "CN",
+  "regions": [
+    "apac"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "daily",
+  "notes": "Largest Chinese literature database; abstracts in English often free.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "eia-opendata",
+  "name": "U.S. EIA Open Data API",
+  "url": "https://www.eia.gov/opendata/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "U.S. Energy Information Administration",
+  "country": "US",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "free-registration",
+  "licence": "EIA-reuse-policy",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Free API key; EIA copyright and reuse policy permits reuse with attribution (verify wording).",
+  "verification": "unverified",
+  "last_verified": null
+}

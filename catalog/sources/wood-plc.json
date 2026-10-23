@@ -1,0 +1,28 @@
+{
+  "id": "wood-plc",
+  "name": "Wood",
+  "url": "https://www.woodplc.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Wood plc",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

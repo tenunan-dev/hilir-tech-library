@@ -1,0 +1,28 @@
+{
+  "id": "iecr",
+  "name": "Industrial & Engineering Chemistry Research (ACS)",
+  "url": "https://pubs.acs.org/journal/iecred",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "American Chemical Society",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Hybrid OA.",
+  "verification": "unverified",
+  "last_verified": null
+}

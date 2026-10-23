@@ -1,0 +1,27 @@
+{
+  "id": "my-mida",
+  "name": "MIDA Malaysian Investment Development Authority energy sector",
+  "url": "https://www.mida.gov.my/",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH",
+    "H2",
+    "CCS",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "MIDA",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "arxiv",
+  "name": "arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)",
+  "url": "https://arxiv.org/",
+  "source_type": "journal",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS",
+    "UPS"
+  ],
+  "disciplines": [
+    "DIG",
+    "PRC"
+  ],
+  "publisher_org": "Cornell University",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Per-paper licences vary; arXiv API allowed for metadata; only CC-licensed PDFs to the open corpus.",
+  "verification": "unverified",
+  "last_verified": null
+}

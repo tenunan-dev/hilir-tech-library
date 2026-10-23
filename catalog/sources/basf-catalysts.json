@@ -1,0 +1,27 @@
+{
+  "id": "basf-catalysts",
+  "name": "BASF Process Catalysts",
+  "url": "https://catalysts.basf.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "BASF",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "FCC, adsorbents, gas treating (OASE).",
+  "verification": "unverified",
+  "last_verified": null
+}

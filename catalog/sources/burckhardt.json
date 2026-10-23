@@ -1,0 +1,28 @@
+{
+  "id": "burckhardt",
+  "name": "Burckhardt Compression",
+  "url": "https://www.burckhardtcompression.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "H2",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Burckhardt Compression",
+  "country": "CH",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "LNG boil-off and hydrogen compressors.",
+  "verification": "unverified",
+  "last_verified": null
+}

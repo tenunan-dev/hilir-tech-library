@@ -1,0 +1,27 @@
+{
+  "id": "krohne",
+  "name": "KROHNE",
+  "url": "https://krohne.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "MID",
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "publisher_org": "KROHNE",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Custody transfer metering.",
+  "verification": "unverified",
+  "last_verified": null
+}

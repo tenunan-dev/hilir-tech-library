@@ -1,0 +1,25 @@
+{
+  "id": "rigzone",
+  "name": "Rigzone",
+  "url": "https://www.rigzone.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Rigzone",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

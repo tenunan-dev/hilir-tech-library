@@ -1,0 +1,24 @@
+{
+  "id": "h2-view",
+  "name": "H2 View",
+  "url": "https://www.h2-view.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "H2 View",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

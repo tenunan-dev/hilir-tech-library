@@ -1,0 +1,25 @@
+{
+  "id": "apic-asia",
+  "name": "Asia Petrochemical Industry Conference (APIC)",
+  "url": "https://www.apic-online.org/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "APIC",
+  "country": "INT",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Rotates across Japan, Korea, Taiwan, Thailand, Malaysia, Singapore, India.",
+  "verification": "unverified",
+  "last_verified": null
+}

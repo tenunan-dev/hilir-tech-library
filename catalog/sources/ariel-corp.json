@@ -1,0 +1,27 @@
+{
+  "id": "ariel-corp",
+  "name": "Ariel Corporation",
+  "url": "https://www.arielcorp.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "MID",
+    "GAS",
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Ariel Corporation",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Reciprocating compressors.",
+  "verification": "unverified",
+  "last_verified": null
+}

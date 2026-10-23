@@ -1,0 +1,25 @@
+{
+  "id": "sunfire",
+  "name": "Sunfire",
+  "url": "https://www.sunfire.de/en/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Sunfire GmbH",
+  "country": "DE",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Pressurised alkaline and SOEC electrolysers.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "epa-ghgrp",
+  "name": "US EPA Greenhouse Gas Reporting Program",
+  "url": "https://www.epa.gov/ghgreporting",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PCH",
+    "CCS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "U.S. Environmental Protection Agency",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

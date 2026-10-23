@@ -1,0 +1,27 @@
+{
+  "id": "asian-oil-gas",
+  "name": "Asian Oil & Gas (AOG) magazine",
+  "url": "https://www.aogdigital.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "AOG Digital",
+  "country": "SG",
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

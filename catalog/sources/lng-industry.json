@@ -1,0 +1,25 @@
+{
+  "id": "lng-industry",
+  "name": "LNG Industry",
+  "url": "https://www.lngindustry.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Palladian Publications",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "my-mpm",
+  "name": "Malaysia Petroleum Management (PETRONAS MPM)",
+  "url": "https://www.petronas.com/mpm",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "PETRONAS",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "PETRONAS Technical Standards (PTS) not public.",
+  "verification": "unverified",
+  "last_verified": null
+}

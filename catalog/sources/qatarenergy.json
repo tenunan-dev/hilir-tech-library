@@ -1,0 +1,25 @@
+{
+  "id": "qatarenergy",
+  "name": "QatarEnergy LNG",
+  "url": "https://www.qatarenergy.qa/en/",
+  "source_type": "licensor",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "QatarEnergy",
+  "country": "QA",
+  "regions": [
+    "me"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "notes": "North Field expansion.",
+  "verification": "unverified",
+  "last_verified": null
+}

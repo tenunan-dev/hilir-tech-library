@@ -1,0 +1,29 @@
+{
+  "id": "john-zink",
+  "name": "John Zink Hamworthy Combustion",
+  "url": "https://www.johnzink.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "John Zink",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Flares, burners, hydrogen combustion.",
+  "verification": "unverified",
+  "last_verified": null
+}

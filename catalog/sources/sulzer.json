@@ -1,0 +1,29 @@
+{
+  "id": "sulzer",
+  "name": "Sulzer",
+  "url": "https://www.sulzer.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "UPS"
+  ],
+  "disciplines": [
+    "ROT",
+    "PRC"
+  ],
+  "publisher_org": "Sulzer",
+  "country": "CH",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Pumps, separation column internals, technical review articles.",
+  "verification": "unverified",
+  "last_verified": null
+}

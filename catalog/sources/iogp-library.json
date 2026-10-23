@@ -1,0 +1,30 @@
+{
+  "id": "iogp-library",
+  "name": "IOGP Library (reports, JIPs, specifications)",
+  "url": "https://www.iogp.org/bookstore/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT",
+    "ROT",
+    "DIG"
+  ],
+  "publisher_org": "International Association of Oil & Gas Producers",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Most reports are free downloads; JIP33 procurement specifications included.",
+  "verification": "unverified",
+  "last_verified": null
+}

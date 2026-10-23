@@ -1,0 +1,28 @@
+{
+  "id": "toyo-engineering",
+  "name": "Toyo Engineering",
+  "url": "https://www.toyo-eng.com/jp/en/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "PCH",
+    "H2",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Toyo Engineering",
+  "country": "JP",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Urea (ACES21), ammonia.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "iea-ghg",
+  "name": "IEAGHG Technology Collaboration Programme reports",
+  "url": "https://ieaghg.org/",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "IEA Greenhouse Gas R&D Programme",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Detailed techno-economic studies of capture and storage.",
+  "verification": "unverified",
+  "last_verified": null
+}

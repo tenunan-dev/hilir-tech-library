@@ -1,0 +1,28 @@
+{
+  "id": "icheme",
+  "name": "IChemE knowledge and Loss Prevention Bulletin",
+  "url": "https://www.icheme.org/knowledge/",
+  "source_type": "association",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "publisher_org": "Institution of Chemical Engineers",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Hazards conference papers; some free.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "schneider-aveva",
+  "name": "AVEVA (Schneider Electric)",
+  "url": "https://www.aveva.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "UPS",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG",
+    "PRC",
+    "INS"
+  ],
+  "publisher_org": "AVEVA",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "PRO/II and Process Simulation, PI System, digital twins.",
+  "verification": "unverified",
+  "last_verified": null
+}

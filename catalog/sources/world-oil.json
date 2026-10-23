@@ -1,0 +1,25 @@
+{
+  "id": "world-oil",
+  "name": "World Oil",
+  "url": "https://www.worldoil.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "DIG",
+    "ROT"
+  ],
+  "publisher_org": "Gulf Energy Information",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

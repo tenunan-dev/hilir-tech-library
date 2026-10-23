@@ -1,0 +1,28 @@
+{
+  "id": "johnson-matthey",
+  "name": "Johnson Matthey Catalyst Technologies",
+  "url": "https://matthey.com/products-and-markets/chemicals",
+  "source_type": "licensor",
+  "sectors": [
+    "H2",
+    "PCH",
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Johnson Matthey",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Methanol, ammonia, LCH low-carbon hydrogen, FT CANS.",
+  "verification": "unverified",
+  "last_verified": null
+}

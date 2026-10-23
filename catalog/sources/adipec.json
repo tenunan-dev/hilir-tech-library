@@ -1,0 +1,31 @@
+{
+  "id": "adipec",
+  "name": "ADIPEC",
+  "url": "https://www.adipec.com/",
+  "source_type": "conference",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "dmg events",
+  "country": "AE",
+  "regions": [
+    "me",
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Technical papers in OnePetro.",
+  "verification": "unverified",
+  "last_verified": null
+}

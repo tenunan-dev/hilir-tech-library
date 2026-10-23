@@ -1,0 +1,29 @@
+{
+  "id": "bp-energy-outlook",
+  "name": "bp Energy Outlook and Statistical data",
+  "url": "https://www.bp.com/en/global/corporate/energy-economics.html",
+  "source_type": "licensor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "BP",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Energy Outlook; Statistical Review now published by the Energy Institute.",
+  "verification": "unverified",
+  "last_verified": null
+}

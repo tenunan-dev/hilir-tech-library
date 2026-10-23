@@ -1,0 +1,36 @@
+{
+  "id": "espacenet",
+  "name": "Espacenet and EPO Open Patent Services (OPS)",
+  "url": "https://www.epo.org/en/searching-for-patents/data/web-services/ops",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "European Patent Office",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "EPO-fair-use",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "OPS REST API with free registration; fair-use limits apply. Patent text is generally reusable.",
+  "verification": "unverified",
+  "last_verified": null
+}

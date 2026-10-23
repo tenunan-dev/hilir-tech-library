@@ -1,0 +1,29 @@
+{
+  "id": "shell-catalysts",
+  "name": "Shell Catalysts & Technologies",
+  "url": "https://www.shell.com/business-customers/catalysts-technologies.html",
+  "source_type": "licensor",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Shell",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "CANSOLV CO2 capture, hydroprocessing catalysts, Shell blue hydrogen process.",
+  "verification": "unverified",
+  "last_verified": null
+}

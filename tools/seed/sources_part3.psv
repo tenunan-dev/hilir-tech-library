@@ -1,0 +1,129 @@
+# id|name|url|source_type|sectors|disciplines|publisher_org|country|regions|access|licence|reuse_level|quality_tier|update_frequency|notes
+# ---------- Industry associations ----------
+ipieca|Ipieca resources|https://www.ipieca.org/resources|association|UPS,MID,REF,GAS|HSE|Ipieca|GB|global|open|proprietary|full-text-restricted|2|monthly|Good-practice guides on emissions, flaring, biodiversity.
+ogci|Oil and Gas Climate Initiative|https://www.ogci.com/|association|UPS,GAS,CCS|HSE|OGCI|GB|global|open|proprietary|full-text-restricted|2|irregular|CCUS hubs, methane reduction.
+ogmp|OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)|https://www.ogmpartnership.com/|association|UPS,MID,GAS|HSE|UNEP International Methane Emissions Observatory|INT|global|open|proprietary|full-text-restricted|2|irregular|Reporting framework and technical guidance.
+giignl|GIIGNL International Group of LNG Importers|https://giignl.org/|association|GAS|PRC,HSE|GIIGNL|FR|global|open|proprietary|full-text-restricted|2|annual|Annual LNG report, custody transfer handbook.
+igu|International Gas Union|https://www.igu.org/|association|GAS,MID,H2|DIG|International Gas Union|INT|global|open|proprietary|full-text-restricted|2|annual|World LNG Report.
+sigtto|SIGTTO Society of International Gas Tanker and Terminal Operators|https://www.sigtto.org/|association|GAS|HSE|SIGTTO|GB|global|mixed|proprietary|catalog-only|1|irregular|
+global-ccs-institute|Global CCS Institute publications|https://www.globalccsinstitute.com/resources/publications-reports-research/|association|CCS|PRC,HSE|Global CCS Institute|AU|global,apac|mixed|proprietary|full-text-restricted|2|monthly|Global Status of CCS report; free with registration.
+global-ccs-co2re|Global CCS Institute CO2RE facilities database|https://www.globalccsinstitute.com/co2re/|association|CCS|PRC|Global CCS Institute|AU|global|mixed|proprietary|summary-only|2|quarterly|Access terms not stated on landing page; verify at co2re.co.
+hydrogen-council|Hydrogen Council|https://hydrogencouncil.com/en/|association|H2|DIG|Hydrogen Council|BE|global|open|proprietary|full-text-restricted|2|irregular|Hydrogen Insights reports.
+hydrogen-europe|Hydrogen Europe|https://hydrogeneurope.eu/|association|H2|DIG|Hydrogen Europe|BE|eu|open|proprietary|full-text-restricted|2|irregular|
+ammonia-energy|Ammonia Energy Association|https://ammoniaenergy.org/|association|H2|PRC|Ammonia Energy Association|US|global|open|proprietary|full-text-restricted|2|weekly|Articles and conference papers.
+methanol-institute|Methanol Institute|https://www.methanol.org/|association|PCH,H2|PRC,HSE|Methanol Institute|US|global,apac|open|proprietary|full-text-restricted|2|irregular|Singapore office; safe handling manual.
+afpm|American Fuel & Petrochemical Manufacturers (AFPM)|https://www.afpm.org/|association|REF,PCH|PRC,HSE|AFPM|US|na,global|mixed|proprietary|catalog-only|2|irregular|Annual meeting papers sold; Q&A transcripts.
+aiche-ccps|AIChE Center for Chemical Process Safety (CCPS)|https://www.aiche.org/ccps|association|REF,PCH,GAS|HSE|AIChE|US|global|mixed|proprietary|catalog-only|1|monthly|Process Safety Beacon is free (full-text-restricted); guidelines books paid.
+ccps-beacon|CCPS Process Safety Beacon|https://www.aiche.org/ccps/process-safety-beacon|association|REF,PCH,GAS|HSE|AIChE CCPS|US|global|open|proprietary|full-text-restricted|1|monthly|Monthly one-page lessons, many languages incl. Bahasa Indonesia and Malay.
+icheme|IChemE knowledge and Loss Prevention Bulletin|https://www.icheme.org/knowledge/|association|REF,PCH,GAS|HSE,PRC|Institution of Chemical Engineers|GB|global|mixed|proprietary|catalog-only|1|monthly|Hazards conference papers; some free.
+ei-statistical-review|Energy Institute Statistical Review of World Energy|https://www.energyinst.org/statistical-review|association|UPS,GAS,REF,PWR,H2|DIG|Energy Institute|GB|global|open|proprietary|full-text-restricted|2|annual|Data downloadable; reuse with attribution (verify).
+gpa-midstream|GPA Midstream Association|https://gpamidstream.org/|association|GAS,MID|PRC|GPA Midstream|US|na,global|mixed|proprietary|catalog-only|1|irregular|Engineering Data Book (sold), research reports.
+gpsa|GPSA Engineering Data Book|https://gpsamidstreamsuppliers.org/|association|GAS,MID|PRC,ROT|GPSA Midstream Suppliers|US|global|paywalled|proprietary|catalog-only|1|irregular|
+ingaa|INGAA Interstate Natural Gas Association of America|https://ingaa.org/|association|MID,GAS,H2|HSE,MAT|INGAA|US|na|open|proprietary|summary-only|2|irregular|
+prci|Pipeline Research Council International (PRCI)|https://www.prci.org/|research-institute|MID,H2,CCS|MAT,INS|PRCI|US|global|mixed|proprietary|catalog-only|1|irregular|Reports for members; abstracts public.
+epri|EPRI Electric Power Research Institute|https://www.epri.com/|research-institute|PWR,H2,CCS|ROT,MAT,DIG|EPRI|US|global|mixed|proprietary|catalog-only|1|weekly|Many reports free with registration; others members only.
+twi|TWI The Welding Institute technical knowledge|https://www.twi-global.com/technical-knowledge|research-institute|UPS,MID,REF,H2|MAT|TWI Ltd|GB|global|open|proprietary|full-text-restricted|1|weekly|FAQs and published papers on welding, NDT, integrity.
+mpi-plastics-europe|Plastics Europe|https://plasticseurope.org/|association|PCH|HSE|Plastics Europe|BE|eu|open|proprietary|full-text-restricted|2|annual|Plastics - the fast Facts.
+cefic|Cefic European Chemical Industry Council|https://cefic.org/|association|PCH|HSE|Cefic|BE|eu|open|proprietary|full-text-restricted|2|irregular|
+apic-asia|Asia Petrochemical Industry Conference (APIC)|https://www.apic-online.org/|association|PCH|PRC|APIC|INT|apac|open|proprietary|summary-only|2|annual|Rotates across Japan, Korea, Taiwan, Thailand, Malaysia, Singapore, India.
+mpa-malaysia|Malaysian Petrochemicals Association|https://www.mpa.org.my/|association|PCH|HSE|Malaysian Petrochemicals Association|MY|sea|open|proprietary|summary-only|3|irregular|Verify URL.
+mogsc|Malaysian Oil & Gas Services Council|https://mogsc.org.my/|association|UPS,MID|DIG|MOGSC|MY|sea|open|proprietary|summary-only|3|irregular|
+ipa-indonesia|Indonesian Petroleum Association (IPA)|https://www.ipa.or.id/|association|UPS,GAS|PRC,DIG|Indonesian Petroleum Association|ID|sea|mixed|proprietary|catalog-only|1|annual|IPA Convention papers via Search and Discovery and IPA site.
+iagi|IAGI Indonesian Association of Geologists|https://iagi.or.id/|association|UPS|DIG|IAGI|ID|sea|open|proprietary|summary-only|2|irregular|
+appea-aep|Australian Energy Producers (formerly APPEA)|https://energyproducers.au/|association|UPS,GAS,CCS,H2|HSE|Australian Energy Producers|AU|apac|open|proprietary|full-text-restricted|2|monthly|AEP Journal (formerly APPEA Journal) via CSIRO Publishing.
+aep-journal|Australian Energy Producers Journal (CSIRO Publishing)|https://www.publish.csiro.au/ep|journal|UPS,GAS,CCS,H2|PRC,HSE|CSIRO Publishing|AU|apac|mixed|proprietary|catalog-only|1|annual|Some OA papers under CC BY.
+ascope|ASCOPE ASEAN Council on Petroleum|https://www.ascope.org/|association|UPS,MID,GAS|DIG|ASCOPE|INT|sea|open|proprietary|summary-only|2|irregular|Trans-ASEAN Gas Pipeline.
+ccop|CCOP Coordinating Committee for Geoscience Programmes in East and Southeast Asia|https://www.ccop.or.th/|association|UPS,CCS|DIG|CCOP|TH|sea,apac|open|proprietary|full-text-restricted|2|irregular|Regional CO2 storage mapping.
+kogas|KOGAS Korea Gas Corporation|https://www.kogas.or.kr/site/eng/main.do|licensor|GAS,H2|PRC|KOGAS|KR|apac|open|proprietary|summary-only|3|irregular|KC-1 LNG containment technology.
+jera|JERA|https://www.jera.co.jp/en|licensor|GAS,PWR,H2|PRC|JERA|JP|apac|open|proprietary|summary-only|3|irregular|Ammonia co-firing at Hekinan.
+tokyo-gas|Tokyo Gas technology|https://www.tokyo-gas.co.jp/en/|licensor|GAS,H2|PRC|Tokyo Gas|JP|apac|open|proprietary|summary-only|3|irregular|e-methane.
+# ---------- Middle East agencies ----------
+kapsarc|KAPSARC King Abdullah Petroleum Studies and Research Center|https://www.kapsarc.org/|research-institute|UPS,REF,PWR,H2,CCS|DIG|KAPSARC|SA|me,global|open|proprietary|full-text-restricted|2|monthly|KAPSARC data portal is open.
+kaust|KAUST research (clean combustion, catalysis)|https://www.kaust.edu.sa/en/research|research-institute|REF,PCH,H2,CCS|PRC|KAUST|SA|me|open|mixed-per-paper|full-text-restricted|1|weekly|
+khalifa-university|Khalifa University research|https://www.ku.ac.ae/research|research-institute|UPS,GAS,H2,CCS|PRC,MAT|Khalifa University|AE|me|open|mixed-per-paper|full-text-restricted|1|weekly|
+adnoc-tech|ADNOC technology|https://www.adnoc.ae/en/|licensor|UPS,GAS,PCH,H2,CCS|DIG|ADNOC|AE|me|open|proprietary|summary-only|3|monthly|Al Reyadah CCUS.
+qatarenergy|QatarEnergy LNG|https://www.qatarenergy.qa/en/|licensor|GAS|PRC|QatarEnergy|QA|me|open|proprietary|summary-only|3|monthly|North Field expansion.
+gecf|Gas Exporting Countries Forum|https://www.gecf.org/|association|GAS|DIG|GECF|QA|me,global|open|proprietary|full-text-restricted|2|annual|Global Gas Outlook.
+# ---------- Conferences ----------
+otc|Offshore Technology Conference (OTC)|https://www.otcnet.org/|conference|UPS,PWR,CCS|MAT,DIG|OTC|US|global|mixed|proprietary|catalog-only|1|annual|Papers in OnePetro; programme free.
+otc-asia|OTC Asia (Kuala Lumpur)|https://otcasia.org/|conference|UPS,GAS,CCS|MAT,DIG|OTC|MY|sea,apac|mixed|proprietary|catalog-only|1|irregular|Biennial; papers in OnePetro.
+iptc|International Petroleum Technology Conference (IPTC)|https://www.iptcnet.org/|conference|UPS,GAS,CCS,H2|DIG,PRC|IPTC|INT|apac,me|mixed|proprietary|catalog-only|1|annual|Alternates between Asia (KL, Bangkok) and Middle East.
+adipec|ADIPEC|https://www.adipec.com/|conference|UPS,GAS,REF,PCH,H2,CCS|DIG|dmg events|AE|me,global|mixed|proprietary|catalog-only|2|annual|Technical papers in OnePetro.
+gastech|Gastech|https://www.gastechevent.com/|conference|GAS,H2,CCS|PRC|dmg events|INT|global,apac|mixed|proprietary|catalog-only|2|annual|
+lng-conference|LNG2026 / LNGxx triennial conference|https://www.lng2026.com/|conference|GAS|PRC,ROT|IGU / GTI / IIR|INT|global|mixed|proprietary|catalog-only|1|irregular|Edition URL changes; verify current edition.
+wpc-energy|WPC Energy Congress|https://www.world-petroleum.org/|conference|UPS,GAS,REF,H2,CCS|DIG|WPC Energy|GB|global|mixed|proprietary|catalog-only|2|irregular|
+ghgt|GHGT Greenhouse Gas Control Technologies conference|https://ghgt.info/|conference|CCS|PRC|IEAGHG|INT|global|open|CC-BY-NC-ND-4.0|full-text-open|1|irregular|Proceedings on SSRN under open licence (verify per edition).
+whec|World Hydrogen Energy Conference (WHEC)|https://www.iahe.org/|conference|H2|PRC,MAT|International Association for Hydrogen Energy|INT|global|mixed|proprietary|catalog-only|2|irregular|
+turbomachinery-symposium|Turbomachinery and Pump Symposia (Texas A&M)|https://tps.tamu.edu/|conference|MID,GAS,REF,PCH|ROT|Texas A&M Turbomachinery Laboratory|US|global|open|proprietary|full-text-restricted|1|annual|Proceedings freely available via OAKTrust repository.
+asme-turbo-expo|ASME Turbo Expo|https://event.asme.org/Turbo-Expo|conference|PWR,H2,MID|ROT|ASME|US|global|mixed|proprietary|catalog-only|1|annual|
+ampp-annual|AMPP Annual Conference + Expo|https://ace.ampp.org/|conference|UPS,MID,REF|MAT|AMPP|US|global|paywalled|proprietary|catalog-only|1|annual|
+aiche-spring|AIChE Spring Meeting and Global Congress on Process Safety|https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety|conference|REF,PCH,GAS|PRC,HSE|AIChE|US|global|mixed|proprietary|catalog-only|1|annual|
+ertc|ERTC European Refining Technology Conference|https://www.wraconferences.com/|conference|REF,PCH|PRC|World Refining Association|GB|eu|mixed|proprietary|catalog-only|2|annual|
+artc|Asia Refining Technology Conference (ARTC)|https://www.artc.biz/|conference|REF,PCH|PRC|Global Technology Forum|SG|apac,sea|mixed|proprietary|catalog-only|2|annual|Verify URL.
+siew|Asia Pacific Clean Hydrogen / Singapore International Energy Week|https://www.siew.gov.sg/|conference|GAS,PWR,H2,CCS|DIG|Energy Market Authority Singapore|SG|sea|open|proprietary|summary-only|3|annual|
+energy-asia|Energy Asia (Kuala Lumpur)|https://www.energyasia.com.my/|conference|UPS,GAS,H2,CCS|DIG|PETRONAS|MY|sea|open|proprietary|summary-only|3|irregular|
+ipa-convex|IPA Convention and Exhibition|https://convex.ipa.or.id/|conference|UPS,GAS|PRC|Indonesian Petroleum Association|ID|sea|mixed|proprietary|catalog-only|1|annual|Verify URL.
+spe-apogce|SPE Asia Pacific Oil & Gas Conference (APOGCE)|https://www.spe.org/events/en/|conference|UPS,GAS,CCS|DIG|SPE|INT|apac|mixed|proprietary|catalog-only|1|irregular|Papers in OnePetro.
+# ---------- Patents ----------
+espacenet|Espacenet and EPO Open Patent Services (OPS)|https://www.epo.org/en/searching-for-patents/data/web-services/ops|patents|UPS,MID,GAS,REF,PCH,PWR,H2,CCS|PRC,ROT,INS,MAT,DIG|European Patent Office|INT|global|free-registration|EPO-fair-use|full-text-open|2|weekly|OPS REST API with free registration; fair-use limits apply. Patent text is generally reusable.
+google-patents|Google Patents|https://patents.google.com/|patents|UPS,MID,GAS,REF,PCH,PWR,H2,CCS|PRC,ROT,INS,MAT,DIG|Google|US|global|open|mixed|full-text-open|2|weekly|Bulk data via Google Patents Public Datasets on BigQuery.
+uspto-odp|USPTO Open Data Portal and PatentsView|https://data.uspto.gov/|patents|UPS,MID,GAS,REF,PCH,PWR,H2,CCS|PRC,ROT,INS,MAT,DIG|U.S. Patent and Trademark Office|US|na,global|open|public-domain|full-text-open|2|weekly|
+patentscope|WIPO PATENTSCOPE|https://patentscope.wipo.int/|patents|UPS,MID,GAS,REF,PCH,PWR,H2,CCS|PRC,ROT,INS,MAT,DIG|World Intellectual Property Organization|INT|global|open|proprietary|full-text-open|2|weekly|PCT applications; includes WIPO Green technology database.
+wipo-green|WIPO GREEN technology database|https://wipogreen.wipo.int/|patents|PWR,H2,CCS|PRC|World Intellectual Property Organization|INT|global|open|proprietary|summary-only|2|weekly|Green technologies and needs, strong APAC participation.
+cnipa|CNIPA China National Intellectual Property Administration|https://english.cnipa.gov.cn/|patents|REF,PCH,H2,PWR|PRC,MAT|CNIPA|CN|apac|open|proprietary|full-text-open|2|weekly|
+jpo-jplatpat|J-PlatPat Japan Platform for Patent Information|https://www.j-platpat.inpit.go.jp/|patents|REF,PCH,H2,GAS,PWR|PRC,ROT,MAT|INPIT / JPO|JP|apac|open|proprietary|full-text-open|2|weekly|
+kipris|KIPRIS Korea patent information|https://www.kipris.or.kr/enghome/main.do|patents|GAS,H2,PCH,PWR|PRC,ROT|Korean Intellectual Property Office|KR|apac|open|proprietary|full-text-open|2|weekly|
+dgip-indonesia|DGIP Indonesia patent database (PDKI)|https://pdki-indonesia.dgip.go.id/|patents|UPS,REF,PCH|PRC|Directorate General of Intellectual Property|ID|sea|open|proprietary|full-text-open|2|weekly|
+myipo|MyIPO Malaysia patent search|https://iponlineext.myipo.gov.my/|patents|UPS,REF,PCH|PRC|Intellectual Property Corporation of Malaysia|MY|sea|open|proprietary|full-text-open|2|weekly|Verify URL.
+asean-patentscope|ASEAN PATENTSCOPE|https://patentscope.wipo.int/search/en/asean/|patents|UPS,REF,PCH,PWR,H2|PRC|WIPO / ASEAN IP offices|INT|sea|open|proprietary|full-text-open|2|weekly|Verify URL path.
+lens-org|The Lens patents and scholarly works|https://www.lens.org/|patents|UPS,MID,GAS,REF,PCH,PWR,H2,CCS|PRC,ROT,INS,MAT,DIG|Cambia|AU|global|free-registration|mixed|summary-only|2|weekly|API with free scholarly-use key.
+# ---------- Trade media (latest technologies) ----------
+hydrocarbon-processing|Hydrocarbon Processing|https://www.hydrocarbonprocessing.com/|trade-media|REF,PCH,GAS,H2|PRC,ROT,INS|Gulf Energy Information|US|global|mixed|proprietary|summary-only|2|daily|Process handbooks (Refining, Petrochemical, Gas Processing) list licensor processes.
+ogj|Oil & Gas Journal|https://www.ogj.com/|trade-media|UPS,MID,GAS,REF,PCH|PRC|Endeavor Business Media|US|global|mixed|proprietary|summary-only|2|daily|
+world-oil|World Oil|https://www.worldoil.com/|trade-media|UPS|DIG,ROT|Gulf Energy Information|US|global|mixed|proprietary|summary-only|2|daily|
+pipeline-gas-journal|Pipeline & Gas Journal|https://pgjonline.com/|trade-media|MID,GAS,H2|MAT,INS|Gulf Energy Information|US|global|mixed|proprietary|summary-only|2|daily|
+lng-industry|LNG Industry|https://www.lngindustry.com/|trade-media|GAS|PRC,ROT|Palladian Publications|GB|global|free-registration|proprietary|summary-only|3|daily|
+hydrocarbon-engineering|Hydrocarbon Engineering|https://www.hydrocarbonengineering.com/|trade-media|REF,PCH,GAS|PRC,ROT|Palladian Publications|GB|global|free-registration|proprietary|summary-only|3|daily|
+ptq-digital-refining|PTQ Petroleum Technology Quarterly / Digital Refining|https://www.digitalrefining.com/|trade-media|REF,PCH,GAS|PRC|Crambeth Allen Publishing|GB|global|free-registration|proprietary|summary-only|2|weekly|Technical articles from licensors and refiners.
+chemical-engineering-mag|Chemical Engineering magazine|https://www.chemengonline.com/|trade-media|REF,PCH|PRC,ROT|Access Intelligence|US|global|mixed|proprietary|summary-only|2|weekly|
+offshore-mag|Offshore magazine|https://www.offshore-mag.com/|trade-media|UPS,PWR|MAT,ROT|Endeavor Business Media|US|global|open|proprietary|summary-only|3|daily|
+offshore-technology|Offshore Technology|https://www.offshore-technology.com/|trade-media|UPS,PWR|DIG|GlobalData|GB|global|open|proprietary|summary-only|3|daily|
+h2-view|H2 View|https://www.h2-view.com/|trade-media|H2|PRC|H2 View|GB|global|open|proprietary|summary-only|3|daily|
+carbon-herald|Carbon Herald|https://carbonherald.com/|trade-media|CCS|PRC|Carbon Herald|BG|global|open|proprietary|summary-only|3|daily|
+rigzone|Rigzone|https://www.rigzone.com/|trade-media|UPS,GAS|DIG|Rigzone|US|global|open|proprietary|summary-only|3|daily|
+energy-voice|Energy Voice|https://www.energyvoice.com/|trade-media|UPS,GAS,PWR,H2,CCS|DIG|DC Thomson|GB|global|open|proprietary|summary-only|3|daily|
+asian-oil-gas|Asian Oil & Gas (AOG) magazine|https://www.aogdigital.com/|trade-media|UPS,GAS,REF|DIG|AOG Digital|SG|sea,apac|open|proprietary|summary-only|3|daily|
+the-edge-energy|The Edge Malaysia energy coverage|https://theedgemalaysia.com/|trade-media|UPS,GAS,PWR|DIG|The Edge Communications|MY|sea|mixed|proprietary|catalog-only|3|daily|
+petromindo|Petromindo Indonesia energy news|https://www.petromindo.com/|trade-media|UPS,GAS,PWR|DIG|Petromindo|ID|sea|mixed|proprietary|catalog-only|3|daily|
+icis|ICIS chemicals and energy news|https://www.icis.com/explore/|trade-media|PCH,GAS,H2|DIG|ICIS (LSEG)|GB|global,apac|paywalled|proprietary|catalog-only|2|daily|Mostly paid; revisit with subscription.
+# ---------- Universities and research institutes ----------
+mit-energy|MIT Energy Initiative|https://energy.mit.edu/|research-institute|PWR,H2,CCS|PRC,DIG|Massachusetts Institute of Technology|US|global|open|proprietary|full-text-restricted|1|monthly|
+stanford-gcep|Stanford Doerr School of Sustainability energy research|https://sustainability.stanford.edu/|research-institute|PWR,H2,CCS,UPS|PRC|Stanford University|US|global|open|proprietary|summary-only|1|monthly|
+oxford-oies|Oxford Institute for Energy Studies (OIES)|https://www.oxfordenergy.org/|research-institute|GAS,UPS,H2,PWR|DIG|OIES|GB|global,apac|open|proprietary|full-text-restricted|1|weekly|Strong Asian LNG and gas market research.
+columbia-cgep|Columbia Center on Global Energy Policy|https://www.energypolicy.columbia.edu/|research-institute|UPS,GAS,H2,CCS|DIG|Columbia University|US|global|open|proprietary|full-text-restricted|1|weekly|
+ifpen|IFP Energies nouvelles|https://www.ifpenergiesnouvelles.com/|research-institute|UPS,REF,PCH,H2,CCS|PRC,MAT|IFPEN|FR|eu,global|open|proprietary|full-text-restricted|1|monthly|Publishes OGST/Science and Technology for Energy Transition (open access).
+step-journal|Science and Technology for Energy Transition (STET, IFPEN)|https://www.stet-review.org/|journal|UPS,REF,H2,CCS|PRC|EDP Sciences / IFPEN|FR|global|open|CC-BY-4.0|full-text-open|1|monthly|Successor to Oil & Gas Science and Technology.
+sintef|SINTEF Energy|https://www.sintef.no/en/energy/|research-institute|UPS,GAS,H2,CCS|PRC,MAT|SINTEF|NO|eu,global|open|mixed-per-paper|full-text-restricted|1|weekly|
+tno|TNO energy and materials transition|https://www.tno.nl/en/sustainable/|research-institute|H2,CCS,PCH|PRC|TNO|NL|eu|open|proprietary|full-text-restricted|1|monthly|
+fraunhofer-ise|Fraunhofer ISE|https://www.ise.fraunhofer.de/en.html|research-institute|PWR,H2|PRC|Fraunhofer|DE|eu,global|open|proprietary|full-text-restricted|1|monthly|
+gti-energy|GTI Energy|https://www.gti.energy/|research-institute|GAS,H2,MID,CCS|PRC,MAT|GTI Energy|US|global|mixed|proprietary|summary-only|1|monthly|
+swri|Southwest Research Institute (SwRI) energy|https://www.swri.org/industries/energy|research-institute|MID,PWR,H2|ROT,MAT|SwRI|US|global|open|proprietary|summary-only|1|irregular|Supercritical CO2, compressor testing.
+utp|Universiti Teknologi PETRONAS (UTP) research|https://www.utp.edu.my/|research-institute|UPS,GAS,REF,CCS|PRC,MAT|Universiti Teknologi PETRONAS|MY|sea|open|mixed-per-paper|full-text-restricted|1|weekly|Institutional repository (UTPedia).
+itb-indonesia|Institut Teknologi Bandung energy research|https://www.itb.ac.id/|research-institute|UPS,GAS,PWR,CCS|PRC|ITB|ID|sea|open|mixed-per-paper|full-text-restricted|1|weekly|Petroleum engineering; CCS Center of Excellence.
+nus-energy|NUS Energy Studies Institute|https://esi.nus.edu.sg/|research-institute|GAS,PWR,H2|DIG|National University of Singapore|SG|sea|open|proprietary|full-text-restricted|1|monthly|
+ntu-erian|NTU Energy Research Institute (ERI@N)|https://www.ntu.edu.sg/erian|research-institute|PWR,H2|PRC|Nanyang Technological University|SG|sea|open|proprietary|summary-only|1|monthly|
+chula-petroleum|Chulalongkorn Petroleum and Petrochemical College|https://www.ppc.chula.ac.th/|research-institute|REF,PCH|PRC|Chulalongkorn University|TH|sea|open|mixed-per-paper|full-text-restricted|1|irregular|
+aist-japan|AIST Japan energy and environment research|https://www.aist.go.jp/index_en.html|research-institute|H2,CCS,PCH|PRC,MAT|AIST|JP|apac|open|proprietary|full-text-restricted|1|monthly|Fukushima Renewable Energy Institute.
+kist|KIST Korea Institute of Science and Technology|https://www.kist.re.kr/eng/|research-institute|H2,PCH|PRC,MAT|KIST|KR|apac|open|proprietary|summary-only|1|monthly|
+dicp-cas|Dalian Institute of Chemical Physics (CAS)|https://english.dicp.cas.cn/|research-institute|PCH,H2,REF|PRC|Chinese Academy of Sciences|CN|apac,global|open|proprietary|summary-only|1|monthly|Methanol-to-olefins (DMTO) origin.
+iitb-ccus|IIT Bombay National Centre of Excellence in CCUS|https://www.iitb.ac.in/|research-institute|CCS,H2|PRC|IIT Bombay|IN|apac|open|proprietary|summary-only|1|irregular|Verify centre URL.
+uq-energy|University of Queensland energy and CCS research|https://energy.uq.edu.au/|research-institute|GAS,CCS,H2|PRC|University of Queensland|AU|apac|open|proprietary|full-text-restricted|1|monthly|
+co2crc|CO2CRC Otway International Test Centre|https://co2crc.com.au/|research-institute|CCS|PRC,DIG|CO2CRC|AU|apac|open|proprietary|full-text-restricted|1|irregular|
+# ---------- Digital and data standards ----------
+osdu|OSDU Data Platform (The Open Group)|https://osduforum.org/|association|UPS,MID|DIG|The Open Group|US|global|open|Apache-2.0|full-text-open|2|monthly|Open-source subsurface and wells data platform; code under Apache 2.0.
+dexpi|DEXPI P&ID data exchange standard|https://dexpi.org/|standards-body|REF,PCH,GAS|DIG,PRC|DEXPI Initiative|DE|global|open|proprietary|full-text-restricted|2|irregular|Machine-readable P&IDs.
+cfihos|CFIHOS Capital Facilities Information Handover Specification|https://www.jip36-cfihos.org/|standards-body|UPS,REF,PCH,GAS|DIG|IOGP JIP36|INT|global|open|proprietary|full-text-restricted|2|irregular|
+iso-15926|ISO 15926 / POSC Caesar reference data library|https://www.posccaesar.org/|standards-body|UPS,REF,PCH|DIG|POSC Caesar Association|NO|global|open|proprietary|full-text-restricted|2|irregular|
+energistics|Energistics standards (WITSML, PRODML, RESQML)|https://energistics.org/|standards-body|UPS|DIG|The Open Group|US|global|open|proprietary|full-text-restricted|2|irregular|
+opc-foundation|OPC Foundation (OPC UA)|https://opcfoundation.org/|standards-body|UPS,REF,PCH,PWR|INS,DIG|OPC Foundation|US|global|free-registration|proprietary|catalog-only|2|irregular|
+namur|NAMUR (NOA, MTP, NE recommendations)|https://www.namur.net/en/|association|PCH,REF|INS,DIG|NAMUR|DE|eu,global|mixed|proprietary|catalog-only|2|irregular|

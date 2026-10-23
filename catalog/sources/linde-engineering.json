@@ -1,0 +1,29 @@
+{
+  "id": "linde-engineering",
+  "name": "Linde Engineering",
+  "url": "https://www.linde-engineering.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "GAS",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Linde",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Air separation, LNG, olefin plants, hydrogen and synthesis gas.",
+  "verification": "unverified",
+  "last_verified": null
+}

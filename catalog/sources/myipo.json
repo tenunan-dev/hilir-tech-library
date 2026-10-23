@@ -1,0 +1,27 @@
+{
+  "id": "myipo",
+  "name": "MyIPO Malaysia patent search",
+  "url": "https://iponlineext.myipo.gov.my/",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Intellectual Property Corporation of Malaysia",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Verify URL.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "global-ccs-institute",
+  "name": "Global CCS Institute publications",
+  "url": "https://www.globalccsinstitute.com/resources/publications-reports-research/",
+  "source_type": "association",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Global CCS Institute",
+  "country": "AU",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Global Status of CCS report; free with registration.",
+  "verification": "unverified",
+  "last_verified": null
+}

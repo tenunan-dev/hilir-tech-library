@@ -1,0 +1,28 @@
+{
+  "id": "csb",
+  "name": "US Chemical Safety Board investigations",
+  "url": "https://www.csb.gov/",
+  "source_type": "agency-data",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "U.S. Chemical Safety and Hazard Investigation Board",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Incident reports and safety videos.",
+  "verification": "unverified",
+  "last_verified": null
+}

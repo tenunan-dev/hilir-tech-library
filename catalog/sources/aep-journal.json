@@ -1,0 +1,29 @@
+{
+  "id": "aep-journal",
+  "name": "Australian Energy Producers Journal (CSIRO Publishing)",
+  "url": "https://www.publish.csiro.au/ep",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "CSIRO Publishing",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Some OA papers under CC BY.",
+  "verification": "unverified",
+  "last_verified": null
+}

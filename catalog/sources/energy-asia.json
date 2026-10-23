@@ -1,0 +1,27 @@
+{
+  "id": "energy-asia",
+  "name": "Energy Asia (Kuala Lumpur)",
+  "url": "https://www.energyasia.com.my/",
+  "source_type": "conference",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "PETRONAS",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

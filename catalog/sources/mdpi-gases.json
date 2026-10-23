@@ -1,0 +1,26 @@
+{
+  "id": "mdpi-gases",
+  "name": "Gases (MDPI)",
+  "url": "https://www.mdpi.com/journal/gases",
+  "source_type": "journal",
+  "sectors": [
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "MDPI AG",
+  "country": "CH",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

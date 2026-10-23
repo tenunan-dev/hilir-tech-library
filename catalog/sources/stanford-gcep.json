@@ -1,0 +1,27 @@
+{
+  "id": "stanford-gcep",
+  "name": "Stanford Doerr School of Sustainability energy research",
+  "url": "https://sustainability.stanford.edu/",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Stanford University",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

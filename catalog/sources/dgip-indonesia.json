@@ -1,0 +1,26 @@
+{
+  "id": "dgip-indonesia",
+  "name": "DGIP Indonesia patent database (PDKI)",
+  "url": "https://pdki-indonesia.dgip.go.id/",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Directorate General of Intellectual Property",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

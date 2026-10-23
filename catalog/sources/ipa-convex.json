@@ -1,0 +1,26 @@
+{
+  "id": "ipa-convex",
+  "name": "IPA Convention and Exhibition",
+  "url": "https://convex.ipa.or.id/",
+  "source_type": "conference",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Indonesian Petroleum Association",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "URL confirmed 2026-10-23 as the IPA Convex site; paper access terms not stated.",
+  "verification": "unverified",
+  "last_verified": null
+}

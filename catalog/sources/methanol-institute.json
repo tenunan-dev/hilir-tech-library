@@ -1,0 +1,28 @@
+{
+  "id": "methanol-institute",
+  "name": "Methanol Institute",
+  "url": "https://www.methanol.org/",
+  "source_type": "association",
+  "sectors": [
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Methanol Institute",
+  "country": "US",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Singapore office; safe handling manual.",
+  "verification": "unverified",
+  "last_verified": null
+}

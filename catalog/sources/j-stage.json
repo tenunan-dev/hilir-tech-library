@@ -1,0 +1,29 @@
+{
+  "id": "j-stage",
+  "name": "J-STAGE (Japanese journals: JPI, SCEJ)",
+  "url": "https://www.jstage.jst.go.jp/",
+  "source_type": "journal",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Japan Science and Technology Agency",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Journal of the Japan Petroleum Institute; licences vary per journal.",
+  "verification": "unverified",
+  "last_verified": null
+}

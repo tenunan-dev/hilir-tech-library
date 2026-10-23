@@ -1,0 +1,26 @@
+# Two tag axes. Every source carries at least one sector and one discipline.
+sectors:
+  UPS: {name: Upstream, subtopics: [reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience]}
+  MID: {name: Midstream, subtopics: [pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping]}
+  GAS: {name: Gas processing and LNG, subtopics: [gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping]}
+  REF: {name: Refining, subtopics: [crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing]}
+  PCH: {name: Petrochemicals, subtopics: [steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals]}
+  PWR: {name: Power and renewables, subtopics: [gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid]}
+  H2:  {name: Hydrogen and low-carbon fuels, subtopics: [electrolysis, blue-hydrogen, ammonia, e-fuels, saf, biofuels, biogas]}
+  CCS: {name: CCUS, subtopics: [capture, co2-transport, storage-mrv, utilisation, direct-air-capture]}
+disciplines:
+  PRC: {name: Process systems, subtopics: [simulation, process-design, heat-integration, separation, reaction-engineering, catalysis]}
+  ROT: {name: Rotating and static equipment, subtopics: [compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals]}
+  INS: {name: Instrumentation and control, subtopics: [dcs, sis, analysers, apc, ot-cybersecurity, metering]}
+  MAT: {name: Materials and integrity, subtopics: [corrosion, metallurgy, coatings, inspection, rbi, non-metallics]}
+  HSE: {name: Health, safety and environment, subtopics: [process-safety, methane, flaring, emissions, regulation, decommissioning]}
+  DIG: {name: Digital, subtopics: [digital-twin, ai-ml, iiot, data-standards, cloud]}
+regions:
+  global: Worldwide scope
+  apac: Asia Pacific
+  sea: Southeast Asia
+  me: Middle East
+  eu: Europe
+  na: North America
+  latam: Latin America
+  af: Africa

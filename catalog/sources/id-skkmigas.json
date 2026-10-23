@@ -1,0 +1,26 @@
+{
+  "id": "id-skkmigas",
+  "name": "SKK Migas",
+  "url": "https://www.skkmigas.go.id/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "SKK Migas",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Upstream regulator; annual reports.",
+  "verification": "unverified",
+  "last_verified": null
+}

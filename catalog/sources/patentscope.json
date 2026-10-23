@@ -1,0 +1,36 @@
+{
+  "id": "patentscope",
+  "name": "WIPO PATENTSCOPE",
+  "url": "https://patentscope.wipo.int/",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "World Intellectual Property Organization",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "PCT applications; includes WIPO Green technology database.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ccps-beacon",
+  "name": "CCPS Process Safety Beacon",
+  "url": "https://www.aiche.org/ccps/process-safety-beacon",
+  "source_type": "association",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "AIChE CCPS",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Monthly one-page lessons, many languages incl. Bahasa Indonesia and Malay.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingaa",
+  "name": "INGAA Interstate Natural Gas Association of America",
+  "url": "https://ingaa.org/",
+  "source_type": "association",
+  "sectors": [
+    "MID",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "publisher_org": "INGAA",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

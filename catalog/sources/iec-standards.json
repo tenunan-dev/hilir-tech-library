@@ -1,0 +1,30 @@
+{
+  "id": "iec-standards",
+  "name": "IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)",
+  "url": "https://www.iec.ch/standards",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH",
+    "UPS"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "International Electrotechnical Commission",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Functional safety, OT cybersecurity and hazardous-area standards.",
+  "verification": "unverified",
+  "last_verified": null
+}

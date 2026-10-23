@@ -1,0 +1,26 @@
+{
+  "id": "india-cht",
+  "name": "Centre for High Technology (CHT) India",
+  "url": "https://cht.gov.in/",
+  "source_type": "research-institute",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Ministry of Petroleum and Natural Gas",
+  "country": "IN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Refinery technology benchmarking.",
+  "verification": "unverified",
+  "last_verified": null
+}

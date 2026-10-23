@@ -1,0 +1,25 @@
+{
+  "id": "global-ccs-co2re",
+  "name": "Global CCS Institute CO2RE facilities database",
+  "url": "https://www.globalccsinstitute.com/co2re/",
+  "source_type": "association",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Global CCS Institute",
+  "country": "AU",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "quarterly",
+  "notes": "Access terms not stated on landing page; verify at co2re.co.",
+  "verification": "unverified",
+  "last_verified": null
+}

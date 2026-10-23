@@ -1,0 +1,26 @@
+{
+  "id": "ijggc",
+  "name": "International Journal of Greenhouse Gas Control",
+  "url": "https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control",
+  "source_type": "journal",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Elsevier",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Hybrid OA.",
+  "verification": "unverified",
+  "last_verified": null
+}

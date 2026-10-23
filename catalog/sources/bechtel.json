@@ -1,0 +1,27 @@
+{
+  "id": "bechtel",
+  "name": "Bechtel",
+  "url": "https://www.bechtel.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "GAS",
+    "REF",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Bechtel",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "LNG EPC.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mogsc",
+  "name": "Malaysian Oil & Gas Services Council",
+  "url": "https://mogsc.org.my/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "MOGSC",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

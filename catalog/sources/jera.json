@@ -1,0 +1,27 @@
+{
+  "id": "jera",
+  "name": "JERA",
+  "url": "https://www.jera.co.jp/en",
+  "source_type": "licensor",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "JERA",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Ammonia co-firing at Hekinan.",
+  "verification": "unverified",
+  "last_verified": null
+}

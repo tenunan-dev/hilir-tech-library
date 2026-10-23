@@ -1,0 +1,27 @@
+{
+  "id": "id-lemigas",
+  "name": "LEMIGAS Research and Development Centre for Oil and Gas",
+  "url": "https://www.lemigas.esdm.go.id/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "REF",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Ministry of Energy and Mineral Resources",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

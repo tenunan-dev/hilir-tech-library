@@ -1,0 +1,25 @@
+{
+  "id": "ertc",
+  "name": "ERTC European Refining Technology Conference",
+  "url": "https://www.wraconferences.com/",
+  "source_type": "conference",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "World Refining Association",
+  "country": "GB",
+  "regions": [
+    "eu"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

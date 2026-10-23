@@ -1,0 +1,27 @@
+{
+  "id": "petrofac",
+  "name": "Petrofac",
+  "url": "https://www.petrofac.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Petrofac",
+  "country": "GB",
+  "regions": [
+    "me",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

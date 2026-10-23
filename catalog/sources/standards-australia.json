@@ -1,0 +1,27 @@
+{
+  "id": "standards-australia",
+  "name": "Standards Australia (AS 2885 pipelines, AS/NZS 60079)",
+  "url": "https://www.standards.org.au/",
+  "source_type": "standards-body",
+  "sectors": [
+    "MID",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "publisher_org": "Standards Australia",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

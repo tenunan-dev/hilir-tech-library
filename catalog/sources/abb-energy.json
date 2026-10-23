@@ -1,0 +1,29 @@
+{
+  "id": "abb-energy",
+  "name": "ABB Energy Industries",
+  "url": "https://new.abb.com/process-automation/energy-industries",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "publisher_org": "ABB",
+  "country": "CH",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

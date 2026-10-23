@@ -1,0 +1,29 @@
+{
+  "id": "asean-patentscope",
+  "name": "ASEAN PATENTSCOPE",
+  "url": "https://patentscope.wipo.int/search/en/asean/",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "WIPO / ASEAN IP offices",
+  "country": "INT",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Verify URL path.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sinopec-tech",
+  "name": "Sinopec technology licensing",
+  "url": "https://www.sinopecgroup.com/group/en/",
+  "source_type": "licensor",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "China Petrochemical Corporation",
+  "country": "CN",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

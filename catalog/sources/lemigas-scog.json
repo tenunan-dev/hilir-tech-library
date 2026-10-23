@@ -1,0 +1,27 @@
+{
+  "id": "lemigas-scog",
+  "name": "Scientific Contributions Oil and Gas (LEMIGAS)",
+  "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "REF",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "LEMIGAS, Ministry of Energy and Mineral Resources",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "quarterly",
+  "notes": "Open-access journal site confirmed 2026-10-23; licence is on its Copyright & Licensing page, not yet read.",
+  "verification": "unverified",
+  "last_verified": null
+}

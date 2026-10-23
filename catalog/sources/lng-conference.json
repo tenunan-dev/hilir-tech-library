@@ -1,0 +1,26 @@
+{
+  "id": "lng-conference",
+  "name": "LNG2026 / LNGxx triennial conference",
+  "url": "https://www.lng2026.com/",
+  "source_type": "conference",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "IGU / GTI / IIR",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Edition URL changes; verify current edition.",
+  "verification": "unverified",
+  "last_verified": null
+}

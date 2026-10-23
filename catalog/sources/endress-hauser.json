@@ -1,0 +1,29 @@
+{
+  "id": "endress-hauser",
+  "name": "Endress+Hauser",
+  "url": "https://www.endress.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "MID",
+    "REF",
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "publisher_org": "Endress+Hauser",
+  "country": "CH",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Flow, level, analysers; technical information PDFs.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dnv-rules",
+  "name": "DNV Rules and Standards",
+  "url": "https://www.dnv.com/rules-standards/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "MAT",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "DNV",
+  "country": "NO",
+  "regions": [
+    "global"
+  ],
+  "access": "free-registration",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Many offshore standards and recommended practices are free to read online after registration; redistribution not allowed.",
+  "verification": "unverified",
+  "last_verified": null
+}

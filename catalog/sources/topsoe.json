@@ -1,0 +1,28 @@
+{
+  "id": "topsoe",
+  "name": "Topsoe",
+  "url": "https://www.topsoe.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "REF",
+    "H2",
+    "GAS",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Topsoe A/S",
+  "country": "DK",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Hydroprocessing catalysts, SOEC electrolysis, ammonia, methanol, HydroFlex SAF.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "kipris",
+  "name": "KIPRIS Korea patent information",
+  "url": "https://www.kipris.or.kr/enghome/main.do",
+  "source_type": "patents",
+  "sectors": [
+    "GAS",
+    "H2",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Korean Intellectual Property Office",
+  "country": "KR",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

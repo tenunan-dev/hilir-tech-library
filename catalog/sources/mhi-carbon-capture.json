@@ -1,0 +1,26 @@
+{
+  "id": "mhi-carbon-capture",
+  "name": "Mitsubishi Heavy Industries CO2 capture (KM CDR)",
+  "url": "https://www.mhi.com/products/environment/carboncapture.html",
+  "source_type": "licensor",
+  "sectors": [
+    "CCS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Mitsubishi Heavy Industries",
+  "country": "JP",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

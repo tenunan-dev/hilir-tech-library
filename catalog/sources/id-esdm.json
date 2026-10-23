@@ -1,0 +1,30 @@
+{
+  "id": "id-esdm",
+  "name": "Indonesia Ministry of Energy and Mineral Resources (ESDM)",
+  "url": "https://www.esdm.go.id/en",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "Kementerian ESDM",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Handbook of Energy and Economic Statistics of Indonesia.",
+  "verification": "unverified",
+  "last_verified": null
+}

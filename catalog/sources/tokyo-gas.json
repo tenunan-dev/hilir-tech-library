@@ -1,0 +1,26 @@
+{
+  "id": "tokyo-gas",
+  "name": "Tokyo Gas technology",
+  "url": "https://www.tokyo-gas.co.jp/en/",
+  "source_type": "licensor",
+  "sectors": [
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Tokyo Gas",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "e-methane.",
+  "verification": "unverified",
+  "last_verified": null
+}

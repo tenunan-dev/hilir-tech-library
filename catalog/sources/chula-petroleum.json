@@ -1,0 +1,25 @@
+{
+  "id": "chula-petroleum",
+  "name": "Chulalongkorn Petroleum and Petrochemical College",
+  "url": "https://www.ppc.chula.ac.th/",
+  "source_type": "research-institute",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Chulalongkorn University",
+  "country": "TH",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

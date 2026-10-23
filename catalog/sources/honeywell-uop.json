@@ -1,0 +1,29 @@
+{
+  "id": "honeywell-uop",
+  "name": "Honeywell UOP",
+  "url": "https://uop.honeywell.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Honeywell UOP",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Refining, petrochemical, gas processing, renewable fuels (Ecofining), CCS technologies; brochures and papers.",
+  "verification": "unverified",
+  "last_verified": null
+}

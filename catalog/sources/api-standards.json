@@ -1,0 +1,32 @@
+{
+  "id": "api-standards",
+  "name": "API Standards and Publications",
+  "url": "https://www.api.org/products-and-services/standards",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "ROT",
+    "MAT",
+    "INS",
+    "HSE"
+  ],
+  "publisher_org": "American Petroleum Institute",
+  "country": "US",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Full standards sold; annual publications catalog PDF is free.",
+  "verification": "unverified",
+  "last_verified": null
+}

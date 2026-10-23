@@ -1,0 +1,26 @@
+{
+  "id": "itm-power",
+  "name": "ITM Power",
+  "url": "https://itm-power.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "ITM Power",
+  "country": "GB",
+  "regions": [
+    "global",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "PEM electrolysers.",
+  "verification": "unverified",
+  "last_verified": null
+}

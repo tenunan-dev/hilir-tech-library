@@ -1,0 +1,27 @@
+{
+  "id": "ph-doe",
+  "name": "Philippines Department of Energy",
+  "url": "https://doe.gov.ph/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Department of Energy",
+  "country": "PH",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "LNG import terminal regulations, Philippine Energy Plan.",
+  "verification": "unverified",
+  "last_verified": null
+}

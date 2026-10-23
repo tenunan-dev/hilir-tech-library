@@ -1,0 +1,29 @@
+{
+  "id": "india-mopng",
+  "name": "India Ministry of Petroleum and Natural Gas",
+  "url": "https://mopng.gov.in/en",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Ministry of Petroleum and Natural Gas",
+  "country": "IN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "GODL-India",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

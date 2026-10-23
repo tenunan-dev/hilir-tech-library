@@ -1,0 +1,27 @@
+{
+  "id": "rockwell-automation",
+  "name": "Rockwell Automation",
+  "url": "https://www.rockwellautomation.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "INS",
+    "DIG"
+  ],
+  "publisher_org": "Rockwell Automation",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

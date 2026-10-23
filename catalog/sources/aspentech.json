@@ -1,0 +1,31 @@
+{
+  "id": "aspentech",
+  "name": "AspenTech",
+  "url": "https://www.aspentech.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "UPS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Aspen Technology (Emerson)",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Aspen HYSYS and Plus, APC; white papers and webinars.",
+  "verification": "unverified",
+  "last_verified": null
+}

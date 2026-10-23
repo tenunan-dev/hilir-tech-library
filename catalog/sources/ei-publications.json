@@ -1,0 +1,30 @@
+{
+  "id": "ei-publications",
+  "name": "Energy Institute Publications",
+  "url": "https://publishing.energyinst.org/",
+  "source_type": "standards-body",
+  "sectors": [
+    "REF",
+    "MID",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "publisher_org": "Energy Institute",
+  "country": "GB",
+  "regions": [
+    "global",
+    "eu"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Model codes of safe practice; some guidance free.",
+  "verification": "unverified",
+  "last_verified": null
+}

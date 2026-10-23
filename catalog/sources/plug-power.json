@@ -1,0 +1,25 @@
+{
+  "id": "plug-power",
+  "name": "Plug Power",
+  "url": "https://www.plugpower.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Plug Power",
+  "country": "US",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

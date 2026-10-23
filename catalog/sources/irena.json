@@ -1,0 +1,26 @@
+{
+  "id": "irena",
+  "name": "IRENA publications",
+  "url": "https://www.irena.org/Publications",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "International Renewable Energy Agency",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "IRENA-terms",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Reuse allowed with attribution per IRENA copyright notice (verify).",
+  "verification": "unverified",
+  "last_verified": null
+}

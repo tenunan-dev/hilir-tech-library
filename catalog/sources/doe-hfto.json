@@ -1,0 +1,27 @@
+{
+  "id": "doe-hfto",
+  "name": "US DOE Hydrogen and Fuel Cell Technologies Office",
+  "url": "https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office",
+  "source_type": "agency-data",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "U.S. Department of Energy",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Program records, hydrogen shot, technical targets.",
+  "verification": "unverified",
+  "last_verified": null
+}

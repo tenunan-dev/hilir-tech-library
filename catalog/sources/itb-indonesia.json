@@ -1,0 +1,28 @@
+{
+  "id": "itb-indonesia",
+  "name": "Institut Teknologi Bandung energy research",
+  "url": "https://www.itb.ac.id/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "ITB",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "Petroleum engineering; CCS Center of Excellence.",
+  "verification": "unverified",
+  "last_verified": null
+}

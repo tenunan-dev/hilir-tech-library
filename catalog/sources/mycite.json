@@ -1,0 +1,28 @@
+{
+  "id": "mycite",
+  "name": "MyCite Malaysian Citation Centre",
+  "url": "https://mycite.my/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Ministry of Higher Education Malaysia",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "mixed-per-paper",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Malaysian journals index; includes Platform (UTP) journal.",
+  "verification": "unverified",
+  "last_verified": null
+}

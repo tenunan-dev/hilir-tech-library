@@ -1,0 +1,29 @@
+{
+  "id": "norsok-standards",
+  "name": "NORSOK Standards",
+  "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "MAT",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Standards Norway",
+  "country": "NO",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Several NORSOK standards are free to download for personal use.",
+  "verification": "unverified",
+  "last_verified": null
+}

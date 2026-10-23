@@ -1,0 +1,28 @@
+{
+  "id": "turbomachinery-symposium",
+  "name": "Turbomachinery and Pump Symposia (Texas A&M)",
+  "url": "https://tps.tamu.edu/",
+  "source_type": "conference",
+  "sectors": [
+    "MID",
+    "GAS",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Texas A&M Turbomachinery Laboratory",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Proceedings freely available via OAKTrust repository.",
+  "verification": "unverified",
+  "last_verified": null
+}

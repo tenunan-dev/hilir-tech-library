@@ -1,0 +1,27 @@
+{
+  "id": "ipa-indonesia",
+  "name": "Indonesian Petroleum Association (IPA)",
+  "url": "https://www.ipa.or.id/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Indonesian Petroleum Association",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "IPA Convention papers via Search and Discovery and IPA site.",
+  "verification": "unverified",
+  "last_verified": null
+}

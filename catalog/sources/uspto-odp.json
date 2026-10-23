@@ -1,0 +1,36 @@
+{
+  "id": "uspto-odp",
+  "name": "USPTO Open Data Portal and PatentsView",
+  "url": "https://data.uspto.gov/",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "U.S. Patent and Trademark Office",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

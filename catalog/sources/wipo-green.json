@@ -1,0 +1,27 @@
+{
+  "id": "wipo-green",
+  "name": "WIPO GREEN technology database",
+  "url": "https://wipogreen.wipo.int/",
+  "source_type": "patents",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "World Intellectual Property Organization",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Green technologies and needs, strong APAC participation.",
+  "verification": "unverified",
+  "last_verified": null
+}

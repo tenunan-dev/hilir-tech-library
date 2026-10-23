@@ -1,0 +1,28 @@
+{
+  "id": "twi",
+  "name": "TWI The Welding Institute technical knowledge",
+  "url": "https://www.twi-global.com/technical-knowledge",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "H2"
+  ],
+  "disciplines": [
+    "MAT"
+  ],
+  "publisher_org": "TWI Ltd",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "weekly",
+  "notes": "FAQs and published papers on welding, NDT, integrity.",
+  "verification": "unverified",
+  "last_verified": null
+}

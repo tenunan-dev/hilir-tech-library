@@ -1,0 +1,29 @@
+{
+  "id": "chiyoda",
+  "name": "Chiyoda Corporation",
+  "url": "https://www.chiyodacorp.com/en/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "GAS",
+    "REF",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Chiyoda Corporation",
+  "country": "JP",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "LNG EPC; SPERA hydrogen (MCH carrier).",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "sg-ema",
+  "name": "Singapore Energy Market Authority",
+  "url": "https://www.ema.gov.sg/",
+  "source_type": "agency-data",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Energy Market Authority",
+  "country": "SG",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Singapore Energy Statistics, hydrogen and low-carbon import plans.",
+  "verification": "unverified",
+  "last_verified": null
+}

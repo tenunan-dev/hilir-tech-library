@@ -1,0 +1,29 @@
+{
+  "id": "ebara",
+  "name": "Ebara Corporation",
+  "url": "https://www.ebara.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Ebara",
+  "country": "JP",
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Pumps, compressors, cryogenic pumps.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "petroleum-journal-keai",
+  "name": "Petroleum (KeAi)",
+  "url": "https://www.keaipublishing.com/en/journals/petroleum/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Southwest Petroleum University",
+  "country": "CN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "CC-BY-NC-ND-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "quarterly",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ammonia-energy",
+  "name": "Ammonia Energy Association",
+  "url": "https://ammoniaenergy.org/",
+  "source_type": "association",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Ammonia Energy Association",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Articles and conference papers.",
+  "verification": "unverified",
+  "last_verified": null
+}

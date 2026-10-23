@@ -1,0 +1,26 @@
+{
+  "id": "sg-astar-isce2",
+  "name": "A*STAR Institute of Sustainability for Chemicals, Energy and Environment",
+  "url": "https://www.a-star.edu.sg/isce2",
+  "source_type": "research-institute",
+  "sectors": [
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "A*STAR",
+  "country": "SG",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

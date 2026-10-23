@@ -1,0 +1,28 @@
+{
+  "id": "icis",
+  "name": "ICIS chemicals and energy news",
+  "url": "https://www.icis.com/explore/",
+  "source_type": "trade-media",
+  "sectors": [
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "ICIS (LSEG)",
+  "country": "GB",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Mostly paid; revisit with subscription.",
+  "verification": "unverified",
+  "last_verified": null
+}

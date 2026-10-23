@@ -1,0 +1,28 @@
+{
+  "id": "otc",
+  "name": "Offshore Technology Conference (OTC)",
+  "url": "https://www.otcnet.org/",
+  "source_type": "conference",
+  "sectors": [
+    "UPS",
+    "PWR",
+    "CCS"
+  ],
+  "disciplines": [
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "OTC",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Papers in OnePetro; programme free.",
+  "verification": "unverified",
+  "last_verified": null
+}

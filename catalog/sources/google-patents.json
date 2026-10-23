@@ -1,0 +1,36 @@
+{
+  "id": "google-patents",
+  "name": "Google Patents",
+  "url": "https://patents.google.com/",
+  "source_type": "patents",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "PCH",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "INS",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "Google",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "mixed",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Bulk data via Google Patents Public Datasets on BigQuery.",
+  "verification": "unverified",
+  "last_verified": null
+}

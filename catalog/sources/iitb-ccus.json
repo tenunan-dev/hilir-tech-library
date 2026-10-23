@@ -1,0 +1,26 @@
+{
+  "id": "iitb-ccus",
+  "name": "IIT Bombay National Centre of Excellence in CCUS",
+  "url": "https://www.iitb.ac.in/",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "IIT Bombay",
+  "country": "IN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Verify centre URL.",
+  "verification": "unverified",
+  "last_verified": null
+}

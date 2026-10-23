@@ -1,0 +1,28 @@
+{
+  "id": "cnipa",
+  "name": "CNIPA China National Intellectual Property Administration",
+  "url": "https://english.cnipa.gov.cn/",
+  "source_type": "patents",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "CNIPA",
+  "country": "CN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

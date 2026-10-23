@@ -1,0 +1,27 @@
+{
+  "id": "gastech",
+  "name": "Gastech",
+  "url": "https://www.gastechevent.com/",
+  "source_type": "conference",
+  "sectors": [
+    "GAS",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "dmg events",
+  "country": "INT",
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "verification": "unverified",
+  "last_verified": null
+}

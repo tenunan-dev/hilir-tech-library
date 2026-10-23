@@ -1,0 +1,26 @@
+{
+  "id": "corrosion-journal",
+  "name": "CORROSION journal (AMPP)",
+  "url": "https://content.ampp.org/corrosion",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF"
+  ],
+  "disciplines": [
+    "MAT"
+  ],
+  "publisher_org": "AMPP",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

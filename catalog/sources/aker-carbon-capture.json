@@ -1,0 +1,25 @@
+{
+  "id": "aker-carbon-capture",
+  "name": "SLB Capturi (formerly Aker Carbon Capture)",
+  "url": "https://www.slbcapturi.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "SLB Capturi",
+  "country": "NO",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Just Catch modular amine capture.",
+  "verification": "unverified",
+  "last_verified": null
+}

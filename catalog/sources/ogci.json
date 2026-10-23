@@ -1,0 +1,27 @@
+{
+  "id": "ogci",
+  "name": "Oil and Gas Climate Initiative",
+  "url": "https://www.ogci.com/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "CCS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "OGCI",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "CCUS hubs, methane reduction.",
+  "verification": "unverified",
+  "last_verified": null
+}

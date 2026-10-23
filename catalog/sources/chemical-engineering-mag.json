@@ -1,0 +1,26 @@
+{
+  "id": "chemical-engineering-mag",
+  "name": "Chemical Engineering magazine",
+  "url": "https://www.chemengonline.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "publisher_org": "Access Intelligence",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cnpc-etri",
+  "name": "CNPC Economics and Technology Research Institute",
+  "url": "https://www.cnpc.com.cn/en/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "China National Petroleum Corporation",
+  "country": "CN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Annual oil and gas industry development report.",
+  "verification": "unverified",
+  "last_verified": null
+}

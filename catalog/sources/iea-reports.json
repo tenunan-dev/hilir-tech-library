@@ -1,0 +1,31 @@
+{
+  "id": "iea-reports",
+  "name": "IEA reports and analysis",
+  "url": "https://www.iea.org/analysis",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "International Energy Agency",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "CC-licensed IEA content is used under the CC licence plus IEA-specific terms (logos, third-party content excluded); non-CC material has separate terms. Check the licence on each report. Terms: https://www.iea.org/terms/creative-commons-cc-licenses",
+  "verification": "unverified",
+  "last_verified": null
+}

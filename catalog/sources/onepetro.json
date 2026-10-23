@@ -1,0 +1,32 @@
+{
+  "id": "onepetro",
+  "name": "OnePetro (SPE, OTC, IPTC, URTeC papers)",
+  "url": "https://onepetro.org/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG",
+    "MAT",
+    "HSE",
+    "PRC"
+  ],
+  "publisher_org": "Society of Petroleum Engineers",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "daily",
+  "notes": "Abstracts free; full papers paywalled except open-access subset. Revisit when API key or subscription is available.",
+  "verification": "unverified",
+  "last_verified": null
+}

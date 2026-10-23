@@ -1,0 +1,25 @@
+{
+  "id": "co2crc",
+  "name": "CO2CRC Otway International Test Centre",
+  "url": "https://co2crc.com.au/",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "CO2CRC",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

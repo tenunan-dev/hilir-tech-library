@@ -1,0 +1,26 @@
+{
+  "id": "thyssenkrupp-uhde",
+  "name": "thyssenkrupp Uhde",
+  "url": "https://www.thyssenkrupp-uhde.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "thyssenkrupp Uhde",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Ammonia, fertiliser, green chemicals; nucera alkaline electrolysis.",
+  "verification": "unverified",
+  "last_verified": null
+}

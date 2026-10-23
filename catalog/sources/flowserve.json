@@ -1,0 +1,29 @@
+{
+  "id": "flowserve",
+  "name": "Flowserve",
+  "url": "https://www.flowserve.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Flowserve",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Pumps, seals, valves.",
+  "verification": "unverified",
+  "last_verified": null
+}

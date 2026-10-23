@@ -1,0 +1,32 @@
+{
+  "id": "osti",
+  "name": "OSTI.GOV DOE scientific and technical information",
+  "url": "https://www.osti.gov/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "REF",
+    "H2",
+    "CCS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT",
+    "DIG"
+  ],
+  "publisher_org": "U.S. DOE Office of Scientific and Technical Information",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "daily",
+  "notes": "Most DOE-funded reports are public domain; journal manuscripts may have publisher terms.",
+  "verification": "unverified",
+  "last_verified": null
+}

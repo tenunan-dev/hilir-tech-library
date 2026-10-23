@@ -1,0 +1,25 @@
+{
+  "id": "subsea7",
+  "name": "Subsea7",
+  "url": "https://www.subsea7.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "UPS",
+    "PWR"
+  ],
+  "disciplines": [
+    "MAT"
+  ],
+  "publisher_org": "Subsea7",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

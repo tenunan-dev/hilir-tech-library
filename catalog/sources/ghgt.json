@@ -1,0 +1,25 @@
+{
+  "id": "ghgt",
+  "name": "GHGT Greenhouse Gas Control Technologies conference",
+  "url": "https://ghgt.info/",
+  "source_type": "conference",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "IEAGHG",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-NC-ND-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Proceedings on SSRN under open licence (verify per edition).",
+  "verification": "unverified",
+  "last_verified": null
+}

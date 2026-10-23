@@ -1,0 +1,27 @@
+{
+  "id": "ascope",
+  "name": "ASCOPE ASEAN Council on Petroleum",
+  "url": "https://www.ascope.org/",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "ASCOPE",
+  "country": "INT",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Trans-ASEAN Gas Pipeline.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,30 @@
+{
+  "id": "jis-japan",
+  "name": "Japanese Industrial Standards (JISC)",
+  "url": "https://www.jisc.go.jp/eng/",
+  "source_type": "standards-body",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "MAT",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "Japanese Industrial Standards Committee",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "JIS can be viewed free on the JISC site but not downloaded.",
+  "verification": "unverified",
+  "last_verified": null
+}

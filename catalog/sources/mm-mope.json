@@ -1,0 +1,26 @@
+{
+  "id": "mm-mope",
+  "name": "Myanmar Ministry of Energy",
+  "url": "https://www.moee.gov.mm/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Ministry of Energy",
+  "country": "MM",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Verify URL; site availability is unreliable.",
+  "verification": "unverified",
+  "last_verified": null
+}

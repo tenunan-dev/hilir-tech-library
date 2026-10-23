@@ -1,0 +1,30 @@
+{
+  "id": "sac-china",
+  "name": "Standardization Administration of China (GB standards)",
+  "url": "https://www.sac.gov.cn/",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "publisher_org": "Standardization Administration of China",
+  "country": "CN",
+  "regions": [
+    "apac"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Some mandatory GB standards are free to view online.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ei-statistical-review",
+  "name": "Energy Institute Statistical Review of World Energy",
+  "url": "https://www.energyinst.org/statistical-review",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Energy Institute",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Data downloadable; reuse with attribution (verify).",
+  "verification": "unverified",
+  "last_verified": null
+}

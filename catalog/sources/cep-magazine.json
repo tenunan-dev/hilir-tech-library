@@ -1,0 +1,29 @@
+{
+  "id": "cep-magazine",
+  "name": "Chemical Engineering Progress (CEP)",
+  "url": "https://www.aiche.org/resources/publications/cep",
+  "source_type": "trade-media",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "HSE"
+  ],
+  "publisher_org": "AIChE",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "keei",
+  "name": "Korea Energy Economics Institute (KEEI)",
+  "url": "https://www.keei.re.kr/main.nsf/index_en.html",
+  "source_type": "research-institute",
+  "sectors": [
+    "GAS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "KEEI",
+  "country": "KR",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Verify English site URL.",
+  "verification": "unverified",
+  "last_verified": null
+}

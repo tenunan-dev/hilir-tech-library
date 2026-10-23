@@ -1,0 +1,31 @@
+{
+  "id": "ifpen",
+  "name": "IFP Energies nouvelles",
+  "url": "https://www.ifpenergiesnouvelles.com/",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "IFPEN",
+  "country": "FR",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Publishes OGST/Science and Technology for Energy Transition (open access).",
+  "verification": "unverified",
+  "last_verified": null
+}

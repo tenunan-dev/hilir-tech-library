@@ -1,0 +1,24 @@
+{
+  "id": "sigtto",
+  "name": "SIGTTO Society of International Gas Tanker and Terminal Operators",
+  "url": "https://www.sigtto.org/",
+  "source_type": "association",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "SIGTTO",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "verification": "unverified",
+  "last_verified": null
+}

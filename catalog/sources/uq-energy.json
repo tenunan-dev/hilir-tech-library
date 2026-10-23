@@ -1,0 +1,26 @@
+{
+  "id": "uq-energy",
+  "name": "University of Queensland energy and CCS research",
+  "url": "https://energy.uq.edu.au/",
+  "source_type": "research-institute",
+  "sectors": [
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "University of Queensland",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "verification": "unverified",
+  "last_verified": null
+}

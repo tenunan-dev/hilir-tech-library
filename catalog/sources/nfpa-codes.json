@@ -1,0 +1,29 @@
+{
+  "id": "nfpa-codes",
+  "name": "NFPA Codes and Standards",
+  "url": "https://www.nfpa.org/codes-and-standards",
+  "source_type": "standards-body",
+  "sectors": [
+    "GAS",
+    "REF",
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "National Fire Protection Association",
+  "country": "US",
+  "regions": [
+    "global",
+    "na"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Free read-only access to many codes; NFPA 59A LNG, NFPA 2 hydrogen.",
+  "verification": "unverified",
+  "last_verified": null
+}

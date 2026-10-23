@@ -1,0 +1,28 @@
+{
+  "id": "energy-voice",
+  "name": "Energy Voice",
+  "url": "https://www.energyvoice.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "DC Thomson",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "unverified",
+  "last_verified": null
+}

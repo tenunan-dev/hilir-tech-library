@@ -1,0 +1,28 @@
+{
+  "id": "dexpi",
+  "name": "DEXPI P&ID data exchange standard",
+  "url": "https://dexpi.org/",
+  "source_type": "standards-body",
+  "sectors": [
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "DIG",
+    "PRC"
+  ],
+  "publisher_org": "DEXPI Initiative",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Machine-readable P&IDs.",
+  "verification": "unverified",
+  "last_verified": null
+}

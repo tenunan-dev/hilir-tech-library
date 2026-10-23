@@ -1,0 +1,31 @@
+{
+  "id": "siemens-energy",
+  "name": "Siemens Energy",
+  "url": "https://www.siemens-energy.com/global/en/home.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "ROT",
+    "INS",
+    "DIG"
+  ],
+  "publisher_org": "Siemens Energy",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Compressors, gas and steam turbines, electrolysers.",
+  "verification": "unverified",
+  "last_verified": null
+}

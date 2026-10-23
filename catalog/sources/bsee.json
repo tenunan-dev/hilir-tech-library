@@ -1,0 +1,26 @@
+{
+  "id": "bsee",
+  "name": "US BSEE offshore safety and technology",
+  "url": "https://www.bsee.gov/",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "MAT"
+  ],
+  "publisher_org": "Bureau of Safety and Environmental Enforcement",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Technology assessment programme reports.",
+  "verification": "unverified",
+  "last_verified": null
+}
