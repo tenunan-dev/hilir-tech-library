@@ -1,0 +1,29 @@
+{
+  "id": "misc-group",
+  "name": "MISC Group (LNG shipping, FPSO and offshore)",
+  "url": "https://www.miscgroup.com/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "GAS",
+    "MID",
+    "UPS"
+  ],
+  "disciplines": [
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "MISC Berhad (PETRONAS group)",
+  "country": "MY",
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Malaysian LNG carrier fleet, FSU/FLNG and FPSO projects, marine decarbonisation (ammonia and LNG-fuelled vessels). Parent of MMHE. Terms not yet checked.",
+  "verification": "unverified",
+  "last_verified": null
+}

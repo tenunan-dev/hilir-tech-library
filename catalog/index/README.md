@@ -1,23 +1,23 @@
 # Catalog summary
 
-342 sources in total.
+343 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| GAS | 180 |
+| GAS | 181 |
 | H2 | 179 |
 | PRC | 177 |
-| UPS | 172 |
+| UPS | 173 |
 | REF | 152 |
 | PCH | 130 |
-| DIG | 123 |
+| DIG | 124 |
 | CCS | 121 |
 | PWR | 112 |
 | MAT | 76 |
-| HSE | 68 |
-| MID | 67 |
+| HSE | 69 |
+| MID | 68 |
 | ROT | 61 |
 | INS | 27 |
 
@@ -26,8 +26,8 @@
 | Value | Sources |
 | --- | --- |
 | global | 221 |
-| apac | 77 |
-| sea | 53 |
+| apac | 78 |
+| sea | 54 |
 | eu | 24 |
 | na | 22 |
 | me | 13 |
@@ -45,7 +45,7 @@
 | standards-body | 26 |
 | trade-media | 20 |
 | conference | 19 |
-| epc-contractor | 16 |
+| epc-contractor | 17 |
 | patents | 12 |
 
 ## By reuse level
@@ -53,7 +53,7 @@
 | Value | Sources |
 | --- | --- |
 | full-text-restricted | 118 |
-| summary-only | 106 |
+| summary-only | 107 |
 | catalog-only | 68 |
 | full-text-open | 50 |
 
@@ -61,5 +61,5 @@
 
 | Value | Sources |
 | --- | --- |
-| unverified | 216 |
+| unverified | 217 |
 | verified | 126 |

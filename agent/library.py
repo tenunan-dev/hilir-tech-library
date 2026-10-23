@@ -14,12 +14,32 @@ import re
 import sqlite3
 import sys
 
+import yaml
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
 DB_PATH = ROOT / "build" / "library.db"
 CHUNK_CHARS = 1200
 # Asia Pacific and Southeast Asia sources rank slightly higher, per the library's regional focus.
 REGION_BOOST = {"sea": 1.25, "apac": 1.15}
+COUNTRIES = {
+    "AE": "United Arab Emirates", "AU": "Australia", "BE": "Belgium", "BG": "Bulgaria", "BN": "Brunei",
+    "CH": "Switzerland", "CN": "China", "DE": "Germany", "DK": "Denmark", "FI": "Finland", "FR": "France",
+    "GB": "United Kingdom UK", "ID": "Indonesia", "IN": "India", "IT": "Italy", "JP": "Japan", "KR": "Korea",
+    "MM": "Myanmar", "MY": "Malaysia", "NL": "Netherlands", "NO": "Norway", "PH": "Philippines", "QA": "Qatar",
+    "SA": "Saudi Arabia", "SE": "Sweden", "SG": "Singapore", "TH": "Thailand", "US": "United States USA",
+    "VN": "Vietnam", "INT": "International",
+}
+# BM25 weights per column (kind, ref, source_id, title, text, tags): a match in the name or text
+# counts more than one in the taxonomy labels every record of a sector shares.
+BM25 = "bm25(search, 0, 0, 0, 3.0, 1.0, 0.4)"
+
+
+def taxonomy_labels():
+    tax = yaml.safe_load((ROOT / "taxonomy.yaml").read_text(encoding="utf-8"))
+    labels = {code: info["name"] for code, info in {**tax["sectors"], **tax["disciplines"]}.items()}
+    labels.update(tax["regions"])
+    return labels
 
 
 def connect(path=None):
@@ -63,9 +83,13 @@ def chunk(body, size=CHUNK_CHARS):
 
 
 def source_text(rec):
-    parts = [rec["name"], rec["publisher_org"], rec.get("notes", ""), rec["source_type"],
-             " ".join(rec["sectors"] + rec["disciplines"] + rec["regions"])]
-    return "\n".join(p for p in parts if p)
+    return "\n".join(p for p in (rec["publisher_org"], rec.get("notes", ""), rec["source_type"]) if p)
+
+
+def tag_text(meta, labels):
+    """Codes plus their names, country and region names, so "LNG Malaysia" reaches GAS records in MY."""
+    codes = meta.get("sectors", []) + meta.get("disciplines", []) + meta.get("regions", [])
+    return " ".join(codes + [labels.get(c, "") for c in codes] + [COUNTRIES.get(meta.get("country"), "")])
 
 
 def build(db_path=None, corpus=None):
@@ -79,14 +103,17 @@ def build(db_path=None, corpus=None):
         CREATE TABLE sources (id TEXT PRIMARY KEY, record TEXT NOT NULL);
         CREATE TABLE docs (path TEXT PRIMARY KEY, source_id TEXT, title TEXT, url TEXT, meta TEXT);
         CREATE VIRTUAL TABLE search USING fts5(kind UNINDEXED, ref UNINDEXED, source_id UNINDEXED,
-                                               title, text, tokenize='porter unicode61');
+                                               title, text, tags, tokenize='porter unicode61');
         CREATE TABLE vectors (rowid INTEGER PRIMARY KEY, vec BLOB NOT NULL);
         CREATE TABLE info (key TEXT PRIMARY KEY, value TEXT);
     """)
     records = load_records()
+    labels = taxonomy_labels()
+    by_id = {r["id"]: r for r in records}
     for rec in records:
         db.execute("INSERT INTO sources VALUES (?, ?)", (rec["id"], json.dumps(rec, ensure_ascii=False)))
-        db.execute("INSERT INTO search VALUES ('source', ?, ?, ?, ?)", (rec["id"], rec["id"], rec["name"], source_text(rec)))
+        db.execute("INSERT INTO search VALUES ('source', ?, ?, ?, ?, ?)",
+                   (rec["id"], rec["id"], rec["name"], source_text(rec), tag_text(rec, labels)))
     n_docs = n_chunks = 0
     for path in sorted(corpus.glob("*/*.md")):
         if path.parent.name.startswith("_"):
@@ -95,8 +122,10 @@ def build(db_path=None, corpus=None):
         rel = str(path.relative_to(corpus.parent))
         db.execute("INSERT INTO docs VALUES (?, ?, ?, ?, ?)",
                    (rel, meta.get("source_id"), meta.get("title"), meta.get("url"), json.dumps(meta, ensure_ascii=False)))
+        tags = tag_text({**meta, "regions": by_id.get(meta.get("source_id"), {}).get("regions", [])}, labels)
         for i, text in enumerate(chunk(body)):
-            db.execute("INSERT INTO search VALUES ('chunk', ?, ?, ?, ?)", (f"{rel}#{i}", meta.get("source_id"), meta.get("title"), text))
+            db.execute("INSERT INTO search VALUES ('chunk', ?, ?, ?, ?, ?)",
+                       (f"{rel}#{i}", meta.get("source_id"), meta.get("title"), text, tags))
             n_chunks += 1
         n_docs += 1
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
@@ -138,8 +167,11 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     q = fts_query(query)
     if not q:
         return []
-    rows = db.execute("SELECT rowid, kind, ref, source_id, title, text, bm25(search) AS rank FROM search "
+    rows = db.execute(f"SELECT rowid, kind, ref, source_id, title, text, tags, {BM25} AS rank FROM search "
                       "WHERE search MATCH ? ORDER BY rank LIMIT 500", (q,)).fetchall()
+    # Rows matching more of the query's words come first; BM25 orders rows within each group.
+    terms = set(re.findall(r"\w+", query.lower()))
+    rows.sort(key=lambda r: (-sum(t in f"{r['title']} {r['text']} {r['tags']}".lower() for t in terms), r["rank"]))
     ranked = {}
     for pos, row in enumerate(rows):
         ranked[row["rowid"]] = [row, 1.0 / (60 + pos)]
