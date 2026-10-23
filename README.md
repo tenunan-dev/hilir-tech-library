@@ -4,6 +4,17 @@ A curated catalog of public sources on oil, gas, petrochemical and energy techno
 
 It holds 342 catalog sources across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia, a licence-tagged corpus of collected documents, and a search index with an MCP server so agents can query both (see [Roadmap](#roadmap)).
 
+## Documentation
+
+| Read | For |
+| --- | --- |
+| [AGENTS.md](AGENTS.md) | Start here: rules and pointers for any AI agent or person working on the repo |
+| [docs/USER_GUIDE.md](docs/USER_GUIDE.md) | Using the library: files, MCP server, licence handling |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How the parts fit together |
+| [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) | Adding sources, verifying terms, collecting, refreshing |
+| [docs/STATUS.md](docs/STATUS.md) | Current numbers and backlog |
+| [docs/DECISIONS.md](docs/DECISIONS.md) | Owner decisions and the rules they set |
+
 ## Layout
 
 | Path | What it holds |
