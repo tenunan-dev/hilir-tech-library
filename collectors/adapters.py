@@ -12,7 +12,7 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 # "pipeline", "flare" and "compressor" matched software, astronomy and audio papers.
 ARXIV_QUERY = " OR ".join(f'ti:"{term}"' for term in (
     "natural gas", "LNG", "oil and gas", "petroleum", "refinery", "petrochemical", "hydrocracking",
-    "carbon capture", "CO2 storage", "electrolyzer", "hydrogen production", "gas turbine",
+    "CO2 capture", "carbon capture plant", "post-combustion capture", "CO2 storage", "electrolyzer", "hydrogen production", "gas turbine",
     "gas compressor", "hydrogen compressor", "gas pipeline", "oil pipeline", "hydrogen pipeline",
     "CO2 pipeline", "reservoir simulation", "wellbore", "gas flaring", "flare gas"))
 
