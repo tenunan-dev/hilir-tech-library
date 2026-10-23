@@ -24,10 +24,11 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 1. **Manual terms checks:** 50 records listed in `catalog/index/needs-manual-check.md`.
 2. **Unchecked collectable records:** chula-petroleum, itb-indonesia, kaust, keei, khalifa-university, mycite, myipo, nea-china, th-dmf, vn-pvj, uq-energy, weatherford.
 3. **Remaining unverified records:** verify the rest of the 217, Southeast Asia and Asia Pacific first.
-4. **MDPI:** its CDN returns 403 to the collector (nothing collected). Options: manual inbox for chosen articles; ask MDPI to allow-list the user agent; OAI-PMH at `oai.mdpi.com` works but cannot filter by journal and gives abstracts only.
+4. **MDPI:** its CDN (Akamai) returns 403 "Access Denied" to the collector for the RSS feeds, article pages and robots.txt itself (nothing collected). Options: manual inbox for chosen articles; ask MDPI to allow-list the user agent; OAI-PMH at `https://oai.mdpi.com/oai/oai2.php` answers (no robots.txt, formats `oai_dc` and `oai_agris`) but its sets are article types, not journals (the journal shows only as an ISSN inside the identifier, e.g. `oai:mdpi.com:/2036-7449/14/1/9/`), a `from=` date filter returned records from 2022, and it holds metadata and abstracts only, since full text sits on the blocked www.mdpi.com.
 5. **More adapters** for verified full-text-open sources (government agencies, open-access journals).
 6. **Asia Pacific coverage gaps:** e.g. LNG-specific Malaysian and Indonesian sources; add and verify records.
 7. **Paid sources:** stay catalog-only until the owner provides API keys or subscriptions.
+8. **OSTI full text for US Government Works:** the osti adapter stores metadata and abstracts only, because rights vary per document. Records marked as US Government Works are not copyrightable (https://www.osti.gov/disclaim). An adapter change could read each record's rights statement and store full text only for those, with an offline test.
 
 ## Where things run
 
@@ -36,5 +37,11 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 - The MCP server is registered in Claude Desktop and Claude Code on the owner's Mac (user scope), pointing at the clone's `.venv`.
 
 ## Log
+
+Add one entry per working session, newest on top, in this format, so an agent with no memory of the session can continue:
+
+```
+- **YYYY-MM-DD, <who or which agent>:** Did: <changes, with commit hashes>. Verified: <checks run and results, e.g. build.py N records valid, pytest N passed, trial run looked right>. Failed: <what did not work, with the exact error message>. Next: <the concrete next step, or the owner decision it waits on>.
+```
 
 - **2026-10-23:** Documentation set added (AGENTS.md, docs/). MCP server registered on the owner's Mac. Search ranking improved (taxonomy and country labels indexed, ranking by query coverage); MISC Group added. Phase 3 built: search index, embeddings, MCP server, link check, weekly refresh workflow. arXiv collected (24 papers) after narrowing the query; OSTI collected (25). robots.txt handling fixed (403 now disallows). 126 records verified. Catalog of 342 records created.

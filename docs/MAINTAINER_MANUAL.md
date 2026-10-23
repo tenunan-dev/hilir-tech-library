@@ -51,12 +51,22 @@ python tools/build.py
 
 ```
 python collectors/collect.py --list                    # what is eligible, no network
+python collectors/collect.py --source osti --limit 3   # trial run first
 python collectors/collect.py --source osti --limit 25
 python collectors/collect.py                           # all eligible sources
 python tools/build.py && python agent/library.py build
 ```
 
-Before committing, open a few new files and check they are on topic. Remove off-topic files together with their lines in `corpus/manifest.jsonl`. Commit `corpus/` with a message naming the source.
+For a new or changed source, always do the trial run (`--limit 3`) first and open one new file under `corpus/<id>/`. It must have front matter with `licence` and `url`, and a body of real article text (or the abstract), not navigation boilerplate or an empty page. If it fails, stop and look at the raw response (see Troubleshooting) before collecting more.
+
+Before committing, open a few new files and check they are on topic (`grep -h '^title:' corpus/<id>/*.md` lists the titles). Remove off-topic files together with their lines in `corpus/manifest.jsonl` (match on `"path": "corpus/<id>/<file>"`). Then check the manifest still matches the files: these two numbers must be equal.
+
+```
+wc -l < corpus/manifest.jsonl
+find corpus -name '*.md' -not -path 'corpus/_*' -not -name README.md | wc -l
+```
+
+Commit `corpus/` with a message naming the source and the count.
 
 ### Manual inbox (sites that ban crawlers or block the collector)
 
@@ -91,10 +101,26 @@ Write a generator in `collectors/adapters.py` that yields `(title, url, body_mar
 
 ## 7. Troubleshooting
 
+When a collector fails, look at what the server actually sent before changing code:
+
+```
+python - <<'EOF'
+import sys; sys.path.insert(0, "collectors"); import requests, common
+r = requests.get("<url>", headers={"User-Agent": common.USER_AGENT}, timeout=60)
+print(r.status_code, r.headers.get("Content-Type")); print(r.text[:800])
+EOF
+```
+
+Make the smallest fix that works, add or update an offline test with a fixture copied from the real response, and note the fix in STATUS.md.
+
 | Problem | Cause and fix |
 | --- | --- |
 | `403` on every request | The host blocks the collector or the network proxy blocks the host. Do not work around a site's block; use the manual inbox or ask the publisher |
 | `robots.txt disallows` | Respect it. A new exception needs the owner's approval and a DECISIONS.md entry |
 | JSONDecodeError from an API | It returned XML or HTML; send an `Accept` header through `fetch(url, headers=...)` |
+| `403` with an "Access Denied" HTML page (Akamai, Cloudflare), even for robots.txt | CDN bot protection for our user agent. Same rule as any block: no workaround. Record it in STATUS.md |
+| XML `ParseError` on a feed | The feed URL returned HTML (an error or login page). Print the body and fix `feeds` in the record |
+| Nothing written, no error | Empty bodies are skipped: the text extractor found no article in the page. Inspect the HTML; the site may need its own adapter or the manual inbox |
+| Most collected documents off topic | The source query is too broad (see "Tuning the arXiv search"). Do not commit; narrow the query and rerun |
 | CI fails on "Generated files are up to date" | Run `python tools/build.py` and commit `catalog/` |
 | Duplicate documents not written | Expected: identical text is skipped by SHA-256 |
