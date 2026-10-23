@@ -17,11 +17,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "proprietary (site); Singapore-Open-Data-Licence-1.0 (datasets)",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Singapore Energy Statistics, hydrogen and low-carbon import plans.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Website content: fair dealing for private study and research; no commercial reuse without permission. Datasets are under the Singapore Open Data Licence v1.0 (commercial use allowed, attribution and licence link required). Evidence: https://www.ema.gov.sg/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

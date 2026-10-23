@@ -22,5 +22,6 @@
   "quality_tier": 2,
   "update_frequency": "weekly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Site not reachable by fetch tool on 2026-10-23. Evidence: https://pdki-indonesia.dgip.go.id/"
 }

@@ -25,5 +25,6 @@
   "quality_tier": 1,
   "update_frequency": "weekly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Site not reachable by fetch tool on 2026-10-23. Evidence: https://www.sintef.no/en/energy/"
 }

@@ -21,11 +21,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "ASEAN Energy Outlook, regional hydrogen and CCS studies.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "No terms of use or copyright statement; publications offered as PDFs. Private reference copies with notes. Evidence: https://aseanenergy.org/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

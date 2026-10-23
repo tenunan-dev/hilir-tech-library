@@ -26,11 +26,13 @@
     "global"
   ],
   "access": "free-registration",
-  "licence": "EPO-fair-use",
-  "reuse_level": "full-text-open",
+  "licence": "EPO-OPS-terms",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "OPS REST API with free registration; fair-use limits apply. Patent text is generally reusable.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "EPO fair use: Espacenet web is for humans only (10 searches/min, robots refused). Automated access via OPS REST with registration and acceptance of OPS terms; free up to 4 GB/week, about 1 Mbit/s, schedule bulk runs off-peak. Reuse governed by OPS terms (not read). Patent documents themselves are published records. Evidence: https://www.epo.org/en/service-support/ordering/fair-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "allowed",
+  "permitted_use": "unstated"
 }

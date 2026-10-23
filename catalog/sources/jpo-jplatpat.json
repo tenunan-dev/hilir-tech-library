@@ -26,5 +26,6 @@
   "quality_tier": 2,
   "update_frequency": "weekly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "JavaScript app; terms not readable by fetch tool on 2026-10-23. Evidence: https://www.j-platpat.inpit.go.jp/"
 }

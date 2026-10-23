@@ -26,7 +26,7 @@
 | [GPA Midstream Association](https://gpamidstream.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
-| [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted (unverified) |
+| [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Materials (MDPI)](https://www.mdpi.com/journal/materials) | journal | global | open | full-text-open |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
@@ -34,31 +34,31 @@
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
 | [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted (unverified) |
-| [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | full-text-restricted (unverified) |
+| [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [Ariel Corporation](https://www.arielcorp.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
-| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-open (unverified) |
+| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [Fisher valves (Emerson)](https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves) | oem-supplier | global | open | full-text-restricted |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [IEA Global Methane Tracker](https://www.iea.org/reports/global-methane-tracker-2025) | agency-data | global | open | full-text-open |
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |
-| [International Gas Union](https://www.igu.org/) | association | global | open | full-text-restricted (unverified) |
-| [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted (unverified) |
-| [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted (unverified) |
+| [International Gas Union](https://www.igu.org/) | association | global | open | summary-only |
+| [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
+| [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KROHNE](https://krohne.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
-| [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | summary-only |
+| [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted (unverified) |
-| [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.com/) | association | global | open | full-text-restricted (unverified) |
+| [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |
 | [Oil & Gas Journal](https://www.ogj.com/) | trade-media | global | mixed | summary-only (unverified) |
-| [OPEC Annual Statistical Bulletin](https://asb.opec.org/) | agency-data | global, me | open | full-text-restricted (unverified) |
+| [OPEC Annual Statistical Bulletin](https://asb.opec.org/) | agency-data | global, me | open | full-text-restricted |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
-| [OSDU Data Platform (The Open Group)](https://osduforum.org/) | association | global | open | full-text-open (unverified) |
+| [OSDU Data Platform (The Open Group)](https://www.opengroup.org/osdu-forum/) | association | global | open | full-text-open (unverified) |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
@@ -66,7 +66,7 @@
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
-| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open (unverified) |
+| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |

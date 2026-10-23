@@ -19,11 +19,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "mixed-per-paper",
+  "licence": "per-article",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "notes": "Journal of the Japan Petroleum Institute; licences vary per journal.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Copyright stays with publishers or authors; follow any licence stated per article. Mass downloading by mechanical means prohibited; systematic commercial searching needs JST approval. Download CC-licensed articles individually. Evidence: https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "unstated"
 }

@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Check per-article licence; most CC BY.",
+  "notes": "ScienceDirect blocks automated fetch (robots); confirm licence per article manually. Evidence: https://www.sciencedirect.com/journal/energy-reports",
   "verification": "unverified",
   "last_verified": null
 }

@@ -20,11 +20,13 @@
     "global"
   ],
   "access": "free-registration",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Most reports are free downloads; JIP33 procurement specifications included.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site carries 'All Rights Reserved' and no terms of use; many reports are free downloads. Kept as private reference copies with notes. Evidence: https://www.iogp.org/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

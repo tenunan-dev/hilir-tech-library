@@ -8,7 +8,7 @@
 | [Bureau of Indian Standards](https://www.bis.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
-| [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted (unverified) |
+| [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [KIST Korea Institute of Science and Technology](https://www.kist.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
 | [LEMIGAS Research and Development Centre for Oil and Gas](https://www.lemigas.esdm.go.id/) | research-institute | sea | open | summary-only (unverified) |
@@ -21,7 +21,7 @@
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
 | [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted (unverified) |
-| [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-open (unverified) |
+| [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
 | [Korea Institute of Energy Research (KIER)](https://www.kier.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
@@ -43,7 +43,7 @@
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
-| [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted (unverified) |
+| [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted (unverified) |
@@ -57,16 +57,16 @@
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
-| [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | full-text-restricted (unverified) |
+| [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [Clean Hydrogen Partnership (EU) programme reviews](https://www.clean-hydrogen.europa.eu/) | agency-data | eu | open | full-text-open (unverified) |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
-| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-open (unverified) |
+| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Halliburton](https://www.halliburton.com/) | oem-supplier | global | open | full-text-restricted |
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |
-| [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted (unverified) |
+| [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
@@ -75,7 +75,7 @@
 | [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open (unverified) |
 | [US DOE Hydrogen and Fuel Cell Technologies Office](https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
-| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open (unverified) |
+| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |

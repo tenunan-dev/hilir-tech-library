@@ -24,7 +24,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "KAPSARC data portal is open.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Personal, informational, non-commercial use allowed; robots, spiders or manual processes to copy pages prohibited without permission. Manual download only. Evidence: https://www.kapsarc.org/terms-of-use/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "personal-non-commercial"
 }

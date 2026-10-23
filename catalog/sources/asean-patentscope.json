@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Verify URL path.",
+  "notes": "PATENTSCOPE rendered empty to the fetch tool on 2026-10-23; ASEAN path also unconfirmed. Evidence: https://patentscope.wipo.int/",
   "verification": "unverified",
   "last_verified": null
 }

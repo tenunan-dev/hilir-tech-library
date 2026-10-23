@@ -19,11 +19,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Energy outlooks, hydrogen and CCUS studies for ASEAN.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "'All rights reserved' notice and no terms of use; publications listed as PDFs. Private reference copies with notes. Evidence: https://www.eria.org/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

@@ -17,11 +17,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "free-to-share",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Monthly one-page lessons, many languages incl. Bahasa Indonesia and Malay.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Free monthly; the full archive is available to everyone to download and share. Separate permissions page not read. Evidence: https://www.aiche.org/ccps/process-safety-beacon",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "any"
 }

@@ -30,7 +30,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "PCT applications; includes WIPO Green technology database.",
+  "notes": "Page rendered empty to the fetch tool on 2026-10-23; terms not read. Evidence: https://patentscope.wipo.int/",
   "verification": "unverified",
   "last_verified": null
 }

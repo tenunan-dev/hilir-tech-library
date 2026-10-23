@@ -16,11 +16,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "Global Gas Outlook.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Copyright page contains only placeholder text; no reuse terms published. Private reference copies with notes. Evidence: https://www.gecf.org/Home/Copyright",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

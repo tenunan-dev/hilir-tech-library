@@ -30,7 +30,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Bulk data via Google Patents Public Datasets on BigQuery.",
+  "notes": "JavaScript app; no terms readable by fetch tool. Prefer Google Patents Public Datasets on BigQuery, which carries its own licence. Evidence: https://patents.google.com/",
   "verification": "unverified",
   "last_verified": null
 }

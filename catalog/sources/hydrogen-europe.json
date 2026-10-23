@@ -20,5 +20,6 @@
   "quality_tier": 2,
   "update_frequency": "irregular",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Footer not readable by fetch tool on 2026-10-23; check manually. Evidence: https://hydrogeneurope.eu/"
 }

@@ -9,7 +9,7 @@
 | [Australian Energy Producers Journal (CSIRO Publishing)](https://www.publish.csiro.au/ep) | journal | apac | mixed | catalog-only (unverified) |
 | [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted (unverified) |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
-| [CO2CRC Otway International Test Centre](https://co2crc.com.au/) | research-institute | apac | open | full-text-restricted (unverified) |
+| [CO2CRC Otway International Test Centre](https://co2crc.com.au/) | research-institute | apac | open | full-text-restricted |
 | [CSIR-Indian Institute of Petroleum](https://www.iip.res.in/) | research-institute | apac | open | summary-only (unverified) |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
 | [Dalian Institute of Chemical Physics (CAS)](https://english.dicp.cas.cn/) | research-institute | apac, global | open | summary-only (unverified) |
@@ -18,7 +18,7 @@
 | [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted (unverified) |
 | [International Petroleum Technology Conference (IPTC)](https://www.iptcnet.org/) | conference | apac, me | mixed | catalog-only (unverified) |
 | [IPA Convention and Exhibition](https://convex.ipa.or.id/) | conference | sea | mixed | catalog-only (unverified) |
-| [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted (unverified) |
+| [J-STAGE (Japanese journals: JPI, SCEJ)](https://www.jstage.jst.go.jp/) | journal | apac | open | full-text-restricted |
 | [KIST Korea Institute of Science and Technology](https://www.kist.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
 | [LEMIGAS Research and Development Centre for Oil and Gas](https://www.lemigas.esdm.go.id/) | research-institute | sea | open | summary-only (unverified) |
 | [NTU Energy Research Institute (ERI@N)](https://www.ntu.edu.sg/erian) | research-institute | sea | open | summary-only (unverified) |
@@ -34,17 +34,17 @@
 | [Asia Refining Technology Conference (ARTC)](https://asiandownstreaminsights.com/events/asian-refining-technology-conference) | conference | apac, sea | mixed | catalog-only (unverified) |
 | [Centre for High Technology (CHT) India](https://cht.gov.in/) | research-institute | apac | open | full-text-restricted (unverified) |
 | [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted (unverified) |
-| [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-open (unverified) |
+| [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
 | [DGIP Indonesia patent database (PDKI)](https://pdki-indonesia.dgip.go.id/) | patents | sea | open | full-text-open (unverified) |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
 | [Gastech](https://www.gastechevent.com/) | conference | global, apac | mixed | catalog-only (unverified) |
-| [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted (unverified) |
+| [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted (unverified) |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
 | [Korea Institute of Energy Research (KIER)](https://www.kier.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
-| [Methanol Institute](https://www.methanol.org/) | association | global, apac | open | full-text-restricted (unverified) |
+| [Methanol Institute](https://www.methanol.org/) | association | global, apac | open | full-text-restricted |
 | [Mitsubishi Heavy Industries CO2 capture (KM CDR)](https://www.mhi.com/products/environment/carboncapture.html) | licensor | apac, global | open | summary-only |
 | [MyCite Malaysian Citation Centre](https://mycite.my/) | journal | sea | open | full-text-restricted (unverified) |
 | [MyIPO Malaysia patent search](https://iponlineext.myipo.gov.my/) | patents | sea | open | full-text-open (unverified) |
@@ -52,7 +52,7 @@
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | summary-only (unverified) |
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted (unverified) |
 | [Toyo Engineering](https://www.toyo-eng.com/jp/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
-| [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | summary-only |
+| [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [INPEX](https://www.inpex.com.au/) | licensor | apac | open | summary-only (unverified) |
 | [JERA](https://www.jera.co.jp/en) | licensor | apac | open | summary-only (unverified) |
 | [Keppel Infrastructure and Energy](https://www.keppel.com/) | epc-contractor | sea | open | summary-only (unverified) |
@@ -83,14 +83,14 @@
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
-| [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | open | full-text-restricted (unverified) |
+| [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
-| [Journal of Petroleum Exploration and Production Technology (Springer, OA)](https://link.springer.com/journal/13202) | journal | global | open | full-text-open (unverified) |
+| [Journal of Petroleum Exploration and Production Technology (Springer, OA)](https://link.springer.com/journal/13202) | journal | global | open | full-text-open |
 | [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted (unverified) |
 | [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted (unverified) |
 | [LNG2026 / LNGxx triennial conference](https://www.lng2026.com/) | conference | global | mixed | catalog-only (unverified) |
@@ -109,14 +109,14 @@
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted (unverified) |
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only (unverified) |
-| [Ammonia Energy Association](https://ammoniaenergy.org/) | association | global | open | full-text-restricted (unverified) |
+| [Ammonia Energy Association](https://ammoniaenergy.org/) | association | global | open | full-text-restricted |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted (unverified) |
-| [Casale](https://www.casale.ch/) | licensor | global | open | summary-only |
-| [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | summary-only |
+| [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
+| [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chevron Lummus Global (CLG)](https://www.chevronlummus.com/) | licensor | global | open | full-text-restricted (unverified) |
@@ -128,7 +128,7 @@
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
-| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-open (unverified) |
+| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Catalysts and Licensing](https://www.exxonmobilchemical.com/en/catalysts-and-licensing) | licensor | global | open | full-text-restricted (unverified) |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted (unverified) |
@@ -141,12 +141,12 @@
 | [ITM Power](https://itm-power.com/) | oem-supplier | global, eu | open | summary-only (unverified) |
 | [Johnson Matthey Catalyst Technologies](https://www.honeywell.com/us/en/lp/ct/overview) | licensor | global | open | catalog-only |
 | [KBR Technology](https://www.kbr.com/en/solutions/technologies) | licensor | global | open | full-text-restricted |
-| [Ketjen (Albemarle) refining catalysts](https://www.ketjen.com/) | licensor | global | open | summary-only |
+| [Ketjen (Albemarle) refining catalysts](https://www.ketjen.com/) | licensor | global | open | full-text-restricted |
 | [Koch Engineered Solutions](https://www.kochengineeredsolutions.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Koch-Glitsch](https://koch-glitsch.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
-| [Lummus Technology](https://www.lummustechnology.com/) | licensor | global | open | summary-only |
-| [Nel Hydrogen](https://nelhydrogen.com/) | oem-supplier | global | open | summary-only |
+| [Lummus Technology](https://www.lummustechnology.com/) | licensor | global | open | full-text-restricted |
+| [Nel Hydrogen](https://nelhydrogen.com/) | oem-supplier | global | open | full-text-restricted |
 | [Nexant / NexantECA reports](https://www.nexanteca.com/) | research-institute | global | paywalled | catalog-only (unverified) |
 | [Oil & Gas Journal](https://www.ogj.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
@@ -164,7 +164,7 @@
 | [Topsoe](https://www.topsoe.com/) | licensor | global | open | full-text-restricted |
 | [US DOE Hydrogen and Fuel Cell Technologies Office](https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US DOE Office of Fossil Energy and Carbon Management](https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management) | agency-data | na, global | open | full-text-open |
-| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open (unverified) |
+| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [W. R. Grace refining catalysts](https://grace.com/) | licensor | global | open | full-text-restricted (unverified) |
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |

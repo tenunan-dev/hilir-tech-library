@@ -21,7 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Global Status of CCS report; free with registration.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "IP owned by the Institute, nothing transfers; member-only content must not be shared. Downloads not otherwise restricted. Private copies of public reports only. Evidence: https://www.globalccsinstitute.com/terms-of-use/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

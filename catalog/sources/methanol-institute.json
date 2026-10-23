@@ -22,7 +22,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Singapore office; safe handling manual.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May read, print and quote for own information or reporting with credit; other reuse needs written permission. Private personal copies only. Evidence: https://methanol.org/terms",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

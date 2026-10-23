@@ -197,9 +197,10 @@
         "any",
         "internal-organisation",
         "personal-non-commercial",
-        "none"
+        "none",
+        "unstated"
       ],
-      "description": "Widest use the terms allow for downloaded copies."
+      "description": "Widest use the terms allow for downloaded copies. unstated = no terms of use published; default copyright applies."
     }
   }
 }

@@ -18,10 +18,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "CCUS hubs, methane reduction.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May not copy, use or distribute any part of the site unless published for specific onward use. Summaries only. Evidence: https://www.ogci.com/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

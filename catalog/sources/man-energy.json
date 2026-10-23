@@ -21,12 +21,12 @@
   ],
   "access": "open",
   "licence": "all-rights-reserved",
-  "reuse_level": "summary-only",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "MAN Energy Solutions renamed Everllence; site has imprint and copyright notice but no terms of use, so default copyright applies. Summaries only. Evidence: https://www.everllence.com/imprint",
+  "notes": "MAN Energy Solutions renamed Everllence; site has imprint and copyright notice but no terms of use, so default copyright applies. Downloadable with no licence or prohibition: kept as private reference copies with notes, per owner instruction of 2026-10-23. Evidence: https://www.everllence.com/imprint",
   "verification": "verified",
   "last_verified": "2026-10-23",
   "automated_access": "unstated",
-  "permitted_use": "none"
+  "permitted_use": "unstated"
 }

@@ -7,7 +7,7 @@
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
-| [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted (unverified) |
+| [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted (unverified) |
@@ -15,7 +15,7 @@
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
-| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-open (unverified) |
+| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [Fisher valves (Emerson)](https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves) | oem-supplier | global | open | full-text-restricted |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
@@ -27,7 +27,7 @@
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [TechnipFMC](https://www.technipfmc.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
-| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open (unverified) |
+| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [VEGA Grieshaber](https://www.vega.com/) | oem-supplier | global | open | summary-only (unverified) |

@@ -19,11 +19,13 @@
     "global"
   ],
   "access": "free-registration",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "Supplementary specs to API/IEC standards for valves, pumps, compressors, instruments.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "IOGP site: 'All Rights Reserved', no terms of use; JIP33 specifications free to download after registration. Private reference copies with notes. Evidence: https://www.iogp.org/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

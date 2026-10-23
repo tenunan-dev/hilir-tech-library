@@ -19,10 +19,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "notes": "FAQs and published papers on welding, NDT, integrity.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "No reproduction, download or storage without written permission; systematic data extraction prohibited. Summaries only. Evidence: https://www.twi-global.com/terms",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "none"
 }

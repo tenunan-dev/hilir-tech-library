@@ -15,11 +15,11 @@
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted (unverified) |
 | [ARENA Australian Renewable Energy Agency knowledge bank](https://arena.gov.au/knowledge-bank/) | agency-data | apac | open | full-text-open (unverified) |
-| [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted (unverified) |
+| [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | patents | sea | open | full-text-open (unverified) |
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open (unverified) |
-| [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-open (unverified) |
-| [ERIA Economic Research Institute for ASEAN and East Asia](https://www.eria.org/) | research-institute | sea, apac | open | full-text-restricted (unverified) |
+| [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
+| [ERIA Economic Research Institute for ASEAN and East Asia](https://www.eria.org/) | research-institute | sea, apac | open | full-text-restricted |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Institute of Energy Economics, Japan (IEEJ)](https://eneken.ieej.or.jp/en/) | research-institute | apac | mixed | summary-only (unverified) |
@@ -35,7 +35,7 @@
 | [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted (unverified) |
 | [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted (unverified) |
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-restricted (unverified) |
-| [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted (unverified) |
@@ -83,17 +83,17 @@
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
-| [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | open | full-text-restricted (unverified) |
+| [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
-| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-open (unverified) |
+| [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | full-text-restricted (unverified) |
 | [GE Vernova](https://www.gevernova.com/) | oem-supplier | global | open | full-text-restricted |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [IRENA publications](https://www.irena.org/Publications) | agency-data | global | open | full-text-restricted (unverified) |
-| [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted (unverified) |
+| [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |
-| [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | summary-only |
+| [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
@@ -105,7 +105,7 @@
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
 | [UK DESNZ energy statistics and hydrogen/CCUS policy](https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero) | agency-data | eu | open | full-text-open |
-| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open (unverified) |
+| [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |

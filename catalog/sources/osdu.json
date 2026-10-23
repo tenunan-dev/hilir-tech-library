@@ -1,7 +1,7 @@
 {
   "id": "osdu",
   "name": "OSDU Data Platform (The Open Group)",
-  "url": "https://osduforum.org/",
+  "url": "https://www.opengroup.org/osdu-forum/",
   "source_type": "association",
   "sectors": [
     "UPS",
@@ -20,7 +20,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Open-source subsurface and wells data platform; code under Apache 2.0.",
+  "notes": "osduforum.org now redirects to The Open Group OSDU Forum page; code licence not yet confirmed. Evidence: https://www.opengroup.org/osdu-forum/",
   "verification": "unverified",
   "last_verified": null
 }

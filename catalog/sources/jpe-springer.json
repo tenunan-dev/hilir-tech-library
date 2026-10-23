@@ -16,10 +16,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "CC-BY-4.0",
+  "licence": "per-article (CC)",
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "any",
+  "notes": "Springer page lists the journal as open access; Springer Nature OA works use Creative Commons licences, exact licence per article (usually CC BY 4.0). Read article licence before open-corpus use. Evidence: https://link.springer.com/journal/13202"
 }

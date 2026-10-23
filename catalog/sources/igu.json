@@ -18,10 +18,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "World LNG Report.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May print one copy for personal reference; copying by storing on disk or downloading is prohibited. Summaries only. Evidence: https://www.igu.org/terms-and-conditions",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

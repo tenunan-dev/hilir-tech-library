@@ -15,10 +15,13 @@
     "eu"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "non-commercial-with-attribution",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial",
+  "notes": "Unless otherwise stated, reproduction authorised except for commercial purposes, with source acknowledged; logos excluded. Evidence: https://cefic.org/terms-conditions/"
 }

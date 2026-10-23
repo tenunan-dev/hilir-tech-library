@@ -17,11 +17,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-open",
+  "licence": "all-rights-reserved",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Free data, attribution required (verify).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Copyright JODI, no terms of use or data licence on site; data downloads freely offered. Private reference copies with notes; not an open licence. Evidence: https://www.jodidata.org/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

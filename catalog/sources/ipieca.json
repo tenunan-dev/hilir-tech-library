@@ -22,7 +22,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Good-practice guides on emissions, flaring, biodiversity.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May print or download content for own personal use only; commercial copying or distribution needs written consent. Robots not addressed. Evidence: https://www.ipieca.org/terms-and-conditions",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

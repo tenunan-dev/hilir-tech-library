@@ -16,12 +16,14 @@
   "regions": [
     "global"
   ],
-  "access": "open",
+  "access": "mixed",
   "licence": "proprietary",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Detailed techno-economic studies of capture and storage.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May print and download material for own purposes without modification; no republishing. Many recent reports are members only. Evidence: https://ieaghg.org/terms-of-use/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

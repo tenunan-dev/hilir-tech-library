@@ -17,11 +17,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Regional CO2 storage mapping.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "No terms or copyright statement; publications downloadable (some links on ccop.asia). Private reference copies with notes. Evidence: https://www.ccop.or.th/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

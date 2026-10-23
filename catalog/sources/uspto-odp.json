@@ -31,6 +31,9 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "allowed",
+  "permitted_use": "any",
+  "notes": "Open Data Portal: USPTO data free to discover and extract. US government data; no reuse restrictions stated on the portal. Evidence: https://data.uspto.gov/"
 }

@@ -19,12 +19,12 @@
   ],
   "access": "open",
   "licence": "all-rights-reserved",
-  "reuse_level": "summary-only",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
   "notes": "Domain moved to lummustechnology.com. No terms-of-use page linked (privacy and cookies only), so default copyright applies: summaries and facts only. Evidence: https://www.lummustechnology.com/",
   "verification": "verified",
   "last_verified": "2026-10-23",
   "automated_access": "unstated",
-  "permitted_use": "none"
+  "permitted_use": "unstated"
 }

@@ -24,5 +24,6 @@
   "quality_tier": 2,
   "update_frequency": "weekly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "robots.txt disallows automated fetch; check terms manually and use KIPRIS Plus API if available. Evidence: https://www.kipris.or.kr/enghome/main.do"
 }
