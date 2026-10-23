@@ -8,11 +8,13 @@ import xml.etree.ElementTree as ET
 from common import CORPUS, fetch, to_markdown
 
 ATOM = "{http://www.w3.org/2005/Atom}"
-# Title terms only: abstract matches pulled in mostly unrelated physics papers.
+# Title phrases only: abstract matches pulled in mostly unrelated physics papers, and bare
+# "pipeline", "flare" and "compressor" matched software, astronomy and audio papers.
 ARXIV_QUERY = " OR ".join(f'ti:"{term}"' for term in (
     "natural gas", "LNG", "oil and gas", "petroleum", "refinery", "petrochemical", "hydrocracking",
     "carbon capture", "CO2 storage", "electrolyzer", "hydrogen production", "gas turbine",
-    "compressor", "pipeline", "reservoir simulation", "wellbore", "flare"))
+    "gas compressor", "hydrogen compressor", "gas pipeline", "oil pipeline", "hydrogen pipeline",
+    "CO2 pipeline", "reservoir simulation", "wellbore", "gas flaring", "flare gas"))
 
 
 def parse_feed(xml_text):

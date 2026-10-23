@@ -164,3 +164,5 @@ def test_arxiv_api_is_a_documented_robots_exception(monkeypatch):
 def test_arxiv_query_is_balanced_and_title_scoped():
     assert adapters.ARXIV_QUERY.count("(") == adapters.ARXIV_QUERY.count(")")
     assert "abs:" not in adapters.ARXIV_QUERY and 'ti:"natural gas"' in adapters.ARXIV_QUERY
+    for ambiguous in ("pipeline", "flare", "compressor"):
+        assert f'ti:"{ambiguous}"' not in adapters.ARXIV_QUERY
