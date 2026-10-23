@@ -5,12 +5,11 @@ url: "http://arxiv.org/abs/2609.31741v1"
 published: "2026-09-23T01:27:09Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"
 licence: "CC0-1.0"
-reuse_level: "full-text-restricted"
-permitted_use: "unstated"
+reuse_level: "full-text-open"
+permitted_use: "any"
 sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "2f4e146da8730c986d6a12ae1bd5f36337f986f872a5b0952a0adff1dc358924"
-use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 content: "metadata-and-abstract"
 ---
 

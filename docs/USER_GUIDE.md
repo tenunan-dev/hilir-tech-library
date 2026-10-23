@@ -9,6 +9,7 @@ For people and AI agents who want to use the library, not change it.
 | Read the files | Quick look, any tool, any agent | Nothing |
 | MCP server | AI assistants that support MCP (Claude Desktop, Claude Code, Cursor, VS Code, others) | Python 3.10+ |
 | Python module | Scripts and pipelines | Python 3.10+ |
+| Hosted MCP server by URL | Cloud agents such as Microsoft Copilot Studio | A deployed server and API key, see [HOSTING.md](HOSTING.md) |
 
 ### Read the files
 

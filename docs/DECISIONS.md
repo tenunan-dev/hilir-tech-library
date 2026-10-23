@@ -16,3 +16,4 @@ Owner decisions and the rules that follow from them. Add new entries at the bott
 | 10 | 2026-10-23 | Repository: `tenunan-dev/og-tech-sources`, private | |
 | 11 | 2026-10-23 | Register the MCP server in Claude Desktop and Claude Code on the owner's Mac | Config backup at `claude_desktop_config.json.bak` |
 | 12 | 2026-10-23 | Documentation is agent-agnostic: AGENTS.md is the entry point for every AI agent and person | CLAUDE.md only points to AGENTS.md |
+| 13 | 2026-10-23 | A hosted (URL-reachable) server serves catalog records and open-licence documents only, behind an API key | Dockerfile excludes restricted documents; `--include-restricted` only for owner-only servers |

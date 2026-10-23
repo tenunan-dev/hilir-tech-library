@@ -5,12 +5,11 @@ url: "http://arxiv.org/abs/2607.16527v1"
 published: "2026-07-17T22:07:30Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"
 licence: "CC0-1.0"
-reuse_level: "full-text-restricted"
-permitted_use: "unstated"
+reuse_level: "full-text-open"
+permitted_use: "any"
 sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "ad873750bf0ff206ff480549901e58cd8f66f65de7133b64c9a2e967a298f43f"
-use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 content: "metadata-and-abstract"
 ---
 

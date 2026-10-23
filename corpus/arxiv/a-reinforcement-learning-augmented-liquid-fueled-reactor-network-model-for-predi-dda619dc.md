@@ -5,12 +5,11 @@ url: "http://arxiv.org/abs/2607.19281v1"
 published: "2026-07-21T16:53:08Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"
 licence: "CC0-1.0"
-reuse_level: "full-text-restricted"
-permitted_use: "unstated"
+reuse_level: "full-text-open"
+permitted_use: "any"
 sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "dda619dc3875efc0492ecdd38608f0aecd67d7534ad73f40f8ad02460c5e57e8"
-use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 content: "metadata-and-abstract"
 ---
 

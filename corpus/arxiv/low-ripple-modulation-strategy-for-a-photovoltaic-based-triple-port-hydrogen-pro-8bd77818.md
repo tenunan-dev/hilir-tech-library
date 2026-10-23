@@ -5,12 +5,11 @@ url: "http://arxiv.org/abs/2609.13746v1"
 published: "2026-09-12T06:31:36Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"
 licence: "CC0-1.0"
-reuse_level: "full-text-restricted"
-permitted_use: "unstated"
+reuse_level: "full-text-open"
+permitted_use: "any"
 sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "8bd778184fc717655e27a6b208f32688a6bbdb8e5617b2f587d98c2444824b62"
-use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 content: "metadata-and-abstract"
 ---
 

@@ -20,6 +20,9 @@ CORPUS = ROOT / "corpus"
 MANIFEST = CORPUS / "manifest.jsonl"
 USER_AGENT = "og-tech-sources-collector/0.1 (+https://github.com/tenunan-dev/og-tech-sources)"
 MIN_DELAY_SECONDS = 3.0
+# Document-level licences that make a document open even when its source is restricted overall
+# (e.g. arXiv metadata and abstracts are CC0 while the papers keep their own licences).
+OPEN_LICENCES = {"CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "public-domain", "OGL-UK-3.0", "NLOD-2.0"}
 
 _last_hit = {}
 _robots = {}
@@ -127,9 +130,11 @@ def write_document(rec, title, url, body, published=None, extra=None):
         "disciplines": rec["disciplines"],
         "sha256": digest,
     }
-    if rec["reuse_level"] == "full-text-restricted":
-        meta["use_note"] = "Private reference copy. Do not redistribute or use commercially; cite the url."
     meta.update(extra or {})
+    if meta["licence"] in OPEN_LICENCES:
+        meta.update(reuse_level="full-text-open", permitted_use="any")
+    elif meta["reuse_level"] == "full-text-restricted":
+        meta["use_note"] = "Private reference copy. Do not redistribute or use commercially; cite the url."
     folder = CORPUS / rec["id"]
     folder.mkdir(parents=True, exist_ok=True)
     path = folder / f"{slugify(title)}-{digest[:8]}.md"

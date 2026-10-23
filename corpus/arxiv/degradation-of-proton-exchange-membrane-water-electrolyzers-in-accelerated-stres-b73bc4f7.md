@@ -5,12 +5,11 @@ url: "http://arxiv.org/abs/2608.02389v1"
 published: "2026-08-03T15:30:42Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"
 licence: "CC0-1.0"
-reuse_level: "full-text-restricted"
-permitted_use: "unstated"
+reuse_level: "full-text-open"
+permitted_use: "any"
 sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "b73bc4f7faaa58f6cfcea9f8a408a745c5915d54dde363bd395be91015c36e0a"
-use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 content: "metadata-and-abstract"
 ---
 

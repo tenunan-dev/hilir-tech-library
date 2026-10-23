@@ -43,7 +43,8 @@ def taxonomy_labels():
 
 
 def connect(path=None):
-    db = sqlite3.connect(path or DB_PATH)
+    # Read-mostly and shared by the MCP server's worker threads.
+    db = sqlite3.connect(path or DB_PATH, check_same_thread=False)
     db.row_factory = sqlite3.Row
     return db
 
@@ -143,6 +144,12 @@ def _matches(rec, sector, discipline, region, reuse_level):
             and (not region or region in rec["regions"]) and (not reuse_level or rec["reuse_level"] == reuse_level))
 
 
+def doc_restricted(db, path, rec):
+    row = db.execute("SELECT meta FROM docs WHERE path = ?", (path,)).fetchone()
+    meta = json.loads(row["meta"]) if row else {}
+    return meta.get("reuse_level", rec["reuse_level"]) == "full-text-restricted"
+
+
 def _result(db, row, score, records):
     rec = records[row["source_id"]]
     out = {"kind": row["kind"], "ref": row["ref"], "source_id": rec["id"], "title": row["title"], "score": round(score, 4),
@@ -151,16 +158,22 @@ def _result(db, row, score, records):
         out.update(url=rec["url"], regions=rec["regions"], sectors=rec["sectors"], disciplines=rec["disciplines"])
     else:
         path = row["ref"].split("#")[0]
-        doc = db.execute("SELECT url FROM docs WHERE path = ?", (path,)).fetchone()
+        doc = db.execute("SELECT url, meta FROM docs WHERE path = ?", (path,)).fetchone()
+        meta = json.loads(doc["meta"]) if doc else {}
+        out.update({k: meta[k] for k in ("licence", "reuse_level", "permitted_use") if k in meta})
         out.update(path=path, url=doc["url"] if doc else None, snippet=row["text"][:400])
-        if rec["reuse_level"] == "full-text-restricted":
+        if doc_restricted(db, path, rec):
             out["use_note"] = "Private reference copy. Do not redistribute or use commercially; cite the url."
     return out
 
 
 def search(query, kind="all", sector=None, discipline=None, region=None, reuse_level=None, limit=10,
-           db=None, embedder=None):
-    """Keyword search (BM25), fused with vector search when vectors and an embedder are available."""
+           db=None, embedder=None, exclude_restricted=False):
+    """Keyword search (BM25), fused with vector search when vectors and an embedder are available.
+
+    exclude_restricted drops passages from full-text-restricted sources (catalog records stay),
+    for servers that other people can reach.
+    """
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
     kinds = ("source", "chunk") if kind == "all" else (kind,)
@@ -191,28 +204,33 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
         rec = records.get(row["source_id"])
         if not rec or row["kind"] not in kinds or not _matches(rec, sector, discipline, region, reuse_level):
             continue
+        if exclude_restricted and row["kind"] == "chunk" and doc_restricted(db, row["ref"].split("#")[0], rec):
+            continue
         boost = max([REGION_BOOST.get(g, 1.0) for g in rec["regions"]] + [1.0])
         results.append((score * boost, row, rec))
     results.sort(key=lambda t: -t[0])
     return [_result(db, row, score, records) for score, row, _ in results[:limit]]
 
 
-def get_source(source_id, db=None):
+def get_source(source_id, db=None, exclude_restricted=False):
     db = db or connect()
     row = db.execute("SELECT record FROM sources WHERE id = ?", (source_id,)).fetchone()
     if not row:
         return None
     rec = json.loads(row["record"])
-    rec["documents"] = [dict(d) for d in db.execute(
-        "SELECT path, title, url FROM docs WHERE source_id = ? ORDER BY path", (source_id,))]
+    docs = [dict(d) for d in db.execute("SELECT path, title, url FROM docs WHERE source_id = ? ORDER BY path", (source_id,))]
+    rec["documents"] = [d for d in docs if not (exclude_restricted and doc_restricted(db, d["path"], rec))]
     return rec
 
 
-def get_document(path, db=None):
+def get_document(path, db=None, exclude_restricted=False):
     db = db or connect()
-    row = db.execute("SELECT path FROM docs WHERE path = ?", (path.split("#")[0],)).fetchone()
+    row = db.execute("SELECT d.path, s.record FROM docs d JOIN sources s ON s.id = d.source_id WHERE d.path = ?",
+                     (path.split("#")[0],)).fetchone()
     if not row:
         return None
+    if exclude_restricted and doc_restricted(db, row["path"], json.loads(row["record"])):
+        return {"path": row["path"], "error": "Private reference copy; not served by this server. Cite the source url instead."}
     root = db.execute("SELECT value FROM info WHERE key = 'root'").fetchone()
     meta, body = read_document(pathlib.Path(root[0] if root else ROOT) / row["path"])
     return {"path": row["path"], "meta": meta, "text": body}

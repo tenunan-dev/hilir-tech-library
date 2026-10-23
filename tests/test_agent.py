@@ -94,3 +94,39 @@ def test_vectors_fuse_with_keyword_results(db):
     embedder = lambda texts: [v / np.linalg.norm(v) for v in model.passage_embed(texts)]  # noqa: E731
     hits = library.search("electrolyzer", db=db, embedder=embedder, limit=5)
     assert hits and library.stats(db)["embedding_model"] == "fake"
+
+
+def test_exclude_restricted_hides_private_text(db):
+    rec = library.get_source("arxiv", db)
+    restricted = rec["reuse_level"] == "full-text-restricted"
+    hits = library.search("iridium", kind="chunk", db=db, exclude_restricted=True)
+    assert (hits == []) == restricted
+    doc = library.get_document("corpus/arxiv/pem.md", db, exclude_restricted=True)
+    assert ("error" in doc) == restricted
+    assert (library.get_source("arxiv", db, exclude_restricted=True)["documents"] == []) == restricted
+
+
+def test_open_document_in_restricted_source_is_served(tmp_path):
+    corpus = tmp_path / "corpus"
+    (corpus / "osti").mkdir(parents=True)
+    (corpus / "osti" / "gov.md").write_text(DOC.replace('licence: "CC0-1.0"', 'licence: "public-domain"\nreuse_level: "full-text-open"'),
+                                            encoding="utf-8")
+    library.build(tmp_path / "lib.db", corpus)
+    db = library.connect(tmp_path / "lib.db")
+    hits = library.search("iridium", kind="chunk", db=db, exclude_restricted=True)
+    assert hits and hits[0]["reuse_level"] == "full-text-open" and "use_note" not in hits[0]
+
+
+def test_export_public_leaves_out_restricted(tmp_path, monkeypatch):
+    import export_public
+    corpus = tmp_path / "repo" / "corpus"
+    (corpus / "arxiv").mkdir(parents=True)
+    (corpus / "arxiv" / "open.md").write_text(DOC.replace('licence: "CC0-1.0"', 'licence: "CC0-1.0"\nreuse_level: "full-text-open"'), encoding="utf-8")
+    (corpus / "arxiv" / "private.md").write_text(DOC.replace("PEM", "Private"), encoding="utf-8")
+    monkeypatch.setattr(library, "CORPUS", corpus)
+    monkeypatch.setattr(library, "ROOT", corpus.parent)
+    monkeypatch.setattr(export_public, "KEEP", ())
+    monkeypatch.setattr(library, "load_records", lambda: [{"id": "arxiv", "reuse_level": "full-text-restricted"}])
+    assert export_public.export(tmp_path / "out") == (1, 1)
+    assert (tmp_path / "out" / "corpus" / "arxiv" / "open.md").exists()
+    assert not (tmp_path / "out" / "corpus" / "arxiv" / "private.md").exists()
