@@ -17,10 +17,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "mixed-per-paper",
+  "licence": "per-article",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "notes": "Aggregator of Thai journals; site 'all rights reserved', article licences set per journal. Collector must read per-article licence. Evidence: https://www.tci-thaijo.org/"
 }

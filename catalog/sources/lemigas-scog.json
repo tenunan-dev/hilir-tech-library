@@ -17,11 +17,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "unknown",
-  "reuse_level": "full-text-restricted",
+  "licence": "CC-BY",
+  "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "quarterly",
-  "notes": "Open-access journal site confirmed 2026-10-23; licence is on its Copyright & Licensing page, not yet read.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Open Access Policy uses Creative Commons Attribution terms (credit, link to licence, indicate changes, no additional restrictions); version not named on the page. Evidence: https://journal.lemigas.esdm.go.id/index.php/SCOG/about",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "any"
 }

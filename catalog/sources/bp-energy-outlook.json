@@ -23,7 +23,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "Energy Outlook; Statistical Review now published by the Energy Institute.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Energy Outlook PDF freely downloadable; bp legal notice allows a print for reasonable personal use only, all other use strictly prohibited. Personal reference copy. Evidence: https://www.bp.com/legal-notice",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

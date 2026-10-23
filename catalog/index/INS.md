@@ -11,7 +11,7 @@
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted (unverified) |
-| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
@@ -20,7 +20,7 @@
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
-| [KROHNE](https://krohne.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [KROHNE](https://krohne.com/) | oem-supplier | global | open | summary-only |
 | [NAMUR (NOA, MTP, NE recommendations)](https://www.namur.net/en/) | association | eu, global | mixed | catalog-only (unverified) |
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |

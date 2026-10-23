@@ -25,17 +25,17 @@
 | [LNG2026 / LNGxx triennial conference](https://www.lng2026.com/) | conference | global | mixed | catalog-only (unverified) |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
-| [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted (unverified) |
+| [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted (unverified) |
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Ariel Corporation](https://www.arielcorp.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Atlas Copco Gas and Process](https://www.atlascopco.com/en-us/compressors/products/process-gas-compressors) | oem-supplier | global | open | summary-only (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
-| [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
-| [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [Fisher valves (Emerson)](https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves) | oem-supplier | global | open | full-text-restricted |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
@@ -44,16 +44,16 @@
 | [Heatric printed circuit heat exchangers](https://www.heatric.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
-| [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | summary-only |
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Koch Engineered Solutions](https://www.kochengineeredsolutions.com/) | oem-supplier | global | open | summary-only (unverified) |
-| [Koch-Glitsch](https://koch-glitsch.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Koch-Glitsch](https://koch-glitsch.com/) | oem-supplier | global | open | summary-only |
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [Nel Hydrogen](https://nelhydrogen.com/) | oem-supplier | global | open | full-text-restricted |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
-| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [TechnipFMC](https://www.technipfmc.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |

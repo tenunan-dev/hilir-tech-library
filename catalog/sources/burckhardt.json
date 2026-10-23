@@ -19,10 +19,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "LNG boil-off and hydrogen compressors.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Reproduction and use of any elements subject to advance written consent; no personal-use exception. Summaries only. Evidence: https://www.burckhardtcompression.com/about/legal-compliance-quality/terms-of-use/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

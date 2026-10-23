@@ -18,10 +18,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "notes": "No terms of use on MITEI site (privacy and accessibility only); copyright notice. Private reference copies with notes. Evidence: https://energy.mit.edu/"
 }

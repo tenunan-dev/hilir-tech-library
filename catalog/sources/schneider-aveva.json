@@ -24,7 +24,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "PRO/II and Process Simulation, PI System, digital twins.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May cite the information; may print and use for non-commercial educational purposes unmodified with copyright notice; other reproduction needs consent. Personal reference copies. Evidence: https://www.aveva.com/en/legal/terms-of-use/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

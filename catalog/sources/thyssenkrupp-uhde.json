@@ -20,7 +20,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Ammonia, fertiliser, green chemicals; nucera alkaline electrolysis.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Commercial use, duplication or distribution without written permission not allowed; no licence to IP. Personal reference copies. Evidence: https://www.thyssenkrupp-uhde.com/en/legal-notice",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

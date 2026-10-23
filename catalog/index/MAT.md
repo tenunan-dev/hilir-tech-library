@@ -4,7 +4,7 @@
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
-| [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted (unverified) |
+| [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted |
 | [Bureau of Indian Standards](https://www.bis.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
@@ -20,7 +20,7 @@
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
-| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted (unverified) |
+| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
 | [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
@@ -41,7 +41,7 @@
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open (unverified) |
-| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | full-text-restricted (unverified) |
+| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -67,7 +67,7 @@
 | [Halliburton](https://www.halliburton.com/) | oem-supplier | global | open | full-text-restricted |
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
-| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted (unverified) |
+| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |

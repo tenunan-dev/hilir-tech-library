@@ -21,12 +21,12 @@
 | [Petroleum (KeAi)](https://www.keaipublishing.com/en/journals/petroleum/) | journal | apac | open | full-text-restricted |
 | [Petroleum Science (KeAi, open access)](https://www.keaipublishing.com/en/journals/petroleum-science/) | journal | apac, global | open | full-text-restricted |
 | [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted (unverified) |
-| [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-restricted (unverified) |
+| [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [SPE Asia Pacific Oil & Gas Conference (APOGCE)](https://www.spe.org/events/en/) | conference | apac | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
-| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted (unverified) |
-| [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted (unverified) |
+| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
+| [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted |
 | [ASCOPE ASEAN Council on Petroleum](https://www.ascope.org/) | association | sea | open | summary-only (unverified) |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | patents | sea | open | full-text-open (unverified) |
@@ -39,15 +39,15 @@
 | [India Directorate General of Hydrocarbons](https://www.dghindia.gov.in/) | agency-data | apac | open | full-text-open (unverified) |
 | [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-open (unverified) |
 | [India Petroleum Planning and Analysis Cell (PPAC)](https://ppac.gov.in/) | agency-data | apac | open | full-text-restricted |
-| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted (unverified) |
-| [Malaysia Energy Information Hub](https://meih.st.gov.my/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Malaysia Energy Information Hub](https://meih.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
 | [MyCite Malaysian Citation Centre](https://mycite.my/) | journal | sea | open | full-text-restricted (unverified) |
 | [MyIPO Malaysia patent search](https://iponlineext.myipo.gov.my/) | patents | sea | open | full-text-open (unverified) |
 | [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted (unverified) |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | summary-only (unverified) |
-| [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
@@ -75,7 +75,7 @@
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
-| [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted (unverified) |
+| [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
@@ -83,7 +83,7 @@
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
-| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | full-text-restricted (unverified) |
+| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -107,9 +107,9 @@
 | [Ariel Corporation](https://www.arielcorp.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
-| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
-| [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted (unverified) |
+| [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-restricted (unverified) |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
@@ -119,7 +119,7 @@
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
-| [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | full-text-restricted (unverified) |
+| [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
 | [Fisher valves (Emerson)](https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves) | oem-supplier | global | open | full-text-restricted |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
@@ -134,7 +134,7 @@
 | [JODI Oil and Gas World Database](https://www.jodidata.org/) | agency-data | global | open | full-text-restricted |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
-| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted (unverified) |
+| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |
@@ -149,7 +149,7 @@
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
-| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [TechnipFMC](https://www.technipfmc.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |

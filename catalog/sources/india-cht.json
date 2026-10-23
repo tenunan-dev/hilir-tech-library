@@ -16,11 +16,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "licence": "free-reuse-with-attribution",
+  "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Refinery technology benchmarking.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Material may be reproduced free of charge in any format without specific permission, accurately and with source acknowledged; third-party material excluded. Evidence: https://cht.gov.in/copyright-policy",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "any"
 }

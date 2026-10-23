@@ -21,7 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Centrifugal compressors and steam turbines.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May access, copy, download and print for personal non-commercial use; other copying needs written permission. Personal reference copies. Evidence: https://www.elliott-turbo.com/Files/Admin/terms%2Dof%2Duse/elliott%2Dterms%2Dof%2Duse%2Dv3%2D2024%2Dupdate%2Epdf",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

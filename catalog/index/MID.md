@@ -33,7 +33,7 @@
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
-| [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted (unverified) |
+| [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [Ariel Corporation](https://www.arielcorp.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
@@ -51,9 +51,9 @@
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
-| [KROHNE](https://krohne.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [KROHNE](https://krohne.com/) | oem-supplier | global | open | summary-only |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
-| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted (unverified) |
+| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |
 | [Oil & Gas Journal](https://www.ogj.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [OPEC Annual Statistical Bulletin](https://asb.opec.org/) | agency-data | global, me | open | full-text-restricted |
@@ -61,7 +61,7 @@
 | [OSDU Data Platform (The Open Group)](https://www.opengroup.org/osdu-forum/) | association | global | open | full-text-open (unverified) |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
-| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |

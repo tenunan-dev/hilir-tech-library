@@ -21,6 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial",
+  "notes": "Fair dealing for private study, research, criticism or review; no commercial reuse without permission. Personal reference copies. Evidence: https://www.nccs.gov.sg/terms-of-use/"
 }

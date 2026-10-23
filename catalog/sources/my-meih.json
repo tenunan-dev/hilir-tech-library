@@ -21,6 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial",
+  "notes": "May print, download or transfer information for private use only; no commercial use; copies otherwise need written consent from the Energy Commission. Personal reference copies. Evidence: https://meih.st.gov.my/terms/"
 }

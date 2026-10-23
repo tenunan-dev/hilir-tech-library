@@ -21,5 +21,6 @@
   "quality_tier": 2,
   "update_frequency": "irregular",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Page not reachable by fetch tool on 2026-10-23. Evidence: https://www.exxonmobilchemical.com/en/catalysts-and-licensing"
 }

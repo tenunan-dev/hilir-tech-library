@@ -21,6 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial",
+  "notes": "May save or print for own information, research or study, unmodified with NUS copyright notice; other reproduction needs permission; no deep linking. Personal reference copies. Evidence: http://www.nus.edu.sg/legal-information-notices"
 }

@@ -5,7 +5,7 @@
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [A*STAR Institute of Sustainability for Chemicals, Energy and Environment](https://www.a-star.edu.sg/isce2) | research-institute | sea | open | summary-only (unverified) |
-| [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted (unverified) |
+| [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted |
 | [Australian Energy Producers Journal (CSIRO Publishing)](https://www.publish.csiro.au/ep) | journal | apac | mixed | catalog-only (unverified) |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [CO2CRC Otway International Test Centre](https://co2crc.com.au/) | research-institute | apac | open | full-text-restricted |
@@ -17,7 +17,7 @@
 | [NOPSEMA offshore safety regulator](https://www.nopsema.gov.au/) | agency-data | apac | open | full-text-restricted |
 | [OTC Asia (Kuala Lumpur)](https://otcasia.org/) | conference | sea, apac | mixed | catalog-only (unverified) |
 | [SPE Asia Pacific Oil & Gas Conference (APOGCE)](https://www.spe.org/events/en/) | conference | apac | mixed | catalog-only (unverified) |
-| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted (unverified) |
+| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
 | [University of Queensland energy and CCS research](https://energy.uq.edu.au/) | research-institute | apac | open | full-text-restricted (unverified) |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open (unverified) |
@@ -28,16 +28,16 @@
 | [Gastech](https://www.gastechevent.com/) | conference | global, apac | mixed | catalog-only (unverified) |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [India Directorate General of Hydrocarbons](https://www.dghindia.gov.in/) | agency-data | apac | open | full-text-open (unverified) |
-| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Institute of Energy Economics, Japan (IEEJ)](https://eneken.ieej.or.jp/en/) | research-institute | apac | mixed | summary-only (unverified) |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted (unverified) |
 | [Korea Institute of Energy Research (KIER)](https://www.kier.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
 | [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted (unverified) |
 | [Mitsubishi Heavy Industries CO2 capture (KM CDR)](https://www.mhi.com/products/environment/carboncapture.html) | licensor | apac, global | open | summary-only |
-| [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted (unverified) |
+| [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | summary-only (unverified) |
-| [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Asia Pacific Clean Hydrogen / Singapore International Energy Week](https://www.siew.gov.sg/) | conference | sea | open | summary-only (unverified) |
@@ -47,7 +47,7 @@
 | [PTT Public Company and PTTEP](https://www.pttplc.com/en/) | licensor | sea | open | summary-only (unverified) |
 | [Santos](https://www.santos.com/) | licensor | apac | open | summary-only (unverified) |
 | [Woodside Energy](https://www.woodside.com/) | licensor | apac | open | summary-only (unverified) |
-| [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted (unverified) |
+| [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
@@ -57,14 +57,14 @@
 | [GHGT Greenhouse Gas Control Technologies conference](https://ghgt.info/) | conference | global | open | full-text-open (unverified) |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
-| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | full-text-restricted (unverified) |
+| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted (unverified) |
 | [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted (unverified) |
-| [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted (unverified) |
+| [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
@@ -76,7 +76,7 @@
 | [SPE Journal](https://onepetro.org/SJ) | journal | global | paywalled | catalog-only (unverified) |
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
-| [TNO energy and materials transition](https://www.tno.nl/en/sustainable/) | research-institute | eu | open | full-text-restricted (unverified) |
+| [TNO energy and materials transition](https://www.tno.nl/en/sustainable/) | research-institute | eu | open | full-text-restricted |
 | [USGS Energy Resources Program](https://www.usgs.gov/programs/energy-resources-program) | agency-data | na, global | open | full-text-open |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only (unverified) |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted (unverified) |
@@ -99,7 +99,7 @@
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
-| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted (unverified) |
+| [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [Oil and Gas Climate Initiative](https://www.ogci.com/) | association | global | open | summary-only |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |

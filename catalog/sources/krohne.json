@@ -18,10 +18,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Custody transfer metering.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Limited personal licence; no downloading or copying without consent (except for using purchased products); data mining, robots and extraction tools prohibited. Summaries only. Evidence: https://www.krohne.com/en-us/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "none"
 }

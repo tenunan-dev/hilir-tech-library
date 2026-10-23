@@ -16,13 +16,13 @@
 | [Petroleum (KeAi)](https://www.keaipublishing.com/en/journals/petroleum/) | journal | apac | open | full-text-restricted |
 | [Petroleum Science (KeAi, open access)](https://www.keaipublishing.com/en/journals/petroleum-science/) | journal | apac, global | open | full-text-restricted |
 | [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted (unverified) |
-| [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-restricted (unverified) |
+| [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
-| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted (unverified) |
+| [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | patents | sea | open | full-text-open (unverified) |
 | [Asia Refining Technology Conference (ARTC)](https://asiandownstreaminsights.com/events/asian-refining-technology-conference) | conference | apac, sea | mixed | catalog-only (unverified) |
-| [Centre for High Technology (CHT) India](https://cht.gov.in/) | research-institute | apac | open | full-text-restricted (unverified) |
+| [Centre for High Technology (CHT) India](https://cht.gov.in/) | research-institute | apac | open | full-text-open |
 | [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted (unverified) |
 | [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
 | [CNPC Economics and Technology Research Institute](https://www.cnpc.com.cn/en/) | research-institute | apac | open | summary-only (unverified) |
@@ -37,7 +37,7 @@
 | [MyCite Malaysian Citation Centre](https://mycite.my/) | journal | sea | open | full-text-restricted (unverified) |
 | [MyIPO Malaysia patent search](https://iponlineext.myipo.gov.my/) | patents | sea | open | full-text-open (unverified) |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | summary-only (unverified) |
-| [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted (unverified) |
+| [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
 | [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Toyo Engineering](https://www.toyo-eng.com/jp/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
@@ -67,7 +67,7 @@
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
-| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | full-text-restricted (unverified) |
+| [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -78,7 +78,7 @@
 | [Process Safety Progress](https://aiche.onlinelibrary.wiley.com/journal/15475913) | journal | global | mixed | catalog-only (unverified) |
 | [Processes (MDPI)](https://www.mdpi.com/journal/processes) | journal | global | open | full-text-open |
 | [Science and Technology for Energy Transition (STET, IFPEN)](https://www.stet-review.org/) | journal | global | open | full-text-restricted |
-| [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted (unverified) |
+| [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
@@ -87,11 +87,11 @@
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
-| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted (unverified) |
-| [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted (unverified) |
-| [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
+| [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-restricted (unverified) |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
@@ -101,14 +101,14 @@
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-restricted (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
-| [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Catalysts and Licensing](https://www.exxonmobilchemical.com/en/catalysts-and-licensing) | licensor | global | open | full-text-restricted (unverified) |
-| [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | full-text-restricted (unverified) |
+| [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
 | [Fisher valves (Emerson)](https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves) | oem-supplier | global | open | full-text-restricted |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
@@ -120,15 +120,15 @@
 | [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
 | [ISO 15926 / POSC Caesar reference data library](https://www.posccaesar.org/) | standards-body | global | open | full-text-restricted (unverified) |
 | [JODI Oil and Gas World Database](https://www.jodidata.org/) | agency-data | global | open | full-text-restricted |
-| [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | summary-only |
 | [Johnson Matthey Catalyst Technologies](https://www.honeywell.com/us/en/lp/ct/overview) | licensor | global | open | catalog-only |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [KBR Technology](https://www.kbr.com/en/solutions/technologies) | licensor | global | open | full-text-restricted |
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Ketjen (Albemarle) refining catalysts](https://www.ketjen.com/) | licensor | global | open | full-text-restricted |
 | [Koch Engineered Solutions](https://www.kochengineeredsolutions.com/) | oem-supplier | global | open | summary-only (unverified) |
-| [Koch-Glitsch](https://koch-glitsch.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
-| [KROHNE](https://krohne.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Koch-Glitsch](https://koch-glitsch.com/) | oem-supplier | global | open | summary-only |
+| [KROHNE](https://krohne.com/) | oem-supplier | global | open | summary-only |
 | [Lummus Technology](https://www.lummustechnology.com/) | licensor | global | open | full-text-restricted |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [NAMUR (NOA, MTP, NE recommendations)](https://www.namur.net/en/) | association | eu, global | mixed | catalog-only (unverified) |

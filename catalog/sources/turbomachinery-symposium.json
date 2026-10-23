@@ -18,11 +18,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "notes": "Proceedings freely available via OAKTrust repository.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Proceedings free to the public six months after each symposium, archived on Texas A&M OAKTrust; TEES 'All Rights Reserved', no reuse licence. Private reference copies with notes. Evidence: http://turbolab.tamu.edu/proceedings/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

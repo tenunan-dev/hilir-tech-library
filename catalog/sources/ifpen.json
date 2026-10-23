@@ -22,10 +22,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Publishes OGST/Science and Technology for Energy Transition (open access).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "All reproduction rights reserved; reproduction on any other medium formally prohibited without express permission. Summaries only (STET journal is catalogued separately). Evidence: https://www.ifpenergiesnouvelles.com/legal-notices",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

@@ -17,11 +17,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "LNG import terminal regulations, Philippine Energy Plan.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Footer: all content is in the public domain unless otherwise stated. Evidence: https://doe.gov.ph/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "any"
 }

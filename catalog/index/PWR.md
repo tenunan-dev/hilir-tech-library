@@ -10,10 +10,10 @@
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Malaysian Standards (Department of Standards Malaysia)](https://www.jsm.gov.my/) | standards-body | apac, sea | paywalled | catalog-only (unverified) |
 | [NTU Energy Research Institute (ERI@N)](https://www.ntu.edu.sg/erian) | research-institute | sea | open | summary-only (unverified) |
-| [NUS Energy Studies Institute](https://esi.nus.edu.sg/) | research-institute | sea | open | full-text-restricted (unverified) |
+| [NUS Energy Studies Institute](https://esi.nus.edu.sg/) | research-institute | sea | open | full-text-restricted |
 | [Oxford Institute for Energy Studies (OIES)](https://www.oxfordenergy.org/) | research-institute | global, apac | open | full-text-restricted (unverified) |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
-| [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted (unverified) |
+| [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted |
 | [ARENA Australian Renewable Energy Agency knowledge bank](https://arena.gov.au/knowledge-bank/) | agency-data | apac | open | full-text-open (unverified) |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | patents | sea | open | full-text-open (unverified) |
@@ -21,24 +21,24 @@
 | [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
 | [ERIA Economic Research Institute for ASEAN and East Asia](https://www.eria.org/) | research-institute | sea, apac | open | full-text-restricted |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
-| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Institute of Energy Economics, Japan (IEEJ)](https://eneken.ieej.or.jp/en/) | research-institute | apac | mixed | summary-only (unverified) |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
 | [Korea Energy Economics Institute (KEEI)](https://www.keei.re.kr/main.nsf/index_en.html) | research-institute | apac | open | full-text-restricted (unverified) |
 | [Korea Institute of Energy Research (KIER)](https://www.kier.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
-| [Malaysia Energy Information Hub](https://meih.st.gov.my/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Malaysia Energy Information Hub](https://meih.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted (unverified) |
 | [Mitsubishi Heavy Industries CO2 capture (KM CDR)](https://www.mhi.com/products/environment/carboncapture.html) | licensor | apac, global | open | summary-only |
 | [Mitsubishi Heavy Industries Compressor and gas turbines](https://www.mhi.com/) | oem-supplier | apac, global | open | summary-only |
 | [MyCite Malaysian Citation Centre](https://mycite.my/) | journal | sea | open | full-text-restricted (unverified) |
 | [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted (unverified) |
-| [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted (unverified) |
-| [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted |
+| [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted |
-| [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted (unverified) |
-| [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted (unverified) |
-| [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted (unverified) |
+| [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
+| [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
+| [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
 | [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [Asia Pacific Clean Hydrogen / Singapore International Energy Week](https://www.siew.gov.sg/) | conference | sea | open | summary-only (unverified) |
@@ -64,7 +64,7 @@
 | [Fraunhofer ISE](https://www.ise.fraunhofer.de/en.html) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
-| [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted (unverified) |
+| [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
@@ -75,9 +75,9 @@
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
-| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
-| [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted (unverified) |
+| [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open (unverified) |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
@@ -86,7 +86,7 @@
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
-| [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | full-text-restricted (unverified) |
+| [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
 | [GE Vernova](https://www.gevernova.com/) | oem-supplier | global | open | full-text-restricted |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
@@ -100,7 +100,7 @@
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
-| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |

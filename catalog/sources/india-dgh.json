@@ -21,5 +21,6 @@
   "quality_tier": 2,
   "update_frequency": "monthly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "No copyright statement on home page and policy pages blocked by robots.txt. Evidence: https://www.dghindia.gov.in/"
 }

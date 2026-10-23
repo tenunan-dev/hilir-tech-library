@@ -20,10 +20,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Flares, burners, hydrogen combustion.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Koch terms: personal non-commercial use; no reproduction without written permission. Summaries only. Evidence: https://www.kochinc.com/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

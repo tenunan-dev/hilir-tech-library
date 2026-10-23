@@ -19,10 +19,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Mass transfer internals; technical articles.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Koch terms: licence for personal non-commercial use; no reproduction, publication or distribution without written permission; downloading not expressly permitted. Summaries only. Evidence: https://www.kochinc.com/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

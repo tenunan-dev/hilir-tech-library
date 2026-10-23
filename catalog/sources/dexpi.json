@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Machine-readable P&IDs.",
+  "notes": "Licence not on home page; check https://dexpi.org/specifications/. Evidence: https://dexpi.org/",
   "verification": "unverified",
   "last_verified": null
 }

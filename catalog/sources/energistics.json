@@ -20,5 +20,6 @@
   "quality_tier": 2,
   "update_frequency": "irregular",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Standards download moved to publications.opengroup.org; licence at energistics.org/licensing-and-legal not yet read. Evidence: https://energistics.org/"
 }

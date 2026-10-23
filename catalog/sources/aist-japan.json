@@ -22,7 +22,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Fukushima Renewable Energy Institute.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Reproduction without permission prohibited except personal use, quotation and other uses allowed by copyright law. Personal reference copies. Evidence: https://www.aist.go.jp/aist_e/terms_of_use/index_en.html",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

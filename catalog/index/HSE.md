@@ -17,11 +17,11 @@
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open (unverified) |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
-| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
 | [Methanol Institute](https://www.methanol.org/) | association | global, apac | open | full-text-restricted |
-| [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted (unverified) |
-| [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
+| [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [Malaysian Petrochemicals Association](https://www.mpa.org.my/) | association | sea | open | summary-only (unverified) |
 | [AIChE Center for Chemical Process Safety (CCPS)](https://www.aiche.org/ccps) | association | global | mixed | catalog-only (unverified) |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only (unverified) |
@@ -61,7 +61,7 @@
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
-| [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | summary-only |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |

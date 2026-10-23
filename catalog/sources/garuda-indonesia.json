@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Indonesian OA journals incl. Scientific Contributions Oil and Gas (Lemigas).",
+  "notes": "robots.txt disallows automated fetch; check manually. Evidence: https://garuda.kemdikbud.go.id/",
   "verification": "unverified",
   "last_verified": null
 }

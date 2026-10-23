@@ -18,10 +18,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Industrial gas turbines and compressor sets.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Caterpillar terms: no copying or republishing without consent; robots and spiders prohibited; collected information must not be used to create or train AI or ML systems. Catalog only. Evidence: https://www.caterpillar.com/en/legal-notices.html",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "none"
 }

@@ -19,11 +19,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "mixed-per-paper",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "notes": "Institutional repository (UTPedia).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "'All Rights Reserved'; no terms of use. Library at http://ulibrary.utp.edu.my/ (repository not confirmed). Private reference copies with notes; theses and papers may carry their own licences. Evidence: https://www.utp.edu.my/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

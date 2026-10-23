@@ -22,5 +22,6 @@
   "quality_tier": 2,
   "update_frequency": "irregular",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Reference data library requires sign-in; terms page not yet read. Evidence: https://www.posccaesar.org/"
 }

@@ -20,7 +20,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "osduforum.org now redirects to The Open Group OSDU Forum page; code licence not yet confirmed. Evidence: https://www.opengroup.org/osdu-forum/",
+  "notes": "OSDU Data Platform is open source; code at community.opengroup.org/osdu. Licence not named on the forum page; confirm in the repositories. Evidence: https://www.opengroup.org/osdu-forum/",
   "verification": "unverified",
   "last_verified": null
 }

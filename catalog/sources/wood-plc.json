@@ -24,5 +24,6 @@
   "quality_tier": 2,
   "update_frequency": "monthly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Terms page not found by fetch tool on 2026-10-23. Evidence: https://www.woodplc.com/"
 }

@@ -19,7 +19,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Just Catch modular amine capture.",
+  "notes": "robots.txt disallows automated fetch; check manually. Evidence: https://www.slbcapturi.com/",
   "verification": "unverified",
   "last_verified": null
 }

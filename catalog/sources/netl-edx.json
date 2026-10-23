@@ -19,11 +19,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "mixed-per-dataset",
+  "licence": "per-dataset",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Datasets carry individual licences.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Portal states no general licence; each dataset carries its own licence. Collector must read the dataset-level licence. Evidence: https://edx.netl.doe.gov/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

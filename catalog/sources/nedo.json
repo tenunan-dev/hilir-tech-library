@@ -18,11 +18,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "NEDO-terms (reuse with credit, non-commercial)",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Green Innovation Fund projects: hydrogen, ammonia co-firing, CO2 recycling.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Content may be quoted, reprinted and reproduced with clear credit as permitted by copyright law; commercial reproduction needs prior contact; no alteration. Third-party content follows its owner's terms. Evidence: https://www.nedo.go.jp/english/websiteuse.html",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

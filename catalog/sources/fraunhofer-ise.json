@@ -22,5 +22,6 @@
   "quality_tier": 1,
   "update_frequency": "monthly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Imprint not found by fetch tool on 2026-10-23. Evidence: https://www.ise.fraunhofer.de/en.html"
 }

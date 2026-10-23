@@ -20,11 +20,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "all-rights-reserved",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Handbook of Energy and Economic Statistics of Indonesia.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Copyright notice only; no terms of use. Figures are operational and subject to reconciliation. Private reference copies with notes. Evidence: https://www.esdm.go.id/en",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

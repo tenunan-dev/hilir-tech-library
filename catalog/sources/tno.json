@@ -21,6 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial",
+  "notes": "All rights reserved; copying or downloading allowed only for personal non-commercial use. Personal reference copies. Evidence: https://www.tno.nl/en/about-tno/contact/corporate-legal/disclaimer/"
 }
