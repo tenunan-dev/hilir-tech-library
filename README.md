@@ -25,7 +25,7 @@ Each record's `reuse_level` decides what the collector may store. Collectors act
 | Level | Meaning | Where content may go |
 | --- | --- | --- |
 | `full-text-open` | Open licence (CC BY, public domain, OGL, NLOD and similar) | Corpus, with attribution |
-| `full-text-restricted` | Downloadable but no open licence, and the site's terms do not forbid keeping a reference copy | This private repo only, with a note of the terms |
+| `full-text-restricted` | Downloadable with no open licence, where the terms allow personal or internal copies or publish no terms at all | This private repo only; each file carries a use note (personal reference, no redistribution or commercial use) |
 | `summary-only` | Terms forbid copying, or the value is in facts rather than text | Our own summaries and extracted facts, with a link |
 | `catalog-only` | Paywalled, login-only, or not downloadable | Catalog record only, kept for retrieval once a licence or API key is available |
 
@@ -33,7 +33,12 @@ Paid sources (API, ASTM, OnePetro full text, ICIS and others) are catalog-only u
 
 ## Verification
 
-All records start as `unverified`: the URL, licence and reuse level were drafted from the publisher's known terms and must be checked against the live terms page before any content is collected. Records with "verify" in `notes` have a specific doubt (URL path, licence wording or access terms). To verify a record, open the URL and terms page, correct the fields, and set `verification` to `verified` and `last_verified` to the date.
+Each record's licence and reuse level is checked against the live terms page, and the evidence URL and finding are logged in `tools/verification/log.jsonl`. `python tools/apply_verification.py` writes them into the records. Verified records also carry:
+
+- `automated_access`: `allowed`, `prohibited` (manual download only) or `unstated`
+- `permitted_use`: `any`, `internal-organisation`, `personal-non-commercial`, `none` or `unstated` (no terms published)
+
+Sites whose terms forbid copying are `summary-only`; Honeywell and Caterpillar, whose terms ban AI use, are `catalog-only`. Records still `unverified` either have not been checked or their terms page could not be read automatically (the log says which).
 
 ## Using it from an agent
 
@@ -50,5 +55,5 @@ All records start as `unverified`: the URL, licence and reuse level were drafted
 ## Roadmap
 
 1. **Catalog (done):** taxonomy, schema, 342 records, generated indexes.
-2. **Verification and open corpus:** verify records, then collect `full-text-open` and `full-text-restricted` content through APIs and feeds into `corpus/<id>/`, chunked with licence and citation metadata.
+2. **Verification and corpus (in progress):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
 3. **Agent access and refresh:** keyword and vector search index, MCP server (`search`, `get_source`, `list_by_tag`), scheduled refresh and link and licence checks.

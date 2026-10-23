@@ -27,5 +27,8 @@
   "update_frequency": "weekly",
   "notes": "Verified CC BY on journal about page.",
   "verification": "verified",
-  "last_verified": "2026-10-23"
+  "last_verified": "2026-10-23",
+  "feeds": [
+    "https://www.mdpi.com/rss/journal/energies"
+  ]
 }

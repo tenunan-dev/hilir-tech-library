@@ -23,5 +23,8 @@
   "update_frequency": "weekly",
   "verification": "verified",
   "last_verified": "2026-10-23",
-  "notes": "MDPI publishes all articles under the latest CC BY licence; attribution required. Evidence: https://www.mdpi.com/openaccess"
+  "notes": "MDPI publishes all articles under the latest CC BY licence; attribution required. Evidence: https://www.mdpi.com/openaccess",
+  "feeds": [
+    "https://www.mdpi.com/rss/journal/catalysts"
+  ]
 }

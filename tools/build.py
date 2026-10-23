@@ -67,6 +67,15 @@ def write_indexes(records, taxonomy):
     summary += table("By verification", collections.Counter(r["verification"] for r in records))
     (INDEX / "README.md").write_text("\n".join(summary), encoding="utf-8")
 
+    # Records a person needs to check by hand: the automated terms check could not confirm them.
+    pending = sorted((r for r in records if r["verification"] == "unverified" and "Evidence:" in r.get("notes", "")),
+                     key=lambda r: r["id"])
+    lines = ["# Needs a manual terms check", "",
+             f"{len(pending)} sources whose terms page could not be read automatically.", "",
+             "| Source | Current reuse level | Finding |", "| --- | --- | --- |"]
+    lines += [f"| [{r['name']}]({r['url']}) | {r['reuse_level']} | {r['notes'].split(' Evidence:')[0]} |" for r in pending]
+    (INDEX / "needs-manual-check.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
 
 def main():
     records, errors = load()
