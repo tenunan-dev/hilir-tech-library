@@ -52,14 +52,14 @@
 
 | Value | Sources |
 | --- | --- |
-| full-text-restricted | 127 |
-| summary-only | 90 |
-| catalog-only | 64 |
-| full-text-open | 61 |
+| full-text-restricted | 121 |
+| summary-only | 104 |
+| catalog-only | 67 |
+| full-text-open | 50 |
 
 ## By verification
 
 | Value | Sources |
 | --- | --- |
-| unverified | 341 |
-| verified | 1 |
+| unverified | 275 |
+| verified | 67 |

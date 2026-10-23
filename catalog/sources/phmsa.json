@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Incident data, CO2 pipeline rulemaking.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Web policy says PHMSA does not restrict downloading of website information; no explicit copyright statement, but federal agency works are not copyrightable (17 U.S.C. 105). Photos for commercial republishing need permission. Evidence: https://www.phmsa.dot.gov/about-phmsa/web-policies",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

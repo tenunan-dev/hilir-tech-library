@@ -25,11 +25,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "CC0-1.0",
+  "licence": "free-reuse (CC0 to confirm)",
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "Metadata CC0; use for discovery and citation counts, not full text.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Works free to search, analyse and reuse via web app, API and bulk download; home page does not name the licence (CC0 per OpenAlex docs, not confirmed here). Evidence: https://openalex.org/",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

@@ -24,7 +24,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "US federal works.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "US government publication, public domain; cite EIA with date. Photos, logo and third-party material excluded. Evidence: https://www.eia.gov/about/copyrights_reuse.php",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

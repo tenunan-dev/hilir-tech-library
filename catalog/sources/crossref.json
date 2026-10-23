@@ -25,11 +25,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "CC0-1.0",
+  "licence": "facts-no-copyright",
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "DOI metadata; often includes licence URLs per article.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "REST API needs no sign-up; almost none of the metadata is copyrightable and may be used for any purpose, but some abstracts are publisher or author copyright. Use the polite pool (mailto parameter). Evidence: https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

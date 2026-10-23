@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Includes geologic hydrogen and CO2 storage assessments.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "USGS-authored data and information are US public domain; credit 'U.S. Geological Survey'. Some images and non-USGS material are copyrighted. Evidence: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

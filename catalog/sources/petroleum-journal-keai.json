@@ -18,10 +18,11 @@
     "apac"
   ],
   "access": "open",
-  "licence": "CC-BY-NC-ND-4.0",
-  "reuse_level": "full-text-open",
+  "licence": "per-article",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "quarterly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "notes": "Open-access journal, but KeAi site footer reserves all rights including text and data mining and AI training. Article-level CC licence must be read per article; treat as private reference only. Evidence: https://www.keaipublishing.com/en/journals/petroleum-science/"
 }

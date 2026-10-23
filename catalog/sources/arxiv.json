@@ -19,11 +19,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "mixed-per-paper",
+  "licence": "CC0-1.0 metadata; per-paper full text",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "Per-paper licences vary; arXiv API allowed for metadata; only CC-licensed PDFs to the open corpus.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Metadata (titles, abstracts, authors) CC0. E-prints are copyright of authors or publishers; personal and research use allowed, no re-hosting unless the paper's licence permits (some CC). API limit 1 request per 3 seconds, single connection. Evidence: https://info.arxiv.org/help/api/tou.html",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

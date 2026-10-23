@@ -20,11 +20,11 @@
     "na"
   ],
   "access": "free-registration",
-  "licence": "EIA-reuse-policy",
+  "licence": "public-domain",
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Free API key; EIA copyright and reuse policy permits reuse with attribution (verify wording).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "US government publication, public domain; cite as 'Source: U.S. Energy Information Administration (date)'. Free API key required. Photos and logo excluded. Evidence: https://www.eia.gov/about/copyrights_reuse.php",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

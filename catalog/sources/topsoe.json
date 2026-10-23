@@ -22,7 +22,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Hydroprocessing catalysts, SOEC electrolysis, ammonia, methanol, HydroFlex SAF.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Content may be downloaded for personal or non-commercial use within your organisation, keeping copyright notices. Scraping and AI not addressed. Evidence: https://www.topsoe.com/legal-notice",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "internal-organisation"
 }

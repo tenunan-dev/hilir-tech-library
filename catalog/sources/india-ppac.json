@@ -17,11 +17,11 @@
     "apac"
   ],
   "access": "open",
-  "licence": "GODL-India",
-  "reuse_level": "full-text-open",
+  "licence": "permission-required",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Government Open Data Licence India (verify).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Material may be reproduced free of charge only after obtaining permission by email; acknowledge source. Not an open licence (GODL not stated). Evidence: https://ppac.gov.in/website-policies",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

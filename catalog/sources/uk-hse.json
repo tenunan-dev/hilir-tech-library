@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Research reports (RR series) are valuable for process safety.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "HSE: all content available under the Open Government Licence v3.0 except where otherwise stated. Evidence: https://www.hse.gov.uk/products/index.htm",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

@@ -18,11 +18,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Brazed aluminium heat exchangers, IPSMR LNG process, cryogenic equipment.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Only terms of sale and purchase are published; no website terms of use, so default copyright applies. Summaries only. Evidence: https://www.chartindustries.com/Terms-Conditions",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

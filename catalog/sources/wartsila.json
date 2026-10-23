@@ -21,7 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Engine power plants, LNG regas and fuel systems, energy storage.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "May store or print extracts for personal use only; reproduction or storage otherwise needs written permission. Kept as personal non-commercial reference copies per owner decision of 2026-10-23; never share or use commercially. Evidence: https://www.wartsila.com/legal-privacy",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

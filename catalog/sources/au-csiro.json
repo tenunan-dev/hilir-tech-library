@@ -19,11 +19,11 @@
     "apac"
   ],
   "access": "open",
-  "licence": "CC-BY-4.0",
-  "reuse_level": "full-text-open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "HyResource hydrogen knowledge hub.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Not CC BY by default: unless otherwise stated you may download or print a single copy of CSIRO copyright material. Only Science Image collection is CC BY. Individual reports may carry their own CC licence. Evidence: https://www.csiro.au/en/about/policies/legal/copyright",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

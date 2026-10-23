@@ -17,11 +17,11 @@
     "apac"
   ],
   "access": "open",
-  "licence": "CC-BY-4.0",
-  "reuse_level": "full-text-open",
+  "licence": "mixed-per-document",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Includes decommissioning guidance.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Per-document: some material CC BY 3.0; default terms allow download and copying for personal or in-organisation use only, no supply to others or commercial use. Credit NOPSEMA with link. Evidence: https://www.nopsema.gov.au/copyright",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

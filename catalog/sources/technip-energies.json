@@ -1,7 +1,7 @@
 {
   "id": "technip-energies",
   "name": "Technip Energies",
-  "url": "https://www.technipenergies.com/",
+  "url": "https://www.ten.com/en",
   "source_type": "epc-contractor",
   "sectors": [
     "GAS",
@@ -20,10 +20,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Ethylene technology, LNG, Canopy CCS, hydrogen.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site moved to ten.com. Content may not be downloaded or copied for any purpose without written consent; automated scripts prohibited. Summaries only. Evidence: https://www.ten.com/en/legal-policy",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "none"
 }

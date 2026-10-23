@@ -24,7 +24,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Cost and performance baselines for fossil plants and CCS.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Most information on the server is public domain; some third-party material is copyrighted and licensed for government use only. Evidence: https://netl.doe.gov/home/disclaimer",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

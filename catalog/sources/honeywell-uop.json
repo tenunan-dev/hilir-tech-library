@@ -20,10 +20,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Refining, petrochemical, gas processing, renewable fuels (Ecofining), CCS technologies; brochures and papers.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Honeywell terms: personal non-commercial use only; one copy of a reasonable number of pages; robots and spiders prohibited; manual copying prohibited without consent; use of content for AI training strictly prohibited. Keep catalog record and links only. Evidence: https://www.honeywell.com/us/en/legal/terms-and-conditions",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "personal-non-commercial"
 }

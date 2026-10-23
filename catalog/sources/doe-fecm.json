@@ -23,6 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "notes": "DOE web policy: government information on DOE websites is public domain and may be freely copied; acknowledge DOE. Third-party images excluded. Evidence: https://www.energy.gov/about-us/web-policies"
 }

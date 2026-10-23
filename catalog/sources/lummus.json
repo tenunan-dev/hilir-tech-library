@@ -1,7 +1,7 @@
 {
   "id": "lummus",
   "name": "Lummus Technology",
-  "url": "https://www.lummustech.com/",
+  "url": "https://www.lummustechnology.com/",
   "source_type": "licensor",
   "sectors": [
     "REF",
@@ -18,11 +18,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Ethylene, olefins, polymers, refining, circular plastics.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Domain moved to lummustechnology.com. No terms-of-use page linked (privacy and cookies only), so default copyright applies: summaries and facts only. Evidence: https://www.lummustechnology.com/",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

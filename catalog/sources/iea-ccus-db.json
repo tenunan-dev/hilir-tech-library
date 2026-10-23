@@ -15,10 +15,11 @@
     "global"
   ],
   "access": "free-registration",
-  "licence": "CC-BY-4.0",
-  "reuse_level": "full-text-open",
+  "licence": "IEA-non-CC-terms",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "notes": "Standalone datasets and databases are excluded from IEA CC BY 4.0 and fall under Terms of Use for Non-CC Material. Keep a private reference copy only. Evidence: https://www.iea.org/terms"
 }

@@ -29,7 +29,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "Metadata CC0; use to discover OA journals in energy.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Journal and article metadata released under CC0; other site content CC BY-SA 4.0. Evidence: https://doaj.org/terms/",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

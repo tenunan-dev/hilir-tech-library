@@ -22,7 +22,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Ammonia, olefins (SCORE, K-COT), refining, hydrogen.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Pages may be copied or printed for internal informational, personal or non-commercial use with KBR acknowledgement and copyright symbol; robots and spiders prohibited without written permission. Manual download only. Evidence: https://www.kbr.com/en/terms-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "internal-organisation"
 }

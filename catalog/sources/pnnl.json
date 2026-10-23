@@ -19,10 +19,11 @@
     "na"
   ],
   "access": "open",
-  "licence": "public-domain",
-  "reuse_level": "full-text-open",
+  "licence": "non-commercial-use",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "notes": "Documents may be freely distributed and used for non-commercial, scientific and educational purposes; US Government holds a reproduction licence. Evidence: https://www.pnnl.gov/notices.asp"
 }

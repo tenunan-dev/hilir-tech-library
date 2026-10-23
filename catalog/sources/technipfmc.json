@@ -20,7 +20,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Subsea production systems, Subsea 2.0.",
+  "notes": "Footer links not readable by fetch tool on 2026-10-23; check manually. Evidence: https://www.technipfmc.com/",
   "verification": "unverified",
   "last_verified": null
 }

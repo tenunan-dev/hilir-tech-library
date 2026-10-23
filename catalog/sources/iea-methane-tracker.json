@@ -21,7 +21,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "Annual edition; URL changes per year.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Report text and standalone figures CC BY 4.0; the underlying data explorer and dataset are excluded (non-CC terms). Evidence: https://www.iea.org/terms",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

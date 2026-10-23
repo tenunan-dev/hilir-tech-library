@@ -20,10 +20,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Flow, level, analysers; technical information PDFs.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Content may under no circumstances be reproduced; no personal or internal-use exception. Summaries only. Evidence: https://www.endress.com/en/Terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

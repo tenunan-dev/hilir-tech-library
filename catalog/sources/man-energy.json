@@ -1,7 +1,7 @@
 {
   "id": "man-energy",
   "name": "MAN Energy Solutions (Everllence)",
-  "url": "https://www.man-es.com/",
+  "url": "https://www.everllence.com/",
   "source_type": "oem-supplier",
   "sectors": [
     "MID",
@@ -20,11 +20,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Compressors, engines, CCS compression, electrolysis (Quest One).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "MAN Energy Solutions renamed Everllence; site has imprint and copyright notice but no terms of use, so default copyright applies. Summaries only. Evidence: https://www.everllence.com/imprint",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

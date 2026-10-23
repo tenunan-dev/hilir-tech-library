@@ -21,7 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Gas turbines, wind, grid; hydrogen-fuel combustion papers.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Copy, download and print for personal non-commercial use with notices intact; any other use prohibited, including competitive use. Kept as personal non-commercial reference copies per owner decision of 2026-10-23; never share or use commercially. Evidence: https://www.gevernova.com/terms",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

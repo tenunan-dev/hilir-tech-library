@@ -17,11 +17,11 @@
     "eu"
   ],
   "access": "open",
-  "licence": "OGL-UK-3.0",
+  "licence": "NSTA-Open-User-Licence",
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Open Government Licence; National Data Repository.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "NSTA Open User Licence (not OGL): free reuse in any format, no logos, reproduce accurately, credit NSTA copyright and link the document title. Third-party material needs permission. Evidence: https://www.nstauthority.co.uk/site-tools/terms-and-conditions/",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

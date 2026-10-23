@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Incident reports and safety videos.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "CSB fact sheet: investigation reports are public documents available online; safety videos free of charge. Federal agency works (17 U.S.C. 105). Dedicated copyright page not reachable. Evidence: https://www.csb.gov/assets/1/6/CSB_Fact_Sheet.pdf",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

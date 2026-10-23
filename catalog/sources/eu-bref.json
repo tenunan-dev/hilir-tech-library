@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "Detailed process technology descriptions per sector.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "BREFs are Commission (JRC) documents; EU-owned Commission content licensed CC BY 4.0; third-party content excluded. Evidence: https://commission.europa.eu/legal-notice_en",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

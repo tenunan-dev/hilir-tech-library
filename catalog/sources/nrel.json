@@ -18,10 +18,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "public-domain",
-  "reuse_level": "full-text-open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "notes": "NREL is contractor-operated; website text and images are copyrighted (NREL copyright statement). Technical reports are also deposited in OSTI, where per-document rights apply. Keep private reference copies only. Evidence: https://nrel.gov/comm-standards/web/legal"
 }

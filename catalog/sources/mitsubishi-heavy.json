@@ -21,10 +21,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Hydrogen-fired gas turbines; MHI Technical Review.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Copying or use beyond what copyright law allows needs MHI prior approval; business or profit-making use prohibited. Summaries only. Evidence: https://www.mhi.com/conditions.html",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none"
 }

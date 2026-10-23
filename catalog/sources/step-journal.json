@@ -18,11 +18,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "CC-BY-4.0",
-  "reuse_level": "full-text-open",
+  "licence": "per-article",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Successor to Oil & Gas Science and Technology.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Diamond open access (IFPEN and CEA), no APCs. Licence not stated on home page; collector must read article-level licence before open-corpus use. Evidence: https://www.stet-review.org/",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

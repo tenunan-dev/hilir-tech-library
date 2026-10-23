@@ -21,11 +21,11 @@
     "global"
   ],
   "access": "free-registration",
-  "licence": "mixed-per-paper",
+  "licence": "ODC-By (CORE data); per-paper full text",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "API with free key; respects source licence per paper.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "API needs a licence (free for personal use and public research). Full texts remain rightsholders' copyright; CORE data meant for text and data mining. Datasets ODC-By; unauthorised scraping prohibited. Evidence: https://core.ac.uk/terms",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

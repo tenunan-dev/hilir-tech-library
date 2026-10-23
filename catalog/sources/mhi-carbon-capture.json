@@ -18,9 +18,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "unstated",
+  "permitted_use": "none",
+  "notes": "MHI terms: copying beyond copyright-law exceptions needs prior approval; business use prohibited. Summaries only. Evidence: https://www.mhi.com/conditions.html"
 }

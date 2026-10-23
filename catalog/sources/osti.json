@@ -22,11 +22,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "public-domain",
-  "reuse_level": "full-text-open",
+  "licence": "mixed-per-document",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "daily",
-  "notes": "Most DOE-funded reports are public domain; journal manuscripts may have publisher terms.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Per-document: works marked 'U.S. Government Work' are not copyrightable; journal articles and unmarked works keep copyright. Collector must read each record's rights statement; only US Government Works go to the open corpus. Evidence: https://www.osti.gov/disclaim",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

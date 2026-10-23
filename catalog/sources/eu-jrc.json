@@ -24,7 +24,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "notes": "Includes Best Available Techniques reference documents (BREFs).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "EU-owned Commission content licensed CC BY 4.0; third-party content, logos and trade marks excluded. Evidence: https://commission.europa.eu/legal-notice_en",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

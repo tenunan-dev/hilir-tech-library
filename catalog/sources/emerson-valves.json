@@ -23,7 +23,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Control Valve Handbook freely downloadable.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Emerson terms: one copy for personal non-commercial use; automated systems prohibited. Kept as personal non-commercial reference copies per owner decision of 2026-10-23; never share or use commercially. Evidence: https://www.emerson.com/en-us/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "personal-non-commercial"
 }

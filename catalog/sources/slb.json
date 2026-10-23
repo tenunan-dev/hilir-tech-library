@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Oilfield technology, technical papers, Delfi digital platform.",
+  "notes": "Terms page exists but its body could not be read by the fetch tool on 2026-10-23; check manually. Evidence: https://www.slb.com/en/terms-of-service",
   "verification": "unverified",
   "last_verified": null
 }

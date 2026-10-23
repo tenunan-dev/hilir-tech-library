@@ -1,7 +1,7 @@
 {
   "id": "johnson-matthey",
   "name": "Johnson Matthey Catalyst Technologies",
-  "url": "https://matthey.com/products-and-markets/chemicals",
+  "url": "https://www.honeywell.com/us/en/lp/ct/overview",
   "source_type": "licensor",
   "sectors": [
     "H2",
@@ -19,10 +19,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Methanol, ammonia, LCH low-carbon hydrogen, FT CANS.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The Johnson Matthey Catalyst Technologies page now redirects to Honeywell (business acquired). Honeywell terms ban robots, copying and AI training use, so catalog only. Evidence: https://www.honeywell.com/us/en/lp/ct/overview",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "personal-non-commercial"
 }

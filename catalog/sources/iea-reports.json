@@ -25,7 +25,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "CC-licensed IEA content is used under the CC licence plus IEA-specific terms (logos, third-party content excluded); non-CC material has separate terms. Check the licence on each report. Terms: https://www.iea.org/terms/creative-commons-cc-licenses",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Most IEA reports, articles, commentaries and standalone figures are CC BY 4.0. Excluded: Oil Market Report, standalone datasets and data explorers, WEO data annexes, joint works, logos and photos. Separate terms apply to AI agents on the site; read them before automated collection. Evidence: https://www.iea.org/terms",
+  "verification": "verified",
+  "last_verified": "2026-10-23"
 }

@@ -20,10 +20,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Experion DCS, safety systems.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Honeywell terms: personal non-commercial use only; robots prohibited; AI training use strictly prohibited. Catalog only. Evidence: https://www.honeywell.com/us/en/legal/terms-and-conditions",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "personal-non-commercial"
 }

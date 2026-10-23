@@ -23,7 +23,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Pumps, separation column internals, technical review articles.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Content may be used only for the user's own internal documentation concerning Sulzer and its products; replication or transmission otherwise needs written authorisation; spiders, crawlers and automatic copying tools prohibited. Manual download for internal reference only. Evidence: https://www.sulzer.com/en/shared/legal/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-23",
+  "automated_access": "prohibited",
+  "permitted_use": "internal-organisation"
 }
