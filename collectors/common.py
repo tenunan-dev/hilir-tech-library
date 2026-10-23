@@ -44,9 +44,17 @@ def allowed_by_robots(url):
         parser = urllib.robotparser.RobotFileParser()
         try:
             resp = requests.get(base + "/robots.txt", headers={"User-Agent": USER_AGENT}, timeout=30)
-            parser.parse(resp.text.splitlines() if resp.status_code == 200 else [])
         except requests.RequestException:
-            parser.parse([])
+            resp = None
+        # Same rules as urllib.robotparser.read(): 401/403 means the site refuses us, so
+        # disallow everything; another 4xx means no robots.txt, so allow. If we cannot
+        # read it at all, stay out.
+        if resp is None or resp.status_code in (401, 403) or resp.status_code >= 500:
+            parser.disallow_all = True
+        elif resp.status_code >= 400:
+            parser.allow_all = True
+        else:
+            parser.parse(resp.text.splitlines())
         _robots[base] = parser
     return _robots[base].can_fetch(USER_AGENT, url)
 

@@ -108,3 +108,29 @@ def test_manual_inbox_uses_sidecar_url(corpus):
 
 def test_empty_body_is_not_written(corpus):
     assert common.write_document(record(), "Empty", "https://example.org/e", "   ") is None
+
+
+@pytest.mark.parametrize("status,text,allowed", [
+    (403, "Access Denied", False),
+    (401, "", False),
+    (503, "", False),
+    (404, "", True),
+    (200, "User-agent: *\nDisallow: /private/", True),
+])
+def test_robots_status_handling(monkeypatch, status, text, allowed):
+    class Resp:
+        status_code = status
+
+    Resp.text = text
+    monkeypatch.setattr(common, "_robots", {})
+    monkeypatch.setattr(common.requests, "get", lambda *a, **kw: Resp())
+    assert common.allowed_by_robots("https://example.org/articles/1") is allowed
+
+
+def test_robots_unreachable_disallows(monkeypatch):
+    def boom(*a, **kw):
+        raise common.requests.ConnectionError("down")
+
+    monkeypatch.setattr(common, "_robots", {})
+    monkeypatch.setattr(common.requests, "get", boom)
+    assert common.allowed_by_robots("https://example.org/x") is False
