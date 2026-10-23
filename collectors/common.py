@@ -24,6 +24,12 @@ MIN_DELAY_SECONDS = 3.0
 _last_hit = {}
 _robots = {}
 
+# URL prefixes whose own published terms invite programmatic access even though the host's
+# robots.txt bars crawlers. Each entry names the terms page; fetch() still keeps the delay.
+ROBOTS_EXCEPTIONS = {
+    "https://export.arxiv.org/api/": "https://info.arxiv.org/help/api/tou.html",
+}
+
 
 def load_catalog():
     path = ROOT / "catalog" / "catalog.jsonl"
@@ -38,6 +44,8 @@ def collectable(rec):
 
 
 def allowed_by_robots(url):
+    if any(url.startswith(prefix) for prefix in ROBOTS_EXCEPTIONS):
+        return True
     parts = urllib.parse.urlsplit(url)
     base = f"{parts.scheme}://{parts.netloc}"
     if base not in _robots:

@@ -8,9 +8,11 @@ import xml.etree.ElementTree as ET
 from common import CORPUS, fetch, to_markdown
 
 ATOM = "{http://www.w3.org/2005/Atom}"
-ARXIV_QUERY = ("(cat:physics.chem-ph OR cat:eess.SY OR cat:physics.app-ph) AND "
-               "(abs:hydrogen OR abs:\"carbon capture\" OR abs:refinery OR abs:LNG OR abs:petrochemical "
-               "OR abs:electrolyzer OR abs:\"natural gas\" OR abs:pipeline)")
+# Title terms only: abstract matches pulled in mostly unrelated physics papers.
+ARXIV_QUERY = " OR ".join(f'ti:"{term}"' for term in (
+    "natural gas", "LNG", "oil and gas", "petroleum", "refinery", "petrochemical", "hydrocracking",
+    "carbon capture", "CO2 storage", "electrolyzer", "hydrogen production", "gas turbine",
+    "compressor", "pipeline", "reservoir simulation", "wellbore", "flare"))
 
 
 def parse_feed(xml_text):

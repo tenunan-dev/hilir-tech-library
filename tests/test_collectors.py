@@ -150,3 +150,17 @@ def test_osti_adapter_requests_json(monkeypatch):
     assert seen["headers"]["Accept"] == "application/json"
     assert docs[0][0] == "Lignin dissolution" and docs[0][1] == "https://www.osti.gov/biblio/3413920"
     assert "Abstract." in docs[0][2]
+
+
+def test_arxiv_api_is_a_documented_robots_exception(monkeypatch):
+    def refuse(*a, **kw):
+        raise AssertionError("robots.txt should not be read for an excepted prefix")
+
+    monkeypatch.setattr(common, "_robots", {})
+    monkeypatch.setattr(common.requests, "get", refuse)
+    assert common.allowed_by_robots("https://export.arxiv.org/api/query?search_query=x") is True
+
+
+def test_arxiv_query_is_balanced_and_title_scoped():
+    assert adapters.ARXIV_QUERY.count("(") == adapters.ARXIV_QUERY.count(")")
+    assert "abs:" not in adapters.ARXIV_QUERY and 'ti:"natural gas"' in adapters.ARXIV_QUERY
