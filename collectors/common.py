@@ -101,7 +101,13 @@ def to_markdown(content, content_type, url=""):
     if "pdf" in content_type or url.lower().endswith(".pdf"):
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(content))
-        return undouble("\n\n".join((page.extract_text() or "").strip() for page in reader.pages).strip())
+        pages = []
+        for page in reader.pages:
+            try:
+                pages.append((page.extract_text() or "").strip())
+            except Exception:  # pypdf can fail on single pages (e.g. LimitReachedError); keep the rest
+                continue
+        return undouble("\n\n".join(pages).strip())
     import trafilatura
     html = content.decode("utf-8", errors="replace") if isinstance(content, bytes) else content
     return (trafilatura.extract(html, output_format="markdown", include_tables=True, url=url) or "").strip()

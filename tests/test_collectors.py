@@ -177,3 +177,22 @@ def test_open_document_licence_overrides_restricted_source(corpus):
 def test_undouble_collapses_faux_bold_only():
     text = "PPrroocceessss DDeessiiggnn CCoonncceepptt ooff the 1100 MW unit; Mississippi, Process, aabbcc"
     assert common.undouble(text) == "Process Design Concept of the 1100 MW unit; Mississippi, Process, abc"
+
+
+def test_pdf_page_failure_keeps_other_pages(monkeypatch):
+    class Page:
+        def __init__(self, text):
+            self.text = text
+
+        def extract_text(self):
+            if self.text is None:
+                raise RuntimeError("Reached maximum number of tokens per stream")
+            return self.text
+
+    class Reader:
+        def __init__(self, stream):
+            self.pages = [Page("First page"), Page(None), Page("Third page")]
+
+    import pypdf
+    monkeypatch.setattr(pypdf, "PdfReader", Reader)
+    assert common.to_markdown(b"%PDF", "application/pdf") == "First page\n\nThird page"
