@@ -25,5 +25,7 @@
   "update_frequency": "daily",
   "notes": "Metadata (titles, abstracts, authors) CC0. E-prints are copyright of authors or publishers; personal and research use allowed, no re-hosting unless the paper's licence permits (some CC). API limit 1 request per 3 seconds, single connection. robots.txt bars crawlers; the collector uses only export.arxiv.org/api under a documented exception (Faisal, 2026-10-23), metadata and abstracts only. Evidence: https://info.arxiv.org/help/api/tou.html",
   "verification": "verified",
-  "last_verified": "2026-10-23"
+  "last_verified": "2026-10-24",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
 }

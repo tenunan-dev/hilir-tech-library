@@ -23,10 +23,12 @@
   ],
   "access": "open",
   "licence": "proprietary",
-  "reuse_level": "summary-only",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Technology and innovation news, CCS projects (Kasawari), LNG operations (Malaysia LNG at Bintulu, PFLNG floating LNG).",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Terms: reproduction and redistribution prohibited except that extracts may be printed or downloaded to local storage for personal and non-commercial use, and copied to third parties for personal use with the site credited; commercial use needs written permission. robots.txt (read 2026-10-24) blocks only admin, search, login and similar paths, not content. Evidence: https://www.petronas.com/terms-of-use",
+  "verification": "verified",
+  "last_verified": "2026-10-24",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

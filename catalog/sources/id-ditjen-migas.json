@@ -1,0 +1,32 @@
+{
+  "source_type": "agency-data",
+  "access": "open",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-10-24",
+  "update_frequency": "weekly",
+  "id": "id-ditjen-migas",
+  "name": "Directorate General of Oil and Gas (Ditjen Migas), Indonesia",
+  "url": "https://www.migas.esdm.go.id/",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS",
+    "REF",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Ministry of Energy and Mineral Resources (ESDM), Directorate General of Oil and Gas",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "licence": "all-rights-reserved",
+  "reuse_level": "full-text-restricted",
+  "notes": "Page footer: \"Copyright © 2026. Kementerian ESDM Ditjen Migas. All Rights Reserved.\" No licence or terms of use page found; content is freely readable, so private reference copies only. Evidence: https://www.migas.esdm.go.id/post/implementasikan-ccus-lapangan-sukowati-injeksi-co2-perdana",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

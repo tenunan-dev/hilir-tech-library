@@ -24,5 +24,6 @@
   "quality_tier": 3,
   "update_frequency": "monthly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": "Terms page returned only navigation and footer on 2026-10-24 (no terms text). robots.txt disallows only /data/, /boot.js, /caption.vtt and /clear-cache/. Needs a person to read the terms. Evidence: https://www.pertamina.com/en/terms-and-conditions"
 }

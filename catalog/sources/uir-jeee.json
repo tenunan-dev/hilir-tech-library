@@ -1,0 +1,27 @@
+{
+  "source_type": "journal",
+  "access": "open",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-10-24",
+  "update_frequency": "quarterly",
+  "id": "uir-jeee",
+  "name": "Journal of Earth Energy Engineering (Universitas Islam Riau)",
+  "url": "https://journal.uir.ac.id/index.php/JEEE",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Department of Petroleum Engineering, Universitas Islam Riau",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "licence": "CC-BY-SA (version not stated)",
+  "reuse_level": "full-text-open",
+  "notes": "Copyright page names the \"Creative Commons CC-BY-SA license\" for article text; no version number is stated, so the version is recorded as unstated. Evidence: https://journal.uir.ac.id/index.php/JEEE/copyright",
+  "automated_access": "unstated",
+  "permitted_use": "any"
+}

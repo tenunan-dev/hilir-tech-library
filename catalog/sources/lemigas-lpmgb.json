@@ -1,0 +1,29 @@
+{
+  "source_type": "journal",
+  "access": "open",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-10-24",
+  "update_frequency": "irregular",
+  "id": "lemigas-lpmgb",
+  "name": "Lembaran Publikasi Minyak dan Gas Bumi (LPMGB, LEMIGAS)",
+  "url": "https://journal.lemigas.esdm.go.id/index.php/LPMGB",
+  "sectors": [
+    "UPS",
+    "REF",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "LEMIGAS, Ministry of Energy and Mineral Resources",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "licence": "CC-BY-SA-4.0",
+  "reuse_level": "full-text-open",
+  "notes": "Copyright page: \"Lembaran Publikasi Minyak dan Gas Bumi is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License\"; the about page (https://journal.lemigas.esdm.go.id/index.php/LPMGB/about) repeats CC BY-SA 4.0. Articles are in Indonesian. Evidence: https://journal.lemigas.esdm.go.id/index.php/LPMGB/copyright",
+  "automated_access": "unstated",
+  "permitted_use": "any"
+}

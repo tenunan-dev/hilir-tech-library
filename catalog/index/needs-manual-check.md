@@ -1,6 +1,6 @@
 # Needs a manual terms check
 
-50 sources whose terms page could not be read automatically.
+51 sources whose terms page could not be read automatically.
 
 | Source | Current reuse level | Finding |
 | --- | --- | --- |
@@ -47,6 +47,7 @@
 | [OSDU Data Platform (The Open Group)](https://www.opengroup.org/osdu-forum/) | full-text-open | OSDU Data Platform is open source; code at community.opengroup.org/osdu. Licence not named on the forum page; confirm in the repositories. |
 | [Oxford Institute for Energy Studies (OIES)](https://www.oxfordenergy.org/) | full-text-restricted | Terms page not reachable by fetch tool on 2026-10-23; some publications are sold. Check manually. |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | full-text-open | Page rendered empty to the fetch tool on 2026-10-23; terms not read. |
+| [Pertamina](https://www.pertamina.com/en) | summary-only | Terms page returned only navigation and footer on 2026-10-24 (no terms text). robots.txt disallows only /data/, /boot.js, /caption.vtt and /clear-cache/. Needs a person to read the terms. |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | full-text-restricted | Terms page exists but its body could not be read on 2026-10-23; check manually. |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | full-text-restricted | Terms page exists but its body could not be read on 2026-10-23; check manually. |
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | full-text-restricted | Site not reachable by fetch tool on 2026-10-23. |
