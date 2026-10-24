@@ -82,9 +82,9 @@ def manual(rec, limit):
     inbox = CORPUS / "_inbox" / rec["id"]
     if not inbox.is_dir():
         return
-    for path in sorted(inbox.iterdir())[:limit]:
-        if path.suffix.lower() not in (".pdf", ".html", ".htm"):
-            continue
+    # Filter before applying the limit: .url sidecars sit in the same folder and must not use it up.
+    files = [path for path in sorted(inbox.iterdir()) if path.suffix.lower() in (".pdf", ".html", ".htm")]
+    for path in files[:limit]:
         sidecar = path.with_suffix(path.suffix + ".url")
         url = sidecar.read_text(encoding="utf-8").strip() if sidecar.exists() else rec["url"]
         kind = "application/pdf" if path.suffix.lower() == ".pdf" else "text/html"

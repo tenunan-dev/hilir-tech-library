@@ -196,3 +196,12 @@ def test_pdf_page_failure_keeps_other_pages(monkeypatch):
     import pypdf
     monkeypatch.setattr(pypdf, "PdfReader", Reader)
     assert common.to_markdown(b"%PDF", "application/pdf") == "First page\n\nThird page"
+
+
+def test_manual_limit_ignores_sidecars(corpus):
+    inbox = corpus / "_inbox" / "test-src"
+    inbox.mkdir(parents=True)
+    for n in range(3):
+        (inbox / f"doc-{n}.html").write_text(HTML, encoding="utf-8")
+        (inbox / f"doc-{n}.html.url").write_text(f"https://example.org/{n}\n", encoding="utf-8")
+    assert len(list(adapters.manual(record(), 3))) == 3
