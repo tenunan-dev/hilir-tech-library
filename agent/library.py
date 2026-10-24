@@ -167,7 +167,10 @@ def build(db_path=None, corpus=None):
         db.execute("INSERT INTO technologies VALUES (?, ?)", (card["id"], json.dumps(card, ensure_ascii=False)))
         text = "\n".join([card["category"], card["principle"], " ".join(card.get("aliases", [])),
                           " ".join(card.get("applications", [])), " ".join(card["key_equipment"]),
-                          " ".join(s["name"] + " " + s.get("product", "") for s in card["suppliers"]), card["maturity"]])
+                          " ".join(s["name"] + " " + s.get("product", "") for s in card["suppliers"]), card["maturity"],
+                          # What a card offers, so "options ... block diagram equipment cost" queries reach it.
+                          "technology option block flow diagram process steps equipment",
+                          " ".join(f["metric"] for f in card.get("costs", []) + card.get("performance", []))])
         db.execute("INSERT INTO search VALUES ('technology', ?, ?, ?, ?, ?)",
                    (card["id"], card["id"], card["name"], text, tag_text({"sectors": [card["sector"]]}, labels)))
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
@@ -346,6 +349,6 @@ if __name__ == "__main__":
         print(json.dumps(build()))
     elif sys.argv[1:2] == ["search"]:
         for hit in search(" ".join(sys.argv[2:])):
-            print(f"{hit['score']:.4f}  {hit['kind']:6}  {hit['source_id']:24}  {hit['title']}")
+            print(f"{hit['score']:.4f}  {hit['kind']:6}  {hit.get('source_id', hit['ref']):24}  {hit['title']}")
     else:
         print("usage: python agent/library.py build | search <query>")
