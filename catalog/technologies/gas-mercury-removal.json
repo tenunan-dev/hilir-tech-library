@@ -1,0 +1,103 @@
+{
+  "id": "gas-mercury-removal",
+  "name": "Mercury removal units",
+  "aliases": [
+    "MRU",
+    "mercury guard beds",
+    "AxTrap",
+    "PURASPEC"
+  ],
+  "sector": "GAS",
+  "category": "Gas treating / adsorption",
+  "applications": [
+    "LNG plants",
+    "gas processing with aluminium cryogenic exchangers",
+    "condensate and NGL treating"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas passes through fixed beds of sorbent, typically metal sulfides on alumina, which react irreversibly with mercury to form stable mercury sulfide. Mercury must be removed because it corrodes aluminium cryogenic heat exchangers. Modern designs place the beds upstream, close to the wells, rather than downstream of dryers as was common historically.",
+  "process_steps": [
+    {
+      "id": "INL",
+      "name": "Inlet separation",
+      "equipment": [
+        "separator and coalescer"
+      ]
+    },
+    {
+      "id": "MRU",
+      "name": "Fixed-bed mercury removal",
+      "equipment": [
+        "sorbent vessels (lead/lag)"
+      ]
+    },
+    {
+      "id": "FIL",
+      "name": "Dust filtration",
+      "equipment": [
+        "outlet dust filter"
+      ]
+    },
+    {
+      "id": "DS",
+      "name": "Downstream treating and liquefaction",
+      "equipment": [
+        "acid gas removal, dehydration, cryogenic exchangers"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "inlet coalescer",
+    "mercury removal vessels with sorbent",
+    "dust filter",
+    "mercury analysers",
+    "spent sorbent handling"
+  ],
+  "performance": [
+    {
+      "metric": "mercury specification for LNG",
+      "high": 10,
+      "unit": "ng/Nm3",
+      "year": 2020,
+      "basis": "Axens; matches the quantification limit of current analysers; raw gas ranges from undetected to 300 µg/Nm3",
+      "source": {
+        "url": "https://blog.axens.net/how-to-remove-mercury-from-extracted-natural-gas",
+        "source_id": "axens",
+        "note": "Axens blog, How to remove mercury from extracted natural gas, 14 July 2020"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Axens",
+      "product": "AxTrap Mercury Series",
+      "source_id": "axens"
+    },
+    {
+      "name": "Johnson Matthey (Honeywell)",
+      "product": "PURASPEC"
+    },
+    {
+      "name": "Clariant"
+    }
+  ],
+  "advantages": [
+    "Protects aluminium exchangers from corrosion",
+    "Simple fixed beds with no utilities",
+    "Upstream placement limits contamination of the whole plant"
+  ],
+  "limitations": [
+    "Spent sorbent is hazardous waste",
+    "Upstream beds must tolerate wet, high-pressure gas",
+    "Mercury can also be carried into liquids and needs separate treatment"
+  ],
+  "sources": [
+    {
+      "url": "https://blog.axens.net/how-to-remove-mercury-from-extracted-natural-gas",
+      "source_id": "axens",
+      "note": "Axens blog, How to remove mercury from extracted natural gas, 14 July 2020"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

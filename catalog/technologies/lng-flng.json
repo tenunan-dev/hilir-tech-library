@@ -1,0 +1,144 @@
+{
+  "id": "lng-flng",
+  "name": "Floating LNG (FLNG)",
+  "aliases": [
+    "FLNG",
+    "PFLNG",
+    "floating liquefaction"
+  ],
+  "sector": "GAS",
+  "category": "LNG liquefaction / floating",
+  "applications": [
+    "remote and deepwater gas fields",
+    "stranded gas",
+    "nearshore liquefaction"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas treating, liquefaction, storage and offloading are built on a moored hull over the field. Processes are chosen for compactness and motion tolerance, for example dual mixed refrigerant or expander cycles, and LNG is transferred to carriers side by side or in tandem.",
+  "process_steps": [
+    {
+      "id": "RIS",
+      "name": "Subsea wells and risers",
+      "equipment": [
+        "subsea wells",
+        "flexible risers",
+        "turret mooring"
+      ]
+    },
+    {
+      "id": "TRT",
+      "name": "Gas treating",
+      "equipment": [
+        "inlet separation",
+        "acid gas removal",
+        "dehydration",
+        "mercury removal"
+      ]
+    },
+    {
+      "id": "LIQ",
+      "name": "Liquefaction",
+      "equipment": [
+        "compact liquefaction modules"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "Hull storage",
+      "equipment": [
+        "membrane or prismatic LNG tanks",
+        "condensate and LPG tanks"
+      ]
+    },
+    {
+      "id": "OFF",
+      "name": "Offloading",
+      "equipment": [
+        "side-by-side loading arms"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "turret and mooring",
+    "topsides gas treating",
+    "liquefaction modules",
+    "hull LNG tanks",
+    "offloading arms"
+  ],
+  "suppliers": [
+    {
+      "name": "PETRONAS",
+      "product": "owner-operator, PFLNG SATU and DUA",
+      "source_id": "petronas-tech"
+    },
+    {
+      "name": "Shell",
+      "product": "owner-operator, Prelude"
+    },
+    {
+      "name": "Golar LNG",
+      "product": "FLNG conversions (Hilli)"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Shell Prelude FLNG",
+      "country": "AU",
+      "capacity": "488 m long; 3.6 Mtpa LNG, 1.3 Mtpa condensate, 0.4 Mtpa LPG; 475 km NNE of Broome",
+      "status": "first condensate cargo shipped by March 2019",
+      "year": 2019,
+      "source": {
+        "url": "https://www.offshore-technology.com/news/shell-prelude-flng/",
+        "source_id": "offshore-technology",
+        "note": "Offshore Technology, 26 March 2019"
+      }
+    },
+    {
+      "name": "PETRONAS PFLNG DUA, Rotan field, Sabah",
+      "country": "MY",
+      "capacity": "1.5 Mtpa LNG in 1,300 m water depth",
+      "status": "first cargo 24 March 2021",
+      "year": 2021,
+      "source": {
+        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "source_id": "petronas-tech",
+        "note": "PETRONAS press release, 25 March 2021"
+      }
+    },
+    {
+      "name": "PETRONAS PFLNG SATU",
+      "country": "MY",
+      "capacity": "not stated in source read",
+      "status": "world's first operational FLNG (2016); moved from Kanowit to Kebabangan field in 2019",
+      "year": 2016,
+      "source": {
+        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "source_id": "petronas-tech",
+        "note": "PETRONAS press release, 25 March 2021"
+      }
+    }
+  ],
+  "advantages": [
+    "Avoids long export pipelines and onshore sites",
+    "Can be relocated between fields (PFLNG SATU)"
+  ],
+  "limitations": [
+    "Tight space and weight limits",
+    "Marine motion affects columns and transfer",
+    "Complex offshore operation and maintenance"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/news/shell-prelude-flng/",
+      "source_id": "offshore-technology",
+      "note": "Offshore Technology, 26 March 2019"
+    },
+    {
+      "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+      "source_id": "petronas-tech",
+      "note": "PETRONAS press release, 25 March 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

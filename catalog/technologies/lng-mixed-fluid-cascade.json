@@ -1,0 +1,121 @@
+{
+  "id": "lng-mixed-fluid-cascade",
+  "name": "Mixed fluid cascade",
+  "aliases": [
+    "MFC",
+    "Linde MFC",
+    "Statoil Linde LNG process"
+  ],
+  "sector": "GAS",
+  "category": "LNG liquefaction",
+  "applications": [
+    "Arctic and cold-climate LNG",
+    "electric-drive LNG"
+  ],
+  "maturity": "commercial",
+  "principle": "Developed by Statoil and Linde for Arctic conditions, the process uses mixed refrigerant cycles in a cascade for precooling, liquefaction and subcooling, with Linde coil-wound and plate-fin exchangers. At Hammerfest LNG all main compressors are electrically driven to raise availability.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Gas pretreatment",
+      "equipment": [
+        "mercury removal",
+        "acid gas removal",
+        "molecular sieve dehydration",
+        "heavy hydrocarbon removal"
+      ]
+    },
+    {
+      "id": "PC",
+      "name": "Precooling cycle",
+      "equipment": [
+        "plate-fin exchangers",
+        "precooling MR compressor (electric)"
+      ]
+    },
+    {
+      "id": "LQ",
+      "name": "Liquefaction cycle",
+      "equipment": [
+        "coil-wound exchanger",
+        "liquefaction MR compressor (electric)"
+      ]
+    },
+    {
+      "id": "SC",
+      "name": "Subcooling cycle",
+      "equipment": [
+        "coil-wound exchanger",
+        "subcooling MR compressor (electric)"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "Storage and loading",
+      "equipment": [
+        "LNG tanks",
+        "loading"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "coil-wound heat exchangers",
+    "plate-fin exchangers",
+    "three refrigerant compressors with electric motors",
+    "LNG tanks"
+  ],
+  "performance": [
+    {
+      "metric": "plant capacity, Hammerfest LNG",
+      "low": 4.3,
+      "high": 4.3,
+      "unit": "Mtpa LNG",
+      "year": 2011,
+      "basis": "design; running at up to 109% of design after 2011 revision shutdown",
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing news, 1 December 2011"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Linde Engineering",
+      "product": "MFC",
+      "source_id": "linde-engineering"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hammerfest LNG, Melkøya",
+      "country": "NO",
+      "capacity": "4.3 Mtpa; all main compressors electric",
+      "status": "operating; passed performance test 2011, energy use below guarantee",
+      "year": 2011,
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing news, 1 December 2011"
+      }
+    }
+  ],
+  "advantages": [
+    "Very efficient in cold climates (Linde and Statoil called Hammerfest the most energy-efficient base-load plant)",
+    "Suits electric drive and low emissions"
+  ],
+  "limitations": [
+    "Few reference plants",
+    "Three mixed refrigerants to manage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/",
+      "source_id": "hydrocarbon-processing",
+      "note": "Hydrocarbon Processing news, 1 December 2011"
+    }
+  ],
+  "notes": "The number and arrangement of MFC refrigerant cycles is described from general knowledge of the process; the source read confirms only the name, capacity and electric drive.",
+  "last_reviewed": "2026-10-24"
+}

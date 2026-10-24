@@ -1,0 +1,137 @@
+{
+  "id": "lng-fsru",
+  "name": "Floating storage and regasification units (FSRU)",
+  "aliases": [
+    "FSRU",
+    "floating regasification",
+    "LNG import terminal"
+  ],
+  "sector": "GAS",
+  "category": "LNG import / regasification",
+  "applications": [
+    "fast-track LNG import",
+    "emerging gas markets",
+    "seasonal or temporary supply"
+  ],
+  "maturity": "commercial",
+  "principle": "A ship with LNG tanks and onboard vaporisers is moored at a jetty or buoy. LNG from carriers is transferred ship to ship, stored, pumped to pressure and vaporised with seawater or a closed loop, then sent to shore through a high-pressure arm or pipeline. NETL's import terminal model uses open rack vaporisers, which serve about all Asian and about 60% of European terminals.",
+  "process_steps": [
+    {
+      "id": "STS",
+      "name": "Ship-to-ship transfer",
+      "equipment": [
+        "loading arms or cryogenic hoses"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "Storage",
+      "equipment": [
+        "membrane LNG tanks",
+        "boil-off gas compressor or recondenser"
+      ]
+    },
+    {
+      "id": "HP",
+      "name": "Send-out pumping",
+      "equipment": [
+        "HP send-out pumps"
+      ]
+    },
+    {
+      "id": "VAP",
+      "name": "Vaporisation",
+      "equipment": [
+        "seawater or intermediate-fluid vaporisers"
+      ]
+    },
+    {
+      "id": "SND",
+      "name": "Gas send-out",
+      "equipment": [
+        "metering",
+        "HP gas arm or subsea pipeline"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "LNG cargo tanks",
+    "BOG compressor or recondenser",
+    "HP send-out pumps",
+    "vaporisers",
+    "metering",
+    "jetty or buoy mooring"
+  ],
+  "performance": [
+    {
+      "metric": "regasification energy requirement",
+      "low": 0.214,
+      "high": 0.214,
+      "unit": "MJ/kg LNG",
+      "year": 2019,
+      "basis": "NETL import terminal model (open rack vaporisers)",
+      "source": {
+        "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+        "source_id": "netl",
+        "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+      }
+    },
+    {
+      "metric": "newbuild FSRU send-out capacity",
+      "low": 1000,
+      "high": 1000,
+      "unit": "MMscf/d",
+      "year": 2022,
+      "basis": "Excelerate newbuild at HHI, 170,000 m3 storage, delivery June 2026",
+      "source": {
+        "url": "https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/",
+        "note": "Excelerate Energy news release, 4 October 2022"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Excelerate Energy"
+    },
+    {
+      "name": "Höegh LNG"
+    },
+    {
+      "name": "Golar LNG"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Excelerate newbuild FSRU (Hyundai Heavy Industries)",
+      "capacity": "170,000 m3 storage, 1,000 MMscf/d send-out; fleet of 11 FSRUs operating or building",
+      "status": "delivery June 2026",
+      "source": {
+        "url": "https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/",
+        "note": "Excelerate Energy news release, 4 October 2022"
+      }
+    }
+  ],
+  "advantages": [
+    "Faster and cheaper than onshore terminals",
+    "Can be redeployed",
+    "Combined storage and regasification"
+  ],
+  "limitations": [
+    "Limited storage compared with onshore tanks",
+    "Weather and mooring limits",
+    "Seawater vaporisers raise environmental permitting issues"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+      "source_id": "netl",
+      "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+    },
+    {
+      "url": "https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/",
+      "note": "Excelerate Energy news release, 4 October 2022"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "gas-gtl-ft",
+  "name": "Gas-to-liquids (Fischer-Tropsch)",
+  "aliases": [
+    "GTL",
+    "Fischer-Tropsch",
+    "Shell SMDS",
+    "Sasol Slurry Phase Distillate"
+  ],
+  "sector": "GAS",
+  "category": "Gas conversion",
+  "applications": [
+    "monetising large gas reserves",
+    "synthetic diesel, kerosene, naphtha, base oils and waxes"
+  ],
+  "maturity": "commercial",
+  "principle": "Natural gas is converted to syngas by partial oxidation or reforming with oxygen. Fischer-Tropsch synthesis over a cobalt catalyst builds long-chain paraffinic waxes, which are hydrocracked and fractionated into clean diesel, kerosene, naphtha and base oils.",
+  "process_steps": [
+    {
+      "id": "GP",
+      "name": "Gas processing",
+      "equipment": [
+        "NGL and ethane recovery",
+        "acid gas removal"
+      ]
+    },
+    {
+      "id": "ASU",
+      "name": "Oxygen supply",
+      "equipment": [
+        "air separation units"
+      ],
+      "to": [
+        "SG"
+      ]
+    },
+    {
+      "id": "SG",
+      "name": "Syngas generation",
+      "equipment": [
+        "partial oxidation or autothermal reformer",
+        "syngas coolers"
+      ],
+      "to": [
+        "FT"
+      ]
+    },
+    {
+      "id": "FT",
+      "name": "Fischer-Tropsch synthesis",
+      "equipment": [
+        "multitubular fixed-bed or slurry FT reactors",
+        "steam drums"
+      ]
+    },
+    {
+      "id": "HC",
+      "name": "Product upgrading",
+      "equipment": [
+        "hydrocracker",
+        "fractionation"
+      ]
+    },
+    {
+      "id": "PRD",
+      "name": "Products",
+      "equipment": [
+        "GTL diesel, kerosene, naphtha, base oils"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "air separation units",
+    "syngas generators",
+    "FT reactors",
+    "hydrocracker",
+    "fractionation",
+    "water treatment"
+  ],
+  "reference_plants": [
+    {
+      "name": "Pearl GTL, Ras Laffan",
+      "country": "QA",
+      "capacity": "140,000 bbl/d GTL products in two 70,000 bbl/d trains, plus about 120,000 boe/d NGLs and ethane, from 1.6 bcf/d North Field gas",
+      "status": "first sour gas into the plant March 2011",
+      "year": 2011,
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/pearl/",
+        "source_id": "offshore-technology",
+        "note": "Offshore Technology project page, Pearl GTL"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Shell",
+      "product": "Shell Middle Distillate Synthesis (SMDS)"
+    },
+    {
+      "name": "Sasol"
+    }
+  ],
+  "advantages": [
+    "Ultra-clean, sulfur-free fuels and base oils",
+    "Monetises gas without LNG shipping"
+  ],
+  "limitations": [
+    "Very high capital cost and large scale",
+    "Carbon efficiency well below 100%, large CO2 and water streams",
+    "Economics depend on the oil-gas price gap"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/pearl/",
+      "source_id": "offshore-technology",
+      "note": "Offshore Technology project page, Pearl GTL"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

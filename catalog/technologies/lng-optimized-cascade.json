@@ -1,0 +1,196 @@
+{
+  "id": "lng-optimized-cascade",
+  "name": "Cascade liquefaction",
+  "aliases": [
+    "Optimized Cascade",
+    "ConocoPhillips Optimized Cascade",
+    "OCP",
+    "Phillips cascade"
+  ],
+  "sector": "GAS",
+  "category": "LNG liquefaction",
+  "applications": [
+    "large onshore LNG trains",
+    "US Gulf Coast export plants",
+    "coal seam gas LNG"
+  ],
+  "maturity": "commercial",
+  "principle": "Three pure-component refrigeration cycles in series, propane, ethylene and methane, cool the gas in steps, each in brazed aluminium exchangers or core-in-kettle units. ConocoPhillips' 'two-trains-in-one' layout puts two compressors on each refrigerant service, so the train keeps running at reduced rate when one machine trips.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Gas pretreatment",
+      "equipment": [
+        "mercury removal",
+        "acid gas removal",
+        "molecular sieve dehydration",
+        "heavy hydrocarbon removal"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Propane cycle",
+      "equipment": [
+        "propane compressors (parallel)",
+        "core-in-kettle exchangers"
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Ethylene cycle",
+      "equipment": [
+        "ethylene compressors (parallel)",
+        "plate-fin exchangers"
+      ]
+    },
+    {
+      "id": "C1",
+      "name": "Methane cycle",
+      "equipment": [
+        "methane compressors (parallel)",
+        "plate-fin exchangers",
+        "flash stages"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "Storage and loading",
+      "equipment": [
+        "LNG tanks",
+        "loading arms"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "propane, ethylene and methane compressors",
+    "core-in-kettle and plate-fin exchangers",
+    "gas turbine drivers",
+    "heavies removal unit",
+    "nitrogen rejection unit (option)",
+    "LNG tanks"
+  ],
+  "performance": [
+    {
+      "metric": "reference list capacity",
+      "low": 120.3,
+      "high": 120.3,
+      "unit": "Mtpa LNG",
+      "basis": "28 trains at 12 operating plants on the ConocoPhillips reference list",
+      "source": {
+        "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+        "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+      }
+    },
+    {
+      "metric": "plant availability",
+      "low": 95,
+      "high": 95,
+      "unit": "%",
+      "basis": "licensor claim for the two-trains-in-one configuration",
+      "source": {
+        "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+        "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+      }
+    },
+    {
+      "metric": "turndown",
+      "low": 10,
+      "high": 100,
+      "unit": "% of nameplate",
+      "basis": "licensor claim",
+      "source": {
+        "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+        "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+      }
+    },
+    {
+      "metric": "pretreatment and liquefaction fuel energy",
+      "low": 2.78,
+      "high": 3.35,
+      "unit": "MJ/kg gas liquefied",
+      "year": 2019,
+      "basis": "NETL model of a US C3MR plant from Mallapragada et al. 2018; range covers adsorption or cryogenic heavy hydrocarbon removal, with or without HRSG; fuel is a parasitic stream of feed gas, not compressor shaft power",
+      "source": {
+        "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+        "source_id": "netl",
+        "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "ConocoPhillips",
+      "product": "Optimized Cascade Process",
+      "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf"
+    },
+    {
+      "name": "Bechtel",
+      "product": "EPC partner"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sabine Pass Liquefaction, Louisiana",
+      "country": "US",
+      "capacity": "6 trains, 30.0 Mtpa",
+      "status": "operating",
+      "source": {
+        "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+        "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+      }
+    },
+    {
+      "name": "Corpus Christi Liquefaction, Texas",
+      "country": "US",
+      "capacity": "3 trains, 15.0 Mtpa",
+      "status": "operating",
+      "source": {
+        "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+        "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+      }
+    },
+    {
+      "name": "Australia Pacific LNG, Curtis Island",
+      "country": "AU",
+      "capacity": "2 trains, 9.0 Mtpa",
+      "status": "operating",
+      "source": {
+        "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+        "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+      }
+    },
+    {
+      "name": "Darwin LNG",
+      "country": "AU",
+      "capacity": "1 train, 3.7 Mtpa",
+      "status": "operating",
+      "source": {
+        "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+        "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+      }
+    }
+  ],
+  "advantages": [
+    "High availability from parallel compressors",
+    "Wide turndown",
+    "Pure refrigerants are simple to make up"
+  ],
+  "limitations": [
+    "More compressors and refrigerant circuits than mixed refrigerant processes",
+    "Ethylene refrigerant must be imported or stored",
+    "Train size mostly 3.6 to 5.2 Mtpa (large train option 8 Mtpa)"
+  ],
+  "sources": [
+    {
+      "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+      "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+    },
+    {
+      "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+      "source_id": "netl",
+      "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

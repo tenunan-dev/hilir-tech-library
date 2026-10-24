@@ -1,0 +1,131 @@
+{
+  "id": "gas-turboexpander-ngl",
+  "name": "Turbo-expander NGL recovery (GSP, RSV processes)",
+  "aliases": [
+    "turboexpander",
+    "cryogenic NGL recovery",
+    "Ortloff",
+    "GSP",
+    "RSV",
+    "SCORE",
+    "ethane recovery"
+  ],
+  "sector": "GAS",
+  "category": "NGL recovery / cryogenic",
+  "applications": [
+    "ethane and propane recovery",
+    "dew point control",
+    "NGL ahead of LNG"
+  ],
+  "maturity": "commercial",
+  "principle": "Dry gas is chilled against cold residue gas, then expanded through a turbo-expander, which cools it further and drives a recompressor. A demethaniser column separates methane-rich residue gas from the natural gas liquids. Ortloff variants such as GSP and RSV use subcooled reflux or recycled residue gas to raise ethane recovery, and can switch to ethane rejection while keeping propane recovery high.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Treated, dried gas",
+      "equipment": [
+        "upstream amine and molecular sieve units"
+      ]
+    },
+    {
+      "id": "CHL",
+      "name": "Gas chilling",
+      "equipment": [
+        "brazed aluminium plate-fin exchanger",
+        "cold separator"
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "Expansion",
+      "equipment": [
+        "turbo-expander with recompressor"
+      ]
+    },
+    {
+      "id": "DEM",
+      "name": "Demethaniser",
+      "equipment": [
+        "demethaniser column with side reboilers",
+        "reflux subcooler (GSP)"
+      ],
+      "to": [
+        "RES",
+        "NGL"
+      ],
+      "streams": {
+        "RES": "residue gas",
+        "NGL": "NGL"
+      }
+    },
+    {
+      "id": "RES",
+      "name": "Residue gas recompression",
+      "equipment": [
+        "expander-driven recompressor",
+        "residue gas compressor"
+      ],
+      "to": []
+    },
+    {
+      "id": "NGL",
+      "name": "NGL to fractionation",
+      "equipment": [
+        "NGL pumps",
+        "deethaniser, depropaniser, debutaniser train"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "plate-fin heat exchanger",
+    "cold separator",
+    "turbo-expander/recompressor",
+    "demethaniser",
+    "residue gas compressor",
+    "NGL pumps"
+  ],
+  "performance": [
+    {
+      "metric": "product recovery, Ortloff ultra-high recovery processes",
+      "low": 99,
+      "unit": "%",
+      "year": 2019,
+      "basis": "Honeywell UOP brochure (more than 99%); flexible processes keep 99%+ propane recovery in ethane rejection",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/download/oil-and-gas/natural-gas-treatment-and-recovery/honeywell-uop-ortloff-ngl-recovery-brochure.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP Ortloff NGL recovery brochure, UOP8424, April 2019"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP Ortloff",
+      "product": "GSP, RSV, SCORE, SRP, SRC, SRX",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Linde Engineering",
+      "source_id": "linde-engineering"
+    }
+  ],
+  "advantages": [
+    "High ethane and propane recovery",
+    "Can switch between ethane recovery and rejection",
+    "Ortloff designs used in more than 90% of North American expander plants over the past decade (vendor claim)"
+  ],
+  "limitations": [
+    "Needs deep dehydration and CO2 control to avoid freezing",
+    "Residue gas recompression power",
+    "Recovery depends on inlet pressure and composition"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywell.com.cn/content/dam/honcn/download/oil-and-gas/natural-gas-treatment-and-recovery/honeywell-uop-ortloff-ngl-recovery-brochure.pdf",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell UOP Ortloff NGL recovery brochure, UOP8424, April 2019"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

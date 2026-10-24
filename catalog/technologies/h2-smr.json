@@ -154,6 +154,32 @@
         "source_id": "netl",
         "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
       }
+    },
+    {
+      "metric": "total plant cost, SMR without capture",
+      "low": 554,
+      "high": 554,
+      "unit": "USD per kg H2/day capacity",
+      "year": 2018,
+      "basis": "NETL; 1,394 with 96.2% capture",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "NETL, DOE/NETL-2022/3241, 12 April 2022, Exhibit ES-5 total plant cost"
+      }
+    },
+    {
+      "metric": "reforming capex, without and with CCUS",
+      "low": 720,
+      "high": 1420,
+      "unit": "USD/kW H2",
+      "year": 2024,
+      "basis": "IEA assumption; low without CCUS (76% LHV efficiency), high with CCUS at 95% capture (69% LHV)",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
+      }
     }
   ],
   "suppliers": [
@@ -209,6 +235,11 @@
     {
       "url": "https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon",
       "source_id": "doe-fecm"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
     }
   ],
   "last_reviewed": "2026-10-24"

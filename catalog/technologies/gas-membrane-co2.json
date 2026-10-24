@@ -1,0 +1,164 @@
+{
+  "id": "gas-membrane-co2",
+  "name": "Membrane CO2 removal for high-CO2 gas",
+  "aliases": [
+    "Separex",
+    "Cynara",
+    "gas separation membranes",
+    "membrane acid gas removal"
+  ],
+  "sector": "GAS",
+  "category": "Gas treating / membrane",
+  "applications": [
+    "high-CO2 gas fields",
+    "offshore platforms and FPSOs",
+    "bulk CO2 removal ahead of amines",
+    "CO2 for enhanced oil recovery"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas flows past a polymer membrane. CO2, H2S and water dissolve into and diffuse through the polymer faster than methane, so they collect on the low-pressure permeate side while methane stays at pressure in the residue. Pretreatment protects the membrane from liquids and heavy hydrocarbons, and two stages or a permeate compressor can be used to reduce methane losses.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Pretreatment",
+      "equipment": [
+        "filter coalescers",
+        "guard beds",
+        "preheater"
+      ]
+    },
+    {
+      "id": "M1",
+      "name": "First-stage membranes",
+      "equipment": [
+        "spiral-wound membrane elements in pressure tubes"
+      ],
+      "to": [
+        "RES",
+        "CMP"
+      ],
+      "streams": {
+        "RES": "residue gas",
+        "CMP": "permeate"
+      }
+    },
+    {
+      "id": "RES",
+      "name": "Residue gas to sales or further treating",
+      "equipment": [
+        "export or polishing amine unit"
+      ],
+      "to": []
+    },
+    {
+      "id": "CMP",
+      "name": "Permeate compression (two-stage option)",
+      "equipment": [
+        "permeate compressor"
+      ],
+      "to": [
+        "M2"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Second-stage membranes",
+      "equipment": [
+        "membrane elements"
+      ],
+      "to": [
+        "RES",
+        "CO2"
+      ],
+      "streams": {
+        "RES": "recovered hydrocarbons",
+        "CO2": "CO2-rich permeate"
+      }
+    },
+    {
+      "id": "CO2",
+      "name": "CO2-rich gas disposal",
+      "equipment": [
+        "reinjection compressor or vent/flare"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "filter coalescers and guard beds",
+    "preheater",
+    "membrane skids",
+    "permeate compressor",
+    "reinjection compressor"
+  ],
+  "performance": [
+    {
+      "metric": "typical feed CO2 content",
+      "low": 3,
+      "high": 90,
+      "unit": "mol% CO2",
+      "year": 2016,
+      "basis": "UOP Separex datasheet, typical range",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "Separex",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "SLB",
+      "product": "Cynara"
+    },
+    {
+      "name": "Air Liquide"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Separex offshore system, South China Sea",
+      "capacity": "680 MMSCFD on a large platform",
+      "status": "installed (per 2016 datasheet)",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
+      }
+    },
+    {
+      "name": "Separex trains, Egyptian desert",
+      "country": "EG",
+      "capacity": "three trains expanding to five, 560 MMSCFD total",
+      "status": "per 2016 datasheet",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
+      }
+    }
+  ],
+  "advantages": [
+    "No solvent or regeneration heat",
+    "Compact single-lift skids for offshore",
+    "Handles very high CO2 content"
+  ],
+  "limitations": [
+    "Methane slip into permeate unless staged",
+    "Sensitive to liquids and heavy hydrocarbons",
+    "Usually needs amine polishing to reach LNG specification"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf",
+      "source_id": "honeywell-uop",
+      "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

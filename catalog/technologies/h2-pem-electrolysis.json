@@ -214,6 +214,32 @@
         "source_id": "doe-hfto",
         "note": "DOE Hydrogen Program Record 24005, Clean Hydrogen Production Cost Scenarios with PEM Electrolyzer Technology, 2024, Table 2"
       }
+    },
+    {
+      "metric": "water electrolysis capex, global average (2024)",
+      "low": 2000,
+      "high": 2600,
+      "unit": "USD/kWe",
+      "year": 2024,
+      "basis": "IEA; includes electrolyser system, electrical, gas treatment, balance of plant and EPC, excludes power assets; STEPS 2030 1,400-1,820; not split by electrolyser type",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
+      }
+    },
+    {
+      "metric": "water electrolysis capex, China (2024)",
+      "low": 600,
+      "high": 1200,
+      "unit": "USD/kWe",
+      "year": 2024,
+      "basis": "IEA, same scope; STEPS 2030 450-900",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
+      }
     }
   ],
   "suppliers": [
@@ -280,6 +306,11 @@
       "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf",
       "source_id": "doe-hfto",
       "note": "DOE Hydrogen Program Record 24005, Clean Hydrogen Production Cost Scenarios with PEM Electrolyzer Technology, 2024, Table 2"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
     }
   ],
   "last_reviewed": "2026-10-24",

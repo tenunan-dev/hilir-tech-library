@@ -1,6 +1,6 @@
 # Technology register
 
-298 technologies across oil, gas, petrochemicals and new energy; 27 have a technology card so far.
+298 technologies across oil, gas, petrochemicals and new energy; 40 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 
@@ -93,33 +93,33 @@ Cards (linked) are verified and cite their sources. Source: `catalog/technology-
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Gas treating | Amine acid gas removal (MDEA, formulated amines) | commercial | Shell ADIP, BASF OASE, Dow UCARSOL |  |
+| Gas treating | Amine acid gas removal (MDEA, formulated amines) | commercial | Shell ADIP, BASF OASE, Dow UCARSOL | [card](technologies-GAS.md#gas-amine-agr) |
 | Gas treating | Physical solvent gas treating (Selexol, Rectisol, Purisol) | commercial | Honeywell UOP, Linde, Air Liquide |  |
-| Gas treating | Membrane CO2 removal for high-CO2 gas | commercial | Honeywell UOP Separex, SLB Cynara, Air Liquide |  |
+| Gas treating | Membrane CO2 removal for high-CO2 gas | commercial | Honeywell UOP Separex, SLB Cynara, Air Liquide | [card](technologies-GAS.md#gas-membrane-co2) |
 | Gas treating | Hot potassium carbonate (Benfield) | commercial | Honeywell UOP |  |
-| Gas treating | Molecular sieve and glycol dehydration | commercial | Honeywell UOP, BASF, Axens |  |
-| Gas treating | Mercury removal units | commercial | Johnson Matthey (Honeywell), Axens, Clariant |  |
-| Gas treating | Sulfur recovery (Claus, tail gas treating, SuperClaus) | commercial | Shell, Worley Comprimo, Jacobs, KT Tecnimont |  |
+| Gas treating | Molecular sieve and glycol dehydration | commercial | Honeywell UOP, BASF, Axens | [card](technologies-GAS.md#gas-dehydration) |
+| Gas treating | Mercury removal units | commercial | Johnson Matthey (Honeywell), Axens, Clariant | [card](technologies-GAS.md#gas-mercury-removal) |
+| Gas treating | Sulfur recovery (Claus, tail gas treating, SuperClaus) | commercial | Shell, Worley Comprimo, Jacobs, KT Tecnimont | [card](technologies-GAS.md#gas-sulfur-recovery) |
 | Gas treating | Liquid redox sulfur recovery (LO-CAT) | commercial | Merichem |  |
 | Gas treating | High-CO2 gas field development with reinjection | demonstration | PETRONAS Kasawari, ExxonMobil Natuna (studies) |  |
-| NGL recovery and fractionation | Turbo-expander NGL recovery (GSP, RSV processes) | commercial | Ortloff, Linde, Honeywell UOP |  |
+| NGL recovery and fractionation | Turbo-expander NGL recovery (GSP, RSV processes) | commercial | Ortloff, Linde, Honeywell UOP | [card](technologies-GAS.md#gas-turboexpander-ngl) |
 | NGL recovery and fractionation | NGL fractionation and LPG recovery | commercial | EPC contractors |  |
 | NGL recovery and fractionation | Nitrogen rejection units | commercial | Linde, Air Products |  |
 | NGL recovery and fractionation | Helium recovery | commercial | Linde, Air Products |  |
-| LNG | Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X) | commercial | Air Products |  |
-| LNG | Cascade liquefaction | commercial | ConocoPhillips Optimized Cascade |  |
-| LNG | Dual mixed refrigerant liquefaction | commercial | Shell DMR |  |
-| LNG | Mixed fluid cascade | commercial | Linde MFC |  |
+| LNG | Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X) | commercial | Air Products | [card](technologies-LNG.md#lng-c3mr-apx) |
+| LNG | Cascade liquefaction | commercial | ConocoPhillips Optimized Cascade | [card](technologies-LNG.md#lng-optimized-cascade) |
+| LNG | Dual mixed refrigerant liquefaction | commercial | Shell DMR | [card](technologies-LNG.md#lng-dmr) |
+| LNG | Mixed fluid cascade | commercial | Linde MFC | [card](technologies-LNG.md#lng-mixed-fluid-cascade) |
 | LNG | Electric-drive liquefaction (e-LNG) | commercial | Equinor Hammerfest, Freeport LNG |  |
 | LNG | Small and mid-scale modular LNG | commercial | Chart Industries, Baker Hughes, Black & Veatch PRICO |  |
-| LNG | Floating LNG (FLNG) | commercial | PETRONAS PFLNG, Shell Prelude, Golar Hilli |  |
-| LNG | Floating storage and regasification units (FSRU) | commercial | Excelerate, Höegh, Golar |  |
+| LNG | Floating LNG (FLNG) | commercial | PETRONAS PFLNG, Shell Prelude, Golar Hilli | [card](technologies-LNG.md#lng-flng) |
+| LNG | Floating storage and regasification units (FSRU) | commercial | Excelerate, Höegh, Golar | [card](technologies-LNG.md#lng-fsru) |
 | LNG | LNG regasification (open rack, submerged combustion, ambient air vaporisers) | commercial | Sumitomo Precision, Kobe Steel |  |
 | LNG | Boil-off gas management and reliquefaction | commercial | Wärtsilä, Burckhardt Compression |  |
 | LNG | LNG bunkering | commercial | Shell, TotalEnergies, PETRONAS |  |
 | LNG | Bio-LNG and liquefied biomethane | commercial | Shell, Titan |  |
 | LNG | Carbon capture on LNG plants (acid gas reinjection) | commercial | Chevron Gorgon, ExxonMobil |  |
-| Gas conversion | Gas-to-liquids (Fischer-Tropsch) | commercial | Shell SMDS, Sasol |  |
+| Gas conversion | Gas-to-liquids (Fischer-Tropsch) | commercial | Shell SMDS, Sasol | [card](technologies-GAS.md#gas-gtl-ft) |
 | Gas conversion | Gas-to-methanol and methanol-to-gasoline | commercial | Topsoe, Johnson Matthey (Honeywell), ExxonMobil MTG |  |
 | Gas conversion | Compressed natural gas and LNG as vehicle fuel | commercial | Various |  |
 

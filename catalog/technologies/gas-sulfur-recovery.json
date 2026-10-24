@@ -1,0 +1,167 @@
+{
+  "id": "gas-sulfur-recovery",
+  "name": "Sulfur recovery (Claus, tail gas treating, SuperClaus)",
+  "aliases": [
+    "Claus",
+    "SRU",
+    "TGTU",
+    "tail gas treating",
+    "SCOT"
+  ],
+  "sector": "GAS",
+  "category": "Gas treating / sulfur recovery",
+  "applications": [
+    "sour gas plants",
+    "refineries",
+    "LNG plants with H2S in feed",
+    "gasification"
+  ],
+  "maturity": "commercial",
+  "principle": "Acid gas is partly burned in a reaction furnace, converting 60 to 70% of the H2S, and the rest reacts with SO2 over catalytic converters to make elemental sulfur, taking recovery beyond 95% (BASF). A tail gas unit hydrogenates the remaining sulfur species to H2S over a CoMo catalyst and removes it with a selective amine, which BASF and Baker Hughes say lifts total recovery above 99.9%.",
+  "process_steps": [
+    {
+      "id": "FUR",
+      "name": "Thermal stage",
+      "equipment": [
+        "reaction furnace and burner",
+        "waste heat boiler"
+      ]
+    },
+    {
+      "id": "CAT",
+      "name": "Catalytic Claus stages",
+      "equipment": [
+        "reheaters",
+        "Claus converters",
+        "sulfur condensers"
+      ],
+      "to": [
+        "TGT",
+        "S"
+      ],
+      "streams": {
+        "TGT": "tail gas",
+        "S": "liquid sulfur"
+      }
+    },
+    {
+      "id": "S",
+      "name": "Sulfur degassing and storage",
+      "equipment": [
+        "sulfur pit",
+        "degassing unit",
+        "loading or prilling"
+      ],
+      "to": []
+    },
+    {
+      "id": "TGT",
+      "name": "Tail gas treating",
+      "equipment": [
+        "hydrogenation reactor (CoMo)",
+        "quench column",
+        "selective amine absorber"
+      ],
+      "to": [
+        "INC",
+        "FUR"
+      ],
+      "streams": {
+        "INC": "treated tail gas",
+        "FUR": "recycled H2S"
+      }
+    },
+    {
+      "id": "INC",
+      "name": "Incineration and stack",
+      "equipment": [
+        "thermal incinerator",
+        "stack"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reaction furnace",
+    "waste heat boiler",
+    "Claus converters",
+    "sulfur condensers",
+    "hydrogenation reactor",
+    "quench column",
+    "selective amine absorber",
+    "incinerator"
+  ],
+  "performance": [
+    {
+      "metric": "H2S conversion in the reaction furnace",
+      "low": 60,
+      "high": 70,
+      "unit": "%",
+      "year": 2020,
+      "basis": "BASF",
+      "source": {
+        "url": "https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf",
+        "source_id": "basf-catalysts",
+        "note": "BASF SRU tail gas treatment brochure, 2020"
+      }
+    },
+    {
+      "metric": "overall sulfur recovery with hydrogenation/amine tail gas treating",
+      "low": 99.9,
+      "unit": "%",
+      "year": 2020,
+      "basis": "BASF and Baker Hughes claims (above 99.9%)",
+      "source": {
+        "url": "https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf",
+        "source_id": "basf-catalysts",
+        "note": "BASF SRU tail gas treatment brochure, 2020"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Shell"
+    },
+    {
+      "name": "Worley Comprimo"
+    },
+    {
+      "name": "Jacobs"
+    },
+    {
+      "name": "KT Tecnimont"
+    },
+    {
+      "name": "Baker Hughes",
+      "source_id": "baker-hughes"
+    },
+    {
+      "name": "BASF",
+      "product": "OASE yellow, sulfexx",
+      "source_id": "basf-catalysts"
+    }
+  ],
+  "advantages": [
+    "Very mature and robust",
+    "Produces saleable sulfur",
+    "High recovery with tail gas treating"
+  ],
+  "limitations": [
+    "Tail gas treating adds cost and complexity",
+    "Sensitive to ammonia, hydrocarbons and BTEX in acid gas",
+    "Sulfur markets can be weak far from buyers"
+  ],
+  "sources": [
+    {
+      "url": "https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf",
+      "source_id": "basf-catalysts",
+      "note": "BASF SRU tail gas treatment brochure, 2020"
+    },
+    {
+      "url": "https://www.bakerhughes.com/acid-gas-treatment-and-sulfur-recovery",
+      "source_id": "baker-hughes",
+      "note": "Baker Hughes acid gas treatment and sulfur recovery page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

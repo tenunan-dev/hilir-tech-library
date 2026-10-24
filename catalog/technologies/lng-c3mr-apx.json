@@ -1,0 +1,151 @@
+{
+  "id": "lng-c3mr-apx",
+  "name": "Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X)",
+  "aliases": [
+    "C3MR",
+    "AP-C3MR",
+    "AP-X",
+    "APCI process",
+    "propane precooled mixed refrigerant"
+  ],
+  "sector": "GAS",
+  "category": "LNG liquefaction",
+  "applications": [
+    "large onshore LNG trains"
+  ],
+  "maturity": "commercial",
+  "principle": "A propane refrigeration cycle precools the feed gas and the mixed refrigerant. A mixed refrigerant of nitrogen, methane, ethane and propane then liquefies and subcools the gas in a coil-wound main cryogenic heat exchanger. AP-X adds a nitrogen expander loop that subcools LNG from about -115 °C to about -150 °C, cutting mixed refrigerant flow by 40% per unit of LNG and allowing trains of 7.8 Mtpa and more.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Gas pretreatment",
+      "equipment": [
+        "mercury removal",
+        "acid gas removal",
+        "molecular sieve dehydration",
+        "heavy hydrocarbon removal"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Propane precooling",
+      "equipment": [
+        "propane kettles or exchangers",
+        "propane compressor",
+        "condensers"
+      ]
+    },
+    {
+      "id": "MCHE",
+      "name": "Liquefaction",
+      "equipment": [
+        "main cryogenic heat exchanger",
+        "mixed refrigerant compressors"
+      ]
+    },
+    {
+      "id": "N2",
+      "name": "Nitrogen expander subcooling (AP-X)",
+      "equipment": [
+        "nitrogen expander-compressor",
+        "subcooling exchanger"
+      ]
+    },
+    {
+      "id": "FL",
+      "name": "End flash and storage",
+      "equipment": [
+        "LNG expander",
+        "end flash drum",
+        "full-containment LNG tanks"
+      ]
+    },
+    {
+      "id": "LOAD",
+      "name": "Loading",
+      "equipment": [
+        "loading arms and jetty"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "main cryogenic heat exchanger",
+    "propane compressor",
+    "mixed refrigerant compressors",
+    "gas turbine or electric drivers",
+    "nitrogen expander (AP-X)",
+    "LNG tanks"
+  ],
+  "performance": [
+    {
+      "metric": "train capacity, AP-X (Qatar)",
+      "low": 7.8,
+      "high": 7.8,
+      "unit": "Mtpa LNG",
+      "year": 2020,
+      "basis": "design capacity of the six original Qatar AP-X trains and four North Field East trains; Air Products says trains can exceed 10 Mtpa",
+      "source": {
+        "url": "https://www.airproducts.co.uk/-/media/files/en/lng/lng-technology-enables-largest-lng-trains.pdf",
+        "source_id": "air-products-tech",
+        "note": "Air Products, LNG technology enables largest LNG trains (printed 2020)"
+      }
+    },
+    {
+      "metric": "pretreatment and liquefaction fuel energy",
+      "low": 2.78,
+      "high": 3.35,
+      "unit": "MJ/kg gas liquefied",
+      "year": 2019,
+      "basis": "NETL model of a US C3MR plant from Mallapragada et al. 2018; range covers adsorption or cryogenic heavy hydrocarbon removal, with or without HRSG; fuel is a parasitic stream of feed gas, not compressor shaft power",
+      "source": {
+        "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+        "source_id": "netl",
+        "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Air Products",
+      "product": "AP-C3MR, AP-X, AP-DMR, AP-N",
+      "source_id": "air-products-tech"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Ras Laffan LNG trains",
+      "country": "QA",
+      "capacity": "14 trains on AP-C3MR or AP-X; AP-X trains 7.8 Mtpa each",
+      "status": "operating; four North Field East AP-X trains in development",
+      "source": {
+        "url": "https://www.airproducts.co.uk/-/media/files/en/lng/lng-technology-enables-largest-lng-trains.pdf",
+        "source_id": "air-products-tech",
+        "note": "Air Products, LNG technology enables largest LNG trains (printed 2020)"
+      }
+    }
+  ],
+  "advantages": [
+    "Most widely used large-train process",
+    "AP-X gives the largest single trains",
+    "Coil-wound exchangers built at scale by the licensor"
+  ],
+  "limitations": [
+    "Propane inventory is a fire hazard",
+    "Large plot area for propane circuit",
+    "Licensor-specific main exchanger"
+  ],
+  "sources": [
+    {
+      "url": "https://www.airproducts.co.uk/-/media/files/en/lng/lng-technology-enables-largest-lng-trains.pdf",
+      "source_id": "air-products-tech",
+      "note": "Air Products, LNG technology enables largest LNG trains (printed 2020)"
+    },
+    {
+      "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+      "source_id": "netl",
+      "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

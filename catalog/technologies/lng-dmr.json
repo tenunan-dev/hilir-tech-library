@@ -1,0 +1,136 @@
+{
+  "id": "lng-dmr",
+  "name": "Dual mixed refrigerant liquefaction",
+  "aliases": [
+    "DMR",
+    "Shell DMR",
+    "double mixed refrigerant",
+    "AP-DMR"
+  ],
+  "sector": "GAS",
+  "category": "LNG liquefaction",
+  "applications": [
+    "cold-climate LNG",
+    "floating LNG (Prelude)",
+    "large onshore trains"
+  ],
+  "maturity": "commercial",
+  "principle": "Two mixed refrigerant cycles replace the propane-plus-mixed-refrigerant arrangement. A precooling mixed refrigerant cools the gas in spiral-wound precoolers, and a second mixed refrigerant of nitrogen, methane, ethane, propane and some butane liquefies the gas over about -40 °C to -150 °C in the main cryogenic heat exchanger. Adjusting the two compositions lets the plant follow seasonal ambient temperature.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Gas pretreatment",
+      "equipment": [
+        "mercury removal",
+        "acid gas removal",
+        "molecular sieve dehydration",
+        "heavy hydrocarbon removal"
+      ]
+    },
+    {
+      "id": "PMR",
+      "name": "Precooling mixed refrigerant cycle",
+      "equipment": [
+        "HP and LP precoolers",
+        "PMR compressor",
+        "air or water coolers"
+      ]
+    },
+    {
+      "id": "MR",
+      "name": "Liquefaction mixed refrigerant cycle",
+      "equipment": [
+        "MR separator (light/heavy MR)",
+        "MR compressors",
+        "main cryogenic heat exchanger"
+      ]
+    },
+    {
+      "id": "FL",
+      "name": "End flash and storage",
+      "equipment": [
+        "end flash drum",
+        "LNG tanks"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "spiral-wound precoolers",
+    "main cryogenic heat exchanger",
+    "precooling and liquefaction MR compressors",
+    "gas turbine drivers",
+    "MR separators"
+  ],
+  "performance": [
+    {
+      "metric": "liquefaction temperature range of the MR cycle",
+      "low": -150,
+      "high": -40,
+      "unit": "°C",
+      "year": 2018,
+      "basis": "Sakhalin LNG plant description",
+      "source": {
+        "url": "https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant",
+        "note": "Gas Processing & LNG, Optimal control of mixed refrigerant composition at Sakhalin LNG plant, 1 October 2018"
+      }
+    },
+    {
+      "metric": "pretreatment and liquefaction fuel energy",
+      "low": 2.78,
+      "high": 3.35,
+      "unit": "MJ/kg gas liquefied",
+      "year": 2019,
+      "basis": "NETL model of a US C3MR plant from Mallapragada et al. 2018; range covers adsorption or cryogenic heavy hydrocarbon removal, with or without HRSG; fuel is a parasitic stream of feed gas, not compressor shaft power",
+      "source": {
+        "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+        "source_id": "netl",
+        "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Shell",
+      "product": "Shell DMR"
+    },
+    {
+      "name": "Air Products",
+      "product": "AP-DMR",
+      "source_id": "air-products-tech"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sakhalin LNG (Prigorodnoye)",
+      "country": "RU",
+      "capacity": "not stated in source read",
+      "status": "operating (Shell DMR)",
+      "source": {
+        "url": "https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant",
+        "note": "Gas Processing & LNG, Optimal control of mixed refrigerant composition at Sakhalin LNG plant, 1 October 2018"
+      }
+    }
+  ],
+  "advantages": [
+    "No propane refrigerant cycle",
+    "Flexible for cold or variable climates",
+    "Compact enough for floating LNG"
+  ],
+  "limitations": [
+    "Two mixed refrigerant compositions to control",
+    "Fewer licensed plants than C3MR"
+  ],
+  "sources": [
+    {
+      "url": "https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant",
+      "note": "Gas Processing & LNG, Optimal control of mixed refrigerant composition at Sakhalin LNG plant, 1 October 2018"
+    },
+    {
+      "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+      "source_id": "netl",
+      "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}
