@@ -1,0 +1,138 @@
+{
+  "id": "ref-crude-to-chemicals",
+  "name": "Crude-to-chemicals complexes",
+  "aliases": [
+    "COTC",
+    "crude oil to chemicals",
+    "integrated refinery-petrochemical complex"
+  ],
+  "sector": "REF",
+  "category": "Refinery-petrochemical integration",
+  "applications": [
+    "maximum olefins and aromatics from crude",
+    "reducing exposure to falling fuel demand"
+  ],
+  "maturity": "commercial",
+  "principle": "A refinery is configured to send most of its crude to petrochemical feedstocks rather than fuels. Deep conversion such as hydrocracking and resid upgrading makes naphtha and gas oils for steam crackers and aromatics complexes, so a large share of each barrel ends as ethylene, propylene, paraxylene and other chemicals.",
+  "process_steps": [
+    {
+      "id": "CDU",
+      "name": "Crude and vacuum distillation",
+      "equipment": [
+        "CDU/VDU"
+      ]
+    },
+    {
+      "id": "CONV",
+      "name": "Deep conversion",
+      "equipment": [
+        "hydrocrackers",
+        "resid hydrocracking or coking",
+        "FCC (high-propylene)"
+      ]
+    },
+    {
+      "id": "SC",
+      "name": "Steam cracking",
+      "equipment": [
+        "steam crackers"
+      ],
+      "to": [
+        "POLY"
+      ]
+    },
+    {
+      "id": "ARO",
+      "name": "Aromatics complex",
+      "equipment": [
+        "CCR reformer",
+        "paraxylene units"
+      ],
+      "to": [
+        "POLY"
+      ]
+    },
+    {
+      "id": "POLY",
+      "name": "Derivatives",
+      "equipment": [
+        "polyethylene, polypropylene, PTA, other derivative plants"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CDU/VDU",
+    "hydrocrackers",
+    "resid upgrading",
+    "steam crackers",
+    "aromatics complex",
+    "derivative units"
+  ],
+  "reference_plants": [
+    {
+      "name": "PETRONAS Pengerang RAPID (PIC), Johor",
+      "country": "MY",
+      "capacity": "300 kb/d refinery with 3.3 Mt/yr petrochemical capacity; PETRONAS and Saudi Aramco joint ventures",
+      "status": "refinery start-up targeted Q1 2019 at time of release",
+      "year": 2018,
+      "source": {
+        "url": "https://www.petronas.com/pic/news-resources/press-releases/petronas-saudi-aramco-announce-formation-jv-malaysia",
+        "source_id": "petronas-tech",
+        "note": "PETRONAS press release, 28 March 2018"
+      }
+    },
+    {
+      "name": "Hengli Petrochemical, Dalian",
+      "country": "CN",
+      "capacity": "20 Mt/yr crude processing",
+      "status": "production start announced December 2018",
+      "year": 2018,
+      "source": {
+        "url": "https://yicaiglobal.com/news/hengli-petrochemical-to-finish-dalian-plant-start-20-million-ton-production-",
+        "note": "Yicai Global, 14 December 2018"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Saudi Aramco / SABIC",
+      "source_id": "saudi-aramco-tech"
+    },
+    {
+      "name": "Honeywell UOP",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Axens",
+      "source_id": "axens"
+    },
+    {
+      "name": "Chevron Lummus Global",
+      "source_id": "chevron-lummus-global"
+    }
+  ],
+  "advantages": [
+    "Higher-value product slate",
+    "Scale and integration benefits",
+    "Hedge against declining fuel demand"
+  ],
+  "limitations": [
+    "Very high capital cost",
+    "Exposed to petrochemical margin cycles",
+    "Large energy use and CO2 emissions"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/pic/news-resources/press-releases/petronas-saudi-aramco-announce-formation-jv-malaysia",
+      "source_id": "petronas-tech",
+      "note": "PETRONAS press release, 28 March 2018"
+    },
+    {
+      "url": "https://yicaiglobal.com/news/hengli-petrochemical-to-finish-dalian-plant-start-20-million-ton-production-",
+      "note": "Yicai Global, 14 December 2018"
+    }
+  ],
+  "notes": "Chemicals yield per barrel is not given in the sources read.",
+  "last_reviewed": "2026-10-24"
+}

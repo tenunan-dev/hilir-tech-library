@@ -1,0 +1,150 @@
+{
+  "id": "ref-catalytic-reforming",
+  "name": "Catalytic reforming (CCR, semi-regenerative)",
+  "aliases": [
+    "CCR",
+    "continuous catalytic reforming",
+    "Platforming",
+    "Octanizing",
+    "reformer"
+  ],
+  "sector": "REF",
+  "category": "Octane upgrading",
+  "applications": [
+    "high-octane gasoline blendstock",
+    "aromatics (BTX) for petrochemicals",
+    "refinery hydrogen"
+  ],
+  "maturity": "commercial",
+  "principle": "Hydrotreated heavy naphtha passes over a platinum (or platinum-rhenium) catalyst in a series of reactors with fired heaters between them, because the reactions absorb heat. Naphthenes and paraffins become aromatics and hydrogen. Semi-regenerative units stop every 8 to 18 months to regenerate catalyst; continuous units circulate catalyst through a regenerator.",
+  "process_steps": [
+    {
+      "id": "NHT",
+      "name": "Naphtha hydrotreating",
+      "equipment": [
+        "naphtha hydrotreater"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Reactors with interheaters",
+      "equipment": [
+        "stacked or side-by-side reactors",
+        "charge and interheaters",
+        "combined feed exchanger"
+      ]
+    },
+    {
+      "id": "REG",
+      "name": "Continuous catalyst regeneration (CCR)",
+      "equipment": [
+        "catalyst lift system",
+        "regeneration tower"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Separation",
+      "equipment": [
+        "separator",
+        "net gas compressor",
+        "recontact drums"
+      ],
+      "to": [
+        "H2",
+        "STB"
+      ],
+      "streams": {
+        "H2": "hydrogen-rich gas",
+        "STB": "reformate"
+      }
+    },
+    {
+      "id": "H2",
+      "name": "Hydrogen to refinery users",
+      "equipment": [
+        "PSA (optional)"
+      ],
+      "to": []
+    },
+    {
+      "id": "STB",
+      "name": "Reformate stabilisation",
+      "equipment": [
+        "stabiliser column"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "naphtha hydrotreater",
+    "reformer reactors",
+    "charge and interheaters",
+    "combined feed exchanger",
+    "CCR regenerator",
+    "net gas compressor",
+    "stabiliser"
+  ],
+  "performance": [
+    {
+      "metric": "semi-regenerative cycle between regenerations",
+      "unit": "months",
+      "basis": "EPA AP-42; regeneration takes 1-2 weeks",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+        "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+      },
+      "low": 8,
+      "high": 18
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "CCR Platforming",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Axens",
+      "product": "Octanizing, Aromizing",
+      "source_id": "axens"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sinopec Hainan Petrochemical (200th UOP CCR Platforming unit)",
+      "country": "CN",
+      "capacity": "not stated; CCR Platforming first commercialised 1971",
+      "status": "commissioned by 2007",
+      "year": 2007,
+      "source": {
+        "url": "https://www.chemicalonline.com/doc/uop-commissions-200th-ccr-platforming-process-0001",
+        "note": "Chemical Online news, 6 March 2007"
+      }
+    }
+  ],
+  "advantages": [
+    "Main refinery hydrogen source",
+    "High-octane, sulfur-free reformate",
+    "Feeds aromatics complexes"
+  ],
+  "limitations": [
+    "Gasoline benzene and aromatics limits",
+    "Fired heater CO2 emissions",
+    "Catalyst sensitive to sulfur and nitrogen"
+  ],
+  "sources": [
+    {
+      "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+      "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+    },
+    {
+      "url": "https://www.chemicalonline.com/doc/uop-commissions-200th-ccr-platforming-process-0001",
+      "note": "Chemical Online news, 6 March 2007"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

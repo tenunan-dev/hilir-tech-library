@@ -1,16 +1,16 @@
 # Catalog summary
 
-343 sources in total.
+344 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
 | GAS | 181 |
-| H2 | 179 |
-| PRC | 177 |
+| H2 | 180 |
+| PRC | 178 |
 | UPS | 173 |
-| REF | 152 |
+| REF | 153 |
 | PCH | 130 |
 | DIG | 124 |
 | CCS | 121 |
@@ -25,18 +25,18 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 221 |
+| global | 222 |
 | apac | 78 |
 | sea | 54 |
 | eu | 24 |
-| na | 22 |
+| na | 23 |
 | me | 13 |
 
 ## By source type
 
 | Value | Sources |
 | --- | --- |
-| agency-data | 52 |
+| agency-data | 53 |
 | oem-supplier | 46 |
 | research-institute | 45 |
 | licensor | 36 |
@@ -55,11 +55,11 @@
 | full-text-restricted | 118 |
 | summary-only | 107 |
 | catalog-only | 68 |
-| full-text-open | 50 |
+| full-text-open | 51 |
 
 ## By verification
 
 | Value | Sources |
 | --- | --- |
 | unverified | 217 |
-| verified | 126 |
+| verified | 127 |

@@ -1,0 +1,133 @@
+{
+  "id": "ref-delayed-coking",
+  "name": "Delayed coking and fluid coking",
+  "aliases": [
+    "delayed coker",
+    "coker",
+    "Flexicoking",
+    "fluid coking"
+  ],
+  "sector": "REF",
+  "category": "Conversion / thermal",
+  "applications": [
+    "vacuum residue destruction",
+    "petroleum coke for fuel or anodes"
+  ],
+  "maturity": "commercial",
+  "principle": "Vacuum residue is heated quickly in a furnace to 480 to 590 °C and sent to a coke drum at about 400 °C and 25 to 30 psig, where it cracks thermally over many hours. Vapours go to a fractionator, and solid coke builds up in the drum. Drums run in pairs on a semi-batch cycle of 28 to 36 hours, with one filling while the other is steamed, cooled and cut out with high-pressure water.",
+  "process_steps": [
+    {
+      "id": "FR",
+      "name": "Coker fractionator (feed side)",
+      "equipment": [
+        "fractionator bottoms surge",
+        "heater charge pumps"
+      ]
+    },
+    {
+      "id": "HTR",
+      "name": "Coker heater",
+      "equipment": [
+        "fired coker heater (480-590 °C)",
+        "steam injection"
+      ]
+    },
+    {
+      "id": "DRM",
+      "name": "Coke drums",
+      "equipment": [
+        "paired coke drums (about 400 °C, 25-30 psig)",
+        "switch valves"
+      ],
+      "to": [
+        "FRAC",
+        "COKE"
+      ],
+      "streams": {
+        "FRAC": "vapours",
+        "COKE": "coke"
+      }
+    },
+    {
+      "id": "COKE",
+      "name": "Coke handling",
+      "equipment": [
+        "hydraulic decoking system",
+        "coke pit or pad",
+        "crusher and conveyors"
+      ],
+      "to": []
+    },
+    {
+      "id": "FRAC",
+      "name": "Fractionation and gas plant",
+      "equipment": [
+        "coker fractionator",
+        "wet gas compressor",
+        "blowdown system"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "coker heater",
+    "coke drums",
+    "hydraulic decoking",
+    "coke handling",
+    "fractionator",
+    "blowdown system"
+  ],
+  "performance": [
+    {
+      "metric": "coker heater outlet temperature",
+      "unit": "°C",
+      "basis": "EPA AP-42 description",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+        "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+      },
+      "low": 480,
+      "high": 590
+    },
+    {
+      "metric": "coke drum cycle",
+      "unit": "h",
+      "basis": "EPA AP-42 description, start of feed to start of next feed to the same drum",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+        "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+      },
+      "low": 28,
+      "high": 36
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Lummus",
+      "source_id": "lummus"
+    },
+    {
+      "name": "Bechtel/Foster Wheeler (Amec)"
+    },
+    {
+      "name": "ExxonMobil",
+      "product": "Flexicoking"
+    }
+  ],
+  "advantages": [
+    "Robust destruction of the heaviest residues",
+    "Lower pressure and hydrogen demand than resid hydrocracking"
+  ],
+  "limitations": [
+    "Produces large volumes of coke",
+    "Cracked products need severe hydrotreating",
+    "Drum cycling and decoking are safety-critical"
+  ],
+  "sources": [
+    {
+      "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+      "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

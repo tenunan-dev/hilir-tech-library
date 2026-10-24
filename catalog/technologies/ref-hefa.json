@@ -1,0 +1,159 @@
+{
+  "id": "ref-hefa",
+  "name": "Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA)",
+  "aliases": [
+    "HEFA",
+    "HVO",
+    "renewable diesel",
+    "NEXBTL",
+    "Ecofining",
+    "HEFA-SPK"
+  ],
+  "sector": "REF",
+  "category": "Low-carbon refining / bio-feed hydroprocessing",
+  "applications": [
+    "renewable diesel",
+    "sustainable aviation fuel",
+    "renewable naphtha and propane for chemicals"
+  ],
+  "maturity": "commercial",
+  "principle": "Waste fats, used cooking oil and vegetable oils are pretreated to remove metals and phosphorus, then hydrotreated to strip oxygen and make straight-chain paraffins. A second step isomerises and, for jet, mildly cracks them to meet cold-flow specifications, and the products are fractionated into renewable diesel, SAF, naphtha and propane.",
+  "process_steps": [
+    {
+      "id": "PT",
+      "name": "Feed pretreatment",
+      "equipment": [
+        "degumming and bleaching",
+        "filtration"
+      ]
+    },
+    {
+      "id": "HDO",
+      "name": "Hydrodeoxygenation",
+      "equipment": [
+        "fixed-bed hydrotreating reactors",
+        "recycle gas compressor",
+        "H2S and CO2 removal"
+      ]
+    },
+    {
+      "id": "ISO",
+      "name": "Isomerisation and selective cracking",
+      "equipment": [
+        "isomerisation reactor"
+      ]
+    },
+    {
+      "id": "FR",
+      "name": "Fractionation",
+      "equipment": [
+        "fractionator"
+      ],
+      "to": [
+        "RD",
+        "SAF"
+      ],
+      "streams": {
+        "RD": "renewable diesel",
+        "SAF": "SAF"
+      }
+    },
+    {
+      "id": "RD",
+      "name": "Renewable diesel",
+      "to": []
+    },
+    {
+      "id": "SAF",
+      "name": "SAF and naphtha",
+      "to": []
+    },
+    {
+      "id": "H2",
+      "name": "Hydrogen supply",
+      "equipment": [
+        "hydrogen production unit"
+      ],
+      "to": [
+        "HDO"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "pretreatment unit",
+    "HDO reactors",
+    "isomerisation reactor",
+    "recycle gas scrubber",
+    "fractionator",
+    "hydrogen plant"
+  ],
+  "suppliers": [
+    {
+      "name": "Neste",
+      "product": "NEXBTL"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "Ecofining (with Eni)",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Topsoe",
+      "product": "HydroFlex",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Axens",
+      "product": "Vegan",
+      "source_id": "axens"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Neste Singapore refinery",
+      "country": "SG",
+      "capacity": "2.6 Mt/yr renewable products including up to 1 Mt/yr SAF",
+      "status": "expansion completed April 2023 (EUR 1.6 billion)",
+      "year": 2023,
+      "source": {
+        "url": "https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery",
+        "note": "Neste Singapore refinery page, read 24 October 2026"
+      }
+    },
+    {
+      "name": "Diamond Green Diesel, Norco, Louisiana",
+      "country": "US",
+      "capacity": "275 million gal/yr, expanding to 675 million gal/yr (Ecofining)",
+      "status": "expansion announced September 2019, completion expected late 2021",
+      "year": 2019,
+      "source": {
+        "url": "https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining news, 30 September 2019"
+      }
+    }
+  ],
+  "advantages": [
+    "Drop-in fuels fully compatible with existing engines and infrastructure",
+    "Most mature SAF route",
+    "Can be built as a refinery conversion"
+  ],
+  "limitations": [
+    "Limited supply of waste lipid feedstocks",
+    "High hydrogen consumption",
+    "Feed pretreatment needed for contaminated wastes"
+  ],
+  "sources": [
+    {
+      "url": "https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery",
+      "note": "Neste Singapore refinery page, read 24 October 2026"
+    },
+    {
+      "url": "https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell",
+      "source_id": "ptq-digital-refining",
+      "note": "Digital Refining news, 30 September 2019"
+    }
+  ],
+  "notes": "Minimum fuel selling price figures await the NREL/PNNL techno-economic reports, which are not yet reachable for collection.",
+  "last_reviewed": "2026-10-24"
+}

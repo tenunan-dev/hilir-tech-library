@@ -1,0 +1,151 @@
+{
+  "id": "ref-hydrotreating",
+  "name": "Hydrotreating (naphtha, diesel, VGO)",
+  "aliases": [
+    "hydrodesulfurisation",
+    "HDS",
+    "diesel hydrotreater",
+    "ULSD",
+    "Ultra-low sulfur diesel and fuels"
+  ],
+  "sector": "REF",
+  "category": "Treating / hydroprocessing",
+  "applications": [
+    "ultra-low sulfur diesel",
+    "naphtha pretreatment for reformers",
+    "FCC feed pretreatment",
+    "renewable and alternative feeds"
+  ],
+  "maturity": "commercial",
+  "principle": "Oil and hydrogen are heated and passed over fixed beds of CoMo or NiMo catalyst, where sulfur, nitrogen and oxygen are converted to H2S, ammonia and water and olefins and aromatics are partly saturated. Separators and an amine scrubber clean and recycle the hydrogen, and a stripper removes H2S and light ends from the product. Topsoe states ULSD below 10 wt ppm sulfur.",
+  "process_steps": [
+    {
+      "id": "FD",
+      "name": "Feed and hydrogen mixing",
+      "equipment": [
+        "feed pump",
+        "make-up hydrogen compressor",
+        "feed/effluent exchangers"
+      ]
+    },
+    {
+      "id": "HTR",
+      "name": "Charge heater",
+      "equipment": [
+        "fired heater"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Hydrotreating reactors",
+      "equipment": [
+        "fixed-bed reactors with CoMo/NiMo catalyst",
+        "quench and distributor trays"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "High-pressure separation",
+      "equipment": [
+        "HP separator",
+        "wash water injection"
+      ],
+      "to": [
+        "SCR",
+        "STR"
+      ],
+      "streams": {
+        "SCR": "recycle gas",
+        "STR": "liquid"
+      }
+    },
+    {
+      "id": "SCR",
+      "name": "Recycle gas treating",
+      "equipment": [
+        "amine scrubber",
+        "recycle gas compressor"
+      ],
+      "to": [
+        "FD"
+      ]
+    },
+    {
+      "id": "STR",
+      "name": "Product stripping",
+      "equipment": [
+        "stripper column",
+        "product dryer"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "feed/effluent exchangers",
+    "charge heater",
+    "hydrotreating reactors with internals",
+    "HP and LP separators",
+    "recycle gas amine scrubber",
+    "recycle gas compressor",
+    "product stripper"
+  ],
+  "performance": [
+    {
+      "metric": "ULSD product sulfur",
+      "unit": "wt ppm S",
+      "basis": "Topsoe diesel hydrotreating",
+      "source": {
+        "url": "https://www.topsoe.com/processes/hydrotreating/diesel-hydrotreating",
+        "source_id": "topsoe",
+        "note": "Topsoe diesel hydrotreating page, read 24 October 2026"
+      },
+      "high": 10
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Topsoe",
+      "product": "TK-series BRIM and HyBRIM catalysts, HDS/HDA",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Axens",
+      "source_id": "axens"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "Unionfining",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Shell Catalysts & Technologies",
+      "source_id": "shell-catalysts"
+    },
+    {
+      "name": "Chevron Lummus Global",
+      "source_id": "chevron-lummus-global"
+    }
+  ],
+  "advantages": [
+    "Meets very low sulfur specifications",
+    "Handles cracked and alternative feeds",
+    "Catalyst changes can extend cycle length or volume swell"
+  ],
+  "limitations": [
+    "Consumes hydrogen",
+    "Cracked feeds raise pressure and catalyst demands",
+    "Catalyst deactivation sets cycle length"
+  ],
+  "sources": [
+    {
+      "url": "https://www.topsoe.com/processes/hydrotreating/diesel-hydrotreating",
+      "source_id": "topsoe",
+      "note": "Topsoe diesel hydrotreating page, read 24 October 2026"
+    },
+    {
+      "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+      "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

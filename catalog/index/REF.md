@@ -1,6 +1,6 @@
 # REF: Refining
 
-152 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
+153 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -147,6 +147,7 @@
 | [Topsoe](https://www.topsoe.com/) | licensor | global | open | full-text-restricted |
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
+| [US DOE Alternative Fuels and Feedstocks Office (formerly Bioenergy Technologies Office)](https://www.energy.gov/eere/bioenergy/bioenergy-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [W. R. Grace refining catalysts](https://grace.com/) | licensor | global | open | full-text-restricted (unverified) |

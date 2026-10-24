@@ -1,0 +1,150 @@
+{
+  "id": "ref-resid-hydrocracking",
+  "name": "Resid hydrocracking (ebullated and slurry bed)",
+  "aliases": [
+    "EST",
+    "Eni Slurry Technology",
+    "slurry hydrocracking",
+    "ebullated bed",
+    "LC-FINING",
+    "H-Oil",
+    "VCC"
+  ],
+  "sector": "REF",
+  "category": "Conversion / residue upgrading",
+  "applications": [
+    "vacuum residue conversion",
+    "heavy and extra-heavy crudes",
+    "bitumen upgrading"
+  ],
+  "maturity": "commercial",
+  "principle": "Residue is hydrocracked at high pressure in reactors that keep catalyst moving: ebullated beds fluidise supported catalyst with recycled liquid, while slurry processes disperse a very fine catalyst in the feed in bubble column reactors. Unconverted residue can be recycled, which lets slurry processes reach very high conversion.",
+  "process_steps": [
+    {
+      "id": "FD",
+      "name": "Feed and catalyst preparation",
+      "equipment": [
+        "residue feed heater",
+        "catalyst precursor mixing (slurry)",
+        "hydrogen compressors"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Reactors",
+      "equipment": [
+        "slurry bubble column or ebullated bed reactors"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Separation",
+      "equipment": [
+        "high-temperature separators",
+        "gas treating and hydrogen recycle"
+      ]
+    },
+    {
+      "id": "FR",
+      "name": "Fractionation",
+      "equipment": [
+        "atmospheric and vacuum fractionation"
+      ],
+      "to": [
+        "PRD",
+        "RCY"
+      ],
+      "streams": {
+        "PRD": "LPG, naphtha, jet, diesel, VGO",
+        "RCY": "unconverted residue"
+      }
+    },
+    {
+      "id": "PRD",
+      "name": "Products to hydrotreating",
+      "to": []
+    },
+    {
+      "id": "RCY",
+      "name": "Residue recycle and purge",
+      "equipment": [
+        "recycle pumps",
+        "purge or catalyst recovery"
+      ],
+      "to": [
+        "RX"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "high-pressure residue reactors",
+    "feed heaters",
+    "hydrogen compressors",
+    "hot separators",
+    "vacuum fractionator",
+    "catalyst handling or recovery"
+  ],
+  "performance": [
+    {
+      "metric": "residue conversion, EST pilot and demonstration runs",
+      "unit": "%",
+      "basis": "Eni (above 97% in all experimental runs)",
+      "source": {
+        "url": "https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf",
+        "note": "Eni, EST brochure (about 2014)"
+      },
+      "low": 97
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Eni",
+      "product": "EST"
+    },
+    {
+      "name": "Axens",
+      "product": "H-Oil",
+      "source_id": "axens"
+    },
+    {
+      "name": "Chevron Lummus Global",
+      "product": "LC-FINING",
+      "source_id": "chevron-lummus-global"
+    },
+    {
+      "name": "KBR",
+      "product": "VCC",
+      "source_id": "kbr-technology"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Eni Sannazzaro EST unit",
+      "country": "IT",
+      "capacity": "23,000 b/d design",
+      "status": "oil-in 14 October 2013",
+      "year": 2013,
+      "source": {
+        "url": "https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf",
+        "note": "Eni, EST brochure (about 2014)"
+      }
+    }
+  ],
+  "advantages": [
+    "Very high residue conversion",
+    "Handles high-metal, heavy feeds",
+    "Reduces fuel oil and coke make"
+  ],
+  "limitations": [
+    "Very high pressure and hydrogen use",
+    "Sediment and fouling management",
+    "Few slurry units in operation"
+  ],
+  "sources": [
+    {
+      "url": "https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf",
+      "note": "Eni, EST brochure (about 2014)"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

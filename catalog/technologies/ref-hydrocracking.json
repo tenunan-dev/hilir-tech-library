@@ -1,0 +1,146 @@
+{
+  "id": "ref-hydrocracking",
+  "name": "Hydrocracking (fixed bed)",
+  "aliases": [
+    "hydrocracker",
+    "ISOCRACKING",
+    "Unicracking",
+    "VGO hydrocracking",
+    "two-stage hydrocracking"
+  ],
+  "sector": "REF",
+  "category": "Conversion / hydroprocessing",
+  "applications": [
+    "diesel and jet from VGO",
+    "lube base oil feed",
+    "SAF from lipid co-processing"
+  ],
+  "maturity": "commercial",
+  "principle": "Vacuum gas oil and hydrogen pass at high pressure over a pretreatment catalyst that removes nitrogen and sulfur, then over a cracking catalyst with acid and metal functions that breaks heavy molecules into diesel, jet and naphtha while saturating them. Unconverted oil can be recycled to a second stage or sent to lube units or the FCC.",
+  "process_steps": [
+    {
+      "id": "FD",
+      "name": "Feed and hydrogen",
+      "equipment": [
+        "feed pumps",
+        "make-up and recycle gas compressors",
+        "feed/effluent exchangers",
+        "charge heater"
+      ]
+    },
+    {
+      "id": "R1",
+      "name": "First stage: pretreating and cracking",
+      "equipment": [
+        "fixed-bed reactors",
+        "interbed quench"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Separation",
+      "equipment": [
+        "hot and cold HP separators",
+        "amine scrubber"
+      ]
+    },
+    {
+      "id": "FR",
+      "name": "Fractionation",
+      "equipment": [
+        "stripper",
+        "product fractionator"
+      ],
+      "to": [
+        "PRD",
+        "R2"
+      ],
+      "streams": {
+        "PRD": "naphtha, jet, diesel",
+        "R2": "unconverted oil"
+      }
+    },
+    {
+      "id": "PRD",
+      "name": "Products",
+      "to": []
+    },
+    {
+      "id": "R2",
+      "name": "Second stage (two-stage recycle option)",
+      "equipment": [
+        "second-stage reactor"
+      ],
+      "to": [
+        "SEP"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "high-pressure reactors",
+    "charge heater",
+    "recycle gas compressor",
+    "HP separators",
+    "amine scrubber",
+    "fractionator"
+  ],
+  "performance": [
+    {
+      "metric": "conversion of straight-run VGO (revamped two-stage recycle unit)",
+      "unit": "%",
+      "basis": "CLG case study (upwards of 80%); unit revamped from 40,000 to 64,000 b/d fresh VGO",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1002562/78",
+        "source_id": "ptq-digital-refining",
+        "note": "PTQ, Revamping an integrated hydrocracker and lube base oil unit, Chevron Lummus Global and ART, December 2020"
+      },
+      "low": 80,
+      "year": 2020
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Chevron Lummus Global",
+      "product": "ISOCRACKING",
+      "source_id": "chevron-lummus-global"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "Unicracking",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Shell"
+    },
+    {
+      "name": "Topsoe",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Axens",
+      "source_id": "axens"
+    }
+  ],
+  "advantages": [
+    "High yields of clean middle distillates",
+    "Products low in sulfur and aromatics",
+    "Integrates with lube base oil production"
+  ],
+  "limitations": [
+    "High pressure and hydrogen consumption",
+    "High capital cost",
+    "Feed nitrogen and metals shorten catalyst life"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/article/1002562/78",
+      "source_id": "ptq-digital-refining",
+      "note": "PTQ, Revamping an integrated hydrocracker and lube base oil unit, Chevron Lummus Global and ART, December 2020"
+    },
+    {
+      "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+      "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

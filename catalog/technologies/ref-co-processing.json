@@ -1,0 +1,136 @@
+{
+  "id": "ref-co-processing",
+  "name": "Co-processing of bio-feeds in FCC and hydrotreaters",
+  "aliases": [
+    "co-processing",
+    "bio co-processing",
+    "lipid co-processing",
+    "pyrolysis oil co-processing"
+  ],
+  "sector": "REF",
+  "category": "Low-carbon refining",
+  "applications": [
+    "partly renewable diesel, jet and gasoline in existing units"
+  ],
+  "maturity": "commercial",
+  "principle": "Bio-feeds such as vegetable oils, animal fats, used cooking oil or biomass pyrolysis oil are blended into the fossil feed of an existing hydrotreater, hydrocracker or FCC. Small shares need only catalyst changes; larger shares need unit modifications for extra hydrogen, heat release, CO/CO2 and water.",
+  "process_steps": [
+    {
+      "id": "BIO",
+      "name": "Bio-feed receipt and pretreatment",
+      "equipment": [
+        "storage",
+        "filtration and pretreatment"
+      ]
+    },
+    {
+      "id": "BL",
+      "name": "Blending with fossil feed",
+      "equipment": [
+        "blending and metering"
+      ],
+      "to": [
+        "HT",
+        "FCC"
+      ],
+      "streams": {
+        "HT": "lipids",
+        "FCC": "lipids or pyrolysis oil"
+      }
+    },
+    {
+      "id": "HT",
+      "name": "Hydrotreater or hydrocracker",
+      "equipment": [
+        "existing reactors with adapted catalyst",
+        "recycle gas CO/CO2 removal"
+      ],
+      "to": [
+        "PRD"
+      ]
+    },
+    {
+      "id": "FCC",
+      "name": "FCC unit",
+      "equipment": [
+        "existing riser with dedicated feed nozzles"
+      ],
+      "to": [
+        "PRD"
+      ]
+    },
+    {
+      "id": "PRD",
+      "name": "Partly renewable products",
+      "equipment": [
+        "mass balance or C14 tracking"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "bio-feed storage and pretreatment",
+    "blending",
+    "existing hydroprocessing or FCC unit",
+    "recycle gas treating"
+  ],
+  "performance": [
+    {
+      "metric": "bio-feed share in hydroprocessing",
+      "unit": "% of feed",
+      "basis": "Honeywell UOP: under 5% with catalyst change, 5-10% with minor modification, 10-20% with revamp",
+      "source": {
+        "url": "https://ess.honeywell.com/content/dam/pmt/en/documents/Honeywell-UOP-Co-Processing-Technologies-web-brochure.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP Co-Processing Technologies brochure, 2023"
+      },
+      "low": 5,
+      "high": 20,
+      "year": 2023
+    },
+    {
+      "metric": "biogenic feed rate in an FCC case study",
+      "unit": "% of feed",
+      "basis": "Honeywell UOP (over 20%)",
+      "source": {
+        "url": "https://ess.honeywell.com/content/dam/pmt/en/documents/Honeywell-UOP-Co-Processing-Technologies-web-brochure.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP Co-Processing Technologies brochure, 2023"
+      },
+      "low": 20,
+      "year": 2023
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "Unionfining co-processing, FCC co-processing",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Topsoe",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Axens",
+      "source_id": "axens"
+    }
+  ],
+  "advantages": [
+    "Uses existing units with low capital",
+    "Quick route to renewable content"
+  ],
+  "limitations": [
+    "Renewable share limited by unit and fuel specifications",
+    "Extra hydrogen use and CO/CO2 formation",
+    "Tracking renewable content needs certification"
+  ],
+  "sources": [
+    {
+      "url": "https://ess.honeywell.com/content/dam/pmt/en/documents/Honeywell-UOP-Co-Processing-Technologies-web-brochure.pdf",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell UOP Co-Processing Technologies brochure, 2023"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

@@ -1,6 +1,6 @@
 # Technology register
 
-298 technologies across oil, gas, petrochemicals and new energy; 40 have a technology card so far.
+298 technologies across oil, gas, petrochemicals and new energy; 55 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 
@@ -127,28 +127,28 @@ Cards (linked) are verified and cite their sources. Source: `catalog/technology-
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Distillation and treating | Crude and vacuum distillation with heat integration | commercial | EPC contractors |  |
-| Distillation and treating | Desalting (electrostatic) | commercial | Cameron (SLB) |  |
-| Distillation and treating | Hydrotreating (naphtha, diesel, VGO) | commercial | Topsoe, Axens, Honeywell UOP, Shell, Chevron Lummus Global |  |
-| Distillation and treating | Ultra-low sulfur diesel and fuels | commercial | Topsoe, Axens, Honeywell UOP |  |
+| Distillation and treating | Crude and vacuum distillation with heat integration | commercial | EPC contractors | [card](technologies-REF.md#ref-cdu-vdu) |
+| Distillation and treating | Desalting (electrostatic) | commercial | Cameron (SLB) | [card](technologies-REF.md#ref-cdu-vdu) |
+| Distillation and treating | Hydrotreating (naphtha, diesel, VGO) | commercial | Topsoe, Axens, Honeywell UOP, Shell, Chevron Lummus Global | [card](technologies-REF.md#ref-hydrotreating) |
+| Distillation and treating | Ultra-low sulfur diesel and fuels | commercial | Topsoe, Axens, Honeywell UOP | [card](technologies-REF.md#ref-hydrotreating) |
 | Distillation and treating | FCC gasoline post-treating (Prime-G+, SCANfining) | commercial | Axens, ExxonMobil |  |
 | Distillation and treating | Mercaptan sweetening (Merox) | commercial | Honeywell UOP, Merichem |  |
-| Conversion | Fluid catalytic cracking and resid FCC | commercial | Honeywell UOP, KBR, Axens/Technip, Lummus, Shell |  |
-| Conversion | Hydrocracking (fixed bed) | commercial | Chevron Lummus Global, Honeywell UOP, Shell, Topsoe, Axens |  |
-| Conversion | Resid hydrocracking (ebullated and slurry bed) | commercial | Axens H-Oil, CLG LC-FINING, Eni EST, KBR VCC |  |
-| Conversion | Delayed coking and fluid coking | commercial | Lummus, Bechtel/Foster Wheeler (Amec), ExxonMobil Flexicoking |  |
+| Conversion | Fluid catalytic cracking and resid FCC | commercial | Honeywell UOP, KBR, Axens/Technip, Lummus, Shell | [card](technologies-REF.md#ref-fcc) |
+| Conversion | Hydrocracking (fixed bed) | commercial | Chevron Lummus Global, Honeywell UOP, Shell, Topsoe, Axens | [card](technologies-REF.md#ref-hydrocracking) |
+| Conversion | Resid hydrocracking (ebullated and slurry bed) | commercial | Axens H-Oil, CLG LC-FINING, Eni EST, KBR VCC | [card](technologies-REF.md#ref-resid-hydrocracking) |
+| Conversion | Delayed coking and fluid coking | commercial | Lummus, Bechtel/Foster Wheeler (Amec), ExxonMobil Flexicoking | [card](technologies-REF.md#ref-delayed-coking) |
 | Conversion | Visbreaking and solvent deasphalting | commercial | Shell, KBR ROSE, Axens |  |
-| Conversion | Catalytic reforming (CCR, semi-regenerative) | commercial | Honeywell UOP, Axens |  |
-| Conversion | Isomerisation (C5/C6) | commercial | Honeywell UOP, Axens, GTC |  |
-| Conversion | Alkylation (HF, sulfuric, ionic liquid, solid acid) | commercial | Honeywell UOP, DuPont STRATCO, Chevron ISOALKY, KBR K-SAAT |  |
+| Conversion | Catalytic reforming (CCR, semi-regenerative) | commercial | Honeywell UOP, Axens | [card](technologies-REF.md#ref-catalytic-reforming) |
+| Conversion | Isomerisation (C5/C6) | commercial | Honeywell UOP, Axens, GTC | [card](technologies-REF.md#ref-isomerisation) |
+| Conversion | Alkylation (HF, sulfuric, ionic liquid, solid acid) | commercial | Honeywell UOP, DuPont STRATCO, Chevron ISOALKY, KBR K-SAAT | [card](technologies-REF.md#ref-alkylation) |
 | Conversion | Etherification (MTBE, ETBE, TAME) | commercial | Lummus, Axens |  |
 | Conversion | Hydrogen production for refining (SMR with PSA) | commercial | Topsoe, Air Liquide, Technip Energies, Linde | [card](technologies-H2.md#h2-smr) |
 | Conversion | Sour water stripping and amine regeneration | commercial | EPC contractors |  |
-| Crude-to-chemicals and integration | Crude-to-chemicals complexes | commercial | Saudi Aramco/SABIC, Hengli, Rongsheng, PETRONAS Pengerang |  |
+| Crude-to-chemicals and integration | Crude-to-chemicals complexes | commercial | Saudi Aramco/SABIC, Hengli, Rongsheng, PETRONAS Pengerang | [card](technologies-REF.md#ref-crude-to-chemicals) |
 | Crude-to-chemicals and integration | Direct crude cracking | demonstration | ExxonMobil Singapore, Saudi Aramco TC2C |  |
 | Crude-to-chemicals and integration | Refinery-petrochemical integration (FCC propylene, HS-FCC) | commercial | Honeywell UOP, Axens, KBR |  |
-| Low-carbon refining | Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA) | commercial | Neste NEXBTL, Honeywell UOP Ecofining, Topsoe HydroFlex, Axens Vegan |  |
-| Low-carbon refining | Co-processing of bio-feeds in FCC and hydrotreaters | commercial | Refiners |  |
+| Low-carbon refining | Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA) | commercial | Neste NEXBTL, Honeywell UOP Ecofining, Topsoe HydroFlex, Axens Vegan | [card](technologies-REF.md#ref-hefa) |
+| Low-carbon refining | Co-processing of bio-feeds in FCC and hydrotreaters | commercial | Refiners | [card](technologies-REF.md#ref-co-processing) |
 | Low-carbon refining | Refinery electrification and heat pumps | demonstration | Various |  |
 | Low-carbon refining | Refinery flue gas and FCC carbon capture | demonstration | ExxonMobil, Shell Pernis |  |
 | Low-carbon refining | Green hydrogen in refineries | demonstration | Shell Rheinland, BP Lingen |  |
@@ -260,7 +260,7 @@ Cards (linked) are verified and cite their sources. Source: `catalog/technology-
 | Hydrogen use | Ammonia as marine fuel | demonstration | MAN (Everllence), Wärtsilä, WinGD |  |
 | Low-carbon fuels | Green and blue ammonia | demonstration | Topsoe, KBR, Thyssenkrupp Uhde, Casale | [card](technologies-H2.md#h2-green-blue-ammonia) |
 | Low-carbon fuels | E-methanol and bio-methanol | demonstration | European Energy, Topsoe, Johnson Matthey (Honeywell) |  |
-| Low-carbon fuels | Alcohol-to-jet SAF | demonstration | LanzaJet, Honeywell UOP, Gevo |  |
+| Low-carbon fuels | Alcohol-to-jet SAF | demonstration | LanzaJet, Honeywell UOP, Gevo | [card](technologies-REF.md#ref-alcohol-to-jet) |
 | Low-carbon fuels | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) | demonstration | Velocys, Fulcrum, Norsk e-Fuel, Infinium |  |
 | Low-carbon fuels | Pyrolysis oil and hydrothermal liquefaction | pilot | Licella, Steeper Energy, Ensyn |  |
 | Low-carbon fuels | First-generation biofuels (ethanol, FAME biodiesel) | commercial | Raízen, POET, Neste |  |

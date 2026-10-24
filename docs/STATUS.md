@@ -2,15 +2,15 @@
 
 Living document. Update it at the end of every working session (newest entry on top in the log).
 
-## Current numbers (2026-10-23)
+## Current numbers (2026-10-24)
 
 | Item | Count |
 | --- | --- |
-| Catalog records | 343 |
+| Catalog records | 344 |
 | Verified | 126 (31 full-text-open, 75 full-text-restricted, 16 summary-only, 4 catalog-only) |
 | Unverified | 217, of which 50 need a manual terms check (`catalog/index/needs-manual-check.md`) |
-| Corpus documents | 49 (25 OSTI, 24 arXiv; metadata and abstracts) |
-| Technology cards | 14 (CCS) |
+| Corpus documents | 61 (OSTI and arXiv abstracts; NETL, DOE and IEA reports in full text) |
+| Technology cards | 52 (CCS 14, H2 12, GAS 13, REF 13); register of about 300 technologies in `catalog/technology-register.yaml` |
 
 Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl` and the MCP tool `library_stats`.
 
@@ -22,7 +22,7 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 
 ## Backlog (in rough priority order)
 
-1. **CCS cards:** add NETL baseline figures (regeneration energy, power-plant cost of capture), then extend cards to other sectors (H2, GAS, REF).
+1. **Technology cards:** cards exist for CCS, H2, GAS and REF. Open gaps: NETL baseline figures for CCS (regeneration energy, power-plant cost of capture); LNG specific power by liquefaction process (kWh/t); liquid hydrogen liquefaction energy; HEFA and alcohol-to-jet selling prices (NREL/PNNL reports on osti.gov, unreachable so far); SAF Grand Challenge Roadmap (record `doe-affo` now added, collect it). Next sectors: PCH, UPS, MID, PWR.
 1. **Manual terms checks:** 50 records listed in `catalog/index/needs-manual-check.md`.
 2. **Unchecked collectable records:** chula-petroleum, itb-indonesia, kaust, keei, khalifa-university, mycite, myipo, nea-china, th-dmf, vn-pvj, uq-energy, weatherford.
 3. **Remaining unverified records:** verify the rest of the 217, Southeast Asia and Asia Pacific first.
@@ -46,6 +46,7 @@ Add one entry per working session, newest on top, in this format, so an agent wi
 - **YYYY-MM-DD, <who or which agent>:** Did: <changes, with commit hashes>. Verified: <checks run and results, e.g. build.py N records valid, pytest N passed, trial run looked right>. Failed: <what did not work, with the exact error message>. Next: <the concrete next step, or the owner decision it waits on>.
 ```
 
+- **2026-10-24 (evening):** 38 technology cards added: hydrogen (SMR, ATR with capture, alkaline, PEM, SOEC, AEM, methane pyrolysis, ammonia cracking, LOHC, liquid hydrogen, salt cavern storage, green and blue ammonia), gas and LNG (amine and membrane treating, dehydration, mercury removal, sulfur recovery, turbo-expander NGL, C3MR/AP-X, Optimized Cascade, DMR, MFC, FLNG, FSRU, GTL) and refining (CDU/VDU, hydrotreating, FCC, hydrocracking, resid hydrocracking, coking, reforming, isomerisation, alkylation, HEFA, co-processing, alcohol-to-jet, crude-to-chemicals). Every card links to its register entry. The Mac collected 8 NETL, DOE and IEA hydrogen and LNG reports. Record `doe-affo` added (DOE Alternative Fuels and Feedstocks Office, formerly BETO).
 - **2026-10-24 (later):** CCS pilot: technology card schema, 14 CCS cards (amine, high-purity, physical and syngas solvents, membranes, sorbents, cryogenic, calcium looping, oxyfuel cement, Allam cycle, two DAC routes, chemical looping, emerging), Mermaid block diagrams, `compare_technologies` and `get_technology` MCP tools, technologies.csv in the Dataverse export, per-document sector tags. Next: add regeneration energy and power-plant costs from the NETL baseline, and re-check statuses noted in each card's `notes`.
 - **2026-10-24:** Dataverse export added (`tools/export_dataverse.py`, docs/DATAVERSE.md): sources, documents and taxonomy CSVs; restricted document text left out by default. Not yet imported: needs the owner's Power Platform environment.
 - **2026-10-23 (later):** Hosted mode added for cloud agents such as Copilot Studio: `server.py --http` (streamable HTTP, API key), Dockerfile that leaves restricted documents out, Azure Container Apps and Copilot Studio steps in docs/HOSTING.md. Documents whose own licence is open (arXiv CC0 abstracts) are now marked full-text-open. Not yet deployed: needs the owner's Azure subscription.

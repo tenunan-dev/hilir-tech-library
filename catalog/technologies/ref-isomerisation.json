@@ -1,0 +1,129 @@
+{
+  "id": "ref-isomerisation",
+  "name": "Isomerisation (C5/C6)",
+  "aliases": [
+    "light naphtha isomerisation",
+    "Penex",
+    "Ipsorb",
+    "Hexorb",
+    "isomerization"
+  ],
+  "sector": "REF",
+  "category": "Octane upgrading",
+  "applications": [
+    "octane upgrade of light naphtha",
+    "benzene reduction in gasoline"
+  ],
+  "maturity": "commercial",
+  "principle": "Light straight-run naphtha (pentanes and hexanes) is converted over a catalyst, typically chlorinated alumina, into branched isomers with higher octane. Equilibrium limits a once-through unit, so recycle schemes separate unconverted normal paraffins with a deisohexaniser or molecular sieves and send them back.",
+  "process_steps": [
+    {
+      "id": "FD",
+      "name": "Feed drying and hydrogen",
+      "equipment": [
+        "feed and hydrogen driers"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Isomerisation reactors",
+      "equipment": [
+        "two reactors in lead/lag (permutable)"
+      ]
+    },
+    {
+      "id": "STB",
+      "name": "Stabilisation",
+      "equipment": [
+        "stabiliser",
+        "caustic scrubber for off-gas (chlorided catalyst)"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Recycle separation (option)",
+      "equipment": [
+        "deisohexaniser or deisopentaniser",
+        "molecular sieve adsorbers (Ipsorb/Hexorb)"
+      ],
+      "to": [
+        "RX",
+        "ISO"
+      ],
+      "streams": {
+        "RX": "normal paraffins",
+        "ISO": "isomerate"
+      }
+    },
+    {
+      "id": "ISO",
+      "name": "Isomerate to gasoline pool",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "feed and hydrogen driers",
+    "isomerisation reactors",
+    "stabiliser",
+    "deisohexaniser",
+    "molecular sieve adsorbers"
+  ],
+  "performance": [
+    {
+      "metric": "isomerate RON, once-through",
+      "unit": "RON",
+      "basis": "Axens, for 40:60 C5:C6 feed starting at RON about 70",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+        "source_id": "axens",
+        "note": "Axens C5/C6 isomerization page, read 24 October 2026"
+      },
+      "low": 83,
+      "high": 84
+    },
+    {
+      "metric": "isomerate RON, recycle with molecular sieves (Hexorb)",
+      "unit": "RON",
+      "basis": "Axens, at C5/C6 ratio 0.65; deisohexaniser recycle gives about 88",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+        "source_id": "axens",
+        "note": "Axens C5/C6 isomerization page, read 24 October 2026"
+      },
+      "low": 91,
+      "high": 92
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Axens",
+      "product": "once-through, Ipsorb, Hexorb; ATIS-1L/2L catalysts",
+      "source_id": "axens"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "Penex",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "GTC Technology"
+    }
+  ],
+  "advantages": [
+    "Cheap octane from low-value light naphtha",
+    "No aromatics or olefins in product",
+    "Saturates benzene"
+  ],
+  "limitations": [
+    "Chlorided catalysts need very dry, sulfur-free feed",
+    "Once-through octane limited by equilibrium"
+  ],
+  "sources": [
+    {
+      "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+      "source_id": "axens",
+      "note": "Axens C5/C6 isomerization page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

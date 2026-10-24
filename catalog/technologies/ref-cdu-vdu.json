@@ -1,0 +1,159 @@
+{
+  "id": "ref-cdu-vdu",
+  "name": "Crude and vacuum distillation with heat integration",
+  "aliases": [
+    "CDU",
+    "VDU",
+    "atmospheric distillation",
+    "vacuum distillation",
+    "crude unit",
+    "desalting",
+    "Desalting (electrostatic)"
+  ],
+  "sector": "REF",
+  "category": "Distillation",
+  "applications": [
+    "first separation step in every refinery"
+  ],
+  "maturity": "commercial",
+  "principle": "Crude is desalted, preheated against hot product streams and heated in a fired furnace, then separated by boiling range in an atmospheric column into gas, naphtha, kerosene, diesel and atmospheric residue. The residue would crack and foul at atmospheric pressure, so it is reheated and split again under vacuum into vacuum gas oils and vacuum residue.",
+  "process_steps": [
+    {
+      "id": "DES",
+      "name": "Desalting",
+      "equipment": [
+        "electrostatic desalter",
+        "wash water system"
+      ]
+    },
+    {
+      "id": "PH",
+      "name": "Preheat train",
+      "equipment": [
+        "crude preheat exchanger network"
+      ]
+    },
+    {
+      "id": "F1",
+      "name": "Atmospheric heater",
+      "equipment": [
+        "fired crude heater"
+      ]
+    },
+    {
+      "id": "ATM",
+      "name": "Atmospheric distillation",
+      "equipment": [
+        "atmospheric column with side strippers and pumparounds"
+      ],
+      "to": [
+        "PROD",
+        "F2"
+      ],
+      "streams": {
+        "PROD": "gas, naphtha, kerosene, diesel",
+        "F2": "atmospheric residue"
+      }
+    },
+    {
+      "id": "PROD",
+      "name": "Light products to treating",
+      "equipment": [
+        "overhead condensers and accumulator"
+      ],
+      "to": []
+    },
+    {
+      "id": "F2",
+      "name": "Vacuum heater",
+      "equipment": [
+        "fired vacuum heater (370-425 °C)"
+      ],
+      "to": [
+        "VAC"
+      ]
+    },
+    {
+      "id": "VAC",
+      "name": "Vacuum distillation",
+      "equipment": [
+        "vacuum column (0.5-2 psia)",
+        "steam ejectors or vacuum pumps"
+      ],
+      "to": [
+        "VGO",
+        "VR"
+      ],
+      "streams": {
+        "VGO": "vacuum gas oils",
+        "VR": "vacuum residue"
+      }
+    },
+    {
+      "id": "VGO",
+      "name": "VGO to FCC or hydrocracker",
+      "to": []
+    },
+    {
+      "id": "VR",
+      "name": "Vacuum residue to coker, resid upgrading or fuel oil",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrostatic desalter",
+    "preheat exchanger train",
+    "crude and vacuum fired heaters",
+    "atmospheric column",
+    "vacuum column",
+    "ejector or vacuum pump system"
+  ],
+  "performance": [
+    {
+      "metric": "vacuum heater outlet temperature",
+      "unit": "°C",
+      "basis": "EPA AP-42 description",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+        "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+      },
+      "low": 370,
+      "high": 425
+    },
+    {
+      "metric": "vacuum column absolute pressure",
+      "unit": "psia",
+      "basis": "EPA AP-42 description",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+        "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+      },
+      "low": 0.5,
+      "high": 2
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "EPC contractors (process designed by refiner or contractor)"
+    },
+    {
+      "name": "Cameron (SLB)",
+      "product": "electrostatic desalters"
+    }
+  ],
+  "advantages": [
+    "Mature, high-reliability units",
+    "Heat integration recovers most of the furnace duty"
+  ],
+  "limitations": [
+    "Fired heaters are among a refinery's largest CO2 sources",
+    "Vacuum unit cut point limited by thermal cracking"
+  ],
+  "sources": [
+    {
+      "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+      "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

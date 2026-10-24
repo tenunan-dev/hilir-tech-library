@@ -1,0 +1,117 @@
+{
+  "id": "ref-alcohol-to-jet",
+  "name": "Alcohol-to-jet SAF",
+  "aliases": [
+    "ATJ",
+    "ethanol-to-jet",
+    "ATJ-SPK",
+    "LanzaJet"
+  ],
+  "sector": "REF",
+  "category": "Low-carbon fuels / SAF",
+  "applications": [
+    "sustainable aviation fuel and renewable diesel from ethanol or isobutanol"
+  ],
+  "maturity": "demonstration",
+  "principle": "Ethanol or isobutanol is dehydrated to light olefins, which are oligomerised into longer chains, hydrogenated and fractionated into jet and diesel range paraffins. Any low-carbon alcohol can be the feed, including ethanol from wastes or gas fermentation.",
+  "process_steps": [
+    {
+      "id": "DH",
+      "name": "Alcohol dehydration",
+      "equipment": [
+        "dehydration reactor",
+        "water removal"
+      ]
+    },
+    {
+      "id": "OLI",
+      "name": "Oligomerisation",
+      "equipment": [
+        "oligomerisation reactors"
+      ]
+    },
+    {
+      "id": "HYD",
+      "name": "Hydrogenation",
+      "equipment": [
+        "hydrogenation reactor",
+        "hydrogen supply"
+      ]
+    },
+    {
+      "id": "FR",
+      "name": "Fractionation",
+      "equipment": [
+        "fractionator"
+      ],
+      "to": [
+        "SAF",
+        "RD"
+      ],
+      "streams": {
+        "SAF": "SAF",
+        "RD": "renewable diesel"
+      }
+    },
+    {
+      "id": "SAF",
+      "name": "SAF",
+      "to": []
+    },
+    {
+      "id": "RD",
+      "name": "Renewable diesel",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "dehydration reactor",
+    "oligomerisation reactors",
+    "hydrogenation reactor",
+    "fractionation"
+  ],
+  "suppliers": [
+    {
+      "name": "LanzaJet"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "ethanol-to-jet",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Gevo"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "LanzaJet Freedom Pines Fuels, Soperton, Georgia",
+      "country": "US",
+      "capacity": "10 million gal/yr SAF and renewable diesel from ethanol",
+      "status": "opened January 2024; described as the first ATJ SAF plant",
+      "year": 2024,
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing news, 26 January 2024"
+      }
+    }
+  ],
+  "advantages": [
+    "Alcohol feeds are widely available and can be low carbon",
+    "Large potential feedstock base beyond lipids"
+  ],
+  "limitations": [
+    "Early commercial stage",
+    "Product cost tied to ethanol price",
+    "Multi-step process"
+  ],
+  "sources": [
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/",
+      "source_id": "hydrocarbon-processing",
+      "note": "Hydrocarbon Processing news, 26 January 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

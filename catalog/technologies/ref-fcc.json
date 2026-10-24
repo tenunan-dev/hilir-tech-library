@@ -1,0 +1,201 @@
+{
+  "id": "ref-fcc",
+  "name": "Fluid catalytic cracking and resid FCC",
+  "aliases": [
+    "FCC",
+    "RFCC",
+    "FCCU",
+    "PetroFCC",
+    "cat cracker"
+  ],
+  "sector": "REF",
+  "category": "Conversion / catalytic cracking",
+  "applications": [
+    "gasoline and LPG from VGO",
+    "propylene for petrochemicals",
+    "residue conversion (RFCC)",
+    "bio-feed co-processing"
+  ],
+  "maturity": "commercial",
+  "principle": "Hot, fine zeolite catalyst behaves like a fluid and meets vaporised gas oil in a riser reactor at 470 to 525 °C, cracking it into gasoline, LPG, light cycle oil and slurry. Coke deposited on the catalyst is burned off with air in a regenerator at 590 to 675 °C, which reheats the catalyst for the next pass. Residue versions use two-stage regenerators and catalyst coolers.",
+  "process_steps": [
+    {
+      "id": "FP",
+      "name": "Feed preheat",
+      "equipment": [
+        "feed preheat exchangers and heater",
+        "feed nozzles"
+      ]
+    },
+    {
+      "id": "RIS",
+      "name": "Riser reactor",
+      "equipment": [
+        "riser",
+        "riser termination device",
+        "reactor cyclones",
+        "stripper"
+      ],
+      "to": [
+        "MF",
+        "REG"
+      ],
+      "streams": {
+        "MF": "cracked vapours",
+        "REG": "spent catalyst"
+      }
+    },
+    {
+      "id": "REG",
+      "name": "Catalyst regeneration",
+      "equipment": [
+        "regenerator (one or two stage)",
+        "air blower",
+        "catalyst cooler (resid)",
+        "flue gas cyclones"
+      ],
+      "to": [
+        "RIS",
+        "FG"
+      ],
+      "streams": {
+        "RIS": "regenerated catalyst",
+        "FG": "flue gas"
+      }
+    },
+    {
+      "id": "FG",
+      "name": "Flue gas handling",
+      "equipment": [
+        "third-stage separator",
+        "power recovery expander",
+        "CO boiler",
+        "scrubber"
+      ],
+      "to": []
+    },
+    {
+      "id": "MF",
+      "name": "Main fractionator",
+      "equipment": [
+        "main fractionator",
+        "slurry settler"
+      ],
+      "to": [
+        "GC"
+      ]
+    },
+    {
+      "id": "GC",
+      "name": "Gas concentration",
+      "equipment": [
+        "wet gas compressor",
+        "absorber, debutaniser and splitter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "riser and reactor",
+    "regenerator",
+    "air blower",
+    "cyclones",
+    "main fractionator",
+    "wet gas compressor",
+    "flue gas power recovery and scrubber"
+  ],
+  "performance": [
+    {
+      "metric": "riser reaction temperature",
+      "unit": "°C",
+      "basis": "EPA AP-42 description",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+        "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+      },
+      "low": 470,
+      "high": 525
+    },
+    {
+      "metric": "regenerator temperature",
+      "unit": "°C",
+      "basis": "EPA AP-42 description",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+        "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+      },
+      "low": 590,
+      "high": 675
+    },
+    {
+      "metric": "propylene yield, PetroFCC",
+      "unit": "wt%",
+      "basis": "Honeywell UOP, depending on feed",
+      "source": {
+        "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/refining/vaccuum-gas-oil-conversion/honeywell-uop-fcc-related-processes-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP FCC related processes datasheet, UOP4523-7a, September 2016"
+      },
+      "low": 18,
+      "high": 20,
+      "year": 2016
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "FCC, RFCC, PetroFCC",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "KBR",
+      "source_id": "kbr-technology"
+    },
+    {
+      "name": "Axens/Technip Energies",
+      "source_id": "axens"
+    },
+    {
+      "name": "Lummus",
+      "source_id": "lummus"
+    },
+    {
+      "name": "Shell"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "UOP-licensed FCC fleet",
+      "capacity": "over 215 FCC/RFCC/MSCC units licensed; over 150 of more than 400 FCC units worldwide under UOP licence",
+      "status": "per 2016 datasheet",
+      "year": 2016,
+      "source": {
+        "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/refining/vaccuum-gas-oil-conversion/honeywell-uop-fcc-related-processes-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP FCC related processes datasheet, UOP4523-7a, September 2016"
+      }
+    }
+  ],
+  "advantages": [
+    "Flexible between gasoline, LPG and propylene",
+    "Can process residues (RFCC up to about 10 wt% Conradson carbon per UOP)",
+    "Can co-process bio-oils"
+  ],
+  "limitations": [
+    "Regenerator flue gas is a large CO2 point source",
+    "Catalyst fines and SOx/NOx need control",
+    "Products need further treating"
+  ],
+  "sources": [
+    {
+      "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
+      "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+    },
+    {
+      "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/refining/vaccuum-gas-oil-conversion/honeywell-uop-fcc-related-processes-datasheet.pdf",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell UOP FCC related processes datasheet, UOP4523-7a, September 2016"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

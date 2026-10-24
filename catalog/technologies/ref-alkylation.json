@@ -1,0 +1,127 @@
+{
+  "id": "ref-alkylation",
+  "name": "Alkylation (HF, sulfuric, ionic liquid, solid acid)",
+  "aliases": [
+    "alky",
+    "HF alkylation",
+    "sulfuric acid alkylation",
+    "ISOALKY",
+    "ionic liquid alkylation",
+    "K-SAAT",
+    "STRATCO"
+  ],
+  "sector": "REF",
+  "category": "Octane upgrading",
+  "applications": [
+    "high-octane, low-vapour-pressure gasoline blendstock from FCC olefins"
+  ],
+  "maturity": "commercial",
+  "principle": "Isobutane reacts with light olefins (propylene, butylenes) over a strong acid catalyst to make branched paraffins called alkylate. Conventional units use hydrofluoric or sulfuric acid; newer units use ionic liquids or solid acids to remove the hazards of HF or the cost of acid regeneration.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Feed pretreatment",
+      "equipment": [
+        "olefin feed treating",
+        "isobutane make-up"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Reaction",
+      "equipment": [
+        "reactor (contactor, settler or ionic liquid reactor)",
+        "refrigeration (sulfuric)"
+      ]
+    },
+    {
+      "id": "SET",
+      "name": "Acid or catalyst separation",
+      "equipment": [
+        "settler",
+        "catalyst regeneration"
+      ],
+      "to": [
+        "RX",
+        "FR"
+      ],
+      "streams": {
+        "RX": "catalyst recycle",
+        "FR": "hydrocarbon"
+      }
+    },
+    {
+      "id": "FR",
+      "name": "Fractionation",
+      "equipment": [
+        "deisobutaniser",
+        "debutaniser"
+      ],
+      "to": [
+        "ALK"
+      ]
+    },
+    {
+      "id": "ALK",
+      "name": "Alkylate to gasoline pool",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reactors or contactors",
+    "settlers",
+    "refrigeration compressor (sulfuric)",
+    "catalyst regeneration",
+    "deisobutaniser"
+  ],
+  "reference_plants": [
+    {
+      "name": "Chevron Salt Lake City refinery ISOALKY unit",
+      "country": "US",
+      "capacity": "retrofit of a 4,500 b/d HF alkylation unit in a 58,000 b/d refinery, with capacity increased",
+      "status": "first commercial ionic liquid alkylation; start-up announced 13 April 2021",
+      "year": 2021,
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, 13 April 2021"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Chevron / Honeywell UOP",
+      "product": "ISOALKY (ionic liquid)",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "HF alkylation"
+    },
+    {
+      "name": "DuPont (Veolia)",
+      "product": "STRATCO sulfuric"
+    },
+    {
+      "name": "KBR",
+      "product": "K-SAAT solid acid",
+      "source_id": "kbr-technology"
+    }
+  ],
+  "advantages": [
+    "Alkylate is a clean, high-octane blendstock",
+    "Ionic liquid and solid acid routes avoid HF hazards"
+  ],
+  "limitations": [
+    "HF is highly toxic; sulfuric needs acid regeneration",
+    "Requires an isobutane source"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, 13 April 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}
