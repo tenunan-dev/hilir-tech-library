@@ -20,6 +20,7 @@ agents to find, cite and (where licences allow) read. It has three layers:
 | Use the library (search, cite, MCP setup) | [docs/USER_GUIDE.md](docs/USER_GUIDE.md) |
 | Add sources, verify terms, collect, run refreshes | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) |
 | Host the server for cloud agents (Copilot Studio and others) | [docs/HOSTING.md](docs/HOSTING.md) |
+| Export to Dataverse / Power Apps tables | [docs/DATAVERSE.md](docs/DATAVERSE.md) |
 | Know what is done and what to do next | [docs/STATUS.md](docs/STATUS.md) |
 | Know why a rule exists | [docs/DECISIONS.md](docs/DECISIONS.md) |
 
