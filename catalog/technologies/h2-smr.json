@@ -243,28 +243,7 @@
     }
   ],
   "last_reviewed": "2026-10-24",
-  "gaps": [
-    {
-      "field": "trl",
-      "item": "maturity versus IEA TRL",
-      "reason_code": "conflicting_sources",
-      "reason": "The card says commercial, but the IEA guide gives TRL 6-9 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses.",
-      "where": [
-        {
-          "hint": "IEA Clean Energy Technology Guide entry descriptions (collected)",
-          "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle."
-    }
-  ],
+  "gaps": [],
   "trl": {
     "low": 6,
     "high": 9,
@@ -273,5 +252,6 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Steam reforming - partial capture' 9; 'Steam reforming - high capture rates' 6"
     }
-  }
+  },
+  "notes": "Maturity is commercial: SMR with partial capture is TRL 9 in the IEA guide (operating examples on this card); SMR with high capture rates (above 90%, including flue gas) is TRL 6."
 }

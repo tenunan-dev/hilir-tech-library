@@ -161,11 +161,11 @@
       "name": "Stratos, Ector County, Texas",
       "country": "US",
       "capacity": "up to 500,000 t/yr",
-      "status": "operations expected mid-2025 (as of July 2023)",
-      "year": 2025,
+      "status": "start of operations moved to end of 2026 (originally end of 2024); construction began May 2023",
+      "year": 2026,
       "source": {
-        "url": "https://ogj.com/energy-transition/article/14296692/1pointfive-signs-oxygen-supply-contract-for-dac-plant",
-        "note": "Oil & Gas Journal, 20 Jul 2023"
+        "url": "https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/",
+        "note": "E&E News, 7 August 2026"
       }
     }
   ],
@@ -190,22 +190,25 @@
       "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
       "source_id": "sintef",
       "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    },
+    {
+      "url": "https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/"
     }
   ],
   "last_reviewed": "2026-10-24",
   "gaps": [
     {
       "field": "status",
-      "item": "Stratos operating status after mid-2025",
+      "item": "Stratos start-up and first-year capture",
       "reason_code": "status_unchecked",
-      "reason": "Latest status was not checked.",
+      "reason": "Due to start at the end of 2026; re-check after that date.",
       "where": [
         {
-          "hint": "Occidental / 1PointFive news releases",
+          "hint": "Occidental and 1PointFive news releases and quarterly results",
           "access": "open"
         }
       ],
-      "action": "Check start-up and capture rate; update reference_plants."
+      "action": "After January 2027, record start-up date and any reported tonnes captured."
     }
   ]
 }

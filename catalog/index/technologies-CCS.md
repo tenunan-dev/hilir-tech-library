@@ -87,12 +87,14 @@ flowchart LR
 - cost of CO2 captured, gas-to-liquids: 6.4 USD/t CO2 (2018$); NETL; compression of acid gas removal CO2 stream. [source](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf)
 - average cost of CO2 captured, high-purity industrial streams (over 95% CO2): 17.5 USD/t CO2 (2018$); NETL average across its high-purity cases; dilute streams (under 50% CO2) average 62.0. [source](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf)
 
+**Reference plants:**
+- ExxonMobil Shute Creek gas plant (LaBarge), Wyoming, US: 6-7 Mt/yr CO2 captured from LaBarge gas (about 66% CO2); expansion of up to 1.2 Mt/yr; operating; expansion FID February 2022, start-up estimated 2025. [source](https://www.ogj.com/energy-transition/article/14281919/exxonmobil-gets-blm-approval-for-wyoming-ccs-project)
+
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Where: [IEAGHG review of current and emerging CO2 capture technologies (TCCS-10, 2019), Task 1 TRL tables](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf) (catalog: sintef, open); Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA CCUS Projects Database (free registration) (catalog: iea-ccus-db, registration); Global CCS Institute CO2RE facilities database (catalog: global-ccs-co2re, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
-Sources: [1](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf). Last reviewed 2026-10-24.
+Sources: [1](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf), [2](https://www.ogj.com/energy-transition/article/14281919/exxonmobil-gets-blm-approval-for-wyoming-ccs-project). Last reviewed 2026-10-24.
 
 ## Chemical solvent capture from syngas (hydrogen plants)
 <a id="ccs-syngas-chemical-solvent"></a>
@@ -150,15 +152,16 @@ flowchart LR
 
 **Key equipment:** absorber, refrigeration system, flash drums, stripper, Claus sulfur recovery unit, CO2 compressor.
 
+**Reference plants:**
+- Great Plains Synfuels Plant (Dakota Gasification), Beulah, North Dakota, US: about 2 Mt/yr CO2 from the Rectisol unit, about 95% pure, piped to Weyburn, Saskatchewan for EOR; 40 Mt captured cumulatively; operating. [source](https://dakotagas.com/News-Center/news-releases/carbon-capture-milestone-reached-at-dakota-gas)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Pre-combustion: physical absorption (coal with CCUS)' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); IEAGHG technical reports (private copy only) (catalog: iea-ghg, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA CCUS Projects Database (free registration) (catalog: iea-ccus-db, registration); Global CCS Institute CO2RE facilities database (catalog: global-ccs-co2re, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
-- maturity versus IEA TRL (trl): The card says commercial, but the IEA guide gives TRL 7-7 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses. Where: [IEA Clean Energy Technology Guide entry descriptions (collected)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) (catalog: iea-reports, open); IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants (catalog: iea-reports, open). Next: Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle.
 
-Sources: [1](https://netl.doe.gov/research/Coal/energy-systems/gasification/gasifipedia/agr). Last reviewed 2026-10-24.
+Sources: [1](https://netl.doe.gov/research/Coal/energy-systems/gasification/gasifipedia/agr), [2](https://dakotagas.com/News-Center/news-releases/carbon-capture-milestone-reached-at-dakota-gas). Last reviewed 2026-10-24.
 
 ## Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)
 <a id="ccs-allam-cycle"></a>
@@ -185,15 +188,16 @@ flowchart LR
 
 **Reference plants:**
 - La Porte demonstration, US: 50 MWth (25 MWe); first fire 30 May 2018. [source](https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/)
+- Project Permian (NET Power), west Texas, US: initial phase now targets 80 MW, using Siemens A35 gas turbines with Entropy post-combustion capture rather than an Allam-Fetvedt cycle plant; FID expected second half 2026, commercial operation targeted early 2029 (as of March 2026). [source](https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update)
 
 TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf)
 
 **Missing inputs:**
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); IEAGHG technical reports (private copy only) (catalog: iea-ghg, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
-- commercial project status after 2019 (NET Power) (status): Latest status was not checked. Where: NET Power investor news and SEC filings (open). Next: Check the current status of the first utility-scale plant and update reference_plants.
+- whether any utility-scale Allam-Fetvedt cycle plant is still planned (status): NET Power's March 2026 update describes its first commercial project as gas turbines with post-combustion capture; it does not say when or whether an Allam-cycle plant follows. Where: [NET Power 10-K for FY2025 and later quarterly reports (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1845437/000184543726000009/npwr-20251231.htm) (open). Next: Read the 10-K technology section and record NET Power's stated plan for the Allam-Fetvedt cycle; revisit the card's maturity if no plant is planned.
 
-Sources: [1](https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/), [2](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-10-24.
+Sources: [1](https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/), [2](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [3](https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update). Last reviewed 2026-10-24.
 
 ## Direct air capture with liquid solvent (KOH and calcium loop)
 <a id="ccs-dac-liquid-solvent"></a>
@@ -226,14 +230,14 @@ flowchart LR
 
 **Reference plants:**
 - Squamish pilot, CA: about 0.6 t/day (contactor and pellet reactor loop); operating since 2015 (per 2018 paper). [source](https://www.jefftk.com/keith2018.pdf)
-- Stratos, Ector County, Texas, US: up to 500,000 t/yr; operations expected mid-2025 (as of July 2023). [source](https://ogj.com/energy-transition/article/14296692/1pointfive-signs-oxygen-supply-contract-for-dac-plant)
+- Stratos, Ector County, Texas, US: up to 500,000 t/yr; start of operations moved to end of 2026 (originally end of 2024); construction began May 2023. [source](https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/)
 
 TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf)
 
 **Missing inputs:**
-- Stratos operating status after mid-2025 (status): Latest status was not checked. Where: Occidental / 1PointFive news releases (open). Next: Check start-up and capture rate; update reference_plants.
+- Stratos start-up and first-year capture (status): Due to start at the end of 2026; re-check after that date. Where: Occidental and 1PointFive news releases and quarterly results (open). Next: After January 2027, record start-up date and any reported tonnes captured.
 
-Sources: [1](https://www.jefftk.com/keith2018.pdf), [2](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [3](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-10-24.
+Sources: [1](https://www.jefftk.com/keith2018.pdf), [2](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [3](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [4](https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/). Last reviewed 2026-10-24.
 
 ## Direct air capture with solid sorbent
 <a id="ccs-dac-solid-sorbent"></a>
@@ -255,6 +259,9 @@ flowchart LR
 
 **Key equipment:** collector modules, fans, sorbent, heat supply, vacuum and condensing system, CO2 compressor.
 
+**Performance:**
+- CO2 captured at Mammoth, first half of 2026: 675 t CO2; against nameplate of up to 36,000 t/yr; almost six times a year earlier after design upgrades and new filter material; Climeworks says operating cost per tonne fell by more than half (not disclosed). [source](https://www.energyconnects.com/news/renewables/2026/september/carbon-removal-pioneer-climeworks-increases-co2-capture-sixfold/)
+
 **Reference plants:**
 - Mammoth, Iceland, IS: up to 36,000 t/yr nameplate; geothermal energy; storage by Carbfix; first CO2 captured, May 2024. [source](https://www.esgtoday.com/climeworks-starts-up-largest-ever-dac-carbon-removal-plant)
 
@@ -262,10 +269,8 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 
 **Missing inputs:**
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); IEAGHG technical reports (private copy only) (catalog: iea-ghg, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
-- actual Mammoth capture rates versus nameplate (status): Only nameplate capacity was found. Where: Climeworks news and annual reports (open). Next: Record actual delivered tonnes with year and source.
 
-Sources: [1](https://climeworks.com/highly-scalable-direct-air-capture), [2](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [3](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-10-24.
+Sources: [1](https://climeworks.com/highly-scalable-direct-air-capture), [2](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [3](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [4](https://www.energyconnects.com/news/renewables/2026/september/carbon-removal-pioneer-climeworks-increases-co2-capture-sixfold/). Last reviewed 2026-10-24.
 
 ## Oxyfuel combustion in cement kilns
 <a id="ccs-oxyfuel-cement"></a>
@@ -286,6 +291,7 @@ flowchart LR
 **Key equipment:** air separation unit, flue gas recirculation fan, modified burners and seals, CO2 purification unit, CO2 compressor.
 
 **Reference plants:**
+- catch4climate pure oxyfuel plant (CI4C), Mergelstetten cement plant, DE: 450 t/day clinker; designed by thyssenkrupp Polysius; over EUR 120 million, no public funding; inaugurated 8 July 2026; first clinker end of May 2026, first oxygen mid-June 2026. [source](https://www.vicat.com/sites/default/files/2026-07/Press%20Release%20CI4C%20Inauguration%20Event_EN.pdf)
 - Colleferro (IT) and Retznei (AT) industrial-scale test conversions: industrial scale; test phase about EUR 80 million; planned as of March 2018. [source](https://www.heidelbergmaterials.com/en/ecra-oxyfuel)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Oxy-fuelling and carbon capture' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
@@ -293,9 +299,9 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 **Missing inputs:**
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); IEAGHG technical reports (private copy only) (catalog: iea-ghg, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
-- project status after 2018 (status): Latest status was not checked. Where: ECRA and Heidelberg Materials news on oxyfuel cement pilots (open). Next: Check current status and update reference_plants.
+- status of the Colleferro and Retznei test conversions planned in 2018 (status): No later source on these two plants was read. Where: ECRA and Heidelberg Materials news (open). Next: Check whether the conversions went ahead; update or remove that reference plant.
 
-Sources: [1](https://www.heidelbergmaterials.com/en/ecra-oxyfuel). Last reviewed 2026-10-24.
+Sources: [1](https://www.heidelbergmaterials.com/en/ecra-oxyfuel), [2](https://www.vicat.com/sites/default/files/2026-07/Press%20Release%20CI4C%20Inauguration%20Event_EN.pdf). Last reviewed 2026-10-24.
 
 ## Solid sorbent capture by rapid temperature swing
 <a id="ccs-solid-sorbent-tsa"></a>

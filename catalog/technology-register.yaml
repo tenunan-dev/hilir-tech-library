@@ -239,7 +239,7 @@ PWR:
 H2:
   Hydrogen production:
     - Steam methane reforming | C | Topsoe, Air Liquide, Technip Energies, Linde
-    - Autothermal reforming with CO2 capture (blue hydrogen) | C | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products
+    - Autothermal reforming with CO2 capture (blue hydrogen) | P | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products
     - Gas-heated reforming | C | Johnson Matthey (Honeywell)
     - Biogas reforming to hydrogen | C | Various
     - Partial oxidation and gasification | C | Air Products (Shell gasification), Air Liquide

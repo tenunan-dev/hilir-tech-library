@@ -151,6 +151,11 @@
       "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
       "source_id": "netl",
       "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+    },
+    {
+      "url": "https://www.ogj.com/energy-transition/article/14281919/exxonmobil-gets-blm-approval-for-wyoming-ccs-project",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, 29 August 2022"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -196,29 +201,20 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
+    }
+  ],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
-      "where": [
-        {
-          "hint": "IEA CCUS Projects Database (free registration)",
-          "source_id": "iea-ccus-db",
-          "access": "registration"
-        },
-        {
-          "hint": "Global CCS Institute CO2RE facilities database",
-          "source_id": "global-ccs-co2re",
-          "access": "open"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
+      "name": "ExxonMobil Shute Creek gas plant (LaBarge), Wyoming",
+      "country": "US",
+      "capacity": "6-7 Mt/yr CO2 captured from LaBarge gas (about 66% CO2); expansion of up to 1.2 Mt/yr",
+      "status": "operating; expansion FID February 2022, start-up estimated 2025",
+      "year": 2022,
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14281919/exxonmobil-gets-blm-approval-for-wyoming-ccs-project",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, 29 August 2022"
+      }
     }
   ]
 }

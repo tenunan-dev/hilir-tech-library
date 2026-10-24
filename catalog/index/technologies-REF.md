@@ -209,12 +209,15 @@ flowchart LR
 - coker heater outlet temperature: 480-590 °C; EPA AP-42 description. [source](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf)
 - coke drum cycle: 28-36 h; EPA AP-42 description, start of feed to start of next feed to the same drum. [source](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf)
 
+**Reference plants:**
+- Essar Oil (now Nayara Energy) Vadinar refinery delayed coker, Gujarat, IN: coker capacity not stated (described as one of the largest in the world); refinery expanded to 20 Mt/yr (405,000 b/d); Lummus technology and heater design; commissioned 2012. [source](https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/)
+
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+- Vadinar coker capacity (reference_plants): The article does not give the coker's own capacity. Where: Nayara Energy refinery configuration page; Lummus project references (open). Next: Add the coker capacity with source.
 
-Sources: [1](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf). Last reviewed 2026-10-24.
+Sources: [1](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf), [2](https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/). Last reviewed 2026-10-24.
 
 ## Fluid catalytic cracking and resid FCC
 <a id="ref-fcc"></a>
@@ -344,10 +347,13 @@ flowchart LR
 - isomerate RON, once-through: 83-84 RON; Axens, for 40:60 C5:C6 feed starting at RON about 70. [source](https://www.axens.net/markets/oil-refining/c5c6-isomerization)
 - isomerate RON, recycle with molecular sieves (Hexorb): 91-92 RON; Axens, at C5/C6 ratio 0.65; deisohexaniser recycle gives about 88. [source](https://www.axens.net/markets/oil-refining/c5c6-isomerization)
 
+**Reference plants:**
+- Jiangsu Xinhai Petrochemicals isomerisation unit, CN: isomerate RON above 88, up to 89.2, at 65-105% of design feed; started up 2019. [source](https://www.axens.net/markets/oil-refining/c5c6-isomerization)
+- Axens isomerisation licences: more than 95 C5/C6 licences in 25 years, over 20 once-through; per Axens page, read 2026-10-24. [source](https://www.axens.net/markets/oil-refining/c5c6-isomerization)
+
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.axens.net/markets/oil-refining/c5c6-isomerization). Last reviewed 2026-10-24.
 

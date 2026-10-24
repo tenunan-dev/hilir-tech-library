@@ -78,6 +78,18 @@
         "source_id": "hydrocarbon-processing",
         "note": "Hydrocarbon Processing news, 1 December 2011"
       }
+    },
+    {
+      "metric": "specific power consumption",
+      "low": 320.5,
+      "high": 364,
+      "unit": "kWh/t LNG",
+      "year": 2020,
+      "basis": "MFC configurations (Ghorbani et al. and Mehrpooya et al., cited); process simulation of integrated NGL/LNG plants (this study: Aspen Plus, 37 °C air, 25 °C seawater, 3.33 Mtpa); values from different studies on different bases, so compare with care",
+      "source": {
+        "url": "https://ogst.ifpenergiesnouvelles.fr/en/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html",
+        "note": "Sabbagh, Fanaei and Arjomand, Techno-economic evolution of an existing operational NGL plant with adding LNG production part, Oil & Gas Science and Technology 75:27 (2020), CC BY 4.0; comparison of own and cited simulation results"
+      }
     }
   ],
   "suppliers": [
@@ -114,6 +126,10 @@
       "url": "https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/",
       "source_id": "hydrocarbon-processing",
       "note": "Hydrocarbon Processing news, 1 December 2011"
+    },
+    {
+      "url": "https://ogst.ifpenergiesnouvelles.fr/en/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html",
+      "note": "Sabbagh, Fanaei and Arjomand, Techno-economic evolution of an existing operational NGL plant with adding LNG production part, Oil & Gas Science and Technology 75:27 (2020), CC BY 4.0; comparison of own and cited simulation results"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -157,35 +173,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "performance",
-      "item": "specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes",
-      "reason_code": "not_in_sources_read",
-      "reason": "NETL gives total fuel energy for a C3MR plant (2.78-3.35 MJ/kg) but no source collected gives compressor power by process.",
-      "where": [
-        {
-          "hint": "NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only",
-          "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
-          "source_id": "netl",
-          "access": "open"
-        },
-        {
-          "hint": "IEA gas and LNG reports",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox)",
-          "access": "blocked"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        }
-      ],
-      "action": "Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis."
     },
     {
       "field": "process",

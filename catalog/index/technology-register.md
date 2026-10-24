@@ -236,7 +236,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
 | Hydrogen production | Steam methane reforming | commercial | Topsoe, Air Liquide, Technip Energies, Linde | [card](technologies-H2.md#h2-smr) |
-| Hydrogen production | Autothermal reforming with CO2 capture (blue hydrogen) | commercial | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products | [card](technologies-H2.md#h2-atr-ccs) |
+| Hydrogen production | Autothermal reforming with CO2 capture (blue hydrogen) | pilot | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products | [card](technologies-H2.md#h2-atr-ccs) |
 | Hydrogen production | Gas-heated reforming | commercial | Johnson Matthey (Honeywell) |  |
 | Hydrogen production | Biogas reforming to hydrogen | commercial | Various |  |
 | Hydrogen production | Partial oxidation and gasification | commercial | Air Products (Shell gasification), Air Liquide |  |

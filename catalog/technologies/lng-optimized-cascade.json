@@ -238,8 +238,12 @@
       "field": "performance",
       "item": "specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes",
       "reason_code": "not_in_sources_read",
-      "reason": "NETL gives total fuel energy for a C3MR plant (2.78-3.35 MJ/kg) but no source collected gives compressor power by process.",
+      "reason": "An open 2020 comparison (OGST, CC BY 4.0) gives specific power for C3MR, DMR and MFC (about 320-391 kWh/t) but not for the cascade process.",
       "where": [
+        {
+          "hint": "ConocoPhillips Optimized Cascade technical papers (LNG conference proceedings)",
+          "access": "open"
+        },
         {
           "hint": "NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only",
           "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",

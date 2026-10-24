@@ -127,6 +127,11 @@
     {
       "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf",
       "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
+    },
+    {
+      "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/",
+      "source_id": "hydrocarbon-processing",
+      "note": "Hydrocarbon Processing, 7 September 2012"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -174,21 +179,30 @@
     },
     {
       "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
+      "item": "Vadinar coker capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
+      "reason": "The article does not give the coker's own capacity.",
       "where": [
         {
-          "hint": "Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news",
-          "source_id": "ogj",
-          "access": "paid"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
+          "hint": "Nayara Energy refinery configuration page; Lummus project references",
           "access": "open"
         }
       ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
+      "action": "Add the coker capacity with source."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Essar Oil (now Nayara Energy) Vadinar refinery delayed coker, Gujarat",
+      "country": "IN",
+      "capacity": "coker capacity not stated (described as one of the largest in the world); refinery expanded to 20 Mt/yr (405,000 b/d); Lummus technology and heater design",
+      "status": "commissioned 2012",
+      "year": 2012,
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing, 7 September 2012"
+      }
     }
   ]
 }

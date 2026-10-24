@@ -94,6 +94,32 @@
         "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
         "note": "HESC project page, The Suiso Frontier"
       }
+    },
+    {
+      "metric": "liquefaction energy, current industrial liquefiers",
+      "low": 10,
+      "high": 20,
+      "unit": "kWh/kg H2",
+      "year": 2019,
+      "basis": "DOE record 19001; theoretical minimum 2.88 kWh/kg (20 bar inlet)",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs, 9 September 2019"
+      }
+    },
+    {
+      "metric": "largest US liquefier capacity",
+      "low": 70,
+      "high": 70,
+      "unit": "t H2/day",
+      "year": 2019,
+      "basis": "DOE record 19001; smallest about 6 t/day",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs, 9 September 2019"
+      }
     }
   ],
   "suppliers": [
@@ -137,78 +163,32 @@
     {
       "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
       "note": "HESC project page, The Suiso Frontier"
+    },
+    {
+      "url": "https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs, 9 September 2019"
     }
   ],
   "last_reviewed": "2026-10-24",
   "gaps": [
     {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "DOE Hydrogen Program Records and H2A analyses",
-          "source_id": "doe-hfto",
-          "access": "open"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway",
-          "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "performance",
-      "item": "liquefaction energy (kWh/kg H2) and boil-off rate",
+      "item": "boil-off rate in storage and shipping",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives liquefaction energy.",
+      "reason": "DOE record 19001 counts boil-off as a cost but gives no rate.",
       "where": [
         {
-          "hint": "DOE Hydrogen Program Records on delivery and liquefaction",
+          "hint": "DOE Hydrogen Program Records on delivery (HDSAM)",
           "source_id": "doe-hfto",
           "access": "open"
         },
         {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): search 'liquefaction'",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        }
-      ],
-      "action": "Add liquefaction energy for today's plants and DOE targets, with source."
-    },
-    {
-      "field": "trl",
-      "item": "maturity versus IEA TRL",
-      "reason_code": "conflicting_sources",
-      "reason": "The card says commercial, but the IEA guide gives TRL 7-9 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses.",
-      "where": [
-        {
-          "hint": "IEA Clean Energy Technology Guide entry descriptions (collected)",
-          "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants",
-          "source_id": "iea-reports",
+          "hint": "HESC / Kawasaki publications on the Suiso Frontier voyage",
           "access": "open"
         }
       ],
-      "action": "Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle."
+      "action": "Add boil-off rate (% per day) for tanks and ships with source."
     }
   ],
   "trl": {
@@ -219,5 +199,34 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrogen liquefaction' 9; 'Liquefied hydrogen tanker' 7"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "levelized liquefaction cost, 27 t/day liquefier",
+      "low": 2.75,
+      "high": 2.75,
+      "unit": "USD/kg H2",
+      "year": 2016,
+      "basis": "DOE HDSAM model incl. electricity; capital share about USD 1.40/kg; the record also quotes USD 2.75/kg for a 2018$ California case, so the dollar year is uncertain",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs, 9 September 2019"
+      }
+    },
+    {
+      "metric": "liquefier capital cost, 27 t/day",
+      "low": 104,
+      "high": 104,
+      "unit": "million USD",
+      "year": 2018,
+      "basis": "DOE record 19001 Table 2; full facility with production and terminal USD 160 million",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs, 9 September 2019"
+      }
+    }
+  ],
+  "notes": "Maturity is commercial for liquefaction and storage (IEA TRL 9); liquid hydrogen shipping is TRL 7."
 }

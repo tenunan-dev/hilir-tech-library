@@ -167,24 +167,30 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Jiangsu Xinhai Petrochemicals isomerisation unit",
+      "country": "CN",
+      "capacity": "isomerate RON above 88, up to 89.2, at 65-105% of design feed",
+      "status": "started up 2019",
+      "year": 2019,
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+        "source_id": "axens",
+        "note": "Axens C5/C6 isomerization page"
+      }
     },
     {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
-      "where": [
-        {
-          "hint": "Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news",
-          "source_id": "ogj",
-          "access": "paid"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
+      "name": "Axens isomerisation licences",
+      "capacity": "more than 95 C5/C6 licences in 25 years, over 20 once-through",
+      "status": "per Axens page, read 2026-10-24",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+        "source_id": "axens",
+        "note": "Axens C5/C6 isomerization page"
+      }
     }
   ]
 }

@@ -109,6 +109,17 @@
         "url": "https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/",
         "note": "POWER magazine, 1 Apr 2019"
       }
+    },
+    {
+      "name": "Project Permian (NET Power), west Texas",
+      "country": "US",
+      "capacity": "initial phase now targets 80 MW, using Siemens A35 gas turbines with Entropy post-combustion capture rather than an Allam-Fetvedt cycle plant",
+      "status": "FID expected second half 2026, commercial operation targeted early 2029 (as of March 2026)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update",
+        "note": "NET Power Q4 and full-year 2025 results, 9 March 2026"
+      }
     }
   ],
   "advantages": [
@@ -127,6 +138,10 @@
       "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
       "source_id": "sintef",
       "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update",
+      "note": "NET Power Q4 and full-year 2025 results, 9 March 2026"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -180,16 +195,17 @@
     },
     {
       "field": "status",
-      "item": "commercial project status after 2019 (NET Power)",
-      "reason_code": "status_unchecked",
-      "reason": "Latest status was not checked.",
+      "item": "whether any utility-scale Allam-Fetvedt cycle plant is still planned",
+      "reason_code": "not_in_sources_read",
+      "reason": "NET Power's March 2026 update describes its first commercial project as gas turbines with post-combustion capture; it does not say when or whether an Allam-cycle plant follows.",
       "where": [
         {
-          "hint": "NET Power investor news and SEC filings",
+          "hint": "NET Power 10-K for FY2025 and later quarterly reports (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1845437/000184543726000009/npwr-20251231.htm",
           "access": "open"
         }
       ],
-      "action": "Check the current status of the first utility-scale plant and update reference_plants."
+      "action": "Read the 10-K technology section and record NET Power's stated plan for the Allam-Fetvedt cycle; revisit the card's maturity if no plant is planned."
     }
   ]
 }

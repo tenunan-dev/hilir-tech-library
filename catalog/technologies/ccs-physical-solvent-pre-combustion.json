@@ -111,6 +111,10 @@
       "url": "https://netl.doe.gov/research/Coal/energy-systems/gasification/gasifipedia/agr",
       "source_id": "netl",
       "note": "NETL Gasifipedia, acid gas removal"
+    },
+    {
+      "url": "https://dakotagas.com/News-Center/news-releases/carbon-capture-milestone-reached-at-dakota-gas",
+      "note": "Dakota Gasification Company news release (40 Mt milestone; year not stated on page)"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -161,49 +165,6 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
-      "where": [
-        {
-          "hint": "IEA CCUS Projects Database (free registration)",
-          "source_id": "iea-ccus-db",
-          "access": "registration"
-        },
-        {
-          "hint": "Global CCS Institute CO2RE facilities database",
-          "source_id": "global-ccs-co2re",
-          "access": "open"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
-    },
-    {
-      "field": "trl",
-      "item": "maturity versus IEA TRL",
-      "reason_code": "conflicting_sources",
-      "reason": "The card says commercial, but the IEA guide gives TRL 7-7 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses.",
-      "where": [
-        {
-          "hint": "IEA Clean Energy Technology Guide entry descriptions (collected)",
-          "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle."
     }
   ],
   "trl": {
@@ -214,5 +175,18 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Pre-combustion: physical absorption (coal with CCUS)' 7"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "Great Plains Synfuels Plant (Dakota Gasification), Beulah, North Dakota",
+      "country": "US",
+      "capacity": "about 2 Mt/yr CO2 from the Rectisol unit, about 95% pure, piped to Weyburn, Saskatchewan for EOR; 40 Mt captured cumulatively",
+      "status": "operating",
+      "source": {
+        "url": "https://dakotagas.com/News-Center/news-releases/carbon-capture-milestone-reached-at-dakota-gas",
+        "note": "Dakota Gasification Company news release (40 Mt milestone; year not stated on page)"
+      }
+    }
+  ],
+  "notes": "Maturity is commercial: capture from gasification syngas with physical solvents has operated at scale (Great Plains Synfuels, about 2 Mt/yr). The IEA's TRL 7 is for coal power with pre-combustion capture."
 }

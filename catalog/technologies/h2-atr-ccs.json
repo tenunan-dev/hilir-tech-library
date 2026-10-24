@@ -15,7 +15,7 @@
     "blue ammonia",
     "hydrogen for power and industry hubs"
   ],
-  "maturity": "commercial",
+  "maturity": "pilot",
   "principle": "Natural gas is partly combusted with oxygen from an air separation unit inside the reformer, which supplies the heat for steam reforming in the same vessel. Because there is no large fired furnace, almost all CO2 ends up in the high-pressure shifted syngas, where a solvent unit removes it at high capture rates. A small fired heater remains for preheating.",
   "process_steps": [
     {
@@ -187,6 +187,10 @@
       "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
       "source_id": "netl",
       "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+    },
+    {
+      "url": "https://www.wfmz.com/news/area/lehighvalley/air-products-scraps-plans-for-massive-clean-energy-complex/article_3d8eac87-46cf-4b46-a0fe-cbaad5d21d7f.html",
+      "note": "WFMZ, Air Products ends Louisiana clean energy complex (fiscal 2026 Q3 charge)"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -210,24 +214,23 @@
       "action": "Add one to three reference plants with country, capacity, status and source."
     },
     {
-      "field": "trl",
-      "item": "maturity versus IEA TRL",
-      "reason_code": "conflicting_sources",
-      "reason": "The card says commercial, but the IEA guide gives TRL 5-5 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses.",
+      "field": "reference_plants",
+      "item": "an operating or committed ATR blue-hydrogen plant with CO2 storage",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read names one; the card's figures come from NETL's design study.",
       "where": [
         {
-          "hint": "IEA Clean Energy Technology Guide entry descriptions (collected)",
-          "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-          "source_id": "iea-reports",
-          "access": "open"
+          "hint": "IEA Hydrogen Production and Infrastructure Projects Database: filter ATR + CCUS",
+          "source_id": "iea-hydrogen-db",
+          "access": "registration"
         },
         {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants",
+          "hint": "IEA Global Hydrogen Review 2025 (collected): low-emissions projects at FID",
           "source_id": "iea-reports",
           "access": "open"
         }
       ],
-      "action": "Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle."
+      "action": "Add one or two ATR+CCS projects at FID or in operation, with technology licensor named in the source."
     }
   ],
   "trl": {
@@ -238,5 +241,6 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Autothermal reforming - single reformer' 5; 'Autothermal reforming - gas heated reformer' 5"
     }
-  }
+  },
+  "notes": "Maturity set to pilot to match the IEA guide (TRL 5 for CCUS-enabled ATR, single or gas-heated reformer). ATR reactors themselves are commercial in syngas and methanol plants; no source read shows an operating ATR blue-hydrogen plant with CO2 storage. Air Products ended its 750 MMscf/d Louisiana blue hydrogen complex in 2026 (technology not stated in the source read)."
 }

@@ -5,8 +5,7 @@
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Alkaline water electrolysis](#h2-alkaline-electrolysis) | Hydrogen production / electrolysis | commercial | 9 | Thyssenkrupp nucera (20 MW alkaline water electrolysis module); John Cockerill; LONGi Hydrogen; PERIC; Nel Hydrogen; HydrogenPro | uninstalled system capital cost (status): 500-750 USD/kW (2020$)<br>water electrolysis capex, global average (2024): 2000-2600 USD/kWe (2024$)<br>water electrolysis capex, China (2024): 600-1200 USD/kWe (2024$) |
-| [Autothermal reforming with CO2 capture (blue hydrogen)](#h2-atr-ccs) | Hydrogen production / reforming with capture | commercial | 5 | Topsoe (SynCOR); Johnson Matthey (Honeywell) (LCH); Air Products | levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$)<br>total plant cost, ATR with 94.5% capture: 1092 USD per kg H2/day capacity (2018$) |
-| [Liquid hydrogen](#h2-liquid-hydrogen) | Hydrogen carrier / liquefaction | commercial | 7-9 | Linde Engineering; Air Products; Kawasaki Heavy Industries (LH2 carrier and terminal) |  |
+| [Liquid hydrogen](#h2-liquid-hydrogen) | Hydrogen carrier / liquefaction | commercial | 7-9 | Linde Engineering; Air Products; Kawasaki Heavy Industries (LH2 carrier and terminal) | levelized liquefaction cost, 27 t/day liquefier: 2.75 USD/kg H2 (2016$)<br>liquefier capital cost, 27 t/day: 104 million USD (2018$) |
 | [PEM electrolysis](#h2-pem-electrolysis) | Hydrogen production / electrolysis | commercial | 9 | Siemens Energy (Silyzer); ITM Power; Plug Power; Cummins (Accelera); Nel Hydrogen | PEM stack capital cost (status; DOE ultimate target 100): 350 USD/kW (2023$)<br>uninstalled system capital cost (status): 700-1100 USD/kW (2020$)<br>levelized cost of hydrogen, hybrid wind-PV power: 4.4-6 USD/kg H2 (2022$)<br>levelized cost of hydrogen, average US grid power: 6.8-8.2 USD/kg H2 (2022$)<br>water electrolysis capex, global average (2024): 2000-2600 USD/kWe (2024$)<br>water electrolysis capex, China (2024): 600-1200 USD/kWe (2024$) |
 | [Steam methane reforming](#h2-smr) | Hydrogen production / reforming | commercial | 6-9 | Topsoe; Air Liquide; Technip Energies; Linde Engineering; Air Products | levelized cost of hydrogen, SMR without capture: 1.06 USD/kg H2 (2018$)<br>levelized cost of hydrogen, SMR with 96.2% CO2 capture: 1.54-1.64 USD/kg H2 (2018$)<br>total plant cost, SMR without capture: 554 USD per kg H2/day capacity (2018$)<br>reforming capex, without and with CCUS: 720-1420 USD/kW H2 (2024$) |
 | [Ammonia as hydrogen carrier and ammonia cracking](#h2-ammonia-cracking) | Hydrogen carrier / reconversion | demonstration | 4-7 | KBR (H2ACT); Topsoe; Johnson Matthey (Honeywell); Air Products |  |
@@ -16,6 +15,7 @@
 | [Methane pyrolysis (turquoise hydrogen)](#h2-methane-pyrolysis) | Hydrogen production / pyrolysis | demonstration | 4-8 | Monolith (plasma methane pyrolysis); BASF (methane pyrolysis pilot); Hazer Group |  |
 | [Solid oxide electrolysis](#h2-soec) | Hydrogen production / electrolysis | demonstration | 8 | Topsoe (SOEC electrolyser (Herning factory, 500 MW/yr initial)); Bloom Energy; Sunfire | uninstalled system capital cost (status): 2000-2500 USD/kW (2020$) |
 | [AEM electrolysis](#h2-aem-electrolysis) | Hydrogen production / electrolysis | pilot | 7 | Enapter (AEM Nexus 1000 and smaller modules) |  |
+| [Autothermal reforming with CO2 capture (blue hydrogen)](#h2-atr-ccs) | Hydrogen production / reforming with capture | pilot | 5 | Topsoe (SynCOR); Johnson Matthey (Honeywell) (LCH); Air Products | levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$)<br>total plant cost, ATR with 94.5% capture: 1092 USD per kg H2/day capacity (2018$) |
 
 ## Alkaline water electrolysis
 <a id="h2-alkaline-electrolysis"></a>
@@ -65,46 +65,6 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom), [3](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [4](https://www.aap.com.au/aapreleases/cision20230703ae48443), [5](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html), [6](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/), [7](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [8](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
 
-## Autothermal reforming with CO2 capture (blue hydrogen)
-<a id="h2-atr-ccs"></a>
-
-Natural gas is partly combusted with oxygen from an air separation unit inside the reformer, which supplies the heat for steam reforming in the same vessel. Because there is no large fired furnace, almost all CO2 ends up in the high-pressure shifted syngas, where a solvent unit removes it at high capture rates. A small fired heater remains for preheating.
-
-```mermaid
-flowchart LR
-    ASU["Oxygen supply<br/><small>air separation unit</small>"]
-    FEED["Feed preheat and desulfurisation<br/><small>fired heater, hydrodesulfurisation and ZnO beds, pre-reformer</small>"]
-    ATR["Autothermal reforming<br/><small>refractory-lined ATR reactor with burner and catalyst bed, waste heat boiler</small>"]
-    WGS["Water-gas shift<br/><small>shift reactors, process gas coolers</small>"]
-    AGR["CO2 removal<br/><small>MDEA absorber and stripper</small>"]
-    PSA["Hydrogen purification<br/><small>pressure swing adsorption unit</small>"]
-    CO2["CO2 compression and drying<br/><small>CO2 compressor, dehydration unit</small>"]
-    ASU --> ATR
-    FEED --> ATR
-    ATR --> WGS
-    WGS --> AGR
-    AGR -->|hydrogen-rich gas| PSA
-    AGR -->|CO2| CO2
-```
-
-**Key equipment:** air separation unit, ATR reactor, fired heater, shift reactors, MDEA CO2 removal, PSA unit, CO2 compressor.
-
-**Performance:**
-- CO2 capture rate (NETL reference case): 94.5 %; NETL ATR case. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
-- plant hydrogen output (NETL reference case): 660000 kg H2/day; NETL ATR case design capacity. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
-
-**Costs:**
-- levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$); NETL 2022; natural gas USD 4.42/MMBtu, 90% capacity factor, CO2 transport and storage at USD 10/t where included; low excludes and high includes CO2 transport and storage. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
-- total plant cost, ATR with 94.5% capture: 1092 USD per kg H2/day capacity (2018$); NETL. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
-
-TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Autothermal reforming - single reformer' 5; 'Autothermal reforming - gas heated reformer' 5](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-**Missing inputs:**
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
-- maturity versus IEA TRL (trl): The card says commercial, but the IEA guide gives TRL 5-5 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses. Where: [IEA Clean Energy Technology Guide entry descriptions (collected)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) (catalog: iea-reports, open); IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants (catalog: iea-reports, open). Next: Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle.
-
-Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf). Last reviewed 2026-10-24.
-
 ## Liquid hydrogen
 <a id="h2-liquid-hydrogen"></a>
 
@@ -130,6 +90,12 @@ flowchart LR
 **Performance:**
 - storage temperature: -253 °C; Suiso Frontier cargo tank. [source](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/)
 - carrier cargo tank volume (Suiso Frontier): 1250 m3; Kawasaki Heavy Industries, 116 m ship, completed 2020. [source](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/)
+- liquefaction energy, current industrial liquefiers: 10-20 kWh/kg H2; DOE record 19001; theoretical minimum 2.88 kWh/kg (20 bar inlet). [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
+- largest US liquefier capacity: 70 t H2/day; DOE record 19001; smallest about 6 t/day. [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
+
+**Costs:**
+- levelized liquefaction cost, 27 t/day liquefier: 2.75 USD/kg H2 (2016$); DOE HDSAM model incl. electricity; capital share about USD 1.40/kg; the record also quotes USD 2.75/kg for a 2018$ California case, so the dollar year is uncertain. [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
+- liquefier capital cost, 27 t/day: 104 million USD (2018$); DOE record 19001 Table 2; full facility with production and terminal USD 160 million. [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
 
 **Reference plants:**
 - Hydrogen Energy Supply Chain (HESC), Suiso Frontier, AU: 1,250 m3 LH2 tank, loaded at Port of Hastings for Kobe; ship completed 2020; pilot voyage Australia to Japan. [source](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/)
@@ -137,11 +103,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrogen liquefaction' 9; 'Liquefied hydrogen tanker' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- liquefaction energy (kWh/kg H2) and boil-off rate (performance): No open source read so far gives liquefaction energy. Where: DOE Hydrogen Program Records on delivery and liquefaction (catalog: doe-hfto, open); IEA Global Hydrogen Review 2025 (collected): search 'liquefaction' (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add liquefaction energy for today's plants and DOE targets, with source.
-- maturity versus IEA TRL (trl): The card says commercial, but the IEA guide gives TRL 7-9 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses. Where: [IEA Clean Energy Technology Guide entry descriptions (collected)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) (catalog: iea-reports, open); IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants (catalog: iea-reports, open). Next: Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle.
+- boil-off rate in storage and shipping (performance): DOE record 19001 counts boil-off as a cost but gives no rate. Where: DOE Hydrogen Program Records on delivery (HDSAM) (catalog: doe-hfto, open); HESC / Kawasaki publications on the Suiso Frontier voyage (open). Next: Add boil-off rate (% per day) for tanks and ships with source.
 
-Sources: [1](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/). Last reviewed 2026-10-24.
+Sources: [1](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/), [2](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf). Last reviewed 2026-10-24.
 
 ## PEM electrolysis
 <a id="h2-pem-electrolysis"></a>
@@ -232,9 +196,6 @@ flowchart LR
 - Air Products Port Arthur SMR CO2 capture (Valero refinery site), US: about 1 Mt/yr CO2 captured by vacuum swing adsorption from SMR process gas, used for enhanced oil recovery; capture began 2013 (first SMR; second planned months later). [source](https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Steam reforming - partial capture' 9; 'Steam reforming - high capture rates' 6](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-**Missing inputs:**
-- maturity versus IEA TRL (trl): The card says commercial, but the IEA guide gives TRL 6-9 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses. Where: [IEA Clean Energy Technology Guide entry descriptions (collected)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) (catalog: iea-reports, open); IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants (catalog: iea-reports, open). Next: Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle.
 
 Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [2](https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon), [3](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
 
@@ -476,3 +437,43 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 - named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf). Last reviewed 2026-10-24.
+
+## Autothermal reforming with CO2 capture (blue hydrogen)
+<a id="h2-atr-ccs"></a>
+
+Natural gas is partly combusted with oxygen from an air separation unit inside the reformer, which supplies the heat for steam reforming in the same vessel. Because there is no large fired furnace, almost all CO2 ends up in the high-pressure shifted syngas, where a solvent unit removes it at high capture rates. A small fired heater remains for preheating.
+
+```mermaid
+flowchart LR
+    ASU["Oxygen supply<br/><small>air separation unit</small>"]
+    FEED["Feed preheat and desulfurisation<br/><small>fired heater, hydrodesulfurisation and ZnO beds, pre-reformer</small>"]
+    ATR["Autothermal reforming<br/><small>refractory-lined ATR reactor with burner and catalyst bed, waste heat boiler</small>"]
+    WGS["Water-gas shift<br/><small>shift reactors, process gas coolers</small>"]
+    AGR["CO2 removal<br/><small>MDEA absorber and stripper</small>"]
+    PSA["Hydrogen purification<br/><small>pressure swing adsorption unit</small>"]
+    CO2["CO2 compression and drying<br/><small>CO2 compressor, dehydration unit</small>"]
+    ASU --> ATR
+    FEED --> ATR
+    ATR --> WGS
+    WGS --> AGR
+    AGR -->|hydrogen-rich gas| PSA
+    AGR -->|CO2| CO2
+```
+
+**Key equipment:** air separation unit, ATR reactor, fired heater, shift reactors, MDEA CO2 removal, PSA unit, CO2 compressor.
+
+**Performance:**
+- CO2 capture rate (NETL reference case): 94.5 %; NETL ATR case. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
+- plant hydrogen output (NETL reference case): 660000 kg H2/day; NETL ATR case design capacity. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
+
+**Costs:**
+- levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$); NETL 2022; natural gas USD 4.42/MMBtu, 90% capacity factor, CO2 transport and storage at USD 10/t where included; low excludes and high includes CO2 transport and storage. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
+- total plant cost, ATR with 94.5% capture: 1092 USD per kg H2/day capacity (2018$); NETL. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Autothermal reforming - single reformer' 5; 'Autothermal reforming - gas heated reformer' 5](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+- an operating or committed ATR blue-hydrogen plant with CO2 storage (reference_plants): No source read names one; the card's figures come from NETL's design study. Where: IEA Hydrogen Production and Infrastructure Projects Database: filter ATR + CCUS (catalog: iea-hydrogen-db, registration); IEA Global Hydrogen Review 2025 (collected): low-emissions projects at FID (catalog: iea-reports, open). Next: Add one or two ATR+CCS projects at FID or in operation, with technology licensor named in the source.
+
+Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [2](https://www.wfmz.com/news/area/lehighvalley/air-products-scraps-plans-for-massive-clean-energy-complex/article_3d8eac87-46cf-4b46-a0fe-cbaad5d21d7f.html). Last reviewed 2026-10-24.
