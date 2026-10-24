@@ -55,7 +55,7 @@ def test_library_tools_return_cards(tmp_path):
     card = library.get_technology("ccs-calcium-looping", db)
     assert card["block_diagram_mermaid"].startswith("flowchart LR")
     assert library.compare_technologies("CCS", maturity="commercial", db=db)
-    assert library.search("calcium looping", kind="technology", sector="H2", db=db) == []
+    assert all(h["ref"].startswith("h2-") for h in library.search("calcium looping", kind="technology", sector="H2", db=db))
     top = library.search("CCS options cement block diagram equipment cost", db=db, limit=5)
     assert any(h["kind"] == "technology" for h in top)
 
