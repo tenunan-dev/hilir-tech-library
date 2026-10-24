@@ -5,7 +5,8 @@
     python agent/server.py                      # stdio, for agents on this machine
     LIBRARY_API_KEY=... python agent/server.py --http --port 8000
                                                 # streamable HTTP at /mcp, for hosted agents
-                                                # (Copilot Studio, claude.ai connectors, others)
+                                                # (Copilot Studio, claude.ai connectors, others),
+                                                # plus a REST API under /api (see agent/api.py)
 
 HTTP mode requires an API key (header x-api-key, or Authorization: Bearer <key>) and by
 default does not serve text from full-text-restricted sources, because people other than the
@@ -22,6 +23,7 @@ import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import api  # noqa: E402
 import embed  # noqa: E402
 import library  # noqa: E402
 
@@ -133,7 +135,7 @@ class RequireApiKey:
         self.app, self.key = app, key.encode()
 
     async def __call__(self, scope, receive, send):
-        if scope["type"] == "http":
+        if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS:
             headers = dict(scope["headers"])
             given = headers.get(b"x-api-key") or headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
             if not hmac.compare_digest(given, self.key):
@@ -154,6 +156,7 @@ def http_app(key):
         server.settings.stateless_http = True
         server.settings.json_response = True
         app = server.streamable_http_app()
+    app.router.routes.extend(api.routes(sys.modules[__name__]))  # REST API for agents without MCP
     return RequireApiKey(app, key)
 
 

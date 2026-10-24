@@ -46,6 +46,29 @@ npx wrangler tail                # live logs
 Connect a client: URL `https://techlibrary.tenunan.com/mcp`, header `x-api-key: <key>`. For example, Claude Code:
 `claude mcp add --transport http og-tech-library-remote https://techlibrary.tenunan.com/mcp --header "x-api-key: <key>"`.
 
+### REST API (for agents without MCP)
+
+The same server answers plain HTTPS GET requests under `/api`, with the same `x-api-key` header and
+the same licence filtering as the MCP tools (`agent/api.py`). The OpenAPI 3.1 schema is public at
+`https://techlibrary.tenunan.com/api/openapi.json` (it holds no data), so tools can import it.
+
+| Endpoint | Returns |
+| --- | --- |
+| `GET /api/search?q=...&kind=&sector=&discipline=&region=&reuse_level=&limit=` | Ranked sources, passages and technology cards |
+| `GET /api/sources?code=&region=&reuse_level=&source_type=` | Catalog sources, Asia Pacific first |
+| `GET /api/sources/{source_id}` | One record with its documents |
+| `GET /api/documents?path=...` | One document's front matter and text |
+| `GET /api/technologies?sector=&maturity=&application=` | Comparison table of options |
+| `GET /api/technologies/{technology_id}` | One technology card |
+| `GET /api/register?code=&maturity=&q=` | The ~300-technology register |
+| `GET /api/gaps?sector=&field=&reason_code=&include_no_card=` | Missing inputs and where to get them |
+| `GET /api/stats` | Counts |
+
+Examples:
+- curl: `curl -H "x-api-key: $KEY" "https://techlibrary.tenunan.com/api/search?q=LNG%20liquefaction&limit=5"`
+- ChatGPT custom GPT: Configure > Actions > Import from URL `https://techlibrary.tenunan.com/api/openapi.json`; Authentication: API key, Custom header `x-api-key`.
+- LangChain, n8n, Make, Zapier or any HTTP tool: GET requests with the `x-api-key` header.
+
 ## Deploy to Azure Container Apps (alternative, not used: no Azure subscription) (recommended for Copilot Studio)
 
 Same cloud as Copilot Studio, scales to zero when idle (pay only for use), HTTPS by default. Uses the `Dockerfile` in the repo root. Needs the Azure CLI (`az login`) and an Azure subscription.

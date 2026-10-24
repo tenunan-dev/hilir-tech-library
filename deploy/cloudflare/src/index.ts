@@ -16,7 +16,7 @@ export class Library extends Container<Env> {
 
   constructor(ctx: DurableObjectState<{}>, env: Env) {
     super(ctx, env);
-    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY };
+    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: "https://techlibrary.tenunan.com" };
   }
 }
 
@@ -32,7 +32,11 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/" || url.pathname === "/health") {
-      return Response.json({ service: "og-tech-sources MCP server", endpoint: "/mcp", auth: "x-api-key header" });
+      return Response.json({ service: "og-tech-sources library", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json", auth: "x-api-key header" });
+    }
+    if (url.pathname === "/api/openapi.json") {
+      // The schema holds no data; tools such as ChatGPT Actions import it before they have a key.
+      return getContainer(env.LIBRARY, "main").fetch(request);
     }
     const given = request.headers.get("x-api-key") ??
       (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
