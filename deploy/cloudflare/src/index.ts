@@ -1,12 +1,21 @@
-// Cloudflare Worker in front of the library's MCP server, which runs as a Cloudflare Container
-// built from the repo's Dockerfile (catalog plus open-licence documents only).
-// The Worker checks the API key at the edge so unauthenticated requests never wake the container;
-// the server inside checks it again.
+// Cloudflare Worker in front of the library's server, which runs as a Cloudflare Container built
+// from the repo's Dockerfile (catalog plus open-licence documents only).
+//
+// Two ways in:
+// - API key (x-api-key header, or Authorization: Bearer <key>) for /mcp and the REST API under /api.
+//   The Worker checks it at the edge so unauthenticated requests never wake the container.
+// - OAuth for /mcp, for clients that only connect by URL with a sign-in (claude.ai custom connectors).
+//   The sign-in page asks for the same API key, so only the owner can grant access.
 import { Container, getContainer } from "@cloudflare/containers";
+import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@cloudflare/workers-oauth-provider";
+
+const ORIGIN = "https://techlibrary.tenunan.com";
 
 interface Env {
   LIBRARY: DurableObjectNamespace<Library>;
   LIBRARY_API_KEY: string; // set with: wrangler secret put LIBRARY_API_KEY
+  OAUTH_KV: KVNamespace;
+  OAUTH_PROVIDER: OAuthHelpers;
 }
 
 export class Library extends Container<Env> {
@@ -16,7 +25,7 @@ export class Library extends Container<Env> {
 
   constructor(ctx: DurableObjectState<{}>, env: Env) {
     super(ctx, env);
-    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: "https://techlibrary.tenunan.com" };
+    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: ORIGIN };
   }
 }
 
@@ -28,22 +37,106 @@ function sameKey(a: string, b: string): boolean {
   return diff === 0;
 }
 
-export default {
+function keyOk(env: Env, given: string | null): boolean {
+  return !!given && !!env.LIBRARY_API_KEY && env.LIBRARY_API_KEY.length >= 24 && sameKey(given, env.LIBRARY_API_KEY);
+}
+
+// Forward to the container with the library key; the client's own credentials are not passed on.
+function toContainer(request: Request, env: Env): Promise<Response> {
+  const headers = new Headers(request.headers);
+  headers.delete("authorization");
+  headers.set("x-api-key", env.LIBRARY_API_KEY);
+  return getContainer(env.LIBRARY, "main").fetch(new Request(request, { headers }));
+}
+
+const escape = (value: string) => value.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+
+function consentPage(d: ConsentDescription, handle: string, error = ""): string {
+  const origin = d.clientDomain
+    ? `Published by <strong>${escape(d.clientDomain)}</strong>.`
+    : "This app registered itself; its name is not verified.";
+  return `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Connect ${escape(d.clientName)} to the O&amp;G technology library</title>
+<style>body{font:16px system-ui,sans-serif;max-width:32rem;margin:3rem auto;padding:0 1rem}input[type=password]{width:100%;padding:.5rem;font:inherit}button{padding:.5rem 1rem;font:inherit;margin-right:.5rem}.err{color:#b00020}</style>
+<h1>Connect ${escape(d.clientName)}?</h1>
+<p>${origin} Access will be sent to <strong>${escape(d.redirectHost)}</strong>.</p>
+${d.redirectIsLoopback ? "<p><strong>This sends access to an app on your computer.</strong> Continue only if you just started connecting from it.</p>" : ""}
+<p>It will be able to search the library and read its open-licence documents and technology cards (read only).</p>
+${error ? `<p class="err">${escape(error)}</p>` : ""}
+<form method="post">
+<input type="hidden" name="handle" value="${escape(handle)}">
+<label>Library API key<br><input type="password" name="key" autocomplete="current-password" required></label>
+<p><button name="decision" value="approve">Allow</button><button name="decision" value="deny" formnovalidate>Deny</button></p>
+</form>`;
+}
+
+const authPages = {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
+    if (url.pathname !== "/authorize") return new Response("Not found", { status: 404 });
+    const oauth = env.OAUTH_PROVIDER;
+    if (request.method === "GET") {
+      const authRequest = await oauth.parseAuthRequest(request);
+      const details = await oauth.describeConsent(authRequest);
+      const consent = await oauth.beginConsent(authRequest);
+      consent.headers.set("Content-Type", "text/html; charset=utf-8");
+      return new Response(consentPage(details, consent.handle), { headers: consent.headers });
+    }
+    const form = await request.formData();
+    const handle = String(form.get("handle"));
+    if (form.get("decision") !== "approve") {
+      const denied = await oauth.denyConsent(request, handle);
+      return new Response(null, { status: 302, headers: denied.headers });
+    }
+    if (!keyOk(env, String(form.get("key") ?? ""))) {
+      // The handle is single-use, so a wrong key ends this attempt; the client can start again.
+      const denied = await oauth.denyConsent(request, handle);
+      return new Response(null, { status: 302, headers: denied.headers });
+    }
+    const approved = await oauth.approveConsent(request, handle, { scope: ["mcp:read"] });
+    const { redirectTo } = await oauth.completeAuthorization({
+      request: approved.request,
+      userId: "owner",
+      metadata: {},
+      scope: ["mcp:read"],
+      props: { userId: "owner" },
+    });
+    approved.headers.set("Location", redirectTo);
+    return new Response(null, { status: 302, headers: approved.headers });
+  },
+};
+
+const oauthProvider = new OAuthProvider<Env>({
+  apiRoute: "/mcp",
+  apiHandler: { fetch: (request: Request, env: Env) => toContainer(request, env) },
+  defaultHandler: authPages,
+  authorizeEndpoint: "/authorize",
+  tokenEndpoint: "/oauth/token",
+  clientRegistrationEndpoint: "/register",
+  clientIdMetadataDocumentEnabled: true,
+  scopesSupported: ["mcp:read", "offline_access"],
+  requiredScopes: ["mcp:read"],
+  resourceMetadata: { resource: `${ORIGIN}/mcp`, authorization_servers: [ORIGIN] },
+});
+
+export default {
+  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    const url = new URL(request.url);
     if (url.pathname === "/" || url.pathname === "/health") {
-      return Response.json({ service: "og-tech-sources library", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json", auth: "x-api-key header" });
+      return Response.json({ service: "og-tech-sources library", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json",
+                             auth: "x-api-key header, or OAuth for /mcp" });
     }
     if (url.pathname === "/api/openapi.json") {
       // The schema holds no data; tools such as ChatGPT Actions import it before they have a key.
       return getContainer(env.LIBRARY, "main").fetch(request);
     }
-    const given = request.headers.get("x-api-key") ??
-      (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
-    if (!env.LIBRARY_API_KEY || env.LIBRARY_API_KEY.length < 24 || !sameKey(given, env.LIBRARY_API_KEY)) {
-      return Response.json({ error: "missing or wrong API key" }, { status: 401 });
+    const apiKey = request.headers.get("x-api-key");
+    const bearer = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
+    if (apiKey !== null || url.pathname.startsWith("/api/")) {
+      return keyOk(env, apiKey ?? bearer) ? toContainer(request, env)
+        : Response.json({ error: "missing or wrong API key" }, { status: 401 });
     }
-    // One instance is enough for personal use; requests share it.
-    return getContainer(env.LIBRARY, "main").fetch(request);
+    if (bearer && keyOk(env, bearer)) return toContainer(request, env); // older clients sending the key as a bearer token
+    return oauthProvider.fetch(request, env, ctx); // /mcp with OAuth tokens, and the OAuth endpoints
   },
 };

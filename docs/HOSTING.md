@@ -69,6 +69,19 @@ Examples:
 - ChatGPT custom GPT: Configure > Actions > Import from URL `https://techlibrary.tenunan.com/api/openapi.json`; Authentication: API key, Custom header `x-api-key`.
 - LangChain, n8n, Make, Zapier or any HTTP tool: GET requests with the `x-api-key` header.
 
+### OAuth sign-in for claude.ai and other URL-only clients
+
+`/mcp` also accepts OAuth 2.1 access tokens (Cloudflare `workers-oauth-provider`, pinned 1.2.3, tokens in the
+KV namespace `OAUTH_KV`). Clients discover it from the 401 challenge
+(`/.well-known/oauth-protected-resource/mcp`, `/.well-known/oauth-authorization-server`) and register
+themselves (`/register`, or a Client ID Metadata Document). The sign-in page at `/authorize` asks for the
+**library API key**, so only someone holding the key (the owner) can grant access; a wrong key denies the
+request. Scope `mcp:read` (read only). The REST API under `/api` stays key-only.
+
+Add to claude.ai: Settings > Connectors > Add custom connector, URL `https://techlibrary.tenunan.com/mcp`,
+leave the OAuth client fields empty, Connect, then paste the key from `~/.config/og-tech-library/api-key`
+on the sign-in page and Allow. The connection then works in claude.ai on web and in the mobile apps.
+
 ## Deploy to Azure Container Apps (alternative, not used: no Azure subscription) (recommended for Copilot Studio)
 
 Same cloud as Copilot Studio, scales to zero when idle (pay only for use), HTTPS by default. Uses the `Dockerfile` in the repo root. Needs the Azure CLI (`az login`) and an Azure subscription.
