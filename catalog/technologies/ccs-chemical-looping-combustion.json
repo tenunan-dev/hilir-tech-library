@@ -1,0 +1,99 @@
+{
+  "id": "ccs-chemical-looping-combustion",
+  "name": "Chemical looping combustion",
+  "aliases": [
+    "CLC",
+    "oxygen carrier"
+  ],
+  "sector": "CCS",
+  "category": "Oxyfuel / chemical looping",
+  "applications": [
+    "power and steam generation",
+    "refinery heaters (research)"
+  ],
+  "maturity": "lab",
+  "trl": {
+    "low": 4,
+    "high": 5,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "A solid metal oxide oxygen carrier circulates between an air reactor, where it picks up oxygen, and a fuel reactor, where it burns the fuel without contact with air. The fuel reactor exhaust is only CO2 and water, so CO2 is obtained by condensing the water, without an air separation unit.",
+  "process_steps": [
+    {
+      "id": "AR",
+      "name": "Air reactor (carrier oxidation)",
+      "equipment": [
+        "fluidised bed air reactor",
+        "cyclone"
+      ],
+      "to": [
+        "FR",
+        "VENT"
+      ],
+      "streams": {
+        "FR": "oxidised carrier",
+        "VENT": "depleted air"
+      }
+    },
+    {
+      "id": "VENT",
+      "name": "Depleted air to stack",
+      "to": []
+    },
+    {
+      "id": "FR",
+      "name": "Fuel reactor (fuel oxidised by carrier)",
+      "equipment": [
+        "fluidised bed fuel reactor"
+      ],
+      "to": [
+        "AR",
+        "CON"
+      ],
+      "streams": {
+        "AR": "reduced carrier",
+        "CON": "CO2 + H2O"
+      }
+    },
+    {
+      "id": "CON",
+      "name": "Water condensation and CO2 compression",
+      "equipment": [
+        "condenser",
+        "CO2 compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "interconnected fluidised bed reactors",
+    "cyclones and loop seals",
+    "oxygen carrier material",
+    "condenser",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "Research stage; no commercial licensor identified in the cited sources"
+    }
+  ],
+  "advantages": [
+    "Inherent CO2 separation with no air separation unit"
+  ],
+  "limitations": [
+    "Oxygen carrier attrition and lifetime",
+    "Solids circulation at scale not yet demonstrated commercially"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

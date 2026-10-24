@@ -1,0 +1,134 @@
+{
+  "id": "ccs-allam-cycle",
+  "name": "Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)",
+  "aliases": [
+    "NET Power cycle",
+    "oxyfuel gas turbine",
+    "sCO2 power cycle"
+  ],
+  "sector": "CCS",
+  "category": "Oxyfuel / power cycle",
+  "applications": [
+    "natural gas power with inherent capture"
+  ],
+  "maturity": "demonstration",
+  "trl": {
+    "low": 2,
+    "high": 5,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "Natural gas burns in oxygen diluted with hot recycled CO2. The high-pressure CO2 and water mixture drives a turbine, is cooled in a recuperator, and the water is condensed out. Most CO2 is recompressed and recycled; the excess is near-pure and goes straight to a pipeline.",
+  "process_steps": [
+    {
+      "id": "ASU",
+      "name": "Oxygen supply",
+      "equipment": [
+        "air separation unit"
+      ],
+      "to": [
+        "COMB"
+      ]
+    },
+    {
+      "id": "COMB",
+      "name": "Oxy-combustion with recycled CO2 (about 1,150 °C)",
+      "equipment": [
+        "high-pressure combustor"
+      ],
+      "to": [
+        "TURB"
+      ]
+    },
+    {
+      "id": "TURB",
+      "name": "Supercritical CO2 turbine",
+      "equipment": [
+        "turbine-generator"
+      ],
+      "to": [
+        "REC"
+      ]
+    },
+    {
+      "id": "REC",
+      "name": "Recuperator and water removal",
+      "equipment": [
+        "recuperative heat exchanger",
+        "cooler and water separator"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "CO2 compression and pumping",
+      "equipment": [
+        "CO2 compressor and pump"
+      ],
+      "to": [
+        "COMB",
+        "PIPE"
+      ],
+      "streams": {
+        "COMB": "recycled CO2 (reheated in recuperator)",
+        "PIPE": "excess CO2"
+      }
+    },
+    {
+      "id": "PIPE",
+      "name": "CO2 to pipeline",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "air separation unit",
+    "high-pressure oxy-combustor",
+    "sCO2 turbine",
+    "recuperator",
+    "CO2 compressor and pump"
+  ],
+  "suppliers": [
+    {
+      "name": "NET Power (cycle developer), Toshiba (combustor and turbine)",
+      "url": "https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "La Porte demonstration",
+      "country": "US",
+      "capacity": "50 MWth (25 MWe)",
+      "status": "first fire 30 May 2018",
+      "year": 2018,
+      "source": {
+        "url": "https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/",
+        "note": "POWER magazine, 1 Apr 2019"
+      }
+    }
+  ],
+  "advantages": [
+    "Capture is inherent to the cycle; no separate capture plant",
+    "Pipeline-ready CO2"
+  ],
+  "limitations": [
+    "New turbine and combustor technology; first commercial plants not yet operating as of the source",
+    "Air separation unit cost and power"
+  ],
+  "sources": [
+    {
+      "url": "https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/"
+    },
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  ],
+  "last_reviewed": "2026-10-24",
+  "notes": "Commercial project status after 2019 not yet checked."
+}

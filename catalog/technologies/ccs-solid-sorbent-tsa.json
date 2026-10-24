@@ -1,0 +1,140 @@
+{
+  "id": "ccs-solid-sorbent-tsa",
+  "name": "Solid sorbent capture by rapid temperature swing",
+  "aliases": [
+    "structured adsorbent",
+    "rotary adsorption machine",
+    "CALF-20 MOF",
+    "Svante"
+  ],
+  "sector": "CCS",
+  "category": "Post-combustion / solid sorbent",
+  "applications": [
+    "cement",
+    "hydrogen (SMR)",
+    "gas and oil field steam generators",
+    "power"
+  ],
+  "maturity": "demonstration",
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "CO2 adsorbs onto a solid sorbent (amine-based or a metal-organic framework such as CALF-20) laid out as thin structured filters. The filters rotate through adsorption, steam regeneration and cooling zones in about a minute, so a small sorbent inventory handles a large gas flow.",
+  "process_steps": [
+    {
+      "id": "FG",
+      "name": "Flue gas cooling and pretreatment",
+      "equipment": [
+        "direct contact cooler",
+        "SOx polishing"
+      ]
+    },
+    {
+      "id": "ADS",
+      "name": "Adsorption on structured sorbent",
+      "equipment": [
+        "rotary adsorption machine with structured filters"
+      ],
+      "to": [
+        "DES",
+        "VENT"
+      ],
+      "streams": {
+        "DES": "loaded sorbent",
+        "VENT": "CO2-lean gas"
+      }
+    },
+    {
+      "id": "VENT",
+      "name": "Treated gas to stack",
+      "to": []
+    },
+    {
+      "id": "DES",
+      "name": "Steam regeneration",
+      "equipment": [
+        "low-pressure steam supply",
+        "condenser"
+      ],
+      "to": [
+        "COMP",
+        "ADS"
+      ],
+      "streams": {
+        "COMP": "CO2",
+        "ADS": "regenerated sorbent"
+      }
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression",
+      "equipment": [
+        "CO2 compressor",
+        "dehydration"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "rotary adsorption machine",
+    "structured sorbent filters",
+    "direct contact cooler",
+    "steam condenser",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "Svante",
+      "product": "rapid cycle thermal swing adsorption with structured adsorbents",
+      "url": "https://netl.doe.gov/node/11418"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Chevron Kern River oil field",
+      "country": "US",
+      "capacity": "25 t/day engineering-scale",
+      "status": "design, construction and operation (DOE-funded, USD 13M)",
+      "source": {
+        "url": "https://netl.doe.gov/node/11418",
+        "source_id": "netl",
+        "note": "NETL project page, Dec 2021"
+      }
+    },
+    {
+      "name": "CO2MENT Richmond, Lafarge cement plant",
+      "country": "CA",
+      "capacity": "1 t/day with CALF-20",
+      "status": "field testing",
+      "source": {
+        "url": "https://netl.doe.gov/node/11418",
+        "source_id": "netl"
+      }
+    }
+  ],
+  "advantages": [
+    "Up to 95% capture reported, with high-purity CO2 in about 60 seconds of cycle (NETL page)",
+    "MOF sorbent (CALF-20) binds CO2 physically, lowering steam demand, and tolerates O2 and acid gases"
+  ],
+  "limitations": [
+    "Largest units are still engineering scale; commercial-scale references pending"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/node/11418",
+      "source_id": "netl"
+    },
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

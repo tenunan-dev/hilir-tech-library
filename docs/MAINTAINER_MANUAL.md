@@ -82,6 +82,15 @@ Write a generator in `collectors/adapters.py` that yields `(title, url, body_mar
 
 `ARXIV_QUERY` in `collectors/adapters.py` matches title phrases only. Bare words like "pipeline", "flare", "compressor" and "carbon capture" pulled in software, astronomy and biology papers, so use qualified phrases. After a change, run a collection of 25 and check how many results are on topic before committing.
 
+## 3b. Add or update a technology card
+
+1. Copy an existing card in `catalog/technologies/` (for example `ccs-calcium-looping.json`) to `<sector>-<short-name>.json`.
+2. Write the principle, steps and limitations in your own words. Do not paste text from sources.
+3. Every number (TRL, cost, energy, capacity) needs a `source` with the URL you read it from and, for costs, the dollar `year` and a `basis` (plant type, capture rate, scope). If the source does not state the dollar year, say so in `basis`. Never estimate or convert figures without saying how.
+4. Process steps: give each an `id`; use `to` for branches and `streams` to label flows. A step without `to` flows to the next one; `"to": []` ends a branch.
+5. Update `last_reviewed`, run `python tools/build.py` (validates the card and redraws `catalog/index/technologies-<SECTOR>.md`) and `python -m pytest -q tests`.
+6. Status statements age quickly ("under construction", "expected 2025"): keep the source date in the text and add a `notes` line when a status needs re-checking.
+
 ## 4. Refresh and link checks
 
 - `.github/workflows/refresh.yml` runs weekly (collection) and monthly (adds the link check). Trigger it by hand from the Actions tab.

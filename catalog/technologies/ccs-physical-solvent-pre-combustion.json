@@ -1,0 +1,117 @@
+{
+  "id": "ccs-physical-solvent-pre-combustion",
+  "name": "Physical solvent acid gas removal (pre-combustion)",
+  "aliases": [
+    "Selexol",
+    "Rectisol",
+    "physical absorption"
+  ],
+  "sector": "CCS",
+  "category": "Pre-combustion / physical solvent",
+  "applications": [
+    "coal and petcoke gasification",
+    "syngas for chemicals (ammonia, methanol)",
+    "hydrogen from gasification"
+  ],
+  "maturity": "commercial",
+  "principle": "At high pressure and high CO2 partial pressure, organic solvents such as chilled methanol (Rectisol) or Selexol dissolve CO2 and H2S without chemical reaction. The rich solvent is depressurised in stages to release CO2, then stripped, and returned to the absorber. Physical solvents favour high-pressure syngas, while chemical solvents suit low partial pressures.",
+  "process_steps": [
+    {
+      "id": "SG",
+      "name": "Shifted syngas at high pressure",
+      "equipment": [
+        "water-gas shift reactors (upstream)"
+      ]
+    },
+    {
+      "id": "ABS",
+      "name": "Acid gas absorption at low temperature",
+      "equipment": [
+        "absorber column",
+        "refrigeration (Rectisol about -40 °C)"
+      ],
+      "to": [
+        "FL",
+        "H2"
+      ],
+      "streams": {
+        "FL": "rich solvent",
+        "H2": "clean syngas or hydrogen"
+      }
+    },
+    {
+      "id": "H2",
+      "name": "Clean syngas to use",
+      "to": []
+    },
+    {
+      "id": "FL",
+      "name": "Staged flash regeneration",
+      "equipment": [
+        "flash drums at decreasing pressure",
+        "recycle compressor"
+      ],
+      "to": [
+        "STR",
+        "COMP"
+      ],
+      "streams": {
+        "COMP": "CO2",
+        "STR": "semi-lean solvent"
+      }
+    },
+    {
+      "id": "STR",
+      "name": "Stripping and H2S concentration",
+      "equipment": [
+        "stripper",
+        "sulfur recovery (Claus) unit"
+      ],
+      "to": [
+        "ABS"
+      ],
+      "streams": {
+        "ABS": "lean solvent"
+      }
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression",
+      "equipment": [
+        "CO2 compressor",
+        "dehydration"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "absorber",
+    "refrigeration system",
+    "flash drums",
+    "stripper",
+    "Claus sulfur recovery unit",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "Rectisol and Selexol licensors (see NETL Gasifipedia)",
+      "url": "https://netl.doe.gov/research/Coal/energy-systems/gasification/gasifipedia/agr"
+    }
+  ],
+  "advantages": [
+    "Very deep sulfur removal (Rectisol below 0.1 ppmv H2S plus COS per NETL)",
+    "Low regeneration heat, since much CO2 is released by pressure let-down"
+  ],
+  "limitations": [
+    "Needs high pressure and high CO2 partial pressure",
+    "Refrigeration makes capital cost two to three times that of chemical solvents (NETL)"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/research/Coal/energy-systems/gasification/gasifipedia/agr",
+      "source_id": "netl",
+      "note": "NETL Gasifipedia, acid gas removal"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

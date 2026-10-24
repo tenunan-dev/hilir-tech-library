@@ -1,0 +1,94 @@
+{
+  "id": "ccs-emerging-solvents-electrochemical",
+  "name": "Emerging capture: water-lean solvents, ionic liquids and electrochemical separation",
+  "aliases": [
+    "water-lean absorbents",
+    "ionic liquids",
+    "electrochemical capture",
+    "biphasic solvents"
+  ],
+  "sector": "CCS",
+  "category": "Post-combustion / emerging",
+  "applications": [
+    "power and industrial flue gas",
+    "direct air capture (electrochemical)"
+  ],
+  "maturity": "lab",
+  "trl": {
+    "low": 4,
+    "high": 5,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "Next-generation solvents reduce the water in the solvent, or use ionic liquids, to cut the heat needed for regeneration. Electrochemical routes release CO2 by changing the oxidation state or pH of a carrier with electricity instead of heat. The IEAGHG 2019 review rated water-lean absorbents TRL 5, ionic liquids TRL 4 and electrochemical separation TRL 4.",
+  "process_steps": [
+    {
+      "id": "ABS",
+      "name": "CO2 uptake in solvent or electrochemical cell",
+      "equipment": [
+        "absorber or electrochemical cell stack"
+      ]
+    },
+    {
+      "id": "REG",
+      "name": "Release by heat (lower duty) or by voltage",
+      "equipment": [
+        "regenerator or electrochemical release cell"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression",
+      "equipment": [
+        "CO2 compressor"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "absorber or electrochemical cell stack",
+    "regenerator",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "Research programmes (see NETL transformational capture programme)",
+      "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "DOE transformational capture cost target",
+      "low": 30,
+      "high": 40,
+      "unit": "USD/t CO2",
+      "basis": "programme targets: 40 by 2025, 30 by 2030; dollar year not stated in source",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
+        "source_id": "netl",
+        "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
+      }
+    }
+  ],
+  "advantages": [
+    "Potentially lower regeneration energy than aqueous amines"
+  ],
+  "limitations": [
+    "Lab to small pilot scale; long-term solvent stability and cost unproven"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    },
+    {
+      "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
+      "source_id": "netl",
+      "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

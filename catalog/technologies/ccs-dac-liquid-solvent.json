@@ -1,0 +1,197 @@
+{
+  "id": "ccs-dac-liquid-solvent",
+  "name": "Direct air capture with liquid solvent (KOH and calcium loop)",
+  "aliases": [
+    "Carbon Engineering",
+    "1PointFive",
+    "solvent DAC"
+  ],
+  "sector": "CCS",
+  "category": "Direct air capture / liquid solvent",
+  "applications": [
+    "carbon removal",
+    "CO2 for synthetic fuels"
+  ],
+  "maturity": "demonstration",
+  "trl": {
+    "low": 5,
+    "high": 5,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "Fans push air through large contactors wetted with potassium hydroxide, which absorbs CO2 as carbonate. Calcium hydroxide in a pellet reactor transfers the carbonate to calcium carbonate pellets, which are calcined at about 900 °C in an oxygen-fired furnace to release concentrated CO2. The lime is slaked and returned to the loop.",
+  "process_steps": [
+    {
+      "id": "AC",
+      "name": "Air contactor (KOH solution)",
+      "equipment": [
+        "cross-flow contactor with packing",
+        "fans",
+        "solution pumps"
+      ],
+      "to": [
+        "PR"
+      ],
+      "streams": {
+        "PR": "K2CO3 solution"
+      }
+    },
+    {
+      "id": "PR",
+      "name": "Pellet reactor",
+      "equipment": [
+        "fluidised bed pellet reactor"
+      ],
+      "to": [
+        "CALC",
+        "AC"
+      ],
+      "streams": {
+        "CALC": "CaCO3 pellets",
+        "AC": "regenerated KOH"
+      }
+    },
+    {
+      "id": "CALC",
+      "name": "Oxy-fired calciner (about 900 °C)",
+      "equipment": [
+        "circulating fluidised bed calciner",
+        "air separation unit"
+      ],
+      "to": [
+        "SL",
+        "COMP"
+      ],
+      "streams": {
+        "SL": "CaO",
+        "COMP": "CO2"
+      }
+    },
+    {
+      "id": "SL",
+      "name": "Steam slaker",
+      "equipment": [
+        "fluidised steam slaker"
+      ],
+      "to": [
+        "PR"
+      ],
+      "streams": {
+        "PR": "Ca(OH)2"
+      }
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression to 15 MPa",
+      "equipment": [
+        "four-stage CO2 compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "air contactors and fans",
+    "pellet reactor",
+    "oxy-fired calciner",
+    "steam slaker",
+    "air separation unit",
+    "CO2 compressor",
+    "gas turbine and HRSG (power island)"
+  ],
+  "performance": [
+    {
+      "metric": "natural gas input, baseline design",
+      "low": 8.81,
+      "high": 8.81,
+      "unit": "GJ/t CO2",
+      "year": 2018,
+      "basis": "1 Mt/yr design, CO2 at 15 MPa, no net electricity",
+      "source": {
+        "url": "https://www.jefftk.com/keith2018.pdf",
+        "note": "Keith et al., Joule 2, 1573-1594 (2018), doi:10.1016/j.joule.2018.05.006"
+      }
+    },
+    {
+      "metric": "energy input, minimum-gas variant",
+      "low": 5.25,
+      "high": 5.25,
+      "unit": "GJ/t CO2 gas plus 366 kWh/t electricity",
+      "year": 2018,
+      "basis": "variant C",
+      "source": {
+        "url": "https://www.jefftk.com/keith2018.pdf"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "levelised cost of CO2 captured",
+      "low": 94,
+      "high": 232,
+      "unit": "USD/t CO2",
+      "year": 2016,
+      "basis": "1 Mt/yr plant designs, CRF 7.5-12.5%, gas at USD 3.5/GJ; first-plant variant A 168-232",
+      "source": {
+        "url": "https://www.jefftk.com/keith2018.pdf",
+        "note": "Keith et al. 2018"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Carbon Engineering / 1PointFive (Occidental)",
+      "url": "https://ogj.com/energy-transition/article/14296692/1pointfive-signs-oxygen-supply-contract-for-dac-plant"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Squamish pilot",
+      "country": "CA",
+      "capacity": "about 0.6 t/day (contactor and pellet reactor loop)",
+      "status": "operating since 2015 (per 2018 paper)",
+      "year": 2015,
+      "source": {
+        "url": "https://www.jefftk.com/keith2018.pdf"
+      }
+    },
+    {
+      "name": "Stratos, Ector County, Texas",
+      "country": "US",
+      "capacity": "up to 500,000 t/yr",
+      "status": "operations expected mid-2025 (as of July 2023)",
+      "year": 2025,
+      "source": {
+        "url": "https://ogj.com/energy-transition/article/14296692/1pointfive-signs-oxygen-supply-contract-for-dac-plant",
+        "note": "Oil & Gas Journal, 20 Jul 2023"
+      }
+    }
+  ],
+  "advantages": [
+    "Scales with industrial equipment (cooling-tower contactors, pulp-mill style causticising)",
+    "Location independent of emission sources"
+  ],
+  "limitations": [
+    "High-temperature heat needs natural gas (with its CO2 captured) or alternative heat",
+    "Cost well above point-source capture"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jefftk.com/keith2018.pdf"
+    },
+    {
+      "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
+      "source_id": "netl",
+      "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
+    },
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  ],
+  "last_reviewed": "2026-10-24",
+  "notes": "Stratos operating status after mid-2025 not yet checked."
+}

@@ -16,6 +16,8 @@ import sys
 
 import yaml
 
+import technologies
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
 DB_PATH = ROOT / "build" / "library.db"
@@ -33,6 +35,9 @@ COUNTRIES = {
 # BM25 weights per column (kind, ref, source_id, title, text, tags): a match in the name or text
 # counts more than one in the taxonomy labels every record of a sector shares.
 BM25 = "bm25(search, 0, 0, 0, 3.0, 1.0, 0.4)"
+# Technology cards are curated syntheses, so they rank a little above single sources.
+TECHNOLOGY_BOOST = 1.3
+TECHNOLOGY_LICENCE = "Library's own summary of cited sources; cite the sources listed in the card"
 
 
 # Words that mark a document as belonging to a sector. Documents inherit their source's sectors,
@@ -133,6 +138,7 @@ def build(db_path=None, corpus=None):
                                                title, text, tags, tokenize='porter unicode61');
         CREATE TABLE vectors (rowid INTEGER PRIMARY KEY, vec BLOB NOT NULL);
         CREATE TABLE info (key TEXT PRIMARY KEY, value TEXT);
+        CREATE TABLE technologies (id TEXT PRIMARY KEY, card TEXT NOT NULL);
     """)
     records = load_records()
     labels = taxonomy_labels()
@@ -156,9 +162,17 @@ def build(db_path=None, corpus=None):
                        (f"{rel}#{i}", meta.get("source_id"), meta.get("title"), text, tags))
             n_chunks += 1
         n_docs += 1
+    cards = technologies.load_cards(corpus.parent / "catalog" / "technologies")
+    for card in cards:
+        db.execute("INSERT INTO technologies VALUES (?, ?)", (card["id"], json.dumps(card, ensure_ascii=False)))
+        text = "\n".join([card["category"], card["principle"], " ".join(card.get("aliases", [])),
+                          " ".join(card.get("applications", [])), " ".join(card["key_equipment"]),
+                          " ".join(s["name"] + " " + s.get("product", "") for s in card["suppliers"]), card["maturity"]])
+        db.execute("INSERT INTO search VALUES ('technology', ?, ?, ?, ?, ?)",
+                   (card["id"], card["id"], card["name"], text, tag_text({"sectors": [card["sector"]]}, labels)))
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
     db.commit()
-    return {"sources": len(records), "documents": n_docs, "chunks": n_chunks}
+    return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards)}
 
 
 def fts_query(text):
@@ -207,7 +221,7 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     """
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
-    kinds = ("source", "chunk") if kind == "all" else (kind,)
+    kinds = ("source", "chunk", "technology") if kind == "all" else (kind,)
     q = fts_query(query)
     if not q:
         return []
@@ -232,6 +246,12 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
             ranked[rowid][1] += 1.0 / (60 + pos)
     results = []
     for row, score in ranked.values():
+        if row["kind"] == "technology":
+            card = json.loads(db.execute("SELECT card FROM technologies WHERE id = ?", (row["ref"],)).fetchone()[0])
+            if "technology" in kinds and (not sector or card["sector"] == sector) and not discipline \
+                    and reuse_level in (None, "full-text-open"):
+                results.append((score * TECHNOLOGY_BOOST, row, card))
+            continue
         rec = records.get(row["source_id"])
         if not rec or row["kind"] not in kinds or not _matches(rec, None, discipline, region, reuse_level):
             continue
@@ -243,7 +263,34 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
         boost = max([REGION_BOOST.get(g, 1.0) for g in rec["regions"]] + [1.0])
         results.append((score * boost, row, rec))
     results.sort(key=lambda t: -t[0])
-    return [_result(db, row, score, records) for score, row, _ in results[:limit]]
+    return [_technology_result(row, score, rec) if row["kind"] == "technology" else _result(db, row, score, records)
+            for score, row, rec in results[:limit]]
+
+
+def _technology_result(row, score, card):
+    out = {"kind": "technology", "ref": card["id"], "title": card["name"], "score": round(score, 4),
+           "licence": TECHNOLOGY_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any"}
+    out.update(technologies.summary(card))
+    out["hint"] = "Call get_technology for the block diagram, figures and sources."
+    return out
+
+
+def get_technology(tech_id, db=None):
+    """Full technology card plus its block flow diagram as Mermaid text."""
+    db = db or connect()
+    row = db.execute("SELECT card FROM technologies WHERE id = ?", (tech_id,)).fetchone()
+    if not row:
+        return None
+    card = json.loads(row[0])
+    card["block_diagram_mermaid"] = technologies.mermaid(card)
+    card["licence"] = TECHNOLOGY_LICENCE
+    return card
+
+
+def compare_technologies(sector=None, maturity=None, application=None, db=None):
+    db = db or connect()
+    cards = [json.loads(r[0]) for r in db.execute("SELECT card FROM technologies")]
+    return technologies.compare(cards, sector, maturity, application)
 
 
 def get_source(source_id, db=None, exclude_restricted=False):
@@ -290,6 +337,7 @@ def stats(db=None):
             "documents": db.execute("SELECT count(*) FROM docs").fetchone()[0],
             "chunks": db.execute("SELECT count(*) FROM search WHERE kind = 'chunk'").fetchone()[0],
             "vectors": db.execute("SELECT count(*) FROM vectors").fetchone()[0],
+            "technologies": db.execute("SELECT count(*) FROM technologies").fetchone()[0],
             "embedding_model": (db.execute("SELECT value FROM info WHERE key = 'model'").fetchone() or [None])[0]}
 
 

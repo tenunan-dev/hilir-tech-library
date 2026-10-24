@@ -30,7 +30,7 @@ agents to find, cite and (where licences allow) read. It has three layers:
 2. **Restricted text stays private.** Files from `full-text-restricted` sources are personal reference copies. Never publish them, paste them into public places or use them commercially. The repository must stay private while it holds them.
 3. **Only collect from verified records.** A record must have `verification: verified` before any collector touches it. Collectors enforce this; do not bypass it.
 4. **Obey robots.txt and terms.** Never change the user agent, rotate IPs, or otherwise get around a block. Where `automated_access` is `prohibited`, content comes in by hand through `corpus/_inbox/`. The only robots exception is arXiv's API (see DECISIONS.md); a new exception needs the owner's written approval and an entry in DECISIONS.md.
-5. **Never invent sources or evidence.** Every licence finding needs an evidence URL you actually read.
+5. **Never invent sources, evidence or figures.** Every licence finding needs an evidence URL you actually read; every number in a technology card needs the URL it came from, and costs need their dollar year and basis.
 6. **Generated files are not edited by hand.** `catalog/catalog.jsonl` and `catalog/index/*` come from `tools/build.py`; `build/` comes from `agent/library.py build`.
 7. **Paid sources wait for the owner.** Records for paid services stay `catalog-only` until the owner provides subscriptions or API keys.
 

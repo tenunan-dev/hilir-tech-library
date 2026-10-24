@@ -1,0 +1,129 @@
+{
+  "id": "ccs-calcium-looping",
+  "name": "Calcium looping",
+  "aliases": [
+    "CaL",
+    "carbonate looping"
+  ],
+  "sector": "CCS",
+  "category": "Post-combustion / high-temperature solid looping",
+  "applications": [
+    "cement (purge CaO usable as raw meal)",
+    "power",
+    "lime plants"
+  ],
+  "maturity": "pilot",
+  "trl": {
+    "low": 6,
+    "high": 7,
+    "source": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141",
+      "note": "Energy & Fuels 38(15), 2024, CC BY 4.0: pilot at TRL7; IEAGHG 2019 gave TRL 6"
+    }
+  },
+  "principle": "Lime (CaO) captures CO2 from flue gas in a carbonator at about 650 °C, forming CaCO3. The solids circulate to a calciner at about 900-950 °C, fired with fuel in oxygen and CO2, which releases a concentrated CO2 stream and regenerates CaO. Fresh limestone is added to make up for sorbent decay.",
+  "process_steps": [
+    {
+      "id": "FG",
+      "name": "Flue gas feed"
+    },
+    {
+      "id": "CARB",
+      "name": "Carbonator (CaO + CO2 to CaCO3, about 650 °C)",
+      "equipment": [
+        "circulating fluidised bed carbonator",
+        "cyclone"
+      ],
+      "to": [
+        "CALC",
+        "VENT"
+      ],
+      "streams": {
+        "CALC": "CaCO3-rich solids",
+        "VENT": "CO2-lean flue gas"
+      }
+    },
+    {
+      "id": "VENT",
+      "name": "Heat recovery and stack",
+      "equipment": [
+        "heat recovery steam generator"
+      ],
+      "to": []
+    },
+    {
+      "id": "CALC",
+      "name": "Oxy-fired calciner (about 900-950 °C)",
+      "equipment": [
+        "circulating fluidised bed calciner",
+        "air separation unit for oxygen",
+        "limestone make-up feeder"
+      ],
+      "to": [
+        "CPU",
+        "CARB"
+      ],
+      "streams": {
+        "CPU": "CO2-rich gas",
+        "CARB": "regenerated CaO"
+      }
+    },
+    {
+      "id": "CPU",
+      "name": "Heat recovery, CO2 purification and compression",
+      "equipment": [
+        "heat recovery",
+        "CO2 purification unit",
+        "CO2 compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "two interconnected circulating fluidised bed reactors",
+    "cyclones",
+    "air separation unit",
+    "limestone feeder",
+    "heat recovery system",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "Research consortia (e.g. CSIC-INCAR, Spain)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "La Pereda pilot",
+      "country": "ES",
+      "capacity": "1.7 MWth",
+      "status": "biomass-fired calciner tests reached capture efficiencies above 99% in some periods (2024)",
+      "year": 2024,
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141",
+        "note": "Energy & Fuels 2024, DOI 10.1021/acs.energyfuels.4c02472"
+      }
+    }
+  ],
+  "advantages": [
+    "Cheap, abundant sorbent (limestone)",
+    "High-temperature heat can be recovered for power",
+    "Synergy with cement: spent CaO is a raw material"
+  ],
+  "limitations": [
+    "Needs an air separation unit for the calciner",
+    "Sorbent activity decays with cycles, so make-up and purge are needed"
+  ],
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141"
+    },
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

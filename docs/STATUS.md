@@ -10,6 +10,7 @@ Living document. Update it at the end of every working session (newest entry on 
 | Verified | 126 (31 full-text-open, 75 full-text-restricted, 16 summary-only, 4 catalog-only) |
 | Unverified | 217, of which 50 need a manual terms check (`catalog/index/needs-manual-check.md`) |
 | Corpus documents | 49 (25 OSTI, 24 arXiv; metadata and abstracts) |
+| Technology cards | 14 (CCS) |
 
 Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl` and the MCP tool `library_stats`.
 
@@ -21,6 +22,7 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 
 ## Backlog (in rough priority order)
 
+1. **CCS cards:** add NETL baseline figures (regeneration energy, power-plant cost of capture), then extend cards to other sectors (H2, GAS, REF).
 1. **Manual terms checks:** 50 records listed in `catalog/index/needs-manual-check.md`.
 2. **Unchecked collectable records:** chula-petroleum, itb-indonesia, kaust, keei, khalifa-university, mycite, myipo, nea-china, th-dmf, vn-pvj, uq-energy, weatherford.
 3. **Remaining unverified records:** verify the rest of the 217, Southeast Asia and Asia Pacific first.
@@ -44,6 +46,7 @@ Add one entry per working session, newest on top, in this format, so an agent wi
 - **YYYY-MM-DD, <who or which agent>:** Did: <changes, with commit hashes>. Verified: <checks run and results, e.g. build.py N records valid, pytest N passed, trial run looked right>. Failed: <what did not work, with the exact error message>. Next: <the concrete next step, or the owner decision it waits on>.
 ```
 
+- **2026-10-24 (later):** CCS pilot: technology card schema, 14 CCS cards (amine, high-purity, physical and syngas solvents, membranes, sorbents, cryogenic, calcium looping, oxyfuel cement, Allam cycle, two DAC routes, chemical looping, emerging), Mermaid block diagrams, `compare_technologies` and `get_technology` MCP tools, technologies.csv in the Dataverse export, per-document sector tags. Next: add regeneration energy and power-plant costs from the NETL baseline, and re-check statuses noted in each card's `notes`.
 - **2026-10-24:** Dataverse export added (`tools/export_dataverse.py`, docs/DATAVERSE.md): sources, documents and taxonomy CSVs; restricted document text left out by default. Not yet imported: needs the owner's Power Platform environment.
 - **2026-10-23 (later):** Hosted mode added for cloud agents such as Copilot Studio: `server.py --http` (streamable HTTP, API key), Dockerfile that leaves restricted documents out, Azure Container Apps and Copilot Studio steps in docs/HOSTING.md. Documents whose own licence is open (arXiv CC0 abstracts) are now marked full-text-open. Not yet deployed: needs the owner's Azure subscription.
 - **2026-10-23:** Documentation set added (AGENTS.md, docs/). MCP server registered on the owner's Mac. Search ranking improved (taxonomy and country labels indexed, ranking by query coverage); MISC Group added. Phase 3 built: search index, embeddings, MCP server, link check, weekly refresh workflow. arXiv collected (24 papers) after narrowing the query; OSTI collected (25). robots.txt handling fixed (403 now disallows). 126 records verified. Catalog of 342 records created.

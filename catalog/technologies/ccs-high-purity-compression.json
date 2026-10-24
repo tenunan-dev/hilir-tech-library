@@ -1,0 +1,144 @@
+{
+  "id": "ccs-high-purity-compression",
+  "name": "Capture from high-purity CO2 streams (compression and dehydration only)",
+  "aliases": [
+    "process CO2 capture",
+    "high-concentration sources"
+  ],
+  "sector": "CCS",
+  "category": "Point source / no separation step",
+  "applications": [
+    "natural gas processing (removed CO2)",
+    "ammonia",
+    "ethanol fermentation",
+    "ethylene oxide",
+    "gas-to-liquids and coal-to-liquids"
+  ],
+  "maturity": "commercial",
+  "principle": "Some plants already separate CO2 as part of their process, for example acid gas removal in gas processing or fermentation in ethanol plants. Capture then only needs the CO2 to be compressed, cooled and dried to pipeline specification, which makes these the lowest-cost capture opportunities.",
+  "process_steps": [
+    {
+      "id": "SRC",
+      "name": "Vented CO2 from the process unit",
+      "equipment": [
+        "existing acid gas removal or fermentation vent"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "Multistage compression with intercooling",
+      "equipment": [
+        "CO2 compressor",
+        "intercoolers and knock-out drums"
+      ]
+    },
+    {
+      "id": "DEH",
+      "name": "Dehydration",
+      "equipment": [
+        "glycol (TEG) dehydration unit"
+      ]
+    },
+    {
+      "id": "PIPE",
+      "name": "Export to pipeline or storage",
+      "equipment": [
+        "metering",
+        "export pump or final compression stage"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "CO2 compressor",
+    "intercoolers",
+    "knock-out drums",
+    "glycol dehydration unit"
+  ],
+  "costs": [
+    {
+      "metric": "cost of CO2 captured, natural gas processing (greenfield)",
+      "low": 16.1,
+      "high": 16.1,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL; compression with intercooling and possibly glycol dehydration",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    },
+    {
+      "metric": "cost of CO2 captured, ammonia (greenfield)",
+      "low": 19.0,
+      "high": 19.0,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL; high-purity stream",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    },
+    {
+      "metric": "cost of CO2 captured, ethylene oxide (greenfield)",
+      "low": 26.0,
+      "high": 26.0,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL; high-purity stream",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    },
+    {
+      "metric": "cost of CO2 captured, ethanol (greenfield)",
+      "low": 31.8,
+      "high": 31.8,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL; high-purity stream",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    },
+    {
+      "metric": "cost of CO2 captured, gas-to-liquids",
+      "low": 6.4,
+      "high": 6.4,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL; compression of acid gas removal CO2 stream",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "CO2 compressor and dehydration vendors (no licensed process needed)"
+    }
+  ],
+  "advantages": [
+    "Lowest cost per tonne",
+    "No solvent or separation unit to add"
+  ],
+  "limitations": [
+    "Limited to the CO2 a process already separates; the rest of the site's emissions (furnaces, utilities) need another route"
+  ],
+  "sources": [
+    {
+      "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+      "source_id": "netl",
+      "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

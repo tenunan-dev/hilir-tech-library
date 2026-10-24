@@ -1,0 +1,133 @@
+{
+  "id": "ccs-polymeric-membrane",
+  "name": "Polymeric membrane capture",
+  "aliases": [
+    "Polaris membrane",
+    "gas separation membrane"
+  ],
+  "sector": "CCS",
+  "category": "Post-combustion / membrane",
+  "applications": [
+    "coal and gas power flue gas",
+    "industrial flue gas"
+  ],
+  "maturity": "pilot",
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "Flue gas passes over a CO2-selective polymer membrane. A pressure difference across the membrane, created by compressing the feed and/or applying vacuum on the permeate side, drives CO2 through faster than nitrogen. Multiple stages and recycle raise purity and capture rate; no chemicals or steam are needed.",
+  "process_steps": [
+    {
+      "id": "FG",
+      "name": "Flue gas cooling and conditioning",
+      "equipment": [
+        "cooler",
+        "particulate and SOx polishing"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Feed compression",
+      "equipment": [
+        "blower or compressor"
+      ]
+    },
+    {
+      "id": "M1",
+      "name": "First membrane stage",
+      "equipment": [
+        "membrane modules (spiral wound or hollow fibre)",
+        "vacuum pump on permeate"
+      ],
+      "to": [
+        "M2",
+        "VENT"
+      ],
+      "streams": {
+        "M2": "CO2-enriched permeate",
+        "VENT": "CO2-lean residue"
+      }
+    },
+    {
+      "id": "VENT",
+      "name": "Residue to stack",
+      "equipment": [
+        "stack"
+      ],
+      "to": []
+    },
+    {
+      "id": "M2",
+      "name": "Second stage or liquefaction for purity",
+      "equipment": [
+        "membrane modules or CO2 liquefaction unit"
+      ],
+      "to": [
+        "COMP"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression",
+      "equipment": [
+        "CO2 compressor",
+        "dehydration"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "feed compressor or blower",
+    "membrane modules",
+    "vacuum pumps",
+    "heat exchangers",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "MTR Carbon Capture",
+      "product": "Polaris membrane",
+      "url": "https://www.businesswire.com/news/home/20230906900880/en/MTR-Carbon-Capture-Building-World’s-Largest-Membrane-Based-Carbon-Capture-Plant"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Wyoming Integrated Test Center large pilot, Dry Fork Station",
+      "country": "US",
+      "capacity": "150 t/day CO2",
+      "status": "under construction in Sept 2023, slated to operate in 2024",
+      "year": 2024,
+      "source": {
+        "url": "https://www.businesswire.com/news/home/20230906900880/en/MTR-Carbon-Capture-Building-World’s-Largest-Membrane-Based-Carbon-Capture-Plant",
+        "note": "MTR press release, 6 Sep 2023"
+      }
+    }
+  ],
+  "advantages": [
+    "No chemicals, little water, no steam",
+    "Modular"
+  ],
+  "limitations": [
+    "Power for compression and vacuum rises steeply at low CO2 concentration",
+    "Not yet proven at commercial scale on flue gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    },
+    {
+      "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
+      "source_id": "netl",
+      "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

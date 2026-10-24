@@ -1,0 +1,101 @@
+{
+  "id": "ccs-oxyfuel-cement",
+  "name": "Oxyfuel combustion in cement kilns",
+  "aliases": [
+    "oxy-combustion",
+    "ECRA oxyfuel"
+  ],
+  "sector": "CCS",
+  "category": "Oxyfuel",
+  "applications": [
+    "cement clinker kilns"
+  ],
+  "maturity": "demonstration",
+  "principle": "The kiln burns fuel in oxygen instead of air, and part of the exhaust is recirculated to control temperature. Without nitrogen, the exhaust is 70% CO2 or more, so it only needs purification and compression rather than a separation process.",
+  "process_steps": [
+    {
+      "id": "ASU",
+      "name": "Oxygen production",
+      "equipment": [
+        "air separation unit"
+      ],
+      "to": [
+        "KILN"
+      ]
+    },
+    {
+      "id": "KILN",
+      "name": "Kiln and calciner firing in O2 with flue gas recirculation",
+      "equipment": [
+        "kiln burner",
+        "recirculation fan and ducts"
+      ],
+      "to": [
+        "CPU"
+      ],
+      "streams": {
+        "CPU": "CO2-rich exhaust (70%+)"
+      }
+    },
+    {
+      "id": "CPU",
+      "name": "CO2 purification",
+      "equipment": [
+        "dust removal",
+        "drying",
+        "CO2 purification unit (inerts removal)"
+      ],
+      "to": [
+        "COMP"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression",
+      "equipment": [
+        "CO2 compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "air separation unit",
+    "flue gas recirculation fan",
+    "modified burners and seals",
+    "CO2 purification unit",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim",
+      "url": "https://www.heidelbergmaterials.com/en/ecra-oxyfuel"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Colleferro (IT) and Retznei (AT) industrial-scale test conversions",
+      "capacity": "industrial scale; test phase about EUR 80 million",
+      "status": "planned as of March 2018",
+      "year": 2018,
+      "source": {
+        "url": "https://www.heidelbergmaterials.com/en/ecra-oxyfuel",
+        "note": "Heidelberg Materials page, 15 Mar 2018"
+      }
+    }
+  ],
+  "advantages": [
+    "Concentrated CO2 without a solvent",
+    "Can be combined with other capture routes"
+  ],
+  "limitations": [
+    "Air separation unit power demand",
+    "Air ingress must be minimised; kiln modifications needed"
+  ],
+  "sources": [
+    {
+      "url": "https://www.heidelbergmaterials.com/en/ecra-oxyfuel"
+    }
+  ],
+  "last_reviewed": "2026-10-24",
+  "notes": "Status after 2018 not yet checked."
+}

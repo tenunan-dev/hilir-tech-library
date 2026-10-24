@@ -1,0 +1,141 @@
+{
+  "id": "ccs-cryogenic",
+  "name": "Cryogenic carbon capture (desublimation)",
+  "aliases": [
+    "CCC",
+    "cooling and liquefaction",
+    "SES cryogenic"
+  ],
+  "sector": "CCS",
+  "category": "Post-combustion / cryogenic",
+  "applications": [
+    "cement",
+    "coal and gas power",
+    "industrial flue gas"
+  ],
+  "maturity": "pilot",
+  "trl": {
+    "low": 5,
+    "high": 5,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "Flue gas is dried and cooled to about -117 °C or colder so that CO2 freezes out (desublimes) and is separated as a solid, then melted and pumped as high-purity liquid CO2. Cold is recovered between the incoming and outgoing streams in multi-stream heat exchangers.",
+  "process_steps": [
+    {
+      "id": "FG",
+      "name": "Drying and cooling",
+      "equipment": [
+        "dryer",
+        "multi-stream heat exchanger (5 °C minimum approach)"
+      ]
+    },
+    {
+      "id": "DS",
+      "name": "CO2 desublimation at about -117 °C",
+      "equipment": [
+        "desublimating heat exchanger or contact liquid vessel",
+        "refrigeration loop"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Solid separation and melting",
+      "equipment": [
+        "solid-liquid separator",
+        "melter"
+      ],
+      "to": [
+        "PUMP",
+        "VENT"
+      ],
+      "streams": {
+        "PUMP": "liquid CO2",
+        "VENT": "cold CO2-lean gas (cold recovered)"
+      }
+    },
+    {
+      "id": "VENT",
+      "name": "Cold recovery and stack",
+      "equipment": [
+        "multi-stream heat exchanger"
+      ],
+      "to": []
+    },
+    {
+      "id": "PUMP",
+      "name": "Liquid CO2 pressurisation",
+      "equipment": [
+        "cryogenic pump"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "multi-stream heat exchangers",
+    "refrigeration system",
+    "desublimation unit",
+    "solid separator and melter",
+    "liquid CO2 pump"
+  ],
+  "suppliers": [
+    {
+      "name": "Sustainable Energy Solutions (Chart Industries)",
+      "product": "Cryogenic Carbon Capture",
+      "source_id": "chart-industries",
+      "url": "https://netl.doe.gov/sites/default/files/netl-file/22CM_PSC15_Hoeger.pdf"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sugar Creek cement plant pilot",
+      "country": "US",
+      "capacity": "30 t/day nominal (after 1 t/day tests)",
+      "status": "DOE project Feb 2022 to Apr 2025; target 95% capture and 95% purity",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/netl-file/22CM_PSC15_Hoeger.pdf",
+        "source_id": "netl",
+        "note": "NETL 2022 Carbon Management meeting, SES presentation"
+      }
+    }
+  ],
+  "performance": [
+    {
+      "metric": "target electricity use, full-scale TEA",
+      "high": 0.83,
+      "unit": "MJe/kg CO2",
+      "basis": "project target, not measured",
+      "year": 2022,
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/netl-file/22CM_PSC15_Hoeger.pdf",
+        "source_id": "netl"
+      }
+    }
+  ],
+  "advantages": [
+    "Produces liquid CO2 directly, convenient for shipping",
+    "Can also remove other pollutants as they freeze out"
+  ],
+  "limitations": [
+    "Heavy refrigeration duty; economics depend on cold recovery",
+    "Pilot scale only"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/sites/default/files/netl-file/22CM_PSC15_Hoeger.pdf",
+      "source_id": "netl"
+    },
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

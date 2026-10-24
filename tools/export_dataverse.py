@@ -2,7 +2,7 @@
 
     python tools/export_dataverse.py [--out build/dataverse] [--include-restricted]
 
-Writes sources.csv, documents.csv and taxonomy.csv. By default, document text is included only
+Writes sources.csv, documents.csv, taxonomy.csv and technologies.csv. By default, document text is included only
 for open-licence documents, so the tables are safe in an environment shared with colleagues.
 Restricted documents still get a row (title, url, licence) with no text. --include-restricted
 adds their text too; use it only for a personal environment no one else can read.
@@ -18,6 +18,7 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "agent"))
 import library  # noqa: E402
+import technologies  # noqa: E402
 
 SOURCE_COLUMNS = ["name", "source_id", "url", "publisher_org", "country", "source_type", "sectors", "disciplines",
                   "regions", "topics", "access", "licence", "reuse_level", "automated_access", "permitted_use",
@@ -77,7 +78,21 @@ def export(out, include_restricted=False):
                 w.writerow([code, axis[:-1], info["name"], "; ".join(info["subtopics"])])
         for code, name in tax["regions"].items():
             w.writerow([code, "region", name, ""])
-    return {"sources": len(records), "documents_with_text": with_text, "documents_without_text": without_text}
+    cards = technologies.load_cards()
+    with (out / "technologies.csv").open("w", newline="", encoding="utf-8-sig") as fh:
+        w = csv.writer(fh)
+        w.writerow(["name", "technology_id", "sector", "category", "maturity", "trl", "applications", "principle",
+                    "process_steps", "key_equipment", "suppliers", "costs", "reference_plants", "block_diagram_mermaid",
+                    "sources", "last_reviewed"])
+        for card in cards:
+            sm = technologies.summary(card)
+            w.writerow([card["name"], card["id"], card["sector"], card["category"], card["maturity"], sm["trl"] or "",
+                        "; ".join(card.get("applications", [])), card["principle"],
+                        " -> ".join(s["name"] for s in card["process_steps"]), "; ".join(card["key_equipment"]),
+                        "; ".join(sm["suppliers"]), "; ".join(sm["costs"]),
+                        "; ".join(f"{p['name']}: {p.get('capacity', '')}" for p in card.get("reference_plants", [])),
+                        technologies.mermaid(card), " ".join(s["url"] for s in card["sources"]), card["last_reviewed"]])
+    return {"technologies": len(cards), "sources": len(records), "documents_with_text": with_text, "documents_without_text": without_text}
 
 
 if __name__ == "__main__":

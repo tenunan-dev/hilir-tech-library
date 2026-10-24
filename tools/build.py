@@ -4,6 +4,8 @@ Outputs:
   catalog/catalog.jsonl         one record per line, for loaders and vector pipelines
   catalog/index/<CODE>.md       one Markdown page per sector and discipline code
   catalog/index/README.md       counts by code, region, source type and reuse level
+  catalog/technologies.jsonl    technology cards, one per line
+  catalog/index/technologies-<SECTOR>.md  comparison table and block diagrams per sector
 """
 import collections
 import json
@@ -12,6 +14,9 @@ import sys
 
 import jsonschema
 import yaml
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "agent"))
+import technologies  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "catalog" / "sources"
@@ -30,6 +35,34 @@ def load():
             errors.append(f"{path.name}: id '{rec.get('id')}' does not match file name")
         records.append(rec)
     return records, errors
+
+
+def load_technologies(source_ids):
+    schema = json.loads((ROOT / "schema" / "technology.schema.json").read_text(encoding="utf-8"))
+    validator = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
+    cards, errors = [], []
+    for path in sorted(technologies.CARDS.glob("*.json")):
+        card = json.loads(path.read_text(encoding="utf-8"))
+        errors += [f"technologies/{path.name}: {'/'.join(map(str, e.path))} {e.message}" for e in validator.iter_errors(card)]
+        if card.get("id") != path.stem:
+            errors.append(f"technologies/{path.name}: id does not match file name")
+        if not errors:
+            errors += [f"technologies/{path.name}: {p}" for p in technologies.check(card)]
+        unknown = sorted({sid for sid in _source_ids(card) if sid not in source_ids})
+        errors += [f"technologies/{path.name}: unknown source_id {sid}" for sid in unknown]
+        cards.append(card)
+    return cards, errors
+
+
+def _source_ids(obj):
+    if isinstance(obj, dict):
+        if "source_id" in obj:
+            yield obj["source_id"]
+        for v in obj.values():
+            yield from _source_ids(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from _source_ids(v)
 
 
 def row(rec):
@@ -79,6 +112,8 @@ def write_indexes(records, taxonomy):
 
 def main():
     records, errors = load()
+    cards, tech_errors = load_technologies({r.get("id") for r in records})
+    errors += tech_errors
     if errors:
         print("\n".join(errors))
         print(f"{len(errors)} validation errors")
@@ -89,7 +124,12 @@ def main():
         for rec in records:
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
     write_indexes(records, taxonomy)
-    print(f"{len(records)} records valid, {len(ids)} unique ids; indexes written")
+    with (ROOT / "catalog" / "technologies.jsonl").open("w", encoding="utf-8") as fh:
+        for card in cards:
+            fh.write(json.dumps(card, ensure_ascii=False) + "\n")
+    for sector in sorted({c["sector"] for c in cards}):
+        (INDEX / f"technologies-{sector}.md").write_text(technologies.markdown_page(cards, sector), encoding="utf-8")
+    print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards; indexes written")
     return 0
 
 

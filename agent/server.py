@@ -33,6 +33,8 @@ except ImportError:  # mcp 1.x
 INSTRUCTIONS = """Library of public sources on oil, gas, petrochemical and energy technologies,
 weighted toward Asia Pacific and Southeast Asia. Sector codes: UPS, MID, GAS, REF, PCH, PWR, H2, CCS.
 Discipline codes: PRC, ROT, INS, MAT, HSE, DIG. Regions include sea, apac, global.
+For "what are the options for X" questions, start with compare_technologies and get_technology
+(curated cards with block diagrams, equipment, costs with basis, and sources), then search for more.
 Always cite a result's url. Respect reuse_level: full-text-restricted text is a private reference
 copy (no redistribution or commercial use); summary-only and catalog-only sources have no stored text."""
 
@@ -82,6 +84,21 @@ def list_by_tag(code: str | None = None, region: str | None = None, reuse_level:
                 source_type: str | None = None) -> list[dict]:
     """List catalog sources by sector or discipline code, region, reuse level or source type."""
     return library.list_by_tag(code, region, reuse_level, source_type, db())
+
+
+@server.tool()
+def get_technology(technology_id: str) -> dict | None:
+    """One technology card: principle, process steps with equipment, block flow diagram (Mermaid),
+    key equipment, performance and cost figures with their basis and source, suppliers, reference plants."""
+    return library.get_technology(technology_id, db())
+
+
+@server.tool()
+def compare_technologies(sector: str | None = None, maturity: str | None = None,
+                         application: str | None = None) -> list[dict]:
+    """Comparison table of technology options, commercial first. sector: e.g. CCS.
+    maturity: commercial, demonstration, pilot or lab. application: e.g. cement, power, hydrogen."""
+    return library.compare_technologies(sector, maturity, application, db())
 
 
 @server.tool()

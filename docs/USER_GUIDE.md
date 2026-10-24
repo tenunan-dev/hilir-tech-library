@@ -43,6 +43,8 @@ Tools:
 | `get_source(source_id)` | Read a source's full record and list its documents |
 | `get_document(path)` | Read a document in full, using the `path` from a search result |
 | `list_by_tag(code, region, reuse_level, source_type)` | Browse, e.g. all `ROT` sources in `sea` |
+| `compare_technologies(sector, maturity, application)` | Compare technology options (e.g. all CCS routes for cement), commercial first |
+| `get_technology(technology_id)` | One technology card: principle, process steps and equipment, a Mermaid block flow diagram, costs with basis, suppliers, reference plants, sources |
 | `library_stats()` | Check what is indexed and whether semantic search is on |
 
 Example questions for an assistant with the server connected:
@@ -50,6 +52,9 @@ Example questions for an assistant with the server connected:
 - "Which Southeast Asian sources cover LNG liquefaction technology?"
 - "Find recent papers on PEM electrolyzer degradation and summarise them with citations."
 - "List open-licence sources for carbon capture."
+- "What CCS options exist for a cement plant, on the market and in the lab, with block diagrams, equipment and costs?" The assistant should call `compare_technologies(sector="CCS", application="cement")`, then `get_technology` for each, and render the Mermaid diagrams.
+
+Technology cards are also readable without the server: `catalog/index/technologies-CCS.md` (comparison table and diagrams) and `catalog/technologies.jsonl`. Costs are only comparable when their basis matches: check the dollar year, plant type, capture rate and scope given with each figure.
 
 ### Python module
 

@@ -1,0 +1,138 @@
+{
+  "id": "ccs-syngas-chemical-solvent",
+  "name": "Chemical solvent capture from syngas (hydrogen plants)",
+  "aliases": [
+    "ADIP ULTRA",
+    "activated MDEA",
+    "pre-combustion amine"
+  ],
+  "sector": "CCS",
+  "category": "Pre-combustion / chemical solvent",
+  "applications": [
+    "steam methane reforming hydrogen",
+    "refinery hydrogen",
+    "ammonia syngas"
+  ],
+  "maturity": "commercial",
+  "principle": "In hydrogen plants, CO2 is removed from the shifted syngas at moderate pressure with an activated amine solvent before the hydrogen is purified. The CO2 is released in a regenerator and compressed. Capturing from syngas alone leaves the reformer furnace flue gas uncaptured.",
+  "process_steps": [
+    {
+      "id": "SMR",
+      "name": "Reforming and water-gas shift",
+      "equipment": [
+        "steam methane reformer",
+        "shift reactors"
+      ]
+    },
+    {
+      "id": "ABS",
+      "name": "CO2 absorption from syngas",
+      "equipment": [
+        "absorber"
+      ],
+      "to": [
+        "REG",
+        "PSA"
+      ],
+      "streams": {
+        "REG": "rich solvent",
+        "PSA": "CO2-lean syngas"
+      }
+    },
+    {
+      "id": "PSA",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "pressure swing adsorption unit"
+      ],
+      "to": []
+    },
+    {
+      "id": "REG",
+      "name": "Solvent regeneration",
+      "equipment": [
+        "flash drum",
+        "regenerator with reboiler"
+      ],
+      "to": [
+        "COMP",
+        "ABS"
+      ],
+      "streams": {
+        "COMP": "CO2",
+        "ABS": "lean solvent"
+      }
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression and dehydration",
+      "equipment": [
+        "CO2 compressor",
+        "dehydration"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "absorber",
+    "regenerator and reboiler",
+    "flash drum",
+    "CO2 compressor",
+    "PSA unit (existing)"
+  ],
+  "suppliers": [
+    {
+      "name": "Shell Catalysts & Technologies",
+      "product": "ADIP ULTRA",
+      "source_id": "shell-catalysts",
+      "url": "https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Quest, Scotford upgrader (Shell)",
+      "country": "CA",
+      "capacity": "1 Mt/yr nameplate; about 80% of CO2 from the hydrogen units",
+      "status": "operating; more than 3 Mt captured by early 2019",
+      "source": {
+        "url": "https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf",
+        "source_id": "shell-catalysts",
+        "note": "Shell white paper, February 2019"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "cost of CO2 captured, refinery hydrogen (SMR), greenfield 90% capture",
+      "low": 59.9,
+      "high": 59.9,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL industrial case; 99% capture 57.3; retrofit 61.7. Check the report for which streams are captured at each rate",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    }
+  ],
+  "advantages": [
+    "Proven in hydrogen and ammonia plants",
+    "Shell cites up to 30% lower regeneration energy than accelerated MDEA for ADIP ULTRA (vendor claim)"
+  ],
+  "limitations": [
+    "Captures only process CO2; high capture rates also need flue gas capture on the reformer furnace"
+  ],
+  "sources": [
+    {
+      "url": "https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf",
+      "source_id": "shell-catalysts"
+    },
+    {
+      "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+      "source_id": "netl",
+      "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

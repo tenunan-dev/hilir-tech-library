@@ -1,0 +1,129 @@
+{
+  "id": "ccs-dac-solid-sorbent",
+  "name": "Direct air capture with solid sorbent",
+  "aliases": [
+    "Climeworks",
+    "sorbent DAC",
+    "low-temperature DAC"
+  ],
+  "sector": "CCS",
+  "category": "Direct air capture / solid sorbent",
+  "applications": [
+    "carbon removal"
+  ],
+  "maturity": "demonstration",
+  "trl": {
+    "low": 5,
+    "high": 5,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "Fans draw air through collectors where CO2 binds to a solid sorbent. When the sorbent is saturated the collector closes and is heated to about 100 °C, releasing concentrated CO2 that is then stored. Low-temperature heat means waste or geothermal heat can be used.",
+  "process_steps": [
+    {
+      "id": "AIR",
+      "name": "Air intake",
+      "equipment": [
+        "fans"
+      ],
+      "to": [
+        "ADS"
+      ]
+    },
+    {
+      "id": "ADS",
+      "name": "Adsorption on solid sorbent",
+      "equipment": [
+        "collector modules with sorbent filters"
+      ],
+      "to": [
+        "DES"
+      ]
+    },
+    {
+      "id": "DES",
+      "name": "Desorption at about 100 °C",
+      "equipment": [
+        "heating with low-grade heat or steam",
+        "collector sealing"
+      ],
+      "to": [
+        "COND"
+      ]
+    },
+    {
+      "id": "COND",
+      "name": "Cooling, drying and compression",
+      "equipment": [
+        "condenser",
+        "CO2 compressor"
+      ],
+      "to": [
+        "STORE"
+      ]
+    },
+    {
+      "id": "STORE",
+      "name": "Storage or use",
+      "equipment": [
+        "injection (e.g. mineralisation with Carbfix in Iceland)"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "collector modules",
+    "fans",
+    "sorbent",
+    "heat supply",
+    "vacuum and condensing system",
+    "CO2 compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "Climeworks",
+      "url": "https://climeworks.com/highly-scalable-direct-air-capture"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Mammoth, Iceland",
+      "country": "IS",
+      "capacity": "up to 36,000 t/yr nameplate; geothermal energy; storage by Carbfix",
+      "status": "first CO2 captured, May 2024",
+      "year": 2024,
+      "source": {
+        "url": "https://www.esgtoday.com/climeworks-starts-up-largest-ever-dac-carbon-removal-plant",
+        "note": "ESG Today, 10 May 2024"
+      }
+    }
+  ],
+  "advantages": [
+    "Runs on heat at about 100 °C, so geothermal or waste heat can be used",
+    "Modular"
+  ],
+  "limitations": [
+    "Large air volumes per tonne of CO2",
+    "Cost per tonne still high; Climeworks states costs have halved but gives no figure on the cited page"
+  ],
+  "sources": [
+    {
+      "url": "https://climeworks.com/highly-scalable-direct-air-capture"
+    },
+    {
+      "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
+      "source_id": "netl",
+      "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
+    },
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  ],
+  "last_reviewed": "2026-10-24",
+  "notes": "Actual Mammoth capture rates versus nameplate not yet checked."
+}

@@ -1,0 +1,253 @@
+{
+  "id": "ccs-amine-post-combustion",
+  "name": "Amine solvent post-combustion capture",
+  "aliases": [
+    "chemical absorption",
+    "MEA",
+    "advanced amine",
+    "KM CDR",
+    "CANSOLV",
+    "Econamine FG Plus",
+    "Just Catch"
+  ],
+  "sector": "CCS",
+  "category": "Post-combustion / chemical solvent",
+  "applications": [
+    "coal and gas power",
+    "cement",
+    "waste-to-energy",
+    "bioenergy",
+    "refinery heaters and SMR furnaces",
+    "steel"
+  ],
+  "maturity": "commercial",
+  "trl": {
+    "low": 6,
+    "high": 9,
+    "source": {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    }
+  },
+  "principle": "Flue gas is cooled and contacted counter-currently with an aqueous amine solution, which reacts with CO2. The CO2-rich solution is heated with low-pressure steam in a stripper, releasing a near-pure CO2 stream and regenerating the solvent for reuse. Vendors differ mainly in solvent formulation, heat integration and solvent management.",
+  "process_steps": [
+    {
+      "id": "FG",
+      "name": "Flue gas pretreatment and cooling",
+      "equipment": [
+        "direct contact cooler or quench pre-scrubber",
+        "SOx/NOx polishing where required",
+        "booster fan"
+      ]
+    },
+    {
+      "id": "ABS",
+      "name": "CO2 absorption",
+      "equipment": [
+        "packed absorber column with intercooling",
+        "water wash section"
+      ],
+      "to": [
+        "RX",
+        "VENT"
+      ],
+      "streams": {
+        "RX": "rich amine",
+        "VENT": "treated flue gas"
+      }
+    },
+    {
+      "id": "VENT",
+      "name": "Treated gas to stack",
+      "equipment": [
+        "stack"
+      ],
+      "to": []
+    },
+    {
+      "id": "RX",
+      "name": "Lean/rich heat exchange",
+      "equipment": [
+        "lean/rich plate or shell-and-tube exchanger",
+        "rich amine pumps"
+      ],
+      "to": [
+        "STR"
+      ]
+    },
+    {
+      "id": "STR",
+      "name": "Solvent regeneration",
+      "equipment": [
+        "stripper (regenerator) column",
+        "reboiler on LP steam",
+        "overhead condenser and reflux accumulator"
+      ],
+      "to": [
+        "COMP",
+        "ABS"
+      ],
+      "streams": {
+        "COMP": "CO2",
+        "ABS": "lean amine (via exchanger and cooler)"
+      }
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 conditioning and compression",
+      "equipment": [
+        "multistage CO2 compressor with intercoolers",
+        "dehydration unit"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "direct contact cooler",
+    "absorber with water wash",
+    "lean/rich exchanger",
+    "stripper with reboiler",
+    "amine reclaimer or purification unit",
+    "filters and lean amine tank",
+    "CO2 compressor and dehydration"
+  ],
+  "costs": [
+    {
+      "metric": "cost of CO2 captured, cement (greenfield, 90% capture)",
+      "low": 62.7,
+      "high": 62.7,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL industrial case, capture, compression, intercooling and dehydration; 99% capture case 60.8; retrofit 64.3",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    },
+    {
+      "metric": "cost of CO2 captured, iron and steel BOF (retrofit, 90% capture)",
+      "low": 65.9,
+      "high": 65.9,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL industrial case, retrofit only; 99% capture case 65.4",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Mitsubishi Heavy Industries",
+      "product": "KM CDR Process with KS-1 solvent",
+      "source_id": "mhi-carbon-capture",
+      "url": "https://www.mhi.com/news/story/1407151816.html"
+    },
+    {
+      "name": "Shell Catalysts & Technologies",
+      "product": "CANSOLV CO2 Capture System",
+      "source_id": "shell-catalysts",
+      "url": "https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf"
+    },
+    {
+      "name": "SLB Capturi",
+      "product": "Just Catch (modular) and larger plants",
+      "source_id": "aker-carbon-capture",
+      "url": "https://capturi.slb.com/resources/news/2025/slb-capturi-celebrates-first-anniversary-marking-a-year-of-breakthroughs"
+    },
+    {
+      "name": "Fluor",
+      "product": "Econamine FG Plus",
+      "source_id": "fluor",
+      "url": "https://a.fluor.com/f/1014770/x/a744f915e1/econamine-fg-plus-brochure.pdf"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Boundary Dam Unit 3 (SaskPower)",
+      "country": "CA",
+      "capacity": "1 Mt/yr CO2 from a 150 MW lignite unit (CANSOLV)",
+      "status": "operating",
+      "source": {
+        "url": "https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf",
+        "source_id": "shell-catalysts",
+        "note": "Shell white paper, February 2019"
+      }
+    },
+    {
+      "name": "Petra Nova, W.A. Parish Unit 8 (NRG)",
+      "country": "US",
+      "capacity": "4,700 t/day design, 240 MW slipstream; 92.4% average capture; 3.54 Mt captured 2017-2019 (KM CDR)",
+      "status": "commercial operation from 29 Dec 2016; DOE demonstration period 2017-2019",
+      "year": 2016,
+      "source": {
+        "url": "https://publications.ieaghg.org/insightpapers/2020-IP11%20DOE%20report%20on%20Petra%20Nova.pdf",
+        "source_id": "iea-ghg",
+        "note": "IEAGHG insight on DOE final report, 2020"
+      }
+    },
+    {
+      "name": "Brevik CCS (Heidelberg Materials)",
+      "country": "NO",
+      "capacity": "up to 400,000 t/yr CO2 from cement (SLB Capturi)",
+      "status": "in operation since June 2025",
+      "year": 2025,
+      "source": {
+        "url": "https://capturi.slb.com/resources/news/2025/slb-capturi-celebrates-first-anniversary-marking-a-year-of-breakthroughs",
+        "source_id": "aker-carbon-capture",
+        "note": "SLB Capturi news, 16 Sep 2025"
+      }
+    },
+    {
+      "name": "Twence CCU, Hengelo",
+      "country": "NL",
+      "capacity": "100,000 t/yr CO2 from waste-to-energy (Just Catch)",
+      "status": "delivered",
+      "source": {
+        "url": "https://capturi.slb.com/resources/news/2025/slb-capturi-celebrates-first-anniversary-marking-a-year-of-breakthroughs",
+        "source_id": "aker-carbon-capture"
+      }
+    }
+  ],
+  "advantages": [
+    "Longest operating record of any flue-gas capture route",
+    "Works on dilute flue gas (Fluor cites down to 3 vol% CO2 and up to 15 vol% O2)",
+    "Several competing licensors and EPC contractors"
+  ],
+  "limitations": [
+    "Large low-pressure steam demand for regeneration",
+    "Solvent degradation by O2, SOx and NOx needs reclaiming and make-up",
+    "Large equipment footprint for dilute, low-pressure flue gas"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
+      "source_id": "sintef",
+      "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    },
+    {
+      "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+      "source_id": "netl",
+      "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
+    },
+    {
+      "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
+      "source_id": "netl",
+      "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
+    },
+    {
+      "url": "https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf",
+      "source_id": "shell-catalysts"
+    },
+    {
+      "url": "https://a.fluor.com/f/1014770/x/a744f915e1/econamine-fg-plus-brochure.pdf",
+      "source_id": "fluor"
+    }
+  ],
+  "notes": "Regeneration energy figures to be added from the NETL Cost and Performance Baseline (Rev 4a).",
+  "last_reviewed": "2026-10-24"
+}

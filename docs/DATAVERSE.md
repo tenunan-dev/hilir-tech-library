@@ -15,6 +15,7 @@ python tools/export_dataverse.py --include-restricted  # personal environment on
 | `sources.csv` | one per catalog record | All catalog fields; lists as `;`-separated text; `topics` spells out the codes |
 | `documents.csv` | one per corpus document | Metadata for every document; `body` only where `text_included` is `yes` |
 | `taxonomy.csv` | one per code | Sector, discipline and region codes with names and sub-topics |
+| `technologies.csv` | one per technology card | Maturity, TRL, suppliers, process steps, equipment, costs with basis, Mermaid block diagram, sources |
 
 By default only open-licence documents carry text. Restricted documents (private reference copies) get a row with title, url and licence but no text, because a Dataverse environment is usually readable by colleagues. Use `--include-restricted` only in an environment no one else can read.
 
@@ -27,6 +28,7 @@ In [Power Apps](https://make.powerapps.com), pick the environment, then **Tables
 | Library Source | `name` | `source_id` | `url` URL; `quality_tier` whole number; `last_verified` date; `notes` multiline text |
 | Library Document | `title` | `document_id` | `url` URL; `published`, `retrieved_at` date and time; `body` multiline text (max length 1,048,576); `source_id` can later become a lookup to Library Source |
 | Library Taxonomy | `code` | `code` | all text |
+| Library Technology | `name` | `technology_id` | `principle`, `costs`, `block_diagram_mermaid` multiline text |
 
 Leave the other columns as single line text. `sectors`, `disciplines` and `regions` can be converted to multi-select choice columns later (choices from taxonomy.csv) if you want filters in Power Apps.
 
