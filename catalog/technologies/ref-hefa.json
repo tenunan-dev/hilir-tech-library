@@ -157,20 +157,6 @@
   "last_reviewed": "2026-10-24",
   "gaps": [
     {
-      "field": "trl",
-      "item": "TRL range with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
-    {
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
@@ -197,7 +183,7 @@
       "field": "costs",
       "item": "minimum fuel selling price (USD/gal) for HEFA renewable diesel and SAF",
       "reason_code": "source_unreachable",
-      "reason": "The NREL/PNNL techno-economic reports are on osti.gov, which the collector cannot reach, and NREL copies are private only.",
+      "reason": "The NREL/PNNL techno-economic reports are on osti.gov, which the collector cannot reach, and NREL copies are private only. The DOE SAF Grand Challenge Roadmap (2022) and Implementation Framework (2024) were collected and checked: they give only the USD 1.25-1.75/gal tax credit, not a production cost.",
       "where": [
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
@@ -208,15 +194,19 @@
           "hint": "NREL SAF techno-economic analyses",
           "source_id": "nrel",
           "access": "open"
-        },
-        {
-          "hint": "DOE SAF Grand Challenge Roadmap (record doe-affo added; not yet collected)",
-          "source_id": "doe-affo",
-          "access": "open"
         }
       ],
-      "action": "Collect the SAF Grand Challenge Roadmap now; collect NREL/PNNL reports when osti.gov is reachable.",
+      "action": "Collect the NREL/PNNL techno-economic reports when osti.gov is reachable (or download them by hand into corpus/_inbox/osti/); add yield and minimum selling price with dollar year.",
       "blocked_by": "osti.gov reachable from the Mac"
     }
-  ]
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrotreating of oil/fats to HVOs or HEFAs' 9"
+    }
+  }
 }

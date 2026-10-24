@@ -99,26 +99,6 @@
   "last_reviewed": "2026-10-24",
   "gaps": [
     {
-      "field": "trl",
-      "item": "TRL range with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives a TRL.",
-      "where": [
-        {
-          "hint": "IEAGHG review of current and emerging CO2 capture technologies (TCCS-10, 2019), Task 1 TRL tables",
-          "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
-          "source_id": "sintef",
-          "access": "open"
-        },
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
-    {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -178,5 +158,14 @@
       ],
       "action": "Check current status and update reference_plants."
     }
-  ]
+  ],
+  "trl": {
+    "low": 7,
+    "high": 7,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Oxy-fuelling and carbon capture' 7"
+    }
+  }
 }

@@ -246,23 +246,32 @@
   "gaps": [
     {
       "field": "trl",
-      "item": "TRL range with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
+      "item": "maturity versus IEA TRL",
+      "reason_code": "conflicting_sources",
+      "reason": "The card says commercial, but the IEA guide gives TRL 6-9 for the low-carbon (CCUS-enabled) configuration; the base process is commercial in other uses.",
       "where": [
         {
-          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
+          "hint": "IEA Clean Energy Technology Guide entry descriptions (collected)",
+          "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
           "source_id": "iea-reports",
           "access": "open"
         },
         {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): technology status chapters",
-          "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+          "hint": "IEA Global Hydrogen Review 2025 (collected): operating CCUS-equipped plants",
           "source_id": "iea-reports",
           "access": "open"
         }
       ],
-      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
+      "action": "Decide whether the card's maturity should describe the base process or the low-carbon configuration, and say which in the principle."
     }
-  ]
+  ],
+  "trl": {
+    "low": 6,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Steam reforming - partial capture' 9; 'Steam reforming - high capture rates' 6"
+    }
+  }
 }

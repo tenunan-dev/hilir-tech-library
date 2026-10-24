@@ -9,7 +9,7 @@ Living document. Update it at the end of every working session (newest entry on 
 | Catalog records | 344 |
 | Verified | 126 (31 full-text-open, 75 full-text-restricted, 16 summary-only, 4 catalog-only) |
 | Unverified | 217, of which 50 need a manual terms check (`catalog/index/needs-manual-check.md`) |
-| Corpus documents | 61 (OSTI and arXiv abstracts; NETL, DOE and IEA reports in full text) |
+| Corpus documents | 64 (OSTI and arXiv abstracts; NETL, DOE and IEA reports in full text; IEA technology guide dataset) |
 | Technology cards | 52 (CCS 14, H2 12, GAS 13, REF 13); register of about 300 technologies in `catalog/technology-register.yaml` |
 
 Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl` and the MCP tool `library_stats`.
@@ -46,6 +46,7 @@ Add one entry per working session, newest on top, in this format, so an agent wi
 - **YYYY-MM-DD, <who or which agent>:** Did: <changes, with commit hashes>. Verified: <checks run and results, e.g. build.py N records valid, pytest N passed, trial run looked right>. Failed: <what did not work, with the exact error message>. Next: <the concrete next step, or the owner decision it waits on>.
 ```
 
+- **2026-10-24 (late night):** Mac collected the DOE SAF Grand Challenge Roadmap and Implementation Framework (doe-affo) and the IEA ETP Clean Energy Technology Guide dataset (634 technologies, TRL by year, CC BY 4.0). TRLs filled on 17 cards from the IEA guide; 25 cards have no IEA entry (gap updated). Neither SAF document gives HEFA or ATJ production costs. Open gaps now 119 on 51 cards.
 - **2026-10-24 (night):** Missing inputs are now recorded: `gaps` field on every card (132 gaps: what, why, where to get it, next action, blocker), `catalog/index/gaps.md`, MCP tool `list_gaps`, `gaps.csv` in the Dataverse export. 243 register technologies still have no card.
 - **2026-10-24 (evening):** 38 technology cards added: hydrogen (SMR, ATR with capture, alkaline, PEM, SOEC, AEM, methane pyrolysis, ammonia cracking, LOHC, liquid hydrogen, salt cavern storage, green and blue ammonia), gas and LNG (amine and membrane treating, dehydration, mercury removal, sulfur recovery, turbo-expander NGL, C3MR/AP-X, Optimized Cascade, DMR, MFC, FLNG, FSRU, GTL) and refining (CDU/VDU, hydrotreating, FCC, hydrocracking, resid hydrocracking, coking, reforming, isomerisation, alkylation, HEFA, co-processing, alcohol-to-jet, crude-to-chemicals). Every card links to its register entry. The Mac collected 8 NETL, DOE and IEA hydrogen and LNG reports. Record `doe-affo` added (DOE Alternative Fuels and Feedstocks Office, formerly BETO).
 - **2026-10-24 (later):** CCS pilot: technology card schema, 14 CCS cards (amine, high-purity, physical and syngas solvents, membranes, sorbents, cryogenic, calcium looping, oxyfuel cement, Allam cycle, two DAC routes, chemical looping, emerging), Mermaid block diagrams, `compare_technologies` and `get_technology` MCP tools, technologies.csv in the Dataverse export, per-document sector tags. Next: add regeneration energy and power-plant costs from the NETL baseline, and re-check statuses noted in each card's `notes`.

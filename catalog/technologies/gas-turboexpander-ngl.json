@@ -133,11 +133,10 @@
       "field": "trl",
       "item": "TRL range with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry.",
       "where": [
         {
-          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
-          "source_id": "iea-reports",
+          "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
           "access": "open"
         }
       ],

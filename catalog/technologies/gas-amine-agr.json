@@ -178,20 +178,6 @@
   "last_reviewed": "2026-10-24",
   "gaps": [
     {
-      "field": "trl",
-      "item": "TRL range with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
-    {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -218,5 +204,14 @@
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     }
-  ]
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Advanced acid gas removal' 9"
+    }
+  }
 }

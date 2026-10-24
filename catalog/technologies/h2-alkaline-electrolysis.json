@@ -317,26 +317,6 @@
   ],
   "gaps": [
     {
-      "field": "trl",
-      "item": "TRL range with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): technology status chapters",
-          "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
-    {
       "field": "other",
       "item": "electrolyser type and supplier at Sinopec Kuqa",
       "reason_code": "not_in_sources_read",
@@ -350,5 +330,14 @@
       ],
       "action": "Confirm type and supplier, then keep or move the Kuqa reference plant."
     }
-  ]
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Alkaline electrolyser' 9"
+    }
+  }
 }
