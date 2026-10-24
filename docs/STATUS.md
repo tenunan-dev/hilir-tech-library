@@ -6,11 +6,11 @@ Living document. Update it at the end of every working session (newest entry on 
 
 | Item | Count |
 | --- | --- |
-| Catalog records | 344 |
+| Catalog records | 347 |
 | Verified | 126 (31 full-text-open, 75 full-text-restricted, 16 summary-only, 4 catalog-only) |
 | Unverified | 217, of which 50 need a manual terms check (`catalog/index/needs-manual-check.md`) |
 | Corpus documents | 64 (OSTI and arXiv abstracts; NETL, DOE and IEA reports in full text; IEA technology guide dataset) |
-| Technology cards | 61 (CCS 14, H2 12, GAS 13, REF 13, PCH 9); register of about 300 technologies in `catalog/technology-register.yaml` |
+| Technology cards | 67 (CCS 15, H2 12, GAS 13, REF 13, PCH 9, UPS 5); register of about 300 technologies in `catalog/technology-register.yaml` |
 
 Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl` and the MCP tool `library_stats`.
 
@@ -22,7 +22,7 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 
 ## Backlog (in rough priority order)
 
-1. **Technology cards:** cards exist for CCS, H2, GAS and REF; all open gaps are listed in `catalog/index/gaps.md`. Main ones: NETL baseline figures for CCS (regeneration energy, power-plant cost of capture); LNG specific power by liquefaction process (kWh/t); liquid hydrogen liquefaction energy; HEFA and alcohol-to-jet selling prices (NREL/PNNL reports on osti.gov, unreachable so far); SAF Grand Challenge Roadmap (record `doe-affo` now added, collect it). Next sectors: UPS, MID, PWR; PCH partly done.
+1. **Technology cards:** cards exist for CCS, H2, GAS, REF, PCH and part of UPS; all open gaps are listed in `catalog/index/gaps.md`. Main ones: NETL baseline figures for CCS (regeneration energy, power-plant cost of capture); LNG specific power by liquefaction process (kWh/t); liquid hydrogen liquefaction energy; HEFA and alcohol-to-jet selling prices (NREL/PNNL reports on osti.gov, unreachable so far); SAF Grand Challenge Roadmap (record `doe-affo` now added, collect it). Next sectors: UPS, MID, PWR; PCH partly done.
 1. **Manual terms checks:** 50 records listed in `catalog/index/needs-manual-check.md`.
 2. **Unchecked collectable records:** chula-petroleum, itb-indonesia, kaust, keei, khalifa-university, mycite, myipo, nea-china, th-dmf, vn-pvj, uq-energy, weatherford.
 3. **Remaining unverified records:** verify the rest of the 217, Southeast Asia and Asia Pacific first.
@@ -63,3 +63,4 @@ Add one entry per working session, newest on top, in this format, so an agent wi
 - 2026-10-24 (hosting subdomain): owner chose techlibrary.tenunan.com for the hosted server (endpoint https://techlibrary.tenunan.com/mcp). Still needed: plan upgrade to Workers Paid in the Dev@tenunan.com account, and confirmation that tenunan.com DNS is in that account.
 - 2026-10-24 (hosting account): owner's dashboard screenshot shows tenunan.com and hitungkerusi.fyi in the Cloudflare account signed in as Faisal.muthalib@gmail.com (the account with the Workers Paid plan and the hitungkerusi Worker), not the Dev@tenunan.com account the Mac's wrangler was logged into. Deploy techlibrary.tenunan.com from the Faisal.muthalib@gmail.com account: the owner runs `npx wrangler login` on the Mac and picks that account. No upgrade needed. Open: confirm the paid plan is active in that account.
 - 2026-10-24 (hosting live): the library is online at https://techlibrary.tenunan.com/mcp (Cloudflare Worker plus Container running the Dockerfile, account that holds tenunan.com, Workers Paid). Serves catalog, open-licence documents and technology cards; keyword search only; restricted copies stay on the Mac. API key (header x-api-key) is a Cloudflare secret with the owner's copy at ~/.config/og-tech-library/api-key on the Mac; never in the repo. The hosted copy is built at deploy time, so redeploy after corpus changes: `cd deploy/cloudflare && npx wrangler deploy` (Docker running). Details and key rotation in docs/HOSTING.md. The three earlier hosting entries above (plan upgrade, Dev@tenunan.com account) are superseded. Also fixed: `collectors/adapters.py manual()` counted .url sidecars toward --limit, so the default 20 converted only 10 files; it now filters by suffix first. 68 LEMIGAS SCOG articles collected (9145382).
+- 2026-10-24 (upstream cards): 6 cards from the collected NETL, NSTA, IEA and LEMIGAS documents: CO2-EOR, chemical EOR, well plug and abandonment (conventional cement), methane leak detection, flare gas recovery (UPS) and saline aquifer CO2 storage (CCS). Register entry added for rig-based cement P&A; the thermite and bismuth plug entry still has no card. Southeast Asian figures (Natuna, SK field, Kandanghaur, Tambun H-11) are simulation or design-study results and say so. 67 cards; 152 open gaps on 65 cards. Not yet carded in UPS: seismic and subsurface, drilling and completions, artificial lift, thermal EOR, offshore and subsea, unconventional, produced water. Redeploy the hosted copy to publish these.

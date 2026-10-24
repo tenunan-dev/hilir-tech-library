@@ -1,0 +1,241 @@
+{
+  "id": "ccs-saline-aquifer-storage",
+  "name": "Geological CO2 storage in saline aquifers",
+  "aliases": [
+    "Geological storage in saline aquifers",
+    "saline formation storage",
+    "deep saline aquifer CO2 storage",
+    "CO2 storage in saline formation"
+  ],
+  "sector": "CCS",
+  "category": "CO2 storage / geological",
+  "applications": [
+    "permanent storage of captured CO2 from industry, power and gas processing"
+  ],
+  "maturity": "commercial",
+  "principle": "Captured CO2 is compressed to a dense phase, piped or shipped to an injection site and injected through wells into a porous rock formation filled with salt water, below an impermeable caprock. The CO2 is trapped under the seal, dissolves in the brine and, over long periods, can mineralise. Injection raises reservoir pressure, so capacity is limited by the pressure that the rock and caprock can tolerate; operators manage it with well placement, completion design and sometimes brine production. Monitoring wells and surveys track the plume.",
+  "process_steps": [
+    {
+      "id": "CO2",
+      "name": "Captured CO2 delivery",
+      "equipment": [
+        "pipeline or ship",
+        "intermediate storage"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression to dense phase",
+      "equipment": [
+        "compressors",
+        "dehydration"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Injection wells",
+      "equipment": [
+        "injection wells",
+        "multi-depth completions"
+      ],
+      "to": [
+        "AQF"
+      ]
+    },
+    {
+      "id": "AQF",
+      "name": "Saline aquifer under caprock",
+      "to": [
+        "MON",
+        "BRN"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Monitoring",
+      "equipment": [
+        "monitoring wells",
+        "seismic and pressure monitoring"
+      ],
+      "to": []
+    },
+    {
+      "id": "BRN",
+      "name": "Pressure management (optional)",
+      "equipment": [
+        "brine production wells"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CO2 compressors",
+    "injection wells",
+    "monitoring wells",
+    "brine production wells (pressure management)",
+    "wellhead and downhole sensors"
+  ],
+  "performance": [
+    {
+      "metric": "storage capacity gain from lateral pressure redistribution by brine production, Natuna D-Alpha (simulation)",
+      "unit": "% over the base case",
+      "basis": "thick carbonate aquifer; high-rate brine production; multi-depth injection alone gave 13%, both together 44% with storage efficiency 0.58%",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119",
+        "source_id": "lemigas-scog",
+        "note": "Nirwana et al., Optimizing CO2 Storage in Saline Aquifers through Pressure Redistribution in Natuna D-Alpha Field, SCOG 49(3): 53-66, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 64,
+      "high": 64,
+      "year": 2026
+    },
+    {
+      "metric": "increase in stored CO2 from completion redesign, SK gas field aquifer (simulation)",
+      "unit": "% over the corresponding baseline cases",
+      "basis": "120-year simulation with plume confined to the aquifer zone in most cases; mineral trapping a minor share",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067",
+        "source_id": "lemigas-scog",
+        "note": "Iskandar et al., Optimized CO2 storage strategies for plume containment and mineral trapping in the SK gas field aquifer, SCOG 49(2): 173-201, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 28,
+      "high": 33.3,
+      "year": 2026
+    },
+    {
+      "metric": "pore pressure rise and remaining margin to fracture pressure, sandstone at 1,200 m (simulation)",
+      "unit": "MPa",
+      "basis": "pore pressure 11.8 to 15.8 MPa against 19.0 MPa fracture pressure, safety ratio 1.20; 10 years injection plus 500 years monitoring",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135",
+        "source_id": "lemigas-scog",
+        "note": "Fitria et al., Impact of CO2-Induced Geochemical Alteration on the Mechanical Integrity of Reservoir and Caprock in Saline Aquifers, SCOG 49(3): 607-645, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 3.2,
+      "high": 3.2,
+      "year": 2026
+    },
+    {
+      "metric": "Upper Baturaja candidate reservoir depth and porosity (screening)",
+      "unit": "m depth",
+      "basis": "porosity 20-25%, dominated by secondary porosity; Kandanghaur-Gantar High, West Java; literature-based pre-feasibility",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+        "source_id": "lemigas-scog",
+        "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 1600,
+      "high": 1900,
+      "year": 2026
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'CO2 storage in saline formation' 9"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "Equinor"
+    },
+    {
+      "name": "Northern Lights"
+    }
+  ],
+  "advantages": [
+    "Large storage potential and wide geographic spread",
+    "Pressure management can raise safe capacity substantially in simulations",
+    "Indonesian studies exist for Natuna, Jatibarang and gas-field aquifers"
+  ],
+  "limitations": [
+    "Pressure build-up near injectors limits capacity",
+    "Figures here are simulation or screening results, not field performance",
+    "Long-term geochemical and mechanical integrity must be shown"
+  ],
+  "notes": "Southeast Asian figures on this card are from 2026 LEMIGAS studies using simulation or literature screening. They are not measured results from operating projects.",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operating saline aquifer storage projects (for example Sleipner, Northern Lights) with injection rates and start years",
+      "reason_code": "not_in_sources_read",
+      "reason": "The register names them but no source read describes them.",
+      "where": [
+        {
+          "hint": "Global CCS Institute facilities database and operator pages",
+          "access": "registration"
+        }
+      ],
+      "action": "Read an open source on each project and add country, rate and start year."
+    },
+    {
+      "field": "costs",
+      "item": "cost of transport and storage in USD per tonne CO2 with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read gives storage costs.",
+      "where": [
+        {
+          "hint": "IEA CCUS reports (iea-reports corpus)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "NETL cost reports (corpus/netl)",
+          "access": "open",
+          "source_id": "netl"
+        }
+      ],
+      "action": "Add storage cost per tonne with dollar year and basis."
+    },
+    {
+      "field": "performance",
+      "item": "measured field injectivity and storage efficiency",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only simulation results were read.",
+      "where": [
+        {
+          "hint": "Operator monitoring reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add measured values from operating projects."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119",
+      "source_id": "lemigas-scog",
+      "note": "Nirwana et al., Optimizing CO2 Storage in Saline Aquifers through Pressure Redistribution in Natuna D-Alpha Field, SCOG 49(3): 53-66, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067",
+      "source_id": "lemigas-scog",
+      "note": "Iskandar et al., Optimized CO2 storage strategies for plume containment and mineral trapping in the SK gas field aquifer, SCOG 49(2): 173-201, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135",
+      "source_id": "lemigas-scog",
+      "note": "Fitria et al., Impact of CO2-Induced Geochemical Alteration on the Mechanical Integrity of Reservoir and Caprock in Saline Aquifers, SCOG 49(3): 607-645, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+      "source_id": "lemigas-scog",
+      "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, July 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

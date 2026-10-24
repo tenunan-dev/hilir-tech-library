@@ -1,0 +1,180 @@
+{
+  "id": "ups-flare-gas-recovery",
+  "name": "Flare gas recovery and zero routine flaring",
+  "aliases": [
+    "Zero routine flaring (flare gas recovery and small-scale GTL)",
+    "flare gas recovery",
+    "flare gas utilisation",
+    "vapour recovery units"
+  ],
+  "sector": "UPS",
+  "category": "Emissions monitoring and abatement",
+  "applications": [
+    "capturing associated gas that would be flared",
+    "recovering low-pressure vent gas"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas that would be burned in a flare is instead collected, compressed and treated so that it can be sold, used for power or reinjected. Vapour recovery units capture low-pressure methane streams from tanks and compressor seals. Where no pipeline exists, small-scale GTL or power generation can use the gas on site. Routine, non-emergency flaring can then be ended.",
+  "process_steps": [
+    {
+      "id": "COL",
+      "name": "Gas collection",
+      "equipment": [
+        "flare header",
+        "liquid seal"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression",
+      "equipment": [
+        "flare gas recovery compressors",
+        "vapour recovery units"
+      ],
+      "to": [
+        "TRT"
+      ]
+    },
+    {
+      "id": "TRT",
+      "name": "Treating",
+      "equipment": [
+        "knockout drum",
+        "cooling and gas conditioning"
+      ],
+      "to": [
+        "USE",
+        "FLR"
+      ],
+      "streams": {
+        "USE": "recovered gas",
+        "FLR": "surplus to flare"
+      }
+    },
+    {
+      "id": "USE",
+      "name": "Sale, power or reinjection",
+      "to": []
+    },
+    {
+      "id": "FLR",
+      "name": "Emergency flare",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "flare gas recovery compressors",
+    "liquid seal drum",
+    "vapour recovery units",
+    "gas treating skid",
+    "flare tip"
+  ],
+  "performance": [
+    {
+      "metric": "natural gas flared globally each year",
+      "unit": "bcm",
+      "basis": "majority is routine, non-emergency flaring; IEA 2025 tracker",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025 (CC BY 4.0)"
+      },
+      "low": 150,
+      "high": 150,
+      "year": 2025
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Flare gas recovery' 9"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "Zeeco"
+    },
+    {
+      "name": "John Zink"
+    },
+    {
+      "name": "Hy-Bon (Cimarron)"
+    }
+  ],
+  "advantages": [
+    "Turns a waste stream into saleable gas",
+    "Many installations pay back",
+    "Central to ending routine flaring"
+  ],
+  "limitations": [
+    "Needs a gas outlet or power use nearby",
+    "Small, remote flares may not justify compressors",
+    "Emergency flaring remains"
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capex per unit and payback with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The tracker gives the flared volume only.",
+      "where": [
+        {
+          "hint": "IEA Global Methane Tracker documentation (collected)",
+          "access": "open",
+          "source_id": "iea-methane-tracker"
+        },
+        {
+          "hint": "World Bank Global Gas Flaring Reduction partnership reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add capex and payback with basis."
+    },
+    {
+      "field": "performance",
+      "item": "recovery efficiency and turndown of recovery units",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read gives them.",
+      "where": [
+        {
+          "hint": "Supplier datasheets for the companies listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add recovery efficiency with source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named flare reduction projects in Malaysia and Indonesia",
+      "reason_code": "not_in_sources_read",
+      "reason": "None read.",
+      "where": [
+        {
+          "hint": "PETRONAS and Pertamina sustainability reports",
+          "access": "open",
+          "source_id": "petronas-tech"
+        }
+      ],
+      "action": "Collect the reports and add a project with year and volume."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+      "source_id": "iea-methane-tracker",
+      "note": "IEA Global Methane Tracker 2025 (CC BY 4.0)"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, July 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

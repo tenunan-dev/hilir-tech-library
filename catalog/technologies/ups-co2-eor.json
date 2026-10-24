@@ -1,0 +1,326 @@
+{
+  "id": "ups-co2-eor",
+  "name": "CO2 enhanced oil recovery (miscible CO2 flooding)",
+  "aliases": [
+    "CO2-EOR",
+    "CO2 flooding",
+    "CO2 WAG",
+    "CO2 huff and puff",
+    "tertiary CO2 recovery"
+  ],
+  "sector": "UPS",
+  "category": "Enhanced oil recovery / gas injection",
+  "applications": [
+    "extra oil from waterflooded reservoirs",
+    "storage of captured CO2 in oil fields"
+  ],
+  "maturity": "commercial",
+  "principle": "CO2 is compressed and injected into an oil reservoir, usually one already waterflooded, where at or above the minimum miscibility pressure it mixes with the crude, swells it and lowers its viscosity so that residual oil can be swept to producing wells. Water and CO2 are often injected in alternating slugs (WAG). Produced CO2 is separated from oil and water, recompressed and reinjected, so most purchased CO2 stays underground.",
+  "process_steps": [
+    {
+      "id": "SRC",
+      "name": "CO2 supply",
+      "equipment": [
+        "natural CO2 source or captured industrial CO2",
+        "pipeline"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression and dehydration",
+      "equipment": [
+        "CO2 compressors",
+        "dehydration"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Injection wells (CO2 and water, alternating in WAG)",
+      "equipment": [
+        "injection wells",
+        "wellhead manifolds"
+      ],
+      "to": [
+        "RES"
+      ]
+    },
+    {
+      "id": "RES",
+      "name": "Reservoir: miscible displacement",
+      "to": [
+        "PRD"
+      ]
+    },
+    {
+      "id": "PRD",
+      "name": "Production wells and test manifold",
+      "equipment": [
+        "producing wells",
+        "well production manifold"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Separation of oil, water and gas",
+      "equipment": [
+        "separators",
+        "gas treating"
+      ],
+      "to": [
+        "OIL",
+        "RCY"
+      ],
+      "streams": {
+        "OIL": "incremental oil",
+        "RCY": "produced CO2"
+      }
+    },
+    {
+      "id": "RCY",
+      "name": "Recycle compression",
+      "equipment": [
+        "recycle compressor"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "OIL",
+      "name": "Oil to sales",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CO2 compressors",
+    "CO2 pipeline",
+    "injection and production wells",
+    "production manifold",
+    "oil-water-gas separators",
+    "recycle compressor"
+  ],
+  "performance": [
+    {
+      "metric": "incremental oil recovery over primary and secondary recovery",
+      "unit": "% of original oil in place",
+      "basis": "NETL primer; primary plus secondary typically 30-35% OOIP; one pilot reported up to 22%",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      },
+      "low": 4,
+      "high": 15,
+      "year": 2008
+    },
+    {
+      "metric": "water to CO2 injection ratio in WAG",
+      "unit": "volumes of water per volume of CO2 at reservoir conditions",
+      "basis": "NETL primer; slug size 0.1-2% of pore volume",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      },
+      "low": 0.5,
+      "high": 4,
+      "year": 2008
+    },
+    {
+      "metric": "cumulative CO2 injected",
+      "unit": "% of hydrocarbon pore volume",
+      "basis": "NETL primer",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      },
+      "low": 15,
+      "high": 30,
+      "year": 2008
+    },
+    {
+      "metric": "share of oil cost per barrel taken by CO2 purchase and recycle",
+      "unit": "% of cost per barrel produced",
+      "basis": "NETL primer",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      },
+      "low": 25,
+      "high": 50,
+      "year": 2008
+    },
+    {
+      "metric": "reservoir depth screening range",
+      "unit": "ft",
+      "basis": "NETL primer screening table (other criteria: oil gravity above 27-30 °API, viscosity at or below 10-12 cp, pressure above 1,200-1,500 psia, residual oil saturation above 0.25-0.30)",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      },
+      "low": 2000,
+      "high": 9800,
+      "year": 2008
+    }
+  ],
+  "costs": [
+    {
+      "metric": "illustrative pre-tax economic margin",
+      "unit": "USD/bbl",
+      "basis": "NETL primer example: oil USD 70/bbl, net wellhead USD 55, capital amortization USD 5-10, CO2 USD 15 (USD 2/Mcf purchase, USD 0.70/Mcf recycle), operations USD 10-15; dollar year not stated, data to 2008",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      },
+      "low": 15,
+      "high": 25,
+      "year": 2008
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'CO2-enhanced oil recovery' 9"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "Occidental"
+    },
+    {
+      "name": "Denbury (ExxonMobil)"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Weyburn field, Saskatchewan (EnCana)",
+      "country": "CA",
+      "capacity": "about 95 million ft3/d CO2 (4,935 t/d) from the Dakota Gasification plant via a 205-mile pipeline; 130 million bbl incremental oil expected",
+      "status": "operating as of the primer (data to 2008)",
+      "year": 2008,
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      }
+    },
+    {
+      "name": "Wasson field Denver Unit, West Texas (Shell)",
+      "country": "US",
+      "capacity": "31,500 bbl/d of which 26,850 bbl/d incremental from CO2; over 120 million bbl incremental to 2008",
+      "status": "operating as of 2008",
+      "year": 2008,
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "source_id": "netl",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      }
+    },
+    {
+      "name": "Sukowati field, Bojonegoro (Pertamina EP, with JOGMEC and JAPEX)",
+      "country": "ID",
+      "capacity": "pilot: about 500 t CO2 huff-and-puff into well SKW-18 over 7 days",
+      "status": "first CO2 injection 7 December 2023; full implementation planned with CO2 from Jambaran Tiung Biru",
+      "year": 2023,
+      "source": {
+        "url": "https://www.migas.esdm.go.id/post/implementasikan-ccus-lapangan-sukowati-injeksi-co2-perdana",
+        "source_id": "id-ditjen-migas",
+        "note": "Ditjen Migas, ESDM: first CO2 injection at Sukowati, 7 December 2023 (read 24 October 2026)"
+      }
+    }
+  ],
+  "advantages": [
+    "Commercial for decades, with US projects supplying about 4% of US oil in the primer's data",
+    "Most injected CO2 stays in the reservoir, so it can pair with carbon capture",
+    "Targets reservoirs already waterflooded"
+  ],
+  "limitations": [
+    "Needs a reliable, low-cost CO2 supply and pipeline",
+    "Large up-front CO2 purchase before production responds",
+    "Geological heterogeneity can cut the response; economics are marginal without incentives"
+  ],
+  "notes": "The cost and recovery figures come from a US primer with data to 2008. Pertamina's 2023 Sukowati huff-and-puff is a pilot, not a commercial flood.",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "current CO2-EOR cost per barrel and CO2 utilisation (t CO2 per bbl) in USD with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The only cost read is an illustrative example in a primer with data to 2008 and no dollar year.",
+      "where": [
+        {
+          "hint": "NETL 'Next Generation CO2-EOR' report (collected: corpus/netl)",
+          "access": "open",
+          "source_id": "netl"
+        },
+        {
+          "hint": "IEA oil and gas industry in net-zero transitions (collected)",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Read the collected NETL 2011 report and IEA reports for utilisation and cost, then add dollar-year figures."
+    },
+    {
+      "field": "status",
+      "item": "Sukowati: full-scale CO2 injection after the 2023 pilot",
+      "reason_code": "status_unchecked",
+      "reason": "Only the December 2023 launch page was read.",
+      "where": [
+        {
+          "hint": "Ditjen Migas and Pertamina news after 2023",
+          "access": "open",
+          "source_id": "id-ditjen-migas"
+        }
+      ],
+      "action": "Check whether the Jambaran Tiung Biru CO2 supply started and update the reference plant."
+    },
+    {
+      "field": "suppliers",
+      "item": "CO2-EOR operators in Malaysia and Indonesia beyond Pertamina",
+      "reason_code": "not_in_sources_read",
+      "reason": "No PETRONAS CO2-EOR source has been read.",
+      "where": [
+        {
+          "hint": "PETRONAS technology pages and reports (record verified for personal non-commercial copies)",
+          "access": "open",
+          "source_id": "petronas-tech"
+        }
+      ],
+      "action": "Collect PETRONAS EOR material into corpus/_inbox/petronas-tech and add any project."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+      "source_id": "netl",
+      "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+    },
+    {
+      "url": "https://www.migas.esdm.go.id/post/implementasikan-ccus-lapangan-sukowati-injeksi-co2-perdana",
+      "source_id": "id-ditjen-migas",
+      "note": "Ditjen Migas, ESDM: first CO2 injection at Sukowati, 7 December 2023 (read 24 October 2026)"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, July 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

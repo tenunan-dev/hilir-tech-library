@@ -1,0 +1,249 @@
+{
+  "id": "ups-chemical-eor",
+  "name": "Chemical EOR (polymer and surfactant flooding)",
+  "aliases": [
+    "Chemical EOR (polymer, surfactant, ASP)",
+    "chemical EOR",
+    "polymer flooding",
+    "HPAM polymer flood",
+    "surfactant flooding",
+    "ASP flooding"
+  ],
+  "sector": "UPS",
+  "category": "Enhanced oil recovery / chemical injection",
+  "applications": [
+    "extra oil from mature waterflooded fields",
+    "high-viscosity or high-salinity reservoirs"
+  ],
+  "maturity": "commercial",
+  "principle": "Chemicals are added to injection water to recover oil that waterflooding leaves behind. Polymers such as hydrolyzed polyacrylamide (HPAM) raise the viscosity of the injected water so it sweeps the reservoir more evenly and water breaks through later. Surfactants lower the interfacial tension between oil and water so trapped oil droplets can move. Alkali-surfactant-polymer (ASP) combines both. Polymer and surfactant performance depends on salinity, temperature, adsorption on the rock and injectivity, so candidates are screened in the laboratory and by core flooding before a field pilot.",
+  "process_steps": [
+    {
+      "id": "MK",
+      "name": "Chemical make-up",
+      "equipment": [
+        "polymer or surfactant dissolution and dilution skids",
+        "mixing tanks"
+      ],
+      "to": [
+        "FLT"
+      ]
+    },
+    {
+      "id": "FLT",
+      "name": "Filtration and quality control",
+      "equipment": [
+        "filters",
+        "viscosity monitoring"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Injection",
+      "equipment": [
+        "injection pumps",
+        "injection wells"
+      ],
+      "to": [
+        "RES"
+      ]
+    },
+    {
+      "id": "RES",
+      "name": "Reservoir: mobility control and oil mobilisation",
+      "to": [
+        "PRD"
+      ]
+    },
+    {
+      "id": "PRD",
+      "name": "Production and separation",
+      "equipment": [
+        "producing wells",
+        "oil-water separators",
+        "produced water treatment"
+      ],
+      "to": [
+        "OIL",
+        "WTR"
+      ],
+      "streams": {
+        "OIL": "incremental oil",
+        "WTR": "produced water for reinjection"
+      }
+    },
+    {
+      "id": "OIL",
+      "name": "Oil to sales",
+      "to": []
+    },
+    {
+      "id": "WTR",
+      "name": "Produced water back to make-up",
+      "to": [
+        "MK"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "polymer or surfactant make-up units",
+    "filters",
+    "injection pumps",
+    "injection and production wells",
+    "produced water treatment"
+  ],
+  "performance": [
+    {
+      "metric": "incremental recovery, HPAM Polymer C at 3000 ppm, laboratory core floods",
+      "unit": "% (two cores)",
+      "basis": "Five commercial HPAM polymers tested at 500-5000 ppm, salinity 3,000-200,000 ppm, up to 90 °C; laboratory only",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125",
+        "source_id": "lemigas-scog",
+        "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 8.8,
+      "high": 10.0,
+      "year": 2026
+    },
+    {
+      "metric": "average incremental recovery of HPAM injection in Daqing field blocks (field)",
+      "unit": "% over waterflooding",
+      "basis": "as reported in the HPAM article's introduction, which calls Daqing the world's largest commercial polymer flood; original study not read",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125",
+        "source_id": "lemigas-scog",
+        "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 11,
+      "high": 11,
+      "year": 2026
+    },
+    {
+      "metric": "incremental recovery factor from palm-oil MES surfactant with 96% ethanol, laboratory coreflood",
+      "unit": "% over waterflooding",
+      "basis": "total recovery factor 45.90%; MES 0.5-2.0%, best formulation 1.25% MES; laboratory only",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2096",
+        "source_id": "lemigas-scog",
+        "note": "Ginting et al., The Effect of MES-Ethanol Formulation in Enhancing Surfactant Flooding Efficiency, SCOG 49(2): 633-648, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 29.24,
+      "high": 29.24,
+      "year": 2026
+    },
+    {
+      "metric": "interfacial tension achieved",
+      "unit": "mN/m",
+      "basis": "MES with ethanol co-surfactant",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2096",
+        "source_id": "lemigas-scog",
+        "note": "Ginting et al., The Effect of MES-Ethanol Formulation in Enhancing Surfactant Flooding Efficiency, SCOG 49(2): 633-648, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 0.521,
+      "high": 0.521,
+      "year": 2026
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "SNF"
+    },
+    {
+      "name": "Shell"
+    },
+    {
+      "name": "PETRONAS"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Daqing oilfield polymer flood",
+      "country": "CN",
+      "capacity": "average incremental recovery about 11% over waterflooding across tested blocks",
+      "status": "described as the world's largest commercial polymer flood",
+      "year": 2026,
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125",
+        "source_id": "lemigas-scog",
+        "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      }
+    }
+  ],
+  "advantages": [
+    "Polymer flooding is an established way to improve a waterflood",
+    "Palm-oil MES is a locally sourced, biodegradable surfactant option in Southeast Asia",
+    "Laboratory screening is cheap relative to field trials"
+  ],
+  "limitations": [
+    "Polymer viscosity falls with salinity, temperature and shear",
+    "Adsorption and injectivity losses can cut recovery below bulk-viscosity predictions",
+    "Surfactant results shown here are laboratory core floods, not field results"
+  ],
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA guide has no chemical EOR entry; 'commercial' rests on the Daqing statement in the HPAM article, which was read only second-hand.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Peer-reviewed reviews of chemical EOR field projects (SPE, open journals)",
+          "access": "open",
+          "source_id": "doaj"
+        }
+      ],
+      "action": "Find an independent review that lists field projects, and read the original Daqing study."
+    },
+    {
+      "field": "costs",
+      "item": "chemical cost per barrel of incremental oil and project capex, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read gives costs.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers (arXiv, LEMIGAS SCOG archive, Universitas Trisakti publications)",
+          "access": "open",
+          "source_id": "lemigas-scog"
+        }
+      ],
+      "action": "Add cost per incremental barrel with dollar year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "chemical EOR field projects in Southeast Asia",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read names one; PETRONAS is listed in the register as a supplier.",
+      "where": [
+        {
+          "hint": "PETRONAS and Pertamina EOR project reports",
+          "access": "open",
+          "source_id": "petronas-tech"
+        }
+      ],
+      "action": "Add a Malaysian or Indonesian pilot with capacity and year."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125",
+      "source_id": "lemigas-scog",
+      "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2096",
+      "source_id": "lemigas-scog",
+      "note": "Ginting et al., The Effect of MES-Ethanol Formulation in Enhancing Surfactant Flooding Efficiency, SCOG 49(2): 633-648, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

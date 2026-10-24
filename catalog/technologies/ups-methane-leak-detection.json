@@ -1,0 +1,216 @@
+{
+  "id": "ups-methane-leak-detection",
+  "name": "Methane leak detection and repair (LDAR, satellites and continuous monitoring)",
+  "aliases": [
+    "Methane leak detection (OGI cameras, satellites, continuous sensors)",
+    "LDAR",
+    "leak detection and repair",
+    "methane monitoring",
+    "satellite methane detection"
+  ],
+  "sector": "UPS",
+  "category": "Emissions monitoring and abatement",
+  "applications": [
+    "finding and fixing methane leaks at wells, compressors and processing plants",
+    "detecting large emitters from space"
+  ],
+  "maturity": "commercial",
+  "principle": "Leaks are located by surveying facilities with optical gas imaging cameras, aircraft or drone sensors, fixed continuous sensors or satellites, and then quantified and repaired. Satellites flag large emission events and recurrent leaks, which are passed to operators for rapid repair. A repeat survey confirms the fix.",
+  "process_steps": [
+    {
+      "id": "DET",
+      "name": "Detection",
+      "equipment": [
+        "optical gas imaging cameras",
+        "aircraft and drones",
+        "continuous point sensors",
+        "satellites"
+      ],
+      "to": [
+        "QNT"
+      ]
+    },
+    {
+      "id": "QNT",
+      "name": "Quantification and attribution",
+      "equipment": [
+        "emission quantification and facility mapping"
+      ],
+      "to": [
+        "REP"
+      ]
+    },
+    {
+      "id": "REP",
+      "name": "Repair or replacement",
+      "equipment": [
+        "maintenance crews",
+        "replacement of leaking equipment"
+      ],
+      "to": [
+        "VER"
+      ]
+    },
+    {
+      "id": "VER",
+      "name": "Verification and reporting",
+      "equipment": [
+        "repeat survey",
+        "measurement-based reporting"
+      ],
+      "to": [
+        "DET"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "optical gas imaging cameras",
+    "continuous methane sensors",
+    "aircraft and drone payloads",
+    "satellite data feeds",
+    "repair crews and replacement equipment"
+  ],
+  "performance": [
+    {
+      "metric": "fossil-fuel methane emissions that could be avoided at no net cost",
+      "unit": "% of 2024 fossil-fuel methane emissions",
+      "basis": "about 35 Mt; at average 2024 energy prices; oil and gas share higher than coal",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025 (CC BY 4.0)"
+      },
+      "low": 30,
+      "high": 30,
+      "year": 2025
+    },
+    {
+      "metric": "methane emitted by the fossil fuel sector",
+      "unit": "bcm in 2024",
+      "basis": "abatement could have made nearly 100 bcm of gas available",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025 (CC BY 4.0)"
+      },
+      "low": 200,
+      "high": 200,
+      "year": 2025
+    },
+    {
+      "metric": "satellites in orbit able to observe methane emissions",
+      "unit": "satellites (more than)",
+      "basis": "MethaneSAT and Tanager-1 started in 2024",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025 (CC BY 4.0)"
+      },
+      "low": 25,
+      "high": 25,
+      "year": 2025
+    },
+    {
+      "metric": "share of satellite-detected oil and gas sources that were recurrent",
+      "unit": "% (about)",
+      "basis": "Carbon Mapper analysis of more than 2,000 plumes",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025 (CC BY 4.0)"
+      },
+      "low": 25,
+      "high": 25,
+      "year": 2025
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Periodic methane emission monitoring in oil and gas facilities' 9; 'Satellite-based methane emission monitoring in oil and gas facilities' 9"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "FLIR"
+    },
+    {
+      "name": "GHGSat"
+    },
+    {
+      "name": "Kayrros"
+    },
+    {
+      "name": "Project Canary"
+    }
+  ],
+  "advantages": [
+    "Many measures pay for themselves from the gas recovered",
+    "Satellites cover remote and offshore areas",
+    "Strong regulatory trend towards required LDAR"
+  ],
+  "limitations": [
+    "Satellites struggle in overcast and high-latitude regions",
+    "Dispersed small sources are a large share of basin emissions",
+    "Measurement quality varies"
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per survey, per sensor and per tonne of methane abated",
+      "reason_code": "not_in_sources_read",
+      "reason": "The tracker gives the no-net-cost share but the cost curves were not read in detail.",
+      "where": [
+        {
+          "hint": "IEA Global Methane Tracker documentation (collected: corpus/iea-methane-tracker)",
+          "access": "open",
+          "source_id": "iea-methane-tracker"
+        }
+      ],
+      "action": "Read the abatement cost curves and record USD per tonne with year."
+    },
+    {
+      "field": "process",
+      "item": "process steps are general practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The tracker names the technologies and measures; the sequence of steps is general knowledge.",
+      "where": [
+        {
+          "hint": "OGMP 2.0 and OGDC guidance",
+          "access": "open"
+        }
+      ],
+      "action": "Cite a measurement guideline for the sequence."
+    },
+    {
+      "field": "suppliers",
+      "item": "regional (Southeast Asia) service providers",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read names providers in Malaysia or Indonesia.",
+      "where": [
+        {
+          "hint": "PETRONAS and Pertamina methane programmes",
+          "access": "open",
+          "source_id": "petronas-tech"
+        }
+      ],
+      "action": "Add regional operators or providers."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+      "source_id": "iea-methane-tracker",
+      "note": "IEA Global Methane Tracker 2025 (CC BY 4.0)"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, July 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

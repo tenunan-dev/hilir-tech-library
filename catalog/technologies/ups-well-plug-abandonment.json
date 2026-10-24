@@ -1,0 +1,216 @@
+{
+  "id": "ups-well-plug-abandonment",
+  "name": "Well plug and abandonment (cement plugs, rig-based)",
+  "aliases": [
+    "well plug and abandonment",
+    "P&A",
+    "well abandonment",
+    "cement plug abandonment"
+  ],
+  "sector": "UPS",
+  "category": "Well decommissioning",
+  "applications": [
+    "permanent closure of wells at end of life",
+    "decommissioning of platforms and subsea wells"
+  ],
+  "maturity": "commercial",
+  "principle": "A well that is no longer needed is permanently sealed so that formation fluids cannot reach the surface. Barriers, usually cement plugs set across producing zones, above the liner top and near the surface, are placed from a rig after the well is killed and equipment is removed. Standards differ in the barriers they require, for example Indonesia's SNI 13-6910-2002 and Norway's NORSOK D-010, and the choice drives cost. Newer methods such as through-tubing abandonment aim to avoid pulling the completion.",
+  "process_steps": [
+    {
+      "id": "KIL",
+      "name": "Well kill and completion removal",
+      "equipment": [
+        "rig or intervention unit",
+        "kill fluids",
+        "workover tools"
+      ],
+      "to": [
+        "BAR"
+      ]
+    },
+    {
+      "id": "BAR",
+      "name": "Barrier placement",
+      "equipment": [
+        "cement plugs across perforations, liner top and surface",
+        "cement unit and additives"
+      ],
+      "to": [
+        "VER"
+      ]
+    },
+    {
+      "id": "VER",
+      "name": "Barrier verification",
+      "equipment": [
+        "pressure and tag tests"
+      ],
+      "to": [
+        "CUT"
+      ]
+    },
+    {
+      "id": "CUT",
+      "name": "Wellhead and casing cutting",
+      "equipment": [
+        "casing cutters",
+        "wellhead removal"
+      ],
+      "to": [
+        "SIT"
+      ]
+    },
+    {
+      "id": "SIT",
+      "name": "Site restoration",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "workover or drilling rig",
+    "cement unit",
+    "casing cutting tools",
+    "pressure testing equipment"
+  ],
+  "performance": [
+    {
+      "metric": "cement plugs in the SNI design for directional well H-11, Tambun field",
+      "unit": "plugs",
+      "basis": "total 160.11 bbl cement (576 sacks), deepest plug 8,300-8,638 ft MD; one well, design study",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2141",
+        "source_id": "lemigas-scog",
+        "note": "Yusgiantoro et al., Determination of an Appropriate Method and Economic Cost Estimation for Plug and Abandonment of H-11 Well in the Tambun Field, SCOG 49(3): 153-170, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 7,
+      "high": 7,
+      "year": 2026
+    },
+    {
+      "metric": "UKCS well abandonment spend in 2025",
+      "unit": "GBP million (in-year prices)",
+      "basis": "49% of total decommissioning spend; 2024 was GBP 1,168 million",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/w1fa3xvv/ukcs-decommissioning-cost-and-performance-update-2026.pdf",
+        "source_id": "uk-nsta",
+        "note": "NSTA UKCS Decommissioning Cost and Performance Update 2026"
+      },
+      "low": 1273,
+      "high": 1273,
+      "year": 2026
+    },
+    {
+      "metric": "suspended UKCS wells awaiting final abandonment",
+      "unit": "wells (approximate)",
+      "basis": "backlog unchanged from 2024",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/w1fa3xvv/ukcs-decommissioning-cost-and-performance-update-2026.pdf",
+        "source_id": "uk-nsta",
+        "note": "NSTA UKCS Decommissioning Cost and Performance Update 2026"
+      },
+      "low": 500,
+      "high": 500,
+      "year": 2026
+    }
+  ],
+  "costs": [
+    {
+      "metric": "estimated cost of abandoning directional well H-11 by SNI 13-6910-2002",
+      "unit": "USD",
+      "basis": "rig method, onshore Tambun field, Indonesia; design estimate; currency year not stated, publication year used",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2141",
+        "source_id": "lemigas-scog",
+        "note": "Yusgiantoro et al., Determination of an Appropriate Method and Economic Cost Estimation for Plug and Abandonment of H-11 Well in the Tambun Field, SCOG 49(3): 153-170, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 505737.59,
+      "high": 505737.59,
+      "year": 2026
+    },
+    {
+      "metric": "estimated cost of abandoning the same well by NORSOK D-010",
+      "unit": "USD",
+      "basis": "same well and method; the authors recommend SNI on technical, safety, regulatory and cost grounds",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2141",
+        "source_id": "lemigas-scog",
+        "note": "Yusgiantoro et al., Determination of an Appropriate Method and Economic Cost Estimation for Plug and Abandonment of H-11 Well in the Tambun Field, SCOG 49(3): 153-170, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      },
+      "low": 1170558.11,
+      "high": 1170558.11,
+      "year": 2026
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Rig and cementing service contractors (none named in the sources read)"
+    }
+  ],
+  "advantages": [
+    "Well-defined barrier standards",
+    "Rig-based cement plugging is established practice",
+    "Technology trials (for example through-tubing) can cut cost"
+  ],
+  "limitations": [
+    "Over 50% of UKCS decommissioning spend since 2023 goes to well P&A",
+    "Rig availability is tight",
+    "The cost figures for H-11 are a single-well estimate"
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "average P&A cost per well offshore Southeast Asia and per well in the UKCS",
+      "reason_code": "not_in_sources_read",
+      "reason": "The NSTA report read gives totals and spend, not a clear cost per well; the LEMIGAS figure is one onshore well.",
+      "where": [
+        {
+          "hint": "NSTA decommissioning benchmarking report (appendices); SKK Migas decommissioning guidance",
+          "access": "open",
+          "source_id": "uk-nsta"
+        }
+      ],
+      "action": "Add cost per well with dollar year and basis from the NSTA appendices or SKK Migas."
+    },
+    {
+      "field": "suppliers",
+      "item": "named service companies and new plug technologies (thermite, bismuth, through-tubing)",
+      "reason_code": "not_in_sources_read",
+      "reason": "The NSTA report mentions through-tubing abandonment trials but names no supplier; the register lists thermite and bismuth plugs (Interwell, BiSN) as demonstration, and they have no card yet.",
+      "where": [
+        {
+          "hint": "Supplier pages for Interwell and BiSN; NSTA well P&A technology trials",
+          "access": "open",
+          "source_id": "uk-nsta"
+        }
+      ],
+      "action": "Add a card for the new plug technologies and name suppliers of conventional P&A services."
+    },
+    {
+      "field": "process",
+      "item": "process steps are general practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "Only the barrier layout in the LEMIGAS paper was read; the sequence of steps is general knowledge.",
+      "where": [
+        {
+          "hint": "SKK Migas Work Procedure Guideline 040/PTK/SKKIA0000/2023/S9 Rev.02 and NORSOK D-010",
+          "access": "open",
+          "source_id": "id-skkmigas"
+        }
+      ],
+      "action": "Check the steps against the standards and name them."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2141",
+      "source_id": "lemigas-scog",
+      "note": "Yusgiantoro et al., Determination of an Appropriate Method and Economic Cost Estimation for Plug and Abandonment of H-11 Well in the Tambun Field, SCOG 49(3): 153-170, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/w1fa3xvv/ukcs-decommissioning-cost-and-performance-update-2026.pdf",
+      "source_id": "uk-nsta",
+      "note": "NSTA UKCS Decommissioning Cost and Performance Update 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

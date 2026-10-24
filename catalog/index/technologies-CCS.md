@@ -1,12 +1,13 @@
 # CCS technology options
 
-14 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+15 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Amine solvent post-combustion capture](#ccs-amine-post-combustion) | Post-combustion / chemical solvent | commercial | 6-9 | Mitsubishi Heavy Industries (KM CDR Process with KS-1 solvent); Shell Catalysts & Technologies (CANSOLV CO2 Capture System); SLB Capturi (Just Catch (modular) and larger plants); Fluor (Econamine FG Plus) | cost of CO2 captured, new NGCC (H-class to F-class), 90% capture: 55.9-60.7 USD/t CO2 (2018$)<br>cost of CO2 captured, NGCC retrofit (H-class to F-class), 90% capture: 56.7-61.8 USD/t CO2 (2018$)<br>cost of CO2 captured, cement (greenfield, 90% capture): 62.7 USD/t CO2 (2018$)<br>cost of CO2 captured, iron and steel BOF (retrofit, 90% capture): 65.9 USD/t CO2 (2018$) |
 | [Capture from high-purity CO2 streams (compression and dehydration only)](#ccs-high-purity-compression) | Point source / no separation step | commercial |  | CO2 compressor and dehydration vendors (no licensed process needed) | cost of CO2 captured, natural gas processing (greenfield): 16.1 USD/t CO2 (2018$)<br>cost of CO2 captured, ammonia (greenfield): 19 USD/t CO2 (2018$)<br>cost of CO2 captured, ethylene oxide (greenfield): 26 USD/t CO2 (2018$)<br>cost of CO2 captured, ethanol (greenfield): 31.8 USD/t CO2 (2018$)<br>cost of CO2 captured, gas-to-liquids: 6.4 USD/t CO2 (2018$)<br>average cost of CO2 captured, high-purity industrial streams (over 95% CO2): 17.5 USD/t CO2 (2018$) |
 | [Chemical solvent capture from syngas (hydrogen plants)](#ccs-syngas-chemical-solvent) | Pre-combustion / chemical solvent | commercial |  | Shell Catalysts & Technologies (ADIP ULTRA) | cost of CO2 captured, refinery hydrogen (SMR), greenfield 90% capture: 59.9 USD/t CO2 (2018$) |
+| [Geological CO2 storage in saline aquifers](#ccs-saline-aquifer-storage) | CO2 storage / geological | commercial | 9 | Equinor; Northern Lights |  |
 | [Physical solvent acid gas removal (pre-combustion)](#ccs-physical-solvent-pre-combustion) | Pre-combustion / physical solvent | commercial | 7 | Rectisol and Selexol licensors (see NETL Gasifipedia) |  |
 | [Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)](#ccs-allam-cycle) | Oxyfuel / power cycle | demonstration | 2-5 | NET Power (cycle developer), Toshiba (combustor and turbine) |  |
 | [Direct air capture with liquid solvent (KOH and calcium loop)](#ccs-dac-liquid-solvent) | Direct air capture / liquid solvent | demonstration | 5 | Carbon Engineering / 1PointFive (Occidental) | levelised cost of CO2 captured: 94-232 USD/t CO2 (2016$) |
@@ -128,6 +129,43 @@ flowchart LR
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
 Sources: [1](https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf), [2](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf). Last reviewed 2026-10-24.
+
+## Geological CO2 storage in saline aquifers
+<a id="ccs-saline-aquifer-storage"></a>
+
+Captured CO2 is compressed to a dense phase, piped or shipped to an injection site and injected through wells into a porous rock formation filled with salt water, below an impermeable caprock. The CO2 is trapped under the seal, dissolves in the brine and, over long periods, can mineralise. Injection raises reservoir pressure, so capacity is limited by the pressure that the rock and caprock can tolerate; operators manage it with well placement, completion design and sometimes brine production. Monitoring wells and surveys track the plume.
+
+```mermaid
+flowchart LR
+    CO2["Captured CO2 delivery<br/><small>pipeline or ship, intermediate storage</small>"]
+    CMP["Compression to dense phase<br/><small>compressors, dehydration</small>"]
+    INJ["Injection wells<br/><small>injection wells, multi-depth completions</small>"]
+    AQF["Saline aquifer under caprock"]
+    MON["Monitoring<br/><small>monitoring wells, seismic and pressure monitoring</small>"]
+    BRN["Pressure management (optional)<br/><small>brine production wells</small>"]
+    CO2 --> CMP
+    CMP --> INJ
+    INJ --> AQF
+    AQF --> MON
+    AQF --> BRN
+```
+
+**Key equipment:** CO2 compressors, injection wells, monitoring wells, brine production wells (pressure management), wellhead and downhole sensors.
+
+**Performance:**
+- storage capacity gain from lateral pressure redistribution by brine production, Natuna D-Alpha (simulation): 64 % over the base case; thick carbonate aquifer; high-rate brine production; multi-depth injection alone gave 13%, both together 44% with storage efficiency 0.58%. [source](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119)
+- increase in stored CO2 from completion redesign, SK gas field aquifer (simulation): 28-33.3 % over the corresponding baseline cases; 120-year simulation with plume confined to the aquifer zone in most cases; mineral trapping a minor share. [source](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067)
+- pore pressure rise and remaining margin to fracture pressure, sandstone at 1,200 m (simulation): 3.2 MPa; pore pressure 11.8 to 15.8 MPa against 19.0 MPa fracture pressure, safety ratio 1.20; 10 years injection plus 500 years monitoring. [source](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135)
+- Upper Baturaja candidate reservoir depth and porosity (screening): 1600-1900 m depth; porosity 20-25%, dominated by secondary porosity; Kandanghaur-Gantar High, West Java; literature-based pre-feasibility. [source](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'CO2 storage in saline formation' 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- operating saline aquifer storage projects (for example Sleipner, Northern Lights) with injection rates and start years (reference_plants): The register names them but no source read describes them. Where: Global CCS Institute facilities database and operator pages (registration). Next: Read an open source on each project and add country, rate and start year.
+- cost of transport and storage in USD per tonne CO2 with dollar year (costs): No source read gives storage costs. Where: IEA CCUS reports (iea-reports corpus) (catalog: iea-reports, open); NETL cost reports (corpus/netl) (catalog: netl, open). Next: Add storage cost per tonne with dollar year and basis.
+- measured field injectivity and storage efficiency (performance): Only simulation results were read. Where: Operator monitoring reports (open). Next: Add measured values from operating projects.
+
+Sources: [1](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119), [2](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067), [3](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135), [4](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126), [5](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-24.
 
 ## Physical solvent acid gas removal (pre-combustion)
 <a id="ccs-physical-solvent-pre-combustion"></a>

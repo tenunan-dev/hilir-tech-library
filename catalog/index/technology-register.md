@@ -1,6 +1,6 @@
 # Technology register
 
-298 technologies across oil, gas, petrochemicals and new energy; 64 have a technology card so far.
+299 technologies across oil, gas, petrochemicals and new energy; 71 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -26,6 +26,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Drilling and completions | Coiled tubing and well intervention | commercial | NOV, Halliburton, Baker Hughes |  |
 | Drilling and completions | Casing drilling and expandable tubulars | commercial | Weatherford, Enventure |  |
 | Drilling and completions | Well plug and abandonment technologies (thermite, bismuth plugs) | demonstration | Interwell, BiSN |  |
+| Drilling and completions | Well plug and abandonment (cement plugs, rig-based) | commercial | Rig and cementing service contractors | [card](technologies-UPS.md#ups-well-plug-abandonment) |
 | Production and artificial lift | Electric submersible pumps | commercial | SLB, Baker Hughes, Borets, Novomet |  |
 | Production and artificial lift | Gas lift | commercial | SLB, Weatherford, Baker Hughes |  |
 | Production and artificial lift | Rod lift and progressing cavity pumps | commercial | Weatherford, Dover, NOV |  |
@@ -35,8 +36,8 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Production and artificial lift | Production optimisation and digital oilfield | commercial | SLB, Halliburton, AspenTech, Cognite |  |
 | Improved and enhanced oil recovery | Waterflooding and low-salinity water injection | commercial | BP LoSal |  |
 | Improved and enhanced oil recovery | Gas injection and WAG (hydrocarbon, CO2, nitrogen) | commercial | Operators |  |
-| Improved and enhanced oil recovery | CO2-EOR | commercial | Occidental, Denbury (ExxonMobil) |  |
-| Improved and enhanced oil recovery | Chemical EOR (polymer, surfactant, ASP) | commercial | SNF, Shell, PETRONAS |  |
+| Improved and enhanced oil recovery | CO2-EOR | commercial | Occidental, Denbury (ExxonMobil) | [card](technologies-UPS.md#ups-co2-eor) |
+| Improved and enhanced oil recovery | Chemical EOR (polymer, surfactant, ASP) | commercial | SNF, Shell, PETRONAS | [card](technologies-UPS.md#ups-chemical-eor) |
 | Improved and enhanced oil recovery | Thermal EOR (steam flood, SAGD, CSS) | commercial | Suncor, Cenovus, Chevron |  |
 | Improved and enhanced oil recovery | In-situ combustion and solvent-assisted SAGD | pilot | Operators |  |
 | Improved and enhanced oil recovery | Microbial EOR | pilot | Research |  |
@@ -58,9 +59,9 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Unconventional and other resources | Gas hydrate production | pilot | JOGMEC, CNPC trials |  |
 | Unconventional and other resources | Oil shale retorting | demonstration | Enefit, Petrobras |  |
 | Water and emissions in upstream | Produced water treatment (hydrocyclones, flotation, membranes) | commercial | Veolia, Siemens, Schlumberger |  |
-| Water and emissions in upstream | Methane leak detection (OGI cameras, satellites, continuous sensors) | commercial | FLIR, GHGSat, Kayrros, Project Canary |  |
-| Water and emissions in upstream | Zero routine flaring (flare gas recovery and small-scale GTL) | commercial | Zeeco, John Zink, GasTechno |  |
-| Water and emissions in upstream | Vapour recovery units | commercial | Hy-Bon (Cimarron) |  |
+| Water and emissions in upstream | Methane leak detection (OGI cameras, satellites, continuous sensors) | commercial | FLIR, GHGSat, Kayrros, Project Canary | [card](technologies-UPS.md#ups-methane-leak-detection) |
+| Water and emissions in upstream | Zero routine flaring (flare gas recovery and small-scale GTL) | commercial | Zeeco, John Zink, GasTechno | [card](technologies-UPS.md#ups-flare-gas-recovery) |
+| Water and emissions in upstream | Vapour recovery units | commercial | Hy-Bon (Cimarron) | [card](technologies-UPS.md#ups-flare-gas-recovery) |
 | Water and emissions in upstream | Seawater sulfate removal for injection water | commercial | Veolia, Toray membranes |  |
 | Water and emissions in upstream | Electric instead of gas-pneumatic controllers | commercial | Various |  |
 
@@ -298,7 +299,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Carbon removal | Biochar | commercial | Various |  |
 | Transport and storage | CO2 compression and dehydration | commercial | Atlas Copco, Siemens Energy, MAN (Everllence), Baker Hughes |  |
 | Transport and storage | CO2 shipping and terminals | demonstration | Northern Lights |  |
-| Transport and storage | Geological storage in saline aquifers | commercial | Equinor Sleipner, Northern Lights |  |
+| Transport and storage | Geological storage in saline aquifers | commercial | Equinor Sleipner, Northern Lights | [card](technologies-CCS.md#ccs-saline-aquifer-storage) |
 | Transport and storage | Storage in depleted oil and gas fields | demonstration | Porthos, PETRONAS Kasawari |  |
 | Transport and storage | CO2 mineralisation (in-situ basalt) | demonstration | Carbfix |  |
 | Transport and storage | Ex-situ mineral carbonation | demonstration | Various |  |
