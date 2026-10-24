@@ -1,0 +1,181 @@
+{
+  "id": "pch-electric-steam-cracking",
+  "name": "Electric steam cracking",
+  "aliases": [
+    "electrically heated steam cracking furnace",
+    "e-cracker",
+    "electrified cracker"
+  ],
+  "sector": "PCH",
+  "category": "Olefins / electrified thermal cracking",
+  "applications": [
+    "low-carbon ethylene and propylene when power is renewable"
+  ],
+  "maturity": "demonstration",
+  "principle": "The gas-fired radiant coils of a steam cracker are replaced by coils heated with electricity, so the furnace itself emits no combustion CO2. The rest of the plant (quench, compression, cryogenic separation) is unchanged, which makes the route a retrofit option for existing crackers if renewable power and grid capacity are available.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Renewable power supply",
+      "equipment": [
+        "transformers and power electronics",
+        "grid connection"
+      ]
+    },
+    {
+      "id": "FUR",
+      "name": "Electrically heated cracking furnace",
+      "equipment": [
+        "electrically heated radiant coils",
+        "steam dilution"
+      ]
+    },
+    {
+      "id": "QUE",
+      "name": "Quench and compression",
+      "equipment": [
+        "transfer line exchangers",
+        "cracked gas compressor"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Cryogenic separation",
+      "equipment": [
+        "cold box",
+        "olefin fractionators"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrically heated furnace coils",
+    "power supply and transformers",
+    "quench system",
+    "cracked gas compressor",
+    "cold box"
+  ],
+  "performance": [
+    {
+      "metric": "CO2 reduction potential versus conventional cracking",
+      "unit": "%",
+      "basis": "BASF, SABIC and Linde claim at least 90% with renewable power (potential, not measured)",
+      "source": {
+        "url": "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html",
+        "source_id": "basf-catalysts",
+        "note": "BASF, SABIC and Linde press release, 17 April 2024"
+      },
+      "low": 90,
+      "year": 2024
+    },
+    {
+      "metric": "demonstration furnaces: feed rate and power",
+      "unit": "t hydrocarbon feed/h",
+      "basis": "two furnaces totalling 6 MW input",
+      "source": {
+        "url": "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html",
+        "source_id": "basf-catalysts",
+        "note": "BASF, SABIC and Linde press release, 17 April 2024"
+      },
+      "low": 4,
+      "high": 4,
+      "year": 2024
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'High value chemicals production using steam cracker electrification' 6"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "Linde Engineering",
+      "product": "furnace design and EPC",
+      "source_id": "linde-engineering"
+    },
+    {
+      "name": "BASF",
+      "product": "demonstration operator",
+      "source_id": "basf-catalysts"
+    },
+    {
+      "name": "SABIC",
+      "source_id": "sabic-licensing"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "BASF Ludwigshafen electric cracking demonstration (BASF, SABIC, Linde)",
+      "country": "DE",
+      "capacity": "two furnaces, about 4 t/h feed, 6 MW renewable power",
+      "status": "inaugurated 17 April 2024",
+      "year": 2024,
+      "source": {
+        "url": "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html",
+        "source_id": "basf-catalysts",
+        "note": "BASF, SABIC and Linde press release, 17 April 2024"
+      }
+    }
+  ],
+  "advantages": [
+    "Removes furnace combustion CO2",
+    "Retrofit to existing crackers possible"
+  ],
+  "limitations": [
+    "Needs very large amounts of renewable electricity",
+    "Costs not yet published",
+    "Only a small demonstration so far"
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "measured results from the demonstration (CO2, energy, run length)",
+      "reason_code": "status_unchecked",
+      "reason": "Only the 2024 start-up announcement was read.",
+      "where": [
+        {
+          "hint": "BASF and Linde publications after 2024",
+          "access": "open",
+          "source_id": "basf-catalysts"
+        }
+      ],
+      "action": "Check for measured results and any commercial-scale announcement; update the card."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html",
+      "source_id": "basf-catalysts",
+      "note": "BASF, SABIC and Linde press release, 17 April 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

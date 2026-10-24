@@ -1,0 +1,237 @@
+{
+  "id": "pch-methanol-to-olefins",
+  "name": "Methanol-to-olefins (MTO, DMTO)",
+  "aliases": [
+    "MTO",
+    "DMTO",
+    "DMTO-II",
+    "DMTO-III",
+    "coal-to-olefins",
+    "methanol to olefins"
+  ],
+  "sector": "PCH",
+  "category": "Olefins / methanol route",
+  "applications": [
+    "ethylene and propylene from coal- or gas-derived methanol",
+    "polyethylene and polypropylene in coal-rich regions"
+  ],
+  "maturity": "commercial",
+  "principle": "Methanol vapour is converted over a SAPO-34 molecular sieve catalyst in a fluidized-bed reactor into ethylene and propylene. The catalyst coke is burned off in a regenerator, and the product gas is quenched, compressed and separated. DMTO-II adds a second reactor that cracks C4 and heavier by-products over a dual-function catalyst to raise olefin yield; DMTO-III raises selectivity further without recycling C4+.",
+  "process_steps": [
+    {
+      "id": "MEOH",
+      "name": "Methanol feed vaporisation",
+      "equipment": [
+        "feed vaporiser and preheater"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Fluidized-bed reactor",
+      "equipment": [
+        "shallow turbulent fluidized-bed reactor with SAPO-34 catalyst"
+      ],
+      "to": [
+        "REG",
+        "QUE"
+      ],
+      "streams": {
+        "REG": "coked catalyst",
+        "QUE": "product gas"
+      }
+    },
+    {
+      "id": "REG",
+      "name": "Catalyst regeneration",
+      "equipment": [
+        "bubbling fluidized-bed regenerator"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "QUE",
+      "name": "Quench and compression",
+      "equipment": [
+        "quench and water wash",
+        "product gas compressor"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Olefin separation",
+      "equipment": [
+        "cold box and fractionation as in a cracker"
+      ],
+      "to": [
+        "ETH",
+        "PRO"
+      ],
+      "streams": {
+        "ETH": "ethylene",
+        "PRO": "propylene"
+      }
+    },
+    {
+      "id": "ETH",
+      "name": "Ethylene to polyethylene",
+      "to": []
+    },
+    {
+      "id": "PRO",
+      "name": "Propylene to polypropylene",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "methanol vaporiser",
+    "fluidized-bed reactor and regenerator",
+    "quench tower",
+    "product gas compressor",
+    "olefin fractionation train"
+  ],
+  "performance": [
+    {
+      "metric": "ethylene plus propylene selectivity, demonstration unit",
+      "unit": "%",
+      "basis": "DICP; DMTO-III 85-90%",
+      "source": {
+        "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001",
+        "source_id": "dicp-cas",
+        "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
+      },
+      "low": 79,
+      "high": 79,
+      "year": 2021
+    },
+    {
+      "metric": "methanol consumption per tonne of light olefins, original process",
+      "unit": "t methanol/t olefins",
+      "basis": "DICP; 2.85 with newer catalyst, about 2.64 for DMTO-III",
+      "source": {
+        "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001",
+        "source_id": "dicp-cas",
+        "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
+      },
+      "low": 2.97,
+      "high": 2.97,
+      "year": 2021
+    },
+    {
+      "metric": "DMTO units licensed (to end-2019)",
+      "unit": "units",
+      "basis": "14 started up; licensed olefins capacity 14 Mt/yr, 7.67 Mt/yr in the 14 started units",
+      "source": {
+        "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001",
+        "source_id": "dicp-cas",
+        "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
+      },
+      "low": 26,
+      "high": 26,
+      "year": 2021
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "DICP / SYN Energy Technology",
+      "product": "DMTO",
+      "source_id": "dicp-cas"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "MTO",
+      "source_id": "honeywell-uop"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Shenhua Baotou coal-to-olefins plant",
+      "country": "CN",
+      "capacity": "1.8 Mt/yr methanol feed, 600,000 t/yr polyethylene and polypropylene (first commercial DMTO)",
+      "status": "started 8 August 2010",
+      "year": 2010,
+      "source": {
+        "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001",
+        "source_id": "dicp-cas",
+        "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
+      }
+    }
+  ],
+  "advantages": [
+    "Gives olefins without crude oil",
+    "Fluidized-bed process proven at multi-million-tonne scale in China"
+  ],
+  "limitations": [
+    "Methanol feed from coal brings a high CO2 footprint",
+    "Needs about 2.6-3.0 t methanol per tonne of olefins",
+    "Catalyst coking requires continuous regeneration"
+  ],
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA guide has no MTO entry; the installed base (26 licences) supports 'commercial'.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists methanol-to-olefins."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "CO2 intensity of coal-based and green-methanol MTO",
+      "reason_code": "not_in_sources_read",
+      "reason": "The DMTO paper read gives selectivity and methanol use, not carbon intensity.",
+      "where": [
+        {
+          "hint": "IEA reports on chemicals and China coal chemistry (iea-reports corpus)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Open life-cycle assessments of coal-to-olefins",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add t CO2 per tonne of olefins with the methanol source stated."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001",
+      "source_id": "dicp-cas",
+      "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

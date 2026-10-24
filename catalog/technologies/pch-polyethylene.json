@@ -1,0 +1,193 @@
+{
+  "id": "pch-polyethylene",
+  "name": "Polyethylene (gas phase, slurry, solution)",
+  "aliases": [
+    "PE",
+    "HDPE",
+    "LLDPE",
+    "UNIPOL PE",
+    "polyethylene process"
+  ],
+  "sector": "PCH",
+  "category": "Polymers",
+  "applications": [
+    "film, pipe, moulded articles, packaging"
+  ],
+  "maturity": "commercial",
+  "principle": "Ethylene, with a comonomer such as butene or hexene for LLDPE and HDPE copolymers, is polymerised on a supported catalyst in a gas-phase fluidized-bed, slurry-loop or solution reactor. The resin leaves the reactor as powder or pellets after degassing to remove monomer, and is extruded with additives. The process route and catalyst (Ziegler-Natta, chromium or metallocene) set the grade range.",
+  "process_steps": [
+    {
+      "id": "FD",
+      "name": "Feed purification",
+      "equipment": [
+        "ethylene and comonomer purification beds",
+        "catalyst feeders"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Polymerisation reactor",
+      "equipment": [
+        "gas-phase fluidized bed, slurry loop or solution reactor",
+        "cycle gas compressor and cooler"
+      ]
+    },
+    {
+      "id": "DG",
+      "name": "Resin degassing",
+      "equipment": [
+        "purge bin",
+        "monomer recovery"
+      ]
+    },
+    {
+      "id": "EXT",
+      "name": "Extrusion and pelletising",
+      "equipment": [
+        "extruder",
+        "pelletiser",
+        "blenders"
+      ]
+    },
+    {
+      "id": "PK",
+      "name": "Packaging and storage",
+      "equipment": [
+        "silos",
+        "bagging or bulk loading"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "feed purification",
+    "polymerisation reactor and cycle gas system",
+    "degassing bin",
+    "extruder and pelletiser",
+    "silos"
+  ],
+  "performance": [
+    {
+      "metric": "UNIPOL PE single-line design capacity",
+      "unit": "t/yr",
+      "basis": "Univation (announced May 2025), up from 650,000 t/yr nameplate",
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2025/05/univation-technologies-announces-world-scale-800-000-tpy-design-capacity-for-unipol-pe-process-technology/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing, 12 May 2025"
+      },
+      "low": 800000,
+      "high": 800000,
+      "year": 2025
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Univation (Dow)",
+      "product": "UNIPOL PE"
+    },
+    {
+      "name": "LyondellBasell"
+    },
+    {
+      "name": "Ineos"
+    },
+    {
+      "name": "Chevron Phillips Chemical"
+    },
+    {
+      "name": "Borealis",
+      "product": "Borstar"
+    }
+  ],
+  "advantages": [
+    "Highly mature, large lines",
+    "Broad product slate: unimodal and bimodal HDPE, LLDPE and metallocene PE (UNIPOL)"
+  ],
+  "limitations": [
+    "Fossil-based unless bio-ethylene is used",
+    "Grade changes cost off-spec material",
+    "Recycling needs separate collection"
+  ],
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named polyethylene plants with capacity",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article read gives the design capacity but no plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator news (Univation, LyondellBasell, Ineos)",
+          "access": "open",
+          "source_id": "hydrocarbon-processing"
+        }
+      ],
+      "action": "Add one or two plants with capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No IEA entry for conventional PE.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table, or rely on decades of commercial operation."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "energy and CO2 per tonne of polyethylene (polymerisation only and including ethylene)",
+      "reason_code": "not_in_sources_read",
+      "reason": "None of the sources read gives it.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Add energy use and CO2 with system boundary stated."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2025/05/univation-technologies-announces-world-scale-800-000-tpy-design-capacity-for-unipol-pe-process-technology/",
+      "source_id": "hydrocarbon-processing",
+      "note": "Hydrocarbon Processing, 12 May 2025"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

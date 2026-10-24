@@ -1,0 +1,209 @@
+{
+  "id": "pch-plastics-pyrolysis",
+  "name": "Plastics pyrolysis (chemical recycling)",
+  "aliases": [
+    "chemical recycling",
+    "advanced recycling",
+    "pyrolysis recycling",
+    "TACOIL",
+    "plastic waste pyrolysis"
+  ],
+  "sector": "PCH",
+  "category": "Circular chemicals",
+  "applications": [
+    "feedstock for steam crackers from mixed or contaminated plastic waste"
+  ],
+  "maturity": "demonstration",
+  "principle": "Mixed post-consumer plastic waste, mainly polyolefins, is heated without oxygen so that the polymers crack into a hydrocarbon oil (called TACOIL by Plastic Energy), gas and char. The oil is cleaned and used as feed to steam crackers, where it displaces fossil naphtha and can be counted as recycled content through mass balance.",
+  "process_steps": [
+    {
+      "id": "SORT",
+      "name": "Waste sorting and shredding",
+      "equipment": [
+        "sorting lines",
+        "shredder",
+        "washing and drying"
+      ]
+    },
+    {
+      "id": "PYR",
+      "name": "Pyrolysis reactor",
+      "equipment": [
+        "heated reactor under inert atmosphere"
+      ],
+      "to": [
+        "CON",
+        "CHAR"
+      ],
+      "streams": {
+        "CON": "vapours",
+        "CHAR": "char"
+      }
+    },
+    {
+      "id": "CON",
+      "name": "Condensation and treating",
+      "equipment": [
+        "condensers",
+        "oil cleaning and dechlorination"
+      ],
+      "to": [
+        "OIL",
+        "GAS"
+      ],
+      "streams": {
+        "OIL": "pyrolysis oil",
+        "GAS": "non-condensable gas"
+      }
+    },
+    {
+      "id": "OIL",
+      "name": "Pyrolysis oil to steam cracker",
+      "to": []
+    },
+    {
+      "id": "GAS",
+      "name": "Gas used as process fuel",
+      "to": []
+    },
+    {
+      "id": "CHAR",
+      "name": "Char disposal or use",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "sorting and washing line",
+    "pyrolysis reactor",
+    "condensers",
+    "oil treating",
+    "storage"
+  ],
+  "performance": [
+    {
+      "metric": "planned Seville plant capacity",
+      "unit": "t/yr post-consumer plastic waste",
+      "basis": "Plastic Energy and TotalEnergies, expected operational early 2025 (as of January 2022)",
+      "source": {
+        "url": "https://www.businesswire.com/news/home/20220110006139/en/Plastic-Energy-and-TotalEnergies-Sign-an-Agreement-for-an-Advanced-Recycling-Project-in-Spain",
+        "note": "Plastic Energy and TotalEnergies release (Business Wire ID 20220110)"
+      },
+      "low": 33000,
+      "high": 33000,
+      "year": 2022
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA Clean Energy Technology Guide 2025: 'Pyrolysis recycling' TRL 9"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "Plastic Energy",
+      "product": "TAC (TACOIL)"
+    },
+    {
+      "name": "Agilyx"
+    },
+    {
+      "name": "Mura Technology"
+    },
+    {
+      "name": "BASF",
+      "product": "ChemCycling",
+      "source_id": "basf-catalysts"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Plastic Energy and TotalEnergies advanced recycling plant, Seville",
+      "country": "ES",
+      "capacity": "33,000 t/yr plastic waste",
+      "status": "expected operational early 2025 per January 2022 release; actual start not checked",
+      "year": 2022,
+      "source": {
+        "url": "https://www.businesswire.com/news/home/20220110006139/en/Plastic-Energy-and-TotalEnergies-Sign-an-Agreement-for-an-Advanced-Recycling-Project-in-Spain",
+        "note": "Plastic Energy and TotalEnergies release (Business Wire ID 20220110)"
+      }
+    }
+  ],
+  "advantages": [
+    "Handles mixed and soiled plastics that mechanical recycling rejects",
+    "Output integrates with existing crackers"
+  ],
+  "limitations": [
+    "Yield losses to char and gas",
+    "Dechlorination needed for PVC-containing waste",
+    "Recycled content depends on accounting rules"
+  ],
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "actual start-up of the Seville plant",
+      "reason_code": "status_unchecked",
+      "reason": "Only the 2022 announcement was read.",
+      "where": [
+        {
+          "hint": "Plastic Energy and TotalEnergies news after 2022",
+          "access": "open"
+        }
+      ],
+      "action": "Check start-up and update the plant status."
+    },
+    {
+      "field": "performance",
+      "item": "oil yield (% of plastic input) and energy use",
+      "reason_code": "not_in_sources_read",
+      "reason": "The release read gives capacity only.",
+      "where": [
+        {
+          "hint": "Open reviews of pyrolysis yields (arXiv, open-access journals)",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add yield and energy per tonne with the waste mix stated."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20220110006139/en/Plastic-Energy-and-TotalEnergies-Sign-an-Agreement-for-an-Advanced-Recycling-Project-in-Spain",
+      "note": "Plastic Energy and TotalEnergies release (Business Wire ID 20220110)"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA Clean Energy Technology Guide 2025: 'Pyrolysis recycling' TRL 9"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

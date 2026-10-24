@@ -1,0 +1,237 @@
+{
+  "id": "pch-propane-dehydrogenation",
+  "name": "Propane dehydrogenation (Oleflex, CATOFIN)",
+  "aliases": [
+    "PDH",
+    "on-purpose propylene",
+    "Oleflex",
+    "CATOFIN"
+  ],
+  "sector": "PCH",
+  "category": "Olefins / on-purpose propylene",
+  "applications": [
+    "propylene for polypropylene where cracker propylene is short"
+  ],
+  "maturity": "commercial",
+  "principle": "Propane is heated and passed over a dehydrogenation catalyst, which removes hydrogen to form propylene. The reaction is endothermic and equilibrium-limited, so conversion per pass is partial; unconverted propane is separated and recycled. In UOP's Oleflex process the platinum catalyst is circulated continuously through a regenerator; Lummus CATOFIN uses fixed beds that cycle between reaction and regeneration.",
+  "process_steps": [
+    {
+      "id": "FD",
+      "name": "Propane feed treating and preheat",
+      "equipment": [
+        "feed treating",
+        "feed/effluent exchanger"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Dehydrogenation reactors",
+      "equipment": [
+        "Oleflex moving-bed reactors with interheaters, or CATOFIN cyclic fixed beds"
+      ],
+      "to": [
+        "SEP",
+        "REG"
+      ],
+      "streams": {
+        "SEP": "reactor effluent",
+        "REG": "spent catalyst (Oleflex)"
+      }
+    },
+    {
+      "id": "REG",
+      "name": "Catalyst regeneration",
+      "equipment": [
+        "continuous catalyst regenerator (Oleflex) / air regeneration cycle (CATOFIN)"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Product recovery",
+      "equipment": [
+        "effluent compressor",
+        "cold box",
+        "hydrogen separation"
+      ],
+      "to": [
+        "DEP",
+        "H2"
+      ],
+      "streams": {
+        "DEP": "propane/propylene",
+        "H2": "hydrogen"
+      }
+    },
+    {
+      "id": "DEP",
+      "name": "Propane-propylene splitter",
+      "equipment": [
+        "propylene splitter column"
+      ],
+      "to": [
+        "PRP",
+        "FD"
+      ],
+      "streams": {
+        "PRP": "polymer-grade propylene",
+        "FD": "recycle propane"
+      }
+    },
+    {
+      "id": "PRP",
+      "name": "Propylene product",
+      "to": []
+    },
+    {
+      "id": "H2",
+      "name": "Hydrogen by-product",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reactor section",
+    "catalyst regenerator",
+    "effluent compressor",
+    "cold box",
+    "propane-propylene splitter"
+  ],
+  "performance": [
+    {
+      "metric": "global Oleflex propylene capacity",
+      "unit": "Mt/yr",
+      "basis": "Honeywell, as of November 2020; 68 of the last 92 dehydrogenation projects worldwide since 2011 used UOP technology",
+      "source": {
+        "url": "https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell news release, 9 November 2020"
+      },
+      "low": 7.9,
+      "high": 7.9,
+      "year": 2020
+    },
+    {
+      "metric": "capacity of each of Oriental Energy's three earlier Oleflex units",
+      "unit": "t/yr propylene",
+      "basis": "Honeywell release",
+      "source": {
+        "url": "https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell news release, 9 November 2020"
+      },
+      "low": 660000,
+      "high": 660000,
+      "year": 2020
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "Oleflex",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Lummus Technology",
+      "product": "CATOFIN",
+      "source_id": "lummus"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Oriental Energy, Maoming, Guangdong (fourth Oleflex unit)",
+      "country": "CN",
+      "capacity": "three earlier units of 660,000 t/yr each; capacity of the new unit not stated",
+      "status": "start scheduled 2022 (as of November 2020)",
+      "year": 2020,
+      "source": {
+        "url": "https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell news release, 9 November 2020"
+      }
+    }
+  ],
+  "advantages": [
+    "Makes propylene from abundant propane",
+    "Hydrogen co-product",
+    "Many units licensed in China"
+  ],
+  "limitations": [
+    "Endothermic, energy-intensive",
+    "Depends on cheap propane",
+    "Catalyst regeneration is critical to run length"
+  ],
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA guide has no PDH entry; the card is commercial on the basis of the 7.9 Mt/yr installed base.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Licensor statements of commercial references",
+          "access": "open",
+          "source_id": "honeywell-uop"
+        }
+      ],
+      "action": "Find a TRL table that lists on-purpose propylene, or leave the commercial claim resting on the installed capacity."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "propylene yield, selectivity and energy use per tonne of propylene",
+      "reason_code": "not_in_sources_read",
+      "reason": "The release read gives capacity only.",
+      "where": [
+        {
+          "hint": "UOP and Lummus process brochures",
+          "access": "open",
+          "source_id": "honeywell-uop"
+        },
+        {
+          "hint": "Open techno-economic papers on PDH",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add yield, selectivity and energy use with basis and source."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell news release, 9 November 2020"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

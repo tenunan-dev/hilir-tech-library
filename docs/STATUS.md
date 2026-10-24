@@ -10,7 +10,7 @@ Living document. Update it at the end of every working session (newest entry on 
 | Verified | 126 (31 full-text-open, 75 full-text-restricted, 16 summary-only, 4 catalog-only) |
 | Unverified | 217, of which 50 need a manual terms check (`catalog/index/needs-manual-check.md`) |
 | Corpus documents | 64 (OSTI and arXiv abstracts; NETL, DOE and IEA reports in full text; IEA technology guide dataset) |
-| Technology cards | 52 (CCS 14, H2 12, GAS 13, REF 13); register of about 300 technologies in `catalog/technology-register.yaml` |
+| Technology cards | 61 (CCS 14, H2 12, GAS 13, REF 13, PCH 9); register of about 300 technologies in `catalog/technology-register.yaml` |
 
 Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl` and the MCP tool `library_stats`.
 
@@ -22,7 +22,7 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 
 ## Backlog (in rough priority order)
 
-1. **Technology cards:** cards exist for CCS, H2, GAS and REF; all open gaps are listed in `catalog/index/gaps.md`. Main ones: NETL baseline figures for CCS (regeneration energy, power-plant cost of capture); LNG specific power by liquefaction process (kWh/t); liquid hydrogen liquefaction energy; HEFA and alcohol-to-jet selling prices (NREL/PNNL reports on osti.gov, unreachable so far); SAF Grand Challenge Roadmap (record `doe-affo` now added, collect it). Next sectors: PCH, UPS, MID, PWR.
+1. **Technology cards:** cards exist for CCS, H2, GAS and REF; all open gaps are listed in `catalog/index/gaps.md`. Main ones: NETL baseline figures for CCS (regeneration energy, power-plant cost of capture); LNG specific power by liquefaction process (kWh/t); liquid hydrogen liquefaction energy; HEFA and alcohol-to-jet selling prices (NREL/PNNL reports on osti.gov, unreachable so far); SAF Grand Challenge Roadmap (record `doe-affo` now added, collect it). Next sectors: UPS, MID, PWR; PCH partly done.
 1. **Manual terms checks:** 50 records listed in `catalog/index/needs-manual-check.md`.
 2. **Unchecked collectable records:** chula-petroleum, itb-indonesia, kaust, keei, khalifa-university, mycite, myipo, nea-china, th-dmf, vn-pvj, uq-energy, weatherford.
 3. **Remaining unverified records:** verify the rest of the 217, Southeast Asia and Asia Pacific first.
@@ -46,6 +46,7 @@ Add one entry per working session, newest on top, in this format, so an agent wi
 - **YYYY-MM-DD, <who or which agent>:** Did: <changes, with commit hashes>. Verified: <checks run and results, e.g. build.py N records valid, pytest N passed, trial run looked right>. Failed: <what did not work, with the exact error message>. Next: <the concrete next step, or the owner decision it waits on>.
 ```
 
+- **2026-10-24 (petrochemicals):** 9 PCH cards added: steam cracking, electric steam cracking, propane dehydrogenation, methanol-to-olefins, paraxylene adsorption, polyethylene, polypropylene, plastics pyrolysis, PET depolymerisation. 61 cards in total. Not yet carded in PCH: aromatics complex, metathesis, oxidative coupling, methanol, ammonia and urea, EO/EG (Shell page returned no body text), propylene oxide, phenol, butadiene, alpha olefins, other circular routes. Hosting parked: owner has no Azure subscription.
 - **2026-10-24 (gap fill):** Status checks done for NET Power (Project Permian now gas turbines with post-combustion capture, FID H2 2026), Stratos (start moved to end of 2026), Mammoth (675 t captured H1 2026 vs 36,000 t/yr nameplate), oxyfuel cement (CI4C Mergelstetten plant inaugurated July 2026). Added reference plants (Great Plains Synfuels, Shute Creek, Brazos RSV2, Vadinar coker, Xinhai isomerisation), liquid hydrogen energy and cost (DOE record 19001), LNG specific power for C3MR, DMR and MFC (OGST 2020, CC BY). ATR with capture moved to pilot to match the IEA TRL. Open gaps 99 not_in_sources_read, 3 source_unreachable.
 - **2026-10-24 (late night):** Mac collected the DOE SAF Grand Challenge Roadmap and Implementation Framework (doe-affo) and the IEA ETP Clean Energy Technology Guide dataset (634 technologies, TRL by year, CC BY 4.0). TRLs filled on 17 cards from the IEA guide; 25 cards have no IEA entry (gap updated). Neither SAF document gives HEFA or ATJ production costs. Open gaps now 119 on 51 cards.
 - **2026-10-24 (night):** Missing inputs are now recorded: `gaps` field on every card (132 gaps: what, why, where to get it, next action, blocker), `catalog/index/gaps.md`, MCP tool `list_gaps`, `gaps.csv` in the Dataverse export. 243 register technologies still have no card.

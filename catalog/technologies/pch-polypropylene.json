@@ -1,0 +1,196 @@
+{
+  "id": "pch-polypropylene",
+  "name": "Polypropylene (gas phase, bulk)",
+  "aliases": [
+    "PP",
+    "UNIPOL PP",
+    "Spheripol",
+    "Innovene PP",
+    "polypropylene process"
+  ],
+  "sector": "PCH",
+  "category": "Polymers",
+  "applications": [
+    "packaging, automotive parts, fibres, pipes"
+  ],
+  "maturity": "commercial",
+  "principle": "Propylene, with ethylene or other comonomers for copolymers, is polymerised over a supported Ziegler-Natta or metallocene catalyst in a gas-phase reactor or in liquid propylene (bulk loop) reactors. After the reactor the powder is degassed, mixed with additives and pelletised. Impact copolymers use a second reactor to add a rubber phase.",
+  "process_steps": [
+    {
+      "id": "FD",
+      "name": "Propylene purification",
+      "equipment": [
+        "purification beds",
+        "catalyst preparation and feeders"
+      ]
+    },
+    {
+      "id": "R1",
+      "name": "Homopolymer reactor",
+      "equipment": [
+        "gas-phase reactor or bulk loop"
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "Copolymer reactor (impact grades)",
+      "equipment": [
+        "second gas-phase reactor"
+      ]
+    },
+    {
+      "id": "DG",
+      "name": "Powder degassing",
+      "equipment": [
+        "purge bin",
+        "monomer recovery"
+      ]
+    },
+    {
+      "id": "EXT",
+      "name": "Extrusion and pelletising",
+      "equipment": [
+        "extruder",
+        "pelletiser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "purification beds",
+    "reactor(s) and cycle gas system",
+    "degassing bin",
+    "extruder and pelletiser",
+    "silos"
+  ],
+  "performance": [
+    {
+      "metric": "UNIPOL PP licensed reactor lines",
+      "unit": "lines",
+      "basis": "Grace: over 100 licensed in more than 25 countries and 76 operating in 2023",
+      "source": {
+        "url": "https://grace.com/insights/unipol--pp-technology--leading-the-way-in-innovation-and-growth/",
+        "source_id": "grace-catalysts",
+        "note": "Grace article on UNIPOL PP (2023 licensing figures)"
+      },
+      "low": 100,
+      "year": 2023
+    },
+    {
+      "metric": "largest single UNIPOL PP line designed",
+      "unit": "t/yr",
+      "basis": "Grace: basic engineering package completed for a licensee in 2023",
+      "source": {
+        "url": "https://grace.com/insights/unipol--pp-technology--leading-the-way-in-innovation-and-growth/",
+        "source_id": "grace-catalysts",
+        "note": "Grace article on UNIPOL PP (2023 licensing figures)"
+      },
+      "low": 650000,
+      "high": 650000,
+      "year": 2023
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Grace (UNIPOL PP)",
+      "source_id": "grace-catalysts"
+    },
+    {
+      "name": "LyondellBasell",
+      "product": "Spheripol"
+    },
+    {
+      "name": "Ineos",
+      "product": "Innovene PP"
+    }
+  ],
+  "advantages": [
+    "Close to 300 standard grades from one process (UNIPOL)",
+    "All gas-phase route avoids diluent"
+  ],
+  "limitations": [
+    "Demand tied to propylene supply (cracker, FCC, PDH, MTO)",
+    "Fossil-based unless bio- or recycled feed is used"
+  ],
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named polypropylene plants with capacity",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Grace article gives fleet figures only.",
+      "where": [
+        {
+          "hint": "Licensor and operator news",
+          "access": "open",
+          "source_id": "grace-catalysts"
+        }
+      ],
+      "action": "Add one or two plants."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No IEA entry for conventional PP.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table, or rely on commercial operation."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "energy and CO2 per tonne of polypropylene",
+      "reason_code": "not_in_sources_read",
+      "reason": "None of the sources read gives it.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Add with system boundary stated."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://grace.com/insights/unipol--pp-technology--leading-the-way-in-innovation-and-growth/",
+      "source_id": "grace-catalysts",
+      "note": "Grace article on UNIPOL PP (2023 licensing figures)"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

@@ -1,0 +1,253 @@
+{
+  "id": "pch-steam-cracking",
+  "name": "Steam cracking (naphtha, ethane, LPG)",
+  "aliases": [
+    "steam cracker",
+    "ethylene cracker",
+    "olefins plant",
+    "thermal cracking of hydrocarbons"
+  ],
+  "sector": "PCH",
+  "category": "Olefins / thermal cracking",
+  "applications": [
+    "ethylene",
+    "propylene",
+    "butadiene",
+    "pyrolysis gasoline for aromatics"
+  ],
+  "maturity": "commercial",
+  "principle": "Hydrocarbon feed is diluted with steam and passed through coils in gas-fired furnaces at about 800 to 850 °C for a fraction of a second, which breaks it into ethylene, propylene and other olefins. The effluent is quenched to stop reactions, compressed, and separated by cryogenic distillation. Ethane gives mostly ethylene; naphtha gives a wider product slate including propylene, butadiene and aromatics.",
+  "process_steps": [
+    {
+      "id": "FUR",
+      "name": "Cracking furnace",
+      "equipment": [
+        "fired radiant coils",
+        "steam dilution",
+        "convection section"
+      ]
+    },
+    {
+      "id": "QUE",
+      "name": "Quench",
+      "equipment": [
+        "transfer line exchangers",
+        "primary fractionator and quench water tower"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Cracked gas compression and treating",
+      "equipment": [
+        "multi-stage cracked gas compressor",
+        "caustic or amine acid gas removal",
+        "dryers"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Cryogenic separation",
+      "equipment": [
+        "cold box",
+        "demethaniser, deethaniser, depropaniser",
+        "ethylene and propylene fractionators"
+      ],
+      "to": [
+        "ETH",
+        "PRO",
+        "BYP"
+      ],
+      "streams": {
+        "ETH": "ethylene",
+        "PRO": "propylene",
+        "BYP": "C4s, pyrolysis gasoline"
+      }
+    },
+    {
+      "id": "ETH",
+      "name": "Ethylene product",
+      "to": []
+    },
+    {
+      "id": "PRO",
+      "name": "Propylene product",
+      "to": []
+    },
+    {
+      "id": "BYP",
+      "name": "By-products to butadiene and aromatics units",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "cracking furnaces",
+    "transfer line exchangers",
+    "quench towers",
+    "cracked gas compressor",
+    "cold box",
+    "ethylene and propylene fractionators",
+    "refrigeration compressors"
+  ],
+  "performance": [
+    {
+      "metric": "furnace operating temperature",
+      "unit": "°C",
+      "basis": "ChemEngineering 2025 review",
+      "source": {
+        "url": "https://run.unl.pt/bitstream/10362/186917/1/ChemEngineering-09-00055-v2.pdf",
+        "note": "Torcato, Silva and Eusébio, Electrification of Compressor in Steam Cracker Plant, ChemEngineering 2025, 9, 55, CC BY 4.0"
+      },
+      "low": 800,
+      "high": 850,
+      "year": 2025
+    },
+    {
+      "metric": "residence time in the coil",
+      "unit": "s",
+      "basis": "ChemEngineering 2025 review",
+      "source": {
+        "url": "https://run.unl.pt/bitstream/10362/186917/1/ChemEngineering-09-00055-v2.pdf",
+        "note": "Torcato, Silva and Eusébio, Electrification of Compressor in Steam Cracker Plant, ChemEngineering 2025, 9, 55, CC BY 4.0"
+      },
+      "low": 0.1,
+      "high": 0.5,
+      "year": 2025
+    },
+    {
+      "metric": "steam dilution",
+      "unit": "kg steam per kg hydrocarbon",
+      "basis": "ChemEngineering 2025 review",
+      "source": {
+        "url": "https://run.unl.pt/bitstream/10362/186917/1/ChemEngineering-09-00055-v2.pdf",
+        "note": "Torcato, Silva and Eusébio, Electrification of Compressor in Steam Cracker Plant, ChemEngineering 2025, 9, 55, CC BY 4.0"
+      },
+      "low": 0.3,
+      "high": 1,
+      "year": 2025
+    },
+    {
+      "metric": "energy use of the cracking furnace",
+      "unit": "GJ/t high-value chemicals",
+      "basis": "ChemEngineering 2025 review; cryogenic separation 2 GJ/t, fractionation and compression 1.5 GJ/t",
+      "source": {
+        "url": "https://run.unl.pt/bitstream/10362/186917/1/ChemEngineering-09-00055-v2.pdf",
+        "note": "Torcato, Silva and Eusébio, Electrification of Compressor in Steam Cracker Plant, ChemEngineering 2025, 9, 55, CC BY 4.0"
+      },
+      "low": 6.5,
+      "high": 6.5,
+      "year": 2025
+    },
+    {
+      "metric": "CO2 emissions",
+      "unit": "t CO2/t ethylene",
+      "basis": "ChemEngineering 2025 review; global steam crackers emit about 180-200 Mt CO2/yr",
+      "source": {
+        "url": "https://run.unl.pt/bitstream/10362/186917/1/ChemEngineering-09-00055-v2.pdf",
+        "note": "Torcato, Silva and Eusébio, Electrification of Compressor in Steam Cracker Plant, ChemEngineering 2025, 9, 55, CC BY 4.0"
+      },
+      "low": 1.8,
+      "high": 2,
+      "year": 2025
+    },
+    {
+      "metric": "ethylene yield from naphtha",
+      "unit": "wt%",
+      "basis": "ChemEngineering 2025 review, short residence time and high severity",
+      "source": {
+        "url": "https://run.unl.pt/bitstream/10362/186917/1/ChemEngineering-09-00055-v2.pdf",
+        "note": "Torcato, Silva and Eusébio, Electrification of Compressor in Steam Cracker Plant, ChemEngineering 2025, 9, 55, CC BY 4.0"
+      },
+      "low": 30,
+      "high": 30,
+      "year": 2025
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'High value chemicals production using naphtha catalytic cracking' 9"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "Lummus Technology",
+      "source_id": "lummus"
+    },
+    {
+      "name": "Technip Energies",
+      "source_id": "technip-energies"
+    },
+    {
+      "name": "Linde Engineering",
+      "source_id": "linde-engineering"
+    },
+    {
+      "name": "KBR",
+      "source_id": "kbr-technology"
+    }
+  ],
+  "advantages": [
+    "Dominant route to ethylene and propylene worldwide",
+    "Flexible feed from ethane to naphtha",
+    "Units exceed 1 Mt/yr ethylene per plant"
+  ],
+  "limitations": [
+    "One of the largest industrial CO2 sources (furnace fuel)",
+    "Product slate depends on feed",
+    "Coke formation needs periodic decoking"
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named crackers with capacity",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific cracker.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open",
+          "source_id": "lummus"
+        },
+        {
+          "hint": "PETRONAS Pengerang and Hengli Dalian complexes (see crude-to-chemicals card)",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two crackers with country, ethylene capacity and start-up year."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://run.unl.pt/bitstream/10362/186917/1/ChemEngineering-09-00055-v2.pdf",
+      "note": "Torcato, Silva and Eusébio, Electrification of Compressor in Steam Cracker Plant, ChemEngineering 2025, 9, 55, CC BY 4.0"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

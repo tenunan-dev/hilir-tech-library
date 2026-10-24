@@ -1,6 +1,6 @@
 # Technology register
 
-298 technologies across oil, gas, petrochemicals and new energy; 55 have a technology card so far.
+298 technologies across oil, gas, petrochemicals and new energy; 64 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -162,17 +162,17 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Olefins | Steam cracking (naphtha, ethane, LPG) | commercial | Lummus, Technip Energies, Linde, KBR |  |
-| Olefins | Electric steam cracking | demonstration | BASF/SABIC/Linde Ludwigshafen, Shell/Dow |  |
-| Olefins | Propane dehydrogenation (Oleflex, CATOFIN) | commercial | Honeywell UOP, Lummus CATOFIN |  |
-| Olefins | Methanol-to-olefins (MTO, DMTO) | commercial | Honeywell UOP, DICP/SYN Energy |  |
+| Olefins | Steam cracking (naphtha, ethane, LPG) | commercial | Lummus, Technip Energies, Linde, KBR | [card](technologies-PCH.md#pch-steam-cracking) |
+| Olefins | Electric steam cracking | demonstration | BASF/SABIC/Linde Ludwigshafen, Shell/Dow | [card](technologies-PCH.md#pch-electric-steam-cracking) |
+| Olefins | Propane dehydrogenation (Oleflex, CATOFIN) | commercial | Honeywell UOP, Lummus CATOFIN | [card](technologies-PCH.md#pch-propane-dehydrogenation) |
+| Olefins | Methanol-to-olefins (MTO, DMTO) | commercial | Honeywell UOP, DICP/SYN Energy | [card](technologies-PCH.md#pch-methanol-to-olefins) |
 | Olefins | Metathesis (OCT) | commercial | Lummus |  |
 | Olefins | Oxidative coupling of methane | pilot | Lummus/Siluria |  |
 | Aromatics | Aromatics complexes (paraxylene, benzene) | commercial | Honeywell UOP, Axens |  |
-| Aromatics | Paraxylene adsorption and crystallisation | commercial | Honeywell UOP Parex, Axens Eluxyl |  |
+| Aromatics | Paraxylene adsorption and crystallisation | commercial | Honeywell UOP Parex, Axens Eluxyl | [card](technologies-PCH.md#pch-paraxylene-adsorption) |
 | Aromatics | Toluene disproportionation and transalkylation | commercial | Honeywell UOP, ExxonMobil |  |
-| Polymers | Polyethylene (gas phase, slurry, solution) | commercial | Univation UNIPOL, LyondellBasell, Ineos, Chevron Phillips, Borealis Borstar |  |
-| Polymers | Polypropylene (gas phase, bulk) | commercial | Grace UNIPOL PP, LyondellBasell Spheripol, Ineos Innovene |  |
+| Polymers | Polyethylene (gas phase, slurry, solution) | commercial | Univation UNIPOL, LyondellBasell, Ineos, Chevron Phillips, Borealis Borstar | [card](technologies-PCH.md#pch-polyethylene) |
+| Polymers | Polypropylene (gas phase, bulk) | commercial | Grace UNIPOL PP, LyondellBasell Spheripol, Ineos Innovene | [card](technologies-PCH.md#pch-polypropylene) |
 | Polymers | PET and polyester | commercial | Sulzer, Uhde Inventa-Fischer |  |
 | Polymers | PVC (suspension) and chlor-alkali | commercial | Ineos, Thyssenkrupp nucera |  |
 | Polymers | Engineering plastics (polycarbonate, nylon) | commercial | SABIC, Covestro |  |
@@ -184,8 +184,8 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Intermediates and specialty | Phenol and acetone (cumene) | commercial | KBR, Lummus/Badger |  |
 | Intermediates and specialty | Butadiene extraction and on-purpose butadiene | commercial | BASF, Lummus |  |
 | Intermediates and specialty | Linear alpha olefins | commercial | Sabic/Linde alpha-SABLIN, Axens AlphaButol |  |
-| Circular and low-carbon chemicals | Plastics pyrolysis (chemical recycling) | demonstration | Plastic Energy, Agilyx, Mura, BASF ChemCycling |  |
-| Circular and low-carbon chemicals | Depolymerisation of PET (glycolysis, enzymatic) | demonstration | Carbios, Loop Industries |  |
+| Circular and low-carbon chemicals | Plastics pyrolysis (chemical recycling) | demonstration | Plastic Energy, Agilyx, Mura, BASF ChemCycling | [card](technologies-PCH.md#pch-plastics-pyrolysis) |
+| Circular and low-carbon chemicals | Depolymerisation of PET (glycolysis, enzymatic) | demonstration | Carbios, Loop Industries | [card](technologies-PCH.md#pch-pet-depolymerisation) |
 | Circular and low-carbon chemicals | Solvent-based purification of plastics | demonstration | PureCycle, Fraunhofer CreaSolv |  |
 | Circular and low-carbon chemicals | Bio-based chemicals (bio-ethylene, bio-PE, PLA) | commercial | Braskem, NatureWorks, TotalEnergies Corbion |  |
 | Circular and low-carbon chemicals | Mechanical recycling of plastics | commercial | Various |  |

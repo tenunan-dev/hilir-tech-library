@@ -1,0 +1,176 @@
+{
+  "id": "pch-pet-depolymerisation",
+  "name": "Depolymerisation of PET (glycolysis, enzymatic)",
+  "aliases": [
+    "PET depolymerisation",
+    "enzymatic PET recycling",
+    "PET biorecycling",
+    "C-ZYME",
+    "glycolysis of PET"
+  ],
+  "sector": "PCH",
+  "category": "Circular chemicals",
+  "applications": [
+    "recycling coloured, multilayer or textile PET into new virgin-quality PET"
+  ],
+  "maturity": "demonstration",
+  "principle": "PET waste is broken back into its monomers or short fragments so that it can be purified and repolymerised into virgin-quality PET. Chemical routes such as glycolysis use glycol and heat; enzymatic routes use an engineered enzyme in water at moderate temperature. Carbios describes its C-ZYME process as solvent-free.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Pretreatment",
+      "equipment": [
+        "sorting",
+        "shredding",
+        "washing"
+      ]
+    },
+    {
+      "id": "DEP",
+      "name": "Depolymerisation",
+      "equipment": [
+        "enzymatic reactor or glycolysis reactor"
+      ]
+    },
+    {
+      "id": "PUR",
+      "name": "Monomer purification",
+      "equipment": [
+        "filtration and crystallisation",
+        "distillation"
+      ]
+    },
+    {
+      "id": "POL",
+      "name": "Repolymerisation to PET",
+      "equipment": [
+        "PET polymerisation line (at the host site)"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "pretreatment line",
+    "depolymerisation reactors",
+    "purification section",
+    "polymerisation line"
+  ],
+  "performance": [
+    {
+      "metric": "Longlaville plant design capacity",
+      "unit": "t/yr post-consumer PET waste",
+      "basis": "Carbios, on Indorama Ventures' site; EUR 230 million",
+      "source": {
+        "url": "https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/",
+        "note": "Packaging Gateway, 8 December 2025"
+      },
+      "low": 50000,
+      "high": 50000,
+      "year": 2025
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Recycling via chemical depolymerisation for PET' 8"
+    }
+  },
+  "suppliers": [
+    {
+      "name": "Carbios",
+      "product": "C-ZYME enzymatic process"
+    },
+    {
+      "name": "Loop Industries"
+    },
+    {
+      "name": "Indorama Ventures",
+      "product": "host site and offtake"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Carbios Longlaville plant, Meurthe-et-Moselle",
+      "country": "FR",
+      "capacity": "50,000 t/yr PET waste, EUR 230 million",
+      "status": "ground-breaking April 2024; 6-9 month delay from funding uncertainty; construction to resume late 2025; full operation anticipated 2027 (as of December 2025)",
+      "year": 2025,
+      "source": {
+        "url": "https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/",
+        "note": "Packaging Gateway, 8 December 2025"
+      }
+    }
+  ],
+  "advantages": [
+    "Gives virgin-quality PET from low-quality waste",
+    "Can accept coloured and textile PET"
+  ],
+  "limitations": [
+    "First commercial plant not yet running",
+    "Needs clean, sorted PET feed",
+    "Cost competitiveness against virgin PET not shown"
+  ],
+  "gaps": [
+    {
+      "field": "status",
+      "item": "Longlaville construction and start-up progress",
+      "reason_code": "status_unchecked",
+      "reason": "Plant status is as of December 2025.",
+      "where": [
+        {
+          "hint": "Carbios news releases and annual reports",
+          "access": "open"
+        }
+      ],
+      "action": "Re-check after 2026 and update the plant status."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "monomer yield and energy use",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article read gives capacity only.",
+      "where": [
+        {
+          "hint": "Carbios technical publications; open reviews of PET recycling",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add yield and energy per tonne PET."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/",
+      "note": "Packaging Gateway, 8 December 2025"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

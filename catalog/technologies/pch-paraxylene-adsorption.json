@@ -1,0 +1,204 @@
+{
+  "id": "pch-paraxylene-adsorption",
+  "name": "Paraxylene adsorption and crystallisation",
+  "aliases": [
+    "Parex",
+    "paraxylene recovery",
+    "simulated moving bed xylene separation",
+    "Eluxyl",
+    "aromatics complex"
+  ],
+  "sector": "PCH",
+  "category": "Aromatics / separation",
+  "applications": [
+    "paraxylene for purified terephthalic acid and polyester",
+    "meta-xylene for isophthalic acid (MX Sorbex)"
+  ],
+  "maturity": "commercial",
+  "principle": "Mixed xylenes from reformate and transalkylation are fed to a simulated-moving-bed adsorption unit. A rotary valve moves feed, desorbent and product ports along beds of selective adsorbent so that, in effect, a counter-current moving bed is created without moving solids; paraxylene is adsorbed and then desorbed, and the desorbent is recovered by distillation. The raffinate is isomerised and recycled to extinction.",
+  "process_steps": [
+    {
+      "id": "REF",
+      "name": "Xylene supply from reformer and transalkylation",
+      "equipment": [
+        "CCR reformate splitter",
+        "xylene column"
+      ]
+    },
+    {
+      "id": "SMB",
+      "name": "Simulated moving bed adsorption",
+      "equipment": [
+        "adsorbent chambers",
+        "rotary valve",
+        "desorbent circulation"
+      ],
+      "to": [
+        "EXT",
+        "RAF"
+      ],
+      "streams": {
+        "EXT": "extract (paraxylene + desorbent)",
+        "RAF": "raffinate"
+      }
+    },
+    {
+      "id": "EXT",
+      "name": "Extract fractionation",
+      "equipment": [
+        "extract column",
+        "desorbent recovery"
+      ],
+      "to": [
+        "PX"
+      ]
+    },
+    {
+      "id": "PX",
+      "name": "High-purity paraxylene",
+      "equipment": [
+        "product tank"
+      ],
+      "to": []
+    },
+    {
+      "id": "RAF",
+      "name": "Raffinate to isomerisation",
+      "equipment": [
+        "raffinate column",
+        "xylene isomerisation reactor"
+      ],
+      "to": [
+        "XCOL"
+      ]
+    },
+    {
+      "id": "XCOL",
+      "name": "Recycle to xylene column",
+      "equipment": [
+        "xylene column"
+      ],
+      "to": [
+        "SMB"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "adsorbent chambers with rotary valve",
+    "extract and raffinate columns",
+    "xylene isomerisation reactor",
+    "xylene column"
+  ],
+  "performance": [
+    {
+      "metric": "Parex licensed capacity range per unit",
+      "unit": "t/yr paraxylene",
+      "basis": "Honeywell UOP: over 100 units licensed since commercialisation in 1971",
+      "source": {
+        "url": "https://uop.com/en/industry-solutions/petrochemicals/aromatics-recovery",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP aromatics recovery page, read 24 October 2026"
+      },
+      "low": 21000,
+      "high": 1600000,
+      "year": 2026
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "Parex, MX Sorbex, ED Sulfolane",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Axens",
+      "product": "Eluxyl",
+      "source_id": "axens"
+    }
+  ],
+  "advantages": [
+    "Very high paraxylene purity and recovery (vendor claim)",
+    "Latest ADS-47 adsorbent raises capacity and lowers pressure drop"
+  ],
+  "limitations": [
+    "Large recycle loop through isomerisation",
+    "Needs a large xylene feed from reforming or methanol-based sources",
+    "Competing crystallisation routes"
+  ],
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named paraxylene complexes with capacity",
+      "reason_code": "not_in_sources_read",
+      "reason": "The UOP page read gives the licence count and size range but names no plant.",
+      "where": [
+        {
+          "hint": "Hengli Dalian, PETRONAS Pengerang and Chinese PX project announcements (Honeywell UOP news releases)",
+          "access": "open",
+          "source_id": "honeywell-uop"
+        }
+      ],
+      "action": "Add one or two complexes with paraxylene capacity and start-up year."
+    },
+    {
+      "field": "performance",
+      "item": "paraxylene purity and recovery percentages",
+      "reason_code": "not_in_sources_read",
+      "reason": "The UOP page says 'proven high purity' and recovery without figures.",
+      "where": [
+        {
+          "hint": "UOP Parex process brochure",
+          "access": "open",
+          "source_id": "honeywell-uop"
+        }
+      ],
+      "action": "Add purity and recovery with source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No IEA entry for conventional paraxylene separation.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists it, or rely on the 1971 commercial start."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and production cost, with dollar year and basis",
+      "reason_code": "paid_source",
+      "reason": "No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources.",
+      "where": [
+        {
+          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access",
+          "access": "paid",
+          "source_id": "nexant-chemsystems"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://uop.com/en/industry-solutions/petrochemicals/aromatics-recovery",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell UOP aromatics recovery page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}
