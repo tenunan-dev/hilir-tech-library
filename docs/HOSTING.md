@@ -21,7 +21,32 @@ LIBRARY_API_KEY="$(python -c 'import secrets; print(secrets.token_urlsafe(32))')
 # endpoint: http://localhost:8000/mcp
 ```
 
-## Deploy to Azure Container Apps (recommended for Copilot Studio)
+## Live deployment: Cloudflare (techlibrary.tenunan.com)
+
+The hosted server runs on Cloudflare Containers, in the Cloudflare account that holds tenunan.com
+(Faisal.muthalib@gmail.com's account, Workers Paid plan). Endpoint: `https://techlibrary.tenunan.com/mcp`.
+
+- `deploy/cloudflare/src/index.ts`: a Worker that checks the API key at the edge, then forwards to one container instance (Durable Object "main"). `/health` answers without a key.
+- `deploy/cloudflare/wrangler.jsonc`: builds the repo's `Dockerfile` (open-licence copy only), instance type `basic`, `max_instances` 1, custom domain route.
+- The container stops after 30 idle minutes (`sleepAfter`) and restarts on the next request, so the first call after a quiet spell takes a few seconds longer.
+- The API key is the Worker secret `LIBRARY_API_KEY`. The owner's copy is in `~/.config/og-tech-library/api-key` on their Mac (mode 600). It is never in the repo.
+- The image is built from the repo at deploy time: **redeploy after collecting new documents** so the hosted copy matches.
+- Keyword search only (no embeddings in the image).
+
+```
+cd deploy/cloudflare
+npm install                      # once
+npx wrangler deploy              # needs Docker running; builds ../../Dockerfile
+# rotate the key:
+python3 -c 'import secrets;print(secrets.token_urlsafe(32))' > ~/.config/og-tech-library/api-key
+tr -d '\n' < ~/.config/og-tech-library/api-key | npx wrangler secret put LIBRARY_API_KEY
+npx wrangler tail                # live logs
+```
+
+Connect a client: URL `https://techlibrary.tenunan.com/mcp`, header `x-api-key: <key>`. For example, Claude Code:
+`claude mcp add --transport http og-tech-library-remote https://techlibrary.tenunan.com/mcp --header "x-api-key: <key>"`.
+
+## Deploy to Azure Container Apps (alternative, not used: no Azure subscription) (recommended for Copilot Studio)
 
 Same cloud as Copilot Studio, scales to zero when idle (pay only for use), HTTPS by default. Uses the `Dockerfile` in the repo root. Needs the Azure CLI (`az login`) and an Azure subscription.
 
