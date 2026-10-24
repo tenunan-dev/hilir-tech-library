@@ -4,67 +4,389 @@
   "description": "One technology option, written in our own words, with every figure tied to a source the author read.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "sector", "category", "maturity", "principle", "process_steps", "key_equipment",
-               "suppliers", "sources", "last_reviewed"],
+  "required": [
+    "id",
+    "name",
+    "sector",
+    "category",
+    "maturity",
+    "principle",
+    "process_steps",
+    "key_equipment",
+    "suppliers",
+    "sources",
+    "last_reviewed"
+  ],
   "$defs": {
     "ref": {
-      "type": "object", "additionalProperties": false, "required": ["url"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url"
+      ],
       "properties": {
-        "url": {"type": "string", "format": "uri"},
-        "source_id": {"type": "string", "description": "Catalog record id, when the source is in the catalog"},
-        "note": {"type": "string", "description": "Where in the source, e.g. section or page"}
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_id": {
+          "type": "string",
+          "description": "Catalog record id, when the source is in the catalog"
+        },
+        "note": {
+          "type": "string",
+          "description": "Where in the source, e.g. section or page"
+        }
       }
     },
     "figure": {
-      "type": "object", "additionalProperties": false, "required": ["metric", "unit", "basis", "source"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metric",
+        "unit",
+        "basis",
+        "source"
+      ],
       "properties": {
-        "metric": {"type": "string", "description": "e.g. cost of capture, regeneration energy, capex"},
-        "low": {"type": "number"}, "high": {"type": "number"},
-        "unit": {"type": "string", "description": "e.g. USD/t CO2, GJ/t CO2"},
-        "year": {"type": "integer", "description": "Currency year for costs, publication year otherwise"},
-        "basis": {"type": "string", "description": "Plant type, CO2 concentration, capture rate, scope (capture only or full chain)"},
-        "source": {"$ref": "#/$defs/ref"}
+        "metric": {
+          "type": "string",
+          "description": "e.g. cost of capture, regeneration energy, capex"
+        },
+        "low": {
+          "type": "number"
+        },
+        "high": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string",
+          "description": "e.g. USD/t CO2, GJ/t CO2"
+        },
+        "year": {
+          "type": "integer",
+          "description": "Currency year for costs, publication year otherwise"
+        },
+        "basis": {
+          "type": "string",
+          "description": "Plant type, CO2 concentration, capture rate, scope (capture only or full chain)"
+        },
+        "source": {
+          "$ref": "#/$defs/ref"
+        }
+      }
+    },
+    "where": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hint"
+      ],
+      "properties": {
+        "hint": {
+          "type": "string",
+          "description": "Where to look: a named report, database or publisher, and what to search for"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Only a URL that was actually opened; otherwise leave it out"
+        },
+        "source_id": {
+          "type": "string",
+          "description": "Catalog record id, when the place is in the catalog"
+        },
+        "access": {
+          "type": "string",
+          "enum": [
+            "open",
+            "registration",
+            "paid",
+            "blocked"
+          ],
+          "description": "blocked = not reachable from our collectors right now"
+        }
       }
     }
   },
   "properties": {
-    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
-    "name": {"type": "string"},
-    "aliases": {"type": "array", "items": {"type": "string"}},
-    "sector": {"enum": ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS"]},
-    "category": {"type": "string", "description": "e.g. post-combustion / chemical solvent"},
-    "applications": {"type": "array", "items": {"type": "string"}},
-    "maturity": {"enum": ["commercial", "demonstration", "pilot", "lab"]},
-    "trl": {"type": "object", "additionalProperties": false, "required": ["low", "high", "source"],
-            "properties": {"low": {"type": "integer", "minimum": 1, "maximum": 9},
-                           "high": {"type": "integer", "minimum": 1, "maximum": 9},
-                           "source": {"$ref": "#/$defs/ref"}}},
-    "principle": {"type": "string", "description": "How it works, two to four sentences"},
-    "process_steps": {
-      "type": "array", "minItems": 2,
-      "items": {"type": "object", "additionalProperties": false, "required": ["id", "name"],
-                "properties": {"id": {"type": "string", "pattern": "^[A-Za-z0-9_]+$"},
-                               "name": {"type": "string"},
-                               "equipment": {"type": "array", "items": {"type": "string"}},
-                               "to": {"type": "array", "items": {"type": "string"},
-                                      "description": "Ids of downstream steps; defaults to the next step"},
-                               "streams": {"type": "object", "additionalProperties": {"type": "string"},
-                                           "description": "Label for the flow to each downstream step id"}}}
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
     },
-    "key_equipment": {"type": "array", "items": {"type": "string"}},
-    "performance": {"type": "array", "items": {"$ref": "#/$defs/figure"}},
-    "costs": {"type": "array", "items": {"$ref": "#/$defs/figure"}},
-    "suppliers": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["name"],
-                  "properties": {"name": {"type": "string"}, "product": {"type": "string"},
-                                 "source_id": {"type": "string"}, "url": {"type": "string", "format": "uri"}}}},
-    "reference_plants": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["name", "source"],
-                         "properties": {"name": {"type": "string"}, "country": {"type": "string"},
-                                        "capacity": {"type": "string"}, "status": {"type": "string"},
-                                        "year": {"type": "integer"}, "source": {"$ref": "#/$defs/ref"}}}},
-    "advantages": {"type": "array", "items": {"type": "string"}},
-    "limitations": {"type": "array", "items": {"type": "string"}},
-    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/ref"}},
-    "notes": {"type": "string"},
-    "last_reviewed": {"type": "string", "format": "date"}
+    "name": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sector": {
+      "enum": [
+        "UPS",
+        "MID",
+        "GAS",
+        "REF",
+        "PCH",
+        "PWR",
+        "H2",
+        "CCS"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "description": "e.g. post-combustion / chemical solvent"
+    },
+    "applications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maturity": {
+      "enum": [
+        "commercial",
+        "demonstration",
+        "pilot",
+        "lab"
+      ]
+    },
+    "trl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "low",
+        "high",
+        "source"
+      ],
+      "properties": {
+        "low": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9
+        },
+        "high": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9
+        },
+        "source": {
+          "$ref": "#/$defs/ref"
+        }
+      }
+    },
+    "principle": {
+      "type": "string",
+      "description": "How it works, two to four sentences"
+    },
+    "process_steps": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "equipment": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "to": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Ids of downstream steps; defaults to the next step"
+          },
+          "streams": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Label for the flow to each downstream step id"
+          }
+        }
+      }
+    },
+    "key_equipment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "performance": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/figure"
+      }
+    },
+    "costs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/figure"
+      }
+    },
+    "suppliers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "product": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "reference_plants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "source"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "capacity": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer"
+          },
+          "source": {
+            "$ref": "#/$defs/ref"
+          }
+        }
+      }
+    },
+    "advantages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/ref"
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "gaps": {
+      "type": "array",
+      "description": "Inputs the card should have but does not yet: why, where to get them and what to do",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "field",
+          "item",
+          "reason_code",
+          "reason",
+          "where",
+          "action"
+        ],
+        "properties": {
+          "field": {
+            "type": "string",
+            "enum": [
+              "trl",
+              "performance",
+              "costs",
+              "reference_plants",
+              "suppliers",
+              "status",
+              "process",
+              "other"
+            ]
+          },
+          "item": {
+            "type": "string",
+            "description": "The missing input, e.g. regeneration energy in GJ/t CO2"
+          },
+          "reason_code": {
+            "type": "string",
+            "enum": [
+              "not_in_sources_read",
+              "source_unreachable",
+              "source_not_collected",
+              "paid_source",
+              "status_unchecked",
+              "conflicting_sources",
+              "general_knowledge_only"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "description": "Why it is missing, in a sentence"
+          },
+          "where": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/where"
+            }
+          },
+          "action": {
+            "type": "string",
+            "description": "What an agent or maintainer should do next"
+          },
+          "blocked_by": {
+            "type": "string",
+            "description": "What has to change first, e.g. osti.gov reachable, owner approval, API key"
+          }
+        }
+      }
+    }
   }
 }

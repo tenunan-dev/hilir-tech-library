@@ -42,6 +42,11 @@ flowchart LR
 **Reference plants:**
 - Chevron Salt Lake City refinery ISOALKY unit, US: retrofit of a 4,500 b/d HF alkylation unit in a 58,000 b/d refinery, with capacity increased; first commercial ionic liquid alkylation; start-up announced 13 April 2021. [source](https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+
 Sources: [1](https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit). Last reviewed 2026-10-24.
 
 ## Catalytic reforming (CCR, semi-regenerative)
@@ -72,6 +77,10 @@ flowchart LR
 **Reference plants:**
 - Sinopec Hainan Petrochemical (200th UOP CCR Platforming unit), CN: not stated; CCR Platforming first commercialised 1971; commissioned by 2007. [source](https://www.chemicalonline.com/doc/uop-commissions-200th-ccr-platforming-process-0001)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf), [2](https://www.chemicalonline.com/doc/uop-commissions-200th-ccr-platforming-process-0001). Last reviewed 2026-10-24.
 
 ## Co-processing of bio-feeds in FCC and hydrotreaters
@@ -98,6 +107,11 @@ flowchart LR
 **Performance:**
 - bio-feed share in hydroprocessing: 5-20 % of feed; Honeywell UOP: under 5% with catalyst change, 5-10% with minor modification, 10-20% with revamp. [source](https://ess.honeywell.com/content/dam/pmt/en/documents/Honeywell-UOP-Co-Processing-Technologies-web-brochure.pdf)
 - biogenic feed rate in an FCC case study: 20 % of feed; Honeywell UOP (over 20%). [source](https://ess.honeywell.com/content/dam/pmt/en/documents/Honeywell-UOP-Co-Processing-Technologies-web-brochure.pdf)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://ess.honeywell.com/content/dam/pmt/en/documents/Honeywell-UOP-Co-Processing-Technologies-web-brochure.pdf). Last reviewed 2026-10-24.
 
@@ -133,6 +147,11 @@ flowchart LR
 - vacuum heater outlet temperature: 370-425 °C; EPA AP-42 description. [source](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf)
 - vacuum column absolute pressure: 0.5-2 psia; EPA AP-42 description. [source](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+
 Sources: [1](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf). Last reviewed 2026-10-24.
 
 ## Crude-to-chemicals complexes
@@ -159,6 +178,11 @@ flowchart LR
 - PETRONAS Pengerang RAPID (PIC), Johor, MY: 300 kb/d refinery with 3.3 Mt/yr petrochemical capacity; PETRONAS and Saudi Aramco joint ventures; refinery start-up targeted Q1 2019 at time of release. [source](https://www.petronas.com/pic/news-resources/press-releases/petronas-saudi-aramco-announce-formation-jv-malaysia)
 - Hengli Petrochemical, Dalian, CN: 20 Mt/yr crude processing; production start announced December 2018. [source](https://yicaiglobal.com/news/hengli-petrochemical-to-finish-dalian-plant-start-20-million-ton-production-)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- chemicals yield per barrel of crude (performance): Neither source read gives a chemicals yield. Where: Saudi Aramco and SABIC crude-to-chemicals publications (catalog: saudi-aramco-tech, open); IEA reports on petrochemicals (catalog: iea-reports, open). Next: Add chemicals yield (% of crude) for named complexes.
+
 Sources: [1](https://www.petronas.com/pic/news-resources/press-releases/petronas-saudi-aramco-announce-formation-jv-malaysia), [2](https://yicaiglobal.com/news/hengli-petrochemical-to-finish-dalian-plant-start-20-million-ton-production-). Last reviewed 2026-10-24.
 
 ## Delayed coking and fluid coking
@@ -184,6 +208,11 @@ flowchart LR
 **Performance:**
 - coker heater outlet temperature: 480-590 °C; EPA AP-42 description. [source](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf)
 - coke drum cycle: 28-36 h; EPA AP-42 description, start of feed to start of next feed to the same drum. [source](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf). Last reviewed 2026-10-24.
 
@@ -218,6 +247,10 @@ flowchart LR
 **Reference plants:**
 - UOP-licensed FCC fleet: over 215 FCC/RFCC/MSCC units licensed; over 150 of more than 400 FCC units worldwide under UOP licence; per 2016 datasheet. [source](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/refining/vaccuum-gas-oil-conversion/honeywell-uop-fcc-related-processes-datasheet.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf), [2](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/refining/vaccuum-gas-oil-conversion/honeywell-uop-fcc-related-processes-datasheet.pdf). Last reviewed 2026-10-24.
 
 ## Hydrocracking (fixed bed)
@@ -245,6 +278,11 @@ flowchart LR
 
 **Performance:**
 - conversion of straight-run VGO (revamped two-stage recycle unit): 80 %; CLG case study (upwards of 80%); unit revamped from 40,000 to 64,000 b/d fresh VGO. [source](https://www.digitalrefining.com/article/1002562/78)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.digitalrefining.com/article/1002562/78), [2](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf). Last reviewed 2026-10-24.
 
@@ -274,6 +312,11 @@ flowchart LR
 **Performance:**
 - ULSD product sulfur: up to 10 wt ppm S; Topsoe diesel hydrotreating. [source](https://www.topsoe.com/processes/hydrotreating/diesel-hydrotreating)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+
 Sources: [1](https://www.topsoe.com/processes/hydrotreating/diesel-hydrotreating), [2](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf). Last reviewed 2026-10-24.
 
 ## Isomerisation (C5/C6)
@@ -300,6 +343,11 @@ flowchart LR
 **Performance:**
 - isomerate RON, once-through: 83-84 RON; Axens, for 40:60 C5:C6 feed starting at RON about 70. [source](https://www.axens.net/markets/oil-refining/c5c6-isomerization)
 - isomerate RON, recycle with molecular sieves (Hexorb): 91-92 RON; Axens, at C5/C6 ratio 0.65; deisohexaniser recycle gives about 88. [source](https://www.axens.net/markets/oil-refining/c5c6-isomerization)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news (catalog: ogj, paid); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.axens.net/markets/oil-refining/c5c6-isomerization). Last reviewed 2026-10-24.
 
@@ -330,6 +378,11 @@ flowchart LR
 **Reference plants:**
 - Neste Singapore refinery, SG: 2.6 Mt/yr renewable products including up to 1 Mt/yr SAF; expansion completed April 2023 (EUR 1.6 billion). [source](https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery)
 - Diamond Green Diesel, Norco, Louisiana, US: 275 million gal/yr, expanding to 675 million gal/yr (Ecofining); expansion announced September 2019, completion expected late 2021. [source](https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+- minimum fuel selling price (USD/gal) for HEFA renewable diesel and SAF (costs): The NREL/PNNL techno-economic reports are on osti.gov, which the collector cannot reach, and NREL copies are private only. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL SAF techno-economic analyses (catalog: nrel, open); DOE SAF Grand Challenge Roadmap (record doe-affo added; not yet collected) (catalog: doe-affo, open). Next: Collect the SAF Grand Challenge Roadmap now; collect NREL/PNNL reports when osti.gov is reachable. Blocked by: osti.gov reachable from the Mac.
 
 Sources: [1](https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery), [2](https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell). Last reviewed 2026-10-24.
 
@@ -362,6 +415,10 @@ flowchart LR
 **Reference plants:**
 - Eni Sannazzaro EST unit, IT: 23,000 b/d design; oil-in 14 October 2013. [source](https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf). Last reviewed 2026-10-24.
 
 ## Alcohol-to-jet SAF
@@ -388,5 +445,10 @@ flowchart LR
 
 **Reference plants:**
 - LanzaJet Freedom Pines Fuels, Soperton, Georgia, US: 10 million gal/yr SAF and renewable diesel from ethanol; opened January 2024; described as the first ATJ SAF plant. [source](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+- minimum fuel selling price (USD/gal) and yield per gallon of ethanol (costs): PNNL/NREL alcohol-to-jet analyses are on osti.gov, which the collector cannot reach. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); PNNL alcohol-to-jet reports (catalog: pnnl, open); DOE SAF Grand Challenge Roadmap (catalog: doe-affo, open). Next: Collect when osti.gov is reachable; add yield and selling price with dollar year. Blocked by: osti.gov reachable from the Mac.
 
 Sources: [1](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/). Last reviewed 2026-10-24.

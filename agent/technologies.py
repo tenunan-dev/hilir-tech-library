@@ -100,7 +100,56 @@ def markdown_page(cards, sector):
                 for p in c["reference_plants"]]
         if c.get("trl"):
             lines += ["", f"TRL source: [{c['trl']['source'].get('note', 'source')}]({c['trl']['source']['url']})"]
+        if c.get("gaps"):
+            lines += ["", "**Missing inputs:**"] + [f"- {g['item']} ({g['field']}): {g['reason']} Where: {'; '.join(where_text(w) for w in g['where'])}. Next: {g['action']}"
+                                                   + (f" Blocked by: {g['blocked_by']}." if g.get("blocked_by") else "") for g in c["gaps"]]
         lines += ["", "Sources: " + ", ".join(f"[{i + 1}]({s['url']})" for i, s in enumerate(c["sources"])) + f". Last reviewed {c['last_reviewed']}."]
+    return "\n".join(lines) + "\n"
+
+
+def where_text(w):
+    text = f"[{w['hint']}]({w['url']})" if w.get("url") else w["hint"]
+    extra = [f"catalog: {w['source_id']}"] if w.get("source_id") else []
+    extra += [w["access"]] if w.get("access") else []
+    return text + (f" ({', '.join(extra)})" if extra else "")
+
+
+def gaps(cards, entries):
+    """Every missing input: the gaps recorded on cards, plus register entries that have no card yet."""
+    rows = [{"technology": c["name"], "card": c["id"], "sector": c["sector"], **g} for c in cards for g in c.get("gaps", [])]
+    for e in entries:
+        if not e["card"]:
+            rows.append({"technology": e["name"], "card": None, "sector": e["code"], "field": "card", "item": "technology card",
+                         "reason_code": "no_card_yet", "reason": "Listed in the register (indicative, unverified) but no card has been written.",
+                         "where": [{"hint": f"Suppliers or projects named in the register: {e['examples']}"},
+                                   {"hint": f"Catalog sources for sector {e['code']}: search(kind='source', sector='{e['code']}')"}],
+                         "action": "Write a card (docs/MAINTAINER_MANUAL.md section 3b) using the register name, or add that name as an alias so it links."})
+    return rows
+
+
+def gaps_page(rows):
+    from collections import Counter
+    card_rows = [r for r in rows if r["card"]]
+    no_card = [r for r in rows if not r["card"]]
+    lines = ["# Missing inputs", "",
+             "What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field",
+             "of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.", "",
+             f"{len(card_rows)} missing inputs on {len({r['card'] for r in card_rows})} cards; {len(no_card)} register technologies have no card yet.", "",
+             "| Reason | Count |", "| --- | --- |"]
+    lines += [f"| {k} | {v} |" for k, v in Counter(r["reason_code"] for r in rows).most_common()]
+    blocked = Counter(r["blocked_by"] for r in rows if r.get("blocked_by"))
+    if blocked:
+        lines += ["", "**Blockers:** " + "; ".join(f"{k} ({v} items)" for k, v in blocked.items())]
+    for sector in dict.fromkeys(r["sector"] for r in card_rows):
+        lines += ["", f"## {sector} cards", "", "| Technology | Missing | Why | Where to get it | Next action |", "| --- | --- | --- | --- | --- |"]
+        for r in (r for r in card_rows if r["sector"] == sector):
+            why = r["reason"] + (f" Blocked by: {r['blocked_by']}." if r.get("blocked_by") else "")
+            lines.append(f"| [{r['technology']}](technologies-{sector}.md#{r['card']}) | {r['item']} ({r['field']}) | {why} | "
+                         f"{'<br>'.join(where_text(w) for w in r['where'])} | {r['action']} |")
+    lines += ["", "## Technologies with no card yet", "", "See [technology-register.md](technology-register.md) for suppliers and maturity.", ""]
+    for code in dict.fromkeys(r["sector"] for r in no_card):
+        names = [r["technology"] for r in no_card if r["sector"] == code]
+        lines.append(f"- **{code}** ({len(names)}): " + "; ".join(names))
     return "\n".join(lines) + "\n"
 
 
@@ -132,7 +181,8 @@ def register_page(entries, labels):
     lines = ["# Technology register", "",
              f"{total} technologies across oil, gas, petrochemicals and new energy; {with_card} have a technology card so far.",
              "Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.",
-             "Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.", ""]
+             "Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.",
+             "Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).", ""]
     for code in dict.fromkeys(e["code"] for e in entries):
         rows = [e for e in entries if e["code"] == code]
         lines += [f"## {code}: {labels.get(code, code)}", "", "| Area | Technology | Maturity | Examples | Card |", "| --- | --- | --- | --- | --- |"]

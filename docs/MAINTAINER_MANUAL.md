@@ -90,7 +90,9 @@ Write a generator in `collectors/adapters.py` that yields `(title, url, body_mar
 3. Every number (TRL, cost, energy, capacity) needs a `source` with the URL you read it from and, for costs, the dollar `year` and a `basis` (plant type, capture rate, scope). If the source does not state the dollar year, say so in `basis`. Never estimate or convert figures without saying how.
 4. Process steps: give each an `id`; use `to` for branches and `streams` to label flows. A step without `to` flows to the next one; `"to": []` ends a branch.
 5. Update `last_reviewed`, run `python tools/build.py` (validates the card and redraws `catalog/index/technologies-<SECTOR>.md`) and `python -m pytest -q tests`.
-6. Status statements age quickly ("under construction", "expected 2025"): keep the source date in the text and add a `notes` line when a status needs re-checking.
+6. Status statements age quickly ("under construction", "expected 2025"): keep the source date in the text and record a `status_unchecked` gap when a status needs re-checking.
+7. **Record what is missing.** Whenever a TRL, cost, performance figure, reference plant or status could not be found or verified, add an entry to the card's `gaps` list: `field`, `item`, `reason_code` (`not_in_sources_read`, `source_unreachable`, `source_not_collected`, `paid_source`, `status_unchecked`, `conflicting_sources`, `general_knowledge_only`), a one-sentence `reason`, `where` (one or more places to look: `hint`, plus `source_id` if it is in the catalog, `url` only if you actually opened it, and `access`), the next `action`, and `blocked_by` if something has to change first. Never fill a gap with a guess.
+8. When you fill a gap, add the figure with its source and delete that gap entry. `catalog/index/gaps.md` (and the `list_gaps` MCP tool) list all open gaps plus register technologies with no card; use it to pick the next task.
 
 ## 4. Refresh and link checks
 

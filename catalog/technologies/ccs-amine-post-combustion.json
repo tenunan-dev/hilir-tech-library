@@ -279,6 +279,27 @@
       "note": "NETL, Cost and Performance of Retrofitting NGCC Units for Carbon Capture, Rev 3, DOE/NETL-2023/3848, 31 May 2023, Exhibit ES-4 (p. 13)"
     }
   ],
-  "notes": "Regeneration energy figures to be added; the NETL Cost and Performance Baseline (Rev 4a) is hosted on OSTI, not yet collected.",
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "solvent regeneration energy (GJ/t CO2) and power-plant cost of capture",
+      "reason_code": "source_unreachable",
+      "reason": "Both are in the NETL Cost and Performance Baseline Rev 4a, which is hosted on osti.gov; osti.gov is unreachable from the collector.",
+      "where": [
+        {
+          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants Volume 1, Rev 4a",
+          "source_id": "netl",
+          "access": "open"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
+          "source_id": "osti",
+          "access": "blocked"
+        }
+      ],
+      "action": "Collect the baseline when osti.gov is reachable, or download it by hand into corpus/_inbox/netl/; then add the figures.",
+      "blocked_by": "osti.gov reachable from the Mac, or a manual download"
+    }
+  ]
 }

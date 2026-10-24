@@ -6,6 +6,7 @@ Outputs:
   catalog/index/README.md       counts by code, region, source type and reuse level
   catalog/technologies.jsonl    technology cards, one per line
   catalog/index/technologies-<SECTOR>.md  comparison table and block diagrams per sector
+  catalog/index/gaps.md         missing inputs: why, where to get them, next action
 """
 import collections
 import json
@@ -130,6 +131,7 @@ def main():
     labels = {code: info["name"] for code, info in {**taxonomy["sectors"], **taxonomy["disciplines"]}.items()}
     register = technologies.load_register(cards=cards)
     (INDEX / "technology-register.md").write_text(technologies.register_page(register, labels), encoding="utf-8")
+    (INDEX / "gaps.md").write_text(technologies.gaps_page(technologies.gaps(cards, register)), encoding="utf-8")
     for sector in sorted({c["sector"] for c in cards}):
         (INDEX / f"technologies-{sector}.md").write_text(technologies.markdown_page(cards, sector), encoding="utf-8")
     print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards; indexes written")

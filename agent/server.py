@@ -110,6 +110,17 @@ def list_technology_register(code: str | None = None, maturity: str | None = Non
 
 
 @server.tool()
+def list_gaps(sector: str | None = None, field: str | None = None, reason_code: str | None = None,
+              include_no_card: bool = False) -> list[dict]:
+    """Inputs the technology cards still lack, each with why it is missing (reason_code: not_in_sources_read,
+    source_unreachable, source_not_collected, paid_source, status_unchecked, conflicting_sources,
+    general_knowledge_only), where to get it, the next action and any blocker. field: trl, performance, costs,
+    reference_plants, suppliers, status, process, other. include_no_card adds register technologies with no card.
+    Use it to tell users what the library cannot answer yet, or to pick the next collection task."""
+    return library.list_gaps(sector, field, reason_code, include_no_card, db())
+
+
+@server.tool()
 def library_stats() -> dict:
     """Counts of sources, documents, chunks and vectors in the index."""
     return library.stats(db())

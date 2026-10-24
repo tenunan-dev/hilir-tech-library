@@ -2,7 +2,7 @@
 
     python tools/export_dataverse.py [--out build/dataverse] [--include-restricted]
 
-Writes sources.csv, documents.csv, taxonomy.csv and technologies.csv. By default, document text is included only
+Writes sources.csv, documents.csv, taxonomy.csv, technologies.csv, technology_register.csv and gaps.csv. By default, document text is included only
 for open-licence documents, so the tables are safe in an environment shared with colleagues.
 Restricted documents still get a row (title, url, licence) with no text. --include-restricted
 adds their text too; use it only for a personal environment no one else can read.
@@ -105,6 +105,12 @@ def export(out, include_restricted=False):
         w.writeheader()
         for e in technologies.load_register(cards=cards):
             w.writerow({**e, "card": e["card"] or ""})
+    with (out / "gaps.csv").open("w", newline="", encoding="utf-8-sig") as fh:
+        w = csv.writer(fh)
+        w.writerow(["item", "technology", "technology_id", "sector", "field", "reason_code", "reason", "where", "action", "blocked_by"])
+        for g in technologies.gaps(cards, technologies.load_register(cards=cards)):
+            w.writerow([g["item"], g["technology"], g["card"] or "", g["sector"], g["field"], g["reason_code"], g["reason"],
+                        " | ".join(technologies.where_text(x) for x in g["where"]), g["action"], g.get("blocked_by", "")])
     return {"technologies": len(cards), "sources": len(records), "documents_with_text": with_text, "documents_without_text": without_text}
 
 

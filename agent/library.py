@@ -298,6 +298,15 @@ def list_register(code=None, maturity=None, query=None):
             and (not q or q in f"{e['name']} {e['area']} {e['examples']}".lower())]
 
 
+def list_gaps(sector=None, field=None, reason_code=None, include_no_card=False, db=None):
+    """Missing inputs recorded on cards (why missing, where to get them, next action); optionally register entries with no card."""
+    db = db or connect()
+    cards = [json.loads(r[0]) for r in db.execute("SELECT card FROM technologies")]
+    rows = technologies.gaps(cards, technologies.load_register(cards=cards) if include_no_card else [])
+    return [r for r in rows if (not sector or r["sector"] == sector) and (not field or r["field"] == field)
+            and (not reason_code or r["reason_code"] == reason_code)]
+
+
 def compare_technologies(sector=None, maturity=None, application=None, db=None):
     db = db or connect()
     cards = [json.loads(r[0]) for r in db.execute("SELECT card FROM technologies")]

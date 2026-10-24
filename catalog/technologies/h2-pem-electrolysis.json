@@ -314,5 +314,41 @@
     }
   ],
   "last_reviewed": "2026-10-24",
-  "notes": "The two DOE sources give different stack lifetimes for today's PEM status (60,000 h in the January 2023 H2NEW webinar, 40,000 h in the December 2024 Hydrogen Shot assessment). Both are kept with their sources."
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL range with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
+          "source_id": "iea-reports",
+          "access": "open"
+        },
+        {
+          "hint": "IEA Global Hydrogen Review 2025 (collected): technology status chapters",
+          "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+          "source_id": "iea-reports",
+          "access": "open"
+        }
+      ],
+      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
+    },
+    {
+      "field": "performance",
+      "item": "current PEM stack lifetime",
+      "reason_code": "conflicting_sources",
+      "reason": "DOE sources disagree: 60,000 h (H2NEW webinar, 2023) and 40,000 h (Hydrogen Shot assessment, 2024).",
+      "where": [
+        {
+          "hint": "DOE Hydrogen Shot Water Electrolysis Technology Assessment (collected)",
+          "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+          "source_id": "doe-hfto",
+          "access": "open"
+        }
+      ],
+      "action": "Prefer the later DOE value unless a newer DOE record resolves it; keep both until then."
+    }
+  ]
 }

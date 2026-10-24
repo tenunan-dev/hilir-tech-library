@@ -49,6 +49,10 @@ flowchart LR
 **Reference plants:**
 - PETRONAS PFLNG DUA, Rotan field, offshore Sabah, MY: 1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE; first cargo 24 March 2021. [source](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas). Last reviewed 2026-10-24.
 
 ## Cascade liquefaction
@@ -83,6 +87,11 @@ flowchart LR
 - Australia Pacific LNG, Curtis Island, AU: 2 trains, 9.0 Mtpa; operating. [source](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf)
 - Darwin LNG, AU: 1 train, 3.7 Mtpa; operating. [source](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes (performance): NETL gives total fuel energy for a C3MR plant (2.78-3.35 MJ/kg) but no source collected gives compressor power by process. Where: [NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) (catalog: netl, open); IEA gas and LNG reports (catalog: iea-reports, open); Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox) (blocked); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open). Next: Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis.
+
 Sources: [1](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-24.
 
 ## Dual mixed refrigerant liquefaction
@@ -110,6 +119,12 @@ flowchart LR
 **Reference plants:**
 - Sakhalin LNG (Prigorodnoye), RU: not stated in source read; operating (Shell DMR). [source](https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes (performance): NETL gives total fuel energy for a C3MR plant (2.78-3.35 MJ/kg) but no source collected gives compressor power by process. Where: [NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) (catalog: netl, open); IEA gas and LNG reports (catalog: iea-reports, open); Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox) (blocked); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open). Next: Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis.
+- Sakhalin LNG train count and capacity (reference_plants): The Sakhalin article read gives no capacity. Where: Sakhalin Energy publications; GIIGNL annual report (catalog: giignl, open). Next: Add capacity and train count.
+
 Sources: [1](https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-24.
 
 ## Floating LNG (FLNG)
@@ -136,6 +151,12 @@ flowchart LR
 - Shell Prelude FLNG, AU: 488 m long; 3.6 Mtpa LNG, 1.3 Mtpa condensate, 0.4 Mtpa LPG; 475 km NNE of Broome; first condensate cargo shipped by March 2019. [source](https://www.offshore-technology.com/news/shell-prelude-flng/)
 - PETRONAS PFLNG DUA, Rotan field, Sabah, MY: 1.5 Mtpa LNG in 1,300 m water depth; first cargo 24 March 2021. [source](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities)
 - PETRONAS PFLNG SATU, MY: not stated in source read; world's first operational FLNG (2016); moved from Kanowit to Kebabangan field in 2019. [source](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open). Next: Add the figures that matter for comparing options, each with its basis and source.
+- PFLNG SATU capacity (reference_plants): The PETRONAS release read does not state SATU's capacity. Where: PETRONAS press releases on PFLNG SATU (2016) (catalog: petronas-tech, open). Next: Add capacity with source.
 
 Sources: [1](https://www.offshore-technology.com/news/shell-prelude-flng/), [2](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities). Last reviewed 2026-10-24.
 
@@ -166,6 +187,10 @@ flowchart LR
 **Reference plants:**
 - Excelerate newbuild FSRU (Hyundai Heavy Industries): 170,000 m3 storage, 1,000 MMscf/d send-out; fleet of 11 FSRUs operating or building; delivery June 2026. [source](https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/). Last reviewed 2026-10-24.
 
 ## Gas-to-liquids (Fischer-Tropsch)
@@ -192,6 +217,11 @@ flowchart LR
 
 **Reference plants:**
 - Pearl GTL, Ras Laffan, QA: 140,000 bbl/d GTL products in two 70,000 bbl/d trains, plus about 120,000 boe/d NGLs and ethane, from 1.6 bcf/d North Field gas; first sour gas into the plant March 2011. [source](https://www.offshore-technology.com/projects/pearl/)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
 Sources: [1](https://www.offshore-technology.com/projects/pearl/). Last reviewed 2026-10-24.
 
@@ -225,6 +255,10 @@ flowchart LR
 - Separex offshore system, South China Sea: 680 MMSCFD on a large platform; installed (per 2016 datasheet). [source](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf)
 - Separex trains, Egyptian desert, EG: three trains expanding to five, 560 MMSCFD total; per 2016 datasheet. [source](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf). Last reviewed 2026-10-24.
 
 ## Mercury removal units
@@ -247,6 +281,11 @@ flowchart LR
 
 **Performance:**
 - mercury specification for LNG: up to 10 ng/Nm3; Axens; matches the quantification limit of current analysers; raw gas ranges from undetected to 300 µg/Nm3. [source](https://blog.axens.net/how-to-remove-mercury-from-extracted-natural-gas)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://blog.axens.net/how-to-remove-mercury-from-extracted-natural-gas). Last reviewed 2026-10-24.
 
@@ -276,6 +315,12 @@ flowchart LR
 **Reference plants:**
 - Hammerfest LNG, Melkøya, NO: 4.3 Mtpa; all main compressors electric; operating; passed performance test 2011, energy use below guarantee. [source](https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes (performance): NETL gives total fuel energy for a C3MR plant (2.78-3.35 MJ/kg) but no source collected gives compressor power by process. Where: [NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) (catalog: netl, open); IEA gas and LNG reports (catalog: iea-reports, open); Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox) (blocked); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open). Next: Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis.
+- number and arrangement of MFC refrigerant cycles (process): Described from general knowledge; the source read confirms only name, capacity and electric drive. Where: Linde Engineering MFC process literature (catalog: linde-engineering, open). Next: Confirm the cycle arrangement from a Linde source and cite it.
+
 Sources: [1](https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/). Last reviewed 2026-10-24.
 
 ## Molecular sieve and glycol dehydration
@@ -299,6 +344,11 @@ flowchart LR
 
 **Performance:**
 - water content after molecular sieve dehydration for LNG: up to 0.5 ppmv H2O; NETL LNG pretreatment assumption (below 0.5 ppmv). [source](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-24.
 
@@ -331,6 +381,11 @@ flowchart LR
 **Reference plants:**
 - Ras Laffan LNG trains, QA: 14 trains on AP-C3MR or AP-X; AP-X trains 7.8 Mtpa each; operating; four North Field East AP-X trains in development. [source](https://www.airproducts.co.uk/-/media/files/en/lng/lng-technology-enables-largest-lng-trains.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes (performance): NETL gives total fuel energy for a C3MR plant (2.78-3.35 MJ/kg) but no source collected gives compressor power by process. Where: [NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) (catalog: netl, open); IEA gas and LNG reports (catalog: iea-reports, open); Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox) (blocked); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open). Next: Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis.
+
 Sources: [1](https://www.airproducts.co.uk/-/media/files/en/lng/lng-technology-enables-largest-lng-trains.pdf), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-24.
 
 ## Sulfur recovery (Claus, tail gas treating, SuperClaus)
@@ -358,6 +413,11 @@ flowchart LR
 - H2S conversion in the reaction furnace: 60-70 %; BASF. [source](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf)
 - overall sulfur recovery with hydrogenation/amine tail gas treating: 99.9 %; BASF and Baker Hughes claims (above 99.9%). [source](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+
 Sources: [1](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf), [2](https://www.bakerhughes.com/acid-gas-treatment-and-sulfur-recovery). Last reviewed 2026-10-24.
 
 ## Turbo-expander NGL recovery (GSP, RSV processes)
@@ -384,5 +444,10 @@ flowchart LR
 
 **Performance:**
 - product recovery, Ortloff ultra-high recovery processes: 99 %; Honeywell UOP brochure (more than 99%); flexible processes keep 99%+ propane recovery in ethane rejection. [source](https://www.honeywell.com.cn/content/dam/honcn/download/oil-and-gas/natural-gas-treatment-and-recovery/honeywell-uop-ortloff-ngl-recovery-brochure.pdf)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/download/oil-and-gas/natural-gas-treatment-and-recovery/honeywell-uop-ortloff-ngl-recovery-brochure.pdf). Last reviewed 2026-10-24.

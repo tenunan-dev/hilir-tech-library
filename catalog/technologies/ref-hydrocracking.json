@@ -142,5 +142,67 @@
       "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL range with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
+          "source_id": "iea-reports",
+          "access": "open"
+        }
+      ],
+      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "where": [
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
+          "source_id": "osti",
+          "access": "blocked"
+        },
+        {
+          "hint": "NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only)",
+          "source_id": "nrel",
+          "access": "open"
+        },
+        {
+          "hint": "Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only",
+          "source_id": "ogj",
+          "access": "paid"
+        },
+        {
+          "hint": "Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access",
+          "access": "paid"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named operating or planned plants with capacity and status",
+      "reason_code": "not_in_sources_read",
+      "reason": "No plant was named in the sources read.",
+      "where": [
+        {
+          "hint": "Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news",
+          "source_id": "ogj",
+          "access": "paid"
+        },
+        {
+          "hint": "Press releases from the suppliers listed on the card",
+          "access": "open"
+        }
+      ],
+      "action": "Add one to three reference plants with country, capacity, status and source."
+    }
+  ]
 }

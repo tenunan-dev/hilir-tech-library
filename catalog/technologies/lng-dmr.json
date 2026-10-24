@@ -132,5 +132,91 @@
       "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL range with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
+          "source_id": "iea-reports",
+          "access": "open"
+        }
+      ],
+      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "where": [
+        {
+          "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
+          "source_id": "oxford-oies",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
+          "source_id": "arxiv",
+          "access": "open"
+        },
+        {
+          "hint": "Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox",
+          "access": "blocked"
+        },
+        {
+          "hint": "Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access",
+          "access": "paid"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes",
+      "reason_code": "not_in_sources_read",
+      "reason": "NETL gives total fuel energy for a C3MR plant (2.78-3.35 MJ/kg) but no source collected gives compressor power by process.",
+      "where": [
+        {
+          "hint": "NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only",
+          "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+          "source_id": "netl",
+          "access": "open"
+        },
+        {
+          "hint": "IEA gas and LNG reports",
+          "source_id": "iea-reports",
+          "access": "open"
+        },
+        {
+          "hint": "Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox)",
+          "access": "blocked"
+        },
+        {
+          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
+          "source_id": "arxiv",
+          "access": "open"
+        }
+      ],
+      "action": "Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis."
+    },
+    {
+      "field": "reference_plants",
+      "item": "Sakhalin LNG train count and capacity",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Sakhalin article read gives no capacity.",
+      "where": [
+        {
+          "hint": "Sakhalin Energy publications; GIIGNL annual report",
+          "source_id": "giignl",
+          "access": "open"
+        }
+      ],
+      "action": "Add capacity and train count."
+    }
+  ]
 }

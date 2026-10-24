@@ -144,5 +144,52 @@
       "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL range with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives a TRL.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data)",
+          "source_id": "iea-reports",
+          "access": "open"
+        },
+        {
+          "hint": "IEA Global Hydrogen Review 2025 (collected): technology status chapters",
+          "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+          "source_id": "iea-reports",
+          "access": "open"
+        }
+      ],
+      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "DOE Hydrogen Program Records and H2A analyses",
+          "source_id": "doe-hfto",
+          "access": "open"
+        },
+        {
+          "hint": "IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway",
+          "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+          "source_id": "iea-reports",
+          "access": "open"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
+          "source_id": "osti",
+          "access": "blocked"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    }
+  ]
 }

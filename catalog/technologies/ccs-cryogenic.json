@@ -137,5 +137,31 @@
       "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
+          "source_id": "netl",
+          "access": "open"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
+          "source_id": "osti",
+          "access": "blocked"
+        },
+        {
+          "hint": "IEAGHG technical reports (private copy only)",
+          "source_id": "iea-ghg",
+          "access": "open"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    }
+  ]
 }

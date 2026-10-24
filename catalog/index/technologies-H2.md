@@ -58,6 +58,10 @@ flowchart LR
 - Holland Hydrogen 1 (Shell), Rotterdam, NL: 200 MW, thyssenkrupp 20 MW alkaline modules; hydrogen piped about 40 km to Shell Energy and Chemicals Park Rotterdam; announced January 2022 with start of production intended for 2024. [source](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html)
 - ACES Delta, Utah, US: 220 MW alkaline (HydrogenPro), up to 100 t/day hydrogen stored in salt caverns; USD 504.4 million conditional DOE loan guarantee, April 2022. [source](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- electrolyser type and supplier at Sinopec Kuqa (other): The Sinopec release read does not state the electrolyser type or supplier. Where: Sinopec news releases; LONGi Hydrogen and PERIC project news (catalog: sinopec-tech, open). Next: Confirm type and supplier, then keep or move the Kuqa reference plant.
+
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom), [3](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [4](https://www.aap.com.au/aapreleases/cision20230703ae48443), [5](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html), [6](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/), [7](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [8](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
 
 ## Autothermal reforming with CO2 capture (blue hydrogen)
@@ -92,6 +96,10 @@ flowchart LR
 - levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$); NETL 2022; natural gas USD 4.42/MMBtu, 90% capacity factor, CO2 transport and storage at USD 10/t where included; low excludes and high includes CO2 transport and storage. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
 - total plant cost, ATR with 94.5% capture: 1092 USD per kg H2/day capacity (2018$); NETL. [source](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+
 Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf). Last reviewed 2026-10-24.
 
 ## Liquid hydrogen
@@ -122,6 +130,11 @@ flowchart LR
 
 **Reference plants:**
 - Hydrogen Energy Supply Chain (HESC), Suiso Frontier, AU: 1,250 m3 LH2 tank, loaded at Port of Hastings for Kobe; ship completed 2020; pilot voyage Australia to Japan. [source](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- liquefaction energy (kWh/kg H2) and boil-off rate (performance): No open source read so far gives liquefaction energy. Where: DOE Hydrogen Program Records on delivery and liquefaction (catalog: doe-hfto, open); IEA Global Hydrogen Review 2025 (collected): search 'liquefaction' (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add liquefaction energy for today's plants and DOE targets, with source.
 
 Sources: [1](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/). Last reviewed 2026-10-24.
 
@@ -167,6 +180,10 @@ flowchart LR
 **Reference plants:**
 - REFHYNE, Shell Energy and Chemicals Park Rheinland, DE: 10 MW PEM, described by Shell as Europe's largest PEM electrolyser at start-up; operating. [source](https://www.shell.com/news-and-insights/our-stories/green-hydrogen-project-goes-live-in-germany.html)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- current PEM stack lifetime (performance): DOE sources disagree: 60,000 h (H2NEW webinar, 2023) and 40,000 h (Hydrogen Shot assessment, 2024). Where: [DOE Hydrogen Shot Water Electrolysis Technology Assessment (collected)](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf) (catalog: doe-hfto, open). Next: Prefer the later DOE value unless a newer DOE record resolves it; keep both until then.
+
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf), [3](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [4](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf), [5](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
 
 ## Steam methane reforming
@@ -208,6 +225,9 @@ flowchart LR
 **Reference plants:**
 - Air Products Port Arthur SMR CO2 capture (Valero refinery site), US: about 1 Mt/yr CO2 captured by vacuum swing adsorption from SMR process gas, used for enhanced oil recovery; capture began 2013 (first SMR; second planned months later). [source](https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+
 Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [2](https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon), [3](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
 
 ## Ammonia as hydrogen carrier and ammonia cracking
@@ -235,6 +255,10 @@ flowchart LR
 
 **Reference plants:**
 - SUSO ammonia cracking project, Ulsan, KR: 10 t/day hydrogen from 72 t/day ammonia (KBR H2ACT); moving to EPC, target start-up 2028. [source](https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/). Last reviewed 2026-10-24.
 
@@ -265,6 +289,10 @@ flowchart LR
 **Reference plants:**
 - NEOM Green Hydrogen Project, SA: 3.9 to 4 GW solar and wind, 600 t/day hydrogen, up to 1.2 Mt/yr ammonia; thyssenkrupp electrolysis, Air Products air separation; USD 9,046 million; renewables due mid-2026, commissioning and first product 2027. [source](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom). Last reviewed 2026-10-24.
 
 ## Hydrogen storage in salt caverns
@@ -292,6 +320,10 @@ flowchart LR
 
 **Reference plants:**
 - ACES Delta, Utah, US: 220 MW electrolysis, up to 100 t/day hydrogen, 300 GWh in two caverns, feeding the 840 MW Intermountain Power combined cycle; USD 504.4 million conditional DOE loan guarantee, April 2022. [source](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/). Last reviewed 2026-10-24.
 
@@ -322,6 +354,10 @@ flowchart LR
 **Reference plants:**
 - AHEAD Brunei to Kawasaki hydrogen supply chain, BN: up to 210 t/yr hydrogen as MCH; demonstration completed December 2020. [source](https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+
 Sources: [1](https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf). Last reviewed 2026-10-24.
 
 ## Methane pyrolysis (turquoise hydrogen)
@@ -350,6 +386,10 @@ flowchart LR
 **Reference plants:**
 - Monolith Olive Creek 1, Nebraska, US: about 14,000 t/yr carbon black and about 2,500 t/yr hydrogen; commissioned 2020; Olive Creek 2 planned at about 194,000 t/yr carbon black and 40,000 t/yr hydrogen. [source](https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis)
 - BASF methane pyrolysis pilot, Ludwigshafen, DE: pilot; under construction from 2019 per the article. [source](https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis). Last reviewed 2026-10-24.
 
@@ -387,6 +427,9 @@ flowchart LR
 **Reference plants:**
 - Topsoe SOEC manufacturing plant, Herning, DK: initially 500 MW of electrolysers per year; first offtakers First Ammonia (Texas) and Forestal (e-methanol, Spain); inaugurated November 2025. [source](https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark)
 
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf), [3](https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark), [4](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf). Last reviewed 2026-10-24.
 
 ## AEM electrolysis
@@ -413,5 +456,10 @@ flowchart LR
 - operating temperature: 50-80 °C; DOE description of AEM electrolysers. [source](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis)
 - system power consumption: 51.3 kWh/kg H2; Enapter AEM Nexus 1000, all utilities inside battery limits, 99.5% purity configuration. [source](https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf)
 - hydrogen output per unit: 18.2 kg H2/h; Enapter AEM Nexus 1000 (202 Nm3/h) at 933 kW nominal, up to 31 barg outlet. [source](https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf)
+
+**Missing inputs:**
+- TRL range with a cited source (trl): No source read so far gives a TRL. Where: IEA ETP Clean Energy Technology Guide: TRL per technology and component (CC BY 4.0 data) (catalog: iea-reports, open); [IEA Global Hydrogen Review 2025 (collected): technology status chapters](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) (catalog: iea-reports, open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf). Last reviewed 2026-10-24.

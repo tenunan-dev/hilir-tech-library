@@ -71,3 +71,26 @@ def test_register_parses_and_links_every_card():
 def test_list_register_filters():
     rows = library.list_register(code="GAS", query="liquefaction")
     assert rows and all(r["code"] == "GAS" for r in rows)
+
+
+def test_gaps_cover_cards_and_register():
+    cards = technologies.load_cards()
+    entries = technologies.load_register(cards=cards)
+    rows = technologies.gaps(cards, entries)
+    assert all(r["where"] and r["action"] and r["reason"] for r in rows)
+    assert {r["card"] for r in rows if r["card"]} <= {c["id"] for c in cards}
+    assert sum(1 for r in rows if r["reason_code"] == "no_card_yet") == sum(1 for e in entries if not e["card"])
+    page = technologies.gaps_page(rows)
+    assert "Technologies with no card yet" in page and "| Reason | Count |" in page
+
+
+def test_list_gaps_filters(tmp_path):
+    corpus = tmp_path / "corpus"
+    corpus.mkdir()
+    (tmp_path / "catalog").symlink_to(ROOT / "catalog")
+    library.build(tmp_path / "t.db", corpus)
+    db = library.connect(tmp_path / "t.db")
+    hits = library.list_gaps(field="costs", sector="REF", db=db)
+    assert hits and all(h["field"] == "costs" and h["sector"] == "REF" for h in hits)
+    assert not any(h["reason_code"] == "no_card_yet" for h in library.list_gaps(db=db))
+    assert any(h["reason_code"] == "no_card_yet" for h in library.list_gaps(include_no_card=True, db=db))

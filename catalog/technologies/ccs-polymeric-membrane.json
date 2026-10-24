@@ -129,5 +129,54 @@
       "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
+          "source_id": "netl",
+          "access": "open"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
+          "source_id": "osti",
+          "access": "blocked"
+        },
+        {
+          "hint": "IEAGHG technical reports (private copy only)",
+          "source_id": "iea-ghg",
+          "access": "open"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "performance",
+      "item": "key performance figures (energy use, yields, capture or conversion rate)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives performance figures.",
+      "where": [
+        {
+          "hint": "Supplier datasheets and brochures for the companies listed on the card",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
+          "source_id": "arxiv",
+          "access": "open"
+        },
+        {
+          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
+          "source_id": "netl",
+          "access": "open"
+        }
+      ],
+      "action": "Add the figures that matter for comparing options, each with its basis and source."
+    }
+  ]
 }

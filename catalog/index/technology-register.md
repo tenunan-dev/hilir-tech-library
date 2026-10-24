@@ -3,6 +3,7 @@
 298 technologies across oil, gas, petrochemicals and new energy; 55 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
+Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
 
 ## UPS: Upstream
 

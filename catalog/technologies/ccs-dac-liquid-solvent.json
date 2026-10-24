@@ -193,5 +193,19 @@
     }
   ],
   "last_reviewed": "2026-10-24",
-  "notes": "Stratos operating status after mid-2025 not yet checked."
+  "gaps": [
+    {
+      "field": "status",
+      "item": "Stratos operating status after mid-2025",
+      "reason_code": "status_unchecked",
+      "reason": "Latest status was not checked.",
+      "where": [
+        {
+          "hint": "Occidental / 1PointFive news releases",
+          "access": "open"
+        }
+      ],
+      "action": "Check start-up and capture rate; update reference_plants."
+    }
+  ]
 }
