@@ -35,6 +35,32 @@ COUNTRIES = {
 BM25 = "bm25(search, 0, 0, 0, 3.0, 1.0, 0.4)"
 
 
+# Words that mark a document as belonging to a sector. Documents inherit their source's sectors,
+# which is too broad for multi-topic sources such as arXiv or OSTI, so build() narrows them.
+SECTOR_TERMS = {
+    "UPS": ("reservoir", "wellbore", "drilling", "upstream", "offshore", "subsea", "oilfield", "history matching"),
+    "MID": ("pipeline", "midstream", "storage terminal", "linepack", "flow assurance", "shipping"),
+    "GAS": ("natural gas", "lng", "liquefaction", "regasification", "gas processing", "gas network", "gas market"),
+    "REF": ("refinery", "refining", "hydrocracking", "crude", "fcc", "hydrotreating"),
+    "PCH": ("petrochemical", "olefin", "polymer", "methanol", "aromatics", "steam cracking"),
+    "PWR": ("power", "grid", "gas turbine", "turbine", "photovoltaic", "pv", "wind", "electricity"),
+    "H2": ("hydrogen", "electrolyzer", "electrolyser", "electrolysis", "ammonia", "aviation fuel", "biofuel"),
+    "CCS": ("carbon capture", "co2 capture", "co2 storage", "ccs", "ccus", "sequestration", "direct air capture",
+            "carbonation", "post-combustion", "co2 utili"),
+}
+
+
+def doc_sectors(title, body, inherited):
+    text = f"{title} {body}".lower()
+    found = [code for code, terms in SECTOR_TERMS.items()
+             if any(re.search(rf"\b{re.escape(t)}", text) for t in terms)]
+    narrowed = [c for c in found if c in inherited] if inherited else found
+    if narrowed:
+        return narrowed
+    # No sector words: a narrow source's tags still apply, a broad source's (3+ sectors) do not.
+    return list(inherited) if len(inherited) <= 2 else found
+
+
 def taxonomy_labels():
     tax = yaml.safe_load((ROOT / "taxonomy.yaml").read_text(encoding="utf-8"))
     labels = {code: info["name"] for code, info in {**tax["sectors"], **tax["disciplines"]}.items()}
@@ -120,6 +146,7 @@ def build(db_path=None, corpus=None):
         if path.parent.name.startswith("_"):
             continue
         meta, body = read_document(path)
+        meta["sectors"] = doc_sectors(meta.get("title", ""), body, meta.get("sectors", []))
         rel = str(path.relative_to(corpus.parent))
         db.execute("INSERT INTO docs VALUES (?, ?, ?, ?, ?)",
                    (rel, meta.get("source_id"), meta.get("title"), meta.get("url"), json.dumps(meta, ensure_ascii=False)))
@@ -144,9 +171,13 @@ def _matches(rec, sector, discipline, region, reuse_level):
             and (not region or region in rec["regions"]) and (not reuse_level or rec["reuse_level"] == reuse_level))
 
 
-def doc_restricted(db, path, rec):
+def _doc_meta(db, path):
     row = db.execute("SELECT meta FROM docs WHERE path = ?", (path,)).fetchone()
-    meta = json.loads(row["meta"]) if row else {}
+    return json.loads(row["meta"]) if row else {}
+
+
+def doc_restricted(db, path, rec):
+    meta = _doc_meta(db, path)
     return meta.get("reuse_level", rec["reuse_level"]) == "full-text-restricted"
 
 
@@ -202,7 +233,10 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     results = []
     for row, score in ranked.values():
         rec = records.get(row["source_id"])
-        if not rec or row["kind"] not in kinds or not _matches(rec, sector, discipline, region, reuse_level):
+        if not rec or row["kind"] not in kinds or not _matches(rec, None, discipline, region, reuse_level):
+            continue
+        if sector and sector not in (_doc_meta(db, row["ref"].split("#")[0]).get("sectors", []) if row["kind"] == "chunk"
+                                     else rec["sectors"]):
             continue
         if exclude_restricted and row["kind"] == "chunk" and doc_restricted(db, row["ref"].split("#")[0], rec):
             continue

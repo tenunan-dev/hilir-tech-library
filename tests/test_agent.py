@@ -130,3 +130,15 @@ def test_export_public_leaves_out_restricted(tmp_path, monkeypatch):
     assert export_public.export(tmp_path / "out") == (1, 1)
     assert (tmp_path / "out" / "corpus" / "arxiv" / "open.md").exists()
     assert not (tmp_path / "out" / "corpus" / "arxiv" / "private.md").exists()
+
+
+def test_doc_sectors_narrow_inherited_tags():
+    assert library.doc_sectors("PEM electrolyzer degradation", "", ["PWR", "H2", "CCS"]) == ["H2"]
+    assert library.doc_sectors("Design of carbon capture processes", "", ["PWR", "H2", "CCS"]) == ["CCS"]
+    assert library.doc_sectors("Untitled", "nothing relevant", ["PWR"]) == ["PWR"]
+    assert library.doc_sectors("TESS light curves", "astronomy", ["UPS", "REF", "H2", "CCS"]) == []
+
+
+def test_sector_filter_uses_document_tags(db):
+    assert library.search("electrolyzer", kind="chunk", sector="CCS", db=db) == []
+    assert library.search("electrolyzer", kind="chunk", sector="H2", db=db)
