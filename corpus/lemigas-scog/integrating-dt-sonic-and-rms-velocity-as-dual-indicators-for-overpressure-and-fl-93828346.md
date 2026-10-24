@@ -1,0 +1,1135 @@
+---
+source_id: "lemigas-scog"
+title: "Integrating DT Sonic and RMS Velocity As Dual Indicators for Overpressure and Fluid Screening in The Lower Seu"
+url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2108"
+retrieved_at: "2026-10-24T14:30:30+00:00"
+licence: "CC-BY-SA-4.0"
+reuse_level: "full-text-open"
+permitted_use: "any"
+sectors: ["UPS", "REF", "GAS"]
+disciplines: ["PRC"]
+sha256: "93828346292374169778acc21c18df24c6839b6cd500014c3c86dba18775a75f"
+collected: "manual"
+---
+
+# Integrating DT Sonic and RMS Velocity As Dual Indicators for Overpressure and Fluid Screening in The Lower Seu
+
+DOI org/10.29017/scog.v49i2.2108 I 297 
+ 
+SCIENTIFIC CONTRIBUTIONS OIL AND GAS 
+Testing Center for Oil and Gas  
+LEMIGAS  
+Journal Homepage:http://journal.lemigas.esdm.go.id   
+ISSN: 2089-3361, e-ISSN: 2541-0520 
+Integrating DT Sonic and RMS Velocity as Dual Indicators                                  
+for Overpressure and Fluid Screening in the Lower Seurula Formation of 
+the Rayeu Field, North Sumatra Basin 
+ABSTRACT - Velocity anomalies are widely used as indicators of Overpressure and hydrocarbon presence 
+in clastic sedimentary basins. However, seismic and sonic velocity responses are inherently non -unique 
+because similar anomalies may result from unloading Overpressure, lithological variation, or fluid -related 
+effects. This ambiguity becomes significant within the Lower Seurula Formation of the Rayeu field, North 
+Sumatra Basin, where several wells exhibit varying production performance despite comparable velocity 
+responses. This study proposes an integrated interpretation framework combining residual DT sonic (∆DT) 
+and residual RMS velocity (∆VRMS) as dual indicators for Overpressure and fluid screening. The workflow 
+integrates well log analysis, seismic-derived RMS velocity, interval velocity evaluation, clay transformation 
+interpretation, and Fluid Replacement Modeling (FRM). Results indicate that the Lower Seurula Formation 
+is dominated by unloading -related Overpressure, supported by persistent DT sonic deviation, interval 
+velocity reversal, and evidence of smectite -illite transformation. FRM analysis demonstrates that gas 
+saturation significantly reduces P -wave velocity and may generate responses similar to Overpressure 
+anomalies. Wells exhibiting elevated ∆DT and strongly negative ∆VRMS responses generally correspond to 
+better production performance. These findings demonstrate that integrating residual DT sonic and residual 
+RMS velocity reduces interpretation ambiguity between unloading -related Overpressure and hydrocarbon -
+related fluid effects. The proposed workflow provides a practical approach for early -stage fluid screening 
+and Overpressure evaluation in clastic sedimentary basins.  
+Keywords : overpressure, DT sonic, RMS velocity, Lower Seurula, fluid screening, unloading 
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June: 297 - 317 
+Institut Teknologi Bandung,                                                                                                                                                                             
+Ganesha Street No.10, Lb. Siliwangi, Kecamatan Coblong, Bandung City, Jawa Barat 40132, Indonesia 
+Corresponding author: Pramuditya Dwi Permana (pramuditya.permana@gmail.com) 
+Manuscript received:  February 17th, 2026; Revised: March 26th, 2026 
+Approved:  May 01th, 2026; Available online: June 15th, 2026; Published: June 15th, 2026. 
+Pramuditya Dwi Permana, Dasapta Erwin Irawan, and Agus Mochamad Ramdhan
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+298 I DOI org/10.29017/scog.v49i2.2108 
+Copyright © 2026 by Authors, Published by LEMIGAS 
+How to cite this article: 
+Pramuditya Dwi Permana, Dasapta Erwin Irawan, and Agus Mochamad Ramdhan, 2026, 
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid 
+Screening in the Lower Seurula Formation of the Rayeu Field, North Sumatra Basin , 
+Scientific Contributions Oil and Gas, 49 (2) pp. 297 - 317. DOI org/10.29017/
+scog.v49i2.2108. 
+INTRODUCTION 
+The North Sumatra Basin is one of the major 
+hydrocarbon-producing basins in Indonesia and has 
+been explored for decades due to its significant 
+petroleum potential (Hall 2012; Doust & Noble 
+2008). Despite extensive exploration and appraisal 
+activities, abnormal pore pressure remains an 
+important subsurface challenge because it 
+influences drilling safety, reservoir evaluation, and 
+hydrocarbon prediction, particularly within deeply 
+buried shale-dominated intervals. 
+Overpressure in sedimentary basins is 
+commonly associated with disequilibrium 
+compaction or undercompaction, where pore fluids 
+are unable to escape during rapid sedimentation 
+(Dickinson 1953). Under loading conditions, 
+increasing effective stress generally produces 
+progressive velocity increase and porosity reduction 
+with depth. However, several studies have shown that 
+Overpressure may also be generated by unloading 
+mechanisms such as hydrocarbon generation, fluid 
+expansion, and clay mineral transformation (Bowers 
+1995; Swarbrick & Osborne 1998). Unlike loading 
+mechanisms, unloading processes may generate 
+anomalously low velocity responses without 
+significant porosity increase. 
+One of the commonly discussed unloading 
+mechanisms is the smectite -illite transformation, 
+which releases bound water during clay diagenesis 
+and potentially contributes to secondary 
+Overpressure generation (Burst 1969; Bruce 1984). 
+In shale -dominated systems, this mechanism may 
+preserve anomalously high sonic transit time 
+responses even below the normal compaction trend. 
+Velocity anomalies derived from sonic logs or 
+seismic velocity data are inherently non -unique 
+because similar responses may originate from 
+Overpressure, lithological variation, or hydrocarbon 
+saturation. Consequently, interpretation based on a 
+single velocity indicator may lead to uncertainty, 
+particularly in clastic basins where multiple 
+geological processes coexist. 
+Within the Rayeu field, several wells 
+penetrating the Lower Seurula Formation exhibit 
+similar velocity anomalies but different production 
+performance, suggesting that velocity response 
+alone may not uniquely represent Overpressure 
+conditions. This ambiguity complicates subsurface 
+interpretation and early -stage reservoir screening. 
+This study aims to evaluate the dominant 
+Overpressure generation mechanism within the 
+Lower Seurula Formation of the Rayeu field 
+through integrated analysis of DT sonic, RMS 
+velocity, interval velocity behavior, clay 
+transformation evidence, and fluid replacement 
+modeling (FRM). The study further proposes the 
+integration of residual DT sonic (∆DT) and 
+residual RMS velocity (∆VRMS) as dual indicators 
+to improve interpretation reliability and fluid 
+screening in clastic systems. 
+ 
+Geological Setting 
+Regional Geological Framework 
+The North Sumatra Basin is a major back -arc 
+basin located along the western margin of 
+Sundaland. Basin development was initiated during 
+Paleogene extensional tectonics, forming a series 
+of north-south-oriented grabens controlled by pre -
+existing basement structures (Davies 1984; Barber 
+et al., 2005). Subsequent post -rift subsidence 
+enabled the accumulation of thick Paleogene -
+Neogene sedimentary successions dominated by 
+clastic deposition.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 299 
+ 
+ 
+ 
+ 
+  
+Figure 1. Regional structural framework of the North Sumatra Basin showing major basement highs                                  
+and graben orientation (modified after Pubellier & Morley 2013; Anderson et al., 1993).
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+300 I DOI org/10.29017/scog.v49i2.2108 
+The tectonic evolution of the basin was strongly 
+influenced by oblique subduction of the Indo -
+Australian Plate beneath Sundaland, followed by 
+Miocene inversion and strike -slip reactivation. 
+Rapid sedimentation and the development of thick 
+shale intervals contributed to widespread abnormal 
+pore pressure conditions within several depocenters 
+of the basin. 
+Stratigraphic Framework 
+The basin stratigraphy consists of pre -Tertiary 
+basement overlain by Paleogene syn -rift and 
+Neogene post -rift sedimentary sequences. 
+Regionally, thick marine shale intervals of the 
+Baong Formation act as important source rock and 
+regional seal components within the petroleum 
+system (Buck & McCulloh 1994). The North 
+Sumatra Basin contains a proven petroleum system 
+characterized by mature shale source rocks, thick 
+regional seals, and sandstone reservoirs within 
+Neogene successions. Hydrocarbon generation and 
+fluid migration within shale -dominated intervals 
+are considered potential contributors to unloading -
+related Overpressure development in the study 
+area. The Lower Seurula Formation belongs to the 
+Neogene post -rift succession and consists 
+predominantly of interbedded sandstone and shale 
+deposited within shallow marine to deltaic 
+environments. Thick shale intervals combined with 
+rapid sedimentation contribute to abnormal pore 
+pressure development within the formation. 
+Rayeu Field and Lower Seurula Formation  
+The study area is located within the Rayeu field, 
+which lies within the mature hydrocarbon province 
+of the North Sumatra Basin. Exploration and 
+appraisal activities within the Rayeu area have 
+resulted in multiple drilled wells that provide the 
+subsurface data used in this study. 
+Production performance within the Rayeu field 
+varies significantly among wells despite the 
+presence of relatively comparable seismic and 
+sonic velocity anomalies. Several wells penetrating 
+the Lower Seurula Formation demonstrate distinct 
+reservoir behavior ranging from non -commercial 
+gas indication and high water saturation to strong 
+gas-condensate production. Wells such as Piada -1 
+and Rayeu CA exhibit productive hydrocarbon 
+flow from the Lower Seurula interval, while Piada 
+B-1 shows strong gas indication without a 
+sustained production response. East Arun A -1 is 
+characterized by significant water production 
+despite gas presence, whereas NLS A -1 
+demonstrates relatively cleaner gas -bearing 
+reservoir behavior. The strongest production 
+performance is observed in Rayeu CA, which 
+represents the main productive intervals within the 
+study area. 
+These production variations indicate that 
+velocity anomalies alone may not sufficiently 
+explain reservoir productivity and fluid distribution 
+within the Lower Seurula Formation. Similar 
+seismic and sonic responses may originate from 
+different geological mechanisms, including unloading
+-related Overpressure, lithological variation, and 
+hydrocarbon saturation effects. Consequently, a more 
+comprehensive and integrated evaluation approach is 
+required to distinguish the dominant controls on 
+velocity behavior and improve fluid screening 
+reliability within the Rayeu field. 
+ 
+METHODOLOGY 
+Available datasets used in this study include 
+well logs, seismic -derived RMS velocity, XRD 
+mineralogical data, and production test information 
+from wells penetrating the Lower Seurula Formation 
+within the Rayeu field. These datasets represent 
+fundamental data types commonly available in 
+exploration and development fields, making the 
+proposed workflow practical and transferable for 
+areas with limited data availability. Data quality 
+control and interval correlation were conducted prior 
+to interpretation to ensure consistency between well-
+scale and seismic-scale observations. 
+This study integrates DT sonic analysis, seismic
+-derived RMS velocity evaluation, interval velocity 
+interpretation, clay transformation analysis, and 
+fluid replacement modeling (FRM) to investigate 
+Overpressure mechanisms and fluid-related seismic 
+responses within the study interval (Eaton, 1975; 
+Bowers, 1995; Gassmann, 1951). The workflow 
+was designed to evaluate the dominant 
+Overpressure generation mechanism and to assess 
+whether integration of residual DT sonic (∆DT) 
+and residual RMS velocity (∆VRMS) can improve
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 301 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Figure 2. Regional lithostratigraphy of the North Sumatra Basin from Early Eocene to present day                                     
+(modified after Ryacudu et al., 1992). 
+Figure 3. Structural depth map of the Rayeu field showing major fault distribution, structural compartments, and 
+analyzed wells within the Lower Seurula Formation.
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+302 I DOI org/10.29017/scog.v49i2.2108 
+ 
+ 
+ 
+ 
+discrimination between unloading -related 
+Overpressure and hydrocarbon-related fluid effects. 
+(Bowers 1995; Swarbrick & Osborne 1998). 
+Residual comparison between DT sonic and RMS 
+velocity was subsequently applied to assess 
+interpretation consistency among wells exhibiting 
+different production performance. Due to data 
+availability limitations within the study area, 
+seismic velocity evaluation was primarily 
+conducted using RMS velocity data. Interval 
+velocity was subsequently derived through Dix 
+conversion to support the interpretation of 
+Overpressure-generating mechanisms.  
+In this study, interval velocity analysis was used 
+mainly for qualitative validation because the 
+derived results are highly sensitive to noise 
+amplification and local instability. Therefore, RMS 
+velocity was retained as the primary parameter for 
+regional interpretation since it represents the 
+original seismic velocity response and provides 
+more stable regional trends.  The DT trend was 
+established using a shale baseline defined by 
+gamma ray cut -off values greater than 80 API, 
+representing intervals dominated by clay -rich 
+lithologies. In contrast, the VRMS trend was 
+derived from a linear regression equation (Y = 
+1.7543x – 1.7), providing a regional compaction 
+reference for seismic velocity. These baseline 
+trends were subsequently used to calculate residual 
+DT (∆DT) and residual RMS velocity (∆VRMS) 
+for anomaly screening. 
+ 
+RESULT & DISCUSSION 
+DT Sonic Response 
+DT sonic analysis within the Lower Seurula 
+Formation shows persistent deviation from the 
+normal compaction trend (NCT) in several wells. 
+Under normal loading conditions, sonic transit time 
+generally decreases progressively with burial depth 
+due to increasing effective stress and porosity 
+reduction. However, the analyzed wells exhibit 
+flattening and locally increasing DT responses 
+below the expected compaction trend, indicating 
+the presence of abnormal pressure development. 
+The persistence of elevated DT responses without 
+significant porosity rebound is interpreted to be 
+consistent with unloading -related Overpressure 
+Figure 4. Integrated workflow for Overpressure evaluation and fluid screening within the Lower Seurula Formation                   
+of the Rayeu field.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 303 
+ 
+ 
+ 
+ 
+mechanisms rather than disequilibrium 
+compaction alone. This behavior is consistently 
+observed across all analyzed wells within the 
+study area. Rayeu CA was selected as the 
+representative well because it exhibits the 
+strongest production performance and the 
+clearest DT anomaly response . 
+Seismic Velocity Behavior 
+Seismic velocity evaluation within the Lower 
+Seurula Formation was primarily conducted using 
+RMS velocity data due to data availability 
+limitations within the study area. RMS velocity 
+was selected as the primary parameter for regional 
+interpretation because it represents the original 
+seismic-derived velocity response and provides 
+smoother regional trends. Unlike DT sonic data, 
+which represents localized well -scale responses, 
+RMS velocity reflects cumulative seismic velocity 
+behavior over broader subsurface intervals and 
+therefore provides more representative regional -
+scale characterization within the study area. This 
+regional behavior allows RMS velocity anomalies 
+to capture larger -scale pressure distribution and 
+fluid-related seismic responses beyond individual 
+well observations.  
+Consequently, residual RMS velocity was 
+considered important for evaluating the regional 
+continuity of velocity anomalies within the Lower 
+Seurula Formation. To evaluate the dominant 
+Overpressure-generating mechanism, interval 
+velocity was subsequently derived from RMS 
+velocity through Dix conversion (Dix, 1955). 
+According to Bowers (1995), unloading -related 
+Overpressure mechanisms are commonly 
+characterized by interval velocity reversal or  
+decreasing velocity trends with depth, in contrast to 
+normal loading behavior, where velocity 
+progressively increases with burial depth. 
+Mineralogical Evidence 
+XRD mineralogical analysis within the Lower 
+Seurula Formation indicates progressive reduction 
+of smectite content with increasing burial depth, 
+accompanied by persistent illite dominance within 
+shale intervals. Smectite minerals are still observed 
+within shallower intervals around 6380–6425 ft, 
+whereas deeper intervals below approximately 
+Figure 5. Representative DT sonic responses within the Lower Seurula Formation. Panel A shows actual DT sonic data 
+from Rayeu CA, while Panels B and C illustrate conceptual unloading and loading responses adapted from Ramdhan et 
+al. (2011). The observed DT behavior in Rayeu CA is more consistent with unloading-related Overpressure.
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+304 I DOI org/10.29017/scog.v49i2.2108 
+ 
+ 
+ 
+ 
+ 
+Figure 6. RMS velocity distribution within the Lower Seurula Formation showing regional seismic velocity behavior              
+and analyzed wells in the Rayeu field. 
+Figure 7. Illustration of seismic velocity behavior within the study area. Panel A shows the RMS velocity near Rayeu 
+CA, while Panel B represents the interval velocity derived using the Dix conversion. Panels C and D illustrate unloading 
+and normal loading interval velocity responses based on Bowers (1995). The observed interval velocity behavior within 
+the Lower Seurula Formation is consistent with unloading-related Overpressure.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 305 
+ 
+ 
+ 
+ 
+6465 ft show near -complete disappearance of 
+smectite content. This mineralogical trend is 
+interpreted to reflect smectite –illite transformation 
+associated with burial diagenesis and bound -water 
+release. According to Burst (1969) and Bruce 
+(1984), this clay transformation process may 
+contribute to secondary Overpressure generation 
+through dehydration -related fluid expansion 
+mechanisms. The observed mineralogical behavior, 
+therefore, supports the interpretation that unloading
+-related processes contribute significantly to 
+abnormal pressure development within the Lower 
+Seurula Formation. 
+Residual DT Sonic 
+Residual DT sonic (∆DT) analysis was 
+conducted to evaluate the relationship between 
+sonic velocity anomaly and reservoir productivity 
+within the Lower Seurula Formation. A total of 
+eight wells were evaluated in this study, although 
+only several wells possess both DT sonic and 
+production flow test data suitable for direct 
+quantitative comparison. Positive ∆DT responses 
+are consistently observed across the analyzed 
+wells, indicating persistent deviation from the 
+normal compaction trend associated with abnormal 
+pressure development. Representative DT sonic 
+responses from Rayeu CA, NLS A -1, and East 
+Arun A-1 are shown in Figure 9-11.  
+Among these wells, Rayeu CA exhibits the 
+strongest residual DT anomaly of  18.6 µs/ft and also 
+records the highest production rate of 8.11 MMSCFD 
+within the 6475 -6495 ft test intervals. NLS A -1 
+shows residual DT anomaly around 8.8 µs/ft with 
+production rate approximately 1.26 MMSCFD from 
+the 4300–4320 ft interval, whereas East Arun A -1 
+exhibits residual DT anomaly around 10.5 µs/ft with 
+production rate 1.1 MMSCFD within the 6550–6930 
+ft interval. Although the individual well displays 
+provide insight into local sonic behavior, direct 
+comparison between wells is difficult because each 
+figure covers different depth ranges.  
+Therefore, the productive intervals were 
+subsequently displayed using a consistent zoomed 
+window corresponding to the DST -tested zones to 
+facilitate comparison of DT responses within 
+Figure 8. XRD mineralogical composition within the Lower Seurula Formation showing progressive reduction of 
+smectite content and increasing illite dominance with burial depth, interpreted as evidence of smectite–illite 
+transformation associated with unloading-related Overpressure mechanisms.
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+306 I DOI org/10.29017/scog.v49i2.2108 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 9. DT sonic response from the Rayeu C-1A well. The left panel shows the full DT sonic display, while the right 
+panel presents a zoomed interval view within the Lower Seurula Formation. DST was conducted within the 6475–6495 
+ft interval, recording flow rates of 8.11 MMSCFD with an average residual DT value of 18.6 µs/ft. 
+Figure 10. DT sonic response from the NLS A-1 well. The left panel shows the full DT sonic display, while the right 
+panel presents a zoomed interval view within the Lower Seurula Formation. DST was conducted within the 4300–4320 
+ft interval, recording flow rates of 1.26 MMSCFD with an average residual DT value of 8.8 µs/ft.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 307 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11. DT sonic response from the East Arun A-1 well. The left panel shows the full DT sonic display, while the right 
+panel presents a zoomed interval view within the Lower Seurula Formation. DST was conducted within the 6550–6930 
+ft interval, recording flow rates of 1.1 MMSCFD with an average residual DT value of 10.5 µs/ft. 
+Figure 12. The side-by-side comparison indicates that Rayeu CA (Left) exhibits the strongest DT deviation within the 
+tested interval, whereas NLS A-1 (Middle) and East Arun A-1 (Right) show comparatively weaker responses.                      
+These observations suggest variable velocity behavior within the Lower Seurula Formation despite                                   
+similar regional geological settings.
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+308 I DOI org/10.29017/scog.v49i2.2108 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 1. Summary of residual DT sonic and production 
+response within the Lower Seurula Formation. 
+ 
+ 
+ 
+ 
+No Well Residual DT Flow Remarks 
+1 Rayeu CA 18,6 8,11 Flow 
+2 NLS A-1 8,8 1,26 Flow 
+3 ARUN EA-1 10,5 1,1 Flow 
+4 PIADA 1ST 12,2 not available HC Indication 
+5 LHOKSUKON-1 No DT 2,12 Flow 
+6 PIADA-1 No DT 8 Flow 
+7 PIADA B-1 No DT not available Bubble 
+ 
+equivalent stratigraphic intervals. The comparison 
+demonstrates that wells with stronger residual DT 
+anomalies generally correspond to better 
+production performance within the study area. 
+Additional wells further demonstrate variability in 
+reservoir response. Piada -1ST shows hydrocarbon 
+indication, whereas Piada B -1 exhibits gas bubble 
+indication without sustained flow response. 
+Piada-1 recorded production exceeding 8 
+MMSCFD but lacks available DT sonic data for 
+residual analysis, while the Lhoksukon well 
+demonstrates hydrocarbon flow without 
+corresponding DT sonic information . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Crossplot analysis between residual DT sonic 
+and production flow rate demonstrates a strong 
+positive correlation (R ² ≈ 0.97), indicating that 
+higher ∆DT anomalies are generally associated 
+with improved reservoir deliverability, as shown in 
+Figure 11. This relationship suggests that residual 
+DT sonic may serve as an effective indicator for 
+identifying productive intervals within the Lower 
+Seurula Formation.  
+The observed relationship is consistent with 
+the unloading framework proposed by Bowers 
+(1995), where velocity anomalies may develop 
+due to fluid expansion mechanisms such as 
+hydrocarbon generation, clay diagenesis, and gas 
+charging.  Under unloading conditions, velocity 
+behavior deviates from the normal compaction 
+trend despite continued burial, producing elevated 
+DT responses associated with the reduction of 
+effective stress.  
+Nevertheless, the observed velocity anomalies 
+remain inherently non-unique because elevated ∆DT 
+responses may still be influenced by both unloading-
+related Overpressure mechanisms and hydrocarbon-
+related velocity effects. Consequently, DT sonic alone 
+remains insufficient for definitive fluid 
+discrimination, highlighting the necessity for 
+integrated interpretation with additional seismic 
+velocity indicators. 
+Figure 13. Crossplot between residual DT sonic and production flow rate showing strong positive correlation within the 
+Lower Seurula Formation of the Rayeu field.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 309 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 14. Velocity (y-axis) and water saturation (x-axis) relation in gas case (Prabaningrum et al., 2019) 
+Figure 15. Velocity (y-axis) and Water Saturation (x-axis) relation in oil case (Prabaningrum et al., 2019) 
+Residual RMS Velocity 
+Fluid replacement modeling (FRM) based on 
+Gassmann fluid substitution principles demonstrates 
+that gas saturation significantly reduces P -wave 
+velocity within reservoir intervals (Gassmann 1951; 
+Smith et al., 2003). Similar observations were also 
+reported by Prabaningrum et al. (2019), where gas -
+charged reservoirs exhibit lower seismic velocity 
+responses compared to brine -saturated conditions. 
+This behavior indicates that seismic velocity 
+reduction within the Lower Seurula Formation may 
+be closely associated with hydrocarbon -related 
+fluid effects. Residual RMS velocity (∆VRMS) 
+analysis was subsequently conducted to evaluate 
+regional seismic velocity behavior within the 
+Lower Seurula Formation and its relationship to 
+reservoir productivity. Compared to DT sonic 
+responses, RMS velocity provides broader regional 
+coverage and represents the original seismic -
+derived velocity response used throughout the 
+study area. 
+Wells exhibiting lower ∆VRMS values 
+generally correspond to stronger hydrocarbon 
+productivity. Rayeu CA shows the strongest 
+negative ∆VRMS anomaly of  -50.1 m/s and also 
+records the highest production rate of  8.11 
+MMSCFD within the study area. NLS A -1 exhibits 
+∆VRMS anomaly around -28.2 with production
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+310 I DOI org/10.29017/scog.v49i2.2108 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 16. Velocity RMS response from the Rayeu C-1A well. The left panel shows the full Velocity RMS display, while 
+the right panel presents a zoomed interval view within the Lower Seurula Formation. DST was conducted within the 
+1574 ms interval, recording flow rates of  8.11 MMSCFD with an average residual VRMS value of -50 m/s. 
+Figure 17. Velocity RMS response from the NLS A-1 well. The left panel shows the full Velocity RMS display, while the 
+right panel presents a zoomed interval view within the Lower Seurula Formation. DST was conducted within the 1202 
+ms interval, recording flow rates of 1.25 MMSCFD with an average residual VRMS value of -28.2 m/s.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 311 
+ 
+ 
+ 
+ 
+ No Well Residual DT Flow Remarks  
+ 1 Rayeu CA -50,1 8,11 Flow  
+ 2 NLS A-1 -28,2 1,26 Flow  
+ 3 LHOKSUKON-1 -12,4 2,12 Flow  
+ 4 ARUN EA-1 -20,7 1,1 Flow  
+ 5 PIADA 1ST -16,7 not available HC indication  
+ 6 PIADA B-1 -33,1 not available Bubbling gas  
+ 7 PIADA-1 No Vrms 8 Flow  
+ 
+rate 1.26 MMSCFD, while East Arun A -1 shows 
+∆VRMS anomaly around -20.7 with production rate 
+1.1 MMSCFD. Lhoksukon -1 also demonstrates a 
+relatively low ∆VRMS response of -12.4 associated 
+with a hydrocarbon flow of  2.12 MMSCFD. 
+Similar to the DT analysis, RMS velocity 
+responses were displayed using a consistent 
+interval to facilitate direct comparison between 
+wells. This approach highlights relative differences 
+in regional seismic velocity behavior and their 
+potential relationship to production performance. 
+Additional wells further demonstrate variability in 
+seismic velocity response within the Lower Seurula 
+Formation. Piada -1ST exhibits ∆VRMS anomaly 
+around -16.1 associated with a hydrocarbon 
+indication, whereas Piada B -1 shows a relatively 
+strong ∆VRMS anomaly around -33.1 despite only 
+exhibiting a bubbling gas response without sustained 
+production flow. Piada-1 recorded hydrocarbon flow 
+exceeding 8 MMSCFD but lacks available RMS 
+velocity data for residual analysis. 
+ 
+ 
+ 
+ 
+ 
+ 
+Crossplot analysis between residual RMS 
+velocity and production flow rate demonstrates a 
+strong inverse correlation (R ² ≈ 0.75), where 
+decreasing ∆VRMS values generally correspond to 
+increasing reservoir productivity. This relationship 
+indicates that stronger negative RMS velocity 
+anomalies are commonly associated with improved 
+hydrocarbon deliverability within the Lower 
+Seurula Formation. 
+As illustrated in Figure 7, interval velocity 
+derived through Dix conversion was used primarily 
+for qualitative validation of unloading -related 
+Overpressure mechanisms rather than for 
+quantitative regional interpretation. Although 
+interval velocity reversal represents an important 
+indicator of unloading behavior according to 
+Bowers (1995), the derived interval velocity 
+response is highly sensitive to noise amplification 
+and local instability. Consequently, RMS velocity 
+was retained as the primary seismic parameter 
+because it preserves the original seismic -derived 
+velocity trend and provides more stable regional 
+behavior across the study area. 
+Nevertheless, low RMS velocity responses 
+within the study area may be influenced by both 
+unloading-related Overpressure mechanisms and 
+hydrocarbon-related fluid effects. Consequently, 
+residual RMS velocity alone may not be sufficient 
+for definitive reservoir discrimination. The 
+integration of residual DT sonic and residual RMS 
+velocity, therefore, provides a more reliable 
+approach for reducing interpretation ambiguity and 
+improving fluid screening within the study area. 
+Integrated Dual-Indicator Interpretation 
+Velocity anomalies within the Lower Seurula 
+Formation are influenced by the combined effects 
+of unloading-related Overpressure and hydrocarbon
+-related fluid responses. Consequently, 
+interpretation based on a single velocity parameter 
+alone may lead to ambiguity in distinguishing 
+pressure-related anomalies from fluid -related 
+effects. Residual DT sonic primarily represents 
+localized well -scale responses associated with 
+effective stress reduction, whereas residual RMS 
+velocity reflects broader regional seismic velocity 
+behavior. The integration of both parameters, 
+therefore, provides a more reliable framework for 
+evaluating anomaly consistency between local and 
+regional responses within the study area. 
+Quadrant A represents normal compaction 
+conditions where both ∆DT and ∆VRMS remain 
+within normal trends, indicating the absence of 
+significant pressure or fluid -related anomalies. 
+Quadrant B represents pressure -dominated systems 
+characterized by elevated ∆DT responses without a 
+strong regional seismic anomaly, suggesting 
+localized unloading -related Overpressure effects. 
+Quadrant C represents localized anomalies 
+potentially associated with lithological variation or 
+fluid effects without significant regional pressure 
+influence. Meanwhile, Quadrant D represents 
+intervals characterized by both elevated ∆DT and 
+Table 2. Summary of residual RMS velocity and 
+production response within the Lower Seurula 
+Formation.
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+312 I DOI org/10.29017/scog.v49i2.2108 
+ 
+ 
+ 
+ 
+ 
+Figure 19. Velocity RMS response from the Arun EA-1 well. The left panel shows the full Velocity RMS display, while 
+the right panel presents a zoomed interval view within the Lower Seurula Formation. DST was conducted within the 
+1579 ms interval, recording flow rates of 1.1 MMSCFD with an average residual VRMS value of -20.7 m/s. 
+Figure 18. Velocity RMS response from the Lhoksukon-1 well. The left panel shows the full Velocity RMS display, while 
+the right panel presents a zoomed interval view within the Lower Seurula Formation. DST was conducted within the 
+1230 ms interval, recording flow rates of 2.12 MMSCFD with an average residual VRMS value of -12.4 m/s.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 313 
+ 
+ 
+ 
+ 
+ 
+ 
+strongly negative ∆VRMS responses, interpreted as 
+zones influenced by combined Overpressure and 
+hydrocarbon-related velocity reduction. This 
+quadrant represents the most prospective 
+hydrocarbon-bearing domain within the study area. 
+The proposed framework was subsequently applied 
+to wells with available residual DT and residual 
+RMS velocity data. 
+ 
+CONCLUSION 
+Integrated analysis of DT sonic, RMS velocity, 
+interval velocity behavior, mineralogical 
+interpretation, and Fluid Replacement Modeling 
+(FRM) indicates that Overpressure within the 
+Lower Seurula Formation is predominantly 
+controlled by unloading -related mechanisms. 
+Persistent DT sonic deviation from the normal 
+compaction trend, interval velocity reversal derived 
+from Dix conversion, and evidence of smectite –
+illite transformation consistently support unloading
+-related Overpressure generation within the study 
+area. Residual DT sonic analysis demonstrates 
+positive correlation with production performance, 
+where wells exhibiting higher ∆DT responses 
+generally correspond to better reservoir 
+deliverability. However, elevated DT anomalies do 
+not always represent productive hydrocarbon 
+accumulation, indicating that residual DT sonic 
+alone mainly serves as an indicator of potential 
+reservoir deliverability rather than a definitive 
+fluid indicator . 
+Residual RMS velocity analysis captures 
+broader regional seismic velocity behavior and 
+shows inverse correlation with production 
+performance, where stronger negative ∆VRMS 
+responses generally correspond to improved 
+hydrocarbon productivity. Nevertheless, RMS 
+velocity represents an averaged regional seismic 
+response and remains insufficient for 
+independently distinguishing pressure -related 
+effects, lithological variation, and hydrocarbon 
+influence. FRM analysis further demonstrates that 
+gas saturation significantly reduces seismic 
+velocity and may generate responses similar to 
+unloading-related Overpressure anomalies. This 
+observation confirms that velocity anomalies 
+within the Lower Seurula Formation are influenced 
+by the combined effects of Overpressure and 
+hydrocarbon-related fluid behavior, resulting in 
+interpretation ambiguity when only a single 
+velocity parameter is used. 
+The proposed dual -indicator framework 
+integrating residual DT sonic and residual RMS 
+velocity provides a more robust and physically 
+consistent interpretation approach for reducing 
+ambiguity between local and regional velocity 
+responses. Wells characterized by simultaneously 
+Figure 20. The side-by-side comparison indicates that Rayeu CA (Left) exhibits the strongest RMS deviation within the 
+tested interval, whereas NLS A-1 (Middle-Left), Lhoksukon-1 (Middle-Right), and East Arun A-1 (Right) show 
+comparatively weaker responses. These observations suggest variable velocity behavior within the Lower Seurula 
+Formation despite similar regional geological settings.
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+314 I DOI org/10.29017/scog.v49i2.2108 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 21. Crossplot between residual Velocity RMS and production flow rate showing strong inverse correlation within 
+the Lower Seurula Formation of the Rayeu field. 
+Figure 22. Proposed dual-indicator interpretation framework integrating residual DT sonic and residual RMS Velocity 
+within the Lower Seurula Formation. 
+ 
+Figure 23. Integrated crossplot of residual DT sonic and residual RMS velocity within the proposed dual-indicator inter-
+pretation framework. All three analyzed wells with available residual DT and residual RMS data are clustered within 
+Quadrant D.
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 315 
+ 
+Terms & 
+Symbol Definition Unit 
+∆DT Residual sonic 
+transit time 
+relative to the 
+established 
+DT trend 
+µs/ft 
+∆VRMS Residual RMS 
+velocity 
+relative to the 
+regional RMS 
+velocity trend  
+m/s 
+DT Compressional 
+sonic transit 
+time measured 
+from well logs 
+µs/ft 
+VRMS Root Mean 
+Square 
+seismic 
+velocity 
+derived from 
+stacking 
+velocity 
+analysis 
+m/s 
+Vint Interval 
+velocity 
+calculated 
+between 
+seismic 
+horizons 
+m/s 
+GR Gamma Ray 
+Log used for 
+lithology 
+identification 
+and shale 
+selection 
+API 
+FRM Fluid 
+Replacement  
+ 
+   
+   
+   
+   
+   
+   
+   
+ 
+elevated ∆DT and strongly negative ∆VRMS 
+responses generally correspond to better reservoir 
+productivity within the study area. 
+The proposed workflow offers a practical and 
+transferable approach for early -stage fluid 
+screening and Overpressure evaluation within 
+clastic basins, particularly in exploration settings 
+characterized by limited well control and reliance 
+on seismic-derived RMS velocity data. 
+ 
+ACKNOWLEDGEMENT 
+The authors would like to express sincere 
+gratitude to Institut Teknologi Bandung (ITB) for 
+academic support throughout this study. The 
+authors also thank PT Pema Global Energi for 
+permission, technical support, and valuable 
+discussions related to the Lower Seurula Formation 
+of the Rayeu field. Appreciation is further extended 
+to colleagues and technical teams involved in data 
+preparation, interpretation, and completion of this 
+research and paper preparation. 
+ 
+DECLARATIONS 
+Author contribution 
+P.D Permana: Conceptualization, methodology, 
+data curation, formal analysis, investigation, 
+visualization, and writing – original draft. D.E 
+Irawan: Supervision, methodology review, 
+scientific discussion, and writing – review & 
+editing. A.M. Ramdhan: Supervision, methodology 
+review, scientific discussion, and writing – review 
+& editing. 
+Funding statement 
+This research was conducted as part of the 
+author's Master's Program at Institut Teknologi 
+Bandung (ITB). No specific external funding was 
+received for this study. Data access, technical 
+support, and permission to publish were provided 
+by PT Pema Global Energi. 
+Competing interest 
+The authors declare no competing interests 
+related to this work.  
+The use of AI or AI-assisted technologies 
+The authors used ChatGPT to assist with 
+language refinement and manuscript editing. All 
+scientific interpretations, analyses, conclusions, 
+and final content were reviewed and approved by 
+the authors, who take full responsibility for the 
+content of this publication. 
+ 
+GLOSSARY OF TERMS AND SYMBOLS
+
+Scientific Contributions Oil & Gas, Vol. 49. No. 2, June 2026: 297 - 317 
+ 
+316 I DOI org/10.29017/scog.v49i2.2108 
+ Modeling 
+based on 
+Gassman fluid 
+substitution 
+theory 
+- 
+XRD X-Ray 
+Diffraction 
+analysis for 
+mineralogical 
+characterization 
+% 
+NCT Normal 
+Compaction 
+Trend 
+representing 
+expected 
+compaction 
+behavior 
+- 
+Overpressure Pore pressure 
+exceeding 
+normal 
+hydrostatic 
+pressure 
+psi 
+Loading Overpressure 
+generated by 
+rapid 
+sedimentation 
+and incomplete 
+dewatering 
+- 
+Unloading Overpressure 
+generated 
+without 
+significant 
+porosity 
+reduction, 
+commonly 
+associated with 
+diagenesis or 
+fluid expansion 
+ 
+Smectite–Illite 
+Transformation 
+Clay mineral 
+conversion 
+associated with 
+diagenesis and 
+fluid release 
+% 
+Fluid 
+Screening 
+Identification 
+of intervals 
+potentially 
+influenced by 
+hydrocarbon 
+fluids 
+- 
+ 
+REFERENCES 
+Barber, A. J., Crow, M. J., & Milsom, J. S. (2005). 
+Sumatra: Geology, resources and tectonic 
+evolution. Geological Society Memoir 31. 
+Bowers, G. L. (1995). Pore pressure estimation 
+from velocity data: Accounting for overpressure 
+mechanisms besides undercompaction. SPE 
+Drilling & Completion, 10(2), 89–95. 
+Bruce, C. H. (1984). Smectite dehydration —Its 
+relation to structural development and 
+hydrocarbon accumulation in Tertiary basins. 
+AAPG Bulletin, 68(6), 673–683. 
+Buck, S. P., & McCulloh, T. H. (1994). Bampo -
+Peutu petroleum system, North Sumatra, 
+Indonesia. AAPG Memoir 60, 625–637. 
+Burst, J. F. (1969). Diagenesis of Gulf Coast clayey 
+sediments and its possible relation to petroleum 
+migration. AAPG Bulletin, 53(1), 73–93. 
+Davies, P. R. (1984). Tertiary structural evolution 
+and related hydrocarbon occurrences, North 
+Sumatra Basin. In Proceedings of the 13th 
+Indonesian Petroleum Association Annual 
+Convention (pp. 19–49). 
+Dickinson, G. (1953). Geological aspects of 
+abnormal reservoir pressures in Gulf Coast 
+Louisiana. AAPG Bulletin, 37(2), 410–432. 
+Dix, C. H. (1955). Seismic velocities from surface 
+measurements. Geophysics, 20(1), 68–86. 
+Doust, H., & Noble, R. A. (2008). Petroleum 
+systems of Indonesia. Marine and Petroleum 
+Geology, 25(2), 103–129. 
+Eaton, B. A. (1975). The equation for geopressure 
+prediction from well logs. Paper presented at the 
+SPE Annual Fall Technical Conference and 
+Exhibition, Dallas, Texas. SPE-5544-MS. 
+Gassmann, F. (1951). Elastic waves through a 
+packing of spheres. Geophysics, 16(4), 673–
+685. 
+Hall, R. (2012) Late Jurassic –Cenozoic 
+reconstructions of South East Asia and the SW 
+Pacific. Journal of Asian Earth Sciences, 54, 32
+–56. 
+Hutchison, C. S. (2014). Tectonic evolution of 
+Southeast Asia. Bulletin of the Geological
+
+Integrating DT Sonic and RMS Velocity as Dual Indicators for Overpressure and Fluid Screening in the Lower 
+Seurula Formation of the Rayeu Field, North Sumatra Basin (Permana et al.) 
+ 
+DOI org/10.29017/scog.v49i2.2108 I 317 
+Society of Malaysia, 60, 1–18. 
+Meckel, L. D. (2012). Exploring a 19th century 
+basin in the 21st century: Seeing the North 
+Sumatra Basin with new eyes. In Proceedings 
+AAPG International Conference and Exhibition. 
+Prabaningrum, R. S., Dezulfakar, H., Linzai, N., 
+Syaifuddin, F., & Utama, W. (2019). Utilizing S
+-wave and P -wave to find the presence of 
+hydrocarbon using FRM and joint PP & PS 
+seismic inversion. In Proceedings Joint 
+Convention Semarang 2019, HAGI -IAGI-
+IAFMI-IATMI. 
+Ramdhan, A. M., & Goulty, N. R. (2011). 
+Overpressure and mudrock compaction in the 
+Lower Kutai Basin, Indonesia: A radical 
+reappraisal. Marine and Petroleum Geology, 28
+(7), 1443–1459. 
+Ryacudu, R., Djaafar, R., & Gutomo, A. (1992). 
+Wrench faulting and its implication for 
+hydrocarbon accumulation in the Kuala 
+Simpang area – North Sumatra Basin. In 
+Proceedings of the 21st Indonesian Petroleum 
+Association Annual Convention (pp. 93–116). 
+Sjahbuddin, E., & Djaafar, R. (1993). Hydrocarbon 
+source rock characteristics and the implications 
+for hydrocarbon maturation in the North 
+Sumatra Basin. In Proceedings of the 22nd 
+Indonesian Petroleum Association Annual 
+Convention (pp. 509–531). 
+Smith, T. M., Sondergeld, C. H., & Rai, C. S. 
+(2003). Gassmann fluid substitutions: A tutorial. 
+Geophysics, 68(2), 430–440. 
+Swarbrick, R. E., & Osborne, M. J. (1998). 
+Mechanisms that generate abnormal pressures: 
+An overview. In B. E. Law, G. F. Ulmishek, & 
+V. I. Slavin (Eds.), Abnormal pressures in 
+hydrocarbon environments (AAPG Memoir 70, 
+pp. 13–34). 
+Tampubolon, R. A., Ozza, T., Arifin, M. T., 
+Hidayatillah, A. S., Prasetio, A., & Furqan, T. 
+(2017). A review of regional geology of the North 
+Sumatra Basin and its Paleogene petroleum 
+system. Berita Sedimentologi, 37, 23–29. 
+Tribuana, I. Y., Mulyadi, U., Ramdhan, A. M., & 
+Rustam, A. H. (2016). Pore pressure estimation 
+in hard unloading -overpressure zone using 
+single compaction equation, case study: Lower 
+Kutai Basin. Scientific Contributions Oil and 
+Gas (SCOG) , 39(2). https://doi.org/10.29017/
+SCOG.39.2.105. 
+Utama, H. W., Wicaksono, B. A. S., & Adhitya, B. 
+(2025). Analysis of pore pressure and 
+overpressure formation mechanism using open 
+hole log data of Jambi Sub Basin, South 
+Sumatra Basin. Lembaran Publikasi Minyak 
+dan Gas Bumi (LPMGB) , 59(1). https://
+doi.org/10.29017/LPMGB.59.1.1757.
