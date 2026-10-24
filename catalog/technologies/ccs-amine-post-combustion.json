@@ -114,6 +114,32 @@
   ],
   "costs": [
     {
+      "metric": "cost of CO2 captured, new NGCC (H-class to F-class), 90% capture",
+      "low": 55.9,
+      "high": 60.7,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL; Cansolv-type amine system; excludes transport and storage; 85% capacity factor; 95% capture 55.2-59.9",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost and Performance of Retrofitting NGCC Units for Carbon Capture, Rev 3, DOE/NETL-2023/3848, 31 May 2023, Exhibit ES-4 (p. 13)"
+      }
+    },
+    {
+      "metric": "cost of CO2 captured, NGCC retrofit (H-class to F-class), 90% capture",
+      "low": 56.7,
+      "high": 61.8,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL; excludes transport and storage; 95% capture 55.9-60.8",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost and Performance of Retrofitting NGCC Units for Carbon Capture, Rev 3, DOE/NETL-2023/3848, 31 May 2023, Exhibit ES-4 (p. 13)"
+      }
+    },
+    {
       "metric": "cost of CO2 captured, cement (greenfield, 90% capture)",
       "low": 62.7,
       "high": 62.7,
@@ -246,8 +272,13 @@
     {
       "url": "https://a.fluor.com/f/1014770/x/a744f915e1/econamine-fg-plus-brochure.pdf",
       "source_id": "fluor"
+    },
+    {
+      "url": "https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf",
+      "source_id": "netl",
+      "note": "NETL, Cost and Performance of Retrofitting NGCC Units for Carbon Capture, Rev 3, DOE/NETL-2023/3848, 31 May 2023, Exhibit ES-4 (p. 13)"
     }
   ],
-  "notes": "Regeneration energy figures to be added from the NETL Cost and Performance Baseline (Rev 4a).",
+  "notes": "Regeneration energy figures to be added; the NETL Cost and Performance Baseline (Rev 4a) is hosted on OSTI, not yet collected.",
   "last_reviewed": "2026-10-24"
 }

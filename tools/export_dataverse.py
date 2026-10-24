@@ -23,8 +23,16 @@ import technologies  # noqa: E402
 SOURCE_COLUMNS = ["name", "source_id", "url", "publisher_org", "country", "source_type", "sectors", "disciplines",
                   "regions", "topics", "access", "licence", "reuse_level", "automated_access", "permitted_use",
                   "quality_tier", "update_frequency", "verification", "last_verified", "notes"]
+# A Dataverse multiline text column holds at most 1,048,576 characters.
+MAX_BODY = 1_000_000
 DOCUMENT_COLUMNS = ["title", "document_id", "source_id", "url", "published", "retrieved_at", "licence", "reuse_level",
                     "permitted_use", "sectors", "disciplines", "content_type", "use_note", "text_included", "body"]
+
+
+def _fit(body, url):
+    if len(body) <= MAX_BODY:
+        return body
+    return body[:MAX_BODY] + f"\n\n[Truncated for Dataverse; full text at {url}]"
 
 
 def labels():
@@ -68,7 +76,7 @@ def export(out, include_restricted=False):
                         "permitted_use": meta.get("permitted_use", ""), "sectors": ";".join(meta.get("sectors", [])),
                         "disciplines": ";".join(meta.get("disciplines", [])), "content_type": meta.get("content", ""),
                         "use_note": meta.get("use_note", ""), "text_included": "yes" if include else "no",
-                        "body": body if include else ""})
+                        "body": _fit(body, meta.get("url", "")) if include else ""})
 
     with (out / "taxonomy.csv").open("w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh)

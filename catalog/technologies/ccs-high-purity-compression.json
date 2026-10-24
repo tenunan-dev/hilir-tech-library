@@ -119,6 +119,19 @@
         "source_id": "netl",
         "note": "NETL, Cost of Capturing CO2 from Industrial Sources, 15 July 2022, Exhibit ES-2 (p. 2)"
       }
+    },
+    {
+      "metric": "average cost of CO2 captured, high-purity industrial streams (over 95% CO2)",
+      "low": 17.5,
+      "high": 17.5,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL average across its high-purity cases; dilute streams (under 50% CO2) average 62.0",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "source_id": "netl",
+        "note": "p. 20"
+      }
     }
   ],
   "suppliers": [

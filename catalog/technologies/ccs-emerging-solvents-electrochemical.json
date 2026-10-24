@@ -56,6 +56,11 @@
     {
       "name": "Research programmes (see NETL transformational capture programme)",
       "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf"
+    },
+    {
+      "name": "DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024",
+      "source_id": "netl",
+      "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf"
     }
   ],
   "costs": [
@@ -88,6 +93,11 @@
       "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
       "source_id": "netl",
       "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
+    },
+    {
+      "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+      "source_id": "netl",
+      "note": "NETL Compendium of Carbon Capture Technology 2024: about 145 DOE-funded R&D project sheets with diagrams and per-project capture costs"
     }
   ],
   "last_reviewed": "2026-10-24"
