@@ -127,6 +127,9 @@ def main():
     with (ROOT / "catalog" / "technologies.jsonl").open("w", encoding="utf-8") as fh:
         for card in cards:
             fh.write(json.dumps(card, ensure_ascii=False) + "\n")
+    labels = {code: info["name"] for code, info in {**taxonomy["sectors"], **taxonomy["disciplines"]}.items()}
+    register = technologies.load_register(cards=cards)
+    (INDEX / "technology-register.md").write_text(technologies.register_page(register, labels), encoding="utf-8")
     for sector in sorted({c["sector"] for c in cards}):
         (INDEX / f"technologies-{sector}.md").write_text(technologies.markdown_page(cards, sector), encoding="utf-8")
     print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards; indexes written")

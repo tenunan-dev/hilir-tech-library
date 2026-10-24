@@ -44,6 +44,7 @@ Tools:
 | `get_document(path)` | Read a document in full, using the `path` from a search result |
 | `list_by_tag(code, region, reuse_level, source_type)` | Browse, e.g. all `ROT` sources in `sea` |
 | `compare_technologies(sector, maturity, application)` | Compare technology options (e.g. all CCS routes for cement), commercial first |
+| `list_technology_register(code, maturity, query)` | The register of about 300 technologies across all sectors (indicative); entries with a card link to `get_technology` |
 | `get_technology(technology_id)` | One technology card: principle, process steps and equipment, a Mermaid block flow diagram, costs with basis, suppliers, reference plants, sources |
 | `library_stats()` | Check what is indexed and whether semantic search is on |
 

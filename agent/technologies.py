@@ -102,3 +102,42 @@ def markdown_page(cards, sector):
             lines += ["", f"TRL source: [{c['trl']['source'].get('note', 'source')}]({c['trl']['source']['url']})"]
         lines += ["", "Sources: " + ", ".join(f"[{i + 1}]({s['url']})" for i, s in enumerate(c["sources"])) + f". Last reviewed {c['last_reviewed']}."]
     return "\n".join(lines) + "\n"
+
+
+REGISTER = ROOT / "catalog" / "technology-register.yaml"
+MATURITY_CODES = {"C": "commercial", "D": "demonstration", "P": "pilot", "L": "lab"}
+
+
+def load_register(path=None, cards=None):
+    """Register entries as dicts: code, area, name, maturity, examples, card (id or None)."""
+    import yaml
+    data = yaml.safe_load(pathlib.Path(path or REGISTER).read_text(encoding="utf-8"))
+    by_name = {}
+    for c in cards if cards is not None else load_cards():
+        for n in [c["name"]] + c.get("aliases", []):
+            by_name[n.lower()] = c["id"]
+    entries = []
+    for code, areas in data.items():
+        for area, items in areas.items():
+            for item in items:
+                name, maturity, examples = (part.strip() for part in item.split("|"))
+                entries.append({"code": code, "area": area, "name": name, "maturity": MATURITY_CODES[maturity],
+                                "examples": examples, "card": by_name.get(name.lower())})
+    return entries
+
+
+def register_page(entries, labels):
+    total = len(entries)
+    with_card = sum(1 for e in entries if e["card"])
+    lines = ["# Technology register", "",
+             f"{total} technologies across oil, gas, petrochemicals and new energy; {with_card} have a technology card so far.",
+             "Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.",
+             "Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.", ""]
+    for code in dict.fromkeys(e["code"] for e in entries):
+        rows = [e for e in entries if e["code"] == code]
+        lines += [f"## {code}: {labels.get(code, code)}", "", "| Area | Technology | Maturity | Examples | Card |", "| --- | --- | --- | --- | --- |"]
+        for e in rows:
+            card = f"[card](technologies-{e['card'].split('-')[0].upper()}.md#{e['card']})" if e["card"] else ""
+            lines.append(f"| {e['area']} | {e['name']} | {e['maturity']} | {e['examples']} | {card} |")
+        lines.append("")
+    return "\n".join(lines)

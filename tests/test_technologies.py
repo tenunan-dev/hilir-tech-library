@@ -58,3 +58,16 @@ def test_library_tools_return_cards(tmp_path):
     assert library.search("calcium looping", kind="technology", sector="H2", db=db) == []
     top = library.search("CCS options cement block diagram equipment cost", db=db, limit=5)
     assert any(h["kind"] == "technology" for h in top)
+
+
+def test_register_parses_and_links_every_card():
+    entries = technologies.load_register()
+    assert len(entries) > 200
+    assert {e["card"] for e in entries if e["card"]} == {c["id"] for c in CARDS}, "every card should appear in the register"
+    names = [(e["code"], e["name"].lower()) for e in entries]
+    assert len(names) == len(set(names)), "duplicate register entries"
+
+
+def test_list_register_filters():
+    rows = library.list_register(code="GAS", query="liquefaction")
+    assert rows and all(r["code"] == "GAS" for r in rows)

@@ -100,6 +100,11 @@ def export(out, include_restricted=False):
                         "; ".join(sm["suppliers"]), "; ".join(sm["costs"]),
                         "; ".join(f"{p['name']}: {p.get('capacity', '')}" for p in card.get("reference_plants", [])),
                         technologies.mermaid(card), " ".join(s["url"] for s in card["sources"]), card["last_reviewed"]])
+    with (out / "technology_register.csv").open("w", newline="", encoding="utf-8-sig") as fh:
+        w = csv.DictWriter(fh, ["name", "code", "area", "maturity", "examples", "card"])
+        w.writeheader()
+        for e in technologies.load_register(cards=cards):
+            w.writerow({**e, "card": e["card"] or ""})
     return {"technologies": len(cards), "sources": len(records), "documents_with_text": with_text, "documents_without_text": without_text}
 
 

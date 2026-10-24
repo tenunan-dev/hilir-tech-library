@@ -290,6 +290,14 @@ def get_technology(tech_id, db=None):
     return card
 
 
+def list_register(code=None, maturity=None, query=None):
+    """Technology register entries (indicative, unverified), optionally filtered."""
+    q = (query or "").lower()
+    return [e for e in technologies.load_register()
+            if (not code or e["code"] == code) and (not maturity or e["maturity"] == maturity)
+            and (not q or q in f"{e['name']} {e['area']} {e['examples']}".lower())]
+
+
 def compare_technologies(sector=None, maturity=None, application=None, db=None):
     db = db or connect()
     cards = [json.loads(r[0]) for r in db.execute("SELECT card FROM technologies")]

@@ -84,6 +84,7 @@ Write a generator in `collectors/adapters.py` that yields `(title, url, body_mar
 
 ## 3b. Add or update a technology card
 
+0. Pick the next technology from `catalog/technology-register.yaml`; keep the card's `name` identical to the register entry so they link.
 1. Copy an existing card in `catalog/technologies/` (for example `ccs-calcium-looping.json`) to `<sector>-<short-name>.json`.
 2. Write the principle, steps and limitations in your own words. Do not paste text from sources.
 3. Every number (TRL, cost, energy, capacity) needs a `source` with the URL you read it from and, for costs, the dollar `year` and a `basis` (plant type, capture rate, scope). If the source does not state the dollar year, say so in `basis`. Never estimate or convert figures without saying how.

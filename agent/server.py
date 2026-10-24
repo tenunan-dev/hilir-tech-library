@@ -102,6 +102,14 @@ def compare_technologies(sector: str | None = None, maturity: str | None = None,
 
 
 @server.tool()
+def list_technology_register(code: str | None = None, maturity: str | None = None, query: str | None = None) -> list[dict]:
+    """The full register of about 300 technologies across all sectors (code: UPS, MID, GAS, REF, PCH, PWR, H2,
+    CCS, or a discipline code for cross-cutting equipment). Maturity and examples are indicative and unverified;
+    entries with a "card" id have a verified technology card (use get_technology)."""
+    return library.list_register(code, maturity, query)
+
+
+@server.tool()
 def library_stats() -> dict:
     """Counts of sources, documents, chunks and vectors in the index."""
     return library.stats(db())

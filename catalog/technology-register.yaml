@@ -1,0 +1,363 @@
+# Technology register: every technology option the library aims to cover, by sector and area.
+# Drafted 2026-10-24 from general industry knowledge, NOT yet verified against sources.
+# Format per entry: "Name | maturity | example licensors, vendors or projects"
+# maturity: C commercial, D demonstration, P pilot, L lab or early research (indicative only).
+# Cross-cutting equipment and methods are listed under discipline codes (PRC, ROT, INS, MAT, HSE, DIG).
+# Entries with a technology card are linked by tools/build.py when a card's name or alias matches.
+UPS:
+  Exploration and subsurface:
+    - 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) | C | PGS, TGS, Shearwater, Sercel
+    - Full-waveform inversion and seismic imaging | C | SLB, Halliburton Landmark, CGG (Viridien)
+    - Basin and petroleum systems modelling | C | SLB PetroMod
+    - Reservoir simulation (black oil, compositional, thermal) | C | SLB ECLIPSE/INTERSECT, CMG, tNavigator
+    - AI-assisted seismic interpretation and history matching | C | SLB Delfi, Halliburton, Cognite
+    - Digital core and special core analysis | C | Thermo Fisher, Core Lab
+  Drilling and completions:
+    - Rotary steerable systems | C | SLB, Halliburton, Baker Hughes, Weatherford
+    - Managed pressure drilling | C | Weatherford, Halliburton, NOV
+    - Measurement and logging while drilling (MWD/LWD) | C | SLB, Halliburton, Baker Hughes
+    - Drilling automation and autonomous rigs | D | Nabors, NOV, H&P, SLB
+    - Extended-reach and multilateral wells | C | Major drilling contractors
+    - Hydraulic fracturing (plug-and-perf, electric frac fleets) | C | Halliburton, Liberty, SLB
+    - Intelligent completions and inflow control devices | C | Baker Hughes, SLB, Halliburton, Tendeka
+    - Sand control (gravel pack, frac pack, screens) | C | Halliburton, Baker Hughes, SLB
+    - Coiled tubing and well intervention | C | NOV, Halliburton, Baker Hughes
+    - Casing drilling and expandable tubulars | C | Weatherford, Enventure
+    - Well plug and abandonment technologies (thermite, bismuth plugs) | D | Interwell, BiSN
+  Production and artificial lift:
+    - Electric submersible pumps | C | SLB, Baker Hughes, Borets, Novomet
+    - Gas lift | C | SLB, Weatherford, Baker Hughes
+    - Rod lift and progressing cavity pumps | C | Weatherford, Dover, NOV
+    - Plunger lift and hydraulic jet pumps | C | Weatherford, Liberty Lift
+    - Downhole gas and water separation | D | Operators and service companies
+    - Multiphase flow metering | C | SLB Vx, Emerson Roxar, TechnipFMC
+    - Production optimisation and digital oilfield | C | SLB, Halliburton, AspenTech, Cognite
+  Improved and enhanced oil recovery:
+    - Waterflooding and low-salinity water injection | C | BP LoSal
+    - Gas injection and WAG (hydrocarbon, CO2, nitrogen) | C | Operators
+    - CO2-EOR | C | Occidental, Denbury (ExxonMobil)
+    - Chemical EOR (polymer, surfactant, ASP) | C | SNF, Shell, PETRONAS
+    - Thermal EOR (steam flood, SAGD, CSS) | C | Suncor, Cenovus, Chevron
+    - In-situ combustion and solvent-assisted SAGD | P | Operators
+    - Microbial EOR | P | Research
+    - Nanofluid EOR | L | Research
+  Offshore and subsea:
+    - Fixed jackets and gravity-based structures | C | McDermott, Saipem, MMHE
+    - FPSO and floating production (TLP, spar, semi-submersible) | C | SBM Offshore, MODEC, BW Offshore, MISC
+    - Subsea production systems (trees, manifolds, umbilicals) | C | TechnipFMC, OneSubsea (SLB), Baker Hughes
+    - Subsea boosting and multiphase pumps | C | OneSubsea, Sulzer, Baker Hughes
+    - Subsea separation and water reinjection | D | Equinor Tordis, Petrobras Marlim
+    - Subsea gas compression | C | Equinor Asgard and Gullfaks
+    - All-electric subsea systems | D | TechnipFMC, OneSubsea
+    - Long subsea tiebacks with direct electrical heating | C | Equinor, TechnipFMC
+    - Offshore platform electrification (power from shore, offshore wind) | C | Equinor Hywind Tampen, Johan Sverdrup
+    - Unmanned and normally unattended installations | C | Operators
+  Unconventional and other resources:
+    - Shale oil and gas multi-stage horizontal development | C | Operators
+    - Coal bed methane | C | Operators
+    - Oil sands mining and froth treatment | C | Suncor, Syncrude
+    - Heavy oil upgrading (in-field) | D | Operators
+    - Gas hydrate production | P | JOGMEC, CNPC trials
+    - Oil shale retorting | D | Enefit, Petrobras
+  Water and emissions in upstream:
+    - Produced water treatment (hydrocyclones, flotation, membranes) | C | Veolia, Siemens, Schlumberger
+    - Methane leak detection (OGI cameras, satellites, continuous sensors) | C | FLIR, GHGSat, Kayrros, Project Canary
+    - Zero routine flaring (flare gas recovery and small-scale GTL) | C | Zeeco, John Zink, GasTechno
+    - Vapour recovery units | C | Hy-Bon (Cimarron)
+    - Seawater sulfate removal for injection water | C | Veolia, Toray membranes
+    - Electric instead of gas-pneumatic controllers | C | Various
+MID:
+  Pipelines:
+    - High-strength steel pipelines and automatic welding | C | Pipeline contractors, Tenaris, Nippon Steel
+    - Composite and reinforced thermoplastic pipe | C | Baker Hughes, Strohm, NOV
+    - Pipeline inline inspection (MFL, ultrasonic, EMAT pigs) | C | ROSEN, Baker Hughes, T.D. Williamson
+    - Leak detection (CPM, fibre optic DAS and DTS) | C | Atmos, Silixa, Emerson
+    - Cathodic protection and coatings (FBE, 3LPE) | C | Corrpro, Seal for Life
+    - Drag reducing agents | C | LiquidPower Specialty Products, Baker Hughes
+    - Hydrogen blending and repurposing of gas pipelines | D | Gasunie, SoCalGas, PETRONAS Gas
+    - CO2 pipelines (dense phase) | C | Denbury, Northern Lights
+  Flow assurance:
+    - Hydrate, wax and asphaltene management (inhibitors, heating, pigging) | C | ChampionX, Baker Hughes, Clariant
+    - Flow assurance simulation | C | SLB OLGA, KBC (Yokogawa)
+    - Heated and pipe-in-pipe flowlines | C | TechnipFMC, Subsea7
+  Storage and terminals:
+    - Crude and product tank farms and floating roofs | C | Terminal operators
+    - Underground gas storage (salt caverns, depleted fields) | C | Uniper, PETRONAS
+    - Strategic petroleum reserves (salt caverns, rock caverns) | C | Governments
+    - Hydrogen storage in salt caverns | D | HyStock, ACES Delta
+  Metering:
+    - Custody transfer metering (ultrasonic, Coriolis) | C | Emerson, Endress+Hauser, SICK
+  Shipping:
+    - Crude and product tankers with scrubbers or LNG fuel | C | Shipyards (Samsung, Hanwha Ocean, HD Hyundai)
+    - LNG carriers (membrane and Moss tanks, reliquefaction) | C | GTT, Samsung, Hanwha Ocean, MISC
+    - LPG and ammonia carriers | C | HD Hyundai, MISC
+    - Liquid CO2 carriers | D | Northern Lights, Mitsubishi Shipbuilding
+    - Liquid hydrogen carriers | D | Kawasaki Heavy Industries Suiso Frontier
+GAS:
+  Gas treating:
+    - Amine acid gas removal (MDEA, formulated amines) | C | Shell ADIP, BASF OASE, Dow UCARSOL
+    - Physical solvent gas treating (Selexol, Rectisol, Purisol) | C | Honeywell UOP, Linde, Air Liquide
+    - Membrane CO2 removal for high-CO2 gas | C | Honeywell UOP Separex, SLB Cynara, Air Liquide
+    - Hot potassium carbonate (Benfield) | C | Honeywell UOP
+    - Molecular sieve and glycol dehydration | C | Honeywell UOP, BASF, Axens
+    - Mercury removal units | C | Johnson Matthey (Honeywell), Axens, Clariant
+    - Sulfur recovery (Claus, tail gas treating, SuperClaus) | C | Shell, Worley Comprimo, Jacobs, KT Tecnimont
+    - Liquid redox sulfur recovery (LO-CAT) | C | Merichem
+    - High-CO2 gas field development with reinjection | D | PETRONAS Kasawari, ExxonMobil Natuna (studies)
+  NGL recovery and fractionation:
+    - Turbo-expander NGL recovery (GSP, RSV processes) | C | Ortloff, Linde, Honeywell UOP
+    - NGL fractionation and LPG recovery | C | EPC contractors
+    - Nitrogen rejection units | C | Linde, Air Products
+    - Helium recovery | C | Linde, Air Products
+  LNG:
+    - Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X) | C | Air Products
+    - Cascade liquefaction | C | ConocoPhillips Optimized Cascade
+    - Dual mixed refrigerant liquefaction | C | Shell DMR
+    - Mixed fluid cascade | C | Linde MFC
+    - Electric-drive liquefaction (e-LNG) | C | Equinor Hammerfest, Freeport LNG
+    - Small and mid-scale modular LNG | C | Chart Industries, Baker Hughes, Black & Veatch PRICO
+    - Floating LNG (FLNG) | C | PETRONAS PFLNG, Shell Prelude, Golar Hilli
+    - Floating storage and regasification units (FSRU) | C | Excelerate, Höegh, Golar
+    - LNG regasification (open rack, submerged combustion, ambient air vaporisers) | C | Sumitomo Precision, Kobe Steel
+    - Boil-off gas management and reliquefaction | C | Wärtsilä, Burckhardt Compression
+    - LNG bunkering | C | Shell, TotalEnergies, PETRONAS
+    - Bio-LNG and liquefied biomethane | C | Shell, Titan
+    - Carbon capture on LNG plants (acid gas reinjection) | C | Chevron Gorgon, ExxonMobil
+  Gas conversion:
+    - Gas-to-liquids (Fischer-Tropsch) | C | Shell SMDS, Sasol
+    - Gas-to-methanol and methanol-to-gasoline | C | Topsoe, Johnson Matthey (Honeywell), ExxonMobil MTG
+    - Compressed natural gas and LNG as vehicle fuel | C | Various
+REF:
+  Distillation and treating:
+    - Crude and vacuum distillation with heat integration | C | EPC contractors
+    - Desalting (electrostatic) | C | Cameron (SLB)
+    - Hydrotreating (naphtha, diesel, VGO) | C | Topsoe, Axens, Honeywell UOP, Shell, Chevron Lummus Global
+    - Ultra-low sulfur diesel and fuels | C | Topsoe, Axens, Honeywell UOP
+    - FCC gasoline post-treating (Prime-G+, SCANfining) | C | Axens, ExxonMobil
+    - Mercaptan sweetening (Merox) | C | Honeywell UOP, Merichem
+  Conversion:
+    - Fluid catalytic cracking and resid FCC | C | Honeywell UOP, KBR, Axens/Technip, Lummus, Shell
+    - Hydrocracking (fixed bed) | C | Chevron Lummus Global, Honeywell UOP, Shell, Topsoe, Axens
+    - Resid hydrocracking (ebullated and slurry bed) | C | Axens H-Oil, CLG LC-FINING, Eni EST, KBR VCC
+    - Delayed coking and fluid coking | C | Lummus, Bechtel/Foster Wheeler (Amec), ExxonMobil Flexicoking
+    - Visbreaking and solvent deasphalting | C | Shell, KBR ROSE, Axens
+    - Catalytic reforming (CCR, semi-regenerative) | C | Honeywell UOP, Axens
+    - Isomerisation (C5/C6) | C | Honeywell UOP, Axens, GTC
+    - Alkylation (HF, sulfuric, ionic liquid, solid acid) | C | Honeywell UOP, DuPont STRATCO, Chevron ISOALKY, KBR K-SAAT
+    - Etherification (MTBE, ETBE, TAME) | C | Lummus, Axens
+    - Hydrogen production for refining (SMR with PSA) | C | Topsoe, Air Liquide, Technip Energies, Linde
+    - Sour water stripping and amine regeneration | C | EPC contractors
+  Crude-to-chemicals and integration:
+    - Crude-to-chemicals complexes | C | Saudi Aramco/SABIC, Hengli, Rongsheng, PETRONAS Pengerang
+    - Direct crude cracking | D | ExxonMobil Singapore, Saudi Aramco TC2C
+    - Refinery-petrochemical integration (FCC propylene, HS-FCC) | C | Honeywell UOP, Axens, KBR
+  Low-carbon refining:
+    - Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA) | C | Neste NEXBTL, Honeywell UOP Ecofining, Topsoe HydroFlex, Axens Vegan
+    - Co-processing of bio-feeds in FCC and hydrotreaters | C | Refiners
+    - Refinery electrification and heat pumps | D | Various
+    - Refinery flue gas and FCC carbon capture | D | ExxonMobil, Shell Pernis
+    - Green hydrogen in refineries | D | Shell Rheinland, BP Lingen
+  Utilities and environment:
+    - Wastewater treatment (API separators, DAF, biological, MBR) | C | Veolia, Suez
+    - Flare gas recovery and smokeless flares | C | Zeeco, John Zink
+    - Advanced process control and real-time optimisation | C | AspenTech, Honeywell, Yokogawa, Emerson
+    - Process simulation and digital twins | C | AspenTech, AVEVA, KBC Petro-SIM
+PCH:
+  Olefins:
+    - Steam cracking (naphtha, ethane, LPG) | C | Lummus, Technip Energies, Linde, KBR
+    - Electric steam cracking | D | BASF/SABIC/Linde Ludwigshafen, Shell/Dow
+    - Propane dehydrogenation (Oleflex, CATOFIN) | C | Honeywell UOP, Lummus CATOFIN
+    - Methanol-to-olefins (MTO, DMTO) | C | Honeywell UOP, DICP/SYN Energy
+    - Metathesis (OCT) | C | Lummus
+    - Oxidative coupling of methane | P | Lummus/Siluria
+  Aromatics:
+    - Aromatics complexes (paraxylene, benzene) | C | Honeywell UOP, Axens
+    - Paraxylene adsorption and crystallisation | C | Honeywell UOP Parex, Axens Eluxyl
+    - Toluene disproportionation and transalkylation | C | Honeywell UOP, ExxonMobil
+  Polymers:
+    - Polyethylene (gas phase, slurry, solution) | C | Univation UNIPOL, LyondellBasell, Ineos, Chevron Phillips, Borealis Borstar
+    - Polypropylene (gas phase, bulk) | C | Grace UNIPOL PP, LyondellBasell Spheripol, Ineos Innovene
+    - PET and polyester | C | Sulzer, Uhde Inventa-Fischer
+    - PVC (suspension) and chlor-alkali | C | Ineos, Thyssenkrupp nucera
+    - Engineering plastics (polycarbonate, nylon) | C | SABIC, Covestro
+  Intermediates and specialty:
+    - Methanol (low-pressure synthesis) | C | Johnson Matthey (Honeywell), Topsoe, Air Liquide Lurgi
+    - Ammonia and urea | C | Topsoe, KBR, Thyssenkrupp Uhde, Casale, Stamicarbon
+    - Ethylene oxide and glycols | C | Shell OMEGA, Dow METEOR, Scientific Design
+    - Acetic acid (methanol carbonylation) | C | BP Cativa, Celanese
+    - Propylene oxide (HPPO, PO/SM) | C | Evonik/Thyssenkrupp, Dow/BASF, LyondellBasell
+    - Phenol and acetone (cumene) | C | KBR, Lummus/Badger
+    - Butadiene extraction and on-purpose butadiene | C | BASF, Lummus
+    - Linear alpha olefins | C | Sabic/Linde alpha-SABLIN, Axens AlphaButol
+  Circular and low-carbon chemicals:
+    - Plastics pyrolysis (chemical recycling) | D | Plastic Energy, Agilyx, Mura, BASF ChemCycling
+    - Depolymerisation of PET (glycolysis, enzymatic) | D | Carbios, Loop Industries
+    - Solvent-based purification of plastics | D | PureCycle, Fraunhofer CreaSolv
+    - Bio-based chemicals (bio-ethylene, bio-PE, PLA) | C | Braskem, NatureWorks, TotalEnergies Corbion
+    - Mechanical recycling of plastics | C | Various
+    - PHA bioplastics | D | Danimer Scientific, CJ
+    - CO2-to-chemicals (methanol, polycarbonate polyols) | D | Carbon Recycling International, Covestro
+    - Electrification of process heat (e-boilers, heat pumps) | D | Various
+PWR:
+  Gas-fired power:
+    - Heavy-duty gas turbines (H and J class) | C | GE Vernova, Siemens Energy, Mitsubishi Power
+    - Aeroderivative and industrial gas turbines | C | GE Vernova, Siemens Energy, Solar Turbines, Baker Hughes
+    - Combined cycle and HRSG | C | GE Vernova, Siemens Energy, Mitsubishi Power
+    - Cogeneration and combined heat and power | C | Various
+    - Gas engines | C | Wärtsilä, Jenbacher (INNIO), MAN Energy Solutions (Everllence)
+    - Hydrogen-capable and ammonia-fired gas turbines | D | Mitsubishi Power, GE Vernova, IHI
+    - Ammonia co-firing in coal boilers | D | JERA Hekinan, IHI
+  Renewables:
+    - Crystalline silicon PV (PERC, TOPCon, HJT) | C | LONGi, Jinko, Trina, JA Solar
+    - Perovskite and tandem solar cells | P | Oxford PV, LONGi research
+    - Floating solar | C | Sungrow, Ciel & Terre
+    - Onshore wind | C | Vestas, Siemens Gamesa, Goldwind, Envision
+    - Offshore wind (fixed bottom) | C | Ørsted, Siemens Gamesa, Vestas
+    - Floating offshore wind | D | Equinor Hywind, Principle Power WindFloat
+    - Geothermal (flash and binary cycle) | C | Ormat, Toshiba, Fuji Electric
+    - Enhanced geothermal systems | D | Fervo Energy, Eavor
+    - Concentrated solar power with storage | C | Abengoa, SolarReserve, Cosin
+    - Biomass and waste-to-energy | C | Hitachi Zosen Inova, Babcock & Wilcox
+    - Hydropower | C | Andritz, Voith, GE Vernova
+    - Tidal and wave energy | P | SIMEC Atlantis, Orbital Marine
+  Storage and grid:
+    - Lithium-ion battery energy storage | C | CATL, BYD, Tesla, Fluence
+    - Sodium-ion batteries | D | CATL, HiNa
+    - Flow batteries (vanadium, zinc-bromine) | C | Rongke Power, Invinity
+    - Pumped hydro storage | C | Various
+    - Gravity energy storage | D | Energy Vault
+    - Compressed and liquid air energy storage | D | Hydrostor, Highview Power
+    - Thermal energy storage (molten salt, sand, bricks) | D | Rondo, Kraftblock, Polar Night Energy
+    - HVDC transmission and interconnectors | C | Hitachi Energy, Siemens Energy, GE Vernova
+    - Grid-forming inverters and synchronous condensers | C | SMA, Siemens Energy
+    - Smart grids, microgrids and virtual power plants | C | Schneider Electric, Siemens, AutoGrid
+  Nuclear:
+    - Large light-water reactors | C | Westinghouse, EDF, KHNP, CGN
+    - Small modular reactors | D | NuScale, GE Hitachi BWRX-300, Rolls-Royce SMR
+    - Advanced reactors (high-temperature gas, molten salt) | P | X-energy, Kairos Power, TerraPower
+    - Fusion | L | ITER, Commonwealth Fusion Systems, Tokamak Energy
+H2:
+  Hydrogen production:
+    - Steam methane reforming | C | Topsoe, Air Liquide, Technip Energies, Linde
+    - Autothermal reforming with CO2 capture (blue hydrogen) | C | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products
+    - Gas-heated reforming | C | Johnson Matthey (Honeywell)
+    - Biogas reforming to hydrogen | C | Various
+    - Partial oxidation and gasification | C | Air Products (Shell gasification), Air Liquide
+    - Alkaline water electrolysis | C | Thyssenkrupp nucera, John Cockerill, LONGi Hydrogen, PERIC
+    - PEM electrolysis | C | Siemens Energy, ITM Power, Plug Power, Cummins (Accelera)
+    - Solid oxide electrolysis | D | Topsoe, Bloom Energy, Sunfire
+    - AEM electrolysis | P | Enapter
+    - Methane pyrolysis (turquoise hydrogen) | D | Monolith, BASF, Hazer
+    - Biomass gasification to hydrogen | P | Various
+    - Photocatalytic and thermochemical water splitting | L | Research
+    - Co-electrolysis of CO2 and water | L | Topsoe, Sunfire research
+    - Natural (geologic) hydrogen | P | Koloma, Gold Hydrogen
+  Hydrogen carriers and logistics:
+    - Compressed hydrogen storage and tube trailers | C | Hexagon Purus, Linde
+    - Liquid hydrogen | C | Linde, Air Products, Kawasaki Heavy Industries
+    - Ammonia as hydrogen carrier and ammonia cracking | D | Topsoe, KBR, Johnson Matthey (Honeywell), Air Products
+    - Liquid organic hydrogen carriers (MCH, DBT) | D | Chiyoda SPERA, Hydrogenious
+    - Hydrogen compressors (diaphragm, ionic, reciprocating) | C | Burckhardt, PDC Machines, Linde, Hydro-Pac
+    - Hydrogen refuelling stations | C | Nel, Linde, Air Liquide
+  Hydrogen use:
+    - Fuel cells (PEM, SOFC) | C | Ballard, Toyota, Bloom Energy
+    - Hydrogen direct reduction of iron | D | HYBRIT, H2 Green Steel (Stegra), Midrex
+    - Hydrogen for refinery and ammonia feedstock | C | Industry
+    - Ammonia as marine fuel | D | MAN (Everllence), Wärtsilä, WinGD
+  Low-carbon fuels:
+    - Green and blue ammonia | D | Topsoe, KBR, Thyssenkrupp Uhde, Casale
+    - E-methanol and bio-methanol | D | European Energy, Topsoe, Johnson Matthey (Honeywell)
+    - Alcohol-to-jet SAF | D | LanzaJet, Honeywell UOP, Gevo
+    - Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) | D | Velocys, Fulcrum, Norsk e-Fuel, Infinium
+    - Pyrolysis oil and hydrothermal liquefaction | P | Licella, Steeper Energy, Ensyn
+    - First-generation biofuels (ethanol, FAME biodiesel) | C | Raízen, POET, Neste
+    - Cellulosic ethanol | D | Clariant sunliquid, Raízen
+    - Biogas upgrading to biomethane | C | Air Liquide, Bright Biomethane, Pentair
+    - E-methane (synthetic natural gas) | D | Tokyo Gas, Osaka Gas, Hitachi Zosen
+    - Reverse water-gas shift for e-fuels | D | Topsoe, Johnson Matthey (Honeywell)
+    - Algal fuels | L | Research
+CCS:
+  Capture:
+    - Amine solvent post-combustion capture | C | MHI, Shell CANSOLV, SLB Capturi, Fluor
+    - Capture from high-purity CO2 streams (compression and dehydration only) | C | Compressor vendors
+    - Chemical solvent capture from syngas (hydrogen plants) | C | Shell ADIP ULTRA, BASF OASE
+    - Physical solvent acid gas removal (pre-combustion) | C | Rectisol, Selexol licensors
+    - Solid sorbent capture by rapid temperature swing | D | Svante
+    - Polymeric membrane capture | P | MTR, Air Liquide
+    - Cryogenic carbon capture (desublimation) | P | Sustainable Energy Solutions (Chart)
+    - Calcium looping | P | CSIC-INCAR, Calix LEILAC (indirect calcination)
+    - Oxyfuel combustion in cement kilns | D | ECRA, Heidelberg Materials
+    - Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power) | D | NET Power
+    - Chemical looping combustion | L | Research
+    - Molten carbonate fuel cell capture | D | FuelCell Energy with ExxonMobil
+    - "Emerging capture: water-lean solvents, ionic liquids and electrochemical separation | L | Research"
+    - Hot potassium carbonate capture (Benfield) | C | Honeywell UOP
+    - Enzyme-catalysed capture | P | Saipem (CO2 Solutions)
+  Carbon removal:
+    - Direct air capture with liquid solvent (KOH and calcium loop) | D | Carbon Engineering / 1PointFive
+    - Direct air capture with solid sorbent | D | Climeworks, Heirloom
+    - Electro-swing and moisture-swing DAC | L | Verdox, research
+    - Bioenergy with CCS (BECCS) | D | Drax, ADM Decatur, Stockholm Exergi
+    - Enhanced rock weathering and ocean alkalinity enhancement | P | UNDO, Planetary
+    - Biochar | C | Various
+  Transport and storage:
+    - CO2 compression and dehydration | C | Atlas Copco, Siemens Energy, MAN (Everllence), Baker Hughes
+    - CO2 shipping and terminals | D | Northern Lights
+    - Geological storage in saline aquifers | C | Equinor Sleipner, Northern Lights
+    - Storage in depleted oil and gas fields | D | Porthos, PETRONAS Kasawari
+    - CO2 mineralisation (in-situ basalt) | D | Carbfix
+    - Ex-situ mineral carbonation | D | Various
+    - Well integrity and CO2-resistant cements | C | SLB, Halliburton
+    - Measurement, monitoring and verification (4D seismic, DAS, satellite InSAR) | C | SLB, Halliburton, TGS
+  Utilisation:
+    - CO2 to concrete and aggregates | C | CarbonCure, Blue Planet
+    - CO2 to methanol and fuels | D | Carbon Recycling International
+    - CO2 to urea and polymers | C | Fertiliser producers, Covestro
+    - CO2 electroreduction to CO, formic acid and ethylene | L | Twelve, research
+PRC:
+  Process design and simulation:
+    - Steady-state and dynamic process simulation | C | AspenTech, AVEVA, KBC, Honeywell UniSim
+    - Pinch analysis and heat integration | C | Various
+    - Process intensification (rotating packed beds, dividing-wall columns, microreactors) | D | Sulzer, Corning
+ROT:
+  Rotating equipment:
+    - Centrifugal and axial compressors | C | Baker Hughes, Siemens Energy, Elliott, MAN (Everllence), Mitsubishi
+    - Reciprocating and screw compressors | C | Ariel, Burckhardt, Atlas Copco, Howden
+    - Centrifugal and positive displacement pumps | C | Sulzer, Flowserve, KSB, Ebara
+    - Steam turbines and expanders | C | Siemens Energy, GE Vernova, Elliott
+    - Mechanical seals, magnetic bearings and integrated motor-compressors | C | John Crane, Flowserve, SKF
+  Static equipment:
+    - Shell-and-tube, plate and printed-circuit heat exchangers | C | Alfa Laval, Kelvion, Heatric
+    - Air coolers and cooling towers | C | Harsco, SPX
+    - Fired heaters and low-NOx burners | C | John Zink, Zeeco
+    - Columns, trays and structured packing | C | Sulzer, Koch-Glitsch
+    - Pressure vessels, reactors and cryogenic tanks | C | Fabricators
+    - Valves and actuators | C | Emerson, Flowserve, SLB Cameron
+INS:
+  Instrumentation and control:
+    - Distributed control systems and SCADA | C | Honeywell, Emerson, Yokogawa, ABB, Siemens
+    - Safety instrumented systems | C | Honeywell, Emerson, Yokogawa, HIMA
+    - Process analysers (gas chromatographs, laser spectroscopy) | C | ABB, Yokogawa, Siemens
+    - Advanced process control and model predictive control | C | AspenTech, Honeywell, Yokogawa
+    - OT cybersecurity | C | Claroty, Nozomi, Dragos
+MAT:
+  Materials and integrity:
+    - Corrosion-resistant alloys and clad pipe | C | Outokumpu, Butting
+    - Coatings and linings | C | Jotun, AkzoNobel, Hempel
+    - Non-destructive testing (UT, PAUT, radiography, eddy current) | C | Waygate (Baker Hughes), Olympus (Evident)
+    - Drones and robotics for inspection | C | Flyability, ANYbotics, Gecko Robotics
+    - Risk-based inspection and integrity management | C | DNV, Lloyd's Register, Bureau Veritas
+    - Non-metallic and composite equipment | C | NOV, Future Pipe Industries
+HSE:
+  Safety and environment:
+    - Process hazard analysis (HAZOP, LOPA, QRA) | C | DNV, Gexcon, consultants
+    - Gas and flame detection | C | Honeywell, MSA, Dräger
+    - NOx control (SCR, SNCR, low-NOx burners) | C | Topsoe, Johnson Matthey, John Zink
+    - Decommissioning and well abandonment | C | Contractors
+DIG:
+  Digital:
+    - Digital twins of plants and assets | C | AVEVA, Siemens, Bentley, Kongsberg
+    - Industrial IoT and wireless sensors | C | Emerson, Honeywell, Yokogawa
+    - AI and machine learning for maintenance and optimisation | C | Cognite, C3 AI, AspenTech, SLB
+    - Subsurface data platforms (OSDU) | C | The Open Group OSDU, SLB, Halliburton, AWS, Microsoft
+    - Engineering data standards (ISO 15926, CFIHOS) | C | IOGP, Fiatech
