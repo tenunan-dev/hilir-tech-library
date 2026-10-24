@@ -84,12 +84,24 @@ def fetch(url, headers=None, **params):
     return resp
 
 
+def undouble(text):
+    """Collapse words a PDF extractor doubled letter by letter ("PPrroocceessss" -> "Process").
+
+    Faux-bold headings are often drawn twice, so every character comes out twice. Only
+    all-letter words of four or more characters with every character doubled are touched,
+    so numbers ("1100") and real words stay as they are.
+    """
+    return re.sub(r"\b[A-Za-z]{4,}\b",
+                  lambda m: m.group(0)[::2] if len(m.group(0)) % 2 == 0 and m.group(0)[::2] == m.group(0)[1::2] else m.group(0),
+                  text)
+
+
 def to_markdown(content, content_type, url=""):
     """Convert an HTML page or PDF to plain Markdown text."""
     if "pdf" in content_type or url.lower().endswith(".pdf"):
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(content))
-        return "\n\n".join((page.extract_text() or "").strip() for page in reader.pages).strip()
+        return undouble("\n\n".join((page.extract_text() or "").strip() for page in reader.pages).strip())
     import trafilatura
     html = content.decode("utf-8", errors="replace") if isinstance(content, bytes) else content
     return (trafilatura.extract(html, output_format="markdown", include_tables=True, url=url) or "").strip()

@@ -172,3 +172,8 @@ def test_open_document_licence_overrides_restricted_source(corpus):
     rec = record(id="arxiv", reuse_level="full-text-restricted", licence="CC0-1.0 metadata; per-paper full text")
     text = common.write_document(rec, "Paper", "http://arxiv.org/abs/1", "Abstract", extra={"licence": "CC0-1.0"}).read_text()
     assert 'reuse_level: "full-text-open"' in text and "use_note" not in text
+
+
+def test_undouble_collapses_faux_bold_only():
+    text = "PPrroocceessss DDeessiiggnn CCoonncceepptt ooff the 1100 MW unit; Mississippi, Process, aabbcc"
+    assert common.undouble(text) == "Process Design Concept of the 1100 MW unit; Mississippi, Process, abc"
