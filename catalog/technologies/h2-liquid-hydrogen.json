@@ -1,0 +1,144 @@
+{
+  "id": "h2-liquid-hydrogen",
+  "name": "Liquid hydrogen",
+  "aliases": [
+    "LH2",
+    "hydrogen liquefaction",
+    "liquefied hydrogen shipping"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen carrier / liquefaction",
+  "applications": [
+    "merchant hydrogen distribution by trailer",
+    "long-distance hydrogen shipping",
+    "space launch",
+    "high-purity uses"
+  ],
+  "maturity": "commercial",
+  "principle": "Hydrogen is cooled to about -253 °C in a liquefier using precooling and a hydrogen or helium refrigeration cycle, with ortho-para conversion catalysts so the liquid does not boil off from conversion heat. The liquid is stored and shipped in vacuum-insulated tanks and regasified at the user.",
+  "process_steps": [
+    {
+      "id": "PUR",
+      "name": "Feed purification",
+      "equipment": [
+        "adsorbers to remove impurities"
+      ]
+    },
+    {
+      "id": "PRE",
+      "name": "Precooling",
+      "equipment": [
+        "nitrogen or mixed refrigerant precooling",
+        "plate-fin exchangers"
+      ]
+    },
+    {
+      "id": "LIQ",
+      "name": "Liquefaction and ortho-para conversion",
+      "equipment": [
+        "cold box with turbo-expanders",
+        "ortho-para catalyst beds"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "Storage",
+      "equipment": [
+        "vacuum-insulated spherical tanks",
+        "boil-off gas handling"
+      ]
+    },
+    {
+      "id": "SHIP",
+      "name": "Transport",
+      "equipment": [
+        "LH2 trailer or carrier ship (Suiso Frontier, 1,250 m3)"
+      ]
+    },
+    {
+      "id": "REG",
+      "name": "Regasification",
+      "equipment": [
+        "vaporisers"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "hydrogen liquefier cold box",
+    "precooling system",
+    "turbo-expanders and compressors",
+    "ortho-para converters",
+    "vacuum-insulated storage",
+    "LH2 carrier or trailers"
+  ],
+  "performance": [
+    {
+      "metric": "storage temperature",
+      "low": -253,
+      "high": -253,
+      "unit": "°C",
+      "basis": "Suiso Frontier cargo tank",
+      "source": {
+        "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
+        "note": "HESC project page, The Suiso Frontier"
+      }
+    },
+    {
+      "metric": "carrier cargo tank volume (Suiso Frontier)",
+      "low": 1250,
+      "high": 1250,
+      "unit": "m3",
+      "basis": "Kawasaki Heavy Industries, 116 m ship, completed 2020",
+      "source": {
+        "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
+        "note": "HESC project page, The Suiso Frontier"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Linde Engineering",
+      "source_id": "linde-engineering"
+    },
+    {
+      "name": "Air Products",
+      "source_id": "air-products-tech"
+    },
+    {
+      "name": "Kawasaki Heavy Industries",
+      "product": "LH2 carrier and terminal"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hydrogen Energy Supply Chain (HESC), Suiso Frontier",
+      "country": "AU",
+      "capacity": "1,250 m3 LH2 tank, loaded at Port of Hastings for Kobe",
+      "status": "ship completed 2020; pilot voyage Australia to Japan",
+      "year": 2020,
+      "source": {
+        "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
+        "note": "HESC project page, The Suiso Frontier"
+      }
+    }
+  ],
+  "advantages": [
+    "High purity at delivery",
+    "Highest gravimetric density of any carrier",
+    "Used commercially for decades in merchant gas supply"
+  ],
+  "limitations": [
+    "Liquefaction consumes a large share of the hydrogen's energy",
+    "Boil-off losses during storage and shipping",
+    "Very large LH2 carriers are not yet built"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
+      "note": "HESC project page, The Suiso Frontier"
+    }
+  ],
+  "notes": "Liquefaction energy figures to be added from an open DOE or IEA source.",
+  "last_reviewed": "2026-10-24"
+}

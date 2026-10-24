@@ -1,0 +1,183 @@
+{
+  "id": "h2-soec",
+  "name": "Solid oxide electrolysis",
+  "aliases": [
+    "SOEC",
+    "high-temperature electrolysis",
+    "steam electrolysis"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / electrolysis",
+  "applications": [
+    "green ammonia",
+    "e-methanol and e-fuels",
+    "nuclear or industrial waste-heat coupled hydrogen"
+  ],
+  "maturity": "demonstration",
+  "principle": "A ceramic electrolyte conducts oxide ions at high temperature (650 to 850 °C according to DOE). Steam is fed to the cathode where it splits into hydrogen and oxide ions, which cross the ceramic and form oxygen at the anode. Part of the energy comes as heat, so electricity use per kilogram is lower than in low-temperature electrolysis, especially when steam comes from process heat.",
+  "process_steps": [
+    {
+      "id": "WAT",
+      "name": "Water treatment and steam raising",
+      "equipment": [
+        "deionisation",
+        "steam generator (waste heat or electric)"
+      ]
+    },
+    {
+      "id": "HX",
+      "name": "Feed preheating",
+      "equipment": [
+        "recuperative heat exchangers",
+        "electric trim heaters"
+      ]
+    },
+    {
+      "id": "STK",
+      "name": "SOEC stacks",
+      "equipment": [
+        "solid oxide cell stacks in hot boxes",
+        "sweep air system"
+      ],
+      "to": [
+        "COND",
+        "OX"
+      ],
+      "streams": {
+        "COND": "H2 + steam",
+        "OX": "O2-enriched air"
+      }
+    },
+    {
+      "id": "OX",
+      "name": "Oxygen side",
+      "equipment": [
+        "sweep air outlet and heat recovery"
+      ],
+      "to": []
+    },
+    {
+      "id": "COND",
+      "name": "Hydrogen cooling and steam condensation",
+      "equipment": [
+        "condenser",
+        "knock-out drum",
+        "recycle of part of the hydrogen"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "PUR",
+      "name": "Drying and compression",
+      "equipment": [
+        "dryer",
+        "hydrogen compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "steam generator",
+    "high-temperature recuperators",
+    "SOEC stack modules",
+    "condenser",
+    "dryer",
+    "hydrogen compressor",
+    "power electronics"
+  ],
+  "performance": [
+    {
+      "metric": "operating temperature",
+      "low": 650,
+      "high": 850,
+      "unit": "°C",
+      "basis": "DOE description of solid oxide electrolysers",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+      }
+    },
+    {
+      "metric": "system electrical energy use (2022 status)",
+      "low": 38,
+      "high": 38,
+      "unit": "kWh/kg H2",
+      "year": 2023,
+      "basis": "H2NEW SOEC 2022 status, slide 36; stack 34 kWh/kg; total including heat 47 kWh/kg",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+      }
+    },
+    {
+      "metric": "stack lifetime (2022 status)",
+      "low": 20000,
+      "high": 20000,
+      "unit": "h",
+      "year": 2023,
+      "basis": "H2NEW SOEC 2022 status, slide 36",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Topsoe",
+      "product": "SOEC electrolyser (Herning factory, 500 MW/yr initial)",
+      "source_id": "topsoe",
+      "url": "https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark"
+    },
+    {
+      "name": "Bloom Energy"
+    },
+    {
+      "name": "Sunfire"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Topsoe SOEC manufacturing plant, Herning",
+      "country": "DK",
+      "capacity": "initially 500 MW of electrolysers per year; first offtakers First Ammonia (Texas) and Forestal (e-methanol, Spain)",
+      "status": "inaugurated November 2025",
+      "year": 2025,
+      "source": {
+        "url": "https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark",
+        "note": "Chemical Engineering, 3 November 2025"
+      }
+    }
+  ],
+  "advantages": [
+    "Lowest electricity use per kg among electrolysis routes when heat is available",
+    "Topsoe claims about 20% higher efficiency than alkaline or PEM, 30% with steam integration (no basis given)",
+    "Can co-electrolyse CO2 and steam to syngas"
+  ],
+  "limitations": [
+    "Shorter demonstrated stack lifetime than alkaline or PEM",
+    "High temperature limits fast cycling",
+    "Few large plants in operation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+    },
+    {
+      "url": "https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

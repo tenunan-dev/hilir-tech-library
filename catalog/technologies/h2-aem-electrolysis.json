@@ -1,0 +1,135 @@
+{
+  "id": "h2-aem-electrolysis",
+  "name": "AEM electrolysis",
+  "aliases": [
+    "anion exchange membrane electrolysis",
+    "AEMEL"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / electrolysis",
+  "applications": [
+    "distributed and small industrial hydrogen",
+    "modular multi-megawatt systems"
+  ],
+  "maturity": "pilot",
+  "principle": "An anion exchange membrane carries hydroxide ions between electrodes in a dilute alkaline or pure-water environment. It aims to combine the cheap, platinum-free materials of alkaline electrolysis with the compact, pressurised design of PEM. DOE gives 50 to 80 °C operation.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Power conversion",
+      "equipment": [
+        "transformer",
+        "rectifier"
+      ]
+    },
+    {
+      "id": "WAT",
+      "name": "Water treatment",
+      "equipment": [
+        "deionisation",
+        "dilute electrolyte make-up"
+      ]
+    },
+    {
+      "id": "STK",
+      "name": "AEM stacks",
+      "equipment": [
+        "many AEM stacks around a common balance of plant"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Gas separation",
+      "equipment": [
+        "hydrogen and oxygen separators"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "PUR",
+      "name": "Purification",
+      "equipment": [
+        "optional chiller (99.95%)",
+        "optional dryer (99.999%)"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "AEM stacks",
+    "power electronics",
+    "gas separators",
+    "chiller and dryer options",
+    "water treatment"
+  ],
+  "performance": [
+    {
+      "metric": "operating temperature",
+      "low": 50,
+      "high": 80,
+      "unit": "°C",
+      "basis": "DOE description of AEM electrolysers",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+      }
+    },
+    {
+      "metric": "system power consumption",
+      "low": 51.3,
+      "high": 51.3,
+      "unit": "kWh/kg H2",
+      "basis": "Enapter AEM Nexus 1000, all utilities inside battery limits, 99.5% purity configuration",
+      "source": {
+        "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
+        "note": "Enapter AEM Nexus 1000 datasheet, rev08"
+      }
+    },
+    {
+      "metric": "hydrogen output per unit",
+      "low": 18.2,
+      "high": 18.2,
+      "unit": "kg H2/h",
+      "basis": "Enapter AEM Nexus 1000 (202 Nm3/h) at 933 kW nominal, up to 31 barg outlet",
+      "source": {
+        "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
+        "note": "Enapter AEM Nexus 1000 datasheet, rev08"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Enapter",
+      "product": "AEM Nexus 1000 and smaller modules",
+      "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf"
+    }
+  ],
+  "advantages": [
+    "No platinum-group metals needed in principle",
+    "Delivers pressurised hydrogen (up to 31 barg on Nexus 1000)",
+    "Modular, mass-manufactured stacks"
+  ],
+  "limitations": [
+    "Membrane durability still being proven",
+    "Small unit sizes so far",
+    "Few independent performance reports"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+    },
+    {
+      "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
+      "note": "Enapter AEM Nexus 1000 datasheet, rev08"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

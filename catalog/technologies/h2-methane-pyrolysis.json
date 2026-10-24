@@ -1,0 +1,148 @@
+{
+  "id": "h2-methane-pyrolysis",
+  "name": "Methane pyrolysis (turquoise hydrogen)",
+  "aliases": [
+    "turquoise hydrogen",
+    "plasma pyrolysis",
+    "methane cracking",
+    "catalytic methane decomposition"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / pyrolysis",
+  "applications": [
+    "hydrogen and ammonia with solid carbon co-product",
+    "carbon black replacement"
+  ],
+  "maturity": "demonstration",
+  "principle": "Methane is split into hydrogen and solid carbon without oxygen, using plasma, molten metal or salt, or a catalyst bed. No CO2 is formed in the reaction, and the carbon leaves as a solid such as carbon black that can be sold or stored. Monolith's plasma process runs at about 1650 °C.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Natural gas pretreatment",
+      "equipment": [
+        "desulfurisation",
+        "preheater"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Pyrolysis reactor",
+      "equipment": [
+        "plasma torch reactor, molten media reactor or catalytic bed"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Carbon separation",
+      "equipment": [
+        "cyclones and bag filters",
+        "carbon cooling and handling"
+      ],
+      "to": [
+        "PUR",
+        "C"
+      ],
+      "streams": {
+        "PUR": "hydrogen + unconverted methane",
+        "C": "solid carbon"
+      }
+    },
+    {
+      "id": "C",
+      "name": "Carbon product",
+      "equipment": [
+        "pelletiser and storage silos"
+      ],
+      "to": []
+    },
+    {
+      "id": "PUR",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "PSA unit",
+        "tail gas recycle"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "pyrolysis reactor (plasma, molten metal or catalytic)",
+    "solids separation",
+    "carbon handling and pelletising",
+    "PSA unit"
+  ],
+  "performance": [
+    {
+      "metric": "plasma reactor temperature (Monolith)",
+      "low": 1650,
+      "high": 1650,
+      "unit": "°C",
+      "year": 2022,
+      "basis": "Monolith plasma process",
+      "source": {
+        "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Monolith",
+      "product": "plasma methane pyrolysis"
+    },
+    {
+      "name": "BASF",
+      "product": "methane pyrolysis pilot"
+    },
+    {
+      "name": "Hazer Group"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Monolith Olive Creek 1, Nebraska",
+      "country": "US",
+      "capacity": "about 14,000 t/yr carbon black and about 2,500 t/yr hydrogen",
+      "status": "commissioned 2020; Olive Creek 2 planned at about 194,000 t/yr carbon black and 40,000 t/yr hydrogen",
+      "year": 2020,
+      "source": {
+        "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
+      }
+    },
+    {
+      "name": "BASF methane pyrolysis pilot, Ludwigshafen",
+      "country": "DE",
+      "capacity": "pilot",
+      "status": "under construction from 2019 per the article",
+      "source": {
+        "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
+      }
+    }
+  ],
+  "advantages": [
+    "No CO2 formed in the reaction, no CO2 storage needed",
+    "Solid carbon co-product with a market (carbon black)",
+    "Uses existing natural gas supply"
+  ],
+  "limitations": [
+    "Carbon co-product volume far exceeds the carbon black market at hydrogen scale",
+    "Needs more gas per kg of hydrogen than SMR",
+    "Upstream methane emissions still count"
+  ],
+  "sources": [
+    {
+      "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
+      "source_id": "ptq-digital-refining",
+      "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

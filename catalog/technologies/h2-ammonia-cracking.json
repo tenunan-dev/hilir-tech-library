@@ -1,0 +1,137 @@
+{
+  "id": "h2-ammonia-cracking",
+  "name": "Ammonia as hydrogen carrier and ammonia cracking",
+  "aliases": [
+    "ammonia cracking",
+    "ammonia decomposition",
+    "H2ACT",
+    "ammonia to hydrogen"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen carrier / reconversion",
+  "applications": [
+    "import terminals receiving green or blue ammonia",
+    "hydrogen supply for power and industry in importing countries such as Japan and Korea"
+  ],
+  "maturity": "demonstration",
+  "principle": "Hydrogen is shipped as liquid ammonia, which is easy to store and already traded worldwide. At the destination, ammonia is heated over a catalyst and decomposed into hydrogen and nitrogen in an endothermic reaction, then hydrogen is purified and residual ammonia removed. Part of the product or ammonia is burned to supply reaction heat.",
+  "process_steps": [
+    {
+      "id": "STO",
+      "name": "Ammonia import and storage",
+      "equipment": [
+        "refrigerated ammonia tanks",
+        "ship unloading"
+      ]
+    },
+    {
+      "id": "VAP",
+      "name": "Ammonia vaporisation and preheat",
+      "equipment": [
+        "vaporiser",
+        "feed/effluent exchangers"
+      ]
+    },
+    {
+      "id": "CRK",
+      "name": "Catalytic cracking",
+      "equipment": [
+        "fired cracking furnace with catalyst tubes or reactor"
+      ],
+      "to": [
+        "COOL"
+      ]
+    },
+    {
+      "id": "COOL",
+      "name": "Cooling and ammonia removal",
+      "equipment": [
+        "coolers",
+        "ammonia absorber or recovery with recycle"
+      ],
+      "to": [
+        "PSA"
+      ]
+    },
+    {
+      "id": "PSA",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "PSA unit",
+        "tail gas to furnace fuel"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "refrigerated ammonia storage",
+    "vaporiser",
+    "cracking furnace or reactor",
+    "ammonia recovery",
+    "PSA unit"
+  ],
+  "performance": [
+    {
+      "metric": "hydrogen purity (KBR H2ACT)",
+      "low": 99.97,
+      "high": 99.97,
+      "unit": "%",
+      "basis": "vendor claim; ammonia slip below 0.1 ppmv; KBR also claims 90% efficiency without stating the basis",
+      "source": {
+        "url": "https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/",
+        "source_id": "kbr-technology",
+        "note": "KBR H2ACT technology page, read 24 October 2026"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "KBR",
+      "product": "H2ACT",
+      "source_id": "kbr-technology",
+      "url": "https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/"
+    },
+    {
+      "name": "Topsoe",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Johnson Matthey (Honeywell)"
+    },
+    {
+      "name": "Air Products",
+      "source_id": "air-products-tech"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "SUSO ammonia cracking project, Ulsan",
+      "country": "KR",
+      "capacity": "10 t/day hydrogen from 72 t/day ammonia (KBR H2ACT)",
+      "status": "moving to EPC, target start-up 2028",
+      "source": {
+        "url": "https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/",
+        "source_id": "kbr-technology",
+        "note": "KBR H2ACT technology page, read 24 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Ammonia shipping and storage infrastructure already exists",
+    "Higher volumetric hydrogen density than liquid hydrogen",
+    "Ammonia can also be used directly as fuel without cracking"
+  ],
+  "limitations": [
+    "Cracking needs high-temperature heat, which costs part of the delivered energy",
+    "Ammonia is toxic and needs strict handling",
+    "Few cracking plants yet at commercial scale"
+  ],
+  "sources": [
+    {
+      "url": "https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/",
+      "source_id": "kbr-technology",
+      "note": "KBR H2ACT technology page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

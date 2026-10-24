@@ -1,6 +1,6 @@
 # Technology register
 
-298 technologies across oil, gas, petrochemicals and new energy; 14 have a technology card so far.
+298 technologies across oil, gas, petrochemicals and new energy; 27 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 
@@ -81,7 +81,7 @@ Cards (linked) are verified and cite their sources. Source: `catalog/technology-
 | Storage and terminals | Crude and product tank farms and floating roofs | commercial | Terminal operators |  |
 | Storage and terminals | Underground gas storage (salt caverns, depleted fields) | commercial | Uniper, PETRONAS |  |
 | Storage and terminals | Strategic petroleum reserves (salt caverns, rock caverns) | commercial | Governments |  |
-| Storage and terminals | Hydrogen storage in salt caverns | demonstration | HyStock, ACES Delta |  |
+| Storage and terminals | Hydrogen storage in salt caverns | demonstration | HyStock, ACES Delta | [card](technologies-H2.md#h2-salt-cavern-storage) |
 | Metering | Custody transfer metering (ultrasonic, Coriolis) | commercial | Emerson, Endress+Hauser, SICK |  |
 | Shipping | Crude and product tankers with scrubbers or LNG fuel | commercial | Shipyards (Samsung, Hanwha Ocean, HD Hyundai) |  |
 | Shipping | LNG carriers (membrane and Moss tanks, reliquefaction) | commercial | GTT, Samsung, Hanwha Ocean, MISC |  |
@@ -142,7 +142,7 @@ Cards (linked) are verified and cite their sources. Source: `catalog/technology-
 | Conversion | Isomerisation (C5/C6) | commercial | Honeywell UOP, Axens, GTC |  |
 | Conversion | Alkylation (HF, sulfuric, ionic liquid, solid acid) | commercial | Honeywell UOP, DuPont STRATCO, Chevron ISOALKY, KBR K-SAAT |  |
 | Conversion | Etherification (MTBE, ETBE, TAME) | commercial | Lummus, Axens |  |
-| Conversion | Hydrogen production for refining (SMR with PSA) | commercial | Topsoe, Air Liquide, Technip Energies, Linde |  |
+| Conversion | Hydrogen production for refining (SMR with PSA) | commercial | Topsoe, Air Liquide, Technip Energies, Linde | [card](technologies-H2.md#h2-smr) |
 | Conversion | Sour water stripping and amine regeneration | commercial | EPC contractors |  |
 | Crude-to-chemicals and integration | Crude-to-chemicals complexes | commercial | Saudi Aramco/SABIC, Hengli, Rongsheng, PETRONAS Pengerang |  |
 | Crude-to-chemicals and integration | Direct crude cracking | demonstration | ExxonMobil Singapore, Saudi Aramco TC2C |  |
@@ -234,31 +234,31 @@ Cards (linked) are verified and cite their sources. Source: `catalog/technology-
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Hydrogen production | Steam methane reforming | commercial | Topsoe, Air Liquide, Technip Energies, Linde |  |
-| Hydrogen production | Autothermal reforming with CO2 capture (blue hydrogen) | commercial | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products |  |
+| Hydrogen production | Steam methane reforming | commercial | Topsoe, Air Liquide, Technip Energies, Linde | [card](technologies-H2.md#h2-smr) |
+| Hydrogen production | Autothermal reforming with CO2 capture (blue hydrogen) | commercial | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products | [card](technologies-H2.md#h2-atr-ccs) |
 | Hydrogen production | Gas-heated reforming | commercial | Johnson Matthey (Honeywell) |  |
 | Hydrogen production | Biogas reforming to hydrogen | commercial | Various |  |
 | Hydrogen production | Partial oxidation and gasification | commercial | Air Products (Shell gasification), Air Liquide |  |
-| Hydrogen production | Alkaline water electrolysis | commercial | Thyssenkrupp nucera, John Cockerill, LONGi Hydrogen, PERIC |  |
-| Hydrogen production | PEM electrolysis | commercial | Siemens Energy, ITM Power, Plug Power, Cummins (Accelera) |  |
-| Hydrogen production | Solid oxide electrolysis | demonstration | Topsoe, Bloom Energy, Sunfire |  |
-| Hydrogen production | AEM electrolysis | pilot | Enapter |  |
-| Hydrogen production | Methane pyrolysis (turquoise hydrogen) | demonstration | Monolith, BASF, Hazer |  |
+| Hydrogen production | Alkaline water electrolysis | commercial | Thyssenkrupp nucera, John Cockerill, LONGi Hydrogen, PERIC | [card](technologies-H2.md#h2-alkaline-electrolysis) |
+| Hydrogen production | PEM electrolysis | commercial | Siemens Energy, ITM Power, Plug Power, Cummins (Accelera) | [card](technologies-H2.md#h2-pem-electrolysis) |
+| Hydrogen production | Solid oxide electrolysis | demonstration | Topsoe, Bloom Energy, Sunfire | [card](technologies-H2.md#h2-soec) |
+| Hydrogen production | AEM electrolysis | pilot | Enapter | [card](technologies-H2.md#h2-aem-electrolysis) |
+| Hydrogen production | Methane pyrolysis (turquoise hydrogen) | demonstration | Monolith, BASF, Hazer | [card](technologies-H2.md#h2-methane-pyrolysis) |
 | Hydrogen production | Biomass gasification to hydrogen | pilot | Various |  |
 | Hydrogen production | Photocatalytic and thermochemical water splitting | lab | Research |  |
 | Hydrogen production | Co-electrolysis of CO2 and water | lab | Topsoe, Sunfire research |  |
 | Hydrogen production | Natural (geologic) hydrogen | pilot | Koloma, Gold Hydrogen |  |
 | Hydrogen carriers and logistics | Compressed hydrogen storage and tube trailers | commercial | Hexagon Purus, Linde |  |
-| Hydrogen carriers and logistics | Liquid hydrogen | commercial | Linde, Air Products, Kawasaki Heavy Industries |  |
-| Hydrogen carriers and logistics | Ammonia as hydrogen carrier and ammonia cracking | demonstration | Topsoe, KBR, Johnson Matthey (Honeywell), Air Products |  |
-| Hydrogen carriers and logistics | Liquid organic hydrogen carriers (MCH, DBT) | demonstration | Chiyoda SPERA, Hydrogenious |  |
+| Hydrogen carriers and logistics | Liquid hydrogen | commercial | Linde, Air Products, Kawasaki Heavy Industries | [card](technologies-H2.md#h2-liquid-hydrogen) |
+| Hydrogen carriers and logistics | Ammonia as hydrogen carrier and ammonia cracking | demonstration | Topsoe, KBR, Johnson Matthey (Honeywell), Air Products | [card](technologies-H2.md#h2-ammonia-cracking) |
+| Hydrogen carriers and logistics | Liquid organic hydrogen carriers (MCH, DBT) | demonstration | Chiyoda SPERA, Hydrogenious | [card](technologies-H2.md#h2-lohc) |
 | Hydrogen carriers and logistics | Hydrogen compressors (diaphragm, ionic, reciprocating) | commercial | Burckhardt, PDC Machines, Linde, Hydro-Pac |  |
 | Hydrogen carriers and logistics | Hydrogen refuelling stations | commercial | Nel, Linde, Air Liquide |  |
 | Hydrogen use | Fuel cells (PEM, SOFC) | commercial | Ballard, Toyota, Bloom Energy |  |
 | Hydrogen use | Hydrogen direct reduction of iron | demonstration | HYBRIT, H2 Green Steel (Stegra), Midrex |  |
 | Hydrogen use | Hydrogen for refinery and ammonia feedstock | commercial | Industry |  |
 | Hydrogen use | Ammonia as marine fuel | demonstration | MAN (Everllence), Wärtsilä, WinGD |  |
-| Low-carbon fuels | Green and blue ammonia | demonstration | Topsoe, KBR, Thyssenkrupp Uhde, Casale |  |
+| Low-carbon fuels | Green and blue ammonia | demonstration | Topsoe, KBR, Thyssenkrupp Uhde, Casale | [card](technologies-H2.md#h2-green-blue-ammonia) |
 | Low-carbon fuels | E-methanol and bio-methanol | demonstration | European Energy, Topsoe, Johnson Matthey (Honeywell) |  |
 | Low-carbon fuels | Alcohol-to-jet SAF | demonstration | LanzaJet, Honeywell UOP, Gevo |  |
 | Low-carbon fuels | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) | demonstration | Velocys, Fulcrum, Norsk e-Fuel, Infinium |  |

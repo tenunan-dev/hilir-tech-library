@@ -1,0 +1,242 @@
+{
+  "id": "h2-alkaline-electrolysis",
+  "name": "Alkaline water electrolysis",
+  "aliases": [
+    "AWE",
+    "alkaline electrolyser",
+    "AEL",
+    "pressurised alkaline"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / electrolysis",
+  "applications": [
+    "green hydrogen for refineries",
+    "green ammonia",
+    "e-fuels",
+    "steel"
+  ],
+  "maturity": "commercial",
+  "principle": "Two electrodes sit in a liquid alkaline electrolyte of potassium or sodium hydroxide, separated by a diaphragm. Water is split by direct current: hydrogen forms at the cathode and oxygen at the anode, and the electrolyte circulates through gas separators. DOE gives an operating range of 60 to 90 °C.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Power conversion",
+      "equipment": [
+        "transformer",
+        "rectifier"
+      ]
+    },
+    {
+      "id": "WAT",
+      "name": "Water treatment",
+      "equipment": [
+        "reverse osmosis and deionisation"
+      ]
+    },
+    {
+      "id": "STK",
+      "name": "Electrolysis stacks",
+      "equipment": [
+        "alkaline cell stacks with diaphragm",
+        "KOH electrolyte circulation pumps and coolers"
+      ],
+      "to": [
+        "SEPH",
+        "SEPO"
+      ],
+      "streams": {
+        "SEPH": "H2 + lye",
+        "SEPO": "O2 + lye"
+      }
+    },
+    {
+      "id": "SEPH",
+      "name": "Hydrogen gas separation",
+      "equipment": [
+        "hydrogen separator drum",
+        "lye return"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "SEPO",
+      "name": "Oxygen gas separation",
+      "equipment": [
+        "oxygen separator drum",
+        "vent or O2 recovery"
+      ],
+      "to": []
+    },
+    {
+      "id": "PUR",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "deoxidiser",
+        "dryer (TSA)"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression and storage",
+      "equipment": [
+        "hydrogen compressor",
+        "buffer storage"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "transformer and rectifier",
+    "alkaline electrolyser stacks",
+    "gas-liquid separators",
+    "lye circulation and cooling",
+    "deoxidiser and dryer",
+    "water treatment",
+    "hydrogen compressor"
+  ],
+  "performance": [
+    {
+      "metric": "operating temperature",
+      "low": 60,
+      "high": 90,
+      "unit": "°C",
+      "basis": "DOE description of alkaline electrolysers",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+      }
+    },
+    {
+      "metric": "standard module size (thyssenkrupp)",
+      "low": 20,
+      "high": 20,
+      "unit": "MW",
+      "year": 2022,
+      "basis": "thyssenkrupp 20 MW alkaline module used for NEOM and Holland Hydrogen 1",
+      "source": {
+        "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
+        "source_id": "ammonia-energy",
+        "note": "Ammonia Energy Association, 16 January 2022"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Thyssenkrupp nucera",
+      "product": "20 MW alkaline water electrolysis module",
+      "source_id": "thyssenkrupp-uhde"
+    },
+    {
+      "name": "John Cockerill"
+    },
+    {
+      "name": "LONGi Hydrogen",
+      "source_id": "longi-hydrogen"
+    },
+    {
+      "name": "PERIC"
+    },
+    {
+      "name": "Nel Hydrogen",
+      "source_id": "nel-hydrogen"
+    },
+    {
+      "name": "HydrogenPro"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "NEOM Green Hydrogen Project",
+      "country": "SA",
+      "capacity": "2 GW+ alkaline electrolysis in 20 MW modules (thyssenkrupp), 600 t/day hydrogen",
+      "status": "electrolyser commissioning after 4 GW renewables due mid-2026; first product expected 2027",
+      "source": {
+        "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+        "note": "ACWA Power project page, read 24 October 2026"
+      }
+    },
+    {
+      "name": "Sinopec Kuqa green hydrogen pilot, Xinjiang",
+      "country": "CN",
+      "capacity": "20,000 t/yr green hydrogen from solar power; 210,000 m3 hydrogen storage; supplies Tahe Refining & Chemical",
+      "status": "in operation from 2023",
+      "year": 2023,
+      "source": {
+        "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
+        "source_id": "sinopec-tech",
+        "note": "Sinopec press release via Cision, 3 July 2023"
+      }
+    },
+    {
+      "name": "Holland Hydrogen 1 (Shell), Rotterdam",
+      "country": "NL",
+      "capacity": "200 MW, thyssenkrupp 20 MW alkaline modules; hydrogen piped about 40 km to Shell Energy and Chemicals Park Rotterdam",
+      "status": "announced January 2022 with start of production intended for 2024",
+      "year": 2022,
+      "source": {
+        "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining news, 12 January 2022"
+      }
+    },
+    {
+      "name": "ACES Delta, Utah",
+      "country": "US",
+      "capacity": "220 MW alkaline (HydrogenPro), up to 100 t/day hydrogen stored in salt caverns",
+      "status": "USD 504.4 million conditional DOE loan guarantee, April 2022",
+      "year": 2022,
+      "source": {
+        "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
+        "note": "POWER magazine, April 2022"
+      }
+    }
+  ],
+  "advantages": [
+    "Most deployed electrolysis technology at large scale",
+    "No platinum-group metals in the cell",
+    "Large standard modules"
+  ],
+  "limitations": [
+    "Slower response to fluctuating power than PEM in conventional designs",
+    "Caustic electrolyte handling",
+    "Lower current density, so larger stacks"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+    },
+    {
+      "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
+      "source_id": "ammonia-energy",
+      "note": "Ammonia Energy Association, 16 January 2022"
+    },
+    {
+      "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+      "note": "ACWA Power project page, read 24 October 2026"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
+      "source_id": "sinopec-tech",
+      "note": "Sinopec press release via Cision, 3 July 2023"
+    },
+    {
+      "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
+      "source_id": "ptq-digital-refining",
+      "note": "Digital Refining news, 12 January 2022"
+    },
+    {
+      "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
+      "note": "POWER magazine, April 2022"
+    }
+  ],
+  "notes": "Electrolyser model for Sinopec Kuqa is not stated in the press release read; the card does not assume one.",
+  "last_reviewed": "2026-10-24"
+}

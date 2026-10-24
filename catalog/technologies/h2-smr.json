@@ -1,0 +1,215 @@
+{
+  "id": "h2-smr",
+  "name": "Steam methane reforming",
+  "aliases": [
+    "SMR",
+    "Hydrogen production for refining (SMR with PSA)",
+    "grey hydrogen",
+    "SMR with CO2 capture"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / reforming",
+  "applications": [
+    "refinery hydrotreating and hydrocracking",
+    "ammonia",
+    "methanol",
+    "merchant hydrogen"
+  ],
+  "maturity": "commercial",
+  "principle": "Natural gas is desulfurised and reacted with steam over a nickel catalyst in externally fired tubes to make syngas. Water-gas shift converts most of the CO to more hydrogen and CO2, and pressure swing adsorption purifies the hydrogen. Without capture the CO2 is vented, partly in the shifted process gas and partly in the reformer flue gas. Blue hydrogen versions capture the process CO2, the flue gas CO2, or both.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Feed gas desulfurisation",
+      "equipment": [
+        "hydrodesulfurisation reactor",
+        "zinc oxide guard beds"
+      ]
+    },
+    {
+      "id": "PRE",
+      "name": "Pre-reforming (optional)",
+      "equipment": [
+        "adiabatic pre-reformer"
+      ]
+    },
+    {
+      "id": "REF",
+      "name": "Steam reforming",
+      "equipment": [
+        "fired tubular reformer with catalyst tubes",
+        "convection section and waste heat boiler",
+        "flue gas stack"
+      ],
+      "to": [
+        "WGS",
+        "FGC"
+      ],
+      "streams": {
+        "WGS": "syngas",
+        "FGC": "flue gas (capture option)"
+      }
+    },
+    {
+      "id": "WGS",
+      "name": "Water-gas shift",
+      "equipment": [
+        "high- and low-temperature shift reactors",
+        "process gas coolers"
+      ],
+      "to": [
+        "AGR"
+      ]
+    },
+    {
+      "id": "AGR",
+      "name": "Process CO2 removal (capture option)",
+      "equipment": [
+        "MDEA absorber and stripper or VSA"
+      ],
+      "to": [
+        "PSA",
+        "CO2"
+      ],
+      "streams": {
+        "PSA": "hydrogen-rich gas",
+        "CO2": "CO2"
+      }
+    },
+    {
+      "id": "PSA",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "pressure swing adsorption unit"
+      ],
+      "to": []
+    },
+    {
+      "id": "FGC",
+      "name": "Flue gas CO2 capture (option)",
+      "equipment": [
+        "post-combustion amine unit (e.g. Cansolv)"
+      ],
+      "to": [
+        "CO2"
+      ]
+    },
+    {
+      "id": "CO2",
+      "name": "CO2 compression and drying",
+      "equipment": [
+        "CO2 compressor",
+        "dehydration unit"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "desulfurisation reactors",
+    "tubular steam reformer furnace",
+    "waste heat boiler",
+    "shift reactors",
+    "PSA unit",
+    "amine or VSA CO2 removal (blue)",
+    "CO2 compressor (blue)"
+  ],
+  "performance": [
+    {
+      "metric": "plant hydrogen output (NETL reference case)",
+      "low": 483000,
+      "high": 483000,
+      "unit": "kg H2/day",
+      "year": 2022,
+      "basis": "NETL SMR case design capacity",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "levelized cost of hydrogen, SMR without capture",
+      "low": 1.06,
+      "high": 1.06,
+      "unit": "USD/kg H2",
+      "year": 2018,
+      "basis": "NETL 2022; natural gas USD 4.42/MMBtu, 90% capacity factor, CO2 transport and storage at USD 10/t where included",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+      }
+    },
+    {
+      "metric": "levelized cost of hydrogen, SMR with 96.2% CO2 capture",
+      "low": 1.54,
+      "high": 1.64,
+      "unit": "USD/kg H2",
+      "year": 2018,
+      "basis": "NETL 2022; natural gas USD 4.42/MMBtu, 90% capacity factor, CO2 transport and storage at USD 10/t where included; low excludes and high includes CO2 transport and storage",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Topsoe",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Air Liquide"
+    },
+    {
+      "name": "Technip Energies"
+    },
+    {
+      "name": "Linde Engineering",
+      "source_id": "linde-engineering"
+    },
+    {
+      "name": "Air Products",
+      "source_id": "air-products-tech"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Air Products Port Arthur SMR CO2 capture (Valero refinery site)",
+      "country": "US",
+      "capacity": "about 1 Mt/yr CO2 captured by vacuum swing adsorption from SMR process gas, used for enhanced oil recovery",
+      "status": "capture began 2013 (first SMR; second planned months later)",
+      "year": 2013,
+      "source": {
+        "url": "https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon",
+        "source_id": "doe-fecm",
+        "note": "DOE Office of Fossil Energy, 25 January 2013"
+      }
+    }
+  ],
+  "advantages": [
+    "Lowest-cost route to hydrogen at today's gas prices in the NETL comparison",
+    "Mature, widely licensed, very large single trains",
+    "Process CO2 can be captured at moderate cost; flue gas capture lifts total capture"
+  ],
+  "limitations": [
+    "Unabated SMR emits roughly all feed carbon as CO2",
+    "High capture rates need flue gas capture as well as process gas capture",
+    "Exposed to natural gas price"
+  ],
+  "sources": [
+    {
+      "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+      "source_id": "netl",
+      "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+    },
+    {
+      "url": "https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon",
+      "source_id": "doe-fecm"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

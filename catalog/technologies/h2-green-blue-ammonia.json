@@ -1,0 +1,161 @@
+{
+  "id": "h2-green-blue-ammonia",
+  "name": "Green and blue ammonia",
+  "aliases": [
+    "green ammonia",
+    "blue ammonia",
+    "low-carbon ammonia",
+    "power-to-ammonia"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen derivative / ammonia synthesis",
+  "applications": [
+    "fertiliser",
+    "hydrogen export carrier",
+    "marine fuel",
+    "co-firing in power plants"
+  ],
+  "maturity": "demonstration",
+  "principle": "Hydrogen and nitrogen are compressed and reacted over an iron catalyst in a Haber-Bosch synthesis loop. Green ammonia takes hydrogen from electrolysis on renewable power and nitrogen from an air separation unit; blue ammonia uses reforming with CO2 capture, where the CO2 is already separated in the process.",
+  "process_steps": [
+    {
+      "id": "H2",
+      "name": "Hydrogen supply",
+      "equipment": [
+        "electrolysers (green) or ATR/SMR with capture (blue)",
+        "hydrogen buffer storage"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "ASU",
+      "name": "Nitrogen supply",
+      "equipment": [
+        "air separation unit"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "SYN",
+      "name": "Synthesis gas compression",
+      "equipment": [
+        "syngas compressor"
+      ],
+      "to": [
+        "LOOP"
+      ]
+    },
+    {
+      "id": "LOOP",
+      "name": "Ammonia synthesis loop",
+      "equipment": [
+        "ammonia converter",
+        "loop heat recovery",
+        "refrigeration and ammonia separator"
+      ],
+      "to": [
+        "STO"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "Ammonia storage and export",
+      "equipment": [
+        "refrigerated ammonia tanks",
+        "jetty loading"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrolysers or reformer with capture",
+    "air separation unit",
+    "syngas compressor",
+    "ammonia converter",
+    "refrigeration",
+    "ammonia storage"
+  ],
+  "performance": [
+    {
+      "metric": "hydrogen production (NEOM)",
+      "low": 600,
+      "high": 600,
+      "unit": "t H2/day",
+      "basis": "NEOM Green Hydrogen Project",
+      "source": {
+        "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+        "note": "ACWA Power project page, read 24 October 2026"
+      }
+    },
+    {
+      "metric": "ammonia production (NEOM)",
+      "low": 1200000,
+      "high": 1200000,
+      "unit": "t NH3/yr",
+      "basis": "NEOM Green Hydrogen Project, up to",
+      "source": {
+        "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+        "note": "ACWA Power project page, read 24 October 2026"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Topsoe",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "KBR",
+      "source_id": "kbr-technology"
+    },
+    {
+      "name": "Thyssenkrupp Uhde",
+      "source_id": "thyssenkrupp-uhde"
+    },
+    {
+      "name": "Casale"
+    },
+    {
+      "name": "Air Products",
+      "source_id": "air-products-tech"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "NEOM Green Hydrogen Project",
+      "country": "SA",
+      "capacity": "3.9 to 4 GW solar and wind, 600 t/day hydrogen, up to 1.2 Mt/yr ammonia; thyssenkrupp electrolysis, Air Products air separation; USD 9,046 million",
+      "status": "renewables due mid-2026, commissioning and first product 2027",
+      "source": {
+        "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+        "note": "ACWA Power project page, read 24 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Established product with global shipping and storage",
+    "Ammonia synthesis itself is mature",
+    "Blue ammonia captures concentrated process CO2"
+  ],
+  "limitations": [
+    "Green plants must manage variable renewable power against a steady synthesis loop",
+    "Large hydrogen buffer or flexible loop needed",
+    "Ammonia toxicity and NOx/N2O in combustion uses"
+  ],
+  "sources": [
+    {
+      "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+      "note": "ACWA Power project page, read 24 October 2026"
+    },
+    {
+      "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
+      "source_id": "ammonia-energy",
+      "note": "Ammonia Energy Association, 16 January 2022"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "h2-salt-cavern-storage",
+  "name": "Hydrogen storage in salt caverns",
+  "aliases": [
+    "underground hydrogen storage",
+    "UHS",
+    "salt cavern hydrogen"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen storage",
+  "applications": [
+    "seasonal storage for power",
+    "buffer between electrolysers and steady users",
+    "hydrogen hubs"
+  ],
+  "maturity": "demonstration",
+  "principle": "Caverns are dissolved in deep salt formations by solution mining, then filled with compressed hydrogen. Salt is nearly impermeable to hydrogen and creeps to seal fractures, so caverns can be cycled many times. A cushion gas stays in the cavern to keep the walls stable, and withdrawn gas is dried before use.",
+  "process_steps": [
+    {
+      "id": "MINE",
+      "name": "Cavern creation",
+      "equipment": [
+        "solution mining wells",
+        "brine disposal"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Injection compression",
+      "equipment": [
+        "hydrogen compressors",
+        "coolers"
+      ]
+    },
+    {
+      "id": "CAV",
+      "name": "Cavern storage",
+      "equipment": [
+        "salt cavern with cushion gas",
+        "wellhead and safety valves"
+      ]
+    },
+    {
+      "id": "WD",
+      "name": "Withdrawal treatment",
+      "equipment": [
+        "pressure letdown",
+        "dehydration unit"
+      ]
+    },
+    {
+      "id": "USE",
+      "name": "Delivery to users",
+      "equipment": [
+        "pipeline to power plant or industry"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "solution mining and brine handling",
+    "hydrogen compressors",
+    "cavern wells and completions",
+    "dehydration unit",
+    "metering"
+  ],
+  "performance": [
+    {
+      "metric": "storage capacity, two caverns (ACES Delta phase one)",
+      "low": 300,
+      "high": 300,
+      "unit": "GWh",
+      "year": 2022,
+      "basis": "two solution-mined caverns about 220 ft wide and 1,200 ft tall, tops 3,500 to 4,100 ft deep",
+      "source": {
+        "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
+        "note": "POWER magazine, April 2022"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Mitsubishi Power"
+    },
+    {
+      "name": "Magnum Development"
+    },
+    {
+      "name": "HyStock (Gasunie)"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "ACES Delta, Utah",
+      "country": "US",
+      "capacity": "220 MW electrolysis, up to 100 t/day hydrogen, 300 GWh in two caverns, feeding the 840 MW Intermountain Power combined cycle",
+      "status": "USD 504.4 million conditional DOE loan guarantee, April 2022",
+      "year": 2022,
+      "source": {
+        "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
+        "note": "POWER magazine, April 2022"
+      }
+    }
+  ],
+  "advantages": [
+    "Very large, low-cost storage volume",
+    "Fast injection and withdrawal cycles",
+    "Proven for natural gas storage"
+  ],
+  "limitations": [
+    "Needs suitable salt geology",
+    "Brine disposal during construction",
+    "Cushion gas ties up hydrogen"
+  ],
+  "sources": [
+    {
+      "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
+      "note": "POWER magazine, April 2022"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

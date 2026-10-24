@@ -1,0 +1,143 @@
+{
+  "id": "h2-lohc",
+  "name": "Liquid organic hydrogen carriers (MCH, DBT)",
+  "aliases": [
+    "LOHC",
+    "SPERA Hydrogen",
+    "methylcyclohexane",
+    "MCH",
+    "toluene-MCH",
+    "dibenzyltoluene"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen carrier",
+  "applications": [
+    "long-distance hydrogen shipping",
+    "storage in existing oil tanks and tankers"
+  ],
+  "maturity": "demonstration",
+  "principle": "Hydrogen is chemically bound to a liquid carrier, such as toluene to make methylcyclohexane (MCH), by catalytic hydrogenation. The MCH is a stable liquid at ambient conditions and moves in ordinary chemical tankers and tanks. At the destination, catalytic dehydrogenation releases the hydrogen and the toluene returns for reuse.",
+  "process_steps": [
+    {
+      "id": "HYD",
+      "name": "Hydrogenation at export site",
+      "equipment": [
+        "hydrogenation reactor",
+        "heat recovery"
+      ],
+      "to": [
+        "SHIP"
+      ]
+    },
+    {
+      "id": "SHIP",
+      "name": "Storage and shipping of MCH",
+      "equipment": [
+        "atmospheric tanks",
+        "chemical tanker"
+      ],
+      "to": [
+        "DEH"
+      ]
+    },
+    {
+      "id": "DEH",
+      "name": "Dehydrogenation at import site",
+      "equipment": [
+        "dehydrogenation reactor with heat supply",
+        "separator"
+      ],
+      "to": [
+        "PUR",
+        "RET"
+      ],
+      "streams": {
+        "PUR": "hydrogen",
+        "RET": "toluene"
+      }
+    },
+    {
+      "id": "PUR",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "PSA or membrane"
+      ],
+      "to": []
+    },
+    {
+      "id": "RET",
+      "name": "Toluene return",
+      "equipment": [
+        "toluene tanks",
+        "return shipment"
+      ],
+      "to": [
+        "HYD"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "hydrogenation reactor",
+    "dehydrogenation reactor and fired or electric heater",
+    "ambient storage tanks",
+    "hydrogen purification"
+  ],
+  "performance": [
+    {
+      "metric": "demonstration supply chain capacity",
+      "low": 210,
+      "high": 210,
+      "unit": "t H2/yr",
+      "year": 2023,
+      "basis": "Brunei to Kawasaki AHEAD demonstration (NEDO), maximum capacity",
+      "source": {
+        "url": "https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf",
+        "source_id": "chiyoda",
+        "note": "Chiyoda presentation at IEEJ/APERC symposium, 11 October 2023"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Chiyoda",
+      "product": "SPERA Hydrogen (MCH)",
+      "source_id": "chiyoda"
+    },
+    {
+      "name": "Hydrogenious LOHC Technologies",
+      "product": "dibenzyltoluene LOHC"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "AHEAD Brunei to Kawasaki hydrogen supply chain",
+      "country": "BN",
+      "capacity": "up to 210 t/yr hydrogen as MCH",
+      "status": "demonstration completed December 2020",
+      "year": 2020,
+      "source": {
+        "url": "https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf",
+        "source_id": "chiyoda",
+        "note": "Chiyoda presentation at IEEJ/APERC symposium, 11 October 2023"
+      }
+    }
+  ],
+  "advantages": [
+    "Ambient-temperature liquid uses existing oil logistics",
+    "No boil-off losses",
+    "Carrier is reused"
+  ],
+  "limitations": [
+    "Dehydrogenation needs substantial heat at the import site",
+    "Carrier must be shipped back",
+    "Low hydrogen weight fraction"
+  ],
+  "sources": [
+    {
+      "url": "https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf",
+      "source_id": "chiyoda",
+      "note": "Chiyoda presentation at IEEJ/APERC symposium, 11 October 2023"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

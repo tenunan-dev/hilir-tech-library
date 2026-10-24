@@ -1,0 +1,211 @@
+{
+  "id": "h2-pem-electrolysis",
+  "name": "PEM electrolysis",
+  "aliases": [
+    "proton exchange membrane electrolysis",
+    "PEMEL",
+    "polymer electrolyte membrane electrolyser"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / electrolysis",
+  "applications": [
+    "refinery green hydrogen",
+    "grid balancing with variable renewables",
+    "mobility hydrogen",
+    "e-fuels"
+  ],
+  "maturity": "commercial",
+  "principle": "A solid polymer membrane carries protons from anode to cathode. Water is split at an iridium-based anode into oxygen, protons and electrons; protons cross the membrane and combine with electrons at a platinum-based cathode to form hydrogen. DOE gives 70 to 90 °C operation. The compact cell runs at high current density and follows load quickly.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Power conversion",
+      "equipment": [
+        "transformer",
+        "rectifier"
+      ]
+    },
+    {
+      "id": "WAT",
+      "name": "Water purification",
+      "equipment": [
+        "reverse osmosis and deionisation",
+        "ion exchange polishing"
+      ]
+    },
+    {
+      "id": "STK",
+      "name": "PEM stacks",
+      "equipment": [
+        "PEM cell stacks",
+        "water circulation pumps and heat exchangers"
+      ],
+      "to": [
+        "SEPH",
+        "SEPO"
+      ],
+      "streams": {
+        "SEPH": "H2 + water",
+        "SEPO": "O2 + water"
+      }
+    },
+    {
+      "id": "SEPH",
+      "name": "Hydrogen separation",
+      "equipment": [
+        "hydrogen separator"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "SEPO",
+      "name": "Oxygen separation",
+      "equipment": [
+        "oxygen separator and vent"
+      ],
+      "to": []
+    },
+    {
+      "id": "PUR",
+      "name": "Purification and drying",
+      "equipment": [
+        "deoxidiser",
+        "dryer"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression and storage",
+      "equipment": [
+        "hydrogen compressor",
+        "buffer storage"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "transformer and rectifier",
+    "PEM stacks",
+    "water purification",
+    "gas separators",
+    "deoxidiser and dryer",
+    "hydrogen compressor"
+  ],
+  "performance": [
+    {
+      "metric": "operating temperature",
+      "low": 70,
+      "high": 90,
+      "unit": "°C",
+      "basis": "DOE description of PEM electrolysers",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+      }
+    },
+    {
+      "metric": "stack current density (status)",
+      "low": 2.0,
+      "high": 2.0,
+      "unit": "A/cm2",
+      "year": 2023,
+      "basis": "H2NEW PEM stack status, slide 13",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+      }
+    },
+    {
+      "metric": "stack lifetime (status)",
+      "low": 60000,
+      "high": 60000,
+      "unit": "h",
+      "year": 2023,
+      "basis": "H2NEW PEM stack status, slide 13",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "PEM stack capital cost (status; DOE ultimate target 100)",
+      "low": 350,
+      "high": 350,
+      "unit": "USD/kW",
+      "year": 2023,
+      "basis": "H2NEW PEM stack status, slide 13; stack only, not the full system",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Siemens Energy",
+      "product": "Silyzer",
+      "source_id": "siemens-energy"
+    },
+    {
+      "name": "ITM Power",
+      "source_id": "itm-power"
+    },
+    {
+      "name": "Plug Power"
+    },
+    {
+      "name": "Cummins (Accelera)"
+    },
+    {
+      "name": "Nel Hydrogen",
+      "source_id": "nel-hydrogen"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "REFHYNE, Shell Energy and Chemicals Park Rheinland",
+      "country": "DE",
+      "capacity": "10 MW PEM, described by Shell as Europe's largest PEM electrolyser at start-up",
+      "status": "operating",
+      "source": {
+        "url": "https://www.shell.com/news-and-insights/our-stories/green-hydrogen-project-goes-live-in-germany.html",
+        "source_id": "shell-energy-transition",
+        "note": "Shell story, Green hydrogen project goes live in Germany"
+      }
+    }
+  ],
+  "advantages": [
+    "Fast response suits variable renewable power",
+    "High current density and compact footprint",
+    "Pure water feed, no caustic electrolyte"
+  ],
+  "limitations": [
+    "Uses iridium and platinum catalysts",
+    "Stack cost still well above DOE targets",
+    "Strict water purity requirement"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}

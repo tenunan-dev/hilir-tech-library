@@ -1,0 +1,180 @@
+{
+  "id": "h2-atr-ccs",
+  "name": "Autothermal reforming with CO2 capture (blue hydrogen)",
+  "aliases": [
+    "ATR",
+    "blue hydrogen",
+    "SynCOR",
+    "LCH",
+    "low carbon hydrogen"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / reforming with capture",
+  "applications": [
+    "large-scale low-carbon hydrogen",
+    "blue ammonia",
+    "hydrogen for power and industry hubs"
+  ],
+  "maturity": "commercial",
+  "principle": "Natural gas is partly combusted with oxygen from an air separation unit inside the reformer, which supplies the heat for steam reforming in the same vessel. Because there is no large fired furnace, almost all CO2 ends up in the high-pressure shifted syngas, where a solvent unit removes it at high capture rates. A small fired heater remains for preheating.",
+  "process_steps": [
+    {
+      "id": "ASU",
+      "name": "Oxygen supply",
+      "equipment": [
+        "air separation unit"
+      ],
+      "to": [
+        "ATR"
+      ]
+    },
+    {
+      "id": "FEED",
+      "name": "Feed preheat and desulfurisation",
+      "equipment": [
+        "fired heater",
+        "hydrodesulfurisation and ZnO beds",
+        "pre-reformer"
+      ],
+      "to": [
+        "ATR"
+      ]
+    },
+    {
+      "id": "ATR",
+      "name": "Autothermal reforming",
+      "equipment": [
+        "refractory-lined ATR reactor with burner and catalyst bed",
+        "waste heat boiler"
+      ],
+      "to": [
+        "WGS"
+      ]
+    },
+    {
+      "id": "WGS",
+      "name": "Water-gas shift",
+      "equipment": [
+        "shift reactors",
+        "process gas coolers"
+      ]
+    },
+    {
+      "id": "AGR",
+      "name": "CO2 removal",
+      "equipment": [
+        "MDEA absorber and stripper"
+      ],
+      "to": [
+        "PSA",
+        "CO2"
+      ],
+      "streams": {
+        "PSA": "hydrogen-rich gas",
+        "CO2": "CO2"
+      }
+    },
+    {
+      "id": "PSA",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "pressure swing adsorption unit"
+      ],
+      "to": []
+    },
+    {
+      "id": "CO2",
+      "name": "CO2 compression and drying",
+      "equipment": [
+        "CO2 compressor",
+        "dehydration unit"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "air separation unit",
+    "ATR reactor",
+    "fired heater",
+    "shift reactors",
+    "MDEA CO2 removal",
+    "PSA unit",
+    "CO2 compressor"
+  ],
+  "performance": [
+    {
+      "metric": "CO2 capture rate (NETL reference case)",
+      "low": 94.5,
+      "high": 94.5,
+      "unit": "%",
+      "year": 2022,
+      "basis": "NETL ATR case",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+      }
+    },
+    {
+      "metric": "plant hydrogen output (NETL reference case)",
+      "low": 660000,
+      "high": 660000,
+      "unit": "kg H2/day",
+      "year": 2022,
+      "basis": "NETL ATR case design capacity",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "levelized cost of hydrogen, ATR with 94.5% capture",
+      "low": 1.51,
+      "high": 1.59,
+      "unit": "USD/kg H2",
+      "year": 2018,
+      "basis": "NETL 2022; natural gas USD 4.42/MMBtu, 90% capacity factor, CO2 transport and storage at USD 10/t where included; low excludes and high includes CO2 transport and storage",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Topsoe",
+      "product": "SynCOR",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Johnson Matthey (Honeywell)",
+      "product": "LCH"
+    },
+    {
+      "name": "Air Products",
+      "source_id": "air-products-tech"
+    }
+  ],
+  "advantages": [
+    "Higher capture rate than SMR without a separate flue gas capture unit",
+    "Large single trains suit hydrogen hubs and blue ammonia",
+    "Slightly lower NETL cost than SMR with capture"
+  ],
+  "limitations": [
+    "Needs an air separation unit and its power",
+    "Residual emissions from the fired heater and upstream methane",
+    "Depends on CO2 transport and storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+      "source_id": "netl",
+      "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, 12 April 2022, Exhibits ES-1, ES-2, ES-5"
+    }
+  ],
+  "last_reviewed": "2026-10-24"
+}
