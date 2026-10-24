@@ -134,6 +134,32 @@
         "source_id": "doe-hfto",
         "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
       }
+    },
+    {
+      "metric": "system electricity use (status, beginning of life)",
+      "low": 55,
+      "high": 55,
+      "unit": "kWh/kg H2",
+      "year": 2024,
+      "basis": "DOE status; stack 51 kWh/kg; DOE ultimate target system 46",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    },
+    {
+      "metric": "stack lifetime (status)",
+      "low": 40000,
+      "high": 40000,
+      "unit": "h",
+      "year": 2024,
+      "basis": "DOE status table; ultimate target 80,000 h",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
     }
   ],
   "costs": [
@@ -148,6 +174,45 @@
         "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
         "source_id": "doe-hfto",
         "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+      }
+    },
+    {
+      "metric": "uninstalled system capital cost (status)",
+      "low": 700,
+      "high": 1100,
+      "unit": "USD/kW",
+      "year": 2020,
+      "basis": "DOE H2A-Lite current status, 50 t/day plant, stack plus balance of plant; installed about 2x (1,400-2,200)",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    },
+    {
+      "metric": "levelized cost of hydrogen, hybrid wind-PV power",
+      "low": 4.4,
+      "high": 6.0,
+      "unit": "USD/kg H2",
+      "year": 2022,
+      "basis": "DOE record 24005; 74% capacity factor, 3.3 cents/kWh; low at USD 1,500/kW and high at 2,500/kW installed capex (baseline 2,000 gives 5.20)",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Program Record 24005, Clean Hydrogen Production Cost Scenarios with PEM Electrolyzer Technology, 2024, Table 2"
+      }
+    },
+    {
+      "metric": "levelized cost of hydrogen, average US grid power",
+      "low": 6.8,
+      "high": 8.2,
+      "unit": "USD/kg H2",
+      "year": 2022,
+      "basis": "DOE record 24005; 97% capacity factor, 8.3 cents/kWh; installed capex USD 1,500-2,500/kW",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Program Record 24005, Clean Hydrogen Production Cost Scenarios with PEM Electrolyzer Technology, 2024, Table 2"
       }
     }
   ],
@@ -205,7 +270,18 @@
       "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
       "source_id": "doe-hfto",
       "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+    },
+    {
+      "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Program Record 24005, Clean Hydrogen Production Cost Scenarios with PEM Electrolyzer Technology, 2024, Table 2"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "notes": "The two DOE sources give different stack lifetimes for today's PEM status (60,000 h in the January 2023 H2NEW webinar, 40,000 h in the December 2024 Hydrogen Shot assessment). Both are kept with their sources."
 }

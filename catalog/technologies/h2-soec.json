@@ -125,6 +125,19 @@
         "source_id": "doe-hfto",
         "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
       }
+    },
+    {
+      "metric": "system energy use including heat (status)",
+      "low": 47,
+      "high": 47,
+      "unit": "kWh/kg H2",
+      "year": 2024,
+      "basis": "DOE status for oxide-ion SOEC; electrical stack 34 kWh/kg; target 42 including heat",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
     }
   ],
   "suppliers": [
@@ -177,7 +190,27 @@
     },
     {
       "url": "https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark"
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "costs": [
+    {
+      "metric": "uninstalled system capital cost (status)",
+      "low": 2000,
+      "high": 2500,
+      "unit": "USD/kW",
+      "year": 2020,
+      "basis": "Idaho National Laboratory estimate quoted by DOE for oxide-ion SOEC, giving 7.00-8.00 USD/kg H2 on grid power with gas for heat; DOE ultimate target 200",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    }
+  ]
 }

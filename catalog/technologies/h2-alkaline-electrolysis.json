@@ -124,6 +124,32 @@
         "source_id": "ammonia-energy",
         "note": "Ammonia Energy Association, 16 January 2022"
       }
+    },
+    {
+      "metric": "system electricity use (status, beginning of life)",
+      "low": 55,
+      "high": 55,
+      "unit": "kWh/kg H2",
+      "year": 2024,
+      "basis": "DOE status for liquid alkaline; stack 51 kWh/kg; ultimate target system 48",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    },
+    {
+      "metric": "stack lifetime (status)",
+      "low": 60000,
+      "high": 60000,
+      "unit": "h",
+      "year": 2024,
+      "basis": "DOE status table for liquid alkaline; 0.5 A/cm2 at 1.9 V",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
     }
   ],
   "suppliers": [
@@ -235,8 +261,28 @@
     {
       "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
       "note": "POWER magazine, April 2022"
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
     }
   ],
   "notes": "Electrolyser model for Sinopec Kuqa is not stated in the press release read; the card does not assume one.",
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-24",
+  "costs": [
+    {
+      "metric": "uninstalled system capital cost (status)",
+      "low": 500,
+      "high": 750,
+      "unit": "USD/kW",
+      "year": 2020,
+      "basis": "DOE H2A-Lite current status for liquid alkaline, 50 t/day plant, based on 4.5 MW stacks and 10 MW modules; installed about 2x (1,000-1,500)",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    }
+  ]
 }

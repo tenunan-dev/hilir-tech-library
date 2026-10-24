@@ -4,17 +4,17 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Alkaline water electrolysis](#h2-alkaline-electrolysis) | Hydrogen production / electrolysis | commercial |  | Thyssenkrupp nucera (20 MW alkaline water electrolysis module); John Cockerill; LONGi Hydrogen; PERIC; Nel Hydrogen; HydrogenPro |  |
+| [Alkaline water electrolysis](#h2-alkaline-electrolysis) | Hydrogen production / electrolysis | commercial |  | Thyssenkrupp nucera (20 MW alkaline water electrolysis module); John Cockerill; LONGi Hydrogen; PERIC; Nel Hydrogen; HydrogenPro | uninstalled system capital cost (status): 500-750 USD/kW (2020$) |
 | [Autothermal reforming with CO2 capture (blue hydrogen)](#h2-atr-ccs) | Hydrogen production / reforming with capture | commercial |  | Topsoe (SynCOR); Johnson Matthey (Honeywell) (LCH); Air Products | levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$) |
 | [Liquid hydrogen](#h2-liquid-hydrogen) | Hydrogen carrier / liquefaction | commercial |  | Linde Engineering; Air Products; Kawasaki Heavy Industries (LH2 carrier and terminal) |  |
-| [PEM electrolysis](#h2-pem-electrolysis) | Hydrogen production / electrolysis | commercial |  | Siemens Energy (Silyzer); ITM Power; Plug Power; Cummins (Accelera); Nel Hydrogen | PEM stack capital cost (status; DOE ultimate target 100): 350 USD/kW (2023$) |
+| [PEM electrolysis](#h2-pem-electrolysis) | Hydrogen production / electrolysis | commercial |  | Siemens Energy (Silyzer); ITM Power; Plug Power; Cummins (Accelera); Nel Hydrogen | PEM stack capital cost (status; DOE ultimate target 100): 350 USD/kW (2023$)<br>uninstalled system capital cost (status): 700-1100 USD/kW (2020$)<br>levelized cost of hydrogen, hybrid wind-PV power: 4.4-6 USD/kg H2 (2022$)<br>levelized cost of hydrogen, average US grid power: 6.8-8.2 USD/kg H2 (2022$) |
 | [Steam methane reforming](#h2-smr) | Hydrogen production / reforming | commercial |  | Topsoe; Air Liquide; Technip Energies; Linde Engineering; Air Products | levelized cost of hydrogen, SMR without capture: 1.06 USD/kg H2 (2018$)<br>levelized cost of hydrogen, SMR with 96.2% CO2 capture: 1.54-1.64 USD/kg H2 (2018$) |
 | [Ammonia as hydrogen carrier and ammonia cracking](#h2-ammonia-cracking) | Hydrogen carrier / reconversion | demonstration |  | KBR (H2ACT); Topsoe; Johnson Matthey (Honeywell); Air Products |  |
 | [Green and blue ammonia](#h2-green-blue-ammonia) | Hydrogen derivative / ammonia synthesis | demonstration |  | Topsoe; KBR; Thyssenkrupp Uhde; Casale; Air Products |  |
 | [Hydrogen storage in salt caverns](#h2-salt-cavern-storage) | Hydrogen storage | demonstration |  | Mitsubishi Power; Magnum Development; HyStock (Gasunie) |  |
 | [Liquid organic hydrogen carriers (MCH, DBT)](#h2-lohc) | Hydrogen carrier | demonstration |  | Chiyoda (SPERA Hydrogen (MCH)); Hydrogenious LOHC Technologies (dibenzyltoluene LOHC) |  |
 | [Methane pyrolysis (turquoise hydrogen)](#h2-methane-pyrolysis) | Hydrogen production / pyrolysis | demonstration |  | Monolith (plasma methane pyrolysis); BASF (methane pyrolysis pilot); Hazer Group |  |
-| [Solid oxide electrolysis](#h2-soec) | Hydrogen production / electrolysis | demonstration |  | Topsoe (SOEC electrolyser (Herning factory, 500 MW/yr initial)); Bloom Energy; Sunfire |  |
+| [Solid oxide electrolysis](#h2-soec) | Hydrogen production / electrolysis | demonstration |  | Topsoe (SOEC electrolyser (Herning factory, 500 MW/yr initial)); Bloom Energy; Sunfire | uninstalled system capital cost (status): 2000-2500 USD/kW (2020$) |
 | [AEM electrolysis](#h2-aem-electrolysis) | Hydrogen production / electrolysis | pilot |  | Enapter (AEM Nexus 1000 and smaller modules) |  |
 
 ## Alkaline water electrolysis
@@ -44,6 +44,11 @@ flowchart LR
 **Performance:**
 - operating temperature: 60-90 °C; DOE description of alkaline electrolysers. [source](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis)
 - standard module size (thyssenkrupp): 20 MW; thyssenkrupp 20 MW alkaline module used for NEOM and Holland Hydrogen 1. [source](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom)
+- system electricity use (status, beginning of life): 55 kWh/kg H2; DOE status for liquid alkaline; stack 51 kWh/kg; ultimate target system 48. [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
+- stack lifetime (status): 60000 h; DOE status table for liquid alkaline; 0.5 A/cm2 at 1.9 V. [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
+
+**Costs:**
+- uninstalled system capital cost (status): 500-750 USD/kW (2020$); DOE H2A-Lite current status for liquid alkaline, 50 t/day plant, based on 4.5 MW stacks and 10 MW modules; installed about 2x (1,000-1,500). [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
 
 **Reference plants:**
 - NEOM Green Hydrogen Project, SA: 2 GW+ alkaline electrolysis in 20 MW modules (thyssenkrupp), 600 t/day hydrogen; electrolyser commissioning after 4 GW renewables due mid-2026; first product expected 2027. [source](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/)
@@ -51,7 +56,7 @@ flowchart LR
 - Holland Hydrogen 1 (Shell), Rotterdam, NL: 200 MW, thyssenkrupp 20 MW alkaline modules; hydrogen piped about 40 km to Shell Energy and Chemicals Park Rotterdam; announced January 2022 with start of production intended for 2024. [source](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html)
 - ACES Delta, Utah, US: 220 MW alkaline (HydrogenPro), up to 100 t/day hydrogen stored in salt caverns; USD 504.4 million conditional DOE loan guarantee, April 2022. [source](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/)
 
-Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom), [3](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [4](https://www.aap.com.au/aapreleases/cision20230703ae48443), [5](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html), [6](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/). Last reviewed 2026-10-24.
+Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom), [3](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [4](https://www.aap.com.au/aapreleases/cision20230703ae48443), [5](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html), [6](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/), [7](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf). Last reviewed 2026-10-24.
 
 ## Autothermal reforming with CO2 capture (blue hydrogen)
 <a id="h2-atr-ccs"></a>
@@ -145,14 +150,19 @@ flowchart LR
 - operating temperature: 70-90 °C; DOE description of PEM electrolysers. [source](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis)
 - stack current density (status): 2 A/cm2; H2NEW PEM stack status, slide 13. [source](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf)
 - stack lifetime (status): 60000 h; H2NEW PEM stack status, slide 13. [source](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf)
+- system electricity use (status, beginning of life): 55 kWh/kg H2; DOE status; stack 51 kWh/kg; DOE ultimate target system 46. [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
+- stack lifetime (status): 40000 h; DOE status table; ultimate target 80,000 h. [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
 
 **Costs:**
 - PEM stack capital cost (status; DOE ultimate target 100): 350 USD/kW (2023$); H2NEW PEM stack status, slide 13; stack only, not the full system. [source](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf)
+- uninstalled system capital cost (status): 700-1100 USD/kW (2020$); DOE H2A-Lite current status, 50 t/day plant, stack plus balance of plant; installed about 2x (1,400-2,200). [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
+- levelized cost of hydrogen, hybrid wind-PV power: 4.4-6 USD/kg H2 (2022$); DOE record 24005; 74% capacity factor, 3.3 cents/kWh; low at USD 1,500/kW and high at 2,500/kW installed capex (baseline 2,000 gives 5.20). [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf)
+- levelized cost of hydrogen, average US grid power: 6.8-8.2 USD/kg H2 (2022$); DOE record 24005; 97% capacity factor, 8.3 cents/kWh; installed capex USD 1,500-2,500/kW. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf)
 
 **Reference plants:**
 - REFHYNE, Shell Energy and Chemicals Park Rheinland, DE: 10 MW PEM, described by Shell as Europe's largest PEM electrolyser at start-up; operating. [source](https://www.shell.com/news-and-insights/our-stories/green-hydrogen-project-goes-live-in-germany.html)
 
-Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf). Last reviewed 2026-10-24.
+Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf), [3](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [4](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf). Last reviewed 2026-10-24.
 
 ## Steam methane reforming
 <a id="h2-smr"></a>
@@ -362,11 +372,15 @@ flowchart LR
 - operating temperature: 650-850 °C; DOE description of solid oxide electrolysers. [source](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis)
 - system electrical energy use (2022 status): 38 kWh/kg H2; H2NEW SOEC 2022 status, slide 36; stack 34 kWh/kg; total including heat 47 kWh/kg. [source](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf)
 - stack lifetime (2022 status): 20000 h; H2NEW SOEC 2022 status, slide 36. [source](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf)
+- system energy use including heat (status): 47 kWh/kg H2; DOE status for oxide-ion SOEC; electrical stack 34 kWh/kg; target 42 including heat. [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
+
+**Costs:**
+- uninstalled system capital cost (status): 2000-2500 USD/kW (2020$); Idaho National Laboratory estimate quoted by DOE for oxide-ion SOEC, giving 7.00-8.00 USD/kg H2 on grid power with gas for heat; DOE ultimate target 200. [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
 
 **Reference plants:**
 - Topsoe SOEC manufacturing plant, Herning, DK: initially 500 MW of electrolysers per year; first offtakers First Ammonia (Texas) and Forestal (e-methanol, Spain); inaugurated November 2025. [source](https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark)
 
-Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf), [3](https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark). Last reviewed 2026-10-24.
+Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf), [3](https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark), [4](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf). Last reviewed 2026-10-24.
 
 ## AEM electrolysis
 <a id="h2-aem-electrolysis"></a>
