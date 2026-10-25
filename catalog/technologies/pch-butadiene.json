@@ -1,0 +1,155 @@
+{
+  "id": "pch-butadiene",
+  "name": "Butadiene extraction and on-purpose butadiene",
+  "aliases": [
+    "butadiene extraction",
+    "CATADIENE",
+    "on-purpose butadiene"
+  ],
+  "sector": "PCH",
+  "category": "Intermediates / C4",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Butadiene is extracted from steam-cracker crude C4 with N-methylpyrrolidone (NMP) solvent; on-purpose routes dehydrogenate n-butane (CATADIENE) or butenes. Lummus has licensed the BASF extraction process since 1990, with 38 plants over 4 Mtpa, recovering more than 99% of the butadiene at 99.7 wt% purity.",
+  "process_steps": [
+    {
+      "id": "EXT",
+      "name": "Extractive distillation with NMP",
+      "equipment": [
+        "extractive distillation columns"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "PUR",
+      "name": "Purification to 99.7 wt%",
+      "equipment": [
+        "fractionation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "extractive distillation columns",
+    "solvent regeneration",
+    "fractionation"
+  ],
+  "suppliers": [
+    {
+      "name": "Lummus Technology",
+      "product": "butadiene extraction (BASF process); CATADIENE",
+      "source_id": "lummus"
+    },
+    {
+      "name": "BASF",
+      "product": "NMP extraction process",
+      "source_id": "basf-catalysts"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "butadiene recovery",
+      "unit": "%",
+      "basis": "more than 99% of feed 1,3-butadiene; product 99.7 wt%",
+      "source": {
+        "url": "https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf",
+        "source_id": "lummus",
+        "note": "Lummus Technology, butadiene extraction technology sheet, 15 September 2020"
+      },
+      "low": 99
+    },
+    {
+      "metric": "installed licensed capacity",
+      "unit": "Mtpa",
+      "basis": "38 plants worldwide",
+      "source": {
+        "url": "https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf",
+        "source_id": "lummus",
+        "note": "Lummus Technology, butadiene extraction technology sheet, 15 September 2020"
+      },
+      "low": 4
+    }
+  ],
+  "advantages": [
+    "Large installed base"
+  ],
+  "limitations": [
+    "On-purpose dehydrogenation details not in the sheet read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf",
+      "source_id": "lummus",
+      "note": "Lummus Technology, butadiene extraction technology sheet, 15 September 2020"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "process",
+      "item": "CATADIENE and other on-purpose routes",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only the extraction sheet was read.",
+      "where": [
+        {
+          "hint": "Lummus CATADIENE page",
+          "access": "open",
+          "source_id": "lummus"
+        }
+      ],
+      "action": "Add dehydrogenation data."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "pch-ethylene-oxide-glycols",
+  "name": "Ethylene oxide and glycols",
+  "aliases": [
+    "ethylene oxide",
+    "ethylene glycol",
+    "MEG",
+    "OMEGA"
+  ],
+  "sector": "PCH",
+  "category": "Intermediates / EO-EG",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Ethylene is oxidised with oxygen over a silver catalyst to ethylene oxide, which is hydrated to ethylene glycols. High-selectivity catalysts reached 90% or more start-of-cycle selectivity, and a two-step catalytic route via ethylene carbonate (Shell OMEGA) gives more than 99% MEG against 90 to 92% for thermal hydration.",
+  "process_steps": [
+    {
+      "id": "OX",
+      "name": "Ethylene oxidation",
+      "equipment": [
+        "EO reactor with silver catalyst"
+      ],
+      "to": [
+        "ABS"
+      ]
+    },
+    {
+      "id": "ABS",
+      "name": "EO absorption and stripping",
+      "equipment": [
+        "EO absorber",
+        "EO stripper"
+      ],
+      "to": [
+        "HYD"
+      ]
+    },
+    {
+      "id": "HYD",
+      "name": "Hydration to glycols (thermal or catalytic)",
+      "equipment": [
+        "glycol reactor"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "PUR",
+      "name": "Glycol purification",
+      "equipment": [
+        "evaporators",
+        "columns"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "EO reactor",
+    "CO2 removal system",
+    "EO absorber and stripper",
+    "glycol reactor",
+    "glycol columns"
+  ],
+  "suppliers": [
+    {
+      "name": "Shell",
+      "product": "OMEGA, EO catalysts",
+      "source_id": "shell-catalysts"
+    },
+    {
+      "name": "Dow",
+      "product": "METEOR (register examples)"
+    },
+    {
+      "name": "Scientific Design",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "EO catalyst selectivity, high-selectivity types",
+      "unit": "%",
+      "basis": "start of cycle: early HS at least 86%, later HS 90% or more; HP averaged about 87% in one plant",
+      "source": {
+        "url": "https://catalysts.shell.com/hubfs/Content%20Library/SCT%20-%20Enhancements%20in%20EOEG%20Manufacturing%20Technology.pdf",
+        "source_id": "shell-catalysts",
+        "note": "Shell Catalysts & Technologies, Enhancements in EO/EG manufacturing technology"
+      },
+      "low": 86,
+      "high": 90
+    },
+    {
+      "metric": "MEG yield, catalytic two-step versus thermal",
+      "unit": "%",
+      "basis": "thermal 90 to 92%; catalytic more than 99%",
+      "source": {
+        "url": "https://catalysts.shell.com/hubfs/Content%20Library/SCT%20-%20Enhancements%20in%20EOEG%20Manufacturing%20Technology.pdf",
+        "source_id": "shell-catalysts",
+        "note": "Shell Catalysts & Technologies, Enhancements in EO/EG manufacturing technology"
+      },
+      "low": 90,
+      "high": 99
+    }
+  ],
+  "advantages": [
+    "Catalytic route gives more MEG per EO"
+  ],
+  "limitations": [
+    "The document does not name OMEGA or give licensed plant counts"
+  ],
+  "sources": [
+    {
+      "url": "https://catalysts.shell.com/hubfs/Content%20Library/SCT%20-%20Enhancements%20in%20EOEG%20Manufacturing%20Technology.pdf",
+      "source_id": "shell-catalysts",
+      "note": "Shell Catalysts & Technologies, Enhancements in EO/EG manufacturing technology"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "OMEGA plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in this paper.",
+      "where": [
+        {
+          "hint": "Shell OMEGA page",
+          "access": "open",
+          "source_id": "shell-catalysts"
+        }
+      ],
+      "action": "Add plants."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

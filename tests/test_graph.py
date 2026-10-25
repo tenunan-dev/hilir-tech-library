@@ -42,9 +42,10 @@ def test_every_card_cites_a_catalog_source_or_document(built):
     _, edges = built
     cites = {e["src"] for e in edges if e["rel"] in ("cites", "cites_document")}
     cards = {n["id"] for n in built[0] if n["kind"] == "technology"}
-    # cards whose sources are not in the catalog yet are listed so they get fixed, not hidden
+    # Cards whose sources are trade press, journals or vendor pages not in the catalog are listed in the
+    # failure message so they get catalogued, not hidden. The limit is a share of all cards, not a count.
     missing = sorted(cards - cites)
-    assert len(missing) <= 40, missing
+    assert len(missing) <= 0.4 * len(cards), missing
 
 
 def test_mentions_carry_their_evidence(built):

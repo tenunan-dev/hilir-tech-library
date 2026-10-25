@@ -1,0 +1,156 @@
+{
+  "id": "pch-linear-alpha-olefins",
+  "name": "Linear alpha olefins",
+  "aliases": [
+    "LAO",
+    "alpha-SABLIN",
+    "alpha olefins"
+  ],
+  "sector": "PCH",
+  "category": "Intermediates / LAO",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Ethylene is oligomerised to a range of linear alpha olefins (butene-1, hexene-1, octene-1 up to heavy cuts). SABIC and Linde's alpha-SABLIN is a one-stage homogeneous process; the Jubail plant was contracted in 2004, designed for 150,000 t/yr, and commercialised by 30 November 2009.",
+  "process_steps": [
+    {
+      "id": "OLG",
+      "name": "Ethylene oligomerisation",
+      "equipment": [
+        "reactor"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Catalyst removal and fractionation",
+      "equipment": [
+        "separation",
+        "fractionation columns"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "oligomerisation reactor",
+    "catalyst deactivation and removal",
+    "fractionation columns"
+  ],
+  "suppliers": [
+    {
+      "name": "SABIC and Linde",
+      "product": "alpha-SABLIN",
+      "source_id": "linde-engineering"
+    },
+    {
+      "name": "Axens",
+      "product": "AlphaButol (register examples)",
+      "source_id": "axens"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Jubail LAO plant design capacity",
+      "unit": "t/yr",
+      "basis": "Jubail United Petrochemical Co.",
+      "source": {
+        "url": "https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing",
+        "note": "Chemical Processing, SABIC and Linde successfully commercialize linear alpha olefins (30 November 2009)"
+      },
+      "low": 150000,
+      "high": 150000
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Jubail United alpha-SABLIN LAO plant",
+      "country": "SA",
+      "capacity": "150,000 t/yr",
+      "year": 2009,
+      "source": {
+        "url": "https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing",
+        "note": "Chemical Processing, SABIC and Linde successfully commercialize linear alpha olefins (30 November 2009)"
+      }
+    }
+  ],
+  "advantages": [
+    "Full range of high-purity LAOs (company claim)"
+  ],
+  "limitations": [
+    "No selectivity data in the article"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing",
+      "note": "Chemical Processing, SABIC and Linde successfully commercialize linear alpha olefins (30 November 2009)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "product distribution and selectivity",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the article.",
+      "where": [
+        {
+          "hint": "Linde alpha-SABLIN brochure",
+          "access": "open",
+          "source_id": "linde-engineering"
+        }
+      ],
+      "action": "Add distribution."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

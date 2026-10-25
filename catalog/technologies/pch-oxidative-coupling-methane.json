@@ -1,0 +1,180 @@
+{
+  "id": "pch-oxidative-coupling-methane",
+  "name": "Oxidative coupling of methane",
+  "aliases": [
+    "OCM",
+    "methane to ethylene"
+  ],
+  "sector": "PCH",
+  "category": "Olefins / gas-to-olefins",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Methane and oxygen react over a catalyst to give ethylene directly, avoiding steam cracking of ethane or naphtha. Siluria started a demonstration plant at La Porte, Texas, co-located with Braskem America, in about December 2014, and said initial campaigns replicated pilot-scale performance; commercial plants were then planned for 2017 to 2018.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Methane and oxygen feed",
+      "equipment": [
+        "air separation"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "OCM reactor",
+      "equipment": [
+        "OCM reactor"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Ethylene recovery and recycle",
+      "equipment": [
+        "separation train"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "OCM reactor",
+    "oxygen supply",
+    "ethylene recovery",
+    "recycle compressors"
+  ],
+  "suppliers": [
+    {
+      "name": "Siluria Technologies",
+      "product": "OCM demonstration (company later acquired; ownership not covered by the source)"
+    },
+    {
+      "name": "Lummus Technology",
+      "product": "register examples",
+      "source_id": "lummus"
+    },
+    {
+      "name": "Linde",
+      "product": "partner named in Siluria release",
+      "source_id": "linde-engineering"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Siluria OCM demonstration plant, La Porte, Texas",
+      "country": "US",
+      "year": 2014,
+      "source": {
+        "url": "https://digitalrefining.com/news/1003450/siluria-technologies-starts-up-first-demonstration-plant-to-convert-natural-gas-to-ethylene",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining, Siluria starts up first demonstration plant (La Porte, Texas), 4 January 2015"
+      }
+    }
+  ],
+  "advantages": [
+    "Direct route from natural gas to ethylene (company claim)"
+  ],
+  "limitations": [
+    "The article gives no capacity or yield",
+    "Commercial plants planned for 2017/2018 are not confirmed in the source"
+  ],
+  "sources": [
+    {
+      "url": "https://digitalrefining.com/news/1003450/siluria-technologies-starts-up-first-demonstration-plant-to-convert-natural-gas-to-ethylene",
+      "source_id": "ptq-digital-refining",
+      "note": "Digital Refining, Siluria starts up first demonstration plant (La Porte, Texas), 4 January 2015"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "status",
+      "item": "what happened after the 2014 demonstration",
+      "reason_code": "status_unchecked",
+      "reason": "The source is from 2015.",
+      "where": [
+        {
+          "hint": "Lummus and Siluria later announcements",
+          "access": "open"
+        }
+      ],
+      "action": "Check current status."
+    },
+    {
+      "field": "performance",
+      "item": "key performance figures (energy use, yields, capture or conversion rate)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives performance figures.",
+      "where": [
+        {
+          "hint": "Supplier datasheets and brochures for the companies listed on the card",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Add the figures that matter for comparing options, each with its basis and source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

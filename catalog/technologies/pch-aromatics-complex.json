@@ -1,0 +1,208 @@
+{
+  "id": "pch-aromatics-complex",
+  "name": "Aromatics complexes (paraxylene, benzene)",
+  "aliases": [
+    "aromatics complex",
+    "Parex",
+    "paraxylene",
+    "Isomar"
+  ],
+  "sector": "PCH",
+  "category": "Aromatics",
+  "applications": [
+    "PTA and PET",
+    "benzene for styrene"
+  ],
+  "maturity": "commercial",
+  "principle": "A naphtha reformer makes aromatics, which are extracted and fractionated; paraxylene is recovered by adsorption (Parex), the other xylenes are isomerised (Isomar) and toluene is converted to xylenes and benzene (Tatoray). Hengyi's Brunei complex adds an LD Parex unit recovering 2.3 Mtpa of paraxylene, taking total paraxylene capacity above 3.8 Mtpa.",
+  "process_steps": [
+    {
+      "id": "REF",
+      "name": "Naphtha reforming",
+      "equipment": [
+        "CCR Platforming"
+      ],
+      "to": [
+        "EXT"
+      ]
+    },
+    {
+      "id": "EXT",
+      "name": "Aromatics extraction",
+      "equipment": [
+        "sulfolane unit"
+      ],
+      "to": [
+        "FRC"
+      ]
+    },
+    {
+      "id": "FRC",
+      "name": "Fractionation",
+      "equipment": [
+        "splitters"
+      ],
+      "to": [
+        "PRX"
+      ]
+    },
+    {
+      "id": "PRX",
+      "name": "Paraxylene recovery",
+      "equipment": [
+        "Parex adsorption"
+      ],
+      "to": [
+        "ISO"
+      ]
+    },
+    {
+      "id": "ISO",
+      "name": "Xylene isomerisation",
+      "equipment": [
+        "Isomar"
+      ],
+      "to": [
+        "PRX"
+      ]
+    },
+    {
+      "id": "TDP",
+      "name": "Toluene and C9+ conversion",
+      "equipment": [
+        "Tatoray"
+      ],
+      "to": [
+        "FRC"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "CCR reformer",
+    "sulfolane extraction",
+    "Parex adsorption chamber",
+    "Isomar reactor",
+    "Tatoray reactor",
+    "fractionation"
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "CCR Platforming, Parex, Isomar, Tatoray, Sulfolane",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Axens",
+      "product": "aromatics (register examples)",
+      "source_id": "axens"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "LD Parex paraxylene recovery at Hengyi Brunei",
+      "unit": "Mtpa",
+      "basis": "total paraxylene capacity above 3.8 Mtpa after Phase 2",
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+      },
+      "low": 2.3,
+      "high": 2.3
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hengyi Industries aromatics expansion, Pulau Muara Besar",
+      "country": "BN",
+      "capacity": "2.3 Mtpa Parex; total PX above 3.8 Mtpa",
+      "status": "Phase 2 commissioning scheduled for 2022 in the article",
+      "year": 2022,
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+      }
+    }
+  ],
+  "advantages": [
+    "UOP says the configuration more than doubles PX yield from naphtha"
+  ],
+  "limitations": [
+    "The article has a units error on crude capacity"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "energy use and overall PX yield per tonne naphtha",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only a UOP claim of doubling PX yield.",
+      "where": [
+        {
+          "hint": "UOP aromatics brochures",
+          "access": "open",
+          "source_id": "honeywell-uop"
+        }
+      ],
+      "action": "Add yields."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

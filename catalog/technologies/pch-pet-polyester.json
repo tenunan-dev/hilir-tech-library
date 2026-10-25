@@ -1,0 +1,179 @@
+{
+  "id": "pch-pet-polyester",
+  "name": "PET and polyester",
+  "aliases": [
+    "PET",
+    "polyester",
+    "MTR process"
+  ],
+  "sector": "PCH",
+  "category": "Polymers / polyesters",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Terephthalic acid or dimethyl terephthalate is reacted with ethylene glycol to make PET by continuous melt polycondensation. thyssenkrupp Uhde Inventa-Fischer's Melt-To-Resin (MTR) process uses a two-reactor design (ESPREE and DISCAGE) and skips the separate solid-state step; a 324,000 t/yr plant for KÖKSAN in Turkey is planned for 2028.",
+  "process_steps": [
+    {
+      "id": "ESTER",
+      "name": "Esterification",
+      "equipment": [
+        "esterification reactor"
+      ],
+      "to": [
+        "PRE"
+      ]
+    },
+    {
+      "id": "PRE",
+      "name": "Pre-polycondensation (ESPREE)",
+      "equipment": [
+        "ESPREE reactor"
+      ],
+      "to": [
+        "POLY"
+      ]
+    },
+    {
+      "id": "POLY",
+      "name": "Polycondensation (DISCAGE)",
+      "equipment": [
+        "DISCAGE reactor"
+      ],
+      "to": [
+        "PELL"
+      ]
+    },
+    {
+      "id": "PELL",
+      "name": "Pelletising",
+      "equipment": [
+        "pelletiser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "esterification reactor",
+    "ESPREE reactor",
+    "DISCAGE reactor",
+    "vacuum system",
+    "pelletiser"
+  ],
+  "suppliers": [
+    {
+      "name": "thyssenkrupp Uhde Inventa-Fischer",
+      "product": "MTR process",
+      "source_id": "thyssenkrupp-uhde"
+    },
+    {
+      "name": "Sulzer",
+      "product": "register examples",
+      "source_id": "sulzer"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "KÖKSAN plant capacity",
+      "unit": "t/yr PET resin",
+      "basis": "about 888 t/d (calculated); commissioning planned 2028",
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2026/04/thyssenkrupp-uhde-to-build-a-low-emission-polyester-plant-for-koksan-in-turkey/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing, thyssenkrupp Uhde to build a low-emission polyester plant for KÖKSAN in Turkey, April 2026"
+      },
+      "low": 324000,
+      "high": 324000
+    },
+    {
+      "metric": "energy-related carbon footprint reduction claimed for MTR",
+      "unit": "% (up to)",
+      "basis": "fuel and electrical energy; vendor claim",
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2026/04/thyssenkrupp-uhde-to-build-a-low-emission-polyester-plant-for-koksan-in-turkey/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing, thyssenkrupp Uhde to build a low-emission polyester plant for KÖKSAN in Turkey, April 2026"
+      },
+      "low": 30,
+      "high": 30
+    }
+  ],
+  "advantages": [
+    "Single melt-to-resin line"
+  ],
+  "limitations": [
+    "Vendor claim only on emissions"
+  ],
+  "sources": [
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2026/04/thyssenkrupp-uhde-to-build-a-low-emission-polyester-plant-for-koksan-in-turkey/",
+      "source_id": "hydrocarbon-processing",
+      "note": "Hydrocarbon Processing, thyssenkrupp Uhde to build a low-emission polyester plant for KÖKSAN in Turkey, April 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operating MTR plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only a planned plant read.",
+      "where": [
+        {
+          "hint": "Uhde Inventa-Fischer references",
+          "access": "open",
+          "source_id": "thyssenkrupp-uhde"
+        }
+      ],
+      "action": "Add operating references."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

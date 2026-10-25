@@ -1,0 +1,156 @@
+{
+  "id": "pch-mechanical-recycling",
+  "name": "Mechanical recycling of plastics",
+  "aliases": [
+    "plastics recycling",
+    "mechanical recycling"
+  ],
+  "sector": "PCH",
+  "category": "Circular chemicals / recycling",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Plastic waste is sorted (NIR, laser, X-ray), milled, washed, floated, dried and remelted. Heat and shear shorten polymer chains, so quality often limits recyclate to lower-value uses; only PET is approved for food-contact mechanically recycled post-consumer waste in the EU (Regulation 282/2008). In 2018, 32.5% of European post-consumer plastic waste was collected for recycling.",
+  "process_steps": [
+    {
+      "id": "SRT",
+      "name": "Sorting",
+      "equipment": [
+        "NIR, laser or X-ray sorters"
+      ],
+      "to": [
+        "WSH"
+      ]
+    },
+    {
+      "id": "WSH",
+      "name": "Milling, washing and flotation",
+      "equipment": [
+        "mill",
+        "wash line"
+      ],
+      "to": [
+        "EXT"
+      ]
+    },
+    {
+      "id": "EXT",
+      "name": "Remelting and regranulating",
+      "equipment": [
+        "extruder",
+        "filter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "sorting equipment",
+    "mill",
+    "wash line",
+    "extruder with melt filter"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "European post-consumer plastic waste collected for recycling, 2018",
+      "unit": "%",
+      "basis": "country rates 20 to 45%",
+      "source": {
+        "url": "https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf",
+        "note": "European Bioplastics, mechanical recycling best practice (2018 data)"
+      },
+      "low": 32.5,
+      "high": 32.5
+    }
+  ],
+  "advantages": [
+    "Simple and widely deployed"
+  ],
+  "limitations": [
+    "Downcycling and contamination; EU targets 50% of plastic packaging recycled by 2025 and 55% by 2030"
+  ],
+  "sources": [
+    {
+      "url": "https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf",
+      "note": "European Bioplastics, mechanical recycling best practice (2018 data)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "yields and recyclate quality limits",
+      "reason_code": "not_in_sources_read",
+      "reason": "The paper gives no yields.",
+      "where": [
+        {
+          "hint": "Plastics Recyclers Europe reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add yield data."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

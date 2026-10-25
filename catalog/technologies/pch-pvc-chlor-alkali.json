@@ -1,0 +1,204 @@
+{
+  "id": "pch-pvc-chlor-alkali",
+  "name": "PVC (suspension) and chlor-alkali",
+  "aliases": [
+    "PVC",
+    "chlor-alkali",
+    "vinyl chloride"
+  ],
+  "sector": "PCH",
+  "category": "Polymers / chlorine chain",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Chlor-alkali electrolysis makes chlorine, caustic soda and hydrogen from brine. Chlorine and ethylene give EDC by direct chlorination and oxychlorination; cracking EDC at about 480 degC gives vinyl chloride monomer, which is polymerised in suspension to PVC. thyssenkrupp nucera quotes less than 1,960 kWh per tonne NaOH for its membrane cells at 6 kA/m2.",
+  "process_steps": [
+    {
+      "id": "ELC",
+      "name": "Brine electrolysis",
+      "equipment": [
+        "membrane electrolysers"
+      ],
+      "to": [
+        "EDC"
+      ]
+    },
+    {
+      "id": "EDC",
+      "name": "EDC by direct chlorination and oxychlorination",
+      "equipment": [
+        "boiling reactor ~120 degC",
+        "fluid-bed oxychlorination >200 degC"
+      ],
+      "to": [
+        "VCM"
+      ]
+    },
+    {
+      "id": "VCM",
+      "name": "EDC cracking and VCM distillation",
+      "equipment": [
+        "cracking furnace ~480 degC"
+      ],
+      "to": [
+        "PVC"
+      ]
+    },
+    {
+      "id": "PVC",
+      "name": "Suspension polymerisation and drying",
+      "equipment": [
+        "polymerisation reactors",
+        "dryers"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "membrane electrolysers",
+    "direct chlorination reactor",
+    "oxychlorination reactor",
+    "EDC cracking furnace",
+    "PVC polymerisation reactors"
+  ],
+  "suppliers": [
+    {
+      "name": "thyssenkrupp nucera",
+      "product": "BM, BiTAC and NaCl-ODC electrolysers",
+      "source_id": "thyssenkrupp-uhde"
+    },
+    {
+      "name": "Ineos",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "electrolysis energy, membrane cell",
+      "unit": "kWh per t NaOH",
+      "basis": "at 6 kA/m2; ODC cuts energy by up to 25%",
+      "source": {
+        "url": "https://www.thyssenkrupp-nucera.com/chlor-alkali-solutions/",
+        "source_id": "thyssenkrupp-uhde",
+        "note": "thyssenkrupp nucera chlor-alkali solutions page, read 25 October 2026"
+      },
+      "high": 1960
+    },
+    {
+      "metric": "ethylene and chlorine per tonne VCM",
+      "unit": "kg",
+      "basis": "ethylene 459 kg, chlorine 575 kg per 1,000 kg VCM (licensor expected figures)",
+      "source": {
+        "url": "https://cdn.ihsmarkit.com/www/pdf/0920/2020-09-18_VC_PC_Brochure_White-Paper2_IHS.pdf",
+        "note": "IHS Markit / licensor brochure, vinyl chloride and PVC technologies (2010 capacity data)"
+      },
+      "low": 459,
+      "high": 575
+    },
+    {
+      "metric": "steam per tonne PVC powder",
+      "unit": "kg",
+      "basis": "435 kg combined with VCM plant",
+      "source": {
+        "url": "https://cdn.ihsmarkit.com/www/pdf/0920/2020-09-18_VC_PC_Brochure_White-Paper2_IHS.pdf",
+        "note": "IHS Markit / licensor brochure, vinyl chloride and PVC technologies (2010 capacity data)"
+      },
+      "high": 700
+    }
+  ],
+  "advantages": [
+    "Hydrogen co-product"
+  ],
+  "limitations": [
+    "IHS data are 2010 era; route share ethylene versus acetylene not in the sources"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thyssenkrupp-nucera.com/chlor-alkali-solutions/",
+      "source_id": "thyssenkrupp-uhde",
+      "note": "thyssenkrupp nucera chlor-alkali solutions page, read 25 October 2026"
+    },
+    {
+      "url": "https://cdn.ihsmarkit.com/www/pdf/0920/2020-09-18_VC_PC_Brochure_White-Paper2_IHS.pdf",
+      "note": "IHS Markit / licensor brochure, vinyl chloride and PVC technologies (2010 capacity data)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "global PVC capacity today and acetylene route share in China",
+      "reason_code": "not_in_sources_read",
+      "reason": "The brochure gives 2010 capacity only.",
+      "where": [
+        {
+          "hint": "IHS or OECD chemicals reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add current capacity."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

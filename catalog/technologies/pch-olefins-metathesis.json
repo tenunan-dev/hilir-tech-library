@@ -1,0 +1,168 @@
+{
+  "id": "pch-olefins-metathesis",
+  "name": "Metathesis (OCT)",
+  "aliases": [
+    "OCT",
+    "olefins conversion technology",
+    "olefin metathesis"
+  ],
+  "sector": "PCH",
+  "category": "Olefins / propylene",
+  "applications": [
+    "on-purpose propylene",
+    "steam-cracker debottlenecking"
+  ],
+  "maturity": "commercial",
+  "principle": "Ethylene and butenes (or other C4/C5 olefin streams) are reacted over a metathesis catalyst to make propylene. Lummus's olefins conversion technology (OCT) takes feeds from dilute ethylene to polymer-grade ethylene and from steam-cracker, MTBE-raffinate or FCC C4 streams, and gives polymer-grade propylene at about 94 to 95% selectivity.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Feed pretreatment",
+      "equipment": [
+        "guard beds"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Metathesis reactor",
+      "equipment": [
+        "fixed-bed reactor"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Product separation with ethylene and butene recycles",
+      "equipment": [
+        "fractionation",
+        "recycle compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "metathesis reactor",
+    "guard beds",
+    "fractionation columns",
+    "recycle compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "Lummus Technology",
+      "product": "OCT",
+      "source_id": "lummus"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "propylene selectivity",
+      "unit": "%",
+      "basis": "olefin utilisation typically 90 to 97%",
+      "source": {
+        "url": "https://www.lummustechnology.com/getmedia/5ad83600-79c7-4e47-a6b3-ad0faaf12406/2020-10-15-olefins-conversion-tech-sheet.pdf",
+        "source_id": "lummus",
+        "note": "Lummus Technology, olefins conversion technology sheet, 15 October 2020"
+      },
+      "low": 94,
+      "high": 95
+    },
+    {
+      "metric": "steam cracker ethylene output when integrated with OCT",
+      "unit": "% of nameplate",
+      "basis": "propylene-to-ethylene ratio can be raised above 1.0",
+      "source": {
+        "url": "https://www.lummustechnology.com/getmedia/5ad83600-79c7-4e47-a6b3-ad0faaf12406/2020-10-15-olefins-conversion-tech-sheet.pdf",
+        "source_id": "lummus",
+        "note": "Lummus Technology, olefins conversion technology sheet, 15 October 2020"
+      },
+      "low": 115,
+      "high": 115
+    }
+  ],
+  "advantages": [
+    "Moderate operating conditions",
+    "Polymer-grade propylene"
+  ],
+  "limitations": [
+    "Number of licensed units and capacities are not stated in the sheet read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.lummustechnology.com/getmedia/5ad83600-79c7-4e47-a6b3-ad0faaf12406/2020-10-15-olefins-conversion-tech-sheet.pdf",
+      "source_id": "lummus",
+      "note": "Lummus Technology, olefins conversion technology sheet, 15 October 2020"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "licensed unit count and operating plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sheet does not list them.",
+      "where": [
+        {
+          "hint": "Lummus references page",
+          "access": "open",
+          "source_id": "lummus"
+        }
+      ],
+      "action": "Add licensed capacity."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

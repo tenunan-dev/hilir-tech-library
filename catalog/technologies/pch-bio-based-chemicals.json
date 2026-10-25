@@ -1,0 +1,174 @@
+{
+  "id": "pch-bio-based-chemicals",
+  "name": "Bio-based chemicals (bio-ethylene, bio-PE, PLA)",
+  "aliases": [
+    "bio-PE",
+    "bio-ethylene",
+    "PLA",
+    "bio-based polymers"
+  ],
+  "sector": "PCH",
+  "category": "Circular chemicals / bio-based",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Sugarcane ethanol is dehydrated to ethylene and polymerised to polyethylene identical to fossil PE (Braskem Green PE, Triunfo, 200,000 t/yr since 2010); lactic acid from sugars is polymerised to PLA. IEA rates ethylene production by fermentation at TRL 9.",
+  "process_steps": [
+    {
+      "id": "FER",
+      "name": "Sugarcane to ethanol",
+      "equipment": [
+        "fermentation"
+      ],
+      "to": [
+        "DEH"
+      ]
+    },
+    {
+      "id": "DEH",
+      "name": "Ethanol dehydration to ethylene",
+      "equipment": [
+        "dehydration reactor"
+      ],
+      "to": [
+        "POL"
+      ]
+    },
+    {
+      "id": "POL",
+      "name": "Polymerisation",
+      "equipment": [
+        "PE reactor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "fermentation",
+    "ethanol dehydration reactor",
+    "PE reactor"
+  ],
+  "suppliers": [
+    {
+      "name": "Braskem",
+      "product": "Green PE"
+    },
+    {
+      "name": "NatureWorks",
+      "product": "PLA (register examples; not verified)"
+    },
+    {
+      "name": "TotalEnergies Corbion",
+      "product": "PLA (register examples; not verified)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Braskem Green PE capacity",
+      "unit": "t/yr",
+      "basis": "Triunfo, Brazil, since 2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
+        "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
+      },
+      "low": 200000,
+      "high": 200000
+    },
+    {
+      "metric": "CO2 sequestered per tonne Green PE",
+      "unit": "t CO2/t",
+      "basis": "general figure for Green PE, not Braskem-specific",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
+        "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
+      },
+      "low": 2.15,
+      "high": 2.15
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Braskem Green PE, Triunfo",
+      "country": "BR",
+      "capacity": "200,000 t/yr",
+      "year": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
+        "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
+      }
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Ethylene production using fermentation' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Drop-in with fossil PE and recyclable in existing streams"
+  ],
+  "limitations": [
+    "Feedstock land-use issues (Wikipedia)",
+    "No PLA source read"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
+      "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "PLA plants and costs",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only Braskem covered.",
+      "where": [
+        {
+          "hint": "NatureWorks and TotalEnergies Corbion pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add PLA plants."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

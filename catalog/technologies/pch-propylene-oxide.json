@@ -1,0 +1,179 @@
+{
+  "id": "pch-propylene-oxide",
+  "name": "Propylene oxide (HPPO, PO/SM)",
+  "aliases": [
+    "HPPO",
+    "PO/SM",
+    "propylene oxide"
+  ],
+  "sector": "PCH",
+  "category": "Intermediates / PO",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "In the HPPO route hydrogen peroxide oxidises propylene to propylene oxide over a titanium silicalite (TS-1) catalyst with water as the only co-product, avoiding the styrene or tert-butanol co-products of PO/SM and PO/TBA routes. Evonik and thyssenkrupp Uhde developed it from 2000; the first plant at Ulsan, Korea (SKC) started in 2008 at 100,000 t/yr and expanded to 130,000 t/yr.",
+  "process_steps": [
+    {
+      "id": "PER",
+      "name": "Hydrogen peroxide supply",
+      "equipment": [
+        "H2O2 plant"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Epoxidation over TS-1",
+      "equipment": [
+        "fixed-bed reactors"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "PUR",
+      "name": "PO purification and propylene recycle",
+      "equipment": [
+        "columns"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "H2O2 supply",
+    "epoxidation reactors",
+    "distillation columns",
+    "propylene recycle"
+  ],
+  "suppliers": [
+    {
+      "name": "Evonik and thyssenkrupp Uhde",
+      "product": "HPPO",
+      "source_id": "thyssenkrupp-uhde"
+    },
+    {
+      "name": "Dow and BASF",
+      "product": "HPPO (register examples)"
+    },
+    {
+      "name": "LyondellBasell",
+      "product": "PO/SM (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Ulsan HPPO plant capacity",
+      "unit": "t/yr PO",
+      "basis": "100,000 at start, expanded to 130,000",
+      "source": {
+        "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
+        "note": "Evonik, HPPO technology page, read 25 October 2026"
+      },
+      "low": 100000,
+      "high": 130000
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "SKC Ulsan HPPO plant",
+      "country": "KR",
+      "capacity": "130,000 t/yr PO",
+      "year": 2008,
+      "source": {
+        "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
+        "note": "Evonik, HPPO technology page, read 25 October 2026"
+      }
+    },
+    {
+      "name": "MOL Group Tiszaújváros HPPO (under construction when read)",
+      "country": "HU",
+      "capacity": "200,000 t/yr",
+      "source": {
+        "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
+        "note": "Evonik, HPPO technology page, read 25 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Only water as co-product",
+    "Lower investment than conventional (qualitative)"
+  ],
+  "limitations": [
+    "Page gives no quantified savings"
+  ],
+  "sources": [
+    {
+      "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
+      "note": "Evonik, HPPO technology page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "yield, wastewater and energy savings",
+      "reason_code": "not_in_sources_read",
+      "reason": "Qualitative only.",
+      "where": [
+        {
+          "hint": "Digital Refining article on third-generation HPPO",
+          "access": "open",
+          "source_id": "ptq-digital-refining"
+        }
+      ],
+      "action": "Add quantified savings."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

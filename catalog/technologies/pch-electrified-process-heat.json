@@ -1,0 +1,154 @@
+{
+  "id": "pch-electrified-process-heat",
+  "name": "Electrification of process heat (e-boilers, heat pumps)",
+  "aliases": [
+    "e-boilers",
+    "industrial heat pumps",
+    "power-to-steam"
+  ],
+  "sector": "PCH",
+  "category": "Low-carbon chemicals / heat",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Steam and furnace heat are produced from electricity with electrode boilers, industrial heat pumps and electric furnaces. BASF is building a 50 MW heat pump at Ludwigshafen (GIG Karasek) delivering 500,000 t/yr of steam, saving up to 100,000 t CO2e/yr, online mid-2027; BASF, SABIC and Linde started an electric steam-cracker furnace demonstration in April 2024. IEA rates large-scale heat pumps at TRL 9 and steam cracker electrification at TRL 6.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Renewable power",
+      "equipment": [
+        "transformers"
+      ],
+      "to": [
+        "HT"
+      ]
+    },
+    {
+      "id": "HT",
+      "name": "Heat pump, e-boiler or electric furnace",
+      "equipment": [
+        "heat pump",
+        "electrode boiler",
+        "electric furnace"
+      ],
+      "to": [
+        "STM"
+      ]
+    },
+    {
+      "id": "STM",
+      "name": "Steam or process heat to site",
+      "equipment": [
+        "steam network"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "industrial heat pump",
+    "electrode boiler",
+    "electric furnace",
+    "transformers"
+  ],
+  "suppliers": [
+    {
+      "name": "GIG Karasek",
+      "product": "BASF 50 MW heat pump"
+    },
+    {
+      "name": "BASF, SABIC, Linde",
+      "product": "electric steam-cracker furnace demo"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "BASF heat pump thermal output",
+      "unit": "MW",
+      "basis": "500,000 t/yr steam, just over 3% of Ludwigshafen steam demand; up to 98% lower emissions for formic acid steam",
+      "source": {
+        "url": "https://www.thechemicalengineer.com/news/basf-begins-installation-of-industrial-heat-pump-to-deliver-net-zero-steam-at-ludwigshafen/",
+        "note": "The Chemical Engineer, BASF begins installation of industrial heat pump at Ludwigshafen, 7 October 2025"
+      },
+      "low": 50,
+      "high": 50
+    },
+    {
+      "metric": "electric cracker demo power",
+      "unit": "MW",
+      "basis": "target 90% lower emissions; about 4 t/h feed",
+      "source": {
+        "url": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/",
+        "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
+      },
+      "low": 6,
+      "high": 6
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Large-scale heat pump (low temperature heating)' 9 (2025); 'High value chemicals production using steam cracker electrification' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "Removes combustion CO2 at the site if power is low-carbon"
+  ],
+  "limitations": [
+    "Depends on competitively priced renewable power"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thechemicalengineer.com/news/basf-begins-installation-of-industrial-heat-pump-to-deliver-net-zero-steam-at-ludwigshafen/",
+      "note": "The Chemical Engineer, BASF begins installation of industrial heat pump at Ludwigshafen, 7 October 2025"
+    },
+    {
+      "url": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/",
+      "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost and steam cost versus gas boilers",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the articles.",
+      "where": [
+        {
+          "hint": "IEA industrial heat reports",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Add costs."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

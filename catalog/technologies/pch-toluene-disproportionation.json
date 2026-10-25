@@ -1,0 +1,154 @@
+{
+  "id": "pch-toluene-disproportionation",
+  "name": "Toluene disproportionation and transalkylation",
+  "aliases": [
+    "Tatoray",
+    "TDP",
+    "transalkylation"
+  ],
+  "sector": "PCH",
+  "category": "Aromatics",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Toluene and heavier aromatics (C9+) are converted over a zeolite catalyst to benzene and mixed xylenes. UOP's Tatoray unit at Hengyi Brunei produces high-purity benzene and mixed xylenes feeding the paraxylene loop.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Toluene and C9+ aromatics feed",
+      "equipment": [
+        "feed heater"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Transalkylation reactor",
+      "equipment": [
+        "fixed-bed reactor"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Separation of benzene and xylenes",
+      "equipment": [
+        "stripper",
+        "fractionators"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reactor",
+    "stripper",
+    "fractionators",
+    "hydrogen recycle"
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "Tatoray",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "ExxonMobil",
+      "product": "register examples",
+      "source_id": "exxonmobil-catalysts"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hengyi Brunei Tatoray unit",
+      "country": "BN",
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+      }
+    }
+  ],
+  "advantages": [
+    "Converts surplus toluene and heavies into higher-value xylenes and benzene"
+  ],
+  "limitations": [
+    "Source gives no conversion or capacity figures for Tatoray"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "conversion per pass, hydrogen consumption, xylene yield",
+      "reason_code": "not_in_sources_read",
+      "reason": "None in the article.",
+      "where": [
+        {
+          "hint": "UOP Tatoray datasheet",
+          "access": "open",
+          "source_id": "honeywell-uop"
+        }
+      ],
+      "action": "Add figures."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "pch-pha-bioplastics",
+  "name": "PHA bioplastics",
+  "aliases": [
+    "PHA",
+    "Nodax",
+    "polyhydroxyalkanoate"
+  ],
+  "sector": "PCH",
+  "category": "Circular chemicals / bio-based",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Polyhydroxyalkanoates are polyesters made by fermentation of plant oils or sugars with microbes. Danimer Scientific's Kentucky facility reached a run rate of 20 million pounds per year of Nodax PHA resins after debottlenecking in 2021.",
+  "process_steps": [
+    {
+      "id": "FER",
+      "name": "Fermentation",
+      "equipment": [
+        "fermenters"
+      ],
+      "to": [
+        "REC"
+      ]
+    },
+    {
+      "id": "REC",
+      "name": "Biomass recovery and extraction",
+      "equipment": [
+        "separators"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compounding",
+      "equipment": [
+        "extruders"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "fermenters",
+    "extraction train",
+    "compounding extruders"
+  ],
+  "suppliers": [
+    {
+      "name": "Danimer Scientific",
+      "product": "Nodax PHA"
+    },
+    {
+      "name": "CJ",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Danimer Kentucky run-rate capacity",
+      "unit": "million lb/yr",
+      "basis": "Nodax resins, June 2021",
+      "source": {
+        "url": "https://renewable-carbon.eu/news/?p=91819",
+        "note": "Renewable Carbon News, Danimer Scientific completes debottlenecking of Kentucky facility, June 2021"
+      },
+      "low": 20,
+      "high": 20
+    }
+  ],
+  "advantages": [
+    "Biodegradable (not tested in the source)"
+  ],
+  "limitations": [
+    "No cost or properties data in the source"
+  ],
+  "sources": [
+    {
+      "url": "https://renewable-carbon.eu/news/?p=91819",
+      "note": "Renewable Carbon News, Danimer Scientific completes debottlenecking of Kentucky facility, June 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "production cost versus PE and PP",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the release.",
+      "where": [
+        {
+          "hint": "Danimer SEC filings",
+          "access": "open"
+        }
+      ],
+      "action": "Add costs."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

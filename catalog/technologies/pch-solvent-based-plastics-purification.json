@@ -1,0 +1,178 @@
+{
+  "id": "pch-solvent-based-plastics-purification",
+  "name": "Solvent-based purification of plastics",
+  "aliases": [
+    "PureCycle",
+    "CreaSolv",
+    "dissolution recycling"
+  ],
+  "sector": "PCH",
+  "category": "Circular chemicals / recycling",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Polymer waste is dissolved in a solvent, filtered or extracted to remove colour, odour and additives, and the polymer is recovered as near-virgin resin. PureCycle's Ironton, Ohio plant uses a process licensed from Procter & Gamble for polypropylene and made first pellets in June 2023; planned capacity is 107 million pounds a year of recycled resin.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Sorted polypropylene waste",
+      "equipment": [
+        "shredder"
+      ],
+      "to": [
+        "DIS"
+      ]
+    },
+    {
+      "id": "DIS",
+      "name": "Dissolution in solvent and purification",
+      "equipment": [
+        "extraction vessels",
+        "filters"
+      ],
+      "to": [
+        "REC"
+      ]
+    },
+    {
+      "id": "REC",
+      "name": "Polymer recovery and pelletising",
+      "equipment": [
+        "separator",
+        "extruder"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "dissolution vessels",
+    "purification columns or filters",
+    "solvent recovery",
+    "extruder"
+  ],
+  "suppliers": [
+    {
+      "name": "PureCycle Technologies",
+      "product": "Ironton plant (P&G-licensed process)"
+    },
+    {
+      "name": "Fraunhofer",
+      "product": "CreaSolv (register examples)",
+      "source_id": "fraunhofer-ise"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Ironton planned capacity",
+      "unit": "million lb/yr",
+      "basis": "ultra-pure recycled resin",
+      "source": {
+        "url": "https://renewable-carbon.eu/news/?p=128691",
+        "note": "Renewable Carbon News, PureCycle's Ironton plant produces first pellets, June 2023"
+      },
+      "low": 107,
+      "high": 107
+    },
+    {
+      "metric": "energy and CO2 versus virgin polypropylene (company projection)",
+      "unit": "% less energy",
+      "basis": "35% fewer carbon emissions; PureCycle projection",
+      "source": {
+        "url": "https://renewable-carbon.eu/news/?p=128691",
+        "note": "Renewable Carbon News, PureCycle's Ironton plant produces first pellets, June 2023"
+      },
+      "low": 79,
+      "high": 79
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "PureCycle Ironton, Ohio",
+      "country": "US",
+      "capacity": "107 million lb/yr (projected)",
+      "status": "first commercial-scale pellets June 2023",
+      "year": 2023,
+      "source": {
+        "url": "https://renewable-carbon.eu/news/?p=128691",
+        "note": "Renewable Carbon News, PureCycle's Ironton plant produces first pellets, June 2023"
+      }
+    }
+  ],
+  "advantages": [
+    "Near-virgin quality (company claim)"
+  ],
+  "limitations": [
+    "Operating performance after 2023 is not covered"
+  ],
+  "sources": [
+    {
+      "url": "https://renewable-carbon.eu/news/?p=128691",
+      "note": "Renewable Carbon News, PureCycle's Ironton plant produces first pellets, June 2023"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "status",
+      "item": "operating rate since 2023",
+      "reason_code": "status_unchecked",
+      "reason": "Source is from first pellets.",
+      "where": [
+        {
+          "hint": "PureCycle SEC filings",
+          "access": "open"
+        }
+      ],
+      "action": "Check ramp-up."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

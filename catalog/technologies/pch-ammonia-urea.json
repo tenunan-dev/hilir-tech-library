@@ -1,0 +1,221 @@
+{
+  "id": "pch-ammonia-urea",
+  "name": "Ammonia and urea",
+  "aliases": [
+    "ammonia",
+    "urea",
+    "Haber-Bosch",
+    "ammonia synthesis"
+  ],
+  "sector": "PCH",
+  "category": "Intermediates / fertiliser",
+  "applications": [
+    "fertiliser",
+    "chemicals",
+    "emerging fuel"
+  ],
+  "maturity": "commercial",
+  "principle": "Natural gas or other feed is reformed to hydrogen, nitrogen is added and ammonia is made over iron catalyst in a Haber-Bosch loop; ammonia and CO2 then react in a urea synthesis reactor. Stamicarbon's CO2 stripping process cut steam use from 1,600 to 1,800 kg/t urea in conventional plants to about 800 kg/t, and its N=3 pool-condenser concept runs at 400 t/d in Geleen and 2,100 t/d at Bontang, Indonesia.",
+  "process_steps": [
+    {
+      "id": "REF",
+      "name": "Reforming and shift",
+      "equipment": [
+        "primary and secondary reformers",
+        "shift converters"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "SYN",
+      "name": "Ammonia synthesis loop",
+      "equipment": [
+        "synthesis converter",
+        "refrigeration"
+      ],
+      "to": [
+        "URE"
+      ]
+    },
+    {
+      "id": "URE",
+      "name": "Urea synthesis with CO2 stripping",
+      "equipment": [
+        "urea reactor",
+        "stripper",
+        "carbamate condenser"
+      ],
+      "to": [
+        "FIN"
+      ]
+    },
+    {
+      "id": "FIN",
+      "name": "Evaporation and finishing",
+      "equipment": [
+        "evaporators",
+        "granulation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reformers",
+    "synthesis converter",
+    "urea reactor",
+    "CO2 stripper",
+    "carbamate condenser",
+    "granulator"
+  ],
+  "suppliers": [
+    {
+      "name": "Stamicarbon",
+      "product": "urea stripping and N=3 concepts"
+    },
+    {
+      "name": "Topsoe",
+      "product": "register examples",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "KBR",
+      "product": "register examples",
+      "source_id": "kbr-technology"
+    },
+    {
+      "name": "thyssenkrupp Uhde",
+      "product": "register examples",
+      "source_id": "thyssenkrupp-uhde"
+    },
+    {
+      "name": "Casale",
+      "product": "register examples",
+      "source_id": "casale"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "steam per tonne urea, conventional versus CO2 stripping",
+      "unit": "kg/t urea",
+      "basis": "conventional 1,600 to 1,800; N=2 stripping about 800 at 25 bar; N=3 596 to 610 MP steam",
+      "source": {
+        "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
+        "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
+      },
+      "low": 800,
+      "high": 1800
+    },
+    {
+      "metric": "CO2 compressor power in N=3 concept",
+      "unit": "kWh/t urea",
+      "basis": "paper",
+      "source": {
+        "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
+        "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
+      },
+      "low": 100,
+      "high": 100
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Stamicarbon N=3 process, Bontang, Indonesia",
+      "country": "ID",
+      "capacity": "2,100 t/d",
+      "source": {
+        "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
+        "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
+      }
+    },
+    {
+      "name": "Stamicarbon N=3 process, Geleen",
+      "country": "NL",
+      "capacity": "400 t/d",
+      "source": {
+        "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
+        "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
+      }
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Mature, large-scale technology"
+  ],
+  "limitations": [
+    "Paper is from 2000; NH3 and CO2 consumption per tonne not in the paper",
+    "Ammonia synthesis energy intensity not covered by the sources read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
+      "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "ammonia plant energy intensity GJ per tonne",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ammonia roadmap page returned no content.",
+      "where": [
+        {
+          "hint": "IEA Ammonia Technology Roadmap",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "IFA energy efficiency reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add GJ/t figures."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

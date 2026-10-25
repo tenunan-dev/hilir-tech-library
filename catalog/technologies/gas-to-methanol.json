@@ -5,7 +5,8 @@
     "gas-to-methanol",
     "methanol-to-gasoline",
     "MTG",
-    "natural gas to methanol"
+    "natural gas to methanol",
+    "Methanol (low-pressure synthesis)"
   ],
   "sector": "GAS",
   "category": "Gas conversion / methanol",

@@ -1,0 +1,152 @@
+{
+  "id": "pch-engineering-plastics",
+  "name": "Engineering plastics (polycarbonate, nylon)",
+  "aliases": [
+    "polycarbonate",
+    "nylon",
+    "engineering polymers"
+  ],
+  "sector": "PCH",
+  "category": "Polymers / engineering",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Polycarbonate is made from bisphenol A and phosgene (interfacial) or diphenyl carbonate (melt), and nylons from diamines and diacids or lactams. The sources found so far give company activity only: Covestro started a recyclate compounding plant at its Shanghai site in October 2023 (capacity not stated in the page read).",
+  "process_steps": [
+    {
+      "id": "MON",
+      "name": "Monomer synthesis",
+      "equipment": [
+        "reactors"
+      ],
+      "to": [
+        "POLY"
+      ]
+    },
+    {
+      "id": "POLY",
+      "name": "Polymerisation",
+      "equipment": [
+        "interfacial or melt reactors"
+      ],
+      "to": [
+        "COMP"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "Compounding and pelletising",
+      "equipment": [
+        "extruders"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "polymerisation reactors",
+    "extruders",
+    "pelletisers"
+  ],
+  "suppliers": [
+    {
+      "name": "SABIC",
+      "product": "register examples",
+      "source_id": "sabic-licensing"
+    },
+    {
+      "name": "Covestro",
+      "product": "polycarbonate, recyclate compounding in Shanghai"
+    }
+  ],
+  "advantages": [],
+  "limitations": [],
+  "sources": [
+    {
+      "url": "https://www.plasteurope.com/news/detail.asp?id=253846",
+      "note": "Plastics Europe news, Covestro starts first Chinese recyclate compounding plant, 20 October 2023 (opening paragraph only; paywalled)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "process descriptions, capacities and energy use for polycarbonate and nylon",
+      "reason_code": "source_unreachable",
+      "reason": "Search results were patents and a paywalled news item.",
+      "where": [
+        {
+          "hint": "Covestro and SABIC technical pages",
+          "access": "open",
+          "source_id": "sabic-licensing"
+        },
+        {
+          "hint": "IHS Process Economics Program (paid)",
+          "access": "paid"
+        }
+      ],
+      "action": "Add a licensor or review source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
