@@ -1,0 +1,200 @@
+{
+  "id": "ups-multiphase-flow-metering",
+  "name": "Multiphase flow metering",
+  "aliases": [
+    "Multiphase flow metering"
+  ],
+  "sector": "UPS",
+  "category": "Production and artificial lift",
+  "applications": [
+    "well testing",
+    "allocation",
+    "subsea and topside"
+  ],
+  "maturity": "commercial",
+  "principle": "Meters measure oil, water and gas rates without separation. Emerson's Roxar 2600 combines a Venturi differential-pressure measurement with electrical impedance and optional gamma densitometry, reports at 10 Hz and covers 0 to 100% water-liquid ratio and 0 to 100% gas volume fraction.",
+  "process_steps": [
+    {
+      "id": "DP",
+      "name": "Venturi measures total mass flow",
+      "equipment": [
+        "Venturi"
+      ],
+      "to": [
+        "IMP"
+      ]
+    },
+    {
+      "id": "IMP",
+      "name": "Impedance and gamma give phase fractions",
+      "equipment": [
+        "electrodes",
+        "gamma densitometer"
+      ],
+      "to": [
+        "CALC"
+      ]
+    },
+    {
+      "id": "CALC",
+      "name": "Software computes phase rates",
+      "equipment": [
+        "flow computer"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "Venturi",
+    "impedance sensors",
+    "gamma densitometer",
+    "flow computer"
+  ],
+  "suppliers": [
+    {
+      "name": "Emerson",
+      "product": "Roxar 2600",
+      "source_id": "emerson"
+    },
+    {
+      "name": "SLB",
+      "product": "Vx",
+      "source_id": "slb"
+    },
+    {
+      "name": "TechnipFMC",
+      "product": "multiphase meters",
+      "source_id": "technipfmc"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Roxar 2600 measurement frequency",
+      "unit": "Hz",
+      "basis": "phase rates in real time",
+      "source": {
+        "url": "https://www.emerson.com/en-us/automation/measurement-instrumentation/flow-measurement/multiphase-meters",
+        "source_id": "emerson",
+        "note": "Emerson, Roxar 2600 multiphase flow meter page, read 25 October 2026"
+      },
+      "low": 10,
+      "high": 10
+    },
+    {
+      "metric": "water-liquid ratio range",
+      "unit": "%",
+      "basis": "WLR",
+      "source": {
+        "url": "https://www.emerson.com/en-us/automation/measurement-instrumentation/flow-measurement/multiphase-meters",
+        "source_id": "emerson",
+        "note": "Emerson, Roxar 2600 multiphase flow meter page, read 25 October 2026"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "gas volume fraction range",
+      "unit": "%",
+      "basis": "GVF",
+      "source": {
+        "url": "https://www.emerson.com/en-us/automation/measurement-instrumentation/flow-measurement/multiphase-meters",
+        "source_id": "emerson",
+        "note": "Emerson, Roxar 2600 multiphase flow meter page, read 25 October 2026"
+      },
+      "low": 0,
+      "high": 100
+    }
+  ],
+  "advantages": [
+    "No test separator needed"
+  ],
+  "limitations": [
+    "The page gives no numeric accuracy and covers topside and onshore use only"
+  ],
+  "sources": [
+    {
+      "url": "https://www.emerson.com/en-us/automation/measurement-instrumentation/flow-measurement/multiphase-meters",
+      "source_id": "emerson",
+      "note": "Emerson, Roxar 2600 multiphase flow meter page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "uncertainty percentages and subsea installed count",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated.",
+      "where": [
+        {
+          "hint": "NFOGM and NORSOK I-104 documents",
+          "access": "open"
+        }
+      ],
+      "action": "Add uncertainty class with source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

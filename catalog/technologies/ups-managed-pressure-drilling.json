@@ -1,0 +1,152 @@
+{
+  "id": "ups-managed-pressure-drilling",
+  "name": "Managed pressure drilling",
+  "aliases": [
+    "Managed pressure drilling",
+    "MPD"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "narrow-window offshore wells",
+    "HPHT and depleted reservoirs"
+  ],
+  "maturity": "commercial",
+  "principle": "IADC defines MPD as an adaptive drilling process that precisely controls the annular pressure profile; a rotating control device and automated choke let the driller hold bottomhole pressure within a narrow window. Variants include continuous circulation, constant bottomhole pressure, pressurised mud cap and dual-gradient drilling.",
+  "process_steps": [
+    {
+      "id": "SEAL",
+      "name": "Seal annulus with a rotating control device",
+      "equipment": [
+        "RCD"
+      ],
+      "to": [
+        "CTRL"
+      ]
+    },
+    {
+      "id": "CTRL",
+      "name": "Control back-pressure with automated choke",
+      "equipment": [
+        "PLC choke manifold",
+        "mass-flow meter"
+      ],
+      "to": [
+        "DRILL"
+      ]
+    },
+    {
+      "id": "DRILL",
+      "name": "Drill within the pore-fracture window",
+      "equipment": [
+        "rig"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "rotating control device (API 16RCD)",
+    "automated choke manifold",
+    "mass-flow meter",
+    "non-return valves"
+  ],
+  "suppliers": [
+    {
+      "name": "Weatherford",
+      "product": "MPD",
+      "source_id": "weatherford"
+    },
+    {
+      "name": "Halliburton",
+      "product": "MPD",
+      "source_id": "halliburton"
+    },
+    {
+      "name": "NOV",
+      "product": "MPD equipment",
+      "source_id": "nov"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "marine RCD tensile rating when placed below the riser tension ring",
+      "unit": "lb",
+      "basis": "typical",
+      "source": {
+        "url": "https://iadc.org/wp-content/uploads/2015/08/preview-mpub.pdf",
+        "note": "IADC, Managed pressure drilling (preview of the IADC publication)"
+      },
+      "low": 3000000,
+      "high": 3000000
+    }
+  ],
+  "advantages": [
+    "Early kick and loss detection",
+    "Drills prospects considered undrillable with conventional methods"
+  ],
+  "limitations": [
+    "Added equipment and complexity"
+  ],
+  "sources": [
+    {
+      "url": "https://iadc.org/wp-content/uploads/2015/08/preview-mpub.pdf",
+      "note": "IADC, Managed pressure drilling (preview of the IADC publication)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost versus conventional drilling",
+      "reason_code": "not_in_sources_read",
+      "reason": "The preview gives none.",
+      "where": [
+        {
+          "hint": "IADC MPD publications",
+          "access": "open"
+        }
+      ],
+      "action": "Add a published cost or time saving."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

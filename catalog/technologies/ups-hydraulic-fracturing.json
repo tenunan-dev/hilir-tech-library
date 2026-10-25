@@ -1,0 +1,192 @@
+{
+  "id": "ups-hydraulic-fracturing",
+  "name": "Hydraulic fracturing (plug-and-perf, electric frac fleets)",
+  "aliases": [
+    "Hydraulic fracturing (plug-and-perf, electric frac fleets)"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "shale oil and gas",
+    "tight reservoirs"
+  ],
+  "maturity": "commercial",
+  "principle": "High-pressure fluid and proppant open fractures along a cased and perforated lateral in stages; plug-and-perf isolates each stage with a plug, while sliding sleeves open one at a time. Typical fluid is about 90% water, 9.5% sand and 0.5% additives, and pumps reach 100 MPa (15,000 psi).",
+  "process_steps": [
+    {
+      "id": "PERF",
+      "name": "Perforate a stage",
+      "equipment": [
+        "wireline perforating guns"
+      ],
+      "to": [
+        "PUMP"
+      ]
+    },
+    {
+      "id": "PUMP",
+      "name": "Pump fluid and proppant",
+      "equipment": [
+        "frac pumps",
+        "blender"
+      ],
+      "to": [
+        "PLUG"
+      ]
+    },
+    {
+      "id": "PLUG",
+      "name": "Set plug to isolate stage and repeat",
+      "equipment": [
+        "composite plug"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "frac pumps (diesel, dual fuel or electric)",
+    "blender",
+    "wireline unit",
+    "composite plugs",
+    "sand and water supply"
+  ],
+  "suppliers": [
+    {
+      "name": "Halliburton",
+      "product": "ZEUS electric fleet",
+      "source_id": "halliburton"
+    },
+    {
+      "name": "Liberty Energy",
+      "product": "digiFrac"
+    },
+    {
+      "name": "SLB",
+      "product": "frac services",
+      "source_id": "slb"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "water per well",
+      "unit": "million US gallons",
+      "basis": "up to 5 million for large projects",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+        "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
+      },
+      "low": 1.2,
+      "high": 3.5
+    },
+    {
+      "metric": "maximum pump pressure",
+      "unit": "MPa (15,000 psi)",
+      "basis": "and 265 L/s",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+        "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
+      },
+      "low": 100,
+      "high": 100
+    },
+    {
+      "metric": "emissions of electric fleet vs Tier 2 diesel",
+      "unit": "% lower",
+      "basis": "30% on reciprocating-engine power, up to 45% on ERCOT grid; Halliburton estimate",
+      "source": {
+        "url": "https://www.halliburton.com/en/completions/stimulation/hydraulic-fracturing/zeus-fracturing-services",
+        "source_id": "halliburton",
+        "note": "Halliburton, ZEUS electric fracturing services page, read 25 October 2026"
+      },
+      "low": 30,
+      "high": 45
+    },
+    {
+      "metric": "ZEUS pump unit hydraulic horsepower",
+      "unit": "HHP (up to)",
+      "basis": "vendor",
+      "source": {
+        "url": "https://www.halliburton.com/en/completions/stimulation/hydraulic-fracturing/zeus-fracturing-services",
+        "source_id": "halliburton",
+        "note": "Halliburton, ZEUS electric fracturing services page, read 25 October 2026"
+      },
+      "low": 5000,
+      "high": 5000
+    }
+  ],
+  "advantages": [
+    "Electric fleets displace diesel (Halliburton cites 900,000 gal/month in one simul-frac example)"
+  ],
+  "limitations": [
+    "Water and chemical use",
+    "Wikipedia notes elevated shares of fracks using chemicals the Safe Drinking Water Act recognises as harmful"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+      "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.halliburton.com/en/completions/stimulation/hydraulic-fracturing/zeus-fracturing-services",
+      "source_id": "halliburton",
+      "note": "Halliburton, ZEUS electric fracturing services page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "completion cost per stage or per well with year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Neither page gives it.",
+      "where": [
+        {
+          "hint": "EIA drilling productivity and well cost studies",
+          "access": "open",
+          "source_id": "eia-reports"
+        }
+      ],
+      "action": "Add a well-cost figure with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

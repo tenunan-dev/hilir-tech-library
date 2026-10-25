@@ -1,0 +1,164 @@
+{
+  "id": "ups-extended-reach-multilateral-wells",
+  "name": "Extended-reach and multilateral wells",
+  "aliases": [
+    "Extended-reach and multilateral wells"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "reaching offshore reservoirs from shore or one platform",
+    "more reservoir contact per well"
+  ],
+  "maturity": "commercial",
+  "principle": "Extended-reach drilling (ERD) reaches a large reservoir area from one surface location by drilling very long deviated wells; multilateral wells add branches from a main bore. The record ERD well (Orlan platform, Sakhalin-1, 24 April 2015) has a measured depth of 13,500 m and a horizontal displacement of 12,030 m.",
+  "process_steps": [
+    {
+      "id": "PLAN",
+      "name": "Plan trajectory and torque and drag",
+      "equipment": [
+        "well planning software"
+      ],
+      "to": [
+        "DRILL"
+      ]
+    },
+    {
+      "id": "DRILL",
+      "name": "Drill with RSS and managed hydraulics",
+      "equipment": [
+        "rotary steerable system",
+        "high-capacity rig"
+      ],
+      "to": [
+        "COMP"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "Complete, with junctions in multilaterals",
+      "equipment": [
+        "liner",
+        "junction"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "high-capacity rig",
+    "rotary steerable system",
+    "torque-and-drag management",
+    "junction systems for multilaterals"
+  ],
+  "suppliers": [
+    {
+      "name": "Exxon Neftegas",
+      "product": "Sakhalin-1 ERD operator"
+    },
+    {
+      "name": "Major drilling contractors",
+      "product": "ERD rigs"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "record ERD measured depth",
+      "unit": "m",
+      "basis": "Orlan, Sakhalin-1, April 2015",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Extended_reach_drilling",
+        "note": "Wikipedia, Extended reach drilling, read 25 October 2026 (secondary source)"
+      },
+      "low": 13500,
+      "high": 13500,
+      "year": 2015
+    },
+    {
+      "metric": "record ERD horizontal displacement",
+      "unit": "m",
+      "basis": "Orlan 12,030 m (2015); earlier Yastreb well 12,130 m (2014)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Extended_reach_drilling",
+        "note": "Wikipedia, Extended reach drilling, read 25 October 2026 (secondary source)"
+      },
+      "low": 12030,
+      "high": 12130
+    }
+  ],
+  "advantages": [
+    "Fewer surface locations",
+    "Longer reservoir exposure"
+  ],
+  "limitations": [
+    "No accepted ERD definition",
+    "Multilateral junctions need design care (see Kuwait example on the intelligent completion card)"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Extended_reach_drilling",
+      "note": "Wikipedia, Extended reach drilling, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://jpt.spe.org/inflow-control-device-inflow-control-valves-aid-kuwaits-first-smart-multilateral-well",
+      "source_id": "jpt",
+      "note": "JPT, Inflow-control device and inflow-control valves aid Kuwait's first smart multilateral well"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost versus several conventional wells",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated.",
+      "where": [
+        {
+          "hint": "SPE ERD papers",
+          "access": "open",
+          "source_id": "onepetro"
+        }
+      ],
+      "action": "Add a published cost comparison."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

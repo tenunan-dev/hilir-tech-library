@@ -1,0 +1,163 @@
+{
+  "id": "ups-coiled-tubing-intervention",
+  "name": "Coiled tubing and well intervention",
+  "aliases": [
+    "Coiled tubing and well intervention"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "cleanouts",
+    "nitrogen lift",
+    "milling plugs after fracking"
+  ],
+  "maturity": "commercial",
+  "principle": "A continuous steel pipe (normally 1 to 3.25 inch) on a reel is pushed into live wells for cleanouts, chemical placement, milling, logging and drilling. It trips faster than jointed pipe and acts as a nearly closed system, but cannot trip jointed pipe and needs a larger offshore footprint than wireline.",
+  "process_steps": [
+    {
+      "id": "RIG",
+      "name": "Rig up coiled-tubing unit and well control stack",
+      "equipment": [
+        "injector head",
+        "reel",
+        "BOP stack"
+      ],
+      "to": [
+        "RUN"
+      ]
+    },
+    {
+      "id": "RUN",
+      "name": "Run the coil and circulate or mill",
+      "equipment": [
+        "bottom-hole assembly",
+        "pumps"
+      ],
+      "to": [
+        "POOH"
+      ]
+    },
+    {
+      "id": "POOH",
+      "name": "Pull and spool back",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "coiled-tubing reel",
+    "injector head",
+    "BOP stack",
+    "bottom-hole assembly"
+  ],
+  "suppliers": [
+    {
+      "name": "NOV",
+      "product": "coiled tubing units",
+      "source_id": "nov"
+    },
+    {
+      "name": "Halliburton",
+      "product": "coiled tubing services",
+      "source_id": "halliburton"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "coiled tubing services",
+      "source_id": "baker-hughes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "coiled-tubing diameter",
+      "unit": "in",
+      "basis": "25 to 83 mm",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+        "note": "Wikipedia, Coiled tubing, read 25 October 2026 (secondary source)"
+      },
+      "low": 1,
+      "high": 3.25
+    },
+    {
+      "metric": "steel yield strength",
+      "unit": "psi",
+      "basis": "coil grades",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+        "note": "Wikipedia, Coiled tubing, read 25 October 2026 (secondary source)"
+      },
+      "low": 55000,
+      "high": 120000
+    }
+  ],
+  "advantages": [
+    "Fast trips",
+    "Pushes as well as lowers"
+  ],
+  "limitations": [
+    "Cannot trip jointed pipe",
+    "Offshore needs a MODU for subsea wells"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+      "note": "Wikipedia, Coiled tubing, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "day rate or job cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated.",
+      "where": [
+        {
+          "hint": "Operator intervention cost studies",
+          "access": "open"
+        }
+      ],
+      "action": "Add typical cost with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

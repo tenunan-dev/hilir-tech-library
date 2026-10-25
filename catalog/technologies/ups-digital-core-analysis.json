@@ -1,0 +1,152 @@
+{
+  "id": "ups-digital-core-analysis",
+  "name": "Digital core and special core analysis",
+  "aliases": [
+    "Digital core and special core analysis"
+  ],
+  "sector": "UPS",
+  "category": "Exploration and subsurface",
+  "applications": [
+    "unconventional and carbonate reservoirs",
+    "scenarios hard to test in the lab"
+  ],
+  "maturity": "commercial",
+  "principle": "Cores are imaged by whole-core CT (0.5 mm slices), micro-CT and FIB-SEM, and the 3D images are used to compute porosity, permeability, capillary pressure and relative permeability in simulations. Schlumberger reports that analysis taking weeks or months can finish in hours or days.",
+  "process_steps": [
+    {
+      "id": "IMG",
+      "name": "Image core at several scales",
+      "equipment": [
+        "whole-core CT",
+        "micro-CT",
+        "FIB-SEM"
+      ],
+      "to": [
+        "SIM"
+      ]
+    },
+    {
+      "id": "SIM",
+      "name": "Simulate pore-scale flow",
+      "equipment": [
+        "multiphase pore-flow simulator"
+      ],
+      "to": [
+        "VAL"
+      ]
+    },
+    {
+      "id": "VAL",
+      "name": "Validate against laboratory tests",
+      "equipment": [
+        "SCAL laboratory"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CT and micro-CT scanners",
+    "FIB-SEM",
+    "HPC simulation",
+    "SCAL laboratory"
+  ],
+  "suppliers": [
+    {
+      "name": "Thermo Fisher Scientific",
+      "product": "imaging systems"
+    },
+    {
+      "name": "Core Laboratories",
+      "product": "core analysis",
+      "source_id": "core-ac"
+    },
+    {
+      "name": "SLB",
+      "product": "DHD and CoreFlow",
+      "source_id": "slb"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "whole-core CT slice resolution",
+      "unit": "mm",
+      "basis": "4-inch core in liner",
+      "source": {
+        "url": "https://geoexpro.com/inside-the-rock/",
+        "note": "GeoExpro, Inside the Rock (Schlumberger digital rock article, 2015)"
+      },
+      "low": 0.5,
+      "high": 0.5
+    }
+  ],
+  "advantages": [
+    "Faster and repeatable"
+  ],
+  "limitations": [
+    "Results are validated against lab tests",
+    "Article names Schlumberger tools only",
+    "Turnaround claim (weeks or months down to hours or days) has no benchmark"
+  ],
+  "sources": [
+    {
+      "url": "https://geoexpro.com/inside-the-rock/",
+      "note": "GeoExpro, Inside the Rock (Schlumberger digital rock article, 2015)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "service price",
+      "reason_code": "paid_source",
+      "reason": "Not published.",
+      "where": [
+        {
+          "hint": "Vendor quotations",
+          "access": "paid"
+        }
+      ],
+      "action": "Leave unless a published price is found."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

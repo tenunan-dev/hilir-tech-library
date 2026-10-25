@@ -1,0 +1,158 @@
+{
+  "id": "ups-sand-control",
+  "name": "Sand control (gravel pack, frac pack, screens)",
+  "aliases": [
+    "Sand control (gravel pack, frac pack, screens)"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "unconsolidated sandstone reservoirs"
+  ],
+  "maturity": "commercial",
+  "principle": "Sand control keeps formation sand out of the well in soft reservoirs, typically with compressive strength below about 1,000 psi, using gravel packs, frac packs or screens; excluding sand builds a filter cake that can impair productivity, while managed sand production is sometimes cheaper and recovers more oil. PetroWiki's page covers the managed approach, not the mechanical methods.",
+  "process_steps": [
+    {
+      "id": "SCREEN",
+      "name": "Run screens across the interval",
+      "equipment": [
+        "sand screens"
+      ],
+      "to": [
+        "PACK"
+      ]
+    },
+    {
+      "id": "PACK",
+      "name": "Place gravel pack or frac pack",
+      "equipment": [
+        "gravel slurry",
+        "pumping unit"
+      ],
+      "to": [
+        "FLOW"
+      ]
+    },
+    {
+      "id": "FLOW",
+      "name": "Produce through the filter",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "sand screens",
+    "gravel",
+    "packers",
+    "pumping equipment"
+  ],
+  "suppliers": [
+    {
+      "name": "Halliburton",
+      "product": "sand control",
+      "source_id": "halliburton"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "sand control",
+      "source_id": "baker-hughes"
+    },
+    {
+      "name": "SLB",
+      "product": "sand control",
+      "source_id": "slb"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "soft-formation compressive strength threshold",
+      "unit": "psi (under)",
+      "basis": "typical definition",
+      "source": {
+        "url": "https://petrowiki.spe.org/Sand_control",
+        "note": "PetroWiki (SPE), Sand control (page covers managed sand production; does not describe gravel pack)"
+      },
+      "low": 1000,
+      "high": 1000
+    }
+  ],
+  "advantages": [
+    "Protects equipment from erosion"
+  ],
+  "limitations": [
+    "Filter cake reduces productivity",
+    "Mechanical methods are not described in the page read"
+  ],
+  "sources": [
+    {
+      "url": "https://petrowiki.spe.org/Sand_control",
+      "note": "PetroWiki (SPE), Sand control (page covers managed sand production; does not describe gravel pack)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "process",
+      "item": "gravel pack and frac pack procedures and screen types",
+      "reason_code": "not_in_sources_read",
+      "reason": "The PetroWiki page does not describe them.",
+      "where": [
+        {
+          "hint": "SPE PetroWiki sand control sections",
+          "access": "open",
+          "source_id": "onepetro"
+        }
+      ],
+      "action": "Add a source for the mechanical methods."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ]
+}

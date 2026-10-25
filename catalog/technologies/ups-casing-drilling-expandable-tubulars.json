@@ -1,0 +1,164 @@
+{
+  "id": "ups-casing-drilling-expandable-tubulars",
+  "name": "Casing drilling and expandable tubulars",
+  "aliases": [
+    "Casing drilling and expandable tubulars"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "casing repair",
+    "keeping hole size in deep wells"
+  ],
+  "maturity": "commercial",
+  "principle": "Expandable tubulars are run and then enlarged by pulling or pushing an expansion tool through them, cutting the diameter lost with each casing string and aiming at a monobore well. The Wikipedia page read does not cover casing drilling (drilling with the casing itself).",
+  "process_steps": [
+    {
+      "id": "RUN",
+      "name": "Run the expandable liner",
+      "equipment": [
+        "liner hanger"
+      ],
+      "to": [
+        "EXP"
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "Expand hydraulically or mechanically",
+      "equipment": [
+        "expansion cone"
+      ],
+      "to": [
+        "SET"
+      ]
+    },
+    {
+      "id": "SET",
+      "name": "Seal and cement",
+      "equipment": [
+        "cement"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "expandable liner or clad",
+    "expansion tool",
+    "liner hanger"
+  ],
+  "suppliers": [
+    {
+      "name": "Weatherford",
+      "product": "expandables and casing drilling",
+      "source_id": "weatherford"
+    },
+    {
+      "name": "Enventure",
+      "product": "solid expandables"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "expansion ratio",
+      "unit": "%",
+      "basis": "the page gives both 20% and 30%",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Expandable_tubular_technology",
+        "note": "Wikipedia, Expandable tubular technology, read 25 October 2026 (secondary source)"
+      },
+      "low": 20,
+      "high": 30
+    },
+    {
+      "metric": "expansion length",
+      "unit": "ft",
+      "basis": "cold-working expansion",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Expandable_tubular_technology",
+        "note": "Wikipedia, Expandable tubular technology, read 25 October 2026 (secondary source)"
+      },
+      "low": 30,
+      "high": 6000
+    }
+  ],
+  "advantages": [
+    "Preserves hole diameter"
+  ],
+  "limitations": [
+    "Casing drilling not covered by the source read"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Expandable_tubular_technology",
+      "note": "Wikipedia, Expandable tubular technology, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "process",
+      "item": "casing drilling method, depth records and field results",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not covered.",
+      "where": [
+        {
+          "hint": "Weatherford and Tesco casing drilling papers",
+          "access": "open",
+          "source_id": "weatherford"
+        }
+      ],
+      "action": "Add a source for casing drilling."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ]
+}

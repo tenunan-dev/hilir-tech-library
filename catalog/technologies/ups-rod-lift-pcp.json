@@ -1,0 +1,183 @@
+{
+  "id": "ups-rod-lift-pcp",
+  "name": "Rod lift and progressing cavity pumps",
+  "aliases": [
+    "Rod lift and progressing cavity pumps"
+  ],
+  "sector": "UPS",
+  "category": "Production and artificial lift",
+  "applications": [
+    "onshore low-rate wells",
+    "heavy oil with PCP"
+  ],
+  "maturity": "commercial",
+  "principle": "A surface pumping unit moves a sucker-rod string that drives a downhole plunger pump (rod lift), or a rotating rod string drives a progressing cavity pump (PCP). PCPs reach about 1,800 m and 5,000 bbl/d, and aromatics can degrade the elastomer stator.",
+  "process_steps": [
+    {
+      "id": "DRV",
+      "name": "Surface unit or rotary drive",
+      "equipment": [
+        "pumping unit or PCP drive head"
+      ],
+      "to": [
+        "ROD"
+      ]
+    },
+    {
+      "id": "ROD",
+      "name": "Rod string transmits motion",
+      "equipment": [
+        "sucker rods"
+      ],
+      "to": [
+        "PUMP"
+      ]
+    },
+    {
+      "id": "PUMP",
+      "name": "Downhole pump lifts fluid",
+      "equipment": [
+        "plunger pump or PCP"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "pumping unit",
+    "sucker rods",
+    "downhole pump",
+    "PCP stator and rotor"
+  ],
+  "suppliers": [
+    {
+      "name": "Weatherford",
+      "product": "rod lift and PCP",
+      "source_id": "weatherford"
+    },
+    {
+      "name": "Dover",
+      "product": "rod lift"
+    },
+    {
+      "name": "NOV",
+      "product": "PCP",
+      "source_id": "nov"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "PCP depth capability",
+      "unit": "m (6,000 ft)",
+      "basis": "up to 5,000 bbl/day",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+        "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
+      },
+      "low": 1800,
+      "high": 1800
+    },
+    {
+      "metric": "rod pump realistic output vs theoretical",
+      "unit": "%",
+      "basis": "of theoretical output",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+        "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
+      },
+      "low": 80,
+      "high": 80
+    }
+  ],
+  "advantages": [
+    "Simple and low cost at low rates"
+  ],
+  "limitations": [
+    "Depth and rate limits; aromatics degrade PCP stators"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+      "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "rod lift depth and rate capability",
+      "reason_code": "not_in_sources_read",
+      "reason": "The table gives no figures for rod pumps.",
+      "where": [
+        {
+          "hint": "API 11 series and vendor datasheets",
+          "access": "open",
+          "source_id": "api-standards"
+        }
+      ],
+      "action": "Add depth and rate ranges."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

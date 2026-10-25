@@ -1,0 +1,161 @@
+{
+  "id": "ups-mwd-lwd",
+  "name": "Measurement and logging while drilling (MWD/LWD)",
+  "aliases": [
+    "Measurement and logging while drilling (MWD/LWD)",
+    "MWD",
+    "LWD"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "geosteering",
+    "formation evaluation in real time"
+  ],
+  "maturity": "commercial",
+  "principle": "Sensors in the bottom-hole assembly measure well direction (MWD) and formation properties (LWD) while drilling and send data to the surface, usually by mud pulses, for real-time geosteering. LWD measurements include gamma ray, resistivity, density, neutron porosity, sonic, NMR, images and formation testing.",
+  "process_steps": [
+    {
+      "id": "SENSE",
+      "name": "Sensors measure direction and formation",
+      "equipment": [
+        "MWD and LWD collars"
+      ],
+      "to": [
+        "TX"
+      ]
+    },
+    {
+      "id": "TX",
+      "name": "Transmit by mud pulse or store in memory",
+      "equipment": [
+        "mud pulser"
+      ],
+      "to": [
+        "STEER"
+      ]
+    },
+    {
+      "id": "STEER",
+      "name": "Geosteer to stay in the target zone",
+      "equipment": [
+        "geosteering software"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "MWD tool",
+    "LWD collars",
+    "mud pulser",
+    "surface decoding"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB",
+      "product": "LWD services",
+      "source_id": "slb"
+    },
+    {
+      "name": "Halliburton",
+      "product": "Sperry LWD",
+      "source_id": "halliburton"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "LWD services",
+      "source_id": "baker-hughes"
+    }
+  ],
+  "advantages": [
+    "Real-time placement in variable shale reservoirs"
+  ],
+  "limitations": [
+    "The Wikipedia page gives no mud-pulse data rates"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Logging_while_drilling",
+      "note": "Wikipedia, Logging while drilling, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "telemetry data rate and measurement accuracy",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the page read.",
+      "where": [
+        {
+          "hint": "Vendor datasheets",
+          "access": "open"
+        }
+      ],
+      "action": "Add bit rates and accuracy figures."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

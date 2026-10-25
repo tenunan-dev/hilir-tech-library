@@ -1,0 +1,178 @@
+{
+  "id": "ups-seismic-acquisition",
+  "name": "3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes)",
+  "aliases": [
+    "3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes)"
+  ],
+  "sector": "UPS",
+  "category": "Exploration and subsurface",
+  "applications": [
+    "exploration",
+    "field development",
+    "reservoir monitoring (4D, permanent reservoir monitoring)"
+  ],
+  "maturity": "commercial",
+  "principle": "Sound sources generate waves that reflect from subsurface layers and are recorded by receivers: towed streamers (5 to 15 m deep, Ramform vessels tow up to 24), ocean-bottom cables, or battery-powered ocean-bottom nodes placed by ROV. A 4D survey repeats a 3D survey after production starts to watch reservoir changes.",
+  "process_steps": [
+    {
+      "id": "SRC",
+      "name": "Generate seismic energy",
+      "equipment": [
+        "air-gun arrays 2,000 to 7,000 cubic inches",
+        "vibroseis on land"
+      ],
+      "to": [
+        "REC"
+      ]
+    },
+    {
+      "id": "REC",
+      "name": "Record reflections",
+      "equipment": [
+        "streamers",
+        "ocean-bottom nodes"
+      ],
+      "to": [
+        "PROC"
+      ]
+    },
+    {
+      "id": "PROC",
+      "name": "Process into 3D volume; repeat for 4D",
+      "equipment": [
+        "processing cluster"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "seismic vessel",
+    "air-gun arrays",
+    "streamers or nodes",
+    "ROV or node deployment",
+    "processing cluster"
+  ],
+  "suppliers": [
+    {
+      "name": "PGS",
+      "product": "marine streamer surveys"
+    },
+    {
+      "name": "TGS",
+      "product": "multi-client data"
+    },
+    {
+      "name": "Shearwater",
+      "product": "marine seismic"
+    },
+    {
+      "name": "Sercel",
+      "product": "acquisition equipment"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "towed-streamer depth",
+      "unit": "m",
+      "basis": "marine streamer towing",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+        "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
+      },
+      "low": 5,
+      "high": 15
+    },
+    {
+      "metric": "streamers towed by a Ramform vessel",
+      "unit": "streamers (up to)",
+      "basis": "spreads can exceed one nautical mile",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+        "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
+      },
+      "low": 24,
+      "high": 24
+    },
+    {
+      "metric": "ocean-bottom node deployment depth",
+      "unit": "m (about, by ROV)",
+      "basis": "30-day battery example; node weight over 10 kg",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+        "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
+      },
+      "low": 3000,
+      "high": 3000
+    }
+  ],
+  "advantages": [
+    "4D shows bypassed oil and flow barriers",
+    "Nodes give full-azimuth data and repeatable 4D"
+  ],
+  "limitations": [
+    "Streamer 4D is hard to repeat because of weather, tides and currents",
+    "The source gives no cost figures or resolution values"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+      "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "survey cost per km2 with year",
+      "reason_code": "paid_source",
+      "reason": "Not in the free source; broker and vendor price data are commercial.",
+      "where": [
+        {
+          "hint": "Wood Mackenzie or Westwood survey cost reports",
+          "access": "paid"
+        }
+      ],
+      "action": "Add a published cost range with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

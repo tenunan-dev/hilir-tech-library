@@ -1,0 +1,159 @@
+{
+  "id": "ups-basin-petroleum-systems-modelling",
+  "name": "Basin and petroleum systems modelling",
+  "aliases": [
+    "Basin and petroleum systems modelling"
+  ],
+  "sector": "UPS",
+  "category": "Exploration and subsurface",
+  "applications": [
+    "exploration risking",
+    "prospect ranking"
+  ],
+  "maturity": "commercial",
+  "principle": "Software reconstructs burial, heat flow and fluid flow in a sedimentary basin to estimate when and where source rocks generated oil or gas, how it migrated and whether a trap was in place. The general framework is source rock, burial heat, migration, reservoir, seal and trap.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Assemble geology, thermal history and kinetics",
+      "equipment": [
+        "basin model"
+      ],
+      "to": [
+        "SIM"
+      ]
+    },
+    {
+      "id": "SIM",
+      "name": "Simulate burial, maturation and migration",
+      "equipment": [
+        "PetroMod or similar"
+      ],
+      "to": [
+        "OUT"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Predict charge, timing and fluid type",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "basin modelling software",
+    "geochemical kinetic data",
+    "seismic-derived structure"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB",
+      "product": "PetroMod",
+      "source_id": "slb"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "oil generation depth range",
+      "unit": "m",
+      "basis": "about 60 to 150 °C",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Petroleum_system",
+        "note": "Wikipedia, Petroleum system (petroleum geology), read 25 October 2026 (secondary source)"
+      },
+      "low": 1000,
+      "high": 6000
+    }
+  ],
+  "advantages": [
+    "Links timing of charge to trap formation"
+  ],
+  "limitations": [
+    "The Wikipedia page read describes the geological framework, not modelling workflows or accuracy"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Petroleum_system",
+      "note": "Wikipedia, Petroleum system (petroleum geology), read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "modelling workflow, calibration data and uncertainty",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not covered by the page read.",
+      "where": [
+        {
+          "hint": "SLB PetroMod documentation",
+          "access": "open",
+          "source_id": "slb"
+        }
+      ],
+      "action": "Add a documented workflow and an example result."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

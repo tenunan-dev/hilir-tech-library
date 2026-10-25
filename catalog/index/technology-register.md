@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 217 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 240 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -9,31 +9,31 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Exploration and subsurface | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) | commercial | PGS, TGS, Shearwater, Sercel |  |
-| Exploration and subsurface | Full-waveform inversion and seismic imaging | commercial | SLB, Halliburton Landmark, CGG (Viridien) |  |
-| Exploration and subsurface | Basin and petroleum systems modelling | commercial | SLB PetroMod |  |
-| Exploration and subsurface | Reservoir simulation (black oil, compositional, thermal) | commercial | SLB ECLIPSE/INTERSECT, CMG, tNavigator |  |
-| Exploration and subsurface | AI-assisted seismic interpretation and history matching | commercial | SLB Delfi, Halliburton, Cognite |  |
-| Exploration and subsurface | Digital core and special core analysis | commercial | Thermo Fisher, Core Lab |  |
-| Drilling and completions | Rotary steerable systems | commercial | SLB, Halliburton, Baker Hughes, Weatherford |  |
-| Drilling and completions | Managed pressure drilling | commercial | Weatherford, Halliburton, NOV |  |
-| Drilling and completions | Measurement and logging while drilling (MWD/LWD) | commercial | SLB, Halliburton, Baker Hughes |  |
-| Drilling and completions | Drilling automation and autonomous rigs | demonstration | Nabors, NOV, H&P, SLB |  |
-| Drilling and completions | Extended-reach and multilateral wells | commercial | Major drilling contractors |  |
-| Drilling and completions | Hydraulic fracturing (plug-and-perf, electric frac fleets) | commercial | Halliburton, Liberty, SLB |  |
-| Drilling and completions | Intelligent completions and inflow control devices | commercial | Baker Hughes, SLB, Halliburton, Tendeka |  |
-| Drilling and completions | Sand control (gravel pack, frac pack, screens) | commercial | Halliburton, Baker Hughes, SLB |  |
-| Drilling and completions | Coiled tubing and well intervention | commercial | NOV, Halliburton, Baker Hughes |  |
-| Drilling and completions | Casing drilling and expandable tubulars | commercial | Weatherford, Enventure |  |
+| Exploration and subsurface | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) | commercial | PGS, TGS, Shearwater, Sercel | [card](technologies-UPS.md#ups-seismic-acquisition) |
+| Exploration and subsurface | Full-waveform inversion and seismic imaging | commercial | SLB, Halliburton Landmark, CGG (Viridien) | [card](technologies-UPS.md#ups-full-waveform-inversion) |
+| Exploration and subsurface | Basin and petroleum systems modelling | commercial | SLB PetroMod | [card](technologies-UPS.md#ups-basin-petroleum-systems-modelling) |
+| Exploration and subsurface | Reservoir simulation (black oil, compositional, thermal) | commercial | SLB ECLIPSE/INTERSECT, CMG, tNavigator | [card](technologies-UPS.md#ups-reservoir-simulation) |
+| Exploration and subsurface | AI-assisted seismic interpretation and history matching | commercial | SLB Delfi, Halliburton, Cognite | [card](technologies-UPS.md#ups-ai-seismic-interpretation-history-matching) |
+| Exploration and subsurface | Digital core and special core analysis | commercial | Thermo Fisher, Core Lab | [card](technologies-UPS.md#ups-digital-core-analysis) |
+| Drilling and completions | Rotary steerable systems | commercial | SLB, Halliburton, Baker Hughes, Weatherford | [card](technologies-UPS.md#ups-rotary-steerable-systems) |
+| Drilling and completions | Managed pressure drilling | commercial | Weatherford, Halliburton, NOV | [card](technologies-UPS.md#ups-managed-pressure-drilling) |
+| Drilling and completions | Measurement and logging while drilling (MWD/LWD) | commercial | SLB, Halliburton, Baker Hughes | [card](technologies-UPS.md#ups-mwd-lwd) |
+| Drilling and completions | Drilling automation and autonomous rigs | demonstration | Nabors, NOV, H&P, SLB | [card](technologies-UPS.md#ups-drilling-automation) |
+| Drilling and completions | Extended-reach and multilateral wells | commercial | Major drilling contractors | [card](technologies-UPS.md#ups-extended-reach-multilateral-wells) |
+| Drilling and completions | Hydraulic fracturing (plug-and-perf, electric frac fleets) | commercial | Halliburton, Liberty, SLB | [card](technologies-UPS.md#ups-hydraulic-fracturing) |
+| Drilling and completions | Intelligent completions and inflow control devices | commercial | Baker Hughes, SLB, Halliburton, Tendeka | [card](technologies-UPS.md#ups-intelligent-completions) |
+| Drilling and completions | Sand control (gravel pack, frac pack, screens) | commercial | Halliburton, Baker Hughes, SLB | [card](technologies-UPS.md#ups-sand-control) |
+| Drilling and completions | Coiled tubing and well intervention | commercial | NOV, Halliburton, Baker Hughes | [card](technologies-UPS.md#ups-coiled-tubing-intervention) |
+| Drilling and completions | Casing drilling and expandable tubulars | commercial | Weatherford, Enventure | [card](technologies-UPS.md#ups-casing-drilling-expandable-tubulars) |
 | Drilling and completions | Well plug and abandonment technologies (thermite, bismuth plugs) | demonstration | Interwell, BiSN |  |
 | Drilling and completions | Well plug and abandonment (cement plugs, rig-based) | commercial | Rig and cementing service contractors | [card](technologies-UPS.md#ups-well-plug-abandonment) |
-| Production and artificial lift | Electric submersible pumps | commercial | SLB, Baker Hughes, Borets, Novomet |  |
-| Production and artificial lift | Gas lift | commercial | SLB, Weatherford, Baker Hughes |  |
-| Production and artificial lift | Rod lift and progressing cavity pumps | commercial | Weatherford, Dover, NOV |  |
-| Production and artificial lift | Plunger lift and hydraulic jet pumps | commercial | Weatherford, Liberty Lift |  |
-| Production and artificial lift | Downhole gas and water separation | demonstration | Operators and service companies |  |
-| Production and artificial lift | Multiphase flow metering | commercial | SLB Vx, Emerson Roxar, TechnipFMC |  |
-| Production and artificial lift | Production optimisation and digital oilfield | commercial | SLB, Halliburton, AspenTech, Cognite |  |
+| Production and artificial lift | Electric submersible pumps | commercial | SLB, Baker Hughes, Borets, Novomet | [card](technologies-UPS.md#ups-electric-submersible-pumps) |
+| Production and artificial lift | Gas lift | commercial | SLB, Weatherford, Baker Hughes | [card](technologies-UPS.md#ups-gas-lift) |
+| Production and artificial lift | Rod lift and progressing cavity pumps | commercial | Weatherford, Dover, NOV | [card](technologies-UPS.md#ups-rod-lift-pcp) |
+| Production and artificial lift | Plunger lift and hydraulic jet pumps | commercial | Weatherford, Liberty Lift | [card](technologies-UPS.md#ups-plunger-hydraulic-lift) |
+| Production and artificial lift | Downhole gas and water separation | demonstration | Operators and service companies | [card](technologies-UPS.md#ups-downhole-separation) |
+| Production and artificial lift | Multiphase flow metering | commercial | SLB Vx, Emerson Roxar, TechnipFMC | [card](technologies-UPS.md#ups-multiphase-flow-metering) |
+| Production and artificial lift | Production optimisation and digital oilfield | commercial | SLB, Halliburton, AspenTech, Cognite | [card](technologies-UPS.md#ups-production-optimisation-digital-oilfield) |
 | Improved and enhanced oil recovery | Waterflooding and low-salinity water injection | commercial | BP LoSal |  |
 | Improved and enhanced oil recovery | Gas injection and WAG (hydrocarbon, CO2, nitrogen) | commercial | Operators |  |
 | Improved and enhanced oil recovery | CO2-EOR | commercial | Occidental, Denbury (ExxonMobil) | [card](technologies-UPS.md#ups-co2-eor) |

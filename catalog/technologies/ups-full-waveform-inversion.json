@@ -1,0 +1,167 @@
+{
+  "id": "ups-full-waveform-inversion",
+  "name": "Full-waveform inversion and seismic imaging",
+  "aliases": [
+    "Full-waveform inversion and seismic imaging",
+    "FWI"
+  ],
+  "sector": "UPS",
+  "category": "Exploration and subsurface",
+  "applications": [
+    "velocity model building for depth imaging"
+  ],
+  "maturity": "commercial",
+  "principle": "An initial velocity model is updated iteratively until simulated seismic waveforms match recorded ones, producing a high-resolution subsurface velocity model that feeds migration and imaging. Compute needs are large and the method can fail when the starting model is too far off (cycle skipping); the SEG page read explains the geotechnical form of the method only.",
+  "process_steps": [
+    {
+      "id": "MOD",
+      "name": "Start from an initial velocity model",
+      "equipment": [
+        "velocity model"
+      ],
+      "to": [
+        "SIM"
+      ]
+    },
+    {
+      "id": "SIM",
+      "name": "Simulate waves and compare with recorded data",
+      "equipment": [
+        "wave-equation solver",
+        "HPC cluster"
+      ],
+      "to": [
+        "UPD"
+      ]
+    },
+    {
+      "id": "UPD",
+      "name": "Update the model by minimising misfit and repeat",
+      "equipment": [
+        "optimiser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "HPC cluster or GPUs",
+    "wave-equation solver",
+    "velocity model building software"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB",
+      "product": "seismic imaging software",
+      "source_id": "slb"
+    },
+    {
+      "name": "Halliburton Landmark",
+      "product": "imaging",
+      "source_id": "halliburton"
+    },
+    {
+      "name": "CGG (Viridien)",
+      "product": "FWI imaging"
+    }
+  ],
+  "advantages": [
+    "Resolves velocity detail that ray-based methods miss (general claim)"
+  ],
+  "limitations": [
+    "The sources read do not discuss cycle skipping, low-frequency needs or compute cost for oil and gas"
+  ],
+  "sources": [
+    {
+      "url": "https://wiki.seg.org/wiki/Full-waveform_inversion",
+      "note": "SEG Wiki, Full-waveform inversion, read 25 October 2026 (the page describes the geotechnical use; the method is the same iterative misfit minimisation)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seismic_inversion",
+      "note": "Wikipedia, Seismic inversion, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "oil and gas FWI results, frequency content and compute cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "The SEG page covers soil characterisation; Wikipedia's page was not found.",
+      "where": [
+        {
+          "hint": "SEG and EAGE FWI papers",
+          "access": "open"
+        },
+        {
+          "hint": "CGG/Viridien and SLB technical articles",
+          "access": "open",
+          "source_id": "slb"
+        }
+      ],
+      "action": "Add one marine FWI case with resolution and run-time figures."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
