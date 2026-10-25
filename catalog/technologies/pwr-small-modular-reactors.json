@@ -1,0 +1,163 @@
+{
+  "id": "pwr-small-modular-reactors",
+  "name": "Small modular reactors",
+  "aliases": [
+    "Small modular reactors"
+  ],
+  "sector": "PWR",
+  "category": "Nuclear",
+  "applications": [
+    "remote and industrial power",
+    "heat for refineries and hydrogen"
+  ],
+  "maturity": "demonstration",
+  "principle": "Reactors generally 300 MWe or less (microreactors under 20 MWe), built in factories and installed in modules. The World Nuclear Association page read names project Pele (1 to 10 MWe, TRISO fuel completed November 2025) but does not describe NuScale, BWRX-300 or Rolls-Royce SMR.",
+  "process_steps": [
+    {
+      "id": "FAB",
+      "name": "Factory fabrication of modules",
+      "equipment": [
+        "module factory"
+      ],
+      "to": [
+        "INST"
+      ]
+    },
+    {
+      "id": "INST",
+      "name": "Site installation and fuelling",
+      "equipment": [
+        "reactor module"
+      ],
+      "to": [
+        "OP"
+      ]
+    },
+    {
+      "id": "OP",
+      "name": "Steam or heat to turbine, process or desalination",
+      "equipment": [
+        "steam generator",
+        "turbine"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reactor module",
+    "steam generator",
+    "containment",
+    "turbine"
+  ],
+  "suppliers": [
+    {
+      "name": "NuScale",
+      "product": "VOYGR"
+    },
+    {
+      "name": "GE Vernova Hitachi",
+      "product": "BWRX-300"
+    },
+    {
+      "name": "Rolls-Royce SMR",
+      "product": "470 MWe design"
+    }
+  ],
+  "trl": {
+    "low": 7,
+    "high": 7,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Water-cooled SMR' 7 (2025)"
+    }
+  },
+  "advantages": [
+    "Factory build can shorten schedules (claimed)"
+  ],
+  "limitations": [
+    "Few units operating",
+    "Cost claims unproven"
+  ],
+  "sources": [
+    {
+      "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors",
+      "note": "World Nuclear Association, Small nuclear power reactors"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "NuScale, BWRX-300 Darlington and Rolls-Royce SMR status and dates",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page points to a separate design database.",
+      "where": [
+        {
+          "hint": "World Nuclear Association SMR tracker",
+          "access": "open"
+        }
+      ],
+      "action": "Add MWe, site, licensing stage and dates."
+    },
+    {
+      "field": "performance",
+      "item": "key performance figures (energy use, yields, capture or conversion rate)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives performance figures.",
+      "where": [
+        {
+          "hint": "Supplier datasheets and brochures for the companies listed on the card",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Add the figures that matter for comparing options, each with its basis and source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "pwr-floating-solar",
+  "name": "Floating solar",
+  "aliases": [
+    "Floating solar",
+    "floating PV"
+  ],
+  "sector": "PWR",
+  "category": "Solar",
+  "applications": [
+    "hydropower reservoirs",
+    "industrial water bodies",
+    "land-scarce Asia"
+  ],
+  "maturity": "commercial",
+  "principle": "PV modules mounted on floats moored on reservoirs, lakes or near-shore water. The World Bank found floating PV grew from about 10 MW at end 2014 to 1.1 GW by September 2018, with a conservative global potential of 400 GW, a cooling-driven yield gain, and lifetime costs at par with land PV.",
+  "process_steps": [
+    {
+      "id": "FLT",
+      "name": "Floats and mooring hold the array",
+      "equipment": [
+        "floats",
+        "anchoring and mooring"
+      ],
+      "to": [
+        "MOD"
+      ]
+    },
+    {
+      "id": "MOD",
+      "name": "Modules generate DC",
+      "equipment": [
+        "PV modules"
+      ],
+      "to": [
+        "INV"
+      ]
+    },
+    {
+      "id": "INV",
+      "name": "Inverters and submarine or floating cables to shore",
+      "equipment": [
+        "inverters",
+        "cables"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "floats",
+    "mooring system",
+    "PV modules",
+    "inverters",
+    "cables"
+  ],
+  "suppliers": [
+    {
+      "name": "Sungrow",
+      "product": "floating PV systems"
+    },
+    {
+      "name": "Ciel & Terre",
+      "product": "Hydrelio floats"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "global installed floating PV",
+      "unit": "GW",
+      "basis": "September 2018 (report date 30 October 2018)",
+      "source": {
+        "url": "https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water",
+        "note": "World Bank Group and SERIS, Where Sun Meets Water: floating solar market report, 30 October 2018"
+      },
+      "low": 1.1,
+      "high": 1.1,
+      "year": 2018
+    },
+    {
+      "metric": "conservative global potential",
+      "unit": "GW",
+      "basis": "World Bank estimate",
+      "source": {
+        "url": "https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water",
+        "note": "World Bank Group and SERIS, Where Sun Meets Water: floating solar market report, 30 October 2018"
+      },
+      "low": 400,
+      "high": 400
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating solar PV' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Saves land",
+    "Water cooling raises yield",
+    "Can pair with hydropower"
+  ],
+  "limitations": [
+    "Anchoring and mooring are installation challenges",
+    "Electrical components are harder to maintain",
+    "The report is from 2018; current capacity is far higher"
+  ],
+  "sources": [
+    {
+      "url": "https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water",
+      "note": "World Bank Group and SERIS, Where Sun Meets Water: floating solar market report, 30 October 2018"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "current global capacity and yield gain percentage",
+      "reason_code": "not_in_sources_read",
+      "reason": "The World Bank report is from 2018.",
+      "where": [
+        {
+          "hint": "IRENA and IEA PVPS floating PV statistics",
+          "access": "open",
+          "source_id": "irena"
+        }
+      ],
+      "action": "Add a 2024 or 2025 capacity figure."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

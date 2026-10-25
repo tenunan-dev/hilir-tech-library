@@ -1,0 +1,172 @@
+{
+  "id": "pwr-ammonia-coal-cofiring",
+  "name": "Ammonia co-firing in coal boilers",
+  "aliases": [
+    "Ammonia co-firing in coal boilers"
+  ],
+  "sector": "PWR",
+  "category": "Gas-fired power",
+  "applications": [
+    "lowering CO2 from existing coal units in Japan and Asia"
+  ],
+  "maturity": "demonstration",
+  "principle": "Ammonia is injected through burners into a pulverised-coal boiler to replace part of the coal. JERA and IHI ran 20% ammonia substitution (by heat) at the 1 GW Unit 4 of Hekinan, Japan, from 1 April to 26 June 2024 with NOx no higher than coal alone and SOx down 20%.",
+  "process_steps": [
+    {
+      "id": "NH3",
+      "name": "Ammonia receipt, storage and vaporisation",
+      "equipment": [
+        "ammonia tank",
+        "vaporiser"
+      ],
+      "to": [
+        "BURN"
+      ]
+    },
+    {
+      "id": "BURN",
+      "name": "Ammonia burners alongside coal burners",
+      "equipment": [
+        "ammonia burner"
+      ],
+      "to": [
+        "BOIL"
+      ]
+    },
+    {
+      "id": "BOIL",
+      "name": "Boiler, steam turbine and flue gas treatment",
+      "equipment": [
+        "boiler",
+        "SCR",
+        "FGD"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "ammonia storage and vaporiser",
+    "ammonia burners",
+    "boiler",
+    "flue gas treatment"
+  ],
+  "suppliers": [
+    {
+      "name": "IHI",
+      "product": "ammonia co-firing burners"
+    },
+    {
+      "name": "JERA",
+      "product": "Hekinan demonstration",
+      "source_id": "jera"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "ammonia substitution ratio, heat basis",
+      "unit": "%",
+      "basis": "Hekinan Unit 4, 1 GW rated output",
+      "source": {
+        "url": "https://www.jera.co.jp/en/news/notice/20240626_1954",
+        "source_id": "jera",
+        "note": "JERA, conclusion of fuel ammonia substitution demonstration testing at Hekinan, 26 June 2024"
+      },
+      "low": 20,
+      "high": 20
+    },
+    {
+      "metric": "SOx change with 20% ammonia",
+      "unit": "%",
+      "basis": "versus coal alone",
+      "source": {
+        "url": "https://www.jera.co.jp/en/news/notice/20240626_1954",
+        "source_id": "jera",
+        "note": "JERA, conclusion of fuel ammonia substitution demonstration testing at Hekinan, 26 June 2024"
+      },
+      "low": -20,
+      "high": -20
+    },
+    {
+      "metric": "CO2 change with 20% ammonia",
+      "unit": "%",
+      "basis": "IHI reports about 20% lower CO2; the JERA notice gives no CO2 figure",
+      "source": {
+        "url": "https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html",
+        "note": "IHI, IHI and JERA complete fuel ammonia substitution demonstration testing at Hekinan, 26 June 2024"
+      },
+      "low": -20,
+      "high": -20
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Co-firing of ammonia in coal power plants' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Uses existing boilers",
+    "No N2O detected"
+  ],
+  "limitations": [
+    "Needs large volumes of low-carbon ammonia to cut CO2 overall",
+    "20% is the proven ratio; higher shares not yet demonstrated"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jera.co.jp/en/news/notice/20240626_1954",
+      "source_id": "jera",
+      "note": "JERA, conclusion of fuel ammonia substitution demonstration testing at Hekinan, 26 June 2024"
+    },
+    {
+      "url": "https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html",
+      "note": "IHI, IHI and JERA complete fuel ammonia substitution demonstration testing at Hekinan, 26 June 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "fuel ammonia cost and conversion capex",
+      "reason_code": "not_in_sources_read",
+      "reason": "Press releases give no cost.",
+      "where": [
+        {
+          "hint": "NEDO and METI Green Innovation Fund documents",
+          "access": "open",
+          "source_id": "meti-japan"
+        }
+      ],
+      "action": "Add cost per tonne of ammonia and retrofit capex with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

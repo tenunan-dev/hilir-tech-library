@@ -1,0 +1,176 @@
+{
+  "id": "pwr-hydropower",
+  "name": "Hydropower",
+  "aliases": [
+    "Hydropower"
+  ],
+  "sector": "PWR",
+  "category": "Hydro",
+  "applications": [
+    "baseload and flexible renewable power",
+    "pumped storage companion"
+  ],
+  "maturity": "commercial",
+  "principle": "Water driven through turbines at a dam or run-of-river site generates power; reservoirs add storage. NREL's 2024 baseline gives new-stream-reach development costs of $6,574 to $8,611/kW and non-powered-dam costs of $3,045 to $20,043/kW, with capacity factors of 0.33 to 0.67.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Water intake and penstock",
+      "equipment": [
+        "intake",
+        "penstock"
+      ],
+      "to": [
+        "TURB"
+      ]
+    },
+    {
+      "id": "TURB",
+      "name": "Turbine and generator",
+      "equipment": [
+        "Francis, Kaplan or Pelton turbine",
+        "generator"
+      ],
+      "to": [
+        "TAIL"
+      ]
+    },
+    {
+      "id": "TAIL",
+      "name": "Tailrace and grid connection",
+      "equipment": [
+        "tailrace",
+        "transformer"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "dam or weir",
+    "penstock",
+    "turbine",
+    "generator"
+  ],
+  "suppliers": [
+    {
+      "name": "Andritz",
+      "product": "hydro turbines"
+    },
+    {
+      "name": "Voith",
+      "product": "hydro turbines"
+    },
+    {
+      "name": "GE Vernova",
+      "product": "hydro turbines",
+      "source_id": "ge-vernova"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "capacity factor, non-powered dams",
+      "unit": "fraction",
+      "basis": "representative plants NPD 1 to 8",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/hydropower",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, hydropower, read 25 October 2026"
+      },
+      "low": 0.333,
+      "high": 0.623
+    },
+    {
+      "metric": "capacity factor, new stream-reach",
+      "unit": "fraction",
+      "basis": "NSD 1 to 4",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/hydropower",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, hydropower, read 25 October 2026"
+      },
+      "low": 0.624,
+      "high": 0.665
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost, new stream-reach",
+      "unit": "USD/kW",
+      "basis": "base year; dollar year not stated on the page",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/hydropower",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, hydropower, read 25 October 2026"
+      },
+      "low": 6574,
+      "high": 8611
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydropower' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Long life",
+    "Dispatchable with reservoir"
+  ],
+  "limitations": [
+    "Site-specific",
+    "Environmental and social impacts"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/hydropower",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, hydropower, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "dollar year for the ATB hydropower costs",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page does not state the dollar year.",
+      "where": [
+        {
+          "hint": "NREL ATB documentation",
+          "access": "open",
+          "source_id": "nrel"
+        }
+      ],
+      "action": "Confirm the dollar year and add it to the figure."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "pwr-grid-forming-inverters",
+  "name": "Grid-forming inverters and synchronous condensers",
+  "aliases": [
+    "Grid-forming inverters and synchronous condensers"
+  ],
+  "sector": "PWR",
+  "category": "Grid",
+  "applications": [
+    "weak grids with high renewables",
+    "remote LNG and oilfield microgrids"
+  ],
+  "maturity": "commercial",
+  "principle": "Grid-forming inverters set their own voltage and frequency, partly mimicking synchronous generators, whereas grid-following inverters need a stable grid to follow. Synchronous condensers add real inertia and short-circuit strength.",
+  "process_steps": [
+    {
+      "id": "DETECT",
+      "name": "Inverter sets voltage and frequency reference",
+      "equipment": [
+        "grid-forming controls"
+      ],
+      "to": [
+        "SUPPORT"
+      ]
+    },
+    {
+      "id": "SUPPORT",
+      "name": "Supply inertia-like response and fault current within limits",
+      "equipment": [
+        "battery or DC source",
+        "inverter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "grid-forming inverter",
+    "battery storage",
+    "synchronous condenser",
+    "control software"
+  ],
+  "suppliers": [
+    {
+      "name": "SMA",
+      "product": "grid-forming inverters"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "synchronous condensers",
+      "source_id": "siemens-energy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "grid-following loss in Blue Cut Fire event, 2016",
+      "unit": "MW PV lost (largest single)",
+      "basis": "inverters tripped on faults under 60 ms",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Grid-forming_inverter",
+        "note": "Wikipedia, Grid-forming inverter, read 25 October 2026 (secondary source)"
+      },
+      "low": 1200,
+      "high": 1200,
+      "year": 2016
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Battery storage system with grid-forming inverter' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Enables high inverter-based generation"
+  ],
+  "limitations": [
+    "Inverters tolerate only about 1 to 2 times rated current briefly versus 5 to 6 times for synchronous machines"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Grid-forming_inverter",
+      "note": "Wikipedia, Grid-forming inverter, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "real deployments with MW and dates, such as Hornsdale",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Wikipedia page read does not mention them.",
+      "where": [
+        {
+          "hint": "AEMO and Hornsdale Power Reserve reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add deployments."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

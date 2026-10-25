@@ -1,0 +1,196 @@
+{
+  "id": "pwr-cogeneration-chp",
+  "name": "Cogeneration and combined heat and power",
+  "aliases": [
+    "Cogeneration and combined heat and power",
+    "CHP",
+    "cogeneration"
+  ],
+  "sector": "PWR",
+  "category": "Gas-fired power",
+  "applications": [
+    "refineries and petrochemical sites",
+    "LNG and gas plants",
+    "district heating"
+  ],
+  "maturity": "commercial",
+  "principle": "A prime mover (gas turbine, reciprocating engine or boiler with steam turbine) makes electricity while its waste heat is recovered as steam or hot water for a process or building. US EPA reports total CHP efficiencies of 65 to 80% and sometimes close to 90%, against 50 to 55% for separate heat and grid power.",
+  "process_steps": [
+    {
+      "id": "PM",
+      "name": "Prime mover generates electricity",
+      "equipment": [
+        "gas turbine or engine",
+        "generator"
+      ],
+      "to": [
+        "HR"
+      ]
+    },
+    {
+      "id": "HR",
+      "name": "Heat recovery from exhaust and jacket",
+      "equipment": [
+        "HRSG or exhaust boiler",
+        "heat exchangers"
+      ],
+      "to": [
+        "USE"
+      ]
+    },
+    {
+      "id": "USE",
+      "name": "Steam or hot water to process, absorption chiller or district heat",
+      "equipment": [
+        "steam header",
+        "absorption chiller"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "prime mover",
+    "heat recovery steam generator or exhaust boiler",
+    "generator",
+    "switchgear and grid interconnection",
+    "heat distribution"
+  ],
+  "suppliers": [
+    {
+      "name": "Solar Turbines",
+      "product": "Titan and Taurus CHP packages",
+      "source_id": "solar-turbines"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "industrial gas turbine CHP",
+      "source_id": "siemens-energy"
+    },
+    {
+      "name": "Wärtsilä",
+      "product": "engine CHP",
+      "source_id": "wartsila"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "total CHP efficiency",
+      "unit": "% (some systems approach 90%)",
+      "basis": "EPA CHP benefits page",
+      "source": {
+        "url": "https://www.epa.gov/chp/chp-benefits",
+        "note": "US EPA, CHP benefits page, read 25 October 2026"
+      },
+      "low": 65,
+      "high": 80
+    },
+    {
+      "metric": "gas-turbine CHP electrical efficiency",
+      "unit": "% HHV",
+      "basis": "five representative systems, 3.3 MW to 44.5 MW",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf",
+        "note": "US EPA CHP Partnership, Catalog of CHP technologies, section 3, combustion turbines (2015, revised 2017)"
+      },
+      "low": 23.95,
+      "high": 35.96
+    },
+    {
+      "metric": "gas-turbine CHP total efficiency",
+      "unit": "% HHV",
+      "basis": "same five systems",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf",
+        "note": "US EPA CHP Partnership, Catalog of CHP technologies, section 3, combustion turbines (2015, revised 2017)"
+      },
+      "low": 65.7,
+      "high": 70.5
+    },
+    {
+      "metric": "separate heat and power efficiency",
+      "unit": "%",
+      "basis": "reference case in the EPA page",
+      "source": {
+        "url": "https://www.epa.gov/chp/chp-benefits",
+        "note": "US EPA, CHP benefits page, read 25 October 2026"
+      },
+      "low": 50,
+      "high": 55
+    }
+  ],
+  "costs": [
+    {
+      "metric": "installed cost, gas-turbine CHP",
+      "unit": "USD/kW",
+      "basis": "3 MW system $3,281; 45 MW system $1,248; costs fall with size",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf",
+        "note": "US EPA CHP Partnership, Catalog of CHP technologies, section 3, combustion turbines (2015, revised 2017)"
+      },
+      "low": 1248,
+      "high": 3281,
+      "year": 2013
+    }
+  ],
+  "advantages": [
+    "Fuel savings from using recovered heat",
+    "Lower CO2 than separate production"
+  ],
+  "limitations": [
+    "Needs a steady local heat demand",
+    "Economics depend on heat-to-power ratio"
+  ],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf",
+      "note": "US EPA CHP Partnership, Catalog of CHP technologies, section 3, combustion turbines (2015, revised 2017)"
+    },
+    {
+      "url": "https://www.epa.gov/chp/chp-benefits",
+      "note": "US EPA, CHP benefits page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

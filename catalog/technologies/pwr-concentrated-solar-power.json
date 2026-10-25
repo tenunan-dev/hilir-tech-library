@@ -1,0 +1,184 @@
+{
+  "id": "pwr-concentrated-solar-power",
+  "name": "Concentrated solar power with storage",
+  "aliases": [
+    "Concentrated solar power with storage",
+    "CSP"
+  ],
+  "sector": "PWR",
+  "category": "Solar",
+  "applications": [
+    "dispatchable solar",
+    "industrial heat"
+  ],
+  "maturity": "commercial",
+  "principle": "Mirrors concentrate sunlight on a receiver; the heat is stored in molten salt and used to raise steam for a turbine, giving dispatchable solar. NREL's 2024 baseline is a 102 MWe molten-salt power tower with 10 hours of two-tank storage, costed at $7,912/kWe in the 2022 base year.",
+  "process_steps": [
+    {
+      "id": "MIR",
+      "name": "Heliostats or troughs focus sunlight",
+      "equipment": [
+        "heliostats or parabolic troughs"
+      ],
+      "to": [
+        "REC"
+      ]
+    },
+    {
+      "id": "REC",
+      "name": "Receiver heats molten salt",
+      "equipment": [
+        "receiver"
+      ],
+      "to": [
+        "TES"
+      ]
+    },
+    {
+      "id": "TES",
+      "name": "Hot salt tank stores heat",
+      "equipment": [
+        "two-tank molten-salt storage"
+      ],
+      "to": [
+        "PB"
+      ]
+    },
+    {
+      "id": "PB",
+      "name": "Steam generator and turbine",
+      "equipment": [
+        "steam generator",
+        "steam turbine"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "heliostat field",
+    "receiver",
+    "molten-salt tanks",
+    "steam generator",
+    "turbine"
+  ],
+  "suppliers": [
+    {
+      "name": "Abengoa",
+      "product": "CSP plants"
+    },
+    {
+      "name": "SolarReserve",
+      "product": "tower plants (company later closed)"
+    },
+    {
+      "name": "Cosin",
+      "product": "CSP plants"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "capacity factor with 10 h storage, base year",
+      "unit": "%",
+      "basis": "Abilene TX 51.4, Phoenix 64.7, Daggett CA 66.6",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/concentrating_solar_power",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, concentrating solar power, read 25 October 2026"
+      },
+      "low": 51.4,
+      "high": 66.6
+    },
+    {
+      "metric": "power cycle gross efficiency, 2022",
+      "unit": "%",
+      "basis": "steam Rankine at 574 °C",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/concentrating_solar_power",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, concentrating solar power, read 25 October 2026"
+      },
+      "low": 41.2,
+      "high": 41.2
+    },
+    {
+      "metric": "fixed O&M",
+      "unit": "USD/kW-yr",
+      "basis": "2022",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/concentrating_solar_power",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, concentrating solar power, read 25 October 2026"
+      },
+      "low": 74.6,
+      "high": 74.6,
+      "year": 2022
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost, base year",
+      "unit": "USD/kWe",
+      "basis": "2022 dollars",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/concentrating_solar_power",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, concentrating solar power, read 25 October 2026"
+      },
+      "low": 7912,
+      "high": 7912,
+      "year": 2022
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Solar tower' 9 (2025); 'Parabolic trough (solar)' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Built-in thermal storage gives dispatchable output"
+  ],
+  "limitations": [
+    "High capex",
+    "Needs strong direct sunlight"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/concentrating_solar_power",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, concentrating solar power, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

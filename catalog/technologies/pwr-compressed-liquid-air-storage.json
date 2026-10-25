@@ -1,0 +1,178 @@
+{
+  "id": "pwr-compressed-liquid-air-storage",
+  "name": "Compressed and liquid air energy storage",
+  "aliases": [
+    "Compressed and liquid air energy storage",
+    "CAES",
+    "LAES"
+  ],
+  "sector": "PWR",
+  "category": "Mechanical storage",
+  "applications": [
+    "long-duration storage",
+    "reuse of salt caverns and mines"
+  ],
+  "maturity": "demonstration",
+  "principle": "Air is compressed (CAES) into a cavern or vessel, or liquefied (LAES), and later expanded through a turbine; advanced designs store the compression heat to avoid burning gas. Hydrostor's Willow Rock project in California is 500 MW and 4,000 MWh (8+ hours) of advanced CAES with a 50+ year design life.",
+  "process_steps": [
+    {
+      "id": "COMP",
+      "name": "Compress air using surplus power, storing the heat",
+      "equipment": [
+        "compressors",
+        "thermal store"
+      ],
+      "to": [
+        "CAV"
+      ]
+    },
+    {
+      "id": "CAV",
+      "name": "Store air in cavern or tank",
+      "equipment": [
+        "cavern"
+      ],
+      "to": [
+        "EXP"
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "Expand air with stored heat through turbine",
+      "equipment": [
+        "expander",
+        "generator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "compressors",
+    "thermal store",
+    "air cavern or tank",
+    "expander and generator"
+  ],
+  "suppliers": [
+    {
+      "name": "Hydrostor",
+      "product": "advanced CAES"
+    },
+    {
+      "name": "Highview Power",
+      "product": "liquid air storage"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Willow Rock power",
+      "unit": "MW",
+      "basis": "late-stage development",
+      "source": {
+        "url": "https://www.hydrostor.ca/willow-rock/",
+        "note": "Hydrostor, Willow Rock Energy Storage Center page, read 25 October 2026"
+      },
+      "low": 500,
+      "high": 500
+    },
+    {
+      "metric": "Willow Rock energy",
+      "unit": "MWh",
+      "basis": "8+ hours",
+      "source": {
+        "url": "https://www.hydrostor.ca/willow-rock/",
+        "note": "Hydrostor, Willow Rock Energy Storage Center page, read 25 October 2026"
+      },
+      "low": 4000,
+      "high": 4000
+    }
+  ],
+  "trl": {
+    "low": 7,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Compressed air energy storage' 9 (2025); 'Liquid air energy storage' 7 (2025)"
+    }
+  },
+  "advantages": [
+    "Long duration at large scale",
+    "No fossil fuel in advanced designs"
+  ],
+  "limitations": [
+    "Round-trip efficiency not stated in sources read",
+    "Highview's page was blocked, so LAES data is missing"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrostor.ca/willow-rock/",
+      "note": "Hydrostor, Willow Rock Energy Storage Center page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "round-trip efficiency and Highview Carrington data",
+      "reason_code": "source_unreachable",
+      "reason": "Highview's site blocks automated reading and Hydrostor's page gives no efficiency.",
+      "where": [
+        {
+          "hint": "Highview Power project pages",
+          "access": "open",
+          "url": "https://highview-power.com/"
+        }
+      ],
+      "action": "Add efficiency and MWh for operating projects."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

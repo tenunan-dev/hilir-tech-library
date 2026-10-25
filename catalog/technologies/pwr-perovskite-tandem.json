@@ -1,0 +1,147 @@
+{
+  "id": "pwr-perovskite-tandem",
+  "name": "Perovskite and tandem solar cells",
+  "aliases": [
+    "Perovskite and tandem solar cells",
+    "perovskite tandem"
+  ],
+  "sector": "PWR",
+  "category": "Solar",
+  "applications": [
+    "higher-efficiency utility and rooftop PV"
+  ],
+  "maturity": "pilot",
+  "principle": "A perovskite layer is added on top of a silicon cell (tandem) or used alone to capture more of the spectrum than silicon can. NREL's 2024 baseline assumes advanced-scenario modules sit midway between TOPCon/SHJ and tandem technology. The Oxford PV page read did not carry current tandem efficiency or shipment data.",
+  "process_steps": [
+    {
+      "id": "DEP",
+      "name": "Deposit perovskite layers on a silicon or glass substrate",
+      "equipment": [
+        "coating and deposition tools"
+      ],
+      "to": [
+        "MOD"
+      ]
+    },
+    {
+      "id": "MOD",
+      "name": "Encapsulate into a module",
+      "equipment": [
+        "laminator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "perovskite deposition line",
+    "silicon bottom cell",
+    "encapsulation"
+  ],
+  "suppliers": [
+    {
+      "name": "Oxford PV",
+      "product": "perovskite-on-silicon tandem modules"
+    },
+    {
+      "name": "LONGi",
+      "product": "tandem cell research"
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Perovskite thin film' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "Higher efficiency ceiling than single-junction silicon"
+  ],
+  "limitations": [
+    "Durability and stability are the open issues",
+    "Volumes still small"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/utility-scale_pv",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, utility-scale PV, read 25 October 2026"
+    },
+    {
+      "url": "https://www.oxfordpv.com/",
+      "note": "Oxford PV home page, read 25 October 2026 (page carries no tandem data)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "certified cell and module efficiency records with dates",
+      "reason_code": "source_unreachable",
+      "reason": "NREL's efficiency chart page and the Oxford PV page carry no values in text.",
+      "where": [
+        {
+          "hint": "NREL research cell efficiency chart data file",
+          "access": "open",
+          "source_id": "nrel"
+        },
+        {
+          "hint": "Oxford PV press releases",
+          "access": "open"
+        }
+      ],
+      "action": "Download the NREL data file and record tandem and silicon records with dates."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

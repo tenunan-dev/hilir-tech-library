@@ -1,0 +1,167 @@
+{
+  "id": "pwr-offshore-wind-fixed",
+  "name": "Offshore wind (fixed bottom)",
+  "aliases": [
+    "Offshore wind (fixed bottom)"
+  ],
+  "sector": "PWR",
+  "category": "Wind",
+  "applications": [
+    "utility power",
+    "platform electrification",
+    "offshore hydrogen"
+  ],
+  "maturity": "commercial",
+  "principle": "Large turbines on monopile or jacket foundations in water shallower than 60 m, connected by export cables or HVDC links. NREL's 2024 baseline representative turbine is rated 12 MW with a 216 m rotor and 137 m hub height; near-term costs are higher than earlier projections.",
+  "process_steps": [
+    {
+      "id": "TURB",
+      "name": "Turbine generates AC",
+      "equipment": [
+        "12 MW class turbine"
+      ],
+      "to": [
+        "ARR"
+      ]
+    },
+    {
+      "id": "ARR",
+      "name": "Inter-array cables to an offshore substation",
+      "equipment": [
+        "inter-array cables",
+        "offshore substation"
+      ],
+      "to": [
+        "EXP"
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "Export cable to shore, AC or HVDC",
+      "equipment": [
+        "export cable",
+        "HVDC converter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "turbine",
+    "monopile or jacket foundation",
+    "inter-array cables",
+    "offshore substation",
+    "export cable"
+  ],
+  "suppliers": [
+    {
+      "name": "Ørsted",
+      "product": "developer and operator"
+    },
+    {
+      "name": "Siemens Gamesa",
+      "product": "offshore turbines"
+    },
+    {
+      "name": "Vestas",
+      "product": "offshore turbines"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "representative turbine rating",
+      "unit": "MW",
+      "basis": "216 m rotor, 137 m hub height, base year",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/offshore_wind",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, offshore wind, read 25 October 2026"
+      },
+      "low": 12,
+      "high": 12
+    },
+    {
+      "metric": "capex learning rate, fixed bottom",
+      "unit": "% per doubling",
+      "basis": "conservative to advanced scenario",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/offshore_wind",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, offshore wind, read 25 October 2026"
+      },
+      "low": 6.3,
+      "high": 11.2
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Seabed fixed offshore wind turbine' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "High capacity factors",
+    "Large unit sizes"
+  ],
+  "limitations": [
+    "Near-term capex rises of 20 to 70% assumed across NREL scenarios",
+    "Grid connection and vessel constraints"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/offshore_wind",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, offshore wind, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost $/kW and capacity factor with dollar year",
+      "reason_code": "source_unreachable",
+      "reason": "The ATB page shows year-specific values only in interactive charts.",
+      "where": [
+        {
+          "hint": "NREL ATB 2024 data download",
+          "access": "open",
+          "source_id": "nrel"
+        },
+        {
+          "hint": "IRENA Renewable Power Generation Costs",
+          "access": "open",
+          "source_id": "irena"
+        }
+      ],
+      "action": "Download the ATB dataset and record the 2022 base cost with its dollar year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

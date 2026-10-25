@@ -1,0 +1,144 @@
+{
+  "id": "pwr-enhanced-geothermal",
+  "name": "Enhanced geothermal systems",
+  "aliases": [
+    "Enhanced geothermal systems",
+    "EGS"
+  ],
+  "sector": "PWR",
+  "category": "Geothermal",
+  "applications": [
+    "firm clean power anywhere with hot rock",
+    "reuse of oil and gas drilling skills"
+  ],
+  "maturity": "demonstration",
+  "principle": "Engineers create or enhance permeability in hot dry rock with hydraulic stimulation and horizontal drilling borrowed from oil and gas, so a circulating fluid can carry heat to a surface plant. NREL's 2024 baseline lists near-field EGS flash at 6,535 USD/kW and deep EGS binary at 13,508 USD/kW (dollar year not stated).",
+  "process_steps": [
+    {
+      "id": "DRILL",
+      "name": "Drill injector and producer wells into hot rock",
+      "equipment": [
+        "directional drilling"
+      ],
+      "to": [
+        "STIM"
+      ]
+    },
+    {
+      "id": "STIM",
+      "name": "Stimulate fractures to link the wells",
+      "equipment": [
+        "hydraulic stimulation"
+      ],
+      "to": [
+        "CIRC"
+      ]
+    },
+    {
+      "id": "CIRC",
+      "name": "Circulate fluid and generate power",
+      "equipment": [
+        "surface plant",
+        "ORC or flash"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "horizontal wells",
+    "stimulation equipment",
+    "surface power plant",
+    "downhole monitoring"
+  ],
+  "suppliers": [
+    {
+      "name": "Fervo Energy",
+      "product": "EGS projects"
+    },
+    {
+      "name": "Eavor",
+      "product": "closed-loop Eavor-Loop"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "EGS plant size, moderate scenario",
+      "unit": "MWe",
+      "basis": "advanced scenario 100 MWe",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/geothermal",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+      },
+      "low": 40,
+      "high": 40
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost, near-field EGS to deep EGS",
+      "unit": "USD/kW",
+      "basis": "NF-EGS flash 6,535 to deep EGS binary 13,508; dollar year not stated (base year 2022)",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/geothermal",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+      },
+      "low": 6535,
+      "high": 13508
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 7,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Enhanced geothermal systems' 7 (2025); 'Closed-loop geothermal systems' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "Geothermal not limited to natural hydrothermal sites"
+  ],
+  "limitations": [
+    "Induced seismicity and water use need management",
+    "Costs fall only if drilling costs fall"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/geothermal",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Fervo Cape Station phases, MW and dates",
+      "reason_code": "source_unreachable",
+      "reason": "Fervo's Cape Station page carried only a tagline.",
+      "where": [
+        {
+          "hint": "Fervo Energy newsroom",
+          "access": "open",
+          "url": "https://fervoenergy.com/newsroom"
+        }
+      ],
+      "action": "Add MW, start-up date and drilling-cost trend."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

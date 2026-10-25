@@ -62,6 +62,14 @@ class Graph:
             self.edges.setdefault((src, dst, rel), {"src": src, "dst": dst, "rel": rel, "weight": weight, "props": props})
 
 
+SECTOR_CODES = {"UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS"}
+
+
+def code_node(code):
+    """Node id of a sector or cross-cutting discipline code."""
+    return f"{'sector' if code in SECTOR_CODES else 'discipline'}:{code}"
+
+
 def build_graph(root=None, corpus=None):
     root = pathlib.Path(root or ROOT)
     corpus = pathlib.Path(corpus or root / "corpus")
@@ -72,7 +80,7 @@ def build_graph(root=None, corpus=None):
     entries = technologies.load_register(root / "catalog" / "technology-register.yaml", cards)
 
     for code, name in labels.items():
-        kind = "sector" if code in {"UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS"} else (
+        kind = "sector" if code in SECTOR_CODES else (
             "discipline" if code in {"PRC", "ROT", "INS", "MAT", "HSE", "DIG"} else "region")
         g.node(f"{kind}:{code}", kind, name)
     for code, name in library.COUNTRIES.items():
@@ -102,7 +110,7 @@ def build_graph(root=None, corpus=None):
         tid = g.node(f"technology:{card['id']}", "technology", card["name"], sector=card["sector"], maturity=card["maturity"],
                      category=card["category"])
         card_nodes[card["id"]] = tid
-        g.edge(tid, f"sector:{card['sector']}", "in_sector")
+        g.edge(tid, code_node(card["sector"]), "in_sector")
         for s in card["sources"]:
             if s.get("source_id"):
                 g.edge(tid, f"source:{s['source_id']}", "cites", note=s.get("note", ""), url=s["url"])
@@ -122,7 +130,7 @@ def build_graph(root=None, corpus=None):
     # Register entries
     for e in entries:
         rid = g.node(register_id(e), "register", e["name"], area=e["area"], maturity=e["maturity"], examples=e["examples"])
-        g.edge(rid, f"sector:{e['code']}", "in_sector")
+        g.edge(rid, code_node(e["code"]), "in_sector")
         if e["card"]:
             g.edge(rid, card_nodes[e["card"]], "realised_by")
         for part in e["examples"].split(","):

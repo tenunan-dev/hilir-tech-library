@@ -1,0 +1,174 @@
+{
+  "id": "pwr-pumped-hydro-storage",
+  "name": "Pumped hydro storage",
+  "aliases": [
+    "Pumped hydro storage",
+    "pumped storage"
+  ],
+  "sector": "PWR",
+  "category": "Mechanical storage",
+  "applications": [
+    "long-duration grid storage"
+  ],
+  "maturity": "commercial",
+  "principle": "Water is pumped to an upper reservoir when power is cheap and released through turbines when needed. NREL's 2024 baseline uses 80% round-trip efficiency (literature range 70 to 87%) and 8, 10 or 12 hour durations; US capacity was about 23 GW in 2021.",
+  "process_steps": [
+    {
+      "id": "PUMP",
+      "name": "Pump water uphill",
+      "equipment": [
+        "reversible pump-turbine"
+      ],
+      "to": [
+        "UP"
+      ]
+    },
+    {
+      "id": "UP",
+      "name": "Store in upper reservoir",
+      "equipment": [
+        "reservoir"
+      ],
+      "to": [
+        "GEN"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Release through turbine",
+      "equipment": [
+        "pump-turbine",
+        "generator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "upper and lower reservoirs",
+    "reversible pump-turbine",
+    "tunnels and penstocks",
+    "motor-generator"
+  ],
+  "suppliers": [
+    {
+      "name": "Andritz",
+      "product": "pump-turbines"
+    },
+    {
+      "name": "Voith",
+      "product": "pump-turbines"
+    },
+    {
+      "name": "GE Vernova",
+      "product": "pump-turbines",
+      "source_id": "ge-vernova"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "round-trip efficiency",
+      "unit": "%",
+      "basis": "literature range 70 to 87%",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, pumped storage hydropower, read 25 October 2026"
+      },
+      "low": 80,
+      "high": 80
+    },
+    {
+      "metric": "US deployed capacity",
+      "unit": "GW",
+      "basis": "2021 base year",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, pumped storage hydropower, read 25 October 2026"
+      },
+      "low": 23,
+      "high": 23,
+      "year": 2021
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost, 10 h, closed loop",
+      "unit": "USD/kW",
+      "basis": "median by resource class 1 to 15",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, pumped storage hydropower, read 25 October 2026"
+      },
+      "low": 3029,
+      "high": 4501,
+      "year": 2021
+    },
+    {
+      "metric": "overnight capital cost, 10 h, one new reservoir",
+      "unit": "USD/kW",
+      "basis": "median by resource class 1 to 5",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, pumped storage hydropower, read 25 October 2026"
+      },
+      "low": 1730,
+      "high": 3250,
+      "year": 2021
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Pumped storage' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Proven, long-life, large scale"
+  ],
+  "limitations": [
+    "Site and permitting constraints",
+    "Long build time"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, pumped storage hydropower, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

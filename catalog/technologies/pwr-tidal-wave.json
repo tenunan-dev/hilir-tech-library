@@ -1,0 +1,146 @@
+{
+  "id": "pwr-tidal-wave",
+  "name": "Tidal and wave energy",
+  "aliases": [
+    "Tidal and wave energy"
+  ],
+  "sector": "PWR",
+  "category": "Ocean",
+  "applications": [
+    "island and coastal power"
+  ],
+  "maturity": "pilot",
+  "principle": "Turbines or oscillating devices capture tidal streams and waves. Orbital Marine's 2 MW O2 floating tidal turbine is anchored in the Fall of Warness at the European Marine Energy Centre, Orkney, and feeds the local grid by subsea cable.",
+  "process_steps": [
+    {
+      "id": "CAP",
+      "name": "Device captures tidal or wave energy",
+      "equipment": [
+        "turbine rotors or wave converter"
+      ],
+      "to": [
+        "GEN"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Generator and power conversion",
+      "equipment": [
+        "generator"
+      ],
+      "to": [
+        "CAB"
+      ]
+    },
+    {
+      "id": "CAB",
+      "name": "Subsea cable to shore",
+      "equipment": [
+        "export cable"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "turbine or converter",
+    "mooring",
+    "subsea cable"
+  ],
+  "suppliers": [
+    {
+      "name": "Orbital Marine Power",
+      "product": "O2 floating turbine"
+    },
+    {
+      "name": "SIMEC Atlantis",
+      "product": "MeyGen tidal stream"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "O2 rated capacity",
+      "unit": "MW",
+      "basis": "anchored at EMEC Fall of Warness",
+      "source": {
+        "url": "https://www.orbitalmarine.com/o2/",
+        "note": "Orbital Marine Power, O2 page, read 25 October 2026"
+      },
+      "low": 2,
+      "high": 2
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Tidal stream (ocean current energy)' 6 (2025); 'Wave energy converters (wave energy)' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "Predictable resource"
+  ],
+  "limitations": [
+    "High cost and small scale",
+    "The O2 page gives no start-up date"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orbitalmarine.com/o2/",
+      "note": "Orbital Marine Power, O2 page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

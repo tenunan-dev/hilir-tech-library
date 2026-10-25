@@ -1,0 +1,154 @@
+{
+  "id": "pwr-gravity-storage",
+  "name": "Gravity energy storage",
+  "aliases": [
+    "Gravity energy storage"
+  ],
+  "sector": "PWR",
+  "category": "Mechanical storage",
+  "applications": [
+    "grid storage"
+  ],
+  "maturity": "demonstration",
+  "principle": "Heavy blocks or masses are lifted when power is cheap and lowered to drive generators. The IEA guide rates gravity storage (excluding pumped hydro) at TRL 7. Energy Vault's current website describes only battery-based projects, so no gravity data could be sourced.",
+  "process_steps": [
+    {
+      "id": "LIFT",
+      "name": "Motor lifts masses",
+      "equipment": [
+        "crane or shaft hoist",
+        "motor"
+      ],
+      "to": [
+        "HOLD"
+      ]
+    },
+    {
+      "id": "HOLD",
+      "name": "Hold at height",
+      "equipment": [
+        "stacked blocks"
+      ],
+      "to": [
+        "LOWER"
+      ]
+    },
+    {
+      "id": "LOWER",
+      "name": "Lower masses to generate",
+      "equipment": [
+        "generator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "hoist",
+    "masses",
+    "motor-generator",
+    "control system"
+  ],
+  "suppliers": [
+    {
+      "name": "Energy Vault",
+      "product": "gravity storage (the company's site now describes battery projects)"
+    }
+  ],
+  "trl": {
+    "low": 7,
+    "high": 7,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Gravity-based storage (excluding pumped hydro)' 7 (2025)"
+    }
+  },
+  "advantages": [
+    "No chemical degradation"
+  ],
+  "limitations": [
+    "Low energy density",
+    "Few operating projects found"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energyvault.com/",
+      "note": "Energy Vault home page, read 25 October 2026 (page covers batteries only)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Rudong, China gravity project details",
+      "reason_code": "source_unreachable",
+      "reason": "The Energy Vault page read does not mention gravity storage.",
+      "where": [
+        {
+          "hint": "Energy Vault investor filings",
+          "access": "open"
+        }
+      ],
+      "action": "Add MWh, efficiency and status from a filing."
+    },
+    {
+      "field": "performance",
+      "item": "key performance figures (energy use, yields, capture or conversion rate)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives performance figures.",
+      "where": [
+        {
+          "hint": "Supplier datasheets and brochures for the companies listed on the card",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Add the figures that matter for comparing options, each with its basis and source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

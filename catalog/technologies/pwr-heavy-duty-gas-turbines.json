@@ -1,0 +1,236 @@
+{
+  "id": "pwr-heavy-duty-gas-turbines",
+  "name": "Heavy-duty gas turbines (H and J class)",
+  "aliases": [
+    "Heavy-duty gas turbines (H and J class)",
+    "H-class gas turbine",
+    "J-class gas turbine"
+  ],
+  "sector": "PWR",
+  "category": "Gas-fired power",
+  "applications": [
+    "baseload and mid-merit combined-cycle power",
+    "grid balancing"
+  ],
+  "maturity": "commercial",
+  "principle": "Large frame gas turbines compress air, burn natural gas at firing temperatures above 1,400 °C and expand the gas through a turbine that drives the compressor and a generator. H- and J-class machines are the most efficient frames: GE Vernova's 7HA.03 is rated 430 MW net in 60 Hz service and Mitsubishi's M701J/JAC series exceeds 64% combined-cycle efficiency on a lower-heating-value basis.",
+  "process_steps": [
+    {
+      "id": "AIR",
+      "name": "Air compression",
+      "equipment": [
+        "axial compressor"
+      ],
+      "to": [
+        "COMB"
+      ]
+    },
+    {
+      "id": "COMB",
+      "name": "Dry low-NOx combustion of gas fuel",
+      "equipment": [
+        "combustor"
+      ],
+      "to": [
+        "TURB"
+      ]
+    },
+    {
+      "id": "TURB",
+      "name": "Turbine expansion and generator drive",
+      "equipment": [
+        "turbine",
+        "generator"
+      ],
+      "to": [
+        "EXH"
+      ]
+    },
+    {
+      "id": "EXH",
+      "name": "Exhaust to heat recovery or stack",
+      "equipment": [
+        "exhaust diffuser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "axial compressor",
+    "dry low-NOx combustor",
+    "turbine section",
+    "generator",
+    "inlet air filtration"
+  ],
+  "suppliers": [
+    {
+      "name": "GE Vernova",
+      "product": "7HA, 9HA",
+      "source_id": "ge-vernova"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries (Mitsubishi Power)",
+      "product": "M501/M701 J and JAC",
+      "source_id": "mitsubishi-heavy"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "HL class",
+      "source_id": "siemens-energy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "7HA.03 output (60 Hz, simple cycle)",
+      "unit": "MW net",
+      "basis": "vendor page; simple-cycle range 290 to 430 MW across the 7HA family",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+      },
+      "low": 430,
+      "high": 430
+    },
+    {
+      "metric": "7HA net combined-cycle efficiency",
+      "unit": "% (vendor basis not stated on page)",
+      "basis": "vendor claim",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+      },
+      "low": 63,
+      "high": 64
+    },
+    {
+      "metric": "7HA.03 net plant efficiency, 1 on 1",
+      "unit": "% HHV",
+      "basis": "EPA technical support document table",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+        "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
+      },
+      "low": 57.6,
+      "high": 57.6
+    },
+    {
+      "metric": "M701J/JAC combined-cycle efficiency",
+      "unit": "% LHV (more than)",
+      "basis": "vendor claim, 1-on-1 plant output 650 to 840 MW",
+      "source": {
+        "url": "https://power.mhi.com/products/gasturbines/lineup/m701j",
+        "source_id": "mitsubishi-heavy",
+        "note": "Mitsubishi Power, M701J/JAC series page, read 25 October 2026"
+      },
+      "low": 64
+    },
+    {
+      "metric": "7HA hot restart to full gas-turbine load",
+      "unit": "min",
+      "basis": "7HA.02 10 min, 7HA.03 21 min",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+      },
+      "low": 10,
+      "high": 21
+    },
+    {
+      "metric": "hydrogen co-firing capability",
+      "unit": "% hydrogen by volume",
+      "basis": "GE 7HA up to 50%; MHI says 30% demonstrated on M701J",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+      },
+      "low": 30,
+      "high": 50
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'H₂ blending in natural gas turbine' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Highest combined-cycle efficiency of any commercial fossil technology",
+    "Fast ramp rates (55 to 75 MW/min on 7HA)",
+    "Hydrogen blending capability"
+  ],
+  "limitations": [
+    "Efficiency falls at part load",
+    "Output and efficiency are ambient-dependent",
+    "Vendor figures are not independently verified"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+    },
+    {
+      "url": "https://power.mhi.com/products/gasturbines/lineup/m701j",
+      "source_id": "mitsubishi-heavy",
+      "note": "Mitsubishi Power, M701J/JAC series page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+      "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per kW with dollar year",
+      "reason_code": "paid_source",
+      "reason": "Open vendor pages give no cost; cost databases are commercial.",
+      "where": [
+        {
+          "hint": "Gas Turbine World handbook (paid)",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Add an open cost figure, for example from an EIA or NREL cost study."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -132,7 +132,13 @@
         "PCH",
         "PWR",
         "H2",
-        "CCS"
+        "CCS",
+        "PRC",
+        "ROT",
+        "INS",
+        "MAT",
+        "HSE",
+        "DIG"
       ]
     },
     "category": {

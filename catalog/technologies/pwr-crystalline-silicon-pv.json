@@ -1,0 +1,168 @@
+{
+  "id": "pwr-crystalline-silicon-pv",
+  "name": "Crystalline silicon PV (PERC, TOPCon, HJT)",
+  "aliases": [
+    "Crystalline silicon PV (PERC, TOPCon, HJT)",
+    "silicon solar PV"
+  ],
+  "sector": "PWR",
+  "category": "Solar",
+  "applications": [
+    "utility power",
+    "oil and gas site power",
+    "hydrogen electrolysis supply"
+  ],
+  "maturity": "commercial",
+  "principle": "Silicon wafers convert sunlight to DC electricity; the cell structure sets efficiency. PERC is the mature cell, TOPCon and heterojunction (HJT/SHJ) are the current upgrades. NREL's 2024 baseline models a 100 MWdc (74.6 MWac) one-axis tracked plant with bifacial modules and costs it at $1.56/WAC in 2023.",
+  "process_steps": [
+    {
+      "id": "MOD",
+      "name": "Modules convert sunlight to DC",
+      "equipment": [
+        "bifacial modules",
+        "trackers"
+      ],
+      "to": [
+        "INV"
+      ]
+    },
+    {
+      "id": "INV",
+      "name": "Inverters convert DC to AC",
+      "equipment": [
+        "string or central inverters"
+      ],
+      "to": [
+        "GRID"
+      ]
+    },
+    {
+      "id": "GRID",
+      "name": "Step-up and grid connection",
+      "equipment": [
+        "transformer",
+        "switchgear"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "PV modules",
+    "single-axis trackers",
+    "inverters",
+    "step-up transformer"
+  ],
+  "suppliers": [
+    {
+      "name": "LONGi",
+      "product": "HJT and back-contact modules"
+    },
+    {
+      "name": "Jinko Solar",
+      "product": "TOPCon modules"
+    },
+    {
+      "name": "Trina Solar",
+      "product": "TOPCon modules"
+    },
+    {
+      "name": "JA Solar",
+      "product": "modules"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "capacity factor, AC, one-axis tracking, ILR 1.34",
+      "unit": "%",
+      "basis": "2021 first-year range from lowest to best solar resource class",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/utility-scale_pv",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, utility-scale PV, read 25 October 2026"
+      },
+      "low": 21.4,
+      "high": 34
+    },
+    {
+      "metric": "fixed O&M",
+      "unit": "USD/kWac-yr",
+      "basis": "2023",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/utility-scale_pv",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, utility-scale PV, read 25 October 2026"
+      },
+      "low": 22,
+      "high": 22,
+      "year": 2023
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost",
+      "unit": "USD/Wac",
+      "basis": "2023 benchmark (Q1 2023), 100 MWdc one-axis tracking; the base year 2022 value is $1.43/Wac",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/utility-scale_pv",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, utility-scale PV, read 25 October 2026"
+      },
+      "low": 1.56,
+      "high": 1.56,
+      "year": 2023
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Crystalline silicon PV' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Lowest-cost new electricity in many markets",
+    "Modular and fast to build"
+  ],
+  "limitations": [
+    "Variable output",
+    "Needs storage or firming for 24 hour supply"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/utility-scale_pv",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, utility-scale PV, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named plants with capacity and start-up year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The NREL page models a representative plant only.",
+      "where": [
+        {
+          "hint": "Operator project pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add one SEA or Australian solar farm."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "pwr-large-light-water-reactors",
+  "name": "Large light-water reactors",
+  "aliases": [
+    "Large light-water reactors"
+  ],
+  "sector": "PWR",
+  "category": "Nuclear",
+  "applications": [
+    "baseload power",
+    "industrial heat and hydrogen (in design studies)"
+  ],
+  "maturity": "commercial",
+  "principle": "Pressurised and boiling water reactors above 300 MWe use water as coolant and moderator to raise steam for turbines. The World Nuclear Association lists 316 operable PWRs (306.2 GWe) and 60 BWRs (61.0 GWe), with licence extensions to 60 years and sometimes 80 years.",
+  "process_steps": [
+    {
+      "id": "CORE",
+      "name": "Fission heats pressurised water",
+      "equipment": [
+        "reactor vessel",
+        "fuel assemblies"
+      ],
+      "to": [
+        "SG"
+      ]
+    },
+    {
+      "id": "SG",
+      "name": "Steam generation",
+      "equipment": [
+        "steam generator"
+      ],
+      "to": [
+        "TG"
+      ]
+    },
+    {
+      "id": "TG",
+      "name": "Turbine and generator",
+      "equipment": [
+        "steam turbine",
+        "generator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reactor pressure vessel",
+    "steam generators",
+    "primary pumps",
+    "containment",
+    "turbine generator"
+  ],
+  "suppliers": [
+    {
+      "name": "Westinghouse",
+      "product": "AP1000"
+    },
+    {
+      "name": "EDF",
+      "product": "EPR (Framatome)"
+    },
+    {
+      "name": "KHNP",
+      "product": "APR1400"
+    },
+    {
+      "name": "CGN",
+      "product": "Hualong One"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "operable PWRs worldwide",
+      "unit": "reactors (306.2 GWe)",
+      "basis": "WNA table, page dated 5 August 2026",
+      "source": {
+        "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors",
+        "note": "World Nuclear Association, Nuclear power reactors, updated 5 August 2026"
+      },
+      "low": 316,
+      "high": 316,
+      "year": 2026
+    },
+    {
+      "metric": "operable BWRs worldwide",
+      "unit": "reactors (61.0 GWe)",
+      "basis": "WNA table",
+      "source": {
+        "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors",
+        "note": "World Nuclear Association, Nuclear power reactors, updated 5 August 2026"
+      },
+      "low": 60,
+      "high": 60,
+      "year": 2026
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Generation III/III+ large reactors' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Large firm low-carbon supply"
+  ],
+  "limitations": [
+    "High capital cost and long build times (not quantified in the source read)"
+  ],
+  "sources": [
+    {
+      "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors",
+      "note": "World Nuclear Association, Nuclear power reactors, updated 5 August 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "overnight cost per kW and build time with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The WNA page gives neither.",
+      "where": [
+        {
+          "hint": "IEA or NEA nuclear cost studies",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Add recent project costs with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

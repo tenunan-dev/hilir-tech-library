@@ -1,0 +1,168 @@
+{
+  "id": "pwr-onshore-wind",
+  "name": "Onshore wind",
+  "aliases": [
+    "Onshore wind"
+  ],
+  "sector": "PWR",
+  "category": "Wind",
+  "applications": [
+    "utility power",
+    "supplying electrolysers and electrified oil and gas sites"
+  ],
+  "maturity": "commercial",
+  "principle": "Horizontal-axis turbines on land convert wind to electricity through a rotor, gearbox or direct-drive generator and a power converter. The IEA Clean Energy Technology Guide rates onshore wind TRL 9. The DOE market report page was not reachable, so figures on turbine size and cost are not yet on this card.",
+  "process_steps": [
+    {
+      "id": "ROT",
+      "name": "Rotor turns in the wind",
+      "equipment": [
+        "blades",
+        "hub"
+      ],
+      "to": [
+        "GEN"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Generator and converter",
+      "equipment": [
+        "gearbox or direct drive",
+        "converter"
+      ],
+      "to": [
+        "GRID"
+      ]
+    },
+    {
+      "id": "GRID",
+      "name": "Collection system and substation",
+      "equipment": [
+        "transformer",
+        "cables"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "rotor",
+    "nacelle with generator",
+    "tower",
+    "converter",
+    "foundation"
+  ],
+  "suppliers": [
+    {
+      "name": "Vestas",
+      "product": "onshore turbines"
+    },
+    {
+      "name": "Siemens Gamesa",
+      "product": "onshore turbines"
+    },
+    {
+      "name": "Goldwind",
+      "product": "onshore turbines"
+    },
+    {
+      "name": "Envision",
+      "product": "onshore turbines"
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Onshore wind' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Mature and low-cost",
+    "Short build time"
+  ],
+  "limitations": [
+    "Variable output",
+    "Land and permitting constraints"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, TRL for onshore wind"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "turbine ratings, capacity factors and installed cost with dollar year",
+      "reason_code": "source_unreachable",
+      "reason": "The DOE land-based wind market report page returned an error and the NREL ATB land-based wind page is blocked by robots.txt.",
+      "where": [
+        {
+          "hint": "DOE Land-Based Wind Market Report",
+          "access": "open",
+          "url": "https://www.energy.gov/eere/wind/land-based-wind-market-reports-2025-edition"
+        },
+        {
+          "hint": "IRENA Renewable Power Generation Costs",
+          "access": "open",
+          "source_id": "irena"
+        }
+      ],
+      "action": "Fetch a reachable edition and add figures with their year."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "pwr-geothermal-flash-binary",
+  "name": "Geothermal (flash and binary cycle)",
+  "aliases": [
+    "Geothermal (flash and binary cycle)"
+  ],
+  "sector": "PWR",
+  "category": "Geothermal",
+  "applications": [
+    "baseload renewable power",
+    "oilfield co-produced hot water"
+  ],
+  "maturity": "commercial",
+  "principle": "Hot water or steam from wells drives a turbine directly (dry steam, flash at 200 °C and above) or heats a secondary fluid in an organic Rankine cycle (binary, 110 to under 200 °C). NREL's 2024 baseline sizes a hydrothermal flash plant at 40 MWe, 225 °C, 2.5 km, and a binary plant at 30 MWe, 175 °C, 1.5 km.",
+  "process_steps": [
+    {
+      "id": "WELL",
+      "name": "Production wells bring up hot fluid",
+      "equipment": [
+        "production wells",
+        "separator"
+      ],
+      "to": [
+        "TURB"
+      ]
+    },
+    {
+      "id": "TURB",
+      "name": "Steam or binary turbine and generator",
+      "equipment": [
+        "steam turbine or ORC",
+        "generator"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Cooled fluid reinjected",
+      "equipment": [
+        "injection wells"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "production and injection wells",
+    "separator",
+    "steam turbine or organic Rankine unit",
+    "condenser",
+    "generator"
+  ],
+  "suppliers": [
+    {
+      "name": "Ormat",
+      "product": "binary and flash plants"
+    },
+    {
+      "name": "Toshiba",
+      "product": "geothermal steam turbines"
+    },
+    {
+      "name": "Fuji Electric",
+      "product": "geothermal steam turbines"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "flash plant representative size and resource",
+      "unit": "MWe at 225 °C, 2.5 km",
+      "basis": "NREL ATB 2024 representative plant",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/geothermal",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+      },
+      "low": 40,
+      "high": 40
+    },
+    {
+      "metric": "binary plant representative size and resource",
+      "unit": "MWe at 175 °C, 1.5 km",
+      "basis": "NREL ATB 2024 representative plant",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/geothermal",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+      },
+      "low": 30,
+      "high": 30
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost, hydrothermal",
+      "unit": "USD/kW",
+      "basis": "flash 4,759, binary 6,349; example values, dollar year not stated on the page (base year 2022)",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/geothermal",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+      },
+      "low": 4759,
+      "high": 6349
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Flash steam geothermal power plant (hot water)' 9 (2025); 'Organic rankine cycle (low temperature resources)' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Firm baseload",
+    "Small surface footprint"
+  ],
+  "limitations": [
+    "Resource-limited by location",
+    "Upfront drilling risk"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/geothermal",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "named plants with capacity and start-up year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No plant read.",
+      "where": [
+        {
+          "hint": "Ormat and Fuji Electric project pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add a Philippines, Indonesia or New Zealand plant."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "pwr-fusion",
+  "name": "Fusion",
+  "aliases": [
+    "Fusion"
+  ],
+  "sector": "PWR",
+  "category": "Nuclear",
+  "applications": [
+    "long-term firm power"
+  ],
+  "maturity": "lab",
+  "principle": "Fusion would release energy by joining light nuclei, using magnetic confinement (tokamak, stellarator) or inertial confinement. NIF achieved ignition in December 2022 and a record 8.6 MJ yield in April 2025; ITER now plans research operation in 2034 and deuterium-tritium operation in 2039, and no fusion plant has delivered electricity.",
+  "process_steps": [
+    {
+      "id": "HEAT",
+      "name": "Heat and confine plasma",
+      "equipment": [
+        "magnets or lasers",
+        "heating systems"
+      ],
+      "to": [
+        "BLAN"
+      ]
+    },
+    {
+      "id": "BLAN",
+      "name": "Neutrons heat a lithium blanket that breeds tritium",
+      "equipment": [
+        "blanket"
+      ],
+      "to": [
+        "POW"
+      ]
+    },
+    {
+      "id": "POW",
+      "name": "Heat to steam cycle",
+      "equipment": [
+        "heat exchanger",
+        "turbine"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "superconducting magnets or lasers",
+    "vacuum vessel",
+    "blanket and divertor",
+    "tritium plant"
+  ],
+  "suppliers": [
+    {
+      "name": "ITER",
+      "product": "international tokamak, Cadarache"
+    },
+    {
+      "name": "Commonwealth Fusion Systems",
+      "product": "SPARC and ARC"
+    },
+    {
+      "name": "Tokamak Energy",
+      "product": "spherical tokamak"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "NIF record yield",
+      "unit": "MJ",
+      "basis": "April 2025",
+      "source": {
+        "url": "https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power",
+        "note": "World Nuclear Association, Nuclear fusion power, read 25 October 2026"
+      },
+      "low": 8.6,
+      "high": 8.6,
+      "year": 2025
+    },
+    {
+      "metric": "ITER plasma thermal output target",
+      "unit": "MW for at least 400 s",
+      "basis": "heating input under 50 MW; no electricity generated",
+      "source": {
+        "url": "https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power",
+        "note": "World Nuclear Association, Nuclear fusion power, read 25 October 2026"
+      },
+      "low": 500,
+      "high": 500
+    }
+  ],
+  "trl": {
+    "low": 3,
+    "high": 3,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Magnetic confinement fusion: tokamaks' 3 (2025); 'Fusion energy (general entry)' 3 (2025)"
+    }
+  },
+  "advantages": [
+    "Abundant fuel; no long-lived waste (qualitative)"
+  ],
+  "limitations": [
+    "No net-electric demonstration yet",
+    "Schedules repeatedly slip"
+  ],
+  "sources": [
+    {
+      "url": "https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power",
+      "note": "World Nuclear Association, Nuclear fusion power, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost of ITER and commercial plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "The WNA page gives only the 2005 ITER estimate of EUR 12.8 billion plus about EUR 5 billion from the 2024 delay.",
+      "where": [
+        {
+          "hint": "ITER organisation and CFS filings",
+          "access": "open"
+        }
+      ],
+      "action": "Add current figures with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

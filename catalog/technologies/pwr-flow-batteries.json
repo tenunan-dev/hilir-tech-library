@@ -1,0 +1,150 @@
+{
+  "id": "pwr-flow-batteries",
+  "name": "Flow batteries (vanadium, zinc-bromine)",
+  "aliases": [
+    "Flow batteries (vanadium, zinc-bromine)",
+    "vanadium flow battery"
+  ],
+  "sector": "PWR",
+  "category": "Electrochemical storage",
+  "applications": [
+    "long-duration grid storage"
+  ],
+  "maturity": "commercial",
+  "principle": "Energy is stored in liquid electrolytes in tanks and pumped through a cell stack, so power and energy are sized separately. Invinity reports over 11,000 MWh discharged since 2022 and cites a 1.5 GWh vanadium project at Laufenburg, Switzerland; duration, cycle life and efficiency were not quantified on its page.",
+  "process_steps": [
+    {
+      "id": "TANK",
+      "name": "Electrolyte tanks hold energy",
+      "equipment": [
+        "electrolyte tanks"
+      ],
+      "to": [
+        "STACK"
+      ]
+    },
+    {
+      "id": "STACK",
+      "name": "Pumps circulate electrolyte through the stack",
+      "equipment": [
+        "pumps",
+        "cell stacks"
+      ],
+      "to": [
+        "PCS"
+      ]
+    },
+    {
+      "id": "PCS",
+      "name": "Power conversion to grid",
+      "equipment": [
+        "inverter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrolyte tanks",
+    "cell stacks",
+    "pumps",
+    "power conversion"
+  ],
+  "suppliers": [
+    {
+      "name": "Rongke Power",
+      "product": "vanadium flow"
+    },
+    {
+      "name": "Invinity Energy Systems",
+      "product": "vanadium flow"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "energy discharged since 2022, Invinity fleet",
+      "unit": "MWh",
+      "basis": "vendor claim",
+      "source": {
+        "url": "https://invinity.com/",
+        "note": "Invinity Energy Systems home page, read 25 October 2026"
+      },
+      "low": 11000,
+      "high": 11000
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Redox flow storage battery' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Separate power and energy sizing",
+    "Claimed 30+ year life"
+  ],
+  "limitations": [
+    "Lower energy density than lithium-ion",
+    "Round-trip efficiency not stated in the source read"
+  ],
+  "sources": [
+    {
+      "url": "https://invinity.com/",
+      "note": "Invinity Energy Systems home page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Rongke Power Dalian project MW and MWh",
+      "reason_code": "source_unreachable",
+      "reason": "The Wikipedia page for the Dalian station returned not found.",
+      "where": [
+        {
+          "hint": "Rongke Power and Dalian Rongke announcements",
+          "access": "open"
+        }
+      ],
+      "action": "Add the Dalian MW, MWh and commissioning date."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

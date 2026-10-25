@@ -13,7 +13,7 @@ disciplines:
   ROT: {name: Rotating and static equipment, subtopics: [compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals]}
   INS: {name: Instrumentation and control, subtopics: [dcs, sis, analysers, apc, ot-cybersecurity, metering]}
   MAT: {name: Materials and integrity, subtopics: [corrosion, metallurgy, coatings, inspection, rbi, non-metallics]}
-  HSE: {name: Health, safety and environment, subtopics: [process-safety, methane, flaring, emissions, regulation, decommissioning]}
+  HSE: {name: "Health, safety and environment", subtopics: [process-safety, methane, flaring, emissions, regulation, decommissioning]}
   DIG: {name: Digital, subtopics: [digital-twin, ai-ml, iiot, data-standards, cloud]}
 regions:
   global: Worldwide scope

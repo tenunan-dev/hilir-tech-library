@@ -1,0 +1,179 @@
+{
+  "id": "pwr-lithium-ion-bess",
+  "name": "Lithium-ion battery energy storage",
+  "aliases": [
+    "Lithium-ion battery energy storage"
+  ],
+  "sector": "PWR",
+  "category": "Electrochemical storage",
+  "applications": [
+    "renewable firming",
+    "frequency response",
+    "oil and gas site backup"
+  ],
+  "maturity": "commercial",
+  "principle": "Lithium-ion cells (mainly LFP for stationary use since 2022) store grid power for short durations. NREL's 2024 baseline uses an 85% round-trip efficiency, 15 year life with augmentation, and projects capex cuts for a 60 MW, 4-hour system of 18, 37 or 52% by 2035.",
+  "process_steps": [
+    {
+      "id": "CHG",
+      "name": "Charge from grid or renewables via PCS",
+      "equipment": [
+        "power conversion system"
+      ],
+      "to": [
+        "PACK"
+      ]
+    },
+    {
+      "id": "PACK",
+      "name": "Store in cell racks with thermal management",
+      "equipment": [
+        "cell racks",
+        "BMS",
+        "cooling"
+      ],
+      "to": [
+        "DIS"
+      ]
+    },
+    {
+      "id": "DIS",
+      "name": "Discharge to grid",
+      "equipment": [
+        "inverter",
+        "transformer"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "battery racks",
+    "battery management system",
+    "power conversion system",
+    "thermal management",
+    "fire protection"
+  ],
+  "suppliers": [
+    {
+      "name": "CATL",
+      "product": "LFP storage systems"
+    },
+    {
+      "name": "BYD",
+      "product": "storage systems"
+    },
+    {
+      "name": "Tesla",
+      "product": "Megapack"
+    },
+    {
+      "name": "Fluence",
+      "product": "integrated storage"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "round-trip efficiency",
+      "unit": "%",
+      "basis": "NREL ATB 2024 assumption",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, utility-scale battery storage, read 25 October 2026"
+      },
+      "low": 85,
+      "high": 85
+    },
+    {
+      "metric": "design life",
+      "unit": "years",
+      "basis": "with augmentation",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, utility-scale battery storage, read 25 October 2026"
+      },
+      "low": 15,
+      "high": 15
+    },
+    {
+      "metric": "capex reduction 2022 to 2035, 60 MW 4-hour",
+      "unit": "% (conservative to advanced)",
+      "basis": "moderate 37%",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, utility-scale battery storage, read 25 October 2026"
+      },
+      "low": 18,
+      "high": 52
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Lithium-ion storage battery' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Fast response",
+    "Falling cost"
+  ],
+  "limitations": [
+    "Short duration economics",
+    "Thermal runaway risk needs mitigation"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, utility-scale battery storage, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "$/kWh and $/kW installed cost with dollar year",
+      "reason_code": "source_unreachable",
+      "reason": "The ATB page lists cost only in charts.",
+      "where": [
+        {
+          "hint": "NREL ATB 2024 data download",
+          "access": "open",
+          "source_id": "nrel"
+        }
+      ],
+      "action": "Add base-year system cost with dollar year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

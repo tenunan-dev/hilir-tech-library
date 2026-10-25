@@ -1,0 +1,165 @@
+{
+  "id": "pwr-advanced-reactors",
+  "name": "Advanced reactors (high-temperature gas, molten salt)",
+  "aliases": [
+    "Advanced reactors (high-temperature gas, molten salt)"
+  ],
+  "sector": "PWR",
+  "category": "Nuclear",
+  "applications": [
+    "high-temperature process heat",
+    "hydrogen production",
+    "power"
+  ],
+  "maturity": "pilot",
+  "principle": "Generation IV concepts cool with helium, molten salt, sodium or lead for higher outlet temperatures and process heat. The WNA page says HTGRs use helium at up to 950 °C and TRISO fuel stable to 1,600 °C, and describes China's HTR-PM at Shidaowan (210 MWe from two 105 MWe modules, 750 °C outlet, about 40% efficiency) as a demonstration plant under construction when the page was written.",
+  "process_steps": [
+    {
+      "id": "CORE",
+      "name": "Fission heats helium, salt or liquid metal",
+      "equipment": [
+        "reactor core",
+        "TRISO or molten-salt fuel"
+      ],
+      "to": [
+        "HX"
+      ]
+    },
+    {
+      "id": "HX",
+      "name": "Heat exchanger to steam or process",
+      "equipment": [
+        "intermediate heat exchanger"
+      ],
+      "to": [
+        "USE"
+      ]
+    },
+    {
+      "id": "USE",
+      "name": "Power generation or industrial heat",
+      "equipment": [
+        "turbine or process heat user"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "reactor core",
+    "primary coolant system",
+    "heat exchanger",
+    "TRISO fuel (HTGR)"
+  ],
+  "suppliers": [
+    {
+      "name": "X-energy",
+      "product": "Xe-100"
+    },
+    {
+      "name": "Kairos Power",
+      "product": "molten-salt-cooled reactors"
+    },
+    {
+      "name": "TerraPower",
+      "product": "Natrium"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "HTR-PM demonstration size",
+      "unit": "MWe",
+      "basis": "two 250 MWt modules; steam at 566 °C",
+      "source": {
+        "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors",
+        "note": "World Nuclear Association, Advanced nuclear power reactors (Generation IV page; some dates predate 2026)"
+      },
+      "low": 210,
+      "high": 210
+    },
+    {
+      "metric": "HTGR helium coolant temperature",
+      "unit": "°C (up to)",
+      "basis": "general HTGR statement",
+      "source": {
+        "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors",
+        "note": "World Nuclear Association, Advanced nuclear power reactors (Generation IV page; some dates predate 2026)"
+      },
+      "low": 950,
+      "high": 950
+    }
+  ],
+  "trl": {
+    "low": 4,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'High-temperature gas-cooled SMR' 8 (2025); 'Molten salt SMR' 4 (2025)"
+    }
+  },
+  "advantages": [
+    "High outlet temperature suits refining and hydrogen heat"
+  ],
+  "limitations": [
+    "The WNA page is dated: it does not cover Xe-100, Hermes or Natrium",
+    "Few commercial units"
+  ],
+  "sources": [
+    {
+      "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors",
+      "note": "World Nuclear Association, Advanced nuclear power reactors (Generation IV page; some dates predate 2026)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "HTR-PM operating status and US advanced reactor projects",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page read predates operation of HTR-PM and omits US designs.",
+      "where": [
+        {
+          "hint": "DOE Office of Nuclear Energy advanced reactor demonstration program",
+          "access": "open"
+        }
+      ],
+      "action": "Add current status and dates."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

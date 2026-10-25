@@ -1,0 +1,173 @@
+{
+  "id": "pwr-floating-offshore-wind",
+  "name": "Floating offshore wind",
+  "aliases": [
+    "Floating offshore wind"
+  ],
+  "sector": "PWR",
+  "category": "Wind",
+  "applications": [
+    "offshore oil and gas platform power",
+    "deep-water wind regions"
+  ],
+  "maturity": "demonstration",
+  "principle": "Turbines on floating spar, semi-submersible or barge hulls moored in water deeper than 60 m. Equinor's Hywind Tampen has 11 turbines of 8.6 MW (94.6 MW) in 260 to 300 m of water and meets about 35% of the annual electricity demand of five Snorre and Gullfaks platforms.",
+  "process_steps": [
+    {
+      "id": "FLT",
+      "name": "Floating hull and mooring",
+      "equipment": [
+        "spar or semi-submersible",
+        "mooring lines"
+      ],
+      "to": [
+        "TURB"
+      ]
+    },
+    {
+      "id": "TURB",
+      "name": "Turbine generates power",
+      "equipment": [
+        "wind turbine"
+      ],
+      "to": [
+        "CAB"
+      ]
+    },
+    {
+      "id": "CAB",
+      "name": "Dynamic cables to platforms or shore",
+      "equipment": [
+        "dynamic cable"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "floating hull",
+    "mooring and anchors",
+    "turbine",
+    "dynamic cable"
+  ],
+  "suppliers": [
+    {
+      "name": "Equinor",
+      "product": "Hywind spar",
+      "source_id": "equinor-tech"
+    },
+    {
+      "name": "Principle Power",
+      "product": "WindFloat"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Hywind Tampen capacity",
+      "unit": "MW",
+      "basis": "11 turbines of 8.6 MW",
+      "source": {
+        "url": "https://www.equinor.com/energy/hywind-tampen",
+        "source_id": "equinor-tech",
+        "note": "Equinor, Hywind Tampen page, read 25 October 2026"
+      },
+      "low": 94.6,
+      "high": 94.6
+    },
+    {
+      "metric": "Hywind Tampen share of platform demand",
+      "unit": "% of annual electricity demand of Snorre A, B and Gullfaks A, B, C",
+      "basis": "higher in strong wind",
+      "source": {
+        "url": "https://www.equinor.com/energy/hywind-tampen",
+        "source_id": "equinor-tech",
+        "note": "Equinor, Hywind Tampen page, read 25 October 2026"
+      },
+      "low": 35,
+      "high": 35
+    },
+    {
+      "metric": "demonstration floating project capex before 2030",
+      "unit": "USD/kW (may exceed)",
+      "basis": "US demonstration-scale projects; dollar year not stated",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2024/offshore_wind",
+        "source_id": "nrel",
+        "note": "NREL Annual Technology Baseline 2024, offshore wind, read 25 October 2026"
+      },
+      "low": 10000,
+      "high": 10000
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating offshore wind turbine' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Access to deep-water wind",
+    "Lets platforms cut gas turbine use"
+  ],
+  "limitations": [
+    "Cost far above fixed-bottom today",
+    "Hywind page gives two start-up dates: Q3 2022 and November 2022; full operation summer 2023"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/energy/hywind-tampen",
+      "source_id": "equinor-tech",
+      "note": "Equinor, Hywind Tampen page, read 25 October 2026"
+    },
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/offshore_wind",
+      "source_id": "nrel",
+      "note": "NREL Annual Technology Baseline 2024, offshore wind, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "Hywind Tampen project cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Equinor page gives no cost.",
+      "where": [
+        {
+          "hint": "Equinor and partner annual reports",
+          "access": "open",
+          "source_id": "equinor-tech"
+        }
+      ],
+      "action": "Add the investment with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

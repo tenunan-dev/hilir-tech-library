@@ -1,0 +1,187 @@
+{
+  "id": "pwr-hydrogen-ammonia-turbines",
+  "name": "Hydrogen-capable and ammonia-fired gas turbines",
+  "aliases": [
+    "Hydrogen-capable and ammonia-fired gas turbines"
+  ],
+  "sector": "PWR",
+  "category": "Gas-fired power",
+  "applications": [
+    "transition of gas fleets to hydrogen",
+    "power from stored green hydrogen"
+  ],
+  "maturity": "demonstration",
+  "principle": "Gas turbines burn natural gas blended with hydrogen, and developers are working toward pure hydrogen and ammonia. Mitsubishi Power has run a 30% hydrogen blend on an M501JAC and supplied two M501JAC units (about 840 MW) to the Intermountain Power Project in Utah with a 100% hydrogen target by 2045; GE says its 7HA can burn up to 50% hydrogen.",
+  "process_steps": [
+    {
+      "id": "H2",
+      "name": "Hydrogen supply and blending with natural gas",
+      "equipment": [
+        "blending skid",
+        "storage"
+      ],
+      "to": [
+        "COMB"
+      ]
+    },
+    {
+      "id": "COMB",
+      "name": "Combustion in a modified or multi-cluster combustor",
+      "equipment": [
+        "hydrogen-capable combustor"
+      ],
+      "to": [
+        "TURB"
+      ]
+    },
+    {
+      "id": "TURB",
+      "name": "Turbine and generator",
+      "equipment": [
+        "gas turbine",
+        "generator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "hydrogen-capable combustor",
+    "fuel blending skid",
+    "gas turbine",
+    "hydrogen storage and supply"
+  ],
+  "suppliers": [
+    {
+      "name": "Mitsubishi Heavy Industries (Mitsubishi Power)",
+      "product": "M501JAC hydrogen-ready",
+      "source_id": "mitsubishi-heavy"
+    },
+    {
+      "name": "GE Vernova",
+      "product": "7HA with up to 50% hydrogen",
+      "source_id": "ge-vernova"
+    },
+    {
+      "name": "IHI",
+      "product": "ammonia combustion"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "hydrogen blend at IPP Renewed start-up",
+      "unit": "% hydrogen with natural gas",
+      "basis": "two M501JAC, about 840 MW; 100% hydrogen target by 2045",
+      "source": {
+        "url": "https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah",
+        "note": "Turbomachinery Magazine, Mitsubishi Power delivers 30% hydrogen-fuel gas turbines to IPP Renewed in Utah, 1 August 2023"
+      },
+      "low": 30,
+      "high": 30
+    },
+    {
+      "metric": "7HA hydrogen capability",
+      "unit": "% hydrogen (vendor claim)",
+      "basis": "pathway stated to 100%",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+      },
+      "low": 50,
+      "high": 50
+    }
+  ],
+  "trl": {
+    "low": 5,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'H₂ blending in natural gas turbine' 9 (2025); 'Pure h₂ gas turbine' 8 (2025); 'Co-firing of ammonia in gas turbines' 5 (2025)"
+    }
+  },
+  "advantages": [
+    "Reuses existing gas turbine fleets",
+    "Cuts CO2 as hydrogen share rises"
+  ],
+  "limitations": [
+    "Pure hydrogen and ammonia combustion are not yet commercial",
+    "Hydrogen supply and storage are separate projects",
+    "Conflicting dates between sources: 30% test and 100% test years differ between pages"
+  ],
+  "sources": [
+    {
+      "url": "https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah",
+      "note": "Turbomachinery Magazine, Mitsubishi Power delivers 30% hydrogen-fuel gas turbines to IPP Renewed in Utah, 1 August 2023"
+    },
+    {
+      "url": "https://www.power-eng.com/hydrogen/mitsubishi-power-highlights-four-hydrogen-projects/",
+      "note": "Power Engineering, Mitsubishi Power highlights four hydrogen projects, 8 March 2022"
+    },
+    {
+      "url": "https://www.turbomachinerymag.com/view/mitsubishi-power-executes-30-hydrogen-fuel-blend-in-jac-gas-turbine",
+      "note": "Turbomachinery Magazine, Mitsubishi Power executes 30% hydrogen-fuel blend in JAC gas turbine, December 2023"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost of hydrogen-ready turbine and conversion",
+      "reason_code": "not_in_sources_read",
+      "reason": "None of the pages read gives a cost.",
+      "where": [
+        {
+          "hint": "Mitsubishi Power and GE Vernova project announcements",
+          "access": "open"
+        }
+      ],
+      "action": "Add conversion cost with a dollar year if a project disclosure exists."
+    },
+    {
+      "field": "performance",
+      "item": "NOx emissions at high hydrogen share",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Takasago article says only 'low NOx' without numbers.",
+      "where": [
+        {
+          "hint": "Mitsubishi Heavy Industries technical review",
+          "access": "open",
+          "source_id": "mitsubishi-heavy"
+        }
+      ],
+      "action": "Add measured NOx against hydrogen share."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

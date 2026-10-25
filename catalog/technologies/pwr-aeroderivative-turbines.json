@@ -1,0 +1,232 @@
+{
+  "id": "pwr-aeroderivative-turbines",
+  "name": "Aeroderivative and industrial gas turbines",
+  "aliases": [
+    "Aeroderivative and industrial gas turbines",
+    "aeroderivative gas turbine"
+  ],
+  "sector": "PWR",
+  "category": "Gas-fired power",
+  "applications": [
+    "peaking and grid balancing",
+    "offshore platform power and gas compression",
+    "data centre and islanded power",
+    "LNG and pipeline mechanical drive"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas turbines derived from jet engines (aeroderivatives) and light industrial frames in the 5 to 120 MW range. They start in minutes and suit peaking, islanded and mechanical-drive duty. Baker Hughes's LM6000PF+ makes 52.5 MWe at over 41% simple-cycle efficiency and reaches full power in 10 minutes or less; GE's LM2500XPRESS is a packaged 34 to 36 MW plant delivered as 10 modules.",
+  "process_steps": [
+    {
+      "id": "AIR",
+      "name": "Compression",
+      "equipment": [
+        "gas generator compressor"
+      ],
+      "to": [
+        "COMB"
+      ]
+    },
+    {
+      "id": "COMB",
+      "name": "Combustion",
+      "equipment": [
+        "DLE or water-injected combustor"
+      ],
+      "to": [
+        "PT"
+      ]
+    },
+    {
+      "id": "PT",
+      "name": "Power turbine and generator or compressor drive",
+      "equipment": [
+        "power turbine",
+        "generator or gearbox"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "gas generator",
+    "power turbine",
+    "dry low-emission combustor",
+    "generator or driven compressor",
+    "package enclosure and inlet filtration"
+  ],
+  "suppliers": [
+    {
+      "name": "Baker Hughes",
+      "product": "LM6000, LM9000",
+      "source_id": "baker-hughes"
+    },
+    {
+      "name": "GE Vernova",
+      "product": "LM2500, LM2500XPRESS, LM6000",
+      "source_id": "ge-vernova"
+    },
+    {
+      "name": "Solar Turbines",
+      "product": "Titan, Taurus, Mars industrial turbines",
+      "source_id": "solar-turbines"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "SGT-A35, SGT-A65 aeroderivatives",
+      "source_id": "siemens-energy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "LM6000PF+ output",
+      "unit": "MW",
+      "basis": "52.5 MWe at generator terminals; 53.8 MW mechanical drive",
+      "source": {
+        "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+        "source_id": "baker-hughes",
+        "note": "Baker Hughes, LM6000PF+ page, read 25 October 2026"
+      },
+      "low": 52.5,
+      "high": 53.8
+    },
+    {
+      "metric": "LM6000PF+ simple-cycle efficiency",
+      "unit": "%",
+      "basis": "vendor spec table; 41 power generation, 42 mechanical drive",
+      "source": {
+        "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+        "source_id": "baker-hughes",
+        "note": "Baker Hughes, LM6000PF+ page, read 25 October 2026"
+      },
+      "low": 41,
+      "high": 42
+    },
+    {
+      "metric": "LM6000PF+ start to full power",
+      "unit": "min (or less)",
+      "basis": "start in under 5 minutes",
+      "source": {
+        "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+        "source_id": "baker-hughes",
+        "note": "Baker Hughes, LM6000PF+ page, read 25 October 2026"
+      },
+      "low": 10,
+      "high": 10
+    },
+    {
+      "metric": "LM2500XPRESS+ output (50 Hz, ISO, natural gas)",
+      "unit": "MW",
+      "basis": "G4 and G5 DLE UPT variants",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, LM2500 and LM2500XPRESS page, read 25 October 2026"
+      },
+      "low": 34.5,
+      "high": 36.3
+    },
+    {
+      "metric": "LM2500 hydrogen-blend operating experience",
+      "unit": "% hydrogen by volume",
+      "basis": "about 2 million operating hours on hydrogen-blend fuels; headline capability up to 75% hydrogen",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, LM2500 and LM2500XPRESS page, read 25 October 2026"
+      },
+      "low": 5,
+      "high": 95
+    }
+  ],
+  "advantages": [
+    "Fast start (about 5 minutes cold to base load for LM2500XPRESS)",
+    "Packaged and quick to install",
+    "Large installed base"
+  ],
+  "limitations": [
+    "Lower efficiency than heavy-duty frames",
+    "Unit size capped near 120 MW"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+      "source_id": "baker-hughes",
+      "note": "Baker Hughes, LM6000PF+ page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova, LM2500 and LM2500XPRESS page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+      "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "plants in Asia Pacific and Southeast Asia",
+      "reason_code": "not_in_sources_read",
+      "reason": "The pages read cite US, German and Irish projects only.",
+      "where": [
+        {
+          "hint": "Baker Hughes and GE Vernova references",
+          "access": "open",
+          "source_id": "baker-hughes"
+        }
+      ],
+      "action": "Add one SEA or Australian reference."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "pwr-combined-cycle-hrsg",
+  "name": "Combined cycle and HRSG",
+  "aliases": [
+    "Combined cycle and HRSG",
+    "combined cycle power plant",
+    "CCGT"
+  ],
+  "sector": "PWR",
+  "category": "Gas-fired power",
+  "applications": [
+    "baseload and mid-merit power",
+    "cogeneration with process steam"
+  ],
+  "maturity": "commercial",
+  "principle": "A gas turbine exhausts at about 600 °C into a heat recovery steam generator (HRSG) that raises steam for a steam turbine, so the plant makes electricity from both cycles. Multi-pressure HRSGs with reheat give the highest efficiency; US EPA reports combined-cycle efficiencies routinely above 55% HHV and 57.1% to 57.9% for GE HA-class units.",
+  "process_steps": [
+    {
+      "id": "GT",
+      "name": "Gas turbine generation",
+      "equipment": [
+        "gas turbine"
+      ],
+      "to": [
+        "HRSG"
+      ]
+    },
+    {
+      "id": "HRSG",
+      "name": "Heat recovery steam generation at one, two or three pressure levels, with optional reheat",
+      "equipment": [
+        "HRSG",
+        "duct burners"
+      ],
+      "to": [
+        "ST"
+      ]
+    },
+    {
+      "id": "ST",
+      "name": "Steam turbine generation",
+      "equipment": [
+        "steam turbine",
+        "condenser"
+      ],
+      "to": [
+        "CW"
+      ]
+    },
+    {
+      "id": "CW",
+      "name": "Condensing and feedwater return",
+      "equipment": [
+        "air-cooled condenser or cooling tower",
+        "feedwater pumps"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "gas turbine",
+    "HRSG",
+    "steam turbine",
+    "condenser",
+    "feedwater system",
+    "SCR for NOx"
+  ],
+  "suppliers": [
+    {
+      "name": "GE Vernova",
+      "product": "HA combined-cycle plants",
+      "source_id": "ge-vernova"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "combined-cycle plants and HRSGs",
+      "source_id": "siemens-energy"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries (Mitsubishi Power)",
+      "product": "GTCC plants",
+      "source_id": "mitsubishi-heavy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "combined-cycle efficiency, utility scale",
+      "unit": "% HHV (more than)",
+      "basis": "EPA: routinely above 55%",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+        "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
+      },
+      "low": 55
+    },
+    {
+      "metric": "net plant efficiency, GE HA 1 on 1",
+      "unit": "% HHV",
+      "basis": "7HA.01 56.1, 7HA.02 57.1, 7HA.03 57.6, 9HA.02 (2x) 57.9",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+        "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
+      },
+      "low": 56.1,
+      "high": 57.9
+    },
+    {
+      "metric": "steam-cycle efficiency by HRSG type",
+      "unit": "%",
+      "basis": "about 20% two-pressure no reheat, 26% three-pressure, about 30% three-pressure with reheat",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+        "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
+      },
+      "low": 20,
+      "high": 30
+    },
+    {
+      "metric": "combined cycle at 1-on-1, M701JAC",
+      "unit": "% LHV (more than)",
+      "basis": "vendor claim",
+      "source": {
+        "url": "https://power.mhi.com/products/gasturbines/lineup/m701j",
+        "source_id": "mitsubishi-heavy",
+        "note": "Mitsubishi Power, M701J/JAC series page, read 25 October 2026"
+      },
+      "low": 64
+    }
+  ],
+  "advantages": [
+    "Highest efficiency for fossil power",
+    "Low CO2 per MWh versus coal",
+    "Can be built with capture ready layout"
+  ],
+  "limitations": [
+    "Slower to ramp than simple cycle",
+    "Reheat practical only above about 593 °C exhaust and 60 MW steam turbines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+      "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+    },
+    {
+      "url": "https://power.mhi.com/products/gasturbines/lineup/m701j",
+      "source_id": "mitsubishi-heavy",
+      "note": "Mitsubishi Power, M701J/JAC series page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per kW with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Neither page read gives a cost.",
+      "where": [
+        {
+          "hint": "EIA capital cost and performance study for new generating plants",
+          "access": "open",
+          "source_id": "eia-reports"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Add EIA's overnight cost with its dollar year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

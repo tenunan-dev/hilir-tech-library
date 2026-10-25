@@ -1,4 +1,4 @@
-# HSE: Health
+# HSE: Health, safety and environment
 
 70 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 

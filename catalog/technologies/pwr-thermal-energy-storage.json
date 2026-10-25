@@ -1,0 +1,179 @@
+{
+  "id": "pwr-thermal-energy-storage",
+  "name": "Thermal energy storage (molten salt, sand, bricks)",
+  "aliases": [
+    "Thermal energy storage (molten salt, sand, bricks)"
+  ],
+  "sector": "PWR",
+  "category": "Thermal storage",
+  "applications": [
+    "industrial process heat",
+    "refinery steam",
+    "district heat"
+  ],
+  "maturity": "demonstration",
+  "principle": "Electricity or renewable heat is stored as sensible heat in salts, sand or refractory brick and released as steam or process heat. Rondo's heat battery stores in brick at 1,100 to 1,500 °C and claims over 98% electricity-to-heat efficiency; a 360 MWh unit is for the Rio Tinto Yarwun alumina refinery in Australia.",
+  "process_steps": [
+    {
+      "id": "CHG",
+      "name": "Resistive heating of storage medium",
+      "equipment": [
+        "heating elements"
+      ],
+      "to": [
+        "STORE"
+      ]
+    },
+    {
+      "id": "STORE",
+      "name": "Insulated storage of hot medium",
+      "equipment": [
+        "brick, sand or salt store"
+      ],
+      "to": [
+        "OUT"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Discharge heat as steam or hot air",
+      "equipment": [
+        "steam generator or heat exchanger"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "storage medium",
+    "heating elements",
+    "insulation",
+    "steam generator or heat exchanger"
+  ],
+  "suppliers": [
+    {
+      "name": "Rondo Energy",
+      "product": "heat battery"
+    },
+    {
+      "name": "Polar Night Energy",
+      "product": "sand battery"
+    },
+    {
+      "name": "Kraftblock",
+      "product": "granulate storage"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Rondo storage temperature",
+      "unit": "°C",
+      "basis": "refractory brick",
+      "source": {
+        "url": "https://rondo.com/",
+        "note": "Rondo Energy home page, read 25 October 2026"
+      },
+      "low": 1100,
+      "high": 1500
+    },
+    {
+      "metric": "Rondo electricity-to-heat efficiency",
+      "unit": "% (over)",
+      "basis": "vendor claim",
+      "source": {
+        "url": "https://rondo.com/",
+        "note": "Rondo Energy home page, read 25 October 2026"
+      },
+      "low": 98,
+      "high": 98
+    },
+    {
+      "metric": "Yarwun project storage",
+      "unit": "MWh",
+      "basis": "Rio Tinto alumina refinery, Australia",
+      "source": {
+        "url": "https://rondo.com/",
+        "note": "Rondo Energy home page, read 25 October 2026"
+      },
+      "low": 360,
+      "high": 360
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Molten salts storage' 8 (2025); 'Sand thermal battery' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Turns variable power into process heat",
+    "Works for refinery and petrochemical steam"
+  ],
+  "limitations": [
+    "Sand-battery temperature, MW and MWh not stated on the page read"
+  ],
+  "sources": [
+    {
+      "url": "https://rondo.com/",
+      "note": "Rondo Energy home page, read 25 October 2026"
+    },
+    {
+      "url": "https://polarnightenergy.com/",
+      "note": "Polar Night Energy home page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Polar Night Energy Kankaanpää plant data",
+      "reason_code": "not_in_sources_read",
+      "reason": "The company page does not describe it.",
+      "where": [
+        {
+          "hint": "Polar Night Energy news",
+          "access": "open"
+        }
+      ],
+      "action": "Add MWh, MW and start date."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

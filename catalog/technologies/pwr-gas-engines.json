@@ -1,0 +1,222 @@
+{
+  "id": "pwr-gas-engines",
+  "name": "Gas engines",
+  "aliases": [
+    "Gas engines"
+  ],
+  "sector": "PWR",
+  "category": "Gas-fired power",
+  "applications": [
+    "flexible balancing of renewables",
+    "islanded and industrial power",
+    "data centres",
+    "cogeneration"
+  ],
+  "maturity": "commercial",
+  "principle": "Spark-ignited or dual-fuel reciprocating engines in the 1 to 20 MW class generate power from natural gas or biogas. Wärtsilä's 50SG makes about 18.4 MW at 50.2% electrical efficiency, connects to the grid within 30 seconds and reaches full load in under 2 minutes in a fast start.",
+  "process_steps": [
+    {
+      "id": "AIR",
+      "name": "Air and gas induction, lean-burn",
+      "equipment": [
+        "turbocharger",
+        "gas admission valves"
+      ],
+      "to": [
+        "ENG"
+      ]
+    },
+    {
+      "id": "ENG",
+      "name": "Combustion and shaft power",
+      "equipment": [
+        "engine block",
+        "pre-chamber or spark plugs"
+      ],
+      "to": [
+        "GEN"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Generation, with optional heat recovery",
+      "equipment": [
+        "generator",
+        "exhaust boiler"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "gas engine",
+    "generator",
+    "turbocharger",
+    "exhaust after-treatment",
+    "cooling system"
+  ],
+  "suppliers": [
+    {
+      "name": "Wärtsilä",
+      "product": "31SG, 34SG, 50SG",
+      "source_id": "wartsila"
+    },
+    {
+      "name": "INNIO Jenbacher",
+      "product": "Jenbacher gas engines"
+    },
+    {
+      "name": "MAN Energy Solutions (Everllence)",
+      "product": "gas engines",
+      "source_id": "man-energy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "18V50SG electrical efficiency (50 Hz)",
+      "unit": "%",
+      "basis": "output 18,434 kW; 5% tolerance on efficiency",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila",
+        "note": "Wärtsilä, 50SG gas engine page, read 25 October 2026"
+      },
+      "low": 50.2,
+      "high": 50.2
+    },
+    {
+      "metric": "50SG start to grid connection",
+      "unit": "s",
+      "basis": "fast start to full load under 2 minutes",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila",
+        "note": "Wärtsilä, 50SG gas engine page, read 25 October 2026"
+      },
+      "low": 30,
+      "high": 30
+    },
+    {
+      "metric": "engine plant simple-cycle efficiency",
+      "unit": "% (or more)",
+      "basis": "up to 54% in Flexicycle configuration",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants",
+        "source_id": "wartsila",
+        "note": "Wärtsilä, flexible baseload power plants page, read 25 October 2026"
+      },
+      "low": 50
+    },
+    {
+      "metric": "CHP efficiency, Wärtsilä 31SG",
+      "unit": "%",
+      "basis": "vendor claim",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants",
+        "source_id": "wartsila",
+        "note": "Wärtsilä, flexible baseload power plants page, read 25 October 2026"
+      },
+      "low": 90,
+      "high": 90
+    },
+    {
+      "metric": "minimum load, 50SG",
+      "unit": "% at unit level",
+      "basis": "1% at plant level with multiple engines",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila",
+        "note": "Wärtsilä, 50SG gas engine page, read 25 October 2026"
+      },
+      "low": 10,
+      "high": 10
+    }
+  ],
+  "advantages": [
+    "High part-load efficiency across many units",
+    "Fast start and stop",
+    "Multi-engine plants stay available when one unit is out"
+  ],
+  "limitations": [
+    "Unit sizes limited to about 20 MW",
+    "Higher maintenance per MWh than turbines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+      "source_id": "wartsila",
+      "note": "Wärtsilä, 50SG gas engine page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants",
+      "source_id": "wartsila",
+      "note": "Wärtsilä, flexible baseload power plants page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "reference plant with capacity in Southeast Asia",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page names Pesanggaran, Bali (200 MW multi-fuel) but gives no start-up year.",
+      "where": [
+        {
+          "hint": "Wärtsilä reference list",
+          "access": "open",
+          "source_id": "wartsila"
+        }
+      ],
+      "action": "Add start-up year and fuel."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

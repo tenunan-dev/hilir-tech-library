@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 164 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 197 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -199,39 +199,39 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Gas-fired power | Heavy-duty gas turbines (H and J class) | commercial | GE Vernova, Siemens Energy, Mitsubishi Power |  |
-| Gas-fired power | Aeroderivative and industrial gas turbines | commercial | GE Vernova, Siemens Energy, Solar Turbines, Baker Hughes |  |
-| Gas-fired power | Combined cycle and HRSG | commercial | GE Vernova, Siemens Energy, Mitsubishi Power |  |
-| Gas-fired power | Cogeneration and combined heat and power | commercial | Various |  |
-| Gas-fired power | Gas engines | commercial | Wärtsilä, Jenbacher (INNIO), MAN Energy Solutions (Everllence) |  |
-| Gas-fired power | Hydrogen-capable and ammonia-fired gas turbines | demonstration | Mitsubishi Power, GE Vernova, IHI |  |
-| Gas-fired power | Ammonia co-firing in coal boilers | demonstration | JERA Hekinan, IHI |  |
-| Renewables | Crystalline silicon PV (PERC, TOPCon, HJT) | commercial | LONGi, Jinko, Trina, JA Solar |  |
-| Renewables | Perovskite and tandem solar cells | pilot | Oxford PV, LONGi research |  |
-| Renewables | Floating solar | commercial | Sungrow, Ciel & Terre |  |
-| Renewables | Onshore wind | commercial | Vestas, Siemens Gamesa, Goldwind, Envision |  |
-| Renewables | Offshore wind (fixed bottom) | commercial | Ørsted, Siemens Gamesa, Vestas |  |
-| Renewables | Floating offshore wind | demonstration | Equinor Hywind, Principle Power WindFloat |  |
-| Renewables | Geothermal (flash and binary cycle) | commercial | Ormat, Toshiba, Fuji Electric |  |
-| Renewables | Enhanced geothermal systems | demonstration | Fervo Energy, Eavor |  |
-| Renewables | Concentrated solar power with storage | commercial | Abengoa, SolarReserve, Cosin |  |
-| Renewables | Biomass and waste-to-energy | commercial | Hitachi Zosen Inova, Babcock & Wilcox |  |
-| Renewables | Hydropower | commercial | Andritz, Voith, GE Vernova |  |
-| Renewables | Tidal and wave energy | pilot | SIMEC Atlantis, Orbital Marine |  |
-| Storage and grid | Lithium-ion battery energy storage | commercial | CATL, BYD, Tesla, Fluence |  |
-| Storage and grid | Sodium-ion batteries | demonstration | CATL, HiNa |  |
-| Storage and grid | Flow batteries (vanadium, zinc-bromine) | commercial | Rongke Power, Invinity |  |
-| Storage and grid | Pumped hydro storage | commercial | Various |  |
-| Storage and grid | Gravity energy storage | demonstration | Energy Vault |  |
-| Storage and grid | Compressed and liquid air energy storage | demonstration | Hydrostor, Highview Power |  |
-| Storage and grid | Thermal energy storage (molten salt, sand, bricks) | demonstration | Rondo, Kraftblock, Polar Night Energy |  |
-| Storage and grid | HVDC transmission and interconnectors | commercial | Hitachi Energy, Siemens Energy, GE Vernova |  |
-| Storage and grid | Grid-forming inverters and synchronous condensers | commercial | SMA, Siemens Energy |  |
-| Storage and grid | Smart grids, microgrids and virtual power plants | commercial | Schneider Electric, Siemens, AutoGrid |  |
-| Nuclear | Large light-water reactors | commercial | Westinghouse, EDF, KHNP, CGN |  |
-| Nuclear | Small modular reactors | demonstration | NuScale, GE Hitachi BWRX-300, Rolls-Royce SMR |  |
-| Nuclear | Advanced reactors (high-temperature gas, molten salt) | pilot | X-energy, Kairos Power, TerraPower |  |
-| Nuclear | Fusion | lab | ITER, Commonwealth Fusion Systems, Tokamak Energy |  |
+| Gas-fired power | Heavy-duty gas turbines (H and J class) | commercial | GE Vernova, Siemens Energy, Mitsubishi Power | [card](technologies-PWR.md#pwr-heavy-duty-gas-turbines) |
+| Gas-fired power | Aeroderivative and industrial gas turbines | commercial | GE Vernova, Siemens Energy, Solar Turbines, Baker Hughes | [card](technologies-PWR.md#pwr-aeroderivative-turbines) |
+| Gas-fired power | Combined cycle and HRSG | commercial | GE Vernova, Siemens Energy, Mitsubishi Power | [card](technologies-PWR.md#pwr-combined-cycle-hrsg) |
+| Gas-fired power | Cogeneration and combined heat and power | commercial | Various | [card](technologies-PWR.md#pwr-cogeneration-chp) |
+| Gas-fired power | Gas engines | commercial | Wärtsilä, Jenbacher (INNIO), MAN Energy Solutions (Everllence) | [card](technologies-PWR.md#pwr-gas-engines) |
+| Gas-fired power | Hydrogen-capable and ammonia-fired gas turbines | demonstration | Mitsubishi Power, GE Vernova, IHI | [card](technologies-PWR.md#pwr-hydrogen-ammonia-turbines) |
+| Gas-fired power | Ammonia co-firing in coal boilers | demonstration | JERA Hekinan, IHI | [card](technologies-PWR.md#pwr-ammonia-coal-cofiring) |
+| Renewables | Crystalline silicon PV (PERC, TOPCon, HJT) | commercial | LONGi, Jinko, Trina, JA Solar | [card](technologies-PWR.md#pwr-crystalline-silicon-pv) |
+| Renewables | Perovskite and tandem solar cells | pilot | Oxford PV, LONGi research | [card](technologies-PWR.md#pwr-perovskite-tandem) |
+| Renewables | Floating solar | commercial | Sungrow, Ciel & Terre | [card](technologies-PWR.md#pwr-floating-solar) |
+| Renewables | Onshore wind | commercial | Vestas, Siemens Gamesa, Goldwind, Envision | [card](technologies-PWR.md#pwr-onshore-wind) |
+| Renewables | Offshore wind (fixed bottom) | commercial | Ørsted, Siemens Gamesa, Vestas | [card](technologies-PWR.md#pwr-offshore-wind-fixed) |
+| Renewables | Floating offshore wind | demonstration | Equinor Hywind, Principle Power WindFloat | [card](technologies-PWR.md#pwr-floating-offshore-wind) |
+| Renewables | Geothermal (flash and binary cycle) | commercial | Ormat, Toshiba, Fuji Electric | [card](technologies-PWR.md#pwr-geothermal-flash-binary) |
+| Renewables | Enhanced geothermal systems | demonstration | Fervo Energy, Eavor | [card](technologies-PWR.md#pwr-enhanced-geothermal) |
+| Renewables | Concentrated solar power with storage | commercial | Abengoa, SolarReserve, Cosin | [card](technologies-PWR.md#pwr-concentrated-solar-power) |
+| Renewables | Biomass and waste-to-energy | commercial | Hitachi Zosen Inova, Babcock & Wilcox | [card](technologies-PWR.md#pwr-biomass-waste-to-energy) |
+| Renewables | Hydropower | commercial | Andritz, Voith, GE Vernova | [card](technologies-PWR.md#pwr-hydropower) |
+| Renewables | Tidal and wave energy | pilot | SIMEC Atlantis, Orbital Marine | [card](technologies-PWR.md#pwr-tidal-wave) |
+| Storage and grid | Lithium-ion battery energy storage | commercial | CATL, BYD, Tesla, Fluence | [card](technologies-PWR.md#pwr-lithium-ion-bess) |
+| Storage and grid | Sodium-ion batteries | demonstration | CATL, HiNa | [card](technologies-PWR.md#pwr-sodium-ion-batteries) |
+| Storage and grid | Flow batteries (vanadium, zinc-bromine) | commercial | Rongke Power, Invinity | [card](technologies-PWR.md#pwr-flow-batteries) |
+| Storage and grid | Pumped hydro storage | commercial | Various | [card](technologies-PWR.md#pwr-pumped-hydro-storage) |
+| Storage and grid | Gravity energy storage | demonstration | Energy Vault | [card](technologies-PWR.md#pwr-gravity-storage) |
+| Storage and grid | Compressed and liquid air energy storage | demonstration | Hydrostor, Highview Power | [card](technologies-PWR.md#pwr-compressed-liquid-air-storage) |
+| Storage and grid | Thermal energy storage (molten salt, sand, bricks) | demonstration | Rondo, Kraftblock, Polar Night Energy | [card](technologies-PWR.md#pwr-thermal-energy-storage) |
+| Storage and grid | HVDC transmission and interconnectors | commercial | Hitachi Energy, Siemens Energy, GE Vernova | [card](technologies-PWR.md#pwr-hvdc-transmission) |
+| Storage and grid | Grid-forming inverters and synchronous condensers | commercial | SMA, Siemens Energy | [card](technologies-PWR.md#pwr-grid-forming-inverters) |
+| Storage and grid | Smart grids, microgrids and virtual power plants | commercial | Schneider Electric, Siemens, AutoGrid | [card](technologies-PWR.md#pwr-smart-grids-vpp) |
+| Nuclear | Large light-water reactors | commercial | Westinghouse, EDF, KHNP, CGN | [card](technologies-PWR.md#pwr-large-light-water-reactors) |
+| Nuclear | Small modular reactors | demonstration | NuScale, GE Hitachi BWRX-300, Rolls-Royce SMR | [card](technologies-PWR.md#pwr-small-modular-reactors) |
+| Nuclear | Advanced reactors (high-temperature gas, molten salt) | pilot | X-energy, Kairos Power, TerraPower | [card](technologies-PWR.md#pwr-advanced-reactors) |
+| Nuclear | Fusion | lab | ITER, Commonwealth Fusion Systems, Tokamak Energy | [card](technologies-PWR.md#pwr-fusion) |
 
 ## H2: Hydrogen and low-carbon fuels
 
@@ -356,7 +356,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Materials and integrity | Risk-based inspection and integrity management | commercial | DNV, Lloyd's Register, Bureau Veritas |  |
 | Materials and integrity | Non-metallic and composite equipment | commercial | NOV, Future Pipe Industries |  |
 
-## HSE: Health
+## HSE: Health, safety and environment
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
