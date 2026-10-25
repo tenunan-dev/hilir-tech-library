@@ -68,6 +68,7 @@
       "basis": "fully refrigerated",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Gas_carrier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Gas carrier, read 25 October 2026 (secondary source)"
       },
       "low": 50000,
@@ -79,6 +80,7 @@
       "basis": "article statement",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Gas_carrier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Gas carrier, read 25 October 2026 (secondary source)"
       },
       "low": -10,
@@ -94,6 +96,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Gas_carrier",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Gas carrier, read 25 October 2026 (secondary source)"
     }
   ],

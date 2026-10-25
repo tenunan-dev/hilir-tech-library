@@ -65,6 +65,7 @@
       "basis": "the page gives both 20% and 30%",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Expandable_tubular_technology",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Expandable tubular technology, read 25 October 2026 (secondary source)"
       },
       "low": 20,
@@ -76,6 +77,7 @@
       "basis": "cold-working expansion",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Expandable_tubular_technology",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Expandable tubular technology, read 25 October 2026 (secondary source)"
       },
       "low": 30,
@@ -91,6 +93,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Expandable_tubular_technology",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Expandable tubular technology, read 25 October 2026 (secondary source)"
     }
   ],

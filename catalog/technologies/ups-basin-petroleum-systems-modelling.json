@@ -58,6 +58,7 @@
       "basis": "about 60 to 150 °C",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Petroleum_system",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Petroleum system (petroleum geology), read 25 October 2026 (secondary source)"
       },
       "low": 1000,
@@ -73,6 +74,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Petroleum_system",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Petroleum system (petroleum geology), read 25 October 2026 (secondary source)"
     }
   ],

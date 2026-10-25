@@ -1,0 +1,162 @@
+{
+  "id": "ups-subsea-separation",
+  "name": "Subsea separation and water reinjection",
+  "aliases": [
+    "Subsea separation and water reinjection"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "high water-cut mature fields"
+  ],
+  "maturity": "demonstration",
+  "principle": "A seabed separator splits water and sand from the flow; the water is reinjected, so the host handles only oil and gas. Equinor's Tordis system, planned when water reached 70 to 80% and sand 500 kg/day, was expected to raise recovery from 49% to 55% (about 35 million barrels).",
+  "process_steps": [
+    {
+      "id": "SEP",
+      "name": "Gas-liquid-water-sand separation",
+      "equipment": [
+        "gravity separator",
+        "desander"
+      ],
+      "to": [
+        "BOOST"
+      ]
+    },
+    {
+      "id": "BOOST",
+      "name": "Boost oil to host and water to injection",
+      "equipment": [
+        "multiphase pump",
+        "water injection pump"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Reinject water and sand",
+      "equipment": [
+        "injection well"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "separator vessel (170 t)",
+    "desander",
+    "two 2.3 MW pumps",
+    "manifold (230 t)",
+    "foundation base"
+  ],
+  "suppliers": [
+    {
+      "name": "Equinor",
+      "product": "Tordis operator",
+      "source_id": "equinor-tech"
+    },
+    {
+      "name": "Framo Engineering",
+      "product": "pumps"
+    },
+    {
+      "name": "Petrobras",
+      "product": "Marlim system"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Tordis expected recovery factor",
+      "unit": "% (before to after)",
+      "basis": "about 35 MMbbl extra",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760845/tordis-becomes-worlds-first-subsea-processing-installation",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Tordis becomes world's first subsea processing installation"
+      },
+      "low": 49,
+      "high": 55
+    }
+  ],
+  "advantages": [
+    "Frees up topside water handling capacity"
+  ],
+  "limitations": [
+    "The article gives no throughput, start date or cost",
+    "Marlim data not read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760845/tordis-becomes-worlds-first-subsea-processing-installation",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Tordis becomes world's first subsea processing installation"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Marlim separation system and Tordis outcome",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only a pre-start-up article was read.",
+      "where": [
+        {
+          "hint": "Equinor and Petrobras technical papers",
+          "access": "open"
+        }
+      ],
+      "action": "Add achieved recovery factor."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

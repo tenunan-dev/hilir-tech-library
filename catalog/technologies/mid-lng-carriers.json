@@ -78,6 +78,7 @@
       "basis": "Christophe de Margerie 172,600 m3",
       "source": {
         "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
       },
       "low": 170000,
@@ -89,6 +90,7 @@
       "basis": "typical voyage",
       "source": {
         "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
       },
       "low": 0.1,
@@ -100,6 +102,7 @@
       "basis": "2023",
       "source": {
         "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
       },
       "low": 772,
@@ -114,6 +117,7 @@
       "basis": "dollar year not stated in the article",
       "source": {
         "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
       },
       "low": 200,
@@ -129,6 +133,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+      "source_id": "wikipedia",
       "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
     }
   ],

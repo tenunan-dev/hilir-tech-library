@@ -1,6 +1,6 @@
 # DIG: Digital
 
-124 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+125 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -128,3 +128,4 @@
 | [Offshore Technology](https://www.offshore-technology.com/) | trade-media | global | open | summary-only (unverified) |
 | [Rigzone](https://www.rigzone.com/) | trade-media | global | open | summary-only (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

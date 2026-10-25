@@ -57,6 +57,7 @@
       "basis": "inverters tripped on faults under 60 ms",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Grid-forming_inverter",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Grid-forming inverter, read 25 October 2026 (secondary source)"
       },
       "low": 1200,
@@ -82,6 +83,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Grid-forming_inverter",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Grid-forming inverter, read 25 October 2026 (secondary source)"
     }
   ],

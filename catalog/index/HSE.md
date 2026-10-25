@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-70 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+71 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -74,3 +74,4 @@
 | [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open (unverified) |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
+| [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

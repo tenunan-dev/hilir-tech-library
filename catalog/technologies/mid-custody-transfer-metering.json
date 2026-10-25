@@ -70,6 +70,7 @@
       "basis": "up to ±5% uncalibrated",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Coriolis_flowmeter",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Coriolis flowmeter / flow measurement, read 25 October 2026 (secondary source)"
       },
       "low": 0.5,
@@ -86,10 +87,12 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Ultrasonic_flow_meter",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Ultrasonic flow meter, read 25 October 2026 (principle only)"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Coriolis_flowmeter",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Coriolis flowmeter / flow measurement, read 25 October 2026 (secondary source)"
     }
   ],

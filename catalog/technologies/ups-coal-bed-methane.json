@@ -1,0 +1,176 @@
+{
+  "id": "ups-coal-bed-methane",
+  "name": "Coal bed methane",
+  "aliases": [
+    "Coal bed methane"
+  ],
+  "sector": "UPS",
+  "category": "Unconventional and other resources",
+  "applications": [
+    "Queensland LNG feed",
+    "US Rockies"
+  ],
+  "maturity": "commercial",
+  "principle": "Wells in coal seams 100 to 1,500 m deep are dewatered to lower pressure so methane desorbs, giving a rising gas profile after start-up. US coal bed methane was 1.76 Tcf in 2017 (3.6% of dry gas), down from a 1.97 Tcf peak in 2008; Queensland supplied about 10% of Australia's gas by 2014.",
+  "process_steps": [
+    {
+      "id": "DRILL",
+      "name": "Drill and complete in coal seam",
+      "equipment": [
+        "well"
+      ],
+      "to": [
+        "DEW"
+      ]
+    },
+    {
+      "id": "DEW",
+      "name": "Pump water to depressurise",
+      "equipment": [
+        "pump"
+      ],
+      "to": [
+        "GAS"
+      ]
+    },
+    {
+      "id": "GAS",
+      "name": "Gas flows to compression",
+      "equipment": [
+        "compressor station"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "coal seam wells",
+    "dewatering pumps",
+    "water handling",
+    "gas compression"
+  ],
+  "suppliers": [
+    {
+      "name": "Operators",
+      "product": "CBM projects"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "US CBM production, 2017",
+      "unit": "Tcf",
+      "basis": "3.6% of dry gas; peak 1.97 Tcf in 2008",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Coalbed_methane",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Coalbed methane, read 25 October 2026 (secondary source)"
+      },
+      "low": 1.76,
+      "high": 1.76,
+      "year": 2017
+    },
+    {
+      "metric": "well peak output",
+      "unit": "m3/day (about)",
+      "basis": "300,000 cf/d",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Coalbed_methane",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Coalbed methane, read 25 October 2026 (secondary source)"
+      },
+      "low": 8500,
+      "high": 8500
+    }
+  ],
+  "advantages": [
+    "Low-cost gas where coal is shallow"
+  ],
+  "limitations": [
+    "Large produced water volumes (not quantified for a single well)"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Coalbed_methane",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Coalbed methane, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "produced water-gas ratio and Queensland well data",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not given.",
+      "where": [
+        {
+          "hint": "Queensland Government CSG reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add water volumes per unit gas."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

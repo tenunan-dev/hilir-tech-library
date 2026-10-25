@@ -1,0 +1,21 @@
+{
+  "id": "wikipedia",
+  "name": "Wikipedia (English)",
+  "url": "https://en.wikipedia.org/",
+  "source_type": "association",
+  "sectors": ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS"],
+  "disciplines": ["PRC", "ROT", "INS", "MAT", "HSE", "DIG"],
+  "publisher_org": "Wikimedia Foundation",
+  "country": "US",
+  "regions": ["global"],
+  "access": "open",
+  "licence": "CC-BY-SA-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "notes": "Secondary, community-edited encyclopedia used on technology cards only where a primary source was not reachable; every card that cites it marks the citation as secondary. Text is CC BY-SA 4.0 (attribution and share-alike); individual images carry their own licences. Evidence: https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+  "automated_access": "allowed",
+  "permitted_use": "any"
+}

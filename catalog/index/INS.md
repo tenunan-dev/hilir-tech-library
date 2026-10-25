@@ -1,6 +1,6 @@
 # INS: Instrumentation and control
 
-27 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering.
+28 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -31,3 +31,4 @@
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [VEGA Grieshaber](https://www.vega.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

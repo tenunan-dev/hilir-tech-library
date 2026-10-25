@@ -73,6 +73,7 @@
       "basis": "up to 5 million for large projects",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
       },
       "low": 1.2,
@@ -84,6 +85,7 @@
       "basis": "and 265 L/s",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
       },
       "low": 100,
@@ -124,6 +126,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
     },
     {

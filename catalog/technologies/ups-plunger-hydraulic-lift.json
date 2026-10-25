@@ -64,6 +64,7 @@
       "basis": "piston, jet, turbine",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
       },
       "low": 1000,
@@ -75,6 +76,7 @@
       "basis": "hydraulic pumps, Wikipedia comparison table",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
       },
       "low": 50,
@@ -90,6 +92,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
     }
   ],

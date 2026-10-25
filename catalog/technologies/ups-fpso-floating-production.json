@@ -1,0 +1,187 @@
+{
+  "id": "ups-fpso-floating-production",
+  "name": "FPSO and floating production (TLP, spar, semi-submersible)",
+  "aliases": [
+    "FPSO and floating production (TLP, spar, semi-submersible)"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "deepwater and remote fields"
+  ],
+  "maturity": "commercial",
+  "principle": "A floating production, storage and offloading vessel processes, stores and offloads oil, usually moored by a turret; TLPs, spars and semi-submersibles host dry or wet trees in deeper water. Over 270 FPSOs were in service (a 2019 figure), and a new build can cost up to US$1 billion.",
+  "process_steps": [
+    {
+      "id": "RISER",
+      "name": "Receive fluids via risers",
+      "equipment": [
+        "turret",
+        "risers"
+      ],
+      "to": [
+        "PROC"
+      ]
+    },
+    {
+      "id": "PROC",
+      "name": "Process oil, gas and water",
+      "equipment": [
+        "separators",
+        "gas compression"
+      ],
+      "to": [
+        "STORE"
+      ]
+    },
+    {
+      "id": "STORE",
+      "name": "Store and offload to shuttle tanker",
+      "equipment": [
+        "cargo tanks",
+        "offloading hose"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "hull",
+    "turret and mooring",
+    "topsides process",
+    "storage tanks",
+    "offloading system"
+  ],
+  "suppliers": [
+    {
+      "name": "SBM Offshore",
+      "product": "FPSO"
+    },
+    {
+      "name": "MODEC",
+      "product": "FPSO"
+    },
+    {
+      "name": "BW Offshore",
+      "product": "FPSO"
+    },
+    {
+      "name": "MISC",
+      "product": "FPSO operator",
+      "source_id": "misc-group"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "oil FPSOs in service",
+      "unit": "units (over)",
+      "basis": "2019 figure cited by Wikipedia",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Floating production storage and offloading, read 25 October 2026 (secondary source)"
+      },
+      "low": 270,
+      "high": 270
+    },
+    {
+      "metric": "Kizomba A storage",
+      "unit": "million barrels",
+      "basis": "built by Hyundai Heavy Industries for over US$800 million",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Floating production storage and offloading, read 25 October 2026 (secondary source)"
+      },
+      "low": 2.2,
+      "high": 2.2
+    },
+    {
+      "metric": "TLP depth limit",
+      "unit": "m (about)",
+      "basis": "Perdido spar is in 2,438 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+      },
+      "low": 2000,
+      "high": 2000
+    }
+  ],
+  "costs": [
+    {
+      "metric": "new-build FPSO",
+      "unit": "USD million (up to)",
+      "basis": "dollar year not stated; conversions can cost under US$100 million",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Floating production storage and offloading, read 25 October 2026 (secondary source)"
+      },
+      "low": 1000,
+      "high": 1000
+    }
+  ],
+  "advantages": [
+    "Reusable; no pipeline needed"
+  ],
+  "limitations": [
+    "Fleet and cost figures are from a secondary summary"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Floating production storage and offloading, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Malaysian or Southeast Asian FPSOs",
+      "reason_code": "not_in_sources_read",
+      "reason": "None named in the pages read.",
+      "where": [
+        {
+          "hint": "MISC and Petronas FPSO pages",
+          "access": "open",
+          "source_id": "misc-group"
+        }
+      ],
+      "action": "Add one regional FPSO."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

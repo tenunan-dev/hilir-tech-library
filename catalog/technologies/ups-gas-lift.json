@@ -72,6 +72,7 @@
       "basis": "wells with insufficient reservoir pressure",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Gas_lift",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Gas lift, read 25 October 2026 (secondary source)"
       },
       "low": 10,
@@ -83,6 +84,7 @@
       "basis": "Wikipedia comparison",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
       },
       "low": 4600,
@@ -99,10 +101,12 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Gas_lift",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Gas lift, read 25 October 2026 (secondary source)"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Artificial_lift",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
     }
   ],

@@ -62,6 +62,7 @@
       "basis": "2025",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Virtual_power_plant",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Virtual power plant, read 25 October 2026 (secondary source)"
       },
       "low": 37.5,
@@ -74,6 +75,7 @@
       "basis": "2025 programme size after AGL acquisition",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Virtual_power_plant",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Virtual power plant, read 25 October 2026 (secondary source)"
       },
       "low": 25,
@@ -100,6 +102,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Virtual_power_plant",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Virtual power plant, read 25 October 2026 (secondary source)"
     }
   ],

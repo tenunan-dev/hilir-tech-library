@@ -55,6 +55,7 @@
       "basis": "versus about 185 Wh/kg for LFP; secondary source",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Sodium-ion battery, read 25 October 2026 (secondary source)"
       },
       "low": 175,
@@ -66,6 +67,7 @@
       "basis": "vendor claim relayed by a secondary source",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Sodium-ion battery, read 25 October 2026 (secondary source)"
       },
       "low": 10000,
@@ -92,6 +94,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Sodium-ion battery, read 25 October 2026 (secondary source)"
     }
   ],

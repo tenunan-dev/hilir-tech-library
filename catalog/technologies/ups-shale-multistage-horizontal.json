@@ -1,0 +1,159 @@
+{
+  "id": "ups-shale-multistage-horizontal",
+  "name": "Shale oil and gas multi-stage horizontal development",
+  "aliases": [
+    "Shale oil and gas multi-stage horizontal development"
+  ],
+  "sector": "UPS",
+  "category": "Unconventional and other resources",
+  "applications": [
+    "US tight oil",
+    "China and Argentina shale"
+  ],
+  "maturity": "commercial",
+  "principle": "Horizontal wells with laterals of 1,500 to 10,000 ft are fractured in 30 or more stages to produce tight oil and shale gas. EIA data cited by Wikipedia put US tight oil at 7.23 million b/d in 2021, about 64% of US crude.",
+  "process_steps": [
+    {
+      "id": "DRILL",
+      "name": "Drill horizontal lateral",
+      "equipment": [
+        "rotary steerable system"
+      ],
+      "to": [
+        "FRAC"
+      ]
+    },
+    {
+      "id": "FRAC",
+      "name": "Multi-stage hydraulic fracturing",
+      "equipment": [
+        "frac fleet"
+      ],
+      "to": [
+        "FLOW"
+      ]
+    },
+    {
+      "id": "FLOW",
+      "name": "Flowback and production",
+      "equipment": [
+        "separators"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "rig",
+    "frac fleet",
+    "proppant and water supply",
+    "flowback equipment"
+  ],
+  "suppliers": [
+    {
+      "name": "Operators",
+      "product": "Permian, Bakken, Eagle Ford and others"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "US tight oil production, 2021",
+      "unit": "million b/d",
+      "basis": "about 64% of US crude oil",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Shale_oil",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Shale oil, read 25 October 2026 (secondary source)"
+      },
+      "low": 7.23,
+      "high": 7.23,
+      "year": 2021
+    },
+    {
+      "metric": "lateral length",
+      "unit": "ft",
+      "basis": "Barnett 1,500 to 5,000; Bakken up to 10,000",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
+      },
+      "low": 1500,
+      "high": 10000
+    }
+  ],
+  "advantages": [
+    "Rapidly scalable"
+  ],
+  "limitations": [
+    "Steep decline rates (not quantified in the pages read)"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Hydraulic fracturing, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shale_oil",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Shale oil, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "well cost and decline rate with year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not given.",
+      "where": [
+        {
+          "hint": "EIA drilling productivity report",
+          "access": "open",
+          "source_id": "eia-reports"
+        }
+      ],
+      "action": "Add cost and decline figures."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

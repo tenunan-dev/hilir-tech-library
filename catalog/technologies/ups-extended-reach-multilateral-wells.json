@@ -67,6 +67,7 @@
       "basis": "Orlan, Sakhalin-1, April 2015",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Extended_reach_drilling",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Extended reach drilling, read 25 October 2026 (secondary source)"
       },
       "low": 13500,
@@ -79,6 +80,7 @@
       "basis": "Orlan 12,030 m (2015); earlier Yastreb well 12,130 m (2014)",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Extended_reach_drilling",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Extended reach drilling, read 25 October 2026 (secondary source)"
       },
       "low": 12030,
@@ -96,6 +98,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Extended_reach_drilling",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Extended reach drilling, read 25 October 2026 (secondary source)"
     },
     {

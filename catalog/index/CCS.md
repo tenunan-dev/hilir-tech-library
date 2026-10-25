@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-122 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+123 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -126,3 +126,4 @@
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
+| [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

@@ -1,0 +1,173 @@
+{
+  "id": "ups-nanofluid-eor",
+  "name": "Nanofluid EOR",
+  "aliases": [
+    "Nanofluid EOR"
+  ],
+  "sector": "UPS",
+  "category": "Improved and enhanced oil recovery",
+  "applications": [
+    "sandstone and carbonate reservoirs (lab)",
+    "heavy oil pilots"
+  ],
+  "maturity": "lab",
+  "principle": "Nanoparticles (silica, zirconia, alumina) added to injection water alter rock wettability, lower interfacial tension and build a structural disjoining-pressure wedge. A 2025 review reports lab recoveries of 15 to 20% extra, an optimum concentration of 0.1 to 0.5 wt%, and only a few field trials (a Colombian heavy-oil pilot and Ghawar).",
+  "process_steps": [
+    {
+      "id": "DISP",
+      "name": "Disperse stabilised nanoparticles in brine",
+      "equipment": [
+        "mixing skid"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Inject as a slug",
+      "equipment": [
+        "injection pumps"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "nanoparticle dispersion unit",
+    "injection pumps"
+  ],
+  "suppliers": [
+    {
+      "name": "Research groups",
+      "product": "nanofluids"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "wettability contact-angle reduction",
+      "unit": "% (up to)",
+      "basis": "review of lab studies",
+      "source": {
+        "url": "https://link.springer.com/article/10.1007/s13202-025-01965-1",
+        "note": "Journal of Petroleum Exploration and Production Technology, Nanoparticles in enhanced oil recovery: state-of-the-art review (2025; read abstract and body, conclusions truncated)"
+      },
+      "low": 58.8,
+      "high": 58.8
+    },
+    {
+      "metric": "optimum nanoparticle concentration",
+      "unit": "wt%",
+      "basis": "body text gives 0.05 to 0.5 wt%",
+      "source": {
+        "url": "https://link.springer.com/article/10.1007/s13202-025-01965-1",
+        "note": "Journal of Petroleum Exploration and Production Technology, Nanoparticles in enhanced oil recovery: state-of-the-art review (2025; read abstract and body, conclusions truncated)"
+      },
+      "low": 0.1,
+      "high": 0.5
+    },
+    {
+      "metric": "Colombian heavy-oil pilot cumulative production",
+      "unit": "bbl",
+      "basis": "before to after; viscosity 39,987 to 11,734 cP",
+      "source": {
+        "url": "https://link.springer.com/article/10.1007/s13202-025-01965-1",
+        "note": "Journal of Petroleum Exploration and Production Technology, Nanoparticles in enhanced oil recovery: state-of-the-art review (2025; read abstract and body, conclusions truncated)"
+      },
+      "low": 15502,
+      "high": 30682
+    }
+  ],
+  "advantages": [
+    "Strong lab results"
+  ],
+  "limitations": [
+    "Field evidence limited to a few cases",
+    "Stability in high salinity and formation damage are open issues"
+  ],
+  "sources": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s13202-025-01965-1",
+      "note": "Journal of Petroleum Exploration and Production Technology, Nanoparticles in enhanced oil recovery: state-of-the-art review (2025; read abstract and body, conclusions truncated)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "independent field verification and cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "The review cites few field trials and the conclusions were truncated.",
+      "where": [
+        {
+          "hint": "SPE nanofluid EOR field papers",
+          "access": "open",
+          "source_id": "onepetro"
+        }
+      ],
+      "action": "Add a verified field result."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

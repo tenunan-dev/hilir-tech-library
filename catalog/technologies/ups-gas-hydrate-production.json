@@ -1,0 +1,181 @@
+{
+  "id": "ups-gas-hydrate-production",
+  "name": "Gas hydrate production",
+  "aliases": [
+    "Gas hydrate production"
+  ],
+  "sector": "UPS",
+  "category": "Unconventional and other resources",
+  "applications": [
+    "Japan and China energy security"
+  ],
+  "maturity": "pilot",
+  "principle": "Methane locked in ice-like hydrates is released by depressurisation, heating or CO2 exchange. Japan's JOGMEC produced gas offshore at Nankai Trough in March 2013 by depressurisation; Mallik (Canada) showed constant flow by lowering pressure in 2008; 1 m3 of hydrate releases about 164 m3 of methane.",
+  "process_steps": [
+    {
+      "id": "DRILL",
+      "name": "Drill into hydrate-bearing sediment",
+      "equipment": [
+        "well"
+      ],
+      "to": [
+        "DEP"
+      ]
+    },
+    {
+      "id": "DEP",
+      "name": "Lower pressure to dissociate hydrate",
+      "equipment": [
+        "pumps"
+      ],
+      "to": [
+        "PROD"
+      ]
+    },
+    {
+      "id": "PROD",
+      "name": "Produce gas and water; control sand",
+      "equipment": [
+        "sand control"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "production well",
+    "downhole pumps",
+    "sand control",
+    "gas-water separator"
+  ],
+  "suppliers": [
+    {
+      "name": "JOGMEC",
+      "product": "Nankai Trough trials",
+      "source_id": "jogmec"
+    },
+    {
+      "name": "CNPC",
+      "product": "China trials"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "methane released per m3 of hydrate",
+      "unit": "m3",
+      "basis": "plus 0.87 m3 fresh water",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Methane_clathrate",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Methane clathrate, read 25 October 2026 (secondary source)"
+      },
+      "low": 164,
+      "high": 164
+    },
+    {
+      "metric": "Japan estimate of methane at Nankai",
+      "unit": "trillion m3 (at least)",
+      "basis": "Japanese government estimate quoted in the source",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Methane_clathrate",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Methane clathrate, read 25 October 2026 (secondary source)"
+      },
+      "low": 1.1,
+      "high": 1.1
+    }
+  ],
+  "advantages": [
+    "Very large resource"
+  ],
+  "limitations": [
+    "Commercial production is years away",
+    "The page gives no trial flow rates"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Methane_clathrate",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Methane clathrate, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "trial flow rates and durations",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the page.",
+      "where": [
+        {
+          "hint": "JOGMEC and CNPC trial reports",
+          "access": "open",
+          "source_id": "jogmec"
+        }
+      ],
+      "action": "Add rates and test durations."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

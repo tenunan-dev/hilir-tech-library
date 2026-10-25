@@ -1,0 +1,178 @@
+{
+  "id": "ups-gas-injection-wag",
+  "name": "Gas injection and WAG (hydrocarbon, CO2, nitrogen)",
+  "aliases": [
+    "Gas injection and WAG (hydrocarbon, CO2, nitrogen)"
+  ],
+  "sector": "UPS",
+  "category": "Improved and enhanced oil recovery",
+  "applications": [
+    "miscible EOR",
+    "pressure maintenance"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas (natural gas, nitrogen or CO2) is injected to maintain pressure or become miscible with oil; water-alternating-gas (WAG) cycles gas and water to improve sweep. Gas injection projects made up 56% of the 374 EOR projects counted worldwide in 2017 (CO2 44%, other gas 12%).",
+  "process_steps": [
+    {
+      "id": "GAS",
+      "name": "Supply and compress gas",
+      "equipment": [
+        "compressors"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Inject gas or alternate gas and water",
+      "equipment": [
+        "injection wells",
+        "WAG manifolds"
+      ],
+      "to": [
+        "PROD"
+      ]
+    },
+    {
+      "id": "PROD",
+      "name": "Produce and separate; recycle gas",
+      "equipment": [
+        "separators",
+        "recompression"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "gas compressors",
+    "injection wells",
+    "WAG manifolds",
+    "separation and recycle"
+  ],
+  "suppliers": [
+    {
+      "name": "Operators",
+      "product": "field projects"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "share of 2017 EOR projects using CO2",
+      "unit": "% of 374 projects",
+      "basis": "other gas injection 12%",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Enhanced_oil_recovery",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Enhanced oil recovery, read 25 October 2026 (secondary source)"
+      },
+      "low": 44,
+      "high": 44
+    },
+    {
+      "metric": "CO2 EOR effective depth",
+      "unit": "ft (deeper than)",
+      "basis": "depth threshold for miscible CO2 flooding as stated in the source",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Enhanced_oil_recovery",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Enhanced oil recovery, read 25 October 2026 (secondary source)"
+      },
+      "low": 2000,
+      "high": 2000
+    }
+  ],
+  "advantages": [
+    "CO2 can be stored while producing oil"
+  ],
+  "limitations": [
+    "WAG-specific results not available: ScienceDirect review blocked"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Enhanced_oil_recovery",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Enhanced oil recovery, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "WAG incremental recovery, injectivity and gravity override evidence",
+      "reason_code": "source_unreachable",
+      "reason": "The WAG review on ScienceDirect is blocked by robots.txt.",
+      "where": [
+        {
+          "hint": "SPE WAG field experience reviews",
+          "access": "open",
+          "source_id": "onepetro"
+        }
+      ],
+      "action": "Add typical incremental recovery with basis."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

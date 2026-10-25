@@ -60,6 +60,7 @@
       "basis": "prototype",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suiso_Frontier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Suiso Frontier, read 25 October 2026 (secondary source)"
       },
       "low": 1250,
@@ -71,6 +72,7 @@
       "basis": "20 K",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suiso_Frontier",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Suiso Frontier, read 25 October 2026 (secondary source)"
       },
       "low": -253,
@@ -87,6 +89,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Suiso_Frontier",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Suiso Frontier, read 25 October 2026 (secondary source)"
     }
   ],

@@ -1,0 +1,192 @@
+{
+  "id": "ups-subsea-production-systems",
+  "name": "Subsea production systems (trees, manifolds, umbilicals)",
+  "aliases": [
+    "Subsea production systems (trees, manifolds, umbilicals)"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "deepwater and tieback developments"
+  ],
+  "maturity": "commercial",
+  "principle": "Wells are completed on the seabed with trees, linked by manifolds, jumpers, umbilicals and flowlines to a host. TechnipFMC delivered its 100th standardised Subsea 2.0 tree in May 2025 with lead times about a third shorter than engineered-to-order trees; Westwood counted 255 tree awards in 2024.",
+  "process_steps": [
+    {
+      "id": "TREE",
+      "name": "Install tree on wellhead",
+      "equipment": [
+        "subsea tree"
+      ],
+      "to": [
+        "MAN"
+      ]
+    },
+    {
+      "id": "MAN",
+      "name": "Gather via manifold and flowlines",
+      "equipment": [
+        "manifold",
+        "jumpers"
+      ],
+      "to": [
+        "HOST"
+      ]
+    },
+    {
+      "id": "HOST",
+      "name": "Control and power via umbilical",
+      "equipment": [
+        "umbilical",
+        "control system"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "subsea trees",
+    "manifolds",
+    "umbilicals",
+    "control systems",
+    "flowlines"
+  ],
+  "suppliers": [
+    {
+      "name": "TechnipFMC",
+      "product": "Subsea 2.0",
+      "source_id": "technipfmc"
+    },
+    {
+      "name": "SLB OneSubsea",
+      "product": "subsea production systems",
+      "source_id": "slb"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "subsea trees",
+      "source_id": "baker-hughes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "subsea tree awards in 2024",
+      "unit": "units",
+      "basis": "12% below 2023",
+      "source": {
+        "url": "https://www.westwoodenergy.com/sectors/offshore-energy-services/subsea-equipment-and-services/global-subsea-tree-tracker-2025",
+        "note": "Westwood Energy, Global Subsea Tree Tracker 2025"
+      },
+      "low": 255,
+      "high": 255,
+      "year": 2024
+    },
+    {
+      "metric": "Subsea 2.0 lead-time reduction",
+      "unit": "% (about one third)",
+      "basis": "versus engineered-to-order trees; vendor claim",
+      "source": {
+        "url": "https://www.technipfmc.com/en/media/news/2025/05/technipfmc-marks-milestone-100th-subsea-20-tree-delivery-with-client-that-placed-first-order/",
+        "source_id": "technipfmc",
+        "note": "TechnipFMC, 100th Subsea 2.0 tree delivery, May 2025"
+      },
+      "low": 33,
+      "high": 33
+    }
+  ],
+  "advantages": [
+    "Standardisation shortens time to first oil"
+  ],
+  "limitations": [
+    "Equipment details (depth ratings, tieback limits) are not on the pages read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com/en/media/news/2025/05/technipfmc-marks-milestone-100th-subsea-20-tree-delivery-with-client-that-placed-first-order/",
+      "source_id": "technipfmc",
+      "note": "TechnipFMC, 100th Subsea 2.0 tree delivery, May 2025"
+    },
+    {
+      "url": "https://www.westwoodenergy.com/sectors/offshore-energy-services/subsea-equipment-and-services/global-subsea-tree-tracker-2025",
+      "note": "Westwood Energy, Global Subsea Tree Tracker 2025"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "depth ratings and tieback distances",
+      "reason_code": "not_in_sources_read",
+      "reason": "Wikipedia's overview gives none and PetroWiki was unreachable.",
+      "where": [
+        {
+          "hint": "SPE PetroWiki subsea systems",
+          "access": "open"
+        }
+      ],
+      "action": "Add depth and distance records."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

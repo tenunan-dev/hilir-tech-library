@@ -1,0 +1,213 @@
+{
+  "id": "ups-thermal-eor",
+  "name": "Thermal EOR (steam flood, SAGD, CSS)",
+  "aliases": [
+    "Thermal EOR (steam flood, SAGD, CSS)"
+  ],
+  "sector": "UPS",
+  "category": "Improved and enhanced oil recovery",
+  "applications": [
+    "Canadian bitumen",
+    "California heavy oil"
+  ],
+  "maturity": "commercial",
+  "principle": "Steam lowers heavy-oil viscosity so it flows: steam flooding (commercial in California since the 1960s), cyclic steam stimulation and SAGD, where a steam injector sits 4 to 6 m above a horizontal producer. SAGD recovery is 60 to 80% in good reservoirs with steam-oil ratios of 2.8 to 4.0 in one Clearwater case.",
+  "process_steps": [
+    {
+      "id": "STEAM",
+      "name": "Generate steam",
+      "equipment": [
+        "once-through steam generators or boilers"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Inject steam into the reservoir",
+      "equipment": [
+        "injection wells"
+      ],
+      "to": [
+        "PROD"
+      ]
+    },
+    {
+      "id": "PROD",
+      "name": "Produce hot oil and water by gravity",
+      "equipment": [
+        "progressing cavity pumps or ESPs"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "steam generators",
+    "horizontal well pairs",
+    "artificial lift",
+    "water treatment"
+  ],
+  "suppliers": [
+    {
+      "name": "Suncor",
+      "product": "SAGD operator"
+    },
+    {
+      "name": "Cenovus",
+      "product": "Foster Creek SAGD (first commercial, 1996)"
+    },
+    {
+      "name": "Chevron",
+      "product": "Kern River steam flood"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "SAGD recovery factor",
+      "unit": "% of oil in place",
+      "basis": "one section says up to 60%, another 70 to 80% in suitable reservoirs",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam-assisted_gravity_drainage",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Steam-assisted gravity drainage, read 25 October 2026 (secondary source)"
+      },
+      "low": 60,
+      "high": 80
+    },
+    {
+      "metric": "SAGD cumulative steam-oil ratio (Clearwater/Lower Grand Rapids)",
+      "unit": "t/t",
+      "basis": "100% steam quality; operating pressure 3 to 5 MPa",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam-assisted_gravity_drainage",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Steam-assisted gravity drainage, read 25 October 2026 (secondary source)"
+      },
+      "low": 2.8,
+      "high": 4.0
+    },
+    {
+      "metric": "economic oil price per National Energy Board",
+      "unit": "USD/bbl (at least)",
+      "basis": "dollar year not stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam-assisted_gravity_drainage",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Steam-assisted gravity drainage, read 25 October 2026 (secondary source)"
+      },
+      "low": 30,
+      "high": 35
+    },
+    {
+      "metric": "natural gas per barrel, SAGD vs CSS",
+      "unit": "GJ/bbl",
+      "basis": "SAGD 1.08, cyclic steam 2.14; Canadian Energy Research Institute via Wikipedia, year not stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Athabasca_oil_sands",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Athabasca oil sands, read 25 October 2026 (secondary source)"
+      },
+      "low": 1.08,
+      "high": 2.14
+    }
+  ],
+  "advantages": [
+    "SAGD is about twice as thermally efficient as cyclic steam stimulation"
+  ],
+  "limitations": [
+    "Large gas and water use",
+    "Wikipedia gives no SAGD emissions intensity"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Steam-assisted_gravity_drainage",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Steam-assisted gravity drainage, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Enhanced_oil_recovery",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Enhanced oil recovery, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "emission intensity per barrel with basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the pages read.",
+      "where": [
+        {
+          "hint": "Alberta Energy Regulator and CERI studies",
+          "access": "open"
+        }
+      ],
+      "action": "Add intensity with boundary and year."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

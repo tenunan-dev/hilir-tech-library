@@ -81,6 +81,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Rotary_steerable_system",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Rotary steerable system, read 25 October 2026 (secondary source)"
     }
   ],

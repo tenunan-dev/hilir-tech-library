@@ -68,6 +68,7 @@
       "basis": "depends on size and coating quality",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Cathodic_protection",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Cathodic protection, read 25 October 2026 (secondary source)"
       },
       "low": 50,
@@ -84,6 +85,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Cathodic_protection",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Cathodic protection, read 25 October 2026 (secondary source)"
     }
   ],

@@ -77,6 +77,7 @@
       "basis": "marine streamer towing",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
       },
       "low": 5,
@@ -88,6 +89,7 @@
       "basis": "spreads can exceed one nautical mile",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
       },
       "low": 24,
@@ -99,6 +101,7 @@
       "basis": "30-day battery example; node weight over 10 kg",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
       },
       "low": 3000,
@@ -116,6 +119,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Reflection_seismology",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Reflection seismology, read 25 October 2026 (secondary source)"
     }
   ],

@@ -1,0 +1,196 @@
+{
+  "id": "ups-oil-sands-mining",
+  "name": "Oil sands mining and froth treatment",
+  "aliases": [
+    "Oil sands mining and froth treatment"
+  ],
+  "sector": "UPS",
+  "category": "Unconventional and other resources",
+  "applications": [
+    "Alberta bitumen"
+  ],
+  "maturity": "commercial",
+  "principle": "Oil sand is mined in open pits, crushed and mixed with 50 to 80 °C water so bitumen floats as froth (about 60% bitumen, 30% water, 10% solids), then diluent and settlers clean it. About two tons of sand yield a barrel, and tailings are the main environmental problem.",
+  "process_steps": [
+    {
+      "id": "MINE",
+      "name": "Open-pit mining",
+      "equipment": [
+        "shovels",
+        "trucks"
+      ],
+      "to": [
+        "EXT"
+      ]
+    },
+    {
+      "id": "EXT",
+      "name": "Hot-water extraction and flotation",
+      "equipment": [
+        "slurry pipeline",
+        "separation vessel"
+      ],
+      "to": [
+        "FROTH"
+      ]
+    },
+    {
+      "id": "FROTH",
+      "name": "Froth treatment",
+      "equipment": [
+        "inclined plate settlers",
+        "centrifuges"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "shovels and trucks",
+    "crushers",
+    "separation vessels",
+    "froth treatment plant",
+    "tailings ponds"
+  ],
+  "suppliers": [
+    {
+      "name": "Suncor",
+      "product": "mining operations"
+    },
+    {
+      "name": "Syncrude",
+      "product": "mining operations"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "bitumen recovery",
+      "unit": "%",
+      "basis": "modern hot-water extraction",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Athabasca_oil_sands",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Athabasca oil sands, read 25 October 2026 (secondary source)"
+      },
+      "low": 90,
+      "high": 100
+    },
+    {
+      "metric": "natural gas use, mining with upgrading",
+      "unit": "GJ per barrel",
+      "basis": "CERI figure via Wikipedia, year not stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Athabasca_oil_sands",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Athabasca oil sands, read 25 October 2026 (secondary source)"
+      },
+      "low": 1.54,
+      "high": 1.54
+    },
+    {
+      "metric": "mined share of oil sands production, 2010",
+      "unit": "%",
+      "basis": "in situ 47%",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Athabasca_oil_sands",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Athabasca oil sands, read 25 October 2026 (secondary source)"
+      },
+      "low": 53,
+      "high": 53,
+      "year": 2010
+    }
+  ],
+  "advantages": [
+    "High recovery of bitumen"
+  ],
+  "limitations": [
+    "Tailings ponds covered about 77 km2 in 2013",
+    "Gas and water use"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Athabasca_oil_sands",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Athabasca oil sands, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "tailings reduction results",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only methods are named.",
+      "where": [
+        {
+          "hint": "Alberta Energy Regulator tailings reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add tailings performance."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

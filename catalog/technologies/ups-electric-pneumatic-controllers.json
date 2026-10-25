@@ -1,0 +1,144 @@
+{
+  "id": "ups-electric-pneumatic-controllers",
+  "name": "Electric instead of gas-pneumatic controllers",
+  "aliases": [
+    "Electric instead of gas-pneumatic controllers"
+  ],
+  "sector": "UPS",
+  "category": "Water and emissions in upstream",
+  "applications": [
+    "methane reduction at wellsites and compressor stations"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas-driven pneumatic controllers vent methane to operate valves; replacing them with instrument air or electric controllers removes that venting. EPA Natural Gas STAR reports gas pneumatic devices vented about 51 Bcf/yr in production (2006) and a conversion typically costs $45,000 to $75,000 with payback in months at $7/Mcf.",
+  "process_steps": [
+    {
+      "id": "AUDIT",
+      "name": "Inventory gas-driven controllers",
+      "equipment": [
+        "emissions survey"
+      ],
+      "to": [
+        "CONV"
+      ]
+    },
+    {
+      "id": "CONV",
+      "name": "Install instrument air or electric controllers",
+      "equipment": [
+        "air compressor",
+        "electric actuators"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "instrument air compressor and dryer",
+    "electric controllers",
+    "solar and battery power at remote sites"
+  ],
+  "suppliers": [
+    {
+      "name": "Various vendors",
+      "product": "electric and instrument-air controllers"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "gas vented by pneumatic controllers in US production",
+      "unit": "Bcf/yr",
+      "basis": "2006; transmission about 14 Bcf/yr",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2016-06/documents/ll_instrument_air.pdf",
+        "note": "US EPA Natural Gas STAR, Convert gas pneumatic controls to instrument air (lessons learned, 2006 data and dollars)"
+      },
+      "low": 51,
+      "high": 51,
+      "year": 2006
+    }
+  ],
+  "costs": [
+    {
+      "metric": "typical instrument-air conversion cost",
+      "unit": "USD",
+      "basis": "2006 dollars",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2016-06/documents/ll_instrument_air.pdf",
+        "note": "US EPA Natural Gas STAR, Convert gas pneumatic controls to instrument air (lessons learned, 2006 data and dollars)"
+      },
+      "low": 45000,
+      "high": 75000,
+      "year": 2006
+    }
+  ],
+  "advantages": [
+    "Pays back in months at 2006 gas prices of $7/Mcf"
+  ],
+  "limitations": [
+    "The document's per-device emission math is inconsistent, so do not use per-device values",
+    "Data and dollars are from 2006"
+  ],
+  "sources": [
+    {
+      "url": "https://19january2021snapshot.epa.gov/sites/static/files/2016-06/documents/ll_instrument_air.pdf",
+      "note": "US EPA Natural Gas STAR, Convert gas pneumatic controls to instrument air (lessons learned, 2006 data and dollars)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "current per-device emissions and electric controller examples",
+      "reason_code": "not_in_sources_read",
+      "reason": "EPA figures are old and internally inconsistent.",
+      "where": [
+        {
+          "hint": "EPA GHGRP and CCAC OGMP technical guidance",
+          "access": "open",
+          "source_id": "epa-ghgrp"
+        }
+      ],
+      "action": "Add current emission factors."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "ups-seawater-sulfate-removal",
+  "name": "Seawater sulfate removal for injection water",
+  "aliases": [
+    "Seawater sulfate removal for injection water"
+  ],
+  "sector": "UPS",
+  "category": "Water and emissions in upstream",
+  "applications": [
+    "North Sea and deepwater waterfloods"
+  ],
+  "maturity": "commercial",
+  "principle": "Nanofiltration membranes strip sulfate from seawater before injection so it does not form barium sulfate scale with reservoir water. At Marathon's Brae field the first plant (South Brae, 1988) handled 40,000 bw/d with sulfate rejection of 98 to 99% and about 75% feed recovery.",
+  "process_steps": [
+    {
+      "id": "FILT",
+      "name": "Pre-filter seawater",
+      "equipment": [
+        "filters"
+      ],
+      "to": [
+        "NF"
+      ]
+    },
+    {
+      "id": "NF",
+      "name": "Nanofiltration removes sulfate",
+      "equipment": [
+        "spiral-wound membranes"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Inject low-sulfate water",
+      "equipment": [
+        "injection pumps"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "nanofiltration membranes",
+    "pre-filtration",
+    "antiscalant dosing",
+    "high-pressure pumps"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "sulfate removal process"
+    },
+    {
+      "name": "DuPont (FilmTec)",
+      "product": "SR90 membranes"
+    },
+    {
+      "name": "Toray",
+      "product": "membranes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "sulfate rejection",
+      "unit": "%",
+      "basis": "first and second generation membranes",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17235495/membranes-solve-north-sea-waterflood-sulfate-problems",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Membranes solve North Sea waterflood sulfate problems"
+      },
+      "low": 98,
+      "high": 99
+    },
+    {
+      "metric": "feed-water recovery",
+      "unit": "%",
+      "basis": "about",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17235495/membranes-solve-north-sea-waterflood-sulfate-problems",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Membranes solve North Sea waterflood sulfate problems"
+      },
+      "low": 75,
+      "high": 75
+    },
+    {
+      "metric": "membrane life",
+      "unit": "years",
+      "basis": "chemical cleaning at pH 3 to 10",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17235495/membranes-solve-north-sea-waterflood-sulfate-problems",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Membranes solve North Sea waterflood sulfate problems"
+      },
+      "low": 4,
+      "high": 5
+    }
+  ],
+  "advantages": [
+    "Prevents barite scale that plugs wells"
+  ],
+  "limitations": [
+    "The article is old; modern module figures not read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17235495/membranes-solve-north-sea-waterflood-sulfate-problems",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, Membranes solve North Sea waterflood sulfate problems"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capex and opex with year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated.",
+      "where": [
+        {
+          "hint": "Veolia and DuPont case studies",
+          "access": "open"
+        }
+      ],
+      "action": "Add cost per m3 with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "ups-fixed-jackets-gravity-structures",
+  "name": "Fixed jackets and gravity-based structures",
+  "aliases": [
+    "Fixed jackets and gravity-based structures"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "shallow to mid-depth fields, including Malaysia and the North Sea"
+  ],
+  "maturity": "commercial",
+  "principle": "Fixed platforms stand on steel jackets piled to the seabed or on concrete gravity-based structures (GBS) that can store oil; they are economic to about 520 m of water. Bullwinkle (Gulf of Mexico) is the tallest fixed example at 529 m, and Hibernia's GBS weighs about 1.2 million tons with 1.3 million barrels of storage.",
+  "process_steps": [
+    {
+      "id": "FAB",
+      "name": "Fabricate jacket or GBS",
+      "equipment": [
+        "fabrication yard"
+      ],
+      "to": [
+        "INST"
+      ]
+    },
+    {
+      "id": "INST",
+      "name": "Float out, install and pile or ballast",
+      "equipment": [
+        "heavy-lift vessel",
+        "piling hammers"
+      ],
+      "to": [
+        "TOP"
+      ]
+    },
+    {
+      "id": "TOP",
+      "name": "Install topsides",
+      "equipment": [
+        "crane vessel"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "steel jacket or concrete GBS",
+    "piles",
+    "topsides",
+    "risers"
+  ],
+  "suppliers": [
+    {
+      "name": "McDermott",
+      "product": "jackets",
+      "source_id": "mcdermott"
+    },
+    {
+      "name": "Saipem",
+      "product": "jackets",
+      "source_id": "saipem"
+    },
+    {
+      "name": "MMHE",
+      "product": "jackets",
+      "source_id": "mmhe"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "fixed-platform economic depth limit",
+      "unit": "m",
+      "basis": "about 1,710 ft",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+      },
+      "low": 520,
+      "high": 520
+    },
+    {
+      "metric": "Hibernia GBS weight",
+      "unit": "million tons",
+      "basis": "111 m tall; 1.3 million bbl storage",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+      },
+      "low": 1.2,
+      "high": 1.2
+    },
+    {
+      "metric": "Troll A GBS height",
+      "unit": "m",
+      "basis": "300 m water depth, built 1996",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+      },
+      "low": 472,
+      "high": 472,
+      "year": 1996
+    }
+  ],
+  "advantages": [
+    "Durable and can combine storage"
+  ],
+  "limitations": [
+    "Depth-limited"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_platform",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "jacket and topsides cost per tonne with year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the page.",
+      "where": [
+        {
+          "hint": "Offshore Magazine and IHS cost data",
+          "access": "open"
+        }
+      ],
+      "action": "Add a cost reference."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "ups-platform-electrification",
+  "name": "Offshore platform electrification (power from shore, offshore wind)",
+  "aliases": [
+    "Offshore platform electrification (power from shore, offshore wind)"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "North Sea fields",
+    "cutting platform CO2"
+  ],
+  "maturity": "commercial",
+  "principle": "Platforms take electricity from shore or from offshore wind instead of burning gas on site. Johan Sverdrup runs on hydro power from shore at about 0.67 kg CO2 per barrel against a world average of 15 kg, and Hywind Tampen's 94.6 MW meets about 35% of five platforms' demand.",
+  "process_steps": [
+    {
+      "id": "SRC",
+      "name": "Supply power from shore cable or floating wind",
+      "equipment": [
+        "HVAC or HVDC cable",
+        "floating wind turbines"
+      ],
+      "to": [
+        "PLAT"
+      ]
+    },
+    {
+      "id": "PLAT",
+      "name": "Distribute to platform loads",
+      "equipment": [
+        "switchgear",
+        "transformers"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "power cable",
+    "converter or transformer",
+    "platform switchgear",
+    "floating wind turbines (Hywind)"
+  ],
+  "suppliers": [
+    {
+      "name": "Equinor",
+      "product": "Johan Sverdrup and Hywind Tampen",
+      "source_id": "equinor-tech"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "power systems",
+      "source_id": "siemens-energy"
+    },
+    {
+      "name": "ABB",
+      "product": "power systems",
+      "source_id": "abb-energy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Johan Sverdrup CO2 intensity",
+      "unit": "kg CO2/bbl",
+      "basis": "versus 15 kg world average",
+      "source": {
+        "url": "https://www.equinor.com/energy/johan-sverdrup",
+        "source_id": "equinor-tech",
+        "note": "Equinor, Johan Sverdrup page, read 25 October 2026"
+      },
+      "low": 0.67,
+      "high": 0.67
+    },
+    {
+      "metric": "Johan Sverdrup plateau capacity",
+      "unit": "bbl/d",
+      "basis": "Phase 1 Oct 2019, Phase 2 Dec 2022",
+      "source": {
+        "url": "https://www.equinor.com/energy/johan-sverdrup",
+        "source_id": "equinor-tech",
+        "note": "Equinor, Johan Sverdrup page, read 25 October 2026"
+      },
+      "low": 755000,
+      "high": 755000
+    },
+    {
+      "metric": "Hywind Tampen capacity",
+      "unit": "MW",
+      "basis": "11 turbines of 8.6 MW",
+      "source": {
+        "url": "https://www.equinor.com/energy/hywind-tampen",
+        "source_id": "equinor-tech",
+        "note": "Equinor, Hywind Tampen page, read 25 October 2026"
+      },
+      "low": 94.6,
+      "high": 94.6
+    }
+  ],
+  "advantages": [
+    "Large cut in operational emissions"
+  ],
+  "limitations": [
+    "Depends on a low-carbon grid"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/energy/johan-sverdrup",
+      "source_id": "equinor-tech",
+      "note": "Equinor, Johan Sverdrup page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.equinor.com/energy/hywind-tampen",
+      "source_id": "equinor-tech",
+      "note": "Equinor, Hywind Tampen page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "electrification capex per platform with year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Neither page gives costs.",
+      "where": [
+        {
+          "hint": "Norwegian Offshore Directorate reports",
+          "access": "open",
+          "source_id": "norway-sodir"
+        }
+      ],
+      "action": "Add a cost with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

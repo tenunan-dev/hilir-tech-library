@@ -1,0 +1,179 @@
+{
+  "id": "ups-oil-shale-retorting",
+  "name": "Oil shale retorting",
+  "aliases": [
+    "Oil shale retorting"
+  ],
+  "sector": "UPS",
+  "category": "Unconventional and other resources",
+  "applications": [
+    "Estonia, Brazil, China"
+  ],
+  "maturity": "demonstration",
+  "principle": "Oil shale is heated without oxygen to 450 to 500 °C so kerogen decomposes into oil, gas and residue. Only Kiviter, Galoter, Fushun and Petrosix remained in commercial use by 2006; Estonia produced 355,000 t of shale oil in 2008 and Brazil 200,000 t.",
+  "process_steps": [
+    {
+      "id": "MINE",
+      "name": "Mine and crush shale",
+      "equipment": [
+        "mining equipment"
+      ],
+      "to": [
+        "RET"
+      ]
+    },
+    {
+      "id": "RET",
+      "name": "Retort at 450 to 500 °C",
+      "equipment": [
+        "retort"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Condense oil; handle spent shale",
+      "equipment": [
+        "condenser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "retort",
+    "mining equipment",
+    "condensers",
+    "spent shale disposal"
+  ],
+  "suppliers": [
+    {
+      "name": "Enefit",
+      "product": "Galoter-based plants"
+    },
+    {
+      "name": "Petrobras",
+      "product": "Petrosix"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "retorting temperature",
+      "unit": "°C",
+      "basis": "typical retorting temperature range as stated in the source",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_shale",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Oil shale, read 25 October 2026 (secondary source)"
+      },
+      "low": 450,
+      "high": 500
+    },
+    {
+      "metric": "energy return (EROI)",
+      "unit": "ratio",
+      "basis": "1984 study across deposits; development projects claim 3 to 10",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_shale",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Oil shale, read 25 October 2026 (secondary source)"
+      },
+      "low": 0.7,
+      "high": 13.3
+    },
+    {
+      "metric": "production cost estimate",
+      "unit": "USD/bbl",
+      "basis": "RAND 2005 estimate for the US",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_shale",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Oil shale, read 25 October 2026 (secondary source)"
+      },
+      "low": 70,
+      "high": 95,
+      "year": 2005
+    }
+  ],
+  "advantages": [
+    "Large resource"
+  ],
+  "limitations": [
+    "Water use of 1 to 5 barrels per barrel of oil for above-ground retorting",
+    "Enefit is not covered by the page"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_shale",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Oil shale, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Enefit plant data",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the page.",
+      "where": [
+        {
+          "hint": "Enefit and VKG company pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add output and start-up year."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

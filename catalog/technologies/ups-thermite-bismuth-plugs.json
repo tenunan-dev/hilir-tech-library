@@ -1,0 +1,162 @@
+{
+  "id": "ups-thermite-bismuth-plugs",
+  "name": "Well plug and abandonment technologies (thermite, bismuth plugs)",
+  "aliases": [
+    "Well plug and abandonment technologies (thermite, bismuth plugs)"
+  ],
+  "sector": "UPS",
+  "category": "Drilling and completions",
+  "applications": [
+    "rigless P&A",
+    "gas migration repair",
+    "slot recovery"
+  ],
+  "maturity": "demonstration",
+  "principle": "Thermite heaters melt tubulars or a bismuth alloy so the metal re-solidifies as a gas-tight rock-to-rock barrier, run rigless on electric line. BiSN reports more than 500 deployments and 120 patents, including a 30-well Aker BP campaign; Interwell's RockSolid uses thermite for permanent abandonment, slot recovery and sustained-casing-pressure cures.",
+  "process_steps": [
+    {
+      "id": "RUN",
+      "name": "Run tool on electric line",
+      "equipment": [
+        "wireline unit",
+        "thermite heater"
+      ],
+      "to": [
+        "MELT"
+      ]
+    },
+    {
+      "id": "MELT",
+      "name": "Thermite reaction melts alloy or well elements",
+      "equipment": [
+        "bismuth alloy or thermite charge"
+      ],
+      "to": [
+        "SET"
+      ]
+    },
+    {
+      "id": "SET",
+      "name": "Alloy cools to a sealing plug; pressure test",
+      "equipment": [
+        "pressure test"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "thermite heater",
+    "bismuth alloy plug",
+    "wireline unit",
+    "pressure testing"
+  ],
+  "suppliers": [
+    {
+      "name": "BiSN",
+      "product": "wel-lok bismuth barriers"
+    },
+    {
+      "name": "Interwell",
+      "product": "RockSolid thermite P&A"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "BiSN deployments",
+      "unit": "(more than)",
+      "basis": "company statement",
+      "source": {
+        "url": "https://www.bisn.com/",
+        "note": "BiSN, bismuth alloy barrier technology page, read 25 October 2026"
+      },
+      "low": 500,
+      "high": 500
+    },
+    {
+      "metric": "casing and tubing sizes served",
+      "unit": "in OD",
+      "basis": "BiSN",
+      "source": {
+        "url": "https://www.bisn.com/",
+        "note": "BiSN, bismuth alloy barrier technology page, read 25 October 2026"
+      },
+      "low": 3.5,
+      "high": 30
+    }
+  ],
+  "advantages": [
+    "Rigless operation",
+    "Can plug without milling casing (BiSN rigless Gulf of Mexico case)"
+  ],
+  "limitations": [
+    "Neither page quantifies time or cost savings",
+    "The BiSN page does not describe how the alloy melts and re-solidifies"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bisn.com/",
+      "note": "BiSN, bismuth alloy barrier technology page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.interwell.com/",
+      "note": "Interwell, RockSolid thermite-based P&A and slot recovery page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "time and cost per well compared with rig-based cement P&A",
+      "reason_code": "not_in_sources_read",
+      "reason": "Neither company page gives numbers.",
+      "where": [
+        {
+          "hint": "Aker BP and NSTA P&A reports",
+          "access": "open",
+          "source_id": "uk-nsta"
+        }
+      ],
+      "action": "Add an operator-reported saving with basis."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

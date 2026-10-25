@@ -1,0 +1,198 @@
+{
+  "id": "ups-in-situ-combustion-solvent-sagd",
+  "name": "In-situ combustion and solvent-assisted SAGD",
+  "aliases": [
+    "In-situ combustion and solvent-assisted SAGD"
+  ],
+  "sector": "UPS",
+  "category": "Improved and enhanced oil recovery",
+  "applications": [
+    "heavy oil and bitumen"
+  ],
+  "maturity": "pilot",
+  "principle": "Air injection burns part of the oil in the reservoir to generate heat; THAI (toe-to-heel air injection) pairs a vertical air injector with a horizontal producer. Solvent-assisted variants (VAPEX, eMSAGP, LASER) add vaporised solvent or liquid to steam. Romania's Suplacu de Barcau field has run in-situ combustion since 1970 to 1971 with over 55% recovery.",
+  "process_steps": [
+    {
+      "id": "IGN",
+      "name": "Ignite oil layer with air injection",
+      "equipment": [
+        "air compressors",
+        "igniters"
+      ],
+      "to": [
+        "BURN"
+      ]
+    },
+    {
+      "id": "BURN",
+      "name": "Combustion front moves toe to heel",
+      "equipment": [
+        "vertical injector",
+        "horizontal producer"
+      ],
+      "to": [
+        "PROD"
+      ]
+    },
+    {
+      "id": "PROD",
+      "name": "Produce upgraded oil",
+      "equipment": [
+        "horizontal producer"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "air compressors",
+    "injection and horizontal production wells",
+    "gas handling"
+  ],
+  "suppliers": [
+    {
+      "name": "Petrobank (THAI developer)",
+      "product": "THAI pilots"
+    },
+    {
+      "name": "Operators",
+      "product": "SAGD solvent trials"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Suplacu de Barcau oil recovery factor",
+      "unit": "%",
+      "basis": "over 55% in abstract; 50.8% in the 2015 status table; field API gravity 16°",
+      "source": {
+        "url": "https://www.matec-conferences.org/articles/matecconf/pdf/2021/12/matecconf_mse21_09009.pdf",
+        "note": "MATEC Web of Conferences 2021, Half a century of continuous oil production by in-situ combustion in Romania: Suplacu de Barcau"
+      },
+      "low": 50.8,
+      "high": 55
+    },
+    {
+      "metric": "THAI partial upgrading, Whitesands and Kerrobert pilots",
+      "unit": "API points",
+      "basis": "Wolf Lake lab test 4 to 5 points",
+      "source": {
+        "url": "https://www.insitucombustion.ca/Advanced_THAI_Brochure.pdf",
+        "note": "In Situ Combustion Ltd, Toe-to-Heel Air Injection (THAI) brochure (field results to March 2022)"
+      },
+      "low": 3,
+      "high": 7
+    },
+    {
+      "metric": "Kerrobert per-well oil rate",
+      "unit": "m3/day",
+      "basis": "63 to 190 bbl/d; started 2009, 12 well pairs from 2011",
+      "source": {
+        "url": "https://www.insitucombustion.ca/Advanced_THAI_Brochure.pdf",
+        "note": "In Situ Combustion Ltd, Toe-to-Heel Air Injection (THAI) brochure (field results to March 2022)"
+      },
+      "low": 10,
+      "high": 30
+    }
+  ],
+  "advantages": [
+    "Does not need steam water",
+    "Partial in-situ upgrading"
+  ],
+  "limitations": [
+    "Kerrobert oil rate is below SAGD per well",
+    "The THAI brochure's API figures conflict internally"
+  ],
+  "sources": [
+    {
+      "url": "https://www.insitucombustion.ca/Advanced_THAI_Brochure.pdf",
+      "note": "In Situ Combustion Ltd, Toe-to-Heel Air Injection (THAI) brochure (field results to March 2022)"
+    },
+    {
+      "url": "https://www.matec-conferences.org/articles/matecconf/pdf/2021/12/matecconf_mse21_09009.pdf",
+      "note": "MATEC Web of Conferences 2021, Half a century of continuous oil production by in-situ combustion in Romania: Suplacu de Barcau"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Steam-assisted_gravity_drainage",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Steam-assisted gravity drainage, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "THAI commercial results and solvent-SAGD field recoveries",
+      "reason_code": "not_in_sources_read",
+      "reason": "The brochure reports no recovery factor.",
+      "where": [
+        {
+          "hint": "Petrobank and Archon papers",
+          "access": "open"
+        }
+      ],
+      "action": "Add recovery factor with source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

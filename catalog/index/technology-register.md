@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 240 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 266 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -25,7 +25,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Drilling and completions | Sand control (gravel pack, frac pack, screens) | commercial | Halliburton, Baker Hughes, SLB | [card](technologies-UPS.md#ups-sand-control) |
 | Drilling and completions | Coiled tubing and well intervention | commercial | NOV, Halliburton, Baker Hughes | [card](technologies-UPS.md#ups-coiled-tubing-intervention) |
 | Drilling and completions | Casing drilling and expandable tubulars | commercial | Weatherford, Enventure | [card](technologies-UPS.md#ups-casing-drilling-expandable-tubulars) |
-| Drilling and completions | Well plug and abandonment technologies (thermite, bismuth plugs) | demonstration | Interwell, BiSN |  |
+| Drilling and completions | Well plug and abandonment technologies (thermite, bismuth plugs) | demonstration | Interwell, BiSN | [card](technologies-UPS.md#ups-thermite-bismuth-plugs) |
 | Drilling and completions | Well plug and abandonment (cement plugs, rig-based) | commercial | Rig and cementing service contractors | [card](technologies-UPS.md#ups-well-plug-abandonment) |
 | Production and artificial lift | Electric submersible pumps | commercial | SLB, Baker Hughes, Borets, Novomet | [card](technologies-UPS.md#ups-electric-submersible-pumps) |
 | Production and artificial lift | Gas lift | commercial | SLB, Weatherford, Baker Hughes | [card](technologies-UPS.md#ups-gas-lift) |
@@ -34,36 +34,36 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Production and artificial lift | Downhole gas and water separation | demonstration | Operators and service companies | [card](technologies-UPS.md#ups-downhole-separation) |
 | Production and artificial lift | Multiphase flow metering | commercial | SLB Vx, Emerson Roxar, TechnipFMC | [card](technologies-UPS.md#ups-multiphase-flow-metering) |
 | Production and artificial lift | Production optimisation and digital oilfield | commercial | SLB, Halliburton, AspenTech, Cognite | [card](technologies-UPS.md#ups-production-optimisation-digital-oilfield) |
-| Improved and enhanced oil recovery | Waterflooding and low-salinity water injection | commercial | BP LoSal |  |
-| Improved and enhanced oil recovery | Gas injection and WAG (hydrocarbon, CO2, nitrogen) | commercial | Operators |  |
+| Improved and enhanced oil recovery | Waterflooding and low-salinity water injection | commercial | BP LoSal | [card](technologies-UPS.md#ups-waterflood-low-salinity) |
+| Improved and enhanced oil recovery | Gas injection and WAG (hydrocarbon, CO2, nitrogen) | commercial | Operators | [card](technologies-UPS.md#ups-gas-injection-wag) |
 | Improved and enhanced oil recovery | CO2-EOR | commercial | Occidental, Denbury (ExxonMobil) | [card](technologies-UPS.md#ups-co2-eor) |
 | Improved and enhanced oil recovery | Chemical EOR (polymer, surfactant, ASP) | commercial | SNF, Shell, PETRONAS | [card](technologies-UPS.md#ups-chemical-eor) |
-| Improved and enhanced oil recovery | Thermal EOR (steam flood, SAGD, CSS) | commercial | Suncor, Cenovus, Chevron |  |
-| Improved and enhanced oil recovery | In-situ combustion and solvent-assisted SAGD | pilot | Operators |  |
-| Improved and enhanced oil recovery | Microbial EOR | pilot | Research |  |
-| Improved and enhanced oil recovery | Nanofluid EOR | lab | Research |  |
-| Offshore and subsea | Fixed jackets and gravity-based structures | commercial | McDermott, Saipem, MMHE |  |
-| Offshore and subsea | FPSO and floating production (TLP, spar, semi-submersible) | commercial | SBM Offshore, MODEC, BW Offshore, MISC |  |
-| Offshore and subsea | Subsea production systems (trees, manifolds, umbilicals) | commercial | TechnipFMC, OneSubsea (SLB), Baker Hughes |  |
-| Offshore and subsea | Subsea boosting and multiphase pumps | commercial | OneSubsea, Sulzer, Baker Hughes |  |
-| Offshore and subsea | Subsea separation and water reinjection | demonstration | Equinor Tordis, Petrobras Marlim |  |
-| Offshore and subsea | Subsea gas compression | commercial | Equinor Asgard and Gullfaks |  |
-| Offshore and subsea | All-electric subsea systems | demonstration | TechnipFMC, OneSubsea |  |
-| Offshore and subsea | Long subsea tiebacks with direct electrical heating | commercial | Equinor, TechnipFMC |  |
-| Offshore and subsea | Offshore platform electrification (power from shore, offshore wind) | commercial | Equinor Hywind Tampen, Johan Sverdrup |  |
-| Offshore and subsea | Unmanned and normally unattended installations | commercial | Operators |  |
-| Unconventional and other resources | Shale oil and gas multi-stage horizontal development | commercial | Operators |  |
-| Unconventional and other resources | Coal bed methane | commercial | Operators |  |
-| Unconventional and other resources | Oil sands mining and froth treatment | commercial | Suncor, Syncrude |  |
-| Unconventional and other resources | Heavy oil upgrading (in-field) | demonstration | Operators |  |
-| Unconventional and other resources | Gas hydrate production | pilot | JOGMEC, CNPC trials |  |
-| Unconventional and other resources | Oil shale retorting | demonstration | Enefit, Petrobras |  |
-| Water and emissions in upstream | Produced water treatment (hydrocyclones, flotation, membranes) | commercial | Veolia, Siemens, Schlumberger |  |
+| Improved and enhanced oil recovery | Thermal EOR (steam flood, SAGD, CSS) | commercial | Suncor, Cenovus, Chevron | [card](technologies-UPS.md#ups-thermal-eor) |
+| Improved and enhanced oil recovery | In-situ combustion and solvent-assisted SAGD | pilot | Operators | [card](technologies-UPS.md#ups-in-situ-combustion-solvent-sagd) |
+| Improved and enhanced oil recovery | Microbial EOR | pilot | Research | [card](technologies-UPS.md#ups-microbial-eor) |
+| Improved and enhanced oil recovery | Nanofluid EOR | lab | Research | [card](technologies-UPS.md#ups-nanofluid-eor) |
+| Offshore and subsea | Fixed jackets and gravity-based structures | commercial | McDermott, Saipem, MMHE | [card](technologies-UPS.md#ups-fixed-jackets-gravity-structures) |
+| Offshore and subsea | FPSO and floating production (TLP, spar, semi-submersible) | commercial | SBM Offshore, MODEC, BW Offshore, MISC | [card](technologies-UPS.md#ups-fpso-floating-production) |
+| Offshore and subsea | Subsea production systems (trees, manifolds, umbilicals) | commercial | TechnipFMC, OneSubsea (SLB), Baker Hughes | [card](technologies-UPS.md#ups-subsea-production-systems) |
+| Offshore and subsea | Subsea boosting and multiphase pumps | commercial | OneSubsea, Sulzer, Baker Hughes | [card](technologies-UPS.md#ups-subsea-boosting) |
+| Offshore and subsea | Subsea separation and water reinjection | demonstration | Equinor Tordis, Petrobras Marlim | [card](technologies-UPS.md#ups-subsea-separation) |
+| Offshore and subsea | Subsea gas compression | commercial | Equinor Asgard and Gullfaks | [card](technologies-UPS.md#ups-subsea-gas-compression) |
+| Offshore and subsea | All-electric subsea systems | demonstration | TechnipFMC, OneSubsea | [card](technologies-UPS.md#ups-all-electric-subsea) |
+| Offshore and subsea | Long subsea tiebacks with direct electrical heating | commercial | Equinor, TechnipFMC | [card](technologies-UPS.md#ups-direct-electrical-heating-tiebacks) |
+| Offshore and subsea | Offshore platform electrification (power from shore, offshore wind) | commercial | Equinor Hywind Tampen, Johan Sverdrup | [card](technologies-UPS.md#ups-platform-electrification) |
+| Offshore and subsea | Unmanned and normally unattended installations | commercial | Operators | [card](technologies-UPS.md#ups-unmanned-installations) |
+| Unconventional and other resources | Shale oil and gas multi-stage horizontal development | commercial | Operators | [card](technologies-UPS.md#ups-shale-multistage-horizontal) |
+| Unconventional and other resources | Coal bed methane | commercial | Operators | [card](technologies-UPS.md#ups-coal-bed-methane) |
+| Unconventional and other resources | Oil sands mining and froth treatment | commercial | Suncor, Syncrude | [card](technologies-UPS.md#ups-oil-sands-mining) |
+| Unconventional and other resources | Heavy oil upgrading (in-field) | demonstration | Operators | [card](technologies-UPS.md#ups-heavy-oil-upgrading-in-field) |
+| Unconventional and other resources | Gas hydrate production | pilot | JOGMEC, CNPC trials | [card](technologies-UPS.md#ups-gas-hydrate-production) |
+| Unconventional and other resources | Oil shale retorting | demonstration | Enefit, Petrobras | [card](technologies-UPS.md#ups-oil-shale-retorting) |
+| Water and emissions in upstream | Produced water treatment (hydrocyclones, flotation, membranes) | commercial | Veolia, Siemens, Schlumberger | [card](technologies-UPS.md#ups-produced-water-treatment) |
 | Water and emissions in upstream | Methane leak detection (OGI cameras, satellites, continuous sensors) | commercial | FLIR, GHGSat, Kayrros, Project Canary | [card](technologies-UPS.md#ups-methane-leak-detection) |
 | Water and emissions in upstream | Zero routine flaring (flare gas recovery and small-scale GTL) | commercial | Zeeco, John Zink, GasTechno | [card](technologies-UPS.md#ups-flare-gas-recovery) |
 | Water and emissions in upstream | Vapour recovery units | commercial | Hy-Bon (Cimarron) | [card](technologies-UPS.md#ups-flare-gas-recovery) |
-| Water and emissions in upstream | Seawater sulfate removal for injection water | commercial | Veolia, Toray membranes |  |
-| Water and emissions in upstream | Electric instead of gas-pneumatic controllers | commercial | Various |  |
+| Water and emissions in upstream | Seawater sulfate removal for injection water | commercial | Veolia, Toray membranes | [card](technologies-UPS.md#ups-seawater-sulfate-removal) |
+| Water and emissions in upstream | Electric instead of gas-pneumatic controllers | commercial | Various | [card](technologies-UPS.md#ups-electric-pneumatic-controllers) |
 
 ## MID: Midstream
 

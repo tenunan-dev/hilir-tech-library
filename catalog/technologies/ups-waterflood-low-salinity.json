@@ -1,0 +1,191 @@
+{
+  "id": "ups-waterflood-low-salinity",
+  "name": "Waterflooding and low-salinity water injection",
+  "aliases": [
+    "Waterflooding and low-salinity water injection"
+  ],
+  "sector": "UPS",
+  "category": "Improved and enhanced oil recovery",
+  "applications": [
+    "secondary recovery",
+    "North Sea sandstone fields"
+  ],
+  "maturity": "commercial",
+  "principle": "Water is injected to hold pressure and sweep oil; without injection only about 30% of oil is typically recovered. Low-salinity injection swaps divalent cations bound to clay for sodium, freeing oil; BP estimated about 42 million barrels extra at Clair Ridge (640 million barrels recoverable in total).",
+  "process_steps": [
+    {
+      "id": "TREAT",
+      "name": "Filter and treat injection water (to about 2 micrometres)",
+      "equipment": [
+        "filters",
+        "deaerator",
+        "desalination for low salinity"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Inject at 3,000 psi or more",
+      "equipment": [
+        "injection pumps",
+        "injection wells"
+      ],
+      "to": [
+        "PROD"
+      ]
+    },
+    {
+      "id": "PROD",
+      "name": "Produce oil and recycle produced water",
+      "equipment": [
+        "separators"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "injection pumps",
+    "filtration",
+    "desalination (low-salinity)",
+    "injection wells",
+    "produced water system"
+  ],
+  "suppliers": [
+    {
+      "name": "BP",
+      "product": "LoSal",
+      "source_id": "bp-energy-outlook"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "oil recovery without injection",
+      "unit": "% (typical)",
+      "basis": "Wikipedia",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Waterflooding",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Waterflooding, read 25 October 2026 (secondary source)"
+      },
+      "low": 30,
+      "high": 30
+    },
+    {
+      "metric": "Clair Ridge LoSal incremental oil",
+      "unit": "million barrels",
+      "basis": "BP estimate versus seawater flooding; 640 million bbl total recoverable",
+      "source": {
+        "url": "https://www.offshore-technology.com/features/featurereduced-salinity-water-injection-losal-eor-clair-ridge/",
+        "source_id": "offshore-technology",
+        "note": "Offshore Technology, Liquid assets: BP deploys reduced salinity water injection (2012)"
+      },
+      "low": 42,
+      "high": 42
+    },
+    {
+      "metric": "Buzzard injection",
+      "unit": "bbl water/day (up to)",
+      "basis": "to up to 11 wells",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Waterflooding",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Waterflooding, read 25 October 2026 (secondary source)"
+      },
+      "low": 250000,
+      "high": 250000
+    }
+  ],
+  "costs": [
+    {
+      "metric": "desalination facilities for Clair Ridge",
+      "unit": "USD million (earmarked)",
+      "basis": "dollar year not stated; development cost GBP 4.5 billion",
+      "source": {
+        "url": "https://www.offshore-technology.com/features/featurereduced-salinity-water-injection-losal-eor-clair-ridge/",
+        "source_id": "offshore-technology",
+        "note": "Offshore Technology, Liquid assets: BP deploys reduced salinity water injection (2012)"
+      },
+      "low": 120,
+      "high": 120
+    }
+  ],
+  "advantages": [
+    "Low cost and mature",
+    "LoSal adds recovery with the same wells"
+  ],
+  "limitations": [
+    "Scaling and corrosion risk in injection lines",
+    "The Offshore Technology article (2012) gives no salinity ppm or percentage-point gain"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Waterflooding",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Waterflooding, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.offshore-technology.com/features/featurereduced-salinity-water-injection-losal-eor-clair-ridge/",
+      "source_id": "offshore-technology",
+      "note": "Offshore Technology, Liquid assets: BP deploys reduced salinity water injection (2012)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "Clair Ridge actual results and salinity of injected water",
+      "reason_code": "not_in_sources_read",
+      "reason": "The 2012 article is a forecast.",
+      "where": [
+        {
+          "hint": "BP technical papers on LoSal",
+          "access": "open",
+          "source_id": "onepetro"
+        }
+      ],
+      "action": "Add measured incremental recovery."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

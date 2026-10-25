@@ -76,6 +76,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Reinforced_thermoplastic_pipe",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Reinforced thermoplastic pipe (listed in search; not read in detail)"
     }
   ],

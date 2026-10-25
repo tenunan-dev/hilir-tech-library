@@ -76,6 +76,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Logging_while_drilling",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Logging while drilling, read 25 October 2026 (secondary source)"
     }
   ],

@@ -1,0 +1,191 @@
+{
+  "id": "ups-subsea-gas-compression",
+  "name": "Subsea gas compression",
+  "aliases": [
+    "Subsea gas compression"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "late-life gas fields"
+  ],
+  "maturity": "commercial",
+  "principle": "Compressors on the seabed boost gas to the platform, replacing topside compression. Equinor's Åsgard system, in about 300 m of water with a 40 km pipeline to Åsgard B, raised recovery on Midgard from 67% to 87% and on Mikkel from 59% to 84%, adding 306 million boe for just above NOK 19 billion.",
+  "process_steps": [
+    {
+      "id": "SEP",
+      "name": "Gas-liquid separation",
+      "equipment": [
+        "scrubber"
+      ],
+      "to": [
+        "COMP"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "Compress gas",
+      "equipment": [
+        "subsea compressor",
+        "motor"
+      ],
+      "to": [
+        "EXP"
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "Export gas by pipeline",
+      "equipment": [
+        "pipeline"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "subsea compressor trains",
+    "scrubbers",
+    "power and control umbilicals"
+  ],
+  "suppliers": [
+    {
+      "name": "Equinor",
+      "product": "Åsgard operator",
+      "source_id": "equinor-tech"
+    },
+    {
+      "name": "SLB OneSubsea",
+      "product": "compressors",
+      "source_id": "slb"
+    },
+    {
+      "name": "MAN Energy Solutions",
+      "product": "compressors",
+      "source_id": "man-energy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Midgard recovery",
+      "unit": "% (before to after)",
+      "basis": "Equinor, 17 September 2015",
+      "source": {
+        "url": "https://www.equinor.com/news/archive/2015/09/17/17SepAasgardsubsea",
+        "source_id": "equinor-tech",
+        "note": "Equinor, The first subsea gas compression plant in the world on line, 17 September 2015"
+      },
+      "low": 67,
+      "high": 87,
+      "year": 2015
+    },
+    {
+      "metric": "Mikkel recovery",
+      "unit": "% (before to after)",
+      "basis": "Mikkel field recovery factor before and after subsea compression, as stated in the Equinor news item",
+      "source": {
+        "url": "https://www.equinor.com/news/archive/2015/09/17/17SepAasgardsubsea",
+        "source_id": "equinor-tech",
+        "note": "Equinor, The first subsea gas compression plant in the world on line, 17 September 2015"
+      },
+      "low": 59,
+      "high": 84,
+      "year": 2015
+    },
+    {
+      "metric": "added reserves",
+      "unit": "million boe",
+      "basis": "overall",
+      "source": {
+        "url": "https://www.equinor.com/news/archive/2015/09/17/17SepAasgardsubsea",
+        "source_id": "equinor-tech",
+        "note": "Equinor, The first subsea gas compression plant in the world on line, 17 September 2015"
+      },
+      "low": 306,
+      "high": 306
+    }
+  ],
+  "costs": [
+    {
+      "metric": "project cost",
+      "unit": "NOK billion (just above)",
+      "basis": "dollar year not stated",
+      "source": {
+        "url": "https://www.equinor.com/news/archive/2015/09/17/17SepAasgardsubsea",
+        "source_id": "equinor-tech",
+        "note": "Equinor, The first subsea gas compression plant in the world on line, 17 September 2015"
+      },
+      "low": 19,
+      "high": 19
+    }
+  ],
+  "advantages": [
+    "Large recovery gains without a new platform"
+  ],
+  "limitations": [
+    "MW per compressor is not stated in the release"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/news/archive/2015/09/17/17SepAasgardsubsea",
+      "source_id": "equinor-tech",
+      "note": "Equinor, The first subsea gas compression plant in the world on line, 17 September 2015"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "compressor MW and availability since start-up",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the release.",
+      "where": [
+        {
+          "hint": "Equinor and OneSubsea case studies",
+          "access": "open",
+          "source_id": "slb"
+        }
+      ],
+      "action": "Add power and uptime figures."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

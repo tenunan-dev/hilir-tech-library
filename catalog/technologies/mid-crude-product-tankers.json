@@ -72,6 +72,7 @@
       "basis": "200,000 to 320,000 dwt class",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Oil tanker, read 25 October 2026 (secondary source)"
       },
       "low": 2,
@@ -83,6 +84,7 @@
       "basis": "infobox; date not stated",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Oil tanker, read 25 October 2026 (secondary source)"
       },
       "low": 4024,
@@ -99,6 +101,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Oil tanker, read 25 October 2026 (secondary source)"
     }
   ],

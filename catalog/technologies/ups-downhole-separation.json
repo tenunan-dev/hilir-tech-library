@@ -60,6 +60,7 @@
       "basis": "majority of properly operating DOWS in trials",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Downhole_oil%E2%80%93water_separation_technology",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Downhole oil-water separation technology, read 25 October 2026 (secondary source)"
       },
       "low": 75,
@@ -77,6 +78,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Downhole_oil%E2%80%93water_separation_technology",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Downhole oil-water separation technology, read 25 October 2026 (secondary source)"
     }
   ],

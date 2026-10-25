@@ -1,0 +1,158 @@
+{
+  "id": "ups-all-electric-subsea",
+  "name": "All-electric subsea systems",
+  "aliases": [
+    "All-electric subsea systems"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "long tiebacks",
+    "fields hosted on existing platforms"
+  ],
+  "maturity": "demonstration",
+  "principle": "Electric actuators replace hydraulic fluid and its lines, so trees need only power and signals. OneSubsea won a contract for Equinor's Fram Sør, 12 all-electric trees on four templates tied back to Troll C, which Equinor calls the first large-scale all-electric subsea production system.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Power and signals through electric umbilical",
+      "equipment": [
+        "electric umbilical"
+      ],
+      "to": [
+        "ACT"
+      ]
+    },
+    {
+      "id": "ACT",
+      "name": "Electric actuators operate valves",
+      "equipment": [
+        "all-electric tree"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "all-electric tree",
+    "electric actuators",
+    "electric umbilical",
+    "templates"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB OneSubsea",
+      "product": "all-electric subsea production system",
+      "source_id": "slb"
+    },
+    {
+      "name": "TechnipFMC",
+      "product": "all-electric trees",
+      "source_id": "technipfmc"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Fram Sør scope",
+      "unit": "all-electric trees",
+      "basis": "four templates, tieback to Troll C",
+      "source": {
+        "url": "https://www.oedigital.com/news/529280-equinor-picks-onesubsea-all-electric-subsea-production-system-for-north-sea-field",
+        "note": "Offshore Engineer, Equinor picks OneSubsea all-electric subsea production system for North Sea field"
+      },
+      "low": 12,
+      "high": 12
+    }
+  ],
+  "advantages": [
+    "No hydraulic fluid supply from the host"
+  ],
+  "limitations": [
+    "Water depth and start date not stated"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/529280-equinor-picks-onesubsea-all-electric-subsea-production-system-for-north-sea-field",
+      "note": "Offshore Engineer, Equinor picks OneSubsea all-electric subsea production system for North Sea field"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "status",
+      "item": "Fram Sør start-up and performance",
+      "reason_code": "status_unchecked",
+      "reason": "The contract depended on regulatory approval at the time of the article.",
+      "where": [
+        {
+          "hint": "Equinor Fram Sør project page",
+          "access": "open",
+          "source_id": "equinor-tech"
+        }
+      ],
+      "action": "Check start-up date."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

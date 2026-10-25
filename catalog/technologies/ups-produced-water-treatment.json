@@ -1,0 +1,174 @@
+{
+  "id": "ups-produced-water-treatment",
+  "name": "Produced water treatment (hydrocyclones, flotation, membranes)",
+  "aliases": [
+    "Produced water treatment (hydrocyclones, flotation, membranes)"
+  ],
+  "sector": "UPS",
+  "category": "Water and emissions in upstream",
+  "applications": [
+    "offshore discharge",
+    "reinjection and waterflood supply"
+  ],
+  "maturity": "commercial",
+  "principle": "Water produced with oil is treated by gravity separators, hydrocyclones, plate coalescers, dissolved gas flotation and nutshell filters before discharge or reinjection. Radioactive radium in some brines (above 3,500 pCi/L in one sample) adds disposal constraints; membranes are not covered by the page read.",
+  "process_steps": [
+    {
+      "id": "GRAV",
+      "name": "Gravity separation and coalescing",
+      "equipment": [
+        "separator",
+        "plate coalescer"
+      ],
+      "to": [
+        "HYC"
+      ]
+    },
+    {
+      "id": "HYC",
+      "name": "Hydrocyclones and flotation",
+      "equipment": [
+        "hydrocyclones",
+        "flotation unit"
+      ],
+      "to": [
+        "POL"
+      ]
+    },
+    {
+      "id": "POL",
+      "name": "Polishing filters, then discharge or reinjection",
+      "equipment": [
+        "nutshell filters"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "hydrocyclones",
+    "flotation unit",
+    "filters",
+    "reinjection pumps"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "produced water treatment"
+    },
+    {
+      "name": "Siemens",
+      "product": "water treatment"
+    },
+    {
+      "name": "SLB",
+      "product": "produced water systems",
+      "source_id": "slb"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "radium in an Ohio brine sample",
+      "unit": "pCi/L (above)",
+      "basis": "NRC discharge limit below 60 pCi/L for Ra-226 and Ra-228",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Produced_water",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Produced water, read 25 October 2026 (secondary source)"
+      },
+      "low": 3500,
+      "high": 3500
+    }
+  ],
+  "advantages": [
+    "Mature"
+  ],
+  "limitations": [
+    "The page gives no discharge limits in mg/L or membrane performance"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Produced_water",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Produced water, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "oil-in-water discharge limits and treatment efficiency",
+      "reason_code": "not_in_sources_read",
+      "reason": "Wikipedia gives no values.",
+      "where": [
+        {
+          "hint": "OSPAR and regional discharge rules",
+          "access": "open"
+        }
+      ],
+      "action": "Add the 30 mg/L-type limit with source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

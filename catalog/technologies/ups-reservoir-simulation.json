@@ -75,6 +75,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Reservoir_simulation",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Reservoir simulation, read 25 October 2026 (secondary source)"
     }
   ],

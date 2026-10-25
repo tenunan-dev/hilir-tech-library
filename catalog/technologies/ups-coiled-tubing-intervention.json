@@ -73,6 +73,7 @@
       "basis": "25 to 83 mm",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Coiled tubing, read 25 October 2026 (secondary source)"
       },
       "low": 1,
@@ -84,6 +85,7 @@
       "basis": "coil grades",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+        "source_id": "wikipedia",
         "note": "Wikipedia, Coiled tubing, read 25 October 2026 (secondary source)"
       },
       "low": 55000,
@@ -101,6 +103,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Coiled tubing, read 25 October 2026 (secondary source)"
     }
   ],

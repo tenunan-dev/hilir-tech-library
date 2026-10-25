@@ -1,0 +1,184 @@
+{
+  "id": "ups-subsea-boosting",
+  "name": "Subsea boosting and multiphase pumps",
+  "aliases": [
+    "Subsea boosting and multiphase pumps"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "mature deepwater fields",
+    "long tiebacks"
+  ],
+  "maturity": "commercial",
+  "principle": "Pumps on the seabed add pressure to the multiphase stream to raise flow and recovery. Pazflor (800 m, 2011) uses six pumps plus two spares at 13.8 MW with up to 105 bar differential; Draugen (1994) was the first, at 1 MW and 53 bar.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Wellstream enters pump station",
+      "equipment": [
+        "subsea manifold"
+      ],
+      "to": [
+        "PUMP"
+      ]
+    },
+    {
+      "id": "PUMP",
+      "name": "Helico-axial or twin-screw pump adds pressure",
+      "equipment": [
+        "multiphase pump",
+        "motor"
+      ],
+      "to": [
+        "OUT"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Boosted flow to host",
+      "equipment": [
+        "flowline"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "multiphase pumps",
+    "electric motors",
+    "power and control umbilicals",
+    "subsea controls"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB OneSubsea (Framo)",
+      "product": "helico-axial pumps",
+      "source_id": "slb"
+    },
+    {
+      "name": "Sulzer",
+      "product": "subsea pumps",
+      "source_id": "sulzer"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "subsea pumps",
+      "source_id": "baker-hughes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Pazflor boost differential pressure",
+      "unit": "bar (max)",
+      "basis": "13.8 MW, 800 m, 2011",
+      "source": {
+        "url": "https://www.oedigital.com/news/458098-deepwater-production-gets-high-pressure-boost",
+        "note": "Offshore Engineer, Deepwater production gets high-pressure boost, July 2013"
+      },
+      "low": 105,
+      "high": 105
+    },
+    {
+      "metric": "Barracuda pump output gain",
+      "unit": "% over natural flow",
+      "basis": "1,000 m3/d, 60 bar operating",
+      "source": {
+        "url": "https://www.oedigital.com/news/458098-deepwater-production-gets-high-pressure-boost",
+        "note": "Offshore Engineer, Deepwater production gets high-pressure boost, July 2013"
+      },
+      "low": 40,
+      "high": 40
+    },
+    {
+      "metric": "Draugen first subsea multiphase pump gain",
+      "unit": "b/d",
+      "basis": "1 MW, 53 bar, 6 km tieback, 1994",
+      "source": {
+        "url": "https://www.oedigital.com/news/458098-deepwater-production-gets-high-pressure-boost",
+        "note": "Offshore Engineer, Deepwater production gets high-pressure boost, July 2013"
+      },
+      "low": 5000,
+      "high": 5000,
+      "year": 1994
+    }
+  ],
+  "advantages": [
+    "Raises rate and recovery"
+  ],
+  "limitations": [
+    "Figures are from 2013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/458098-deepwater-production-gets-high-pressure-boost",
+      "note": "Offshore Engineer, Deepwater production gets high-pressure boost, July 2013"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "units installed since 2013",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article is from 2013.",
+      "where": [
+        {
+          "hint": "SLB OneSubsea resources",
+          "access": "open",
+          "source_id": "slb"
+        }
+      ],
+      "action": "Add current installed base."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

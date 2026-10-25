@@ -66,6 +66,7 @@
   "sources": [
     {
       "url": "https://en.wikipedia.org/wiki/Floating_roof",
+      "source_id": "wikipedia",
       "note": "Wikipedia, Floating roof, read 25 October 2026 (secondary source)"
     }
   ],

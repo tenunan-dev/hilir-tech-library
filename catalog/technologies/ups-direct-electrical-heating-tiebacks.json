@@ -1,0 +1,184 @@
+{
+  "id": "ups-direct-electrical-heating-tiebacks",
+  "name": "Long subsea tiebacks with direct electrical heating",
+  "aliases": [
+    "Long subsea tiebacks with direct electrical heating"
+  ],
+  "sector": "UPS",
+  "category": "Offshore and subsea",
+  "applications": [
+    "long hydrate-prone tiebacks in the North Sea"
+  ],
+  "maturity": "commercial",
+  "principle": "Alternating current is passed through the pipeline wall to keep fluids above hydrate temperature or to re-heat them after a shutdown. Tyrihans is the longest DEH line described, 43 km, 18 inch, about 10 MW, with Huldra (16 km) before it.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Supply AC via piggyback cable",
+      "equipment": [
+        "power cable",
+        "terminations"
+      ],
+      "to": [
+        "HEAT"
+      ]
+    },
+    {
+      "id": "HEAT",
+      "name": "Current heats the steel wall",
+      "equipment": [
+        "pipeline"
+      ],
+      "to": [
+        "MON"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Monitor temperature",
+      "equipment": [
+        "temperature sensors"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "power cable",
+    "pipeline terminations and anodes",
+    "topside power unit"
+  ],
+  "suppliers": [
+    {
+      "name": "Nexans",
+      "product": "DEH cables"
+    },
+    {
+      "name": "Equinor",
+      "product": "DEH operator",
+      "source_id": "equinor-tech"
+    },
+    {
+      "name": "TechnipFMC",
+      "product": "DEH pipe",
+      "source_id": "technipfmc"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Tyrihans DEH tieback length",
+      "unit": "km (18 in)",
+      "basis": "about 10 MW",
+      "source": {
+        "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines"
+      },
+      "low": 43,
+      "high": 43
+    },
+    {
+      "metric": "Ormen Lange DEH retrofit power",
+      "unit": "MW (2.6 kA, 52 kV)",
+      "basis": "20 km section, 30 in",
+      "source": {
+        "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines"
+      },
+      "low": 6.4,
+      "high": 6.4
+    }
+  ],
+  "advantages": [
+    "Keeps fluids warm during shutdown"
+  ],
+  "limitations": [
+    "Article is older; qualification for over 100 km and 2,000 m was an expectation then"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "current longest DEH tieback",
+      "reason_code": "not_in_sources_read",
+      "reason": "Article predates recent projects.",
+      "where": [
+        {
+          "hint": "Equinor and Nexans DEH references",
+          "access": "open"
+        }
+      ],
+      "action": "Add the current record."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
