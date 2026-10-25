@@ -31,6 +31,7 @@ The hosted server runs on Cloudflare Containers, in the Cloudflare account that 
 - The container stops after 30 idle minutes (`sleepAfter`) and restarts on the next request, so the first call after a quiet spell takes a few seconds longer.
 - The API key is the Worker secret `LIBRARY_API_KEY`. The owner's copy is in `~/.config/og-tech-library/api-key` on their Mac (mode 600). It is never in the repo.
 - The image is built from the repo at deploy time: **redeploy after collecting new documents** so the hosted copy matches.
+- After a deploy, the running instance keeps serving the **old** image until Cloudflare cycles it (`npx wrangler containers list` shows `provisioning` with 0 live instances during the swap). Verify the new build only after the swap: `curl -H "x-api-key: $KEY" https://techlibrary.tenunan.com/api/stats` should show the current source and card counts.
 - Keyword search only (no embeddings in the image).
 
 ```
