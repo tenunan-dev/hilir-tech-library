@@ -56,4 +56,4 @@ Claude Code: `claude mcp add og-tech-sources -- /path/to/.venv/bin/python /path/
 
 The server builds the index on first start if `build/library.db` is missing. For cloud agents
 (Copilot Studio and others) the same tools are also served over HTTPS, with a REST API and OAuth
-sign-in alongside; see [docs/HOSTING.md](../docs/HOSTING.md) (live: `https://techlibrary.tenunan.com/mcp`).
+sign-in alongside; see [docs/HOSTING.md](../docs/HOSTING.md) (live: `https://techlib.hilir.app/mcp`).

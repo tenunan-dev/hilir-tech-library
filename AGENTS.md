@@ -11,7 +11,7 @@ agents to find, cite and (where licences allow) read. It has five layers:
 1. **Catalog**: one JSON record per source in `catalog/sources/`, validated against `schema/source.schema.json`.
 2. **Corpus**: collected documents in `corpus/<source-id>/`, each tagged with its licence and carrying a hand-written `summary`.
 3. **Technology cards**: one JSON card per technology in `catalog/technologies/` (schema `schema/technology.schema.json`), linked to the register `catalog/technology-register.yaml`. Every card has sources; every figure has a URL, a basis and (for costs) a dollar year; anything not found is a recorded gap.
-4. **Agent access**: a search index, an MCP server, and a REST API in `agent/`, hosted at https://techlibrary.tenunan.com (see docs/HOSTING.md).
+4. **Agent access**: a search index, an MCP server, and a REST API in `agent/`, hosted at https://techlib.hilir.app (see docs/HOSTING.md).
 5. **Postgres layer**: schema `og` with pgvector, full-text search and a knowledge graph (`db/schema.sql`, `agent/graph.py`, `tools/load_postgres.py`), meant for Neon. See docs/POSTGRES.md.
 
 ## Read next

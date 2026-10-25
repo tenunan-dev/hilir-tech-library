@@ -21,17 +21,17 @@ LIBRARY_API_KEY="$(python -c 'import secrets; print(secrets.token_urlsafe(32))')
 # endpoint: http://localhost:8000/mcp
 ```
 
-## Live deployment: Cloudflare (techlibrary.tenunan.com)
+## Live deployment: Cloudflare (techlib.hilir.app)
 
-The hosted server runs on Cloudflare Containers, in the Cloudflare account that holds tenunan.com
-(Faisal.muthalib@gmail.com's account, Workers Paid plan). Endpoint: `https://techlibrary.tenunan.com/mcp`.
+The hosted server runs on Cloudflare Containers, in the Cloudflare account that holds hilir.app and tenunan.com
+(Faisal.muthalib@gmail.com's account, Workers Paid plan). Endpoint: `https://techlib.hilir.app/mcp`.
 
 - `deploy/cloudflare/src/index.ts`: a Worker that checks the API key at the edge, then forwards to one container instance (Durable Object "main"). `/health` answers without a key.
 - `deploy/cloudflare/wrangler.jsonc`: builds the repo's `Dockerfile` (open-licence copy only), instance type `basic`, `max_instances` 1, custom domain route.
 - The container stops after 30 idle minutes (`sleepAfter`) and restarts on the next request, so the first call after a quiet spell takes a few seconds longer.
 - The API key is the Worker secret `LIBRARY_API_KEY`. The owner's copy is in `~/.config/og-tech-library/api-key` on their Mac (mode 600). It is never in the repo.
 - The image is built from the repo at deploy time: **redeploy after collecting new documents** so the hosted copy matches.
-- After a deploy, the running instance keeps serving the **old** image until Cloudflare cycles it (`npx wrangler containers list` shows `provisioning` with 0 live instances during the swap). Verify the new build only after the swap: `curl -H "x-api-key: $KEY" https://techlibrary.tenunan.com/api/stats` should show the current source and card counts.
+- After a deploy, the running instance keeps serving the **old** image until Cloudflare cycles it (`npx wrangler containers list` shows `provisioning` with 0 live instances during the swap). Verify the new build only after the swap: `curl -H "x-api-key: $KEY" https://techlib.hilir.app/api/stats` should show the current source and card counts.
 - Keyword search only (no embeddings in the image).
 
 ```
@@ -44,14 +44,18 @@ tr -d '\n' < ~/.config/og-tech-library/api-key | npx wrangler secret put LIBRARY
 npx wrangler tail                # live logs
 ```
 
-Connect a client: URL `https://techlibrary.tenunan.com/mcp`, header `x-api-key: <key>`. For example, Claude Code:
-`claude mcp add --transport http og-tech-library-remote https://techlibrary.tenunan.com/mcp --header "x-api-key: <key>"`.
+### Domain transition (2026-10-26)
+
+The server's home is now https://techlib.hilir.app/mcp; the previous techlibrary.tenunan.com custom domain stays attached during the transition (both routes in wrangler.jsonc). OAuth grants issued for the old URL do not carry over - re-add claude.ai connectors and re-authenticate OAuth clients against the new URL. API-key clients (Copilot Studio, ChatGPT Actions, curl) only need the new base URL. To retire the old domain later: remove its route from wrangler.jsonc, redeploy, and add a redirect rule on the tenunan.com zone pointing to the new host.
+
+Connect a client: URL `https://techlib.hilir.app/mcp`, header `x-api-key: <key>`. For example, Claude Code:
+`claude mcp add --transport http og-tech-library-remote https://techlib.hilir.app/mcp --header "x-api-key: <key>"`.
 
 ### REST API (for agents without MCP)
 
 The same server answers plain HTTPS GET requests under `/api`, with the same `x-api-key` header and
 the same licence filtering as the MCP tools (`agent/api.py`). The OpenAPI 3.1 schema is public at
-`https://techlibrary.tenunan.com/api/openapi.json` (it holds no data), so tools can import it.
+`https://techlib.hilir.app/api/openapi.json` (it holds no data), so tools can import it.
 
 | Endpoint | Returns |
 | --- | --- |
@@ -66,8 +70,8 @@ the same licence filtering as the MCP tools (`agent/api.py`). The OpenAPI 3.1 sc
 | `GET /api/stats` | Counts |
 
 Examples:
-- curl: `curl -H "x-api-key: $KEY" "https://techlibrary.tenunan.com/api/search?q=LNG%20liquefaction&limit=5"`
-- ChatGPT custom GPT: Configure > Actions > Import from URL `https://techlibrary.tenunan.com/api/openapi.json`; Authentication: API key, Custom header `x-api-key`.
+- curl: `curl -H "x-api-key: $KEY" "https://techlib.hilir.app/api/search?q=LNG%20liquefaction&limit=5"`
+- ChatGPT custom GPT: Configure > Actions > Import from URL `https://techlib.hilir.app/api/openapi.json`; Authentication: API key, Custom header `x-api-key`.
 - LangChain, n8n, Make, Zapier or any HTTP tool: GET requests with the `x-api-key` header.
 
 ### OAuth sign-in for claude.ai and other URL-only clients
@@ -79,7 +83,7 @@ themselves (`/register`, or a Client ID Metadata Document). The sign-in page at 
 **library API key**, so only someone holding the key (the owner) can grant access; a wrong key denies the
 request. Scope `mcp:read` (read only). The REST API under `/api` stays key-only.
 
-Add to claude.ai: Settings > Connectors > Add custom connector, URL `https://techlibrary.tenunan.com/mcp`,
+Add to claude.ai: Settings > Connectors > Add custom connector, URL `https://techlib.hilir.app/mcp`,
 leave the OAuth client fields empty, Connect, then paste the key from `~/.config/og-tech-library/api-key`
 on the sign-in page and Allow. The connection then works in claude.ai on web and in the mobile apps.
 
@@ -106,13 +110,13 @@ Any other container host (Azure App Service, Google Cloud Run, Fly.io, a VM) wor
 
 1. Open the agent in Copilot Studio, go to **Tools**, then **Add a tool > New tool > Model Context Protocol**.
 2. Server name: `O&G technology library`. Server description (the orchestrator uses it to decide when to call the server): *Searches a curated library of oil, gas, petrochemical, hydrogen, CCUS and power technology sources, weighted to Asia Pacific and Southeast Asia. Returns sources and passages with url, licence and reuse level.*
-3. Server URL: `https://techlibrary.tenunan.com/mcp` (the live deployment above).
+3. Server URL: `https://techlib.hilir.app/mcp` (the live deployment above).
 4. Authentication: **API key**, type **Header**, header name `x-api-key`. Enter the key when creating the connection.
 5. Add the server's tools (`search`, `get_source`, `get_document`, `list_by_tag`, `get_technology`, `compare_technologies`, `list_technology_register`, `list_gaps`, `library_stats`) to the agent and test in the test pane, e.g. *"Which Southeast Asian sources cover LNG liquefaction?"* or *"Compare post-combustion capture technologies with their costs."*
 
 Notes:
 - Copilot Studio supports only the streamable HTTP transport (SSE ended in August 2025), which this server uses. Reference: https://learn.microsoft.com/microsoft-copilot-studio/mcp-add-existing-server-to-agent
-- If tenant data policies block MCP connectors, import the REST schema instead: create a custom tool from the public `https://techlibrary.tenunan.com/api/openapi.json` with the same `x-api-key` header authentication.
+- If tenant data policies block MCP connectors, import the REST schema instead: create a custom tool from the public `https://techlib.hilir.app/api/openapi.json` with the same `x-api-key` header authentication.
 - If your tenant has Power Platform data policies, they apply to MCP connectors too; an admin may need to allow the connector.
 - For an agent shared across an organisation, consider replacing the API key with OAuth 2.0 (Microsoft Entra ID) so each user signs in; Copilot Studio supports OAuth for MCP servers. That needs an app registration and token validation added to the server.
 

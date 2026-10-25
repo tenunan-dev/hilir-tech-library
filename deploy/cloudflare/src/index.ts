@@ -9,7 +9,7 @@
 import { Container, getContainer } from "@cloudflare/containers";
 import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@cloudflare/workers-oauth-provider";
 
-const ORIGIN = "https://techlibrary.tenunan.com";
+const ORIGIN = "https://techlib.hilir.app";
 
 interface Env {
   LIBRARY: DurableObjectNamespace<Library>;

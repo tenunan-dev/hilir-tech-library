@@ -1,5 +1,5 @@
 {
-  // Hosted MCP server for the O&G technology library: https://techlibrary.tenunan.com/mcp
+  // Hosted MCP server for the O&G technology library: https://techlib.hilir.app/mcp
   // Deploy from this folder: npx wrangler deploy   (needs Docker running; builds ../../Dockerfile)
   "name": "og-tech-library",
   "main": "src/index.ts",
@@ -20,5 +20,8 @@
     "bindings": [{ "name": "LIBRARY", "class_name": "Library" }]
   },
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Library"] }],
-  "routes": [{ "pattern": "techlibrary.tenunan.com", "custom_domain": true }]
+  "routes": [
+    { "pattern": "techlib.hilir.app", "custom_domain": true },
+    { "pattern": "techlibrary.tenunan.com", "custom_domain": true }
+  ]
 }
