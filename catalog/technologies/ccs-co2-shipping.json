@@ -76,6 +76,20 @@
       "source_id": "equinor-tech"
     }
   ],
+  "costs": [
+    {
+      "metric": "CO2 shipping cost per tonne",
+      "low": 9,
+      "high": 50,
+      "unit": "USD/t CO2",
+      "basis": "Global CCS Institute 2025 brief: USD 9/t at 1 Mtpa over 600 km to USD 50/t at 5 Mtpa over 1,200 km; dollar year not stated; shipping dominated by opex unlike pipeline capex",
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2025/11/Global-CCS-Institute-Needs-Opportunities-and-Prospects-for-CO2-Shipping-in-CCS-Projects.pdf",
+        "source_id": "global-ccs-institute",
+        "note": "Global CCS Institute, Needs, Opportunities and Prospects for CO2 Shipping in CCS Projects, November 2025; full text in corpus/global-ccs-institute/"
+      }
+    }
+  ],
   "performance": [
     {
       "metric": "Northern Lights phase 1 capacity",
@@ -141,20 +155,6 @@
   ],
   "last_reviewed": "2026-10-25",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "transport cost per tonne by distance",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not in the Equinor release.",
-      "where": [
-        {
-          "hint": "Global CCS Institute and IEAGHG cost reports",
-          "access": "open",
-          "source_id": "iea-ghg"
-        }
-      ],
-      "action": "Add costs."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",

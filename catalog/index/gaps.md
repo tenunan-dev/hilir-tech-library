@@ -3,11 +3,11 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-1098 missing inputs on 291 cards; 0 register technologies have no card yet.
+1097 missing inputs on 291 cards; 0 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 835 |
+| not_in_sources_read | 834 |
 | general_knowledge_only | 225 |
 | source_unreachable | 15 |
 | paid_source | 12 |
@@ -46,7 +46,6 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [CO2 electroreduction to CO, formic acid and ethylene](technologies-CCS.md#ccs-co2-electroreduction) | capital cost and operating or unit cost, with dollar year and basis (costs) | No open source read so far gives costs for this technology. | arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open)<br>Licensor and EPC studies; paid cost databases are catalog-only (paid)<br>OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked) | Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source. |
 | [CO2 electroreduction to CO, formic acid and ethylene](technologies-CCS.md#ccs-co2-electroreduction) | named plants or projects with capacity and year (reference_plants) | The sources read name no specific plant. | Licensor and operator press releases for the suppliers listed (open) | Add one or two plants with country, capacity and start-up year. |
 | [CO2 electroreduction to CO, formic acid and ethylene](technologies-CCS.md#ccs-co2-electroreduction) | process steps and equipment are general engineering practice, not taken from one source (process) | The sources read describe the principle but not a full step-by-step flow. | Licensor process descriptions and textbooks (open) | Check the steps against a licensor description and name it. |
-| [CO2 shipping and terminals](technologies-CCS.md#ccs-co2-shipping) | transport cost per tonne by distance (costs) | Not in the Equinor release. | Global CCS Institute and IEAGHG cost reports (catalog: iea-ghg, open) | Add costs. |
 | [CO2 shipping and terminals](technologies-CCS.md#ccs-co2-shipping) | process steps and equipment are general engineering practice, not taken from one source (process) | The sources read describe the principle but not a full step-by-step flow. | Licensor process descriptions and textbooks (open) | Check the steps against a licensor description and name it. |
 | [CO2 to methanol and fuels](technologies-CCS.md#ccs-co2-to-methanol-fuels) | production cost (costs) | Not on the page. | IRENA innovation outlook: renewable methanol (catalog: irena, open) | Add costs. |
 | [CO2 to methanol and fuels](technologies-CCS.md#ccs-co2-to-methanol-fuels) | process steps and equipment are general engineering practice, not taken from one source (process) | The sources read describe the principle but not a full step-by-step flow. | Licensor process descriptions and textbooks (open) | Check the steps against a licensor description and name it. |

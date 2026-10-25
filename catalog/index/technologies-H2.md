@@ -340,6 +340,7 @@ flowchart LR
 - carrier cargo tank volume (Suiso Frontier): 1250 m3; Kawasaki Heavy Industries, 116 m ship, completed 2020. [source](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/)
 - liquefaction energy, current industrial liquefiers: 10-20 kWh/kg H2; DOE record 19001; theoretical minimum 2.88 kWh/kg (20 bar inlet). [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
 - largest US liquefier capacity: 70 t H2/day; DOE record 19001; smallest about 6 t/day. [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
+- US installed liquefaction capacity: 304-794 t H2/day; DOE record 24003, May 2024; low = operating (14 plants of 5-32 t/day), high = existing plus announced. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24003-hydrogen-liquefaction-capacity-united-states.pdf)
 
 **Costs:**
 - levelized liquefaction cost, 27 t/day liquefier: 2.75 USD/kg H2 (2016$); DOE HDSAM model incl. electricity; capital share about USD 1.40/kg; the record also quotes USD 2.75/kg for a 2018$ California case, so the dollar year is uncertain. [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)

@@ -18,7 +18,7 @@
 | [Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)](#ccs-allam-cycle) | Oxyfuel / power cycle | demonstration | 2-5 | NET Power (cycle developer), Toshiba (combustor and turbine) |  |
 | [Bioenergy with CCS (BECCS)](#ccs-beccs) | Carbon removal / bioenergy | demonstration | 3-7 | Stockholm Exergi (BECCS Stockholm); Drax (BECCS (register examples)); ADM (Decatur (register examples)) |  |
 | [CO2 mineralisation (in-situ basalt)](#ccs-in-situ-mineralisation) | Transport and storage / mineral storage | demonstration | 9 | Carbfix (in-situ mineralisation, Hellisheidi and Coda Terminal) |  |
-| [CO2 shipping and terminals](#ccs-co2-shipping) | Transport and storage / shipping | demonstration | 8 | Northern Lights (Equinor, Shell, TotalEnergies) (CO2 transport and storage) |  |
+| [CO2 shipping and terminals](#ccs-co2-shipping) | Transport and storage / shipping | demonstration | 8 | Northern Lights (Equinor, Shell, TotalEnergies) (CO2 transport and storage) | CO2 shipping cost per tonne: 9-50 USD/t CO2 |
 | [CO2 to methanol and fuels](#ccs-co2-to-methanol-fuels) | Utilisation / fuels | demonstration | 8 | Carbon Recycling International (George Olah plant) |  |
 | [Direct air capture with liquid solvent (KOH and calcium loop)](#ccs-dac-liquid-solvent) | Direct air capture / liquid solvent | demonstration | 5 | Carbon Engineering / 1PointFive (Occidental) | levelised cost of CO2 captured: 94-232 USD/t CO2 (2016$) |
 | [Direct air capture with solid sorbent](#ccs-dac-solid-sorbent) | Direct air capture / solid sorbent | demonstration | 5 | Climeworks |  |
@@ -507,13 +507,15 @@ flowchart LR
 - Northern Lights phase 1 capacity: 1.5 Mtpa CO2; fully booked; phase 2 at least 5 Mtpa. [source](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights)
 - storage depth: 2600 m below seabed; Aurora reservoir. [source](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights)
 
+**Costs:**
+- CO2 shipping cost per tonne: 9-50 USD/t CO2; Global CCS Institute 2025 brief: USD 9/t at 1 Mtpa over 600 km to USD 50/t at 5 Mtpa over 1,200 km; dollar year not stated; shipping dominated by opex unlike pipeline capex. [source](https://www.globalccsinstitute.com/wp-content/uploads/2025/11/Global-CCS-Institute-Needs-Opportunities-and-Prospects-for-CO2-Shipping-in-CCS-Projects.pdf)
+
 **Reference plants:**
 - Northern Lights, Øygarden terminal and Aurora storage, NO: 1.5 Mtpa phase 1; first CO2 injected, reported 25 August 2025. [source](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 shipping' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- transport cost per tonne by distance (costs): Not in the Equinor release. Where: Global CCS Institute and IEAGHG cost reports (catalog: iea-ghg, open). Next: Add costs.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights). Last reviewed 2026-10-25.

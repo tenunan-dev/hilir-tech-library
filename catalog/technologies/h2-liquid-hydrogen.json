@@ -120,6 +120,19 @@
         "source_id": "doe-hfto",
         "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs, 9 September 2019"
       }
+    },
+    {
+      "metric": "US installed liquefaction capacity",
+      "low": 304,
+      "high": 794,
+      "unit": "t H2/day",
+      "year": 2024,
+      "basis": "DOE record 24003, May 2024; low = operating (14 plants of 5-32 t/day), high = existing plus announced",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24003-hydrogen-liquefaction-capacity-united-states.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Program Record 24003, Hydrogen Liquefaction Capacity in the United States, 2024; full text in corpus/doe-hfto/"
+      }
     }
   ],
   "suppliers": [
