@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Lithofacies Versus Well Identity as Controls on Fracture Porosity in Malay Basin Carbonates A Two Scale Statis"
+summary: "Statistical study across 537 samples from 13 Malay Basin wells showing whether lithofacies or well identity better explains fracture porosity in carbonates."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2131"
 retrieved_at: "2026-10-24T14:30:34+00:00"
 licence: "CC-BY-SA-4.0"

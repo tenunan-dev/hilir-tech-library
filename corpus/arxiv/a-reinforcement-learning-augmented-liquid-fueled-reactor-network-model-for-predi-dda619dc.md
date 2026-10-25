@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "A Reinforcement-Learning-Augmented Liquid-Fueled Reactor Network Model for Predicting Lean Blowout in Gas Turbine Combustors"
+summary: "Research paper using reinforcement learning to build the reactor clusters of a liquid-fuelled gas turbine combustor model, aimed at better prediction of lean blowout."
 url: "http://arxiv.org/abs/2607.19281v1"
 published: "2026-07-21T16:53:08Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

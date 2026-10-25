@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Optimization of Chemicaly Activated Candlenut and Walnut Shell Biosorbents for Produced Water Purification Wit"
+summary: "Laboratory study optimising KOH-activated candlenut and walnut shell biosorbents to purify produced water, with an IoT system for real-time water quality monitoring."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/1972"
 retrieved_at: "2026-10-24T14:30:39+00:00"
 licence: "CC-BY-SA-4.0"

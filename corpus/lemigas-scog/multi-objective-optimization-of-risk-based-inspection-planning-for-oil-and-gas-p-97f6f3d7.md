@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Multi objective Optimization of Risk Based Inspection Planning for Oil and Gas Piping Systems Using NSGA II Al"
+summary: "Optimisation study using the NSGA-II genetic algorithm to set inspection intervals for oil and gas piping, trading probability of failure against inspection cost."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2084"
 retrieved_at: "2026-10-24T14:30:36+00:00"
 licence: "CC-BY-SA-4.0"

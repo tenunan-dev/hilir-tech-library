@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "A Bilevel Market Equilibrium Model for Natural Gas Pipeline Network Operations: Convex Relaxations and Single-level Reformulations"
+summary: "Research paper proposing a bilevel model that sets spot gas prices and pipeline flows together instead of in sequence, with convex relaxations and single-level reformulations so it can be solved."
 url: "http://arxiv.org/abs/2610.14339v1"
 published: "2026-10-09T21:34:43Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

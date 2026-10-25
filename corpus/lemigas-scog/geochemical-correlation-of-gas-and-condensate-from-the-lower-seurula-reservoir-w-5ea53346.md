@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Geochemical Correlation of Gas and Condensate from The Lower Seurula Reservoir with Potential Source Rocks in "
+summary: "Geochemical study correlating gas and condensate in the Lower Seurula reservoir (Late Miocene sandstone, Block B, North Sumatra Basin) with possible source rocks."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2179"
 retrieved_at: "2026-10-24T14:30:25+00:00"
 licence: "CC-BY-SA-4.0"

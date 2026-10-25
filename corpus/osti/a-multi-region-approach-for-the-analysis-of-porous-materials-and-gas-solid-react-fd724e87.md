@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "A multi-region approach for the analysis of porous materials and gas-solid reactions using USAXS-SAXS-WAXS: application to CaO carbonation"
+summary: "OSTI paper on a multi-region X-ray scattering (USAXS, SAXS, WAXS) method for porous materials, applied to CaO carbonation."
 url: "https://www.osti.gov/biblio/3726551"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

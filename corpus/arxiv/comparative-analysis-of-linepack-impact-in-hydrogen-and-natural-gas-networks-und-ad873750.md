@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Comparative Analysis of Linepack Impact in Hydrogen and Natural Gas Networks under Dynamic Operating Conditions"
+summary: "Simulation study comparing linepack (short-term storage in the pipe) in hydrogen and natural gas networks when a compressor fails, with equal and unequal pipe diameters."
 url: "http://arxiv.org/abs/2607.16527v1"
 published: "2026-07-17T22:07:30Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

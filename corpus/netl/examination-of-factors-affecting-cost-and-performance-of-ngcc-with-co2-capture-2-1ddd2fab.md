@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "Examination of Factors Affecting Cost and Performance of NGCC with CO2 Capture 2025"
+summary: "NETL 2025 examination of the factors that drive cost and performance of natural gas combined cycle plants with CO2 capture."
 url: "https://netl.doe.gov/projects/files/ExaminationofFactorAffectingCostPerformanceNaturalGasCombineCycleEquipCarbonDioxideCaptur_031425.pdf"
 retrieved_at: "2026-10-24T04:53:06+00:00"
 licence: "public-domain"

@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "Cost of Capturing CO2 from Industrial Sources 2022"
+summary: "NETL 2022 study of the cost of capturing CO2 from industrial sources, with plant sites, CO2 end uses and stated assumptions."
 url: "https://netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf"
 retrieved_at: "2026-10-24T04:53:06+00:00"
 licence: "public-domain"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Optimizing CO Storage in Saline Aquifers Through Pressure Redistribution in Natuna D Alpha Field Indonesia"
+summary: "Simulation study proposing pressure redistribution to raise CO2 storage capacity in a saline aquifer in the Natuna D Alpha field, Indonesia."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119"
 retrieved_at: "2026-10-24T14:30:39+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Optimizing CO2 Storage Strategies for Enhanced Mineral Trapping and Plume Containment in The Aquifer Zone of a"
+summary: "Simulation study of CO2 storage cases for mineral trapping, plume containment and pressure relief in an aquifer zone, finding hydraulic communication matters more than straight-line well distance."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067"
 retrieved_at: "2026-10-24T14:30:40+00:00"
 licence: "CC-BY-SA-4.0"

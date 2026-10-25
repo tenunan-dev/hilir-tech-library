@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Low-Ripple Modulation Strategy for a Photovoltaic-Based Triple-Port Hydrogen Production System"
+summary: "Power electronics paper proposing a modulation strategy that reduces output current ripple in a photovoltaic-fed triple-port converter used for hydrogen electrolysis."
 url: "http://arxiv.org/abs/2609.13746v1"
 published: "2026-09-12T06:31:36Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

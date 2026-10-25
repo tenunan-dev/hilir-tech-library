@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Raman spectroscopy and multivariate analysis for quantifying uranium(VI) under uranyl nitrate crystallization-relevant conditions"
+summary: "OSTI paper using Raman spectroscopy and chemometrics to measure uranium(VI) in nitric acid under crystallization conditions."
 url: "https://www.osti.gov/biblio/17076849"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

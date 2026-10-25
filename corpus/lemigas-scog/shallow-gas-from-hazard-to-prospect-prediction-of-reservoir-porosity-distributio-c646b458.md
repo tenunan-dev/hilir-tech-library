@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Shallow Gas From Hazard to Prospect Prediction of Reservoir Porosity Distribution Based on Log and Seismic Dat"
+summary: "Subsurface study of shallow gas in the Lidah Formation of the Mada Field, North East Java Basin, predicting porosity from logs and seismic so a former drilling hazard can be treated as a prospect."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2120"
 retrieved_at: "2026-10-24T14:30:48+00:00"
 licence: "CC-BY-SA-4.0"

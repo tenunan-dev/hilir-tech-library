@@ -1,6 +1,7 @@
 ---
 source_id: "iea-reports"
 title: "IEA Global Hydrogen Review 2025 Assumptions Annex"
+summary: "Assumptions annex to the IEA Global Hydrogen Review 2025 listing the cost and technical inputs behind its analysis, such as renewable electricity costs and full load hours by region."
 url: "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf"
 retrieved_at: "2026-10-24T05:14:04+00:00"
 licence: "CC-BY-4.0"

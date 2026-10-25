@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Degradation of Proton Exchange Membrane Water Electrolyzers in Accelerated Stress Tests of Dynamic Load Cycling"
+summary: "Experimental study of how dynamic load cycling, peak voltage and cycling frequency degrade PEM water electrolyzers in accelerated stress tests."
 url: "http://arxiv.org/abs/2608.02389v1"
 published: "2026-08-03T15:30:42Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

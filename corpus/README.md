@@ -3,7 +3,7 @@
 Collected documents, one folder per source id: `corpus/<source-id>/<title>-<hash>.md`.
 
 Each file starts with front matter copied from the catalog record (`licence`, `reuse_level`,
-`permitted_use`) plus `url`, `retrieved_at` and `sha256`. Files from `full-text-restricted`
+`permitted_use`) plus `summary` (the library's own one or two sentence summary, written by hand and never copied text; a test requires it), `url`, `retrieved_at` and `sha256`. Files from `full-text-restricted`
 sources also carry a `use_note`: they are private reference copies, not to be redistributed
 or used commercially. `manifest.jsonl` lists every stored document by hash, for de-duplication.
 

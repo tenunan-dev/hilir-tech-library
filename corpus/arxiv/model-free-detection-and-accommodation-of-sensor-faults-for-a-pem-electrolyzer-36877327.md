@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Model-Free Detection and Accommodation of Sensor Faults for a PEM Electrolyzer"
+summary: "Control paper presenting a model-free method to detect and compensate sensor faults in a PEM electrolyzer powered through a DC/DC converter."
 url: "http://arxiv.org/abs/2607.10883v1"
 published: "2026-07-12T19:14:01Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

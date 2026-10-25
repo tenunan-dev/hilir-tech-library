@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Integrating DT Sonic and RMS Velocity As Dual Indicators for Overpressure and Fluid Screening in The Lower Seu"
+summary: "Seismic and sonic study using sonic transit time and RMS velocity anomalies to screen for overpressure and fluids in the Lower Seurula Formation, with Piada wells as examples."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2108"
 retrieved_at: "2026-10-24T14:30:30+00:00"
 licence: "CC-BY-SA-4.0"

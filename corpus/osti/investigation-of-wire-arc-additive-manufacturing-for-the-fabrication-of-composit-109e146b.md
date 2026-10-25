@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Investigation of wire arc additive manufacturing for the fabrication of composite autoclave molds"
+summary: "OSTI paper on using wire arc additive manufacturing to make composite autoclave molds faster than manual Invar mold making."
 url: "https://www.osti.gov/biblio/17197748"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

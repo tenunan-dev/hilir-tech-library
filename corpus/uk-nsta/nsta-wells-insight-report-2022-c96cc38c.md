@@ -1,6 +1,7 @@
 ---
 source_id: "uk-nsta"
 title: "NSTA Wells Insight Report 2022"
+summary: "NSTA 2022 report on UK North Sea well activity, including 62 development wells completed in 2021 for GBP 1.3 billion."
 url: "https://www.nstauthority.co.uk/media/8441/wells-insight-report-2022.pdf"
 retrieved_at: "2026-10-24T14:02:52+00:00"
 licence: "NSTA-Open-User-Licence"

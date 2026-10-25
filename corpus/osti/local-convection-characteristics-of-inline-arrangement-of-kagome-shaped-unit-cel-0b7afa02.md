@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Local convection characteristics of inline arrangement of Kagome-shaped unit cells in a square duct"
+summary: "OSTI paper measuring local heat transfer in lattice frames made of Kagome unit cells in a square duct."
 url: "https://www.osti.gov/biblio/3030460"
 published: "2026-12-25T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

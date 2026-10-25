@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Process Simulation and Optimization of Green Hydrogen Production from Rubberwood Sawdust Pellets Via Gasificat"
+summary: "Process simulation study of producing green hydrogen from rubberwood sawdust pellets by gasification in Indonesia."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2172"
 retrieved_at: "2026-10-24T14:30:45+00:00"
 licence: "CC-BY-SA-4.0"

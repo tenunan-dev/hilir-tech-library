@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Hybrid electrolyzer systems: Smart strategy or economic fallacy?"
+summary: "Techno-economic paper testing whether hybrid alkaline and PEM electrolyzer systems actually improve green hydrogen profitability when key characteristics are varied independently."
 url: "http://arxiv.org/abs/2607.06093v1"
 published: "2026-07-07T10:09:25Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

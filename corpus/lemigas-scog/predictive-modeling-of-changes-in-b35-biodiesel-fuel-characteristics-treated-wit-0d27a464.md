@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Predictive Modeling of Changes in B35 Biodiesel Fuel Characteristics Treated with Ultrafine Bubbles During Sto"
+summary: "Experimental and predictive modelling study of how oxygen ultrafine bubble treatment for 10 to 30 minutes changes B35 biodiesel properties during seven weeks of storage."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2092"
 retrieved_at: "2026-10-24T14:30:43+00:00"
 licence: "CC-BY-SA-4.0"

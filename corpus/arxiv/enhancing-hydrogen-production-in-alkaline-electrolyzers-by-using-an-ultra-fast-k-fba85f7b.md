@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Enhancing hydrogen production in alkaline electrolyzers by using an ultra-fast kinetics surfactant"
+summary: "Experimental paper showing that a fast-adsorbing surfactant shortens bubble residence time in alkaline electrolyzers and improves hydrogen output, checked on an anion-exchange membrane cell."
 url: "http://arxiv.org/abs/2607.26750v1"
 published: "2026-07-29T10:43:35Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

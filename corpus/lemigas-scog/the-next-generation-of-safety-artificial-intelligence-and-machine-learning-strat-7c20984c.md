@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "The Next Generation of Safety Artificial Intelligence and Machine Learning Strategies for a Safer Oil and Gas "
+summary: "Systematic literature review of artificial intelligence and machine learning for oil and gas safety management, including ethical and data privacy concerns."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/1786"
 retrieved_at: "2026-10-24T14:30:53+00:00"
 licence: "CC-BY-SA-4.0"

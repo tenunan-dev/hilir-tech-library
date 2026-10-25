@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Reducing Uncertainty in Idle Well Reactivation A Novel Integrated Screening Framework for Mature Oil Fields"
+summary: "Screening framework to cut uncertainty in reactivating idle wells in mature oil fields, with well BP-16 classed as moderate potential and a better-quality interval identified in layers XII and XIII."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2089"
 retrieved_at: "2026-10-24T14:30:46+00:00"
 licence: "CC-BY-SA-4.0"

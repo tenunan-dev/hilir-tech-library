@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Dual porosity Permeability Modeling in Carbonate Reservoirs A Review on Characterization Techniques Modeling A"
+summary: "Review of how dual-porosity and related models (dual-permeability, MINC, discrete fracture networks) characterise heterogeneous carbonate reservoirs, including for CO2 storage."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2170"
 retrieved_at: "2026-10-24T14:30:16+00:00"
 licence: "CC-BY-SA-4.0"

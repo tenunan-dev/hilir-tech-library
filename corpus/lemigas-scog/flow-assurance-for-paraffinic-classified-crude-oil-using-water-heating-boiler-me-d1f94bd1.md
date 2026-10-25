@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Flow Assurance for Paraffinic Classified Crude Oil Using Water Heating Boiler Metode in Field Sepanjang East J"
+summary: "Field study of wax deposition in a crude oil pipeline in the Sepanjang field, East Java, assessing pipe diameter effects and a water heating boiler method for flow assurance."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2144"
 retrieved_at: "2026-10-24T14:30:22+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "The Effect of MES Ethanol Formulation in Enhancing Surfactant Flooding Efficiency A Laboratory Scale Perspecti"
+summary: "Laboratory study of a locally sourced biodegradable MES-ethanol surfactant formulation for chemical EOR, finding moderate IFT reduction with stable microemulsion can still mobilise oil."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2096"
 retrieved_at: "2026-10-24T14:30:52+00:00"
 licence: "CC-BY-SA-4.0"

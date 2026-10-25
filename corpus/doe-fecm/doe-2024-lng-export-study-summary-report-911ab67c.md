@@ -1,6 +1,7 @@
 ---
 source_id: "doe-fecm"
 title: "DOE 2024 LNG Export Study Summary Report"
+summary: "Summary report of the 2024 US DOE study of LNG exports, with key findings on domestic gas supply and economic effects, energy security, greenhouse gas emissions and environmental and community effects."
 url: "https://www.energy.gov/sites/default/files/2024-12/LNGUpdate_SummaryReport_Dec2024_230pm.pdf"
 retrieved_at: "2026-10-24T05:14:19+00:00"
 licence: "public-domain"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Failure Mechanisms and Risk Based Mitigation of Hydrocarbon Pipeline Blockages A Comprehensive Review"
+summary: "Literature review classifying hazards of hydrocarbon pipeline blockages with a 5x5 risk matrix, using US PHMSA incident data from 1970 to 2024."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2011"
 retrieved_at: "2026-10-24T14:30:21+00:00"
 licence: "CC-BY-SA-4.0"

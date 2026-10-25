@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Pseudo 3D Depth Reconstruction from Multi Vintage 2D and 3D Seismic Data in The Offshore Southeast Sumatra"
+summary: "Seismic processing study reconstructing a pseudo-3D depth volume from multi-vintage 2D and 3D data offshore Southeast Sumatra."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2110"
 retrieved_at: "2026-10-24T14:30:45+00:00"
 licence: "CC-BY-SA-4.0"

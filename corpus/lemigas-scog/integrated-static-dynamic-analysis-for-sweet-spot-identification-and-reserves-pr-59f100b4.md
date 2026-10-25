@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Integrated Static Dynamic Analysis for Sweet Spot Identification and Reserves Prediction in Low Permeability R"
+summary: "Reservoir study integrating static and dynamic data to find sweet spots and predict reserves in a low-permeability reservoir, using hydrocarbon pore volume and fracability maps."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2085"
 retrieved_at: "2026-10-24T14:30:30+00:00"
 licence: "CC-BY-SA-4.0"

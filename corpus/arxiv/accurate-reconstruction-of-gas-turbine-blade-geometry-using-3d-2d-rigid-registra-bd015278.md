@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Accurate Reconstruction of Gas Turbine Blade Geometry Using 3D/2D Rigid Registration and CT View Optimization"
+summary: "Research paper on aligning CAD models to X-ray projections as a cheaper alternative to full CT reconstruction for checking the geometry and internal cooling channels of gas turbine blades."
 url: "http://arxiv.org/abs/2609.01368v1"
 published: "2026-09-01T15:06:11Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

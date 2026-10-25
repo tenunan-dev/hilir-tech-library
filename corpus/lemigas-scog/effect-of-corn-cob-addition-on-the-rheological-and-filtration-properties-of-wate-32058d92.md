@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Effect of Corn Cob Addition on the Rheological and Filtration Properties of Water Based Drilling Mud"
+summary: "Laboratory study testing corn cob as a natural additive for water-based drilling mud, measuring its effect on rheology and filtration."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2016"
 retrieved_at: "2026-10-24T14:30:18+00:00"
 licence: "CC-BY-SA-4.0"

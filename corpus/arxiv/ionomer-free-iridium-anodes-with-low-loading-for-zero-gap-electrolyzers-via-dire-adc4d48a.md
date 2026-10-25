@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Ionomer-free Iridium Anodes with Low Loading for Zero-gap Electrolyzers via Direct Atomic Layer Deposition"
+summary: "Materials paper on depositing low-loading iridium anodes without ionomer by atomic layer deposition, to reduce iridium use in PEM electrolyzers."
 url: "http://arxiv.org/abs/2610.15798v1"
 published: "2026-10-11T17:41:55Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

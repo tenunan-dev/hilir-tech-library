@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "From zonal to nodal capacity expansion planning: Spatial aggregation impacts on a realistic test-case"
+summary: "OSTI paper comparing zonal and nodal power system capacity expansion planning on a realistic test case."
 url: "https://www.osti.gov/biblio/3380279"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

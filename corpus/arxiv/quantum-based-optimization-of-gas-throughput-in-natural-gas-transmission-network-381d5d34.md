@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Quantum-Based Optimization of Gas Throughput in Natural Gas Transmission Networks Under Hydraulic Constraints Using QAOA"
+summary: "Research paper applying the quantum approximate optimisation algorithm to pick nodal pressures that maximise gas throughput in a transmission network under hydraulic limits."
 url: "http://arxiv.org/abs/2609.00825v1"
 published: "2026-09-01T07:26:34Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

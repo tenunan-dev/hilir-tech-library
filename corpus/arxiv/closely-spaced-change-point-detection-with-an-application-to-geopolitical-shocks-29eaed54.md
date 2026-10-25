@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Closely spaced change-point detection with an application to geopolitical shocks in oil and gas markets"
+summary: "Statistics paper introducing a test and algorithm for detecting change points that arrive close together, applied to geopolitical shocks in oil and gas market data."
 url: "http://arxiv.org/abs/2610.23476v1"
 published: "2026-10-16T13:53:08Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

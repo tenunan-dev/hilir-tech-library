@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Modeling and Predicting Lignin Dissolution in Ionic Liquids and Separation of Lignin Molecular Weight Fractions using Size Exclusion Chromatography [Slides]"
+summary: "OSTI slides on modelling lignin dissolution in ionic liquids and separating lignin molecular weight fractions by size exclusion chromatography."
 url: "https://www.osti.gov/biblio/3413920"
 published: "2027-09-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

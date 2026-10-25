@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Effect of KOH Concentration on Biodiesel Production from Waste Cooking Oil Comparison of Batch and Microchanne"
+summary: "Laboratory study comparing batch and microchannel reactors for biodiesel from waste cooking oil at different KOH concentrations, against the ASTM D6751 standard."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2178"
 retrieved_at: "2026-10-24T14:30:19+00:00"
 licence: "CC-BY-SA-4.0"

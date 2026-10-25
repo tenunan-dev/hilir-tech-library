@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Potential Use of Kepok Banana Peel Waste as Raw Material for Carboxymethyl Cellulose for Oil and Gas Drilling "
+summary: "Laboratory study making carboxymethyl cellulose from Kepok banana peel waste and testing it as an additive in bentonite drilling mud at 3, 6 and 9 g."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2070"
 retrieved_at: "2026-10-24T14:30:43+00:00"
 licence: "CC-BY-SA-4.0"

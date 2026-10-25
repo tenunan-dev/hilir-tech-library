@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Edge Computing Enabled Real Time CO Emissions Monitoring A Low Latency and Bandwidth Efficient Architecture fo"
+summary: "Paper proposing an edge-computing architecture with IoT gas sensors for real-time CO2 emissions monitoring at remote oil and gas facilities."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2020"
 retrieved_at: "2026-10-24T14:30:17+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Structural Integrity Assessment of A Low Temperature Separation Unit LTSU Strainer Handle Plate in Oil and Gas"
+summary: "Finite element assessment of the handle plate of a strainer in a low temperature separation unit, identifying a possible fatigue initiation point."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2033"
 retrieved_at: "2026-10-24T14:30:50+00:00"
 licence: "CC-BY-SA-4.0"

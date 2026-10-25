@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Local B-site chemistry controls oxygen-vacancy energetics in Ca-Ce-Ti-Mn perovskites for thermochemical hydrogen production"
+summary: "Computational paper mapping oxygen-vacancy energies in Ca-Ce-Ti-Mn perovskites to find oxides suited to solar thermochemical hydrogen production."
 url: "http://arxiv.org/abs/2607.28752v1"
 published: "2026-07-30T18:18:47Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

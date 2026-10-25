@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Measuring success: A refined methodology for estimating long-term continuous improvement"
+summary: "OSTI paper proposing a refined way to estimate long-term utility savings from continuous improvement using an adjusted baseline."
 url: "https://www.osti.gov/biblio/3520936"
 published: "2027-01-15T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

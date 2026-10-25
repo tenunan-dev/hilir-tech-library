@@ -1,6 +1,7 @@
 ---
 source_id: "doe-fecm"
 title: "DOE 2024 LNG Export Study Appendix C Consequential GHG Analysis"
+summary: "Appendix to the 2024 US DOE LNG export study that estimates the consequential greenhouse gas effects of US LNG exports, prepared by NETL to inform DOE's public interest review."
 url: "https://www.energy.gov/sites/default/files/2024-12/LNGUpdate_AppendixC_Dec2024.pdf"
 retrieved_at: "2026-10-24T05:14:18+00:00"
 licence: "public-domain"

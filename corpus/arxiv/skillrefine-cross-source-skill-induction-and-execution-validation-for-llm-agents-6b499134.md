@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "SkillRefine: Cross-Source Skill Induction and Execution Validation for LLM Agents in Refinery Planning Software"
+summary: "Research paper on an LLM agent method that combines documentation, expert records and run-time feedback to operate refinery planning software such as AspenTech PIMS."
 url: "http://arxiv.org/abs/2609.30674v1"
 published: "2026-09-25T01:29:20Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

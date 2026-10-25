@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Enabling spatial analysis of living cell/electrode interfaces"
+summary: "OSTI paper on methods for spatial analysis of living bacteria and electrode interfaces; not related to oil and gas technology."
 url: "https://www.osti.gov/biblio/17197378"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

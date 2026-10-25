@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Integrated Logging Production and Geological Analysis for Bypassed Oil Identification in CNA Field Central Sum"
+summary: "Well-log, production and geological study of two long-term closed wells in the CNA field, Central Sumatra, to find bypassed oil zones that could be reactivated."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2099"
 retrieved_at: "2026-10-24T14:30:29+00:00"
 licence: "CC-BY-SA-4.0"

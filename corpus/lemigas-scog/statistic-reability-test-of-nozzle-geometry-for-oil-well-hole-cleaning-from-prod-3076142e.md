@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Statistic Reability Test of Nozzle Geometry for Oil Well Hole Cleaning from Produced Sand"
+summary: "Experimental study of upward-facing nozzle jetting to clean produced sand from oil wells, using scaled laboratory prototypes and statistical reliability tests."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2121"
 retrieved_at: "2026-10-24T14:30:49+00:00"
 licence: "CC-BY-SA-4.0"

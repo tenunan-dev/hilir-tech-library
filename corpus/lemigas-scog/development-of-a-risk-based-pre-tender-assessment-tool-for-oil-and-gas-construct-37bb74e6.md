@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Development of A Risk Based Pre Tender Assessment Tool for Oil and Gas Construction Projects Using Analytical "
+summary: "Indonesian study building a risk-based pre-tender tool for oil and gas construction projects with the analytical hierarchy process, based on a survey of criteria including legal and procurement factors."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/1962"
 retrieved_at: "2026-10-24T14:30:13+00:00"
 licence: "CC-BY-SA-4.0"

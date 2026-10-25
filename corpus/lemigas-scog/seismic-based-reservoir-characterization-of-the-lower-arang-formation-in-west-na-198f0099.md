@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Seismic Based Reservoir Characterization of The Lower Arang Formation in West Natuna Basin Using Acoustic Impe"
+summary: "Seismic study of the Lower Arang Formation in the West Natuna Basin using acoustic impedance inversion and attributes such as RMS amplitude, envelope and sweetness."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2065"
 retrieved_at: "2026-10-24T14:30:47+00:00"
 licence: "CC-BY-SA-4.0"

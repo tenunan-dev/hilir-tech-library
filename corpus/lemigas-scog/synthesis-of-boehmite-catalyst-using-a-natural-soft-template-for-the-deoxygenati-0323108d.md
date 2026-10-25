@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Synthesis of Boehmite Catalyst Using A Natural Soft Template for The Deoxygenation of Waste Cooking Oil Into B"
+summary: "Catalyst synthesis study making boehmite with a natural soft template for deoxygenating waste cooking oil to biofuel."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2074"
 retrieved_at: "2026-10-24T14:30:51+00:00"
 licence: "CC-BY-SA-4.0"

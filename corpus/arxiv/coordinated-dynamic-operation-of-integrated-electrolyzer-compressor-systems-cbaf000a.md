@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Coordinated Dynamic Operation of Integrated Electrolyzer-Compressor Systems"
+summary: "Research paper modelling an electrolyzer coupled to an electric-driven compressor station, with PID control schemes to handle disturbances."
 url: "http://arxiv.org/abs/2608.11929v1"
 published: "2026-08-12T11:16:53Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

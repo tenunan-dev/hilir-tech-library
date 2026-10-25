@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Designing porous transport layers for optimal bubble transport in water electrolyzers"
+summary: "OSTI paper using neutron imaging to design titanium porous transport layers that move bubbles better in PEM water electrolyzers."
 url: "https://www.osti.gov/biblio/17076855"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

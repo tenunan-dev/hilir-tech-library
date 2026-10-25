@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Influence of Expanded Air Fraction on Product Distribution and Energy Performance of Turboexpander and Joule T"
+summary: "Process study of how the share of air sent to the turboexpander versus a Joule-Thomson valve changes product split and energy use in a cryogenic air separation unit."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2136"
 retrieved_at: "2026-10-24T14:30:28+00:00"
 licence: "CC-BY-SA-4.0"

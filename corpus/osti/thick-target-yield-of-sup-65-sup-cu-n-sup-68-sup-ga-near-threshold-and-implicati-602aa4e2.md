@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Thick-target yield of <sup>65</sup>Cu(α,n)<sup>68</sup>Ga near threshold and implications for nuclear medicine, deep underground detector backgrounds, and nucleosynthesis"
+summary: "OSTI paper measuring thick-target yields of the 65Cu(alpha,n)68Ga reaction near threshold for nuclear medicine and detector background work."
 url: "https://www.osti.gov/biblio/17047506"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "Comparison of Commercial State of the Art Fossil Based Hydrogen Production Technologies 2022"
+summary: "2022 comparison of commercial fossil-based hydrogen production technologies, with results analysis and opportunities for future R&D."
 url: "https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf"
 retrieved_at: "2026-10-24T05:14:01+00:00"
 licence: "public-domain"

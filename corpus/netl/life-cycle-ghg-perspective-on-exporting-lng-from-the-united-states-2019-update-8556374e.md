@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "Life Cycle GHG Perspective on Exporting LNG from the United States 2019 Update"
+summary: "NETL 2019 update of the life cycle greenhouse gas comparison of exporting US LNG."
 url: "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf"
 retrieved_at: "2026-10-24T05:14:02+00:00"
 licence: "public-domain"

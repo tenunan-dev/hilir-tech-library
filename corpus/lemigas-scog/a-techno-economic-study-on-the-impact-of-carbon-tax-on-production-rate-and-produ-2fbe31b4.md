@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "A Techno Economic Study on The Impact of Carbon Tax on Production Rate and Production Duration in An Oil Field"
+summary: "Techno-economic study of how a carbon tax on upstream emissions changes the production rate and economic life of an oil field."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2049"
 retrieved_at: "2026-10-24T14:29:48+00:00"
 licence: "CC-BY-SA-4.0"

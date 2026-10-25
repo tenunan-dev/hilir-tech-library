@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Permeability and Hydraulic Flow Units Prediction Using Neural Network Technique of The Clastic Mamuniyat Reser"
+summary: "Study using neural networks to predict permeability and hydraulic flow units in the clastic Mamuniyat reservoir of the Murzuq Basin, Libya."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2035"
 retrieved_at: "2026-10-24T14:30:41+00:00"
 licence: "CC-BY-SA-4.0"

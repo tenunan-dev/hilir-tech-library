@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "The Tectonic Control on Karstification in The Faumai Formation Bird s Head West Papua Indonesia"
+summary: "Geological study of how tectonics controls karstification of the Faumai Formation carbonates in the Bird's Head, West Papua, using seismic facies and outcrop evidence."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2076"
 retrieved_at: "2026-10-24T14:30:53+00:00"
 licence: "CC-BY-SA-4.0"

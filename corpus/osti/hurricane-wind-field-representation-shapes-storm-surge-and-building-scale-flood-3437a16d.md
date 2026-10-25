@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Hurricane wind field representation shapes storm surge and building-scale flood hazard estimates"
+summary: "OSTI paper showing how choices of hurricane wind field data bias storm surge and building-level flood estimates, using Hurricane Ian."
 url: "https://www.osti.gov/biblio/3484879"
 published: "2026-12-15T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

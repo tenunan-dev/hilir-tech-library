@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "Compendium of Carbon Capture Technology 2024"
+summary: "NETL's 2024 compendium of carbon capture technologies, listing projects and technology developers across capture approaches with references to DOE project reviews."
 url: "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf"
 retrieved_at: "2026-10-24T04:53:06+00:00"
 licence: "public-domain"

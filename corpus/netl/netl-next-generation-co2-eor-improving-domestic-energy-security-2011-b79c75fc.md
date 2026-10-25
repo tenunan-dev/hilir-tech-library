@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "NETL Next Generation CO2 EOR Improving Domestic Energy Security 2011"
+summary: "2011 NETL report on next-generation CO2-EOR, arguing it can improve energy security, lower CO2 emissions and add revenue for governments."
 url: "https://www.netl.doe.gov/projects/files/FY11_ImprovingDomesticEnergySecurityLoweringCO2EmissionsNextGenCO2EOR_060111.pdf"
 retrieved_at: "2026-10-24T14:02:51+00:00"
 licence: "public-domain"

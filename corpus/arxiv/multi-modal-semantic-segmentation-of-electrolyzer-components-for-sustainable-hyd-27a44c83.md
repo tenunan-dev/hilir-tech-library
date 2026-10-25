@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Multi-Modal Semantic Segmentation of Electrolyzer Components for Sustainable Hydrogen Technologies: A Dual-Branch Deep Learning Approach"
+summary: "Machine-learning paper using hyperspectral and RGB images to segment electrolyzer components, meant to support automated disassembly and recycling."
 url: "http://arxiv.org/abs/2607.16056v1"
 published: "2026-07-17T15:34:20Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

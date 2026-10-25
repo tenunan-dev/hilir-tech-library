@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "GSO-Net: Visual State Machines for Hazardous Freight Transfer Compliance at Petrochemical Logistics Nodes"
+summary: "Benchmark and model (GSO-Net) for judging whether hazardous freight transfers at petrochemical logistics sites follow standard procedures, from camera images with sparse polling."
 url: "http://arxiv.org/abs/2609.12408v1"
 published: "2026-09-11T04:00:41Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

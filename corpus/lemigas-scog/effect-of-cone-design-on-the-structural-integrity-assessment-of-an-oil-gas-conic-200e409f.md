@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Effect of Cone Design on the Structural Integrity Assessment of an Oil Gas Conical Perforated Strainer Using C"
+summary: "Engineering failure study using CFD and finite element analysis to assess a conical perforated strainer that failed early in a low temperature separation unit."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2130"
 retrieved_at: "2026-10-24T14:30:17+00:00"
 licence: "CC-BY-SA-4.0"

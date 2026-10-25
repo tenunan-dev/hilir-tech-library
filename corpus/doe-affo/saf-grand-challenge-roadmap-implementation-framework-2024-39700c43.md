@@ -1,6 +1,7 @@
 ---
 source_id: "doe-affo"
 title: "SAF Grand Challenge Roadmap Implementation Framework 2024"
+summary: "2024 follow-up to the SAF Grand Challenge setting out how US agencies will deliver 3 billion gallons of domestic sustainable aviation fuel a year by 2030 (at least 50% lower life cycle emissions) and 35 billion gallons by 2050."
 url: "https://www.energy.gov/sites/default/files/2024-11/SAF-Implementation-Framework-Nov-2024.pdf"
 retrieved_at: "2026-10-24T06:04:56+00:00"
 licence: "public-domain"

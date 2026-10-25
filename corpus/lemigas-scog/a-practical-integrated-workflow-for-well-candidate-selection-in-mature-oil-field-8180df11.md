@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "A Practical Integrated Workflow for Well Candidate Selection in Mature Oil Fields Using Well Opportunity Index"
+summary: "Indonesian case study proposing a traceable workflow (well opportunity index, delta potential, quadrant analysis, weighted ranking) to pick well candidates in a mature South Sumatra oil field with limited reservoir models."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2137"
 retrieved_at: "2026-10-24T14:29:47+00:00"
 licence: "CC-BY-SA-4.0"

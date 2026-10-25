@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Comparative Analysis of B35 B40 Biodiesel Blends in Passenger Train Generator Sets Performance Emissions and 1"
+summary: "Engine test study comparing B35 and B40 biodiesel in a passenger-train generator set, covering fuel quality, performance, NOx and a 1,200 hour endurance run on B40."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2129"
 retrieved_at: "2026-10-24T14:29:53+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Determination of an Appropriate Method and Economic Cost Estimation for Plug and Abandonment of H 11 Well in T"
+summary: "Indonesian case study comparing methods and estimating the cost of plugging and abandoning well H-11 under national regulations."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2141"
 retrieved_at: "2026-10-24T14:30:12+00:00"
 licence: "CC-BY-SA-4.0"

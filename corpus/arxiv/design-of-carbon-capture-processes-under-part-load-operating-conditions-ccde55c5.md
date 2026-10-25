@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Design of Carbon Capture Processes Under Part-load Operating Conditions"
+summary: "Research paper on optimising solvent-based CO2 capture design across several part-load operating points of a power plant to limit cost."
 url: "http://arxiv.org/abs/2607.13232v1"
 published: "2026-07-14T19:51:29Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

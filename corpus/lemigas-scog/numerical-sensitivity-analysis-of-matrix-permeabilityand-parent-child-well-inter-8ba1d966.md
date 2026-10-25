@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Numerical Sensitivity Analysis of Matrix Permeabilityand Parent Child Well Interaction on Estimated Ultimate R"
+summary: "Compositional reservoir simulation study of how matrix permeability and parent-child well interference change estimated ultimate recovery in shale reservoirs."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2114"
 retrieved_at: "2026-10-24T14:30:38+00:00"
 licence: "CC-BY-SA-4.0"

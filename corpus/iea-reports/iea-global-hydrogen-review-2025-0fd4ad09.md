@@ -1,6 +1,7 @@
 ---
 source_id: "iea-reports"
 title: "IEA Global Hydrogen Review 2025"
+summary: "IEA's 2025 annual review of hydrogen production, demand, policy, infrastructure, trade and investment worldwide, noting more than 200 committed low-emissions hydrogen projects."
 url: "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf"
 retrieved_at: "2026-10-24T05:14:10+00:00"
 licence: "CC-BY-4.0"

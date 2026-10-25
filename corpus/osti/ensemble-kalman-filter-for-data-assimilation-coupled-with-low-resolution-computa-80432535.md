@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Ensemble Kalman filter for data assimilation coupled with low-resolution computations techniques applied in fluid dynamics"
+summary: "OSTI paper on an ensemble Kalman filter for data assimilation with low-resolution fluid dynamics computations."
 url: "https://www.osti.gov/biblio/3633837"
 published: "2026-12-15T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Design of a Swab Cup Running Tool to Reduce Fluid Bypass during Liquid Swabbing Operations in Dual Size Tubing"
+summary: "Engineering design study of a modified swab cup carrier and mandrel that limits fluid bypass when swabbing wells with dual-size 4.5 inch and 3.5 inch tubing."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2155"
 retrieved_at: "2026-10-24T14:29:54+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "doe-affo"
 title: "SAF Grand Challenge Roadmap Flight Plan for Sustainable Aviation Fuel 2022"
+summary: "2022 US government roadmap for sustainable aviation fuel with goals of 3 billion gallons a year by 2030 and 35 billion gallons by 2050, covering feedstocks, conversion, infrastructure and policy."
 url: "https://www.energy.gov/sites/default/files/2022-09/beto-saf-gc-roadmap-report-sept-2022.pdf"
 retrieved_at: "2026-10-24T06:04:54+00:00"
 licence: "public-domain"

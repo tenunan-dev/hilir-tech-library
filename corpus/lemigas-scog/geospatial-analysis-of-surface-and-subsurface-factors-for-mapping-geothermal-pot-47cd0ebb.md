@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Geospatial Analysis of Surface and Subsurface Factors for Mapping Geothermal Potential Zones in Central Wester"
+summary: "Remote sensing and GIS study that maps geothermal potential zones in central-western Taiz, Yemen, from nine weighted surface and subsurface factors."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2167"
 retrieved_at: "2026-10-24T14:30:25+00:00"
 licence: "CC-BY-SA-4.0"

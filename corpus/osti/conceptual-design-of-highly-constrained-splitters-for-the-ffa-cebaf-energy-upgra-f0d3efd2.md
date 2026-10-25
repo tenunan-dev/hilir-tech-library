@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Conceptual design of highly-constrained splitters for the FFA@CEBAF energy upgrade study"
+summary: "OSTI paper on beam splitter design for an energy upgrade of the CEBAF accelerator at Jefferson Lab; not related to oil and gas technology."
 url: "https://www.osti.gov/biblio/3484477"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

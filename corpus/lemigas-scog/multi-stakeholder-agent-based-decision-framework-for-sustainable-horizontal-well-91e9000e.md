@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Multi Stakeholder Agent Based Decision Framework for Sustainable Horizontal Well Placement Field Validation of"
+summary: "Agent-based decision framework for horizontal well placement that links ultra-deep azimuthal resistivity data with stakeholder and economic reviews of three field wells."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2164"
 retrieved_at: "2026-10-24T14:30:35+00:00"
 licence: "CC-BY-SA-4.0"

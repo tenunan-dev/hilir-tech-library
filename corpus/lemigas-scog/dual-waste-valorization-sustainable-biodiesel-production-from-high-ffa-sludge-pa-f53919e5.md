@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Dual Waste Valorization Sustainable Biodiesel Production from High FFA Sludge Palm Oil Using Silica Rich Water"
+summary: "Laboratory study making biodiesel from high-FFA sludge palm oil with a K2O/SiO2 catalyst supported on water-treatment sludge, reporting the best conditions as 6% catalyst, 15:1 methanol to oil and 2 hours at 63 C."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2051"
 retrieved_at: "2026-10-24T14:30:15+00:00"
 licence: "CC-BY-SA-4.0"

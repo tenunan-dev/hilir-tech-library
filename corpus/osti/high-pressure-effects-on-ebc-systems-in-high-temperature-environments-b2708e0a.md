@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "High pressure effects on EBC systems in high temperature environments"
+summary: "OSTI paper on how high pressure affects environmental barrier coatings in high-temperature steam, where oxide growth causes spalling."
 url: "https://www.osti.gov/biblio/3520480"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

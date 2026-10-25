@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Artificial intelligence-based predictive fuel blending control for flare gas mitigation"
+summary: "Research paper describing a neural network and model predictive controller that blend fuels for a gas-fired plant so the methane number stays within engine limits while less gas is flared."
 url: "http://arxiv.org/abs/2608.23337v1"
 published: "2026-08-24T14:48:17Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

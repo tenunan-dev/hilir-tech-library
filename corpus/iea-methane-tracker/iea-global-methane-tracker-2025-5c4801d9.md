@@ -1,6 +1,7 @@
 ---
 source_id: "iea-methane-tracker"
 title: "IEA Global Methane Tracker 2025"
+summary: "IEA's 2025 annual tracker of methane emissions from the energy sector, with satellite-based estimates, abatement options and their costs."
 url: "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf"
 retrieved_at: "2026-10-24T14:02:48+00:00"
 licence: "CC-BY-4.0"

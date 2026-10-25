@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Pressure and temperature dependence of methane pyrolysis and hydrogen production in a micro flow reactor"
+summary: "Experimental study of methane pyrolysis to hydrogen and solid carbon in a micro flow reactor at 1400 to 1800 K and 1 to 10 bar, with a 60 ms residence time."
 url: "http://arxiv.org/abs/2609.31741v1"
 published: "2026-09-23T01:27:09Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

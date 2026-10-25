@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Migration of Al within dealuminated beta extruded catalysts influences olefin distribution during ethanol upgrading"
+summary: "OSTI paper on how aluminium migration in dealuminated beta zeolite catalysts affects the olefins made when upgrading ethanol toward sustainable aviation fuel."
 url: "https://www.osti.gov/biblio/3413717"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

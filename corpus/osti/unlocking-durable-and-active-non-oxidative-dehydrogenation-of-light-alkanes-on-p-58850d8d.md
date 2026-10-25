@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Unlocking durable and active non-oxidative dehydrogenation of light alkanes on protonic ceramic electrochemical cells"
+summary: "OSTI paper on a protonic ceramic electrochemical cell that dehydrogenates ethane to ethylene (42% conversion, 85% selectivity at 700 C) while making hydrogen."
 url: "https://www.osti.gov/biblio/17132846"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

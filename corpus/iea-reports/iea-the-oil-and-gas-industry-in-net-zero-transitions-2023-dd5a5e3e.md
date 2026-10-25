@@ -1,6 +1,7 @@
 ---
 source_id: "iea-reports"
 title: "IEA The Oil and Gas Industry in Net Zero Transitions 2023"
+summary: "2023 IEA World Energy Outlook special report on the oil and gas industry's role in net zero transitions, covering demand, supply, emissions and the choices industry faces."
 url: "https://iea.blob.core.windows.net/assets/f065ae5e-94ed-4fcb-8f17-8ceffde8bdd2/TheOilandGasIndustryinNetZeroTransitions.pdf"
 retrieved_at: "2026-10-24T14:03:20+00:00"
 licence: "CC-BY-4.0"

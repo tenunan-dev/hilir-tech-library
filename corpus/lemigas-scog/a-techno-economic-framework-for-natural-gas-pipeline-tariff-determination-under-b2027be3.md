@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "A Techno Economic Framework for Natural Gas Pipeline Tariff Determination Under State Budget Financing Evidenc"
+summary: "Indonesian study of two tariff formulations (a state capital participation scheme and an alternative) for the state-financed Semarang-Batang open-access gas transmission pipeline."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2117"
 retrieved_at: "2026-10-24T14:29:48+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "An Integrated Analysis Approach for Identifying Water Influx Mechanism in Gas Well TMG Case Study"
+summary: "Case study of a directional gas well that uses a quantitative workflow to tell water coning, channelling and aquifer movement apart as the cause of water production."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2139"
 retrieved_at: "2026-10-24T14:29:52+00:00"
 licence: "CC-BY-SA-4.0"

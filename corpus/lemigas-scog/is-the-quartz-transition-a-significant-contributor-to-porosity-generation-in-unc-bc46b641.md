@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Is The Quartz Transition a Significant Contributor to Porosity Generation in Unconventional Crystalline Hydroc"
+summary: "Geoscience note assessing whether thermal contraction differences between quartz and feldspar can produce secondary porosity in crystalline rock hydrocarbon reservoirs."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2171"
 retrieved_at: "2026-10-24T14:30:32+00:00"
 licence: "CC-BY-SA-4.0"

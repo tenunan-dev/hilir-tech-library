@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Probabilistic Modeling of Occupational Health and Safety Culture Influence on Operational Safety in Petrochemi"
+summary: "Bayesian network study of how occupational health and safety culture affects operational safety in petrochemical plants, using data from 78 industrial placement students."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2097"
 retrieved_at: "2026-10-24T14:30:45+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Enhancing Economic Resilience in Marginal Oilfields Through Discrete Event Simulation Optimization of Coiled T"
+summary: "Discrete event simulation study on reusing coiled tubing instead of new tubing for coiled tubing gas lift in marginal oil fields to cut costs."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2149"
 retrieved_at: "2026-10-24T14:30:20+00:00"
 licence: "CC-BY-SA-4.0"

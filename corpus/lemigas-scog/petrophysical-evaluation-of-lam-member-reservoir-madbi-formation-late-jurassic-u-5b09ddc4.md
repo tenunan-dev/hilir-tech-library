@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Petrophysical Evaluation of Lam Member Reservoir Madbi Formation Late Jurassic using Well Log and Core Data in"
+summary: "Petrophysical evaluation of the Late Jurassic Lam Member of the Madbi Formation in the Habban oil field, Marib-Shabwah Basin, Yemen, from well logs and core data."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2005"
 retrieved_at: "2026-10-24T14:30:42+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "The Application of Remedial Cementing to Handle CO2 Gas Channelling Problem Case Study in D 04 Well of Jatibar"
+summary: "Well case study using cement bond and variable density logs to find CO2 gas channelling in well D-04 of the Jatibarang field and checking production after remedial cementing."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2080"
 retrieved_at: "2026-10-24T14:30:51+00:00"
 licence: "CC-BY-SA-4.0"

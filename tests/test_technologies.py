@@ -95,3 +95,11 @@ def test_list_gaps_filters(tmp_path):
     assert not any(h["reason_code"] == "no_card_yet" for h in library.list_gaps(db=db))
     # Every register entry now has a card, so the option adds nothing today; it must still run and never lose gaps.
     assert len(library.list_gaps(include_no_card=True, db=db)) >= len(library.list_gaps(db=db))
+
+
+def test_every_corpus_document_has_a_summary():
+    """Each collected document carries the library's own short summary in its front matter."""
+    corpus = ROOT / "corpus"
+    missing = [str(p.relative_to(ROOT)) for p in sorted(corpus.glob("*/*.md"))
+               if not p.parent.name.startswith("_") and not library.read_document(p)[0].get("summary")]
+    assert not missing, missing

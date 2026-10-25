@@ -1,6 +1,7 @@
 ---
 source_id: "doe-hfto"
 title: "DOE Hydrogen Program Record 24005 Clean Hydrogen Production Cost PEM Electrolyzer 2024"
+summary: "DOE Hydrogen Program record from May 2024 modelling the cost of clean hydrogen from PEM electrolyzers and renewable electricity at roughly $5 to $7 per kg in 2022 dollars without subsidies, assuming about $2,000/kW installed cost."
 url: "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf"
 retrieved_at: "2026-10-24T05:14:02+00:00"
 licence: "public-domain"

@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Development of Machine Learning for Lost Production Opportunity Prediction and Production Optimization Through"
+summary: "Study using machine learning on field data to predict lost production opportunity and to schedule rigless workovers better than historical-average assumptions."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2150"
 retrieved_at: "2026-10-24T14:30:14+00:00"
 licence: "CC-BY-SA-4.0"

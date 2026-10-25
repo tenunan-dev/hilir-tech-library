@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Isolated Effect of pH on The Rheological Filtration and Lubricity Characteristics of Polymer Free Bentonite Dr"
+summary: "Laboratory and review study of how pH alone affects rheology, filtration and lubricity of polymer-free bentonite drilling mud."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2058"
 retrieved_at: "2026-10-24T14:30:33+00:00"
 licence: "CC-BY-SA-4.0"

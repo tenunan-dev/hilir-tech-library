@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur Gantar High Jatibarang Sub"
+summary: "Preliminary feasibility study of the Upper Baturaja interval in the Kandanghaur-Gantar High, Jatibarang Sub-Basin, West Java, as a CO2 storage reservoir."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126"
 retrieved_at: "2026-10-24T14:30:22+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "SCALE validation for pebble bed reactor applications using the HTR-PROTEUS benchmark suite"
+summary: "OSTI paper validating the SCALE code against HTR-PROTEUS pebble bed reactor benchmarks."
 url: "https://www.osti.gov/biblio/17076844"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

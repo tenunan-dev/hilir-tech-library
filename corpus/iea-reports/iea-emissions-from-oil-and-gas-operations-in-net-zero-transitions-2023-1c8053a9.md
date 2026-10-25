@@ -1,6 +1,7 @@
 ---
 source_id: "iea-reports"
 title: "IEA Emissions from Oil and Gas Operations in Net Zero Transitions 2023"
+summary: "2023 IEA special report finding that oil and gas operations cause about 15% of energy-related emissions (5.1 billion tonnes), and setting out measures to cut them: methane, flaring, electrification and carbon capture."
 url: "https://iea.blob.core.windows.net/assets/2f65984e-73ee-40ba-a4d5-bb2e2c94cecb/EmissionsfromOilandGasOperationinNetZeroTransitions.pdf"
 retrieved_at: "2026-10-24T14:03:11+00:00"
 licence: "CC-BY-4.0"

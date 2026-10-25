@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "A System Dynamics Approach to Analyze Biodiesel Production and Oil Import Dependency in Indonesia"
+summary: "Indonesian policy study combining system dynamics and Monte Carlo simulation to test how biodiesel blending and production capacity affect diesel import dependency."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2019"
 retrieved_at: "2026-10-24T14:29:47+00:00"
 licence: "CC-BY-SA-4.0"

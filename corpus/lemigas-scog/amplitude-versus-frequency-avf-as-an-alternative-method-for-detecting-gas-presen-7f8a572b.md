@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Amplitude Versus Frequency AVF as an Alternative Method for Detecting Gas Presence in Carbonate Reservoirs A C"
+summary: "Seismic study testing amplitude-versus-frequency analysis with continuous wavelet transform to detect gas in carbonate of the Baturaja Formation, South Sumatra Basin, using three wells."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2122"
 retrieved_at: "2026-10-24T14:29:49+00:00"
 licence: "CC-BY-SA-4.0"

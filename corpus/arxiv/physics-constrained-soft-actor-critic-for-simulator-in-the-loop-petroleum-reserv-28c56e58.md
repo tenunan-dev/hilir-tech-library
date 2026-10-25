@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Physics-Constrained Soft Actor-Critic for Simulator-in-the-Loop Petroleum Reservoir History Matching"
+summary: "Machine-learning paper that wraps a commercial reservoir simulator and uses soft actor-critic reinforcement learning to match production history without gradients."
 url: "http://arxiv.org/abs/2608.01986v1"
 published: "2026-08-03T09:46:38Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

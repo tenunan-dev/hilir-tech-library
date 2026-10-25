@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Full Tensor Gravity Gradiometry Sensitivity Analysis for Delineating Lateral Reservoir Boundaries and Subtle D"
+summary: "Forward modelling study with SimPEG showing how full tensor gravity gradiometry can delineate basin edges and shallow reservoirs with subtle density contrasts."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2116"
 retrieved_at: "2026-10-24T14:30:23+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Unit-to-Plant Stability Shaping of Multi-Electrolyzer ReP2H Plants via Interface Design and Dispatch"
+summary: "Research paper on stability of multi-electrolyzer renewable power-to-hydrogen plants, covering rectifier control interface design and dispatch that keeps units away from instability."
 url: "http://arxiv.org/abs/2608.22696v1"
 published: "2026-08-24T01:21:44Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

@@ -157,7 +157,9 @@ def build(db_path=None, corpus=None):
         db.execute("INSERT INTO docs VALUES (?, ?, ?, ?, ?)",
                    (rel, meta.get("source_id"), meta.get("title"), meta.get("url"), json.dumps(meta, ensure_ascii=False)))
         tags = tag_text({**meta, "regions": by_id.get(meta.get("source_id"), {}).get("regions", [])}, labels)
-        for i, text in enumerate(chunk(body)):
+        # The library's own summary leads the first chunk so searches reach it and snippets start with it.
+        indexed = f"{meta['summary']}\n\n{body}" if meta.get("summary") else body
+        for i, text in enumerate(chunk(indexed)):
             db.execute("INSERT INTO search VALUES ('chunk', ?, ?, ?, ?, ?)",
                        (f"{rel}#{i}", meta.get("source_id"), meta.get("title"), text, tags))
             n_chunks += 1
@@ -210,6 +212,8 @@ def _result(db, row, score, records):
         meta = json.loads(doc["meta"]) if doc else {}
         out.update({k: meta[k] for k in ("licence", "reuse_level", "permitted_use") if k in meta})
         out.update(path=path, url=doc["url"] if doc else None, snippet=row["text"][:400])
+        if meta.get("summary"):
+            out["summary"] = meta["summary"]
         if doc_restricted(db, path, rec):
             out["use_note"] = "Private reference copy. Do not redistribute or use commercially; cite the url."
     return out

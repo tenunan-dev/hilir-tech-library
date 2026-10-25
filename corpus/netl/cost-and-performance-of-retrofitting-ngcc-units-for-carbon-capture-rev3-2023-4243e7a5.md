@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "Cost and Performance of Retrofitting NGCC Units for Carbon Capture Rev3 2023"
+summary: "NETL report (rev. 3, 2023) on the cost and performance of retrofitting existing natural gas combined cycle units for CO2 capture, including capture rates above 95%."
 url: "https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf"
 retrieved_at: "2026-10-24T04:53:06+00:00"
 licence: "public-domain"

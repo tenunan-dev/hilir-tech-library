@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Identification of Potential Unconventional Oil and Gas Zones Based on Permeability Mobility and Transmissibili"
+summary: "Petrophysical study identifying unconventional tight carbonate gas zones from permeability, mobility and transmissibility, alongside organic richness."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2081"
 retrieved_at: "2026-10-24T14:30:26+00:00"
 licence: "CC-BY-SA-4.0"

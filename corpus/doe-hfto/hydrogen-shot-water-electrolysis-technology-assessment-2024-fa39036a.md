@@ -1,6 +1,7 @@
 ---
 source_id: "doe-hfto"
 title: "Hydrogen Shot Water Electrolysis Technology Assessment 2024"
+summary: "2024 DOE Hydrogen Shot assessment of water electrolysis technology pathways, comparing technologies and their cost and readiness against the Hydrogen Shot goal."
 url: "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf"
 retrieved_at: "2026-10-24T05:14:03+00:00"
 licence: "public-domain"

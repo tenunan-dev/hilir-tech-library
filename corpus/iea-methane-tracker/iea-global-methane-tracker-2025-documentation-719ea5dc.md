@@ -1,6 +1,7 @@
 ---
 source_id: "iea-methane-tracker"
 title: "IEA Global Methane Tracker 2025 Documentation"
+summary: "IEA documentation for the Global Methane Tracker, explaining how methane emission estimates are built within the IEA's energy modelling framework and what data they use."
 url: "https://iea.blob.core.windows.net/assets/451af9a0-8736-40dc-b843-69275d6fdb07/GlobalMethaneTracker2025Documentation.pdf"
 retrieved_at: "2026-10-24T14:02:47+00:00"
 licence: "CC-BY-4.0"

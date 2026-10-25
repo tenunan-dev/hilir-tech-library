@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Hydrotreating pine-derived catalytic fast pyrolysis oil to jet fuel: Process durability and impact of operating conditions"
+summary: "OSTI paper on hydrotreating pine catalytic fast pyrolysis oil to jet fuel over NiMo catalyst for 410 hours under varied pressure, temperature and space velocity."
 url: "https://www.osti.gov/biblio/3377340"
 published: "2027-01-15T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

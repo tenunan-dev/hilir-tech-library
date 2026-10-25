@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Catalytic monoterpenes conversion over Pd and zeolite to sustainable aviation fuel"
+summary: "OSTI paper from Oak Ridge on converting waste wood-drying terpenes over Pd and zeolite catalysts into sustainable aviation fuel instead of burning them."
 url: "https://www.osti.gov/biblio/3452333"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

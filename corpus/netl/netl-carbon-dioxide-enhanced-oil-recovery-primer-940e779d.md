@@ -1,6 +1,7 @@
 ---
 source_id: "netl"
 title: "NETL Carbon Dioxide Enhanced Oil Recovery Primer"
+summary: "NETL primer explaining the physics, engineering basics and economics of CO2 enhanced oil recovery."
 url: "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf"
 retrieved_at: "2026-10-24T14:02:48+00:00"
 licence: "public-domain"

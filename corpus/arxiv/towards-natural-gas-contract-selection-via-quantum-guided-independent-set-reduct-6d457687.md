@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Towards Natural Gas Contract Selection via Quantum-Guided Independent Set Reduction"
+summary: "Research paper framing natural gas contract selection as a maximum independent set problem and exploring a quantum-guided reduction to solve it."
 url: "http://arxiv.org/abs/2609.00881v1"
 published: "2026-09-01T08:14:34Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

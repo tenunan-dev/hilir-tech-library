@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Emission Trading Systems in Indonesia s Power Generation Sub Sector Comparative Analysis Governance Failures a"
+summary: "Policy analysis comparing emission trading systems in the EU, China and Indonesia for power generation and showing how long-term power contracts can weaken compliance and the polluter-pays principle in Indonesia."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2106"
 retrieved_at: "2026-10-24T14:30:20+00:00"
 licence: "CC-BY-SA-4.0"

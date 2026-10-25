@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Rheological Screening of HPAM for High Salinity EOR"
+summary: "Laboratory screening of five commercial HPAM polymers at 500 to 5000 ppm, salinities of 3,000 to 200,000 ppm and up to 90 C for polymer flooding in high-salinity reservoirs."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125"
 retrieved_at: "2026-10-24T14:30:46+00:00"
 licence: "CC-BY-SA-4.0"

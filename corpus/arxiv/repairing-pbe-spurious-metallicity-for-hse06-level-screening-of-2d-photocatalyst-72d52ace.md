@@ -1,6 +1,7 @@
 ---
 source_id: "arxiv"
 title: "Repairing PBE-Spurious Metallicity for HSE06-Level Screening of 2D Photocatalysts for Green Hydrogen Production"
+summary: "Computational paper on correcting PBE electronic-structure errors that wrongly drop narrow-gap 2D materials from photocatalyst screening for hydrogen production."
 url: "http://arxiv.org/abs/2609.02883v1"
 published: "2026-09-02T17:57:21Z"
 retrieved_at: "2026-10-23T14:24:39+00:00"

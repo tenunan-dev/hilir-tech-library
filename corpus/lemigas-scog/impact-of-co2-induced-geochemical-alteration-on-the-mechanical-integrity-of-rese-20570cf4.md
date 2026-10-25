@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Impact of CO2 Induced Geochemical Alteration on The Mechanical Integrity of Reservoir and Caprock in Saline Aq"
+summary: "Reservoir simulation study coupling geochemistry and geomechanics in CMG-GEM to see how CO2 changes reservoir and caprock integrity and fracture pressure margin in a saline aquifer."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135"
 retrieved_at: "2026-10-24T14:30:28+00:00"
 licence: "CC-BY-SA-4.0"

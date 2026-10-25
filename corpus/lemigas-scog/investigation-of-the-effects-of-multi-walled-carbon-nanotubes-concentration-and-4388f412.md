@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Investigation of the Effects of Multi Walled Carbon Nanotubes Concentration and Sonication Time on the Perform"
+summary: "Laboratory study of how multi-walled carbon nanotube concentration and sonication time affect an SDS-stabilised nanofluid for enhanced oil recovery."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2162"
 retrieved_at: "2026-10-24T14:30:31+00:00"
 licence: "CC-BY-SA-4.0"

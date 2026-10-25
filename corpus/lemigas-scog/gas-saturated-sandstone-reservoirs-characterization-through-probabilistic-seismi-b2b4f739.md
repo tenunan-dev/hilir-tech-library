@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Gas Saturated Sandstone Reservoirs Characterization through Probabilistic Seismic Inversion Using Bayesian Neu"
+summary: "Seismic inversion study using a convolutional Bayesian neural network to characterise shallow gas sandstone reservoirs in Indonesia with uncertainty estimates."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2138"
 retrieved_at: "2026-10-24T14:30:24+00:00"
 licence: "CC-BY-SA-4.0"

@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Examining experimental nitrogen-based emissions trends from ammonia/diesel and ammonia/hydrogen/diesel combustion"
+summary: "OSTI paper on nitrogen-based emissions from dual-fuel combustion of ammonia, and ammonia with hydrogen, ignited by a diesel pilot."
 url: "https://www.osti.gov/biblio/3452318"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

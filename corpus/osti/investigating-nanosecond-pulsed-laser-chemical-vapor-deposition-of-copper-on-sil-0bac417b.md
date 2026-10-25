@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Investigating Nanosecond Pulsed Laser Chemical \nVapor Deposition of Copper on Silicon utilizing\nCu(hfac) tmvs precursor gas"
+summary: "OSTI paper on nanosecond pulsed laser chemical vapour deposition of copper on silicon; not related to oil and gas technology."
 url: "https://www.osti.gov/biblio/17084224"
 published: "2027-01-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

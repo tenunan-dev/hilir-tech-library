@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Copolymer microstructure evolution in hydrodechlorination of PVC: A triad kinetics model for sequence modification"
+summary: "OSTI paper presenting a kinetics model for how copolymer sequence changes during hydrodechlorination of PVC."
 url: "https://www.osti.gov/biblio/17047511"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

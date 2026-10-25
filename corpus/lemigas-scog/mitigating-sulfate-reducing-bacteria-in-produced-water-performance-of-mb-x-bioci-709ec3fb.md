@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Mitigating Sulfate Reducing Bacteria in Produced Water Performance of MB X Biocide Assessed by Sulfate Reducin"
+summary: "Laboratory study of how well the biocide MB-X at 50 to 200 ppm suppresses sulfate-reducing bacteria in produced water, a cause of corrosion and souring in waterfloods."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2068"
 retrieved_at: "2026-10-24T14:30:34+00:00"
 licence: "CC-BY-SA-4.0"

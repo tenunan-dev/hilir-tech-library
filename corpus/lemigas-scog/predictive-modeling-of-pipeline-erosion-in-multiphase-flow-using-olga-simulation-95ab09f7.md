@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Predictive Modeling of Pipeline Erosion in Multiphase Flow Using OLGA Simulation and Response Surface Methodol"
+summary: "Hybrid study using OLGA multiphase simulation and response surface methodology (46 Box-Behnken cases) to predict the erosional velocity ratio in gas condensate pipelines under API RP 14E."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2078"
 retrieved_at: "2026-10-24T14:30:44+00:00"
 licence: "CC-BY-SA-4.0"

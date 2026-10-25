@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Bottom Hole Assembly Performance Evaluation for Horizontal Well Drilling Case Study of Well AM 63 in Penang Fi"
+summary: "Drilling case study evaluating the bottom hole assembly of horizontal well AM-63 in the Penang Field to cut torque, drag and stuck-pipe risk, with recommendations for later wells."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2142"
 retrieved_at: "2026-10-24T14:29:53+00:00"
 licence: "CC-BY-SA-4.0"

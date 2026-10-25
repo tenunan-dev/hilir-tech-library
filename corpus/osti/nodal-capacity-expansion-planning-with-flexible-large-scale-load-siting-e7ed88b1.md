@@ -1,6 +1,7 @@
 ---
 source_id: "osti"
 title: "Nodal capacity expansion planning with flexible large-scale load siting"
+summary: "OSTI paper on a stochastic capacity expansion model that co-plans generation, transmission, storage and flexible large-load siting."
 url: "https://www.osti.gov/biblio/3375389"
 published: "2027-02-01T00:00:00Z"
 retrieved_at: "2026-10-23T14:18:07+00:00"

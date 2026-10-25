@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Netback Value Assessment of Indonesia s Natural Gas Sector Implications for Domestic Market Obligation and Ind"
+summary: "Indonesian policy analysis of netback values in the gas sector, looking at how the 25% domestic market obligation and the US$6.50 to 7.00/MMBtu price ceiling for priority industries sit against LNG exports."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2183"
 retrieved_at: "2026-10-24T14:30:37+00:00"
 licence: "CC-BY-SA-4.0"

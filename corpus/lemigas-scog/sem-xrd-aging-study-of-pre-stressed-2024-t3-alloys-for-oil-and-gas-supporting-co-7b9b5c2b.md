@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "SEM XRD Aging Study of Pre Stressed 2024 T3 Alloys for Oil and Gas Supporting Components"
+summary: "Materials study of pre-strained and aged AA2024-T3 aluminium alloy using SEM, XRD and hardness tests, for non-wetted oil and gas support components such as brackets and housings."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2146"
 retrieved_at: "2026-10-24T14:30:47+00:00"
 licence: "CC-BY-SA-4.0"

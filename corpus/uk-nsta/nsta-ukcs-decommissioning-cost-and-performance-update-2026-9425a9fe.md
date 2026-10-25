@@ -1,6 +1,7 @@
 ---
 source_id: "uk-nsta"
 title: "NSTA UKCS Decommissioning Cost and Performance Update 2026"
+summary: "NSTA 2026 update on UK Continental Shelf decommissioning cost and performance, reporting record industry spending of GBP 2.6 billion in 2025."
 url: "https://www.nstauthority.co.uk/media/w1fa3xvv/ukcs-decommissioning-cost-and-performance-update-2026.pdf"
 retrieved_at: "2026-10-24T14:02:52+00:00"
 licence: "NSTA-Open-User-Licence"

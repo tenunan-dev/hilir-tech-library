@@ -1,6 +1,7 @@
 ---
 source_id: "lemigas-scog"
 title: "Artificial Intelligence Based Reservoir Quality Clustering to Determine New Drilling Well Locations"
+summary: "Indonesian study of machine learning models (Random Forest performed best on estimated ultimate recovery) used to cluster reservoir quality and choose new drilling locations."
 url: "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2075"
 retrieved_at: "2026-10-24T14:29:52+00:00"
 licence: "CC-BY-SA-4.0"

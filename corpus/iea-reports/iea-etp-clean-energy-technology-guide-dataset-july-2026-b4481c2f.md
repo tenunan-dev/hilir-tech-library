@@ -1,6 +1,7 @@
 ---
 source_id: "iea-reports"
 title: "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
+summary: "Public IEA dataset (July 2026, 634 entries) giving the technology readiness level history, category and value chain of clean energy technologies; the library uses it for TRL on technology cards."
 url: "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide"
 published: "2026-07-24"
 retrieved_at: "2026-10-24T06:04:50+00:00"
