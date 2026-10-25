@@ -1,0 +1,188 @@
+{
+  "id": "rot-steam-turbines-expanders",
+  "name": "Steam turbines and expanders",
+  "aliases": [
+    "Steam turbines and expanders"
+  ],
+  "sector": "ROT",
+  "category": "Rotating equipment",
+  "applications": [
+    "mechanical drive of pumps and compressors",
+    "power generation"
+  ],
+  "maturity": "commercial",
+  "principle": "A steam turbine extracts thermal energy from pressurised steam in several stages and converts it to shaft work, often driving a generator, pump or compressor.",
+  "process_steps": [
+    {
+      "id": "STEAM",
+      "name": "Pressurised steam enters through throttle and governor valves",
+      "equipment": [
+        "throttle valve"
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "Steam expands through impulse and reaction stages",
+      "equipment": [
+        "nozzles",
+        "blades"
+      ]
+    },
+    {
+      "id": "SHAFT",
+      "name": "Rotor drives the load",
+      "equipment": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "EXH",
+      "name": "Exhaust steam condensed or used as process steam",
+      "equipment": [
+        "condenser"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "rotor",
+    "nozzles and blades",
+    "casing",
+    "governor and valves",
+    "condenser"
+  ],
+  "suppliers": [
+    {
+      "name": "Siemens Energy"
+    },
+    {
+      "name": "GE Vernova"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries"
+    },
+    {
+      "name": "Baker Hughes"
+    },
+    {
+      "name": "MAN Energy Solutions"
+    },
+    {
+      "name": "Doosan Skoda Power"
+    },
+    {
+      "name": "Dongfang Electric"
+    },
+    {
+      "name": "Shanghai Electric"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "isentropic efficiency",
+      "unit": "%",
+      "basis": "range stated, depending on application",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_turbine",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Steam turbine, read 25 October 2026 (secondary source)"
+      },
+      "low": 20,
+      "high": 90
+    },
+    {
+      "metric": "unit size",
+      "unit": "kW (from under 0.75 kW up to 1,500 MW)",
+      "basis": "range of units built, as stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_turbine",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Steam turbine, read 25 October 2026 (secondary source)"
+      },
+      "low": 0.75,
+      "high": 1500000
+    }
+  ],
+  "costs": [
+    {
+      "metric": "maintenance cost",
+      "unit": "USD per kWh",
+      "basis": "typical value as stated; dollar year not stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_turbine",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Steam turbine, read 25 October 2026 (secondary source)"
+      },
+      "low": 0.005,
+      "high": 0.005
+    }
+  ],
+  "advantages": [
+    "Operating life often exceeds 50 years"
+  ],
+  "limitations": [
+    "The page covers steam turbines for power; expander (process gas) turbines are not covered"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Steam_turbine",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Steam turbine, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "expander duties such as turboexpanders in LNG and gas plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page covers steam turbines only.",
+      "where": [
+        {
+          "hint": "OEM pages for turboexpanders",
+          "access": "open"
+        }
+      ],
+      "action": "Add a card or section for gas expanders with figures."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "hse-pha-hazop-lopa-qra",
+  "name": "Process hazard analysis (HAZOP, LOPA, QRA)",
+  "aliases": [
+    "Process hazard analysis (HAZOP, LOPA, QRA)"
+  ],
+  "sector": "HSE",
+  "category": "Health, safety and environment",
+  "applications": [
+    "design review of process plants"
+  ],
+  "maturity": "commercial",
+  "principle": "HAZOP is a structured team examination of a design that applies guide words to process parameters to find deviations, causes, consequences and safeguards. Probabilistic risk assessment adds quantified likelihood and consequence.",
+  "process_steps": [
+    {
+      "id": "NODE",
+      "name": "Divide design into nodes on P&IDs",
+      "equipment": [
+        "P&IDs"
+      ]
+    },
+    {
+      "id": "INTENT",
+      "name": "State design intent"
+    },
+    {
+      "id": "GUIDE",
+      "name": "Apply guide words (no, more, less, as well as, part of, reverse, other than)"
+    },
+    {
+      "id": "SAFE",
+      "name": "List causes, consequences and safeguards; set actions",
+      "equipment": [
+        "risk matrix"
+      ]
+    },
+    {
+      "id": "CLOSE",
+      "name": "Close out actions"
+    }
+  ],
+  "key_equipment": [
+    "P&IDs",
+    "HAZOP worksheets",
+    "fault and event tree software"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "minimum recommended HAZOP team",
+      "unit": "people (up to 20 on large projects)",
+      "basis": "stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hazard_and_operability_study",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Hazard and operability study, read 25 October 2026 (secondary source)"
+      },
+      "low": 5,
+      "high": 20
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "HAZOP is qualitative",
+    "The LOPA page was not found and the PRA page does not cover process-industry QRA"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hazard_and_operability_study",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Hazard and operability study, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Probabilistic_risk_assessment",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Probabilistic risk assessment, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "other",
+      "item": "LOPA method and QRA in process industries",
+      "reason_code": "not_in_sources_read",
+      "reason": "No page for LOPA was read.",
+      "where": [
+        {
+          "hint": "CCPS LOPA guidance",
+          "access": "paid"
+        },
+        {
+          "hint": "IEC 61882",
+          "access": "open"
+        }
+      ],
+      "action": "Add LOPA steps and QRA criteria."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

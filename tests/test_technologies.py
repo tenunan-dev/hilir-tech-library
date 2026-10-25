@@ -93,4 +93,5 @@ def test_list_gaps_filters(tmp_path):
     hits = library.list_gaps(field="costs", sector="REF", db=db)
     assert hits and all(h["field"] == "costs" and h["sector"] == "REF" for h in hits)
     assert not any(h["reason_code"] == "no_card_yet" for h in library.list_gaps(db=db))
-    assert any(h["reason_code"] == "no_card_yet" for h in library.list_gaps(include_no_card=True, db=db))
+    # Every register entry now has a card, so the option adds nothing today; it must still run and never lose gaps.
+    assert len(library.list_gaps(include_no_card=True, db=db)) >= len(library.list_gaps(db=db))

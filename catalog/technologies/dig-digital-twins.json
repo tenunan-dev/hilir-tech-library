@@ -1,0 +1,133 @@
+{
+  "id": "dig-digital-twins",
+  "name": "Digital twins of plants and assets",
+  "aliases": [
+    "Digital twins of plants and assets"
+  ],
+  "sector": "DIG",
+  "category": "Digital and data",
+  "applications": [
+    "predictive maintenance of machinery",
+    "virtual commissioning"
+  ],
+  "maturity": "commercial",
+  "principle": "A digital twin is a computational model that continuously uses real data from its physical counterpart to stay synchronised. Data flowing one way is a digital shadow; two-way flow including control commands is a twin.",
+  "process_steps": [
+    {
+      "id": "MODEL",
+      "name": "Build the model",
+      "equipment": [
+        "simulation model"
+      ]
+    },
+    {
+      "id": "LINK",
+      "name": "Connect it to live data via a digital thread",
+      "equipment": [
+        "IoT gateway",
+        "historian"
+      ]
+    },
+    {
+      "id": "USE",
+      "name": "Predict, optimise and test changes"
+    }
+  ],
+  "key_equipment": [
+    "simulation model",
+    "data connection",
+    "visualisation"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "smart energy system consumption cut",
+      "unit": "% (up to)",
+      "basis": "example quoted for smart energy systems, not oil and gas",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Digital_twin",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Digital twin, read 25 October 2026 (secondary source)"
+      },
+      "high": 30
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "The Wikipedia page has no oil, gas or process-industry section",
+    "Disagreement exists over what counts as a twin"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Digital_twin",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Digital twin, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "oil and gas twin deployments",
+      "reason_code": "not_in_sources_read",
+      "reason": "None on the page.",
+      "where": [
+        {
+          "hint": "Operator and vendor case studies",
+          "access": "open"
+        }
+      ],
+      "action": "Add examples with source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

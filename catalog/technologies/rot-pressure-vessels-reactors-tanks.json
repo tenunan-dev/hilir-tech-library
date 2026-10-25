@@ -1,0 +1,169 @@
+{
+  "id": "rot-pressure-vessels-reactors-tanks",
+  "name": "Pressure vessels, reactors and cryogenic tanks",
+  "aliases": [
+    "Pressure vessels, reactors and cryogenic tanks"
+  ],
+  "sector": "ROT",
+  "category": "Static equipment",
+  "applications": [
+    "storage of LPG, ammonia and chlorine",
+    "process reactors",
+    "separators"
+  ],
+  "maturity": "commercial",
+  "principle": "Vessels hold gas or liquid at a pressure different from ambient; the wall carries the load in tension. Design is governed by codes such as ASME BPVC and the EU Pressure Equipment Directive.",
+  "process_steps": [
+    {
+      "id": "DES",
+      "name": "Design to a code (ASME BPVC, EN 13445)",
+      "equipment": [
+        "design code"
+      ]
+    },
+    {
+      "id": "FAB",
+      "name": "Fabricate shell, heads and nozzles",
+      "equipment": [
+        "shell",
+        "heads"
+      ]
+    },
+    {
+      "id": "TEST",
+      "name": "Hydrostatic test at 1.5 times working pressure",
+      "equipment": [
+        "test rig"
+      ]
+    },
+    {
+      "id": "STAMP",
+      "name": "Inspector signs off; nameplate with U-stamp"
+    }
+  ],
+  "key_equipment": [
+    "shell",
+    "heads",
+    "nozzles",
+    "relief valves and rupture discs",
+    "supports"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "hydrostatic test pressure",
+      "unit": "times working pressure",
+      "basis": "as stated for pressure vessels",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pressure_vessel",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Pressure vessel, read 25 October 2026 (secondary source)"
+      },
+      "low": 1.5,
+      "high": 1.5
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "The Wikipedia page does not cover cryogenic tanks or process reactors in detail"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pressure_vessel",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Pressure vessel, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "fabricators of pressure vessels, reactors and cryogenic tanks",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no suppliers for this technology.",
+      "where": [
+        {
+          "hint": "Fabricator pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add suppliers from vendor pages, with the product each supplies."
+    },
+    {
+      "field": "performance",
+      "item": "cryogenic tank designs (full-containment LNG, double-wall LH2)",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the page read.",
+      "where": [
+        {
+          "hint": "IGU and OEM LNG tank pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add a cryogenic section with sources."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

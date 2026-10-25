@@ -1,0 +1,187 @@
+{
+  "id": "rot-air-coolers-cooling-towers",
+  "name": "Air coolers and cooling towers",
+  "aliases": [
+    "Air coolers and cooling towers"
+  ],
+  "sector": "ROT",
+  "category": "Static equipment",
+  "applications": [
+    "oil and gas",
+    "refineries",
+    "natural gas processing",
+    "hydrogen and CCUS plants"
+  ],
+  "maturity": "commercial",
+  "principle": "Air coolers pass hot process fluid through finned tubes cooled by fan-driven air; cooling towers reject heat by evaporating water. Both remove process heat when cooling water or low ambient air is the sink.",
+  "process_steps": [
+    {
+      "id": "HOT",
+      "name": "Hot process fluid enters finned tube bundle or tower fill",
+      "equipment": [
+        "header box",
+        "fill"
+      ]
+    },
+    {
+      "id": "AIR",
+      "name": "Fans move air across tubes or tower fill",
+      "equipment": [
+        "fans"
+      ]
+    },
+    {
+      "id": "REJ",
+      "name": "Heat rejected to air; evaporation in a tower",
+      "equipment": [
+        "drift eliminators"
+      ]
+    },
+    {
+      "id": "COOL",
+      "name": "Cooled fluid returns to the process",
+      "equipment": [
+        "basin"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "finned tube bundles",
+    "fans",
+    "fill",
+    "drift eliminators",
+    "basin"
+  ],
+  "suppliers": [
+    {
+      "name": "Alfa Laval",
+      "product": "finned tube air heat exchangers"
+    },
+    {
+      "name": "Hamon",
+      "product": "cooling tower design (named in the Wikipedia reference)"
+    },
+    {
+      "name": "SPX Cooling Technologies"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "API 661 air cooler temperature limit",
+      "unit": "degC (up to)",
+      "basis": "Alfa Laval states API 661 units handle up to 400 degC",
+      "source": {
+        "url": "https://www.alfalaval.com/products/heat-transfer/finned-tube-air-heat-exchangers/Finned-tube-air-heat-exchangers/",
+        "note": "Alfa Laval, Finned tube air heat exchangers (vendor page, read 25 October 2026)"
+      },
+      "high": 400
+    },
+    {
+      "metric": "API 661 air cooler pressure limit",
+      "unit": "bar (up to)",
+      "basis": "Alfa Laval states API 661 units handle up to 700 bar",
+      "source": {
+        "url": "https://www.alfalaval.com/products/heat-transfer/finned-tube-air-heat-exchangers/Finned-tube-air-heat-exchangers/",
+        "note": "Alfa Laval, Finned tube air heat exchangers (vendor page, read 25 October 2026)"
+      },
+      "high": 700
+    },
+    {
+      "metric": "refinery cooling water circulation",
+      "unit": "m3/h",
+      "basis": "example of a 300,000 bbl/d refinery given in the Wikipedia cooling tower article",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Cooling_tower",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Cooling tower, read 25 October 2026 (secondary source)"
+      },
+      "low": 80000,
+      "high": 80000
+    },
+    {
+      "metric": "cooling tower make-up water",
+      "unit": "% of circulation (perhaps)",
+      "basis": "stated for a 700 MWth coal plant example",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Cooling_tower",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Cooling tower, read 25 October 2026 (secondary source)"
+      },
+      "low": 5,
+      "high": 5
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "Legionella control is a public health concern for evaporative towers",
+    "Alfa Laval's page is a vendor description"
+  ],
+  "sources": [
+    {
+      "url": "https://www.alfalaval.com/products/heat-transfer/finned-tube-air-heat-exchangers/Finned-tube-air-heat-exchangers/",
+      "note": "Alfa Laval, Finned tube air heat exchangers (vendor page, read 25 October 2026)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cooling_tower",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Cooling tower, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "air cooler and tower capex and opex",
+      "reason_code": "not_in_sources_read",
+      "reason": "No cost figures in the pages read.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add cost per duty with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

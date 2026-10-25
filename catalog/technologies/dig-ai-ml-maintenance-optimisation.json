@@ -1,0 +1,163 @@
+{
+  "id": "dig-ai-ml-maintenance-optimisation",
+  "name": "AI and machine learning for maintenance and optimisation",
+  "aliases": [
+    "AI and machine learning for maintenance and optimisation"
+  ],
+  "sector": "DIG",
+  "category": "Digital and data",
+  "applications": [
+    "rotating equipment",
+    "fleet monitoring"
+  ],
+  "maturity": "commercial",
+  "principle": "Predictive maintenance estimates when maintenance is needed from measured condition (vibration, acoustic, oil, motor current), and machine learning forecasts future states.",
+  "process_steps": [
+    {
+      "id": "DATA",
+      "name": "Collect and preprocess data",
+      "equipment": [
+        "sensors",
+        "historian"
+      ]
+    },
+    {
+      "id": "DETECT",
+      "name": "Detect and diagnose faults",
+      "equipment": [
+        "models"
+      ]
+    },
+    {
+      "id": "PREDICT",
+      "name": "Predict time to failure"
+    },
+    {
+      "id": "SCHED",
+      "name": "Schedule maintenance in the CMMS",
+      "equipment": [
+        "CMMS"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "vibration and acoustic sensors",
+    "ML platform",
+    "CMMS"
+  ],
+  "suppliers": [],
+  "advantages": [],
+  "limitations": [
+    "Vibration analysis can be the most expensive part to set up",
+    "The page gives no percentage savings and names no vendors"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Predictive_maintenance",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Predictive maintenance, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "AI maintenance vendors",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no suppliers for this technology.",
+      "where": [
+        {
+          "hint": "Vendor pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add suppliers from vendor pages, with the product each supplies."
+    },
+    {
+      "field": "performance",
+      "item": "key performance figures (energy use, yields, capture or conversion rate)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives performance figures.",
+      "where": [
+        {
+          "hint": "Supplier datasheets and brochures for the companies listed on the card",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Add the figures that matter for comparing options, each with its basis and source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

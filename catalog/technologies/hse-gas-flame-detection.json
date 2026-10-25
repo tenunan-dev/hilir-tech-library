@@ -1,0 +1,165 @@
+{
+  "id": "hse-gas-flame-detection",
+  "name": "Gas and flame detection",
+  "aliases": [
+    "Gas and flame detection"
+  ],
+  "sector": "HSE",
+  "category": "Health, safety and environment",
+  "applications": [
+    "refineries",
+    "offshore platforms",
+    "compressor stations"
+  ],
+  "maturity": "commercial",
+  "principle": "Catalytic bead, infrared, electrochemical and ultrasonic sensors detect flammable and toxic gas; ultrasonic detectors hear leaks from pressurised gas.",
+  "process_steps": [
+    {
+      "id": "DETECT",
+      "name": "Sensor responds to gas or leak sound",
+      "equipment": [
+        "sensor"
+      ]
+    },
+    {
+      "id": "ALARM",
+      "name": "Controller raises alarm and executes the cause and effect",
+      "equipment": [
+        "controller"
+      ]
+    },
+    {
+      "id": "CAL",
+      "name": "Calibrate and bump test"
+    }
+  ],
+  "key_equipment": [
+    "catalytic bead",
+    "IR point and open-path sensors",
+    "electrochemical cell",
+    "ultrasonic leak detector"
+  ],
+  "suppliers": [
+    {
+      "name": "J-W Instruments",
+      "product": "catalytic combustion sensors (founded 1928)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "fixed detector calibration interval",
+      "unit": "months",
+      "basis": "quarterly to annual, stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_detector",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Gas detector, read 25 October 2026 (secondary source)"
+      },
+      "low": 3,
+      "high": 12
+    },
+    {
+      "metric": "ultrasonic leak sound band",
+      "unit": "kHz",
+      "basis": "25 kHz to 10 MHz stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_detector",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Gas detector, read 25 October 2026 (secondary source)"
+      },
+      "low": 25,
+      "high": 10000
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "The page has little on optical flame detectors",
+    "Catalytic sensors can be poisoned by silicones and sulfur compounds"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Gas_detector",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Gas detector, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "flame detector types and coverage",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the page.",
+      "where": [
+        {
+          "hint": "Vendor and FM Global guidance",
+          "access": "open"
+        }
+      ],
+      "action": "Add UV/IR flame detector data."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "ins-apc-mpc",
+  "name": "Advanced process control and model predictive control",
+  "aliases": [
+    "Advanced process control and model predictive control"
+  ],
+  "sector": "INS",
+  "category": "Instrumentation and control",
+  "applications": [
+    "chemical plants and oil refineries since the 1980s"
+  ],
+  "maturity": "commercial",
+  "principle": "MPC uses a process model to optimise the current step while accounting for future steps and constraints. Only the first step is applied; then the controller resamples and repeats.",
+  "process_steps": [
+    {
+      "id": "SAMPLE",
+      "name": "Sample plant state",
+      "equipment": [
+        "measurements"
+      ]
+    },
+    {
+      "id": "OPT",
+      "name": "Optimise control moves over a short horizon",
+      "equipment": [
+        "optimiser"
+      ]
+    },
+    {
+      "id": "APPLY",
+      "name": "Apply the first move only",
+      "equipment": [
+        "setpoints"
+      ]
+    },
+    {
+      "id": "REPEAT",
+      "name": "Resample and shift the horizon"
+    }
+  ],
+  "key_equipment": [
+    "process model",
+    "optimiser",
+    "DCS interface"
+  ],
+  "suppliers": [
+    {
+      "name": "MathWorks",
+      "product": "Model Predictive Control Toolbox"
+    }
+  ],
+  "advantages": [
+    "Anticipates future events, which PID controllers cannot",
+    "Handles constraints"
+  ],
+  "limitations": [
+    "Complexity is usually unnecessary for simple systems",
+    "Nonlinear MPC problems may not be convex"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Model_predictive_control",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Model predictive control, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "refinery APC vendors",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page names only MathWorks and open-source tools.",
+      "where": [
+        {
+          "hint": "Vendor pages for APC suites",
+          "access": "open"
+        }
+      ],
+      "action": "Add suppliers from vendor pages, with the product each supplies."
+    },
+    {
+      "field": "performance",
+      "item": "refinery benefit figures",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page gives none.",
+      "where": [
+        {
+          "hint": "Published refinery APC benefit studies",
+          "access": "open"
+        }
+      ],
+      "action": "Add benefits with source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "rot-pumps",
+  "name": "Centrifugal and positive displacement pumps",
+  "aliases": [
+    "Centrifugal and positive displacement pumps"
+  ],
+  "sector": "ROT",
+  "category": "Rotating equipment",
+  "applications": [
+    "boiler feed",
+    "process transfer",
+    "pipeline pumping"
+  ],
+  "maturity": "commercial",
+  "principle": "A centrifugal pump converts rotational kinetic energy into hydrodynamic energy of the fluid with an impeller inside a volute or diffuser casing. Positive-displacement pumps suit high pressure and are the alternative.",
+  "process_steps": [
+    {
+      "id": "EYE",
+      "name": "Fluid enters at the eye of the casing",
+      "equipment": [
+        "suction"
+      ]
+    },
+    {
+      "id": "IMP",
+      "name": "Impeller accelerates the fluid outward",
+      "equipment": [
+        "impeller",
+        "driver"
+      ]
+    },
+    {
+      "id": "VOL",
+      "name": "Volute or diffuser slows it and raises pressure",
+      "equipment": [
+        "volute"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "impeller",
+    "casing",
+    "shaft and bearings",
+    "seal or gland",
+    "driver (motor or turbine)"
+  ],
+  "suppliers": [
+    {
+      "name": "American Marsh",
+      "product": "early self-priming centrifugal pump (1938)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "boiler feed pump flow",
+      "unit": "L/s per pump at 21 MPa",
+      "basis": "two pumps in parallel for a 350 MW unit, example given in the article",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Centrifugal_pump",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Centrifugal pump, read 25 October 2026 (secondary source)"
+      },
+      "low": 150,
+      "high": 150
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "The Wikipedia page gives no efficiency or head ranges and says little about positive-displacement pumps",
+    "Only one historic manufacturer is named"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Centrifugal_pump",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Centrifugal pump, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "current pump OEMs for API 610 service",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only a 1938 manufacturer is named.",
+      "where": [
+        {
+          "hint": "OEM pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add suppliers from vendor pages, with the product each supplies."
+    },
+    {
+      "field": "performance",
+      "item": "pump efficiency, head and flow by type",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated on the page.",
+      "where": [
+        {
+          "hint": "Hydraulic Institute and OEM catalogues",
+          "access": "open"
+        }
+      ],
+      "action": "Add ranges per pump class."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

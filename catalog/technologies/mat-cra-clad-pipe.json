@@ -1,0 +1,200 @@
+{
+  "id": "mat-cra-clad-pipe",
+  "name": "Corrosion-resistant alloys and clad pipe",
+  "aliases": [
+    "Corrosion-resistant alloys and clad pipe"
+  ],
+  "sector": "MAT",
+  "category": "Materials and integrity",
+  "applications": [
+    "pipework, manifolds and risers",
+    "deepwater offshore production"
+  ],
+  "maturity": "commercial",
+  "principle": "Duplex stainless steels combine high chromium and nitrogen with lower nickel, giving chloride resistance and about twice the yield strength of austenitic grades. Cladding bonds a corrosion-resistant layer to a carbon steel base.",
+  "process_steps": [
+    {
+      "id": "SELECT",
+      "name": "Select grade by PREN and strength",
+      "equipment": [
+        "alloy selection"
+      ]
+    },
+    {
+      "id": "FORM",
+      "name": "Roll-bond or explosion-bond the cladding, or weld overlay",
+      "equipment": [
+        "cladding process"
+      ]
+    },
+    {
+      "id": "FAB",
+      "name": "Hot-form, heat treat and weld",
+      "equipment": [
+        "furnace"
+      ]
+    },
+    {
+      "id": "INSP",
+      "name": "Inspect for sigma phase and defects"
+    }
+  ],
+  "key_equipment": [
+    "duplex and super-duplex pipe",
+    "clad plate and pipe",
+    "weld overlay"
+  ],
+  "suppliers": [
+    {
+      "name": "Alleima",
+      "product": "duplex tube (named in the Wikipedia reference)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "duplex minimum 0.2% proof strength (22%Cr)",
+      "unit": "MPa",
+      "basis": "minimum stated; austenitic 304 is about 280 MPa",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Duplex_stainless_steel",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Duplex stainless steel, read 25 October 2026 (secondary source)"
+      },
+      "low": 450,
+      "high": 450
+    },
+    {
+      "metric": "super-duplex PREN",
+      "unit": "PREN",
+      "basis": "PREN = %Cr + 3.3 %Mo + 16 %N",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Duplex_stainless_steel",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Duplex stainless steel, read 25 October 2026 (secondary source)"
+      },
+      "low": 38,
+      "high": 45
+    },
+    {
+      "metric": "embrittlement temperature range",
+      "unit": "degC",
+      "basis": "especially near 475 degC",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Duplex_stainless_steel",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Duplex stainless steel, read 25 October 2026 (secondary source)"
+      },
+      "low": 280,
+      "high": 500
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "Cladding page does not mention clad pipe, pressure vessels or oil and gas",
+    "Wikipedia has no page on corrosion-resistant alloys in general"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Duplex_stainless_steel",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Duplex stainless steel, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cladding_(metalworking)",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Cladding (metalworking), read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "nickel alloy and CRA-lined pipe data (API 5LD, NORSOK M-001)",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the pages read.",
+      "where": [
+        {
+          "hint": "API 5LD and NORSOK summaries",
+          "access": "open"
+        }
+      ],
+      "action": "Add data with source."
+    },
+    {
+      "field": "suppliers",
+      "item": "CRA pipe makers",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no suppliers for this technology.",
+      "where": [
+        {
+          "hint": "Producer pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add suppliers from vendor pages, with the product each supplies."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

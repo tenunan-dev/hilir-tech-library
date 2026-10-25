@@ -1,0 +1,174 @@
+{
+  "id": "hse-nox-control",
+  "name": "NOx control (SCR, SNCR, low-NOx burners)",
+  "aliases": [
+    "NOx control (SCR, SNCR, low-NOx burners)"
+  ],
+  "sector": "HSE",
+  "category": "Health, safety and environment",
+  "applications": [
+    "boilers",
+    "gas turbines",
+    "heaters"
+  ],
+  "maturity": "commercial",
+  "principle": "SCR injects ammonia or urea over a catalyst; SNCR injects it into the hot firebox without catalyst.",
+  "process_steps": [
+    {
+      "id": "REAG",
+      "name": "Store and inject ammonia or urea",
+      "equipment": [
+        "reagent tank",
+        "injection grid"
+      ]
+    },
+    {
+      "id": "REACT",
+      "name": "Reaction over catalyst (SCR) or in the firebox (SNCR)",
+      "equipment": [
+        "catalyst",
+        "firebox"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Treated flue gas leaves; monitor ammonia slip"
+    }
+  ],
+  "key_equipment": [
+    "catalyst modules",
+    "ammonia or urea system",
+    "injection grid"
+  ],
+  "suppliers": [
+    {
+      "name": "IHI Corporation",
+      "product": "first large-scale SCR installation (1978)"
+    },
+    {
+      "name": "Engelhard Corporation",
+      "product": "ammonia SCR patent (1957)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "SCR NOx removal",
+      "unit": "%",
+      "basis": "utility, industrial and waste boilers",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Selective_catalytic_reduction",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Selective catalytic reduction, read 25 October 2026 (secondary source)"
+      },
+      "low": 70,
+      "high": 95
+    },
+    {
+      "metric": "SCR ideal temperature window",
+      "unit": "degC",
+      "basis": "630 to 720 K",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Selective_catalytic_reduction",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Selective catalytic reduction, read 25 October 2026 (secondary source)"
+      },
+      "low": 357,
+      "high": 447
+    },
+    {
+      "metric": "SNCR temperature window",
+      "unit": "degC",
+      "basis": "stated operating window",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Selective_non-catalytic_reduction",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Selective non-catalytic reduction, read 25 October 2026 (secondary source)"
+      },
+      "low": 760,
+      "high": 1090
+    },
+    {
+      "metric": "SCR catalyst life in gas-fired plants",
+      "unit": "hours (up to)",
+      "basis": "stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Selective_catalytic_reduction",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Selective catalytic reduction, read 25 October 2026 (secondary source)"
+      },
+      "high": 80000
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "Ammonia slip can form ammonium salts with SO3"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Selective_catalytic_reduction",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Selective catalytic reduction, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Selective_non-catalytic_reduction",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Selective non-catalytic reduction, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "SCR and SNCR capital and operating costs",
+      "reason_code": "not_in_sources_read",
+      "reason": "None on the pages.",
+      "where": [
+        {
+          "hint": "US EPA control cost manual",
+          "access": "open"
+        }
+      ],
+      "action": "Add costs with dollar year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

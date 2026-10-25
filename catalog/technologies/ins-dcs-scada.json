@@ -1,0 +1,202 @@
+{
+  "id": "ins-dcs-scada",
+  "name": "Distributed control systems and SCADA",
+  "aliases": [
+    "Distributed control systems and SCADA"
+  ],
+  "sector": "INS",
+  "category": "Instrumentation and control",
+  "applications": [
+    "refineries",
+    "petrochemical plants",
+    "oil and gas pipelines"
+  ],
+  "maturity": "commercial",
+  "principle": "A DCS spreads control among autonomous controllers on a network, so one failure affects only part of a plant. SCADA adds supervisory computers, RTUs, PLCs and operator screens for geographically spread assets such as pipelines.",
+  "process_steps": [
+    {
+      "id": "FIELD",
+      "name": "Field sensors and valves (level 0)",
+      "equipment": [
+        "sensors",
+        "control valves"
+      ]
+    },
+    {
+      "id": "IO",
+      "name": "I/O modules and controllers (level 1)",
+      "equipment": [
+        "controllers",
+        "PLCs",
+        "RTUs"
+      ]
+    },
+    {
+      "id": "SUP",
+      "name": "Supervisory computers and operator screens (level 2)",
+      "equipment": [
+        "servers",
+        "HMI"
+      ]
+    },
+    {
+      "id": "PLAN",
+      "name": "Production control and scheduling (levels 3 and 4)"
+    }
+  ],
+  "key_equipment": [
+    "controllers",
+    "I/O modules",
+    "operator stations",
+    "RTUs and PLCs",
+    "historian"
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell"
+    },
+    {
+      "name": "Yokogawa"
+    },
+    {
+      "name": "Emerson"
+    },
+    {
+      "name": "ABB"
+    },
+    {
+      "name": "Siemens"
+    },
+    {
+      "name": "Rockwell Automation"
+    },
+    {
+      "name": "Schneider Electric"
+    },
+    {
+      "name": "Inductive Automation"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "DCS hardware lifecycle",
+      "unit": "years (to over 20)",
+      "basis": "stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Distributed_control_system",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, Distributed control system, read 25 October 2026 (secondary source)"
+      },
+      "low": 15,
+      "high": 20
+    },
+    {
+      "metric": "RTU operating temperature",
+      "unit": "degC",
+      "basis": "upper range quoted for ruggedised RTUs",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SCADA",
+        "source_id": "wikipedia",
+        "note": "Wikipedia, SCADA, read 25 October 2026 (secondary source)"
+      },
+      "low": -40,
+      "high": 85
+    }
+  ],
+  "advantages": [],
+  "limitations": [
+    "Early SCADA systems used proprietary protocols and had little security",
+    "The pages give little oil-and-gas-specific detail"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Distributed_control_system",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Distributed control system, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SCADA",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, SCADA, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "oil and gas pipeline SCADA architectures and performance",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not detailed on the pages read.",
+      "where": [
+        {
+          "hint": "API 1164 and vendor pipeline SCADA pages",
+          "access": "open"
+        }
+      ],
+      "action": "Add examples with source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

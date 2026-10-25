@@ -1,0 +1,183 @@
+{
+  "id": "prc-process-intensification",
+  "name": "Process intensification (rotating packed beds, dividing-wall columns, microreactors)",
+  "aliases": [
+    "Process intensification (rotating packed beds, dividing-wall columns, microreactors)"
+  ],
+  "sector": "PRC",
+  "category": "Process design and simulation",
+  "applications": [
+    "esterification and other reactive-separation duties",
+    "hydrogen production membrane reactors"
+  ],
+  "maturity": "commercial",
+  "principle": "Intensification combines functions into compact multifunctional devices rather than tuning single unit operations. Examples include reactive distillation, membrane reactors, microreactors and dividing-wall columns.",
+  "process_steps": [
+    {
+      "id": "BASE",
+      "name": "Map unit operations and find functions that can be combined",
+      "equipment": [
+        "flowsheet review"
+      ]
+    },
+    {
+      "id": "PICK",
+      "name": "Choose a device: reactive distillation, membrane reactor, microreactor or dividing-wall column",
+      "equipment": [
+        "intensified equipment"
+      ]
+    },
+    {
+      "id": "PILOT",
+      "name": "Pilot and phase the change in, starting with lower-risk options",
+      "equipment": [
+        "pilot unit"
+      ]
+    },
+    {
+      "id": "RUN",
+      "name": "Operate and compare energy and capital against the base case"
+    }
+  ],
+  "key_equipment": [
+    "reactive distillation column",
+    "membrane reactor",
+    "microreactor",
+    "dividing-wall column",
+    "rotating packed bed"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "energy savings from intensification",
+      "unit": "%",
+      "basis": "range stated by the Chemical Processing article; no baseline process given",
+      "source": {
+        "url": "https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources",
+        "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
+      },
+      "low": 20,
+      "high": 60
+    },
+    {
+      "metric": "microreactor channel size",
+      "unit": "um",
+      "basis": "channel dimension quoted in the article",
+      "source": {
+        "url": "https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources",
+        "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
+      },
+      "low": 10,
+      "high": 500
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost reduction",
+      "unit": "%",
+      "basis": "range stated in the article; no dollar amounts or year given",
+      "source": {
+        "url": "https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources",
+        "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
+      },
+      "low": 10,
+      "high": 30
+    },
+    {
+      "metric": "payback period",
+      "unit": "years",
+      "basis": "range stated in the article; dollar year not stated",
+      "source": {
+        "url": "https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources",
+        "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
+      },
+      "low": 1,
+      "high": 3
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Methyl acetate reactive distillation column replacing an eleven-step process",
+      "status": "described, operator not named",
+      "source": {
+        "url": "https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources",
+        "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
+      }
+    }
+  ],
+  "advantages": [
+    "Fewer vessels and less energy",
+    "Over 150 commercial installations are claimed"
+  ],
+  "limitations": [
+    "The article does not cover rotating packed beds and gives only passing mention to dividing-wall columns",
+    "Figures are a trade-press summary without stated baselines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources",
+      "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "licensors of dividing-wall columns, rotating packed beds and microreactors",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no suppliers for this technology.",
+      "where": [
+        {
+          "hint": "Vendor pages for dividing-wall columns and microreactors",
+          "access": "open"
+        }
+      ],
+      "action": "Add suppliers from vendor pages, with the product each supplies."
+    },
+    {
+      "field": "performance",
+      "item": "dividing-wall column and rotating packed bed figures",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Wikipedia pages for these were not found and the article gives no detail.",
+      "where": [
+        {
+          "hint": "Dividing-wall column studies in Chemical Engineering Progress (AIChE)",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add energy and capex figures for each device with source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

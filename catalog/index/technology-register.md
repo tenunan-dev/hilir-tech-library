@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 266 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 300 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -315,62 +315,62 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Process design and simulation | Steady-state and dynamic process simulation | commercial | AspenTech, AVEVA, KBC, Honeywell UniSim |  |
-| Process design and simulation | Pinch analysis and heat integration | commercial | Various |  |
-| Process design and simulation | Process intensification (rotating packed beds, dividing-wall columns, microreactors) | demonstration | Sulzer, Corning |  |
+| Process design and simulation | Steady-state and dynamic process simulation | commercial | AspenTech, AVEVA, KBC, Honeywell UniSim | [card](technologies-PRC.md#prc-process-simulation) |
+| Process design and simulation | Pinch analysis and heat integration | commercial | Various | [card](technologies-PRC.md#prc-pinch-analysis) |
+| Process design and simulation | Process intensification (rotating packed beds, dividing-wall columns, microreactors) | demonstration | Sulzer, Corning | [card](technologies-PRC.md#prc-process-intensification) |
 
 ## ROT: Rotating and static equipment
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Rotating equipment | Centrifugal and axial compressors | commercial | Baker Hughes, Siemens Energy, Elliott, MAN (Everllence), Mitsubishi |  |
-| Rotating equipment | Reciprocating and screw compressors | commercial | Ariel, Burckhardt, Atlas Copco, Howden |  |
-| Rotating equipment | Centrifugal and positive displacement pumps | commercial | Sulzer, Flowserve, KSB, Ebara |  |
-| Rotating equipment | Steam turbines and expanders | commercial | Siemens Energy, GE Vernova, Elliott |  |
-| Rotating equipment | Mechanical seals, magnetic bearings and integrated motor-compressors | commercial | John Crane, Flowserve, SKF |  |
-| Static equipment | Shell-and-tube, plate and printed-circuit heat exchangers | commercial | Alfa Laval, Kelvion, Heatric |  |
-| Static equipment | Air coolers and cooling towers | commercial | Harsco, SPX |  |
-| Static equipment | Fired heaters and low-NOx burners | commercial | John Zink, Zeeco |  |
-| Static equipment | Columns, trays and structured packing | commercial | Sulzer, Koch-Glitsch |  |
-| Static equipment | Pressure vessels, reactors and cryogenic tanks | commercial | Fabricators |  |
-| Static equipment | Valves and actuators | commercial | Emerson, Flowserve, SLB Cameron |  |
+| Rotating equipment | Centrifugal and axial compressors | commercial | Baker Hughes, Siemens Energy, Elliott, MAN (Everllence), Mitsubishi | [card](technologies-ROT.md#rot-centrifugal-axial-compressors) |
+| Rotating equipment | Reciprocating and screw compressors | commercial | Ariel, Burckhardt, Atlas Copco, Howden | [card](technologies-ROT.md#rot-reciprocating-screw-compressors) |
+| Rotating equipment | Centrifugal and positive displacement pumps | commercial | Sulzer, Flowserve, KSB, Ebara | [card](technologies-ROT.md#rot-pumps) |
+| Rotating equipment | Steam turbines and expanders | commercial | Siemens Energy, GE Vernova, Elliott | [card](technologies-ROT.md#rot-steam-turbines-expanders) |
+| Rotating equipment | Mechanical seals, magnetic bearings and integrated motor-compressors | commercial | John Crane, Flowserve, SKF | [card](technologies-ROT.md#rot-seals-bearings-motor-compressors) |
+| Static equipment | Shell-and-tube, plate and printed-circuit heat exchangers | commercial | Alfa Laval, Kelvion, Heatric | [card](technologies-ROT.md#rot-heat-exchangers) |
+| Static equipment | Air coolers and cooling towers | commercial | Harsco, SPX | [card](technologies-ROT.md#rot-air-coolers-cooling-towers) |
+| Static equipment | Fired heaters and low-NOx burners | commercial | John Zink, Zeeco | [card](technologies-ROT.md#rot-fired-heaters-low-nox-burners) |
+| Static equipment | Columns, trays and structured packing | commercial | Sulzer, Koch-Glitsch | [card](technologies-ROT.md#rot-columns-trays-packing) |
+| Static equipment | Pressure vessels, reactors and cryogenic tanks | commercial | Fabricators | [card](technologies-ROT.md#rot-pressure-vessels-reactors-tanks) |
+| Static equipment | Valves and actuators | commercial | Emerson, Flowserve, SLB Cameron | [card](technologies-ROT.md#rot-valves-actuators) |
 
 ## INS: Instrumentation and control
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Instrumentation and control | Distributed control systems and SCADA | commercial | Honeywell, Emerson, Yokogawa, ABB, Siemens |  |
-| Instrumentation and control | Safety instrumented systems | commercial | Honeywell, Emerson, Yokogawa, HIMA |  |
-| Instrumentation and control | Process analysers (gas chromatographs, laser spectroscopy) | commercial | ABB, Yokogawa, Siemens |  |
-| Instrumentation and control | Advanced process control and model predictive control | commercial | AspenTech, Honeywell, Yokogawa |  |
-| Instrumentation and control | OT cybersecurity | commercial | Claroty, Nozomi, Dragos |  |
+| Instrumentation and control | Distributed control systems and SCADA | commercial | Honeywell, Emerson, Yokogawa, ABB, Siemens | [card](technologies-INS.md#ins-dcs-scada) |
+| Instrumentation and control | Safety instrumented systems | commercial | Honeywell, Emerson, Yokogawa, HIMA | [card](technologies-INS.md#ins-safety-instrumented-systems) |
+| Instrumentation and control | Process analysers (gas chromatographs, laser spectroscopy) | commercial | ABB, Yokogawa, Siemens | [card](technologies-INS.md#ins-process-analysers) |
+| Instrumentation and control | Advanced process control and model predictive control | commercial | AspenTech, Honeywell, Yokogawa | [card](technologies-INS.md#ins-apc-mpc) |
+| Instrumentation and control | OT cybersecurity | commercial | Claroty, Nozomi, Dragos | [card](technologies-INS.md#ins-ot-cybersecurity) |
 
 ## MAT: Materials and integrity
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Materials and integrity | Corrosion-resistant alloys and clad pipe | commercial | Outokumpu, Butting |  |
-| Materials and integrity | Coatings and linings | commercial | Jotun, AkzoNobel, Hempel |  |
-| Materials and integrity | Non-destructive testing (UT, PAUT, radiography, eddy current) | commercial | Waygate (Baker Hughes), Olympus (Evident) |  |
-| Materials and integrity | Drones and robotics for inspection | commercial | Flyability, ANYbotics, Gecko Robotics |  |
-| Materials and integrity | Risk-based inspection and integrity management | commercial | DNV, Lloyd's Register, Bureau Veritas |  |
-| Materials and integrity | Non-metallic and composite equipment | commercial | NOV, Future Pipe Industries |  |
+| Materials and integrity | Corrosion-resistant alloys and clad pipe | commercial | Outokumpu, Butting | [card](technologies-MAT.md#mat-cra-clad-pipe) |
+| Materials and integrity | Coatings and linings | commercial | Jotun, AkzoNobel, Hempel | [card](technologies-MAT.md#mat-coatings-linings) |
+| Materials and integrity | Non-destructive testing (UT, PAUT, radiography, eddy current) | commercial | Waygate (Baker Hughes), Olympus (Evident) | [card](technologies-MAT.md#mat-ndt) |
+| Materials and integrity | Drones and robotics for inspection | commercial | Flyability, ANYbotics, Gecko Robotics | [card](technologies-MAT.md#mat-drones-robotics-inspection) |
+| Materials and integrity | Risk-based inspection and integrity management | commercial | DNV, Lloyd's Register, Bureau Veritas | [card](technologies-MAT.md#mat-rbi-integrity) |
+| Materials and integrity | Non-metallic and composite equipment | commercial | NOV, Future Pipe Industries | [card](technologies-MAT.md#mat-nonmetallic-composite) |
 
 ## HSE: Health, safety and environment
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Safety and environment | Process hazard analysis (HAZOP, LOPA, QRA) | commercial | DNV, Gexcon, consultants |  |
-| Safety and environment | Gas and flame detection | commercial | Honeywell, MSA, Dräger |  |
-| Safety and environment | NOx control (SCR, SNCR, low-NOx burners) | commercial | Topsoe, Johnson Matthey, John Zink |  |
-| Safety and environment | Decommissioning and well abandonment | commercial | Contractors |  |
+| Safety and environment | Process hazard analysis (HAZOP, LOPA, QRA) | commercial | DNV, Gexcon, consultants | [card](technologies-HSE.md#hse-pha-hazop-lopa-qra) |
+| Safety and environment | Gas and flame detection | commercial | Honeywell, MSA, Dräger | [card](technologies-HSE.md#hse-gas-flame-detection) |
+| Safety and environment | NOx control (SCR, SNCR, low-NOx burners) | commercial | Topsoe, Johnson Matthey, John Zink | [card](technologies-HSE.md#hse-nox-control) |
+| Safety and environment | Decommissioning and well abandonment | commercial | Contractors | [card](technologies-HSE.md#hse-decommissioning-abandonment) |
 
 ## DIG: Digital
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Digital | Digital twins of plants and assets | commercial | AVEVA, Siemens, Bentley, Kongsberg |  |
-| Digital | Industrial IoT and wireless sensors | commercial | Emerson, Honeywell, Yokogawa |  |
-| Digital | AI and machine learning for maintenance and optimisation | commercial | Cognite, C3 AI, AspenTech, SLB |  |
-| Digital | Subsurface data platforms (OSDU) | commercial | The Open Group OSDU, SLB, Halliburton, AWS, Microsoft |  |
-| Digital | Engineering data standards (ISO 15926, CFIHOS) | commercial | IOGP, Fiatech |  |
+| Digital | Digital twins of plants and assets | commercial | AVEVA, Siemens, Bentley, Kongsberg | [card](technologies-DIG.md#dig-digital-twins) |
+| Digital | Industrial IoT and wireless sensors | commercial | Emerson, Honeywell, Yokogawa | [card](technologies-DIG.md#dig-iiot-wireless-sensors) |
+| Digital | AI and machine learning for maintenance and optimisation | commercial | Cognite, C3 AI, AspenTech, SLB | [card](technologies-DIG.md#dig-ai-ml-maintenance-optimisation) |
+| Digital | Subsurface data platforms (OSDU) | commercial | The Open Group OSDU, SLB, Halliburton, AWS, Microsoft | [card](technologies-DIG.md#dig-osdu) |
+| Digital | Engineering data standards (ISO 15926, CFIHOS) | commercial | IOGP, Fiatech | [card](technologies-DIG.md#dig-engineering-data-standards) |
