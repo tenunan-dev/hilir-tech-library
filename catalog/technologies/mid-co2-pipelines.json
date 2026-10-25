@@ -1,0 +1,174 @@
+{
+  "id": "mid-co2-pipelines",
+  "name": "CO2 pipelines (dense phase)",
+  "aliases": [
+    "CO2 pipelines (dense phase)"
+  ],
+  "sector": "MID",
+  "category": "Pipelines",
+  "applications": [
+    "CCS transport",
+    "EOR supply"
+  ],
+  "maturity": "commercial",
+  "principle": "CO2 is compressed above its critical pressure so it flows as a dense fluid in carbon-steel pipe, which needs dry CO2 to avoid corrosion. The IPCC special report records 803 km Cortez (about 20 MtCO2/yr), a western US network above 2,500 km carrying about 50 MtCO2/yr, and Weyburn at US$110 million (1997) for 330 km.",
+  "process_steps": [
+    {
+      "id": "COMP",
+      "name": "Compress and dehydrate CO2",
+      "equipment": [
+        "compressor",
+        "TEG or molecular sieve dryer"
+      ],
+      "to": [
+        "PIPE"
+      ]
+    },
+    {
+      "id": "PIPE",
+      "name": "Dense-phase transport",
+      "equipment": [
+        "carbon-steel pipeline"
+      ],
+      "to": [
+        "BOOST"
+      ]
+    },
+    {
+      "id": "BOOST",
+      "name": "Booster compression and delivery",
+      "equipment": [
+        "pump or compressor station"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CO2 compressors",
+    "dehydration",
+    "carbon-steel pipe",
+    "booster pumps",
+    "leak detection"
+  ],
+  "suppliers": [
+    {
+      "name": "Denbury",
+      "product": "Green Pipeline (register example)"
+    },
+    {
+      "name": "Northern Lights",
+      "product": "ship and pipeline chain"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Cortez pipeline capacity",
+      "unit": "MtCO2/yr",
+      "basis": "803 km, 762 mm",
+      "source": {
+        "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+        "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+      },
+      "low": 20,
+      "high": 20
+    },
+    {
+      "metric": "operating pressure of gas pipelines",
+      "unit": "MPa",
+      "basis": "IPCC executive summary range; SACROC design minimum 9.6 MPa",
+      "source": {
+        "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+        "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+      },
+      "low": 10,
+      "high": 80
+    },
+    {
+      "metric": "dry CO2 corrosion rate, AISI 1080",
+      "unit": "mm/yr",
+      "basis": "versus 0.7 mm/yr for wet CO2 at 40 °C and 95 bar",
+      "source": {
+        "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+        "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+      },
+      "low": 0.01,
+      "high": 0.01
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Weyburn pipeline capex",
+      "unit": "USD million (about 0.33 million per km)",
+      "basis": "330 km",
+      "source": {
+        "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+        "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+      },
+      "low": 110,
+      "high": 110,
+      "year": 1997
+    }
+  ],
+  "advantages": [
+    "Mature in the US for EOR",
+    "Pipeline cost per tonne is lowest at scale"
+  ],
+  "limitations": [
+    "Onshore costs rise 50 to 100% on congested routes",
+    "Wet CO2 corrodes carbon steel"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+      "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+    },
+    {
+      "url": "https://norlights.com/what-we-do/",
+      "note": "Northern Lights, what we do, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "recent European and Asian CO2 pipelines",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IPCC report is from 2005 and the Northern Lights page gives no pipeline length.",
+      "where": [
+        {
+          "hint": "IEA CCUS projects database",
+          "access": "open",
+          "source_id": "iea-ccus-db"
+        }
+      ],
+      "action": "Add a current example with length and capacity."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "mid-crude-product-tankers",
+  "name": "Crude and product tankers with scrubbers or LNG fuel",
+  "aliases": [
+    "Crude and product tankers with scrubbers or LNG fuel"
+  ],
+  "sector": "MID",
+  "category": "Shipping",
+  "applications": [
+    "crude and product trade"
+  ],
+  "maturity": "commercial",
+  "principle": "Tankers carry crude and products in size classes from Aframax (80,000 to 120,000 dwt) to VLCC (200,000 to 320,000 dwt, about 2 million barrels). Ships meet the sulphur limit with low-sulphur fuel, exhaust scrubbers or LNG; the IMO page could not be read, so limits are not on this card.",
+  "process_steps": [
+    {
+      "id": "LOAD",
+      "name": "Load at terminal",
+      "equipment": [
+        "loading arms"
+      ],
+      "to": [
+        "SAIL"
+      ]
+    },
+    {
+      "id": "SAIL",
+      "name": "Voyage with fuel compliance system",
+      "equipment": [
+        "engine",
+        "scrubber or LNG fuel system"
+      ],
+      "to": [
+        "DISCH"
+      ]
+    },
+    {
+      "id": "DISCH",
+      "name": "Discharge by cargo pumps",
+      "equipment": [
+        "cargo pumps"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "double-hull tanks",
+    "cargo pumps",
+    "main engine",
+    "scrubber or LNG fuel gas system"
+  ],
+  "suppliers": [
+    {
+      "name": "Samsung Heavy Industries",
+      "product": "tankers",
+      "source_id": "samsung-heavy"
+    },
+    {
+      "name": "Hanwha Ocean",
+      "product": "tankers",
+      "source_id": "hanwha-ocean"
+    },
+    {
+      "name": "HD Hyundai",
+      "product": "tankers",
+      "source_id": "hyundai-heavy"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "VLCC cargo",
+      "unit": "million barrels (about 318,000 t)",
+      "basis": "200,000 to 320,000 dwt class",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+        "note": "Wikipedia, Oil tanker, read 25 October 2026 (secondary source)"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "active tankers above 10,000 dwt",
+      "unit": "ships",
+      "basis": "infobox; date not stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+        "note": "Wikipedia, Oil tanker, read 25 October 2026 (secondary source)"
+      },
+      "low": 4024,
+      "high": 4024
+    }
+  ],
+  "advantages": [
+    "Economies of scale on long routes"
+  ],
+  "limitations": [
+    "Wikipedia gives conflicting double-hull phase-out dates (2010 and 2026)",
+    "Scrubber and LNG fuel facts are not covered"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+      "note": "Wikipedia, Oil tanker, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "other",
+      "item": "IMO sulphur cap and compliance options",
+      "reason_code": "source_unreachable",
+      "reason": "The IMO page is blocked by robots.txt.",
+      "where": [
+        {
+          "hint": "IMO MARPOL Annex VI summary",
+          "access": "open"
+        }
+      ],
+      "action": "Add the 0.50% global limit and ECA limit with dates."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

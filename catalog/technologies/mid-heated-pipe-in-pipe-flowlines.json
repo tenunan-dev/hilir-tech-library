@@ -1,0 +1,158 @@
+{
+  "id": "mid-heated-pipe-in-pipe-flowlines",
+  "name": "Heated and pipe-in-pipe flowlines",
+  "aliases": [
+    "Heated and pipe-in-pipe flowlines"
+  ],
+  "sector": "MID",
+  "category": "Flow assurance",
+  "applications": [
+    "deepwater tiebacks"
+  ],
+  "maturity": "commercial",
+  "principle": "An insulated inner pipe inside an outer carrier pipe, optionally with electrical trace heating, keeps hot well fluids above hydrate and wax temperatures over long tiebacks. A Gulf of Mexico case shows pipe-in-pipe flowlines being used to limit heat loss and hot-oil circulation for remediation.",
+  "process_steps": [
+    {
+      "id": "PIP",
+      "name": "Fabricate insulated pipe-in-pipe strings",
+      "equipment": [
+        "inner pipe",
+        "insulation",
+        "outer pipe"
+      ],
+      "to": [
+        "LAY"
+      ]
+    },
+    {
+      "id": "LAY",
+      "name": "Lay by reel or J-lay",
+      "equipment": [
+        "pipelay vessel"
+      ],
+      "to": [
+        "HEAT"
+      ]
+    },
+    {
+      "id": "HEAT",
+      "name": "Optional electrical heating",
+      "equipment": [
+        "heating cable",
+        "power umbilical"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "pipe-in-pipe",
+    "insulation",
+    "heating cable",
+    "field joints"
+  ],
+  "suppliers": [
+    {
+      "name": "TechnipFMC",
+      "product": "pipe-in-pipe and electrically trace heated PiP",
+      "source_id": "technipfmc"
+    },
+    {
+      "name": "Subsea7",
+      "product": "heated flowlines",
+      "source_id": "subsea7"
+    }
+  ],
+  "advantages": [
+    "Keeps fluids above WAT and hydrate temperatures"
+  ],
+  "limitations": [
+    "TechnipFMC's page was not reachable, so no U-values or project data are on this card"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management",
+      "source_id": "jpt",
+      "note": "Journal of Petroleum Technology, Flow assurance: hydrates and paraffin management"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "U-values, depths, lengths and temperatures",
+      "reason_code": "source_unreachable",
+      "reason": "The TechnipFMC page returned an error.",
+      "where": [
+        {
+          "hint": "TechnipFMC and Subsea7 project pages",
+          "access": "open",
+          "source_id": "technipfmc"
+        }
+      ],
+      "action": "Add figures from a project page or paper."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

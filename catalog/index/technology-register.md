@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 197 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 217 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -69,27 +69,27 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Pipelines | High-strength steel pipelines and automatic welding | commercial | Pipeline contractors, Tenaris, Nippon Steel |  |
-| Pipelines | Composite and reinforced thermoplastic pipe | commercial | Baker Hughes, Strohm, NOV |  |
-| Pipelines | Pipeline inline inspection (MFL, ultrasonic, EMAT pigs) | commercial | ROSEN, Baker Hughes, T.D. Williamson |  |
-| Pipelines | Leak detection (CPM, fibre optic DAS and DTS) | commercial | Atmos, Silixa, Emerson |  |
-| Pipelines | Cathodic protection and coatings (FBE, 3LPE) | commercial | Corrpro, Seal for Life |  |
-| Pipelines | Drag reducing agents | commercial | LiquidPower Specialty Products, Baker Hughes |  |
-| Pipelines | Hydrogen blending and repurposing of gas pipelines | demonstration | Gasunie, SoCalGas, PETRONAS Gas |  |
-| Pipelines | CO2 pipelines (dense phase) | commercial | Denbury, Northern Lights |  |
-| Flow assurance | Hydrate, wax and asphaltene management (inhibitors, heating, pigging) | commercial | ChampionX, Baker Hughes, Clariant |  |
-| Flow assurance | Flow assurance simulation | commercial | SLB OLGA, KBC (Yokogawa) |  |
-| Flow assurance | Heated and pipe-in-pipe flowlines | commercial | TechnipFMC, Subsea7 |  |
-| Storage and terminals | Crude and product tank farms and floating roofs | commercial | Terminal operators |  |
-| Storage and terminals | Underground gas storage (salt caverns, depleted fields) | commercial | Uniper, PETRONAS |  |
-| Storage and terminals | Strategic petroleum reserves (salt caverns, rock caverns) | commercial | Governments |  |
+| Pipelines | High-strength steel pipelines and automatic welding | commercial | Pipeline contractors, Tenaris, Nippon Steel | [card](technologies-MID.md#mid-high-strength-steel-pipelines) |
+| Pipelines | Composite and reinforced thermoplastic pipe | commercial | Baker Hughes, Strohm, NOV | [card](technologies-MID.md#mid-composite-reinforced-thermoplastic-pipe) |
+| Pipelines | Pipeline inline inspection (MFL, ultrasonic, EMAT pigs) | commercial | ROSEN, Baker Hughes, T.D. Williamson | [card](technologies-MID.md#mid-inline-inspection-pigging) |
+| Pipelines | Leak detection (CPM, fibre optic DAS and DTS) | commercial | Atmos, Silixa, Emerson | [card](technologies-MID.md#mid-leak-detection) |
+| Pipelines | Cathodic protection and coatings (FBE, 3LPE) | commercial | Corrpro, Seal for Life | [card](technologies-MID.md#mid-cathodic-protection-coatings) |
+| Pipelines | Drag reducing agents | commercial | LiquidPower Specialty Products, Baker Hughes | [card](technologies-MID.md#mid-drag-reducing-agents) |
+| Pipelines | Hydrogen blending and repurposing of gas pipelines | demonstration | Gasunie, SoCalGas, PETRONAS Gas | [card](technologies-MID.md#mid-hydrogen-blending-repurposing) |
+| Pipelines | CO2 pipelines (dense phase) | commercial | Denbury, Northern Lights | [card](technologies-MID.md#mid-co2-pipelines) |
+| Flow assurance | Hydrate, wax and asphaltene management (inhibitors, heating, pigging) | commercial | ChampionX, Baker Hughes, Clariant | [card](technologies-MID.md#mid-hydrate-wax-asphaltene-management) |
+| Flow assurance | Flow assurance simulation | commercial | SLB OLGA, KBC (Yokogawa) | [card](technologies-MID.md#mid-flow-assurance-simulation) |
+| Flow assurance | Heated and pipe-in-pipe flowlines | commercial | TechnipFMC, Subsea7 | [card](technologies-MID.md#mid-heated-pipe-in-pipe-flowlines) |
+| Storage and terminals | Crude and product tank farms and floating roofs | commercial | Terminal operators | [card](technologies-MID.md#mid-tank-farms-floating-roofs) |
+| Storage and terminals | Underground gas storage (salt caverns, depleted fields) | commercial | Uniper, PETRONAS | [card](technologies-MID.md#mid-underground-gas-storage) |
+| Storage and terminals | Strategic petroleum reserves (salt caverns, rock caverns) | commercial | Governments | [card](technologies-MID.md#mid-strategic-petroleum-reserves) |
 | Storage and terminals | Hydrogen storage in salt caverns | demonstration | HyStock, ACES Delta | [card](technologies-H2.md#h2-salt-cavern-storage) |
-| Metering | Custody transfer metering (ultrasonic, Coriolis) | commercial | Emerson, Endress+Hauser, SICK |  |
-| Shipping | Crude and product tankers with scrubbers or LNG fuel | commercial | Shipyards (Samsung, Hanwha Ocean, HD Hyundai) |  |
-| Shipping | LNG carriers (membrane and Moss tanks, reliquefaction) | commercial | GTT, Samsung, Hanwha Ocean, MISC |  |
-| Shipping | LPG and ammonia carriers | commercial | HD Hyundai, MISC |  |
-| Shipping | Liquid CO2 carriers | demonstration | Northern Lights, Mitsubishi Shipbuilding |  |
-| Shipping | Liquid hydrogen carriers | demonstration | Kawasaki Heavy Industries Suiso Frontier |  |
+| Metering | Custody transfer metering (ultrasonic, Coriolis) | commercial | Emerson, Endress+Hauser, SICK | [card](technologies-MID.md#mid-custody-transfer-metering) |
+| Shipping | Crude and product tankers with scrubbers or LNG fuel | commercial | Shipyards (Samsung, Hanwha Ocean, HD Hyundai) | [card](technologies-MID.md#mid-crude-product-tankers) |
+| Shipping | LNG carriers (membrane and Moss tanks, reliquefaction) | commercial | GTT, Samsung, Hanwha Ocean, MISC | [card](technologies-MID.md#mid-lng-carriers) |
+| Shipping | LPG and ammonia carriers | commercial | HD Hyundai, MISC | [card](technologies-MID.md#mid-lpg-ammonia-carriers) |
+| Shipping | Liquid CO2 carriers | demonstration | Northern Lights, Mitsubishi Shipbuilding | [card](technologies-MID.md#mid-liquid-co2-carriers) |
+| Shipping | Liquid hydrogen carriers | demonstration | Kawasaki Heavy Industries Suiso Frontier | [card](technologies-MID.md#mid-liquid-hydrogen-carriers) |
 
 ## GAS: Gas processing and LNG
 

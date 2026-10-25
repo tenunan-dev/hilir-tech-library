@@ -1,0 +1,171 @@
+{
+  "id": "mid-liquid-co2-carriers",
+  "name": "Liquid CO2 carriers",
+  "aliases": [
+    "Liquid CO2 carriers"
+  ],
+  "sector": "MID",
+  "category": "Shipping",
+  "applications": [
+    "CCS where storage is far from capture"
+  ],
+  "maturity": "demonstration",
+  "principle": "Ships carry liquefied CO2 at about -50 °C and 7 bar in semi-refrigerated tanks. The IPCC report (2005) puts loss at 3 to 4% per 1,000 km and finds ships competitive with pipelines at about 1,000 km for 6 Mt/yr; Northern Lights stores 1.5 Mt/yr in phase 1, about 2,600 m below the North Sea seabed.",
+  "process_steps": [
+    {
+      "id": "LIQ",
+      "name": "Liquefy and store CO2 at the capture site",
+      "equipment": [
+        "liquefaction plant",
+        "intermediate storage"
+      ],
+      "to": [
+        "SAIL"
+      ]
+    },
+    {
+      "id": "SAIL",
+      "name": "Carry by ship",
+      "equipment": [
+        "CO2 carrier"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Offload to terminal and pipeline to injection well",
+      "equipment": [
+        "receiving terminal",
+        "pipeline"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "liquefaction plant",
+    "intermediate storage",
+    "CO2 carrier",
+    "receiving terminal"
+  ],
+  "suppliers": [
+    {
+      "name": "Northern Lights",
+      "product": "ship, terminal and storage chain"
+    },
+    {
+      "name": "Mitsubishi Shipbuilding",
+      "product": "CO2 carrier design"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "design condition, 22,000 m3 semi-refrigerated tanker",
+      "unit": "°C at about 7 bar",
+      "basis": "IPCC report 2005",
+      "source": {
+        "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+        "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+      },
+      "low": -50,
+      "high": -50
+    },
+    {
+      "metric": "CO2 loss in transport",
+      "unit": "% per 1000 km",
+      "basis": "1 to 2% with onshore recapture",
+      "source": {
+        "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+        "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+      },
+      "low": 3,
+      "high": 4
+    },
+    {
+      "metric": "Northern Lights phase 1 capacity",
+      "unit": "Mt/yr",
+      "basis": "storage about 2,600 m below the seabed; operations started 2025",
+      "source": {
+        "url": "https://norlights.com/what-we-do/",
+        "note": "Northern Lights, what we do, read 25 October 2026"
+      },
+      "low": 1.5,
+      "high": 1.5
+    }
+  ],
+  "costs": [
+    {
+      "metric": "ship transport cost excluding liquefaction",
+      "unit": "USD/t",
+      "basis": "500 km to 4,500 km, 5.5 Mt/yr, Statoil 2004 study",
+      "source": {
+        "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+        "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+      },
+      "low": 20,
+      "high": 28,
+      "year": 2004
+    }
+  ],
+  "advantages": [
+    "Competitive over long distances"
+  ],
+  "limitations": [
+    "The IPCC data are from 2005",
+    "Northern Lights ship specifications not on the page read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf",
+      "note": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 4, Transport of CO2 (2005)"
+    },
+    {
+      "url": "https://norlights.com/what-we-do/",
+      "note": "Northern Lights, what we do, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Northern Lights ship capacity (m3) and number",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page gives neither.",
+      "where": [
+        {
+          "hint": "Northern Lights news releases",
+          "access": "open"
+        }
+      ],
+      "action": "Add ship data."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

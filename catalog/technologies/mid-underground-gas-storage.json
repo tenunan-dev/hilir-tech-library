@@ -1,0 +1,171 @@
+{
+  "id": "mid-underground-gas-storage",
+  "name": "Underground gas storage (salt caverns, depleted fields)",
+  "aliases": [
+    "Underground gas storage (salt caverns, depleted fields)"
+  ],
+  "sector": "MID",
+  "category": "Storage and terminals",
+  "applications": [
+    "seasonal balancing",
+    "supply security"
+  ],
+  "maturity": "commercial",
+  "principle": "Natural gas is stored in depleted fields, salt caverns or aquifers to balance seasonal and daily demand. EIA reports nearly 400 active US facilities run by about 120 operators; depleted fields are the most common, salt caverns offer very high deliverability with low base gas, and aquifers need more cushion gas.",
+  "process_steps": [
+    {
+      "id": "INJ",
+      "name": "Inject gas in low-demand season",
+      "equipment": [
+        "compressors",
+        "wellheads"
+      ],
+      "to": [
+        "STORE"
+      ]
+    },
+    {
+      "id": "STORE",
+      "name": "Hold gas as working plus base gas",
+      "equipment": [
+        "reservoir or cavern"
+      ],
+      "to": [
+        "WD"
+      ]
+    },
+    {
+      "id": "WD",
+      "name": "Withdraw, dehydrate and send out",
+      "equipment": [
+        "dehydration",
+        "meters"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "storage wells",
+    "compressors",
+    "dehydration",
+    "meters",
+    "salt cavern or reservoir"
+  ],
+  "suppliers": [
+    {
+      "name": "Uniper",
+      "product": "gas storage"
+    },
+    {
+      "name": "PETRONAS",
+      "product": "register example"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "active US underground storage facilities",
+      "unit": "sites (nearly), about 120 operators",
+      "basis": "Lower 48",
+      "source": {
+        "url": "https://www.eia.gov/naturalgas/storage/basics/",
+        "source_id": "eia-reports",
+        "note": "US EIA, underground natural gas storage basics, read 25 October 2026"
+      },
+      "low": 400,
+      "high": 400
+    }
+  ],
+  "advantages": [
+    "Large volumes at low cost per unit"
+  ],
+  "limitations": [
+    "The EIA page read gives no capacity in Bcf or cushion-gas share"
+  ],
+  "sources": [
+    {
+      "url": "https://www.eia.gov/naturalgas/storage/basics/",
+      "source_id": "eia-reports",
+      "note": "US EIA, underground natural gas storage basics, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "working gas capacity, deliverability and cushion gas share",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated on the EIA basics page.",
+      "where": [
+        {
+          "hint": "EIA underground storage capacity data",
+          "access": "open",
+          "source_id": "eia-reports"
+        }
+      ],
+      "action": "Add working gas capacity with date."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

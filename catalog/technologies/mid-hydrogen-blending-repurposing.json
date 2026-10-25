@@ -1,0 +1,172 @@
+{
+  "id": "mid-hydrogen-blending-repurposing",
+  "name": "Hydrogen blending and repurposing of gas pipelines",
+  "aliases": [
+    "Hydrogen blending and repurposing of gas pipelines"
+  ],
+  "sector": "MID",
+  "category": "Pipelines",
+  "applications": [
+    "moving hydrogen without new pipelines",
+    "decarbonising gas grids"
+  ],
+  "maturity": "demonstration",
+  "principle": "Hydrogen is mixed into natural gas networks at low shares, or existing steel lines are converted to carry hydrogen. NREL's review finds only minor issues below about 5 to 15% hydrogen by volume for distribution, notes fatigue crack growth rises at low hydrogen partial pressures, and puts the longest-running US blend at 12 to 15% (Hawaii Gas).",
+  "process_steps": [
+    {
+      "id": "H2",
+      "name": "Hydrogen injection and mixing",
+      "equipment": [
+        "blending station",
+        "gas chromatograph"
+      ],
+      "to": [
+        "PIPE"
+      ]
+    },
+    {
+      "id": "PIPE",
+      "name": "Transport in existing network",
+      "equipment": [
+        "pipeline",
+        "compressors"
+      ],
+      "to": [
+        "USE"
+      ]
+    },
+    {
+      "id": "USE",
+      "name": "End use or deblending",
+      "equipment": [
+        "appliances",
+        "membrane or PSA deblending"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "blending station",
+    "compressors",
+    "meters",
+    "deblending units"
+  ],
+  "suppliers": [
+    {
+      "name": "Gasunie",
+      "product": "hydrogen network conversion"
+    },
+    {
+      "name": "SoCalGas",
+      "product": "blending trials"
+    },
+    {
+      "name": "PETRONAS Gas",
+      "product": "register example"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "hydrogen share with minor issues (distribution)",
+      "unit": "% by volume",
+      "basis": "Melaina et al. 2013 as cited by NREL",
+      "source": {
+        "url": "https://docs.nlr.gov/docs/fy23osti/81704.pdf",
+        "source_id": "nrel",
+        "note": "NREL/TP-5400-81704, Hydrogen blending into natural gas pipeline infrastructure: review of the state of technology (2022)"
+      },
+      "low": 5,
+      "high": 15
+    },
+    {
+      "metric": "energy transmission capacity at 100% hydrogen vs natural gas",
+      "unit": "% lower",
+      "basis": "at fixed pressure drop",
+      "source": {
+        "url": "https://docs.nlr.gov/docs/fy23osti/81704.pdf",
+        "source_id": "nrel",
+        "note": "NREL/TP-5400-81704, Hydrogen blending into natural gas pipeline infrastructure: review of the state of technology (2022)"
+      },
+      "low": 15,
+      "high": 20
+    },
+    {
+      "metric": "Hawaii Gas blend",
+      "unit": "% hydrogen",
+      "basis": "longest-running US blending project",
+      "source": {
+        "url": "https://docs.nlr.gov/docs/fy23osti/81704.pdf",
+        "source_id": "nrel",
+        "note": "NREL/TP-5400-81704, Hydrogen blending into natural gas pipeline infrastructure: review of the state of technology (2022)"
+      },
+      "low": 12,
+      "high": 15
+    }
+  ],
+  "trl": {
+    "low": 7,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydrogen blending in natural gas network' 7 (2025); 'Repurposed natural gas pipelines' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Uses existing assets"
+  ],
+  "limitations": [
+    "Blending limits depend on equipment and materials; do not generalise",
+    "Compressors and meters constrain blends above about 10 to 20%"
+  ],
+  "sources": [
+    {
+      "url": "https://docs.nlr.gov/docs/fy23osti/81704.pdf",
+      "source_id": "nrel",
+      "note": "NREL/TP-5400-81704, Hydrogen blending into natural gas pipeline infrastructure: review of the state of technology (2022)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "repurposing cost versus new build",
+      "reason_code": "not_in_sources_read",
+      "reason": "NREL's review text read gives no cost.",
+      "where": [
+        {
+          "hint": "European Hydrogen Backbone and DNV reports",
+          "access": "open",
+          "source_id": "iea-hydrogen-db"
+        }
+      ],
+      "action": "Add cost fraction with source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

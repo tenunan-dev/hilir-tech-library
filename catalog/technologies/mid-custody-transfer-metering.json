@@ -1,0 +1,176 @@
+{
+  "id": "mid-custody-transfer-metering",
+  "name": "Custody transfer metering (ultrasonic, Coriolis)",
+  "aliases": [
+    "Custody transfer metering (ultrasonic, Coriolis)"
+  ],
+  "sector": "MID",
+  "category": "Metering",
+  "applications": [
+    "fiscal metering of crude, products and gas"
+  ],
+  "maturity": "commercial",
+  "principle": "Meters that set the invoice value of oil or gas. Ultrasonic transit-time meters infer velocity from the difference in pulse travel times with and against the flow; Coriolis meters measure mass flow and density directly. Cone meters reach ±0.5% when calibrated.",
+  "process_steps": [
+    {
+      "id": "MEAS",
+      "name": "Meter measures flow",
+      "equipment": [
+        "ultrasonic or Coriolis meter"
+      ],
+      "to": [
+        "COMP"
+      ]
+    },
+    {
+      "id": "COMP",
+      "name": "Flow computer corrects for pressure and temperature",
+      "equipment": [
+        "flow computer"
+      ],
+      "to": [
+        "PROVE"
+      ]
+    },
+    {
+      "id": "PROVE",
+      "name": "Prove against a master meter or prover",
+      "equipment": [
+        "prover"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "ultrasonic or Coriolis meter",
+    "flow computer",
+    "prover",
+    "sampler"
+  ],
+  "suppliers": [
+    {
+      "name": "Emerson",
+      "product": "Coriolis and ultrasonic meters",
+      "source_id": "emerson"
+    },
+    {
+      "name": "Endress+Hauser",
+      "product": "Coriolis",
+      "source_id": "endress-hauser"
+    },
+    {
+      "name": "SICK",
+      "product": "ultrasonic gas meters"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "calibrated cone meter accuracy",
+      "unit": "% (±)",
+      "basis": "up to ±5% uncalibrated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Coriolis_flowmeter",
+        "note": "Wikipedia, Coriolis flowmeter / flow measurement, read 25 October 2026 (secondary source)"
+      },
+      "low": 0.5,
+      "high": 0.5
+    }
+  ],
+  "advantages": [
+    "Coriolis gives direct mass flow and density"
+  ],
+  "limitations": [
+    "Transit-time meters lose accuracy with bubbles or particles",
+    "Wikipedia pages do not cover custody-transfer standards"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ultrasonic_flow_meter",
+      "note": "Wikipedia, Ultrasonic flow meter, read 25 October 2026 (principle only)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Coriolis_flowmeter",
+      "note": "Wikipedia, Coriolis flowmeter / flow measurement, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "custody-transfer accuracy classes under AGA 9, AGA 11 and API MPMS",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated in the pages read.",
+      "where": [
+        {
+          "hint": "AGA 9 and API MPMS",
+          "access": "open",
+          "source_id": "api-standards"
+        }
+      ],
+      "action": "Add accuracy classes with standard references."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

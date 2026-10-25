@@ -1,0 +1,166 @@
+{
+  "id": "mid-hydrate-wax-asphaltene-management",
+  "name": "Hydrate, wax and asphaltene management (inhibitors, heating, pigging)",
+  "aliases": [
+    "Hydrate, wax and asphaltene management (inhibitors, heating, pigging)"
+  ],
+  "sector": "MID",
+  "category": "Flow assurance",
+  "applications": [
+    "deepwater tiebacks",
+    "cold-climate gas lines"
+  ],
+  "maturity": "commercial",
+  "principle": "Hydrates form at high pressure and low temperature from light gases and can plug lines; one volume of hydrate holds 160 to 180 volumes of methane. They are managed with methanol or MEG injection, low-dosage and anti-agglomerant chemicals, insulation, heating and depressurisation, while wax is managed by pigging, insulation and heating.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Predict hydrate and wax conditions",
+      "equipment": [
+        "flow assurance software"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Inject inhibitors at the wellhead or manifold",
+      "equipment": [
+        "chemical injection skid",
+        "umbilical"
+      ],
+      "to": [
+        "PIG"
+      ]
+    },
+    {
+      "id": "PIG",
+      "name": "Pig and heat lines as needed",
+      "equipment": [
+        "pig launcher",
+        "heating"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "chemical injection units",
+    "umbilicals",
+    "insulated flowlines",
+    "pig traps",
+    "MEG recovery"
+  ],
+  "suppliers": [
+    {
+      "name": "ChampionX",
+      "product": "flow assurance chemicals"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "flow assurance chemicals",
+      "source_id": "baker-hughes"
+    },
+    {
+      "name": "Clariant",
+      "product": "hydrate and wax chemicals"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "methane held by one volume of hydrate",
+      "unit": "volumes",
+      "basis": "article statement",
+      "source": {
+        "url": "https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management",
+        "source_id": "jpt",
+        "note": "Journal of Petroleum Technology, Flow assurance: hydrates and paraffin management"
+      },
+      "low": 160,
+      "high": 180
+    },
+    {
+      "metric": "example wax appearance temperature",
+      "unit": "°F",
+      "basis": "case study flowlines; blockage 15,000 ft from wellhead",
+      "source": {
+        "url": "https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management",
+        "source_id": "jpt",
+        "note": "Journal of Petroleum Technology, Flow assurance: hydrates and paraffin management"
+      },
+      "low": 106,
+      "high": 106
+    }
+  ],
+  "advantages": [
+    "Multiple layers of defence"
+  ],
+  "limitations": [
+    "Article gives no inhibitor dosage",
+    "Anti-agglomerant failure can plug lines quickly"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management",
+      "source_id": "jpt",
+      "note": "Journal of Petroleum Technology, Flow assurance: hydrates and paraffin management"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "chemical cost and MEG recovery cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "None given.",
+      "where": [
+        {
+          "hint": "SPE papers on flow assurance cost",
+          "access": "open",
+          "source_id": "onepetro"
+        }
+      ],
+      "action": "Add typical dosage and cost."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

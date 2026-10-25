@@ -1,0 +1,151 @@
+{
+  "id": "mid-strategic-petroleum-reserves",
+  "name": "Strategic petroleum reserves (salt caverns, rock caverns)",
+  "aliases": [
+    "Strategic petroleum reserves (salt caverns, rock caverns)"
+  ],
+  "sector": "MID",
+  "category": "Storage and terminals",
+  "applications": [
+    "emergency supply"
+  ],
+  "maturity": "commercial",
+  "principle": "Governments hold crude in leached salt caverns or lined rock caverns for supply emergencies. The US reserve has an authorised capacity of 714 million barrels at four Gulf Coast sites (Bryan Mound, Big Hill, West Hackberry, Bayou Choctaw).",
+  "process_steps": [
+    {
+      "id": "FILL",
+      "name": "Leach cavern with water and fill with crude",
+      "equipment": [
+        "solution mining",
+        "pumps"
+      ],
+      "to": [
+        "HOLD"
+      ]
+    },
+    {
+      "id": "HOLD",
+      "name": "Hold under brine pressure",
+      "equipment": [
+        "cavern",
+        "wellhead"
+      ],
+      "to": [
+        "DRAW"
+      ]
+    },
+    {
+      "id": "DRAW",
+      "name": "Draw down by brine displacement",
+      "equipment": [
+        "pumps",
+        "terminals"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "salt caverns",
+    "wellheads",
+    "pumps",
+    "marine terminals"
+  ],
+  "suppliers": [
+    {
+      "name": "Governments",
+      "product": "strategic reserves"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "US SPR authorised capacity",
+      "unit": "million barrels",
+      "basis": "four sites",
+      "source": {
+        "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve",
+        "note": "US DOE, Strategic Petroleum Reserve page, read 25 October 2026"
+      },
+      "low": 714,
+      "high": 714
+    }
+  ],
+  "advantages": [
+    "Fast release capacity via marine terminals (2.22 MMbbl/d contracted plus 0.4 MMbbl/d DOE-owned)"
+  ],
+  "limitations": [
+    "Rock caverns and non-US reserves are not covered by the source read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve",
+      "note": "US DOE, Strategic Petroleum Reserve page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "rock cavern examples and Asian reserves",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only the US reserve was read.",
+      "where": [
+        {
+          "hint": "IEA emergency response and JOGMEC stockpile pages",
+          "access": "open",
+          "source_id": "jogmec"
+        }
+      ],
+      "action": "Add a Japan or Korea example."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

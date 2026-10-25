@@ -1,0 +1,156 @@
+{
+  "id": "mid-tank-farms-floating-roofs",
+  "name": "Crude and product tank farms and floating roofs",
+  "aliases": [
+    "Crude and product tank farms and floating roofs"
+  ],
+  "sector": "MID",
+  "category": "Storage and terminals",
+  "applications": [
+    "refinery and terminal storage"
+  ],
+  "maturity": "commercial",
+  "principle": "Vertical cylindrical tanks hold crude and products; floating roofs rise and fall with the liquid to cut the vapour space. External floating roofs suit medium-flash liquids such as crude, naphtha and diesel; internal floating roofs suit low-flash products such as petrol and jet fuel.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Receive product by pipe or ship",
+      "equipment": [
+        "pipeline",
+        "jetty"
+      ],
+      "to": [
+        "TANK"
+      ]
+    },
+    {
+      "id": "TANK",
+      "name": "Store in floating-roof tank",
+      "equipment": [
+        "external or internal floating roof tank",
+        "seals"
+      ],
+      "to": [
+        "OUT"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Blend and dispatch",
+      "equipment": [
+        "pumps",
+        "metering"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "storage tanks",
+    "floating roofs and seals",
+    "fire protection",
+    "pumps",
+    "vapour control"
+  ],
+  "suppliers": [
+    {
+      "name": "Terminal operators",
+      "product": "tank terminals"
+    }
+  ],
+  "advantages": [
+    "Lower evaporative losses than fixed-roof tanks"
+  ],
+  "limitations": [
+    "The Wikipedia page gives no emission-reduction figures or seal details"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Floating_roof",
+      "note": "Wikipedia, Floating roof, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "emission reduction and seal types, per AP-42 and API 650",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the page read.",
+      "where": [
+        {
+          "hint": "EPA AP-42 chapter 7.1",
+          "access": "open"
+        },
+        {
+          "hint": "API 650 and 653",
+          "access": "open",
+          "source_id": "api-standards"
+        }
+      ],
+      "action": "Add loss factors from AP-42."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "mid-high-strength-steel-pipelines",
+  "name": "High-strength steel pipelines and automatic welding",
+  "aliases": [
+    "High-strength steel pipelines and automatic welding"
+  ],
+  "sector": "MID",
+  "category": "Pipelines",
+  "applications": [
+    "long-distance gas transmission",
+    "CO2 and hydrogen trunklines (design studies)"
+  ],
+  "maturity": "commercial",
+  "principle": "Higher steel grades (X70, X80) allow thinner walls or higher pressure for the same pipe, and mechanised gas-metal-arc welding speeds joint making on long lines. In the UK, about 889 km of DN1200 X80 pipe was laid between 2000 and 2010 at design pressures of 90 to 94 bar, and a consultant study estimated a 22.7% cost saving over X65.",
+  "process_steps": [
+    {
+      "id": "PIPE",
+      "name": "Line pipe production to API 5L X70 or X80",
+      "equipment": [
+        "steel mill",
+        "pipe mill"
+      ],
+      "to": [
+        "WELD"
+      ]
+    },
+    {
+      "id": "WELD",
+      "name": "Mechanised GMAW girth welding in the field",
+      "equipment": [
+        "internal and external welding heads"
+      ],
+      "to": [
+        "TEST"
+      ]
+    },
+    {
+      "id": "TEST",
+      "name": "Weld inspection and hydrotest",
+      "equipment": [
+        "NDT",
+        "hydrotest"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "X70 or X80 line pipe",
+    "mechanised welding systems",
+    "inspection equipment"
+  ],
+  "suppliers": [
+    {
+      "name": "CRC-Evans",
+      "product": "mechanised pipeline welding"
+    },
+    {
+      "name": "Tenaris",
+      "product": "line pipe"
+    },
+    {
+      "name": "Nippon Steel",
+      "product": "line pipe"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "design pressure with X80 pipe",
+      "unit": "bar",
+      "basis": "UK DN1200 projects",
+      "source": {
+        "url": "https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf",
+        "note": "CBMM Niobium Tech, The development of weld procedures for X80 pipelines in the UK (installations 2000 to 2010)"
+      },
+      "low": 90,
+      "high": 94
+    },
+    {
+      "metric": "cost saving of X80 over X65",
+      "unit": "%",
+      "basis": "independent consultant estimate, UK transmission",
+      "source": {
+        "url": "https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf",
+        "note": "CBMM Niobium Tech, The development of weld procedures for X80 pipelines in the UK (installations 2000 to 2010)"
+      },
+      "low": 22.7,
+      "high": 22.7
+    },
+    {
+      "metric": "UK X80 installed",
+      "unit": "km",
+      "basis": "sum of 15 projects, 2000 to 2010; the paper states both 'almost 900 km' and 'over 900 km'",
+      "source": {
+        "url": "https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf",
+        "note": "CBMM Niobium Tech, The development of weld procedures for X80 pipelines in the UK (installations 2000 to 2010)"
+      },
+      "low": 889,
+      "high": 889
+    }
+  ],
+  "advantages": [
+    "Thinner walls cut steel and welding",
+    "Mechanised welding is economic on lines longer than 50 km"
+  ],
+  "limitations": [
+    "Hydrogen service reduces fracture toughness margins (see the hydrogen pipeline card)"
+  ],
+  "sources": [
+    {
+      "url": "https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf",
+      "note": "CBMM Niobium Tech, The development of weld procedures for X80 pipelines in the UK (installations 2000 to 2010)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "current cost per km with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The paper gives a saving percentage only.",
+      "where": [
+        {
+          "hint": "PRCI and operator project cost studies",
+          "access": "open",
+          "source_id": "prci"
+        }
+      ],
+      "action": "Add cost per inch-km with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

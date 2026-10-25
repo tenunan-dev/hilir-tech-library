@@ -1,0 +1,180 @@
+{
+  "id": "mid-drag-reducing-agents",
+  "name": "Drag reducing agents",
+  "aliases": [
+    "Drag reducing agents",
+    "DRA"
+  ],
+  "sector": "MID",
+  "category": "Pipelines",
+  "applications": [
+    "crude and product pipelines",
+    "multiphase flowlines"
+  ],
+  "maturity": "commercial",
+  "principle": "Ultra-high-molecular-weight polymers injected at parts-per-million levels suppress turbulent bursts and cut frictional pressure drop by up to 70%. Field cases in an Offshore magazine article (2005, vendor-authored) show 6 to 51% more throughput.",
+  "process_steps": [
+    {
+      "id": "INJ",
+      "name": "Inject DRA at pump station",
+      "equipment": [
+        "injection skid"
+      ],
+      "to": [
+        "FLOW"
+      ]
+    },
+    {
+      "id": "FLOW",
+      "name": "Polymer reduces turbulence along the line",
+      "to": [
+        "POST"
+      ]
+    },
+    {
+      "id": "POST",
+      "name": "Polymer degrades in pumps; re-inject downstream",
+      "equipment": [
+        "booster injection"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "DRA injection skid",
+    "storage tank",
+    "flow and pressure meters"
+  ],
+  "suppliers": [
+    {
+      "name": "LiquidPower Specialty Products",
+      "product": "flow improvers"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "flow improvers",
+      "source_id": "baker-hughes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "frictional pressure drop reduction",
+      "unit": "% (up to)",
+      "basis": "article statement",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Drag reducers improve throughput, cut costs (2005; vendor-authored)"
+      },
+      "low": 70,
+      "high": 70
+    },
+    {
+      "metric": "throughput gain, single-phase crude line",
+      "unit": "%",
+      "basis": "18,200 to 23,160 b/d with discharge pressure cut from 250-255 to 220-230 psig",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Drag reducers improve throughput, cut costs (2005; vendor-authored)"
+      },
+      "low": 27,
+      "high": 27
+    },
+    {
+      "metric": "production gain, multiphase line",
+      "unit": "%",
+      "basis": "20 to 21% drag reduction on a ~7,000 b/d slug flow line",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Drag reducers improve throughput, cut costs (2005; vendor-authored)"
+      },
+      "low": 17,
+      "high": 17
+    },
+    {
+      "metric": "throughput gain, 16-inch line",
+      "unit": "%",
+      "basis": "53,000 to 80,000 b/d",
+      "source": {
+        "url": "https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Drag reducers improve throughput, cut costs (2005; vendor-authored)"
+      },
+      "low": 51,
+      "high": 51
+    }
+  ],
+  "advantages": [
+    "No new steel",
+    "Fast to deploy"
+  ],
+  "limitations": [
+    "Results are individual field cases from the vendor",
+    "Polymer shears in pumps"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Drag reducers improve throughput, cut costs (2005; vendor-authored)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "treatment cost per barrel with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article does not quantify cost.",
+      "where": [
+        {
+          "hint": "LiquidPower brochures",
+          "access": "open"
+        }
+      ],
+      "action": "Add dose ppm and cost range with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

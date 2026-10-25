@@ -1,0 +1,180 @@
+{
+  "id": "mid-lpg-ammonia-carriers",
+  "name": "LPG and ammonia carriers",
+  "aliases": [
+    "LPG and ammonia carriers"
+  ],
+  "sector": "MID",
+  "category": "Shipping",
+  "applications": [
+    "LPG trade",
+    "ammonia as hydrogen carrier"
+  ],
+  "maturity": "commercial",
+  "principle": "Gas carriers move LPG and ammonia as pressurised, semi-refrigerated or fully refrigerated cargo. Fully refrigerated ships of 50,000 to 80,000 m³ are VLGCs and carry ammonia alongside LPG in Type A tanks; IGC Code Chapter 16 (adopted for 1 July 2026) allows liquefied ammonia as fuel on gas carriers.",
+  "process_steps": [
+    {
+      "id": "LOAD",
+      "name": "Load cargo at terminal",
+      "equipment": [
+        "loading arms"
+      ],
+      "to": [
+        "SAIL"
+      ]
+    },
+    {
+      "id": "SAIL",
+      "name": "Voyage with cargo refrigeration or pressure",
+      "equipment": [
+        "cargo tanks",
+        "reliquefaction plant"
+      ],
+      "to": [
+        "DISCH"
+      ]
+    },
+    {
+      "id": "DISCH",
+      "name": "Discharge",
+      "equipment": [
+        "cargo pumps"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "cargo tanks (Type A, C)",
+    "refrigeration plant",
+    "cargo pumps",
+    "gas detection"
+  ],
+  "suppliers": [
+    {
+      "name": "HD Hyundai",
+      "product": "VLGC",
+      "source_id": "hyundai-heavy"
+    },
+    {
+      "name": "MISC",
+      "product": "gas carriers",
+      "source_id": "misc-group"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "VLGC size class",
+      "unit": "m3",
+      "basis": "fully refrigerated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_carrier",
+        "note": "Wikipedia, Gas carrier, read 25 October 2026 (secondary source)"
+      },
+      "low": 50000,
+      "high": 80000
+    },
+    {
+      "metric": "semi-refrigerated propane carriage",
+      "unit": "°C at 8.5 kg/cm2",
+      "basis": "article statement",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Gas_carrier",
+        "note": "Wikipedia, Gas carrier, read 25 October 2026 (secondary source)"
+      },
+      "low": -10,
+      "high": -10
+    }
+  ],
+  "advantages": [
+    "Ammonia can ride on existing LPG-class ships"
+  ],
+  "limitations": [
+    "The Wikipedia page lacks fleet counts and the -33 °C ammonia figure"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Gas_carrier",
+      "note": "Wikipedia, Gas carrier, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "fleet size and ammonia carriage temperature",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the page read.",
+      "where": [
+        {
+          "hint": "SIGTTO and GIIGNL publications",
+          "access": "open",
+          "source_id": "giignl"
+        }
+      ],
+      "action": "Add fleet size with date."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

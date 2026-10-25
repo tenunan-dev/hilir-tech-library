@@ -1,0 +1,191 @@
+{
+  "id": "mid-lng-carriers",
+  "name": "LNG carriers (membrane and Moss tanks, reliquefaction)",
+  "aliases": [
+    "LNG carriers (membrane and Moss tanks, reliquefaction)"
+  ],
+  "sector": "MID",
+  "category": "Shipping",
+  "applications": [
+    "LNG shipping"
+  ],
+  "maturity": "commercial",
+  "principle": "Ships carry LNG at about -163 °C in membrane tanks (GTT Mark III with 1.2 mm stainless steel, or NO96 invar) or in spherical Moss tanks. Modern ships are about 170,000 m³, Q-Max up to 266,000 m³, and boil-off is about 0.1 to 0.25% of cargo per day, which reliquefaction plants can return to the tanks.",
+  "process_steps": [
+    {
+      "id": "LOAD",
+      "name": "Load LNG at terminal",
+      "equipment": [
+        "loading arms"
+      ],
+      "to": [
+        "SAIL"
+      ]
+    },
+    {
+      "id": "SAIL",
+      "name": "Voyage with boil-off managed as fuel or reliquefied",
+      "equipment": [
+        "membrane or Moss tanks",
+        "reliquefaction plant",
+        "dual-fuel engines"
+      ],
+      "to": [
+        "DISCH"
+      ]
+    },
+    {
+      "id": "DISCH",
+      "name": "Discharge to import terminal",
+      "equipment": [
+        "cargo pumps"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "cargo tanks",
+    "insulation",
+    "reliquefaction plant",
+    "dual-fuel engines",
+    "cargo pumps"
+  ],
+  "suppliers": [
+    {
+      "name": "GTT",
+      "product": "membrane containment"
+    },
+    {
+      "name": "Samsung Heavy Industries",
+      "product": "LNG carriers",
+      "source_id": "samsung-heavy"
+    },
+    {
+      "name": "Hanwha Ocean",
+      "product": "LNG carriers",
+      "source_id": "hanwha-ocean"
+    },
+    {
+      "name": "MISC",
+      "product": "owner and operator",
+      "source_id": "misc-group"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "typical modern LNG carrier capacity",
+      "unit": "m3",
+      "basis": "Christophe de Margerie 172,600 m3",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
+      },
+      "low": 170000,
+      "high": 172600
+    },
+    {
+      "metric": "boil-off rate",
+      "unit": "% of cargo per day",
+      "basis": "typical voyage",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
+      },
+      "low": 0.1,
+      "high": 0.25
+    },
+    {
+      "metric": "active LNG carrier fleet",
+      "unit": "ships (includes floating storage units)",
+      "basis": "2023",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
+      },
+      "low": 772,
+      "high": 772,
+      "year": 2023
+    }
+  ],
+  "costs": [
+    {
+      "metric": "newbuild price, 170,000 m3",
+      "unit": "USD million (could cost)",
+      "basis": "dollar year not stated in the article",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+        "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
+      },
+      "low": 200,
+      "high": 200
+    }
+  ],
+  "advantages": [
+    "Membrane tanks use hull space efficiently"
+  ],
+  "limitations": [
+    "Fleet and price figures come from a secondary source with no price year"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/LNG_carrier",
+      "note": "Wikipedia, LNG carrier, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "newbuild price with year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The secondary source gives no year.",
+      "where": [
+        {
+          "hint": "Clarksons or broker newbuild price reports",
+          "access": "paid"
+        }
+      ],
+      "action": "Add price with year."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
