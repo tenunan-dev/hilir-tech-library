@@ -25,7 +25,7 @@
 | [Resid hydrocracking (ebullated and slurry bed)](#ref-resid-hydrocracking) | Conversion / residue upgrading | commercial |  | Eni (EST); Axens (H-Oil); Chevron Lummus Global (LC-FINING); KBR (VCC) |  |
 | [Sour water stripping and amine regeneration](#ref-sour-water-stripping) | Refining / utilities | commercial |  | Bechtel (sour water stripping design) |  |
 | [Visbreaking and solvent deasphalting](#ref-visbreaking-sda) | Refining / residue upgrading | commercial |  | KBR (ROSE solvent deasphalting); Koch-Glitsch (extractor internals); Shell (visbreaking (register examples; not verified)); Axens (register examples; not verified) |  |
-| [Wastewater treatment (API separators, DAF, biological, MBR)](#ref-wastewater-treatment) | Refining / environment | commercial |  | Veolia (register examples; not verified); Suez (register examples; not verified) | capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d |
+| [Wastewater treatment (API separators, DAF, biological, MBR)](#ref-wastewater-treatment) | Refining / environment | commercial |  | Veolia (register examples; not verified); Suez (register examples; not verified) | capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d (2023$) |
 | [Alcohol-to-jet SAF](#ref-alcohol-to-jet) | Low-carbon fuels / SAF | demonstration | 8 | LanzaJet; Honeywell UOP (ethanol-to-jet); Gevo |  |
 | [Direct crude cracking](#ref-direct-crude-cracking) | Crude-to-chemicals | demonstration |  | ExxonMobil (Singapore crude-cracking steam cracker); Saudi Aramco (TC2C (with Lummus and CLG)); Lummus Technology (TC2C); Chevron Lummus Global (TC2C) |  |
 | [Green hydrogen in refineries](#ref-green-hydrogen) | Low-carbon refining | demonstration | 9 | ITM Power (10 MW PEM electrolyser for Shell Rheinland); Shell (REFHYNE operator) |  |
@@ -537,7 +537,7 @@ flowchart LR
 **Key equipment:** process simulator, plant historian, model calibration tools.
 
 **Performance:**
-- savings reported at Al Zour: 0.95 USD million; AspenTech case study, not broken down; refinery capacity 615,000 bpd. [source](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery)
+- savings reported at Al Zour: 0.95 USD million; AspenTech case study, dollar year not stated, not broken down; refinery capacity 615,000 bpd. [source](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery)
 
 **Missing inputs:**
 - independent evidence of benefits (performance): One vendor case study. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add an independent study.
@@ -734,7 +734,7 @@ flowchart LR
 - specific energy, API plus DAF versus MBR: 0.091-0.857 kWh/m3; low = API+DAF, high = MBR (modelled). [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940)
 
 **Costs:**
-- capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d; 2023 USD, 1,800 m3/d plant; API 255 plus DAF 815 = 1,070 (low); MBR 6,870 (high); MBR costs modelled from published data. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940)
+- capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d (2023$); 2023 USD, 1,800 m3/d plant; API 255 plus DAF 815 = 1,070 (low); MBR 6,870 (high); MBR costs modelled from published data. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940)
 
 **Missing inputs:**
 - operators other than the Kawrgosk study (reference_plants): One refinery study. Where: Veolia and Suez references (open). Next: Add suppliers' plants.

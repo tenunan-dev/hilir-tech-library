@@ -63,7 +63,7 @@
     {
       "metric": "savings reported at Al Zour",
       "unit": "USD million",
-      "basis": "AspenTech case study, not broken down; refinery capacity 615,000 bpd",
+      "basis": "AspenTech case study, dollar year not stated, not broken down; refinery capacity 615,000 bpd",
       "source": {
         "url": "https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery",
         "source_id": "aspentech",
