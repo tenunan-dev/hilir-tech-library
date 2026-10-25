@@ -1,0 +1,143 @@
+{
+  "id": "h2-compressors",
+  "name": "Hydrogen compressors (diaphragm, ionic, reciprocating)",
+  "aliases": [
+    "hydrogen compressor",
+    "diaphragm compressor",
+    "ionic compressor"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen carriers and logistics / compression",
+  "applications": [
+    "refuelling stations",
+    "trailer filling",
+    "electrolyser output"
+  ],
+  "maturity": "commercial",
+  "principle": "Hydrogen is compressed with diaphragm compressors at lower flows and oil-free high-pressure piston compressors at higher flows. Burckhardt says its non-lubricated designs compress hydrogen up to 900 bar as a booster for trailer filling and refuelling stations. IEA rates hydrogen turbo compressors, which suit pipelines, at TRL 6.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Suction from electrolyser, pipeline or trailer",
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Staged compression with intercooling",
+      "equipment": [
+        "diaphragm or piston compressor",
+        "intercoolers"
+      ],
+      "to": [
+        "OUT"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Discharge to storage or dispenser",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "diaphragm compressor",
+    "oil-free piston compressor",
+    "ionic liquid piston compressor",
+    "intercoolers",
+    "turbo compressor (pipeline scale)"
+  ],
+  "suppliers": [
+    {
+      "name": "Burckhardt Compression",
+      "product": "non-lubricated hydrogen compressors",
+      "source_id": "burckhardt"
+    },
+    {
+      "name": "PDC Machines",
+      "product": "register examples"
+    },
+    {
+      "name": "Hydro-Pac",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "discharge pressure as booster",
+      "unit": "bar",
+      "basis": "Burckhardt claim (non-lubricated)",
+      "source": {
+        "url": "https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article",
+        "source_id": "burckhardt",
+        "note": "Compressortech2, Burckhardt to develop hydrogen compressor systems, 28 October 2021"
+      },
+      "high": 900
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydrogen turbo compressors' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "Oil-free compression keeps hydrogen pure"
+  ],
+  "limitations": [
+    "Moving parts (diaphragms, valves) need maintenance; not quantified in the source"
+  ],
+  "sources": [
+    {
+      "url": "https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article",
+      "source_id": "burckhardt",
+      "note": "Compressortech2, Burckhardt to develop hydrogen compressor systems, 28 October 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "compressor cost and specific energy",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article gives none.",
+      "where": [
+        {
+          "hint": "DOE hydrogen compression targets",
+          "access": "open",
+          "source_id": "doe-hfto"
+        }
+      ],
+      "action": "Add cost and kWh/kg."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

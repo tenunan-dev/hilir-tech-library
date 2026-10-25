@@ -1,0 +1,140 @@
+{
+  "id": "h2-cellulosic-ethanol",
+  "name": "Cellulosic ethanol",
+  "aliases": [
+    "sunliquid",
+    "second-generation ethanol",
+    "lignocellulosic ethanol"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / biofuels",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Agricultural residues are pretreated, enzymatically hydrolysed and fermented to ethanol. Clariant's sunliquid plant at Podari, Romania produced its first commercial cellulosic ethanol in June 2022 from about 250,000 t of local agricultural residues, with output about 50,000 t contracted to Shell.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Pretreatment of residues",
+      "equipment": [
+        "pretreatment reactor"
+      ],
+      "to": [
+        "HYD"
+      ]
+    },
+    {
+      "id": "HYD",
+      "name": "Enzymatic hydrolysis",
+      "equipment": [
+        "hydrolysis tanks"
+      ],
+      "to": [
+        "FER"
+      ]
+    },
+    {
+      "id": "FER",
+      "name": "Fermentation and distillation",
+      "equipment": [
+        "fermenters",
+        "distillation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "pretreatment reactor",
+    "hydrolysis tanks",
+    "fermenters",
+    "distillation"
+  ],
+  "suppliers": [
+    {
+      "name": "Clariant",
+      "product": "sunliquid"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Podari plant feedstock",
+      "unit": "t/yr agricultural residues",
+      "basis": "article gives about 50,000 t output; no annual rate stated",
+      "source": {
+        "url": "https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining, Clariant produces first commercial sunliquid cellulosic ethanol, June 2022"
+      },
+      "low": 250000,
+      "high": 250000
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Clariant sunliquid, Podari",
+      "country": "RO",
+      "capacity": "about 50,000 t ethanol",
+      "year": 2022,
+      "source": {
+        "url": "https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining, Clariant produces first commercial sunliquid cellulosic ethanol, June 2022"
+      }
+    }
+  ],
+  "advantages": [
+    "Uses residues"
+  ],
+  "limitations": [
+    "Clariant's '120% CO2 savings' claim has no methodology in the article"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html",
+      "source_id": "ptq-digital-refining",
+      "note": "Digital Refining, Clariant produces first commercial sunliquid cellulosic ethanol, June 2022"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital and production cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "None in the article.",
+      "where": [
+        {
+          "hint": "IEA Bioenergy Task 39",
+          "access": "open"
+        }
+      ],
+      "action": "Add cost."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

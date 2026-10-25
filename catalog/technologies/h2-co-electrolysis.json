@@ -1,0 +1,149 @@
+{
+  "id": "h2-co-electrolysis",
+  "name": "Co-electrolysis of CO2 and water",
+  "aliases": [
+    "SOEC co-electrolysis",
+    "syngas by co-electrolysis"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / synthetic fuels",
+  "applications": [],
+  "maturity": "pilot",
+  "principle": "A solid oxide cell electrolyses steam and CO2 together at high temperature to give syngas (H2 plus CO) directly, which feeds Fischer-Tropsch or methanol synthesis. IEA rates CO2 and H2O co-electrolysis at TRL 6, above the register's lab label.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Steam and CO2 feed",
+      "equipment": [
+        "steam generator",
+        "CO2 supply"
+      ],
+      "to": [
+        "SOEC"
+      ]
+    },
+    {
+      "id": "SOEC",
+      "name": "High-temperature co-electrolysis",
+      "equipment": [
+        "solid oxide electrolyser"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "SYN",
+      "name": "Syngas to synthesis",
+      "equipment": [
+        "compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "solid oxide electrolyser stacks",
+    "steam generator",
+    "heat recovery"
+  ],
+  "suppliers": [
+    {
+      "name": "Topsoe",
+      "product": "SOEC (register examples; not verified)",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Sunfire",
+      "product": "SOEC (raised EUR 215 million in 2024 per IEA text)",
+      "source_id": "sunfire"
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 and h2o co-electrolysis' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "High electrical efficiency in principle (not quantified in sources read)"
+  ],
+  "limitations": [
+    "Stack durability and scale-up not covered by sources read"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Sunfire SOEC funding; technology readiness figures"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "power use per kg syngas and stack lifetime",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read gives them.",
+      "where": [
+        {
+          "hint": "Topsoe and Sunfire technical papers",
+          "access": "open",
+          "source_id": "topsoe"
+        }
+      ],
+      "action": "Add performance data."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

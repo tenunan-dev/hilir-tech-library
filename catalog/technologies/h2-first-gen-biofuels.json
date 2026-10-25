@@ -1,0 +1,184 @@
+{
+  "id": "h2-first-gen-biofuels",
+  "name": "First-generation biofuels (ethanol, FAME biodiesel)",
+  "aliases": [
+    "ethanol",
+    "FAME",
+    "biodiesel",
+    "first-generation biofuels"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / biofuels",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Ethanol is fermented from starch or sugar crops and biodiesel (FAME) is made by transesterifying vegetable oils and fats. REN21 reports US ethanol of 61.4 billion litres (an all-time high), Brazil 32.5 billion, India 6.35 billion, Indonesian biodiesel 13 billion and total global liquid biofuel output of 175.2 billion litres in 2023.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Crop or oil feedstock",
+      "equipment": [
+        "milling",
+        "oil extraction"
+      ],
+      "to": [
+        "CNV"
+      ]
+    },
+    {
+      "id": "CNV",
+      "name": "Fermentation (ethanol) or transesterification (FAME)",
+      "equipment": [
+        "fermenters",
+        "reactors"
+      ],
+      "to": [
+        "REC"
+      ]
+    },
+    {
+      "id": "REC",
+      "name": "Distillation or purification",
+      "equipment": [
+        "distillation",
+        "washing"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "fermenters",
+    "distillation",
+    "transesterification reactors",
+    "product storage"
+  ],
+  "suppliers": [
+    {
+      "name": "Raízen",
+      "product": "register examples"
+    },
+    {
+      "name": "POET",
+      "product": "register examples"
+    },
+    {
+      "name": "Neste",
+      "product": "register examples (HVO)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "global liquid biofuel production, 2023",
+      "unit": "billion litres",
+      "basis": "up 7% on 2022",
+      "source": {
+        "url": "https://www.ren21.net/gsr-2025/technologies/bioenergy/",
+        "note": "REN21 Global Status Report 2025, bioenergy"
+      },
+      "low": 175.2,
+      "high": 175.2
+    },
+    {
+      "metric": "US ethanol production",
+      "unit": "billion litres",
+      "basis": "REN21 states an all-time high; year not stated",
+      "source": {
+        "url": "https://www.ren21.net/gsr-2025/technologies/bioenergy/",
+        "note": "REN21 Global Status Report 2025, bioenergy"
+      },
+      "low": 61.4,
+      "high": 61.4
+    }
+  ],
+  "advantages": [
+    "Mature supply chains"
+  ],
+  "limitations": [
+    "Food-versus-fuel and land-use questions are outside the source"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ren21.net/gsr-2025/technologies/bioenergy/",
+      "note": "REN21 Global Status Report 2025, bioenergy"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "life-cycle GHG intensity by feedstock",
+      "reason_code": "not_in_sources_read",
+      "reason": "REN21 page read gives volumes only.",
+      "where": [
+        {
+          "hint": "ANL GREET",
+          "access": "open",
+          "source_id": "anl-greet"
+        }
+      ],
+      "action": "Add carbon intensities from GREET."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

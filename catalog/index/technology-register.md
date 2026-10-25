@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 103 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 126 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -239,39 +239,39 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | --- | --- | --- | --- | --- |
 | Hydrogen production | Steam methane reforming | commercial | Topsoe, Air Liquide, Technip Energies, Linde | [card](technologies-H2.md#h2-smr) |
 | Hydrogen production | Autothermal reforming with CO2 capture (blue hydrogen) | pilot | Topsoe SynCOR, Johnson Matthey LCH (Honeywell), Air Products | [card](technologies-H2.md#h2-atr-ccs) |
-| Hydrogen production | Gas-heated reforming | commercial | Johnson Matthey (Honeywell) |  |
-| Hydrogen production | Biogas reforming to hydrogen | commercial | Various |  |
-| Hydrogen production | Partial oxidation and gasification | commercial | Air Products (Shell gasification), Air Liquide |  |
+| Hydrogen production | Gas-heated reforming | commercial | Johnson Matthey (Honeywell) | [card](technologies-H2.md#h2-gas-heated-reforming) |
+| Hydrogen production | Biogas reforming to hydrogen | commercial | Various | [card](technologies-H2.md#h2-biogas-reforming) |
+| Hydrogen production | Partial oxidation and gasification | commercial | Air Products (Shell gasification), Air Liquide | [card](technologies-H2.md#h2-gasification-pox) |
 | Hydrogen production | Alkaline water electrolysis | commercial | Thyssenkrupp nucera, John Cockerill, LONGi Hydrogen, PERIC | [card](technologies-H2.md#h2-alkaline-electrolysis) |
 | Hydrogen production | PEM electrolysis | commercial | Siemens Energy, ITM Power, Plug Power, Cummins (Accelera) | [card](technologies-H2.md#h2-pem-electrolysis) |
 | Hydrogen production | Solid oxide electrolysis | demonstration | Topsoe, Bloom Energy, Sunfire | [card](technologies-H2.md#h2-soec) |
 | Hydrogen production | AEM electrolysis | pilot | Enapter | [card](technologies-H2.md#h2-aem-electrolysis) |
 | Hydrogen production | Methane pyrolysis (turquoise hydrogen) | demonstration | Monolith, BASF, Hazer | [card](technologies-H2.md#h2-methane-pyrolysis) |
-| Hydrogen production | Biomass gasification to hydrogen | pilot | Various |  |
-| Hydrogen production | Photocatalytic and thermochemical water splitting | lab | Research |  |
-| Hydrogen production | Co-electrolysis of CO2 and water | lab | Topsoe, Sunfire research |  |
-| Hydrogen production | Natural (geologic) hydrogen | pilot | Koloma, Gold Hydrogen |  |
-| Hydrogen carriers and logistics | Compressed hydrogen storage and tube trailers | commercial | Hexagon Purus, Linde |  |
+| Hydrogen production | Biomass gasification to hydrogen | pilot | Various | [card](technologies-H2.md#h2-biomass-gasification) |
+| Hydrogen production | Photocatalytic and thermochemical water splitting | lab | Research | [card](technologies-H2.md#h2-solar-water-splitting) |
+| Hydrogen production | Co-electrolysis of CO2 and water | lab | Topsoe, Sunfire research | [card](technologies-H2.md#h2-co-electrolysis) |
+| Hydrogen production | Natural (geologic) hydrogen | pilot | Koloma, Gold Hydrogen | [card](technologies-H2.md#h2-natural-hydrogen) |
+| Hydrogen carriers and logistics | Compressed hydrogen storage and tube trailers | commercial | Hexagon Purus, Linde | [card](technologies-H2.md#h2-compressed-storage-tube-trailers) |
 | Hydrogen carriers and logistics | Liquid hydrogen | commercial | Linde, Air Products, Kawasaki Heavy Industries | [card](technologies-H2.md#h2-liquid-hydrogen) |
 | Hydrogen carriers and logistics | Ammonia as hydrogen carrier and ammonia cracking | demonstration | Topsoe, KBR, Johnson Matthey (Honeywell), Air Products | [card](technologies-H2.md#h2-ammonia-cracking) |
 | Hydrogen carriers and logistics | Liquid organic hydrogen carriers (MCH, DBT) | demonstration | Chiyoda SPERA, Hydrogenious | [card](technologies-H2.md#h2-lohc) |
-| Hydrogen carriers and logistics | Hydrogen compressors (diaphragm, ionic, reciprocating) | commercial | Burckhardt, PDC Machines, Linde, Hydro-Pac |  |
-| Hydrogen carriers and logistics | Hydrogen refuelling stations | commercial | Nel, Linde, Air Liquide |  |
-| Hydrogen use | Fuel cells (PEM, SOFC) | commercial | Ballard, Toyota, Bloom Energy |  |
-| Hydrogen use | Hydrogen direct reduction of iron | demonstration | HYBRIT, H2 Green Steel (Stegra), Midrex |  |
-| Hydrogen use | Hydrogen for refinery and ammonia feedstock | commercial | Industry |  |
-| Hydrogen use | Ammonia as marine fuel | demonstration | MAN (Everllence), Wärtsilä, WinGD |  |
+| Hydrogen carriers and logistics | Hydrogen compressors (diaphragm, ionic, reciprocating) | commercial | Burckhardt, PDC Machines, Linde, Hydro-Pac | [card](technologies-H2.md#h2-compressors) |
+| Hydrogen carriers and logistics | Hydrogen refuelling stations | commercial | Nel, Linde, Air Liquide | [card](technologies-H2.md#h2-refuelling-stations) |
+| Hydrogen use | Fuel cells (PEM, SOFC) | commercial | Ballard, Toyota, Bloom Energy | [card](technologies-H2.md#h2-fuel-cells) |
+| Hydrogen use | Hydrogen direct reduction of iron | demonstration | HYBRIT, H2 Green Steel (Stegra), Midrex | [card](technologies-H2.md#h2-dri) |
+| Hydrogen use | Hydrogen for refinery and ammonia feedstock | commercial | Industry | [card](technologies-H2.md#h2-refinery-ammonia-feedstock) |
+| Hydrogen use | Ammonia as marine fuel | demonstration | MAN (Everllence), Wärtsilä, WinGD | [card](technologies-H2.md#h2-ammonia-marine-fuel) |
 | Low-carbon fuels | Green and blue ammonia | demonstration | Topsoe, KBR, Thyssenkrupp Uhde, Casale | [card](technologies-H2.md#h2-green-blue-ammonia) |
-| Low-carbon fuels | E-methanol and bio-methanol | demonstration | European Energy, Topsoe, Johnson Matthey (Honeywell) |  |
+| Low-carbon fuels | E-methanol and bio-methanol | demonstration | European Energy, Topsoe, Johnson Matthey (Honeywell) | [card](technologies-H2.md#h2-e-methanol) |
 | Low-carbon fuels | Alcohol-to-jet SAF | demonstration | LanzaJet, Honeywell UOP, Gevo | [card](technologies-REF.md#ref-alcohol-to-jet) |
-| Low-carbon fuels | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) | demonstration | Velocys, Fulcrum, Norsk e-Fuel, Infinium |  |
-| Low-carbon fuels | Pyrolysis oil and hydrothermal liquefaction | pilot | Licella, Steeper Energy, Ensyn |  |
-| Low-carbon fuels | First-generation biofuels (ethanol, FAME biodiesel) | commercial | Raízen, POET, Neste |  |
-| Low-carbon fuels | Cellulosic ethanol | demonstration | Clariant sunliquid, Raízen |  |
-| Low-carbon fuels | Biogas upgrading to biomethane | commercial | Air Liquide, Bright Biomethane, Pentair |  |
-| Low-carbon fuels | E-methane (synthetic natural gas) | demonstration | Tokyo Gas, Osaka Gas, Hitachi Zosen |  |
-| Low-carbon fuels | Reverse water-gas shift for e-fuels | demonstration | Topsoe, Johnson Matthey (Honeywell) |  |
-| Low-carbon fuels | Algal fuels | lab | Research |  |
+| Low-carbon fuels | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) | demonstration | Velocys, Fulcrum, Norsk e-Fuel, Infinium | [card](technologies-H2.md#h2-ft-saf-efuels) |
+| Low-carbon fuels | Pyrolysis oil and hydrothermal liquefaction | pilot | Licella, Steeper Energy, Ensyn | [card](technologies-H2.md#h2-pyrolysis-htl) |
+| Low-carbon fuels | First-generation biofuels (ethanol, FAME biodiesel) | commercial | Raízen, POET, Neste | [card](technologies-H2.md#h2-first-gen-biofuels) |
+| Low-carbon fuels | Cellulosic ethanol | demonstration | Clariant sunliquid, Raízen | [card](technologies-H2.md#h2-cellulosic-ethanol) |
+| Low-carbon fuels | Biogas upgrading to biomethane | commercial | Air Liquide, Bright Biomethane, Pentair | [card](technologies-H2.md#h2-biogas-upgrading) |
+| Low-carbon fuels | E-methane (synthetic natural gas) | demonstration | Tokyo Gas, Osaka Gas, Hitachi Zosen | [card](technologies-H2.md#h2-e-methane) |
+| Low-carbon fuels | Reverse water-gas shift for e-fuels | demonstration | Topsoe, Johnson Matthey (Honeywell) | [card](technologies-H2.md#h2-rwgs) |
+| Low-carbon fuels | Algal fuels | lab | Research | [card](technologies-H2.md#h2-algal-fuels) |
 
 ## CCS: CCUS
 

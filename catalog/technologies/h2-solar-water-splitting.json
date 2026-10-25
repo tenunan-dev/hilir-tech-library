@@ -1,0 +1,159 @@
+{
+  "id": "h2-solar-water-splitting",
+  "name": "Photocatalytic and thermochemical water splitting",
+  "aliases": [
+    "photoelectrochemical hydrogen",
+    "solar thermochemical",
+    "photocatalytic water splitting"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / solar fuels",
+  "applications": [],
+  "maturity": "lab",
+  "principle": "Sunlight splits water directly: photocatalytic and photoelectrochemical devices use photons, while solar thermochemical cycles use concentrated heat (for example a metal-oxide cycle with doped ceria). IEA rates photon-based direct solar water splitting at TRL 5 and solar or nuclear thermochemical water splitting at TRL 4. Pilots include Sparc Hydrogen (photocatalytic, Australia), SunHydrogen (a pilot of about 15 PEC panels) and CSIRO's beam-down reactor.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Concentrated sunlight or photon absorption",
+      "equipment": [
+        "reactor",
+        "heliostats or panels"
+      ],
+      "to": [
+        "REAC"
+      ]
+    },
+    {
+      "id": "REAC",
+      "name": "Water-splitting reaction",
+      "equipment": [
+        "photocatalyst, photoelectrode or ceria"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Gas separation",
+      "equipment": [
+        "gas separation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "photocatalytic or PEC reactor",
+    "heliostat field (thermochemical)",
+    "gas separation"
+  ],
+  "suppliers": [
+    {
+      "name": "Sparc Hydrogen",
+      "product": "photocatalytic pilot (Australia)"
+    },
+    {
+      "name": "SunHydrogen",
+      "product": "PEC pilot (US)"
+    },
+    {
+      "name": "CSIRO",
+      "product": "beam-down solar reactor pilot",
+      "source_id": "au-csiro"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "SunHydrogen PEC pilot (planned >25 m2, about 15 panels of 1.92 m2)",
+      "country": "US",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.4"
+      }
+    },
+    {
+      "name": "Sparc Hydrogen photocatalytic pilot, commissioning from mid-2025",
+      "country": "AU",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.4"
+      }
+    }
+  ],
+  "trl": {
+    "low": 4,
+    "high": 5,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Photon-based direct solar water splitting' 5 (2025); 'Solar thermochemical' 4 (2025); 'Nuclear thermochemical' 4 (2025)"
+    }
+  },
+  "advantages": [
+    "Direct conversion avoids the electricity step"
+  ],
+  "limitations": [
+    "Lower efficiency and durability issues (IEA text)"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.4, direct solar pathways and start-up pilots"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "solar-to-hydrogen efficiencies by route",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA box describes pilots without reporting a common efficiency.",
+      "where": [
+        {
+          "hint": "Pathfinder Solar-to-X benchmarking outputs",
+          "access": "open"
+        }
+      ],
+      "action": "Add efficiency from benchmarking papers."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

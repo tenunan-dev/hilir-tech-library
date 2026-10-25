@@ -1,0 +1,210 @@
+{
+  "id": "h2-gasification-pox",
+  "name": "Partial oxidation and gasification",
+  "aliases": [
+    "POX",
+    "gasification hydrogen",
+    "partial oxidation"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / gasification",
+  "applications": [
+    "refinery hydrogen from residue",
+    "ammonia from coal",
+    "blue hydrogen from gasification"
+  ],
+  "maturity": "commercial",
+  "principle": "Coal, petroleum coke, heavy oil or gas is partly burned with oxygen at high temperature to make syngas, which is shifted to hydrogen and purified. NETL's coal case uses a dry-feed, oxygen-blown entrained-flow slagging gasifier at about 1,427 degC, sour shift, MDEA acid gas removal, and PSA giving 99.9% hydrogen. Capture can be added; NSTA reports POX with methanation at 96 to 97% capture.",
+  "process_steps": [
+    {
+      "id": "ASU",
+      "name": "Air separation",
+      "equipment": [
+        "cryogenic ASU"
+      ],
+      "to": [
+        "GAS"
+      ]
+    },
+    {
+      "id": "GAS",
+      "name": "Gasification or partial oxidation",
+      "equipment": [
+        "gasifier"
+      ],
+      "to": [
+        "QCH"
+      ]
+    },
+    {
+      "id": "QCH",
+      "name": "Syngas cooling, quench and scrubbing",
+      "equipment": [
+        "syngas cooler",
+        "scrubber"
+      ],
+      "to": [
+        "SH"
+      ]
+    },
+    {
+      "id": "SH",
+      "name": "Sour shift",
+      "equipment": [
+        "shift reactors"
+      ],
+      "to": [
+        "AGR"
+      ]
+    },
+    {
+      "id": "AGR",
+      "name": "Acid gas removal and sulfur recovery",
+      "equipment": [
+        "MDEA unit",
+        "Claus"
+      ],
+      "to": [
+        "PSA"
+      ]
+    },
+    {
+      "id": "PSA",
+      "name": "Hydrogen PSA",
+      "equipment": [
+        "PSA"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "air separation unit",
+    "gasifier",
+    "syngas cooler",
+    "shift reactors",
+    "acid gas removal",
+    "sulfur recovery",
+    "PSA"
+  ],
+  "suppliers": [
+    {
+      "name": "Air Products",
+      "product": "Shell-type gasification (NETL case describes it as formerly Shell)",
+      "source_id": "air-products-tech"
+    },
+    {
+      "name": "Air Liquide",
+      "product": "register examples; not verified"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "hydrogen purity from PSA, NETL case",
+      "unit": "%",
+      "basis": "coal gasification without capture",
+      "source": {
+        "url": "https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon",
+        "source_id": "netl",
+        "note": "NETL Gasifipedia, hydrogen without carbon capture (DOE/NETL-2022/3241 case), read 25 October 2026"
+      },
+      "low": 99.9,
+      "high": 99.9
+    },
+    {
+      "metric": "CO2 capture efficiency, POX + methanation",
+      "unit": "%",
+      "basis": "NSTA blue hydrogen review",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf",
+        "source_id": "uk-nsta",
+        "note": "UK North Sea Transition Authority, Blue hydrogen technology review"
+      },
+      "low": 96,
+      "high": 97
+    },
+    {
+      "metric": "feed gas energy conversion, POX + methanation",
+      "unit": "% LHV",
+      "basis": "NSTA; overall incl. power import 73.2%",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf",
+        "source_id": "uk-nsta",
+        "note": "UK North Sea Transition Authority, Blue hydrogen technology review"
+      },
+      "low": 76.6,
+      "high": 76.6
+    }
+  ],
+  "trl": {
+    "low": 5,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Coal gasification - partial capture rates' 9 (2025); 'Coal gasification - high capture rates' 5 (2025)"
+    }
+  },
+  "advantages": [
+    "Handles solid and heavy feeds",
+    "Mature"
+  ],
+  "limitations": [
+    "Oxygen plant and sour gas handling",
+    "Without capture, high CO2 (not in the sources read)"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon",
+      "source_id": "netl",
+      "note": "NETL Gasifipedia, hydrogen without carbon capture (DOE/NETL-2022/3241 case), read 25 October 2026"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf",
+      "source_id": "uk-nsta",
+      "note": "UK North Sea Transition Authority, Blue hydrogen technology review"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost and hydrogen cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "NETL page and NSTA report quote no costs.",
+      "where": [
+        {
+          "hint": "NETL baseline reports",
+          "access": "open",
+          "source_id": "netl"
+        }
+      ],
+      "action": "Add costs from the full NETL case report."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

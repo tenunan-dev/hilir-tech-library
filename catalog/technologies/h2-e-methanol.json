@@ -1,0 +1,155 @@
+{
+  "id": "h2-e-methanol",
+  "name": "E-methanol and bio-methanol",
+  "aliases": [
+    "e-methanol",
+    "bio-methanol",
+    "green methanol"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / methanol",
+  "applications": [
+    "marine fuel",
+    "chemicals"
+  ],
+  "maturity": "demonstration",
+  "principle": "Methanol is made from green hydrogen and biogenic or captured CO2 (e-methanol), or from biomass (bio-methanol). European Energy's Kassø plant in Denmark has three Siemens Energy electrolysers totalling 52.5 MW, uses biogenic CO2 from a local biogas plant, and produced its first e-methanol in March 2025 from the first of two methanol lines. Target output is 42,000 t.",
+  "process_steps": [
+    {
+      "id": "H2",
+      "name": "Water electrolysis",
+      "equipment": [
+        "electrolyser"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "CO2",
+      "name": "Biogenic CO2 supply",
+      "equipment": [
+        "CO2 capture and compression"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "SYN",
+      "name": "Methanol synthesis",
+      "equipment": [
+        "synthesis reactor",
+        "distillation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrolyser",
+    "CO2 supply",
+    "methanol synthesis reactor",
+    "distillation"
+  ],
+  "suppliers": [
+    {
+      "name": "European Energy",
+      "product": "Kassø e-methanol"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "electrolysers",
+      "source_id": "siemens-energy"
+    },
+    {
+      "name": "Topsoe",
+      "product": "register examples",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Johnson Matthey (Honeywell)",
+      "product": "register examples",
+      "source_id": "johnson-matthey"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Kassø e-methanol capacity",
+      "unit": "t",
+      "basis": "article gives no time unit; electrolysers 52.5 MW",
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing, European Energy produces first e-methanol at Kassø, March 2025"
+      },
+      "low": 42000,
+      "high": 42000
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "European Energy Kassø, Denmark",
+      "country": "DK",
+      "capacity": "42,000 t e-methanol; 52.5 MW electrolysis",
+      "status": "first e-methanol March 2025; full ramp-up expected Q2 2025",
+      "year": 2025,
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing, European Energy produces first e-methanol at Kassø, March 2025"
+      }
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025); 'Methanol production using biomass and waste gasification' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Drop-in fuel for methanol ship engines"
+  ],
+  "limitations": [
+    "IEA: biogenic CO2 supply will be limited and DAC-based methanol very expensive"
+  ],
+  "sources": [
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/",
+      "source_id": "hydrocarbon-processing",
+      "note": "Hydrocarbon Processing, European Energy produces first e-methanol at Kassø, March 2025"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "production cost per tonne",
+      "reason_code": "not_in_sources_read",
+      "reason": "None in the article.",
+      "where": [
+        {
+          "hint": "IRENA methanol outlook",
+          "access": "open",
+          "source_id": "irena"
+        }
+      ],
+      "action": "Add cost ranges."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

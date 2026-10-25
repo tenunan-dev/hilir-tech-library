@@ -1,0 +1,147 @@
+{
+  "id": "h2-compressed-storage-tube-trailers",
+  "name": "Compressed hydrogen storage and tube trailers",
+  "aliases": [
+    "tube trailers",
+    "compressed hydrogen",
+    "Type 4 cylinders"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen carriers and logistics / compressed gas",
+  "applications": [
+    "hydrogen distribution to refuelling stations",
+    "industrial supply"
+  ],
+  "maturity": "commercial",
+  "principle": "Hydrogen is held as high-pressure gas in steel (Type 1) or composite (Type 4) cylinders and moved on tube trailers. Hexagon Purus gives 200 to 250 bar and about 300 to 400 kg for steel trailers, and 350 to 700 bar and 800 to 1,200 kg or more for Type 4 composite trailers.",
+  "process_steps": [
+    {
+      "id": "FILL",
+      "name": "Compression and filling",
+      "equipment": [
+        "compressor",
+        "filling station"
+      ],
+      "to": [
+        "TRL"
+      ]
+    },
+    {
+      "id": "TRL",
+      "name": "Transport",
+      "equipment": [
+        "tube trailer"
+      ],
+      "to": [
+        "DLV"
+      ]
+    },
+    {
+      "id": "DLV",
+      "name": "Delivery and pressure let-down",
+      "equipment": [
+        "offloading skid"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "Type 1 steel and Type 4 composite cylinders",
+    "tube trailer chassis",
+    "compressor",
+    "offloading skid"
+  ],
+  "suppliers": [
+    {
+      "name": "Hexagon Purus",
+      "product": "Type 4 tube trailers"
+    },
+    {
+      "name": "Linde",
+      "product": "register examples; not verified"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "hydrogen per trailer, steel versus Type 4",
+      "unit": "kg",
+      "basis": "steel 300 to 400 kg at 200 to 250 bar; Type 4 800 to 1,200 kg or more at 350 to 700 bar; vendor page",
+      "source": {
+        "url": "https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers",
+        "note": "Hexagon Purus, Type 4 cylinders vs traditional steel tube trailers (vendor page)"
+      },
+      "low": 300,
+      "high": 1200
+    }
+  ],
+  "advantages": [
+    "Simple, no conditioning",
+    "Type 4 holds about three times as much hydrogen as steel for the same size (vendor)"
+  ],
+  "limitations": [
+    "Vendor source only; transport distances limited by cost per kg (not in source)"
+  ],
+  "sources": [
+    {
+      "url": "https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers",
+      "note": "Hexagon Purus, Type 4 cylinders vs traditional steel tube trailers (vendor page)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "delivered cost per kg versus distance",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor page gives none.",
+      "where": [
+        {
+          "hint": "DOE Hydrogen Program delivery cost records",
+          "access": "open",
+          "source_id": "doe-hfto"
+        }
+      ],
+      "action": "Add DOE delivery costs."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

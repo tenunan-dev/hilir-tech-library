@@ -1,0 +1,139 @@
+{
+  "id": "h2-natural-hydrogen",
+  "name": "Natural (geologic) hydrogen",
+  "aliases": [
+    "geologic hydrogen",
+    "white hydrogen",
+    "gold hydrogen"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / geologic",
+  "applications": [],
+  "maturity": "pilot",
+  "principle": "Hydrogen occurs naturally in the subsurface, produced by water-rock reactions or radiolysis, or can be stimulated in place. The only commercial production to date is Bourakebougou in Mali at 5 tpa. In June 2025 Gold H2 reported a bio-stimulated trial in a depleted California oil well giving gas with 40% hydrogen.",
+  "process_steps": [
+    {
+      "id": "EXP",
+      "name": "Surface and subsurface exploration",
+      "equipment": [
+        "seismic",
+        "soil gas surveys"
+      ],
+      "to": [
+        "APP"
+      ]
+    },
+    {
+      "id": "APP",
+      "name": "Appraisal drilling",
+      "equipment": [
+        "wells"
+      ],
+      "to": [
+        "PRD"
+      ]
+    },
+    {
+      "id": "PRD",
+      "name": "Production and gas clean-up",
+      "equipment": [
+        "separators",
+        "purification"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "exploration tools",
+    "wells",
+    "gas purification"
+  ],
+  "suppliers": [
+    {
+      "name": "Koloma",
+      "product": "geologic hydrogen exploration; raised nearly USD 300 million in 2024 (IEA text)"
+    },
+    {
+      "name": "Gold H2",
+      "product": "bio-stimulated hydrogen trial"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "commercial production at Bourakebougou, Mali",
+      "unit": "tpa",
+      "basis": "IEA: equivalent to about 100 barrels of oil per year",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.3"
+      },
+      "low": 5,
+      "high": 5
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Bourakebougou field, Mali",
+      "country": "ML",
+      "capacity": "5 tpa",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.3"
+      }
+    }
+  ],
+  "trl": {
+    "low": 3,
+    "high": 5,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Natural hydrogen extraction' 5 (2025); 'Mineralogical reactions' 3 (2025)"
+    }
+  },
+  "advantages": [
+    "Potentially low-cost, low-carbon source (unproven)"
+  ],
+  "limitations": [
+    "IEA: commercial scale before 2030 is uncertain; production cost is highly uncertain"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.3 on natural hydrogen and Gold H2 trial"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "production cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "IEA says the cost is highly uncertain and gives no figure.",
+      "where": [
+        {
+          "hint": "USGS geologic hydrogen assessments",
+          "access": "open",
+          "source_id": "usgs-energy"
+        }
+      ],
+      "action": "Add cost estimates when published."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

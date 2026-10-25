@@ -1,0 +1,140 @@
+{
+  "id": "h2-fuel-cells",
+  "name": "Fuel cells (PEM, SOFC)",
+  "aliases": [
+    "PEM fuel cell",
+    "SOFC",
+    "solid oxide fuel cell",
+    "fuel cell"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen use / power",
+  "applications": [
+    "fuel cell trucks and buses",
+    "stationary power",
+    "marine"
+  ],
+  "maturity": "commercial",
+  "principle": "Fuel cells convert hydrogen to electricity electrochemically. PEM cells power vehicles and backup; solid oxide cells run at high temperature for stationary power. IEA rates PEM fuel cells for fuel cell vehicles at TRL 9 and solid oxide fuel cells at TRL 9. China's fuel cell truck stock reached almost 15,000 in 2024, up 40%, and fuel cell cars sold fewer than 100 units there that year.",
+  "process_steps": [
+    {
+      "id": "H2",
+      "name": "Hydrogen to anode, air to cathode",
+      "equipment": [
+        "stack",
+        "balance of plant"
+      ],
+      "to": [
+        "EL"
+      ]
+    },
+    {
+      "id": "EL",
+      "name": "Electricity and heat output",
+      "equipment": [
+        "power electronics"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "fuel cell stack",
+    "balance of plant",
+    "power electronics",
+    "hydrogen tank (mobile)"
+  ],
+  "suppliers": [
+    {
+      "name": "Ballard",
+      "product": "register examples"
+    },
+    {
+      "name": "Toyota",
+      "product": "register examples"
+    },
+    {
+      "name": "Bloom Energy",
+      "product": "SOFC (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "fuel cell trucks in China",
+      "unit": "vehicles",
+      "basis": "almost 15,000 in 2024, up 40% on 2023; China FCEV stock still short of its 50,000 target for 2025",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): China fuel cell trucks"
+      },
+      "low": 15000,
+      "high": 15000
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Polymer electrolyte membrane hydrogen fuel cell for FCEVs' 9 (2025); 'Solid oxide fuel cell' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Zero tailpipe emissions",
+    "SOFC suits stationary use"
+  ],
+  "limitations": [
+    "Far fewer fuel cell trucks than battery or CNG trucks in China (about 25 and 65 times as many)"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): fuel cell vehicle stock and sales in China, 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "stack and system costs",
+      "reason_code": "not_in_sources_read",
+      "reason": "None given in the sources read.",
+      "where": [
+        {
+          "hint": "DOE fuel cell cost records",
+          "access": "open",
+          "source_id": "doe-hfto"
+        }
+      ],
+      "action": "Add DOE cost records."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

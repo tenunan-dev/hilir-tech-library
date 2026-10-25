@@ -1,0 +1,159 @@
+{
+  "id": "h2-rwgs",
+  "name": "Reverse water-gas shift for e-fuels",
+  "aliases": [
+    "RWGS",
+    "eRWGS",
+    "reverse water gas shift"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / CO2 conversion",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Reverse water-gas shift (CO2 + H2 -> CO + H2O) turns CO2 into the CO needed for syngas. Topsoe's electrified RWGS reactor ran in the FrontFuel SynFuels project in Denmark from November 2024 (12 kg/h CO2) and is planned for a 2.5 ktpa synthetic fuels plant at Leuna, Germany from 2027. IEA rates CO2-to-methanol via RWGS at TRL 6 and RWGS+FT at TRL 7.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "CO2 and hydrogen feed",
+      "equipment": [
+        "compressors"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Electrically heated RWGS reactor",
+      "equipment": [
+        "RWGS reactor"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "SYN",
+      "name": "Syngas to FT or methanol synthesis",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrified RWGS reactor",
+    "feed compressors",
+    "heat recovery"
+  ],
+  "suppliers": [
+    {
+      "name": "Topsoe",
+      "product": "eRWGS (FrontFuel, Leuna)",
+      "source_id": "topsoe"
+    },
+    {
+      "name": "Johnson Matthey (Honeywell)",
+      "product": "register examples",
+      "source_id": "johnson-matthey"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "FrontFuel SynFuels CO2 throughput",
+      "unit": "kg/h",
+      "basis": "started November 2024 with Topsoe electrified RWGS",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): FrontFuel"
+      },
+      "low": 12,
+      "high": 12
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "FrontFuel SynFuels, Denmark (12 kg/h CO2)",
+      "country": "DK",
+      "year": 2024,
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): FrontFuel"
+      }
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 7,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-methanol via reverse water-gas shift' 6 (2025); 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025)"
+    }
+  },
+  "advantages": [
+    "Electrified heating avoids burning fuel"
+  ],
+  "limitations": [
+    "Conversion per pass and catalyst life not in sources read"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): FrontFuel SynFuels and Leuna projects using Topsoe electrified RWGS"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "CO2 conversion and energy per kg CO",
+      "reason_code": "not_in_sources_read",
+      "reason": "None given.",
+      "where": [
+        {
+          "hint": "Topsoe technical papers",
+          "access": "open",
+          "source_id": "topsoe"
+        }
+      ],
+      "action": "Add them."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

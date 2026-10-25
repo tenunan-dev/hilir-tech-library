@@ -1,0 +1,183 @@
+{
+  "id": "h2-dri",
+  "name": "Hydrogen direct reduction of iron",
+  "aliases": [
+    "H2 DRI",
+    "green steel",
+    "hydrogen direct reduction"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen use / steel",
+  "applications": [
+    "fossil-free steel"
+  ],
+  "maturity": "demonstration",
+  "principle": "Iron ore pellets are reduced to sponge iron by hydrogen instead of natural gas, then melted in an electric arc furnace. HYBRIT's Luleå pilot made more than 5,000 t of sponge iron with 98 to 99% metallisation between 2018 and 2024. IEA rates DRI based on 100% electrolytic hydrogen at TRL 6.",
+  "process_steps": [
+    {
+      "id": "PEL",
+      "name": "Ore pellets",
+      "equipment": [
+        "pellet plant"
+      ],
+      "to": [
+        "RED"
+      ]
+    },
+    {
+      "id": "RED",
+      "name": "Hydrogen reduction in shaft furnace",
+      "equipment": [
+        "shaft furnace",
+        "hydrogen heater"
+      ],
+      "to": [
+        "EAF"
+      ]
+    },
+    {
+      "id": "EAF",
+      "name": "Electric arc furnace melting",
+      "equipment": [
+        "EAF"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrolyser",
+    "hydrogen storage",
+    "shaft furnace",
+    "gas heater",
+    "electric arc furnace"
+  ],
+  "suppliers": [
+    {
+      "name": "HYBRIT (SSAB, LKAB, Vattenfall)",
+      "product": "Luleå pilot"
+    },
+    {
+      "name": "Stegra (H2 Green Steel)",
+      "product": "register examples"
+    },
+    {
+      "name": "Midrex",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "sponge iron produced in HYBRIT pilot",
+      "unit": "t",
+      "basis": "2018 to 2024; metallisation 98 to 99%",
+      "source": {
+        "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+        "note": "SSAB / HYBRIT press release, August 2024"
+      },
+      "low": 5000
+    },
+    {
+      "metric": "cost gap of H2 DRI versus blast furnace",
+      "unit": "%",
+      "basis": "IEA GHR 2025: 20 to 80% versus unabated natural-gas DRI; upfront cost 40 to 140% higher than gas DRI at commercial scale",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): H2 DRI cost gap"
+      },
+      "low": 50,
+      "high": 140
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "HYBRIT pilot, Luleå",
+      "country": "SE",
+      "capacity": "more than 5,000 t sponge iron in total",
+      "year": 2024,
+      "source": {
+        "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+        "note": "SSAB / HYBRIT press release, August 2024"
+      }
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'DRI production based on 100% electrolytic hydrogen' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "Scope 1 and 2 emissions near zero in the pilot (under 0.05 t CO2e/t steel)"
+  ],
+  "limitations": [
+    "High cost gap against incumbents",
+    "Needs low-cost clean electricity"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+      "note": "SSAB / HYBRIT press release, August 2024"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): H2 DRI cost gap and upfront cost"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "Stegra Boden and other commercial plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only the HYBRIT pilot was read.",
+      "where": [
+        {
+          "hint": "Stegra project documents",
+          "access": "open"
+        }
+      ],
+      "action": "Add commercial-scale plants."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

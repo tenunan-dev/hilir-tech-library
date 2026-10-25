@@ -1,0 +1,161 @@
+{
+  "id": "h2-ammonia-marine-fuel",
+  "name": "Ammonia as marine fuel",
+  "aliases": [
+    "ammonia-fuelled ships",
+    "ammonia bunkering"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen use / shipping",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Ammonia burns in dual-fuel engines on ships. IEA reports that 4-stroke ammonia engines are commercially available for smaller vessels, 2-stroke engines for large ships are not yet commercial, and more than 30 ships are on order with deliveries from late 2025. IMO amended the IGC Code in December 2024 to permit ammonia cargo as a marine fuel, in force July 2026. IEA rates ammonia-fuelled ship engines at TRL 6.",
+  "process_steps": [
+    {
+      "id": "BNK",
+      "name": "Ammonia bunkering",
+      "equipment": [
+        "bunkering system"
+      ],
+      "to": [
+        "TK"
+      ]
+    },
+    {
+      "id": "TK",
+      "name": "Fuel storage",
+      "equipment": [
+        "ammonia fuel tank"
+      ],
+      "to": [
+        "ENG"
+      ]
+    },
+    {
+      "id": "ENG",
+      "name": "Dual-fuel engine with pilot fuel and aftertreatment",
+      "equipment": [
+        "two- or four-stroke engine",
+        "N2O/NOx abatement"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "ammonia fuel tank",
+    "fuel supply system",
+    "dual-fuel engine",
+    "safety and leak systems"
+  ],
+  "suppliers": [
+    {
+      "name": "MAN Energy Solutions (Everllence)",
+      "product": "two-stroke engine; 100% ammonia run in Denmark",
+      "source_id": "man-energy"
+    },
+    {
+      "name": "Wärtsilä",
+      "product": "four-stroke dual-fuel ammonia engine since 2023, 18% emissions improvement reported",
+      "source_id": "wartsila"
+    },
+    {
+      "name": "WinGD",
+      "product": "52-bore low-speed engine, full-load trials in Switzerland"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Anhui, first vessel on ammonia only (200 kW engine), maiden voyage June 2025",
+      "country": "CN",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Anhui"
+      }
+    },
+    {
+      "name": "Sakigake tug, Tokyo Bay, 95% ammonia co-firing trial March 2025",
+      "country": "JP",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Sakigake"
+      }
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Ammonia-fuelled ship engine' 6 (2025); 'Ammonia (bunkering)' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Carbon-free fuel at the point of use"
+  ],
+  "limitations": [
+    "Toxicity, N2O and NOx need management (not quantified in the source)"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): ammonia in shipping, IMO rules and engine progress"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "fuel cost versus LNG, methanol and fuel oil",
+      "reason_code": "not_in_sources_read",
+      "reason": "None extracted.",
+      "where": [
+        {
+          "hint": "IEA GHR shipping section",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Add cost comparisons."
+    },
+    {
+      "field": "performance",
+      "item": "key performance figures (energy use, yields, capture or conversion rate)",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives performance figures.",
+      "where": [
+        {
+          "hint": "Supplier datasheets and brochures for the companies listed on the card",
+          "access": "open"
+        },
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Add the figures that matter for comparing options, each with its basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

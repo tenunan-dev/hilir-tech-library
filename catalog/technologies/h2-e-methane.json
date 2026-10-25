@@ -1,0 +1,174 @@
+{
+  "id": "h2-e-methane",
+  "name": "E-methane (synthetic natural gas)",
+  "aliases": [
+    "e-methane",
+    "synthetic natural gas",
+    "power-to-methane",
+    "methanation"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / synthetic methane",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Hydrogen and CO2 react in a methanation reactor (Sabatier) to make methane that can enter the gas grid. Tokyo Gas began a trial in 2022 at its Yokohama research centre with a Hitachi Zosen methanation unit, first at 12.5 Nm3/h, then 400 Nm3/h in the late 2020s and 20,000 Nm3/h overseas in 2030. A 6.3 MW synthetic methane plant in Germany received RFNBO certificates.",
+  "process_steps": [
+    {
+      "id": "H2",
+      "name": "Hydrogen from electrolysis",
+      "equipment": [
+        "electrolyser"
+      ],
+      "to": [
+        "MET"
+      ]
+    },
+    {
+      "id": "CO2",
+      "name": "CO2 supply",
+      "equipment": [
+        "CO2 capture"
+      ],
+      "to": [
+        "MET"
+      ]
+    },
+    {
+      "id": "MET",
+      "name": "Methanation",
+      "equipment": [
+        "methanation reactor"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Gas upgrading and injection",
+      "equipment": [
+        "dryer",
+        "compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrolyser",
+    "methanation reactor",
+    "CO2 supply",
+    "gas conditioning"
+  ],
+  "suppliers": [
+    {
+      "name": "Hitachi Zosen",
+      "product": "methanation device for Tokyo Gas"
+    },
+    {
+      "name": "ITM Power",
+      "product": "electrolyser for Tokyo Gas trial",
+      "source_id": "itm-power"
+    },
+    {
+      "name": "Tokyo Gas",
+      "product": "trial operator",
+      "source_id": "tokyo-gas"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Tokyo Gas trial capacity, first phase",
+      "unit": "Nm3/h",
+      "basis": "scale-up to 400 Nm3/h late 2020s, 20,000 Nm3/h overseas 2030",
+      "source": {
+        "url": "https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen",
+        "note": "Pipeline & Gas Journal, Tokyo Gas begins synthetic methane trial using green hydrogen, 26 June 2022"
+      },
+      "low": 12.5,
+      "high": 12.5
+    }
+  ],
+  "advantages": [
+    "Uses existing gas grid"
+  ],
+  "limitations": [
+    "Plant efficiency and cost not in sources read"
+  ],
+  "sources": [
+    {
+      "url": "https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen",
+      "note": "Pipeline & Gas Journal, Tokyo Gas begins synthetic methane trial using green hydrogen, 26 June 2022"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): RFNBO certificates for a 6.3 MW synthetic methane plant"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "no IEA guide entry for power-to-methane in the dataset",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the 634 collected entries.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL for methanation of electrolytic hydrogen."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

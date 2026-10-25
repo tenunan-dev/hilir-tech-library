@@ -1,0 +1,162 @@
+{
+  "id": "h2-biogas-reforming",
+  "name": "Biogas reforming to hydrogen",
+  "aliases": [
+    "biomethane reforming",
+    "renewable hydrogen from biogas"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / biogenic",
+  "applications": [
+    "renewable ammonia",
+    "refinery hydrogen"
+  ],
+  "maturity": "commercial",
+  "principle": "Upgraded biogas or biomethane is steam-reformed like natural gas to make hydrogen, or used as the hydrogen feed for products such as ammonia. The hydrogen is renewable by feedstock, and CO2 capture can make it carbon-negative. In Cubatão, Brazil, Yara started ammonia production from biomethane, with a goal of 6 to 7 ktpa.",
+  "process_steps": [
+    {
+      "id": "BIO",
+      "name": "Biogas production and upgrading",
+      "equipment": [
+        "digester",
+        "upgrading unit"
+      ],
+      "to": [
+        "SMR"
+      ]
+    },
+    {
+      "id": "SMR",
+      "name": "Steam methane reforming",
+      "equipment": [
+        "reformer"
+      ],
+      "to": [
+        "SH"
+      ]
+    },
+    {
+      "id": "SH",
+      "name": "Shift and purification",
+      "equipment": [
+        "shift reactors",
+        "PSA"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "digesters",
+    "biogas upgrading",
+    "steam methane reformer",
+    "PSA"
+  ],
+  "suppliers": [
+    {
+      "name": "Yara",
+      "product": "ammonia from biomethane, Cubatão"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Yara Cubatão ammonia target from biomethane",
+      "unit": "ktpa",
+      "basis": "IEA GHR 2025 text",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Yara Cubatão"
+      },
+      "low": 6,
+      "high": 7
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Yara Cubatão, Brazil, ammonia from biomethane",
+      "country": "BR",
+      "capacity": "6 to 7 ktpa goal",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Yara Cubatão"
+      }
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Anaerobic digestion and upgrading with CCUS' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Uses existing reforming technology"
+  ],
+  "limitations": [
+    "Biogas supply is small and local",
+    "TRL shown is for AD with upgrading and CCUS, not for reforming itself"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): ammonia from biomethane at Yara Cubatão, Brazil, and a country roadmap with 1.85 Mtpa from biogas reforming by 2060"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "reforming efficiency and hydrogen yield per Nm3 biogas",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add yield and cost from a review."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

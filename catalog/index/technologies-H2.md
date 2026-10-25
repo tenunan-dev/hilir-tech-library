@@ -1,21 +1,44 @@
 # H2 technology options
 
-12 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+35 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Alkaline water electrolysis](#h2-alkaline-electrolysis) | Hydrogen production / electrolysis | commercial | 9 | Thyssenkrupp nucera (20 MW alkaline water electrolysis module); John Cockerill; LONGi Hydrogen; PERIC; Nel Hydrogen; HydrogenPro | uninstalled system capital cost (status): 500-750 USD/kW (2020$)<br>water electrolysis capex, global average (2024): 2000-2600 USD/kWe (2024$)<br>water electrolysis capex, China (2024): 600-1200 USD/kWe (2024$) |
+| [Biogas reforming to hydrogen](#h2-biogas-reforming) | Hydrogen production / biogenic | commercial | 8 | Yara (ammonia from biomethane, Cubatão) |  |
+| [Biogas upgrading to biomethane](#h2-biogas-upgrading) | Low-carbon fuels / biogas | commercial |  | Air Liquide (register examples); Bright Biomethane (register examples); Pentair (register examples) |  |
+| [Compressed hydrogen storage and tube trailers](#h2-compressed-storage-tube-trailers) | Hydrogen carriers and logistics / compressed gas | commercial |  | Hexagon Purus (Type 4 tube trailers); Linde (register examples; not verified) |  |
+| [First-generation biofuels (ethanol, FAME biodiesel)](#h2-first-gen-biofuels) | Low-carbon fuels / biofuels | commercial |  | Raízen (register examples); POET (register examples); Neste (register examples (HVO)) |  |
+| [Fuel cells (PEM, SOFC)](#h2-fuel-cells) | Hydrogen use / power | commercial | 9 | Ballard (register examples); Toyota (register examples); Bloom Energy (SOFC (register examples)) |  |
+| [Hydrogen compressors (diaphragm, ionic, reciprocating)](#h2-compressors) | Hydrogen carriers and logistics / compression | commercial | 6 | Burckhardt Compression (non-lubricated hydrogen compressors); PDC Machines (register examples); Hydro-Pac (register examples) |  |
+| [Hydrogen for refinery and ammonia feedstock](#h2-refinery-ammonia-feedstock) | Hydrogen use / feedstock | commercial | 8 |  |  |
+| [Hydrogen refuelling stations](#h2-refuelling-stations) | Hydrogen carriers and logistics / dispensing | commercial |  | Nel (register examples); Linde (register examples); Air Liquide (register examples) |  |
 | [Liquid hydrogen](#h2-liquid-hydrogen) | Hydrogen carrier / liquefaction | commercial | 7-9 | Linde Engineering; Air Products; Kawasaki Heavy Industries (LH2 carrier and terminal) | levelized liquefaction cost, 27 t/day liquefier: 2.75 USD/kg H2 (2016$)<br>liquefier capital cost, 27 t/day: 104 million USD (2018$) |
 | [PEM electrolysis](#h2-pem-electrolysis) | Hydrogen production / electrolysis | commercial | 9 | Siemens Energy (Silyzer); ITM Power; Plug Power; Cummins (Accelera); Nel Hydrogen | PEM stack capital cost (status; DOE ultimate target 100): 350 USD/kW (2023$)<br>uninstalled system capital cost (status): 700-1100 USD/kW (2020$)<br>levelized cost of hydrogen, hybrid wind-PV power: 4.4-6 USD/kg H2 (2022$)<br>levelized cost of hydrogen, average US grid power: 6.8-8.2 USD/kg H2 (2022$)<br>water electrolysis capex, global average (2024): 2000-2600 USD/kWe (2024$)<br>water electrolysis capex, China (2024): 600-1200 USD/kWe (2024$) |
+| [Partial oxidation and gasification](#h2-gasification-pox) | Hydrogen production / gasification | commercial | 5-9 | Air Products (Shell-type gasification (NETL case describes it as formerly Shell)); Air Liquide (register examples; not verified) |  |
 | [Steam methane reforming](#h2-smr) | Hydrogen production / reforming | commercial | 6-9 | Topsoe; Air Liquide; Technip Energies; Linde Engineering; Air Products | levelized cost of hydrogen, SMR without capture: 1.06 USD/kg H2 (2018$)<br>levelized cost of hydrogen, SMR with 96.2% CO2 capture: 1.54-1.64 USD/kg H2 (2018$)<br>total plant cost, SMR without capture: 554 USD per kg H2/day capacity (2018$)<br>reforming capex, without and with CCUS: 720-1420 USD/kW H2 (2024$) |
 | [Ammonia as hydrogen carrier and ammonia cracking](#h2-ammonia-cracking) | Hydrogen carrier / reconversion | demonstration | 4-7 | KBR (H2ACT); Topsoe; Johnson Matthey (Honeywell); Air Products |  |
+| [Ammonia as marine fuel](#h2-ammonia-marine-fuel) | Hydrogen use / shipping | demonstration | 6-9 | MAN Energy Solutions (Everllence) (two-stroke engine; 100% ammonia run in Denmark); Wärtsilä (four-stroke dual-fuel ammonia engine since 2023, 18% emissions improvement reported); WinGD (52-bore low-speed engine, full-load trials in Switzerland) |  |
+| [Cellulosic ethanol](#h2-cellulosic-ethanol) | Low-carbon fuels / biofuels | demonstration |  | Clariant (sunliquid) |  |
+| [E-methane (synthetic natural gas)](#h2-e-methane) | Low-carbon fuels / synthetic methane | demonstration |  | Hitachi Zosen (methanation device for Tokyo Gas); ITM Power (electrolyser for Tokyo Gas trial); Tokyo Gas (trial operator) |  |
+| [E-methanol and bio-methanol](#h2-e-methanol) | Low-carbon fuels / methanol | demonstration | 8 | European Energy (Kassø e-methanol); Siemens Energy (electrolysers); Topsoe (register examples); Johnson Matthey (Honeywell) (register examples) |  |
+| [Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)](#h2-ft-saf-efuels) | Low-carbon fuels / Fischer-Tropsch | demonstration | 7 | INERATEC (2.5 ktpa e-fuel plant); Infinium (Roadrunner e-fuels plant); Velocys (register examples) |  |
+| [Gas-heated reforming](#h2-gas-heated-reforming) | Hydrogen production / low-carbon reforming | demonstration | 5 | Johnson Matthey (Honeywell) (LCH process (register examples; JM page redirected and was not read)) |  |
 | [Green and blue ammonia](#h2-green-blue-ammonia) | Hydrogen derivative / ammonia synthesis | demonstration | 8 | Topsoe; KBR; Thyssenkrupp Uhde; Casale; Air Products |  |
+| [Hydrogen direct reduction of iron](#h2-dri) | Hydrogen use / steel | demonstration | 6 | HYBRIT (SSAB, LKAB, Vattenfall) (Luleå pilot); Stegra (H2 Green Steel) (register examples); Midrex (register examples) |  |
 | [Hydrogen storage in salt caverns](#h2-salt-cavern-storage) | Hydrogen storage | demonstration | 6-9 | Mitsubishi Power; Magnum Development; HyStock (Gasunie) |  |
 | [Liquid organic hydrogen carriers (MCH, DBT)](#h2-lohc) | Hydrogen carrier | demonstration | 7 | Chiyoda (SPERA Hydrogen (MCH)); Hydrogenious LOHC Technologies (dibenzyltoluene LOHC) |  |
 | [Methane pyrolysis (turquoise hydrogen)](#h2-methane-pyrolysis) | Hydrogen production / pyrolysis | demonstration | 4-8 | Monolith (plasma methane pyrolysis); BASF (methane pyrolysis pilot); Hazer Group |  |
+| [Reverse water-gas shift for e-fuels](#h2-rwgs) | Low-carbon fuels / CO2 conversion | demonstration | 6-7 | Topsoe (eRWGS (FrontFuel, Leuna)); Johnson Matthey (Honeywell) (register examples) |  |
 | [Solid oxide electrolysis](#h2-soec) | Hydrogen production / electrolysis | demonstration | 8 | Topsoe (SOEC electrolyser (Herning factory, 500 MW/yr initial)); Bloom Energy; Sunfire | uninstalled system capital cost (status): 2000-2500 USD/kW (2020$) |
 | [AEM electrolysis](#h2-aem-electrolysis) | Hydrogen production / electrolysis | pilot | 7 | Enapter (AEM Nexus 1000 and smaller modules) |  |
 | [Autothermal reforming with CO2 capture (blue hydrogen)](#h2-atr-ccs) | Hydrogen production / reforming with capture | pilot | 5 | Topsoe (SynCOR); Johnson Matthey (Honeywell) (LCH); Air Products | levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$)<br>total plant cost, ATR with 94.5% capture: 1092 USD per kg H2/day capacity (2018$) |
+| [Biomass gasification to hydrogen](#h2-biomass-gasification) | Hydrogen production / biogenic | pilot | 5-6 |  | levelised hydrogen cost: 2.8-5.4 USD/kg (2009$) |
+| [Co-electrolysis of CO2 and water](#h2-co-electrolysis) | Hydrogen production / synthetic fuels | pilot | 6 | Topsoe (SOEC (register examples; not verified)); Sunfire (SOEC (raised EUR 215 million in 2024 per IEA text)) |  |
+| [Natural (geologic) hydrogen](#h2-natural-hydrogen) | Hydrogen production / geologic | pilot | 3-5 | Koloma (geologic hydrogen exploration; raised nearly USD 300 million in 2024 (IEA text)); Gold H2 (bio-stimulated hydrogen trial) |  |
+| [Pyrolysis oil and hydrothermal liquefaction](#h2-pyrolysis-htl) | Low-carbon fuels / thermochemical | pilot | 6-7 | Ensyn (fast pyrolysis (RTP), plants in North America); Steeper Energy (HTL); Licella (HTL) |  |
+| [Algal fuels](#h2-algal-fuels) | Low-carbon fuels / algae | lab |  |  | minimum fuel selling price: 2.46-18.6 USD/gge |
+| [Photocatalytic and thermochemical water splitting](#h2-solar-water-splitting) | Hydrogen production / solar fuels | lab | 4-5 | Sparc Hydrogen (photocatalytic pilot (Australia)); SunHydrogen (PEC pilot (US)); CSIRO (beam-down solar reactor pilot) |  |
 
 ## Alkaline water electrolysis
 <a id="h2-alkaline-electrolysis"></a>
@@ -64,6 +87,231 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 - electrolyser type and supplier at Sinopec Kuqa (other): The Sinopec release read does not state the electrolyser type or supplier. Where: Sinopec news releases; LONGi Hydrogen and PERIC project news (catalog: sinopec-tech, open). Next: Confirm type and supplier, then keep or move the Kuqa reference plant.
 
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom), [3](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [4](https://www.aap.com.au/aapreleases/cision20230703ae48443), [5](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html), [6](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/), [7](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [8](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
+
+## Biogas reforming to hydrogen
+<a id="h2-biogas-reforming"></a>
+
+Upgraded biogas or biomethane is steam-reformed like natural gas to make hydrogen, or used as the hydrogen feed for products such as ammonia. The hydrogen is renewable by feedstock, and CO2 capture can make it carbon-negative. In Cubatão, Brazil, Yara started ammonia production from biomethane, with a goal of 6 to 7 ktpa.
+
+```mermaid
+flowchart LR
+    BIO["Biogas production and upgrading<br/><small>digester, upgrading unit</small>"]
+    SMR["Steam methane reforming<br/><small>reformer</small>"]
+    SH["Shift and purification<br/><small>shift reactors, PSA</small>"]
+    BIO --> SMR
+    SMR --> SH
+```
+
+**Key equipment:** digesters, biogas upgrading, steam methane reformer, PSA.
+
+**Performance:**
+- Yara Cubatão ammonia target from biomethane: 6-7 ktpa; IEA GHR 2025 text. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+**Reference plants:**
+- Yara Cubatão, Brazil, ammonia from biomethane, BR: 6 to 7 ktpa goal; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Anaerobic digestion and upgrading with CCUS' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- reforming efficiency and hydrogen yield per Nm3 biogas (performance): No source read. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add yield and cost from a review.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Biogas upgrading to biomethane
+<a id="h2-biogas-upgrading"></a>
+
+CO2 is removed from biogas to reach pipeline-grade biomethane using water scrubbing, PSA, membranes, amine scrubbing or cryogenic separation. IEA Bioenergy Task 37 lists methane slip as below 0.1% for amines, 0.5 to 1% for membranes, 1 to 2% for water scrubbing and PSA, and 2 to 4% for physical adsorption.
+
+```mermaid
+flowchart LR
+    PRE["Compression and H2S/moisture removal<br/><small>compressor, activated carbon</small>"]
+    SEP["CO2 separation<br/><small>scrubber, PSA or membrane</small>"]
+    POL["Polishing and injection<br/><small>dryer, odoriser</small>"]
+    PRE --> SEP
+    SEP --> POL
+```
+
+**Key equipment:** biogas compressor, H2S removal, separation unit, gas dryer.
+
+**Performance:**
+- methane slip by technology: 0.04-4 vol% of upgraded gas; amine 0.04 to 0.1% (lowest); membrane 0.5 to 1%; water scrubber 1 to 2%; PSA below 2%; physical adsorption 2 to 4%; cryogenic about 2%. [source](https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf)
+
+**Missing inputs:**
+- energy use in kWh per Nm3 (performance): The Task 37 paper gives none. Where: IEA Bioenergy Task 37 technology review (open). Next: Add energy use by technology.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf). Last reviewed 2026-10-25.
+
+## Compressed hydrogen storage and tube trailers
+<a id="h2-compressed-storage-tube-trailers"></a>
+
+Hydrogen is held as high-pressure gas in steel (Type 1) or composite (Type 4) cylinders and moved on tube trailers. Hexagon Purus gives 200 to 250 bar and about 300 to 400 kg for steel trailers, and 350 to 700 bar and 800 to 1,200 kg or more for Type 4 composite trailers.
+
+```mermaid
+flowchart LR
+    FILL["Compression and filling<br/><small>compressor, filling station</small>"]
+    TRL["Transport<br/><small>tube trailer</small>"]
+    DLV["Delivery and pressure let-down<br/><small>offloading skid</small>"]
+    FILL --> TRL
+    TRL --> DLV
+```
+
+**Key equipment:** Type 1 steel and Type 4 composite cylinders, tube trailer chassis, compressor, offloading skid.
+
+**Performance:**
+- hydrogen per trailer, steel versus Type 4: 300-1200 kg; steel 300 to 400 kg at 200 to 250 bar; Type 4 800 to 1,200 kg or more at 350 to 700 bar; vendor page. [source](https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers)
+
+**Missing inputs:**
+- delivered cost per kg versus distance (costs): Vendor page gives none. Where: DOE Hydrogen Program delivery cost records (catalog: doe-hfto, open). Next: Add DOE delivery costs.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers). Last reviewed 2026-10-25.
+
+## First-generation biofuels (ethanol, FAME biodiesel)
+<a id="h2-first-gen-biofuels"></a>
+
+Ethanol is fermented from starch or sugar crops and biodiesel (FAME) is made by transesterifying vegetable oils and fats. REN21 reports US ethanol of 61.4 billion litres (an all-time high), Brazil 32.5 billion, India 6.35 billion, Indonesian biodiesel 13 billion and total global liquid biofuel output of 175.2 billion litres in 2023.
+
+```mermaid
+flowchart LR
+    FEED["Crop or oil feedstock<br/><small>milling, oil extraction</small>"]
+    CNV["Fermentation (ethanol) or transesterification (FAME)<br/><small>fermenters, reactors</small>"]
+    REC["Distillation or purification<br/><small>distillation, washing</small>"]
+    FEED --> CNV
+    CNV --> REC
+```
+
+**Key equipment:** fermenters, distillation, transesterification reactors, product storage.
+
+**Performance:**
+- global liquid biofuel production, 2023: 175.2 billion litres; up 7% on 2022. [source](https://www.ren21.net/gsr-2025/technologies/bioenergy/)
+- US ethanol production: 61.4 billion litres; REN21 states an all-time high; year not stated. [source](https://www.ren21.net/gsr-2025/technologies/bioenergy/)
+
+**Missing inputs:**
+- life-cycle GHG intensity by feedstock (performance): REN21 page read gives volumes only. Where: ANL GREET (catalog: anl-greet, open). Next: Add carbon intensities from GREET.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.ren21.net/gsr-2025/technologies/bioenergy/). Last reviewed 2026-10-25.
+
+## Fuel cells (PEM, SOFC)
+<a id="h2-fuel-cells"></a>
+
+Fuel cells convert hydrogen to electricity electrochemically. PEM cells power vehicles and backup; solid oxide cells run at high temperature for stationary power. IEA rates PEM fuel cells for fuel cell vehicles at TRL 9 and solid oxide fuel cells at TRL 9. China's fuel cell truck stock reached almost 15,000 in 2024, up 40%, and fuel cell cars sold fewer than 100 units there that year.
+
+```mermaid
+flowchart LR
+    H2["Hydrogen to anode, air to cathode<br/><small>stack, balance of plant</small>"]
+    EL["Electricity and heat output<br/><small>power electronics</small>"]
+    H2 --> EL
+```
+
+**Key equipment:** fuel cell stack, balance of plant, power electronics, hydrogen tank (mobile).
+
+**Performance:**
+- fuel cell trucks in China: 15000 vehicles; almost 15,000 in 2024, up 40% on 2023; China FCEV stock still short of its 50,000 target for 2025. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Polymer electrolyte membrane hydrogen fuel cell for FCEVs' 9 (2025); 'Solid oxide fuel cell' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- stack and system costs (costs): None given in the sources read. Where: DOE fuel cell cost records (catalog: doe-hfto, open). Next: Add DOE cost records.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Hydrogen compressors (diaphragm, ionic, reciprocating)
+<a id="h2-compressors"></a>
+
+Hydrogen is compressed with diaphragm compressors at lower flows and oil-free high-pressure piston compressors at higher flows. Burckhardt says its non-lubricated designs compress hydrogen up to 900 bar as a booster for trailer filling and refuelling stations. IEA rates hydrogen turbo compressors, which suit pipelines, at TRL 6.
+
+```mermaid
+flowchart LR
+    IN["Suction from electrolyser, pipeline or trailer"]
+    CMP["Staged compression with intercooling<br/><small>diaphragm or piston compressor, intercoolers</small>"]
+    OUT["Discharge to storage or dispenser"]
+    IN --> CMP
+    CMP --> OUT
+```
+
+**Key equipment:** diaphragm compressor, oil-free piston compressor, ionic liquid piston compressor, intercoolers, turbo compressor (pipeline scale).
+
+**Performance:**
+- discharge pressure as booster: up to 900 bar; Burckhardt claim (non-lubricated). [source](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydrogen turbo compressors' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- compressor cost and specific energy (costs): The article gives none. Where: DOE hydrogen compression targets (catalog: doe-hfto, open). Next: Add cost and kWh/kg.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article). Last reviewed 2026-10-25.
+
+## Hydrogen for refinery and ammonia feedstock
+<a id="h2-refinery-ammonia-feedstock"></a>
+
+Refineries (hydrotreating, hydrocracking) and ammonia plants are the largest hydrogen users. Refining used more than 43 Mt of hydrogen in 2024, 45% made on site from unabated fossil fuels and 35% as by-product; low-emissions hydrogen in refining was only about 250 kt. Southeast Asian refining used 1.3 Mtpa in 2024.
+
+```mermaid
+flowchart LR
+    SUP["Hydrogen supply (SMR, by-product, merchant)<br/><small>SMR, catalytic reformer</small>"]
+    USE["Hydroprocessing or ammonia synthesis<br/><small>hydrotreaters, hydrocrackers, Haber-Bosch loop</small>"]
+    SUP --> USE
+```
+
+**Key equipment:** steam methane reformer, hydrogen network, hydrotreaters and hydrocrackers, ammonia synthesis loop.
+
+**Performance:**
+- hydrogen demand in oil refining, 2024: 43 Mt; second largest after industry; growth only about 0.5 Mt. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- hydrogen demand in Southeast Asian refining, 2024: 1.3 Mtpa; region has about 5.5 Mbpd refining capacity in 30 refineries. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- hydrogen cost by route (costs): Not extracted from the GHR text read. Where: IEA Global Hydrogen Review cost chapters (catalog: iea-reports, open). Next: Add production-cost ranges by route.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Hydrogen refuelling stations
+<a id="h2-refuelling-stations"></a>
+
+Stations take delivered or on-site hydrogen, compress and cool it, and dispense it at 350 or 700 bar to fuel cell vehicles. IEA counted about 1,300 stations at the end of 2024, 15% more than 2023. China had more than 500 (up 30%) and Europe more than 300. Station counts fell in the US, and Austria's only operator, OMV, announced closure of all stations by September 2025.
+
+```mermaid
+flowchart LR
+    SUP["Hydrogen supply<br/><small>on-site electrolyser or trailer</small>"]
+    CMP["Compression and storage<br/><small>compressor, buffer storage</small>"]
+    PRE["Pre-cooling<br/><small>chiller</small>"]
+    DSP["Dispensing<br/><small>dispenser</small>"]
+    SUP --> CMP
+    CMP --> PRE
+    PRE --> DSP
+```
+
+**Key equipment:** compressor, high-pressure buffer storage, pre-cooler, dispenser.
+
+**Performance:**
+- hydrogen refuelling stations worldwide at end 2024: 1300 stations; around 1,300, 15% more than end 2023. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+**Missing inputs:**
+- station capital cost per kg/day (costs): The IEA text gives no cost. Where: DOE HFTO station cost records (catalog: doe-hfto, open). Next: Add costs.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
 
 ## Liquid hydrogen
 <a id="h2-liquid-hydrogen"></a>
@@ -156,6 +404,42 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf), [3](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [4](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24005-clean-hydrogen-production-cost-pem-electrolyzer.pdf), [5](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
 
+## Partial oxidation and gasification
+<a id="h2-gasification-pox"></a>
+
+Coal, petroleum coke, heavy oil or gas is partly burned with oxygen at high temperature to make syngas, which is shifted to hydrogen and purified. NETL's coal case uses a dry-feed, oxygen-blown entrained-flow slagging gasifier at about 1,427 degC, sour shift, MDEA acid gas removal, and PSA giving 99.9% hydrogen. Capture can be added; NSTA reports POX with methanation at 96 to 97% capture.
+
+```mermaid
+flowchart LR
+    ASU["Air separation<br/><small>cryogenic ASU</small>"]
+    GAS["Gasification or partial oxidation<br/><small>gasifier</small>"]
+    QCH["Syngas cooling, quench and scrubbing<br/><small>syngas cooler, scrubber</small>"]
+    SH["Sour shift<br/><small>shift reactors</small>"]
+    AGR["Acid gas removal and sulfur recovery<br/><small>MDEA unit, Claus</small>"]
+    PSA["Hydrogen PSA<br/><small>PSA</small>"]
+    ASU --> GAS
+    GAS --> QCH
+    QCH --> SH
+    SH --> AGR
+    AGR --> PSA
+```
+
+**Key equipment:** air separation unit, gasifier, syngas cooler, shift reactors, acid gas removal, sulfur recovery, PSA.
+
+**Performance:**
+- hydrogen purity from PSA, NETL case: 99.9 %; coal gasification without capture. [source](https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon)
+- CO2 capture efficiency, POX + methanation: 96-97 %; NSTA blue hydrogen review. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
+- feed gas energy conversion, POX + methanation: 76.6 % LHV; NSTA; overall incl. power import 73.2%. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Coal gasification - partial capture rates' 9 (2025); 'Coal gasification - high capture rates' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- capital cost and hydrogen cost (costs): NETL page and NSTA report quote no costs. Where: NETL baseline reports (catalog: netl, open). Next: Add costs from the full NETL case report.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon), [2](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf). Last reviewed 2026-10-25.
+
 ## Steam methane reforming
 <a id="h2-smr"></a>
 
@@ -232,6 +516,192 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 
 Sources: [1](https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/). Last reviewed 2026-10-24.
 
+## Ammonia as marine fuel
+<a id="h2-ammonia-marine-fuel"></a>
+
+Ammonia burns in dual-fuel engines on ships. IEA reports that 4-stroke ammonia engines are commercially available for smaller vessels, 2-stroke engines for large ships are not yet commercial, and more than 30 ships are on order with deliveries from late 2025. IMO amended the IGC Code in December 2024 to permit ammonia cargo as a marine fuel, in force July 2026. IEA rates ammonia-fuelled ship engines at TRL 6.
+
+```mermaid
+flowchart LR
+    BNK["Ammonia bunkering<br/><small>bunkering system</small>"]
+    TK["Fuel storage<br/><small>ammonia fuel tank</small>"]
+    ENG["Dual-fuel engine with pilot fuel and aftertreatment<br/><small>two- or four-stroke engine, N2O/NOx abatement</small>"]
+    BNK --> TK
+    TK --> ENG
+```
+
+**Key equipment:** ammonia fuel tank, fuel supply system, dual-fuel engine, safety and leak systems.
+
+**Reference plants:**
+- Anhui, first vessel on ammonia only (200 kW engine), maiden voyage June 2025, CN: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- Sakigake tug, Tokyo Bay, 95% ammonia co-firing trial March 2025, JP: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Ammonia-fuelled ship engine' 6 (2025); 'Ammonia (bunkering)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- fuel cost versus LNG, methanol and fuel oil (costs): None extracted. Where: IEA GHR shipping section (catalog: iea-reports, open). Next: Add cost comparisons.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Cellulosic ethanol
+<a id="h2-cellulosic-ethanol"></a>
+
+Agricultural residues are pretreated, enzymatically hydrolysed and fermented to ethanol. Clariant's sunliquid plant at Podari, Romania produced its first commercial cellulosic ethanol in June 2022 from about 250,000 t of local agricultural residues, with output about 50,000 t contracted to Shell.
+
+```mermaid
+flowchart LR
+    PRE["Pretreatment of residues<br/><small>pretreatment reactor</small>"]
+    HYD["Enzymatic hydrolysis<br/><small>hydrolysis tanks</small>"]
+    FER["Fermentation and distillation<br/><small>fermenters, distillation</small>"]
+    PRE --> HYD
+    HYD --> FER
+```
+
+**Key equipment:** pretreatment reactor, hydrolysis tanks, fermenters, distillation.
+
+**Performance:**
+- Podari plant feedstock: 250000 t/yr agricultural residues; article gives about 50,000 t output; no annual rate stated. [source](https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html)
+
+**Reference plants:**
+- Clariant sunliquid, Podari, RO: about 50,000 t ethanol; . [source](https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html)
+
+**Missing inputs:**
+- capital and production cost (costs): None in the article. Where: IEA Bioenergy Task 39 (open). Next: Add cost.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html). Last reviewed 2026-10-25.
+
+## E-methane (synthetic natural gas)
+<a id="h2-e-methane"></a>
+
+Hydrogen and CO2 react in a methanation reactor (Sabatier) to make methane that can enter the gas grid. Tokyo Gas began a trial in 2022 at its Yokohama research centre with a Hitachi Zosen methanation unit, first at 12.5 Nm3/h, then 400 Nm3/h in the late 2020s and 20,000 Nm3/h overseas in 2030. A 6.3 MW synthetic methane plant in Germany received RFNBO certificates.
+
+```mermaid
+flowchart LR
+    H2["Hydrogen from electrolysis<br/><small>electrolyser</small>"]
+    CO2["CO2 supply<br/><small>CO2 capture</small>"]
+    MET["Methanation<br/><small>methanation reactor</small>"]
+    INJ["Gas upgrading and injection<br/><small>dryer, compressor</small>"]
+    H2 --> MET
+    CO2 --> MET
+    MET --> INJ
+```
+
+**Key equipment:** electrolyser, methanation reactor, CO2 supply, gas conditioning.
+
+**Performance:**
+- Tokyo Gas trial capacity, first phase: 12.5 Nm3/h; scale-up to 400 Nm3/h late 2020s, 20,000 Nm3/h overseas 2030. [source](https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen)
+
+**Missing inputs:**
+- no IEA guide entry for power-to-methane in the dataset (trl): Not in the 634 collected entries. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL for methanation of electrolytic hydrogen.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## E-methanol and bio-methanol
+<a id="h2-e-methanol"></a>
+
+Methanol is made from green hydrogen and biogenic or captured CO2 (e-methanol), or from biomass (bio-methanol). European Energy's Kassø plant in Denmark has three Siemens Energy electrolysers totalling 52.5 MW, uses biogenic CO2 from a local biogas plant, and produced its first e-methanol in March 2025 from the first of two methanol lines. Target output is 42,000 t.
+
+```mermaid
+flowchart LR
+    H2["Water electrolysis<br/><small>electrolyser</small>"]
+    CO2["Biogenic CO2 supply<br/><small>CO2 capture and compression</small>"]
+    SYN["Methanol synthesis<br/><small>synthesis reactor, distillation</small>"]
+    H2 --> SYN
+    CO2 --> SYN
+```
+
+**Key equipment:** electrolyser, CO2 supply, methanol synthesis reactor, distillation.
+
+**Performance:**
+- Kassø e-methanol capacity: 42000 t; article gives no time unit; electrolysers 52.5 MW. [source](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/)
+
+**Reference plants:**
+- European Energy Kassø, Denmark, DK: 42,000 t e-methanol; 52.5 MW electrolysis; first e-methanol March 2025; full ramp-up expected Q2 2025. [source](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025); 'Methanol production using biomass and waste gasification' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- production cost per tonne (costs): None in the article. Where: IRENA methanol outlook (catalog: irena, open). Next: Add cost ranges.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/). Last reviewed 2026-10-25.
+
+## Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)
+<a id="h2-ft-saf-efuels"></a>
+
+Syngas from biomass gasification, or from hydrogen and CO2 via reverse water-gas shift, is converted to hydrocarbons in Fischer-Tropsch synthesis and upgraded to jet and diesel. FT-SPK was approved under ASTM D7566 Annex A1 in 2009 with a 50% blend limit. INERATEC's 2.5 ktpa plant in Germany began commercial operation in June 2025 and Infinium's 23 ktpa Roadrunner plant in the US began construction in May 2025.
+
+```mermaid
+flowchart LR
+    SYN["Syngas from biomass or H2 + CO2<br/><small>gasifier or electrolyser + RWGS</small>"]
+    FT["Fischer-Tropsch synthesis<br/><small>FT reactor</small>"]
+    UP["Hydroprocessing and fractionation<br/><small>hydrocracker, fractionator</small>"]
+    SYN --> FT
+    FT --> UP
+```
+
+**Key equipment:** gasifier or electrolyser, RWGS reactor, FT reactor, hydroprocessing unit, fractionation.
+
+**Performance:**
+- INERATEC plant capacity: 2.5 ktpa; synthetic fuels and wax from chlor-alkali by-product hydrogen and biogenic CO2; commercial operation June 2025. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- Infinium Roadrunner planned capacity: 23 ktpa; under construction from May 2025. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+**Reference plants:**
+- INERATEC, Germany, DE: 2.5 ktpa; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025); 'Gasification and Fischer-Tropsch' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- cost per litre (costs): The roadmap text read gives no figure. Where: DOE SAF roadmap annexes (catalog: doe-affo, open). Next: Add cost estimates.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.energy.gov/sites/default/files/2022-09/beto-saf-gc-roadmap-report-sept-2022.pdf), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Gas-heated reforming
+<a id="h2-gas-heated-reforming"></a>
+
+A gas-heated reformer uses the hot syngas leaving an autothermal reformer (ATR) to heat the steam-reforming reaction, so most of the heat needed comes from the process rather than a fired furnace. The GHR+ATR combination makes syngas for hydrogen with one concentrated CO2 stream that can be captured at 95% or more. IEA rates ATR with a gas-heated reformer at TRL 5.
+
+```mermaid
+flowchart LR
+    DES["Desulfurise feed<br/><small>hydrodesulfuriser</small>"]
+    GHR["Gas-heated reformer<br/><small>GHR</small>"]
+    ATR["Autothermal reformer with oxygen<br/><small>ATR, air separation unit</small>"]
+    SH["Water-gas shift<br/><small>shift reactors</small>"]
+    CAP["CO2 capture<br/><small>amine unit</small>"]
+    PSA["Hydrogen purification<br/><small>PSA</small>"]
+    DES --> GHR
+    GHR --> ATR
+    ATR --> SH
+    SH --> CAP
+    CAP --> PSA
+```
+
+**Key equipment:** gas-heated reformer, autothermal reformer, air separation unit, shift reactors, CO2 capture unit, PSA.
+
+**Performance:**
+- CO2 capture efficiency, GHR+ATR(+PSA): 95-97 %; carbon captured over carbon in feed; NSTA report. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
+- feed gas energy conversion to hydrogen: 80.6 % LHV; GHR+ATR+PSA; overall incl. power import 76.1%. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
+- net power import: 8.8 MJ/kg H2; GHR+ATR+PSA. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
+- CO2 captured: 8.4 kg CO2/kg H2; same case. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Autothermal reforming - gas heated reformer' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- Johnson Matthey LCH details and projects (suppliers): The JM page redirected away. Where: Johnson Matthey LCH brochure (catalog: johnson-matthey, open). Next: Add plants such as bp H2Teesside once a page is read. Blocked by: johnson-matthey.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf). Last reviewed 2026-10-25.
+
 ## Green and blue ammonia
 <a id="h2-green-blue-ammonia"></a>
 
@@ -265,6 +735,38 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom). Last reviewed 2026-10-24.
+
+## Hydrogen direct reduction of iron
+<a id="h2-dri"></a>
+
+Iron ore pellets are reduced to sponge iron by hydrogen instead of natural gas, then melted in an electric arc furnace. HYBRIT's Luleå pilot made more than 5,000 t of sponge iron with 98 to 99% metallisation between 2018 and 2024. IEA rates DRI based on 100% electrolytic hydrogen at TRL 6.
+
+```mermaid
+flowchart LR
+    PEL["Ore pellets<br/><small>pellet plant</small>"]
+    RED["Hydrogen reduction in shaft furnace<br/><small>shaft furnace, hydrogen heater</small>"]
+    EAF["Electric arc furnace melting<br/><small>EAF</small>"]
+    PEL --> RED
+    RED --> EAF
+```
+
+**Key equipment:** electrolyser, hydrogen storage, shaft furnace, gas heater, electric arc furnace.
+
+**Performance:**
+- sponge iron produced in HYBRIT pilot: 5000 t; 2018 to 2024; metallisation 98 to 99%. [source](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial)
+- cost gap of H2 DRI versus blast furnace: 50-140 %; IEA GHR 2025: 20 to 80% versus unabated natural-gas DRI; upfront cost 40 to 140% higher than gas DRI at commercial scale. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+**Reference plants:**
+- HYBRIT pilot, Luleå, SE: more than 5,000 t sponge iron in total; . [source](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'DRI production based on 100% electrolytic hydrogen' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- Stegra Boden and other commercial plants (reference_plants): Only the HYBRIT pilot was read. Where: Stegra project documents (open). Next: Add commercial-scale plants.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
 
 ## Hydrogen storage in salt caverns
 <a id="h2-salt-cavern-storage"></a>
@@ -366,6 +868,37 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis). Last reviewed 2026-10-24.
+
+## Reverse water-gas shift for e-fuels
+<a id="h2-rwgs"></a>
+
+Reverse water-gas shift (CO2 + H2 -> CO + H2O) turns CO2 into the CO needed for syngas. Topsoe's electrified RWGS reactor ran in the FrontFuel SynFuels project in Denmark from November 2024 (12 kg/h CO2) and is planned for a 2.5 ktpa synthetic fuels plant at Leuna, Germany from 2027. IEA rates CO2-to-methanol via RWGS at TRL 6 and RWGS+FT at TRL 7.
+
+```mermaid
+flowchart LR
+    IN["CO2 and hydrogen feed<br/><small>compressors</small>"]
+    RX["Electrically heated RWGS reactor<br/><small>RWGS reactor</small>"]
+    SYN["Syngas to FT or methanol synthesis"]
+    IN --> RX
+    RX --> SYN
+```
+
+**Key equipment:** electrified RWGS reactor, feed compressors, heat recovery.
+
+**Performance:**
+- FrontFuel SynFuels CO2 throughput: 12 kg/h; started November 2024 with Topsoe electrified RWGS. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+**Reference plants:**
+- FrontFuel SynFuels, Denmark (12 kg/h CO2), DK: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-methanol via reverse water-gas shift' 6 (2025); 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- CO2 conversion and energy per kg CO (performance): None given. Where: Topsoe technical papers (catalog: topsoe, open). Next: Add them.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
 
 ## Solid oxide electrolysis
 <a id="h2-soec"></a>
@@ -477,3 +1010,179 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 - an operating or committed ATR blue-hydrogen plant with CO2 storage (reference_plants): No source read names one; the card's figures come from NETL's design study. Where: IEA Hydrogen Production and Infrastructure Projects Database: filter ATR + CCUS (catalog: iea-hydrogen-db, registration); IEA Global Hydrogen Review 2025 (collected): low-emissions projects at FID (catalog: iea-reports, open). Next: Add one or two ATR+CCS projects at FID or in operation, with technology licensor named in the source.
 
 Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [2](https://www.wfmz.com/news/area/lehighvalley/air-products-scraps-plans-for-massive-clean-energy-complex/article_3d8eac87-46cf-4b46-a0fe-cbaad5d21d7f.html). Last reviewed 2026-10-24.
+
+## Biomass gasification to hydrogen
+<a id="h2-biomass-gasification"></a>
+
+Biomass is gasified, the syngas is cleaned and shifted, and hydrogen is separated. NREL's independent review modelled a first plant of 500 dry t/day and an nth plant of 2,000 dry t/day. IEA lists biomass-waste gasification without CCUS at TRL 6 and with CCUS at TRL 5.
+
+```mermaid
+flowchart LR
+    PRE["Biomass drying and feeding<br/><small>dryer, feeder</small>"]
+    GAS["Gasification<br/><small>gasifier</small>"]
+    CLN["Gas clean-up and tar reforming<br/><small>tar reformer, scrubber</small>"]
+    SH["Shift and hydrogen separation<br/><small>shift reactors, PSA</small>"]
+    PRE --> GAS
+    GAS --> CLN
+    CLN --> SH
+```
+
+**Key equipment:** gasifier, tar reformer, gas clean-up, shift reactors, PSA.
+
+**Performance:**
+- hydrogen yield per dry tonne of biomass: 72-75 kg H2/dt; NREL review: first plant 72, nth plant 75. [source](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent)
+- gross efficiency: 48.8-50.8 % LHV; first plant 48.8%, nth plant 50.8%. [source](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent)
+
+**Costs:**
+- levelised hydrogen cost: 2.8-5.4 USD/kg (2009$); 2009 dollars; nth plant 2,000 dtpd USD 2.80, first plant 500 dtpd USD 5.40; panel financing raises these to 3.80 and 7.70; report has internal inconsistencies. [source](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass-waste gasification without CCUS' 6 (2025); 'Biomass-waste gasification with CCUS' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- operating biomass-to-hydrogen plants (reference_plants): IEA says output is marginal; no plant is named in sources read. Where: IEA Bioenergy Task 33 gasification database (open). Next: Add one or two operating plants.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Co-electrolysis of CO2 and water
+<a id="h2-co-electrolysis"></a>
+
+A solid oxide cell electrolyses steam and CO2 together at high temperature to give syngas (H2 plus CO) directly, which feeds Fischer-Tropsch or methanol synthesis. IEA rates CO2 and H2O co-electrolysis at TRL 6, above the register's lab label.
+
+```mermaid
+flowchart LR
+    FEED["Steam and CO2 feed<br/><small>steam generator, CO2 supply</small>"]
+    SOEC["High-temperature co-electrolysis<br/><small>solid oxide electrolyser</small>"]
+    SYN["Syngas to synthesis<br/><small>compressor</small>"]
+    FEED --> SOEC
+    SOEC --> SYN
+```
+
+**Key equipment:** solid oxide electrolyser stacks, steam generator, heat recovery.
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 and h2o co-electrolysis' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- power use per kg syngas and stack lifetime (performance): No source read gives them. Where: Topsoe and Sunfire technical papers (catalog: topsoe, open). Next: Add performance data.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Natural (geologic) hydrogen
+<a id="h2-natural-hydrogen"></a>
+
+Hydrogen occurs naturally in the subsurface, produced by water-rock reactions or radiolysis, or can be stimulated in place. The only commercial production to date is Bourakebougou in Mali at 5 tpa. In June 2025 Gold H2 reported a bio-stimulated trial in a depleted California oil well giving gas with 40% hydrogen.
+
+```mermaid
+flowchart LR
+    EXP["Surface and subsurface exploration<br/><small>seismic, soil gas surveys</small>"]
+    APP["Appraisal drilling<br/><small>wells</small>"]
+    PRD["Production and gas clean-up<br/><small>separators, purification</small>"]
+    EXP --> APP
+    APP --> PRD
+```
+
+**Key equipment:** exploration tools, wells, gas purification.
+
+**Performance:**
+- commercial production at Bourakebougou, Mali: 5 tpa; IEA: equivalent to about 100 barrels of oil per year. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+**Reference plants:**
+- Bourakebougou field, Mali, ML: 5 tpa; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Natural hydrogen extraction' 5 (2025); 'Mineralogical reactions' 3 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- production cost (costs): IEA says the cost is highly uncertain and gives no figure. Where: USGS geologic hydrogen assessments (catalog: usgs-energy, open). Next: Add cost estimates when published.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+
+## Pyrolysis oil and hydrothermal liquefaction
+<a id="h2-pyrolysis-htl"></a>
+
+Fast pyrolysis heats biomass to about 500 degC with short residence time to give up to 65 wt% liquid; hydrothermal liquefaction (HTL) converts wet feeds in water at about 250 to 370 degC and 4 to 20 MPa to a bio-crude. Both oils are oxygen-rich and need upgrading by hydrodeoxygenation or co-processing. ETIP rates pyrolysis at TRL 8, HTL pilots at TRL 5.
+
+```mermaid
+flowchart LR
+    FEED["Biomass preparation (drying for pyrolysis; slurry for HTL)<br/><small>dryer, slurry pump</small>"]
+    RX["Fast pyrolysis reactor or HTL reactor<br/><small>pyrolyser, HTL reactor</small>"]
+    UPG["Upgrading or co-processing<br/><small>hydrotreater, FCC</small>"]
+    FEED --> RX
+    RX --> UPG
+```
+
+**Key equipment:** pyrolysis reactor, HTL reactor and slurry pumps, oil separation, hydrotreater.
+
+**Performance:**
+- liquid yield from fast pyrolysis (dry basis): up to 65 wt%; at about 500 degC; bio-oil has about half the energy content of fuel oil, 35 to 40% oxygen, pH below 2. [source](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass pyrolysis' 7 (2025); 'Hydrothermal liquefaction and upgrading of biomass' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- commercial-scale operating capacity (reference_plants): ETIP names plant sizes of 10,000 to 50,000 t bio-oil/yr without status. Where: Ensyn, Steeper and Licella press releases (open). Next: Add current operating status.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion). Last reviewed 2026-10-25.
+
+## Algal fuels
+<a id="h2-algal-fuels"></a>
+
+Microalgae are grown in ponds or fixed-film systems and converted to bio-crude or fuel. DOE's 2021 review said algal biofuels are not economically viable, with a best-case minimum fuel selling price of USD 3.50 to 4 per gge. A 2015 raceway-pond baseline of 8.5 g/m2/day gave USD 18.60/gge; the Algaewheel target is 36 g/m2/day and under USD 2.50/gge.
+
+```mermaid
+flowchart LR
+    GRW["Cultivation<br/><small>raceway ponds or Algaewheel</small>"]
+    HRV["Harvesting and dewatering<br/><small>harvesting, dewatering</small>"]
+    CNV["Conversion to bio-crude (e.g. HTL) and upgrading<br/><small>conversion reactor, hydrotreater</small>"]
+    GRW --> HRV
+    HRV --> CNV
+```
+
+**Key equipment:** cultivation ponds or fixed-film systems, harvesting, conversion reactor.
+
+**Performance:**
+- biomass productivity, 2015 DOE state of the art raceway ponds: 8.5 g/m2/day; about 900 gal/acre-yr. [source](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf)
+- pilot winter productivity: 16-18 g/m2/day; annual pilot target 20. [source](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf)
+
+**Costs:**
+- minimum fuel selling price: 2.46-18.6 USD/gge; 2015 state of the art USD 18.60; 2022 DOE projection USD 4.72 at 25 g/m2/day; end-of-project estimate USD 2.46 at 36 g/m2/day; year of dollars not stated. [source](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf)
+
+**Missing inputs:**
+- TRL (trl): No IEA entry for algal fuels. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf). Last reviewed 2026-10-25.
+
+## Photocatalytic and thermochemical water splitting
+<a id="h2-solar-water-splitting"></a>
+
+Sunlight splits water directly: photocatalytic and photoelectrochemical devices use photons, while solar thermochemical cycles use concentrated heat (for example a metal-oxide cycle with doped ceria). IEA rates photon-based direct solar water splitting at TRL 5 and solar or nuclear thermochemical water splitting at TRL 4. Pilots include Sparc Hydrogen (photocatalytic, Australia), SunHydrogen (a pilot of about 15 PEC panels) and CSIRO's beam-down reactor.
+
+```mermaid
+flowchart LR
+    IN["Concentrated sunlight or photon absorption<br/><small>reactor, heliostats or panels</small>"]
+    REAC["Water-splitting reaction<br/><small>photocatalyst, photoelectrode or ceria</small>"]
+    SEP["Gas separation<br/><small>gas separation</small>"]
+    IN --> REAC
+    REAC --> SEP
+```
+
+**Key equipment:** photocatalytic or PEC reactor, heliostat field (thermochemical), gas separation.
+
+**Reference plants:**
+- SunHydrogen PEC pilot (planned >25 m2, about 15 panels of 1.92 m2), US: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- Sparc Hydrogen photocatalytic pilot, commissioning from mid-2025, AU: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Photon-based direct solar water splitting' 5 (2025); 'Solar thermochemical' 4 (2025); 'Nuclear thermochemical' 4 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- solar-to-hydrogen efficiencies by route (performance): The IEA box describes pilots without reporting a common efficiency. Where: Pathfinder Solar-to-X benchmarking outputs (open). Next: Add efficiency from benchmarking papers.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.

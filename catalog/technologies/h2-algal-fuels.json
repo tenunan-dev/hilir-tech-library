@@ -1,0 +1,143 @@
+{
+  "id": "h2-algal-fuels",
+  "name": "Algal fuels",
+  "aliases": [
+    "algae biofuels",
+    "microalgae fuels"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / algae",
+  "applications": [],
+  "maturity": "lab",
+  "principle": "Microalgae are grown in ponds or fixed-film systems and converted to bio-crude or fuel. DOE's 2021 review said algal biofuels are not economically viable, with a best-case minimum fuel selling price of USD 3.50 to 4 per gge. A 2015 raceway-pond baseline of 8.5 g/m2/day gave USD 18.60/gge; the Algaewheel target is 36 g/m2/day and under USD 2.50/gge.",
+  "process_steps": [
+    {
+      "id": "GRW",
+      "name": "Cultivation",
+      "equipment": [
+        "raceway ponds or Algaewheel"
+      ],
+      "to": [
+        "HRV"
+      ]
+    },
+    {
+      "id": "HRV",
+      "name": "Harvesting and dewatering",
+      "equipment": [
+        "harvesting",
+        "dewatering"
+      ],
+      "to": [
+        "CNV"
+      ]
+    },
+    {
+      "id": "CNV",
+      "name": "Conversion to bio-crude (e.g. HTL) and upgrading",
+      "equipment": [
+        "conversion reactor",
+        "hydrotreater"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "cultivation ponds or fixed-film systems",
+    "harvesting",
+    "conversion reactor"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "biomass productivity, 2015 DOE state of the art raceway ponds",
+      "unit": "g/m2/day",
+      "basis": "about 900 gal/acre-yr",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf",
+        "note": "DOE BETO 2021 peer review, algae (Schideman), 16 February 2021"
+      },
+      "low": 8.5,
+      "high": 8.5
+    },
+    {
+      "metric": "pilot winter productivity",
+      "unit": "g/m2/day",
+      "basis": "annual pilot target 20",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf",
+        "note": "DOE BETO 2021 peer review, algae (Schideman), 16 February 2021"
+      },
+      "low": 16,
+      "high": 18
+    }
+  ],
+  "costs": [
+    {
+      "metric": "minimum fuel selling price",
+      "unit": "USD/gge",
+      "basis": "2015 state of the art USD 18.60; 2022 DOE projection USD 4.72 at 25 g/m2/day; end-of-project estimate USD 2.46 at 36 g/m2/day; year of dollars not stated",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf",
+        "note": "DOE BETO 2021 peer review, algae (Schideman), 16 February 2021"
+      },
+      "low": 2.46,
+      "high": 18.6
+    }
+  ],
+  "advantages": [
+    "High potential yield per area"
+  ],
+  "limitations": [
+    "Not economic at present (DOE)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf",
+      "note": "DOE BETO 2021 peer review, algae (Schideman), 16 February 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL",
+      "reason_code": "not_in_sources_read",
+      "reason": "No IEA entry for algal fuels.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

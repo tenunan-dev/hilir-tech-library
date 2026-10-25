@@ -1,0 +1,136 @@
+{
+  "id": "h2-refinery-ammonia-feedstock",
+  "name": "Hydrogen for refinery and ammonia feedstock",
+  "aliases": [
+    "refinery hydrogen",
+    "ammonia feedstock hydrogen"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen use / feedstock",
+  "applications": [
+    "refining",
+    "ammonia"
+  ],
+  "maturity": "commercial",
+  "principle": "Refineries (hydrotreating, hydrocracking) and ammonia plants are the largest hydrogen users. Refining used more than 43 Mt of hydrogen in 2024, 45% made on site from unabated fossil fuels and 35% as by-product; low-emissions hydrogen in refining was only about 250 kt. Southeast Asian refining used 1.3 Mtpa in 2024.",
+  "process_steps": [
+    {
+      "id": "SUP",
+      "name": "Hydrogen supply (SMR, by-product, merchant)",
+      "equipment": [
+        "SMR",
+        "catalytic reformer"
+      ],
+      "to": [
+        "USE"
+      ]
+    },
+    {
+      "id": "USE",
+      "name": "Hydroprocessing or ammonia synthesis",
+      "equipment": [
+        "hydrotreaters",
+        "hydrocrackers",
+        "Haber-Bosch loop"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "steam methane reformer",
+    "hydrogen network",
+    "hydrotreaters and hydrocrackers",
+    "ammonia synthesis loop"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "hydrogen demand in oil refining, 2024",
+      "unit": "Mt",
+      "basis": "second largest after industry; growth only about 0.5 Mt",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): refining demand"
+      },
+      "low": 43
+    },
+    {
+      "metric": "hydrogen demand in Southeast Asian refining, 2024",
+      "unit": "Mtpa",
+      "basis": "region has about 5.5 Mbpd refining capacity in 30 refineries",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Southeast Asia refining"
+      },
+      "low": 1.3,
+      "high": 1.3
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Existing demand base for low-emissions hydrogen"
+  ],
+  "limitations": [
+    "Low-emissions share below 1% of demand"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): oil refining demand, Southeast Asia refining, ammonia from biomethane"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "hydrogen cost by route",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not extracted from the GHR text read.",
+      "where": [
+        {
+          "hint": "IEA Global Hydrogen Review cost chapters",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Add production-cost ranges by route."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

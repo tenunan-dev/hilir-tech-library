@@ -1,0 +1,169 @@
+{
+  "id": "h2-biogas-upgrading",
+  "name": "Biogas upgrading to biomethane",
+  "aliases": [
+    "biomethane",
+    "biogas upgrading"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / biogas",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "CO2 is removed from biogas to reach pipeline-grade biomethane using water scrubbing, PSA, membranes, amine scrubbing or cryogenic separation. IEA Bioenergy Task 37 lists methane slip as below 0.1% for amines, 0.5 to 1% for membranes, 1 to 2% for water scrubbing and PSA, and 2 to 4% for physical adsorption.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Compression and H2S/moisture removal",
+      "equipment": [
+        "compressor",
+        "activated carbon"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "CO2 separation",
+      "equipment": [
+        "scrubber, PSA or membrane"
+      ],
+      "to": [
+        "POL"
+      ]
+    },
+    {
+      "id": "POL",
+      "name": "Polishing and injection",
+      "equipment": [
+        "dryer",
+        "odoriser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "biogas compressor",
+    "H2S removal",
+    "separation unit",
+    "gas dryer"
+  ],
+  "suppliers": [
+    {
+      "name": "Air Liquide",
+      "product": "register examples"
+    },
+    {
+      "name": "Bright Biomethane",
+      "product": "register examples"
+    },
+    {
+      "name": "Pentair",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "methane slip by technology",
+      "unit": "vol% of upgraded gas",
+      "basis": "amine 0.04 to 0.1% (lowest); membrane 0.5 to 1%; water scrubber 1 to 2%; PSA below 2%; physical adsorption 2 to 4%; cryogenic about 2%",
+      "source": {
+        "url": "https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf",
+        "note": "IEA Bioenergy Task 37, Methane slip from biogas upgrading (January 2023)"
+      },
+      "low": 0.04,
+      "high": 4
+    }
+  ],
+  "advantages": [
+    "Amine upgrading has the lowest methane slip"
+  ],
+  "limitations": [
+    "Slip control for small plants is costly"
+  ],
+  "sources": [
+    {
+      "url": "https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf",
+      "note": "IEA Bioenergy Task 37, Methane slip from biogas upgrading (January 2023)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "energy use in kWh per Nm3",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Task 37 paper gives none.",
+      "where": [
+        {
+          "hint": "IEA Bioenergy Task 37 technology review",
+          "access": "open"
+        }
+      ],
+      "action": "Add energy use by technology."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

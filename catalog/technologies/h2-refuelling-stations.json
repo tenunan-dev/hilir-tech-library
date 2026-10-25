@@ -1,0 +1,159 @@
+{
+  "id": "h2-refuelling-stations",
+  "name": "Hydrogen refuelling stations",
+  "aliases": [
+    "HRS",
+    "hydrogen stations"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen carriers and logistics / dispensing",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Stations take delivered or on-site hydrogen, compress and cool it, and dispense it at 350 or 700 bar to fuel cell vehicles. IEA counted about 1,300 stations at the end of 2024, 15% more than 2023. China had more than 500 (up 30%) and Europe more than 300. Station counts fell in the US, and Austria's only operator, OMV, announced closure of all stations by September 2025.",
+  "process_steps": [
+    {
+      "id": "SUP",
+      "name": "Hydrogen supply",
+      "equipment": [
+        "on-site electrolyser or trailer"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression and storage",
+      "equipment": [
+        "compressor",
+        "buffer storage"
+      ],
+      "to": [
+        "PRE"
+      ]
+    },
+    {
+      "id": "PRE",
+      "name": "Pre-cooling",
+      "equipment": [
+        "chiller"
+      ],
+      "to": [
+        "DSP"
+      ]
+    },
+    {
+      "id": "DSP",
+      "name": "Dispensing",
+      "equipment": [
+        "dispenser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "compressor",
+    "high-pressure buffer storage",
+    "pre-cooler",
+    "dispenser"
+  ],
+  "suppliers": [
+    {
+      "name": "Nel",
+      "product": "register examples",
+      "source_id": "nel-hydrogen"
+    },
+    {
+      "name": "Linde",
+      "product": "register examples"
+    },
+    {
+      "name": "Air Liquide",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "hydrogen refuelling stations worldwide at end 2024",
+      "unit": "stations",
+      "basis": "around 1,300, 15% more than end 2023",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): hydrogen refuelling stations"
+      },
+      "low": 1300,
+      "high": 1300
+    }
+  ],
+  "advantages": [
+    "Growing in China and Europe"
+  ],
+  "limitations": [
+    "Reliability and hydrogen supply problems closed stations in US and Austria"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): hydrogen refuelling stations, Figure 2.13 and surrounding text"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "station capital cost per kg/day",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA text gives no cost.",
+      "where": [
+        {
+          "hint": "DOE HFTO station cost records",
+          "access": "open",
+          "source_id": "doe-hfto"
+        }
+      ],
+      "action": "Add costs."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

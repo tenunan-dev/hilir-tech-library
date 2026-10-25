@@ -1,0 +1,161 @@
+{
+  "id": "h2-biomass-gasification",
+  "name": "Biomass gasification to hydrogen",
+  "aliases": [
+    "biomass-to-hydrogen",
+    "BECCS hydrogen"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / biogenic",
+  "applications": [
+    "biogenic hydrogen",
+    "negative-emission hydrogen with CCS"
+  ],
+  "maturity": "pilot",
+  "principle": "Biomass is gasified, the syngas is cleaned and shifted, and hydrogen is separated. NREL's independent review modelled a first plant of 500 dry t/day and an nth plant of 2,000 dry t/day. IEA lists biomass-waste gasification without CCUS at TRL 6 and with CCUS at TRL 5.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Biomass drying and feeding",
+      "equipment": [
+        "dryer",
+        "feeder"
+      ],
+      "to": [
+        "GAS"
+      ]
+    },
+    {
+      "id": "GAS",
+      "name": "Gasification",
+      "equipment": [
+        "gasifier"
+      ],
+      "to": [
+        "CLN"
+      ]
+    },
+    {
+      "id": "CLN",
+      "name": "Gas clean-up and tar reforming",
+      "equipment": [
+        "tar reformer",
+        "scrubber"
+      ],
+      "to": [
+        "SH"
+      ]
+    },
+    {
+      "id": "SH",
+      "name": "Shift and hydrogen separation",
+      "equipment": [
+        "shift reactors",
+        "PSA"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "gasifier",
+    "tar reformer",
+    "gas clean-up",
+    "shift reactors",
+    "PSA"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "hydrogen yield per dry tonne of biomass",
+      "unit": "kg H2/dt",
+      "basis": "NREL review: first plant 72, nth plant 75",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent",
+        "note": "DOE EERE, Hydrogen production cost estimate using biomass gasification: independent review (NREL/BK-6A10-51726, October 2011; 2009 dollars)"
+      },
+      "low": 72,
+      "high": 75
+    },
+    {
+      "metric": "gross efficiency",
+      "unit": "% LHV",
+      "basis": "first plant 48.8%, nth plant 50.8%",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent",
+        "note": "DOE EERE, Hydrogen production cost estimate using biomass gasification: independent review (NREL/BK-6A10-51726, October 2011; 2009 dollars)"
+      },
+      "low": 48.8,
+      "high": 50.8
+    }
+  ],
+  "costs": [
+    {
+      "metric": "levelised hydrogen cost",
+      "unit": "USD/kg",
+      "basis": "2009 dollars; nth plant 2,000 dtpd USD 2.80, first plant 500 dtpd USD 5.40; panel financing raises these to 3.80 and 7.70; report has internal inconsistencies",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent",
+        "note": "DOE EERE, Hydrogen production cost estimate using biomass gasification: independent review (NREL/BK-6A10-51726, October 2011; 2009 dollars)"
+      },
+      "low": 2.8,
+      "high": 5.4,
+      "year": 2009
+    }
+  ],
+  "trl": {
+    "low": 5,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass-waste gasification without CCUS' 6 (2025); 'Biomass-waste gasification with CCUS' 5 (2025)"
+    }
+  },
+  "advantages": [
+    "Biogenic carbon"
+  ],
+  "limitations": [
+    "Feedstock cost and logistics",
+    "Cost figures date from 2011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent",
+      "note": "DOE EERE, Hydrogen production cost estimate using biomass gasification: independent review (NREL/BK-6A10-51726, October 2011; 2009 dollars)"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): small biomass-to-hydrogen and methane-pyrolysis ventures contribute marginal output"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operating biomass-to-hydrogen plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "IEA says output is marginal; no plant is named in sources read.",
+      "where": [
+        {
+          "hint": "IEA Bioenergy Task 33 gasification database",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two operating plants."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

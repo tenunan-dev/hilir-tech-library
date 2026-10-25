@@ -1,0 +1,167 @@
+{
+  "id": "h2-ft-saf-efuels",
+  "name": "Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)",
+  "aliases": [
+    "Fischer-Tropsch SAF",
+    "e-fuels",
+    "power-to-liquids",
+    "PtL"
+  ],
+  "sector": "H2",
+  "category": "Low-carbon fuels / Fischer-Tropsch",
+  "applications": [
+    "sustainable aviation fuel",
+    "diesel"
+  ],
+  "maturity": "demonstration",
+  "principle": "Syngas from biomass gasification, or from hydrogen and CO2 via reverse water-gas shift, is converted to hydrocarbons in Fischer-Tropsch synthesis and upgraded to jet and diesel. FT-SPK was approved under ASTM D7566 Annex A1 in 2009 with a 50% blend limit. INERATEC's 2.5 ktpa plant in Germany began commercial operation in June 2025 and Infinium's 23 ktpa Roadrunner plant in the US began construction in May 2025.",
+  "process_steps": [
+    {
+      "id": "SYN",
+      "name": "Syngas from biomass or H2 + CO2",
+      "equipment": [
+        "gasifier or electrolyser + RWGS"
+      ],
+      "to": [
+        "FT"
+      ]
+    },
+    {
+      "id": "FT",
+      "name": "Fischer-Tropsch synthesis",
+      "equipment": [
+        "FT reactor"
+      ],
+      "to": [
+        "UP"
+      ]
+    },
+    {
+      "id": "UP",
+      "name": "Hydroprocessing and fractionation",
+      "equipment": [
+        "hydrocracker",
+        "fractionator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "gasifier or electrolyser",
+    "RWGS reactor",
+    "FT reactor",
+    "hydroprocessing unit",
+    "fractionation"
+  ],
+  "suppliers": [
+    {
+      "name": "INERATEC",
+      "product": "2.5 ktpa e-fuel plant"
+    },
+    {
+      "name": "Infinium",
+      "product": "Roadrunner e-fuels plant"
+    },
+    {
+      "name": "Velocys",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "INERATEC plant capacity",
+      "unit": "ktpa",
+      "basis": "synthetic fuels and wax from chlor-alkali by-product hydrogen and biogenic CO2; commercial operation June 2025",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): INERATEC"
+      },
+      "low": 2.5,
+      "high": 2.5
+    },
+    {
+      "metric": "Infinium Roadrunner planned capacity",
+      "unit": "ktpa",
+      "basis": "under construction from May 2025",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Infinium"
+      },
+      "low": 23,
+      "high": 23
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "INERATEC, Germany",
+      "country": "DE",
+      "capacity": "2.5 ktpa",
+      "year": 2025,
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): INERATEC"
+      }
+    }
+  ],
+  "trl": {
+    "low": 7,
+    "high": 7,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025); 'Gasification and Fischer-Tropsch' 7 (2025)"
+    }
+  },
+  "advantages": [
+    "ASTM-approved SAF route"
+  ],
+  "limitations": [
+    "Blend limit 50% by volume for FT-SPK",
+    "Hydrogen cost dominates"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/sites/default/files/2022-09/beto-saf-gc-roadmap-report-sept-2022.pdf",
+      "source_id": "doe-affo",
+      "note": "DOE SAF Grand Challenge Roadmap, Flight Plan for Sustainable Aviation Fuel, September 2022"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): INERATEC and Infinium plants"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per litre",
+      "reason_code": "not_in_sources_read",
+      "reason": "The roadmap text read gives no figure.",
+      "where": [
+        {
+          "hint": "DOE SAF roadmap annexes",
+          "access": "open",
+          "source_id": "doe-affo"
+        }
+      ],
+      "action": "Add cost estimates."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
