@@ -1,0 +1,150 @@
+{
+  "id": "ref-electrification-heat-pumps",
+  "name": "Refinery electrification and heat pumps",
+  "aliases": [
+    "refinery electrification",
+    "electric furnaces",
+    "industrial heat pumps"
+  ],
+  "sector": "REF",
+  "category": "Low-carbon refining",
+  "applications": [
+    "steam crackers",
+    "refinery heaters",
+    "low-temperature process heat"
+  ],
+  "maturity": "demonstration",
+  "principle": "Fired heaters and boilers are replaced by electric heating, and low-temperature process heat is lifted with heat pumps. Evidence read here is for electric steam-cracker furnaces: BASF, SABIC and Linde started a demonstration at Ludwigshafen in April 2024 with two electrically heated furnaces, 6 MW of renewable power and about 4 t/h of feed, targeting 90% lower emissions.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Renewable electricity supply",
+      "equipment": [
+        "transformers",
+        "power electronics"
+      ],
+      "to": [
+        "HT"
+      ]
+    },
+    {
+      "id": "HT",
+      "name": "Electric heating of process fluid or furnace",
+      "equipment": [
+        "electric furnace",
+        "heat pump"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electric furnace coils",
+    "high-temperature heat pump",
+    "power electronics",
+    "electric boilers"
+  ],
+  "suppliers": [
+    {
+      "name": "BASF, SABIC, Linde",
+      "product": "electric steam-cracker furnace demonstration",
+      "source_id": "sabic-licensing"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "emission reduction target of the electric furnace demonstration",
+      "unit": "%",
+      "basis": "target, not a measured result at the time of the article",
+      "source": {
+        "url": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/",
+        "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
+      },
+      "low": 90,
+      "high": 90
+    },
+    {
+      "metric": "demonstration power and feed",
+      "unit": "MW",
+      "basis": "about 4 t/h of hydrocarbon feed across two furnaces; start 17 April 2024",
+      "source": {
+        "url": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/",
+        "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
+      },
+      "low": 6,
+      "high": 6
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'High value chemicals production using steam cracker electrification' 6 (2025); 'Large-scale heat pump (low temperature heating)' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Removes combustion CO2 at the furnace if power is low-carbon"
+  ],
+  "limitations": [
+    "Commercialisation depends on competitively priced renewable power (article)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/",
+      "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "refinery (not petrochemical) electrification and heat-pump installations",
+      "reason_code": "not_in_sources_read",
+      "reason": "The source read is about a steam cracker.",
+      "where": [
+        {
+          "hint": "Refinery operator announcements",
+          "access": "open"
+        }
+      ],
+      "action": "Add refinery references."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

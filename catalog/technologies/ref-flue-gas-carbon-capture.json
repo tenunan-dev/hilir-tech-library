@@ -1,0 +1,181 @@
+{
+  "id": "ref-flue-gas-carbon-capture",
+  "name": "Refinery flue gas and FCC carbon capture",
+  "aliases": [
+    "FCC carbon capture",
+    "refinery CCS"
+  ],
+  "sector": "REF",
+  "category": "Low-carbon refining",
+  "applications": [
+    "refinery fired heaters",
+    "FCC regenerators",
+    "hydrogen units"
+  ],
+  "maturity": "demonstration",
+  "principle": "CO2 is captured from refinery combustion and FCC regenerator flue gas, usually with amine absorption, then compressed for storage. IEA lists post-combustion and oxy-fuel capture for cracking units at TRL 5. In the Netherlands the Porthos system will carry CO2 from Shell's Pernis refinery and three other industrial customers to depleted gas fields.",
+  "process_steps": [
+    {
+      "id": "FLU",
+      "name": "Flue gas conditioning",
+      "equipment": [
+        "quench",
+        "flue gas blower"
+      ],
+      "to": [
+        "ABS"
+      ]
+    },
+    {
+      "id": "ABS",
+      "name": "Amine absorption",
+      "equipment": [
+        "absorber"
+      ],
+      "to": [
+        "REG"
+      ]
+    },
+    {
+      "id": "REG",
+      "name": "Regeneration and CO2 compression",
+      "equipment": [
+        "stripper",
+        "compressor"
+      ],
+      "to": [
+        "TS"
+      ]
+    },
+    {
+      "id": "TS",
+      "name": "Transport and storage",
+      "equipment": [
+        "pipeline",
+        "offshore injection"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "flue gas quench and blower",
+    "absorber",
+    "stripper",
+    "CO2 compressors",
+    "transport pipeline"
+  ],
+  "suppliers": [
+    {
+      "name": "Shell",
+      "product": "Pernis refinery (Porthos customer)"
+    },
+    {
+      "name": "ExxonMobil",
+      "product": "Porthos customer"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Porthos CO2 transport and storage",
+      "unit": "Mtpa",
+      "basis": "37 Mt over 15 years; compressed from 35 bar up to 130 bar; stored about 3 km below the sea surface in depleted fields P18-2, P18-4, P18-6",
+      "source": {
+        "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+        "note": "iO+, The first Dutch carbon capture and storage plant is taking shape (Porthos)"
+      },
+      "low": 2.5,
+      "high": 2.5
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Porthos CO2 transport and storage, Rotterdam (Pernis refinery is a source)",
+      "country": "NL",
+      "capacity": "2.5 Mtpa",
+      "status": "works from 2024, operational expected 2026 per the article",
+      "year": 2026,
+      "source": {
+        "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+        "note": "iO+, The first Dutch carbon capture and storage plant is taking shape (Porthos)"
+      }
+    }
+  ],
+  "trl": {
+    "low": 5,
+    "high": 5,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Post-combustion carbon capture (cracking)' 5 (2025); 'Oxy-fuelling carbon capture (cracking)' 5 (2025)"
+    }
+  },
+  "advantages": [
+    "Reuses depleted gas fields as stores"
+  ],
+  "limitations": [
+    "The source describes transport and storage, not the capture unit at the refinery"
+  ],
+  "sources": [
+    {
+      "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+      "note": "iO+, The first Dutch carbon capture and storage plant is taking shape (Porthos)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "capture rate, energy penalty and cost of FCC flue gas capture",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read describes the capture unit.",
+      "where": [
+        {
+          "hint": "Shell Pernis and Aramis project documents",
+          "access": "open"
+        },
+        {
+          "hint": "IEAGHG refinery capture reports",
+          "access": "open",
+          "source_id": "iea-ghg"
+        }
+      ],
+      "action": "Add capture figures."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

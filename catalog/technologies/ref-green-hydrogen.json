@@ -1,0 +1,150 @@
+{
+  "id": "ref-green-hydrogen",
+  "name": "Green hydrogen in refineries",
+  "aliases": [
+    "REFHYNE",
+    "refinery green hydrogen"
+  ],
+  "sector": "REF",
+  "category": "Low-carbon refining",
+  "applications": [
+    "hydrotreating",
+    "hydrocracking",
+    "renewable fuels"
+  ],
+  "maturity": "demonstration",
+  "principle": "A PEM electrolyser on renewable electricity supplies hydrogen to refinery hydroprocessing in place of some steam-reformer hydrogen. Shell's REFHYNE at its Rheinland site is a 10 MW PEM unit built by ITM Power, producing up to 1,300 t/yr, with expansion to 100 MW planned.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Renewable power",
+      "equipment": [
+        "rectifier"
+      ],
+      "to": [
+        "EL"
+      ]
+    },
+    {
+      "id": "EL",
+      "name": "PEM electrolysis",
+      "equipment": [
+        "PEM stacks",
+        "water treatment"
+      ],
+      "to": [
+        "H2"
+      ]
+    },
+    {
+      "id": "H2",
+      "name": "Hydrogen to refinery header",
+      "equipment": [
+        "compressor",
+        "piping"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "PEM electrolyser",
+    "water treatment",
+    "rectifier",
+    "hydrogen compressor"
+  ],
+  "suppliers": [
+    {
+      "name": "ITM Power",
+      "product": "10 MW PEM electrolyser for Shell Rheinland",
+      "source_id": "itm-power"
+    },
+    {
+      "name": "Shell",
+      "product": "REFHYNE operator",
+      "source_id": "shell-energy-transition"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "REFHYNE hydrogen output",
+      "unit": "t/yr",
+      "basis": "10 MW PEM; plans for 100 MW at Rheinland",
+      "source": {
+        "url": "https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/",
+        "source_id": "hydrocarbon-engineering",
+        "note": "Hydrocarbon Engineering, Shell starts up PEM green hydrogen electrolyser in Europe, 5 July 2021"
+      },
+      "high": 1300
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "REFHYNE, Shell Energy and Chemicals Park Rheinland",
+      "country": "DE",
+      "capacity": "10 MW PEM, up to 1,300 t/yr H2",
+      "year": 2021,
+      "source": {
+        "url": "https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/",
+        "source_id": "hydrocarbon-engineering",
+        "note": "Hydrocarbon Engineering, Shell starts up PEM green hydrogen electrolyser in Europe, 5 July 2021"
+      }
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Polymer electrolyte membrane electrolyser' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Replaces fossil hydrogen at point of use"
+  ],
+  "limitations": [
+    "Scale: 10 MW is small against refinery hydrogen demand (not quantified by the source)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/",
+      "source_id": "hydrocarbon-engineering",
+      "note": "Hydrocarbon Engineering, Shell starts up PEM green hydrogen electrolyser in Europe, 5 July 2021"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "electrolyser capital cost and hydrogen cost at the refinery",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article gives none.",
+      "where": [
+        {
+          "hint": "IEA Global Hydrogen Review",
+          "access": "open",
+          "source_id": "iea-reports"
+        },
+        {
+          "hint": "IRENA electrolyser cost reports",
+          "access": "open",
+          "source_id": "irena"
+        }
+      ],
+      "action": "Add cost figures."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

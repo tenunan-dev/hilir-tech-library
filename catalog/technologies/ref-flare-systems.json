@@ -1,0 +1,183 @@
+{
+  "id": "ref-flare-systems",
+  "name": "Flare gas recovery and smokeless flares",
+  "aliases": [
+    "smokeless flare",
+    "elevated flare",
+    "ground flare"
+  ],
+  "sector": "REF",
+  "category": "Refining / environment",
+  "applications": [
+    "refineries",
+    "gas plants",
+    "chemical plants"
+  ],
+  "maturity": "commercial",
+  "principle": "Elevated flares burn relief and vent gas at the tip of a stack 10 to over 100 m tall, using steam or air assistance for smokeless burning; ground flares burn at ground level, often in enclosures. EPA's AP-42 says properly operated flares achieve at least 98% destruction efficiency, with refinery flares needing at least 270 Btu/ft3 net heating value in the combustion zone. Flare gas recovery compressors return routine flow to fuel gas; see the upstream flare gas recovery card.",
+  "process_steps": [
+    {
+      "id": "HDR",
+      "name": "Flare header and knock-out drum",
+      "equipment": [
+        "knock-out drum",
+        "seal drum"
+      ],
+      "to": [
+        "TIP"
+      ]
+    },
+    {
+      "id": "TIP",
+      "name": "Flare tip with steam or air assistance",
+      "equipment": [
+        "steam-assisted tip",
+        "air-assisted blower"
+      ],
+      "to": []
+    },
+    {
+      "id": "FGR",
+      "name": "Flare gas recovery compressor (optional)",
+      "equipment": [
+        "liquid-ring or screw compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "flare stack and tip",
+    "knock-out and seal drums",
+    "steam or air assist",
+    "pilots and ignition",
+    "flare gas recovery compressors"
+  ],
+  "suppliers": [
+    {
+      "name": "Zeeco",
+      "product": "flare systems (register examples)"
+    },
+    {
+      "name": "John Zink",
+      "product": "flare systems",
+      "source_id": "john-zink"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "destruction efficiency of properly operated flares",
+      "unit": "%",
+      "basis": "EPA AP-42; 96.5% combustion efficiency roughly equals 98% destruction",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf",
+        "note": "US EPA AP-42 section 13.5, Industrial flares"
+      },
+      "low": 98
+    },
+    {
+      "metric": "NOx emission factor, elevated flares",
+      "unit": "lb/10^6 Btu",
+      "basis": "EPA AP-42",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf",
+        "note": "US EPA AP-42 section 13.5, Industrial flares"
+      },
+      "low": 0.068,
+      "high": 0.068
+    }
+  ],
+  "advantages": [
+    "Safe relief of upsets",
+    "Smokeless operation with steam or air"
+  ],
+  "limitations": [
+    "Flaring still emits CO2, NOx and unburned hydrocarbons",
+    "EPA rates some emission factors poorly representative"
+  ],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf",
+      "note": "US EPA AP-42 section 13.5, Industrial flares"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "Zeeco and John Zink product pages",
+      "reason_code": "not_in_sources_read",
+      "reason": "Search results only.",
+      "where": [
+        {
+          "hint": "Zeeco and John Zink flare brochures",
+          "access": "open",
+          "source_id": "john-zink"
+        }
+      ],
+      "action": "Add models and capacities."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

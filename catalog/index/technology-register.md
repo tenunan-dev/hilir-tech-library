@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 89 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 103 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -134,31 +134,31 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Distillation and treating | Desalting (electrostatic) | commercial | Cameron (SLB) | [card](technologies-REF.md#ref-cdu-vdu) |
 | Distillation and treating | Hydrotreating (naphtha, diesel, VGO) | commercial | Topsoe, Axens, Honeywell UOP, Shell, Chevron Lummus Global | [card](technologies-REF.md#ref-hydrotreating) |
 | Distillation and treating | Ultra-low sulfur diesel and fuels | commercial | Topsoe, Axens, Honeywell UOP | [card](technologies-REF.md#ref-hydrotreating) |
-| Distillation and treating | FCC gasoline post-treating (Prime-G+, SCANfining) | commercial | Axens, ExxonMobil |  |
-| Distillation and treating | Mercaptan sweetening (Merox) | commercial | Honeywell UOP, Merichem |  |
+| Distillation and treating | FCC gasoline post-treating (Prime-G+, SCANfining) | commercial | Axens, ExxonMobil | [card](technologies-REF.md#ref-fcc-gasoline-post-treating) |
+| Distillation and treating | Mercaptan sweetening (Merox) | commercial | Honeywell UOP, Merichem | [card](technologies-REF.md#ref-merox-sweetening) |
 | Conversion | Fluid catalytic cracking and resid FCC | commercial | Honeywell UOP, KBR, Axens/Technip, Lummus, Shell | [card](technologies-REF.md#ref-fcc) |
 | Conversion | Hydrocracking (fixed bed) | commercial | Chevron Lummus Global, Honeywell UOP, Shell, Topsoe, Axens | [card](technologies-REF.md#ref-hydrocracking) |
 | Conversion | Resid hydrocracking (ebullated and slurry bed) | commercial | Axens H-Oil, CLG LC-FINING, Eni EST, KBR VCC | [card](technologies-REF.md#ref-resid-hydrocracking) |
 | Conversion | Delayed coking and fluid coking | commercial | Lummus, Bechtel/Foster Wheeler (Amec), ExxonMobil Flexicoking | [card](technologies-REF.md#ref-delayed-coking) |
-| Conversion | Visbreaking and solvent deasphalting | commercial | Shell, KBR ROSE, Axens |  |
+| Conversion | Visbreaking and solvent deasphalting | commercial | Shell, KBR ROSE, Axens | [card](technologies-REF.md#ref-visbreaking-sda) |
 | Conversion | Catalytic reforming (CCR, semi-regenerative) | commercial | Honeywell UOP, Axens | [card](technologies-REF.md#ref-catalytic-reforming) |
 | Conversion | Isomerisation (C5/C6) | commercial | Honeywell UOP, Axens, GTC | [card](technologies-REF.md#ref-isomerisation) |
 | Conversion | Alkylation (HF, sulfuric, ionic liquid, solid acid) | commercial | Honeywell UOP, DuPont STRATCO, Chevron ISOALKY, KBR K-SAAT | [card](technologies-REF.md#ref-alkylation) |
-| Conversion | Etherification (MTBE, ETBE, TAME) | commercial | Lummus, Axens |  |
+| Conversion | Etherification (MTBE, ETBE, TAME) | commercial | Lummus, Axens | [card](technologies-REF.md#ref-etherification) |
 | Conversion | Hydrogen production for refining (SMR with PSA) | commercial | Topsoe, Air Liquide, Technip Energies, Linde | [card](technologies-H2.md#h2-smr) |
-| Conversion | Sour water stripping and amine regeneration | commercial | EPC contractors |  |
+| Conversion | Sour water stripping and amine regeneration | commercial | EPC contractors | [card](technologies-REF.md#ref-sour-water-stripping) |
 | Crude-to-chemicals and integration | Crude-to-chemicals complexes | commercial | Saudi Aramco/SABIC, Hengli, Rongsheng, PETRONAS Pengerang | [card](technologies-REF.md#ref-crude-to-chemicals) |
-| Crude-to-chemicals and integration | Direct crude cracking | demonstration | ExxonMobil Singapore, Saudi Aramco TC2C |  |
-| Crude-to-chemicals and integration | Refinery-petrochemical integration (FCC propylene, HS-FCC) | commercial | Honeywell UOP, Axens, KBR |  |
+| Crude-to-chemicals and integration | Direct crude cracking | demonstration | ExxonMobil Singapore, Saudi Aramco TC2C | [card](technologies-REF.md#ref-direct-crude-cracking) |
+| Crude-to-chemicals and integration | Refinery-petrochemical integration (FCC propylene, HS-FCC) | commercial | Honeywell UOP, Axens, KBR | [card](technologies-REF.md#ref-petrochemical-integration) |
 | Low-carbon refining | Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA) | commercial | Neste NEXBTL, Honeywell UOP Ecofining, Topsoe HydroFlex, Axens Vegan | [card](technologies-REF.md#ref-hefa) |
 | Low-carbon refining | Co-processing of bio-feeds in FCC and hydrotreaters | commercial | Refiners | [card](technologies-REF.md#ref-co-processing) |
-| Low-carbon refining | Refinery electrification and heat pumps | demonstration | Various |  |
-| Low-carbon refining | Refinery flue gas and FCC carbon capture | demonstration | ExxonMobil, Shell Pernis |  |
-| Low-carbon refining | Green hydrogen in refineries | demonstration | Shell Rheinland, BP Lingen |  |
-| Utilities and environment | Wastewater treatment (API separators, DAF, biological, MBR) | commercial | Veolia, Suez |  |
-| Utilities and environment | Flare gas recovery and smokeless flares | commercial | Zeeco, John Zink |  |
-| Utilities and environment | Advanced process control and real-time optimisation | commercial | AspenTech, Honeywell, Yokogawa, Emerson |  |
-| Utilities and environment | Process simulation and digital twins | commercial | AspenTech, AVEVA, KBC Petro-SIM |  |
+| Low-carbon refining | Refinery electrification and heat pumps | demonstration | Various | [card](technologies-REF.md#ref-electrification-heat-pumps) |
+| Low-carbon refining | Refinery flue gas and FCC carbon capture | demonstration | ExxonMobil, Shell Pernis | [card](technologies-REF.md#ref-flue-gas-carbon-capture) |
+| Low-carbon refining | Green hydrogen in refineries | demonstration | Shell Rheinland, BP Lingen | [card](technologies-REF.md#ref-green-hydrogen) |
+| Utilities and environment | Wastewater treatment (API separators, DAF, biological, MBR) | commercial | Veolia, Suez | [card](technologies-REF.md#ref-wastewater-treatment) |
+| Utilities and environment | Flare gas recovery and smokeless flares | commercial | Zeeco, John Zink | [card](technologies-REF.md#ref-flare-systems) |
+| Utilities and environment | Advanced process control and real-time optimisation | commercial | AspenTech, Honeywell, Yokogawa, Emerson | [card](technologies-REF.md#ref-apc-rto) |
+| Utilities and environment | Process simulation and digital twins | commercial | AspenTech, AVEVA, KBC Petro-SIM | [card](technologies-REF.md#ref-process-simulation-digital-twin) |
 
 ## PCH: Petrochemicals
 

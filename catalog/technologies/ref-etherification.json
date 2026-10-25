@@ -1,0 +1,194 @@
+{
+  "id": "ref-etherification",
+  "name": "Etherification (MTBE, ETBE, TAME)",
+  "aliases": [
+    "MTBE",
+    "ETBE",
+    "TAME",
+    "TAEE"
+  ],
+  "sector": "REF",
+  "category": "Refining / gasoline blending",
+  "applications": [
+    "gasoline octane",
+    "isobutylene for petrochemicals"
+  ],
+  "maturity": "commercial",
+  "principle": "Reactive isobutylene (from FCC or steam cracker C4) or isoamylenes (from light FCC naphtha) are reacted with methanol or ethanol over an acid resin catalyst to make high-octane ethers. Axens combines expanded-bed reactors with Catacol reactive distillation. Isobutylene can be recovered again by back-cracking MTBE.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "C4 or C5 olefin cut plus alcohol",
+      "equipment": [
+        "feed treating"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Etherification reactors",
+      "equipment": [
+        "expanded-bed reactors"
+      ],
+      "to": [
+        "RD"
+      ]
+    },
+    {
+      "id": "RD",
+      "name": "Reactive distillation (Catacol)",
+      "equipment": [
+        "reactive distillation column"
+      ],
+      "to": [
+        "PRD"
+      ]
+    },
+    {
+      "id": "PRD",
+      "name": "Ether product and raffinate",
+      "equipment": [
+        "methanol recovery"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "expanded-bed reactors",
+    "reactive distillation column",
+    "alcohol recovery"
+  ],
+  "suppliers": [
+    {
+      "name": "Axens",
+      "product": "MTBE/ETBE, TAME/TAEE, Isobutely back-cracking",
+      "source_id": "axens"
+    },
+    {
+      "name": "Lummus Technology",
+      "product": "CDEthers (page not read)",
+      "source_id": "lummus"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "MTBE-mode conversion",
+      "unit": "%",
+      "basis": "Axens claim for MTBE/ETBE with Catacol",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/etherification",
+        "source_id": "axens",
+        "note": "Axens etherification page, read 25 October 2026"
+      },
+      "low": 99.9
+    },
+    {
+      "metric": "MTBE back-cracking per-pass conversion",
+      "unit": "%",
+      "basis": "Axens Isobutely, isobutylene purity 99.9%+",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/etherification",
+        "source_id": "axens",
+        "note": "Axens etherification page, read 25 October 2026"
+      },
+      "low": 88,
+      "high": 88
+    }
+  ],
+  "advantages": [
+    "Octane and lower olefin content in gasoline",
+    "Axens: over 40 MTBE/ETBE and over 20 TAME/TAEE references"
+  ],
+  "limitations": [
+    "Local MTBE bans are not covered by the source"
+  ],
+  "sources": [
+    {
+      "url": "https://www.axens.net/markets/oil-refining/etherification",
+      "source_id": "axens",
+      "note": "Axens etherification page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "Lummus CDEthers",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Lummus page was a search result and was not read.",
+      "where": [
+        {
+          "hint": "Lummus CDEthers page",
+          "access": "open",
+          "source_id": "lummus"
+        }
+      ],
+      "action": "Add Lummus figures."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

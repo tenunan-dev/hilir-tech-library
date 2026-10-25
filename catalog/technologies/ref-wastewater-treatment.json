@@ -1,0 +1,168 @@
+{
+  "id": "ref-wastewater-treatment",
+  "name": "Wastewater treatment (API separators, DAF, biological, MBR)",
+  "aliases": [
+    "refinery effluent treatment",
+    "MBR",
+    "DAF"
+  ],
+  "sector": "REF",
+  "category": "Refining / environment",
+  "applications": [
+    "refinery and petrochemical effluent"
+  ],
+  "maturity": "commercial",
+  "principle": "Refinery effluent passes through an API gravity separator, then dissolved air flotation with coagulant and polymer, and usually biological treatment; a membrane bioreactor (MBR) is the high-quality option. A 2023 study of the Kawrgosk refinery measured API at about 17 to 18% oil and grease removal and DAF at 85 to 86%, giving about 90% combined, and modelled MBR at above 90% COD removal.",
+  "process_steps": [
+    {
+      "id": "API",
+      "name": "API separator",
+      "equipment": [
+        "API oil/water separator"
+      ],
+      "to": [
+        "DAF"
+      ]
+    },
+    {
+      "id": "DAF",
+      "name": "Dissolved air flotation with coagulant and polymer",
+      "equipment": [
+        "DAF unit"
+      ],
+      "to": [
+        "BIO"
+      ]
+    },
+    {
+      "id": "BIO",
+      "name": "Biological treatment or MBR",
+      "equipment": [
+        "aeration basin",
+        "membrane bioreactor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "API separator",
+    "DAF unit",
+    "chemical dosing",
+    "biological reactor or MBR",
+    "sludge handling"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "register examples; not verified"
+    },
+    {
+      "name": "Suez",
+      "product": "register examples; not verified"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "oil and grease removal, API separator then DAF",
+      "unit": "%",
+      "basis": "Kawrgosk refinery data March to June 2022; API 17 to 18%, DAF 85 to 86%; treated O&G below 50 mg/L",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940",
+        "note": "The Cost Benefit of Refinery Effluent Pretreatment Upstream of Membrane Bioreactors (PMC10456940); Kawrgosk refinery data 2022"
+      },
+      "low": 90,
+      "high": 90
+    },
+    {
+      "metric": "COD removal, API plus DAF",
+      "unit": "%",
+      "basis": "same study; MBR projected above 90%",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940",
+        "note": "The Cost Benefit of Refinery Effluent Pretreatment Upstream of Membrane Bioreactors (PMC10456940); Kawrgosk refinery data 2022"
+      },
+      "low": 75,
+      "high": 75
+    },
+    {
+      "metric": "specific energy, API plus DAF versus MBR",
+      "unit": "kWh/m3",
+      "basis": "low = API+DAF, high = MBR (modelled)",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940",
+        "note": "The Cost Benefit of Refinery Effluent Pretreatment Upstream of Membrane Bioreactors (PMC10456940); Kawrgosk refinery data 2022"
+      },
+      "low": 0.091,
+      "high": 0.857
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost per m3/d capacity, API+DAF versus MBR",
+      "unit": "USD per m3/d",
+      "basis": "2023 USD, 1,800 m3/d plant; API 255 plus DAF 815 = 1,070 (low); MBR 6,870 (high); MBR costs modelled from published data",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940",
+        "note": "The Cost Benefit of Refinery Effluent Pretreatment Upstream of Membrane Bioreactors (PMC10456940); Kawrgosk refinery data 2022"
+      },
+      "low": 1070,
+      "high": 6870
+    }
+  ],
+  "advantages": [
+    "API plus DAF is a low-energy, low-cost pretreatment (about one sixth of MBR net present value in the study)"
+  ],
+  "limitations": [
+    "The study's MBR numbers are projections",
+    "The paper has internal inconsistencies in energy-per-COD units"
+  ],
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940",
+      "note": "The Cost Benefit of Refinery Effluent Pretreatment Upstream of Membrane Bioreactors (PMC10456940); Kawrgosk refinery data 2022"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operators other than the Kawrgosk study",
+      "reason_code": "not_in_sources_read",
+      "reason": "One refinery study.",
+      "where": [
+        {
+          "hint": "Veolia and Suez references",
+          "access": "open"
+        }
+      ],
+      "action": "Add suppliers' plants."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "ref-fcc-gasoline-post-treating",
+  "name": "FCC gasoline post-treating (Prime-G+, SCANfining)",
+  "aliases": [
+    "Prime-G+",
+    "SCANfining",
+    "FCC naphtha hydrotreating"
+  ],
+  "sector": "REF",
+  "category": "Refining / treating",
+  "applications": [
+    "gasoline sulfur compliance (10 wppm class)"
+  ],
+  "maturity": "commercial",
+  "principle": "FCC gasoline carries most of a refinery's gasoline-pool sulfur and most of its olefins, which supply octane. Post-treating removes sulfur with limited octane loss. In Axens Prime-G+ a first-step selective hydrogenation unit makes an olefin-rich light cracked naphtha, a naphtha splitter is optional, and the sulfur-rich heavy cracked naphtha goes to selective hydrodesulfurisation.",
+  "process_steps": [
+    {
+      "id": "SHU",
+      "name": "Selective hydrogenation (first step)",
+      "equipment": [
+        "selective hydrogenation reactor"
+      ],
+      "to": [
+        "SPL"
+      ]
+    },
+    {
+      "id": "SPL",
+      "name": "Naphtha splitting (optional)",
+      "equipment": [
+        "splitter"
+      ],
+      "to": [
+        "LCN",
+        "HCN"
+      ],
+      "streams": {
+        "LCN": "light cracked naphtha",
+        "HCN": "heavy cracked naphtha"
+      }
+    },
+    {
+      "id": "LCN",
+      "name": "Light naphtha sweetening or TAME/TAEE etherification",
+      "equipment": [
+        "sweetening unit",
+        "etherification unit"
+      ],
+      "to": []
+    },
+    {
+      "id": "HCN",
+      "name": "Selective hydrodesulfurisation",
+      "equipment": [
+        "HDS reactors",
+        "H2 recycle"
+      ],
+      "to": [
+        "STB"
+      ]
+    },
+    {
+      "id": "STB",
+      "name": "Stabiliser",
+      "equipment": [
+        "stabiliser column"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "selective hydrogenation reactor",
+    "HDS reactors",
+    "naphtha splitter",
+    "hydrogen recycle compressor",
+    "stabiliser"
+  ],
+  "suppliers": [
+    {
+      "name": "Axens",
+      "product": "Prime-G+",
+      "source_id": "axens"
+    },
+    {
+      "name": "ExxonMobil",
+      "product": "SCANfining (register examples; not verified in sources read)",
+      "source_id": "exxonmobil-catalysts"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "FCC gasoline sulfur from first units",
+      "unit": "wppm",
+      "basis": "Axens says it was first to start up units producing FCC gasoline at 10 wppm",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating",
+        "source_id": "axens",
+        "note": "Axens FCC naphtha hydrotreating page, read 25 October 2026"
+      },
+      "high": 10
+    },
+    {
+      "metric": "licensed units",
+      "unit": "units",
+      "basis": "Axens: over 300 Prime-G+ units; licensed capacity above 7,350,000 BPSD",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating",
+        "source_id": "axens",
+        "note": "Axens FCC naphtha hydrotreating page, read 25 October 2026"
+      },
+      "low": 300
+    }
+  ],
+  "advantages": [
+    "Octane retention (qualitative, Axens)",
+    "Over 300 licences"
+  ],
+  "limitations": [
+    "Hydrogen consumption and octane loss not quantified in the source read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating",
+      "source_id": "axens",
+      "note": "Axens FCC naphtha hydrotreating page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "octane loss and hydrogen consumption",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Axens page gives no figures.",
+      "where": [
+        {
+          "hint": "Axens technical papers",
+          "access": "open",
+          "source_id": "axens"
+        },
+        {
+          "hint": "SCANfining ExxonMobil literature",
+          "access": "open",
+          "source_id": "exxonmobil-catalysts"
+        }
+      ],
+      "action": "Add them from a licensor paper."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

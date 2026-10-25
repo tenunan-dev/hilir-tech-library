@@ -1,22 +1,64 @@
 # REF technology options
 
-13 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+27 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
+| [Advanced process control and real-time optimisation](#ref-apc-rto) | Refining / digital | commercial |  | Yokogawa (APC (SMOC)); AspenTech (register examples); Honeywell (register examples); Emerson (register examples) |  |
 | [Alkylation (HF, sulfuric, ionic liquid, solid acid)](#ref-alkylation) | Octane upgrading | commercial |  | Chevron / Honeywell UOP (ISOALKY (ionic liquid)); Honeywell UOP (HF alkylation); DuPont (Veolia) (STRATCO sulfuric); KBR (K-SAAT solid acid) |  |
 | [Catalytic reforming (CCR, semi-regenerative)](#ref-catalytic-reforming) | Octane upgrading | commercial |  | Honeywell UOP (CCR Platforming); Axens (Octanizing, Aromizing) |  |
 | [Co-processing of bio-feeds in FCC and hydrotreaters](#ref-co-processing) | Low-carbon refining | commercial |  | Honeywell UOP (Unionfining co-processing, FCC co-processing); Topsoe; Axens |  |
 | [Crude and vacuum distillation with heat integration](#ref-cdu-vdu) | Distillation | commercial |  | EPC contractors (process designed by refiner or contractor); Cameron (SLB) (electrostatic desalters) |  |
 | [Crude-to-chemicals complexes](#ref-crude-to-chemicals) | Refinery-petrochemical integration | commercial |  | Saudi Aramco / SABIC; Honeywell UOP; Axens; Chevron Lummus Global |  |
 | [Delayed coking and fluid coking](#ref-delayed-coking) | Conversion / thermal | commercial |  | Lummus; Bechtel/Foster Wheeler (Amec); ExxonMobil (Flexicoking) |  |
+| [Etherification (MTBE, ETBE, TAME)](#ref-etherification) | Refining / gasoline blending | commercial |  | Axens (MTBE/ETBE, TAME/TAEE, Isobutely back-cracking); Lummus Technology (CDEthers (page not read)) |  |
+| [FCC gasoline post-treating (Prime-G+, SCANfining)](#ref-fcc-gasoline-post-treating) | Refining / treating | commercial |  | Axens (Prime-G+); ExxonMobil (SCANfining (register examples; not verified in sources read)) |  |
+| [Flare gas recovery and smokeless flares](#ref-flare-systems) | Refining / environment | commercial |  | Zeeco (flare systems (register examples)); John Zink (flare systems) |  |
 | [Fluid catalytic cracking and resid FCC](#ref-fcc) | Conversion / catalytic cracking | commercial |  | Honeywell UOP (FCC, RFCC, PetroFCC); KBR; Axens/Technip Energies; Lummus; Shell |  |
 | [Hydrocracking (fixed bed)](#ref-hydrocracking) | Conversion / hydroprocessing | commercial |  | Chevron Lummus Global (ISOCRACKING); Honeywell UOP (Unicracking); Shell; Topsoe; Axens |  |
 | [Hydrotreating (naphtha, diesel, VGO)](#ref-hydrotreating) | Treating / hydroprocessing | commercial |  | Topsoe (TK-series BRIM and HyBRIM catalysts, HDS/HDA); Axens; Honeywell UOP (Unionfining); Shell Catalysts & Technologies; Chevron Lummus Global |  |
 | [Isomerisation (C5/C6)](#ref-isomerisation) | Octane upgrading | commercial |  | Axens (once-through, Ipsorb, Hexorb; ATIS-1L/2L catalysts); Honeywell UOP (Penex); GTC Technology |  |
+| [Mercaptan sweetening (Merox)](#ref-merox-sweetening) | Refining / treating | commercial |  | Honeywell UOP (Merox); Merichem (mercaptan treating (register examples; not verified)) |  |
+| [Process simulation and digital twins](#ref-process-simulation-digital-twin) | Refining / digital | commercial |  | AspenTech (Aspen HYSYS); AVEVA (register examples); KBC (Petro-SIM (register examples)) |  |
+| [Refinery-petrochemical integration (FCC propylene, HS-FCC)](#ref-petrochemical-integration) | Refining / petrochemical integration | commercial |  | Axens (HS-FCC licensing (with Shaw, search result not read)); Chiyoda (built the 30 b/d demonstration plant); Saudi Aramco (HS-FCC development with KFUPM and JX Nippon Oil); Honeywell UOP (register examples; not verified); KBR (register examples; not verified) |  |
 | [Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA)](#ref-hefa) | Low-carbon refining / bio-feed hydroprocessing | commercial | 9 | Neste (NEXBTL); Honeywell UOP (Ecofining (with Eni)); Topsoe (HydroFlex); Axens (Vegan) |  |
 | [Resid hydrocracking (ebullated and slurry bed)](#ref-resid-hydrocracking) | Conversion / residue upgrading | commercial |  | Eni (EST); Axens (H-Oil); Chevron Lummus Global (LC-FINING); KBR (VCC) |  |
+| [Sour water stripping and amine regeneration](#ref-sour-water-stripping) | Refining / utilities | commercial |  | Bechtel (sour water stripping design) |  |
+| [Visbreaking and solvent deasphalting](#ref-visbreaking-sda) | Refining / residue upgrading | commercial |  | KBR (ROSE solvent deasphalting); Koch-Glitsch (extractor internals); Shell (visbreaking (register examples; not verified)); Axens (register examples; not verified) |  |
+| [Wastewater treatment (API separators, DAF, biological, MBR)](#ref-wastewater-treatment) | Refining / environment | commercial |  | Veolia (register examples; not verified); Suez (register examples; not verified) | capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d |
 | [Alcohol-to-jet SAF](#ref-alcohol-to-jet) | Low-carbon fuels / SAF | demonstration | 8 | LanzaJet; Honeywell UOP (ethanol-to-jet); Gevo |  |
+| [Direct crude cracking](#ref-direct-crude-cracking) | Crude-to-chemicals | demonstration |  | ExxonMobil (Singapore crude-cracking steam cracker); Saudi Aramco (TC2C (with Lummus and CLG)); Lummus Technology (TC2C); Chevron Lummus Global (TC2C) |  |
+| [Green hydrogen in refineries](#ref-green-hydrogen) | Low-carbon refining | demonstration | 9 | ITM Power (10 MW PEM electrolyser for Shell Rheinland); Shell (REFHYNE operator) |  |
+| [Refinery electrification and heat pumps](#ref-electrification-heat-pumps) | Low-carbon refining | demonstration | 6-9 | BASF, SABIC, Linde (electric steam-cracker furnace demonstration) |  |
+| [Refinery flue gas and FCC carbon capture](#ref-flue-gas-carbon-capture) | Low-carbon refining | demonstration | 5 | Shell (Pernis refinery (Porthos customer)); ExxonMobil (Porthos customer) |  |
+
+## Advanced process control and real-time optimisation
+<a id="ref-apc-rto"></a>
+
+Model-predictive controllers push units against constraints automatically, and real-time optimisation updates targets from plant models. Yokogawa's APC at Shell Deer Park's gas oil hydrotreater (2013) maximises ULSD output, controls reactor temperature and balances fractionator heater passes.
+
+```mermaid
+flowchart LR
+    MOD["Step tests and model identification<br/><small>historian, step-test tools</small>"]
+    CTL["Online multivariable controller<br/><small>APC server, DCS interface</small>"]
+    OPT["Optimiser sets targets<br/><small>optimiser</small>"]
+    MOD --> CTL
+    CTL --> OPT
+```
+
+**Key equipment:** APC server, DCS interface, plant historian, inferential models, real-time optimiser.
+
+**Performance:**
+- payback time of the Deer Park GOHT APC: 3 months; Yokogawa reference; project 8% under budget; benefit 198% greater than the original estimate. [source](https://www.yokogawa.com/sa-es/library/resources/references/suc-shell-deerpark-apc-gasoil-hydrotreater/)
+
+**Missing inputs:**
+- independent benefit studies across refineries (performance): One vendor reference. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add an independent review.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.yokogawa.com/sa-es/library/resources/references/suc-shell-deerpark-apc-gasoil-hydrotreater/). Last reviewed 2026-10-25.
 
 ## Alkylation (HF, sulfuric, ionic liquid, solid acid)
 <a id="ref-alkylation"></a>
@@ -219,6 +261,98 @@ flowchart LR
 
 Sources: [1](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refining.pdf), [2](https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/). Last reviewed 2026-10-24.
 
+## Etherification (MTBE, ETBE, TAME)
+<a id="ref-etherification"></a>
+
+Reactive isobutylene (from FCC or steam cracker C4) or isoamylenes (from light FCC naphtha) are reacted with methanol or ethanol over an acid resin catalyst to make high-octane ethers. Axens combines expanded-bed reactors with Catacol reactive distillation. Isobutylene can be recovered again by back-cracking MTBE.
+
+```mermaid
+flowchart LR
+    FEED["C4 or C5 olefin cut plus alcohol<br/><small>feed treating</small>"]
+    RX["Etherification reactors<br/><small>expanded-bed reactors</small>"]
+    RD["Reactive distillation (Catacol)<br/><small>reactive distillation column</small>"]
+    PRD["Ether product and raffinate<br/><small>methanol recovery</small>"]
+    FEED --> RX
+    RX --> RD
+    RD --> PRD
+```
+
+**Key equipment:** expanded-bed reactors, reactive distillation column, alcohol recovery.
+
+**Performance:**
+- MTBE-mode conversion: 99.9 %; Axens claim for MTBE/ETBE with Catacol. [source](https://www.axens.net/markets/oil-refining/etherification)
+- MTBE back-cracking per-pass conversion: 88 %; Axens Isobutely, isobutylene purity 99.9%+. [source](https://www.axens.net/markets/oil-refining/etherification)
+
+**Missing inputs:**
+- Lummus CDEthers (suppliers): The Lummus page was a search result and was not read. Where: Lummus CDEthers page (catalog: lummus, open). Next: Add Lummus figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.axens.net/markets/oil-refining/etherification). Last reviewed 2026-10-25.
+
+## FCC gasoline post-treating (Prime-G+, SCANfining)
+<a id="ref-fcc-gasoline-post-treating"></a>
+
+FCC gasoline carries most of a refinery's gasoline-pool sulfur and most of its olefins, which supply octane. Post-treating removes sulfur with limited octane loss. In Axens Prime-G+ a first-step selective hydrogenation unit makes an olefin-rich light cracked naphtha, a naphtha splitter is optional, and the sulfur-rich heavy cracked naphtha goes to selective hydrodesulfurisation.
+
+```mermaid
+flowchart LR
+    SHU["Selective hydrogenation (first step)<br/><small>selective hydrogenation reactor</small>"]
+    SPL["Naphtha splitting (optional)<br/><small>splitter</small>"]
+    LCN["Light naphtha sweetening or TAME/TAEE etherification<br/><small>sweetening unit, etherification unit</small>"]
+    HCN["Selective hydrodesulfurisation<br/><small>HDS reactors, H2 recycle</small>"]
+    STB["Stabiliser<br/><small>stabiliser column</small>"]
+    SHU --> SPL
+    SPL -->|light cracked naphtha| LCN
+    SPL -->|heavy cracked naphtha| HCN
+    HCN --> STB
+```
+
+**Key equipment:** selective hydrogenation reactor, HDS reactors, naphtha splitter, hydrogen recycle compressor, stabiliser.
+
+**Performance:**
+- FCC gasoline sulfur from first units: up to 10 wppm; Axens says it was first to start up units producing FCC gasoline at 10 wppm. [source](https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating)
+- licensed units: 300 units; Axens: over 300 Prime-G+ units; licensed capacity above 7,350,000 BPSD. [source](https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating)
+
+**Missing inputs:**
+- octane loss and hydrogen consumption (performance): The Axens page gives no figures. Where: Axens technical papers (catalog: axens, open); SCANfining ExxonMobil literature (catalog: exxonmobil-catalysts, open). Next: Add them from a licensor paper.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating). Last reviewed 2026-10-25.
+
+## Flare gas recovery and smokeless flares
+<a id="ref-flare-systems"></a>
+
+Elevated flares burn relief and vent gas at the tip of a stack 10 to over 100 m tall, using steam or air assistance for smokeless burning; ground flares burn at ground level, often in enclosures. EPA's AP-42 says properly operated flares achieve at least 98% destruction efficiency, with refinery flares needing at least 270 Btu/ft3 net heating value in the combustion zone. Flare gas recovery compressors return routine flow to fuel gas; see the upstream flare gas recovery card.
+
+```mermaid
+flowchart LR
+    HDR["Flare header and knock-out drum<br/><small>knock-out drum, seal drum</small>"]
+    TIP["Flare tip with steam or air assistance<br/><small>steam-assisted tip, air-assisted blower</small>"]
+    FGR["Flare gas recovery compressor (optional)<br/><small>liquid-ring or screw compressor</small>"]
+    HDR --> TIP
+```
+
+**Key equipment:** flare stack and tip, knock-out and seal drums, steam or air assist, pilots and ignition, flare gas recovery compressors.
+
+**Performance:**
+- destruction efficiency of properly operated flares: 98 %; EPA AP-42; 96.5% combustion efficiency roughly equals 98% destruction. [source](https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf)
+- NOx emission factor, elevated flares: 0.068 lb/10^6 Btu; EPA AP-42. [source](https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf)
+
+**Missing inputs:**
+- Zeeco and John Zink product pages (suppliers): Search results only. Where: Zeeco and John Zink flare brochures (catalog: john-zink, open). Next: Add models and capacities.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf). Last reviewed 2026-10-25.
+
 ## Fluid catalytic cracking and resid FCC
 <a id="ref-fcc"></a>
 
@@ -357,6 +491,96 @@ flowchart LR
 
 Sources: [1](https://www.axens.net/markets/oil-refining/c5c6-isomerization). Last reviewed 2026-10-24.
 
+## Mercaptan sweetening (Merox)
+<a id="ref-merox-sweetening"></a>
+
+Merox converts malodorous mercaptans to disulfides (4 RSH + O2 -> 2 RSSR + 2 H2O) over a catalyst in alkaline conditions. For LPG and light naphtha, an extraction variant uses caustic to pull mercaptans out and air regenerates the caustic. For kerosene and jet fuel, a fixed-bed sweetening variant oxidises them in place on catalyst-impregnated charcoal.
+
+```mermaid
+flowchart LR
+    PRE["Caustic prewash to remove H2S<br/><small>prewash vessel</small>"]
+    EXT["Extraction of mercaptans into caustic (LPG, light naphtha)<br/><small>extractor</small>"]
+    OX["Air oxidation of spent caustic to disulfides<br/><small>oxidiser, disulfide separator</small>"]
+    BED["Fixed-bed sweetening (kerosene, jet)<br/><small>catalyst bed, caustic injection</small>"]
+    WSH["Water wash, salt dryer and clay filter<br/><small>water wash, salt bed, clay filter</small>"]
+    PRE --> EXT
+    EXT --> OX
+    BED --> WSH
+```
+
+**Key equipment:** prewash, extractor, oxidiser, disulfide separator, fixed catalyst bed, salt dryer, clay filter.
+
+**Performance:**
+- jet fuel sulfur limit mentioned: up to 3000 ppm; sweetening is usually enough for straight-run kerosene to meet it; the page gives no treated-product mercaptan figure. [source](https://en.wikipedia.org/wiki/Merox)
+
+**Missing inputs:**
+- UOP's own Merox documentation (suppliers): Only a secondary source (Wikipedia) was read. Where: Honeywell UOP Merox page (catalog: honeywell-uop, open). Next: Replace with the licensor page.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://en.wikipedia.org/wiki/Merox). Last reviewed 2026-10-25.
+
+## Process simulation and digital twins
+<a id="ref-process-simulation-digital-twin"></a>
+
+Rigorous steady-state and dynamic models of units or whole refineries are used for design, planning and what-if studies, and are kept in step with plant data to act as a digital twin. At KIPIC's Al Zour refinery a refinery-wide Aspen HYSYS model supported start-up planning, crude-blend forecasting, sulfur recovery and kerosene yield optimisation and the case study reports USD 950,000 in savings.
+
+```mermaid
+flowchart LR
+    BLD["Build and calibrate model from plant data<br/><small>simulator, data historian</small>"]
+    USE["What-if, planning and online use<br/><small>simulator, optimisation tools</small>"]
+    BLD --> USE
+```
+
+**Key equipment:** process simulator, plant historian, model calibration tools.
+
+**Performance:**
+- savings reported at Al Zour: 0.95 USD million; AspenTech case study, not broken down; refinery capacity 615,000 bpd. [source](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery)
+
+**Missing inputs:**
+- independent evidence of benefits (performance): One vendor case study. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add an independent study.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery). Last reviewed 2026-10-25.
+
+## Refinery-petrochemical integration (FCC propylene, HS-FCC)
+<a id="ref-petrochemical-integration"></a>
+
+Refineries shift FCC conditions and catalyst to make more propylene and other light olefins for petrochemicals. High-severity FCC (HS-FCC) uses a downflow reactor, about 600 degC, short contact time and a catalyst-to-oil ratio above 30, which gives conversion above 80 wt% and about 20 wt% propylene in pilot tests with ZSM-5 additive on untreated VGO.
+
+```mermaid
+flowchart LR
+    FEED["Heavy feed (VGO or residue)<br/><small>feed preheater</small>"]
+    RX["Downflow reactor at high severity<br/><small>downer reactor, catalyst regenerator</small>"]
+    FRAC["Fractionation and gas plant<br/><small>main fractionator, gas concentration unit</small>"]
+    PP["Propylene and light olefins to petrochemical units<br/><small>C3 splitter</small>"]
+    FEED --> RX
+    RX --> FRAC
+    FRAC --> PP
+```
+
+**Key equipment:** downer reactor, catalyst regenerator, main fractionator, gas plant, propylene splitter.
+
+**Performance:**
+- propylene yield, pilot plant with ZSM-5 additive: 20 wt%; 600 degC, untreated VGO; demo plant 13 wt% propylene in low-sulfur fuel oil blend tests. [source](https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene)
+- conversion at catalyst-to-oil above 30: 80 wt%; both pilot and demonstration plants. [source](https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene)
+
+**Reference plants:**
+- HS-FCC demonstration plant near Ras Tanura refinery (30 b/d; 5,000 b/d planned at the time), SA: 30 b/d; . [source](https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene)
+
+**Missing inputs:**
+- commercial HS-FCC units and conventional FCC propylene units (reference_plants): Only the demonstration plant was read. Where: Axens FCC and Honeywell UOP PetroFCC pages (catalog: axens, open). Next: Add commercial references.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene). Last reviewed 2026-10-25.
+
 ## Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA)
 <a id="ref-hefa"></a>
 
@@ -428,6 +652,97 @@ flowchart LR
 
 Sources: [1](https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf). Last reviewed 2026-10-24.
 
+## Sour water stripping and amine regeneration
+<a id="ref-sour-water-stripping"></a>
+
+Refinery sour water, which carries H2S and NH3 from hydroprocessing and coking, is flashed, then steam-stripped in a column. Stripped water returns to the refinery and the H2S and NH3 overhead goes to the sulfur recovery unit. Rich refinery amine from fuel gas and LPG treating is regenerated in a similar steam-stripping loop.
+
+```mermaid
+flowchart LR
+    FL["Flash drum and feed preparation tank<br/><small>flash drum, feed prep tank</small>"]
+    EX["Feed/bottoms exchange<br/><small>feed/bottoms exchanger</small>"]
+    STR["Stripper<br/><small>stripper column, reboiler</small>"]
+    SW["Stripped water cooling and return<br/><small>stripped water cooler</small>"]
+    OVH["Overhead to sulfur recovery<br/><small>overhead condenser or pump-around cooler</small>"]
+    FL --> EX
+    EX --> STR
+    STR -->|stripped water| SW
+    STR -->|H2S and NH3 overhead| OVH
+```
+
+**Key equipment:** flash drum, stripper column, reboiler, feed/bottoms exchanger, overhead condenser.
+
+**Missing inputs:**
+- stripped water NH3 and H2S specifications, one- versus two-stage design (performance): The Bechtel page gives none. Where: Sour water stripper design papers (catalog: aiche-spring, open). Next: Add specs and the two-stage option.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.bechtel.com/services/petrochemicals/bhts/sulfur/sour-water-stripping/). Last reviewed 2026-10-25.
+
+## Visbreaking and solvent deasphalting
+<a id="ref-visbreaking-sda"></a>
+
+Visbreaking mildly thermally cracks vacuum residue to cut its viscosity so less cutter stock is needed for fuel oil. Solvent deasphalting extracts deasphalted oil (DAO) from residue with a light hydrocarbon solvent, leaving asphaltenes or pitch; KBR's ROSE uses supercritical solvent recovery. DAO feeds FCC, hydrocrackers or lube plants.
+
+```mermaid
+flowchart LR
+    FEED["Vacuum residue feed<br/><small>feed heater</small>"]
+    EXT["Solvent extraction (ROSE)<br/><small>extractor with internals, supercritical solvent recovery</small>"]
+    DAO["DAO to FCC, hydrocracker or lube plant"]
+    ASP["Asphaltenes to fuel oil, asphalt, coker, POX or pellets<br/><small>Aquaform pelletiser</small>"]
+    FEED --> EXT
+    EXT -->|deasphalted oil| DAO
+    EXT -->|asphaltenes| ASP
+```
+
+**Key equipment:** extractor with Lubemax (trays) or Rosemax (packing) internals, solvent recovery, visbreaker furnace and soaker.
+
+**Performance:**
+- DAO yield increase from Rosemax internals: 1 % of feed; KBR article claim, at maximum extraction; Rosemax 20 to 30% more capacity than random packing. [source](https://www.digitalrefining.com/article/1000691/processing-heavy-ends-part-ii)
+- coke make reduction when coking ROSE asphaltenes instead of vacuum residue: 10-20 %; KBR article. [source](https://www.digitalrefining.com/article/1000691/processing-heavy-ends-part-ii)
+
+**Missing inputs:**
+- visbreaker conversion, yields and stability limits; SDA solvent and conditions (performance): The page read gives only one sentence on visbreaking. Where: Shell visbreaking and Axens documents (catalog: axens, open). Next: Add a visbreaking source and operating data.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.digitalrefining.com/article/1000691/processing-heavy-ends-part-ii). Last reviewed 2026-10-25.
+
+## Wastewater treatment (API separators, DAF, biological, MBR)
+<a id="ref-wastewater-treatment"></a>
+
+Refinery effluent passes through an API gravity separator, then dissolved air flotation with coagulant and polymer, and usually biological treatment; a membrane bioreactor (MBR) is the high-quality option. A 2023 study of the Kawrgosk refinery measured API at about 17 to 18% oil and grease removal and DAF at 85 to 86%, giving about 90% combined, and modelled MBR at above 90% COD removal.
+
+```mermaid
+flowchart LR
+    API["API separator<br/><small>API oil/water separator</small>"]
+    DAF["Dissolved air flotation with coagulant and polymer<br/><small>DAF unit</small>"]
+    BIO["Biological treatment or MBR<br/><small>aeration basin, membrane bioreactor</small>"]
+    API --> DAF
+    DAF --> BIO
+```
+
+**Key equipment:** API separator, DAF unit, chemical dosing, biological reactor or MBR, sludge handling.
+
+**Performance:**
+- oil and grease removal, API separator then DAF: 90 %; Kawrgosk refinery data March to June 2022; API 17 to 18%, DAF 85 to 86%; treated O&G below 50 mg/L. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940)
+- COD removal, API plus DAF: 75 %; same study; MBR projected above 90%. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940)
+- specific energy, API plus DAF versus MBR: 0.091-0.857 kWh/m3; low = API+DAF, high = MBR (modelled). [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940)
+
+**Costs:**
+- capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d; 2023 USD, 1,800 m3/d plant; API 255 plus DAF 815 = 1,070 (low); MBR 6,870 (high); MBR costs modelled from published data. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940)
+
+**Missing inputs:**
+- operators other than the Kawrgosk study (reference_plants): One refinery study. Where: Veolia and Suez references (open). Next: Add suppliers' plants.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940). Last reviewed 2026-10-25.
+
 ## Alcohol-to-jet SAF
 <a id="ref-alcohol-to-jet"></a>
 
@@ -460,3 +775,126 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 - minimum fuel selling price (USD/gal) and yield per gallon of ethanol (costs): PNNL/NREL alcohol-to-jet analyses are on osti.gov, which the collector cannot reach. The DOE SAF Grand Challenge Roadmap (2022) and Implementation Framework (2024) were collected and checked: they give only the USD 1.25-1.75/gal tax credit, not a production cost. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); PNNL alcohol-to-jet reports (catalog: pnnl, open). Next: Collect the NREL/PNNL techno-economic reports when osti.gov is reachable (or download them by hand into corpus/_inbox/osti/); add yield and minimum selling price with dollar year. Blocked by: osti.gov reachable from the Mac.
 
 Sources: [1](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/). Last reviewed 2026-10-24.
+
+## Direct crude cracking
+<a id="ref-direct-crude-cracking"></a>
+
+Crude oil, or a light fraction of it, is sent directly to a steam cracker to make olefins and aromatics, skipping some or all of the conventional distillation and conversion steps. ExxonMobil's Singapore cracker started up in 2013 as the first to process crude directly. Saudi Aramco, Lummus and Chevron Lummus Global developed TC2C, which uses steam dilution to vaporise a light cut for the cracker, hydroprocesses a heart cut, and converts the heaviest fraction in liquid-circulation reactors.
+
+```mermaid
+flowchart LR
+    SEP["Crude separation (flash or specialised devices)<br/><small>separation devices</small>"]
+    SC["Light cut to steam cracker<br/><small>steam cracker</small>"]
+    HC["Heart cut hydroprocessing (about C20-C35)<br/><small>fixed-bed hydroprocessing</small>"]
+    RES["Heaviest fraction (C35+) to liquid-circulation reactors<br/><small>LC reactor</small>"]
+    SEP --> SC
+    SEP --> HC
+    SEP --> RES
+    HC --> SC
+```
+
+**Key equipment:** steam cracker, separation devices (TC2C), hydroprocessing reactors, liquid-circulation reactors.
+
+**Performance:**
+- slurry hydrocracking residue conversion in TC2C: 97 %; more than 97% of residue; LC reactors can run more than five years. [source](https://digitalrefining.com/article/1003050/crude-to-chemicals-part-2)
+
+**Reference plants:**
+- ExxonMobil Singapore crude-cracking steam cracker, Jurong Island, SG: 1 Mtpa steam cracker; started mid-2013; formally launched 2014. [source](https://chemanager-online.com/en/node/399006)
+
+**Missing inputs:**
+- chemicals yield as percent of crude for TC2C and ExxonMobil (performance): Neither article gives it. Where: Saudi Aramco and Lummus papers (catalog: saudi-aramco-tech, open). Next: Add yields.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://chemanager-online.com/en/node/399006), [2](https://digitalrefining.com/article/1003050/crude-to-chemicals-part-2). Last reviewed 2026-10-25.
+
+## Green hydrogen in refineries
+<a id="ref-green-hydrogen"></a>
+
+A PEM electrolyser on renewable electricity supplies hydrogen to refinery hydroprocessing in place of some steam-reformer hydrogen. Shell's REFHYNE at its Rheinland site is a 10 MW PEM unit built by ITM Power, producing up to 1,300 t/yr, with expansion to 100 MW planned.
+
+```mermaid
+flowchart LR
+    PWR["Renewable power<br/><small>rectifier</small>"]
+    EL["PEM electrolysis<br/><small>PEM stacks, water treatment</small>"]
+    H2["Hydrogen to refinery header<br/><small>compressor, piping</small>"]
+    PWR --> EL
+    EL --> H2
+```
+
+**Key equipment:** PEM electrolyser, water treatment, rectifier, hydrogen compressor.
+
+**Performance:**
+- REFHYNE hydrogen output: up to 1300 t/yr; 10 MW PEM; plans for 100 MW at Rheinland. [source](https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/)
+
+**Reference plants:**
+- REFHYNE, Shell Energy and Chemicals Park Rheinland, DE: 10 MW PEM, up to 1,300 t/yr H2; . [source](https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Polymer electrolyte membrane electrolyser' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- electrolyser capital cost and hydrogen cost at the refinery (costs): The article gives none. Where: IEA Global Hydrogen Review (catalog: iea-reports, open); IRENA electrolyser cost reports (catalog: irena, open). Next: Add cost figures.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/). Last reviewed 2026-10-25.
+
+## Refinery electrification and heat pumps
+<a id="ref-electrification-heat-pumps"></a>
+
+Fired heaters and boilers are replaced by electric heating, and low-temperature process heat is lifted with heat pumps. Evidence read here is for electric steam-cracker furnaces: BASF, SABIC and Linde started a demonstration at Ludwigshafen in April 2024 with two electrically heated furnaces, 6 MW of renewable power and about 4 t/h of feed, targeting 90% lower emissions.
+
+```mermaid
+flowchart LR
+    PWR["Renewable electricity supply<br/><small>transformers, power electronics</small>"]
+    HT["Electric heating of process fluid or furnace<br/><small>electric furnace, heat pump</small>"]
+    PWR --> HT
+```
+
+**Key equipment:** electric furnace coils, high-temperature heat pump, power electronics, electric boilers.
+
+**Performance:**
+- emission reduction target of the electric furnace demonstration: 90 %; target, not a measured result at the time of the article. [source](https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/)
+- demonstration power and feed: 6 MW; about 4 t/h of hydrocarbon feed across two furnaces; start 17 April 2024. [source](https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'High value chemicals production using steam cracker electrification' 6 (2025); 'Large-scale heat pump (low temperature heating)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- refinery (not petrochemical) electrification and heat-pump installations (reference_plants): The source read is about a steam cracker. Where: Refinery operator announcements (open). Next: Add refinery references.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/). Last reviewed 2026-10-25.
+
+## Refinery flue gas and FCC carbon capture
+<a id="ref-flue-gas-carbon-capture"></a>
+
+CO2 is captured from refinery combustion and FCC regenerator flue gas, usually with amine absorption, then compressed for storage. IEA lists post-combustion and oxy-fuel capture for cracking units at TRL 5. In the Netherlands the Porthos system will carry CO2 from Shell's Pernis refinery and three other industrial customers to depleted gas fields.
+
+```mermaid
+flowchart LR
+    FLU["Flue gas conditioning<br/><small>quench, flue gas blower</small>"]
+    ABS["Amine absorption<br/><small>absorber</small>"]
+    REG["Regeneration and CO2 compression<br/><small>stripper, compressor</small>"]
+    TS["Transport and storage<br/><small>pipeline, offshore injection</small>"]
+    FLU --> ABS
+    ABS --> REG
+    REG --> TS
+```
+
+**Key equipment:** flue gas quench and blower, absorber, stripper, CO2 compressors, transport pipeline.
+
+**Performance:**
+- Porthos CO2 transport and storage: 2.5 Mtpa; 37 Mt over 15 years; compressed from 35 bar up to 130 bar; stored about 3 km below the sea surface in depleted fields P18-2, P18-4, P18-6. [source](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape)
+
+**Reference plants:**
+- Porthos CO2 transport and storage, Rotterdam (Pernis refinery is a source), NL: 2.5 Mtpa; works from 2024, operational expected 2026 per the article. [source](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Post-combustion carbon capture (cracking)' 5 (2025); 'Oxy-fuelling carbon capture (cracking)' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- capture rate, energy penalty and cost of FCC flue gas capture (performance): No source read describes the capture unit. Where: Shell Pernis and Aramis project documents (open); IEAGHG refinery capture reports (catalog: iea-ghg, open). Next: Add capture figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape). Last reviewed 2026-10-25.

@@ -1,0 +1,196 @@
+{
+  "id": "ref-direct-crude-cracking",
+  "name": "Direct crude cracking",
+  "aliases": [
+    "crude to chemicals",
+    "TC2C",
+    "crude cracking"
+  ],
+  "sector": "REF",
+  "category": "Crude-to-chemicals",
+  "applications": [
+    "olefins and aromatics from crude",
+    "integrated refineries"
+  ],
+  "maturity": "demonstration",
+  "principle": "Crude oil, or a light fraction of it, is sent directly to a steam cracker to make olefins and aromatics, skipping some or all of the conventional distillation and conversion steps. ExxonMobil's Singapore cracker started up in 2013 as the first to process crude directly. Saudi Aramco, Lummus and Chevron Lummus Global developed TC2C, which uses steam dilution to vaporise a light cut for the cracker, hydroprocesses a heart cut, and converts the heaviest fraction in liquid-circulation reactors.",
+  "process_steps": [
+    {
+      "id": "SEP",
+      "name": "Crude separation (flash or specialised devices)",
+      "equipment": [
+        "separation devices"
+      ],
+      "to": [
+        "SC",
+        "HC",
+        "RES"
+      ]
+    },
+    {
+      "id": "SC",
+      "name": "Light cut to steam cracker",
+      "equipment": [
+        "steam cracker"
+      ],
+      "to": []
+    },
+    {
+      "id": "HC",
+      "name": "Heart cut hydroprocessing (about C20-C35)",
+      "equipment": [
+        "fixed-bed hydroprocessing"
+      ],
+      "to": [
+        "SC"
+      ]
+    },
+    {
+      "id": "RES",
+      "name": "Heaviest fraction (C35+) to liquid-circulation reactors",
+      "equipment": [
+        "LC reactor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "steam cracker",
+    "separation devices (TC2C)",
+    "hydroprocessing reactors",
+    "liquid-circulation reactors"
+  ],
+  "suppliers": [
+    {
+      "name": "ExxonMobil",
+      "product": "Singapore crude-cracking steam cracker"
+    },
+    {
+      "name": "Saudi Aramco",
+      "product": "TC2C (with Lummus and CLG)",
+      "source_id": "saudi-aramco-tech"
+    },
+    {
+      "name": "Lummus Technology",
+      "product": "TC2C",
+      "source_id": "lummus"
+    },
+    {
+      "name": "Chevron Lummus Global",
+      "product": "TC2C",
+      "source_id": "chevron-lummus-global"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "slurry hydrocracking residue conversion in TC2C",
+      "unit": "%",
+      "basis": "more than 97% of residue; LC reactors can run more than five years",
+      "source": {
+        "url": "https://digitalrefining.com/article/1003050/crude-to-chemicals-part-2",
+        "source_id": "ptq-digital-refining",
+        "note": "PTQ / Digital Refining, Crude to chemicals Part 2 (Saudi Aramco TC2C)"
+      },
+      "low": 97
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "ExxonMobil Singapore crude-cracking steam cracker, Jurong Island",
+      "country": "SG",
+      "capacity": "1 Mtpa steam cracker",
+      "status": "started mid-2013; formally launched 2014",
+      "year": 2013,
+      "source": {
+        "url": "https://chemanager-online.com/en/node/399006",
+        "note": "CHEManager, Exxon starts world's first crude-cracking petrochemical unit (Singapore, 2014)"
+      }
+    }
+  ],
+  "advantages": [
+    "Lower raw-material cost claimed (Brent more than USD 160 per tonne below Asian naphtha in the article)",
+    "Feed-flexible cracker"
+  ],
+  "limitations": [
+    "ExxonMobil would not quantify its savings",
+    "TC2C chemicals yield not stated in the article read"
+  ],
+  "sources": [
+    {
+      "url": "https://chemanager-online.com/en/node/399006",
+      "note": "CHEManager, Exxon starts world's first crude-cracking petrochemical unit (Singapore, 2014)"
+    },
+    {
+      "url": "https://digitalrefining.com/article/1003050/crude-to-chemicals-part-2",
+      "source_id": "ptq-digital-refining",
+      "note": "PTQ / Digital Refining, Crude to chemicals Part 2 (Saudi Aramco TC2C)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "chemicals yield as percent of crude for TC2C and ExxonMobil",
+      "reason_code": "not_in_sources_read",
+      "reason": "Neither article gives it.",
+      "where": [
+        {
+          "hint": "Saudi Aramco and Lummus papers",
+          "access": "open",
+          "source_id": "saudi-aramco-tech"
+        }
+      ],
+      "action": "Add yields."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

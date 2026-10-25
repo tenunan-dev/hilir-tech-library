@@ -1,0 +1,169 @@
+{
+  "id": "ref-process-simulation-digital-twin",
+  "name": "Process simulation and digital twins",
+  "aliases": [
+    "digital twin",
+    "process simulation",
+    "Aspen HYSYS",
+    "Petro-SIM"
+  ],
+  "sector": "REF",
+  "category": "Refining / digital",
+  "applications": [
+    "refinery planning",
+    "start-up",
+    "debottlenecking"
+  ],
+  "maturity": "commercial",
+  "principle": "Rigorous steady-state and dynamic models of units or whole refineries are used for design, planning and what-if studies, and are kept in step with plant data to act as a digital twin. At KIPIC's Al Zour refinery a refinery-wide Aspen HYSYS model supported start-up planning, crude-blend forecasting, sulfur recovery and kerosene yield optimisation and the case study reports USD 950,000 in savings.",
+  "process_steps": [
+    {
+      "id": "BLD",
+      "name": "Build and calibrate model from plant data",
+      "equipment": [
+        "simulator",
+        "data historian"
+      ],
+      "to": [
+        "USE"
+      ]
+    },
+    {
+      "id": "USE",
+      "name": "What-if, planning and online use",
+      "equipment": [
+        "simulator",
+        "optimisation tools"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "process simulator",
+    "plant historian",
+    "model calibration tools"
+  ],
+  "suppliers": [
+    {
+      "name": "AspenTech",
+      "product": "Aspen HYSYS",
+      "source_id": "aspentech"
+    },
+    {
+      "name": "AVEVA",
+      "product": "register examples",
+      "source_id": "schneider-aveva"
+    },
+    {
+      "name": "KBC",
+      "product": "Petro-SIM (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "savings reported at Al Zour",
+      "unit": "USD million",
+      "basis": "AspenTech case study, not broken down; refinery capacity 615,000 bpd",
+      "source": {
+        "url": "https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery",
+        "source_id": "aspentech",
+        "note": "AspenTech case study, refinery-wide simulation in Aspen HYSYS at KIPIC Al Zour"
+      },
+      "low": 0.95,
+      "high": 0.95
+    }
+  ],
+  "advantages": [
+    "What-if analysis for real-time decisions"
+  ],
+  "limitations": [
+    "Vendor case study; no independent verification"
+  ],
+  "sources": [
+    {
+      "url": "https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery",
+      "source_id": "aspentech",
+      "note": "AspenTech case study, refinery-wide simulation in Aspen HYSYS at KIPIC Al Zour"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "independent evidence of benefits",
+      "reason_code": "not_in_sources_read",
+      "reason": "One vendor case study.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        }
+      ],
+      "action": "Add an independent study."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

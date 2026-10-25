@@ -1,0 +1,209 @@
+{
+  "id": "ref-petrochemical-integration",
+  "name": "Refinery-petrochemical integration (FCC propylene, HS-FCC)",
+  "aliases": [
+    "HS-FCC",
+    "high severity FCC",
+    "FCC propylene",
+    "petrochemical FCC"
+  ],
+  "sector": "REF",
+  "category": "Refining / petrochemical integration",
+  "applications": [
+    "propylene-rich refineries"
+  ],
+  "maturity": "commercial",
+  "principle": "Refineries shift FCC conditions and catalyst to make more propylene and other light olefins for petrochemicals. High-severity FCC (HS-FCC) uses a downflow reactor, about 600 degC, short contact time and a catalyst-to-oil ratio above 30, which gives conversion above 80 wt% and about 20 wt% propylene in pilot tests with ZSM-5 additive on untreated VGO.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Heavy feed (VGO or residue)",
+      "equipment": [
+        "feed preheater"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Downflow reactor at high severity",
+      "equipment": [
+        "downer reactor",
+        "catalyst regenerator"
+      ],
+      "to": [
+        "FRAC"
+      ]
+    },
+    {
+      "id": "FRAC",
+      "name": "Fractionation and gas plant",
+      "equipment": [
+        "main fractionator",
+        "gas concentration unit"
+      ],
+      "to": [
+        "PP"
+      ]
+    },
+    {
+      "id": "PP",
+      "name": "Propylene and light olefins to petrochemical units",
+      "equipment": [
+        "C3 splitter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "downer reactor",
+    "catalyst regenerator",
+    "main fractionator",
+    "gas plant",
+    "propylene splitter"
+  ],
+  "suppliers": [
+    {
+      "name": "Axens",
+      "product": "HS-FCC licensing (with Shaw, search result not read)",
+      "source_id": "axens"
+    },
+    {
+      "name": "Chiyoda",
+      "product": "built the 30 b/d demonstration plant",
+      "source_id": "chiyoda"
+    },
+    {
+      "name": "Saudi Aramco",
+      "product": "HS-FCC development with KFUPM and JX Nippon Oil",
+      "source_id": "saudi-aramco-tech"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "register examples; not verified"
+    },
+    {
+      "name": "KBR",
+      "product": "register examples; not verified",
+      "source_id": "kbr-technology"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "propylene yield, pilot plant with ZSM-5 additive",
+      "unit": "wt%",
+      "basis": "600 degC, untreated VGO; demo plant 13 wt% propylene in low-sulfur fuel oil blend tests",
+      "source": {
+        "url": "https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Demonstration plant for new FCC technology yields increased propylene"
+      },
+      "low": 20,
+      "high": 20
+    },
+    {
+      "metric": "conversion at catalyst-to-oil above 30",
+      "unit": "wt%",
+      "basis": "both pilot and demonstration plants",
+      "source": {
+        "url": "https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Demonstration plant for new FCC technology yields increased propylene"
+      },
+      "low": 80
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "HS-FCC demonstration plant near Ras Tanura refinery (30 b/d; 5,000 b/d planned at the time)",
+      "country": "SA",
+      "capacity": "30 b/d",
+      "source": {
+        "url": "https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Demonstration plant for new FCC technology yields increased propylene"
+      }
+    }
+  ],
+  "advantages": [
+    "More propylene from the existing refinery"
+  ],
+  "limitations": [
+    "Start-up year of the demonstration is not stated in the article read"
+  ],
+  "sources": [
+    {
+      "url": "https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, Demonstration plant for new FCC technology yields increased propylene"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "commercial HS-FCC units and conventional FCC propylene units",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only the demonstration plant was read.",
+      "where": [
+        {
+          "hint": "Axens FCC and Honeywell UOP PetroFCC pages",
+          "access": "open",
+          "source_id": "axens"
+        }
+      ],
+      "action": "Add commercial references."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

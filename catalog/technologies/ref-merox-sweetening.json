@@ -1,0 +1,196 @@
+{
+  "id": "ref-merox-sweetening",
+  "name": "Mercaptan sweetening (Merox)",
+  "aliases": [
+    "Merox",
+    "mercaptan oxidation",
+    "Minalk"
+  ],
+  "sector": "REF",
+  "category": "Refining / treating",
+  "applications": [
+    "LPG",
+    "light naphtha",
+    "kerosene and jet fuel"
+  ],
+  "maturity": "commercial",
+  "principle": "Merox converts malodorous mercaptans to disulfides (4 RSH + O2 -> 2 RSSR + 2 H2O) over a catalyst in alkaline conditions. For LPG and light naphtha, an extraction variant uses caustic to pull mercaptans out and air regenerates the caustic. For kerosene and jet fuel, a fixed-bed sweetening variant oxidises them in place on catalyst-impregnated charcoal.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Caustic prewash to remove H2S",
+      "equipment": [
+        "prewash vessel"
+      ],
+      "to": [
+        "EXT"
+      ]
+    },
+    {
+      "id": "EXT",
+      "name": "Extraction of mercaptans into caustic (LPG, light naphtha)",
+      "equipment": [
+        "extractor"
+      ],
+      "to": [
+        "OX"
+      ]
+    },
+    {
+      "id": "OX",
+      "name": "Air oxidation of spent caustic to disulfides",
+      "equipment": [
+        "oxidiser",
+        "disulfide separator"
+      ],
+      "to": []
+    },
+    {
+      "id": "BED",
+      "name": "Fixed-bed sweetening (kerosene, jet)",
+      "equipment": [
+        "catalyst bed",
+        "caustic injection"
+      ],
+      "to": [
+        "WSH"
+      ]
+    },
+    {
+      "id": "WSH",
+      "name": "Water wash, salt dryer and clay filter",
+      "equipment": [
+        "water wash",
+        "salt bed",
+        "clay filter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "prewash",
+    "extractor",
+    "oxidiser",
+    "disulfide separator",
+    "fixed catalyst bed",
+    "salt dryer",
+    "clay filter"
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "Merox",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Merichem",
+      "product": "mercaptan treating (register examples; not verified)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "jet fuel sulfur limit mentioned",
+      "unit": "ppm",
+      "basis": "sweetening is usually enough for straight-run kerosene to meet it; the page gives no treated-product mercaptan figure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Merox",
+        "note": "Wikipedia, Merox, read 25 October 2026 (secondary source)"
+      },
+      "high": 3000
+    }
+  ],
+  "advantages": [
+    "Caustic-free ammonia variants exist",
+    "Same chemistry across LPG, naphtha and jet"
+  ],
+  "limitations": [
+    "Spent caustic handling",
+    "Does not remove total sulfur, only converts mercaptans"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Merox",
+      "note": "Wikipedia, Merox, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "UOP's own Merox documentation",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only a secondary source (Wikipedia) was read.",
+      "where": [
+        {
+          "hint": "Honeywell UOP Merox page",
+          "access": "open",
+          "source_id": "honeywell-uop"
+        }
+      ],
+      "action": "Replace with the licensor page."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
