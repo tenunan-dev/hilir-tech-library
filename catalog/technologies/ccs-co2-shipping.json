@@ -1,0 +1,172 @@
+{
+  "id": "ccs-co2-shipping",
+  "name": "CO2 shipping and terminals",
+  "aliases": [
+    "CO2 carriers",
+    "CO2 terminals",
+    "Northern Lights"
+  ],
+  "sector": "CCS",
+  "category": "Transport and storage / shipping",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Liquefied CO2 is carried by ship to an onshore receiving terminal, then piped to an offshore injection well. At Northern Lights in Norway, CO2 from Heidelberg Materials' Brevik cement plant is shipped to a terminal at Øygarden and injected 2,600 m below the seabed in the Aurora reservoir; first injection was reported on 25 August 2025. IEA rates CO2 shipping at TRL 8.",
+  "process_steps": [
+    {
+      "id": "LIQ",
+      "name": "Liquefaction at capture site",
+      "equipment": [
+        "liquefier",
+        "intermediate storage"
+      ],
+      "to": [
+        "SHP"
+      ]
+    },
+    {
+      "id": "SHP",
+      "name": "Ship transport",
+      "equipment": [
+        "CO2 carrier"
+      ],
+      "to": [
+        "TRM"
+      ]
+    },
+    {
+      "id": "TRM",
+      "name": "Receiving terminal storage",
+      "equipment": [
+        "terminal tanks"
+      ],
+      "to": [
+        "PIPE"
+      ]
+    },
+    {
+      "id": "PIPE",
+      "name": "Pipeline to offshore well",
+      "equipment": [
+        "subsea pipeline"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Injection",
+      "equipment": [
+        "injection well"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "liquefaction unit",
+    "CO2 carrier ships",
+    "terminal storage tanks",
+    "subsea pipeline",
+    "injection well"
+  ],
+  "suppliers": [
+    {
+      "name": "Northern Lights (Equinor, Shell, TotalEnergies)",
+      "product": "CO2 transport and storage",
+      "source_id": "equinor-tech"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Northern Lights phase 1 capacity",
+      "unit": "Mtpa CO2",
+      "basis": "fully booked; phase 2 at least 5 Mtpa",
+      "source": {
+        "url": "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights",
+        "source_id": "equinor-tech",
+        "note": "Equinor, First CO2 volumes stored at Northern Lights, 25 August 2025"
+      },
+      "low": 1.5,
+      "high": 1.5
+    },
+    {
+      "metric": "storage depth",
+      "unit": "m below seabed",
+      "basis": "Aurora reservoir",
+      "source": {
+        "url": "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights",
+        "source_id": "equinor-tech",
+        "note": "Equinor, First CO2 volumes stored at Northern Lights, 25 August 2025"
+      },
+      "low": 2600,
+      "high": 2600
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Northern Lights, Øygarden terminal and Aurora storage",
+      "country": "NO",
+      "capacity": "1.5 Mtpa phase 1",
+      "status": "first CO2 injected, reported 25 August 2025",
+      "year": 2025,
+      "source": {
+        "url": "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights",
+        "source_id": "equinor-tech",
+        "note": "Equinor, First CO2 volumes stored at Northern Lights, 25 August 2025"
+      }
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 shipping' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Serves emitters without pipeline access",
+    "Stockholm Exergi signed to store up to 900,000 t/yr in phase 2"
+  ],
+  "limitations": [
+    "Vessel details not given in the source read"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights",
+      "source_id": "equinor-tech",
+      "note": "Equinor, First CO2 volumes stored at Northern Lights, 25 August 2025"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "transport cost per tonne by distance",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the Equinor release.",
+      "where": [
+        {
+          "hint": "Global CCS Institute and IEAGHG cost reports",
+          "access": "open",
+          "source_id": "iea-ghg"
+        }
+      ],
+      "action": "Add costs."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

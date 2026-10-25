@@ -1,0 +1,176 @@
+{
+  "id": "ccs-mmv",
+  "name": "Measurement, monitoring and verification (4D seismic, DAS, satellite InSAR)",
+  "aliases": [
+    "MMV",
+    "CO2 monitoring",
+    "4D seismic monitoring"
+  ],
+  "sector": "CCS",
+  "category": "Transport and storage / monitoring",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "MMV tracks injected CO2 and checks containment: time-lapse (4D) seismic and VSP image the plume, fibre-optic DAS and DTS give continuous well data, InSAR measures ground displacement, and soil gas and groundwater sampling check the surface. Quest (Alberta) injects about 1 Mt/yr with a 27 Mt target and has recorded no microseismic event indicating loss of containment.",
+  "process_steps": [
+    {
+      "id": "BAS",
+      "name": "Baseline surveys",
+      "equipment": [
+        "3D seismic",
+        "soil gas"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Monitoring during injection",
+      "equipment": [
+        "VSP",
+        "DAS",
+        "InSAR",
+        "pressure gauges"
+      ],
+      "to": [
+        "VER"
+      ]
+    },
+    {
+      "id": "VER",
+      "name": "Verification and reporting",
+      "equipment": [
+        "models"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "seismic sources and receivers",
+    "fibre-optic cables",
+    "InSAR data",
+    "soil gas and groundwater sampling",
+    "pressure gauges"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB",
+      "product": "register examples",
+      "source_id": "slb"
+    },
+    {
+      "name": "Halliburton",
+      "product": "register examples",
+      "source_id": "halliburton"
+    },
+    {
+      "name": "TGS",
+      "product": "register examples"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Quest injection rate",
+      "unit": "Mt CO2/yr",
+      "basis": "total target 27 Mt; MMV plan revised every 3 years",
+      "source": {
+        "url": "https://albertainnovates.ca/wp-content/uploads/2022/07/CCUS-paper-carbon-MMV-Lawton-et-al.pdf",
+        "note": "Lawton et al., CCUS monitoring, measurement and verification (Alberta Innovates)"
+      },
+      "low": 1,
+      "high": 1.1
+    }
+  ],
+  "advantages": [
+    "Multiple complementary methods"
+  ],
+  "limitations": [
+    "The paper does not give detection thresholds or costs"
+  ],
+  "sources": [
+    {
+      "url": "https://albertainnovates.ca/wp-content/uploads/2022/07/CCUS-paper-carbon-MMV-Lawton-et-al.pdf",
+      "note": "Lawton et al., CCUS monitoring, measurement and verification (Alberta Innovates)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "detection limits and cost of each method",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not in the paper.",
+      "where": [
+        {
+          "hint": "NETL MMV best-practice manual",
+          "access": "open",
+          "source_id": "netl"
+        }
+      ],
+      "action": "Add thresholds and costs."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

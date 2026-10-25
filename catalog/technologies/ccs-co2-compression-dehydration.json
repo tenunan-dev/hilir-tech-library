@@ -1,0 +1,180 @@
+{
+  "id": "ccs-co2-compression-dehydration",
+  "name": "CO2 compression and dehydration",
+  "aliases": [
+    "CO2 compression",
+    "CO2 dehydration"
+  ],
+  "sector": "CCS",
+  "category": "Transport and storage / compression",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Captured CO2 is compressed in integrally geared or in-line compressors to dense phase (around 135 barg in the Drax BECCS case) and dried to about 50 ppmv water (TEG, silica gel or molecular sieve, below 1 ppmv with sieve) before pipeline transport. The Drax cases at about 4 Mtpa needed 32.6 to 40.8 MW of compressor power depending on suction pressure.",
+  "process_steps": [
+    {
+      "id": "SUC",
+      "name": "Suction from capture plant at 0.6 to 3 barg",
+      "equipment": [
+        "knock-out drum"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Multi-stage compression with intercooling",
+      "equipment": [
+        "integrally geared compressors"
+      ],
+      "to": [
+        "DRY"
+      ]
+    },
+    {
+      "id": "DRY",
+      "name": "Dehydration",
+      "equipment": [
+        "TEG, silica gel or molecular sieve unit"
+      ],
+      "to": [
+        "OUT"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Dense-phase discharge to pipeline",
+      "equipment": [
+        "aftercooler",
+        "booster pump"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "integrally geared compressors",
+    "intercoolers",
+    "dehydration unit",
+    "aftercooler",
+    "dense-phase pump"
+  ],
+  "suppliers": [
+    {
+      "name": "Atlas Copco",
+      "product": "CO2 compressors (search result only)",
+      "source_id": "atlas-copco-gas"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "register examples",
+      "source_id": "siemens-energy"
+    },
+    {
+      "name": "MAN Energy Solutions (Everllence)",
+      "product": "register examples",
+      "source_id": "man-energy"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "register examples",
+      "source_id": "baker-hughes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "compressor absorbed power, Drax BECCS about 4 Mtpa",
+      "unit": "MW",
+      "basis": "2 x 50% integrally geared, suction 0.6 to 3 barg, discharge 135 barg",
+      "source": {
+        "url": "https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf",
+        "source_id": "uk-desnz",
+        "note": "UK DESNZ/BEIS CCS knowledge-sharing, CO2 compression and dehydration unit report (Drax BECCS cases)"
+      },
+      "low": 32.62,
+      "high": 40.76
+    },
+    {
+      "metric": "dehydration target water content",
+      "unit": "ppmv",
+      "basis": "50 ppmv base case; molecular sieve below 1 ppmv",
+      "source": {
+        "url": "https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf",
+        "source_id": "uk-desnz",
+        "note": "UK DESNZ/BEIS CCS knowledge-sharing, CO2 compression and dehydration unit report (Drax BECCS cases)"
+      },
+      "low": 1,
+      "high": 50
+    }
+  ],
+  "costs": [
+    {
+      "metric": "integrally geared package capex, Drax BECCS case",
+      "unit": "GBP million",
+      "basis": "approximate, one comparison; year not stated in text read",
+      "source": {
+        "url": "https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf",
+        "source_id": "uk-desnz",
+        "note": "UK DESNZ/BEIS CCS knowledge-sharing, CO2 compression and dehydration unit report (Drax BECCS cases)"
+      },
+      "low": 32,
+      "high": 32,
+      "year": 2021
+    }
+  ],
+  "advantages": [
+    "TEG dehydration needs 425 kW heating per train against 3,190 kW for molecular sieve (Drax cases)"
+  ],
+  "limitations": [
+    "Large power demand relative to capture plant"
+  ],
+  "sources": [
+    {
+      "url": "https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf",
+      "source_id": "uk-desnz",
+      "note": "UK DESNZ/BEIS CCS knowledge-sharing, CO2 compression and dehydration unit report (Drax BECCS cases)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operating compression units at CCS plants",
+      "reason_code": "not_in_sources_read",
+      "reason": "The report read is a design study.",
+      "where": [
+        {
+          "hint": "Boundary Dam, Quest, Sleipner papers",
+          "access": "open"
+        }
+      ],
+      "action": "Add operating references."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

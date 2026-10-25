@@ -130,6 +130,17 @@
         "url": "https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf",
         "note": "Bryan Research & Engineering, Simulation of the Benfield HiPure Process of Natural Gas Sweetening for LNG Production and Evaluation of Alternatives (ADGAS Train 3, Das Island)"
       }
+    },
+    {
+      "name": "BECCS Stockholm (Stockholm Exergi), hot potassium carbonate capture on a biomass cogeneration plant",
+      "country": "SE",
+      "capacity": "about 7 Mt CO2 avoided over ten years",
+      "status": "capture targeted late 2028",
+      "year": 2028,
+      "source": {
+        "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+        "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+      }
     }
   ],
   "advantages": [
@@ -150,6 +161,10 @@
     {
       "url": "https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf",
       "note": "Bryan Research & Engineering, Simulation of the Benfield HiPure Process of Natural Gas Sweetening for LNG Production and Evaluation of Alternatives (ADGAS Train 3, Das Island)"
+    },
+    {
+      "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+      "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
     }
   ],
   "last_reviewed": "2026-10-25",

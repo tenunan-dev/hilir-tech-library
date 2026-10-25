@@ -1,0 +1,184 @@
+{
+  "id": "ccs-depleted-field-storage",
+  "name": "Storage in depleted oil and gas fields",
+  "aliases": [
+    "depleted reservoir storage",
+    "Porthos",
+    "Kasawari CCS storage"
+  ],
+  "sector": "CCS",
+  "category": "Transport and storage / storage",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "CO2 is injected into depleted gas or oil reservoirs, which have proven seals and known capacity. Porthos in the Netherlands will inject 2.5 Mtpa at about 3 km depth into depleted fields P18-2, P18-4 and P18-6 about 20 km off the coast. PETRONAS Kasawari CCS will reinject 3.3 Mtpa into the depleted M1 field offshore Sarawak.",
+  "process_steps": [
+    {
+      "id": "TRN",
+      "name": "Pipeline transport",
+      "equipment": [
+        "pipeline",
+        "compressor station"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Injection into depleted reservoir",
+      "equipment": [
+        "platform",
+        "injection well"
+      ],
+      "to": [
+        "MON"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Pressure and plume monitoring",
+      "equipment": [
+        "gauges",
+        "seismic"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "injection platform",
+    "injection wells",
+    "pipeline",
+    "monitoring wells"
+  ],
+  "suppliers": [
+    {
+      "name": "Porthos (Port of Rotterdam, Gasunie, EBN)",
+      "product": "depleted-field storage"
+    },
+    {
+      "name": "PETRONAS Carigali",
+      "product": "Kasawari CCS",
+      "source_id": "petronas-tech"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Porthos capacity",
+      "unit": "Mtpa CO2",
+      "basis": "37 Mt over 15 years; injection pressure up to 130 bar",
+      "source": {
+        "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+        "note": "iO+, Porthos CCS"
+      },
+      "low": 2.5,
+      "high": 2.5
+    },
+    {
+      "metric": "Kasawari CCS capacity",
+      "unit": "Mtpa CO2",
+      "basis": "71 to 76 Mt over project life",
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      },
+      "low": 3.3,
+      "high": 3.3
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Porthos, Rotterdam to North Sea",
+      "country": "NL",
+      "capacity": "2.5 Mtpa",
+      "status": "operational expected 2026",
+      "year": 2026,
+      "source": {
+        "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+        "note": "iO+, Porthos CCS"
+      }
+    },
+    {
+      "name": "Kasawari CCS, Sarawak",
+      "country": "MY",
+      "capacity": "3.3 Mtpa",
+      "status": "FID October 2022",
+      "year": 2022,
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      }
+    }
+  ],
+  "advantages": [
+    "Reuses existing infrastructure"
+  ],
+  "limitations": [
+    "Legacy wells are leakage paths (see well integrity card)"
+  ],
+  "sources": [
+    {
+      "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+      "note": "iO+, Porthos CCS"
+    },
+    {
+      "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "TRL",
+      "reason_code": "not_in_sources_read",
+      "reason": "IEA guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

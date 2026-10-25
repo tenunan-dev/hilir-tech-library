@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 126 have a technology card so far.
+300 technologies across oil, gas, petrochemicals and new energy; 143 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -288,28 +288,28 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Capture | Oxyfuel combustion in cement kilns | demonstration | ECRA, Heidelberg Materials | [card](technologies-CCS.md#ccs-oxyfuel-cement) |
 | Capture | Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power) | demonstration | NET Power | [card](technologies-CCS.md#ccs-allam-cycle) |
 | Capture | Chemical looping combustion | lab | Research | [card](technologies-CCS.md#ccs-chemical-looping-combustion) |
-| Capture | Molten carbonate fuel cell capture | demonstration | FuelCell Energy with ExxonMobil |  |
+| Capture | Molten carbonate fuel cell capture | demonstration | FuelCell Energy with ExxonMobil | [card](technologies-CCS.md#ccs-molten-carbonate-fuel-cell-capture) |
 | Capture | Emerging capture: water-lean solvents, ionic liquids and electrochemical separation | lab | Research | [card](technologies-CCS.md#ccs-emerging-solvents-electrochemical) |
 | Capture | Hot potassium carbonate capture (Benfield) | commercial | Honeywell UOP | [card](technologies-GAS.md#gas-hot-potassium-carbonate) |
-| Capture | Enzyme-catalysed capture | pilot | Saipem (CO2 Solutions) |  |
+| Capture | Enzyme-catalysed capture | pilot | Saipem (CO2 Solutions) | [card](technologies-CCS.md#ccs-enzyme-capture) |
 | Carbon removal | Direct air capture with liquid solvent (KOH and calcium loop) | demonstration | Carbon Engineering / 1PointFive | [card](technologies-CCS.md#ccs-dac-liquid-solvent) |
 | Carbon removal | Direct air capture with solid sorbent | demonstration | Climeworks, Heirloom | [card](technologies-CCS.md#ccs-dac-solid-sorbent) |
-| Carbon removal | Electro-swing and moisture-swing DAC | lab | Verdox, research |  |
-| Carbon removal | Bioenergy with CCS (BECCS) | demonstration | Drax, ADM Decatur, Stockholm Exergi |  |
-| Carbon removal | Enhanced rock weathering and ocean alkalinity enhancement | pilot | UNDO, Planetary |  |
-| Carbon removal | Biochar | commercial | Various |  |
-| Transport and storage | CO2 compression and dehydration | commercial | Atlas Copco, Siemens Energy, MAN (Everllence), Baker Hughes |  |
-| Transport and storage | CO2 shipping and terminals | demonstration | Northern Lights |  |
+| Carbon removal | Electro-swing and moisture-swing DAC | lab | Verdox, research | [card](technologies-CCS.md#ccs-electro-swing-moisture-swing-dac) |
+| Carbon removal | Bioenergy with CCS (BECCS) | demonstration | Drax, ADM Decatur, Stockholm Exergi | [card](technologies-CCS.md#ccs-beccs) |
+| Carbon removal | Enhanced rock weathering and ocean alkalinity enhancement | pilot | UNDO, Planetary | [card](technologies-CCS.md#ccs-enhanced-weathering) |
+| Carbon removal | Biochar | commercial | Various | [card](technologies-CCS.md#ccs-biochar) |
+| Transport and storage | CO2 compression and dehydration | commercial | Atlas Copco, Siemens Energy, MAN (Everllence), Baker Hughes | [card](technologies-CCS.md#ccs-co2-compression-dehydration) |
+| Transport and storage | CO2 shipping and terminals | demonstration | Northern Lights | [card](technologies-CCS.md#ccs-co2-shipping) |
 | Transport and storage | Geological storage in saline aquifers | commercial | Equinor Sleipner, Northern Lights | [card](technologies-CCS.md#ccs-saline-aquifer-storage) |
-| Transport and storage | Storage in depleted oil and gas fields | demonstration | Porthos, PETRONAS Kasawari |  |
-| Transport and storage | CO2 mineralisation (in-situ basalt) | demonstration | Carbfix |  |
-| Transport and storage | Ex-situ mineral carbonation | demonstration | Various |  |
-| Transport and storage | Well integrity and CO2-resistant cements | commercial | SLB, Halliburton |  |
-| Transport and storage | Measurement, monitoring and verification (4D seismic, DAS, satellite InSAR) | commercial | SLB, Halliburton, TGS |  |
-| Utilisation | CO2 to concrete and aggregates | commercial | CarbonCure, Blue Planet |  |
-| Utilisation | CO2 to methanol and fuels | demonstration | Carbon Recycling International |  |
-| Utilisation | CO2 to urea and polymers | commercial | Fertiliser producers, Covestro |  |
-| Utilisation | CO2 electroreduction to CO, formic acid and ethylene | lab | Twelve, research |  |
+| Transport and storage | Storage in depleted oil and gas fields | demonstration | Porthos, PETRONAS Kasawari | [card](technologies-CCS.md#ccs-depleted-field-storage) |
+| Transport and storage | CO2 mineralisation (in-situ basalt) | demonstration | Carbfix | [card](technologies-CCS.md#ccs-in-situ-mineralisation) |
+| Transport and storage | Ex-situ mineral carbonation | demonstration | Various | [card](technologies-CCS.md#ccs-ex-situ-mineral-carbonation) |
+| Transport and storage | Well integrity and CO2-resistant cements | commercial | SLB, Halliburton | [card](technologies-CCS.md#ccs-well-integrity-cements) |
+| Transport and storage | Measurement, monitoring and verification (4D seismic, DAS, satellite InSAR) | commercial | SLB, Halliburton, TGS | [card](technologies-CCS.md#ccs-mmv) |
+| Utilisation | CO2 to concrete and aggregates | commercial | CarbonCure, Blue Planet | [card](technologies-CCS.md#ccs-co2-concrete) |
+| Utilisation | CO2 to methanol and fuels | demonstration | Carbon Recycling International | [card](technologies-CCS.md#ccs-co2-to-methanol-fuels) |
+| Utilisation | CO2 to urea and polymers | commercial | Fertiliser producers, Covestro | [card](technologies-CCS.md#ccs-co2-to-urea-polymers) |
+| Utilisation | CO2 electroreduction to CO, formic acid and ethylene | lab | Twelve, research | [card](technologies-CCS.md#ccs-co2-electroreduction) |
 
 ## PRC: Process systems
 

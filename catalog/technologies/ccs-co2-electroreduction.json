@@ -1,0 +1,158 @@
+{
+  "id": "ccs-co2-electroreduction",
+  "name": "CO2 electroreduction to CO, formic acid and ethylene",
+  "aliases": [
+    "CO2 electrolysis",
+    "electrochemical CO2 reduction"
+  ],
+  "sector": "CCS",
+  "category": "Utilisation / electrochemical",
+  "applications": [],
+  "maturity": "lab",
+  "principle": "CO2 is reduced at a cathode to CO (Ag, Au), formate (Pb, Sn) or ethylene (Cu). Kenis and colleagues report CO at 94% Faradaic efficiency and 91 mA/cm2 on a silver gas-diffusion electrode and say commercial use needs overpotential below 0.2 V at above 100 mA/cm2; no standard durability protocols existed in 2013.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "CO2 and water or electrolyte feed",
+      "equipment": [
+        "gas diffusion electrode cell"
+      ],
+      "to": [
+        "EL"
+      ]
+    },
+    {
+      "id": "EL",
+      "name": "Electrolysis",
+      "equipment": [
+        "electrolyser stack"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Product separation",
+      "equipment": [
+        "separation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrolyser stack",
+    "gas diffusion electrodes",
+    "CO2 supply",
+    "product separation"
+  ],
+  "suppliers": [
+    {
+      "name": "Twelve",
+      "product": "E-Jet CO2 electrolysis (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO faradaic efficiency on Ag GDE",
+      "unit": "%",
+      "basis": "91 mA/cm2, energy efficiency 46%",
+      "source": {
+        "url": "https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf",
+        "note": "Jhong, Ma and Kenis, Electrochemical conversion of CO2 to useful chemicals (review, 2013)"
+      },
+      "low": 94,
+      "high": 94
+    },
+    {
+      "metric": "C1-C2 fuels at high current",
+      "unit": "% faradaic efficiency",
+      "basis": "600 mA/cm2, energy efficiency below 22%",
+      "source": {
+        "url": "https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf",
+        "note": "Jhong, Ma and Kenis, Electrochemical conversion of CO2 to useful chemicals (review, 2013)"
+      },
+      "low": 70,
+      "high": 70
+    }
+  ],
+  "advantages": [
+    "Direct CO2 conversion with renewable power"
+  ],
+  "limitations": [
+    "2013 review: durability and cost models lacking",
+    "High FE, EE and current density are rarely all achieved together"
+  ],
+  "sources": [
+    {
+      "url": "https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf",
+      "note": "Jhong, Ma and Kenis, Electrochemical conversion of CO2 to useful chemicals (review, 2013)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "trl",
+      "item": "current TRL and Twelve plant data",
+      "reason_code": "not_in_sources_read",
+      "reason": "The review is from 2013.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Add post-2020 pilot data."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

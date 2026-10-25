@@ -1,0 +1,154 @@
+{
+  "id": "ccs-co2-to-urea-polymers",
+  "name": "CO2 to urea and polymers",
+  "aliases": [
+    "urea",
+    "CO2-based polyols",
+    "cardyon"
+  ],
+  "sector": "CCS",
+  "category": "Utilisation / chemicals",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Urea plants consume CO2 from ammonia production as a feedstock, and Covestro makes CO2-based polyether carbonate polyols for polyurethane foam. Covestro's Dormagen polyols plant, started in 2016, has a capacity of 5,000 t/yr and supports foams that contain about 20% CO2.",
+  "process_steps": [
+    {
+      "id": "CO2",
+      "name": "CO2 supply",
+      "equipment": [
+        "CO2 purification"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Reaction with ammonia (urea) or epoxide (polyol)",
+      "equipment": [
+        "synthesis reactor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CO2 supply and purification",
+    "synthesis reactor",
+    "product finishing"
+  ],
+  "suppliers": [
+    {
+      "name": "Covestro",
+      "product": "cardyon CO2-based polyols"
+    },
+    {
+      "name": "Fertiliser producers",
+      "product": "urea"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Covestro polyols plant capacity",
+      "unit": "t/yr",
+      "basis": "Dormagen; PU foams with 20% CO2",
+      "source": {
+        "url": "https://www.european-rubber-journal.com/2016/06/20/covestro-starts-co2-based-polyols-plant",
+        "note": "European Rubber Journal, Covestro starts CO2-based polyols plant, 20 June 2016"
+      },
+      "low": 5000,
+      "high": 5000
+    }
+  ],
+  "advantages": [
+    "Established use in urea"
+  ],
+  "limitations": [
+    "Limited volume compared with storage (not quantified in sources read)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.european-rubber-journal.com/2016/06/20/covestro-starts-co2-based-polyols-plant",
+      "note": "European Rubber Journal, Covestro starts CO2-based polyols plant, 20 June 2016"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "global CO2 demand for urea",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read.",
+      "where": [
+        {
+          "hint": "IEA CCUS in the transition or Global CCS Institute",
+          "access": "open",
+          "source_id": "global-ccs-institute"
+        }
+      ],
+      "action": "Add urea CO2 use in Mt/yr."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

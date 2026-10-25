@@ -1,0 +1,145 @@
+{
+  "id": "ccs-enhanced-weathering",
+  "name": "Enhanced rock weathering and ocean alkalinity enhancement",
+  "aliases": [
+    "enhanced weathering",
+    "ERW",
+    "ocean alkalinity enhancement",
+    "OAE"
+  ],
+  "sector": "CCS",
+  "category": "Carbon removal / geochemical",
+  "applications": [],
+  "maturity": "pilot",
+  "principle": "Crushed silicate rock (basalt, olivine) is spread on land or added to seawater so it weathers faster and converts CO2 to bicarbonate. Strefler and colleagues estimated potentials of up to 95 Gt CO2/yr for dunite and 4.9 Gt for basalt on cropland and costs of about USD 60 per tonne CO2 for dunite and USD 200 for basalt. UNDO and Planetary are listed as developers.",
+  "process_steps": [
+    {
+      "id": "MIN",
+      "name": "Mine and crush rock",
+      "equipment": [
+        "crusher"
+      ],
+      "to": [
+        "APP"
+      ]
+    },
+    {
+      "id": "APP",
+      "name": "Spread on cropland or add to seawater",
+      "equipment": [
+        "spreaders",
+        "ships"
+      ],
+      "to": [
+        "MON"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Monitor weathering and CO2 uptake",
+      "equipment": [
+        "soil and water sampling"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "rock crushers",
+    "transport",
+    "spreading equipment",
+    "monitoring and sampling"
+  ],
+  "suppliers": [
+    {
+      "name": "UNDO",
+      "product": "enhanced rock weathering (register examples)"
+    },
+    {
+      "name": "Planetary",
+      "product": "ocean alkalinity (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "removal potential on cropland",
+      "unit": "Gt CO2/yr",
+      "basis": "basalt 4.9, dunite 95",
+      "source": {
+        "url": "https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full",
+        "note": "Strefler et al., Potential and costs of carbon dioxide removal by enhanced weathering of rocks, Environmental Research Letters 2018"
+      },
+      "low": 4.9,
+      "high": 95
+    }
+  ],
+  "costs": [
+    {
+      "metric": "removal cost",
+      "unit": "USD/t CO2",
+      "basis": "dunite about 60, basalt about 200; paper published 2018, dollar year not stated",
+      "source": {
+        "url": "https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full",
+        "note": "Strefler et al., Potential and costs of carbon dioxide removal by enhanced weathering of rocks, Environmental Research Letters 2018"
+      },
+      "low": 60,
+      "high": 200,
+      "year": 2018
+    }
+  ],
+  "advantages": [
+    "Large theoretical potential",
+    "India, Brazil, South-East Asia and China hold almost 75% of the potential (paper)"
+  ],
+  "limitations": [
+    "Measurement of real CO2 removal is hard (not quantified in source read)"
+  ],
+  "sources": [
+    {
+      "url": "https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full",
+      "note": "Strefler et al., Potential and costs of carbon dioxide removal by enhanced weathering of rocks, Environmental Research Letters 2018"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "field trial results",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only a potential and cost study read.",
+      "where": [
+        {
+          "hint": "UNDO and Planetary field data",
+          "access": "open"
+        }
+      ],
+      "action": "Add field results."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

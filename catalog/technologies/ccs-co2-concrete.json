@@ -1,0 +1,148 @@
+{
+  "id": "ccs-co2-concrete",
+  "name": "CO2 to concrete and aggregates",
+  "aliases": [
+    "CarbonCure",
+    "carbonated concrete",
+    "CO2 aggregates"
+  ],
+  "sector": "CCS",
+  "category": "Utilisation / building materials",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "CO2 is injected into concrete during mixing, where it mineralises and raises compressive strength, allowing less cement. CarbonCure reports more than 500,000 t of CO2 saved over 7.5 million truckloads, with hundreds of systems in more than two dozen countries.",
+  "process_steps": [
+    {
+      "id": "INJ",
+      "name": "CO2 injection during mixing",
+      "equipment": [
+        "dosing system",
+        "CO2 tank"
+      ],
+      "to": [
+        "MIX"
+      ]
+    },
+    {
+      "id": "MIX",
+      "name": "Mineralisation in the mix",
+      "equipment": [
+        "mixer"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CO2 storage tank",
+    "dosing control",
+    "concrete mixer"
+  ],
+  "suppliers": [
+    {
+      "name": "CarbonCure",
+      "product": "mineralised ready-mix concrete"
+    },
+    {
+      "name": "Blue Planet",
+      "product": "aggregates (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO2 saved by CarbonCure to the date of the article",
+      "unit": "t CO2",
+      "basis": "7.5 million truckloads; date not stated in text read",
+      "source": {
+        "url": "https://gasworld.com/story/carboncure-hits-500000-tonnes-co2-milestone-with-mineralised-concrete-tech/2145799.article",
+        "note": "gasworld, CarbonCure hits 500,000 tonnes CO2 milestone"
+      },
+      "low": 500000
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Permanent mineralisation in the product"
+  ],
+  "limitations": [
+    "Per-batch CO2 amount is small; cement saving not quantified in the article"
+  ],
+  "sources": [
+    {
+      "url": "https://gasworld.com/story/carboncure-hits-500000-tonnes-co2-milestone-with-mineralised-concrete-tech/2145799.article",
+      "note": "gasworld, CarbonCure hits 500,000 tonnes CO2 milestone"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "kg CO2 per m3 and cement reduction percent",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not given.",
+      "where": [
+        {
+          "hint": "CarbonCure technical notes",
+          "access": "open"
+        }
+      ],
+      "action": "Add typical numbers."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

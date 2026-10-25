@@ -1,0 +1,133 @@
+{
+  "id": "ccs-co2-to-methanol-fuels",
+  "name": "CO2 to methanol and fuels",
+  "aliases": [
+    "CRI",
+    "CO2 to methanol",
+    "CO2 to fuels"
+  ],
+  "sector": "CCS",
+  "category": "Utilisation / fuels",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "CO2 from a point source and electrolytic hydrogen are reacted over a catalyst to make methanol. Carbon Recycling International's George Olah plant at Svartsengi, Iceland uses geothermal power plant flue-gas CO2 and electrolysis hydrogen, was commissioned in 2012 and was scaled from 1,300 to 4,000 t/yr.",
+  "process_steps": [
+    {
+      "id": "H2",
+      "name": "Water electrolysis",
+      "equipment": [
+        "electrolyser"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "CO2",
+      "name": "CO2 from flue gas",
+      "equipment": [
+        "capture"
+      ],
+      "to": [
+        "SYN"
+      ]
+    },
+    {
+      "id": "SYN",
+      "name": "Methanol synthesis and distillation",
+      "equipment": [
+        "reactor",
+        "distillation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrolyser",
+    "CO2 capture",
+    "methanol reactor",
+    "distillation"
+  ],
+  "suppliers": [
+    {
+      "name": "Carbon Recycling International",
+      "product": "George Olah plant"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "George Olah plant capacity",
+      "unit": "t/yr methanol",
+      "basis": "scaled up from 1,300 t/yr",
+      "source": {
+        "url": "https://carbonrecycling.com/projects/george-olah",
+        "note": "Carbon Recycling International, George Olah plant page"
+      },
+      "low": 4000,
+      "high": 4000
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "George Olah plant, Svartsengi",
+      "country": "IS",
+      "capacity": "4,000 t/yr methanol",
+      "year": 2012,
+      "source": {
+        "url": "https://carbonrecycling.com/projects/george-olah",
+        "note": "Carbon Recycling International, George Olah plant page"
+      }
+    }
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025)"
+    }
+  },
+  "advantages": [
+    "Operating since 2012"
+  ],
+  "limitations": [
+    "The page does not give CO2 per tonne of methanol or the source of electricity"
+  ],
+  "sources": [
+    {
+      "url": "https://carbonrecycling.com/projects/george-olah",
+      "note": "Carbon Recycling International, George Olah plant page"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "production cost",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not on the page.",
+      "where": [
+        {
+          "hint": "IRENA innovation outlook: renewable methanol",
+          "access": "open",
+          "source_id": "irena"
+        }
+      ],
+      "action": "Add costs."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

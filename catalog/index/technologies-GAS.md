@@ -493,6 +493,7 @@ flowchart LR
 
 **Reference plants:**
 - ADGAS Train 3, Das Island, AE: feed about 477 MMSCFD; . [source](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf)
+- BECCS Stockholm (Stockholm Exergi), hot potassium carbonate capture on a biomass cogeneration plant, SE: about 7 Mt CO2 avoided over ten years; capture targeted late 2028. [source](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg)
 
 **Missing inputs:**
 - BRE's comparison is a vendor-neutral simulation; no UOP-published figures were read (performance): UOP's page lists Benfield without specifications. Where: Honeywell UOP Benfield datasheet (catalog: honeywell-uop, open). Next: Add UOP datasheet figures.
@@ -500,7 +501,7 @@ flowchart LR
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal), [2](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal), [2](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf), [3](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg). Last reviewed 2026-10-25.
 
 ## Hybrid solvent gas treating (Sulfinol)
 <a id="gas-hybrid-solvent-sulfinol"></a>

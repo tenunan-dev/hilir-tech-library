@@ -1,0 +1,182 @@
+{
+  "id": "ccs-beccs",
+  "name": "Bioenergy with CCS (BECCS)",
+  "aliases": [
+    "BECCS",
+    "bioenergy with carbon capture and storage"
+  ],
+  "sector": "CCS",
+  "category": "Carbon removal / bioenergy",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "CO2 from biomass combustion or fermentation is captured and stored, so net emissions are negative. Stockholm Exergi converts an existing biomass cogeneration plant using hot potassium carbonate capture, with liquefied CO2 shipped for permanent storage. The project avoids about seven million tonnes of CO2 over its first ten years; capture is targeted for late 2028 with EUR 180 million Innovation Fund support. IEA rates bioenergy with post-combustion capture at TRL 7.",
+  "process_steps": [
+    {
+      "id": "BIO",
+      "name": "Biomass combustion or fermentation",
+      "equipment": [
+        "boiler",
+        "fermenter"
+      ],
+      "to": [
+        "CAP"
+      ]
+    },
+    {
+      "id": "CAP",
+      "name": "CO2 capture (HPC, amine)",
+      "equipment": [
+        "absorber",
+        "regenerator"
+      ],
+      "to": [
+        "LIQ"
+      ]
+    },
+    {
+      "id": "LIQ",
+      "name": "Liquefaction and transport",
+      "equipment": [
+        "liquefier",
+        "ship or pipeline"
+      ],
+      "to": [
+        "STO"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "Permanent storage",
+      "equipment": [
+        "injection wells"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "biomass boiler",
+    "capture plant",
+    "CO2 liquefaction",
+    "CO2 transport",
+    "injection wells"
+  ],
+  "suppliers": [
+    {
+      "name": "Stockholm Exergi",
+      "product": "BECCS Stockholm"
+    },
+    {
+      "name": "Drax",
+      "product": "BECCS (register examples)"
+    },
+    {
+      "name": "ADM",
+      "product": "Decatur (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO2 avoided over the first ten years, Stockholm BECCS",
+      "unit": "Mt CO2",
+      "basis": "page gives no annual rate",
+      "source": {
+        "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+        "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+      },
+      "low": 7,
+      "high": 7
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "BECCS Stockholm (Stockholm Exergi)",
+      "country": "SE",
+      "capacity": "about 0.7 Mt CO2/yr implied by 7 Mt over ten years",
+      "status": "environmental permit 28 March 2024; capture targeted late 2028",
+      "year": 2028,
+      "source": {
+        "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+        "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+      }
+    }
+  ],
+  "trl": {
+    "low": 3,
+    "high": 7,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Bioenergy with post-combustion CO2 capture' 7 (2025); 'Bioenergy with pre-combustion CO2 capture' 3 (2025)"
+    }
+  },
+  "advantages": [
+    "Net-negative emissions"
+  ],
+  "limitations": [
+    "Biomass sustainability not covered"
+  ],
+  "sources": [
+    {
+      "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+      "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+    },
+    {
+      "url": "https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf",
+      "source_id": "uk-desnz",
+      "note": "UK DESNZ/BEIS CCS knowledge-sharing, CO2 compression and dehydration unit report (Drax BECCS cases)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operating BECCS plants (ADM Decatur, Drax pilot)",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only Stockholm read; the Drax document read is a compression report.",
+      "where": [
+        {
+          "hint": "Global CCS Institute facility database",
+          "access": "open",
+          "source_id": "global-ccs-institute"
+        }
+      ],
+      "action": "Add operating plants."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

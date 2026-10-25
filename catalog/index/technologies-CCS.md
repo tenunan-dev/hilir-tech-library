@@ -1,23 +1,40 @@
 # CCS technology options
 
-15 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+32 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Amine solvent post-combustion capture](#ccs-amine-post-combustion) | Post-combustion / chemical solvent | commercial | 6-9 | Mitsubishi Heavy Industries (KM CDR Process with KS-1 solvent); Shell Catalysts & Technologies (CANSOLV CO2 Capture System); SLB Capturi (Just Catch (modular) and larger plants); Fluor (Econamine FG Plus) | cost of CO2 captured, new NGCC (H-class to F-class), 90% capture: 55.9-60.7 USD/t CO2 (2018$)<br>cost of CO2 captured, NGCC retrofit (H-class to F-class), 90% capture: 56.7-61.8 USD/t CO2 (2018$)<br>cost of CO2 captured, cement (greenfield, 90% capture): 62.7 USD/t CO2 (2018$)<br>cost of CO2 captured, iron and steel BOF (retrofit, 90% capture): 65.9 USD/t CO2 (2018$) |
+| [Biochar](#ccs-biochar) | Carbon removal / pyrolysis | commercial |  | Exomad Green (biochar CDR producer) |  |
+| [CO2 compression and dehydration](#ccs-co2-compression-dehydration) | Transport and storage / compression | commercial |  | Atlas Copco (CO2 compressors (search result only)); Siemens Energy (register examples); MAN Energy Solutions (Everllence) (register examples); Baker Hughes (register examples) | integrally geared package capex, Drax BECCS case: 32 GBP million |
+| [CO2 to concrete and aggregates](#ccs-co2-concrete) | Utilisation / building materials | commercial | 9 | CarbonCure (mineralised ready-mix concrete); Blue Planet (aggregates (register examples)) |  |
+| [CO2 to urea and polymers](#ccs-co2-to-urea-polymers) | Utilisation / chemicals | commercial |  | Covestro (cardyon CO2-based polyols); Fertiliser producers (urea) |  |
 | [Capture from high-purity CO2 streams (compression and dehydration only)](#ccs-high-purity-compression) | Point source / no separation step | commercial |  | CO2 compressor and dehydration vendors (no licensed process needed) | cost of CO2 captured, natural gas processing (greenfield): 16.1 USD/t CO2 (2018$)<br>cost of CO2 captured, ammonia (greenfield): 19 USD/t CO2 (2018$)<br>cost of CO2 captured, ethylene oxide (greenfield): 26 USD/t CO2 (2018$)<br>cost of CO2 captured, ethanol (greenfield): 31.8 USD/t CO2 (2018$)<br>cost of CO2 captured, gas-to-liquids: 6.4 USD/t CO2 (2018$)<br>average cost of CO2 captured, high-purity industrial streams (over 95% CO2): 17.5 USD/t CO2 (2018$) |
 | [Chemical solvent capture from syngas (hydrogen plants)](#ccs-syngas-chemical-solvent) | Pre-combustion / chemical solvent | commercial |  | Shell Catalysts & Technologies (ADIP ULTRA) | cost of CO2 captured, refinery hydrogen (SMR), greenfield 90% capture: 59.9 USD/t CO2 (2018$) |
 | [Geological CO2 storage in saline aquifers](#ccs-saline-aquifer-storage) | CO2 storage / geological | commercial | 9 | Equinor; Northern Lights |  |
+| [Measurement, monitoring and verification (4D seismic, DAS, satellite InSAR)](#ccs-mmv) | Transport and storage / monitoring | commercial |  | SLB (register examples); Halliburton (register examples); TGS (register examples) |  |
 | [Physical solvent acid gas removal (pre-combustion)](#ccs-physical-solvent-pre-combustion) | Pre-combustion / physical solvent | commercial | 7 | Rectisol and Selexol licensors (see NETL Gasifipedia) |  |
+| [Well integrity and CO2-resistant cements](#ccs-well-integrity-cements) | Transport and storage / wells | commercial |  | SLB (register examples); Halliburton (register examples) |  |
 | [Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)](#ccs-allam-cycle) | Oxyfuel / power cycle | demonstration | 2-5 | NET Power (cycle developer), Toshiba (combustor and turbine) |  |
+| [Bioenergy with CCS (BECCS)](#ccs-beccs) | Carbon removal / bioenergy | demonstration | 3-7 | Stockholm Exergi (BECCS Stockholm); Drax (BECCS (register examples)); ADM (Decatur (register examples)) |  |
+| [CO2 mineralisation (in-situ basalt)](#ccs-in-situ-mineralisation) | Transport and storage / mineral storage | demonstration | 9 | Carbfix (in-situ mineralisation, Hellisheidi and Coda Terminal) |  |
+| [CO2 shipping and terminals](#ccs-co2-shipping) | Transport and storage / shipping | demonstration | 8 | Northern Lights (Equinor, Shell, TotalEnergies) (CO2 transport and storage) |  |
+| [CO2 to methanol and fuels](#ccs-co2-to-methanol-fuels) | Utilisation / fuels | demonstration | 8 | Carbon Recycling International (George Olah plant) |  |
 | [Direct air capture with liquid solvent (KOH and calcium loop)](#ccs-dac-liquid-solvent) | Direct air capture / liquid solvent | demonstration | 5 | Carbon Engineering / 1PointFive (Occidental) | levelised cost of CO2 captured: 94-232 USD/t CO2 (2016$) |
 | [Direct air capture with solid sorbent](#ccs-dac-solid-sorbent) | Direct air capture / solid sorbent | demonstration | 5 | Climeworks |  |
+| [Ex-situ mineral carbonation](#ccs-ex-situ-mineral-carbonation) | Transport and storage / mineral storage | demonstration | 9 |  | best-case sequestration cost: 42-78 EUR/t CO2 |
+| [Molten carbonate fuel cell capture](#ccs-molten-carbonate-fuel-cell-capture) | Capture / electrochemical | demonstration |  | FuelCell Energy (carbonate fuel cell); ExxonMobil (joint development and Rotterdam pilot (ESSO Nederland)) |  |
 | [Oxyfuel combustion in cement kilns](#ccs-oxyfuel-cement) | Oxyfuel | demonstration | 7 | European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim |  |
 | [Solid sorbent capture by rapid temperature swing](#ccs-solid-sorbent-tsa) | Post-combustion / solid sorbent | demonstration | 6 | Svante (rapid cycle thermal swing adsorption with structured adsorbents) |  |
+| [Storage in depleted oil and gas fields](#ccs-depleted-field-storage) | Transport and storage / storage | demonstration |  | Porthos (Port of Rotterdam, Gasunie, EBN) (depleted-field storage); PETRONAS Carigali (Kasawari CCS) |  |
 | [Calcium looping](#ccs-calcium-looping) | Post-combustion / high-temperature solid looping | pilot | 6-7 | Research consortia (e.g. CSIC-INCAR, Spain) |  |
 | [Cryogenic carbon capture (desublimation)](#ccs-cryogenic) | Post-combustion / cryogenic | pilot | 5 | Sustainable Energy Solutions (Chart Industries) (Cryogenic Carbon Capture) |  |
+| [Enhanced rock weathering and ocean alkalinity enhancement](#ccs-enhanced-weathering) | Carbon removal / geochemical | pilot |  | UNDO (enhanced rock weathering (register examples)); Planetary (ocean alkalinity (register examples)) | removal cost: 60-200 USD/t CO2 (2018$) |
+| [Enzyme-catalysed capture](#ccs-enzyme-capture) | Capture / solvent | pilot |  | Saipem (Bluenzyme (from CO2 Solutions)) |  |
 | [Polymeric membrane capture](#ccs-polymeric-membrane) | Post-combustion / membrane | pilot | 6 | MTR Carbon Capture (Polaris membrane) |  |
+| [CO2 electroreduction to CO, formic acid and ethylene](#ccs-co2-electroreduction) | Utilisation / electrochemical | lab |  | Twelve (E-Jet CO2 electrolysis (register examples)) |  |
 | [Chemical looping combustion](#ccs-chemical-looping-combustion) | Oxyfuel / chemical looping | lab | 4-5 | Research stage; no commercial licensor identified in the cited sources |  |
+| [Electro-swing and moisture-swing DAC](#ccs-electro-swing-moisture-swing-dac) | Carbon removal / direct air capture | lab | 6 | Verdox (electro-swing adsorption) |  |
 | [Emerging capture: water-lean solvents, ionic liquids and electrochemical separation](#ccs-emerging-solvents-electrochemical) | Post-combustion / emerging | lab | 4-5 | Research programmes (see NETL transformational capture programme); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024 | DOE transformational capture cost target: 30-40 USD/t CO2 |
 
 ## Amine solvent post-combustion capture
@@ -61,6 +78,119 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 - solvent regeneration energy (GJ/t CO2) and power-plant cost of capture (performance): Both are in the NETL Cost and Performance Baseline Rev 4a, which is hosted on osti.gov; osti.gov is unreachable from the collector. Where: NETL Cost and Performance Baseline for Fossil Energy Plants Volume 1, Rev 4a (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Collect the baseline when osti.gov is reachable, or download it by hand into corpus/_inbox/netl/; then add the figures. Blocked by: osti.gov reachable from the Mac, or a manual download.
 
 Sources: [1](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [2](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf), [3](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [4](https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf), [5](https://a.fluor.com/f/1014770/x/a744f915e1/econamine-fg-plus-brochure.pdf), [6](https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf). Last reviewed 2026-10-24.
+
+## Biochar
+<a id="ccs-biochar"></a>
+
+Biomass is pyrolysed to a stable carbon-rich solid that is put on soils or into materials, locking in carbon for centuries. In 2024 total delivered carbon dioxide removal was 318,600 t, up 120%, and Exomad Green alone delivered 107,000 t of biochar CO2 removal; biochar purchases were a large share of the nearly 8 Mt contracted.
+
+```mermaid
+flowchart LR
+    FEED["Biomass preparation<br/><small>dryer</small>"]
+    PYR["Pyrolysis<br/><small>pyrolysis kiln</small>"]
+    USE["Application to soil or materials<br/><small>spreading, blending</small>"]
+    FEED --> PYR
+    PYR --> USE
+```
+
+**Key equipment:** pyrolysis unit, feed dryer, quench and handling, off-gas combustion.
+
+**Performance:**
+- Exomad Green delivered CO2 removal: 107000 t CO2; described as 'to date'; total CDR deliveries 318,600 t in 2024; only 4.4% of booked volume delivered. [source](https://biochartoday.com/news/biochars-big-year-107000-tonnes-delivered-amid-8m-tonne-carbon-removal-boom/)
+
+**Missing inputs:**
+- permanence and yield per tonne feedstock (performance): Not in the source. Where: IBI biochar standards (open). Next: Add permanence figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://biochartoday.com/news/biochars-big-year-107000-tonnes-delivered-amid-8m-tonne-carbon-removal-boom/). Last reviewed 2026-10-25.
+
+## CO2 compression and dehydration
+<a id="ccs-co2-compression-dehydration"></a>
+
+Captured CO2 is compressed in integrally geared or in-line compressors to dense phase (around 135 barg in the Drax BECCS case) and dried to about 50 ppmv water (TEG, silica gel or molecular sieve, below 1 ppmv with sieve) before pipeline transport. The Drax cases at about 4 Mtpa needed 32.6 to 40.8 MW of compressor power depending on suction pressure.
+
+```mermaid
+flowchart LR
+    SUC["Suction from capture plant at 0.6 to 3 barg<br/><small>knock-out drum</small>"]
+    CMP["Multi-stage compression with intercooling<br/><small>integrally geared compressors</small>"]
+    DRY["Dehydration<br/><small>TEG, silica gel or molecular sieve unit</small>"]
+    OUT["Dense-phase discharge to pipeline<br/><small>aftercooler, booster pump</small>"]
+    SUC --> CMP
+    CMP --> DRY
+    DRY --> OUT
+```
+
+**Key equipment:** integrally geared compressors, intercoolers, dehydration unit, aftercooler, dense-phase pump.
+
+**Performance:**
+- compressor absorbed power, Drax BECCS about 4 Mtpa: 32.62-40.76 MW; 2 x 50% integrally geared, suction 0.6 to 3 barg, discharge 135 barg. [source](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf)
+- dehydration target water content: 1-50 ppmv; 50 ppmv base case; molecular sieve below 1 ppmv. [source](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf)
+
+**Costs:**
+- integrally geared package capex, Drax BECCS case: 32 GBP million; approximate, one comparison; year not stated in text read. [source](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf)
+
+**Missing inputs:**
+- operating compression units at CCS plants (reference_plants): The report read is a design study. Where: Boundary Dam, Quest, Sleipner papers (open). Next: Add operating references.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf). Last reviewed 2026-10-25.
+
+## CO2 to concrete and aggregates
+<a id="ccs-co2-concrete"></a>
+
+CO2 is injected into concrete during mixing, where it mineralises and raises compressive strength, allowing less cement. CarbonCure reports more than 500,000 t of CO2 saved over 7.5 million truckloads, with hundreds of systems in more than two dozen countries.
+
+```mermaid
+flowchart LR
+    INJ["CO2 injection during mixing<br/><small>dosing system, CO2 tank</small>"]
+    MIX["Mineralisation in the mix<br/><small>mixer</small>"]
+    INJ --> MIX
+```
+
+**Key equipment:** CO2 storage tank, dosing control, concrete mixer.
+
+**Performance:**
+- CO2 saved by CarbonCure to the date of the article: 500000 t CO2; 7.5 million truckloads; date not stated in text read. [source](https://gasworld.com/story/carboncure-hits-500000-tonnes-co2-milestone-with-mineralised-concrete-tech/2145799.article)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- kg CO2 per m3 and cement reduction percent (performance): Not given. Where: CarbonCure technical notes (open). Next: Add typical numbers.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://gasworld.com/story/carboncure-hits-500000-tonnes-co2-milestone-with-mineralised-concrete-tech/2145799.article). Last reviewed 2026-10-25.
+
+## CO2 to urea and polymers
+<a id="ccs-co2-to-urea-polymers"></a>
+
+Urea plants consume CO2 from ammonia production as a feedstock, and Covestro makes CO2-based polyether carbonate polyols for polyurethane foam. Covestro's Dormagen polyols plant, started in 2016, has a capacity of 5,000 t/yr and supports foams that contain about 20% CO2.
+
+```mermaid
+flowchart LR
+    CO2["CO2 supply<br/><small>CO2 purification</small>"]
+    RX["Reaction with ammonia (urea) or epoxide (polyol)<br/><small>synthesis reactor</small>"]
+    CO2 --> RX
+```
+
+**Key equipment:** CO2 supply and purification, synthesis reactor, product finishing.
+
+**Performance:**
+- Covestro polyols plant capacity: 5000 t/yr; Dormagen; PU foams with 20% CO2. [source](https://www.european-rubber-journal.com/2016/06/20/covestro-starts-co2-based-polyols-plant)
+
+**Missing inputs:**
+- global CO2 demand for urea (performance): No source read. Where: IEA CCUS in the transition or Global CCS Institute (catalog: global-ccs-institute, open). Next: Add urea CO2 use in Mt/yr.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.european-rubber-journal.com/2016/06/20/covestro-starts-co2-based-polyols-plant). Last reviewed 2026-10-25.
 
 ## Capture from high-purity CO2 streams (compression and dehydration only)
 <a id="ccs-high-purity-compression"></a>
@@ -167,6 +297,34 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 
 Sources: [1](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119), [2](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067), [3](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135), [4](https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126), [5](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-24.
 
+## Measurement, monitoring and verification (4D seismic, DAS, satellite InSAR)
+<a id="ccs-mmv"></a>
+
+MMV tracks injected CO2 and checks containment: time-lapse (4D) seismic and VSP image the plume, fibre-optic DAS and DTS give continuous well data, InSAR measures ground displacement, and soil gas and groundwater sampling check the surface. Quest (Alberta) injects about 1 Mt/yr with a 27 Mt target and has recorded no microseismic event indicating loss of containment.
+
+```mermaid
+flowchart LR
+    BAS["Baseline surveys<br/><small>3D seismic, soil gas</small>"]
+    INJ["Monitoring during injection<br/><small>VSP, DAS, InSAR, pressure gauges</small>"]
+    VER["Verification and reporting<br/><small>models</small>"]
+    BAS --> INJ
+    INJ --> VER
+```
+
+**Key equipment:** seismic sources and receivers, fibre-optic cables, InSAR data, soil gas and groundwater sampling, pressure gauges.
+
+**Performance:**
+- Quest injection rate: 1-1.1 Mt CO2/yr; total target 27 Mt; MMV plan revised every 3 years. [source](https://albertainnovates.ca/wp-content/uploads/2022/07/CCUS-paper-carbon-MMV-Lawton-et-al.pdf)
+
+**Missing inputs:**
+- detection limits and cost of each method (performance): Not in the paper. Where: NETL MMV best-practice manual (catalog: netl, open). Next: Add thresholds and costs.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://albertainnovates.ca/wp-content/uploads/2022/07/CCUS-paper-carbon-MMV-Lawton-et-al.pdf). Last reviewed 2026-10-25.
+
 ## Physical solvent acid gas removal (pre-combustion)
 <a id="ccs-physical-solvent-pre-combustion"></a>
 
@@ -200,6 +358,31 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
 Sources: [1](https://netl.doe.gov/research/Coal/energy-systems/gasification/gasifipedia/agr), [2](https://dakotagas.com/News-Center/news-releases/carbon-capture-milestone-reached-at-dakota-gas). Last reviewed 2026-10-24.
+
+## Well integrity and CO2-resistant cements
+<a id="ccs-well-integrity-cements"></a>
+
+Portland cement degrades in CO2-rich brine by acid-driven decalcification, carbonation and leaching. Candidate systems include modified Portland, calcium aluminate (CAC), calcium aluminate phosphate (CAPC), magnesium phosphate (MPC) cements, geopolymers and resin sealants; a 2025 review found CAC, CAPC and MPC best at retaining strength and limiting carbonation depth.
+
+```mermaid
+flowchart LR
+    DES["Select cement system with API-aligned laboratory protocol<br/><small>laboratory test cells</small>"]
+    PLC["Cement placement<br/><small>cementing unit</small>"]
+    MON["Integrity logging and monitoring<br/><small>cement bond logs</small>"]
+    DES --> PLC
+    PLC --> MON
+```
+
+**Key equipment:** cementing unit, CO2-resistant cement slurries, cement bond logging tools, pressure monitoring.
+
+**Missing inputs:**
+- quantified strength retention and carbonation depth (performance): Only the abstract was read. Where: Full text of Rasool et al. 2025 (Petroleum Research) (open). Next: Add figures from the full text.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://pure.unileoben.ac.at/en/publications/a-review-on-cementing-system-for-co2-storage-wells-mechanisms-tes/). Last reviewed 2026-10-25.
 
 ## Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)
 <a id="ccs-allam-cycle"></a>
@@ -236,6 +419,133 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 - whether any utility-scale Allam-Fetvedt cycle plant is still planned (status): NET Power's March 2026 update describes its first commercial project as gas turbines with post-combustion capture; it does not say when or whether an Allam-cycle plant follows. Where: [NET Power 10-K for FY2025 and later quarterly reports (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1845437/000184543726000009/npwr-20251231.htm) (open). Next: Read the 10-K technology section and record NET Power's stated plan for the Allam-Fetvedt cycle; revisit the card's maturity if no plant is planned.
 
 Sources: [1](https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/), [2](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [3](https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update). Last reviewed 2026-10-24.
+
+## Bioenergy with CCS (BECCS)
+<a id="ccs-beccs"></a>
+
+CO2 from biomass combustion or fermentation is captured and stored, so net emissions are negative. Stockholm Exergi converts an existing biomass cogeneration plant using hot potassium carbonate capture, with liquefied CO2 shipped for permanent storage. The project avoids about seven million tonnes of CO2 over its first ten years; capture is targeted for late 2028 with EUR 180 million Innovation Fund support. IEA rates bioenergy with post-combustion capture at TRL 7.
+
+```mermaid
+flowchart LR
+    BIO["Biomass combustion or fermentation<br/><small>boiler, fermenter</small>"]
+    CAP["CO2 capture (HPC, amine)<br/><small>absorber, regenerator</small>"]
+    LIQ["Liquefaction and transport<br/><small>liquefier, ship or pipeline</small>"]
+    STO["Permanent storage<br/><small>injection wells</small>"]
+    BIO --> CAP
+    CAP --> LIQ
+    LIQ --> STO
+```
+
+**Key equipment:** biomass boiler, capture plant, CO2 liquefaction, CO2 transport, injection wells.
+
+**Performance:**
+- CO2 avoided over the first ten years, Stockholm BECCS: 7 Mt CO2; page gives no annual rate. [source](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg)
+
+**Reference plants:**
+- BECCS Stockholm (Stockholm Exergi), SE: about 0.7 Mt CO2/yr implied by 7 Mt over ten years; environmental permit 28 March 2024; capture targeted late 2028. [source](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Bioenergy with post-combustion CO2 capture' 7 (2025); 'Bioenergy with pre-combustion CO2 capture' 3 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- operating BECCS plants (ADM Decatur, Drax pilot) (reference_plants): Only Stockholm read; the Drax document read is a compression report. Where: Global CCS Institute facility database (catalog: global-ccs-institute, open). Next: Add operating plants.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg), [2](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf). Last reviewed 2026-10-25.
+
+## CO2 mineralisation (in-situ basalt)
+<a id="ccs-in-situ-mineralisation"></a>
+
+CO2 is dissolved in water at the surface and injected into basalt, where it reacts with calcium, magnesium and iron in the rock to form carbonate minerals. At Hellisheidi in Iceland, Carbfix reports nearly 95% of injected CO2 mineralised within two years. The Coda Terminal is planned to mineralise 3 Mt CO2 when fully operating in 2031. IEA rates CO2 mineralisation (inert carbonate materials) at TRL 9.
+
+```mermaid
+flowchart LR
+    DIS["Dissolve CO2 in water<br/><small>dissolution tower</small>"]
+    INJ["Inject into basalt<br/><small>injection well</small>"]
+    MIN["Mineralisation underground<br/><small>basalt reservoir</small>"]
+    DIS --> INJ
+    INJ --> MIN
+```
+
+**Key equipment:** water supply, dissolution unit, injection wells, monitoring wells.
+
+**Performance:**
+- CO2 mineralised within two years at Hellisheidi: 95 %; nearly 95%. [source](https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764)
+- Coda Terminal planned mineralisation: 3 Mt CO2; when fully operational (2031). [source](https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- cost per tonne (costs): The article gives none. Where: Carbfix publications (open). Next: Add costs.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764). Last reviewed 2026-10-25.
+
+## CO2 shipping and terminals
+<a id="ccs-co2-shipping"></a>
+
+Liquefied CO2 is carried by ship to an onshore receiving terminal, then piped to an offshore injection well. At Northern Lights in Norway, CO2 from Heidelberg Materials' Brevik cement plant is shipped to a terminal at Øygarden and injected 2,600 m below the seabed in the Aurora reservoir; first injection was reported on 25 August 2025. IEA rates CO2 shipping at TRL 8.
+
+```mermaid
+flowchart LR
+    LIQ["Liquefaction at capture site<br/><small>liquefier, intermediate storage</small>"]
+    SHP["Ship transport<br/><small>CO2 carrier</small>"]
+    TRM["Receiving terminal storage<br/><small>terminal tanks</small>"]
+    PIPE["Pipeline to offshore well<br/><small>subsea pipeline</small>"]
+    INJ["Injection<br/><small>injection well</small>"]
+    LIQ --> SHP
+    SHP --> TRM
+    TRM --> PIPE
+    PIPE --> INJ
+```
+
+**Key equipment:** liquefaction unit, CO2 carrier ships, terminal storage tanks, subsea pipeline, injection well.
+
+**Performance:**
+- Northern Lights phase 1 capacity: 1.5 Mtpa CO2; fully booked; phase 2 at least 5 Mtpa. [source](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights)
+- storage depth: 2600 m below seabed; Aurora reservoir. [source](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights)
+
+**Reference plants:**
+- Northern Lights, Øygarden terminal and Aurora storage, NO: 1.5 Mtpa phase 1; first CO2 injected, reported 25 August 2025. [source](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 shipping' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- transport cost per tonne by distance (costs): Not in the Equinor release. Where: Global CCS Institute and IEAGHG cost reports (catalog: iea-ghg, open). Next: Add costs.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights). Last reviewed 2026-10-25.
+
+## CO2 to methanol and fuels
+<a id="ccs-co2-to-methanol-fuels"></a>
+
+CO2 from a point source and electrolytic hydrogen are reacted over a catalyst to make methanol. Carbon Recycling International's George Olah plant at Svartsengi, Iceland uses geothermal power plant flue-gas CO2 and electrolysis hydrogen, was commissioned in 2012 and was scaled from 1,300 to 4,000 t/yr.
+
+```mermaid
+flowchart LR
+    H2["Water electrolysis<br/><small>electrolyser</small>"]
+    CO2["CO2 from flue gas<br/><small>capture</small>"]
+    SYN["Methanol synthesis and distillation<br/><small>reactor, distillation</small>"]
+    H2 --> SYN
+    CO2 --> SYN
+```
+
+**Key equipment:** electrolyser, CO2 capture, methanol reactor, distillation.
+
+**Performance:**
+- George Olah plant capacity: 4000 t/yr methanol; scaled up from 1,300 t/yr. [source](https://carbonrecycling.com/projects/george-olah)
+
+**Reference plants:**
+- George Olah plant, Svartsengi, IS: 4,000 t/yr methanol; . [source](https://carbonrecycling.com/projects/george-olah)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- production cost (costs): Not on the page. Where: IRENA innovation outlook: renewable methanol (catalog: irena, open). Next: Add costs.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://carbonrecycling.com/projects/george-olah). Last reviewed 2026-10-25.
 
 ## Direct air capture with liquid solvent (KOH and calcium loop)
 <a id="ccs-dac-liquid-solvent"></a>
@@ -310,6 +620,67 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 
 Sources: [1](https://climeworks.com/highly-scalable-direct-air-capture), [2](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [3](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [4](https://www.energyconnects.com/news/renewables/2026/september/carbon-removal-pioneer-climeworks-increases-co2-capture-sixfold/). Last reviewed 2026-10-24.
 
+## Ex-situ mineral carbonation
+<a id="ccs-ex-situ-mineral-carbonation"></a>
+
+Crushed Mg/Ca silicates or alkaline wastes react with CO2 in a plant to form stable carbonates. The ECN review found direct aqueous carbonation the most promising route (olivine 91% in 6 h at about 185 degC and 150 atm), with an energy penalty of about 27% of a power plant (75% from grinding) and best-case costs of EUR 42/t CO2 for olivine, 49 for wollastonite and 78 for serpentine.
+
+```mermaid
+flowchart LR
+    MIN["Mining and grinding<br/><small>crusher, mill</small>"]
+    RX["Carbonation reactor<br/><small>autoclave</small>"]
+    DSP["Product disposal or use<br/><small>filter</small>"]
+    MIN --> RX
+    RX --> DSP
+```
+
+**Key equipment:** mill, high-pressure autoclave, heat recovery, solids handling.
+
+**Performance:**
+- olivine conversion in direct aqueous route: 91 %; 6 h, about 185 degC, about 150 atm CO2, feed 80% below 37 um. [source](https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf)
+- energy penalty, aqueous route at a power plant: 27 %; about 75% of it from grinding. [source](https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf)
+
+**Costs:**
+- best-case sequestration cost: 42-78 EUR/t CO2; olivine 42, wollastonite 49, serpentine 78; ECN review 2003-2004 literature. [source](https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- current plant data (performance): The review is from 2003-2004 data. Where: Recent pilot reports on mineral carbonation and alkaline wastes (open). Next: Add post-2020 pilots.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf). Last reviewed 2026-10-25.
+
+## Molten carbonate fuel cell capture
+<a id="ccs-molten-carbonate-fuel-cell-capture"></a>
+
+Flue gas passes over the cathode of a carbonate fuel cell. CO2 migrates through the electrolyte to the anode side, where it is concentrated and condensed from the anode exhaust, while the cell generates power. FuelCell Energy and ExxonMobil have worked on the design since 2016 and ExxonMobil is building a pilot at its Rotterdam complex.
+
+```mermaid
+flowchart LR
+    FLU["Flue gas to cathode<br/><small>flue gas conditioning</small>"]
+    CELL["Carbonate fuel cell stack<br/><small>carbonate fuel cell</small>"]
+    CHL["Anode exhaust chilling and CO2 liquefaction<br/><small>chillers</small>"]
+    FLU --> CELL
+    CELL --> CHL
+```
+
+**Key equipment:** carbonate fuel cell stacks, flue gas conditioning, anode exhaust chillers, CO2 compression.
+
+**Performance:**
+- NOx destroyed in the cell: 70 %; approximate, per the article. [source](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/)
+- power penalty of conventional capture, as stated by FuelCell Energy: 20 % of plant output; vendor claim; carbonate cells instead generate power. [source](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/)
+
+**Missing inputs:**
+- capture rate, power output per tonne CO2, cost (performance): The article gives none. Where: EU CFC Pilot4CCS project page (cinea.ec.europa.eu) (open); FuelCell Energy announcements (open). Next: Add measured pilot results.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/). Last reviewed 2026-10-25.
+
 ## Oxyfuel combustion in cement kilns
 <a id="ccs-oxyfuel-cement"></a>
 
@@ -373,6 +744,37 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
 Sources: [1](https://netl.doe.gov/node/11418), [2](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-10-24.
+
+## Storage in depleted oil and gas fields
+<a id="ccs-depleted-field-storage"></a>
+
+CO2 is injected into depleted gas or oil reservoirs, which have proven seals and known capacity. Porthos in the Netherlands will inject 2.5 Mtpa at about 3 km depth into depleted fields P18-2, P18-4 and P18-6 about 20 km off the coast. PETRONAS Kasawari CCS will reinject 3.3 Mtpa into the depleted M1 field offshore Sarawak.
+
+```mermaid
+flowchart LR
+    TRN["Pipeline transport<br/><small>pipeline, compressor station</small>"]
+    INJ["Injection into depleted reservoir<br/><small>platform, injection well</small>"]
+    MON["Pressure and plume monitoring<br/><small>gauges, seismic</small>"]
+    TRN --> INJ
+    INJ --> MON
+```
+
+**Key equipment:** injection platform, injection wells, pipeline, monitoring wells.
+
+**Performance:**
+- Porthos capacity: 2.5 Mtpa CO2; 37 Mt over 15 years; injection pressure up to 130 bar. [source](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape)
+- Kasawari CCS capacity: 3.3 Mtpa CO2; 71 to 76 Mt over project life. [source](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs)
+
+**Reference plants:**
+- Porthos, Rotterdam to North Sea, NL: 2.5 Mtpa; operational expected 2026. [source](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape)
+- Kasawari CCS, Sarawak, MY: 3.3 Mtpa; FID October 2022. [source](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs)
+
+**Missing inputs:**
+- TRL (trl): IEA guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape), [2](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs). Last reviewed 2026-10-25.
 
 ## Calcium looping
 <a id="ccs-calcium-looping"></a>
@@ -439,6 +841,61 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 
 Sources: [1](https://netl.doe.gov/sites/default/files/netl-file/22CM_PSC15_Hoeger.pdf), [2](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-10-24.
 
+## Enhanced rock weathering and ocean alkalinity enhancement
+<a id="ccs-enhanced-weathering"></a>
+
+Crushed silicate rock (basalt, olivine) is spread on land or added to seawater so it weathers faster and converts CO2 to bicarbonate. Strefler and colleagues estimated potentials of up to 95 Gt CO2/yr for dunite and 4.9 Gt for basalt on cropland and costs of about USD 60 per tonne CO2 for dunite and USD 200 for basalt. UNDO and Planetary are listed as developers.
+
+```mermaid
+flowchart LR
+    MIN["Mine and crush rock<br/><small>crusher</small>"]
+    APP["Spread on cropland or add to seawater<br/><small>spreaders, ships</small>"]
+    MON["Monitor weathering and CO2 uptake<br/><small>soil and water sampling</small>"]
+    MIN --> APP
+    APP --> MON
+```
+
+**Key equipment:** rock crushers, transport, spreading equipment, monitoring and sampling.
+
+**Performance:**
+- removal potential on cropland: 4.9-95 Gt CO2/yr; basalt 4.9, dunite 95. [source](https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full)
+
+**Costs:**
+- removal cost: 60-200 USD/t CO2 (2018$); dunite about 60, basalt about 200; paper published 2018, dollar year not stated. [source](https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full)
+
+**Missing inputs:**
+- field trial results (reference_plants): Only a potential and cost study read. Where: UNDO and Planetary field data (open). Next: Add field results.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full). Last reviewed 2026-10-25.
+
+## Enzyme-catalysed capture
+<a id="ccs-enzyme-capture"></a>
+
+Carbonic anhydrase enzyme speeds up CO2 hydration in a non-toxic, non-volatile solvent, so capture can run on low-grade heat. Saipem sells it as Bluenzyme; the first product, Bluenzyme 200, has a nominal capacity of 200 t CO2 per day and was tested within the EU ACCSESS project.
+
+```mermaid
+flowchart LR
+    ABS["Absorption with enzyme-enhanced solvent<br/><small>absorber</small>"]
+    REG["Low-temperature regeneration<br/><small>regenerator</small>"]
+    ABS --> REG
+```
+
+**Key equipment:** absorber, regenerator, enzyme solvent system.
+
+**Performance:**
+- nominal capture capacity of Bluenzyme 200: 200 t CO2/day; Saipem product. [source](https://www.digitalrefining.com/news/1007573/bluenzyme-sustainable-co2-capture-solution-from-saipem)
+
+**Missing inputs:**
+- specific energy and capture rate (performance): Not given. Where: ACCSESS project results (open); Saipem technical papers (catalog: saipem, open). Next: Add measured figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.digitalrefining.com/news/1007573/bluenzyme-sustainable-co2-capture-solution-from-saipem). Last reviewed 2026-10-25.
+
 ## Polymeric membrane capture
 <a id="ccs-polymeric-membrane"></a>
 
@@ -472,6 +929,34 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 
 Sources: [1](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [2](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf). Last reviewed 2026-10-24.
 
+## CO2 electroreduction to CO, formic acid and ethylene
+<a id="ccs-co2-electroreduction"></a>
+
+CO2 is reduced at a cathode to CO (Ag, Au), formate (Pb, Sn) or ethylene (Cu). Kenis and colleagues report CO at 94% Faradaic efficiency and 91 mA/cm2 on a silver gas-diffusion electrode and say commercial use needs overpotential below 0.2 V at above 100 mA/cm2; no standard durability protocols existed in 2013.
+
+```mermaid
+flowchart LR
+    IN["CO2 and water or electrolyte feed<br/><small>gas diffusion electrode cell</small>"]
+    EL["Electrolysis<br/><small>electrolyser stack</small>"]
+    SEP["Product separation<br/><small>separation</small>"]
+    IN --> EL
+    EL --> SEP
+```
+
+**Key equipment:** electrolyser stack, gas diffusion electrodes, CO2 supply, product separation.
+
+**Performance:**
+- CO faradaic efficiency on Ag GDE: 94 %; 91 mA/cm2, energy efficiency 46%. [source](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf)
+- C1-C2 fuels at high current: 70 % faradaic efficiency; 600 mA/cm2, energy efficiency below 22%. [source](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf)
+
+**Missing inputs:**
+- current TRL and Twelve plant data (trl): The review is from 2013. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Add post-2020 pilot data.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf). Last reviewed 2026-10-25.
+
 ## Chemical looping combustion
 <a id="ccs-chemical-looping-combustion"></a>
 
@@ -499,6 +984,35 @@ TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCC
 - named operating or planned plants with capacity and status (reference_plants): Lab-stage technology: pilot units may exist but none was found in sources read. Where: IEA CCUS Projects Database (free registration) (catalog: iea-ccus-db, registration); Global CCS Institute CO2RE facilities database (catalog: global-ccs-co2re, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-10-24.
+
+## Electro-swing and moisture-swing DAC
+<a id="ccs-electro-swing-moisture-swing-dac"></a>
+
+Electro-swing adsorption toggles the CO2 affinity of a redox-active material electrochemically: it captures at 400 ppm while charging and releases when discharged. Moisture-swing sorbents capture CO2 when dry and release it when wetted. Verdox's 2020-21 DOE project tuned quinone redox molecules and electrode channels, reporting a channel pressure drop below 1,000 Pa. IEA rates electrochemical DAC at TRL 6.
+
+```mermaid
+flowchart LR
+    CHG["Charge: capture CO2 from air<br/><small>electrochemical cell with air channels</small>"]
+    DCH["Discharge: release CO2<br/><small>electrochemical cell</small>"]
+    CMP["CO2 collection and compression<br/><small>compressor</small>"]
+    CHG --> DCH
+    DCH --> CMP
+```
+
+**Key equipment:** electrochemical cell stack, air contactor channels, power electronics, CO2 compression.
+
+**Performance:**
+- channel pressure drop reported: up to 1000 Pa; Verdox DOE kickoff slides, February 2021. [source](https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Electrochemical DAC (e-DAC)' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
+**Missing inputs:**
+- kJ per mole CO2 and capacity of electro-swing; moisture-swing sorbents (performance): The slides give neither; no moisture-swing source read. Where: Verdox papers (open); Review of moisture swing sorbents (Inderscience) (open). Next: Add the numbers and a moisture-swing source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf). Last reviewed 2026-10-25.
 
 ## Emerging capture: water-lean solvents, ionic liquids and electrochemical separation
 <a id="ccs-emerging-solvents-electrochemical"></a>

@@ -1,0 +1,152 @@
+{
+  "id": "ccs-well-integrity-cements",
+  "name": "Well integrity and CO2-resistant cements",
+  "aliases": [
+    "CO2-resistant cement",
+    "well integrity for CCS"
+  ],
+  "sector": "CCS",
+  "category": "Transport and storage / wells",
+  "applications": [],
+  "maturity": "commercial",
+  "principle": "Portland cement degrades in CO2-rich brine by acid-driven decalcification, carbonation and leaching. Candidate systems include modified Portland, calcium aluminate (CAC), calcium aluminate phosphate (CAPC), magnesium phosphate (MPC) cements, geopolymers and resin sealants; a 2025 review found CAC, CAPC and MPC best at retaining strength and limiting carbonation depth.",
+  "process_steps": [
+    {
+      "id": "DES",
+      "name": "Select cement system with API-aligned laboratory protocol",
+      "equipment": [
+        "laboratory test cells"
+      ],
+      "to": [
+        "PLC"
+      ]
+    },
+    {
+      "id": "PLC",
+      "name": "Cement placement",
+      "equipment": [
+        "cementing unit"
+      ],
+      "to": [
+        "MON"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Integrity logging and monitoring",
+      "equipment": [
+        "cement bond logs"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "cementing unit",
+    "CO2-resistant cement slurries",
+    "cement bond logging tools",
+    "pressure monitoring"
+  ],
+  "suppliers": [
+    {
+      "name": "SLB",
+      "product": "register examples",
+      "source_id": "slb"
+    },
+    {
+      "name": "Halliburton",
+      "product": "register examples",
+      "source_id": "halliburton"
+    }
+  ],
+  "advantages": [
+    "Alternative binders outperform Portland in lab tests (review)"
+  ],
+  "limitations": [
+    "Long-term field validation is lacking (review)"
+  ],
+  "sources": [
+    {
+      "url": "https://pure.unileoben.ac.at/en/publications/a-review-on-cementing-system-for-co2-storage-wells-mechanisms-tes/",
+      "note": "Rasool et al. 2025, A review on cementing systems for CO2 storage wells, Petroleum Research 11(2) (abstract)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "quantified strength retention and carbonation depth",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only the abstract was read.",
+      "where": [
+        {
+          "hint": "Full text of Rasool et al. 2025 (Petroleum Research)",
+          "access": "open"
+        }
+      ],
+      "action": "Add figures from the full text."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

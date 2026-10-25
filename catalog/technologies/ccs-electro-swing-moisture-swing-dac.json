@@ -1,0 +1,160 @@
+{
+  "id": "ccs-electro-swing-moisture-swing-dac",
+  "name": "Electro-swing and moisture-swing DAC",
+  "aliases": [
+    "electro-swing adsorption",
+    "moisture-swing DAC",
+    "electrochemical DAC"
+  ],
+  "sector": "CCS",
+  "category": "Carbon removal / direct air capture",
+  "applications": [],
+  "maturity": "lab",
+  "principle": "Electro-swing adsorption toggles the CO2 affinity of a redox-active material electrochemically: it captures at 400 ppm while charging and releases when discharged. Moisture-swing sorbents capture CO2 when dry and release it when wetted. Verdox's 2020-21 DOE project tuned quinone redox molecules and electrode channels, reporting a channel pressure drop below 1,000 Pa. IEA rates electrochemical DAC at TRL 6.",
+  "process_steps": [
+    {
+      "id": "CHG",
+      "name": "Charge: capture CO2 from air",
+      "equipment": [
+        "electrochemical cell with air channels"
+      ],
+      "to": [
+        "DCH"
+      ]
+    },
+    {
+      "id": "DCH",
+      "name": "Discharge: release CO2",
+      "equipment": [
+        "electrochemical cell"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "CO2 collection and compression",
+      "equipment": [
+        "compressor"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "electrochemical cell stack",
+    "air contactor channels",
+    "power electronics",
+    "CO2 compression"
+  ],
+  "suppliers": [
+    {
+      "name": "Verdox",
+      "product": "electro-swing adsorption"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "channel pressure drop reported",
+      "unit": "Pa",
+      "basis": "Verdox DOE kickoff slides, February 2021",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf",
+        "source_id": "netl",
+        "note": "NETL project kickoff slides, Verdox electro-swing adsorption DAC (February 2021)"
+      },
+      "high": 1000
+    }
+  ],
+  "trl": {
+    "low": 6,
+    "high": 6,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Electrochemical DAC (e-DAC)' 6 (2025)"
+    }
+  },
+  "advantages": [
+    "Operates at ambient temperature and avoids heat input in principle"
+  ],
+  "limitations": [
+    "The slides give no energy, capacity or cost figures"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf",
+      "source_id": "netl",
+      "note": "NETL project kickoff slides, Verdox electro-swing adsorption DAC (February 2021)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "kJ per mole CO2 and capacity of electro-swing; moisture-swing sorbents",
+      "reason_code": "not_in_sources_read",
+      "reason": "The slides give neither; no moisture-swing source read.",
+      "where": [
+        {
+          "hint": "Verdox papers",
+          "access": "open"
+        },
+        {
+          "hint": "Review of moisture swing sorbents (Inderscience)",
+          "access": "open"
+        }
+      ],
+      "action": "Add the numbers and a moisture-swing source."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "ccs-in-situ-mineralisation",
+  "name": "CO2 mineralisation (in-situ basalt)",
+  "aliases": [
+    "Carbfix",
+    "basalt storage",
+    "in-situ mineralisation"
+  ],
+  "sector": "CCS",
+  "category": "Transport and storage / mineral storage",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "CO2 is dissolved in water at the surface and injected into basalt, where it reacts with calcium, magnesium and iron in the rock to form carbonate minerals. At Hellisheidi in Iceland, Carbfix reports nearly 95% of injected CO2 mineralised within two years. The Coda Terminal is planned to mineralise 3 Mt CO2 when fully operating in 2031. IEA rates CO2 mineralisation (inert carbonate materials) at TRL 9.",
+  "process_steps": [
+    {
+      "id": "DIS",
+      "name": "Dissolve CO2 in water",
+      "equipment": [
+        "dissolution tower"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Inject into basalt",
+      "equipment": [
+        "injection well"
+      ],
+      "to": [
+        "MIN"
+      ]
+    },
+    {
+      "id": "MIN",
+      "name": "Mineralisation underground",
+      "equipment": [
+        "basalt reservoir"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "water supply",
+    "dissolution unit",
+    "injection wells",
+    "monitoring wells"
+  ],
+  "suppliers": [
+    {
+      "name": "Carbfix",
+      "product": "in-situ mineralisation, Hellisheidi and Coda Terminal"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO2 mineralised within two years at Hellisheidi",
+      "unit": "%",
+      "basis": "nearly 95%",
+      "source": {
+        "url": "https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764",
+        "note": "alcircle, Carbfix transforming CO2 emissions into stone"
+      },
+      "low": 95,
+      "high": 95
+    },
+    {
+      "metric": "Coda Terminal planned mineralisation",
+      "unit": "Mt CO2",
+      "basis": "when fully operational (2031)",
+      "source": {
+        "url": "https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764",
+        "note": "alcircle, Carbfix transforming CO2 emissions into stone"
+      },
+      "low": 3,
+      "high": 3
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Permanent mineral storage",
+    "No long-term leak monitoring needed (article claim)"
+  ],
+  "limitations": [
+    "Needs large water volumes and basalt formations (the article does not quantify)"
+  ],
+  "sources": [
+    {
+      "url": "https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764",
+      "note": "alcircle, Carbfix transforming CO2 emissions into stone"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per tonne",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article gives none.",
+      "where": [
+        {
+          "hint": "Carbfix publications",
+          "access": "open"
+        }
+      ],
+      "action": "Add costs."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

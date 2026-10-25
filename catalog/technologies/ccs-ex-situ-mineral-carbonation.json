@@ -1,0 +1,156 @@
+{
+  "id": "ccs-ex-situ-mineral-carbonation",
+  "name": "Ex-situ mineral carbonation",
+  "aliases": [
+    "mineral carbonation",
+    "ex-situ mineralisation"
+  ],
+  "sector": "CCS",
+  "category": "Transport and storage / mineral storage",
+  "applications": [],
+  "maturity": "demonstration",
+  "principle": "Crushed Mg/Ca silicates or alkaline wastes react with CO2 in a plant to form stable carbonates. The ECN review found direct aqueous carbonation the most promising route (olivine 91% in 6 h at about 185 degC and 150 atm), with an energy penalty of about 27% of a power plant (75% from grinding) and best-case costs of EUR 42/t CO2 for olivine, 49 for wollastonite and 78 for serpentine.",
+  "process_steps": [
+    {
+      "id": "MIN",
+      "name": "Mining and grinding",
+      "equipment": [
+        "crusher",
+        "mill"
+      ],
+      "to": [
+        "RX"
+      ]
+    },
+    {
+      "id": "RX",
+      "name": "Carbonation reactor",
+      "equipment": [
+        "autoclave"
+      ],
+      "to": [
+        "DSP"
+      ]
+    },
+    {
+      "id": "DSP",
+      "name": "Product disposal or use",
+      "equipment": [
+        "filter"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "mill",
+    "high-pressure autoclave",
+    "heat recovery",
+    "solids handling"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "olivine conversion in direct aqueous route",
+      "unit": "%",
+      "basis": "6 h, about 185 degC, about 150 atm CO2, feed 80% below 37 um",
+      "source": {
+        "url": "https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf",
+        "source_id": "tno",
+        "note": "ECN/TNO review of mineral carbonation routes (2003-2004 literature)"
+      },
+      "low": 91,
+      "high": 91
+    },
+    {
+      "metric": "energy penalty, aqueous route at a power plant",
+      "unit": "%",
+      "basis": "about 75% of it from grinding",
+      "source": {
+        "url": "https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf",
+        "source_id": "tno",
+        "note": "ECN/TNO review of mineral carbonation routes (2003-2004 literature)"
+      },
+      "low": 27,
+      "high": 27
+    }
+  ],
+  "costs": [
+    {
+      "metric": "best-case sequestration cost",
+      "unit": "EUR/t CO2",
+      "basis": "olivine 42, wollastonite 49, serpentine 78; ECN review 2003-2004 literature",
+      "source": {
+        "url": "https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf",
+        "source_id": "tno",
+        "note": "ECN/TNO review of mineral carbonation routes (2003-2004 literature)"
+      },
+      "low": 42,
+      "high": 78,
+      "year": 2004
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)"
+    }
+  },
+  "advantages": [
+    "Permanent storage in solid carbonate"
+  ],
+  "limitations": [
+    "Review concluded costs too high against other storage options (2004 view)"
+  ],
+  "sources": [
+    {
+      "url": "https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf",
+      "source_id": "tno",
+      "note": "ECN/TNO review of mineral carbonation routes (2003-2004 literature)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "current plant data",
+      "reason_code": "not_in_sources_read",
+      "reason": "The review is from 2003-2004 data.",
+      "where": [
+        {
+          "hint": "Recent pilot reports on mineral carbonation and alkaline wastes",
+          "access": "open"
+        }
+      ],
+      "action": "Add post-2020 pilots."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
