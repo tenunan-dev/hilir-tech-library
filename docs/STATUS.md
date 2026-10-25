@@ -2,6 +2,39 @@
 
 Living document. Update it at the end of every working session (newest entry on top in the log).
 
+## Handover (2026-10-25): start here
+
+State: the catalog (348 sources), 140 summarised documents and 293 technology cards (all 300 register entries covered) are built, tested (`pytest -q tests`: 348 passed) and pushed. Hosted copy at https://techlibrary.tenunan.com/mcp is live but **predates the new cards and summaries** until redeployed.
+
+### Open items (all need the owner or the Mac session; the cloud chat cannot reach techlibrary.tenunan.com)
+
+1. **Redeploy Cloudflare** on the Mac: `python tools/build.py && python agent/library.py build`, then `cd deploy/cloudflare && npx wrangler deploy` with Docker running (docs/HOSTING.md). The API key is in `~/.config/og-tech-library/api-key` on the Mac.
+2. **Embeddings** on the Mac: `python agent/embed.py` (vector index in `build/library.db`). Semantic `similar_to` graph edges only exist once embeddings are loaded.
+3. **Neon**: the owner creates a Neon project and gives the connection string (never commit it). Then `export DATABASE_URL=...; pip install -r requirements-postgres.txt; python tools/load_postgres.py` (open-licence text only; add `--embeddings sqlite` or `fastembed` for vectors). The load replaces schema `og` in one transaction.
+4. **GitHub Actions auto-deploy**: the owner decides; it needs a Cloudflare API token set with `gh secret set CLOUDFLARE_API_TOKEN --repo tenunan-dev/og-tech-sources`. Until then redeploys are manual.
+5. **Dataverse import**: the owner imports the CSVs in `/mnt/project-files/og-library/dataverse/` into his Power Platform environment (docs/DATAVERSE.md). Regenerate with `python tools/export_dataverse.py --out <dir>` after any card change.
+
+### Postgres, vector and graph: how it is built and rebuilt
+
+- Schema `db/schema.sql` (schema `og`: source, document, chunk with `vector(384)` embeddings using BAAI/bge-small-en-v1.5 and an HNSW index, tsvector full text, pg_trgm, technology cards with figures, suppliers and gaps, register, node and edge tables, functions `graph_neighbors`, `hybrid_search`, `refresh_similarity`, views `v_gap` and `v_technology_co_citation`).
+- Graph is built by `agent/graph.py` from catalog, cards, register and documents. Relations: published_by, in_sector, covers_discipline, in_region, in_country, from_source, cites, cites_document, supplied_by, has_source, realised_by, example_supplier, alternative_to, mentions, has_gap, look_in, similar_to. Each edge is a recorded fact or a named matching rule.
+- Local test used so far: Postgres 16 with pgvector, `TEST_DATABASE_URL=postgresql://...` (scratch database; the load truncates schema `og`), `python -m pytest -q tests/test_graph.py`. Last full load without embeddings: 348 sources, 140 documents, 7,831 passages, 293 cards, 300 register entries, 3,069 nodes, 8,794 edges.
+- `python tools/load_postgres.py --dump-graph build/graph` writes the graph as JSON lines with no database. Details in docs/POSTGRES.md.
+
+### Rules added this session
+
+- Every corpus document needs a `summary` in its front matter (test enforced). After any collector run, summarise the new documents by hand before committing.
+- Card rules are listed in AGENTS.md rules 9 and 10.
+- Workflow that worked for cards: research each topic with sources actually read, generate cards from a script into `catalog/technologies/`, run `python tools/build.py` then `pytest -q tests`, commit, push. Never edit `catalog/catalog.jsonl`, `catalog/index/*` or `build/` by hand.
+
+### Weak spots to improve next
+
+- The 34 cross-cutting cards (PRC, ROT, INS, MAT, HSE, DIG) rest mostly on Wikipedia pages (secondary) and a few vendor pages; they are thin on suppliers, costs and TRL. Replace with OEM, standards-body (API, ISO, IEC, ASME) and licensor sources, and fill their gaps.
+- About 100 of 293 cards cite sources not in the catalog (trade press, vendor pages, journals). Catalogue the frequently cited ones; the graph test allows at most 40% of cards without a catalogued citation.
+- Several cards carry old or inconsistent data flagged in their limitations (EPA pneumatic controller math from 2006, THAI brochure API figures, Hywind start-up dates).
+- Cards with a wiki-only suppliers list name no suppliers; those are recorded as gaps.
+- Older backlog below still stands: manual terms checks, remaining PETRONAS and Ditjen Migas collection (Mac), MDPI and OSTI blockers.
+
 ## Current numbers (2026-10-25)
 
 | Item | Count |
