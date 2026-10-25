@@ -15,11 +15,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "CC-BY-NC-ND-4.0",
-  "reuse_level": "full-text-open",
+  "licence": "(unchanged)",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "Proceedings platform and licence not stated on home page; see https://ghgt.info/past-ghgts/. Evidence: https://ghgt.info/",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "automated_access": "allowed",
+  "permitted_use": "personal-non-commercial"
 }

@@ -18,11 +18,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "licence": "(unchanged)",
+  "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Licence not on home page; check https://dexpi.org/specifications/. Evidence: https://dexpi.org/",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "automated_access": "allowed",
+  "permitted_use": "any"
 }

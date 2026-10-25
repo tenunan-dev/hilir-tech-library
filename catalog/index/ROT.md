@@ -27,7 +27,7 @@
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
 | [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted (unverified) |
-| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [Ariel Corporation](https://www.arielcorp.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Atlas Copco Gas and Process](https://www.atlascopco.com/en-us/compressors/products/process-gas-compressors) | oem-supplier | global | open | summary-only (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
@@ -51,14 +51,14 @@
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [Nel Hydrogen](https://nelhydrogen.com/) | oem-supplier | global | open | full-text-restricted |
-| [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [TechnipFMC](https://www.technipfmc.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
-| [Weatherford](https://www.weatherford.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Weatherford](https://www.weatherford.com/) | oem-supplier | global | open | full-text-restricted |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [World Oil](https://www.worldoil.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |

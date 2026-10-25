@@ -16,7 +16,7 @@
 | [OTC Asia (Kuala Lumpur)](https://otcasia.org/) | conference | sea, apac | mixed | catalog-only (unverified) |
 | [Petroleum (KeAi)](https://www.keaipublishing.com/en/journals/petroleum/) | journal | apac | open | full-text-restricted |
 | [Petroleum Science (KeAi, open access)](https://www.keaipublishing.com/en/journals/petroleum-science/) | journal | apac, global | open | full-text-restricted |
-| [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted (unverified) |
+| [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
@@ -40,13 +40,13 @@
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
-| [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open (unverified) |
+| [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
-| [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted (unverified) |
+| [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted |
 | [Materials (MDPI)](https://www.mdpi.com/journal/materials) | journal | global | open | full-text-open |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
@@ -58,7 +58,7 @@
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
-| [Clean Hydrogen Partnership (EU) programme reviews](https://www.clean-hydrogen.europa.eu/) | agency-data | eu | open | full-text-open (unverified) |
+| [Clean Hydrogen Partnership (EU) programme reviews](https://www.clean-hydrogen.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
@@ -72,7 +72,7 @@
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
-| [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open (unverified) |
+| [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open |
 | [US DOE Hydrogen and Fuel Cell Technologies Office](https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |

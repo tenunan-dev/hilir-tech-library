@@ -21,12 +21,12 @@
 | [Mercaptan sweetening (Merox)](#ref-merox-sweetening) | Refining / treating | commercial |  | Honeywell UOP (Merox); Merichem (mercaptan treating (register examples; not verified)) |  |
 | [Process simulation and digital twins](#ref-process-simulation-digital-twin) | Refining / digital | commercial |  | AspenTech (Aspen HYSYS); AVEVA (register examples); KBC (Petro-SIM (register examples)) |  |
 | [Refinery-petrochemical integration (FCC propylene, HS-FCC)](#ref-petrochemical-integration) | Refining / petrochemical integration | commercial |  | Axens (HS-FCC licensing (with Shaw, search result not read)); Chiyoda (built the 30 b/d demonstration plant); Saudi Aramco (HS-FCC development with KFUPM and JX Nippon Oil); Honeywell UOP (register examples; not verified); KBR (register examples; not verified) |  |
-| [Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA)](#ref-hefa) | Low-carbon refining / bio-feed hydroprocessing | commercial | 9 | Neste (NEXBTL); Honeywell UOP (Ecofining (with Eni)); Topsoe (HydroFlex); Axens (Vegan) |  |
+| [Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA)](#ref-hefa) | Low-carbon refining / bio-feed hydroprocessing | commercial | 9 | Neste (NEXBTL); Honeywell UOP (Ecofining (with Eni)); Topsoe (HydroFlex); Axens (Vegan) | minimum jet fuel selling price, HEFA: 3.8-11 USD/gal (2014$) |
 | [Resid hydrocracking (ebullated and slurry bed)](#ref-resid-hydrocracking) | Conversion / residue upgrading | commercial |  | Eni (EST); Axens (H-Oil); Chevron Lummus Global (LC-FINING); KBR (VCC) |  |
 | [Sour water stripping and amine regeneration](#ref-sour-water-stripping) | Refining / utilities | commercial |  | Bechtel (sour water stripping design) |  |
 | [Visbreaking and solvent deasphalting](#ref-visbreaking-sda) | Refining / residue upgrading | commercial |  | KBR (ROSE solvent deasphalting); Koch-Glitsch (extractor internals); Shell (visbreaking (register examples; not verified)); Axens (register examples; not verified) |  |
 | [Wastewater treatment (API separators, DAF, biological, MBR)](#ref-wastewater-treatment) | Refining / environment | commercial |  | Veolia (register examples; not verified); Suez (register examples; not verified) | capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d (2023$) |
-| [Alcohol-to-jet SAF](#ref-alcohol-to-jet) | Low-carbon fuels / SAF | demonstration | 8 | LanzaJet; Honeywell UOP (ethanol-to-jet); Gevo |  |
+| [Alcohol-to-jet SAF](#ref-alcohol-to-jet) | Low-carbon fuels / SAF | demonstration | 8 | LanzaJet; Honeywell UOP (ethanol-to-jet); Gevo | alcohol-to-jet conversion cost, ethanol intermediate: 0.821 USD/gal<br>alcohol-to-jet conversion cost, isobutanol intermediate: 0.535 USD/gal<br>ethanol intermediate reference price: 534 USD/t |
 | [Direct crude cracking](#ref-direct-crude-cracking) | Crude-to-chemicals | demonstration |  | ExxonMobil (Singapore crude-cracking steam cracker); Saudi Aramco (TC2C (with Lummus and CLG)); Lummus Technology (TC2C); Chevron Lummus Global (TC2C) |  |
 | [Green hydrogen in refineries](#ref-green-hydrogen) | Low-carbon refining | demonstration | 9 | ITM Power (10 MW PEM electrolyser for Shell Rheinland); Shell (REFHYNE operator) |  |
 | [Refinery electrification and heat pumps](#ref-electrification-heat-pumps) | Low-carbon refining | demonstration | 6-9 | BASF, SABIC, Linde (electric steam-cracker furnace demonstration) |  |
@@ -605,6 +605,9 @@ flowchart LR
 
 **Key equipment:** pretreatment unit, HDO reactors, isomerisation reactor, recycle gas scrubber, fractionator, hydrogen plant.
 
+**Costs:**
+- minimum jet fuel selling price, HEFA: 3.8-11 USD/gal (2014$); Tao et al. 2017 open-access NREL-led TEA; range across five lipid feedstocks (waste oils lowest, dedicated lipid crops highest); 10% IRR discounted cash flow. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5679388)
+
 **Reference plants:**
 - Neste Singapore refinery, SG: 2.6 Mt/yr renewable products including up to 1 Mt/yr SAF; expansion completed April 2023 (EUR 1.6 billion). [source](https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery)
 - Diamond Green Diesel, Norco, Louisiana, US: 275 million gal/yr, expanding to 675 million gal/yr (Ecofining); expansion announced September 2019, completion expected late 2021. [source](https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell)
@@ -612,10 +615,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrotreating of oil/fats to HVOs or HEFAs' 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
-- minimum fuel selling price (USD/gal) for HEFA renewable diesel and SAF (costs): The NREL/PNNL techno-economic reports are on osti.gov, which the collector cannot reach, and NREL copies are private only. The DOE SAF Grand Challenge Roadmap (2022) and Implementation Framework (2024) were collected and checked: they give only the USD 1.25-1.75/gal tax credit, not a production cost. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL SAF techno-economic analyses (catalog: nrel, open). Next: Collect the NREL/PNNL techno-economic reports when osti.gov is reachable (or download them by hand into corpus/_inbox/osti/); add yield and minimum selling price with dollar year. Blocked by: osti.gov reachable from the Mac.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. The Tao et al. 2017 paper now in the corpus reports jet-blendstock yields by feedstock and has not been fully mined yet. Where: Tao et al. 2017 in corpus/nrel/ - jet blendstock yield and hydrogen consumption by feedstock (catalog: nrel, open); Supplier datasheets and brochures for the companies listed on the card (open). Next: Extract the per-feedstock jet yield and hydrogen consumption from the Tao paper; add supplier datasheet figures.
 
-Sources: [1](https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery), [2](https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell). Last reviewed 2026-10-24.
+Sources: [1](https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery), [2](https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell), [3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5679388). Last reviewed 2026-10-25.
 
 ## Resid hydrocracking (ebullated and slurry bed)
 <a id="ref-resid-hydrocracking"></a>
@@ -765,16 +767,20 @@ flowchart LR
 
 **Key equipment:** dehydration reactor, oligomerisation reactors, hydrogenation reactor, fractionation.
 
+**Costs:**
+- alcohol-to-jet conversion cost, ethanol intermediate: 0.821 USD/gal; Geleynse et al. 2018 PNNL TEA base case; dollar year not stated; feedstock (ethanol) costs excluded by design. [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
+- alcohol-to-jet conversion cost, isobutanol intermediate: 0.535 USD/gal; Geleynse et al. 2018 PNNL TEA base case; dollar year not stated; feedstock costs excluded by design. [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
+- ethanol intermediate reference price: 534 USD/t; 2013-2017 average cost of ethanol production, 1.76 USD/gal; dollar year not stated; ATJ minimum selling price scales with alcohol price. [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
+
 **Reference plants:**
 - LanzaJet Freedom Pines Fuels, Soperton, Georgia, US: 10 million gal/yr SAF and renewable diesel from ethanol; opened January 2024; described as the first ATJ SAF plant. [source](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Ethanol / butanol-to-jet' 8](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
-- minimum fuel selling price (USD/gal) and yield per gallon of ethanol (costs): PNNL/NREL alcohol-to-jet analyses are on osti.gov, which the collector cannot reach. The DOE SAF Grand Challenge Roadmap (2022) and Implementation Framework (2024) were collected and checked: they give only the USD 1.25-1.75/gal tax credit, not a production cost. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); PNNL alcohol-to-jet reports (catalog: pnnl, open). Next: Collect the NREL/PNNL techno-economic reports when osti.gov is reachable (or download them by hand into corpus/_inbox/osti/); add yield and minimum selling price with dollar year. Blocked by: osti.gov reachable from the Mac.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. The Geleynse et al. 2018 PNNL paper now in the corpus reports jet-fraction yields and has not been fully mined yet. Where: Geleynse et al. 2018 in corpus/pnnl/ - alcohol conversion yields and jet fraction (catalog: pnnl, open); Supplier datasheets and brochures for the companies listed on the card (open). Next: Extract jet-fraction yield and energy use from the Geleynse paper; add supplier datasheet figures.
 
-Sources: [1](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/). Last reviewed 2026-10-24.
+Sources: [1](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/), [2](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf). Last reviewed 2026-10-25.
 
 ## Direct crude cracking
 <a id="ref-direct-crude-cracking"></a>

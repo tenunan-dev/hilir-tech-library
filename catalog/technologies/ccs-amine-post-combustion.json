@@ -140,6 +140,19 @@
       }
     },
     {
+      "metric": "cost of CO2 captured, new-build power plants with amine capture, 90% capture",
+      "low": 38.1,
+      "high": 60.7,
+      "unit": "USD/t CO2",
+      "year": 2018,
+      "basis": "NETL Baseline Rev 4; low = supercritical PC (Case B12B.90), high = F-class NGCC (Case B31B.90); H-class NGCC 55.9, 95%-capture NGCC 59.9; excludes transport and storage",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/CostAndPerformanceBaselineForFossilEnergyPlantsVolume1BituminousCoalAndNaturalGasToElectricity_101422.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost and Performance Baseline for Fossil Energy Plants Vol 1, Rev 4, DOE/NETL-2023/4320, Oct 2022, Exhibits ES-7/ES-8 (pp. 15-16)"
+      }
+    },
+    {
       "metric": "cost of CO2 captured, cement (greenfield, 90% capture)",
       "low": 62.7,
       "high": 62.7,
@@ -277,29 +290,28 @@
       "url": "https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf",
       "source_id": "netl",
       "note": "NETL, Cost and Performance of Retrofitting NGCC Units for Carbon Capture, Rev 3, DOE/NETL-2023/3848, 31 May 2023, Exhibit ES-4 (p. 13)"
+    },
+    {
+      "url": "https://netl.doe.gov/projects/files/CostAndPerformanceBaselineForFossilEnergyPlantsVolume1BituminousCoalAndNaturalGasToElectricity_101422.pdf",
+      "source_id": "netl",
+      "note": "NETL, Cost and Performance Baseline for Fossil Energy Plants Vol 1, Rev 4, DOE/NETL-2023/4320, Oct 2022, Exhibits ES-7/ES-8 (pp. 15-16); full text in corpus/netl/"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-25",
   "gaps": [
     {
       "field": "performance",
-      "item": "solvent regeneration energy (GJ/t CO2) and power-plant cost of capture",
-      "reason_code": "source_unreachable",
-      "reason": "Both are in the NETL Cost and Performance Baseline Rev 4a, which is hosted on osti.gov; osti.gov is unreachable from the collector.",
+      "item": "solvent regeneration energy (GJ/t CO2)",
+      "reason_code": "not_in_sources_read",
+      "reason": "The NETL Baseline Rev 4 is now in the corpus (collected 2026-10-25); it reports the capture-steam draw in stream tables rather than a single GJ/t figure, and that extraction has not been done yet.",
       "where": [
         {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants Volume 1, Rev 4a",
+          "hint": "NETL Cost and Performance Baseline Vol 1 Rev 4, corpus/netl/ - extract stripper steam draw per tonne CO2",
           "source_id": "netl",
           "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
         }
       ],
-      "action": "Collect the baseline when osti.gov is reachable, or download it by hand into corpus/_inbox/netl/; then add the figures.",
-      "blocked_by": "osti.gov reachable from the Mac, or a manual download"
+      "action": "Extract the reboiler steam draw from the Case B31B.90/B12B.90 stream tables and convert to GJ/t CO2 with the steam conditions stated."
     }
   ]
 }

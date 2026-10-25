@@ -34,7 +34,7 @@
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
-| [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open (unverified) |
+| [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -57,7 +57,7 @@
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
-| [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted (unverified) |
+| [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
 | [IEA Global Methane Tracker](https://www.iea.org/reports/global-methane-tracker-2025) | agency-data | global | open | full-text-open |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |
@@ -71,7 +71,7 @@
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Plastics Europe](https://plasticseurope.org/) | association | eu | open | full-text-restricted |
 | [UK North Sea Transition Authority](https://www.nstauthority.co.uk/) | agency-data | eu | open | full-text-open |
-| [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open (unverified) |
+| [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

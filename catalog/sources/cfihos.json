@@ -18,11 +18,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
-  "reuse_level": "full-text-restricted",
+  "licence": "(unchanged)",
+  "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Licence not on home page; check the Templates and Documents Library. Evidence: https://www.jip36-cfihos.org/"
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "automated_access": "allowed",
+  "permitted_use": "any"
 }

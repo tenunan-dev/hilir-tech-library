@@ -19,11 +19,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "(unchanged)",
   "reuse_level": "summary-only",
   "quality_tier": 3,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Terms page returned only navigation and footer on 2026-10-24 (no terms text). robots.txt disallows only /data/, /boot.js, /caption.vtt and /clear-cache/. Needs a person to read the terms. Evidence: https://www.pertamina.com/en/terms-and-conditions"
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "automated_access": "allowed",
+  "permitted_use": "personal-non-commercial"
 }

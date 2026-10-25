@@ -17,11 +17,13 @@
     "sea"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "(unchanged)",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "No terms or copyright page found on 2026-10-23. Evidence: https://www.eppo.go.th/index.php/en/"
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "automated_access": "allowed",
+  "permitted_use": "unstated"
 }

@@ -7,7 +7,7 @@
 | [Australian Energy Producers Journal (CSIRO Publishing)](https://www.publish.csiro.au/ep) | journal | apac | mixed | catalog-only (unverified) |
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
 | [Indonesian Petroleum Association (IPA)](https://www.ipa.or.id/) | association | sea | mixed | catalog-only (unverified) |
-| [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted (unverified) |
+| [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted |
 | [International Petroleum Technology Conference (IPTC)](https://www.iptcnet.org/) | conference | apac, me | mixed | catalog-only (unverified) |
 | [IPA Convention and Exhibition](https://convex.ipa.or.id/) | conference | sea | mixed | catalog-only (unverified) |
 | [LEMIGAS Research and Development Centre for Oil and Gas](https://www.lemigas.esdm.go.id/) | research-institute | sea | open | summary-only (unverified) |
@@ -15,48 +15,48 @@
 | [NUS Energy Studies Institute](https://esi.nus.edu.sg/) | research-institute | sea | open | full-text-restricted |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [OTC Asia (Kuala Lumpur)](https://otcasia.org/) | conference | sea, apac | mixed | catalog-only (unverified) |
-| [Oxford Institute for Energy Studies (OIES)](https://www.oxfordenergy.org/) | research-institute | global, apac | open | full-text-restricted (unverified) |
-| [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted (unverified) |
+| [Oxford Institute for Energy Studies (OIES)](https://www.oxfordenergy.org/) | research-institute | global, apac | open | full-text-restricted |
+| [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted |
 | [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
 | [SPE Asia Pacific Oil & Gas Conference (APOGCE)](https://www.spe.org/events/en/) | conference | apac | mixed | catalog-only (unverified) |
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
 | [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
-| [University of Queensland energy and CCS research](https://energy.uq.edu.au/) | research-institute | apac | open | full-text-restricted (unverified) |
+| [University of Queensland energy and CCS research](https://uq.edu.au/legal/copyright-privacy-disclaimer) | research-institute | apac | open | full-text-restricted |
 | [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted |
 | [ASCOPE ASEAN Council on Petroleum](https://www.ascope.org/) | association | sea | open | summary-only (unverified) |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open (unverified) |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
-| [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted (unverified) |
+| [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted |
 | [CNPC Economics and Technology Research Institute](https://www.cnpc.com.cn/en/) | research-institute | apac | open | summary-only (unverified) |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [Ebara Corporation](https://www.ebara.com/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [ERIA Economic Research Institute for ASEAN and East Asia](https://www.eria.org/) | research-institute | sea, apac | open | full-text-restricted |
 | [Gastech](https://www.gastechevent.com/) | conference | global, apac | mixed | catalog-only (unverified) |
 | [ICIS chemicals and energy news](https://www.icis.com/explore/) | trade-media | global, apac | paywalled | catalog-only (unverified) |
-| [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-open (unverified) |
+| [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
 | [India Petroleum Planning and Analysis Cell (PPAC)](https://ppac.gov.in/) | agency-data | apac | open | full-text-restricted |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Institute of Energy Economics, Japan (IEEJ)](https://eneken.ieej.or.jp/en/) | research-institute | apac | mixed | summary-only (unverified) |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
-| [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted (unverified) |
+| [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
-| [Korea Energy Economics Institute (KEEI)](https://www.keei.re.kr/main.nsf/index_en.html) | research-institute | apac | open | full-text-restricted (unverified) |
+| [Korea Energy Economics Institute (KEEI)](https://www.keei.re.kr/eng) | research-institute | apac | open | full-text-restricted |
 | [Lembaran Publikasi Minyak dan Gas Bumi (LPMGB, LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/LPMGB) | journal | sea | open | full-text-open |
 | [Malaysia Energy Information Hub](https://meih.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
-| [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted (unverified) |
+| [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
 | [Mitsubishi Heavy Industries Compressor and gas turbines](https://www.mhi.com/) | oem-supplier | apac, global | open | summary-only |
-| [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted (unverified) |
+| [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
-| [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted (unverified) |
-| [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
+| [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [Asia Pacific Clean Hydrogen / Singapore International Energy Week](https://www.siew.gov.sg/) | conference | sea | open | summary-only (unverified) |
@@ -98,7 +98,7 @@
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Loss Prevention in the Process Industries](https://www.sciencedirect.com/journal/journal-of-loss-prevention-in-the-process-industries) | journal | global | mixed | catalog-only (unverified) |
-| [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted (unverified) |
+| [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted |
 | [LNG2026 / LNGxx triennial conference](https://www.lng2026.com/) | conference | global | mixed | catalog-only (unverified) |
 | [NFPA Codes and Standards](https://www.nfpa.org/codes-and-standards) | standards-body | global, na | mixed | catalog-only (unverified) |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
@@ -109,20 +109,20 @@
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only (unverified) |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted (unverified) |
-| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [Ariel Corporation](https://www.arielcorp.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Atlas Copco Gas and Process](https://www.atlascopco.com/en-us/compressors/products/process-gas-compressors) | oem-supplier | global | open | summary-only (unverified) |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
-| [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted (unverified) |
+| [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
-| [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-restricted (unverified) |
+| [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
-| [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-restricted (unverified) |
+| [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
@@ -132,7 +132,7 @@
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Gas Exporting Countries Forum](https://www.gecf.org/) | association | me, global | open | full-text-restricted |
-| [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted (unverified) |
+| [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Heatric printed circuit heat exchangers](https://www.heatric.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |

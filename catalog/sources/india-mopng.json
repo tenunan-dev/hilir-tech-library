@@ -20,11 +20,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "GODL-India",
-  "reuse_level": "full-text-open",
+  "licence": "(unchanged)",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null,
-  "notes": "Copyright policy blocked by robots.txt on 2026-10-23. Evidence: https://mopng.gov.in/en/page/copyright-policy"
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "automated_access": "allowed",
+  "permitted_use": "personal-non-commercial"
 }

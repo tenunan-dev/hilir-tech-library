@@ -61,5 +61,5 @@
 
 | Value | Sources |
 | --- | --- |
-| unverified | 216 |
-| verified | 132 |
+| unverified | 181 |
+| verified | 167 |

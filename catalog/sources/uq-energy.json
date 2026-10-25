@@ -1,7 +1,7 @@
 {
   "id": "uq-energy",
   "name": "University of Queensland energy and CCS research",
-  "url": "https://energy.uq.edu.au/",
+  "url": "https://uq.edu.au/legal/copyright-privacy-disclaimer",
   "source_type": "research-institute",
   "sectors": [
     "GAS",
@@ -21,6 +21,9 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The UQ Energy Initiative site (energy.uq.edu.au) is retired: NXDOMAIN, no redirect or successor found (checked 2026-10-25). Record kept for provenance; point any future collection at UQ news or UQ eSpace instead. UQ site-wide terms: copyright UQ, personal non-commercial viewing/copying only, systematic downloading prohibited, reproduction requires written permission. Evidence: https://uq.edu.au/legal/copyright-privacy-disclaimer",
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "automated_access": "unstated",
+  "permitted_use": "personal-non-commercial"
 }

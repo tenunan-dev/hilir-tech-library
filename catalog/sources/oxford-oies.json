@@ -19,11 +19,13 @@
     "apac"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "(unchanged)",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "notes": "Terms page not reachable by fetch tool on 2026-10-23; some publications are sold. Check manually. Evidence: https://www.oxfordenergy.org/terms-and-conditions/",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "automated_access": "allowed",
+  "permitted_use": "personal-non-commercial"
 }

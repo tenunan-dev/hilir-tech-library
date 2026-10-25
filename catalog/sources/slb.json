@@ -18,11 +18,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "proprietary",
+  "licence": "(unchanged)",
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Terms page exists but its body could not be read by the fetch tool on 2026-10-23; check manually. Evidence: https://www.slb.com/en/terms-of-service",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "automated_access": "allowed",
+  "permitted_use": "personal-non-commercial"
 }

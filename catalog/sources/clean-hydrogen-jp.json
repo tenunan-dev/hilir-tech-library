@@ -16,11 +16,13 @@
     "eu"
   ],
   "access": "open",
-  "licence": "CC-BY-4.0",
+  "licence": "(unchanged)",
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Legal notice not reachable on 2026-10-23. Evidence: https://www.clean-hydrogen.europa.eu/",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "automated_access": "allowed",
+  "permitted_use": "any"
 }

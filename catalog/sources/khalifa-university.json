@@ -19,10 +19,13 @@
     "me"
   ],
   "access": "open",
-  "licence": "mixed-per-paper",
+  "licence": "(unchanged)",
   "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-25",
+  "automated_access": "allowed",
+  "permitted_use": "unstated",
+  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)"
 }

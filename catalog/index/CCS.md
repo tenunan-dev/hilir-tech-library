@@ -12,18 +12,18 @@
 | [CSIRO energy research](https://www.csiro.au/en/research/technology-space/energy) | research-institute | apac | open | full-text-restricted |
 | [Geoscience Australia energy resources](https://www.ga.gov.au/scientific-topics/energy) | agency-data | apac | open | full-text-open |
 | [IIT Bombay National Centre of Excellence in CCUS](https://www.iitb.ac.in/) | research-institute | apac | open | summary-only (unverified) |
-| [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted (unverified) |
+| [Institut Teknologi Bandung energy research](https://www.itb.ac.id/) | research-institute | sea | open | full-text-restricted |
 | [International Petroleum Technology Conference (IPTC)](https://www.iptcnet.org/) | conference | apac, me | mixed | catalog-only (unverified) |
 | [NOPSEMA offshore safety regulator](https://www.nopsema.gov.au/) | agency-data | apac | open | full-text-restricted |
 | [OTC Asia (Kuala Lumpur)](https://otcasia.org/) | conference | sea, apac | mixed | catalog-only (unverified) |
 | [SPE Asia Pacific Oil & Gas Conference (APOGCE)](https://www.spe.org/events/en/) | conference | apac | mixed | catalog-only (unverified) |
 | [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
-| [University of Queensland energy and CCS research](https://energy.uq.edu.au/) | research-institute | apac | open | full-text-restricted (unverified) |
+| [University of Queensland energy and CCS research](https://uq.edu.au/legal/copyright-privacy-disclaimer) | research-institute | apac | open | full-text-restricted |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open (unverified) |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
 | [CCOP Coordinating Committee for Geoscience Programmes in East and Southeast Asia](https://www.ccop.or.th/) | association | sea, apac | open | full-text-restricted |
-| [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted (unverified) |
+| [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [ERIA Economic Research Institute for ASEAN and East Asia](https://www.eria.org/) | research-institute | sea, apac | open | full-text-restricted |
 | [Gastech](https://www.gastechevent.com/) | conference | global, apac | mixed | catalog-only (unverified) |
@@ -31,15 +31,15 @@
 | [India Directorate General of Hydrocarbons](https://www.dghindia.gov.in/) | agency-data | apac | open | full-text-open (unverified) |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Institute of Energy Economics, Japan (IEEJ)](https://eneken.ieej.or.jp/en/) | research-institute | apac | mixed | summary-only (unverified) |
-| [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted (unverified) |
+| [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted |
 | [Korea Institute of Energy Research (KIER)](https://www.kier.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
-| [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted (unverified) |
+| [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted |
 | [Mitsubishi Heavy Industries CO2 capture (KM CDR)](https://www.mhi.com/products/environment/carboncapture.html) | licensor | apac, global | open | summary-only |
 | [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
-| [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Asia Pacific Clean Hydrogen / Singapore International Energy Week](https://www.siew.gov.sg/) | conference | sea | open | summary-only (unverified) |
 | [Energy Asia (Kuala Lumpur)](https://www.energyasia.com.my/) | conference | sea | open | summary-only (unverified) |
@@ -55,7 +55,7 @@
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |
-| [GHGT Greenhouse Gas Control Technologies conference](https://ghgt.info/) | conference | global | open | full-text-open (unverified) |
+| [GHGT Greenhouse Gas Control Technologies conference](https://ghgt.info/) | conference | global | open | full-text-restricted |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
@@ -63,8 +63,8 @@
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
-| [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted (unverified) |
-| [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted (unverified) |
+| [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted |
+| [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
@@ -85,7 +85,7 @@
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
-| [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open (unverified) |
+| [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
@@ -108,7 +108,7 @@
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
-| [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted |
 | [SLB Capturi (formerly Aker Carbon Capture)](https://www.slbcapturi.com/) | licensor | global | open | full-text-restricted (unverified) |
 | [Technip Energies](https://www.ten.com/en) | epc-contractor | global | open | summary-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |

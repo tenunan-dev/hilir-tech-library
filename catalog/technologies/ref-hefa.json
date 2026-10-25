@@ -87,6 +87,21 @@
     "fractionator",
     "hydrogen plant"
   ],
+  "costs": [
+    {
+      "metric": "minimum jet fuel selling price, HEFA",
+      "low": 3.8,
+      "high": 11.0,
+      "unit": "USD/gal",
+      "year": 2014,
+      "basis": "Tao et al. 2017 open-access NREL-led TEA; range across five lipid feedstocks (waste oils lowest, dedicated lipid crops highest); 10% IRR discounted cash flow",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679388",
+        "source_id": "nrel",
+        "note": "Tao et al., Techno-economic and resource analysis of hydroprocessed renewable jet fuel, Biotechnology for Biofuels 10:262 (2017); salaries inflated to 2014 dollars; full text in corpus/nrel/"
+      }
+    }
+  ],
   "suppliers": [
     {
       "name": "Neste",
@@ -152,52 +167,32 @@
       "url": "https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell",
       "source_id": "ptq-digital-refining",
       "note": "Digital Refining news, 30 September 2019"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679388",
+      "source_id": "nrel",
+      "note": "Tao et al. 2017, HEFA renewable jet TEA, Biotechnology for Biofuels (open access); MJSP USD 3.8-11.0/gal (2014$) across five feedstocks"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-25",
   "gaps": [
     {
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
+      "reason": "No source read so far gives performance figures. The Tao et al. 2017 paper now in the corpus reports jet-blendstock yields by feedstock and has not been fully mined yet.",
       "where": [
+        {
+          "hint": "Tao et al. 2017 in corpus/nrel/ - jet blendstock yield and hydrogen consumption by feedstock",
+          "source_id": "nrel",
+          "access": "open"
+        },
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",
           "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
         }
       ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
-    {
-      "field": "costs",
-      "item": "minimum fuel selling price (USD/gal) for HEFA renewable diesel and SAF",
-      "reason_code": "source_unreachable",
-      "reason": "The NREL/PNNL techno-economic reports are on osti.gov, which the collector cannot reach, and NREL copies are private only. The DOE SAF Grand Challenge Roadmap (2022) and Implementation Framework (2024) were collected and checked: they give only the USD 1.25-1.75/gal tax credit, not a production cost.",
-      "where": [
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        },
-        {
-          "hint": "NREL SAF techno-economic analyses",
-          "source_id": "nrel",
-          "access": "open"
-        }
-      ],
-      "action": "Collect the NREL/PNNL techno-economic reports when osti.gov is reachable (or download them by hand into corpus/_inbox/osti/); add yield and minimum selling price with dollar year.",
-      "blocked_by": "osti.gov reachable from the Mac"
+      "action": "Extract the per-feedstock jet yield and hydrogen consumption from the Tao paper; add supplier datasheet figures."
     }
   ],
   "trl": {

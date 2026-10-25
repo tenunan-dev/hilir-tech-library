@@ -13,7 +13,7 @@
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
 | [ASCOPE ASEAN Council on Petroleum](https://www.ascope.org/) | association | sea | open | summary-only (unverified) |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
-| [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-open (unverified) |
+| [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
 | [Malaysian Oil & Gas Services Council](https://mogsc.org.my/) | association | sea | open | summary-only (unverified) |
 | [AMPP Annual Conference + Expo](https://ace.ampp.org/) | conference | global | paywalled | catalog-only (unverified) |

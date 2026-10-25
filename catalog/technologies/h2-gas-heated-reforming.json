@@ -85,9 +85,36 @@
   ],
   "suppliers": [
     {
-      "name": "Johnson Matthey (Honeywell)",
-      "product": "LCH process (register examples; JM page redirected and was not read)",
-      "source_id": "johnson-matthey"
+      "name": "Johnson Matthey",
+      "product": "LCH process (GHR-ATR), up to 99% CO2 capture, described as the lowest natural-gas usage commercially available; JM pages read 25 October 2026",
+      "source_id": "johnson-matthey",
+      "url": "https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "bp H2Teesside (JM LCH licence)",
+      "country": "GB",
+      "capacity": "1.2 GW hydrogen production targeted by 2030, over 10% of the UK 10 GW target",
+      "status": "licensing and engineering agreement signed; UK Track-1 Capture Project, East Coast Cluster Phase 2",
+      "year": 2023,
+      "source": {
+        "url": "https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project",
+        "source_id": "johnson-matthey",
+        "note": "JM press release, October 2023; describes H2Teesside GHR-ATR flowsheet and Track-1 selection"
+      }
+    },
+    {
+      "name": "H2H Saltend (Equinor-led, JM LCH selected)",
+      "country": "GB",
+      "capacity": "large-scale low-carbon hydrogen for Saltend Chemicals Park, Hull",
+      "status": "JM announced as technology provider, March 2023",
+      "year": 2023,
+      "source": {
+        "url": "https://matthey.com/johnson-matthey-chosen-for-h2h-saltend-low-carbon-hydrogen-project",
+        "source_id": "johnson-matthey",
+        "note": "JM press release, March 2023"
+      }
     }
   ],
   "performance": [
@@ -161,25 +188,20 @@
       "url": "https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf",
       "source_id": "uk-nsta",
       "note": "UK North Sea Transition Authority, Blue hydrogen technology review"
+    },
+    {
+      "url": "https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen",
+      "source_id": "johnson-matthey",
+      "note": "Johnson Matthey, Blue Hydrogen Production with LCH Technology, read 25 October 2026 (99% capture claim, ATR and GHR-ATR configurations)"
+    },
+    {
+      "url": "https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project",
+      "source_id": "johnson-matthey",
+      "note": "JM press release on bp H2Teesside, October 2023"
     }
   ],
   "last_reviewed": "2026-10-25",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "Johnson Matthey LCH details and projects",
-      "reason_code": "source_unreachable",
-      "reason": "The JM page redirected away.",
-      "where": [
-        {
-          "hint": "Johnson Matthey LCH brochure",
-          "access": "open",
-          "source_id": "johnson-matthey"
-        }
-      ],
-      "action": "Add plants such as bp H2Teesside once a page is read.",
-      "blocked_by": "johnson-matthey"
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -205,16 +227,16 @@
     },
     {
       "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
+      "item": "operating plants with capacity and start-up year (the two named projects are pre-FID/FEED stage)",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "No operating GHR+ATR plant is named in sources read; bp H2Teesside and H2H Saltend are projects.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
           "access": "open"
         }
       ],
-      "action": "Add one or two plants with country, capacity and start-up year."
+      "action": "Add an operating plant with country, capacity and start-up year once one reaches operation."
     },
     {
       "field": "process",

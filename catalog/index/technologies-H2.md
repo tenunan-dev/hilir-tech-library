@@ -23,7 +23,7 @@
 | [E-methane (synthetic natural gas)](#h2-e-methane) | Low-carbon fuels / synthetic methane | demonstration |  | Hitachi Zosen (methanation device for Tokyo Gas); ITM Power (electrolyser for Tokyo Gas trial); Tokyo Gas (trial operator) |  |
 | [E-methanol and bio-methanol](#h2-e-methanol) | Low-carbon fuels / methanol | demonstration | 8 | European Energy (Kassø e-methanol); Siemens Energy (electrolysers); Topsoe (register examples); Johnson Matthey (Honeywell) (register examples) |  |
 | [Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)](#h2-ft-saf-efuels) | Low-carbon fuels / Fischer-Tropsch | demonstration | 7 | INERATEC (2.5 ktpa e-fuel plant); Infinium (Roadrunner e-fuels plant); Velocys (register examples) |  |
-| [Gas-heated reforming](#h2-gas-heated-reforming) | Hydrogen production / low-carbon reforming | demonstration | 5 | Johnson Matthey (Honeywell) (LCH process (register examples; JM page redirected and was not read)) |  |
+| [Gas-heated reforming](#h2-gas-heated-reforming) | Hydrogen production / low-carbon reforming | demonstration | 5 | Johnson Matthey (LCH process (GHR-ATR), up to 99% CO2 capture, described as the lowest natural-gas usage commercially available; JM pages read 25 October 2026) |  |
 | [Green and blue ammonia](#h2-green-blue-ammonia) | Hydrogen derivative / ammonia synthesis | demonstration | 8 | Topsoe; KBR; Thyssenkrupp Uhde; Casale; Air Products |  |
 | [Hydrogen direct reduction of iron](#h2-dri) | Hydrogen use / steel | demonstration | 6 | HYBRIT (SSAB, LKAB, Vattenfall) (Luleå pilot); Stegra (H2 Green Steel) (register examples); Midrex (register examples) |  |
 | [Hydrogen storage in salt caverns](#h2-salt-cavern-storage) | Hydrogen storage | demonstration | 6-9 | Mitsubishi Power; Magnum Development; HyStock (Gasunie) |  |
@@ -692,15 +692,18 @@ flowchart LR
 - net power import: 8.8 MJ/kg H2; GHR+ATR+PSA. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
 - CO2 captured: 8.4 kg CO2/kg H2; same case. [source](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf)
 
+**Reference plants:**
+- bp H2Teesside (JM LCH licence), GB: 1.2 GW hydrogen production targeted by 2030, over 10% of the UK 10 GW target; licensing and engineering agreement signed; UK Track-1 Capture Project, East Coast Cluster Phase 2. [source](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project)
+- H2H Saltend (Equinor-led, JM LCH selected), GB: large-scale low-carbon hydrogen for Saltend Chemicals Park, Hull; JM announced as technology provider, March 2023. [source](https://matthey.com/johnson-matthey-chosen-for-h2h-saltend-low-carbon-hydrogen-project)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Autothermal reforming - gas heated reformer' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- Johnson Matthey LCH details and projects (suppliers): The JM page redirected away. Where: Johnson Matthey LCH brochure (catalog: johnson-matthey, open). Next: Add plants such as bp H2Teesside once a page is read. Blocked by: johnson-matthey.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- operating plants with capacity and start-up year (the two named projects are pre-FID/FEED stage) (reference_plants): No operating GHR+ATR plant is named in sources read; bp H2Teesside and H2H Saltend are projects. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add an operating plant with country, capacity and start-up year once one reaches operation.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [2](https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen), [3](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project). Last reviewed 2026-10-25.
 
 ## Green and blue ammonia
 <a id="h2-green-blue-ammonia"></a>

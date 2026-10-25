@@ -7,7 +7,7 @@
 | [A*STAR Institute of Sustainability for Chemicals, Energy and Environment](https://www.a-star.edu.sg/isce2) | research-institute | sea | open | summary-only (unverified) |
 | [AIST Japan energy and environment research](https://www.aist.go.jp/index_en.html) | research-institute | apac | open | full-text-restricted |
 | [Bureau of Indian Standards](https://www.bis.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
-| [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted (unverified) |
+| [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted |
 | [CNKI China National Knowledge Infrastructure](https://oversea.cnki.net/) | journal | apac | paywalled | catalog-only (unverified) |
 | [CSIR-Indian Institute of Petroleum](https://www.iip.res.in/) | research-institute | apac | open | summary-only (unverified) |
 | [Dalian Institute of Chemical Physics (CAS)](https://english.dicp.cas.cn/) | research-institute | apac, global | open | summary-only (unverified) |
@@ -24,7 +24,7 @@
 | [DGIP Indonesia patent database (PDKI)](https://pdki-indonesia.dgip.go.id/) | patents | sea | open | full-text-open (unverified) |
 | [Ebara Corporation](https://www.ebara.com/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [ICIS chemicals and energy news](https://www.icis.com/explore/) | trade-media | global, apac | paywalled | catalog-only (unverified) |
-| [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-open (unverified) |
+| [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
@@ -39,7 +39,7 @@
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [Malaysian Petrochemicals Association](https://www.mpa.org.my/) | association | sea | open | summary-only (unverified) |
 | [MIDA Malaysian Investment Development Authority energy sector](https://www.mida.gov.my/) | agency-data | sea | open | summary-only (unverified) |
-| [Pertamina](https://www.pertamina.com/en) | licensor | sea | open | summary-only (unverified) |
+| [Pertamina](https://www.pertamina.com/en) | licensor | sea | open | summary-only |
 | [PTT Public Company and PTTEP](https://www.pttplc.com/en/) | licensor | sea | open | summary-only (unverified) |
 | [Samsung E&A](https://www.samsungena.com/en/) | epc-contractor | apac, me | open | summary-only (unverified) |
 | [Sinopec technology licensing](https://www.sinopecgroup.com/group/en/) | licensor | apac, global | open | summary-only (unverified) |
@@ -60,7 +60,7 @@
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Loss Prevention in the Process Industries](https://www.sciencedirect.com/journal/journal-of-loss-prevention-in-the-process-industries) | journal | global | mixed | catalog-only (unverified) |
-| [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted (unverified) |
+| [KAUST research (clean combustion, catalysis)](https://www.kaust.edu.sa/en/research) | research-institute | me | open | full-text-restricted |
 | [NFPA Codes and Standards](https://www.nfpa.org/codes-and-standards) | standards-body | global, na | mixed | catalog-only (unverified) |
 | [Process Safety Progress](https://aiche.onlinelibrary.wiley.com/journal/15475913) | journal | global | mixed | catalog-only (unverified) |
 | [Processes (MDPI)](https://www.mdpi.com/journal/processes) | journal | global | open | full-text-open |
@@ -70,21 +70,21 @@
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only (unverified) |
-| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Atlas Copco Gas and Process](https://www.atlascopco.com/en-us/compressors/products/process-gas-compressors) | oem-supplier | global | open | summary-only (unverified) |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
-| [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted (unverified) |
+| [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
 | [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
 | [Cefic European Chemical Industry Council](https://cefic.org/) | association | eu | open | full-text-restricted |
-| [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-restricted (unverified) |
+| [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
-| [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-restricted (unverified) |
+| [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
@@ -100,7 +100,7 @@
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
-| [ISO 15926 / POSC Caesar reference data library](https://www.posccaesar.org/) | standards-body | global | open | full-text-restricted (unverified) |
+| [ISO 15926 / POSC Caesar reference data library](https://www.posccaesar.org/) | standards-body | global | open | full-text-restricted |
 | [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | summary-only |
 | [Johnson Matthey Catalyst Technologies](https://www.honeywell.com/us/en/lp/ct/overview) | licensor | global | open | catalog-only |
 | [KBR Technology](https://www.kbr.com/en/solutions/technologies) | licensor | global | open | full-text-restricted |
@@ -126,7 +126,7 @@
 | [Topsoe](https://www.topsoe.com/) | licensor | global | open | full-text-restricted |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
-| [W. R. Grace refining catalysts](https://grace.com/) | licensor | global | open | full-text-restricted (unverified) |
+| [W. R. Grace refining catalysts](https://grace.com/) | licensor | global | open | full-text-restricted |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
