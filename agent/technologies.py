@@ -178,6 +178,7 @@ def load_register(path=None, cards=None):
 def register_page(entries, labels):
     total = len(entries)
     with_card = sum(1 for e in entries if e["card"])
+    page_of = {c["id"]: c["sector"] for c in load_cards()}  # a card's page is its sector's, whatever its id prefix
     lines = ["# Technology register", "",
              f"{total} technologies across oil, gas, petrochemicals and new energy; {with_card} have a technology card so far.",
              "Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.",
@@ -187,7 +188,7 @@ def register_page(entries, labels):
         rows = [e for e in entries if e["code"] == code]
         lines += [f"## {code}: {labels.get(code, code)}", "", "| Area | Technology | Maturity | Examples | Card |", "| --- | --- | --- | --- | --- |"]
         for e in rows:
-            card = f"[card](technologies-{e['card'].split('-')[0].upper()}.md#{e['card']})" if e["card"] else ""
+            card = f"[card](technologies-{page_of[e['card']]}.md#{e['card']})" if e["card"] else ""
             lines.append(f"| {e['area']} | {e['name']} | {e['maturity']} | {e['examples']} | {card} |")
         lines.append("")
     return "\n".join(lines)

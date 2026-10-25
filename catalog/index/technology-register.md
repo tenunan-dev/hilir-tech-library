@@ -108,14 +108,14 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | NGL recovery and fractionation | NGL fractionation and LPG recovery | commercial | EPC contractors |  |
 | NGL recovery and fractionation | Nitrogen rejection units | commercial | Linde, Air Products |  |
 | NGL recovery and fractionation | Helium recovery | commercial | Linde, Air Products |  |
-| LNG | Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X) | commercial | Air Products | [card](technologies-LNG.md#lng-c3mr-apx) |
-| LNG | Cascade liquefaction | commercial | ConocoPhillips Optimized Cascade | [card](technologies-LNG.md#lng-optimized-cascade) |
-| LNG | Dual mixed refrigerant liquefaction | commercial | Shell DMR | [card](technologies-LNG.md#lng-dmr) |
-| LNG | Mixed fluid cascade | commercial | Linde MFC | [card](technologies-LNG.md#lng-mixed-fluid-cascade) |
+| LNG | Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X) | commercial | Air Products | [card](technologies-GAS.md#lng-c3mr-apx) |
+| LNG | Cascade liquefaction | commercial | ConocoPhillips Optimized Cascade | [card](technologies-GAS.md#lng-optimized-cascade) |
+| LNG | Dual mixed refrigerant liquefaction | commercial | Shell DMR | [card](technologies-GAS.md#lng-dmr) |
+| LNG | Mixed fluid cascade | commercial | Linde MFC | [card](technologies-GAS.md#lng-mixed-fluid-cascade) |
 | LNG | Electric-drive liquefaction (e-LNG) | commercial | Equinor Hammerfest, Freeport LNG |  |
 | LNG | Small and mid-scale modular LNG | commercial | Chart Industries, Baker Hughes, Black & Veatch PRICO |  |
-| LNG | Floating LNG (FLNG) | commercial | PETRONAS PFLNG, Shell Prelude, Golar Hilli | [card](technologies-LNG.md#lng-flng) |
-| LNG | Floating storage and regasification units (FSRU) | commercial | Excelerate, Höegh, Golar | [card](technologies-LNG.md#lng-fsru) |
+| LNG | Floating LNG (FLNG) | commercial | PETRONAS PFLNG, Shell Prelude, Golar Hilli | [card](technologies-GAS.md#lng-flng) |
+| LNG | Floating storage and regasification units (FSRU) | commercial | Excelerate, Höegh, Golar | [card](technologies-GAS.md#lng-fsru) |
 | LNG | LNG regasification (open rack, submerged combustion, ambient air vaporisers) | commercial | Sumitomo Precision, Kobe Steel |  |
 | LNG | Boil-off gas management and reliquefaction | commercial | Wärtsilä, Burckhardt Compression |  |
 | LNG | LNG bunkering | commercial | Shell, TotalEnergies, PETRONAS |  |
