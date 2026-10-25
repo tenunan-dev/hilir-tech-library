@@ -1,0 +1,31 @@
+{
+  "pages_processed": 226,
+  "total_records_seen": 11300,
+  "non_mdpi_or_unparsed": 0,
+  "counts": {
+    "Energies": {
+      "issn": "1996-1073",
+      "records": 427
+    },
+    "Catalysts": {
+      "issn": "2073-4344",
+      "records": 119
+    },
+    "Processes": {
+      "issn": "2227-9717",
+      "records": 87
+    },
+    "Materials": {
+      "issn": "1996-1944",
+      "records": 414
+    },
+    "Sustainability": {
+      "issn": "2071-1050",
+      "records": 660
+    },
+    "Gases": {
+      "issn": "2673-5628",
+      "records": 1
+    }
+  }
+}

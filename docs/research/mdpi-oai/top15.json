@@ -1,0 +1,427 @@
+[
+ {
+  "identifier": "oai:mdpi.com:/2071-1050/10/4/923/",
+  "issn": "2071-1050",
+  "journal": "Sustainability",
+  "datestamp": "2021-11-25",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Analysis of Biomass Blend Co-Firing for Post Combustion CO2 Capture",
+  "authors": [
+   "Angelika Więckol-Ryk",
+   "Alicja Krzemień",
+   "Adam Smoliński",
+   "Fernando Lasheras"
+  ],
+  "abstract": "The correct conduction of the CO2 capture process in coal-fired power plants with the use of monoethanolamine (MEA) requires constant process parameter monitoring and ensuring a specific flue gas chemical composition. One of the most common problems in these types of installations is the progressive corrosion and degradation of the valuable solvent. Despite the established reduction levels of oxygen and impurities entering into irreversible reactions with the absorber, the flue gas composition may change as a daily and annual function of time. The article presents a detailed analysis of the flue gas components that have the greatest influence on carbon dioxide capture installation technical safety, i.e., SOx, NOx, O2, and fly ash. The analysis was based on the results of experiments conducted at the Jaworzno III Tauron Wytwarzanie SA Polish coal power plant. The results show a significant influence of the flue gas desulfurization (FGD) process on MEA oxidative degradation. The amount of oxygen in flue gas during biomass and coal blend co-firing was nearly twice as low compared to pure coal combustion. Differences were also observed in the amounts of gas impurities with relation to the time of year and time of day of power plant operation.",
+  "date": "2018-03-22",
+  "doi": "10.3390/su10040923",
+  "subjects": [
+   "coal-fired power plants",
+   "co-combustion",
+   "monoethanolamine",
+   "flue gas composition"
+  ],
+  "card_gap": "post-combustion amine capture: solvent degradation/corrosion behavior"
+ },
+ {
+  "identifier": "oai:mdpi.com:/1996-1944/14/16/4519/",
+  "issn": "1996-1944",
+  "journal": "Materials",
+  "datestamp": "2021-08-29",
+  "setSpec": [
+   "review-article"
+  ],
+  "title": "Ionic Liquids and Deep Eutectic Solvents for CO2 Conversion Technologies—A Review",
+  "authors": [
+   "Kranthi Kumar Maniam",
+   "Shiladitya Paul"
+  ],
+  "abstract": "Ionic liquids (ILs) have a wide range of potential uses in renewable energy, including CO2 capture and electrochemical conversion. With the goal of providing a critical overview of the progression, new challenges, and prospects of ILs for evolving green renewable energy processes, this review emphasizes the significance of ILs as electrolytes and reaction media in two primary areas of interest: CO2 electroreduction and organic molecule electrosynthesis via CO2 transformation. Herein, we briefly summarize the most recent advances in the field, as well as approaches based on the electrochemical conversion of CO2 to industrially important compounds employing ILs as an electrolyte and/or reaction media. In addition, the review also discusses the advances made possible by deep eutectic solvents (DESs) in CO2 electroreduction to CO. Finally, the critical techno-commercial issues connected with employing ILs and DESs as an electrolyte or ILs as reaction media are reviewed, along with a future perspective on the path to rapid industrialization.",
+  "date": "2021-08-11",
+  "doi": "10.3390/ma14164519",
+  "subjects": [
+   "renewable energy",
+   "electrochemical conversion",
+   "carbon dioxide reduction",
+   "functionalized ionic liquids (ILs)",
+   "carbon dioxide transformation"
+  ],
+  "card_gap": "CO2 utilization solvents (ILs/DES) review data"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2073-4344/14/7/409/",
+  "issn": "2073-4344",
+  "journal": "Catalysts",
+  "datestamp": "2024-07-01",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "A Preliminary Assessment of Sorption-Enhanced Methanol Synthesis in a Fluidized Bed Reactor with Selective Addition/Removal of the Sorbent",
+  "authors": [
+   "Miguel Menéndez",
+   "Raúl Ciércoles",
+   "Javier Lasobras",
+   "Jaime Soler",
+   "Javier Herguido"
+  ],
+  "abstract": "Methanol synthesis from CO2 can be made in the presence of a sorbent to increase the achievable yield. If the fresh sorbent is continuously fed to a fluidized bed and separated from the catalyst bed by segregation, a steady-state operation can be achieved. The objective of the present work is to provide insight on the suitable operating conditions for such a fluidized bed reactor system. For this, a conventional CuO/ZnO/Al2O3 was selected as the catalyst, and the SiOLITE® zeolite was selected as the sorbent. Different particle sizes were used to be tested in various proportions to perform the fluidized bed segregation study. The fluid dynamics and segregation of the catalyst–sorbent binary mixtures were the most critical points in the development of this proof of concept. A good bed segregation with a mixing index of 0.31 was achieved. This fact favors the correct operation of the system with the continuous addition of adsorbent, which had hardly any catalyst losses during the tests carried out, achieving a loss of 0.005 g/min under optimal conditions. Continuous feeding and removal of sorbent with a low loss of catalyst was observed. Reactor simulations with MATLAB provided promising results, indicating that the addition of sorbent considerably improves the methanol yield under some operating conditions. This makes it more viable for industrial scaling, since it allows us to considerably reduce the pressure used in the methanol synthesis process or to increase the yield per step, reducing the recirculation of unconverted reactants.",
+  "date": "2024-06-28",
+  "doi": "10.3390/catal14070409",
+  "subjects": [
+   "sorption-enhanced reactors (SER)",
+   "segregation",
+   "methanol synthesis",
+   "fluidized bed reactors"
+  ],
+  "card_gap": "CO2-to-methanol sorption-enhanced reactor design"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2073-4344/11/7/773/",
+  "issn": "2073-4344",
+  "journal": "Catalysts",
+  "datestamp": "2021-06-26",
+  "setSpec": [
+   "rapid-communication"
+  ],
+  "title": "Influence of Phase Composition and Pretreatment on the Conversion of Iron Oxides into Iron Carbides in Syngas Atmospheres",
+  "authors": [
+   "Aleks Arinchtein",
+   "Meng-Yang Ye",
+   "Michael Geske",
+   "Marvin Frisch",
+   "Ralph Kraehnert"
+  ],
+  "abstract": "CO2 Fischer–Tropsch synthesis (CO2–FTS) is a promising technology enabling conversion of CO2 into valuable chemical feedstocks via hydrogenation. Iron–based CO2–FTS catalysts are known for their high activities and selectivities towards the formation of higher hydrocarbons. Importantly, iron carbides are the presumed active phase strongly associated with the formation of higher hydrocarbons. Yet, many factors such as reaction temperature, atmosphere, and pressure can lead to complex transformations between different oxide and/or carbide phases, which, in turn, alter selectivity. Thus, understanding the mechanism and kinetics of carbide formation remains challenging. We propose model–type iron oxide films of controlled nanostructure and phase composition as model materials to study carbide formation in syngas atmospheres. In the present work, different iron oxide precursor films with controlled phase composition (hematite, ferrihydrite, maghemite, maghemite/magnetite) and ordered mesoporosity are synthesized using the evaporation–induced self–assembly (EISA) approach. The model materials are then exposed to a controlled atmosphere of CO/H2 at 300 °C. Physicochemical analysis of the treated materials indicates that all oxides convert into carbides with a core–shell structure. The structure appears to consist of crystalline carbide cores surrounded by a partially oxidized carbide shell of low crystallinity. Larger crystallites in the original iron oxide result in larger carbide cores. The presented simple route for the synthesis and analysis of soft–templated iron carbide films will enable the elucidation of the dynamics of the oxide to carbide transformation in future work.",
+  "date": "2021-06-25",
+  "doi": "10.3390/catal11070773",
+  "subjects": [
+   "CO<sub>2</sub> Fischer–Tropsch synthesis",
+   "iron oxide",
+   "iron carbides",
+   "mesoporous films",
+   "EISA"
+  ],
+  "card_gap": "CO2-FT catalyst active phase (power-to-X route)"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2071-1050/16/5/2178/",
+  "issn": "2071-1050",
+  "journal": "Sustainability",
+  "datestamp": "2024-03-06",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Analysis of the Impacts of Small-Scale LNG Projects for Energy Supply of the North Region of Brazil: The Case of Roraima",
+  "authors": [
+   "Gabriela Pantoja Passos",
+   "Hirdan Katarina de Medeiros Costa",
+   "Edmilson dos Santos"
+  ],
+  "abstract": "Natural gas is a fossil resource less polluting compared to oil and coal. Despite the large volumes of proven reserves in Brazil, exploration and production are low because of several factors like the lack of infrastructure along several regions of the country, the regulatory model in the consolidation phase, and legal impasses regarding tariffs. In the Brazilian north region, the expansion of the natural gas market is even more complex due to regional specificities both in relation to natural characteristics and the existence of conflicts of interest that impact regional development. However, natural gas has been gaining notoriety over the years, with the existence of large projects that foster the gas market in some states in the region. This article aimed to discuss the impacts of increasing the participation of natural gas in the regional energy matrix through small-scale LNG projects, analyzing the case of the state of Roraima and the impacts of the Azul&atilde;o-Jaguatirica II Project on this state. As a result, this research presented an evaluation of the existent regulation in Brazilian&rsquo;s northern states, a bibliometric analysis of natural gas in the Brazilian Amazon which demonstrated how little the topic is covered, and a SWOT matrix about the impacts of natural gas in regional energy supply in order to help future decision-making on the subject.",
+  "date": "2024-03-06",
+  "doi": "10.3390/su16052178",
+  "subjects": [
+   "natural gas",
+   "Roraima",
+   "Azulao-Jaguatirica II",
+   "Amazon",
+   "energy supply"
+  ],
+  "card_gap": "small-scale LNG project economics/infrastructure"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2071-1050/16/22/9803/",
+  "issn": "2071-1050",
+  "journal": "Sustainability",
+  "datestamp": "2024-11-10",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Production Simulation of Stimulated Reservoir Volume in Gas Hydrate Formation with Three-Dimensional Embedded Discrete Fracture Model",
+  "authors": [
+   "Jianchun Xu",
+   "Yan Liu",
+   "Wei Sun"
+  ],
+  "abstract": "Natural gas hydrates (NGHs) in the Shenhu area of the South China Sea are deposited in low-permeability clayey silt sediments. As a renewable energy source with such a low carbon emission, the exploitation and recovery rate of NGH make it difficult to meet industrial requirements using existing development strategies. Research into an economically rewarding method of gas hydrate development is important for sustainable energy development. Hydraulic fracturing is an effective stimulation technique to improve the fluid conductivity. In this paper, an efficient three-dimensional embedded discrete fracture model is developed to investigate the production simulation of hydraulically fractured gas hydrate reservoirs considering the stimulated reservoir volume (SRV). The proposed model is applied to a hydraulically fractured production evaluation of vertical wells, horizontal wells, and complex structural wells. To verify the feasibility of the method, three test cases are established for different well types as well as different fractures. The effects of fracture position, fracture conductivity, fracture half-length, and stimulated reservoir volume size on gas production are presented. The results show that the production enhancement in multi-stage fractured horizontal wells is obvious compared to that of vertical wells, while spiral multilateral wells are less sensitive to fractures due to the distribution of wellbore branches and perforation points. Appropriate stimulated reservoir volume size can obtain high gas production and production efficiency.",
+  "date": "2024-11-10",
+  "doi": "10.3390/su16229803",
+  "subjects": [
+   "low-permeability gas hydrate reservoir",
+   "numerical simulation",
+   "embedded discrete fracture model",
+   "hydraulic fracturing",
+   "stimulated reservoir volume"
+  ],
+  "card_gap": "gas hydrate production simulation (future gas resource)"
+ },
+ {
+  "identifier": "oai:mdpi.com:/1996-1073/15/10/3676/",
+  "issn": "1996-1073",
+  "journal": "Energies",
+  "datestamp": "2024-07-30",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Mathematical Justification for Optimizing Operating Conditions of Gas and Gas Condensate Producing Wells",
+  "authors": [
+   "Alexander Cheremisin",
+   "Eduard Usov",
+   "Boris Kolchanov",
+   "Andrey Krylov",
+   "Alexander Valkovich",
+   "Pavel Lykhin",
+   "Vladimir Ulyanov",
+   "Ekaterina Khogoeva",
+   "Alexander Podnebesnykh"
+  ],
+  "abstract": "The paper investigated the problem of selecting/finding the optimal process conditions for gas condensate wells. The well process conditions imply a set of parameters that characterize its operation. The optimization of process conditions provides for the efficient operation of an oil and gas field while meeting the defined boundary and initial conditions, and allows for the process/production goal to be achieved. This paper proposed using the tree-structured Parzen estimator (TPE), which allows for the results from previous iterations to be considered, in order to identify the most promising region of conditions, thereby increasing the optimization efficiency. The movement of multiphase fluid inside the pipeline system (also in the borehole) must be calculated to solve the process optimization problem. The optimization module was integrated into the hydraulic and unsteady state multiphase flow calculations inside the well and the pipeline. The platform created allows for the process conditions at gas condensate fields to be identified via the use of numerical methods. The proposed optimization algorithm was tested in delivering the task of optimizing the process conditions in 13 producing wells in a part of a real gas condensate field in Western Siberia. The engineering problem of optimizing the production of gas and the gas condensate was solved as a consequence of the calculations performed.",
+  "date": "2022-05-17",
+  "doi": "10.3390/en15103676",
+  "subjects": [
+   "well process conditions optimization",
+   "unsteady state multiphase flow",
+   "Parzen estimator",
+   "gas",
+   "gas condensate fields",
+   "optimization"
+  ],
+  "card_gap": "gas/gas-condensate well operating-condition optimization"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2071-1050/15/10/8134/",
+  "issn": "2071-1050",
+  "journal": "Sustainability",
+  "datestamp": "2023-05-17",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Long-Range Wireless Communication for In-Line Inspection Robot: 2.4 km On-Site Test",
+  "authors": [
+   "Huseyin Ayhan Yavasoglu",
+   "Ilhami Unal",
+   "Ahmet Koksoy",
+   "Kursad Gokce",
+   "Yusuf Engin Tetik"
+  ],
+  "abstract": "This paper presents a study of the feasibility of using in-line inspection (ILI) techniques with long-range communication-capable robotic systems deployed with advanced inspection sensors in natural gas distribution pipelines, which are rare in the literature. The study involved selecting appropriate antennas and determining the appropriate communication frequency for an ILI robot operating on Istanbul 12&Prime; and 16&Prime; steel pipelines. The paper identifies the frequency windows with low losses, presents received signal strength indicator (RSSI) and signal-to-noise ratio (SNR) information for various scenarios, and evaluates the impact of T-junctions, which are known to be the worst components in terms of communication. To utilize the pipeline as a waveguide, low-attenuation-frequency windows were determined, which improved communication by a factor of 500 compared to aerial communication. The results of laboratory tests on a 50 m pipeline and real-world tests on a 2.4 km pipeline indicate that long-distance communication and video transmission are possible at frequencies of around 917 MHz with low-gain antennas. The study also assessed the impact of the early diagnosis of anomalies without incidents on the environment, achievable with ILI robots using long-range wireless communication.",
+  "date": "2023-05-17",
+  "doi": "10.3390/su15108134",
+  "subjects": [
+   "natural gas pipelines",
+   "nondestructive testing (NDT)",
+   "in-line inspection robot",
+   "wireless communication",
+   "antenna",
+   "circular waveguide"
+  ],
+  "card_gap": "pipeline in-line inspection robotics/comms"
+ },
+ {
+  "identifier": "oai:mdpi.com:/1996-1073/16/20/7178/",
+  "issn": "1996-1073",
+  "journal": "Energies",
+  "datestamp": "2023-10-23",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "The Optimization of a Pipeline Temperature Monitoring Method Based on Non-Local Means with the Black Widow Optimization Algorithm",
+  "authors": [
+   "Fangwei Lou",
+   "Benji Wang",
+   "Rui Sima",
+   "Zuan Chen",
+   "Wei He",
+   "Baikang Zhu",
+   "Bingyuan Hong"
+  ],
+  "abstract": "The accuracy of pipeline temperature monitoring using the Brillouin Optical Time Domain Analysis system depends on the Brillouin Gain Spectrum in the Brillouin Optical Time Domain Analysis system. The Non-Local Means noise reduction algorithm, due to its ability to use the data patterns available within the two-dimensional measurement data space, has been used to improve the Brillouin Gain Spectrum in the Brillouin Optical Time Domain Analysis system. This paper studies a new Non-Local Means algorithm optimized through the Black Widow Optimization Algorithm, in view of the unreasonable selection of smoothing parameters in other Non-Local Means algorithms. The field test demonstrates that, the new algorithm, when compared to other Non-Local Means methods, excels in preserving the detailed information within the Brillouin Gain Spectrum. It successfully restores the fundamental shape and essential characteristics of the Brillouin Gain Spectrum. Notably, at the 25 km fiber end, it achieves a 3 dB higher Signal-to-Noise Ratio compared to other Non-Local Means noise reduction algorithms. Furthermore, the Brillouin Gain Spectrum values exhibit increases of 9.4% in Root Mean Square Error, 12.5% in Sum of Squares Error, and 10% in Full Width at Half Maximum. The improved method has a better denoising effect and broad application prospects in pipeline safety.",
+  "date": "2023-10-20",
+  "doi": "10.3390/en16207178",
+  "subjects": [
+   "Brillouin Gain Spectrum",
+   "Non-Local Means",
+   "Black Widow Optimization Algorithm",
+   "pipe temperature monitoring"
+  ],
+  "card_gap": "distributed fiber-optic pipeline monitoring denoising"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2227-9717/12/1/131/",
+  "issn": "2227-9717",
+  "journal": "Processes",
+  "datestamp": "2024-01-05",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Study on Fracture Propagation Rules of Shale Refracturing Based on CT Technology",
+  "authors": [
+   "Jialiang Zhang",
+   "Xiaoqiong Wang",
+   "Huajian Xiao",
+   "Hongkui Ge",
+   "Jixiang He"
+  ],
+  "abstract": "Reactivating oil and gas wells, increasing oil and gas production, and improving recovery provide more opportunities for energy supply especially in the extraction of unconventional oil and gas reservoirs. Due to changes caused by well completion and production in pore pressure around oil and gas wells, subsequently leading to changes in ground stress, and the presence of natural and induced fractures in the reservoir, the process of refracturing is highly complex. This complexity is particularly pronounced in shale oil reservoirs with developed weak layer structures. Through true triaxial hydraulic fracturing experiments on Jimsar shale and utilizing micro-CT to characterize fractures, this study investigates the mechanisms and patterns of refracturing. The research indicates: (1) natural fractures and the stress states in the rock are the primary influencing factors in the fracture propagation. Because natural fractures are widely developed in Jimsar shale, natural fractures are the main influencing factors of hydraulic fracturing, especially in refracturing, the existing fractures have a greater impact on the propagation of secondary fracturing fractures. (2) Successful sealing of existing fractures using temporary blocking agents is crucial for initiating new fractures in refracturing. Traditional methods of plugging the seam at the root of existing fractures are ineffective, whereas extensive injection of blocking agents, forming large &ldquo;sheet-like&rdquo; blocking bodies in old fractures, yields better sealing effects, promoting the initiation of new fractures. (3) Moderately increasing the pumping rate and viscosity of fracturing fluid is advantageous in forming &ldquo;sheet-like&rdquo; temporary blocking bodies, enhancing the complexity of the network of new fractures in refracturing. (4) When there is a high horizontal stress difference, after sealing old fractures, the secondary hydraulic fractures initiate parallel to and extend from the old fractures. In cases of low horizontal stress difference, the complexity of secondary hydraulic fractures increases. When the horizontal stress changes direction, the secondary hydraulic fractures also change direction. It is recommended to use high-viscosity fracturing fluid and moderately increase the pumping rate, injecting blocking agents to seal old fractures, thereby enhancing the complexity of the network of refracturing. These findings provide important technical guidance for improving the efficiency of shale oil reservoir development.",
+  "date": "2024-01-03",
+  "doi": "10.3390/pr12010131",
+  "subjects": [
+   "refracturing",
+   "fracture propagation",
+   "shale",
+   "Jimsar",
+   "micron CT"
+  ],
+  "card_gap": "shale refracturing fracture imaging (CT)"
+ },
+ {
+  "identifier": "oai:mdpi.com:/1996-1073/13/16/4202/",
+  "issn": "1996-1073",
+  "journal": "Energies",
+  "datestamp": "2023-08-12",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Study on Well Selection Method for Refracturing Horizontal Wells in Tight Reservoirs",
+  "authors": [
+   "Qihong Feng",
+   "Jiawei Ren",
+   "Xianmin Zhang",
+   "Xianjun Wang",
+   "Sen Wang",
+   "Yurun Li"
+  ],
+  "abstract": "Refracturing technology is one of the key technologies to recover the productivity of horizontal wells in tight oil reservoirs, and the selection of best candidate wells from target blocks is the basis of this technology. Based on the refracturing production database, this paper analyzes the direct relationship between geological data, initial fracturing completion data, and dynamic production data, and the stimulation effect of refracturing. Considering the interaction among multiple factors, the factors affecting the stimulation effect of refracturing are classified and integrated, and a comprehensive index including geology, engineering, and production is constructed, making this index meaningful both for physical and engineering properties. The XGBoost decision tree model is established to analyze the weight of influence for the comprehensive index of geology, engineering, and production in predicting the stimulation effect of refracturing. A comprehensive decision index of refracturing well selection is formed by combining the above three for performing a fast selection of horizontal candidate wells for fracturing. Taking a horizontal well test area in Songliao Basin as an example, the target wells of refracturing are selected by this method, and field operation is carried out, and a good stimulation effect is achieved. The results show that the comprehensive decision-making index constructed by this method is reliable and has certain guiding significance for well selection and stimulation potential evaluation of tight oil reservoir.",
+  "date": "2020-08-14",
+  "doi": "10.3390/en13164202",
+  "subjects": [
+   "tight oil",
+   "re-fracturing",
+   "horizontal wells",
+   "decision index",
+   "XGBoost regression",
+   "deep learning"
+  ],
+  "card_gap": "refrac candidate-well selection methodology"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2227-9717/12/6/1057/",
+  "issn": "2227-9717",
+  "journal": "Processes",
+  "datestamp": "2024-05-23",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Multi-Porous Medium Characterization Reveals Tight Oil Potential in the Shell Limestone Reservoir of the Sichuan Basin",
+  "authors": [
+   "Guangzhao Zhou",
+   "Zanquan Guo",
+   "Dongjun Wu",
+   "Saihong Xue",
+   "Minjie Lin",
+   "Wantong Wang",
+   "Zihan Zhen",
+   "Qingsheng Jin"
+  ],
+  "abstract": "With the continuous deepening of oil and gas exploration and development, unconventional oil and gas resources, represented by tight oil, have become research hotspots. However, few studies have investigated tight oil potential in any systematic way in the shell limestone reservoir of the Sichuan Basin. Herein, we used thin section analysis, X-ray diffraction (XRD), high-pressure mercury intrusion, low-pressure N2 and CO2 adsorption experiments, low-field nuclear magnetic resonance (NMR), focused ion beam&ndash;scanning electron microscopy (FIB-SEM), and nano-CT to characterize multi-porous media. The reservoir space controlled by nonfabric, shell, and matrix constitutes all the reservoir space for tight oil. The interconnected porosity was mainly distributed in the range of 1% to 5% (avg. 2.12%). The effective interconnected porosity mainly ranged from 0.5% to 2.0% (avg. 1.59%). The porosity of large fractures was 0.1% to 0.5% (avg. 0.21%). The porosity of isolated pores and bound oil&ndash;water pores was 0.2% to 0.8% (avg. 0.44%). The dissolved pores adjacent to fractures, the microfractures controlled by the shell, the microfractures controlled by the matrix, the isolated pores, and the intracrystalline pores constitute five independent pore-throat systems. The development of pores and fractures in shell limestone reservoirs are coupled on the centimeter&ndash;millimeter&ndash;micron&ndash;nanometer scale. Various reservoir-permeability models show continuous distribution characteristics. These findings make an important contribution to the exploration and exploitation of tight oil in shell limestone.",
+  "date": "2024-05-22",
+  "doi": "10.3390/pr12061057",
+  "subjects": [
+   "shell limestone reservoir",
+   "Da’anzhai Member",
+   "Sichuan Basin",
+   "tight oil"
+  ],
+  "card_gap": "tight-oil multi-porous-media characterization"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2071-1050/15/6/5530/",
+  "issn": "2071-1050",
+  "journal": "Sustainability",
+  "datestamp": "2023-03-22",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Mechanism Study and Performance Evaluation of Nano-Materials Used to Improve Wellbore Stability",
+  "authors": [
+   "Yan Ye",
+   "Hanxuan Song",
+   "Jinzhi Zhu",
+   "Weiru Zheng",
+   "Fujian Zhou",
+   "Guangxu Zhou",
+   "Qingwen Zhang"
+  ],
+  "abstract": "In the drilling process of Tarim Oilfield, a representative of ultra-deep oil and gas reservoirs, there are many problems of wellbore stability/instability caused by the development of a large number of micro-fractures. According to the nano-plugging mechanism, rigid nano-SiO2 and deformable nano-paraffin emulsion are added to the drilling fluid to improve the plugging rate. The effect of nanomaterials on the mechanical properties of limestone in the Karatal Formation was evaluated through a triaxial mechanical experiment, and it was found that rigid nano-SiO2 can have a better plugging effect under high formation pressure. It can increase the compressive strength of the limestone core by 10.32% and the cohesion of the core by 12.19%, and the internal friction angle of the core was increased from 25.67&deg; to 26.39&deg;. The internal structure of the core after nano-blocking was observed using CT scanning, and the fracture distribution state of the core before and after plugging and the fracture characteristics of the core under the pressure gradient were obtained, which confirmed that nano-SiO2 can effectively solve the fracture problem of deep limestone caused by micro-fractures.",
+  "date": "2023-03-21",
+  "doi": "10.3390/su15065530",
+  "subjects": [
+   "rock mechanics",
+   "nanomaterials",
+   "CT scan",
+   "Tarim Oilfield"
+  ],
+  "card_gap": "nano-material drilling fluids for ultra-deep wellbore stability"
+ },
+ {
+  "identifier": "oai:mdpi.com:/1996-1073/13/1/206/",
+  "issn": "1996-1073",
+  "journal": "Energies",
+  "datestamp": "2022-08-10",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Simulation Study to Investigate the Effects of Operational Conditions on Methylcyclohexane Dehydrogenation for Hydrogen Production",
+  "authors": [
+   "Muhammad Haris Hamayun",
+   "Ibrahim M. Maafa",
+   "Murid Hussain",
+   "Rabya Aslam"
+  ],
+  "abstract": "In the recent era, hydrogen has gained immense consideration as a clean-energy carrier. Its storage is, however, still the main hurdle in the implementation of a hydrogen-based clean economy. Liquid organic hydrogen carriers (LOHCs) are a potential option for hydrogen storage in ambient conditions, and can contribute to the clean-fuel concept in the future. In the present work, a parametric and simulation study was carried out for the storage and release of hydrogen for the methylcyclohexane toluene system. In particular, the methylcyclohexane dehydrogenation reaction is investigated over six potential catalysts for the temperature range of 300&ndash;450 &deg;C and a pressure range of 1&ndash;3 bar to select the best catalyst under optimum operating conditions. Moreover, the effects of hydrogen addition in the feed mixture, and byproduct yield, are also studied as functions of operating conditions. The best catalyst selected for the process is 1 wt. % Pt/&gamma;-Al2O3. The optimum operating conditions selected for the dehydrogenation process are 360 &deg;C and 1.8 bar. Hydrogen addition in the feed reduces the percentage of methylcyclohexane conversion but is required to enhance the catalyst&rsquo;s stability. Aspen HYSYS v. 9.0 (AspenTech, Lahore, Pakistan) has been used to carry out the simulation study.",
+  "date": "2020-01-01",
+  "doi": "10.3390/en13010206",
+  "subjects": [
+   "LOHC",
+   "simulation",
+   "methylcyclohexane",
+   "dehydrogenation",
+   "Aspen HYSYS",
+   "energy"
+  ],
+  "card_gap": "LOHC (MCH) dehydrogenation process simulation"
+ },
+ {
+  "identifier": "oai:mdpi.com:/2073-4344/10/3/334/",
+  "issn": "2073-4344",
+  "journal": "Catalysts",
+  "datestamp": "2020-03-17",
+  "setSpec": [
+   "research-article"
+  ],
+  "title": "Substitution of Co with Ni in Co/Al2O3 Catalysts for Fischer–Tropsch Synthesis",
+  "authors": [
+   "Michela Martinelli",
+   "Sai Charan Karuturi",
+   "Richard Garcia",
+   "Caleb D. Watson",
+   "Wilson D. Shafer",
+   "Donald C. Cronauer",
+   "A. Jeremy Kropf",
+   "Christopher L. Marshall",
+   "Gary Jacobs"
+  ],
+  "abstract": "The effect of cobalt substitution with nickel was investigated for the Fischer&ndash;Tropsch synthesis reaction. Catalysts having different Ni/Co ratios were prepared by aqueous incipient wetness co-impregnation, characterized, and tested using a continuously stirred tank reactor (CSTR) for more than 200 h. The addition of nickel did not significantly modify the morphological properties measured. XRD, STEM, and TPR-XANES results showed intimate contact between nickel and cobalt, strongly suggesting the formation of a Co-Ni solid oxide solution in each case. Moreover, TPR-XANES indicated that nickel addition improves the cobalt reducibility. This may be due to H2 dissociation and spillover, but is more likely the results of a chemical effect of intimate contact between Co and Ni resulting in Co-Ni alloying after activation. FTS testing revealed a lower initial activity when nickel was added. However, CO conversion continuously increased with time on-stream until a steady-state value (34%&ndash;37% depending on Ni/Co ratio) was achieved, which was very close to the value observed for undoped Co/Al2O3. This trend suggests nickel can stabilize cobalt nanoparticles even at a lower weight percentage of Co. Currently, the cobalt price is 2.13 times the price of nickel. Thus, comparing the activity/price, the catalyst with a Ni/Co ratio of 25/75 has better performance than the unpromoted catalyst. Finally, nickel-promoted catalysts exhibited slightly higher initial selectivity for light hydrocarbons, but this difference typically diminished with time on-stream; once leveling off in conversion was achieved, the C5+ selectivities were similar (&asymp; 80%) for Ni/Co ratios up to 10/90, and only slightly lower (&asymp; 77%) at Ni/Co of 25/75.",
+  "date": "2020-03-17",
+  "doi": "10.3390/catal10030334",
+  "subjects": [
+   "Fischer–Tropsch synthesis",
+   "bimetallic catalyst",
+   "cobalt-nickel alloys",
+   "TPR-XANES/EXAFS"
+  ],
+  "card_gap": "GTL Fischer-Tropsch Co/Ni catalyst substitution"
+ }
+]
