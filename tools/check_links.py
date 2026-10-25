@@ -1,7 +1,8 @@
 """Check every catalog url and write catalog/index/link-check.md.
 
-Uses HEAD, then GET when HEAD is refused, one request per host every 3 seconds. A failure here
-is a prompt to re-verify the record, not proof the source is gone: many sites block bots.
+One request per host every 3 seconds, through common.check_url (destination-guarded,
+HEAD then GET when HEAD is refused). A failure here is a prompt to re-verify the record,
+not proof the source is gone: many sites block bots.
 """
 import collections
 import datetime
@@ -11,24 +12,9 @@ import sys
 import time
 import urllib.parse
 
-import requests
-
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "collectors"))
-from common import USER_AGENT  # noqa: E402
-
-
-def check(url):
-    headers = {"User-Agent": USER_AGENT}
-    try:
-        resp = requests.head(url, headers=headers, timeout=30, allow_redirects=True)
-        if resp.status_code in (403, 405, 501):
-            resp = requests.get(url, headers=headers, timeout=30, allow_redirects=True, stream=True)
-            resp.close()
-        moved = resp.url.rstrip("/") != url.rstrip("/")
-        return resp.status_code, resp.url if moved else ""
-    except requests.RequestException as exc:
-        return None, type(exc).__name__
+from common import check_url  # noqa: E402
 
 
 def main():
@@ -40,7 +26,7 @@ def main():
         if wait > 0:
             time.sleep(wait)
         last[host] = time.monotonic()
-        status, note = check(rec["url"])
+        status, note = check_url(rec["url"])
         ok = status is not None and status < 400
         counts["ok" if ok else "problem"] += 1
         if not ok or note:

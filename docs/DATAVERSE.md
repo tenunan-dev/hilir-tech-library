@@ -16,6 +16,8 @@ python tools/export_dataverse.py --include-restricted  # personal environment on
 | `documents.csv` | one per corpus document | Metadata for every document; `body` only where `text_included` is `yes` |
 | `taxonomy.csv` | one per code | Sector, discipline and region codes with names and sub-topics |
 | `technologies.csv` | one per technology card | Maturity, TRL, suppliers, process steps, equipment, costs with basis, Mermaid block diagram, sources |
+| `technology_register.csv` | one per register entry | All 299 register technologies: area, maturity, examples, and the card id where a card exists |
+| `gaps.csv` | one per missing input | What a card lacks, why (reason_code), where to get it, next action, blocker |
 
 By default only open-licence documents carry text. Restricted documents (private reference copies) get a row with title, url and licence but no text, because a Dataverse environment is usually readable by colleagues. Use `--include-restricted` only in an environment no one else can read.
 
@@ -29,13 +31,15 @@ In [Power Apps](https://make.powerapps.com), pick the environment, then **Tables
 | Library Document | `title` | `document_id` | `url` URL; `published`, `retrieved_at` date and time; `body` multiline text (max length 1,048,576); `source_id` can later become a lookup to Library Source |
 | Library Taxonomy | `code` | `code` | all text |
 | Library Technology | `name` | `technology_id` | `principle`, `costs`, `block_diagram_mermaid` multiline text |
+| Library Technology Register | `name` | `code` | all text |
+| Library Gap | `item` | | all text |
 
 Leave the other columns as single line text. `sectors`, `disciplines` and `regions` can be converted to multi-select choice columns later (choices from taxonomy.csv) if you want filters in Power Apps.
 
 ## 3. Use it in Copilot Studio
 
 1. The environment needs **Dataverse search** turned on (Power Platform admin center > environment > Settings > Features), and the agent must use **Authenticate with Microsoft**.
-2. In the agent: **Add knowledge > Dataverse**, pick the three tables (up to 15 per knowledge source).
+2. In the agent: **Add knowledge > Dataverse**, pick the tables (up to 15 per knowledge source).
 3. Description, which the orchestrator uses to decide when to search: *Curated library of oil, gas, petrochemical, hydrogen, CCUS and power technology sources, weighted to Asia Pacific and Southeast Asia, with document abstracts. Always cite the url and respect reuse_level.*
 4. Glossary terms: add the codes (GAS = Gas processing and LNG, ROT = Rotating and static equipment, sea = Southeast Asia, and so on, from taxonomy.csv) and explain `reuse_level`.
 5. To search inside `body` and `notes`, mark the tables and these columns **Searchable** and add them to the **Quick Find view**. Microsoft lists searching multiline text as a preview feature, and the first indexing can take up to two days.

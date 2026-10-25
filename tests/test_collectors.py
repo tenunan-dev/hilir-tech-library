@@ -205,3 +205,31 @@ def test_manual_limit_ignores_sidecars(corpus):
         (inbox / f"doc-{n}.html").write_text(HTML, encoding="utf-8")
         (inbox / f"doc-{n}.html.url").write_text(f"https://example.org/{n}\n", encoding="utf-8")
     assert len(list(adapters.manual(record(), 3))) == 3
+
+
+def test_fetch_refuses_non_public_destinations():
+    for bad in ("http://127.0.0.1:8000/admin", "http://10.1.2.3/report", "http://[::1]/x", "ftp://example.org/x"):
+        with pytest.raises(PermissionError):
+            common.fetch(bad)
+
+
+def test_check_url_falls_back_to_get_and_notes_redirect(monkeypatch):
+    class Resp:
+        def __init__(self, status, url, text=""):
+            self.status_code, self.url, self.text = status, url, text
+
+        def close(self):
+            pass
+
+    monkeypatch.setattr(common, "_robots", {})
+    monkeypatch.setattr(common.requests, "head", lambda url, **kw: Resp(405, "https://example.org/a"))
+    monkeypatch.setattr(common.requests, "get", lambda url, **kw: Resp(200, "https://example.org/final"))
+    assert common.check_url("https://example.org/a") == (200, "https://example.org/final")
+
+
+def test_parse_feed_rejects_entity_expansion():
+    from defusedxml import DefusedXmlException
+    evil = ('<?xml version="1.0"?><!DOCTYPE rss [<!ENTITY xxe "stolen">]>'
+            '<rss version="2.0"><channel><title>&xxe;</title></channel></rss>')
+    with pytest.raises(DefusedXmlException):
+        adapters.parse_feed(evil)

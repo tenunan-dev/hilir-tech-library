@@ -82,7 +82,7 @@ Add to claude.ai: Settings > Connectors > Add custom connector, URL `https://tec
 leave the OAuth client fields empty, Connect, then paste the key from `~/.config/og-tech-library/api-key`
 on the sign-in page and Allow. The connection then works in claude.ai on web and in the mobile apps.
 
-## Deploy to Azure Container Apps (alternative, not used: no Azure subscription) (recommended for Copilot Studio)
+## Deploy to Azure Container Apps (alternative, not used: no Azure subscription)
 
 Same cloud as Copilot Studio, scales to zero when idle (pay only for use), HTTPS by default. Uses the `Dockerfile` in the repo root. Needs the Azure CLI (`az login`) and an Azure subscription.
 
@@ -105,12 +105,13 @@ Any other container host (Azure App Service, Google Cloud Run, Fly.io, a VM) wor
 
 1. Open the agent in Copilot Studio, go to **Tools**, then **Add a tool > New tool > Model Context Protocol**.
 2. Server name: `O&G technology library`. Server description (the orchestrator uses it to decide when to call the server): *Searches a curated library of oil, gas, petrochemical, hydrogen, CCUS and power technology sources, weighted to Asia Pacific and Southeast Asia. Returns sources and passages with url, licence and reuse level.*
-3. Server URL: `https://<fqdn>/mcp`.
+3. Server URL: `https://techlibrary.tenunan.com/mcp` (the live deployment above).
 4. Authentication: **API key**, type **Header**, header name `x-api-key`. Enter the key when creating the connection.
-5. Add the server's tools (`search`, `get_source`, `get_document`, `list_by_tag`, `library_stats`) to the agent and test in the test pane, e.g. *"Which Southeast Asian sources cover LNG liquefaction?"*
+5. Add the server's tools (`search`, `get_source`, `get_document`, `list_by_tag`, `get_technology`, `compare_technologies`, `list_technology_register`, `list_gaps`, `library_stats`) to the agent and test in the test pane, e.g. *"Which Southeast Asian sources cover LNG liquefaction?"* or *"Compare post-combustion capture technologies with their costs."*
 
 Notes:
 - Copilot Studio supports only the streamable HTTP transport (SSE ended in August 2025), which this server uses. Reference: https://learn.microsoft.com/microsoft-copilot-studio/mcp-add-existing-server-to-agent
+- If tenant data policies block MCP connectors, import the REST schema instead: create a custom tool from the public `https://techlibrary.tenunan.com/api/openapi.json` with the same `x-api-key` header authentication.
 - If your tenant has Power Platform data policies, they apply to MCP connectors too; an admin may need to allow the connector.
 - For an agent shared across an organisation, consider replacing the API key with OAuth 2.0 (Microsoft Entra ID) so each user signs in; Copilot Studio supports OAuth for MCP servers. That needs an app registration and token validation added to the server.
 

@@ -32,9 +32,6 @@ COUNTRIES = {
     "SA": "Saudi Arabia", "SE": "Sweden", "SG": "Singapore", "TH": "Thailand", "US": "United States USA",
     "VN": "Vietnam", "INT": "International",
 }
-# BM25 weights per column (kind, ref, source_id, title, text, tags): a match in the name or text
-# counts more than one in the taxonomy labels every record of a sector shares.
-BM25 = "bm25(search, 0, 0, 0, 3.0, 1.0, 0.4)"
 # Technology cards are curated syntheses, so they rank a little above single sources.
 TECHNOLOGY_BOOST = 1.3
 TECHNOLOGY_LICENCE = "Library's own summary of cited sources; cite the sources listed in the card"
@@ -180,11 +177,6 @@ def build(db_path=None, corpus=None):
     return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards)}
 
 
-def fts_query(text):
-    """Any of the query's words; BM25 already ranks rows that match more of them higher."""
-    return " OR ".join(f'"{t}"' for t in re.findall(r"\w+", text.lower()))
-
-
 def _matches(rec, sector, discipline, region, reuse_level):
     return ((not sector or sector in rec["sectors"]) and (not discipline or discipline in rec["disciplines"])
             and (not region or region in rec["regions"]) and (not reuse_level or rec["reuse_level"] == reuse_level))
@@ -229,11 +221,19 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
     kinds = ("source", "chunk", "technology") if kind == "all" else (kind,)
-    q = fts_query(query)
+    # Keep word characters only, then quote each token: any of the query's words may match, and
+    # BM25 ranks rows that match more of them higher. The token filter is what keeps the MATCH
+    # value inert, so it must stay on this path into the parameterised query below.
+    terms = re.findall(r"\w+", query.lower())
+    q = " OR ".join(f'"{t}"' for t in terms)
     if not q:
         return []
-    rows = db.execute(f"SELECT rowid, kind, ref, source_id, title, text, tags, {BM25} AS rank FROM search "
-                      "WHERE search MATCH ? ORDER BY rank LIMIT 500", (q,)).fetchall()
+    # BM25 weights per column (kind, ref, source_id, title, text, tags): a match in the name or
+    # text counts more than one in the taxonomy labels every record of a sector shares.
+    sql = ("SELECT rowid, kind, ref, source_id, title, text, tags, "
+           "bm25(search, 0, 0, 0, 3.0, 1.0, 0.4) AS rank FROM search "
+           "WHERE search MATCH ? ORDER BY rank LIMIT 500")
+    rows = db.execute(sql, (q,)).fetchall()
     # Rows matching more of the query's words come first; BM25 orders rows within each group.
     terms = set(re.findall(r"\w+", query.lower()))
     rows.sort(key=lambda r: (-sum(t in f"{r['title']} {r['text']} {r['tags']}".lower() for t in terms), r["rank"]))
@@ -369,7 +369,8 @@ if __name__ == "__main__":
     if sys.argv[1:2] == ["build"]:
         print(json.dumps(build()))
     elif sys.argv[1:2] == ["search"]:
-        for hit in search(" ".join(sys.argv[2:])):
+        query = " ".join(re.findall(r"\w+", " ".join(sys.argv[2:]).lower()))  # word characters only
+        for hit in search(query):
             print(f"{hit['score']:.4f}  {hit['kind']:6}  {hit.get('source_id', hit['ref']):24}  {hit['title']}")
     else:
         print("usage: python agent/library.py build | search <query>")

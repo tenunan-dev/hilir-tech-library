@@ -6,9 +6,11 @@ front matter, so agents can decide whether a passage may be quoted, summarised o
 import datetime
 import hashlib
 import io
+import ipaddress
 import json
 import pathlib
 import re
+import socket
 import time
 import urllib.parse
 import urllib.robotparser
@@ -20,6 +22,8 @@ CORPUS = ROOT / "corpus"
 MANIFEST = CORPUS / "manifest.jsonl"
 USER_AGENT = "og-tech-sources-collector/0.1 (+https://github.com/tenunan-dev/og-tech-sources)"
 MIN_DELAY_SECONDS = 3.0
+ALLOWED_SCHEMES = ("http", "https")
+MAX_REDIRECTS = 5
 # Document-level licences that make a document open even when its source is restricted overall
 # (e.g. arXiv metadata and abstracts are CC0 while the papers keep their own licences).
 OPEN_LICENCES = {"CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "public-domain", "OGL-UK-3.0", "NLOD-2.0"}
@@ -46,9 +50,31 @@ def collectable(rec):
             and rec.get("automated_access", "unstated") != "prohibited")
 
 
+def assert_public(url):
+    """Refuse anything but http(s), and loopback, private or link-local destinations.
+
+    The collector only ever fetches public publisher sites, so an internal address or an
+    unexpected scheme means a mistaken or tampered record. Unresolvable names are allowed
+    through: the request itself will fail anyway, and this keeps offline tests working.
+    """
+    parts = urllib.parse.urlsplit(url)
+    if parts.scheme not in ALLOWED_SCHEMES:
+        raise PermissionError(f"scheme not allowed: {parts.scheme or '(none)'}")
+    host = parts.hostname or ""
+    try:
+        infos = socket.getaddrinfo(host, None)
+    except socket.gaierror:
+        return
+    for info in infos:
+        ip = ipaddress.ip_address(info[4][0])
+        if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved or ip.is_multicast or ip.is_unspecified:
+            raise PermissionError(f"non-public destination {host}")
+
+
 def allowed_by_robots(url):
     if any(url.startswith(prefix) for prefix in ROBOTS_EXCEPTIONS):
         return True
+    assert_public(url)
     parts = urllib.parse.urlsplit(url)
     base = f"{parts.scheme}://{parts.netloc}"
     if base not in _robots:
@@ -70,18 +96,65 @@ def allowed_by_robots(url):
     return _robots[base].can_fetch(USER_AGENT, url)
 
 
-def fetch(url, headers=None, **params):
-    """GET with robots.txt check and a per-host delay. Returns a requests.Response."""
+def _hop(method, url, headers, params=None, stream=False, redirects=0, raise_status=True):
+    """One request hop. Validation sits inline on the request path so it cannot drift from
+    the sinks: only http(s) is allowed, the host must resolve to public addresses only,
+    robots.txt is honoured, redirects are followed by hand (re-resolving every hop, which
+    also narrows DNS-rebinding windows) and the chain is capped at MAX_REDIRECTS."""
+    parts = urllib.parse.urlsplit(url)
+    if parts.scheme not in ("http", "https"):
+        raise PermissionError(f"scheme not allowed: {parts.scheme or '(none)'}")
+    host = parts.hostname or ""
+    try:
+        infos = socket.getaddrinfo(host, None)
+    except socket.gaierror:
+        infos = []  # unresolvable: the request itself will fail; keeps offline tests working
+    for info in infos:
+        ip = ipaddress.ip_address(info[4][0])
+        if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved or ip.is_multicast or ip.is_unspecified:
+            raise PermissionError(f"non-public destination {host}")
     if not allowed_by_robots(url):
         raise PermissionError(f"robots.txt disallows {url}")
+    if method == "HEAD":
+        resp = requests.head(url, params=params, headers=headers, timeout=60, allow_redirects=False)
+    else:
+        resp = requests.get(url, params=params, headers=headers, timeout=60, stream=stream, allow_redirects=False)
+    if resp.status_code in (301, 302, 303, 307, 308) and redirects < MAX_REDIRECTS:
+        target = urllib.parse.urljoin(url, resp.headers.get("Location", ""))
+        if target:
+            return _hop("GET" if resp.status_code == 303 else method, target, headers,
+                        params, stream, redirects + 1, raise_status)
+    if raise_status:
+        resp.raise_for_status()
+    return resp
+
+
+def fetch(url, headers=None, **params):
+    """GET with a per-host delay; every hop is validated in _hop (scheme, public
+    destination, robots.txt, capped redirects). Returns a requests.Response."""
     host = urllib.parse.urlsplit(url).netloc
     wait = MIN_DELAY_SECONDS - (time.monotonic() - _last_hit.get(host, 0.0))
     if wait > 0:
         time.sleep(wait)
     _last_hit[host] = time.monotonic()
-    resp = requests.get(url, params=params or None, headers={"User-Agent": USER_AGENT, **(headers or {})}, timeout=60)
-    resp.raise_for_status()
-    return resp
+    return _hop("GET", url, {"User-Agent": USER_AGENT, **(headers or {})}, params=params or None)
+
+
+def check_url(url):
+    """HEAD a url, GET when HEAD is refused: the link checker's liveness probe.
+
+    Sits on _hop, so it gets the same scheme, destination and redirect validation.
+    """
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        resp = _hop("HEAD", url, headers, raise_status=False)
+        if resp.status_code in (403, 405, 501):
+            resp = _hop("GET", url, headers, stream=True, raise_status=False)
+            resp.close()
+        moved = resp.url.rstrip("/") != url.rstrip("/")
+        return resp.status_code, resp.url if moved else ""
+    except requests.RequestException as exc:
+        return None, type(exc).__name__
 
 
 def undouble(text):

@@ -33,7 +33,11 @@ Run `embed.py` again after each `library.py build`.
 | `get_source(source_id)` | The full catalog record and its collected documents |
 | `get_document(path)` | Front matter and full text of one document |
 | `list_by_tag(code, region, reuse_level, source_type)` | Catalog sources for a sector or discipline code, Asia Pacific first |
-| `library_stats()` | Counts of sources, documents, chunks and vectors |
+| `get_technology(technology_id)` | One technology card: principle, process steps with equipment, Mermaid block flow diagram, key equipment, costs with basis, suppliers, reference plants |
+| `compare_technologies(sector, maturity, application)` | Comparison table of technology options, commercial first |
+| `list_technology_register(code, maturity, query)` | The register of about 300 technologies across all sectors |
+| `list_gaps(sector, field, reason_code, include_no_card)` | Inputs the technology cards still lack, with why and where to get them |
+| `library_stats()` | Counts of sources, documents, chunks and technology cards |
 
 Claude Desktop (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):
 
@@ -50,4 +54,6 @@ Claude Desktop (`~/Library/Application Support/Claude/claude_desktop_config.json
 
 Claude Code: `claude mcp add og-tech-sources -- /path/to/.venv/bin/python /path/to/og-tech-sources/agent/server.py`
 
-The server builds the index on first start if `build/library.db` is missing.
+The server builds the index on first start if `build/library.db` is missing. For cloud agents
+(Copilot Studio and others) the same tools are also served over HTTPS, with a REST API and OAuth
+sign-in alongside; see [docs/HOSTING.md](../docs/HOSTING.md) (live: `https://techlibrary.tenunan.com/mcp`).

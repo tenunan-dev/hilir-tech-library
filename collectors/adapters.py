@@ -3,7 +3,7 @@
 Adapters only discover and extract documents; common.write_document decides what is stored.
 """
 import pathlib
-import xml.etree.ElementTree as ET
+from defusedxml.ElementTree import fromstring as parse_xml
 
 from common import CORPUS, fetch, to_markdown
 
@@ -19,7 +19,7 @@ ARXIV_QUERY = " OR ".join(f'ti:"{term}"' for term in (
 
 def parse_feed(xml_text):
     """Return (title, link, published) for each item in an RSS 2.0, RSS 1.0 or Atom feed."""
-    root = ET.fromstring(xml_text)
+    root = parse_xml(xml_text)
     items = []
     for node in root.iter():
         tag = node.tag.split("}")[-1]
@@ -50,7 +50,7 @@ def arxiv(rec, limit):
     """Metadata and abstracts only: arXiv metadata is CC0, full texts keep per-paper licences."""
     resp = fetch("https://export.arxiv.org/api/query", search_query=ARXIV_QUERY,
                  sortBy="submittedDate", sortOrder="descending", max_results=limit)
-    root = ET.fromstring(resp.text)
+    root = parse_xml(resp.text)
     for entry in root.findall(f"{ATOM}entry"):
         title = " ".join(entry.findtext(f"{ATOM}title", "").split())
         link = entry.findtext(f"{ATOM}id", "")
