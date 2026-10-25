@@ -1,0 +1,218 @@
+{
+  "id": "gas-boil-off-reliquefaction",
+  "name": "Boil-off gas management and reliquefaction",
+  "aliases": [
+    "boil-off gas",
+    "BOG reliquefaction",
+    "BOG management"
+  ],
+  "sector": "GAS",
+  "category": "LNG / shipping",
+  "applications": [
+    "LNG carriers",
+    "FSRUs",
+    "LNG storage tanks"
+  ],
+  "maturity": "commercial",
+  "principle": "Heat leaks into LNG tanks and evaporates a fraction each day. Boil-off gas is used as fuel, burnt in a gas combustion unit or compressed, cooled and returned to the cargo tanks in a reliquefaction plant. Wärtsilä's system compresses boil-off, cools it in a cold box on a nitrogen compression-expansion cycle, removes nitrogen and returns LNG to the tanks.",
+  "process_steps": [
+    {
+      "id": "BOG",
+      "name": "Boil-off gas collection",
+      "equipment": [
+        "cargo tanks",
+        "BOG header"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression with inter-stage cooling",
+      "equipment": [
+        "cryogenic BOG compressors"
+      ],
+      "to": [
+        "CB"
+      ]
+    },
+    {
+      "id": "CB",
+      "name": "Condensation in cold box (nitrogen cycle)",
+      "equipment": [
+        "cold box",
+        "nitrogen compander"
+      ],
+      "to": [
+        "SEP"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Separate non-condensables and return LNG",
+      "equipment": [
+        "separator"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "BOG compressors",
+    "cold box",
+    "nitrogen compander",
+    "separator",
+    "gas combustion unit"
+  ],
+  "suppliers": [
+    {
+      "name": "Wärtsilä",
+      "product": "LNG reliquefaction system",
+      "source_id": "wartsila"
+    },
+    {
+      "name": "Burckhardt Compression",
+      "product": "Laby-GI fuel gas compressors",
+      "source_id": "burckhardt"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "attainable boil-off rate with current containment",
+      "unit": "% of cargo per day",
+      "basis": "Chemical Engineering Transactions paper; 0.05% expected in the future",
+      "source": {
+        "url": "https://www.aidic.it/cet/21/88/153.pdf",
+        "note": "Chemical Engineering Transactions 21, paper 153 (thermal energy storage for LNG carrier reliquefaction)"
+      },
+      "low": 0.07,
+      "high": 0.07
+    },
+    {
+      "metric": "power saving of latest Wärtsilä reliquefaction generation",
+      "unit": "%",
+      "basis": "Wärtsilä: condensing BOG at higher pressure and temperature with early removal of compression heat",
+      "source": {
+        "url": "https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system",
+        "source_id": "wartsila",
+        "note": "Wärtsilä encyclopedia, LNG reliquefaction system"
+      },
+      "low": 15,
+      "high": 15
+    },
+    {
+      "metric": "operating experience of Laby-GI compressors for MAN ME-GI engines",
+      "unit": "operating hours",
+      "basis": "Burckhardt claim",
+      "source": {
+        "url": "https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article",
+        "source_id": "burckhardt",
+        "note": "gasworld, Burckhardt Compression passes 1m operating hours with Laby-GI compressors"
+      },
+      "low": 1000000
+    }
+  ],
+  "advantages": [
+    "Returns cargo instead of burning it",
+    "Capacity controlled 0 to 100% (Wärtsilä)"
+  ],
+  "limitations": [
+    "High power use and cost (AIDIC paper)",
+    "Not all carriers are fitted"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system",
+      "source_id": "wartsila",
+      "note": "Wärtsilä encyclopedia, LNG reliquefaction system"
+    },
+    {
+      "url": "https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article",
+      "source_id": "burckhardt",
+      "note": "gasworld, Burckhardt Compression passes 1m operating hours with Laby-GI compressors"
+    },
+    {
+      "url": "https://www.aidic.it/cet/21/88/153.pdf",
+      "note": "Chemical Engineering Transactions 21, paper 153 (thermal energy storage for LNG carrier reliquefaction)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "kWh per tonne reliquefied",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read gives it.",
+      "where": [
+        {
+          "hint": "Wärtsilä and Burckhardt brochures",
+          "access": "open"
+        }
+      ],
+      "action": "Add specific energy from a vendor datasheet."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

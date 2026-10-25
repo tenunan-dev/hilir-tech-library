@@ -1,0 +1,190 @@
+{
+  "id": "gas-lng-acid-gas-reinjection",
+  "name": "Carbon capture on LNG plants (acid gas reinjection)",
+  "aliases": [
+    "acid gas reinjection",
+    "LNG CO2 injection"
+  ],
+  "sector": "GAS",
+  "category": "LNG / CO2 management",
+  "applications": [
+    "LNG with high-CO2 feed"
+  ],
+  "maturity": "commercial",
+  "principle": "CO2 removed from the feed gas at an LNG plant is compressed and injected into deep reservoirs instead of being vented. Gorgon LNG on Barrow Island, Western Australia, is the largest example: Chevron started the injection system in August 2019 with a design of 3.4 to 4 Mtpa.",
+  "process_steps": [
+    {
+      "id": "AGR",
+      "name": "Acid gas removal from feed gas",
+      "equipment": [
+        "amine absorber"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "CO2 compression",
+      "equipment": [
+        "compressors"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Pipeline and injection wells",
+      "equipment": [
+        "pipeline",
+        "injection wells"
+      ],
+      "to": [
+        "MON"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Monitoring",
+      "equipment": [
+        "monitoring wells",
+        "seismic"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "amine absorber",
+    "CO2 compressors",
+    "dehydration",
+    "injection pipeline",
+    "injection and monitoring wells"
+  ],
+  "suppliers": [
+    {
+      "name": "Chevron Australia",
+      "product": "Gorgon CO2 injection"
+    },
+    {
+      "name": "ExxonMobil",
+      "product": "partner and register example"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Gorgon CO2 injection design rate",
+      "unit": "Mtpa",
+      "basis": "capture and injection; about 100 Mt over the 40-year project life",
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+      },
+      "low": 3.4,
+      "high": 4
+    },
+    {
+      "metric": "Gorgon emissions cut when fully operational",
+      "unit": "%",
+      "basis": "Chevron claim for total greenhouse gas emissions",
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+      },
+      "low": 40,
+      "high": 40
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Gorgon CO2 injection system capital cost",
+      "unit": "USD billion",
+      "basis": "includes A$60 million Australian government contribution; year of dollars not stated",
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+      },
+      "low": 1.7,
+      "high": 1.7
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Gorgon CO2 Injection, Barrow Island",
+      "country": "AU",
+      "capacity": "3.4 to 4 Mtpa",
+      "status": "started up per the August 2019 article after delays from March 2017",
+      "year": 2019,
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+      }
+    }
+  ],
+  "advantages": [
+    "Large-scale operating experience"
+  ],
+  "limitations": [
+    "Startup was delayed from March 2017 to August 2019",
+    "Later performance (water management, injection rates) not covered by this source"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operating record since 2019",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article is from start-up.",
+      "where": [
+        {
+          "hint": "Chevron Australia reports",
+          "access": "open"
+        },
+        {
+          "hint": "Global CCS Institute facility database",
+          "access": "open",
+          "source_id": "global-ccs-institute"
+        }
+      ],
+      "action": "Add actual injected tonnes per year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

@@ -1,22 +1,39 @@
 # GAS technology options
 
-13 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+30 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Amine acid gas removal (MDEA, formulated amines)](#gas-amine-agr) | Gas treating / chemical solvent | commercial | 9 | BASF (OASE); Shell (ADIP); Dow (UCARSOL); ExxonMobil (FLEXSORB) |  |
+| [Amine acid gas removal (MDEA, formulated amines)](#gas-amine-agr) | Gas treating / chemical solvent | commercial | 9 | BASF (OASE); Dow (UCARSOL); ExxonMobil (FLEXSORB); Honeywell UOP (Amine Guard FS); Shell (ADIP (ADIP-ULTRA per Shell catalysts pages)) |  |
+| [Bio-LNG and liquefied biomethane](#gas-bio-lng) | LNG / renewable gas | commercial |  | Shell (bio-LNG plant, about 100,000 t/yr (April 2024)); Titan (bio-LNG (register examples; not verified)) |  |
+| [Boil-off gas management and reliquefaction](#gas-boil-off-reliquefaction) | LNG / shipping | commercial |  | Wärtsilä (LNG reliquefaction system); Burckhardt Compression (Laby-GI fuel gas compressors) |  |
+| [Carbon capture on LNG plants (acid gas reinjection)](#gas-lng-acid-gas-reinjection) | LNG / CO2 management | commercial |  | Chevron Australia (Gorgon CO2 injection); ExxonMobil (partner and register example) | Gorgon CO2 injection system capital cost: 1.7 USD billion |
 | [Cascade liquefaction](#lng-optimized-cascade) | LNG liquefaction | commercial |  | ConocoPhillips (Optimized Cascade Process); Bechtel (EPC partner) |  |
+| [Compressed natural gas and LNG as vehicle fuel](#gas-natural-gas-vehicle-fuel) | Gas use / transport | commercial |  | Clean Energy Fuels (US stations (more than 550 per the OIES report)) |  |
 | [Dual mixed refrigerant liquefaction](#lng-dmr) | LNG liquefaction | commercial |  | Shell (Shell DMR); Air Products (AP-DMR) |  |
+| [Electric-drive liquefaction (e-LNG)](#gas-electric-drive-lng) | LNG / liquefaction drive | commercial |  | Equinor (Hammerfest LNG electrification (Snøhvit Future)); Freeport LNG (three electric-driven trains); McDermott (e-drive solutions (search result only; page not read)) |  |
 | [Floating LNG (FLNG)](#lng-flng) | LNG liquefaction / floating | commercial |  | PETRONAS (owner-operator, PFLNG SATU and DUA); Shell (owner-operator, Prelude); Golar LNG (FLNG conversions (Hilli)) |  |
 | [Floating storage and regasification units (FSRU)](#lng-fsru) | LNG import / regasification | commercial |  | Excelerate Energy; Höegh LNG; Golar LNG |  |
 | [Gas-to-liquids (Fischer-Tropsch)](#gas-gtl-ft) | Gas conversion | commercial |  | Shell (Shell Middle Distillate Synthesis (SMDS)); Sasol |  |
+| [Gas-to-methanol and methanol-to-gasoline](#gas-to-methanol) | Gas conversion / methanol | commercial |  | Topsoe (methanol (register examples; not verified)); Johnson Matthey (Honeywell) (methanol (register examples)); ExxonMobil (MTG (register examples)) |  |
+| [Helium recovery](#gas-helium-recovery) | Gas processing / helium | commercial |  | RasGas / Qatargas (operators) (Helium 2 plant; liquefier co-owned); Linde Engineering (PSA plus HISELECT helium purification hybrid with NRU) |  |
+| [Hot potassium carbonate (Benfield)](#gas-hot-potassium-carbonate) | Gas treating / chemical solvent | commercial |  | Honeywell UOP (Benfield, Benfield HiPure) |  |
+| [Hybrid solvent gas treating (Sulfinol)](#gas-hybrid-solvent-sulfinol) | Gas treating / hybrid solvent | commercial |  | Shell (Sulfinol) |  |
+| [LNG bunkering](#gas-lng-bunkering) | LNG / marine fuel | commercial |  | FueLNG (ship-to-ship LNG bunkering, Singapore (Shell and Seatrium)); Shell (LNG bunkering); TotalEnergies (LNG bunkering (register examples)); PETRONAS (LNG bunkering (register examples)) |  |
+| [LNG regasification (open rack, submerged combustion, ambient air vaporisers)](#gas-lng-regasification) | LNG / import terminals | commercial |  | Sumitomo Precision Products (vaporisers (register examples; not verified)); Kobe Steel (vaporisers (register examples; not verified)); Chart Industries (ambient-air vaporisers with HVAC pre-heating, 30 to 100% turndown) |  |
+| [Liquid redox sulfur recovery (LO-CAT)](#gas-liquid-redox-lo-cat) | Gas treating / sulfur recovery | commercial |  | Merichem (LO-CAT); Axens (SweetSulf (redox, H2S below 1 ppmv achievable per Axens)) |  |
 | [Membrane CO2 removal for high-CO2 gas](#gas-membrane-co2) | Gas treating / membrane | commercial |  | Honeywell UOP (Separex); SLB (Cynara); Air Liquide |  |
 | [Mercury removal units](#gas-mercury-removal) | Gas treating / adsorption | commercial |  | Axens (AxTrap Mercury Series); Johnson Matthey (Honeywell) (PURASPEC); Clariant |  |
 | [Mixed fluid cascade](#lng-mixed-fluid-cascade) | LNG liquefaction | commercial |  | Linde Engineering (MFC) |  |
 | [Molecular sieve and glycol dehydration](#gas-dehydration) | Gas treating / dehydration | commercial |  | Honeywell UOP; BASF; Axens |  |
+| [NGL fractionation and LPG recovery](#gas-ngl-fractionation) | Gas processing / NGL | commercial |  | Honeywell UOP (fractionation modules); Enerflex (LPG extraction and NGL recovery (search result only; page not read)) | cost reduction for a deethanizer single-tower design compared with historical two-tower projects: 14 % |
+| [Nitrogen rejection units](#gas-nitrogen-rejection) | Gas processing / nitrogen removal | commercial |  | Linde Engineering (single-column, partitioned-column, double-column and enrichment NRUs); Air Products (NRU (register examples column; not verified in sources read)) |  |
+| [Physical solvent gas treating (Selexol, Rectisol, Purisol)](#gas-physical-solvent-agr) | Gas treating / physical solvent | commercial |  | Honeywell UOP (Selexol (Union Carbide solvent, licensed through UOP)); Linde (Rectisol (examples column of the register; not verified in sources read)); Air Liquide (Rectisol (examples column of the register; not verified in sources read)) |  |
 | [Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X)](#lng-c3mr-apx) | LNG liquefaction | commercial |  | Air Products (AP-C3MR, AP-X, AP-DMR, AP-N) |  |
-| [Sulfur recovery (Claus, tail gas treating, SuperClaus)](#gas-sulfur-recovery) | Gas treating / sulfur recovery | commercial |  | Shell; Worley Comprimo; Jacobs; KT Tecnimont; Baker Hughes; BASF (OASE yellow, sulfexx) |  |
+| [Small and mid-scale modular LNG](#gas-small-scale-lng) | LNG / liquefaction | commercial |  | Honeywell UOP (AP-N nitrogen expander, AP-C1, AP-SMR processes (document hosted by UOP)); Chart Industries (small-scale LNG (register examples; not verified)); Black & Veatch (PRICO (register examples; not verified)) |  |
+| [Sulfur recovery (Claus, tail gas treating, SuperClaus)](#gas-sulfur-recovery) | Gas treating / sulfur recovery | commercial |  | Shell; Worley Comprimo; Jacobs; KT Tecnimont; Baker Hughes; BASF (OASE yellow, sulfexx); Axens (Claus, SmartSulf, Sultimate) |  |
 | [Turbo-expander NGL recovery (GSP, RSV processes)](#gas-turboexpander-ngl) | NGL recovery / cryogenic | commercial |  | Honeywell UOP Ortloff (GSP, RSV, SCORE, SRP, SRC, SRX); Linde Engineering |  |
+| [High-CO2 gas field development with reinjection](#gas-high-co2-reinjection) | Gas treating / field development | demonstration |  | PETRONAS Carigali (operator of Kasawari CCS); Baker Hughes (gas turbine compressor trains (PGT25+ / PGT25 DLE), two trains each for booster and reinjection); Malaysia Marine and Heavy Engineering (CCS platform EPCIC (awarded November 2022)); Technip Energies (FEED within the NPCC consortium) |  |
 
 ## Amine acid gas removal (MDEA, formulated amines)
 <a id="gas-amine-agr"></a>
@@ -48,13 +65,111 @@ flowchart LR
 
 **Reference plants:**
 - PETRONAS PFLNG DUA, Rotan field, offshore Sabah, MY: 1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE; first cargo 24 March 2021. [source](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas)
+- PETRONAS PFLNG 1 (SATU), offshore Sarawak, Amine Guard FS, MY: 1.2 Mtpa LNG; about 112 miles off Sarawak; acid gas removal designed by PETRONAS and UOP for floating service; start-up scheduled for end 2015 in the 2013 announcement; not confirmed there. [source](https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Advanced acid gas removal' 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- Shell ADIP-X and Shell Cansolv gas sweetening; Axens Hysweet (suppliers): The Shell and Axens pages read do not describe them (Shell page returned metadata only; the Axens sulfur page lists no Hysweet). Where: Shell Catalysts & Technologies gas treating pages (catalog: shell-catalysts, open); Axens gas treating pages (catalog: axens, open). Next: Add them as suppliers only once a page that describes them has been read.
 
-Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas). Last reviewed 2026-10-24.
+Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas), [3](https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/), [4](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal). Last reviewed 2026-10-24.
+
+## Bio-LNG and liquefied biomethane
+<a id="gas-bio-lng"></a>
+
+Biogas is upgraded to biomethane, then liquefied with a small-scale liquefier to give a drop-in LNG substitute for heavy transport and shipping. Shell commissioned a bio-LNG plant of about 100,000 tonnes a year in April 2024 (location not confirmed by the page read).
+
+```mermaid
+flowchart LR
+    BIO["Biogas production<br/><small>digester</small>"]
+    UPG["Upgrading to biomethane<br/><small>membranes or amine scrubber</small>"]
+    LIQ["Liquefaction<br/><small>small-scale liquefier</small>"]
+    TRK["Storage and truck loading<br/><small>LNG tank</small>"]
+    BIO --> UPG
+    UPG --> LIQ
+    LIQ --> TRK
+```
+
+**Key equipment:** digesters, biogas upgrading unit, small-scale liquefier, LNG tank, truck loading.
+
+**Performance:**
+- Shell bio-LNG plant capacity: 100000 t/yr; Natural Gas World, April 2024; site and feedstock not stated in the text read. [source](https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526)
+
+**Missing inputs:**
+- location and feedstock of the Shell plant, and an Asia-Pacific example (reference_plants): The page read cut off before naming them. Where: Shell press release (open). Next: Add the site.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526). Last reviewed 2026-10-25.
+
+## Boil-off gas management and reliquefaction
+<a id="gas-boil-off-reliquefaction"></a>
+
+Heat leaks into LNG tanks and evaporates a fraction each day. Boil-off gas is used as fuel, burnt in a gas combustion unit or compressed, cooled and returned to the cargo tanks in a reliquefaction plant. Wärtsilä's system compresses boil-off, cools it in a cold box on a nitrogen compression-expansion cycle, removes nitrogen and returns LNG to the tanks.
+
+```mermaid
+flowchart LR
+    BOG["Boil-off gas collection<br/><small>cargo tanks, BOG header</small>"]
+    CMP["Compression with inter-stage cooling<br/><small>cryogenic BOG compressors</small>"]
+    CB["Condensation in cold box (nitrogen cycle)<br/><small>cold box, nitrogen compander</small>"]
+    SEP["Separate non-condensables and return LNG<br/><small>separator</small>"]
+    BOG --> CMP
+    CMP --> CB
+    CB --> SEP
+```
+
+**Key equipment:** BOG compressors, cold box, nitrogen compander, separator, gas combustion unit.
+
+**Performance:**
+- attainable boil-off rate with current containment: 0.07 % of cargo per day; Chemical Engineering Transactions paper; 0.05% expected in the future. [source](https://www.aidic.it/cet/21/88/153.pdf)
+- power saving of latest Wärtsilä reliquefaction generation: 15 %; Wärtsilä: condensing BOG at higher pressure and temperature with early removal of compression heat. [source](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system)
+- operating experience of Laby-GI compressors for MAN ME-GI engines: 1e+06 operating hours; Burckhardt claim. [source](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article)
+
+**Missing inputs:**
+- kWh per tonne reliquefied (performance): No source read gives it. Where: Wärtsilä and Burckhardt brochures (open). Next: Add specific energy from a vendor datasheet.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system), [2](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article), [3](https://www.aidic.it/cet/21/88/153.pdf). Last reviewed 2026-10-25.
+
+## Carbon capture on LNG plants (acid gas reinjection)
+<a id="gas-lng-acid-gas-reinjection"></a>
+
+CO2 removed from the feed gas at an LNG plant is compressed and injected into deep reservoirs instead of being vented. Gorgon LNG on Barrow Island, Western Australia, is the largest example: Chevron started the injection system in August 2019 with a design of 3.4 to 4 Mtpa.
+
+```mermaid
+flowchart LR
+    AGR["Acid gas removal from feed gas<br/><small>amine absorber</small>"]
+    CMP["CO2 compression<br/><small>compressors</small>"]
+    INJ["Pipeline and injection wells<br/><small>pipeline, injection wells</small>"]
+    MON["Monitoring<br/><small>monitoring wells, seismic</small>"]
+    AGR --> CMP
+    CMP --> INJ
+    INJ --> MON
+```
+
+**Key equipment:** amine absorber, CO2 compressors, dehydration, injection pipeline, injection and monitoring wells.
+
+**Performance:**
+- Gorgon CO2 injection design rate: 3.4-4 Mtpa; capture and injection; about 100 Mt over the 40-year project life. [source](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project)
+- Gorgon emissions cut when fully operational: 40 %; Chevron claim for total greenhouse gas emissions. [source](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project)
+
+**Costs:**
+- Gorgon CO2 injection system capital cost: 1.7 USD billion; includes A$60 million Australian government contribution; year of dollars not stated. [source](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project)
+
+**Reference plants:**
+- Gorgon CO2 Injection, Barrow Island, AU: 3.4 to 4 Mtpa; started up per the August 2019 article after delays from March 2017. [source](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project)
+
+**Missing inputs:**
+- operating record since 2019 (reference_plants): The article is from start-up. Where: Chevron Australia reports (open); Global CCS Institute facility database (catalog: global-ccs-institute, open). Next: Add actual injected tonnes per year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project). Last reviewed 2026-10-25.
 
 ## Cascade liquefaction
 <a id="lng-optimized-cascade"></a>
@@ -95,6 +210,37 @@ flowchart LR
 
 Sources: [1](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-24.
 
+## Compressed natural gas and LNG as vehicle fuel
+<a id="gas-natural-gas-vehicle-fuel"></a>
+
+Natural gas is compressed to about 200 bar (CNG) or liquefied (LNG) and used in spark-ignition or dual-fuel engines. The global fleet was 26.2 million vehicles in 2018, mostly in China, Iran, India, Pakistan, Argentina and Brazil.
+
+```mermaid
+flowchart LR
+    SRC["Pipeline gas or LNG<br/><small>grid connection or LNG tank</small>"]
+    CMP["Compression or storage<br/><small>compressor, cascade storage</small>"]
+    DSP["Dispensing<br/><small>dispenser</small>"]
+    VEH["Vehicle<br/><small>on-board cylinder or cryogenic tank</small>"]
+    SRC --> CMP
+    CMP --> DSP
+```
+
+**Key equipment:** compressors, cascade storage, dispensers, on-board cylinders or LNG tanks.
+
+**Performance:**
+- global natural gas vehicle fleet: 26.2 million vehicles; NGV Global/IANGV, 2018, via OIES; definitions differ by country. [source](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf)
+- share of global fleet in top three countries (China, Iran, India): 52.2 %; 23.2 + 17.2 + 11.8. [source](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf)
+- LNG trucks in China: 350000 vehicles; end of 2017. [source](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf)
+
+**Missing inputs:**
+- current fleet and station numbers (performance): The OIES report is from 2019. Where: IANGV statistics (open). Next: Add current figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf). Last reviewed 2026-10-25.
+
 ## Dual mixed refrigerant liquefaction
 <a id="lng-dmr"></a>
 
@@ -127,6 +273,37 @@ flowchart LR
 - Sakhalin LNG train count and capacity (reference_plants): The Sakhalin article read gives no capacity. Where: Sakhalin Energy publications; GIIGNL annual report (catalog: giignl, open). Next: Add capacity and train count.
 
 Sources: [1](https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [3](https://ogst.ifpenergiesnouvelles.fr/en/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html). Last reviewed 2026-10-24.
+
+## Electric-drive liquefaction (e-LNG)
+<a id="gas-electric-drive-lng"></a>
+
+Large electric motors, rather than gas turbines, drive the refrigerant compressors in the liquefaction trains, so the plant burns no fuel gas for compression and, if power is low-carbon, has far lower CO2. Freeport LNG in Texas runs three electric-driven trains; Equinor's Hammerfest LNG plans to replace its gas turbine generators with power from shore.
+
+```mermaid
+flowchart LR
+    PWR["Electric power supply<br/><small>grid connection or power from shore, transformers, variable-speed drives</small>"]
+    MTR["Motor-driven refrigerant compression<br/><small>large electric motors, refrigerant compressors</small>"]
+    LIQ["Liquefaction<br/><small>main cryogenic heat exchanger</small>"]
+    PWR --> MTR
+    MTR --> LIQ
+```
+
+**Key equipment:** large electric motors, variable-speed drives or starters, refrigerant compressors, main cryogenic heat exchanger.
+
+**Performance:**
+- CO2 reduction from Hammerfest electrification: 850000 t CO2 per year; Equinor: about 850,000 t/yr, equal to 450,000 ICE cars; carbon footprint 3.8 to 0.6 g CO2e/MJ. [source](https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng)
+
+**Reference plants:**
+- Freeport LNG, Texas, Trains 1 to 3 (electric motor drive), US: ; Train 1 commercial December 2019, Train 2 January 2020 (performance test 37 days against 107 for Train 1), Train 3 expected May 2020 per the article. [source](https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility)
+- Hammerfest LNG (Melkøya, Norway), electrification and onshore compression, NO: 4.65 Mt LNG, 0.34 Mt LPG, 0.73 Mt condensate per year; electrical operation scheduled to start 2028. [source](https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng)
+
+**Missing inputs:**
+- MW per train and specific energy for electric versus gas-turbine drive (performance): The articles read give neither. Where: McDermott e-drive page (catalog: mcdermott, open); Equinor technical papers (catalog: equinor-tech, open). Next: Add motor sizes and kWh per tonne from vendor or LNG conference papers.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng), [2](https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility). Last reviewed 2026-10-25.
 
 ## Floating LNG (FLNG)
 <a id="lng-flng"></a>
@@ -225,6 +402,237 @@ flowchart LR
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
 Sources: [1](https://www.offshore-technology.com/projects/pearl/). Last reviewed 2026-10-24.
+
+## Gas-to-methanol and methanol-to-gasoline
+<a id="gas-to-methanol"></a>
+
+Natural gas is reformed to synthesis gas, which is converted to methanol over a copper catalyst in a synthesis loop. Methanol-to-gasoline (ExxonMobil MTG) then converts methanol to gasoline-range hydrocarbons over a zeolite. A 2017 comparison of three natural-gas routes found large exergetic differences between a plain steam-methane-reforming plant and combined reforming.
+
+```mermaid
+flowchart LR
+    REF["Reforming to syngas (SMR, SMR plus ATR or CO2 reforming)<br/><small>reformer, autothermal reformer</small>"]
+    CMP["Syngas compression<br/><small>compressors</small>"]
+    SYN["Methanol synthesis<br/><small>isothermal reactor</small>"]
+    DIS["Distillation to grade AA methanol<br/><small>distillation columns</small>"]
+    REF --> CMP
+    CMP --> SYN
+    SYN --> DIS
+```
+
+**Key equipment:** reformer, autothermal reformer (large plants), syngas compressor, methanol reactor, distillation columns.
+
+**Performance:**
+- exergetic efficiency, three natural-gas routes: 28.2-55.6 %; Case I SMR 28.2% (2,200 t/d); Case III CO2 plus steam reforming 41.0%; Case II SMR+ATR 55.6%; paper's simulation, not plant data. [source](https://depositonce.tu-berlin.de/items/c222282b-e88c-41d3-813f-ff34d6f7aba4/full)
+
+**Missing inputs:**
+- methanol-to-gasoline step (process): Only methanol synthesis was read. Where: ExxonMobil MTG literature (catalog: exxonmobil-catalysts, open). Next: Add MTG yields and plants (New Zealand Motunui history).
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+
+Sources: [1](https://depositonce.tu-berlin.de/items/c222282b-e88c-41d3-813f-ff34d6f7aba4/full). Last reviewed 2026-10-25.
+
+## Helium recovery
+<a id="gas-helium-recovery"></a>
+
+Helium is a trace component of some natural gases. It concentrates in the nitrogen-rich off-gas of the liquefaction or nitrogen-rejection unit, is upgraded to crude helium, purified, liquefied and shipped. Qatar's Helium 2 plant takes crude helium from six LNG trains.
+
+```mermaid
+flowchart LR
+    FLNG["Helium-rich flash gas from LNG trains or NRU<br/><small>end-flash separator, nitrogen rejection unit</small>"]
+    CRUDE["Crude helium upgrading<br/><small>membranes or cryogenic enrichment, PSA</small>"]
+    PUR["Purification<br/><small>PSA or HISELECT purification (Linde)</small>"]
+    LIQ["Helium liquefaction and filling<br/><small>helium liquefier, ISO containers</small>"]
+    FLNG --> CRUDE
+    CRUDE --> PUR
+    PUR --> LIQ
+```
+
+**Key equipment:** NRU or end-flash unit, crude helium upgrading, helium purifier, helium liquefier, ISO container filling.
+
+**Performance:**
+- Helium 2 plant capacity: 1.3 billion cubic feet per year; RasGas Helium 2, operational July 2013; with the existing plant 2 billion cubic feet per year. [source](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export)
+- share of global liquid helium demand met by the two Qatar plants: 25 %; Gulf Times, 2013 expectation. [source](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export)
+
+**Reference plants:**
+- RasGas Helium 2, Ras Laffan, QA: 1.3 billion cubic feet per year; . [source](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export)
+
+**Missing inputs:**
+- current global supply by plant (US, Qatar, Algeria, Russia) (reference_plants): The sources read cover Qatar only. Where: USGS Mineral Commodity Summaries: Helium (catalog: usgs-energy, open). Next: Add current supply figures from USGS.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export), [2](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/). Last reviewed 2026-10-25.
+
+## Hot potassium carbonate (Benfield)
+<a id="gas-hot-potassium-carbonate"></a>
+
+Hot aqueous potassium carbonate, promoted with an amine such as DEA, absorbs CO2 and H2S at 80 to 120 degC and is regenerated by pressure reduction and steam stripping. Absorber and regenerator run at similar temperatures, so there is no lean/rich exchanger. For LNG-grade gas the HiPure variant adds a second stage with an amine solution.
+
+```mermaid
+flowchart LR
+    ABS["Hot carbonate absorption<br/><small>absorber column</small>"]
+    SW["Sweet gas to polishing amine stage (HiPure) or downstream<br/><small>amine polishing absorber</small>"]
+    RC["Rich solution letdown<br/><small>flash drum</small>"]
+    REG["Steam regeneration<br/><small>regenerator, reboiler</small>"]
+    AG["Acid gas to sulfur recovery or CO2 handling"]
+    ABS -->|sweet gas| SW
+    ABS -->|rich carbonate| RC
+    RC --> REG
+    REG -->|lean carbonate| ABS
+    REG -->|acid gas| AG
+```
+
+**Key equipment:** absorber, regenerator with reboiler, flash drum, hydraulic turbine on rich solvent letdown, polishing amine absorber (HiPure).
+
+**Performance:**
+- sweet gas CO2 at ADGAS Train 3 (plant data / simulation): 19-25 ppmv; Benfield HiPure with carbonate stage (30 wt% K2CO3, 3 wt% DEA) and DEA polishing stage (20 wt% DEA); plant 19 ppmv, simulation 25 ppmv. [source](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf)
+- sweet gas H2S at ADGAS Train 3 (simulation / plant): 0.4-0.41 ppmv; same plant and basis. [source](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf)
+- total reboiler duty, Benfield HiPure at ADGAS Train 3: 59 Gcal/h; carbonate unit 44 Gcal/h plus DEA unit 15 Gcal/h; feed about 477 MMSCFD at 52 barg with 4.7% H2S and 2.1% CO2 as reported (source is internally inconsistent on which is which). [source](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf)
+
+**Reference plants:**
+- ADGAS Train 3, Das Island, AE: feed about 477 MMSCFD; . [source](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf)
+
+**Missing inputs:**
+- BRE's comparison is a vendor-neutral simulation; no UOP-published figures were read (performance): UOP's page lists Benfield without specifications. Where: Honeywell UOP Benfield datasheet (catalog: honeywell-uop, open). Next: Add UOP datasheet figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal), [2](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf). Last reviewed 2026-10-25.
+
+## Hybrid solvent gas treating (Sulfinol)
+<a id="gas-hybrid-solvent-sulfinol"></a>
+
+A mixed solvent of an amine and the physical solvent sulfolane, in water. In Shell's current Sulfinol the amine is activated MDEA (MDEA with piperazine). The chemical part holds CO2 and H2S at low partial pressure; the physical part also takes up organic sulfur (mercaptans, COS), which pure amines miss, so one unit meets H2S, CO2 and organic sulfur specifications.
+
+```mermaid
+flowchart LR
+    ABS["Absorption in Sulfinol solvent<br/><small>absorber</small>"]
+    SW["Sweet gas to dehydration"]
+    RS["Flash and heat exchange<br/><small>flash drum, lean/rich exchanger</small>"]
+    REG["Regeneration<br/><small>regenerator, reboiler</small>"]
+    AG["Acid gas to sulfur recovery<br/><small>Claus unit</small>"]
+    ABS -->|sweet gas| SW
+    ABS -->|rich solvent| RS
+    RS --> REG
+    REG -->|lean solvent| ABS
+    REG -->|acid gas| AG
+```
+
+**Key equipment:** absorber, flash drum, lean/rich exchanger, regenerator and reboiler, solvent filtration.
+
+**Performance:**
+- treated gas H2S at NAM Emmen: up to 3.5 ppmv; Sulfinol-M (MDEA plus sulfolane); sour gas H2S about 0.1 to 1 vol%, CO2 2 to 5 vol%, mercaptans up to 90 ppmv. [source](https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions)
+- treated gas mercaptans at NAM Emmen: up to 7 ppmv; same plant. [source](https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions)
+- overall sulfur recovery with Claus/SCOT at NAM Emmen: 99.8 %; greater than 99.8%. [source](https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions)
+
+**Reference plants:**
+- NAM gas-desulfurisation plant, Emmen, NL: 300 MMscfd intake; . [source](https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions)
+
+**Missing inputs:**
+- ADIP-X and other Shell solvents on Shell's pages (suppliers): The Shell pages fetched returned only metadata or no content for ADIP-X. Where: Shell Catalysts & Technologies gas treating pages (catalog: shell-catalysts, open). Next: Add them once a page can be read.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://catalysts.shell.com/en/lower-costs-sulfinol), [2](https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions). Last reviewed 2026-10-25.
+
+## LNG bunkering
+<a id="gas-lng-bunkering"></a>
+
+LNG is delivered to ships as fuel by bunker vessel, truck or shore terminal. In Singapore, FueLNG (a Shell and Seatrium venture) completed its 500th ship-to-ship bunkering in 2025.
+
+```mermaid
+flowchart LR
+    SRC["LNG supply<br/><small>terminal or truck, bunker vessel</small>"]
+    XFR["Transfer with cryogenic hose or loading arm<br/><small>breakaway coupling, emergency release, vapour return</small>"]
+    RCV["Receiving ship tank<br/><small>fuel tank</small>"]
+    SRC --> XFR
+    XFR --> RCV
+```
+
+**Key equipment:** bunker vessel, cryogenic hoses, emergency release coupling, vapour return, custody transfer metering.
+
+**Performance:**
+- Singapore LNG bunker sales growth 2025 over 2024: 23.9 %; MPA via LNG Prime summary; absolute volumes behind paywall. [source](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/)
+- Singapore LNG bunker sales, July: 41500 t; Ship & Bunker, market total, down 3.9% year on year. [source](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore)
+
+**Reference plants:**
+- FueLNG Singapore, 500th ship-to-ship bunkering (receiving ship Amphitrite Highway, K Line), SG: ; . [source](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore)
+
+**Missing inputs:**
+- global LNG bunkering volumes and port list (performance): Only Singapore items were read; the LNG Prime article is paywalled. Where: Singapore MPA bunkering statistics (open); Maritime Executive and Ship & Bunker coverage (open). Next: Add global volumes and the Malaysia (Pengerang, Johor) position.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore), [2](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/). Last reviewed 2026-10-25.
+
+## LNG regasification (open rack, submerged combustion, ambient air vaporisers)
+<a id="gas-lng-regasification"></a>
+
+Cryogenic LNG is pumped to pipeline pressure and warmed to gas in vaporisers. Open rack vaporisers use seawater flowing over aluminium panels; submerged combustion vaporisers burn send-out gas to heat a water bath; ambient air vaporisers use finned tubes and air. Floating storage and regasification units do the same on a vessel.
+
+```mermaid
+flowchart LR
+    TK["LNG storage<br/><small>LNG tank</small>"]
+    PMP["Send-out pumping<br/><small>in-tank pumps, high-pressure pumps</small>"]
+    VAP["Vaporisation<br/><small>open rack, submerged combustion or ambient vaporiser</small>"]
+    MET["Metering and odorisation<br/><small>meter skid</small>"]
+    TK --> PMP
+    PMP --> VAP
+    VAP --> MET
+```
+
+**Key equipment:** LNG tank, send-out pumps, vaporisers, seawater system or fuel gas supply, metering.
+
+**Performance:**
+- largest single open rack vaporiser: 200-250 MMSCFD; KBR authors; ORV unusable in seawater below 42 degF. [source](https://www.pumpindustry.com.au/lng-receiving-terminals)
+- largest single submerged combustion vaporiser: 150 MMSCFD; KBR authors; burns send-out gas. [source](https://www.pumpindustry.com.au/lng-receiving-terminals)
+
+**Missing inputs:**
+- fuel gas percentage and cold-energy use (performance): The article gives no percentage figures. Where: GIIGNL handbook and terminal operator documents (catalog: giignl, open). Next: Add fuel use and cold-energy recovery options.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.pumpindustry.com.au/lng-receiving-terminals). Last reviewed 2026-10-25.
+
+## Liquid redox sulfur recovery (LO-CAT)
+<a id="gas-liquid-redox-lo-cat"></a>
+
+Hydrogen sulfide is absorbed into an aqueous solution of an iron chelate catalyst, where it is oxidised to elemental sulfur (H2S + 1/2 O2 -> S + H2O). The reduced catalyst is regenerated by air in an oxidiser, and the sulfur is separated as a slurry or cake. The process suits small to mid-size H2S loads and streams that are too lean or too dilute for a Claus plant.
+
+```mermaid
+flowchart LR
+    ABS["H2S absorption and oxidation to sulfur<br/><small>absorber</small>"]
+    TG["Treated gas out"]
+    OX["Air oxidation (catalyst regeneration)<br/><small>oxidiser, air blower</small>"]
+    SEP["Sulfur separation<br/><small>settler, filter or melter</small>"]
+    ABS -->|reduced catalyst solution with sulfur| OX
+    ABS -->|treated gas| TG
+    OX -->|sulfur slurry| SEP
+    OX -->|regenerated catalyst| ABS
+```
+
+**Key equipment:** absorber, oxidiser vessel, air blowers, sulfur settler and filter, chemical dosing.
+
+**Performance:**
+- average inlet H2S over 22 years at one site: up to 0.7 vol%; Coso geothermal Navy 1 unit, designed for 1.2 vol% H2S in the feed. [source](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal)
+
+**Reference plants:**
+- Coso Operating Company geothermal plant, China Lake, California (Navy 1, first unit 1993; three LO-CAT units), US: ; . [source](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal)
+
+**Missing inputs:**
+- H2S removal efficiency, capacity range in tonnes of sulfur per day and installed base (performance): Neither the Digital Refining article text nor the Merichem page read gives them. Where: Merichem LO-CAT brochure (open); Digital Refining article tables 1 and 2 (not in the text read) (catalog: ptq-digital-refining, open). Next: Add them from a licensor datasheet.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal), [2](https://www.axens.net/markets/natural-gas/sulfur-recovery). Last reviewed 2026-10-25.
 
 ## Membrane CO2 removal for high-CO2 gas
 <a id="gas-membrane-co2"></a>
@@ -353,6 +761,120 @@ flowchart LR
 
 Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-24.
 
+## NGL fractionation and LPG recovery
+<a id="gas-ngl-fractionation"></a>
+
+Mixed natural gas liquids are separated by distillation in a series of columns: a deethanizer takes ethane overhead, a depropanizer takes propane overhead, a debutanizer separates butane from natural gasoline, and a deisobutanizer splits iso- and normal butane. UOP sells the columns as pre-engineered, factory-built modules.
+
+```mermaid
+flowchart LR
+    FEED["NGL feed (C2+ or Y-grade) from recovery unit<br/><small>feed pump, feed exchanger</small>"]
+    DEC2["Deethanizer<br/><small>column, reboiler, condenser</small>"]
+    C2["Ethane product"]
+    DEC3["Depropanizer<br/><small>column</small>"]
+    C3["Propane (e.g. HD-5 spec)"]
+    DEC4["Debutanizer<br/><small>column</small>"]
+    DIC4["Deisobutanizer<br/><small>column</small>"]
+    NG["Natural gasoline"]
+    FEED --> DEC2
+    DEC2 -->|C3+ bottoms| DEC3
+    DEC2 -->|ethane| C2
+    DEC3 -->|butanes+| DEC4
+    DEC3 -->|propane| C3
+    DEC4 -->|mixed butanes| DIC4
+    DEC4 -->|natural gasoline| NG
+```
+
+**Key equipment:** fractionation columns (trays), reboilers and condensers, reflux drums and pumps, treaters (not in the source).
+
+**Performance:**
+- installed fractionation experience: 800 kbpd; UOP claim, 'more than 800kbpd'. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
+- tray pressure drop with UOP high-capacity trays: up to 0.05 psi per tray; UOP claim. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
+- module delivery time: up to 40 weeks; UOP claim for pre-engineered modules. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
+
+**Costs:**
+- cost reduction for a deethanizer single-tower design compared with historical two-tower projects: 14 %; UOP datasheet cites a USD 2 million saving; results vary by application. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
+
+**Missing inputs:**
+- energy use per barrel fractionated and recovery fractions (performance): The datasheet gives experience and delivery figures only. Where: GPSA Engineering Data Book (catalog: gpsa, paid); Licensor papers (open). Next: Add energy and recovery figures from a published design case.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf). Last reviewed 2026-10-25.
+
+## Nitrogen rejection units
+<a id="gas-nitrogen-rejection"></a>
+
+Cryogenic distillation separates nitrogen from methane to meet pipeline or LNG heating value and nitrogen limits. A single-column, partitioned-column or double-column cold box is chosen by feed nitrogen content and by whether nitrogen or helium is to be recovered. Linde states pipeline gas typically needs nitrogen reduced to 3 to 4% and LNG feed to about 1% or less.
+
+```mermaid
+flowchart LR
+    FEED["Feed compression and pre-treatment<br/><small>compressor, dryers, CO2 removal</small>"]
+    CB["Cryogenic distillation in cold box<br/><small>coldbox, distillation column(s), pump modules</small>"]
+    PIPE["Sales gas"]
+    N2["Nitrogen vent, liquid nitrogen or helium recovery<br/><small>helium PSA and purification (optional)</small>"]
+    FEED --> CB
+    CB -->|sales gas| PIPE
+    CB -->|nitrogen vent or liquid nitrogen| N2
+```
+
+**Key equipment:** cold box, distillation columns, brazed aluminium heat exchangers, pumps, feed compressors.
+
+**Performance:**
+- nitrogen after rejection for pipeline gas: 3-4 %; Linde statement of typical pipeline specification. [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
+- nitrogen after rejection for LNG storage: up to 1 %; Linde statement. [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
+- helium recovery in the Amur GPP NRU design: 98 %; Linde states more than 98% of helium (well under 1% of the gas) can be recovered. [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
+
+**Reference plants:**
+- Amur GPP (Russia), single-column NRU, under construction when the page was read: ; . [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
+
+**Missing inputs:**
+- power use per unit gas treated (performance): Linde's page gives no capacities or energy figures. Where: AIChE Spring Meeting papers on NRU technology (catalog: aiche-spring, open). Next: Add specific energy from an open paper.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/). Last reviewed 2026-10-25.
+
+## Physical solvent gas treating (Selexol, Rectisol, Purisol)
+<a id="gas-physical-solvent-agr"></a>
+
+Acid gases dissolve in an organic solvent in proportion to their partial pressure, with no chemical reaction. The rich solvent is released by pressure letdown, flashing and, where H2S must be sent to sulfur recovery, heat or stripping gas, so regeneration needs less heat than amine. Selexol uses dimethyl ethers of polyethylene glycol; Rectisol uses refrigerated methanol. Because capacity rises with pressure, physical solvents suit high-pressure gas such as gasification syngas and not low-pressure gas.
+
+```mermaid
+flowchart LR
+    FEED["Feed gas cooling and water removal<br/><small>feed cooler, knock-out drum</small>"]
+    ABS["Acid gas absorption at high pressure<br/><small>absorber column</small>"]
+    TR["Treated gas out"]
+    FLASH["Staged flash of rich solvent (CO2 release, recycle of co-absorbed hydrocarbons)<br/><small>flash drums, recycle compressor</small>"]
+    STR["Stripping or reboiled regeneration (H2S fraction)<br/><small>stripper, reboiler</small>"]
+    AG["Acid gas to sulfur recovery or CO2 handling<br/><small>Claus unit, CO2 compression</small>"]
+    FEED --> ABS
+    ABS -->|treated gas| TR
+    ABS -->|rich solvent| FLASH
+    FLASH --> STR
+    STR -->|lean solvent| ABS
+    STR -->|acid gas| AG
+```
+
+**Key equipment:** high-pressure absorber, flash drums, solvent stripper, refrigeration (cold solvent cases), lean solvent pumps and exchangers.
+
+**Performance:**
+- absorption pressure range at which Selexol is competitive: 2.07-13.8 MPa; feed-gas pressure stated as 300 to 2000 psia; below about 300 psia solvent capacity drops and amines usually perform better. [source](https://en.wikipedia.org/wiki/Selexol)
+
+**Reference plants:**
+- Sarlux and api Energia gasification projects (Italy): ; . [source](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf)
+- Texaco Cool Water and TVA Muscle Shoals gasification (first use in the 1980s): ; . [source](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf)
+
+**Missing inputs:**
+- Linde and Air Liquide as Rectisol licensors; Purisol licensor (suppliers): The sources read name only Selexol with UOP; Rectisol and Purisol appear only as a comparison in a secondary source. Where: Linde and Air Liquide Rectisol brochures (open); Lurgi/Air Liquide Purisol literature (open). Next: Add licensors and reference plants from the licensors' own pages.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf), [2](https://en.wikipedia.org/wiki/Selexol). Last reviewed 2026-10-25.
+
 ## Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X)
 <a id="lng-c3mr-apx"></a>
 
@@ -389,6 +911,39 @@ flowchart LR
 
 Sources: [1](https://www.airproducts.co.uk/-/media/files/en/lng/lng-technology-enables-largest-lng-trains.pdf), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [3](https://ogst.ifpenergiesnouvelles.fr/en/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html). Last reviewed 2026-10-24.
 
+## Small and mid-scale modular LNG
+<a id="gas-small-scale-lng"></a>
+
+Packaged liquefaction trains of tens to hundreds of tonnes per day make LNG from pipeline gas or small fields for trucks, ships and remote power. Nitrogen expander cycles are favoured for simplicity and turndown; methane expansion and single mixed refrigerant cycles are alternatives.
+
+```mermaid
+flowchart LR
+    PRE["Feed gas treatment<br/><small>acid gas removal, dehydration, mercury removal</small>"]
+    LIQ["Liquefaction (N2 expander, methane expander or SMR)<br/><small>compander, plate-fin cold box</small>"]
+    STO["LNG storage and loading<br/><small>storage tank, truck loading</small>"]
+    PRE --> LIQ
+    LIQ --> STO
+```
+
+**Key equipment:** compander (compressor-expander), plate-fin cold box, feed treating skids, LNG storage tank, truck loading bay.
+
+**Performance:**
+- UOP small-scale offering capacity: up to 800 t/d; AP-N single expander 140 to 250 t/d, dual expander 200 to 650 t/d, AP-C1 60 to 800+ t/d. [source](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf)
+- nitrogen expander specific power: 350 kWh/t; 0.56 kWh/gal on lean high-pressure (about 1,100 psig) feed; vendor article, other feeds not covered. [source](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng)
+- typical small-scale plant size: 4-42 MMscfd; 50,000 to 500,000 gal/d per Cosmodyne article. [source](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng)
+
+**Reference plants:**
+- Japex LNG plants, Japan (AP-N), JP: 144 t/d (2004) and 206 t/d (2007); . [source](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf)
+- US plant, 412 t/d AP-N, US: ; . [source](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf)
+
+**Missing inputs:**
+- independent comparison of N2 expander and SMR power use (performance): Both sources are vendors. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); LNG Industry / Gastech papers (catalog: lng-industry, open). Next: Add an independent comparison.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf), [2](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng). Last reviewed 2026-10-25.
+
 ## Sulfur recovery (Claus, tail gas treating, SuperClaus)
 <a id="gas-sulfur-recovery"></a>
 
@@ -413,13 +968,17 @@ flowchart LR
 **Performance:**
 - H2S conversion in the reaction furnace: 60-70 %; BASF. [source](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf)
 - overall sulfur recovery with hydrogenation/amine tail gas treating: 99.9 %; BASF and Baker Hughes claims (above 99.9%). [source](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf)
+- Claus sulfur recovery (Axens): 95-98 %; two-step Claus; single-train capacity from a few t/d up to 2,200 t/d per Axens. [source](https://www.axens.net/markets/natural-gas/sulfur-recovery)
+- SmartSulf sub-dewpoint recovery without tail gas unit (Axens): 99.5-99.9 %; base SmartSulf more than 99.5%; with polishing up to 99.9%+. [source](https://www.axens.net/markets/natural-gas/sulfur-recovery)
+- Sultimate tail gas treatment recovery (Axens): 99.9 %; amine-based tail gas treatment, typically 99.9%+. [source](https://www.axens.net/markets/natural-gas/sulfur-recovery)
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+- Axens Sulfreen sub-dewpoint tail gas process (suppliers): The Axens sulfur recovery page read lists Claus, SmartSulf, Sultimate and SweetSulf but not Sulfreen. Where: Axens sulfur recovery documents (catalog: axens, open). Next: Add Sulfreen once an Axens page that describes it has been read.
 
-Sources: [1](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf), [2](https://www.bakerhughes.com/acid-gas-treatment-and-sulfur-recovery). Last reviewed 2026-10-24.
+Sources: [1](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf), [2](https://www.bakerhughes.com/acid-gas-treatment-and-sulfur-recovery), [3](https://www.axens.net/markets/natural-gas/sulfur-recovery). Last reviewed 2026-10-24.
 
 ## Turbo-expander NGL recovery (GSP, RSV processes)
 <a id="gas-turboexpander-ngl"></a>
@@ -454,3 +1013,41 @@ flowchart LR
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/download/oil-and-gas/natural-gas-treatment-and-recovery/honeywell-uop-ortloff-ngl-recovery-brochure.pdf), [2](https://www.honeywell.com/us/en/insights/articles/brazos-midstream-successfully-commissions-next-generation-honeywell-uop-advanced-recovery-technology). Last reviewed 2026-10-24.
+
+## High-CO2 gas field development with reinjection
+<a id="gas-high-co2-reinjection"></a>
+
+A gas field whose gas is largely CO2 is produced with CO2 removed offshore, usually by membranes, and the separated CO2 is compressed and reinjected into a depleted field instead of venting. PETRONAS Kasawari is the reference: a fixed platform bridge-linked to the central processing platform removes CO2, a pipeline carries it to the depleted M1 field and the gas is stored there.
+
+```mermaid
+flowchart LR
+    FEED["Sour gas from wells to central processing platform<br/><small>wellhead platform, central processing platform (CPP)</small>"]
+    REM["CO2 removal with membranes and low-pressure booster compression<br/><small>membrane skids, LP booster compressors</small>"]
+    SALES["Treated gas for export"]
+    COMP["CO2 compression for reinjection<br/><small>reinjection compressors, gas turbine drivers</small>"]
+    PIPE["Subsea CO2 pipeline to depleted field<br/><small>16-inch subsea pipeline</small>"]
+    INJ["Injection into depleted field<br/><small>injection well</small>"]
+    FEED --> REM
+    REM -->|treated gas| SALES
+    REM -->|CO2-rich permeate| COMP
+    COMP --> PIPE
+    PIPE --> INJ
+```
+
+**Key equipment:** CO2 removal membranes, LP booster compressors, reinjection compressors, gas turbine drivers, CCS platform and jacket, subsea CO2 pipeline, injection well.
+
+**Performance:**
+- CO2 captured and stored: 3.3 Mtpa; Kasawari project; 71 to 76 Mt over the project life reported. [source](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs)
+- sour gas field size: 3.2 tcf; Kasawari, Block SK316, about 200 km offshore Bintulu, Sarawak. [source](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs)
+- subsea CO2 pipeline length: 138 km; 16-inch pipeline to depleted M1 field. [source](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/)
+
+**Reference plants:**
+- PETRONAS Kasawari CCS (Block SK316, offshore Sarawak), MY: 3.3 Mtpa CO2; FID 20 October 2022; start of operations reported as 2025 or end-2025 in some sources and 2026 in a PETRONAS document. [source](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs)
+
+**Missing inputs:**
+- operating status and start-up date of Kasawari CCS (reference_plants): Sources read give start-up as 2025, end-2025 and 2026. Where: PETRONAS announcements (catalog: petronas-tech, open). Next: Record the confirmed start-up date.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
+
+Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/). Last reviewed 2026-10-25.

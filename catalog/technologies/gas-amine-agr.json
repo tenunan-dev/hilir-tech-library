@@ -127,16 +127,22 @@
       "source_id": "basf-catalysts"
     },
     {
-      "name": "Shell",
-      "product": "ADIP"
-    },
-    {
       "name": "Dow",
       "product": "UCARSOL"
     },
     {
       "name": "ExxonMobil",
       "product": "FLEXSORB"
+    },
+    {
+      "name": "Honeywell UOP",
+      "product": "Amine Guard FS",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Shell",
+      "product": "ADIP (ADIP-ULTRA per Shell catalysts pages)",
+      "source_id": "shell-catalysts"
     }
   ],
   "reference_plants": [
@@ -150,6 +156,18 @@
         "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas",
         "source_id": "basf-catalysts",
         "note": "BASF OASE gas treatment, natural gas page, read 24 October 2026"
+      }
+    },
+    {
+      "name": "PETRONAS PFLNG 1 (SATU), offshore Sarawak, Amine Guard FS",
+      "country": "MY",
+      "capacity": "1.2 Mtpa LNG; about 112 miles off Sarawak; acid gas removal designed by PETRONAS and UOP for floating service",
+      "status": "start-up scheduled for end 2015 in the 2013 announcement; not confirmed there",
+      "year": 2013,
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing news, 16 April 2013"
       }
     }
   ],
@@ -173,6 +191,16 @@
       "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas",
       "source_id": "basf-catalysts",
       "note": "BASF OASE gas treatment, natural gas page, read 24 October 2026"
+    },
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/",
+      "source_id": "hydrocarbon-processing",
+      "note": "Hydrocarbon Processing news, 16 April 2013"
+    },
+    {
+      "url": "https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell UOP acid gas removal page, read 25 October 2026"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -203,6 +231,25 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "suppliers",
+      "item": "Shell ADIP-X and Shell Cansolv gas sweetening; Axens Hysweet",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Shell and Axens pages read do not describe them (Shell page returned metadata only; the Axens sulfur page lists no Hysweet).",
+      "where": [
+        {
+          "hint": "Shell Catalysts & Technologies gas treating pages",
+          "access": "open",
+          "source_id": "shell-catalysts"
+        },
+        {
+          "hint": "Axens gas treating pages",
+          "access": "open",
+          "source_id": "axens"
+        }
+      ],
+      "action": "Add them as suppliers only once a page that describes them has been read."
     }
   ],
   "trl": {
@@ -213,5 +260,6 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Advanced acid gas removal' 9"
     }
-  }
+  },
+  "notes": "UOP says Amine Guard FS conditions gas for 40% of the world's LNG from onshore base-load plants (UOP claim, 2013)."
 }

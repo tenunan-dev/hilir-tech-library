@@ -1,0 +1,244 @@
+{
+  "id": "gas-ngl-fractionation",
+  "name": "NGL fractionation and LPG recovery",
+  "aliases": [
+    "NGL fractionation",
+    "LPG recovery",
+    "fractionation train",
+    "deethanizer",
+    "depropanizer"
+  ],
+  "sector": "GAS",
+  "category": "Gas processing / NGL",
+  "applications": [
+    "gas plant NGL splitting",
+    "LPG for export and domestic use",
+    "feed to crackers"
+  ],
+  "maturity": "commercial",
+  "principle": "Mixed natural gas liquids are separated by distillation in a series of columns: a deethanizer takes ethane overhead, a depropanizer takes propane overhead, a debutanizer separates butane from natural gasoline, and a deisobutanizer splits iso- and normal butane. UOP sells the columns as pre-engineered, factory-built modules.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "NGL feed (C2+ or Y-grade) from recovery unit",
+      "equipment": [
+        "feed pump",
+        "feed exchanger"
+      ],
+      "to": [
+        "DEC2"
+      ]
+    },
+    {
+      "id": "DEC2",
+      "name": "Deethanizer",
+      "equipment": [
+        "column",
+        "reboiler",
+        "condenser"
+      ],
+      "to": [
+        "DEC3",
+        "C2"
+      ],
+      "streams": {
+        "C2": "ethane",
+        "DEC3": "C3+ bottoms"
+      }
+    },
+    {
+      "id": "C2",
+      "name": "Ethane product",
+      "to": []
+    },
+    {
+      "id": "DEC3",
+      "name": "Depropanizer",
+      "equipment": [
+        "column"
+      ],
+      "to": [
+        "DEC4",
+        "C3"
+      ],
+      "streams": {
+        "C3": "propane",
+        "DEC4": "butanes+"
+      }
+    },
+    {
+      "id": "C3",
+      "name": "Propane (e.g. HD-5 spec)",
+      "to": []
+    },
+    {
+      "id": "DEC4",
+      "name": "Debutanizer",
+      "equipment": [
+        "column"
+      ],
+      "to": [
+        "DIC4",
+        "NG"
+      ],
+      "streams": {
+        "DIC4": "mixed butanes",
+        "NG": "natural gasoline"
+      }
+    },
+    {
+      "id": "DIC4",
+      "name": "Deisobutanizer",
+      "equipment": [
+        "column"
+      ],
+      "to": []
+    },
+    {
+      "id": "NG",
+      "name": "Natural gasoline",
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "fractionation columns (trays)",
+    "reboilers and condensers",
+    "reflux drums and pumps",
+    "treaters (not in the source)"
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "fractionation modules",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Enerflex",
+      "product": "LPG extraction and NGL recovery (search result only; page not read)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "installed fractionation experience",
+      "unit": "kbpd",
+      "basis": "UOP claim, 'more than 800kbpd'",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP fractionation module datasheet"
+      },
+      "low": 800
+    },
+    {
+      "metric": "tray pressure drop with UOP high-capacity trays",
+      "unit": "psi per tray",
+      "basis": "UOP claim",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP fractionation module datasheet"
+      },
+      "high": 0.05
+    },
+    {
+      "metric": "module delivery time",
+      "unit": "weeks",
+      "basis": "UOP claim for pre-engineered modules",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP fractionation module datasheet"
+      },
+      "high": 40
+    }
+  ],
+  "costs": [
+    {
+      "metric": "cost reduction for a deethanizer single-tower design compared with historical two-tower projects",
+      "unit": "%",
+      "basis": "UOP datasheet cites a USD 2 million saving; results vary by application",
+      "source": {
+        "url": "https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP fractionation module datasheet"
+      },
+      "low": 14,
+      "high": 14
+    }
+  ],
+  "advantages": [
+    "Pre-engineered modules shorten delivery",
+    "Standard process in every NGL plant"
+  ],
+  "limitations": [
+    "Product specifications depend on market (the source names HD-5 propane only)"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell UOP fractionation module datasheet"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "energy use per barrel fractionated and recovery fractions",
+      "reason_code": "not_in_sources_read",
+      "reason": "The datasheet gives experience and delivery figures only.",
+      "where": [
+        {
+          "hint": "GPSA Engineering Data Book",
+          "access": "paid",
+          "source_id": "gpsa"
+        },
+        {
+          "hint": "Licensor papers",
+          "access": "open"
+        }
+      ],
+      "action": "Add energy and recovery figures from a published design case."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

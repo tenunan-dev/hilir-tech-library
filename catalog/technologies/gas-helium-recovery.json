@@ -1,0 +1,200 @@
+{
+  "id": "gas-helium-recovery",
+  "name": "Helium recovery",
+  "aliases": [
+    "helium extraction",
+    "crude helium"
+  ],
+  "sector": "GAS",
+  "category": "Gas processing / helium",
+  "applications": [
+    "industrial gas supply",
+    "MRI cryogenics",
+    "semiconductors"
+  ],
+  "maturity": "commercial",
+  "principle": "Helium is a trace component of some natural gases. It concentrates in the nitrogen-rich off-gas of the liquefaction or nitrogen-rejection unit, is upgraded to crude helium, purified, liquefied and shipped. Qatar's Helium 2 plant takes crude helium from six LNG trains.",
+  "process_steps": [
+    {
+      "id": "FLNG",
+      "name": "Helium-rich flash gas from LNG trains or NRU",
+      "equipment": [
+        "end-flash separator",
+        "nitrogen rejection unit"
+      ],
+      "to": [
+        "CRUDE"
+      ]
+    },
+    {
+      "id": "CRUDE",
+      "name": "Crude helium upgrading",
+      "equipment": [
+        "membranes or cryogenic enrichment",
+        "PSA"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "PUR",
+      "name": "Purification",
+      "equipment": [
+        "PSA or HISELECT purification (Linde)"
+      ],
+      "to": [
+        "LIQ"
+      ]
+    },
+    {
+      "id": "LIQ",
+      "name": "Helium liquefaction and filling",
+      "equipment": [
+        "helium liquefier",
+        "ISO containers"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "NRU or end-flash unit",
+    "crude helium upgrading",
+    "helium purifier",
+    "helium liquefier",
+    "ISO container filling"
+  ],
+  "suppliers": [
+    {
+      "name": "RasGas / Qatargas (operators)",
+      "product": "Helium 2 plant; liquefier co-owned"
+    },
+    {
+      "name": "Linde Engineering",
+      "product": "PSA plus HISELECT helium purification hybrid with NRU",
+      "source_id": "linde-engineering"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Helium 2 plant capacity",
+      "unit": "billion cubic feet per year",
+      "basis": "RasGas Helium 2, operational July 2013; with the existing plant 2 billion cubic feet per year",
+      "source": {
+        "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
+        "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
+      },
+      "low": 1.3,
+      "high": 1.3
+    },
+    {
+      "metric": "share of global liquid helium demand met by the two Qatar plants",
+      "unit": "%",
+      "basis": "Gulf Times, 2013 expectation",
+      "source": {
+        "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
+        "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
+      },
+      "low": 25,
+      "high": 25
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "RasGas Helium 2, Ras Laffan",
+      "country": "QA",
+      "capacity": "1.3 billion cubic feet per year",
+      "year": 2013,
+      "source": {
+        "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
+        "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
+      }
+    }
+  ],
+  "advantages": [
+    "Co-product from gas already produced",
+    "High value per unit volume"
+  ],
+  "limitations": [
+    "Needs large LNG or NRU throughput to be economic",
+    "Linde notes trace helium is vented where recovery is uneconomic"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
+      "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
+    },
+    {
+      "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
+      "source_id": "linde-engineering",
+      "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "current global supply by plant (US, Qatar, Algeria, Russia)",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read cover Qatar only.",
+      "where": [
+        {
+          "hint": "USGS Mineral Commodity Summaries: Helium",
+          "access": "open",
+          "source_id": "usgs-energy"
+        }
+      ],
+      "action": "Add current supply figures from USGS."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

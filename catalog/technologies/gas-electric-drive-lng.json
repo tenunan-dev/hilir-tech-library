@@ -1,0 +1,201 @@
+{
+  "id": "gas-electric-drive-lng",
+  "name": "Electric-drive liquefaction (e-LNG)",
+  "aliases": [
+    "e-LNG",
+    "electric drive LNG",
+    "electrified LNG"
+  ],
+  "sector": "GAS",
+  "category": "LNG / liquefaction drive",
+  "applications": [
+    "low-carbon LNG",
+    "plants with cheap hydropower or grid power"
+  ],
+  "maturity": "commercial",
+  "principle": "Large electric motors, rather than gas turbines, drive the refrigerant compressors in the liquefaction trains, so the plant burns no fuel gas for compression and, if power is low-carbon, has far lower CO2. Freeport LNG in Texas runs three electric-driven trains; Equinor's Hammerfest LNG plans to replace its gas turbine generators with power from shore.",
+  "process_steps": [
+    {
+      "id": "PWR",
+      "name": "Electric power supply",
+      "equipment": [
+        "grid connection or power from shore",
+        "transformers",
+        "variable-speed drives"
+      ],
+      "to": [
+        "MTR"
+      ]
+    },
+    {
+      "id": "MTR",
+      "name": "Motor-driven refrigerant compression",
+      "equipment": [
+        "large electric motors",
+        "refrigerant compressors"
+      ],
+      "to": [
+        "LIQ"
+      ]
+    },
+    {
+      "id": "LIQ",
+      "name": "Liquefaction",
+      "equipment": [
+        "main cryogenic heat exchanger"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "large electric motors",
+    "variable-speed drives or starters",
+    "refrigerant compressors",
+    "main cryogenic heat exchanger"
+  ],
+  "suppliers": [
+    {
+      "name": "Equinor",
+      "product": "Hammerfest LNG electrification (Snøhvit Future)",
+      "source_id": "equinor-tech"
+    },
+    {
+      "name": "Freeport LNG",
+      "product": "three electric-driven trains"
+    },
+    {
+      "name": "McDermott",
+      "product": "e-drive solutions (search result only; page not read)",
+      "source_id": "mcdermott"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO2 reduction from Hammerfest electrification",
+      "unit": "t CO2 per year",
+      "basis": "Equinor: about 850,000 t/yr, equal to 450,000 ICE cars; carbon footprint 3.8 to 0.6 g CO2e/MJ",
+      "source": {
+        "url": "https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng",
+        "source_id": "equinor-tech",
+        "note": "Equinor, High gas exports and emissions cuts from Hammerfest LNG, 20 December 2022"
+      },
+      "low": 850000,
+      "high": 850000
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Freeport LNG, Texas, Trains 1 to 3 (electric motor drive)",
+      "country": "US",
+      "status": "Train 1 commercial December 2019, Train 2 January 2020 (performance test 37 days against 107 for Train 1), Train 3 expected May 2020 per the article",
+      "year": 2019,
+      "source": {
+        "url": "https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility",
+        "note": "Turbomachinery Magazine, Second of three electric-driven LNG trains starts operations at US facility, 20 January 2020"
+      }
+    },
+    {
+      "name": "Hammerfest LNG (Melkøya, Norway), electrification and onshore compression",
+      "country": "NO",
+      "capacity": "4.65 Mt LNG, 0.34 Mt LPG, 0.73 Mt condensate per year",
+      "status": "electrical operation scheduled to start 2028",
+      "year": 2028,
+      "source": {
+        "url": "https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng",
+        "source_id": "equinor-tech",
+        "note": "Equinor, High gas exports and emissions cuts from Hammerfest LNG, 20 December 2022"
+      }
+    }
+  ],
+  "advantages": [
+    "No fuel-gas combustion at the compressors",
+    "Easier start and better availability than gas turbines (Freeport Train 2 test faster than Train 1, which is a learning effect, not proven)"
+  ],
+  "limitations": [
+    "Requires large, reliable electric supply",
+    "CO2 benefit depends on the grid"
+  ],
+  "sources": [
+    {
+      "url": "https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng",
+      "source_id": "equinor-tech",
+      "note": "Equinor, High gas exports and emissions cuts from Hammerfest LNG, 20 December 2022"
+    },
+    {
+      "url": "https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility",
+      "note": "Turbomachinery Magazine, Second of three electric-driven LNG trains starts operations at US facility, 20 January 2020"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "MW per train and specific energy for electric versus gas-turbine drive",
+      "reason_code": "not_in_sources_read",
+      "reason": "The articles read give neither.",
+      "where": [
+        {
+          "hint": "McDermott e-drive page",
+          "access": "open",
+          "source_id": "mcdermott"
+        },
+        {
+          "hint": "Equinor technical papers",
+          "access": "open",
+          "source_id": "equinor-tech"
+        }
+      ],
+      "action": "Add motor sizes and kWh per tonne from vendor or LNG conference papers."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

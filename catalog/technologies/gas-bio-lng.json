@@ -1,0 +1,166 @@
+{
+  "id": "gas-bio-lng",
+  "name": "Bio-LNG and liquefied biomethane",
+  "aliases": [
+    "bio-LNG",
+    "liquefied biomethane",
+    "LBM"
+  ],
+  "sector": "GAS",
+  "category": "LNG / renewable gas",
+  "applications": [
+    "heavy-duty trucks",
+    "marine fuel"
+  ],
+  "maturity": "commercial",
+  "principle": "Biogas is upgraded to biomethane, then liquefied with a small-scale liquefier to give a drop-in LNG substitute for heavy transport and shipping. Shell commissioned a bio-LNG plant of about 100,000 tonnes a year in April 2024 (location not confirmed by the page read).",
+  "process_steps": [
+    {
+      "id": "BIO",
+      "name": "Biogas production",
+      "equipment": [
+        "digester"
+      ],
+      "to": [
+        "UPG"
+      ]
+    },
+    {
+      "id": "UPG",
+      "name": "Upgrading to biomethane",
+      "equipment": [
+        "membranes or amine scrubber"
+      ],
+      "to": [
+        "LIQ"
+      ]
+    },
+    {
+      "id": "LIQ",
+      "name": "Liquefaction",
+      "equipment": [
+        "small-scale liquefier"
+      ],
+      "to": [
+        "TRK"
+      ]
+    },
+    {
+      "id": "TRK",
+      "name": "Storage and truck loading",
+      "equipment": [
+        "LNG tank"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "digesters",
+    "biogas upgrading unit",
+    "small-scale liquefier",
+    "LNG tank",
+    "truck loading"
+  ],
+  "suppliers": [
+    {
+      "name": "Shell",
+      "product": "bio-LNG plant, about 100,000 t/yr (April 2024)"
+    },
+    {
+      "name": "Titan",
+      "product": "bio-LNG (register examples; not verified)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Shell bio-LNG plant capacity",
+      "unit": "t/yr",
+      "basis": "Natural Gas World, April 2024; site and feedstock not stated in the text read",
+      "source": {
+        "url": "https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526",
+        "note": "Natural Gas World, Shell inaugurates Germany's largest bio-LNG production plant, 19 April 2024"
+      },
+      "low": 100000,
+      "high": 100000
+    }
+  ],
+  "advantages": [
+    "Drop-in for LNG",
+    "Counts as renewable fuel under many schemes (not checked)"
+  ],
+  "limitations": [
+    "Feedstock limited by biogas supply"
+  ],
+  "sources": [
+    {
+      "url": "https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526",
+      "note": "Natural Gas World, Shell inaugurates Germany's largest bio-LNG production plant, 19 April 2024"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "location and feedstock of the Shell plant, and an Asia-Pacific example",
+      "reason_code": "not_in_sources_read",
+      "reason": "The page read cut off before naming them.",
+      "where": [
+        {
+          "hint": "Shell press release",
+          "access": "open"
+        }
+      ],
+      "action": "Add the site."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

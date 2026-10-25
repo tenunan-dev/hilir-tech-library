@@ -1,0 +1,230 @@
+{
+  "id": "gas-physical-solvent-agr",
+  "name": "Physical solvent gas treating (Selexol, Rectisol, Purisol)",
+  "aliases": [
+    "Selexol",
+    "Rectisol",
+    "Purisol",
+    "physical solvent AGR",
+    "dimethyl ether of polyethylene glycol"
+  ],
+  "sector": "GAS",
+  "category": "Gas treating / physical solvent",
+  "applications": [
+    "gasification syngas clean-up",
+    "high-pressure sour natural gas",
+    "separate H2S and CO2 streams for sulfur recovery and CO2 storage or EOR"
+  ],
+  "maturity": "commercial",
+  "principle": "Acid gases dissolve in an organic solvent in proportion to their partial pressure, with no chemical reaction. The rich solvent is released by pressure letdown, flashing and, where H2S must be sent to sulfur recovery, heat or stripping gas, so regeneration needs less heat than amine. Selexol uses dimethyl ethers of polyethylene glycol; Rectisol uses refrigerated methanol. Because capacity rises with pressure, physical solvents suit high-pressure gas such as gasification syngas and not low-pressure gas.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Feed gas cooling and water removal",
+      "equipment": [
+        "feed cooler",
+        "knock-out drum"
+      ]
+    },
+    {
+      "id": "ABS",
+      "name": "Acid gas absorption at high pressure",
+      "equipment": [
+        "absorber column"
+      ],
+      "to": [
+        "TR",
+        "FLASH"
+      ],
+      "streams": {
+        "TR": "treated gas",
+        "FLASH": "rich solvent"
+      }
+    },
+    {
+      "id": "TR",
+      "name": "Treated gas out",
+      "to": []
+    },
+    {
+      "id": "FLASH",
+      "name": "Staged flash of rich solvent (CO2 release, recycle of co-absorbed hydrocarbons)",
+      "equipment": [
+        "flash drums",
+        "recycle compressor"
+      ],
+      "to": [
+        "STR"
+      ]
+    },
+    {
+      "id": "STR",
+      "name": "Stripping or reboiled regeneration (H2S fraction)",
+      "equipment": [
+        "stripper",
+        "reboiler"
+      ],
+      "to": [
+        "ABS",
+        "AG"
+      ],
+      "streams": {
+        "ABS": "lean solvent",
+        "AG": "acid gas"
+      }
+    },
+    {
+      "id": "AG",
+      "name": "Acid gas to sulfur recovery or CO2 handling",
+      "equipment": [
+        "Claus unit",
+        "CO2 compression"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "high-pressure absorber",
+    "flash drums",
+    "solvent stripper",
+    "refrigeration (cold solvent cases)",
+    "lean solvent pumps and exchangers"
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "Selexol (Union Carbide solvent, licensed through UOP)",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Linde",
+      "product": "Rectisol (examples column of the register; not verified in sources read)"
+    },
+    {
+      "name": "Air Liquide",
+      "product": "Rectisol (examples column of the register; not verified in sources read)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "absorption pressure range at which Selexol is competitive",
+      "unit": "MPa",
+      "basis": "feed-gas pressure stated as 300 to 2000 psia; below about 300 psia solvent capacity drops and amines usually perform better",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Selexol",
+        "note": "Wikipedia, Selexol, read 25 October 2026 (secondary source)"
+      },
+      "low": 2.07,
+      "high": 13.8
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sarlux and api Energia gasification projects (Italy)",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf",
+        "source_id": "netl",
+        "note": "NETL Gas Treating Technical Paper (acid gas removal), read 25 October 2026"
+      }
+    },
+    {
+      "name": "Texaco Cool Water and TVA Muscle Shoals gasification (first use in the 1980s)",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf",
+        "source_id": "netl",
+        "note": "NETL Gas Treating Technical Paper (acid gas removal), read 25 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Usually needs less regeneration energy than amine",
+    "Can recover H2S and CO2 as separate streams",
+    "Can remove metal carbonyls"
+  ],
+  "limitations": [
+    "Capacity falls at low acid gas partial pressure",
+    "Co-absorbs heavier hydrocarbons, which must be recovered from the flash gas",
+    "Methanol-based Rectisol needs refrigeration"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf",
+      "source_id": "netl",
+      "note": "NETL Gas Treating Technical Paper (acid gas removal), read 25 October 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Selexol",
+      "note": "Wikipedia, Selexol, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "Linde and Air Liquide as Rectisol licensors; Purisol licensor",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name only Selexol with UOP; Rectisol and Purisol appear only as a comparison in a secondary source.",
+      "where": [
+        {
+          "hint": "Linde and Air Liquide Rectisol brochures",
+          "access": "open"
+        },
+        {
+          "hint": "Lurgi/Air Liquide Purisol literature",
+          "access": "open"
+        }
+      ],
+      "action": "Add licensors and reference plants from the licensors' own pages."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

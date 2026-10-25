@@ -116,6 +116,41 @@
         "source_id": "basf-catalysts",
         "note": "BASF SRU tail gas treatment brochure, 2020"
       }
+    },
+    {
+      "metric": "Claus sulfur recovery (Axens)",
+      "unit": "%",
+      "basis": "two-step Claus; single-train capacity from a few t/d up to 2,200 t/d per Axens",
+      "source": {
+        "url": "https://www.axens.net/markets/natural-gas/sulfur-recovery",
+        "source_id": "axens",
+        "note": "Axens sulfur recovery page, read 25 October 2026"
+      },
+      "low": 95,
+      "high": 98
+    },
+    {
+      "metric": "SmartSulf sub-dewpoint recovery without tail gas unit (Axens)",
+      "unit": "%",
+      "basis": "base SmartSulf more than 99.5%; with polishing up to 99.9%+",
+      "source": {
+        "url": "https://www.axens.net/markets/natural-gas/sulfur-recovery",
+        "source_id": "axens",
+        "note": "Axens sulfur recovery page, read 25 October 2026"
+      },
+      "low": 99.5,
+      "high": 99.9
+    },
+    {
+      "metric": "Sultimate tail gas treatment recovery (Axens)",
+      "unit": "%",
+      "basis": "amine-based tail gas treatment, typically 99.9%+",
+      "source": {
+        "url": "https://www.axens.net/markets/natural-gas/sulfur-recovery",
+        "source_id": "axens",
+        "note": "Axens sulfur recovery page, read 25 October 2026"
+      },
+      "low": 99.9
     }
   ],
   "suppliers": [
@@ -139,6 +174,11 @@
       "name": "BASF",
       "product": "OASE yellow, sulfexx",
       "source_id": "basf-catalysts"
+    },
+    {
+      "name": "Axens",
+      "product": "Claus, SmartSulf, Sultimate",
+      "source_id": "axens"
     }
   ],
   "advantages": [
@@ -161,6 +201,11 @@
       "url": "https://www.bakerhughes.com/acid-gas-treatment-and-sulfur-recovery",
       "source_id": "baker-hughes",
       "note": "Baker Hughes acid gas treatment and sulfur recovery page, read 24 October 2026"
+    },
+    {
+      "url": "https://www.axens.net/markets/natural-gas/sulfur-recovery",
+      "source_id": "axens",
+      "note": "Axens sulfur recovery page, read 25 October 2026"
     }
   ],
   "last_reviewed": "2026-10-24",
@@ -222,6 +267,20 @@
         }
       ],
       "action": "Add one to three reference plants with country, capacity, status and source."
+    },
+    {
+      "field": "suppliers",
+      "item": "Axens Sulfreen sub-dewpoint tail gas process",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Axens sulfur recovery page read lists Claus, SmartSulf, Sultimate and SweetSulf but not Sulfreen.",
+      "where": [
+        {
+          "hint": "Axens sulfur recovery documents",
+          "access": "open",
+          "source_id": "axens"
+        }
+      ],
+      "action": "Add Sulfreen once an Axens page that describes it has been read."
     }
   ]
 }

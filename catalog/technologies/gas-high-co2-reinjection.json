@@ -1,0 +1,249 @@
+{
+  "id": "gas-high-co2-reinjection",
+  "name": "High-CO2 gas field development with reinjection",
+  "aliases": [
+    "Kasawari CCS",
+    "high-CO2 gas reinjection"
+  ],
+  "sector": "GAS",
+  "category": "Gas treating / field development",
+  "applications": [
+    "offshore Sarawak high-CO2 gas fields",
+    "Natuna D-Alpha (studies)"
+  ],
+  "maturity": "demonstration",
+  "principle": "A gas field whose gas is largely CO2 is produced with CO2 removed offshore, usually by membranes, and the separated CO2 is compressed and reinjected into a depleted field instead of venting. PETRONAS Kasawari is the reference: a fixed platform bridge-linked to the central processing platform removes CO2, a pipeline carries it to the depleted M1 field and the gas is stored there.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Sour gas from wells to central processing platform",
+      "equipment": [
+        "wellhead platform",
+        "central processing platform (CPP)"
+      ],
+      "to": [
+        "REM"
+      ]
+    },
+    {
+      "id": "REM",
+      "name": "CO2 removal with membranes and low-pressure booster compression",
+      "equipment": [
+        "membrane skids",
+        "LP booster compressors"
+      ],
+      "to": [
+        "SALES",
+        "COMP"
+      ],
+      "streams": {
+        "SALES": "treated gas",
+        "COMP": "CO2-rich permeate"
+      }
+    },
+    {
+      "id": "SALES",
+      "name": "Treated gas for export",
+      "to": []
+    },
+    {
+      "id": "COMP",
+      "name": "CO2 compression for reinjection",
+      "equipment": [
+        "reinjection compressors",
+        "gas turbine drivers"
+      ],
+      "to": [
+        "PIPE"
+      ]
+    },
+    {
+      "id": "PIPE",
+      "name": "Subsea CO2 pipeline to depleted field",
+      "equipment": [
+        "16-inch subsea pipeline"
+      ],
+      "to": [
+        "INJ"
+      ]
+    },
+    {
+      "id": "INJ",
+      "name": "Injection into depleted field",
+      "equipment": [
+        "injection well"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CO2 removal membranes",
+    "LP booster compressors",
+    "reinjection compressors",
+    "gas turbine drivers",
+    "CCS platform and jacket",
+    "subsea CO2 pipeline",
+    "injection well"
+  ],
+  "suppliers": [
+    {
+      "name": "PETRONAS Carigali",
+      "product": "operator of Kasawari CCS",
+      "source_id": "petronas-tech"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "gas turbine compressor trains (PGT25+ / PGT25 DLE), two trains each for booster and reinjection",
+      "source_id": "baker-hughes"
+    },
+    {
+      "name": "Malaysia Marine and Heavy Engineering",
+      "product": "CCS platform EPCIC (awarded November 2022)",
+      "source_id": "mmhe"
+    },
+    {
+      "name": "Technip Energies",
+      "product": "FEED within the NPCC consortium",
+      "source_id": "technip-energies"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO2 captured and stored",
+      "unit": "Mtpa",
+      "basis": "Kasawari project; 71 to 76 Mt over the project life reported",
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      },
+      "low": 3.3,
+      "high": 3.3
+    },
+    {
+      "metric": "sour gas field size",
+      "unit": "tcf",
+      "basis": "Kasawari, Block SK316, about 200 km offshore Bintulu, Sarawak",
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      },
+      "low": 3.2,
+      "high": 3.2
+    },
+    {
+      "metric": "subsea CO2 pipeline length",
+      "unit": "km",
+      "basis": "16-inch pipeline to depleted M1 field",
+      "source": {
+        "url": "https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/",
+        "source_id": "hydrocarbon-engineering",
+        "note": "Hydrocarbon Engineering, Baker Hughes to supply technology for offshore CCS facilities, 6 January 2023"
+      },
+      "low": 138,
+      "high": 138
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "PETRONAS Kasawari CCS (Block SK316, offshore Sarawak)",
+      "country": "MY",
+      "capacity": "3.3 Mtpa CO2",
+      "status": "FID 20 October 2022; start of operations reported as 2025 or end-2025 in some sources and 2026 in a PETRONAS document",
+      "year": 2022,
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      }
+    }
+  ],
+  "advantages": [
+    "Keeps CO2 out of the atmosphere while a high-CO2 field is commercial",
+    "Reuses depleted field as the store"
+  ],
+  "limitations": [
+    "Large, heavy offshore platform (14,000 t topside, 15,000 t jacket) in 108 m of water",
+    "Few operating references"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+    },
+    {
+      "url": "https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/",
+      "source_id": "hydrocarbon-engineering",
+      "note": "Hydrocarbon Engineering, Baker Hughes to supply technology for offshore CCS facilities, 6 January 2023"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "reference_plants",
+      "item": "operating status and start-up date of Kasawari CCS",
+      "reason_code": "conflicting_sources",
+      "reason": "Sources read give start-up as 2025, end-2025 and 2026.",
+      "where": [
+        {
+          "hint": "PETRONAS announcements",
+          "access": "open",
+          "source_id": "petronas-tech"
+        }
+      ],
+      "action": "Record the confirmed start-up date."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

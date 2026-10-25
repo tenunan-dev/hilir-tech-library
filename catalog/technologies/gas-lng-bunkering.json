@@ -1,0 +1,199 @@
+{
+  "id": "gas-lng-bunkering",
+  "name": "LNG bunkering",
+  "aliases": [
+    "LNG bunker",
+    "ship-to-ship LNG bunkering"
+  ],
+  "sector": "GAS",
+  "category": "LNG / marine fuel",
+  "applications": [
+    "container ships",
+    "car carriers",
+    "cruise ships",
+    "LNG carriers"
+  ],
+  "maturity": "commercial",
+  "principle": "LNG is delivered to ships as fuel by bunker vessel, truck or shore terminal. In Singapore, FueLNG (a Shell and Seatrium venture) completed its 500th ship-to-ship bunkering in 2025.",
+  "process_steps": [
+    {
+      "id": "SRC",
+      "name": "LNG supply",
+      "equipment": [
+        "terminal or truck",
+        "bunker vessel"
+      ],
+      "to": [
+        "XFR"
+      ]
+    },
+    {
+      "id": "XFR",
+      "name": "Transfer with cryogenic hose or loading arm",
+      "equipment": [
+        "breakaway coupling",
+        "emergency release",
+        "vapour return"
+      ],
+      "to": [
+        "RCV"
+      ]
+    },
+    {
+      "id": "RCV",
+      "name": "Receiving ship tank",
+      "equipment": [
+        "fuel tank"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "bunker vessel",
+    "cryogenic hoses",
+    "emergency release coupling",
+    "vapour return",
+    "custody transfer metering"
+  ],
+  "suppliers": [
+    {
+      "name": "FueLNG",
+      "product": "ship-to-ship LNG bunkering, Singapore (Shell and Seatrium)"
+    },
+    {
+      "name": "Shell",
+      "product": "LNG bunkering"
+    },
+    {
+      "name": "TotalEnergies",
+      "product": "LNG bunkering (register examples)"
+    },
+    {
+      "name": "PETRONAS",
+      "product": "LNG bunkering (register examples)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Singapore LNG bunker sales growth 2025 over 2024",
+      "unit": "%",
+      "basis": "MPA via LNG Prime summary; absolute volumes behind paywall",
+      "source": {
+        "url": "https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/",
+        "note": "LNG Prime, Singapore LNG bunkering volumes hit new record in 2025 (summary only; article paywalled)"
+      },
+      "low": 23.9,
+      "high": 23.9
+    },
+    {
+      "metric": "Singapore LNG bunker sales, July",
+      "unit": "t",
+      "basis": "Ship & Bunker, market total, down 3.9% year on year",
+      "source": {
+        "url": "https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore",
+        "note": "Ship & Bunker, FueLNG marks 500th ship-to-ship LNG bunkering in Singapore, 20 August 2025"
+      },
+      "low": 41500,
+      "high": 41500
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "FueLNG Singapore, 500th ship-to-ship bunkering (receiving ship Amphitrite Highway, K Line)",
+      "country": "SG",
+      "year": 2025,
+      "source": {
+        "url": "https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore",
+        "note": "Ship & Bunker, FueLNG marks 500th ship-to-ship LNG bunkering in Singapore, 20 August 2025"
+      }
+    }
+  ],
+  "advantages": [
+    "Established in Singapore with hundreds of operations",
+    "Low-sulfur marine fuel"
+  ],
+  "limitations": [
+    "Methane slip and upstream emissions are outside this card",
+    "Limited ports with LNG bunker vessels"
+  ],
+  "sources": [
+    {
+      "url": "https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore",
+      "note": "Ship & Bunker, FueLNG marks 500th ship-to-ship LNG bunkering in Singapore, 20 August 2025"
+    },
+    {
+      "url": "https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/",
+      "note": "LNG Prime, Singapore LNG bunkering volumes hit new record in 2025 (summary only; article paywalled)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "global LNG bunkering volumes and port list",
+      "reason_code": "not_in_sources_read",
+      "reason": "Only Singapore items were read; the LNG Prime article is paywalled.",
+      "where": [
+        {
+          "hint": "Singapore MPA bunkering statistics",
+          "access": "open"
+        },
+        {
+          "hint": "Maritime Executive and Ship & Bunker coverage",
+          "access": "open"
+        }
+      ],
+      "action": "Add global volumes and the Malaysia (Pengerang, Johor) position."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

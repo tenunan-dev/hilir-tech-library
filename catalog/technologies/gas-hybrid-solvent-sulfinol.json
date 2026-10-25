@@ -1,0 +1,225 @@
+{
+  "id": "gas-hybrid-solvent-sulfinol",
+  "name": "Hybrid solvent gas treating (Sulfinol)",
+  "aliases": [
+    "Sulfinol",
+    "Sulfinol-M",
+    "Sulfinol-D"
+  ],
+  "sector": "GAS",
+  "category": "Gas treating / hybrid solvent",
+  "applications": [
+    "sour gas with mercaptans and COS",
+    "sales gas",
+    "LNG feed"
+  ],
+  "maturity": "commercial",
+  "principle": "A mixed solvent of an amine and the physical solvent sulfolane, in water. In Shell's current Sulfinol the amine is activated MDEA (MDEA with piperazine). The chemical part holds CO2 and H2S at low partial pressure; the physical part also takes up organic sulfur (mercaptans, COS), which pure amines miss, so one unit meets H2S, CO2 and organic sulfur specifications.",
+  "process_steps": [
+    {
+      "id": "ABS",
+      "name": "Absorption in Sulfinol solvent",
+      "equipment": [
+        "absorber"
+      ],
+      "to": [
+        "SW",
+        "RS"
+      ],
+      "streams": {
+        "SW": "sweet gas",
+        "RS": "rich solvent"
+      }
+    },
+    {
+      "id": "SW",
+      "name": "Sweet gas to dehydration",
+      "to": []
+    },
+    {
+      "id": "RS",
+      "name": "Flash and heat exchange",
+      "equipment": [
+        "flash drum",
+        "lean/rich exchanger"
+      ],
+      "to": [
+        "REG"
+      ]
+    },
+    {
+      "id": "REG",
+      "name": "Regeneration",
+      "equipment": [
+        "regenerator",
+        "reboiler"
+      ],
+      "to": [
+        "ABS",
+        "AG"
+      ],
+      "streams": {
+        "ABS": "lean solvent",
+        "AG": "acid gas"
+      }
+    },
+    {
+      "id": "AG",
+      "name": "Acid gas to sulfur recovery",
+      "equipment": [
+        "Claus unit"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "absorber",
+    "flash drum",
+    "lean/rich exchanger",
+    "regenerator and reboiler",
+    "solvent filtration"
+  ],
+  "suppliers": [
+    {
+      "name": "Shell",
+      "product": "Sulfinol",
+      "source_id": "shell-catalysts"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "treated gas H2S at NAM Emmen",
+      "unit": "ppmv",
+      "basis": "Sulfinol-M (MDEA plus sulfolane); sour gas H2S about 0.1 to 1 vol%, CO2 2 to 5 vol%, mercaptans up to 90 ppmv",
+      "source": {
+        "url": "https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Gas-desulfurization plant handles wide range of sour gas compositions (NAM Emmen, startup 18 July 1988)"
+      },
+      "high": 3.5
+    },
+    {
+      "metric": "treated gas mercaptans at NAM Emmen",
+      "unit": "ppmv",
+      "basis": "same plant",
+      "source": {
+        "url": "https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Gas-desulfurization plant handles wide range of sour gas compositions (NAM Emmen, startup 18 July 1988)"
+      },
+      "high": 7
+    },
+    {
+      "metric": "overall sulfur recovery with Claus/SCOT at NAM Emmen",
+      "unit": "%",
+      "basis": "greater than 99.8%",
+      "source": {
+        "url": "https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Gas-desulfurization plant handles wide range of sour gas compositions (NAM Emmen, startup 18 July 1988)"
+      },
+      "low": 99.8
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "NAM gas-desulfurisation plant, Emmen",
+      "country": "NL",
+      "capacity": "300 MMscfd intake",
+      "year": 1988,
+      "source": {
+        "url": "https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, Gas-desulfurization plant handles wide range of sour gas compositions (NAM Emmen, startup 18 July 1988)"
+      }
+    }
+  ],
+  "advantages": [
+    "Removes organic sulfur along with H2S and CO2",
+    "Single solvent",
+    "Shell calls it one of its oldest and most tested solutions"
+  ],
+  "limitations": [
+    "Sulfolane co-absorbs heavier hydrocarbons",
+    "Solvent cost and degradation management"
+  ],
+  "sources": [
+    {
+      "url": "https://catalysts.shell.com/en/lower-costs-sulfinol",
+      "source_id": "shell-catalysts",
+      "note": "Shell Catalysts & Technologies, Sulfinol page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions",
+      "source_id": "ogj",
+      "note": "Oil & Gas Journal, Gas-desulfurization plant handles wide range of sour gas compositions (NAM Emmen, startup 18 July 1988)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "ADIP-X and other Shell solvents on Shell's pages",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Shell pages fetched returned only metadata or no content for ADIP-X.",
+      "where": [
+        {
+          "hint": "Shell Catalysts & Technologies gas treating pages",
+          "access": "open",
+          "source_id": "shell-catalysts"
+        }
+      ],
+      "action": "Add them once a page can be read."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

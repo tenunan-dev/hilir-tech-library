@@ -1,0 +1,225 @@
+{
+  "id": "gas-small-scale-lng",
+  "name": "Small and mid-scale modular LNG",
+  "aliases": [
+    "small-scale LNG",
+    "mid-scale LNG",
+    "modular LNG",
+    "nitrogen expander liquefaction"
+  ],
+  "sector": "GAS",
+  "category": "LNG / liquefaction",
+  "applications": [
+    "trucked LNG",
+    "LNG bunkering",
+    "peak shaving",
+    "remote power"
+  ],
+  "maturity": "commercial",
+  "principle": "Packaged liquefaction trains of tens to hundreds of tonnes per day make LNG from pipeline gas or small fields for trucks, ships and remote power. Nitrogen expander cycles are favoured for simplicity and turndown; methane expansion and single mixed refrigerant cycles are alternatives.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Feed gas treatment",
+      "equipment": [
+        "acid gas removal",
+        "dehydration",
+        "mercury removal"
+      ],
+      "to": [
+        "LIQ"
+      ]
+    },
+    {
+      "id": "LIQ",
+      "name": "Liquefaction (N2 expander, methane expander or SMR)",
+      "equipment": [
+        "compander",
+        "plate-fin cold box"
+      ],
+      "to": [
+        "STO"
+      ]
+    },
+    {
+      "id": "STO",
+      "name": "LNG storage and loading",
+      "equipment": [
+        "storage tank",
+        "truck loading"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "compander (compressor-expander)",
+    "plate-fin cold box",
+    "feed treating skids",
+    "LNG storage tank",
+    "truck loading bay"
+  ],
+  "suppliers": [
+    {
+      "name": "Honeywell UOP",
+      "product": "AP-N nitrogen expander, AP-C1, AP-SMR processes (document hosted by UOP)",
+      "source_id": "honeywell-uop"
+    },
+    {
+      "name": "Chart Industries",
+      "product": "small-scale LNG (register examples; not verified)",
+      "source_id": "chart-industries"
+    },
+    {
+      "name": "Black & Veatch",
+      "product": "PRICO (register examples; not verified)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "UOP small-scale offering capacity",
+      "unit": "t/d",
+      "basis": "AP-N single expander 140 to 250 t/d, dual expander 200 to 650 t/d, AP-C1 60 to 800+ t/d",
+      "source": {
+        "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
+      },
+      "high": 800
+    },
+    {
+      "metric": "nitrogen expander specific power",
+      "unit": "kWh/t",
+      "basis": "0.56 kWh/gal on lean high-pressure (about 1,100 psig) feed; vendor article, other feeds not covered",
+      "source": {
+        "url": "https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng",
+        "note": "J. Pak (Cosmodyne), Nitrogen expansion cycle enhances flexibility of small-scale LNG, Gas Processing & LNG, 1 July 2013 (vendor author)"
+      },
+      "low": 350,
+      "high": 350
+    },
+    {
+      "metric": "typical small-scale plant size",
+      "unit": "MMscfd",
+      "basis": "50,000 to 500,000 gal/d per Cosmodyne article",
+      "source": {
+        "url": "https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng",
+        "note": "J. Pak (Cosmodyne), Nitrogen expansion cycle enhances flexibility of small-scale LNG, Gas Processing & LNG, 1 July 2013 (vendor author)"
+      },
+      "low": 4,
+      "high": 42
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Japex LNG plants, Japan (AP-N)",
+      "country": "JP",
+      "capacity": "144 t/d (2004) and 206 t/d (2007)",
+      "source": {
+        "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
+      }
+    },
+    {
+      "name": "US plant, 412 t/d AP-N",
+      "country": "US",
+      "year": 2022,
+      "source": {
+        "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
+        "source_id": "honeywell-uop",
+        "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
+      }
+    }
+  ],
+  "advantages": [
+    "Low capital cost, simple operation, good turndown (vendor article)",
+    "Modular and relocatable"
+  ],
+  "limitations": [
+    "Historically less efficient than single mixed refrigerant; vendor says now comparable",
+    "Efficiency depends on high-pressure lean feed"
+  ],
+  "sources": [
+    {
+      "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
+      "source_id": "honeywell-uop",
+      "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
+    },
+    {
+      "url": "https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng",
+      "note": "J. Pak (Cosmodyne), Nitrogen expansion cycle enhances flexibility of small-scale LNG, Gas Processing & LNG, 1 July 2013 (vendor author)"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "independent comparison of N2 expander and SMR power use",
+      "reason_code": "not_in_sources_read",
+      "reason": "Both sources are vendors.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "LNG Industry / Gastech papers",
+          "access": "open",
+          "source_id": "lng-industry"
+        }
+      ],
+      "action": "Add an independent comparison."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

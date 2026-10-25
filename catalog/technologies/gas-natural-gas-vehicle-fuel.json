@@ -1,0 +1,202 @@
+{
+  "id": "gas-natural-gas-vehicle-fuel",
+  "name": "Compressed natural gas and LNG as vehicle fuel",
+  "aliases": [
+    "CNG",
+    "LNG vehicle fuel",
+    "natural gas vehicles",
+    "NGV"
+  ],
+  "sector": "GAS",
+  "category": "Gas use / transport",
+  "applications": [
+    "buses",
+    "taxis",
+    "heavy trucks"
+  ],
+  "maturity": "commercial",
+  "principle": "Natural gas is compressed to about 200 bar (CNG) or liquefied (LNG) and used in spark-ignition or dual-fuel engines. The global fleet was 26.2 million vehicles in 2018, mostly in China, Iran, India, Pakistan, Argentina and Brazil.",
+  "process_steps": [
+    {
+      "id": "SRC",
+      "name": "Pipeline gas or LNG",
+      "equipment": [
+        "grid connection or LNG tank"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression or storage",
+      "equipment": [
+        "compressor",
+        "cascade storage"
+      ],
+      "to": [
+        "DSP"
+      ]
+    },
+    {
+      "id": "DSP",
+      "name": "Dispensing",
+      "equipment": [
+        "dispenser"
+      ],
+      "to": []
+    },
+    {
+      "id": "VEH",
+      "name": "Vehicle",
+      "equipment": [
+        "on-board cylinder or cryogenic tank"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "compressors",
+    "cascade storage",
+    "dispensers",
+    "on-board cylinders or LNG tanks"
+  ],
+  "suppliers": [
+    {
+      "name": "Clean Energy Fuels",
+      "product": "US stations (more than 550 per the OIES report)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "global natural gas vehicle fleet",
+      "unit": "million vehicles",
+      "basis": "NGV Global/IANGV, 2018, via OIES; definitions differ by country",
+      "source": {
+        "url": "https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf",
+        "source_id": "oxford-oies",
+        "note": "Oxford Institute for Energy Studies, A review of prospects for natural gas as a fuel in road transport, Insight 50, 2019"
+      },
+      "low": 26.2,
+      "high": 26.2
+    },
+    {
+      "metric": "share of global fleet in top three countries (China, Iran, India)",
+      "unit": "%",
+      "basis": "23.2 + 17.2 + 11.8",
+      "source": {
+        "url": "https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf",
+        "source_id": "oxford-oies",
+        "note": "Oxford Institute for Energy Studies, A review of prospects for natural gas as a fuel in road transport, Insight 50, 2019"
+      },
+      "low": 52.2,
+      "high": 52.2
+    },
+    {
+      "metric": "LNG trucks in China",
+      "unit": "vehicles",
+      "basis": "end of 2017",
+      "source": {
+        "url": "https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf",
+        "source_id": "oxford-oies",
+        "note": "Oxford Institute for Energy Studies, A review of prospects for natural gas as a fuel in road transport, Insight 50, 2019"
+      },
+      "low": 350000,
+      "high": 350000
+    }
+  ],
+  "advantages": [
+    "Lower local pollutants than diesel",
+    "Outside the US, depends on state support (OIES)"
+  ],
+  "limitations": [
+    "Electric vehicles threaten light vehicle demand (OIES)",
+    "Data are 2016-2018"
+  ],
+  "sources": [
+    {
+      "url": "https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf",
+      "source_id": "oxford-oies",
+      "note": "Oxford Institute for Energy Studies, A review of prospects for natural gas as a fuel in road transport, Insight 50, 2019"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "current fleet and station numbers",
+      "reason_code": "not_in_sources_read",
+      "reason": "The OIES report is from 2019.",
+      "where": [
+        {
+          "hint": "IANGV statistics",
+          "access": "open"
+        }
+      ],
+      "action": "Add current figures."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

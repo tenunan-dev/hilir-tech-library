@@ -1,0 +1,208 @@
+{
+  "id": "gas-nitrogen-rejection",
+  "name": "Nitrogen rejection units",
+  "aliases": [
+    "NRU",
+    "nitrogen rejection",
+    "nitrogen removal from natural gas"
+  ],
+  "sector": "GAS",
+  "category": "Gas processing / nitrogen removal",
+  "applications": [
+    "high-nitrogen gas fields",
+    "LNG feed",
+    "enhanced oil recovery gas upgrading"
+  ],
+  "maturity": "commercial",
+  "principle": "Cryogenic distillation separates nitrogen from methane to meet pipeline or LNG heating value and nitrogen limits. A single-column, partitioned-column or double-column cold box is chosen by feed nitrogen content and by whether nitrogen or helium is to be recovered. Linde states pipeline gas typically needs nitrogen reduced to 3 to 4% and LNG feed to about 1% or less.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Feed compression and pre-treatment",
+      "equipment": [
+        "compressor",
+        "dryers",
+        "CO2 removal"
+      ],
+      "to": [
+        "CB"
+      ]
+    },
+    {
+      "id": "CB",
+      "name": "Cryogenic distillation in cold box",
+      "equipment": [
+        "coldbox",
+        "distillation column(s)",
+        "pump modules"
+      ],
+      "to": [
+        "PIPE",
+        "N2"
+      ],
+      "streams": {
+        "PIPE": "sales gas",
+        "N2": "nitrogen vent or liquid nitrogen"
+      }
+    },
+    {
+      "id": "PIPE",
+      "name": "Sales gas",
+      "to": []
+    },
+    {
+      "id": "N2",
+      "name": "Nitrogen vent, liquid nitrogen or helium recovery",
+      "equipment": [
+        "helium PSA and purification (optional)"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "cold box",
+    "distillation columns",
+    "brazed aluminium heat exchangers",
+    "pumps",
+    "feed compressors"
+  ],
+  "suppliers": [
+    {
+      "name": "Linde Engineering",
+      "product": "single-column, partitioned-column, double-column and enrichment NRUs",
+      "source_id": "linde-engineering"
+    },
+    {
+      "name": "Air Products",
+      "product": "NRU (register examples column; not verified in sources read)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "nitrogen after rejection for pipeline gas",
+      "unit": "%",
+      "basis": "Linde statement of typical pipeline specification",
+      "source": {
+        "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
+        "source_id": "linde-engineering",
+        "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+      },
+      "low": 3,
+      "high": 4
+    },
+    {
+      "metric": "nitrogen after rejection for LNG storage",
+      "unit": "%",
+      "basis": "Linde statement",
+      "source": {
+        "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
+        "source_id": "linde-engineering",
+        "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+      },
+      "high": 1
+    },
+    {
+      "metric": "helium recovery in the Amur GPP NRU design",
+      "unit": "%",
+      "basis": "Linde states more than 98% of helium (well under 1% of the gas) can be recovered",
+      "source": {
+        "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
+        "source_id": "linde-engineering",
+        "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+      },
+      "low": 98
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Amur GPP (Russia), single-column NRU, under construction when the page was read",
+      "source": {
+        "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
+        "source_id": "linde-engineering",
+        "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Proven cryogenic route",
+    "Can add helium and liquid nitrogen recovery"
+  ],
+  "limitations": [
+    "Cryogenic cold box needs feed CO2 and water removed first",
+    "Nitrogen is vented where helium is uneconomic"
+  ],
+  "sources": [
+    {
+      "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
+      "source_id": "linde-engineering",
+      "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "power use per unit gas treated",
+      "reason_code": "not_in_sources_read",
+      "reason": "Linde's page gives no capacities or energy figures.",
+      "where": [
+        {
+          "hint": "AIChE Spring Meeting papers on NRU technology",
+          "access": "open",
+          "source_id": "aiche-spring"
+        }
+      ],
+      "action": "Add specific energy from an open paper."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}

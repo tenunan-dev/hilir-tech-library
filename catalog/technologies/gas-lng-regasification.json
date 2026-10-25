@@ -1,0 +1,200 @@
+{
+  "id": "gas-lng-regasification",
+  "name": "LNG regasification (open rack, submerged combustion, ambient air vaporisers)",
+  "aliases": [
+    "regasification",
+    "LNG vaporiser",
+    "ORV",
+    "SCV",
+    "FSRU regasification"
+  ],
+  "sector": "GAS",
+  "category": "LNG / import terminals",
+  "applications": [
+    "import terminals",
+    "FSRUs",
+    "small-scale satellite terminals"
+  ],
+  "maturity": "commercial",
+  "principle": "Cryogenic LNG is pumped to pipeline pressure and warmed to gas in vaporisers. Open rack vaporisers use seawater flowing over aluminium panels; submerged combustion vaporisers burn send-out gas to heat a water bath; ambient air vaporisers use finned tubes and air. Floating storage and regasification units do the same on a vessel.",
+  "process_steps": [
+    {
+      "id": "TK",
+      "name": "LNG storage",
+      "equipment": [
+        "LNG tank"
+      ],
+      "to": [
+        "PMP"
+      ]
+    },
+    {
+      "id": "PMP",
+      "name": "Send-out pumping",
+      "equipment": [
+        "in-tank pumps",
+        "high-pressure pumps"
+      ],
+      "to": [
+        "VAP"
+      ]
+    },
+    {
+      "id": "VAP",
+      "name": "Vaporisation",
+      "equipment": [
+        "open rack, submerged combustion or ambient vaporiser"
+      ],
+      "to": [
+        "MET"
+      ]
+    },
+    {
+      "id": "MET",
+      "name": "Metering and odorisation",
+      "equipment": [
+        "meter skid"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "LNG tank",
+    "send-out pumps",
+    "vaporisers",
+    "seawater system or fuel gas supply",
+    "metering"
+  ],
+  "suppliers": [
+    {
+      "name": "Sumitomo Precision Products",
+      "product": "vaporisers (register examples; not verified)"
+    },
+    {
+      "name": "Kobe Steel",
+      "product": "vaporisers (register examples; not verified)"
+    },
+    {
+      "name": "Chart Industries",
+      "product": "ambient-air vaporisers with HVAC pre-heating, 30 to 100% turndown",
+      "source_id": "chart-industries"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "largest single open rack vaporiser",
+      "unit": "MMSCFD",
+      "basis": "KBR authors; ORV unusable in seawater below 42 degF",
+      "source": {
+        "url": "https://www.pumpindustry.com.au/lng-receiving-terminals",
+        "note": "Coyle and Patel (KBR), LNG receiving terminals, Pump Industry"
+      },
+      "low": 200,
+      "high": 250
+    },
+    {
+      "metric": "largest single submerged combustion vaporiser",
+      "unit": "MMSCFD",
+      "basis": "KBR authors; burns send-out gas",
+      "source": {
+        "url": "https://www.pumpindustry.com.au/lng-receiving-terminals",
+        "note": "Coyle and Patel (KBR), LNG receiving terminals, Pump Industry"
+      },
+      "low": 150,
+      "high": 150
+    }
+  ],
+  "advantages": [
+    "ORV for base load and SCV as spare gives the best economics (KBR authors)"
+  ],
+  "limitations": [
+    "ORV needs warm seawater and a seawater system",
+    "SCV has fuel cost, NOx and treated combustion water"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pumpindustry.com.au/lng-receiving-terminals",
+      "note": "Coyle and Patel (KBR), LNG receiving terminals, Pump Industry"
+    }
+  ],
+  "last_reviewed": "2026-10-25",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "fuel gas percentage and cold-energy use",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article gives no percentage figures.",
+      "where": [
+        {
+          "hint": "GIIGNL handbook and terminal operator documents",
+          "access": "open",
+          "source_id": "giignl"
+        }
+      ],
+      "action": "Add fuel use and cold-energy recovery options."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for this technology.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "named plants or projects with capacity and year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read name no specific plant.",
+      "where": [
+        {
+          "hint": "Licensor and operator press releases for the suppliers listed",
+          "access": "open"
+        }
+      ],
+      "action": "Add one or two plants with country, capacity and start-up year."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "process steps and equipment are general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "where": [
+        {
+          "hint": "Licensor process descriptions and textbooks",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a licensor description and name it."
+    }
+  ]
+}
