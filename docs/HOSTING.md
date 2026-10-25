@@ -51,6 +51,30 @@ The server's home is now https://techlib.hilir.app/mcp; the previous techlibrary
 Connect a client: URL `https://techlib.hilir.app/mcp`, header `x-api-key: <key>`. For example, Claude Code:
 `claude mcp add --transport http og-tech-library-remote https://techlib.hilir.app/mcp --header "x-api-key: <key>"`.
 
+### Test the connection (run from the Mac after any deploy or client setup)
+
+```sh
+KEY=$(cat ~/.config/og-tech-library/api-key)
+# 1. edge is alive (no key needed)
+curl -s https://techlib.hilir.app/health
+# 2. REST API + container answer with the current counts
+curl -s -H "x-api-key: $KEY" https://techlib.hilir.app/api/stats
+# 3. MCP handshake
+curl -s -X POST https://techlib.hilir.app/mcp -H "x-api-key: $KEY" \
+  -H "content-type: application/json" -H "accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-03-26","capabilities":{},"clientInfo":{"name":"test","version":"0"}}}'
+# 4. one real tool call
+curl -s -X POST https://techlib.hilir.app/mcp -H "x-api-key: $KEY" \
+  -H "content-type: application/json" -H "accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"library_stats","arguments":{}}}'
+```
+
+Expected: 1 answers the service banner; 2 returns the source/document/chunk/card counts; 3 returns a JSON-RPC
+result with the server's capabilities; 4 returns the same counts as 2 wrapped in a tool result (`"isError":false`).
+The server runs the MCP session statelessly (no `mcp-session-id` header) and answers `application/json`; a
+`notifications/initialized` POST between 3 and 4 gets a 202 but is not required. Full walkthrough of the
+first run of this test (all six steps incl. `tools/list` and `search`): STATUS.md, log entry 2026-10-26.
+
 ### REST API (for agents without MCP)
 
 The same server answers plain HTTPS GET requests under `/api`, with the same `x-api-key` header and
