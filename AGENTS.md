@@ -21,6 +21,7 @@ agents to find, cite and (where licences allow) read. It has three layers:
 | Add sources, verify terms, collect, run refreshes | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) |
 | Host the server for cloud agents (Copilot Studio and others) | [docs/HOSTING.md](docs/HOSTING.md) |
 | Export to Dataverse / Power Apps tables | [docs/DATAVERSE.md](docs/DATAVERSE.md) |
+| Load into Postgres with vectors and a knowledge graph (Neon) | [docs/POSTGRES.md](docs/POSTGRES.md) |
 | Know what is done and what to do next | [docs/STATUS.md](docs/STATUS.md) |
 | Know why a rule exists | [docs/DECISIONS.md](docs/DECISIONS.md) |
 
