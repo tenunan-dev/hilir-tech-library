@@ -105,6 +105,24 @@ Write a generator in `collectors/adapters.py` that yields `(title, url, body_mar
 - To change ranking, edit `BM25`, `REGION_BOOST` or the coverage sort in `agent/library.py` and keep `tests/test_agent.py` passing. Spot-check with `python agent/library.py search <query>`.
 - To add an MCP tool, add a function in `agent/library.py` with a test, then a thin `@server.tool()` wrapper in `agent/server.py`.
 
+### Publish after any change
+
+The hosted copy (Cloudflare), the Neon database and the Dataverse CSVs are snapshots of the files;
+refresh them after collecting documents or changing cards:
+
+```
+python tools/build.py && python agent/library.py build
+python agent/embed.py                        # only when vectors are wanted (slow: ~75 min for the full corpus)
+export DATABASE_URL='<unpooled owner DSN>'   # from .env.local on the Mac; never committed
+python tools/load_postgres.py --embeddings sqlite
+cd deploy/cloudflare && npx wrangler deploy  # Docker running; wait out the instance swap before verifying
+python tools/export_dataverse.py --out <dir>
+```
+
+The read-only role and its grants survive reloads, so `--grant-readonly` is not repeated. Details:
+[POSTGRES.md](POSTGRES.md), [HOSTING.md](HOSTING.md) (including the instance-swap wait),
+[DATAVERSE.md](DATAVERSE.md).
+
 ## 6. Finishing a session
 
 1. `python tools/build.py && pytest -q tests` pass.

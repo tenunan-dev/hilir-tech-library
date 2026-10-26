@@ -65,4 +65,7 @@ HTTP mode also serves `agent/web.py`, an HTML interface at the same origin: `/` 
 grid), `/search`, `/technologies/{id}`, `/register`, `/sources/{id}`, `/documents?path=`, `/gaps`, and
 `/database` with a read-only SQL console, hybrid search and a graph browser (`/database/sql`,
 `/database/search`, `/database/graph`). Sign in at `/login` with the API key, or send `x-api-key` on
-any page.
+any page. The database tools need `DATABASE_URL` set to the read-only role's DSN
+([docs/POSTGRES.md](../docs/POSTGRES.md)); the hosted copy has it (Neon) but runs keyword-only search —
+its image ships no embedder, while the vectors in Postgres serve `hybrid_search`'s vector half through
+the SQL console anywhere.

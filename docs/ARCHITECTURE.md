@@ -17,7 +17,12 @@
                                                       ▼
                                    build/library.db (SQLite: FTS5 + optional vectors)
                                                       │
-                                   agent/server.py (MCP, stdio) ──▶ any MCP client
+                                   agent/server.py (MCP over stdio, or --http behind techlib.hilir.app)
+                                      ├─ agent/api.py   REST API under /api
+                                      ├─ agent/web.py   HTML interface (session cookie from the API key)
+                                      └─ agent/pg.py ──▶ Neon Postgres, schema og (read-only role og_mcp_read)
+                                                                     ▲
+                                   tools/load_postgres.py ──────────┘ (full reload from the same files, owner DSN)
 ```
 
 Everything is plain files in git except `build/`, which is rebuilt locally.
@@ -116,7 +121,31 @@ Ranking: rows matching more of the query's words first, then BM25 (name weighted
 
 ### MCP server (`agent/server.py`)
 
-A stdio MCP server with `search`, `get_source`, `get_document`, `list_by_tag` and `library_stats`. It works with mcp 1.x (FastMCP) and 2.x (MCPServer), and builds the index on first start if missing. Any MCP client can use it; nothing in it is specific to one AI vendor.
+One server, three doors. Over stdio it serves local MCP clients; with `--http` it also serves the
+REST API under `/api` (`agent/api.py`) and the HTML interface (`agent/web.py`). Twelve tools:
+`search`, `get_source`, `get_document`, `list_by_tag`, `get_technology`, `compare_technologies`,
+`list_technology_register`, `list_gaps`, `library_stats`, and — when `DATABASE_URL` holds the
+read-only role's DSN — `sql_query`, `db_catalog` and `graph_neighbors` over the Postgres layer.
+It works with mcp 1.x (FastMCP) and 2.x (MCPServer), builds the index on first start if missing,
+and nothing in it is specific to one AI vendor.
+
+### Postgres layer (`db/`, `agent/graph.py`, `tools/load_postgres.py`, `agent/pg.py`)
+
+An optional second home for the data: schema `og` on Neon with pgvector embeddings, full-text
+search and a property graph (`node`/`edge`) that links sources, documents, cards, register
+entries, organisations and gaps; every edge is a recorded fact or a named matching rule with its
+evidence in `props`. `tools/load_postgres.py` replaces every table in one transaction (pipeline
+mode over the WAN), open-licence text only by default. The server, the REST API's SQL console and
+the web UI read it through `agent/pg.py` as role `og_mcp_read` — SELECT-only grants plus forced
+read-only transactions plus a single-statement guard. Details in [POSTGRES.md](POSTGRES.md).
+
+### Hosting (`deploy/cloudflare/`)
+
+A Cloudflare Worker checks the API key at the edge and forwards to one Cloudflare Container built
+from the repo Dockerfile (open-licence copy only, built at deploy time). `/mcp` also accepts
+OAuth for URL-only clients such as claude.ai; web UI paths pass through to the container, which
+checks a session cookie derived from the same key. The optional secret `DATABASE_URL` gives the
+container the read-only Postgres DSN. Details in [HOSTING.md](HOSTING.md).
 
 ### Automation (`.github/workflows/`)
 
@@ -129,3 +158,4 @@ A stdio MCP server with `search`, `get_source`, `get_document`, `list_by_tag` an
 - **Licence travels with content.** Every document and every search result carries its licence and reuse level.
 - **Verification is a log, not edits.** Findings are replayable and auditable.
 - **One index, two retrieval modes.** Keyword search works with no model download; embeddings are an add-on.
+- **The database is read-only by construction.** Agent-written SQL runs as `og_mcp_read`: SELECT-only grants, forced read-only transactions and a single-statement guard — independent layers, so one mistake cannot expose writes.

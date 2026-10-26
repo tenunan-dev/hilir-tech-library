@@ -2,7 +2,7 @@
 
 For people and AI agents who want to use the library, not change it.
 
-## 1. Three ways in
+## 1. Ways in
 
 | Way | Best for | Needs |
 | --- | --- | --- |
@@ -10,6 +10,7 @@ For people and AI agents who want to use the library, not change it.
 | MCP server | AI assistants that support MCP (Claude Desktop, Claude Code, Cursor, VS Code, others) | Python 3.10+ |
 | Python module | Scripts and pipelines | Python 3.10+ |
 | Hosted MCP server by URL | Cloud agents such as Microsoft Copilot Studio | A deployed server and API key, see [HOSTING.md](HOSTING.md) |
+| Web interface | Browsing in a browser | The API key, at https://techlib.hilir.app (see below) |
 
 ### Read the files
 
@@ -48,6 +49,9 @@ Tools:
 | `list_gaps(sector, field, reason_code, include_no_card)` | What the cards still lack (costs, TRL, performance, plants, status), why, where to get it and the next action; tell users when the library cannot answer yet |
 | `get_technology(technology_id)` | One technology card: principle, process steps and equipment, a Mermaid block flow diagram, costs with basis, suppliers, reference plants, sources |
 | `library_stats()` | Check what is indexed and whether semantic search is on |
+| `db_catalog()` | The Postgres layer's tables, views and functions — read this before writing `sql_query` statements |
+| `sql_query(sql, max_rows=100)` | Run one read-only `SELECT`/`WITH` against schema `og` (needs `DATABASE_URL`; on the hosted server it is already set) |
+| `graph_neighbors(node, depth, rels)` | Walk the knowledge graph from a node such as `technology:ccs-cryogenic` or `source:netl` |
 
 Example questions for an assistant with the server connected:
 
@@ -55,6 +59,8 @@ Example questions for an assistant with the server connected:
 - "Find recent papers on PEM electrolyzer degradation and summarise them with citations."
 - "List open-licence sources for carbon capture."
 - "What CCS options exist for a cement plant, on the market and in the lab, with block diagrams, equipment and costs?" The assistant should call `compare_technologies(sector="CCS", application="cement")`, then `get_technology` for each, and render the Mermaid diagrams.
+
+- "Which technology cards cite the same sources as amine capture?" The assistant can call `sql_query` with `SELECT * FROM v_technology_co_citation WHERE a = 'ccs-amine-post-combustion' OR b = 'ccs-amine-post-combustion'` (after `db_catalog`).
 
 Technology cards are also readable without the server: `catalog/index/technologies-CCS.md` (comparison table and diagrams) and `catalog/technologies.jsonl`. Costs are only comparable when their basis matches: check the dollar year, plant type, capture rate and scope given with each figure.
 
