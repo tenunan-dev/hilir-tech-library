@@ -43,6 +43,9 @@ COLOR_FALLBACK = "#5a6b7b"
 MATURITY_COLORS = {"commercial": "#2e7d32", "demonstration": "#1565c0", "pilot": "#ef6c00", "lab": "#616161"}
 NAV = (("Technologies", "/technologies"), ("Vendors", "/vendors"), ("Register", "/register"), ("Sources", "/sources"),
        ("Gaps", "/gaps"), ("Database", "/database"))
+# Second-level tabs shown on every /database page (keep in step with the routes below).
+DATABASE_TABS = (("Overview", "/database"), ("SQL console", "/database/sql"), ("Semantic search", "/database/search"),
+                 ("Network", "/database/graph"), ("Atlas", "/database/map"))
 HOME_SECTORS = (("UPS", "upstream"), ("MID", "midstream"), ("GAS", "gas processing & LNG"), ("REF", "refining"),
                 ("PCH", "petrochemicals"), ("PWR", "power"), ("H2", "hydrogen"), ("CCS", "carbon capture"))
 RELS = ["published_by", "in_sector", "covers_discipline", "in_region", "in_country", "from_source", "cites",
@@ -143,6 +146,12 @@ summary { cursor: pointer; color: #1a4f8b; font-size: .85rem; }
 footer { max-width: 74rem; margin: 0 auto; padding: .75rem 1rem 2rem; color: #5a6b7b;
          font-size: .85rem; text-align: center; }
 footer a { color: #1a4f8b; }
+/* second-level tabs on the database pages */
+.subnav { max-width: 74rem; margin: 0 auto; padding: .45rem 1rem 0; display: flex; flex-wrap: wrap; gap: .25rem; }
+.subnav a { color: #40506a; text-decoration: none; font-size: .88rem; padding: .32rem .75rem;
+            border-radius: 6px 6px 0 0; border: 1px solid transparent; border-bottom: none; }
+.subnav a:hover { color: #1c2733; }
+.subnav a.active { background: #fff; border-color: #d9dee3; color: #1c2733; font-weight: 600; }
 /* canvas graph views (network explorer, atlas) */
 .canvasbox { position: relative; background: #0b1622; border: 1px solid #22344a; border-radius: 8px; overflow: hidden; }
 .canvasbox canvas { display: block; width: 100%; height: 100%; cursor: grab; }
@@ -729,12 +738,17 @@ def _db_panel() -> str:
             f'<p class="muted">{links}</p></section>')
 
 
-def _page(title, body, *, q="", active="") -> HTMLResponse:
+def _page(title, body, *, q="", active="", subnav=None, subactive="") -> HTMLResponse:
     links = []
     for label, href in NAV:
         mark = ' class="active"' if href == active else ""
         links.append(f'<a href="{href}"{mark}>{label}</a>')
     nav = "".join(links)
+    tabs = ""
+    if subnav:
+        tabs = '<nav class="subnav">' + "".join(
+            f'<a href="{href}"{" class=\"active\"" if href == subactive else ""}>{esc(label)}</a>'
+            for label, href in subnav) + "</nav>"
     return HTMLResponse(f"""<!doctype html>
 <html lang="en">
 <head>
@@ -750,6 +764,7 @@ def _page(title, body, *, q="", active="") -> HTMLResponse:
 <form action="/search" method="get"><input type="search" name="q" value="{esc(q)}" placeholder="Search the library" aria-label="Search"><button type="submit">Search</button></form>
 <form action="/logout" method="post"><button type="submit" class="ghost">Sign out</button></form>
 </div></header>
+{tabs}
 <main class="container">
 {body}
 </main>
@@ -1057,17 +1072,27 @@ def routes(tools, key: str) -> list:
 
     async def database(request: Request):
         if not pg.configured():
-            return _page("Database", _db_panel(), active="/database")
+            return _page("Database", _db_panel(), active="/database", subnav=DATABASE_TABS, subactive="/database")
         body = []
         try:
             counts = pg.counts()
         except pg.NotConfigured:
-            return _page("Database", _db_panel(), active="/database")
+            return _page("Database", _db_panel(), active="/database", subnav=DATABASE_TABS, subactive="/database")
         except pg.DatabaseError as e:
             body.append(_error_box(str(e)))
         else:
             stats = "".join(f'<div class="stat"><b>{esc(v)}</b>{esc(k)}</div>' for k, v in counts.items())
             body.append(f'<section class="card"><div class="stats">{stats}</div></section>')
+        views = "".join(
+            f'<a href="{href}"><span class="dot" style="background:{color}"></span><span><b>{esc(label)}</b>'
+            f'<br><span class="muted small">{esc(desc)}</span></span></a>'
+            for label, href, color, desc in (
+                ("Tables and schema", "/database", "#5a6b7b", "row counts, columns, example queries (this page)"),
+                ("SQL console", "/database/sql", "#4a7fb5", "run one read-only SELECT against schema og"),
+                ("Semantic search", "/database/search", "#5e8f5e", "hybrid keyword + vector ranking over passages, cards and vendors"),
+                ("Network", "/database/graph", "#c2803d", "walk the knowledge graph from any node, interactively"),
+                ("Atlas", "/database/map", "#8f6cc8", "the whole graph as a constellation of node kinds")))
+        body.append(f'<section class="card"><h2>Database views</h2><div class="grid">{views}</div></section>')
         doc = pg.tables_doc()
         tables = "".join(
             f'<li><b>{esc(t.get("name"))}</b> <span class="muted">{esc(t.get("holds", ""))}</span><br>'
@@ -1082,7 +1107,7 @@ def routes(tools, key: str) -> list:
                            for label, sql in SQL_EXAMPLES)
         body += [_section("Tables", f'<ul>{tables}</ul>'), _section("Views", f"<ul>{views}</ul>"),
                  _section("Functions", f"<ul>{functions}</ul>"), _section("Example queries", f"<ul>{examples}</ul>")]
-        return _page("Database", "".join(body), active="/database")
+        return _page("Database", "".join(body), active="/database", subnav=DATABASE_TABS, subactive="/database")
 
     async def database_sql(request: Request):
         if request.method == "POST":
@@ -1094,12 +1119,12 @@ def routes(tools, key: str) -> list:
             sql, max_rows = str(qp.get("sql") or ""), _int(qp.get("max_rows"), 100, 1, 500)
             if not sql.strip():
                 empty = _sql_console("", max_rows) if pg.configured() else _db_panel()
-                return _page("SQL console", empty, active="/database")
+                return _page("SQL console", empty, active="/database", subnav=DATABASE_TABS, subactive="/database/sql")
         result = error = None
         try:
             result = pg.run_sql(sql, max_rows)
         except pg.NotConfigured:
-            return _page("SQL console", _db_panel(), active="/database")
+            return _page("SQL console", _db_panel(), active="/database", subnav=DATABASE_TABS, subactive="/database/sql")
         except (pg.BadSql, pg.DatabaseError) as e:
             error = str(e)
         body = [_sql_console(sql, max_rows)]
@@ -1107,11 +1132,11 @@ def routes(tools, key: str) -> list:
             body.append(_error_box(error))
         elif result is not None:
             body.append(_sql_result(result))
-        return _page("SQL console", "".join(body), active="/database")
+        return _page("SQL console", "".join(body), active="/database", subnav=DATABASE_TABS, subactive="/database/sql")
 
     async def database_search(request: Request):
         if not pg.configured():
-            return _page("Semantic search", _db_panel(), active="/database")
+            return _page("Semantic search", _db_panel(), active="/database", subnav=DATABASE_TABS, subactive="/database/search")
         qp = request.query_params
         query, k = str(qp.get("q") or ""), _int(qp.get("k"), 10, 1, 50)
         body = ['<section class="card"><form class="filters" method="get" action="/database/search">'
@@ -1125,7 +1150,7 @@ def routes(tools, key: str) -> list:
             try:
                 results = pg.hybrid_search(query, k, qvec)
             except pg.NotConfigured:
-                return _page("Semantic search", _db_panel(), active="/database")
+                return _page("Semantic search", _db_panel(), active="/database", subnav=DATABASE_TABS, subactive="/database/search")
             except pg.DatabaseError as e:
                 results, rows = None, ""
                 body.append(_error_box(str(e)))
@@ -1137,11 +1162,11 @@ def routes(tools, key: str) -> list:
                 body.append(_section("", f"<p>{mode}</p>"
                                      + '<div class="scroll"><table><thead><tr><th>Kind</th><th>Ref</th><th>Title</th>'
                                      + f'<th>Score</th></tr></thead><tbody>{rows}</tbody></table></div>{empty}'))
-        return _page("Semantic search", "".join(body), active="/database")
+        return _page("Semantic search", "".join(body), active="/database", subnav=DATABASE_TABS, subactive="/database/search")
 
     async def database_graph(request: Request):
         if not pg.configured():
-            return _page("Graph", _db_panel(), active="/database")
+            return _page("Graph", _db_panel(), active="/database", subnav=DATABASE_TABS, subactive="/database/graph")
         qp = request.query_params
         node = str(qp.get("node") or GRAPH_NODE_DEFAULT)
         depth = _int(qp.get("depth"), 2, 1, 3)
@@ -1149,7 +1174,7 @@ def routes(tools, key: str) -> list:
         try:
             overview = pg.graph_overview()
         except pg.DatabaseError as e:
-            return _page("Graph", _error_box(str(e)), active="/database")
+            return _page("Graph", _error_box(str(e)), active="/database", subnav=DATABASE_TABS, subactive="/database/graph")
         rel_counts = {r["rel"]: r["n"] for r in overview["rels"]}
         kind_counts = {k["kind"]: k["n"] for k in overview["kinds"]}
         boxes = "".join(
@@ -1197,16 +1222,16 @@ def routes(tools, key: str) -> list:
         net = json.dumps({"node": node, "depth": depth, "rels": chosen, "kindColors": KIND_COLORS,
                           "relColors": REL_COLORS}).replace("</", "<\\/")
         body.append(f"<script>const NET = {net};\n{GRAPH_JS}</script>")
-        return _page("Graph", "".join(body), active="/database")
+        return _page("Graph", "".join(body), active="/database", subnav=DATABASE_TABS, subactive="/database/graph")
 
     async def database_map(request: Request):
         if not pg.configured():
-            return _page("Atlas", _db_panel(), active="/database")
+            return _page("Atlas", _db_panel(), active="/database", subnav=DATABASE_TABS, subactive="/database/map")
         try:
             overview = pg.graph_overview()
             counts = pg.counts()
         except pg.DatabaseError as e:
-            return _page("Atlas", _error_box(str(e)), active="/database")
+            return _page("Atlas", _error_box(str(e)), active="/database", subnav=DATABASE_TABS, subactive="/database/map")
         stat = "".join(f'<a href="/database"><b>{esc(v)}</b>{esc(k)}</a>' for k, v in counts.items())
         kind_rows = "".join(f'<tr><td>{esc(k["kind"])}</td><td>{k["n"]}</td></tr>' for k in overview["kinds"])
         rel_rows = "".join(f'<tr><td>{esc(r["rel"])}</td><td>{r["n"]}</td></tr>' for r in overview["rels"])
@@ -1224,7 +1249,7 @@ def routes(tools, key: str) -> list:
                 '<table><thead><tr><th>Relation</th><th>Edges</th></tr></thead><tbody>' + rel_rows +
                 '</tbody></table></div></details>',
                 f"<script>const ATLAS = {atlas};\n{ATLAS_JS}</script>"]
-        return _page("Atlas", "".join(body), active="/database")
+        return _page("Atlas", "".join(body), active="/database", subnav=DATABASE_TABS, subactive="/database/map")
 
     async def graph_overview_json(request: Request):
         if not pg.configured():

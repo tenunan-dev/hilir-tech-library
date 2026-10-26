@@ -75,6 +75,17 @@ def test_database_unconfigured_and_documents_needs_path(c, monkeypatch):
     assert c.get("/documents").status_code == 400
 
 
+def test_database_pages_carry_the_second_level_tabs(c, monkeypatch):
+    monkeypatch.delenv("DATABASE_URL", raising=False)
+    for path, tab in (("/database", "/database"), ("/database/sql", "/database/sql"),
+                      ("/database/search", "/database/search"), ("/database/graph", "/database/graph"),
+                      ("/database/map", "/database/map")):
+        page = c.get(path)
+        assert page.status_code == 200
+        assert 'class="subnav"' in page.text and "Atlas" in page.text and "Network" in page.text
+        assert f'<a href="{tab}" class="active">' in page.text, f"{tab} tab not active on {path}"
+
+
 def test_search_escapes_html(c):
     page = c.get("/search", params={"q": "<script>alert(1)</script>"})
     assert page.status_code == 200 and "<script>alert" not in page.text
