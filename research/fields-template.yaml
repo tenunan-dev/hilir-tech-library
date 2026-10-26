@@ -1,0 +1,110 @@
+# Field definitions template for catalog sweeps in og-tech-sources.
+#
+# Mirrors schema/source.schema.json so /catalog-deep output converts cleanly
+# via `python tools/research_to_catalog.py <results_dir>`.
+#
+# Copy into your sweep dir and adjust:
+#   cp research/fields-template.yaml research/<date>-<slug>/fields.yaml
+#
+# Shape required by validate_json.py: `fields: {<category>: [{name, ...}]}`.
+# No explicit `required:` markers => EVERY field is required: the sweep must
+# emit every key in each item JSON; use the value "[uncertain]" when unknown.
+#
+# Acquisition stance: agents capture what terms/pages SAY without filtering;
+# rights decisions happen in the project's verification workflow, never here.
+
+topic: "<sweep topic, e.g. CCS storage-mrv sources, Southeast Asia>"
+
+execution:
+  batch_size: 3          # parallel agents per batch (confirm with user)
+  items_per_agent: 3     # items per agent
+  output_dir: ./results  # relative to the sweep dir; raw snapshots land in ./results/raw/<item>/
+
+fields:
+  Identity:
+    - name: name
+      description: Source name as it presents itself
+      detail_level: brief
+    - name: url
+      description: Canonical root or technology-section URL; must start https://
+      detail_level: brief
+    - name: publisher_org
+      description: Publishing organisation
+      detail_level: brief
+    - name: country
+      description: ISO-3166 alpha-2 country of the publisher, or INT
+      detail_level: brief
+
+  Classification:
+    - name: source_type
+      description: >-
+        One of: standards-body, licensor, oem-supplier, epc-contractor,
+        journal, agency-data, association, conference, patents,
+        trade-media, research-institute
+      detail_level: brief
+    - name: sectors
+      description: >-
+        One or more of: UPS, MID, GAS, REF, PCH, PWR, H2, CCS (taxonomy.yaml)
+      detail_level: brief
+    - name: disciplines
+      description: >-
+        One or more of: PRC, ROT, INS, MAT, HSE, DIG (taxonomy.yaml)
+      detail_level: brief
+    - name: subtopics
+      description: Free-form subtopic slugs from taxonomy.yaml subtopic lists
+      detail_level: moderate
+    - name: regions
+      description: >-
+        One or more of: global, apac, sea, me, eu, na, latam, af.
+        For this project prefer apac/sea where applicable.
+      detail_level: brief
+
+  Access & Rights:
+    - name: access
+      description: >-
+        What fetching actually felt like: open, free-registration, paywalled,
+        or mixed. Record reality, not policy.
+      detail_level: brief
+    - name: licence
+      description: >-
+        What the terms page says (SPDX id if identifiable, else
+        proprietary/unknown). Recorded as-is; project verifies later.
+      detail_level: moderate
+    - name: update_frequency
+      description: One of daily, weekly, monthly, quarterly, annual, irregular
+      detail_level: brief
+    - name: content_formats
+      description: Any of html, pdf, dataset, api, video
+      detail_level: brief
+    - name: feeds
+      description: RSS/Atom feed URLs if any (https://); empty array if none
+      detail_level: moderate
+
+  Quality:
+    - name: quality_tier
+      description: >-
+        1 standards/peer review, 2 agency/licensor/association,
+        3 marketing/trade media. When unsure, give 3.
+      detail_level: brief
+
+  Evidence:
+    - name: summary
+      description: What the source covers, 1-3 sentences
+      detail_level: moderate
+    - name: snapshot_dir
+      description: >-
+        Path to the raw snapshots saved for this item
+        (results/raw/<item_slug>/); empty string if none
+      detail_level: brief
+    - name: sources
+      description: Array of {title, url} for every page actually consulted
+      detail_level: moderate
+    - name: corroboration
+      description: Integer count of INDEPENDENT sources that mention this item
+      detail_level: brief
+    - name: notes
+      description: Anything notable (terms observations, language, access quirks)
+      detail_level: moderate
+
+# Fields the deep phase treats specially (do not remove):
+uncertain: []

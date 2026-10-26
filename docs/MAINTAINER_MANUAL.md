@@ -15,11 +15,11 @@ Network note: collection needs direct access to publisher sites. Some cloud sand
 ## 1. Add a source
 
 1. Check it is not already there: `grep -il "<name>" catalog/sources/*.json`.
-2. Create `catalog/sources/<id>.json`. Use a short kebab-case id that matches the file name. Fill every required field (see [ARCHITECTURE.md](ARCHITECTURE.md#catalog-record-schemasourceschemajson)). Start with `"verification": "unverified"`, `"last_verified": null`, and a cautious `reuse_level` (`summary-only` unless the licence is plainly open).
+2. Create `catalog/sources/<id>.json`. Use a short kebab-case id that matches the file name. Fill every required field (see [ARCHITECTURE.md](ARCHITECTURE.md#catalog-record-schemasourceschemajson)). Start with `"verification": "unverified"`, `"last_verified": null`, and a `reuse_level` recorded from what the terms say — it is a label for the owner's manual review, not an acquisition gate (decision #29).
 3. Tag at least one sector and one discipline. Add `sea` or `apac` to `regions` where they apply.
 4. Run `python tools/build.py`, then commit the record and regenerated files together.
 
-Paid or login-only sources are `catalog-only`, with `access: paywalled` or `free-registration`.
+Paid or login-only sources are `catalog-only`, with `access: paywalled` or `free-registration` — recorded access reality; whether to buy credentials is the owner's call.
 
 ## 2. Verify a source's terms
 
@@ -37,6 +37,8 @@ Paid or login-only sources are `catalog-only`, with `access: paywalled` or `free
 | Paywalled or login required | catalog-only | |
 
    Set `automated_access` to `prohibited` if the terms or robots.txt ban crawlers, `allowed` if they explicitly permit it, else `unstated`.
+
+   These fields describe what the terms say. Under decision #29 they no longer gate agent acquisition (agents may fetch any publicly reachable page); they feed the owner's manual review, and only the collector pipeline acts on them.
 3. Append an entry to the log (one JSON object per line) and apply it:
 
 ```
@@ -145,10 +147,10 @@ Make the smallest fix that works, add or update an offline test with a fixture c
 
 | Problem | Cause and fix |
 | --- | --- |
-| `403` on every request | The host blocks the collector or the network proxy blocks the host. Do not work around a site's block; use the manual inbox or ask the publisher |
-| `robots.txt disallows` | Respect it. A new exception needs the owner's approval and a DECISIONS.md entry |
+| `403` on every request | The host blocks the collector or the network proxy blocks the host. Record the block and move on — standard tooling only, no workarounds. Content you can reach in your own browser comes in through the manual inbox |
+| `robots.txt disallows` | Recorded as a block (decision #29: robots preferences no longer gate agent acquisition). The collector code still honours robots.txt — use the manual inbox for content you want, or ask the owner to change the collector |
 | JSONDecodeError from an API | It returned XML or HTML; send an `Accept` header through `fetch(url, headers=...)` |
-| `403` with an "Access Denied" HTML page (Akamai, Cloudflare), even for robots.txt | CDN bot protection for our user agent. Same rule as any block: no workaround. Record it in STATUS.md |
+| `403` with an "Access Denied" HTML page (Akamai, Cloudflare), even for robots.txt | CDN bot protection for our user agent. Same rule as any block: record it, no workaround; use the manual inbox for specific items, and note it in STATUS.md |
 | XML `ParseError` on a feed | The feed URL returned HTML (an error or login page). Print the body and fix `feeds` in the record |
 | Nothing written, no error | Empty bodies are skipped: the text extractor found no article in the page. Inspect the HTML; the site may need its own adapter or the manual inbox |
 | Most collected documents off topic | The source query is too broad (see "Tuning the arXiv search"). Do not commit; narrow the query and rerun |

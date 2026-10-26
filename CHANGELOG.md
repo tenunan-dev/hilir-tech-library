@@ -7,6 +7,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.26.4] — 2026-10-26 — unrestricted acquisition policy; catalog-sweep integration
+
+### Changed
+- Owner decision #29: acquisition is unrestricted — agents may fetch and store any publicly reachable content regardless of licence, terms or robots preferences; `licence` and `reuse_level` are recorded labels, not gates. AGENTS.md rules 1, 2, 4 and 7 rewritten; README, MAINTAINER_MANUAL, collectors/README, ARCHITECTURE and STATUS aligned. The repository stays private; inclusion in reports, corpus and exports is decided manually by the owner. Supersedes the acquisition-gating parts of decisions 3, 5, 6, 7, 8 and the arXiv exception 9.
+
+### Added
+- `tools/research_to_catalog.py`: converts catalog-sweep result JSONs into draft source records — dedups against the catalog by URL/name, validates against `schema/source.schema.json`, writes `verification: unverified` / `reuse_level: catalog-only` drafts, quarantines invalid inputs to `<results>/_needs_review/`.
+- `research/fields-template.yaml`: 20-field sweep template mirroring the source schema (sweep snapshots and results live in the gitignored `research/`).
+
 ## [2026.10.26.3] — 2026-10-26 — modular power plant cards; vendors directory
 
 ### Added

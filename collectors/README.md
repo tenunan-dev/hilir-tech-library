@@ -13,6 +13,10 @@ A source is collected automatically only when its catalog record is `verified`, 
 `prohibited`, and an adapter exists (`adapters.py`). Requests check robots.txt, wait at least
 3 seconds per host and identify themselves with a user agent pointing at this repo.
 
+This gating is the owner's manual-inclusion mechanism (decision #29): agent acquisition is
+unrestricted, but the corpus pipeline still runs only on verified, full-text-level,
+non-prohibited records.
+
 | Adapter | Sources | Stores |
 | --- | --- | --- |
 | `rss` | any record with `feeds` (MDPI journals today) | Full article text |

@@ -9,3 +9,8 @@ build/
 .neon
 node_modules/
 .mimosa/
+
+# catalog-sweep scratch: raw snapshots and result JSONs stay out of git;
+# the fields template is versioned
+research/*
+!research/fields-template.yaml

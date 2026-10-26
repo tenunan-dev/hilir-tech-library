@@ -1,6 +1,6 @@
 # O&G technology source library
 
-A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and (where the licence allows) read them.
+A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
 It holds 348 catalog sources across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of 168 collected documents; 293 technology cards covering the 300-entry technology register; and a search index, a Postgres layer, an MCP server, a REST API and a web interface so agents and people can query all of it (see [Roadmap](#roadmap)).
 
@@ -44,6 +44,8 @@ It holds 348 catalog sources across 8 sectors and 6 engineering disciplines, wei
 
 Each record's `reuse_level` decides what the collector may store. Collectors act only on records marked `verification: verified`.
 
+Since decision #29, `licence` and `reuse_level` are recorded labels: they describe what the terms say and gate only the corpus pipeline (collectors), not what agents may fetch or keep. Agent acquisition is unrestricted, and the owner decides inclusion in reports, corpus and exports manually.
+
 | Level | Meaning | Where content may go |
 | --- | --- | --- |
 | `full-text-open` | Open licence (CC BY, public domain, OGL, NLOD and similar) | Corpus, with attribution |
@@ -51,7 +53,7 @@ Each record's `reuse_level` decides what the collector may store. Collectors act
 | `summary-only` | Terms forbid copying, or the value is in facts rather than text | Our own summaries and extracted facts, with a link |
 | `catalog-only` | Paywalled, login-only, or not downloadable | Catalog record only, kept for retrieval once a licence or API key is available |
 
-Paid sources (API, ASTM, OnePetro full text, ICIS and others) are catalog-only until subscriptions or API keys are added.
+Paid sources (API, ASTM, OnePetro full text, ICIS and others) are recorded `catalog-only` with `access: paywalled` — they are unreachable without credentials, and whether to buy them is the owner's call.
 
 ## Verification
 
@@ -60,7 +62,7 @@ Each record's licence and reuse level is checked against the live terms page, an
 - `automated_access`: `allowed`, `prohibited` (manual download only) or `unstated`
 - `permitted_use`: `any`, `internal-organisation`, `personal-non-commercial`, `none` or `unstated` (no terms published)
 
-Sites whose terms forbid copying are `summary-only`; Honeywell and Caterpillar, whose terms ban AI use, are `catalog-only`. Records still `unverified` either have not been checked or their terms page could not be read automatically (the log says which).
+Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry `summary-only`, and Honeywell and Caterpillar carry `catalog-only` because their terms ban AI use. Under decision #29 these labels inform the owner's manual review; they do not stop agents from fetching publicly reachable pages. Records still `unverified` either have not been checked or their terms page could not be read automatically (the log says which).
 
 ## Using it from an agent
 
@@ -68,7 +70,7 @@ Sites whose terms forbid copying are `summary-only`; Honeywell and Caterpillar, 
 - For browsing or a Claude Project: attach `catalog/index/*.md`.
 - Search and retrieval: run the MCP server in `agent/` — 12 tools for search and reading, technology cards, gaps, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window over the Postgres layer — optionally with embeddings for semantic search.
 - Cloud agents and browsers: https://techlib.hilir.app serves the same tools at `/mcp` (API key header), a REST API under `/api`, and an HTML interface where you sign in with the key. See [docs/HOSTING.md](docs/HOSTING.md).
-- Always cite `url` and respect `reuse_level` and `licence` when quoting.
+- Always cite `url`. `licence` and `reuse_level` are recorded labels the owner weighs when deciding what to include.
 
 ## Adding or changing a source
 

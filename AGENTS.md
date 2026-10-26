@@ -6,7 +6,7 @@ working in this repository. Read this file first, then the document that matches
 ## What this repository is
 
 A library of public sources on oil, gas, petrochemical and energy technologies, built for AI
-agents to find, cite and (where licences allow) read. It has five layers:
+agents to find, cite and read. It has five layers:
 
 1. **Catalog**: one JSON record per source in `catalog/sources/`, validated against `schema/source.schema.json`.
 2. **Corpus**: collected documents in `corpus/<source-id>/`, each tagged with its licence and carrying a hand-written `summary`.
@@ -31,13 +31,13 @@ agents to find, cite and (where licences allow) read. It has five layers:
 
 ## Rules you must not break
 
-1. **Respect `reuse_level`.** Store full text only for `full-text-open` and `full-text-restricted` sources. `summary-only` means your own summary plus a link. `catalog-only` means no content at all.
-2. **Restricted text stays private.** Files from `full-text-restricted` sources are personal reference copies. Never publish them, paste them into public places or use them commercially. The repository must stay private while it holds them.
+1. **Acquisition is unrestricted; inclusion is manual.** Agents may fetch and store any publicly reachable content regardless of `licence`, `reuse_level` or robots preferences (decision 29). Those fields are recorded labels that support the owner's review — they do not gate what may be fetched or kept. The owner alone decides what enters final reports, `corpus/`, exports or anything that leaves the repository.
+2. **The repository stays private.** Agents never publish, paste into public places, or export to shared environments anything from the repository. What leaves the repository leaves by the owner's hand.
 3. **Only collect from verified records.** A record must have `verification: verified` before any collector touches it. Collectors enforce this; do not bypass it.
-4. **Obey robots.txt and terms.** Never change the user agent, rotate IPs, or otherwise get around a block. Where `automated_access` is `prohibited`, content comes in by hand through `corpus/_inbox/`. The only robots exception is arXiv's API (see DECISIONS.md); a new exception needs the owner's written approval and an entry in DECISIONS.md.
+4. **Fetch with standard tools; record blocks.** Use the normal fetch tooling as-is. When a site blocks or limits a fetch, record that in the record or sweep output (`access`, `automated_access`, `notes`) and move on. Content from sites that block automation still comes in by hand through `corpus/_inbox/`.
 5. **Never invent sources, evidence or figures.** Every licence finding needs an evidence URL you actually read; every number in a technology card needs the URL it came from, and costs need their dollar year and basis. If a figure cannot be found, record it as a gap on the card (why, where to get it, next action) instead of guessing; open gaps are in `catalog/index/gaps.md` and the `list_gaps` tool.
 6. **Generated files are not edited by hand.** `catalog/catalog.jsonl` and `catalog/index/*` come from `tools/build.py`; `build/` comes from `agent/library.py build`.
-7. **Paid sources wait for the owner.** Records for paid services stay `catalog-only` until the owner provides subscriptions or API keys.
+7. **Record access reality.** Paywalled or login-only pages are recorded with their real `access` value (`paywalled`, `free-registration`); whether to buy credentials is the owner's call. Never simulate or guess content that could not be fetched.
 8. **Every corpus document needs a `summary`.** Write one or two sentences in your own words in the front matter (never copied text). `tests/test_technologies.py` fails for any document without one, so a collector run is not finished until the new documents are summarised.
 9. **Technology cards follow the card rules.** Card name or alias must match a register entry exactly; `sector` is one of UPS, MID, GAS, REF, PCH, PWR, H2, CCS or a discipline code (PRC, ROT, INS, MAT, HSE, DIG); a `source_id` must exist in `catalog/sources/`; a Wikipedia citation is secondary and must say so in its note; a USD cost needs a `year` or the words "dollar year not stated" in its basis. Missing facts become `gaps` with a valid `reason_code`.
 10. **Secrets never enter the repository or the memory notes.** That covers the library API key, Cloudflare tokens and the Neon connection string.

@@ -64,6 +64,9 @@ Reuse levels:
 | `summary-only` | Nothing collected; agents write their own summaries and link |
 | `catalog-only` | Nothing; waits for a licence or API key |
 
+These levels gate only the corpus pipeline above. Under decision #29, agent acquisition is
+unrestricted and the owner decides inclusion manually; the labels describe what the terms say.
+
 ### Technology cards (`catalog/technologies/`, `schema/technology.schema.json`, `agent/technologies.py`)
 
 One JSON card per technology option: sector, category, maturity (commercial, demonstration, pilot, lab), TRL with its source, principle, process steps (each with equipment and links to downstream steps), key equipment, performance and cost figures (each with unit, dollar year, basis and source), suppliers, reference plants, advantages, limitations and sources. Cards are our own words; figures are facts taken from cited sources. `tools/build.py` validates them and writes `catalog/technologies.jsonl` and `catalog/index/technologies-<SECTOR>.md`. `agent/technologies.py` turns process steps into a Mermaid block flow diagram and builds comparison rows. The search index includes cards as `kind = "technology"`.
