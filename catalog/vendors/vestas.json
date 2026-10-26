@@ -1,0 +1,27 @@
+{
+  "id": "vestas",
+  "name": "Vestas",
+  "country": "Denmark",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Aarhus-based wind turbine OEM that designs, manufactures, installs and services wind projects globally, with the EnVentus onshore platform and the V236-15.0 MW offshore turbine, and a growing development business.",
+  "technologies": [
+    "pwr-onshore-wind",
+    "pwr-offshore-wind-fixed"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vestas.com/en/about",
+      "note": "Vestas about page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "EnVentus onshore platform",
+    "V236-15.0 MW offshore turbine",
+    "service and digital services"
+  ],
+  "url": "https://www.vestas.com"
+}

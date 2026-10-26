@@ -1,0 +1,30 @@
+{
+  "id": "sungrow",
+  "name": "Sungrow",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Clean energy technology company covering PV inverters, wind converters, utility-scale and residential energy storage and hydrogen, with top bankability rankings for inverters and ESS; also a leading floating-solar system supplier.",
+  "technologies": [
+    "pwr-lithium-ion-bess",
+    "pwr-floating-solar",
+    "pwr-grid-forming-inverters"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sungrowpower.com/",
+      "note": "Sungrow homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Sungrow Power Supply"
+  ],
+  "products": [
+    "PV inverters",
+    "utility-scale ESS",
+    "floating solar systems"
+  ],
+  "url": "https://www.sungrowpower.com/"
+}

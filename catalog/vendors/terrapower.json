@@ -1,0 +1,23 @@
+{
+  "id": "terrapower",
+  "name": "TerraPower",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "Bellevue, Washington company founded by Bill Gates in 2008; its Natrium sodium-cooled fast reactor with molten-salt storage (345 MWe boosting to 500 MW) is under construction in Wyoming under the US Advanced Reactor Demonstration Program with GE Vernova Hitachi.",
+  "technologies": [
+    "pwr-advanced-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://terrapower.com",
+      "note": "TerraPower homepage and about pages, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Natrium reactor (345-500 MWe)"
+  ],
+  "url": "https://terrapower.com"
+}

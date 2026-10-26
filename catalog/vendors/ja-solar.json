@@ -1,0 +1,28 @@
+{
+  "id": "ja-solar",
+  "name": "JA Solar",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Vertically integrated PV manufacturer founded in 2005 and Shenzhen-listed, spanning wafers, cells, modules and PV power-station solutions.",
+  "technologies": [
+    "pwr-crystalline-silicon-pv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jasolar.com",
+      "note": "JA Solar homepage (read via web reader after fetch block), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "JA Solar Technology"
+  ],
+  "products": [
+    "high-efficiency PV modules",
+    "solar cells",
+    "Deep Blue series modules"
+  ],
+  "url": "https://www.jasolar.com"
+}

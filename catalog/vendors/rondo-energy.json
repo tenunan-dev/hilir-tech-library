@@ -1,0 +1,23 @@
+{
+  "id": "rondo-energy",
+  "name": "Rondo Energy",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "California-based maker of the Rondo Heat Battery, refractory brick charged with renewable electricity to 1,100-1,500 degrees C, delivering continuous industrial heat and steam with over 98% efficiency; a 360 MWh project with Rio Tinto and a planned 90 GWh factory with SCG anchor its pipeline.",
+  "technologies": [
+    "pwr-thermal-energy-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.rondo.com/",
+      "note": "Rondo Energy homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Rondo Heat Battery"
+  ],
+  "url": "https://www.rondo.com/"
+}

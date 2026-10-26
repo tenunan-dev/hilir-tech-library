@@ -1,0 +1,26 @@
+{
+  "id": "turboden",
+  "name": "Turboden",
+  "country": "Italy",
+  "roles": [
+    "oem"
+  ],
+  "description": "Brescia-based ORC pioneer of the Mitsubishi Heavy Industries group and the largest pure-play ORC supplier, with 470+ plants in more than 50 countries and over 1 GWe installed for geothermal, biomass and industrial waste heat.",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://www.turboden.com/",
+      "source_id": "mitsubishi-heavy",
+      "note": "Turboden homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "ORC units for geothermal and waste heat",
+    "high-temperature heat pumps"
+  ],
+  "url": "https://www.turboden.com",
+  "notes": "Application pages returned HTTP 503 on 26 October 2026; homepage figures only."
+}

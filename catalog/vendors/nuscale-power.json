@@ -1,0 +1,27 @@
+{
+  "id": "nuscale-power",
+  "name": "NuScale Power",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Corvallis, Oregon company behind the first SMR to receive US NRC design approval: the 77 MWe NuScale Power Module, deployed in multi-module VOYGR plants of up to 924 MWe, commercialised with exclusive partner ENTRA1.",
+  "technologies": [
+    "pwr-small-modular-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nuscalepower.com",
+      "note": "NuScale Power homepage and product pages, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "NuScale"
+  ],
+  "products": [
+    "NuScale Power Module (77 MWe)",
+    "VOYGR-4/6/12 plants"
+  ],
+  "url": "https://www.nuscalepower.com"
+}

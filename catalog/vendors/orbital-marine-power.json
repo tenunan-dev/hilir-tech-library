@@ -1,0 +1,28 @@
+{
+  "id": "orbital-marine-power",
+  "name": "Orbital Marine Power",
+  "country": "United Kingdom",
+  "roles": [
+    "oem",
+    "developer"
+  ],
+  "description": "Orkney-headquartered clean energy company focused on predictable tidal power; its current product is the O2-X floating tidal turbine.",
+  "technologies": [
+    "pwr-tidal-wave"
+  ],
+  "sources": [
+    {
+      "url": "https://www.orbitalmarine.com/about",
+      "note": "Orbital Marine Power about page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Orbital Marine",
+    "SIMEC Atlantis (renamed SAE Renewables)"
+  ],
+  "products": [
+    "O2-X tidal turbine"
+  ],
+  "url": "https://www.orbitalmarine.com"
+}

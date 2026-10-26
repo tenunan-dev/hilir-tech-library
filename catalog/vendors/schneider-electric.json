@@ -1,0 +1,32 @@
+{
+  "id": "schneider-electric",
+  "name": "Schneider Electric",
+  "country": "France",
+  "roles": [
+    "oem",
+    "integrator"
+  ],
+  "description": "Global energy management and automation company whose EcoStruxure platform and microgrid software serve smart grids, microgrids and virtual power plants.",
+  "technologies": [
+    "pwr-smart-grids-vpp",
+    "pwr-grid-forming-inverters"
+  ],
+  "sources": [
+    {
+      "url": "https://www.se.com",
+      "source_id": "schneider-aveva",
+      "note": "Schneider Electric site (catalogued as schneider-aveva)"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Schneider Electric EcoStruxure",
+    "AutoGrid"
+  ],
+  "products": [
+    "EcoStruxure",
+    "microgrid control and VPP software"
+  ],
+  "url": "https://www.se.com",
+  "notes": "AutoGrid, the VPP software company named in the register, was acquired by Schneider Electric (2022), so its entry is folded into this record as an alias."
+}

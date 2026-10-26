@@ -1,0 +1,296 @@
+{
+  "id": "pwr-powerships-power-barges",
+  "name": "Powerships and power barges",
+  "aliases": [
+    "powerships",
+    "power barges",
+    "floating power plants",
+    "barge-mounted power plants"
+  ],
+  "sector": "PWR",
+  "category": "Modular power plants",
+  "applications": [
+    "fast capacity addition for national grids",
+    "emergency and interim power",
+    "island utilities",
+    "LNG-to-power chains with floating regasification"
+  ],
+  "maturity": "commercial",
+  "principle": "A complete engine or gas-turbine power plant is installed on a ship hull or barge, moored at a port or prepared basin and connected to the onshore grid through a switchyard, so a country adds 30 to 470 MW of capacity in weeks without land acquisition or construction. Karpowership operates the largest fleet (45 powerships, 8,500 MW installed across 20+ countries); vendors such as Power Barge Corporation and Wärtsilä deliver barge-mounted plants from 30 MW gas-turbine barges to 180 MW medium-speed-engine barges, and an estimated 75 or more power barges operate worldwide.",
+  "process_steps": [
+    {
+      "id": "PREP",
+      "name": "Berth and basin preparation",
+      "equipment": [
+        "mooring dolphins or quay wall",
+        "dredged berth"
+      ],
+      "to": [
+        "MOOR"
+      ]
+    },
+    {
+      "id": "MOOR",
+      "name": "Arrival and mooring of the vessel",
+      "equipment": [
+        "powership hull or barge",
+        "mooring lines"
+      ],
+      "to": [
+        "CONNECT"
+      ]
+    },
+    {
+      "id": "CONNECT",
+      "name": "Fuel and grid connection",
+      "equipment": [
+        "fuel receiving (HFO, distillate or LNG)",
+        "export cable to onshore substation",
+        "step-up transformers"
+      ],
+      "to": [
+        "GENERATE"
+      ]
+    },
+    {
+      "id": "GENERATE",
+      "name": "Generation and dispatch to the grid",
+      "equipment": [
+        "reciprocating engines or gas turbines",
+        "onboard generators and switchgear",
+        "plant control room"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "self-propelled or towed power barge hull",
+    "reciprocating engines or gas turbines",
+    "onboard switchgear and export cable",
+    "fuel storage and transfer system",
+    "mooring system"
+  ],
+  "suppliers": [
+    {
+      "name": "Karpowership (Karadeniz Energy Group)",
+      "product": "Powerships, Seal 34-40 MW to Khan 415-470 MW classes, plus LNG-to-power vessels"
+    },
+    {
+      "name": "Power Barge Corporation",
+      "product": "gas-turbine barges 30-300 MW, medium-speed-engine barges 80-200 MW, storage barges"
+    },
+    {
+      "name": "Wärtsilä",
+      "product": "floating power plants on Wärtsilä engine sets",
+      "source_id": "wartsila"
+    },
+    {
+      "name": "Waller Marine",
+      "product": "barge-mounted gas-turbine plants (2 x 171 MW at Tacoa, Venezuela); no live website found"
+    },
+    {
+      "name": "BWSC",
+      "product": "co-developer of an 80-180 MW medium-speed-engine power barge design with ABS approval in principle"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Karpowership fleet size and capacity",
+      "unit": "MW installed",
+      "basis": "45 powerships, 8,500 MW installed, 20+ countries, 12 LNG vessels; expansion target 21,000 MW",
+      "source": {
+        "url": "https://karpowership.com",
+        "note": "Karpowership homepage, read 26 October 2026"
+      },
+      "low": 8500,
+      "high": 8500
+    },
+    {
+      "metric": "Powership class capacity range",
+      "unit": "MW",
+      "basis": "Seal class 34-40 MW up to Khan class 415-470 MW; intermediate Orca 200-260, Shark 110-240, Mermaid 70-80",
+      "source": {
+        "url": "https://karpowership.com/powership-classes-and-fleet/",
+        "note": "Karpowership classes and fleet page, read 26 October 2026"
+      },
+      "low": 34,
+      "high": 470
+    },
+    {
+      "metric": "Powership deployment time",
+      "unit": "days",
+      "basis": "vendor claim: commissioned in under 30 days; grid connection in weeks, not years",
+      "source": {
+        "url": "https://karpowership.com/the-powership-solution/",
+        "note": "Karpowership solution page, read 26 October 2026"
+      },
+      "low": 30,
+      "high": 30
+    },
+    {
+      "metric": "Waller Marine Tacoa barges",
+      "unit": "MW",
+      "basis": "two barges of 171 MW each, one GE 7FA dual-fuel turbine per barge, in a prepared basin at Tacoa, Venezuela",
+      "source": {
+        "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
+        "note": "MarineLink news report, read 26 October 2026"
+      },
+      "low": 171,
+      "high": 171
+    },
+    {
+      "metric": "Power Barge Corporation product range",
+      "unit": "MW",
+      "basis": "gas-turbine barges 30-300 MW (simple and combined cycle); medium-speed-engine barges 80-200 MW on gas, diesel, biodiesel or low-sulphur HFO",
+      "source": {
+        "url": "https://powerbargecorp.com",
+        "note": "Power Barge Corporation homepage, read 26 October 2026"
+      },
+      "low": 30,
+      "high": 300
+    },
+    {
+      "metric": "Wärtsilä power barge for Jamaica",
+      "unit": "MW",
+      "basis": "repeat order for a 50 MW barge with three Wärtsilä 18V46 generating sets",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
+        "source_id": "wartsila",
+        "note": "Wärtsilä floating power plants page, read 26 October 2026"
+      },
+      "low": 50,
+      "high": 50
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Estrella del Mar II",
+      "country": "Dominican Republic",
+      "status": "Wärtsilä floating power plant reference",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
+        "source_id": "wartsila",
+        "note": "Wärtsilä floating power plants page, read 26 October 2026"
+      }
+    },
+    {
+      "name": "DR Bird I and II",
+      "country": "Jamaica",
+      "capacity": "50 MW (new unit)",
+      "status": "Wärtsilä power barges; repeat order for a third 50 MW barge with three 18V46 sets",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
+        "source_id": "wartsila",
+        "note": "Wärtsilä floating power plants page, read 26 October 2026"
+      }
+    },
+    {
+      "name": "Tacoa floating power barges, supplying Caracas",
+      "country": "Venezuela",
+      "capacity": "2 x 171 MW",
+      "status": "installed by Waller Marine in a prepared basin",
+      "source": {
+        "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
+        "note": "MarineLink news report, read 26 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Capacity in weeks: no land acquisition, civil works or long construction",
+    "Relocatable when the contract ends, and financeable as moveable assets",
+    "Pairs with floating storage and regasification for LNG-to-power in gas-poor countries"
+  ],
+  "limitations": [
+    "Needs a suitable port or sheltered basin close to the load centre",
+    "Marine crewing, corrosion and mooring add operating cost over land-based plants",
+    "Fuel logistics (HFO, distillate or LNG) dominate operating cost; countries can become dependent on one operator"
+  ],
+  "sources": [
+    {
+      "url": "https://karpowership.com",
+      "note": "Karpowership homepage, read 26 October 2026"
+    },
+    {
+      "url": "https://karpowership.com/the-powership-solution/",
+      "note": "Karpowership solution page, read 26 October 2026"
+    },
+    {
+      "url": "https://karpowership.com/powership-classes-and-fleet/",
+      "note": "Karpowership classes and fleet page, read 26 October 2026"
+    },
+    {
+      "url": "https://karpowership.com/lng-to-power/",
+      "note": "Karpowership LNG-to-power page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
+      "note": "MarineLink news report on Waller Marine's Tacoa barges, read 26 October 2026"
+    },
+    {
+      "url": "https://powerbargecorp.com",
+      "note": "Power Barge Corporation homepage, read 26 October 2026"
+    },
+    {
+      "url": "https://gcaptain.com/power-barge-corporation-announces-new-medium-speed-engine-power-barge-design",
+      "note": "gCaptain report on the BWSC-Vard-Power Barge design with ABS approval in principle, read 26 October 2026"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
+      "source_id": "wartsila",
+      "note": "Wärtsilä floating power plants page, read 26 October 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Powership",
+      "source_id": "wikipedia",
+      "note": "Wikipedia, Powership (secondary source; used only for industry-scale context of 75+ barges and the 1931 SS Jacona precedent)"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "charter rate or levelised cost per MWh for a powership, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "Operator and packager pages read do not publish prices.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Regulator filings, for example South Africa NERSA hearings on Karpowership tariffs",
+          "access": "open"
+        }
+      ],
+      "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "operating powership or barge in Southeast Asia with capacity",
+      "reason_code": "not_in_sources_read",
+      "reason": "Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name.",
+      "where": [
+        {
+          "hint": "Karpowership reference lists and Indonesian PLN procurement announcements",
+          "access": "open"
+        }
+      ],
+      "action": "Add a Southeast Asian reference with vessel name, capacity and years."
+    },
+    {
+      "field": "process",
+      "item": "connection sequence is generalised from vendor claims",
+      "reason_code": "general_knowledge_only",
+      "reason": "Vendor pages state 'weeks, not years' but do not document the step-by-step connection process.",
+      "where": [
+        {
+          "hint": "Port authority or regulator case documents for a specific powership project",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a named project document."
+    }
+  ],
+  "notes": "Waller Marine's own website returned HTTP 403 on 26 October 2026, so its record rests on the MarineLink and Power Engineering reports cited above. The joint 80-180 MW engine-barge design is by Power Barge Corporation with BWSC and Vard, with ABS approval in principle (gCaptain, read 26 October 2026). Wikipedia is cited only as a secondary source for industry scale."
+}

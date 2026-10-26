@@ -1,0 +1,33 @@
+{
+  "id": "bwsc",
+  "name": "BWSC",
+  "country": "Denmark",
+  "roles": [
+    "packager",
+    "epc"
+  ],
+  "description": "Danish power-plant EPC contractor (Burmeister & Wain Scandinavian Contractor) for liquid-fuel, biomass and waste-fired plants; co-developer of the ABS-approved 80-180 MW medium-speed-engine power barge design with Power Barge Corporation and Vard.",
+  "technologies": [
+    "pwr-powerships-power-barges",
+    "pwr-biomass-waste-to-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bwsc.com",
+      "note": "BWSC homepage, read 26 October 2026"
+    },
+    {
+      "url": "https://gcaptain.com/power-barge-corporation-announces-new-medium-speed-engine-power-barge-design",
+      "note": "gCaptain report on the joint barge design, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Burmeister & Wain Scandinavian Contractor"
+  ],
+  "products": [
+    "power plant EPC",
+    "80-180 MW power barge design"
+  ],
+  "url": "https://www.bwsc.com"
+}

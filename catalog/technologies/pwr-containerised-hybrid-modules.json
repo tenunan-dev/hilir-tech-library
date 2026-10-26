@@ -1,0 +1,273 @@
+{
+  "id": "pwr-containerised-hybrid-modules",
+  "name": "Containerised hybrid power modules (solar, storage, gensets)",
+  "aliases": [
+    "hybrid power containers",
+    "solar-storage-diesel modules",
+    "mobile microgrids"
+  ],
+  "sector": "PWR",
+  "category": "Modular power plants",
+  "applications": [
+    "off-grid mines",
+    "islands and remote communities",
+    "construction sites",
+    "diesel displacement under rental or BOOM contracts"
+  ],
+  "maturity": "commercial",
+  "principle": "Factory-integrated containers or skids combine solar PV, battery storage and diesel/gas gensets under one hybrid controller, so a remote site replaces part of its diesel generation within days to weeks of arrival. Aggreko delivers such plants as rental or build-own-operate contracts (relocatable solar farms plus its containerised Y.Cube batteries), BoxPower ships pre-engineered container microgrids from 5 kW to 20 MW, and fold-out PV containers such as SolarContainer's 140 kWp unit install in hours.",
+  "process_steps": [
+    {
+      "id": "SOLAR",
+      "name": "Solar generation, fixed array or fold-out container",
+      "equipment": [
+        "PV modules",
+        "mounting frames or container-hinged array"
+      ],
+      "to": [
+        "BATT"
+      ]
+    },
+    {
+      "id": "BATT",
+      "name": "Battery storage in container",
+      "equipment": [
+        "lithium-ion battery module",
+        "bidirectional inverter",
+        "fire protection and HVAC"
+      ],
+      "to": [
+        "GEN"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Genset backup generation",
+      "equipment": [
+        "diesel or gas gensets"
+      ],
+      "to": [
+        "CTRL"
+      ]
+    },
+    {
+      "id": "CTRL",
+      "name": "Hybrid control and dispatch",
+      "equipment": [
+        "hybrid controller with forecasting algorithms",
+        "remote monitoring"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "PV array or fold-out solar container",
+    "containerised battery energy storage",
+    "diesel or gas gensets",
+    "hybrid controller",
+    "microgrid switchgear"
+  ],
+  "suppliers": [
+    {
+      "name": "Aggreko",
+      "product": "hybrid power plants (relocatable solar + Y.Cube BESS + gensets) on rental or BOOM contracts"
+    },
+    {
+      "name": "BoxPower",
+      "product": "MegaBox, AutoBox and MiniBox containerised microgrids, 5 kW to 20 MW+"
+    },
+    {
+      "name": "Bredenoord",
+      "product": "Mobile Solar Plant (23 kWp fold-out) with Smart Power Bank battery and backup genset"
+    },
+    {
+      "name": "SolarContainer",
+      "product": "fold-out PV container, up to 140 kWp"
+    },
+    {
+      "name": "PR Power",
+      "product": "TRIME solar hybrid generators (15-24 kVA class), Australian rental and distribution"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Aggreko containerised battery ratings",
+      "unit": "kW / kWh",
+      "basis": "250 kW / 575 kWh and 500 kW / 250 kWh plug-and-play units, expandable down to 30/60 kVA small nodes; Y.Cube fits a standard 20 ft container",
+      "source": {
+        "url": "https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems",
+        "note": "Aggreko news release on mid-sized energy storage, read 26 October 2026"
+      },
+      "low": 250,
+      "high": 500
+    },
+    {
+      "metric": "Bisha mine, Eritrea: fuel savings",
+      "unit": "%",
+      "basis": "22 MW generation plus 7.5 MWp solar on 9 ha; about 10,000 litres of diesel saved per day; roughly 10,000 tonnes of CO2 avoided annually",
+      "source": {
+        "url": "https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project",
+        "note": "Aggreko case study, Bisha mine, read 26 October 2026"
+      },
+      "low": 12,
+      "high": 12
+    },
+    {
+      "metric": "Aggreko hybrid plants savings claim",
+      "unit": "%",
+      "basis": "savings from the first kWh on hybrid solar-storage-genset plants; contract durations 3-10+ years with no upfront capital",
+      "source": {
+        "url": "https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants",
+        "note": "Aggreko hybrid power plants page, read 26 October 2026"
+      },
+      "low": 5,
+      "high": 20
+    },
+    {
+      "metric": "BoxPower product range",
+      "unit": "kW",
+      "basis": "5 kW to 20 MW+ solar PV and 15 kWh to 6 MWh storage; MiniBox installs in a few hours with no foundation",
+      "source": {
+        "url": "https://boxpower.io/products/solar-container/",
+        "note": "BoxPower solar container product page, read 26 October 2026"
+      },
+      "low": 5,
+      "high": 20000
+    },
+    {
+      "metric": "SolarContainer fold-out PV array",
+      "unit": "kWp",
+      "basis": "140 kWp from 240 modules over about 720 square metres, assembly up to 5 hours; ISO container with CSC badge",
+      "source": {
+        "url": "https://www.solarcontainer.one/english/product-information",
+        "note": "SolarContainer product information page, read 26 October 2026"
+      },
+      "low": 140,
+      "high": 140
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Bisha mine solar-hybrid plant",
+      "country": "Eritrea",
+      "capacity": "22 MW gensets + 7.5 MWp solar",
+      "status": "operating under Aggreko contract; over 12% fuel savings",
+      "source": {
+        "url": "https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project",
+        "note": "Aggreko case study, Bisha mine, read 26 October 2026"
+      }
+    },
+    {
+      "name": "Porphyry gold mine hybrid plant (Northern Star)",
+      "country": "Australia",
+      "capacity": "4.4 MW solar + 2 MW battery",
+      "status": "operating under a 10-year PPA; 1.91 million litres of fuel saved per year",
+      "source": {
+        "url": "https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia",
+        "note": "Aggreko case study, Western Australia, read 26 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Cuts diesel consumption by roughly 5-20% at mine sites with solar fractions already proven",
+    "Deploys in days to weeks and relocates between sites",
+    "Offered as a service (rental or BOOM), so the site owner takes no capital risk"
+  ],
+  "limitations": [
+    "Diesel remains the night and cloudy-day baseload; savings depend on the solar resource",
+    "Module ratings are small (tens of kW to a few MW), so large loads need many modules",
+    "Relocatable arrays and batteries cost more per kW than fixed utility-scale plant"
+  ],
+  "sources": [
+    {
+      "url": "https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants",
+      "note": "Aggreko hybrid power plants page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems",
+      "note": "Aggreko news release on mid-sized energy storage, read 26 October 2026"
+    },
+    {
+      "url": "https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project",
+      "note": "Aggreko case study, Bisha mine, Eritrea, read 26 October 2026"
+    },
+    {
+      "url": "https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia",
+      "note": "Aggreko case study, Porphyry gold mine, Western Australia, read 26 October 2026"
+    },
+    {
+      "url": "https://boxpower.io/products/solar-container/",
+      "note": "BoxPower solar container product page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.bredenoord.com/en/knowledge/mobile-solar-plant",
+      "note": "Bredenoord mobile solar plant page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.solarcontainer.one/english/product-information",
+      "note": "SolarContainer product information page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "module prices or contract rates in $/kW or $/kWh delivered, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor pages sell services without publishing rates.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IRENA reports on hybrid mini-grid costs (irena.org)",
+          "access": "open"
+        }
+      ],
+      "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table entry or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "reference_plants",
+      "item": "reference hybrid module deployment in Southeast Asia",
+      "reason_code": "not_in_sources_read",
+      "reason": "Case studies read are in Eritrea and Australia.",
+      "where": [
+        {
+          "hint": "Aggreko Asia-Pacific case studies and Indonesian or Philippine mine microgrid tenders",
+          "access": "open"
+        }
+      ],
+      "action": "Add a Southeast Asian reference with capacity and fuel savings."
+    },
+    {
+      "field": "process",
+      "item": "hybrid control sequence is generalised from vendor pages",
+      "reason_code": "general_knowledge_only",
+      "reason": "The controller logic (solar first, battery smoothing, genset backup) is standard practice, not one named source.",
+      "where": [
+        {
+          "hint": "Vendor white papers on hybrid controller algorithms",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a named vendor white paper."
+    }
+  ],
+  "notes": "Aggreko is part of I Squara Capital's portfolio since 2021; the company describes itself as a power solutions provider on rental and BOOM contracts. Atlas Copco's Zenergee hybrid container could not be verified (HTTP 404 on 26 October 2026) and is therefore not listed."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "byd",
+  "name": "BYD",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Shenzhen group whose battery arm (FinDreams Battery) covers power batteries and energy storage, with a dedicated BYD Energy Storage business selling grid-scale systems.",
+  "technologies": [
+    "pwr-lithium-ion-bess"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fdbatt.com/",
+      "note": "FinDreams Battery (BYD battery arm) site, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "grid-scale storage systems",
+    "Blade batteries"
+  ],
+  "url": "https://www.fdbatt.com",
+  "notes": "byd.com's homepage is vehicles-only and bydenergy.com returned no content on 26 October 2026."
+}

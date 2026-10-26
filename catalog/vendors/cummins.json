@@ -1,0 +1,31 @@
+{
+  "id": "cummins",
+  "name": "Cummins",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Engine and power generation OEM from Columbus, Indiana whose Centum Force range factory-pre-integrates QSK60 gensets (2.0-2.75 MW, 50 Hz) into stackable ISO 40-ft containers.",
+  "technologies": [
+    "pwr-gas-engines",
+    "pwr-modular-engine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.ade-power.com/assets/pdf/brochures/cummins-centum-force-containerised-generator-sets-brochure.pdf",
+      "note": "Cummins Centum Force brochure 6545129 (distributor-hosted), read 26 October 2026"
+    },
+    {
+      "url": "https://www.cummins.com/en-apac/generators",
+      "note": "Cummins generators page (APAC), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Centum Force containerised gensets",
+    "QSK-series gensets to 3,750 kVA",
+    "natural gas gensets 13-2,000 kW"
+  ],
+  "url": "https://www.cummins.com",
+  "notes": "cummins.com blocked the automated fetcher (HTTP 403); figures come from the official brochure PDF and the APAC generators page."
+}

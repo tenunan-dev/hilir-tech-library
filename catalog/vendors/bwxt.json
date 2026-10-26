@@ -1,0 +1,41 @@
+{
+  "id": "bwxt",
+  "name": "BWX Technologies",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "developer",
+    "supplier"
+  ],
+  "description": "US nuclear manufacturer from Lynchburg, Virginia building both the US Department of Defense's Project Pele 1-5 MWe transportable microreactor and the TRISO-fuelled BANR HTGR (75 MWt / 22 MWe), selected for a Canadian transportable nuclear power plant targeting service in the early 2030s.",
+  "technologies": [
+    "pwr-microreactors",
+    "pwr-advanced-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bwxt.com/sectors/nuclear-energy/smrs-microreactors/bwxt-advanced-nuclear-reactor-banr",
+      "note": "BWXT BANR page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.bwxt.com/bwxts-banr-microreactor-chosen-for-canadian-transportable-nuclear-power-plant-project",
+      "note": "BWXT Belledune project news release, read 26 October 2026"
+    },
+    {
+      "url": "https://www.bwxt.com/sectors/defense-space/land",
+      "note": "BWXT land defense page (Project Pele), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "BWXT",
+    "BWX Technologies Inc"
+  ],
+  "products": [
+    "BANR microreactor",
+    "Project Pele transportable microreactor",
+    "TRISO fuel manufacture",
+    "naval reactors"
+  ],
+  "url": "https://www.bwxt.com"
+}

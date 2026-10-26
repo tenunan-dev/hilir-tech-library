@@ -1,0 +1,31 @@
+{
+  "id": "siemens-gamesa",
+  "name": "Siemens Gamesa",
+  "country": "Spain",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Wind OEM under Siemens Energy that built the world's first offshore wind plant in 1991; SG onshore platforms and the SG 15-236 offshore turbine. The site announced a transition to the Omterra brand around October 2026.",
+  "technologies": [
+    "pwr-offshore-wind-fixed",
+    "pwr-onshore-wind"
+  ],
+  "sources": [
+    {
+      "url": "https://www.siemensgamesa.com/en-int/about-us",
+      "note": "Siemens Gamesa about page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Siemens Gamesa Renewable Energy",
+    "Omterra"
+  ],
+  "products": [
+    "SG onshore turbines",
+    "SG 15-236 offshore turbine",
+    "service and diagnostics"
+  ],
+  "url": "https://www.siemensgamesa.com"
+}

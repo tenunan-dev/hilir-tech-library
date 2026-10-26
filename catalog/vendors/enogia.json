@@ -1,0 +1,23 @@
+{
+  "id": "enogia",
+  "name": "Enogia",
+  "country": "France",
+  "roles": [
+    "oem"
+  ],
+  "description": "Paris-based micro-turbomachinery OEM offering compact ORC modules from 10 to 180 kWe (combinable above 1 MWe) running on waste heat from 70 degrees C for marine, genset, industrial and geothermal duty.",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://www.enogia.com/orc",
+      "note": "Enogia ORC page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "10/20/40/100/180 kWe ORC modules"
+  ],
+  "url": "https://www.enogia.com"
+}

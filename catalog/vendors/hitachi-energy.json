@@ -1,0 +1,34 @@
+{
+  "id": "hitachi-energy",
+  "name": "Hitachi Energy",
+  "country": "Switzerland",
+  "roles": [
+    "oem",
+    "integrator",
+    "service"
+  ],
+  "description": "Grid technology company of the Hitachi group supplying transformers, high-voltage switchgear, HVDC systems (HVDC Classic and Light), substations and network digitalisation in over 60 countries.",
+  "technologies": [
+    "pwr-hvdc-transmission",
+    "pwr-smart-grids-vpp",
+    "pwr-grid-forming-inverters"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hitachienergy.com/products-and-solutions/hvdc",
+      "note": "Hitachi Energy HVDC page (read for card pwr-hvdc-transmission)"
+    },
+    {
+      "url": "https://www.hitachienergy.com/",
+      "note": "Hitachi Energy homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "HVDC Classic",
+    "HVDC Light",
+    "transformers and switchgear",
+    "HMAX digital"
+  ],
+  "url": "https://www.hitachienergy.com/"
+}

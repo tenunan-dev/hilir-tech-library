@@ -1,0 +1,38 @@
+{
+  "id": "rolls-royce-power-systems",
+  "name": "Rolls-Royce Power Systems (mtu)",
+  "country": "Germany",
+  "roles": [
+    "oem",
+    "packager"
+  ],
+  "description": "Rolls-Royce's propulsion and power division in Friedrichshafen. In February 2026 it launched turnkey modular gas engine power plants built from factory-tested 10, 20 and 30 MW power blocks, grid-connectable within 12 to 18 months of ordering; around 500 mtu gas gensets run on the UK grid.",
+  "technologies": [
+    "pwr-modular-engine-plants",
+    "pwr-gas-engines",
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+      "note": "Rolls-Royce Power Systems press release, 10 February 2026, read 26 October 2026"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/gas-generator-sets/power-modules.html",
+      "note": "mtu genset power modules page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Rolls-Royce Power Systems",
+    "Rolls-Royce (mtu)",
+    "mtu",
+    "MTU Solutions"
+  ],
+  "products": [
+    "mtu modular gas engine power plants (10/20/30 MW blocks)",
+    "mtu Series 4000 gensets and containers",
+    "mtu power modules with switchgear and heat recovery"
+  ],
+  "url": "https://www.mtu-solutions.com"
+}

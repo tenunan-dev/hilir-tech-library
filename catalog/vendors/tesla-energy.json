@@ -1,0 +1,28 @@
+{
+  "id": "tesla-energy",
+  "name": "Tesla Energy",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Tesla's energy division, maker of the Megapack grid-scale battery energy storage system, listed as a leading BESS supplier alongside CATL, BYD and Fluence on the library's lithium-ion storage card.",
+  "technologies": [
+    "pwr-lithium-ion-bess"
+  ],
+  "sources": [
+    {
+      "url": "https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage",
+      "note": "NREL ATB 2024 utility-scale battery storage page (read for card pwr-lithium-ion-bess)",
+      "source_id": "nrel"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Tesla"
+  ],
+  "products": [
+    "Megapack"
+  ],
+  "url": "https://www.tesla.com/megapack",
+  "notes": "tesla.com returned HTTP 403 to the fetcher on 26 October 2026; the record rests on the catalogued card citation and general knowledge, flagged here."
+}

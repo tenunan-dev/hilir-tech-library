@@ -1,6 +1,6 @@
 # PWR technology options
 
-33 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+39 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
@@ -9,6 +9,7 @@
 | [Cogeneration and combined heat and power](#pwr-cogeneration-chp) | Gas-fired power | commercial |  | Solar Turbines (Titan and Taurus CHP packages); Siemens Energy (industrial gas turbine CHP); Wärtsilä (engine CHP) | installed cost, gas-turbine CHP: 1248-3281 USD/kW (2013$) |
 | [Combined cycle and HRSG](#pwr-combined-cycle-hrsg) | Gas-fired power | commercial |  | GE Vernova (HA combined-cycle plants); Siemens Energy (combined-cycle plants and HRSGs); Mitsubishi Heavy Industries (Mitsubishi Power) (GTCC plants) |  |
 | [Concentrated solar power with storage](#pwr-concentrated-solar-power) | Solar | commercial | 9 | Abengoa (CSP plants); SolarReserve (tower plants (company later closed)); Cosin (CSP plants) | capital cost, base year: 7912 USD/kWe (2022$) |
+| [Containerised hybrid power modules (solar, storage, gensets)](#pwr-containerised-hybrid-modules) | Modular power plants | commercial |  | Aggreko (hybrid power plants (relocatable solar + Y.Cube BESS + gensets) on rental or BOOM contracts); BoxPower (MegaBox, AutoBox and MiniBox containerised microgrids, 5 kW to 20 MW+); Bredenoord (Mobile Solar Plant (23 kWp fold-out) with Smart Power Bank battery and backup genset); SolarContainer (fold-out PV container, up to 140 kWp); PR Power (TRIME solar hybrid generators (15-24 kVA class), Australian rental and distribution) |  |
 | [Crystalline silicon PV (PERC, TOPCon, HJT)](#pwr-crystalline-silicon-pv) | Solar | commercial | 9 | LONGi (HJT and back-contact modules); Jinko Solar (TOPCon modules); Trina Solar (TOPCon modules); JA Solar (modules) | overnight capital cost: 1.56 USD/Wac (2023$) |
 | [Floating solar](#pwr-floating-solar) | Solar | commercial | 9 | Sungrow (floating PV systems); Ciel & Terre (Hydrelio floats) |  |
 | [Flow batteries (vanadium, zinc-bromine)](#pwr-flow-batteries) | Electrochemical storage | commercial | 9 | Rongke Power (vanadium flow); Invinity Energy Systems (vanadium flow) |  |
@@ -20,8 +21,12 @@
 | [Hydropower](#pwr-hydropower) | Hydro | commercial | 9 | Andritz (hydro turbines); Voith (hydro turbines); GE Vernova (hydro turbines) | overnight capital cost, new stream-reach: 6574-8611 USD/kW |
 | [Large light-water reactors](#pwr-large-light-water-reactors) | Nuclear | commercial | 9 | Westinghouse (AP1000); EDF (EPR (Framatome)); KHNP (APR1400); CGN (Hualong One) |  |
 | [Lithium-ion battery energy storage](#pwr-lithium-ion-bess) | Electrochemical storage | commercial | 9 | CATL (LFP storage systems); BYD (storage systems); Tesla (Megapack); Fluence (integrated storage) |  |
+| [Mobile gas turbine power plants](#pwr-mobile-gas-turbine-plants) | Modular power plants | commercial |  | GE Vernova (TM2500 mobile packages (DLE and SAC variants)); Siemens Energy (SGT-A45 TR mobile unit (launched 2017; no longer listed in the current portfolio)); PROENERGY (PE6000 50 MW fast-start package, LM6000-interchangeable); APR Energy (rental fleet of TM2500 variants and Mitsubishi FT8 units, 20-35 MW per unit) |  |
+| [Modular ORC units for waste heat and small geothermal](#pwr-modular-orc-units) | Modular power plants | commercial |  | Climeon (HeatPower 300 (50-355 kW net) and HeatPower 150 marine modules); Enogia (10-180 kWe ORC modules, combinable above 1 MWe); Exergy (radial outflow turbine ORC plants, 100 kW to 50 MWe); Turboden (ORC units for geothermal, biomass and waste heat, 1-20 MWe class); Ormat (Ormat Energy Converter ORC units for geothermal and recovered heat); ElectraTherm (BITZER Group) (Power+ Generator waste heat ORC, up to 150 kWe) |  |
+| [Modular reciprocating engine power plants](#pwr-modular-engine-plants) | Modular power plants | commercial |  | Wärtsilä (Modular Block (~6-10 MW per block) and Smart Power Generation plants); Rolls-Royce Power Systems (mtu) (modular gas engine power plants from 10/20/30 MW factory-tested blocks); Everllence (formerly MAN Energy Solutions) (modularised 51/60 series engine power plants); INNIO Jenbacher (containerised gensets, 249-4,507 kW per container); Cummins (Centum Force containerised gensets, 2.0-2.75 MW (50 Hz)) |  |
 | [Offshore wind (fixed bottom)](#pwr-offshore-wind-fixed) | Wind | commercial | 9 | Ørsted (developer and operator); Siemens Gamesa (offshore turbines); Vestas (offshore turbines) |  |
 | [Onshore wind](#pwr-onshore-wind) | Wind | commercial | 9 | Vestas (onshore turbines); Siemens Gamesa (onshore turbines); Goldwind (onshore turbines); Envision (onshore turbines) |  |
+| [Powerships and power barges](#pwr-powerships-power-barges) | Modular power plants | commercial |  | Karpowership (Karadeniz Energy Group) (Powerships, Seal 34-40 MW to Khan 415-470 MW classes, plus LNG-to-power vessels); Power Barge Corporation (gas-turbine barges 30-300 MW, medium-speed-engine barges 80-200 MW, storage barges); Wärtsilä (floating power plants on Wärtsilä engine sets); Waller Marine (barge-mounted gas-turbine plants (2 x 171 MW at Tacoa, Venezuela); no live website found); BWSC (co-developer of an 80-180 MW medium-speed-engine power barge design with ABS approval in principle) |  |
 | [Pumped hydro storage](#pwr-pumped-hydro-storage) | Mechanical storage | commercial | 9 | Andritz (pump-turbines); Voith (pump-turbines); GE Vernova (pump-turbines) | overnight capital cost, 10 h, closed loop: 3029-4501 USD/kW (2021$)<br>overnight capital cost, 10 h, one new reservoir: 1730-3250 USD/kW (2021$) |
 | [Smart grids, microgrids and virtual power plants](#pwr-smart-grids-vpp) | Grid | commercial | 9 | Schneider Electric (microgrid and DERMS software); Siemens (grid software); AutoGrid (VPP software) |  |
 | [Ammonia co-firing in coal boilers](#pwr-ammonia-coal-cofiring) | Gas-fired power | demonstration | 8 | IHI (ammonia co-firing burners); JERA (Hekinan demonstration) |  |
@@ -30,6 +35,7 @@
 | [Floating offshore wind](#pwr-floating-offshore-wind) | Wind | demonstration | 8 | Equinor (Hywind spar); Principle Power (WindFloat) |  |
 | [Gravity energy storage](#pwr-gravity-storage) | Mechanical storage | demonstration | 7 | Energy Vault (gravity storage (the company's site now describes battery projects)) |  |
 | [Hydrogen-capable and ammonia-fired gas turbines](#pwr-hydrogen-ammonia-turbines) | Gas-fired power | demonstration | 5-9 | Mitsubishi Heavy Industries (Mitsubishi Power) (M501JAC hydrogen-ready); GE Vernova (7HA with up to 50% hydrogen); IHI (ammonia combustion) |  |
+| [Microreactors (transportable nuclear)](#pwr-microreactors) | Modular power plants | demonstration |  | Westinghouse Electric Company (eVinci 5 MWe heat-pipe microreactor); BWX Technologies (BANR 75 MWt / 22 MWe HTGR; Project Pele 1-5 MWe transportable microreactor); Oklo (Aurora powerhouse, up to 75 MWe liquid-metal fast reactor); HolosGen (Holos Quad 3-13 MWe containerised modules); NANO Nuclear Energy (KRONOS MMR, ZEUS and LOKI designs) |  |
 | [Small modular reactors](#pwr-small-modular-reactors) | Nuclear | demonstration | 7 | NuScale (VOYGR); GE Vernova Hitachi (BWRX-300); Rolls-Royce SMR (470 MWe design) |  |
 | [Sodium-ion batteries](#pwr-sodium-ion-batteries) | Electrochemical storage | demonstration | 9 | CATL (Naxtra); HiNa (sodium-ion cells) |  |
 | [Thermal energy storage (molten salt, sand, bricks)](#pwr-thermal-energy-storage) | Thermal storage | demonstration | 8 | Rondo Energy (heat battery); Polar Night Energy (sand battery); Kraftblock (granulate storage) |  |
@@ -192,6 +198,43 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://atb.nrel.gov/electricity/2024/concentrating_solar_power). Last reviewed 2026-10-25.
+
+## Containerised hybrid power modules (solar, storage, gensets)
+<a id="pwr-containerised-hybrid-modules"></a>
+
+Factory-integrated containers or skids combine solar PV, battery storage and diesel/gas gensets under one hybrid controller, so a remote site replaces part of its diesel generation within days to weeks of arrival. Aggreko delivers such plants as rental or build-own-operate contracts (relocatable solar farms plus its containerised Y.Cube batteries), BoxPower ships pre-engineered container microgrids from 5 kW to 20 MW, and fold-out PV containers such as SolarContainer's 140 kWp unit install in hours.
+
+```mermaid
+flowchart LR
+    SOLAR["Solar generation, fixed array or fold-out container<br/><small>PV modules, mounting frames or container-hinged array</small>"]
+    BATT["Battery storage in container<br/><small>lithium-ion battery module, bidirectional inverter, fire protection and HVAC</small>"]
+    GEN["Genset backup generation<br/><small>diesel or gas gensets</small>"]
+    CTRL["Hybrid control and dispatch<br/><small>hybrid controller with forecasting algorithms, remote monitoring</small>"]
+    SOLAR --> BATT
+    BATT --> GEN
+    GEN --> CTRL
+```
+
+**Key equipment:** PV array or fold-out solar container, containerised battery energy storage, diesel or gas gensets, hybrid controller, microgrid switchgear.
+
+**Performance:**
+- Aggreko containerised battery ratings: 250-500 kW / kWh; 250 kW / 575 kWh and 500 kW / 250 kWh plug-and-play units, expandable down to 30/60 kVA small nodes; Y.Cube fits a standard 20 ft container. [source](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems)
+- Bisha mine, Eritrea: fuel savings: 12 %; 22 MW generation plus 7.5 MWp solar on 9 ha; about 10,000 litres of diesel saved per day; roughly 10,000 tonnes of CO2 avoided annually. [source](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project)
+- Aggreko hybrid plants savings claim: 5-20 %; savings from the first kWh on hybrid solar-storage-genset plants; contract durations 3-10+ years with no upfront capital. [source](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants)
+- BoxPower product range: 5-20000 kW; 5 kW to 20 MW+ solar PV and 15 kWh to 6 MWh storage; MiniBox installs in a few hours with no foundation. [source](https://boxpower.io/products/solar-container/)
+- SolarContainer fold-out PV array: 140 kWp; 140 kWp from 240 modules over about 720 square metres, assembly up to 5 hours; ISO container with CSC badge. [source](https://www.solarcontainer.one/english/product-information)
+
+**Reference plants:**
+- Bisha mine solar-hybrid plant, Eritrea: 22 MW gensets + 7.5 MWp solar; operating under Aggreko contract; over 12% fuel savings. [source](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project)
+- Porphyry gold mine hybrid plant (Northern Star), Australia: 4.4 MW solar + 2 MW battery; operating under a 10-year PPA; 1.91 million litres of fuel saved per year. [source](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia)
+
+**Missing inputs:**
+- module prices or contract rates in $/kW or $/kWh delivered, with dollar year (costs): Vendor pages sell services without publishing rates. Where: arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands (catalog: arxiv, open); IRENA reports on hybrid mini-grid costs (irena.org) (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such. Where: IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
+- reference hybrid module deployment in Southeast Asia (reference_plants): Case studies read are in Eritrea and Australia. Where: Aggreko Asia-Pacific case studies and Indonesian or Philippine mine microgrid tenders (open). Next: Add a Southeast Asian reference with capacity and fuel savings.
+- hybrid control sequence is generalised from vendor pages (process): The controller logic (solar first, battery smoothing, genset backup) is standard practice, not one named source. Where: Vendor white papers on hybrid controller algorithms (open). Next: Check the steps against a named vendor white paper.
+
+Sources: [1](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants), [2](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems), [3](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project), [4](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia), [5](https://boxpower.io/products/solar-container/), [6](https://www.bredenoord.com/en/knowledge/mobile-solar-plant), [7](https://www.solarcontainer.one/english/product-information). Last reviewed 2026-10-26.
 
 ## Crystalline silicon PV (PERC, TOPCon, HJT)
 <a id="pwr-crystalline-silicon-pv"></a>
@@ -523,6 +566,119 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage). Last reviewed 2026-10-25.
 
+## Mobile gas turbine power plants
+<a id="pwr-mobile-gas-turbine-plants"></a>
+
+Aeroderivative gas turbines (LM2500, Industrial Trent 60, FT8, LM6000) packaged on trailers or single-lift skids with generator, enclosure and auxiliaries, so a complete simple-cycle power plant ships by road, sea or air and reaches full load within days to weeks of arrival. Units are fleet-operated for rental bridge power (APR Energy) or sold as packages (GE Vernova TM2500, PROENERGY PE6000), typically 20 to 50 MW each and multipliable to hundreds of MW.
+
+```mermaid
+flowchart LR
+    PREP["Site preparation and grid interface<br/><small>crane pad and road access, step-up transformer, switchyard connection</small>"]
+    DELIVER["Package delivery and erection<br/><small>trailer-mounted or single-lift packaged turbine generator, enclosure with intake and exhaust</small>"]
+    CONNECT["Fuel and electrical connection<br/><small>dual-fuel gas and liquid fuel skid, power cables and protection relays, controls and remote monitoring</small>"]
+    OPERATE["Dispatch, then demobilisation<br/><small>fast-start control system</small>"]
+    PREP --> DELIVER
+    DELIVER --> CONNECT
+    CONNECT --> OPERATE
+```
+
+**Key equipment:** aeroderivative gas turbine, generator, trailer or skid package enclosure, step-up transformer, switchgear, dual-fuel system.
+
+**Performance:**
+- TM2500 net output at 50 Hz (ISO, natural gas): 34.5-34.6 MW; DLE variant 34.5 MW, SAC variant 34.6 MW net; headline rating up to 37 MW simple cycle. [source](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500)
+- TM2500 net efficiency, DLE, 50 Hz: 39.5 %; net LHV on natural gas; SAC variant 34.8%; page headline approximately 40%. [source](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500)
+- TM2500 installation time: 14-30 days; about 14 days to install; grid power within 30 days of contract signature; 5-minute start. [source](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500)
+- Siemens SGT-A45 TR mobile unit output: up to 44 MW; up to 44 MW, Industrial Trent 60 based, installed in less than two weeks, full power less than 9 minutes from start. [source](https://www.powermag.com/press-releases/siemens-new-44-megawatt-aeroderivative-gas-turbine-for-mobile-power-generation)
+- PROENERGY PE6000 gross output: 50.2 MW; gross heat rate 8,800 Btu/kWh; 5-minute start; factory enclosure unloaded in a single lift; 35% hydrogen ready. [source](https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/)
+- APR Energy deployment time: 30-90 days; 30 to 90 days average, some projects in 15 days; 20-35 MW ISO per unit; fleet over 1.1 GW. [source](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/)
+
+**Reference plants:**
+- 38 TM2500 units across Algeria, Algeria: 38 units; operating; fleet of more than 350 units installed worldwide. [source](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500)
+- SAPN bridge power, South Australia, Australia: 276 MW; APR Energy rapid deployment reference. [source](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/)
+
+**Missing inputs:**
+- capital cost per kW and rental day rate, with dollar year and basis (costs): No open source read so far gives costs for mobile gas turbine packages. Where: arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity (catalog: arxiv, open); Vendor quotations and cost databases; paid sources are catalog-only (paid); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- reference deployment with capacity in Southeast Asia (reference_plants): The pages read name Algeria, Australia, the Caribbean and the USA but no Southeast Asian deployment. Where: GE Vernova and APR Energy reference lists and trade press (Power Magazine, Gas Turbine World) (open). Next: Add a Southeast Asian reference with capacity and year.
+- deployment sequence is general engineering practice, not taken from one source (process): The vendor pages give timings but not a step-by-step deployment flow. Where: Vendor installation manuals or trade press deployment reports (open). Next: Check the steps against a named source.
+
+Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500), [2](https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/), [3](https://www.proenergyservices.com/solutions/manufactured-equipment/package/), [4](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/), [5](https://www.powermag.com/press-releases/siemens-new-44-megawatt-aeroderivative-gas-turbine-for-mobile-power-generation), [6](https://www.siemens-energy.com/global/en/home/products-services/product-offerings/gas-turbines.html). Last reviewed 2026-10-26.
+
+## Modular ORC units for waste heat and small geothermal
+<a id="pwr-modular-orc-units"></a>
+
+Organic Rankine Cycle modules in the tens of kW to multi-MW range convert heat sources from about 70 to 400 degrees C into electricity using a low-boiling working fluid in a skid- or container-mounted unit. Climeon's HeatPower 300 makes 50-355 kW net from heat as cool as 75 degrees C for ships; Enogia builds 10-180 kWe micro-modules; Exergy supplies plants from 100 kW to 50 MWe around its radial outflow turbine; Turboden and Ormat cover the multi-MW geothermal and industrial market with hundreds of plants installed.
+
+```mermaid
+flowchart LR
+    HEAT["Heat source collection<br/><small>jacket water, exhaust or geothermal brine piping, heat source pump (brine)</small>"]
+    EVAP["Preheating and evaporation of working fluid<br/><small>preheater, evaporator</small>"]
+    EXP["Expansion and power generation<br/><small>turbine or screw expander, generator</small>"]
+    COND["Condensation and working fluid return<br/><small>condenser (air or water cooled), working fluid pump</small>"]
+    HEAT --> EVAP
+    EVAP --> EXP
+    EXP --> COND
+```
+
+**Key equipment:** evaporator and preheater, expander or radial outflow turbine, generator, condenser, working fluid loop and skid enclosure.
+
+**Performance:**
+- Climeon HeatPower 300 net output: 50-355 kW; 50-355 kW net per unit from 1,000-4,500 kW thermal input; heat source as low as 75 degrees C; footprint 5.8 x 2.4 x 2.8 m. [source](https://climeon.com/heatpower-300-technology/)
+- Enogia ORC module range: 10-180 kWe; 10, 20, 40, 100 and 180 kWe models; waste heat from 70 degrees C; two pipe connections and one cable. [source](https://www.enogia.com/orc)
+- Exergy ORC plant range: 0.1-50 MWe; plants between 100 kW and 50 MWe from heat sources at 80-400 degrees C; radial outflow turbine up to 30 MW and Gemini turbine up to 60 MWe per unit. [source](https://exergyint.com/orc/)
+- Turboden installed base: 470 plants; 470+ plants in more than 50 countries, over 1 GWe overall installed capacity; plant sizes grew from 1-2 MWe to 10-20 MWe. [source](https://www.turboden.com/)
+- Ormat geothermal fleet: 3200 MW; more than 3,200 MW of geothermal capacity across more than 190 plants, described as modular and flexible. [source](https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89)
+- ElectraTherm Power+ Generator output: up to 150 kWe; up to 150 kWe currently available (250 kW in development) from heat sources at 70-150 degrees C. [source](https://electratherm.com/products/)
+
+**Reference plants:**
+- Virgin Voyages cruise ships, HeatPower 150, multi-country operation: 900 kW per vessel (six units); in service with Lloyd's Register class approval since 2020. [source](https://climeon.com/references/)
+- Maersk Horsburgh retrofit, Denmark (operator): 150 kW; marine retrofit with ABS approval since 2022. [source](https://climeon.com/references/)
+- Fervo Energy geothermal order, USA: 300 MWe (largest project named); Turboden homepage names a 300 MWe supply for Fervo Energy. [source](https://www.turboden.com/)
+
+**Missing inputs:**
+- installed cost per kW for a modular ORC unit, with dollar year and basis (costs): Vendor pages read do not publish prices. Where: arXiv and open-access journals: ORC waste-heat techno-economic reviews (catalog: arxiv, open); IEA and IRENA renewable cost databases (open); MDPI Energies ORC reviews; www.mdpi.com is CDN-blocked, use the manual inbox (catalog: mdpi-energies, blocked). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide was not re-checked for ORC entries. Where: IEA ETP Clean Energy Technology Guide (collected): search for organic Rankine cycle (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
+- modular ORC installation in Southeast Asia (reference_plants): References read are European and North American. Where: Turboden and Exergy reference lists: Indonesian geothermal fields are their natural market (open). Next: Add a Southeast Asian (ideally Indonesian geothermal) reference with capacity and year.
+- ORC cycle steps are textbook standard (process): The cycle description follows standard ORC engineering practice rather than one named source. Where: A licensor page or review paper describing the ORC process step by step (open). Next: Check the steps against a named source and cite it.
+
+Sources: [1](https://climeon.com/heatpower-300-technology/), [2](https://climeon.com/references/), [3](https://www.enogia.com/orc), [4](https://exergyint.com/orc/), [5](https://exergyint.com/radial-outflow-turbine/), [6](https://www.turboden.com/), [7](https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89), [8](https://electratherm.com/products/). Last reviewed 2026-10-26.
+
+## Modular reciprocating engine power plants
+<a id="pwr-modular-engine-plants"></a>
+
+Power plants built from factory-fabricated modules: an engine, generator and auxiliaries are assembled and tested in a factory enclosure (a genset container or a multi-megawatt power block), shipped complete and bolted together on a prepared foundation, with no site welding. Wärtsilä's Modular Block takes one 34SG generating set per block, Rolls-Royce (mtu) offers factory-tested 10, 20 and 30 MW power blocks for plants of five to several hundred megawatts, and Everllence (formerly MAN Energy Solutions) modularises engine-specific systems for its 51/60 series plants.
+
+```mermaid
+flowchart LR
+    FACTORY["Factory fabrication and testing of modules<br/><small>engine and generator in enclosure, pre-installed auxiliary box modules, factory test bed</small>"]
+    SITE["Foundations and bolted erection on site<br/><small>civil foundations, crane, bolted joints, no site welding</small>"]
+    BOP["Balance of plant connection<br/><small>fuel gas and liquid fuel systems, closed cooling radiators, HV switchyard</small>"]
+    GRID["Commissioning and grid synchronisation<br/><small>plant control system, grid synchronisation</small>"]
+    FACTORY --> SITE
+    SITE --> BOP
+    BOP --> GRID
+```
+
+**Key equipment:** gas engine generating set, factory enclosure or power block, auxiliary box modules, cooling radiators, HV switchyard and transformer.
+
+**Performance:**
+- Wärtsilä Modular Block output per block: 6-10 MW; one Wärtsilä 34SG generating set per block, 12V/16V/20V configurations; blocks installed side by side. [source](https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block)
+- Modular Block erection time: 5 weeks; assembly of a complete block excluding foundations in around five weeks; on-site installation cut from several months to a few weeks. [source](https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block)
+- Engine power plant EPC build time: 10 months; notice to proceed to final handover for the 102 MW Dohazari plant in Bangladesh. [source](https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf)
+- mtu modular plant power block sizes: 10-30 MW; factory-tested blocks of 10, 20 and 30 MW; plants grid-connected within 12 to 18 months of ordering. [source](https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html)
+- Everllence 51/60 series single-cycle efficiency: 51 % (or more); vendor claim for 200 MW+ baseload plants; combined cycle adds about 4.5 percentage points. [source](https://www.everllence.com/energy/solutions/thermal-power/baseload/)
+- Jenbacher Type 6 container rating: 1634-4507 kW; containerised gensets on Type 6 engines, built from two or three pre-assembled modules; Type 2/3/4 containers 249-1,562 kW. [source](https://www.jenbacher.com/en/energy-solutions/containerized-solutions/)
+
+**Reference plants:**
+- Dohazari power plant, Bangladesh: 102 MW; delivered in 10 months from notice to proceed to handover. [source](https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf)
+- Texas peaking plant for KPUB, USA: 124 MW; six MAN 18V51/60G engines with prefabricated assemblies; engine delivery 2026, operation 2027. [source](https://www.man-es.com/company/press-releases/press-details/2025/05/22/man-51-60g-engines-bound-for-texas-gas--power-plant)
+
+**Missing inputs:**
+- capital cost per kW for a modular engine plant versus a conventional build, with dollar year (costs): No open source read so far gives installed costs for modular engine plants. Where: arXiv and open-access journals: techno-economic studies of engine power plants (catalog: arxiv, open); Wärtsilä investor and annual reports may carry $/kW averages (open); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Find an open installed-cost figure; record it with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide was not re-checked for this entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for reciprocating engine power plants (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
+- deployment sequence is generalised from vendor descriptions (process): Wärtsilä's page describes the Modular Block assembly; the full flow is standard practice, not one named source. Where: Vendor EPC brochures or an engineering contractor's project description (open). Next: Check the steps against a named EPC or licensor description.
+
+Sources: [1](https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block), [2](https://www.wartsila.com/media/news/13-06-2019-wartsila-launches-modular-solution-for-providing-ready-to-go-power-plants-3086905), [3](https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf), [4](https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html), [5](https://www.everllence.com/energy/solutions/thermal-power/baseload/), [6](https://www.jenbacher.com/en/energy-solutions/containerized-solutions/). Last reviewed 2026-10-26.
+
 ## Offshore wind (fixed bottom)
 <a id="pwr-offshore-wind-fixed"></a>
 
@@ -577,6 +733,44 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-25.
+
+## Powerships and power barges
+<a id="pwr-powerships-power-barges"></a>
+
+A complete engine or gas-turbine power plant is installed on a ship hull or barge, moored at a port or prepared basin and connected to the onshore grid through a switchyard, so a country adds 30 to 470 MW of capacity in weeks without land acquisition or construction. Karpowership operates the largest fleet (45 powerships, 8,500 MW installed across 20+ countries); vendors such as Power Barge Corporation and Wärtsilä deliver barge-mounted plants from 30 MW gas-turbine barges to 180 MW medium-speed-engine barges, and an estimated 75 or more power barges operate worldwide.
+
+```mermaid
+flowchart LR
+    PREP["Berth and basin preparation<br/><small>mooring dolphins or quay wall, dredged berth</small>"]
+    MOOR["Arrival and mooring of the vessel<br/><small>powership hull or barge, mooring lines</small>"]
+    CONNECT["Fuel and grid connection<br/><small>fuel receiving (HFO, distillate or LNG), export cable to onshore substation, step-up transformers</small>"]
+    GENERATE["Generation and dispatch to the grid<br/><small>reciprocating engines or gas turbines, onboard generators and switchgear, plant control room</small>"]
+    PREP --> MOOR
+    MOOR --> CONNECT
+    CONNECT --> GENERATE
+```
+
+**Key equipment:** self-propelled or towed power barge hull, reciprocating engines or gas turbines, onboard switchgear and export cable, fuel storage and transfer system, mooring system.
+
+**Performance:**
+- Karpowership fleet size and capacity: 8500 MW installed; 45 powerships, 8,500 MW installed, 20+ countries, 12 LNG vessels; expansion target 21,000 MW. [source](https://karpowership.com)
+- Powership class capacity range: 34-470 MW; Seal class 34-40 MW up to Khan class 415-470 MW; intermediate Orca 200-260, Shark 110-240, Mermaid 70-80. [source](https://karpowership.com/powership-classes-and-fleet/)
+- Powership deployment time: 30 days; vendor claim: commissioned in under 30 days; grid connection in weeks, not years. [source](https://karpowership.com/the-powership-solution/)
+- Waller Marine Tacoa barges: 171 MW; two barges of 171 MW each, one GE 7FA dual-fuel turbine per barge, in a prepared basin at Tacoa, Venezuela. [source](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083)
+- Power Barge Corporation product range: 30-300 MW; gas-turbine barges 30-300 MW (simple and combined cycle); medium-speed-engine barges 80-200 MW on gas, diesel, biodiesel or low-sulphur HFO. [source](https://powerbargecorp.com)
+- Wärtsilä power barge for Jamaica: 50 MW; repeat order for a 50 MW barge with three Wärtsilä 18V46 generating sets. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
+
+**Reference plants:**
+- Estrella del Mar II, Dominican Republic: ; Wärtsilä floating power plant reference. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
+- DR Bird I and II, Jamaica: 50 MW (new unit); Wärtsilä power barges; repeat order for a third 50 MW barge with three 18V46 sets. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
+- Tacoa floating power barges, supplying Caracas, Venezuela: 2 x 171 MW; installed by Waller Marine in a prepared basin. [source](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083)
+
+**Missing inputs:**
+- charter rate or levelised cost per MWh for a powership, with dollar year and basis (costs): Operator and packager pages read do not publish prices. Where: arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation (catalog: arxiv, open); Regulator filings, for example South Africa NERSA hearings on Karpowership tariffs (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- operating powership or barge in Southeast Asia with capacity (reference_plants): Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name. Where: Karpowership reference lists and Indonesian PLN procurement announcements (open). Next: Add a Southeast Asian reference with vessel name, capacity and years.
+- connection sequence is generalised from vendor claims (process): Vendor pages state 'weeks, not years' but do not document the step-by-step connection process. Where: Port authority or regulator case documents for a specific powership project (open). Next: Check the steps against a named project document.
+
+Sources: [1](https://karpowership.com), [2](https://karpowership.com/the-powership-solution/), [3](https://karpowership.com/powership-classes-and-fleet/), [4](https://karpowership.com/lng-to-power/), [5](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083), [6](https://powerbargecorp.com), [7](https://gcaptain.com/power-barge-corporation-announces-new-medium-speed-engine-power-barge-design), [8](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants), [9](https://en.wikipedia.org/wiki/Powership). Last reviewed 2026-10-26.
 
 ## Pumped hydro storage
 <a id="pwr-pumped-hydro-storage"></a>
@@ -813,6 +1007,39 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah), [2](https://www.power-eng.com/hydrogen/mitsubishi-power-highlights-four-hydrogen-projects/), [3](https://www.turbomachinerymag.com/view/mitsubishi-power-executes-30-hydrogen-fuel-blend-in-jac-gas-turbine), [4](https://www.gevernova.com/gas-power/products/gas-turbines/7ha). Last reviewed 2026-10-25.
+
+## Microreactors (transportable nuclear)
+<a id="pwr-microreactors"></a>
+
+Very small nuclear reactors, roughly 1 to 75 MWe, that are fabricated and fuelled in a factory, shipped complete in standard containers and installed on a small site, running for years without on-site refuelling. Designs use heat pipes (Westinghouse eVinci, 5 MWe), high-temperature gas cooling with TRISO fuel (BWXT BANR, 75 MWt) or liquid-metal fast cooling on HALEU (Oklo Aurora, up to 75 MWe). No commercial unit operates yet: the eVinci test reactor reached criticality in September 2026, and Oklo targets commercial operation at Idaho National Laboratory in 2028.
+
+```mermaid
+flowchart LR
+    FAB["Factory fabrication and fuel loading<br/><small>reactor module, TRISO or metal fuel, conversion equipment (turbine generator or heat exchangers)</small>"]
+    TRANSPORT["Container transport to site<br/><small>standard shipping containers, road, rail or barge transport</small>"]
+    SITE["Site installation and activation<br/><small>small reinforced pad (under 2 acres for eVinci), heat sink or air cooling, grid or load connection</small>"]
+    OPERATE["Multi-year operation, then core return<br/><small>autonomous control system, used-core shipping container</small>"]
+    FAB --> TRANSPORT
+    TRANSPORT --> SITE
+    SITE --> OPERATE
+```
+
+**Key equipment:** microreactor core (heat-pipe, HTGR or fast), TRISO or HALEU metal fuel, power conversion unit, transport and used-fuel containers, autonomous control system.
+
+**Performance:**
+- Westinghouse eVinci output: 5 MWe; 5 MWe from a 15 MWth heat-pipe core; TRISO fuel at 19.75% enrichment; 8+ full-power years before refuelling; transportable in shipping containers by rail, barge and truck. [source](https://www.westinghousenuclear.com/energy-systems/evinci-microreactor)
+- eVinci test reactor criticality: 663 degrees C; reached criticality at 663 degrees C on 3 September 2026 at NCERC, Nevada (DOE ARDP funded); peak core temperature 1,011 degrees C. [source](https://www.energy.gov/ne/articles/westinghouse-evinci-microreactor-achieves-criticality-milestone)
+- BWXT BANR output: 75 MWt; 75 MWt (22 MWe) high-temperature gas reactor on TRISO fuel at 19.75% enrichment; selected for a Canadian transportable nuclear power plant at Belledune with service targeted in the early 2030s. [source](https://www.bwxt.com/sectors/nuclear-energy/smrs-microreactors/bwxt-advanced-nuclear-reactor-banr)
+- Oklo Aurora maximum output: up to 75 MWe; liquid-metal-cooled, metal-fuelled fast reactor, maximum power level 75 MWe (NRC pre-application docket 99902095); first plant at Idaho National Laboratory forecast to begin commercial operations in 2028. [source](https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/who-were-working-with/pre-application-activities/oklo-aurora-powerhouse)
+- HolosGen Holos Quad output: 3-13 MWe; scalable 3-13 MWe from subcritical modules in ISO shipping containers; 3-5 MWe units airliftable; Quad Titan up to 81 MWe. [source](https://holosgen.com/)
+
+**Missing inputs:**
+- capital cost per kW and electricity price under a build-own-operate contract, with dollar year (costs): Developer pages do not publish prices; Oklo sells power rather than reactors but no figure was read. Where: arXiv and open-access journals: microreactor techno-economic analyses (catalog: arxiv, open); US DOE and Idaho National Laboratory cost studies; DOE sites reachable via energy.gov mirrors (open); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no separate microreactor entry; SMR entries cover larger units. Where: IEA ETP Clean Energy Technology Guide (collected): check the SMR entry's scope (catalog: iea-reports, open). Next: Decide whether the IEA SMR entry covers microreactors, or leave maturity resting on the evidence on the card.
+- licensing and deployment milestones are moving fast (status): Milestones read on 26 October 2026 (eVinci criticality, Oklo 2028 target, Belledune early 2030s) will age quickly. Where: NRC and DOE news pages, developer newsrooms (open). Next: Re-check statuses quarterly and update this card.
+- transport and installation sequence is generalised from vendor claims (process): Vendor pages state transportability but not a documented installation procedure. Where: NRIC DOME test-bed documentation and future eVinci deployment filings (open). Next: Check the steps against a named licensing or test-bed document.
+
+Sources: [1](https://www.westinghousenuclear.com/energy-systems/evinci-microreactor), [2](https://info.westinghousenuclear.com/news/westinghouse-evinci-test-reactor-first-to-receive-approval-for-preliminary-safety-design-report), [3](https://www.energy.gov/ne/articles/westinghouse-evinci-microreactor-achieves-criticality-milestone), [4](https://www.bwxt.com/sectors/nuclear-energy/smrs-microreactors/bwxt-advanced-nuclear-reactor-banr), [5](https://www.bwxt.com/bwxts-banr-microreactor-chosen-for-canadian-transportable-nuclear-power-plant-project), [6](https://www.bwxt.com/sectors/defense-space/land), [7](https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/who-were-working-with/pre-application-activities/oklo-aurora-powerhouse), [8](https://oklo.com/business-lines/power), [9](https://holosgen.com/), [10](https://www.nanonuclearenergy.com). Last reviewed 2026-10-26.
 
 ## Small modular reactors
 <a id="pwr-small-modular-reactors"></a>

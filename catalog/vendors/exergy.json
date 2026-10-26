@@ -1,0 +1,32 @@
+{
+  "id": "exergy",
+  "name": "Exergy",
+  "country": "Italy",
+  "roles": [
+    "oem"
+  ],
+  "description": "Italian ORC specialist of the Maccaferri group built around its proprietary radial outflow turbine, supplying binary geothermal and waste-heat plants from 100 kW to 50 MWe with a fleet of nearly 600 MW.",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://exergyint.com/orc/",
+      "note": "Exergy ORC page, read 26 October 2026"
+    },
+    {
+      "url": "https://exergyint.com/company/",
+      "note": "Exergy company page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Exergy International"
+  ],
+  "products": [
+    "radial outflow turbine (up to 30 MW)",
+    "Gemini turbine (up to 60 MWe)",
+    "ORC plants 100 kW-50 MWe"
+  ],
+  "url": "https://exergyint.com"
+}

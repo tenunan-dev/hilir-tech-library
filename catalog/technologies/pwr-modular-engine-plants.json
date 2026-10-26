@@ -1,0 +1,287 @@
+{
+  "id": "pwr-modular-engine-plants",
+  "name": "Modular reciprocating engine power plants",
+  "aliases": [
+    "modular engine power plants",
+    "Modular Block",
+    "power modules"
+  ],
+  "sector": "PWR",
+  "category": "Modular power plants",
+  "applications": [
+    "fast-build gas-fired generation",
+    "grid balancing and peaking",
+    "data-centre power",
+    "islanded and industrial power"
+  ],
+  "maturity": "commercial",
+  "principle": "Power plants built from factory-fabricated modules: an engine, generator and auxiliaries are assembled and tested in a factory enclosure (a genset container or a multi-megawatt power block), shipped complete and bolted together on a prepared foundation, with no site welding. Wärtsilä's Modular Block takes one 34SG generating set per block, Rolls-Royce (mtu) offers factory-tested 10, 20 and 30 MW power blocks for plants of five to several hundred megawatts, and Everllence (formerly MAN Energy Solutions) modularises engine-specific systems for its 51/60 series plants.",
+  "process_steps": [
+    {
+      "id": "FACTORY",
+      "name": "Factory fabrication and testing of modules",
+      "equipment": [
+        "engine and generator in enclosure",
+        "pre-installed auxiliary box modules",
+        "factory test bed"
+      ],
+      "to": [
+        "SITE"
+      ]
+    },
+    {
+      "id": "SITE",
+      "name": "Foundations and bolted erection on site",
+      "equipment": [
+        "civil foundations",
+        "crane",
+        "bolted joints, no site welding"
+      ],
+      "to": [
+        "BOP"
+      ]
+    },
+    {
+      "id": "BOP",
+      "name": "Balance of plant connection",
+      "equipment": [
+        "fuel gas and liquid fuel systems",
+        "closed cooling radiators",
+        "HV switchyard"
+      ],
+      "to": [
+        "GRID"
+      ]
+    },
+    {
+      "id": "GRID",
+      "name": "Commissioning and grid synchronisation",
+      "equipment": [
+        "plant control system",
+        "grid synchronisation"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "gas engine generating set",
+    "factory enclosure or power block",
+    "auxiliary box modules",
+    "cooling radiators",
+    "HV switchyard and transformer"
+  ],
+  "suppliers": [
+    {
+      "name": "Wärtsilä",
+      "product": "Modular Block (~6-10 MW per block) and Smart Power Generation plants",
+      "source_id": "wartsila"
+    },
+    {
+      "name": "Rolls-Royce Power Systems (mtu)",
+      "product": "modular gas engine power plants from 10/20/30 MW factory-tested blocks"
+    },
+    {
+      "name": "Everllence (formerly MAN Energy Solutions)",
+      "product": "modularised 51/60 series engine power plants",
+      "source_id": "man-energy"
+    },
+    {
+      "name": "INNIO Jenbacher",
+      "product": "containerised gensets, 249-4,507 kW per container"
+    },
+    {
+      "name": "Cummins",
+      "product": "Centum Force containerised gensets, 2.0-2.75 MW (50 Hz)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Wärtsilä Modular Block output per block",
+      "unit": "MW",
+      "basis": "one Wärtsilä 34SG generating set per block, 12V/16V/20V configurations; blocks installed side by side",
+      "source": {
+        "url": "https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block",
+        "source_id": "wartsila",
+        "note": "Wärtsilä insights article on the Modular Block, read 26 October 2026"
+      },
+      "low": 6,
+      "high": 10
+    },
+    {
+      "metric": "Modular Block erection time",
+      "unit": "weeks",
+      "basis": "assembly of a complete block excluding foundations in around five weeks; on-site installation cut from several months to a few weeks",
+      "source": {
+        "url": "https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block",
+        "source_id": "wartsila",
+        "note": "Wärtsilä insights article on the Modular Block, read 26 October 2026"
+      },
+      "low": 5,
+      "high": 5
+    },
+    {
+      "metric": "Engine power plant EPC build time",
+      "unit": "months",
+      "basis": "notice to proceed to final handover for the 102 MW Dohazari plant in Bangladesh",
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "wartsila",
+        "note": "Wärtsilä white paper on combustion engine power plants, read 26 October 2026"
+      },
+      "low": 10,
+      "high": 10
+    },
+    {
+      "metric": "mtu modular plant power block sizes",
+      "unit": "MW",
+      "basis": "factory-tested blocks of 10, 20 and 30 MW; plants grid-connected within 12 to 18 months of ordering",
+      "source": {
+        "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+        "note": "Rolls-Royce Power Systems press release, 10 February 2026, read 26 October 2026"
+      },
+      "low": 10,
+      "high": 30
+    },
+    {
+      "metric": "Everllence 51/60 series single-cycle efficiency",
+      "unit": "% (or more)",
+      "basis": "vendor claim for 200 MW+ baseload plants; combined cycle adds about 4.5 percentage points",
+      "source": {
+        "url": "https://www.everllence.com/energy/solutions/thermal-power/baseload/",
+        "source_id": "man-energy",
+        "note": "Everllence thermal power baseload page, read 26 October 2026"
+      },
+      "low": 51
+    },
+    {
+      "metric": "Jenbacher Type 6 container rating",
+      "unit": "kW",
+      "basis": "containerised gensets on Type 6 engines, built from two or three pre-assembled modules; Type 2/3/4 containers 249-1,562 kW",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "note": "INNIO Jenbacher containerised solutions page, read 26 October 2026"
+      },
+      "low": 1634,
+      "high": 4507
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Dohazari power plant",
+      "country": "Bangladesh",
+      "capacity": "102 MW",
+      "status": "delivered in 10 months from notice to proceed to handover",
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "wartsila",
+        "note": "Wärtsilä white paper on combustion engine power plants, read 26 October 2026"
+      }
+    },
+    {
+      "name": "Texas peaking plant for KPUB",
+      "country": "USA",
+      "capacity": "124 MW",
+      "status": "six MAN 18V51/60G engines with prefabricated assemblies; engine delivery 2026, operation 2027",
+      "source": {
+        "url": "https://www.man-es.com/company/press-releases/press-details/2025/05/22/man-51-60g-engines-bound-for-texas-gas--power-plant",
+        "source_id": "man-energy",
+        "note": "MAN Energy Solutions press release, 22 May 2025, read 26 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Build time of about a year to 18 months from order, against several years for a large thermal station",
+    "Capacity added engine by engine, so output scales with demand and one engine outage costs little",
+    "Factory quality control and testing before shipment; no site welding",
+    "Fast start (about two minutes for a 34SG) suits balancing and data-centre backup duty"
+  ],
+  "limitations": [
+    "Per-engine ratings top out around 10-20 MW, so very large plants need many units",
+    "Single-cycle efficiency near 51% stays below a large combined cycle at over 60%",
+    "Higher maintenance intensity per MWh than turbine plant"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block",
+      "source_id": "wartsila",
+      "note": "Wärtsilä insights article on the Modular Block, read 26 October 2026"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/13-06-2019-wartsila-launches-modular-solution-for-providing-ready-to-go-power-plants-3086905",
+      "source_id": "wartsila",
+      "note": "Wärtsilä Modular Block launch press release, 13 June 2019, read 26 October 2026"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "wartsila",
+      "note": "Wärtsilä white paper on combustion engine power plants, read 26 October 2026"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+      "note": "Rolls-Royce Power Systems press release, 10 February 2026, read 26 October 2026"
+    },
+    {
+      "url": "https://www.everllence.com/energy/solutions/thermal-power/baseload/",
+      "source_id": "man-energy",
+      "note": "Everllence thermal power baseload page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+      "note": "INNIO Jenbacher containerised solutions page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost per kW for a modular engine plant versus a conventional build, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives installed costs for modular engine plants.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic studies of engine power plants",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Wärtsilä investor and annual reports may carry $/kW averages",
+          "access": "open"
+        },
+        {
+          "hint": "OSTI.GOV reports; osti.gov is unreachable from this machine",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Find an open installed-cost figure; record it with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide was not re-checked for this entry.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for reciprocating engine power plants",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table entry or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "process",
+      "item": "deployment sequence is generalised from vendor descriptions",
+      "reason_code": "general_knowledge_only",
+      "reason": "Wärtsilä's page describes the Modular Block assembly; the full flow is standard practice, not one named source.",
+      "where": [
+        {
+          "hint": "Vendor EPC brochures or an engineering contractor's project description",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a named EPC or licensor description."
+    }
+  ],
+  "notes": "MAN Energy Solutions was renamed Everllence on 4 June 2025 (everllence.com press release read 26 October 2026); the catalogued source record still carries the former name. Rolls-Royce Power Systems launched its modular gas engine power plant offer in February 2026, so the concept is new even though mtu gensets have run on the UK grid since 2014. Wärtsilä reports 81 GW of engine power plant capacity delivered (wartsila.com/energy/engine-power-plant-solutions, read 26 October 2026)."
+}

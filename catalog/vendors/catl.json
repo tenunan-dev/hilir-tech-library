@@ -1,0 +1,30 @@
+{
+  "id": "catl",
+  "name": "CATL",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Contemporary Amperex Technology, the world's largest battery maker, supplying LFP storage systems for grid-scale and commercial energy storage alongside EV batteries and recycling.",
+  "technologies": [
+    "pwr-lithium-ion-bess",
+    "pwr-sodium-ion-batteries"
+  ],
+  "sources": [
+    {
+      "url": "https://www.catl.com/en/",
+      "note": "CATL English homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Contemporary Amperex Technology"
+  ],
+  "products": [
+    "grid-scale LFP storage systems",
+    "EV batteries",
+    "sodium-ion batteries"
+  ],
+  "url": "https://www.catl.com",
+  "notes": "English product pages 404'd on 26 October 2026; EnerOne/EnerC/TENER names not confirmed by the fetched page."
+}

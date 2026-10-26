@@ -1,0 +1,28 @@
+{
+  "id": "climeon",
+  "name": "Climeon",
+  "country": "Sweden",
+  "roles": [
+    "oem"
+  ],
+  "description": "Swedish clean-tech OEM of container-scale ORC modules converting low-grade waste heat (from 75 degrees C) into electricity, focused on marine waste-heat recovery with cruise and container-ship references plus industry and geothermal applications.",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://climeon.com/heatpower-300-technology/",
+      "note": "Climeon HeatPower 300 technology page, read 26 October 2026"
+    },
+    {
+      "url": "https://climeon.com/references/",
+      "note": "Climeon references page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "HeatPower 300 (50-355 kW net)",
+    "HeatPower 150"
+  ],
+  "url": "https://climeon.com"
+}

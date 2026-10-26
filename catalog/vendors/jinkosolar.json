@@ -1,0 +1,28 @@
+{
+  "id": "jinkosolar",
+  "name": "JinkoSolar",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Global solar module manufacturer and storage provider whose Tiger Neo is its flagship panel line, with scenario-specific modules and Jinko ESS utility and C&I storage.",
+  "technologies": [
+    "pwr-crystalline-silicon-pv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jinkosolar.com",
+      "note": "JinkoSolar homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Jinko",
+    "Jinko Solar"
+  ],
+  "products": [
+    "Tiger Neo 3.0/5.0 modules",
+    "Jinko ESS BESS"
+  ],
+  "url": "https://www.jinkosolar.com"
+}

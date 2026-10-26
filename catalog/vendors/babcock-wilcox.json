@@ -1,0 +1,29 @@
+{
+  "id": "babcock-wilcox",
+  "name": "Babcock & Wilcox",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Energy technology company founded in 1867 providing steam generation equipment and services; its renewable segment offers biomass and waste-to-energy boilers, BECCS and the ClimateBright carbon capture line, including FEED for Canada's first WtE plant with CCS.",
+  "technologies": [
+    "pwr-biomass-waste-to-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://babcock.com",
+      "note": "Babcock & Wilcox homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "B&W",
+    "Babcock and Wilcox"
+  ],
+  "products": [
+    "renewable energy boilers",
+    "circulating fluidised-bed boilers",
+    "BrightLoop chemical looping"
+  ],
+  "url": "https://babcock.com"
+}

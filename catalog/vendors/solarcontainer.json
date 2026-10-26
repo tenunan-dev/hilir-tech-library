@@ -1,0 +1,24 @@
+{
+  "id": "solarcontainer",
+  "name": "SolarContainer",
+  "country": "Austria",
+  "roles": [
+    "oem",
+    "packager"
+  ],
+  "description": "Austrian manufacturer of CSC-badged ISO-container fold-out solar arrays (up to 140 kWp, 240 modules, about five hours assembly) that cut diesel genset runtime in off-grid hybrid setups.",
+  "technologies": [
+    "pwr-containerised-hybrid-modules"
+  ],
+  "sources": [
+    {
+      "url": "https://www.solarcontainer.one/english/product-information",
+      "note": "SolarContainer product information page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "fold-out PV container up to 140 kWp"
+  ],
+  "url": "https://www.solarcontainer.one"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sma",
+  "name": "SMA",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "Niestetal-based specialist in PV and storage solutions: solar, hybrid and battery inverters, energy management, and utility-scale grid-forming inverters with black-start capability.",
+  "technologies": [
+    "pwr-grid-forming-inverters",
+    "pwr-crystalline-silicon-pv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sma.de/en/company",
+      "note": "SMA company page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "SMA Solar Technology"
+  ],
+  "products": [
+    "PV and battery inverters",
+    "grid-forming inverters",
+    "energy management systems"
+  ],
+  "url": "https://www.sma.de/en/company"
+}

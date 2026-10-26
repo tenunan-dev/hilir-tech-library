@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vendor record",
+  "description": "One vendor, supplier or packager in the library's directory, with the technology cards it supplies. Facts recorded here come from pages the author read; every record carries at least one source.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "country",
+    "roles",
+    "description",
+    "technologies",
+    "sources",
+    "last_reviewed"
+  ],
+  "$defs": {
+    "ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_id": {
+          "type": "string",
+          "description": "Catalog record id, when the source is in the catalog"
+        },
+        "note": {
+          "type": "string",
+          "description": "Which page was read and when"
+        }
+      }
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other names the vendor is listed under on cards or in the register"
+    },
+    "country": {
+      "type": "string",
+      "description": "Headquarters country"
+    },
+    "roles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "oem",
+          "licensor",
+          "packager",
+          "epc",
+          "developer",
+          "operator",
+          "rental",
+          "service",
+          "supplier",
+          "integrator"
+        ]
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "One to three sentences in our own words"
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Named products, platforms or package lines"
+    },
+    "technologies": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "description": "Technology card ids in catalog/technologies/ this vendor supplies"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Main site; omit when no live site could be found"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/ref"
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

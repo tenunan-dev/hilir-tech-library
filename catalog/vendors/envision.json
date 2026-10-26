@@ -1,0 +1,33 @@
+{
+  "id": "envision",
+  "name": "Envision",
+  "country": "China",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Envision Energy (founded 2007, Jiangyin) specialises in smart wind turbines, storage and green hydrogen-ammonia, with over 100 GW of wind installed and the top global wind order volume for four years running.",
+  "technologies": [
+    "pwr-onshore-wind",
+    "pwr-offshore-wind-fixed",
+    "pwr-smart-grids-vpp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.envision-group.com/about/",
+      "note": "Envision Group about page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Envision Energy",
+    "Envision Group"
+  ],
+  "products": [
+    "smart wind turbines",
+    "EnOS platform",
+    "green hydrogen and ammonia"
+  ],
+  "url": "https://www.envision-group.com",
+  "notes": "The envisionenergy.com domain is parked; use the group site."
+}

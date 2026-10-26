@@ -1,0 +1,35 @@
+{
+  "id": "innio-jenbacher",
+  "name": "INNIO Jenbacher",
+  "country": "Austria",
+  "roles": [
+    "oem"
+  ],
+  "description": "Gas-engine OEM in Jenbach whose containerised gensets (249-4,507 kW per container, Type 6 built from two or three pre-assembled modules) provide factory-integrated packages for distributed power, including 100% hydrogen operation.",
+  "technologies": [
+    "pwr-gas-engines",
+    "pwr-modular-engine-plants",
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+      "note": "INNIO Jenbacher containerised solutions page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.jenbacher.com/en",
+      "note": "INNIO Jenbacher engine series overview, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "INNIO",
+    "Jenbacher (INNIO)"
+  ],
+  "products": [
+    "Jenbacher Type 2/3/4/6/9 gas engines",
+    "containerised gensets",
+    "hydrogen-capable engine options"
+  ],
+  "url": "https://www.jenbacher.com"
+}

@@ -1,6 +1,6 @@
 # Technology register
 
-300 technologies across oil, gas, petrochemicals and new energy; 300 have a technology card so far.
+306 technologies across oil, gas, petrochemicals and new energy; 306 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -206,6 +206,12 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Gas-fired power | Gas engines | commercial | Wärtsilä, Jenbacher (INNIO), MAN Energy Solutions (Everllence) | [card](technologies-PWR.md#pwr-gas-engines) |
 | Gas-fired power | Hydrogen-capable and ammonia-fired gas turbines | demonstration | Mitsubishi Power, GE Vernova, IHI | [card](technologies-PWR.md#pwr-hydrogen-ammonia-turbines) |
 | Gas-fired power | Ammonia co-firing in coal boilers | demonstration | JERA Hekinan, IHI | [card](technologies-PWR.md#pwr-ammonia-coal-cofiring) |
+| Modular power plants | Mobile gas turbine power plants | commercial | GE Vernova TM2500, PROENERGY PE6000, APR Energy | [card](technologies-PWR.md#pwr-mobile-gas-turbine-plants) |
+| Modular power plants | Modular reciprocating engine power plants | commercial | Wärtsilä Modular Block, Rolls-Royce (mtu), Everllence (MAN Energy Solutions) | [card](technologies-PWR.md#pwr-modular-engine-plants) |
+| Modular power plants | Powerships and power barges | commercial | Karpowership, Power Barge Corporation, Waller Marine | [card](technologies-PWR.md#pwr-powerships-power-barges) |
+| Modular power plants | Containerised hybrid power modules (solar, storage, gensets) | commercial | Aggreko, BoxPower, Bredenoord | [card](technologies-PWR.md#pwr-containerised-hybrid-modules) |
+| Modular power plants | Modular ORC units for waste heat and small geothermal | commercial | Climeon, Enogia, Exergy, Turboden, Ormat | [card](technologies-PWR.md#pwr-modular-orc-units) |
+| Modular power plants | Microreactors (transportable nuclear) | demonstration | Westinghouse eVinci, BWXT, Oklo | [card](technologies-PWR.md#pwr-microreactors) |
 | Renewables | Crystalline silicon PV (PERC, TOPCon, HJT) | commercial | LONGi, Jinko, Trina, JA Solar | [card](technologies-PWR.md#pwr-crystalline-silicon-pv) |
 | Renewables | Perovskite and tandem solar cells | pilot | Oxford PV, LONGi research | [card](technologies-PWR.md#pwr-perovskite-tandem) |
 | Renewables | Floating solar | commercial | Sungrow, Ciel & Terre | [card](technologies-PWR.md#pwr-floating-solar) |

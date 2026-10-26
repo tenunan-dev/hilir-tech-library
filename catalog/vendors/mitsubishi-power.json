@@ -1,0 +1,34 @@
+{
+  "id": "mitsubishi-power",
+  "name": "Mitsubishi Power",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "description": "Gas-turbine OEM of the Mitsubishi Heavy Industries group, maker of the M501/M701 J and JAC heavy-duty machines and GTCC plants, and developer of hydrogen and ammonia co-firing capability; its FT8 aeroderivative also powers rental fleets.",
+  "technologies": [
+    "pwr-heavy-duty-gas-turbines",
+    "pwr-combined-cycle-hrsg",
+    "pwr-hydrogen-ammonia-turbines",
+    "pwr-mobile-gas-turbine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://power.mhi.com/products/gasturbines/lineup/m701j",
+      "source_id": "mitsubishi-heavy",
+      "note": "Mitsubishi Power M701J product page (read for card pwr-heavy-duty-gas-turbines)"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Mitsubishi Heavy Industries",
+    "Mitsubishi Heavy Industries (Mitsubishi Power)"
+  ],
+  "products": [
+    "M501/M701 J and JAC gas turbines",
+    "GTCC plant packages",
+    "FT8 aeroderivative packages",
+    "hydrogen and ammonia co-firing retrofits"
+  ],
+  "url": "https://power.mhi.com"
+}

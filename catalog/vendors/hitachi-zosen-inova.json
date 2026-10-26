@@ -1,0 +1,32 @@
+{
+  "id": "hitachi-zosen-inova",
+  "name": "Hitachi Zosen Inova",
+  "country": "Switzerland",
+  "roles": [
+    "epc",
+    "oem"
+  ],
+  "description": "Zurich-based global provider of waste-to-energy and renewable gas technology, now Kanadevia Inova after parent Hitachi Zosen's rename to Kanadevia, covering development, financing, EPC and lifecycle services across 17 countries and 2,000+ projects.",
+  "technologies": [
+    "pwr-biomass-waste-to-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.kanadevia-inova.com",
+      "note": "Kanadevia Inova homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Hitachi Zosen INOVA",
+    "HZI",
+    "Kanadevia Inova"
+  ],
+  "products": [
+    "waste-to-energy plants",
+    "biogas plants",
+    "Kanadevia Inova Pulse digital platform"
+  ],
+  "url": "https://www.kanadevia-inova.com",
+  "notes": "hz-inova.com 301-redirects to kanadevia-inova.com."
+}

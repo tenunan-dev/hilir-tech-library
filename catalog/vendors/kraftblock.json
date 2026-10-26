@@ -1,0 +1,24 @@
+{
+  "id": "kraftblock",
+  "name": "Kraftblock",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "German maker of high-temperature thermal storage (heat batteries) from upcycled materials, delivering process heat at 50-1,300 degrees C for industrial decarbonisation, including a Tata Steel application and a mobile heat system.",
+  "technologies": [
+    "pwr-thermal-energy-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.kraftblock.com/",
+      "note": "Kraftblock homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Net-Zero Heat",
+    "Mobile Heat System"
+  ],
+  "url": "https://www.kraftblock.com/"
+}

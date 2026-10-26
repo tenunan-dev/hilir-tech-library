@@ -1,0 +1,24 @@
+{
+  "id": "eavor",
+  "name": "Eavor",
+  "country": "Canada",
+  "roles": [
+    "developer"
+  ],
+  "description": "Canadian clean energy company producing baseload, dispatchable power via its Eavor-Loop closed-loop geothermal system (no fracking or aquifer contact), with the Eavor-Lite demonstration in Alberta and Eavor-Europe at Geretsried, Germany.",
+  "technologies": [
+    "pwr-enhanced-geothermal"
+  ],
+  "sources": [
+    {
+      "url": "https://eavor.com",
+      "note": "Eavor homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Eavor-Loop",
+    "Eavor-Lite demonstration plant"
+  ],
+  "url": "https://eavor.com"
+}

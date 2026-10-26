@@ -1,0 +1,33 @@
+{
+  "id": "fluence",
+  "name": "Fluence",
+  "country": "USA",
+  "roles": [
+    "integrator",
+    "service"
+  ],
+  "description": "Grid-scale energy storage products, services and digital applications company founded by Siemens and AES, offering turnkey BESS delivery with Gridstack and Smartstack products and the Mosaic and Nispera digital platforms.",
+  "technologies": [
+    "pwr-lithium-ion-bess",
+    "pwr-smart-grids-vpp"
+  ],
+  "sources": [
+    {
+      "url": "https://fluenceenergy.com/",
+      "note": "Fluence homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Fluence Energy"
+  ],
+  "products": [
+    "Gridstack",
+    "Gridstack Pro",
+    "Smartstack",
+    "Fluence Cube",
+    "Mosaic",
+    "Nispera"
+  ],
+  "url": "https://fluenceenergy.com/"
+}

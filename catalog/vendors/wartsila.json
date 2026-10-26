@@ -1,0 +1,36 @@
+{
+  "id": "wartsila",
+  "name": "Wärtsilä",
+  "country": "Finland",
+  "roles": [
+    "oem",
+    "packager"
+  ],
+  "description": "Marine and energy technology group whose Energy business has delivered 81 GW of flexible engine power plants, including the prefabricated Modular Block, floating power plants, and storage integration.",
+  "technologies": [
+    "pwr-modular-engine-plants",
+    "pwr-gas-engines",
+    "pwr-powerships-power-barges",
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block",
+      "source_id": "wartsila",
+      "note": "Wärtsilä Modular Block insights article, read 26 October 2026"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
+      "source_id": "wartsila",
+      "note": "Wärtsilä floating power plants page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Modular Block (one 34SG genset per block)",
+    "31SG, 34SG, 50SG, 46TS engine power plants",
+    "floating power plants",
+    "Flexicycle combined cycle"
+  ],
+  "url": "https://www.wartsila.com/energy"
+}

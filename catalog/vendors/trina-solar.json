@@ -1,0 +1,30 @@
+{
+  "id": "trina-solar",
+  "name": "Trina Solar",
+  "country": "China",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "description": "Changzhou-headquartered smart PV and energy storage company claiming the top global position in 210 mm module shipments across 180+ countries; also supplies trackers and O&M services.",
+  "technologies": [
+    "pwr-crystalline-silicon-pv",
+    "pwr-lithium-ion-bess"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trinasolar.com/us/about-us",
+      "note": "Trina Solar US about page (global pages were WAF-blocked), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Trina"
+  ],
+  "products": [
+    "210 mm PV modules",
+    "Elementa storage",
+    "Nclave trackers"
+  ],
+  "url": "https://www.trinasolar.com"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "nano-nuclear",
+  "name": "NANO Nuclear Energy",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "Self-described first publicly listed US microreactor company (NASDAQ: NNE); its lead KRONOS MMR high-temperature gas reactor is in NRC construction-permit pre-application with the University of Illinois, alongside the ZEUS solid-core and portable LOKI designs.",
+  "technologies": [
+    "pwr-microreactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nanonuclearenergy.com",
+      "note": "NANO Nuclear Energy homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "NANO Nuclear"
+  ],
+  "products": [
+    "KRONOS MMR",
+    "ZEUS",
+    "LOKI MMR (portable)"
+  ],
+  "url": "https://www.nanonuclearenergy.com"
+}

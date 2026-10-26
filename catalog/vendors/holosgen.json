@@ -1,0 +1,24 @@
+{
+  "id": "holosgen",
+  "name": "HolosGen",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "Design-stage developer of containerised subcritical reactor modules with Brayton or ORC power conversion: Holos Quad scales from 3 to 13 MWe (smaller units airliftable) and Holos Quad Titan reaches up to 81 MWe.",
+  "technologies": [
+    "pwr-microreactors"
+  ],
+  "sources": [
+    {
+      "url": "https://holosgen.com/",
+      "note": "HolosGen homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Holos Quad (3-13 MWe)",
+    "Holos Quad Titan (up to 81 MWe)"
+  ],
+  "url": "https://holosgen.com"
+}

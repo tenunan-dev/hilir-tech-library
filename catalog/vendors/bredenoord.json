@@ -1,0 +1,25 @@
+{
+  "id": "bredenoord",
+  "name": "Bredenoord",
+  "country": "Netherlands",
+  "roles": [
+    "rental"
+  ],
+  "description": "Dutch mobile power rental company from Apeldoorn whose fold-out solar container (90 panels, 23 kWp, 20 ft) pairs with a 30 kW battery bank and backup genset as a fast-deploy hybrid set.",
+  "technologies": [
+    "pwr-containerised-hybrid-modules"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bredenoord.com/en/knowledge/mobile-solar-plant",
+      "note": "Bredenoord mobile solar plant page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Mobile Solar Plant (23 kWp)",
+    "Smart Power Bank batteries",
+    "hybrid genset packages"
+  ],
+  "url": "https://www.bredenoord.com"
+}

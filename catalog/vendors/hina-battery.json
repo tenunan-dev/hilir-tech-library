@@ -1,0 +1,29 @@
+{
+  "id": "hina-battery",
+  "name": "HiNa Battery",
+  "country": "China",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "description": "Sodium-ion battery developer and manufacturer spun out of the Institute of Physics of the Chinese Academy of Sciences, based in Liyang, Jiangsu, also making cathode, anode and electrolyte materials.",
+  "technologies": [
+    "pwr-sodium-ion-batteries"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hinabattery.com/en/",
+      "note": "HiNa Battery English homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "HiNa",
+    "HiNa Battery Technology"
+  ],
+  "products": [
+    "sodium-ion cells and packs",
+    "cathode and anode materials"
+  ],
+  "url": "https://www.hinabattery.com/en/"
+}

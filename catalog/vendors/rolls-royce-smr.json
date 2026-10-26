@@ -1,0 +1,27 @@
+{
+  "id": "rolls-royce-smr",
+  "name": "Rolls-Royce SMR",
+  "country": "United Kingdom",
+  "roles": [
+    "oem",
+    "developer"
+  ],
+  "description": "British developer of a factory-built 470 MWe pressurised-water SMR designed for 60 years of operation; selected in the UK Great British Energy - Nuclear SMR competition and in step 3 of the UK generic design assessment.",
+  "technologies": [
+    "pwr-small-modular-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.rolls-royce-smr.com",
+      "note": "Rolls-Royce SMR homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Rolls-Royce SMR Ltd"
+  ],
+  "products": [
+    "Rolls-Royce SMR 470 MWe power station"
+  ],
+  "url": "https://www.rolls-royce-smr.com"
+}

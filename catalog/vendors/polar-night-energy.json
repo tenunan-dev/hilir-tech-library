@@ -1,0 +1,23 @@
+{
+  "id": "polar-night-energy",
+  "name": "Polar Night Energy",
+  "country": "Finland",
+  "roles": [
+    "oem"
+  ],
+  "description": "Finnish developer of large-scale high-temperature sand thermal storage - the Sand Battery - storing renewable energy as heat, with the first commercial unit operating with Vatajankoski.",
+  "technologies": [
+    "pwr-thermal-energy-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://polarnightenergy.com/",
+      "note": "Polar Night Energy homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Sand Battery"
+  ],
+  "url": "https://polarnightenergy.com/"
+}

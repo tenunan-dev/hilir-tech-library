@@ -1,0 +1,33 @@
+{
+  "id": "ormat",
+  "name": "Ormat",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "operator"
+  ],
+  "description": "Vertically integrated geothermal and waste-heat power company from Reno, Nevada whose modular ORC-based Ormat Energy Converter underpins more than 190 plants and over 3,200 MW built; it also owns and operates a 1.8 GW portfolio (2025 revenues about 990 million dollars).",
+  "technologies": [
+    "pwr-modular-orc-units",
+    "pwr-geothermal-flash-binary"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89",
+      "note": "Ormat geothermal page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.ormat.com",
+      "note": "Ormat homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Ormat Technologies"
+  ],
+  "products": [
+    "Ormat Energy Converter (OEC)",
+    "REG recovered-energy units"
+  ],
+  "url": "https://www.ormat.com"
+}

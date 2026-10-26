@@ -1,0 +1,37 @@
+{
+  "id": "westinghouse-electric",
+  "name": "Westinghouse Electric Company",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "developer"
+  ],
+  "description": "Major nuclear OEM from Cranberry Township, Pennsylvania: AP1000 large reactors, AP300 SMR and the 5 MWe heat-pipe eVinci microreactor, whose test reactor was the first microreactor with an approved preliminary safety design report and reached criticality in September 2026.",
+  "technologies": [
+    "pwr-microreactors",
+    "pwr-large-light-water-reactors",
+    "pwr-small-modular-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.westinghousenuclear.com/energy-systems/evinci-microreactor",
+      "note": "Westinghouse eVinci product page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.energy.gov/ne/articles/westinghouse-evinci-microreactor-achieves-criticality-milestone",
+      "note": "US DOE article on eVinci criticality, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Westinghouse",
+    "Westinghouse Electric"
+  ],
+  "products": [
+    "eVinci microreactor (5 MWe)",
+    "AP1000",
+    "AP300 SMR",
+    "nuclear fuel and services"
+  ],
+  "url": "https://www.westinghousenuclear.com"
+}

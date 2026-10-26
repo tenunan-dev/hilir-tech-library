@@ -1,0 +1,38 @@
+{
+  "id": "siemens-energy",
+  "name": "Siemens Energy",
+  "country": "Germany",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Global energy OEM whose technology underpins about one sixth of the world's electricity generation. Its SGT-A45 TR was the largest trailer-mobile package at its 2017 launch; it no longer appears in the current aeroderivative lineup (SGT-A65, SGT-A35, SGT-A05).",
+  "technologies": [
+    "pwr-heavy-duty-gas-turbines",
+    "pwr-aeroderivative-turbines",
+    "pwr-combined-cycle-hrsg",
+    "pwr-mobile-gas-turbine-plants",
+    "pwr-hvdc-transmission",
+    "pwr-grid-forming-inverters"
+  ],
+  "sources": [
+    {
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/gas-turbines.html",
+      "source_id": "siemens-energy",
+      "note": "Siemens Energy gas turbine portfolio page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Siemens Gamesa parent"
+  ],
+  "products": [
+    "HL-class heavy-duty gas turbines",
+    "SGT-A65, SGT-A35, SGT-A05 aeroderivatives",
+    "combined-cycle plants and HRSGs",
+    "HVDC Plus",
+    "grid-forming solutions"
+  ],
+  "url": "https://www.siemens-energy.com",
+  "notes": "Siemens Gamesa is the group's wind business; it is listed as a separate vendor record."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cosin",
+  "name": "Cosin",
+  "country": "China",
+  "roles": [
+    "oem",
+    "epc"
+  ],
+  "description": "Chinese CSP supplier of molten-salt tower systems, heliostats and intelligent plant operation; core builder of the 100 MW molten-salt tower CGN Jixilugu plant.",
+  "technologies": [
+    "pwr-concentrated-solar-power"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cosinsolar.com/en/news/detail/id/370.html",
+      "note": "Cosin news page on the CGN Jixilugu plant (read via web reader; the site's expired certificate blocks direct fetch), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Cosin Solar"
+  ],
+  "products": [
+    "molten-salt tower CSP systems",
+    "heliostats",
+    "CSP intelligent operation"
+  ],
+  "url": "https://www.cosinsolar.com"
+}

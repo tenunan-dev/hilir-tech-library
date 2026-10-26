@@ -1,0 +1,28 @@
+{
+  "id": "electratherm",
+  "name": "ElectraTherm",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "US waste-heat ORC manufacturer owned by Germany's BITZER Group, making skid modules that generate up to 150 kWe from hot-water sources as low as 70 degrees C, with combined power-and-cooling variants.",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://electratherm.com/products/",
+      "note": "ElectraTherm products page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Electratherm (BITZER Group)"
+  ],
+  "products": [
+    "Power+ Generator (up to 150 kWe)",
+    "Power Module75",
+    "Active Cooler"
+  ],
+  "url": "https://electratherm.com"
+}

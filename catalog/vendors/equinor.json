@@ -1,0 +1,32 @@
+{
+  "id": "equinor",
+  "name": "Equinor",
+  "country": "Norway",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "Norwegian energy major operating the Hywind floating offshore wind farms and the electrified Johan Sverdrup field, and developing hydrogen and CCS value chains.",
+  "technologies": [
+    "pwr-floating-offshore-wind",
+    "pwr-offshore-wind-fixed"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com",
+      "source_id": "equinor-tech",
+      "note": "Equinor technology pages (catalogued source), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Equinor Hywind",
+    "Statoil"
+  ],
+  "products": [
+    "Hywind floating wind farms",
+    "offshore electrification",
+    "hydrogen and CCS projects"
+  ],
+  "url": "https://www.equinor.com"
+}

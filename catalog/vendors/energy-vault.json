@@ -1,0 +1,30 @@
+{
+  "id": "energy-vault",
+  "name": "Energy Vault",
+  "country": "USA",
+  "roles": [
+    "integrator",
+    "developer",
+    "service"
+  ],
+  "description": "American energy infrastructure company (NYSE: NRGV) delivering turnkey BESS, utility build-own-operate services and data-centre power, with over 1 GW of operating assets; its gravity storage line is described on the site alongside batteries.",
+  "technologies": [
+    "pwr-gravity-storage",
+    "pwr-lithium-ion-bess"
+  ],
+  "sources": [
+    {
+      "url": "https://energyvault.com/solutions/energy-storage",
+      "note": "Energy Vault energy storage solutions page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Energy Vault Holdings"
+  ],
+  "products": [
+    "EVx gravity storage",
+    "turnkey BESS"
+  ],
+  "url": "https://energyvault.com"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "karpowership",
+  "name": "Karpowership",
+  "country": "Turkey",
+  "roles": [
+    "operator",
+    "packager"
+  ],
+  "description": "Karadeniz Energy Group company operating the world's largest powership fleet: 45 self-contained power ships with 8,500 MW installed across 20+ countries, plus an integrated LNG-to-power chain of terminal ships and carriers; expansion target 21,000 MW.",
+  "technologies": [
+    "pwr-powerships-power-barges"
+  ],
+  "sources": [
+    {
+      "url": "https://karpowership.com",
+      "note": "Karpowership homepage, read 26 October 2026"
+    },
+    {
+      "url": "https://karpowership.com/powership-classes-and-fleet/",
+      "note": "Karpowership classes and fleet page, read 26 October 2026"
+    },
+    {
+      "url": "https://karpowership.com/lng-to-power/",
+      "note": "Karpowership LNG-to-power page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Karadeniz Energy Group",
+    "Karpowership (Karadeniz Energy Group)"
+  ],
+  "products": [
+    "Powership classes Seal (34-40 MW) to Khan (415-470 MW)",
+    "LNG Terminal Ships and carriers"
+  ],
+  "url": "https://karpowership.com"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "longi",
+  "name": "LONGi",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Vertically integrated monocrystalline solar company calling itself the world's leading PV supplier; holds cell records including 35.5% for perovskite-silicon tandems and also sells energy storage and alkaline electrolyzers.",
+  "technologies": [
+    "pwr-crystalline-silicon-pv",
+    "pwr-perovskite-tandem"
+  ],
+  "sources": [
+    {
+      "url": "https://www.longi.com/en",
+      "note": "LONGi English site, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "LONGi Solar",
+    "Longi Green Energy"
+  ],
+  "products": [
+    "Hi-MO modules (Hi-MO X10, HPBC 2.0)",
+    "mono wafers",
+    "ALK electrolyzers"
+  ],
+  "url": "https://www.longi.com"
+}

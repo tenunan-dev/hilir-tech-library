@@ -1,0 +1,29 @@
+{
+  "id": "waller-marine",
+  "name": "Waller Marine",
+  "country": "USA",
+  "roles": [
+    "packager"
+  ],
+  "description": "Houston-based marine project company that installed large barge-mounted gas-turbine plants (two 171 MW GE 7FA barges at Tacoa, Venezuela) and built the first barge-mounted circulating fluidised bed plant (100 MW for TVA); no live website could be found in 2026.",
+  "technologies": [
+    "pwr-powerships-power-barges"
+  ],
+  "sources": [
+    {
+      "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
+      "note": "MarineLink news report on the Tacoa barges, read 26 October 2026"
+    },
+    {
+      "url": "https://www.power-eng.com/renewables/waller-marine-to-construct-barge-mounted-cfb-power-plant",
+      "note": "Power Engineering report on the barge-mounted CFB plant, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "barge-mounted gas-turbine plants",
+    "barge-mounted CFB steam plants"
+  ],
+  "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
+  "notes": "wallermarine.com returned HTTP 403 on 26 October 2026; the url field points to the evidence article instead."
+}

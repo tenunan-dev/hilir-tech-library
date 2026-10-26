@@ -1,0 +1,29 @@
+{
+  "id": "x-energy",
+  "name": "X-energy",
+  "country": "USA",
+  "roles": [
+    "developer",
+    "supplier"
+  ],
+  "description": "Rockville, Maryland developer of the Xe-100 pebble-bed high-temperature gas-cooled reactor (80 MWe per unit, four-pack 320 MWe) using its own TRISO-X fuel, with 750 degrees C outlet temperature and projects pursued with Amazon, AEP and Centrica.",
+  "technologies": [
+    "pwr-advanced-reactors",
+    "pwr-small-modular-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://x-energy.com",
+      "note": "X-energy Xe-100 and company pages, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "X-energy Reactor Company"
+  ],
+  "products": [
+    "Xe-100 HTGR",
+    "TRISO-X fuel"
+  ],
+  "url": "https://x-energy.com"
+}

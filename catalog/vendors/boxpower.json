@@ -1,0 +1,26 @@
+{
+  "id": "boxpower",
+  "name": "BoxPower",
+  "country": "USA",
+  "roles": [
+    "packager",
+    "oem"
+  ],
+  "description": "California-based maker of factory pre-engineered, containerised solar-storage-generator microgrids from 5 kW nanogrids to 20 MW+ mine-scale plants, shipped pre-tested with installation in hours to weeks.",
+  "technologies": [
+    "pwr-containerised-hybrid-modules"
+  ],
+  "sources": [
+    {
+      "url": "https://boxpower.io/products/solar-container/",
+      "note": "BoxPower solar container product page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "MegaBox (500 kW-20 MW)",
+    "AutoBox (24 kW-1 MW)",
+    "MiniBox (12-30 kW)"
+  ],
+  "url": "https://boxpower.io"
+}

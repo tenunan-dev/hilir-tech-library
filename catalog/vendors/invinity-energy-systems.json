@@ -1,0 +1,27 @@
+{
+  "id": "invinity-energy-systems",
+  "name": "Invinity Energy Systems",
+  "country": "United Kingdom",
+  "roles": [
+    "oem"
+  ],
+  "description": "London-listed manufacturer of vanadium flow batteries made in Britain (Scotland) and Canada for utility, C&I, microgrid and data-centre storage, with over 11,000 MWh discharged since 2022.",
+  "technologies": [
+    "pwr-flow-batteries"
+  ],
+  "sources": [
+    {
+      "url": "https://invinity.com/",
+      "note": "Invinity Energy Systems homepage (also cited on card pwr-flow-batteries), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Invinity"
+  ],
+  "products": [
+    "Endurium",
+    "Endurium Enterprise"
+  ],
+  "url": "https://invinity.com/"
+}

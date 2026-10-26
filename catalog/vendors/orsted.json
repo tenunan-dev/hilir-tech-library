@@ -1,0 +1,30 @@
+{
+  "id": "orsted",
+  "name": "Ørsted",
+  "country": "Denmark",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Global leader in developing, constructing and operating offshore wind farms from Fredericia, Denmark, with 10.2 GW of offshore wind installed and 8.1 GW under construction, plus onshore wind, solar, storage and trading.",
+  "technologies": [
+    "pwr-offshore-wind-fixed"
+  ],
+  "sources": [
+    {
+      "url": "https://orsted.com/en/about-us",
+      "note": "Ørsted about page (read via web reader after fetch block), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Orsted",
+    "DONG Energy"
+  ],
+  "products": [
+    "offshore wind farm development and operations",
+    "corporate PPAs",
+    "energy trading"
+  ],
+  "url": "https://orsted.com"
+}

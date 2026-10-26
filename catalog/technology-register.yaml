@@ -209,6 +209,13 @@ PWR:
     - Gas engines | C | Wärtsilä, Jenbacher (INNIO), MAN Energy Solutions (Everllence)
     - Hydrogen-capable and ammonia-fired gas turbines | D | Mitsubishi Power, GE Vernova, IHI
     - Ammonia co-firing in coal boilers | D | JERA Hekinan, IHI
+  Modular power plants:
+    - Mobile gas turbine power plants | C | GE Vernova TM2500, PROENERGY PE6000, APR Energy
+    - Modular reciprocating engine power plants | C | Wärtsilä Modular Block, Rolls-Royce (mtu), Everllence (MAN Energy Solutions)
+    - Powerships and power barges | C | Karpowership, Power Barge Corporation, Waller Marine
+    - Containerised hybrid power modules (solar, storage, gensets) | C | Aggreko, BoxPower, Bredenoord
+    - Modular ORC units for waste heat and small geothermal | C | Climeon, Enogia, Exergy, Turboden, Ormat
+    - Microreactors (transportable nuclear) | D | Westinghouse eVinci, BWXT, Oklo
   Renewables:
     - Crystalline silicon PV (PERC, TOPCon, HJT) | C | LONGi, Jinko, Trina, JA Solar
     - Perovskite and tandem solar cells | P | Oxford PV, LONGi research

@@ -1,0 +1,26 @@
+{
+  "id": "hydrostor",
+  "name": "Hydrostor",
+  "country": "Canada",
+  "roles": [
+    "developer"
+  ],
+  "description": "Canadian developer of Advanced Compressed Air Energy Storage (A-CAES) for long-duration grid-scale storage using air, water and underground caverns, with 500 MW-scale projects progressing in the US, Canada and Australia.",
+  "technologies": [
+    "pwr-compressed-liquid-air-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrostor.ca/",
+      "note": "Hydrostor homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Hydrostor Inc"
+  ],
+  "products": [
+    "A-CAES plants (Willow Rock, Quinte, Copper Valley, Silver City, Wellington)"
+  ],
+  "url": "https://www.hydrostor.ca/"
+}

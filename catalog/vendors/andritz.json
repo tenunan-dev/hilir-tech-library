@@ -1,0 +1,28 @@
+{
+  "id": "andritz",
+  "name": "ANDRITZ",
+  "country": "Austria",
+  "roles": [
+    "oem"
+  ],
+  "description": "Graz-based industrial technology group whose hydropower division supplies turbines, generators, automation and services for large and small hydro and pumped storage worldwide.",
+  "technologies": [
+    "pwr-hydropower"
+  ],
+  "sources": [
+    {
+      "url": "https://www.andritz.com/products-en/hydro",
+      "note": "ANDRITZ hydropower page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Andritz Hydro"
+  ],
+  "products": [
+    "hydropower plant equipment",
+    "turbines and generators",
+    "pumped storage machinery"
+  ],
+  "url": "https://www.andritz.com"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ge-hitachi-nuclear-energy",
+  "name": "GE Vernova Hitachi Nuclear Energy",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "US-Japan joint venture of GE Vernova and Hitachi owning the BWRX-300 boiling-water SMR, the first grid-scale SMR under construction in the Western world (Darlington, Canada; first unit targeted for 2030), plus the ESBWR and ABWR large reactors.",
+  "technologies": [
+    "pwr-small-modular-reactors",
+    "pwr-large-light-water-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/nuclear",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova Hitachi Nuclear Energy pages, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "GE Hitachi",
+    "GE Hitachi Nuclear Energy",
+    "GE Vernova Hitachi",
+    "GEH"
+  ],
+  "products": [
+    "BWRX-300 SMR (up to 300 MW)",
+    "ESBWR",
+    "ABWR",
+    "GNF fuel"
+  ],
+  "url": "https://www.gevernova.com/nuclear"
+}

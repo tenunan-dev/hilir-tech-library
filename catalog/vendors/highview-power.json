@@ -1,0 +1,24 @@
+{
+  "id": "highview-power",
+  "name": "Highview Power",
+  "country": "United Kingdom",
+  "roles": [
+    "developer",
+    "oem"
+  ],
+  "description": "UK energy infrastructure business designing, building and operating grid-scale liquid air energy storage (LAES), including the Carrington and Hunterston projects.",
+  "technologies": [
+    "pwr-compressed-liquid-air-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://highviewpower.com/",
+      "note": "Highview Power homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "LAES plants (CRYOBattery)"
+  ],
+  "url": "https://highviewpower.com/"
+}

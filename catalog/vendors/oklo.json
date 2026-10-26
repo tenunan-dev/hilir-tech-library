@@ -1,0 +1,30 @@
+{
+  "id": "oklo",
+  "name": "Oklo",
+  "country": "USA",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Developer of the Aurora powerhouse, a liquid-metal-cooled, metal-fuelled fast reactor of up to 75 MWe sold under long-term power agreements; the first plant at Idaho National Laboratory is forecast to begin commercial operations in 2028, with a DOE-to-NRC licence conversion in progress.",
+  "technologies": [
+    "pwr-microreactors",
+    "pwr-advanced-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/who-were-working-with/pre-application-activities/oklo-aurora-powerhouse",
+      "note": "US NRC pre-application page for Oklo Aurora, updated 15 September 2026, read 26 October 2026"
+    },
+    {
+      "url": "https://oklo.com/business-lines/power",
+      "note": "Oklo power business line page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "Aurora powerhouse (up to 75 MWe)",
+    "HALEU fuel recycling"
+  ],
+  "url": "https://oklo.com"
+}

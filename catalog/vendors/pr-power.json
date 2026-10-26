@@ -1,0 +1,25 @@
+{
+  "id": "pr-power",
+  "name": "PR Power",
+  "country": "Australia",
+  "roles": [
+    "rental",
+    "supplier"
+  ],
+  "description": "Perth-based power equipment sales and rental house supplying solar-lithium-diesel hybrid generators (TRIME OEM) and containerised gensets to mining, construction and off-grid customers across Australia.",
+  "technologies": [
+    "pwr-containerised-hybrid-modules"
+  ],
+  "sources": [
+    {
+      "url": "https://www.prpower.com.au/product-category/generators/solar-hybrid-generators/",
+      "note": "PR Power solar hybrid generators page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "TRIME MGTP solar hybrid generators",
+    "containerised gensets"
+  ],
+  "url": "https://www.prpower.com.au"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "goldwind",
+  "name": "Goldwind",
+  "country": "China",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Clean-energy company with over 20 years in wind power covering the full lifecycle from turbine manufacturing to wind farm construction and maintenance, onshore and offshore, plus the Goldwind DEEP digital platform.",
+  "technologies": [
+    "pwr-onshore-wind",
+    "pwr-offshore-wind-fixed"
+  ],
+  "sources": [
+    {
+      "url": "https://www.goldwind.com/en/",
+      "note": "Goldwind English homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "onshore and offshore wind turbines",
+    "zero-carbon solutions",
+    "DEEP digital platform"
+  ],
+  "url": "https://www.goldwind.com"
+}

@@ -1,0 +1,271 @@
+{
+  "id": "pwr-microreactors",
+  "name": "Microreactors (transportable nuclear)",
+  "aliases": [
+    "microreactors",
+    "nuclear batteries",
+    "transportable microreactors"
+  ],
+  "sector": "PWR",
+  "category": "Modular power plants",
+  "applications": [
+    "remote mines and communities",
+    "military bases",
+    "data centres",
+    "islanded industrial power"
+  ],
+  "maturity": "demonstration",
+  "principle": "Very small nuclear reactors, roughly 1 to 75 MWe, that are fabricated and fuelled in a factory, shipped complete in standard containers and installed on a small site, running for years without on-site refuelling. Designs use heat pipes (Westinghouse eVinci, 5 MWe), high-temperature gas cooling with TRISO fuel (BWXT BANR, 75 MWt) or liquid-metal fast cooling on HALEU (Oklo Aurora, up to 75 MWe). No commercial unit operates yet: the eVinci test reactor reached criticality in September 2026, and Oklo targets commercial operation at Idaho National Laboratory in 2028.",
+  "process_steps": [
+    {
+      "id": "FAB",
+      "name": "Factory fabrication and fuel loading",
+      "equipment": [
+        "reactor module",
+        "TRISO or metal fuel",
+        "conversion equipment (turbine generator or heat exchangers)"
+      ],
+      "to": [
+        "TRANSPORT"
+      ]
+    },
+    {
+      "id": "TRANSPORT",
+      "name": "Container transport to site",
+      "equipment": [
+        "standard shipping containers",
+        "road, rail or barge transport"
+      ],
+      "to": [
+        "SITE"
+      ]
+    },
+    {
+      "id": "SITE",
+      "name": "Site installation and activation",
+      "equipment": [
+        "small reinforced pad (under 2 acres for eVinci)",
+        "heat sink or air cooling",
+        "grid or load connection"
+      ],
+      "to": [
+        "OPERATE"
+      ]
+    },
+    {
+      "id": "OPERATE",
+      "name": "Multi-year operation, then core return",
+      "equipment": [
+        "autonomous control system",
+        "used-core shipping container"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "microreactor core (heat-pipe, HTGR or fast)",
+    "TRISO or HALEU metal fuel",
+    "power conversion unit",
+    "transport and used-fuel containers",
+    "autonomous control system"
+  ],
+  "suppliers": [
+    {
+      "name": "Westinghouse Electric Company",
+      "product": "eVinci 5 MWe heat-pipe microreactor"
+    },
+    {
+      "name": "BWX Technologies",
+      "product": "BANR 75 MWt / 22 MWe HTGR; Project Pele 1-5 MWe transportable microreactor"
+    },
+    {
+      "name": "Oklo",
+      "product": "Aurora powerhouse, up to 75 MWe liquid-metal fast reactor"
+    },
+    {
+      "name": "HolosGen",
+      "product": "Holos Quad 3-13 MWe containerised modules"
+    },
+    {
+      "name": "NANO Nuclear Energy",
+      "product": "KRONOS MMR, ZEUS and LOKI designs"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Westinghouse eVinci output",
+      "unit": "MWe",
+      "basis": "5 MWe from a 15 MWth heat-pipe core; TRISO fuel at 19.75% enrichment; 8+ full-power years before refuelling; transportable in shipping containers by rail, barge and truck",
+      "source": {
+        "url": "https://www.westinghousenuclear.com/energy-systems/evinci-microreactor",
+        "note": "Westinghouse eVinci product page, read 26 October 2026"
+      },
+      "low": 5,
+      "high": 5
+    },
+    {
+      "metric": "eVinci test reactor criticality",
+      "unit": "degrees C",
+      "basis": "reached criticality at 663 degrees C on 3 September 2026 at NCERC, Nevada (DOE ARDP funded); peak core temperature 1,011 degrees C",
+      "source": {
+        "url": "https://www.energy.gov/ne/articles/westinghouse-evinci-microreactor-achieves-criticality-milestone",
+        "note": "US DOE Office of Nuclear Energy article, read 26 October 2026"
+      },
+      "year": 2026,
+      "low": 663,
+      "high": 663
+    },
+    {
+      "metric": "BWXT BANR output",
+      "unit": "MWt",
+      "basis": "75 MWt (22 MWe) high-temperature gas reactor on TRISO fuel at 19.75% enrichment; selected for a Canadian transportable nuclear power plant at Belledune with service targeted in the early 2030s",
+      "source": {
+        "url": "https://www.bwxt.com/sectors/nuclear-energy/smrs-microreactors/bwxt-advanced-nuclear-reactor-banr",
+        "note": "BWXT BANR page, read 26 October 2026"
+      },
+      "low": 75,
+      "high": 75
+    },
+    {
+      "metric": "Oklo Aurora maximum output",
+      "unit": "MWe",
+      "basis": "liquid-metal-cooled, metal-fuelled fast reactor, maximum power level 75 MWe (NRC pre-application docket 99902095); first plant at Idaho National Laboratory forecast to begin commercial operations in 2028",
+      "source": {
+        "url": "https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/who-were-working-with/pre-application-activities/oklo-aurora-powerhouse",
+        "note": "US NRC pre-application page for Oklo Aurora, updated 15 September 2026, read 26 October 2026"
+      },
+      "high": 75
+    },
+    {
+      "metric": "HolosGen Holos Quad output",
+      "unit": "MWe",
+      "basis": "scalable 3-13 MWe from subcritical modules in ISO shipping containers; 3-5 MWe units airliftable; Quad Titan up to 81 MWe",
+      "source": {
+        "url": "https://holosgen.com/",
+        "note": "HolosGen homepage, read 26 October 2026"
+      },
+      "low": 3,
+      "high": 13
+    }
+  ],
+  "advantages": [
+    "Years of operation per fuel load with no on-site refuelling",
+    "Factory fuelled, so most of the nuclear material never leaves the factory system",
+    "Sits on a site under two acres and connects like an industrial plant",
+    "Sized for mines, bases and data centres that grid extensions cannot reach economically"
+  ],
+  "limitations": [
+    "No commercial unit operates yet; every programme is in licensing, test-reactor or demonstration stage",
+    "HALEU fuel supply is constrained, and recycled-fuel plans (Oklo) depend on material availability",
+    "Cost per kW is expected to stay high at micro scale until fleets are built"
+  ],
+  "sources": [
+    {
+      "url": "https://www.westinghousenuclear.com/energy-systems/evinci-microreactor",
+      "note": "Westinghouse eVinci product page, read 26 October 2026"
+    },
+    {
+      "url": "https://info.westinghousenuclear.com/news/westinghouse-evinci-test-reactor-first-to-receive-approval-for-preliminary-safety-design-report",
+      "note": "Westinghouse news release on the approved preliminary safety design report, 3 June 2025, read 26 October 2026"
+    },
+    {
+      "url": "https://www.energy.gov/ne/articles/westinghouse-evinci-microreactor-achieves-criticality-milestone",
+      "note": "US DOE Office of Nuclear Energy article on eVinci criticality, read 26 October 2026"
+    },
+    {
+      "url": "https://www.bwxt.com/sectors/nuclear-energy/smrs-microreactors/bwxt-advanced-nuclear-reactor-banr",
+      "note": "BWXT BANR page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.bwxt.com/bwxts-banr-microreactor-chosen-for-canadian-transportable-nuclear-power-plant-project",
+      "note": "BWXT news release on the Belledune transportable nuclear power plant project, read 26 October 2026"
+    },
+    {
+      "url": "https://www.bwxt.com/sectors/defense-space/land",
+      "note": "BWXT defense and space land systems page (Project Pele), read 26 October 2026"
+    },
+    {
+      "url": "https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/who-were-working-with/pre-application-activities/oklo-aurora-powerhouse",
+      "note": "US NRC pre-application page for Oklo Aurora, read 26 October 2026"
+    },
+    {
+      "url": "https://oklo.com/business-lines/power",
+      "note": "Oklo power business line page, read 26 October 2026"
+    },
+    {
+      "url": "https://holosgen.com/",
+      "note": "HolosGen homepage, read 26 October 2026"
+    },
+    {
+      "url": "https://www.nanonuclearenergy.com",
+      "note": "NANO Nuclear Energy homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost per kW and electricity price under a build-own-operate contract, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Developer pages do not publish prices; Oklo sells power rather than reactors but no figure was read.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: microreactor techno-economic analyses",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "US DOE and Idaho National Laboratory cost studies; DOE sites reachable via energy.gov mirrors",
+          "access": "open"
+        },
+        {
+          "hint": "OSTI.GOV reports; osti.gov is unreachable from this machine",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no separate microreactor entry; SMR entries cover larger units.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): check the SMR entry's scope",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Decide whether the IEA SMR entry covers microreactors, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "status",
+      "item": "licensing and deployment milestones are moving fast",
+      "reason_code": "status_unchecked",
+      "reason": "Milestones read on 26 October 2026 (eVinci criticality, Oklo 2028 target, Belledune early 2030s) will age quickly.",
+      "where": [
+        {
+          "hint": "NRC and DOE news pages, developer newsrooms",
+          "access": "open"
+        }
+      ],
+      "action": "Re-check statuses quarterly and update this card."
+    },
+    {
+      "field": "process",
+      "item": "transport and installation sequence is generalised from vendor claims",
+      "reason_code": "general_knowledge_only",
+      "reason": "Vendor pages state transportability but not a documented installation procedure.",
+      "where": [
+        {
+          "hint": "NRIC DOME test-bed documentation and future eVinci deployment filings",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a named licensing or test-bed document."
+    }
+  ],
+  "notes": "The eVinci test reactor is a scaled-down 3 MWt unit at the NRIC DOME test bed in Idaho (DOE approved its preliminary safety design report in June 2025, the first for a microreactor developer). Oklo's INL unit is being built under DOE authorisation, to be converted to an NRC commercial licence. The US Army selected eVinci for the next phase of its Janus programme in August 2026 (energy.gov article read 26 October 2026)."
+}

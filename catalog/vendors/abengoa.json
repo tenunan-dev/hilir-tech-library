@@ -1,0 +1,27 @@
+{
+  "id": "abengoa",
+  "name": "Abengoa",
+  "country": "Spain",
+  "roles": [
+    "epc"
+  ],
+  "description": "Spanish engineering group historically known for concentrated solar power technology and EPC; its current official site states Abengoa S.A. is in liquidation, with Abenewco units in insolvency proceedings.",
+  "technologies": [
+    "pwr-concentrated-solar-power"
+  ],
+  "sources": [
+    {
+      "url": "http://www.abengoa.com/web",
+      "note": "Abengoa website (now mainly shareholder and insolvency notices), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Abenewco 1"
+  ],
+  "products": [
+    "CSP plants (historical portfolio)"
+  ],
+  "url": "https://www.abengoa.com",
+  "notes": "Record kept for the historical CSP reference base; new CSP business is not verifiable on the current site."
+}

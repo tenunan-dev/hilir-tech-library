@@ -1,0 +1,308 @@
+{
+  "id": "pwr-modular-orc-units",
+  "name": "Modular ORC units for waste heat and small geothermal",
+  "aliases": [
+    "organic Rankine cycle modules",
+    "waste heat to power ORC",
+    "small geothermal ORC"
+  ],
+  "sector": "PWR",
+  "category": "Modular power plants",
+  "applications": [
+    "marine engine waste heat recovery",
+    "reciprocating engine and turbine exhaust heat",
+    "industrial process heat",
+    "small and medium geothermal fields"
+  ],
+  "maturity": "commercial",
+  "principle": "Organic Rankine Cycle modules in the tens of kW to multi-MW range convert heat sources from about 70 to 400 degrees C into electricity using a low-boiling working fluid in a skid- or container-mounted unit. Climeon's HeatPower 300 makes 50-355 kW net from heat as cool as 75 degrees C for ships; Enogia builds 10-180 kWe micro-modules; Exergy supplies plants from 100 kW to 50 MWe around its radial outflow turbine; Turboden and Ormat cover the multi-MW geothermal and industrial market with hundreds of plants installed.",
+  "process_steps": [
+    {
+      "id": "HEAT",
+      "name": "Heat source collection",
+      "equipment": [
+        "jacket water, exhaust or geothermal brine piping",
+        "heat source pump (brine)"
+      ],
+      "to": [
+        "EVAP"
+      ]
+    },
+    {
+      "id": "EVAP",
+      "name": "Preheating and evaporation of working fluid",
+      "equipment": [
+        "preheater",
+        "evaporator"
+      ],
+      "to": [
+        "EXP"
+      ]
+    },
+    {
+      "id": "EXP",
+      "name": "Expansion and power generation",
+      "equipment": [
+        "turbine or screw expander",
+        "generator"
+      ],
+      "to": [
+        "COND"
+      ]
+    },
+    {
+      "id": "COND",
+      "name": "Condensation and working fluid return",
+      "equipment": [
+        "condenser (air or water cooled)",
+        "working fluid pump"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "evaporator and preheater",
+    "expander or radial outflow turbine",
+    "generator",
+    "condenser",
+    "working fluid loop and skid enclosure"
+  ],
+  "suppliers": [
+    {
+      "name": "Climeon",
+      "product": "HeatPower 300 (50-355 kW net) and HeatPower 150 marine modules"
+    },
+    {
+      "name": "Enogia",
+      "product": "10-180 kWe ORC modules, combinable above 1 MWe"
+    },
+    {
+      "name": "Exergy",
+      "product": "radial outflow turbine ORC plants, 100 kW to 50 MWe"
+    },
+    {
+      "name": "Turboden",
+      "product": "ORC units for geothermal, biomass and waste heat, 1-20 MWe class",
+      "source_id": "mitsubishi-heavy"
+    },
+    {
+      "name": "Ormat",
+      "product": "Ormat Energy Converter ORC units for geothermal and recovered heat"
+    },
+    {
+      "name": "ElectraTherm (BITZER Group)",
+      "product": "Power+ Generator waste heat ORC, up to 150 kWe"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Climeon HeatPower 300 net output",
+      "unit": "kW",
+      "basis": "50-355 kW net per unit from 1,000-4,500 kW thermal input; heat source as low as 75 degrees C; footprint 5.8 x 2.4 x 2.8 m",
+      "source": {
+        "url": "https://climeon.com/heatpower-300-technology/",
+        "note": "Climeon HeatPower 300 technology page, read 26 October 2026"
+      },
+      "low": 50,
+      "high": 355
+    },
+    {
+      "metric": "Enogia ORC module range",
+      "unit": "kWe",
+      "basis": "10, 20, 40, 100 and 180 kWe models; waste heat from 70 degrees C; two pipe connections and one cable",
+      "source": {
+        "url": "https://www.enogia.com/orc",
+        "note": "Enogia ORC page, read 26 October 2026"
+      },
+      "low": 10,
+      "high": 180
+    },
+    {
+      "metric": "Exergy ORC plant range",
+      "unit": "MWe",
+      "basis": "plants between 100 kW and 50 MWe from heat sources at 80-400 degrees C; radial outflow turbine up to 30 MW and Gemini turbine up to 60 MWe per unit",
+      "source": {
+        "url": "https://exergyint.com/orc/",
+        "note": "Exergy ORC page, read 26 October 2026"
+      },
+      "low": 0.1,
+      "high": 50
+    },
+    {
+      "metric": "Turboden installed base",
+      "unit": "plants",
+      "basis": "470+ plants in more than 50 countries, over 1 GWe overall installed capacity; plant sizes grew from 1-2 MWe to 10-20 MWe",
+      "source": {
+        "url": "https://www.turboden.com/",
+        "source_id": "mitsubishi-heavy",
+        "note": "Turboden homepage, read 26 October 2026"
+      },
+      "low": 470
+    },
+    {
+      "metric": "Ormat geothermal fleet",
+      "unit": "MW",
+      "basis": "more than 3,200 MW of geothermal capacity across more than 190 plants, described as modular and flexible",
+      "source": {
+        "url": "https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89",
+        "note": "Ormat geothermal page, read 26 October 2026"
+      },
+      "low": 3200
+    },
+    {
+      "metric": "ElectraTherm Power+ Generator output",
+      "unit": "kWe",
+      "basis": "up to 150 kWe currently available (250 kW in development) from heat sources at 70-150 degrees C",
+      "source": {
+        "url": "https://electratherm.com/products/",
+        "note": "ElectraTherm products page, read 26 October 2026"
+      },
+      "high": 150
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Virgin Voyages cruise ships, HeatPower 150",
+      "country": "multi-country operation",
+      "capacity": "900 kW per vessel (six units)",
+      "status": "in service with Lloyd's Register class approval since 2020",
+      "source": {
+        "url": "https://climeon.com/references/",
+        "note": "Climeon references page, read 26 October 2026"
+      }
+    },
+    {
+      "name": "Maersk Horsburgh retrofit",
+      "country": "Denmark (operator)",
+      "capacity": "150 kW",
+      "status": "marine retrofit with ABS approval since 2022",
+      "source": {
+        "url": "https://climeon.com/references/",
+        "note": "Climeon references page, read 26 October 2026"
+      }
+    },
+    {
+      "name": "Fervo Energy geothermal order",
+      "country": "USA",
+      "capacity": "300 MWe (largest project named)",
+      "status": "Turboden homepage names a 300 MWe supply for Fervo Energy",
+      "source": {
+        "url": "https://www.turboden.com/",
+        "source_id": "mitsubishi-heavy",
+        "note": "Turboden homepage, read 26 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Generates power from heat that is too small or too cool for a steam cycle",
+    "Skid-mounted, automated units need little staffing and stack from 10 kW to tens of MW",
+    "Marine class approvals (DNV, Lloyd's Register, ABS) exist for ship retrofits"
+  ],
+  "limitations": [
+    "Conversion efficiency is low at source temperatures under about 100 degrees C (single-digit percent)",
+    "Economics depend on the value of electricity versus simply recovering the heat for other uses",
+    "Working fluids need handling care; some are F-gases with climate reporting obligations"
+  ],
+  "sources": [
+    {
+      "url": "https://climeon.com/heatpower-300-technology/",
+      "note": "Climeon HeatPower 300 technology page, read 26 October 2026"
+    },
+    {
+      "url": "https://climeon.com/references/",
+      "note": "Climeon references page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.enogia.com/orc",
+      "note": "Enogia ORC page, read 26 October 2026"
+    },
+    {
+      "url": "https://exergyint.com/orc/",
+      "note": "Exergy ORC page, read 26 October 2026"
+    },
+    {
+      "url": "https://exergyint.com/radial-outflow-turbine/",
+      "note": "Exergy radial outflow turbine page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.turboden.com/",
+      "source_id": "mitsubishi-heavy",
+      "note": "Turboden homepage, read 26 October 2026"
+    },
+    {
+      "url": "https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89",
+      "note": "Ormat geothermal page, read 26 October 2026"
+    },
+    {
+      "url": "https://electratherm.com/products/",
+      "note": "ElectraTherm products page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per kW for a modular ORC unit, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor pages read do not publish prices.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: ORC waste-heat techno-economic reviews",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "IEA and IRENA renewable cost databases",
+          "access": "open"
+        },
+        {
+          "hint": "MDPI Energies ORC reviews; www.mdpi.com is CDN-blocked, use the manual inbox",
+          "access": "blocked",
+          "source_id": "mdpi-energies"
+        }
+      ],
+      "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA ETP Clean Energy Technology Guide was not re-checked for ORC entries.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for organic Rankine cycle",
+          "access": "open",
+          "source_id": "iea-reports"
+        }
+      ],
+      "action": "Find a TRL table entry or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "reference_plants",
+      "item": "modular ORC installation in Southeast Asia",
+      "reason_code": "not_in_sources_read",
+      "reason": "References read are European and North American.",
+      "where": [
+        {
+          "hint": "Turboden and Exergy reference lists: Indonesian geothermal fields are their natural market",
+          "access": "open"
+        }
+      ],
+      "action": "Add a Southeast Asian (ideally Indonesian geothermal) reference with capacity and year."
+    },
+    {
+      "field": "process",
+      "item": "ORC cycle steps are textbook standard",
+      "reason_code": "general_knowledge_only",
+      "reason": "The cycle description follows standard ORC engineering practice rather than one named source.",
+      "where": [
+        {
+          "hint": "A licensor page or review paper describing the ORC process step by step",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a named source and cite it."
+    }
+  ],
+  "notes": "Turboden is part of the Mitsubishi Heavy Industries group (MHI group companies page is catalogued as mitsubishi-heavy). Enogia's page is in French. Turboden's application pages returned HTTP 503 on 26 October 2026, so only its homepage figures are used."
+}

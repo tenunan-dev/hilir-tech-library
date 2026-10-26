@@ -1,0 +1,30 @@
+{
+  "id": "apr-energy",
+  "name": "APR Energy",
+  "country": "USA",
+  "roles": [
+    "rental",
+    "packager"
+  ],
+  "description": "Turnkey mobile power rental company from Jacksonville, Florida with a fleet over 1.1 GW of TM2500 variants and Mitsubishi FT8 modules, providing 20-500+ MW of bridge power in 30-90 days across more than 35 countries.",
+  "technologies": [
+    "pwr-mobile-gas-turbine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/",
+      "note": "APR Energy homepage, 15 July 2026 Wayback capture, read 26 October 2026"
+    },
+    {
+      "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/",
+      "note": "APR Energy gas turbine fleet page, 15 July 2026 capture, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "TM2500 rental modules (TMBase, TMplus, TM+G4)",
+    "Mitsubishi FT8 rental modules"
+  ],
+  "url": "https://www.aprenergy.com",
+  "notes": "Live website returned HTTP 522 on 26 October 2026; figures come from the archived capture."
+}

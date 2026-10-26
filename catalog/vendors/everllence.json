@@ -1,0 +1,41 @@
+{
+  "id": "everllence",
+  "name": "Everllence",
+  "country": "Germany",
+  "roles": [
+    "oem",
+    "packager"
+  ],
+  "description": "Volkswagen Group engine OEM in Augsburg, renamed from MAN Energy Solutions in June 2025. It offers modularised engine power plants with more than 32 GW installed since 1985, from sub-2.5-minute-start balancing plants to 200 MW+ baseload, and engines for power barges.",
+  "technologies": [
+    "pwr-modular-engine-plants",
+    "pwr-gas-engines",
+    "pwr-powerships-power-barges",
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.everllence.com/energy/solutions/thermal-power/baseload/",
+      "source_id": "man-energy",
+      "note": "Everllence thermal power baseload page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/06/04/man-energy-solutions-becomes-everllence",
+      "source_id": "man-energy",
+      "note": "Everllence renaming press release, 4 June 2025, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "MAN Energy Solutions",
+    "MAN Energy Solutions (Everllence)",
+    "MAN (Everllence)",
+    "MAN Diesel & Turbo"
+  ],
+  "products": [
+    "51/60 series modularised engine power plants",
+    "MAN 175D engines",
+    "engines for power barges (MAN DT 18V48/60TS barge design)"
+  ],
+  "url": "https://www.everllence.com"
+}

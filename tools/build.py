@@ -7,10 +7,14 @@ Outputs:
   catalog/technologies.jsonl    technology cards, one per line
   catalog/index/technologies-<SECTOR>.md  comparison table and block diagrams per sector
   catalog/index/gaps.md         missing inputs: why, where to get them, next action
+  catalog/vendors.jsonl         vendor records, one per line
+  catalog/index/vendors.md      vendor directory with per-sector coverage and the supplier
+                                names on cards that are not yet in the directory
 """
 import collections
 import json
 import pathlib
+import re
 import sys
 
 import jsonschema
@@ -21,6 +25,7 @@ import technologies  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "catalog" / "sources"
+VENDORS = ROOT / "catalog" / "vendors"
 INDEX = ROOT / "catalog" / "index"
 
 
@@ -64,6 +69,72 @@ def _source_ids(obj):
     elif isinstance(obj, list):
         for v in obj:
             yield from _source_ids(v)
+
+
+def load_vendors(card_ids, source_ids):
+    schema = json.loads((ROOT / "schema" / "vendor.schema.json").read_text(encoding="utf-8"))
+    validator = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
+    vendors, errors = [], []
+    for path in sorted(VENDORS.glob("*.json")):
+        vendor = json.loads(path.read_text(encoding="utf-8"))
+        errors += [f"vendors/{path.name}: {'/'.join(map(str, e.path))} {e.message}" for e in validator.iter_errors(vendor)]
+        if vendor.get("id") != path.stem:
+            errors.append(f"vendors/{path.name}: id does not match file name")
+        unknown = sorted(set(vendor["technologies"]) - card_ids)
+        errors += [f"vendors/{path.name}: unknown technology id {t}" for t in unknown]
+        unknown_src = sorted({s["source_id"] for s in vendor["sources"] if "source_id" in s} - source_ids)
+        errors += [f"vendors/{path.name}: unknown source_id {s}" for s in unknown_src]
+        vendors.append(vendor)
+    return vendors, errors
+
+
+def name_key(name):
+    """Normalise a vendor name for matching card suppliers to directory records."""
+    return re.sub(r"\s+", " ", name.split(" (")[0]).strip().lower()
+
+
+def vendor_names(vendor):
+    return {name_key(n) for n in [vendor["name"]] + vendor.get("aliases", [])}
+
+
+def vendors_page(vendors, cards, labels):
+    """catalog/index/vendors.md: directory by sector plus the coverage queue."""
+    by_key = {}
+    for v in vendors:
+        for key in vendor_names(v):
+            by_key[key] = v
+    sector_of = {c["id"]: c["sector"] for c in cards}
+    card_name = {c["id"]: c["name"] for c in cards}
+    covered_sectors = sorted({sector_of[t] for v in vendors for t in v["technologies"]})
+    lines = ["# Vendors, suppliers and packagers", "",
+             f"{len(vendors)} vendor records covering {len({t for v in vendors for t in v['technologies']})} technologies. One record per vendor in",
+             "`catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.",
+             "The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).", ""]
+    for code in covered_sectors:
+        hits = sorted((v for v in vendors if {sector_of[t] for t in v["technologies"]} & {code}),
+                      key=lambda v: v["name"].lower())
+        lines += [f"## {code}: {labels.get(code, code)}", "",
+                  "| Vendor | Country | Roles | Supplies |", "| --- | --- | --- | --- |"]
+        for v in hits:
+            techs = "; ".join(card_name[t] for t in v["technologies"] if sector_of[t] == code)
+            url = f"[{v['name']}]({v['url']})" if v.get("url") else v["name"]
+            lines.append(f"| {url} | {v['country']} | {', '.join(v['roles'])} | {techs} |")
+        lines.append("")
+    # Coverage queue: supplier names on cards whose sector has directory entries, or everywhere, minus matches.
+    queue = {}
+    for c in cards:
+        for s in c["suppliers"]:
+            if name_key(s["name"]) not in by_key:
+                queue.setdefault(c["sector"], {})[name_key(s["name"])] = s["name"]
+    lines += ["## Coverage queue: supplier names on cards not yet in the directory", "",
+              "Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).",
+              "Adding a record for one of them is the next batch of this directory.", ""]
+    for code in sorted(queue):
+        names = sorted(queue[code].values(), key=str.lower)
+        lines.append(f"- **{code}** ({len(names)}): " + "; ".join(names))
+    matched = sum(1 for c in cards if any(name_key(s["name"]) in by_key for s in c["suppliers"]))
+    lines += ["", f"{matched} of {len(cards)} cards list at least one directory vendor.", ""]
+    return "\n".join(lines)
 
 
 def row(rec):
@@ -115,12 +186,15 @@ def main():
     records, errors = load()
     cards, tech_errors = load_technologies({r.get("id") for r in records})
     errors += tech_errors
+    vendors, vendor_errors = load_vendors({c["id"] for c in cards}, {r.get("id") for r in records})
+    errors += vendor_errors
     if errors:
         print("\n".join(errors))
         print(f"{len(errors)} validation errors")
         return 1
     ids = collections.Counter(r["id"] for r in records)
     taxonomy = yaml.safe_load((ROOT / "taxonomy.yaml").read_text(encoding="utf-8"))
+    labels = {code: info["name"] for code, info in {**taxonomy["sectors"], **taxonomy["disciplines"]}.items()}
     with (ROOT / "catalog" / "catalog.jsonl").open("w", encoding="utf-8") as fh:
         for rec in records:
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
@@ -128,13 +202,17 @@ def main():
     with (ROOT / "catalog" / "technologies.jsonl").open("w", encoding="utf-8") as fh:
         for card in cards:
             fh.write(json.dumps(card, ensure_ascii=False) + "\n")
-    labels = {code: info["name"] for code, info in {**taxonomy["sectors"], **taxonomy["disciplines"]}.items()}
+    with (ROOT / "catalog" / "vendors.jsonl").open("w", encoding="utf-8") as fh:
+        for vendor in vendors:
+            fh.write(json.dumps(vendor, ensure_ascii=False) + "\n")
     register = technologies.load_register(cards=cards)
     (INDEX / "technology-register.md").write_text(technologies.register_page(register, labels), encoding="utf-8")
     (INDEX / "gaps.md").write_text(technologies.gaps_page(technologies.gaps(cards, register)), encoding="utf-8")
     for sector in sorted({c["sector"] for c in cards}):
         (INDEX / f"technologies-{sector}.md").write_text(technologies.markdown_page(cards, sector), encoding="utf-8")
-    print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards; indexes written")
+    (INDEX / "vendors.md").write_text(vendors_page(vendors, cards, labels), encoding="utf-8")
+    print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards, "
+          f"{len(vendors)} vendor records; indexes written")
     return 0
 
 

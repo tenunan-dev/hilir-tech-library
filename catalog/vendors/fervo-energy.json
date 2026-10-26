@@ -1,0 +1,24 @@
+{
+  "id": "fervo-energy",
+  "name": "Fervo Energy",
+  "country": "USA",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Developer, owner and operator of enhanced geothermal power assets delivering 24/7 carbon-free electricity using horizontal drilling paired with ORC power generation.",
+  "technologies": [
+    "pwr-enhanced-geothermal"
+  ],
+  "sources": [
+    {
+      "url": "https://fervoenergy.com/about/",
+      "note": "Fervo Energy about page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "products": [
+    "enhanced geothermal projects"
+  ],
+  "url": "https://fervoenergy.com"
+}

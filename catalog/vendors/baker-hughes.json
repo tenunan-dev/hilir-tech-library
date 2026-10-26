@@ -1,0 +1,30 @@
+{
+  "id": "baker-hughes",
+  "name": "Baker Hughes",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Energy technology company supplying gas technology equipment - LM6000 and LM9000 aeroderivative packages and NovaLT small gas turbines - for power generation and mechanical drive, alongside oilfield services and equipment.",
+  "technologies": [
+    "pwr-aeroderivative-turbines",
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/",
+      "source_id": "baker-hughes",
+      "note": "Baker Hughes site (catalogued source record; read for the aeroderivative card)"
+    }
+  ],
+  "products": [
+    "LM6000 and LM9000 aeroderivative packages",
+    "NovaLT gas turbines"
+  ],
+  "aliases": [
+    "Baker Hughes Gas Technology"
+  ],
+  "url": "https://www.bakerhughes.com/",
+  "last_reviewed": "2026-10-26"
+}

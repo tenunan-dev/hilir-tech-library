@@ -1,0 +1,40 @@
+{
+  "id": "proenergy",
+  "name": "PROENERGY",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "packager",
+    "service"
+  ],
+  "description": "Independent aeroderivative OEM and packager based in Sedalia, Missouri, running the largest independent aero depot network. Its PE6000 is a 50 MW fast-start LM6000-interchangeable package; 13 PE6000 units (650 MW) were booked in 2026 for Crusoe AI data centres.",
+  "technologies": [
+    "pwr-mobile-gas-turbine-plants",
+    "pwr-aeroderivative-turbines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/",
+      "note": "PROENERGY PE6000 page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.proenergyservices.com/solutions/manufactured-equipment/package/",
+      "note": "PROENERGY factory package page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.proenergyservices.com/2026/04/proenergy-to-deliver-major-generating-equipment-to-power-crusoe-ai-factories/",
+      "note": "PROENERGY press release, 16 April 2026, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "ProEnergy Services"
+  ],
+  "products": [
+    "PE6000 50 MW fast-start package",
+    "factory-assembled enclosures",
+    "depot overhaul services"
+  ],
+  "url": "https://www.proenergyservices.com",
+  "notes": "The old proenergy.com domain is parked and for sale; the company site is proenergyservices.com."
+}

@@ -1,0 +1,276 @@
+{
+  "id": "pwr-mobile-gas-turbine-plants",
+  "name": "Mobile gas turbine power plants",
+  "aliases": [
+    "Mobile gas turbine units",
+    "TM2500",
+    "bridge power"
+  ],
+  "sector": "PWR",
+  "category": "Modular power plants",
+  "applications": [
+    "bridge power while a permanent plant is built",
+    "grid emergencies and disaster response",
+    "peak shaving",
+    "behind-the-meter power for data centres"
+  ],
+  "maturity": "commercial",
+  "principle": "Aeroderivative gas turbines (LM2500, Industrial Trent 60, FT8, LM6000) packaged on trailers or single-lift skids with generator, enclosure and auxiliaries, so a complete simple-cycle power plant ships by road, sea or air and reaches full load within days to weeks of arrival. Units are fleet-operated for rental bridge power (APR Energy) or sold as packages (GE Vernova TM2500, PROENERGY PE6000), typically 20 to 50 MW each and multipliable to hundreds of MW.",
+  "process_steps": [
+    {
+      "id": "PREP",
+      "name": "Site preparation and grid interface",
+      "equipment": [
+        "crane pad and road access",
+        "step-up transformer",
+        "switchyard connection"
+      ],
+      "to": [
+        "DELIVER"
+      ]
+    },
+    {
+      "id": "DELIVER",
+      "name": "Package delivery and erection",
+      "equipment": [
+        "trailer-mounted or single-lift packaged turbine generator",
+        "enclosure with intake and exhaust"
+      ],
+      "to": [
+        "CONNECT"
+      ]
+    },
+    {
+      "id": "CONNECT",
+      "name": "Fuel and electrical connection",
+      "equipment": [
+        "dual-fuel gas and liquid fuel skid",
+        "power cables and protection relays",
+        "controls and remote monitoring"
+      ],
+      "to": [
+        "OPERATE"
+      ]
+    },
+    {
+      "id": "OPERATE",
+      "name": "Dispatch, then demobilisation",
+      "equipment": [
+        "fast-start control system"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "aeroderivative gas turbine",
+    "generator",
+    "trailer or skid package enclosure",
+    "step-up transformer",
+    "switchgear",
+    "dual-fuel system"
+  ],
+  "suppliers": [
+    {
+      "name": "GE Vernova",
+      "product": "TM2500 mobile packages (DLE and SAC variants)",
+      "source_id": "ge-vernova"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "SGT-A45 TR mobile unit (launched 2017; no longer listed in the current portfolio)",
+      "source_id": "siemens-energy"
+    },
+    {
+      "name": "PROENERGY",
+      "product": "PE6000 50 MW fast-start package, LM6000-interchangeable"
+    },
+    {
+      "name": "APR Energy",
+      "product": "rental fleet of TM2500 variants and Mitsubishi FT8 units, 20-35 MW per unit"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "TM2500 net output at 50 Hz (ISO, natural gas)",
+      "unit": "MW",
+      "basis": "DLE variant 34.5 MW, SAC variant 34.6 MW net; headline rating up to 37 MW simple cycle",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, TM2500 product page, read 26 October 2026"
+      },
+      "low": 34.5,
+      "high": 34.6
+    },
+    {
+      "metric": "TM2500 net efficiency, DLE, 50 Hz",
+      "unit": "%",
+      "basis": "net LHV on natural gas; SAC variant 34.8%; page headline approximately 40%",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, TM2500 product page, read 26 October 2026"
+      },
+      "low": 39.5,
+      "high": 39.5
+    },
+    {
+      "metric": "TM2500 installation time",
+      "unit": "days",
+      "basis": "about 14 days to install; grid power within 30 days of contract signature; 5-minute start",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, TM2500 product page, read 26 October 2026"
+      },
+      "low": 14,
+      "high": 30
+    },
+    {
+      "metric": "Siemens SGT-A45 TR mobile unit output",
+      "unit": "MW",
+      "basis": "up to 44 MW, Industrial Trent 60 based, installed in less than two weeks, full power less than 9 minutes from start",
+      "source": {
+        "url": "https://www.powermag.com/press-releases/siemens-new-44-megawatt-aeroderivative-gas-turbine-for-mobile-power-generation",
+        "note": "Siemens press release via POWER magazine, read 26 October 2026"
+      },
+      "high": 44
+    },
+    {
+      "metric": "PROENERGY PE6000 gross output",
+      "unit": "MW",
+      "basis": "gross heat rate 8,800 Btu/kWh; 5-minute start; factory enclosure unloaded in a single lift; 35% hydrogen ready",
+      "source": {
+        "url": "https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/",
+        "note": "PROENERGY, PE6000 page, read 26 October 2026"
+      },
+      "low": 50.2,
+      "high": 50.2
+    },
+    {
+      "metric": "APR Energy deployment time",
+      "unit": "days",
+      "basis": "30 to 90 days average, some projects in 15 days; 20-35 MW ISO per unit; fleet over 1.1 GW",
+      "source": {
+        "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/",
+        "note": "APR Energy website (live site unreachable on 26 October 2026; 15 July 2026 archive), read 26 October 2026"
+      },
+      "low": 30,
+      "high": 90
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "38 TM2500 units across Algeria",
+      "country": "Algeria",
+      "capacity": "38 units",
+      "status": "operating; fleet of more than 350 units installed worldwide",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova, TM2500 product page, read 26 October 2026"
+      }
+    },
+    {
+      "name": "SAPN bridge power, South Australia",
+      "country": "Australia",
+      "capacity": "276 MW",
+      "status": "APR Energy rapid deployment reference",
+      "source": {
+        "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/",
+        "note": "APR Energy homepage (15 July 2026 archive), read 26 October 2026"
+      }
+    }
+  ],
+  "advantages": [
+    "Fastest capacity addition of any thermal option: weeks from contract to grid",
+    "Relocatable, so units move between projects over a fleet life",
+    "Multi-unit fleets reach several hundred MW with per-unit redundancy"
+  ],
+  "limitations": [
+    "Simple-cycle efficiency near 35-40%, well below combined cycle",
+    "Headline ratings are ISO; net site output in hot climates is lower",
+    "Siemens Energy has withdrawn the SGT-A45 TR mobile package from its portfolio, leaving fewer OEM offers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova, TM2500 product page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/",
+      "note": "PROENERGY, PE6000 page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.proenergyservices.com/solutions/manufactured-equipment/package/",
+      "note": "PROENERGY, factory package page, read 26 October 2026"
+    },
+    {
+      "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/",
+      "note": "APR Energy gas turbine fleet page (15 July 2026 archive), read 26 October 2026"
+    },
+    {
+      "url": "https://www.powermag.com/press-releases/siemens-new-44-megawatt-aeroderivative-gas-turbine-for-mobile-power-generation",
+      "note": "Siemens press release via POWER magazine, read 26 October 2026"
+    },
+    {
+      "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/gas-turbines.html",
+      "source_id": "siemens-energy",
+      "note": "Siemens Energy gas turbine portfolio page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "capital cost per kW and rental day rate, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source read so far gives costs for mobile gas turbine packages.",
+      "where": [
+        {
+          "hint": "arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity",
+          "access": "open",
+          "source_id": "arxiv"
+        },
+        {
+          "hint": "Vendor quotations and cost databases; paid sources are catalog-only",
+          "access": "paid"
+        },
+        {
+          "hint": "OSTI.GOV reports; osti.gov is unreachable from this machine",
+          "access": "blocked",
+          "source_id": "osti"
+        }
+      ],
+      "action": "Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    },
+    {
+      "field": "reference_plants",
+      "item": "reference deployment with capacity in Southeast Asia",
+      "reason_code": "not_in_sources_read",
+      "reason": "The pages read name Algeria, Australia, the Caribbean and the USA but no Southeast Asian deployment.",
+      "where": [
+        {
+          "hint": "GE Vernova and APR Energy reference lists and trade press (Power Magazine, Gas Turbine World)",
+          "access": "open"
+        }
+      ],
+      "action": "Add a Southeast Asian reference with capacity and year."
+    },
+    {
+      "field": "process",
+      "item": "deployment sequence is general engineering practice, not taken from one source",
+      "reason_code": "general_knowledge_only",
+      "reason": "The vendor pages give timings but not a step-by-step deployment flow.",
+      "where": [
+        {
+          "hint": "Vendor installation manuals or trade press deployment reports",
+          "access": "open"
+        }
+      ],
+      "action": "Check the steps against a named source."
+    }
+  ],
+  "notes": "The SGT-A45 TR is treated as historical: it launched in 2017 but no longer appears on the Siemens Energy portfolio page read on 26 October 2026. The PE6000 is a single-lift skid package rather than trailer-mounted; it sits between the trailer-mobile TM2500 class and permanent plant packages. APR Energy's live website was unreachable (HTTP 522) on 26 October 2026; figures come from a 15 July 2026 Wayback capture."
+}

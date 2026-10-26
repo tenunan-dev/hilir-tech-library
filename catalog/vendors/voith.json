@@ -1,0 +1,29 @@
+{
+  "id": "voith",
+  "name": "Voith",
+  "country": "Germany",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Full-line hydropower supplier with 150 years of history: Francis, Kaplan, Pelton and bulb turbines, generators, reversible pump-turbines, HyCon automation and lifecycle services.",
+  "technologies": [
+    "pwr-hydropower"
+  ],
+  "sources": [
+    {
+      "url": "https://voith.com/corp-en/industry-solutions/hydropower.html",
+      "note": "Voith hydropower page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "Voith Hydro"
+  ],
+  "products": [
+    "Francis, Kaplan, Pelton and bulb turbines",
+    "reversible pump-turbines",
+    "HyCon automation"
+  ],
+  "url": "https://voith.com"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ge-vernova",
+  "name": "GE Vernova",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Gas-power, electrification and wind OEM spun off from GE in 2024 with about 7,000 installed gas turbines and roughly 85,000 employees. Its trailer-mounted TM2500 is the benchmark mobile unit for bridge power and disaster response.",
+  "technologies": [
+    "pwr-mobile-gas-turbine-plants",
+    "pwr-heavy-duty-gas-turbines",
+    "pwr-aeroderivative-turbines",
+    "pwr-combined-cycle-hrsg",
+    "pwr-cogeneration-chp",
+    "pwr-hydropower",
+    "pwr-hvdc-transmission"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova TM2500 product page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova 7HA product page (read for card pwr-heavy-duty-gas-turbines)"
+    }
+  ],
+  "last_reviewed": "2026-10-26",
+  "aliases": [
+    "GE Gas Power",
+    "GE Vernova Gas Power"
+  ],
+  "products": [
+    "TM2500 mobile aeroderivative package (DLE, SAC)",
+    "7HA and 9HA heavy-duty gas turbines",
+    "LM-series aeroderivative turbines",
+    "HA combined-cycle plant packages",
+    "hydropower turbines and equipment",
+    "HVDC systems"
+  ],
+  "url": "https://www.gevernova.com"
+}
