@@ -6,6 +6,7 @@
     python tools/load_postgres.py --embeddings fastembed    # compute embeddings here (needs fastembed)
     python tools/load_postgres.py --include-restricted      # only for a database nobody else can read
     python tools/load_postgres.py --dump-graph build/graph  # write nodes.jsonl and edges.jsonl, no database needed
+    python tools/load_postgres.py --grant-readonly          # create the read-only role and print its DSNs (never commit those)
 
 The load replaces the contents of every table in schema `og` inside one transaction, so a failed load
 leaves the previous data. See docs/POSTGRES.md.
@@ -21,9 +22,11 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "agent"))
 import graph  # noqa: E402
 import library  # noqa: E402
+import pg  # noqa: E402
 import technologies  # noqa: E402
 
 SCHEMA = ROOT / "db" / "schema.sql"
+READONLY_SQL = ROOT / "db" / "readonly.sql"
 TABLES = ["edge", "node", "register_entry", "technology_gap", "technology_supplier", "technology_figure",
           "technology_source", "technology_alias", "technology", "chunk", "document", "source_tag", "source"]
 DIM = 384
@@ -102,7 +105,10 @@ def card_search_text(card):
 def load(conn, data, nodes, edges, vectors):
     """Replace all rows. `conn` is an open psycopg connection; the caller commits."""
     cur = conn.cursor()
-    cur.execute(SCHEMA.read_text(encoding="utf-8"))
+    # one statement at a time: the load runs inside a pipeline (see main), which rejects
+    # multi-command strings; _statements keeps the $$ function bodies whole
+    for stmt in _statements(SCHEMA.read_text(encoding="utf-8")):
+        cur.execute(stmt)
     cur.execute("SET search_path = og, public")
     cur.execute("TRUNCATE " + ", ".join(TABLES) + " RESTART IDENTITY CASCADE")
     for r in data["records"]:
@@ -168,6 +174,59 @@ def load(conn, data, nodes, edges, vectors):
             "vectors": len(vectors)}
 
 
+def _statements(sql_text):
+    """Split on ';', keeping $$-quoted bodies whole (the role DO block holds semicolons) and dropping -- lines."""
+    text = "\n".join(line for line in sql_text.splitlines() if not line.lstrip().startswith("--"))
+    out, buf, i = [], [], 0
+    while i < len(text):
+        if text.startswith("$$", i):
+            end = text.find("$$", i + 2)
+            end = len(text) if end < 0 else end + 2
+            buf.append(text[i:end])
+            i = end
+        elif text[i] == ";":
+            statement = "".join(buf).strip()
+            if statement:
+                out.append(statement)
+            buf = []
+            i += 1
+        else:
+            buf.append(text[i])
+            i += 1
+    tail = "".join(buf).strip()
+    if tail:
+        out.append(tail)
+    return out
+
+
+def grant_readonly(dsn):
+    """Create the read-only role from db/readonly.sql and print the DSNs to use with it (terminal only)."""
+    password = os.environ.get("OG_READONLY_PASSWORD") or ""
+    if len(password) < 16:
+        print("Set OG_READONLY_PASSWORD to a password of at least 16 characters.", file=sys.stderr)
+        return 2
+    if not dsn:
+        print("Set DATABASE_URL or pass --dsn.", file=sys.stderr)
+        return 2
+    import psycopg
+    from psycopg import sql
+
+    with psycopg.connect(dsn) as conn:
+        cur = psycopg.ClientCursor(conn)
+        # ClientCursor, not the server-side default: ALTER ROLE ... PASSWORD rejects server-side bind
+        # parameters, and this way the password still goes through psycopg's quoting, never string formatting.
+        for statement in _statements(READONLY_SQL.read_text(encoding="utf-8")):
+            cur.execute(statement)
+        dbname = cur.execute("SELECT current_database()").fetchone()[0]
+        cur.execute(sql.SQL("GRANT CONNECT ON DATABASE {} TO og_mcp_read").format(sql.Identifier(dbname)))
+        cur.execute("ALTER ROLE og_mcp_read LOGIN PASSWORD %s", (password,))
+    pooled = pg.readonly_dsn(dsn, password=password)
+    print(json.dumps({"role": "og_mcp_read",
+                      "read_only_dsn_pooled": pooled,
+                      "read_only_dsn_unpooled": pg._unpooled_dsn(pooled)}))
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dsn", default=os.environ.get("DATABASE_URL"), help="connection string (default: $DATABASE_URL)")
@@ -175,7 +234,12 @@ def main(argv=None):
     ap.add_argument("--include-restricted", action="store_true",
                     help="also load text of full-text-restricted documents (only for a database no one else can read)")
     ap.add_argument("--dump-graph", metavar="DIR", help="write nodes.jsonl and edges.jsonl and exit")
+    ap.add_argument("--grant-readonly", action="store_true",
+                    help="create the og_mcp_read role and print its DSNs (terminal only: never commit the DSN or password)")
     args = ap.parse_args(argv)
+
+    if args.grant_readonly:
+        return grant_readonly(args.dsn)
 
     nodes, edges = graph.build_graph()
     if args.dump_graph:
@@ -204,7 +268,11 @@ def main(argv=None):
                 raise
             print("No embeddings: build them with `python agent/embed.py` or install fastembed. Loading without vectors.", file=sys.stderr)
     with psycopg.connect(args.dsn) as conn:
-        result = load(conn, data, nodes, edges, vectors)
+        # pipeline mode: the chunk/node/edge executemany batches go in one flight, which matters
+        # over the WAN to Neon (per-row round trips cost the full RTT each, and the long silent
+        # stretch gets the connection dropped before the transaction ever commits)
+        with conn.pipeline():
+            result = load(conn, data, nodes, edges, vectors)
     print(json.dumps(result))
     return 0
 

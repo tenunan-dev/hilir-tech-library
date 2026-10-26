@@ -70,6 +70,38 @@ for hit in library.search("hydrogen compressor", region="apac", limit=5):
 
 Command line: `python agent/library.py search hydrogen compressor`.
 
+### Browse in a browser
+
+The hosted server also serves an HTML interface at https://techlib.hilir.app. Sign in once at
+`/login` with the library API key (the same key agents send in the `x-api-key` header); a session
+cookie keeps you signed in for 30 days. Every page also accepts the `x-api-key` header instead of
+the cookie, and any page without a valid session redirects to the sign-in page.
+
+| Page | Shows |
+| --- | --- |
+| `/` | Counts, search box, sector grid |
+| `/search?q=...` | Ranked sources, passages and technology cards |
+| `/technologies`, `/technologies/{id}` | Comparison table; one card in full: block diagram, figures with unit/year/basis/source, suppliers, reference plants, gaps, sources |
+| `/register`, `/sources`, `/documents?path=...`, `/gaps` | The register, catalog records with their documents, document text, missing inputs |
+| `/database` | Row counts, schema reference, example queries |
+| `/database/sql` | Read-only SQL console |
+| `/database/search` | Hybrid keyword + vector search over passages and cards |
+| `/database/graph` | Walk the knowledge graph from one node and draw the neighbourhood |
+
+SQL console rules: one `SELECT` or `WITH` statement against schema `og`, no semicolons and no
+comments, at most 500 rows (default 100). The statement runs as a read-only role with a 15 second
+statement timeout, so it cannot change anything.
+
+`/database/search` fuses keyword and vector ranking when the server can embed the query: the local
+server (with fastembed installed and the index embedded) shows a "semantic" badge; the hosted copy
+shows "keyword only" because its image ships no embedder — the vectors are in Postgres (the SQL
+console's `hybrid_search` vector half works there), but a query vector needs the Mac-side server.
+Run `SELECT * FROM hybrid_search('CO2 storage', NULL, 10)` in the console for keyword ranking anywhere.
+
+The graph browser takes node ids of the form `<kind>:<key>`, for example `technology:ccs-cryogenic`,
+`source:netl`, `org:honeywell-uop`, `region:sea` or `register:CCS/<name>`. The full node id and
+relation list is in [POSTGRES.md](POSTGRES.md).
+
 ## 2. Using results responsibly
 
 Every result carries `licence`, `reuse_level` and `permitted_use`. Follow them:

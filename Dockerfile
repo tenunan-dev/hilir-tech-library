@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir pyyaml && python agent/export_public.py /public
 FROM python:3.12-slim
 WORKDIR /app
 COPY --from=export /public .
-RUN pip install --no-cache-dir -r requirements-agent.txt && python agent/library.py build
+RUN pip install --no-cache-dir -r requirements-agent.txt "psycopg[binary]>=3.1" && python agent/library.py build
 ENV PORT=8000
 EXPOSE 8000
 # LIBRARY_API_KEY must be set at run time (a secret), never baked into the image.

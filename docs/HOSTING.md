@@ -28,21 +28,54 @@ The hosted server runs on Cloudflare Containers, in the Cloudflare account that 
 
 - `deploy/cloudflare/src/index.ts`: a Worker that checks the API key at the edge, then forwards to one container instance (Durable Object "main"). `/health` answers without a key.
 - `deploy/cloudflare/wrangler.jsonc`: builds the repo's `Dockerfile` (open-licence copy only), instance type `basic`, `max_instances` 1, custom domain route.
+- The container has internet access (`enableInternet = true` in the worker) so it can reach Neon Postgres when `DATABASE_URL` is set.
 - The container stops after 30 idle minutes (`sleepAfter`) and restarts on the next request, so the first call after a quiet spell takes a few seconds longer.
 - The API key is the Worker secret `LIBRARY_API_KEY`. The owner's copy is in `~/.config/og-tech-library/api-key` on their Mac (mode 600). It is never in the repo.
+- Optional Worker secret `DATABASE_URL`: the read-only Neon DSN (see docs/POSTGRES.md). It enables the three database tools (`sql_query`, `db_catalog`, `graph_neighbors`) and the `/database` web pages; without it they answer `database not configured`.
 - The image is built from the repo at deploy time: **redeploy after collecting new documents** so the hosted copy matches.
-- After a deploy, the running instance keeps serving the **old** image until Cloudflare cycles it (`npx wrangler containers list` shows `provisioning` with 0 live instances during the swap). Verify the new build only after the swap: `curl -H "x-api-key: $KEY" https://techlib.hilir.app/api/stats` should show the current source and card counts.
+- After a deploy, the running instance keeps serving the **old** image until Cloudflare cycles it (`npx wrangler containers list` shows `provisioning` with 0 live instances during the swap). The swap can take several minutes; until it completes the new UI paths answer 401 or 404 (the old image has no web routes). Verify the new build only after the swap: `curl -H "x-api-key: $KEY" https://techlib.hilir.app/api/stats` should show the current source and card counts.
 - Keyword search only (no embeddings in the image).
 
 ```
 cd deploy/cloudflare
 npm install                      # once
 npx wrangler deploy              # needs Docker running; builds ../../Dockerfile
+# database tools + /database pages (optional):
+tr -d '\n' < ~/.config/og-tech-library/db-readonly.url | npx wrangler secret put DATABASE_URL
 # rotate the key:
 python3 -c 'import secrets;print(secrets.token_urlsafe(32))' > ~/.config/og-tech-library/api-key
 tr -d '\n' < ~/.config/og-tech-library/api-key | npx wrangler secret put LIBRARY_API_KEY
 npx wrangler tail                # live logs
 ```
+
+### Web interface (agent/web.py)
+
+The same container serves a server-rendered HTML interface at the same origin, live since 2026-10-26
+(container image `affe1dfa`). `https://techlib.hilir.app/` is now the UI home page (counts, search box,
+sector grid); `/health` still answers the JSON service banner.
+
+| Path | Shows |
+| --- | --- |
+| `/login`, `/logout` | Sign in / sign out |
+| `/search?q=...` | Ranked sources, passages and technology cards |
+| `/technologies`, `/technologies/{id}` | Comparison table; one card in full: block diagram, figures (unit, year, basis, source), suppliers, reference plants, gaps, sources |
+| `/register` | The ~300-technology register |
+| `/sources`, `/sources/{id}`, `/documents?path=...` | Catalog records and document text |
+| `/gaps` | Missing inputs on the cards |
+| `/database`, `/database/sql`, `/database/search`, `/database/graph` | Row counts, schema reference and example queries; read-only SQL console; hybrid keyword+vector search; knowledge-graph walk with a diagram |
+
+- Sign-in: enter the library API key once at `/login` (the same key agents send in the `x-api-key`
+  header); the server sets a session cookie (`oglib_session`, HMAC-SHA256 of the key, HttpOnly /
+  Secure / SameSite=Lax) that lasts 30 days. Any page without a valid session redirects (303) to
+  `/login?next=...`. Every page also accepts the usual `x-api-key` header instead of the cookie.
+- Licence: the pages serve the same open-licence text as the REST API (`full-text-open` only);
+  restricted sources appear as metadata-only records.
+- Diagrams load Mermaid 11 from jsdelivr; if that script cannot load, the diagram shows as its plain
+  code block.
+- The edge worker forwards UI paths to the container **without** requiring or injecting the API key
+  (the container checks the session cookie), so `UI_PREFIXES` in `deploy/cloudflare/src/index.ts` must
+  stay in sync with `PREFIXES` in `agent/web.py`: a new UI path missing from `UI_PREFIXES` gets a 401
+  at the edge, and one missing from `PREFIXES` gets a 404 from the container.
 
 ### Domain transition (2026-10-26)
 
@@ -67,13 +100,27 @@ curl -s -X POST https://techlib.hilir.app/mcp -H "x-api-key: $KEY" \
 curl -s -X POST https://techlib.hilir.app/mcp -H "x-api-key: $KEY" \
   -H "content-type: application/json" -H "accept: application/json, text/event-stream" \
   -d '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"library_stats","arguments":{}}}'
+# 5. web interface: the unsigned home page redirects to /login
+curl -s -o /dev/null -w '%{http_code} %{redirect_url}\n' https://techlib.hilir.app/
+#    sign in once (saves the session cookie), then load the home page with it
+curl -s -o /dev/null -w '%{http_code}\n' -c /tmp/oglib.cookies \
+  --data-urlencode "key=$KEY" --data-urlencode "next=/" https://techlib.hilir.app/login
+curl -s -o /dev/null -w '%{http_code}\n' -b /tmp/oglib.cookies https://techlib.hilir.app/
+rm -f /tmp/oglib.cookies
+# 6. one database tool call (needs the DATABASE_URL secret on the Worker)
+curl -s -X POST https://techlib.hilir.app/mcp -H "x-api-key: $KEY" \
+  -H "content-type: application/json" -H "accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"sql_query","arguments":{"sql":"SELECT count(*) AS cards FROM technology"}}}'
 ```
 
 Expected: 1 answers the service banner; 2 returns the source/document/chunk/card counts; 3 returns a JSON-RPC
-result with the server's capabilities; 4 returns the same counts as 2 wrapped in a tool result (`"isError":false`).
+result with the server's capabilities; 4 returns the same counts as 2 wrapped in a tool result (`"isError":false`);
+5 prints `303` with a `/login?next=...` redirect for the unsigned page, then `303` from the sign-in POST and
+`200` for the signed-in home page; 6 returns the card count inside a tool result, or a `"database not configured"`
+error result when `DATABASE_URL` is not set.
 The server runs the MCP session statelessly (no `mcp-session-id` header) and answers `application/json`; a
 `notifications/initialized` POST between 3 and 4 gets a 202 but is not required. Full walkthrough of the
-first run of this test (all six steps incl. `tools/list` and `search`): STATUS.md, log entry 2026-10-26.
+first run of this test (including `tools/list` and `search`): STATUS.md, log entry 2026-10-26.
 
 ### REST API (for agents without MCP)
 
@@ -136,7 +183,7 @@ Any other container host (Azure App Service, Google Cloud Run, Fly.io, a VM) wor
 2. Server name: `O&G technology library`. Server description (the orchestrator uses it to decide when to call the server): *Searches a curated library of oil, gas, petrochemical, hydrogen, CCUS and power technology sources, weighted to Asia Pacific and Southeast Asia. Returns sources and passages with url, licence and reuse level.*
 3. Server URL: `https://techlib.hilir.app/mcp` (the live deployment above).
 4. Authentication: **API key**, type **Header**, header name `x-api-key`. Enter the key when creating the connection.
-5. Add the server's tools (`search`, `get_source`, `get_document`, `list_by_tag`, `get_technology`, `compare_technologies`, `list_technology_register`, `list_gaps`, `library_stats`) to the agent and test in the test pane, e.g. *"Which Southeast Asian sources cover LNG liquefaction?"* or *"Compare post-combustion capture technologies with their costs."*
+5. Add the server's tools (`search`, `get_source`, `get_document`, `list_by_tag`, `get_technology`, `compare_technologies`, `list_technology_register`, `list_gaps`, `library_stats`, `sql_query`, `db_catalog`, `graph_neighbors`) to the agent and test in the test pane, e.g. *"Which Southeast Asian sources cover LNG liquefaction?"* or *"Compare post-combustion capture technologies with their costs."* The three database tools need the `DATABASE_URL` secret on the Worker; without it they answer `database not configured`.
 
 Notes:
 - Copilot Studio supports only the streamable HTTP transport (SSE ended in August 2025), which this server uses. Reference: https://learn.microsoft.com/microsoft-copilot-studio/mcp-add-existing-server-to-agent

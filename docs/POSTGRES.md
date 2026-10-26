@@ -51,19 +51,72 @@ export DATABASE_URL='postgresql://user:password@host/dbname?sslmode=require'   #
 python tools/load_postgres.py
 ```
 
-The load replaces every table in one transaction. Rules it keeps:
+Against Neon, load with the **unpooled** owner connection string; the pooled read-only DSN is for the
+server afterwards (see the next section). The load replaces every table in one transaction and runs
+inside a psycopg pipeline, which batches the round trips over the WAN: it finishes in about half a
+minute, where per-row round trips took 13+ minutes and the connection usually died first.
+Because pipeline mode rejects multi-command strings, `db/schema.sql` is executed one statement at a
+time. Rules the load keeps:
 
 - Only text with an open licence (`reuse_level: full-text-open`) is loaded. Restricted documents get a metadata row and no passages, because a hosted database may be read by others. `--include-restricted` is for a database that nobody else can reach.
-- Embeddings come from the local index `build/library.db` when it has them (`python agent/library.py build && python agent/embed.py`, on the Mac where fastembed is installed). `--embeddings fastembed` computes them during the load. Without either, the database still works with keyword search and the graph; load again once embeddings exist.
+- Embeddings come from the local index `build/library.db` when it has them — run `python agent/library.py build && python agent/embed.py` **before** the load (on the Mac, where fastembed is installed). `--embeddings fastembed` computes them during the load instead. Without either, the database still works with keyword search and the graph; load again once embeddings exist.
 - No secrets in the repository: the connection string stays in `DATABASE_URL` or a password manager.
+
+## Read-only access for the MCP server and the web UI
+
+The server never connects as the owner. Run this once, against the **owner** DSN, to create the
+read-only role from [db/readonly.sql](../db/readonly.sql) and print the DSNs to use with it:
+
+```
+export DATABASE_URL='postgresql://owner:password@host/dbname?sslmode=require'   # owner DSN
+export OG_READONLY_PASSWORD='<at least 16 characters>'
+python tools/load_postgres.py --grant-readonly
+```
+
+The command also sets the role's password and `GRANT CONNECT` itself, so no secret is in the file or
+the repository. It is idempotent. The printed **pooled** read-only DSN is the one the server uses:
+keep it at `~/.config/og-tech-library/db-readonly.url` (mode 600, never in the repo) and set it as
+the Cloudflare secret (`tr -d '\n' < ~/.config/og-tech-library/db-readonly.url | npx wrangler secret
+put DATABASE_URL`, see docs/HOSTING.md).
+
+Three layers protect the database:
+
+| Layer | What it enforces |
+| --- | --- |
+| Role grants | `og_mcp_read` gets `USAGE` on schema `og` and `SELECT` on all its tables, current and future (default privileges); no INSERT, UPDATE, DELETE or DDL |
+| Role settings | `ALTER ROLE og_mcp_read SET default_transaction_read_only = on` and `statement_timeout = '15s'`, so even a future grant mistake cannot write or hang |
+| `agent/pg.py` | Every statement is one comment-free `SELECT`/`WITH` (banned keywords rejected), run in its own `READ ONLY` transaction that starts with `SET LOCAL statement_timeout` and `SET LOCAL search_path` (the only SET forms the pooler cannot lose); at most 500 rows and 2,000 characters per cell |
+
+Who uses the role: the MCP tools `sql_query`, `db_catalog` and `graph_neighbors` (they answer
+`database not configured` when `DATABASE_URL` is unset), and the web pages under `/database` — row
+counts, the SQL console, hybrid search and the graph browser.
+
+The Neon project holding the data: `patient-dew-83888795`, branch `production`, region
+`ap-southeast-1` (Singapore).
 
 ## Neon
 
-1. Create a project at neon.tech with your own account (I cannot sign in for you). Pick a region near you, for example Singapore.
-2. pgvector and pg_trgm are available on Neon; `db/schema.sql` runs `CREATE EXTENSION` for both.
-3. Copy the connection string from the Neon dashboard (use the pooled or direct one, with `sslmode=require`).
-4. On the Mac run the load above. The data is small (about 8,000 passages and their vectors), well inside the free storage.
-5. Refresh after cards or documents change: pull, `python tools/build.py`, `python agent/library.py build`, `python agent/embed.py`, `python tools/load_postgres.py`.
+Done, 2026-10-26: project `patient-dew-83888795` (branch `production`, region `ap-southeast-1` —
+Singapore), Postgres 18.6. `db/schema.sql` creates the pgvector and pg_trgm extensions. Loaded:
+348 sources, 168 documents (133 with text; restricted ones are metadata-only rows), 9,835 chunks,
+293 cards, 300 register entries, 3,093 nodes and 8,982 edges.
+
+What was done once (repeat only for a new project):
+
+1. Create the project at neon.tech, region Singapore; copy both owner connection strings from the dashboard (pooled and unpooled, `sslmode=require`).
+2. Store them in `.env.local` (gitignored): `DATABASE_URL` (pooled) and `DATABASE_URL_UNPOOLED` (for loads).
+3. `pip install -r requirements-postgres.txt`, then load with `DATABASE_URL_UNPOOLED` (see *Load it* above).
+4. `OG_READONLY_PASSWORD=... python tools/load_postgres.py --grant-readonly` against the owner DSN; keep the printed pooled read-only DSN at `~/.config/og-tech-library/db-readonly.url` and as the Cloudflare secret `DATABASE_URL`.
+
+Refresh after cards or documents change (on the Mac, where fastembed is installed):
+
+```
+git pull
+python tools/build.py
+python agent/library.py build
+python agent/embed.py                     # skip for a keyword-only refresh
+DATABASE_URL="$DATABASE_URL_UNPOOLED" python tools/load_postgres.py
+```
 
 ## Example queries
 

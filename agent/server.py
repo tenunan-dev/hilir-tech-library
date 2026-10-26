@@ -7,6 +7,7 @@
                                                 # streamable HTTP at /mcp, for hosted agents
                                                 # (Copilot Studio, claude.ai connectors, others),
                                                 # plus a REST API under /api (see agent/api.py)
+An HTML web interface (cards, catalog, gaps, database console) is served under / — see agent/web.py; set DATABASE_URL (a read-only DSN) to enable the Postgres-backed tools.
 
 HTTP mode requires an API key (header x-api-key, or Authorization: Bearer <key>) and by
 default does not serve text from full-text-restricted sources, because people other than the
@@ -26,6 +27,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import api  # noqa: E402
 import embed  # noqa: E402
 import library  # noqa: E402
+import pg  # noqa: E402
+import web  # noqa: E402
 
 try:
     from mcp.server.mcpserver import MCPServer as Server
@@ -128,6 +131,43 @@ def library_stats() -> dict:
     return library.stats(db())
 
 
+@server.tool()
+def sql_query(sql: str, max_rows: int = 100) -> dict:
+    """Run ONE read-only SQL statement against the library's Postgres layer (schema og: catalog
+    sources, documents and passages with vectors, technology cards, the register, the knowledge
+    graph). Read db_catalog first for the table reference. One SELECT or WITH statement only —
+    no semicolon, no comments. Read-only role, 15 s statement timeout, at most 500 rows."""
+    try:
+        return pg.run_sql(sql, max_rows)
+    except pg.NotConfigured:
+        return {"error": "database not configured: set DATABASE_URL (read-only DSN) and reload"}
+    except (pg.BadSql, pg.DatabaseError) as e:
+        return {"error": str(e)}
+
+
+@server.tool()
+def db_catalog() -> dict:
+    """Reference for the Postgres layer — tables and their columns, views, and the
+    graph_neighbors / hybrid_search functions. Read this before writing sql_query statements."""
+    try:
+        return pg.tables_doc()
+    except pg.NotConfigured:
+        return {"error": "database not configured: set DATABASE_URL (read-only DSN) and reload"}
+
+
+@server.tool()
+def graph_neighbors(node: str, depth: int = 1, rels: list[str] | None = None) -> list[dict] | dict:
+    """Walk the knowledge graph from one node (ids like technology:ccs-cryogenic, source:netl,
+    org:honeywell-uop, sector:CCS). depth 1-3; rels limits relations (cites, supplied_by,
+    similar_to, mentions, ...; None follows all)."""
+    try:
+        return pg.graph_neighbors(node, depth, rels)
+    except pg.NotConfigured:
+        return {"error": "database not configured: set DATABASE_URL (read-only DSN) and reload"}
+    except (pg.BadSql, pg.DatabaseError) as e:
+        return {"error": str(e)}
+
+
 class RequireApiKey:
     """ASGI middleware: reject requests without the API key (x-api-key or Authorization: Bearer)."""
 
@@ -135,7 +175,7 @@ class RequireApiKey:
         self.app, self.key = app, key.encode()
 
     async def __call__(self, scope, receive, send):
-        if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS:
+        if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS and not web.is_web_path(scope["path"]):
             headers = dict(scope["headers"])
             given = headers.get(b"x-api-key") or headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
             if not hmac.compare_digest(given, self.key):
@@ -157,6 +197,7 @@ def http_app(key):
         server.settings.json_response = True
         app = server.streamable_http_app()
     app.router.routes.extend(api.routes(sys.modules[__name__]))  # REST API for agents without MCP
+    app.router.routes.extend(web.routes(sys.modules[__name__], key))
     return RequireApiKey(app, key)
 
 

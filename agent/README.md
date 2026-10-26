@@ -38,6 +38,9 @@ Run `embed.py` again after each `library.py build`.
 | `list_technology_register(code, maturity, query)` | The register of about 300 technologies across all sectors |
 | `list_gaps(sector, field, reason_code, include_no_card)` | Inputs the technology cards still lack, with why and where to get them |
 | `library_stats()` | Counts of sources, documents, chunks and technology cards |
+| `sql_query(sql, max_rows=100)` | Rows from one read-only `SELECT`/`WITH` statement against the Postgres layer (schema `og`): guarded, read-only role, 15 s timeout, at most 500 rows. Answers `database not configured` unless `DATABASE_URL` is set |
+| `db_catalog()` | Reference for the Postgres layer — tables and their columns, views, and the `graph_neighbors` / `hybrid_search` functions; read before writing `sql_query` statements |
+| `graph_neighbors(node, depth=1, rels=None)` | The knowledge graph within `depth` hops (1-3) of a node such as `technology:ccs-cryogenic`, `source:netl` or `org:honeywell-uop`; `rels` limits relations, `None` follows all |
 
 Claude Desktop (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):
 
@@ -57,3 +60,9 @@ Claude Code: `claude mcp add og-tech-sources -- /path/to/.venv/bin/python /path/
 The server builds the index on first start if `build/library.db` is missing. For cloud agents
 (Copilot Studio and others) the same tools are also served over HTTPS, with a REST API and OAuth
 sign-in alongside; see [docs/HOSTING.md](../docs/HOSTING.md) (live: `https://techlib.hilir.app/mcp`).
+
+HTTP mode also serves `agent/web.py`, an HTML interface at the same origin: `/` (stats, search, sector
+grid), `/search`, `/technologies/{id}`, `/register`, `/sources/{id}`, `/documents?path=`, `/gaps`, and
+`/database` with a read-only SQL console, hybrid search and a graph browser (`/database/sql`,
+`/database/search`, `/database/graph`). Sign in at `/login` with the API key, or send `x-api-key` on
+any page.

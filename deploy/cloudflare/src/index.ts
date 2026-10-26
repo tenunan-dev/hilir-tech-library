@@ -11,9 +11,14 @@ import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@clou
 
 const ORIGIN = "https://techlib.hilir.app";
 
+// keep in sync with PREFIXES in agent/web.py
+const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/register", "/sources", "/documents", "/gaps", "/database"];
+const isUi = (p: string) => p === "/" || UI_PREFIXES.some((x) => p.startsWith(x));
+
 interface Env {
   LIBRARY: DurableObjectNamespace<Library>;
   LIBRARY_API_KEY: string; // set with: wrangler secret put LIBRARY_API_KEY
+  DATABASE_URL?: string; // read-only Neon DSN for the Postgres layer; set with: wrangler secret put DATABASE_URL (optional)
   OAUTH_KV: KVNamespace;
   OAUTH_PROVIDER: OAuthHelpers;
 }
@@ -21,11 +26,11 @@ interface Env {
 export class Library extends Container<Env> {
   defaultPort = 8000;
   sleepAfter = "30m"; // stop after 30 idle minutes; the next request starts it again
-  enableInternet = false; // the server needs no outbound access
+  enableInternet = true; // the server must reach Neon Postgres when DATABASE_URL is set
 
   constructor(ctx: DurableObjectState<{}>, env: Env) {
     super(ctx, env);
-    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: ORIGIN };
+    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: ORIGIN, ...(env.DATABASE_URL ? { DATABASE_URL: env.DATABASE_URL } : {}) };
   }
 }
 
@@ -122,7 +127,7 @@ const oauthProvider = new OAuthProvider<Env>({
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
-    if (url.pathname === "/" || url.pathname === "/health") {
+    if (url.pathname === "/health") {
       return Response.json({ service: "og-tech-sources library", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json",
                              auth: "x-api-key header, or OAuth for /mcp" });
     }
@@ -130,6 +135,9 @@ export default {
       // The schema holds no data; tools such as ChatGPT Actions import it before they have a key.
       return getContainer(env.LIBRARY, "main").fetch(request);
     }
+    // the web UI authenticates with a session cookie derived from the library key, so the edge
+    // must NOT require or inject the API key on these paths
+    if (isUi(url.pathname)) return getContainer(env.LIBRARY, "main").fetch(request);
     const apiKey = request.headers.get("x-api-key");
     const bearer = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
     if (apiKey !== null || url.pathname.startsWith("/api/")) {
