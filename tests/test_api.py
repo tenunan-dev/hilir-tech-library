@@ -45,3 +45,23 @@ def test_lists_and_records(c):
     assert cards and c.get(f"/api/technologies/{cards[0]['id']}", headers=AUTH).json()["id"] == cards[0]["id"]
     assert isinstance(c.get("/api/register", params={"code": "H2"}, headers=AUTH).json(), list)
     assert isinstance(c.get("/api/gaps", params={"sector": "CCS"}, headers=AUTH).json(), list)
+
+
+def test_vendors_endpoints(c):
+    listed = c.get("/api/vendors", headers=AUTH)
+    assert listed.status_code == 200 and listed.json()
+    assert {"id", "name", "roles", "technologies"} <= set(listed.json()[0])
+    assert c.get("/api/vendors", params={"role": "oem"}, headers=AUTH).json()
+    one = c.get("/api/vendors/wartsila", headers=AUTH)
+    assert one.status_code == 200 and one.json()["name"] and one.json()["sources"]
+    assert c.get("/api/vendors/no-such-vendor", headers=AUTH).status_code == 404
+
+
+def test_search_finds_vendors(c):
+    hits = c.get("/api/search", params={"q": "Wärtsilä", "kind": "vendor"}, headers=AUTH).json()
+    assert hits and hits[0]["kind"] == "vendor" and hits[0]["ref"] == "wartsila"
+
+
+def test_openapi_lists_vendors(c):
+    spec = c.get("/api/openapi.json").json()
+    assert "/api/vendors" in spec["paths"] and "/api/vendors/{vendor_id}" in spec["paths"]

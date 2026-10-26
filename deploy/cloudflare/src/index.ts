@@ -12,7 +12,7 @@ import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@clou
 const ORIGIN = "https://techlib.hilir.app";
 
 // keep in sync with PREFIXES in agent/web.py
-const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/register", "/sources", "/documents", "/gaps", "/database"];
+const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database"];
 const isUi = (p: string) => p === "/" || UI_PREFIXES.some((x) => p.startsWith(x));
 
 interface Env {

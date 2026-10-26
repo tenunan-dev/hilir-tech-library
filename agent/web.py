@@ -1,11 +1,12 @@
-"""Server-rendered HTML interface for the library: browse technology cards, the catalog, the register,
-gaps and, when DATABASE_URL is set, the Postgres layer.
+"""Server-rendered HTML interface for the library: browse technology cards, vendors, the catalog, the register,
+gaps and, when DATABASE_URL is set, the Postgres layer — including its knowledge graph as an interactive
+network and an atlas view of the whole database.
 
     LIBRARY_API_KEY=... python agent/server.py --http --port 8000
     # /                home: library stats, search, sector links
-    # /search /technologies /register /sources /documents /gaps
-    # /database        row counts, schema reference, SQL console, semantic search, graph
-    #                  (the last three only when the environment carries a read-only DATABASE_URL)
+    # /search /technologies /vendors /register /sources /documents /gaps
+    # /database        row counts, schema reference, SQL console, semantic search, graph, atlas
+    #                  (the last four only when the environment carries a read-only DATABASE_URL)
 
 People sign in once at /login with the library API key; the session cookie is Secure because the server
 sits behind TLS at techlib.hilir.app. Agents can call the same pages with the x-api-key header instead.
@@ -23,14 +24,15 @@ import urllib.parse
 from hashlib import sha256
 
 from starlette.requests import Request
-from starlette.responses import HTMLResponse, RedirectResponse
+from starlette.responses import HTMLResponse, JSONResponse, RedirectResponse
 from starlette.routing import Route
 
 import pg
+import vendors as vendor_records
 
 COOKIE = "oglib_session"
 # keep in sync with the worker: deploy/cloudflare/src/index.ts (UI_PREFIXES)
-PREFIXES = ("/login", "/logout", "/search", "/technologies", "/register", "/sources", "/documents", "/gaps", "/database")
+PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database")
 SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
@@ -39,14 +41,24 @@ SECTOR_COLORS = {"UPS": "#8a6d3b", "MID": "#5e8f5e", "GAS": "#b0703a", "REF": "#
                  "PWR": "#c8963e", "H2": "#3e8fc8", "CCS": "#5aa08a"}
 COLOR_FALLBACK = "#5a6b7b"
 MATURITY_COLORS = {"commercial": "#2e7d32", "demonstration": "#1565c0", "pilot": "#ef6c00", "lab": "#616161"}
-NAV = (("Technologies", "/technologies"), ("Register", "/register"), ("Sources", "/sources"),
+NAV = (("Technologies", "/technologies"), ("Vendors", "/vendors"), ("Register", "/register"), ("Sources", "/sources"),
        ("Gaps", "/gaps"), ("Database", "/database"))
 HOME_SECTORS = (("UPS", "upstream"), ("MID", "midstream"), ("GAS", "gas processing & LNG"), ("REF", "refining"),
                 ("PCH", "petrochemicals"), ("PWR", "power"), ("H2", "hydrogen"), ("CCS", "carbon capture"))
 RELS = ["published_by", "in_sector", "covers_discipline", "in_region", "in_country", "from_source", "cites",
         "cites_document", "supplied_by", "realised_by", "example_supplier", "alternative_to", "mentions",
-        "has_gap", "look_in", "similar_to"]
+        "has_gap", "look_in", "supplies", "alias_of", "similar_to"]
 GRAPH_NODE_DEFAULT = "technology:ccs-cryogenic"
+# Knowledge-graph node kinds and their colours in the network and atlas views.
+KIND_COLORS = {"technology": "#4f9ad6", "source": "#d6a44f", "org": "#a8875e", "vendor": "#d6739b",
+               "register": "#9a86c8", "document": "#5aa08a", "gap": "#cf6a66", "sector": "#2f6bab",
+               "discipline": "#7d8a97", "region": "#6da86d", "country": "#c8963e"}
+REL_COLORS = {"supplied_by": "#c2803d", "supplies": "#c2803d", "similar_to": "#8f6cc8", "alternative_to": "#8f6cc8",
+              "cites": "#5e8f5e", "cites_document": "#5e8f5e", "mentions": "#5e8f5e", "in_sector": "#4a7fb5",
+              "published_by": "#7d8a97", "has_gap": "#cf6a66", "look_in": "#cf6a66", "example_supplier": "#c2803d",
+              "realised_by": "#8f6cc8", "alias_of": "#d6739b", "in_region": "#6da86d", "in_country": "#c8963e",
+              "covers_discipline": "#7d8a97", "from_source": "#5aa08a"}
+REL_COLOR_CYCLE = ["#5e8f5e", "#4a7fb5", "#c2803d", "#8f6cc8", "#cf6a66", "#5aa08a", "#c8963e", "#d6739b"]
 SQL_EXAMPLES = (
     ("UPS gaps", "SELECT * FROM v_gap WHERE sector = 'UPS' ORDER BY name LIMIT 50"),
     ("cards citing the same sources",
@@ -131,6 +143,465 @@ summary { cursor: pointer; color: #1a4f8b; font-size: .85rem; }
 footer { max-width: 74rem; margin: 0 auto; padding: .75rem 1rem 2rem; color: #5a6b7b;
          font-size: .85rem; text-align: center; }
 footer a { color: #1a4f8b; }
+/* canvas graph views (network explorer, atlas) */
+.canvasbox { position: relative; background: #0b1622; border: 1px solid #22344a; border-radius: 8px; overflow: hidden; }
+.canvasbox canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+.canvasbox canvas.dragging { cursor: grabbing; }
+.netwrap { height: 34rem; margin: 0 0 1rem; }
+.mapwrap { height: 30rem; }
+.netbar { display: flex; flex-wrap: wrap; gap: .4rem .6rem; align-items: center; margin: 0 0 .6rem; }
+.netbar input[type=text] { flex: 1 1 14rem; }
+.chip { display: inline-block; border: 1px solid #c9d2da; background: #f1f4f6; color: #40506a;
+        border-radius: 999px; padding: 0 .55rem; font-size: .74rem; cursor: pointer; user-select: none; }
+.chip.on { background: #0e2033; border-color: #0e2033; color: #fff; }
+.legend { position: absolute; left: .6rem; bottom: .5rem; right: 1rem; display: flex; flex-wrap: wrap;
+          gap: .15rem .8rem; font-size: .72rem; color: #9fb2c4; z-index: 2; pointer-events: none; }
+.drawer { position: absolute; top: .6rem; right: .6rem; width: 19rem; max-width: 82%; max-height: 92%;
+          overflow-y: auto; background: rgba(14,32,51,.94); color: #dbe6f2; border: 1px solid #2f4d6e;
+          border-radius: 8px; padding: .7rem .8rem; font-size: .82rem; display: none; }
+.drawer.open { display: block; }
+.drawer h3 { margin: 0 0 .3rem; font-size: .95rem; color: #fff; }
+.drawer .kbadges { margin: 0 0 .5rem; }
+.drawer dl { margin: .3rem 0; }
+.drawer dt { font-weight: 600; color: #9fb2c4; font-size: .74rem; margin-top: .35rem; }
+.drawer dd { margin: 0; overflow-wrap: anywhere; }
+.drawer a { color: #8ec3ef; }
+.drawer button { margin: .5rem .4rem 0 0; padding: .2rem .55rem; font-size: .78rem; }
+.drawer .close { position: absolute; top: .3rem; right: .5rem; background: none; border: none;
+                 color: #9fb2c4; font-size: 1rem; padding: 0 .2rem; }
+.tip { position: absolute; pointer-events: none; background: rgba(14,32,51,.95); color: #fff;
+       border: 1px solid #2f4d6e; border-radius: 6px; padding: .15rem .45rem; font-size: .76rem;
+       display: none; max-width: 22rem; z-index: 3; }
+.mapstats { display: grid; grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr)); gap: .5rem;
+            margin: 0 0 .6rem; }
+.mapstats a { display: block; background: #10203180; border: 1px solid #22344a; border-radius: 8px;
+              padding: .4rem .2rem; text-align: center; color: #9fb2c4; font-size: .72rem;
+              text-decoration: none; }
+.mapstats a b { display: block; color: #fff; font-size: 1.1rem; }
+"""
+
+# Interactive force-directed network for /database/graph. Self-contained vanilla JS on one canvas:
+# spring-embedder with per-kind clustering, pan/zoom, click for details, double-click to expand.
+# Uses the NET config object injected just before this script by the database_graph handler.
+GRAPH_JS = """
+(() => {
+  const cv = document.getElementById("net");
+  if (!cv || typeof NET === "undefined") return;
+  const ctx = cv.getContext("2d");
+  const tip = document.getElementById("nettip");
+  const drawer = document.getElementById("drawer");
+  const dpr = window.devicePixelRatio || 1;
+  const nodes = new Map();
+  const edges = [];
+  let center = null, alpha = 0, sel = null, hover = null, userMoved = false, frame = 0;
+  const view = { x: 0, y: 0, k: 1 };
+  const kindColor = (k) => NET.kindColors[k] || "#9fb2c4";
+  const relColor = (r) => NET.relColors[r] || "#7d8a97";
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g,
+    (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+
+  const W = () => cv.width / dpr, H = () => cv.height / dpr;
+  function resize() { cv.width = Math.max(300, cv.clientWidth) * dpr; cv.height = Math.max(220, cv.clientHeight) * dpr; }
+  window.addEventListener("resize", () => { resize(); fit(); });
+  resize();
+
+  function addNode(n, cx, cy) {
+    const nid = n.id || n.node_id;
+    let v = nodes.get(nid);
+    if (v) { v.kind = n.kind; v.label = n.label || nid; v.props = n.props || {}; return v; }
+    const a = Math.random() * 6.2832, r = 40 + Math.random() * 140;
+    v = { id: nid, kind: n.kind, label: n.label || nid, props: n.props || {},
+          x: (cx || 0) + Math.cos(a) * r, y: (cy || 0) + Math.sin(a) * r, vx: 0, vy: 0, deg: 0 };
+    nodes.set(nid, v);
+    return v;
+  }
+  function addEdges(list) {
+    for (const e of list) {
+      const a = nodes.get(e.src), b = nodes.get(e.dst);
+      if (!a || !b) continue;
+      if (edges.some((x) => x.a === a && x.b === b && x.rel === e.rel)) continue;
+      edges.push({ a, b, rel: e.rel });
+    }
+    for (const v of nodes.values()) v.deg = 0;
+    for (const e of edges) { e.a.deg++; e.b.deg++; }
+  }
+  function s2w(px, py) { return { x: (px - W() / 2) / view.k + view.x, y: (py - H() / 2) / view.k + view.y }; }
+
+  const checked = () => [...document.querySelectorAll("#netcontrols input[name=rels]:checked")].map((x) => x.value);
+  const depthVal = () => parseInt(document.getElementById("netdepth").value, 10) || 1;
+
+  async function load(id, opts) {
+    if (!id) return;
+    const o = opts || {};
+    const p = new URLSearchParams();
+    p.set("id", id);
+    p.set("depth", String(o.depth || depthVal()));
+    const rels = o.rels || checked();
+    if (rels.length) p.set("rels", rels.join(","));
+    try {
+      const r = await fetch("/database/graph/neighborhood.json?" + p.toString());
+      const j = await r.json();
+      if (!r.ok || j.error) throw new Error(j.error || ("HTTP " + r.status));
+      if (o.keep) {
+        j.neighbors.forEach((n) => addNode(n));
+        addNode(j.center);
+        addEdges(j.edges);
+        alpha = Math.max(alpha, 0.7);
+      } else {
+        nodes.clear(); edges.length = 0; sel = null; hover = null; hideDrawer();
+        userMoved = false;
+        center = addNode(j.center);
+        j.neighbors.forEach((n) => addNode(n));
+        addEdges(j.edges);
+        alpha = 1;
+        fit();
+      }
+    } catch (err) { flash(String(err.message || err)); }
+  }
+
+  function fit() {
+    if (!nodes.size) return;
+    let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+    for (const v of nodes.values()) {
+      x0 = Math.min(x0, v.x); y0 = Math.min(y0, v.y); x1 = Math.max(x1, v.x); y1 = Math.max(y1, v.y);
+    }
+    const pad = 70;
+    view.x = (x0 + x1) / 2; view.y = (y0 + y1) / 2;
+    view.k = Math.min(2.5, Math.max(0.05, Math.min((W() - pad) / Math.max(80, x1 - x0 + pad), (H() - pad) / Math.max(80, y1 - y0 + pad))));
+  }
+
+  function tick() {
+    const list = [...nodes.values()];
+    const n = list.length;
+    if (alpha > 0.004 && n > 1) {
+      const rep = 1400;
+      for (let i = 0; i < n; i++) {
+        const a = list[i];
+        for (let j = i + 1; j < n; j++) {
+          const b = list[j];
+          let dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy;
+          if (d2 < 0.01) { dx = Math.random() - 0.5; dy = Math.random() - 0.5; d2 = 0.25; }
+          const d = Math.sqrt(d2), f = rep / d2;
+          const fx = (dx / d) * f, fy = (dy / d) * f;
+          a.vx += fx; a.vy += fy; b.vx -= fx; b.vy -= fy;
+        }
+      }
+      for (const e of edges) {
+        const dx = e.b.x - e.a.x, dy = e.b.y - e.a.y;
+        const d = Math.sqrt(dx * dx + dy * dy) || 1;
+        const f = (d - 70) * 0.03, fx = (dx / d) * f, fy = (dy / d) * f;
+        e.a.vx += fx; e.a.vy += fy; e.b.vx -= fx; e.b.vy -= fy;
+      }
+      const cent = {};
+      for (const v of list) {
+        const c = cent[v.kind] || (cent[v.kind] = { x: 0, y: 0, c: 0 });
+        c.x += v.x; c.y += v.y; c.c++;
+      }
+      for (const k in cent) { cent[k].x /= cent[k].c; cent[k].y /= cent[k].c; }
+      for (const v of list) {
+        v.vx += (cent[v.kind].x - v.x) * 0.012 - v.x * 0.006;
+        v.vy += (cent[v.kind].y - v.y) * 0.012 - v.y * 0.006;
+        v.vx *= 0.8; v.vy *= 0.8;
+        v.x += Math.max(-30, Math.min(30, v.vx));
+        v.y += Math.max(-30, Math.min(30, v.vy));
+      }
+      alpha *= 0.988;
+    }
+    if (!userMoved && alpha > 0.05 && ++frame % 24 === 0) fit();
+    draw();
+    requestAnimationFrame(tick);
+  }
+
+  function draw() {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.fillStyle = "#0b1622";
+    ctx.fillRect(0, 0, W(), H());
+    ctx.translate(W() / 2, H() / 2);
+    ctx.scale(view.k, view.k);
+    ctx.translate(-view.x, -view.y);
+    ctx.lineWidth = 1 / view.k;
+    ctx.font = (11 / view.k) + "px system-ui, sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "top";
+    const named = view.k > 0.75;
+    for (const e of edges) {
+      ctx.strokeStyle = relColor(e.rel);
+      ctx.globalAlpha = 0.5;
+      ctx.beginPath(); ctx.moveTo(e.a.x, e.a.y); ctx.lineTo(e.b.x, e.b.y); ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+    for (const v of nodes.values()) {
+      const r = 3 + Math.sqrt(v.deg) * 1.7;
+      ctx.fillStyle = kindColor(v.kind);
+      ctx.beginPath(); ctx.arc(v.x, v.y, r, 0, 6.2832); ctx.fill();
+      if (v === center || v === sel) {
+        ctx.strokeStyle = v === center ? "#ffffff" : "#ffd166";
+        ctx.lineWidth = 1.6 / view.k;
+        ctx.beginPath(); ctx.arc(v.x, v.y, r + 3.5 / view.k, 0, 6.2832); ctx.stroke();
+        ctx.lineWidth = 1 / view.k;
+      }
+      if (named || v.deg >= 6 || v === sel || v === hover) {
+        ctx.fillStyle = "#dbe6f2";
+        const t = v.label.length > 34 ? v.label.slice(0, 33) + "\\u2026" : v.label;
+        ctx.fillText(t, v.x, v.y + r + 2 / view.k);
+      }
+    }
+  }
+
+  function pick(x, y) {
+    let best = null, bd = 1e9;
+    for (const v of nodes.values()) {
+      const r = 3 + Math.sqrt(v.deg) * 1.7 + 4 / view.k;
+      const d = (v.x - x) * (v.x - x) + (v.y - y) * (v.y - y);
+      if (d < r * r && d < bd) { best = v; bd = d; }
+    }
+    return best;
+  }
+
+  function nodeLink(n) {
+    const i = n.id.indexOf(":");
+    const kind = n.id.slice(0, i), key = n.id.slice(i + 1);
+    if (kind === "technology") return "/technologies/" + encodeURIComponent(key);
+    if (kind === "source") return "/sources/" + encodeURIComponent(key);
+    if (kind === "document") return "/documents?path=" + encodeURIComponent(key);
+    if (kind === "gap") return "/technologies/" + encodeURIComponent(key.split(":")[0]);
+    if (kind === "sector") return "/technologies?sector=" + encodeURIComponent(key);
+    return "";
+  }
+
+  function showDrawer(n) {
+    sel = n;
+    const props = n.props || {};
+    const rows = Object.keys(props).filter((k) => props[k] !== "" && props[k] != null)
+      .map((k) => "<dt>" + esc(k) + "</dt><dd>" +
+        esc(Array.isArray(props[k]) ? props[k].join(", ") : props[k]) + "</dd>").join("");
+    const link = nodeLink(n);
+    drawer.innerHTML =
+      '<button class="close" id="dclose" aria-label="Close">\\u2715</button>' +
+      "<h3>" + esc(n.label) + "</h3>" +
+      '<p class="kbadges"><span class="badge" style="background:' + kindColor(n.kind) + '">' + esc(n.kind) + "</span></p>" +
+      "<dl><dt>id</dt><dd>" + esc(n.id) + "</dd></dl>" +
+      (rows ? "<dl>" + rows + "</dl>" : "") +
+      (link ? '<p><a href="' + link + '">Open in the library \\u2192</a></p>' : "") +
+      '<p><button id="dexpand">Expand</button><button id="dcenter">Set as centre</button>' +
+      '<button class="example" id="dfit">Fit</button></p>';
+    drawer.classList.add("open");
+    document.getElementById("dclose").onclick = hideDrawer;
+    document.getElementById("dexpand").onclick = () => load(n.id, { depth: 1, keep: true });
+    document.getElementById("dcenter").onclick = () => load(n.id, { depth: depthVal() });
+    document.getElementById("dfit").onclick = fit;
+  }
+  function hideDrawer() { drawer.classList.remove("open"); sel = null; }
+  function flash(msg) {
+    tip.style.display = "block"; tip.style.left = "12px"; tip.style.top = "12px"; tip.textContent = msg;
+    setTimeout(() => { tip.style.display = "none"; }, 4500);
+  }
+
+  function pos(e) { const r = cv.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; }
+  let pan = null;
+  cv.addEventListener("mousedown", (e) => { pan = { s: pos(e), vx: view.x, vy: view.y, moved: false }; cv.classList.add("dragging"); });
+  window.addEventListener("mousemove", (e) => {
+    if (pan) {
+      const p = pos(e), dx = p.x - pan.s.x, dy = p.y - pan.s.y;
+      if (Math.abs(dx) + Math.abs(dy) > 3) { pan.moved = true; userMoved = true; }
+      view.x = pan.vx - dx / view.k;
+      view.y = pan.vy - dy / view.k;
+      return;
+    }
+    if (e.target !== cv) { hover = null; tip.style.display = "none"; return; }
+    const p = pos(e), w = s2w(p.x, p.y);
+    hover = pick(w.x, w.y);
+    if (hover) {
+      tip.style.display = "block"; tip.style.left = (p.x + 12) + "px"; tip.style.top = (p.y + 12) + "px";
+      tip.textContent = hover.label + " (" + hover.kind + ")";
+      cv.style.cursor = "pointer";
+    } else { tip.style.display = "none"; cv.style.cursor = ""; }
+  });
+  window.addEventListener("mouseup", (e) => {
+    if (!pan) return;
+    const clicked = !pan.moved;
+    pan = null;
+    cv.classList.remove("dragging");
+    if (clicked && e.target === cv) {
+      const p = pos(e), w = s2w(p.x, p.y);
+      const hit = pick(w.x, w.y);
+      if (hit) showDrawer(hit); else hideDrawer();
+    }
+  });
+  cv.addEventListener("dblclick", (e) => {
+    const p = pos(e), w = s2w(p.x, p.y);
+    const hit = pick(w.x, w.y);
+    if (hit) load(hit.id, { depth: 1, keep: true });
+  });
+  cv.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    userMoved = true;
+    const p = pos(e), w = s2w(p.x, p.y);
+    view.k = Math.min(8, Math.max(0.05, view.k * Math.exp(-e.deltaY * 0.0012)));
+    view.x = w.x - (p.x - W() / 2) / view.k;
+    view.y = w.y - (p.y - H() / 2) / view.k;
+  }, { passive: false });
+
+  const form = document.getElementById("netcontrols");
+  const nodebox = document.getElementById("nodebox");
+  const datalist = document.getElementById("nodelist");
+  let deb = 0;
+  nodebox.addEventListener("input", () => {
+    clearTimeout(deb);
+    const q = nodebox.value.trim();
+    if (q.length < 2) { datalist.innerHTML = ""; return; }
+    deb = setTimeout(async () => {
+      try {
+        const r = await fetch("/database/graph/nodes.json?q=" + encodeURIComponent(q));
+        const j = await r.json();
+        if (Array.isArray(j)) {
+          datalist.innerHTML = j.map((n) =>
+            '<option value="' + esc(n.id) + '">' + esc(n.label) + "</option>").join("");
+        }
+      } catch (err) { /* suggestions are optional */ }
+    }, 250);
+  });
+  form.addEventListener("submit", (e) => { e.preventDefault(); load(nodebox.value.trim()); });
+  document.getElementById("netdepth").addEventListener("change", () => { if (center) load(center.id); });
+  form.querySelectorAll("input[name=rels]").forEach((x) =>
+    x.addEventListener("change", () => { if (center) load(center.id); }));
+  document.getElementById("netfit").addEventListener("click", fit);
+
+  if (NET.node) load(NET.node, { depth: NET.depth, rels: NET.rels });
+  tick();
+})();
+"""
+
+# The atlas for /database/map: the whole knowledge graph as a constellation. One bubble per node
+# kind sized by its live count, one drifting dot per real node (capped), and ribbons for the
+# kind-pairs that actually have edges. Uses the ATLAS config object injected before this script.
+ATLAS_JS = """
+(() => {
+  const cv = document.getElementById("atlas");
+  if (!cv || typeof ATLAS === "undefined") return;
+  const ctx = cv.getContext("2d");
+  const tip = document.getElementById("atlastip");
+  const dpr = window.devicePixelRatio || 1;
+  const kinds = ATLAS.kinds || [];
+  const color = (k) => ATLAS.kindColors[k] || "#9fb2c4";
+  const relColor = (r) => ATLAS.relColors[r] || "#7d8a97";
+  let t = 0;
+  let lastW = 0, lastH = 0;
+
+  function resize() { cv.width = Math.max(300, cv.clientWidth) * dpr; cv.height = Math.max(240, cv.clientHeight) * dpr; }
+  window.addEventListener("resize", () => { resize(); layout(); });
+  resize();
+
+  const K = Math.max(1, kinds.length);
+  function layout() {
+    lastW = cv.width; lastH = cv.height;
+    const w = cv.width / dpr, h = cv.height / dpr;
+    const R = Math.min(w, h) * 0.33, maxn = kinds.length ? kinds[0].n : 1, maxr = Math.min(w, h) * 0.14;
+    kinds.forEach((k, i) => {
+      const a = -Math.PI / 2 + (i * 2 * Math.PI) / K;
+      k.bx = w / 2 + Math.cos(a) * R;
+      k.by = h / 2 + Math.sin(a) * R;
+      k.r = Math.max(16, maxr * Math.sqrt(k.n / maxn));
+    });
+  }
+  layout();
+
+  const byKind = kinds.map(() => []);
+  kinds.forEach((k, ki) => {
+    const m = Math.min(k.n, 140);
+    for (let i = 0; i < m; i++) {
+      const a = Math.random() * 6.2832, rr = Math.sqrt(Math.random()) * 0.92;
+      byKind[ki].push({ dx: Math.cos(a) * rr, dy: Math.sin(a) * rr, ph: Math.random() * 6.2832, sp: 0.4 + Math.random() * 0.8 });
+    }
+  });
+  const ribbons = (ATLAS.pairs || []).filter((p) => p.n >= 3).slice(0, 36)
+    .map((p) => ({ ...p, a: kinds.find((k) => k.kind === p.src_kind), b: kinds.find((k) => k.kind === p.dst_kind) }))
+    .filter((p) => p.a && p.b);
+
+  function ctrl(rb) {
+    const w = cv.width / dpr, h = cv.height / dpr;
+    const mx = (rb.a.bx + rb.b.bx) / 2, my = (rb.a.by + rb.b.by) / 2;
+    return { x: (w / 2 + mx) / 2, y: (h / 2 + my) / 2 };
+  }
+
+  function draw() {
+    if (cv.width !== lastW || cv.height !== lastH) layout();
+    const w = cv.width / dpr, h = cv.height / dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.fillStyle = "#0b1622";
+    ctx.fillRect(0, 0, w, h);
+    for (const rb of ribbons) {
+      const c = ctrl(rb);
+      ctx.strokeStyle = relColor(rb.rel);
+      ctx.globalAlpha = 0.3;
+      ctx.lineWidth = Math.min(9, 0.7 + Math.log10(1 + rb.n) * 1.8);
+      ctx.beginPath();
+      ctx.moveTo(rb.a.bx, rb.a.by);
+      ctx.quadraticCurveTo(c.x, c.y, rb.b.bx, rb.b.by);
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+    kinds.forEach((k, ki) => {
+      ctx.fillStyle = color(k.kind) + "26";
+      ctx.beginPath(); ctx.arc(k.bx, k.by, k.r, 0, 6.2832); ctx.fill();
+      ctx.strokeStyle = color(k.kind);
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.fillStyle = color(k.kind);
+      for (const d of byKind[ki]) {
+        ctx.globalAlpha = 0.7;
+        ctx.beginPath();
+        ctx.arc(k.bx + d.dx * k.r + Math.sin(t * d.sp + d.ph) * 3,
+                k.by + d.dy * k.r + Math.cos(t * d.sp * 0.8 + d.ph) * 3, 1.5, 0, 6.2832);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      ctx.fillStyle = "#dbe6f2";
+      ctx.font = "12px system-ui, sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText(k.kind + " \\u00b7 " + k.n, k.bx, Math.min(h - 16, k.by + k.r + 8));
+    });
+  }
+
+  function pick(p) {
+    for (const k of kinds) {
+      const dx = p.x - k.bx, dy = p.y - k.by;
+      if (dx * dx + dy * dy <= k.r * k.r) return { type: "kind", k };
+    }
+    for (const rb of ribbons) {
+      const c = ctrl(rb);
+      for (let i = 0; i <= 24; i++) {
+        const u = i / 24, iu = 1 - u;
+        const x = iu * iu * rb.a.bx + 2 * iu * u * c.x + u * u * rb.b.bx;
+        const y = iu * iu * rb.a.by + 2 * iu * u * c.y + u * u * rb.b.by;
+        const dx = p.x - x, dy = p.y - y;
+        if (dx * dx + dy * dy < 49) return { type: "rel", rb };
+      }
+    }
+    return null;
+  }
+  function pos(e) { const r = cv.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; }
+  cv.addEventListener("mousemove", (e) => {
+    const p = pos(e), hit = pick(p);
+    if (hit) {
+      tip.style.display = "block"; tip.style.left = (p.x + 12) + "px"; tip.style.top = (p.y + 12) + "px";
+      tip.textContent = hit.type === "kind"
+        ? hit.k.kind + " \\u2014 " + hit.k.n + " nodes \\u00b7 click to open the network here"
+        : hit.rb.rel + " \\u2014 " + hit.rb.n + " edges (" + hit.rb.src_kind + " \\u2192 " + hit.rb.dst_kind + ")";
+      cv.style.cursor = "pointer";
+    } else { tip.style.display = "none"; cv.style.cursor = ""; }
+  });
+  cv.addEventListener("click", async (e) => {
+    const hit = pick(pos(e));
+    if (!hit || hit.type !== "kind") return;
+    try {
+      const r = await fetch("/database/graph/center.json?kind=" + encodeURIComponent(hit.k.kind));
+      const j = await r.json();
+      if (j.id) window.location.href = "/database/graph?node=" + encodeURIComponent(j.id) + "&depth=2";
+    } catch (err) { /* navigation is best-effort */ }
+  });
+  (function frame() { t += 0.016; draw(); requestAnimationFrame(frame); })();
+})();
 """
 
 
@@ -302,7 +773,8 @@ def _bad_request(message) -> HTMLResponse:
 
 SECTOR_OPTIONS = [("", "any sector")] + [(c, c) for c in SECTOR_SELECT]
 MATURITY_OPTIONS = [("", "any maturity")] + [(m, m) for m in MATURITIES]
-KIND_OPTIONS = [("all", "all"), ("source", "source"), ("chunk", "chunk"), ("technology", "technology")]
+KIND_OPTIONS = [("all", "all"), ("source", "source"), ("chunk", "chunk"), ("technology", "technology"),
+                ("vendor", "vendor")]
 REUSE_OPTIONS = [("", "any reuse level")] + [(r, r) for r in REUSE_LEVELS]
 FIELD_OPTIONS = [("", "any field")] + [(f, f) for f in GAP_FIELDS]
 
@@ -319,7 +791,8 @@ def routes(tools, key: str) -> list:
             f'style="background:{SECTOR_COLORS.get(code, COLOR_FALLBACK)}"></span>{esc(label)}</a>'
             for code, label in HOME_SECTORS)
         more = " · ".join(f'<a href="{href}">{label}</a>' for href, label in (
-            ("/register", "Register"), ("/sources", "Sources"), ("/gaps", "Gaps"), ("/database", "Database")))
+            ("/vendors", "Vendors"), ("/register", "Register"), ("/sources", "Sources"), ("/gaps", "Gaps"),
+            ("/database", "Database"), ("/database/map", "Atlas")))
         body = (
             f'<section class="card"><div class="stats">{cards}</div></section>'
             '<section class="card big"><form action="/search" method="get">'
@@ -367,10 +840,12 @@ def routes(tools, key: str) -> list:
         if query.strip():
             results = tools.search(query, kind or "all", sector or None, None, None, None, 30)
             sections = []
-            for title, want in (("Technologies", "technology"), ("Sources", "source"), ("Passages", "chunk")):
+            for title, want in (("Technologies", "technology"), ("Vendors", "vendor"), ("Sources", "source"),
+                                ("Passages", "chunk")):
                 hits = [r for r in results if r.get("kind") == want]
                 if hits:
-                    render = _tech_row if want == "technology" else _source_row if want == "source" else _chunk_row
+                    render = _tech_row if want == "technology" else _vendor_row if want == "vendor" else \
+                        _source_row if want == "source" else _chunk_row
                     sections.append(_section(title, '<ul class="hits">' + "".join(render(r) for r in hits) + "</ul>"))
             body += sections or [_section("", '<p class="muted">No results. Try fewer or different words.</p>')]
         return _page("Search", "".join(body), q=query)
@@ -432,6 +907,45 @@ def routes(tools, key: str) -> list:
         if diagram:
             body.append(MERMAID_SCRIPT)
         return _page(str(card.get("name") or card.get("id")), "".join(body), active="/technologies")
+
+    async def vendors_page(request: Request):
+        qp = request.query_params
+        sector, role, query = str(qp.get("sector") or ""), str(qp.get("role") or ""), str(qp.get("q") or "")
+        items = tools.list_vendors(role or None, sector or None, query or None)
+        vid = str(qp.get("id") or "")
+        if vid:
+            items = [v for v in items if v.get("id") == vid]
+        # linked technology names come from the built index, so the hosted server agrees with this page
+        card_names = {t.get("id"): t.get("name") for t in tools.compare_technologies()}
+        body_rows = []
+        for v in items:
+            name = f'<a href="{esc(v["url"])}">{esc(v["name"])}</a>' if v.get("url") else esc(v["name"])
+            techs = "; ".join(f'<a href="/technologies/{esc(t)}">{esc(card_names.get(t, t))}</a>'
+                              for t in v.get("technologies", []))
+            body_rows.append(f'<tr><td>{name}</td><td>{esc(v.get("country") or "—")}</td>'
+                             f'<td>{esc(", ".join(v.get("roles", [])))}</td>'
+                             f'<td>{esc("; ".join(v.get("products", []))) or "—"}</td>'
+                             f'<td>{techs or "—"}</td>'
+                             f'<td class="muted small"><a href="/database/graph?node=vendor:{esc(v["id"])}&amp;depth=1">graph</a></td></tr>')
+        body = ('<section class="card"><form class="filters" method="get" action="/vendors">'
+                + _select("sector", SECTOR_OPTIONS, sector)
+                + _select("role", [("", "any role")] + [(r, r) for r in
+                            ("oem", "licensor", "packager", "epc", "developer", "operator", "rental", "service",
+                             "supplier", "integrator")], role)
+                + f' <input type="search" name="q" value="{esc(query)}" placeholder="name, product, description" size="20">'
+                + ' <button type="submit">Filter</button></form>'
+                + f'<p class="muted">{len(items)} vendor records. Curated one-per-vendor directory citing its pages; '
+                'the graph column opens the record in the network view.</p>'
+                + '<div class="scroll"><table><thead><tr><th>Vendor</th><th>Country</th><th>Roles</th><th>Products</th>'
+                + f'<th>Supplies</th><th></th></tr></thead><tbody>{"".join(body_rows)}</tbody></table></div></section>')
+        queue = _coverage_queue()
+        if queue:
+            blocks = "".join(f"<li><b>{esc(code)}</b> ({len(names)}): {esc('; '.join(names))}</li>"
+                             for code, names in queue)
+            body += (_section("Coverage queue: supplier names on cards not yet in the directory",
+                              f'<ul class="small">{blocks}</ul><p class="muted small">Adding a record for one of '
+                              'them is the next batch of the directory (see catalog/index/vendors.md).</p>'))
+        return _page("Vendors", body, active="/vendors")
 
     async def register(request: Request):
         qp = request.query_params
@@ -629,22 +1143,42 @@ def routes(tools, key: str) -> list:
         if not pg.configured():
             return _page("Graph", _db_panel(), active="/database")
         qp = request.query_params
-        node = str(qp.get("node") or "")
-        depth = _int(qp.get("depth"), 1, 1, 2)
+        node = str(qp.get("node") or GRAPH_NODE_DEFAULT)
+        depth = _int(qp.get("depth"), 2, 1, 3)
         chosen = [r for r in RELS if r in qp.getlist("rels")]
-        boxes = "".join(f'<label class="check"><input type="checkbox" name="rels" value="{esc(r)}"'
-                        f'{" checked" if r in chosen else ""}>{esc(r)}</label>' for r in RELS)
-        body = ['<section class="card"><form method="get" action="/database/graph">'
-                f'<p><label>Start node <input type="text" name="node" value="{esc(node or GRAPH_NODE_DEFAULT)}" size="34"></label> '
-                f'<label>Depth <select name="depth"><option value="1"{" selected" if depth == 1 else ""}>1</option>'
-                f'<option value="2"{" selected" if depth == 2 else ""}>2</option></select></label> '
-                '<button type="submit">Walk</button></p>'
-                f'<p>{boxes}</p><p class="muted small">Leave every relation unchecked to follow all of them.</p></form></section>']
+        try:
+            overview = pg.graph_overview()
+        except pg.DatabaseError as e:
+            return _page("Graph", _error_box(str(e)), active="/database")
+        rel_counts = {r["rel"]: r["n"] for r in overview["rels"]}
+        kind_counts = {k["kind"]: k["n"] for k in overview["kinds"]}
+        boxes = "".join(
+            f'<label class="check"><input type="checkbox" name="rels" value="{esc(r)}"'
+            f'{" checked" if r in chosen else ""}>{esc(r)} <span class="muted">{rel_counts.get(r, 0)}</span></label>'
+            for r in RELS)
+        legend = "".join(
+            f'<span><span class="dot" style="background:{KIND_COLORS.get(k, COLOR_FALLBACK)}"></span> '
+            f'{esc(k)} <span class="muted">{n}</span></span>' for k, n in kind_counts.items())
+        body = ['<section class="card"><form id="netcontrols" method="get" action="/database/graph">'
+                '<div class="netbar">'
+                f'<label>Start node <input type="text" id="nodebox" name="node" list="nodelist" value="{esc(node)}" size="30"></label>'
+                '<datalist id="nodelist"></datalist>'
+                '<label>Depth <select name="depth" id="netdepth">'
+                + "".join(f'<option value="{d}"{" selected" if d == depth else ""}>{d}</option>' for d in (1, 2, 3))
+                + '</select></label> <button type="submit">Walk</button>'
+                '<button type="button" class="example" id="netfit">Fit</button>'
+                '<a class="small" href="/database/map">Atlas view →</a></div>'
+                f'<p class="small">{boxes}</p>'
+                '<p class="muted small">With every relation unchecked the walk follows all of them. In the map: '
+                'click a node for details, double-click to expand it, drag to pan, scroll to zoom.</p></form></section>'
+                f'<div class="canvasbox netwrap"><canvas id="net"></canvas><div class="tip" id="nettip"></div>'
+                f'<div class="drawer" id="drawer"></div><div class="legend">{legend}</div></div>']
         if node.strip():
             try:
                 rows = pg.graph_neighbors(node, depth, chosen or None)
-            except pg.NotConfigured:
-                return _page("Graph", _db_panel(), active="/database")
+            except pg.BadSql as e:
+                rows = None
+                body.append(_error_box(str(e)))
             except pg.DatabaseError as e:
                 rows = None
                 body.append(_error_box(str(e)))
@@ -654,15 +1188,92 @@ def routes(tools, key: str) -> list:
                         f"<tr><td>{esc(r.get('node_id'))}</td><td>{esc(r.get('kind'))}</td><td>{esc(r.get('label'))}</td>"
                         f"<td>{esc(r.get('depth'))}</td><td>{esc(', '.join(str(v) for v in r.get('via') or []))}</td></tr>"
                         for r in rows)
-                    body.append(_section("Neighbors", '<div class="scroll"><table><thead><tr><th>Node</th><th>Kind</th>'
-                                         '<th>Label</th><th>Depth</th><th>Via</th></tr></thead>'
-                                         f'<tbody>{trs}</tbody></table></div>'))
-                    diagram, shown, total = _graph_mermaid(node, rows)
-                    cut = f'<p class="muted">showing {shown} of {total} nodes</p>' if shown < total else ""
-                    body.append(_section("Diagram", f'<pre class="mermaid">{esc(diagram)}</pre>{cut}{MERMAID_SCRIPT}'))
+                    body.append('<details class="card"><summary>The same walk as a table (works without JavaScript)</summary>'
+                                '<div class="scroll"><table><thead><tr><th>Node</th><th>Kind</th><th>Label</th>'
+                                '<th>Depth</th><th>Via</th></tr></thead>'
+                                f'<tbody>{trs}</tbody></table></div></details>')
                 else:
                     body.append(_section("", '<p class="muted">No neighbors found for that node.</p>'))
+        net = json.dumps({"node": node, "depth": depth, "rels": chosen, "kindColors": KIND_COLORS,
+                          "relColors": REL_COLORS}).replace("</", "<\\/")
+        body.append(f"<script>const NET = {net};\n{GRAPH_JS}</script>")
         return _page("Graph", "".join(body), active="/database")
+
+    async def database_map(request: Request):
+        if not pg.configured():
+            return _page("Atlas", _db_panel(), active="/database")
+        try:
+            overview = pg.graph_overview()
+            counts = pg.counts()
+        except pg.DatabaseError as e:
+            return _page("Atlas", _error_box(str(e)), active="/database")
+        stat = "".join(f'<a href="/database"><b>{esc(v)}</b>{esc(k)}</a>' for k, v in counts.items())
+        kind_rows = "".join(f'<tr><td>{esc(k["kind"])}</td><td>{k["n"]}</td></tr>' for k in overview["kinds"])
+        rel_rows = "".join(f'<tr><td>{esc(r["rel"])}</td><td>{r["n"]}</td></tr>' for r in overview["rels"])
+        atlas = json.dumps({"kinds": overview["kinds"], "pairs": overview["pairs"],
+                            "kindColors": KIND_COLORS, "relColors": REL_COLORS}).replace("</", "<\\/")
+        body = [f'<section class="card"><div class="mapstats">{stat}</div></section>',
+                '<section class="card"><h2>Library atlas</h2>'
+                '<p class="muted small">Each bubble is one kind of node in the knowledge graph, sized by how many '
+                'nodes of that kind the database holds, with one drifting dot per real node (capped at 140 per kind). '
+                'Ribbons are the relations between kinds, thicker when there are more edges. Click a bubble to open '
+                'the network view at that kind&rsquo;s most connected node; hover a ribbon for the relation.</p>'
+                '<div class="canvasbox mapwrap"><canvas id="atlas"></canvas><div class="tip" id="atlastip"></div></div></section>',
+                '<details class="card"><summary>The same numbers as tables</summary><div class="scroll">'
+                '<table><thead><tr><th>Kind</th><th>Nodes</th></tr></thead><tbody>' + kind_rows + '</tbody></table>'
+                '<table><thead><tr><th>Relation</th><th>Edges</th></tr></thead><tbody>' + rel_rows +
+                '</tbody></table></div></details>',
+                f"<script>const ATLAS = {atlas};\n{ATLAS_JS}</script>"]
+        return _page("Atlas", "".join(body), active="/database")
+
+    async def graph_overview_json(request: Request):
+        if not pg.configured():
+            return JSONResponse({"error": "database not configured"}, status_code=503)
+        try:
+            return JSONResponse(pg.graph_overview())
+        except pg.DatabaseError as e:
+            return JSONResponse({"error": str(e)}, status_code=502)
+
+    async def graph_nodes_json(request: Request):
+        if not pg.configured():
+            return JSONResponse({"error": "database not configured"}, status_code=503)
+        q = str(request.query_params.get("q") or "")
+        if len(q.strip()) < 2:
+            return JSONResponse([])
+        try:
+            return JSONResponse(pg.node_search(q, _int(request.query_params.get("limit"), 12, 1, 30)))
+        except pg.DatabaseError as e:
+            return JSONResponse({"error": str(e)}, status_code=502)
+
+    async def graph_neighborhood_json(request: Request):
+        if not pg.configured():
+            return JSONResponse({"error": "database not configured"}, status_code=503)
+        qp = request.query_params
+        node = str(qp.get("id") or "")
+        rels = [r for r in RELS if r in str(qp.get("rels") or "").split(",")]
+        try:
+            data = pg.neighborhood(node, _int(qp.get("depth"), 1, 1, 3), rels or None,
+                                   _int(qp.get("limit"), 150, 10, 300))
+        except pg.BadSql as e:
+            return JSONResponse({"error": str(e)}, status_code=400)
+        except pg.DatabaseError as e:
+            return JSONResponse({"error": str(e)}, status_code=502)
+        if not data:
+            return JSONResponse({"error": "no node with that id"}, status_code=404)
+        return JSONResponse(data)
+
+    async def graph_center_json(request: Request):
+        if not pg.configured():
+            return JSONResponse({"error": "database not configured"}, status_code=503)
+        try:
+            row = pg.top_node(str(request.query_params.get("kind") or ""))
+        except pg.BadSql as e:
+            return JSONResponse({"error": str(e)}, status_code=400)
+        except pg.DatabaseError as e:
+            return JSONResponse({"error": str(e)}, status_code=502)
+        if not row:
+            return JSONResponse({"error": "no nodes of that kind"}, status_code=404)
+        return JSONResponse(row)
 
     def gated(handler):
         async def with_gate(request: Request):
@@ -678,6 +1289,7 @@ def routes(tools, key: str) -> list:
         Route("/search", gated(search)),
         Route("/technologies", gated(technologies)),
         Route("/technologies/{technology_id}", gated(technology)),
+        Route("/vendors", gated(vendors_page)),
         Route("/register", gated(register)),
         Route("/sources", gated(sources)),
         Route("/sources/{source_id}", gated(source)),
@@ -686,7 +1298,12 @@ def routes(tools, key: str) -> list:
         Route("/database", gated(database)),
         Route("/database/sql", gated(database_sql), methods=["GET", "POST"]),
         Route("/database/search", gated(database_search)),
+        Route("/database/map", gated(database_map)),
         Route("/database/graph", gated(database_graph)),
+        Route("/database/graph/overview.json", gated(graph_overview_json)),
+        Route("/database/graph/nodes.json", gated(graph_nodes_json)),
+        Route("/database/graph/neighborhood.json", gated(graph_neighborhood_json)),
+        Route("/database/graph/center.json", gated(graph_center_json)),
     ]
 
 
@@ -708,6 +1325,19 @@ def _source_row(hit) -> str:
            _badge(hit.get("licence")), " ", _badge(hit.get("reuse_level"))]
     if hit.get("url"):
         out.append(f' <a class="muted small" href="{esc(hit["url"])}">{esc(_trunc(hit["url"], 60))}</a>')
+    out.append("</li>")
+    return "".join(out)
+
+
+def _vendor_row(hit) -> str:
+    ref = hit.get("ref") or ""
+    out = [f'<li><a href="/vendors?id={urllib.parse.quote(ref, safe="")}">{esc(hit.get("name") or hit.get("title") or ref)}</a> ']
+    if hit.get("country"):
+        out.append(f'<span class="muted">{esc(hit["country"])}</span> ')
+    if hit.get("roles"):
+        out.append(_pill(", ".join(hit["roles"])))
+    if hit.get("technologies"):
+        out.append(f'<br><span class="muted small">Supplies: {esc(", ".join(hit["technologies"]))}</span>')
     out.append("</li>")
     return "".join(out)
 
@@ -863,38 +1493,25 @@ def _hybrid_row(hit) -> str:
             f"<td>{esc(hit.get('title'))}</td><td>{esc(hit.get('score'))}</td></tr>")
 
 
-def _graph_mermaid(start, rows):
-    """graph LR of the neighbourhood: the start node plus each row's node, capped at 40 nodes."""
-    sanitized, node_lines, edge_lines = {}, [], []
-    drawn = set()
+def _coverage_queue():
+    """Supplier names on technology cards that no vendor directory record answers to, by sector.
 
-    def mid(value):
-        value = str(value)
-        if value not in sanitized:
-            cleaned = re.sub(r"[^A-Za-z0-9_]", "", value)
-            # a mermaid id must not be empty or start with a digit
-            sanitized[value] = "n" + cleaned if not cleaned or cleaned[0].isdigit() else cleaned
-        return sanitized[value]
-
-    def label(value):
-        text = str(value or "").replace('"', "").replace("(", "").replace(")", "")
-        return _trunc(text, 40)
-
-    def add_node(value, text):
-        key = mid(value)
-        if key not in drawn:
-            drawn.add(key)
-            node_lines.append(f'    {key}["{esc(label(text))}"]')
-
-    add_node(start, start)
-    for row in rows[:39]:  # the start node plus 39 rows is the 40-node cap
-        node_id = row.get("node_id")
-        if not node_id:
-            continue
-        add_node(node_id, row.get("label"))
-        via = [str(v) for v in row.get("via") or []]
-        rel = esc(via[-1]) if via else ""
-        edge = f'{mid(start)} -->|"{rel}"| {mid(node_id)}' if rel else f"{mid(start)} --> {mid(node_id)}"
-        edge_lines.append("    " + edge)
-    diagram = "graph LR\n" + "\n".join(node_lines + edge_lines)
-    return diagram, len(drawn), 1 + len(rows)
+    Reads the catalog files directly (the same rule as catalog/index/vendors.md); on a hosted server
+    without the files it quietly renders nothing.
+    """
+    try:
+        import technologies
+        cards = technologies.load_cards()
+        records = vendor_records.load_vendors()
+    except OSError:
+        return []
+    covered = set()
+    for v in records:
+        covered |= vendor_records.vendor_keys(v)
+    queue = {}
+    for c in cards:
+        for s in c["suppliers"]:
+            key = vendor_records.name_key(s["name"])
+            if key not in covered:
+                queue.setdefault(c["sector"], {})[key] = s["name"]
+    return sorted((code, sorted(names.values(), key=str.lower)) for code, names in queue.items())

@@ -1,11 +1,11 @@
 """Knowledge graph over the library: nodes and edges that link catalog sources, corpus documents,
-technology cards, register entries, organisations, taxonomy codes and gaps.
+technology cards, register entries, organisations, vendor records, taxonomy codes and gaps.
 
 Pure Python, no database: tools/load_postgres.py writes the result to Postgres (tables node and edge),
 and `python tools/load_postgres.py --dump-graph DIR` writes JSON lines for any other graph tool.
-Every edge comes from a recorded fact (a catalog field, a card's sources, a register name) or from a
-named matching rule whose evidence is stored in the edge's props. Semantic similar_to edges are added
-later in the database from embeddings (see db/schema.sql, refresh_similarity).
+Every edge comes from a recorded fact (a catalog field, a card's sources, a vendor record, a register
+name) or from a named matching rule whose evidence is stored in the edge's props. Semantic similar_to
+edges are added later in the database from embeddings (see db/schema.sql, refresh_similarity).
 """
 import collections
 import pathlib
@@ -13,6 +13,7 @@ import re
 
 import library
 import technologies
+import vendors
 
 ROOT = library.ROOT
 GENERIC_NAMES = {"operators", "operator", "various", "research", "major drilling contractors", "service companies",
@@ -78,6 +79,14 @@ def build_graph(root=None, corpus=None):
     records = library.load_records()
     cards = technologies.load_cards(root / "catalog" / "technologies")
     entries = technologies.load_register(root / "catalog" / "technology-register.yaml", cards)
+    vendor_recs = vendors.load_vendors(root / "catalog" / "vendors")
+    vendor_by_key = {}
+    for v in vendor_recs:
+        for key in vendors.vendor_keys(v):
+            vendor_by_key.setdefault(key, v)
+        # vendor nodes exist before the card walk so alias_of edges from card suppliers can join them
+        g.node(f"vendor:{v['id']}", "vendor", v["name"], country=v.get("country"), roles=v.get("roles", []),
+               url=v.get("url", ""), products=v.get("products", []))
 
     for code, name in labels.items():
         kind = "sector" if code in SECTOR_CODES else (
@@ -119,6 +128,10 @@ def build_graph(root=None, corpus=None):
             g.edge(tid, org, "supplied_by", product=sup.get("product", ""))
             if sup.get("source_id"):
                 g.edge(org, f"source:{sup['source_id']}", "has_source")
+            record = vendor_by_key.get(vendors.name_key(sup["name"]))
+            if record:
+                # the free-text card supplier has a curated record: link them so the graph stays canonical
+                g.edge(org, f"vendor:{record['id']}", "alias_of", method="name match")
         for i, gap in enumerate(card.get("gaps", [])):
             gid = g.node(f"gap:{card['id']}:{i}", "gap", gap["item"], field=gap["field"], reason_code=gap["reason_code"],
                          reason=gap["reason"], action=gap["action"])
@@ -126,6 +139,12 @@ def build_graph(root=None, corpus=None):
             for w in gap.get("where", []):
                 if w.get("source_id"):
                     g.edge(gid, f"source:{w['source_id']}", "look_in", access=w.get("access", ""), hint=w["hint"])
+
+    # Vendor records supply their listed cards (nodes were created before the card walk)
+    for v in vendor_recs:
+        for t in v.get("technologies", []):
+            if t in card_nodes:
+                g.edge(f"vendor:{v['id']}", card_nodes[t], "supplies")
 
     # Register entries
     for e in entries:

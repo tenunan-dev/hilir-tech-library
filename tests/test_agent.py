@@ -24,6 +24,19 @@ licence: "CC0-1.0"
 
 """ + "Iridium anode dissolution was measured over many cycles. " * 40
 
+CARD = {
+    "id": "h2-pem-test", "name": "Test PEM electrolyser", "sector": "H2", "category": "Electrolysis",
+    "maturity": "commercial", "principle": "A test electrolyser principle for the fixture.",
+    "process_steps": [], "key_equipment": [], "suppliers": [], "sources": [], "last_reviewed": "2026-10-26",
+}
+
+VENDOR = {
+    "id": "test-vendor", "name": "Test Vendor Electrolyser", "country": "Malaysia",
+    "aliases": ["TVE"], "roles": ["oem"], "products": ["PEM stacks"],
+    "description": "Fixture vendor building PEM electrolyser stacks for the index tests.",
+    "technologies": ["h2-pem-test"], "sources": [], "last_reviewed": "2026-10-26",
+}
+
 
 @pytest.fixture
 def db(tmp_path):
@@ -32,8 +45,12 @@ def db(tmp_path):
     (corpus / "_inbox" / "arxiv").mkdir(parents=True)
     (corpus / "arxiv" / "pem.md").write_text(DOC, encoding="utf-8")
     (corpus / "_inbox" / "arxiv" / "ignored.md").write_text(DOC, encoding="utf-8")
+    (tmp_path / "catalog" / "technologies").mkdir(parents=True)
+    (tmp_path / "catalog" / "technologies" / "h2-pem-test.json").write_text(json.dumps(CARD), encoding="utf-8")
+    (tmp_path / "catalog" / "vendors").mkdir(parents=True)
+    (tmp_path / "catalog" / "vendors" / "test-vendor.json").write_text(json.dumps(VENDOR), encoding="utf-8")
     counts = library.build(tmp_path / "lib.db", corpus)
-    assert counts["documents"] == 1 and counts["chunks"] >= 2
+    assert counts["documents"] == 1 and counts["chunks"] >= 2 and counts["vendors"] == 1
     return library.connect(tmp_path / "lib.db")
 
 
@@ -115,6 +132,21 @@ def test_open_document_in_restricted_source_is_served(tmp_path):
     db = library.connect(tmp_path / "lib.db")
     hits = library.search("iridium", kind="chunk", db=db, exclude_restricted=True)
     assert hits and hits[0]["reuse_level"] == "full-text-open" and "use_note" not in hits[0]
+
+
+def test_search_finds_vendors(db):
+    hits = library.search("electrolyser stacks", kind="vendor", db=db)
+    assert hits and hits[0]["kind"] == "vendor" and hits[0]["ref"] == "test-vendor"
+    assert hits[0]["country"] == "Malaysia" and hits[0]["technologies"] == ["h2-pem-test"] and hits[0]["hint"]
+    v = library.get_vendor("test-vendor", db)
+    assert v["name"] == "Test Vendor Electrolyser" and v["roles"] == ["oem"]
+    assert library.get_vendor("no-such-vendor", db) is None
+    assert library.list_vendors(role="oem", db=db) and library.stats(db)["vendors"] == 1
+
+
+def test_vendor_sector_filter_comes_from_linked_cards(db):
+    assert library.search("electrolyser", kind="vendor", sector="H2", db=db)
+    assert library.search("electrolyser", kind="vendor", sector="CCS", db=db) == []
 
 
 def test_export_public_leaves_out_restricted(tmp_path, monkeypatch):

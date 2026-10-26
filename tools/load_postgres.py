@@ -24,11 +24,12 @@ import graph  # noqa: E402
 import library  # noqa: E402
 import pg  # noqa: E402
 import technologies  # noqa: E402
+import vendors  # noqa: E402
 
 SCHEMA = ROOT / "db" / "schema.sql"
 READONLY_SQL = ROOT / "db" / "readonly.sql"
 TABLES = ["edge", "node", "register_entry", "technology_gap", "technology_supplier", "technology_figure",
-          "technology_source", "technology_alias", "technology", "chunk", "document", "source_tag", "source"]
+          "technology_source", "technology_alias", "technology", "vendor", "chunk", "document", "source_tag", "source"]
 DIM = 384
 
 
@@ -76,6 +77,7 @@ def collect(include_restricted=False):
     by_id = {r["id"]: r for r in records}
     cards = technologies.load_cards()
     entries = technologies.load_register(None, cards)
+    vendor_recs = vendors.load_vendors()
     docs, chunks = [], []
     for path in sorted(library.CORPUS.glob("*/*.md")):
         if path.parent.name.startswith("_"):
@@ -92,7 +94,8 @@ def collect(include_restricted=False):
         if text_ok:
             for i, text in enumerate(library.chunk(body)):
                 chunks.append({"id": f"{rel}#{i}", "document_id": rel, "ord": i, "title": meta.get("title"), "body": text})
-    return {"labels": labels, "records": records, "cards": cards, "entries": entries, "docs": docs, "chunks": chunks}
+    return {"labels": labels, "records": records, "cards": cards, "entries": entries, "vendors": vendor_recs,
+            "docs": docs, "chunks": chunks}
 
 
 def card_search_text(card):
@@ -155,12 +158,18 @@ def load(conn, data, nodes, edges, vectors):
                            VALUES (%s,%s,%s,%s,%s,%s,%s,%s)""",
                         (card["id"], g["field"], g["item"], g["reason_code"], g["reason"], g["action"], g.get("blocked_by"),
                          json.dumps(g.get("where", []))))
+    for v in data["vendors"]:
+        vec = vectors.get(("vendor", v["id"]))
+        cur.execute("""INSERT INTO vendor (id, name, country, roles, description, products, url, technologies, embedding)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+                    (v["id"], v["name"], v.get("country"), v.get("roles", []), v["description"], v.get("products", []),
+                     v.get("url"), v.get("technologies", []), vec_text(vec) if vec is not None else None))
     for e in data["entries"]:
         cur.execute("INSERT INTO register_entry VALUES (%s,%s,%s,%s,%s,%s,%s)",
                     (graph.register_id(e).removeprefix("register:"), e["code"], e["area"], e["name"], e["maturity"], e["examples"], e["card"]))
     for n in nodes:
         kind, _, key = n["id"].partition(":")
-        v = vectors.get((kind, key)) if kind in ("technology", "source") else None
+        v = vectors.get((kind, key)) if kind in ("technology", "source", "vendor") else None
         cur.execute("INSERT INTO node (id, kind, label, props, embedding) VALUES (%s,%s,%s,%s,%s::vector)",
                     (n["id"], n["kind"], n["label"], json.dumps(n["props"]), vec_text(v) if v is not None else None))
     for e in edges:
@@ -170,8 +179,8 @@ def load(conn, data, nodes, edges, vectors):
         cur.execute("SELECT refresh_similarity()")
     cur.execute("ANALYZE")
     return {"sources": len(data["records"]), "documents": len(data["docs"]), "chunks": len(data["chunks"]),
-            "technologies": len(data["cards"]), "register": len(data["entries"]), "nodes": len(nodes), "edges": len(edges),
-            "vectors": len(vectors)}
+            "technologies": len(data["cards"]), "vendors": len(data["vendors"]), "register": len(data["entries"]),
+            "nodes": len(nodes), "edges": len(edges), "vectors": len(vectors)}
 
 
 def _statements(sql_text):
@@ -260,7 +269,9 @@ def main(argv=None):
         vectors = sqlite_vectors(library.DB_PATH)
     if args.embeddings == "fastembed" or (args.embeddings == "auto" and not vectors):
         try:
+            card_names = {c["id"]: c["name"] for c in data["cards"]}
             items = ([("technology", c["id"], card_search_text(c)) for c in data["cards"]]
+                     + [("vendor", v["id"], library.vendor_text(v, card_names)) for v in data["vendors"]]
                      + [("chunk", c["id"], f"{c['title']}\n{c['body']}") for c in data["chunks"]])
             vectors = fastembed_vectors(items)
         except ImportError:

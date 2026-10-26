@@ -50,3 +50,15 @@ def test_guard_runs_before_any_connection(monkeypatch):
     monkeypatch.setenv("DATABASE_URL", "postgresql://nowhere/db")
     with pytest.raises(pg.BadSql):
         pg.run_sql("DROP TABLE t")
+
+
+def test_node_id_and_kind_guards():
+    assert pg.NODE_ID.match("technology:ccs-cryogenic")
+    assert pg.NODE_ID.match("document:corpus/netl/x.md")
+    assert pg.NODE_ID.match("register:CCS/direct-air-capture")
+    assert pg.NODE_ID.match("gap:ccs-cryogenic:3")
+    assert pg.NODE_ID.match("vendor:wartsila")
+    for bad in ("technology:", "no-colon", "SECTOR:CCS", "drop:table;--", "", "technology: DROP TABLE t"):
+        assert not pg.NODE_ID.match(bad)
+    assert pg.NODE_KIND.match("vendor")
+    assert not pg.NODE_KIND.match("vendor; drop")

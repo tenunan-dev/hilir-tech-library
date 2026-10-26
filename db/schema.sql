@@ -127,6 +127,21 @@ CREATE TABLE IF NOT EXISTS technology_gap (            -- missing inputs, with w
     "where"       jsonb NOT NULL DEFAULT '[]'
 );
 
+CREATE TABLE IF NOT EXISTS vendor (                    -- curated vendor directory records
+    id           text PRIMARY KEY,
+    name         text NOT NULL,
+    country      text,
+    roles        text[] NOT NULL DEFAULT '{}',         -- oem, licensor, packager, epc, developer, operator, ...
+    description  text NOT NULL,
+    products     text[] NOT NULL DEFAULT '{}',
+    url          text,
+    technologies text[] NOT NULL DEFAULT '{}',         -- ids of the technology cards this vendor supplies
+    embedding    vector(384),
+    tsv          tsvector GENERATED ALWAYS AS (
+                    to_tsvector('english', name || ' ' || coalesce(country, '') || ' ' || description)) STORED
+);
+CREATE INDEX IF NOT EXISTS vendor_tsv_idx ON vendor USING gin (tsv);
+
 CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative register of about 300 technologies
     id       text PRIMARY KEY,
     sector   text NOT NULL,
@@ -139,7 +154,8 @@ CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative registe
 
 -- ---------------------------------------------------------------- knowledge graph
 -- Node ids are "<kind>:<key>": source:netl, document:corpus/netl/x.md, technology:ccs-cryogenic,
--- register:CCS/..., org:honeywell-uop, sector:CCS, discipline:PRC, region:sea, country:MY, gap:<card>:<n>.
+-- register:CCS/..., org:honeywell-uop, vendor:wartsila, sector:CCS, discipline:PRC, region:sea,
+-- country:MY, gap:<card>:<n>.
 CREATE TABLE IF NOT EXISTS node (
     id        text PRIMARY KEY,
     kind      text NOT NULL,
@@ -152,7 +168,8 @@ CREATE INDEX IF NOT EXISTS node_label_trgm_idx ON node USING gin (label gin_trgm
 
 -- Relations: published_by, in_sector, covers_discipline, in_region, in_country, from_source, cites,
 -- cites_document, supplied_by, realises, example_supplier, alternative_to, mentions, has_gap, look_in,
--- similar_to (semantic, from refresh_similarity).
+-- supplies (vendor record to the cards it supplies), alias_of (free-text org to its curated vendor
+-- record), similar_to (semantic, from refresh_similarity).
 CREATE TABLE IF NOT EXISTS edge (
     src    text NOT NULL REFERENCES node(id) ON DELETE CASCADE,
     dst    text NOT NULL REFERENCES node(id) ON DELETE CASCADE,
@@ -208,14 +225,16 @@ RETURNS TABLE (node_id text, kind text, label text, depth integer, via text[]) L
     ORDER BY w.node_id, w.depth;
 $$;
 
--- Hybrid search over passages and cards: reciprocal rank fusion of full-text and vector ranks.
--- qvec may be NULL (keyword only). Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
+-- Hybrid search over passages, cards and vendor records: reciprocal rank fusion of full-text and vector
+-- ranks. qvec may be NULL (keyword only). Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
 CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10)
 RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE sql STABLE AS $$
     WITH items AS (
         SELECT 'chunk'::text AS kind, c.id AS ref, c.title, c.tsv, c.embedding FROM chunk c
         UNION ALL
         SELECT 'technology', t.id, t.name, t.tsv, t.embedding FROM technology t
+        UNION ALL
+        SELECT 'vendor', v.id, v.name, v.tsv, v.embedding FROM vendor v
     ),
     tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
     kw AS (

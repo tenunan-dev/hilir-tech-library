@@ -7,6 +7,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.26.5] — 2026-10-26 — vendor layer in every surface; graph atlas and network view
+
+### Added
+- Vendors are searchable everywhere: the SQLite index gains a `vendor` kind (FTS + vectors, sector-filterable via the linked cards), Postgres gains an `og.vendor` table in `hybrid_search`, and the knowledge graph gains `vendor:` nodes with `supplies` edges (record → cards) and `alias_of` edges (free-text card supplier org → its curated record). MCP tools: `search(kind="vendor")`, `list_vendors`, `get_vendor` (14 tools). REST: `GET /api/vendors`, `GET /api/vendors/{id}`.
+- Web UI, database graph: `/database/graph` is now an interactive force-directed network on canvas — search a node with autocomplete, filter relations, click for a details drawer, double-click to expand a neighbourhood, pan and zoom; the previous table walk stays as the no-JavaScript fallback.
+- Web UI, atlas: `/database/map` draws the whole knowledge graph as a constellation — one bubble per node kind sized by its live count, one drifting dot per real node, ribbons for the relations between kinds; clicking a bubble opens the network view at that kind's most connected node.
+- Web UI, `/vendors`: the directory with roles, products and linked cards, plus the live coverage queue of supplier names not yet recorded.
+- Postgres helpers behind the views: `node_row`, `node_search`, `neighborhood` (center + walk + edges in one payload), `graph_overview`, `top_node` — all bound-parameter only, ids validated before they reach SQL.
+
 ## [2026.10.26.4] — 2026-10-26 — unrestricted acquisition policy; catalog-sweep integration
 
 ### Changed

@@ -40,6 +40,7 @@ weighted toward Asia Pacific and Southeast Asia. Sector codes: UPS, MID, GAS, RE
 Discipline codes: PRC, ROT, INS, MAT, HSE, DIG. Regions include sea, apac, global.
 For "what are the options for X" questions, start with compare_technologies and get_technology
 (curated cards with block diagrams, equipment, costs with basis, and sources), then search for more.
+For who-supplies-it questions, use list_vendors and get_vendor (curated vendor records citing their pages).
 Always cite a result's url. Respect reuse_level: full-text-restricted text is a private reference
 copy (no redistribution or commercial use); summary-only and catalog-only sources have no stored text."""
 
@@ -62,9 +63,10 @@ def db():
 @server.tool()
 def search(query: str, kind: str = "all", sector: str | None = None, discipline: str | None = None,
            region: str | None = None, reuse_level: str | None = None, limit: int = 10) -> list[dict]:
-    """Search catalog sources and collected documents.
+    """Search catalog sources, collected documents, technology cards and vendor records.
 
-    kind: "all", "source" (catalog records) or "chunk" (passages from collected documents).
+    kind: "all", "source" (catalog records), "chunk" (passages from collected documents),
+    "technology" (cards) or "vendor" (vendor directory records).
     sector / discipline: a taxonomy code such as H2 or ROT. region: e.g. sea, apac, global.
     """
     database = db()
@@ -104,6 +106,20 @@ def compare_technologies(sector: str | None = None, maturity: str | None = None,
     """Comparison table of technology options, commercial first. sector: e.g. CCS.
     maturity: commercial, demonstration, pilot or lab. application: e.g. cement, power, hydrogen."""
     return library.compare_technologies(sector, maturity, application, db())
+
+
+@server.tool()
+def list_vendors(role: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
+    """The vendor directory: curated records for suppliers, OEMs, licensors and packagers, each citing
+    the pages it was written from. role: oem, licensor, packager, epc, developer, operator, rental,
+    service, supplier or integrator. sector: a taxonomy code such as PWR or CCS. query: text."""
+    return library.list_vendors(role, sector, query, db())
+
+
+@server.tool()
+def get_vendor(vendor_id: str) -> dict | None:
+    """One vendor record: country, roles, products, the technology cards it supplies, and the sources behind it."""
+    return library.get_vendor(vendor_id, db())
 
 
 @server.tool()

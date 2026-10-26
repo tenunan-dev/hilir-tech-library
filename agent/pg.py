@@ -28,6 +28,8 @@ _conn = None
 _NOT_A_READ = "one SELECT/WITH statement only, no semicolon, no comments"
 _BANNED = re.compile(r"\b(into|insert|update|delete|drop|alter|create|grant|revoke|copy|truncate|vacuum|"
                      r"analyze|reindex|call|do|merge)\b", re.I)
+NODE_ID = re.compile(r"^[a-z_]+:[A-Za-z0-9._/#:-]{1,150}$")
+NODE_KIND = re.compile(r"^[a-z_]{1,30}$")
 
 
 class NotConfigured(RuntimeError):
@@ -166,11 +168,97 @@ def graph_neighbors(node: str, depth: int = 1, rels: list[str] | None = None) ->
     return _execute(work)
 
 
+def node_row(node_id: str) -> dict | None:
+    """One node by exact id, for the graph UI's details drawer. The id is validated, then bound."""
+    if not NODE_ID.match(node_id or ""):
+        raise BadSql("node id looks wrong; expected kind:key like technology:ccs-cryogenic")
+
+    def work(cur):
+        cur.execute("SELECT id, kind, label, props FROM node WHERE id = %s", (node_id,))
+        rows = _rows(cur)
+        return rows[0] if rows else None
+
+    return _execute(work)
+
+
+def top_node(kind: str) -> dict | None:
+    """Highest-degree node of one kind: the atlas's suggested entry point into the network view."""
+    if not NODE_KIND.match(kind or ""):
+        raise BadSql("node kind looks wrong; expected a word like technology or vendor")
+
+    def work(cur):
+        cur.execute("SELECT n.id, n.label, count(e.src) AS degree FROM node n LEFT JOIN edge e ON e.src = n.id WHERE n.kind = %s GROUP BY n.id, n.label ORDER BY degree DESC, n.label LIMIT 1", (kind,))
+        rows = _rows(cur)
+        return rows[0] if rows else None
+
+    return _execute(work)
+
+
+def graph_overview() -> dict:
+    """Node kinds, relations and kind-pair edge counts: the atlas and the network view's legend."""
+
+    def work(cur):
+        cur.execute("SELECT kind, count(*) AS n FROM node GROUP BY kind ORDER BY n DESC")
+        kinds = _rows(cur)
+        cur.execute("SELECT rel, count(*) AS n FROM edge GROUP BY rel ORDER BY n DESC")
+        rels = _rows(cur)
+        cur.execute("SELECT a.kind AS src_kind, b.kind AS dst_kind, e.rel, count(*) AS n FROM edge e JOIN node a ON a.id = e.src JOIN node b ON b.id = e.dst GROUP BY 1, 2, 3 ORDER BY n DESC")
+        return {"kinds": kinds, "rels": rels, "pairs": _rows(cur)}
+
+    return _execute(work)
+
+
+def node_search(q: str, limit: int = 12) -> list[dict]:
+    """Autocomplete over node labels and ids for the graph UI.
+
+    The user's text is wildcard-escaped and bound as one parameter; the % wildcards around it are
+    part of the static SQL ('%' || parameter || '%'), never assembled around input in Python.
+    """
+    limit = max(1, min(30, int(limit)))
+    text = q.strip().replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+
+    def work(cur):
+        cur.execute("SELECT id, kind, label FROM node WHERE label LIKE '%' || %s || '%' ESCAPE '\\' OR id LIKE '%' || %s || '%' ESCAPE '\\' ORDER BY kind, label LIMIT %s", (text, text, limit))
+        return _rows(cur)
+
+    return _execute(work)
+
+
+def neighborhood(node_id: str, depth: int = 1, rels: list[str] | None = None, limit: int = 150) -> dict | None:
+    """Center node, its walk and every edge between the returned nodes: one payload for the network view."""
+    if not NODE_ID.match(node_id or ""):
+        raise BadSql("node id looks wrong; expected kind:key like technology:ccs-cryogenic")
+    depth = max(1, min(3, int(depth)))
+    limit = max(10, min(300, int(limit)))
+
+    def work(cur):
+        cur.execute("SELECT id, kind, label, props FROM node WHERE id = %s", (node_id,))
+        center = _rows(cur)
+        if not center:
+            return None
+        cur.execute("SELECT node_id, kind, label, depth, via FROM graph_neighbors(%s, %s, %s) LIMIT %s",
+                    (node_id, depth, list(rels) if rels else None, limit))
+        neighbors = _rows(cur)
+        ids = [n["node_id"] for n in neighbors]
+        ids.insert(0, node_id)
+        cur.execute("SELECT id, kind, label, props FROM node WHERE id = ANY(%s)", (ids,))
+        info = {r["id"]: r for r in _rows(cur)}
+        for n in neighbors:
+            row = info.get(n["node_id"]) or {}
+            n["props"] = row.get("props") or {}
+        cur.execute("SELECT src, dst, rel, weight FROM edge WHERE src = ANY(%s) AND dst = ANY(%s)", (ids, ids))
+        return {"center": center[0], "neighbors": neighbors, "edges": _rows(cur),
+                "truncated": len(neighbors) >= limit}
+
+    return _execute(work)
+
+
 _COUNTS_SQL = (
     "SELECT 'source' AS t, count(*) AS n FROM source"
     " UNION ALL SELECT 'document', count(*) FROM document"
     " UNION ALL SELECT 'chunk', count(*) FROM chunk"
     " UNION ALL SELECT 'technology', count(*) FROM technology"
+    " UNION ALL SELECT 'vendor', count(*) FROM vendor"
     " UNION ALL SELECT 'register_entry', count(*) FROM register_entry"
     " UNION ALL SELECT 'node', count(*) FROM node"
     " UNION ALL SELECT 'edge', count(*) FROM edge"
@@ -225,19 +313,23 @@ def tables_doc() -> dict:
             {"name": "technology_gap",
              "columns": ["technology_id", "field", "item", "reason_code", "reason", "action", "blocked_by", "where"],
              "holds": "card children: gaps with reason_code/reason/action/where"},
+            {"name": "vendor",
+             "columns": ["id", "name", "country", "roles[]", "description", "products[]", "url", "technologies[]",
+                         "embedding", "tsv"],
+             "holds": "curated vendor directory records; technologies[] holds the card ids they supply"},
             {"name": "register_entry",
              "columns": ["id", "sector", "area", "name", "maturity", "examples", "card_id"],
              "holds": "the ~300-technology register"},
             {"name": "node",
              "columns": ["id", "kind", "label", "props", "embedding"],
              "holds": "knowledge graph nodes with ids \"<kind>:<key>\" (source:netl, document:corpus/..., "
-                      "technology:ccs-cryogenic, register:CCS/..., org:honeywell-uop, sector:CCS, discipline:PRC, "
-                      "region:sea, country:MY, gap:<card>:<n>)"},
+                      "technology:ccs-cryogenic, register:CCS/..., org:honeywell-uop, vendor:wartsila, sector:CCS, "
+                      "discipline:PRC, region:sea, country:MY, gap:<card>:<n>)"},
             {"name": "edge",
              "columns": ["src", "dst", "rel", "weight", "props"],
              "holds": "knowledge graph edges; relations published_by, in_sector, covers_discipline, in_region, "
                       "in_country, from_source, cites, cites_document, supplied_by, realised_by, example_supplier, "
-                      "alternative_to, mentions, has_gap, look_in, similar_to"},
+                      "alternative_to, mentions, has_gap, look_in, supplies, alias_of, similar_to"},
         ],
         "views": [
             {"name": "v_gap",

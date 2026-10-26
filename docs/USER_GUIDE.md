@@ -40,18 +40,19 @@ Tools:
 
 | Tool | Use it to |
 | --- | --- |
-| `search(query, kind, sector, discipline, region, reuse_level, limit)` | Find sources (`kind="source"`), passages from documents (`kind="chunk"`), or both |
+| `search(query, kind, sector, discipline, region, reuse_level, limit)` | Find sources (`kind="source"`), passages from documents (`kind="chunk"`), technology cards (`kind="technology"`), vendor records (`kind="vendor"`), or all of them |
 | `get_source(source_id)` | Read a source's full record and list its documents |
 | `get_document(path)` | Read a document in full, using the `path` from a search result |
 | `list_by_tag(code, region, reuse_level, source_type)` | Browse, e.g. all `ROT` sources in `sea` |
 | `compare_technologies(sector, maturity, application)` | Compare technology options (e.g. all CCS routes for cement), commercial first |
+| `list_vendors(role, sector, query)` and `get_vendor(vendor_id)` | The curated vendor directory: who supplies a technology, with roles, products and the pages each record was written from |
 | `list_technology_register(code, maturity, query)` | The register of about 300 technologies across all sectors (indicative); entries with a card link to `get_technology` |
 | `list_gaps(sector, field, reason_code, include_no_card)` | What the cards still lack (costs, TRL, performance, plants, status), why, where to get it and the next action; tell users when the library cannot answer yet |
 | `get_technology(technology_id)` | One technology card: principle, process steps and equipment, a Mermaid block flow diagram, costs with basis, suppliers, reference plants, sources |
 | `library_stats()` | Check what is indexed and whether semantic search is on |
 | `db_catalog()` | The Postgres layer's tables, views and functions — read this before writing `sql_query` statements |
 | `sql_query(sql, max_rows=100)` | Run one read-only `SELECT`/`WITH` against schema `og` (needs `DATABASE_URL`; on the hosted server it is already set) |
-| `graph_neighbors(node, depth, rels)` | Walk the knowledge graph from a node such as `technology:ccs-cryogenic` or `source:netl` |
+| `graph_neighbors(node, depth, rels)` | Walk the knowledge graph from a node such as `technology:ccs-cryogenic`, `vendor:wartsila` or `source:netl` |
 
 Example questions for an assistant with the server connected:
 
@@ -86,13 +87,15 @@ the cookie, and any page without a valid session redirects to the sign-in page.
 | Page | Shows |
 | --- | --- |
 | `/` | Counts, search box, sector grid |
-| `/search?q=...` | Ranked sources, passages and technology cards |
+| `/search?q=...` | Ranked sources, passages, technology cards and vendor records |
 | `/technologies`, `/technologies/{id}` | Comparison table; one card in full: block diagram, figures with unit/year/basis/source, suppliers, reference plants, gaps, sources |
+| `/vendors` | The vendor directory with its coverage queue of supplier names not yet recorded |
 | `/register`, `/sources`, `/documents?path=...`, `/gaps` | The register, catalog records with their documents, document text, missing inputs |
 | `/database` | Row counts, schema reference, example queries |
 | `/database/sql` | Read-only SQL console |
-| `/database/search` | Hybrid keyword + vector search over passages and cards |
-| `/database/graph` | Walk the knowledge graph from one node and draw the neighbourhood |
+| `/database/search` | Hybrid keyword + vector search over passages, cards and vendor records |
+| `/database/map` | The atlas: the whole knowledge graph as a constellation of node kinds, with live row counts |
+| `/database/graph` | The knowledge graph as an interactive network: search a node, filter relations, click for details, double-click to expand |
 
 SQL console rules: one `SELECT` or `WITH` statement against schema `og`, no semicolons and no
 comments, at most 500 rows (default 100). The statement runs as a read-only role with a 15 second
@@ -105,8 +108,10 @@ console's `hybrid_search` vector half works there), but a query vector needs the
 Run `SELECT * FROM hybrid_search('CO2 storage', NULL, 10)` in the console for keyword ranking anywhere.
 
 The graph browser takes node ids of the form `<kind>:<key>`, for example `technology:ccs-cryogenic`,
-`source:netl`, `org:honeywell-uop`, `region:sea` or `register:CCS/<name>`. The full node id and
-relation list is in [POSTGRES.md](POSTGRES.md).
+`source:netl`, `org:honeywell-uop`, `vendor:wartsila`, `region:sea` or `register:CCS/<name>`. The
+atlas at `/database/map` shows every node kind as a bubble sized by its live count with the relations
+between them; clicking a bubble opens the network view at that kind's most connected node. The full
+node id and relation list is in [POSTGRES.md](POSTGRES.md).
 
 ## 2. Using results responsibly
 

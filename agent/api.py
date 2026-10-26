@@ -54,6 +54,13 @@ def routes(tools):
     async def technology(request: Request):
         return _found(tools.get_technology(request.path_params["technology_id"]))
 
+    async def vendors(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.list_vendors(q.get("role"), q.get("sector"), q.get("q")))
+
+    async def vendor(request: Request):
+        return _found(tools.get_vendor(request.path_params["vendor_id"]))
+
     async def register(request: Request):
         q = request.query_params
         return JSONResponse(tools.list_technology_register(q.get("code"), q.get("maturity"), q.get("q")))
@@ -72,7 +79,8 @@ def routes(tools):
     return [
         Route("/api/search", search), Route("/api/sources", list_sources), Route("/api/sources/{source_id}", source),
         Route("/api/documents", document), Route("/api/technologies", technologies),
-        Route("/api/technologies/{technology_id}", technology), Route("/api/register", register),
+        Route("/api/technologies/{technology_id}", technology), Route("/api/vendors", vendors),
+        Route("/api/vendors/{vendor_id}", vendor), Route("/api/register", register),
         Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/openapi.json", openapi),
     ]
 
@@ -102,9 +110,9 @@ def openapi_spec(server_url):
         "components": {"securitySchemes": {"ApiKey": {"type": "apiKey", "in": "header", "name": "x-api-key"}}},
         "security": [{"ApiKey": []}],
         "paths": {
-            "/api/search": get("search", "Search catalog sources, document passages and technology cards", [
+            "/api/search": get("search", "Search catalog sources, document passages, technology cards and vendor records", [
                 _param("q", "Search text", required=True),
-                _param("kind", "all, source, chunk or technology"), SECTOR,
+                _param("kind", "all, source, chunk, technology or vendor"), SECTOR,
                 _param("discipline", "Discipline code: PRC, ROT, INS, MAT, HSE or DIG"),
                 _param("region", "Region code, e.g. sea, apac, global"),
                 _param("reuse_level", "full-text-open, full-text-restricted, summary-only or catalog-only"),
@@ -122,6 +130,12 @@ def openapi_spec(server_url):
             "/api/technologies/{technology_id}": get(
                 "getTechnology", "One technology card: process steps, equipment, block diagram (Mermaid), costs with basis, suppliers, sources",
                 [_param("technology_id", "Card id, e.g. ccs-amine-post-combustion", where="path")], JSON_OR_404),
+            "/api/vendors": get("listVendors", "The vendor directory: curated supplier records with the cards they supply", [
+                _param("role", "oem, licensor, packager, epc, developer, operator, rental, service, supplier or integrator"),
+                SECTOR, _param("q", "Text filter")]),
+            "/api/vendors/{vendor_id}": get(
+                "getVendor", "One vendor record: country, roles, products, technologies supplied, sources behind it",
+                [_param("vendor_id", "Vendor id, e.g. wartsila", where="path")], JSON_OR_404),
             "/api/register": get("listTechnologyRegister", "Register of about 300 technologies across all sectors", [
                 _param("code", "Sector or discipline code"), _param("maturity", "Maturity filter"), _param("q", "Text filter")]),
             "/api/gaps": get("listGaps", "Inputs the technology cards still lack, with where to get them", [

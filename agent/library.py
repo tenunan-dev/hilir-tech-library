@@ -1,12 +1,14 @@
-"""Search index over the catalog and the corpus, shared by the MCP server and the CLI.
+"""Search index over the catalog, the corpus and the vendor directory, shared by the MCP server and the CLI.
 
 The index is a SQLite file (build/library.db, not committed) with:
-  sources   one row per catalog record
-  docs      one row per corpus document, with its front matter
-  search    FTS5 table over catalog records and corpus chunks
-  vectors   optional embeddings per search row (see agent/embed.py)
+  sources      one row per catalog record
+  docs         one row per corpus document, with its front matter
+  search       FTS5 table over catalog records, corpus chunks, technology cards and vendor records
+  vectors      optional embeddings per search row (see agent/embed.py)
+  technologies one row per technology card
+  vendors      one row per vendor directory record
 
-Rebuild it with `python agent/library.py build` after the catalog or corpus changes.
+Rebuild it with `python agent/library.py build` after the catalog, corpus or vendors change.
 """
 import json
 import pathlib
@@ -17,6 +19,7 @@ import sys
 import yaml
 
 import technologies
+import vendors
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
@@ -35,6 +38,18 @@ COUNTRIES = {
 # Technology cards are curated syntheses, so they rank a little above single sources.
 TECHNOLOGY_BOOST = 1.3
 TECHNOLOGY_LICENCE = "Library's own summary of cited sources; cite the sources listed in the card"
+VENDOR_LICENCE = "Library's own curated vendor record; cite the sources listed in the record"
+
+
+def vendor_text(v, card_names):
+    """The text a vendor record is indexed and embedded by (SQLite and Postgres stay identical)."""
+    return "\n".join([v["name"], " ".join(v.get("aliases", [])), v.get("country", ""),
+                      " ".join(v.get("roles", [])), " ".join(v.get("products", [])), v.get("description", ""),
+                      " ".join(card_names.get(t, "") for t in v.get("technologies", []))])
+
+
+def vendor_sectors(v, sector_of):
+    return sorted({sector_of[t] for t in v.get("technologies", []) if t in sector_of})
 
 
 # Words that mark a document as belonging to a sector. Documents inherit their source's sectors,
@@ -136,6 +151,7 @@ def build(db_path=None, corpus=None):
         CREATE TABLE vectors (rowid INTEGER PRIMARY KEY, vec BLOB NOT NULL);
         CREATE TABLE info (key TEXT PRIMARY KEY, value TEXT);
         CREATE TABLE technologies (id TEXT PRIMARY KEY, card TEXT NOT NULL);
+        CREATE TABLE vendors (id TEXT PRIMARY KEY, vendor TEXT NOT NULL, sectors TEXT NOT NULL);
     """)
     records = load_records()
     labels = taxonomy_labels()
@@ -172,9 +188,19 @@ def build(db_path=None, corpus=None):
                           " ".join(f["metric"] for f in card.get("costs", []) + card.get("performance", []))])
         db.execute("INSERT INTO search VALUES ('technology', ?, ?, ?, ?, ?)",
                    (card["id"], card["id"], card["name"], text, tag_text({"sectors": [card["sector"]]}, labels)))
+    sector_of = {c["id"]: c["sector"] for c in cards}
+    card_names = {c["id"]: c["name"] for c in cards}
+    vendor_recs = vendors.load_vendors(corpus.parent / "catalog" / "vendors")
+    for v in vendor_recs:
+        sectors = vendor_sectors(v, sector_of)
+        db.execute("INSERT INTO vendors VALUES (?, ?, ?)",
+                   (v["id"], json.dumps(v, ensure_ascii=False), json.dumps(sectors)))
+        db.execute("INSERT INTO search VALUES ('vendor', ?, ?, ?, ?, ?)",
+                   (v["id"], v["id"], v["name"], vendor_text(v, card_names), tag_text({"sectors": sectors}, labels)))
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
     db.commit()
-    return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards)}
+    return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards),
+            "vendors": len(vendor_recs)}
 
 
 def _matches(rec, sector, discipline, region, reuse_level):
@@ -220,7 +246,7 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     """
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
-    kinds = ("source", "chunk", "technology") if kind == "all" else (kind,)
+    kinds = ("source", "chunk", "technology", "vendor") if kind == "all" else (kind,)
     # Keep word characters only, then quote each token: any of the query's words may match, and
     # BM25 ranks rows that match more of them higher. The token filter is what keeps the MATCH
     # value inert, so it must stay on this path into the parameterised query below.
@@ -259,6 +285,15 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
                     and reuse_level in (None, "full-text-open"):
                 results.append((score * TECHNOLOGY_BOOST, row, card))
             continue
+        if row["kind"] == "vendor":
+            found = db.execute("SELECT vendor, sectors FROM vendors WHERE id = ?", (row["ref"],)).fetchone()
+            if not found:
+                continue
+            vrec, vsectors = json.loads(found[0]), json.loads(found[1])
+            if "vendor" in kinds and (not sector or sector in vsectors) and not discipline \
+                    and reuse_level in (None, "full-text-open"):
+                results.append((score, row, vrec))
+            continue
         rec = records.get(row["source_id"])
         if not rec or row["kind"] not in kinds or not _matches(rec, None, discipline, region, reuse_level):
             continue
@@ -270,7 +305,9 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
         boost = max([REGION_BOOST.get(g, 1.0) for g in rec["regions"]] + [1.0])
         results.append((score * boost, row, rec))
     results.sort(key=lambda t: -t[0])
-    return [_technology_result(row, score, rec) if row["kind"] == "technology" else _result(db, row, score, records)
+    return [_technology_result(row, score, rec) if row["kind"] == "technology" else
+            _vendor_result(row, score, rec) if row["kind"] == "vendor" else
+            _result(db, row, score, records)
             for score, row, rec in results[:limit]]
 
 
@@ -315,6 +352,42 @@ def compare_technologies(sector=None, maturity=None, application=None, db=None):
     db = db or connect()
     cards = [json.loads(r[0]) for r in db.execute("SELECT card FROM technologies")]
     return technologies.compare(cards, sector, maturity, application)
+
+
+def _vendor_result(row, score, vrec):
+    out = {"kind": "vendor", "ref": vrec["id"], "title": vrec["name"], "score": round(score, 4),
+           "licence": VENDOR_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
+           "country": vrec.get("country"), "roles": vrec.get("roles", []), "products": vrec.get("products", []),
+           "technologies": vrec.get("technologies", [])}
+    out["hint"] = "Call get_vendor for the full record and the sources behind it."
+    return out
+
+
+def get_vendor(vendor_id, db=None):
+    """Full vendor directory record."""
+    db = db or connect()
+    row = db.execute("SELECT vendor FROM vendors WHERE id = ?", (vendor_id,)).fetchone()
+    return json.loads(row[0]) if row else None
+
+
+def list_vendors(role=None, sector=None, query=None, db=None):
+    """Vendor directory records, optionally filtered by role, sector code or text."""
+    db = db or connect()
+    q = (query or "").lower()
+    out = []
+    for blob, sectors in db.execute("SELECT vendor, sectors FROM vendors"):
+        v = json.loads(blob)
+        if role and role not in v.get("roles", []):
+            continue
+        if sector and sector not in json.loads(sectors):
+            continue
+        hay = " ".join([v["name"], " ".join(v.get("aliases", [])), v.get("description", ""),
+                        " ".join(v.get("products", [])), v.get("country", "")]).lower()
+        if q and q not in hay:
+            continue
+        out.append(vendors.summary(v))
+    out.sort(key=lambda s: s["name"].lower())
+    return out
 
 
 def get_source(source_id, db=None, exclude_restricted=False):
@@ -362,6 +435,7 @@ def stats(db=None):
             "chunks": db.execute("SELECT count(*) FROM search WHERE kind = 'chunk'").fetchone()[0],
             "vectors": db.execute("SELECT count(*) FROM vectors").fetchone()[0],
             "technologies": db.execute("SELECT count(*) FROM technologies").fetchone()[0],
+            "vendors": db.execute("SELECT count(*) FROM vendors").fetchone()[0],
             "embedding_model": (db.execute("SELECT value FROM info WHERE key = 'model'").fetchone() or [None])[0]}
 
 

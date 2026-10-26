@@ -54,6 +54,19 @@ def test_mentions_carry_their_evidence(built):
     assert mentions and all(e["props"]["terms"] and e["weight"] >= 1 for e in mentions)
 
 
+def test_vendor_records_are_linked(built):
+    import vendors as vendor_records
+    nodes, edges = built
+    recs = vendor_records.load_vendors()
+    vnodes = {n["id"] for n in nodes if n["kind"] == "vendor"}
+    assert vnodes == {f"vendor:{v['id']}" for v in recs}
+    supplies = [(e["src"], e["dst"]) for e in edges if e["rel"] == "supplies"]
+    assert supplies and all(s.startswith("vendor:") and d.startswith("technology:") for s, d in supplies)
+    assert {s for s, _ in supplies} == {f"vendor:{v['id']}" for v in recs}
+    alias = [e for e in edges if e["rel"] == "alias_of"]
+    assert alias and all(e["src"].startswith("org:") and e["dst"].startswith("vendor:") for e in alias)
+
+
 def test_term_matching_respects_word_boundaries():
     assert graph.term_count("HEFA", "HEFA and HEFA-SPK; hefa") == 2
     assert graph.term_count("SOEC", "ASOEC SOEC") == 1
@@ -79,13 +92,19 @@ def test_load_postgres_end_to_end():
     import load_postgres
     data = load_postgres.collect()
     nodes, edges = graph.build_graph()
+    card_names = {c["id"]: c["name"] for c in data["cards"]}
     vectors = {("technology", c["id"]): hash_vector(load_postgres.card_search_text(c)) for c in data["cards"]}
+    vectors.update({("vendor", v["id"]): hash_vector(load_postgres.library.vendor_text(v, card_names))
+                    for v in data["vendors"]})
     vectors.update({("chunk", c["id"]): hash_vector(c["body"]) for c in data["chunks"][:200]})
     with psycopg.connect(os.environ["TEST_DATABASE_URL"]) as conn:
         result = load_postgres.load(conn, data, nodes, edges, vectors)
         cur = conn.cursor()
         cur.execute("SET search_path = og, public")
         assert result["technologies"] == len(data["cards"]) and result["nodes"] == len(nodes)
+        assert result["vendors"] == len(data["vendors"])
+        cur.execute("SELECT count(*) FROM vendor")
+        assert cur.fetchone()[0] == len(data["vendors"])
         cur.execute("SELECT count(*) FROM edge WHERE rel = 'similar_to'")
         assert cur.fetchone()[0] > 0
         cur.execute("SELECT count(*) FROM document WHERE NOT text_included")
@@ -95,8 +114,13 @@ def test_load_postgres_end_to_end():
         assert restricted_docs >= 0
         cur.execute("SELECT node_id FROM graph_neighbors('technology:ups-co2-eor', 1) WHERE kind = 'source'")
         assert cur.fetchall()
+        cur.execute("SELECT node_id, label FROM graph_neighbors('vendor:wartsila', 1) WHERE kind = 'technology'")
+        assert cur.fetchall(), "vendor records should reach their cards through supplies"
         query = hash_vector("CO2 enhanced oil recovery miscible flooding")
         cur.execute("SELECT ref FROM hybrid_search(%s, %s::vector, 5) WHERE kind = 'technology'",
                     ("CO2 enhanced oil recovery", load_postgres.vec_text(query)))
         assert "ups-co2-eor" in [r[0] for r in cur.fetchall()]
+        cur.execute("SELECT ref FROM hybrid_search(%s, %s::vector, 10) WHERE kind = 'vendor'",
+                    ("Wärtsilä engines", load_postgres.vec_text(hash_vector("Wärtsilä engines power plants"))))
+        assert cur.fetchall(), "hybrid search should cover vendor records"
         conn.rollback()

@@ -13,16 +13,19 @@ Schema `og`, defined in [db/schema.sql](../db/schema.sql):
 | `source`, `source_tag` | One row per catalog record; sector, discipline and region tags |
 | `document`, `chunk` | Corpus documents and their passages. `chunk.embedding` is a 384-dimension vector; `chunk.tsv` is the full-text index |
 | `technology` and its children | Cards: `technology_alias`, `technology_source`, `technology_figure` (performance and cost figures with unit, year, basis, source URL), `technology_supplier`, `technology_gap` (what is missing, why, where to look) |
+| `vendor` | The vendor directory: one row per curated record with roles, products, the card ids it supplies, an embedding and a full-text index |
 | `register_entry` | The register of about 300 technologies, linked to a card where one exists |
 | `node`, `edge` | The knowledge graph (below) |
 
 Views and functions: `v_gap`, `v_technology_co_citation`, `graph_neighbors(start, depth, rels)`,
-`hybrid_search(query, query_vector, k)` (full-text and vector ranks fused), `refresh_similarity(k, min_sim)`.
+`hybrid_search(query, query_vector, k)` (full-text and vector ranks fused over chunks, cards and vendor
+records), `refresh_similarity(k, min_sim)`.
 
 ## The graph
 
 Every node id is `<kind>:<key>`: `source:netl`, `document:corpus/...md`, `technology:ccs-cryogenic`,
-`register:CCS/...`, `org:honeywell-uop`, `sector:CCS`, `discipline:PRC`, `region:sea`, `country:MY`, `gap:<card>:<n>`.
+`register:CCS/...`, `org:honeywell-uop`, `vendor:wartsila`, `sector:CCS`, `discipline:PRC`, `region:sea`,
+`country:MY`, `gap:<card>:<n>`.
 
 | Relation | From, to | Where it comes from |
 | --- | --- | --- |
@@ -32,6 +35,8 @@ Every node id is `<kind>:<key>`: `source:netl`, `document:corpus/...md`, `techno
 | `cites` | technology, source | the card's `sources[].source_id` |
 | `cites_document` | technology, document | a card source URL that equals a collected document's URL |
 | `supplied_by` | technology, org | the card's `suppliers` |
+| `supplies` | vendor, technology | the vendor record's `technologies` list |
+| `alias_of` | org, vendor | a card supplier name matching a vendor record's name or aliases |
 | `realised_by` | register entry, technology | the register name matches a card name or alias |
 | `example_supplier` | register entry, org | the register's examples column; not verified |
 | `alternative_to` | technology, technology | same sector and a shared category head or shared applications; weight explains it |
