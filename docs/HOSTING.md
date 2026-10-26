@@ -62,12 +62,26 @@ sector grid); `/health` still answers the JSON service banner.
 | `/register` | The ~300-technology register |
 | `/sources`, `/sources/{id}`, `/documents?path=...` | Catalog records and document text |
 | `/gaps` | Missing inputs on the cards |
-| `/database`, `/database/sql`, `/database/search`, `/database/graph` | Row counts, schema reference and example queries; read-only SQL console; hybrid keyword+vector search; knowledge-graph walk with a diagram |
+| `/database`, `/database/sql`, `/database/search`, `/database/graph`, `/database/map` | Row counts, schema reference and example queries; read-only SQL console; hybrid keyword+vector search; interactive knowledge-graph network; the whole graph as an atlas |
 
 - Sign-in: enter the library API key once at `/login` (the same key agents send in the `x-api-key`
   header); the server sets a session cookie (`oglib_session`, HMAC-SHA256 of the key, HttpOnly /
   Secure / SameSite=Lax) that lasts 30 days. Any page without a valid session redirects (303) to
   `/login?next=...`. Every page also accepts the usual `x-api-key` header instead of the cookie.
+- **Named accounts (multiple users):** besides the key, people can sign in at `/login` with an
+  email + password. Accounts live in the optional `LIBRARY_USERS` secret — `email|name|scrypt-hash`
+  entries separated by `;` (agent/users.py documents the format). Create an entry locally and set
+  it as a secret; the hash is salted scrypt, never the password:
+
+  ```
+  python agent/users.py entry alice@example.com "Alice Chen"     # prints alice@example.com|Alice Chen|scrypt$...
+  cd deploy/cloudflare && npx wrangler secret put LIBRARY_USERS  # paste the entries; no redeploy needed
+  ```
+
+  Account sessions are stateless signed cookies (`v2|payload|hmac`, 30 days) that carry the email;
+  the API key keeps working unchanged for agents and for the owner. Set the same variable locally
+  for `python agent/server.py --http` runs. Failed sign-ins (key or password) sleep half a second
+  to damp online guessing.
 - Licence: the pages serve the same open-licence text as the REST API (`full-text-open` only);
   restricted sources appear as metadata-only records.
 - Diagrams load Mermaid 11 from jsdelivr; if that script cannot load, the diagram shows as its plain

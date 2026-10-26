@@ -8,8 +8,11 @@ network and an atlas view of the whole database.
     # /database        row counts, schema reference, SQL console, semantic search, graph, atlas
     #                  (the last four only when the environment carries a read-only DATABASE_URL)
 
-People sign in once at /login with the library API key; the session cookie is Secure because the server
-sits behind TLS at techlib.hilir.app. Agents can call the same pages with the x-api-key header instead.
+People sign in once at /login — with the library API key (the owner, as before) or with a named
+email + password account from the LIBRARY_USERS secret (agent/users.py creates entries); both
+issue the same session cookie, which for accounts carries the signed identity. The session cookie
+is Secure because the server sits behind TLS at techlib.hilir.app. Agents can call the same pages
+with the x-api-key header instead.
 Mounted by server.http_app() next to /mcp and /api at the same origin; deploy/cloudflare/src/index.ts
 mirrors PREFIXES to keep these paths off the edge API-key check.
 
@@ -20,6 +23,7 @@ import html
 import hmac
 import json
 import re
+import time
 import urllib.parse
 from hashlib import sha256
 
@@ -28,6 +32,7 @@ from starlette.responses import HTMLResponse, JSONResponse, RedirectResponse
 from starlette.routing import Route
 
 import pg
+import users as user_accounts
 import vendors as vendor_records
 
 COOKIE = "oglib_session"
@@ -630,6 +635,8 @@ def _authed(request: Request, key: str) -> bool:
     if given and hmac.compare_digest(given.encode(), key.encode()):
         return True
     token = request.cookies.get(COOKIE, "")
+    if token.startswith("v2|"):
+        return user_accounts.session_email(token, key) is not None
     return bool(token) and hmac.compare_digest(token.encode(), session_token(key).encode())
 
 
@@ -821,20 +828,41 @@ def routes(tools, key: str) -> list:
         if request.method == "POST":
             form = await request.form()
             next_url = _safe_next(form.get("next"))
-            if hmac.compare_digest(str(form.get("key") or "").encode(), key.encode()):
-                resp = RedirectResponse(next_url, status_code=303)
-                resp.set_cookie(COOKIE, session_token(key), max_age=2592000, httponly=True, secure=True,
-                                samesite="lax", path="/")
-                return resp
-            error = '<p><b>Wrong key.</b></p>'
+            email = str(form.get("email") or "").strip()
+            if email:
+                user = user_accounts.check_login(email, str(form.get("password") or ""))
+                if user:
+                    resp = RedirectResponse(next_url, status_code=303)
+                    resp.set_cookie(COOKIE, user_accounts.session_token(user["email"], key),
+                                    max_age=user_accounts.SESSION_TTL, httponly=True, secure=True,
+                                    samesite="lax", path="/")
+                    return resp
+                time.sleep(0.5)  # damp online guessing; constant-ish failure time
+                error = '<p><b>Wrong email or password.</b></p>'
+            else:
+                if hmac.compare_digest(str(form.get("key") or "").encode(), key.encode()):
+                    resp = RedirectResponse(next_url, status_code=303)
+                    resp.set_cookie(COOKIE, session_token(key), max_age=2592000, httponly=True,
+                                    secure=True, samesite="lax", path="/")
+                    return resp
+                time.sleep(0.5)
+                error = '<p><b>Wrong key.</b></p>'
         else:
             next_url = _safe_next(request.query_params.get("next"))
             error = ""
-        form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
-                '<p><label>API key <input type="password" name="key" autofocus required></label></p>'
-                '<p><button type="submit">Sign in</button></p></form>')
-        body = (f'<section class="card narrow"><h1>Sign in</h1>'
-                f'<p class="muted">The same key agents send in the x-api-key header.</p>{error}{form}</section>')
+        has_users = bool(user_accounts.load_users())
+        account_form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
+                        '<p><label>Email <input type="email" name="email" autofocus required autocomplete="username"></label></p>'
+                        '<p><label>Password <input type="password" name="password" required autocomplete="current-password"></label></p>'
+                        '<p><button type="submit">Sign in</button></p></form>')
+        key_form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
+                    '<p><label>API key <input type="password" name="key" required></label></p>'
+                    '<p><button type="submit">Sign in</button></p></form>')
+        account_note = ('<p class="muted small">No accounts are configured; sign in with the library key. '
+                        'Accounts come from the LIBRARY_USERS secret (see docs/HOSTING.md).</p>') if not has_users else ""
+        body = (f'<section class="card narrow"><h1>Sign in</h1>{error}{account_form}{account_note}</section>'
+                f'<section class="card narrow"><h2>Or with the library key</h2>'
+                f'<p class="muted small">The same key agents send in the x-api-key header.</p>{key_form}</section>')
         resp = _page("Sign in", body)
         if error:
             resp.status_code = 401

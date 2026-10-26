@@ -19,6 +19,7 @@ interface Env {
   LIBRARY: DurableObjectNamespace<Library>;
   LIBRARY_API_KEY: string; // set with: wrangler secret put LIBRARY_API_KEY
   DATABASE_URL?: string; // read-only Neon DSN for the Postgres layer; set with: wrangler secret put DATABASE_URL (optional)
+  LIBRARY_USERS?: string; // named web accounts, email|name|scrypt-hash entries (agent/users.py); set with: wrangler secret put LIBRARY_USERS (optional)
   OAUTH_KV: KVNamespace;
   OAUTH_PROVIDER: OAuthHelpers;
 }
@@ -30,7 +31,9 @@ export class Library extends Container<Env> {
 
   constructor(ctx: DurableObjectState<{}>, env: Env) {
     super(ctx, env);
-    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: ORIGIN, ...(env.DATABASE_URL ? { DATABASE_URL: env.DATABASE_URL } : {}) };
+    this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: ORIGIN,
+                     ...(env.DATABASE_URL ? { DATABASE_URL: env.DATABASE_URL } : {}),
+                     ...(env.LIBRARY_USERS ? { LIBRARY_USERS: env.LIBRARY_USERS } : {}) };
   }
 }
 

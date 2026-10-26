@@ -30,6 +30,38 @@ def test_login_rejects_a_wrong_key(c):
     assert c.post("/login", data={"key": "wrong", "next": "/"}, follow_redirects=False).status_code == 401
 
 
+def test_account_login_sets_a_user_session(c, monkeypatch):
+    import users as user_accounts
+    entry = f"alice@example.com|Alice|{user_accounts.hash_password('library-pass-1')}"
+    monkeypatch.setenv("LIBRARY_USERS", entry)
+    page = c.get("/login")
+    assert page.status_code == 200 and 'name="email"' in page.text and 'name="password"' in page.text
+    ok = c.post("/login", data={"email": "Alice@Example.com", "password": "library-pass-1", "next": "/technologies"},
+                follow_redirects=False)
+    assert ok.status_code == 303 and ok.headers["location"] == "/technologies"
+    assert "oglib_session" in ok.cookies
+    # the account cookie, not the key, now opens pages (fresh client without the key header)
+    with starlette_testclient.TestClient(server.http_app(KEY), base_url="https://testserver") as fresh:
+        fresh.cookies.set(web.COOKIE, ok.cookies.get(web.COOKIE))
+        assert fresh.get("/technologies").status_code == 200
+        assert fresh.get("/vendors").status_code == 200
+    bad = c.post("/login", data={"email": "alice@example.com", "password": "wrong", "next": "/"},
+                 follow_redirects=False)
+    assert bad.status_code == 401
+    monkeypatch.delenv("LIBRARY_USERS")
+    none_page = c.get("/login")
+    assert "No accounts are configured" in none_page.text
+
+
+def test_tampered_user_sessions_are_rejected(c):
+    from starlette.testclient import TestClient
+    forged = "v2|eyJ1IjogImFsaWNlQGV4YW1wbGUuY29tIiwgImV4cCI6IDk5OTk5OTk5OTl9|0" * 64
+    with TestClient(server.http_app(KEY), base_url="https://testserver") as fresh:
+        fresh.cookies.set(web.COOKIE, forged)
+        r = fresh.get("/technologies", follow_redirects=False)
+        assert r.status_code == 303 and r.headers["location"].startswith("/login?next=")
+
+
 def test_login_sets_the_cookie_and_pages_answer(c):
     r = c.post("/login", data={"key": KEY, "next": "/"}, follow_redirects=False)
     assert r.status_code == 303 and r.headers["location"] == "/" and "oglib_session" in r.cookies

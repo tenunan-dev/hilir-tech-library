@@ -80,8 +80,9 @@ Command line: `python agent/library.py search hydrogen compressor`.
 ### Browse in a browser
 
 The hosted server also serves an HTML interface at https://techlib.hilir.app. Sign in once at
-`/login` with the library API key (the same key agents send in the `x-api-key` header); a session
-cookie keeps you signed in for 30 days. Every page also accepts the `x-api-key` header instead of
+`/login` — with the library API key (the same key agents send in the `x-api-key` header) or, if
+the owner has set up named accounts, with your email and password; a session cookie keeps you
+signed in for 30 days. Every page also accepts the `x-api-key` header instead of
 the cookie, and any page without a valid session redirects to the sign-in page.
 
 | Page | Shows |
