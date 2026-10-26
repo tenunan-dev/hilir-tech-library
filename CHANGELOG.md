@@ -1,0 +1,68 @@
+# Changelog
+
+All notable releases of the library. Versions are calendar-based — `YYYY.MM.DD`, with a `.2`,
+`.3`… suffix when a day ships more than one release; a version is cut when a working session
+lands in `main`. Categories follow [Keep a Changelog](https://keepachangelog.com/). Session
+detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
+[docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
+[docs/archive/](docs/archive/) (see its README) and never deleted.
+
+## [2026.10.26.3] — 2026-10-26 — modular power plant cards; vendors directory
+
+### Added
+- Six modular power plant cards (PWR), taking the library to 299 cards covering all 306 register entries.
+- Vendors directory: `catalog/vendors/`, 71 records, power sector first, with the coverage queue for the other sectors in `catalog/index/vendors.md` (decision #28).
+
+### Notes
+- Neon's vectors and `similar_to` edges predate these cards: re-run the embed chain (`python agent/embed.py`, then the Neon reload) before the next database refresh, or the new cards load without vectors.
+
+## [2026.10.26.2] — 2026-10-26 — Neon live, database over MCP, web interface
+
+### Added
+- **Neon Postgres layer, live**: project `patient-dew-83888795` (Singapore, Postgres 18.6), loaded with 348 sources, 168 documents, 9,835 embedded passages, 293 cards, the 300-entry register, 3,093 nodes and 8,982 graph edges, plus 1,465 semantic `similar_to` edges.
+- **Database access for agents**: read-only role `og_mcp_read` (`db/readonly.sql`, minted by `tools/load_postgres.py --grant-readonly`; SELECT-only grants, forced read-only transactions, 15 s statement timeout) behind three new MCP tools — `sql_query`, `db_catalog`, `graph_neighbors` (12 tools total).
+- **Web interface** at the same origin (https://techlib.hilir.app): sign in once with the library key; cards with rendered block diagrams, register, sources, documents, gaps, and database pages with a read-only SQL console, hybrid search and a graph browser.
+- **Changelog and docs archive**: this file; `docs/archive/` with date+version filenames and nothing deleted; the STATUS.md log for 2026-10-23 – 2026-10-25 archived there.
+
+### Changed
+- `tools/load_postgres.py` loads inside a psycopg pipeline (27 s to Neon; per-round-trip loading ran 13 minutes and dropped the connection) and executes the schema statement-by-statement.
+- The container reaches the internet for Neon and receives the read-only DSN as the Worker secret `DATABASE_URL`; the Dockerfile installs psycopg.
+- Documentation swept current: README, ARCHITECTURE, USER_GUIDE, MAINTAINER_MANUAL, agent README.
+
+### Known limits
+- Hosted `search` and `/database/search` are keyword-only (the image ships no embedder); the vectors in Postgres serve `hybrid_search`'s vector half through the SQL console anywhere.
+
+## [2026.10.26.1] — 2026-10-26 — new home techlib.hilir.app
+
+### Changed
+- The hosted server moved from techlibrary.tenunan.com to https://techlib.hilir.app (same Worker `og-tech-library` and Cloudflare account; both domains attached during the transition). OAuth grants are per-URL, so claude.ai connectors must be re-added at the new address.
+- Documented curl connection test (health, stats, MCP handshake, tool call) with its first recorded run.
+
+## [2026.10.25] — all 300 register entries carded; Postgres layer; acquisition sweep
+
+### Added
+- Technology cards completed: 293 cards cover all 300 register entries across UPS–CCS and the cross-cutting disciplines (PRC, ROT, INS, MAT, HSE, DIG); Wikipedia catalogued as a secondary source; every corpus document now carries a hand-written summary (test-enforced).
+- Postgres layer built and tested locally: schema `og` with pgvector, full-text search and the knowledge graph (`db/schema.sql`, `agent/graph.py`, `tools/load_postgres.py`, `--dump-graph`).
+- 24 corpus documents collected through compliant mirrors where OSTI/NREL/PNNL/MDPI blocked the collector; `docs/LOGIN_REQUIRED.md` register of gates and blocks; MDPI OAI-PMH abstract harvest (850 records).
+- Card figures mined from the new documents: NETL Rev 4 capture costs (new-build NGCC 60.7 / PC 38.1 USD/t, 2018$), HEFA MJSP, ATJ conversion costs, US liquid-hydrogen capacity, CO2-shipping costs.
+
+### Changed
+- Collectors hardened after the security gate: defusedxml parsing, per-hop SSRF validation in `common._hop()`, robots.txt honoured, redirects capped at five, FTS sanitiser inlined.
+
+### Fixed
+- Mimosa commit gate durably in warn mode (login LaunchAgent), restoring agent-side commits.
+
+## [2026.10.24] — hosted server live; cards at scale; Dataverse export
+
+### Added
+- Hosted MCP server on Cloudflare Containers (Workers Paid) at techlibrary.tenunan.com: open-licence copy only, API-key gated; REST API with a public OpenAPI 3.1 schema; OAuth sign-in for claude.ai custom connectors.
+- Dataverse export for Power Platform (`tools/export_dataverse.py`, `docs/DATAVERSE.md`).
+- Technology cards at scale: CCS batch, hydrogen / gas-LNG / refining batch, the gaps system (`gaps` on every card, `catalog/index/gaps.md`, `list_gaps` tool), upstream batch, IEA TRL fill; 68 LEMIGAS articles collected.
+
+### Fixed
+- Manual collector no longer counts `.url` sidecars toward `--limit`.
+
+## [2026.10.23] — first release
+
+### Added
+- Catalog of 342 sources across 8 sectors and 6 disciplines, schema-validated, with generated indexes; licence-aware collectors (RSS, arXiv API, OSTI API, manual inbox); first collections (arXiv 24 papers, OSTI 25 records); SQLite FTS5 search index with optional fastembed embeddings; stdio MCP server; documentation set (AGENTS.md, docs/); weekly refresh and monthly link-check workflows; hosted-mode groundwork (`server.py --http`).

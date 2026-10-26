@@ -25,7 +25,9 @@ agents to find, cite and (where licences allow) read. It has five layers:
 | Export to Dataverse / Power Apps tables | [docs/DATAVERSE.md](docs/DATAVERSE.md) |
 | Load into Postgres with vectors and a knowledge graph (Neon) | [docs/POSTGRES.md](docs/POSTGRES.md) |
 | Know what is done and what to do next | [docs/STATUS.md](docs/STATUS.md) |
+| Know what shipped, release by release | [CHANGELOG.md](CHANGELOG.md) |
 | Know why a rule exists | [docs/DECISIONS.md](docs/DECISIONS.md) |
+| Find a superseded version of a document | [docs/archive/](docs/archive/) |
 
 ## Rules you must not break
 
@@ -52,4 +54,4 @@ Commit the records you changed together with the regenerated `catalog/` files. C
 
 ## When you finish a piece of work
 
-Update [docs/STATUS.md](docs/STATUS.md): the counts, what you did (with the date), and what is next. Add any new rule or owner decision to [docs/DECISIONS.md](docs/DECISIONS.md). The next agent has only these files to go on.
+Update [docs/STATUS.md](docs/STATUS.md): the counts, what you did (with the date), and what is next. Add any new rule or owner decision to [docs/DECISIONS.md](docs/DECISIONS.md). Add an entry to [CHANGELOG.md](CHANGELOG.md) under today's version (`YYYY.MM.DD`, or the next `.N` suffix if the day already has a release), and archive any superseded document in [docs/archive/](docs/archive/) following its README instead of deleting it. The next agent has only these files to go on.

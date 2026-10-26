@@ -13,6 +13,7 @@ It holds 348 catalog sources across 8 sectors and 6 engineering disciplines, wei
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How the parts fit together |
 | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) | Adding sources, verifying terms, collecting, refreshing |
 | [docs/STATUS.md](docs/STATUS.md) | Current numbers and backlog |
+| [CHANGELOG.md](CHANGELOG.md) | What shipped in each release |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Owner decisions and the rules they set |
 | [docs/HOSTING.md](docs/HOSTING.md) | The hosted server for cloud agents and browsers (techlib.hilir.app) |
 | [docs/POSTGRES.md](docs/POSTGRES.md) | The Postgres/Neon layer: vectors, knowledge graph, read-only access |
