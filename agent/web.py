@@ -850,7 +850,6 @@ def routes(tools, key: str) -> list:
         else:
             next_url = _safe_next(request.query_params.get("next"))
             error = ""
-        has_users = bool(user_accounts.load_users())
         account_form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
                         '<p><label>Email <input type="email" name="email" autofocus required autocomplete="username"></label></p>'
                         '<p><label>Password <input type="password" name="password" required autocomplete="current-password"></label></p>'
@@ -858,13 +857,11 @@ def routes(tools, key: str) -> list:
         key_form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
                     '<p><label>API key <input type="password" name="key" required></label></p>'
                     '<p><button type="submit">Sign in</button></p></form>')
-        # The page is public: it must not disclose whether accounts exist, secret names or
-        # internal docs. With no accounts configured, only the key form is shown at all.
-        if has_users:
-            body = (f'<section class="card narrow"><h1>Sign in</h1>{error}{account_form}</section>'
-                    f'<section class="card narrow"><h2>Or with the library key</h2>{key_form}</section>')
-        else:
-            body = f'<section class="card narrow"><h1>Sign in</h1>{error}{key_form}</section>'
+        # The page is public: no account-state disclosure, secret names or internal docs.
+        # Both forms always render; with no accounts configured, an email attempt fails
+        # exactly like a wrong password (generic 401 after the damping delay).
+        body = (f'<section class="card narrow"><h1>Sign in</h1>{error}{account_form}</section>'
+                f'<section class="card narrow"><h2>Or with the library key</h2>{key_form}</section>')
         resp = _page("Sign in", body)
         if error:
             resp.status_code = 401

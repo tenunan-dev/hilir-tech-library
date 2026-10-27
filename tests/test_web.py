@@ -50,9 +50,13 @@ def test_account_login_sets_a_user_session(c, monkeypatch):
     assert bad.status_code == 401
     monkeypatch.delenv("LIBRARY_USERS")
     none_page = c.get("/login")
-    # the public page must not disclose account state or internals: no email form, no note
-    assert 'name="email"' not in none_page.text and 'name="key"' in none_page.text
+    # both forms always render; the page must not disclose account state or internals
+    assert 'name="email"' in none_page.text and 'name="key"' in none_page.text
     assert "LIBRARY_USERS" not in none_page.text and "No accounts" not in none_page.text
+    # with no accounts configured, an email attempt fails exactly like a wrong password
+    none_try = c.post("/login", data={"email": "nobody@example.com", "password": "x", "next": "/"},
+                      follow_redirects=False)
+    assert none_try.status_code == 401 and "Wrong email or password" in none_try.text
 
 
 def test_tampered_user_sessions_are_rejected(c):
