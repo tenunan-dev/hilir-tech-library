@@ -627,7 +627,7 @@ def is_web_path(path: str) -> bool:
 
 
 def session_token(key: str) -> str:
-    return hmac.new(key.encode(), b"og-tech-library web session v1", sha256).hexdigest()
+    return hmac.new(key.encode(), b"hilir-tech-library web session v1", sha256).hexdigest()
 
 
 def _authed(request: Request, key: str) -> bool:
@@ -761,12 +761,12 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="") -> HTMLRes
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)} — O&amp;G technology library</title>
+<title>{esc(title)} — HILIR Technology Library</title>
 <style>{CSS}</style>
 </head>
 <body>
 <header><div class="bar">
-<a class="brand" href="/">O&amp;G technology library</a>
+<a class="brand" href="/">HILIR Technology Library</a>
 <nav>{nav}</nav>
 <form action="/search" method="get"><input type="search" name="q" value="{esc(q)}" placeholder="Search the library" aria-label="Search"><button type="submit">Search</button></form>
 <form action="/logout" method="post"><button type="submit" class="ghost">Sign out</button></form>

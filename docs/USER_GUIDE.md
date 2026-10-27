@@ -22,8 +22,8 @@ For people and AI agents who want to use the library, not change it.
 ### MCP server
 
 ```
-git clone https://github.com/tenunan-dev/og-tech-sources.git
-cd og-tech-sources
+git clone https://github.com/tenunan-dev/hilir-tech-library.git
+cd hilir-tech-library
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements-agent.txt
 python agent/library.py build
@@ -32,8 +32,8 @@ pip install fastembed && python agent/embed.py      # optional: semantic search
 
 Register it with your MCP client, using absolute paths:
 
-- Claude Desktop: in `claude_desktop_config.json`, under `mcpServers`, add `"og-tech-sources": {"command": "<repo>/.venv/bin/python", "args": ["<repo>/agent/server.py"]}`, then restart the app.
-- Claude Code: `claude mcp add -s user og-tech-sources -- "<repo>/.venv/bin/python" "<repo>/agent/server.py"`.
+- Claude Desktop: in `claude_desktop_config.json`, under `mcpServers`, add `"hilir-tech-library": {"command": "<repo>/.venv/bin/python", "args": ["<repo>/agent/server.py"]}`, then restart the app.
+- Claude Code: `claude mcp add -s user hilir-tech-library -- "<repo>/.venv/bin/python" "<repo>/agent/server.py"`.
 - Other clients (Cursor, VS Code, Windsurf, Gemini CLI, Codex CLI and so on): add a stdio server with the same command and argument in that client's MCP settings.
 
 Tools:

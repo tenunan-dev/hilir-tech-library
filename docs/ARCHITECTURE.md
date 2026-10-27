@@ -85,7 +85,7 @@ Validates each record against the schema and checks id equals file name, then wr
 
 ### Collectors (`collectors/`)
 
-- `common.py`: polite HTTP (`fetch` checks robots.txt, waits 3 s per host, sends user agent `og-tech-sources-collector/0.1`), HTML and PDF to Markdown (trafilatura, pypdf), and `write_document`, which writes front matter from the record and de-duplicates by SHA-256 through `corpus/manifest.jsonl`.
+- `common.py`: polite HTTP (`fetch` checks robots.txt, waits 3 s per host, sends user agent `hilir-tech-library-collector/0.1`), HTML and PDF to Markdown (trafilatura, pypdf), and `write_document`, which writes front matter from the record and de-duplicates by SHA-256 through `corpus/manifest.jsonl`.
 - `adapters.py`: `rss` (feed items to article pages), `arxiv` (Atom API, metadata and abstracts), `osti` (OSTI API, metadata and abstracts), `manual` (files in `corpus/_inbox/<id>/`). `adapter_for(rec)` picks a named adapter from `ADAPTERS`, else `rss` when the record has `feeds`.
 - `collect.py`: CLI that runs adapters for collectable records.
 - robots.txt handling: 401/403/5xx or unreachable means disallow all; 404 means allow all. `ROBOTS_EXCEPTIONS` lists URL prefixes allowed despite robots.txt, each with its terms page.

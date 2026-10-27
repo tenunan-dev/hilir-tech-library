@@ -80,8 +80,8 @@ python tools/load_postgres.py --grant-readonly
 
 The command also sets the role's password and `GRANT CONNECT` itself, so no secret is in the file or
 the repository. It is idempotent. The printed **pooled** read-only DSN is the one the server uses:
-keep it at `~/.config/og-tech-library/db-readonly.url` (mode 600, never in the repo) and set it as
-the Cloudflare secret (`tr -d '\n' < ~/.config/og-tech-library/db-readonly.url | npx wrangler secret
+keep it at `~/.config/hilir-tech-library/db-readonly.url` (mode 600, never in the repo) and set it as
+the Cloudflare secret (`tr -d '\n' < ~/.config/hilir-tech-library/db-readonly.url | npx wrangler secret
 put DATABASE_URL`, see docs/HOSTING.md).
 
 Three layers protect the database:
@@ -111,7 +111,7 @@ What was done once (repeat only for a new project):
 1. Create the project at neon.tech, region Singapore; copy both owner connection strings from the dashboard (pooled and unpooled, `sslmode=require`).
 2. Store them in `.env.local` (gitignored): `DATABASE_URL` (pooled) and `DATABASE_URL_UNPOOLED` (for loads).
 3. `pip install -r requirements-postgres.txt`, then load with `DATABASE_URL_UNPOOLED` (see *Load it* above).
-4. `OG_READONLY_PASSWORD=... python tools/load_postgres.py --grant-readonly` against the owner DSN; keep the printed pooled read-only DSN at `~/.config/og-tech-library/db-readonly.url` and as the Cloudflare secret `DATABASE_URL`.
+4. `OG_READONLY_PASSWORD=... python tools/load_postgres.py --grant-readonly` against the owner DSN; keep the printed pooled read-only DSN at `~/.config/hilir-tech-library/db-readonly.url` and as the Cloudflare secret `DATABASE_URL`.
 
 Refresh after cards or documents change (on the Mac, where fastembed is installed):
 

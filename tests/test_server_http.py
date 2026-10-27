@@ -28,7 +28,7 @@ def test_rejects_missing_or_wrong_key():
 def test_initialize_with_key(auth):
     with client() as c:
         resp = c.post("/mcp", json=INIT, headers={**HEADERS, **auth})
-        assert resp.status_code == 200 and "og-tech-sources" in resp.text
+        assert resp.status_code == 200 and "hilir-tech-library" in resp.text
 
 
 def test_http_mode_refuses_short_key(monkeypatch):

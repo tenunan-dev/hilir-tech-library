@@ -1,0 +1,1468 @@
+<html><head><title>Torque-and-Drag-Analysis-MSc-Thesis-Azeez-2019</title></head><body><section><h2>Page 1</h2>
+<p>
+TECHNICAL UNIVERSITY OF CRETE<br/>
+SCHOOL OF MINERAL RESOURCES ENGINEERING<br/>
+MSc in Petroleum Engineering<br/>
+TORQUE AND DRAG ANALYSIS<br/>
+A Thesis<br/>
+By<br/>
+Mustafa Shamss Alah Azeez<br/>
+To be presented to:<br/>
+The Department of Mineral Resources Engineering<br/>
+In partial fulfillment of the requirements for the Degree of<br/>
+MASTER OF SCIENCE IN PETROLEUM ENGINEERING<br/>
+Faculty supervisor: Prof. Pasadakis Nikolaos<br/>
+External supervisor: Alexis Koulidis<br/>
+February 2019<br/>
+i<br/>
+</p></section>
+<section><h2>Page 2</h2>
+<p>
+TECHNICAL UNIVERSITY OF CRETE<br/>
+DEPARTMENT OF MINERAL RESOURCES ENGINEERING<br/>
+The undersigned hereby certify that they have read and recommended to the Faculty of<br/>
+Mineral Resources Engineering for acceptance a thesis entitled “TORQUE AND DRAG<br/>
+ANALYSIS" by<br/>
+Mustafa Shamss Alah Azeez in partial fulfillment of the requirements for the degree of<br/>
+Master of Science.<br/>
+Date: 05-02-2019<br/>
+Committee Members,<br/>
+Prof. Pasadakis Nikolaos (Supervisor)<br/>
+Prof. Gaganis Vasileios<br/>
+Dr. Marinakis Dimitrios<br/>
+ii<br/>
+</p></section>
+<section><h2>Page 3</h2>
+<p>
+ABSTRACT<br/>
+Drilling through the subsurface is a complex operation and problems are almost<br/>
+guaranteed to occur. Therefore, understanding and anticipating drilling problems,<br/>
+understanding their causes and planning solutions are necessary for successfully reaching<br/>
+the target. The most prevalent drilling problems include pipe sticking, lost circulation,<br/>
+hole deviation, pipe failures, borehole instability, mud contamination, formation damage,<br/>
+hole cleaning.<br/>
+Torque and drag modeling is very important to analyze the mechanical behavior of the<br/>
+drill string and the wellbore condition, hence, to predict and prevent downhole problems.<br/>
+There have been a number of different approaches to the way that torque and drag has<br/>
+been modeled in the well drilling industry. These include the soft string and stiff string<br/>
+approaches.<br/>
+This thesis will study the torque and drag in the wellbore and will give a general<br/>
+overview of the sources, effects and challenges of torque, drag and buckling in the<br/>
+wellbore. Furthermore, it will study and simulate the soft string model to calculate torque<br/>
+and drag along a drill string in a 12 1/4” vertical section wellbore as well as provide<br/>
+calculations of hook-loads and frictional torque for specific bit depths. Additionally, it<br/>
+will provide a simulation of the section with the PayZone drilling simulator to calculate<br/>
+the torque on bit while drilling. Both the model and the PayZone values are summed up<br/>
+together to get the cumulative torque which is the torque observed at the surface while<br/>
+drilling.<br/>
+iii<br/>
+</p></section>
+<section><h2>Page 4</h2>
+<p>
+TABLE OF CONTENTS<br/>
+ABSTRACT ...................................................................................................................... iii<br/>
+Table of Contents ............................................................................................................. iv<br/>
+List of figures ................................................................................................................... vii<br/>
+List of tables.................................................................................................................... viii<br/>
+1 INTRODUCTION ...................................................................................................... 1<br/>
+1.1 Introduction to Drilling ........................................................................................ 1<br/>
+1.2 Historical Perspective ........................................................................................... 3<br/>
+1.3 Deviation and Directional Wells .......................................................................... 3<br/>
+1.4 Drilling Problems ................................................................................................. 4<br/>
+2 LITERATURE STUDIES ......................................................................................... 5<br/>
+2.1 Torque and Drag Definition ................................................................................. 5<br/>
+2.1.1 Drag .................................................................................................................. 5<br/>
+2.1.2 Torque ............................................................................................................... 6<br/>
+2.2 Sources ................................................................................................................. 6<br/>
+2.3 Types of Torque ................................................................................................... 9<br/>
+2.3.1 Frictional Torque .............................................................................................. 9<br/>
+2.3.2 Mechanical Torque ......................................................................................... 10<br/>
+2.3.3 Bit Torque ....................................................................................................... 10<br/>
+2.4 Challenges .......................................................................................................... 10<br/>
+2.5 Reduction of Torque and Drag ........................................................................... 11<br/>
+2.5.1 Wellpath.......................................................................................................... 11<br/>
+2.5.2 Rotary Steerable Systems ............................................................................... 11<br/>
+2.5.3 Bit Selection ................................................................................................... 12<br/>
+2.5.4 Mechanical Friction Reduction Subs .............................................................. 12<br/>
+2.5.5 Mud System .................................................................................................... 12<br/>
+iv<br/>
+</p></section>
+<section><h2>Page 5</h2>
+<p>
+3 TORQUE AND DRAG MODELING .................................................................... 13<br/>
+3.1 Background ........................................................................................................ 13<br/>
+3.2 Uses of Torque and Drag Modeling ................................................................... 14<br/>
+3.3 Soft-String Versus Stiff-String Model ............................................................... 15<br/>
+3.4 The Soft-String Model ....................................................................................... 16<br/>
+3.4.1 For Inclined Straight Hole Section ................................................................. 17<br/>
+3.4.2 For Curved Hole Section ................................................................................ 18<br/>
+3.5 Side Forces ......................................................................................................... 20<br/>
+3.6 Buoyancy Factor ................................................................................................ 21<br/>
+3.7 Friction ............................................................................................................... 22<br/>
+3.8 Buckling ............................................................................................................. 24<br/>
+3.8.1 Buckling in a Deviation Wellbore .................................................................. 25<br/>
+3.8.2 Buckling in a Vertical Well ............................................................................ 26<br/>
+4 TORQUE AND DRAG MODELING .................................................................... 27<br/>
+4.1 Input Data ........................................................................................................... 27<br/>
+4.1.1 Drill String Data ............................................................................................. 28<br/>
+4.1.2 Hole Sections Information .............................................................................. 29<br/>
+4.1.3 Caliper log data ............................................................................................... 29<br/>
+4.1.4 Survey Data .................................................................................................... 30<br/>
+4.2 Model Construction ............................................................................................ 31<br/>
+4.2.1 Calculation of Buoyed Weight ....................................................................... 31<br/>
+4.2.2 Calculation of Axial Loads ............................................................................. 32<br/>
+4.2.3 Calculation of Torsional Loads ...................................................................... 35<br/>
+4.2.4 Calculation of buckling loads ......................................................................... 36<br/>
+5 CALCULATION OF TORQUE ON BIT USING PAYZONE SIMULATOR .. 37<br/>
+5.1 PayZone Drilling Predictive Simulator .............................................................. 37<br/>
+5.2 ROP Modeling and Prediction ........................................................................... 38<br/>
+5.3 Constructing the Lithology................................................................................. 40<br/>
+5.4 Drilling the 12 ¼” section .................................................................................. 43<br/>
+5.5 Tuning ................................................................................................................ 45<br/>
+5.6 Torque values from PayZone ............................................................................. 45<br/>
+v<br/>
+</p></section>
+<section><h2>Page 6</h2>
+<p>
+6 RESULTS AND DISCUSSIONS ............................................................................ 47<br/>
+6.1 The Tension Along the Drill String.................................................................... 47<br/>
+6.2 The Frictional Torque Along the Drill String .................................................... 50<br/>
+6.3 The Hook-load While Tripping .......................................................................... 52<br/>
+6.4 The Frictional Torque While Tripping ............................................................... 54<br/>
+6.5 Hook-load Comparison ...................................................................................... 56<br/>
+6.6 Cumulative Torque Comparison ........................................................................ 58<br/>
+7 CONCLUSIONS AND RECOMMENDATIONS ................................................. 62<br/>
+REFERENCES ................................................................................................................ 64<br/>
+vi<br/>
+</p></section>
+<section><h2>Page 7</h2>
+<p>
+LIST OF FIGURES<br/>
+Figure 1.1 Different types of wells [1]................................................................................ 3<br/>
+Figure 2.1 Hook load as observed on the surface ............................................................... 5<br/>
+Figure 2.2 Torque to rotate the pipe.................................................................................... 6<br/>
+Figure 2.3 Key seating ........................................................................................................ 7<br/>
+Figure 2.4 Differential sticking mechanism........................................................................ 8<br/>
+Figure 2.5 Settled cuttings due to poor cleaning................................................................. 8<br/>
+Figure 3.1 Forces acting on an object resting on a horizontal plane ................................. 16<br/>
+Figure 3.2 Forces acting on an object resting on an inclined straight plane ..................... 17<br/>
+Figure 3.3 Forces acting on a drill string element, illustrating the normal force, friction<br/>
+and changes in inclination and azimuth [4] ...................................................................... 18<br/>
+Figure 3.4 Side forces on a drill pipe ................................................................................ 21<br/>
+Figure 3.5 Forces on an object sliding on an inclined plane ............................................. 23<br/>
+Figure 3.6 Static and dynamic friction .............................................................................. 24<br/>
+Figure 3.7 Sinusoidal buckling of the pipe in a horizontal wellbore [11] ........................ 25<br/>
+Figure 3.8 Helical buckling of the pipe in a horizontal wellbore [11] .............................. 25<br/>
+Figure 4.1 Hole diameter from the caliper log .................................................................. 29<br/>
+Figure 4.2 Inclination and DLS versus measured depth ................................................... 30<br/>
+Figure 4.3 Azimuth versus measured depth ...................................................................... 31<br/>
+Figure 5.1 Payzone simulator ........................................................................................... 38<br/>
+Figure 5.2 LAS file parameters - PayZone Parameters mapping ..................................... 41<br/>
+Figure 5.3 LAS file parameters ......................................................................................... 42<br/>
+Figure 5.4 Lithology data – After importing LAS file into PayZone ............................... 42<br/>
+Figure 5.5 Actual section lithology ................................................................................... 43<br/>
+Figure 5.6 Drilling control panel 1 ................................................................................... 44<br/>
+Figure 5.7 Drilling control panel 2 ................................................................................... 44<br/>
+Figure 5.8 Torque values from PayZone .......................................................................... 46<br/>
+Figure 6.1 Tension loads along the drill string ................................................................. 49<br/>
+Figure 6.2 Frictional torque along the drill string ............................................................. 51<br/>
+Figure 6.3 Hook-loads while tripping ............................................................................... 53<br/>
+Figure 6.4 Frictional torque while tripping ....................................................................... 55<br/>
+Figure 6.5 Errors between the calculated and the actual Hook-load ................................ 56<br/>
+Figure 6.6 Hook-load comparison .................................................................................... 57<br/>
+Figure 6.7 Actual torque and calculated torque ................................................................ 59<br/>
+Figure 6.8 Torque and UCS .............................................................................................. 60<br/>
+Figure 6.9 The effect of wellbore diameter on the results ................................................ 61<br/>
+vii<br/>
+</p></section>
+<section><h2>Page 8</h2>
+<p>
+LIST OF TABLES<br/>
+Table 4.1 12 ¼” Bottom hole assembly (BHA) ................................................................ 28<br/>
+Table 4.2 Pipes characteristics .......................................................................................... 28<br/>
+Table 4.3 Hole sections details ......................................................................................... 29<br/>
+viii<br/>
+</p></section>
+<section><h2>Page 9</h2>
+<p>
+1 INTRODUCTION<br/>
+1.1 Introduction to Drilling<br/>
+When locating and extracting hydrocarbons from reservoirs, a hole must be drilled<br/>
+into the earth. This hole is known as an oil or gas well, depending on the type of<br/>
+hydrocarbons produced in the reservoir. Well drilling is achieved by complex<br/>
+processes and techniques; it is typically done by using special platforms known as<br/>
+Drilling Rigs. In drilling rigs, there is a rotating drilling string with a bit attached to it,<br/>
+and the bit is rotated and simultaneously forced against the rock formations in order<br/>
+to overcome the resistance of the rocks and break or crush the rocks into small<br/>
+particles. It is then brought back to the surface by a drilling fluid - usually by a liquid,<br/>
+a gas, or foam – that is pumped from the surface through the drill string, down to the<br/>
+bit and then back to the surface through the annulus between the hole and the drilling<br/>
+string. Besides removing cuttings particles from the hole, drilling mud is used to<br/>
+maintain the stability of the walls of the well and prevent formation fluid influx into<br/>
+the well while drilling and during suspensions. The drilling rigs are complexes of<br/>
+mobile equipment which can be relocated to different drilling sites.<br/>
+Traditionally, the rotation of the drilling string is introduced at the surface by a rotary<br/>
+table. In modern rigs, the rotation is generated by a top drive motor and then<br/>
+transmitted to the bit by the drill string, which in this case are circular pipes<br/>
+connected to each other, as well as some special tools and pipes to add weight, allow<br/>
+for reaming and center the string in the hole. In addition, they orient the well into a<br/>
+specific direction, downhole measurements, and add rotation such as the mud motor<br/>
+located above the bit; all together these components are called Bottom Hole<br/>
+Assembly (BHA).<br/>
+Drill bits are the most refined tools in the rotary system; bits are available for every<br/>
+condition of drilling, and certain types of bits are used for specific formation<br/>
+hardness. Two types of bits are widely used in the rotary system – the first type is<br/>
+Polycrystalline Diamond Compact (PDC) bits, which are made of heat-treated alloy<br/>
+1<br/>
+</p></section>
+<section><h2>Page 10</h2>
+<p>
+steel or a tungsten carbide matrix body with fixed cutters attached to the bit face,<br/>
+which would be in contact with formation rocks. These cutters are made by bonding a<br/>
+layer of synthetic polycrystalline diamond to a cemented tungsten carbide substrate in<br/>
+a high temperature and pressure process. The hard and wear-resistant diamond is<br/>
+produced at the end of this process, which penetrates rocks in a shearing mechanism.<br/>
+The other type is roller cone bit; it is made of a body with three rotating cones with<br/>
+casted or inserted teeth to break the rocks.<br/>
+After the hole is drilled to a predetermined depth, sections of steel tubing slightly<br/>
+smaller than the borehole, known as casing strings, are set in the hole to provide an<br/>
+annulus for cementing. The casing provides structural integrity to the newly drilled<br/>
+wellbore and isolates any potentially dangerous high pressure zones from each other<br/>
+and from the surface.<br/>
+With these zones safely isolated and the formation protected by the casing, the well<br/>
+can then be drilled deeper, often into potentially more unstable formations. Here, a<br/>
+smaller bit and smaller size casing is used. Modern wells often have two to five sets<br/>
+of subsequently smaller hole sizes drilled, each inside one another and each cemented<br/>
+with a differently sized casing.<br/>
+During drilling operations, sub-surface pressures must be continuously controlled as<br/>
+the various layers of the downhole formation are pierced by the wellbore. “Down hole<br/>
+blowouts” can often occur when a zone of high pressure is penetrated and<br/>
+uncontrolled pressure starts flowing to another zone of lower pressure. To control this<br/>
+situation, mud pressure is increased above the pressure in the formation. This form of<br/>
+wel l control is called “primary well control”, and pressure is maintained and closely<br/>
+monitored throughout the entire well drilling process. In the secondary well control<br/>
+approach, a blowout preventer is activated which seals off the well annulus to prevent<br/>
+the downhole pressure from reaching the surface.<br/>
+2<br/>
+</p></section>
+<section><h2>Page 11</h2>
+<p>
+1.2 Historical Perspective<br/>
+During the 1860s, the oil industry started to develop and wells were drilled using<br/>
+cable tool rigs that originated in China. This was the best method available until 1900,<br/>
+as cable tool rigs were very slow and were operated by lifting and dropping a special<br/>
+string into the hole.<br/>
+The rotary system was developed in 1901 to drill deeper and faster and eventually<br/>
+became the common method to drive the rigs until the present day. (Please, do not use<br/>
+a comma before the “and” word)<br/>
+1.3 Deviation and Directional Wells<br/>
+Most of the wells drilled today are directional wells to increase exposure to producing<br/>
+zones and intersect a larger number of fractures. Directional wells deviate from the<br/>
+vertical position of the wellbore path. Deviations can occur naturally from the result<br/>
+of inserting the drill string to the downhole structure, such as fractures and formation<br/>
+dipping. However, wells are often deliberately deviated by the use of a steering<br/>
+mechanism attached to the drill string.<br/>
+Multiple directional wells can be drilled from the same pad, which is common in<br/>
+offshore drilling. The most common method is when a driller moves the rig a few<br/>
+yards and starts another vertical shaft. Multiple wells can also be drilled from the<br/>
+same vertical borehole to reach different zones.<br/>
+Figure 1.1 Different types of wells [1]<br/>
+3<br/>
+</p></section>
+<section><h2>Page 12</h2>
+<p>
+1.4 Drilling Problems<br/>
+Drilling through the subsurface is a complex and risky operation and problems are<br/>
+almost guaranteed to occur. Therefore, it is always important to predict potential<br/>
+problems rather than caution and containment, which is a key issue while designing<br/>
+the well.<br/>
+The most prevalent drilling problems include pipe sticking, lost circulation, hole<br/>
+deviation, pipe failures, borehole instability, mud contamination, formation damage,<br/>
+hole cleaning, H2S -bearing formation, shallow gas, and equipment and personnel-<br/>
+related problems [2].<br/>
+This thesis will study the torque and drag in the wellbore. Torque and drag modeling<br/>
+is a very important tool used to avoid drilling problems and allows for further drilling,<br/>
+especially in complex and extended reach wells, where the loads are usually near the<br/>
+limits of the available tools and materials.<br/>
+4<br/>
+</p></section>
+<section><h2>Page 13</h2>
+<p>
+2 LITERATURE STUDIES<br/>
+2.1 Torque and Drag Definition<br/>
+2.1.1 Drag<br/>
+Drag is defined as the increase in the drill string weight when pulling out of the hole,<br/>
+or the reduction of the weight while running in the hole. In other words, drag is the<br/>
+force difference between the static weight and the force required to move the string<br/>
+up or down in the hole. Thus, the observed weight of the drill string on the surface is<br/>
+either heavier or lighter than the actual weight, depending on the direction of the drill<br/>
+string motion. The observed weight of the string is lower than the actual weight while<br/>
+running in the hole and the direction of the drag force is upwards. While pulling the<br/>
+string out of the hole, the observed weight of the string is higher than the actual<br/>
+weight and the direction of the drag force is downwards.<br/>
+Hence, drag on the drill string is the difference between the apparent weight and the<br/>
+actual weight. Drag is negative when the string moves downwards; therefore, there<br/>
+will be reduction in the string weight. Drag is positive when the string moves<br/>
+upwards, which means the apparent weight is higher than the actual weight.<br/>
+Drag force = Apparent weight – Actual weight<br/>
+Rotating weight<br/>
+(No axial movement)<br/>
+Hook load up<br/>
+(POOH)<br/>
+Hook load down<br/>
+(RIH)<br/>
+Martin Decker<br/>
+Weight indicator<br/>
+Figure 2.1 Hook load as observed on the surface<br/>
+5<br/>
+</p></section>
+<section><h2>Page 14</h2>
+<p>
+2.1.2 Torque<br/>
+Torque, also called moment of a force in physics, is the tendency of a force to rotate<br/>
+the body to which it is applied. The torque, specified with regards to the axis of<br/>
+rotation, is equal to the magnitude of the component of the force vector lying in the<br/>
+plane perpendicular to the axis, multiplied by the shortest distance between the axis<br/>
+and the direction of the force component. Regardless of its orientation in space, the<br/>
+force vector can always be located in a plane parallel to the axis [3].<br/>
+When it comes to torque in a drilling context, it is the moment required to rotate the<br/>
+drill string that will overcome the rotational friction between the drill string and the<br/>
+well bore, as well as the torque on the bit. The torque observed on the surface is<br/>
+usually higher than the torque caused by the drill bit; this is mainly because of the<br/>
+rotational friction torque in the well. The torque loss is greater in deviated wells,<br/>
+especially in complex or extended reach and horizontal wells, where torque is a major<br/>
+problem due to the rig and drill string torque limitation. However, the torque loss<br/>
+would be zero in a perfectly vertical well, except for the small viscous torque<br/>
+generated by the mud.<br/>
+T<br/>
++<br/>
+r<br/>
+F<br/>
+Figure 2.2 Torque to rotate the pipe<br/>
+2.2 Sources<br/>
+There are many parameters that cause torque and drag along the drill string. The<br/>
+main parameters are calculated, whereas some of the parameters cannot be calculated.<br/>
+6<br/>
+</p></section>
+<section><h2>Page 15</h2>
+<p>
+They are summed together and included in the friction factor. The main causes for<br/>
+excessive torque and drag are hole instability, key seating, differential sticking, poor<br/>
+hole cleaning, and wellbore friction [4].<br/>
+Hole Instability: Hole instability such as swelling shale, tight hole, and sloughing<br/>
+shale increases the torque and drag because they change the original shape and size of<br/>
+the hole which increases friction between the wellbore and the drill string. Interaction<br/>
+between the drilling mud and the formation affects the friction and results in erosion<br/>
+in the well. Loss of circulation has an impact on the friction as it gives rise to friction<br/>
+in the wellbore due to lack of lubrication.<br/>
+Key Seating: Key seating is the condition where a tube of small diameter is worn<br/>
+into the side of a borehole with a larger diameter (Figure 2.3). It is generally a result<br/>
+of severe hole direction changes, such as a high dogleg or a hard formation ledge left<br/>
+in soft formations which erode and enlarge with time. In both cases, the diameter of<br/>
+the drilled hole is expected to be close to the diameter of the drill pipe. The larger<br/>
+diameter tools such as stabilizers, drill collars, and tool joints are not able to pass<br/>
+through the key seat and become stuck, which will result in problems associated with<br/>
+high torque and drag. The preventive method is to enlarge the point of the key seat so<br/>
+that the tools with larger diameters can pass through it [5].<br/>
+Figure 2.3 Key seating<br/>
+7<br/>
+</p></section>
+<section><h2>Page 16</h2>
+<p>
+Differential Sticking: Differential sticking occurs when high wellbore pressure<br/>
+causes a high contact force of the drill string against the wall of low formation<br/>
+pressure in typically high permeable zones. Differential pressure appears when the<br/>
+hydrostatic pressure of a drilling fluid acting on the outside wall of the drill pipe is<br/>
+greater than the formation fluid pressure and results in a sticking force. The drill<br/>
+string will be difficult to rotate or move axially, which increases torque and drag.<br/>
+Figure 2.4 Differential sticking mechanism<br/>
+Poor Hole Cleaning: Hole cleaning is one of the main issues while drilling. Improper<br/>
+cleaning can cause improper cuttings transport; there is subsequently an accumulation<br/>
+of cuttings in the wellbore and high angle section of cutting beds are formed. These<br/>
+conditions increase the friction inside the wellbore and cause high torque and drag.<br/>
+An increase in Equivalent Circulating Density (ECD) can indicate improper hole<br/>
+cleaning.<br/>
+Figure 2.5 Settled cuttings due to poor cleaning<br/>
+8<br/>
+</p></section>
+<section><h2>Page 17</h2>
+<p>
+Wellbore Friction: Friction occurs because of the interaction between the drill string<br/>
+and the wellbore as frictional forces are generated against the direction of motion.<br/>
+The friction factor is defined as the measure of the degree of resistance to motion of<br/>
+two adjacent elements sliding against each other. It is the ratio of the frictional force<br/>
+to the normal contact force and is affected by the drilling fluid and formation type.<br/>
+Friction factors can be estimated for open hole and cased hole settings according to<br/>
+previous drilling experiences in corresponding formations and mud types for<br/>
+modeling. Minimizing the normal force will be effective on proper weight transfer to<br/>
+the bit. Methods for reducing normal force carefully design a well path and use string<br/>
+components of lower weight [6].<br/>
+2.3 Types of Torque<br/>
+There are three types of torque observed downhole: frictional torque, mechanical<br/>
+torque, and bit torque [7].<br/>
+2.3.1 Frictional Torque<br/>
+Contact loads between the drill string and casing or open hole section of a well<br/>
+generate frictional torque. It is the only torque type generated while rotating off-<br/>
+bottom in a perfectly cleaned wellbore. The following parameters determine the<br/>
+magnitude of frictional torque :<br/>
+Tension/Compression in the Drill String: Increasing tension in the drill string<br/>
+increases contact forces; hence, it increases frictional torque. Both tension and<br/>
+frictional torque are affected by the weight on bit.<br/>
+String Weight: As the string weight is increased, more weight is pushed at the side<br/>
+of the hole, resulting in higher contact forces that yield more frictional torque.<br/>
+Dogleg Severity: A dogleg is the dramatic change of wellbore direction in three-<br/>
+dimensional space, which increases the contact forces. This is generally a concern at<br/>
+shallower depths where the tension in the string is high. As the tension in the drill<br/>
+string gets lower as depth in the hole increases, the effects of dogleg severity become<br/>
+negligible.<br/>
+9<br/>
+</p></section>
+<section><h2>Page 18</h2>
+<p>
+Inclination: Higher inclination values yield larger components of drill string weight<br/>
+perpendicular to the borehole, increasing thus normal forces. Conversely, torque can<br/>
+decrease at very high inclinations, as more of the string weight is taken by the<br/>
+borehole wall; hence, decreasing the contact forces.<br/>
+Hole and Pipe Size: The space between the drill string and hole is called the annulus.<br/>
+A smaller annulus increases the effective stiffness of the pipe and increases contact<br/>
+forces.<br/>
+Lubricity & Friction Factor: Lubricity is controlled by the drilling fluid and<br/>
+formation type, but it also controls friction. During drilling in abrasive formations,<br/>
+significant torque changes can be seen.<br/>
+2.3.2 Mechanical Torque<br/>
+Mechanical torque is caused by cutting accumulations in the wellbore due to poor<br/>
+cleaning because of poor hydraulics; therefore, there is an increase in friction inside<br/>
+the wellbore. In addition, unstable formations such as sloughing and swelling<br/>
+formations, which are affected by the drilling fluid, generates mechanical torque.<br/>
+Differential sticking of the drill pipe generates mechanical torque when it is difficult<br/>
+to rotate the pipe.<br/>
+2.3.3 Bit Torque<br/>
+Bit torque is generated from the interaction between the drill bit and the formation.<br/>
+The factors affecting bit torque are WOB, RPM, formation characteristics, PDC bit<br/>
+design variations, bit wear, and hydraulics [8].<br/>
+2.4 Challenges<br/>
+Weight Transfer to Bit: Weight transfer to the bit is achieved by slacking off at the<br/>
+surface or pushing down. Drag force is the difference between the actual weight<br/>
+available at the bit and the amount slacked off at the surface that is opposite to the<br/>
+pipe movement. Controlling the weight on the bit becomes difficult as depth or<br/>
+horizontal displacement increases because of the elasticity of the pipes. The elasticity<br/>
+will cause part of the pipes to move while other parts are stationary, or it will cause<br/>
+10<br/>
+</p></section>
+<section><h2>Page 19</h2>
+<p>
+movement at different velocities. Weight is occasionally suddenly released because of<br/>
+the difference between kinematic and static friction that occurs between the drill<br/>
+string and casing or open hole. Hang-ups such as key seats, ledges, and uneven<br/>
+cutting beds also contribute to the sudden release of the bit.<br/>
+The bit rotation will suddenly stop if a weight transfer is released from the drill string<br/>
+that exceeds the maximum weight that the motor can withstand. Such a condition is<br/>
+called a motor stall and it is destructive for the rubber component of the motor.<br/>
+The longitudinal drag of the drill string increases with increasing horizontal departure<br/>
+of a well. Hence, weight transfer to the bit without the stalling motor becomes more<br/>
+difficult, and drilling becomes more challenging.<br/>
+2.5 Reduction of Torque and Drag<br/>
+There is a variety of methods available to reduce torque and drag, if a well is drilled<br/>
+and the torque is much higher than predicted and exceeds the top-drive capacity of the<br/>
+rig. The application of such methods can be essential for ensuring that the TD can be<br/>
+reached before reaching the torque limit of the rig or drill string.<br/>
+2.5.1 Wellpath<br/>
+Tortuosity reduction significantly reduces the torque and drag while drilling. The use<br/>
+of RSS is recommended to make the smoothest wellbore. Finding compromises with<br/>
+geologists may be very beneficial, as even small adjustments to the target may reduce<br/>
+the torque. Reducing the DLS in build-up, drop off and bends can significantly reduce<br/>
+torque and drag, especially at the top of the well where tension forces are greatest.<br/>
+2.5.2 Rotary Steerable Systems<br/>
+A hole drilled using a mud motor with a bent sub generally has greater tortuosity than<br/>
+with a RSS, due to the steering principle of such tools. Directional drillers obtain the<br/>
+desired DLS by switching from rotary drilling to sliding drilling as many times as<br/>
+needed. Rotary drilling with a motor creates a smaller hole than with sliding drilling.<br/>
+Drilling with a motor creates a larger hole than a RSS would, whereas with sliding<br/>
+drilling, a high DLS is utilized to correct for the direction achieved by rotary drilling,<br/>
+11<br/>
+</p></section>
+<section><h2>Page 20</h2>
+<p>
+due to a combination of gravity and centralizer placement. This continued alteration<br/>
+is the reason why motors create much more tortuosity than a RSS. Adding a mud<br/>
+motor to an RSS will increase ROP, while RPM at the surface can be reduced to a<br/>
+minimum and thus reduce the torque. Using RSS with an integrated mud motor will<br/>
+reduce surface torque as compared to a conventional RSS.<br/>
+2.5.3 Bit Selection<br/>
+Bit selection is normally based on ROP, steer ability, and durability, but another<br/>
+factor is important as well. The gauge length can significantly affect the propagation<br/>
+of a cyclic hole. A short gauge bit is more aggressive and creates more caliper<br/>
+variations and what is called micro tortuosity, whereas a long gauge bit tends to<br/>
+create fewer caliper variations and a smoother hole. The micro tortuosity is not seen<br/>
+by MWD directional sensors, and will add extra torque and drag. This can be seen as<br/>
+measured torque and drag trends deviate from simulated trends.<br/>
+2.5.4 Mechanical Friction Reduction Subs<br/>
+Mechanical friction reducing subs have been tried and proven successful in reducing<br/>
+friction. Use of mechanical friction reduction tools and other techniques for reducing<br/>
+friction have shown to be effective. Various types exist, but either they consist of<br/>
+mechanical rollers, or a sleeve on bearings, which then becomes the effective contact<br/>
+surface. The low friction in a smooth bearing relative to rough steel against rough<br/>
+steel reduces the torque and drag significantly. The subs are typically placed one per<br/>
+stand in the sections of the well that sees the highest side force.<br/>
+2.5.5 Mud System<br/>
+The easiest way to reduce torque and drag is to use oil-based mud (OBM) or synthetic<br/>
+based mud (SBM) instead of water based mud (WBM). It is also possible to add<br/>
+lubricants, even to WBM.<br/>
+12<br/>
+</p></section>
+<section><h2>Page 21</h2>
+<p>
+3 TORQUE AND DRAG MODELING<br/>
+3.1 Background<br/>
+Software for torque and drag models has been developed and used in the industry and<br/>
+is crucial in avoiding drilling problems and allowing for further drilling, especially in<br/>
+complex and extended reach wells, where the loads are usually near the limits of the<br/>
+available tools and materials.<br/>
+During the well planning, torque and drag models are used to validate the planned<br/>
+well path that can be drilled within the equipment’s limits and rig capacity. T hese<br/>
+models are then used for load analysis to optimize the well path design, to minimize<br/>
+torque and drag and to ensure that the torque is within safe working limits for the drill<br/>
+string and rig equipment.<br/>
+The planned well path is designed for ideal smooth curves to counter the real well<br/>
+path which has tortuosity, so that planned paths cause the model to predict torques<br/>
+and drags lower than the actual torques and drags.<br/>
+Torque and drag models are also used in real time to detect potential drilling<br/>
+problems at an early stage before these problems cause serious damage. This is done<br/>
+by comparing hook-load measurements in real time to the calculated values.<br/>
+Deviations from the values in the models indicate a problem down-hole. The problem<br/>
+might be due to key seating, differential sticking and cuttings bed accumulation.<br/>
+Other factors such as ECD, standpipe pressure, and pit volume must be checked to<br/>
+evaluate the nature of the problem. In order to obtain the best results, real time<br/>
+surveys should update the model in order to include deviations from planned well<br/>
+trajectory and directional drilling errors. Torque and drag models are the best tool<br/>
+available for monitoring hole conditions.<br/>
+13<br/>
+</p></section>
+<section><h2>Page 22</h2>
+<p>
+In real time it is also possible to back-calculate the friction factor from the measured<br/>
+hook-load by iterating until a match between the measured value and the model<br/>
+(Lesage 1988) is found.<br/>
+A plot of calculated friction factors versus depth is then used to identify downhole<br/>
+problems. This can also be calculated during drilling if the downhole weight on the<br/>
+bit and the downhole torque on bit is present. Torque and drag models are steady state<br/>
+models, which means that the calculations are only made for string movement in a<br/>
+steady manner and sudden transient effects are not incorporated into the calculations.<br/>
+In post drilling, a detailed analysis can be helpful in revealing the true cause of<br/>
+problems that were previously unexplainable. The post drilling analysis allows for<br/>
+changes to operational procedures to be made, so that problems can be avoided when<br/>
+drilling the next well.<br/>
+The measured data can be used to yield a better understanding and allow for a better<br/>
+planning of the next well. Post analysis may also lead to a more accurate friction<br/>
+factor, by including local information such as formation lithology, permeability, and<br/>
+mud properties. The gained information can be used to evaluate improved well<br/>
+trajectories and kick-off point depths, as well as correcting casing setting depths, in<br/>
+order to avoid encountering hole problems in the evaluated wells.<br/>
+3.2 Uses of Torque and Drag Modeling<br/>
+• Trajectory design to minimize torque and drag forces<br/>
+• Determining hole condition to determine if problems are arising<br/>
+• Drill string design to reduce torque and drag<br/>
+• Monitoring hole cleaning in real time<br/>
+• Monitoring friction when running casing<br/>
+• Determine the onset of drill pipe buckling<br/>
+• Determine the possibility of reciprocating casing during cementing<br/>
+14<br/>
+</p></section>
+<section><h2>Page 23</h2>
+<p>
+• Providing lateral load inputs for casing wear models<br/>
+• An aid in determining if a changes to the mud is necessary<br/>
+• Calculating WOB in highly inclined wells with high frictional drag<br/>
+• Determining if drill string torque limits may be exceeded<br/>
+• Aid in making strategic decisions on mud systems<br/>
+3.3 Soft-String Versus Stiff-String Model<br/>
+The soft string and the stiff string models are two different mathematical models<br/>
+which are used for torque and drag analysis. They were developed to describe the<br/>
+mechanical behavior of the drill string inside the borehole and they have their own<br/>
+theoretical background and assumptions. The soft string model is widely used in the<br/>
+industry and it assumes that the drill string has a continuous surface contact area with<br/>
+the wellbore as it deforms to the shape of the wellbore.<br/>
+The model ignores the bending stiffness in the drill string and borehole clearance. For<br/>
+a smooth well geometry, the model has a good approximation of forces and contact<br/>
+loads.<br/>
+In some cases, due to the friction force generated by the rotation, the string climbs on<br/>
+the wellbore wall and will cause the contact force to be less than if the pipe lies on the<br/>
+low side of the wellbore, which is the main soft string model assumption. Therefore,<br/>
+the soft string model cannot predict such diverse positing which in some cases will<br/>
+lead to errors in torque and drag prediction due to the drill string position on the side,<br/>
+high, right, or left side of the wellbore depending on the section and operation.<br/>
+The stiff sting model takes into account the drill string stiffness in the wellbore and<br/>
+the annulus clearance. The model calculates all the contact points between the drill<br/>
+string and the wellbore and the drill string reacts naturally to the forces and moments.<br/>
+Therefore, the model predicts more realistically the side forces along the drill string,<br/>
+which helps to determine torque and drag losses and better match with the actual<br/>
+15<br/>
+</p></section>
+<section><h2>Page 24</h2>
+<p>
+measurements. But the stiff string model is not recommended for real time torque and<br/>
+drag monitoring because of the long time required for its application [9] [10].<br/>
+Both soft and stiff string models show similar results over the smooth wellbore<br/>
+geometry but they give different predictions in a tortuous wellbore.<br/>
+3.4 The Soft-String Model<br/>
+Considering an object of weight W is resting on a horizontal plane:<br/>
+Figure 3.1 Forces acting on an object resting on a horizontal plane<br/>
+In order to slide the object a force Ft must be exerted to overcome the force of friction<br/>
+Ff between the object and the plane surface.<br/>
+The magnitude of the frictional force is:<br/>
+Ff   <br/>
+Where:<br/>
+Ff = frictional force (lb)<br/>
+µ = dimensionless coefficient of friction, a constant that depends on the roughness of<br/>
+the object and plane surface, determined experimentally<br/>
+W = normal force acting perpendicular to the surface (lb)<br/>
+16<br/>
+</p></section>
+<section><h2>Page 25</h2>
+<p>
+Therefore, the force Ft (Drag Force) required to slide the object should be slightly<br/>
+greater than Ff (friction Force).<br/>
+3.4.1 For Inclined Straight Hole Section<br/>
+Considering a straight section of drill pipe in a wellbore inclined at an angle:<br/>
+Figure 3.2 Forces acting on an object resting on an inclined straight plane<br/>
+The buoyed weight of the drill pipe W is acting vertically downward and can be<br/>
+resolved into two forces:<br/>
+Fn – normal force acting perpendicular to the hole:<br/>
+Fn   sin <br/>
+Fx – the weight component acting parallel to the hole axis:<br/>
+Fx   cos <br/>
+17<br/>
+</p></section>
+<section><h2>Page 26</h2>
+<p>
+The frictional or drag force Ff is the normal force multiplied by the coefficient of<br/>
+friction:<br/>
+Ff  Fn     sin <br/>
+The force Ft required to move the drill pipe is determined by making a force balance<br/>
+Ft  Fx  Ff<br/>
+Ft   cos     sin <br/>
+The frictional force or drag always acts in the opposite direction of the pulling force<br/>
+Ft. Therefore, the sign is negative (-) if the drill pipe is lowered into the hole, and<br/>
+positive (+) when the drill pipe is pulled out of the hole.<br/>
+3.4.2 For Curved Hole Section<br/>
+In a curved section of the wellbore where inclination and azimuth change across the<br/>
+section, the calculation of the drag force is more difficult.<br/>
+Figure 3.3 Forces acting on a drill string element, illustrating the normal force,<br/>
+friction and changes in inclination and azimuth [4]<br/>
+18<br/>
+</p></section>
+<section><h2>Page 27</h2>
+<p>
+In 1984, C.A. Johancsik presented the pioneer friction analysis model. In his model<br/>
+both torque and drag were assumed to be caused entirely by sliding friction between<br/>
+drillstring and borehole wall. Other sources of torque and drag like friction due to<br/>
+fluid and cuttings, static friction, and piston forces were not considered [4].<br/>
+The sliding friction coefficient is the ratio of the friction force to the normal contact<br/>
+force.<br/>
+The normal force is given by:<br/>
+Fn    Ftasin)  (Ft  sin)<br/>
+Where:<br/>
+Fn = The normal force at the lower end of the string element (Ib)<br/>
+Ft = The tensile force at the lower end of the string element (Ib)<br/>
+a  The change in azimuth angle over the string element (radians)<br/>
+  The inclination at the lower end of the string element (radians)<br/>
+  The change in inclination angle over the string element ( radians)<br/>
+W = The buoyed weight of the string element (lb)<br/>
+The normal force is then used to derive the equation for tension increments:<br/>
+Ft  cos  Fn<br/>
+19<br/>
+</p></section>
+<section><h2>Page 28</h2>
+<p>
+here  is the friction coefficient, the positive sign () is used when hoisting, and the<br/>
+negative sign (-) is used when lowering the drill string. In addition, the torsion<br/>
+increment is calculated as:<br/>
+M   Fn r<br/>
+Where:<br/>
+M = The increment in torque across the string element (ft.Ib)<br/>
+r = The radius of the string element (ft)<br/>
+The model assumes that the drill string is consisted of short elements joined by<br/>
+connections that transmit torsion, tension, and compression, but not the bending<br/>
+moment.<br/>
+The basic equations of friction are applied to each segment with calculations starting<br/>
+from the bottom of the drill string and continuing upward to the surface. Each short<br/>
+interval of drill string contributes increments of torque, drag, and weight. Forces and<br/>
+torque values are added to produce the cumulative loads on the string. Initial<br/>
+conditions are specified at the bit and the inputs are the weight on the bit and bit<br/>
+torque values for drilling operations.<br/>
+3.5 Side Forces<br/>
+The weight of the drill string acting on the wellbore is a major contributor to side<br/>
+forces and to the magnitude of the normal force against the wellbore. As such, heavier<br/>
+drill strings induce greater side forces against wellbores. Therefore, it is important to<br/>
+minimize the weight of the drill string within safe limits.<br/>
+20<br/>
+</p></section>
+<section><h2>Page 29</h2>
+<p>
+Figure 3.4 Side forces on a drill pipe<br/>
+Side forces created by tension typically only occur with doglegs. In build sections, the<br/>
+direction of pipe movement affects the direction of side forces. When moving down,<br/>
+the drill string will be lying on the low side – therefore, the effect of tensile load is<br/>
+reduced and the resultant side force is in the direction of the weight component.<br/>
+When moving up or tripping out, the drill string will be in contact with the high side.<br/>
+Therefore the effect of tensile load is increased and the resultant side force will be in<br/>
+the direction of the tensile component. In drop sections, regardless of whether the<br/>
+drill string is tripping out or running in the hole, the drill string will be lying on the<br/>
+low side of the wellbore. Therefore, the resultant force will always act on the low<br/>
+side.<br/>
+3.6 Buoyancy Factor<br/>
+Buoyancy is an upward force exerted by the drilling fluid against the weight of the<br/>
+drill string. In the well filled with drilling fluid, the weight of the drill string is the<br/>
+weight in the air minus the mud weight that the steel in the string displaces. This<br/>
+phenomenon is known as Archimedes’ principle. The buoyancy factor can be more<br/>
+conveniently defined as:<br/>
+    <br/>
+  1<br/>
+21<br/>
+</p></section>
+<section><h2>Page 30</h2>
+<p>
+If there are different densities of fluids inside and outside the pipe – for example,<br/>
+during tripping in, during displacement of mud to new mud, and while cementing, the<br/>
+buoyancy factor can be defined as:<br/>
+           <br/>
+  1<br/>
+Where:<br/>
+  Buoyancy factor<br/>
+ρ (mud)  Dens ity of drilling mud<br/>
+ρ (string)  Density of drill string (usually the density of steel)<br/>
+ρo  Density of fluid outside the pipe<br/>
+ρi  Density of fluid inside the pipe<br/>
+Ao = Outer cross sectional area<br/>
+Ai = Inner cross sectional area<br/>
+A heavy mud will decrease the effective weight of the drill string and thus decrease<br/>
+the side force and the load from friction and torque. However, a heavy mud has<br/>
+heavier particles, which could lead to less lubricity and therefore higher friction.<br/>
+3.7 Friction<br/>
+Contact friction, such as when two relatively smooth solid bodies slide against each<br/>
+other, will be independent of the speed at which the two bodies slide and independent<br/>
+of the contact area. This applies only for soft string models under consideration but<br/>
+the friction force will be proportional to the contact force of the sliding surfaces. A<br/>
+friction coefficient  is the ratio of the friction force to the normal force. In order to<br/>
+find the normal force in an inclined plane, consider the schematics shown in Figure<br/>
+3.5.<br/>
+22<br/>
+</p></section>
+<section><h2>Page 31</h2>
+<p>
+ <br/>
+ <br/>
+Ft to<br/>
+Ff<br/>
+θ<br/>
+Ft bottom<br/>
+Fn = Wsin θ W<br/>
+Figure 3.5 Forces on an object sliding on an inclined plane<br/>
+Where:<br/>
+ friction coefficient<br/>
+Ff = Friction force<br/>
+Fn = Normal force<br/>
+Ft = Tensile force<br/>
+W = weight of the segment<br/>
+  Inclination angle<br/>
+23<br/>
+</p></section>
+<section><h2>Page 32</h2>
+<p>
+Figure 3.6 Static and dynamic friction<br/>
+The friction factor is a key parameter in torque and drag modeling because it<br/>
+characterizes the surface-to-surface interaction, which is the heart of the model. The<br/>
+friction factor applicable to any situation is a function of many things, including fluid<br/>
+type, composition, lubricity, formation type, casing and tool joint material, and<br/>
+roughness. When significant portions of both cased and open hole exist, it may be<br/>
+necessary to use more than one friction factor, usually two - one for open-hole, and<br/>
+one for cased hole. Generally the friction factors selected are 0.2 and 0.3 for cased<br/>
+and open-hole respectively. But in real time operations these friction factors are<br/>
+calibrated regularly during the operations.<br/>
+3.8 Buckling<br/>
+Buckling is a very important issue in torque and drag calculations and it occurs when<br/>
+the drill string is in compression. Buckling increases the contact surface area between<br/>
+the drill string and the wellbore, which increases side forces. Sinusoidal buckling<br/>
+occurs first; it begins when axial compression increases in the drill string and there is<br/>
+a string snake phenomenon along the wellbore. As the axial compression continues to<br/>
+increase, the buckling will change into a helix drill string, a phenomenon called<br/>
+helical buckling.<br/>
+24<br/>
+</p></section>
+<section><h2>Page 33</h2>
+<p>
+Sinusoidal buckling can generally be tolerated while helical buckling should be<br/>
+avoided, because helically buckled strings create additional drag, which could lead to<br/>
+a “lock up” situation. This means that after the drill string is released from the<br/>
+derrick, the entire drill string will be supported by wellbore friction instead of by the<br/>
+bit force.<br/>
+Figure 3.7 Sinusoidal buckling of the pipe in a horizontal wellbore [11]<br/>
+Figure 3.8 Helical buckling of the pipe in a horizontal wellbore [11]<br/>
+3.8.1 Buckling in a Deviation Wellbore<br/>
+A long pipe in a wellbore will be buckled into a sinusoid along the lower side of the<br/>
+hole at an axial compressive force of Wu and Juvkam- old’s model (1991):<br/>
+  <br/>
+Fs  2<br/>
+25<br/>
+</p></section>
+<section><h2>Page 34</h2>
+<p>
+The helical buckling is given by: √ <br/>
+Fh  (2 Fs<br/>
+Where:<br/>
+Fs = Sinusoidal buckling<br/>
+Fh = Helical buckling<br/>
+E  Young’s modulus of elasticity<br/>
+W = Buoyed weight of the string element<br/>
+I = Moment of inertial component<br/>
+  ellbore inclination<br/>
+r = Radial clearance between the wellbore and drill string (tool joint)<br/>
+F = Compressive axial force<br/>
+3.8.2 Buckling in a Vertical Well<br/>
+In a vertical section, the tube is easily buckled, which adds some considerable axial<br/>
+friction force. The critical load for sinusoidal buckling, presented by Wu and Juvkam-<br/>
+Wold, (1993) [12] is:<br/>
+Fs  2      ⅓<br/>
+The helical buckling load is about 2.2 times as large as the sinusoidal buckling load in<br/>
+the vertical wellbore as presented by Wu and Juvkam-Wold, (1993):<br/>
+Fh  2  <br/>
+26<br/>
+</p></section>
+<section><h2>Page 35</h2>
+<p>
+4 TORQUE AND DRAG MODELING<br/>
+4.1 Input Data<br/>
+The torque and drag model is constructed for the 12 ¼” section, which starts from a<br/>
+depth (1100m) which is the casing seat of the previous casing of 13 3/8” until depth<br/>
+(2700m), which is the TD of the 12 ¼” section. The section is vertical, with minor<br/>
+deviations according to the survey data.<br/>
+Thus, the model will simulate the forces acting on the drill string from the surface<br/>
+(depth equal to zero, as the top drive system is ignored in the calculations) through<br/>
+the 13 3/8” cased hole until (1100m), then continuing through the 12 ¼” open hole<br/>
+section until (2700m).<br/>
+Mud weight of 10.5 ppg was used in the model, as in the actual drilling data. The<br/>
+friction factor is assumed to be 0.25 for the cased hole section and 0.35 for the open<br/>
+hole section based on calibrations from nearby wells. Taking into account that the<br/>
+weakest point in the drill string that will have the highest load is the last string of the<br/>
+drill pipe in the surface, the maximum allowable tension is 436 KIbs and the<br/>
+maximum make-up torque that should not be reached is 30.7 ft.Ibs.<br/>
+The drill string is divided into segments of “1 meter”, and calculations of tension<br/>
+forces have been done for each segment starting from the bottom and summed up to<br/>
+the top.<br/>
+27<br/>
+</p></section>
+<section><h2>Page 36</h2>
+<p>
+4.1.1 Drill String Data<br/>
+Table 4.1 12 ¼” Bottom hole assembly (BHA)<br/>
+The drill string is modeled for the Drill Pipe (DP), Heavy Weight Drill Pipe (HWDP)<br/>
+and Drill Collars (DC), therefore, the BHA is assumed to be consists of DP, HWDP<br/>
+and DC only.<br/>
+Table 4.2 Pipes characteristics<br/>
+Length Weight OD ID Tool Tensile Make up<br/>
+(m) (Ibs/ft) (inch) (inch) Joint OD Strength Torque<br/>
+(inch) (Klbs) (ft-KIbs)<br/>
+Drill pipe 2368 19.5 5 4.276 6.625 436 30.7<br/>
+HWDP 156 49.8 5 3 6.625 691 33.9<br/>
+Drill collar 177 158.7 8.25 2.813 8.25 1856 52.1<br/>
+28<br/>
+</p></section>
+<section><h2>Page 37</h2>
+<p>
+4.1.2 Hole Sections Information<br/>
+Table 4.3 Hole sections details<br/>
+Length (m) OD ID Friction Mud density<br/>
+(inch) (inch) factor (ppg)<br/>
+Casing 1100 13 3/8" 12.62 0.25 10.5<br/>
+Open hole 1600 N/A 12.25 0.35 10.5<br/>
+4.1.3 Caliper log data<br/>
+A caliper log is a well logging tool that provides a continuous measurement of the<br/>
+size and shape of a borehole along its depth; it is used for the open hole inside<br/>
+diameter in the calculations in order to give more accurate results. For the cased hole<br/>
+section, the inside diameter is fixed [13].<br/>
+Figure 4.1 Hole diameter from the caliper log<br/>
+29<br/>
+</p></section>
+<section><h2>Page 38</h2>
+<p>
+4.1.4 Survey Data<br/>
+Survey data represents the well path and surveys are taken from MWD<br/>
+measurements. An inclination of 0° would be true vertical, and an inclination of 90°<br/>
+would be horizontal. Azimuth is the angle, measured in degrees, of the horizontal<br/>
+component of the borehole or survey-instrument axis from a known north reference.<br/>
+This reference is true north, magnetic north, or grid north, and is measured clockwise<br/>
+by convention. It is important to highlight that all the angles should be converted to<br/>
+radians in order to be used in the model [14].<br/>
+Figure 4.2 Inclination and DLS versus measured depth<br/>
+30<br/>
+</p></section>
+<section><h2>Page 39</h2>
+<p>
+Figure 4.3 Azimuth versus measured depth<br/>
+4.2 Model Construction<br/>
+4.2.1 Calculation of Buoyed Weight<br/>
+The buoyancy factor is calculated using a density of 65.5 ppg for steel and 10.5 ppg<br/>
+for the drilling mud:<br/>
+    <br/>
+  1<br/>
+31<br/>
+</p></section>
+<section><h2>Page 40</h2>
+<p>
+Where:<br/>
+  Buoyancy factor<br/>
+ρ (mud)  Density of drilling mud<br/>
+ρ (string)  Density of drill string (density of steel)<br/>
+Then the buoyed weight of each element is calculated:<br/>
+Buoyed weight  Actual weight x <br/>
+The nominal weight of the drill pipe used is 19.5 Ib/ft; for HWDP it is 49.3 Ib/ft; and<br/>
+for the drill collar it is 147.22 Ib/ft. It is important to convert the one meter element to<br/>
+feet in order to multiply it by the buoyed weight from the above equation to obtain the<br/>
+buoyed weight for each element.<br/>
+4.2.2 Calculation of Axial Loads<br/>
+First, the tension at the bottom of each element is calculated:<br/>
+Ft   cos<br/>
+Where:<br/>
+Ft = The tensile force at the lower end of the string element (Ib)<br/>
+W = Buoyed weight of the string element (Ib)<br/>
+  Inclination at the lower end of string element (radians)<br/>
+32<br/>
+</p></section>
+<section><h2>Page 41</h2>
+<p>
+The tension force of each element, summed up to the elements above it, starting from<br/>
+the bottom, is used in normal force calculations. In other words, the tension force at<br/>
+the lower end of an element will be the sum of tension forces of all elements below it.<br/>
+This tensional incensement is called the free rotation weight or off bottom weight of<br/>
+the drill string.<br/>
+Next, the normal force for each element is calculated:<br/>
+Fn    Ftasin)  (Ft  sin)<br/>
+Where:<br/>
+Fn = The normal force at the lower end of the string element (Ib)<br/>
+Ft = The tensile force at the lower end of the string element (Ib)<br/>
+a = The change in azimuth angle over the string element (radians)<br/>
+  The inclination at the lower end of the string element (radians)<br/>
+  The change in inclination angle over the string element (radians)<br/>
+W = The buoyed weight of the string element (lb)<br/>
+The frictional force is then calculated for each element:<br/>
+Ff   Fn<br/>
+Where:<br/>
+Ff = frictional force (lb)<br/>
+µ = coefficient of friction, assumed to be 0.25 for cased hole section and 0.35 for<br/>
+open hole section<br/>
+33<br/>
+</p></section>
+<section><h2>Page 42</h2>
+<p>
+For upward movement of the drill string, the frictional force is acting downwards;<br/>
+therefore, the frictional force must be added to the tensional force. This confirms that<br/>
+the measured weight of the drill string on the surface while pulling out of the hole is<br/>
+greater than the actual weight of the string.<br/>
+The tensional force is calculated as:<br/>
+Ft = Ft + Ff<br/>
+The above tensional force for each element is separate. In order to calculate the<br/>
+cumulative tensional loads along the drill string, tensions for every element must be<br/>
+added to the element above. For example, the tensional load at the lower end of an<br/>
+element is the total load of all elements below this element.<br/>
+The same scenario is applied for the case of running in the hole, but with a negative<br/>
+sign (-). As the drill string moves downward, the friction acts upward; therefore, the<br/>
+frictional force is subtracted from the tensional load and the measured weight of the<br/>
+drill string at the surface while running in the hole appears to be less than the actual<br/>
+weight of the string.<br/>
+Ft = Ft – Ff<br/>
+34<br/>
+</p></section>
+<section><h2>Page 43</h2>
+<p>
+4.2.3 Calculation of Torsional Loads<br/>
+The frictional torque at each element is calculated by multiplying the frictional force<br/>
+by the radius of the drill string; the tool joint radius is usually considered.<br/>
+M = Ff r<br/>
+Then the torsion increment is calculated by adding the torque of each element to the<br/>
+element above starting from the bottom – this is called the off bottom torque.<br/>
+To calculate the torque (on bottom), the torque on the bit must be added. Therefore,<br/>
+the torsion increment is calculated starting from the torque on the bit.<br/>
+Torque at the surface = Torque on the bit + M1 (last element in the bottom) + M2 + . .<br/>
+. , + Mn (First element from the surface).<br/>
+Furthermore, for (on bottom) torque calculation, the weight on the bit is subtracted<br/>
+from the tension increment. To calculate the torque while running in the hole, the<br/>
+tensional force of RIH is used, and the tensional force of POOH is used for pulling<br/>
+out of hole torque.<br/>
+35<br/>
+</p></section>
+<section><h2>Page 44</h2>
+<p>
+4.2.4 Calculation of buckling loads<br/>
+The sinusoidal and helical buckling is calculated as [11]:<br/>
+  <br/>
+Fs  2<br/>
+Fh  (2 √  Fs<br/>
+Where:<br/>
+Fs = Sinusoidal buckling (Ib)<br/>
+Fh = Helical buckling, (Ib)<br/>
+E  Young’s modulus of elasticity (psi)<br/>
+W = Buoyed weight of the string element (lb)<br/>
+I = Moment of inertial component<br/>
+  Inclination at the lower end of string element<br/>
+r = Radial clearance between the wellbore and drill string (tool joint) (ft)<br/>
+36<br/>
+</p></section>
+<section><h2>Page 45</h2>
+<p>
+5 CALCULATION OF TORQUE ON BIT USING<br/>
+PAYZONE SIMULATOR<br/>
+5.1 PayZone Drilling Predictive Simulator<br/>
+The PayZone Drilling Simulator is a PC based simulator that can be used for training<br/>
+as well as planning and optimizing field operations. It is built around a drilling<br/>
+mechanics model that predicts the rate of penetration and rate of wear of a drill bit as<br/>
+a function of the bit, the rock being drilled and a set of operating parameters. The<br/>
+software is able to carry out the following operations: Drilling, hydraulics<br/>
+optimization, directional drilling, dealing with kicks and losses, handling hole<br/>
+stability problems, logging, casing and cementing [15].<br/>
+The heart of the program is a drilling mechanics algorithm that calculates the state of<br/>
+wear of a drill bit and its resulting rate of penetration as a function of the type of drill<br/>
+bit, the operating parameters and the nature of the rocks being penetrated.<br/>
+37<br/>
+</p></section>
+<section><h2>Page 46</h2>
+<p>
+Figure 5.1 Payzone simulator<br/>
+PayZone functions are divided between nine different editors. Before drilling begins,<br/>
+some information is assembled in order for the simulator to operate. The simulator is<br/>
+built up of contributions from six primary editors (lithology, drill bits, BHAs, muds,<br/>
+casings and settings).The output is then combined by the State Editor into a State file.<br/>
+The State file is the data source from which the simulator runs its calculation [15].<br/>
+5.2 ROP Modeling and Prediction<br/>
+Researches has demonstrated that rate of penetration (ROP) depends on two group of<br/>
+parameters: drilling rig and formation parameters. The drilling rig parameters<br/>
+includes the following: weight on bit (WOB), bit rotational speed (RPM), hydraulic<br/>
+parameters (mud flow rate, mud rheology and mud density), bit and bit condition. All<br/>
+these parameters should be identified [16].<br/>
+From the formation group the most essential parameters affecting penetration rate are:<br/>
+local stresses, rock compaction, fluid pore pressure and mineralogical content which<br/>
+is related strongly to lithology of subsurface formations [16].<br/>
+38<br/>
+</p></section>
+<section><h2>Page 47</h2>
+<p>
+PayZone simulator enables the prediction of ROP using a mathematical model; the<br/>
+model is developed based on Teale’s concept of mechanical specific energy [17]. The<br/>
+main features of the model predicting rate of penetration are given as [16]:<br/>
+ROP = (flow_factor)(c)(aggressivity)(RPM)(tooth_length)(G)<br/>
+[(   )  (     )]<br/>
+G  1  exp<br/>
+toothlength<br/>
+Where:<br/>
+ROP = Penetration rate<br/>
+RPM = Rotary speed<br/>
+tooth_length = The average length of the bit teeth<br/>
+UCS = Unconfined compressive strength of the rock<br/>
+D = Bit diameter<br/>
+WOB = Applied weight on bit<br/>
+C = Constant<br/>
+aggressivity = Formation and bit characteristic constant ranging between 20% and<br/>
+100% and normally is given the value of 35%<br/>
+curv = Formation-bit interaction constant and it is usually given the value of 1.5<br/>
+flow_factor = Constant, ranging between 50% and 100% and defines the capability of<br/>
+the system to adequately clean the bit front by the cuttings<br/>
+A similar rock-bit interaction model, with adjustable parameters, is the one that has<br/>
+been presented by Teale [17]. In this model the concept of specific energy is<br/>
+introduced. This concept predicts the energy required by the rig to drill a unit volume<br/>
+39<br/>
+</p></section>
+<section><h2>Page 48</h2>
+<p>
+of rock. This model has been used by many researchers and practitioners in the past<br/>
+as shown below:<br/>
+   <br/>
+ROP      <br/>
+Where:<br/>
+Abit = Bit face area<br/>
+µ = The coefficient of friction between drill string and formation, converting applied<br/>
+WOB to torque<br/>
+eff = The efficiency of transmitting the rock destruction power of the drilling rig to<br/>
+the rock<br/>
+It has been shown that predictions from both models are essentially the same and lead<br/>
+to the same results [18]. Thus, the values of UCS can be used to estimate rock<br/>
+drillability [19].<br/>
+5.3 Constructing the Lithology<br/>
+The Lithology Editor section in the software enables the user to build a sequence of<br/>
+rock layers that can be drilled by the simulator. This sequence is known as a lithology<br/>
+or litho. Each layer can be given its own properties (thickness, mineralogy, strength,<br/>
+abrasivity, log properties… etc.) which will be used by th e simulator to generate the<br/>
+drilling response.<br/>
+User can build the lithology by importing the LAS file. LAS files contain columns of<br/>
+data in standard text format. every LAS file begins with ~C (~Curve Information),<br/>
+that associates the title of each column of data with the corresponding measurement.<br/>
+The LAS Converter identifies the title of the column and assigns the data in that<br/>
+column to the appropriate position in the PayZone Litho. Titles currently identified<br/>
+are converted as shown in the table.<br/>
+40<br/>
+</p></section>
+<section><h2>Page 49</h2>
+<p>
+Figure 5.2 LAS file parameters - PayZone Parameters mapping<br/>
+As a pre-processing step, LAS data are analyzed before assigning them to the litho<br/>
+section. And some titles have been changed to match with the software titles. One of<br/>
+these changes is a missing rock unconfined compressive strength (UCS). This<br/>
+parameter is calculated and then added to the LAS file before importing into<br/>
+PayZone. UCS is estimated using the formula:<br/>
+UCS = 72.5 x ((304.8/ DT_C) 3 + RHO x (304.8/ DT_C) 2)<br/>
+Where:<br/>
+UCS: Unconfined compressive strength (psi)<br/>
+DT_C: Sonic data in the form of slowness (microseconds/ft)<br/>
+RHO: bulk density (g/cc)<br/>
+41<br/>
+</p></section>
+<section><h2>Page 50</h2>
+<p>
+Figure 5.3 LAS file parameters<br/>
+Figure 5.4 Lithology data – After importing LAS file into PayZone<br/>
+42<br/>
+</p></section>
+<section><h2>Page 51</h2>
+<p>
+Figure 5.5 Actual section lithology<br/>
+5.4 Drilling the 12 ¼” section<br/>
+Drilling is simulated using the input parameters from actual drilling data:<br/>
+WOB: Weight on bit, kIbs<br/>
+RPM: Rotary speed, revolution per minute<br/>
+GPM: Flow rate, gallon per minute<br/>
+TFA: Nozzles total flow area, inche²<br/>
+MUD WEIGHT: Pounds per gallon (ppg)<br/>
+43<br/>
+</p></section>
+<section><h2>Page 52</h2>
+<p>
+Figure 5.6 Drilling control panel 1<br/>
+Before the drilling starts, BHA and drill bit are selected. By clicking on run in hole<br/>
+and then start drilling, the simulator will make drilling through the lithology using the<br/>
+provided input parameters to calculate:<br/>
+Torque: Down-hole Torque (ft-lb)<br/>
+SPP: Standpipe pressure (psi)<br/>
+ROP: Rate of penetration (ft/hr)<br/>
+ECD: Equivalent circulating density (ppg)<br/>
+Bit HSI: Bit Hydraulic Horsepower<br/>
+Pit Gain: mud pit gain (bbl)<br/>
+HP: Mud Pump Horsepower<br/>
+Figure 5.7 Drilling control panel 2<br/>
+44<br/>
+</p></section>
+<section><h2>Page 53</h2>
+<p>
+5.5 Tuning<br/>
+In The first simulation run, the predicted ROP does not match the real ROP. This is<br/>
+caused by uncertainty in bit characteristics and rock properties. Therefore, ROP factor<br/>
+is selected as an uncertain variable and varied within an acceptable range. Until the<br/>
+best match of predicted and real ROP is reached. After matching the ROP with up to<br/>
+10% error, the predicted torque is used as a best estimated torque.<br/>
+5.6 Torque values from PayZone<br/>
+After simulating the drilling process and tuning for the best ROP matching. The<br/>
+torque values are exported to be added to the frictional torque calculated from the<br/>
+frictional model, then compared with the actual cumulative torque.<br/>
+45<br/>
+</p></section>
+<section><h2>Page 54</h2>
+<p>
+Figure 5.8 Torque values from PayZone<br/>
+46<br/>
+</p></section>
+<section><h2>Page 55</h2>
+<p>
+6 RESULTS AND DISCUSSIONS<br/>
+The first part of this chapter deals with results of the constructed Torque and Drag<br/>
+model analysis that applied on the drill string for the 12 ¼” section TD. The main<br/>
+results are:<br/>
+• The tension along the drill string.<br/>
+• The frictional toque long the drill string.<br/>
+• Hook-load while tripping.<br/>
+• The frictional torque while tripping.<br/>
+The second part deals with the hook-load comparison between actual data and the<br/>
+hook-load calculated from the Torque and Drag model.<br/>
+The third part deals with torque results from PayZone simulator, the frictional torque<br/>
+from the Torque and Drag model. Then both results are compared to the actual<br/>
+cumulative torque for the same section.<br/>
+6.1 The Tension Along the Drill String<br/>
+Using the Torque and Drag model, loads have been calculated for every meter of the<br/>
+drill string. The drill string length is 2700 m, this is for the case of drill bit is at depth<br/>
+of 2700m. The top part of the drill string (surface – 1100m) is located inside the 13<br/>
+3/8” casing and the lower part (1100m – 2700m) is located in the 12 ¼” open hole<br/>
+section.<br/>
+The calculations have been done for four scenarios:<br/>
+• The drill string tension/load/weight while the bit is off bottom i.e. free rotating<br/>
+weight with no axial movement.<br/>
+47<br/>
+</p></section>
+<section><h2>Page 56</h2>
+<p>
+• The drill string weight while the bit is on bottom with applying weight of bit of 50<br/>
+KIbs. It is obvious that the loads on the drill string are less in this case because<br/>
+most of the stress is exerted upon the bit.<br/>
+• The drill string weight while running in the hole. These weights are less than the<br/>
+free rotating weight due to the frictional forces which acting against the string<br/>
+motion, which means acting upwards, this approves the scenario when the hook-<br/>
+load is less than the actual weight of the drill string when monitored from the<br/>
+weight indicator at the surface while tripping in the hole which is discussed in the<br/>
+literature.<br/>
+• The drill string weight while pulling out of the hole, this is opposite to the<br/>
+previous case, the weights are more than the actual due to the frictional forced<br/>
+which acts against the drill string motion, which means acting downwards,<br/>
+therefore, it adds loads to the string. The hook-load shows more than the actual on<br/>
+the weight indicator at the surface.<br/>
+Both, critical Sinusoidal and helical bucking limits are calculated for every meter<br/>
+along the drill string. Buckling is described in negative sign. However, there is no<br/>
+buckling of the drill string in the presented case.<br/>
+It’s important to note that values of weights lie in the positive area of the graph shows<br/>
+tension loads, while in the negative area shows a compression, which is<br/>
+recommended not to be in the drill pipes to avoid buckling.<br/>
+As we can see, the drill string falls into the safe window. The safe window being the<br/>
+maximum allowable tension the can be exerted upon the drill string.<br/>
+48<br/>
+</p></section>
+<section><h2>Page 57</h2>
+<p>
+Figure 6.1 Tension loads along the drill string<br/>
+49<br/>
+</p></section>
+<section><h2>Page 58</h2>
+<p>
+6.2 The Frictional Torque Along the Drill String<br/>
+Likewise, the tensional loads and frictional torque are calculated for every meter<br/>
+along the drill string. The calculations for four scenarios are presented:<br/>
+• The torque along the drill string while the bit is off bottom in other words, free<br/>
+rotating weight with no axial movement.<br/>
+• The torque along the drill string while the bit is on bottom. In this case 8 ft-KIbs<br/>
+torque on bit is added to the bottom of the string. The bit torque affects overall<br/>
+torque along the drill string, and therefore, higher torque is observed.<br/>
+• The torque along the drill string while running in the hole, assuming no reaming,<br/>
+in case of back reaming, more torque will be generated and exceeds the free<br/>
+rotating torque.<br/>
+• The torque along the drill string while pulling out of the hole, theoretically, the<br/>
+frictional torque is higher in both cases of with or without back-reaming.<br/>
+Because the frictional torque depends on the normal force, in this case, normal<br/>
+force during upward movement of the drill string.<br/>
+50<br/>
+</p></section>
+<section><h2>Page 59</h2>
+<p>
+Figure 6.2 Frictional torque along the drill string<br/>
+51<br/>
+</p></section>
+<section><h2>Page 60</h2>
+<p>
+6.3 The Hook-load While Tripping<br/>
+The hook-load values are calculated from the torque and drag model. These values<br/>
+are the summation of all tensional loads along the drill string for every meter of bit<br/>
+depth. Therefore, it simulates the hook-load reading at the surface for various depths<br/>
+unlike the previous analysis where the calculations have been done for only one bit<br/>
+depth of 2700m. The traveling block is ignored in the hook-load calculations. The<br/>
+traveling block weight is added when comparing the simulated results with actual<br/>
+hook-load data.<br/>
+Three scenarios are implemented free rotating weight, hook-load values while<br/>
+running in the hole and while pulling out of the hole.<br/>
+52<br/>
+</p></section>
+<section><h2>Page 61</h2>
+<p>
+Figure 6.3 Hook-loads while tripping<br/>
+53<br/>
+</p></section>
+<section><h2>Page 62</h2>
+<p>
+6.4 The Frictional Torque While Tripping<br/>
+Likewise, the hook-load while tripping and the surface torque values are calculated.<br/>
+These values are the summation of all frictional loads along the drill string for every<br/>
+meter of bit depth unlike the previous analysis where the calculations have been done<br/>
+for one case of bit depth of 2700m. Three scenarios were implemented, free rotating<br/>
+torque, torque values while running in the hole and while pulling out of the hole.<br/>
+54<br/>
+</p></section>
+<section><h2>Page 63</h2>
+<p>
+Figure 6.4 Frictional torque while tripping<br/>
+55<br/>
+</p></section>
+<section><h2>Page 64</h2>
+<p>
+6.5 Hook-load Comparison<br/>
+The hook-load values in static condition are calculated from the torque and drag<br/>
+model. Those values are added to the traveling block weight and the weight on bit is<br/>
+subtracted to give the final value of the hook-load, which is compared to the actual<br/>
+hook-load values.<br/>
+The calculated data shows good results, and the majority of errors are below 15%.<br/>
+Hook-load = Static hook-load + Traveling block weight - Weight on bit<br/>
+Figure 6.5 Errors between the calculated and the actual Hook-load<br/>
+56<br/>
+</p></section>
+<section><h2>Page 65</h2>
+<p>
+Figure 6.6 Hook-load comparison<br/>
+57<br/>
+</p></section>
+<section><h2>Page 66</h2>
+<p>
+6.6 Cumulative Torque Comparison<br/>
+The torque on bit values from PayZone is added to the frictional torque from the<br/>
+Torque and Drag model. The result of the two torque values is the cumulative torque<br/>
+that is observed at the surface. The resultant torque is then compared to the actual<br/>
+cumulative torque for the same section.<br/>
+The comparison shows that the torque which is calculated from the model and<br/>
+PayZone gives underestimated results. However, the torque values follow the trend of<br/>
+the estimated unconfined rock strength as it is shown in figure 6.8<br/>
+The model did not take into consideration the exact contact area and ignored the<br/>
+effect of borehole diameter variations.<br/>
+Looking at figure 6.9, the hole diameter is much bigger than the bit size in the upper<br/>
+part of the section, this indicates a borehole instability i.e. shale swelling. Cavings<br/>
+from failing formation of the upper part of the section makes hole cleaning more<br/>
+difficult, thus, increase in torque and drag. Furthermore, a narrowing hole is also<br/>
+observed which also increase torque and drag.<br/>
+58<br/>
+</p></section>
+<section><h2>Page 67</h2>
+<p>
+Figure 6.7 Actual torque and calculated torque<br/>
+59<br/>
+</p></section>
+<section><h2>Page 68</h2>
+<p>
+Cumulative Surface Torque UCS<br/>
+Torque (ft-KIbs) UCS<br/>
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 0 5000 10000 15000<br/>
+1100<br/>
+1300<br/>
+1500<br/>
+1700<br/>
+)<br/>
+( m<br/>
+D 1900<br/>
+M<br/>
+2100<br/>
+2300<br/>
+2500<br/>
+2700<br/>
+Actual Torque (ft-KIbs) (Payzone+model) Torque (ft-KIbs) UCS (Psi)<br/>
+Figure 6.8 Torque and UCS<br/>
+60<br/>
+</p></section>
+<section><h2>Page 69</h2>
+<p>
+Cumulative Surface Torque Hook-load Comparison Wellbore ID<br/>
+Torque (ft-KIbs) Hook-load (KIbs) Wellbore ID (Inch)<br/>
+01234567891011121314151617 050100150200250300350 -15-10-5051015<br/>
+1100 1100<br/>
+1300 1300<br/>
+1500 1500<br/>
+1700 1700<br/>
+) )<br/>
+( m ( m<br/>
+D 1900 D 1900<br/>
+M M<br/>
+2100 2100<br/>
+2300 2300<br/>
+2500 2500<br/>
+2700 2700<br/>
+Actual Torque (ft-KIbs)(Payzone+model) Torque(ft-KIbs) Actual Hook-load KIbsHook-load (model) KIbs<br/>
+Figure 6.9 The effect of wellbore diameter on the results<br/>
+61<br/>
+</p></section>
+<section><h2>Page 70</h2>
+<p>
+7 CONCLUSIONS AND RECOMMENDATIONS<br/>
+ The frictional torque values seem to be underestimated using the frictional model<br/>
+due to some uncertainties and assumptions:<br/>
+• The model assumed perfectly cleaned wellbore. Therefore, no cuttings<br/>
+accumulation is considered.<br/>
+• The model ignored the radial clearance between the string and the<br/>
+borehole.<br/>
+• The model is a steady state model, which means that the calculations have<br/>
+been only made for string movement in a steady manner, and sudden<br/>
+transient effects such as string vibrations were not incorporated into the<br/>
+calculations.<br/>
+• The model did not take into consideration the mud cake effect.<br/>
+• The model did not take into consideration the exact contact area and<br/>
+ignored the effect of borehole diameter variations and borehole instability<br/>
+such as shale swelling and borehole closure.<br/>
+• As mentioned above, from figure 6.9, a shallow swelling is observed in<br/>
+the upper part of the section. The cavings from failing formation of the<br/>
+upper part of the section makes hole cleaning more difficult, thus, increase<br/>
+in torque and drag. Furthermore, a narrowing hole is also observed which<br/>
+also increase torque and drag.<br/>
+62<br/>
+</p></section>
+<section><h2>Page 71</h2>
+<p>
+ The weight of the drill string acting on the wellbore is a major contributor to side<br/>
+forces and to the magnitude of the normal force against the wellbore. As such,<br/>
+heavier drill strings induce greater side forces against wellbores. Therefore, it is<br/>
+important to minimize the weight of the drill string within safe limits.<br/>
+ The soft-string model used in the thesis has shown good results for the simulated<br/>
+vertical section. However, to simulate a more complex well profile; equations of<br/>
+the new 3D frictional model must be used for more accurate results.<br/>
+The two models have many similarities. In a straight section there is no<br/>
+difference, the equations used are identical, in any curved section the models only<br/>
+differ in the way side force is calculated. A whole well can then be analyzed by<br/>
+two sets of equations, one for straight sections and one for curved sections. The<br/>
+model also has capability of combined axial and tangential motion, such as for<br/>
+reaming and drilling.<br/>
+63<br/>
+</p></section>
+<section><h2>Page 72</h2>
+<p>
+REFERENCES<br/>
+[1] Uncoverenergy, www.uncoverenergy.com/the-will-to-drill, last visited on October<br/>
+2018.<br/>
+[2] Petrowiki, www.petrowiki.org/PEH:Drilling_Problems_and_Solutions, last<br/>
+visited on October 2018.<br/>
+[3] Britannica, www.britannica.com/science/torque, last visited on October 2018.<br/>
+[4] Johancsik, C.A., Friesch, D.B., and Dawson, R. 1984. Torque and Drag in<br/>
+Directional Wells-Prediction and Measurement. Journal of Petroleum Technology 36:<br/>
+987-992.<br/>
+[5] WiperTrip Drilling and Well Engineering Resources, www.wipertrip.com/stuck-<br/>
+pipe/causes/363-mechanical-sticking-cause-of-stuck-pipe.html, last visited on<br/>
+October 2018<br/>
+[6] McCormick J.E., Evans C.D., Le J., Chiu T., "The Practice and Evolution of<br/>
+Torque and Drag Reduction: Theory and Field Results," 2012 International Petroleum<br/>
+Technology Conference held in Bangkok, Thailand, 7-9 February 2012, IPTC 14863.<br/>
+[7] Drilling Design and Implementation for Extended Reach and Complex Wells,<br/>
+K&M Technology Group, LLC, Houston, Texas, 2003.<br/>
+[8] Payne M.L., Abbassian F., "Advanced Torque and Drag Considerations in<br/>
+Extended-Reach Wells," SPE 35102, 1997.<br/>
+[9] Robert F. Mitchell and Robello Samuel, Halliburton DE&DS,” How good is the<br/>
+Torque- Drag” Model?” SPE/IADC 105068,Copyright 2007, SPE/IADC Drilling<br/>
+Conference.<br/>
+[10] S. Menand, SPE, H. Sellami, SPE, M. Tijani, and O. Stab, École des Mines de<br/>
+Paris; D. Dupuis, SPE, Pride- Intl.; and C. Simon, DrillScan,” Advancements in 3D<br/>
+64<br/>
+</p></section>
+<section><h2>Page 73</h2>
+<p>
+Drillstring Mechanics: From the Bit to the Topdrive”,IADC/SPE 98965, Copyright<br/>
+2006, IADC/SPE Drilling Conference.<br/>
+[11] Wu, J., and Juvkam-Wold, H.C., 1991. Drag and Torque Calculation for<br/>
+Horizontal Wells Simplified for Field Use. Oil & Gas J. 89: unpaged.<br/>
+[12] Wu, J., and Juvkam-Wold, H.C. 1993. Study of Helical Buckling of Pipes in<br/>
+Horizontal Wells. Paper SPE 25503 presented at the Production Operations<br/>
+Symposium, Oklahoma City, Oklahoma, 21-23 March.<br/>
+[13] Schlumberger Oilfield Glossart,<br/>
+www.glossary.oilfield.slb.com/Terms/c/caliper_log.aspx, last visited on October<br/>
+2018.<br/>
+[14] Petrowiki, www.petrowiki.org/Directional_survey, last visited on October 2018.<br/>
+[15] PayZone User Manual, 2015<br/>
+[16] Vassilios C. Kelessidis, Shehab Ahmed, Alexandros Koulidis, 2015. An<br/>
+Improved Drilling Simulator for Operations, Research and Training, paper SPE-<br/>
+172793-MS presented at the SPE Middle East Oil & Gas Show and Conference held<br/>
+in Manama, Bahrain, 8 – 11 March.<br/>
+[17] R. Teale, 1965. The concept of specific energy in rock drilling, Int. J. Rock<br/>
+Mechanics and Mining, 2, 57 – 73.<br/>
+[18] V.C. Kelessidis, P. Dalamarinis, 2009. Monitoring drilling bit parameters allows<br/>
+optimization of drilling rates, 9th International Multidisciplinary Scientific Geo-<br/>
+Conference & EXPO SGEM 2009, Albena, Bulgaria, 14-19 June.<br/>
+[19] V.C. Kelessidis, 2009. Need for better knowledge of in-situ unconfined<br/>
+compressive strength of rock (UCS) to improve rock drillability prediction, 3rd<br/>
+International AMIREG Conference, Athens, 7-9 Sept.<br/>
+[20] Mohammad Fazaelizadeh, March 2013. Real Time Torque and Drag Analysis<br/>
+during Directional Drilling. UNIVERSITY OF CALGARY.<br/>
+[21] Hussain Rabia, 2002. Well Engineering & Construction.<br/>
+65<br/>
+</p></section>
+</body></html>

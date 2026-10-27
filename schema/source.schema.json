@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/tenunan-dev/og-tech-sources/schema/source.schema.json",
+  "$id": "https://github.com/tenunan-dev/hilir-tech-library/schema/source.schema.json",
   "title": "Source catalog record",
   "type": "object",
   "additionalProperties": false,

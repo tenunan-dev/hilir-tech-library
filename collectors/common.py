@@ -20,7 +20,7 @@ import requests
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
 MANIFEST = CORPUS / "manifest.jsonl"
-USER_AGENT = "og-tech-sources-collector/0.1 (+https://github.com/tenunan-dev/og-tech-sources)"
+USER_AGENT = "hilir-tech-library-collector/0.1 (+https://github.com/tenunan-dev/hilir-tech-library)"
 MIN_DELAY_SECONDS = 3.0
 ALLOWED_SCHEMES = ("http", "https")
 MAX_REDIRECTS = 5

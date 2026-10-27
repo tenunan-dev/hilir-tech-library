@@ -1,4 +1,4 @@
-# Field definitions template for catalog sweeps in og-tech-sources.
+# Field definitions template for catalog sweeps in hilir-tech-library.
 #
 # Mirrors schema/source.schema.json so /catalog-deep output converts cleanly
 # via `python tools/research_to_catalog.py <results_dir>`.

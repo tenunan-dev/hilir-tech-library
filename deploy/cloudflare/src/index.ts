@@ -64,7 +64,7 @@ function consentPage(d: ConsentDescription, handle: string, error = ""): string 
     ? `Published by <strong>${escape(d.clientDomain)}</strong>.`
     : "This app registered itself; its name is not verified.";
   return `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Connect ${escape(d.clientName)} to the O&amp;G technology library</title>
+<title>Connect ${escape(d.clientName)} to the HILIR Technology Library</title>
 <style>body{font:16px system-ui,sans-serif;max-width:32rem;margin:3rem auto;padding:0 1rem}input[type=password]{width:100%;padding:.5rem;font:inherit}button{padding:.5rem 1rem;font:inherit;margin-right:.5rem}.err{color:#b00020}</style>
 <h1>Connect ${escape(d.clientName)}?</h1>
 <p>${origin} Access will be sent to <strong>${escape(d.redirectHost)}</strong>.</p>
@@ -131,7 +131,7 @@ export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/health") {
-      return Response.json({ service: "og-tech-sources library", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json",
+      return Response.json({ service: "HILIR Technology Library", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json",
                              auth: "x-api-key header, or OAuth for /mcp" });
     }
     if (url.pathname === "/api/openapi.json") {

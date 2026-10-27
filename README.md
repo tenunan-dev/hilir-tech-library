@@ -1,8 +1,8 @@
-# O&G technology source library
+# HILIR Technology Library
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
-It holds 348 catalog sources across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of 168 collected documents; 293 technology cards covering the 300-entry technology register; and a search index, a Postgres layer, an MCP server, a REST API and a web interface so agents and people can query all of it (see [Roadmap](#roadmap)).
+It holds 354 catalog sources across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of 174 collected documents; 299 technology cards covering the 306-entry technology register; and a search index, a Postgres layer, an MCP server, a REST API and a web interface so agents and people can query all of it (see [Roadmap](#roadmap)).
 
 ## Documentation
 

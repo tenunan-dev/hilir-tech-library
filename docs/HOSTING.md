@@ -30,7 +30,7 @@ The hosted server runs on Cloudflare Containers, in the Cloudflare account that 
 - `deploy/cloudflare/wrangler.jsonc`: builds the repo's `Dockerfile` (open-licence copy only), instance type `basic`, `max_instances` 1, custom domain route.
 - The container has internet access (`enableInternet = true` in the worker) so it can reach Neon Postgres when `DATABASE_URL` is set.
 - The container stops after 30 idle minutes (`sleepAfter`) and restarts on the next request, so the first call after a quiet spell takes a few seconds longer.
-- The API key is the Worker secret `LIBRARY_API_KEY`. The owner's copy is in `~/.config/og-tech-library/api-key` on their Mac (mode 600). It is never in the repo.
+- The API key is the Worker secret `LIBRARY_API_KEY`. The owner's copy is in `~/.config/hilir-tech-library/api-key` on their Mac (mode 600). It is never in the repo.
 - Optional Worker secret `DATABASE_URL`: the read-only Neon DSN (see docs/POSTGRES.md). It enables the three database tools (`sql_query`, `db_catalog`, `graph_neighbors`) and the `/database` web pages; without it they answer `database not configured`.
 - The image is built from the repo at deploy time: **redeploy after collecting new documents** so the hosted copy matches.
 - After a deploy, the running instance keeps serving the **old** image until Cloudflare cycles it (`npx wrangler containers list` shows `provisioning` with 0 live instances during the swap). The swap can take several minutes; until it completes the new UI paths answer 401 or 404 (the old image has no web routes). Verify the new build only after the swap: `curl -H "x-api-key: $KEY" https://techlib.hilir.app/api/stats` should show the current source and card counts.
@@ -41,10 +41,10 @@ cd deploy/cloudflare
 npm install                      # once
 npx wrangler deploy              # needs Docker running; builds ../../Dockerfile
 # database tools + /database pages (optional):
-tr -d '\n' < ~/.config/og-tech-library/db-readonly.url | npx wrangler secret put DATABASE_URL
+tr -d '\n' < ~/.config/hilir-tech-library/db-readonly.url | npx wrangler secret put DATABASE_URL
 # rotate the key:
-python3 -c 'import secrets;print(secrets.token_urlsafe(32))' > ~/.config/og-tech-library/api-key
-tr -d '\n' < ~/.config/og-tech-library/api-key | npx wrangler secret put LIBRARY_API_KEY
+python3 -c 'import secrets;print(secrets.token_urlsafe(32))' > ~/.config/hilir-tech-library/api-key
+tr -d '\n' < ~/.config/hilir-tech-library/api-key | npx wrangler secret put LIBRARY_API_KEY
 npx wrangler tail                # live logs
 ```
 
@@ -102,12 +102,12 @@ OAuth grants are per-URL: claude.ai connectors and OAuth clients must use the ne
 clients (Copilot Studio, ChatGPT Actions, curl) only need the new base URL.
 
 Connect a client: URL `https://techlib.hilir.app/mcp`, header `x-api-key: <key>`. For example, Claude Code:
-`claude mcp add --transport http og-tech-library-remote https://techlib.hilir.app/mcp --header "x-api-key: <key>"`.
+`claude mcp add --transport http hilir-tech-library-remote https://techlib.hilir.app/mcp --header "x-api-key: <key>"`.
 
 ### Test the connection (run from the Mac after any deploy or client setup)
 
 ```sh
-KEY=$(cat ~/.config/og-tech-library/api-key)
+KEY=$(cat ~/.config/hilir-tech-library/api-key)
 # 1. edge is alive (no key needed)
 curl -s https://techlib.hilir.app/health
 # 2. REST API + container answer with the current counts
@@ -175,7 +175,7 @@ themselves (`/register`, or a Client ID Metadata Document). The sign-in page at 
 request. Scope `mcp:read` (read only). The REST API under `/api` stays key-only.
 
 Add to claude.ai: Settings > Connectors > Add custom connector, URL `https://techlib.hilir.app/mcp`,
-leave the OAuth client fields empty, Connect, then paste the key from `~/.config/og-tech-library/api-key`
+leave the OAuth client fields empty, Connect, then paste the key from `~/.config/hilir-tech-library/api-key`
 on the sign-in page and Allow. The connection then works in claude.ai on web and in the mobile apps.
 
 ## Deploy to Azure Container Apps (alternative, not used: no Azure subscription)
@@ -184,13 +184,13 @@ Same cloud as Copilot Studio, scales to zero when idle (pay only for use), HTTPS
 
 ```
 az group create -n rg-og-library -l southeastasia
-az containerapp up -n og-tech-library -g rg-og-library -l southeastasia \
+az containerapp up -n hilir-tech-library -g rg-hilir-library -l southeastasia \
   --source . --ingress external --target-port 8000
-az containerapp secret set -n og-tech-library -g rg-og-library \
+az containerapp secret set -n hilir-tech-library -g rg-hilir-library \
   --secrets library-api-key="<generated key>"
-az containerapp update -n og-tech-library -g rg-og-library \
+az containerapp update -n hilir-tech-library -g rg-hilir-library \
   --set-env-vars LIBRARY_API_KEY=secretref:library-api-key --min-replicas 0 --max-replicas 1
-az containerapp show -n og-tech-library -g rg-og-library --query properties.configuration.ingress.fqdn -o tsv
+az containerapp show -n hilir-tech-library -g rg-hilir-library --query properties.configuration.ingress.fqdn -o tsv
 ```
 
 The server URL is `https://<fqdn>/mcp`. Re-run `az containerapp up ... --source .` after pulling new corpus documents to redeploy. Optionally set `LIBRARY_ALLOWED_HOSTS=<fqdn>` to enable Host header checks.

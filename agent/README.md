@@ -47,15 +47,15 @@ Claude Desktop (`~/Library/Application Support/Claude/claude_desktop_config.json
 ```json
 {
   "mcpServers": {
-    "og-tech-sources": {
-      "command": "/path/to/og-tech-sources/.venv/bin/python",
-      "args": ["/path/to/og-tech-sources/agent/server.py"]
+    "hilir-tech-library": {
+      "command": "/path/to/hilir-tech-library/.venv/bin/python",
+      "args": ["/path/to/hilir-tech-library/agent/server.py"]
     }
   }
 }
 ```
 
-Claude Code: `claude mcp add og-tech-sources -- /path/to/.venv/bin/python /path/to/og-tech-sources/agent/server.py`
+Claude Code: `claude mcp add hilir-tech-library -- /path/to/.venv/bin/python /path/to/hilir-tech-library/agent/server.py`
 
 The server builds the index on first start if `build/library.db` is missing. For cloud agents
 (Copilot Studio and others) the same tools are also served over HTTPS, with a REST API and OAuth

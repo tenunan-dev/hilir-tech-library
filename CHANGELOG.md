@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.4] — 2026-10-27 — renamed to HILIR Technology Library
+
+### Changed
+- The app is now **HILIR Technology Library**: web UI page titles and header brand, REST OpenAPI title, `/health` service banner, OAuth consent page, MCP server `name` (`hilir-tech-library`), and the README title. The web-session HMAC label changed, so existing browser sessions re-login once. The GitHub repository is now `tenunan-dev/hilir-tech-library` (old URLs redirect); schema `$id`, collector user agent and doc links follow, as do the local config folder (`~/.config/hilir-tech-library`) and the local clone folder. Deliberately unchanged: the Cloudflare Worker name `og-tech-library` (renaming would create a new Worker and lose its secrets/routes), the Neon schema `og` and role `og_mcp_read` (database internals), and historical mentions in archives.
+
 ## [2026.10.27.3] — 2026-10-27 — OCR for the two scanned standards; vectors and Neon reloaded
 
 ### Added

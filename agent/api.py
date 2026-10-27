@@ -101,7 +101,7 @@ def openapi_spec(server_url):
 
     return {
         "openapi": "3.1.0",
-        "info": {"title": "O&G technology library", "version": "1.0",
+        "info": {"title": "HILIR Technology Library", "version": "1.0",
                  "description": "Curated sources, documents and technology cards on oil, gas, petrochemical, "
                                 "hydrogen, CCUS and power technologies, weighted to Asia Pacific and Southeast Asia. "
                                 "Every result carries url, licence and reuse_level: always cite the url and respect "

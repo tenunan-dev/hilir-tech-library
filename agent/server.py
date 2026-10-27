@@ -44,7 +44,7 @@ For who-supplies-it questions, use list_vendors and get_vendor (curated vendor r
 Always cite a result's url. Respect reuse_level: full-text-restricted text is a private reference
 copy (no redistribution or commercial use); summary-only and catalog-only sources have no stored text."""
 
-server = Server("og-tech-sources", instructions=INSTRUCTIONS)
+server = Server("hilir-tech-library", instructions=INSTRUCTIONS)
 _db = None
 _embedder = False
 EXCLUDE_RESTRICTED = False
