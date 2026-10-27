@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.5] — 2026-10-27 — login page no longer discloses account internals
+
+### Fixed
+- The public `/login` page no longer tells unauthenticated visitors whether accounts are configured, and drops the mentions of the `LIBRARY_USERS` secret name, the internal docs path and how the key is used by agents (`x-api-key` header). The email + password form is only rendered when accounts actually exist; otherwise the page shows just the library-key form. Owner guidance on configuring accounts stays in docs/HOSTING.md.
+
 ## [2026.10.27.4] — 2026-10-27 — renamed to HILIR Technology Library
 
 ### Changed

@@ -858,11 +858,13 @@ def routes(tools, key: str) -> list:
         key_form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
                     '<p><label>API key <input type="password" name="key" required></label></p>'
                     '<p><button type="submit">Sign in</button></p></form>')
-        account_note = ('<p class="muted small">No accounts are configured; sign in with the library key. '
-                        'Accounts come from the LIBRARY_USERS secret (see docs/HOSTING.md).</p>') if not has_users else ""
-        body = (f'<section class="card narrow"><h1>Sign in</h1>{error}{account_form}{account_note}</section>'
-                f'<section class="card narrow"><h2>Or with the library key</h2>'
-                f'<p class="muted small">The same key agents send in the x-api-key header.</p>{key_form}</section>')
+        # The page is public: it must not disclose whether accounts exist, secret names or
+        # internal docs. With no accounts configured, only the key form is shown at all.
+        if has_users:
+            body = (f'<section class="card narrow"><h1>Sign in</h1>{error}{account_form}</section>'
+                    f'<section class="card narrow"><h2>Or with the library key</h2>{key_form}</section>')
+        else:
+            body = f'<section class="card narrow"><h1>Sign in</h1>{error}{key_form}</section>'
         resp = _page("Sign in", body)
         if error:
             resp.status_code = 401
