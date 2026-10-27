@@ -49,7 +49,7 @@
   "suppliers": [
     {
       "name": "Siluria Technologies",
-      "product": "OCM demonstration (company later acquired; ownership not covered by the source)"
+      "product": "OCM demonstration; company bought by McDermott in 2019 and its IP went to Lummus Technology in the 2020 Lummus spin-off"
     },
     {
       "name": "Lummus Technology",
@@ -66,11 +66,11 @@
     {
       "name": "Siluria OCM demonstration plant, La Porte, Texas",
       "country": "US",
+      "status": "demonstration ran from early 2015 and completed 18 test campaigns in its first year (company release, 11 May 2016); no commercial OCM plant followed — Siluria was bought by McDermott in 2019, and McDermott's 2020 post-bankruptcy spin-off of Lummus Technology included Siluria's intellectual property and the La Porte demonstration plant (read 28 October 2026)",
       "year": 2014,
       "source": {
-        "url": "https://digitalrefining.com/news/1003450/siluria-technologies-starts-up-first-demonstration-plant-to-convert-natural-gas-to-ethylene",
-        "source_id": "ptq-digital-refining",
-        "note": "Digital Refining, Siluria starts up first demonstration plant (La Porte, Texas), 4 January 2015"
+        "url": "https://www.prnewswire.com/news-releases/siluria-announces-one-year-of-successful-operations-of-its-disruptive-ethylene-technology-300266816.html",
+        "note": "Siluria Technologies release via PR Newswire, 11 May 2016 (read 28 October 2026); later ownership history from Wikipedia, Siluria Technologies (read 28 October 2026)"
       }
     }
   ],
@@ -79,30 +79,25 @@
   ],
   "limitations": [
     "The article gives no capacity or yield",
-    "Commercial plants planned for 2017/2018 are not confirmed in the source"
+    "Commercial plants planned for 2017/2018 never materialised; the demonstration ended after the developer was absorbed (McDermott 2019, Lummus Technology spin-off 2020) and no commercial OCM plant has been built"
   ],
   "sources": [
     {
       "url": "https://digitalrefining.com/news/1003450/siluria-technologies-starts-up-first-demonstration-plant-to-convert-natural-gas-to-ethylene",
       "source_id": "ptq-digital-refining",
       "note": "Digital Refining, Siluria starts up first demonstration plant (La Porte, Texas), 4 January 2015"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/siluria-announces-one-year-of-successful-operations-of-its-disruptive-ethylene-technology-300266816.html",
+      "note": "Siluria Technologies release via PR Newswire: one year of successful operations at La Porte demonstration plant, 11 May 2016 (read 28 October 2026)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Siluria_Technologies",
+      "note": "Wikipedia, Siluria Technologies: bought by McDermott 2019; 2020 Lummus spin-off included Siluria IP and La Porte plant (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "status",
-      "item": "what happened after the 2014 demonstration",
-      "reason_code": "status_unchecked",
-      "reason": "The source is from 2015.",
-      "where": [
-        {
-          "hint": "Lummus and Siluria later announcements",
-          "access": "open"
-        }
-      ],
-      "action": "Check current status."
-    },
     {
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",

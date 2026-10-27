@@ -201,7 +201,7 @@
       "note": "NANO Nuclear Energy homepage, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-26",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
@@ -244,7 +244,7 @@
       "field": "status",
       "item": "licensing and deployment milestones are moving fast",
       "reason_code": "status_unchecked",
-      "reason": "Milestones read on 26 October 2026 (eVinci criticality, Oklo 2028 target, Belledune early 2030s) will age quickly.",
+      "reason": "Milestones read on 26 October 2026 (eVinci criticality, Oklo 2028 target, Belledune early 2030s) will age quickly. Checked Google News and Bing News for NRC, DOE and developer news on 2026-10-28; no licensing or deployment milestone after 26 October 2026 found for eVinci, Oklo Aurora or BWXT (an Environment+Energy Leader item dated 26 October 2026 reports DOE approval of the Oklo Aurora-INL safety analysis under the DOE pilot programme, within the same-day window already reviewed).",
       "where": [
         {
           "hint": "NRC and DOE news pages, developer newsrooms",

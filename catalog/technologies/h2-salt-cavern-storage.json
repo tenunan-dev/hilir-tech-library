@@ -78,6 +78,34 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "levelized cost of hydrogen storage, salt cavern (Red Lake, AZ case study)",
+      "low": 2.2971,
+      "high": 2.2971,
+      "unit": "USD/kg H2",
+      "year": 2022,
+      "basis": "single-cavern case study at Red Lake, AZ: 15.5 million ft3 cavern, 3.4 kton working gas (80% working gas, 0.8 kton hydrogen cushion gas); Lord et al. (2014) cost inputs with H2 cushion gas at USD 5/kg, electricity USD 0.128/kWh, 10% discount rate, 40-year well life, 0.8 capacity factor; abstract gives about USD 2.3/kg for salt caverns with large-scale storage capacity; dollar year not stated",
+      "source": {
+        "url": "https://arxiv.org/pdf/2209.03239v1",
+        "source_id": "arxiv",
+        "note": "Chen et al., Technical and Economic Feasibility Analysis of Underground Hydrogen Storage: A Case Study in Intermountain-West Region USA, arXiv:2209.03239, 2022, Table 5 and abstract"
+      }
+    },
+    {
+      "metric": "total capital cost, single salt cavern (Red Lake, AZ case study)",
+      "low": 51,
+      "high": 51,
+      "unit": "million USD",
+      "year": 2022,
+      "basis": "cushion gas 4.2 + geologic site preparation 36.7 + compressor 9.4 + well 1.2 million USD; site preparation (mining and leaching) is the major cost for salt caverns; dollar year not stated",
+      "source": {
+        "url": "https://arxiv.org/pdf/2209.03239v1",
+        "source_id": "arxiv",
+        "note": "Chen et al., Technical and Economic Feasibility Analysis of Underground Hydrogen Storage: A Case Study in Intermountain-West Region USA, arXiv:2209.03239, 2022, Table 4"
+      }
+    }
+  ],
   "suppliers": [
     {
       "name": "Mitsubishi Power"
@@ -116,36 +144,15 @@
     {
       "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
       "note": "POWER magazine, April 2022"
-    }
-  ],
-  "last_reviewed": "2026-10-24",
-  "gaps": [
+    },
     {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "DOE Hydrogen Program Records and H2A analyses",
-          "source_id": "doe-hfto",
-          "access": "open"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway",
-          "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "url": "https://arxiv.org/pdf/2209.03239v1",
+      "source_id": "arxiv",
+      "note": "Chen et al., Technical and Economic Feasibility Analysis of Underground Hydrogen Storage: A Case Study in Intermountain-West Region USA, arXiv:2209.03239, 2022"
     }
   ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [],
   "trl": {
     "low": 6,
     "high": 9,

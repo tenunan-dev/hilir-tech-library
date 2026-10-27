@@ -86,11 +86,11 @@
     {
       "name": "Colleferro (IT) and Retznei (AT) industrial-scale test conversions",
       "capacity": "industrial scale; test phase about EUR 80 million",
-      "status": "planned as of March 2018",
+      "status": "planned March 2018; the conversions did not go ahead — Heidelberg Materials' current CCUS project list and ECRA's CCS project pages name neither plant (both read 28 October 2026), and the industrial-scale oxyfuel demonstration instead proceeded via the catch4climate new-build plant at Mergelstetten, inaugurated 8 July 2026 as the world's first industrial-scale pure oxyfuel facility",
       "year": 2018,
       "source": {
         "url": "https://www.heidelbergmaterials.com/en/ecra-oxyfuel",
-        "note": "Heidelberg Materials page, 15 Mar 2018"
+        "note": "Heidelberg Materials page, 15 Mar 2018, unchanged since (read 28 October 2026); current project lists at heidelbergmaterials.com/en/ccus and ecra-online.org/research/ccs (read 28 October 2026); 'world's first' claim from CI4C partners press release, 8 July 2026"
       }
     }
   ],
@@ -107,8 +107,16 @@
       "url": "https://www.heidelbergmaterials.com/en/ecra-oxyfuel"
     },
     {
+      "url": "https://www.heidelbergmaterials.com/en/ccus",
+      "note": "Heidelberg Materials CCUS pages: current carbon capture project list (Brevik, Antoing OxyCal hybrid, Airvault and others) names no Colleferro or Retznei project (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.ecra-online.org/research/ccs",
+      "note": "ECRA CCS project page: Phases I-IV.B completed with major focus on oxyfuel and the possibility of initiating an industrial-scale oxyfuel kiln; neither Colleferro nor Retznei listed as projects (read 28 October 2026)"
+    },
+    {
       "url": "https://www.vicat.com/sites/default/files/2026-07/Press%20Release%20CI4C%20Inauguration%20Event_EN.pdf",
-      "note": "CI4C partners press release, 8 July 2026"
+      "note": "CI4C partners press release, 8 July 2026: world's first industrial-scale pure oxyfuel facility inaugurated at Mergelstetten"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -159,19 +167,6 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
-    {
-      "field": "status",
-      "item": "status of the Colleferro and Retznei test conversions planned in 2018",
-      "reason_code": "status_unchecked",
-      "reason": "No later source on these two plants was read.",
-      "where": [
-        {
-          "hint": "ECRA and Heidelberg Materials news",
-          "access": "open"
-        }
-      ],
-      "action": "Check whether the conversions went ahead; update or remove that reference plant."
     }
   ],
   "trl": {

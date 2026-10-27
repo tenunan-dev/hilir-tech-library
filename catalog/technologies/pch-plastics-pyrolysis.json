@@ -124,11 +124,11 @@
       "name": "Plastic Energy and TotalEnergies advanced recycling plant, Seville",
       "country": "ES",
       "capacity": "33,000 t/yr plastic waste",
-      "status": "expected operational early 2025 per January 2022 release; actual start not checked",
-      "year": 2022,
+      "status": "no start-up of the new 33,000 t/yr plant was ever announced; Plastic Energy's own current plant list shows only the original Seville plant, operational since 2017; the company entered administration in England in May 2026, emerged in August 2026 with founder Carlos Monreal returning as CEO, and in September 2026 transferred its stake in the TEPEAR joint-venture plant at Grandpuits (15,000 t/yr, operational since March 2026) to TotalEnergies while retaining the Almeria and Seville plants (as of 11 September 2026)",
+      "year": 2026,
       "source": {
-        "url": "https://www.businesswire.com/news/home/20220110006139/en/Plastic-Energy-and-TotalEnergies-Sign-an-Agreement-for-an-Advanced-Recycling-Project-in-Spain",
-        "note": "Plastic Energy and TotalEnergies release (Business Wire ID 20220110)"
+        "url": "https://www.letsrecycle.com/news/plastic-energy-transfers-stake-in-chemical-recycling-plant-amid-restructuring/",
+        "note": "letsrecycle.com, 11 September 2026 (read 28 October 2026); plant list from plasticenergy.com/operations/ (read 28 October 2026)"
       }
     }
   ],
@@ -142,19 +142,6 @@
     "Recycled content depends on accounting rules"
   ],
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "actual start-up of the Seville plant",
-      "reason_code": "status_unchecked",
-      "reason": "Only the 2022 announcement was read.",
-      "where": [
-        {
-          "hint": "Plastic Energy and TotalEnergies news after 2022",
-          "access": "open"
-        }
-      ],
-      "action": "Check start-up and update the plant status."
-    },
     {
       "field": "performance",
       "item": "oil yield (% of plastic input) and energy use",
@@ -200,10 +187,18 @@
       "note": "Plastic Energy and TotalEnergies release (Business Wire ID 20220110)"
     },
     {
+      "url": "https://www.letsrecycle.com/news/plastic-energy-transfers-stake-in-chemical-recycling-plant-amid-restructuring/",
+      "note": "letsrecycle.com, Plastic Energy transfers stake in chemical recycling plant amid restructuring, 11 September 2026 (read 28 October 2026)"
+    },
+    {
+      "url": "https://plasticenergy.com/operations/",
+      "note": "Plastic Energy operations page: Seville plant operational since 2017, TEPEAR Grandpuits in commissioning (read 28 October 2026)"
+    },
+    {
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA Clean Energy Technology Guide 2025: 'Pyrolysis recycling' TRL 9"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

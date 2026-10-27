@@ -112,12 +112,11 @@
       "name": "BASF Ludwigshafen electric cracking demonstration (BASF, SABIC, Linde)",
       "country": "DE",
       "capacity": "two furnaces, about 4 t/h feed, 6 MW renewable power",
-      "status": "inaugurated 17 April 2024",
+      "status": "inaugurated 17 April 2024; demonstration continuing, testing two heating concepts; the project won the ICIS Innovation Award 2024 (November 2024) and the Edison Award 2025 (May 2025); Linde is commercialising the technology under the Starbridge brand (as of September 2025)",
       "year": 2024,
       "source": {
-        "url": "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html",
-        "source_id": "basf-catalysts",
-        "note": "BASF, SABIC and Linde press release, 17 April 2024"
+        "url": "https://www.basf.com/global/en/who-we-are/sustainability/publications/sustainability-news/archive/News_09-2025_eFurnace_Edison-AwardEN",
+        "note": "BASF sustainability news, eFurnace Edison Award, September 2025 (read 28 October 2026); start-up from BASF, SABIC and Linde press release, 17 April 2024"
       }
     }
   ],
@@ -159,12 +158,17 @@
       "field": "performance",
       "item": "measured results from the demonstration (CO2, energy, run length)",
       "reason_code": "status_unchecked",
-      "reason": "Only the 2024 start-up announcement was read.",
+      "reason": "Only the 2024 start-up announcement was read. Checked BASF's sustainability pages and Google/Bing news on 2026-10-28; no measured operating results (CO2 avoided, energy use, run length) have been published yet — as of September 2025 BASF reported the plant still testing two heating concepts, with recognition limited to awards (ICIS 2024, Edison 2025).",
       "where": [
         {
-          "hint": "BASF and Linde publications after 2024",
+          "hint": "BASF and Linde publications after 2024; BASF sustainability news archive and annual reports",
           "access": "open",
           "source_id": "basf-catalysts"
+        },
+        {
+          "hint": "Linde Engineering Starbridge pages and success stories",
+          "access": "open",
+          "source_id": "linde-engineering"
         }
       ],
       "action": "Check for measured results and any commercial-scale announcement; update the card."
@@ -175,7 +179,11 @@
       "url": "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html",
       "source_id": "basf-catalysts",
       "note": "BASF, SABIC and Linde press release, 17 April 2024"
+    },
+    {
+      "url": "https://www.basf.com/global/en/who-we-are/sustainability/publications/sustainability-news/archive/News_09-2025_eFurnace_Edison-AwardEN",
+      "note": "BASF sustainability news: eFurnace Edison Award; plant testing two heating concepts, funding up to EUR 14.8 million, September 2025 (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

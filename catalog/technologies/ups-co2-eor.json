@@ -236,12 +236,11 @@
       "name": "Sukowati field, Bojonegoro (Pertamina EP, with JOGMEC and JAPEX)",
       "country": "ID",
       "capacity": "pilot: about 500 t CO2 huff-and-puff into well SKW-18 over 7 days",
-      "status": "first CO2 injection 7 December 2023; full implementation planned with CO2 from Jambaran Tiung Biru",
-      "year": 2023,
+      "status": "first CO2 injection 7 December 2023 (500 t huff-and-puff pilot into well SKW-18); inter-well CO2 injection field trial started 8 October 2024 under an August 2024 joint study by Pertamina EP, JAPEX and JOGMEC; full-scale application is still being evaluated by the joint study and Pertamina EP Cepu (operator of the adjacent Jambaran Tiung Biru field) as of October 2026, with commercial CO2-EOR not yet running",
+      "year": 2026,
       "source": {
-        "url": "https://www.migas.esdm.go.id/post/implementasikan-ccus-lapangan-sukowati-injeksi-co2-perdana",
-        "source_id": "id-ditjen-migas",
-        "note": "Ditjen Migas, ESDM: first CO2 injection at Sukowati, 7 December 2023 (read 24 October 2026)"
+        "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/japex-and-partners-launch-co2-injection-test-at-sukowati-oil-field-in-indonesia-30847",
+        "note": "ChemAnalyst, JAPEX and partners launch CO2 injection test at Sukowati, 18 October 2024 (read 28 October 2026); October 2026 status from Pertamina EP Cepu statement via suaradesa.co, 14 October 2026"
       }
     }
   ],
@@ -277,20 +276,6 @@
       "action": "Read the collected NETL 2011 report and IEA reports for utilisation and cost, then add dollar-year figures."
     },
     {
-      "field": "status",
-      "item": "Sukowati: full-scale CO2 injection after the 2023 pilot",
-      "reason_code": "status_unchecked",
-      "reason": "Only the December 2023 launch page was read.",
-      "where": [
-        {
-          "hint": "Ditjen Migas and Pertamina news after 2023",
-          "access": "open",
-          "source_id": "id-ditjen-migas"
-        }
-      ],
-      "action": "Check whether the Jambaran Tiung Biru CO2 supply started and update the reference plant."
-    },
-    {
       "field": "suppliers",
       "item": "CO2-EOR operators in Malaysia and Indonesia beyond Pertamina",
       "reason_code": "not_in_sources_read",
@@ -317,10 +302,18 @@
       "note": "Ditjen Migas, ESDM: first CO2 injection at Sukowati, 7 December 2023 (read 24 October 2026)"
     },
     {
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/japex-and-partners-launch-co2-injection-test-at-sukowati-oil-field-in-indonesia-30847",
+      "note": "ChemAnalyst, JAPEX and Partners Launch CO2 Injection Test at Sukowati Oil Field, 18 October 2024 (read 28 October 2026)"
+    },
+    {
+      "url": "https://suaradesa.co/energi/ccus-sukowati-dorong-optimalisasi-produksi-migas-melalui-inovasi-teknologi-dan-pengelolaan-karbon-yang-bertanggung-jawab/",
+      "note": "Suara Desa, PEPC statement on Sukowati CCUS development status, 14 October 2026 (read 28 October 2026)"
+    },
+    {
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, July 2026"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

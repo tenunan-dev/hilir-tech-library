@@ -144,13 +144,13 @@
       "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology; rechecked 2026-10-28 across the collected doe-hfto records and the IEA Global Hydrogen Review 2025 report, Assumptions Annex and ETP Guide dataset - none gives a methane pyrolysis capex or levelized cost figure.",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records and H2A analyses",

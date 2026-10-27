@@ -96,11 +96,11 @@
       "name": "Carbios Longlaville plant, Meurthe-et-Moselle",
       "country": "FR",
       "capacity": "50,000 t/yr PET waste, EUR 230 million",
-      "status": "ground-breaking April 2024; 6-9 month delay from funding uncertainty; construction to resume late 2025; full operation anticipated 2027 (as of December 2025)",
-      "year": 2025,
+      "status": "ground-breaking April 2024; construction suspended pending project financing; the financial close target of 30 September 2026 was missed and the start of production, previously expected H1 2028, is postponed; credit committee approvals obtained from the majority of lenders during summer 2026, a commercial agreement with a major beverage-industry player being finalised to raise pre-sales to about 60% of nominal capacity, and due diligence by export credit agencies and equity partners ongoing (as of 24 September 2026)",
+      "year": 2026,
       "source": {
-        "url": "https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/",
-        "note": "Packaging Gateway, 8 December 2025"
+        "url": "https://www.carbios.com/en/carbios-provides-an-update-on-the-financing-of-its-longlaville-plant-project/",
+        "note": "Carbios press release, 3 August 2026; details from Carbios first-half 2026 results release, 24 September 2026"
       }
     }
   ],
@@ -111,22 +111,10 @@
   "limitations": [
     "First commercial plant not yet running",
     "Needs clean, sorted PET feed",
-    "Cost competitiveness against virgin PET not shown"
+    "Cost competitiveness against virgin PET not shown",
+    "Longlaville construction is suspended pending project financing; financial close was not reached by the 30 September 2026 target and the production start (previously H1 2028) is postponed"
   ],
   "gaps": [
-    {
-      "field": "status",
-      "item": "Longlaville construction and start-up progress",
-      "reason_code": "status_unchecked",
-      "reason": "Plant status is as of December 2025.",
-      "where": [
-        {
-          "hint": "Carbios news releases and annual reports",
-          "access": "open"
-        }
-      ],
-      "action": "Re-check after 2026 and update the plant status."
-    },
     {
       "field": "costs",
       "item": "capital cost and production cost, with dollar year and basis",
@@ -170,7 +158,15 @@
     {
       "url": "https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/",
       "note": "Packaging Gateway, 8 December 2025"
+    },
+    {
+      "url": "https://www.carbios.com/en/carbios-provides-an-update-on-the-financing-of-its-longlaville-plant-project/",
+      "note": "Carbios press release: update on the financing of the Longlaville plant project, 3 August 2026 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.carbios.com/en/carbios-reports-first-half-2026-results/",
+      "note": "Carbios first-half 2026 results press release, 24 September 2026 (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

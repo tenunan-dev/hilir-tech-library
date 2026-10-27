@@ -89,11 +89,11 @@
       "name": "PureCycle Ironton, Ohio",
       "country": "US",
       "capacity": "107 million lb/yr (projected)",
-      "status": "first commercial-scale pellets June 2023",
-      "year": 2023,
+      "status": "first commercial-scale pellets June 2023; still ramping: PureFive output was 13.0 million lb in H1 2026 (4.5 million lb in Q2 2026, up from 3.4 million lb in Q2 2025), including an annual maintenance turnaround, and the plant is not yet certified by Leidos Engineering for full-scale commercial operations",
+      "year": 2026,
       "source": {
-        "url": "https://renewable-carbon.eu/news/?p=128691",
-        "note": "Renewable Carbon News, PureCycle's Ironton plant produces first pellets, June 2023"
+        "url": "https://www.sec.gov/Archives/edgar/data/1830033/000183003326000026/pct-20260630.htm",
+        "note": "PureCycle Technologies 10-Q for the quarter ended 30 June 2026, filed 6 August 2026 (read 28 October 2026); first pellets from Renewable Carbon News, June 2023"
       }
     }
   ],
@@ -101,29 +101,20 @@
     "Near-virgin quality (company claim)"
   ],
   "limitations": [
-    "Operating performance after 2023 is not covered"
+    "Still ramping: H1 2026 output of 13 million lb is well below the 107 million lb/yr nameplate, and full-scale commercial operations are not yet certified"
   ],
   "sources": [
     {
       "url": "https://renewable-carbon.eu/news/?p=128691",
       "note": "Renewable Carbon News, PureCycle's Ironton plant produces first pellets, June 2023"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1830033/000183003326000026/pct-20260630.htm",
+      "note": "PureCycle Technologies Form 10-Q for Q2 2026, filed 6 August 2026: PureFive production 4.5 million lb in Q2 2026 (13.0 million lb in H1 2026), continued ramp-up (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "status",
-      "item": "operating rate since 2023",
-      "reason_code": "status_unchecked",
-      "reason": "Source is from first pellets.",
-      "where": [
-        {
-          "hint": "PureCycle SEC filings",
-          "access": "open"
-        }
-      ],
-      "action": "Check ramp-up."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

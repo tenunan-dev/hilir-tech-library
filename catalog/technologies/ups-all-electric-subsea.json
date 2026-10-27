@@ -61,36 +61,69 @@
       },
       "low": 12,
       "high": 12
+    },
+    {
+      "metric": "Fram Sør recoverable reserves",
+      "unit": "million boe gross",
+      "basis": "75% oil, 25% gas; PDO submitted 26 June 2025",
+      "source": {
+        "url": "https://news.cision.com/var-energi-asa/r/development-plan-for-fram-sor-submitted,c4169146",
+        "note": "Var Energi release via Cision, Development plan for Fram Sor submitted, 26 June 2025"
+      },
+      "low": 116,
+      "high": 116
+    },
+    {
+      "metric": "Fram Sør investment",
+      "unit": "NOK billion",
+      "basis": "more than NOK 21 billion (USD 2.2 billion) by the Fram partners; production scheduled to start at the end of 2029",
+      "source": {
+        "url": "https://news.cision.com/var-energi-asa/r/development-plan-for-fram-sor-submitted,c4169146",
+        "note": "Var Energi release via Cision, Development plan for Fram Sor submitted, 26 June 2025"
+      },
+      "low": 21,
+      "high": 21
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Equinor Fram Sør all-electric subsea development (North Sea, tieback to Troll C)",
+      "country": "NO",
+      "capacity": "116 mmboe gross recoverable; four templates with 12 all-electric trees (SLB OneSubsea)",
+      "status": "PDO submitted and development plan approved 26 June 2025; EPC contract for four templates and 12 all-electric trees awarded to SLB OneSubsea in August 2025; production scheduled to start at the end of 2029, so the first large-scale all-electric system is not yet operating (as of October 2026)",
+      "year": 2025,
+      "source": {
+        "url": "https://news.cision.com/var-energi-asa/r/development-plan-for-fram-sor-submitted,c4169146",
+        "note": "Var Energi release via Cision, 26 June 2025; EPC award from SLB OneSubsea release via WebWire, 26 August 2025 (read 28 October 2026)"
+      }
     }
   ],
   "advantages": [
     "No hydraulic fluid supply from the host"
   ],
   "limitations": [
-    "Water depth and start date not stated"
+    "First large-scale all-electric subsea production system is still under construction; Fram Sør production is scheduled to start at the end of 2029, so operating experience is not yet available"
   ],
   "sources": [
     {
       "url": "https://www.oedigital.com/news/529280-equinor-picks-onesubsea-all-electric-subsea-production-system-for-north-sea-field",
       "note": "Offshore Engineer, Equinor picks OneSubsea all-electric subsea production system for North Sea field"
+    },
+    {
+      "url": "https://news.cision.com/var-energi-asa/r/development-plan-for-fram-sor-submitted,c4169146",
+      "note": "Var Energi release via Cision: development plan for Fram Sor submitted, production scheduled to start at the end of 2029, 26 June 2025 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=342967",
+      "note": "SLB OneSubsea release via WebWire: EPC contract for Fram Sor all-electric subsea production system, 26 August 2025 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/2026/10/22/onesubsea-and-oil-and-gas-giants-are-unlocking-deeper-waters-with-all-electric-subsea-tech/",
+      "note": "Offshore Energy, OneSubsea and oil and gas giants unlocking deeper waters with all-electric subsea tech, 22 October 2026: all-electric production technology moving toward commercial deployment through Fram Sor (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "status",
-      "item": "Fram Sør start-up and performance",
-      "reason_code": "status_unchecked",
-      "reason": "The contract depended on regulatory approval at the time of the article.",
-      "where": [
-        {
-          "hint": "Equinor Fram Sør project page",
-          "access": "open",
-          "source_id": "equinor-tech"
-        }
-      ],
-      "action": "Check start-up date."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

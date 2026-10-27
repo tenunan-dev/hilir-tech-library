@@ -86,6 +86,34 @@
       "high": 1300
     }
   ],
+  "costs": [
+    {
+      "metric": "station capital equipment cost per unit dispensing capacity",
+      "low": 1200,
+      "high": 3000,
+      "unit": "USD/(kg/day)",
+      "year": 2016,
+      "basis": "111 new fueling stations awarded by the California Energy Commission in 2020; capacity 770-1,620 kg/day, all 700-bar light-duty; uninstalled equipment capital cost (combined awarded grant and match funding), adjusted to 2016 dollars using Chemical Engineering Plant Cost Indices; equivalent to USD 300-890/(kg/day) per dispenser",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Program Record 21002, Hydrogen Fueling Station Capital Cost, 11 February 2021"
+      }
+    },
+    {
+      "metric": "average station total capital cost",
+      "low": 1900000,
+      "high": 1900000,
+      "unit": "USD per station",
+      "year": 2016,
+      "basis": "mean and median total capital cost across the 111 California-awarded stations; average capacity 1,240 kg/day, median 1,500 kg/day; uninstalled equipment capital cost in 2016 dollars",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Program Record 21002, Hydrogen Fueling Station Capital Cost, 11 February 2021"
+      }
+    }
+  ],
   "advantages": [
     "Growing in China and Europe"
   ],
@@ -97,24 +125,15 @@
       "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
       "source_id": "iea-reports",
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): hydrogen refuelling stations, Figure 2.13 and surrounding text"
+    },
+    {
+      "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Program Record 21002, Hydrogen Fueling Station Capital Cost, 11 February 2021"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "station capital cost per kg/day",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA text gives no cost.",
-      "where": [
-        {
-          "hint": "DOE HFTO station cost records",
-          "access": "open",
-          "source_id": "doe-hfto"
-        }
-      ],
-      "action": "Add costs."
-    },
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",

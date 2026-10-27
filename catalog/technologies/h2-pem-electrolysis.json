@@ -123,19 +123,6 @@
       }
     },
     {
-      "metric": "stack lifetime (status)",
-      "low": 60000,
-      "high": 60000,
-      "unit": "h",
-      "year": 2023,
-      "basis": "H2NEW PEM stack status, slide 13",
-      "source": {
-        "url": "https://www.energy.gov/sites/default/files/2023-02/h2iqhour-01262023.pdf",
-        "source_id": "doe-hfto",
-        "note": "DOE H2IQ Hour webinar on H2NEW, 26 January 2023"
-      }
-    },
-    {
       "metric": "system electricity use (status, beginning of life)",
       "low": 55,
       "high": 55,
@@ -154,7 +141,7 @@
       "high": 40000,
       "unit": "h",
       "year": 2024,
-      "basis": "DOE status table; ultimate target 80,000 h",
+      "basis": "DOE status table; ultimate target 80,000 h; DOE record 24005 (May 2024) also assumes a 40,000 hr stack lifetime and replacement interval, resolving the conflicting 60,000 h figure from the 2023 H2NEW webinar",
       "source": {
         "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
         "source_id": "doe-hfto",
@@ -313,24 +300,8 @@
       "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
     }
   ],
-  "last_reviewed": "2026-10-24",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "current PEM stack lifetime",
-      "reason_code": "conflicting_sources",
-      "reason": "DOE sources disagree: 60,000 h (H2NEW webinar, 2023) and 40,000 h (Hydrogen Shot assessment, 2024).",
-      "where": [
-        {
-          "hint": "DOE Hydrogen Shot Water Electrolysis Technology Assessment (collected)",
-          "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
-          "source_id": "doe-hfto",
-          "access": "open"
-        }
-      ],
-      "action": "Prefer the later DOE value unless a newer DOE record resolves it; keep both until then."
-    }
-  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [],
   "trl": {
     "low": 9,
     "high": 9,
