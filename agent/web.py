@@ -38,7 +38,7 @@ import vendors as vendor_records
 
 COOKIE = "oglib_session"
 # keep in sync with the worker: deploy/cloudflare/src/index.ts (UI_PREFIXES)
-PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database", "/admin")
+PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account")
 SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
@@ -640,12 +640,17 @@ def _client_ip(request: Request) -> str:
 
 def _account(request: Request, key: str) -> dict | None:
     """The authenticated identity: {'kind': 'key', 'role': 'admin'} for the library key
-    (header or cookie — the key is the owner's credential), or the account row for a v2
-    session. A v2 session is only valid while its account still exists, so deleting an
-    account in the admin page revokes access within the account-cache window."""
+    (header or cookie — the key is the owner's credential), the owning account row for a
+    per-user API key (hlt_… header, role inherited from the account), or the account row
+    for a v2 session. A v2 session is only valid while its account still exists, so
+    deleting an account in the admin page revokes access within the account-cache window."""
     given = request.headers.get("x-api-key") or request.headers.get("authorization", "").removeprefix("Bearer ").strip()
-    if given and hmac.compare_digest(given.encode(), key.encode()):
-        return {"kind": "key", "email": None, "name": "library key", "role": "admin"}
+    if given:
+        if hmac.compare_digest(given.encode(), key.encode()):
+            return {"kind": "key", "email": None, "name": "library key", "role": "admin"}
+        if given.startswith(userstore.KEY_PREFIX):
+            return userstore.account_for_key(given)
+        return None
     token = request.cookies.get(COOKIE, "")
     if token.startswith("v2|"):
         email = user_accounts.session_email(token, key)
@@ -777,7 +782,7 @@ def _db_panel() -> str:
 
 def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=False) -> HTMLResponse:
     links = []
-    nav_items = NAV + (("Admin", "/admin"),) if admin_nav else NAV
+    nav_items = NAV + (("Admin", "/admin"), ("Account", "/account")) if admin_nav else NAV + (("Account", "/account"),)
     for label, href in nav_items:
         mark = ' class="active"' if href == active else ""
         links.append(f'<a href="{href}"{mark}>{label}</a>')
@@ -857,6 +862,7 @@ def routes(tools, key: str) -> list:
 
     async def login(request: Request):
         if request.method == "POST":
+            userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
             form = await request.form()
             next_url = _safe_next(form.get("next"))
             email = str(form.get("email") or "").strip()
@@ -1367,6 +1373,7 @@ def routes(tools, key: str) -> list:
 
     def gated(handler):
         async def with_gate(request: Request):
+            userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
             account = _account(request, key)
             if account is None:
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
@@ -1382,6 +1389,7 @@ def routes(tools, key: str) -> list:
 
     def admin_gated(handler):
         async def with_gate(request: Request):
+            userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
             account = _account(request, key)
             if account is None:
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
@@ -1393,8 +1401,79 @@ def routes(tools, key: str) -> list:
             return await handler(request)
         return with_gate
 
+    async def account_page(request: Request):
+        """Per-user page: identity and API-key self-service (create/revoke, raw shown once)."""
+        account = _account(request, key)
+        try:
+            store_ok = userstore.configured()
+            if store_ok:
+                userstore.all_accounts()  # fail fast into the degraded branch below
+        except Exception:
+            store_ok = False
+            note_store = ('<p class="muted small">The account store is unreachable right now '
+                          '(USER_STORE_URL); API keys are unavailable.</p>')
+        else:
+            note_store = ""
+        note = ""
+        if account["kind"] == "key":
+            body_keys = ('<p class="muted small">You are signed in with the master library key, which always '
+                         'has admin rights. Per-user API keys are managed on the <a href="/admin">admin page</a> '
+                         'or from an account sign-in.</p>')
+        elif not store_ok:
+            body_keys = (note_store + '<p class="muted small">API keys need the persistent account store '
+                         '(USER_STORE_URL), which is not configured on this deployment.</p>')
+        else:
+            if request.method == "POST":
+                label = str((await request.form()).get("label") or "")
+                try:
+                    raw = userstore.create_key(account["email"], label)
+                    note = (f'<p><b>Your new API key (shown once — copy it now):</b><br>'
+                            f'<code>{esc(raw)}</code></p>')
+                except Exception as exc:
+                    note = f'<p><b>Could not create the key:</b> {esc(exc)}</p>'
+            my_keys = userstore.keys(email=account["email"])
+            rows = "".join(
+                f'<tr><td>{esc(r[3] or "(no label)")}</td><td><code>{esc(r[1])}…</code></td>'
+                f'<td>{(r[4] or r[5] or "-"):%Y-%m-%d}</td><td>{f"{r[5]:%Y-%m-%d %H:%M} UTC" if r[5] else "never"}</td>'
+                f'<td><form method="post" action="/account/keys/delete" class="inline">'
+                f'<input type="hidden" name="id" value="{r[0]}">'
+                f'<button type="submit" class="small">Revoke</button></form></td></tr>'
+                for r in my_keys)
+            key_table = (f'<table><tr><th>Label</th><th>Key</th><th>Created</th><th>Last used</th><th></th></tr>'
+                         f'{rows}</table>') if rows else '<p class="muted small">No API keys yet.</p>'
+            body_keys = (note + key_table +
+                         '<h3>Create a key</h3>'
+                         '<form method="post" action="/account">'
+                         '<p><label>Label <input type="text" name="label" placeholder="my laptop"></label></p>'
+                         '<p><button type="submit">Create API key</button></p></form>'
+                         '<p class="muted small">Keys act as your account (same rights), work everywhere the '
+                         'library key works (web, REST <code>x-api-key</code>, MCP), and can be revoked any time. '
+                         'The raw key is never stored — only its hash.</p>')
+        body = (f'<section class="card narrow"><h1>Account</h1>'
+                f'<p>Signed in as <b>{esc(account.get("email") or "the library key")}</b>'
+                + (f' ({esc(account.get("name") or "")})' if account.get("name") else '') +
+                f'<br>Role: <b>{esc(account["role"])}</b></p></section>'
+                f'<section class="card narrow"><h2>API keys</h2>{body_keys}</section>')
+        return _page("Account", body)
+
+    async def account_key_delete(request: Request):
+        form = await request.form()
+        my = userstore.keys(email=_account(request, key).get("email") or "")
+        if any(r[0] == _int(form.get("id"), 0, 0, 10**9) for r in my):
+            userstore.delete_key(_int(form.get("id"), 0, 0, 10**9))
+        return RedirectResponse("/account", status_code=303)
+
     async def admin_page(request: Request):
-        store_ok = userstore.configured()
+        try:
+            store_ok = userstore.configured()
+            if store_ok:
+                userstore.all_accounts()  # fail fast into the degraded branch below
+        except Exception:
+            store_ok = False
+            store_note = ('<p><b>The account store is unreachable right now (USER_STORE_URL).</b> '
+                          'Accounts, keys and analytics are unavailable; the rest of the site works.</p>')
+        else:
+            store_note = ""
         secret_emails = user_accounts.load_users().keys()
 
         def delete_cell(r):
@@ -1404,13 +1483,13 @@ def routes(tools, key: str) -> list:
                     f'<input type="hidden" name="email" value="{esc(r["email"])}">'
                     f'<button type="submit" class="small">Delete</button></form>')
 
-        rows = sorted(userstore.all_accounts().values(), key=lambda r: r["email"])
+        rows = sorted(userstore.all_accounts().values(), key=lambda r: r["email"]) if store_ok else []
         account_rows = "".join(
             f'<tr><td>{esc(r["email"])}</td><td>{esc(r.get("name") or "")}</td>'
             f'<td>{esc(r.get("role") or "user")}</td>'
             f'<td>{"secret" if r["email"] in secret_emails else "admin page"}</td>'
             f'<td>{delete_cell(r)}</td></tr>'
-            for r in rows)
+            for r in rows) or '<tr><td colspan="5" class="muted">no accounts loaded</td></tr>'
         if store_ok:
             add_form = ('<form method="post" action="/admin/accounts">'
                         '<p><label>Email <input type="email" name="email" required></label></p>'
@@ -1441,12 +1520,40 @@ def routes(tools, key: str) -> list:
         else:
             analytics = ('<p class="muted small">Activity recording needs the persistent account store '
                          '(USER_STORE_URL), so there is nothing to show yet.</p>')
-        body = (f'<section class="card"><h1>Admin</h1>'
+        if store_ok:
+            all_keys = userstore.keys()
+            account_emails = sorted(userstore.all_accounts())
+            key_rows = "".join(
+                f'<tr><td>{esc(r[2])}</td><td>{esc(r[3] or "(no label)")}</td><td><code>{esc(r[1])}…</code></td>'
+                f'<td>{(r[4] or r[5] or "-"):%Y-%m-%d}</td><td>{f"{r[5]:%Y-%m-%d %H:%M} UTC" if r[5] else "never"}</td>'
+                f'<td><form method="post" action="/admin/keys/delete" class="inline">'
+                f'<input type="hidden" name="id" value="{r[0]}">'
+                f'<button type="submit" class="small">Revoke</button></form></td></tr>'
+                for r in all_keys)
+            keys_section = ('<h3>API keys</h3>' +
+                            (f'<table><tr><th>Owner</th><th>Label</th><th>Key</th><th>Created</th><th>Last used</th><th></th></tr>{key_rows}</table>'
+                             if all_keys else '<p class="muted small">No API keys yet.</p>') +
+                            '<form method="post" action="/admin/keys">'
+                            '<p><label>Account <input type="email" name="email" list="account-emails" required></label> '
+                            '<datalist id="account-emails">' +
+                            "".join(f'<option value="{esc(e)}">' for e in account_emails) +
+                            '</datalist></p>'
+                            '<p><label>Label <input type="text" name="label" placeholder="team shared key"></label></p>'
+                            '<p><button type="submit">Create key</button></p></form>'
+                            '<p class="muted small">A key acts as its owner\'s account (same role and rights) and '
+                            'works on the web UI, REST and MCP via the x-api-key header. The raw key is shown once '
+                            'after creation; only its hash is stored. Keys die with their account.</p>')
+        else:
+            keys_section = ('<h3>API keys</h3><p class="muted small">API keys need the persistent account store '
+                            '(USER_STORE_URL), which is not configured on this deployment.</p>')
+        body = (f'<section class="card"><h1>Admin</h1>{store_note}'
                 f'<p class="muted small">The library key always has admin rights; account passwords are '
-                f'scrypt-hashed and never shown. Deleting an account revokes its sessions within a minute.</p></section>'
+                f'scrypt-hashed and never shown. Deleting an account revokes its sessions within a minute '
+                f'and deletes its API keys.</p></section>'
                 f'<section class="card"><h2>Accounts</h2>'
                 f'<table><tr><th>Email</th><th>Name</th><th>Role</th><th>Source</th><th></th></tr>{account_rows}</table>'
                 f'<h3>Add an account</h3>{add_form}</section>'
+                f'<section class="card"><h2>API keys</h2>{keys_section}</section>'
                 f'<section class="card"><h2>Login data and analytics</h2>{analytics}</section>')
         return _page("Admin", body, admin_nav=True)
 
@@ -1468,6 +1575,27 @@ def routes(tools, key: str) -> list:
         userstore.delete_account(str(form.get("email") or ""))
         return RedirectResponse("/admin", status_code=303)
 
+    async def admin_key_create(request: Request):
+        form = await request.form()
+        try:
+            raw = userstore.create_key(str(form.get("email") or ""), str(form.get("label") or ""))
+        except Exception as exc:
+            resp = _page("Admin", f'<section class="card narrow"><h1>Admin</h1>'
+                                  f'<p>Could not create the key: {esc(exc)}</p>'
+                                  f'<p><a href="/admin">Back</a></p></section>', admin_nav=True)
+            resp.status_code = 400
+            return resp
+        resp = _page("Admin", f'<section class="card narrow"><h1>API key created</h1>'
+                              f'<p>For <b>{esc(str(form.get("email") or "").strip().lower())}</b>. '
+                              f'Shown once — copy it now:</p>'
+                              f'<p><code>{esc(raw)}</code></p>'
+                              f'<p><a href="/admin">Back to admin</a></p></section>', admin_nav=True)
+        return resp
+
+    async def admin_key_delete(request: Request):
+        userstore.delete_key(_int((await request.form()).get("id"), 0, 0, 10**9))
+        return RedirectResponse("/admin", status_code=303)
+
     return [
         Route("/", gated(home)),
         Route("/login", login, methods=["GET", "POST"]),
@@ -1475,6 +1603,10 @@ def routes(tools, key: str) -> list:
         Route("/admin", admin_gated(admin_page)),
         Route("/admin/accounts", admin_gated(admin_create), methods=["POST"]),
         Route("/admin/accounts/delete", admin_gated(admin_delete), methods=["POST"]),
+        Route("/admin/keys", admin_gated(admin_key_create), methods=["POST"]),
+        Route("/admin/keys/delete", admin_gated(admin_key_delete), methods=["POST"]),
+        Route("/account", gated(account_page), methods=["GET", "POST"]),
+        Route("/account/keys/delete", gated(account_key_delete), methods=["POST"]),
         Route("/search", gated(search)),
         Route("/technologies", gated(technologies)),
         Route("/technologies/{technology_id}", gated(technology)),

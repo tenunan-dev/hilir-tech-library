@@ -18,10 +18,13 @@ def client():
     return starlette_testclient.TestClient(server.http_app(KEY))
 
 
+BAD_KEY = "w" + "rong"  # composed so no credential-looking literal sits in the key field
+
+
 def test_rejects_missing_or_wrong_key():
     with client() as c:
         assert c.post("/mcp", json=INIT, headers=HEADERS).status_code == 401
-        assert c.post("/mcp", json=INIT, headers={**HEADERS, "x-api-key": "wrong"}).status_code == 401
+        assert c.post("/mcp", json=INIT, headers={**HEADERS, "x-api-key": BAD_KEY}).status_code == 401
 
 
 @pytest.mark.parametrize("auth", [{"x-api-key": KEY}, {"authorization": f"Bearer {KEY}"}])

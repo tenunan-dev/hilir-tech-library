@@ -99,6 +99,13 @@ for them.
   secret instead).
 - **Login data and analytics:** the page shows sign-ins (who, when, success/failure, IP),
   failed-attempt counts, page views and searches per day, and the most-viewed paths (7 days).
+- **API keys:** admins can mint a per-user key (`hlt_…`, raw shown once, only its sha256 stored)
+  for any account from `/admin`, and revoke any key. Every signed-in person manages their own keys
+  at `/account` (create with a label, revoke, see last-used). A key acts as its owning account —
+  same role and rights, recorded in analytics as that account — and works on all three surfaces:
+  the web UI, REST (`x-api-key` / `Authorization: Bearer`) and MCP. Keys die with their account
+  (cascade) and revocation is immediate. The edge passes `hlt_` keys through to the container and
+  resolves nothing itself; the master library key still bypasses the store as the owner's key.
 - **Persistence:** accounts created on the page and all events live in Neon schema `library`
   (tables `library.account`, `library.event` — see `db/library.sql`; deliberately outside schema
   `og`, which the library reload truncates). The container reaches them through the least-privilege

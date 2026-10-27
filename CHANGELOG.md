@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.8] — 2026-10-28 — per-user API keys; account page
+
+### Added
+- Accounts get API keys: self-service at `/account` (create with a label — the raw `hlt_…` key is shown once, only its sha256 stored; revoke; last-used shown) and admin-wide management at `/admin` (mint for any account, revoke any). A key acts as its owning account — same role and rights, recorded in analytics — and works on the web UI, REST and MCP via `x-api-key`. Keys cascade-delete with the account; revocation is immediate.
+- The edge worker passes `hlt_` keys through to the container (which resolves them against the account store) and injects the `USER_STORE_URL` DSN per request (`x-user-store-dsn`), so container instances predating a secret rotation still see the current DSN; a client cannot inject its own.
+
 ## [2026.10.27.7] — 2026-10-27 — admin view: roles, account management, login data and analytics
 
 ### Added

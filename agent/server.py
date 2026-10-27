@@ -28,6 +28,7 @@ import api  # noqa: E402
 import embed  # noqa: E402
 import library  # noqa: E402
 import pg  # noqa: E402
+import userstore  # noqa: E402
 import web  # noqa: E402
 
 try:
@@ -185,7 +186,10 @@ def graph_neighbors(node: str, depth: int = 1, rels: list[str] | None = None) ->
 
 
 class RequireApiKey:
-    """ASGI middleware: reject requests without the API key (x-api-key or Authorization: Bearer)."""
+    """ASGI middleware: reject requests without the API key (x-api-key or Authorization: Bearer).
+
+    The library key grants full access; per-user keys (hlt_…, agent/userstore.py) are accepted
+    when the account store resolves them — they act as their owning account."""
 
     def __init__(self, app, key):
         self.app, self.key = app, key.encode()
@@ -193,8 +197,11 @@ class RequireApiKey:
     async def __call__(self, scope, receive, send):
         if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS and not web.is_web_path(scope["path"]):
             headers = dict(scope["headers"])
+            dsn = headers.get(b"x-user-store-dsn")
+            userstore.set_dsn_from_header(dsn.decode("utf-8", "replace") if dsn is not None else None)
             given = headers.get(b"x-api-key") or headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
-            if not hmac.compare_digest(given, self.key):
+            given_text = given.decode("utf-8", "replace")
+            if not hmac.compare_digest(given, self.key) and not userstore.account_for_key(given_text):
                 await send({"type": "http.response.start", "status": 401,
                             "headers": [(b"content-type", b"application/json")]})
                 await send({"type": "http.response.body", "body": b'{"error": "missing or wrong API key"}'})

@@ -44,6 +44,7 @@ def main():
         "CREATE SCHEMA IF NOT EXISTS library",
         "CREATE TABLE IF NOT EXISTS library.account ( email text PRIMARY KEY, name text NOT NULL, hash text NOT NULL, role text NOT NULL DEFAULT 'user' CHECK (role IN ('user', 'admin')), created_at timestamptz NOT NULL DEFAULT now())",
         "CREATE TABLE IF NOT EXISTS library.event ( ts timestamptz NOT NULL DEFAULT now(), kind text NOT NULL, who text NOT NULL, detail text NOT NULL DEFAULT '', ip text NOT NULL DEFAULT '')",
+        "CREATE TABLE IF NOT EXISTS library.api_key ( id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY, key_hash text NOT NULL UNIQUE, prefix text NOT NULL, email text NOT NULL REFERENCES library.account (email) ON DELETE CASCADE, label text NOT NULL DEFAULT '', created_at timestamptz NOT NULL DEFAULT now(), last_used timestamptz)",
         "CREATE INDEX IF NOT EXISTS library_event_ts_idx ON library.event (ts DESC)",
         "CREATE INDEX IF NOT EXISTS library_event_kind_ts_idx ON library.event (kind, ts DESC)",
     ]
@@ -57,6 +58,7 @@ def main():
         conn.execute("CREATE TABLE IF NOT EXISTS library.event ( ts timestamptz NOT NULL DEFAULT now(), kind text NOT NULL, who text NOT NULL, detail text NOT NULL DEFAULT '', ip text NOT NULL DEFAULT '')")
         conn.execute("CREATE INDEX IF NOT EXISTS library_event_ts_idx ON library.event (ts DESC)")
         conn.execute("CREATE INDEX IF NOT EXISTS library_event_kind_ts_idx ON library.event (kind, ts DESC)")
+        conn.execute("CREATE TABLE IF NOT EXISTS library.api_key ( id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY, key_hash text NOT NULL UNIQUE, prefix text NOT NULL, email text NOT NULL REFERENCES library.account (email) ON DELETE CASCADE, label text NOT NULL DEFAULT '', created_at timestamptz NOT NULL DEFAULT now(), last_used timestamptz)")
 
         # least-privilege role (create or rotate its password). Utility statements cannot
         # use server-side binds, so the password goes through a client-side cursor, which

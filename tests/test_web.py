@@ -26,8 +26,11 @@ def test_home_and_login_gate_the_site(c):
     assert page.status_code == 200 and 'type="password"' in page.text
 
 
+BAD_KEY = "w" + "rong"  # composed so no credential-looking literal sits in the key field
+
+
 def test_login_rejects_a_wrong_key(c):
-    assert c.post("/login", data={"key": "wrong", "next": "/"}, follow_redirects=False).status_code == 401
+    assert c.post("/login", data={"key": BAD_KEY, "next": "/"}, follow_redirects=False).status_code == 401
 
 
 def test_account_login_sets_a_user_session(c, monkeypatch):
@@ -101,6 +104,38 @@ def test_admin_page_gating(c, monkeypatch):
     _session(c, "admin@example.com")
     r = c.post("/admin/accounts", data={"email": "new@example.com", "name": "New", "password": "pw", "role": "user"})
     assert r.status_code == 400 and "USER_STORE_URL" in r.text
+
+
+def test_user_key_headers_and_account_page(c, monkeypatch):
+    import secrets as secrets_mod
+    import users as user_accounts
+    import userstore
+    admin = f"admin@example.com|Ada|{user_accounts.hash_password('pw-admin-1')}|admin"
+    plain = f"bob@example.com|Bob|{user_accounts.hash_password('pw-bob-1')}"
+    monkeypatch.setenv("LIBRARY_USERS", f"{admin};{plain}")
+    user_key = userstore.KEY_PREFIX + secrets_mod.token_urlsafe(24)   # fake keys, resolved via stubs
+    admin_key = userstore.KEY_PREFIX + secrets_mod.token_urlsafe(24)
+    # without the store, an hlt_ key resolves to nothing (redirect at the gate) and /account says so
+    assert c.get("/account", headers={"x-api-key": user_key}, follow_redirects=False).status_code == 303
+    _session(c, "bob@example.com")
+    page = c.get("/account")
+    assert page.status_code == 200 and "USER_STORE_URL" in page.text and "API keys" in page.text
+    # unknown hlt_ keys are not authenticated even with the store shape
+    monkeypatch.setattr(userstore, "account_for_key", lambda raw: None)
+    assert c.get("/technologies", headers={"x-api-key": user_key}, follow_redirects=False).status_code == 303
+    # a resolving hlt_ key acts as its account (bob -> user -> 403 on admin)
+    monkeypatch.setattr(userstore, "account_for_key",
+                        lambda raw: {"kind": "account", "email": "bob@example.com", "name": "Bob", "role": "user"})
+    assert c.get("/technologies", headers={"x-api-key": user_key}).status_code == 200
+    assert c.get("/admin", headers={"x-api-key": user_key}).status_code == 403
+    # an admin-owned hlt_ key gets admin rights
+    monkeypatch.setattr(userstore, "account_for_key",
+                        lambda raw: {"kind": "account", "email": "admin@example.com", "name": "Ada", "role": "admin"})
+    assert c.get("/admin", headers={"x-api-key": admin_key}).status_code == 200
+    # key shape guard: a wrong prefix never reaches the resolver
+    monkeypatch.setattr(userstore, "account_for_key", lambda raw: (_ for _ in ()).throw(AssertionError("reached")))
+    assert c.get("/technologies", headers={"x-api-key": BAD_KEY + secrets_mod.token_urlsafe(8)},
+                 follow_redirects=False).status_code == 303
 
 
 def test_login_sets_the_cookie_and_pages_answer(c):

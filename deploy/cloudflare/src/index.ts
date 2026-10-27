@@ -12,7 +12,7 @@ import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@clou
 const ORIGIN = "https://techlib.hilir.app";
 
 // keep in sync with PREFIXES in agent/web.py
-const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database", "/admin"];
+const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account"];
 const isUi = (p: string) => p === "/" || UI_PREFIXES.some((x) => p.startsWith(x));
 
 interface Env {
@@ -48,14 +48,34 @@ function sameKey(a: string, b: string): boolean {
 }
 
 function keyOk(env: Env, given: string | null): boolean {
-  return !!given && !!env.LIBRARY_API_KEY && env.LIBRARY_API_KEY.length >= 24 && sameKey(given, env.LIBRARY_API_KEY);
+  if (!given) return false;
+  // per-user API keys (hlt_…) are resolved inside the container, which owns the store
+  if (given.startsWith("hlt_")) return true;
+  return !!env.LIBRARY_API_KEY && env.LIBRARY_API_KEY.length >= 24 && sameKey(given, env.LIBRARY_API_KEY);
 }
 
-// Forward to the container with the library key; the client's own credentials are not passed on.
-function toContainer(request: Request, env: Env): Promise<Response> {
+// The account-store DSN rides on every container request (x-user-store-dsn), overwritten from the
+// Worker secret so container instances that predate a secret rotation still see the current value.
+// Overwriting (not merging) also means a client cannot inject its own DSN through either path.
+// Headers only — never build an intermediate Request here: that locks the original body stream
+// and breaks the second construction for POSTs (observed as Worker error 1101 on /mcp).
+function storeDsnHeaders(request: Request, env: Env): Headers {
   const headers = new Headers(request.headers);
+  headers.set("x-user-store-dsn", env.USER_STORE_URL ?? "");
+  return headers;
+}
+
+// Forward to the container. The client's own credential travels with the request when it is a
+// per-user key (the container resolves it against the account store); otherwise the library key
+// is injected and the client's credentials are dropped.
+function toContainer(request: Request, env: Env): Promise<Response> {
+  const headers = storeDsnHeaders(request, env);
+  const given = request.headers.get("x-api-key") || request.headers.get("authorization", "")?.replace(/^Bearer /, "") || "";
   headers.delete("authorization");
-  headers.set("x-api-key", env.LIBRARY_API_KEY);
+  if (!given.startsWith("hlt_")) {
+    headers.delete("x-api-key");
+    headers.set("x-api-key", env.LIBRARY_API_KEY);
+  }
   return getContainer(env.LIBRARY, "main").fetch(new Request(request, { headers }));
 }
 
@@ -138,11 +158,11 @@ export default {
     }
     if (url.pathname === "/api/openapi.json") {
       // The schema holds no data; tools such as ChatGPT Actions import it before they have a key.
-      return getContainer(env.LIBRARY, "main").fetch(request);
+      return getContainer(env.LIBRARY, "main").fetch(new Request(request, { headers: storeDsnHeaders(request, env) }));
     }
     // the web UI authenticates with a session cookie derived from the library key, so the edge
     // must NOT require or inject the API key on these paths
-    if (isUi(url.pathname)) return getContainer(env.LIBRARY, "main").fetch(request);
+    if (isUi(url.pathname)) return getContainer(env.LIBRARY, "main").fetch(new Request(request, { headers: storeDsnHeaders(request, env) }));
     const apiKey = request.headers.get("x-api-key");
     const bearer = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
     if (apiKey !== null || url.pathname.startsWith("/api/")) {

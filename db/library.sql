@@ -25,5 +25,15 @@ CREATE TABLE IF NOT EXISTS library.event (
   ip     text NOT NULL DEFAULT ''
 );
 
+CREATE TABLE IF NOT EXISTS library.api_key (
+  id         integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  key_hash   text NOT NULL UNIQUE,     -- sha256 hex of the raw key; the raw key is never stored
+  prefix     text NOT NULL,            -- display prefix, e.g. hlt_ab12
+  email      text NOT NULL REFERENCES library.account (email) ON DELETE CASCADE,
+  label      text NOT NULL DEFAULT '',
+  created_at timestamptz NOT NULL DEFAULT now(),
+  last_used  timestamptz
+);
+
 CREATE INDEX IF NOT EXISTS library_event_ts_idx ON library.event (ts DESC);
 CREATE INDEX IF NOT EXISTS library_event_kind_ts_idx ON library.event (kind, ts DESC);
