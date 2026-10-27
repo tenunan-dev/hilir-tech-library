@@ -8,7 +8,7 @@ reuse_level: "full-text-restricted"
 permitted_use: "unstated"
 sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
-sha256: "400f9199c1d905cedad974165d7163b8c105a75567915df0d7ff90ac12728493"
+sha256: "de4b35e0688cf1551aa7b5069214c9de6b5e0d00da1d32b188e476cf8919673e"
 collected: "manual"
 use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 summary: "Open-access machine-learning paper using a physics-informed neural operator with coarse-grid refinement (PINO-CCR) for Norne field history matching: a surrogate trained in about 5 hours on one GPU reproduces black-oil simulator outputs for ensemble-based uncertainty quantification."
@@ -192,9 +192,9 @@ Our simplified Black oil model for three-phase flow in porous media for reservoi
 ϕ ∂So
 ∂t − ∇ · [To (∇Po + ρogk)] =Qo (1b)
 ∇ ·
- ρg
+  ρg
 Bg
-Tg (∇Pg + ρggk) +RsoρgBo To (∇Po + ρogk) − Qg = − ∂∂t ϕ  ρgBg Sg + RsoρgBo So (1c)
+Tg (∇Pg + ρggk) +RsoρgBo To (∇Po + ρogk)  − Qg = − ∂∂t  ϕ   ρgBg Sg + RsoρgBo So   (1c)
 subscript w = water,o = oil,g = gas. The system is closed by adding three additional equations Pcwo = Po − Pw;Pcog =
 Pg −Po;Sw +So +Sg = 1. Gravity effects are considered by the terms ρwgk and ρogk. Ω ⊂ Rn (n = 2,3) is the modeling
 domain with boundary ∂ Ω, and [0,t f ] is the time interval for which production data is available. ϕ(x) = porosity,
@@ -206,9 +206,9 @@ T = FT M · (Tw + To + Tg) (3a)
 ϕ ∂Sw
 ∂t − ∇ · [Tw (∇P)] =Qw (3c)
 ∇ ·
- ρg
+  ρg
 Bg
-Tg (∇P) +RsoρgBo To (∇P) − Qg = − ∂∂t ϕ  ρgBg Sg + RsoρgBo So (3d)
+Tg (∇P) +RsoρgBo To (∇P)  − Qg = − ∂∂t  ϕ   ρgBg Sg + RsoρgBo So   (3d)
 Boundary and initial conditions are given as Sw(x,0) =S0w(x);P(x,0) =P0w(x); ∇p · ν = 0. ν = outward unit normal to
 ∂ Ω. The overall elliptical-hyperbolic coupled PDE equations to solve are equations 3b, 3c, and 3d.
 2.1 Surrogate forward modeling with a Fourier Neural operator ( FNO) - Contribution
@@ -261,13 +261,13 @@ rate), dt is the time stepping, Pini is the initial pressure of the reservoir, a
 reservoir.P is the pressure, and Sw is the water saturation and Sg is the gas saturation f1(X; θp) is the FNO model for the
 pressure output, f2(X; θs) is the FNO model for the water saturation output, and f3(X; θs) is the FNO model for the gas
 saturation output The physics loss ansatz is then,
-V (Q, p;T )pressure equation = 1ns  ∥ (− ∇ . [T ∇P] − Q) .act∥22 (5a)
+V (Q, p;T )pressure equation = 1ns   ∥ (− ∇ . [T ∇P] − Q) .act∥22  (5a)
 V (p,Sw;t,Tw)water equation = 1ns
 
 
 
 
-ϕ ∂Sw∂t − ∇ . [Tw.FT M. (∇P)] − Qw .act 
+  ϕ ∂Sw∂t − ∇ . [Tw.FT M. (∇P)]  − Qw  .act 
 
 
 
@@ -279,7 +279,7 @@ ns
 
 
 
-∇ ·  ρgBg Tg · FTM(∇P) +RsoρgBo To · FTM(∇P) − Qg + ∂∂t ϕ  ρgBg Sg + RsoρgBo So · act
+∇ ·   ρgBg Tg · FTM(∇P) +RsoρgBo To · FTM(∇P)  − Qg + ∂∂t  ϕ   ρgBg Sg + RsoρgBo So  · act 
 
 
 
@@ -334,13 +334,13 @@ V (Y1p,Y1s,Y1g;t,To,Tg)1g = 1ns ·
 
 
 
-∇ ·  ρgBg · Tg · XN1[act] · XN1[FT M] · ∇Y1p
+∇ ·   ρgBg · Tg · XN1[act] · XN1[FT M] · ∇Y1p
 + Rso · ρg
 Bo
 · To · XN1[act] · XN1[FT M] · ∇Y0p
-
+ 
 − XN0[Qg]
-+ ∂∂t ϕ ·  ρgBg ·Y1g + Rso · ρgBo · (1 − (Y1s +Y1g))
++ ∂∂t  ϕ ·   ρgBg ·Y1g + Rso · ρgBo · (1 − (Y1s +Y1g))  
 
 
 
@@ -405,7 +405,7 @@ A random variable Y ∈ L 1(Ω,GGG, P; Rn) is called the conditional expectatio
 the partial σ-algebra GGG if RG X(ω)dP(ω) =RGY (ω)dP(ω) for all G ∈ GGG, then define the expectation E(X|GGG) := Y .
 The conditional probability of an event A ∈ F given the sub-σ-algebra GGG is a conditional expectation of the form
 E( f (x),GGG) where P(A|GGG) =E(111A(X)|GGG) and 111A(X) :=
-
+ 
 1 if x ∈ A
 0 if x < A is the indicator function of a subset A of a set X.
 The cost functional for the history matching inverse problem is posed as [4, 1, 11, 63, 12, 41].
@@ -420,8 +420,8 @@ Where ∥.∥ represents the M dimensional Euclidean Norm. G : Rd → Rk represe
 the forward problem and defines the relationship between unknown parameters u ∈ Rd , y ∈ Rk is the corrupted noisy
 (or noiseless in rare cases) true data given by.
 y = F
- 
-K+, φ + + η (7c)
+ 
+K+, φ +  + η (7c)
 where K+, φ + is the underlining unknown true model (we want to recover) and η∼N (0, Γ) . Γ ∈ Rk×k is the data
 noise covariance matrix with Lebesgue density ρ(η). The unknown u follows a prior distribution µ0 with Lebesgue
 density ρ0(u). This prior density ρ0(u) contains any information that we already know about u; a good prior is key to
@@ -444,13 +444,13 @@ dµy
 dµ0 (u) =1Z exp(−Φ(u;y)), where Z = RRk exp(−Φ(u;y))µ0(du), and µy and µ0 are measures on Rk with densitiesπ and ρ0 respectively, which shows the posterior is absolutely continuous with respect to the prior density and the
 Radon-Nikodym derivative dµydµ0 (u) is proportional to the likelihood. Using the Sherman -Morrison-Woodbury Lemma
 [26], we arrive at the VanillaEnsemble Kalman Inversion (EKI),
-u( j)n+1 = u( j)n +CuGn  CGGn + αnΓ−1(y + √αξn − G(u( j)n )) (8a)
+u( j)n+1 = u( j)n +CuGn  CGGn + αnΓ −1(y + √αξn − G(u( j)n )) (8a)
 n is the iteration index, j is the ensemble member (columns in the matrix) in the ensemble size J. αn is a (crucial)
 regularisation dampener, CuGn and CGGn are cross-covariance matrixes to be explained shortly, ξ ∼N(0,1).
-CGGn = 1j − 1 J∑j=1 G u( j)n  − G u( j)n  ⊗ G u( j)n  − G u( j)n  (8b)
+CGGn = 1j − 1 J∑j=1  G  u( j)n   − G  u( j)n    ⊗  G  u( j)n   − G  u( j)n    (8b)
 7
 
-CuGn = 1j − 1 J∑j=1 u( j)n  − u( j)n  ⊗ G u( j)n  − G u( j)n  (8c)
+CuGn = 1j − 1 J∑j=1   u( j)n   −  u( j)n    ⊗  G  u( j)n   − G  u( j)n    (8c)
 In the developed aREKI method, the dampening parameter α is developed via the discrepancy principle [5, 4] in
 Algorithm 2. Covariance localization means localising the effect of an observation to the state variables that are ‘closer’
 Algorithm 2 aREKI
@@ -463,10 +463,10 @@ u( j)0 oJj=1 ▷ prior density
 1: Initialize: sn = 0, n = 0
 2: while (sn < 1) or (n ≤ iter) do
 3: Compute: G
-
-u( j)n  , j ∈ {1, . . . ,J}
+ 
+u( j)n   , j ∈ {1, . . . ,J}
 4: Compute: Φn ≡
-
+ 
 1
 2
 
@@ -477,7 +477,7 @@ u( j)n  , j ∈ {1, . . . ,J}
 
 2
 2
-J
+ J
 j=1
 5: Compute: Φn, σ 2Φn ▷ mean & variance
 6: Compute: αn = 1
@@ -495,14 +495,14 @@ L(y)
 )
 7: Compute: sn = sn + 1αn
 8: Compute: CGGn = 1j−1 ∑Jj=1
-
+ 
 G
-
-u( j)n  − G u( j)n  ⊗ G u( j)n  − G u( j)n 
+ 
+u( j)n   − G  u( j)n    ⊗  G  u( j)n   − G  u( j)n   
 9: Compute: CuGn = 1j−1 ∑Jj=1
-
-u( j)n  − u( j)n  ⊗ G u( j)n  − G u( j)n 
-10: Update ensemble: u( j)n+1 = u( j)n +CuGn  CGGn + αnΓ−1 y + √αnξn − G u( j)n 
+  
+u( j)n   −  u( j)n    ⊗  G  u( j)n   − G  u( j)n   
+10: Update ensemble: u( j)n+1 = u( j)n +CuGn  CGGn + αnΓ −1  y + √αnξn − G  u( j)n   
 11: Increment: n ← n + 1
 12: end while
 13: Output:: u( j) ▷ posterior density
@@ -529,61 +529,61 @@ to be the compactly supported fifth order piecewise rational function defined by
 
 
 − 14
-
+ 
 |z|
 c
-5
+ 5
 + 12
-
+ 
 |z|
 c
-4
+ 4
 + 58
-
+ 
 |z|
 c
-3
+ 3
 − 53
-
+ 
 |z|
 c
-2
+ 2
 +1, 0≤ |z| ≤c,
 1
 12
-
+ 
 |z|
 c
-5
+ 5
 − 12
-
+ 
 |z|
 c
-4
+ 4
 + 58
-
+ 
 |z|
 c
-3
+ 3
 + 53
-
+ 
 |z|
 c
-2
+ 2
 −5
-
+ 
 |z|
 c
-
+ 
 +4− 23
-
+ 
 |z|
 c
-
+ 
 , c≤ |z| ≤2c,
 0, 2c≤ |z| .
 (9a)
-u( j)n+1 = u( j)n + ρ · o ·CuGn  CGGn + αnΓ−1 y + √αnξn − G u( j)n  , j ∈ {1, . . . ,J} (9b)
+u( j)n+1 = u( j)n + ρ · o ·CuGn  CGGn + αnΓ −1  y + √αnξn − G  u( j)n    , j ∈ {1, . . . ,J} (9b)
 8
 
 4 Mixture of experts.
@@ -645,30 +645,30 @@ A critique of this method is that it re-uses the data in each phase. A Bayesian 
 elegantly. Recall,
 DDD = {(xi,yi)}Ni=1 (12a)
 Assume parametric models for the classifier gl (.; θc) =gl
- 
-.; θ lc and the regressor. fr  .,l; θ lr  for l = 1, . . .L where
+ 
+.; θ lc  and the regressor. fr  .,l; θ lr   for l = 1, . . .L where
 θc =
- 
-θ 1c , . . . ,θ Lc  and θr =  θ 1r , . . . ,θ Lr  and let θ = (θc, θr), the posterior density has the form,
+ 
+θ 1c , . . . ,θ Lc   and θr =  θ 1r , . . . ,θ Lr   and let θ = (θc, θr), the posterior density has the form,
 π (θ ,l | D) ∝
 N
 ∏
 i=1
 π (yi | xi, θr,l)π (l | xi, θc) π (θr) π (θc) (12b)
 π (yi | xi, θr,l) ∝ exp
-
-−12 yi − fr xi,l; θ lr 2 (12c)
+ 
+−12    yi − fr  xi,l; θ lr     2  (12c)
 And
 π (l | xi, θc) =gl (xi; θc) (12d)
 gl (xi; θc) = exp
- 
+ 
 hl
- 
-x; θ lc
+ 
+x; θ lc  
 ∑Ll=1 exp(hl (x; θ lc)) (12e)
 hl
- 
-x; θ lc are some standard parametric regressors.
+ 
+x; θ lc  are some standard parametric regressors.
 4.1 Sparse Gaussian process experts
 Mixtures of GP experts have proven to be very successful [20, 47, 57, 10, 13]. In particular, they overcome limitations of
 stationary Gaussian process models by reducing the computational complexity through local approximations and allow
@@ -686,8 +686,8 @@ L
 ∑
 l=1
 log
-
-N(yl | µµµl, KlNl + σ 2lr INl ) , (12f)
+ 
+N(yl | µµµl, KlNl + σ 2lr INl )  , (12f)
 where yl and xl contain the outputs and inputs of the lth cluster, i.e. yl = {yi}zi=l and xl = {xi}zi=l; µµµl is a vector with
 entries µl; KlNl represents the Nl × Nl matrix obtained by evaluating the covariance function Kψl at each pair of inputs
 in the lth cluster; and Nl is number data points in the lth cluster. This however requires inversion ofNl × Nl matrices,
@@ -714,8 +714,8 @@ L
 ∑
 l=1
 log
-
-N (yl | µµµl, (KlMlNl )T (KlMl )−1KlMlNl + ΛΛΛl + σ 2lr INl ) , (12h)
+ 
+N (yl | µµµl, (KlMlNl )T (KlMl )−1KlMlNl + ΛΛΛl + σ 2lr INl )  , (12h)
 where KlMlNl is the Ml × Nl matrix with columns klMl ,i and ΛΛΛl is the diagonal matrix with diagonal entries Kψl (xi,xi) −
 (klMl ,i)T (KlMl )−1klMl ,i. This strategy allows us to reduce the complexity to O(∑Ll=1 NlM2l ).
 5 Generative priors and Tree based learning
@@ -853,9 +853,9 @@ L (t) ≈
 n
 ∑
 i=1
-
+ 
 gi ft (xi) +12hi ft (xi)2
-
+ 
 + Ω( ft ) (17d)
 where:
 • gi = ∂l(yi, ˆyi)∂ ˆyi is the first derivative of the loss function.
@@ -921,10 +921,10 @@ to get predicted well data of wopr, wwpr, wgpr(well oil/water and gas production
 well model is described in Eqn.18a
 Q = 2πKkrh(Pavg − Pwf)
 µBln
-
+ 
 re
 rw
-
+ 
 + s
 (18a)
 Where:
@@ -1030,9 +1030,9 @@ Nz ∑Nzk=1 f2(X1, θs)ipe fn, jpe fn,k,
 1
 Nz ∑Nzk=1 f3(X1, θg)ipe fn, jpe fn,k,
 1 −
-
+ 
 1
-Nz ∑Nzk=1 f2(X1, θs)ipe fn, jpe fn,k + 1Nz ∑Nzk=1 f3(X1, θg)ipe fn, jpe fn,k
+Nz ∑Nzk=1 f2(X1, θs)ipe fn, jpe fn,k + 1Nz ∑Nzk=1 f3(X1, θg)ipe fn, jpe fn,k 
 
 
 3: Compute: Yout = fccr(X1; θccr) ∈ RB1×T ×3Npr ▷ wopr, wwpr, wgpr
@@ -1056,10 +1056,10 @@ Require: • X0 = {K,FT M, ϕ,Pini,Sini} ∈RB1×1×D×W ×H ▷ Initial ensembl
 1: Initialize: sn = 0, n = 0
 2: while (sn < 1) and (n ≤ iter) do
 3: Construct X ( j)n = {K( j)n ,FT M( j)n ϕ ( j)n ,Pini,Sini} ▷ tensor ensemble
-4: Compute predictions: G(X ( j)n ) =fccr X ( j)n , f1(:, θp), f2(:, θs), f3(:, θg); θccr for j = 1, . . . ,J ▷ Refer to Algorithm 6
+4: Compute predictions: G(X ( j)n ) =fccr  X ( j)n , f1(:, θp), f2(:, θs), f3(:, θg); θccr  for j = 1, . . . ,J ▷ Refer to Algorithm 6
 5: Encode Kn to get latent variables: uxn, µn, σn = Encoderφ (Kn) ▷ Refer to Algorithm 5.1.1
 6: Compute residuals: Φn ≡
-
+ 
 1
 2
 
@@ -1068,20 +1068,20 @@ Require: • X0 = {K,FT M, ϕ,Pini,Sini} ∈RB1×1×D×W ×H ▷ Initial ensembl
 Γ− 12 (y − G(X ( j)n ))
 
 
-22Jj=1
+22 Jj=1
 7: Compute mean and variance of residuals: Φn, σ 2Φn
 8: Adjust step size: αn = 1
 min
-
+ 
 max
-
+ 
 L(y)
 2Φn ,
 r L(y)
 2σ2Φn
-
+ 
 ,1−sn
-
+ 
 9: Update accumulated step: sn = sn + 1αn
 10: Construct the parameters to recover u( j)n =
 
@@ -1095,23 +1095,23 @@ j
 .
 11: Compute cross-covariance matrices:
 12: CGGn = 1J−1 ∑Jj=1
-
+ 
 G(X ( j)n ) − G(X ( j)n )
-
+ 
 ⊗
-
+ 
 G(X ( j)n ) − G(X ( j)n )
-
+ 
 13: CuGn = 1J−1 ∑Jj=1
-
+ 
 u( j)n − u( j)n
-
+ 
 ⊗
-
+ 
 G(X ( j)n ) − G(X ( j)n )
-
+ 
 14: Update ensemble:
-15: u( j)n+1 = u( j)n +CuGn  CGGn + αnΓ−1 (y + √αnξn − G(X ( j)n ))16: for t = 1 to T do
+15: u( j)n+1 = u( j)n +CuGn  CGGn + αnΓ −1 (y + √αnξn − G(X ( j)n ))16: for t = 1 to T do
 17: ˆ u( j)x,t−1 = fθ (u( j)x,t ,t) ▷ Refer to Algorithm 5, where fθ is the denoising DDIM function
 18: u( j)x,t = ˆu( j)x,t−1
 19: if t == T then

@@ -8,7 +8,7 @@ reuse_level: "full-text-open"
 permitted_use: "any"
 sectors: ["UPS", "REF", "GAS"]
 disciplines: ["PRC"]
-sha256: "11f45fbda6bf31d18bfdfca4a135527840860ac865ac1f8fdf9543e5db87360b"
+sha256: "44c9109c0b4ba9dca54600b778d5bd6a9583402e8abf0e1535bf6795d75e31eb"
 collected: "manual"
 summary: "LEMIGAS SCOG review of microemulsion and surfactant flooding mechanisms: ultralow oil-water interfacial tension overcoming pore-throat capillary pressure, with optimum salinity governing Winsor-type phase behaviour."
 ---
@@ -139,8 +139,8 @@ magnitude that has been proved to be effective to
 reduce the remaining oil in the reservoir (Subhash 
 & Dandina 2004; Spildo et al. 2012), and well 
 represented by as:
-
-ܿܰ ൌ  Ɋߛݒ (                                                         1)
+ 
+ܿܰ ൌ   Ɋߛݒ  (                                                         1)
 where μ is the dynamic viscosity of the liquid, υ is 
 the velocity, and γ is the IFT between oil and water 
 phases.
@@ -182,7 +182,7 @@ calculated by:
 ܨோ ൌ
 ்యబబି்మఱబ
 ்భబబି்ఱబ
-                                          (2)
+                                            (2)
 where T x is the time to collect x ml of polymer 
 mixture.
 C. Core Flooding Experiment
@@ -219,31 +219,31 @@ the experiments, the pressure drop, oil production
 and total ﬂ uid production were recorded timely in 
 order to calculate the incremental oil recovery and 
 water cut of ﬂ ooding precisely.
-
-3K\VLFDO3URSHUWLHV 0LQHUDORJ\
-'LDPHWHU
-FP
-/HQJWK
-FP
-3RURVLW\
- 3HUPHDELOLW\P'
-3RUH
-9ROXPH
-FF
-4XDUW]
-ZHLJKW
-
-&OD\
-ZHLJKW
-
-)HOGVSDU
-ZHLJKW
-
-&DUERQDWH
-ZHLJKW
-
-        
-
+ 
+3K\VLFDO 3URSHUWLHV  0LQHUDORJ\ 
+'LDPHWHU 
+FP 
+/HQJWK 
+FP 
+3RURVLW\ 
+   3HUPHDELOLW\P' 
+3RUH 
+9ROXPH 
+FF 
+4XDUW] 
+ZHLJKW 
+  
+&OD\ 
+ZHLJKW 
+  
+)HOGVSDU 
+ZHLJKW  
+  
+&DUERQDWH 
+ZHLJKW     
+  
+                                                      
+ 
 Table 1
 Physical properties and mineralogical compositions of bentheimer core
 Figure 1
@@ -379,25 +379,25 @@ brines were injected followed by 2.0 PV chasing
 water, resulting the additional oil recovery of oil 
 over water ﬂ ooding is in the range of 22.63 until 
 22.87% of OOIP (Kumar et al. 2012). Whereas in 
-
-
-
-
-
-
-
-
-
-
-
-     
-2LO5HFRYHU\
-)OXLG,QMHFWLRQ39
-:DWHU)ORRG
-$63)ORRG
-3RO\PHU)ORRG
-$63,QMHFWLRQ
-5) 6RU
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+                             
+2LO 5HFRYHU\    
+)OXLG ,QMHFWLRQ  39 
+:DWHU )ORRG
+$63 )ORRG
+3RO\PHU )ORRG
+$63 ,QMHFWLRQ
+5)           6RU
 Figure 4
 Cumulative total oil recovery in secondary (water ﬂ ooding) and tertiary
 (microemulsion and polymer ﬂ ooding) recoveries. 
