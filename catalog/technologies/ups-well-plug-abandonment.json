@@ -117,27 +117,27 @@
     {
       "metric": "estimated cost of abandoning directional well H-11 by SNI 13-6910-2002",
       "unit": "USD",
-      "basis": "rig method, onshore Tambun field, Indonesia; design estimate; currency year not stated, publication year used",
+      "basis": "rig method, onshore Tambun field, Indonesia; design estimate, calculated in 2026 using the SNI 13-6910-2002 method (\"Based on calculations in 2026 ... the estimated cost for the H-11 well is USD 179,276.30\"); the paper separately projects USD 505,737.59 for 2066",
       "source": {
         "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2141",
         "source_id": "lemigas-scog",
         "note": "Yusgiantoro et al., Determination of an Appropriate Method and Economic Cost Estimation for Plug and Abandonment of H-11 Well in the Tambun Field, SCOG 49(3): 153-170, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
       },
-      "low": 505737.59,
-      "high": 505737.59,
+      "low": 179276.3,
+      "high": 179276.3,
       "year": 2026
     },
     {
       "metric": "estimated cost of abandoning the same well by NORSOK D-010",
       "unit": "USD",
-      "basis": "same well and method; the authors recommend SNI on technical, safety, regulatory and cost grounds",
+      "basis": "rig method, onshore Tambun field, Indonesia; design estimate, calculated in 2026 using the NORSOK D-010 method (\"using the NORSOK Standard D-010 method, the cost is USD 414,945.09\"); the paper separately projects USD 1,170,558.11 for 2066",
       "source": {
         "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2141",
         "source_id": "lemigas-scog",
         "note": "Yusgiantoro et al., Determination of an Appropriate Method and Economic Cost Estimation for Plug and Abandonment of H-11 Well in the Tambun Field, SCOG 49(3): 153-170, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
       },
-      "low": 1170558.11,
-      "high": 1170558.11,
+      "low": 414945.09,
+      "high": 414945.09,
       "year": 2026
     },
     {
@@ -203,7 +203,7 @@
       "field": "costs",
       "item": "average P&A cost per well offshore Southeast Asia and per well in the UKCS",
       "reason_code": "not_in_sources_read",
-      "reason": "The NSTA report read gives totals and spend, not a clear cost per well; the LEMIGAS figure is one onshore well. UKCS per-well spend and an operator per-well saving have been added from the NSTA 2026 update; a Southeast Asia per-well average is still not in the sources read.",
+      "reason": "The NSTA report read gives totals and spend, not a clear cost per well; the LEMIGAS figure is one onshore well. UKCS per-well spend and an operator per-well saving have been added from the NSTA 2026 update; a Southeast Asia per-well average is still not in the sources read. Searched LEMIGAS SCOG corpus for per well, average, offshore, benchmark; the H-11 paper is a single onshore well and names no Southeast Asia offshore average; note its USD 505,737.59 / 1,170,558.11 figures are projected 2066 values, the 2026 calculations are USD 179,276.30 / 414,945.09; 2026-10-28",
       "where": [
         {
           "hint": "NSTA decommissioning benchmarking report (appendices); SKK Migas decommissioning guidance",
@@ -217,7 +217,7 @@
       "field": "process",
       "item": "process steps are general practice, not taken from one source",
       "reason_code": "general_knowledge_only",
-      "reason": "Only the barrier layout in the LEMIGAS paper was read; the sequence of steps is general knowledge.",
+      "reason": "Only the barrier layout in the LEMIGAS paper was read; the sequence of steps is general knowledge. Searched LEMIGAS SCOG corpus for procedure, sequence, steps; the H-11 paper describes only cement barrier plug placement (SNI and NORSOK layouts, balanced plug method), not the full kill-to-site-restoration sequence; 2026-10-28",
       "where": [
         {
           "hint": "SKK Migas Work Procedure Guideline 040/PTK/SKKIA0000/2023/S9 Rev.02 and NORSOK D-010",

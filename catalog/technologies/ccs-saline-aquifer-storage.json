@@ -133,6 +133,32 @@
       "low": 1600,
       "high": 1900,
       "year": 2026
+    },
+    {
+      "metric": "net reservoir permeability of the Upper Baturaja interval, Kandanghaur-Gantar High (well-log derived)",
+      "unit": "mD",
+      "basis": "Pertamina EP internal petrophysical analysis of more than 40 wells gave 50-70 mD with 14-17% effective porosity; Table 3 screening lists 20-60 mD within Net Reservoir; measured well data, not an injectivity test",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+        "source_id": "lemigas-scog",
+        "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0), section 3.3 and Table 3"
+      },
+      "low": 20,
+      "high": 70,
+      "year": 2026
+    },
+    {
+      "metric": "theoretical volumetric CO2 storage capacity across Kandanghaur-Gantar High fields (screening)",
+      "unit": "million tonnes CO2",
+      "basis": "volumetric MCO2/HCPV method; ABG field gas and oil columns 25.96 and 1.5 million tonnes at RF 60% and 10% and CO2 density 383.16 kg/m3; MCO2/HCPV 0.23 and 0.038 million tonnes per million m3 of hydrocarbon pore volume; classed theoretical on the techno-economic resource pyramid; Table 2 total 34.48 million tonnes",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+        "source_id": "lemigas-scog",
+        "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0), section 3.6 and Table 2"
+      },
+      "low": 34,
+      "high": 34.5,
+      "year": 2026
     }
   ],
   "trl": {
@@ -168,7 +194,7 @@
       "field": "reference_plants",
       "item": "operating saline aquifer storage projects (for example Sleipner, Northern Lights) with injection rates and start years",
       "reason_code": "not_in_sources_read",
-      "reason": "The register names them but no source read describes them.",
+      "reason": "The register names them but no source read describes them. Searched LEMIGAS SCOG corpus for Sleipner, Northern Lights, injection rate, start year; the Baturaja feasibility paper names no operating storage project and gives no injection rates or start years, calling KGH only a viable pilot-scale candidate; 2026-10-28",
       "where": [
         {
           "hint": "Global CCS Institute facilities database and operator pages",
@@ -181,7 +207,7 @@
       "field": "costs",
       "item": "cost of transport and storage in USD per tonne CO2 with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read gives storage costs.",
+      "reason": "No source read gives storage costs. Searched LEMIGAS SCOG corpus for cost, USD, tonne, price; the Baturaja paper calls CO2 transport the most significant cost component in CO2 storage projects but states no USD per tonne figure; 2026-10-28",
       "where": [
         {
           "hint": "IEA CCUS reports (iea-reports corpus)",
@@ -200,7 +226,7 @@
       "field": "performance",
       "item": "measured field injectivity and storage efficiency",
       "reason_code": "not_in_sources_read",
-      "reason": "Only simulation results were read.",
+      "reason": "Only simulation results were read. Searched LEMIGAS SCOG corpus for injectivity, storage efficiency, permeability, capacity; the Baturaja screening adds measured petrophysics (50-70 mD from more than 40 wells) and a 34 Mt theoretical volumetric capacity with MCO2/HCPV ratios, but no injectivity test or storage-efficiency factor; 2026-10-28",
       "where": [
         {
           "hint": "Operator monitoring reports",
@@ -237,5 +263,5 @@
       "note": "IEA ETP Clean Energy Technology Guide, July 2026"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

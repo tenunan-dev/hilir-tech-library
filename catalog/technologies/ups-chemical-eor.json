@@ -147,6 +147,45 @@
       "low": 0.521,
       "high": 0.521,
       "year": 2026
+    },
+    {
+      "metric": "incremental recovery after 0.35 PV HPAM polymer slug following waterflood, light-oil coreflood",
+      "unit": "% OOIP incremental over waterflood",
+      "basis": "HPAM 500-1,500 ppm (1,000 ppm recommended) in brine of roughly 2,800 ppm salinity at 70 C; waterflood alone 38.7% OOIP; about 22% of residual oil in place; 500 ppm avoided plugging (FR 1.1, RRF near 1); laboratory coreflood only",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/download/1181/964",
+        "source_id": "lemigas-scog",
+        "note": "Saputra et al., Investigation of Polymer Flood Performance in Light Oil Reservoir: Laboratory Case Study, SCOG 45(2): 81-86, 2022 (LEMIGAS SCOG, CC BY-SA 4.0), Results and Conclusions"
+      },
+      "low": 13,
+      "high": 13.5,
+      "year": 2022
+    },
+    {
+      "metric": "oil recovery factor after 3-year waterflood plus 17-year polymer flood, Air Benakat formation model, South Sumatra (simulation)",
+      "unit": "% OOIP",
+      "basis": "CMG-STARS, 1,500 ppm polymer after 3 years of waterflooding; 59.86% homogeneous model, 45.83/69.27/80.46% for Lorenz coefficient 0.2/0.4/0.6; simulation only",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/download/1334/pdf",
+        "source_id": "lemigas-scog",
+        "note": "Ramadhan et al., Heterogeneity Effect on Polymer Injection: a Study of Sumatra Light Oil, SCOG 46(1): 45-58, 2023 (LEMIGAS SCOG, CC BY-SA 4.0), Effect on Oil Recovery Factor"
+      },
+      "low": 45.83,
+      "high": 80.46,
+      "year": 2023
+    },
+    {
+      "metric": "incremental recovery from microemulsion ASP plus polymer drive after waterflood, Bentheimer coreflood",
+      "unit": "% of initial oil saturation (Soi)",
+      "basis": "2% surfactant A + 0.85% Na2CO3 (ASP) with 2,200 ppm polymer; 0.15 PV ASP slug then 1.5 PV polymer drive at 85 C; waterflood alone 38.21% Soi, total 95.93% Soi, i.e. 93.41% of remaining oil; salinity conditioned by synthetic softened brine preflush; laboratory only",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/download/43/pdf",
+        "source_id": "lemigas-scog",
+        "note": "Alli et al., Microemulsion Flooding Mechanism for Optimum Oil Recovery on Chemical Injection, SCOG 40(2): 85-90, 2017 (LEMIGAS SCOG, CC BY-SA 4.0), Abstract and core flooding section"
+      },
+      "low": 57.71,
+      "high": 57.71,
+      "year": 2017
     }
   ],
   "suppliers": [
@@ -208,7 +247,7 @@
       "field": "costs",
       "item": "chemical cost per barrel of incremental oil and project capex, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read gives costs.",
+      "reason": "No source read gives costs. Searched LEMIGAS SCOG corpus for cost, USD, capex, price, economics across the four polymer/surfactant papers; they state no dollar cost per barrel of incremental oil or project capex, only qualitative remarks such as 1,500 ppm striking 'a fair compromise between ... lowering the cost of the polymer injection'; 2026-10-28",
       "where": [
         {
           "hint": "Open techno-economic papers (arXiv, LEMIGAS SCOG archive, Universitas Trisakti publications)",
@@ -243,6 +282,21 @@
       "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2096",
       "source_id": "lemigas-scog",
       "note": "Ginting et al., The Effect of MES-Ethanol Formulation in Enhancing Surfactant Flooding Efficiency, SCOG 49(2): 633-648, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/download/1181/964",
+      "source_id": "lemigas-scog",
+      "note": "Saputra et al., Investigation of Polymer Flood Performance in Light Oil Reservoir: Laboratory Case Study, SCOG 45(2): 81-86, 2022 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/download/1334/pdf",
+      "source_id": "lemigas-scog",
+      "note": "Ramadhan et al., Heterogeneity Effect on Polymer Injection: a Study of Sumatra Light Oil, SCOG 46(1): 45-58, 2023 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/download/43/pdf",
+      "source_id": "lemigas-scog",
+      "note": "Alli et al., Microemulsion Flooding Mechanism for Optimum Oil Recovery on Chemical Injection, SCOG 40(2): 85-90, 2017 (LEMIGAS SCOG, CC BY-SA 4.0)"
     }
   ],
   "last_reviewed": "2026-10-28"
