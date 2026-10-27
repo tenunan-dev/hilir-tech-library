@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.2] — 2026-10-27 — Scribd-hosted references collected (PDF + text layer)
+
+### Added
+- Six new sources for documents cited by the two SCOG vol. 49 no. 3 papers that are publicly reachable only as Scribd copies: SNI 13-6910-2002 (BSN drilling safety standard, 266 pp scan), NORSOK D-010 Rev. 4 Well Integrity Updates (14 pp, text layer), SKK Migas PTK-040/2023/S9 work procedure (41 pp scan), the Azeez 2019 TU Crete MSc thesis on torque and drag (73 pp, text layer), Eren, Caglayan & Kök 2017 (IJOGCT 16(3), text layer) and Samuel & Gao 2014 Horizontal Drilling Engineering (one-page anonymous preview only). Catalog is 354 sources.
+- Four of them carry text layers and entered the corpus as documents (172 total); all six PDFs (assembled from the viewable page images) plus their text-source HTML files live in `corpus/_inbox/<source-id>/` with `.url` sidecars. Scribd blocks plain HTTP clients (JavaScript challenge) and premium-gates downloads, so everything came in through the browser + manual-inbox path with `automated_access: prohibited` recorded from the Global Terms of Use.
+
 ## [2026.10.27.1] — 2026-10-27 — named accounts for the web UI; deployed to techlib.hilir.app
 
 ### Changed

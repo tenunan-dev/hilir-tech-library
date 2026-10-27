@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-71 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+74 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -10,6 +10,7 @@
 | [Malaysian Standards (Department of Standards Malaysia)](https://www.jsm.gov.my/) | standards-body | apac, sea | paywalled | catalog-only (unverified) |
 | [NOPSEMA offshore safety regulator](https://www.nopsema.gov.au/) | agency-data | apac | open | full-text-restricted |
 | [OISD Oil Industry Safety Directorate standards](https://www.oisd.gov.in/) | standards-body | apac | mixed | catalog-only (unverified) |
+| [SNI 13-6910-2002 Safe Onshore and Offshore Drilling Operations (BSN)](https://id.scribd.com/document/1031759154/SNI-13-6910-2002) | standards-body | sea | mixed | full-text-restricted |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
@@ -23,6 +24,7 @@
 | [Methanol Institute](https://www.methanol.org/) | association | global, apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
+| [SKK Migas Work Procedure Guidelines PTK-040/PTK/SKKIA0000/2023/S9 Rev.02](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [Malaysian Petrochemicals Association](https://www.mpa.org.my/) | association | sea | open | summary-only (unverified) |
 | [AIChE Center for Chemical Process Safety (CCPS)](https://www.aiche.org/ccps) | association | global | mixed | catalog-only (unverified) |
@@ -45,6 +47,7 @@
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Loss Prevention in the Process Industries](https://www.sciencedirect.com/journal/journal-of-loss-prevention-in-the-process-industries) | journal | global | mixed | catalog-only (unverified) |
 | [NFPA Codes and Standards](https://www.nfpa.org/codes-and-standards) | standards-body | global, na | mixed | catalog-only (unverified) |
+| [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [Process Safety Progress](https://aiche.onlinelibrary.wiley.com/journal/15475913) | journal | global | mixed | catalog-only (unverified) |

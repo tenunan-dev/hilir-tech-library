@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-177 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+183 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -22,6 +22,7 @@
 | [Petroleum Science (KeAi, open access)](https://www.keaipublishing.com/en/journals/petroleum-science/) | journal | apac, global | open | full-text-restricted |
 | [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted |
 | [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
+| [SNI 13-6910-2002 Safe Onshore and Offshore Drilling Operations (BSN)](https://id.scribd.com/document/1031759154/SNI-13-6910-2002) | standards-body | sea | mixed | full-text-restricted |
 | [SNI Indonesian National Standards (BSN)](https://bsn.go.id/) | standards-body | apac, sea | mixed | catalog-only (unverified) |
 | [SPE Asia Pacific Oil & Gas Conference (APOGCE)](https://www.spe.org/events/en/) | conference | apac | mixed | catalog-only (unverified) |
 | [Standardization Administration of China (GB standards)](https://www.sac.gov.cn/) | standards-body | apac | mixed | catalog-only (unverified) |
@@ -53,6 +54,7 @@
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
+| [SKK Migas Work Procedure Guidelines PTK-040/PTK/SKKIA0000/2023/S9 Rev.02](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
@@ -95,6 +97,7 @@
 | [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted |
 | [Materials (MDPI)](https://www.mdpi.com/journal/materials) | journal | global | open | full-text-open |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
+| [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
@@ -103,6 +106,7 @@
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [SPE Journal](https://onepetro.org/SJ) | journal | global | paywalled | catalog-only (unverified) |
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
+| [Torque and Drag Field Applications in Horizontal Wells (IJOGCT 16(3), 2017)](https://id.scribd.com/document/604239685/Torque-and-drag-field-applications-in-horizontal-wells) | journal | global | mixed | full-text-restricted |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [USGS Energy Resources Program](https://www.usgs.gov/programs/energy-resources-program) | agency-data | na, global | open | full-text-open |
@@ -130,6 +134,7 @@
 | [Halliburton](https://www.halliburton.com/) | oem-supplier | global | open | full-text-restricted |
 | [Heatric printed circuit heat exchangers](https://www.heatric.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
+| [Horizontal Drilling Engineering: Theory, Methods and Applications (Samuel & Gao, 2014)](https://id.scribd.com/document/241155713/Horizontal-Drilling-pdf) | association | global | mixed | full-text-restricted |
 | [IEA Global Methane Tracker](https://www.iea.org/reports/global-methane-tracker-2025) | agency-data | global | open | full-text-open |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
@@ -157,6 +162,7 @@
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [TechnipFMC](https://www.technipfmc.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
+| [Torque and Drag Analysis (MSc thesis, Technical University of Crete, 2019)](https://id.scribd.com/document/625547964/Azeez-Mustafa-MSc-2019-1) | research-institute | eu | mixed | full-text-restricted |
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
 | [UK DESNZ energy statistics and hydrogen/CCUS policy](https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero) | agency-data | eu | open | full-text-open |

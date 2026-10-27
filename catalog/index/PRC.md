@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-182 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+188 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -26,6 +26,7 @@
 | [Petroleum Science (KeAi, open access)](https://www.keaipublishing.com/en/journals/petroleum-science/) | journal | apac, global | open | full-text-restricted |
 | [Petrovietnam Journal](https://tapchidaukhi.vn/) | journal | sea | open | full-text-restricted |
 | [Scientific Contributions Oil and Gas (LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/SCOG) | journal | sea | open | full-text-open |
+| [SNI 13-6910-2002 Safe Onshore and Offshore Drilling Operations (BSN)](https://id.scribd.com/document/1031759154/SNI-13-6910-2002) | standards-body | sea | mixed | full-text-restricted |
 | [Universiti Teknologi PETRONAS (UTP) research](https://www.utp.edu.my/) | research-institute | sea | open | full-text-restricted |
 | [University of Queensland energy and CCS research](https://uq.edu.au/legal/copyright-privacy-disclaimer) | research-institute | apac | open | full-text-restricted |
 | [ARENA Australian Renewable Energy Agency knowledge bank](https://arena.gov.au/knowledge-bank/) | agency-data | apac | open | full-text-open |
@@ -53,6 +54,7 @@
 | [MyIPO Malaysia patent search](https://iponlineext.myipo.gov.my/) | patents | sea | open | full-text-open (unverified) |
 | [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
+| [SKK Migas Work Procedure Guidelines PTK-040/PTK/SKKIA0000/2023/S9 Rev.02](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
 | [Toyo Engineering](https://www.toyo-eng.com/jp/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
@@ -100,6 +102,7 @@
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
+| [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [OSTI.GOV DOE scientific and technical information](https://www.osti.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Pacific Northwest National Laboratory](https://www.pnnl.gov/) | research-institute | na | open | full-text-restricted |
@@ -109,6 +112,7 @@
 | [SPE Journal](https://onepetro.org/SJ) | journal | global | paywalled | catalog-only (unverified) |
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
 | [TNO energy and materials transition](https://www.tno.nl/en/sustainable/) | research-institute | eu | open | full-text-restricted |
+| [Torque and Drag Field Applications in Horizontal Wells (IJOGCT 16(3), 2017)](https://id.scribd.com/document/604239685/Torque-and-drag-field-applications-in-horizontal-wells) | journal | global | mixed | full-text-restricted |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted (unverified) |
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only (unverified) |
@@ -138,6 +142,7 @@
 | [Global CCS Institute CO2RE facilities database](https://www.globalccsinstitute.com/co2re/) | association | global | mixed | summary-only (unverified) |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |
+| [Horizontal Drilling Engineering: Theory, Methods and Applications (Samuel & Gao, 2014)](https://id.scribd.com/document/241155713/Horizontal-Drilling-pdf) | association | global | mixed | full-text-restricted |
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [IEA CCUS Projects Database](https://www.iea.org/data-and-statistics/data-product/ccus-projects-database) | agency-data | global | free-registration | full-text-restricted |
 | [IEA Hydrogen Production and Infrastructure Projects Database](https://www.iea.org/data-and-statistics/data-product/hydrogen-production-and-infrastructure-projects-database) | agency-data | global | free-registration | full-text-restricted |
@@ -165,6 +170,7 @@
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [thyssenkrupp Uhde](https://www.thyssenkrupp-uhde.com/) | licensor | global | open | full-text-restricted |
 | [Topsoe](https://www.topsoe.com/) | licensor | global | open | full-text-restricted |
+| [Torque and Drag Analysis (MSc thesis, Technical University of Crete, 2019)](https://id.scribd.com/document/625547964/Azeez-Mustafa-MSc-2019-1) | research-institute | eu | mixed | full-text-restricted |
 | [US DOE Alternative Fuels and Feedstocks Office (formerly Bioenergy Technologies Office)](https://www.energy.gov/eere/bioenergy/bioenergy-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US DOE Hydrogen and Fuel Cell Technologies Office](https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US DOE Office of Fossil Energy and Carbon Management](https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management) | agency-data | na, global | open | full-text-open |
