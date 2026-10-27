@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.9] — 2026-10-28 — gap-closure Waves 1–2 executed: 1,118 → 1,074 open gaps
+
+### Changed
+- 44 card gaps closed with quoted, corpus- or web-sourced figures: amine reboiler duty 2.4–2.7 GJ/t CO2 from the NETL Baseline stream tables, six operating BECCS plants from the Global CCS Institute 2026 status, UKCS P&A cost benchmarks (GBP 4.95m/well 2025) and named plug-technology suppliers, PEM stack lifetime settled at 40,000 h (newer DOE record resolves the conflicting-source gap), Kasawari CCS start-up conflict resolved (no injection yet; first injection targeted 2027), CCGT costs from AEO2026 (1,086 USD/kW single-shaft, 2025$), salt-cavern H2 storage costs (2.30 USD/kg levelized, 51m USD capex per cavern), CO2-EOR utilisation 0.3–0.6 t CO2/bbl, ATR-CCS reference plants and 2024 LCOH ranges from the IEA Global Hydrogen Review, TRL citations from the July 2026 ETP guide (depleted-field storage 8, CO2 compression/pipeline 9, CO2 shipping 7–8, instrumented air 9), LEMIGAS polymer-flood recovery figures, and eight dated status re-checks (Longlaville, Seville, Sukowati, Siluria OCM, Fram Sør, oxyfuel cement, PureCycle operating rate, e-cracking checked — nothing published). Kept gaps gained dated search-evidence clauses; the ETP guide's absence of upstream O&G rows and the abstract-only state of the arXiv and OSTI corpus files are recorded per gap.
+- Fixed wrong data on ups-well-plug-abandonment: the H-11 cost entries carried the paper's 2066 projections (USD 505,737.59 / 1,170,558.11); corrected to its 2026 calculations (USD 179,276.30 SNI / USD 414,945.09 NORSOK).
+
 ## [2026.10.27.8] — 2026-10-28 — per-user API keys; account page
 
 ### Added
