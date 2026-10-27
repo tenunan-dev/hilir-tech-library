@@ -21,7 +21,6 @@
   },
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Library"] }],
   "routes": [
-    { "pattern": "techlib.hilir.app", "custom_domain": true },
-    { "pattern": "techlibrary.tenunan.com", "custom_domain": true }
+    { "pattern": "techlib.hilir.app", "custom_domain": true }
   ]
 }

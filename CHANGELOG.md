@@ -9,6 +9,9 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 
 ## [2026.10.27.1] — 2026-10-27 — named accounts for the web UI; deployed to techlib.hilir.app
 
+### Changed
+- Old domain retired on the owner's decision: `techlibrary.tenunan.com` removed from the Worker's custom domains and DNS (version `948621c4`); **https://techlib.hilir.app is the only home, including /mcp**. Old links no longer resolve.
+
 ### Added
 - Multiple-user sign-in: `/login` accepts an email + password in addition to the library API key. Accounts live in the optional `LIBRARY_USERS` secret as `email|name|scrypt-hash` entries (created with `python agent/users.py entry`); password hashes are salted scrypt, never stored or committed. Account sessions are stateless signed cookies (`v2|payload|hmac`, 30 days) so revocation is just removing the entry from the secret; the key path is unchanged for agents and the owner. Failed sign-ins sleep 0.5 s.
 - Deploy `d8f51240`: the vendor layer, graph network, atlas and database tabs went live on https://techlib.hilir.app on the owner's request (2026-10-26.5 features + 2026-10-26.4…).

@@ -91,9 +91,15 @@ sector grid); `/health` still answers the JSON service banner.
   stay in sync with `PREFIXES` in `agent/web.py`: a new UI path missing from `UI_PREFIXES` gets a 401
   at the edge, and one missing from `PREFIXES` gets a 404 from the container.
 
-### Domain transition (2026-10-26)
+### Old domain retired (2026-10-27)
 
-The server's home is now https://techlib.hilir.app/mcp; the previous techlibrary.tenunan.com custom domain stays attached during the transition (both routes in wrangler.jsonc). OAuth grants issued for the old URL do not carry over - re-add claude.ai connectors and re-authenticate OAuth clients against the new URL. API-key clients (Copilot Studio, ChatGPT Actions, curl) only need the new base URL. To retire the old domain later: remove its route from wrangler.jsonc, redeploy, and add a redirect rule on the tenunan.com zone pointing to the new host.
+The only home is **https://techlib.hilir.app** (Worker routes in wrangler.jsonc: hilir.app only).
+`techlibrary.tenunan.com` was removed from the Worker's custom domains on the owner's decision —
+its DNS record went with it, so old links fail DNS resolution rather than redirecting. If old
+links should forward after all: re-create a proxied DNS record for the hostname on the tenunan.com
+zone and add a zone redirect rule to the new host (dashboard or API; not managed by wrangler).
+OAuth grants are per-URL: claude.ai connectors and OAuth clients must use the new URL. API-key
+clients (Copilot Studio, ChatGPT Actions, curl) only need the new base URL.
 
 Connect a client: URL `https://techlib.hilir.app/mcp`, header `x-api-key: <key>`. For example, Claude Code:
 `claude mcp add --transport http og-tech-library-remote https://techlib.hilir.app/mcp --header "x-api-key: <key>"`.
