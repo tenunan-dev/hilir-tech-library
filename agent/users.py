@@ -48,12 +48,17 @@ def verify_password(password: str, stored: str) -> bool:
 
 
 def load_users(env=None) -> dict:
-    """{email: {email, name, hash}} from LIBRARY_USERS; empty when unset or malformed."""
+    """{email: {email, name, hash, role}} from LIBRARY_USERS; empty when unset or malformed.
+
+    Entries are `email|name|scrypt-hash` with an optional trailing `|admin` (default role: user).
+    """
     users = {}
     for entry in (env if env is not None else os.environ.get(USERS_ENV, "")).split(";"):
         parts = [p.strip() for p in entry.strip().split("|")]
         if len(parts) >= 3 and parts[0] and parts[2]:
-            users[parts[0].lower()] = {"email": parts[0], "name": parts[1] or parts[0], "hash": parts[2]}
+            role = parts[3] if len(parts) >= 4 and parts[3] in ("admin", "user") else "user"
+            users[parts[0].lower()] = {"email": parts[0], "name": parts[1] or parts[0],
+                                       "hash": parts[2], "role": role}
     return users
 
 
@@ -98,15 +103,20 @@ def main(argv=None):
         return 0
     if argv[:1] == ["entry"]:
         if len(argv) < 2:
-            print("usage: python agent/users.py entry <email> [name]", file=sys.stderr)
+            print("usage: python agent/users.py entry <email> [name] [admin|user]", file=sys.stderr)
             return 2
-        email, name = argv[1], (argv[2] if len(argv) > 2 else argv[1])
+        email = argv[1]
+        name = argv[2] if len(argv) > 2 and not argv[2].startswith("_") else email
+        role = argv[3] if len(argv) > 3 else ("admin" if len(argv) > 2 and argv[2] in ("admin", "user") else "user")
+        if role not in ("admin", "user"):
+            print("role must be admin or user", file=sys.stderr)
+            return 2
         password = getpass.getpass(f"password for {email}: ")
         again = getpass.getpass("repeat: ")
         if password != again:
             print("passwords do not match", file=sys.stderr)
             return 2
-        print(f"{email}|{name}|{hash_password(password)}")
+        print(f"{email}|{name}|{hash_password(password)}|{role}")
         return 0
     if argv[:1] == ["verify"]:
         # offline check that an entry works: users.py verify <email> <entry|password-prompt>

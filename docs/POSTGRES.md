@@ -14,6 +14,14 @@ Schema `og`, defined in [db/schema.sql](../db/schema.sql):
 | `document`, `chunk` | Corpus documents and their passages. `chunk.embedding` is a 384-dimension vector; `chunk.tsv` is the full-text index |
 | `technology` and its children | Cards: `technology_alias`, `technology_source`, `technology_figure` (performance and cost figures with unit, year, basis, source URL), `technology_supplier`, `technology_gap` (what is missing, why, where to look) |
 | `vendor` | The vendor directory: one row per curated record with roles, products, the card ids it supplies, an embedding and a full-text index |
+
+Separate from `og`, schema `library` ([db/library.sql](../db/library.sql)) holds the admin layer's
+durable data: `library.account` (accounts created on `/admin`, scrypt-hashed) and `library.event`
+(sign-ins, page views and searches). It is deliberately outside `og` — the library reload truncates
+and reloads `og`, and must not wipe accounts or analytics. The container writes through the
+least-privilege role `library_app` (SELECT/INSERT/UPDATE/DELETE on those two tables only), whose
+DSN is the `USER_STORE_URL` secret; provisioning in [HOSTING.md](HOSTING.md#admin-view-admin-roles-accounts-login-data-analytics).
+Library reloads do not touch schema `library`.
 | `register_entry` | The register of about 300 technologies, linked to a card where one exists |
 | `node`, `edge` | The knowledge graph (below) |
 

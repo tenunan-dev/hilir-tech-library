@@ -33,6 +33,18 @@ def test_load_users_parses_entries():
     assert users.load_users("") == {}
 
 
+def test_load_users_parses_roles():
+    admin = f"ada@example.com|Ada|{users.hash_password(PASSWORD)}|admin"
+    plain = f"bob@example.com|Bob|{users.hash_password(PASSWORD)}|user"
+    bare = f"carol@example.com|Carol|{users.hash_password(PASSWORD)}"
+    odd = f"dave@example.com|Dave|{users.hash_password(PASSWORD)}|owner"
+    parsed = users.load_users(";".join([admin, plain, bare, odd]))
+    assert parsed["ada@example.com"]["role"] == "admin"
+    assert parsed["bob@example.com"]["role"] == "user"
+    assert parsed["carol@example.com"]["role"] == "user"  # three-field entries default to user
+    assert parsed["dave@example.com"]["role"] == "user"   # unknown role labels fall back to user
+
+
 def test_check_login_matches_case_insensitively(monkeypatch):
     entry = f"alice@example.com|Alice|{users.hash_password(PASSWORD)}"
     monkeypatch.setenv("LIBRARY_USERS", entry)

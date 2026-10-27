@@ -7,6 +7,13 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.7] — 2026-10-27 — admin view: roles, account management, login data and analytics
+
+### Added
+- Roles: `LIBRARY_USERS` entries take an optional trailing `|admin` (default `user`); the library key always has admin rights. `user` sessions get 403 on admin pages.
+- `/admin`: account list with roles and source, account creation with a default password, account deletion (revoking sessions within the account-cache window), plus login data (who, when, success/failure, IP) and analytics (sign-ins and failed attempts over 7 days, views and searches per day, most-viewed pages). An Admin link appears in the nav for admins.
+- Durable store for accounts created on the page and all activity events: Neon schema `library` (`db/library.sql`, deliberately outside the reload-truncated schema `og`), written through the least-privilege role `library_app` via the new `USER_STORE_URL` secret (provision or rotate with `python tools/provision_userstore.py`). Sessions are now only valid while the account still exists. Without the secret the library runs env-only: accounts come from the `LIBRARY_USERS` secret, the admin page says creation and analytics are unavailable, and no events are recorded.
+
 ## [2026.10.27.6] — 2026-10-27 — gap closure plan
 
 ### Added

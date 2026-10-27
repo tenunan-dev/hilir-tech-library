@@ -61,11 +61,46 @@ def test_account_login_sets_a_user_session(c, monkeypatch):
 
 def test_tampered_user_sessions_are_rejected(c):
     from starlette.testclient import TestClient
-    forged = "v2|eyJ1IjogImFsaWNlQGV4YW1wbGUuY29tIiwgImV4cCI6IDk5OTk5OTk5OTl9|0" * 64
+    forged = "v2|eyJ1IjogImFsaWNlQGV4YW1wbGUiLCAiZXhwIjogOTk5OTk5OTk5OX0|0" * 64
     with TestClient(server.http_app(KEY), base_url="https://testserver") as fresh:
         fresh.cookies.set(web.COOKIE, forged)
         r = fresh.get("/technologies", follow_redirects=False)
         assert r.status_code == 303 and r.headers["location"].startswith("/login?next=")
+
+
+def _session(client, email):
+    import users as user_accounts
+    client.cookies.clear()  # drop cookies from earlier tests in this module (form logins set their own)
+    client.cookies.set(web.COOKIE, user_accounts.session_token(email, KEY))
+
+
+def test_admin_page_gating(c, monkeypatch):
+    admin = f"admin@example.com|Ada|{__import__('users').hash_password('pw-admin-1')}|admin"
+    plain = f"bob@example.com|Bob|{__import__('users').hash_password('pw-bob-1')}"
+    monkeypatch.setenv("LIBRARY_USERS", f"{admin};{plain}")
+    # anonymous -> login
+    anon = starlette_testclient.TestClient(server.http_app(KEY), base_url="https://testserver")
+    r = anon.get("/admin", follow_redirects=False)
+    assert r.status_code == 303 and "/login" in r.headers["location"]
+    # non-admin session -> 403
+    _session(c, "bob@example.com")
+    assert c.get("/admin").status_code == 403
+    # admin session -> the page with the add form and the store-off notice
+    _session(c, "admin@example.com")
+    page = c.get("/admin")
+    assert page.status_code == 200 and "Add an account" in page.text and "USER_STORE_URL" in page.text
+    # a signed session for an account that does not exist is not authenticated
+    _session(c, "ghost@example.com")
+    assert c.get("/admin", follow_redirects=False).status_code == 303
+    # the library key is always admin
+    c.headers["x-api-key"] = KEY
+    page = c.get("/admin")
+    assert page.status_code == 200
+    del c.headers["x-api-key"]
+    # creating accounts from the page needs the store; without it the POST says so
+    _session(c, "admin@example.com")
+    r = c.post("/admin/accounts", data={"email": "new@example.com", "name": "New", "password": "pw", "role": "user"})
+    assert r.status_code == 400 and "USER_STORE_URL" in r.text
 
 
 def test_login_sets_the_cookie_and_pages_answer(c):

@@ -70,18 +70,47 @@ sector grid); `/health` still answers the JSON service banner.
   `/login?next=...`. Every page also accepts the usual `x-api-key` header instead of the cookie.
 - **Named accounts (multiple users):** besides the key, people can sign in at `/login` with an
   email + password. Accounts live in the optional `LIBRARY_USERS` secret — `email|name|scrypt-hash`
-  entries separated by `;` (agent/users.py documents the format). Create an entry locally and set
-  it as a secret; the hash is salted scrypt, never the password:
+  entries separated by `;`, with an optional trailing `|admin` role (default: `user`; agent/users.py
+  documents the format). Create an entry locally and set it as a secret; the hash is salted scrypt,
+  never the password:
 
   ```
-  python agent/users.py entry alice@example.com "Alice Chen"     # prints alice@example.com|Alice Chen|scrypt$...
+  python agent/users.py entry alice@example.com "Alice Chen" admin   # prints alice@example.com|Alice Chen|scrypt$...|admin
   cd deploy/cloudflare && npx wrangler secret put LIBRARY_USERS  # paste the entries; no redeploy needed
   ```
 
   Account sessions are stateless signed cookies (`v2|payload|hmac`, 30 days) that carry the email;
-  the API key keeps working unchanged for agents and for the owner. Set the same variable locally
-  for `python agent/server.py --http` runs. Failed sign-ins (key or password) sleep half a second
-  to damp online guessing.
+  they are only valid while the account still exists (deleting it revokes access within the account
+  cache window). The API key keeps working unchanged for agents and for the owner. Set the same
+  variable locally for `python agent/server.py --http` runs. Failed sign-ins (key or password) sleep
+  half a second to damp online guessing. The `/login` page always shows both forms and reveals
+  nothing about account state, secret names or internals (owner decision 2026-10-27).
+
+### Admin view: `/admin` (roles, accounts, login data, analytics)
+
+The library key always has admin rights (it is the owner's credential); accounts carry a role
+(`admin` or `user`, default `user`). `user` sessions get 403 on admin pages; nothing else changes
+for them.
+
+- **Accounts:** `/admin` lists every account (email, name, role, source) and can create accounts
+  with a default password (email, name, role, password) and delete store-managed accounts. Created
+  accounts live in the durable store below — NOT in the `LIBRARY_USERS` secret, which stays the
+  owner's channel (secret entries show as `secret` and cannot be deleted from the page; edit the
+  secret instead).
+- **Login data and analytics:** the page shows sign-ins (who, when, success/failure, IP),
+  failed-attempt counts, page views and searches per day, and the most-viewed paths (7 days).
+- **Persistence:** accounts created on the page and all events live in Neon schema `library`
+  (tables `library.account`, `library.event` — see `db/library.sql`; deliberately outside schema
+  `og`, which the library reload truncates). The container reaches them through the least-privilege
+  role `library_app` (SELECT/INSERT/UPDATE/DELETE on those two tables only; it cannot read `og`),
+  whose pooled DSN is the `USER_STORE_URL` secret — set with
+  `wrangler secret put USER_STORE_URL < ~/.config/hilir-tech-library/user-store.url`. Provision or
+  rotate with `python tools/provision_userstore.py` (owner DSNs from `.env.local`; writes the local
+  DSN copy to `~/.config/hilir-tech-library/user-store.url`, mode 600, never printed or committed).
+  Without `USER_STORE_URL` the library runs env-only: accounts come from the secret, the admin page
+  says account creation and analytics are unavailable, and no events are recorded.
+- A test of the whole flow ran live on 2026-10-27 (create → sign-in → 403 for the user on `/admin`
+  → delete → session revoked).
 - Licence: the pages serve the same open-licence text as the REST API (`full-text-open` only);
   restricted sources appear as metadata-only records.
 - Diagrams load Mermaid 11 from jsdelivr; if that script cannot load, the diagram shows as its plain

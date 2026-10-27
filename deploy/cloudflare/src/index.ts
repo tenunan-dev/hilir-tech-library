@@ -12,14 +12,15 @@ import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@clou
 const ORIGIN = "https://techlib.hilir.app";
 
 // keep in sync with PREFIXES in agent/web.py
-const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database"];
+const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database", "/admin"];
 const isUi = (p: string) => p === "/" || UI_PREFIXES.some((x) => p.startsWith(x));
 
 interface Env {
   LIBRARY: DurableObjectNamespace<Library>;
   LIBRARY_API_KEY: string; // set with: wrangler secret put LIBRARY_API_KEY
   DATABASE_URL?: string; // read-only Neon DSN for the Postgres layer; set with: wrangler secret put DATABASE_URL (optional)
-  LIBRARY_USERS?: string; // named web accounts, email|name|scrypt-hash entries (agent/users.py); set with: wrangler secret put LIBRARY_USERS (optional)
+  LIBRARY_USERS?: string; // named web accounts, email|name|scrypt-hash|role entries (agent/users.py); set with: wrangler secret put LIBRARY_USERS (optional)
+  USER_STORE_URL?: string; // least-privilege DSN for admin-managed accounts + activity events (agent/userstore.py, db/library.sql); optional
   OAUTH_KV: KVNamespace;
   OAUTH_PROVIDER: OAuthHelpers;
 }
@@ -33,7 +34,8 @@ export class Library extends Container<Env> {
     super(ctx, env);
     this.envVars = { LIBRARY_API_KEY: env.LIBRARY_API_KEY, LIBRARY_PUBLIC_URL: ORIGIN,
                      ...(env.DATABASE_URL ? { DATABASE_URL: env.DATABASE_URL } : {}),
-                     ...(env.LIBRARY_USERS ? { LIBRARY_USERS: env.LIBRARY_USERS } : {}) };
+                     ...(env.LIBRARY_USERS ? { LIBRARY_USERS: env.LIBRARY_USERS } : {}),
+                     ...(env.USER_STORE_URL ? { USER_STORE_URL: env.USER_STORE_URL } : {}) };
   }
 }
 

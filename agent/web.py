@@ -33,11 +33,12 @@ from starlette.routing import Route
 
 import pg
 import users as user_accounts
+import userstore
 import vendors as vendor_records
 
 COOKIE = "oglib_session"
 # keep in sync with the worker: deploy/cloudflare/src/index.ts (UI_PREFIXES)
-PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database")
+PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database", "/admin")
 SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
@@ -630,14 +631,43 @@ def session_token(key: str) -> str:
     return hmac.new(key.encode(), b"hilir-tech-library web session v1", sha256).hexdigest()
 
 
-def _authed(request: Request, key: str) -> bool:
+def _client_ip(request: Request) -> str:
+    forwarded = request.headers.get("x-forwarded-for", "")
+    if forwarded:
+        return forwarded.split(",")[0].strip()
+    return request.client.host if request.client else ""
+
+
+def _account(request: Request, key: str) -> dict | None:
+    """The authenticated identity: {'kind': 'key', 'role': 'admin'} for the library key
+    (header or cookie — the key is the owner's credential), or the account row for a v2
+    session. A v2 session is only valid while its account still exists, so deleting an
+    account in the admin page revokes access within the account-cache window."""
     given = request.headers.get("x-api-key") or request.headers.get("authorization", "").removeprefix("Bearer ").strip()
     if given and hmac.compare_digest(given.encode(), key.encode()):
-        return True
+        return {"kind": "key", "email": None, "name": "library key", "role": "admin"}
     token = request.cookies.get(COOKIE, "")
     if token.startswith("v2|"):
-        return user_accounts.session_email(token, key) is not None
-    return bool(token) and hmac.compare_digest(token.encode(), session_token(key).encode())
+        email = user_accounts.session_email(token, key)
+        if not email:
+            return None
+        row = userstore.all_accounts().get(email)
+        if not row:
+            return None
+        return {"kind": "account", "email": email, "name": row.get("name") or email,
+                "role": row.get("role") or "user"}
+    if token and hmac.compare_digest(token.encode(), session_token(key).encode()):
+        return {"kind": "key", "email": None, "name": "library key", "role": "admin"}
+    return None
+
+
+def _authed(request: Request, key: str) -> bool:
+    return _account(request, key) is not None
+
+
+def _is_admin(request: Request, key: str) -> bool:
+    account = _account(request, key)
+    return bool(account) and account["role"] == "admin"
 
 
 def esc(value) -> str:
@@ -745,9 +775,10 @@ def _db_panel() -> str:
             f'<p class="muted">{links}</p></section>')
 
 
-def _page(title, body, *, q="", active="", subnav=None, subactive="") -> HTMLResponse:
+def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=False) -> HTMLResponse:
     links = []
-    for label, href in NAV:
+    nav_items = NAV + (("Admin", "/admin"),) if admin_nav else NAV
+    for label, href in nav_items:
         mark = ' class="active"' if href == active else ""
         links.append(f'<a href="{href}"{mark}>{label}</a>')
     nav = "".join(links)
@@ -830,22 +861,29 @@ def routes(tools, key: str) -> list:
             next_url = _safe_next(form.get("next"))
             email = str(form.get("email") or "").strip()
             if email:
-                user = user_accounts.check_login(email, str(form.get("password") or ""))
+                # secret entries and admin-page accounts share one namespace; verify against
+                # whichever holds the email (scrypt verification is constant-time on the hash)
+                row = userstore.all_accounts().get(email.lower())
+                user = row if row and user_accounts.verify_password(str(form.get("password") or ""), row["hash"]) else None
                 if user:
+                    userstore.record("login_ok", user["email"], "", _client_ip(request))
                     resp = RedirectResponse(next_url, status_code=303)
                     resp.set_cookie(COOKIE, user_accounts.session_token(user["email"], key),
                                     max_age=user_accounts.SESSION_TTL, httponly=True, secure=True,
                                     samesite="lax", path="/")
                     return resp
                 time.sleep(0.5)  # damp online guessing; constant-ish failure time
+                userstore.record("login_fail", email, "wrong email or password", _client_ip(request))
                 error = '<p><b>Wrong email or password.</b></p>'
             else:
                 if hmac.compare_digest(str(form.get("key") or "").encode(), key.encode()):
+                    userstore.record("login_ok", "key", "", _client_ip(request))
                     resp = RedirectResponse(next_url, status_code=303)
                     resp.set_cookie(COOKIE, session_token(key), max_age=2592000, httponly=True,
                                     secure=True, samesite="lax", path="/")
                     return resp
                 time.sleep(0.5)
+                userstore.record("login_fail", "key", "wrong key", _client_ip(request))
                 error = '<p><b>Wrong key.</b></p>'
         else:
             next_url = _safe_next(request.query_params.get("next"))
@@ -1329,15 +1367,114 @@ def routes(tools, key: str) -> list:
 
     def gated(handler):
         async def with_gate(request: Request):
-            if not _authed(request, key):
+            account = _account(request, key)
+            if account is None:
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
+            path = request.url.path
+            if not path.endswith(".json"):
+                who = account["email"] or "key"
+                if path == "/search":
+                    userstore.record("search", who, str(request.query_params.get("q") or "")[:120], _client_ip(request))
+                else:
+                    userstore.record("view", who, path, _client_ip(request))
             return await handler(request)
         return with_gate
+
+    def admin_gated(handler):
+        async def with_gate(request: Request):
+            account = _account(request, key)
+            if account is None:
+                return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
+            if account["role"] != "admin":
+                resp = _page("Admin", '<section class="card narrow"><h1>Admin</h1>'
+                                      '<p>This area is for administrators.</p></section>')
+                resp.status_code = 403
+                return resp
+            return await handler(request)
+        return with_gate
+
+    async def admin_page(request: Request):
+        store_ok = userstore.configured()
+        secret_emails = user_accounts.load_users().keys()
+
+        def delete_cell(r):
+            if not store_ok or r["email"] in secret_emails:
+                return ""  # secret entries are managed by the owner via the secret, not the page
+            return (f'<form method="post" action="/admin/accounts/delete" class="inline">'
+                    f'<input type="hidden" name="email" value="{esc(r["email"])}">'
+                    f'<button type="submit" class="small">Delete</button></form>')
+
+        rows = sorted(userstore.all_accounts().values(), key=lambda r: r["email"])
+        account_rows = "".join(
+            f'<tr><td>{esc(r["email"])}</td><td>{esc(r.get("name") or "")}</td>'
+            f'<td>{esc(r.get("role") or "user")}</td>'
+            f'<td>{"secret" if r["email"] in secret_emails else "admin page"}</td>'
+            f'<td>{delete_cell(r)}</td></tr>'
+            for r in rows)
+        if store_ok:
+            add_form = ('<form method="post" action="/admin/accounts">'
+                        '<p><label>Email <input type="email" name="email" required></label></p>'
+                        '<p><label>Name <input type="text" name="name"></label></p>'
+                        '<p><label>Role <select name="role"><option value="user">user</option>'
+                        '<option value="admin">admin</option></select></label></p>'
+                        '<p><label>Default password <input type="text" name="password" required autocomplete="off"></label></p>'
+                        '<p><button type="submit">Create account</button></p></form>')
+        else:
+            add_form = ('<p class="muted small">Creating accounts from this page needs the persistent account '
+                        'store (USER_STORE_URL). Accounts currently come from the LIBRARY_USERS secret only — '
+                        'see docs/HOSTING.md.</p>')
+        if store_ok:
+            data = userstore.analytics()
+            day_rows = "".join(f'<tr><td>{d}</td><td>{v}</td><td>{s}</td></tr>' for d, v, s in data["days"])
+            top_rows = "".join(f'<tr><td>{esc(p)}</td><td>{n}</td></tr>' for p, n in data["top"])
+            login_rows = "".join(f'<tr><td>{ts:%m-%d %H:%M} UTC</td><td>{esc(k)}</td><td>{esc(w)}</td>'
+                                 f'<td>{esc(det)}</td><td>{esc(ipc)}</td></tr>'
+                                 for ts, k, w, det, ipc in data["recent"])
+            analytics = (f'<p>{data["logins_ok_7d"]} sign-ins and {data["logins_fail_7d"]} failed attempts in 7 days; '
+                         f'{data["events_total"]} recorded events.</p>'
+                         '<h3>Views and searches per day</h3><table><tr><th>Day</th><th>Views</th><th>Searches</th></tr>'
+                         f'{day_rows}</table>'
+                         '<h3>Most viewed pages (7 days)</h3><table><tr><th>Path</th><th>Views</th></tr>'
+                         f'{top_rows}</table>'
+                         '<h3>Recent sign-ins</h3><table><tr><th>When</th><th>Event</th><th>Who</th>'
+                         f'<th>Detail</th><th>IP</th></tr>{login_rows}</table>')
+        else:
+            analytics = ('<p class="muted small">Activity recording needs the persistent account store '
+                         '(USER_STORE_URL), so there is nothing to show yet.</p>')
+        body = (f'<section class="card"><h1>Admin</h1>'
+                f'<p class="muted small">The library key always has admin rights; account passwords are '
+                f'scrypt-hashed and never shown. Deleting an account revokes its sessions within a minute.</p></section>'
+                f'<section class="card"><h2>Accounts</h2>'
+                f'<table><tr><th>Email</th><th>Name</th><th>Role</th><th>Source</th><th></th></tr>{account_rows}</table>'
+                f'<h3>Add an account</h3>{add_form}</section>'
+                f'<section class="card"><h2>Login data and analytics</h2>{analytics}</section>')
+        return _page("Admin", body, admin_nav=True)
+
+    async def admin_create(request: Request):
+        form = await request.form()
+        try:
+            userstore.create_account(str(form.get("email") or ""), str(form.get("name") or ""),
+                                     str(form.get("password") or ""), str(form.get("role") or "user"))
+        except Exception as exc:
+            resp = _page("Admin", f'<section class="card narrow"><h1>Admin</h1>'
+                                  f'<p>Could not create the account: {esc(exc)}</p>'
+                                  f'<p><a href="/admin">Back</a></p></section>', admin_nav=True)
+            resp.status_code = 400
+            return resp
+        return RedirectResponse("/admin", status_code=303)
+
+    async def admin_delete(request: Request):
+        form = await request.form()
+        userstore.delete_account(str(form.get("email") or ""))
+        return RedirectResponse("/admin", status_code=303)
 
     return [
         Route("/", gated(home)),
         Route("/login", login, methods=["GET", "POST"]),
         Route("/logout", logout, methods=["GET", "POST"]),
+        Route("/admin", admin_gated(admin_page)),
+        Route("/admin/accounts", admin_gated(admin_create), methods=["POST"]),
+        Route("/admin/accounts/delete", admin_gated(admin_delete), methods=["POST"]),
         Route("/search", gated(search)),
         Route("/technologies", gated(technologies)),
         Route("/technologies/{technology_id}", gated(technology)),
