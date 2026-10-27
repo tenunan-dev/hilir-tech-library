@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.3] — 2026-10-27 — OCR for the two scanned standards; vectors and Neon reloaded
+
+### Added
+- The two Scribd scans with no text layer were OCR'd into the corpus with Apple Vision (en-US + id-ID, accurate mode): SNI 13-6910-2002 (266 pp, bilingual Indonesian/English) and SKK Migas PTK-040/2023/S9 Rev.02 (41 pp, whose cover confirms the subject is Abandonment and Site Restoration in post-operation activities — record name updated). Corpus is 174 documents; the OCR wording follows the recognition.
+- Vectors rebuilt over the full index (11,725 rows) and Neon reloaded with `--include-restricted`, so the six Scribd-derived documents are searchable semantically in the database layer too; hosted Worker redeployed (`edd3422f`, 354 sources). The reload also surfaced NUL control bytes in two older corpus documents (extraction debris) — stripped corpus-wide and hashes resynced. Note for the next embed run: cap fastembed's thread pool (`threads=4`); the default pool thrashed for two hours without finishing on the Mac under load.
+
 ## [2026.10.27.2] — 2026-10-27 — Scribd-hosted references collected (PDF + text layer)
 
 ### Added
