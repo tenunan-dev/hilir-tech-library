@@ -182,6 +182,32 @@
     "Residual emissions from the fired heater and upstream methane",
     "Depends on CO2 transport and storage"
   ],
+  "reference_plants": [
+    {
+      "name": "Blue Point Complex (CF Industries / JERA / Mitsui JV), Louisiana",
+      "country": "US",
+      "capacity": "1.4 Mtpa low-emissions ammonia via autothermal reforming; about 2 Mtpa CO2 captured (about 95% of plant emissions)",
+      "year": 2029,
+      "status": "USD 4 billion FID April 2025 (JV holding CF Industries 40%, JERA 35%, Mitsui 25%); operations expected 2029; CO2 to the Pelican Sequestration Hub; ATR technology licensor not named in the report",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025: Chapter 3 FID detail (page 114); Chapter 5 (page 169) identifies the plant as an autothermal reforming plant for low-emissions ammonia"
+      }
+    },
+    {
+      "name": "Air Products Net-Zero Hydrogen Complex, Alberta",
+      "country": "CA",
+      "capacity": "ATR-CCUS blue hydrogen complex",
+      "year": 2028,
+      "status": "ATR-CCUS project at FID (GHR Chapter 5: 'a second ATR-CCUS project in Canada has reached FID'); commissioning delayed from a planned 2024 start to late 2027 or early 2028, capital costs almost tripled from USD 1.2 to 3.3 billion; ATR technology licensor not named in the report",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025, Chapter 5 (page 198) and Chapter 3 (page 114)"
+      }
+    }
+  ],
   "sources": [
     {
       "url": "https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
@@ -191,9 +217,14 @@
     {
       "url": "https://www.wfmz.com/news/area/lehighvalley/air-products-scraps-plans-for-massive-clean-energy-complex/article_3d8eac87-46cf-4b46-a0fe-cbaad5d21d7f.html",
       "note": "WFMZ, Air Products ends Louisiana clean energy complex (fiscal 2026 Q3 charge)"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
@@ -212,25 +243,6 @@
         }
       ],
       "action": "Add one to three reference plants with country, capacity, status and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "an operating or committed ATR blue-hydrogen plant with CO2 storage",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read names one; the card's figures come from NETL's design study.",
-      "where": [
-        {
-          "hint": "IEA Hydrogen Production and Infrastructure Projects Database: filter ATR + CCUS",
-          "source_id": "iea-hydrogen-db",
-          "access": "registration"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 (collected): low-emissions projects at FID",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two ATR+CCS projects at FID or in operation, with technology licensor named in the source."
     }
   ],
   "trl": {

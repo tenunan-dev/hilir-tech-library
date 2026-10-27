@@ -117,6 +117,32 @@
       },
       "low": 100,
       "high": 100
+    },
+    {
+      "metric": "specific natural gas consumption, ammonia plant via natural gas reforming",
+      "low": 32,
+      "high": 34,
+      "unit": "GJ/t NH3",
+      "year": 2024,
+      "basis": "annex table column 2024 (dollar year not stated, energy figures): 32 GJ/t NH3 unabated natural gas reforming (plus electricity 0.1 MWh/t); 34 GJ/t with CCUS at 95% capture (plus electricity 0.2 MWh/t); consumption includes feedstock and fuel",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, 'Hydrogen-based industrial products - Ammonia (NH3)' table (page 8)"
+      }
+    },
+    {
+      "metric": "specific coal consumption, ammonia plant via coal gasification",
+      "low": 35,
+      "high": 40,
+      "unit": "GJ/t NH3",
+      "year": 2024,
+      "basis": "annex table column 2024 (dollar year not stated, energy figures): 35 GJ/t NH3 unabated coal gasification (plus electricity 1.0 MWh/t); 40 GJ/t with CCUS at 95% capture (plus electricity 1.3 MWh/t)",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, 'Hydrogen-based industrial products - Ammonia (NH3)' table (page 8)"
+      }
     }
   ],
   "reference_plants": [
@@ -159,28 +185,15 @@
     {
       "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
       "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 Assumptions Annex"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "ammonia plant energy intensity GJ per tonne",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ammonia roadmap page returned no content.",
-      "where": [
-        {
-          "hint": "IEA Ammonia Technology Roadmap",
-          "access": "open",
-          "source_id": "iea-reports"
-        },
-        {
-          "hint": "IFA energy efficiency reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add GJ/t figures."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

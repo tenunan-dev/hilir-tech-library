@@ -186,13 +186,13 @@
       "note": "US EPA, technical support document: efficient generation from combustion turbine EGUs, April 2024"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "installed cost per kW with dollar year",
       "reason_code": "paid_source",
-      "reason": "Open vendor pages give no cost; cost databases are commercial.",
+      "reason": "Open vendor pages give no cost; cost databases are commercial. Searched OSTI corpus (25 reports) for \"gas turbine\", \"installed cost\", \"$/kW\", \"capital cost\", \"levelized\"; not present; 2026-10-28",
       "where": [
         {
           "hint": "Gas Turbine World handbook (paid)",

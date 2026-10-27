@@ -88,7 +88,7 @@
       "note": "NETL project kickoff slides, Verdox electro-swing adsorption DAC (February 2021)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
@@ -111,7 +111,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for electro-swing, moisture swing and direct air capture cost; not present; 2026-10-28",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",

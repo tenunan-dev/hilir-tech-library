@@ -90,6 +90,73 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "electrolyser system installed CAPEX, global average",
+      "low": 2000,
+      "high": 2600,
+      "unit": "USD/kWe",
+      "year": 2024,
+      "basis": "annex table column 2024 (dollar year not explicitly stated); includes electrolyser system, electric equipment, gas treatment, plant balancing and EPC, excluding power generation assets; STEPS 2030 projection: 1400-1820 USD/kWe",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, 'Production pathways - Hydrogen, Water electrolysis' table (page 7)"
+      }
+    },
+    {
+      "metric": "electrolyser system installed CAPEX, China",
+      "low": 600,
+      "high": 1200,
+      "unit": "USD/kWe",
+      "year": 2024,
+      "basis": "annex table column 2024 (dollar year not explicitly stated); same system boundary as the global-average entry; STEPS 2030 projection: 450-900 USD/kWe",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, 'Production pathways - Hydrogen, Water electrolysis' table (page 7)"
+      }
+    },
+    {
+      "metric": "electrolyser CAPEX for European projects by equipment origin",
+      "low": 1800,
+      "high": 2300,
+      "unit": "USD/kW",
+      "year": 2024,
+      "basis": "USD 2300/kW with all-European equipment, 2150 with Chinese stack only, 1800 with Chinese stack and BoP; electrolyser efficiency 62% (European) versus 56% (Chinese components); EPC and contingency at European prices",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025, Figure 3.16 notes (page 112)"
+      }
+    },
+    {
+      "metric": "merchant renewable hydrogen tender price for refinery supply (India, awarded bids)",
+      "low": 3.8,
+      "high": 4.6,
+      "unit": "USD/kg H2",
+      "year": 2025,
+      "basis": "build-own-operate tenders, status August 2025, dollar year not stated: Indian Oil Panipat 10 kt awarded to L&T Energy Green Tech at INR 397/kg H2 (~USD 4.6/kg), project at FID; BPCL Bina and HPCL Visakh 5 kt each awarded to Ocior Energy at INR 328/kg H2 (~USD 3.8/kg)",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025, Table 2.2 (page 47)"
+      }
+    },
+    {
+      "metric": "levelised cost of hydrogen, renewable electrolytic, STEPS 2030 projection",
+      "low": 2,
+      "high": 4,
+      "unit": "USD/kg H2",
+      "year": 2024,
+      "basis": "Stated Policies Scenario 2030, in USD (2024): regions in China, the Middle East, Australia and some areas of the United States can reduce renewable hydrogen production cost to USD 2-4/kg (China's lower end close to under USD 2/kg)",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025, Chapter 3 text on Figures 3.8 and 3.9 (pages 94 and 97)"
+      }
+    }
+  ],
   "trl": {
     "low": 9,
     "high": 9,
@@ -110,29 +177,20 @@
       "url": "https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/",
       "source_id": "hydrocarbon-engineering",
       "note": "Hydrocarbon Engineering, Shell starts up PEM green hydrogen electrolyser in Europe, 5 July 2021"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 Assumptions Annex"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "electrolyser capital cost and hydrogen cost at the refinery",
-      "reason_code": "not_in_sources_read",
-      "reason": "The article gives none.",
-      "where": [
-        {
-          "hint": "IEA Global Hydrogen Review",
-          "access": "open",
-          "source_id": "iea-reports"
-        },
-        {
-          "hint": "IRENA electrolyser cost reports",
-          "access": "open",
-          "source_id": "irena"
-        }
-      ],
-      "action": "Add cost figures."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",

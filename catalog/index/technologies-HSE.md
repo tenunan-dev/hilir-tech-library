@@ -38,9 +38,9 @@ flowchart LR
 - well P&A methods and standards (NORSOK D-010, Oil & Gas UK) (process): Not covered by the paper. Where: NORSOK D-010 and OEUK guidelines (open). Next: Link to the thermite and bismuth P&A card and add the steps.
 - Southeast Asia decommissioning rules (Malaysia, Indonesia, Thailand) (other): Only the North Sea review was read. Where: PETRONAS, SKK Migas and Thai DMF decommissioning guidance (open). Next: Add regional rules.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'decommissioning', 'well abandonment', 'plug and abandonment', 'P&A'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1264892/pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1264892/pdf). Last reviewed 2026-10-28.
 
 ## Gas and flame detection
 <a id="hse-gas-flame-detection"></a>
@@ -96,10 +96,10 @@ flowchart LR
 **Missing inputs:**
 - SCR and SNCR capital and operating costs (costs): None on the pages. Where: US EPA control cost manual (open). Next: Add costs with dollar year.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'NOx', 'SCR', 'SNCR', 'selective catalytic reduction', 'low-NOx'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Selective_catalytic_reduction), [2](https://en.wikipedia.org/wiki/Selective_non-catalytic_reduction). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Selective_catalytic_reduction), [2](https://en.wikipedia.org/wiki/Selective_non-catalytic_reduction). Last reviewed 2026-10-28.
 
 ## Process hazard analysis (HAZOP, LOPA, QRA)
 <a id="hse-pha-hazop-lopa-qra"></a>

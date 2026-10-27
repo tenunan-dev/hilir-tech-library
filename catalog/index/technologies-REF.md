@@ -28,7 +28,7 @@
 | [Wastewater treatment (API separators, DAF, biological, MBR)](#ref-wastewater-treatment) | Refining / environment | commercial |  | Veolia (register examples; not verified); Suez (register examples; not verified) | capital cost per m3/d capacity, API+DAF versus MBR: 1070-6870 USD per m3/d (2023$) |
 | [Alcohol-to-jet SAF](#ref-alcohol-to-jet) | Low-carbon fuels / SAF | demonstration | 8 | LanzaJet; Honeywell UOP (ethanol-to-jet); Gevo | alcohol-to-jet conversion cost, ethanol intermediate: 0.821 USD/gal<br>alcohol-to-jet conversion cost, isobutanol intermediate: 0.535 USD/gal<br>ethanol intermediate reference price: 534 USD/t |
 | [Direct crude cracking](#ref-direct-crude-cracking) | Crude-to-chemicals | demonstration |  | ExxonMobil (Singapore crude-cracking steam cracker); Saudi Aramco (TC2C (with Lummus and CLG)); Lummus Technology (TC2C); Chevron Lummus Global (TC2C) |  |
-| [Green hydrogen in refineries](#ref-green-hydrogen) | Low-carbon refining | demonstration | 9 | ITM Power (10 MW PEM electrolyser for Shell Rheinland); Shell (REFHYNE operator) |  |
+| [Green hydrogen in refineries](#ref-green-hydrogen) | Low-carbon refining | demonstration | 9 | ITM Power (10 MW PEM electrolyser for Shell Rheinland); Shell (REFHYNE operator) | electrolyser system installed CAPEX, global average: 2000-2600 USD/kWe (2024$)<br>electrolyser system installed CAPEX, China: 600-1200 USD/kWe (2024$)<br>electrolyser CAPEX for European projects by equipment origin: 1800-2300 USD/kW (2024$)<br>merchant renewable hydrogen tender price for refinery supply (India, awarded bids): 3.8-4.6 USD/kg H2 (2025$)<br>levelised cost of hydrogen, renewable electrolytic, STEPS 2030 projection: 2-4 USD/kg H2 (2024$) |
 | [Refinery electrification and heat pumps](#ref-electrification-heat-pumps) | Low-carbon refining | demonstration | 6-9 | BASF, SABIC, Linde (electric steam-cracker furnace demonstration) |  |
 | [Refinery flue gas and FCC carbon capture](#ref-flue-gas-carbon-capture) | Low-carbon refining | demonstration | 5 | Shell (Pernis refinery (Porthos customer)); ExxonMobil (Porthos customer) |  |
 
@@ -86,10 +86,10 @@ flowchart LR
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Searched OSTI corpus (25 reports) for "alkylation", "alkylate", "octane", "isobutane", "capital cost", "levelized", "$/bbl"; not present; 2026-10-28 Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Searched OSTI corpus (25 reports) for "alkylation", "octane", "isobutane", "energy use", "yields"; not present; 2026-10-28 Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 
-Sources: [1](https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit). Last reviewed 2026-10-24.
+Sources: [1](https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit). Last reviewed 2026-10-28.
 
 ## Catalytic reforming (CCR, semi-regenerative)
 <a id="ref-catalytic-reforming"></a>
@@ -740,10 +740,10 @@ flowchart LR
 
 **Missing inputs:**
 - operators other than the Kawrgosk study (reference_plants): One refinery study. Where: Veolia and Suez references (open). Next: Add suppliers' plants.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'wastewater', 'waste water', 'effluent', 'API separator', 'dissolved air flotation', 'membrane bioreactor', 'activated sludge'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940). Last reviewed 2026-10-25.
+Sources: [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC10456940). Last reviewed 2026-10-28.
 
 ## Alcohol-to-jet SAF
 <a id="ref-alcohol-to-jet"></a>
@@ -767,6 +767,11 @@ flowchart LR
 
 **Key equipment:** dehydration reactor, oligomerisation reactors, hydrogenation reactor, fractionation.
 
+**Performance:**
+- overall mass yield, alcohol to fuel blendstock, Core ATJ: 0.6-0.75 kg fuel per kg alcohol fed; Aspen Core ATJ simulation at 200 ton/d alcohol feed: 0.60 for ethanol-to-jet, 0.75 for isobutanol-to-jet (Table 2); fuel production 39.15 vs 49.25 k-ton/yr respectively. [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
+- jet fraction of fuel product, Core ATJ: 70 % of fuel blendstock (maximum selected); Selected fuel product distribution (gasoline/jet/diesel): 10/70/20 for ethanol-to-jet, 30/70/0 for isobutanol-to-jet; some jet-range product is fractionated off to meet distillation specification. [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
+- hydrogen requirement, Core ATJ normalized to 10 million gal/yr ATJ-SPK: 1.1 ton/day; Table 3: 1.1 ton/day H2 in both cases, at alcohol feed rates of 185 ton/d (ethanol-to-jet) and 147 ton/d (isobutanol-to-jet). [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
+
 **Costs:**
 - alcohol-to-jet conversion cost, ethanol intermediate: 0.821 USD/gal; Geleynse et al. 2018 PNNL TEA base case; dollar year not stated; feedstock (ethanol) costs excluded by design. [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
 - alcohol-to-jet conversion cost, isobutanol intermediate: 0.535 USD/gal; Geleynse et al. 2018 PNNL TEA base case; dollar year not stated; feedstock costs excluded by design. [source](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf)
@@ -777,10 +782,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Ethanol / butanol-to-jet' 8](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. The Geleynse et al. 2018 PNNL paper now in the corpus reports jet-fraction yields and has not been fully mined yet. Where: Geleynse et al. 2018 in corpus/pnnl/ - alcohol conversion yields and jet fraction (catalog: pnnl, open); Supplier datasheets and brochures for the companies listed on the card (open). Next: Extract jet-fraction yield and energy use from the Geleynse paper; add supplier datasheet figures.
-
-Sources: [1](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/), [2](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/), [2](https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf). Last reviewed 2026-10-28.
 
 ## Direct crude cracking
 <a id="ref-direct-crude-cracking"></a>
@@ -834,16 +836,22 @@ flowchart LR
 **Performance:**
 - REFHYNE hydrogen output: up to 1300 t/yr; 10 MW PEM; plans for 100 MW at Rheinland. [source](https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/)
 
+**Costs:**
+- electrolyser system installed CAPEX, global average: 2000-2600 USD/kWe (2024$); annex table column 2024 (dollar year not explicitly stated); includes electrolyser system, electric equipment, gas treatment, plant balancing and EPC, excluding power generation assets; STEPS 2030 projection: 1400-1820 USD/kWe. [source](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf)
+- electrolyser system installed CAPEX, China: 600-1200 USD/kWe (2024$); annex table column 2024 (dollar year not explicitly stated); same system boundary as the global-average entry; STEPS 2030 projection: 450-900 USD/kWe. [source](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf)
+- electrolyser CAPEX for European projects by equipment origin: 1800-2300 USD/kW (2024$); USD 2300/kW with all-European equipment, 2150 with Chinese stack only, 1800 with Chinese stack and BoP; electrolyser efficiency 62% (European) versus 56% (Chinese components); EPC and contingency at European prices. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- merchant renewable hydrogen tender price for refinery supply (India, awarded bids): 3.8-4.6 USD/kg H2 (2025$); build-own-operate tenders, status August 2025, dollar year not stated: Indian Oil Panipat 10 kt awarded to L&T Energy Green Tech at INR 397/kg H2 (~USD 4.6/kg), project at FID; BPCL Bina and HPCL Visakh 5 kt each awarded to Ocior Energy at INR 328/kg H2 (~USD 3.8/kg). [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- levelised cost of hydrogen, renewable electrolytic, STEPS 2030 projection: 2-4 USD/kg H2 (2024$); Stated Policies Scenario 2030, in USD (2024): regions in China, the Middle East, Australia and some areas of the United States can reduce renewable hydrogen production cost to USD 2-4/kg (China's lower end close to under USD 2/kg). [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+
 **Reference plants:**
 - REFHYNE, Shell Energy and Chemicals Park Rheinland, DE: 10 MW PEM, up to 1,300 t/yr H2; . [source](https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Polymer electrolyte membrane electrolyser' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- electrolyser capital cost and hydrogen cost at the refinery (costs): The article gives none. Where: IEA Global Hydrogen Review (catalog: iea-reports, open); IRENA electrolyser cost reports (catalog: irena, open). Next: Add cost figures.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/). Last reviewed 2026-10-25.
+Sources: [1](https://www.hydrocarbonengineering.com/clean-fuels/05072021/shell-starts-up-pem-green-hydrogen-electrolyser-in-europe/), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-28.
 
 ## Refinery electrification and heat pumps
 <a id="ref-electrification-heat-pumps"></a>

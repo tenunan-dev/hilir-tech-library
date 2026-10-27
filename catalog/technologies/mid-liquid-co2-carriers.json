@@ -123,9 +123,14 @@
     {
       "url": "https://norlights.com/what-we-do/",
       "note": "Northern Lights, what we do, read 25 October 2026"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
@@ -141,20 +146,6 @@
       "action": "Add ship data."
     },
     {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -167,5 +158,14 @@
       ],
       "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "trl": {
+    "low": 7,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 shipping'"
+    }
+  }
 }

@@ -106,7 +106,7 @@
       "note": "Journal of Petroleum Technology, Flow assurance: hydrates and paraffin management"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
@@ -139,7 +139,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched hydrate, wax, asphaltene, flow assurance, chemical injection); 2026-10-28",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

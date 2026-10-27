@@ -189,7 +189,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA guide has no chemical EOR entry; 'commercial' rests on the Daqing statement in the HPAM article, which was read only second-hand.",
+      "reason": "The IEA guide has no chemical EOR entry; 'commercial' rests on the Daqing statement in the HPAM article, which was read only second-hand. IEA ETP Guide (July 2026) has no matching entry (searched chemical EOR, polymer flood, surfactant, alkaline, enhanced oil recovery); 2026-10-28",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -245,5 +245,5 @@
       "note": "Ginting et al., The Effect of MES-Ethanol Formulation in Enhancing Surfactant Flooding Efficiency, SCOG 49(2): 633-648, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

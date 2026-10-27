@@ -106,6 +106,15 @@
       "high": 50
     }
   ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 transport pipeline'"
+    }
+  },
   "costs": [
     {
       "metric": "integrally geared package capex, Drax BECCS case",
@@ -132,9 +141,14 @@
       "url": "https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf",
       "source_id": "uk-desnz",
       "note": "UK DESNZ/BEIS CCS knowledge-sharing, CO2 compression and dehydration unit report (Drax BECCS cases)"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
@@ -148,20 +162,6 @@
         }
       ],
       "action": "Add operating references."
-    },
-    {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     },
     {
       "field": "process",

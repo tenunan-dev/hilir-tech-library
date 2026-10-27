@@ -81,6 +81,15 @@
       }
     }
   ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'Lignocellulosic biomass fermentation' (TRL 9 in 2025; 8 in 2020-2023)"
+    }
+  },
   "advantages": [
     "Uses residues"
   ],
@@ -92,9 +101,14 @@
       "url": "https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html",
       "source_id": "ptq-digital-refining",
       "note": "Digital Refining, Clariant produces first commercial sunliquid cellulosic ethanol, June 2022"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
@@ -108,20 +122,6 @@
         }
       ],
       "action": "Add cost."
-    },
-    {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     },
     {
       "field": "process",

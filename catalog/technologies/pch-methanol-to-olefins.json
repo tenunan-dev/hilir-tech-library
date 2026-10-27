@@ -172,7 +172,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA guide has no MTO entry; the installed base (26 licences) supports 'commercial'.",
+      "reason": "The IEA guide has no MTO entry; the installed base (26 licences) supports 'commercial'. IEA ETP Guide (July 2026) has no matching entry (searched 'methanol-to-olefins', 'MTO', 'DMTO', 'olefins', 'propylene'); 2026-10-28",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -233,5 +233,5 @@
       "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

@@ -173,6 +173,19 @@
       "low": 2000,
       "high": 9800,
       "year": 2008
+    },
+    {
+      "metric": "CO2 injected per barrel of oil produced (United States fields)",
+      "low": 0.3,
+      "high": 0.6,
+      "unit": "t CO2/bbl",
+      "year": 2020,
+      "basis": "varies between fields and across the life of projects; dollar year not stated",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/181b48b4-323f-454d-96fb-0bb1889d96a9/CCUS_in_clean_energy_transitions.pdf",
+        "source_id": "iea-reports",
+        "note": "CCUS in Clean Energy Transitions (IEA, 2020), Box 3.6 'The potential for CO2 storage through EOR'"
+      }
     }
   ],
   "costs": [
@@ -188,6 +201,19 @@
       "low": 15,
       "high": 25,
       "year": 2008
+    },
+    {
+      "metric": "CO2 purchase cost per barrel of oil produced (0.5 t CO2/bbl injected)",
+      "low": 7.5,
+      "high": 15,
+      "unit": "USD/bbl",
+      "year": 2020,
+      "basis": "purchased CO2 for EOR priced around USD 15-30/t CO2, generally indexed to the oil price; injecting 0.5 t CO2 per barrel of oil produced; dollar year not stated",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/181b48b4-323f-454d-96fb-0bb1889d96a9/CCUS_in_clean_energy_transitions.pdf",
+        "source_id": "iea-reports",
+        "note": "CCUS in Clean Energy Transitions (IEA, 2020), Box 3.6 'The potential for CO2 storage through EOR'"
+      }
     }
   ],
   "trl": {
@@ -256,25 +282,6 @@
   ],
   "notes": "The cost and recovery figures come from a US primer with data to 2008. Pertamina's 2023 Sukowati huff-and-puff is a pilot, not a commercial flood.",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "current CO2-EOR cost per barrel and CO2 utilisation (t CO2 per bbl) in USD with dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The only cost read is an illustrative example in a primer with data to 2008 and no dollar year.",
-      "where": [
-        {
-          "hint": "NETL 'Next Generation CO2-EOR' report (collected: corpus/netl)",
-          "access": "open",
-          "source_id": "netl"
-        },
-        {
-          "hint": "IEA oil and gas industry in net-zero transitions (collected)",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Read the collected NETL 2011 report and IEA reports for utilisation and cost, then add dollar-year figures."
-    },
     {
       "field": "suppliers",
       "item": "CO2-EOR operators in Malaysia and Indonesia beyond Pertamina",

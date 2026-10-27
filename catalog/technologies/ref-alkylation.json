@@ -123,7 +123,7 @@
       "note": "Oil & Gas Journal, 13 April 2021"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "trl",
@@ -142,7 +142,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Searched OSTI corpus (25 reports) for \"alkylation\", \"alkylate\", \"octane\", \"isobutane\", \"capital cost\", \"levelized\", \"$/bbl\"; not present; 2026-10-28",
       "where": [
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
@@ -170,7 +170,7 @@
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
+      "reason": "No source read so far gives performance figures. Searched OSTI corpus (25 reports) for \"alkylation\", \"octane\", \"isobutane\", \"energy use\", \"yields\"; not present; 2026-10-28",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",

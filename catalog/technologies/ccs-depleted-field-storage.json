@@ -86,6 +86,15 @@
       "high": 3.3
     }
   ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 storage in depleted oil and gas reservoir'"
+    }
+  },
   "reference_plants": [
     {
       "name": "Porthos, Rotterdam to North Sea",
@@ -126,24 +135,15 @@
       "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
       "source_id": "ogj",
       "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+    },
+    {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "trl",
-      "item": "TRL",
-      "reason_code": "not_in_sources_read",
-      "reason": "IEA guide has no matching entry.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

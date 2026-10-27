@@ -317,10 +317,10 @@ flowchart LR
 **Missing inputs:**
 - expander duties such as turboexpanders in LNG and gas plants (performance): The page covers steam turbines only. Where: OEM pages for turboexpanders (open). Next: Add a card or section for gas expanders with figures.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'steam turbine', 'turboexpander', 'expander'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Steam_turbine). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Steam_turbine). Last reviewed 2026-10-28.
 
 ## Valves and actuators
 <a id="rot-valves-actuators"></a>

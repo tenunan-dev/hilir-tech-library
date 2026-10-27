@@ -165,11 +165,11 @@ flowchart LR
 - Gorgon CO2 Injection, Barrow Island, AU: 3.4 to 4 Mtpa; started up per the August 2019 article after delays from March 2017. [source](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project)
 
 **Missing inputs:**
-- operating record since 2019 (reference_plants): The article is from start-up. Where: Chevron Australia reports (open); Global CCS Institute facility database (catalog: global-ccs-institute, open). Next: Add actual injected tonnes per year.
+- operating record since 2019 (reference_plants): The article is from start-up. Global CCS Institute 2026 database lists Gorgon as operating since 2019 (4 Mtpa capture capacity, deep saline) but states no Gorgon-specific actual injected tonnes per year. Where: Chevron Australia reports (open); Global CCS Institute facility database (catalog: global-ccs-institute, open). Next: Add actual injected tonnes per year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project). Last reviewed 2026-10-25.
+Sources: [1](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project), [2](https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf). Last reviewed 2026-10-28.
 
 ## Cascade liquefaction
 <a id="lng-optimized-cascade"></a>
@@ -799,10 +799,10 @@ flowchart LR
 **Missing inputs:**
 - energy use per barrel fractionated and recovery fractions (performance): The datasheet gives experience and delivery figures only. Where: GPSA Engineering Data Book (catalog: gpsa, paid); Licensor papers (open). Next: Add energy and recovery figures from a published design case.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched NGL, natural gas liquids, LPG, fractionation, deethanizer); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf). Last reviewed 2026-10-28.
 
 ## Nitrogen rejection units
 <a id="gas-nitrogen-rejection"></a>
@@ -1043,12 +1043,11 @@ flowchart LR
 - subsea CO2 pipeline length: 138 km; 16-inch pipeline to depleted M1 field. [source](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/)
 
 **Reference plants:**
-- PETRONAS Kasawari CCS (Block SK316, offshore Sarawak), MY: 3.3 Mtpa CO2; FID 20 October 2022; start of operations reported as 2025 or end-2025 in some sources and 2026 in a PETRONAS document. [source](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs)
+- PETRONAS Kasawari CCS (Block SK316, offshore Sarawak), MY: 3.3 Mtpa CO2; FID 20 October 2022; the Kasawari gas field began production in August 2024, but CO2 injection had not started as of April 2026 — PETRONAS said on 1 April 2026 it is looking to bring the first CO2 injection forward to as early as 2027, from a previous projection of end-2029/early 2030; the 2025 and end-2025 start-up dates cited in earlier sources did not materialise. [source](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027)
 
 **Missing inputs:**
-- operating status and start-up date of Kasawari CCS (reference_plants): Sources read give start-up as 2025, end-2025 and 2026. Where: PETRONAS announcements (catalog: petronas-tech, open). Next: Record the confirmed start-up date.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/). Last reviewed 2026-10-25.
+Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/), [3](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027), [4](https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/). Last reviewed 2026-10-28.

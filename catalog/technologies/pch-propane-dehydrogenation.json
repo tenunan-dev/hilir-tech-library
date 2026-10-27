@@ -167,7 +167,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA guide has no PDH entry; the card is commercial on the basis of the 7.9 Mt/yr installed base.",
+      "reason": "The IEA guide has no PDH entry; the card is commercial on the basis of the 7.9 Mt/yr installed base. IEA ETP Guide (July 2026) has no matching entry (searched 'propane dehydrogenation', 'PDH', 'dehydrogenation', 'Oleflex', 'CATOFIN', 'on-purpose propylene'); 2026-10-28",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -233,5 +233,5 @@
       "note": "Honeywell news release, 9 November 2020"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

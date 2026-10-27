@@ -4,7 +4,7 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [CO2 pipelines (dense phase)](#mid-co2-pipelines) | Pipelines | commercial |  | Denbury (Green Pipeline (register example)); Northern Lights (ship and pipeline chain) | Weyburn pipeline capex: 110 USD million (about 0.33 million per km) (1997$) |
+| [CO2 pipelines (dense phase)](#mid-co2-pipelines) | Pipelines | commercial | 9 | Denbury (Green Pipeline (register example)); Northern Lights (ship and pipeline chain) | Weyburn pipeline capex: 110 USD million (about 0.33 million per km) (1997$) |
 | [Cathodic protection and coatings (FBE, 3LPE)](#mid-cathodic-protection-coatings) | Pipelines | commercial |  | Corrpro (cathodic protection services); Seal for Life (coating and wrap products) |  |
 | [Composite and reinforced thermoplastic pipe](#mid-composite-reinforced-thermoplastic-pipe) | Pipelines | commercial |  | Baker Hughes (reinforced thermoplastic pipe); Strohm (thermoplastic composite pipe); NOV (fibreglass and composite pipe) |  |
 | [Crude and product tank farms and floating roofs](#mid-tank-farms-floating-roofs) | Storage and terminals | commercial |  | Terminal operators (tank terminals) |  |
@@ -22,7 +22,7 @@
 | [Strategic petroleum reserves (salt caverns, rock caverns)](#mid-strategic-petroleum-reserves) | Storage and terminals | commercial |  | Governments (strategic reserves) |  |
 | [Underground gas storage (salt caverns, depleted fields)](#mid-underground-gas-storage) | Storage and terminals | commercial |  | Uniper (gas storage); PETRONAS (register example) |  |
 | [Hydrogen blending and repurposing of gas pipelines](#mid-hydrogen-blending-repurposing) | Pipelines | demonstration | 7-8 | Gasunie (hydrogen network conversion); SoCalGas (blending trials); PETRONAS Gas (register example) |  |
-| [Liquid CO2 carriers](#mid-liquid-co2-carriers) | Shipping | demonstration |  | Northern Lights (ship, terminal and storage chain); Mitsubishi Shipbuilding (CO2 carrier design) | ship transport cost excluding liquefaction: 20-28 USD/t (2004$) |
+| [Liquid CO2 carriers](#mid-liquid-co2-carriers) | Shipping | demonstration | 7-8 | Northern Lights (ship, terminal and storage chain); Mitsubishi Shipbuilding (CO2 carrier design) | ship transport cost excluding liquefaction: 20-28 USD/t (2004$) |
 | [Liquid hydrogen carriers](#mid-liquid-hydrogen-carriers) | Shipping | demonstration |  | Kawasaki Heavy Industries (Suiso Frontier) |  |
 
 ## CO2 pipelines (dense phase)
@@ -49,12 +49,13 @@ flowchart LR
 **Costs:**
 - Weyburn pipeline capex: 110 USD million (about 0.33 million per km) (1997$); 330 km. [source](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf)
 
+TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 transport pipeline'](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
 **Missing inputs:**
 - recent European and Asian CO2 pipelines (reference_plants): The IPCC report is from 2005 and the Northern Lights page gives no pipeline length. Where: IEA CCUS projects database (catalog: iea-ccus-db, open). Next: Add a current example with length and capacity.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/). Last reviewed 2026-10-25.
+Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-28.
 
 ## Cathodic protection and coatings (FBE, 3LPE)
 <a id="mid-cathodic-protection-coatings"></a>
@@ -216,10 +217,10 @@ flowchart LR
 **Missing inputs:**
 - treatment cost per barrel with dollar year (costs): The article does not quantify cost. Where: LiquidPower brochures (open). Next: Add dose ppm and cost range with year.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched drag reducing, drag reducer, friction reducer, pipeline additive, flow assurance); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs). Last reviewed 2026-10-25.
+Sources: [1](https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs). Last reviewed 2026-10-28.
 
 ## Flow assurance simulation
 <a id="mid-flow-assurance-simulation"></a>
@@ -295,10 +296,10 @@ flowchart LR
 **Missing inputs:**
 - current cost per km with dollar year (costs): The paper gives a saving percentage only. Where: PRCI and operator project cost studies (catalog: prci, open). Next: Add cost per inch-km with year.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched linepipe, X70, X80, pipeline steel, high strength steel, pipelines); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf). Last reviewed 2026-10-28.
 
 ## Hydrate, wax and asphaltene management (inhibitors, heating, pigging)
 <a id="mid-hydrate-wax-asphaltene-management"></a>
@@ -323,10 +324,10 @@ flowchart LR
 **Missing inputs:**
 - chemical cost and MEG recovery cost (costs): None given. Where: SPE papers on flow assurance cost (catalog: onepetro, open). Next: Add typical dosage and cost.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched hydrate, wax, asphaltene, flow assurance, chemical injection); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-10-25.
+Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-10-28.
 
 ## LNG carriers (membrane and Moss tanks, reliquefaction)
 <a id="mid-lng-carriers"></a>
@@ -355,10 +356,10 @@ flowchart LR
 **Missing inputs:**
 - newbuild price with year (costs): The secondary source gives no year. Where: Clarksons or broker newbuild price reports (paid). Next: Add price with year.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched LNG carrier, LNG ship, LNG tanker, liquefied natural gas, membrane); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/LNG_carrier). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/LNG_carrier). Last reviewed 2026-10-28.
 
 ## LPG and ammonia carriers
 <a id="mid-lpg-ammonia-carriers"></a>
@@ -442,10 +443,10 @@ flowchart LR
 **Missing inputs:**
 - cost per km of an ILI run (costs): None given. Where: PHMSA and operator integrity reports (catalog: phmsa, open). Next: Add cost range with year.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched pigging, in-line inspection, inline inspection, ILI, pipeline inspection); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf). Last reviewed 2026-10-28.
 
 ## Strategic petroleum reserves (salt caverns, rock caverns)
 <a id="mid-strategic-petroleum-reserves"></a>
@@ -494,13 +495,13 @@ flowchart LR
 - active US underground storage facilities: 400 sites (nearly), about 120 operators; Lower 48. [source](https://www.eia.gov/naturalgas/storage/basics/)
 
 **Missing inputs:**
-- working gas capacity, deliverability and cushion gas share (performance): Not stated on the EIA basics page. Where: EIA underground storage capacity data (catalog: eia-reports, open). Next: Add working gas capacity with date.
+- working gas capacity, deliverability and cushion gas share (performance): Not stated on the EIA basics page; the collected EIA document (AEO2026 Electricity Market Module assumptions, April 2026) covers new generating-technology costs only and contains no underground gas storage capacity, deliverability or cushion-gas figures. Where: EIA underground storage capacity data (catalog: eia-reports, open). Next: Add working gas capacity with date.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.eia.gov/naturalgas/storage/basics/). Last reviewed 2026-10-25.
+Sources: [1](https://www.eia.gov/naturalgas/storage/basics/). Last reviewed 2026-10-28.
 
 ## Hydrogen blending and repurposing of gas pipelines
 <a id="mid-hydrogen-blending-repurposing"></a>
@@ -556,12 +557,13 @@ flowchart LR
 **Costs:**
 - ship transport cost excluding liquefaction: 20-28 USD/t (2004$); 500 km to 4,500 km, 5.5 Mt/yr, Statoil 2004 study. [source](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf)
 
+TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 shipping'](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
+
 **Missing inputs:**
 - Northern Lights ship capacity (m3) and number (reference_plants): The page gives neither. Where: Northern Lights news releases (open). Next: Add ship data.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/). Last reviewed 2026-10-25.
+Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-28.
 
 ## Liquid hydrogen carriers
 <a id="mid-liquid-hydrogen-carriers"></a>

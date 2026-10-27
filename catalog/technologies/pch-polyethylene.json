@@ -128,7 +128,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "No IEA entry for conventional PE.",
+      "reason": "No IEA entry for conventional PE. IEA ETP Guide (July 2026) has no matching entry (searched 'polyethylene', 'polymerisation', 'gas-phase', 'slurry'); 2026-10-28",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -189,5 +189,5 @@
       "note": "Hydrocarbon Processing, 12 May 2025"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }
