@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.6] — 2026-10-27 — gap closure plan
+
+### Added
+- [docs/GAP_CLOSURE_PLAN.md](docs/GAP_CLOSURE_PLAN.md): the programme for closing the 1,118 open card gaps — a 13-method toolbox in escalation order (local corpus mining, semantic search, web fetch/search, blocked-host mirrors, alternate reader, search agent, Wayback, browser use, computer use, manual inbox, catalog binding, flash workers, publish ops), seven waves starting with offline mining of the already-collected 2026-10-25 documents, and the flash-worker task contract with build/pytest gates per batch.
+
 ## [2026.10.27.5] — 2026-10-27 — login page no longer discloses account internals
 
 ### Fixed
