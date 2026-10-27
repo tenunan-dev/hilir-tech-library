@@ -92,24 +92,43 @@
       "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
       "source_id": "iea-reports",
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): fuel cell vehicle stock and sales in China, 2024"
+    },
+    {
+      "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Program Record 24004, Heavy-Duty Fuel Cell System Cost - 2023"
     }
   ],
-  "last_reviewed": "2026-10-25",
-  "gaps": [
+  "costs": [
     {
-      "field": "costs",
-      "item": "stack and system costs",
-      "reason_code": "not_in_sources_read",
-      "reason": "None given in the sources read.",
-      "where": [
-        {
-          "hint": "DOE fuel cell cost records",
-          "access": "open",
-          "source_id": "doe-hfto"
-        }
-      ],
-      "action": "Add DOE cost records."
+      "metric": "HD PEM fuel cell system cost, 275 kWnet Class 8 long-haul truck",
+      "low": 168,
+      "high": 168,
+      "unit": "USD/kWnet",
+      "year": 2016,
+      "basis": "2023-status next-generation laboratory technology on direct hydrogen at 50,000 systems/yr, 2016$; about USD 160/kWnet at 100,000 units/yr; Monte Carlo 90% confidence range USD 142-195/kW; 2022 status was USD 179/kWnet; DOE targets USD 140/kWnet (2025), 80 (2030) and 60 (ultimate)",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Program Record 24004, Heavy-Duty Fuel Cell System Cost - 2023, Item and Cost Results, Table 1 and Figures 2-3"
+      }
     },
+    {
+      "metric": "stack share of HD fuel cell system cost",
+      "low": 63,
+      "high": 63,
+      "unit": "% of system cost",
+      "year": 2016,
+      "basis": "stack is circa 63% of the USD 168/kWnet 2023 system cost at 50,000 systems/yr, i.e. roughly USD 105/kWnet; catalyst is more than half the stack cost at high production volume",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Program Record 24004, Heavy-Duty Fuel Cell System Cost - 2023, Cost Results"
+      }
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",

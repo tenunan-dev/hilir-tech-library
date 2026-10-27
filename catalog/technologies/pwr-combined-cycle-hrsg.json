@@ -127,6 +127,47 @@
       "low": 64
     }
   ],
+  "costs": [
+    {
+      "metric": "total overnight cost, combined cycle single-shaft",
+      "low": 1086,
+      "high": 1086,
+      "unit": "USD/kW",
+      "year": 2025,
+      "basis": "AEO2026 EMM Table 3 (2025$/kW): 627 MW unit, first available 2028, technological optimism factor 1.00; excludes regional multipliers, learning effects and interest during construction; current costs for plants coming online in 2026; based on Sargent & Lundy (Jan 2024) with about a 20% combined-cycle increase per the Brattle Group/S&L PJM new-entry study; Table 4 regional range 875-1,513 USD/kW (2025$), average 1,102",
+      "source": {
+        "url": "https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf",
+        "source_id": "eia-reports",
+        "note": "EIA, Assumptions to the Annual Energy Outlook 2026: Electricity Market Module (April 2026), Tables 3-4"
+      }
+    },
+    {
+      "metric": "total overnight cost, combined cycle multi-shaft",
+      "low": 1032,
+      "high": 1032,
+      "unit": "USD/kW",
+      "year": 2025,
+      "basis": "AEO2026 EMM Table 3 (2025$/kW): 1,227 MW unit, first available 2028, technological optimism factor 1.00; exclusions and S&L/PJM adjustment basis as for the single-shaft entry; Table 4 regional range 830-1,445 USD/kW (2025$), average 1,049",
+      "source": {
+        "url": "https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf",
+        "source_id": "eia-reports",
+        "note": "EIA, Assumptions to the Annual Energy Outlook 2026: Electricity Market Module (April 2026), Tables 3-4"
+      }
+    },
+    {
+      "metric": "total overnight cost, combined cycle with 95% carbon capture",
+      "low": 2824,
+      "high": 2824,
+      "unit": "USD/kW",
+      "year": 2025,
+      "basis": "AEO2026 EMM Table 3 (2025$/kW): 543 MW unit, first available 2029, base overnight cost 2,567 USD/kW times technological optimism factor 1.10; excludes regional multipliers, learning effects and interest during construction; Table 4 regional range 2,268-5,674 USD/kW (2025$), average 2,954",
+      "source": {
+        "url": "https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf",
+        "source_id": "eia-reports",
+        "note": "EIA, Assumptions to the Annual Energy Outlook 2026: Electricity Market Module (April 2026), Tables 3-4"
+      }
+    }
+  ],
   "advantages": [
     "Highest efficiency for fossil power",
     "Low CO2 per MWh versus coal",
@@ -150,29 +191,15 @@
       "url": "https://power.mhi.com/products/gasturbines/lineup/m701j",
       "source_id": "mitsubishi-heavy",
       "note": "Mitsubishi Power, M701J/JAC series page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf",
+      "source_id": "eia-reports",
+      "note": "EIA, Assumptions to the Annual Energy Outlook 2026: Electricity Market Module (April 2026); full text in corpus/eia-reports/"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "installed cost per kW with dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Neither page read gives a cost.",
-      "where": [
-        {
-          "hint": "EIA capital cost and performance study for new generating plants",
-          "access": "open",
-          "source_id": "eia-reports"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Add EIA's overnight cost with its dollar year."
-    },
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",

@@ -117,6 +117,153 @@
     "Power for compression and vacuum rises steeply at low CO2 concentration",
     "Not yet proven at commercial scale on flue gas"
   ],
+  "costs": [
+    {
+      "metric": "Cost of CO2 captured, MTR Polaris membrane process (FEED study potential)",
+      "low": 40,
+      "high": 40,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "Stated as potential to capture below the DOE capture cost target of $40/tonne CO2 from coal-fired flue gas; FEED design basis is 5,600 t/d (about 2.0 Mt/yr), 70% of the 400-MWe Dry Fork Station plant's CO2; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR FEED study entry (FE0031846), p. 115"
+      }
+    },
+    {
+      "metric": "Cost of CO2 captured, MTR hybrid membrane-absorption process",
+      "low": 43,
+      "high": 54,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "Hybrid of Polaris membrane recycle stage (enriching flue gas from about 13 to 20% CO2) with a 5 molal piperazine advanced flash stripper on coal flue gas; current R&D value $54/t, target $43/t; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR project entry, Table 3 Power Plant Carbon Capture Economics, p. 123"
+      }
+    },
+    {
+      "metric": "Membrane material manufacturing cost",
+      "low": 10,
+      "high": 30,
+      "unit": "USD/m2",
+      "year": 2024,
+      "basis": "Design value $10/m2 for spiral-wound modules and $30/m2 for plate-and-frame modules; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR membrane process parameter Tables 1 and 2, pp. 117 and 121"
+      }
+    },
+    {
+      "metric": "Membrane module manufacturing and installation cost, projected at full commercialization",
+      "low": 50,
+      "high": 50,
+      "unit": "USD/m2 of membrane",
+      "year": 2024,
+      "basis": "Projected cost of planar plate-and-frame module skids at full commercialization stage; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR project entry, p. 120"
+      }
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO2 permeance of Polaris membrane",
+      "low": 1000,
+      "high": 3000,
+      "unit": "GPU",
+      "year": 2024,
+      "basis": "Commercial Polaris averages 1,000 GPU (about 10 times conventional gas separation membranes); lab-scale studies demonstrated 3,000 GPU; design tables list 1,000 GPU (spiral-wound) and 1,700 GPU (plate-and-frame) at 30 degC, mixed gas",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR entries, pp. 116-117 and Tables 1-2, pp. 117, 121"
+      }
+    },
+    {
+      "metric": "CO2/N2 selectivity of Polaris membrane",
+      "low": 30,
+      "high": 50,
+      "unit": "dimensionless",
+      "year": 2024,
+      "basis": "Module design tables list CO2/N2 selectivity 30 (mixed gas, 30 degC) for spiral-wound and plate-and-frame; the narrative cites an average CO2/N2 selectivity of 50",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR entries, pp. 116-117, Tables 1-2 pp. 117, 121"
+      }
+    },
+    {
+      "metric": "CO2 recovery of membrane capture system (module design value)",
+      "low": 70,
+      "high": 90,
+      "unit": "%",
+      "year": 2024,
+      "basis": "Design values: 90% recovery at >96% purity and 140 bar (spiral-wound configuration); 70% recovery at >96% purity and 150 bar (plate-and-frame configuration)",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR membrane process parameter Tables 1 and 2, pp. 117, 121"
+      }
+    },
+    {
+      "metric": "CO2 capture rate of multi-stage membrane process",
+      "low": 50,
+      "high": 75,
+      "unit": "%",
+      "year": 2024,
+      "basis": "Multi-stage design overcomes the pressure-ratio constraint of single-stage systems; FEED study design basis captures 70% of Dry Fork Station emissions; operation at about 70%+ capture without recycle noted as lower-cost option",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR entries, pp. 116, 119 and 115"
+      }
+    },
+    {
+      "metric": "CO2 capture rate with selective recycle to boiler, 1-MWe pilot",
+      "low": 90,
+      "high": 90,
+      "unit": "%",
+      "year": 2024,
+      "basis": "Integrated membrane-boiler test with B&W 0.6-MWe coal-fired research boiler; a modest boiler efficiency reduction of 1.8% was measured at 90% capture, showing the selective-recycle process is feasible",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR project entry, p. 119"
+      }
+    },
+    {
+      "metric": "CO2 purity of product from membrane process",
+      "low": 85,
+      "high": 99,
+      "unit": "vol %",
+      "year": 2024,
+      "basis": "First capture stage permeate about 55-60% CO2, enriched to >85% CO2 by the second membrane stage; FEED design adds a CO2 purification unit producing >99% CO2 at 150 bar",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR entries, pp. 116 and 119"
+      }
+    },
+    {
+      "metric": "Membrane module lifetime",
+      "low": 3,
+      "high": 3,
+      "unit": "years",
+      "year": 2024,
+      "basis": "Target module lifetime three years; in extended flue-gas testing (more than 13,000 hours) fouling was not significant; spiral-wound modules accumulated 11,000 hours without significant degradation",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, MTR entries, pp. 118, 122"
+      }
+    }
+  ],
   "sources": [
     {
       "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
@@ -127,56 +274,13 @@
       "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
       "source_id": "netl",
       "note": "NETL, Carbon Capture Technologies: Status and Challenges, January 2023"
-    }
-  ],
-  "last_reviewed": "2026-10-24",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        },
-        {
-          "hint": "IEAGHG technical reports (private copy only)",
-          "source_id": "iea-ghg",
-          "access": "open"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
-      "where": [
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        }
-      ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
+      "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+      "source_id": "netl",
+      "note": "NETL Compendium of Carbon Capture Technology 2024, MTR Polaris membrane project entries (FE0031846 FEED study, FE0031587 large pilot, FE0031591 TCM)"
     }
-  ]
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": []
 }

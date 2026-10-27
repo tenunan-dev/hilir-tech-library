@@ -88,6 +88,34 @@
       "url": "https://climeworks.com/highly-scalable-direct-air-capture"
     }
   ],
+  "costs": [
+    {
+      "metric": "cost of CO2 captured, solid-sorbent DAC with natural-gas CHP (gross capture basis)",
+      "low": 90,
+      "high": 150,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "preliminary estimates from the Black & Veatch / Global Thermostat FEED study for a kilotonne-scale modular TVSA solid-sorbent DAC system (honeycomb amine monoliths, desorption at 100 C) paired with a natural-gas CHP plant, post-combustion capture of the CHP flue gas and compression; design basis more than 100,000 t/yr net capture; dollar year not stated, publication year used",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL, Compendium of Carbon Capture Technology 2024, Global Thermostat / Black & Veatch 'Scaleup and Site-Specific Engineering Design for Global Thermostat DAC' project, Table 2: DAC Economics, p. 606"
+      }
+    },
+    {
+      "metric": "cost of CO2 captured, same system, net removal basis",
+      "low": 130,
+      "high": 240,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "net removal from the atmosphere (CO2 produced by the CHP plant deducted); the same Table 2 gives annualized CAPEX at 10 percent of CAPEX of 70-130 USD/t (net) and OPEX of 60-110 USD/t (net); dollar year not stated, publication year used",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL, Compendium of Carbon Capture Technology 2024, Global Thermostat / Black & Veatch 'Scaleup and Site-Specific Engineering Design for Global Thermostat DAC' project, Table 2: DAC Economics, p. 606"
+      }
+    }
+  ],
   "reference_plants": [
     {
       "name": "Mammoth, Iceland",
@@ -126,35 +154,15 @@
     {
       "url": "https://www.energyconnects.com/news/renewables/2026/september/carbon-removal-pioneer-climeworks-increases-co2-capture-sixfold/",
       "note": "Bloomberg via Energy Connects, 10 September 2026"
-    }
-  ],
-  "last_reviewed": "2026-10-24",
-  "gaps": [
+    },
     {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        },
-        {
-          "hint": "IEAGHG technical reports (private copy only)",
-          "source_id": "iea-ghg",
-          "access": "open"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+      "source_id": "netl",
+      "note": "NETL, Compendium of Carbon Capture Technology 2024, Global Thermostat / Black & Veatch 'Scaleup and Site-Specific Engineering Design for Global Thermostat DAC' project, Table 2: DAC Economics, p. 606"
     }
   ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [],
   "performance": [
     {
       "metric": "CO2 captured at Mammoth, first half of 2026",

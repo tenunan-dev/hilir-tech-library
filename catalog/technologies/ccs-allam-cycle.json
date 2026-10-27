@@ -144,13 +144,13 @@
       "note": "NET Power Q4 and full-year 2025 results, 9 March 2026"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Searched the 11 NETL corpus documents for 'Allam', 'NET Power' and 'sCO2 power cycle'; no mention.",
       "where": [
         {
           "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
@@ -174,7 +174,7 @@
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
+      "reason": "No source read so far gives performance figures. Searched the 11 NETL corpus documents for 'Allam', 'NET Power' and 'sCO2 power cycle'; no mention.",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",

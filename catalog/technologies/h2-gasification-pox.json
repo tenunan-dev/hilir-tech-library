@@ -97,6 +97,60 @@
       "product": "register examples; not verified"
     }
   ],
+  "costs": [
+    {
+      "metric": "Levelized cost of hydrogen, coal gasification without CO2 capture (Case 4)",
+      "low": 2.58,
+      "high": 2.58,
+      "unit": "USD/kg H2",
+      "year": 2018,
+      "basis": "DOE/NETL-2022/3241 Case 4, Shell gasifier coal gasification plant without capture, 659,947 kg H2/day, 80% capacity factor; LCOH excluding T&S (no capture, so no T&S cost); report states cost results are in 2018 dollars, Dec 2018 cost base",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "DOE/NETL-2022/3241 Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, Exhibit 4-73 p. 264 and Exhibit ES-5 p. 11"
+      }
+    },
+    {
+      "metric": "Levelized cost of hydrogen, coal gasification with CO2 capture (Case 5)",
+      "low": 2.92,
+      "high": 3.09,
+      "unit": "USD/kg H2",
+      "year": 2018,
+      "basis": "Case 5 Shell gasifier with two-stage Selexol CO2 capture (92.5%), 660,004 kg H2/day, Dec 2018 cost base; low = LCOH excluding T&S ($2.92), high = including T&S ($3.09); 2018 dollars",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "DOE/NETL-2022/3241, Exhibit ES-5 p. 11 and Exhibit 4-73 p. 264"
+      }
+    },
+    {
+      "metric": "Total plant cost of coal gasification hydrogen plant without capture (Case 4)",
+      "low": 4264,
+      "high": 4264,
+      "unit": "USD per (kg H2/day) of capacity",
+      "year": 2018,
+      "basis": "Case 4 total plant cost $4,264 per kg H2/day of plant capacity (plant 659,947 kg H2/day), total overnight cost $5,243 and total as-spent cost $5,853 per kg H2/day; Dec 2018 cost base, 2018 dollars",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "DOE/NETL-2022/3241, Exhibit 4-72 p. 263 and Exhibit ES-5 p. 11"
+      }
+    },
+    {
+      "metric": "Total overnight cost of coal gasification hydrogen plant with capture (Case 5)",
+      "low": 6044,
+      "high": 6044,
+      "unit": "USD per (kg H2/day) of capacity",
+      "year": 2018,
+      "basis": "Case 5 total overnight cost $6,044 per kg H2/day of plant capacity (plant 660,004 kg H2/day), total plant cost $4,901 and total as-spent cost $6,747 per kg H2/day; Dec 2018 cost base, 2018 dollars",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+        "source_id": "netl",
+        "note": "DOE/NETL-2022/3241, Exhibit 4-72 p. 263 and Exhibit ES-5 p. 11"
+      }
+    }
+  ],
   "performance": [
     {
       "metric": "hydrogen purity from PSA, NETL case",
@@ -162,24 +216,15 @@
       "url": "https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf",
       "source_id": "uk-nsta",
       "note": "UK North Sea Transition Authority, Blue hydrogen technology review"
+    },
+    {
+      "url": "https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
+      "source_id": "netl",
+      "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, April 2022"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and hydrogen cost",
-      "reason_code": "not_in_sources_read",
-      "reason": "NETL page and NSTA report quote no costs.",
-      "where": [
-        {
-          "hint": "NETL baseline reports",
-          "access": "open",
-          "source_id": "netl"
-        }
-      ],
-      "action": "Add costs from the full NETL case report."
-    },
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",

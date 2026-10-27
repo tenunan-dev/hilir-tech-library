@@ -84,6 +84,21 @@
       "high": 30
     }
   ],
+  "costs": [
+    {
+      "metric": "P&A cost with an electrically run bismuth plug versus section milling and cement remediation",
+      "low": 50,
+      "high": 50,
+      "unit": "% reduction in P&A cost",
+      "year": 2026,
+      "basis": "stated as halving the costs of P&A; deck undated, latest dated operation in it is January 2025; percentage only, no currency figure given",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/3rmh154v/the-wells-decommissioning-collab-overview.pdf",
+        "source_id": "uk-nsta",
+        "note": "NSTA Wells Decommissioning Collaboration Overview, 'Case Studies: Wellstrom T1000 Bismuth Plug', p.10"
+      }
+    }
+  ],
   "advantages": [
     "Rigless operation",
     "Can plug without milling casing (BiSN rigless Gulf of Mexico case)"
@@ -100,24 +115,15 @@
     {
       "url": "https://www.interwell.com/",
       "note": "Interwell, RockSolid thermite-based P&A and slot recovery page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/3rmh154v/the-wells-decommissioning-collab-overview.pdf",
+      "source_id": "uk-nsta",
+      "note": "NSTA Wells Decommissioning Collaboration Overview"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "time and cost per well compared with rig-based cement P&A",
-      "reason_code": "not_in_sources_read",
-      "reason": "Neither company page gives numbers.",
-      "where": [
-        {
-          "hint": "Aker BP and NSTA P&A reports",
-          "access": "open",
-          "source_id": "uk-nsta"
-        }
-      ],
-      "action": "Add an operator-reported saving with basis."
-    },
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",

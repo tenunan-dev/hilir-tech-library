@@ -72,13 +72,13 @@
       "note": "European Rubber Journal, Covestro starts CO2-based polyols plant, 20 June 2016"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "global CO2 demand for urea",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read.",
+      "reason": "No source read. Global CCS Institute Global Status of CCS 2026 and CO2 shipping brief (2025) state no global urea CO2 demand figure.",
       "where": [
         {
           "hint": "IEA CCUS in the transition or Global CCS Institute",

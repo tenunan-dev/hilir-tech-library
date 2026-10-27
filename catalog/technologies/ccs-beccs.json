@@ -98,6 +98,78 @@
         "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
         "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
       }
+    },
+    {
+      "name": "ADM Illinois Industrial",
+      "country": "US",
+      "capacity": "1 Mtpa CO2 capture (biomass / ethanol, deep saline formation storage)",
+      "status": "operating",
+      "year": 2017,
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+        "source_id": "global-ccs-institute",
+        "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+      }
+    },
+    {
+      "name": "ADM Columbus",
+      "country": "US",
+      "capacity": "1 Mtpa CO2 capture (biomass / ethanol, deep saline formation storage)",
+      "status": "operating",
+      "year": 2025,
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+        "source_id": "global-ccs-institute",
+        "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+      }
+    },
+    {
+      "name": "CapturePoint Arkalon CO2 Compression Facility",
+      "country": "US",
+      "capacity": "0.5 Mtpa CO2 capture (biomass / ethanol, enhanced oil recovery)",
+      "status": "operating",
+      "year": 2009,
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+        "source_id": "global-ccs-institute",
+        "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+      }
+    },
+    {
+      "name": "Conestoga Energy Bonanza BioEnergy",
+      "country": "US",
+      "capacity": "0.16 Mtpa CO2 capture (biomass / ethanol, enhanced oil recovery)",
+      "status": "operating",
+      "year": 2012,
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+        "source_id": "global-ccs-institute",
+        "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+      }
+    },
+    {
+      "name": "Green Plains Wood River Biorefinery",
+      "country": "US",
+      "capacity": "0.35 Mtpa CO2 capture (biomass / ethanol, deep saline formation storage)",
+      "status": "operating",
+      "year": 2025,
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+        "source_id": "global-ccs-institute",
+        "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+      }
+    },
+    {
+      "name": "BioCirc Vesthimmerland Biogas Plant",
+      "country": "DK",
+      "capacity": "0.0276 Mtpa CO2 capture (biomass / ethanol, depleted oil and gas field storage)",
+      "status": "operating",
+      "year": 2026,
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+        "source_id": "global-ccs-institute",
+        "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+      }
     }
   ],
   "trl": {
@@ -124,24 +196,15 @@
       "url": "https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf",
       "source_id": "uk-desnz",
       "note": "UK DESNZ/BEIS CCS knowledge-sharing, CO2 compression and dehydration unit report (Drax BECCS cases)"
+    },
+    {
+      "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+      "source_id": "global-ccs-institute",
+      "note": "Global Status of CCS 2026 (Global CCS Institute)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "operating BECCS plants (ADM Decatur, Drax pilot)",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only Stockholm read; the Drax document read is a compression report.",
-      "where": [
-        {
-          "hint": "Global CCS Institute facility database",
-          "access": "open",
-          "source_id": "global-ccs-institute"
-        }
-      ],
-      "action": "Add operating plants."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

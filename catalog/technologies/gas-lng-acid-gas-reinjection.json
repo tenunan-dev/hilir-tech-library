@@ -137,15 +137,20 @@
       "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
       "source_id": "ogj",
       "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+    },
+    {
+      "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+      "source_id": "global-ccs-institute",
+      "note": "Global Status of CCS 2026 (Global CCS Institute)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
       "item": "operating record since 2019",
       "reason_code": "not_in_sources_read",
-      "reason": "The article is from start-up.",
+      "reason": "The article is from start-up. Global CCS Institute 2026 database lists Gorgon as operating since 2019 (4 Mtpa capture capacity, deep saline) but states no Gorgon-specific actual injected tonnes per year.",
       "where": [
         {
           "hint": "Chevron Australia reports",

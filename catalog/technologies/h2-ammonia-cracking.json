@@ -133,13 +133,13 @@
       "note": "KBR H2ACT technology page, read 24 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology; the doe-hfto corpus (liquefaction, delivery, fueling-station, fuel-cell and electrolysis records, checked 2026-10-28) gives no ammonia-cracking economics.",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records and H2A analyses",

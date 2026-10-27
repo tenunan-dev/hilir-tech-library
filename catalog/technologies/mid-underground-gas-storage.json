@@ -88,13 +88,13 @@
       "note": "US EIA, underground natural gas storage basics, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "working gas capacity, deliverability and cushion gas share",
       "reason_code": "not_in_sources_read",
-      "reason": "Not stated on the EIA basics page.",
+      "reason": "Not stated on the EIA basics page; the collected EIA document (AEO2026 Electricity Market Module assumptions, April 2026) covers new generating-technology costs only and contains no underground gas storage capacity, deliverability or cushion-gas figures.",
       "where": [
         {
           "hint": "EIA underground storage capacity data",

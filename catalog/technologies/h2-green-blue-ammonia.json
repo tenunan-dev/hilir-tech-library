@@ -157,13 +157,13 @@
       "note": "Ammonia Energy Association, 16 January 2022"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) covers electrolysis, liquefaction, delivery and fuel-cell costs only, with no ammonia synthesis economics.",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records and H2A analyses",

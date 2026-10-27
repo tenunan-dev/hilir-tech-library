@@ -205,6 +205,34 @@
       "url": "https://a.fluor.com/f/1014770/x/a744f915e1/econamine-fg-plus-brochure.pdf"
     }
   ],
+  "performance": [
+    {
+      "metric": "solvent regeneration reboiler duty, LP steam (CANSOLV, PC cases)",
+      "low": 2.4,
+      "high": 2.5,
+      "unit": "GJ/t CO2",
+      "year": 2022,
+      "basis": "NETL Baseline Rev 4: 'approximately 2.5 MJ/kg (1,070 Btu/lb) CO2 for PC cases', steam extracted from the IP/LP crossover; 2.5 MJ/kg x 1,000 kg/t = 2.5 GJ/t (cross-check: 1,070 Btu/lb x 1.05506 kJ/Btu / 0.45359 kg/lb = 2,490 kJ/kg = 2.49 MJ/kg); footnote m: recent vendor feedback states the PC reboiler energy requirement can be reduced to 2.4 MJ/kg (1,020 Btu/lb); the stream tables do not list a reboiler steam stream - the duty is stated in the text",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/CostAndPerformanceBaselineForFossilEnergyPlantsVolume1BituminousCoalAndNaturalGasToElectricity_101422.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost and Performance Baseline for Fossil Energy Plants Vol 1, Rev 4, DOE/NETL-2023/4320, Oct 2022, Section 4.1.8.3 p. 373, footnote m p. 374"
+      }
+    },
+    {
+      "metric": "solvent regeneration reboiler duty, LP steam (CANSOLV, NGCC cases e.g. B31B.90)",
+      "low": 2.4,
+      "high": 2.7,
+      "unit": "GJ/t CO2",
+      "year": 2022,
+      "basis": "NETL Baseline Rev 4, Case B31B.90 chapter: 'the low-pressure steam requirement for the reboiler only is calculated as approximately 2.4 MJ/kg (1,050 Btu/lb) CO2'; 2.4 MJ/kg x 1,000 kg/t = 2.4 GJ/t (cross-check: 1,050 Btu/lb x 1.05506 kJ/Btu / 0.45359 kg/lb = 2,442 kJ/kg = 2.44 MJ/kg); the generic CANSOLV description (Section 4.1.8.3, based on pre-2021 data without the NGCC mechanical vapour recompression) cites 2.7 MJ/kg (1,160 Btu/lb) for NGCC cases; steam extracted from the IP/LP crossover",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/CostAndPerformanceBaselineForFossilEnergyPlantsVolume1BituminousCoalAndNaturalGasToElectricity_101422.pdf",
+        "source_id": "netl",
+        "note": "NETL, Cost and Performance Baseline for Fossil Energy Plants Vol 1, Rev 4, DOE/NETL-2023/4320, Oct 2022, Section 5.1.5 p. 554 (and Section 4.1.8.3 p. 373)"
+      }
+    }
+  ],
   "reference_plants": [
     {
       "name": "Boundary Dam Unit 3 (SaskPower)",
@@ -297,21 +325,6 @@
       "note": "NETL, Cost and Performance Baseline for Fossil Energy Plants Vol 1, Rev 4, DOE/NETL-2023/4320, Oct 2022, Exhibits ES-7/ES-8 (pp. 15-16); full text in corpus/netl/"
     }
   ],
-  "last_reviewed": "2026-10-25",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "solvent regeneration energy (GJ/t CO2)",
-      "reason_code": "not_in_sources_read",
-      "reason": "The NETL Baseline Rev 4 is now in the corpus (collected 2026-10-25); it reports the capture-steam draw in stream tables rather than a single GJ/t figure, and that extraction has not been done yet.",
-      "where": [
-        {
-          "hint": "NETL Cost and Performance Baseline Vol 1 Rev 4, corpus/netl/ - extract stripper steam draw per tonne CO2",
-          "source_id": "netl",
-          "access": "open"
-        }
-      ],
-      "action": "Extract the reboiler steam draw from the Case B31B.90/B12B.90 stream tables and convert to GJ/t CO2 with the steam conditions stated."
-    }
-  ]
+  "last_reviewed": "2026-10-28",
+  "gaps": []
 }

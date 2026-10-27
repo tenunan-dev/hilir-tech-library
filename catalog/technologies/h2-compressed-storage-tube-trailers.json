@@ -85,24 +85,35 @@
     {
       "url": "https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers",
       "note": "Hexagon Purus, Type 4 cylinders vs traditional steel tube trailers (vendor page)"
+    },
+    {
+      "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cells Program Record 20007, Hydrogen Delivery and Dispensing Cost (2020)"
+    },
+    {
+      "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/19001_hydrogen_liquefaction_costs.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs (2019)"
     }
   ],
-  "last_reviewed": "2026-10-25",
-  "gaps": [
+  "costs": [
     {
-      "field": "costs",
-      "item": "delivered cost per kg versus distance",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor page gives none.",
-      "where": [
-        {
-          "hint": "DOE Hydrogen Program delivery cost records",
-          "access": "open",
-          "source_id": "doe-hfto"
-        }
-      ],
-      "action": "Add DOE delivery costs."
-    },
+      "metric": "gaseous tube-trailer delivery and dispensing cost (excluding production)",
+      "low": 8.17,
+      "high": 9.46,
+      "unit": "USD/kg H2",
+      "year": 2016,
+      "basis": "HDSAM v3.1 early-market levelized delivery plus dispensing, urban market, 1% FCEV penetration, 700 bar dispensing, low-volume component costs; low = 1,000 kg/day station, high = 450 kg/day station; liquid tanker routes cost USD 8.31-11.35/kg in the same comparison; DOE record 19001 notes that at delivery distances above ~400 miles liquid tankers are more cost competitive than gaseous tube trailers",
+      "source": {
+        "url": "https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cells Program Record 20007, Hydrogen Delivery and Dispensing Cost (2020), Table 1 and Table 2"
+      }
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",

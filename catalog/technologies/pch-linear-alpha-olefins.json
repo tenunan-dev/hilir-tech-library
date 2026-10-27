@@ -86,13 +86,13 @@
       "note": "Chemical Processing, SABIC and Linde successfully commercialize linear alpha olefins (30 November 2009)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "product distribution and selectivity",
       "reason_code": "not_in_sources_read",
-      "reason": "Not in the article.",
+      "reason": "Not in the article; the collected Linde document (gas conditioning and purification: CO shift conversion, Rectisol wash) contains no alpha-SABLIN product distribution or selectivity data.",
       "where": [
         {
           "hint": "Linde alpha-SABLIN brochure",

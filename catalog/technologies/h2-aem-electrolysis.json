@@ -129,35 +129,30 @@
     {
       "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
       "note": "Enapter AEM Nexus 1000 datasheet, rev08"
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Shot: Water Electrolysis Technology Assessment (2024)"
     }
   ],
-  "last_reviewed": "2026-10-24",
-  "gaps": [
+  "costs": [
     {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "DOE Hydrogen Program Records and H2A analyses",
-          "source_id": "doe-hfto",
-          "access": "open"
-        },
-        {
-          "hint": "IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway",
-          "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
+      "metric": "AEM stack capital cost, preliminary manufactured estimate",
+      "low": 200,
+      "high": 200,
+      "unit": "USD/kW",
+      "year": 2024,
+      "basis": "Preliminary DOE estimate of AEM stack manufactured cost at about 20 MW/yr production volume, with potential to be even less expensive at about 300 MW/yr; stack only, excludes balance of plant; dollar year not stated",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot: Water Electrolysis Technology Assessment (2024), AEM Electrolyzers - Status and R&D Cost Reduction Approaches, pp. 38-39"
+      }
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [
     {
       "field": "reference_plants",
       "item": "named operating or planned plants with capacity and status",

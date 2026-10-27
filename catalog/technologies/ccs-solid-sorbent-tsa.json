@@ -125,6 +125,153 @@
   "limitations": [
     "Largest units are still engineering scale; commercial-scale references pending"
   ],
+  "costs": [
+    {
+      "metric": "Cost of CO2 captured, Svante RC-TSA (power plant TEA basis)",
+      "low": 30,
+      "high": 50,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "Chevron/Svante project economics table for a nominal 550-MW(net) natural gas power plant retrofit: current R&D value $50/t CO2, target $30/t; TEA numbers validated from pilot-scale data; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante VeloxoTherm entry (FE0031944), Table 2 Carbon Capture Economics, p. 186"
+      }
+    },
+    {
+      "metric": "Capture unit capital expenditure",
+      "low": 70000,
+      "high": 80000,
+      "unit": "USD per t/day of capacity",
+      "year": 2024,
+      "basis": "Current R&D value $70,000-80,000 per tonne-per-day of capture capacity; target $60,000-70,000/TPD; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante VeloxoTherm entry (FE0031944), Table 2, p. 186"
+      }
+    },
+    {
+      "metric": "Capture unit operating expenditure",
+      "low": 26,
+      "high": 28,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "Current R&D value $26-28/t CO2 including filter bed replacement and compression cost; target $20-23/t; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante VeloxoTherm entry (FE0031944), Table 2, p. 186"
+      }
+    },
+    {
+      "metric": "Cost of CO2 captured, Svante VeloxoTherm at Linde SMR hydrogen plant",
+      "low": 65,
+      "high": 78,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "Linde engineering study for a US Gulf Coast SMR capturing 1,435,000 t/yr net CO2 (92% capture efficiency): current R&D value $78/t, target $65/t; study status projects $88/t CO2 for a 30-year project life with debt plus equity financing and $124/t for 15-year equity-only financing; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Linde/Svante SMR engineering study entry (FE0032113), Table 2 p. 556 and status p. 556"
+      }
+    },
+    {
+      "metric": "CALF-20 structured sorbent manufacturing cost",
+      "low": 30,
+      "high": 35,
+      "unit": "USD/kg",
+      "year": 2024,
+      "basis": "Current value is market price of material $30-35/kg; target estimated bulk manufacturing cost $20-25/kg; dollar year not stated",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante VeloxoTherm entry (FE0031944), Table 1 Sorbent Process Parameters, p. 185"
+      }
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CO2 recovery of VeloxoTherm RC-TSA process",
+      "low": 90,
+      "high": 95,
+      "unit": "%",
+      "year": 2024,
+      "basis": "Process parameter table: CO2 recovery 90-95% (current R&D value), target 95%; CO2 product at 95% purity and 150 bar; engineering-scale test ran at about 8% feed CO2 (10.5% dry basis) with flexibility over 4-14% CO2",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante entry, Table 1 p. 186 and technical content p. 185"
+      }
+    },
+    {
+      "metric": "CO2 capture efficiency, Svante VeloxoTherm design at Linde SMR hydrogen plant",
+      "low": 92,
+      "high": 92,
+      "unit": "%",
+      "year": 2024,
+      "basis": "Commercial-scale design for an existing US Gulf Coast Linde SMR capturing about 1,435,000 t/yr net CO2 with at least 90% reduction in direct CO2 emissions; flue gas flow 596,000 kg/hr; blue H2 at 99.97% purity",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Linde/Svante SMR entry (FE0032113), p. 553 and Table 1 p. 554"
+      }
+    },
+    {
+      "metric": "Adsorption and desorption temperature of CALF-20 rapid cycle",
+      "low": 50,
+      "high": 140,
+      "unit": "degC",
+      "year": 2024,
+      "basis": "Adsorption at about 50 degC and 1-1.1 bar; desorption (direct steam regeneration at slight vacuum) at 120-140 degC and 0.8-1.0 bar",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante entry, Table 1 Sorbent Process Parameters, pp. 185-186"
+      }
+    },
+    {
+      "metric": "Heat of adsorption of CALF-20 sorbent",
+      "low": 35,
+      "high": 38,
+      "unit": "kJ/mol CO2",
+      "year": 2024,
+      "basis": "Physisorption mechanism; equilibrium loading 1.7-1.9 g mol CO2/kg dry sorbent in 20% CO2/N2 at adsorption and 0.3-0.4 g mol CO2/kg after desorption; heat of desorption 35-38 kJ/mol CO2",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante entry, Table 1 Sorbent Process Parameters, pp. 185-186"
+      }
+    },
+    {
+      "metric": "Sorbent lifetime without bed replacement",
+      "low": 3,
+      "high": 5,
+      "unit": "years",
+      "year": 2024,
+      "basis": "Three-to-five-year lifetime without bed replacement; high oxidation resistance below 50 ppm SOx and NOx and very stable under direct steam regeneration",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Chevron/Svante entry, sorbent make-up requirements, p. 186"
+      }
+    },
+    {
+      "metric": "Cycle time of rapid-cycle TSA process",
+      "low": 60,
+      "high": 60,
+      "unit": "s",
+      "year": 2024,
+      "basis": "Fast process cycle of less than 60 seconds in the segmented-bed Mark II VeloxoTherm (rapid-cycle rotary valve moving bed); temperature and relative humidity vary along the bed within the cycle",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL Compendium of Carbon Capture Technology 2024, Electricore/Svante structured sorbent beds entry (FE0031732), p. 297"
+      }
+    }
+  ],
   "sources": [
     {
       "url": "https://netl.doe.gov/node/11418",
@@ -134,56 +281,13 @@
       "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
       "source_id": "sintef",
       "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
-    }
-  ],
-  "last_reviewed": "2026-10-24",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        },
-        {
-          "hint": "IEAGHG technical reports (private copy only)",
-          "source_id": "iea-ghg",
-          "access": "open"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
-      "where": [
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        }
-      ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
+      "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+      "source_id": "netl",
+      "note": "NETL Compendium of Carbon Capture Technology 2024, Svante VeloxoTherm entries (Chevron FE0031944, Electricore FE0031732, Linde SMR FE0032113)"
     }
-  ]
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": []
 }

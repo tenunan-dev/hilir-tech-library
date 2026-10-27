@@ -97,13 +97,13 @@
       "note": "Compressortech2, Burckhardt to develop hydrogen compressor systems, 28 October 2021"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "compressor cost and specific energy",
       "reason_code": "not_in_sources_read",
-      "reason": "The article gives none.",
+      "reason": "The article gives none; the doe-hfto corpus records (checked 2026-10-28) give no hydrogen compressor capital cost or specific energy in kWh/kg either.",
       "where": [
         {
           "hint": "DOE hydrogen compression targets",

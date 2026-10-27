@@ -70,6 +70,20 @@
       "source_id": "man-energy"
     }
   ],
+  "reference_plants": [
+    {
+      "name": "PLTD Pesanggaran, Bali (PT Indonesia Power)",
+      "country": "ID",
+      "capacity": "200 MW, 12 x Wärtsilä 50DF multi-fuel engines",
+      "status": "in operation; delivered 2015 and began on HFO, primarily LNG since July 2016 (largest engine-based power plant in Indonesia)",
+      "year": 2015,
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+        "source_id": "wartsila",
+        "note": "Wärtsilä reference: PLTD Pesanggaran, Bali (200 MW multi-fuel, 2015)"
+      }
+    }
+  ],
   "performance": [
     {
       "metric": "18V50SG electrical efficiency (50 Hz)",
@@ -150,24 +164,15 @@
       "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants",
       "source_id": "wartsila",
       "note": "Wärtsilä, flexible baseload power plants page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+      "source_id": "wartsila",
+      "note": "Wärtsilä reference: PLTD Pesanggaran, Bali (200 MW multi-fuel, 2015); full text in corpus/wartsila/"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "reference plant with capacity in Southeast Asia",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page names Pesanggaran, Bali (200 MW multi-fuel) but gives no start-up year.",
-      "where": [
-        {
-          "hint": "Wärtsilä reference list",
-          "access": "open",
-          "source_id": "wartsila"
-        }
-      ],
-      "action": "Add start-up year and fuel."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

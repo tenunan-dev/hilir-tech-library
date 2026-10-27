@@ -144,6 +144,47 @@
       }
     }
   ],
+  "performance": [
+    {
+      "metric": "overall mass yield, alcohol to fuel blendstock, Core ATJ",
+      "low": 0.6,
+      "high": 0.75,
+      "unit": "kg fuel per kg alcohol fed",
+      "year": 2018,
+      "basis": "Aspen Core ATJ simulation at 200 ton/d alcohol feed: 0.60 for ethanol-to-jet, 0.75 for isobutanol-to-jet (Table 2); fuel production 39.15 vs 49.25 k-ton/yr respectively",
+      "source": {
+        "url": "https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf",
+        "source_id": "pnnl",
+        "note": "Geleynse et al., The Alcohol-to-Jet Conversion Pathway for Drop-In Biofuels, PNNL (2018), Table 2"
+      }
+    },
+    {
+      "metric": "jet fraction of fuel product, Core ATJ",
+      "low": 70,
+      "high": 70,
+      "unit": "% of fuel blendstock (maximum selected)",
+      "year": 2018,
+      "basis": "Selected fuel product distribution (gasoline/jet/diesel): 10/70/20 for ethanol-to-jet, 30/70/0 for isobutanol-to-jet; some jet-range product is fractionated off to meet distillation specification",
+      "source": {
+        "url": "https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf",
+        "source_id": "pnnl",
+        "note": "Geleynse et al., The Alcohol-to-Jet Conversion Pathway for Drop-In Biofuels, PNNL (2018), Table 2 and Section 2.1"
+      }
+    },
+    {
+      "metric": "hydrogen requirement, Core ATJ normalized to 10 million gal/yr ATJ-SPK",
+      "low": 1.1,
+      "high": 1.1,
+      "unit": "ton/day",
+      "year": 2018,
+      "basis": "Table 3: 1.1 ton/day H2 in both cases, at alcohol feed rates of 185 ton/d (ethanol-to-jet) and 147 ton/d (isobutanol-to-jet)",
+      "source": {
+        "url": "https://rosap.ntl.bts.gov/view/dot/57459/dot_57459_DS1.pdf",
+        "source_id": "pnnl",
+        "note": "Geleynse et al., The Alcohol-to-Jet Conversion Pathway for Drop-In Biofuels, PNNL (2018), Table 3"
+      }
+    }
+  ],
   "sources": [
     {
       "url": "https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/",
@@ -156,27 +197,8 @@
       "note": "Geleynse et al., The Alcohol-to-Jet Conversion Pathway for Drop-In Biofuels, PNNL (2018), author manuscript via ROSA; full text in corpus/pnnl/"
     }
   ],
-  "last_reviewed": "2026-10-25",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. The Geleynse et al. 2018 PNNL paper now in the corpus reports jet-fraction yields and has not been fully mined yet.",
-      "where": [
-        {
-          "hint": "Geleynse et al. 2018 in corpus/pnnl/ - alcohol conversion yields and jet fraction",
-          "source_id": "pnnl",
-          "access": "open"
-        },
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Extract jet-fraction yield and energy use from the Geleynse paper; add supplier datasheet figures."
-    }
-  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [],
   "trl": {
     "low": 8,
     "high": 8,

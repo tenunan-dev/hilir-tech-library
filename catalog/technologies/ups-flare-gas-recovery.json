@@ -122,7 +122,7 @@
       "field": "costs",
       "item": "capex per unit and payback with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "The tracker gives the flared volume only.",
+      "reason": "The tracker gives the flared volume only; the collected IEA documents state no capex per unit or payback for flare gas recovery and the World Bank GFMR reports were not collected.",
       "where": [
         {
           "hint": "IEA Global Methane Tracker documentation (collected)",
@@ -176,5 +176,5 @@
       "note": "IEA ETP Clean Energy Technology Guide, July 2026"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

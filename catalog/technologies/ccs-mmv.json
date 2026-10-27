@@ -79,6 +79,47 @@
       },
       "low": 1,
       "high": 1.1
+    },
+    {
+      "metric": "minimum detectable atmospheric CO2 release, single CRDS monitoring station",
+      "low": 14,
+      "high": 22,
+      "unit": "t CO2/d",
+      "year": 2017,
+      "basis": "statistical model of background CO2 built on four years of cavity ring-down spectroscopy data (Wilson et al. 2014): 22 t/d for a 100 m x 100 m area source and 14 t/d for a point source about 1 km from a single station, with a high alarm rate (56 percent); the manual concludes single-station atmospheric monitoring is better suited to quantifying an identified release than kilometre-scale release detection over vegetated regions; no cost figures for monitoring methods are given in the manual",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2018-10/BPM-MVA-2012.pdf",
+        "source_id": "netl",
+        "note": "DOE/NETL Best Practices: Monitoring, Verification and Accounting of CO2 Stored in Geologic Formations, 2017 rev., Section 3.1.3.1 Optical Sensors, pp. 28-29"
+      }
+    },
+    {
+      "metric": "microseismic detection threshold, Cranfield six-well array",
+      "low": 0,
+      "high": 0,
+      "unit": "moment magnitude (Mw)",
+      "year": 2017,
+      "basis": "no microseismicity was detected at the Cranfield site, with a calculated detection threshold of magnitude 0 and local pressure elevation of about 1,000 psi above hydrostatic; the manual states gravity-method CO2 detection thresholds are site-specific, with deeper reservoirs less suitable for gravity monitoring",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2018-10/BPM-MVA-2012.pdf",
+        "source_id": "netl",
+        "note": "DOE/NETL Best Practices: Monitoring, Verification and Accounting of CO2 Stored in Geologic Formations, 2017 rev., Section 3.3.2.4 Seismic Geophysical Methods, p. 59"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "3D seismic survey cost (NETL storage cost model input)",
+      "low": 60000,
+      "high": 80000,
+      "unit": "USD/mi2 (2008$)",
+      "year": 2008,
+      "basis": "NETL storage cost model parameter for 3D seismic monitoring across project phases: 60,000 (low-cost scenario), 67,000 (base), 80,000 (high-cost) 2008$/mi2; the only per-method monitoring cost stated in the NETL corpus documents read",
+      "source": {
+        "url": "https://netl.doe.gov/projects/VueConnection/download.aspx?id=c6081462-66d8-4cf2-a8e8-cd3424dce3d9&filename=QualityGuidelinesforEnergySystemStudiesCarbonDioxideTransportandStorageCostsinNETLStudies_073124.pdf",
+        "source_id": "netl",
+        "note": "QGESS: Carbon Dioxide Transport and Storage Costs in NETL Studies, DOE/NETL-2024/4852, July 2024, Exhibit 2-9 (p. 24)"
+      }
     }
   ],
   "advantages": [
@@ -91,24 +132,20 @@
     {
       "url": "https://albertainnovates.ca/wp-content/uploads/2022/07/CCUS-paper-carbon-MMV-Lawton-et-al.pdf",
       "note": "Lawton et al., CCUS monitoring, measurement and verification (Alberta Innovates)"
+    },
+    {
+      "url": "https://netl.doe.gov/sites/default/files/2018-10/BPM-MVA-2012.pdf",
+      "source_id": "netl",
+      "note": "DOE/NETL Best Practices: Monitoring, Verification and Accounting of CO2 Stored in Geologic Formations, 2017 rev."
+    },
+    {
+      "url": "https://netl.doe.gov/projects/VueConnection/download.aspx?id=c6081462-66d8-4cf2-a8e8-cd3424dce3d9&filename=QualityGuidelinesforEnergySystemStudiesCarbonDioxideTransportandStorageCostsinNETLStudies_073124.pdf",
+      "source_id": "netl",
+      "note": "QGESS: Carbon Dioxide Transport and Storage Costs in NETL Studies, DOE/NETL-2024/4852, July 2024"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "detection limits and cost of each method",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not in the paper.",
-      "where": [
-        {
-          "hint": "NETL MMV best-practice manual",
-          "access": "open",
-          "source_id": "netl"
-        }
-      ],
-      "action": "Add thresholds and costs."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

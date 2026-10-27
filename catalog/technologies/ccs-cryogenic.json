@@ -118,6 +118,21 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "cost of CO2 captured, InnoSepra sorbent-and-membrane cryogenic process, post-combustion power",
+      "low": 40,
+      "high": 40,
+      "unit": "USD/t CO2",
+      "year": 2024,
+      "basis": "NETL Compendium status: completed project achieved 'a CO2 capture cost of less than $40/tonne', recorded here as <=40 USD/t; project goal was 'about $30/MT by 2030' with capture cost 'greater than 40% lower' than solvent-based capture; bench-scale TEA, >=90% removal and >95% purity target; dollar year not stated, 2024 is the Compendium publication year; note the InnoSepra design is a sorbent/membrane process operating at near-cryogenic conditions, not the SES desublimation CCC design",
+      "source": {
+        "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+        "source_id": "netl",
+        "note": "NETL, Compendium of Carbon Capture Technology 2024, InnoSepra LLC - Sorbent and Membrane-Cryogenic Carbon Capture, pp. 290-291"
+      }
+    }
+  ],
   "advantages": [
     "Produces liquid CO2 directly, convenient for shipping",
     "Can also remove other pollutants as they freeze out"
@@ -135,33 +150,13 @@
       "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf",
       "source_id": "sintef",
       "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
+    },
+    {
+      "url": "https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf",
+      "source_id": "netl",
+      "note": "NETL, Compendium of Carbon Capture Technology 2024, InnoSepra LLC - Sorbent and Membrane-Cryogenic Carbon Capture, pp. 290-291"
     }
   ],
-  "last_reviewed": "2026-10-24",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        },
-        {
-          "hint": "IEAGHG technical reports (private copy only)",
-          "source_id": "iea-ghg",
-          "access": "open"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    }
-  ]
+  "last_reviewed": "2026-10-28",
+  "gaps": []
 }

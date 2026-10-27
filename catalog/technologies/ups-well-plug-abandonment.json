@@ -139,11 +139,53 @@
       "low": 1170558.11,
       "high": 1170558.11,
       "year": 2026
+    },
+    {
+      "metric": "average UKCS well decommissioning spend per well worked on, 2025 (derived)",
+      "low": 4.95,
+      "high": 4.95,
+      "unit": "GBP million",
+      "year": 2025,
+      "basis": "derived from stated 2025 actuals: GBP 1,273 million spent on decommissioning work on 257 wells, of which 114 reached fully decommissioned AB3 status; in-year (2025) prices; average computed from the stated spend and well count",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/w1fa3xvv/ukcs-decommissioning-cost-and-performance-update-2026.pdf",
+        "source_id": "uk-nsta",
+        "note": "NSTA UKCS Decommissioning Cost and Performance Update 2026, Well decommissioning, p.23 and Table 1 p.22"
+      }
+    },
+    {
+      "metric": "operator-reported saving per well on a recent eight-well UKCS campaign",
+      "low": 250000,
+      "high": 250000,
+      "unit": "GBP",
+      "year": 2026,
+      "basis": "saving of more than GBP 250,000 per well, approximately GBP 2 million in total on eight wells, attributed to using one supplier for multiple services and a small operational offshore footprint; currency year not stated, publication year used",
+      "source": {
+        "url": "https://www.nstauthority.co.uk/media/w1fa3xvv/ukcs-decommissioning-cost-and-performance-update-2026.pdf",
+        "source_id": "uk-nsta",
+        "note": "NSTA UKCS Decommissioning Cost and Performance Update 2026, Decommissioning spend and cost estimate, p.10"
+      }
     }
   ],
   "suppliers": [
     {
-      "name": "Rig and cementing service contractors (none named in the sources read)"
+      "name": "Cementing service contractors (none named in the sources read)"
+    },
+    {
+      "name": "Dolphin Drilling",
+      "product": "Paul B Loyd Junior semi-submersible rig used to abandon nine subsea wells in Harbour Energy's Balmoral Area Phase 1 campaign"
+    },
+    {
+      "name": "Wellstrom",
+      "product": "Wellstrom T1000 electrically run bismuth plug, trialled setting a 9-5/8\" x 13-3/8\" plug on TAQA Cormorant North with NZTC funding"
+    },
+    {
+      "name": "Axter",
+      "product": "Axter Retrieve control-line tool string enabling tubing-in-hole (through-tubing) abandonment; trialled by TotalEnergies and Aker BP at Ullrigg"
+    },
+    {
+      "name": "Exedra",
+      "product": "Balder tracer-gas tool for verifying P&A barriers, pilot jointly funded by NZTC, NORCE and the Norwegian Research Council"
     }
   ],
   "advantages": [
@@ -161,7 +203,7 @@
       "field": "costs",
       "item": "average P&A cost per well offshore Southeast Asia and per well in the UKCS",
       "reason_code": "not_in_sources_read",
-      "reason": "The NSTA report read gives totals and spend, not a clear cost per well; the LEMIGAS figure is one onshore well.",
+      "reason": "The NSTA report read gives totals and spend, not a clear cost per well; the LEMIGAS figure is one onshore well. UKCS per-well spend and an operator per-well saving have been added from the NSTA 2026 update; a Southeast Asia per-well average is still not in the sources read.",
       "where": [
         {
           "hint": "NSTA decommissioning benchmarking report (appendices); SKK Migas decommissioning guidance",
@@ -170,20 +212,6 @@
         }
       ],
       "action": "Add cost per well with dollar year and basis from the NSTA appendices or SKK Migas."
-    },
-    {
-      "field": "suppliers",
-      "item": "named service companies and new plug technologies (thermite, bismuth, through-tubing)",
-      "reason_code": "not_in_sources_read",
-      "reason": "The NSTA report mentions through-tubing abandonment trials but names no supplier; the register lists thermite and bismuth plugs (Interwell, BiSN) as demonstration, and they have no card yet.",
-      "where": [
-        {
-          "hint": "Supplier pages for Interwell and BiSN; NSTA well P&A technology trials",
-          "access": "open",
-          "source_id": "uk-nsta"
-        }
-      ],
-      "action": "Add a card for the new plug technologies and name suppliers of conventional P&A services."
     },
     {
       "field": "process",
@@ -210,7 +238,12 @@
       "url": "https://www.nstauthority.co.uk/media/w1fa3xvv/ukcs-decommissioning-cost-and-performance-update-2026.pdf",
       "source_id": "uk-nsta",
       "note": "NSTA UKCS Decommissioning Cost and Performance Update 2026"
+    },
+    {
+      "url": "https://www.nstauthority.co.uk/media/3rmh154v/the-wells-decommissioning-collab-overview.pdf",
+      "source_id": "uk-nsta",
+      "note": "NSTA Wells Decommissioning Collaboration Overview"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }

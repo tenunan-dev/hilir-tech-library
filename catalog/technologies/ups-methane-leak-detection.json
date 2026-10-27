@@ -124,6 +124,47 @@
       "year": 2025
     }
   ],
+  "costs": [
+    {
+      "metric": "greenhouse gas emissions price at which almost all available methane abatement measures across the energy sector would be cost-effective",
+      "low": 20,
+      "high": 20,
+      "unit": "USD/tCO2-eq",
+      "year": 2025,
+      "basis": "dollar year not stated; read from the marginal abatement cost curves for methane from the fossil fuel sector, 2024; 1 t methane treated as 30 t CO2-eq (GWP100, IPCC 2021); value of captured methane based on 2024 net-back natural gas import prices; per-survey and per-sensor costs are not stated in the collected documents",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025, Overcoming barriers to abatement, p. 42"
+      }
+    },
+    {
+      "metric": "payback period of many oil and gas methane abatement options",
+      "low": 1,
+      "high": 1,
+      "unit": "years",
+      "year": 2025,
+      "basis": "dollar year not stated; document states many abatement options can pay for themselves within a year and around 30% of oil and gas industry emissions could be avoided with measures offering rates of return of more than 25%; value of methane captured based on net-back natural gas import prices in 2024",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025, Key findings, p. 12"
+      }
+    },
+    {
+      "metric": "share of LDAR emissions savings achievable at no net cost to operators (Eurasia oil and gas)",
+      "low": 95,
+      "high": 95,
+      "unit": "% of LDAR emissions savings in Eurasia",
+      "year": 2025,
+      "basis": "dollar year not stated; includes rapid-response systems for addressing large emissions events detected by satellite",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/b83c32dd-fc1b-4917-96e9-8cd918801cbf/GlobalMethaneTracker2025.pdf",
+        "source_id": "iea-methane-tracker",
+        "note": "IEA Global Methane Tracker 2025, Regional insights (Eurasia), p. 55"
+      }
+    }
+  ],
   "trl": {
     "low": 9,
     "high": 9,
@@ -158,20 +199,6 @@
     "Measurement quality varies"
   ],
   "gaps": [
-    {
-      "field": "costs",
-      "item": "cost per survey, per sensor and per tonne of methane abated",
-      "reason_code": "not_in_sources_read",
-      "reason": "The tracker gives the no-net-cost share but the cost curves were not read in detail.",
-      "where": [
-        {
-          "hint": "IEA Global Methane Tracker documentation (collected: corpus/iea-methane-tracker)",
-          "access": "open",
-          "source_id": "iea-methane-tracker"
-        }
-      ],
-      "action": "Read the abatement cost curves and record USD per tonne with year."
-    },
     {
       "field": "process",
       "item": "process steps are general practice, not taken from one source",
@@ -212,5 +239,5 @@
       "note": "IEA ETP Clean Energy Technology Guide, July 2026"
     }
   ],
-  "last_reviewed": "2026-10-24"
+  "last_reviewed": "2026-10-28"
 }
