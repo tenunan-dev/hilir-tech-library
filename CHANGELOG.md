@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.12] — 2026-10-28 — Wave 3 complete: all 36 sector batches swept, 1,012 → 921 open gaps
+
+### Changed
+- All 15 sectors swept (CCS-2/3, H2 all four batches, ROT/MAT/INS/DIG/LNG/HSE/PRC included; 153 closures in the wave). Highlights: Carbfix injection below USD 25/t, MCi Myrtle ex-situ plant, UNDO basalt trials, Verdox 1 GJ/t electro-swing, Sleipner and Northern Lights storage references with costs, ammonia marine world-firsts (Singapore 2024), biogas-upgrading energy by route, Stegra Boden, natural-hydrogen cost estimates (IEAGHG), e-fuel cost ranges, STH efficiency records, PCHE design envelope, OSC/OSDU licence resolved (Apache-2.0), Sakhalin-2 DMR trains, PFLNG Satu, and OEM supplier entries across compressors, pumps, valves, heat exchangers, NDT, FRP, RBI, APC, DCS, OT security, analysers, SIS, IIoT, AI-maintenance and process simulation. Every kept gap now carries a dated clause recording what was searched.
+
 ## [2026.10.27.11] — 2026-10-28 — Wave 3 continues: 1,012 → 957 open gaps
 
 ### Changed
