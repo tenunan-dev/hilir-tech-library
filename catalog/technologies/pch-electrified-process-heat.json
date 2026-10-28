@@ -108,13 +108,13 @@
       "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost and steam cost versus gas boilers",
       "reason_code": "not_in_sources_read",
-      "reason": "Not in the articles.",
+      "reason": "Not in the articles. Web-checked 2026-10-28; e-boiler vs gas steam cost comparisons found only in vendor/consultancy material without verifiable figures.",
       "where": [
         {
           "hint": "IEA industrial heat reports",
@@ -128,7 +128,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named chemical-site e-boiler installation with figures found.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",

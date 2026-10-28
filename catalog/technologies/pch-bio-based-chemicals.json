@@ -95,6 +95,26 @@
         "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
         "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
       }
+    },
+    {
+      "name": "NatureWorks Ingeo PLA plant, Blair, Nebraska",
+      "country": "US",
+      "capacity": "nameplate 140,000 t/yr (300 million lb), world's first and largest PLA plant (doubled to full design capacity by 2009)",
+      "status": "operating",
+      "source": {
+        "url": "https://cen.acs.org/articles/87/i28/NatureWorks-Ups-PLA-Capacity.html",
+        "note": "C&EN, 13 Jul 2009 (doubling to 140,000 t/yr design capacity); read 2026-10-28"
+      }
+    },
+    {
+      "name": "NatureWorks Ingeo PLA plant, Rayong, Thailand",
+      "country": "TH",
+      "capacity": "75,000 t/yr; construction milestone Feb 2023, production planned from 2025",
+      "status": "construction",
+      "source": {
+        "url": "https://www.chemengonline.com/natureworks-progresses-construction-of-pla-biopolymer-plant-in-thailand",
+        "note": "Chemical Engineering, 24 Oct 2023 (read 2026-10-28)"
+      }
     }
   ],
   "trl": {
@@ -117,28 +137,19 @@
     {
       "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
       "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://cen.acs.org/articles/87/i28/NatureWorks-Ups-PLA-Capacity.html",
+      "note": "C&EN, NatureWorks ups PLA capacity, 13 Jul 2009"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "PLA plants and costs",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only Braskem covered.",
-      "where": [
-        {
-          "hint": "NatureWorks and TotalEnergies Corbion pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add PLA plants."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; PLA plant capex not published in open pages.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",

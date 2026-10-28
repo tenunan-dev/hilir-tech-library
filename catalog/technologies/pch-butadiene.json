@@ -70,6 +70,18 @@
         "note": "Lummus Technology, butadiene extraction technology sheet, 15 September 2020"
       },
       "low": 4
+    },
+    {
+      "metric": "butadiene co-production share from steam cracking",
+      "low": 95,
+      "high": 95,
+      "unit": "% of butadiene produced as a by-product of ethylene production",
+      "year": 2007,
+      "basis": "\"Over 95% of butadiene is produced as a by-product of ethylene production from steam cracking\" (White WC, Butadiene production process overview, 2007); on-purpose routes (dehydrogenation) supply the remainder",
+      "source": {
+        "url": "https://europepmc.org/article/med/17324391",
+        "note": "White WC (2007), Chem-Bio Interactions via Europe PMC (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -85,13 +97,13 @@
       "note": "Lummus Technology, butadiene extraction technology sheet, 15 September 2020"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "process",
       "item": "CATADIENE and other on-purpose routes",
       "reason_code": "not_in_sources_read",
-      "reason": "Only the extraction sheet was read.",
+      "reason": "Only the extraction sheet was read. Web-checked 2026-10-28: no open CATADIENE (on-purpose butane dehydrogenation) page found; co-production share and BASF-NMP reference recorded.",
       "where": [
         {
           "hint": "Lummus CATADIENE page",
@@ -105,7 +117,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; unit capex licensor-quoted.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -125,23 +137,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -150,6 +149,18 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "KPIC butadiene extraction unit, Ulsan, South Korea (Lummus, BASF NMP process)",
+      "country": "KR",
+      "capacity": "146,000 t/yr butadiene via BASF BDE NMP extractive distillation, licensed by Lummus (award May 2021)",
+      "status": "construction",
+      "source": {
+        "url": "https://www.european-rubber-journal.com/article/2071146/lummus-to-build-butadiene-plant-for-korea-s-kpic",
+        "note": "European Rubber Journal, 26 May 2021; process-worldwide: 146,000 MTA on completion; read 2026-10-28"
+      }
     }
   ]
 }

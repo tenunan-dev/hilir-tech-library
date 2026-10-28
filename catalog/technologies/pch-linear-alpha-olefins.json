@@ -92,7 +92,7 @@
       "field": "performance",
       "item": "product distribution and selectivity",
       "reason_code": "not_in_sources_read",
-      "reason": "Not in the article; the collected Linde document (gas conditioning and purification: CO shift conversion, Rectisol wash) contains no alpha-SABLIN product distribution or selectivity data.",
+      "reason": "Not in the article; the collected Linde document (gas conditioning and purification: CO shift conversion, Rectisol wash) contains no alpha-SABLIN product distribution or selectivity data. Web-checked 2026-10-28: LAO distributions follow near-Flory statistics by carbon number, but the open pages found state no verifiable distribution table.",
       "where": [
         {
           "hint": "Linde alpha-SABLIN brochure",
@@ -106,7 +106,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -129,7 +129,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

@@ -109,6 +109,18 @@
       },
       "low": 2.3,
       "high": 2.3
+    },
+    {
+      "metric": "para-xylene yield on crude oil for crude-to-aromatics plants",
+      "low": 5,
+      "high": 20,
+      "unit": "% by weight of crude (typical complexes 5-10%; new crude-to-PX plants expected >20%)",
+      "year": 2019,
+      "basis": "Nexant, Disruption in Aromatics (17 Jan 2019): \"PX yields on crude oil by weight are typically from five to ten percent, but these new plants are expected to yield over 20 percent by converting heavy crude\"; PX-per-tonne-naphtha and complex energy-use figures were not stated in open pages read",
+      "source": {
+        "url": "https://www.nexanteca.com/sites/default/files/Nexant%20-%20Disruption%20in%20Aromatics%20-%20Blog%2017-Jan-2019.pdf",
+        "note": "NexantECA blog PDF, 17 Jan 2019 (read 2026-10-28)"
+      }
     }
   ],
   "reference_plants": [
@@ -138,13 +150,13 @@
       "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "energy use and overall PX yield per tonne naphtha",
       "reason_code": "not_in_sources_read",
-      "reason": "Only a UOP claim of doubling PX yield.",
+      "reason": "Only a UOP claim of doubling PX yield. PX-on-crude yields recorded in performance (5-10% typical, >20% new plants, Nexant 2019); per-tonne-naphtha and energy figures not found open, 2026-10-28.",
       "where": [
         {
           "hint": "UOP aromatics brochures",
@@ -158,7 +170,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; complex capex case-specific.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -181,7 +193,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

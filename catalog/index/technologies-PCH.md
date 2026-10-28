@@ -4,7 +4,7 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Acetic acid (methanol carbonylation)](#pch-acetic-acid) | Intermediates / acetyls | commercial |  | BP (Cativa); Celanese (register examples) |  |
+| [Acetic acid (methanol carbonylation)](#pch-acetic-acid) | Intermediates / acetyls | commercial |  | BP (Cativa); Celanese (register examples) | capital cost of a world-scale acetic acid plant (named datapoint): 600 USD per tonne/yr of capacity (USD 300 m for 500,000 t/yr) (2000$) |
 | [Ammonia and urea](#pch-ammonia-urea) | Intermediates / fertiliser | commercial | 8 | Stamicarbon (urea stripping and N=3 concepts); Topsoe (register examples); KBR (register examples); thyssenkrupp Uhde (register examples); Casale (register examples) |  |
 | [Aromatics complexes (paraxylene, benzene)](#pch-aromatics-complex) | Aromatics | commercial |  | Honeywell UOP (CCR Platforming, Parex, Isomar, Tatoray, Sulfolane); Axens (aromatics (register examples)) |  |
 | [Bio-based chemicals (bio-ethylene, bio-PE, PLA)](#pch-bio-based-chemicals) | Circular chemicals / bio-based | commercial | 9 | Braskem (Green PE); NatureWorks (PLA (register examples; not verified)); TotalEnergies Corbion (PLA (register examples; not verified)) |  |
@@ -49,14 +49,19 @@ flowchart LR
 
 **Key equipment:** carbonylation reactor, flash vessel, light-ends and drying columns.
 
+**Costs:**
+- capital cost of a world-scale acetic acid plant (named datapoint): 600 USD per tonne/yr of capacity (USD 300 m for 500,000 t/yr) (2000$); derived from the Celanese Singapore plant launch report (about USD 300 m for 500,000 t/yr, 100 employees); dollar year not stated in the source (publication ~2000s); operating costs not stated in open sources. [source](https://www.researchgate.net/publication/294275655_Celanese_launches_acetic_acid_plant_in_Singapore)
+
+**Reference plants:**
+- Celanese Clear Lake acetic acid plant, Texas, US: 1.3 Mt/yr, with a planned expansion to about 2 Mt/yr announced March 2019 - among the world's largest acetic acid units (methanol carbonylation); operating. [source](https://www.bicmagazine.com/industry/refining-petrochem/march-19-celanese-looks-to-expand-clear-lake-acetic-acid-facility)
+- Celanese acetic acid plant, Singapore, SG: 500,000 t/yr; plant cost about USD 300 million at launch; operating. [source](https://www.researchgate.net/publication/294275655_Celanese_launches_acetic_acid_plant_in_Singapore)
+
 **Missing inputs:**
-- conditions, yields and plant capacities (performance): The secondary source gives no numbers. Where: BP Cativa licensing page (open). Next: Add primary data.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- conditions, yields and plant capacities (performance): The secondary source gives no numbers. Web-checked 2026-10-28: named plant capacities recorded in reference_plants; Cativa conditions/yield tables remain in licensor literature. Where: BP Cativa licensing page (open). Next: Add primary data.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Cativa_process). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Cativa_process). Last reviewed 2026-10-28.
 
 ## Ammonia and urea
 <a id="pch-ammonia-urea"></a>
@@ -89,7 +94,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; GHR 2025 LCOH/cost context already recorded; ammonia-plant capex figures are vendor/EPC quotes. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf), [2](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-28.
@@ -119,17 +124,18 @@ flowchart LR
 
 **Performance:**
 - LD Parex paraxylene recovery at Hengyi Brunei: 2.3 Mtpa; total paraxylene capacity above 3.8 Mtpa after Phase 2. [source](https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex)
+- para-xylene yield on crude oil for crude-to-aromatics plants: 5-20 % by weight of crude (typical complexes 5-10%; new crude-to-PX plants expected >20%); Nexant, Disruption in Aromatics (17 Jan 2019): "PX yields on crude oil by weight are typically from five to ten percent, but these new plants are expected to yield over 20 percent by converting heavy crude"; PX-per-tonne-naphtha and complex energy-use figures were not stated in open pages read. [source](https://www.nexanteca.com/sites/default/files/Nexant%20-%20Disruption%20in%20Aromatics%20-%20Blog%2017-Jan-2019.pdf)
 
 **Reference plants:**
 - Hengyi Industries aromatics expansion, Pulau Muara Besar, BN: 2.3 Mtpa Parex; total PX above 3.8 Mtpa; Phase 2 commissioning scheduled for 2022 in the article. [source](https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex)
 
 **Missing inputs:**
-- energy use and overall PX yield per tonne naphtha (performance): Only a UOP claim of doubling PX yield. Where: UOP aromatics brochures (catalog: honeywell-uop, open). Next: Add yields.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- energy use and overall PX yield per tonne naphtha (performance): Only a UOP claim of doubling PX yield. PX-on-crude yields recorded in performance (5-10% typical, >20% new plants, Nexant 2019); per-tonne-naphtha and energy figures not found open, 2026-10-28. Where: UOP aromatics brochures (catalog: honeywell-uop, open). Next: Add yields.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; complex capex case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex). Last reviewed 2026-10-25.
+Sources: [1](https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex). Last reviewed 2026-10-28.
 
 ## Bio-based chemicals (bio-ethylene, bio-PE, PLA)
 <a id="pch-bio-based-chemicals"></a>
@@ -153,15 +159,16 @@ flowchart LR
 
 **Reference plants:**
 - Braskem Green PE, Triunfo, BR: 200,000 t/yr; . [source](https://en.wikipedia.org/wiki/Renewable_polyethylene)
+- NatureWorks Ingeo PLA plant, Blair, Nebraska, US: nameplate 140,000 t/yr (300 million lb), world's first and largest PLA plant (doubled to full design capacity by 2009); operating. [source](https://cen.acs.org/articles/87/i28/NatureWorks-Ups-PLA-Capacity.html)
+- NatureWorks Ingeo PLA plant, Rayong, Thailand, TH: 75,000 t/yr; construction milestone Feb 2023, production planned from 2025; construction. [source](https://www.chemengonline.com/natureworks-progresses-construction-of-pla-biopolymer-plant-in-thailand)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Ethylene production using fermentation' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- PLA plants and costs (reference_plants): Only Braskem covered. Where: NatureWorks and TotalEnergies Corbion pages (open). Next: Add PLA plants.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; PLA plant capex not published in open pages. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Renewable_polyethylene). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Renewable_polyethylene), [2](https://cen.acs.org/articles/87/i28/NatureWorks-Ups-PLA-Capacity.html). Last reviewed 2026-10-28.
 
 ## Butadiene extraction and on-purpose butadiene
 <a id="pch-butadiene"></a>
@@ -180,14 +187,17 @@ flowchart LR
 **Performance:**
 - butadiene recovery: 99 %; more than 99% of feed 1,3-butadiene; product 99.7 wt%. [source](https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf)
 - installed licensed capacity: 4 Mtpa; 38 plants worldwide. [source](https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf)
+- butadiene co-production share from steam cracking: 95 % of butadiene produced as a by-product of ethylene production; "Over 95% of butadiene is produced as a by-product of ethylene production from steam cracking" (White WC, Butadiene production process overview, 2007); on-purpose routes (dehydrogenation) supply the remainder. [source](https://europepmc.org/article/med/17324391)
+
+**Reference plants:**
+- KPIC butadiene extraction unit, Ulsan, South Korea (Lummus, BASF NMP process), KR: 146,000 t/yr butadiene via BASF BDE NMP extractive distillation, licensed by Lummus (award May 2021); construction. [source](https://www.european-rubber-journal.com/article/2071146/lummus-to-build-butadiene-plant-for-korea-s-kpic)
 
 **Missing inputs:**
-- CATADIENE and other on-purpose routes (process): Only the extraction sheet was read. Where: Lummus CATADIENE page (catalog: lummus, open). Next: Add dehydrogenation data.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- CATADIENE and other on-purpose routes (process): Only the extraction sheet was read. Web-checked 2026-10-28: no open CATADIENE (on-purpose butane dehydrogenation) page found; co-production share and BASF-NMP reference recorded. Where: Lummus CATADIENE page (catalog: lummus, open). Next: Add dehydrogenation data.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; unit capex licensor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf). Last reviewed 2026-10-28.
 
 ## Engineering plastics (polycarbonate, nylon)
 <a id="pch-engineering-plastics"></a>
@@ -207,12 +217,12 @@ flowchart LR
 
 **Missing inputs:**
 - process descriptions, capacities and energy use for polycarbonate and nylon (performance): Search results were patents and a paywalled news item. Where: Covestro and SABIC technical pages (catalog: sabic-licensing, open); IHS Process Economics Program (paid) (paid). Next: Add a licensor or review source.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.plasteurope.com/news/detail.asp?id=253846). Last reviewed 2026-10-25.
+Sources: [1](https://www.plasteurope.com/news/detail.asp?id=253846). Last reviewed 2026-10-28.
 
 ## Ethylene oxide and glycols
 <a id="pch-ethylene-oxide-glycols"></a>
@@ -236,13 +246,15 @@ flowchart LR
 - EO catalyst selectivity, high-selectivity types: 86-90 %; start of cycle: early HS at least 86%, later HS 90% or more; HP averaged about 87% in one plant. [source](https://catalysts.shell.com/hubfs/Content%20Library/SCT%20-%20Enhancements%20in%20EOEG%20Manufacturing%20Technology.pdf)
 - MEG yield, catalytic two-step versus thermal: 90-99 %; thermal 90 to 92%; catalytic more than 99%. [source](https://catalysts.shell.com/hubfs/Content%20Library/SCT%20-%20Enhancements%20in%20EOEG%20Manufacturing%20Technology.pdf)
 
+**Reference plants:**
+- Shell monoethylene glycol plant, Jurong Island, Singapore (OMEGA process), SG: MEG via the OMEGA route (EO to ethylene carbonate, then catalytic hydrolysis) - the first fully catalytic EG process; supported by Shell's 2015 ethylene-unit upgrade on the island; operating. [source](https://chemanager-online.com/en/news/shell-upgrades-singapore-ethylene-production)
+
 **Missing inputs:**
-- OMEGA plants (reference_plants): Not in this paper. Where: Shell OMEGA page (catalog: shell-catalysts, open). Next: Add plants.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://catalysts.shell.com/hubfs/Content%20Library/SCT%20-%20Enhancements%20in%20EOEG%20Manufacturing%20Technology.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://catalysts.shell.com/hubfs/Content%20Library/SCT%20-%20Enhancements%20in%20EOEG%20Manufacturing%20Technology.pdf). Last reviewed 2026-10-28.
 
 ## Linear alpha olefins
 <a id="pch-linear-alpha-olefins"></a>
@@ -265,9 +277,9 @@ flowchart LR
 - Jubail United alpha-SABLIN LAO plant, SA: 150,000 t/yr; . [source](https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing)
 
 **Missing inputs:**
-- product distribution and selectivity (performance): Not in the article; the collected Linde document (gas conditioning and purification: CO shift conversion, Rectisol wash) contains no alpha-SABLIN product distribution or selectivity data. Where: Linde alpha-SABLIN brochure (catalog: linde-engineering, open). Next: Add distribution.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- product distribution and selectivity (performance): Not in the article; the collected Linde document (gas conditioning and purification: CO shift conversion, Rectisol wash) contains no alpha-SABLIN product distribution or selectivity data. Web-checked 2026-10-28: LAO distributions follow near-Flory statistics by carbon number, but the open pages found state no verifiable distribution table. Where: Linde alpha-SABLIN brochure (catalog: linde-engineering, open). Next: Add distribution.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing). Last reviewed 2026-10-28.
@@ -292,13 +304,13 @@ flowchart LR
 - European post-consumer plastic waste collected for recycling, 2018: 32.5 %; country rates 20 to 45%. [source](https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf)
 
 **Missing inputs:**
-- yields and recyclate quality limits (performance): The paper gives no yields. Where: Plastics Recyclers Europe reports (open). Next: Add yield data.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- yields and recyclate quality limits (performance): The paper gives no yields. Web-checked 2026-10-28: quality degradation per mechanical cycle is well described qualitatively (IV loss, chain scission) but no verified numeric yield/quality-limit table found in open pages. Where: Plastics Recyclers Europe reports (open). Next: Add yield data.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added this pass. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf). Last reviewed 2026-10-28.
 
 ## Metathesis (OCT)
 <a id="pch-olefins-metathesis"></a>
@@ -811,11 +823,11 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Large-scale heat pump (low temperature heating)' 9 (2025); 'High value chemicals production using steam cracker electrification' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and steam cost versus gas boilers (costs): Not in the articles. Where: IEA industrial heat reports (catalog: iea-reports, open). Next: Add costs.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- capital cost and steam cost versus gas boilers (costs): Not in the articles. Web-checked 2026-10-28; e-boiler vs gas steam cost comparisons found only in vendor/consultancy material without verifiable figures. Where: IEA industrial heat reports (catalog: iea-reports, open). Next: Add costs.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named chemical-site e-boiler installation with figures found. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.thechemicalengineer.com/news/basf-begins-installation-of-industrial-heat-pump-to-deliver-net-zero-steam-at-ludwigshafen/), [2](https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/). Last reviewed 2026-10-25.
+Sources: [1](https://www.thechemicalengineer.com/news/basf-begins-installation-of-industrial-heat-pump-to-deliver-net-zero-steam-at-ludwigshafen/), [2](https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/). Last reviewed 2026-10-28.
 
 ## Oxidative coupling of methane
 <a id="pch-oxidative-coupling-methane"></a>

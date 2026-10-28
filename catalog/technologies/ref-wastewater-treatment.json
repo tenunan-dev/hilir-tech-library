@@ -129,7 +129,7 @@
       "field": "reference_plants",
       "item": "operators other than the Kawrgosk study",
       "reason_code": "not_in_sources_read",
-      "reason": "One refinery study.",
+      "reason": "One refinery study. Web-checked 2026-10-28; refinery wastewater case studies are vendor-published without verifiable operator figures.",
       "where": [
         {
           "hint": "Veolia and Suez references",
@@ -142,7 +142,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'wastewater', 'waste water', 'effluent', 'API separator', 'dissolved air flotation', 'membrane bioreactor', 'activated sludge'); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'wastewater', 'waste water', 'effluent', 'API separator', 'dissolved air flotation', 'membrane bioreactor', 'activated sludge'); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
