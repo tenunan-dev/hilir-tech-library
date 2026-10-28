@@ -1,0 +1,32 @@
+{
+  "id": "bisn",
+  "name": "BiSN Well Tools",
+  "country": "United Kingdom",
+  "roles": [
+    "service",
+    "supplier"
+  ],
+  "description": "UK provider of bismuth-based well plugging technology: thermite-activated bismuth alloy plugs (Wel-lok M2M) that form gas-tight permanent barriers, deployed on wireline.",
+  "technologies": [
+    "ups-thermite-bismuth-plugs",
+    "ups-well-plug-abandonment"
+  ],
+  "url": "https://bisn.com",
+  "sources": [
+    {
+      "url": "https://bisn.com",
+      "note": "Vendor site, read 2026-10-28"
+    },
+    {
+      "url": "https://jpt.spe.org/well-abandonment-solutions-use-bismuth-and-thermite-effectively-and-safely",
+      "note": "JPT on bismuth-thermite P&A, 30 Apr 2019"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "BiSN"
+  ],
+  "products": [
+    "Wel-lok M2M plug"
+  ]
+}

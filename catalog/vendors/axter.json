@@ -1,0 +1,24 @@
+{
+  "id": "axter",
+  "name": "Axter",
+  "country": "Norway",
+  "roles": [
+    "service"
+  ],
+  "description": "Norwegian well-intervention specialist whose through-tubing penetration and retrieval tools give access to annulus B for plugging and recompletion work; its Retrieve tool was qualified at the Ullrigg test well with TotalEnergies and Aker BP.",
+  "technologies": [
+    "ups-well-plug-abandonment"
+  ],
+  "url": "https://axter.no",
+  "sources": [
+    {
+      "url": "https://axter.no/applications/eor",
+      "note": "Axter EOR/annulus-B application page, read 2026-10-28"
+    },
+    {
+      "url": "https://www.nsta.co.uk/news/wells-decommissioning-collab-overview",
+      "note": "NSTA Wells Decommissioning Collaboration Overview (Ullrigg trial)"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

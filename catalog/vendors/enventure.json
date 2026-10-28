@@ -1,0 +1,24 @@
+{
+  "id": "enventure",
+  "name": "Enventure Global Technology",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Houston company (founded 1998) that pioneered solid expandable tubular technology; its SET systems and ESeal liners repair casing and isolate zones without milling full strings.",
+  "technologies": [
+    "ups-casing-drilling-expandable-tubulars"
+  ],
+  "url": "https://www.enventuregt.com",
+  "sources": [
+    {
+      "url": "https://www.enventuregt.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "SET expandable tubulars",
+    "ESeal liner"
+  ]
+}

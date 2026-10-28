@@ -1,0 +1,32 @@
+{
+  "id": "wellstrom",
+  "name": "Wellstrom AS",
+  "country": "Norway",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Norwegian company (Aarbakke Innovation, K2 Oilfield Services and UK's Rawwater Engineering) supplying surface-controlled, electrically set bismuth alloy barriers for P&A; installed the world's first T-1000 alloy barrier in Texas in August 2025.",
+  "technologies": [
+    "ups-thermite-bismuth-plugs",
+    "ups-well-plug-abandonment"
+  ],
+  "url": "https://wellstrom.com",
+  "sources": [
+    {
+      "url": "https://wellstrom.com",
+      "note": "Vendor site read 2026-10-28 (footer: Aarbakke/K2/Rawwater announce WellStrøm AS; T-1000 world first, Texas, Aug 2025)"
+    },
+    {
+      "url": "https://www.nsta.co.uk/news/wells-decommissioning-collab-overview",
+      "note": "NSTA Collab Overview (TAQA Cormorant North trial)"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "WellStrøm"
+  ],
+  "products": [
+    "T-1000 electric bismuth barrier"
+  ]
+}

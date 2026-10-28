@@ -1,0 +1,23 @@
+{
+  "id": "core-laboratories",
+  "name": "Core Laboratories",
+  "country": "USA",
+  "roles": [
+    "service"
+  ],
+  "description": "Houston-based reservoir description and production-enhancement laboratory group with more than 70 offices in over 50 countries, specialising in core and fluid analysis.",
+  "technologies": [
+    "ups-digital-core-analysis"
+  ],
+  "url": "https://www.corelab.com",
+  "sources": [
+    {
+      "url": "https://www.corelab.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Core Lab"
+  ]
+}

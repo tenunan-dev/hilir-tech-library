@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-85 vendor records covering 62 technologies. One record per vendor in
+99 vendor records covering 65 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -84,20 +84,34 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [Axter](https://axter.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
+| [BiSN Well Tools](https://bisn.com) | United Kingdom | service, supplier | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
+| [Borets Company](https://www.borets.ru) | Russia | oem, service | Electric submersible pumps |
+| [Computer Modelling Group](https://www.cmgl.ca) | Canada | supplier | Reservoir simulation (black oil, compositional, thermal) |
+| [Core Laboratories](https://www.corelab.com) | USA | service | Digital core and special core analysis |
+| [Dolphin Drilling](https://dolphindrilling.com) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [Dover Corporation](https://www.dovercorporation.com) | USA | oem, supplier | Rod lift and progressing cavity pumps |
+| [Enventure Global Technology](https://www.enventuregt.com) | USA | oem | Casing drilling and expandable tubulars |
+| [Exedra AS](https://exedra.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
+| [Framo](https://www.onesubsea.slb.com) | Norway | oem | Subsea boosting and multiphase pumps; Subsea separation and water reinjection |
 | [Halliburton](https://www.halliburton.com) | USA | service, supplier | AI-assisted seismic interpretation and history matching; Coiled tubing and well intervention; Hydraulic fracturing (plug-and-perf, electric frac fleets); Intelligent completions and inflow control devices; Managed pressure drilling; Measurement and logging while drilling (MWD/LWD); Production optimisation and digital oilfield; Rotary steerable systems; Sand control (gravel pack, frac pack, screens) |
 | [Halliburton Landmark](https://www.landmark.solutions) | USA | supplier, service | Full-waveform inversion and seismic imaging |
 | [Helmerich & Payne](https://www.hpinc.com) | USA | service | Drilling automation and autonomous rigs |
+| [Interwell](https://interwell.com) | Norway | service | Well plug and abandonment technologies (thermite, bismuth plugs) |
 | [Liberty Energy](https://libertyenergy.com) | USA | service | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
 | [Liberty Lift Solutions](https://www.libertylift.com) | USA | service, supplier | Plunger lift and hydraulic jet pumps |
 | [MISC Berhad](https://www.miscgroup.com) | Malaysia | operator, packager | FPSO and floating production (TLP, spar, semi-submersible) |
 | [MODEC Inc.](https://www.modec.com) | Japan | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Nabors Industries](https://www.nabors.com) | Bermuda | oem, service | Drilling automation and autonomous rigs |
 | [NOV Inc.](https://www.nov.com) | USA | oem, supplier | Coiled tubing and well intervention; Drilling automation and autonomous rigs; Managed pressure drilling; Rod lift and progressing cavity pumps |
+| [Novomet](https://novomet.ru) | Russia | oem | Electric submersible pumps |
+| [Rock Flow Dynamics](https://rfdyn.com) | Russia | supplier | Reservoir simulation (black oil, compositional, thermal) |
 | [SBM Offshore](https://www.sbmoffshore.com) | Netherlands | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
 | [SLB](https://www.slb.com) | USA | service, supplier | AI-assisted seismic interpretation and history matching; Basin and petroleum systems modelling; Digital core and special core analysis; Drilling automation and autonomous rigs; Electric submersible pumps; Full-waveform inversion and seismic imaging; Gas lift; Hydraulic fracturing (plug-and-perf, electric frac fleets); Intelligent completions and inflow control devices; Multiphase flow metering; Measurement and logging while drilling (MWD/LWD); Produced water treatment (hydrocyclones, flotation, membranes); Production optimisation and digital oilfield; Reservoir simulation (black oil, compositional, thermal); Rotary steerable systems; Sand control (gravel pack, frac pack, screens) |
 | [SLB OneSubsea](https://www.onesubsea.slb.com) | USA | oem, service | All-electric subsea systems; Subsea gas compression; Subsea production systems (trees, manifolds, umbilicals); Subsea boosting and multiphase pumps |
+| [Tendeka](https://www.tendeka.com) | United Kingdom | oem, supplier | Intelligent completions and inflow control devices |
 | [Weatherford International](https://www.weatherford.com) | USA | service, supplier | Casing drilling and expandable tubulars; Gas lift; Managed pressure drilling; Plunger lift and hydraulic jet pumps; Rod lift and progressing cavity pumps; Rotary steerable systems |
+| [Wellstrom AS](https://wellstrom.com) | Norway | oem, service | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
 
 ## Coverage queue: supplier names on cards not yet in the directory
 
@@ -117,6 +131,6 @@ Adding a record for one of them is the next batch of this directory.
 - **PWR** (18): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Siemens; Solar Turbines; SolarReserve; Tokamak Energy; Toshiba
 - **REF** (39): AspenTech; AVEVA; Axens; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Chiyoda; DuPont (Veolia); Emerson; Eni; EPC contractors (process designed by refiner or contractor); ExxonMobil; Gevo; GTC Technology; Honeywell; Honeywell UOP; ITM Power; John Zink (Koch); KBC; KBR; Koch-Glitsch; LanzaJet; Lummus; Lummus Technology; Merichem; Neste; Saudi Aramco; Saudi Aramco / SABIC; Shell; Shell Catalysts & Technologies; Suez; Topsoe; Veolia; Yokogawa; Zeeco
 - **ROT** (22): Alfa Laval; American Marsh; Ashton Seals; Atlas Copco; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Emerson; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Sulzer; Velan
-- **UPS** (73): ABB; AspenTech; Axter; BiSN; Borets; BP; BW Offshore; Cementing service contractors (none named in the sources read); Cenovus; CGG (Viridien); Chevron; CMG; CNPC; Cognite; Core Laboratories; Denbury (ExxonMobil); Dolphin Drilling; Dover; DuPont (FilmTec); Emerson; Enefit; Enventure; Exedra; Exxon Neftegas; FLIR; Framo Engineering; GHGSat; Hy-Bon (Cimarron); Interwell; Japan Petroleum Exploration Co. (JAPEX); JOGMEC; John Zink; Kayrros; Liberty Lift; Major drilling contractors; McDermott; MISC; MMHE; MODEC; Nabors; Nexans; NOV; Novomet; Occidental; Operators; Operators and service companies; Petrobank (THAI developer); Petrobras; PETRONAS; PGS; Project Canary; Research groups; Research groups and small service companies; Rock Flow Dynamics; Saipem; Sercel; Shearwater; Shell; Siemens; SNF; Sulzer; Suncor; Syncrude; TechnipFMC; Tendeka; TGS; Thermo Fisher Scientific; Toray; Various vendors; Veolia; Weatherford; Wellstrom; Zeeco
+- **UPS** (63): ABB; AspenTech; Borets; BP; BW Offshore; Cementing service contractors (none named in the sources read); Cenovus; CGG (Viridien); Chevron; CNPC; Cognite; Denbury (ExxonMobil); Dover; DuPont (FilmTec); Emerson; Enefit; Enventure; Exedra; Exxon Neftegas; FLIR; GHGSat; Hy-Bon (Cimarron); Japan Petroleum Exploration Co. (JAPEX); JOGMEC; John Zink; Kayrros; Liberty Lift; Major drilling contractors; McDermott; MISC; MMHE; MODEC; Nabors; Nexans; NOV; Occidental; Operators; Operators and service companies; Petrobank (THAI developer); Petrobras; PETRONAS; PGS; Project Canary; Research groups; Research groups and small service companies; Saipem; Sercel; Shearwater; Shell; Siemens; SNF; Sulzer; Suncor; Syncrude; TechnipFMC; TGS; Thermo Fisher Scientific; Toray; Various vendors; Veolia; Weatherford; Wellstrom; Zeeco
 
-85 of 299 cards list at least one directory vendor.
+87 of 299 cards list at least one directory vendor.

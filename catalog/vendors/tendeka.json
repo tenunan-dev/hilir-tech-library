@@ -1,0 +1,25 @@
+{
+  "id": "tendeka",
+  "name": "Tendeka",
+  "country": "United Kingdom",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "description": "Completion-systems specialist (inflow control devices such as iFOBS, sand-control screens) acquired by SLB; based in Aberdeen.",
+  "technologies": [
+    "ups-intelligent-completions"
+  ],
+  "url": "https://www.tendeka.com",
+  "sources": [
+    {
+      "url": "https://www.tendeka.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "iFOBS inflow control",
+    "SandX screens"
+  ]
+}

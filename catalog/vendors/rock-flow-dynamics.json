@@ -1,0 +1,23 @@
+{
+  "id": "rock-flow-dynamics",
+  "name": "Rock Flow Dynamics",
+  "country": "Russia",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Developer of the tNavigator integrated reservoir-to-surface simulation platform (black-oil, compositional, thermal and network modelling, cloud-capable).",
+  "technologies": [
+    "ups-reservoir-simulation"
+  ],
+  "url": "https://rfdyn.com",
+  "sources": [
+    {
+      "url": "https://rfdyn.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "tNavigator"
+  ]
+}

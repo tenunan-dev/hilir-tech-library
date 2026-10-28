@@ -1,0 +1,24 @@
+{
+  "id": "novomet",
+  "name": "Novomet",
+  "country": "Russia",
+  "roles": [
+    "oem"
+  ],
+  "description": "ESP manufacturer based in Perm, Russia, known for permanent-magnet motor systems, slim-line pumps and gas-handling stages for gassy wells.",
+  "technologies": [
+    "ups-electric-submersible-pumps"
+  ],
+  "url": "https://novomet.ru",
+  "sources": [
+    {
+      "url": "https://novomet.ru",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "PMM ESP systems",
+    "Slim-line ESP"
+  ]
+}

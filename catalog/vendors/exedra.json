@@ -1,0 +1,27 @@
+{
+  "id": "exedra",
+  "name": "Exedra AS",
+  "country": "Norway",
+  "roles": [
+    "service"
+  ],
+  "description": "Norwegian well-integrity company whose Balder method verifies permanent plug barriers by releasing pressurised tracer gas (helium) beneath the barrier and monitoring above it.",
+  "technologies": [
+    "ups-well-plug-abandonment"
+  ],
+  "url": "https://exedra.no",
+  "sources": [
+    {
+      "url": "https://exedra.no",
+      "note": "Vendor site, read 2026-10-28"
+    },
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/14179023/hydrawell-and-exedra-offer-joint-well-plugging-service",
+      "note": "Offshore Magazine on the HydraWell-Exedra alliance, 7 Jul 2020"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Balder barrier verification"
+  ]
+}

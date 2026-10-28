@@ -1,0 +1,24 @@
+{
+  "id": "framo",
+  "name": "Framo",
+  "country": "Norway",
+  "roles": [
+    "oem"
+  ],
+  "description": "Norwegian subsea pumping pioneer (Framo Engineering) whose multiphase and booster pumps underpin subsea boosting and separation systems; now part of SLB OneSubsea.",
+  "technologies": [
+    "ups-subsea-boosting",
+    "ups-subsea-separation"
+  ],
+  "url": "https://www.onesubsea.slb.com",
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com",
+      "note": "SLB OneSubsea site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Framo Engineering"
+  ]
+}

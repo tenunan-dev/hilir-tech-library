@@ -1,0 +1,24 @@
+{
+  "id": "dolphin-drilling",
+  "name": "Dolphin Drilling",
+  "country": "Norway",
+  "roles": [
+    "service"
+  ],
+  "description": "Norwegian offshore drilling contractor operating semi-submersible rigs; its Balmoral Flora semisub delivered the Balmoral Area Phase 1 plug-and-abandonment campaign.",
+  "technologies": [
+    "ups-well-plug-abandonment"
+  ],
+  "url": "https://dolphindrilling.com",
+  "sources": [
+    {
+      "url": "https://dolphindrilling.com",
+      "note": "Vendor site, read 2026-10-28"
+    },
+    {
+      "url": "https://www.nsta.co.uk/news/wells-decommissioning-collab-overview",
+      "note": "NSTA Collab Overview (Balmoral PBLJ campaign)"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "interwell",
+  "name": "Interwell",
+  "country": "Norway",
+  "roles": [
+    "service"
+  ],
+  "description": "Norwegian well-intervention company providing retrievable and permanent bridging plugs for remediation, zonal isolation and plug and abandonment, run on e-line.",
+  "technologies": [
+    "ups-thermite-bismuth-plugs"
+  ],
+  "url": "https://interwell.com",
+  "sources": [
+    {
+      "url": "https://interwell.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

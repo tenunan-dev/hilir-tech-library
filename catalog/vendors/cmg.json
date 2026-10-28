@@ -1,0 +1,28 @@
+{
+  "id": "cmg",
+  "name": "Computer Modelling Group",
+  "country": "Canada",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Calgary-based reservoir simulation software company; its simulator suite covers black oil (IMEX), compositional (GEM) and thermal/advanced processes (STARS).",
+  "technologies": [
+    "ups-reservoir-simulation"
+  ],
+  "url": "https://www.cmgl.ca",
+  "sources": [
+    {
+      "url": "https://www.cmgl.ca",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "CMG"
+  ],
+  "products": [
+    "IMEX",
+    "GEM",
+    "STARS"
+  ]
+}

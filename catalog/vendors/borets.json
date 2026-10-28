@@ -1,0 +1,25 @@
+{
+  "id": "borets",
+  "name": "Borets Company",
+  "country": "Russia",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Electric submersible pump manufacturer and service company headquartered in Moscow, with its own manufacturing facilities and permanent-magnet motor lines.",
+  "technologies": [
+    "ups-electric-submersible-pumps"
+  ],
+  "url": "https://www.borets.ru",
+  "sources": [
+    {
+      "url": "https://www.borets.ru",
+      "note": "Vendor site, read 2026-10-28"
+    },
+    {
+      "url": "https://www.worldpipelines.com/equipment-and-safety/11042019/borets-meets-magnet-motor-milestone",
+      "note": "Borets magnet motor milestone, Apr 2019"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
