@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.11] — 2026-10-28 — Wave 3 continues: 1,012 → 957 open gaps
+
+### Changed
+- Wave 3 sector sweeps extended: PCH, GAS and MID sectors complete plus CCS-1 (register 1,012 → 957). Highlights: Motunui methanol-to-gasoline (14,500 bpd, 1985), Pearl GTL conversion scale, helium supply by plant (USGS), Hammerfest all-electric LNG, NGV fleet numbers (DOE AFDC), Mont Belvieu NGL hub, Northern Lights four 7,500 m3 LCO2 carriers, HyDeploy 20% hydrogen blends, LNG newbuild price (~$248m, Clarksons 2025), Suiso Frontier first LH2 shipment, TAPS first drag-reducer use (1979), Porthos 55 km CO2 pipeline, Allam-cycle status resolved negative (no utility-scale plant; NET Power hub withdrawn), Exomad Green biochar, CarbonCure mineralisation figures.
+
 ## [2026.10.27.10] — 2026-10-28 — Wave 3 sector sweeps begun: 1,074 → 1,012 open gaps
 
 ### Changed
