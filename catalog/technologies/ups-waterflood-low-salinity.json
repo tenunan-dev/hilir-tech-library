@@ -95,6 +95,18 @@
       },
       "low": 250000,
       "high": 250000
+    },
+    {
+      "metric": "BP LoSal low-salinity waterflood expected uplift at Clair Ridge",
+      "low": 40,
+      "high": 40,
+      "unit": "million barrels additional oil (expected)",
+      "year": 2018,
+      "basis": "\"BP said the use of its low salinity water injection EOR technology would deliver an additional 40m barrels from Clair Ridge\" (first oil 23 Nov 2018). Actual production results and the injected-water salinity figure were not stated in open pages read",
+      "source": {
+        "url": "https://www.energyvoice.com/oilandgas/north-sea/186750/major-milestone-as-bp-hits-clair-ridge-first-oil",
+        "note": "Energy Voice, BP hits Clair Ridge first oil, 23 Nov 2018 (read 2026-10-28)"
+      }
     }
   ],
   "costs": [
@@ -129,42 +141,19 @@
       "url": "https://www.offshore-technology.com/features/featurereduced-salinity-water-injection-losal-eor-clair-ridge/",
       "source_id": "offshore-technology",
       "note": "Offshore Technology, Liquid assets: BP deploys reduced salinity water injection (2012)"
+    },
+    {
+      "url": "https://www.energyvoice.com/oilandgas/north-sea/186750/major-milestone-as-bp-hits-clair-ridge-first-oil",
+      "note": "Energy Voice, Clair Ridge first oil, 23 Nov 2018"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
     {
-      "field": "performance",
-      "item": "Clair Ridge actual results and salinity of injected water",
-      "reason_code": "not_in_sources_read",
-      "reason": "The 2012 article is a forecast.",
-      "where": [
-        {
-          "hint": "BP technical papers on LoSal",
-          "access": "open",
-          "source_id": "onepetro"
-        }
-      ],
-      "action": "Add measured incremental recovery."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched waterflood, low salinity, water injection, flooding); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched waterflood, low salinity, water injection, flooding); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -186,6 +175,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Clair Ridge low-salinity waterflood project, west of Shetland",
+      "country": "GB",
+      "capacity": "USD 4.5 bn development targeting 640 million boe over about 40 years; world-first commercial low-salinity (LoSal) water injection EOR; first oil 23 Nov 2018",
+      "status": "operating",
+      "source": {
+        "url": "https://www.energyvoice.com/oilandgas/north-sea/186750/major-milestone-as-bp-hits-clair-ridge-first-oil",
+        "note": "Energy Voice, 23 Nov 2018 (first oil, +40 MMbbl LoSal); Upstream, 6 Oct 2020 (USD 4.5 bn project); read 2026-10-28"
+      }
     }
   ]
 }

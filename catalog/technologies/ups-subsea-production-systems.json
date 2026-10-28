@@ -91,6 +91,18 @@
       },
       "low": 33,
       "high": 33
+    },
+    {
+      "metric": "world water-depth records for subsea completions (Gulf of Mexico Perdido development)",
+      "low": 2851,
+      "high": 2925,
+      "unit": "m water depth (Silvertip 9,356 ft = 2,851 m record Dec 2008; Tobago about 2,925 m world's deepest subsea completion)",
+      "year": 2010,
+      "basis": "Shell set a world water-depth record completing a subsea well 9,356 ft below sea level at Silvertip (OGJ, 3 Dec 2008); Tobago, in roughly 2,925 m of water, is the world's deepest subsea completion (Offshore Magazine, 1 Dec 2010); tieback-distance records not found in this pass",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/16763670/perdido-advances-deepwater-gom-production-possibilities",
+        "note": "Offshore Magazine, 1 Dec 2010 (read 2026-10-28); OGJ 3 Dec 2008 for the Silvertip 9,356 ft record"
+      }
     }
   ],
   "advantages": [
@@ -108,15 +120,19 @@
     {
       "url": "https://www.westwoodenergy.com/sectors/offshore-energy-services/subsea-equipment-and-services/global-subsea-tree-tracker-2025",
       "note": "Westwood Energy, Global Subsea Tree Tracker 2025"
+    },
+    {
+      "url": "https://www.ogj.com/general-interest/companies/article/17268670/shell-sets-record-with-perdido-offshore-well-completion",
+      "note": "Oil & Gas Journal, Shell sets record with Perdido well completion, 3 Dec 2008"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "depth ratings and tieback distances",
       "reason_code": "not_in_sources_read",
-      "reason": "Wikipedia's overview gives none and PetroWiki was unreachable.",
+      "reason": "Wikipedia's overview gives none and PetroWiki was unreachable. Depth records recorded in performance (Silvertip 9,356 ft; Tobago ~2,925 m); an open tieback-distance record was not found, 2026-10-28.",
       "where": [
         {
           "hint": "SPE PetroWiki subsea systems",
@@ -129,7 +145,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -152,7 +168,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; depth-record developments (Perdido/Tobago) are recorded in performance.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -165,7 +181,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

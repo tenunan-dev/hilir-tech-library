@@ -83,15 +83,19 @@
       "url": "https://en.wikipedia.org/wiki/Rotary_steerable_system",
       "source_id": "wikipedia",
       "note": "Wikipedia, Rotary steerable system, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://drillingcontractor.org/dcpi/2004/dc-septoct04/Sep4-Schlumberger.pdf",
+      "note": "Drilling Contractor, rotary steerable supplement, Sep-Oct 2004"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "build rates, ROP gain and day rates",
       "reason_code": "not_in_sources_read",
-      "reason": "The page gives none.",
+      "reason": "The page gives none. Build rate recorded in performance (8 deg/100 ft); ROP gain and day rates remain in vendor-restricted material, 2026-10-28.",
       "where": [
         {
           "hint": "Vendor brochures and IADC/SPE papers",
@@ -105,7 +109,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; service day rates are vendor-quoted only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -128,7 +132,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no named RSS campaign with figures on open pages.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -141,7 +145,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -163,6 +167,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "rotary-steerable build (dogleg) capability, PowerDrive suite",
+      "low": 8,
+      "high": 8,
+      "unit": "deg/100 ft dogleg severity (maximum)",
+      "year": 2004,
+      "basis": "\"[Schlumberger] PowerDrive suite of fully rotating rotary steerable systems ... can develop dogleg severity as high as 8 deg/100 ft, significantly higher than\" bent-motor practice; ROP gain and service day rates not stated in open sources",
+      "source": {
+        "url": "https://drillingcontractor.org/dcpi/2004/dc-septoct04/Sep4-Schlumberger.pdf",
+        "note": "Drilling Contractor (Sep-Oct 2004), Schlumberger rotary steerable supplement (read 2026-10-28)"
+      }
     }
   ]
 }

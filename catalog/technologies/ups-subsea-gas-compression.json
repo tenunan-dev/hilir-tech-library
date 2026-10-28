@@ -102,6 +102,18 @@
       },
       "low": 306,
       "high": 306
+    },
+    {
+      "metric": "Asgard subsea gas compression duty and availability",
+      "low": 11.5,
+      "high": 11.5,
+      "unit": "MW per compressor unit (two HOFIM motor-compressor units); availability approaching 100% over 80,000 operational hours",
+      "year": 2020,
+      "basis": "\"an availability approaching 100%\" after 80,000 operational hours since September 2015; two MAN Energy Solutions HOFIM motor-compressor units, each 11.5 MW, at 300 m water depth",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/14185923/asgard-subsea-compressors-provide-high-availability",
+        "note": "Offshore Magazine, 1 Nov 2020, five-year service review (read 2026-10-28)"
+      }
     }
   ],
   "costs": [
@@ -129,42 +141,23 @@
       "url": "https://www.equinor.com/news/archive/2015/09/17/17SepAasgardsubsea",
       "source_id": "equinor-tech",
       "note": "Equinor, The first subsea gas compression plant in the world on line, 17 September 2015"
+    },
+    {
+      "url": "https://www.equinor.com/news/20250926-phase-2-asgard-subsea-compression",
+      "note": "Equinor, New technology increases gas recovery on Asgard, 26 Sep 2025"
+    },
+    {
+      "url": "https://www.akersolutions.com/what-we-do/projects/asgard-solving-subseas-biggest-challenge",
+      "note": "Aker Solutions, Asgard subsea compression project page"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
     {
-      "field": "performance",
-      "item": "compressor MW and availability since start-up",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not in the release.",
-      "where": [
-        {
-          "hint": "Equinor and OneSubsea case studies",
-          "access": "open",
-          "source_id": "slb"
-        }
-      ],
-      "action": "Add power and uptime figures."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched subsea compression, subsea, compressor, wet gas); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched subsea compression, subsea, compressor, wet gas); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -186,6 +179,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Asgard subsea gas compression, Norwegian Sea",
+      "country": "NO",
+      "capacity": "world's first subsea gas compression facility; on stream 17 Sep 2015; phase 2 started 2025 (first module replaced 2023, second installed at 270 m); recovery from Mikkel and Midgard rising to 90%, about 306 million boe additional, about NOK 175 bn added value",
+      "status": "operating",
+      "source": {
+        "url": "https://www.equinor.com/news/20250926-phase-2-asgard-subsea-compression",
+        "note": "Equinor, 26 Sep 2025 (phase 2 start, recovery to 90%, 306 Mboe); Aker Solutions project page (delivered world's first system in 2015); read 2026-10-28"
+      }
     }
   ]
 }

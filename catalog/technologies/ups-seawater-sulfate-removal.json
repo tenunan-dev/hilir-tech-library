@@ -110,6 +110,10 @@
       "url": "https://www.ogj.com/general-interest/companies/article/17235495/membranes-solve-north-sea-waterflood-sulfate-problems",
       "source_id": "ogj",
       "note": "Oil & Gas Journal, Membranes solve North Sea waterflood sulfate problems"
+    },
+    {
+      "url": "https://www.pollutionsolutions-online.com/news/water-wastewater/17/veolia-water-solutions-technologies/ultrafiltration-and-sulphate-removal-seawater-treatment-in-offshore-angola/14681",
+      "note": "Veolia SRP offshore Angola, Pollution Solutions Online, 24 Jun 2011"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -118,7 +122,7 @@
       "field": "costs",
       "item": "capex and opex with year",
       "reason_code": "not_in_sources_read",
-      "reason": "Not stated.",
+      "reason": "Not stated. Web-checked 2026-10-28; package prices are vendor-quoted only.",
       "where": [
         {
           "hint": "Veolia and DuPont case studies",
@@ -128,23 +132,10 @@
       "action": "Add cost per m3 with year."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched sulfate, sulphate, nanofiltration, desalination, water treatment); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched sulfate, sulphate, nanofiltration, desalination, water treatment); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -166,6 +157,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sulfate Removal Package (Veolia SRP with Dow FilmTec nanofiltration membranes), offshore Angola",
+      "country": "AO",
+      "capacity": "seawater treatment for injection: SRP removes sulphates and other divalent ions from injection water (capacity not stated in the source)",
+      "status": "operating",
+      "source": {
+        "url": "https://www.pollutionsolutions-online.com/news/water-wastewater/17/veolia-water-solutions-technologies/ultrafiltration-and-sulphate-removal-seawater-treatment-in-offshore-angola/14681",
+        "note": "Pollution Solutions Online, 24 Jun 2011: Veolia ultrafiltration and sulphate removal for seawater injection offshore Angola using Dow FilmTec membranes (read 2026-10-28)"
+      }
     }
   ]
 }

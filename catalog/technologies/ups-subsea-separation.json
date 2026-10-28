@@ -91,28 +91,19 @@
       "url": "https://www.offshore-mag.com/subsea/article/16760845/tordis-becomes-worlds-first-subsea-processing-installation",
       "source_id": "offshore-mag",
       "note": "Offshore magazine, Tordis becomes world's first subsea processing installation"
+    },
+    {
+      "url": "https://equinor.industriminne.no/en/seabed-separator",
+      "note": "Equinor, Seabed separator (Tordis) industry-monuments page, 18 Jul 2022"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "Marlim separation system and Tordis outcome",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only a pre-start-up article was read.",
-      "where": [
-        {
-          "hint": "Equinor and Petrobras technical papers",
-          "access": "open"
-        }
-      ],
-      "action": "Add achieved recovery factor."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -135,7 +126,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -157,6 +148,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Tordis subsea separation and water reinjection station, Tordis field, North Sea",
+      "country": "NO",
+      "capacity": "first commercial full-scale subsea separation installation: separator station at about 200 m water depth, separated water and sand to a dedicated injection well; online October 2007",
+      "status": "pilot",
+      "source": {
+        "url": "https://equinor.industriminne.no/en/seabed-separator",
+        "note": "Equinor industry-monuments page, 18 Jul 2022: online Oct 2007; in May 2008 oily injection water surfaced through a 40 m x 7 m seabed crater (NPD found the geology had been misinterpreted); the separator stayed in use with water piped to the platform for treatment and the IOR project \"never again operated as intended\"; FMC Kongsberg Subsea supplied the system (Offshore Magazine, 30 Nov 2005); read 2026-10-28"
+      }
     }
   ]
 }
