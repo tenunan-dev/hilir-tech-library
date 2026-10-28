@@ -147,13 +147,13 @@
       "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "trl",
       "item": "TRL range with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry.",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
@@ -166,7 +166,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; licensor quotes only.",
       "where": [
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
@@ -194,7 +194,7 @@
       "field": "reference_plants",
       "item": "named operating or planned plants with capacity and status",
       "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
+      "reason": "No plant was named in the sources read. Web-checked 2026-10-28; ubiquitous unit, no single named reference added.",
       "where": [
         {
           "hint": "Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news",

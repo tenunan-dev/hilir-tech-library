@@ -109,6 +109,18 @@
         "note": "Axens FCC naphtha hydrotreating page, read 25 October 2026"
       },
       "low": 300
+    },
+    {
+      "metric": "octane loss in FCC gasoline selective hydrodesulphurisation (Prime-G+ type, Tier 3 case study)",
+      "low": 1.3,
+      "high": 1.3,
+      "unit": "RON units (total octane loss)",
+      "year": 2020,
+      "basis": "\"The total octane loss was 1.3 RON units, mostly due to saturation of linear C6-olefins and dienes to form normal hexane\" (DigitalRefining FCC gasoline desulphurisation for Tier 3 sulphur compliance); PTQ Q1 2024 reports configurations that virtually eliminate octane loss while reducing hydrogen consumption; hydrogen-consumption figure not stated in the open pages read",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001408/fcc-gasoline-desulphurisation-for-tier-3-sulphur-compliance",
+        "note": "DigitalRefining (PTQ), FCC gasoline desulphurisation for Tier 3 sulphur compliance (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -123,15 +135,19 @@
       "url": "https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating",
       "source_id": "axens",
       "note": "Axens FCC naphtha hydrotreating page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1001408/fcc-gasoline-desulphurisation-for-tier-3-sulphur-compliance",
+      "note": "DigitalRefining Tier 3 FCC gasoline HDS article"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "octane loss and hydrogen consumption",
       "reason_code": "not_in_sources_read",
-      "reason": "The Axens page gives no figures.",
+      "reason": "The Axens page gives no figures. Octane loss recorded in performance (1.3 RON case study); an open hydrogen-consumption figure was not found, 2026-10-28.",
       "where": [
         {
           "hint": "Axens technical papers",
@@ -150,7 +166,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -173,7 +189,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no single named unit with figures on open pages.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -186,7 +202,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

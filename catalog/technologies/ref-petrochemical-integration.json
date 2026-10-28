@@ -112,6 +112,19 @@
         "note": "Oil & Gas Journal, Demonstration plant for new FCC technology yields increased propylene"
       },
       "low": 80
+    },
+    {
+      "metric": "FCC share of world propylene supply",
+      "low": 30,
+      "high": 30,
+      "unit": "% of world propylene from FCC units",
+      "year": 2017,
+      "basis": "\"FCC units supply about 30% of the world's propylene\" (Oil & Gas Journal special report on Saudi Aramco FCC catalyst evaluation); HS-FCC (Aramco/TechnipFMC/Axens CC2C basis) is described as proven technology for higher propylene yield",
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/petrochemicals/article/17218410/special-report-saudi-aramco-outlines-fcc-catalyst-evaluation-method",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal special report (read 2026-10-28)"
+      }
     }
   ],
   "reference_plants": [
@@ -137,15 +150,19 @@
       "url": "https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene",
       "source_id": "ogj",
       "note": "Oil & Gas Journal, Demonstration plant for new FCC technology yields increased propylene"
+    },
+    {
+      "url": "https://korea.aramco.com/en/news-media/news/2019/cc2c",
+      "note": "Saudi Aramco, CC2C builds on proven HS-FCC, 29 Jan 2019"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
       "item": "commercial HS-FCC units and conventional FCC propylene units",
       "reason_code": "not_in_sources_read",
-      "reason": "Only the demonstration plant was read.",
+      "reason": "Only the demonstration plant was read. FCC ~30% of world propylene recorded in performance; a named commercial HS-FCC unit was not verifiable on open pages (CC2C announcement describes HS-FCC as proven), 2026-10-28.",
       "where": [
         {
           "hint": "Axens FCC and Honeywell UOP PetroFCC pages",
@@ -159,7 +176,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; integration capex case-specific.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -182,7 +199,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

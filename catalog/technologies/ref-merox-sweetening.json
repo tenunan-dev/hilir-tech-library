@@ -111,29 +111,20 @@
     {
       "url": "https://en.wikipedia.org/wiki/Merox",
       "note": "Wikipedia, Merox, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.hydrocarbonprocessing.com/news/2022/03/spec-energy-dmcc-to-use-multiple-honeywell-uop-technologies-at-refinery",
+      "source_id": "hydrocarbon-processing",
+      "note": "SPEC Energy DMCC to use multiple Honeywell UOP technologies, 28 Mar 2022"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "UOP's own Merox documentation",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only a secondary source (Wikipedia) was read.",
-      "where": [
-        {
-          "hint": "Honeywell UOP Merox page",
-          "access": "open",
-          "source_id": "honeywell-uop"
-        }
-      ],
-      "action": "Replace with the licensor page."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -153,23 +144,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -191,6 +169,19 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "SPEC Energy DMCC refinery, Fujairah, UAE (multiple Honeywell UOP units including Merox)",
+      "country": "AE",
+      "capacity": "refinery project using UOP Merox plus other UOP technologies; UOP provides licensing, design services, catalysts and adsorbents",
+      "status": "construction",
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2022/03/spec-energy-dmcc-to-use-multiple-honeywell-uop-technologies-at-refinery",
+        "source_id": "hydrocarbon-processing",
+        "note": "Hydrocarbon Processing, 28 Mar 2022 (read 2026-10-28)"
+      }
     }
   ]
 }

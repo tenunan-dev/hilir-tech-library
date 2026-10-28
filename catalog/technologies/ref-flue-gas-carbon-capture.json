@@ -121,13 +121,13 @@
       "note": "iO+, The first Dutch carbon capture and storage plant is taking shape (Porthos)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "capture rate, energy penalty and cost of FCC flue gas capture",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read describes the capture unit.",
+      "reason": "No source read describes the capture unit. Web-checked 2026-10-28; no named refinery FCC flue-gas capture project with figures found in open pages.",
       "where": [
         {
           "hint": "Shell Pernis and Aramis project documents",
@@ -145,7 +145,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; project figures proprietary.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
