@@ -105,6 +105,26 @@
         "source_id": "equinor-tech",
         "note": "Equinor, High gas exports and emissions cuts from Hammerfest LNG, 20 December 2022"
       }
+    },
+    {
+      "name": "Hammerfest LNG (Snohvit), Norway (Equinor) - all-electric liquefaction",
+      "country": "NO",
+      "capacity": "world-scale LNG plant in which, for the first time, all main refrigeration compressors are electrically driven; Equinor investing about USD 1.3 bn to grid-connect and further electrify the plant",
+      "status": "operating",
+      "source": {
+        "url": "https://www.offshore-energy.biz/hammerfest-lng-one-hundredth-tanker-successfully-loaded-with-liquefied-natural-gas-norway",
+        "note": "Offshore Energy (all main compressors electrically driven - a first for world-scale LNG); highnorthnews 22 Dec 2022 (USD 1.3 bn electrification investment); read 2026-10-28"
+      }
+    },
+    {
+      "name": "Freeport LNG, Texas (electric-motor-driven refrigeration compressors)",
+      "country": "US",
+      "capacity": "three trains equipped with the largest electric motor-powered refrigeration compressors in the US; Train 1 commercial operation December 2019",
+      "status": "operating",
+      "source": {
+        "url": "https://www.nsenergybusiness.com/company-news/freeport-lng-project-train-3",
+        "note": "NS Energy Business (largest electric-motor refrigeration compressors in the US); read 2026-10-28"
+      }
     }
   ],
   "advantages": [
@@ -126,13 +146,13 @@
       "note": "Turbomachinery Magazine, Second of three electric-driven LNG trains starts operations at US facility, 20 January 2020"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "MW per train and specific energy for electric versus gas-turbine drive",
       "reason_code": "not_in_sources_read",
-      "reason": "The articles read give neither.",
+      "reason": "The articles read give neither. Web-checked 2026-10-28: motor ratings circulate in trade press but were not verifiable on the open pages read; specific-energy comparison not found.",
       "where": [
         {
           "hint": "McDermott e-drive page",
@@ -151,7 +171,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; project-level figures only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -174,7 +194,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

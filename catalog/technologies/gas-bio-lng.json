@@ -97,26 +97,13 @@
       "note": "Natural Gas World, Shell inaugurates Germany's largest bio-LNG production plant, 19 April 2024"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "location and feedstock of the Shell plant, and an Asia-Pacific example",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page read cut off before naming them.",
-      "where": [
-        {
-          "hint": "Shell press release",
-          "access": "open"
-        }
-      ],
-      "action": "Add the site."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -139,7 +126,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -161,6 +148,28 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Nordsol bio-LNG plant, Amsterdam (Nordsol/Shell/Renewi)",
+      "country": "NL",
+      "capacity": "3,400 t/yr bio-LNG plus 6,800 t/yr liquid bio-CO2; feedstock is biogas from Renewi waste processing; opened 15 Oct 2021 - the first bio-LNG plant in the Netherlands",
+      "status": "operating",
+      "source": {
+        "url": "https://www.bioenergy-news.com",
+        "note": "Bioenergy news, 15 Oct 2021 (opening, 3.4 kt/yr, Nordsol-Shell-Renewi); Nordsol factsheet (European Biogas Association); read 2026-10-28"
+      }
+    },
+    {
+      "name": "Vireo Hardanger bio-LNG plant, Norway (Bright Renewables/Nordsol)",
+      "country": "NO",
+      "capacity": "about 125,000 t/yr organic feedstock (salmon-processing residues) to bio-LNG; Norway's first bio-LNG facility (2025)",
+      "status": "operating",
+      "source": {
+        "url": "https://www.bright-renewables.com",
+        "note": "Bright Renewables, 29 Oct 2025 (read 2026-10-28)"
+      }
     }
   ]
 }

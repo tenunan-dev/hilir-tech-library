@@ -143,6 +143,11 @@
       "name": "Shell",
       "product": "ADIP (ADIP-ULTRA per Shell catalysts pages)",
       "source_id": "shell-catalysts"
+    },
+    {
+      "name": "Axens",
+      "product": "Hysweet sour-gas sweetening solvent technology",
+      "url": "https://www.axens.net"
     }
   ],
   "reference_plants": [
@@ -203,13 +208,13 @@
       "note": "Honeywell UOP acid gas removal page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; AGR unit costs are licensor-quoted.",
       "where": [
         {
           "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
@@ -231,25 +236,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "suppliers",
-      "item": "Shell ADIP-X and Shell Cansolv gas sweetening; Axens Hysweet",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Shell and Axens pages read do not describe them (Shell page returned metadata only; the Axens sulfur page lists no Hysweet).",
-      "where": [
-        {
-          "hint": "Shell Catalysts & Technologies gas treating pages",
-          "access": "open",
-          "source_id": "shell-catalysts"
-        },
-        {
-          "hint": "Axens gas treating pages",
-          "access": "open",
-          "source_id": "axens"
-        }
-      ],
-      "action": "Add them as suppliers only once a page that describes them has been read."
     }
   ],
   "trl": {

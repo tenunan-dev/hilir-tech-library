@@ -109,6 +109,16 @@
         "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
         "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
       }
+    },
+    {
+      "name": "World helium supply by plant (Ras Laffan, Amur GPP, US BLM Cliffside)",
+      "country": "QA",
+      "capacity": "Ras Laffan (Qatar): about 75-81 million m3/yr across three plants - roughly a third of world supply; Amur GPP (Russia): about 45-50 million m3/yr (designed up to 60 Mm3/yr); US BLM Cliffside (Amarillo, Texas) enrichment units; world production capacity about 360 million m3 (13 bcf) per year in 2023 (USGS)",
+      "status": "operating",
+      "source": {
+        "url": "https://pubs.usgs.gov",
+        "note": "USGS Minerals Yearbook 2023, helium chapter (world capacity 360 Mm3/yr); portfolio-pplus industry article 15 Mar 2026 (Ras Laffan 75-81, Amur 45-50 Mm3/yr); qatarenergylng.qa (three helium plants at Ras Laffan); read 2026-10-28"
+      }
     }
   ],
   "advantages": [
@@ -130,27 +140,13 @@
       "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "current global supply by plant (US, Qatar, Algeria, Russia)",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read cover Qatar only.",
-      "where": [
-        {
-          "hint": "USGS Mineral Commodity Summaries: Helium",
-          "access": "open",
-          "source_id": "usgs-energy"
-        }
-      ],
-      "action": "Add current supply figures from USGS."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -173,7 +169,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
