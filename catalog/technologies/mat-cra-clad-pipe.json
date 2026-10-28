@@ -48,6 +48,16 @@
     {
       "name": "Alleima",
       "product": "duplex tube (named in the Wikipedia reference)"
+    },
+    {
+      "name": "Butting",
+      "product": "mechanically clad and metallurgically bonded CRA pipe (BuBi lined pipe)",
+      "url": "https://www.butting.de"
+    },
+    {
+      "name": "Tenaris",
+      "product": "CRA and clad OCTG and line pipe",
+      "url": "https://www.tenaris.com"
     }
   ],
   "performance": [
@@ -105,13 +115,13 @@
       "note": "Wikipedia, Cladding (metalworking), read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "nickel alloy and CRA-lined pipe data (API 5LD, NORSOK M-001)",
       "reason_code": "not_in_sources_read",
-      "reason": "Not on the pages read.",
+      "reason": "Not on the pages read. API 5LD (mechanically lined pipe) and NORSOK M-001 (materials selection) define the data the gap seeks; standard text is paywalled, 2026-10-28.",
       "where": [
         {
           "hint": "API 5LD and NORSOK summaries",
@@ -121,23 +131,10 @@
       "action": "Add data with source."
     },
     {
-      "field": "suppliers",
-      "item": "CRA pipe makers",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no suppliers for this technology.",
-      "where": [
-        {
-          "hint": "Producer pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -160,7 +157,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -173,7 +170,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

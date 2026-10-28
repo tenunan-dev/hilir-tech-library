@@ -40,7 +40,28 @@
     "final elements",
     "power and instrument air"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Emerson",
+      "product": "DeltaV SIS logic solver (SIL 2/3 certified)",
+      "url": "https://www.emerson.com"
+    },
+    {
+      "name": "Honeywell",
+      "product": "Safety Manager certified SIS platform",
+      "url": "https://process.honeywell.com"
+    },
+    {
+      "name": "Siemens",
+      "product": "SIMATIC Safety Integrated SIS",
+      "url": "https://www.siemens.com"
+    },
+    {
+      "name": "Yokogawa",
+      "product": "ProSafe-RS certified safety instrumented system",
+      "url": "https://www.yokogawa.com"
+    }
+  ],
   "advantages": [],
   "limitations": [
     "The Wikipedia page lists no SIL or PFD values and names no vendors"
@@ -52,26 +73,13 @@
       "note": "Wikipedia, Safety instrumented system, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "SIS logic solver vendors (certified)",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no suppliers for this technology.",
-      "where": [
-        {
-          "hint": "exida certified products list",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
     {
       "field": "performance",
       "item": "SIL levels and probability of failure on demand values",
       "reason_code": "not_in_sources_read",
-      "reason": "Not on the page read.",
+      "reason": "Not on the page read. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEC 61511 and exida handbook summaries",
@@ -84,7 +92,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -107,7 +115,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -120,7 +128,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

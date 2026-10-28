@@ -41,7 +41,28 @@
     "laser spectrometer",
     "sample conditioning system"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Emerson",
+      "product": "Rosemount Analytical gas chromatographs and analysers",
+      "url": "https://www.emerson.com"
+    },
+    {
+      "name": "Servomex",
+      "product": "gas analysis (paramagnetic, photometric)",
+      "url": "https://www.servomex.com"
+    },
+    {
+      "name": "ABB",
+      "product": "process gas chromatographs and laser analysers",
+      "url": "https://new.abb.com"
+    },
+    {
+      "name": "Siemens",
+      "product": "process analytics (gas chromatographs, spectroscopy)",
+      "url": "https://www.siemens.com"
+    }
+  ],
   "performance": [
     {
       "metric": "capillary column length",
@@ -85,26 +106,13 @@
       "note": "Wikipedia, Tunable diode laser absorption spectroscopy, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "process analyser makers",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no suppliers for this technology.",
-      "where": [
-        {
-          "hint": "Vendor pages for online GC and TDL analysers",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -127,7 +135,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -140,7 +148,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

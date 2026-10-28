@@ -43,7 +43,23 @@
     "X-ray or gamma source",
     "eddy current probes"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Evident (Olympus)",
+      "product": "ultrasonic, phased-array and eddy-current flaw detectors",
+      "url": "https://www.evidentscientific.com"
+    },
+    {
+      "name": "Eddyfi Technologies",
+      "product": "advanced eddy current and UT inspection systems",
+      "url": "https://www.eddyfi.com"
+    },
+    {
+      "name": "Waygate Technologies (Baker Hughes)",
+      "product": "industrial radiography and computed tomography",
+      "url": "https://www.waygate.com"
+    }
+  ],
   "advantages": [],
   "limitations": [
     "The page names no instrument vendors"
@@ -55,26 +71,13 @@
       "note": "Wikipedia, Nondestructive testing, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "NDT instrument makers",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no suppliers for this technology.",
-      "where": [
-        {
-          "hint": "Vendor pages for PAUT and UT",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
     {
       "field": "performance",
       "item": "probability of detection figures",
       "reason_code": "not_in_sources_read",
-      "reason": "The page points to ASTM E2862 and MIL-HDBK-1823A but gives no values.",
+      "reason": "The page points to ASTM E2862 and MIL-HDBK-1823A but gives no values. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "ASTM E2862 summary",
@@ -87,7 +90,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -110,7 +113,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -123,7 +126,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
