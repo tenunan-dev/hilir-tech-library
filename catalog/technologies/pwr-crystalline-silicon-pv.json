@@ -134,23 +134,14 @@
       "url": "https://atb.nrel.gov/electricity/2024/utility-scale_pv",
       "source_id": "nrel",
       "note": "NREL Annual Technology Baseline 2024, utility-scale PV, read 25 October 2026"
+    },
+    {
+      "url": "https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations",
+      "note": "TaiyangNews, floating solar expansion in Southeast Asia, 27 Sep 2023"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named plants with capacity and start-up year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The NREL page models a representative plant only.",
-      "where": [
-        {
-          "hint": "Operator project pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add one SEA or Australian solar farm."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -163,6 +154,28 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Cirata floating solar PV plant, West Java, Indonesia",
+      "country": "ID",
+      "capacity": "145 MW floating PV, the largest in Southeast Asia at commissioning (planned expansion to up to 500 MW); powers about 50,000 homes",
+      "status": "operating",
+      "source": {
+        "url": "https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations",
+        "note": "TaiyangNews, 27 Sep 2023 (145 MW, SEA's largest floating PV, upgrade to 500 MW planned); read 2026-10-28"
+      }
+    },
+    {
+      "name": "Sunny Bangchak solar plant, Thailand",
+      "country": "TH",
+      "capacity": "44 MW silicon PV, Southeast Asia's largest silicon photovoltaic plant at grid connection (27 Sep 2012)",
+      "status": "operating",
+      "source": {
+        "url": "https://www.eco-business.com/news/southeast-asias-largest-solar-plant-in-thailand-gets-turned-on",
+        "note": "Eco-Business, 27 Sep 2012 (read 2026-10-28)"
+      }
     }
   ]
 }

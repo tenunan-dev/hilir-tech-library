@@ -83,9 +83,13 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, bioenergy entries"
+    },
+    {
+      "url": "https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity",
+      "note": "AGBI, Dubai waste-to-energy plant starts transmitting electricity, 19 Jul 2023"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
@@ -102,42 +106,6 @@
       "action": "Fetch the redirected site and add plant data."
     },
     {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -149,6 +117,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Dubai Waste Management Centre (Warsan), United Arab Emirates",
+      "country": "AE",
+      "capacity": "world's largest waste-to-energy plant: processes 1.9 million tonnes of waste a year, powers about 135,000 homes; about USD 1 bn project; began transmitting electricity July 2023",
+      "status": "operating",
+      "source": {
+        "url": "https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity",
+        "note": "AGBI, 19 Jul 2023 (start of electricity transmission, 1.9 Mt/yr, USD 1 bn); FM Middle East, 13 Sep 2022 (world's largest WTE, 135,000 homes); read 2026-10-28"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost of the Dubai Waste Management Centre waste-to-energy plant",
+      "low": 1.0,
+      "high": 1.0,
+      "unit": "billion USD project cost (1.9 Mt/yr waste processing)",
+      "year": 2023,
+      "basis": "dollar year not stated in the source (publication 2023); \"Dubai opens $1bn waste-to-energy centre\" covering 1.9 Mt/yr of waste",
+      "source": {
+        "url": "https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity",
+        "note": "AGBI, 19 Jul 2023 (read 2026-10-28)"
+      }
     }
   ]
 }

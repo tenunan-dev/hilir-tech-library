@@ -124,15 +124,19 @@
     {
       "url": "https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html",
       "note": "IHI, IHI and JERA complete fuel ammonia substitution demonstration testing at Hekinan, 26 June 2024"
+    },
+    {
+      "url": "https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results",
+      "note": "Hydrocarbon Processing, JERA ends ammonia co-firing trial with positive results, 27 Jun 2024"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "fuel ammonia cost and conversion capex",
       "reason_code": "not_in_sources_read",
-      "reason": "Press releases give no cost.",
+      "reason": "Press releases give no cost. Web-checked 2026-10-28; JERA/IHI published combustion results, not fuel-cost or capex figures.",
       "where": [
         {
           "hint": "NEDO and METI Green Innovation Fund documents",
@@ -141,19 +145,6 @@
         }
       ],
       "action": "Add cost per tonne of ammonia and retrofit capex with year."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
       "field": "process",
@@ -167,6 +158,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "JERA Hekinan Thermal Power Station Unit 4 ammonia co-firing demonstration, Aichi, Japan (with IHI)",
+      "country": "JP",
+      "capacity": "1 GW coal unit; world's first large-scale demonstration of 20% (by heating value) fuel-ammonia substitution; three-month trial concluded June 2024 with positive results",
+      "status": "pilot",
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results",
+        "note": "Hydrocarbon Processing, 27 Jun 2024 (trial concluded, positive results); Argus Media (20% co-firing at the 1 GW No.4 unit); IHI/SwRI Apr 2022: NOx at 20% co-firing same as coal firing, NH3 and N2O in exhaust under detection limit; read 2026-10-28"
+      }
     }
   ]
 }

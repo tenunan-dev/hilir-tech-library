@@ -108,28 +108,19 @@
     {
       "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors",
       "note": "World Nuclear Association, Advanced nuclear power reactors (Generation IV page; some dates predate 2026)"
+    },
+    {
+      "url": "https://www.world-energy.org/article/19854.html",
+      "note": "World-Energy, Fuel loading under way at China's HTR-PM, 24 Aug 2021"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "HTR-PM operating status and US advanced reactor projects",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page read predates operation of HTR-PM and omits US designs.",
-      "where": [
-        {
-          "hint": "DOE Office of Nuclear Energy advanced reactor demonstration program",
-          "access": "open"
-        }
-      ],
-      "action": "Add current status and dates."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open unit cost for Gen-IV demonstration plants (HTR-PM costs not published; US projects pre-FEED).",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -160,6 +151,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "HTR-PM demonstration plant, Shidaowan, China (CNNC/Huaneng/Tsinghua)",
+      "country": "CN",
+      "capacity": "world's first high-temperature gas-cooled reactor pebble-bed module plant; two 105 MWe reactor modules; grid-connected December 2021, commercial operation from December 2023; 750 C core-outlet helium, 566 C steam",
+      "status": "operating",
+      "source": {
+        "url": "https://en.cnnc.com.cn/searchen.html?searchText=HTGR",
+        "note": "CNNC: \"the world's first High Temperature gas cooled Reactor of Pebble bed Module (HTR-PM) is now connected to the grid\"; core-outlet 750 C / steam 566 C from world-energy.org, 24 Aug 2021 (fuel loading); commercial operation Dec 2023 widely reported; read 2026-10-28"
+      }
     }
   ]
 }

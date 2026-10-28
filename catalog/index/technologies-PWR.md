@@ -5,7 +5,7 @@
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Aeroderivative and industrial gas turbines](#pwr-aeroderivative-turbines) | Gas-fired power | commercial |  | Baker Hughes (LM6000, LM9000); GE Vernova (LM2500, LM2500XPRESS, LM6000); Solar Turbines (Titan, Taurus, Mars industrial turbines); Siemens Energy (SGT-A35, SGT-A65 aeroderivatives) |  |
-| [Biomass and waste-to-energy](#pwr-biomass-waste-to-energy) | Biomass and waste | commercial | 9 | Hitachi Zosen Inova (now Kanadevia Inova) (waste-to-energy plants); Babcock & Wilcox (biomass and waste boilers) |  |
+| [Biomass and waste-to-energy](#pwr-biomass-waste-to-energy) | Biomass and waste | commercial | 9 | Hitachi Zosen Inova (now Kanadevia Inova) (waste-to-energy plants); Babcock & Wilcox (biomass and waste boilers) | capital cost of the Dubai Waste Management Centre waste-to-energy plant: 1 billion USD project cost (1.9 Mt/yr waste processing) (2023$) |
 | [Cogeneration and combined heat and power](#pwr-cogeneration-chp) | Gas-fired power | commercial |  | Solar Turbines (Titan and Taurus CHP packages); Siemens Energy (industrial gas turbine CHP); Wärtsilä (engine CHP) | installed cost, gas-turbine CHP: 1248-3281 USD/kW (2013$) |
 | [Combined cycle and HRSG](#pwr-combined-cycle-hrsg) | Gas-fired power | commercial |  | GE Vernova (HA combined-cycle plants); Siemens Energy (combined-cycle plants and HRSGs); Mitsubishi Heavy Industries (Mitsubishi Power) (GTCC plants) | total overnight cost, combined cycle single-shaft: 1086 USD/kW (2025$)<br>total overnight cost, combined cycle multi-shaft: 1032 USD/kW (2025$)<br>total overnight cost, combined cycle with 95% carbon capture: 2824 USD/kW (2025$) |
 | [Concentrated solar power with storage](#pwr-concentrated-solar-power) | Solar | commercial | 9 | Abengoa (CSP plants); SolarReserve (tower plants (company later closed)); Cosin (CSP plants) | capital cost, base year: 7912 USD/kWe (2022$) |
@@ -67,13 +67,15 @@ flowchart LR
 - LM2500XPRESS+ output (50 Hz, ISO, natural gas): 34.5-36.3 MW; G4 and G5 DLE UPT variants. [source](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500)
 - LM2500 hydrogen-blend operating experience: 5-95 % hydrogen by volume; about 2 million operating hours on hydrogen-blend fuels; headline capability up to 75% hydrogen. [source](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500)
 
+**Reference plants:**
+- QPM Isaac Power Station aeroderivative units, Queensland, AU: two GE Vernova LM6000 aeroderivative gas turbines generating up to 112 MW; delivered 2025; construction. [source](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station)
+
 **Missing inputs:**
-- plants in Asia Pacific and Southeast Asia (reference_plants): The pages read cite US, German and Irish projects only. Where: Baker Hughes and GE Vernova references (catalog: baker-hughes, open). Next: Add one SEA or Australian reference.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; OEM quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station). Last reviewed 2026-10-28.
 
 ## Biomass and waste-to-energy
 <a id="pwr-biomass-waste-to-energy"></a>
@@ -91,15 +93,19 @@ flowchart LR
 
 **Key equipment:** fuel handling, grate or fluidised-bed boiler, steam turbine, flue gas cleaning.
 
+**Costs:**
+- capital cost of the Dubai Waste Management Centre waste-to-energy plant: 1 billion USD project cost (1.9 Mt/yr waste processing) (2023$); dollar year not stated in the source (publication 2023); "Dubai opens $1bn waste-to-energy centre" covering 1.9 Mt/yr of waste. [source](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity)
+
+**Reference plants:**
+- Dubai Waste Management Centre (Warsan), United Arab Emirates, AE: world's largest waste-to-energy plant: processes 1.9 million tonnes of waste a year, powers about 135,000 homes; about USD 1 bn project; began transmitting electricity July 2023; operating. [source](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass gasification - small-scale (bio-syngas)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - electrical efficiency, throughput and plant examples (performance): Hitachi Zosen Inova's site redirected to Kanadevia Inova and was not read. Where: [Kanadevia Inova](https://kanadevia-inova.com/) (open). Next: Fetch the redirected site and add plant data.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-25.
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity). Last reviewed 2026-10-28.
 
 ## Cogeneration and combined heat and power
 <a id="pwr-cogeneration-chp"></a>
@@ -127,7 +133,7 @@ flowchart LR
 - installed cost, gas-turbine CHP: 1248-3281 USD/kW (2013$); 3 MW system $3,281; 45 MW system $1,248; costs fall with size. [source](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named CHP project page found in this pass. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry for industrial/utility CHP (searched 'cogeneration', 'CHP', 'combined heat and power', 'trigeneration', 'quad-generation'; nearest rows 'Fuel cell micro-CHP for buildings', 'Trigeneration (CCHP)', 'Quad-generation (CCHP +)' are Buildings-category polygeneration); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
@@ -163,7 +169,7 @@ flowchart LR
 - total overnight cost, combined cycle with 95% carbon capture: 2824 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 543 MW unit, first available 2029, base overnight cost 2,567 USD/kW times technological optimism factor 1.10; excludes regional multipliers, learning effects and interest during construction; Table 4 regional range 2,268-5,674 USD/kW (2025$), average 2,954. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; AEO2026 cost tables (already recorded) name classes, not plants; no single named reference added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
@@ -195,13 +201,15 @@ flowchart LR
 **Costs:**
 - capital cost, base year: 7912 USD/kWe (2022$); 2022 dollars. [source](https://atb.nrel.gov/electricity/2024/concentrating_solar_power)
 
+**Reference plants:**
+- Noor Ouarzazate solar complex, Morocco (MASEN), MA: about 510 MW of concentrated solar power (plus a 72 MW PV plant) across Noor I-III, including the Noor III molten-salt tower; about USD 2.5 bn; phases 2014-2018; world's largest CSP complex; operating. [source](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/103151506335526236)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Solar tower' 9 (2025); 'Parabolic trough (solar)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/concentrating_solar_power). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/concentrating_solar_power). Last reviewed 2026-10-28.
 
 ## Containerised hybrid power modules (solar, storage, gensets)
 <a id="pwr-containerised-hybrid-modules"></a>
@@ -233,12 +241,12 @@ flowchart LR
 - Porphyry gold mine hybrid plant (Northern Star), Australia: 4.4 MW solar + 2 MW battery; operating under a 10-year PPA; 1.91 million litres of fuel saved per year. [source](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia)
 
 **Missing inputs:**
-- module prices or contract rates in $/kW or $/kWh delivered, with dollar year (costs): Vendor pages sell services without publishing rates. Where: arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands (catalog: arxiv, open); IRENA reports on hybrid mini-grid costs (irena.org) (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such. Where: IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
-- reference hybrid module deployment in Southeast Asia (reference_plants): Case studies read are in Eritrea and Australia. Where: Aggreko Asia-Pacific case studies and Indonesian or Philippine mine microgrid tenders (open). Next: Add a Southeast Asian reference with capacity and fuel savings.
+- module prices or contract rates in $/kW or $/kWh delivered, with dollar year (costs): Vendor pages sell services without publishing rates. Web-checked 2026-10-28; module prices are quote-only. Where: arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands (catalog: arxiv, open); IRENA reports on hybrid mini-grid costs (irena.org) (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
+- reference hybrid module deployment in Southeast Asia (reference_plants): Case studies read are in Eritrea and Australia. Web-checked 2026-10-28; Aggreko hybrid case studies found for Australia (Granny Smith) and Latin America, no verifiable named SEA module deployment. Where: Aggreko Asia-Pacific case studies and Indonesian or Philippine mine microgrid tenders (open). Next: Add a Southeast Asian reference with capacity and fuel savings.
 - hybrid control sequence is generalised from vendor pages (process): The controller logic (solar first, battery smoothing, genset backup) is standard practice, not one named source. Where: Vendor white papers on hybrid controller algorithms (open). Next: Check the steps against a named vendor white paper.
 
-Sources: [1](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants), [2](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems), [3](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project), [4](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia), [5](https://boxpower.io/products/solar-container/), [6](https://www.bredenoord.com/en/knowledge/mobile-solar-plant), [7](https://www.solarcontainer.one/english/product-information). Last reviewed 2026-10-26.
+Sources: [1](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants), [2](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems), [3](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project), [4](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia), [5](https://boxpower.io/products/solar-container/), [6](https://www.bredenoord.com/en/knowledge/mobile-solar-plant), [7](https://www.solarcontainer.one/english/product-information). Last reviewed 2026-10-28.
 
 ## Crystalline silicon PV (PERC, TOPCon, HJT)
 <a id="pwr-crystalline-silicon-pv"></a>
@@ -263,13 +271,16 @@ flowchart LR
 **Costs:**
 - overnight capital cost: 1.56 USD/Wac (2023$); 2023 benchmark (Q1 2023), 100 MWdc one-axis tracking; the base year 2022 value is $1.43/Wac. [source](https://atb.nrel.gov/electricity/2024/utility-scale_pv)
 
+**Reference plants:**
+- Cirata floating solar PV plant, West Java, Indonesia, ID: 145 MW floating PV, the largest in Southeast Asia at commissioning (planned expansion to up to 500 MW); powers about 50,000 homes; operating. [source](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations)
+- Sunny Bangchak solar plant, Thailand, TH: 44 MW silicon PV, Southeast Asia's largest silicon photovoltaic plant at grid connection (27 Sep 2012); operating. [source](https://www.eco-business.com/news/southeast-asias-largest-solar-plant-in-thailand-gets-turned-on)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Crystalline silicon PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants with capacity and start-up year (reference_plants): The NREL page models a representative plant only. Where: Operator project pages (open). Next: Add one SEA or Australian solar farm.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations). Last reviewed 2026-10-28.
 
 ## Floating solar
 <a id="pwr-floating-solar"></a>
@@ -859,14 +870,16 @@ flowchart LR
 - SOx change with 20% ammonia: -20 %; versus coal alone. [source](https://www.jera.co.jp/en/news/notice/20240626_1954)
 - CO2 change with 20% ammonia: -20 %; IHI reports about 20% lower CO2; the JERA notice gives no CO2 figure. [source](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html)
 
+**Reference plants:**
+- JERA Hekinan Thermal Power Station Unit 4 ammonia co-firing demonstration, Aichi, Japan (with IHI), JP: 1 GW coal unit; world's first large-scale demonstration of 20% (by heating value) fuel-ammonia substitution; three-month trial concluded June 2024 with positive results; pilot. [source](https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Co-firing of ammonia in coal power plants' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- fuel ammonia cost and conversion capex (costs): Press releases give no cost. Where: NEDO and METI Green Innovation Fund documents (catalog: meti-japan, open). Next: Add cost per tonne of ammonia and retrofit capex with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- fuel ammonia cost and conversion capex (costs): Press releases give no cost. Web-checked 2026-10-28; JERA/IHI published combustion results, not fuel-cost or capex figures. Where: NEDO and METI Green Innovation Fund documents (catalog: meti-japan, open). Next: Add cost per tonne of ammonia and retrofit capex with year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.jera.co.jp/en/news/notice/20240626_1954), [2](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html). Last reviewed 2026-10-25.
+Sources: [1](https://www.jera.co.jp/en/news/notice/20240626_1954), [2](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html), [3](https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results). Last reviewed 2026-10-28.
 
 ## Compressed and liquid air energy storage
 <a id="pwr-compressed-liquid-air-storage"></a>
@@ -888,15 +901,17 @@ flowchart LR
 - Willow Rock power: 500 MW; late-stage development. [source](https://www.hydrostor.ca/willow-rock/)
 - Willow Rock energy: 4000 MWh; 8+ hours. [source](https://www.hydrostor.ca/willow-rock/)
 
+**Reference plants:**
+- Huntorf CAES (Germany, 1978) and McIntosh CAES (Alabama, USA, 1991), DE: Huntorf: world's first CAES plant, 290 MW (1978); McIntosh: 110 MW salt-cavern CAES storing air in a 19-million-cubic-foot cavern (1991); operating. [source](https://www.nytimes.com/1991/09/29/business/technology-using-compressed-air-to-store-up-electricity.html)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Compressed air energy storage' 9 (2025); 'Liquid air energy storage' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - round-trip efficiency and Highview Carrington data (performance): Highview's site blocks automated reading and Hydrostor's page gives no efficiency. Where: [Highview Power project pages](https://highview-power.com/) (open). Next: Add efficiency and MWh for operating projects.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; Huntorf/McIntosh capex not stated in open pages read. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.hydrostor.ca/willow-rock/). Last reviewed 2026-10-25.
+Sources: [1](https://www.hydrostor.ca/willow-rock/). Last reviewed 2026-10-28.
 
 ## Enhanced geothermal systems
 <a id="pwr-enhanced-geothermal"></a>
@@ -1151,14 +1166,16 @@ flowchart LR
 - HTR-PM demonstration size: 210 MWe; two 250 MWt modules; steam at 566 °C. [source](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors)
 - HTGR helium coolant temperature: 950 °C (up to); general HTGR statement. [source](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors)
 
+**Reference plants:**
+- HTR-PM demonstration plant, Shidaowan, China (CNNC/Huaneng/Tsinghua), CN: world's first high-temperature gas-cooled reactor pebble-bed module plant; two 105 MWe reactor modules; grid-connected December 2021, commercial operation from December 2023; 750 C core-outlet helium, 566 C steam; operating. [source](https://en.cnnc.com.cn/searchen.html?searchText=HTGR)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'High-temperature gas-cooled SMR' 8 (2025); 'Molten salt SMR' 4 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- HTR-PM operating status and US advanced reactor projects (reference_plants): The page read predates operation of HTR-PM and omits US designs. Where: DOE Office of Nuclear Energy advanced reactor demonstration program (open). Next: Add current status and dates.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open unit cost for Gen-IV demonstration plants (HTR-PM costs not published; US projects pre-FEED). Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors). Last reviewed 2026-10-25.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors), [2](https://www.world-energy.org/article/19854.html). Last reviewed 2026-10-28.
 
 ## Perovskite and tandem solar cells
 <a id="pwr-perovskite-tandem"></a>

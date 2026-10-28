@@ -109,7 +109,7 @@
       "note": "Hydrostor, Willow Rock Energy Storage Center page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
@@ -129,7 +129,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; Huntorf/McIntosh capex not stated in open pages read.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -149,19 +149,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -173,6 +160,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Huntorf CAES (Germany, 1978) and McIntosh CAES (Alabama, USA, 1991)",
+      "country": "DE",
+      "capacity": "Huntorf: world's first CAES plant, 290 MW (1978); McIntosh: 110 MW salt-cavern CAES storing air in a 19-million-cubic-foot cavern (1991)",
+      "status": "operating",
+      "source": {
+        "url": "https://www.nytimes.com/1991/09/29/business/technology-using-compressed-air-to-store-up-electricity.html",
+        "note": "New York Times, 29 Sep 1991 (McIntosh 110 MW, 19-million-cu-ft cavern); Huntorf 290 MW 1978 per the widely cited Crotogino et al. Huntorf 20-years review (researchgate table mirror); read 2026-10-28"
+      }
     }
   ]
 }

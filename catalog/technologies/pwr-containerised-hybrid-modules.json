@@ -208,13 +208,13 @@
       "note": "SolarContainer product information page, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-26",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "module prices or contract rates in $/kW or $/kWh delivered, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor pages sell services without publishing rates.",
+      "reason": "Vendor pages sell services without publishing rates. Web-checked 2026-10-28; module prices are quote-only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands",
@@ -232,7 +232,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries",
@@ -246,7 +246,7 @@
       "field": "reference_plants",
       "item": "reference hybrid module deployment in Southeast Asia",
       "reason_code": "not_in_sources_read",
-      "reason": "Case studies read are in Eritrea and Australia.",
+      "reason": "Case studies read are in Eritrea and Australia. Web-checked 2026-10-28; Aggreko hybrid case studies found for Australia (Granny Smith) and Latin America, no verifiable named SEA module deployment.",
       "where": [
         {
           "hint": "Aggreko Asia-Pacific case studies and Indonesian or Philippine mine microgrid tenders",
