@@ -1,0 +1,21 @@
+{
+  "id": "samsung-heavy",
+  "name": "Samsung Heavy Industries",
+  "country": "South Korea",
+  "roles": [
+    "oem"
+  ],
+  "description": "Korean shipbuilder (Geoje yard) for LNG carriers, FPSOs and drillships.",
+  "technologies": [
+    "mid-crude-product-tankers",
+    "mid-lng-carriers"
+  ],
+  "url": "https://www.sea.co.kr",
+  "sources": [
+    {
+      "url": "https://www.sea.co.kr",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

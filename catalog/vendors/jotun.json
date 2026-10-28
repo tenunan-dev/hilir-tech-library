@@ -1,0 +1,20 @@
+{
+  "id": "jotun",
+  "name": "Jotun Powder Coatings",
+  "country": "Norway",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Norwegian coatings group with a powder-coatings division used for pipe and structural protection.",
+  "technologies": [
+    "mat-coatings-linings"
+  ],
+  "url": "https://www.jotun.com",
+  "sources": [
+    {
+      "url": "https://www.jotun.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

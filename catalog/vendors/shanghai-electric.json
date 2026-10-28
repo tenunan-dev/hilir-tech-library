@@ -1,0 +1,20 @@
+{
+  "id": "shanghai-electric",
+  "name": "Shanghai Electric",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Chinese heavy-equipment group producing steam turbines, compressors and rotating machinery.",
+  "technologies": [
+    "rot-steam-turbines-expanders"
+  ],
+  "url": "https://www.shanghai-electric.com",
+  "sources": [
+    {
+      "url": "https://www.shanghai-electric.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

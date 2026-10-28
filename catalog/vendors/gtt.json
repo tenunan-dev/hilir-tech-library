@@ -1,0 +1,24 @@
+{
+  "id": "gtt",
+  "name": "GTT",
+  "country": "France",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Gaztransport et Technigaz: licensor of membrane containment systems (Mark III, NO96) for LNG carriers and onshore tanks.",
+  "technologies": [
+    "mid-lng-carriers"
+  ],
+  "url": "https://gtt.fr",
+  "sources": [
+    {
+      "url": "https://gtt.fr",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Mark III",
+    "NO96"
+  ]
+}

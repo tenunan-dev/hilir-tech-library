@@ -1,0 +1,20 @@
+{
+  "id": "american-marsh",
+  "name": "American Marsh Pumps",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Long-established US pump maker (Pentair-owned brand) for industrial and municipal centrifugal pumps.",
+  "technologies": [
+    "rot-pumps"
+  ],
+  "url": "https://www.americanmarsh.com",
+  "sources": [
+    {
+      "url": "https://www.americanmarsh.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "rosen",
+  "name": "ROSEN Group",
+  "country": "Germany",
+  "roles": [
+    "service"
+  ],
+  "description": "German inspection company providing inline-inspection pigs (MFL, UT, EMAT) and integrity analytics.",
+  "technologies": [
+    "mid-inline-inspection-pigging"
+  ],
+  "url": "https://www.rosen-group.com",
+  "sources": [
+    {
+      "url": "https://www.rosen-group.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "doosan-skoda",
+  "name": "Doosan Škoda Power",
+  "country": "Czech Republic",
+  "roles": [
+    "oem"
+  ],
+  "description": "Czech steam-turbine OEM (Plzeň) for industrial and power applications.",
+  "technologies": [
+    "rot-steam-turbines-expanders"
+  ],
+  "url": "https://www.doosanskodapower.com",
+  "sources": [
+    {
+      "url": "https://www.doosanskodapower.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

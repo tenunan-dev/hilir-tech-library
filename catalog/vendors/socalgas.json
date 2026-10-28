@@ -1,0 +1,20 @@
+{
+  "id": "socalgas",
+  "name": "SoCalGas",
+  "country": "USA",
+  "roles": [
+    "operator"
+  ],
+  "description": "Southern California Gas utility running hydrogen blending studies (Angeles Link) on its network.",
+  "technologies": [
+    "mid-hydrogen-blending-repurposing"
+  ],
+  "url": "https://www.socalgas.com",
+  "sources": [
+    {
+      "url": "https://www.socalgas.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

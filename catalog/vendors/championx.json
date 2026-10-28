@@ -1,0 +1,20 @@
+{
+  "id": "championx",
+  "name": "ChampionX",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Production-chemicals and artificial-lift company (Ecolab spin-off) supplying hydrate/wax/asphaltene inhibitors.",
+  "technologies": [
+    "mid-hydrate-wax-asphaltene-management"
+  ],
+  "url": "https://www.championx.com",
+  "sources": [
+    {
+      "url": "https://www.championx.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

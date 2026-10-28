@@ -1,0 +1,24 @@
+{
+  "id": "hanwha-ocean",
+  "name": "Hanwha Ocean",
+  "country": "South Korea",
+  "roles": [
+    "oem"
+  ],
+  "description": "Korean shipbuilder (formerly DSME) delivering LNG carriers and offshore topsides.",
+  "technologies": [
+    "mid-crude-product-tankers",
+    "mid-lng-carriers"
+  ],
+  "url": "https://www.hanwhaocean.com",
+  "sources": [
+    {
+      "url": "https://www.hanwhaocean.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "DSME"
+  ]
+}

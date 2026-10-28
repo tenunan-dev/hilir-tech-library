@@ -1,0 +1,20 @@
+{
+  "id": "gasunie",
+  "name": "Gasunie",
+  "country": "Netherlands",
+  "roles": [
+    "operator"
+  ],
+  "description": "Dutch gas transmission operator running hydrogen blending studies and the HyStock storage pilot via its infrastructure.",
+  "technologies": [
+    "mid-hydrogen-blending-repurposing"
+  ],
+  "url": "https://www.gasunie.nl",
+  "sources": [
+    {
+      "url": "https://www.gasunie.nl",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

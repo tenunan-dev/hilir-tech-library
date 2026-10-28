@@ -1,0 +1,20 @@
+{
+  "id": "silixa",
+  "name": "Silixa",
+  "country": "United Kingdom",
+  "roles": [
+    "oem"
+  ],
+  "description": "UK fibre-optic sensing company (Carina DAS, Ultima DTS) for pipeline leak detection and well monitoring.",
+  "technologies": [
+    "mid-leak-detection"
+  ],
+  "url": "https://silixa.com",
+  "sources": [
+    {
+      "url": "https://silixa.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

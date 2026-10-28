@@ -1,0 +1,20 @@
+{
+  "id": "endress-hauser",
+  "name": "Endress+Hauser",
+  "country": "Switzerland",
+  "roles": [
+    "oem"
+  ],
+  "description": "Swiss process-instrumentation family company: flow (Coriolis, ultrasonic), level and analytical measurement for custody transfer.",
+  "technologies": [
+    "mid-custody-transfer-metering"
+  ],
+  "url": "https://www.endress.com",
+  "sources": [
+    {
+      "url": "https://www.endress.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

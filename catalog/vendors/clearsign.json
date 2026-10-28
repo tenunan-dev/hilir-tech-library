@@ -1,0 +1,20 @@
+{
+  "id": "clearsign",
+  "name": "ClearSign Technologies",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Seattle company making ClearSign Core electrodynamic combustion retrofit for low-NOx burners.",
+  "technologies": [
+    "rot-fired-heaters-low-nox-burners"
+  ],
+  "url": "https://clearsign.com",
+  "sources": [
+    {
+      "url": "https://clearsign.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

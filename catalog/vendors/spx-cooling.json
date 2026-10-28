@@ -1,0 +1,23 @@
+{
+  "id": "spx-cooling",
+  "name": "SPX Cooling Technologies",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "US cooling-tower OEM (Marley brand) for industrial and power applications.",
+  "technologies": [
+    "rot-air-coolers-cooling-towers"
+  ],
+  "url": "https://spxcooling.com",
+  "sources": [
+    {
+      "url": "https://spxcooling.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Marley cooling towers"
+  ]
+}

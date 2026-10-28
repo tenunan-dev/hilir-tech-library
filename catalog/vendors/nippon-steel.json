@@ -1,0 +1,20 @@
+{
+  "id": "nippon-steel",
+  "name": "Nippon Steel",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "description": "Japanese steel maker producing high-strength linepipe (X70-X100 class) for pipelines.",
+  "technologies": [
+    "mid-high-strength-steel-pipelines"
+  ],
+  "url": "https://www.nipponsteel.com",
+  "sources": [
+    {
+      "url": "https://www.nipponsteel.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "uniper",
+  "name": "Uniper",
+  "country": "Germany",
+  "roles": [
+    "operator"
+  ],
+  "description": "German utility and gas storage operator with European underground storage assets.",
+  "technologies": [
+    "mid-underground-gas-storage"
+  ],
+  "url": "https://www.uniper.energy",
+  "sources": [
+    {
+      "url": "https://www.uniper.energy",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

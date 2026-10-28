@@ -1,0 +1,20 @@
+{
+  "id": "corrpro",
+  "name": "Corrpro",
+  "country": "USA",
+  "roles": [
+    "service"
+  ],
+  "description": "Aegion company providing cathodic protection engineering, installation and survey services.",
+  "technologies": [
+    "mid-cathodic-protection-coatings"
+  ],
+  "url": "https://www.corrpro.com",
+  "sources": [
+    {
+      "url": "https://www.corrpro.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

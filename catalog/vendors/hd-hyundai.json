@@ -1,0 +1,25 @@
+{
+  "id": "hd-hyundai",
+  "name": "HD Hyundai (Hyundai Heavy Industries)",
+  "country": "South Korea",
+  "roles": [
+    "oem"
+  ],
+  "description": "Korean shipbuilding group (HHI, HD Hyundai Mipo) building crude/product tankers, LNG and ammonia carriers.",
+  "technologies": [
+    "mid-crude-product-tankers",
+    "mid-lpg-ammonia-carriers"
+  ],
+  "url": "https://www.hd.com",
+  "sources": [
+    {
+      "url": "https://www.hd.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Hyundai Heavy Industries",
+    "HD Hyundai Mipo"
+  ]
+}

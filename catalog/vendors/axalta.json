@@ -1,0 +1,20 @@
+{
+  "id": "axalta",
+  "name": "Axalta Coating Systems",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "US coatings company supplying protective, marine and powder coatings (Alesta powder line).",
+  "technologies": [
+    "mat-coatings-linings"
+  ],
+  "url": "https://www.axalta.us",
+  "sources": [
+    {
+      "url": "https://www.axalta.us",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

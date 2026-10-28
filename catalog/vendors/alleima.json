@@ -1,0 +1,20 @@
+{
+  "id": "alleima",
+  "name": "Alleima",
+  "country": "Sweden",
+  "roles": [
+    "oem"
+  ],
+  "description": "Swedish stainless and high-alloy tube maker (spun off from Sandvik Materials Technology), supplying CRA tube and cladding.",
+  "technologies": [
+    "mat-cra-clad-pipe"
+  ],
+  "url": "https://www.alleima.com",
+  "sources": [
+    {
+      "url": "https://www.alleima.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

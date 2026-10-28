@@ -1,0 +1,20 @@
+{
+  "id": "dongfang-electric",
+  "name": "Dongfang Electric",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Chinese power-equipment maker: steam turbines, compressors and heavy rotating equipment.",
+  "technologies": [
+    "rot-steam-turbines-expanders"
+  ],
+  "url": "https://www.dongfang.com",
+  "sources": [
+    {
+      "url": "https://www.dongfang.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

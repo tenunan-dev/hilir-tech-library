@@ -1,0 +1,20 @@
+{
+  "id": "hamworthy-peabody",
+  "name": "Hamworthy Peabody Combustion",
+  "country": "United Kingdom",
+  "roles": [
+    "oem"
+  ],
+  "description": "Combustion equipment maker (now part of John Zink Hamworthy) supplying process burners and flare tips.",
+  "technologies": [
+    "rot-fired-heaters-low-nox-burners"
+  ],
+  "url": "https://www.johnzink.com",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

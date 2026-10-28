@@ -1,0 +1,23 @@
+{
+  "id": "seal-for-life",
+  "name": "Seal For Life",
+  "country": "Netherlands",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Berry/Seal For Life Industries: heat-shrinkable pipeline coatings (Canusa) and anti-corrosion systems.",
+  "technologies": [
+    "mid-cathodic-protection-coatings"
+  ],
+  "url": "https://www.sealforlife.com",
+  "sources": [
+    {
+      "url": "https://www.sealforlife.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Canusa heat shrinks"
+  ]
+}

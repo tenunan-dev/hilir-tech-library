@@ -1,0 +1,20 @@
+{
+  "id": "tenaris",
+  "name": "Tenaris",
+  "country": "Luxembourg",
+  "roles": [
+    "oem"
+  ],
+  "description": "Global pipe manufacturer (incorporated Luxembourg, Italian operations) for OCTG and linepipe.",
+  "technologies": [
+    "mid-high-strength-steel-pipelines"
+  ],
+  "url": "https://www.tenaris.com",
+  "sources": [
+    {
+      "url": "https://www.tenaris.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

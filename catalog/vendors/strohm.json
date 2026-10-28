@@ -1,0 +1,20 @@
+{
+  "id": "strohm",
+  "name": "Strohm",
+  "country": "Netherlands",
+  "roles": [
+    "oem"
+  ],
+  "description": "Dutch maker of TCP (thermoplastic composite pipe) for offshore flowlines and risers.",
+  "technologies": [
+    "mid-composite-reinforced-thermoplastic-pipe"
+  ],
+  "url": "https://strohm.eu",
+  "sources": [
+    {
+      "url": "https://strohm.eu",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

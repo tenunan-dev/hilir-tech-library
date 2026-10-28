@@ -1,0 +1,20 @@
+{
+  "id": "ashton-seals",
+  "name": "Ashton Seals",
+  "country": "United Kingdom",
+  "roles": [
+    "supplier"
+  ],
+  "description": "UK sealing products distributor supplying compressor and pump seals.",
+  "technologies": [
+    "rot-seals-bearings-motor-compressors"
+  ],
+  "url": "https://www.ashtonseals.co.uk",
+  "sources": [
+    {
+      "url": "https://www.ashtonseals.co.uk",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sherwin-williams",
+  "name": "Sherwin-Williams",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "US coatings group (incl. Valspar) supplying protective and marine coatings for infrastructure.",
+  "technologies": [
+    "mat-coatings-linings"
+  ],
+  "url": "https://www.sherwin-williams.com",
+  "sources": [
+    {
+      "url": "https://www.sherwin-williams.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Valspar"
+  ]
+}

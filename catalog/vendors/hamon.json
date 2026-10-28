@@ -1,0 +1,20 @@
+{
+  "id": "hamon",
+  "name": "Hamon Group",
+  "country": "Belgium",
+  "roles": [
+    "oem"
+  ],
+  "description": "Belgian thermal-engineering group supplying cooling towers, air-cooled condensers and heat-recovery systems.",
+  "technologies": [
+    "rot-air-coolers-cooling-towers"
+  ],
+  "url": "https://www.hamongroup.com",
+  "sources": [
+    {
+      "url": "https://www.hamongroup.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "petronas-gas",
+  "name": "PETRONAS Gas Berhad",
+  "country": "Malaysia",
+  "roles": [
+    "operator"
+  ],
+  "description": "PETRONAS's gas transmission and regasification subsidiary operating the Peninsular Gas Utilisation pipeline network.",
+  "technologies": [
+    "mid-hydrogen-blending-repurposing"
+  ],
+  "url": "https://www.petronasgas.com",
+  "sources": [
+    {
+      "url": "https://www.petronasgas.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

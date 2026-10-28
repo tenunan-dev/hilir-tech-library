@@ -1,0 +1,21 @@
+{
+  "id": "td-williamson",
+  "name": "T.D. Williamson",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Pipeline services company: hot tapping, plugging, pigging and inline inspection (KITE, sees challenges).",
+  "technologies": [
+    "mid-inline-inspection-pigging"
+  ],
+  "url": "https://www.tdwilliamson.com",
+  "sources": [
+    {
+      "url": "https://www.tdwilliamson.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-288 vendor records covering 207 technologies. One record per vendor in
+330 vendor records covering 228 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -125,13 +125,49 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [WinGD](https://www.wingd.com) | Switzerland | oem | Ammonia as marine fuel |
 | [Yara](https://www.yara.com) | Norway | operator, operator | Biogas reforming to hydrogen |
 
+## MAT: Materials and integrity
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [3M](https://www.3m.com) | USA | supplier | Coatings and linings |
+| [AkzoNobel](https://www.akzonobel.com) | Netherlands | supplier | Coatings and linings |
+| [Alleima](https://www.alleima.com) | Sweden | oem | Corrosion-resistant alloys and clad pipe |
+| [Avestec Technologies](https://www.avestec.com) | Canada | service | Drones and robotics for inspection |
+| [Axalta Coating Systems](https://www.axalta.us) | USA | supplier | Coatings and linings |
+| [Jotun Powder Coatings](https://www.jotun.com) | Norway | supplier | Coatings and linings |
+| [Sherwin-Williams](https://www.sherwin-williams.com) | USA | supplier | Coatings and linings |
+
 ## MID: Midstream
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [AP Sensing](https://www.apsensing.com) | Germany | oem | Leak detection (CPM, fibre optic DAS and DTS) |
+| [ChampionX](https://www.championx.com) | USA | supplier | Hydrate, wax and asphaltene management (inhibitors, heating, pigging) |
+| [Corrpro](https://www.corrpro.com) | USA | service | Cathodic protection and coatings (FBE, 3LPE) |
+| [CRC-Evans](https://www.crc-evans.com) | USA | oem | High-strength steel pipelines and automatic welding |
+| [Endress+Hauser](https://www.endress.com) | Switzerland | oem | Custody transfer metering (ultrasonic, Coriolis) |
+| [Gasunie](https://www.gasunie.nl) | Netherlands | operator | Hydrogen blending and repurposing of gas pipelines |
+| [GTT](https://gtt.fr) | France | licensor | LNG carriers (membrane and Moss tanks, reliquefaction) |
+| [Hanwha Ocean](https://www.hanwhaocean.com) | South Korea | oem | Crude and product tankers with scrubbers or LNG fuel; LNG carriers (membrane and Moss tanks, reliquefaction) |
+| [HD Hyundai (Hyundai Heavy Industries)](https://www.hd.com) | South Korea | oem | Crude and product tankers with scrubbers or LNG fuel; LPG and ammonia carriers |
 | [KBC (Yokogawa)](https://www.kbc.global) | United Kingdom | supplier | Flow assurance simulation |
+| [LiquidPower Specialty Products](https://www.lspitech.com) | USA | supplier | Drag reducing agents |
+| [Mitsubishi Shipbuilding](https://www.mitsubishi-shipbuilding.com) | Japan | oem | Liquid CO2 carriers |
+| [Nippon Steel](https://www.nipponsteel.com) | Japan | oem | High-strength steel pipelines and automatic welding |
 | [Northern Lights JV](https://norlights.com) | Norway | operator | CO2 pipelines (dense phase); Liquid CO2 carriers |
+| [PETRONAS Gas Berhad](https://www.petronasgas.com) | Malaysia | operator | Hydrogen blending and repurposing of gas pipelines |
 | [Porthos](https://www.porthosco2.nl) | Netherlands | operator, developer | CO2 pipelines (dense phase) |
+| [ROSEN Group](https://www.rosen-group.com) | Germany | service | Pipeline inline inspection (MFL, ultrasonic, EMAT pigs) |
+| [Samsung Heavy Industries](https://www.sea.co.kr) | South Korea | oem | Crude and product tankers with scrubbers or LNG fuel; LNG carriers (membrane and Moss tanks, reliquefaction) |
+| [Seal For Life](https://www.sealforlife.com) | Netherlands | supplier | Cathodic protection and coatings (FBE, 3LPE) |
+| [SICK](https://www.sick.com) | Germany | oem | Custody transfer metering (ultrasonic, Coriolis) |
+| [Silixa](https://silixa.com) | United Kingdom | oem | Leak detection (CPM, fibre optic DAS and DTS) |
+| [SoCalGas](https://www.socalgas.com) | USA | operator | Hydrogen blending and repurposing of gas pipelines |
+| [Strohm](https://strohm.eu) | Netherlands | oem | Composite and reinforced thermoplastic pipe |
+| [Subsea7](https://www.subsea7.com) | United Kingdom | epc | Heated and pipe-in-pipe flowlines |
+| [T.D. Williamson](https://www.tdwilliamson.com) | USA | oem, service | Pipeline inline inspection (MFL, ultrasonic, EMAT pigs) |
+| [Tenaris](https://www.tenaris.com) | Luxembourg | oem | High-strength steel pipelines and automatic welding |
+| [Uniper](https://www.uniper.energy) | Germany | operator | Underground gas storage (salt caverns, depleted fields) |
 
 ## PCH: Petrochemicals
 
@@ -272,6 +308,17 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [American Marsh Pumps](https://www.americanmarsh.com) | USA | oem | Centrifugal and positive displacement pumps |
+| [Ashton Seals](https://www.ashtonseals.co.uk) | United Kingdom | supplier | Mechanical seals, magnetic bearings and integrated motor-compressors |
+| [ClearSign Technologies](https://clearsign.com) | USA | oem | Fired heaters and low-NOx burners |
+| [Dongfang Electric](https://www.dongfang.com) | China | oem | Steam turbines and expanders |
+| [Doosan Škoda Power](https://www.doosanskodapower.com) | Czech Republic | oem | Steam turbines and expanders |
+| [Gallagher Fluid Seals](https://www.gallagherfluidseals.com) | USA | supplier | Mechanical seals, magnetic bearings and integrated motor-compressors |
+| [Hamon Group](https://www.hamongroup.com) | Belgium | oem | Air coolers and cooling towers |
+| [Hamworthy Peabody Combustion](https://www.johnzink.com) | United Kingdom | oem | Fired heaters and low-NOx burners |
+| [Omniseal Solutions](https://www.omnisealsolutions.com) | Belgium | oem | Mechanical seals, magnetic bearings and integrated motor-compressors |
+| [Shanghai Electric](https://www.shanghai-electric.com) | China | oem | Steam turbines and expanders |
+| [SPX Cooling Technologies](https://spxcooling.com) | USA | oem | Air coolers and cooling towers |
 | [Sulzer](https://www.sulzer.com) | Switzerland | oem | Centrifugal and positive displacement pumps |
 
 ## UPS: Upstream
@@ -363,13 +410,13 @@ Adding a record for one of them is the next batch of this directory.
 - **H2** (1): Ensyn
 - **HSE** (3): Engelhard Corporation; IHI Corporation; J-W Instruments
 - **INS** (8): Claroty; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
-- **MAT** (17): 3M; AkzoNobel; Alleima; Amiantit; Avestec Technologies; Axalta Coating Systems; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Jotun Powder Coatings; Sherwin-Williams (Valspar); Tenaris; Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
-- **MID** (26): AP Sensing; ChampionX; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; LiquidPower Specialty Products; Mitsubishi Shipbuilding; Nippon Steel; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
+- **MAT** (9): Amiantit; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
+- **MID** (4): Governments; PETRONAS Gas; ROSEN; Terminal operators
 - **PCH** (4): BASF, SABIC, Linde; CJ; Fraunhofer; Scientific Design
 - **PRC** (7): AVEVA; CanmetENERGY; Fives ProSim; Honeywell; Montz; Pinchco; TLK-Energy
 - **PWR** (16): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy
 - **REF** (10): AVEVA; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel/Foster Wheeler (Amec); Chevron / Honeywell UOP; EPC contractors (process designed by refiner or contractor); Honeywell; Koch-Glitsch; Suez; Yokogawa
-- **ROT** (19): Alfa Laval; American Marsh; Ashton Seals; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Velan
+- **ROT** (13): Alfa Laval; American Marsh; ClearSign; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Velan
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-245 of 299 cards list at least one directory vendor.
+254 of 299 cards list at least one directory vendor.

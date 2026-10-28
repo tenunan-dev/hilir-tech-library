@@ -1,0 +1,20 @@
+{
+  "id": "subsea7",
+  "name": "Subsea7",
+  "country": "United Kingdom",
+  "roles": [
+    "epc"
+  ],
+  "description": "Luxembourg/UK subsea engineering, construction and services contractor (incl. pipe-in-pipe and heated flowlines).",
+  "technologies": [
+    "mid-heated-pipe-in-pipe-flowlines"
+  ],
+  "url": "https://www.subsea7.com",
+  "sources": [
+    {
+      "url": "https://www.subsea7.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

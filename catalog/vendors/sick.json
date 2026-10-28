@@ -1,0 +1,20 @@
+{
+  "id": "sick",
+  "name": "SICK",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "German sensor maker supplying ultrasonic flow and gas analytical instrumentation used in custody transfer.",
+  "technologies": [
+    "mid-custody-transfer-metering"
+  ],
+  "url": "https://www.sick.com",
+  "sources": [
+    {
+      "url": "https://www.sick.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mitsubishi-shipbuilding",
+  "name": "Mitsubishi Shipbuilding",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "description": "Mitsubishi Heavy group shipyard building LCO2 carriers and LNG ships.",
+  "technologies": [
+    "mid-liquid-co2-carriers"
+  ],
+  "url": "https://www.mitsubishi-shipbuilding.com",
+  "sources": [
+    {
+      "url": "https://www.mitsubishi-shipbuilding.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

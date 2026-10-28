@@ -1,0 +1,20 @@
+{
+  "id": "3m",
+  "name": "3M",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Diversified materials company supplying protective coatings, tapes and ceramics for corrosion protection.",
+  "technologies": [
+    "mat-coatings-linings"
+  ],
+  "url": "https://www.3m.com",
+  "sources": [
+    {
+      "url": "https://www.3m.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
