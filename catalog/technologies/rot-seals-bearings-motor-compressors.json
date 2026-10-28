@@ -65,7 +65,7 @@
       "note": "Wikipedia, Seal (mechanical), read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
@@ -152,9 +152,14 @@
         {
           "hint": "Licensor process descriptions and textbooks",
           "access": "open"
+        },
+        {
+          "hint": "Open process-description authority (secondary): Wikipedia article 'Mechanical seal'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
+          "url": "https://en.wikipedia.org/wiki/Mechanical_seal",
+          "access": "open"
         }
       ],
-      "action": "Check the steps against a licensor description and name it."
+      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }

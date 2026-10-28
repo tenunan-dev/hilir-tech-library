@@ -111,7 +111,7 @@
       "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
@@ -136,9 +136,14 @@
         {
           "hint": "Licensor process descriptions and textbooks",
           "access": "open"
+        },
+        {
+          "hint": "Open process-description authority (secondary): Wikipedia article 'Enhanced geothermal system'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
+          "url": "https://en.wikipedia.org/wiki/Enhanced_geothermal_system",
+          "access": "open"
         }
       ],
-      "action": "Check the steps against a licensor description and name it."
+      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }

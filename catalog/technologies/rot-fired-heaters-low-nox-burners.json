@@ -173,9 +173,14 @@
         {
           "hint": "Licensor process descriptions and textbooks",
           "access": "open"
+        },
+        {
+          "hint": "Open process-description authority (secondary): Wikipedia article 'Low NOx burner'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
+          "url": "https://en.wikipedia.org/wiki/Low_NOx_burner",
+          "access": "open"
         }
       ],
-      "action": "Check the steps against a licensor description and name it."
+      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }

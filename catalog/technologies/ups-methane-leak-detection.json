@@ -208,9 +208,14 @@
         {
           "hint": "OGMP 2.0 and OGDC guidance",
           "access": "open"
+        },
+        {
+          "hint": "Open process-description authority (secondary): Wikipedia article 'Methane emissions'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
+          "url": "https://en.wikipedia.org/wiki/Methane_emissions",
+          "access": "open"
         }
       ],
-      "action": "Cite a measurement guideline for the sequence."
+      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Cite a measurement guideline for the sequence."
     },
     {
       "field": "suppliers",
