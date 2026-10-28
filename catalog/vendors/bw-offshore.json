@@ -1,0 +1,21 @@
+{
+  "id": "bw-offshore",
+  "name": "BW Offshore",
+  "country": "Norway",
+  "roles": [
+    "operator",
+    "oem"
+  ],
+  "description": "Oslo-based owner and operator of production and storage vessels (FPSO/FSO), with roughly a dozen units on long-term charters worldwide.",
+  "technologies": [
+    "ups-fpso-floating-production"
+  ],
+  "url": "https://www.bwoffshore.com",
+  "sources": [
+    {
+      "url": "https://www.bwoffshore.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

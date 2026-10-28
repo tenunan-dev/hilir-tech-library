@@ -1,0 +1,21 @@
+{
+  "id": "sulzer",
+  "name": "Sulzer",
+  "country": "Switzerland",
+  "roles": [
+    "oem"
+  ],
+  "description": "Swiss pump and separation-technology maker: API 610 process pumps, subsea boosting pumps, column internals and rotating equipment services.",
+  "technologies": [
+    "ups-subsea-boosting",
+    "rot-pumps"
+  ],
+  "url": "https://www.sulzer.com",
+  "sources": [
+    {
+      "url": "https://www.sulzer.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

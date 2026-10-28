@@ -1,0 +1,21 @@
+{
+  "id": "cognite",
+  "name": "Cognite",
+  "country": "Norway",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Industrial DataOps software company; its Cognite Data Fusion platform aggregates plant and subsurface data for AI-driven maintenance and production optimisation.",
+  "technologies": [
+    "ups-ai-seismic-interpretation-history-matching",
+    "ups-production-optimisation-digital-oilfield"
+  ],
+  "url": "https://www.cognite.com",
+  "sources": [
+    {
+      "url": "https://www.cognite.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
