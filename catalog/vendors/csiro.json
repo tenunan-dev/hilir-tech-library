@@ -1,0 +1,20 @@
+{
+  "id": "csiro",
+  "name": "CSIRO",
+  "country": "Australia",
+  "roles": [
+    "developer"
+  ],
+  "description": "Australia's national science agency, active in solar-fuels research including concentrating-solar and photocatalytic hydrogen pathways.",
+  "technologies": [
+    "h2-solar-water-splitting"
+  ],
+  "url": "https://www.csiro.au",
+  "sources": [
+    {
+      "url": "https://www.csiro.au",
+      "note": "Agency site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

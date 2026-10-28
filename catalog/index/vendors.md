@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-203 vendor records covering 115 technologies. One record per vendor in
+205 vendor records covering 115 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -18,6 +18,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Casale](https://www.casale.ch) | Switzerland | licensor | Green and blue ammonia |
 | [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | licensor, developer | Liquid organic hydrogen carriers (MCH, DBT) |
 | [Clariant](https://www.clariant.com) | Switzerland | supplier | Cellulosic ethanol |
+| [CSIRO](https://www.csiro.au) | Australia | developer | Photocatalytic and thermochemical water splitting |
 | [Cummins (Accelera)](https://www.cummins.com) | USA | oem | PEM electrolysis |
 | [Enapter](https://www.enapter.com) | Italy | oem | AEM electrolysis |
 | [Ensyn Corporation](https://www.ensyn.com) | Canada | supplier | Pyrolysis oil and hydrothermal liquefaction |
@@ -26,6 +27,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Hazer Group](https://hazergroup.com.au) | Australia | developer | Methane pyrolysis (turquoise hydrogen) |
 | [Hexagon Purus](https://hexagonpurus.com) | Norway | oem | Compressed hydrogen storage and tube trailers |
 | [Hitachi Zosen (Kanadevia)](https://www.kanadevia.com) | Japan | oem, developer | E-methane (synthetic natural gas) |
+| [HYBRIT (SSAB, LKAB, Vattenfall)](https://www.hybritdevelopment.com) | Sweden | developer | Hydrogen direct reduction of iron |
 | [Hydro-Pac](https://www.hydropac.com) | USA | oem | Hydrogen compressors (diaphragm, ionic, reciprocating) |
 | [Hydrogenious LOHC Technologies](https://hydrogenious.net) | Germany | oem, developer | Liquid organic hydrogen carriers (MCH, DBT) |
 | [HydrogenPro](https://hydrogenpro.com) | Norway | oem | Alkaline water electrolysis |
@@ -236,7 +238,7 @@ Adding a record for one of them is the next batch of this directory.
 - **CCS** (36): ADM; Atlas Copco; Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); Carbon Recycling International; CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); Covestro; DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; ExxonMobil; Fertiliser producers; Fluor; FuelCell Energy; MTR Carbon Capture; NET Power (cycle developer), Toshiba (combustor and turbine); Northern Lights; PETRONAS Carigali; Planetary; Porthos (Port of Rotterdam, Gasunie, EBN); Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources; Shell Catalysts & Technologies; SLB Capturi; Stockholm Exergi; Sustainable Energy Solutions (Chart Industries); Svante; Twelve; UNDO; Verdox
 - **DIG** (9): Amazon Web Services; Augury; C3 AI; Google Cloud Platform; Honeywell; IBM Red Hat OpenShift; Microsoft Azure; SparkCognition; Yokogawa
 - **GAS** (29): Air Liquide Engineering & Construction; Axens; Bechtel; Black & Veatch; Chart Industries; Chevron Australia; Clean Energy Fuels; ConocoPhillips; Dow; Enerflex; Excelerate Energy; ExxonMobil; Freeport LNG; FueLNG; Golar LNG; Honeywell UOP; Honeywell UOP Ortloff; Höegh LNG; Jacobs; Kobe Steel; KT Tecnimont; Merichem; PETRONAS Carigali; RasGas / Qatargas (operators); Sasol; Sumitomo Precision Products; Titan; TotalEnergies; Worley Comprimo
-- **H2** (6): CSIRO; Ensyn; HYBRIT (SSAB, LKAB, Vattenfall); Midrex; Nel; Raízen
+- **H2** (1): Ensyn
 - **HSE** (3): Engelhard Corporation; IHI Corporation; J-W Instruments
 - **INS** (8): Claroty; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
 - **MAT** (17): 3M; AkzoNobel; Alleima; Amiantit; Avestec Technologies; Axalta Coating Systems; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Jotun Powder Coatings; Sherwin-Williams (Valspar); Tenaris; Terra Drone Indonesia; Waygate Technologies (Baker Hughes)

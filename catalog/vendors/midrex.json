@@ -20,5 +20,8 @@
   "products": [
     "Midrex shaft furnace",
     "H2-ready DRI"
+  ],
+  "aliases": [
+    "Midrex"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "hybrit",
+  "name": "HYBRIT (SSAB, LKAB, Vattenfall)",
+  "country": "Sweden",
+  "roles": [
+    "developer"
+  ],
+  "description": "Swedish industrial consortium (steelmaker SSAB, miner LKAB, utility Vattenfall) that demonstrated fossil-free hydrogen-based ironmaking at Lulea, feeding the Stegra ecosystem.",
+  "technologies": [
+    "h2-dri"
+  ],
+  "url": "https://www.hybritdevelopment.com",
+  "sources": [
+    {
+      "url": "https://www.hybritdevelopment.com",
+      "note": "Consortium site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
