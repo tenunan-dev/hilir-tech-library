@@ -1,0 +1,20 @@
+{
+  "id": "shearwater",
+  "name": "Shearwater GeoServices",
+  "country": "Norway",
+  "roles": [
+    "service"
+  ],
+  "description": "Norwegian marine seismic contractor with one of the largest modern vessel fleets, absorbing Polarcus technology.",
+  "technologies": [
+    "ups-seismic-acquisition"
+  ],
+  "url": "https://shearwatergeo.com",
+  "sources": [
+    {
+      "url": "https://shearwatergeo.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "japex",
+  "name": "JAPEX",
+  "country": "Japan",
+  "roles": [
+    "operator"
+  ],
+  "description": "Japan Petroleum Exploration Co., E&P operator and JOGMEC's partner in the Sukowati CO2 Huff-and-Puff injection pilot in Indonesia.",
+  "technologies": [
+    "ups-co2-eor"
+  ],
+  "url": "https://www.japex.co.jp",
+  "sources": [
+    {
+      "url": "https://www.migas.esdm.go.id/post/implementasikan-ccus-lapangan-sukowati-injeksi-co2-perdana",
+      "note": "Ditjen Migas on the Sukowati CO2 injection, 7 Dec 2023 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.japex.co.jp",
+      "note": "Vendor site"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Japan Petroleum Exploration"
+  ]
+}

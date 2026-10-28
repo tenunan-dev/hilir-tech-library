@@ -1,0 +1,20 @@
+{
+  "id": "syncrude",
+  "name": "Syncrude Canada",
+  "country": "Canada",
+  "roles": [
+    "operator"
+  ],
+  "description": "Joint-venture operator of one of the largest oil-sands mining and upgrading complexes, at Mildred Lake/aurora, Alberta.",
+  "technologies": [
+    "ups-oil-sands-mining"
+  ],
+  "url": "https://www.syncrude.ca",
+  "sources": [
+    {
+      "url": "https://www.syncrude.ca",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

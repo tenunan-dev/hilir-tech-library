@@ -1,0 +1,23 @@
+{
+  "id": "denbury",
+  "name": "Denbury",
+  "country": "USA",
+  "roles": [
+    "operator"
+  ],
+  "description": "CO2-EOR and carbon-capture specialist acquired by ExxonMobil in 2023, operating the largest CO2 pipeline network in the United States.",
+  "technologies": [
+    "ups-co2-eor"
+  ],
+  "url": "https://www.denbury.com",
+  "sources": [
+    {
+      "url": "https://www.denbury.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Denbury (ExxonMobil)"
+  ]
+}

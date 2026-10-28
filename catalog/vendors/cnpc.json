@@ -1,0 +1,24 @@
+{
+  "id": "cnpc",
+  "name": "CNPC",
+  "country": "China",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "China National Petroleum Corporation: national oil company and operator of the permafrost gas-hydrate trial drilling and heavy EOR research programmes.",
+  "technologies": [
+    "ups-gas-hydrate-production"
+  ],
+  "url": "https://www.cnpc.com.cn",
+  "sources": [
+    {
+      "url": "https://www.cnpc.com.cn",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "China National Petroleum Corporation"
+  ]
+}

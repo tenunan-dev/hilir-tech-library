@@ -1,0 +1,20 @@
+{
+  "id": "tgs",
+  "name": "TGS",
+  "country": "USA",
+  "roles": [
+    "service"
+  ],
+  "description": "Houston-based geoscience data company acquiring and licensing seismic surveys and well data worldwide.",
+  "technologies": [
+    "ups-seismic-acquisition"
+  ],
+  "url": "https://www.tgs.com",
+  "sources": [
+    {
+      "url": "https://www.tgs.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

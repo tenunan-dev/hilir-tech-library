@@ -1,0 +1,24 @@
+{
+  "id": "petrobank",
+  "name": "Petrobank Energy and Resources",
+  "country": "Canada",
+  "roles": [
+    "developer"
+  ],
+  "description": "Developer of the THAI toe-to-heel air-injection process; ran the Whitesands and Kerrobert pilots in Saskatchewan (THAI assets later transferred to Baytex).",
+  "technologies": [
+    "ups-in-situ-combustion-solvent-sagd",
+    "ups-heavy-oil-upgrading-in-field"
+  ],
+  "url": "https://petrobank.ca",
+  "sources": [
+    {
+      "url": "https://petrobank.ca/sf/thai/thai.htm",
+      "note": "Kerrobert THAI public data page, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Petrobank (THAI developer)"
+  ]
+}

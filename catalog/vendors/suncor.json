@@ -1,0 +1,21 @@
+{
+  "id": "suncor",
+  "name": "Suncor Energy",
+  "country": "Canada",
+  "roles": [
+    "operator"
+  ],
+  "description": "Integrated Canadian oil sands producer (mining and in-situ) and refiner, an Oil Sands Tailing consortium member.",
+  "technologies": [
+    "ups-oil-sands-mining",
+    "ups-thermal-eor"
+  ],
+  "url": "https://www.suncor.com",
+  "sources": [
+    {
+      "url": "https://www.suncor.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sercel",
+  "name": "Sercel",
+  "country": "France",
+  "roles": [
+    "oem"
+  ],
+  "description": "CGG's equipment arm making seismic acquisition hardware: nodal and cable systems (QuietSeis, QuietNode), sources and data acquisition electronics.",
+  "technologies": [
+    "ups-seismic-acquisition"
+  ],
+  "url": "https://www.sercel.com",
+  "sources": [
+    {
+      "url": "https://www.sercel.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "QuietSeis",
+    "QuietNode"
+  ]
+}

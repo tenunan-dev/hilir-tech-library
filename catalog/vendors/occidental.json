@@ -1,0 +1,25 @@
+{
+  "id": "occidental",
+  "name": "Occidental Petroleum",
+  "country": "USA",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "US international oil and gas operator, CO2-EOR pioneer through its Denbury subsidiary, and backer of NET Power and 1PointFive DAC hubs.",
+  "technologies": [
+    "ups-co2-eor",
+    "ups-thermal-eor"
+  ],
+  "url": "https://www.oxy.com",
+  "sources": [
+    {
+      "url": "https://www.oxy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Oxy"
+  ]
+}

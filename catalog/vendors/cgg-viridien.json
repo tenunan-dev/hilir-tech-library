@@ -1,0 +1,25 @@
+{
+  "id": "cgg-viridien",
+  "name": "Viridien",
+  "country": "France",
+  "roles": [
+    "service",
+    "supplier"
+  ],
+  "description": "The renamed CGG: geoscience data, imaging and reservoir-conditioning services plus Sercel equipment, strong in full-waveform inversion.",
+  "technologies": [
+    "ups-full-waveform-inversion",
+    "ups-seismic-acquisition"
+  ],
+  "url": "https://www.viridienglobal.com",
+  "sources": [
+    {
+      "url": "https://www.viridienglobal.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "CGG"
+  ]
+}

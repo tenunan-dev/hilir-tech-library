@@ -1,0 +1,20 @@
+{
+  "id": "pgs",
+  "name": "PGS",
+  "country": "Norway",
+  "roles": [
+    "service"
+  ],
+  "description": "Norwegian marine geophysical contractor (now part of TGS) operating seismic vessels and the GeoStreamer towed-streamer product line.",
+  "technologies": [
+    "ups-seismic-acquisition"
+  ],
+  "url": "https://www.pgs.com",
+  "sources": [
+    {
+      "url": "https://www.pgs.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

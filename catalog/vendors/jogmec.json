@@ -1,0 +1,25 @@
+{
+  "id": "jogmec",
+  "name": "JOGMEC",
+  "country": "Japan",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Japan Organization for Metals and Energy Security: state agency co-funding and partnering on international E&P, gas hydrate research and CCUS trials (including the Sukowati CO2 pilot).",
+  "technologies": [
+    "ups-gas-hydrate-production",
+    "ups-co2-eor"
+  ],
+  "url": "https://www.jogmec.go.jp",
+  "sources": [
+    {
+      "url": "https://www.jogmec.go.jp",
+      "note": "Agency site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Japan Organization for Metals and Energy Security"
+  ]
+}
