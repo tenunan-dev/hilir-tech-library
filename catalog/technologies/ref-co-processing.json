@@ -130,15 +130,19 @@
       "url": "https://ess.honeywell.com/content/dam/pmt/en/documents/Honeywell-UOP-Co-Processing-Technologies-web-brochure.pdf",
       "source_id": "honeywell-uop",
       "note": "Honeywell UOP Co-Processing Technologies brochure, 2023"
+    },
+    {
+      "url": "https://www.topsoe.com/news/topsoe-and-preem-achieve-85-co-processing-renewable-feedstock",
+      "note": "Topsoe and Preem achieve 85% co-processing, May 2021"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "trl",
       "item": "TRL range with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry.",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
@@ -151,7 +155,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; revamp costs case-specific.",
       "where": [
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
@@ -174,24 +178,18 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
+    }
+  ],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
-      "where": [
-        {
-          "hint": "Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news",
-          "source_id": "ogj",
-          "access": "paid"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
+      "name": "Preem Gothenburg refinery hydrotreater co-processing, Sweden (Preem/Topsoe HydroFlex)",
+      "country": "SE",
+      "capacity": "6,600 bpd hydrotreater co-processing 85% renewable feedstock (achieved May 2021); first company in the world to produce renewable diesel at refinery scale through co-processing",
+      "status": "operating",
+      "source": {
+        "url": "https://www.topsoe.com/news/topsoe-and-preem-achieve-85-co-processing-renewable-feedstock",
+        "note": "Topsoe news, May 2021 (85% co-processing, 6,600 bpd); VAROPreem (first at refinery scale); Honeywell/UOP pyrolysis-oil co-processing trial Sep 2021; read 2026-10-28"
+      }
     }
   ]
 }

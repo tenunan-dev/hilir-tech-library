@@ -70,6 +70,12 @@
       "name": "Lummus Technology",
       "product": "CDEthers (page not read)",
       "source_id": "lummus"
+    },
+    {
+      "name": "Lummus Technology",
+      "product": "etherification technologies (CDEthers/CDTaee line - MTBE, ETBE, TAEE and bio-ethers)",
+      "url": "https://www.hydrocarbonengineering.com/clean-fuels/18082020/lummus-technology-announces-start-up-of-bio-ethers-unit-at-greek-refinery",
+      "note": "Lummus announced start-up of its CDTaee bio-ethers unit at Hellenic Petroleum's Aspropyrgos refinery, Greece, Aug 2020"
     }
   ],
   "performance": [
@@ -109,29 +115,19 @@
       "url": "https://www.axens.net/markets/oil-refining/etherification",
       "source_id": "axens",
       "note": "Axens etherification page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.hydrocarbonengineering.com/clean-fuels/18082020/lummus-technology-announces-start-up-of-bio-ethers-unit-at-greek-refinery",
+      "note": "Hydrocarbon Engineering, Lummus CDTaee start-up at Aspropyrgos, 18 Aug 2020"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "Lummus CDEthers",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Lummus page was a search result and was not read.",
-      "where": [
-        {
-          "hint": "Lummus CDEthers page",
-          "access": "open",
-          "source_id": "lummus"
-        }
-      ],
-      "action": "Add Lummus figures."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -151,23 +147,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -189,6 +172,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "CDTaee bio-etherification unit, Hellenic Petroleum Aspropyrgos refinery, Greece",
+      "country": "GR",
+      "capacity": "Lummus CDTaee unit producing bio-ethers (TAEE) from bio-ethanol and isobutylene; start-up announced August 2020",
+      "status": "operating",
+      "source": {
+        "url": "https://www.hydrocarbonengineering.com/clean-fuels/18082020/lummus-technology-announces-start-up-of-bio-ethers-unit-at-greek-refinery",
+        "note": "Hydrocarbon Engineering, 18 Aug 2020 (read 2026-10-28)"
+      }
     }
   ]
 }

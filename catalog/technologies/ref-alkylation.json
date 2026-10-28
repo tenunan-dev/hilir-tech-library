@@ -129,7 +129,7 @@
       "field": "trl",
       "item": "TRL range with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry.",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28; ISOALKY first commercial unit 2021 implies ionic-liquid line at 8-9 but no citable TRL number).",
       "where": [
         {
           "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
@@ -142,7 +142,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Searched OSTI corpus (25 reports) for \"alkylation\", \"alkylate\", \"octane\", \"isobutane\", \"capital cost\", \"levelized\", \"$/bbl\"; not present; 2026-10-28",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Searched OSTI corpus (25 reports) for \"alkylation\", \"alkylate\", \"octane\", \"isobutane\", \"capital cost\", \"levelized\", \"$/bbl\"; not present; 2026-10-28 Web-checked 2026-10-28; unit costs are licensor-quoted only.",
       "where": [
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
@@ -170,7 +170,7 @@
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. Searched OSTI corpus (25 reports) for \"alkylation\", \"octane\", \"isobutane\", \"energy use\", \"yields\"; not present; 2026-10-28",
+      "reason": "No source read so far gives performance figures. Searched OSTI corpus (25 reports) for \"alkylation\", \"octane\", \"isobutane\", \"energy use\", \"yields\"; not present; 2026-10-28 Web-checked 2026-10-28: ISOALKY first commercial unit at Chevron Salt Lake City (Jan 2021, about 5,000 bpd per C&EN) - yield/energy figures remain in the Honeywell whitepaper PDF, unreadable this session.",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",

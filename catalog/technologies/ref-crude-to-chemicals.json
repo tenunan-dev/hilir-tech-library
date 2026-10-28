@@ -133,13 +133,13 @@
       "note": "Yicai Global, 14 December 2018"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "trl",
       "item": "TRL range with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry.",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28; TC2C pilot stage per sources read).",
       "where": [
         {
           "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
@@ -152,7 +152,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; complex-level capex (Hengli, Zhejiang) reported in trade press but not per-technology.",
       "where": [
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
@@ -175,25 +175,20 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
+    }
+  ],
+  "performance": [
     {
-      "field": "performance",
-      "item": "chemicals yield per barrel of crude",
-      "reason_code": "not_in_sources_read",
-      "reason": "Neither source read gives a chemicals yield.",
-      "where": [
-        {
-          "hint": "Saudi Aramco and SABIC crude-to-chemicals publications",
-          "source_id": "saudi-aramco-tech",
-          "access": "open"
-        },
-        {
-          "hint": "IEA reports on petrochemicals",
-          "source_id": "iea-reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add chemicals yield (% of crude) for named complexes."
+      "metric": "chemicals yield per barrel of crude, crude-to-chemicals complexes (TC2C design basis)",
+      "low": 70,
+      "high": 80,
+      "unit": "% of crude barrel to chemicals (target 70-80%; TC2C pilot results reported exceeding 70%)",
+      "year": 2024,
+      "basis": "Aramco/SABIC crude-to-chemicals: TC2C aims to convert 70-80% of each barrel to chemicals vs roughly 10-30% in conventional refining; pilot results exceeded 70% (as reported by S&P Global report scope and trade analyses)",
+      "source": {
+        "url": "https://www.futurebridge.com/blog/crude-oil-to-chemicals-future-of-refinery",
+        "note": "FutureBridge, Crude Oil-to-Chemicals: Future of Refinery, 24 Dec 2019 (TC2C target 70-80% per barrel); S&P Global TC2C report TOC; saudienergyconsulting.com Sep 2026 (pilot >70%); read 2026-10-28"
+      }
     }
   ]
 }

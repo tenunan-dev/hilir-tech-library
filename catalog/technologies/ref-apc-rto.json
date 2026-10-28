@@ -89,6 +89,18 @@
       },
       "low": 3,
       "high": 3
+    },
+    {
+      "metric": "APC benefit benchmarks across refineries (published industry study)",
+      "low": 3,
+      "high": 5,
+      "unit": "% capacity increase equivalent per APC controller (average benefit)",
+      "year": 2015,
+      "basis": "\"each generating an average benefit roughly equivalent to a 3-5% capacity increase\" across surveyed refinery APC applications (Hydrocarbon Processing industry study, 'The future of advanced process control promises more benefits and sustained value'); training-industry summaries cite 2-6% of annual operating costs",
+      "source": {
+        "url": "https://www.researchgate.net/publication/292549246_The_future_of_advanced_process_control_promises_more_benefits_and_sustained_value",
+        "note": "Hydrocarbon Processing APC benefits article (ResearchGate record, read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -105,27 +117,13 @@
       "note": "Yokogawa, Shell Deer Park refinery APC on gas oil hydrotreater (completed 2013)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "independent benefit studies across refineries",
-      "reason_code": "not_in_sources_read",
-      "reason": "One vendor reference.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        }
-      ],
-      "action": "Add an independent review."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; APC project prices are vendor-quoted.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -148,7 +146,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; benefit study figures recorded in performance; no single named refinery project with figures on open pages.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -161,7 +159,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

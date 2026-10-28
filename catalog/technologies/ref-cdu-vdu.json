@@ -155,13 +155,13 @@
       "note": "US EPA AP-42 Section 5.1 Petroleum Refining (April 2015 revision), process descriptions"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "trl",
       "item": "TRL range with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry.",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
@@ -174,7 +174,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; Jamnagar aggregate cost figures exist but not per-CDU.",
       "where": [
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
@@ -197,24 +197,18 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
+    }
+  ],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
-      "where": [
-        {
-          "hint": "Licensor and refiner press releases for the named suppliers; Oil & Gas Journal construction news",
-          "source_id": "ogj",
-          "access": "paid"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
+      "name": "Jamnagar refinery complex, Gujarat, India (Reliance)",
+      "country": "IN",
+      "capacity": "1.24 million bpd combined crude capacity - the world's largest refining complex (first phase 1999, doubled by 2008); Bechtel was the builder",
+      "status": "operating",
+      "source": {
+        "url": "https://www.bechtel.com/projects/jamnagar-oil-refinery",
+        "note": "Bechtel project page: \"the world's largest refining hub... 1.2M barrels/day capacity\"; read 2026-10-28"
+      }
     }
   ]
 }

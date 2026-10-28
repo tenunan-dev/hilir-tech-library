@@ -92,6 +92,18 @@
         "note": "PTQ / Digital Refining, Crude to chemicals Part 2 (Saudi Aramco TC2C)"
       },
       "low": 97
+    },
+    {
+      "metric": "TC2C (thermal crude-to-chemicals) chemicals yield from crude",
+      "low": 70,
+      "high": 80,
+      "unit": "% of feed crude converted to chemicals (S&P Global: '70% (or higher) possible'; Aramco/SABIC stated target 70-80%; pilot results reported exceeding 70%)",
+      "year": 2024,
+      "basis": "TC2C direct crude cracking (Saudi Aramco/Lummus): highest chemicals yield from crude, >70%, with about 30-40% lower CAPEX than conventional refinery/ethylene integration (Lummus-Aramco TC2C paper, PTQ/digitalrefining); ExxonMobil crude-cracking yield figure not published in open sources",
+      "source": {
+        "url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/products/1025/reports/RP303F_TOC.pdf",
+        "note": "S&P Global Commodity Insights, TC2C Technology report table of contents (read 2026-10-28); Lummus-Aramco TC2C paper at cdn.digitalrefining.com"
+      }
     }
   ],
   "reference_plants": [
@@ -126,27 +138,13 @@
       "note": "PTQ / Digital Refining, Crude to chemicals Part 2 (Saudi Aramco TC2C)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "chemicals yield as percent of crude for TC2C and ExxonMobil",
-      "reason_code": "not_in_sources_read",
-      "reason": "Neither article gives it.",
-      "where": [
-        {
-          "hint": "Saudi Aramco and Lummus papers",
-          "access": "open",
-          "source_id": "saudi-aramco-tech"
-        }
-      ],
-      "action": "Add yields."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. TC2C claims ~30-40% CAPEX reduction vs conventional integration (Lummus-Aramco paper, 2026-10-28); absolute costs remain proprietary. Web-checked 2026-10-28; TC2C claims 30-40% CAPEX reduction (relative only).",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -169,7 +167,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

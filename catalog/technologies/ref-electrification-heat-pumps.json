@@ -95,13 +95,13 @@
       "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
       "item": "refinery (not petrochemical) electrification and heat-pump installations",
       "reason_code": "not_in_sources_read",
-      "reason": "The source read is about a steam cracker.",
+      "reason": "The source read is about a steam cracker. Web-checked 2026-10-28: no named refinery heat-pump installation found in open pages (SPIRIT demos are sugar-industry; HPI articles are conceptual); keep watching Pernis/Rhineland announcements.",
       "where": [
         {
           "hint": "Refinery operator announcements",
@@ -114,7 +114,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",

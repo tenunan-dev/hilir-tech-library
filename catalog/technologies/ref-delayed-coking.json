@@ -134,7 +134,7 @@
       "note": "Hydrocarbon Processing, 7 September 2012"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "trl",
@@ -181,7 +181,7 @@
       "field": "reference_plants",
       "item": "Vadinar coker capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "The article does not give the coker's own capacity.",
+      "reason": "The article does not give the coker's own capacity. DCU commissioning and refinery context recorded in reference_plants; the coker-only capacity figure is not published in the open article, 2026-10-28.",
       "where": [
         {
           "hint": "Nayara Energy refinery configuration page; Lummus project references",
@@ -202,6 +202,16 @@
         "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/",
         "source_id": "hydrocarbon-processing",
         "note": "Hydrocarbon Processing, 7 September 2012"
+      }
+    },
+    {
+      "name": "Vadinar refinery delayed coking unit (Essar Oil, now Nayara Energy), Gujarat, India",
+      "country": "IN",
+      "capacity": "delayed coker described as one of the largest in the world (unit capacity not published in the open article); part of the expansion that lifted the refinery from 200,000 to 405,000 bpd (20 Mt/yr) with Nelson complexity 6.1 to 11.8; commissioned by CB&I in 2012 after a 30-month EPC",
+      "status": "operating",
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india",
+        "note": "Hydrocarbon Processing, 9 Jul 2012 (read 2026-10-28)"
       }
     }
   ]
