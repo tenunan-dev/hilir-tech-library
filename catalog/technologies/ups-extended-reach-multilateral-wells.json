@@ -105,6 +105,10 @@
       "url": "https://jpt.spe.org/inflow-control-device-inflow-control-valves-aid-kuwaits-first-smart-multilateral-well",
       "source_id": "jpt",
       "note": "JPT, Inflow-control device and inflow-control valves aid Kuwait's first smart multilateral well"
+    },
+    {
+      "url": "https://offshore-energy.biz/2011/01/28/exxon-drills-the-worlds-longest-extended-reach-well-offshore-sakhalin-russia",
+      "note": "Offshore Energy, Exxon drills the world's longest extended-reach well offshore Sakhalin, 28 Jan 2011"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -113,7 +117,7 @@
       "field": "costs",
       "item": "cost versus several conventional wells",
       "reason_code": "not_in_sources_read",
-      "reason": "Not stated.",
+      "reason": "Not stated. Web-checked 2026-10-28 (SPE ERD papers OnePetro-restricted); no open published cost comparison found.",
       "where": [
         {
           "hint": "SPE ERD papers",
@@ -122,19 +126,6 @@
         }
       ],
       "action": "Add a published cost comparison."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
       "field": "trl",
@@ -162,6 +153,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Odoptu OP-11 extended-reach well (Sakhalin-1, Exxon Neftegas)",
+      "country": "RU",
+      "capacity": "world-record extended-reach well at completion: 12,345 m measured depth (40,502 ft)",
+      "status": "operating",
+      "source": {
+        "url": "https://offshore-energy.biz/2011/01/28/exxon-drills-the-worlds-longest-extended-reach-well-offshore-sakhalin-russia",
+        "note": "Offshore Energy, 28 Jan 2011: Odoptu OP-11 reached 12,345 m MD, world record for extended-reach drilling (read 2026-10-28)"
+      }
     }
   ]
 }

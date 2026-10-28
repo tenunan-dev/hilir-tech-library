@@ -119,15 +119,19 @@
     {
       "url": "https://www.gadrilling.com/glossary/autonomous-drilling",
       "note": "GA Drilling glossary, Autonomous drilling (cites SPE/IADC papers; vendor page)"
+    },
+    {
+      "url": "https://investor.nabors.com/2022-11-16-Nabors-Marks-Major-Industry-Milestone-Fully-Automates-Existing-Land-Rig-with-First-of-its-Kind-Robotics-Module",
+      "note": "Nabors, fully automates existing land rig with first-of-its-kind robotics module, 16 Nov 2022"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "independent verification of ROP and cost savings",
       "reason_code": "not_in_sources_read",
-      "reason": "All figures are from vendors or vendor-published papers.",
+      "reason": "All figures are from vendors or vendor-published papers. Web-checked 2026-10-28 (SPE/IADC 223xxx papers are OnePetro-restricted; only vendor-published figures found).",
       "where": [
         {
           "hint": "SPE/IADC papers 223649, 223824, 223800, 223804",
@@ -141,7 +145,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -161,23 +165,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -199,6 +190,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Nabors R801 robotic drilling rig (with ExxonMobil)",
+      "country": "US",
+      "capacity": "world's first fully automated land drilling rig; purpose-built proving ground for drilling automation",
+      "status": "operating",
+      "source": {
+        "url": "https://investor.nabors.com/2022-11-16-Nabors-Marks-Major-Industry-Milestone-Fully-Automates-Existing-Land-Rig-with-First-of-its-Kind-Robotics-Module",
+        "note": "Nabors investor release, 16 Nov 2022: in 2021 Nabors and ExxonMobil proved fully automated land drilling with the newbuild R801 robotic rig (read 2026-10-28)"
+      }
     }
   ]
 }

@@ -85,6 +85,18 @@
       "low": 150,
       "high": 150,
       "year": 2025
+    },
+    {
+      "metric": "hydrocarbon vapour capture by vapour recovery units",
+      "low": 95,
+      "high": 95,
+      "unit": "% of tank hydrocarbon vapours (up to)",
+      "year": 2006,
+      "basis": "EPA Lessons Learned case study: vapor recovery can capture up to 95% of hydrocarbon vapors from tanks; recovered vapours usable as fuel or sale gas. Specific flare-gas-recovery-unit turndown figures were not found in open supplier datasheets",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2017-08/documents/richards_midland_2006.pdf",
+        "note": "US EPA, Installing Vapor Recovery Units to Reduce Methane Losses (Lessons Learned), 2006 (read 2026-10-28)"
+      }
     }
   ],
   "trl": {
@@ -122,7 +134,7 @@
       "field": "costs",
       "item": "capex per unit and payback with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "The tracker gives the flared volume only; the collected IEA documents state no capex per unit or payback for flare gas recovery and the World Bank GFMR reports were not collected.",
+      "reason": "The tracker gives the flared volume only; the collected IEA documents state no capex per unit or payback for flare gas recovery and the World Bank GFMR reports were not collected. Web-checked 2026-10-28 (World Bank Zero Routine Flaring materials argue economic viability but state no per-unit capex or payback).",
       "where": [
         {
           "hint": "IEA Global Methane Tracker documentation (collected)",
@@ -140,7 +152,7 @@
       "field": "performance",
       "item": "recovery efficiency and turndown of recovery units",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read gives them.",
+      "reason": "No source read gives them. EPA Lessons Learned (2006) gives VRU capture of up to 95% of tank vapours (added to performance); FGR-unit turndown still not stated in open datasheets (Zeeco/John Zink pages 404, 2026-10-28).",
       "where": [
         {
           "hint": "Supplier datasheets for the companies listed",
@@ -153,7 +165,7 @@
       "field": "reference_plants",
       "item": "named flare reduction projects in Malaysia and Indonesia",
       "reason_code": "not_in_sources_read",
-      "reason": "None read.",
+      "reason": "None read. Web-checked 2026-10-28; PETRONAS/Pertamina sustainability pages state ZRF commitments without named per-site recovery projects.",
       "where": [
         {
           "hint": "PETRONAS and Pertamina sustainability reports",

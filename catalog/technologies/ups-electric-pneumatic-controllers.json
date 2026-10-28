@@ -95,7 +95,7 @@
       "field": "performance",
       "item": "current per-device emissions and electric controller examples",
       "reason_code": "not_in_sources_read",
-      "reason": "EPA figures are old and internally inconsistent.",
+      "reason": "EPA figures are old and internally inconsistent. EPA 2024 final rule (OOOOb) sets zero-emission (no-bleed) controllers as the BSER for new/updated process controllers (rule of 8 Mar 2024); current GHGRP per-device emission factors not located in an open table, 2026-10-28.",
       "where": [
         {
           "hint": "EPA GHGRP and CCAC OGMP technical guidance",
@@ -109,7 +109,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no operator press release names a specific controller-conversion project with counts.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",

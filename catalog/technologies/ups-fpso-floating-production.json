@@ -138,24 +138,14 @@
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
       "source_id": "wikipedia",
       "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.oedigital.com/news/493811-pttep-awards-long-term-charter-extension-for-fpso-kikeh",
+      "note": "Offshore Engineer, PTTEP awards long-term charter extension for FPSO Kikeh, 26 Jan 2022 (read 2026-10-28)"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "Malaysian or Southeast Asian FPSOs",
-      "reason_code": "not_in_sources_read",
-      "reason": "None named in the pages read.",
-      "where": [
-        {
-          "hint": "MISC and Petronas FPSO pages",
-          "access": "open",
-          "source_id": "misc-group"
-        }
-      ],
-      "action": "Add one regional FPSO."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",
@@ -182,6 +172,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "FPSO Kikeh (Kikeh field, offshore Sabah)",
+      "country": "MY",
+      "capacity": "120,000 bopd process capacity; water depth about 1,300 m; first deepwater FPSO in Malaysia and Asia",
+      "status": "operating",
+      "source": {
+        "url": "https://www.oedigital.com/news/493811-pttep-awards-long-term-charter-extension-for-fpso-kikeh",
+        "note": "Offshore Engineer, 26 Jan 2022: built 2007, first and largest deepwater FPSO in Malaysia and Asia, 120,000 bopd, PTTEP charter extension. MISC Berhad took full lease-and-operate ownership from SBM Offshore in 2025 (sbmoffshore.com newsroom, 6 Sep 2024)."
+      }
     }
   ]
 }

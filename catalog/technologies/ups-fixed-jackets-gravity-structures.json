@@ -115,6 +115,10 @@
       "url": "https://en.wikipedia.org/wiki/Oil_platform",
       "source_id": "wikipedia",
       "note": "Wikipedia, Oil platform, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/gbs/gbs-cases/troll-a",
+      "note": "Aker Solutions, Troll A Condeep gravity-based structure case page (read 2026-10-28)"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -123,7 +127,7 @@
       "field": "costs",
       "item": "jacket and topsides cost per tonne with year",
       "reason_code": "not_in_sources_read",
-      "reason": "Not on the page.",
+      "reason": "Not on the page. Web-checked 2026-10-28; no open source states jacket/topside cost per tonne (IHS data paid).",
       "where": [
         {
           "hint": "Offshore Magazine and IHS cost data",
@@ -131,19 +135,6 @@
         }
       ],
       "action": "Add a cost reference."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
       "field": "trl",
@@ -171,6 +162,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Troll A Condeep gravity-based structure (Troll field, Norwegian North Sea)",
+      "country": "NO",
+      "capacity": "natural-gas production platform; gravity-based substructure about 472 m total height in about 300 m water depth, about 245,000 m3 concrete, about 683,600 t unballasted weight",
+      "status": "operating",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/gbs/gbs-cases/troll-a",
+        "note": "Aker Solutions (builder), Troll A Condeep case page: height ~472 m, water depth ~300 m, concrete ~245,000 m3, rebar ~100,000 t, weight ~683,600 t (read 2026-10-28)"
+      }
     }
   ]
 }
