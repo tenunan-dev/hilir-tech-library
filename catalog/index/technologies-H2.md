@@ -557,9 +557,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - fuel cost versus LNG, methanol and fuel oil (costs): None extracted. Web-checked 2026-10-28; green-ammonia bunker prices are quote-only. Where: IEA GHR shipping section (catalog: iea-reports, open). Next: Add cost comparisons.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Ammonia'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Ammonia) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.energyconnects.com/news/gas-lng/2024/march/singapore-port-announces-world-s-first-successful-use-of-ammonia-as-a-marine-fuel). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.energyconnects.com/news/gas-lng/2024/march/singapore-port-announces-world-s-first-successful-use-of-ammonia-as-a-marine-fuel), [3](https://en.wikipedia.org/wiki/Ammonia). Last reviewed 2026-10-28.
 
 ## Cellulosic ethanol
 <a id="h2-cellulosic-ethanol"></a>

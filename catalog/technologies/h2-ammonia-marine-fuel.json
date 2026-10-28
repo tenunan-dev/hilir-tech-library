@@ -107,6 +107,10 @@
     {
       "url": "https://www.energyconnects.com/news/gas-lng/2024/march/singapore-port-announces-world-s-first-successful-use-of-ammonia-as-a-marine-fuel",
       "note": "First ammonia bunker operation, Singapore, Mar 2024"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ammonia",
+      "note": "Wikipedia: Ammonia — secondary process authority, cross-checked 2026-10-28"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -124,24 +128,6 @@
         }
       ],
       "action": "Add cost comparisons."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Ammonia'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Ammonia",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "performance": [
