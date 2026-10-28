@@ -1,0 +1,26 @@
+{
+  "id": "saudi-aramco",
+  "name": "Saudi Aramco",
+  "country": "Saudi Arabia",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "Saudi national oil company: TC2C crude-to-chemicals developer, refinery-petrochemical integration (with SABIC) and crude-flexible firing research.",
+  "technologies": [
+    "ref-direct-crude-cracking",
+    "ref-petrochemical-integration",
+    "ref-crude-to-chemicals"
+  ],
+  "url": "https://www.aramco.com",
+  "sources": [
+    {
+      "url": "https://www.aramco.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Saudi Aramco / SABIC"
+  ]
+}

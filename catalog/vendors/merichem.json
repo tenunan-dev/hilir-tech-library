@@ -1,0 +1,21 @@
+{
+  "id": "merichem",
+  "name": "Merichem",
+  "country": "USA",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Houston company licensing caustic treating and LO-CAT liquid redox sulfur recovery technology.",
+  "technologies": [
+    "gas-liquid-redox-lo-cat",
+    "ref-merox-sweetening"
+  ],
+  "url": "https://www.merichem.com",
+  "sources": [
+    {
+      "url": "https://www.merichem.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

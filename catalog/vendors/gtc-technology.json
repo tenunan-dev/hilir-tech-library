@@ -1,0 +1,20 @@
+{
+  "id": "gtc-technology",
+  "name": "GTC Technology",
+  "country": "USA",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Texas licensor of aromatics recovery, xylene isomerisation and GT-BTX class processes.",
+  "technologies": [
+    "ref-isomerisation"
+  ],
+  "url": "https://gtctech.com",
+  "sources": [
+    {
+      "url": "https://gtctech.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "suez",
+  "name": "SUEZ Water Technologies",
+  "country": "France",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Water treatment company supplying refinery wastewater membranes and ZeeWeed MBR systems.",
+  "technologies": [
+    "ref-wastewater-treatment"
+  ],
+  "url": "https://www.suezwatertechnologies.com",
+  "sources": [
+    {
+      "url": "https://www.suezwatertechnologies.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cameron-slb",
+  "name": "Cameron (SLB)",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "SLB's Cameron measurement systems and valve businesses, including custody-transfer metering.",
+  "technologies": [
+    "ref-cdu-vdu"
+  ],
+  "url": "https://www.slbcameron.com",
+  "sources": [
+    {
+      "url": "https://www.slbcameron.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

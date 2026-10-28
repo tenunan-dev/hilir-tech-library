@@ -1,0 +1,24 @@
+{
+  "id": "worley",
+  "name": "Worley",
+  "country": "Australia",
+  "roles": [
+    "epc"
+  ],
+  "description": "Australian EPC and consulting group (formerly WorleyParsons, including the Comprimo sulfur-recovery lineage).",
+  "technologies": [
+    "gas-sulfur-recovery"
+  ],
+  "url": "https://www.worley.com",
+  "sources": [
+    {
+      "url": "https://www.worley.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Worley Comprimo",
+    "WorleyParsons"
+  ]
+}

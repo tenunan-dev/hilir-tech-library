@@ -1,0 +1,31 @@
+{
+  "id": "chevron-lummus",
+  "name": "Chevron Lummus Global",
+  "country": "USA",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Chevron-Lummus joint licensor of hydroprocessing (ISOCRACKING, ISODEWAXING) and crude-to-chemicals conversion.",
+  "technologies": [
+    "ref-crude-to-chemicals",
+    "ref-direct-crude-cracking",
+    "ref-hydrocracking",
+    "ref-hydrotreating",
+    "ref-resid-hydrocracking"
+  ],
+  "url": "https://www.chevronlummus.com",
+  "sources": [
+    {
+      "url": "https://www.chevronlummus.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "CLG"
+  ],
+  "products": [
+    "ISOCRACKING",
+    "ISODEWAXING"
+  ]
+}

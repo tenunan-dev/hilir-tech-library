@@ -1,0 +1,20 @@
+{
+  "id": "kobe-steel",
+  "name": "Kobe Steel",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "description": "Japanese group supplying LNG regasification and cryogenic equipment through its Kobelco process-machinery arm.",
+  "technologies": [
+    "gas-lng-regasification"
+  ],
+  "url": "https://www.kobelco.co.jp",
+  "sources": [
+    {
+      "url": "https://www.kobelco.co.jp",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

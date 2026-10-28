@@ -1,0 +1,21 @@
+{
+  "id": "chart-industries",
+  "name": "Chart Industries",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Cryogenic equipment group (Howden brand): brazed-aluminium heat exchangers, LNG and regas equipment, small-scale liquefaction trains.",
+  "technologies": [
+    "gas-lng-regasification",
+    "gas-small-scale-lng"
+  ],
+  "url": "https://www.chartindustries.com",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

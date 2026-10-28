@@ -1,0 +1,20 @@
+{
+  "id": "fuelng",
+  "name": "FueLNG",
+  "country": "Singapore",
+  "roles": [
+    "operator"
+  ],
+  "description": "Keppel-Sembcorp JV providing LNG and bio-LNG bunkering services in the Port of Singapore.",
+  "technologies": [
+    "gas-lng-bunkering"
+  ],
+  "url": "https://www.fuelng.com",
+  "sources": [
+    {
+      "url": "https://www.fuelng.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

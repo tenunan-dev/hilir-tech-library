@@ -1,0 +1,21 @@
+{
+  "id": "enerflex",
+  "name": "Enerflex",
+  "country": "Canada",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Calgary-based provider of gas processing, compression and NGL fractionation equipment and services.",
+  "technologies": [
+    "gas-ngl-fractionation"
+  ],
+  "url": "https://www.enerflex.com",
+  "sources": [
+    {
+      "url": "https://www.enerflex.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

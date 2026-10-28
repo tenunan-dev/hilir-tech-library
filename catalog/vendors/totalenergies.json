@@ -1,0 +1,20 @@
+{
+  "id": "totalenergies",
+  "name": "TotalEnergies",
+  "country": "France",
+  "roles": [
+    "operator"
+  ],
+  "description": "French supermajor: LNG trading and bunkering, Northern Lights shareholder, and major LNG liquefaction operator.",
+  "technologies": [
+    "gas-lng-bunkering"
+  ],
+  "url": "https://totalenergies.com",
+  "sources": [
+    {
+      "url": "https://totalenergies.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

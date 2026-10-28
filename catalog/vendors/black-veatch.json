@@ -1,0 +1,20 @@
+{
+  "id": "black-veatch",
+  "name": "Black & Veatch",
+  "country": "USA",
+  "roles": [
+    "epc"
+  ],
+  "description": "US engineering firm active in small-scale LNG, gas processing and hydrogen infrastructure EPC.",
+  "technologies": [
+    "gas-small-scale-lng"
+  ],
+  "url": "https://www.bv.com",
+  "sources": [
+    {
+      "url": "https://www.bv.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

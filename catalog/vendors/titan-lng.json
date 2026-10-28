@@ -1,0 +1,20 @@
+{
+  "id": "titan-lng",
+  "name": "Titan LNG",
+  "country": "Netherlands",
+  "roles": [
+    "operator"
+  ],
+  "description": "Dutch small-scale LNG and bio-LNG bunkering operator (FlexFueler barges at Rotterdam and Amsterdam).",
+  "technologies": [
+    "gas-bio-lng"
+  ],
+  "url": "https://titan-lng.com",
+  "sources": [
+    {
+      "url": "https://titan-lng.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

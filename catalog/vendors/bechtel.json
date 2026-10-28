@@ -1,0 +1,21 @@
+{
+  "id": "bechtel",
+  "name": "Bechtel",
+  "country": "USA",
+  "roles": [
+    "epc"
+  ],
+  "description": "US EPC giant: LNG plants, refineries, sour-water units, and builder of the Jamnagar complex.",
+  "technologies": [
+    "lng-optimized-cascade",
+    "ref-sour-water-stripping"
+  ],
+  "url": "https://www.bechtel.com",
+  "sources": [
+    {
+      "url": "https://www.bechtel.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

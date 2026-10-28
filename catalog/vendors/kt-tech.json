@@ -1,0 +1,23 @@
+{
+  "id": "kt-tech",
+  "name": "KT Tech",
+  "country": "South Korea",
+  "roles": [
+    "epc"
+  ],
+  "description": "Korean sulfur-recovery EPC contractor named on the sulfur recovery card.",
+  "technologies": [
+    "gas-sulfur-recovery"
+  ],
+  "url": "https://www.kttech.co.kr",
+  "sources": [
+    {
+      "url": "https://www.kttech.co.kr",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "KT Tecnimont"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sasol",
+  "name": "Sasol",
+  "country": "South Africa",
+  "roles": [
+    "operator"
+  ],
+  "description": "South African energy and chemicals company operating the world's largest coal/gas-to-liquids Fischer-Tropsch complex at Secunda.",
+  "technologies": [
+    "gas-gtl-ft"
+  ],
+  "url": "https://www.sasol.com",
+  "sources": [
+    {
+      "url": "https://www.sasol.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

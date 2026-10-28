@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-262 vendor records covering 195 technologies. One record per vendor in
+288 vendor records covering 207 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -39,8 +39,25 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Axens](https://www.axens.net) | France | licensor, supplier | Amine acid gas removal (MDEA, formulated amines); Molecular sieve and glycol dehydration; Liquid redox sulfur recovery (LO-CAT); Mercury removal units; Sulfur recovery (Claus, tail gas treating, SuperClaus) |
+| [Bechtel](https://www.bechtel.com) | USA | epc | Cascade liquefaction |
+| [Black & Veatch](https://www.bv.com) | USA | epc | Small and mid-scale modular LNG |
+| [Chart Industries](https://www.chartindustries.com) | USA | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers); Small and mid-scale modular LNG |
+| [Chevron Australia](https://www.chevron.com.au) | Australia | operator | Carbon capture on LNG plants (acid gas reinjection) |
+| [Clean Energy Fuels](https://www.cleanenergyfuels.com) | USA | operator | Compressed natural gas and LNG as vehicle fuel |
+| [Enerflex](https://www.enerflex.com) | Canada | oem, service | NGL fractionation and LPG recovery |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Amine acid gas removal (MDEA, formulated amines); Carbon capture on LNG plants (acid gas reinjection); Gas-to-methanol and methanol-to-gasoline |
+| [Freeport LNG](https://www.freeportlng.com) | USA | operator | Electric-drive liquefaction (e-LNG) |
+| [FueLNG](https://www.fuelng.com) | Singapore | operator | LNG bunkering |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Amine acid gas removal (MDEA, formulated amines); Molecular sieve and glycol dehydration; Hot potassium carbonate (Benfield); Membrane CO2 removal for high-CO2 gas; NGL fractionation and LPG recovery; Physical solvent gas treating (Selexol, Rectisol, Purisol); Small and mid-scale modular LNG |
+| [Jacobs](https://www.jacobs.com) | USA | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
+| [Kobe Steel](https://www.kobelco.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
+| [KT Tech](https://www.kttech.co.kr) | South Korea | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
+| [Merichem](https://www.merichem.com) | USA | licensor | Liquid redox sulfur recovery (LO-CAT) |
+| [Sasol](https://www.sasol.com) | South Africa | operator | Gas-to-liquids (Fischer-Tropsch) |
+| [Sumitomo Precision Products](https://www.spp.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
+| [Titan LNG](https://titan-lng.com) | Netherlands | operator | Bio-LNG and liquefied biomethane |
+| [TotalEnergies](https://totalenergies.com) | France | operator | LNG bunkering |
+| [Worley](https://www.worley.com) | Australia | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
 
 ## H2: Hydrogen and low-carbon fuels
 
@@ -112,6 +129,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [KBC (Yokogawa)](https://www.kbc.global) | United Kingdom | supplier | Flow assurance simulation |
 | [Northern Lights JV](https://norlights.com) | Norway | operator | CO2 pipelines (dense phase); Liquid CO2 carriers |
 | [Porthos](https://www.porthosco2.nl) | Netherlands | operator, developer | CO2 pipelines (dense phase) |
 
@@ -235,9 +253,20 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Axens](https://www.axens.net) | France | licensor, supplier | Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Etherification (MTBE, ETBE, TAME); Fluid catalytic cracking and resid FCC; FCC gasoline post-treating (Prime-G+, SCANfining); Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Refinery-petrochemical integration (FCC propylene, HS-FCC); Resid hydrocracking (ebullated and slurry bed); Visbreaking and solvent deasphalting |
+| [Bechtel](https://www.bechtel.com) | USA | epc | Sour water stripping and amine regeneration |
+| [Cameron (SLB)](https://www.slbcameron.com) | USA | oem | Crude and vacuum distillation with heat integration |
+| [Chevron Lummus Global](https://www.chevronlummus.com) | USA | licensor | Crude-to-chemicals complexes; Direct crude cracking; Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Resid hydrocracking (ebullated and slurry bed) |
+| [Eni](https://www.eni.com) | Italy | operator | Resid hydrocracking (ebullated and slurry bed) |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Delayed coking and fluid coking; Direct crude cracking; FCC gasoline post-treating (Prime-G+, SCANfining); Refinery flue gas and FCC carbon capture |
+| [Gevo](https://gevo.com) | USA | oem | Alcohol-to-jet SAF |
+| [GTC Technology](https://gtctech.com) | USA | licensor | Isomerisation (C5/C6) |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Alcohol-to-jet SAF; Alkylation (HF, sulfuric, ionic liquid, solid acid); Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Fluid catalytic cracking and resid FCC; Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Mercaptan sweetening (Merox); Refinery-petrochemical integration (FCC propylene, HS-FCC) |
+| [KBC (Yokogawa)](https://www.kbc.global) | United Kingdom | supplier | Process simulation and digital twins |
+| [LanzaJet](https://www.lanzajet.com) | USA | licensor, developer | Alcohol-to-jet SAF |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Delayed coking and fluid coking; Fluid catalytic cracking and resid FCC; Direct crude cracking; Etherification (MTBE, ETBE, TAME) |
+| [Merichem](https://www.merichem.com) | USA | licensor | Mercaptan sweetening (Merox) |
+| [Saudi Aramco](https://www.aramco.com) | Saudi Arabia | operator, developer | Direct crude cracking; Refinery-petrochemical integration (FCC propylene, HS-FCC); Crude-to-chemicals complexes |
+| [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Wastewater treatment (API separators, DAF, biological, MBR) |
 
 ## ROT: Rotating and static equipment
 
@@ -330,17 +359,17 @@ Adding a record for one of them is the next batch of this directory.
 
 - **CCS** (16): Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
 - **DIG** (9): Amazon Web Services; Augury; C3 AI; Google Cloud Platform; Honeywell; IBM Red Hat OpenShift; Microsoft Azure; SparkCognition; Yokogawa
-- **GAS** (23): Air Liquide Engineering & Construction; Bechtel; Black & Veatch; Chart Industries; Chevron Australia; Clean Energy Fuels; ConocoPhillips; Enerflex; Excelerate Energy; Freeport LNG; FueLNG; Golar LNG; Höegh LNG; Jacobs; Kobe Steel; KT Tecnimont; Merichem; RasGas / Qatargas (operators); Sasol; Sumitomo Precision Products; Titan; TotalEnergies; Worley Comprimo
+- **GAS** (7): Air Liquide Engineering & Construction; ConocoPhillips; Excelerate Energy; Golar LNG; Höegh LNG; RasGas / Qatargas (operators); Titan
 - **H2** (1): Ensyn
 - **HSE** (3): Engelhard Corporation; IHI Corporation; J-W Instruments
 - **INS** (8): Claroty; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
 - **MAT** (17): 3M; AkzoNobel; Alleima; Amiantit; Avestec Technologies; Axalta Coating Systems; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Jotun Powder Coatings; Sherwin-Williams (Valspar); Tenaris; Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
-- **MID** (27): AP Sensing; ChampionX; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; KBC (Yokogawa); LiquidPower Specialty Products; Mitsubishi Shipbuilding; Nippon Steel; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
+- **MID** (26): AP Sensing; ChampionX; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; LiquidPower Specialty Products; Mitsubishi Shipbuilding; Nippon Steel; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
 - **PCH** (4): BASF, SABIC, Linde; CJ; Fraunhofer; Scientific Design
 - **PRC** (7): AVEVA; CanmetENERGY; Fives ProSim; Honeywell; Montz; Pinchco; TLK-Energy
 - **PWR** (16): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy
-- **REF** (21): AVEVA; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Eni; EPC contractors (process designed by refiner or contractor); Gevo; GTC Technology; Honeywell; KBC; Koch-Glitsch; LanzaJet; Merichem; Saudi Aramco; Saudi Aramco / SABIC; Suez; Yokogawa
+- **REF** (10): AVEVA; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel/Foster Wheeler (Amec); Chevron / Honeywell UOP; EPC contractors (process designed by refiner or contractor); Honeywell; Koch-Glitsch; Suez; Yokogawa
 - **ROT** (19): Alfa Laval; American Marsh; Ashton Seals; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Velan
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-240 of 299 cards list at least one directory vendor.
+245 of 299 cards list at least one directory vendor.

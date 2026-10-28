@@ -1,0 +1,24 @@
+{
+  "id": "kbc",
+  "name": "KBC (Yokogawa)",
+  "country": "United Kingdom",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Yokogawa-owned consulting and software business: Petro-SIM process simulation and flow-assurance tools.",
+  "technologies": [
+    "ref-process-simulation-digital-twin",
+    "mid-flow-assurance-simulation"
+  ],
+  "url": "https://www.kbc.global",
+  "sources": [
+    {
+      "url": "https://www.kbc.global",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Petro-SIM"
+  ]
+}

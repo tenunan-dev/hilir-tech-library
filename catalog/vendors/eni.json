@@ -1,0 +1,20 @@
+{
+  "id": "eni",
+  "name": "Eni",
+  "country": "Italy",
+  "roles": [
+    "operator"
+  ],
+  "description": "Italian supermajor: EST resid hydrocracking at Sannazzaro and originator of the Ecofining SAF process.",
+  "technologies": [
+    "ref-resid-hydrocracking"
+  ],
+  "url": "https://www.eni.com",
+  "sources": [
+    {
+      "url": "https://www.eni.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

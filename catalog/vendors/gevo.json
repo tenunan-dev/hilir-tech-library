@@ -1,0 +1,20 @@
+{
+  "id": "gevo",
+  "name": "Gevo",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Colorado renewable-fuels company producing isobutanol-based alcohol-to-jet fuel.",
+  "technologies": [
+    "ref-alcohol-to-jet"
+  ],
+  "url": "https://gevo.com",
+  "sources": [
+    {
+      "url": "https://gevo.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chevron-australia",
+  "name": "Chevron Australia",
+  "country": "Australia",
+  "roles": [
+    "operator"
+  ],
+  "description": "Chevron's Australian subsidiary operating the Gorgon LNG plant with its CO2 injection system, and Wheatstone.",
+  "technologies": [
+    "gas-lng-acid-gas-reinjection"
+  ],
+  "url": "https://www.chevron.com.au",
+  "sources": [
+    {
+      "url": "https://www.chevron.com.au",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

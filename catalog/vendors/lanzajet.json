@@ -1,0 +1,21 @@
+{
+  "id": "lanzajet",
+  "name": "LanzaJet",
+  "country": "USA",
+  "roles": [
+    "licensor",
+    "developer"
+  ],
+  "description": "Ethanol-based SAF technology company (Freedom Pines Fuels plant), spun out of LanzaTech.",
+  "technologies": [
+    "ref-alcohol-to-jet"
+  ],
+  "url": "https://www.lanzajet.com",
+  "sources": [
+    {
+      "url": "https://www.lanzajet.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
