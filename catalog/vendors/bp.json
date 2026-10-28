@@ -1,0 +1,21 @@
+{
+  "id": "bp",
+  "name": "BP",
+  "country": "United Kingdom",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "UK supermajor: Clair Ridge low-salinity waterflood operator (LoSal EOR) and major offshore and gas operator.",
+  "technologies": [
+    "ups-waterflood-low-salinity"
+  ],
+  "url": "https://www.bp.com",
+  "sources": [
+    {
+      "url": "https://www.bp.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

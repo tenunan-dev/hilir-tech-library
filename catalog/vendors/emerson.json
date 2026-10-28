@@ -1,0 +1,21 @@
+{
+  "id": "emerson",
+  "name": "Emerson",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "integrator"
+  ],
+  "description": "Automation major: DeltaV DCS/SIS, Rosemount instrumentation and multiphase flow metering, plus project management and software.",
+  "technologies": [
+    "ups-multiphase-flow-metering"
+  ],
+  "url": "https://www.emerson.com",
+  "sources": [
+    {
+      "url": "https://www.emerson.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

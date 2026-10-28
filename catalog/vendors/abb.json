@@ -1,0 +1,21 @@
+{
+  "id": "abb",
+  "name": "ABB",
+  "country": "Switzerland",
+  "roles": [
+    "oem",
+    "integrator"
+  ],
+  "description": "Electrification and automation group: offshore power and electrification systems, control systems and analytical instrumentation.",
+  "technologies": [
+    "ups-platform-electrification"
+  ],
+  "url": "https://new.abb.com",
+  "sources": [
+    {
+      "url": "https://new.abb.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

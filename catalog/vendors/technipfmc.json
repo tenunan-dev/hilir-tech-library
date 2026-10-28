@@ -1,0 +1,24 @@
+{
+  "id": "technipfmc",
+  "name": "TechnipFMC",
+  "country": "United Kingdom",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Subsea and surface technologies group: subsea trees and manifolds, flexible pipe, all-electric subsea systems and iEPCI integrated projects.",
+  "technologies": [
+    "ups-all-electric-subsea",
+    "ups-direct-electrical-heating-tiebacks",
+    "ups-multiphase-flow-metering",
+    "ups-subsea-production-systems"
+  ],
+  "url": "https://www.technipfmc.com",
+  "sources": [
+    {
+      "url": "https://www.technipfmc.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

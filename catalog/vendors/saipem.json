@@ -1,0 +1,21 @@
+{
+  "id": "saipem",
+  "name": "Saipem",
+  "country": "Italy",
+  "roles": [
+    "epc",
+    "oem"
+  ],
+  "description": "Italian EPC and offshore contractor: platform fabrication and installation, subsealaying vessels and drilling (Saipem 12000-class drillships).",
+  "technologies": [
+    "ups-fixed-jackets-gravity-structures"
+  ],
+  "url": "https://www.saipem.com",
+  "sources": [
+    {
+      "url": "https://www.saipem.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

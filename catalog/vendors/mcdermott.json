@@ -1,0 +1,20 @@
+{
+  "id": "mcdermott",
+  "name": "McDermott International",
+  "country": "USA",
+  "roles": [
+    "epc"
+  ],
+  "description": "Offshore engineering and construction contractor: fixed and floating platforms, subsea pipe laying and onshore LNG/EPC projects.",
+  "technologies": [
+    "ups-fixed-jackets-gravity-structures"
+  ],
+  "url": "https://www.mcdermott.com",
+  "sources": [
+    {
+      "url": "https://www.mcdermott.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

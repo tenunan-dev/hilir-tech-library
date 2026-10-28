@@ -1,0 +1,24 @@
+{
+  "id": "mmhe",
+  "name": "Malaysia Marine and Heavy Engineering",
+  "country": "Malaysia",
+  "roles": [
+    "epc",
+    "oem"
+  ],
+  "description": "Malaysian fabricator (MMHE, Pasir Gudang yard) for offshore jackets, topsides and marine structures, spun out of MISC's marine and heavy engineering arm.",
+  "technologies": [
+    "ups-fixed-jackets-gravity-structures"
+  ],
+  "url": "https://www.mmhe.com.my",
+  "sources": [
+    {
+      "url": "https://www.mmhe.com.my",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "MMHE"
+  ]
+}

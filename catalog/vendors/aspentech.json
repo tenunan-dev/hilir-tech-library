@@ -1,0 +1,21 @@
+{
+  "id": "aspentech",
+  "name": "AspenTech",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Industrial software company: Aspen HYSYS/Plus process simulation, DMC3 MPC, and the Aspen designed-for-refining optimisation suite.",
+  "technologies": [
+    "ups-production-optimisation-digital-oilfield",
+    "ups-reservoir-simulation"
+  ],
+  "url": "https://www.aspentech.com",
+  "sources": [
+    {
+      "url": "https://www.aspentech.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

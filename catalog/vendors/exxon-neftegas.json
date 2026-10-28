@@ -1,0 +1,24 @@
+{
+  "id": "exxon-neftegas",
+  "name": "Exxon Neftegas",
+  "country": "Russia",
+  "roles": [
+    "operator"
+  ],
+  "description": "ExxonMobil's Russian subsidiary that operated Sakhalin-1 and drilled the world-record Odoptu OP-11 and Chayvo extended-reach wells with the Yastreb rig.",
+  "technologies": [
+    "ups-extended-reach-multilateral-wells"
+  ],
+  "url": "https://www.exxonmobil.com",
+  "sources": [
+    {
+      "url": "https://offshore-energy.biz/2011/01/28/exxon-drills-the-worlds-longest-extended-reach-well-offshore-sakhalin-russia",
+      "note": "OP-11 world record, 28 Jan 2011 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.exxonmobil.com",
+      "note": "Parent site"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

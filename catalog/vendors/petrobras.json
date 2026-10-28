@@ -1,0 +1,24 @@
+{
+  "id": "petrobras",
+  "name": "Petrobras",
+  "country": "Brazil",
+  "roles": [
+    "operator"
+  ],
+  "description": "Brazil's national oil company: deepwater pre-salt operator and heavy-oil technology developer with a long CO2-EOR and subsea-processing record (Marlim).",
+  "technologies": [
+    "ups-oil-shale-retorting",
+    "ups-subsea-separation"
+  ],
+  "url": "https://petrobras.com.br",
+  "sources": [
+    {
+      "url": "https://petrobras.com.br",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Petróleo Brasileiro"
+  ]
+}

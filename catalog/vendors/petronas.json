@@ -1,0 +1,24 @@
+{
+  "id": "petronas",
+  "name": "PETRONAS",
+  "country": "Malaysia",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "Malaysia's national oil company: upstream operator (incl. chemical EOR in Baram Delta, FPSO fleet through MISC), LNG producer and CCUS backer (Kasawari CCS).",
+  "technologies": [
+    "ups-chemical-eor"
+  ],
+  "url": "https://www.petronas.com",
+  "sources": [
+    {
+      "url": "https://www.petronas.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Petroliam Nasional Berhad"
+  ]
+}

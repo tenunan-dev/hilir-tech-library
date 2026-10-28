@@ -1,0 +1,20 @@
+{
+  "id": "snf",
+  "name": "SNF",
+  "country": "France",
+  "roles": [
+    "supplier"
+  ],
+  "description": "World's largest polyacrylamide maker, supplying the polymers used in polymer flooding and EOR programmes.",
+  "technologies": [
+    "ups-chemical-eor"
+  ],
+  "url": "https://www.snfgroup.com",
+  "sources": [
+    {
+      "url": "https://www.snfgroup.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

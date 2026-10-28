@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-127 vendor records covering 77 technologies. One record per vendor in
+141 vendor records covering 82 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -84,10 +84,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [ABB](https://new.abb.com) | Switzerland | oem, integrator | Offshore platform electrification (power from shore, offshore wind) |
+| [AspenTech](https://www.aspentech.com) | USA | supplier | Production optimisation and digital oilfield; Reservoir simulation (black oil, compositional, thermal) |
 | [Axter](https://axter.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [BiSN Well Tools](https://bisn.com) | United Kingdom | service, supplier | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
 | [Borets Company](https://www.borets.ru) | Russia | oem, service | Electric submersible pumps |
+| [BP](https://www.bp.com) | United Kingdom | operator, developer | Waterflooding and low-salinity water injection |
 | [Cenovus Energy](https://www.cenovus.com) | Canada | operator | Thermal EOR (steam flood, SAGD, CSS) |
+| [Chevron](https://www.chevron.com) | USA | operator | Thermal EOR (steam flood, SAGD, CSS) |
 | [Cimarron Energy (Aereon)](https://aereon.com) | USA | oem, service | Flare gas recovery and zero routine flaring |
 | [CNPC](https://www.cnpc.com.cn) | China | operator, developer | Gas hydrate production |
 | [Computer Modelling Group](https://www.cmgl.ca) | Canada | supplier | Reservoir simulation (black oil, compositional, thermal) |
@@ -96,9 +100,11 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Dolphin Drilling](https://dolphindrilling.com) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [Dover Corporation](https://www.dovercorporation.com) | USA | oem, supplier | Rod lift and progressing cavity pumps |
 | [DuPont Water Solutions](https://www.dupont.com/water.html) | USA | supplier | Seawater sulfate removal for injection water |
+| [Emerson](https://www.emerson.com) | USA | oem, integrator | Multiphase flow metering |
 | [Enefit](https://www.enefit.com) | Estonia | operator, developer | Oil shale retorting |
 | [Enventure Global Technology](https://www.enventuregt.com) | USA | oem | Casing drilling and expandable tubulars |
 | [Exedra AS](https://exedra.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
+| [Exxon Neftegas](https://www.exxonmobil.com) | Russia | operator | Extended-reach and multilateral wells |
 | [FLIR Systems](https://www.flir.com) | USA | oem | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | [Framo](https://www.onesubsea.slb.com) | Norway | oem | Subsea boosting and multiphase pumps; Subsea separation and water reinjection |
 | [GHGSat](https://www.ghgsat.com) | Canada | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
@@ -112,6 +118,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Kayrros](https://www.kayrros.com) | France | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | [Liberty Energy](https://libertyenergy.com) | USA | service | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
 | [Liberty Lift Solutions](https://www.libertylift.com) | USA | service, supplier | Plunger lift and hydraulic jet pumps |
+| [Malaysia Marine and Heavy Engineering](https://www.mmhe.com.my) | Malaysia | epc, oem | Fixed jackets and gravity-based structures |
+| [McDermott International](https://www.mcdermott.com) | USA | epc | Fixed jackets and gravity-based structures |
 | [MISC Berhad](https://www.miscgroup.com) | Malaysia | operator, packager | FPSO and floating production (TLP, spar, semi-submersible) |
 | [MODEC Inc.](https://www.modec.com) | Japan | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Nabors Industries](https://www.nabors.com) | Bermuda | oem, service | Drilling automation and autonomous rigs |
@@ -120,17 +128,23 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Novomet](https://novomet.ru) | Russia | oem | Electric submersible pumps |
 | [Occidental Petroleum](https://www.oxy.com) | USA | operator, developer | CO2 enhanced oil recovery (miscible CO2 flooding); Thermal EOR (steam flood, SAGD, CSS) |
 | [Petrobank Energy and Resources](https://petrobank.ca) | Canada | developer | In-situ combustion and solvent-assisted SAGD; Heavy oil upgrading (in-field) |
+| [Petrobras](https://petrobras.com.br) | Brazil | operator | Oil shale retorting; Subsea separation and water reinjection |
+| [PETRONAS](https://www.petronas.com) | Malaysia | operator, developer | Chemical EOR (polymer and surfactant flooding) |
 | [PGS](https://www.pgs.com) | Norway | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | [Project Canary](https://www.projectcanary.com) | USA | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | [Rock Flow Dynamics](https://rfdyn.com) | Russia | supplier | Reservoir simulation (black oil, compositional, thermal) |
+| [Saipem](https://www.saipem.com) | Italy | epc, oem | Fixed jackets and gravity-based structures |
 | [SBM Offshore](https://www.sbmoffshore.com) | Netherlands | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Sercel](https://www.sercel.com) | France | oem | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | [Shearwater GeoServices](https://shearwatergeo.com) | Norway | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
+| [Shell](https://www.shell.com) | United Kingdom | operator, developer | Chemical EOR (polymer and surfactant flooding) |
 | [Siemens](https://www.siemens.com) | Germany | oem, integrator | Produced water treatment (hydrocyclones, flotation, membranes) |
 | [SLB](https://www.slb.com) | USA | service, supplier | AI-assisted seismic interpretation and history matching; Basin and petroleum systems modelling; Digital core and special core analysis; Drilling automation and autonomous rigs; Electric submersible pumps; Full-waveform inversion and seismic imaging; Gas lift; Hydraulic fracturing (plug-and-perf, electric frac fleets); Intelligent completions and inflow control devices; Multiphase flow metering; Measurement and logging while drilling (MWD/LWD); Produced water treatment (hydrocyclones, flotation, membranes); Production optimisation and digital oilfield; Reservoir simulation (black oil, compositional, thermal); Rotary steerable systems; Sand control (gravel pack, frac pack, screens) |
 | [SLB OneSubsea](https://www.onesubsea.slb.com) | USA | oem, service | All-electric subsea systems; Subsea gas compression; Subsea production systems (trees, manifolds, umbilicals); Subsea boosting and multiphase pumps |
+| [SNF](https://www.snfgroup.com) | France | supplier | Chemical EOR (polymer and surfactant flooding) |
 | [Suncor Energy](https://www.suncor.com) | Canada | operator | Oil sands mining and froth treatment; Thermal EOR (steam flood, SAGD, CSS) |
 | [Syncrude Canada](https://www.syncrude.ca) | Canada | operator | Oil sands mining and froth treatment |
+| [TechnipFMC](https://www.technipfmc.com) | United Kingdom | oem, service | All-electric subsea systems; Long subsea tiebacks with direct electrical heating; Multiphase flow metering; Subsea production systems (trees, manifolds, umbilicals) |
 | [Tendeka](https://www.tendeka.com) | United Kingdom | oem, supplier | Intelligent completions and inflow control devices |
 | [TGS](https://www.tgs.com) | USA | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | [Thermo Fisher Scientific](https://www.thermofisher.com) | USA | supplier | Digital core and special core analysis |
@@ -146,19 +160,19 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).
 Adding a record for one of them is the next batch of this directory.
 
-- **CCS** (37): ADM; Atlas Copco; Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); Carbon Recycling International; CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); Covestro; DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; ExxonMobil; Fertiliser producers; Fluor; FuelCell Energy; MTR Carbon Capture; NET Power (cycle developer), Toshiba (combustor and turbine); Northern Lights; PETRONAS Carigali; Planetary; Porthos (Port of Rotterdam, Gasunie, EBN); Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources; Saipem; Shell Catalysts & Technologies; SLB Capturi; Stockholm Exergi; Sustainable Energy Solutions (Chart Industries); Svante; Twelve; UNDO; Verdox
-- **DIG** (11): Amazon Web Services; Augury; C3 AI; Cognite; Emerson; Google Cloud Platform; Honeywell; IBM Red Hat OpenShift; Microsoft Azure; SparkCognition; Yokogawa
-- **GAS** (43): Air Liquide; Air Liquide Engineering & Construction; Air Products; Axens; BASF; Bechtel; Black & Veatch; Burckhardt Compression; Chart Industries; Chevron Australia; Clariant; Clean Energy Fuels; ConocoPhillips; Dow; Enerflex; Excelerate Energy; ExxonMobil; Freeport LNG; FueLNG; Golar LNG; Honeywell UOP; Honeywell UOP Ortloff; Höegh LNG; Jacobs; Johnson Matthey (Honeywell); Kobe Steel; KT Tecnimont; Linde; Linde Engineering; Malaysia Marine and Heavy Engineering; McDermott; Merichem; PETRONAS; PETRONAS Carigali; RasGas / Qatargas (operators); Sasol; Shell; Sumitomo Precision Products; Technip Energies; Titan; Topsoe; TotalEnergies; Worley Comprimo
+- **CCS** (36): ADM; Atlas Copco; Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); Carbon Recycling International; CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); Covestro; DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; ExxonMobil; Fertiliser producers; Fluor; FuelCell Energy; MTR Carbon Capture; NET Power (cycle developer), Toshiba (combustor and turbine); Northern Lights; PETRONAS Carigali; Planetary; Porthos (Port of Rotterdam, Gasunie, EBN); Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources; Shell Catalysts & Technologies; SLB Capturi; Stockholm Exergi; Sustainable Energy Solutions (Chart Industries); Svante; Twelve; UNDO; Verdox
+- **DIG** (10): Amazon Web Services; Augury; C3 AI; Cognite; Google Cloud Platform; Honeywell; IBM Red Hat OpenShift; Microsoft Azure; SparkCognition; Yokogawa
+- **GAS** (40): Air Liquide; Air Liquide Engineering & Construction; Air Products; Axens; BASF; Bechtel; Black & Veatch; Burckhardt Compression; Chart Industries; Chevron Australia; Clariant; Clean Energy Fuels; ConocoPhillips; Dow; Enerflex; Excelerate Energy; ExxonMobil; Freeport LNG; FueLNG; Golar LNG; Honeywell UOP; Honeywell UOP Ortloff; Höegh LNG; Jacobs; Johnson Matthey (Honeywell); Kobe Steel; KT Tecnimont; Linde; Linde Engineering; McDermott; Merichem; PETRONAS Carigali; RasGas / Qatargas (operators); Sasol; Sumitomo Precision Products; Technip Energies; Titan; Topsoe; TotalEnergies; Worley Comprimo
 - **H2** (61): Air Liquide; Air Products; Ballard; BASF; Bloom Energy; Bright Biomethane; Burckhardt Compression; Casale; Chiyoda; Clariant; CSIRO; Enapter; Ensyn; European Energy; Gold H2; Hazer Group; Hexagon Purus; Hitachi Zosen; HYBRIT (SSAB, LKAB, Vattenfall); Hydro-Pac; Hydrogenious LOHC Technologies; HydrogenPro; HyStock (Gasunie); INERATEC; Infinium; ITM Power; John Cockerill; Johnson Matthey (Honeywell); Kawasaki Heavy Industries; KBR; Koloma; Licella; Linde; Linde Engineering; LONGi Hydrogen; Magnum Development; Midrex; Monolith; Nel; Nel Hydrogen; Neste; PDC Machines; Pentair; PERIC; Plug Power; POET; Raízen; Sparc Hydrogen; Steeper Energy; Stegra (H2 Green Steel); Sunfire; SunHydrogen; Technip Energies; Thyssenkrupp nucera; Thyssenkrupp Uhde; Tokyo Gas; Topsoe; Toyota; Velocys; WinGD; Yara
 - **HSE** (3): Engelhard Corporation; IHI Corporation; J-W Instruments
-- **INS** (11): ABB; AspenTech; Claroty; Emerson; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
+- **INS** (8): Claroty; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
 - **MAT** (18): 3M; AkzoNobel; Alleima; Amiantit; Avestec Technologies; Axalta Coating Systems; BASF; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Jotun Powder Coatings; Sherwin-Williams (Valspar); Tenaris; Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
-- **MID** (35): AP Sensing; ChampionX; Clariant; Corrpro; CRC-Evans; Emerson; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; Kawasaki Heavy Industries; KBC (Yokogawa); LiquidPower Specialty Products; MISC; Mitsubishi Shipbuilding; Nippon Steel; Northern Lights; NOV; PETRONAS; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; TechnipFMC; Tenaris; Terminal operators; Uniper
-- **PCH** (50): Agilyx; Axens; BASF; BASF, SABIC, Linde; Borealis; BP; Braskem; Carbios; Casale; Celanese; Chevron Phillips Chemical; CJ; Covestro; Danimer Scientific; DICP / SYN Energy Technology; Dow; Dow and BASF; Evonik and thyssenkrupp Uhde; ExxonMobil; Fraunhofer; GIG Karasek; Grace (UNIPOL PP); Honeywell UOP; Indorama Ventures; Ineos; KBR; Linde; Linde Engineering; Loop Industries; Lummus; Lummus Technology; LyondellBasell; Mura Technology; NatureWorks; Plastic Energy; PureCycle Technologies; SABIC; SABIC and Linde; Scientific Design; Shell; Siluria Technologies; Stamicarbon; Sulzer; Technip Energies; thyssenkrupp nucera; thyssenkrupp Uhde; thyssenkrupp Uhde Inventa-Fischer; Topsoe; TotalEnergies Corbion; Univation (Dow)
-- **PRC** (9): AspenTech; AVEVA; CanmetENERGY; Fives ProSim; Honeywell; Montz; Pinchco; Sulzer; TLK-Energy
+- **MID** (32): AP Sensing; ChampionX; Clariant; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; Kawasaki Heavy Industries; KBC (Yokogawa); LiquidPower Specialty Products; MISC; Mitsubishi Shipbuilding; Nippon Steel; Northern Lights; NOV; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
+- **PCH** (48): Agilyx; Axens; BASF; BASF, SABIC, Linde; Borealis; Braskem; Carbios; Casale; Celanese; Chevron Phillips Chemical; CJ; Covestro; Danimer Scientific; DICP / SYN Energy Technology; Dow; Dow and BASF; Evonik and thyssenkrupp Uhde; ExxonMobil; Fraunhofer; GIG Karasek; Grace (UNIPOL PP); Honeywell UOP; Indorama Ventures; Ineos; KBR; Linde; Linde Engineering; Loop Industries; Lummus; Lummus Technology; LyondellBasell; Mura Technology; NatureWorks; Plastic Energy; PureCycle Technologies; SABIC; SABIC and Linde; Scientific Design; Siluria Technologies; Stamicarbon; Sulzer; Technip Energies; thyssenkrupp nucera; thyssenkrupp Uhde; thyssenkrupp Uhde Inventa-Fischer; Topsoe; TotalEnergies Corbion; Univation (Dow)
+- **PRC** (8): AVEVA; CanmetENERGY; Fives ProSim; Honeywell; Montz; Pinchco; Sulzer; TLK-Energy
 - **PWR** (17): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy; Toshiba
-- **REF** (37): AspenTech; AVEVA; Axens; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Chiyoda; DuPont (Veolia); Emerson; Eni; EPC contractors (process designed by refiner or contractor); ExxonMobil; Gevo; GTC Technology; Honeywell; Honeywell UOP; ITM Power; John Zink (Koch); KBC; KBR; Koch-Glitsch; LanzaJet; Lummus; Lummus Technology; Merichem; Neste; Saudi Aramco; Saudi Aramco / SABIC; Shell; Shell Catalysts & Technologies; Suez; Topsoe; Yokogawa
-- **ROT** (22): Alfa Laval; American Marsh; Ashton Seals; Atlas Copco; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Emerson; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Sulzer; Velan
-- **UPS** (45): ABB; AspenTech; Borets; BP; BW Offshore; Cementing service contractors (none named in the sources read); Cenovus; Chevron; Cognite; Dover; DuPont (FilmTec); Emerson; Enventure; Exedra; Exxon Neftegas; FLIR; Japan Petroleum Exploration Co. (JAPEX); John Zink; Liberty Lift; Major drilling contractors; McDermott; MISC; MMHE; MODEC; Nabors; NOV; Occidental; Operators; Operators and service companies; Petrobras; PETRONAS; Research groups; Research groups and small service companies; Saipem; Shearwater; Shell; SNF; Sulzer; Suncor; Syncrude; TechnipFMC; Toray; Various vendors; Weatherford; Wellstrom
+- **REF** (34): AVEVA; Axens; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Chiyoda; DuPont (Veolia); Eni; EPC contractors (process designed by refiner or contractor); ExxonMobil; Gevo; GTC Technology; Honeywell; Honeywell UOP; ITM Power; John Zink (Koch); KBC; KBR; Koch-Glitsch; LanzaJet; Lummus; Lummus Technology; Merichem; Neste; Saudi Aramco; Saudi Aramco / SABIC; Shell Catalysts & Technologies; Suez; Topsoe; Yokogawa
+- **ROT** (21): Alfa Laval; American Marsh; Ashton Seals; Atlas Copco; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Sulzer; Velan
+- **UPS** (32): Borets; BW Offshore; Cementing service contractors (none named in the sources read); Cenovus; Cognite; Dover; DuPont (FilmTec); Enventure; Exedra; FLIR; Japan Petroleum Exploration Co. (JAPEX); John Zink; Liberty Lift; Major drilling contractors; McDermott; MISC; MODEC; Nabors; NOV; Occidental; Operators; Operators and service companies; Research groups; Research groups and small service companies; Shearwater; Sulzer; Suncor; Syncrude; Toray; Various vendors; Weatherford; Wellstrom
 
-102 of 299 cards list at least one directory vendor.
+131 of 299 cards list at least one directory vendor.

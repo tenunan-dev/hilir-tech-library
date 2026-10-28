@@ -1,0 +1,25 @@
+{
+  "id": "shell",
+  "name": "Shell",
+  "country": "United Kingdom",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "UK supermajor: major waterflood and gas-lift operator, chemical EOR R&D with PETRONAS in the Baram Delta, and Northern Lights shareholder with a long CCS record (Sleipner lineage).",
+  "technologies": [
+    "ups-chemical-eor"
+  ],
+  "url": "https://www.shell.com",
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/production/article/16775227/petronas-shell-consider-first-ever-field-scale-chemical-eor-offshore-malaysia",
+      "note": "Offshore Magazine on PETRONAS-Shell chemical EOR (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.shell.com",
+      "note": "Vendor site"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
