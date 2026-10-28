@@ -73,6 +73,18 @@
       },
       "low": 100000,
       "high": 130000
+    },
+    {
+      "metric": "HPPO co-product profile",
+      "low": 0,
+      "high": 0,
+      "unit": "co-products other than water (none)",
+      "year": 2023,
+      "basis": "\"Through HPPO, propylene oxide can be synthesized directly from hydrogen peroxide without generating any co-products other than water\" (Chemical Engineering, 5 Sep 2023, on the new Evonik-Uhde HPPO complex in China); the classic wastewater/energy savings percentages were not stated in the open pages read",
+      "source": {
+        "url": "https://www.chemengonline.com/sustainable-production-of-propylene-oxide-begins-at-new-hppo-complex-in-china-using-evonik-uhde-technology",
+        "note": "Chemical Engineering, 5 Sep 2023 (read 2026-10-28)"
+      }
     }
   ],
   "reference_plants": [
@@ -94,6 +106,16 @@
         "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
         "note": "Evonik, HPPO technology page, read 25 October 2026"
       }
+    },
+    {
+      "name": "Evonik-Uhde HPPO complex, China",
+      "country": "CN",
+      "capacity": "new HPPO plant using Evonik-Uhde hydrogen-peroxide-to-propylene-oxide technology; capacity not stated in the open announcement",
+      "status": "operating",
+      "source": {
+        "url": "https://www.chemengonline.com/sustainable-production-of-propylene-oxide-begins-at-new-hppo-complex-in-china-using-evonik-uhde-technology",
+        "note": "Chemical Engineering, 5 Sep 2023 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -107,29 +129,19 @@
     {
       "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
       "note": "Evonik, HPPO technology page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.chemengonline.com/sustainable-production-of-propylene-oxide-begins-at-new-hppo-complex-in-china-using-evonik-uhde-technology",
+      "note": "Evonik-Uhde HPPO complex in China, 5 Sep 2023"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "yield, wastewater and energy savings",
-      "reason_code": "not_in_sources_read",
-      "reason": "Qualitative only.",
-      "where": [
-        {
-          "hint": "Digital Refining article on third-generation HPPO",
-          "access": "open",
-          "source_id": "ptq-digital-refining"
-        }
-      ],
-      "action": "Add quantified savings."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -152,7 +164,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

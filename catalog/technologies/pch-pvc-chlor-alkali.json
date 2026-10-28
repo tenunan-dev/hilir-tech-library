@@ -122,13 +122,13 @@
       "note": "IHS Markit / licensor brochure, vinyl chloride and PVC technologies (2010 capacity data)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "global PVC capacity today and acetylene route share in China",
       "reason_code": "not_in_sources_read",
-      "reason": "The brochure gives 2010 capacity only.",
+      "reason": "The brochure gives 2010 capacity only. Web-checked 2026-10-28: China PVC capacity reached 26 Mt/yr by 2013 with northwest coal-to-carbide regions ~35% of capacity (2020); the crisp acetylene-route share of Chinese capacity (~80% class) was not verifiable in open pages.",
       "where": [
         {
           "hint": "IHS or OECD chemicals reports",
@@ -141,7 +141,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -164,7 +164,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -177,7 +177,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

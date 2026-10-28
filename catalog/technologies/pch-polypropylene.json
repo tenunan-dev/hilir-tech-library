@@ -114,24 +114,10 @@
   ],
   "gaps": [
     {
-      "field": "reference_plants",
-      "item": "named polypropylene plants with capacity",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Grace article gives fleet figures only.",
-      "where": [
-        {
-          "hint": "Licensor and operator news",
-          "access": "open",
-          "source_id": "grace-catalysts"
-        }
-      ],
-      "action": "Add one or two plants."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "No IEA entry for conventional PP. IEA ETP Guide (July 2026) has no matching entry (searched 'polypropylene', 'PP', 'Spheripol', 'Innovene'); 2026-10-28",
+      "reason": "No IEA entry for conventional PP. IEA ETP Guide (July 2026) has no matching entry (searched 'polypropylene', 'PP', 'Spheripol', 'Innovene'); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -169,7 +155,7 @@
       "field": "performance",
       "item": "energy and CO2 per tonne of polypropylene",
       "reason_code": "not_in_sources_read",
-      "reason": "None of the sources read gives it.",
+      "reason": "None of the sources read gives it. Web-checked 2026-10-28: LCA values exist in databases but no verifiable open per-tonne figure found.",
       "where": [
         {
           "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
@@ -192,5 +178,17 @@
       "note": "Grace article on UNIPOL PP (2023 licensing figures)"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-10-28",
+  "reference_plants": [
+    {
+      "name": "HMC Polymers polypropylene plants, Map Ta Phut and Bangkok-region sites, Thailand (PTT/PCD joint venture)",
+      "country": "TH",
+      "capacity": "more than 800,000 t/yr of PP (2018); Thailand's first and largest PP producer, passing 1 million tons cumulative-capacity milestone (2023); PP Line IV at Map Ta Phut adds 250 kt/yr",
+      "status": "operating",
+      "source": {
+        "url": "https://www.scmp.com/country-reports/country-reports/topics/thailand-business-report-december-2018/article/2175634/hmc",
+        "note": "SCMP country report, 9 Dec 2018 (>800 kt/yr); HMC corporate news Feb 2023 (largest in Thailand, Line IV +250 kt); read 2026-10-28"
+      }
+    }
+  ]
 }

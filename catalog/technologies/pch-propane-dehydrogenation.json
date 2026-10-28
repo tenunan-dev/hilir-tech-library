@@ -124,6 +124,18 @@
       "low": 660000,
       "high": 660000,
       "year": 2020
+    },
+    {
+      "metric": "per-pass propane conversion, CATOFIN and Oleflex",
+      "low": 40,
+      "high": 50,
+      "unit": "% per pass (CATOFIN about 50; Oleflex about 40)",
+      "year": 2018,
+      "basis": "\"Propane/propylene conversions in CATOFIN and OLEFLEX are ~50% and ~40%, respectively\" (open PDH technology review); selectivity and energy-per-tonne figures were not stated in the open pages read",
+      "source": {
+        "url": "https://www.scribd.com/document/460716966/4244-Article-Text-12672-1-10-20180730",
+        "note": "PDH technology review article (2018) (read 2026-10-28)"
+      }
     }
   ],
   "suppliers": [
@@ -167,7 +179,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA guide has no PDH entry; the card is commercial on the basis of the 7.9 Mt/yr installed base. IEA ETP Guide (July 2026) has no matching entry (searched 'propane dehydrogenation', 'PDH', 'dehydrogenation', 'Oleflex', 'CATOFIN', 'on-purpose propylene'); 2026-10-28",
+      "reason": "The IEA guide has no PDH entry; the card is commercial on the basis of the 7.9 Mt/yr installed base. IEA ETP Guide (July 2026) has no matching entry (searched 'propane dehydrogenation', 'PDH', 'dehydrogenation', 'Oleflex', 'CATOFIN', 'on-purpose propylene'); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -210,7 +222,7 @@
       "field": "performance",
       "item": "propylene yield, selectivity and energy use per tonne of propylene",
       "reason_code": "not_in_sources_read",
-      "reason": "The release read gives capacity only.",
+      "reason": "The release read gives capacity only. Per-pass conversions recorded in performance (~50% CATOFIN / ~40% Oleflex); selectivity and energy figures remain in licensor literature, 2026-10-28.",
       "where": [
         {
           "hint": "UOP and Lummus process brochures",
