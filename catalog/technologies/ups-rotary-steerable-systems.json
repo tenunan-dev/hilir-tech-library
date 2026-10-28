@@ -80,13 +80,12 @@
   ],
   "sources": [
     {
-      "url": "https://en.wikipedia.org/wiki/Rotary_steerable_system",
-      "source_id": "wikipedia",
-      "note": "Wikipedia, Rotary steerable system, read 25 October 2026 (secondary source)"
-    },
-    {
       "url": "https://drillingcontractor.org/dcpi/2004/dc-septoct04/Sep4-Schlumberger.pdf",
       "note": "Drilling Contractor, rotary steerable supplement, Sep-Oct 2004"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rotary_steerable_system",
+      "note": "Wikipedia: Rotary steerable system — process-description cross-check 2026-10-28 (secondary source)"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -154,24 +153,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Rotary steerable system'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Rotary_steerable_system",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "performance": [

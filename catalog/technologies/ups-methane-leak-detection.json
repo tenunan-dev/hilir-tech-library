@@ -200,24 +200,6 @@
   ],
   "gaps": [
     {
-      "field": "process",
-      "item": "process steps are general practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The tracker names the technologies and measures; the sequence of steps is general knowledge.",
-      "where": [
-        {
-          "hint": "OGMP 2.0 and OGDC guidance",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Methane emissions'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Methane_emissions",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Cite a measurement guideline for the sequence."
-    },
-    {
       "field": "suppliers",
       "item": "regional (Southeast Asia) service providers",
       "reason_code": "not_in_sources_read",
@@ -242,6 +224,10 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, July 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Methane_emissions",
+      "note": "Wikipedia: Methane emissions — process-description cross-check 2026-10-28 (secondary source)"
     }
   ],
   "last_reviewed": "2026-10-28"

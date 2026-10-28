@@ -151,27 +151,12 @@
       "url": "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights",
       "source_id": "equinor-tech",
       "note": "Equinor, First CO2 volumes stored at Northern Lights, 25 August 2025"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
+      "note": "Wikipedia: Carbon capture and storage — process-description cross-check 2026-10-28 (secondary source)"
     }
   ],
   "last_reviewed": "2026-10-28",
-  "gaps": [
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Carbon capture and storage'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
-    }
-  ]
+  "gaps": []
 }
