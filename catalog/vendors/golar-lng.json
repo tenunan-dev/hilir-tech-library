@@ -1,0 +1,21 @@
+{
+  "id": "golar-lng",
+  "name": "Golar LNG",
+  "country": "United Kingdom",
+  "roles": [
+    "operator"
+  ],
+  "description": "Bermuda-incorporated LNG shipping owner converting carriers into FLNG units (Hilli, Gimi) and FSRUs.",
+  "technologies": [
+    "lng-flng",
+    "lng-fsru"
+  ],
+  "url": "https://www.golarlng.com",
+  "sources": [
+    {
+      "url": "https://www.golarlng.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

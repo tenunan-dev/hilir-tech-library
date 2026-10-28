@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-330 vendor records covering 228 technologies. One record per vendor in
+350 vendor records covering 238 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -34,6 +34,16 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [UNDO](https://undoCarbon.com) | United Kingdom | developer, operator | Enhanced rock weathering and ocean alkalinity enhancement |
 | [Verdox](https://verdox.com) | USA | developer | Electro-swing and moisture-swing DAC |
 
+## DIG: Digital
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Amazon Web Services](https://aws.amazon.com) | USA | supplier | Subsurface data platforms (OSDU) |
+| [Google Cloud Platform](https://cloud.google.com) | USA | supplier | Subsurface data platforms (OSDU) |
+| [IBM / Red Hat OpenShift](https://www.ibm.com) | USA | supplier | Subsurface data platforms (OSDU) |
+| [Microsoft Azure](https://azure.microsoft.com) | USA | supplier | Subsurface data platforms (OSDU) |
+| [SparkCognition](https://www.sparkcognition.com) | USA | supplier | AI and machine learning for maintenance and optimisation |
+
 ## GAS: Gas processing and LNG
 
 | Vendor | Country | Roles | Supplies |
@@ -44,11 +54,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Chart Industries](https://www.chartindustries.com) | USA | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers); Small and mid-scale modular LNG |
 | [Chevron Australia](https://www.chevron.com.au) | Australia | operator | Carbon capture on LNG plants (acid gas reinjection) |
 | [Clean Energy Fuels](https://www.cleanenergyfuels.com) | USA | operator | Compressed natural gas and LNG as vehicle fuel |
+| [ConocoPhillips](https://www.conocophillips.com) | USA | operator, developer | Cascade liquefaction |
 | [Enerflex](https://www.enerflex.com) | Canada | oem, service | NGL fractionation and LPG recovery |
+| [Excelerate Energy](https://www.excelerateenergy.com) | USA | operator | Floating storage and regasification units (FSRU) |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Amine acid gas removal (MDEA, formulated amines); Carbon capture on LNG plants (acid gas reinjection); Gas-to-methanol and methanol-to-gasoline |
 | [Freeport LNG](https://www.freeportlng.com) | USA | operator | Electric-drive liquefaction (e-LNG) |
 | [FueLNG](https://www.fuelng.com) | Singapore | operator | LNG bunkering |
+| [Golar LNG](https://www.golarlng.com) | United Kingdom | operator | Floating LNG (FLNG); Floating storage and regasification units (FSRU) |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Amine acid gas removal (MDEA, formulated amines); Molecular sieve and glycol dehydration; Hot potassium carbonate (Benfield); Membrane CO2 removal for high-CO2 gas; NGL fractionation and LPG recovery; Physical solvent gas treating (Selexol, Rectisol, Purisol); Small and mid-scale modular LNG |
+| [Höegh LNG](https://hoeghlng.com) | Norway | operator | Floating storage and regasification units (FSRU) |
 | [Jacobs](https://www.jacobs.com) | USA | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
 | [Kobe Steel](https://www.kobelco.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [KT Tech](https://www.kttech.co.kr) | South Korea | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
@@ -124,6 +138,23 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Velocys](https://www.velocys.com) | United Kingdom | licensor | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
 | [WinGD](https://www.wingd.com) | Switzerland | oem | Ammonia as marine fuel |
 | [Yara](https://www.yara.com) | Norway | operator, operator | Biogas reforming to hydrogen |
+
+## HSE: Health, safety and environment
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Engelhard Corporation](https://www.basf.com) | USA | oem | NOx control (SCR, SNCR, low-NOx burners) |
+| [IHI Corporation](https://www.ihi.co.jp) | Japan | oem | NOx control (SCR, SNCR, low-NOx burners) |
+| [J-W Instruments](https://www.jwinstruments.com) | USA | oem | Gas and flame detection |
+
+## INS: Instrumentation and control
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Inductive Automation](https://inductiveautomation.com) | USA | oem | Distributed control systems and SCADA |
+| [MathWorks](https://www.mathworks.com) | USA | supplier | Advanced process control and model predictive control |
+| [Rockwell Automation](https://www.rockwellautomation.com) | USA | oem | Distributed control systems and SCADA |
+| [Servomex](https://www.servomex.com) | United Kingdom | oem | Process analysers (gas chromatographs, laser spectroscopy) |
 
 ## MAT: Materials and integrity
 
@@ -207,6 +238,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [TotalEnergies Corbion](https://www.totalenergies-corbion.com) | Netherlands | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
 | [Univation Technologies](https://www.univation.com) | USA | licensor | Polyethylene (gas phase, slurry, solution) |
 | [W. R. Grace](https://grace.com) | USA | supplier | Polypropylene (gas phase, bulk) |
+
+## PRC: Process systems
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [CanmetENERGY](https://www.nrcan.gc.ca) | Canada | developer | Pinch analysis and heat integration |
+| [Fives ProSim](https://www.prosim.net) | France | supplier | Pinch analysis and heat integration |
+| [Pinchco](https://pinchco.com) | Norway | supplier | Pinch analysis and heat integration |
+| [TLK Energy](https://www.tlk-energy.com) | Germany | supplier | Pinch analysis and heat integration |
 
 ## PWR: Power and renewables
 
@@ -405,18 +445,17 @@ Names come from the `suppliers` lists of the technology cards (deduplicated, spe
 Adding a record for one of them is the next batch of this directory.
 
 - **CCS** (16): Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
-- **DIG** (9): Amazon Web Services; Augury; C3 AI; Google Cloud Platform; Honeywell; IBM Red Hat OpenShift; Microsoft Azure; SparkCognition; Yokogawa
-- **GAS** (7): Air Liquide Engineering & Construction; ConocoPhillips; Excelerate Energy; Golar LNG; Höegh LNG; RasGas / Qatargas (operators); Titan
+- **DIG** (5): Augury; C3 AI; Honeywell; IBM Red Hat OpenShift; Yokogawa
+- **GAS** (3): Air Liquide Engineering & Construction; RasGas / Qatargas (operators); Titan
 - **H2** (1): Ensyn
-- **HSE** (3): Engelhard Corporation; IHI Corporation; J-W Instruments
-- **INS** (8): Claroty; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
+- **INS** (4): Claroty; Honeywell; Nozomi Networks; Yokogawa
 - **MAT** (9): Amiantit; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
 - **MID** (4): Governments; PETRONAS Gas; ROSEN; Terminal operators
 - **PCH** (4): BASF, SABIC, Linde; CJ; Fraunhofer; Scientific Design
-- **PRC** (7): AVEVA; CanmetENERGY; Fives ProSim; Honeywell; Montz; Pinchco; TLK-Energy
+- **PRC** (4): AVEVA; Honeywell; Montz; TLK-Energy
 - **PWR** (16): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy
 - **REF** (10): AVEVA; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel/Foster Wheeler (Amec); Chevron / Honeywell UOP; EPC contractors (process designed by refiner or contractor); Honeywell; Koch-Glitsch; Suez; Yokogawa
 - **ROT** (13): Alfa Laval; American Marsh; ClearSign; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Velan
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-254 of 299 cards list at least one directory vendor.
+259 of 299 cards list at least one directory vendor.

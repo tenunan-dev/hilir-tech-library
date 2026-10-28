@@ -1,0 +1,20 @@
+{
+  "id": "tlk-energy",
+  "name": "TLK Energy",
+  "country": "Germany",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Aachen-based consultancy for thermal-systems simulation and heat-integration studies.",
+  "technologies": [
+    "prc-pinch-analysis"
+  ],
+  "url": "https://www.tlk-energy.com",
+  "sources": [
+    {
+      "url": "https://www.tlk-energy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

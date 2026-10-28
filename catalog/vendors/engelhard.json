@@ -1,0 +1,23 @@
+{
+  "id": "engelhard",
+  "name": "Engelhard Corporation",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Legacy catalyst maker (now BASF Environmental Catalysts) whose SCR catalysts serve NOx control.",
+  "technologies": [
+    "hse-nox-control"
+  ],
+  "url": "https://www.basf.com",
+  "sources": [
+    {
+      "url": "https://www.basf.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "BASF Environmental Catalysts"
+  ]
+}

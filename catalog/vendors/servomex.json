@@ -1,0 +1,20 @@
+{
+  "id": "servomex",
+  "name": "Servomex",
+  "country": "United Kingdom",
+  "roles": [
+    "oem"
+  ],
+  "description": "UK gas-analysis specialist (paramagnetic oxygen, infrared analysers) for process streams.",
+  "technologies": [
+    "ins-process-analysers"
+  ],
+  "url": "https://www.servomex.com",
+  "sources": [
+    {
+      "url": "https://www.servomex.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

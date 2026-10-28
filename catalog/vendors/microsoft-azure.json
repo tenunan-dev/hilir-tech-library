@@ -1,0 +1,23 @@
+{
+  "id": "microsoft-azure",
+  "name": "Microsoft Azure",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Cloud platform with an Azure-hosted OSDU pattern and energy-data services.",
+  "technologies": [
+    "dig-osdu"
+  ],
+  "url": "https://azure.microsoft.com",
+  "sources": [
+    {
+      "url": "https://azure.microsoft.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Azure"
+  ]
+}

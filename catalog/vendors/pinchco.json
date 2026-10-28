@@ -1,0 +1,20 @@
+{
+  "id": "pinchco",
+  "name": "Pinchco",
+  "country": "Norway",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Norwegian pinch-analysis consultancy for heat-integration studies.",
+  "technologies": [
+    "prc-pinch-analysis"
+  ],
+  "url": "https://pinchco.com",
+  "sources": [
+    {
+      "url": "https://pinchco.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

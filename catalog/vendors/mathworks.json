@@ -1,0 +1,24 @@
+{
+  "id": "mathworks",
+  "name": "MathWorks",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Maker of MATLAB and Simulink, used for control-system design and dynamic process modelling.",
+  "technologies": [
+    "ins-apc-mpc"
+  ],
+  "url": "https://www.mathworks.com",
+  "sources": [
+    {
+      "url": "https://www.mathworks.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "MATLAB",
+    "Simulink"
+  ]
+}

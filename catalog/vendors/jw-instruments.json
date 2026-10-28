@@ -1,0 +1,20 @@
+{
+  "id": "jw-instruments",
+  "name": "J-W Instruments",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "US flame and gas detection instrument supplier for upstream and midstream facilities.",
+  "technologies": [
+    "hse-gas-flame-detection"
+  ],
+  "url": "https://www.jwinstruments.com",
+  "sources": [
+    {
+      "url": "https://www.jwinstruments.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

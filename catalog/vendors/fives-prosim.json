@@ -1,0 +1,20 @@
+{
+  "id": "fives-prosim",
+  "name": "Fives ProSim",
+  "country": "France",
+  "roles": [
+    "supplier"
+  ],
+  "description": "French process-simulation software house (ProSimPlus) used for heat-integration and energy studies.",
+  "technologies": [
+    "prc-pinch-analysis"
+  ],
+  "url": "https://www.prosim.net",
+  "sources": [
+    {
+      "url": "https://www.prosim.net",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

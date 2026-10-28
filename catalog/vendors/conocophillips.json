@@ -1,0 +1,21 @@
+{
+  "id": "conocophillips",
+  "name": "ConocoPhillips",
+  "country": "USA",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "US independent supermajor and co-developer of the Optimized Cascade liquefaction process.",
+  "technologies": [
+    "lng-optimized-cascade"
+  ],
+  "url": "https://www.conocophillips.com",
+  "sources": [
+    {
+      "url": "https://www.conocophillips.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ihi",
+  "name": "IHI Corporation",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "description": "Japanese heavy-machinery group supplying SCR and flue-gas treatment systems for industrial plants.",
+  "technologies": [
+    "hse-nox-control"
+  ],
+  "url": "https://www.ihi.co.jp",
+  "sources": [
+    {
+      "url": "https://www.ihi.co.jp",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

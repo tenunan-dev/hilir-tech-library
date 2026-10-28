@@ -1,0 +1,23 @@
+{
+  "id": "aws",
+  "name": "Amazon Web Services",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Cloud platform hosting OSDU data-platform backends and energy-industry data workloads.",
+  "technologies": [
+    "dig-osdu"
+  ],
+  "url": "https://aws.amazon.com",
+  "sources": [
+    {
+      "url": "https://aws.amazon.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "AWS"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "inductive-automation",
+  "name": "Inductive Automation",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Maker of the Ignition SCADA platform, widely deployed for pipeline and plant supervisory control.",
+  "technologies": [
+    "ins-dcs-scada"
+  ],
+  "url": "https://inductiveautomation.com",
+  "sources": [
+    {
+      "url": "https://inductiveautomation.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Ignition"
+  ]
+}

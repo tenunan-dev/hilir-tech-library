@@ -1,0 +1,23 @@
+{
+  "id": "ibm-redhat",
+  "name": "IBM / Red Hat OpenShift",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "IBM and Red Hat supply OpenShift container platforms used to host OSDU data-platform deployments.",
+  "technologies": [
+    "dig-osdu"
+  ],
+  "url": "https://www.ibm.com",
+  "sources": [
+    {
+      "url": "https://www.ibm.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Red Hat OpenShift"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "google-cloud",
+  "name": "Google Cloud Platform",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Cloud platform used for OSDU deployments and petroleum data analytics.",
+  "technologies": [
+    "dig-osdu"
+  ],
+  "url": "https://cloud.google.com",
+  "sources": [
+    {
+      "url": "https://cloud.google.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "GCP"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hoegh-lng",
+  "name": "Höegh LNG",
+  "country": "Norway",
+  "roles": [
+    "operator"
+  ],
+  "description": "Norwegian FSRU and LNG-carrier operator (Höegh Esperanza class).",
+  "technologies": [
+    "lng-fsru"
+  ],
+  "url": "https://hoeghlng.com",
+  "sources": [
+    {
+      "url": "https://hoeghlng.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

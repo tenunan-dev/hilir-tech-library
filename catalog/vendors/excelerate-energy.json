@@ -1,0 +1,23 @@
+{
+  "id": "excelerate-energy",
+  "name": "Excelerate Energy",
+  "country": "USA",
+  "roles": [
+    "operator"
+  ],
+  "description": "Pioneer of FSRU-based LNG import terminals, operating a fleet of floating storage and regasification vessels.",
+  "technologies": [
+    "lng-fsru"
+  ],
+  "url": "https://www.excelerateenergy.com",
+  "sources": [
+    {
+      "url": "https://www.excelerateenergy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Excelerate"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "rockwell-automation",
+  "name": "Rockwell Automation",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "US industrial automation company (FactoryTalk, Allen-Bradley) supplying plant control and SCADA.",
+  "technologies": [
+    "ins-dcs-scada"
+  ],
+  "url": "https://www.rockwellautomation.com",
+  "sources": [
+    {
+      "url": "https://www.rockwellautomation.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "canmetenergy",
+  "name": "CanmetENERGY",
+  "country": "Canada",
+  "roles": [
+    "developer"
+  ],
+  "description": "Natural Resources Canada energy research labs, including pinch-analysis and heat-integration R&D.",
+  "technologies": [
+    "prc-pinch-analysis"
+  ],
+  "url": "https://www.nrcan.gc.ca",
+  "sources": [
+    {
+      "url": "https://www.nrcan.gc.ca",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
