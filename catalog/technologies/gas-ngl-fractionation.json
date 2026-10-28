@@ -178,6 +178,10 @@
       "url": "https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf",
       "source_id": "honeywell-uop",
       "note": "Honeywell UOP fractionation module datasheet"
+    },
+    {
+      "url": "https://cms.energytransfer.com/wp-content/uploads/2019/04/Mt-Belvieu-Fact-Sheet-3-29-19.pdf",
+      "note": "Energy Transfer Mont Belvieu fact sheet, 29 Mar 2019"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -186,7 +190,7 @@
       "field": "performance",
       "item": "energy use per barrel fractionated and recovery fractions",
       "reason_code": "not_in_sources_read",
-      "reason": "The datasheet gives experience and delivery figures only.",
+      "reason": "The datasheet gives experience and delivery figures only. Web-checked 2026-10-28; fractionation energy figures sit in process-licensing material.",
       "where": [
         {
           "hint": "GPSA Engineering Data Book",
@@ -201,23 +205,10 @@
       "action": "Add energy and recovery figures from a published design case."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched NGL, natural gas liquids, LPG, fractionation, deethanizer); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched NGL, natural gas liquids, LPG, fractionation, deethanizer); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -239,6 +230,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Mont Belvieu NGL complex, Texas (Energy Transfer and others)",
+      "country": "US",
+      "capacity": "world's largest NGL storage and fractionation hub: Energy Transfer facilities alone hold over 46 million barrels of storage and fractionate over 900,000 bpd; US NGL hub since the 1960s",
+      "status": "operating",
+      "source": {
+        "url": "https://cms.energytransfer.com/wp-content/uploads/2019/04/Mt-Belvieu-Fact-Sheet-3-29-19.pdf",
+        "note": "Energy Transfer Mont Belvieu facilities fact sheet, 29 Mar 2019 (46+ M bbl storage, >900 kbpd fractionation); OGJ: the Mont Belvieu NGL storage system is the largest in the world; read 2026-10-28"
+      }
     }
   ]
 }

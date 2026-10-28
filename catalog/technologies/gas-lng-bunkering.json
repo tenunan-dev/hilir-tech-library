@@ -95,6 +95,18 @@
       },
       "low": 41500,
       "high": 41500
+    },
+    {
+      "metric": "LNG bunker demand outlook and cumulative port volumes",
+      "low": 2,
+      "high": 27,
+      "unit": "million m3 cumulative bonded LNG bunkered at Shanghai to date (2+ M m3, 355 vessels); Shell outlook: global LNG bunker demand rising sevenfold to 27 million mt/yr by 2035",
+      "year": 2025,
+      "basis": "Shell outlook reported by LNG Prime: global LNG bunker demand expected to increase sevenfold to 27 million mt by 2035 as the LNG-fuelled fleet expands; LNG Prime: Shanghai cumulative bonded LNG bunker supplies surpassed 2 million m3 with 355 vessels bunkered; Singapore sales at record highs; a verified global volume total for 2024/25 was not available in open pages",
+      "source": {
+        "url": "https://www.linkedin.com/posts/lng-prime_singapore-lng-bunkering-volumes-hit-new-record-activity-7472176654832832512-pbGB",
+        "note": "LNG Prime postings (Shell 27 Mt 2035 outlook; Shanghai 2 M m3; Singapore record); read 2026-10-28"
+      }
     }
   ],
   "reference_plants": [
@@ -126,13 +138,13 @@
       "note": "LNG Prime, Singapore LNG bunkering volumes hit new record in 2025 (summary only; article paywalled)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "global LNG bunkering volumes and port list",
       "reason_code": "not_in_sources_read",
-      "reason": "Only Singapore items were read; the LNG Prime article is paywalled.",
+      "reason": "Only Singapore items were read; the LNG Prime article is paywalled. Outlook and cumulative port figures recorded in performance; a verified global 2024/25 volume total and port list not found open, 2026-10-28.",
       "where": [
         {
           "hint": "Singapore MPA bunkering statistics",
@@ -149,7 +161,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; bunker price spreads are commercial.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -172,7 +184,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
