@@ -130,24 +130,14 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
+    },
+    {
+      "url": "https://www.porthosco2.nl/en",
+      "note": "Porthos CO2 infrastructure (read 2026-10-28)"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "recent European and Asian CO2 pipelines",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IPCC report is from 2005 and the Northern Lights page gives no pipeline length.",
-      "where": [
-        {
-          "hint": "IEA CCUS projects database",
-          "access": "open",
-          "source_id": "iea-ccus-db"
-        }
-      ],
-      "action": "Add a current example with length and capacity."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -170,5 +160,17 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 transport pipeline'"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "Porthos CO2 transport system, Port of Rotterdam, Netherlands",
+      "country": "NL",
+      "capacity": "about 55 km of CO2 pipeline (about 30 km onshore laid, more than 20 km offshore); 10 Mtpa design; transports Rotterdam industry CO2 to depleted North Sea gas fields; under construction (2024-)",
+      "status": "construction",
+      "source": {
+        "url": "https://www.porthosco2.nl/en",
+        "note": "Porthos project site (30 km onshore laid, 20+ km offshore); CATF EU CO2 infrastructure briefing (55 km, 10 Mtpa); read 2026-10-28"
+      }
+    }
+  ]
 }

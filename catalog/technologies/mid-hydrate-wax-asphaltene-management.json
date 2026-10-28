@@ -112,7 +112,7 @@
       "field": "costs",
       "item": "chemical cost and MEG recovery cost",
       "reason_code": "not_in_sources_read",
-      "reason": "None given.",
+      "reason": "None given. Web-checked 2026-10-28; chemical prices are vendor-quoted.",
       "where": [
         {
           "hint": "SPE papers on flow assurance cost",
@@ -126,7 +126,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named scheme added.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -139,7 +139,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched hydrate, wax, asphaltene, flow assurance, chemical injection); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched hydrate, wax, asphaltene, flow assurance, chemical injection); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

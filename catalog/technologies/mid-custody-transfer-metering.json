@@ -75,6 +75,18 @@
       },
       "low": 0.5,
       "high": 0.5
+    },
+    {
+      "metric": "custody-transfer meter accuracy under AGA standards",
+      "low": 0.35,
+      "high": 0.5,
+      "unit": "% volume-flow accuracy for Coriolis meters under AGA 11 (ultrasonic meters governed by AGA 9)",
+      "year": 2016,
+      "basis": "\"The use of Coriolis meters for custody transfer is governed by AGA-11. Advantages include standard volume flow accuracy of 0.35% to 0.5%\" (Control Engineering, 13 Jun 2016); AGA 9 governs multipath ultrasonic custody-transfer meters; the specific AGA 9 and API MPMS class values were not read this pass",
+      "source": {
+        "url": "https://www.controleng.com/selecting-flowmeters-for-natural-gas",
+        "note": "Control Engineering, Selecting flowmeters for natural gas, 13 Jun 2016 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -96,13 +108,13 @@
       "note": "Wikipedia, Coriolis flowmeter / flow measurement, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "custody-transfer accuracy classes under AGA 9, AGA 11 and API MPMS",
       "reason_code": "not_in_sources_read",
-      "reason": "Not stated in the pages read.",
+      "reason": "Not stated in the pages read. AGA 11 Coriolis accuracy (0.35-0.5%) recorded in performance; AGA 9/API MPMS class tables are paywalled standards text, 2026-10-28.",
       "where": [
         {
           "hint": "AGA 9 and API MPMS",
@@ -116,7 +128,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; meter prices vendor-quoted.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -139,7 +151,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -152,7 +164,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

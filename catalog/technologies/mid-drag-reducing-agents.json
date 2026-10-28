@@ -119,6 +119,10 @@
       "url": "https://www.offshore-mag.com/regional-reports/article/16762699/drag-reducers-improve-throughput-cut-costs",
       "source_id": "offshore-mag",
       "note": "Offshore magazine, Drag reducers improve throughput, cut costs (2005; vendor-authored)"
+    },
+    {
+      "url": "https://cir.nii.ac.jp/crid/1361137044158838528",
+      "note": "Burger et al. 1982 TAPS drag-reduction paper record"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -127,7 +131,7 @@
       "field": "costs",
       "item": "treatment cost per barrel with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "The article does not quantify cost.",
+      "reason": "The article does not quantify cost. Web-checked 2026-10-28; DRA dosing costs are vendor-quoted.",
       "where": [
         {
           "hint": "LiquidPower brochures",
@@ -137,23 +141,10 @@
       "action": "Add dose ppm and cost range with year."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched drag reducing, drag reducer, friction reducer, pipeline additive, flow assurance); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched drag reducing, drag reducer, friction reducer, pipeline additive, flow assurance); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -175,6 +166,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Trans-Alaska Pipeline System (TAPS) drag-reducer programme",
+      "country": "US",
+      "capacity": "first commercial use of a polymeric drag-reducing additive to raise crude-oil pipeline flow, beginning 1979 after two full-scale experiments (Burger et al., 1982); DRA let TAPS exceed its design throughput",
+      "status": "operating",
+      "source": {
+        "url": "https://cir.nii.ac.jp/crid/1361137044158838528",
+        "note": "Burger et al., Flow Increase in the Trans Alaska Pipeline Through Use of a Drag Reducing Additive (1982, cited 281x); semanticscholar record (first commercial use 1979); read 2026-10-28"
+      }
     }
   ]
 }
