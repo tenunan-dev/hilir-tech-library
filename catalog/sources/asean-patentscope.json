@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "PATENTSCOPE rendered empty to the fetch tool on 2026-10-23; ASEAN path also unconfirmed. Evidence: https://patentscope.wipo.int/",
+  "notes": "PATENTSCOPE rendered empty to the fetch tool on 2026-10-23; ASEAN path also unconfirmed. Evidence: https://patentscope.wipo.int/ Automated pass 2026-10-28: WIPO page fetched but no licence keywords found; PATENTSCOPE data remains subject to WIPO terms - keep full-text-open pending manual read.",
   "verification": "unverified",
   "last_verified": null
 }

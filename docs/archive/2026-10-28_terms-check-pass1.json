@@ -1,0 +1,134 @@
+{
+ "abb-energy": {
+  "url": "https://new.abb.com/terms",
+  "fetched": 0,
+  "error": "The read operation timed out"
+ },
+ "air-products": {
+  "url": "https://www.airproducts.com/legal",
+  "fetched": 0,
+  "error": "HTTP Error 404: Page not found"
+ },
+ "slb-capturi": {
+  "url": "https://www.slbcapturi.com/terms-of-use",
+  "fetched": 0,
+  "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+ },
+ "asean-patentscope": {
+  "url": "https://patentscope.wipo.int/search/en/search.jsf",
+  "fetched": 52166,
+  "signals": []
+ },
+ "aspentech": {
+  "url": "https://www.aspentech.com/en/terms-of-use",
+  "fetched": 8651,
+  "signals": []
+ },
+ "au-dcceew": {
+  "url": "https://www.dcceew.gov.au/about/copyright",
+  "fetched": 0,
+  "error": "The read operation timed out"
+ },
+ "dgip-indonesia": {
+  "url": "https://pdki-indonesia.dgip.go.id/faq",
+  "fetched": 212,
+  "signals": []
+ },
+ "energy-reports": {
+  "url": "https://www.sciencedirect.com/journal/energy-reports",
+  "fetched": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "exxonmobil-catalysts": {
+  "url": "https://www.exxonmobilchemical.com/en/legal",
+  "fetched": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "fraunhofer-ise": {
+  "url": "https://www.ise.fraunhofer.de/en/legal.html",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "garuda-indonesia": {
+  "url": "https://garuda.kemdikbud.go.id/documents",
+  "fetched": 0,
+  "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+ },
+ "google-patents": {
+  "url": "https://policies.google.com/terms",
+  "fetched": 299996,
+  "signals": []
+ },
+ "skk-migas": {
+  "url": "https://www.skkmigas.go.id/en",
+  "fetched": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "india-dgh": {
+  "url": "https://dghindia.gov.in/en/page/disclaimer",
+  "fetched": 0,
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl"
+ },
+ "irena": {
+  "url": "https://www.irena.org/Terms-of-Use",
+  "fetched": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "jpo-jplatpat": {
+  "url": "https://www.j-platpat.inpit.go.jp/e/agreement",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "kipris": {
+  "url": "https://www.kipris.or.kr/khome/main.jsp",
+  "fetched": 277827,
+  "signals": [
+   "all-rights-reserved"
+  ]
+ },
+ "norway-sodir": {
+  "url": "https://www.sodir.no/en/about-this-website/",
+  "fetched": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "ogmp": {
+  "url": "https://www.ogmpartnership.org/terms-use",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "osdu": {
+  "url": "https://www.opengroup.org/terms",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "patentscope": {
+  "url": "https://www.wipo.int/patentscope/en/",
+  "fetched": 127060,
+  "signals": []
+ },
+ "shell-catalysts": {
+  "url": "https://www.shell.com/legal",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "shell-energy-transition": {
+  "url": "https://www.shell.com/legal",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "sintef": {
+  "url": "https://www.sintef.no/en/about-the-website/",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "technipfmc": {
+  "url": "https://www.technipfmc.com/en/legal",
+  "fetched": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ "wood-plc": {
+  "url": "https://www.woodplc.com/terms-of-use",
+  "fetched": 0,
+  "error": "HTTP Error 403: Forbidden"
+ }
+}

@@ -30,7 +30,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "JavaScript app; no terms readable by fetch tool. Prefer Google Patents Public Datasets on BigQuery, which carries its own licence. Evidence: https://patents.google.com/",
+  "notes": "JavaScript app; no terms readable by fetch tool. Prefer Google Patents Public Datasets on BigQuery, which carries its own licence. Evidence: https://patents.google.com/ Automated pass 2026-10-28: Google ToS fetched; Google Patents data is subject to Google ToS (no per-record CC statement); BigQuery Public Datasets route still preferred.",
   "verification": "unverified",
   "last_verified": null
 }

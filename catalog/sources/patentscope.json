@@ -30,7 +30,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Page rendered empty to the fetch tool on 2026-10-23; terms not read. Evidence: https://patentscope.wipo.int/",
+  "notes": "Page rendered empty to the fetch tool on 2026-10-23; terms not read. Evidence: https://patentscope.wipo.int/ Automated pass 2026-10-28: WIPO PATENTSCOPE page fetched; no licence keywords on landing page; WIPO terms apply.",
   "verification": "unverified",
   "last_verified": null
 }

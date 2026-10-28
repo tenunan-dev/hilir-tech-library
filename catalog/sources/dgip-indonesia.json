@@ -23,5 +23,5 @@
   "update_frequency": "weekly",
   "verification": "unverified",
   "last_verified": null,
-  "notes": "Site not reachable by fetch tool on 2026-10-23. Evidence: https://pdki-indonesia.dgip.go.id/"
+  "notes": "Site not reachable by fetch tool on 2026-10-23. Evidence: https://pdki-indonesia.dgip.go.id/ Automated pass 2026-10-28: PDKI FAQ page fetched; no licence statement detected; keep full-text-open with note."
 }

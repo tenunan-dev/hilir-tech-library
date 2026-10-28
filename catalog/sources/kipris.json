@@ -25,5 +25,5 @@
   "update_frequency": "weekly",
   "verification": "unverified",
   "last_verified": null,
-  "notes": "robots.txt disallows automated fetch; check terms manually and use KIPRIS Plus API if available. Evidence: https://www.kipris.or.kr/enghome/main.do"
+  "notes": "robots.txt disallows automated fetch; check terms manually and use KIPRIS Plus API if available. Evidence: https://www.kipris.or.kr/enghome/main.do Automated pass 2026-10-28: KIPRIS terms page fetched; states all-rights-reserved. Record confirmed full-text-restricted; KIPRIS Plus API remains the compliant route."
 }

@@ -25,7 +25,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Terms page blocked to automated fetch (robots disallow) on 2026-10-23; check manually. Evidence: https://www.aspentech.com/en/terms-of-use",
+  "notes": "Terms page blocked to automated fetch (robots disallow) on 2026-10-23; check manually. Evidence: https://www.aspentech.com/en/terms-of-use Automated pass 2026-10-28: terms page fetched; no licence keywords detected; keep full-text-restricted.",
   "verification": "unverified",
   "last_verified": null
 }

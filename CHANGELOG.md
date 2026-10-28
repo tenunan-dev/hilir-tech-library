@@ -7,6 +7,14 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.14] — 2026-10-28 — vendor directory complete (378), Wave 4 executed, citation binding, terms-check pass
+
+### Added
+- Vendor directory completed across all 15 sectors (205 → 378 records); the coverage queue now lists only non-vendor category placeholders.
+- Wave 4 executed in two passes: 132 verified open process-authority leads attached to general-knowledge gaps, then automated secondary-source cross-checks closed 18 (the 111 below threshold keep the lead and a verification action).
+- 14 new catalog source records for the most frequently-cited uncatalogued URLs (catalog now 368 records).
+- Automated terms-check pass over all 26 flagged sources (6 fetched with findings recorded, 20 confirmed needing browser sessions).
+
 ## [2026.10.27.13] — 2026-10-28 — vendor directory +71: UPS and H2 sectors fully covered
 
 ### Added
