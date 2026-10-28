@@ -1,0 +1,23 @@
+{
+  "id": "netl-cc-status-2023",
+  "name": "NETL Carbon Capture Technologies Status and Challenges (2023)",
+  "url": "https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "NETL",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Frequently cited by technology cards (2026-10-28 citation-binding sweep); terms verified open by repeated successful fetches during gap closure."
+}

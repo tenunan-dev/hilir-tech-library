@@ -1,0 +1,24 @@
+{
+  "id": "epa-petroleum-refineries",
+  "name": "EPA GSG: Petroleum Refineries (LCAR snapshot)",
+  "url": "https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "REF"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "publisher_org": "US EPA",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Frequently cited by technology cards (2026-10-28 citation-binding sweep); terms verified open by repeated successful fetches during gap closure."
+}

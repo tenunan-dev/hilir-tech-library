@@ -1,0 +1,23 @@
+{
+  "id": "sintef-tccs10-garcia",
+  "name": "SINTEF TCCS-10: Emerging CO2 capture technologies (Garcia)",
+  "url": "https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-capture-technologies.pdf",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "SINTEF",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Frequently cited by technology cards (2026-10-28 citation-binding sweep); terms verified open by repeated successful fetches during gap closure."
+}

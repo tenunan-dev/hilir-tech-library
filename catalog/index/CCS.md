@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-123 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+130 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -96,18 +96,25 @@
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |
 | [IEA CCUS Projects Database](https://www.iea.org/data-and-statistics/data-product/ccus-projects-database) | agency-data | global | free-registration | full-text-restricted |
+| [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
+| [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
+| [NETL Carbon Capture Technologies Status and Challenges (2023)](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf) | agency-data | global | open | full-text-open (unverified) |
+| [NETL Compendium of Carbon Capture Technology 2024 (web edition)](https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf) | agency-data | global | open | full-text-open (unverified) |
+| [NETL Cost of Capturing CO2 from Industrial Sources (2022, project file)](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
+| [Oil & Gas Science and Technology: CO2 capture review (IFPEN)](https://ogst.ifpenergiesnouvelles.fr/en/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html) | journal | global | open | full-text-open (unverified) |
 | [Oil and Gas Climate Initiative](https://www.ogci.com/) | association | global | open | summary-only |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
+| [SINTEF TCCS-10: Emerging CO2 capture technologies (Garcia)](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-capture-technologies.pdf) | research-institute | global | open | full-text-open (unverified) |
 | [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted |
 | [SLB Capturi (formerly Aker Carbon Capture)](https://www.slbcapturi.com/) | licensor | global | open | full-text-restricted (unverified) |
 | [Technip Energies](https://www.ten.com/en) | epc-contractor | global | open | summary-only |

@@ -1,6 +1,6 @@
 # DIG: Digital
 
-125 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+126 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -92,6 +92,7 @@
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
 | [Hydrogen Council](https://hydrogencouncil.com/en/) | association | global | open | full-text-restricted |
 | [Hydrogen Europe](https://hydrogeneurope.eu/) | association | eu | open | full-text-restricted |
+| [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [International Gas Union](https://www.igu.org/) | association | global | open | summary-only |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |

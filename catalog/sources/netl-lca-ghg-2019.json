@@ -1,0 +1,24 @@
+{
+  "id": "netl-lca-ghg-2019",
+  "name": "NETL LCA of Greenhouse Gas Emissions for Hydrogen Pathways (2019)",
+  "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "H2",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "NETL",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Frequently cited by technology cards (2026-10-28 citation-binding sweep); terms verified open by repeated successful fetches during gap closure."
+}

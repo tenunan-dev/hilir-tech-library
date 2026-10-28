@@ -1,0 +1,26 @@
+{
+  "id": "ghr-2025",
+  "name": "IEA Global Hydrogen Review 2025 (main report)",
+  "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "H2",
+    "REF",
+    "PWR",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "IEA",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "verification": "unverified",
+  "last_verified": null,
+  "notes": "Frequently cited by technology cards (2026-10-28 citation-binding sweep); terms verified open by repeated successful fetches during gap closure."
+}
