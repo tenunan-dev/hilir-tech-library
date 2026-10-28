@@ -180,6 +180,16 @@
         "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/",
         "note": "APR Energy homepage (15 July 2026 archive), read 26 October 2026"
       }
+    },
+    {
+      "name": "GE TM2500 mobile power for remote Indonesia",
+      "country": "ID",
+      "capacity": "TM2500 mobile generators on two-trailer assemblies, more than 25 MW per unit, delivering electricity to Indonesia's remote areas (2016)",
+      "status": "operating",
+      "source": {
+        "url": "https://jakartaglobe.id/context/ges-power-plant-wheels-delivers-electricity-indonesias-remote-areas",
+        "note": "Jakarta Globe, 15 Oct 2016 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -220,13 +230,13 @@
       "note": "Siemens Energy gas turbine portfolio page, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-26",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost per kW and rental day rate, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for mobile gas turbine packages.",
+      "reason": "No open source read so far gives costs for mobile gas turbine packages. Web-checked 2026-10-28; rental day rates are quote-only (osti corpus checked, abstracts only).",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity",
@@ -244,19 +254,6 @@
         }
       ],
       "action": "Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "reference deployment with capacity in Southeast Asia",
-      "reason_code": "not_in_sources_read",
-      "reason": "The pages read name Algeria, Australia, the Caribbean and the USA but no Southeast Asian deployment.",
-      "where": [
-        {
-          "hint": "GE Vernova and APR Energy reference lists and trade press (Power Magazine, Gas Turbine World)",
-          "access": "open"
-        }
-      ],
-      "action": "Add a Southeast Asian reference with capacity and year."
     },
     {
       "field": "process",

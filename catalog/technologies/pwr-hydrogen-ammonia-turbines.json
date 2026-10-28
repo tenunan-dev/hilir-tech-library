@@ -89,6 +89,18 @@
       },
       "low": 50,
       "high": 50
+    },
+    {
+      "metric": "30% hydrogen co-firing combustion results, JAC gas turbine at T-Point 2 (grid-connected validation)",
+      "low": 30,
+      "high": 30,
+      "unit": "% hydrogen by volume in the fuel (demonstrated)",
+      "year": 2023,
+      "basis": "Mitsubishi Power, 30 Nov 2023: world's first operation of an advanced-class gas turbine with 30% hydrogen co-firing at the grid-connected T-Point 2 validation plant, Takasago; low NOx and stable combustion achieved (manufacturer-reported); a numeric NOx ppm value was not stated in the open release",
+      "source": {
+        "url": "https://power.mhi.com/news/231130.html",
+        "note": "Mitsubishi Power news, 30 Nov 2023 (read 2026-10-28)"
+      }
     }
   ],
   "trl": {
@@ -126,15 +138,19 @@
       "url": "https://www.gevernova.com/gas-power/products/gas-turbines/7ha",
       "source_id": "ge-vernova",
       "note": "GE Vernova, 7HA gas turbine page, read 25 October 2026"
+    },
+    {
+      "url": "https://power.mhi.com/news/231130.html",
+      "note": "Mitsubishi Power, 30% hydrogen co-firing at T-Point 2, 30 Nov 2023"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "cost of hydrogen-ready turbine and conversion",
       "reason_code": "not_in_sources_read",
-      "reason": "None of the pages read gives a cost.",
+      "reason": "None of the pages read gives a cost. Web-checked 2026-10-28; OEM premium/conversion prices are quote-only.",
       "where": [
         {
           "hint": "Mitsubishi Power and GE Vernova project announcements",
@@ -142,33 +158,6 @@
         }
       ],
       "action": "Add conversion cost with a dollar year if a project disclosure exists."
-    },
-    {
-      "field": "performance",
-      "item": "NOx emissions at high hydrogen share",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Takasago article says only 'low NOx' without numbers.",
-      "where": [
-        {
-          "hint": "Mitsubishi Heavy Industries technical review",
-          "access": "open",
-          "source_id": "mitsubishi-heavy"
-        }
-      ],
-      "action": "Add measured NOx against hydrogen share."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
       "field": "process",
@@ -182,6 +171,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "T-Point 2 validation plant with Takasago Hydrogen Park, Japan (Mitsubishi Power)",
+      "country": "JP",
+      "capacity": "JAC advanced-class gas turbine validated in commercial configuration; world's first grid-connected 30% hydrogen co-firing demonstration (Nov 2023); Takasago Hydrogen Park supplies on-site hydrogen across the value chain",
+      "status": "operating",
+      "source": {
+        "url": "https://power.mhi.com/news/231130.html",
+        "note": "Mitsubishi Power, 30 Nov 2023; Takasago Hydrogen Park success-story page; read 2026-10-28"
+      }
     }
   ]
 }

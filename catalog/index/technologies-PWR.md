@@ -19,13 +19,13 @@
 | [HVDC transmission and interconnectors](#pwr-hvdc-transmission) | Grid | commercial | 9 | Hitachi Energy (HVDC Classic and HVDC Light); Siemens Energy (HVDC Plus); GE Vernova (HVDC) |  |
 | [Heavy-duty gas turbines (H and J class)](#pwr-heavy-duty-gas-turbines) | Gas-fired power | commercial | 9 | GE Vernova (7HA, 9HA); Mitsubishi Heavy Industries (Mitsubishi Power) (M501/M701 J and JAC); Siemens Energy (HL class) |  |
 | [Hydropower](#pwr-hydropower) | Hydro | commercial | 9 | Andritz (hydro turbines); Voith (hydro turbines); GE Vernova (hydro turbines) | overnight capital cost, new stream-reach: 6574-8611 USD/kW |
-| [Large light-water reactors](#pwr-large-light-water-reactors) | Nuclear | commercial | 9 | Westinghouse (AP1000); EDF (EPR (Framatome)); KHNP (APR1400); CGN (Hualong One) |  |
+| [Large light-water reactors](#pwr-large-light-water-reactors) | Nuclear | commercial | 9 | Westinghouse (AP1000); EDF (EPR (Framatome)); KHNP (APR1400); CGN (Hualong One) | Barakah four-unit plant cost (financing basis) and build time: 4360 USD/kW derived (USD 24.4 bn for 5.6 GW); build time 12 years (2012-2024) (2016$) |
 | [Lithium-ion battery energy storage](#pwr-lithium-ion-bess) | Electrochemical storage | commercial | 9 | CATL (LFP storage systems); BYD (storage systems); Tesla (Megapack); Fluence (integrated storage) |  |
 | [Mobile gas turbine power plants](#pwr-mobile-gas-turbine-plants) | Modular power plants | commercial |  | GE Vernova (TM2500 mobile packages (DLE and SAC variants)); Siemens Energy (SGT-A45 TR mobile unit (launched 2017; no longer listed in the current portfolio)); PROENERGY (PE6000 50 MW fast-start package, LM6000-interchangeable); APR Energy (rental fleet of TM2500 variants and Mitsubishi FT8 units, 20-35 MW per unit) |  |
 | [Modular ORC units for waste heat and small geothermal](#pwr-modular-orc-units) | Modular power plants | commercial |  | Climeon (HeatPower 300 (50-355 kW net) and HeatPower 150 marine modules); Enogia (10-180 kWe ORC modules, combinable above 1 MWe); Exergy (radial outflow turbine ORC plants, 100 kW to 50 MWe); Turboden (ORC units for geothermal, biomass and waste heat, 1-20 MWe class); Ormat (Ormat Energy Converter ORC units for geothermal and recovered heat); ElectraTherm (BITZER Group) (Power+ Generator waste heat ORC, up to 150 kWe) |  |
 | [Modular reciprocating engine power plants](#pwr-modular-engine-plants) | Modular power plants | commercial |  | Wärtsilä (Modular Block (~6-10 MW per block) and Smart Power Generation plants); Rolls-Royce Power Systems (mtu) (modular gas engine power plants from 10/20/30 MW factory-tested blocks); Everllence (formerly MAN Energy Solutions) (modularised 51/60 series engine power plants); INNIO Jenbacher (containerised gensets, 249-4,507 kW per container); Cummins (Centum Force containerised gensets, 2.0-2.75 MW (50 Hz)) |  |
 | [Offshore wind (fixed bottom)](#pwr-offshore-wind-fixed) | Wind | commercial | 9 | Ørsted (developer and operator); Siemens Gamesa (offshore turbines); Vestas (offshore turbines) |  |
-| [Onshore wind](#pwr-onshore-wind) | Wind | commercial | 9 | Vestas (onshore turbines); Siemens Gamesa (onshore turbines); Goldwind (onshore turbines); Envision (onshore turbines) |  |
+| [Onshore wind](#pwr-onshore-wind) | Wind | commercial | 9 | Vestas (onshore turbines); Siemens Gamesa (onshore turbines); Goldwind (onshore turbines); Envision (onshore turbines) | global weighted-average utility-scale onshore wind cost: 1210 USD/kW installed (2018), average LCOE 0.056 USD/kWh (2018$) |
 | [Powerships and power barges](#pwr-powerships-power-barges) | Modular power plants | commercial |  | Karpowership (Karadeniz Energy Group) (Powerships, Seal 34-40 MW to Khan 415-470 MW classes, plus LNG-to-power vessels); Power Barge Corporation (gas-turbine barges 30-300 MW, medium-speed-engine barges 80-200 MW, storage barges); Wärtsilä (floating power plants on Wärtsilä engine sets); Waller Marine (barge-mounted gas-turbine plants (2 x 171 MW at Tacoa, Venezuela); no live website found); BWSC (co-developer of an 80-180 MW medium-speed-engine power barge design with ABS approval in principle) |  |
 | [Pumped hydro storage](#pwr-pumped-hydro-storage) | Mechanical storage | commercial | 9 | Andritz (pump-turbines); Voith (pump-turbines); GE Vernova (pump-turbines) | overnight capital cost, 10 h, closed loop: 3029-4501 USD/kW (2021$)<br>overnight capital cost, 10 h, one new reservoir: 1730-3250 USD/kW (2021$) |
 | [Smart grids, microgrids and virtual power plants](#pwr-smart-grids-vpp) | Grid | commercial | 9 | Schneider Electric (microgrid and DERMS software); Siemens (grid software); AutoGrid (VPP software) |  |
@@ -527,14 +527,16 @@ flowchart LR
 **Costs:**
 - overnight capital cost, new stream-reach: 6574-8611 USD/kW; base year; dollar year not stated on the page. [source](https://atb.nrel.gov/electricity/2024/hydropower)
 
+**Reference plants:**
+- Bakun Hydroelectric Plant, Sarawak, Malaysia (Sarawak Energy), MY: 2,400 MW turbine capacity (installed 2,520 MW per 2026 trade press); commissioned 2011; 205 m concrete-faced rockfill dam; firm energy about 1,771 MW; Southeast Asia's largest hydropower installation; operating. [source](https://www.sarawakenergy.com/bakun-hydroelectric-plant)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydropower' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- dollar year for the ATB hydropower costs (costs): The page does not state the dollar year. Where: NREL ATB documentation (catalog: nrel, open). Next: Confirm the dollar year and add it to the figure.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- dollar year for the ATB hydropower costs (costs): The page does not state the dollar year. Web-checked 2026-10-28: the ATB is published at atb.nrel.gov, which is network-blocked from this machine; dollar year to be confirmed from an NREL mirror. Where: NREL ATB documentation (catalog: nrel, open). Next: Confirm the dollar year and add it to the figure.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/hydropower). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/hydropower), [2](https://www.sarawakenergy.com/bakun-hydroelectric-plant). Last reviewed 2026-10-28.
 
 ## Large light-water reactors
 <a id="pwr-large-light-water-reactors"></a>
@@ -556,14 +558,18 @@ flowchart LR
 - operable PWRs worldwide: 316 reactors (306.2 GWe); WNA table, page dated 5 August 2026. [source](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors)
 - operable BWRs worldwide: 60 reactors (61.0 GWe); WNA table. [source](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors)
 
+**Costs:**
+- Barakah four-unit plant cost (financing basis) and build time: 4360 USD/kW derived (USD 24.4 bn for 5.6 GW); build time 12 years (2012-2024) (2016$); derived: "The UAE's nuclear energy project has completed a $24.4bn [financing]... four 1,400 megawatt nuclear reactors" (Gulf Business, Oct 2016); 24.4e9 / 5.6e6 = 4,357 USD/kW. Financing-basis figure, not a settled overnight cost; construction ran 2012 to Unit-4 grid connection in March 2024. [source](https://gulfbusiness.com/en/2016/energy/uaes-nuclear-power-project-raises-24-4bn-financing)
+
+**Reference plants:**
+- Barakah Nuclear Energy Plant, UAE (ENEC/NAWAH), AE: four APR1400 units, 5.6 GW total, about 25% of UAE electricity; construction from 2012; Unit 4 grid-connected March 2024; ~40 TWh/yr; operating. [source](https://www.world-nuclear-news.org/articles/barakah-4-landmark-announced-as-world-nuclear-symp)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Generation III/III+ large reactors' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- overnight cost per kW and build time with dollar year (costs): The WNA page gives neither. Where: IEA or NEA nuclear cost studies (catalog: iea-reports, open). Next: Add recent project costs with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors). Last reviewed 2026-10-25.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors), [2](https://gulfbusiness.com/en/2016/energy/uaes-nuclear-power-project-raises-24-4bn-financing). Last reviewed 2026-10-28.
 
 ## Lithium-ion battery energy storage
 <a id="pwr-lithium-ion-bess"></a>
@@ -586,14 +592,16 @@ flowchart LR
 - design life: 15 years; with augmentation. [source](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage)
 - capex reduction 2022 to 2035, 60 MW 4-hour: 18-52 % (conservative to advanced); moderate 37%. [source](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage)
 
+**Reference plants:**
+- Edwards & Sanborn Solar + Energy Storage project, Kern County, California (Terra-Gen), US: about USD 2 bn project: 875 MW solar PV with 3,287 MWh of lithium-ion battery storage (about 1,300 MW discharge); largest of its kind when completed; first phases from 2021, full operation 2023; operating. [source](https://centralcalifornia.org/solar-energy-project-extending-onto-edwards-air-force-base-becomes-kerns-largest-2)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Lithium-ion storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - $/kWh and $/kW installed cost with dollar year (costs): The ATB page lists cost only in charts. Where: NREL ATB 2024 data download (catalog: nrel, open). Next: Add base-year system cost with dollar year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage). Last reviewed 2026-10-28.
 
 ## Mobile gas turbine power plants
 <a id="pwr-mobile-gas-turbine-plants"></a>
@@ -624,13 +632,13 @@ flowchart LR
 **Reference plants:**
 - 38 TM2500 units across Algeria, Algeria: 38 units; operating; fleet of more than 350 units installed worldwide. [source](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500)
 - SAPN bridge power, South Australia, Australia: 276 MW; APR Energy rapid deployment reference. [source](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/)
+- GE TM2500 mobile power for remote Indonesia, ID: TM2500 mobile generators on two-trailer assemblies, more than 25 MW per unit, delivering electricity to Indonesia's remote areas (2016); operating. [source](https://jakartaglobe.id/context/ges-power-plant-wheels-delivers-electricity-indonesias-remote-areas)
 
 **Missing inputs:**
-- capital cost per kW and rental day rate, with dollar year and basis (costs): No open source read so far gives costs for mobile gas turbine packages. Where: arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity (catalog: arxiv, open); Vendor quotations and cost databases; paid sources are catalog-only (paid); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- reference deployment with capacity in Southeast Asia (reference_plants): The pages read name Algeria, Australia, the Caribbean and the USA but no Southeast Asian deployment. Where: GE Vernova and APR Energy reference lists and trade press (Power Magazine, Gas Turbine World) (open). Next: Add a Southeast Asian reference with capacity and year.
+- capital cost per kW and rental day rate, with dollar year and basis (costs): No open source read so far gives costs for mobile gas turbine packages. Web-checked 2026-10-28; rental day rates are quote-only (osti corpus checked, abstracts only). Where: arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity (catalog: arxiv, open); Vendor quotations and cost databases; paid sources are catalog-only (paid); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - deployment sequence is general engineering practice, not taken from one source (process): The vendor pages give timings but not a step-by-step deployment flow. Where: Vendor installation manuals or trade press deployment reports (open). Next: Check the steps against a named source.
 
-Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500), [2](https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/), [3](https://www.proenergyservices.com/solutions/manufactured-equipment/package/), [4](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/), [5](https://www.powermag.com/press-releases/siemens-new-44-megawatt-aeroderivative-gas-turbine-for-mobile-power-generation), [6](https://www.siemens-energy.com/global/en/home/products-services/product-offerings/gas-turbines.html). Last reviewed 2026-10-26.
+Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500), [2](https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/), [3](https://www.proenergyservices.com/solutions/manufactured-equipment/package/), [4](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/), [5](https://www.powermag.com/press-releases/siemens-new-44-megawatt-aeroderivative-gas-turbine-for-mobile-power-generation), [6](https://www.siemens-energy.com/global/en/home/products-services/product-offerings/gas-turbines.html). Last reviewed 2026-10-28.
 
 ## Modular ORC units for waste heat and small geothermal
 <a id="pwr-modular-orc-units"></a>
@@ -664,12 +672,12 @@ flowchart LR
 - Fervo Energy geothermal order, USA: 300 MWe (largest project named); Turboden homepage names a 300 MWe supply for Fervo Energy. [source](https://www.turboden.com/)
 
 **Missing inputs:**
-- installed cost per kW for a modular ORC unit, with dollar year and basis (costs): Vendor pages read do not publish prices. Where: arXiv and open-access journals: ORC waste-heat techno-economic reviews (catalog: arxiv, open); IEA and IRENA renewable cost databases (open); MDPI Energies ORC reviews; www.mdpi.com is CDN-blocked, use the manual inbox (catalog: mdpi-energies, blocked). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide was not re-checked for ORC entries. Where: IEA ETP Clean Energy Technology Guide (collected): search for organic Rankine cycle (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
-- modular ORC installation in Southeast Asia (reference_plants): References read are European and North American. Where: Turboden and Exergy reference lists: Indonesian geothermal fields are their natural market (open). Next: Add a Southeast Asian (ideally Indonesian geothermal) reference with capacity and year.
+- installed cost per kW for a modular ORC unit, with dollar year and basis (costs): Vendor pages read do not publish prices. Web-checked 2026-10-28; unit prices are quote-only. Where: arXiv and open-access journals: ORC waste-heat techno-economic reviews (catalog: arxiv, open); IEA and IRENA renewable cost databases (open); MDPI Energies ORC reviews; www.mdpi.com is CDN-blocked, use the manual inbox (catalog: mdpi-energies, blocked). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide was not re-checked for ORC entries. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for organic Rankine cycle (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
+- modular ORC installation in Southeast Asia (reference_plants): References read are European and North American. Web-checked 2026-10-28 (Indonesian geothermal ORC search hit an MCP error; no verifiable named SEA ORC package found on open pages before the error). Where: Turboden and Exergy reference lists: Indonesian geothermal fields are their natural market (open). Next: Add a Southeast Asian (ideally Indonesian geothermal) reference with capacity and year.
 - ORC cycle steps are textbook standard (process): The cycle description follows standard ORC engineering practice rather than one named source. Where: A licensor page or review paper describing the ORC process step by step (open). Next: Check the steps against a named source and cite it.
 
-Sources: [1](https://climeon.com/heatpower-300-technology/), [2](https://climeon.com/references/), [3](https://www.enogia.com/orc), [4](https://exergyint.com/orc/), [5](https://exergyint.com/radial-outflow-turbine/), [6](https://www.turboden.com/), [7](https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89), [8](https://electratherm.com/products/). Last reviewed 2026-10-26.
+Sources: [1](https://climeon.com/heatpower-300-technology/), [2](https://climeon.com/references/), [3](https://www.enogia.com/orc), [4](https://exergyint.com/orc/), [5](https://exergyint.com/radial-outflow-turbine/), [6](https://www.turboden.com/), [7](https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89), [8](https://electratherm.com/products/). Last reviewed 2026-10-28.
 
 ## Modular reciprocating engine power plants
 <a id="pwr-modular-engine-plants"></a>
@@ -706,7 +714,7 @@ flowchart LR
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide was not re-checked for this entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for reciprocating engine power plants (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
 - deployment sequence is generalised from vendor descriptions (process): Wärtsilä's page describes the Modular Block assembly; the full flow is standard practice, not one named source. Where: Vendor EPC brochures or an engineering contractor's project description (open). Next: Check the steps against a named EPC or licensor description.
 
-Sources: [1](https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block), [2](https://www.wartsila.com/media/news/13-06-2019-wartsila-launches-modular-solution-for-providing-ready-to-go-power-plants-3086905), [3](https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf), [4](https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html), [5](https://www.everllence.com/energy/solutions/thermal-power/baseload/), [6](https://www.jenbacher.com/en/energy-solutions/containerized-solutions/). Last reviewed 2026-10-26.
+Sources: [1](https://www.wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block), [2](https://www.wartsila.com/media/news/13-06-2019-wartsila-launches-modular-solution-for-providing-ready-to-go-power-plants-3086905), [3](https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf), [4](https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html), [5](https://www.everllence.com/energy/solutions/thermal-power/baseload/), [6](https://www.jenbacher.com/en/energy-solutions/containerized-solutions/). Last reviewed 2026-10-28.
 
 ## Offshore wind (fixed bottom)
 <a id="pwr-offshore-wind-fixed"></a>
@@ -728,14 +736,16 @@ flowchart LR
 - representative turbine rating: 12 MW; 216 m rotor, 137 m hub height, base year. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
 - capex learning rate, fixed bottom: 6.3-11.2 % per doubling; conservative to advanced scenario. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
 
+**Reference plants:**
+- Hornsea 2 offshore wind farm, UK North Sea (Orsted), GB: 1.3 GW (165 turbines x 8 MW), world's largest offshore wind farm at full commissioning on 31 Aug 2022; powers about 1.4 million UK homes; operating. [source](https://offshorewind.biz/2022/08/31/worlds-largest-offshore-wind-farm-goes-into-operation)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Seabed fixed offshore wind turbine' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - installed cost $/kW and capacity factor with dollar year (costs): The ATB page shows year-specific values only in interactive charts. Where: NREL ATB 2024 data download (catalog: nrel, open); IRENA Renewable Power Generation Costs (catalog: irena, open). Next: Download the ATB dataset and record the 2022 base cost with its dollar year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind). Last reviewed 2026-10-28.
 
 ## Onshore wind
 <a id="pwr-onshore-wind"></a>
@@ -753,15 +763,17 @@ flowchart LR
 
 **Key equipment:** rotor, nacelle with generator, tower, converter, foundation.
 
+**Costs:**
+- global weighted-average utility-scale onshore wind cost: 1210 USD/kW installed (2018), average LCOE 0.056 USD/kWh (2018$); IRENA, Renewable Power Generation Costs in 2018: utility-scale onshore wind installed costs fell 13% to USD 1,210/kW in 2018 (2018 USD); weighted-average LCOE USD 0.056/kWh. [source](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Onshore wind' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - turbine ratings, capacity factors and installed cost with dollar year (performance): The DOE land-based wind market report page returned an error and the NREL ATB land-based wind page is blocked by robots.txt. Where: [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/land-based-wind-market-reports-2025-edition) (open); IRENA Renewable Power Generation Costs (catalog: irena, open). Next: Fetch a reachable edition and add figures with their year.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous technology, no single verifiable deployment added (Gobi/Mongolia farms exist but were not this pass). Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-25.
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf). Last reviewed 2026-10-28.
 
 ## Powerships and power barges
 <a id="pwr-powerships-power-barges"></a>
@@ -1034,16 +1046,18 @@ flowchart LR
 **Performance:**
 - hydrogen blend at IPP Renewed start-up: 30 % hydrogen with natural gas; two M501JAC, about 840 MW; 100% hydrogen target by 2045. [source](https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah)
 - 7HA hydrogen capability: 50 % hydrogen (vendor claim); pathway stated to 100%. [source](https://www.gevernova.com/gas-power/products/gas-turbines/7ha)
+- 30% hydrogen co-firing combustion results, JAC gas turbine at T-Point 2 (grid-connected validation): 30 % hydrogen by volume in the fuel (demonstrated); Mitsubishi Power, 30 Nov 2023: world's first operation of an advanced-class gas turbine with 30% hydrogen co-firing at the grid-connected T-Point 2 validation plant, Takasago; low NOx and stable combustion achieved (manufacturer-reported); a numeric NOx ppm value was not stated in the open release. [source](https://power.mhi.com/news/231130.html)
+
+**Reference plants:**
+- T-Point 2 validation plant with Takasago Hydrogen Park, Japan (Mitsubishi Power), JP: JAC advanced-class gas turbine validated in commercial configuration; world's first grid-connected 30% hydrogen co-firing demonstration (Nov 2023); Takasago Hydrogen Park supplies on-site hydrogen across the value chain; operating. [source](https://power.mhi.com/news/231130.html)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'H₂ blending in natural gas turbine' 9 (2025); 'Pure h₂ gas turbine' 8 (2025); 'Co-firing of ammonia in gas turbines' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- cost of hydrogen-ready turbine and conversion (costs): None of the pages read gives a cost. Where: Mitsubishi Power and GE Vernova project announcements (open). Next: Add conversion cost with a dollar year if a project disclosure exists.
-- NOx emissions at high hydrogen share (performance): The Takasago article says only 'low NOx' without numbers. Where: Mitsubishi Heavy Industries technical review (catalog: mitsubishi-heavy, open). Next: Add measured NOx against hydrogen share.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- cost of hydrogen-ready turbine and conversion (costs): None of the pages read gives a cost. Web-checked 2026-10-28; OEM premium/conversion prices are quote-only. Where: Mitsubishi Power and GE Vernova project announcements (open). Next: Add conversion cost with a dollar year if a project disclosure exists.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah), [2](https://www.power-eng.com/hydrogen/mitsubishi-power-highlights-four-hydrogen-projects/), [3](https://www.turbomachinerymag.com/view/mitsubishi-power-executes-30-hydrogen-fuel-blend-in-jac-gas-turbine), [4](https://www.gevernova.com/gas-power/products/gas-turbines/7ha). Last reviewed 2026-10-25.
+Sources: [1](https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah), [2](https://www.power-eng.com/hydrogen/mitsubishi-power-highlights-four-hydrogen-projects/), [3](https://www.turbomachinerymag.com/view/mitsubishi-power-executes-30-hydrogen-fuel-blend-in-jac-gas-turbine), [4](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [5](https://power.mhi.com/news/231130.html). Last reviewed 2026-10-28.
 
 ## Microreactors (transportable nuclear)
 <a id="pwr-microreactors"></a>

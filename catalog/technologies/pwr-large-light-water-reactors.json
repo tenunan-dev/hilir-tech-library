@@ -114,37 +114,14 @@
     {
       "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors",
       "note": "World Nuclear Association, Nuclear power reactors, updated 5 August 2026"
+    },
+    {
+      "url": "https://gulfbusiness.com/en/2016/energy/uaes-nuclear-power-project-raises-24-4bn-financing",
+      "note": "Gulf Business, UAE nuclear project raises $24.4bn, 23 Oct 2016"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "overnight cost per kW and build time with dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The WNA page gives neither.",
-      "where": [
-        {
-          "hint": "IEA or NEA nuclear cost studies",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Add recent project costs with year."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -157,6 +134,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Barakah Nuclear Energy Plant, UAE (ENEC/NAWAH)",
+      "country": "AE",
+      "capacity": "four APR1400 units, 5.6 GW total, about 25% of UAE electricity; construction from 2012; Unit 4 grid-connected March 2024; ~40 TWh/yr",
+      "status": "operating",
+      "source": {
+        "url": "https://www.world-nuclear-news.org/articles/barakah-4-landmark-announced-as-world-nuclear-symp",
+        "note": "World Nuclear News, 5 Sep 2024 (5,600 MW total, ~25% of UAE electricity); energyconnects 25 Mar 2024 (Unit 4 grid connection); read 2026-10-28"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Barakah four-unit plant cost (financing basis) and build time",
+      "low": 4360,
+      "high": 4360,
+      "unit": "USD/kW derived (USD 24.4 bn for 5.6 GW); build time 12 years (2012-2024)",
+      "year": 2016,
+      "basis": "derived: \"The UAE's nuclear energy project has completed a $24.4bn [financing]... four 1,400 megawatt nuclear reactors\" (Gulf Business, Oct 2016); 24.4e9 / 5.6e6 = 4,357 USD/kW. Financing-basis figure, not a settled overnight cost; construction ran 2012 to Unit-4 grid connection in March 2024",
+      "source": {
+        "url": "https://gulfbusiness.com/en/2016/energy/uaes-nuclear-power-project-raises-24-4bn-financing",
+        "note": "Gulf Business, 23 Oct 2016 (read 2026-10-28)"
+      }
     }
   ]
 }

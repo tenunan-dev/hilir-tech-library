@@ -238,13 +238,13 @@
       "note": "ElectraTherm products page, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-26",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "installed cost per kW for a modular ORC unit, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor pages read do not publish prices.",
+      "reason": "Vendor pages read do not publish prices. Web-checked 2026-10-28; unit prices are quote-only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: ORC waste-heat techno-economic reviews",
@@ -267,7 +267,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide was not re-checked for ORC entries.",
+      "reason": "The IEA ETP Clean Energy Technology Guide was not re-checked for ORC entries. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for organic Rankine cycle",
@@ -281,7 +281,7 @@
       "field": "reference_plants",
       "item": "modular ORC installation in Southeast Asia",
       "reason_code": "not_in_sources_read",
-      "reason": "References read are European and North American.",
+      "reason": "References read are European and North American. Web-checked 2026-10-28 (Indonesian geothermal ORC search hit an MCP error; no verifiable named SEA ORC package found on open pages before the error).",
       "where": [
         {
           "hint": "Turboden and Exergy reference lists: Indonesian geothermal fields are their natural market",

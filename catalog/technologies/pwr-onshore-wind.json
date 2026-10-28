@@ -92,9 +92,13 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, TRL for onshore wind"
+    },
+    {
+      "url": "https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf",
+      "note": "IRENA Renewable Power Generation Costs in 2018 (PDF mirror)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
@@ -116,33 +120,10 @@
       "action": "Fetch a reachable edition and add figures with their year."
     },
     {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous technology, no single verifiable deployment added (Gobi/Mongolia farms exist but were not this pass).",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -163,6 +144,21 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "global weighted-average utility-scale onshore wind cost",
+      "low": 1210,
+      "high": 1210,
+      "unit": "USD/kW installed (2018), average LCOE 0.056 USD/kWh",
+      "year": 2018,
+      "basis": "IRENA, Renewable Power Generation Costs in 2018: utility-scale onshore wind installed costs fell 13% to USD 1,210/kW in 2018 (2018 USD); weighted-average LCOE USD 0.056/kWh",
+      "source": {
+        "url": "https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf",
+        "source_id": "irena",
+        "note": "IRENA, Renewable Power Generation Costs in 2018 (report PDF mirror, 29 May 2019) (read 2026-10-28)"
+      }
     }
   ]
 }
