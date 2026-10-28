@@ -117,6 +117,16 @@
         "source_id": "petronas-tech",
         "note": "PETRONAS press release, 25 March 2021"
       }
+    },
+    {
+      "name": "PFLNG Satu, Kanowit gas field, offshore Sarawak (PETRONAS)",
+      "country": "MY",
+      "capacity": "world's first operational floating LNG vessel: 360 m long, 1.2 Mtpa; first gas November 2016 at Kanowit, 180 km offshore Bintulu; 50th cargo delivered by October 2021",
+      "status": "operating",
+      "source": {
+        "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+        "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
+      }
     }
   ],
   "advantages": [
@@ -140,13 +150,13 @@
       "note": "PETRONAS press release, 25 March 2021"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "trl",
       "item": "TRL range with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry.",
+      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
@@ -159,7 +169,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources.",
+      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
@@ -186,7 +196,7 @@
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
+      "reason": "No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",
@@ -204,20 +214,6 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "PFLNG SATU capacity",
-      "reason_code": "not_in_sources_read",
-      "reason": "The PETRONAS release read does not state SATU's capacity.",
-      "where": [
-        {
-          "hint": "PETRONAS press releases on PFLNG SATU (2016)",
-          "source_id": "petronas-tech",
-          "access": "open"
-        }
-      ],
-      "action": "Add capacity with source."
     }
   ]
 }

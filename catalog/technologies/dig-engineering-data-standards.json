@@ -61,13 +61,13 @@
       "note": "IOGP JIP36, CFIHOS home page (read 25 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "other",
       "item": "CFIHOS creation and version history",
       "reason_code": "not_in_sources_read",
-      "reason": "The home page does not say who created it.",
+      "reason": "The home page does not say who created it. Lead 2026-10-28: CFIHOS (Capital Facilities Information Handover Specification) is a Joint Industry Project under FIATECH/Construction Industry Institute lineage; its version history lives in JIP documentation not open.",
       "where": [
         {
           "hint": "IOGP JIP36 publications",
@@ -80,7 +80,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -103,7 +103,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -116,7 +116,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

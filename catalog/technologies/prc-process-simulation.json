@@ -57,7 +57,28 @@
     "dynamic simulation engine",
     "operator training simulator"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "AspenTech",
+      "product": "Aspen HYSYS and Aspen Plus steady-state and dynamic simulation",
+      "url": "https://www.aspentech.com"
+    },
+    {
+      "name": "Honeywell",
+      "product": "UniSim Design process simulation",
+      "url": "https://process.honeywell.com"
+    },
+    {
+      "name": "Siemens (PSE)",
+      "product": "gPROMS high-fidelity process modelling",
+      "url": "https://www.siemens.com"
+    },
+    {
+      "name": "AVEVA",
+      "product": "AVEVA PRO/II process simulation",
+      "url": "https://www.aveva.com"
+    }
+  ],
   "advantages": [
     "One model supports design, optimisation, training and control work"
   ],
@@ -72,26 +93,13 @@
       "note": "Wikipedia, Process simulation, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "simulation software vendors and the products they supply",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Wikipedia page names no simulation products or vendors.",
-      "where": [
-        {
-          "hint": "Vendor pages for commercial process simulators",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
     {
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
+      "reason": "No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",
@@ -114,7 +122,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -137,7 +145,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -150,7 +158,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

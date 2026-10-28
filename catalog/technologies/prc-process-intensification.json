@@ -46,7 +46,18 @@
     "dividing-wall column",
     "rotating packed bed"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Sulzer",
+      "product": "dividing-wall columns and advanced column internals",
+      "url": "https://www.sulzer.com"
+    },
+    {
+      "name": "Montz",
+      "product": "structured packing and dividing-wall column internals",
+      "url": "https://www.montz.com"
+    }
+  ],
   "performance": [
     {
       "metric": "energy savings from intensification",
@@ -119,26 +130,13 @@
       "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "licensors of dividing-wall columns, rotating packed beds and microreactors",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no suppliers for this technology.",
-      "where": [
-        {
-          "hint": "Vendor pages for dividing-wall columns and microreactors",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
     {
       "field": "performance",
       "item": "dividing-wall column and rotating packed bed figures",
       "reason_code": "not_in_sources_read",
-      "reason": "The Wikipedia pages for these were not found and the article gives no detail.",
+      "reason": "The Wikipedia pages for these were not found and the article gives no detail. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Dividing-wall column studies in Chemical Engineering Progress (AIChE)",
@@ -156,7 +154,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

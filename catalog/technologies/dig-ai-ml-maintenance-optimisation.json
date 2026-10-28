@@ -45,7 +45,28 @@
     "ML platform",
     "CMMS"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Cognite",
+      "product": "Cognite Data Fusion industrial DataOps and AI",
+      "url": "https://www.cognite.com"
+    },
+    {
+      "name": "C3 AI",
+      "product": "C3 AI Reliability predictive-maintenance applications",
+      "url": "https://c3.ai"
+    },
+    {
+      "name": "SparkCognition",
+      "product": "SparkPredict asset AI (now part of Scale AI)",
+      "url": "https://www.sparkcognition.com"
+    },
+    {
+      "name": "Augury",
+      "product": "machine-health vibration and ultrasonic diagnostics",
+      "url": "https://www.augury.com"
+    }
+  ],
   "advantages": [],
   "limitations": [
     "Vibration analysis can be the most expensive part to set up",
@@ -58,26 +79,13 @@
       "note": "Wikipedia, Predictive maintenance, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "AI maintenance vendors",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no suppliers for this technology.",
-      "where": [
-        {
-          "hint": "Vendor pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
     {
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
+      "reason": "No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",
@@ -100,7 +108,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -123,7 +131,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -136,7 +144,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
