@@ -1,0 +1,20 @@
+{
+  "id": "heatric",
+  "name": "Heatric (Parker Hannifin)",
+  "country": "United Kingdom",
+  "roles": [
+    "oem"
+  ],
+  "description": "Dorset-based maker of diffusion-bonded printed-circuit heat exchangers (PCHE).",
+  "technologies": [
+    "rot-heat-exchangers"
+  ],
+  "url": "https://www.heatric.com",
+  "sources": [
+    {
+      "url": "https://www.heatric.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

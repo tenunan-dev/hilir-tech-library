@@ -16,5 +16,8 @@
       "note": "Vendor site, read 2026-10-28"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Hamon"
+  ]
 }

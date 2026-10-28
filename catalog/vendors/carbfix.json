@@ -1,0 +1,21 @@
+{
+  "id": "carbfix",
+  "name": "Carbfix",
+  "country": "Iceland",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Icelandic company injecting CO2 dissolved in water into basalt formations, mineralising it in under two years (Reykjanes and Hellisheidi sites).",
+  "technologies": [
+    "ccs-in-situ-mineralisation"
+  ],
+  "url": "https://www.carbfix.com",
+  "sources": [
+    {
+      "url": "https://www.carbfix.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

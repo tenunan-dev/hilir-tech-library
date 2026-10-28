@@ -1,0 +1,21 @@
+{
+  "id": "climeworks",
+  "name": "Climeworks",
+  "country": "Switzerland",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Swiss direct-air-capture pioneer operating the Orca and Mammoth solid-sorbent plants in Iceland with Carbfix mineral storage.",
+  "technologies": [
+    "ccs-dac-solid-sorbent"
+  ],
+  "url": "https://climeworks.com",
+  "sources": [
+    {
+      "url": "https://climeworks.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

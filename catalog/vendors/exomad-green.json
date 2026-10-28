@@ -1,0 +1,20 @@
+{
+  "id": "exomad-green",
+  "name": "Exomad Green",
+  "country": "Bolivia",
+  "roles": [
+    "oem"
+  ],
+  "description": "Bolivian biochar producer (Concepcion and Guarayos plants), among the world's largest carbon-removal suppliers.",
+  "technologies": [
+    "ccs-biochar"
+  ],
+  "url": "https://www.exomadgreen.com",
+  "sources": [
+    {
+      "url": "https://www.exomadgreen.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

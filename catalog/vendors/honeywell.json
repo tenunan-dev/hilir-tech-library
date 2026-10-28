@@ -1,0 +1,27 @@
+{
+  "id": "honeywell",
+  "name": "Honeywell",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "integrator"
+  ],
+  "description": "US automation major: Experion DCS, Safety Manager SIS, OneWireless and process-analysis portfolios.",
+  "technologies": [
+    "ins-apc-mpc",
+    "ins-dcs-scada",
+    "ins-ot-cybersecurity",
+    "ins-safety-instrumented-systems",
+    "dig-iiot-wireless-sensors",
+    "ref-apc-rto",
+    "prc-process-simulation"
+  ],
+  "url": "https://www.honeywell.com",
+  "sources": [
+    {
+      "url": "https://www.honeywell.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

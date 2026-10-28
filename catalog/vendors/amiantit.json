@@ -1,0 +1,20 @@
+{
+  "id": "amiantit",
+  "name": "Amiantit",
+  "country": "Saudi Arabia",
+  "roles": [
+    "oem"
+  ],
+  "description": "Saudi FRP pipe and tank manufacturer with global licencees.",
+  "technologies": [
+    "mat-nonmetallic-composite"
+  ],
+  "url": "https://www.amiantit.com",
+  "sources": [
+    {
+      "url": "https://www.amiantit.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mco-i",
+  "name": "Mitsubishi Heavy Industries Compressor (MCO-I)",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "MHI's compressor business with an API 617 performance test stand in Houston.",
+  "technologies": [
+    "rot-centrifugal-axial-compressors"
+  ],
+  "url": "https://www.mhi.com",
+  "sources": [
+    {
+      "url": "https://www.mhi.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Mitsubishi Heavy Industries (MCO-I)",
+    "MCO-I"
+  ]
+}

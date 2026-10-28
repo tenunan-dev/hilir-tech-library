@@ -1,0 +1,26 @@
+{
+  "id": "yokogawa",
+  "name": "Yokogawa Electric",
+  "country": "Japan",
+  "roles": [
+    "oem",
+    "integrator"
+  ],
+  "description": "Japanese measurement, control and information company: CENTUM DCS, ProSafe-RS SIS, Exaquantum/Exaplog APC and analyzers.",
+  "technologies": [
+    "ins-apc-mpc",
+    "ins-dcs-scada",
+    "ins-safety-instrumented-systems",
+    "dig-iiot-wireless-sensors",
+    "ref-apc-rto",
+    "prc-process-simulation"
+  ],
+  "url": "https://www.yokogawa.com",
+  "sources": [
+    {
+      "url": "https://www.yokogawa.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

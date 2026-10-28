@@ -1,0 +1,20 @@
+{
+  "id": "ksb",
+  "name": "KSB",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "German pump and valve manufacturer with API 610 process-pump lines.",
+  "technologies": [
+    "rot-pumps"
+  ],
+  "url": "https://www.ksb.com",
+  "sources": [
+    {
+      "url": "https://www.ksb.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

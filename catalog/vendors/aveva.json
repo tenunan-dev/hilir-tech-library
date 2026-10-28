@@ -1,0 +1,21 @@
+{
+  "id": "aveva",
+  "name": "AVEVA",
+  "country": "United Kingdom",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Cambridge industrial software company (Schneider-owned): PRO/II simulation, PI System data infrastructure and asset performance.",
+  "technologies": [
+    "ref-process-simulation-digital-twin",
+    "prc-process-simulation"
+  ],
+  "url": "https://www.aveva.com",
+  "sources": [
+    {
+      "url": "https://www.aveva.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

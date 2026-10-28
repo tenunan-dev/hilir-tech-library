@@ -1,0 +1,23 @@
+{
+  "id": "ge-digital",
+  "name": "GE Digital (Meridium)",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "GE's asset-performance-management software business (Meridium APM) for risk-based inspection.",
+  "technologies": [
+    "mat-rbi-integrity"
+  ],
+  "url": "https://www.ge.com/digital",
+  "sources": [
+    {
+      "url": "https://www.ge.com/digital",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Meridium"
+  ]
+}

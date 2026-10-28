@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-350 vendor records covering 238 technologies. One record per vendor in
+378 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -11,10 +11,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [ADM (Archer-Daniels-Midland)](https://www.adm.com) | USA | operator | Bioenergy with CCS (BECCS) |
 | [Atlas Copco](https://www.atlascopco.com) | Sweden | oem | CO2 compression and dehydration |
 | [Blue Planet Systems](https://www.blueplanetsystems.com) | USA | developer | CO2 to concrete and aggregates |
+| [Carbfix](https://www.carbfix.com) | Iceland | developer, operator | CO2 mineralisation (in-situ basalt) |
 | [Carbon Engineering (1PointFive, Occidental)](https://carbonengineering.com) | Canada | developer | Direct air capture with liquid solvent (KOH and calcium loop) |
 | [Carbon Recycling International](https://carbonrecycling.com) | Iceland | operator | CO2 to methanol and fuels |
+| [CarbonCure Technologies](https://www.carboncure.com) | Canada | oem | CO2 to concrete and aggregates |
+| [Climeworks](https://climeworks.com) | Switzerland | developer, operator | Direct air capture with solid sorbent |
 | [Covestro](https://www.covestro.com) | Germany | oem | CO2 to urea and polymers |
 | [Drax Group](https://www.drax.com) | United Kingdom | operator, developer | Bioenergy with CCS (BECCS) |
+| [Exomad Green](https://www.exomadgreen.com) | Bolivia | oem | Biochar |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Molten carbonate fuel cell capture |
 | [Fluor](https://www.fluor.com) | USA | epc, licensor | Amine solvent post-combustion capture |
 | [FuelCell Energy](https://fuelcellenergy.com) | USA | oem | Molten carbonate fuel cell capture |
@@ -39,16 +43,19 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Amazon Web Services](https://aws.amazon.com) | USA | supplier | Subsurface data platforms (OSDU) |
+| [Augury](https://www.augury.com) | Israel | supplier | AI and machine learning for maintenance and optimisation |
+| [C3 AI](https://c3.ai) | USA | supplier | AI and machine learning for maintenance and optimisation |
 | [Google Cloud Platform](https://cloud.google.com) | USA | supplier | Subsurface data platforms (OSDU) |
+| [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Industrial IoT and wireless sensors |
 | [IBM / Red Hat OpenShift](https://www.ibm.com) | USA | supplier | Subsurface data platforms (OSDU) |
 | [Microsoft Azure](https://azure.microsoft.com) | USA | supplier | Subsurface data platforms (OSDU) |
 | [SparkCognition](https://www.sparkcognition.com) | USA | supplier | AI and machine learning for maintenance and optimisation |
+| [Yokogawa Electric](https://www.yokogawa.com) | Japan | oem, integrator | Industrial IoT and wireless sensors |
 
 ## GAS: Gas processing and LNG
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
-| [Axens](https://www.axens.net) | France | licensor, supplier | Amine acid gas removal (MDEA, formulated amines); Molecular sieve and glycol dehydration; Liquid redox sulfur recovery (LO-CAT); Mercury removal units; Sulfur recovery (Claus, tail gas treating, SuperClaus) |
 | [Bechtel](https://www.bechtel.com) | USA | epc | Cascade liquefaction |
 | [Black & Veatch](https://www.bv.com) | USA | epc | Small and mid-scale modular LNG |
 | [Chart Industries](https://www.chartindustries.com) | USA | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers); Small and mid-scale modular LNG |
@@ -151,10 +158,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [Claroty](https://claroty.com) | USA | supplier | OT cybersecurity |
+| [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Advanced process control and model predictive control; Distributed control systems and SCADA; OT cybersecurity; Safety instrumented systems |
 | [Inductive Automation](https://inductiveautomation.com) | USA | oem | Distributed control systems and SCADA |
 | [MathWorks](https://www.mathworks.com) | USA | supplier | Advanced process control and model predictive control |
+| [Nozomi Networks](https://www.nozominetworks.com) | USA | supplier | OT cybersecurity |
 | [Rockwell Automation](https://www.rockwellautomation.com) | USA | oem | Distributed control systems and SCADA |
 | [Servomex](https://www.servomex.com) | United Kingdom | oem | Process analysers (gas chromatographs, laser spectroscopy) |
+| [Yokogawa Electric](https://www.yokogawa.com) | Japan | oem, integrator | Advanced process control and model predictive control; Distributed control systems and SCADA; Safety instrumented systems |
 
 ## MAT: Materials and integrity
 
@@ -163,10 +174,19 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [3M](https://www.3m.com) | USA | supplier | Coatings and linings |
 | [AkzoNobel](https://www.akzonobel.com) | Netherlands | supplier | Coatings and linings |
 | [Alleima](https://www.alleima.com) | Sweden | oem | Corrosion-resistant alloys and clad pipe |
+| [Amiantit](https://www.amiantit.com) | Saudi Arabia | oem | Non-metallic and composite equipment |
 | [Avestec Technologies](https://www.avestec.com) | Canada | service | Drones and robotics for inspection |
 | [Axalta Coating Systems](https://www.axalta.us) | USA | supplier | Coatings and linings |
+| [Butting](https://www.butting.com) | Germany | oem | Corrosion-resistant alloys and clad pipe |
+| [DNV](https://www.dnv.com) | Norway | supplier, service | Risk-based inspection and integrity management |
+| [Eddyfi Technologies](https://www.eddyfi.com) | Canada | oem | Non-destructive testing (UT, PAUT, radiography, eddy current) |
+| [Evident (Olympus)](https://www.evidentscientific.com) | Japan | oem | Non-destructive testing (UT, PAUT, radiography, eddy current) |
+| [Future Pipe Industries](https://www.futurepipe.com) | United Arab Emirates | oem | Non-metallic and composite equipment |
+| [GE Digital (Meridium)](https://www.ge.com/digital) | USA | supplier | Risk-based inspection and integrity management |
 | [Jotun Powder Coatings](https://www.jotun.com) | Norway | supplier | Coatings and linings |
 | [Sherwin-Williams](https://www.sherwin-williams.com) | USA | supplier | Coatings and linings |
+| [Terra Drone Indonesia](https://terra-drone.co.id) | Indonesia | service | Drones and robotics for inspection |
+| [Waygate Technologies (Baker Hughes)](https://www.waygate.com) | USA | oem | Non-destructive testing (UT, PAUT, radiography, eddy current) |
 
 ## MID: Midstream
 
@@ -205,7 +225,6 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Agilyx](https://agilyx.com) | USA | developer, supplier | Plastics pyrolysis (chemical recycling) |
-| [Axens](https://www.axens.net) | France | licensor, supplier | Aromatics complexes (paraxylene, benzene); Linear alpha olefins; Paraxylene adsorption and crystallisation |
 | [Borealis](https://www.borealisgroup.com) | Austria | operator | Polyethylene (gas phase, slurry, solution) |
 | [Braskem](https://www.braskem.com) | Brazil | operator | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
 | [Carbios](https://www.carbios.com) | France | developer | Depolymerisation of PET (glycolysis, enzymatic) |
@@ -243,10 +262,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [AVEVA](https://www.aveva.com) | United Kingdom | supplier | Steady-state and dynamic process simulation |
 | [CanmetENERGY](https://www.nrcan.gc.ca) | Canada | developer | Pinch analysis and heat integration |
 | [Fives ProSim](https://www.prosim.net) | France | supplier | Pinch analysis and heat integration |
+| [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Steady-state and dynamic process simulation |
+| [Montz](https://www.montz.com) | Netherlands | oem | Process intensification (rotating packed beds, dividing-wall columns, microreactors) |
 | [Pinchco](https://pinchco.com) | Norway | supplier | Pinch analysis and heat integration |
 | [TLK Energy](https://www.tlk-energy.com) | Germany | supplier | Pinch analysis and heat integration |
+| [Yokogawa Electric](https://www.yokogawa.com) | Japan | oem, integrator | Steady-state and dynamic process simulation |
 
 ## PWR: Power and renewables
 
@@ -328,7 +351,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
-| [Axens](https://www.axens.net) | France | licensor, supplier | Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Etherification (MTBE, ETBE, TAME); Fluid catalytic cracking and resid FCC; FCC gasoline post-treating (Prime-G+, SCANfining); Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Refinery-petrochemical integration (FCC propylene, HS-FCC); Resid hydrocracking (ebullated and slurry bed); Visbreaking and solvent deasphalting |
+| [AVEVA](https://www.aveva.com) | United Kingdom | supplier | Process simulation and digital twins |
+| [Axens](https://www.axens.net) | France | licensor, supplier | Catalytic reforming (CCR, semi-regenerative) |
 | [Bechtel](https://www.bechtel.com) | USA | epc | Sour water stripping and amine regeneration |
 | [Cameron (SLB)](https://www.slbcameron.com) | USA | oem | Crude and vacuum distillation with heat integration |
 | [Chevron Lummus Global](https://www.chevronlummus.com) | USA | licensor | Crude-to-chemicals complexes; Direct crude cracking; Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Resid hydrocracking (ebullated and slurry bed) |
@@ -336,6 +360,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Delayed coking and fluid coking; Direct crude cracking; FCC gasoline post-treating (Prime-G+, SCANfining); Refinery flue gas and FCC carbon capture |
 | [Gevo](https://gevo.com) | USA | oem | Alcohol-to-jet SAF |
 | [GTC Technology](https://gtctech.com) | USA | licensor | Isomerisation (C5/C6) |
+| [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Advanced process control and real-time optimisation |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Alcohol-to-jet SAF; Alkylation (HF, sulfuric, ionic liquid, solid acid); Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Fluid catalytic cracking and resid FCC; Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Mercaptan sweetening (Merox); Refinery-petrochemical integration (FCC propylene, HS-FCC) |
 | [KBC (Yokogawa)](https://www.kbc.global) | United Kingdom | supplier | Process simulation and digital twins |
 | [LanzaJet](https://www.lanzajet.com) | USA | licensor, developer | Alcohol-to-jet SAF |
@@ -343,6 +368,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Merichem](https://www.merichem.com) | USA | licensor | Mercaptan sweetening (Merox) |
 | [Saudi Aramco](https://www.aramco.com) | Saudi Arabia | operator, developer | Direct crude cracking; Refinery-petrochemical integration (FCC propylene, HS-FCC); Crude-to-chemicals complexes |
 | [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Wastewater treatment (API separators, DAF, biological, MBR) |
+| [Yokogawa Electric](https://www.yokogawa.com) | Japan | oem, integrator | Advanced process control and real-time optimisation |
 
 ## ROT: Rotating and static equipment
 
@@ -353,13 +379,20 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [ClearSign Technologies](https://clearsign.com) | USA | oem | Fired heaters and low-NOx burners |
 | [Dongfang Electric](https://www.dongfang.com) | China | oem | Steam turbines and expanders |
 | [Doosan Škoda Power](https://www.doosanskodapower.com) | Czech Republic | oem | Steam turbines and expanders |
+| [Elliott Group](https://www.elliott-turbo.com) | USA | oem | Centrifugal and axial compressors |
+| [Flowserve](https://www.flowserve.com) | USA | oem | Centrifugal and positive displacement pumps; Valves and actuators |
 | [Gallagher Fluid Seals](https://www.gallagherfluidseals.com) | USA | supplier | Mechanical seals, magnetic bearings and integrated motor-compressors |
 | [Hamon Group](https://www.hamongroup.com) | Belgium | oem | Air coolers and cooling towers |
 | [Hamworthy Peabody Combustion](https://www.johnzink.com) | United Kingdom | oem | Fired heaters and low-NOx burners |
+| [Heatric (Parker Hannifin)](https://www.heatric.com) | United Kingdom | oem | Shell-and-tube, plate and printed-circuit heat exchangers |
+| [ITT Goulds Pumps](https://www.gouldspumps.com) | USA | oem | Centrifugal and positive displacement pumps |
+| [KSB](https://www.ksb.com) | Germany | oem | Centrifugal and positive displacement pumps |
+| [Mitsubishi Heavy Industries Compressor (MCO-I)](https://www.mhi.com) | USA | oem | Centrifugal and axial compressors |
 | [Omniseal Solutions](https://www.omnisealsolutions.com) | Belgium | oem | Mechanical seals, magnetic bearings and integrated motor-compressors |
 | [Shanghai Electric](https://www.shanghai-electric.com) | China | oem | Steam turbines and expanders |
 | [SPX Cooling Technologies](https://spxcooling.com) | USA | oem | Air coolers and cooling towers |
 | [Sulzer](https://www.sulzer.com) | Switzerland | oem | Centrifugal and positive displacement pumps |
+| [Velan](https://www.velan.com) | Canada | oem | Valves and actuators |
 
 ## UPS: Upstream
 
@@ -444,18 +477,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).
 Adding a record for one of them is the next batch of this directory.
 
-- **CCS** (16): Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
-- **DIG** (5): Augury; C3 AI; Honeywell; IBM Red Hat OpenShift; Yokogawa
-- **GAS** (3): Air Liquide Engineering & Construction; RasGas / Qatargas (operators); Titan
-- **H2** (1): Ensyn
-- **INS** (4): Claroty; Honeywell; Nozomi Networks; Yokogawa
-- **MAT** (9): Amiantit; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
-- **MID** (4): Governments; PETRONAS Gas; ROSEN; Terminal operators
-- **PCH** (4): BASF, SABIC, Linde; CJ; Fraunhofer; Scientific Design
-- **PRC** (4): AVEVA; Honeywell; Montz; TLK-Energy
+- **CCS** (12): Blue Planet; CarbonCure; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
+- **DIG** (1): Yokogawa
+- **GAS** (1): RasGas / Qatargas (operators)
+- **INS** (1): Yokogawa
+- **MID** (2): Governments; Terminal operators
 - **PWR** (16): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy
-- **REF** (10): AVEVA; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel/Foster Wheeler (Amec); Chevron / Honeywell UOP; EPC contractors (process designed by refiner or contractor); Honeywell; Koch-Glitsch; Suez; Yokogawa
-- **ROT** (13): Alfa Laval; American Marsh; ClearSign; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Velan
+- **REF** (4): Axens/Technip Energies; EPC contractors (process designed by refiner or contractor); Koch-Glitsch; Yokogawa
+- **ROT** (2): Alfa Laval; Koch-Glitsch
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-259 of 299 cards list at least one directory vendor.
+269 of 299 cards list at least one directory vendor.

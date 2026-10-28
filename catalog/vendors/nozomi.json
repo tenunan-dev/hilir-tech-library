@@ -1,0 +1,20 @@
+{
+  "id": "nozomi",
+  "name": "Nozomi Networks",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "San Francisco OT/IoT security monitoring and anomaly-detection platform.",
+  "technologies": [
+    "ins-ot-cybersecurity"
+  ],
+  "url": "https://www.nozominetworks.com",
+  "sources": [
+    {
+      "url": "https://www.nozominetworks.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

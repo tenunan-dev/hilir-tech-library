@@ -1,0 +1,20 @@
+{
+  "id": "claroty",
+  "name": "Claroty",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "New York OT/IoT security company (Claroty xDome) for industrial network visibility.",
+  "technologies": [
+    "ins-ot-cybersecurity"
+  ],
+  "url": "https://claroty.com",
+  "sources": [
+    {
+      "url": "https://claroty.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

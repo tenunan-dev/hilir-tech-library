@@ -1,0 +1,21 @@
+{
+  "id": "flowserve",
+  "name": "Flowserve",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "US pump, valve and seal manufacturer supplying API 610 pumps and actuated valves.",
+  "technologies": [
+    "rot-pumps",
+    "rot-valves-actuators"
+  ],
+  "url": "https://www.flowserve.com",
+  "sources": [
+    {
+      "url": "https://www.flowserve.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

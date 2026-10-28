@@ -1,0 +1,20 @@
+{
+  "id": "waygate",
+  "name": "Waygate Technologies (Baker Hughes)",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Baker Hughes inspection-technology business (ex-GE inspection) for radiography and CT.",
+  "technologies": [
+    "mat-ndt"
+  ],
+  "url": "https://www.waygate.com",
+  "sources": [
+    {
+      "url": "https://www.waygate.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

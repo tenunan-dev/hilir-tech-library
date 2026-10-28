@@ -1,0 +1,20 @@
+{
+  "id": "itt-goulds",
+  "name": "ITT Goulds Pumps",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Goulds Pumps (ITT brand): API 610 process pumps with more than 20,000 units installed.",
+  "technologies": [
+    "rot-pumps"
+  ],
+  "url": "https://www.gouldspumps.com",
+  "sources": [
+    {
+      "url": "https://www.gouldspumps.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

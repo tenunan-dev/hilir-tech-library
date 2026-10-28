@@ -1,0 +1,20 @@
+{
+  "id": "eddyfi",
+  "name": "Eddyfi Technologies",
+  "country": "Canada",
+  "roles": [
+    "oem"
+  ],
+  "description": "Quebec advanced-NDT company (eddy current, UT) born from Creaform and TSC acquisitions.",
+  "technologies": [
+    "mat-ndt"
+  ],
+  "url": "https://www.eddyfi.com",
+  "sources": [
+    {
+      "url": "https://www.eddyfi.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dnv",
+  "name": "DNV",
+  "country": "Norway",
+  "roles": [
+    "supplier",
+    "service"
+  ],
+  "description": "Norwegian assurance and risk-management company: Synergi Plant RBI software, pipeline integrity and standards.",
+  "technologies": [
+    "mat-rbi-integrity"
+  ],
+  "url": "https://www.dnv.com",
+  "sources": [
+    {
+      "url": "https://www.dnv.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}
