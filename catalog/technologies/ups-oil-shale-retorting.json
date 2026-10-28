@@ -108,28 +108,19 @@
       "url": "https://en.wikipedia.org/wiki/Oil_shale",
       "source_id": "wikipedia",
       "note": "Wikipedia, Oil shale, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://public-docs.energia.ee/ettevottest/investorile/2023/EE-aastaaruanne-2023-ENG.pdf",
+      "note": "Eesti Energia annual report 2023 (read 2026-10-28)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "Enefit plant data",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not on the page.",
-      "where": [
-        {
-          "hint": "Enefit and VKG company pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add output and start-up year."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found (Eesti Energia reports state production, not retorting economics).",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -152,7 +143,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -174,6 +165,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Enefit shale-oil plants (Eesti Energia), Estonia",
+      "country": "EE",
+      "capacity": "group shale-oil production 475,000 t in 2023 (including the Enefit 280-2 oil plant), up 11.9% on 2022; record 411,000 t in 2018",
+      "status": "operating",
+      "source": {
+        "url": "https://public-docs.energia.ee/ettevottest/investorile/2023/EE-aastaaruanne-2023-ENG.pdf",
+        "note": "Eesti Energia annual report 2023 (p. on oil plants): \"We produced 475 thousand tonnes of shale oil in 2023\"; 2018 yearbook (energia.ee PDF, 2019): record 411,000 t; both read 2026-10-28"
+      }
     }
   ]
 }

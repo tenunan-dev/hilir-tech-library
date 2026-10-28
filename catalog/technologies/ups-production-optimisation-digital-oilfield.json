@@ -102,7 +102,7 @@
       "field": "performance",
       "item": "production uplift percentage with basis",
       "reason_code": "not_in_sources_read",
-      "reason": "Sources give no production figures.",
+      "reason": "Sources give no production figures. Web-checked 2026-10-28: no independently-published production-uplift percentage found (vendor case studies only).",
       "where": [
         {
           "hint": "IEA oil and gas net-zero report, digitalisation section",
@@ -116,7 +116,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -139,7 +139,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no named deployment with figures on open pages.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",

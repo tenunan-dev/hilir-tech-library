@@ -57,7 +57,7 @@
 | [Gas hydrate production](#ups-gas-hydrate-production) | Unconventional and other resources | pilot |  | JOGMEC (Nankai Trough trials); CNPC (China trials) | unit cost of methane exploitation with the proposed reservoir-reconstruction method (simulation study): 0.46 USD/m3 gas (2025$) |
 | [In-situ combustion and solvent-assisted SAGD](#ups-in-situ-combustion-solvent-sagd) | Improved and enhanced oil recovery | pilot |  | Petrobank (THAI developer) (THAI pilots); Operators (SAGD solvent trials) |  |
 | [Microbial EOR](#ups-microbial-eor) | Improved and enhanced oil recovery | pilot |  | Research groups and small service companies (MEOR trials) | MEOR treatment cost per incremental barrel (Argentina field projects): 2.9-5.1 USD/bbl incremental oil (2009$) |
-| [Nanofluid EOR](#ups-nanofluid-eor) | Improved and enhanced oil recovery | lab |  | Research groups (nanofluids) |  |
+| [Nanofluid EOR](#ups-nanofluid-eor) | Improved and enhanced oil recovery | lab |  | Research groups (nanofluids) | operational cost reduction in the Colombian nanofluid CSS field trial: 48 % reduction vs conventional steam operations |
 
 ## 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes)
 <a id="ups-seismic-acquisition"></a>
@@ -736,13 +736,13 @@ flowchart LR
 **Key equipment:** MWD tool, LWD collars, mud pulser, surface decoding.
 
 **Missing inputs:**
-- telemetry data rate and measurement accuracy (performance): Not on the page read. Where: Vendor datasheets (open). Next: Add bit rates and accuracy figures.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- telemetry data rate and measurement accuracy (performance): Not on the page read. Web-checked 2026-10-28: open articles (Oilwoman Sep-Oct 2020 via Energies Media) characterise mud pulse as low-throughput (highest for continuous-wave) vs wired drill pipe "superior telemetry rates", and directional drilling to 40,000 ft, but state no numeric bps/accuracy; researchgate table captions indicate >50 bit/s effective throughput with compression. Where: Vendor datasheets (open). Next: Add bit rates and accuracy figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no named deployment with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Logging_while_drilling). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Logging_while_drilling). Last reviewed 2026-10-28.
 
 ## Methane leak detection and repair (LDAR, satellites and continuous monitoring)
 <a id="ups-methane-leak-detection"></a>
@@ -833,13 +833,15 @@ flowchart LR
 - Johan Sverdrup plateau capacity: 755000 bbl/d; Phase 1 Oct 2019, Phase 2 Dec 2022. [source](https://www.equinor.com/energy/johan-sverdrup)
 - Hywind Tampen capacity: 94.6 MW; 11 turbines of 8.6 MW. [source](https://www.equinor.com/energy/hywind-tampen)
 
+**Reference plants:**
+- Johan Sverdrup power-from-shore (Equinor), North Sea, NO: field producing since Oct 2019 entirely on hydropower from shore; CO2 emissions 0.67 kg/bbl vs about 9 kg/bbl NCS average; launch estimate 460,000 t CO2/yr avoided, Equinor now states more than 620,000 t/yr; operating. [source](https://www.equinor.com/energy/electrification)
+
 **Missing inputs:**
-- electrification capex per platform with year (costs): Neither page gives costs. Where: Norwegian Offshore Directorate reports (catalog: norway-sodir, open). Next: Add a cost with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched platform electrification, electrification of offshore, electrification, offshore platform); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- electrification capex per platform with year (costs): Neither page gives costs. Web-checked 2026-10-28; Equinor pages state emission figures, not per-platform capex. Where: Norwegian Offshore Directorate reports (catalog: norway-sodir, open). Next: Add a cost with year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched platform electrification, electrification of offshore, electrification, offshore platform); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.equinor.com/energy/johan-sverdrup), [2](https://www.equinor.com/energy/hywind-tampen). Last reviewed 2026-10-28.
+Sources: [1](https://www.equinor.com/energy/johan-sverdrup), [2](https://www.equinor.com/energy/hywind-tampen), [3](https://www.equinor.com/energy/electrification), [4](https://www.equinor.com/news/archive/2018-10-09-johan-sverdrup-powered-shore). Last reviewed 2026-10-28.
 
 ## Oil sands mining and froth treatment
 <a id="ups-oil-sands-mining"></a>
@@ -862,14 +864,16 @@ flowchart LR
 - natural gas use, mining with upgrading: 1.54 GJ per barrel; CERI figure via Wikipedia, year not stated. [source](https://en.wikipedia.org/wiki/Athabasca_oil_sands)
 - mined share of oil sands production, 2010: 53 %; in situ 47%. [source](https://en.wikipedia.org/wiki/Athabasca_oil_sands)
 
+**Reference plants:**
+- Muskeg River Mine (Albian Sands Energy, Shell-led), Athabasca, Alberta, CA: full production 155,000 b/d of bitumen (first oil delayed by a Jan 2003 fire, ramp-up during 2003); operating. [source](https://www.ogj.com/drilling-production/article/17255656/fire-at-muskeg-river-mine-delays-first-athabasca-bitumen-production)
+
 **Missing inputs:**
-- tailings reduction results (performance): Only methods are named. Where: Alberta Energy Regulator tailings reports (open). Next: Add tailings performance.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- tailings reduction results (performance): Only methods are named. Web-checked 2026-10-28 (AER State of Fluid Tailings Management 2022 reviewed); no single quantified tailings-volume-reduction result stated in the open summary. Where: Alberta Energy Regulator tailings reports (open). Next: Add tailings performance.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Athabasca_oil_sands). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Athabasca_oil_sands). Last reviewed 2026-10-28.
 
 ## Plunger lift and hydraulic jet pumps
 <a id="ups-plunger-hydraulic-lift"></a>
@@ -890,15 +894,15 @@ flowchart LR
 **Performance:**
 - hydraulic pump depth range: 1000-18000 ft; piston, jet, turbine. [source](https://en.wikipedia.org/wiki/Artificial_lift)
 - jet pump solids tolerance: 50 % volume (above); hydraulic pumps, Wikipedia comparison table. [source](https://en.wikipedia.org/wiki/Artificial_lift)
+- plunger lift and hydraulic pump application envelopes (rate and depth): 25-4000 blpd (hydraulic pump 25-4,000; plunger lift 1-100 vertical / 1-400 horizontal bbl per MMscfd gas, <5,000 ft TVD); IPIECA Energy Efficiency Compendium artificial-lift table: plunger lift <5,000 ft TVD with liquid rate 1-100 (vertical) / 1-400 (horizontal) bbl per MMscfd of gas, no external power required except valve actuation; linear hydraulic pump 25-4,000 blpd, <15,000 ft TVD (jet/venturi pumps discussed under hydraulic pumping). [source](https://www.ipieca.org/resources/energy-efficiency-compendium/artificial-lift-2023)
 
 **Missing inputs:**
-- plunger lift depth, rate and cycle performance (performance): Not stated. Where: SPE plunger lift papers (catalog: onepetro, open). Next: Add typical ranges.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no named deployment with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Artificial_lift). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Artificial_lift). Last reviewed 2026-10-28.
 
 ## Produced water treatment (hydrocyclones, flotation, membranes)
 <a id="ups-produced-water-treatment"></a>
@@ -918,15 +922,15 @@ flowchart LR
 
 **Performance:**
 - radium in an Ohio brine sample: 3500 pCi/L (above); NRC discharge limit below 60 pCi/L for Ra-226 and Ra-228. [source](https://en.wikipedia.org/wiki/Produced_water)
+- OSPAR dispersed-oil-in-produced-water discharge performance standard (NE Atlantic offshore): 30 mg oil per litre discharged (average annual performance standard); OSPAR offshore discharges report tables list "installations for which the average annual oil content of the produced water discharged to the sea exceeds the 30 mg/l performance standard"; treatment to below the standard is by hydrocyclones/flotation, for which the sources read state no single efficiency figure. [source](https://oap.ospar.org/media/filer_public/54/79/54796902-37e5-4166-816c-5177bf65b584/p00634e_offshore_discharges_report_2012.pdf)
 
 **Missing inputs:**
-- oil-in-water discharge limits and treatment efficiency (performance): Wikipedia gives no values. Where: OSPAR and regional discharge rules (open). Next: Add the 30 mg/L-type limit with source.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; OSPAR reports aggregate installations, no named treatment plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Produced_water). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Produced_water). Last reviewed 2026-10-28.
 
 ## Production optimisation and digital oilfield
 <a id="ups-production-optimisation-digital-oilfield"></a>
@@ -948,9 +952,9 @@ flowchart LR
 - human effort reduction at ADNOC rig operations centre: 30-40 %; ADNOC statement relayed by AVEVA. [source](https://www.aveva.com/en/our-industrial-life/type/article/when-the-rig-starts-thinking-the-rise-of-autonomous-drilling/)
 
 **Missing inputs:**
-- production uplift percentage with basis (performance): Sources give no production figures. Where: IEA oil and gas net-zero report, digitalisation section (catalog: iea-reports, open). Next: Add independent production or cost evidence.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- production uplift percentage with basis (performance): Sources give no production figures. Web-checked 2026-10-28: no independently-published production-uplift percentage found (vendor case studies only). Where: IEA oil and gas net-zero report, digitalisation section (catalog: iea-reports, open). Next: Add independent production or cost evidence.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no named deployment with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched digital twin, digital oilfield, production optimisation, digitalisation); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
@@ -973,13 +977,13 @@ flowchart LR
 **Key equipment:** reservoir simulator, HPC cluster, PVT and SCAL data, history-matching tools.
 
 **Missing inputs:**
-- typical run times and model sizes (performance): The page gives no quantitative run times. Where: Simulator vendor benchmarks (open). Next: Add one published benchmark.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- typical run times and model sizes (performance): The page gives no quantitative run times. Web-checked 2026-10-28: billion-cell "hero-scale" runs exist only in vendor case-study PDFs (Stone Ridge Echelon 2017; 2025 HPC paper); industrial practice described as mega-cell models in practical times; no open run-time benchmark table found. Where: Simulator vendor benchmarks (open). Next: Add one published benchmark.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; simulator licence prices are vendor-quoted only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; simulator case studies name fields but no model-size/run-time figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Reservoir_simulation). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Reservoir_simulation). Last reviewed 2026-10-28.
 
 ## Rod lift and progressing cavity pumps
 <a id="ups-rod-lift-pcp"></a>
@@ -1000,15 +1004,15 @@ flowchart LR
 **Performance:**
 - PCP depth capability: 1800 m (6,000 ft); up to 5,000 bbl/day. [source](https://en.wikipedia.org/wiki/Artificial_lift)
 - rod pump realistic output vs theoretical: 80 %; of theoretical output. [source](https://en.wikipedia.org/wiki/Artificial_lift)
+- rod lift and PCP application envelopes (rate and depth): 100-10000 ft TVD (sucker rod pump 100-10,000; liquid rate up to 5,000 blpd); IPIECA Energy Efficiency Compendium artificial-lift table: sucker rod pump 5,000 blpd, 100-10,000 ft TVD; rod-driven elastomeric PCP 5-5,000 blpd, 100-9,000 ft; rod-driven metal-to-metal PCP 350-2,500 blpd, 100-3,500 ft; electric submersible PCP 5-5,000 blpd, 100-8,000 ft. [source](https://www.ipieca.org/resources/energy-efficiency-compendium/artificial-lift-2023)
 
 **Missing inputs:**
-- rod lift depth and rate capability (performance): The table gives no figures for rod pumps. Where: API 11 series and vendor datasheets (catalog: api-standards, open). Next: Add depth and rate ranges.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no named deployment with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Artificial_lift). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Artificial_lift). Last reviewed 2026-10-28.
 
 ## Rotary steerable systems
 <a id="ups-rotary-steerable-systems"></a>
@@ -1500,13 +1504,15 @@ flowchart LR
 - energy return (EROI): 0.7-13.3 ratio; 1984 study across deposits; development projects claim 3 to 10. [source](https://en.wikipedia.org/wiki/Oil_shale)
 - production cost estimate: 70-95 USD/bbl (2005$); RAND 2005 estimate for the US. [source](https://en.wikipedia.org/wiki/Oil_shale)
 
+**Reference plants:**
+- Enefit shale-oil plants (Eesti Energia), Estonia, EE: group shale-oil production 475,000 t in 2023 (including the Enefit 280-2 oil plant), up 11.9% on 2022; record 411,000 t in 2018; operating. [source](https://public-docs.energia.ee/ettevottest/investorile/2023/EE-aastaaruanne-2023-ENG.pdf)
+
 **Missing inputs:**
-- Enefit plant data (reference_plants): Not on the page. Where: Enefit and VKG company pages (open). Next: Add output and start-up year.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found (Eesti Energia reports state production, not retorting economics). Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Oil_shale). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Oil_shale), [2](https://public-docs.energia.ee/ettevottest/investorile/2023/EE-aastaaruanne-2023-ENG.pdf). Last reviewed 2026-10-28.
 
 ## Subsea separation and water reinjection
 <a id="ups-subsea-separation"></a>
@@ -1677,12 +1683,16 @@ flowchart LR
 - wettability contact-angle reduction: 58.8 % (up to); review of lab studies. [source](https://link.springer.com/article/10.1007/s13202-025-01965-1)
 - optimum nanoparticle concentration: 0.1-0.5 wt%; body text gives 0.05 to 0.5 wt%. [source](https://link.springer.com/article/10.1007/s13202-025-01965-1)
 - Colombian heavy-oil pilot cumulative production: 15502-30682 bbl; before to after; viscosity 39,987 to 11,734 cP. [source](https://link.springer.com/article/10.1007/s13202-025-01965-1)
+- first field application of nanofluids in thermal EOR (cyclic steam stimulation), two Colombian wells: 3213-11966 bbl incremental oil per well (11,966 well A; 3,213 well B); average production increase 97%; functionalized-nanoparticle nanofluid, in-situ upgrading of heavy oil under CSS: post-treatment API gravity 11.6 to 13.4 deg and viscosity 39,987 to 11,734 cP in field; laboratory displacement tests raised recovery from 56% to 76% (lab viscosity to 104 cP, API to 29.2 deg); "production increases averaging 97%". [source](https://www.sciencedirect.com/science/article/pii/S0016236124028850)
+
+**Costs:**
+- operational cost reduction in the Colombian nanofluid CSS field trial: 48 % reduction vs conventional steam operations; "a 48% reduction in operational costs, primarily due to decreased steam generation and lower CO2 emissions" (field trial result, relative figure; no absolute capital or unit cost stated). [source](https://www.sciencedirect.com/science/article/pii/S0016236124028850)
+
+**Reference plants:**
+- Two-well nanofluid CSS field trial, heavy-oil field, Colombia, CO: cyclic steam stimulation in two wells; incremental 11,966 bbl (well A) and 3,213 bbl (well B); well names confidential in the source; pilot. [source](https://www.sciencedirect.com/science/article/pii/S0016236124028850)
 
 **Missing inputs:**
-- independent field verification and cost (performance): The review cites few field trials and the conclusions were truncated. Where: SPE nanofluid EOR field papers (catalog: onepetro, open). Next: Add a verified field result.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://link.springer.com/article/10.1007/s13202-025-01965-1). Last reviewed 2026-10-25.
+Sources: [1](https://link.springer.com/article/10.1007/s13202-025-01965-1), [2](https://www.sciencedirect.com/science/article/pii/S0016236124028850). Last reviewed 2026-10-28.

@@ -111,6 +111,14 @@
       "url": "https://www.equinor.com/energy/hywind-tampen",
       "source_id": "equinor-tech",
       "note": "Equinor, Hywind Tampen page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.equinor.com/energy/electrification",
+      "note": "Equinor, Electrification on the Norwegian continental shelf (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.equinor.com/news/archive/2018-10-09-johan-sverdrup-powered-shore",
+      "note": "Equinor, Johan Sverdrup powered from shore, 9 Oct 2018"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -119,7 +127,7 @@
       "field": "costs",
       "item": "electrification capex per platform with year",
       "reason_code": "not_in_sources_read",
-      "reason": "Neither page gives costs.",
+      "reason": "Neither page gives costs. Web-checked 2026-10-28; Equinor pages state emission figures, not per-platform capex.",
       "where": [
         {
           "hint": "Norwegian Offshore Directorate reports",
@@ -130,23 +138,10 @@
       "action": "Add a cost with year."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched platform electrification, electrification of offshore, electrification, offshore platform); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched platform electrification, electrification of offshore, electrification, offshore platform); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -168,6 +163,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Johan Sverdrup power-from-shore (Equinor), North Sea",
+      "country": "NO",
+      "capacity": "field producing since Oct 2019 entirely on hydropower from shore; CO2 emissions 0.67 kg/bbl vs about 9 kg/bbl NCS average; launch estimate 460,000 t CO2/yr avoided, Equinor now states more than 620,000 t/yr",
+      "status": "operating",
+      "source": {
+        "url": "https://www.equinor.com/energy/electrification",
+        "note": "Equinor electrification page (0.67 kg vs ~9 kg average; started 2019); Equinor news 9 Oct 2018 (460,000 t/yr estimate); Equinor Johan Sverdrup page (more than 620,000 t/yr); read 2026-10-28"
+      }
     }
   ]
 }

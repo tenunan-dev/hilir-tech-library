@@ -75,6 +75,18 @@
       },
       "low": 15502,
       "high": 30682
+    },
+    {
+      "metric": "first field application of nanofluids in thermal EOR (cyclic steam stimulation), two Colombian wells",
+      "low": 3213,
+      "high": 11966,
+      "unit": "bbl incremental oil per well (11,966 well A; 3,213 well B); average production increase 97%",
+      "year": 2025,
+      "basis": "functionalized-nanoparticle nanofluid, in-situ upgrading of heavy oil under CSS: post-treatment API gravity 11.6 to 13.4 deg and viscosity 39,987 to 11,734 cP in field; laboratory displacement tests raised recovery from 56% to 76% (lab viscosity to 104 cP, API to 29.2 deg); \"production increases averaging 97%\"",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0016236124028850",
+        "note": "Franco et al., Fuel 382:133736 (Feb 2025), open access CC-BY: First field application of functionalized nanoparticles-based nanofluids in thermal enhanced oil recovery (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -88,65 +100,19 @@
     {
       "url": "https://link.springer.com/article/10.1007/s13202-025-01965-1",
       "note": "Journal of Petroleum Exploration and Production Technology, Nanoparticles in enhanced oil recovery: state-of-the-art review (2025; read abstract and body, conclusions truncated)"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0016236124028850",
+      "note": "Franco et al., Fuel 382:133736, 2025 (open access)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "independent field verification and cost",
-      "reason_code": "not_in_sources_read",
-      "reason": "The review cites few field trials and the conclusions were truncated.",
-      "where": [
-        {
-          "hint": "SPE nanofluid EOR field papers",
-          "access": "open",
-          "source_id": "onepetro"
-        }
-      ],
-      "action": "Add a verified field result."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -168,6 +134,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "operational cost reduction in the Colombian nanofluid CSS field trial",
+      "low": 48,
+      "high": 48,
+      "unit": "% reduction vs conventional steam operations",
+      "year": 2025,
+      "basis": "\"a 48% reduction in operational costs, primarily due to decreased steam generation and lower CO2 emissions\" (field trial result, relative figure; no absolute capital or unit cost stated)",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0016236124028850",
+        "note": "Franco et al., Fuel 382:133736 (2025), abstract (read 2026-10-28)"
+      }
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Two-well nanofluid CSS field trial, heavy-oil field, Colombia",
+      "country": "CO",
+      "capacity": "cyclic steam stimulation in two wells; incremental 11,966 bbl (well A) and 3,213 bbl (well B); well names confidential in the source",
+      "status": "pilot",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0016236124028850",
+        "note": "Franco et al., Fuel 382:133736 (2025): first global field trial of nanofluids in thermal EOR (read 2026-10-28)"
+      }
     }
   ]
 }

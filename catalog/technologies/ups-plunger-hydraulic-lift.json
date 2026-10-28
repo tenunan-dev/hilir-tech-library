@@ -81,6 +81,19 @@
       },
       "low": 50,
       "high": 50
+    },
+    {
+      "metric": "plunger lift and hydraulic pump application envelopes (rate and depth)",
+      "low": 25,
+      "high": 4000,
+      "unit": "blpd (hydraulic pump 25-4,000; plunger lift 1-100 vertical / 1-400 horizontal bbl per MMscfd gas, <5,000 ft TVD)",
+      "year": 2023,
+      "basis": "IPIECA Energy Efficiency Compendium artificial-lift table: plunger lift <5,000 ft TVD with liquid rate 1-100 (vertical) / 1-400 (horizontal) bbl per MMscfd of gas, no external power required except valve actuation; linear hydraulic pump 25-4,000 blpd, <15,000 ft TVD (jet/venturi pumps discussed under hydraulic pumping)",
+      "source": {
+        "url": "https://www.ipieca.org/resources/energy-efficiency-compendium/artificial-lift-2023",
+        "source_id": "ipieca",
+        "note": "IPIECA Energy Efficiency Compendium, Artificial lift (2023), Table 1 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -96,27 +109,13 @@
       "note": "Wikipedia, Artificial lift, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "plunger lift depth, rate and cycle performance",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated.",
-      "where": [
-        {
-          "hint": "SPE plunger lift papers",
-          "access": "open",
-          "source_id": "onepetro"
-        }
-      ],
-      "action": "Add typical ranges."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -139,7 +138,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no named deployment with figures on open pages.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -152,7 +151,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
