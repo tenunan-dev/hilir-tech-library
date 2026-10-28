@@ -95,29 +95,39 @@
       "url": "https://en.wikipedia.org/wiki/Expandable_tubular_technology",
       "source_id": "wikipedia",
       "note": "Wikipedia, Expandable tubular technology, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/16757958/directional-casing-while-drilling-eases-path-through-nahr-umr-shale-off-qatar",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Directional Casing while Drilling eases path through Nahr Umr shale off Qatar, September 2009 (Occidental Petroleum of Qatar, Qatar Petroleum, Tesco Corp. and Schlumberger authors) (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/16760145/casing-drilling-marks-a-century-of-progress",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Casing drilling marks a century of progress, October 2012 (history of drilling with casing, retrievable bit concept, Weatherford Defyer bit) (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
-  "gaps": [
+  "reference_plants": [
     {
-      "field": "process",
-      "item": "casing drilling method, depth records and field results",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not covered.",
-      "where": [
-        {
-          "hint": "Weatherford and Tesco casing drilling papers",
-          "access": "open",
-          "source_id": "weatherford"
-        }
-      ],
-      "action": "Add a source for casing drilling."
-    },
+      "name": "Occidental Petroleum of Qatar — directional casing while drilling at Idd Shargi North Dome (offshore Qatar)",
+      "country": "QA",
+      "capacity": "12-1/4-in. horizontal production and injection wells landed up to 86 deg inclination into the top of the Shuaiba, with 9-5/8-in. casing drilled and set through the unstable Nahr Umr shale",
+      "status": "operating",
+      "year": 2009,
+      "source": {
+        "url": "https://www.offshore-mag.com/drilling-completion/article/16757958/directional-casing-while-drilling-eases-path-through-nahr-umr-shale-off-qatar",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Directional Casing while Drilling eases path through Nahr Umr shale off Qatar, September 2009 (read 28 October 2026)"
+      }
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28 (offshore-mag casing drilling articles: 'Casing drilling marks a century of progress' and 'Directional casing while drilling off Qatar'); only qualitative cost-reduction claims, no dollar figures stated.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -137,23 +147,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28 (casing drilling technology readiness level TRL); no open TRL table found.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

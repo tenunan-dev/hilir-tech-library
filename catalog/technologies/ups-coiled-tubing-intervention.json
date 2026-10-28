@@ -105,6 +105,11 @@
       "url": "https://en.wikipedia.org/wiki/Coiled_tubing",
       "source_id": "wikipedia",
       "note": "Wikipedia, Coiled tubing, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.offshore-mag.com/business-briefs/equipment-engineering/article/16761449/statoil-records-first-successful-north-sea-hp-ht-coiled-tubing-milling-job",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Statoil records first successful North Sea HP/HT coiled tubing milling job, 1 May 2013 (Kvitebjoern field, block 34/11; well 34/11-A-9 T2) (read 28 October 2026)"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -113,7 +118,7 @@
       "field": "costs",
       "item": "day rate or job cost",
       "reason_code": "not_in_sources_read",
-      "reason": "Not stated.",
+      "reason": "Not stated. Web-checked 2026-10-28 (coiled tubing day rate and job cost; DOAJ search 'coiled tubing intervention cost' returned only fatigue-modeling papers, no figures); no open source states a day rate or job cost - intervention day-rate surveys are paid.",
       "where": [
         {
           "hint": "Operator intervention cost studies",
@@ -123,23 +128,10 @@
       "action": "Add typical cost with year."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched coiled tubing, well intervention, workover, downhole); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched coiled tubing, well intervention, workover, downhole); 2026-10-28 Web-checked 2026-10-28 (coiled tubing technology readiness level TRL; DuckDuckGo and Brave returned bot-block pages); no open TRL table found.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -161,6 +153,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Statoil (now Equinor) first North Sea HP/HT coiled tubing milling job, Kvitebjoern field, block 34/11, Norwegian continental shelf",
+      "country": "NO",
+      "capacity": "well 34/11-A-9 T2, gas/condensate producer with reservoir at about 4,000 m, 770 bar and 160 C; CT milling of a stuck-closed isolation ball valve",
+      "status": "operating",
+      "year": 2013,
+      "source": {
+        "url": "https://www.offshore-mag.com/business-briefs/equipment-engineering/article/16761449/statoil-records-first-successful-north-sea-hp-ht-coiled-tubing-milling-job",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, 1 May 2013 (read 28 October 2026)"
+      }
     }
   ]
 }

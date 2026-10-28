@@ -211,6 +211,18 @@
         "source_id": "lemigas-scog",
         "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
       }
+    },
+    {
+      "name": "PETRONAS Carigali and Shell Malaysia EOR program, Baram Delta (Sarawak) and North Sabah PSCs, offshore Malaysia",
+      "country": "MY",
+      "capacity": "HOA aims to lift production by 90,000-100,000 boe/d across the Baram Delta and North Sabah fields, raising average recovery factor from 36% to 50% and extending field life beyond 2040; technology deployed at North Sabah flagged as possibly the world's first field-scale offshore chemical EOR process",
+      "status": "planned",
+      "year": 2011,
+      "source": {
+        "url": "https://www.offshore-mag.com/production/article/16775227/petronas-shell-consider-first-ever-field-scale-chemical-eor-offshore-malaysia",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, PETRONAS, Shell consider first-ever field-scale chemical EOR offshore Malaysia, 11 November 2011 (status as of that source; read 28 October 2026)"
+      }
     }
   ],
   "advantages": [
@@ -228,7 +240,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA guide has no chemical EOR entry; 'commercial' rests on the Daqing statement in the HPAM article, which was read only second-hand. IEA ETP Guide (July 2026) has no matching entry (searched chemical EOR, polymer flood, surfactant, alkaline, enhanced oil recovery); 2026-10-28",
+      "reason": "The IEA guide has no chemical EOR entry; 'commercial' rests on the Daqing statement in the HPAM article, which was read only second-hand. IEA ETP Guide (July 2026) has no matching entry (searched chemical EOR, polymer flood, surfactant, alkaline, enhanced oil recovery); 2026-10-28 Web-checked 2026-10-28 (DOAJ search: chemical enhanced oil recovery polymer); independent open review found - Podoprigora, Byazrov and Sytnik, Energies 15(21):8300, 2022, covering pilot and full-scale SP/ASP field tests in China, Canada, Russia, Hungary and Oman (abstract via DOAJ; MDPI full text CDN-blocked) - but no TRL number stated and the original Daqing study was not open.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -247,7 +259,7 @@
       "field": "costs",
       "item": "chemical cost per barrel of incremental oil and project capex, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read gives costs. Searched LEMIGAS SCOG corpus for cost, USD, capex, price, economics across the four polymer/surfactant papers; they state no dollar cost per barrel of incremental oil or project capex, only qualitative remarks such as 1,500 ppm striking 'a fair compromise between ... lowering the cost of the polymer injection'; 2026-10-28",
+      "reason": "No source read gives costs. Searched LEMIGAS SCOG corpus for cost, USD, capex, price, economics across the four polymer/surfactant papers; they state no dollar cost per barrel of incremental oil or project capex, only qualitative remarks such as 1,500 ppm striking 'a fair compromise between ... lowering the cost of the polymer injection'; 2026-10-28 Web-checked 2026-10-28 (DOAJ searches: polymer flooding economic analysis field; Frontiers in Energy Research 2023 Bohai B oilfield discontinuous chemical flooding paper read); sources describe cost savings qualitatively, no open source states dollar cost per barrel of incremental oil or project capex.",
       "where": [
         {
           "hint": "Open techno-economic papers (arXiv, LEMIGAS SCOG archive, Universitas Trisakti publications)",
@@ -256,20 +268,6 @@
         }
       ],
       "action": "Add cost per incremental barrel with dollar year."
-    },
-    {
-      "field": "reference_plants",
-      "item": "chemical EOR field projects in Southeast Asia",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read names one; PETRONAS is listed in the register as a supplier.",
-      "where": [
-        {
-          "hint": "PETRONAS and Pertamina EOR project reports",
-          "access": "open",
-          "source_id": "petronas-tech"
-        }
-      ],
-      "action": "Add a Malaysian or Indonesian pilot with capacity and year."
     }
   ],
   "sources": [
@@ -297,6 +295,11 @@
       "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/download/43/pdf",
       "source_id": "lemigas-scog",
       "note": "Alli et al., Microemulsion Flooding Mechanism for Optimum Oil Recovery on Chemical Injection, SCOG 40(2): 85-90, 2017 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    },
+    {
+      "url": "https://www.offshore-mag.com/production/article/16775227/petronas-shell-consider-first-ever-field-scale-chemical-eor-offshore-malaysia",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, PETRONAS, Shell consider first-ever field-scale chemical EOR offshore Malaysia, 11 November 2011 (read 28 October 2026)"
     }
   ],
   "last_reviewed": "2026-10-28"

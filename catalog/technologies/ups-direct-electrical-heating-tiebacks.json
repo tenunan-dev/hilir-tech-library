@@ -87,6 +87,18 @@
       },
       "low": 6.4,
       "high": 6.4
+    },
+    {
+      "metric": "longest electrically trace-heated (ETH) pipe-in-pipe production pipeline (Fenja tieback, for comparison with DEH)",
+      "unit": "km",
+      "basis": "37-km ETH pipe-in-pipe pipeline for Neptune Energy's Fenja field installed and tested in 2020-21 campaigns, claimed by Neptune as the world's longest to date for that technology; tieback to Equinor's Njord A platform — a different active-heating technology from DEH",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/14208015/record-length-heated-subsea-production-pipeline-installed-at-fenja-oil-field-offshore-norway",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Record-length heated pipeline installed at Fenja oil field, 3 August 2021 (read 28 October 2026)"
+      },
+      "low": 37,
+      "high": 37
     }
   ],
   "advantages": [
@@ -99,16 +111,52 @@
     {
       "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
       "source_id": "offshore-mag",
-      "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines"
+      "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines, October 2007: DEH installed on Asgard, Huldra, Kristin and Urd; Tyrihans 43 km at about 10 MW; Huldra commissioned May 2002 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.offshore-mag.com/home/article/16764484/tyrihans-tied-to-kristin",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Tyrihans tied to Kristin, 7 December 2005: 'The new development should come onstream in 2009' (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/14208015/record-length-heated-subsea-production-pipeline-installed-at-fenja-oil-field-offshore-norway",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Record-length heated pipeline installed at Fenja oil field, 3 August 2021: 37-km electrically trace-heated (ETH) pipe-in-pipe pipeline for Neptune Energy, tieback to Njord A (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "reference_plants": [
+    {
+      "name": "Tyrihans DEH tieback to the Kristin FPSO (Norwegian Sea)",
+      "country": "NO",
+      "capacity": "43 km, 18-in production pipeline with piggybacked DEH cable, about 10 MW, 52 kV cable — the longest DEH line described in the source",
+      "status": "operating",
+      "year": 2009,
+      "source": {
+        "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, October 2007 (43 km, 10 MW); onstream year from Offshore magazine 'Tyrihans tied to Kristin', 7 December 2005 (read 28 October 2026)"
+      }
+    },
+    {
+      "name": "Huldra DEH pipeline (North Sea)",
+      "country": "NO",
+      "capacity": "16 km DEH piggybacked pipeline; activated about 60 times since commissioning in May 2002 — first commercial DEH use in the source",
+      "status": "operating",
+      "year": 2002,
+      "source": {
+        "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines, October 2007 (status as of that date; read 28 October 2026)"
+      }
+    }
+  ],
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "current longest DEH tieback",
       "reason_code": "not_in_sources_read",
-      "reason": "Article predates recent projects.",
+      "reason": "Article predates recent projects. Web-checked 2026-10-28 (offshore-mag sitemap sweep of DEH and heated-pipeline articles; Irpa 80-km tieback and Fenja 37-km ETH pipe-in-pipe articles read); no open source states a DEH tieback longer than Tyrihans 43 km, and the recent record-length claim found (Fenja, 37 km) is for ETH pipe-in-pipe, a different heating technology.",
       "where": [
         {
           "hint": "Equinor and Nexans DEH references",
@@ -121,7 +169,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28 (direct electrical heating subsea pipeline cost per km); only paywalled OnePetro papers and OEM (ABB, SLB OneSubsea) product pages found, no open cost figure.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -141,23 +189,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28 (direct electrical heating subsea TRL; Brave search served a bot-block page; no open TRL table found).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

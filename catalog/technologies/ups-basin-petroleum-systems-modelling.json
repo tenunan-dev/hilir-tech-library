@@ -63,6 +63,17 @@
       },
       "low": 1000,
       "high": 6000
+    },
+    {
+      "metric": "model dimensions documented for petroleum systems modeling workflows (PetroMod)",
+      "unit": "D (model dimensionality)",
+      "basis": "USGS OFR 2006-1024 documents the PetroMod workflow (1D to 3D) with calibration data from source-rock pyrolysis (kerogen type, TOC, HI, kinetics) and well thermal data; SLB documents heat flow calibration to well temperature and vitrinite reflectance and the PetroRisk uncertainty module; example result: migration flowpaths and accumulations modeled for the Mannville petroleum system, Western Canada Sedimentary Basin",
+      "source": {
+        "url": "https://pubs.usgs.gov/of/2006/1024/pdf/OFR-2006-1024.pdf",
+        "note": "USGS Open-File Report 2006-1024, 2006; calibration and uncertainty detail from SLB Petromod product page (read 28 October 2026)"
+      },
+      "low": 1,
+      "high": 3
     }
   ],
   "advantages": [
@@ -76,29 +87,37 @@
       "url": "https://en.wikipedia.org/wiki/Petroleum_system",
       "source_id": "wikipedia",
       "note": "Wikipedia, Petroleum system (petroleum geology), read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://pubs.usgs.gov/of/2006/1024/pdf/OFR-2006-1024.pdf",
+      "note": "USGS Open-File Report 2006-1024, Higley, Lewan, Roberts and Henry, Petroleum System Modeling Capabilities for Use in Oil and Gas Resource Assessments (IES PetroMod workflow demonstrated on the Western Canada Sedimentary Basin), 2006 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/software/basin-modeling/petromod-basin-modeling-software",
+      "source_id": "slb",
+      "note": "SLB, Petromod basin modeling software product page: heat flow calibration to well temperature and vitrinite reflectance, PetroRisk uncertainty module (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
-  "gaps": [
+  "reference_plants": [
     {
-      "field": "performance",
-      "item": "modelling workflow, calibration data and uncertainty",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not covered by the page read.",
-      "where": [
-        {
-          "hint": "SLB PetroMod documentation",
-          "access": "open",
-          "source_id": "slb"
-        }
-      ],
-      "action": "Add a documented workflow and an example result."
-    },
+      "name": "USGS Western Canada Sedimentary Basin petroleum systems modeling demonstration (PetroMod)",
+      "country": "CA",
+      "capacity": "1D, 2D and 3D petroleum systems models of the Lower Cretaceous Mannville petroleum system, Western Canada Sedimentary Basin, applied to USGS oil and gas resource assessment",
+      "status": "pilot",
+      "year": 2006,
+      "source": {
+        "url": "https://pubs.usgs.gov/of/2006/1024/pdf/OFR-2006-1024.pdf",
+        "note": "USGS Open-File Report 2006-1024, Petroleum System Modeling Capabilities for Use in Oil and Gas Resource Assessments, 2006 (read 28 October 2026)"
+      }
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28 (PetroMod software license cost price USD); only forum threads found, no published license price.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -118,23 +137,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28 (petroleum systems modeling technology readiness level TRL); Brave search returned a bot-block page; no TRL table found.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

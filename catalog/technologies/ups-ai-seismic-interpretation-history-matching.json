@@ -74,28 +74,51 @@
     {
       "url": "https://pubs.geoscienceworld.org/seg/geophysics/article/89/1/WA157/629087/Machine-learning-for-seismic-exploration-Where-are",
       "note": "Geophysics 89(1) WA157, Machine learning for seismic exploration: where are we and how far are we from the holy grail? (review of more than 500 SEG and EAGE publications, 2010 to 2021)"
+    },
+    {
+      "url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/software/delfi/openness/ai-in-delfi/ai-success-stories",
+      "source_id": "slb",
+      "note": "SLB, Customer successes using AI in Delfi: 'Seismic fault interpretation time reduced by 80% with machine learning' (read 28 October 2026)"
+    },
+    {
+      "url": "https://jpt.spe.org/petrobras-picks-slbs-delfi-platform",
+      "note": "SPE JPT, Petrobras Picks SLB's Delfi Platform: Petrobras awarded SLB a 5-year contract for enterprisewide Delfi deployment (SLB release, 6 July 2023; read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-25",
-  "gaps": [
+  "reference_plants": [
     {
-      "field": "performance",
-      "item": "time saved and accuracy on a real field",
-      "reason_code": "not_in_sources_read",
-      "reason": "The review reports scores, not field time savings.",
-      "where": [
-        {
-          "hint": "SLB, Halliburton and operator case studies",
-          "access": "open"
-        }
-      ],
-      "action": "Add one operator case with time saved."
-    },
+      "name": "Petrobras enterprise deployment of SLB Delfi digital platform",
+      "country": "BR",
+      "capacity": "enterprisewide 5-year contract covering exploration, development and production workflows, moving subsurface workflows to the cloud",
+      "status": "operating",
+      "year": 2023,
+      "source": {
+        "url": "https://jpt.spe.org/petrobras-picks-slbs-delfi-platform",
+        "note": "SPE JPT, Petrobras Picks SLB's Delfi Platform: 'Petrobras has awarded SLB a 5-year contract for an enterprisewide deployment of its Delfi digital platform' (SLB release, 6 July 2023; read 28 October 2026)"
+      }
+    }
+  ],
+  "performance": [
+    {
+      "metric": "structural interpretation time reduction with ML-assisted fault interpretation",
+      "unit": "%",
+      "basis": "SLB Delfi AI success story: average 80% time-reduction in overall structural interpretation on a project; operator not named in the story",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/software/delfi/openness/ai-in-delfi/ai-success-stories",
+        "source_id": "slb",
+        "note": "SLB, Customer successes using AI in Delfi: 'Seismic fault interpretation time reduced by 80% with machine learning' (read 28 October 2026)"
+      },
+      "low": 80,
+      "high": 80
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "gaps": [
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28 (seismic interpretation machine learning techno-economic cost per kilometer OR cost per square study); no open source states this.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -115,23 +138,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28 (technology readiness level seismic interpretation OR history matching machine learning TRL assessment table); no TRL table found for this technology.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

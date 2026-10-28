@@ -231,6 +231,16 @@
     },
     {
       "name": "Denbury (ExxonMobil)"
+    },
+    {
+      "name": "Japan Petroleum Exploration Co. (JAPEX)",
+      "product": "CO2-EOR huff-and-puff pilot with Pertamina EP at the Sukowati field, Bojonegoro, East Java, Indonesia (joint study with JOGMEC under a July 2023 JSA; first CO2 injection 7 December 2023)",
+      "source_id": "id-ditjen-migas"
+    },
+    {
+      "name": "JOGMEC (Japan Organization for Metals and Energy Security)",
+      "product": "CO2-EOR/CCUS pilot partner with Pertamina at Sukowati field, Indonesia",
+      "source_id": "id-ditjen-migas"
     }
   ],
   "reference_plants": [
@@ -281,22 +291,7 @@
     "Geological heterogeneity can cut the response; economics are marginal without incentives"
   ],
   "notes": "The cost and recovery figures come from a US primer with data to 2008. Pertamina's 2023 Sukowati huff-and-puff is a pilot, not a commercial flood.",
-  "gaps": [
-    {
-      "field": "suppliers",
-      "item": "CO2-EOR operators in Malaysia and Indonesia beyond Pertamina",
-      "reason_code": "not_in_sources_read",
-      "reason": "No PETRONAS CO2-EOR source has been read.",
-      "where": [
-        {
-          "hint": "PETRONAS technology pages and reports (record verified for personal non-commercial copies)",
-          "access": "open",
-          "source_id": "petronas-tech"
-        }
-      ],
-      "action": "Collect PETRONAS EOR material into corpus/_inbox/petronas-tech and add any project."
-    }
-  ],
+  "gaps": [],
   "sources": [
     {
       "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",

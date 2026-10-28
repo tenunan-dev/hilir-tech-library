@@ -91,6 +91,11 @@
     {
       "url": "https://geoexpro.com/inside-the-rock/",
       "note": "GeoExpro, Inside the Rock (Schlumberger digital rock article, 2015)"
+    },
+    {
+      "url": "https://www.offshore-mag.com/exploration-geosciences/article/16789934/sonatrach-to-use-ingrains-digital-rock-physics-technology",
+      "source_id": "offshore-mag",
+      "note": "Offshore magazine, Sonatrach to use Ingrain's digital rock physics technology, 8 May 2009 (read 28 October 2026)"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -109,23 +114,10 @@
       "action": "Leave unless a published price is found."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched digital rock, core analysis, digital core, digital twin); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched digital rock, core analysis, digital core, digital twin); 2026-10-28 Web-checked 2026-10-28 (digital rock physics technology readiness level TRL; DuckDuckGo and Brave returned bot-block pages); no open TRL table found.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -147,6 +139,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sonatrach commercial use of Ingrain digital rock physics services",
+      "country": "DZ",
+      "capacity": "commercial agreement covering Ingrain's digital rock physics services (3D imaging and computation of reservoir rock properties)",
+      "status": "operating",
+      "year": 2009,
+      "source": {
+        "url": "https://www.offshore-mag.com/exploration-geosciences/article/16789934/sonatrach-to-use-ingrains-digital-rock-physics-technology",
+        "source_id": "offshore-mag",
+        "note": "Offshore magazine, Sonatrach to use Ingrain's digital rock physics technology, 8 May 2009 (read 28 October 2026)"
+      }
     }
   ]
 }
