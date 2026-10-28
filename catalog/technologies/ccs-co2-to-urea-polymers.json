@@ -78,7 +78,7 @@
       "field": "performance",
       "item": "global CO2 demand for urea",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read. Global CCS Institute Global Status of CCS 2026 and CO2 shipping brief (2025) state no global urea CO2 demand figure.",
+      "reason": "No source read. Global CCS Institute Global Status of CCS 2026 and CO2 shipping brief (2025) state no global urea CO2 demand figure. Web-checked 2026-10-28: global urea production is around 180 Mt-class in market reports, but no open source states the corresponding CO2 consumption in Mt/yr; not recorded.",
       "where": [
         {
           "hint": "IEA CCUS in the transition or Global CCS Institute",
@@ -92,7 +92,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -115,7 +115,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; urea plants are conventional-CCU, no named CO2-utilisation plant added.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -128,7 +128,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

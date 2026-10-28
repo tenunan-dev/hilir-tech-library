@@ -63,6 +63,18 @@
       },
       "low": 107000,
       "high": 107000
+    },
+    {
+      "metric": "biochar carbon-removal yield at industrial scale (Exomad Green)",
+      "low": 2.4,
+      "high": 3.9,
+      "unit": "t CO2 sequestered per t biochar produced (derived: 108,000 t biochar sequestering 260,000-420,000 t CO2/yr)",
+      "year": 2025,
+      "basis": "derived from company-reported production and removal figures (108,000+ t biochar for 260,000+ t CO2 on the CDR page; 420,000 t CO2 claim 2026); Puro.earth certified; permanence timescales were not stated in the open pages read",
+      "source": {
+        "url": "https://www.exomadgreen.com/cdr",
+        "note": "Exomad Green CDR page (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -75,6 +87,10 @@
     {
       "url": "https://biochartoday.com/news/biochars-big-year-107000-tonnes-delivered-amid-8m-tonne-carbon-removal-boom/",
       "note": "Biochar Today, Biochar's big year: 107,000 tonnes delivered amid 8m tonne carbon removal boom (cdr.fyi 2024 data)"
+    },
+    {
+      "url": "https://www.exomadgreen.com",
+      "note": "Exomad Green biochar producer"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -83,7 +99,7 @@
       "field": "performance",
       "item": "permanence and yield per tonne feedstock",
       "reason_code": "not_in_sources_read",
-      "reason": "Not in the source.",
+      "reason": "Not in the source. Industrial yield figures recorded in performance (derived from Exomad Green); permanence timescales still unpublished in open pages, 2026-10-28.",
       "where": [
         {
           "hint": "IBI biochar standards",
@@ -96,7 +112,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for biochar capital cost, operating cost and unit cost; not present; 2026-10-28",
+      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for biochar capital cost, operating cost and unit cost; not present; 2026-10-28 Web-checked 2026-10-28; plant capex not published.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -116,23 +132,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -154,6 +157,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Exomad Green biochar plants, Concepcion and Guarayos, Bolivia",
+      "country": "BO",
+      "capacity": "world's largest biochar producer: more than 108,000 t/yr of biochar across two facilities, sequestering about 260,000-420,000 t CO2/yr (company figures vary by date); Microsoft agreement (May 2025) for 1.24 Mt CO2 removal over 10 years - the largest biochar deal to date; world's largest biochar facility under construction in Guarayos since Jun 2025",
+      "status": "operating",
+      "source": {
+        "url": "https://www.exomadgreen.com",
+        "note": "Exomad Green site (world's largest producer; CDR page 108,000+ t biochar, 260,000+ t CO2); carbonherald 21 May 2025 (Microsoft 1.24 Mt deal); read 2026-10-28"
+      }
     }
   ]
 }

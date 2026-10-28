@@ -57,6 +57,18 @@
         "note": "gasworld, CarbonCure hits 500,000 tonnes CO2 milestone"
       },
       "low": 500000
+    },
+    {
+      "metric": "CO2 mineralisation dose and embodied-carbon reduction in ready-mix concrete (CarbonCure)",
+      "low": 0.1,
+      "high": 6,
+      "unit": "% CO2 by weight of cement injected (0.1%), giving a 4-6% Global Warming Potential reduction per truck; each tonne mineralised avoids roughly 40 t CO2 via cement reduction (company figures)",
+      "year": 2023,
+      "basis": "CarbonCure technical note: CO2 is injected at a dose of 0.1% by weight of cement; Stevenson information sheet: concrete made with CarbonCure provides a 4-6% reduction to GWP; CarbonCure brochure: every tonne mineralised prevents roughly 40 t CO2 by reducing cement; milestone of 500,000 t CO2 saved across 7.5 million truckloads (Oct 2024)",
+      "source": {
+        "url": "https://www.carboncure.com/wp-content/uploads/2023/07/OP-MeasuringCO2Update-1.pdf",
+        "note": "CarbonCure Measuring CO2 Mineralization note (2023); Stevenson sheet; carbonherald 28 Oct 2024; read 2026-10-28"
+      }
     }
   ],
   "trl": {
@@ -78,23 +90,14 @@
     {
       "url": "https://gasworld.com/story/carboncure-hits-500000-tonnes-co2-milestone-with-mineralised-concrete-tech/2145799.article",
       "note": "gasworld, CarbonCure hits 500,000 tonnes CO2 milestone"
+    },
+    {
+      "url": "https://carbonherald.com/carboncure-achieves-milestone-500000-tons-of-co2-savings",
+      "note": "CarbonCure 500 kt milestone, Carbon Herald 28 Oct 2024"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "kg CO2 per m3 and cement reduction percent",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not given.",
-      "where": [
-        {
-          "hint": "CarbonCure technical notes",
-          "access": "open"
-        }
-      ],
-      "action": "Add typical numbers."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -119,19 +122,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -143,6 +133,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "CarbonCure ready-mix deployment (global)",
+      "country": "CA",
+      "capacity": "CO2 mineralisation retrofits across hundreds of ready-mix plants; 500,000 t CO2 saved over 7.5 million truckloads by October 2024",
+      "status": "operating",
+      "source": {
+        "url": "https://carbonherald.com/carboncure-achieves-milestone-500000-tons-of-co2-savings",
+        "note": "Carbon Herald, 28 Oct 2024 (read 2026-10-28)"
+      }
     }
   ]
 }

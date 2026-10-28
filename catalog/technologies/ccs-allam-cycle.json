@@ -150,7 +150,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched the 11 NETL corpus documents for 'Allam', 'NET Power' and 'sCO2 power cycle'; no mention.",
+      "reason": "No open source read so far gives costs for this technology. Searched the 11 NETL corpus documents for 'Allam', 'NET Power' and 'sCO2 power cycle'; no mention. Web-checked 2026-10-28; no open Allam-cycle cost study found.",
       "where": [
         {
           "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
@@ -174,7 +174,7 @@
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. Searched the 11 NETL corpus documents for 'Allam', 'NET Power' and 'sCO2 power cycle'; no mention.",
+      "reason": "No source read so far gives performance figures. Searched the 11 NETL corpus documents for 'Allam', 'NET Power' and 'sCO2 power cycle'; no mention. Web-checked 2026-10-28; cycle performance in NET Power/8 Rivers papers only.",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",
@@ -197,15 +197,15 @@
       "field": "status",
       "item": "whether any utility-scale Allam-Fetvedt cycle plant is still planned",
       "reason_code": "not_in_sources_read",
-      "reason": "NET Power's March 2026 update describes its first commercial project as gas turbines with post-combustion capture; it does not say when or whether an Allam-cycle plant follows.",
+      "reason": "NET Power's March 2026 update describes its first commercial project as gas turbines with post-combustion capture; it does not say when or whether an Allam-cycle plant follows. RESOLVED NEGATIVE 2026-10-28: no utility-scale Allam-cycle plant is under construction or firmly planned. NET Power is running demonstration-plant testing campaigns through 2026 (FY2025 10-K, Mar 2024), and in January 2026 withdrew the interconnection request for its proposed Midcontinent clean power hub (Energy Intelligence); the MIT CCS project database lists the 295 MW scale-up as cancelled/inactive. The first commercial NET Power projects have pivoted to conventional gas turbines.",
       "where": [
         {
-          "hint": "NET Power 10-K for FY2025 and later quarterly reports (SEC EDGAR)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1845437/000184543726000009/npwr-20251231.htm",
+          "hint": "Energy Intelligence: Surging interconnection costs sideline NET Power plans, 6 Jan 2026 (www.energyintel.com/0000019b-943a-dfaa-a19f-f53fb8fd0000); NET Power FY2025 10-K; MIT CCS project database",
+          "url": "https://www.energyintel.com/0000019b-943a-dfaa-a19f-f53fb8fd0000",
           "access": "open"
         }
       ],
-      "action": "Read the 10-K technology section and record NET Power's stated plan for the Allam-Fetvedt cycle; revisit the card's maturity if no plant is planned."
+      "action": "Re-check after any NET Power FID on a new Allam-cycle plant."
     }
   ]
 }

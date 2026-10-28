@@ -154,7 +154,7 @@
       "field": "reference_plants",
       "item": "operating compression units at CCS plants",
       "reason_code": "not_in_sources_read",
-      "reason": "The report read is a design study.",
+      "reason": "The report read is a design study. Web-checked 2026-10-28: operating CCS plants with compression are named in the GCI 2026 status document already cited (Quest, Gorgon, Northern Lights); no separate compression-unit register found.",
       "where": [
         {
           "hint": "Boundary Dam, Quest, Sleipner papers",

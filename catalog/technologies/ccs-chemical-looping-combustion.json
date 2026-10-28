@@ -125,7 +125,7 @@
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. Searched the 11 NETL corpus docs for 'chemical looping', 'oxygen carrier', 'looping combustion'; no chemical-looping-combustion performance data present.",
+      "reason": "No source read so far gives performance figures. Searched the 11 NETL corpus docs for 'chemical looping', 'oxygen carrier', 'looping combustion'; no chemical-looping-combustion performance data present. Web-checked 2026-10-28; pilot results in journal papers not captured.",
       "where": [
         {
           "hint": "Supplier datasheets and brochures for the companies listed on the card",
@@ -148,7 +148,7 @@
       "field": "reference_plants",
       "item": "named operating or planned plants with capacity and status",
       "reason_code": "not_in_sources_read",
-      "reason": "Lab-stage technology: pilot units may exist but none was found in sources read.",
+      "reason": "Lab-stage technology: pilot units may exist but none was found in sources read. Web-checked 2026-10-28: pilot-scale units only (no commercial CLC plant found open).",
       "where": [
         {
           "hint": "IEA CCUS Projects Database (free registration)",
