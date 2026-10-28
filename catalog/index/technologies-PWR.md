@@ -15,7 +15,7 @@
 | [Flow batteries (vanadium, zinc-bromine)](#pwr-flow-batteries) | Electrochemical storage | commercial | 9 | Rongke Power (vanadium flow); Invinity Energy Systems (vanadium flow) |  |
 | [Gas engines](#pwr-gas-engines) | Gas-fired power | commercial |  | Wärtsilä (31SG, 34SG, 50SG); INNIO Jenbacher (Jenbacher gas engines); MAN Energy Solutions (Everllence) (gas engines) |  |
 | [Geothermal (flash and binary cycle)](#pwr-geothermal-flash-binary) | Geothermal | commercial | 9 | Ormat (binary and flash plants); Toshiba (geothermal steam turbines); Fuji Electric (geothermal steam turbines) | overnight capital cost, hydrothermal: 4759-6349 USD/kW |
-| [Grid-forming inverters and synchronous condensers](#pwr-grid-forming-inverters) | Grid | commercial | 9 | SMA (grid-forming inverters); Siemens Energy (synchronous condensers) |  |
+| [Grid-forming inverters and synchronous condensers](#pwr-grid-forming-inverters) | Grid | commercial | 9 | SMA (grid-forming inverters); Siemens Energy (synchronous condensers) | Hornsdale grid-forming expansion cost: 71 million AUD (50 MW / 64.5 MWh expansion) |
 | [HVDC transmission and interconnectors](#pwr-hvdc-transmission) | Grid | commercial | 9 | Hitachi Energy (HVDC Classic and HVDC Light); Siemens Energy (HVDC Plus); GE Vernova (HVDC) |  |
 | [Heavy-duty gas turbines (H and J class)](#pwr-heavy-duty-gas-turbines) | Gas-fired power | commercial | 9 | GE Vernova (7HA, 9HA); Mitsubishi Heavy Industries (Mitsubishi Power) (M501/M701 J and JAC); Siemens Energy (HL class) |  |
 | [Hydropower](#pwr-hydropower) | Hydro | commercial | 9 | Andritz (hydro turbines); Voith (hydro turbines); GE Vernova (hydro turbines) | overnight capital cost, new stream-reach: 6574-8611 USD/kW |
@@ -32,7 +32,7 @@
 | [Ammonia co-firing in coal boilers](#pwr-ammonia-coal-cofiring) | Gas-fired power | demonstration | 8 | IHI (ammonia co-firing burners); JERA (Hekinan demonstration) |  |
 | [Compressed and liquid air energy storage](#pwr-compressed-liquid-air-storage) | Mechanical storage | demonstration | 7-9 | Hydrostor (advanced CAES); Highview Power (liquid air storage) |  |
 | [Enhanced geothermal systems](#pwr-enhanced-geothermal) | Geothermal | demonstration | 6-7 | Fervo Energy (EGS projects); Eavor (closed-loop Eavor-Loop) | overnight capital cost, near-field EGS to deep EGS: 6535-13508 USD/kW |
-| [Floating offshore wind](#pwr-floating-offshore-wind) | Wind | demonstration | 8 | Equinor (Hywind spar); Principle Power (WindFloat) |  |
+| [Floating offshore wind](#pwr-floating-offshore-wind) | Wind | demonstration | 8 | Equinor (Hywind spar); Principle Power (WindFloat) | Hywind Tampen project cost: 488-550 million USD (about NOK 5 bn) (2020$) |
 | [Gravity energy storage](#pwr-gravity-storage) | Mechanical storage | demonstration | 7 | Energy Vault (gravity storage (the company's site now describes battery projects)) |  |
 | [Hydrogen-capable and ammonia-fired gas turbines](#pwr-hydrogen-ammonia-turbines) | Gas-fired power | demonstration | 5-9 | Mitsubishi Heavy Industries (Mitsubishi Power) (M501JAC hydrogen-ready); GE Vernova (7HA with up to 50% hydrogen); IHI (ammonia combustion) |  |
 | [Microreactors (transportable nuclear)](#pwr-microreactors) | Modular power plants | demonstration |  | Westinghouse Electric Company (eVinci 5 MWe heat-pipe microreactor); BWX Technologies (BANR 75 MWt / 22 MWe HTGR; Project Pele 1-5 MWe transportable microreactor); Oklo (Aurora powerhouse, up to 75 MWe liquid-metal fast reactor); HolosGen (Holos Quad 3-13 MWe containerised modules); NANO Nuclear Energy (KRONOS MMR, ZEUS and LOKI designs) |  |
@@ -42,7 +42,7 @@
 | [Advanced reactors (high-temperature gas, molten salt)](#pwr-advanced-reactors) | Nuclear | pilot | 4-8 | X-energy (Xe-100); Kairos Power (molten-salt-cooled reactors); TerraPower (Natrium) |  |
 | [Perovskite and tandem solar cells](#pwr-perovskite-tandem) | Solar | pilot | 6 | Oxford PV (perovskite-on-silicon tandem modules); LONGi (tandem cell research) |  |
 | [Tidal and wave energy](#pwr-tidal-wave) | Ocean | pilot | 6 | Orbital Marine Power (O2 floating turbine); SIMEC Atlantis (MeyGen tidal stream) |  |
-| [Fusion](#pwr-fusion) | Nuclear | lab | 3 | ITER (international tokamak, Cadarache); Commonwealth Fusion Systems (SPARC and ARC); Tokamak Energy (spherical tokamak) |  |
+| [Fusion](#pwr-fusion) | Nuclear | lab | 3 | ITER (international tokamak, Cadarache); Commonwealth Fusion Systems (SPARC and ARC); Tokamak Energy (spherical tokamak) | ITER project cost (construction and operations, evolving): 15-22 billion EUR (estimates; EU share EUR 5.61 bn approved to 2027) |
 
 ## Aeroderivative and industrial gas turbines
 <a id="pwr-aeroderivative-turbines"></a>
@@ -302,15 +302,17 @@ flowchart LR
 - global installed floating PV: 1.1 GW; September 2018 (report date 30 October 2018). [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
 - conservative global potential: 400 GW; World Bank estimate. [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
 
+**Reference plants:**
+- Cirata floating solar PV plant, West Java, Indonesia, ID: 145 MW floating PV (Masdar/PLN), largest in Southeast Asia at its 2023 commissioning, planned expansion to 500 MW; operating. [source](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating solar PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- current global capacity and yield gain percentage (performance): The World Bank report is from 2018. Where: IRENA and IEA PVPS floating PV statistics (catalog: irena, open). Next: Add a 2024 or 2025 capacity figure.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- current global capacity and yield gain percentage (performance): The World Bank report is from 2018. Web-checked 2026-10-28: World Bank/SERIS put global floating solar above 1.1 GW back in 2018 (pv-tech) with higher yield from water cooling, but neither a current (2025-26) global GW figure nor a verified yield-gain percentage was found in open pages. Where: IRENA and IEA PVPS floating PV statistics (catalog: irena, open). Next: Add a 2024 or 2025 capacity figure.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open $/W or $/MWh figure found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water). Last reviewed 2026-10-25.
+Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water). Last reviewed 2026-10-28.
 
 ## Flow batteries (vanadium, zinc-bromine)
 <a id="pwr-flow-batteries"></a>
@@ -335,10 +337,10 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - Rongke Power Dalian project MW and MWh (reference_plants): The Wikipedia page for the Dalian station returned not found. Where: Rongke Power and Dalian Rongke announcements (open). Next: Add the Dalian MW, MWh and commissioning date.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; system prices are quote-only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://invinity.com/). Last reviewed 2026-10-25.
+Sources: [1](https://invinity.com/). Last reviewed 2026-10-28.
 
 ## Gas engines
 <a id="pwr-gas-engines"></a>
@@ -367,8 +369,8 @@ flowchart LR
 - PLTD Pesanggaran, Bali (PT Indonesia Power), ID: 200 MW, 12 x Wärtsilä 50DF multi-fuel engines; in operation; delivered 2015 and began on HFO, primarily LNG since July 2016 (largest engine-based power plant in Indonesia). [source](https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine), [2](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants), [3](https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali). Last reviewed 2026-10-28.
@@ -396,13 +398,15 @@ flowchart LR
 **Costs:**
 - overnight capital cost, hydrothermal: 4759-6349 USD/kW; flash 4,759, binary 6,349; example values, dollar year not stated on the page (base year 2022). [source](https://atb.nrel.gov/electricity/2024/geothermal)
 
+**Reference plants:**
+- Hellisheidi geothermal power plant, Hengill, Iceland (ON Power), IS: 303 MWe plus 200-400 MWth hot-water supply; commissioned in five stages 2006-2011; Iceland's largest geothermal CHP plant; operating. [source](https://verkis.com/projects/energy/hellisheidi-power-plant)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Flash steam geothermal power plant (hot water)' 9 (2025); 'Organic rankine cycle (low temperature resources)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants with capacity and start-up year (reference_plants): No plant read. Where: Ormat and Fuji Electric project pages (open). Next: Add a Philippines, Indonesia or New Zealand plant.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal). Last reviewed 2026-10-28.
 
 ## Grid-forming inverters and synchronous condensers
 <a id="pwr-grid-forming-inverters"></a>
@@ -420,16 +424,20 @@ flowchart LR
 
 **Performance:**
 - grid-following loss in Blue Cut Fire event, 2016: 1200 MW PV lost (largest single); inverters tripped on faults under 60 ms. [source](https://en.wikipedia.org/wiki/Grid-forming_inverter)
+- Hornsdale Power Reserve grid-forming operation: 100-150 MW discharge (100 MW / 129 MWh at Nov 2017 commissioning; expanded by 50 MW / 64.5 MWh from 2020); world's first big battery, first 100 MW / 129 MWh completed November 2017 (hornsdalepowerreserve.com.au); AEMO approved Hornsdale's grid-forming inverters to deliver inertia services into the South Australian grid (Neoen). [source](https://hornsdalepowerreserve.com.au)
+
+**Costs:**
+- Hornsdale grid-forming expansion cost: 71 million AUD (50 MW / 64.5 MWh expansion); "The $71 million project will see the current 100 MW / 129 MWh battery expanded" (ARENA, 19 Nov 2019), demonstrating grid-scale batteries providing grid-forming services. [source](https://arena.gov.au/news/worlds-largest-scale-battery-set-to-get-even-bigger)
+
+**Reference plants:**
+- Hornsdale Power Reserve, South Australia (Neoen/Tesla), AU: 100 MW / 129 MWh lithium-ion big battery (Nov 2017) expanded by 50 MW / 64.5 MWh; first grid-forming-inverter inertia services approved by AEMO; operating. [source](https://hornsdalepowerreserve.com.au)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Battery storage system with grid-forming inverter' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- real deployments with MW and dates, such as Hornsdale (performance): The Wikipedia page read does not mention them. Where: AEMO and Hornsdale Power Reserve reports (open). Next: Add deployments.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Grid-forming_inverter). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Grid-forming_inverter), [2](https://arena.gov.au/news/worlds-largest-scale-battery-set-to-get-even-bigger). Last reviewed 2026-10-28.
 
 ## HVDC transmission and interconnectors
 <a id="pwr-hvdc-transmission"></a>
@@ -447,15 +455,19 @@ flowchart LR
 
 **Key equipment:** converter stations, HVDC cables or overhead lines, converter transformers, DC breakers (emerging).
 
+**Performance:**
+- world-record UHVDC voltage and capacity (Changji-Guquan, China): 1100-12 kV DC bipolar voltage (±1,100) and GW transmission capacity (12 GW over about 3,300 km); ±1,100 kV Changji (Xinjiang) to Guquan (Anhui) UHVDC link, 12,000 MW, world records in voltage, capacity and distance; full-voltage transmission began January 2019; loss-per-1,000-km figure not stated in the pages read. [source](https://www.jiludb.com/en/record/highest-voltage-power-transmission-project)
+
+**Reference plants:**
+- Changji-Guquan ±1,100 kV UHVDC link, China (SGCC), CN: ±1,100 kV, 12 GW, about 3,300 km from Xinjiang to Anhui; world's highest-voltage DC transmission; full-voltage operation January 2019; operating. [source](https://www.powermag.com/press-releases/abb-wins-orders-of-over-300-million-for-worlds-first-1100-kv-uhvdc-power-link-in-china)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'HVDC power transmission' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- voltage ratings, GW capacity and loss per 1,000 km (performance): The Hitachi Energy page gives none. Where: Hitachi Energy and Siemens Energy HVDC references (open). Next: Add ratings and losses with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.hitachienergy.com/products-and-solutions/hvdc). Last reviewed 2026-10-25.
+Sources: [1](https://www.hitachienergy.com/products-and-solutions/hvdc). Last reviewed 2026-10-28.
 
 ## Heavy-duty gas turbines (H and J class)
 <a id="pwr-heavy-duty-gas-turbines"></a>
@@ -487,7 +499,7 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - installed cost per kW with dollar year (costs): Open vendor pages give no cost; cost databases are commercial. Searched OSTI corpus (25 reports) for "gas turbine", "installed cost", "$/kW", "capital cost", "levelized"; not present; 2026-10-28 Where: Gas Turbine World handbook (paid) (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add an open cost figure, for example from an EIA or NREL cost study.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; H/J-class references exist in OEM case studies behind portal pages; no verifiable open page found (osti corpus checked 2026-10-28, abstracts only). Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [2](https://power.mhi.com/products/gasturbines/lineup/m701j), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf). Last reviewed 2026-10-28.
@@ -964,14 +976,18 @@ flowchart LR
 - Hywind Tampen share of platform demand: 35 % of annual electricity demand of Snorre A, B and Gullfaks A, B, C; higher in strong wind. [source](https://www.equinor.com/energy/hywind-tampen)
 - demonstration floating project capex before 2030: 10000 USD/kW (may exceed); US demonstration-scale projects; dollar year not stated. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
 
+**Costs:**
+- Hywind Tampen project cost: 488-550 million USD (about NOK 5 bn) (2020$); dollar year not stated (2019-2020 estimates); "The Hywind Tampen investment will be close to NOK 5 billion ($488 million)" (Maritime Executive, Apr 2020); USD 550 m figure at FID (Oct 2019 reports); NOK 2.3 bn Enova grant support. [source](https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval)
+
+**Reference plants:**
+- Hywind Tampen floating wind farm, North Sea (Equinor), NO: 88 MW, 11 floating turbines, world's largest floating wind farm; first power 13 Nov 2022; powers Snorre and Gullfaks oil and gas platforms; operating. [source](https://jpt.spe.org/equinor-announces-first-power-from-hywind-tampen-wind-farm)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating offshore wind turbine' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- Hywind Tampen project cost (costs): The Equinor page gives no cost. Where: Equinor and partner annual reports (catalog: equinor-tech, open). Next: Add the investment with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.equinor.com/energy/hywind-tampen), [2](https://atb.nrel.gov/electricity/2024/offshore_wind). Last reviewed 2026-10-25.
+Sources: [1](https://www.equinor.com/energy/hywind-tampen), [2](https://atb.nrel.gov/electricity/2024/offshore_wind), [3](https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval). Last reviewed 2026-10-28.
 
 ## Gravity energy storage
 <a id="pwr-gravity-storage"></a>
@@ -993,11 +1009,11 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - Rudong, China gravity project details (reference_plants): The Energy Vault page read does not mention gravity storage. Where: Energy Vault investor filings (open). Next: Add MWh, efficiency and status from a filing.
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor round-trip claims only, no independent figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energyvault.com/). Last reviewed 2026-10-25.
+Sources: [1](https://www.energyvault.com/). Last reviewed 2026-10-28.
 
 ## Hydrogen-capable and ammonia-fired gas turbines
 <a id="pwr-hydrogen-ammonia-turbines"></a>
@@ -1249,11 +1265,15 @@ flowchart LR
 - NIF record yield: 8.6 MJ; April 2025. [source](https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power)
 - ITER plasma thermal output target: 500 MW for at least 400 s; heating input under 50 MW; no electricity generated. [source](https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power)
 
+**Costs:**
+- ITER project cost (construction and operations, evolving): 15-22 billion EUR (estimates; EU share EUR 5.61 bn approved to 2027); dollar year n/a — euro figures. NucNet (May 2018): EUR 15 bn project; S&P Global (Feb 2021): European Council agreed EUR 5.61 bn EU funding to 2027; 2024 re-baseline reported adding about EUR 5 bn and about ten years. Commercial fusion plant costs do not exist yet. [source](https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/022221-european-council-agrees-eur561-billion-funding-for-iter-fusion-project)
+
+**Reference plants:**
+- ITER, Cadarache, France (35-nation collaboration), FR: tokamak designed for 500 MW fusion power (ten times the input heating); European Council approved EUR 5.61 bn EU funding to 2027 (Feb 2021); first plasma had been expected December 2025 before the 2024 schedule re-baseline added years and about EUR 5 bn; NIF (US) demonstrated fusion ignition December 2022; construction. [source](https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/022221-european-council-agrees-eur561-billion-funding-for-iter-fusion-project)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Magnetic confinement fusion: tokamaks' 3 (2025); 'Fusion energy (general entry)' 3 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost of ITER and commercial plants (costs): The WNA page gives only the 2005 ITER estimate of EUR 12.8 billion plus about EUR 5 billion from the 2024 delay. Where: ITER organisation and CFS filings (open). Next: Add current figures with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power). Last reviewed 2026-10-25.
+Sources: [1](https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power). Last reviewed 2026-10-28.

@@ -63,6 +63,18 @@
       "low": 1200,
       "high": 1200,
       "year": 2016
+    },
+    {
+      "metric": "Hornsdale Power Reserve grid-forming operation",
+      "low": 100,
+      "high": 150,
+      "unit": "MW discharge (100 MW / 129 MWh at Nov 2017 commissioning; expanded by 50 MW / 64.5 MWh from 2020)",
+      "year": 2020,
+      "basis": "world's first big battery, first 100 MW / 129 MWh completed November 2017 (hornsdalepowerreserve.com.au); AEMO approved Hornsdale's grid-forming inverters to deliver inertia services into the South Australian grid (Neoen)",
+      "source": {
+        "url": "https://hornsdalepowerreserve.com.au",
+        "note": "Hornsdale Power Reserve official site; Neoen inertia-services announcement (read 2026-10-28)"
+      }
     }
   ],
   "trl": {
@@ -85,59 +97,14 @@
       "url": "https://en.wikipedia.org/wiki/Grid-forming_inverter",
       "source_id": "wikipedia",
       "note": "Wikipedia, Grid-forming inverter, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://arena.gov.au/news/worlds-largest-scale-battery-set-to-get-even-bigger",
+      "note": "ARENA, world's largest scale battery set to get even bigger, 19 Nov 2019"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "real deployments with MW and dates, such as Hornsdale",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Wikipedia page read does not mention them.",
-      "where": [
-        {
-          "hint": "AEMO and Hornsdale Power Reserve reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add deployments."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -150,6 +117,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Hornsdale grid-forming expansion cost",
+      "low": 71,
+      "high": 71,
+      "unit": "million AUD (50 MW / 64.5 MWh expansion)",
+      "year": 2019,
+      "basis": "\"The $71 million project will see the current 100 MW / 129 MWh battery expanded\" (ARENA, 19 Nov 2019), demonstrating grid-scale batteries providing grid-forming services",
+      "source": {
+        "url": "https://arena.gov.au/news/worlds-largest-scale-battery-set-to-get-even-bigger",
+        "note": "Australian Renewable Energy Agency (ARENA), 19 Nov 2019 (read 2026-10-28)"
+      }
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hornsdale Power Reserve, South Australia (Neoen/Tesla)",
+      "country": "AU",
+      "capacity": "100 MW / 129 MWh lithium-ion big battery (Nov 2017) expanded by 50 MW / 64.5 MWh; first grid-forming-inverter inertia services approved by AEMO",
+      "status": "operating",
+      "source": {
+        "url": "https://hornsdalepowerreserve.com.au",
+        "note": "Hornsdale Power Reserve official site; ARENA 19 Nov 2019; Neoen; read 2026-10-28"
+      }
     }
   ]
 }

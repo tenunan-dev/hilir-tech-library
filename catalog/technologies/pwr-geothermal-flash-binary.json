@@ -129,21 +129,8 @@
       "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named plants with capacity and start-up year",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant read.",
-      "where": [
-        {
-          "hint": "Ormat and Fuji Electric project pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add a Philippines, Indonesia or New Zealand plant."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -156,6 +143,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hellisheidi geothermal power plant, Hengill, Iceland (ON Power)",
+      "country": "IS",
+      "capacity": "303 MWe plus 200-400 MWth hot-water supply; commissioned in five stages 2006-2011; Iceland's largest geothermal CHP plant",
+      "status": "operating",
+      "source": {
+        "url": "https://verkis.com/projects/energy/hellisheidi-power-plant",
+        "note": "Verkis (design engineer): 303 MWe commissioned in five stages 2006-2011; operator ON Power: 200 MW thermal; read 2026-10-28"
+      }
     }
   ]
 }

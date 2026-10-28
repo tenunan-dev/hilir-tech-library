@@ -110,34 +110,8 @@
       "note": "World Nuclear Association, Nuclear fusion power, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost of ITER and commercial plants",
-      "reason_code": "not_in_sources_read",
-      "reason": "The WNA page gives only the 2005 ITER estimate of EUR 12.8 billion plus about EUR 5 billion from the 2024 delay.",
-      "where": [
-        {
-          "hint": "ITER organisation and CFS filings",
-          "access": "open"
-        }
-      ],
-      "action": "Add current figures with year."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -150,6 +124,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "ITER, Cadarache, France (35-nation collaboration)",
+      "country": "FR",
+      "capacity": "tokamak designed for 500 MW fusion power (ten times the input heating); European Council approved EUR 5.61 bn EU funding to 2027 (Feb 2021); first plasma had been expected December 2025 before the 2024 schedule re-baseline added years and about EUR 5 bn; NIF (US) demonstrated fusion ignition December 2022",
+      "status": "construction",
+      "source": {
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/022221-european-council-agrees-eur561-billion-funding-for-iter-fusion-project",
+        "note": "S&P Global, 22 Feb 2021 (EUR 5.61 bn to 2027; first plasma then expected Dec 2025, full operation 2035); 2024 re-baseline reported Jul 2024; read 2026-10-28"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "ITER project cost (construction and operations, evolving)",
+      "low": 15,
+      "high": 22,
+      "unit": "billion EUR (estimates; EU share EUR 5.61 bn approved to 2027)",
+      "year": 2021,
+      "basis": "dollar year n/a — euro figures. NucNet (May 2018): EUR 15 bn project; S&P Global (Feb 2021): European Council agreed EUR 5.61 bn EU funding to 2027; 2024 re-baseline reported adding about EUR 5 bn and about ten years. Commercial fusion plant costs do not exist yet",
+      "source": {
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/022221-european-council-agrees-eur561-billion-funding-for-iter-fusion-project",
+        "note": "S&P Global Commodity Insights, 22 Feb 2021 (read 2026-10-28)"
+      }
     }
   ]
 }

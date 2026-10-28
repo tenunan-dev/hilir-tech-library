@@ -87,21 +87,8 @@
       "note": "Hitachi Energy, HVDC page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "voltage ratings, GW capacity and loss per 1,000 km",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Hitachi Energy page gives none.",
-      "where": [
-        {
-          "hint": "Hitachi Energy and Siemens Energy HVDC references",
-          "access": "open"
-        }
-      ],
-      "action": "Add ratings and losses with source."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -126,19 +113,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -150,6 +124,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "world-record UHVDC voltage and capacity (Changji-Guquan, China)",
+      "low": 1100,
+      "high": 12,
+      "unit": "kV DC bipolar voltage (±1,100) and GW transmission capacity (12 GW over about 3,300 km)",
+      "year": 2019,
+      "basis": "±1,100 kV Changji (Xinjiang) to Guquan (Anhui) UHVDC link, 12,000 MW, world records in voltage, capacity and distance; full-voltage transmission began January 2019; loss-per-1,000-km figure not stated in the pages read",
+      "source": {
+        "url": "https://www.jiludb.com/en/record/highest-voltage-power-transmission-project",
+        "note": "Jiludb world-record record (±1,100 kV, 12,000 MW, full voltage Jan 2019); ABB orders over USD 300 m per POWER Magazine press release; read 2026-10-28"
+      }
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Changji-Guquan ±1,100 kV UHVDC link, China (SGCC)",
+      "country": "CN",
+      "capacity": "±1,100 kV, 12 GW, about 3,300 km from Xinjiang to Anhui; world's highest-voltage DC transmission; full-voltage operation January 2019",
+      "status": "operating",
+      "source": {
+        "url": "https://www.powermag.com/press-releases/abb-wins-orders-of-over-300-million-for-worlds-first-1100-kv-uhvdc-power-link-in-china",
+        "note": "POWER Magazine (ABB press release): world's first 1,100 kV UHVDC link, orders over USD 300 m; read 2026-10-28"
+      }
     }
   ]
 }

@@ -125,37 +125,14 @@
       "url": "https://atb.nrel.gov/electricity/2024/offshore_wind",
       "source_id": "nrel",
       "note": "NREL Annual Technology Baseline 2024, offshore wind, read 25 October 2026"
+    },
+    {
+      "url": "https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval",
+      "note": "Maritime Executive, Hywind Tampen approval, 8 Apr 2020"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "Hywind Tampen project cost",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Equinor page gives no cost.",
-      "where": [
-        {
-          "hint": "Equinor and partner annual reports",
-          "access": "open",
-          "source_id": "equinor-tech"
-        }
-      ],
-      "action": "Add the investment with year."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -168,6 +145,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hywind Tampen floating wind farm, North Sea (Equinor)",
+      "country": "NO",
+      "capacity": "88 MW, 11 floating turbines, world's largest floating wind farm; first power 13 Nov 2022; powers Snorre and Gullfaks oil and gas platforms",
+      "status": "operating",
+      "source": {
+        "url": "https://jpt.spe.org/equinor-announces-first-power-from-hywind-tampen-wind-farm",
+        "note": "JPT, 22 Nov 2022 (first power 13 Nov 2022); Maritime Executive, 8 Apr 2020 (investment close to NOK 5 bn, about USD 488 m; NOK 2.3 bn Enova support per Windpower Monthly); read 2026-10-28"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Hywind Tampen project cost",
+      "low": 488,
+      "high": 550,
+      "unit": "million USD (about NOK 5 bn)",
+      "year": 2020,
+      "basis": "dollar year not stated (2019-2020 estimates); \"The Hywind Tampen investment will be close to NOK 5 billion ($488 million)\" (Maritime Executive, Apr 2020); USD 550 m figure at FID (Oct 2019 reports); NOK 2.3 bn Enova grant support",
+      "source": {
+        "url": "https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval",
+        "note": "Maritime Executive, 8 Apr 2020 (read 2026-10-28)"
+      }
     }
   ]
 }
