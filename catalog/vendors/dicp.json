@@ -1,0 +1,23 @@
+{
+  "id": "dicp",
+  "name": "DICP / SYN Energy Technology",
+  "country": "China",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Dalian Institute of Chemical Physics with SYN Energy: licensor of the DMTO methanol-to-olefins technology family.",
+  "technologies": [
+    "pch-methanol-to-olefins"
+  ],
+  "url": "https://www.dicp.ac.cn",
+  "sources": [
+    {
+      "url": "https://www.dicp.ac.cn",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "SYN Energy Technology"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "totalenergies-corbion",
+  "name": "TotalEnergies Corbion",
+  "country": "Netherlands",
+  "roles": [
+    "oem"
+  ],
+  "description": "JV of TotalEnergies and Corbion producing PLA at the Rayong, Thailand plant.",
+  "technologies": [
+    "pch-bio-based-chemicals"
+  ],
+  "url": "https://www.totalenergies-corbion.com",
+  "sources": [
+    {
+      "url": "https://www.totalenergies-corbion.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

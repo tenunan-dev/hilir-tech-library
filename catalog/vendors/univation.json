@@ -1,0 +1,23 @@
+{
+  "id": "univation",
+  "name": "Univation Technologies",
+  "country": "USA",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Dow-affiliated JV licensing UNIPOL gas-phase polyethylene technology and XCAT catalysts.",
+  "technologies": [
+    "pch-polyethylene"
+  ],
+  "url": "https://www.univation.com",
+  "sources": [
+    {
+      "url": "https://www.univation.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Univation (Dow)"
+  ]
+}

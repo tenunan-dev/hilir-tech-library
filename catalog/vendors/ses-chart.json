@@ -1,0 +1,23 @@
+{
+  "id": "ses-chart",
+  "name": "Sustainable Energy Solutions (Chart Industries)",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Cryogenic carbon capture technology (CCC) using desublimation, developed with Brigham Young University and held within Chart Industries.",
+  "technologies": [
+    "ccs-cryogenic"
+  ],
+  "url": "https://www.chartindustries.com",
+  "sources": [
+    {
+      "url": "https://www.chartindustries.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Sustainable Energy Solutions"
+  ]
+}

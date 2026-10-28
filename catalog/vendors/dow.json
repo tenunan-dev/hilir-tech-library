@@ -1,0 +1,26 @@
+{
+  "id": "dow",
+  "name": "Dow",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "licensor"
+  ],
+  "description": "US chemical major: ethylene oxide/glycols, polyethylene and propylene oxide, and e-cracking research with BASF and SABIC.",
+  "technologies": [
+    "pch-ethylene-oxide-glycols",
+    "pch-propylene-oxide"
+  ],
+  "url": "https://www.dow.com",
+  "sources": [
+    {
+      "url": "https://www.dow.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Dow and BASF",
+    "Dow Chemical"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "grace",
+  "name": "W. R. Grace",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Catalyst maker (now part of Standard Industries) supplying UNIPOL PP catalysts and FCC/additives portfolios.",
+  "technologies": [
+    "pch-polypropylene"
+  ],
+  "url": "https://grace.com",
+  "sources": [
+    {
+      "url": "https://grace.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Grace (UNIPOL PP)"
+  ]
+}

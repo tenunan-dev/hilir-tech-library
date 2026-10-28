@@ -1,0 +1,20 @@
+{
+  "id": "carbios",
+  "name": "Carbios",
+  "country": "France",
+  "roles": [
+    "developer"
+  ],
+  "description": "French enzymatic PET recycling company (C-Zyme process) building the Longlaville industrial demonstration plant.",
+  "technologies": [
+    "pch-pet-depolymerisation"
+  ],
+  "url": "https://www.carbios.com",
+  "sources": [
+    {
+      "url": "https://www.carbios.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

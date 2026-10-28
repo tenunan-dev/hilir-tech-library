@@ -1,0 +1,46 @@
+{
+  "id": "axens",
+  "name": "Axens",
+  "country": "France",
+  "roles": [
+    "licensor",
+    "supplier"
+  ],
+  "description": "French technology licensor (IFP Energies Nouvelles group) for refining, petrochemicals and gas: Prime-G+ desulphurisation, Parex adsorption, HyCRC cracking processes and gas sweetening solvents.",
+  "technologies": [
+    "pch-aromatics-complex",
+    "pch-linear-alpha-olefins",
+    "pch-paraxylene-adsorption",
+    "gas-amine-agr",
+    "gas-dehydration",
+    "gas-liquid-redox-lo-cat",
+    "gas-mercury-removal",
+    "gas-sulfur-recovery",
+    "ref-catalytic-reforming",
+    "ref-co-processing",
+    "ref-crude-to-chemicals",
+    "ref-etherification",
+    "ref-fcc",
+    "ref-fcc-gasoline-post-treating",
+    "ref-hefa",
+    "ref-hydrocracking",
+    "ref-hydrotreating",
+    "ref-isomerisation",
+    "ref-petrochemical-integration",
+    "ref-resid-hydrocracking",
+    "ref-visbreaking-sda"
+  ],
+  "url": "https://www.axens.net",
+  "sources": [
+    {
+      "url": "https://www.axens.net",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Prime-G+",
+    "Parex",
+    "HyCRC"
+  ]
+}

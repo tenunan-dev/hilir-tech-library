@@ -1,0 +1,23 @@
+{
+  "id": "evonik-uhde-po",
+  "name": "Evonik and thyssenkrupp Uhde (HPPO alliance)",
+  "country": "Germany",
+  "roles": [
+    "licensor"
+  ],
+  "description": "The Evonik-Uhde hydrogen-peroxide-to-propylene-oxide alliance, whose water-only co-product HPPO complex started up in China in 2023.",
+  "technologies": [
+    "pch-propylene-oxide"
+  ],
+  "url": "https://www.evonik.com",
+  "sources": [
+    {
+      "url": "https://www.evonik.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Evonik and thyssenkrupp Uhde"
+  ]
+}

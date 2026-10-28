@@ -1,0 +1,24 @@
+{
+  "id": "slb-capturi",
+  "name": "SLB Capturi",
+  "country": "Denmark",
+  "roles": [
+    "oem"
+  ],
+  "description": "Solid-sorbent capture specialist formed from Aker Carbon Capture joining SLB; supplier of the Orca and Mammoth DAC plants and Just Catch modules.",
+  "technologies": [
+    "ccs-amine-post-combustion",
+    "ccs-dac-solid-sorbent"
+  ],
+  "url": "https://www.slbcapturi.com",
+  "sources": [
+    {
+      "url": "https://www.slbcapturi.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Aker Carbon Capture"
+  ]
+}

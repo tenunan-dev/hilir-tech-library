@@ -1,0 +1,20 @@
+{
+  "id": "atlas-copco",
+  "name": "Atlas Copco",
+  "country": "Sweden",
+  "roles": [
+    "oem"
+  ],
+  "description": "Swedish compressor and gas-equipment group; its process compressors and dryers serve CO2 compression and dehydration duties.",
+  "technologies": [
+    "ccs-co2-compression-dehydration"
+  ],
+  "url": "https://www.atlascopco.com",
+  "sources": [
+    {
+      "url": "https://www.atlascopco.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

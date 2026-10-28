@@ -1,0 +1,21 @@
+{
+  "id": "stockholm-exergi",
+  "name": "Stockholm Exergi",
+  "country": "Sweden",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "Swedish district-heat utility building the Beccs Stockholm full-scale BECCS plant at its KVV8 biomass boiler.",
+  "technologies": [
+    "ccs-beccs"
+  ],
+  "url": "https://stockholmexergi.se",
+  "sources": [
+    {
+      "url": "https://stockholmexergi.se",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

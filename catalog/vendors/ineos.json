@@ -1,0 +1,22 @@
+{
+  "id": "ineos",
+  "name": "Ineos",
+  "country": "United Kingdom",
+  "roles": [
+    "oem"
+  ],
+  "description": "UK chemical group producing olefins, polyolefins, PVC/chlor-alkali and engineering polymers across Europe and North America.",
+  "technologies": [
+    "pch-polyethylene",
+    "pch-polypropylene",
+    "pch-pvc-chlor-alkali"
+  ],
+  "url": "https://www.ineos.com",
+  "sources": [
+    {
+      "url": "https://www.ineos.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

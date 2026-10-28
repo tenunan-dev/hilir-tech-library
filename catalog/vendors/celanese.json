@@ -1,0 +1,21 @@
+{
+  "id": "celanese",
+  "name": "Celanese",
+  "country": "USA",
+  "roles": [
+    "operator",
+    "oem"
+  ],
+  "description": "US acetyl-chain chemical company operating the world-scale Clear Lake acetic acid complex and engineering plastics businesses.",
+  "technologies": [
+    "pch-acetic-acid"
+  ],
+  "url": "https://www.celanese.com",
+  "sources": [
+    {
+      "url": "https://www.celanese.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

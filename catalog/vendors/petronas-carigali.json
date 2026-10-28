@@ -1,0 +1,20 @@
+{
+  "id": "petronas-carigali",
+  "name": "PETRONAS Carigali",
+  "country": "Malaysia",
+  "roles": [
+    "operator"
+  ],
+  "description": "PETRONAS's exploration and production arm; operator entities for Malaysian depleted-field CO2 storage contexts.",
+  "technologies": [
+    "ccs-depleted-field-storage"
+  ],
+  "url": "https://www.petronas.com",
+  "sources": [
+    {
+      "url": "https://www.petronas.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

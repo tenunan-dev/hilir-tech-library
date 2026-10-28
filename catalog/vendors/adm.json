@@ -1,0 +1,23 @@
+{
+  "id": "adm",
+  "name": "ADM (Archer-Daniels-Midland)",
+  "country": "USA",
+  "roles": [
+    "operator"
+  ],
+  "description": "US agricultural processor whose Decatur, Illinois corn complex feeds the ADM Illinois Industrial CCS facility, storing about 1 Mt CO2/yr in the Mount Simon sandstone.",
+  "technologies": [
+    "ccs-beccs"
+  ],
+  "url": "https://www.adm.com",
+  "sources": [
+    {
+      "url": "https://www.adm.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Archer-Daniels-Midland"
+  ]
+}

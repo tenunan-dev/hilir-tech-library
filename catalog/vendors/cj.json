@@ -1,0 +1,23 @@
+{
+  "id": "cj",
+  "name": "CJ CheilJedang",
+  "country": "South Korea",
+  "roles": [
+    "oem"
+  ],
+  "description": "Korean food and biotech group producing PHA bioplastics by fermentation (CJ Biomaterials).",
+  "technologies": [
+    "pch-pha-bioplastics"
+  ],
+  "url": "https://www.cj.co.kr",
+  "sources": [
+    {
+      "url": "https://www.cj.co.kr",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "CJ Biomaterials"
+  ]
+}

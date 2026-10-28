@@ -1,0 +1,32 @@
+{
+  "id": "exxonmobil",
+  "name": "ExxonMobil",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "operator"
+  ],
+  "description": "US supermajor with steam-cracking, aromatics and alkylation technology (Exxal), MTG licensing, and MCFC carbon-capture research with FuelCell Energy.",
+  "technologies": [
+    "pch-toluene-disproportionation",
+    "ccs-molten-carbonate-fuel-cell-capture",
+    "gas-amine-agr",
+    "gas-lng-acid-gas-reinjection",
+    "gas-to-methanol",
+    "ref-delayed-coking",
+    "ref-direct-crude-cracking",
+    "ref-fcc-gasoline-post-treating",
+    "ref-flue-gas-carbon-capture"
+  ],
+  "url": "https://corporate.exxonmobil.com",
+  "sources": [
+    {
+      "url": "https://corporate.exxonmobil.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "ExxonMobil Research and Engineering"
+  ]
+}

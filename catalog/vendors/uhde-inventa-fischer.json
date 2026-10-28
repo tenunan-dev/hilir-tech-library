@@ -1,0 +1,23 @@
+{
+  "id": "uhde-inventa-fischer",
+  "name": "thyssenkrupp Uhde Inventa-Fischer",
+  "country": "Germany",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Berlin-based PET and polyester process licensor (Inventa-Fischer lineage) within thyssenkrupp Uhde.",
+  "technologies": [
+    "pch-pet-polyester"
+  ],
+  "url": "https://uhde.thyssenkrupp.com",
+  "sources": [
+    {
+      "url": "https://uhde.thyssenkrupp.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "thyssenkrupp Uhde Inventa-Fischer"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "undo",
+  "name": "UNDO",
+  "country": "United Kingdom",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Scottish enhanced rock weathering company spreading crushed basalt on farmland, backed by Microsoft purchase agreements.",
+  "technologies": [
+    "ccs-enhanced-weathering"
+  ],
+  "url": "https://undoCarbon.com",
+  "sources": [
+    {
+      "url": "https://undoCarbon.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

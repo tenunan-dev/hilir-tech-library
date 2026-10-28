@@ -1,0 +1,23 @@
+{
+  "id": "fraunhofer",
+  "name": "Fraunhofer Society",
+  "country": "Germany",
+  "roles": [
+    "developer"
+  ],
+  "description": "German applied-research organisation whose institutes work on solvent-based plastics purification and recycling processes.",
+  "technologies": [
+    "pch-solvent-based-plastics-purification"
+  ],
+  "url": "https://www.fraunhofer.de",
+  "sources": [
+    {
+      "url": "https://www.fraunhofer.de",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Fraunhofer IVV"
+  ]
+}

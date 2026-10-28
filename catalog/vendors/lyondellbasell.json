@@ -1,0 +1,23 @@
+{
+  "id": "lyondellbasell",
+  "name": "LyondellBasell",
+  "country": "Netherlands",
+  "roles": [
+    "oem",
+    "licensor"
+  ],
+  "description": "Global polyolefins producer and licensor of Spheripol/Hostalen PP-PE processes, also a propylene oxide producer.",
+  "technologies": [
+    "pch-polyethylene",
+    "pch-polypropylene",
+    "pch-propylene-oxide"
+  ],
+  "url": "https://www.lyondellbasell.com",
+  "sources": [
+    {
+      "url": "https://www.lyondellbasell.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "honeywell-uop",
+  "name": "Honeywell UOP",
+  "country": "USA",
+  "roles": [
+    "licensor",
+    "supplier"
+  ],
+  "description": "Honeywell's process technology and licensing business: aromatics complexes (Parex, Sulfolane), Oleflex/Catofin dehydrogenation, MTO, alkylation, Merox sweetening, gas treating and NGL recovery.",
+  "technologies": [
+    "pch-aromatics-complex",
+    "pch-methanol-to-olefins",
+    "pch-paraxylene-adsorption",
+    "pch-propane-dehydrogenation",
+    "pch-toluene-disproportionation",
+    "gas-amine-agr",
+    "gas-dehydration",
+    "gas-hot-potassium-carbonate",
+    "gas-membrane-co2",
+    "gas-ngl-fractionation",
+    "gas-physical-solvent-agr",
+    "gas-small-scale-lng",
+    "ref-alcohol-to-jet",
+    "ref-alkylation",
+    "ref-catalytic-reforming",
+    "ref-co-processing",
+    "ref-crude-to-chemicals",
+    "ref-fcc",
+    "ref-hefa",
+    "ref-hydrocracking",
+    "ref-hydrotreating",
+    "ref-isomerisation",
+    "ref-merox-sweetening",
+    "ref-petrochemical-integration"
+  ],
+  "url": "https://uop.honeywell.com",
+  "sources": [
+    {
+      "url": "https://uop.honeywell.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "UOP",
+    "Honeywell UOP Ortloff"
+  ],
+  "products": [
+    "Parex",
+    "Oleflex",
+    "C3 Oleflex",
+    "Merox"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "drax",
+  "name": "Drax Group",
+  "country": "United Kingdom",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "UK power generator converting to biomass and piloting BECCS at Selby, with planned large-scale capture.",
+  "technologies": [
+    "ccs-beccs"
+  ],
+  "url": "https://www.drax.com",
+  "sources": [
+    {
+      "url": "https://www.drax.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

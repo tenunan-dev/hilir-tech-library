@@ -1,0 +1,20 @@
+{
+  "id": "borealis",
+  "name": "Borealis",
+  "country": "Austria",
+  "roles": [
+    "operator"
+  ],
+  "description": "Austrian polyolefins producer (Borstar technology) with European cracker and PE/PP assets.",
+  "technologies": [
+    "pch-polyethylene"
+  ],
+  "url": "https://www.borealisgroup.com",
+  "sources": [
+    {
+      "url": "https://www.borealisgroup.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

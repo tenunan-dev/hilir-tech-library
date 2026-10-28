@@ -1,0 +1,24 @@
+{
+  "id": "sabic",
+  "name": "SABIC",
+  "country": "Saudi Arabia",
+  "roles": [
+    "oem"
+  ],
+  "description": "Saudi Basic Industries: global petrochemical producer co-developing the electric steam-cracking furnace demo and engineering thermoplastics (LEXAN).",
+  "technologies": [
+    "pch-electric-steam-cracking",
+    "pch-engineering-plastics"
+  ],
+  "url": "https://www.sabic.com",
+  "sources": [
+    {
+      "url": "https://www.sabic.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "SABIC and Linde"
+  ]
+}

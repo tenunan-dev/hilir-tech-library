@@ -1,0 +1,20 @@
+{
+  "id": "svante",
+  "name": "Svante",
+  "country": "Canada",
+  "roles": [
+    "oem"
+  ],
+  "description": "Canadian maker of structured solid-sorbent filter modules for rapid TSA capture (Chevron-backed FE0031944 project),Burnaby BC.",
+  "technologies": [
+    "ccs-solid-sorbent-tsa"
+  ],
+  "url": "https://svanteinc.com",
+  "sources": [
+    {
+      "url": "https://svanteinc.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

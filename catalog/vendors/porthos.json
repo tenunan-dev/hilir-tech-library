@@ -1,0 +1,25 @@
+{
+  "id": "porthos",
+  "name": "Porthos",
+  "country": "Netherlands",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "Port of Rotterdam CO2 transport JV (Port of Rotterdam, Gasunie, EBN): 55-km pipeline and depleted North Sea gas field storage, under construction.",
+  "technologies": [
+    "ccs-depleted-field-storage",
+    "mid-co2-pipelines"
+  ],
+  "url": "https://www.porthosco2.nl",
+  "sources": [
+    {
+      "url": "https://www.porthosco2.nl",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Porthos (Port of Rotterdam, Gasunie, EBN)"
+  ]
+}

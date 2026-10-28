@@ -1,0 +1,20 @@
+{
+  "id": "natureworks",
+  "name": "NatureWorks",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "World's largest PLA producer (Ingeo brand), operating the Blair, Nebraska plant and a new Thailand facility.",
+  "technologies": [
+    "pch-bio-based-chemicals"
+  ],
+  "url": "https://www.natureworks.com",
+  "sources": [
+    {
+      "url": "https://www.natureworks.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

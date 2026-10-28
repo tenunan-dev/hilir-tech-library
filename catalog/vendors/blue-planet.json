@@ -1,0 +1,20 @@
+{
+  "id": "blue-planet",
+  "name": "Blue Planet Systems",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "California company mineralising CO2 into calcium carbonate aggregates for use as construction material.",
+  "technologies": [
+    "ccs-co2-concrete"
+  ],
+  "url": "https://www.blueplanetsystems.com",
+  "sources": [
+    {
+      "url": "https://www.blueplanetsystems.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

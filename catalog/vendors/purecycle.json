@@ -1,0 +1,21 @@
+{
+  "id": "purecycle",
+  "name": "PureCycle Technologies",
+  "country": "USA",
+  "roles": [
+    "operator",
+    "oem"
+  ],
+  "description": "US company commercialising solvent-based polypropylene purification (Pristine PP) at its Athens, Ohio plant.",
+  "technologies": [
+    "pch-solvent-based-plastics-purification"
+  ],
+  "url": "https://purecycletech.com",
+  "sources": [
+    {
+      "url": "https://purecycletech.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

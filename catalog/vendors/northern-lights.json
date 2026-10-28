@@ -1,0 +1,26 @@
+{
+  "id": "northern-lights",
+  "name": "Northern Lights JV",
+  "country": "Norway",
+  "roles": [
+    "operator"
+  ],
+  "description": "Equinor-Shell-TotalEnergies joint venture operating the world's first merchant CO2 transport and storage service (1.5 Mtpa Phase 1, injecting since 2025).",
+  "technologies": [
+    "ccs-saline-aquifer-storage",
+    "ccs-co2-shipping",
+    "mid-co2-pipelines",
+    "mid-liquid-co2-carriers"
+  ],
+  "url": "https://norlights.com",
+  "sources": [
+    {
+      "url": "https://norlights.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Northern Lights (Equinor, Shell, TotalEnergies)"
+  ]
+}

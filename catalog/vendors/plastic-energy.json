@@ -1,0 +1,21 @@
+{
+  "id": "plastic-energy",
+  "name": "Plastic Energy",
+  "country": "Spain",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Spanish chemical-recycling company operating TAC pyrolysis plants at Almeria and Seville; entered administration in 2026 and emerged the same year.",
+  "technologies": [
+    "pch-plastics-pyrolysis"
+  ],
+  "url": "https://plasticenergy.com",
+  "sources": [
+    {
+      "url": "https://plasticenergy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

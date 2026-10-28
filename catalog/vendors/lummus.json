@@ -1,0 +1,32 @@
+{
+  "id": "lummus",
+  "name": "Lummus Technology",
+  "country": "USA",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Major process licensor covering steam cracking, FCC, alkylation, butadiene extraction, metathesis (OCT), PDH (CATOFIN), phenol, OCM and petrochemicals - spun out of McDermott to a JLM consortium.",
+  "technologies": [
+    "pch-butadiene",
+    "pch-olefins-metathesis",
+    "pch-oxidative-coupling-methane",
+    "pch-propane-dehydrogenation",
+    "pch-steam-cracking",
+    "pch-phenol-acetone",
+    "ref-delayed-coking",
+    "ref-fcc",
+    "ref-direct-crude-cracking",
+    "ref-etherification"
+  ],
+  "url": "https://www.lummustechnology.com",
+  "sources": [
+    {
+      "url": "https://www.lummustechnology.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Lummus"
+  ]
+}

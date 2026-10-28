@@ -1,8 +1,46 @@
 # Vendors, suppliers and packagers
 
-205 vendor records covering 115 technologies. One record per vendor in
+262 vendor records covering 195 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
+
+## CCS: CCUS
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [ADM (Archer-Daniels-Midland)](https://www.adm.com) | USA | operator | Bioenergy with CCS (BECCS) |
+| [Atlas Copco](https://www.atlascopco.com) | Sweden | oem | CO2 compression and dehydration |
+| [Blue Planet Systems](https://www.blueplanetsystems.com) | USA | developer | CO2 to concrete and aggregates |
+| [Carbon Engineering (1PointFive, Occidental)](https://carbonengineering.com) | Canada | developer | Direct air capture with liquid solvent (KOH and calcium loop) |
+| [Carbon Recycling International](https://carbonrecycling.com) | Iceland | operator | CO2 to methanol and fuels |
+| [Covestro](https://www.covestro.com) | Germany | oem | CO2 to urea and polymers |
+| [Drax Group](https://www.drax.com) | United Kingdom | operator, developer | Bioenergy with CCS (BECCS) |
+| [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Molten carbonate fuel cell capture |
+| [Fluor](https://www.fluor.com) | USA | epc, licensor | Amine solvent post-combustion capture |
+| [FuelCell Energy](https://fuelcellenergy.com) | USA | oem | Molten carbonate fuel cell capture |
+| [MTR Carbon Capture](https://mtrcc.com) | USA | developer | Polymeric membrane capture |
+| [NET Power](https://www.netpower.com) | USA | developer | Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power) |
+| [Northern Lights JV](https://norlights.com) | Norway | operator | Geological CO2 storage in saline aquifers; CO2 shipping and terminals |
+| [PETRONAS Carigali](https://www.petronas.com) | Malaysia | operator | Storage in depleted oil and gas fields |
+| [Planetary Technologies](https://www.planetarytech.com) | Canada | developer | Enhanced rock weathering and ocean alkalinity enhancement |
+| [Porthos](https://www.porthosco2.nl) | Netherlands | operator, developer | Storage in depleted oil and gas fields |
+| [Shell Catalysts & Technologies](https://www.catalysts.shell.com) | Netherlands | licensor | Amine solvent post-combustion capture; Chemical solvent capture from syngas (hydrogen plants) |
+| [SLB Capturi](https://www.slbcapturi.com) | Denmark | oem | Amine solvent post-combustion capture; Direct air capture with solid sorbent |
+| [Stockholm Exergi](https://stockholmexergi.se) | Sweden | operator, developer | Bioenergy with CCS (BECCS) |
+| [Sustainable Energy Solutions (Chart Industries)](https://www.chartindustries.com) | USA | oem | Cryogenic carbon capture (desublimation) |
+| [Svante](https://svanteinc.com) | Canada | oem | Solid sorbent capture by rapid temperature swing |
+| [Toshiba](https://www.global.toshiba) | Japan | oem | Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power) |
+| [Twelve](https://www.twelve.bio) | USA | developer | CO2 electroreduction to CO, formic acid and ethylene |
+| [UNDO](https://undoCarbon.com) | United Kingdom | developer, operator | Enhanced rock weathering and ocean alkalinity enhancement |
+| [Verdox](https://verdox.com) | USA | developer | Electro-swing and moisture-swing DAC |
+
+## GAS: Gas processing and LNG
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Axens](https://www.axens.net) | France | licensor, supplier | Amine acid gas removal (MDEA, formulated amines); Molecular sieve and glycol dehydration; Liquid redox sulfur recovery (LO-CAT); Mercury removal units; Sulfur recovery (Claus, tail gas treating, SuperClaus) |
+| [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Amine acid gas removal (MDEA, formulated amines); Carbon capture on LNG plants (acid gas reinjection); Gas-to-methanol and methanol-to-gasoline |
+| [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Amine acid gas removal (MDEA, formulated amines); Molecular sieve and glycol dehydration; Hot potassium carbonate (Benfield); Membrane CO2 removal for high-CO2 gas; NGL fractionation and LPG recovery; Physical solvent gas treating (Selexol, Rectisol, Purisol); Small and mid-scale modular LNG |
 
 ## H2: Hydrogen and low-carbon fuels
 
@@ -69,6 +107,52 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Velocys](https://www.velocys.com) | United Kingdom | licensor | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
 | [WinGD](https://www.wingd.com) | Switzerland | oem | Ammonia as marine fuel |
 | [Yara](https://www.yara.com) | Norway | operator, operator | Biogas reforming to hydrogen |
+
+## MID: Midstream
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Northern Lights JV](https://norlights.com) | Norway | operator | CO2 pipelines (dense phase); Liquid CO2 carriers |
+| [Porthos](https://www.porthosco2.nl) | Netherlands | operator, developer | CO2 pipelines (dense phase) |
+
+## PCH: Petrochemicals
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Agilyx](https://agilyx.com) | USA | developer, supplier | Plastics pyrolysis (chemical recycling) |
+| [Axens](https://www.axens.net) | France | licensor, supplier | Aromatics complexes (paraxylene, benzene); Linear alpha olefins; Paraxylene adsorption and crystallisation |
+| [Borealis](https://www.borealisgroup.com) | Austria | operator | Polyethylene (gas phase, slurry, solution) |
+| [Braskem](https://www.braskem.com) | Brazil | operator | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
+| [Carbios](https://www.carbios.com) | France | developer | Depolymerisation of PET (glycolysis, enzymatic) |
+| [Celanese](https://www.celanese.com) | USA | operator, oem | Acetic acid (methanol carbonylation) |
+| [Chevron Phillips Chemical](https://www.cpchem.com) | USA | oem, licensor | Polyethylene (gas phase, slurry, solution) |
+| [CJ CheilJedang](https://www.cj.co.kr) | South Korea | oem | PHA bioplastics |
+| [Covestro](https://www.covestro.com) | Germany | oem | Engineering plastics (polycarbonate, nylon) |
+| [Danimer Scientific](https://danimerscientific.com) | USA | oem | PHA bioplastics |
+| [DICP / SYN Energy Technology](https://www.dicp.ac.cn) | China | licensor | Methanol-to-olefins (MTO, DMTO) |
+| [Dow](https://www.dow.com) | USA | oem, licensor | Ethylene oxide and glycols; Propylene oxide (HPPO, PO/SM) |
+| [Evonik and thyssenkrupp Uhde (HPPO alliance)](https://www.evonik.com) | Germany | licensor | Propylene oxide (HPPO, PO/SM) |
+| [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Toluene disproportionation and transalkylation |
+| [Fraunhofer Society](https://www.fraunhofer.de) | Germany | developer | Solvent-based purification of plastics |
+| [GIG Karasek](https://www.gigkarasek.at) | Austria | oem | Electrification of process heat (e-boilers, heat pumps) |
+| [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Aromatics complexes (paraxylene, benzene); Methanol-to-olefins (MTO, DMTO); Paraxylene adsorption and crystallisation; Propane dehydrogenation (Oleflex, CATOFIN); Toluene disproportionation and transalkylation |
+| [Indorama Ventures](https://www.indoramaventures.com) | Thailand | oem | Depolymerisation of PET (glycolysis, enzymatic) |
+| [Ineos](https://www.ineos.com) | United Kingdom | oem | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); PVC (suspension) and chlor-alkali |
+| [Loop Industries](https://www.loopindustries.com) | Canada | developer | Depolymerisation of PET (glycolysis, enzymatic) |
+| [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Butadiene extraction and on-purpose butadiene; Metathesis (OCT); Oxidative coupling of methane; Propane dehydrogenation (Oleflex, CATOFIN); Steam cracking (naphtha, ethane, LPG); Phenol and acetone (cumene) |
+| [LyondellBasell](https://www.lyondellbasell.com) | Netherlands | oem, licensor | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); Propylene oxide (HPPO, PO/SM) |
+| [Mura Technology](https://muraplastics.com) | United Kingdom | developer | Plastics pyrolysis (chemical recycling) |
+| [NatureWorks](https://www.natureworks.com) | USA | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
+| [Plastic Energy](https://plasticenergy.com) | Spain | developer, operator | Plastics pyrolysis (chemical recycling) |
+| [PureCycle Technologies](https://purecycletech.com) | USA | operator, oem | Solvent-based purification of plastics |
+| [SABIC](https://www.sabic.com) | Saudi Arabia | oem | Electric steam cracking; Engineering plastics (polycarbonate, nylon) |
+| [Scientific Design Company](https://www.scientificdesign.com) | USA | licensor | Ethylene oxide and glycols |
+| [Siluria Technologies](https://www.lummustechnology.com) | USA | developer | Oxidative coupling of methane |
+| [Stamicarbon](https://www.stamicarbon.com) | Netherlands | licensor | Ammonia and urea |
+| [thyssenkrupp Uhde Inventa-Fischer](https://uhde.thyssenkrupp.com) | Germany | licensor | PET and polyester |
+| [TotalEnergies Corbion](https://www.totalenergies-corbion.com) | Netherlands | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
+| [Univation Technologies](https://www.univation.com) | USA | licensor | Polyethylene (gas phase, slurry, solution) |
+| [W. R. Grace](https://grace.com) | USA | supplier | Polypropylene (gas phase, bulk) |
 
 ## PWR: Power and renewables
 
@@ -145,6 +229,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Wärtsilä](https://www.wartsila.com/energy) | Finland | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
 | [X-energy](https://x-energy.com) | USA | developer, supplier | Advanced reactors (high-temperature gas, molten salt); Small modular reactors |
 | [Ørsted](https://orsted.com) | Denmark | developer, operator | Offshore wind (fixed bottom) |
+
+## REF: Refining
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Axens](https://www.axens.net) | France | licensor, supplier | Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Etherification (MTBE, ETBE, TAME); Fluid catalytic cracking and resid FCC; FCC gasoline post-treating (Prime-G+, SCANfining); Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Refinery-petrochemical integration (FCC propylene, HS-FCC); Resid hydrocracking (ebullated and slurry bed); Visbreaking and solvent deasphalting |
+| [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Delayed coking and fluid coking; Direct crude cracking; FCC gasoline post-treating (Prime-G+, SCANfining); Refinery flue gas and FCC carbon capture |
+| [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Alcohol-to-jet SAF; Alkylation (HF, sulfuric, ionic liquid, solid acid); Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Fluid catalytic cracking and resid FCC; Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Mercaptan sweetening (Merox); Refinery-petrochemical integration (FCC propylene, HS-FCC) |
+| [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Delayed coking and fluid coking; Fluid catalytic cracking and resid FCC; Direct crude cracking; Etherification (MTBE, ETBE, TAME) |
 
 ## ROT: Rotating and static equipment
 
@@ -235,19 +328,19 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).
 Adding a record for one of them is the next batch of this directory.
 
-- **CCS** (36): ADM; Atlas Copco; Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); Carbon Recycling International; CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); Covestro; DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; ExxonMobil; Fertiliser producers; Fluor; FuelCell Energy; MTR Carbon Capture; NET Power (cycle developer), Toshiba (combustor and turbine); Northern Lights; PETRONAS Carigali; Planetary; Porthos (Port of Rotterdam, Gasunie, EBN); Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources; Shell Catalysts & Technologies; SLB Capturi; Stockholm Exergi; Sustainable Energy Solutions (Chart Industries); Svante; Twelve; UNDO; Verdox
+- **CCS** (16): Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
 - **DIG** (9): Amazon Web Services; Augury; C3 AI; Google Cloud Platform; Honeywell; IBM Red Hat OpenShift; Microsoft Azure; SparkCognition; Yokogawa
-- **GAS** (29): Air Liquide Engineering & Construction; Axens; Bechtel; Black & Veatch; Chart Industries; Chevron Australia; Clean Energy Fuels; ConocoPhillips; Dow; Enerflex; Excelerate Energy; ExxonMobil; Freeport LNG; FueLNG; Golar LNG; Honeywell UOP; Honeywell UOP Ortloff; Höegh LNG; Jacobs; Kobe Steel; KT Tecnimont; Merichem; PETRONAS Carigali; RasGas / Qatargas (operators); Sasol; Sumitomo Precision Products; Titan; TotalEnergies; Worley Comprimo
+- **GAS** (23): Air Liquide Engineering & Construction; Bechtel; Black & Veatch; Chart Industries; Chevron Australia; Clean Energy Fuels; ConocoPhillips; Enerflex; Excelerate Energy; Freeport LNG; FueLNG; Golar LNG; Höegh LNG; Jacobs; Kobe Steel; KT Tecnimont; Merichem; RasGas / Qatargas (operators); Sasol; Sumitomo Precision Products; Titan; TotalEnergies; Worley Comprimo
 - **H2** (1): Ensyn
 - **HSE** (3): Engelhard Corporation; IHI Corporation; J-W Instruments
 - **INS** (8): Claroty; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
 - **MAT** (17): 3M; AkzoNobel; Alleima; Amiantit; Avestec Technologies; Axalta Coating Systems; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Jotun Powder Coatings; Sherwin-Williams (Valspar); Tenaris; Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
-- **MID** (28): AP Sensing; ChampionX; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; KBC (Yokogawa); LiquidPower Specialty Products; Mitsubishi Shipbuilding; Nippon Steel; Northern Lights; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
-- **PCH** (38): Agilyx; Axens; BASF, SABIC, Linde; Borealis; Braskem; Carbios; Celanese; Chevron Phillips Chemical; CJ; Covestro; Danimer Scientific; DICP / SYN Energy Technology; Dow; Dow and BASF; Evonik and thyssenkrupp Uhde; ExxonMobil; Fraunhofer; GIG Karasek; Grace (UNIPOL PP); Honeywell UOP; Indorama Ventures; Ineos; Loop Industries; Lummus; Lummus Technology; LyondellBasell; Mura Technology; NatureWorks; Plastic Energy; PureCycle Technologies; SABIC; SABIC and Linde; Scientific Design; Siluria Technologies; Stamicarbon; thyssenkrupp Uhde Inventa-Fischer; TotalEnergies Corbion; Univation (Dow)
+- **MID** (27): AP Sensing; ChampionX; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; KBC (Yokogawa); LiquidPower Specialty Products; Mitsubishi Shipbuilding; Nippon Steel; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
+- **PCH** (4): BASF, SABIC, Linde; CJ; Fraunhofer; Scientific Design
 - **PRC** (7): AVEVA; CanmetENERGY; Fives ProSim; Honeywell; Montz; Pinchco; TLK-Energy
-- **PWR** (17): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy; Toshiba
-- **REF** (27): AVEVA; Axens; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Eni; EPC contractors (process designed by refiner or contractor); ExxonMobil; Gevo; GTC Technology; Honeywell; Honeywell UOP; KBC; Koch-Glitsch; LanzaJet; Lummus; Lummus Technology; Merichem; Saudi Aramco; Saudi Aramco / SABIC; Shell Catalysts & Technologies; Suez; Yokogawa
-- **ROT** (20): Alfa Laval; American Marsh; Ashton Seals; Atlas Copco; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Velan
+- **PWR** (16): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy
+- **REF** (21): AVEVA; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Eni; EPC contractors (process designed by refiner or contractor); Gevo; GTC Technology; Honeywell; KBC; Koch-Glitsch; LanzaJet; Merichem; Saudi Aramco; Saudi Aramco / SABIC; Suez; Yokogawa
+- **ROT** (19): Alfa Laval; American Marsh; Ashton Seals; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Velan
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-195 of 299 cards list at least one directory vendor.
+240 of 299 cards list at least one directory vendor.

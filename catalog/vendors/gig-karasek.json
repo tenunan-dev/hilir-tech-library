@@ -1,0 +1,20 @@
+{
+  "id": "gig-karasek",
+  "name": "GIG Karasek",
+  "country": "Austria",
+  "roles": [
+    "oem"
+  ],
+  "description": "Austrian process-equipment maker supplying electrically heated industrial systems and evaporation technology.",
+  "technologies": [
+    "pch-electrified-process-heat"
+  ],
+  "url": "https://www.gigkarasek.at",
+  "sources": [
+    {
+      "url": "https://www.gigkarasek.at",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

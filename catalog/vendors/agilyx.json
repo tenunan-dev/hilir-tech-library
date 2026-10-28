@@ -1,0 +1,21 @@
+{
+  "id": "agilyx",
+  "name": "Agilyx",
+  "country": "USA",
+  "roles": [
+    "developer",
+    "supplier"
+  ],
+  "description": "Oregon company developing styrenic and mixed-plastic pyrolysis, including the Regenyx joint venture.",
+  "technologies": [
+    "pch-plastics-pyrolysis"
+  ],
+  "url": "https://agilyx.com",
+  "sources": [
+    {
+      "url": "https://agilyx.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

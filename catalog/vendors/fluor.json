@@ -1,0 +1,24 @@
+{
+  "id": "fluor",
+  "name": "Fluor",
+  "country": "USA",
+  "roles": [
+    "epc",
+    "licensor"
+  ],
+  "description": "US EPC major and licensor of the Econamine FG+ amine capture process.",
+  "technologies": [
+    "ccs-amine-post-combustion"
+  ],
+  "url": "https://www.fluor.com",
+  "sources": [
+    {
+      "url": "https://www.fluor.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Econamine FG+"
+  ]
+}

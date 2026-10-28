@@ -1,0 +1,20 @@
+{
+  "id": "planetary",
+  "name": "Planetary Technologies",
+  "country": "Canada",
+  "roles": [
+    "developer"
+  ],
+  "description": "Canadian ocean-alkalinity-enhancement company dosing magnesium byproducts into coastal waters for carbon removal, trialled at St. Ives Bay UK.",
+  "technologies": [
+    "ccs-enhanced-weathering"
+  ],
+  "url": "https://www.planetarytech.com",
+  "sources": [
+    {
+      "url": "https://www.planetarytech.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

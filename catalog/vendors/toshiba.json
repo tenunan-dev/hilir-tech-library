@@ -1,0 +1,20 @@
+{
+  "id": "toshiba",
+  "name": "Toshiba",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "description": "Japanese group supplying the combustor and turbine hardware for the NET Power Allam-cycle demonstration.",
+  "technologies": [
+    "ccs-allam-cycle"
+  ],
+  "url": "https://www.global.toshiba",
+  "sources": [
+    {
+      "url": "https://www.global.toshiba",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

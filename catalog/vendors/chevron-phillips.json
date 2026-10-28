@@ -1,0 +1,21 @@
+{
+  "id": "chevron-phillips",
+  "name": "Chevron Phillips Chemical",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "licensor"
+  ],
+  "description": "US olefins and polyolefins producer, co-owner of the MarLEX HDPE brand and licensee of loop-slurry PE technology.",
+  "technologies": [
+    "pch-polyethylene"
+  ],
+  "url": "https://www.cpchem.com",
+  "sources": [
+    {
+      "url": "https://www.cpchem.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

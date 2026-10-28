@@ -1,0 +1,21 @@
+{
+  "id": "covestro",
+  "name": "Covestro",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "German polymer producer (spun off from Bayer) focused on polycarbonate and polyurethanes, and a CO2-utilisation pioneer (cardyon).",
+  "technologies": [
+    "pch-engineering-plastics",
+    "ccs-co2-to-urea-polymers"
+  ],
+  "url": "https://www.covestro.com",
+  "sources": [
+    {
+      "url": "https://www.covestro.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

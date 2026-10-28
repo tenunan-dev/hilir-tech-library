@@ -1,0 +1,20 @@
+{
+  "id": "danimer",
+  "name": "Danimer Scientific",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Georgia-based bioplastics company producing PHA and PLA for single-use applications.",
+  "technologies": [
+    "pch-pha-bioplastics"
+  ],
+  "url": "https://danimerscientific.com",
+  "sources": [
+    {
+      "url": "https://danimerscientific.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

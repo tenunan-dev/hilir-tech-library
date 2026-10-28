@@ -1,0 +1,20 @@
+{
+  "id": "siluria",
+  "name": "Siluria Technologies",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "Developer of oxidative-coupling-of-methane catalysts and the La Porte demonstration unit; acquired by McDermott in 2019 and folded into Lummus Technology in 2020.",
+  "technologies": [
+    "pch-oxidative-coupling-methane"
+  ],
+  "url": "https://www.lummustechnology.com",
+  "sources": [
+    {
+      "url": "https://www.lummustechnology.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

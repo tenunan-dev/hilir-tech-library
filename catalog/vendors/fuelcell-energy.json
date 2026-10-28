@@ -1,0 +1,20 @@
+{
+  "id": "fuelcell-energy",
+  "name": "FuelCell Energy",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Connecticut molten-carbonate fuel-cell company whose Directed Carbon Capture loops separate CO2 from flue gas while generating power, in partnership with ExxonMobil.",
+  "technologies": [
+    "ccs-molten-carbonate-fuel-cell-capture"
+  ],
+  "url": "https://fuelcellenergy.com",
+  "sources": [
+    {
+      "url": "https://fuelcellenergy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

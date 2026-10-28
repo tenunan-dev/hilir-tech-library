@@ -1,0 +1,20 @@
+{
+  "id": "mura",
+  "name": "Mura Technology",
+  "country": "United Kingdom",
+  "roles": [
+    "developer"
+  ],
+  "description": "UK developer of Hydro-PRT supercritical steam plastics recycling, with the Teesside plant as flagship.",
+  "technologies": [
+    "pch-plastics-pyrolysis"
+  ],
+  "url": "https://muraplastics.com",
+  "sources": [
+    {
+      "url": "https://muraplastics.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

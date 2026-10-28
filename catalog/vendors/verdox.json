@@ -1,0 +1,20 @@
+{
+  "id": "verdox",
+  "name": "Verdox",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "MIT spin-off commercialising faradaic electro-swing CO2 capture (fully electric adsorption/desorption cycling).",
+  "technologies": [
+    "ccs-electro-swing-moisture-swing-dac"
+  ],
+  "url": "https://verdox.com",
+  "sources": [
+    {
+      "url": "https://verdox.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

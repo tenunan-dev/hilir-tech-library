@@ -1,0 +1,20 @@
+{
+  "id": "cri",
+  "name": "Carbon Recycling International",
+  "country": "Iceland",
+  "roles": [
+    "operator"
+  ],
+  "description": "Icelandic company producing renewable methanol from geothermal CO2 and hydrogen at the George Olah plant.",
+  "technologies": [
+    "ccs-co2-to-methanol-fuels"
+  ],
+  "url": "https://carbonrecycling.com",
+  "sources": [
+    {
+      "url": "https://carbonrecycling.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

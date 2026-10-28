@@ -1,0 +1,23 @@
+{
+  "id": "carbon-engineering",
+  "name": "Carbon Engineering (1PointFive, Occidental)",
+  "country": "Canada",
+  "roles": [
+    "developer"
+  ],
+  "description": "Canadian developer of liquid-solvent direct air capture (bought by Occidental); 1PointFive is building the Stratos DAC plant in Texas.",
+  "technologies": [
+    "ccs-dac-liquid-solvent"
+  ],
+  "url": "https://carbonengineering.com",
+  "sources": [
+    {
+      "url": "https://carbonengineering.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "1PointFive"
+  ]
+}

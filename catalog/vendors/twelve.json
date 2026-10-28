@@ -1,0 +1,20 @@
+{
+  "id": "twelve",
+  "name": "Twelve",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "US CO2-electrolysis company (formerly Opus 12) making e-chemicals and e-naphtha from captured CO2.",
+  "technologies": [
+    "ccs-co2-electroreduction"
+  ],
+  "url": "https://www.twelve.bio",
+  "sources": [
+    {
+      "url": "https://www.twelve.bio",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

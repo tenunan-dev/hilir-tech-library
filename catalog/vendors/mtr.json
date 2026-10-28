@@ -1,0 +1,23 @@
+{
+  "id": "mtr",
+  "name": "MTR Carbon Capture",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "Membrane Technology and Research: polymeric-membrane CO2 capture (Polaris membranes) demonstrated on coal flue gas and cement kilns.",
+  "technologies": [
+    "ccs-polymeric-membrane"
+  ],
+  "url": "https://mtrcc.com",
+  "sources": [
+    {
+      "url": "https://mtrcc.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Polaris membranes"
+  ]
+}

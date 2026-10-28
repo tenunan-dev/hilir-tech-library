@@ -1,0 +1,24 @@
+{
+  "id": "shell-catalysts",
+  "name": "Shell Catalysts & Technologies",
+  "country": "Netherlands",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Shell's technology licensing arm: CANSOLV CO2 capture and gas sweetening, hydrotreating catalysts and syngas technologies.",
+  "technologies": [
+    "ccs-amine-post-combustion",
+    "ccs-syngas-chemical-solvent"
+  ],
+  "url": "https://www.catalysts.shell.com",
+  "sources": [
+    {
+      "url": "https://www.catalysts.shell.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "CANSOLV"
+  ]
+}
