@@ -122,6 +122,18 @@
       },
       "low": 200,
       "high": 200
+    },
+    {
+      "metric": "newbuild price of a standard 174,000 m3 LNG carrier",
+      "low": 248,
+      "high": 248,
+      "unit": "million USD per vessel (about $269 m at the 2024 record high; $200-220 m range quoted for 2026 contracts)",
+      "year": 2025,
+      "basis": "Clarkson data (early November 2025), reported 20 Nov 2025: current market price for 174,000 m3 LNG carriers is approximately $248 million; vesselslink (Jun 2024): $269 m record high; shipfinex (Jan 2026): $200-220 m range with Korean-built premium; dollar years as dated",
+      "source": {
+        "url": "https://www.imarinenews.com/29440.html",
+        "note": "Imarine News citing Clarksons, 20 Nov 2025 (read 2026-10-28); vesselslink and shipfinex as noted"
+      }
     }
   ],
   "advantages": [
@@ -140,23 +152,10 @@
   "last_reviewed": "2026-10-28",
   "gaps": [
     {
-      "field": "costs",
-      "item": "newbuild price with year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The secondary source gives no year.",
-      "where": [
-        {
-          "hint": "Clarksons or broker newbuild price reports",
-          "access": "paid"
-        }
-      ],
-      "action": "Add price with year."
-    },
-    {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; class names (Q-Max 266k m3) exist in market reports.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -169,7 +168,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched LNG carrier, LNG ship, LNG tanker, liquefied natural gas, membrane); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched LNG carrier, LNG ship, LNG tanker, liquefied natural gas, membrane); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

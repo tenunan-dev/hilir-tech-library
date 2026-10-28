@@ -126,13 +126,13 @@
       "note": "NREL/TP-5400-81704, Hydrogen blending into natural gas pipeline infrastructure: review of the state of technology (2022)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "repurposing cost versus new build",
       "reason_code": "not_in_sources_read",
-      "reason": "NREL's review text read gives no cost.",
+      "reason": "NREL's review text read gives no cost. Web-checked 2026-10-28: European Hydrogen Backbone cost ratios circulate in reports but no verifiable primary figure read this pass.",
       "where": [
         {
           "hint": "European Hydrogen Backbone and DNV reports",
@@ -141,19 +141,6 @@
         }
       ],
       "action": "Add cost fraction with source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
       "field": "process",
@@ -167,6 +154,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "HyDeploy hydrogen blending trials, Keele University and Winlaton (Cadent/Northern Gas Networks)",
+      "country": "GB",
+      "capacity": "up to 20% hydrogen by volume blended into existing gas networks; Keele University network trial first, then Winlaton, Gateshead from 2021 supplying 668 houses, a school and small businesses",
+      "status": "operating",
+      "source": {
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072621-uk-hydrogen-blending-for-public-gas-grid-trial-gets-go-ahead",
+        "note": "S&P Global, 26 Jul 2021 (Winlaton 20%, 668 houses); Keele sustainability pages (feasibility demonstrated); read 2026-10-28"
+      }
     }
   ]
 }

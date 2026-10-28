@@ -85,6 +85,18 @@
       },
       "low": -10,
       "high": -10
+    },
+    {
+      "metric": "ammonia and LPG carrier fleet indicators",
+      "low": 50,
+      "high": 50,
+      "unit": "very large ammonia carriers (VLACs) ordered in 12 months (DNV, Oct 2024); BW LPG is the largest VLGC operator with about 50 vessels; a 39,200 m3 fully-refrigerated LPG carrier class is typical; the -33 C atmospheric carriage temperature for fully refrigerated ammonia was not stated in the open pages read",
+      "year": 2024,
+      "basis": "DNV (16 Oct 2024): \"ordering of more than 50 very large ammonia carriers (VLACs) over the past 12 months\", split between dedicated VLGCs and multipurpose VLACs; shipfinex (May 2026): BW LPG about 50 vessels, largest VLGC operator",
+      "source": {
+        "url": "https://www.dnv.com/expert-story/maritime-impact/investing-in-future-ammonia-markets",
+        "note": "DNV, Investing in future ammonia markets, 16 Oct 2024 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -100,27 +112,13 @@
       "note": "Wikipedia, Gas carrier, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "fleet size and ammonia carriage temperature",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not in the page read.",
-      "where": [
-        {
-          "hint": "SIGTTO and GIIGNL publications",
-          "access": "open",
-          "source_id": "giignl"
-        }
-      ],
-      "action": "Add fleet size with date."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; newbuild prices vendor-quoted.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -143,7 +141,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; fleet indicators recorded in performance.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -156,7 +154,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

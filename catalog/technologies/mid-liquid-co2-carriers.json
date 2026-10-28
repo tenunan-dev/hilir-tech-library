@@ -128,23 +128,14 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
+    },
+    {
+      "url": "https://gcaptain.com/northern-lights-expands-carbon-shipping-fleet-with-new-co2-carrier/",
+      "note": "gCaptain Northern Lights fleet expansion"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "Northern Lights ship capacity (m3) and number",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page gives neither.",
-      "where": [
-        {
-          "hint": "Northern Lights news releases",
-          "access": "open"
-        }
-      ],
-      "action": "Add ship data."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -167,5 +158,17 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 shipping'"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "Northern Lights LCO2 carrier fleet (Northern Pioneer, Pathfinder, Liaison, Phoenix)",
+      "country": "NO",
+      "capacity": "four 7,500 m3 liquefied-CO2 carriers (two full-pressure C-type tanks each, 130 m length); first three delivered from late 2024, fourth arrived July 2026 completing the phase-one fleet; further four 7,500 m3 ships chartered from K Line, scaling to larger vessels",
+      "status": "operating",
+      "source": {
+        "url": "https://gcaptain.com/northern-lights-expands-carbon-shipping-fleet-with-new-co2-carrier/",
+        "note": "gCaptain (three delivered since late 2024); offshore-energy.biz 29 Jul 2026 (fourth arrived from China, 7,500 m3 each); norlights.com (7,500 m3, 130 m); read 2026-10-28"
+      }
+    }
+  ]
 }

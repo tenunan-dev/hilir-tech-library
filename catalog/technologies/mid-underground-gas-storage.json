@@ -73,6 +73,18 @@
       },
       "low": 400,
       "high": 400
+    },
+    {
+      "metric": "US underground gas storage working capacity and cushion share",
+      "low": 4595,
+      "high": 4683,
+      "unit": "Bcf working gas capacity (AGA survey total 4,595 Bcf of 8,934 Bcf total capacity; Lower-48 working design capacity 4,683 Bcf as of Nov 2025)",
+      "year": 2025,
+      "basis": "American Gas Association survey: total capacity 8,934 Bcf with working gas 4,595 Bcf - implying about 49% cushion (base) gas by difference; compressortech2 (3 Jun 2026): Lower-48 combined working gas design capacity 4,683 Bcf as of Nov 2025; per-storage-type deliverability figures were not stated in the pages read",
+      "source": {
+        "url": "https://www.aga.org/wp-content/uploads/2023/01/Section4Divider.pdf",
+        "note": "AGA underground storage survey excerpt (8,934 Bcf total, 4,595 Bcf working); compressortech2, 3 Jun 2026; read 2026-10-28"
+      }
     }
   ],
   "advantages": [
@@ -91,24 +103,10 @@
   "last_reviewed": "2026-10-28",
   "gaps": [
     {
-      "field": "performance",
-      "item": "working gas capacity, deliverability and cushion gas share",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated on the EIA basics page; the collected EIA document (AEO2026 Electricity Market Module assumptions, April 2026) covers new generating-technology costs only and contains no underground gas storage capacity, deliverability or cushion-gas figures.",
-      "where": [
-        {
-          "hint": "EIA underground storage capacity data",
-          "access": "open",
-          "source_id": "eia-reports"
-        }
-      ],
-      "action": "Add working gas capacity with date."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; cavern development costs case-specific.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -131,7 +129,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named facility added this pass.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -144,7 +142,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
