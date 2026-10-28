@@ -132,7 +132,7 @@
       "field": "performance",
       "item": "depth ratings and tieback distances",
       "reason_code": "not_in_sources_read",
-      "reason": "Wikipedia's overview gives none and PetroWiki was unreachable. Depth records recorded in performance (Silvertip 9,356 ft; Tobago ~2,925 m); an open tieback-distance record was not found, 2026-10-28.",
+      "reason": "Wikipedia's overview gives none and PetroWiki was unreachable. Depth records recorded in performance (Silvertip 9,356 ft; Tobago ~2,925 m); an open tieback-distance record was not found, 2026-10-28. Browser retry 2026-10-28: petrowiki.spe.org redirects to onepetro.org behind a Cloudflare bot challenge — blocked even in an interactive browser.",
       "where": [
         {
           "hint": "SPE PetroWiki subsea systems",
