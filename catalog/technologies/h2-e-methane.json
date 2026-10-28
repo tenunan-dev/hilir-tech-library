@@ -120,7 +120,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; e-methane costs sit in the same e-fuel ranges as the FT card.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -140,19 +140,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -164,6 +151,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Audi e-gas plant, Werlte, Lower Saxony, Germany",
+      "country": "DE",
+      "capacity": "6 MW power-to-methane plant using renewable electricity, water and CO2 from a nearby biogas plant; opened June 2013, the world's largest power-to-gas facility at the time",
+      "status": "operating",
+      "source": {
+        "url": "https://www.carsales.com.au/editorial/details/audi-e-gas-stabilises-german-power-grid-52657",
+        "note": "Audi e-gas reporting (opened 2013, 6 MW input, world's largest PtG facility at commissioning); read 2026-10-28"
+      }
     }
   ]
 }

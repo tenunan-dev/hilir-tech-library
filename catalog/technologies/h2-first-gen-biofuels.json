@@ -87,6 +87,18 @@
       },
       "low": 61.4,
       "high": 61.4
+    },
+    {
+      "metric": "life-cycle GHG intensity of first-generation biofuels",
+      "low": 39,
+      "high": 46,
+      "unit": "% GHG reduction vs petroleum baseline for average US dry-mill corn ethanol (EPA RFS setting, 2023); with indirect land-use change included, a 2025 Transport and Environment study finds global biofuel production emits about 16% MORE CO2 than the fossil fuels replaced",
+      "year": 2023,
+      "basis": "EPA RFS 2023-2025 setting: average US dry-mill corn ethanol has a lifecycle value 39-46% below the petroleum baseline; Transport and Environment-commissioned study (Oct 2025): including ILUC, global biofuels emit about 16% more CO2 than the fossil fuels they replace",
+      "source": {
+        "url": "https://growthenergy.org/wp-content/uploads/2023/02/Growth-Energy-Set-comment-2023-02-10-PDF.pdf",
+        "note": "Growth Energy RFS comment (EPA lifecycle values), 10 Feb 2023; agenceurope bulletin 9 Oct 2025 (TE study); read 2026-10-28"
+      }
     }
   ],
   "advantages": [
@@ -101,27 +113,13 @@
       "note": "REN21 Global Status Report 2025, bioenergy"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "life-cycle GHG intensity by feedstock",
-      "reason_code": "not_in_sources_read",
-      "reason": "REN21 page read gives volumes only.",
-      "where": [
-        {
-          "hint": "ANL GREET",
-          "access": "open",
-          "source_id": "anl-greet"
-        }
-      ],
-      "action": "Add carbon intensities from GREET."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; commodity plant costs case-specific.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -144,7 +142,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous industry.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -157,7 +155,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

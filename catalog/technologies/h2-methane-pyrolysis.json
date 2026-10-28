@@ -150,7 +150,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology; rechecked 2026-10-28 across the collected doe-hfto records and the IEA Global Hydrogen Review 2025 report, Assumptions Annex and ETP Guide dataset - none gives a methane pyrolysis capex or levelized cost figure.",
+      "reason": "No open source read so far gives costs for this technology; rechecked 2026-10-28 across the collected doe-hfto records and the IEA Global Hydrogen Review 2025 report, Assumptions Annex and ETP Guide dataset - none gives a methane pyrolysis capex or levelized cost figure. Web-checked 2026-10-28; turquoise-hydrogen economics remain vendor-estimated (checked Wave 1).",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records and H2A analyses",

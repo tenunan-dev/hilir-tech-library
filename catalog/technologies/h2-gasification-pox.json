@@ -229,7 +229,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. NETL Case 4/5 plants (coal gasification, 660,000 kg/day) already recorded from Wave 1 mining.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",

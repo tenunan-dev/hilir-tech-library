@@ -133,7 +133,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; HD fuel-cell system cost already recorded from DOE records in Wave 1.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",

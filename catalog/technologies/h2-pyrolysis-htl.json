@@ -102,13 +102,13 @@
       "note": "ETIP Bioenergy, Transport fuels via pyrolytic and thermolytic conversion"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
       "item": "commercial-scale operating capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "ETIP names plant sizes of 10,000 to 50,000 t bio-oil/yr without status.",
+      "reason": "ETIP names plant sizes of 10,000 to 50,000 t bio-oil/yr without status. Web-checked 2026-10-28; no verifiable named commercial HTL plant found.",
       "where": [
         {
           "hint": "Ensyn, Steeper and Licella press releases",
@@ -121,7 +121,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",

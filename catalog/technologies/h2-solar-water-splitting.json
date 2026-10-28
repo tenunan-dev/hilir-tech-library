@@ -104,26 +104,13 @@
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.4, direct solar pathways and start-up pilots"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "solar-to-hydrogen efficiencies by route",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA box describes pilots without reporting a common efficiency.",
-      "where": [
-        {
-          "hint": "Pathfinder Solar-to-X benchmarking outputs",
-          "access": "open"
-        }
-      ],
-      "action": "Add efficiency from benchmarking papers."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -154,6 +141,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "solar-to-hydrogen efficiencies by route",
+      "low": 9,
+      "high": 24.4,
+      "unit": "% STH: photocatalytic panel-type record above 9% (Nature, 2023); coupled PV-electrolysis demonstrations 19.3-24.4% (TU Ilmenau; University of Tokyo 2015)",
+      "year": 2023,
+      "basis": "photocatalytic (one-step) water-splitting panels reached more than 9% STH (Nature 2023 record); practical panel photocatalysis typically runs near 1%; PV-coupled electrolysis demonstrations reached 19.3% (TU Ilmenau) and 24.4% under natural sunlight (Univ. of Tokyo, 2015)",
+      "source": {
+        "url": "https://openalex.org/works/w4313483816",
+        "note": "Nature 2023 record via OpenAlex; TU Ilmenau and Univ. of Tokyo announcements; read 2026-10-28"
+      }
     }
   ]
 }

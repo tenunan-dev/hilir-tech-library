@@ -145,7 +145,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) does not cover LOHC carriers.",
+      "reason": "No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) does not cover LOHC carriers. Web-checked 2026-10-28; LOHC economics not published open (checked Wave 1).",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records and H2A analyses",

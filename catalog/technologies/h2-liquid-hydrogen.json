@@ -189,7 +189,7 @@
       "field": "performance",
       "item": "boil-off rate in storage and shipping",
       "reason_code": "not_in_sources_read",
-      "reason": "DOE record 19001 counts boil-off as a cost but gives no rate; no other doe-hfto record in the corpus (checked 2026-10-28) publishes a %/day boil-off rate either.",
+      "reason": "DOE record 19001 counts boil-off as a cost but gives no rate; no other doe-hfto record in the corpus (checked 2026-10-28) publishes a %/day boil-off rate either. Web-checked 2026-10-28; HDSAM counts boil-off as a cost line without a published percentage (checked Wave 1).",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records on delivery (HDSAM)",

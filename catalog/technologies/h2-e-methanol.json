@@ -122,22 +122,8 @@
       "note": "Hydrocarbon Processing, European Energy produces first e-methanol at Kassø, March 2025"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "production cost per tonne",
-      "reason_code": "not_in_sources_read",
-      "reason": "None in the article.",
-      "where": [
-        {
-          "hint": "IRENA methanol outlook",
-          "access": "open",
-          "source_id": "irena"
-        }
-      ],
-      "action": "Add cost ranges."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -150,6 +136,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "renewable e-methanol production cost (Chinese feasibility study)",
+      "low": 4167,
+      "high": 10250,
+      "unit": "CNY per tonne (about USD 580-1,430/t at 7.15 CNY/USD), 2-4 times the market rate of grey methanol",
+      "year": 2024,
+      "basis": "dollar year not stated (study published 2024/25); Chinese feasibility assessment of renewable e-methanol: production costs of 4,167-10,250 CNY/tonne, two to four times grey-methanol market rates; cost dominated by hydrogen production",
+      "source": {
+        "url": "https://www.scribd.com/document/784160566/Feasibility-study-of-renewable-e-methanol-production-A-substitution-pathway-from-blue-to-green",
+        "note": "Feasibility study of renewable e-methanol production (read 2026-10-28)"
+      }
     }
   ]
 }

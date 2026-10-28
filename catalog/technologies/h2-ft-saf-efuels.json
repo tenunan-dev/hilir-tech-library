@@ -134,22 +134,8 @@
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): INERATEC and Infinium plants"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "cost per litre",
-      "reason_code": "not_in_sources_read",
-      "reason": "The roadmap text read gives no figure.",
-      "where": [
-        {
-          "hint": "DOE SAF roadmap annexes",
-          "access": "open",
-          "source_id": "doe-affo"
-        }
-      ],
-      "action": "Add cost estimates."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -162,6 +148,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "synthetic fuel (e-fuel/FT) production cost per litre",
+      "low": 1.9,
+      "high": 8.7,
+      "unit": "USD per litre (2023 assessment range; market commentary 2026 cites about USD 3-7/litre today)",
+      "year": 2023,
+      "basis": "2023 research assessment: synthetic-fuel production costs range USD 1.90-8.70 per litre depending on technology and renewable electricity price; FT-synfuels global study (Feb 2023): large volumes available at about EUR 110/MWh (USD 203/bbl); dollar years as dated in the sources",
+      "source": {
+        "url": "https://www.researchgate.net/post/What_do_we_know_about_the_costs_of_synthetic_fuels_in_road_transport",
+        "note": "ResearchGate synthesis-fuel cost discussion (2023); FT synfuels study Feb 2023; GII 2026 market note; read 2026-10-28"
+      }
     }
   ]
 }

@@ -99,6 +99,16 @@
         "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
         "note": "SSAB / HYBRIT press release, August 2024"
       }
+    },
+    {
+      "name": "Stegra Boden hydrogen-DRI steel plant, Sweden",
+      "country": "SE",
+      "capacity": "integrated green hydrogen, iron and steel plant; about USD 7 bn raised; on track for startup in 2026 with about 2.5 Mt/yr initial capacity scaling toward 5 Mt/yr by 2030; EUR 975 m completion round launched Oct 2025",
+      "status": "construction",
+      "source": {
+        "url": "https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article",
+        "note": "gasworld, 13 Oct 2025 (EUR 975 m round); h2invest (about USD 7 bn raised, 2026 startup); steelradar Apr 2025 (5 Mt/yr by 2030); read 2026-10-28"
+      }
     }
   ],
   "trl": {
@@ -126,28 +136,19 @@
       "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
       "source_id": "iea-reports",
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): H2 DRI cost gap and upfront cost"
+    },
+    {
+      "url": "https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article",
+      "note": "Stegra Boden completion funding, gasworld 13 Oct 2025"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "Stegra Boden and other commercial plants",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only the HYBRIT pilot was read.",
-      "where": [
-        {
-          "hint": "Stegra project documents",
-          "access": "open"
-        }
-      ],
-      "action": "Add commercial-scale plants."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: Stegra funding (about USD 7 bn) recorded in reference_plants; per-tonne DRI economics not published.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",

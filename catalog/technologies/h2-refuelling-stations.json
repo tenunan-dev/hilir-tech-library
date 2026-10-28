@@ -138,7 +138,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. California CEC station counts and 2016 cost basis already recorded from Wave 1.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -151,7 +151,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

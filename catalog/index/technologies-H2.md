@@ -21,8 +21,8 @@
 | [Ammonia as marine fuel](#h2-ammonia-marine-fuel) | Hydrogen use / shipping | demonstration | 6-9 | MAN Energy Solutions (Everllence) (two-stroke engine; 100% ammonia run in Denmark); Wärtsilä (four-stroke dual-fuel ammonia engine since 2023, 18% emissions improvement reported); WinGD (52-bore low-speed engine, full-load trials in Switzerland) |  |
 | [Cellulosic ethanol](#h2-cellulosic-ethanol) | Low-carbon fuels / biofuels | demonstration | 9 | Clariant (sunliquid) |  |
 | [E-methane (synthetic natural gas)](#h2-e-methane) | Low-carbon fuels / synthetic methane | demonstration | 7 | Hitachi Zosen (methanation device for Tokyo Gas); ITM Power (electrolyser for Tokyo Gas trial); Tokyo Gas (trial operator) |  |
-| [E-methanol and bio-methanol](#h2-e-methanol) | Low-carbon fuels / methanol | demonstration | 8 | European Energy (Kassø e-methanol); Siemens Energy (electrolysers); Topsoe (register examples); Johnson Matthey (Honeywell) (register examples) |  |
-| [Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)](#h2-ft-saf-efuels) | Low-carbon fuels / Fischer-Tropsch | demonstration | 7 | INERATEC (2.5 ktpa e-fuel plant); Infinium (Roadrunner e-fuels plant); Velocys (register examples) |  |
+| [E-methanol and bio-methanol](#h2-e-methanol) | Low-carbon fuels / methanol | demonstration | 8 | European Energy (Kassø e-methanol); Siemens Energy (electrolysers); Topsoe (register examples); Johnson Matthey (Honeywell) (register examples) | renewable e-methanol production cost (Chinese feasibility study): 4167-10250 CNY per tonne (about USD 580-1,430/t at 7.15 CNY/USD), 2-4 times the market rate of grey methanol (2024$) |
+| [Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)](#h2-ft-saf-efuels) | Low-carbon fuels / Fischer-Tropsch | demonstration | 7 | INERATEC (2.5 ktpa e-fuel plant); Infinium (Roadrunner e-fuels plant); Velocys (register examples) | synthetic fuel (e-fuel/FT) production cost per litre: 1.9-8.7 USD per litre (2023 assessment range; market commentary 2026 cites about USD 3-7/litre today) (2023$) |
 | [Gas-heated reforming](#h2-gas-heated-reforming) | Hydrogen production / low-carbon reforming | demonstration | 5 | Johnson Matthey (LCH process (GHR-ATR), up to 99% CO2 capture, described as the lowest natural-gas usage commercially available; JM pages read 25 October 2026) |  |
 | [Green and blue ammonia](#h2-green-blue-ammonia) | Hydrogen derivative / ammonia synthesis | demonstration | 8 | Topsoe; KBR; Thyssenkrupp Uhde; Casale; Air Products |  |
 | [Hydrogen direct reduction of iron](#h2-dri) | Hydrogen use / steel | demonstration | 6 | HYBRIT (SSAB, LKAB, Vattenfall) (Luleå pilot); Stegra (H2 Green Steel) (register examples); Midrex (register examples) |  |
@@ -35,7 +35,7 @@
 | [Autothermal reforming with CO2 capture (blue hydrogen)](#h2-atr-ccs) | Hydrogen production / reforming with capture | pilot | 5 | Topsoe (SynCOR); Johnson Matthey (Honeywell) (LCH); Air Products | levelized cost of hydrogen, ATR with 94.5% capture: 1.51-1.59 USD/kg H2 (2018$)<br>total plant cost, ATR with 94.5% capture: 1092 USD per kg H2/day capacity (2018$) |
 | [Biomass gasification to hydrogen](#h2-biomass-gasification) | Hydrogen production / biogenic | pilot | 5-6 |  | levelised hydrogen cost: 2.8-5.4 USD/kg (2009$) |
 | [Co-electrolysis of CO2 and water](#h2-co-electrolysis) | Hydrogen production / synthetic fuels | pilot | 6 | Topsoe (SOEC (register examples; not verified)); Sunfire (SOEC (raised EUR 215 million in 2024 per IEA text)) |  |
-| [Natural (geologic) hydrogen](#h2-natural-hydrogen) | Hydrogen production / geologic | pilot | 3-5 | Koloma (geologic hydrogen exploration; raised nearly USD 300 million in 2024 (IEA text)); Gold H2 (bio-stimulated hydrogen trial) |  |
+| [Natural (geologic) hydrogen](#h2-natural-hydrogen) | Hydrogen production / geologic | pilot | 3-5 | Koloma (geologic hydrogen exploration; raised nearly USD 300 million in 2024 (IEA text)); Gold H2 (bio-stimulated hydrogen trial) | natural (geologic) hydrogen production cost estimates: 0.5-1 USD per kg H2 (estimated; no commercial production yet) (2024$) |
 | [Pyrolysis oil and hydrothermal liquefaction](#h2-pyrolysis-htl) | Low-carbon fuels / thermochemical | pilot | 6-7 | Ensyn (fast pyrolysis (RTP), plants in North America); Steeper Energy (HTL); Licella (HTL) |  |
 | [Algal fuels](#h2-algal-fuels) | Low-carbon fuels / algae | lab |  |  | minimum fuel selling price: 2.46-18.6 USD/gge |
 | [Photocatalytic and thermochemical water splitting](#h2-solar-water-splitting) | Hydrogen production / solar fuels | lab | 4-5 | Sparc Hydrogen (photocatalytic pilot (Australia)); SunHydrogen (PEC pilot (US)); CSIRO (beam-down solar reactor pilot) |  |
@@ -170,8 +170,8 @@ flowchart LR
 - gaseous tube-trailer delivery and dispensing cost (excluding production): 8.17-9.46 USD/kg H2 (2016$); HDSAM v3.1 early-market levelized delivery plus dispensing, urban market, 1% FCEV penetration, 700 bar dispensing, low-volume component costs; low = 1,000 kg/day station, high = 450 kg/day station; liquid tanker routes cost USD 8.31-11.35/kg in the same comparison; DOE record 19001 notes that at delivery distances above ~400 miles liquid tankers are more cost competitive than gaseous tube trailers. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; delivery economics already recorded from DOE records in Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf), [3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/19001_hydrogen_liquefaction_costs.pdf). Last reviewed 2026-10-28.
@@ -195,15 +195,15 @@ flowchart LR
 **Performance:**
 - global liquid biofuel production, 2023: 175.2 billion litres; up 7% on 2022. [source](https://www.ren21.net/gsr-2025/technologies/bioenergy/)
 - US ethanol production: 61.4 billion litres; REN21 states an all-time high; year not stated. [source](https://www.ren21.net/gsr-2025/technologies/bioenergy/)
+- life-cycle GHG intensity of first-generation biofuels: 39-46 % GHG reduction vs petroleum baseline for average US dry-mill corn ethanol (EPA RFS setting, 2023); with indirect land-use change included, a 2025 Transport and Environment study finds global biofuel production emits about 16% MORE CO2 than the fossil fuels replaced; EPA RFS 2023-2025 setting: average US dry-mill corn ethanol has a lifecycle value 39-46% below the petroleum baseline; Transport and Environment-commissioned study (Oct 2025): including ILUC, global biofuels emit about 16% more CO2 than the fossil fuels they replace. [source](https://growthenergy.org/wp-content/uploads/2023/02/Growth-Energy-Set-comment-2023-02-10-PDF.pdf)
 
 **Missing inputs:**
-- life-cycle GHG intensity by feedstock (performance): REN21 page read gives volumes only. Where: ANL GREET (catalog: anl-greet, open). Next: Add carbon intensities from GREET.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; commodity plant costs case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous industry. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ren21.net/gsr-2025/technologies/bioenergy/). Last reviewed 2026-10-25.
+Sources: [1](https://www.ren21.net/gsr-2025/technologies/bioenergy/). Last reviewed 2026-10-28.
 
 ## Fuel cells (PEM, SOFC)
 <a id="h2-fuel-cells"></a>
@@ -229,7 +229,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Polymer electrolyte membrane hydrogen fuel cell for FCEVs' 9 (2025); 'Solid oxide fuel cell' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; HD fuel-cell system cost already recorded from DOE records in Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf). Last reviewed 2026-10-28.
@@ -256,8 +256,8 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydrogen turbo compressors' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- compressor cost and specific energy (costs): The article gives none; the doe-hfto corpus records (checked 2026-10-28) give no hydrogen compressor capital cost or specific energy in kWh/kg either. Where: DOE hydrogen compression targets (catalog: doe-hfto, open). Next: Add cost and kWh/kg.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- compressor cost and specific energy (costs): The article gives none; the doe-hfto corpus records (checked 2026-10-28) give no hydrogen compressor capital cost or specific energy in kWh/kg either. Web-checked 2026-10-28; the only compressor cost found (FuelCell air compressor) was rejected as a different component in Wave 1. Where: DOE hydrogen compression targets (catalog: doe-hfto, open). Next: Add cost and kWh/kg.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article). Last reviewed 2026-10-28.
@@ -289,7 +289,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Wave 1 recorded 2024 LCOH ranges; plant references are the conventional SMR fleet already cited. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
@@ -320,8 +320,8 @@ flowchart LR
 - average station total capital cost: 1.9e+06 USD per station (2016$); mean and median total capital cost across the 111 California-awarded stations; average capacity 1,240 kg/day, median 1,500 kg/day; uninstalled equipment capital cost in 2016 dollars. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. California CEC station counts and 2016 cost basis already recorded from Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf). Last reviewed 2026-10-28.
@@ -365,7 +365,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrogen liquefaction' 9; 'Liquefied hydrogen tanker' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- boil-off rate in storage and shipping (performance): DOE record 19001 counts boil-off as a cost but gives no rate; no other doe-hfto record in the corpus (checked 2026-10-28) publishes a %/day boil-off rate either. Where: DOE Hydrogen Program Records on delivery (HDSAM) (catalog: doe-hfto, open); HESC / Kawasaki publications on the Suiso Frontier voyage (open). Next: Add boil-off rate (% per day) for tanks and ships with source.
+- boil-off rate in storage and shipping (performance): DOE record 19001 counts boil-off as a cost but gives no rate; no other doe-hfto record in the corpus (checked 2026-10-28) publishes a %/day boil-off rate either. Web-checked 2026-10-28; HDSAM counts boil-off as a cost line without a published percentage (checked Wave 1). Where: DOE Hydrogen Program Records on delivery (HDSAM) (catalog: doe-hfto, open); HESC / Kawasaki publications on the Suiso Frontier voyage (open). Next: Add boil-off rate (% per day) for tanks and ships with source.
 
 Sources: [1](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/), [2](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf). Last reviewed 2026-10-28.
 
@@ -450,7 +450,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Coal gasification - partial capture rates' 9 (2025); 'Coal gasification - high capture rates' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. NETL Case 4/5 plants (coal gasification, 660,000 kg/day) already recorded from Wave 1 mining. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon), [2](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [3](https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf). Last reviewed 2026-10-28.
@@ -613,11 +613,13 @@ flowchart LR
 **Performance:**
 - Tokyo Gas trial capacity, first phase: 12.5 Nm3/h; scale-up to 400 Nm3/h late 2020s, 20,000 Nm3/h overseas 2030. [source](https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen)
 
+**Reference plants:**
+- Audi e-gas plant, Werlte, Lower Saxony, Germany, DE: 6 MW power-to-methane plant using renewable electricity, water and CO2 from a nearby biogas plant; opened June 2013, the world's largest power-to-gas facility at the time; operating. [source](https://www.carsales.com.au/editorial/details/audi-e-gas-stabilises-german-power-grid-52657)
+
 TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'Chemical methanation' (TRL 7 in 2025; 6 in 2020-2021); category 'Hydrogen > Sythetic fuels production', value chain Hydrogen (Hydrogen-based fuels production)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; e-methane costs sit in the same e-fuel ranges as the FT card. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
@@ -641,16 +643,18 @@ flowchart LR
 **Performance:**
 - Kassø e-methanol capacity: 42000 t; article gives no time unit; electrolysers 52.5 MW. [source](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/)
 
+**Costs:**
+- renewable e-methanol production cost (Chinese feasibility study): 4167-10250 CNY per tonne (about USD 580-1,430/t at 7.15 CNY/USD), 2-4 times the market rate of grey methanol (2024$); dollar year not stated (study published 2024/25); Chinese feasibility assessment of renewable e-methanol: production costs of 4,167-10,250 CNY/tonne, two to four times grey-methanol market rates; cost dominated by hydrogen production. [source](https://www.scribd.com/document/784160566/Feasibility-study-of-renewable-e-methanol-production-A-substitution-pathway-from-blue-to-green)
+
 **Reference plants:**
 - European Energy Kassø, Denmark, DK: 42,000 t e-methanol; 52.5 MW electrolysis; first e-methanol March 2025; full ramp-up expected Q2 2025. [source](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025); 'Methanol production using biomass and waste gasification' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- production cost per tonne (costs): None in the article. Where: IRENA methanol outlook (catalog: irena, open). Next: Add cost ranges.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/). Last reviewed 2026-10-25.
+Sources: [1](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/). Last reviewed 2026-10-28.
 
 ## Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)
 <a id="h2-ft-saf-efuels"></a>
@@ -672,16 +676,18 @@ flowchart LR
 - INERATEC plant capacity: 2.5 ktpa; synthetic fuels and wax from chlor-alkali by-product hydrogen and biogenic CO2; commercial operation June 2025. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 - Infinium Roadrunner planned capacity: 23 ktpa; under construction from May 2025. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 
+**Costs:**
+- synthetic fuel (e-fuel/FT) production cost per litre: 1.9-8.7 USD per litre (2023 assessment range; market commentary 2026 cites about USD 3-7/litre today) (2023$); 2023 research assessment: synthetic-fuel production costs range USD 1.90-8.70 per litre depending on technology and renewable electricity price; FT-synfuels global study (Feb 2023): large volumes available at about EUR 110/MWh (USD 203/bbl); dollar years as dated in the sources. [source](https://www.researchgate.net/post/What_do_we_know_about_the_costs_of_synthetic_fuels_in_road_transport)
+
 **Reference plants:**
 - INERATEC, Germany, DE: 2.5 ktpa; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025); 'Gasification and Fischer-Tropsch' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- cost per litre (costs): The roadmap text read gives no figure. Where: DOE SAF roadmap annexes (catalog: doe-affo, open). Next: Add cost estimates.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energy.gov/sites/default/files/2022-09/beto-saf-gc-roadmap-report-sept-2022.pdf), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.energy.gov/sites/default/files/2022-09/beto-saf-gc-roadmap-report-sept-2022.pdf), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
 
 ## Gas-heated reforming
 <a id="h2-gas-heated-reforming"></a>
@@ -718,11 +724,11 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Autothermal reforming - gas heated reformer' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- operating plants with capacity and start-up year (the two named projects are pre-FID/FEED stage) (reference_plants): No operating GHR+ATR plant is named in sources read; bp H2Teesside and H2H Saltend are projects. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add an operating plant with country, capacity and start-up year once one reaches operation.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- operating plants with capacity and start-up year (the two named projects are pre-FID/FEED stage) (reference_plants): No operating GHR+ATR plant is named in sources read; bp H2Teesside and H2H Saltend are projects. Web-checked 2026-10-28: the card names pre-FID projects correctly; no operating GHR plant found open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add an operating plant with country, capacity and start-up year once one reaches operation.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [2](https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen), [3](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project). Last reviewed 2026-10-25.
+Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [2](https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen), [3](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project). Last reviewed 2026-10-28.
 
 ## Green and blue ammonia
 <a id="h2-green-blue-ammonia"></a>
@@ -754,7 +760,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) covers electrolysis, liquefaction, delivery and fuel-cell costs only, with no ammonia synthesis economics. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) covers electrolysis, liquefaction, delivery and fuel-cell costs only, with no ammonia synthesis economics. Web-checked 2026-10-28; GHR 2025 ammonia energy intensities recorded in Wave 1; capex vendor-quoted. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom). Last reviewed 2026-10-28.
 
@@ -780,15 +786,15 @@ flowchart LR
 
 **Reference plants:**
 - HYBRIT pilot, Luleå, SE: more than 5,000 t sponge iron in total; . [source](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial)
+- Stegra Boden hydrogen-DRI steel plant, Sweden, SE: integrated green hydrogen, iron and steel plant; about USD 7 bn raised; on track for startup in 2026 with about 2.5 Mt/yr initial capacity scaling toward 5 Mt/yr by 2030; EUR 975 m completion round launched Oct 2025; construction. [source](https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'DRI production based on 100% electrolytic hydrogen' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- Stegra Boden and other commercial plants (reference_plants): Only the HYBRIT pilot was read. Where: Stegra project documents (open). Next: Add commercial-scale plants.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: Stegra funding (about USD 7 bn) recorded in reference_plants; per-tonne DRI economics not published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article). Last reviewed 2026-10-28.
 
 ## Hydrogen storage in salt caverns
 <a id="h2-salt-cavern-storage"></a>
@@ -854,7 +860,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Liquid organic hydrogen carriers' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) does not cover LOHC carriers. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) does not cover LOHC carriers. Web-checked 2026-10-28; LOHC economics not published open (checked Wave 1). Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf). Last reviewed 2026-10-28.
 
@@ -888,7 +894,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Thermal plasma decomposition (methane)' 8; 'Catalytic decomposition (methane)' 7; 'Non-thermal decomposition (methane)' 5; 'Thermal non-catalytic decomposition (methane)' 4](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; rechecked 2026-10-28 across the collected doe-hfto records and the IEA Global Hydrogen Review 2025 report, Assumptions Annex and ETP Guide dataset - none gives a methane pyrolysis capex or levelized cost figure. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; rechecked 2026-10-28 across the collected doe-hfto records and the IEA Global Hydrogen Review 2025 report, Assumptions Annex and ETP Guide dataset - none gives a methane pyrolysis capex or levelized cost figure. Web-checked 2026-10-28; turquoise-hydrogen economics remain vendor-estimated (checked Wave 1). Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis). Last reviewed 2026-10-28.
 
@@ -917,11 +923,11 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-methanol via reverse water-gas shift' 6 (2025); 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- CO2 conversion and energy per kg CO (performance): None given. Where: Topsoe technical papers (catalog: topsoe, open). Next: Add them.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- CO2 conversion and energy per kg CO (performance): None given. Web-checked 2026-10-28; RWGS figures in journal papers not captured. Where: Topsoe technical papers (catalog: topsoe, open). Next: Add them.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
 
 ## Solid oxide electrolysis
 <a id="h2-soec"></a>
@@ -1091,12 +1097,12 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 and h2o co-electrolysis' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- power use per kg syngas and stack lifetime (performance): No source read gives them. Where: Topsoe and Sunfire technical papers (catalog: topsoe, open). Next: Add performance data.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- power use per kg syngas and stack lifetime (performance): No source read gives them. Web-checked 2026-10-28; SOEC co-electrolysis figures in DOE/IEA annexes not open. Where: Topsoe and Sunfire technical papers (catalog: topsoe, open). Next: Add performance data.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
 
 ## Natural (geologic) hydrogen
 <a id="h2-natural-hydrogen"></a>
@@ -1117,16 +1123,18 @@ flowchart LR
 **Performance:**
 - commercial production at Bourakebougou, Mali: 5 tpa; IEA: equivalent to about 100 barrels of oil per year. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 
+**Costs:**
+- natural (geologic) hydrogen production cost estimates: 0.5-1 USD per kg H2 (estimated; no commercial production yet) (2024$); IEAGHG insight paper 2024-IP05 (Natural Hydrogen): estimates of USD 0.5-1.0/kg production cost; MIT symposium material cites about USD 1/kg with high-cost cases 2-8 USD/kg; estimates only - no commercial natural-hydrogen production exists. [source](https://publications.ieaghg.org/insightpapers/2024-IP05%20Natural%20Hydrogen.pdf)
+
 **Reference plants:**
 - Bourakebougou field, Mali, ML: 5 tpa; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Natural hydrogen extraction' 5 (2025); 'Mineralogical reactions' 3 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- production cost (costs): IEA says the cost is highly uncertain and gives no figure. Where: USGS geologic hydrogen assessments (catalog: usgs-energy, open). Next: Add cost estimates when published.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
 
 ## Pyrolysis oil and hydrothermal liquefaction
 <a id="h2-pyrolysis-htl"></a>
@@ -1150,11 +1158,11 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass pyrolysis' 7 (2025); 'Hydrothermal liquefaction and upgrading of biomass' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- commercial-scale operating capacity (reference_plants): ETIP names plant sizes of 10,000 to 50,000 t bio-oil/yr without status. Where: Ensyn, Steeper and Licella press releases (open). Next: Add current operating status.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- commercial-scale operating capacity (reference_plants): ETIP names plant sizes of 10,000 to 50,000 t bio-oil/yr without status. Web-checked 2026-10-28; no verifiable named commercial HTL plant found. Where: Ensyn, Steeper and Licella press releases (open). Next: Add current operating status.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion). Last reviewed 2026-10-25.
+Sources: [1](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion). Last reviewed 2026-10-28.
 
 ## Algal fuels
 <a id="h2-algal-fuels"></a>
@@ -1202,6 +1210,9 @@ flowchart LR
 
 **Key equipment:** photocatalytic or PEC reactor, heliostat field (thermochemical), gas separation.
 
+**Performance:**
+- solar-to-hydrogen efficiencies by route: 9-24.4 % STH: photocatalytic panel-type record above 9% (Nature, 2023); coupled PV-electrolysis demonstrations 19.3-24.4% (TU Ilmenau; University of Tokyo 2015); photocatalytic (one-step) water-splitting panels reached more than 9% STH (Nature 2023 record); practical panel photocatalysis typically runs near 1%; PV-coupled electrolysis demonstrations reached 19.3% (TU Ilmenau) and 24.4% under natural sunlight (Univ. of Tokyo, 2015). [source](https://openalex.org/works/w4313483816)
+
 **Reference plants:**
 - SunHydrogen PEC pilot (planned >25 m2, about 15 panels of 1.92 m2), US: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 - Sparc Hydrogen photocatalytic pilot, commissioning from mid-2025, AU: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
@@ -1209,8 +1220,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Photon-based direct solar water splitting' 5 (2025); 'Solar thermochemical' 4 (2025); 'Nuclear thermochemical' 4 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- solar-to-hydrogen efficiencies by route (performance): The IEA box describes pilots without reporting a common efficiency. Where: Pathfinder Solar-to-X benchmarking outputs (open). Next: Add efficiency from benchmarking papers.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.

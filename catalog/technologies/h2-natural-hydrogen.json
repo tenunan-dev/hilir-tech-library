@@ -106,22 +106,8 @@
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.3 on natural hydrogen and Gold H2 trial"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "production cost",
-      "reason_code": "not_in_sources_read",
-      "reason": "IEA says the cost is highly uncertain and gives no figure.",
-      "where": [
-        {
-          "hint": "USGS geologic hydrogen assessments",
-          "access": "open",
-          "source_id": "usgs-energy"
-        }
-      ],
-      "action": "Add cost estimates when published."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -134,6 +120,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "natural (geologic) hydrogen production cost estimates",
+      "low": 0.5,
+      "high": 1.0,
+      "unit": "USD per kg H2 (estimated; no commercial production yet)",
+      "year": 2024,
+      "basis": "IEAGHG insight paper 2024-IP05 (Natural Hydrogen): estimates of USD 0.5-1.0/kg production cost; MIT symposium material cites about USD 1/kg with high-cost cases 2-8 USD/kg; estimates only - no commercial natural-hydrogen production exists",
+      "source": {
+        "url": "https://publications.ieaghg.org/insightpapers/2024-IP05%20Natural%20Hydrogen.pdf",
+        "note": "IEAGHG, Natural Hydrogen insight paper 2024-IP05 (read 2026-10-28); UH Energy symposium slides (Smit, MIT)"
+      }
     }
   ]
 }
