@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.10] — 2026-10-28 — Wave 3 sector sweeps begun: 1,074 → 1,012 open gaps
+
+### Changed
+- Wave 3 of the gap-closure plan started: the whole UPS sector (six batches) and PWR batches 1–2 swept by web research, 62 gaps closed with dated sources (Asgard subsea compression, Clair Ridge LoSal, Johan Sverdrup electrification, nanofluid-EOR first field trial, HTR-PM, JERA Hekinan ammonia co-firing, Hywind Tampen, Hornsdale grid-forming, ±1,100 kV UHVDC, MEOR field costs, Dubai WTE, Noor CSP, CAES references, and more); about 90 kept gaps gained dated search-evidence clauses. Executed inline after the flash subagent provider became unavailable.
+
 ## [2026.10.27.9] — 2026-10-28 — gap-closure Waves 1–2 executed: 1,118 → 1,074 open gaps
 
 ### Changed
