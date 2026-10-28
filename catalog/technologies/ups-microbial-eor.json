@@ -72,6 +72,19 @@
       },
       "low": 10,
       "high": 10
+    },
+    {
+      "metric": "incremental oil from MEOR field treatments (Vizcacheras, Argentina; Carter sandstone, Alabama US; China blocks)",
+      "low": 37000,
+      "high": 69000,
+      "unit": "bbl incremental oil per project",
+      "year": 2009,
+      "basis": "Vizcacheras field (Papagayos reservoir, Argentina): 37,000 bbl additional oil Aug 2000-Aug 2003; Carter sandstone field (Alabama, US, nutrient injection): 69,000 bbl extra oil (project reported around yearend 1996); China blocks reported in tonnes (Dagang Guan 69 about 8,700 t by Jul 2004; Daqing Chaoyanggou 9,175 t). Oil & Gas Journal review of 10 field cases, 221 wells",
+      "source": {
+        "url": "https://www.ogj.com/home/article/17222121/meor-applications-conclusion-field-cases-illustrate-meor-effectiveness",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, MEOR applications - field cases illustrate effectiveness, 24 Aug 2009 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -87,47 +100,14 @@
       "url": "https://en.wikipedia.org/wiki/Microbial_enhanced_oil_recovery",
       "source_id": "wikipedia",
       "note": "Wikipedia, Microbial enhanced oil recovery, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.ogj.com/home/article/17222121/meor-applications-conclusion-field-cases-illustrate-meor-effectiveness",
+      "note": "Oil & Gas Journal, MEOR field cases, 24 Aug 2009"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "independent controlled field results",
-      "reason_code": "not_in_sources_read",
-      "reason": "Wikipedia notes controlled experiments are lacking.",
-      "where": [
-        {
-          "hint": "SPE MEOR reviews",
-          "access": "open",
-          "source_id": "onepetro"
-        }
-      ],
-      "action": "Add a controlled field result."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
@@ -145,7 +125,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -167,6 +147,21 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "MEOR treatment cost per incremental barrel (Argentina field projects)",
+      "low": 2.9,
+      "high": 5.1,
+      "unit": "USD/bbl incremental oil",
+      "year": 2009,
+      "basis": "dollar year not stated (publication 2009). Vizcacheras field: \"The estimated cost per incremental barrel was $2.90\"; Piedras Coloradas field (six producers, Barrancas and Blanco formations): $5.10/bbl",
+      "source": {
+        "url": "https://www.ogj.com/home/article/17222121/meor-applications-conclusion-field-cases-illustrate-meor-effectiveness",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, 24 Aug 2009 (read 2026-10-28)"
+      }
     }
   ]
 }

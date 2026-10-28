@@ -141,7 +141,7 @@
       "field": "costs",
       "item": "completion cost per stage or per well with year",
       "reason_code": "not_in_sources_read",
-      "reason": "Neither page gives it; the collected EIA document (AEO2026 Electricity Market Module assumptions, April 2026) contains no well-cost, completion-cost or drilling data (it covers power-plant technology costs only).",
+      "reason": "Neither page gives it; the collected EIA document (AEO2026 Electricity Market Module assumptions, April 2026) contains no well-cost, completion-cost or drilling data (it covers power-plant technology costs only). Web-checked 2026-10-28: per-stage pricing ranges (about USD 30,000-70,000/stage; electric frac fleet USD 40-60 m) appear only in finance/trade guides without a primary open source; not recorded.",
       "where": [
         {
           "hint": "EIA drilling productivity and well cost studies",
@@ -155,7 +155,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no named completion campaign with per-well figures on open pages.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -168,7 +168,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

@@ -80,6 +80,19 @@
       },
       "low": 10,
       "high": 10
+    },
+    {
+      "metric": "CP+ICD water-shutoff trial result, Liuhua 4-1 Well A4H4, offshore China",
+      "low": 14,
+      "high": 78,
+      "unit": "% water production index of baseline (14); % WOR reduction vs pre-trial (78)",
+      "year": 2018,
+      "basis": "well had been shut in Dec 2015 after producing 99.5% BS&W; after the continuous pack-off ICD trial filling the 575-m lateral, water production index fell to about 14% of baseline and dimensionless water-oil ratio was down 78% vs pre-trial; oil production could increase 2.6 times at the same liquid rate (authors caution the before/after comparison)",
+      "source": {
+        "url": "https://www.ogj.com/drilling-production/production-operations/article/17232592/continuous-pack-off-inflow-control-device-lowers-water-cut-in-trial-offshore-china",
+        "source_id": "ogj",
+        "note": "Oil & Gas Journal, 2 Apr 2018 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -96,13 +109,13 @@
       "note": "JPT, Inflow-control device and inflow-control valves aid Kuwait's first smart multilateral well"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "production and water-cut results of the Kuwait well",
       "reason_code": "not_in_sources_read",
-      "reason": "Shown only in a chart.",
+      "reason": "Shown only in a chart. Kuwait-well figures remain in SPE-restricted papers; an offshore-China CP+ICD analogue (Liuhua A4H4, OGJ 2018) is now recorded in performance, 2026-10-28.",
       "where": [
         {
           "hint": "SPE paper behind the JPT article",
@@ -116,7 +129,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -139,7 +152,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28 (the Liuhua CP+ICD trial is recorded in performance; Kuwait smart-well SPE papers restricted).",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -152,7 +165,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

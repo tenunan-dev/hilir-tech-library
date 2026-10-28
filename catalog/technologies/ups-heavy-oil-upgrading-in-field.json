@@ -88,6 +88,10 @@
       "url": "https://en.wikipedia.org/wiki/Heavy_crude_oil",
       "source_id": "wikipedia",
       "note": "Wikipedia, Heavy crude oil, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.reuters.com/article/markets/nexen-says-long-lake-output-to-lag-design-idUSN16114618",
+      "note": "Reuters, Nexen says Long Lake output to lag design, 16 Nov 2010 (read 2026-10-28)"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -110,7 +114,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched OSTI corpus (25 reports) for \"capital cost\", \"operating cost\", \"$/bbl\", \"petroleum\", \"resid\"; not present; 2026-10-28",
+      "reason": "No open source read so far gives costs for this technology. Searched OSTI corpus (25 reports) for \"capital cost\", \"operating cost\", \"$/bbl\", \"petroleum\", \"resid\"; not present; 2026-10-28 Web-checked 2026-10-28; no open techno-economic study found (Long Lake capex figures are project-specific, not per-barrel upgrading economics).",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -130,23 +134,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -168,6 +159,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Long Lake SAGD with in-field upgrader (Nexen, later CNOOC), Alberta",
+      "country": "CA",
+      "capacity": "design 72,000 bpd bitumen (SAGD + integrated in-field upgrader); operator guided 38,000-45,000 bpd for 2011",
+      "status": "operating",
+      "source": {
+        "url": "https://www.reuters.com/article/markets/nexen-says-long-lake-output-to-lag-design-idUSN16114618",
+        "note": "Reuters, 16 Nov 2010: \"Long Lake to produce between 38,000 and 45,000 barrels per day of bitumen next year, less than the 72,000 bpd it is designed to produce\". Upgrader reported fully operational Dec 2009 (The Globe and Mail, 10 Dec 2009); both read 2026-10-28"
+      }
     }
   ]
 }

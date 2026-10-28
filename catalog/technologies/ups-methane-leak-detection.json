@@ -216,7 +216,7 @@
       "field": "suppliers",
       "item": "regional (Southeast Asia) service providers",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read names providers in Malaysia or Indonesia.",
+      "reason": "No source read names providers in Malaysia or Indonesia. Web-checked 2026-10-28; the named LDAR providers found (Encino, Applus, Gazomat) are US/EU/Middle-East; no SEA-local provider with an open page found; card already lists satellite operators (GHGSat, Kayrros) that cover the region.",
       "where": [
         {
           "hint": "PETRONAS and Pertamina methane programmes",

@@ -93,9 +93,17 @@
       "url": "https://en.wikipedia.org/wiki/Enhanced_oil_recovery",
       "source_id": "wikipedia",
       "note": "Wikipedia, Enhanced oil recovery, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.equinor.com/news/archive/2003/03/17/BoostingRecoveryWithFoam",
+      "note": "Equinor, Boosting recovery with foam, 17 Mar 2003 (WAG conversion statement)"
+    },
+    {
+      "url": "https://www.norskpetroleum.no/en/facts/field/statfjord",
+      "note": "Norwegian Petroleum (official facts), Statfjord field page (read 2026-10-28)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
@@ -115,7 +123,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -135,23 +143,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -173,6 +168,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Statfjord WAG (water-alternating-gas injection)",
+      "country": "NO",
+      "capacity": "largest oil field in the North Sea at start-up (production began 23 Nov 1979); injection converted from water-only to WAG in the late 1990s",
+      "status": "operating",
+      "source": {
+        "url": "https://www.equinor.com/news/archive/2003/03/17/BoostingRecoveryWithFoam",
+        "note": "Equinor news, 17 Mar 2003: \"Statfjord's injection system was converted in the late 1990s from water alone to water alternating gas (WAG)\". Field facts from norskpetroleum.no/en/facts/field/statfjord (start-up 1979, WAG pressure support, depressurisation from 2007); both read 2026-10-28"
+      }
     }
   ]
 }

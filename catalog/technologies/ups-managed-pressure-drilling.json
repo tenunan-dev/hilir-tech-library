@@ -91,6 +91,10 @@
     {
       "url": "https://iadc.org/wp-content/uploads/2015/08/preview-mpub.pdf",
       "note": "IADC, Managed pressure drilling (preview of the IADC publication)"
+    },
+    {
+      "url": "https://jpt.spe.org/managed-pressure-drilling-migrates-deep-water-offshore-brazil",
+      "note": "JPT, Managed-Pressure Drilling Migrates Into Deep Water Offshore Brazil, 30 Jun 2014 (read 2026-10-28)"
     }
   ],
   "last_reviewed": "2026-10-28",
@@ -99,7 +103,7 @@
       "field": "costs",
       "item": "cost versus conventional drilling",
       "reason_code": "not_in_sources_read",
-      "reason": "The preview gives none.",
+      "reason": "The preview gives none. Web-checked 2026-10-28; no open published MPD-vs-conventional cost comparison (SPE papers restricted).",
       "where": [
         {
           "hint": "IADC MPD publications",
@@ -109,23 +113,10 @@
       "action": "Add a published cost or time saving."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched managed pressure, MPD, underbalanced, drilling); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched managed pressure, MPD, underbalanced, drilling); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -147,6 +138,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Petrobras managed-pressure drilling programme, offshore Brazil pre-salt",
+      "country": "BR",
+      "capacity": "2 rigs equipped for MPD as of mid-2014, planned expansion to 12 by end-2015 and 16 by 2016; seven wells drilled with MPD at the time",
+      "status": "operating",
+      "source": {
+        "url": "https://jpt.spe.org/managed-pressure-drilling-migrates-deep-water-offshore-brazil",
+        "note": "JPT (SPE), 30 Jun 2014: \"Petrobras now has two drilling rigs working offshore Brazil equipped to do managed-pressure drilling, and plans to expand this total to 12...\"; Lula field re-entry: \"drill 89m with minor (fluid) losses\" then 70 m more under pressurised mud-cap drilling (read 2026-10-28)"
+      }
     }
   ]
 }

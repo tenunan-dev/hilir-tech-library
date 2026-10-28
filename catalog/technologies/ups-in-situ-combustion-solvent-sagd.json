@@ -114,15 +114,19 @@
       "url": "https://en.wikipedia.org/wiki/Steam-assisted_gravity_drainage",
       "source_id": "wikipedia",
       "note": "Wikipedia, Steam-assisted gravity drainage, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://petrobank.ca/sf/thai/thai.htm",
+      "note": "Petrobank, Kerrobert THAI public data (read 2026-10-28)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "THAI commercial results and solvent-SAGD field recoveries",
       "reason_code": "not_in_sources_read",
-      "reason": "The brochure reports no recovery factor.",
+      "reason": "The brochure reports no recovery factor. Web-checked 2026-10-28 (Kerrobert public data page read via reader; numeric THAI production not published there); solvent-SAGD recoveries in SPE-restricted papers.",
       "where": [
         {
           "hint": "Petrobank and Archon papers",
@@ -135,7 +139,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -155,23 +159,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -193,6 +184,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Kerrobert THAI in-situ combustion pilot (Petrobank, later Baytex), Saskatchewan",
+      "country": "CA",
+      "capacity": "THAI (toe-to-heel air injection) pilot; per-well production and injection data published by the operator; numeric capacity not stated on the public data page",
+      "status": "pilot",
+      "source": {
+        "url": "https://petrobank.ca/sf/thai/thai.htm",
+        "note": "Petrobank Kerrobert THAI public data page (Saskatchewan, Canada; production history, KP2/KA2 well data). 50/50 Petrobank-Baytex JV reported Jan 2010; read 2026-10-28"
+      }
     }
   ]
 }
