@@ -106,29 +106,32 @@
     {
       "url": "https://depositonce.tu-berlin.de/items/c222282b-e88c-41d3-813f-ff34d6f7aba4/full",
       "note": "Blumberg, Morosuk and Tsatsaronis, A Comparative Exergoeconomic Evaluation of the Synthesis Routes for Methanol Production from Natural Gas, Applied Sciences 7(12), 1213 (2017)"
+    },
+    {
+      "url": "https://www.digitalrefining.com/news/1003028/zeogas-awarded-methanol-to-gasoline-technology-license-by-exxonmobil",
+      "note": "DigitalRefining, ZeoGas awarded MTG licence by ExxonMobil, 21 Jul 2014"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "process",
       "item": "methanol-to-gasoline step",
       "reason_code": "not_in_sources_read",
-      "reason": "Only methanol synthesis was read.",
+      "reason": "The MTG step is now sourced: methanol is dehydrated to dimethyl ether then converted over a ZSM-5 zeolite fixed bed to 90-octane gasoline, first commercialised at Motunui in 1985 (14,500 bpd); ExxonMobil licenses the technology (ZeoGas licence awarded 2014). What remains open is licensor-level detail on yields and catalyst life.",
       "where": [
         {
-          "hint": "ExxonMobil MTG literature",
-          "access": "open",
-          "source_id": "exxonmobil-catalysts"
+          "hint": "ExxonMobil MTG technology pages and DigitalRefining news, 21 Jul 2014",
+          "access": "open"
         }
       ],
-      "action": "Add MTG yields and plants (New Zealand Motunui history)."
+      "action": "If a deeper process description is needed, read an ExxonMobil MTG technical paper."
     },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; project capex case-specific.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -148,23 +151,10 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
@@ -173,6 +163,18 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Motunui synthetic fuels plant (New Zealand Synfuels), Taranaki, New Zealand",
+      "country": "NZ",
+      "capacity": "14,500 bpd of synthetic gasoline from Maui natural gas via methanol; the world's first natural-gas-to-gasoline plant, opened February 1985 (Methanex later closed the Taranaki units after 30+ years)",
+      "status": "closed",
+      "source": {
+        "url": "https://www.digitalrefining.com/news/1003028/zeogas-awarded-methanol-to-gasoline-technology-license-by-exxonmobil",
+        "note": "DigitalRefining news, 21 Jul 2014 (first commercialised 1985 by New Zealand Synfuels, 14,500 bpd); MOTAT collection record (opened Feb 1985, Maui gas); read 2026-10-28"
+      }
     }
   ]
 }
