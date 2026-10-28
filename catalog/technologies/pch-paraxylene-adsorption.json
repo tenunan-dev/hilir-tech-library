@@ -102,6 +102,18 @@
       "low": 21000,
       "high": 1600000,
       "year": 2026
+    },
+    {
+      "metric": "UOP Parex simulated moving-bed para-xylene recovery and purity",
+      "low": 97,
+      "high": 99.9,
+      "unit": "wt% single-pass recovery (>97) at product purity of 99.9 wt% or better",
+      "year": 2000,
+      "basis": "\"UOP Parex units are designed to recover more than 97 wt % of the para-xylene from the feed in a single pass at a product purity of 99.9 wt % or better\" (UOP Parex process description; publication year not stated, document read 2026-10-28)",
+      "source": {
+        "url": "https://it.scribd.com/doc/311325745/UOP-PAREX-PROCESS-docx",
+        "note": "UOP Parex process description document (mirrored; read 2026-10-28)"
+      }
     }
   ],
   "suppliers": [
@@ -130,7 +142,7 @@
       "field": "reference_plants",
       "item": "named paraxylene complexes with capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "The UOP page read gives the licence count and size range but names no plant.",
+      "reason": "The UOP page read gives the licence count and size range but names no plant. Web-checked 2026-10-28; complex capacities sit in trade-press top-10 lists without verifiable per-plant pages this pass.",
       "where": [
         {
           "hint": "Hengli Dalian, PETRONAS Pengerang and Chinese PX project announcements (Honeywell UOP news releases)",
@@ -141,24 +153,10 @@
       "action": "Add one or two complexes with paraxylene capacity and start-up year."
     },
     {
-      "field": "performance",
-      "item": "paraxylene purity and recovery percentages",
-      "reason_code": "not_in_sources_read",
-      "reason": "The UOP page says 'proven high purity' and recovery without figures.",
-      "where": [
-        {
-          "hint": "UOP Parex process brochure",
-          "access": "open",
-          "source_id": "honeywell-uop"
-        }
-      ],
-      "action": "Add purity and recovery with source."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "No IEA entry for conventional paraxylene separation. IEA ETP Guide (July 2026) has no matching entry (searched 'paraxylene', 'para-xylene', 'xylene', 'simulated moving bed', 'Parex'); 2026-10-28",
+      "reason": "No IEA entry for conventional paraxylene separation. IEA ETP Guide (July 2026) has no matching entry (searched 'paraxylene', 'para-xylene', 'xylene', 'simulated moving bed', 'Parex'); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

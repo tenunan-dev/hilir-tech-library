@@ -114,7 +114,7 @@
       "field": "reference_plants",
       "item": "named polyethylene plants with capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "The article read gives the design capacity but no plant.",
+      "reason": "The article read gives the design capacity but no plant. Web-checked 2026-10-28; no verifiable named PE plant page added this pass.",
       "where": [
         {
           "hint": "Licensor and operator news (Univation, LyondellBasell, Ineos)",

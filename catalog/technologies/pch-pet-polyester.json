@@ -109,13 +109,13 @@
       "note": "Hydrocarbon Processing, thyssenkrupp Uhde to build a low-emission polyester plant for KÖKSAN in Turkey, April 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "reference_plants",
       "item": "operating MTR plants",
       "reason_code": "not_in_sources_read",
-      "reason": "Only a planned plant read.",
+      "reason": "Only a planned plant read. Web-checked 2026-10-28; melt-to-resin (MTR) plant lists are trade directories without verifiable per-plant pages.",
       "where": [
         {
           "hint": "Uhde Inventa-Fischer references",
@@ -129,7 +129,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -152,7 +152,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

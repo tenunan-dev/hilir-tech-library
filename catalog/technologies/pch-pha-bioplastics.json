@@ -87,7 +87,7 @@
       "field": "costs",
       "item": "production cost versus PE and PP",
       "reason_code": "not_in_sources_read",
-      "reason": "Not in the release.",
+      "reason": "Not in the release. Web-checked 2026-10-28; PHA-vs-polyolefin cost comparisons in open pages are review-paper estimates without verifiable basis.",
       "where": [
         {
           "hint": "Danimer SEC filings",
@@ -100,7 +100,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named PHA plant page found this pass.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -113,7 +113,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'PHA', 'polyhydroxyalkanoate', 'bioplastic', 'biodegradable'); 2026-10-28",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'PHA', 'polyhydroxyalkanoate', 'bioplastic', 'biodegradable'); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

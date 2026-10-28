@@ -67,6 +67,18 @@
       "low": 50000,
       "high": 50000,
       "year": 2025
+    },
+    {
+      "metric": "enzymatic PET depolymerisation extent (company-reported)",
+      "low": 100,
+      "high": 100,
+      "unit": "% of PET waste depolymerised (company claim)",
+      "year": 2015,
+      "basis": "\"CARBIOS depolymerizes 100% of PET based plastic waste with its enzymatic recycling process\" (Carbios, 2 Dec 2015, company claim); C&EN (8 Feb 2020): the enzymes break PET down into monomers for virgin-quality plastic; an independently verified monomer-yield percentage and energy use were not available in open pages",
+      "source": {
+        "url": "https://www.carbios.com/en/carbios-depolymerizes-100-of-pet-based-plastic-waste-with-its-enzymatic-recycling-process",
+        "note": "Carbios press release, 2 Dec 2015; C&EN 8 Feb 2020 (read 2026-10-28)"
+      }
     }
   ],
   "trl": {
@@ -143,7 +155,7 @@
       "field": "performance",
       "item": "monomer yield and energy use",
       "reason_code": "not_in_sources_read",
-      "reason": "The article read gives capacity only.",
+      "reason": "The article read gives capacity only. Carbios company-reported 100% depolymerisation recorded; independent yield figures and energy use remain unpublished, 2026-10-28.",
       "where": [
         {
           "hint": "Carbios technical publications; open reviews of PET recycling",
@@ -166,6 +178,10 @@
     {
       "url": "https://www.carbios.com/en/carbios-reports-first-half-2026-results/",
       "note": "Carbios first-half 2026 results press release, 24 September 2026 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.carbios.com/en/carbios-depolymerizes-100-of-pet-based-plastic-waste-with-its-enzymatic-recycling-process",
+      "note": "Carbios enzymatic depolymerisation release, 2 Dec 2015"
     }
   ],
   "last_reviewed": "2026-10-28"

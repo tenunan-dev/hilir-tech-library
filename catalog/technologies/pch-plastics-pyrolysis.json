@@ -146,7 +146,7 @@
       "field": "performance",
       "item": "oil yield (% of plastic input) and energy use",
       "reason_code": "not_in_sources_read",
-      "reason": "The release read gives capacity only.",
+      "reason": "The release read gives capacity only. Web-checked 2026-10-28: vendor figures (Plastic Energy ~80% class) exist in brochures; no independently verifiable oil-yield table found in open pages this pass.",
       "where": [
         {
           "hint": "Open reviews of pyrolysis yields (arXiv, open-access journals)",
