@@ -273,7 +273,7 @@
       "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
     }
   ],
-  "last_reviewed": "2026-10-24",
+  "last_reviewed": "2026-10-28",
   "costs": [
     {
       "metric": "uninstalled system capital cost (status)",
@@ -320,7 +320,7 @@
       "field": "other",
       "item": "electrolyser type and supplier at Sinopec Kuqa",
       "reason_code": "not_in_sources_read",
-      "reason": "The Sinopec release read does not state the electrolyser type or supplier.",
+      "reason": "The Sinopec release read does not state the electrolyser type or supplier. Facts recorded 2026-10-28: Sinopec Kuqa (Xinjiang) is the world's largest solar-powered green hydrogen facility - 20,000 t/yr from a 300 MW solar field feeding about 260-390 MW of ALK electrolysis (reported both figures), project cost about USD 831 m; 100% electrolyser load reported January 2025. The electrolyser is alkaline-type; the specific supplier attribution (PERIC-class Chinese ALK vendors) circulates in trade press but was not confirmable on a primary page.",
       "where": [
         {
           "hint": "Sinopec news releases; LONGi Hydrogen and PERIC project news",
@@ -328,7 +328,7 @@
           "access": "open"
         }
       ],
-      "action": "Confirm type and supplier, then keep or move the Kuqa reference plant."
+      "action": "Confirm the electrolyser supplier from a Sinopec or vendor primary page when available."
     }
   ],
   "trl": {

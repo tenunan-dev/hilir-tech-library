@@ -103,15 +103,19 @@
       "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
       "source_id": "iea-reports",
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): ammonia in shipping, IMO rules and engine progress"
+    },
+    {
+      "url": "https://www.energyconnects.com/news/gas-lng/2024/march/singapore-port-announces-world-s-first-successful-use-of-ammonia-as-a-marine-fuel",
+      "note": "First ammonia bunker operation, Singapore, Mar 2024"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "fuel cost versus LNG, methanol and fuel oil",
       "reason_code": "not_in_sources_read",
-      "reason": "None extracted.",
+      "reason": "None extracted. Web-checked 2026-10-28; green-ammonia bunker prices are quote-only.",
       "where": [
         {
           "hint": "IEA GHR shipping section",
@@ -120,29 +124,6 @@
         }
       ],
       "action": "Add cost comparisons."
-    },
-    {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures.",
-      "where": [
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
     },
     {
       "field": "process",
@@ -156,6 +137,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "ammonia as marine fuel - world-first operations and trials",
+      "low": 4.4,
+      "high": 4.4,
+      "unit": "tonnes of liquid ammonia used in the first bunker operation and 10-day propulsion/manoeuvrability trials (Fortescue Green Pioneer, Singapore, Mar-May 2024, with diesel and HVO)",
+      "year": 2024,
+      "basis": "Fortescue Green Pioneer carried out the world's first ammonia marine bunker operation in Singapore (announced 15 Mar 2024) and completed 10 days of trials (23 Apr - 2 May 2024) using 6.4 m3 (4.4 t) of liquid ammonia with diesel/HVO; MAN Energy Solutions ran the first ammonia test engine at its Copenhagen research centre in July 2023; Green Pioneer demonstrated in the UK from March 2025",
+      "source": {
+        "url": "https://www.energyconnects.com/news/gas-lng/2024/march/singapore-port-announces-world-s-first-successful-use-of-ammonia-as-a-marine-fuel",
+        "note": "Energy Connects, 15 Mar 2024; CleanTechnica 13 May 2024 (10-day trial, 6.4 m3/4.4 t); safety4sea 17 Jul 2023 (MAN first ammonia engine run); read 2026-10-28"
+      }
     }
   ]
 }

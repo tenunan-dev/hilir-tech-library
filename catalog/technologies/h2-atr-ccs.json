@@ -230,7 +230,7 @@
       "field": "reference_plants",
       "item": "named operating or planned plants with capacity and status",
       "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
+      "reason": "No plant was named in the sources read. Already closed in Wave 1 (Blue Point and Air Products Alberta from GHR 2025).",
       "where": [
         {
           "hint": "IEA Hydrogen Production and Infrastructure Projects Database (free registration)",

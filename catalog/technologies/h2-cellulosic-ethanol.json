@@ -114,7 +114,7 @@
       "field": "costs",
       "item": "capital and production cost",
       "reason_code": "not_in_sources_read",
-      "reason": "None in the article.",
+      "reason": "None in the article. Web-checked 2026-10-28; TRL closed in Wave 1 (ETP guide); production costs sit in NREL/DOE TEAs.",
       "where": [
         {
           "hint": "IEA Bioenergy Task 39",

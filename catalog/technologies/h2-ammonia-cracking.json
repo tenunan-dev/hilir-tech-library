@@ -139,7 +139,7 @@
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology; the doe-hfto corpus (liquefaction, delivery, fueling-station, fuel-cell and electrolysis records, checked 2026-10-28) gives no ammonia-cracking economics.",
+      "reason": "No open source read so far gives costs for this technology; the doe-hfto corpus (liquefaction, delivery, fueling-station, fuel-cell and electrolysis records, checked 2026-10-28) gives no ammonia-cracking economics. Web-checked 2026-10-28; cracking economics remain in DOE/IEA annex material (GHR 2025 recorded).",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records and H2A analyses",

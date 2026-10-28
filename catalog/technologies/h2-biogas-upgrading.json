@@ -73,6 +73,18 @@
       },
       "low": 0.04,
       "high": 4
+    },
+    {
+      "metric": "biogas upgrading energy use by technology",
+      "low": 0.15,
+      "high": 0.5,
+      "unit": "kWh per Nm3 raw biogas (water scrubbing about 0.4-0.5, reducible to about 0.3 in advanced designs; PSA 0.15-0.3; membranes 0.2-0.4; amine wash regeneration adds 0.1-0.15 kWh/Nm3)",
+      "year": 2018,
+      "basis": "PG&E technical analysis (2 Jul 2018): water/chemical scrubbing needs about 0.4-0.5 kWh/Nm3 raw biogas; Bauer et al. SGC report: PSA electricity 0.15-0.3 kWh/Nm3; Wantz et al. 2023: high-pressure water scrubber measured 0.8 kWh/Nm3, reducible to 0.3; Khan et al. 2021 review (OSTI): amine regeneration adds 0.1-0.15 kWh/Nm3",
+      "source": {
+        "url": "https://www.pge.com/assets/pipeline/docs/products/biomethane/WaterChemicalScrubbing_TechnicalAnalysis.pdf",
+        "note": "PG&E Water/Chemical Scrubbing Technical Analysis, 2 Jul 2018; Bauer SGC 2013; Wantz 2023; Khan 2021; read 2026-10-28"
+      }
     }
   ],
   "advantages": [
@@ -85,28 +97,19 @@
     {
       "url": "https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf",
       "note": "IEA Bioenergy Task 37, Methane slip from biogas upgrading (January 2023)"
+    },
+    {
+      "url": "https://www.pge.com/assets/pipeline/docs/products/biomethane/WaterChemicalScrubbing_TechnicalAnalysis.pdf",
+      "note": "PG&E biogas upgrading energy analysis"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "energy use in kWh per Nm3",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Task 37 paper gives none.",
-      "where": [
-        {
-          "hint": "IEA Bioenergy Task 37 technology review",
-          "access": "open"
-        }
-      ],
-      "action": "Add energy use by technology."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; plant capex vendor-quoted.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -129,7 +132,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -142,7 +145,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

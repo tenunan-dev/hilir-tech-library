@@ -106,13 +106,13 @@
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): ammonia from biomethane at Yara Cubatão, Brazil, and a country roadmap with 1.85 Mtpa from biogas reforming by 2060"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "reforming efficiency and hydrogen yield per Nm3 biogas",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read.",
+      "reason": "No source read. Web-checked 2026-10-28; per-Nm3 yields sit in journal papers.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -126,7 +126,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",

@@ -84,9 +84,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Alkaline electrolyser' 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- electrolyser type and supplier at Sinopec Kuqa (other): The Sinopec release read does not state the electrolyser type or supplier. Where: Sinopec news releases; LONGi Hydrogen and PERIC project news (catalog: sinopec-tech, open). Next: Confirm type and supplier, then keep or move the Kuqa reference plant.
+- electrolyser type and supplier at Sinopec Kuqa (other): The Sinopec release read does not state the electrolyser type or supplier. Facts recorded 2026-10-28: Sinopec Kuqa (Xinjiang) is the world's largest solar-powered green hydrogen facility - 20,000 t/yr from a 300 MW solar field feeding about 260-390 MW of ALK electrolysis (reported both figures), project cost about USD 831 m; 100% electrolyser load reported January 2025. The electrolyser is alkaline-type; the specific supplier attribution (PERIC-class Chinese ALK vendors) circulates in trade press but was not confirmable on a primary page. Where: Sinopec news releases; LONGi Hydrogen and PERIC project news (catalog: sinopec-tech, open). Next: Confirm the electrolyser supplier from a Sinopec or vendor primary page when available.
 
-Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom), [3](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [4](https://www.aap.com.au/aapreleases/cision20230703ae48443), [5](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html), [6](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/), [7](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [8](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-24.
+Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom), [3](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/), [4](https://www.aap.com.au/aapreleases/cision20230703ae48443), [5](https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html), [6](https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/), [7](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf), [8](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-28.
 
 ## Biogas reforming to hydrogen
 <a id="h2-biogas-reforming"></a>
@@ -113,11 +113,11 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Anaerobic digestion and upgrading with CCUS' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- reforming efficiency and hydrogen yield per Nm3 biogas (performance): No source read. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add yield and cost from a review.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- reforming efficiency and hydrogen yield per Nm3 biogas (performance): No source read. Web-checked 2026-10-28; per-Nm3 yields sit in journal papers. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add yield and cost from a review.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
 
 ## Biogas upgrading to biomethane
 <a id="h2-biogas-upgrading"></a>
@@ -137,15 +137,15 @@ flowchart LR
 
 **Performance:**
 - methane slip by technology: 0.04-4 vol% of upgraded gas; amine 0.04 to 0.1% (lowest); membrane 0.5 to 1%; water scrubber 1 to 2%; PSA below 2%; physical adsorption 2 to 4%; cryogenic about 2%. [source](https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf)
+- biogas upgrading energy use by technology: 0.15-0.5 kWh per Nm3 raw biogas (water scrubbing about 0.4-0.5, reducible to about 0.3 in advanced designs; PSA 0.15-0.3; membranes 0.2-0.4; amine wash regeneration adds 0.1-0.15 kWh/Nm3); PG&E technical analysis (2 Jul 2018): water/chemical scrubbing needs about 0.4-0.5 kWh/Nm3 raw biogas; Bauer et al. SGC report: PSA electricity 0.15-0.3 kWh/Nm3; Wantz et al. 2023: high-pressure water scrubber measured 0.8 kWh/Nm3, reducible to 0.3; Khan et al. 2021 review (OSTI): amine regeneration adds 0.1-0.15 kWh/Nm3. [source](https://www.pge.com/assets/pipeline/docs/products/biomethane/WaterChemicalScrubbing_TechnicalAnalysis.pdf)
 
 **Missing inputs:**
-- energy use in kWh per Nm3 (performance): The Task 37 paper gives none. Where: IEA Bioenergy Task 37 technology review (open). Next: Add energy use by technology.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; plant capex vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf), [2](https://www.pge.com/assets/pipeline/docs/products/biomethane/WaterChemicalScrubbing_TechnicalAnalysis.pdf). Last reviewed 2026-10-28.
 
 ## Compressed hydrogen storage and tube trailers
 <a id="h2-compressed-storage-tube-trailers"></a>
@@ -527,7 +527,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Ammonia cracking - reformer' 7; 'Ammonia cracking - catalytic membrane' 4](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; the doe-hfto corpus (liquefaction, delivery, fueling-station, fuel-cell and electrolysis records, checked 2026-10-28) gives no ammonia-cracking economics. Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; the doe-hfto corpus (liquefaction, delivery, fueling-station, fuel-cell and electrolysis records, checked 2026-10-28) gives no ammonia-cracking economics. Web-checked 2026-10-28; cracking economics remain in DOE/IEA annex material (GHR 2025 recorded). Where: DOE Hydrogen Program Records and H2A analyses (catalog: doe-hfto, open); [IEA Global Hydrogen Review 2025 Assumptions Annex (collected): capex and efficiency by pathway](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) (catalog: iea-reports, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/). Last reviewed 2026-10-28.
 
@@ -547,6 +547,9 @@ flowchart LR
 
 **Key equipment:** ammonia fuel tank, fuel supply system, dual-fuel engine, safety and leak systems.
 
+**Performance:**
+- ammonia as marine fuel - world-first operations and trials: 4.4 tonnes of liquid ammonia used in the first bunker operation and 10-day propulsion/manoeuvrability trials (Fortescue Green Pioneer, Singapore, Mar-May 2024, with diesel and HVO); Fortescue Green Pioneer carried out the world's first ammonia marine bunker operation in Singapore (announced 15 Mar 2024) and completed 10 days of trials (23 Apr - 2 May 2024) using 6.4 m3 (4.4 t) of liquid ammonia with diesel/HVO; MAN Energy Solutions ran the first ammonia test engine at its Copenhagen research centre in July 2023; Green Pioneer demonstrated in the UK from March 2025. [source](https://www.energyconnects.com/news/gas-lng/2024/march/singapore-port-announces-world-s-first-successful-use-of-ammonia-as-a-marine-fuel)
+
 **Reference plants:**
 - Anhui, first vessel on ammonia only (200 kW engine), maiden voyage June 2025, CN: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 - Sakigake tug, Tokyo Bay, 95% ammonia co-firing trial March 2025, JP: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
@@ -554,11 +557,10 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Ammonia-fuelled ship engine' 6 (2025); 'Ammonia (bunkering)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- fuel cost versus LNG, methanol and fuel oil (costs): None extracted. Where: IEA GHR shipping section (catalog: iea-reports, open). Next: Add cost comparisons.
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+- fuel cost versus LNG, methanol and fuel oil (costs): None extracted. Web-checked 2026-10-28; green-ammonia bunker prices are quote-only. Where: IEA GHR shipping section (catalog: iea-reports, open). Next: Add cost comparisons.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.energyconnects.com/news/gas-lng/2024/march/singapore-port-announces-world-s-first-successful-use-of-ammonia-as-a-marine-fuel). Last reviewed 2026-10-28.
 
 ## Cellulosic ethanol
 <a id="h2-cellulosic-ethanol"></a>
@@ -585,7 +587,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'Lignocellulosic biomass fermentation' (TRL 9 in 2025; 8 in 2020-2023)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital and production cost (costs): None in the article. Where: IEA Bioenergy Task 39 (open). Next: Add cost.
+- capital and production cost (costs): None in the article. Web-checked 2026-10-28; TRL closed in Wave 1 (ETP guide); production costs sit in NREL/DOE TEAs. Where: IEA Bioenergy Task 39 (open). Next: Add cost.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html), [2](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-28.
@@ -990,7 +992,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Anion exchange membrane electrolyser' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Web-checked 2026-10-28; Enapter reference installations exist but no verifiable named plant page added. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf), [3](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf). Last reviewed 2026-10-28.
 
@@ -1033,7 +1035,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Autothermal reforming - single reformer' 5; 'Autothermal reforming - gas heated reformer' 5](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
+- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Already closed in Wave 1 (Blue Point and Air Products Alberta from GHR 2025). Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
 Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [2](https://www.wfmz.com/news/area/lehighvalley/air-products-scraps-plans-for-massive-clean-energy-complex/article_3d8eac87-46cf-4b46-a0fe-cbaad5d21d7f.html), [3](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
 
@@ -1065,10 +1067,10 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass-waste gasification without CCUS' 6 (2025); 'Biomass-waste gasification with CCUS' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- operating biomass-to-hydrogen plants (reference_plants): IEA says output is marginal; no plant is named in sources read. Where: IEA Bioenergy Task 33 gasification database (open). Next: Add one or two operating plants.
+- operating biomass-to-hydrogen plants (reference_plants): IEA says output is marginal; no plant is named in sources read. Web-checked 2026-10-28; no named operating BTH plant found open. Where: IEA Bioenergy Task 33 gasification database (open). Next: Add one or two operating plants.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
 
 ## Co-electrolysis of CO2 and water
 <a id="h2-co-electrolysis"></a>
@@ -1178,8 +1180,8 @@ flowchart LR
 - minimum fuel selling price: 2.46-18.6 USD/gge; 2015 state of the art USD 18.60; 2022 DOE projection USD 4.72 at 25 g/m2/day; end-of-project estimate USD 2.46 at 36 g/m2/day; year of dollars not stated. [source](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf)
 
 **Missing inputs:**
-- TRL (trl): No IEA entry for algal fuels. IEA ETP Guide (July 2026) has no matching entry (searched algal, algae, microalgae, biofuel, hydrothermal liquefaction); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL (trl): No IEA entry for algal fuels. IEA ETP Guide (July 2026) has no matching entry (searched algal, algae, microalgae, biofuel, hydrothermal liquefaction); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no algae entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; algal-fuel pilot pages unverifiable. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf). Last reviewed 2026-10-28.

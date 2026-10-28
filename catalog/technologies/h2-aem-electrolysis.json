@@ -157,7 +157,7 @@
       "field": "reference_plants",
       "item": "named operating or planned plants with capacity and status",
       "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read.",
+      "reason": "No plant was named in the sources read. Web-checked 2026-10-28; Enapter reference installations exist but no verifiable named plant page added.",
       "where": [
         {
           "hint": "IEA Hydrogen Production and Infrastructure Projects Database (free registration)",
