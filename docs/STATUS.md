@@ -47,7 +47,7 @@ State: the catalog (354 sources), 172 summarised documents (133 open-licence) an
 | Unverified | 181, of which 26 need a manual terms check (`catalog/index/needs-manual-check.md`; the full gate survey is in `docs/LOGIN_REQUIRED.md`) |
 | Corpus documents | 168, each with a hand-written `summary` (enforced by tests/test_technologies.py); 133 open-licence, 35 restricted. The hosted copy serves the 133 open-licence ones |
 | Technology cards | 299, one for every one of the 306 register entries in `catalog/technology-register.yaml` (PWR grew 33 → 39 with the six modular-power cards; UPS 54, H2 35, CCS 32, GAS 30, PCH 28, REF 27, MID 20, ROT 11, MAT 6, INS 5, DIG 5, HSE 4, PRC 3). Every card has sources; figures only where a URL was read, everything else is a gap. 921 open gaps on 287 cards (2026-10-28 execution session, was 1,118) |
-| Vendor records | 71 in `catalog/vendors/` (schema `schema/vendor.schema.json`), one per vendor, supplier or packager; batch 1 covers the power sector (PWR) and the six modular-power cards across 36 technologies. `catalog/index/vendors.md` holds the directory and the coverage queue of supplier names on cards not yet in the directory (PWR 19 left; UPS 76, H2 61, PCH 50, GAS 44, CCS 41, REF 39, MID 38, ROT 13, MAT 9, INS 8, DIG 4, PRC 4, HSE 3 to go) |
+| Vendor records | 205 in `catalog/vendors/` (UPS sector fully covered 2026-10-28, H2 covered; remaining queue ~220 names in PCH/GAS/CCS/REF/MID/ROT/MAT/INS/DIG/LNG/HSE/PRC) | (schema `schema/vendor.schema.json`), one per vendor, supplier or packager; batch 1 covers the power sector (PWR) and the six modular-power cards across 36 technologies. `catalog/index/vendors.md` holds the directory and the coverage queue of supplier names on cards not yet in the directory (PWR 19 left; UPS 76, H2 61, PCH 50, GAS 44, CCS 41, REF 39, MID 38, ROT 13, MAT 9, INS 8, DIG 4, PRC 4, HSE 3 to go) |
 
 Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl` and the MCP tool `library_stats`.
 
@@ -74,6 +74,10 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 - Repository: https://github.com/tenunan-dev/hilir-tech-library (private; renamed from og-tech-sources on 2026-10-27, old URLs redirect).
 - Collection works from the owner's Mac and should work from GitHub Actions. The cloud sandbox used for development blocks most publisher hosts.
 - The MCP server is registered in Claude Desktop and Claude Code on the owner's Mac (user scope), pointing at the clone's `.venv`.
+
+## Vendor batch session (2026-10-28 evening)
+
+UPS queue closed end to end (all 66+ named vendors, group commits `72a16f6`..`c150582`) and the H2 queue closed (`4ca22d0`, `811c9ae`) — 205 directory records total, from 71. Aliases were matched against every card supplier string so the regenerated coverage queue only lists genuinely unrecorded names (next: PCH 39, GAS 23, CCS 33, REF 28, MID 26, ROT 21, MAT 17, INS 8, DIG 9, LNG 5, HSE 3, PRC 8 — non-vendor placeholders excluded). Two schema notes for future batches: card `suppliers[]` entries allow only name/product/source_id/url, and vendor roles enum has no `contractor` (use `service`). The publish chain (build → index rebuild → embed 11,725 rows threads=4 → Neon reload `--embeddings sqlite --include-restricted`) completed on the pre-vendor-batch state (144 vendors in Neon); the 61 newest vendor records ride the next embed+reload cycle. `npx wrangler deploy` launched after the chain.
 
 ## Log
 

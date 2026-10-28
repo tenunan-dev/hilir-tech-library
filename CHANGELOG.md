@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.27.13] — 2026-10-28 — vendor directory +71: UPS and H2 sectors fully covered
+
+### Added
+- 134 new vendor records (71 → 205): the entire UPS coverage queue (SLB, Halliburton, Weatherford, NOV, Nabors, SBM Offshore, MODEC, MISC, BiSN, Wellstrom, Exedra, Axter, Interwell, seismic contractors, NOCs and operators) and the entire H2 queue (electrolyser makers Nel/ITM/Enapter/John Cockerill/HydrogenPro/PERIC/LONGi/nucera, fuel cells Ballard/Bloom/Toyota, storage Hexagon Purus and HyStock, liquefaction Kawasaki, crackers Hazer/Monolith/BASF, DRI Midrex/HYBRIT/Stegra, e-fuels INERATEC/Infinium/Velocys, industrials Air Liquide/Air Products/Linde/Topsoe/Johnson Matthey/KBR/Casale/Yara). Aliases matched to every card supplier string; the coverage queue now lists only genuinely unrecorded names.
+
 ## [2026.10.27.12] — 2026-10-28 — Wave 3 complete: all 36 sector batches swept, 1,012 → 921 open gaps
 
 ### Changed
