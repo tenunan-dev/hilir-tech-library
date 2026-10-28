@@ -1,0 +1,20 @@
+{
+  "id": "hydrogenpro",
+  "name": "HydrogenPro",
+  "country": "Norway",
+  "roles": [
+    "oem"
+  ],
+  "description": "Norwegian maker of pressurised alkaline electrolyzers (HP series) with large-format cell technology for industrial-scale plants.",
+  "technologies": [
+    "h2-alkaline-electrolysis"
+  ],
+  "url": "https://hydrogenpro.com",
+  "sources": [
+    {
+      "url": "https://hydrogenpro.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

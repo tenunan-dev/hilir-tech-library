@@ -1,0 +1,27 @@
+{
+  "id": "bright-biomethane",
+  "name": "Bright Biomethane (Bright Renewables)",
+  "country": "Netherlands",
+  "roles": [
+    "oem"
+  ],
+  "description": "Enschede-based supplier of biogas-upgrading systems (PurePac, 100-12,000 Nm3/hr) and bio-LNG/CO2 liquefaction units, part of the Bright Renewables group.",
+  "technologies": [
+    "h2-biogas-upgrading"
+  ],
+  "url": "https://www.bright-renewables.com",
+  "sources": [
+    {
+      "url": "https://www.bright-renewables.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Bright Biomethane",
+    "Bright Renewables"
+  ],
+  "products": [
+    "PurePac upgrading"
+  ]
+}

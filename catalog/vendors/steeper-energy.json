@@ -1,0 +1,23 @@
+{
+  "id": "steeper-energy",
+  "name": "Steeper Energy",
+  "country": "Denmark",
+  "roles": [
+    "developer"
+  ],
+  "description": "Danish-Norwegian developer of the Hydrofaction hydrothermal liquefaction process, demonstrated at the Scale-up Demonstration unit in Norway and paired with Topsoe for waste-to-fuel plants.",
+  "technologies": [
+    "h2-pyrolysis-htl"
+  ],
+  "url": "https://steeperenergy.com",
+  "sources": [
+    {
+      "url": "https://steeperenergy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Hydrofaction"
+  ]
+}

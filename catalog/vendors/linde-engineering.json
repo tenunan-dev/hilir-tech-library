@@ -1,0 +1,26 @@
+{
+  "id": "linde-engineering",
+  "name": "Linde Engineering",
+  "country": "Germany",
+  "roles": [
+    "licensor",
+    "oem"
+  ],
+  "description": "Linde's engineering arm: SMR/hyCO plants, Rectisol purification, cryogenic liquefaction (the first hydrogen liquefier in 1930s lineage) and LOHC systems.",
+  "technologies": [
+    "h2-liquid-hydrogen",
+    "h2-smr"
+  ],
+  "url": "https://www.linde-engineering.com",
+  "sources": [
+    {
+      "url": "https://www.linde-engineering.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Rectisol",
+    "H2 liquefiers"
+  ]
+}

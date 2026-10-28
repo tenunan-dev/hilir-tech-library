@@ -1,0 +1,23 @@
+{
+  "id": "hystock",
+  "name": "HyStock",
+  "country": "Netherlands",
+  "roles": [
+    "developer"
+  ],
+  "description": "Gasunie subsidiary demonstrating salt-cavern hydrogen storage at Zuidwending, Groningen - the Netherlands' first hydrogen cavern project.",
+  "technologies": [
+    "h2-salt-cavern-storage"
+  ],
+  "url": "https://www.hystock.nl",
+  "sources": [
+    {
+      "url": "https://www.hystock.nl",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Gasunie HyStock"
+  ]
+}

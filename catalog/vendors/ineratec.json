@@ -1,0 +1,20 @@
+{
+  "id": "ineratec",
+  "name": "INERATEC",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "Karlsruhe spin-off building modular chemical plants for power-to-X: syngas generation, Fischer-Tropsch and methanol synthesis in containerised units.",
+  "technologies": [
+    "h2-ft-saf-efuels"
+  ],
+  "url": "https://ineratec.de",
+  "sources": [
+    {
+      "url": "https://ineratec.de",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

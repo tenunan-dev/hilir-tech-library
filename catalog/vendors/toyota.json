@@ -1,0 +1,24 @@
+{
+  "id": "toyota",
+  "name": "Toyota",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "description": "Automaker whose Mirai passenger car and fuel-cell module business (Tier 4 modules for trucks and buses) anchor fuel-cell mobility.",
+  "technologies": [
+    "h2-fuel-cells"
+  ],
+  "url": "https://www.toyota-global.com",
+  "sources": [
+    {
+      "url": "https://www.toyota-global.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Mirai",
+    "FC modules"
+  ]
+}

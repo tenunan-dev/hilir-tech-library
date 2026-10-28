@@ -1,0 +1,24 @@
+{
+  "id": "hydrogenious",
+  "name": "Hydrogenious LOHC Technologies",
+  "country": "Germany",
+  "roles": [
+    "oem",
+    "developer"
+  ],
+  "description": "Erlangen company commercialising dibenzyltoluene-based liquid organic hydrogen carrier storage and release systems.",
+  "technologies": [
+    "h2-lohc"
+  ],
+  "url": "https://hydrogenious.net",
+  "sources": [
+    {
+      "url": "https://hydrogenious.net",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "LOHC DBT systems"
+  ]
+}

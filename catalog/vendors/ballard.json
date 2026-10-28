@@ -1,0 +1,27 @@
+{
+  "id": "ballard",
+  "name": "Ballard Power Systems",
+  "country": "Canada",
+  "roles": [
+    "oem"
+  ],
+  "description": "PEM fuel-cell maker focused on heavy-duty motive markets (buses, trucks, rail, marine) under the FCmove and FCgen product lines.",
+  "technologies": [
+    "h2-fuel-cells"
+  ],
+  "url": "https://www.ballard.com",
+  "sources": [
+    {
+      "url": "https://www.ballard.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "FCmove",
+    "FCgen"
+  ],
+  "aliases": [
+    "Ballard"
+  ]
+}

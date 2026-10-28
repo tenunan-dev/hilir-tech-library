@@ -1,0 +1,20 @@
+{
+  "id": "john-cockerill",
+  "name": "John Cockerill",
+  "country": "Belgium",
+  "roles": [
+    "oem"
+  ],
+  "description": "Belgian engineering group whose hydrogen division is one of the world's largest alkaline electrolyser manufacturers.",
+  "technologies": [
+    "h2-alkaline-electrolysis"
+  ],
+  "url": "https://johncockerill.com",
+  "sources": [
+    {
+      "url": "https://johncockerill.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

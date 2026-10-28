@@ -1,0 +1,20 @@
+{
+  "id": "pentair",
+  "name": "Pentair",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Water and gas treatment company whose Union brand supplies biogas upgrading and CO2 recovery systems.",
+  "technologies": [
+    "h2-biogas-upgrading"
+  ],
+  "url": "https://www.pentair.com",
+  "sources": [
+    {
+      "url": "https://www.pentair.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

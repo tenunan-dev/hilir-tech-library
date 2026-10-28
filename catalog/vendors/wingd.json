@@ -1,0 +1,23 @@
+{
+  "id": "wingd",
+  "name": "WinGD",
+  "country": "Switzerland",
+  "roles": [
+    "oem"
+  ],
+  "description": "Winterthur Gas & Diesel: designer of the large two-stroke marine engines being adapted for ammonia dual-fuel operation (X92DF-MA class).",
+  "technologies": [
+    "h2-ammonia-marine-fuel"
+  ],
+  "url": "https://www.wingd.com",
+  "sources": [
+    {
+      "url": "https://www.wingd.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "X92DF-MA ammonia engine"
+  ]
+}

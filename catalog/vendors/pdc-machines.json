@@ -1,0 +1,20 @@
+{
+  "id": "pdc-machines",
+  "name": "PDC Machines",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Pennsylvania maker of diaphragm compressors widely used for hydrogen refuelling and industrial gas duty.",
+  "technologies": [
+    "h2-compressors"
+  ],
+  "url": "https://www.pdcmachines.com",
+  "sources": [
+    {
+      "url": "https://www.pdcmachines.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

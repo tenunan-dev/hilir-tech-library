@@ -1,0 +1,20 @@
+{
+  "id": "european-energy",
+  "name": "European Energy",
+  "country": "Denmark",
+  "roles": [
+    "developer"
+  ],
+  "description": "Danish renewables developer building the Kassø e-methanol facility (with Mitsui) powered by its own solar and wind portfolio.",
+  "technologies": [
+    "h2-e-methanol"
+  ],
+  "url": "https://europeanenergy.com",
+  "sources": [
+    {
+      "url": "https://europeanenergy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

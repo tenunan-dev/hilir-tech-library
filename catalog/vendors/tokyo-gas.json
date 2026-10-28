@@ -1,0 +1,21 @@
+{
+  "id": "tokyo-gas",
+  "name": "Tokyo Gas",
+  "country": "Japan",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "Japanese city-gas major developing e-methane (synthetic methane) projects and methanation pilots to decarbonise its gas grid.",
+  "technologies": [
+    "h2-e-methane"
+  ],
+  "url": "https://www.tokyo-gas.co.jp",
+  "sources": [
+    {
+      "url": "https://www.tokyo-gas.co.jp",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

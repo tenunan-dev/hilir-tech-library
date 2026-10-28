@@ -1,0 +1,25 @@
+{
+  "id": "bloom-energy",
+  "name": "Bloom Energy",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Solid-oxide fuel-cell maker (Energy Server) whose high-temperature platform also runs in reverse as a solid-oxide electrolyser.",
+  "technologies": [
+    "h2-fuel-cells",
+    "h2-soec"
+  ],
+  "url": "https://www.bloomenergy.com",
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Energy Server",
+    "SOEC electrolyser"
+  ]
+}

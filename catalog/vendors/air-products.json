@@ -1,0 +1,30 @@
+{
+  "id": "air-products",
+  "name": "Air Products",
+  "country": "USA",
+  "roles": [
+    "supplier",
+    "operator"
+  ],
+  "description": "Industrial-gas major building large blue and green hydrogen and ammonia projects (including the Louisiana clean-energy complex) and operating a global hydrogen pipeline network.",
+  "technologies": [
+    "h2-ammonia-cracking",
+    "h2-atr-ccs",
+    "h2-gasification-pox",
+    "h2-green-blue-ammonia",
+    "h2-liquid-hydrogen",
+    "h2-smr"
+  ],
+  "url": "https://www.airproducts.com",
+  "sources": [
+    {
+      "url": "https://www.airproducts.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "NEOM green hydrogen project",
+    "Louisiana blue hydrogen"
+  ]
+}

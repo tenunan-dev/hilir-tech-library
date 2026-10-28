@@ -1,0 +1,20 @@
+{
+  "id": "clariant",
+  "name": "Clariant",
+  "country": "Switzerland",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Specialty chemicals and catalysts company supplying reforming, shift and biofuel-process catalysts.",
+  "technologies": [
+    "h2-cellulosic-ethanol"
+  ],
+  "url": "https://www.clariant.com",
+  "sources": [
+    {
+      "url": "https://www.clariant.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

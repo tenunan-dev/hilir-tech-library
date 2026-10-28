@@ -1,0 +1,21 @@
+{
+  "id": "basf",
+  "name": "BASF",
+  "country": "Germany",
+  "roles": [
+    "developer",
+    "licensor"
+  ],
+  "description": "Chemical major researching methane pyrolysis for turquoise hydrogen and carbon-black co-production, with pilot units at Ludwigshafen.",
+  "technologies": [
+    "h2-methane-pyrolysis"
+  ],
+  "url": "https://www.basf.com",
+  "sources": [
+    {
+      "url": "https://www.basf.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

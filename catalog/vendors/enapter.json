@@ -1,0 +1,27 @@
+{
+  "id": "enapter",
+  "name": "Enapter",
+  "country": "Italy",
+  "roles": [
+    "oem"
+  ],
+  "description": "Maker of modular anion-exchange-membrane (AEM) electrolyzers, from the EL stack to multi-MW integrated NG devices.",
+  "technologies": [
+    "h2-aem-electrolysis"
+  ],
+  "url": "https://www.enapter.com",
+  "sources": [
+    {
+      "url": "https://www.enapter.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Enapter srl"
+  ],
+  "products": [
+    "AEM Nexus",
+    "EL 2.1 stacks"
+  ]
+}

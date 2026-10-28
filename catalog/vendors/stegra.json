@@ -1,0 +1,24 @@
+{
+  "id": "stegra",
+  "name": "Stegra",
+  "country": "Sweden",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Formerly H2 Green Steel: building the integrated Boden green hydrogen, iron and steel plant (about USD 7 bn raised, startup 2026).",
+  "technologies": [
+    "h2-dri"
+  ],
+  "url": "https://stegra.com",
+  "sources": [
+    {
+      "url": "https://stegra.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "H2 Green Steel"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "licella",
+  "name": "Licella",
+  "country": "Australia",
+  "roles": [
+    "developer"
+  ],
+  "description": "Sydney company commercialising Cat-HTR hydrothermal liquefaction, turning biomass and residues into biocrude in continuous-flow reactors.",
+  "technologies": [
+    "h2-pyrolysis-htl"
+  ],
+  "url": "https://licella.com.au",
+  "sources": [
+    {
+      "url": "https://licella.com.au",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Cat-HTR"
+  ]
+}

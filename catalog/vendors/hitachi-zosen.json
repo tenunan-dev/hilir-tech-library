@@ -1,0 +1,24 @@
+{
+  "id": "hitachi-zosen",
+  "name": "Hitachi Zosen (Kanadevia)",
+  "country": "Japan",
+  "roles": [
+    "oem",
+    "developer"
+  ],
+  "description": "Japanese engineering group (renamed Kanadevia) developing methanation plants that synthesise e-methane from green hydrogen and CO2.",
+  "technologies": [
+    "h2-e-methane"
+  ],
+  "url": "https://www.kanadevia.com",
+  "sources": [
+    {
+      "url": "https://www.kanadevia.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Kanadevia"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "johnson-matthey",
+  "name": "Johnson Matthey",
+  "country": "United Kingdom",
+  "roles": [
+    "licensor",
+    "supplier"
+  ],
+  "description": "UK science company licensing reforming, hyCO and ammonia-cracking technology (with Honeywell UOP) and supplying process catalysts across the hydrogen chain.",
+  "technologies": [
+    "h2-gas-heated-reforming",
+    "h2-ammonia-cracking",
+    "h2-atr-ccs",
+    "h2-e-methanol",
+    "h2-rwgs",
+    "h2-gasification-pox"
+  ],
+  "url": "https://matthey.com",
+  "sources": [
+    {
+      "url": "https://matthey.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Johnson Matthey (Honeywell)"
+  ],
+  "products": [
+    "HyCO licensing",
+    "JM catalysts"
+  ]
+}

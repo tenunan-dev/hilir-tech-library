@@ -1,0 +1,21 @@
+{
+  "id": "burckhardt-compression",
+  "name": "Burckhardt Compression",
+  "country": "Switzerland",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Market leader in reciprocating compressor systems, supplying hydrogen-ready piston compressors for refuelling and industrial duty.",
+  "technologies": [
+    "h2-compressors"
+  ],
+  "url": "https://www.burckhardtcompression.com",
+  "sources": [
+    {
+      "url": "https://www.burckhardtcompression.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

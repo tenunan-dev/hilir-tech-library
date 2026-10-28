@@ -1,0 +1,20 @@
+{
+  "id": "sparc-hydrogen",
+  "name": "Sparc Hydrogen",
+  "country": "Australia",
+  "roles": [
+    "developer"
+  ],
+  "description": "Adelaide-based JV developing solar photocatalytic water splitting (solar hydrogen reactor technology) with the University of Adelaide.",
+  "technologies": [
+    "h2-solar-water-splitting"
+  ],
+  "url": "https://sparchydrogen.com.au",
+  "sources": [
+    {
+      "url": "https://sparchydrogen.com.au",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

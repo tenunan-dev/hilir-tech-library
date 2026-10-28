@@ -1,0 +1,21 @@
+{
+  "id": "thyssenkrupp-uhde",
+  "name": "thyssenkrupp Uhde",
+  "country": "Germany",
+  "roles": [
+    "licensor",
+    "epc"
+  ],
+  "description": "German process licensor and EPC for ammonia, urea, methanol and green-ammonia plants (green ammonia from electrolysis at gigawatt scale).",
+  "technologies": [
+    "h2-green-blue-ammonia"
+  ],
+  "url": "https://uhde.thyssenkrupp.com",
+  "sources": [
+    {
+      "url": "https://uhde.thyssenkrupp.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

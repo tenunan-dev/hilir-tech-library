@@ -1,0 +1,21 @@
+{
+  "id": "technip-energies",
+  "name": "Technip Energies",
+  "country": "France",
+  "roles": [
+    "epc",
+    "licensor"
+  ],
+  "description": "Engineering and technology licensor for hydrogen, LNG and ethylene, with proprietary reforming and low-carbon hydrogen solutions.",
+  "technologies": [
+    "h2-smr"
+  ],
+  "url": "https://www.technipenergies.com",
+  "sources": [
+    {
+      "url": "https://www.technipenergies.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

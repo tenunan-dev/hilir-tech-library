@@ -1,0 +1,24 @@
+{
+  "id": "yara",
+  "name": "Yara",
+  "country": "Norway",
+  "roles": [
+    "operator",
+    "operator"
+  ],
+  "description": "Norwegian fertiliser major: world-scale ammonia production and distribution and a leading clean-ammonia developer (Yara Clean Ammonia).",
+  "technologies": [
+    "h2-biogas-reforming"
+  ],
+  "url": "https://www.yara.com",
+  "sources": [
+    {
+      "url": "https://www.yara.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Yara Clean Ammonia"
+  ]
+}

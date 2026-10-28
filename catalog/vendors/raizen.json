@@ -1,0 +1,20 @@
+{
+  "id": "raizen",
+  "name": "Raizen",
+  "country": "Brazil",
+  "roles": [
+    "operator"
+  ],
+  "description": "Shell-backed Brazilian sugar-and-ethanol giant operating dozens of mills and the E2G second-generation ethanol plants.",
+  "technologies": [
+    "h2-first-gen-biofuels"
+  ],
+  "url": "https://www.raizen.com.br",
+  "sources": [
+    {
+      "url": "https://www.raizen.com.br",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

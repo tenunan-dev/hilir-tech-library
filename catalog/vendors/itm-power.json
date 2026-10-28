@@ -1,0 +1,24 @@
+{
+  "id": "itm-power",
+  "name": "ITM Power",
+  "country": "United Kingdom",
+  "roles": [
+    "oem"
+  ],
+  "description": "UK maker of PEM electrolyzers (TRITON product line) for industrial and refuelling applications.",
+  "technologies": [
+    "h2-e-methane",
+    "h2-pem-electrolysis"
+  ],
+  "url": "https://www.itm-power.com",
+  "sources": [
+    {
+      "url": "https://www.itm-power.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "TRITON electrolyser"
+  ]
+}

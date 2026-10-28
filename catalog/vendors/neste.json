@@ -1,0 +1,20 @@
+{
+  "id": "neste",
+  "name": "Neste",
+  "country": "Finland",
+  "roles": [
+    "operator"
+  ],
+  "description": "World's largest renewable diesel and SAF producer, refining waste fats and oils at Porvoo, Rotterdam and Singapore.",
+  "technologies": [
+    "h2-first-gen-biofuels"
+  ],
+  "url": "https://www.neste.com",
+  "sources": [
+    {
+      "url": "https://www.neste.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

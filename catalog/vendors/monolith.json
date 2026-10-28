@@ -1,0 +1,23 @@
+{
+  "id": "monolith",
+  "name": "Monolith",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "Nebraska company running plasma methane pyrolysis (Olive Creek) that produces turquoise hydrogen and carbon black.",
+  "technologies": [
+    "h2-methane-pyrolysis"
+  ],
+  "url": "https://monolith-corp.com",
+  "sources": [
+    {
+      "url": "https://monolith-corp.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Olive Creek plant"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ensyn",
+  "name": "Ensyn Corporation",
+  "country": "Canada",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Ottawa-based rapid thermal processing (RTP) pyrolysis company producing renewable fuel oil from biomass, with commercial plants at Renfrew, Ontario.",
+  "technologies": [
+    "h2-pyrolysis-htl"
+  ],
+  "url": "https://www.ensyn.com",
+  "sources": [
+    {
+      "url": "https://www.ensyn.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "RTP bio-oil"
+  ]
+}

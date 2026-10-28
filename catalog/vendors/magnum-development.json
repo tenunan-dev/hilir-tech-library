@@ -1,0 +1,21 @@
+{
+  "id": "magnum-development",
+  "name": "Magnum Development",
+  "country": "USA",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "description": "Owner of the Utah salt-cavern complex at Delta hosting the ACES Delta hydrogen storage project (300 GWh-class); Chevron took majority ownership in 2023.",
+  "technologies": [
+    "h2-salt-cavern-storage"
+  ],
+  "url": "https://www.magnumdev.com",
+  "sources": [
+    {
+      "url": "https://www.magnumdev.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

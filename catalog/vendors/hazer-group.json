@@ -1,0 +1,20 @@
+{
+  "id": "hazer-group",
+  "name": "Hazer Group",
+  "country": "Australia",
+  "roles": [
+    "developer"
+  ],
+  "description": "ASX-listed developer of methane pyrolysis using iron-ore catalyst to make hydrogen and graphite, commercialising a commercial demonstration plant in Perth.",
+  "technologies": [
+    "h2-methane-pyrolysis"
+  ],
+  "url": "https://hazergroup.com.au",
+  "sources": [
+    {
+      "url": "https://hazergroup.com.au",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

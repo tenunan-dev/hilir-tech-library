@@ -1,0 +1,20 @@
+{
+  "id": "longi-hydrogen",
+  "name": "LONGi Hydrogen",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "Electrolyser arm of solar manufacturer LONGi, supplying large-format alkaline systems for green hydrogen plants.",
+  "technologies": [
+    "h2-alkaline-electrolysis"
+  ],
+  "url": "https://www.longihydrogen.com",
+  "sources": [
+    {
+      "url": "https://www.longihydrogen.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

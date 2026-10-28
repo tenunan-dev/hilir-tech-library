@@ -1,0 +1,25 @@
+{
+  "id": "kbr",
+  "name": "KBR",
+  "country": "USA",
+  "roles": [
+    "licensor"
+  ],
+  "description": "US engineering licensor whose ammonia and blue-ammonia technologies (KBR Reforming Exchanger System, Purifier ammonia loop) are widely licensed.",
+  "technologies": [
+    "h2-ammonia-cracking",
+    "h2-green-blue-ammonia"
+  ],
+  "url": "https://www.kbr.com",
+  "sources": [
+    {
+      "url": "https://www.kbr.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "KRES",
+    "Purifier ammonia process"
+  ]
+}

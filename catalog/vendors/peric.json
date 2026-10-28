@@ -1,0 +1,23 @@
+{
+  "id": "peric",
+  "name": "PERIC Hydrogen Technologies",
+  "country": "China",
+  "roles": [
+    "oem"
+  ],
+  "description": "The 718 Research Institute's hydrogen business, one of China's largest alkaline electrolyser suppliers and the equipment source for Sinopec Kuqa.",
+  "technologies": [
+    "h2-alkaline-electrolysis"
+  ],
+  "url": "https://en.peric.com.cn",
+  "sources": [
+    {
+      "url": "https://en.peric.com.cn",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "PERIC"
+  ]
+}

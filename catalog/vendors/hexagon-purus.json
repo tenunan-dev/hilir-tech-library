@@ -1,0 +1,24 @@
+{
+  "id": "hexagon-purus",
+  "name": "Hexagon Purus",
+  "country": "Norway",
+  "roles": [
+    "oem"
+  ],
+  "description": "Supplier of Type-4 composite hydrogen cylinders, tube trailers and fuel-systems for mobility and storage.",
+  "technologies": [
+    "h2-compressed-storage-tube-trailers"
+  ],
+  "url": "https://hexagonpurus.com",
+  "sources": [
+    {
+      "url": "https://hexagonpurus.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Type-4 cylinders",
+    "Tube trailers"
+  ]
+}

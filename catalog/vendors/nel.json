@@ -1,0 +1,30 @@
+{
+  "id": "nel",
+  "name": "Nel ASA",
+  "country": "Norway",
+  "roles": [
+    "oem"
+  ],
+  "description": "Norwegian electrolyser company covering both alkaline (Atmospheric/Pressurised) and PEM platforms (Containerised MC250) plus refuelling equipment.",
+  "technologies": [
+    "h2-alkaline-electrolysis",
+    "h2-pem-electrolysis",
+    "h2-refuelling-stations"
+  ],
+  "url": "https://nelhydrogen.com",
+  "sources": [
+    {
+      "url": "https://nelhydrogen.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Nel Hydrogen"
+  ],
+  "products": [
+    "Atmospheric alkaline",
+    "MC250 PEM",
+    "H2Station"
+  ]
+}

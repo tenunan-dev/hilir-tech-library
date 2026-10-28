@@ -1,0 +1,27 @@
+{
+  "id": "cummins-accelera",
+  "name": "Cummins (Accelera)",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Cummins' zero-emissions brand (Accelera) supplying PEM and alkaline electrolyzers, fuel cells and e-mobility components (HyLYSER electrolyser lines).",
+  "technologies": [
+    "h2-pem-electrolysis"
+  ],
+  "url": "https://www.cummins.com",
+  "sources": [
+    {
+      "url": "https://www.cummins.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Accelera",
+    "Accelera by Cummins"
+  ],
+  "products": [
+    "HyLYSER electrolyzers"
+  ]
+}

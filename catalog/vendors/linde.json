@@ -1,0 +1,22 @@
+{
+  "id": "linde",
+  "name": "Linde",
+  "country": "Germany",
+  "roles": [
+    "supplier",
+    "operator"
+  ],
+  "description": "Global industrial-gas and engineering group: hydrogen supply, compression, refuelling and cryogenic infrastructure.",
+  "technologies": [
+    "h2-compressed-storage-tube-trailers",
+    "h2-refuelling-stations"
+  ],
+  "url": "https://www.linde.com",
+  "sources": [
+    {
+      "url": "https://www.linde.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

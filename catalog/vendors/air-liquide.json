@@ -1,0 +1,28 @@
+{
+  "id": "air-liquide",
+  "name": "Air Liquide",
+  "country": "France",
+  "roles": [
+    "supplier",
+    "operator"
+  ],
+  "description": "Global industrial-gas group: hydrogen production and pipelines, refuelling infrastructure, gas purification and cryogenic technologies.",
+  "technologies": [
+    "h2-biogas-upgrading",
+    "h2-gasification-pox",
+    "h2-refuelling-stations",
+    "h2-smr"
+  ],
+  "url": "https://www.airliquide.com",
+  "sources": [
+    {
+      "url": "https://www.airliquide.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Hydrogen refuelling stations",
+    "Rectisol purification"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sunhydrogen",
+  "name": "SunHydrogen",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "US company developing nanoparticle-based photocatalytic solar hydrogen panels, demonstrated at lab and pilot scale.",
+  "technologies": [
+    "h2-solar-water-splitting"
+  ],
+  "url": "https://sunhydrogen.com",
+  "sources": [
+    {
+      "url": "https://sunhydrogen.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

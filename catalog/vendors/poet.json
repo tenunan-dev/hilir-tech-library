@@ -1,0 +1,20 @@
+{
+  "id": "poet",
+  "name": "POET",
+  "country": "USA",
+  "roles": [
+    "operator"
+  ],
+  "description": "One of the world's largest bioethanol producers, operating more than 30 corn-ethanol plants in the United States.",
+  "technologies": [
+    "h2-first-gen-biofuels"
+  ],
+  "url": "https://poet.com",
+  "sources": [
+    {
+      "url": "https://poet.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

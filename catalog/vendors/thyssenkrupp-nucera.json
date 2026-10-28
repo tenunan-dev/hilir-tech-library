@@ -1,0 +1,23 @@
+{
+  "id": "thyssenkrupp-nucera",
+  "name": "thyssenkrupp nucera",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "Thyssenkrupp's electrolysis company: large-scale alkaline water electrolysis (20 MW-class modules) and emerging AEM technology.",
+  "technologies": [
+    "h2-alkaline-electrolysis"
+  ],
+  "url": "https://www.thyssenkrupp-nucera.com",
+  "sources": [
+    {
+      "url": "https://www.thyssenkrupp-nucera.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "scalum alkaline electrolysis"
+  ]
+}

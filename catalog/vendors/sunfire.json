@@ -1,0 +1,21 @@
+{
+  "id": "sunfire",
+  "name": "Sunfire",
+  "country": "Germany",
+  "roles": [
+    "oem"
+  ],
+  "description": "Dresden-based electrolyser maker for high-temperature SOEC and pressurised alkaline systems, supplying co-electrolysis for e-fuels plants (Norsk e-Fuel).",
+  "technologies": [
+    "h2-co-electrolysis",
+    "h2-soec"
+  ],
+  "url": "https://www.sunfire.de",
+  "sources": [
+    {
+      "url": "https://www.sunfire.de",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

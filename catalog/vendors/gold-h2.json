@@ -1,0 +1,24 @@
+{
+  "id": "gold-h2",
+  "name": "Gold H2",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "Cemvita spin-off developing subsurface bio-stimulated hydrogen: engineered microbes convert stranded oil in depleted reservoirs to hydrogen, field-trialled in California's San Joaquin Basin.",
+  "technologies": [
+    "h2-natural-hydrogen"
+  ],
+  "url": "https://goldhydrogen.com",
+  "sources": [
+    {
+      "url": "https://goldhydrogen.com",
+      "note": "Vendor site, read 2026-10-28"
+    },
+    {
+      "url": "https://jpt.spe.org/old-is-gold-biotech-startup-finds-gold-hydrogen-in-old-wells",
+      "note": "JPT on Gold H2, 29 Sep 2022 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

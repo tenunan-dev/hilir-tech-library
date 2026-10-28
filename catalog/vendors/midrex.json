@@ -1,0 +1,24 @@
+{
+  "id": "midrex",
+  "name": "Midrex Technologies",
+  "country": "USA",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Kobe Steel-owned licensor of the dominant natural-gas direct-reduction shaft process, now extending to hydrogen-ready DRI plants.",
+  "technologies": [
+    "h2-dri"
+  ],
+  "url": "https://midrex.com",
+  "sources": [
+    {
+      "url": "https://midrex.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Midrex shaft furnace",
+    "H2-ready DRI"
+  ]
+}

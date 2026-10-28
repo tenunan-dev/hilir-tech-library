@@ -1,0 +1,20 @@
+{
+  "id": "casale",
+  "name": "Casale",
+  "country": "Switzerland",
+  "roles": [
+    "licensor"
+  ],
+  "description": "Swiss ammonia and urea technology licensor offering reforming, synthesis-loop and revamp technologies for green and blue ammonia plants.",
+  "technologies": [
+    "h2-green-blue-ammonia"
+  ],
+  "url": "https://www.casale.ch",
+  "sources": [
+    {
+      "url": "https://www.casale.ch",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "plug-power",
+  "name": "Plug Power",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "operator"
+  ],
+  "description": "Hydrogen ecosystem company: PEM electrolyzers (Gemini), fuel cells and a US merchant liquid-hydrogen plant network.",
+  "technologies": [
+    "h2-pem-electrolysis"
+  ],
+  "url": "https://www.plugpower.com",
+  "sources": [
+    {
+      "url": "https://www.plugpower.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Gemini electrolyser",
+    "Georgia LH2 plant"
+  ]
+}

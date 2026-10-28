@@ -1,0 +1,33 @@
+{
+  "id": "topsoe",
+  "name": "Topsoe",
+  "country": "Denmark",
+  "roles": [
+    "supplier",
+    "licensor",
+    "oem"
+  ],
+  "description": "Catalyst and technology company central to ammonia, methanol, e-fuels and refinery catalysis, and maker of SOEC electrolyzers.",
+  "technologies": [
+    "h2-ammonia-cracking",
+    "h2-atr-ccs",
+    "h2-co-electrolysis",
+    "h2-e-methanol",
+    "h2-green-blue-ammonia",
+    "h2-rwgs",
+    "h2-smr",
+    "h2-soec"
+  ],
+  "url": "https://www.topsoe.com",
+  "sources": [
+    {
+      "url": "https://www.topsoe.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "SOEC electrolyzers",
+    "HydroFlex"
+  ]
+}

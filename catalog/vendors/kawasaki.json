@@ -1,0 +1,24 @@
+{
+  "id": "kawasaki",
+  "name": "Kawasaki Heavy Industries",
+  "country": "Japan",
+  "roles": [
+    "oem",
+    "developer"
+  ],
+  "description": "Japanese heavy-industry group that built the Suiso Frontier liquefied-hydrogen carrier and drives the Japan Suiso hydrogen supply-chain programme.",
+  "technologies": [
+    "h2-liquid-hydrogen"
+  ],
+  "url": "https://global.kawasaki.com",
+  "sources": [
+    {
+      "url": "https://global.kawasaki.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Suiso Frontier LH2 carrier"
+  ]
+}

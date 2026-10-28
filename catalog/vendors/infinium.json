@@ -1,0 +1,20 @@
+{
+  "id": "infinium",
+  "name": "Infinium",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "description": "US power-to-liquid e-fuels developer (RoadFuels) backed by Amazon and others, building e-diesel and sustainable aviation fuel projects.",
+  "technologies": [
+    "h2-ft-saf-efuels"
+  ],
+  "url": "https://infinium.com",
+  "sources": [
+    {
+      "url": "https://infinium.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

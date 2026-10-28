@@ -1,8 +1,72 @@
 # Vendors, suppliers and packagers
 
-144 vendor records covering 83 technologies. One record per vendor in
+203 vendor records covering 115 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
+
+## H2: Hydrogen and low-carbon fuels
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Air Liquide](https://www.airliquide.com) | France | supplier, operator | Biogas upgrading to biomethane; Partial oxidation and gasification; Hydrogen refuelling stations; Steam methane reforming |
+| [Air Products](https://www.airproducts.com) | USA | supplier, operator | Ammonia as hydrogen carrier and ammonia cracking; Autothermal reforming with CO2 capture (blue hydrogen); Partial oxidation and gasification; Green and blue ammonia; Liquid hydrogen; Steam methane reforming |
+| [Ballard Power Systems](https://www.ballard.com) | Canada | oem | Fuel cells (PEM, SOFC) |
+| [BASF](https://www.basf.com) | Germany | developer, licensor | Methane pyrolysis (turquoise hydrogen) |
+| [Bloom Energy](https://www.bloomenergy.com) | USA | oem | Fuel cells (PEM, SOFC); Solid oxide electrolysis |
+| [Bright Biomethane (Bright Renewables)](https://www.bright-renewables.com) | Netherlands | oem | Biogas upgrading to biomethane |
+| [Burckhardt Compression](https://www.burckhardtcompression.com) | Switzerland | oem, service | Hydrogen compressors (diaphragm, ionic, reciprocating) |
+| [Casale](https://www.casale.ch) | Switzerland | licensor | Green and blue ammonia |
+| [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | licensor, developer | Liquid organic hydrogen carriers (MCH, DBT) |
+| [Clariant](https://www.clariant.com) | Switzerland | supplier | Cellulosic ethanol |
+| [Cummins (Accelera)](https://www.cummins.com) | USA | oem | PEM electrolysis |
+| [Enapter](https://www.enapter.com) | Italy | oem | AEM electrolysis |
+| [Ensyn Corporation](https://www.ensyn.com) | Canada | supplier | Pyrolysis oil and hydrothermal liquefaction |
+| [European Energy](https://europeanenergy.com) | Denmark | developer | E-methanol and bio-methanol |
+| [Gold H2](https://goldhydrogen.com) | USA | developer | Natural (geologic) hydrogen |
+| [Hazer Group](https://hazergroup.com.au) | Australia | developer | Methane pyrolysis (turquoise hydrogen) |
+| [Hexagon Purus](https://hexagonpurus.com) | Norway | oem | Compressed hydrogen storage and tube trailers |
+| [Hitachi Zosen (Kanadevia)](https://www.kanadevia.com) | Japan | oem, developer | E-methane (synthetic natural gas) |
+| [Hydro-Pac](https://www.hydropac.com) | USA | oem | Hydrogen compressors (diaphragm, ionic, reciprocating) |
+| [Hydrogenious LOHC Technologies](https://hydrogenious.net) | Germany | oem, developer | Liquid organic hydrogen carriers (MCH, DBT) |
+| [HydrogenPro](https://hydrogenpro.com) | Norway | oem | Alkaline water electrolysis |
+| [HyStock](https://www.hystock.nl) | Netherlands | developer | Hydrogen storage in salt caverns |
+| [INERATEC](https://ineratec.de) | Germany | oem | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
+| [Infinium](https://infinium.com) | USA | developer | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
+| [ITM Power](https://www.itm-power.com) | United Kingdom | oem | E-methane (synthetic natural gas); PEM electrolysis |
+| [John Cockerill](https://johncockerill.com) | Belgium | oem | Alkaline water electrolysis |
+| [Johnson Matthey](https://matthey.com) | United Kingdom | licensor, supplier | Gas-heated reforming; Ammonia as hydrogen carrier and ammonia cracking; Autothermal reforming with CO2 capture (blue hydrogen); E-methanol and bio-methanol; Reverse water-gas shift for e-fuels; Partial oxidation and gasification |
+| [Kawasaki Heavy Industries](https://global.kawasaki.com) | Japan | oem, developer | Liquid hydrogen |
+| [KBR](https://www.kbr.com) | USA | licensor | Ammonia as hydrogen carrier and ammonia cracking; Green and blue ammonia |
+| [Koloma](https://www.koloma.com) | USA | developer | Natural (geologic) hydrogen |
+| [Licella](https://licella.com.au) | Australia | developer | Pyrolysis oil and hydrothermal liquefaction |
+| [Linde](https://www.linde.com) | Germany | supplier, operator | Compressed hydrogen storage and tube trailers; Hydrogen refuelling stations |
+| [Linde Engineering](https://www.linde-engineering.com) | Germany | licensor, oem | Liquid hydrogen; Steam methane reforming |
+| [LONGi Hydrogen](https://www.longihydrogen.com) | China | oem | Alkaline water electrolysis |
+| [Magnum Development](https://www.magnumdev.com) | USA | developer, operator | Hydrogen storage in salt caverns |
+| [Midrex Technologies](https://midrex.com) | USA | licensor | Hydrogen direct reduction of iron |
+| [Monolith](https://monolith-corp.com) | USA | developer | Methane pyrolysis (turquoise hydrogen) |
+| [Nel ASA](https://nelhydrogen.com) | Norway | oem | Alkaline water electrolysis; PEM electrolysis; Hydrogen refuelling stations |
+| [Neste](https://www.neste.com) | Finland | operator | First-generation biofuels (ethanol, FAME biodiesel) |
+| [PDC Machines](https://www.pdcmachines.com) | USA | oem | Hydrogen compressors (diaphragm, ionic, reciprocating) |
+| [Pentair](https://www.pentair.com) | USA | oem | Biogas upgrading to biomethane |
+| [PERIC Hydrogen Technologies](https://en.peric.com.cn) | China | oem | Alkaline water electrolysis |
+| [Plug Power](https://www.plugpower.com) | USA | oem, operator | PEM electrolysis |
+| [POET](https://poet.com) | USA | operator | First-generation biofuels (ethanol, FAME biodiesel) |
+| [Raizen](https://www.raizen.com.br) | Brazil | operator | First-generation biofuels (ethanol, FAME biodiesel) |
+| [Sparc Hydrogen](https://sparchydrogen.com.au) | Australia | developer | Photocatalytic and thermochemical water splitting |
+| [Steeper Energy](https://steeperenergy.com) | Denmark | developer | Pyrolysis oil and hydrothermal liquefaction |
+| [Stegra](https://stegra.com) | Sweden | developer, operator | Hydrogen direct reduction of iron |
+| [Sunfire](https://www.sunfire.de) | Germany | oem | Co-electrolysis of CO2 and water; Solid oxide electrolysis |
+| [SunHydrogen](https://sunhydrogen.com) | USA | developer | Photocatalytic and thermochemical water splitting |
+| [Technip Energies](https://www.technipenergies.com) | France | epc, licensor | Steam methane reforming |
+| [thyssenkrupp nucera](https://www.thyssenkrupp-nucera.com) | Germany | oem | Alkaline water electrolysis |
+| [thyssenkrupp Uhde](https://uhde.thyssenkrupp.com) | Germany | licensor, epc | Green and blue ammonia |
+| [Tokyo Gas](https://www.tokyo-gas.co.jp) | Japan | operator, developer | E-methane (synthetic natural gas) |
+| [Topsoe](https://www.topsoe.com) | Denmark | supplier, licensor, oem | Ammonia as hydrogen carrier and ammonia cracking; Autothermal reforming with CO2 capture (blue hydrogen); Co-electrolysis of CO2 and water; E-methanol and bio-methanol; Green and blue ammonia; Reverse water-gas shift for e-fuels; Steam methane reforming; Solid oxide electrolysis |
+| [Toyota](https://www.toyota-global.com) | Japan | oem | Fuel cells (PEM, SOFC) |
+| [Velocys](https://www.velocys.com) | United Kingdom | licensor | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
+| [WinGD](https://www.wingd.com) | Switzerland | oem | Ammonia as marine fuel |
+| [Yara](https://www.yara.com) | Norway | operator, operator | Biogas reforming to hydrogen |
 
 ## PWR: Power and renewables
 
@@ -171,17 +235,17 @@ Adding a record for one of them is the next batch of this directory.
 
 - **CCS** (36): ADM; Atlas Copco; Blue Planet; Carbfix; Carbon Engineering / 1PointFive (Occidental); Carbon Recycling International; CarbonCure; Climeworks; CO2 compressor and dehydration vendors (no licensed process needed); Covestro; DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Exomad Green; ExxonMobil; Fertiliser producers; Fluor; FuelCell Energy; MTR Carbon Capture; NET Power (cycle developer), Toshiba (combustor and turbine); Northern Lights; PETRONAS Carigali; Planetary; Porthos (Port of Rotterdam, Gasunie, EBN); Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources; Shell Catalysts & Technologies; SLB Capturi; Stockholm Exergi; Sustainable Energy Solutions (Chart Industries); Svante; Twelve; UNDO; Verdox
 - **DIG** (9): Amazon Web Services; Augury; C3 AI; Google Cloud Platform; Honeywell; IBM Red Hat OpenShift; Microsoft Azure; SparkCognition; Yokogawa
-- **GAS** (39): Air Liquide; Air Liquide Engineering & Construction; Air Products; Axens; BASF; Bechtel; Black & Veatch; Burckhardt Compression; Chart Industries; Chevron Australia; Clariant; Clean Energy Fuels; ConocoPhillips; Dow; Enerflex; Excelerate Energy; ExxonMobil; Freeport LNG; FueLNG; Golar LNG; Honeywell UOP; Honeywell UOP Ortloff; Höegh LNG; Jacobs; Johnson Matthey (Honeywell); Kobe Steel; KT Tecnimont; Linde; Linde Engineering; Merichem; PETRONAS Carigali; RasGas / Qatargas (operators); Sasol; Sumitomo Precision Products; Technip Energies; Titan; Topsoe; TotalEnergies; Worley Comprimo
-- **H2** (61): Air Liquide; Air Products; Ballard; BASF; Bloom Energy; Bright Biomethane; Burckhardt Compression; Casale; Chiyoda; Clariant; CSIRO; Enapter; Ensyn; European Energy; Gold H2; Hazer Group; Hexagon Purus; Hitachi Zosen; HYBRIT (SSAB, LKAB, Vattenfall); Hydro-Pac; Hydrogenious LOHC Technologies; HydrogenPro; HyStock (Gasunie); INERATEC; Infinium; ITM Power; John Cockerill; Johnson Matthey (Honeywell); Kawasaki Heavy Industries; KBR; Koloma; Licella; Linde; Linde Engineering; LONGi Hydrogen; Magnum Development; Midrex; Monolith; Nel; Nel Hydrogen; Neste; PDC Machines; Pentair; PERIC; Plug Power; POET; Raízen; Sparc Hydrogen; Steeper Energy; Stegra (H2 Green Steel); Sunfire; SunHydrogen; Technip Energies; Thyssenkrupp nucera; Thyssenkrupp Uhde; Tokyo Gas; Topsoe; Toyota; Velocys; WinGD; Yara
+- **GAS** (29): Air Liquide Engineering & Construction; Axens; Bechtel; Black & Veatch; Chart Industries; Chevron Australia; Clean Energy Fuels; ConocoPhillips; Dow; Enerflex; Excelerate Energy; ExxonMobil; Freeport LNG; FueLNG; Golar LNG; Honeywell UOP; Honeywell UOP Ortloff; Höegh LNG; Jacobs; Kobe Steel; KT Tecnimont; Merichem; PETRONAS Carigali; RasGas / Qatargas (operators); Sasol; Sumitomo Precision Products; Titan; TotalEnergies; Worley Comprimo
+- **H2** (6): CSIRO; Ensyn; HYBRIT (SSAB, LKAB, Vattenfall); Midrex; Nel; Raízen
 - **HSE** (3): Engelhard Corporation; IHI Corporation; J-W Instruments
 - **INS** (8): Claroty; Honeywell; Inductive Automation; MathWorks; Nozomi Networks; Rockwell Automation; Servomex; Yokogawa
-- **MAT** (18): 3M; AkzoNobel; Alleima; Amiantit; Avestec Technologies; Axalta Coating Systems; BASF; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Jotun Powder Coatings; Sherwin-Williams (Valspar); Tenaris; Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
-- **MID** (30): AP Sensing; ChampionX; Clariant; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; Kawasaki Heavy Industries; KBC (Yokogawa); LiquidPower Specialty Products; Mitsubishi Shipbuilding; Nippon Steel; Northern Lights; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
-- **PCH** (47): Agilyx; Axens; BASF; BASF, SABIC, Linde; Borealis; Braskem; Carbios; Casale; Celanese; Chevron Phillips Chemical; CJ; Covestro; Danimer Scientific; DICP / SYN Energy Technology; Dow; Dow and BASF; Evonik and thyssenkrupp Uhde; ExxonMobil; Fraunhofer; GIG Karasek; Grace (UNIPOL PP); Honeywell UOP; Indorama Ventures; Ineos; KBR; Linde; Linde Engineering; Loop Industries; Lummus; Lummus Technology; LyondellBasell; Mura Technology; NatureWorks; Plastic Energy; PureCycle Technologies; SABIC; SABIC and Linde; Scientific Design; Siluria Technologies; Stamicarbon; Technip Energies; thyssenkrupp nucera; thyssenkrupp Uhde; thyssenkrupp Uhde Inventa-Fischer; Topsoe; TotalEnergies Corbion; Univation (Dow)
+- **MAT** (17): 3M; AkzoNobel; Alleima; Amiantit; Avestec Technologies; Axalta Coating Systems; Butting; DNV; Eddyfi Technologies; Evident (Olympus); Future Pipe Industries; GE Digital (Meridium); Jotun Powder Coatings; Sherwin-Williams (Valspar); Tenaris; Terra Drone Indonesia; Waygate Technologies (Baker Hughes)
+- **MID** (28): AP Sensing; ChampionX; Corrpro; CRC-Evans; Endress+Hauser; Gasunie; Governments; GTT; Hanwha Ocean; HD Hyundai; KBC (Yokogawa); LiquidPower Specialty Products; Mitsubishi Shipbuilding; Nippon Steel; Northern Lights; PETRONAS Gas; ROSEN; Samsung Heavy Industries; Seal for Life; SICK; Silixa; SoCalGas; Strohm; Subsea7; T.D. Williamson; Tenaris; Terminal operators; Uniper
+- **PCH** (38): Agilyx; Axens; BASF, SABIC, Linde; Borealis; Braskem; Carbios; Celanese; Chevron Phillips Chemical; CJ; Covestro; Danimer Scientific; DICP / SYN Energy Technology; Dow; Dow and BASF; Evonik and thyssenkrupp Uhde; ExxonMobil; Fraunhofer; GIG Karasek; Grace (UNIPOL PP); Honeywell UOP; Indorama Ventures; Ineos; Loop Industries; Lummus; Lummus Technology; LyondellBasell; Mura Technology; NatureWorks; Plastic Energy; PureCycle Technologies; SABIC; SABIC and Linde; Scientific Design; Siluria Technologies; Stamicarbon; thyssenkrupp Uhde Inventa-Fischer; TotalEnergies Corbion; Univation (Dow)
 - **PRC** (7): AVEVA; CanmetENERGY; Fives ProSim; Honeywell; Montz; Pinchco; TLK-Energy
 - **PWR** (17): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy; Toshiba
-- **REF** (32): AVEVA; Axens; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Chiyoda; Eni; EPC contractors (process designed by refiner or contractor); ExxonMobil; Gevo; GTC Technology; Honeywell; Honeywell UOP; ITM Power; KBC; KBR; Koch-Glitsch; LanzaJet; Lummus; Lummus Technology; Merichem; Neste; Saudi Aramco; Saudi Aramco / SABIC; Shell Catalysts & Technologies; Suez; Topsoe; Yokogawa
+- **REF** (27): AVEVA; Axens; Axens/Technip Energies; BASF, SABIC, Linde; Bechtel; Bechtel/Foster Wheeler (Amec); Cameron (SLB); Chevron / Honeywell UOP; Chevron Lummus Global; Eni; EPC contractors (process designed by refiner or contractor); ExxonMobil; Gevo; GTC Technology; Honeywell; Honeywell UOP; KBC; Koch-Glitsch; LanzaJet; Lummus; Lummus Technology; Merichem; Saudi Aramco; Saudi Aramco / SABIC; Shell Catalysts & Technologies; Suez; Yokogawa
 - **ROT** (20): Alfa Laval; American Marsh; Ashton Seals; Atlas Copco; ClearSign; Dongfang Electric; Doosan Skoda Power; Elliott Group; Flowserve; Gallagher Seals; Hamon; Hamworthy Peabody Combustion; Heatric (Parker Hannifin); ITT Goulds Pumps; Koch-Glitsch; KSB; Omniseal Solutions; Shanghai Electric; SPX Cooling Technologies; Velan
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-143 of 299 cards list at least one directory vendor.
+195 of 299 cards list at least one directory vendor.
