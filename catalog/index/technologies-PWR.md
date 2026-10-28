@@ -805,13 +805,14 @@ flowchart LR
 - Estrella del Mar II, Dominican Republic: ; Wärtsilä floating power plant reference. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
 - DR Bird I and II, Jamaica: 50 MW (new unit); Wärtsilä power barges; repeat order for a third 50 MW barge with three 18V46 sets. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
 - Tacoa floating power barges, supplying Caracas, Venezuela: 2 x 171 MW; installed by Waller Marine in a prepared basin. [source](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083)
+- Karpowership Indonesia floating power plants with PAL Indonesia shipyard cooperation, ID: Karpowership Indonesia operates floating power plants; cooperation agreement with state shipbuilder PAL Indonesia to build power ships for Indonesia (2016); per-ship capacity not stated in the source; operating. [source](https://www.thejakartapost.com/news/2016/10/28/karpowership-pal-to-build-power-ships-to-light-up-indonesia)
 
 **Missing inputs:**
-- charter rate or levelised cost per MWh for a powership, with dollar year and basis (costs): Operator and packager pages read do not publish prices. Where: arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation (catalog: arxiv, open); Regulator filings, for example South Africa NERSA hearings on Karpowership tariffs (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
-- operating powership or barge in Southeast Asia with capacity (reference_plants): Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name. Where: Karpowership reference lists and Indonesian PLN procurement announcements (open). Next: Add a Southeast Asian reference with vessel name, capacity and years.
+- charter rate or levelised cost per MWh for a powership, with dollar year and basis (costs): Operator and packager pages read do not publish prices. Web-checked 2026-10-28; charter rates are contract-confidential. Where: arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation (catalog: arxiv, open); Regulator filings, for example South Africa NERSA hearings on Karpowership tariffs (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- operating powership or barge in Southeast Asia with capacity (reference_plants): Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name. Karpowership/PAL Indonesia reference added (2016); a verifiable per-ship MW figure for a SEA powership was not found, 2026-10-28. Where: Karpowership reference lists and Indonesian PLN procurement announcements (open). Next: Add a Southeast Asian reference with vessel name, capacity and years.
 - connection sequence is generalised from vendor claims (process): Vendor pages state 'weeks, not years' but do not document the step-by-step connection process. Where: Port authority or regulator case documents for a specific powership project (open). Next: Check the steps against a named project document.
 
-Sources: [1](https://karpowership.com), [2](https://karpowership.com/the-powership-solution/), [3](https://karpowership.com/powership-classes-and-fleet/), [4](https://karpowership.com/lng-to-power/), [5](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083), [6](https://powerbargecorp.com), [7](https://gcaptain.com/power-barge-corporation-announces-new-medium-speed-engine-power-barge-design), [8](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants), [9](https://en.wikipedia.org/wiki/Powership). Last reviewed 2026-10-26.
+Sources: [1](https://karpowership.com), [2](https://karpowership.com/the-powership-solution/), [3](https://karpowership.com/powership-classes-and-fleet/), [4](https://karpowership.com/lng-to-power/), [5](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083), [6](https://powerbargecorp.com), [7](https://gcaptain.com/power-barge-corporation-announces-new-medium-speed-engine-power-barge-design), [8](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants), [9](https://en.wikipedia.org/wiki/Powership). Last reviewed 2026-10-28.
 
 ## Pumped hydro storage
 <a id="pwr-pumped-hydro-storage"></a>
@@ -837,13 +838,15 @@ flowchart LR
 - overnight capital cost, 10 h, closed loop: 3029-4501 USD/kW (2021$); median by resource class 1 to 15. [source](https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower)
 - overnight capital cost, 10 h, one new reservoir: 1730-3250 USD/kW (2021$); median by resource class 1 to 5. [source](https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower)
 
+**Reference plants:**
+- Fengning Pumped Storage Power Station, Hebei, China (Grid Corporation), CN: world's most powerful pumped storage station: 3,600 MW installed (12 units), designed to generate 6.61 billion kWh/yr; fully operational December 2024; operating. [source](https://english.news.cn/20241231/bfa9e1c920f34e0194978ad9706f8d0f/c.html)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Pumped storage' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower). Last reviewed 2026-10-28.
 
 ## Smart grids, microgrids and virtual power plants
 <a id="pwr-smart-grids-vpp"></a>
@@ -866,12 +869,12 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Virtual power plants' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- microgrid examples for oil and gas operations (performance): Wikipedia covers VPPs only. Where: Operator microgrid case studies (open). Next: Add an oil and gas microgrid reference.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- microgrid examples for oil and gas operations (performance): Wikipedia covers VPPs only. Web-checked 2026-10-28; O&G microgrid case studies are vendor-published without verifiable figures. Where: Operator microgrid case studies (open). Next: Add an oil and gas microgrid reference.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named O&G microgrid with figures found. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant). Last reviewed 2026-10-28.
 
 ## Ammonia co-firing in coal boilers
 <a id="pwr-ammonia-coal-cofiring"></a>
@@ -1108,15 +1111,17 @@ flowchart LR
 
 **Key equipment:** reactor module, steam generator, containment, turbine.
 
+**Reference plants:**
+- Darlington BWRX-300, Ontario (OPG / GE Hitachi), CA: 300 MWe BWRX-300; OPG received construction approval April 2025 - first grid-scale SMR under construction in a G7 country; CAD 7.7 bn project; construction. [source](https://pro.smrbrief.com/projects/darlington-bwrx-300)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Water-cooled SMR' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- NuScale, BWRX-300 Darlington and Rolls-Royce SMR status and dates (reference_plants): The page points to a separate design database. Where: World Nuclear Association SMR tracker (open). Next: Add MWe, site, licensing stage and dates.
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor design figures already on card; no independent operating data (no operating SMR yet in Western markets). Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: Darlington BWRX-300 project at CAD 7.7 bn recorded in reference_plants (four-unit programme); per-kW derived cost not stated in the source. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors). Last reviewed 2026-10-25.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors). Last reviewed 2026-10-28.
 
 ## Sodium-ion batteries
 <a id="pwr-sodium-ion-batteries"></a>
@@ -1136,15 +1141,17 @@ flowchart LR
 - energy density, CATL Naxtra: 175 Wh/kg; versus about 185 Wh/kg for LFP; secondary source. [source](https://en.wikipedia.org/wiki/Sodium-ion_battery)
 - cycle life claim, CATL Naxtra: 10000 cycles; vendor claim relayed by a secondary source. [source](https://en.wikipedia.org/wiki/Sodium-ion_battery)
 
+**Reference plants:**
+- Fulin Sodium-ion Battery Energy Storage Station, Nanning, Guangxi (China Southern Power Grid / HiNa Battery), CN: China's first large-scale sodium-ion BESS; first phase 10 MWh entered operation 11 May 2024; 42 battery containers and 21 PCS units at full build-out (1 July 2024 completion reported); operating. [source](https://electrek.co/2024/05/17/china-first-large-scale-sodium-ion-battery)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Sodium-ion storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - primary-source specifications (performance): Figures come from a Wikipedia summary of vendor claims. Where: CATL and HiNa technical announcements (open). Next: Replace with vendor datasheets.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; pack prices not published in open sources. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Sodium-ion_battery). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Sodium-ion_battery). Last reviewed 2026-10-28.
 
 ## Thermal energy storage (molten salt, sand, bricks)
 <a id="pwr-thermal-energy-storage"></a>
@@ -1167,14 +1174,16 @@ flowchart LR
 - Rondo electricity-to-heat efficiency: 98 % (over); vendor claim. [source](https://rondo.com/)
 - Yarwun project storage: 360 MWh; Rio Tinto alumina refinery, Australia. [source](https://rondo.com/)
 
+**Reference plants:**
+- Polar Night Energy sand batteries: Kankaanpaeae (Vatajankoski) and Pornainen, Finland, FI: Kankaanpaeae: world's first commercial sand battery, 100 kW heating power / 8 MWh, in commercial use since mid-2022; Pornainen: 1 MW / 100 MWh, world's largest, in operation 2025; operating. [source](https://evertiq.com/news/2025-07-01-worlds-largest-sand-battery-now-in-operation-in-finland)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Molten salts storage' 8 (2025); 'Sand thermal battery' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- Polar Night Energy Kankaanpää plant data (reference_plants): The company page does not describe it. Where: Polar Night Energy news (open). Next: Add MWh, MW and start date.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; Polar Night Energy has not published plant capex. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://rondo.com/), [2](https://polarnightenergy.com/). Last reviewed 2026-10-25.
+Sources: [1](https://rondo.com/), [2](https://polarnightenergy.com/). Last reviewed 2026-10-28.
 
 ## Advanced reactors (high-temperature gas, molten salt)
 <a id="pwr-advanced-reactors"></a>
@@ -1221,15 +1230,17 @@ flowchart LR
 
 **Key equipment:** perovskite deposition line, silicon bottom cell, encapsulation.
 
+**Reference plants:**
+- Oxford PV perovskite-on-silicon tandem line, Brandenburg an der Havel, Germany, DE: world's first commercial shipment of perovskite-tandem solar modules to a customer (5 Sep 2024); production modules 24.5% efficiency (up to 20% more energy than silicon); record 28.6% commercial-size cell (2024); operating. [source](https://pv-magazine-usa.com/2024/09/05/oxford-pv-starts-commercial-distribution-of-perovskite-solar-modules)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Perovskite thin film' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - certified cell and module efficiency records with dates (performance): NREL's efficiency chart page and the Oxford PV page carry no values in text. Where: NREL research cell efficiency chart data file (catalog: nrel, open); Oxford PV press releases (open). Next: Download the NREL data file and record tandem and silicon records with dates.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; tandem module prices not yet published in volume. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/). Last reviewed 2026-10-25.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/). Last reviewed 2026-10-28.
 
 ## Tidal and wave energy
 <a id="pwr-tidal-wave"></a>
@@ -1250,14 +1261,17 @@ flowchart LR
 **Performance:**
 - O2 rated capacity: 2 MW; anchored at EMEC Fall of Warness. [source](https://www.orbitalmarine.com/o2/)
 
+**Reference plants:**
+- La Rance tidal barrage, France, FR: 240 MW (24 x 10 MW bulb turbines), commissioned 1966, the world's first large tidal-range power station, still in full operation; operating. [source](https://www.researchgate.net/publication/229648846_POWER_FROM_TIDES-_THE_RANCE_TIDAL_POWER_STATION)
+- MeyGen tidal stream array, Pentland Firth, Scotland (SAE Renewables), GB: phase 1 tidal stream array; more than 91 GWh generated over seven-plus years of operation; supporting a 59 MW commercial-scale development; operating. [source](https://www.directorstalkinterviews.com/meygen-strengthens-the-case-for-scalable-tidal-power/4121247469)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Tidal stream (ocean current energy)' 6 (2025); 'Wave energy converters (wave energy)' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; MeyGen LCOE estimates vary and no settled open figure found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.orbitalmarine.com/o2/). Last reviewed 2026-10-25.
+Sources: [1](https://www.orbitalmarine.com/o2/). Last reviewed 2026-10-28.
 
 ## Fusion
 <a id="pwr-fusion"></a>

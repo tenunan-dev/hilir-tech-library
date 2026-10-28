@@ -124,26 +124,13 @@
       "note": "Polar Night Energy home page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "Polar Night Energy Kankaanpää plant data",
-      "reason_code": "not_in_sources_read",
-      "reason": "The company page does not describe it.",
-      "where": [
-        {
-          "hint": "Polar Night Energy news",
-          "access": "open"
-        }
-      ],
-      "action": "Add MWh, MW and start date."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; Polar Night Energy has not published plant capex.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -174,6 +161,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Polar Night Energy sand batteries: Kankaanpaeae (Vatajankoski) and Pornainen, Finland",
+      "country": "FI",
+      "capacity": "Kankaanpaeae: world's first commercial sand battery, 100 kW heating power / 8 MWh, in commercial use since mid-2022; Pornainen: 1 MW / 100 MWh, world's largest, in operation 2025",
+      "status": "operating",
+      "source": {
+        "url": "https://evertiq.com/news/2025-07-01-worlds-largest-sand-battery-now-in-operation-in-finland",
+        "note": "Evertiq, 1 Jul 2025 (Pornainen 1 MW / 100 MWh, ten times the first unit); Proactive Investors, 5 Jul 2022 (Kankaanpaeae 100 kW / 8 MWh commercial sale); read 2026-10-28"
+      }
     }
   ]
 }

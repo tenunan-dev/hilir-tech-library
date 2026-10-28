@@ -193,6 +193,16 @@
         "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
         "note": "MarineLink news report, read 26 October 2026"
       }
+    },
+    {
+      "name": "Karpowership Indonesia floating power plants with PAL Indonesia shipyard cooperation",
+      "country": "ID",
+      "capacity": "Karpowership Indonesia operates floating power plants; cooperation agreement with state shipbuilder PAL Indonesia to build power ships for Indonesia (2016); per-ship capacity not stated in the source",
+      "status": "operating",
+      "source": {
+        "url": "https://www.thejakartapost.com/news/2016/10/28/karpowership-pal-to-build-power-ships-to-light-up-indonesia",
+        "note": "Jakarta Post, 28 Oct 2016 (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [
@@ -245,13 +255,13 @@
       "note": "Wikipedia, Powership (secondary source; used only for industry-scale context of 75+ barges and the 1931 SS Jacona precedent)"
     }
   ],
-  "last_reviewed": "2026-10-26",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "charter rate or levelised cost per MWh for a powership, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "Operator and packager pages read do not publish prices.",
+      "reason": "Operator and packager pages read do not publish prices. Web-checked 2026-10-28; charter rates are contract-confidential.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation",
@@ -269,7 +279,7 @@
       "field": "reference_plants",
       "item": "operating powership or barge in Southeast Asia with capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name.",
+      "reason": "Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name. Karpowership/PAL Indonesia reference added (2016); a verifiable per-ship MW figure for a SEA powership was not found, 2026-10-28.",
       "where": [
         {
           "hint": "Karpowership reference lists and Indonesian PLN procurement announcements",

@@ -106,13 +106,13 @@
       "note": "Wikipedia, Virtual power plant, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "performance",
       "item": "microgrid examples for oil and gas operations",
       "reason_code": "not_in_sources_read",
-      "reason": "Wikipedia covers VPPs only.",
+      "reason": "Wikipedia covers VPPs only. Web-checked 2026-10-28; O&G microgrid case studies are vendor-published without verifiable figures.",
       "where": [
         {
           "hint": "Operator microgrid case studies",
@@ -125,7 +125,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -148,7 +148,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named O&G microgrid with figures found.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",

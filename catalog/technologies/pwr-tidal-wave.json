@@ -91,13 +91,13 @@
       "note": "Orbital Marine Power, O2 page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; MeyGen LCOE estimates vary and no settled open figure found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -117,19 +117,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -141,6 +128,28 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "La Rance tidal barrage, France",
+      "country": "FR",
+      "capacity": "240 MW (24 x 10 MW bulb turbines), commissioned 1966, the world's first large tidal-range power station, still in full operation",
+      "status": "operating",
+      "source": {
+        "url": "https://www.researchgate.net/publication/229648846_POWER_FROM_TIDES-_THE_RANCE_TIDAL_POWER_STATION",
+        "note": "La Rance retrospective (ResearchGate record, 24 x 10 MW bulb turbines, still operating); read 2026-10-28"
+      }
+    },
+    {
+      "name": "MeyGen tidal stream array, Pentland Firth, Scotland (SAE Renewables)",
+      "country": "GB",
+      "capacity": "phase 1 tidal stream array; more than 91 GWh generated over seven-plus years of operation; supporting a 59 MW commercial-scale development",
+      "status": "operating",
+      "source": {
+        "url": "https://www.directorstalkinterviews.com/meygen-strengthens-the-case-for-scalable-tidal-power/4121247469",
+        "note": "MeyGen operations summary (91 GWh, 59 MW next phase); nef, 13 Nov 2024 (17.5 GWh annual record); read 2026-10-28"
+      }
     }
   ]
 }
