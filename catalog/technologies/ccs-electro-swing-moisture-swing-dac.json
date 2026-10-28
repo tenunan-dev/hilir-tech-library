@@ -64,6 +64,18 @@
         "note": "NETL project kickoff slides, Verdox electro-swing adsorption DAC (February 2021)"
       },
       "high": 1000
+    },
+    {
+      "metric": "electro-swing and supercapacitive-swing CO2 capture energy",
+      "low": 0.3,
+      "high": 22.7,
+      "unit": "kJ per mol CO2 (faradaic electro-swing about 1 GJ/t = 22.7 kJ/mol; supercapacitive swing adsorption reported as low as 0.3 kJ/mol)",
+      "year": 2019,
+      "basis": "Voskian and Hatton (MIT, Energy Environ. Sci. 2019) faradaic electro-swing system reported at about 1 GJ per ton of CO2 (1 GJ/t = 22.7 kJ/mol); a 2025 review of supercapacitive swing adsorption reports energy requirements as low as 0.3 kJ/mol CO2 and adsorption rates above 300 mmol per kg electrode per hour",
+      "source": {
+        "url": "https://www.semanticscholar.org/paper/Faradaic-electro-swing-reactive-adsorption-for-CO2-Voskian/2d3d85f85823bb4eb21249ceb931d70253fa2140",
+        "note": "Voskian and Hatton 2019 faradaic electro-swing paper record; ResearchGate SSA review 2025; read 2026-10-28"
+      }
     }
   ],
   "trl": {
@@ -91,27 +103,10 @@
   "last_reviewed": "2026-10-28",
   "gaps": [
     {
-      "field": "performance",
-      "item": "kJ per mole CO2 and capacity of electro-swing; moisture-swing sorbents",
-      "reason_code": "not_in_sources_read",
-      "reason": "The slides give neither; no moisture-swing source read.",
-      "where": [
-        {
-          "hint": "Verdox papers",
-          "access": "open"
-        },
-        {
-          "hint": "Review of moisture swing sorbents (Inderscience)",
-          "access": "open"
-        }
-      ],
-      "action": "Add the numbers and a moisture-swing source."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for electro-swing, moisture swing and direct air capture cost; not present; 2026-10-28",
+      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for electro-swing, moisture swing and direct air capture cost; not present; 2026-10-28 Web-checked 2026-10-28; Verdox costs not published.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -134,7 +129,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added (laboratory/pilot stage).",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",

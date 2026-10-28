@@ -99,7 +99,7 @@
       "field": "performance",
       "item": "capture rate, power output per tonne CO2, cost",
       "reason_code": "not_in_sources_read",
-      "reason": "The article gives none.",
+      "reason": "The article gives none. Web-checked 2026-10-28; ExxonMobil/FuelCell Energy pilot data not published open.",
       "where": [
         {
           "hint": "EU CFC Pilot4CCS project page (cinea.ec.europa.eu)",
@@ -116,7 +116,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for molten carbonate fuel cell capture capital cost and unit cost; not present; 2026-10-28",
+      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for molten carbonate fuel cell capture capital cost and unit cost; not present; 2026-10-28 Web-checked 2026-10-28; no open figures.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -139,7 +139,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named pilot page found.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -152,7 +152,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

@@ -97,23 +97,14 @@
     {
       "url": "https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full",
       "note": "Strefler et al., Potential and costs of carbon dioxide removal by enhanced weathering of rocks, Environmental Research Letters 2018"
+    },
+    {
+      "url": "https://www.thetimes.com/uk/science/article/microsoft-funds-uk-climate-experiment-to-spread-crushed-rock-on-fields-6sjq5cwzz",
+      "note": "UNDO basalt spreading pilots"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "field trial results",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only a potential and cost study read.",
-      "where": [
-        {
-          "hint": "UNDO and Planetary field data",
-          "access": "open"
-        }
-      ],
-      "action": "Add field results."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",
@@ -140,6 +131,18 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "UNDO enhanced rock weathering programme, UK farms (Scotland and northern England)",
+      "country": "GB",
+      "capacity": "more than 141,000 t of crushed basalt spread on UK farms in 2023, expected over time to draw down about 37,000 t CO2 (projected, not yet measured); Microsoft-funded 25,000 t pilot (2023)",
+      "status": "operating",
+      "source": {
+        "url": "https://www.thetimes.com/uk/science/article/microsoft-funds-uk-climate-experiment-to-spread-crushed-rock-on-fields-6sjq5cwzz",
+        "note": "The Times, 13 Apr 2023 (Microsoft-funded 25,000 t pilot); trade reporting 29 Oct 2024 (141,000 t spread, ~37,000 t CO2 expected drawdown); read 2026-10-28"
+      }
     }
   ]
 }

@@ -97,23 +97,14 @@
     {
       "url": "https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764",
       "note": "alcircle, Carbfix transforming CO2 emissions into stone"
+    },
+    {
+      "url": "https://www.carbfix.com/carbfix2",
+      "note": "CarbFix2 cost demonstration"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "cost per tonne",
-      "reason_code": "not_in_sources_read",
-      "reason": "The article gives none.",
-      "where": [
-        {
-          "hint": "Carbfix publications",
-          "access": "open"
-        }
-      ],
-      "action": "Add costs."
-    },
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
@@ -139,6 +130,32 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "in-situ mineralisation injection cost, CarbFix method at Hellisheidi",
+      "low": 25,
+      "high": 25,
+      "unit": "USD per tonne CO2 injected (below)",
+      "year": 2020,
+      "basis": "CarbFix2 programme: \"the cost of industrial scale application of the CarbFix method at Hellisheidi power plant is less than $25/ton\" (injection and mineralisation only; capture excluded); the 2011 pilot-scale study estimated 15-40 USD/t CO2 for successful injection rates; about 12,000 t CO2/yr are currently turned into stone at Hellisheidi",
+      "source": {
+        "url": "https://www.carbfix.com/carbfix2",
+        "note": "CarbFix2 programme page (read 2026-10-28); carbfix.com climate page (12,000 t/yr); Ragnheidardottir et al. 2011 pilot cost study"
+      }
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Carbfix injection at Hellisheidi geothermal plant, Iceland",
+      "country": "IS",
+      "capacity": "about 12,000 t CO2 per year dissolved in water and injected into basalt, mineralising in under two years; injection cost below USD 25/t",
+      "status": "operating",
+      "source": {
+        "url": "https://www.carbfix.com/protecting-our-climate-by-turning-co2-into-stone",
+        "note": "Carbfix, Protecting our climate by turning CO2 into stone (read 2026-10-28)"
+      }
     }
   ]
 }
