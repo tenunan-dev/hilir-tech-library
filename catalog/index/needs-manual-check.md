@@ -1,6 +1,6 @@
 # Needs a manual terms check
 
-26 sources whose terms page could not be read automatically.
+24 sources whose terms page could not be read automatically.
 
 | Source | Current reuse level | Finding |
 | --- | --- | --- |
@@ -9,7 +9,6 @@
 | [SLB Capturi (formerly Aker Carbon Capture)](https://www.slbcapturi.com/) | full-text-restricted | robots.txt disallows automated fetch; check manually. |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | full-text-open | PATENTSCOPE rendered empty to the fetch tool on 2026-10-23; ASEAN path also unconfirmed. |
 | [AspenTech](https://www.aspentech.com/) | full-text-restricted | Terms page blocked to automated fetch (robots disallow) on 2026-10-23; check manually. |
-| [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | full-text-open | Copyright page blocked by robots.txt on 2026-10-23; Australian Government sites are usually CC BY 4.0, unconfirmed. |
 | [DGIP Indonesia patent database (PDKI)](https://pdki-indonesia.dgip.go.id/) | full-text-open | Site not reachable by fetch tool on 2026-10-23. |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | full-text-open | ScienceDirect blocks automated fetch (robots); confirm licence per article manually. |
 | [ExxonMobil Catalysts and Licensing](https://www.exxonmobilchemical.com/en/catalysts-and-licensing) | full-text-restricted | Page not reachable by fetch tool on 2026-10-23. |
@@ -18,7 +17,6 @@
 | [Google Patents](https://patents.google.com/) | full-text-open | JavaScript app; no terms readable by fetch tool. Prefer Google Patents Public Datasets on BigQuery, which carries its own licence. |
 | [SKK Migas](https://www.skkmigas.go.id/) | full-text-restricted | Site not reachable by fetch tool on 2026-10-23. |
 | [India Directorate General of Hydrocarbons](https://www.dghindia.gov.in/) | full-text-open | No copyright statement on home page and policy pages blocked by robots.txt. |
-| [IRENA publications](https://www.irena.org/Publications) | full-text-restricted | Terms page not reachable by fetch tool on 2026-10-23; check manually. |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | full-text-open | JavaScript app; terms not readable by fetch tool on 2026-10-23. |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | full-text-open | robots.txt disallows automated fetch; check terms manually and use KIPRIS Plus API if available. |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | full-text-open | Home page has no licence statement; copyright page not reachable on 2026-10-23. NLOD expected, unconfirmed. |

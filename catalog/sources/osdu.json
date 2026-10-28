@@ -20,7 +20,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "OSDU Data Platform is open source; code at community.opengroup.org/osdu. Licence not named on the forum page; confirm in the repositories. Evidence: https://www.opengroup.org/osdu-forum/",
+  "notes": "OSDU Data Platform is open source; code at community.opengroup.org/osdu. Licence not named on the forum page; confirm in the repositories. Evidence: https://www.opengroup.org/osdu-forum/ Browser pass 2026-10-28: Open Group terms page fetched (license referenced, government-work clause present); platform code remains Apache-2.0.",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": "2026-10-28"
 }

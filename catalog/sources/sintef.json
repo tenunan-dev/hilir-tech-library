@@ -25,6 +25,6 @@
   "quality_tier": 1,
   "update_frequency": "weekly",
   "verification": "unverified",
-  "last_verified": null,
-  "notes": "Site not reachable by fetch tool on 2026-10-23. Evidence: https://www.sintef.no/en/energy/"
+  "last_verified": "2026-10-28",
+  "notes": "Site not reachable by fetch tool on 2026-10-23. Evidence: https://www.sintef.no/en/energy/ Browser pass 2026-10-28: conditions-of-use page fetched (no licence keywords on page); keep restricted."
 }

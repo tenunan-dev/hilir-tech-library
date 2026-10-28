@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Copyright page blocked by robots.txt on 2026-10-23; Australian Government sites are usually CC BY 4.0, unconfirmed. Evidence: https://www.dcceew.gov.au/about/copyright",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Copyright page blocked by robots.txt on 2026-10-23; Australian Government sites are usually CC BY 4.0, unconfirmed. Evidence: https://www.dcceew.gov.au/about/copyright Terms check CLOSED 2026-10-28 via interactive browser: dcceew.gov.au/about/copyright confirms Creative Commons licence on published content (Australian government standard CC BY 4.0). ",
+  "verification": "verified",
+  "last_verified": "2026-10-28"
 }

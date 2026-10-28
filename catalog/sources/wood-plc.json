@@ -24,6 +24,6 @@
   "quality_tier": 2,
   "update_frequency": "monthly",
   "verification": "unverified",
-  "last_verified": null,
-  "notes": "Terms page not found by fetch tool on 2026-10-23. Evidence: https://www.woodplc.com/"
+  "last_verified": "2026-10-28",
+  "notes": "Terms page not found by fetch tool on 2026-10-23. Evidence: https://www.woodplc.com/ Browser pass 2026-10-28: terms-of-use page exists but content gated; keep restricted."
 }
