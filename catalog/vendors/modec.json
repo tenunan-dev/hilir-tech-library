@@ -1,0 +1,21 @@
+{
+  "id": "modec",
+  "name": "MODEC Inc.",
+  "country": "Japan",
+  "roles": [
+    "oem",
+    "operator"
+  ],
+  "description": "Japanese FPSO/FSO designer, builder and operator with a large chartered fleet for deepwater developments.",
+  "technologies": [
+    "ups-fpso-floating-production"
+  ],
+  "url": "https://www.modec.com",
+  "sources": [
+    {
+      "url": "https://www.modec.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

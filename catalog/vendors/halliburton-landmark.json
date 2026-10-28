@@ -1,0 +1,24 @@
+{
+  "id": "halliburton-landmark",
+  "name": "Halliburton Landmark",
+  "country": "USA",
+  "roles": [
+    "supplier",
+    "service"
+  ],
+  "description": "Halliburton's exploration and production software business (DecisionSpace 365), covering seismic processing and interpretation through reservoir modelling.",
+  "technologies": [
+    "ups-full-waveform-inversion"
+  ],
+  "url": "https://www.landmark.solutions",
+  "sources": [
+    {
+      "url": "https://www.landmark.solutions",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Landmark Graphics"
+  ]
+}

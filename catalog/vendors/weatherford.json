@@ -1,0 +1,30 @@
+{
+  "id": "weatherford",
+  "name": "Weatherford International",
+  "country": "USA",
+  "roles": [
+    "service",
+    "supplier"
+  ],
+  "description": "Oilfield service company with artificial lift (incl. plunger lift), drilling services, completions and intervention product lines.",
+  "technologies": [
+    "ups-casing-drilling-expandable-tubulars",
+    "ups-gas-lift",
+    "ups-managed-pressure-drilling",
+    "ups-plunger-hydraulic-lift",
+    "ups-rod-lift-pcp",
+    "ups-rotary-steerable-systems"
+  ],
+  "url": "https://www.weatherford.com",
+  "sources": [
+    {
+      "url": "https://www.weatherford.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "ForeSite artificial lift optimisation",
+    "MPD services"
+  ]
+}

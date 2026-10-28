@@ -1,0 +1,24 @@
+{
+  "id": "helmerich-payne",
+  "name": "Helmerich & Payne",
+  "country": "USA",
+  "roles": [
+    "service"
+  ],
+  "description": "US drilling contractor known for its Flex Rigs and the IDEAS automation and directional-drilling platform.",
+  "technologies": [
+    "ups-drilling-automation"
+  ],
+  "url": "https://www.hpinc.com",
+  "sources": [
+    {
+      "url": "https://www.hpinc.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Flex Rig",
+    "IDEAS platform"
+  ]
+}

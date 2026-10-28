@@ -1,0 +1,28 @@
+{
+  "id": "sbm-offshore",
+  "name": "SBM Offshore",
+  "country": "Netherlands",
+  "roles": [
+    "oem",
+    "operator"
+  ],
+  "description": "Designer and lease-operator of floating production storage and offloading vessels; operator of a large FPSO fleet and partner in the Fast4Ward programme.",
+  "technologies": [
+    "ups-fpso-floating-production"
+  ],
+  "url": "https://www.sbmoffshore.com",
+  "sources": [
+    {
+      "url": "https://www.sbmoffshore.com/newsroom/sbm-offshore-signs-share-purchase-agreements-with-misc-berhad",
+      "note": "FPSO Espirito Santo/Kikeh stake exchange, 6 Sep 2024 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.sbmoffshore.com",
+      "note": "Vendor site"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Fast4Ward FPSO"
+  ]
+}

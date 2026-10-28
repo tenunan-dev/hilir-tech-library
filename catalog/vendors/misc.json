@@ -1,0 +1,25 @@
+{
+  "id": "misc",
+  "name": "MISC Berhad",
+  "country": "Malaysia",
+  "roles": [
+    "operator",
+    "packager"
+  ],
+  "description": "PETRONAS-linked shipping group whose offshore floating arm owns and operates FPSO and FSO assets, including full ownership of FPSO Kikeh since 2025.",
+  "technologies": [
+    "ups-fpso-floating-production"
+  ],
+  "url": "https://www.miscgroup.com",
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/493811-pttep-awards-long-term-charter-extension-for-fpso-kikeh",
+      "note": "FPSO Kikeh charter extension, 26 Jan 2022 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.miscgroup.com",
+      "note": "Vendor site"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

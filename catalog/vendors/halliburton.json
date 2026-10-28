@@ -1,0 +1,33 @@
+{
+  "id": "halliburton",
+  "name": "Halliburton",
+  "country": "USA",
+  "roles": [
+    "service",
+    "supplier"
+  ],
+  "description": "One of the largest oilfield service companies, with product service lines across drilling and formation evaluation, completion and production, and digital solutions.",
+  "technologies": [
+    "ups-ai-seismic-interpretation-history-matching",
+    "ups-coiled-tubing-intervention",
+    "ups-hydraulic-fracturing",
+    "ups-intelligent-completions",
+    "ups-managed-pressure-drilling",
+    "ups-mwd-lwd",
+    "ups-production-optimisation-digital-oilfield",
+    "ups-rotary-steerable-systems",
+    "ups-sand-control"
+  ],
+  "url": "https://www.halliburton.com",
+  "sources": [
+    {
+      "url": "https://www.halliburton.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Sperry drilling services",
+    "Geo i-TRAK"
+  ]
+}

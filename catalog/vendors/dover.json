@@ -1,0 +1,25 @@
+{
+  "id": "dover",
+  "name": "Dover Corporation",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "description": "Diversified manufacturer whose energy business includes artificial-lift and production equipment (Norriseal valves, slip-on rod pumps) through several operating companies.",
+  "technologies": [
+    "ups-rod-lift-pcp"
+  ],
+  "url": "https://www.dovercorporation.com",
+  "sources": [
+    {
+      "url": "https://www.dovercorporation.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Norriseal",
+    "Norris rod pumps"
+  ]
+}

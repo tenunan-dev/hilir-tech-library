@@ -1,0 +1,44 @@
+{
+  "id": "slb",
+  "name": "SLB",
+  "country": "USA",
+  "roles": [
+    "service",
+    "supplier"
+  ],
+  "description": "Global oilfield services company covering drilling, reservoir evaluation, production, digital and well construction; the former Schlumberger.",
+  "technologies": [
+    "ups-ai-seismic-interpretation-history-matching",
+    "ups-basin-petroleum-systems-modelling",
+    "ups-digital-core-analysis",
+    "ups-drilling-automation",
+    "ups-electric-submersible-pumps",
+    "ups-full-waveform-inversion",
+    "ups-gas-lift",
+    "ups-hydraulic-fracturing",
+    "ups-intelligent-completions",
+    "ups-multiphase-flow-metering",
+    "ups-mwd-lwd",
+    "ups-produced-water-treatment",
+    "ups-production-optimisation-digital-oilfield",
+    "ups-reservoir-simulation",
+    "ups-rotary-steerable-systems",
+    "ups-sand-control"
+  ],
+  "url": "https://www.slb.com",
+  "sources": [
+    {
+      "url": "https://www.slb.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Schlumberger"
+  ],
+  "products": [
+    "Delfi digital platform",
+    "PEM ESP systems",
+    "PowerDrive rotary steerable"
+  ]
+}

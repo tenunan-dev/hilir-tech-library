@@ -1,0 +1,21 @@
+{
+  "id": "liberty-lift",
+  "name": "Liberty Lift Solutions",
+  "country": "USA",
+  "roles": [
+    "service",
+    "supplier"
+  ],
+  "description": "Texas-based artificial lift company supplying beam pumping systems, gas lift and sucker rods, plus plunger-lift related services.",
+  "technologies": [
+    "ups-plunger-hydraulic-lift"
+  ],
+  "url": "https://www.libertylift.com",
+  "sources": [
+    {
+      "url": "https://www.libertylift.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

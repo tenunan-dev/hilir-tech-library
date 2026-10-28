@@ -1,0 +1,33 @@
+{
+  "id": "slb-onesubsea",
+  "name": "SLB OneSubsea",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "SLB's subsea production and processing joint venture business (with Aker Solutions), supplying subsea trees, boosting, compression and processing systems.",
+  "technologies": [
+    "ups-all-electric-subsea",
+    "ups-subsea-gas-compression",
+    "ups-subsea-production-systems",
+    "ups-subsea-boosting"
+  ],
+  "url": "https://www.onesubsea.slb.com",
+  "sources": [
+    {
+      "url": "https://www.onesubsea.slb.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "OneSubsea",
+    "Framo"
+  ],
+  "products": [
+    "Subsea trees",
+    "Subsea boosting pumps",
+    "Asgard subsea compression"
+  ]
+}

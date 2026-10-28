@@ -1,0 +1,27 @@
+{
+  "id": "nov",
+  "name": "NOV Inc.",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "description": "National Oilwell Varco: equipment maker for drilling (rig equipment, powered catwalks, coiled tubing units), artificial lift and pipeline services.",
+  "technologies": [
+    "ups-coiled-tubing-intervention",
+    "ups-drilling-automation",
+    "ups-managed-pressure-drilling",
+    "ups-rod-lift-pcp"
+  ],
+  "url": "https://www.nov.com",
+  "sources": [
+    {
+      "url": "https://www.nov.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "National Oilwell Varco"
+  ]
+}

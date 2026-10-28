@@ -1,0 +1,20 @@
+{
+  "id": "liberty-energy",
+  "name": "Liberty Energy",
+  "country": "USA",
+  "roles": [
+    "service"
+  ],
+  "description": "Major North American hydraulic fracturing and completion services provider (Liberty Frac), also investing in power generation from natural gas.",
+  "technologies": [
+    "ups-hydraulic-fracturing"
+  ],
+  "url": "https://libertyenergy.com",
+  "sources": [
+    {
+      "url": "https://libertyenergy.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

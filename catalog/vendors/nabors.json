@@ -1,0 +1,30 @@
+{
+  "id": "nabors",
+  "name": "Nabors Industries",
+  "country": "Bermuda",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Land drilling contractor with the industry's first fully automated land drilling rig (R801, proven with ExxonMobil) and a drilling-automation software and robotics business (Canrig).",
+  "technologies": [
+    "ups-drilling-automation"
+  ],
+  "url": "https://www.nabors.com",
+  "sources": [
+    {
+      "url": "https://investor.nabors.com/2022-11-16-Nabors-Marks-Major-Industry-Milestone-Fully-Automates-Existing-Land-Rig-with-First-of-its-Kind-Robotics-Module",
+      "note": "R801 automation release, 16 Nov 2022 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.nabors.com",
+      "note": "Vendor site"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "R801 robotic rig",
+    "Canrig automation",
+    "SmartSLIDE"
+  ]
+}
