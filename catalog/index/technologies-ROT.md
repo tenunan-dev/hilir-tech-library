@@ -5,14 +5,14 @@
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Air coolers and cooling towers](#rot-air-coolers-cooling-towers) | Static equipment | commercial |  | Alfa Laval (finned tube air heat exchangers); Hamon (cooling tower design (named in the Wikipedia reference)); SPX Cooling Technologies |  |
-| [Centrifugal and axial compressors](#rot-centrifugal-axial-compressors) | Rotating equipment | commercial |  |  |  |
-| [Centrifugal and positive displacement pumps](#rot-pumps) | Rotating equipment | commercial |  | American Marsh (early self-priming centrifugal pump (1938)) |  |
-| [Columns, trays and structured packing](#rot-columns-trays-packing) | Static equipment | commercial |  |  |  |
+| [Centrifugal and axial compressors](#rot-centrifugal-axial-compressors) | Rotating equipment | commercial |  | Siemens Energy (axial and centrifugal process compressors for oil and gas to API 617); Mitsubishi Heavy Industries (MCO-I) (API 617 centrifugal compressors with dedicated performance test stand); Elliott Group (centrifugal and axial compressors for refinery and gas service); Baker Hughes (centrifugal and integrally-geared compressors for LNG and gas processing); Atlas Copco (process centrifugal compressors to API 617, up to 205 bar(a)) |  |
+| [Centrifugal and positive displacement pumps](#rot-pumps) | Rotating equipment | commercial |  | American Marsh (early self-priming centrifugal pump (1938)); Sulzer (API 610 centrifugal process pumps (overhung, between-bearing, vertical)); Flowserve (API 610 process pumps for refinery and petrochemical service); KSB (API 610 centrifugal pumps); ITT Goulds Pumps (API 610 pump families (BB1/BB2/BB3/OH2), more than 20,000 API pumps installed) |  |
+| [Columns, trays and structured packing](#rot-columns-trays-packing) | Static equipment | commercial |  | Koch-Glitsch (trays and structured/random packing for separation columns); Sulzer (column internals: structured packing, trays and column technology) |  |
 | [Fired heaters and low-NOx burners](#rot-fired-heaters-low-nox-burners) | Static equipment | commercial |  | ClearSign (Duplex ceramic-tile flame retrofit); Hamworthy Peabody Combustion (ECOjet staged-gas boiler burner (not a heater burner)) |  |
 | [Mechanical seals, magnetic bearings and integrated motor-compressors](#rot-seals-bearings-motor-compressors) | Rotating equipment | commercial |  | Gallagher Seals; Omniseal Solutions; Ashton Seals |  |
 | [Pressure vessels, reactors and cryogenic tanks](#rot-pressure-vessels-reactors-tanks) | Static equipment | commercial |  |  |  |
 | [Reciprocating and screw compressors](#rot-reciprocating-screw-compressors) | Rotating equipment | commercial |  |  |  |
-| [Shell-and-tube, plate and printed-circuit heat exchangers](#rot-heat-exchangers) | Static equipment | commercial |  |  |  |
+| [Shell-and-tube, plate and printed-circuit heat exchangers](#rot-heat-exchangers) | Static equipment | commercial |  | Alfa Laval (plate-and-frame and welded plate heat exchangers); Heatric (Parker Hannifin) (printed-circuit heat exchangers (diffusion-bonded), design pressure above 900 bar class up to about 1,000 bar, temperatures 76 K to 1,255 K) |  |
 | [Steam turbines and expanders](#rot-steam-turbines-expanders) | Rotating equipment | commercial |  | Siemens Energy; GE Vernova; Mitsubishi Heavy Industries; Baker Hughes; MAN Energy Solutions; Doosan Skoda Power; Dongfang Electric; Shanghai Electric | maintenance cost: 0.005 USD per kWh |
 | [Valves and actuators](#rot-valves-actuators) | Static equipment | commercial |  |  |  |
 
@@ -42,11 +42,11 @@ flowchart LR
 
 **Missing inputs:**
 - air cooler and tower capex and opex (costs): No cost figures in the pages read. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add cost per duty with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.alfalaval.com/products/heat-transfer/finned-tube-air-heat-exchangers/Finned-tube-air-heat-exchangers/), [2](https://en.wikipedia.org/wiki/Cooling_tower). Last reviewed 2026-10-25.
+Sources: [1](https://www.alfalaval.com/products/heat-transfer/finned-tube-air-heat-exchangers/Finned-tube-air-heat-exchangers/), [2](https://en.wikipedia.org/wiki/Cooling_tower). Last reviewed 2026-10-28.
 
 ## Centrifugal and axial compressors
 <a id="rot-centrifugal-axial-compressors"></a>
@@ -71,14 +71,13 @@ flowchart LR
 - single-stage pressure ratio: 1-10 ratio (few exceed 10:1); single-stage machines; the 8 stated is a helicopter engine example, not process duty. [source](https://en.wikipedia.org/wiki/Centrifugal_compressor)
 
 **Missing inputs:**
-- compressor OEMs for oil and gas (suppliers): The sources read name no suppliers for this technology. Where: OEM pages for centrifugal compressors (open). Next: Add suppliers from vendor pages, with the product each supplies.
-- process-duty flow and head ranges, efficiency and API 617 limits (performance): The page gives only a small research compressor map. Where: OEM datasheets and API 617 summaries (open). Next: Add typical flow, head and efficiency ranges.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- process-duty flow and head ranges, efficiency and API 617 limits (performance): The page gives only a small research compressor map. Web-checked 2026-10-28: Atlas Copco centrifugal class to 205 bar(a) recorded with suppliers; polytropic-efficiency and flow/head envelope tables sit in vendor selectors. Where: OEM datasheets and API 617 summaries (open). Next: Add typical flow, head and efficiency ranges.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; OEM quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_compressor). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_compressor). Last reviewed 2026-10-28.
 
 ## Centrifugal and positive displacement pumps
 <a id="rot-pumps"></a>
@@ -100,14 +99,13 @@ flowchart LR
 - boiler feed pump flow: 150 L/s per pump at 21 MPa; two pumps in parallel for a 350 MW unit, example given in the article. [source](https://en.wikipedia.org/wiki/Centrifugal_pump)
 
 **Missing inputs:**
-- current pump OEMs for API 610 service (suppliers): Only a 1938 manufacturer is named. Where: OEM pages (open). Next: Add suppliers from vendor pages, with the product each supplies.
-- pump efficiency, head and flow by type (performance): Not stated on the page. Where: Hydraulic Institute and OEM catalogues (open). Next: Add ranges per pump class.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- pump efficiency, head and flow by type (performance): Not stated on the page. Web-checked 2026-10-28; pump selection curves are vendor-selector material. Where: Hydraulic Institute and OEM catalogues (open). Next: Add ranges per pump class.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_pump). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_pump). Last reviewed 2026-10-28.
 
 ## Columns, trays and structured packing
 <a id="rot-columns-trays-packing"></a>
@@ -133,14 +131,13 @@ flowchart LR
 - share of plant energy use: 40 % (about); stated for a typical chemical plant. [source](https://en.wikipedia.org/wiki/Fractionating_column)
 
 **Missing inputs:**
-- tray and packing suppliers (suppliers): The sources read name no suppliers for this technology. Where: Sulzer, Koch-Glitsch and Raschig pages (open). Next: Add suppliers from vendor pages, with the product each supplies.
-- tray efficiency and packing pressure drop figures (performance): Not in the page read. Where: Vendor technical bulletins (open). Next: Add figures with source.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- tray efficiency and packing pressure drop figures (performance): Not in the page read. Web-checked 2026-10-28; efficiency correlations are textbook/vendor-selector material. Where: Vendor technical bulletins (open). Next: Add figures with source.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Fractionating_column). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Fractionating_column). Last reviewed 2026-10-28.
 
 ## Fired heaters and low-NOx burners
 <a id="rot-fired-heaters-low-nox-burners"></a>
@@ -165,13 +162,13 @@ flowchart LR
 - claimed thermal efficiency gain from Duplex: 2-4 % (vendor claim); ClearSign's own analysis, not independent. [source](https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf)
 
 **Missing inputs:**
-- independent heater efficiency and NOx data (performance): Only a vendor white paper was read. Where: API 560 summaries (open); EPA and industry burner test reports (open). Next: Add independent figures.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- independent heater efficiency and NOx data (performance): Only a vendor white paper was read. Web-checked 2026-10-28; heater efficiency/NOx tables sit in vendor and EPA material not read this pass. Where: API 560 summaries (open); EPA and industry burner test reports (open). Next: Add independent figures.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf). Last reviewed 2026-10-25.
+Sources: [1](https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf). Last reviewed 2026-10-28.
 
 ## Mechanical seals, magnetic bearings and integrated motor-compressors
 <a id="rot-seals-bearings-motor-compressors"></a>
@@ -278,16 +275,15 @@ flowchart LR
 **Performance:**
 - counter-current effectiveness: 70-90 %; stated for counter-flow designs; cross-flow in air is 50 to 70%. [source](https://en.wikipedia.org/wiki/Heat_exchanger)
 - shell-and-tube typical duty: 30 bar and above, 260 degC and above; typical conditions where shell-and-tube is used, as stated. [source](https://en.wikipedia.org/wiki/Heat_exchanger)
+- printed-circuit heat exchanger (PCHE) design envelope (Heatric): 900-1255 bar design pressure (exceeding 900, capability to about 1,000) and kelvin design temperature (76 K to 1,255 K); unit weights 1 kg to 60 t; Heatric PCHE characteristics: diffusion-bonded blocks with unit weight 1 kg-60 t, maximum design pressure exceeding 900 bar, design temperature 76 K-1,255 K; Parker material cites pressure capabilities up to 1,000 bar. [source](https://ph.parker.com/de/en/product-list/heatric-printed-circuit-heat-exchanger)
 
 **Missing inputs:**
-- heat exchanger makers (Alfa Laval, Heatric and others) (suppliers): The page names no manufacturers in its text. Where: OEM pages (open). Next: Add suppliers from vendor pages, with the product each supplies.
-- printed-circuit exchanger figures (performance): Not on the page read. Where: Heatric and other PCHE vendor pages (open). Next: Add pressure, temperature and compactness figures.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Heat_exchanger). Last reviewed 2026-10-25.
+Sources: [1](https://en.wikipedia.org/wiki/Heat_exchanger). Last reviewed 2026-10-28.
 
 ## Steam turbines and expanders
 <a id="rot-steam-turbines-expanders"></a>

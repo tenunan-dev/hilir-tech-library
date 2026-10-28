@@ -52,7 +52,33 @@
     "dry gas seals",
     "anti-surge control"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Siemens Energy",
+      "product": "axial and centrifugal process compressors for oil and gas to API 617",
+      "url": "https://www.siemens-energy.com"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries (MCO-I)",
+      "product": "API 617 centrifugal compressors with dedicated performance test stand",
+      "url": "https://www.mhi.com"
+    },
+    {
+      "name": "Elliott Group",
+      "product": "centrifugal and axial compressors for refinery and gas service",
+      "url": "https://www.elliott-turbo.com"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "centrifugal and integrally-geared compressors for LNG and gas processing",
+      "url": "https://www.bakerhughes.com"
+    },
+    {
+      "name": "Atlas Copco",
+      "product": "process centrifugal compressors to API 617, up to 205 bar(a)",
+      "url": "https://www.atlascopco.com/ar-sa/compressors/products/processairgasequipment/centrifugal-compressors"
+    }
+  ],
   "performance": [
     {
       "metric": "oilfield reinjection discharge pressure",
@@ -91,26 +117,13 @@
       "note": "Wikipedia, Centrifugal compressor, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "compressor OEMs for oil and gas",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no suppliers for this technology.",
-      "where": [
-        {
-          "hint": "OEM pages for centrifugal compressors",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
     {
       "field": "performance",
       "item": "process-duty flow and head ranges, efficiency and API 617 limits",
       "reason_code": "not_in_sources_read",
-      "reason": "The page gives only a small research compressor map.",
+      "reason": "The page gives only a small research compressor map. Web-checked 2026-10-28: Atlas Copco centrifugal class to 205 bar(a) recorded with suppliers; polytropic-efficiency and flow/head envelope tables sit in vendor selectors.",
       "where": [
         {
           "hint": "OEM datasheets and API 617 summaries",
@@ -123,7 +136,7 @@
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; OEM quotes only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -146,7 +159,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -159,7 +172,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",

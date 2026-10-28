@@ -44,7 +44,18 @@
     "plates and gaskets",
     "fins"
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "Alfa Laval",
+      "product": "plate-and-frame and welded plate heat exchangers",
+      "url": "https://www.alfalaval.com"
+    },
+    {
+      "name": "Heatric (Parker Hannifin)",
+      "product": "printed-circuit heat exchangers (diffusion-bonded), design pressure above 900 bar class up to about 1,000 bar, temperatures 76 K to 1,255 K",
+      "url": "https://ph.parker.com/de/en/product-list/heatric-printed-circuit-heat-exchanger"
+    }
+  ],
   "performance": [
     {
       "metric": "counter-current effectiveness",
@@ -69,6 +80,18 @@
       },
       "low": 30,
       "high": 30
+    },
+    {
+      "metric": "printed-circuit heat exchanger (PCHE) design envelope (Heatric)",
+      "low": 900,
+      "high": 1255,
+      "unit": "bar design pressure (exceeding 900, capability to about 1,000) and kelvin design temperature (76 K to 1,255 K); unit weights 1 kg to 60 t",
+      "year": 2020,
+      "basis": "Heatric PCHE characteristics: diffusion-bonded blocks with unit weight 1 kg-60 t, maximum design pressure exceeding 900 bar, design temperature 76 K-1,255 K; Parker material cites pressure capabilities up to 1,000 bar",
+      "source": {
+        "url": "https://ph.parker.com/de/en/product-list/heatric-printed-circuit-heat-exchanger",
+        "note": "Heatric (Parker) PCHE product pages and characteristics document (read 2026-10-28)"
+      }
     }
   ],
   "advantages": [],
@@ -82,39 +105,13 @@
       "note": "Wikipedia, Heat exchanger, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-25",
+  "last_reviewed": "2026-10-28",
   "gaps": [
-    {
-      "field": "suppliers",
-      "item": "heat exchanger makers (Alfa Laval, Heatric and others)",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page names no manufacturers in its text.",
-      "where": [
-        {
-          "hint": "OEM pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
-    {
-      "field": "performance",
-      "item": "printed-circuit exchanger figures",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not on the page read.",
-      "where": [
-        {
-          "hint": "Heatric and other PCHE vendor pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add pressure, temperature and compactness figures."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
+      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -137,7 +134,7 @@
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
+      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment.",
       "where": [
         {
           "hint": "Licensor and operator press releases for the suppliers listed",
@@ -150,7 +147,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry.",
+      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
