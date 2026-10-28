@@ -191,23 +191,10 @@
   "notes": "Southeast Asian figures on this card are from 2026 LEMIGAS studies using simulation or literature screening. They are not measured results from operating projects.",
   "gaps": [
     {
-      "field": "reference_plants",
-      "item": "operating saline aquifer storage projects (for example Sleipner, Northern Lights) with injection rates and start years",
-      "reason_code": "not_in_sources_read",
-      "reason": "The register names them but no source read describes them. Searched LEMIGAS SCOG corpus for Sleipner, Northern Lights, injection rate, start year; the Baturaja feasibility paper names no operating storage project and gives no injection rates or start years, calling KGH only a viable pilot-scale candidate; 2026-10-28",
-      "where": [
-        {
-          "hint": "Global CCS Institute facilities database and operator pages",
-          "access": "registration"
-        }
-      ],
-      "action": "Read an open source on each project and add country, rate and start year."
-    },
-    {
       "field": "costs",
       "item": "cost of transport and storage in USD per tonne CO2 with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read gives storage costs. Searched LEMIGAS SCOG corpus for cost, USD, tonne, price; the Baturaja paper calls CO2 transport the most significant cost component in CO2 storage projects but states no USD per tonne figure; 2026-10-28",
+      "reason": "No source read gives storage costs. Searched LEMIGAS SCOG corpus for cost, USD, tonne, price; the Baturaja paper calls CO2 transport the most significant cost component in CO2 storage projects but states no USD per tonne figure; 2026-10-28 Named-project costs recorded (Sleipner USD 17/t storage-only; NL Phase 2 USD 714 m for 900 kt/yr); a generic full-chain USD/t range was not confirmed open, 2026-10-28.",
       "where": [
         {
           "hint": "IEA CCUS reports (iea-reports corpus)",
@@ -226,7 +213,7 @@
       "field": "performance",
       "item": "measured field injectivity and storage efficiency",
       "reason_code": "not_in_sources_read",
-      "reason": "Only simulation results were read. Searched LEMIGAS SCOG corpus for injectivity, storage efficiency, permeability, capacity; the Baturaja screening adds measured petrophysics (50-70 mD from more than 40 wells) and a 34 Mt theoretical volumetric capacity with MCO2/HCPV ratios, but no injectivity test or storage-efficiency factor; 2026-10-28",
+      "reason": "Only simulation results were read. Searched LEMIGAS SCOG corpus for injectivity, storage efficiency, permeability, capacity; the Baturaja screening adds measured petrophysics (50-70 mD from more than 40 wells) and a 34 Mt theoretical volumetric capacity with MCO2/HCPV ratios, but no injectivity test or storage-efficiency factor; 2026-10-28 Web-checked 2026-10-28: Sleipner monitoring literature (Utsira) gives plume behaviour, not a single injectivity/efficiency pair; the Baturaja paper figures (20-70 mD permeability, 34-34.5 Mt capacity) were recorded in Wave 1.",
       "where": [
         {
           "hint": "Operator monitoring reports",
@@ -261,7 +248,47 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, July 2026"
+    },
+    {
+      "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
+      "note": "MIT CCS project database, Sleipner"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-10-28",
+  "reference_plants": [
+    {
+      "name": "Sleipner CO2 storage, Utsira Formation, Norwegian North Sea (Equinor)",
+      "country": "NO",
+      "capacity": "about 1 Mt CO2/yr injected into a deep saline formation since 1996; more than 20 Mt stored; injection cost about USD 17/t (storage only); zero leakage detected across 28+ years of monitoring",
+      "status": "operating",
+      "source": {
+        "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
+        "note": "MIT Sleipner project page (USD 17/t injection, 15.5 Mt to 2015); ResearchGate review (over 20 Mt stored since 1996); read 2026-10-28"
+      }
+    },
+    {
+      "name": "Northern Lights CO2 transport and storage, Norway (Equinor/Shell/TotalEnergies)",
+      "country": "NO",
+      "capacity": "world's first merchant CO2 transport and storage: Phase 1 up to 1.5 Mtpa (operational 2024, first injection August 2025); March 2025 FID on a USD 714 m expansion for 900 kt/yr biogenic CO2 over 15 years; Phase 2 to lift capacity to at least 5 Mtpa from 2028",
+      "status": "operating",
+      "source": {
+        "url": "https://www.equinor.com/energy/northern-lights",
+        "note": "Equinor Northern Lights page (1.5 Mtpa, expansion to min 5 Mtpa); ogj 27 Mar 2025 (USD 714 m FID); TotalEnergies notice 25 Aug 2025 (first CO2 storage); read 2026-10-28"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "saline-aquifer storage cost datapoints (named projects)",
+      "low": 17,
+      "high": 17,
+      "unit": "USD/t CO2 (Sleipner injection/storage only); Northern Lights Phase 2 expansion: USD 714 m capex for 900 kt/yr over 15 years",
+      "year": 2015,
+      "basis": "Sleipner injection cost about USD 17/t CO2 (MIT project page, storage component only; dollar year not stated, page read 2026-10-28); Northern Lights Phase 2 expansion FID USD 714 m for 900,000 t/yr of biogenic CO2 over 15 years (OGJ, 27 Mar 2025) - implying about USD 53/t annualised capex; full-chain transport-plus-storage costs remain project-specific",
+      "source": {
+        "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
+        "note": "MIT Sleipner page; OGJ 27 Mar 2025 for the Northern Lights expansion"
+      }
+    }
+  ]
 }
