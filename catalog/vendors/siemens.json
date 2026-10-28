@@ -1,0 +1,21 @@
+{
+  "id": "siemens",
+  "name": "Siemens",
+  "country": "Germany",
+  "roles": [
+    "oem",
+    "integrator"
+  ],
+  "description": "Technology group whose process water and electrochlorination systems serve offshore produced-water and injection-water duties.",
+  "technologies": [
+    "ups-produced-water-treatment"
+  ],
+  "url": "https://www.siemens.com",
+  "sources": [
+    {
+      "url": "https://www.siemens.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

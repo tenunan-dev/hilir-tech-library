@@ -1,0 +1,23 @@
+{
+  "id": "toray",
+  "name": "Toray Industries",
+  "country": "Japan",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Japanese materials group supplying reverse-osmosis and nanofiltration membranes used in seawater treatment and sulfate-removal systems.",
+  "technologies": [
+    "ups-seawater-sulfate-removal"
+  ],
+  "url": "https://www.toray.com",
+  "sources": [
+    {
+      "url": "https://www.toray.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "ROMEMBRA RO elements"
+  ]
+}

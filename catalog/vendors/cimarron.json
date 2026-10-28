@@ -1,0 +1,28 @@
+{
+  "id": "cimarron",
+  "name": "Cimarron Energy (Aereon)",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "description": "Vapor and flare gas recovery specialist; its Hy-Bon line of vapour recovery units is widely used on tank batteries and wellsites. Part of the Aereon group.",
+  "technologies": [
+    "ups-flare-gas-recovery"
+  ],
+  "url": "https://aereon.com",
+  "sources": [
+    {
+      "url": "https://aereon.com",
+      "note": "Aereon/Cimarron site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Hy-Bon",
+    "Aereon"
+  ],
+  "products": [
+    "Hy-Bon VRU"
+  ]
+}

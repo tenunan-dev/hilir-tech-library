@@ -1,0 +1,27 @@
+{
+  "id": "john-zink",
+  "name": "John Zink Company",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Koch-owned combustion and emissions-control company (Tulsa, Oklahoma): flares, enclosed ground flares, ultra-low-emission flares, burners, thermal oxidisers and vapor control.",
+  "technologies": [
+    "ups-flare-gas-recovery"
+  ],
+  "url": "https://www.johnzink.com",
+  "sources": [
+    {
+      "url": "https://www.johnzink.com/products/flare-systems",
+      "note": "John Zink flare systems page, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "John Zink Hamworthy"
+  ],
+  "products": [
+    "ZTOF enclosed flare",
+    "ZULE ultra-low-emissions flare"
+  ]
+}

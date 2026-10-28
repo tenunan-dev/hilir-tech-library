@@ -1,0 +1,24 @@
+{
+  "id": "nexans",
+  "name": "Nexans",
+  "country": "France",
+  "roles": [
+    "oem"
+  ],
+  "description": "Cable maker supplying high-voltage subsea power and umbilical cables, including turnkey deepwater cable supply for compression projects.",
+  "technologies": [
+    "ups-direct-electrical-heating-tiebacks"
+  ],
+  "url": "https://www.nexans.com",
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/14211653/nexans-spie-land-jansz-io-compression-contracts",
+      "note": "Nexans Jansz-Io cable contract, 5 Oct 2021 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.nexans.com",
+      "note": "Vendor site"
+    }
+  ],
+  "last_reviewed": "2026-10-28"
+}

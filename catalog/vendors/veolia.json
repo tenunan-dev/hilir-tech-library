@@ -1,0 +1,26 @@
+{
+  "id": "veolia",
+  "name": "Veolia",
+  "country": "France",
+  "roles": [
+    "supplier",
+    "service"
+  ],
+  "description": "Global water technology group whose Oil & Gas offering covers sulfate-removal nanofiltration packages (SRP) and produced-water treatment for injection and discharge.",
+  "technologies": [
+    "ups-produced-water-treatment",
+    "ups-seawater-sulfate-removal"
+  ],
+  "url": "https://www.veolia.com",
+  "sources": [
+    {
+      "url": "https://www.veoliawatertechnologies.com/en/solutions/technologies/sulfate-removal-process-srp",
+      "note": "Veolia SRP page, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "SRP sulfate removal process",
+    "HPDM membranes"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "flir",
+  "name": "FLIR Systems",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Teledyne FLIR makes the optical gas imaging cameras widely used for hydrocarbon and methane leak detection on wellsites and facilities.",
+  "technologies": [
+    "ups-methane-leak-detection"
+  ],
+  "url": "https://www.flir.com",
+  "sources": [
+    {
+      "url": "https://www.flir.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Teledyne FLIR"
+  ],
+  "products": [
+    "GF-series OGI cameras"
+  ]
+}

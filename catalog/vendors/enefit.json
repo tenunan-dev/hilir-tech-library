@@ -1,0 +1,24 @@
+{
+  "id": "enefit",
+  "name": "Enefit",
+  "country": "Estonia",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "description": "International energy arm of Eesti Energia, operating oil-shale processing and shale-oil production in Estonia and developing projects abroad.",
+  "technologies": [
+    "ups-oil-shale-retorting"
+  ],
+  "url": "https://www.enefit.com",
+  "sources": [
+    {
+      "url": "https://www.enefit.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Eesti Energia"
+  ]
+}

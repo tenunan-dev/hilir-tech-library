@@ -1,0 +1,23 @@
+{
+  "id": "project-canary",
+  "name": "Project Canary",
+  "country": "USA",
+  "roles": [
+    "service"
+  ],
+  "description": "Denver-based continuous emissions monitoring and certification company (Canary CI) serving gas producers and midstream operators.",
+  "technologies": [
+    "ups-methane-leak-detection"
+  ],
+  "url": "https://www.projectcanary.com",
+  "sources": [
+    {
+      "url": "https://www.projectcanary.com",
+      "note": "Vendor site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Canary CI certification"
+  ]
+}

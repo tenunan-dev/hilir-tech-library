@@ -1,0 +1,25 @@
+{
+  "id": "zeeco",
+  "name": "Zeeco",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "description": "Combustion and environmental equipment maker (Broken Arrow, Oklahoma): flares, burners, thermal oxidisers, vapor control and flare gas recovery systems.",
+  "technologies": [
+    "ups-flare-gas-recovery"
+  ],
+  "url": "https://www.zeeco.com",
+  "sources": [
+    {
+      "url": "https://www.zeeco.com/resources/technical-papers/tag/flare-gas-recovery",
+      "note": "Zeeco flare gas recovery technical papers, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "products": [
+    "Flare gas recovery",
+    "Ground flares",
+    "Vapor recovery units"
+  ]
+}

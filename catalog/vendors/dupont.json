@@ -1,0 +1,26 @@
+{
+  "id": "dupont",
+  "name": "DuPont Water Solutions",
+  "country": "USA",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Membrane maker whose FilmTec nanofiltration and reverse-osmosis elements are the standard in sulfate-removal and desalination packages.",
+  "technologies": [
+    "ups-seawater-sulfate-removal"
+  ],
+  "url": "https://www.dupont.com/water.html",
+  "sources": [
+    {
+      "url": "https://www.dupont.com/water.html",
+      "note": "DuPont Water Solutions site, read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "aliases": [
+    "Dow FilmTec"
+  ],
+  "products": [
+    "FilmTec NF/RO elements"
+  ]
+}
