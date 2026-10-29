@@ -5,9 +5,10 @@
   "roles": [
     "oem"
   ],
-  "description": "Japanese heavy-machinery group supplying SCR and flue-gas treatment systems for industrial plants.",
+  "description": "Japanese heavy-machinery group supplying SCR and flue-gas treatment systems for industrial plants. Boilers from small packaged to supercritical units are a core Carbon Solutions line (Apr 2026 Babcock Power/Riley collaboration on low-carbon fuel conversions).",
   "technologies": [
-    "hse-nox-control"
+    "hse-nox-control",
+    "pwr-combined-cycle-hrsg"
   ],
   "url": "https://www.ihi.co.jp",
   "sources": [
@@ -19,5 +20,8 @@
   "last_reviewed": "2026-10-28",
   "categories": [
     "equipment-oem"
+  ],
+  "aliases": [
+    "IHI"
   ]
 }

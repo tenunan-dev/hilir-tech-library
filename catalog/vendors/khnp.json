@@ -1,0 +1,26 @@
+{
+  "id": "khnp",
+  "name": "KHNP",
+  "country": "South Korea",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "utility"
+  ],
+  "description": "Korea Hydro & Nuclear Power: operator of Korea's 26-unit nuclear fleet and exporter-of-record for the Barakah APR1400 plants with KEPCO.",
+  "technologies": [
+    "pwr-large-light-water-reactors"
+  ],
+  "url": "https://www.khnp.co.kr",
+  "sources": [
+    {
+      "url": "https://www.khnp.co.kr",
+      "note": "Fleet identity search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Korea Hydro & Nuclear Power"
+  ]
+}

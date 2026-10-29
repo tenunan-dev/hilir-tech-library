@@ -1,0 +1,24 @@
+{
+  "id": "kairos-power",
+  "name": "Kairos Power",
+  "country": "USA",
+  "roles": [
+    "developer",
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Alameda company commercialising fluoride-salt-cooled high-temperature reactors with TRISO pebble fuel; Hermes under construction at Oak Ridge (NRC construction permit 2023, targeted operation from 2026) and Hermes 2 groundbreaking 2025; Google power-purchase partner.",
+  "technologies": [
+    "pwr-advanced-reactors"
+  ],
+  "url": "https://kairospower.com",
+  "sources": [
+    {
+      "url": "https://kairospower.com",
+      "note": "Hermes programme search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

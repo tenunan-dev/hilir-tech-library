@@ -1,0 +1,28 @@
+{
+  "id": "cgn",
+  "name": "CGN",
+  "country": "China",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "categories": [
+    "operator",
+    "utility"
+  ],
+  "description": "China General Nuclear Power Group: state nuclear operator (Daya Bay, Taishan EPR) and clean-energy developer across wind, solar and fusion research partnerships.",
+  "technologies": [
+    "pwr-large-light-water-reactors"
+  ],
+  "url": "https://www.cgn.com.cn",
+  "sources": [
+    {
+      "url": "https://www.cgn.com.cn",
+      "note": "Operator identity search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "China General Nuclear Power Group"
+  ]
+}

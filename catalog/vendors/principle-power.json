@@ -1,0 +1,28 @@
+{
+  "id": "principle-power",
+  "name": "Principle Power",
+  "country": "France",
+  "roles": [
+    "developer",
+    "service"
+  ],
+  "categories": [
+    "offshore-epc",
+    "engineering-consultancy"
+  ],
+  "description": "Floating-offshore-wind engineering company behind the WindFloat semi-submersible platform family (4th generation, any turbine, 40 m+ depths); WindFloat Atlantic was the first bank-financed full-scale floating wind farm.",
+  "technologies": [
+    "pwr-floating-offshore-wind"
+  ],
+  "url": "https://www.principlepower.com",
+  "sources": [
+    {
+      "url": "https://www.principlepower.com",
+      "note": "WindFloat programme search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "WindFloat"
+  ]
+}

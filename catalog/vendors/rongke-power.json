@@ -1,0 +1,28 @@
+{
+  "id": "rongke-power",
+  "name": "Rongke Power",
+  "country": "China",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Dalian flow-battery manufacturer whose vanadium redox systems back China's largest grid-scale storage demonstrations (Dalian 100 MW/400 MWh); sister developer Dalian Rongke leads VRFB integration.",
+  "technologies": [
+    "pwr-flow-batteries"
+  ],
+  "url": "https://www.rongkepower.com",
+  "sources": [
+    {
+      "url": "https://www.rongkepower.com",
+      "note": "Company identity; site unreachable on 2026-10-26 and re-queued, facts search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Dalian Rongke"
+  ],
+  "notes": "rongkepower.com was unreachable 2026-10-26; keep record but re-verify at next collection."
+}

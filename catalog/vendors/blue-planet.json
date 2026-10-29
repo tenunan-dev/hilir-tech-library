@@ -3,9 +3,13 @@
   "name": "Blue Planet Systems",
   "country": "USA",
   "roles": [
-    "developer"
+    "developer",
+    "supplier"
   ],
-  "description": "California company mineralising CO2 into calcium carbonate aggregates for use as construction material.",
+  "categories": [
+    "materials-supplier"
+  ],
+  "description": "California carbon-removal company whose Geomimetic process converts captured CO2 with calcium-rich waste into synthetic limestone aggregate holding ~44 percent sequestered CO2 by mass; first net-zero concrete placement announced Feb 2025 and listed on the Isometric registry.",
   "technologies": [
     "ccs-co2-concrete"
   ],
@@ -13,11 +17,8 @@
   "sources": [
     {
       "url": "https://www.blueplanetsystems.com",
-      "note": "Vendor site, read 2026-10-28"
+      "note": "Technology and milestones search-verified via web search 2026-10-30"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "categories": [
-    "equipment-oem"
-  ]
+  "last_reviewed": "2026-10-30"
 }

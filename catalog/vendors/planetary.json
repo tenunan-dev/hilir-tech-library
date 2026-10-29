@@ -5,19 +5,20 @@
   "roles": [
     "developer"
   ],
-  "description": "Canadian ocean-alkalinity-enhancement company dosing magnesium byproducts into coastal waters for carbon removal, trialled at St. Ives Bay UK.",
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Ocean-alkalinity-enhancement carbon removal company (Dartmouth, Nova Scotia) dosing alkaline minerals to accelerate the ocean's natural CO2 uptake; XPRIZE Carbon Removal Milestone winner.",
   "technologies": [
-    "ccs-enhanced-weathering"
+    "ccs-co2-concrete"
   ],
   "url": "https://www.planetarytech.com",
   "sources": [
     {
       "url": "https://www.planetarytech.com",
-      "note": "Vendor site, read 2026-10-28"
+      "note": "Company identity search-verified via web search 2026-10-30"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "categories": [
-    "equipment-oem"
-  ]
+  "last_reviewed": "2026-10-30",
+  "notes": "Linked to the CO2-concrete/mineralisation card cluster as the closest ocean-CMR card."
 }

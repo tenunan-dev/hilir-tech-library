@@ -1,0 +1,24 @@
+{
+  "id": "cleaver-brooks",
+  "name": "Cleaver-Brooks",
+  "country": "USA",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Packaged industrial and commercial boiler OEM ('Complete Boiler Room Solutions'): ClearFire condensing boilers, FLX flexible watertube and CB firebox lines.",
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-cogeneration-chp"
+  ],
+  "url": "https://cleaverbrooks.com",
+  "sources": [
+    {
+      "url": "https://cleaverbrooks.com",
+      "note": "Product lines search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

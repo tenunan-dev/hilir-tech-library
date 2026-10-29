@@ -1,0 +1,27 @@
+{
+  "id": "oxford-pv",
+  "name": "Oxford PV",
+  "country": "UK",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Oxford University spin-off commercialising perovskite-silicon tandem solar cells (module milestones 26.9 percent 2024, 25.6 percent shingled 2026); first commercial panels shipped to a US utility-scale project in 2024, production in Brandenburg, Germany.",
+  "technologies": [
+    "pwr-perovskite-tandem"
+  ],
+  "url": "https://www.oxfordpv.com",
+  "sources": [
+    {
+      "url": "https://www.oxfordpv.com",
+      "note": "Tandem efficiency and delivery search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Oxford Photovoltaics"
+  ]
+}

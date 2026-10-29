@@ -1,0 +1,27 @@
+{
+  "id": "edf",
+  "name": "EDF",
+  "country": "France",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "utility"
+  ],
+  "description": "Electricite de France: the world's largest nuclear fleet operator (56 reactors) plus the Hinkley Point C and Flamanville EPR builds and extensive hydropower.",
+  "technologies": [
+    "pwr-large-light-water-reactors",
+    "pwr-hydropower"
+  ],
+  "url": "https://www.edf.fr",
+  "sources": [
+    {
+      "url": "https://www.edf.fr",
+      "note": "Fleet identity search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Electricite de France"
+  ]
+}

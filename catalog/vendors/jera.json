@@ -1,0 +1,24 @@
+{
+  "id": "jera",
+  "name": "JERA",
+  "country": "Japan",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "utility"
+  ],
+  "description": "Japan's largest power-generation company (TEPCO/Chubu joint venture): LNG-fired fleet, the Hekinan 20 percent ammonia co-firing demonstration, and offshore-wind and hydrogen programme.",
+  "technologies": [
+    "pwr-combined-cycle-hrsg",
+    "pwr-hydrogen-ammonia-turbines"
+  ],
+  "url": "https://www.jera.co.jp",
+  "sources": [
+    {
+      "url": "https://www.jera.co.jp",
+      "note": "Ammonia co-firing demo search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

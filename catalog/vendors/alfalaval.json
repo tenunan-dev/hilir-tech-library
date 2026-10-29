@@ -1,0 +1,27 @@
+{
+  "id": "alfalaval",
+  "name": "Alfa Laval",
+  "country": "Sweden",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Swedish heat-exchange, centrifugal-separation and fluid-handling OEM whose plate-and-frame and printed-circuit heat exchangers serve refining, gas processing, power and marine duty.",
+  "technologies": [
+    "rot-heat-exchangers"
+  ],
+  "url": "https://www.alfalaval.com",
+  "sources": [
+    {
+      "url": "https://www.alfalaval.com",
+      "note": "Vendor identity; product scope search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Alfa Laval AB"
+  ]
+}

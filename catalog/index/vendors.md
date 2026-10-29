@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-394 vendor records covering 248 technologies. One record per vendor in
+413 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -10,11 +10,11 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | --- | --- | --- | --- |
 | [ADM (Archer-Daniels-Midland)](https://www.adm.com) | USA | operator | Bioenergy with CCS (BECCS) |
 | [Atlas Copco](https://www.atlascopco.com) | Sweden | oem | CO2 compression and dehydration |
-| [Blue Planet Systems](https://www.blueplanetsystems.com) | USA | developer | CO2 to concrete and aggregates |
+| [Blue Planet Systems](https://www.blueplanetsystems.com) | USA | developer, supplier | CO2 to concrete and aggregates |
 | [Carbfix](https://www.carbfix.com) | Iceland | developer, operator | CO2 mineralisation (in-situ basalt) |
 | [Carbon Engineering (1PointFive, Occidental)](https://carbonengineering.com) | Canada | developer | Direct air capture with liquid solvent (KOH and calcium loop) |
 | [Carbon Recycling International](https://carbonrecycling.com) | Iceland | operator | CO2 to methanol and fuels |
-| [CarbonCure Technologies](https://www.carboncure.com) | Canada | oem | CO2 to concrete and aggregates |
+| [CarbonCure Technologies](https://www.carboncure.com) | Canada | oem, supplier | CO2 to concrete and aggregates |
 | [Climeworks](https://climeworks.com) | Switzerland | developer, operator | Direct air capture with solid sorbent |
 | [CNOOC Engineering (COOEC)](https://www.cnoocengineering.com) | China | epc | CO2 compression and dehydration |
 | [Covestro](https://www.covestro.com) | Germany | oem | CO2 to urea and polymers |
@@ -26,7 +26,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [NET Power](https://www.netpower.com) | USA | developer | Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power) |
 | [Northern Lights JV](https://norlights.com) | Norway | operator | Geological CO2 storage in saline aquifers; CO2 shipping and terminals |
 | [PETRONAS Carigali](https://www.petronas.com) | Malaysia | operator | Storage in depleted oil and gas fields |
-| [Planetary Technologies](https://www.planetarytech.com) | Canada | developer | Enhanced rock weathering and ocean alkalinity enhancement |
+| [Planetary Technologies](https://www.planetarytech.com) | Canada | developer | CO2 to concrete and aggregates |
 | [Porthos](https://www.porthosco2.nl) | Netherlands | operator, developer | Storage in depleted oil and gas fields |
 | [Shell Catalysts & Technologies](https://www.catalysts.shell.com) | Netherlands | licensor | Amine solvent post-combustion capture; Chemical solvent capture from syngas (hydrogen plants) |
 | [SLB Capturi](https://www.slbcapturi.com) | Denmark | oem | Amine solvent post-combustion capture; Direct air capture with solid sorbent |
@@ -258,6 +258,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Indorama Ventures](https://www.indoramaventures.com) | Thailand | oem | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Ineos](https://www.ineos.com) | United Kingdom | oem | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); PVC (suspension) and chlor-alkali |
+| [Koch-Glitsch](https://kochglitsch.com) | USA | oem, supplier | Steam cracking (naphtha, ethane, LPG) |
 | [Loop Industries](https://www.loopindustries.com) | Canada | developer | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Butadiene extraction and on-purpose butadiene; Metathesis (OCT); Oxidative coupling of methane; Propane dehydrogenation (Oleflex, CATOFIN); Steam cracking (naphtha, ethane, LPG); Phenol and acetone (cumene) |
 | [LyondellBasell](https://www.lyondellbasell.com) | Netherlands | oem, licensor | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); Propylene oxide (HPPO, PO/SM) |
@@ -303,7 +304,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Aggreko](https://www.aggreko.com) | United Kingdom | rental, packager | Containerised hybrid power modules (solar, storage, gensets); Lithium-ion battery energy storage; Gas engines |
 | [ANDRITZ](https://www.andritz.com) | Austria | oem | Hydropower |
 | [APR Energy](https://www.aprenergy.com) | USA | rental, packager | Mobile gas turbine power plants |
-| [Babcock & Wilcox](https://babcock.com) | USA | oem | Biomass and waste-to-energy |
+| [Babcock & Wilcox](https://www.babcock.com) | USA | oem, service | Combined cycle and HRSG; Biomass and waste-to-energy |
 | [Baker Hughes](https://www.bakerhughes.com/) | USA | oem, service | Aeroderivative and industrial gas turbines; Cogeneration and combined heat and power |
 | [Bechtel](https://www.bechtel.com) | USA | epc | Large light-water reactors |
 | [BoxPower](https://boxpower.io) | USA | packager, oem | Containerised hybrid power modules (solar, storage, gensets) |
@@ -312,11 +313,16 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [BWX Technologies](https://www.bwxt.com) | USA | oem, developer, supplier | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [BYD](https://www.fdbatt.com) | China | oem | Lithium-ion battery energy storage |
 | [CATL](https://www.catl.com) | China | oem | Lithium-ion battery energy storage; Sodium-ion batteries |
+| [CGN](https://www.cgn.com.cn) | China | operator, developer | Large light-water reactors |
+| [Ciel & Terre](https://www.ciel-et-terre.net) | France | developer, oem | Floating solar |
+| [Cleaver-Brooks](https://cleaverbrooks.com) | USA | oem | Combined cycle and HRSG; Cogeneration and combined heat and power |
 | [Climeon](https://climeon.com) | Sweden | oem | Modular ORC units for waste heat and small geothermal |
+| [Commonwealth Fusion Systems](https://cfs.energy) | USA | developer | Fusion |
 | [Cosin](https://www.cosinsolar.com) | China | oem, epc | Concentrated solar power with storage |
 | [Cummins](https://www.cummins.com) | USA | oem | Gas engines; Modular reciprocating engine power plants |
 | [Doosan Enerbility](https://www.doosanenerbility.com) | South Korea | oem, supplier | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Large light-water reactors; Offshore wind (fixed bottom) |
 | [Eavor](https://eavor.com) | Canada | developer | Enhanced geothermal systems |
+| [EDF](https://www.edf.fr) | France | operator | Large light-water reactors; Hydropower |
 | [ElectraTherm](https://electratherm.com) | USA | oem | Modular ORC units for waste heat and small geothermal |
 | [Energy Vault](https://energyvault.com) | USA | integrator, developer, service | Gravity energy storage; Lithium-ion battery energy storage |
 | [Enogia](https://www.enogia.com) | France | oem | Modular ORC units for waste heat and small geothermal |
@@ -326,6 +332,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Exergy](https://exergyint.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
 | [Fervo Energy](https://fervoenergy.com) | USA | developer, operator | Enhanced geothermal systems |
 | [Fluence](https://fluenceenergy.com/) | USA | integrator, service | Lithium-ion battery energy storage; Smart grids, microgrids and virtual power plants |
+| [Fuji Electric](https://www.fujielectric.com) | Japan | oem | Geothermal (flash and binary cycle) |
 | [GE Vernova](https://www.gevernova.com) | USA | oem, service | Mobile gas turbine power plants; Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Cogeneration and combined heat and power; Hydropower; HVDC transmission and interconnectors |
 | [GE Vernova Hitachi Nuclear Energy](https://www.gevernova.com/nuclear) | USA | oem | Small modular reactors; Large light-water reactors |
 | [Goldwind](https://www.goldwind.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom) |
@@ -337,12 +344,17 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [HolosGen](https://holosgen.com) | USA | developer | Microreactors (transportable nuclear) |
 | [Hydrostor](https://www.hydrostor.ca/) | Canada | developer | Compressed and liquid air energy storage |
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Large light-water reactors |
+| [IHI Corporation](https://www.ihi.co.jp) | Japan | oem | Combined cycle and HRSG |
 | [INNIO Jenbacher](https://www.jenbacher.com) | Austria | oem | Gas engines; Modular reciprocating engine power plants; Cogeneration and combined heat and power |
 | [Invinity Energy Systems](https://invinity.com/) | United Kingdom | oem | Flow batteries (vanadium, zinc-bromine) |
+| [ITER Organization](https://www.iter.org) | France | developer | Fusion |
 | [JA Solar](https://www.jasolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
+| [JERA](https://www.jera.co.jp) | Japan | operator | Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines |
 | [JinkoSolar](https://www.jinkosolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
+| [Kairos Power](https://kairospower.com) | USA | developer, oem | Advanced reactors (high-temperature gas, molten salt) |
 | [Karpowership](https://karpowership.com) | Turkey | operator, packager | Powerships and power barges |
 | [KEPCO E&C](https://www.kepco-enc.com) | South Korea | epc | Large light-water reactors |
+| [KHNP](https://www.khnp.co.kr) | South Korea | operator | Large light-water reactors |
 | [Kraftblock](https://www.kraftblock.com/) | Germany | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | HVDC transmission and interconnectors |
@@ -352,21 +364,28 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Oklo](https://oklo.com) | USA | developer, operator | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [Orbital Marine Power](https://www.orbitalmarine.com) | United Kingdom | oem, developer | Tidal and wave energy |
 | [Ormat](https://www.ormat.com) | USA | oem, operator | Modular ORC units for waste heat and small geothermal; Geothermal (flash and binary cycle) |
+| [Oxford PV](https://www.oxfordpv.com) | UK | oem, supplier | Perovskite and tandem solar cells |
 | [Polar Night Energy](https://polarnightenergy.com/) | Finland | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [Power Barge Corporation](https://powerbargecorp.com) | USA | packager | Powerships and power barges |
 | [PR Power](https://www.prpower.com.au) | Australia | rental, supplier | Containerised hybrid power modules (solar, storage, gensets) |
+| [Principle Power](https://www.principlepower.com) | France | developer, service | Floating offshore wind |
 | [PROENERGY](https://www.proenergyservices.com) | USA | oem, packager, service | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines |
 | [Rolls-Royce Power Systems (mtu)](https://www.mtu-solutions.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Cogeneration and combined heat and power |
 | [Rolls-Royce SMR](https://www.rolls-royce-smr.com) | United Kingdom | oem, developer | Small modular reactors |
 | [Rondo Energy](https://www.rondo.com/) | USA | oem | Thermal energy storage (molten salt, sand, bricks) |
+| [Rongke Power](https://www.rongkepower.com) | China | oem, supplier | Flow batteries (vanadium, zinc-bromine) |
 | [Schneider Electric](https://www.se.com) | France | oem, integrator | Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
 | [Siemens Energy](https://www.siemens-energy.com) | Germany | oem, service | Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Mobile gas turbine power plants; HVDC transmission and interconnectors; Grid-forming inverters and synchronous condensers |
 | [Siemens Gamesa](https://www.siemensgamesa.com) | Spain | oem, service | Offshore wind (fixed bottom); Onshore wind |
 | [SMA](https://www.sma.de/en/company) | Germany | oem | Grid-forming inverters and synchronous condensers; Crystalline silicon PV (PERC, TOPCon, HJT) |
+| [Solar Turbines](https://www.solarturbines.com) | USA | oem, service | Aeroderivative and industrial gas turbines |
 | [SolarContainer](https://www.solarcontainer.one) | Austria | oem, packager | Containerised hybrid power modules (solar, storage, gensets) |
+| [SolarReserve](https://www.solarreserve.com) | USA | developer, operator | Concentrated solar power with storage |
+| [Sumitomo SHI FW](https://shi-fw.com) | Finland | oem, service | Biomass and waste-to-energy; Combined cycle and HRSG |
 | [Sungrow](https://www.sungrowpower.com/) | China | oem | Lithium-ion battery energy storage; Floating solar; Grid-forming inverters and synchronous condensers |
 | [TerraPower](https://terrapower.com) | USA | developer | Advanced reactors (high-temperature gas, molten salt) |
 | [Tesla Energy](https://www.tesla.com/megapack) | USA | oem | Lithium-ion battery energy storage |
+| [Tokamak Energy](https://tokamakenergy.com) | UK | developer | Fusion |
 | [Trina Solar](https://www.trinasolar.com) | China | oem, supplier | Crystalline silicon PV (PERC, TOPCon, HJT); Lithium-ion battery energy storage |
 | [Turboden](https://www.turboden.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
 | [USP&E Global](https://uspeglobal.com) | USA | epc, rental, operator, service | Modular reciprocating engine power plants; Mobile gas turbine power plants; Containerised hybrid power modules (solar, storage, gensets) |
@@ -401,6 +420,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [JGC Group](https://www.jgc.com) | Japan | epc | Crude and vacuum distillation with heat integration |
 | [KBC (Yokogawa)](https://www.kbc.global) | United Kingdom | supplier | Process simulation and digital twins |
+| [Koch-Glitsch](https://kochglitsch.com) | USA | oem, supplier | Crude and vacuum distillation with heat integration |
 | [LanzaJet](https://www.lanzajet.com) | USA | licensor, developer | Alcohol-to-jet SAF |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Delayed coking and fluid coking; Fluid catalytic cracking and resid FCC; Direct crude cracking; Etherification (MTBE, ETBE, TAME) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Mercaptan sweetening (Merox) |
@@ -419,6 +439,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [Alfa Laval](https://www.alfalaval.com) | Sweden | oem, supplier | Shell-and-tube, plate and printed-circuit heat exchangers |
 | [American Marsh Pumps](https://www.americanmarsh.com) | USA | oem | Centrifugal and positive displacement pumps |
 | [Ashton Seals](https://www.ashtonseals.co.uk) | United Kingdom | supplier | Mechanical seals, magnetic bearings and integrated motor-compressors |
 | [ClearSign Technologies](https://clearsign.com) | USA | oem | Fired heaters and low-NOx burners |
@@ -435,6 +456,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [MHI Compressor (MCO-I)](https://www.mhi.com) | USA | oem | Centrifugal and axial compressors |
 | [Omniseal Solutions](https://www.omnisealsolutions.com) | Belgium | oem | Mechanical seals, magnetic bearings and integrated motor-compressors |
 | [Shanghai Electric](https://www.shanghai-electric.com) | China | oem | Steam turbines and expanders |
+| [Solar Turbines](https://www.solarturbines.com) | USA | oem, service | Centrifugal and axial compressors |
 | [SPX Cooling Technologies](https://spxcooling.com) | USA | oem | Air coolers and cooling towers |
 | [Sulzer](https://www.sulzer.com) | Switzerland | oem | Centrifugal and positive displacement pumps |
 | [Velan](https://www.velan.com) | Canada | oem | Valves and actuators |
@@ -526,14 +548,10 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).
 Adding a record for one of them is the next batch of this directory.
 
-- **CCS** (12): Blue Planet; CarbonCure; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
-- **DIG** (1): Yokogawa
-- **GAS** (2): RasGas / Qatargas (operators); Worley Comprimo
-- **INS** (1): Yokogawa
+- **CCS** (11): Blue Planet; CarbonCure; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
+- **GAS** (1): RasGas / Qatargas (operators)
 - **MID** (2): Governments; Terminal operators
-- **PWR** (16): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy
-- **REF** (5): Axens/Technip Energies; Bechtel/Foster Wheeler (Amec); EPC contractors (process designed by refiner or contractor); Koch-Glitsch; Yokogawa
-- **ROT** (2): Alfa Laval; Koch-Glitsch
+- **REF** (3): Axens/Technip Energies; Bechtel/Foster Wheeler (Amec); EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-269 of 299 cards list at least one directory vendor.
+271 of 299 cards list at least one directory vendor.

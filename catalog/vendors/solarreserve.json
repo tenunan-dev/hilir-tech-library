@@ -1,0 +1,24 @@
+{
+  "id": "solarreserve",
+  "name": "SolarReserve",
+  "country": "USA",
+  "roles": [
+    "developer",
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "CSP plant developer-operator best known for the 110 MW Crescent Dunes molten-salt tower plant (Nevada) and thereddstone projects; recorded as the CSP reference operator named on the card.",
+  "technologies": [
+    "pwr-concentrated-solar-power"
+  ],
+  "url": "https://www.solarreserve.com",
+  "sources": [
+    {
+      "url": "https://www.solarreserve.com",
+      "note": "Project portfolio search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

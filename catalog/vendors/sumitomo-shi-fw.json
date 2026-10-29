@@ -1,0 +1,29 @@
+{
+  "id": "sumitomo-shi-fw",
+  "name": "Sumitomo SHI FW",
+  "country": "Finland",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Global circulating- and bubbling-fluidized-bed boiler OEM (500+ installations) formed when Sumitomo Heavy Industries acquired Amec Foster Wheeler's boiler business in 2017; active in biomass CFB and boiler fuel-conversion work (Apr 2026 collaboration wave with Babcock Power/IHI on low-carbon conversions).",
+  "technologies": [
+    "pwr-biomass-waste-to-energy",
+    "pwr-combined-cycle-hrsg"
+  ],
+  "url": "https://shi-fw.com",
+  "sources": [
+    {
+      "url": "https://shi-fw.com/who-we-are/our-heritage",
+      "note": "Heritage and CFB lines search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "SFW",
+    "Sumitomo Heavy Industries Foster Wheeler"
+  ]
+}

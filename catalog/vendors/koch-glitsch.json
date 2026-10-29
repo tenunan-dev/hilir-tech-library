@@ -1,0 +1,25 @@
+{
+  "id": "koch-glitsch",
+  "name": "Koch-Glitsch",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Wichita-based mass-transfer specialist (Koch Industries) supplying trays, structured and random packings, tower internals and mist eliminators for distillation, absorption and separation columns across refining and petrochemicals.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "pch-steam-cracking"
+  ],
+  "url": "https://kochglitsch.com",
+  "sources": [
+    {
+      "url": "https://kochglitsch.com",
+      "note": "Vendor identity search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

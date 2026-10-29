@@ -1,0 +1,27 @@
+{
+  "id": "iter-org",
+  "name": "ITER Organization",
+  "country": "France",
+  "roles": [
+    "developer"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "The international fusion megaproject at Cadarache assembling the world's largest tokamak (500 MW output target, first plasma re-baselined); not a company but recorded because cards name it as the reference fusion programme.",
+  "technologies": [
+    "pwr-fusion"
+  ],
+  "url": "https://www.iter.org",
+  "sources": [
+    {
+      "url": "https://www.iter.org",
+      "note": "Project identity search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "notes": "Organisation, not a commercial vendor - kept so card supplier strings resolve.",
+  "aliases": [
+    "ITER"
+  ]
+}

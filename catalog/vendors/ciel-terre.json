@@ -1,0 +1,27 @@
+{
+  "id": "ciel-terre",
+  "name": "Ciel & Terre",
+  "country": "France",
+  "roles": [
+    "developer",
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "French floating-solar specialist whose Hydrelio float system anchors utility-scale PV on reservoirs and industrial water bodies; 1.5+ GW referenced worldwide.",
+  "technologies": [
+    "pwr-floating-solar"
+  ],
+  "url": "https://www.ciel-et-terre.net",
+  "sources": [
+    {
+      "url": "https://www.ciel-et-terre.net",
+      "note": "Hydrelio platform search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Hydrelio"
+  ]
+}

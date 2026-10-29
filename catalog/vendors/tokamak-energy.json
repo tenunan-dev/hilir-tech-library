@@ -1,0 +1,23 @@
+{
+  "id": "tokamak-energy",
+  "name": "Tokamak Energy",
+  "country": "UK",
+  "roles": [
+    "developer"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "UK company developing spherical tokamaks: ST40 reached 100 million degrees C in 2022; a US-UK partnership funds a 52m-dollar ST40 upgrade with a lithium first wall; commercial pilot plant targeted for the 2030s.",
+  "technologies": [
+    "pwr-fusion"
+  ],
+  "url": "https://tokamakenergy.com",
+  "sources": [
+    {
+      "url": "https://tokamakenergy.com",
+      "note": "ST40 record and upgrade search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

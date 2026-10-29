@@ -1,0 +1,26 @@
+{
+  "id": "commonwealth-fusion",
+  "name": "Commonwealth Fusion Systems",
+  "country": "USA",
+  "roles": [
+    "developer"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "MIT-spinout building SPARC, a compact high-field tokamak using high-temperature superconducting magnets (~80 percent complete as of 2026), followed by the ~400 MW ARC grid plant.",
+  "technologies": [
+    "pwr-fusion"
+  ],
+  "url": "https://cfs.energy",
+  "sources": [
+    {
+      "url": "https://cfs.energy",
+      "note": "SPARC/ARC programme search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "CFS"
+  ]
+}

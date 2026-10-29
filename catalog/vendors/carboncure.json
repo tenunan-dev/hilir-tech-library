@@ -3,9 +3,13 @@
   "name": "CarbonCure Technologies",
   "country": "Canada",
   "roles": [
-    "oem"
+    "oem",
+    "supplier"
   ],
-  "description": "Halifax company retrofitting ready-mix concrete plants to inject captured CO2, which mineralises and strengthens concrete.",
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Halifax company retrofitting ready-mix concrete plants to dose captured CO2 into fresh concrete, where it mineralises to calcium carbonate nanoparticles; 50 million cubic yards delivered by Mar 2024, sold as Carbon-as-a-Service hardware.",
   "technologies": [
     "ccs-co2-concrete"
   ],
@@ -13,11 +17,8 @@
   "sources": [
     {
       "url": "https://www.carboncure.com",
-      "note": "Vendor site, read 2026-10-28"
+      "note": "Technology and scale search-verified via web search 2026-10-30"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "categories": [
-    "equipment-oem"
-  ]
+  "last_reviewed": "2026-10-30"
 }

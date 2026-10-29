@@ -1,0 +1,23 @@
+{
+  "id": "fuji-electric",
+  "name": "Fuji Electric",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Tokyo OEM supplying geothermal steam turbines (a leading global share), power electronics, and hydrogen/ammonia-related equipment.",
+  "technologies": [
+    "pwr-geothermal-flash-binary"
+  ],
+  "url": "https://www.fujielectric.com",
+  "sources": [
+    {
+      "url": "https://www.fujielectric.com",
+      "note": "Geothermal turbine line search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

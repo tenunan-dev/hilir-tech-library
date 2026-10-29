@@ -1,0 +1,26 @@
+{
+  "id": "solar-turbines",
+  "name": "Solar Turbines",
+  "country": "USA",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "San Diego gas-turbine OEM (Caterpillar subsidiary): Titan and Taurus industrial gas turbines for compression, power generation and mechanical drive across oil & gas.",
+  "technologies": [
+    "pwr-aeroderivative-turbines",
+    "rot-centrifugal-axial-compressors"
+  ],
+  "url": "https://www.solarturbines.com",
+  "sources": [
+    {
+      "url": "https://www.solarturbines.com",
+      "note": "Product family search-verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "notes": "Caterpillar subsidiary - see also the caterpillar record if present."
+}
