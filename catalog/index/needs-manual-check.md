@@ -1,11 +1,10 @@
 # Needs a manual terms check
 
-24 sources whose terms page could not be read automatically.
+23 sources whose terms page could not be read automatically.
 
 | Source | Current reuse level | Finding |
 | --- | --- | --- |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | full-text-restricted | Terms link not found by fetch tool on 2026-10-23. |
-| [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | full-text-restricted | Terms link not found by fetch tool on 2026-10-23; check manually. |
 | [SLB Capturi (formerly Aker Carbon Capture)](https://www.slbcapturi.com/) | full-text-restricted | robots.txt disallows automated fetch; check manually. |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | full-text-open | PATENTSCOPE rendered empty to the fetch tool on 2026-10-23; ASEAN path also unconfirmed. |
 | [AspenTech](https://www.aspentech.com/) | full-text-restricted | Terms page blocked to automated fetch (robots disallow) on 2026-10-23; check manually. |

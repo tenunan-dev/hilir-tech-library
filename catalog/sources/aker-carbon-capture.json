@@ -19,7 +19,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "robots.txt disallows automated fetch; check manually. Evidence: https://www.slbcapturi.com/",
+  "notes": "robots.txt disallows automated fetch; check manually. Evidence: https://www.slbcapturi.com/ DOMAIN DEAD 2026-10-29: slbcapturi.com no longer resolves; capturi.com/.dk squatted (unrelated AI/Danish web firm). Brand absorbed into SLB after the 2024 acquisition; find replacement page under slb.com before citing.",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": "2026-10-29"
 }

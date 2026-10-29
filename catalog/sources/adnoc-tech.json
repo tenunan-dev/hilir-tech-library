@@ -23,7 +23,7 @@
   "reuse_level": "summary-only",
   "quality_tier": 3,
   "update_frequency": "monthly",
-  "notes": "Al Reyadah CCUS.",
+  "notes": "Al Reyadah CCUS. 2026-10-29: adnoc.ae 403s plain fetchers (bot-walled) - needs browser/reader pass.",
   "verification": "unverified",
   "last_verified": null
 }

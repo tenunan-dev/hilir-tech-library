@@ -278,3 +278,10 @@
 {"id": "sg-mpa", "evidence": "https://www.mpa.gov.sg", "finding": "Read 2026-10-29: regulator; bunkering under Marine Services; licensing + research/statistics sections."}
 {"id": "nersa", "evidence": "https://www.nersa.org.za", "finding": "Read 2026-10-29: electricity/piped-gas/petroleum-pipelines regulator; open tariff results, licence notices, manuals."}
 {"id": "au-gsq", "evidence": "https://geoscience.data.qld.gov.au", "finding": "2026-10-29 via web search: GSQ open-data portal (CSG/coal/petroleum reports); resources.qld.gov.au 403 plain fetch, reader failed; data.qld.gov.au hosts CSG water datasets."}
+{"id": "adipec", "evidence": "https://www.adipec.com/", "finding": "Read 2026-10-29: ADIPEC 2026 dmg events/ADNOC/SPE; no open proceedings visible."}
+{"id": "afpm", "evidence": "https://www.afpm.org/", "finding": "Read 2026-10-29: trade association, statistics + technical papers, member gating on some resources."}
+{"id": "aiche-ccps", "evidence": "https://www.aiche.org/ccps", "finding": "Read 2026-10-29 (reader): CCPS center description, free monographs, paid books via Knovel."}
+{"id": "aiche-spring", "evidence": "https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety", "finding": "Read 2026-10-29 (reader): annual conference series page with 2026-2028 editions."}
+{"id": "air-products-tech", "evidence": "https://www.airproducts.com", "finding": "Read 2026-10-29 (reader): homepage structure; /about-us 404 - homepage is the entry."}
+{"id": "aep-journal", "evidence": "https://connectsci.au/ep/pages/about-the-journal", "finding": "2026-10-29 via web search: renamed Australian Energy Producers Journal (2024), CSIRO Publishing moved hosting; old publish.csiro.au/ep 404s after redirect."}
+{"id": "aker-carbon-capture", "evidence": "https://www.slbcapturi.com/", "finding": "2026-10-29: slbcapturi.com DNS fails; capturi.com -> Puzzel (AI co), capturi.dk parked. Brand absorbed into SLB; needs slb.com replacement."}

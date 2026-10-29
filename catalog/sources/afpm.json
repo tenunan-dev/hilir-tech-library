@@ -22,7 +22,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Annual meeting papers sold; Q&A transcripts.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Annual meeting papers sold; Q&A transcripts. Verified 2026-10-29: AFPM is a DC trade association; statistics/technical papers/meetings on site, some member-gated.",
+  "verification": "verified",
+  "last_verified": "2026-10-29"
 }

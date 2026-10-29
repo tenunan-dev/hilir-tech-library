@@ -54,13 +54,13 @@
 | Value | Sources |
 | --- | --- |
 | full-text-restricted | 133 |
-| summary-only | 112 |
+| summary-only | 113 |
 | full-text-open | 78 |
-| catalog-only | 71 |
+| catalog-only | 70 |
 
 ## By verification
 
 | Value | Sources |
 | --- | --- |
-| verified | 201 |
-| unverified | 193 |
+| verified | 207 |
+| unverified | 187 |

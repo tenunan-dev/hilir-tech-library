@@ -1,7 +1,7 @@
 {
   "id": "aep-journal",
-  "name": "Australian Energy Producers Journal (CSIRO Publishing)",
-  "url": "https://www.publish.csiro.au/ep",
+  "name": "Australian Energy Producers Journal",
+  "url": "https://connectsci.au/ep",
   "source_type": "journal",
   "sectors": [
     "UPS",
@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "notes": "Some OA papers under CC BY.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Some OA papers under CC BY. Fixed 2026-10-29: APPEA Journal renamed Australian Energy Producers Journal (2024); CSIRO Publishing path 404s, journal now at connectsci.au/ep (search-verified).",
+  "verification": "verified",
+  "last_verified": "2026-10-29"
 }

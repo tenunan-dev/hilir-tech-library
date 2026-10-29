@@ -22,6 +22,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "notes": " Verified 2026-10-29 (reader; plain fetch 403): annual Spring Meeting + Global Congress on Process Safety (2026 Houston, 2027 OKC, 2028 Dallas)."
 }

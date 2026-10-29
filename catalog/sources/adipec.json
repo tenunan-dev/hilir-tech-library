@@ -25,7 +25,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "Technical papers in OnePetro.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Technical papers in OnePetro. Verified 2026-10-29: ADIPEC 2026 (2-5 Nov, ADNEC), organizer dmg events, ADNOC host, SPE organizes the technical conference; content curated/invited, no open proceedings visible.",
+  "verification": "verified",
+  "last_verified": "2026-10-29"
 }

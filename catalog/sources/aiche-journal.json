@@ -22,5 +22,6 @@
   "quality_tier": 1,
   "update_frequency": "monthly",
   "verification": "unverified",
-  "last_verified": null
+  "last_verified": null,
+  "notes": " 2026-10-29: Wiley-hosted journal page not yet fetched this sweep (queued)."
 }

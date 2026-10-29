@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Terms link not found by fetch tool on 2026-10-23; check manually. Evidence: https://www.airproducts.com/",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Terms link not found by fetch tool on 2026-10-23; check manually. Evidence: https://www.airproducts.com/ Verified 2026-10-29 (reader; /about-us 404s - use homepage): gas supply modes, hydrogen/syngas, open technology pages.",
+  "verification": "verified",
+  "last_verified": "2026-10-29"
 }
