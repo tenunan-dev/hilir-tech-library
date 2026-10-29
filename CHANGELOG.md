@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.1] — 2026-10-29 — Wave 4 verified: 91 process gaps closed, register 905 → 830
+
+### Changed
+- Flash workers restored (agent model-account fix); four serial verification batches ran per-page article checks over the 111 Wave-4 kept leads, closing 91 general-knowledge process gaps whose attached Wikipedia authorities genuinely cover the card's process descriptions (each closed gap cites its article as a marked secondary source). 20 honest keeps with per-article scope shortfalls recorded.
+- 28 arXiv full-text PDFs downloaded and converted to corpus-markdown drafts in corpus/_inbox/arxiv-fulltext/ (intake next session).
+
 ## [2026.10.27.14] — 2026-10-28 — vendor directory complete (378), Wave 4 executed, citation binding, terms-check pass
 
 ### Added
