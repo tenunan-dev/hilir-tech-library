@@ -1,0 +1,28 @@
+{
+  "id": "cpecc",
+  "name": "CPECC",
+  "country": "China",
+  "roles": [
+    "epc"
+  ],
+  "categories": [
+    "plant-epc"
+  ],
+  "description": "China Petroleum Engineering & Construction Corporation, CNPC's engineering-and-construction arm (est. 1962, Beijing): China's largest oil-engineering lump-sum EPC contractor for refineries, pipelines and gas infrastructure, ranked No. 4 in ENR's global oil & gas contractors; active across Iraq and the Middle East with subsidiaries incl. CPECC Canada.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "gas-amine-agr",
+    "mid-high-strength-steel-pipelines"
+  ],
+  "url": "https://www.cpecc.com",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/China_Petroleum_Engineering_%26_Construction_Corporation",
+      "note": "Wikipedia profile surfaced in web search 2026-10-29 (secondary); CNPC affiliation ENR ranking via search"
+    }
+  ],
+  "aliases": [
+    "China Petroleum Engineering & Construction Corporation"
+  ],
+  "last_reviewed": "2026-10-29"
+}

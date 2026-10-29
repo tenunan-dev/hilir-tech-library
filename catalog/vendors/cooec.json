@@ -1,0 +1,31 @@
+{
+  "id": "cooec",
+  "name": "CNOOC Engineering (COOEC)",
+  "country": "China",
+  "roles": [
+    "epc"
+  ],
+  "categories": [
+    "offshore-epc",
+    "fabrication"
+  ],
+  "description": "Offshore oil engineering arm of CNOOC Group (Shanghai 600583, HQ Tianjin Binhai): design and construction of offshore platforms and offshore EPC, expanding into clean energy such as CCUS. Sister services company CNOOC Energy Technology & Services (600968) provides the group's one-stop production services.",
+  "technologies": [
+    "ups-fixed-jackets-gravity-structures",
+    "ups-fpso-floating-production",
+    "ccs-co2-compression-dehydration"
+  ],
+  "url": "https://www.cnoocengineering.com",
+  "sources": [
+    {
+      "url": "https://www.cnoocengineering.com",
+      "note": "Company identity verified via web search 2026-10-29 (COOEC, 600583, Tianjin)"
+    }
+  ],
+  "aliases": [
+    "COOEC",
+    "Offshore Oil Engineering Co.",
+    "CNOOC Energy Technology & Services"
+  ],
+  "last_reviewed": "2026-10-29"
+}

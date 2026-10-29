@@ -1,0 +1,30 @@
+{
+  "id": "petrofac",
+  "name": "Petrofac",
+  "country": "UK",
+  "roles": [
+    "epc",
+    "service"
+  ],
+  "categories": [
+    "plant-epc",
+    "engineering-consultancy"
+  ],
+  "description": "International energy-services company (est. 1981, 8,500 staff, 30+ offices) designing, building, managing and maintaining oil, gas, refining and new-energies infrastructure, plus training services. UNDER ADMINISTRATION since 28 Oct 2025 (joint administrators appointed over Petrofac Limited); Petrofac Emirates sold to a Mason Capital-led consortium (May 2026) and a new board announced Jul 2026 - record kept for the reference base and historical projects.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "ups-fpso-floating-production",
+    "gas-amine-agr"
+  ],
+  "url": "https://www.petrofac.com",
+  "sources": [
+    {
+      "url": "https://www.petrofac.com",
+      "note": "Vendor site, read 2026-10-29 (administration notice in footer)"
+    }
+  ],
+  "aliases": [
+    "Petrofac Limited"
+  ],
+  "last_reviewed": "2026-10-29"
+}

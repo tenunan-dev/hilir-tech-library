@@ -1,0 +1,32 @@
+{
+  "id": "wood",
+  "name": "Wood",
+  "country": "UK",
+  "roles": [
+    "epc",
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy",
+    "plant-epc"
+  ],
+  "description": "Scottish engineering and operations company (John Wood Group; registered Aberdeen) delivering projects, modifications, O&M, subsea, asset-integrity, automation and clean-energy services across oil & gas, refining, chemicals and power through the asset lifecycle. Merged with Amic Foster Wheeler in 2017.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "ups-fpso-floating-production",
+    "pch-steam-cracking"
+  ],
+  "url": "https://www.woodplc.com",
+  "sources": [
+    {
+      "url": "https://www.woodgroup.com/what-we-do",
+      "note": "Legacy Wood Group service pages read via reader tool 2026-10-29 (woodplc.com 301s to woodgroup.com; plain fetch of woodgroup.com 403s)"
+    }
+  ],
+  "aliases": [
+    "Wood Group",
+    "Wood plc",
+    "Amec Foster Wheeler"
+  ],
+  "last_reviewed": "2026-10-29"
+}

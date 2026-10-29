@@ -3,27 +3,26 @@
   "name": "Fluor",
   "country": "USA",
   "roles": [
-    "epc",
-    "licensor"
+    "epc"
   ],
-  "description": "US EPC major and licensor of the Econamine FG+ amine capture process.",
+  "categories": [
+    "plant-epc"
+  ],
+  "description": "US EPC major (NYSE FLR) delivering engineering, procurement, construction and O&M across Energy Solutions (traditional and emerging energy, chemicals), Mining & Metals, Life Sciences and infrastructure - ~23,500 employees in 40+ locations. Recent energy work: FEED for a Bahrain petrochemical facility, a long-term Aramco agreement, and selection for LNG Canada Phase 2.",
   "technologies": [
-    "ccs-amine-post-combustion"
+    "ref-cdu-vdu",
+    "pch-steam-cracking",
+    "gas-electric-drive-lng"
   ],
   "url": "https://www.fluor.com",
   "sources": [
     {
       "url": "https://www.fluor.com",
-      "note": "Vendor site, read 2026-10-28"
+      "note": "Vendor site, read 2026-10-29"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "products": [
-    "Econamine FG+"
+  "aliases": [
+    "Fluor Corporation"
   ],
-  "categories": [
-    "plant-epc",
-    "process-licensor",
-    "equipment-oem"
-  ]
+  "last_reviewed": "2026-10-29"
 }

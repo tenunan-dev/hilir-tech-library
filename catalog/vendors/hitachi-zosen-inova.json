@@ -18,8 +18,9 @@
   ],
   "last_reviewed": "2026-10-26",
   "aliases": [
-    "Hitachi Zosen INOVA",
     "HZI",
+    "Hitachi Zosen INOVA",
+    "Hitachi Zosen Inova",
     "Kanadevia Inova"
   ],
   "products": [
@@ -28,7 +29,7 @@
     "Kanadevia Inova Pulse digital platform"
   ],
   "url": "https://www.kanadevia-inova.com",
-  "notes": "hz-inova.com 301-redirects to kanadevia-inova.com.",
+  "notes": "hz-inova.com 301-redirects to kanadevia-inova.com. Renamed Kanadevia Inova in 2025 after Hitachi Zosen became Kanadevia.",
   "categories": [
     "plant-epc",
     "equipment-oem"

@@ -5,24 +5,24 @@
   "roles": [
     "epc"
   ],
-  "description": "US EPC giant: LNG plants, refineries, sour-water units, and builder of the Jamnagar complex.",
+  "categories": [
+    "plant-epc",
+    "fabrication"
+  ],
+  "description": "US EPC and project-management giant (privately held, est. 1898, 25,000+ projects in 160 countries): LNG (~30% of global capacity built incl. Curtis Island and Port Arthur LNG), nuclear (Vogtle 3&4, the first new US reactors in 30 years), waste vitrification (Hanford), mining, infrastructure and defense.",
   "technologies": [
-    "lng-optimized-cascade",
-    "ref-sour-water-stripping"
+    "gas-electric-drive-lng",
+    "pwr-large-light-water-reactors"
   ],
   "url": "https://www.bechtel.com",
   "sources": [
     {
       "url": "https://www.bechtel.com",
-      "note": "Vendor site, read 2026-10-28"
+      "note": "Vendor site, read 2026-10-29"
     }
   ],
-  "last_reviewed": "2026-10-28",
   "aliases": [
-    "Bechtel/Foster Wheeler (Amec)"
+    "Bechtel Corporation"
   ],
-  "categories": [
-    "plant-epc",
-    "equipment-oem"
-  ]
+  "last_reviewed": "2026-10-29"
 }

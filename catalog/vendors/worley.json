@@ -3,26 +3,29 @@
   "name": "Worley",
   "country": "Australia",
   "roles": [
-    "epc"
+    "epc",
+    "service"
   ],
-  "description": "Australian EPC and consulting group (formerly WorleyParsons, including the Comprimo sulfur-recovery lineage).",
+  "categories": [
+    "engineering-consultancy",
+    "plant-epc"
+  ],
+  "description": "Sydney-headquartered project-delivery and professional-services group (ASX WOR) for energy, chemicals and resources: EPC/EPCM, consulting, FEED, fabrication and O&M - 28,200+ delivered projects, hubs in Calgary, Houston, Santiago, London and Perth; long partnerships with Suncor, Shell, Woodside, bp, Aramco and Chevron. Specialist units include Worley Chemetics and Worley Comprimo.",
   "technologies": [
+    "ref-cdu-vdu",
+    "pch-steam-cracking",
     "gas-sulfur-recovery"
   ],
   "url": "https://www.worley.com",
   "sources": [
     {
       "url": "https://www.worley.com",
-      "note": "Vendor site, read 2026-10-28"
+      "note": "Vendor site, read 2026-10-29"
     }
   ],
-  "last_reviewed": "2026-10-28",
   "aliases": [
-    "Worley Comprimo",
+    "Worley Group",
     "WorleyParsons"
   ],
-  "categories": [
-    "plant-epc",
-    "equipment-oem"
-  ]
+  "last_reviewed": "2026-10-29"
 }

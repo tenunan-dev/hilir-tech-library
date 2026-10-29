@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-390 vendor records covering 249 technologies. One record per vendor in
+394 vendor records covering 248 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -16,11 +16,11 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Carbon Recycling International](https://carbonrecycling.com) | Iceland | operator | CO2 to methanol and fuels |
 | [CarbonCure Technologies](https://www.carboncure.com) | Canada | oem | CO2 to concrete and aggregates |
 | [Climeworks](https://climeworks.com) | Switzerland | developer, operator | Direct air capture with solid sorbent |
+| [CNOOC Engineering (COOEC)](https://www.cnoocengineering.com) | China | epc | CO2 compression and dehydration |
 | [Covestro](https://www.covestro.com) | Germany | oem | CO2 to urea and polymers |
 | [Drax Group](https://www.drax.com) | United Kingdom | operator, developer | Bioenergy with CCS (BECCS) |
 | [Exomad Green](https://www.exomadgreen.com) | Bolivia | oem | Biochar |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Molten carbonate fuel cell capture |
-| [Fluor](https://www.fluor.com) | USA | epc, licensor | Amine solvent post-combustion capture |
 | [FuelCell Energy](https://fuelcellenergy.com) | USA | oem | Molten carbonate fuel cell capture |
 | [MTR Carbon Capture](https://mtrcc.com) | USA | developer | Polymeric membrane capture |
 | [NET Power](https://www.netpower.com) | USA | developer | Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power) |
@@ -56,16 +56,18 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
-| [Bechtel](https://www.bechtel.com) | USA | epc | Cascade liquefaction |
+| [Bechtel](https://www.bechtel.com) | USA | epc | Electric-drive liquefaction (e-LNG) |
 | [Black & Veatch](https://www.bv.com) | USA | epc | Small and mid-scale modular LNG |
 | [Chart Industries](https://www.chartindustries.com) | USA | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers); Small and mid-scale modular LNG |
 | [Chevron Australia](https://www.chevron.com.au) | Australia | operator | Carbon capture on LNG plants (acid gas reinjection) |
 | [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | developer, epc, licensor | Electric-drive liquefaction (e-LNG) |
 | [Clean Energy Fuels](https://www.cleanenergyfuels.com) | USA | operator | Compressed natural gas and LNG as vehicle fuel |
 | [ConocoPhillips](https://www.conocophillips.com) | USA | operator, developer | Cascade liquefaction |
+| [CPECC](https://www.cpecc.com) | China | epc | Amine acid gas removal (MDEA, formulated amines) |
 | [Enerflex](https://www.enerflex.com) | Canada | oem, service | NGL fractionation and LPG recovery |
 | [Excelerate Energy](https://www.excelerateenergy.com) | USA | operator | Floating storage and regasification units (FSRU) |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Amine acid gas removal (MDEA, formulated amines); Carbon capture on LNG plants (acid gas reinjection); Gas-to-methanol and methanol-to-gasoline |
+| [Fluor](https://www.fluor.com) | USA | epc | Electric-drive liquefaction (e-LNG) |
 | [Freeport LNG](https://www.freeportlng.com) | USA | operator | Electric-drive liquefaction (e-LNG) |
 | [FueLNG](https://www.fuelng.com) | Singapore | operator | LNG bunkering |
 | [Golar LNG](https://www.golarlng.com) | United Kingdom | operator | Floating LNG (FLNG); Floating storage and regasification units (FSRU) |
@@ -76,14 +78,16 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [JGC Group](https://www.jgc.com) | Japan | epc | Electric-drive liquefaction (e-LNG); Floating LNG (FLNG) |
 | [Kobe Steel](https://www.kobelco.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [KT Tech](https://www.kttech.co.kr) | South Korea | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
+| [McDermott](https://www.mcdermott.com) | USA | epc, oem | Floating LNG (FLNG); Electric-drive liquefaction (e-LNG) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Liquid redox sulfur recovery (LO-CAT) |
+| [Petrofac](https://www.petrofac.com) | UK | epc, service | Amine acid gas removal (MDEA, formulated amines) |
 | [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Gas-to-methanol and methanol-to-gasoline |
 | [Sasol](https://www.sasol.com) | South Africa | operator | Gas-to-liquids (Fischer-Tropsch) |
 | [Sumitomo Precision Products](https://www.spp.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [Titan LNG](https://titan-lng.com) | Netherlands | operator | Bio-LNG and liquefied biomethane |
 | [TotalEnergies](https://totalenergies.com) | France | operator | LNG bunkering |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Floating LNG (FLNG); Small and mid-scale modular LNG |
-| [Worley](https://www.worley.com) | Australia | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
+| [Worley](https://www.worley.com) | Australia | epc, service | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
 
 ## H2: Hydrogen and low-carbon fuels
 
@@ -203,6 +207,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [AP Sensing](https://www.apsensing.com) | Germany | oem | Leak detection (CPM, fibre optic DAS and DTS) |
 | [ChampionX](https://www.championx.com) | USA | supplier | Hydrate, wax and asphaltene management (inhibitors, heating, pigging) |
 | [Corrpro](https://www.corrpro.com) | USA | service | Cathodic protection and coatings (FBE, 3LPE) |
+| [CPECC](https://www.cpecc.com) | China | epc | High-strength steel pipelines and automatic welding |
 | [CRC-Evans](https://www.crc-evans.com) | USA | oem | High-strength steel pipelines and automatic welding |
 | [Endress+Hauser](https://www.endress.com) | Switzerland | oem | Custody transfer metering (ultrasonic, Coriolis) |
 | [Gasunie](https://www.gasunie.nl) | Netherlands | operator | Hydrogen blending and repurposing of gas pipelines |
@@ -246,6 +251,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Dow](https://www.dow.com) | USA | oem, licensor | Ethylene oxide and glycols; Propylene oxide (HPPO, PO/SM) |
 | [Evonik and thyssenkrupp Uhde (HPPO alliance)](https://www.evonik.com) | Germany | licensor | Propylene oxide (HPPO, PO/SM) |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Toluene disproportionation and transalkylation |
+| [Fluor](https://www.fluor.com) | USA | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Fraunhofer Society](https://www.fraunhofer.de) | Germany | developer | Solvent-based purification of plastics |
 | [GIG Karasek](https://www.gigkarasek.at) | Austria | oem | Electrification of process heat (e-boilers, heat pumps) |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Aromatics complexes (paraxylene, benzene); Methanol-to-olefins (MTO, DMTO); Paraxylene adsorption and crystallisation; Propane dehydrogenation (Oleflex, CATOFIN); Toluene disproportionation and transalkylation |
@@ -273,6 +279,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Univation Technologies](https://www.univation.com) | USA | licensor | Polyethylene (gas phase, slurry, solution) |
 | [W. R. Grace](https://grace.com) | USA | supplier | Polypropylene (gas phase, bulk) |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Steam cracking (naphtha, ethane, LPG) |
+| [Wood](https://www.woodplc.com) | UK | epc, service | Steam cracking (naphtha, ethane, LPG) |
+| [Worley](https://www.worley.com) | Australia | epc, service | Steam cracking (naphtha, ethane, LPG) |
 
 ## PRC: Process systems
 
@@ -297,6 +305,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [APR Energy](https://www.aprenergy.com) | USA | rental, packager | Mobile gas turbine power plants |
 | [Babcock & Wilcox](https://babcock.com) | USA | oem | Biomass and waste-to-energy |
 | [Baker Hughes](https://www.bakerhughes.com/) | USA | oem, service | Aeroderivative and industrial gas turbines; Cogeneration and combined heat and power |
+| [Bechtel](https://www.bechtel.com) | USA | epc | Large light-water reactors |
 | [BoxPower](https://boxpower.io) | USA | packager, oem | Containerised hybrid power modules (solar, storage, gensets) |
 | [Bredenoord](https://www.bredenoord.com) | Netherlands | rental | Containerised hybrid power modules (solar, storage, gensets) |
 | [BWSC](https://www.bwsc.com) | Denmark | packager, epc | Powerships and power barges; Biomass and waste-to-energy |
@@ -336,6 +345,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [KEPCO E&C](https://www.kepco-enc.com) | South Korea | epc | Large light-water reactors |
 | [Kraftblock](https://www.kraftblock.com/) | Germany | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
+| [McDermott](https://www.mcdermott.com) | USA | epc, oem | HVDC transmission and interconnectors |
 | [Mitsubishi Power](https://power.mhi.com) | Japan | oem | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines; Mobile gas turbine power plants |
 | [NANO Nuclear Energy](https://www.nanonuclearenergy.com) | USA | developer | Microreactors (transportable nuclear) |
 | [NuScale Power](https://www.nuscalepower.com) | USA | oem | Small modular reactors |
@@ -375,13 +385,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | --- | --- | --- | --- |
 | [AVEVA](https://www.aveva.com) | United Kingdom | supplier | Process simulation and digital twins |
 | [Axens](https://www.axens.net) | France | licensor, supplier | Catalytic reforming (CCR, semi-regenerative) |
-| [Bechtel](https://www.bechtel.com) | USA | epc | Sour water stripping and amine regeneration |
 | [Cameron (SLB)](https://www.slbcameron.com) | USA | oem | Crude and vacuum distillation with heat integration |
 | [Chevron Lummus Global](https://www.chevronlummus.com) | USA | licensor | Crude-to-chemicals complexes; Direct crude cracking; Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Resid hydrocracking (ebullated and slurry bed) |
 | [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | developer, epc, licensor | Crude and vacuum distillation with heat integration |
+| [CPECC](https://www.cpecc.com) | China | epc | Crude and vacuum distillation with heat integration |
 | [Daelim](https://www.daelim.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [Eni](https://www.eni.com) | Italy | operator | Resid hydrocracking (ebullated and slurry bed) |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Delayed coking and fluid coking; Direct crude cracking; FCC gasoline post-treating (Prime-G+, SCANfining); Refinery flue gas and FCC carbon capture |
+| [Fluor](https://www.fluor.com) | USA | epc | Crude and vacuum distillation with heat integration |
 | [Gevo](https://gevo.com) | USA | oem | Alcohol-to-jet SAF |
 | [GS E&C](https://www.gsenc.com) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [GTC Technology](https://gtctech.com) | USA | licensor | Isomerisation (C5/C6) |
@@ -393,12 +404,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [LanzaJet](https://www.lanzajet.com) | USA | licensor, developer | Alcohol-to-jet SAF |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Delayed coking and fluid coking; Fluid catalytic cracking and resid FCC; Direct crude cracking; Etherification (MTBE, ETBE, TAME) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Mercaptan sweetening (Merox) |
+| [Petrofac](https://www.petrofac.com) | UK | epc, service | Crude and vacuum distillation with heat integration |
 | [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [Saudi Aramco](https://www.aramco.com) | Saudi Arabia | operator, developer | Direct crude cracking; Refinery-petrochemical integration (FCC propylene, HS-FCC); Crude-to-chemicals complexes |
 | [Sinopec](https://www.sinopecgroup.com/group/en/) | China | operator, developer, supplier | Crude and vacuum distillation with heat integration; Crude-to-chemicals complexes; Catalytic reforming (CCR, semi-regenerative) |
 | Sinopec Engineering Group | China | epc, licensor | Crude and vacuum distillation with heat integration; Crude-to-chemicals complexes |
 | [SK Ecoplant](https://www.skecplant.com) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Wastewater treatment (API separators, DAF, biological, MBR) |
+| [Wood](https://www.woodplc.com) | UK | epc, service | Crude and vacuum distillation with heat integration |
+| [Worley](https://www.worley.com) | Australia | epc, service | Crude and vacuum distillation with heat integration |
 | [Yokogawa Electric](https://www.yokogawa.com) | Japan | oem, integrator | Advanced process control and real-time optimisation |
 
 ## ROT: Rotating and static equipment
@@ -439,6 +453,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Cenovus Energy](https://www.cenovus.com) | Canada | operator | Thermal EOR (steam flood, SAGD, CSS) |
 | [Chevron](https://www.chevron.com) | USA | operator | Thermal EOR (steam flood, SAGD, CSS) |
 | [Cimarron Energy (Aereon)](https://aereon.com) | USA | oem, service | Flare gas recovery and zero routine flaring |
+| [CNOOC Engineering (COOEC)](https://www.cnoocengineering.com) | China | epc | Fixed jackets and gravity-based structures; FPSO and floating production (TLP, spar, semi-submersible) |
 | [CNPC](https://www.cnpc.com.cn) | China | operator, developer | Gas hydrate production |
 | [Cognite](https://www.cognite.com) | Norway | supplier | AI-assisted seismic interpretation and history matching; Production optimisation and digital oilfield |
 | [Computer Modelling Group](https://www.cmgl.ca) | Canada | supplier | Reservoir simulation (black oil, compositional, thermal) |
@@ -466,7 +481,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Liberty Energy](https://libertyenergy.com) | USA | service | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
 | [Liberty Lift Solutions](https://www.libertylift.com) | USA | service, supplier | Plunger lift and hydraulic jet pumps |
 | [Malaysia Marine and Heavy Engineering](https://www.mmhe.com.my) | Malaysia | epc, oem | Fixed jackets and gravity-based structures |
-| [McDermott International](https://www.mcdermott.com) | USA | epc | Fixed jackets and gravity-based structures |
+| [McDermott](https://www.mcdermott.com) | USA | epc, oem | Subsea production systems (trees, manifolds, umbilicals) |
 | [MISC Berhad](https://www.miscgroup.com) | Malaysia | operator, packager | FPSO and floating production (TLP, spar, semi-submersible) |
 | [MODEC Inc.](https://www.modec.com) | Japan | oem, operator | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Nabors Industries](https://www.nabors.com) | Bermuda | oem, service | Drilling automation and autonomous rigs |
@@ -476,6 +491,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Occidental Petroleum](https://www.oxy.com) | USA | operator, developer | CO2 enhanced oil recovery (miscible CO2 flooding); Thermal EOR (steam flood, SAGD, CSS) |
 | [Petrobank Energy and Resources](https://petrobank.ca) | Canada | developer | In-situ combustion and solvent-assisted SAGD; Heavy oil upgrading (in-field) |
 | [Petrobras](https://petrobras.com.br) | Brazil | operator | Oil shale retorting; Subsea separation and water reinjection |
+| [Petrofac](https://www.petrofac.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
 | [PETRONAS](https://www.petronas.com) | Malaysia | operator, developer | Chemical EOR (polymer and surfactant flooding) |
 | [PGS](https://www.pgs.com) | Norway | service | 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | [Project Canary](https://www.projectcanary.com) | USA | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
@@ -502,6 +518,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Weatherford International](https://www.weatherford.com) | USA | service, supplier | Casing drilling and expandable tubulars; Gas lift; Managed pressure drilling; Plunger lift and hydraulic jet pumps; Rod lift and progressing cavity pumps; Rotary steerable systems |
 | [Wellstrom AS](https://wellstrom.com) | Norway | oem, service | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | FPSO and floating production (TLP, spar, semi-submersible) |
+| [Wood](https://www.woodplc.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Zeeco](https://www.zeeco.com) | USA | oem | Flare gas recovery and zero routine flaring |
 
 ## Coverage queue: supplier names on cards not yet in the directory
@@ -511,11 +528,11 @@ Adding a record for one of them is the next batch of this directory.
 
 - **CCS** (12): Blue Planet; CarbonCure; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; Drax; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
 - **DIG** (1): Yokogawa
-- **GAS** (1): RasGas / Qatargas (operators)
+- **GAS** (2): RasGas / Qatargas (operators); Worley Comprimo
 - **INS** (1): Yokogawa
 - **MID** (2): Governments; Terminal operators
 - **PWR** (16): CGN; Ciel & Terre; Commonwealth Fusion Systems; EDF; Fuji Electric; IHI; ITER; JERA; Kairos Power; KHNP; Oxford PV; Principle Power; Rongke Power; Solar Turbines; SolarReserve; Tokamak Energy
-- **REF** (4): Axens/Technip Energies; EPC contractors (process designed by refiner or contractor); Koch-Glitsch; Yokogawa
+- **REF** (5): Axens/Technip Energies; Bechtel/Foster Wheeler (Amec); EPC contractors (process designed by refiner or contractor); Koch-Glitsch; Yokogawa
 - **ROT** (2): Alfa Laval; Koch-Glitsch
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
