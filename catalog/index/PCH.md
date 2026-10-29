@@ -1,6 +1,6 @@
 # PCH: Petrochemicals
 
-134 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+135 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -119,6 +119,7 @@
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Plastics Europe](https://plasticseurope.org/) | association | eu | open | full-text-restricted |
+| [Plastics Recyclers Europe](https://www.plasticsrecyclers.eu) | association | eu | mixed | summary-only |
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | licensor | global | open | full-text-restricted (unverified) |

@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-130 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+131 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -108,6 +108,7 @@
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
+| [NERSA (National Energy Regulator of South Africa)](https://www.nersa.org.za) | agency-data | af | open | full-text-open |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |

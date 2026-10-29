@@ -1,0 +1,28 @@
+{
+  "id": "au-gsq",
+  "name": "Geological Survey of Queensland open data",
+  "url": "https://geoscience.data.qld.gov.au",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Queensland Department of Resources",
+  "country": "AU",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "Queensland's geoscience/open-data portal: CSG, coal and petroleum reports incl. six-monthly cumulative production and CSG water readings (company-reported data published by the department). resources.qld.gov.au 403s plain fetchers - the GSQ portal is the data entry. Evidence: data.qld.gov.au + geoscience.data.qld.gov.au surfaced via web search 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

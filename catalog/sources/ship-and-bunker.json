@@ -1,0 +1,29 @@
+{
+  "id": "ship-and-bunker",
+  "name": "Ship & Bunker",
+  "url": "https://shipandbunker.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Big Ranch Media Inc.",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "'The world's most read publication dedicated exclusively to global marine fuel markets' (since 2012): daily bunker news plus daily/historical price indications from verified industry sources. Free registration + paid subscription tiers; price data itself is the paid value. Evidence: shipandbunker.com/about read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

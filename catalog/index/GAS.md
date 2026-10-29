@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-196 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+200 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -54,6 +54,7 @@
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted |
+| [Singapore MPA (Maritime and Port Authority)](https://www.mpa.gov.sg) | agency-data | sea, apac | open | full-text-open |
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
@@ -166,7 +167,9 @@
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
 | [Lummus Technology](https://www.lummustechnology.com/) | licensor | global | open | full-text-restricted |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
+| [NERSA (National Energy Regulator of South Africa)](https://www.nersa.org.za) | agency-data | af | open | full-text-open |
 | [Nexant / NexantECA reports](https://www.nexanteca.com/) | research-institute | global | paywalled | catalog-only (unverified) |
+| [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |
 | [Oil & Gas Journal](https://www.ogj.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Oil and Gas Climate Initiative](https://www.ogci.com/) | association | global | open | summary-only |
@@ -199,4 +202,5 @@
 | [QatarEnergy LNG](https://www.qatarenergy.qa/en/) | licensor | me | open | summary-only (unverified) |
 | [Rigzone](https://www.rigzone.com/) | trade-media | global | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
+| [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

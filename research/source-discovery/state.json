@@ -51,8 +51,9 @@
     {
       "id": "A8",
       "name": "OpenAlex/Crossref venue sweep (channel 2), 50 docs",
-      "status": "queued",
-      "runs": 0
+      "status": "running",
+      "runs": 1,
+      "note": "background sweep started 2026-10-29 (50 docs, curl to api.openalex.org only)"
     },
     {
       "id": "A9",

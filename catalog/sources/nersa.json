@@ -1,0 +1,29 @@
+{
+  "id": "nersa",
+  "name": "NERSA (National Energy Regulator of South Africa)",
+  "url": "https://www.nersa.org.za",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "National Energy Regulator of South Africa",
+  "country": "ZA",
+  "regions": [
+    "af"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "South Africa's regulator for electricity, piped-gas and petroleum pipelines: open tariff determinations, licence registers/notices, consultation documents (e.g. 2025 gas pipeline/CNG average price results as PDF/Excel). Evidence: nersa.org.za read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

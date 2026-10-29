@@ -1,0 +1,30 @@
+{
+  "id": "sg-mpa",
+  "name": "Singapore MPA (Maritime and Port Authority)",
+  "url": "https://www.mpa.gov.sg",
+  "source_type": "agency-data",
+  "sectors": [
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "Maritime and Port Authority of Singapore",
+  "country": "SG",
+  "regions": [
+    "sea",
+    "apac"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "update_frequency": "monthly",
+  "notes": "Singapore's maritime regulator: bunkering framework (incl. the SS 600 bunker-fuel standard it anchors), licensing, port statistics, circulars - key SEA authority for the bunkering/LNG-bunkering cards. Evidence: mpa.gov.sg read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated"
+}

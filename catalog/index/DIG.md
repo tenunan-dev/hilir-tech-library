@@ -1,6 +1,6 @@
 # DIG: Digital
 
-129 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+134 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -34,6 +34,7 @@
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted |
+| [Singapore MPA (Maritime and Port Authority)](https://www.mpa.gov.sg) | agency-data | sea, apac | open | full-text-open |
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
@@ -104,6 +105,7 @@
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [NAMUR (NOA, MTP, NE recommendations)](https://www.namur.net/en/) | association | eu, global | mixed | catalog-only (unverified) |
+| [NERSA (National Energy Regulator of South Africa)](https://www.nersa.org.za) | agency-data | af | open | full-text-open |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
@@ -111,6 +113,7 @@
 | [OPEC Annual Statistical Bulletin](https://asb.opec.org/) | agency-data | global, me | open | full-text-restricted |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [OSDU Data Platform (The Open Group)](https://www.opengroup.org/osdu-forum/) | association | global | open | full-text-open (unverified) |
+| [Plastics Recyclers Europe](https://www.plasticsrecyclers.eu) | association | eu | mixed | summary-only |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
@@ -132,4 +135,6 @@
 | [Offshore Technology](https://www.offshore-technology.com/) | trade-media | global | open | summary-only (unverified) |
 | [Rigzone](https://www.rigzone.com/) | trade-media | global | open | summary-only (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
+| [The Maritime Executive](https://maritime-executive.com) | trade-media | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

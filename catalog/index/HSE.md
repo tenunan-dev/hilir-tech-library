@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-80 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+84 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -18,11 +18,13 @@
 | [Australian DCCEEW energy and hydrogen](https://www.dcceew.gov.au/energy) | agency-data | apac | open | full-text-open |
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
+| [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
 | [Methanol Institute](https://www.methanol.org/) | association | global, apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
+| [Singapore MPA (Maritime and Port Authority)](https://www.mpa.gov.sg) | agency-data | sea, apac | open | full-text-open |
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
@@ -74,6 +76,7 @@
 | [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
 | [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | summary-only |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
+| [NERSA (National Energy Regulator of South Africa)](https://www.nersa.org.za) | agency-data | af | open | full-text-open |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |
 | [Oil and Gas Climate Initiative](https://www.ogci.com/) | association | global | open | summary-only |
@@ -83,4 +86,5 @@
 | [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
+| [The Maritime Executive](https://maritime-executive.com) | trade-media | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

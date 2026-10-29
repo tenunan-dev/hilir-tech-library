@@ -1,6 +1,6 @@
 # MID: Midstream
 
-73 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+76 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -15,6 +15,7 @@
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
+| [Singapore MPA (Maritime and Port Authority)](https://www.mpa.gov.sg) | agency-data | sea, apac | open | full-text-open |
 | [Malaysian Oil & Gas Services Council](https://mogsc.org.my/) | association | sea | open | summary-only (unverified) |
 | [AMPP Annual Conference + Expo](https://ace.ampp.org/) | conference | global | paywalled | catalog-only (unverified) |
 | [AMPP Standards (former NACE and SSPC)](https://www.ampp.org/standards) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -75,5 +76,7 @@
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
+| [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
+| [The Maritime Executive](https://maritime-executive.com) | trade-media | global | open | summary-only |
 | [VEGA Grieshaber](https://www.vega.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

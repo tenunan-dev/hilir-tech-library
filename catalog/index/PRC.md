@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-211 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+215 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -40,6 +40,7 @@
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
 | [Gastech](https://www.gastechevent.com/) | conference | global, apac | mixed | catalog-only (unverified) |
+| [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
@@ -175,10 +176,12 @@
 | [NETL Cost of Capturing CO2 from Industrial Sources (2022, project file)](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [NETL LCA of Greenhouse Gas Emissions for Hydrogen Pathways (2019)](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [Nexant / NexantECA reports](https://www.nexanteca.com/) | research-institute | global | paywalled | catalog-only (unverified) |
+| [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
 | [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
 | [Oil & Gas Journal](https://www.ogj.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Oil & Gas Science and Technology: CO2 capture review (IFPEN)](https://ogst.ifpenergiesnouvelles.fr/en/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html) | journal | global | open | full-text-open (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
+| [Plastics Recyclers Europe](https://www.plasticsrecyclers.eu) | association | eu | mixed | summary-only |
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
@@ -214,4 +217,5 @@
 | [QatarEnergy LNG](https://www.qatarenergy.qa/en/) | licensor | me | open | summary-only (unverified) |
 | [SABIC Technology](https://www.sabic.com/) | licensor | global, me | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
+| [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

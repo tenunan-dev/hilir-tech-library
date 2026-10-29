@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-193 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+195 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -37,6 +37,7 @@
 | [DGIP Indonesia patent database (PDKI)](https://pdki-indonesia.dgip.go.id/) | patents | sea | open | full-text-open (unverified) |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [GARUDA Garba Rujukan Digital (Indonesian journals)](https://garuda.kemdikbud.go.id/) | journal | sea | open | full-text-restricted (unverified) |
+| [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [IAGI Indonesian Association of Geologists](https://iagi.or.id/) | association | sea | open | summary-only (unverified) |
 | [India Directorate General of Hydrocarbons](https://www.dghindia.gov.in/) | agency-data | apac | open | full-text-open (unverified) |
 | [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
@@ -153,6 +154,7 @@
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
+| [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |

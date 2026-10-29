@@ -1,0 +1,93 @@
+OpenAlex venue sweep (venues of works citing our corpus docs)
+============================================================
+   8  [known]  International Journal of Hydrogen Energy
+   8  [ABSENT]  Energy & Environmental Science
+   8  [known]  International journal of greenhouse gas control
+   6  [ABSENT]  Journal of Cleaner Production
+   6  [ABSENT]  Environmental Science & Technology
+   5  [ABSENT]  Energy Conversion and Management
+   5  [ABSENT]  Applied Energy
+   4  [known]  Energy
+   4  [known]  Energies
+   4  [ABSENT]  SPE Formation Evaluation
+   4  [ABSENT]  Journal of Petroleum Science and Engineering
+   3  [known]  Industrial & Engineering Chemistry Research
+   3  [known]  SPE Journal
+   3  [ABSENT]  SPE Reservoir Engineering
+   2  [ABSENT]  Nature Energy
+   2  [ABSENT]  Nature Communications
+   2  [ABSENT]  Renewable and Sustainable Energy Reviews
+   2  [ABSENT]  Green Chemistry
+   2  [known]  Sustainability
+   2  [known]  Energy Policy
+   2  [ABSENT]  Energy & Fuels
+   2  [ABSENT]  Computers & Chemical Engineering
+   2  [ABSENT]  Separation and Purification Technology
+   2  [ABSENT]  SPE Middle East Oil and Gas Show and Conference
+   2  [known]  Petroleum Science
+   2  [ABSENT]  ACS Omega
+   2  [ABSENT]  SPE Production Operations Symposium
+   1  [known]  Chem
+   1  [known]  Science
+   1  [ABSENT]  Environmental Research Letters
+   1  [known]  Renewable Energy
+   1  [ABSENT]  Communications Earth & Environment
+   1  [ABSENT]  Journal of Analytical and Applied Pyrolysis
+   1  [ABSENT]  Frontiers in Energy Research
+   1  [ABSENT]  Applied Thermal Engineering
+   1  [known]  Hydrogen
+   1  [ABSENT]  Green energy and technology
+   1  [ABSENT]  Cleaner Chemical Engineering
+   1  [ABSENT]  SPE Annual Technical Conference and Exhibition
+   1  [ABSENT]  Risk Analysis
+   1  [ABSENT]  Journal of The Electrochemical Society
+   1  [ABSENT]  Journal of Materials Science Materials in Engineering
+   1  [ABSENT]  International Journal of Automotive Technology
+   1  [ABSENT]  ACS Sustainable Chemistry & Engineering
+   1  [ABSENT]  Carbon Capture Science & Technology
+   1  [ABSENT]  Greenhouse Gases Science and Technology
+   1  [ABSENT]  Fuel Processing Technology
+   1  [ABSENT]  Progress in Energy and Combustion Science
+   1  [ABSENT]  Biomass and Bioenergy
+   1  [ABSENT]  Chemical Science
+   1  [ABSENT]  Faraday Discussions
+   1  [known]  Energy Economics
+   1  [ABSENT]  Joule
+   1  [ABSENT]  Journal of environmental chemical engineering
+   1  [ABSENT]  iScience
+   1  [ABSENT]  Rock Mechanics and Rock Engineering
+   1  [ABSENT]  Energy Geoscience
+   1  [ABSENT]  SPE Drilling & Completion
+   1  [ABSENT]  SPE Reservoir Evaluation & Engineering
+   1  [known]  Petroleum
+   1  [ABSENT]  SPE Offshore Europe Conference (Offshore Europe)
+   1  [ABSENT]  Journal of Natural Gas Science and Engineering
+   1  [ABSENT]  Permian Basin Oil and Gas Recovery Conference
+   1  [ABSENT]  SPE Production & Operations
+   1  [ABSENT]  SPE Asia Pacific Oil and Gas Conference and Exhibition
+   1  [ABSENT]  SPE Trinidad and Tobago Section Energy Resources Conference
+   1  [ABSENT]  SPE Unconventional Gas Conference and Exhibition
+   1  [ABSENT]  Mathematical Problems in Engineering
+   1  [ABSENT]  Bulletin of Canadian Petroleum Geology
+   1  [known]  Processes
+   1  [ABSENT]  Heliyon
+   1  [ABSENT]  Physics of Fluids
+   1  [ABSENT]  SPE/IADC Drilling Conference
+   1  [ABSENT]  SPE Gas Technology Symposium
+   1  [ABSENT]  Journal of Energy Resources Technology
+   1  [ABSENT]  Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)
+   1  [known]  Fuel
+   1  [ABSENT]  Computational Geosciences
+   1  [ABSENT]  Open Journal of Yangtze Oil and Gas
+   1  [ABSENT]  Data-Centric Engineering
+   1  [ABSENT]  Materials Advances
+
+FLAGGED (8) — queue as channel-2 candidates:
+  Energy & Environmental Science (8)
+  Journal of Cleaner Production (6)
+  Environmental Science & Technology (6)
+  Energy Conversion and Management (5)
+  Applied Energy (5)
+  SPE Formation Evaluation (4)
+  Journal of Petroleum Science and Engineering (4)
+  SPE Reservoir Engineering (3)

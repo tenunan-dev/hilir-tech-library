@@ -1,6 +1,6 @@
 # INS: Instrumentation and control
 
-28 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering.
+29 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -22,6 +22,7 @@
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [KROHNE](https://krohne.com/) | oem-supplier | global | open | summary-only |
 | [NAMUR (NOA, MTP, NE recommendations)](https://www.namur.net/en/) | association | eu, global | mixed | catalog-only (unverified) |
+| [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |

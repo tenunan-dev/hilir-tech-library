@@ -1,0 +1,28 @@
+{
+  "id": "maritime-executive",
+  "name": "The Maritime Executive",
+  "url": "https://maritime-executive.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "MID"
+  ],
+  "disciplines": [
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "The Maritime Executive, LLC",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Independent maritime trade news site (open; free daily newsletter; print/digital magazine subscription): shipping, offshore, ports, environment incl. marine-fuel and emissions coverage. Named in MID card gaps for bunker/VLSF context. Evidence: maritime-executive.com read 2026-10-29 via reader tool.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}
