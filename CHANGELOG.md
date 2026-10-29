@@ -7,6 +7,13 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.8] — 2026-10-29 — Runbook execution: A2/A3/A4/A5/A6/A8/A11, catalog 394, vendors 394
+
+### Added
+- tools/discover_sources.py (+6 tests): channel-1 miner, 172 candidates queued; tools/categorise_vendors.py: rule-based categories backfill of all 390 vendor records; vendor schema gains optional `categories` enum (12 values) + presence test.
+- 23 sources registered via A3 batches 1-3 (IADC, CISA ICS, Hydraulic Institute, FM Global, CanmetENERGY, CERI, EHB, Energy Intelligence, IEA Bioenergy, IEA PVPS, IMO/MARPOL, INL, NREL ATB, DOE H2 records/HDSAM, DOE Wind Market, EPA AP-42, Maritime Executive, Ship & Bunker, NFOGM, Plastics Recyclers EU, SG MPA, NERSA, GSQ Queensland); 8 vendors (fluor, wood, petrofac, worley, bechtel, mcdermott, cooec, cpecc) + Kanadevia Inova alias fix.
+- A8 OpenAlex sweep: 8 high-frequency venues queued as candidates; A5 audit clean; A6 batch 1 verified 8 records (incl. aep-journal rename fix, aker-carbon-capture dead domain).
+
 ## [2026.10.29.7] — 2026-10-29 — Plan v3: rewritten as a precise agent runbook
 
 ### Changed
