@@ -171,9 +171,8 @@ flowchart LR
 **Missing inputs:**
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; delivery economics already recorded from DOE records in Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Hydrogen storage'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Hydrogen_storage) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf), [3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/19001_hydrogen_liquefaction_costs.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf), [3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/19001_hydrogen_liquefaction_costs.pdf), [4](https://en.wikipedia.org/wiki/Hydrogen_storage). Last reviewed 2026-10-29.
 
 ## First-generation biofuels (ethanol, FAME biodiesel)
 <a id="h2-first-gen-biofuels"></a>
@@ -200,9 +199,8 @@ flowchart LR
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; commodity plant costs case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous industry. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Biofuel'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Biofuel) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ren21.net/gsr-2025/technologies/bioenergy/). Last reviewed 2026-10-28.
+Sources: [1](https://www.ren21.net/gsr-2025/technologies/bioenergy/), [2](https://en.wikipedia.org/wiki/Biofuel). Last reviewed 2026-10-29.
 
 ## Fuel cells (PEM, SOFC)
 <a id="h2-fuel-cells"></a>
@@ -229,9 +227,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; HD fuel-cell system cost already recorded from DOE records in Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Fuel cell'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Fuel_cell) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf), [3](https://en.wikipedia.org/wiki/Fuel_cell). Last reviewed 2026-10-29.
 
 ## Hydrogen compressors (diaphragm, ionic, reciprocating)
 <a id="h2-compressors"></a>
@@ -257,9 +254,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - compressor cost and specific energy (costs): The article gives none; the doe-hfto corpus records (checked 2026-10-28) give no hydrogen compressor capital cost or specific energy in kWh/kg either. Web-checked 2026-10-28; the only compressor cost found (FuelCell air compressor) was rejected as a different component in Wave 1. Where: DOE hydrogen compression targets (catalog: doe-hfto, open). Next: Add cost and kWh/kg.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Hydrogen compressor'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Hydrogen_compressor) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article). Last reviewed 2026-10-28.
+Sources: [1](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article), [2](https://en.wikipedia.org/wiki/Hydrogen_compressor). Last reviewed 2026-10-29.
 
 ## Hydrogen for refinery and ammonia feedstock
 <a id="h2-refinery-ammonia-feedstock"></a>
@@ -321,9 +317,8 @@ flowchart LR
 **Missing inputs:**
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. California CEC station counts and 2016 cost basis already recorded from Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Hydrogen station'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Hydrogen_station) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf), [3](https://en.wikipedia.org/wiki/Hydrogen_station). Last reviewed 2026-10-29.
 
 ## Liquid hydrogen
 <a id="h2-liquid-hydrogen"></a>
@@ -586,9 +581,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'L
 
 **Missing inputs:**
 - capital and production cost (costs): None in the article. Web-checked 2026-10-28; TRL closed in Wave 1 (ETP guide); production costs sit in NREL/DOE TEAs. Where: IEA Bioenergy Task 39 (open). Next: Add cost.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Cellulosic ethanol'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Cellulosic_ethanol) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html), [2](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-28.
+Sources: [1](https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html), [2](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [3](https://en.wikipedia.org/wiki/Cellulosic_ethanol). Last reviewed 2026-10-29.
 
 ## E-methane (synthetic natural gas)
 <a id="h2-e-methane"></a>
@@ -682,10 +676,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025); 'Gasification and Fischer-Tropsch' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Synthetic fuel'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Synthetic_fuel) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://www.energy.gov/sites/default/files/2022-09/beto-saf-gc-roadmap-report-sept-2022.pdf), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/sites/default/files/2022-09/beto-saf-gc-roadmap-report-sept-2022.pdf), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://en.wikipedia.org/wiki/Synthetic_fuel). Last reviewed 2026-10-29.
 
 ## Gas-heated reforming
 <a id="h2-gas-heated-reforming"></a>
@@ -790,9 +781,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: Stegra funding (about USD 7 bn) recorded in reference_plants; per-tonne DRI economics not published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Direct reduced iron'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Direct_reduced_iron) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article). Last reviewed 2026-10-28.
+Sources: [1](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article), [4](https://en.wikipedia.org/wiki/Direct_reduced_iron). Last reviewed 2026-10-29.
 
 ## Hydrogen storage in salt caverns
 <a id="h2-salt-cavern-storage"></a>
@@ -1072,9 +1062,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - operating biomass-to-hydrogen plants (reference_plants): IEA says output is marginal; no plant is named in sources read. Web-checked 2026-10-28; no named operating BTH plant found open. Where: IEA Bioenergy Task 33 gasification database (open). Next: Add one or two operating plants.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Biomass gasification'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Biomass_gasification) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://en.wikipedia.org/wiki/Biomass_gasification). Last reviewed 2026-10-29.
 
 ## Co-electrolysis of CO2 and water
 <a id="h2-co-electrolysis"></a>
@@ -1158,9 +1147,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - commercial-scale operating capacity (reference_plants): ETIP names plant sizes of 10,000 to 50,000 t bio-oil/yr without status. Web-checked 2026-10-28; no verifiable named commercial HTL plant found. Where: Ensyn, Steeper and Licella press releases (open). Next: Add current operating status.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Hydrothermal liquefaction'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Hydrothermal_liquefaction) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion). Last reviewed 2026-10-28.
+Sources: [1](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion), [2](https://en.wikipedia.org/wiki/Hydrothermal_liquefaction). Last reviewed 2026-10-29.
 
 ## Algal fuels
 <a id="h2-algal-fuels"></a>

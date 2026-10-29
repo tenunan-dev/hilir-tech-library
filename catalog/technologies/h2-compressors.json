@@ -95,9 +95,13 @@
       "url": "https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article",
       "source_id": "burckhardt",
       "note": "Compressortech2, Burckhardt to develop hydrogen compressor systems, 28 October 2021"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hydrogen_compressor",
+      "note": "Wikipedia: Hydrogen compressor — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-10-29",
   "gaps": [
     {
       "field": "costs",
@@ -125,24 +129,6 @@
         }
       ],
       "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Hydrogen compressor'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Hydrogen_compressor",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }

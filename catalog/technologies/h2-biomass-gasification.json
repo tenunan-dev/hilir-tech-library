@@ -127,9 +127,13 @@
       "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
       "source_id": "iea-reports",
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): small biomass-to-hydrogen and methane-pyrolysis ventures contribute marginal output"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Biomass_gasification",
+      "note": "Wikipedia: Gasification — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-10-29",
   "gaps": [
     {
       "field": "reference_plants",
@@ -143,24 +147,6 @@
         }
       ],
       "action": "Add one or two operating plants."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Biomass gasification'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Biomass_gasification",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }
