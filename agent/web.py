@@ -1024,13 +1024,23 @@ def routes(tools, key: str) -> list:
                 'the graph column opens the record in the network view.</p>'
                 + '<div class="scroll"><table><thead><tr><th>Vendor</th><th>Country</th><th>Roles</th><th>Products</th>'
                 + f'<th>Supplies</th><th></th></tr></thead><tbody>{"".join(body_rows)}</tbody></table></div></section>')
-        queue = _coverage_queue()
+        queue, notes = _coverage_queue()
         if queue:
             blocks = "".join(f"<li><b>{esc(code)}</b> ({len(names)}): {esc('; '.join(names))}</li>"
                              for code, names in queue)
             body += (_section("Coverage queue: supplier names on cards not yet in the directory",
                               f'<ul class="small">{blocks}</ul><p class="muted small">Adding a record for one of '
                               'them is the next batch of the directory (see catalog/index/vendors.md).</p>'))
+        else:
+            body += (_section("Coverage queue: supplier names on cards not yet in the directory",
+                              '<p class="muted small">Empty - every named supplier on the cards is in the '
+                              'directory.</p>'))
+        if notes:
+            nblocks = "".join(f"<li><b>{esc(code)}</b> ({len(names)}): {esc('; '.join(names))}</li>"
+                              for code, names in notes)
+            body += (_section("Card notes: generic supplier descriptions (not nameable vendors)",
+                              f'<ul class="small">{nblocks}</ul><p class="muted small">These cards describe their '
+                              'suppliers generically; the strings are not company names.</p>'))
         return _page("Vendors", body, active="/vendors")
 
     async def register(request: Request):
@@ -1817,22 +1827,52 @@ def _hybrid_row(hit) -> str:
 def _coverage_queue():
     """Supplier names on technology cards that no vendor directory record answers to, by sector.
 
-    Reads the catalog files directly (the same rule as catalog/index/vendors.md); on a hosted server
-    without the files it quietly renders nothing.
+    Same rules as catalog/index/vendors.md (tools/build.py): compound entries split on '/' and
+    match part by part; leftovers are either nameable vendor candidates (queue) or descriptive
+    phrases that are not company names (notes). On a hosted server without the files it quietly
+    renders nothing. Keep in sync with the classifier in tools/build.py.
     """
     try:
         import technologies
         cards = technologies.load_cards()
         records = vendor_records.load_vendors()
     except OSError:
-        return []
+        return [], []
     covered = set()
     for v in records:
         covered |= vendor_records.vendor_keys(v)
-    queue = {}
+    note_start = re.compile(
+        r"^(no |none |various |major |operators?|governments?|terminal |research |epc |contractors?|"
+        r"producers|licensors|consortia|programmes?|projects |stage|doe-funded|see )", re.I)
+    note_contains = re.compile(
+        r"\b(vendors|licensors|contractors|producers|operators|groups|programmes|consortia|companies)\b|"
+        r"none named|identified in", re.I)
+
+    def nameable(text):
+        head = re.sub(r"\([^)]*\)", "", text).strip()
+        if not head or note_start.search(head) or note_contains.search(head):
+            return False
+        return len(head.split()) <= 6
+
+    def classify(name):
+        parts = [p.strip() for p in name.split("/") if p.strip()]
+        leftovers = [p for p in parts if vendor_records.name_key(p) not in covered]
+        if len(parts) > 1 and len(leftovers) < len(parts):
+            return leftovers, []
+        if nameable(name):
+            return [name], []
+        return [], [name]
+
+    queue, notes = {}, {}
     for c in cards:
         for s in c["suppliers"]:
-            key = vendor_records.name_key(s["name"])
-            if key not in covered:
-                queue.setdefault(c["sector"], {})[key] = s["name"]
-    return sorted((code, sorted(names.values(), key=str.lower)) for code, names in queue.items())
+            raw = s["name"]
+            if vendor_records.name_key(raw) in covered:
+                continue
+            q_parts, n_parts = classify(raw)
+            for p in q_parts:
+                queue.setdefault(c["sector"], {})[vendor_records.name_key(p)] = p
+            for p in n_parts:
+                notes.setdefault(c["sector"], {})[vendor_records.name_key(p)] = p
+    return (sorted((code, sorted(names.values(), key=str.lower)) for code, names in queue.items()),
+            sorted((code, sorted(names.values(), key=str.lower)) for code, names in notes.items()))
