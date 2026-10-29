@@ -19,9 +19,9 @@
     {
       "id": "A3",
       "name": "Triage + register queued source candidates (batches of ~8)",
-      "status": "running",
+      "status": "partial",
       "runs": 1,
-      "note": "session 2026-10-30: batch 4 in progress (8 candidates incl. 2 vendor retries); IHS PEP to be re-marked blocked-owner"
+      "note": "batches 1-4 done: 40 sources registered (63 total incl. earlier), 4 blocked-owner, 3 rejected; 177 queued (mostly discover_sources URL/phrase hits + 10 A9 events + A4b venues). Next: continue batches of 8, prioritising named orgs over one-off URLs"
     },
     {
       "id": "A4",
@@ -42,14 +42,14 @@
       "name": "Verification sweep of 193 unverified source records",
       "status": "partial",
       "runs": 1,
-      "note": "batches 1-2 done: 14 records verified (2 dead/bot-walled flagged, abb-energy + aiche-journal queued for batch 3); ~171 remain"
+      "note": "batches 1-2 done: 14 verified (api/ampp standards paywalled, anl-greet open, ariel, ampp-annual, apic-asia + batch-1 8); abb-energy + aiche-journal queued; ~171 remain"
     },
     {
       "id": "A7",
       "name": "Vendor-provenance crawl (channel 3), contractor cohort first",
-      "status": "running",
+      "status": "partial",
       "runs": 1,
-      "note": "crawl of 14 contractor-cohort vendor sites running in background (7 paths each, research/provenance/); candidate extraction pending"
+      "note": "curl crawl of 14 contractor-cohort sites yielded 42 files but mostly JS shells/error pages (wison empty, toyo error page, daelim 1-2KB); 0 standards extractable from plain HTML. NEXT: browser-use skill for provenance crawl (corporate sites are JS-walled). Files kept in research/provenance/ (gitignored)"
     },
     {
       "id": "A8",
@@ -63,7 +63,7 @@
       "name": "Event + standards-body sweep (channel 4)",
       "status": "done",
       "runs": 1,
-      "note": "sweep 2026-10-30: 10 candidates queued (SPE ATCE, WGC, EGYPES, Middle East Energy, ISO 19880, ISO 14687, ASME BPVC, SIRIM, NITC to-resolve; NPRA rejected as AFPM-successor). Catalogued events confirmed healthy (OTC/ADIPEC/Gastech/LNG/ARTC/ERC/EnergyAsia/ASME Turbo present)."
+      "note": "10 candidates queued (SPE ATCE, WGC, EGYPES, MEE, ISO 19880/14687, ASME BPVC, SIRIM, NITC; NPRA rejected). Catalogued events healthy"
     },
     {
       "id": "A10",
@@ -85,14 +85,15 @@
       "status": "done",
       "retries": 0,
       "retry_after": "after any 2 content blocks land",
-      "note": "publish cycle complete 2026-10-29: build 394/299/394, embed 12,553 rows (OMP_NUM_THREADS=4, ~12 min), Neon reload (394 sources/202 docs/299 cards/394 vendors/3,406 nodes/10,228 edges/12,553 vectors), wrangler deploy 8460ca16, live /health OK + /api/stats 394/161/394 matches local",
-      "runs": 1
+      "note": "republish 2026-10-30: build 399/299/413, embed 12,577 rows ~12min, Neon reload (399/202/299/413/3,434 nodes/10,304 edges/12,577 vectors), deploy 82aeca5c live-verified /api/stats 399/161/413",
+      "runs": 2
     },
     {
       "id": "A4b",
       "name": "Flash refinement sweep of vendor categories (multi-category + equipment-oem fallback records)",
-      "status": "queued",
-      "runs": 0
+      "status": "done",
+      "runs": 0,
+      "note": "two serial flash batches reviewed all 413 records: 200 corrected (chemicals->materials-supplier, supermajors->operator, EPC stripped of equipment-oem, services->oilfield-service, institutes->engineering-consultancy, utilities->utility). Distribution now: equipment-oem 223, operator 67, process-licensor 52, materials-supplier 47, plant-epc 36, oilfield-service 25, offshore-epc 19, consultancy 17, utility 9, power-rental 6, shipyard 6, fabrication 3"
     }
   ],
   "parked_owner": [
