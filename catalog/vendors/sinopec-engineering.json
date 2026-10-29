@@ -1,0 +1,37 @@
+{
+  "id": "sinopec-engineering",
+  "name": "Sinopec Engineering Group",
+  "country": "China",
+  "roles": [
+    "epc",
+    "licensor"
+  ],
+  "description": "Sinopec's EPC and licensing arm (HKEX 2386): feasibility, technology licensing and process design, FEED and full EPC for refining and petrochemical projects at home and abroad. Technology licensing is a strategic pillar (ethylene cracking and refining licensed technologies) that feeds its downstream EPC business. Reference work: SATORP refinery expansion EPC in Saudi Arabia (won 2023), Kazakhstan butadiene plant EPC, international arm Sinopec Engineering Group Saudi.",
+  "technologies": [
+    "pch-steam-cracking",
+    "ref-cdu-vdu",
+    "ref-crude-to-chemicals",
+    "pch-butadiene"
+  ],
+  "sources": [
+    {
+      "url": "http://www.sinopecgroup.com/group/en/000/000/071/71011.shtml",
+      "note": "Sinopec Group news: Kazakhstan butadiene EPC contract, surfaced and summarised in web search 2026-10-29"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/0523/02386/ESINOPEC-20130503-12.pdf",
+      "note": "HKEX listing document: licensing-business description, surfaced in web search 2026-10-29"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "aliases": [
+    "SEG",
+    "Sinopec Engineering",
+    "Sinopec Engineering (Group) Co., Ltd."
+  ],
+  "products": [
+    "refinery and petrochemical EPC",
+    "ethylene and refining technology licences",
+    "FEED and process design"
+  ]
+}

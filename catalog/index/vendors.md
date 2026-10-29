@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-378 vendor records covering 249 technologies. One record per vendor in
+381 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -78,6 +78,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Sumitomo Precision Products](https://www.spp.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [Titan LNG](https://titan-lng.com) | Netherlands | operator | Bio-LNG and liquefied biomethane |
 | [TotalEnergies](https://totalenergies.com) | France | operator | LNG bunkering |
+| [Wison](https://www.wison-energies.com) | China | epc, developer | Floating LNG (FLNG); Small and mid-scale modular LNG |
 | [Worley](https://www.worley.com) | Australia | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
 
 ## H2: Hydrogen and low-carbon fuels
@@ -131,6 +132,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Plug Power](https://www.plugpower.com) | USA | oem, operator | PEM electrolysis |
 | [POET](https://poet.com) | USA | operator | First-generation biofuels (ethanol, FAME biodiesel) |
 | [Raizen](https://www.raizen.com.br) | Brazil | operator | First-generation biofuels (ethanol, FAME biodiesel) |
+| [Sinopec](https://www.sinopecgroup.com/group/en/) | China | operator, developer, supplier | Alkaline water electrolysis |
 | [Sparc Hydrogen](https://sparchydrogen.com.au) | Australia | developer | Photocatalytic and thermochemical water splitting |
 | [Steeper Energy](https://steeperenergy.com) | Denmark | developer | Pyrolysis oil and hydrothermal liquefaction |
 | [Stegra](https://stegra.com) | Sweden | developer, operator | Hydrogen direct reduction of iron |
@@ -252,11 +254,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [SABIC](https://www.sabic.com) | Saudi Arabia | oem | Electric steam cracking; Engineering plastics (polycarbonate, nylon) |
 | [Scientific Design Company](https://www.scientificdesign.com) | USA | licensor | Ethylene oxide and glycols |
 | [Siluria Technologies](https://www.lummustechnology.com) | USA | developer | Oxidative coupling of methane |
+| [Sinopec](https://www.sinopecgroup.com/group/en/) | China | operator, developer, supplier | Steam cracking (naphtha, ethane, LPG) |
+| Sinopec Engineering Group | China | epc, licensor | Steam cracking (naphtha, ethane, LPG); Butadiene extraction and on-purpose butadiene |
 | [Stamicarbon](https://www.stamicarbon.com) | Netherlands | licensor | Ammonia and urea |
 | [thyssenkrupp Uhde Inventa-Fischer](https://uhde.thyssenkrupp.com) | Germany | licensor | PET and polyester |
 | [TotalEnergies Corbion](https://www.totalenergies-corbion.com) | Netherlands | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
 | [Univation Technologies](https://www.univation.com) | USA | licensor | Polyethylene (gas phase, slurry, solution) |
 | [W. R. Grace](https://grace.com) | USA | supplier | Polypropylene (gas phase, bulk) |
+| [Wison](https://www.wison-energies.com) | China | epc, developer | Steam cracking (naphtha, ethane, LPG) |
 
 ## PRC: Process systems
 
@@ -344,6 +349,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Voith](https://voith.com) | Germany | oem, service | Hydropower |
 | [Waller Marine](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083) | USA | packager | Powerships and power barges |
 | [Westinghouse Electric Company](https://www.westinghousenuclear.com) | USA | oem, developer | Microreactors (transportable nuclear); Large light-water reactors; Small modular reactors |
+| [Wison](https://www.wison-energies.com) | China | epc, developer | Floating offshore wind |
 | [Wärtsilä](https://www.wartsila.com/energy) | Finland | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
 | [X-energy](https://x-energy.com) | USA | developer, supplier | Advanced reactors (high-temperature gas, molten salt); Small modular reactors |
 | [Ørsted](https://orsted.com) | Denmark | developer, operator | Offshore wind (fixed bottom) |
@@ -368,6 +374,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Delayed coking and fluid coking; Fluid catalytic cracking and resid FCC; Direct crude cracking; Etherification (MTBE, ETBE, TAME) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Mercaptan sweetening (Merox) |
 | [Saudi Aramco](https://www.aramco.com) | Saudi Arabia | operator, developer | Direct crude cracking; Refinery-petrochemical integration (FCC propylene, HS-FCC); Crude-to-chemicals complexes |
+| [Sinopec](https://www.sinopecgroup.com/group/en/) | China | operator, developer, supplier | Crude and vacuum distillation with heat integration; Crude-to-chemicals complexes; Catalytic reforming (CCR, semi-regenerative) |
+| Sinopec Engineering Group | China | epc, licensor | Crude and vacuum distillation with heat integration; Crude-to-chemicals complexes |
 | [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Wastewater treatment (API separators, DAF, biological, MBR) |
 | [Yokogawa Electric](https://www.yokogawa.com) | Japan | oem, integrator | Advanced process control and real-time optimisation |
 
@@ -471,6 +479,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Viridien](https://www.viridienglobal.com) | France | service, supplier | Full-waveform inversion and seismic imaging; 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | [Weatherford International](https://www.weatherford.com) | USA | service, supplier | Casing drilling and expandable tubulars; Gas lift; Managed pressure drilling; Plunger lift and hydraulic jet pumps; Rod lift and progressing cavity pumps; Rotary steerable systems |
 | [Wellstrom AS](https://wellstrom.com) | Norway | oem, service | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
+| [Wison](https://www.wison-energies.com) | China | epc, developer | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Zeeco](https://www.zeeco.com) | USA | oem | Flare gas recovery and zero routine flaring |
 
 ## Coverage queue: supplier names on cards not yet in the directory

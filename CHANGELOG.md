@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.4] — 2026-10-29 — Chinese EPC/supplier coverage: Wison, Sinopec, Sinopec Engineering registered
+
+### Added
+- Vendor records `wison` (Wison Engineering + Wison New Energies — FLNG/FPSO EPCIC from the Nantong yard, Baleine Phase 3 FPSO EPCIC, Tango FLNG, Shell-licensed DMR FLNG collaboration), `sinopec` (operator/developer/supplier; Kuqa green hydrogen; licensor via source sinopec-tech) and `sinopec-engineering` (SEG, HKEX 2386 — epc/licensor; SATORP expansion and Kazakhstan butadiene EPC). Vendors 378 → 381.
+- Closes the owner's check: the vendor layer already models who can supply/build/construct/maintain (roles + products + per-technology links in search, MCP, REST, web, Neon and the graph); the gap was Chinese-EPC coverage.
+
 ## [2026.10.29.3] — 2026-10-29 — iRecruit candidate resolved: source `irecruit` registered
 
 ### Added

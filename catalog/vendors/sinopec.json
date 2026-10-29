@@ -1,0 +1,34 @@
+{
+  "id": "sinopec",
+  "name": "Sinopec",
+  "country": "China",
+  "roles": [
+    "operator",
+    "developer",
+    "supplier"
+  ],
+  "description": "China Petrochemical Corporation: Asia's largest refiner and a top ethylene producer, operating refining-petrochemical complexes (mega-tonne crackers, crude-to-chemicals refineries) and the Kuqa green-hydrogen plant powered by PERIC alkaline electrolysers. Licenses its own refining and petrochemical technologies (catalog source sinopec-tech). Parent of Sinopec Engineering Group, its EPC and licensing arm.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "ref-crude-to-chemicals",
+    "ref-catalytic-reforming",
+    "h2-alkaline-electrolysis",
+    "pch-steam-cracking"
+  ],
+  "url": "https://www.sinopecgroup.com/group/en/",
+  "sources": [
+    {
+      "url": "https://www.sinopecgroup.com/group/en/",
+      "note": "Group site, catalog source sinopec-tech; group business facts verified via web search 2026-10-29 (direct site fetch timed out this session)"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "aliases": [
+    "China Petrochemical Corporation",
+    "Sinopec Group"
+  ],
+  "products": [
+    "refining and petrochemical technologies (licensed)",
+    "green hydrogen (Kuqa)"
+  ]
+}

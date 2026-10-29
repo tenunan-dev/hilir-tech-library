@@ -1,0 +1,40 @@
+{
+  "id": "wison",
+  "name": "Wison",
+  "country": "China",
+  "roles": [
+    "epc",
+    "developer"
+  ],
+  "description": "Shanghai group in two relevant businesses: Wison Engineering Services (HK-listed; EPC and technology for ethylene, coal-to-chemicals and other petrochemical plants) and Wison New Energies (EPCIC for floating LNG, FPSOs, modularised onshore LNG plants and floating wind, from one of the world's largest floating-facility fabrication yards in Nantong). Recent work: signed Baleine Phase 3 FPSO EPCIC contract, Tango FLNG, S188 FSRU, China's first floating wind project, selection for pre-FEED/EPC of two 3-MTPA FLNGs in Nigeria (Jan 2024), and a DMR FLNG technology collaboration licensed from Shell Catalysts & Technologies.",
+  "technologies": [
+    "lng-flng",
+    "gas-small-scale-lng",
+    "ups-fpso-floating-production",
+    "pwr-floating-offshore-wind",
+    "pch-steam-cracking"
+  ],
+  "url": "https://www.wison-energies.com",
+  "sources": [
+    {
+      "url": "https://www.wison-energies.com",
+      "note": "Vendor site, read 2026-10-29"
+    },
+    {
+      "url": "https://www.wison.com",
+      "note": "Group site and 2025 interim report coverage, verified via web search 2026-10-29"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "aliases": [
+    "Wison Engineering",
+    "Wison New Energies",
+    "Wison Offshore & Marine"
+  ],
+  "products": [
+    "FLNG EPCIC",
+    "FPSO EPCIC (low-emission standardized)",
+    "modularised onshore LNG plants",
+    "floating wind platforms (w.semi)"
+  ]
+}
