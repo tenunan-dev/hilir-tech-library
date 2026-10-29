@@ -72,16 +72,18 @@
     {
       "id": "A11",
       "name": "Vendor cohorts: Western EPC, NOC engineering arms, SEA contractors, alias fixes",
-      "status": "queued",
-      "runs": 0
+      "status": "done",
+      "runs": 1,
+      "note": "Western EPC (fluor, wood, petrofac, worley, bechtel, mcdermott) + NOC arms (cooec, cpecc) registered; PetroChina arm covered by cnpc+cpecc (no separate record); Kanadevia alias fix applied. SEA contractors sub-cohort still queued -> moved to A11 note: split, SEA remains"
     },
     {
       "id": "A12",
       "name": "Publish cycle: embed + Neon reload + wrangler deploy + live check",
-      "status": "blocked-temporary",
+      "status": "running",
       "retries": 0,
       "retry_after": "after any 2 content blocks land",
-      "note": "Needs Docker running for deploy; reload/redeploy whenever blocked, retry later"
+      "note": "started 2026-10-29; Docker 29.9.1 up",
+      "runs": 1
     },
     {
       "id": "A4b",
