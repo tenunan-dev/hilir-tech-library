@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "url": "https://www.gsenc.com",
+      "note": "Company site; project facts verified via web search 2026-10-29 (site read pending)"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "gs-ec",
+  "name": "GS E&C",
+  "country": "South Korea",
+  "roles": [
+    "epc"
+  ],
+  "description": "Korean EPC contractor for gas, refining and power plants; won a ~USD 7.2 bn Saudi gas-plant expansion jointly with Samsung E&A - one of the largest recent Korean plant orders - plus Kuwait Al-Zour refinery packages with other Korean contractors.",
+  "technologies": [
+    "gas-amine-agr",
+    "ref-cdu-vdu",
+    "pwr-combined-cycle-hrsg"
+  ],
+  "url": "https://www.gsenc.com",
+  "aliases": [
+    "GS Engineering & Construction"
+  ],
+  "products": [
+    "gas plant EPC",
+    "refinery and power plant construction"
+  ]
+}

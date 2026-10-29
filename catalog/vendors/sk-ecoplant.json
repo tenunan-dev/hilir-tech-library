@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "url": "https://www.skecplant.com",
+      "note": "Company site; project facts verified via web search 2026-10-29 (site read pending)"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "sk-ecoplant",
+  "name": "SK Ecoplant",
+  "country": "South Korea",
+  "roles": [
+    "epc"
+  ],
+  "description": "Korean plant EPC (formerly SK Engineering & Construction), executing refining and petrochemical plants worldwide and within the SK Innovation group, with Middle East refinery packages (Al-Zour) among its reference work.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "pch-steam-cracking"
+  ],
+  "url": "https://www.skecplant.com",
+  "aliases": [
+    "SK Engineering & Construction",
+    "SK E&C"
+  ],
+  "products": [
+    "refinery and petrochemical EPC"
+  ]
+}

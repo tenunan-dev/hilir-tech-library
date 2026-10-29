@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "url": "https://www.toyo-eng.com/jp/en/solution/fuel-ammonia",
+      "note": "Toyo fuel-ammonia solution page, surfaced in web search 2026-10-29"
+    },
+    {
+      "url": "https://www.toyo-eng.com/jp/en/company/plan/mid-meeting/pdf/20241210_%E4%BA%8B%E6%A5%AD%E6%88%A6%E7%95%A5%E8%AA%AC%E6%98%8E%E4%BC%9A_%E6%9B%B8%E3%81%8D%E8%B5%B7%E3%81%93%E3%81%97_QA%E7%84%A1%E3%81%97_eng.pdf",
+      "note": "Toyo business strategy briefing Dec 2024: ammonia EPC market share"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "toyo",
+  "name": "Toyo Engineering",
+  "country": "Japan",
+  "roles": [
+    "epc",
+    "licensor"
+  ],
+  "description": "Japanese petrochemical and fertilizer-plant EPC holding a significant share of the global ammonia-plant EPC market (Toyo business briefing, Dec 2024), currently building a 1,500 t/d ammonia plant in the US on KBR technology; in alliance with JGC since 2022 for fuel-ammonia plants and Japanese import terminals. Traditionally a licensor-contractor for urea, methanol and ethylene derivatives.",
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-green-blue-ammonia",
+    "pch-steam-cracking"
+  ],
+  "url": "https://www.toyo-eng.com",
+  "aliases": [
+    "Toyo Engineering Corporation",
+    "TOYO"
+  ],
+  "products": [
+    "ammonia and urea plant EPC and licences",
+    "petrochemical EPC"
+  ]
+}

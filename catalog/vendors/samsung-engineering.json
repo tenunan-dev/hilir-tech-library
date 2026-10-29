@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "url": "https://www.samsungengineering.co.kr",
+      "note": "Company site; project facts verified via web search 2026-10-29 (site read pending)"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "samsung-engineering",
+  "name": "Samsung Engineering (Samsung E&A)",
+  "country": "South Korea",
+  "roles": [
+    "epc"
+  ],
+  "description": "Korean plant EPC contractor, rebranded Samsung E&A, with a heavy Middle East petrochemical and refining order book: ~USD 1.7 bn TA'ZIZ methanol project EPC at Ruwais, UAE (2025), a ~USD 1.6 bn Jubail export refinery complex package (Korean consortium), Pemex Dos Bocas Phase II agreement, Saudi APOC work (MEED 2025 Energy Project of the Year), and the ~USD 7.2 bn Saudi gas-plant expansion won jointly with GS E&C.",
+  "technologies": [
+    "pch-steam-cracking",
+    "ref-cdu-vdu",
+    "gas-to-methanol"
+  ],
+  "url": "https://www.samsungengineering.co.kr",
+  "aliases": [
+    "Samsung E&A",
+    "Samsung Engineering Co., Ltd."
+  ],
+  "products": [
+    "refinery and petrochemical EPC",
+    "gas plant EPC"
+  ]
+}

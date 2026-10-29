@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "url": "https://www.daelim.co.kr",
+      "note": "Company site; project facts verified via web search 2026-10-29 (site read pending)"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "daelim",
+  "name": "Daelim",
+  "country": "South Korea",
+  "roles": [
+    "epc"
+  ],
+  "description": "Korean EPC contractor (Daelim Industrial lineage) for refineries, petrochemical and gas plants; repeat member of Korean consortium wins on Middle East packages such as the Kuwait Al-Zour refinery.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "pch-steam-cracking"
+  ],
+  "url": "https://www.daelim.co.kr",
+  "aliases": [
+    "Daelim Industrial"
+  ],
+  "products": [
+    "refinery and petrochemical EPC"
+  ]
+}

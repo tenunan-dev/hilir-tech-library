@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "url": "https://www.jgc.com/en/ir/ir-library/annual-reports/pdf/JGCReport2024_e_A4.pdf",
+      "note": "JGC Report 2024, surfaced in web search 2026-10-29: LNG share of backlog and PFLNG Satu track record"
+    },
+    {
+      "url": "https://www.jgc.com/en/news/assets/pdf/20230331e.pdf",
+      "note": "JGC press release Mar 2023: fuel-ammonia plans and JGC-Toyo alliance"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "jgc",
+  "name": "JGC Group",
+  "country": "Japan",
+  "roles": [
+    "epc"
+  ],
+  "description": "Japanese plant EPC with LNG dominating its recent order backlog (JGC Report 2024: roughly 88 percent LNG-related), including participation in Malaysia's PFLNG Satu, the world's first floating LNG facility, and the PNG LNG onshore EPC with Chiyoda. In alliance with Toyo Engineering since 2022 for fuel-ammonia production plants and import terminals in Japan ahead of the 2024-2027 ammonia construction wave.",
+  "technologies": [
+    "gas-electric-drive-lng",
+    "lng-flng",
+    "ref-cdu-vdu",
+    "h2-green-blue-ammonia",
+    "h2-ammonia-cracking"
+  ],
+  "url": "https://www.jgc.com",
+  "aliases": [
+    "JGC Corporation",
+    "JGC Holdings"
+  ],
+  "products": [
+    "LNG and gas plant EPC",
+    "refinery EPC",
+    "fuel-ammonia EPC (with Toyo)"
+  ]
+}

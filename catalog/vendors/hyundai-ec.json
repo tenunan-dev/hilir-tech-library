@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "url": "https://www.hdec.co.kr",
+      "note": "Company site; project facts verified via web search 2026-10-29 (site read pending)"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "hyundai-ec",
+  "name": "Hyundai Engineering & Construction",
+  "country": "South Korea",
+  "roles": [
+    "epc"
+  ],
+  "description": "Korean plant and construction EPC: refinery packages (Al-Zour refinery in Kuwait with other Korean contractors), Middle East oil and gas mega-projects, and power diversification - reported October 2025 as the first Korean EPC firm to win a US nuclear power plant contract. Legally distinct from Hyundai Engineering Co., Ltd.",
+  "technologies": [
+    "ref-cdu-vdu",
+    "pwr-large-light-water-reactors",
+    "pch-steam-cracking"
+  ],
+  "url": "https://www.hdec.co.kr",
+  "aliases": [
+    "Hyundai E&C",
+    "HDEC"
+  ],
+  "products": [
+    "refinery and petrochemical EPC",
+    "nuclear and power plant construction"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "url": "https://www.doosanenerbility.com",
+      "note": "Company site; portfolio facts are general industry knowledge, site read pending"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "doosan-enerbility",
+  "name": "Doosan Enerbility",
+  "country": "South Korea",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "description": "Korean heavy-industry OEM: gas and steam turbines, HRSG boilers and nuclear components (including APR1400 heavy forgings), district-energy and desalination plants, and offshore-wind foundations. Distinct from the Doosan Skoda record, which covers the Czech legacy portfolio.",
+  "technologies": [
+    "pwr-heavy-duty-gas-turbines",
+    "pwr-combined-cycle-hrsg",
+    "pwr-large-light-water-reactors",
+    "pwr-offshore-wind-fixed"
+  ],
+  "url": "https://www.doosanenerbility.com",
+  "aliases": [
+    "Doosan Heavy Industries & Construction"
+  ],
+  "products": [
+    "gas and steam turbines",
+    "HRSG boilers",
+    "nuclear components and forgings",
+    "offshore wind foundations"
+  ]
+}

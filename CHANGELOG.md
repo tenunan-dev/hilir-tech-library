@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.5] — 2026-10-29 — Korean and Japanese plant-EPC cohort; plan gains vendor-coverage section
+
+### Added
+- Nine contractor records: `samsung-engineering` (Samsung E&A — TA'ZIZ methanol, Jubail refinery package), `hyundai-ec` (Al-Zour, first Korean EPC US nuclear win), `sk-ecoplant` (ex-SK E&C), `daelim`, `gs-ec` (USD 7.2 bn Saudi gas-plant expansion with Samsung E&A), `kepco-ec` (APR1400 design/E&C), `doosan-enerbility` (turbines/HRSG/nuclear forgings), `jgc` (LNG-dominated EPC, PFLNG Satu, PNG LNG, JGC-Toyo fuel-ammonia alliance) and `toyo` (ammonia-plant EPC leader). `chiyoda` broadened from H2 licensor to full LNG/refinery EPC. Vendors 378 → 390.
+- docs/SOURCE_DISCOVERY_PLAN.md: new "who can supply, build, construct and maintain" vendor-coverage section with the regional cohort log (CN done, KR/JP done) and next cohorts (Western EPC, NOC engineering arms).
+
 ## [2026.10.29.4] — 2026-10-29 — Chinese EPC/supplier coverage: Wison, Sinopec, Sinopec Engineering registered
 
 ### Added

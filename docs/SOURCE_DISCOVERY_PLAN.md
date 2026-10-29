@@ -44,10 +44,32 @@ channel-3 crawler are Wave 0 of this plan. Channel 5 costs nothing and already w
    `python tools/build.py && python agent/library.py build` (+ `agent/embed.py` when
    corpus grew) → Neon reload → `wrangler deploy` → live check `/api/stats`.
 
+## Vendor coverage: who can supply, build, construct and maintain
+
+The library is not only about technologies but also about who can deliver them. The
+vendor directory (decision #28) is that layer — roles (oem, licensor, packager, epc,
+developer, operator, rental, service, supplier, integrator), products and
+per-technology links, wired into search, MCP, REST, web, Neon and the graph (`vendor:`
+nodes with `supplies` edges). Contractor and supplier discovery rides the same five
+channels and the same queue; candidates come from card supplier lists, the owner's
+inbox and the channel-3 provenance crawl.
+
+Regional contractor cohorts (owner-directed sweeps):
+
+- **2026-10-29, China:** `wison`, `sinopec`, `sinopec-engineering` registered.
+- **2026-10-29, Korea + Japan:** `samsung-engineering`, `hyundai-ec`, `sk-ecoplant`,
+  `daelim`, `gs-ec`, `kepco-ec`, `doosan-enerbility`, `jgc`, `toyo` registered;
+  `chiyoda` broadened from H2-licensor-only to full LNG/refinery EPC.
+- **Next cohorts:** Western EPC gaps (Fluor, Wood, Petrofac, Worley, Bechtel, McDermott
+  — KBR, Technip, Saipem, MODEC and the Korean shipyards already in), NOC engineering
+  arms (CNOOC, CPECC, PetroChina engineering), Southeast Asian contractors; then the
+  channel-3 provenance crawl starts from this cohort.
+
 ## Wave 0 (next session)
 
 1. Write `tools/discover_sources.py` (channel 1) and run it once over the current corpus.
-2. Crawl the first vendor batch (channel 3): all PWR + H2 vendors.
+2. Crawl the first vendor batch (channel 3): the new CN/KR/JP contractor cohort plus
+   all PWR + H2 vendors.
 3. Collect a first EUBCE proceedings batch into `corpus/_inbox/eubce/` (papers for the
    bioenergy cards: BECCS, biochar, pyrolysis/HTL, cellulosic ethanol, WTE).
 4. OpenAlex run #1 (channel 2) over 50 representative docs.
@@ -69,3 +91,8 @@ Newest first, one line per session: what ran, candidates found, registered, coll
   output processed (4 candidates): all 4 registered (the owner's `irecruit.co` link
   resolved the fourth — iRecruit is a construction/AEC recruiting firm with 2026 market
   reports; `catalog/sources/irecruit.json`, tier 3 trade media). Wave 0 not started.
+- **2026-10-29 (later):** Owner-directed vendor cohorts: China (Wison, Sinopec, Sinopec
+  Engineering) and Korea + Japan (Samsung Engineering/E&A, Hyundai E&C, SK Ecoplant,
+  Daelim, GS E&C, KEPCO E&C, Doosan Enerbility, JGC, Toyo; Chiyoda broadened to LNG
+  EPC) — vendors 381 → 390. A "who can supply, build, construct and maintain" section
+  added above; Western-EPC and NOC-engineering cohorts queued next.

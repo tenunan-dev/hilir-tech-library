@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "url": "https://www.kepco-enc.com",
+      "note": "Company site; APR1400 project facts are general industry knowledge, site read pending"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "id": "kepco-ec",
+  "name": "KEPCO E&C",
+  "country": "South Korea",
+  "roles": [
+    "epc"
+  ],
+  "description": "Korea Power Engineering Company: nuclear power plant design and engineering-construction arm behind the APR1400 (Shin-Kori 3/4 in Korea; Barakah in the UAE with KEPCO/KHNP), plus conventional power plant engineering.",
+  "technologies": [
+    "pwr-large-light-water-reactors"
+  ],
+  "url": "https://www.kepco-enc.com",
+  "aliases": [
+    "Korea Power Engineering Company",
+    "KOPEC"
+  ],
+  "products": [
+    "APR1400 nuclear plant design and E&C",
+    "power plant engineering"
+  ]
+}

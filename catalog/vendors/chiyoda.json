@@ -3,23 +3,31 @@
   "name": "Chiyoda Corporation",
   "country": "Japan",
   "roles": [
-    "licensor",
-    "developer"
+    "developer",
+    "epc",
+    "licensor"
   ],
-  "description": "Japanese EPC and technology company behind the SPERA Hydrogen liquid organic carrier chain (toluene-MCH) demonstrated in the Kamigata-H Surg pilot.",
+  "description": "Japanese EPC and technology company: base-load LNG plant constructor (PNG LNG onshore trains with JGC; large-scale LNG is its core profitability engine) alongside refining and gas processing EPC, and the SPERA Hydrogen liquid organic carrier chain (toluene-MCH) demonstrated in the Kamigata-H pilot.",
   "technologies": [
-    "h2-lohc"
+    "gas-electric-drive-lng",
+    "h2-lohc",
+    "ref-cdu-vdu"
   ],
   "url": "https://www.chiyoda-corp.com",
   "sources": [
     {
       "url": "https://www.chiyoda-corp.com",
       "note": "Vendor site, read 2026-10-28"
+    },
+    {
+      "url": "https://www.euro-petrole.com/png-lng-project-approves-chiyoda-jgc-epc-contract-n-i-3836",
+      "note": "PNG LNG Chiyoda/JGC EPC approval, surfaced in web search 2026-10-29"
     }
   ],
   "last_reviewed": "2026-10-28",
   "aliases": [
-    "Chiyoda"
+    "Chiyoda",
+    "Chiyoda Corporation"
   ],
   "products": [
     "SPERA Hydrogen (MCH)"

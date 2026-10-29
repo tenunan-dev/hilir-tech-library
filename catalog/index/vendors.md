@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-381 vendor records covering 249 technologies. One record per vendor in
+390 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -60,6 +60,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Black & Veatch](https://www.bv.com) | USA | epc | Small and mid-scale modular LNG |
 | [Chart Industries](https://www.chartindustries.com) | USA | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers); Small and mid-scale modular LNG |
 | [Chevron Australia](https://www.chevron.com.au) | Australia | operator | Carbon capture on LNG plants (acid gas reinjection) |
+| [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | developer, epc, licensor | Electric-drive liquefaction (e-LNG) |
 | [Clean Energy Fuels](https://www.cleanenergyfuels.com) | USA | operator | Compressed natural gas and LNG as vehicle fuel |
 | [ConocoPhillips](https://www.conocophillips.com) | USA | operator, developer | Cascade liquefaction |
 | [Enerflex](https://www.enerflex.com) | Canada | oem, service | NGL fractionation and LPG recovery |
@@ -68,12 +69,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Freeport LNG](https://www.freeportlng.com) | USA | operator | Electric-drive liquefaction (e-LNG) |
 | [FueLNG](https://www.fuelng.com) | Singapore | operator | LNG bunkering |
 | [Golar LNG](https://www.golarlng.com) | United Kingdom | operator | Floating LNG (FLNG); Floating storage and regasification units (FSRU) |
+| [GS E&C](https://www.gsenc.com) | South Korea | epc | Amine acid gas removal (MDEA, formulated amines) |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Amine acid gas removal (MDEA, formulated amines); Molecular sieve and glycol dehydration; Hot potassium carbonate (Benfield); Membrane CO2 removal for high-CO2 gas; NGL fractionation and LPG recovery; Physical solvent gas treating (Selexol, Rectisol, Purisol); Small and mid-scale modular LNG |
 | [Höegh LNG](https://hoeghlng.com) | Norway | operator | Floating storage and regasification units (FSRU) |
 | [Jacobs](https://www.jacobs.com) | USA | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
+| [JGC Group](https://www.jgc.com) | Japan | epc | Electric-drive liquefaction (e-LNG); Floating LNG (FLNG) |
 | [Kobe Steel](https://www.kobelco.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [KT Tech](https://www.kttech.co.kr) | South Korea | epc | Sulfur recovery (Claus, tail gas treating, SuperClaus) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Liquid redox sulfur recovery (LO-CAT) |
+| [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Gas-to-methanol and methanol-to-gasoline |
 | [Sasol](https://www.sasol.com) | South Africa | operator | Gas-to-liquids (Fischer-Tropsch) |
 | [Sumitomo Precision Products](https://www.spp.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [Titan LNG](https://titan-lng.com) | Netherlands | operator | Bio-LNG and liquefied biomethane |
@@ -93,7 +97,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Bright Biomethane (Bright Renewables)](https://www.bright-renewables.com) | Netherlands | oem | Biogas upgrading to biomethane |
 | [Burckhardt Compression](https://www.burckhardtcompression.com) | Switzerland | oem, service | Hydrogen compressors (diaphragm, ionic, reciprocating) |
 | [Casale](https://www.casale.ch) | Switzerland | licensor | Green and blue ammonia |
-| [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | licensor, developer | Liquid organic hydrogen carriers (MCH, DBT) |
+| [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | developer, epc, licensor | Liquid organic hydrogen carriers (MCH, DBT) |
 | [Clariant](https://www.clariant.com) | Switzerland | supplier | Cellulosic ethanol |
 | [CSIRO](https://www.csiro.au) | Australia | developer | Photocatalytic and thermochemical water splitting |
 | [Cummins](https://www.cummins.com) | USA | oem | PEM electrolysis |
@@ -112,6 +116,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [INERATEC](https://ineratec.de) | Germany | oem | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
 | [Infinium](https://infinium.com) | USA | developer | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
 | [ITM Power](https://www.itm-power.com) | United Kingdom | oem | E-methane (synthetic natural gas); PEM electrolysis |
+| [JGC Group](https://www.jgc.com) | Japan | epc | Green and blue ammonia; Ammonia as hydrogen carrier and ammonia cracking |
 | [John Cockerill](https://johncockerill.com) | Belgium | oem | Alkaline water electrolysis |
 | [Johnson Matthey](https://matthey.com) | United Kingdom | licensor, supplier | Gas-heated reforming; Ammonia as hydrogen carrier and ammonia cracking; Autothermal reforming with CO2 capture (blue hydrogen); E-methanol and bio-methanol; Reverse water-gas shift for e-fuels; Partial oxidation and gasification |
 | [Kawasaki Heavy Industries](https://global.kawasaki.com) | Japan | oem, developer | Liquid hydrogen |
@@ -143,6 +148,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [thyssenkrupp Uhde](https://uhde.thyssenkrupp.com) | Germany | licensor, epc | Green and blue ammonia |
 | [Tokyo Gas](https://www.tokyo-gas.co.jp) | Japan | operator, developer | E-methane (synthetic natural gas) |
 | [Topsoe](https://www.topsoe.com) | Denmark | supplier, licensor, oem | Ammonia as hydrogen carrier and ammonia cracking; Autothermal reforming with CO2 capture (blue hydrogen); Co-electrolysis of CO2 and water; E-methanol and bio-methanol; Green and blue ammonia; Reverse water-gas shift for e-fuels; Steam methane reforming; Solid oxide electrolysis |
+| [Toyo Engineering](https://www.toyo-eng.com) | Japan | epc, licensor | Green and blue ammonia |
 | [Toyota](https://www.toyota-global.com) | Japan | oem | Fuel cells (PEM, SOFC) |
 | [Velocys](https://www.velocys.com) | United Kingdom | licensor | Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2) |
 | [WinGD](https://www.wingd.com) | Switzerland | oem | Ammonia as marine fuel |
@@ -234,6 +240,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Chevron Phillips Chemical](https://www.cpchem.com) | USA | oem, licensor | Polyethylene (gas phase, slurry, solution) |
 | [CJ CheilJedang](https://www.cj.co.kr) | South Korea | oem | PHA bioplastics |
 | [Covestro](https://www.covestro.com) | Germany | oem | Engineering plastics (polycarbonate, nylon) |
+| [Daelim](https://www.daelim.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Danimer Scientific](https://danimerscientific.com) | USA | oem | PHA bioplastics |
 | [DICP / SYN Energy Technology](https://www.dicp.ac.cn) | China | licensor | Methanol-to-olefins (MTO, DMTO) |
 | [Dow](https://www.dow.com) | USA | oem, licensor | Ethylene oxide and glycols; Propylene oxide (HPPO, PO/SM) |
@@ -242,6 +249,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Fraunhofer Society](https://www.fraunhofer.de) | Germany | developer | Solvent-based purification of plastics |
 | [GIG Karasek](https://www.gigkarasek.at) | Austria | oem | Electrification of process heat (e-boilers, heat pumps) |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Aromatics complexes (paraxylene, benzene); Methanol-to-olefins (MTO, DMTO); Paraxylene adsorption and crystallisation; Propane dehydrogenation (Oleflex, CATOFIN); Toluene disproportionation and transalkylation |
+| [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Indorama Ventures](https://www.indoramaventures.com) | Thailand | oem | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Ineos](https://www.ineos.com) | United Kingdom | oem | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); PVC (suspension) and chlor-alkali |
 | [Loop Industries](https://www.loopindustries.com) | Canada | developer | Depolymerisation of PET (glycolysis, enzymatic) |
@@ -252,13 +260,16 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Plastic Energy](https://plasticenergy.com) | Spain | developer, operator | Plastics pyrolysis (chemical recycling) |
 | [PureCycle Technologies](https://purecycletech.com) | USA | operator, oem | Solvent-based purification of plastics |
 | [SABIC](https://www.sabic.com) | Saudi Arabia | oem | Electric steam cracking; Engineering plastics (polycarbonate, nylon) |
+| [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Scientific Design Company](https://www.scientificdesign.com) | USA | licensor | Ethylene oxide and glycols |
 | [Siluria Technologies](https://www.lummustechnology.com) | USA | developer | Oxidative coupling of methane |
 | [Sinopec](https://www.sinopecgroup.com/group/en/) | China | operator, developer, supplier | Steam cracking (naphtha, ethane, LPG) |
 | Sinopec Engineering Group | China | epc, licensor | Steam cracking (naphtha, ethane, LPG); Butadiene extraction and on-purpose butadiene |
+| [SK Ecoplant](https://www.skecplant.com) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Stamicarbon](https://www.stamicarbon.com) | Netherlands | licensor | Ammonia and urea |
 | [thyssenkrupp Uhde Inventa-Fischer](https://uhde.thyssenkrupp.com) | Germany | licensor | PET and polyester |
 | [TotalEnergies Corbion](https://www.totalenergies-corbion.com) | Netherlands | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
+| [Toyo Engineering](https://www.toyo-eng.com) | Japan | epc, licensor | Ammonia and urea; Steam cracking (naphtha, ethane, LPG) |
 | [Univation Technologies](https://www.univation.com) | USA | licensor | Polyethylene (gas phase, slurry, solution) |
 | [W. R. Grace](https://grace.com) | USA | supplier | Polypropylene (gas phase, bulk) |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | Steam cracking (naphtha, ethane, LPG) |
@@ -295,6 +306,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Climeon](https://climeon.com) | Sweden | oem | Modular ORC units for waste heat and small geothermal |
 | [Cosin](https://www.cosinsolar.com) | China | oem, epc | Concentrated solar power with storage |
 | [Cummins](https://www.cummins.com) | USA | oem | Gas engines; Modular reciprocating engine power plants |
+| [Doosan Enerbility](https://www.doosanenerbility.com) | South Korea | oem, supplier | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Large light-water reactors; Offshore wind (fixed bottom) |
 | [Eavor](https://eavor.com) | Canada | developer | Enhanced geothermal systems |
 | [ElectraTherm](https://electratherm.com) | USA | oem | Modular ORC units for waste heat and small geothermal |
 | [Energy Vault](https://energyvault.com) | USA | integrator, developer, service | Gravity energy storage; Lithium-ion battery energy storage |
@@ -308,17 +320,20 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [GE Vernova](https://www.gevernova.com) | USA | oem, service | Mobile gas turbine power plants; Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Cogeneration and combined heat and power; Hydropower; HVDC transmission and interconnectors |
 | [GE Vernova Hitachi Nuclear Energy](https://www.gevernova.com/nuclear) | USA | oem | Small modular reactors; Large light-water reactors |
 | [Goldwind](https://www.goldwind.com) | China | oem, service | Onshore wind; Offshore wind (fixed bottom) |
+| [GS E&C](https://www.gsenc.com) | South Korea | epc | Combined cycle and HRSG |
 | [Highview Power](https://highviewpower.com/) | United Kingdom | developer, oem | Compressed and liquid air energy storage |
 | [HiNa Battery](https://www.hinabattery.com/en/) | China | oem, supplier | Sodium-ion batteries |
 | [Hitachi Energy](https://www.hitachienergy.com/) | Switzerland | oem, integrator, service | HVDC transmission and interconnectors; Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
 | [Hitachi Zosen Inova](https://www.kanadevia-inova.com) | Switzerland | epc, oem | Biomass and waste-to-energy |
 | [HolosGen](https://holosgen.com) | USA | developer | Microreactors (transportable nuclear) |
 | [Hydrostor](https://www.hydrostor.ca/) | Canada | developer | Compressed and liquid air energy storage |
+| [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Large light-water reactors |
 | [INNIO Jenbacher](https://www.jenbacher.com) | Austria | oem | Gas engines; Modular reciprocating engine power plants; Cogeneration and combined heat and power |
 | [Invinity Energy Systems](https://invinity.com/) | United Kingdom | oem | Flow batteries (vanadium, zinc-bromine) |
 | [JA Solar](https://www.jasolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [JinkoSolar](https://www.jinkosolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [Karpowership](https://karpowership.com) | Turkey | operator, packager | Powerships and power barges |
+| [KEPCO E&C](https://www.kepco-enc.com) | South Korea | epc | Large light-water reactors |
 | [Kraftblock](https://www.kraftblock.com/) | Germany | oem | Thermal energy storage (molten salt, sand, bricks) |
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
 | [Mitsubishi Power](https://power.mhi.com) | Japan | oem | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines; Mobile gas turbine power plants |
@@ -363,19 +378,26 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Bechtel](https://www.bechtel.com) | USA | epc | Sour water stripping and amine regeneration |
 | [Cameron (SLB)](https://www.slbcameron.com) | USA | oem | Crude and vacuum distillation with heat integration |
 | [Chevron Lummus Global](https://www.chevronlummus.com) | USA | licensor | Crude-to-chemicals complexes; Direct crude cracking; Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Resid hydrocracking (ebullated and slurry bed) |
+| [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | developer, epc, licensor | Crude and vacuum distillation with heat integration |
+| [Daelim](https://www.daelim.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [Eni](https://www.eni.com) | Italy | operator | Resid hydrocracking (ebullated and slurry bed) |
 | [ExxonMobil](https://corporate.exxonmobil.com) | USA | oem, operator | Delayed coking and fluid coking; Direct crude cracking; FCC gasoline post-treating (Prime-G+, SCANfining); Refinery flue gas and FCC carbon capture |
 | [Gevo](https://gevo.com) | USA | oem | Alcohol-to-jet SAF |
+| [GS E&C](https://www.gsenc.com) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [GTC Technology](https://gtctech.com) | USA | licensor | Isomerisation (C5/C6) |
 | [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Advanced process control and real-time optimisation |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Alcohol-to-jet SAF; Alkylation (HF, sulfuric, ionic liquid, solid acid); Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Fluid catalytic cracking and resid FCC; Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Mercaptan sweetening (Merox); Refinery-petrochemical integration (FCC propylene, HS-FCC) |
+| [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
+| [JGC Group](https://www.jgc.com) | Japan | epc | Crude and vacuum distillation with heat integration |
 | [KBC (Yokogawa)](https://www.kbc.global) | United Kingdom | supplier | Process simulation and digital twins |
 | [LanzaJet](https://www.lanzajet.com) | USA | licensor, developer | Alcohol-to-jet SAF |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Delayed coking and fluid coking; Fluid catalytic cracking and resid FCC; Direct crude cracking; Etherification (MTBE, ETBE, TAME) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Mercaptan sweetening (Merox) |
+| [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [Saudi Aramco](https://www.aramco.com) | Saudi Arabia | operator, developer | Direct crude cracking; Refinery-petrochemical integration (FCC propylene, HS-FCC); Crude-to-chemicals complexes |
 | [Sinopec](https://www.sinopecgroup.com/group/en/) | China | operator, developer, supplier | Crude and vacuum distillation with heat integration; Crude-to-chemicals complexes; Catalytic reforming (CCR, semi-regenerative) |
 | Sinopec Engineering Group | China | epc, licensor | Crude and vacuum distillation with heat integration; Crude-to-chemicals complexes |
+| [SK Ecoplant](https://www.skecplant.com) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Wastewater treatment (API separators, DAF, biological, MBR) |
 | [Yokogawa Electric](https://www.yokogawa.com) | Japan | oem, integrator | Advanced process control and real-time optimisation |
 
