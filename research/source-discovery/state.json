@@ -33,8 +33,9 @@
     {
       "id": "A5",
       "name": "Source miscategorization audit (source_type/sectors) + fixes",
-      "status": "queued",
-      "runs": 0
+      "status": "done",
+      "runs": 1,
+      "note": "audit 2026-10-29: scripted sweep over all 394 records (type-vs-publisher patterns, year URLs). 7 flags, 6 false positives (DOE labs/Lemigas correctly research-institute; CHT borderline kept); lng-conference year-URL deliberate, note added. No type changes needed - catalog typing healthy."
     },
     {
       "id": "A6",
