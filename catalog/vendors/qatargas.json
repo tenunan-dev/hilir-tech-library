@@ -1,0 +1,34 @@
+{
+  "id": "qatargas",
+  "name": "QatarEnergy LNG",
+  "country": "Qatar",
+  "roles": [
+    "operator",
+    "developer"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Qatar's LNG operating company (QatarEnergy group, formerly Qatargas and RasGas before their merger into QatarEnergy LNG): operator of the North Field LNG trains including the record-scale NFE/NFS expansions and the fleet serving the card's reference regas/supply chains.",
+  "technologies": [
+    "gas-lng-regasification",
+    "gas-electric-drive-lng"
+  ],
+  "url": "https://www.qatarenergylng.com",
+  "sources": [
+    {
+      "url": "https://www.qatarenergylng.com",
+      "note": "Company identity; Qatargas/RasGas merger into QatarEnergy LNG verified via web search 2026-10-30"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Qatargas",
+    "RasGas",
+    "Ras Laffan LNG",
+    "QatarEnergy LNG Company"
+  ],
+  "products": [
+    "North Field East/North Field South LNG trains"
+  ]
+}

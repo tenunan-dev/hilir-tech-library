@@ -121,17 +121,53 @@ def vendors_page(vendors, cards, labels):
             lines.append(f"| {url} | {v['country']} | {', '.join(v['roles'])} | {techs} |")
         lines.append("")
     # Coverage queue: supplier names on cards whose sector has directory entries, or everywhere, minus matches.
-    queue = {}
+    # Compound entries split on "/" and match part by part; what remains is either a nameable
+    # vendor candidate (queue) or a descriptive phrase that is not a company name (notes).
+    note_start = re.compile(
+        r"^(no |none |various |major |operators?|governments?|terminal |research |epc |contractors?|"
+        r"producers|licensors|consortia|programmes?|projects |stage|doe-funded|see )", re.I)
+    note_contains = re.compile(
+        r"\b(vendors|licensors|contractors|producers|operators|groups|programmes|consortia|companies)\b|"
+        r"none named|identified in", re.I)
+
+    def nameable(text):
+        head = re.sub(r"\([^)]*\)", "", text).strip()
+        if not head or note_start.search(head) or note_contains.search(head):
+            return False
+        return len(head.split()) <= 6
+
+    queue, notes = {}, {}
     for c in cards:
         for s in c["suppliers"]:
-            if name_key(s["name"]) not in by_key:
-                queue.setdefault(c["sector"], {})[name_key(s["name"])] = s["name"]
+            raw = s["name"]
+            if name_key(raw) in by_key:
+                continue
+            parts = [p.strip() for p in raw.split("/") if p.strip()]
+            leftovers = [p for p in parts if name_key(p) not in by_key]
+            if len(parts) > 1 and len(leftovers) < len(parts):
+                for p in leftovers:
+                    bucket = queue if nameable(p) else notes
+                    bucket.setdefault(c["sector"], {})[name_key(p)] = p
+                continue
+            bucket = queue if nameable(raw) else notes
+            bucket.setdefault(c["sector"], {})[name_key(raw)] = raw
     lines += ["## Coverage queue: supplier names on cards not yet in the directory", "",
               "Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).",
-              "Adding a record for one of them is the next batch of this directory.", ""]
-    for code in sorted(queue):
-        names = sorted(queue[code].values(), key=str.lower)
-        lines.append(f"- **{code}** ({len(names)}): " + "; ".join(names))
+              "Compound entries are split on '/' and matched part by part; descriptive phrases that are not",
+              "company names are listed as card notes below. Adding a record for a queue entry is the next",
+              "batch of this directory.", ""]
+    if queue:
+        for code in sorted(queue):
+            names = sorted(queue[code].values(), key=str.lower)
+            lines.append(f"- **{code}** ({len(names)}): " + "; ".join(names))
+    else:
+        lines.append("Empty - every named supplier on the cards is in the directory.")
+    if notes:
+        lines += ["", "## Card notes: generic supplier descriptions (not nameable vendors)", "",
+                  "These cards describe their suppliers generically; the strings are not company names.", ""]
+        for code in sorted(notes):
+            names = sorted(notes[code].values(), key=str.lower)
+            lines.append(f"- **{code}** ({len(names)}): " + "; ".join(names))
     matched = sum(1 for c in cards if any(name_key(s["name"]) in by_key for s in c["suppliers"]))
     lines += ["", f"{matched} of {len(cards)} cards list at least one directory vendor.", ""]
     return "\n".join(lines)

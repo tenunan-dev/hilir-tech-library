@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-413 vendor records covering 249 technologies. One record per vendor in
+414 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -81,6 +81,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | Floating LNG (FLNG); Electric-drive liquefaction (e-LNG) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Liquid redox sulfur recovery (LO-CAT) |
 | [Petrofac](https://www.petrofac.com) | UK | epc, service | Amine acid gas removal (MDEA, formulated amines) |
+| [QatarEnergy LNG](https://www.qatarenergylng.com) | Qatar | operator, developer | LNG regasification (open rack, submerged combustion, ambient air vaporisers); Electric-drive liquefaction (e-LNG) |
 | [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Gas-to-methanol and methanol-to-gasoline |
 | [Sasol](https://www.sasol.com) | South Africa | operator | Gas-to-liquids (Fischer-Tropsch) |
 | [Sumitomo Precision Products](https://www.spp.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
@@ -546,12 +547,19 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 ## Coverage queue: supplier names on cards not yet in the directory
 
 Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).
-Adding a record for one of them is the next batch of this directory.
+Compound entries are split on '/' and matched part by part; descriptive phrases that are not
+company names are listed as card notes below. Adding a record for a queue entry is the next
+batch of this directory.
+
+Empty - every named supplier on the cards is in the directory.
+
+## Card notes: generic supplier descriptions (not nameable vendors)
+
+These cards describe their suppliers generically; the strings are not company names.
 
 - **CCS** (8): CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
-- **GAS** (1): RasGas / Qatargas (operators)
 - **MID** (2): Governments; Terminal operators
-- **REF** (3): Axens/Technip Energies; Bechtel/Foster Wheeler (Amec); EPC contractors (process designed by refiner or contractor)
+- **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
 272 of 299 cards list at least one directory vendor.
