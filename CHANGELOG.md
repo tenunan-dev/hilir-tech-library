@@ -7,6 +7,16 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.6] — 2026-10-29 — Source discovery plan v2: autonomous sequencing, 43 seeded candidates, categorization stream
+
+### Changed
+- docs/SOURCE_DISCOVERY_PLAN.md rewritten (owner direction): continuous multi-agent execution without owner intervention — blocks A1–A12 tracked in a committed sequencer (research/source-discovery/state.json), human-dependent items parked behind, temporary failures retried and re-sequenced after every block outcome.
+- research/source-discovery/ (candidates.jsonl queue + state.json) now versioned (gitignore exception); inbox stays local.
+
+### Added
+- Block A1 done: 43 candidates mined from gap where-hints (34 sources incl. IADC, IMO, INL, EPA AP-42/GHGRP, World Bank GGFR, EAGE, Maritime Executive, Ship & Bunker; 8 vendors incl. BP, Hengli, Rongke retry, Kanadevia rename fix).
+- Categorization work stream: vendor `categories` enum (A4), source_type audit (A5), verification sweep of 193 unverified records (A6); equipment index proposed, undecided.
+
 ## [2026.10.29.5] — 2026-10-29 — Korean and Japanese plant-EPC cohort; plan gains vendor-coverage section
 
 ### Added

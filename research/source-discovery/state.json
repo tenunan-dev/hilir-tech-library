@@ -1,0 +1,25 @@
+{
+  "updated": "2026-10-29",
+  "note": "Live sequencer state for docs/SOURCE_DISCOVERY_PLAN.md blocks. Any agent: update after every block completion, failure or re-plan. Statuses: queued | running | done | partial | blocked-temporary (has retry_after + retries) | blocked-owner. Re-sequence freely after each block; never delete rows.",
+  "blocks": [
+    {"id": "A1", "name": "Seed candidate harvest from gaps.md where-hints (manual pre-pass)", "status": "done", "runs": 1, "note": "43 candidates queued 2026-10-29"},
+    {"id": "A2", "name": "Write tools/discover_sources.py (channel-1 script) and run over corpus + gaps", "status": "queued", "runs": 0},
+    {"id": "A3", "name": "Triage + register queued source candidates (batches of ~8)", "status": "queued", "runs": 0, "note": "43 queued; dedup, verify, register; paid ones -> blocked-owner"},
+    {"id": "A4", "name": "Vendor categories: optional schema field + backfill all vendors", "status": "queued", "runs": 0},
+    {"id": "A5", "name": "Source miscategorization audit (source_type/sectors) + fixes", "status": "queued", "runs": 0},
+    {"id": "A6", "name": "Verification sweep of 193 unverified source records", "status": "queued", "runs": 0, "note": "bot-blocked pages -> blocked-temporary, browser retry"},
+    {"id": "A7", "name": "Vendor-provenance crawl (channel 3), contractor cohort first", "status": "queued", "runs": 0},
+    {"id": "A8", "name": "OpenAlex/Crossref venue sweep (channel 2), 50 docs", "status": "queued", "runs": 0},
+    {"id": "A9", "name": "Event + standards-body sweep (channel 4)", "status": "queued", "runs": 0},
+    {"id": "A10", "name": "EUBCE proceedings batch 1 + intake", "status": "queued", "runs": 0},
+    {"id": "A11", "name": "Vendor cohorts: Western EPC, NOC engineering arms, SEA contractors, alias fixes", "status": "queued", "runs": 0},
+    {"id": "A12", "name": "Publish cycle: embed + Neon reload + wrangler deploy + live check", "status": "blocked-temporary", "retries": 0, "retry_after": "after any 2 content blocks land", "note": "Needs Docker running for deploy; reload/redeploy whenever blocked, retry later"}
+  ],
+  "parked_owner": [
+    "Gas Turbine World handbook purchase (manual extracts)",
+    "Nelson-Farrar / IHS PEP / Wood Mackenzie subscriptions",
+    "18 bot-walled terms pages + PetroWiki/OnePetro (human browsing, docs/HUMAN_ACTION_KIV.md)",
+    "iRecruit-style future inbox drops (continuous)",
+    "Auto-deploy secret, Dataverse import, LIBRARY_USERS, claude.ai connector, Copilot Studio"
+  ]
+}

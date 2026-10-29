@@ -11,9 +11,11 @@ node_modules/
 .mimosa/
 
 # catalog-sweep scratch: raw snapshots and result JSONs stay out of git;
-# the fields template is versioned
+# the fields template is versioned; the source-discovery queue and sequencer state
+# are versioned too (referenced by docs/SOURCE_DISCOVERY_PLAN.md)
 research/*
 !research/fields-template.yaml
+!research/source-discovery/
 
 # local-only notes and how-tos (e.g. library-users.local.txt)
 *.local.txt
