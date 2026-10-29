@@ -1,0 +1,767 @@
+---
+source_id: "arxiv"
+title: "Artificial intelligence-based predictive fuel"
+url: "https://arxiv.org/abs/2608.23337"
+retrieved_at: "2026-10-28T00:00:00+00:00"
+licence: "arXiv-non-exclusive"
+reuse_level: "full-text-open"
+permitted_use: "any"
+sectors: ["H2"]
+disciplines: ["PRC"]
+collected: "manual"
+summary: "Full-text conversion of arXiv 2608.23337. Abstract: Artificial intelligence-based predictive fuel
+blending control for flare gas mitigation
+J. Kir Hromatko ∗, ˇS. Ile ˇs∗, R. Huljev †, V . Vuˇckovi´c‡
+∗ University of Zagreb, Faculty of Electrical Engineering and Computing, Zagreb, Croatia
+E-mail:{josip.kir.hromatko, sandor.iles}@fer.hr
+† Genuyn, Office 9, Dalton House, 60 Windsor Avenue, London, United Kingdom, SW19 2RR
+E-mail: rube@genuyn.com
+‡ Po"
+---
+
+# Artificial intelligence-based predictive fuel
+
+Artificial intelligence-based predictive fuel
+blending control for flare gas mitigation
+J. Kir Hromatko ∗, ˇS. Ile ˇs∗, R. Huljev †, V . Vuˇckovi´c‡
+∗ University of Zagreb, Faculty of Electrical Engineering and Computing, Zagreb, Croatia
+E-mail:{josip.kir.hromatko, sandor.iles}@fer.hr
+† Genuyn, Office 9, Dalton House, 60 Windsor Avenue, London, United Kingdom, SW19 2RR
+E-mail: rube@genuyn.com
+‡ Popravak Brodskih Motora d.o.o., Svilno bb, 51219 ˇCavle (Rijeka), Croatia
+E-mail: velibor.vuckovic@pbm.hr
+© 2023 IEEE. Personal use of this material is permitted. Permission from IEEE must be
+obtained for all other uses, in any current or future media, including reprinting/republishing
+this material for advertising or promotional purposes, creating new collective works, for resale
+or redistribution to servers or lists, or reuse of any copyrighted component of this work in other
+works.
+Abstract—This paper describes a fuel blending algorithm
+based on artificial intelligence and model predictive control.
+A gas-fired power plant was modeled using physical laws
+and on-site measurements. A neural network is used to
+calculate the methane number of the fuel and determine
+the fuel blending ratio limits so that the methane number
+is within the limits specified by the engine manufacturer. A
+model predictive controller adjusts the final blending ratio to
+meet safety requirements and minimize operating costs. The
+algorithm was tested in simulations with different scenarios
+and a reduction in both the operating costs and amount of
+flaring was observed.
+Keywords—fuel blending, methane number, neural net-
+work, model predictive control, flare mitigation
+I. INTRODUCTION
+Flares are important safety devices that can burn off
+unwanted gases due to their volatile nature concerning
+the amount, availability, and quality. However, if operated
+improperly, flaring can emit vast amounts of pollutants,
+and pose significant environmental and health risks. It is
+highly desirable to achieve zero flaring via flare mini-
+mization and flare gas recovery. By integrating the flared
+gases into a fuel gas network, it is possible to reduce
+emissions, as well as conserve energy in refineries [1]. A
+comparison of economic profitability for various scenarios
+for using flare gases is investigated in [2]. According to
+the paper, the flare gases with higher flow rates and better
+gas composition in terms of the amount of hydrogen and
+hydrogen sulfide highly influence the profitability of using
+such gases in various applications.
+In this paper, we investigate the possibility of using
+model predictive control and neural networks to use flare
+gases in a dual-fuel engine.
+Model predictive control (MPC) is a control strategy
+that uses a model of a system to predict its response to a
+given control input. An MPC algorithm repeatedly solves
+an optimization problem and computes the optimal control
+action that minimises the cost function and controls the
+states of the system to the desired operating point while
+This work has been supported in part by the European Regional
+Development Fund under the project KK.01.2.1.02.107.
+satisfying the control input and state constraints. MPC is
+widely used in industrial and process control applications,
+where it is valued for its ability to handle constraints. For
+example, MPC is used to control nonlinear systems with
+constraints, such as internal combustion engines where
+multiple objectives must be satisfied [3], or in applications
+such as fuel blending of six different feed gases where the
+objective is to achieve fuel blends with specific limits on
+the different composition properties [4].
+Instead of industrial fuel blending, in this paper we
+investigate the possibility of blending the flaring gas with
+natural gas in order to use it with a dual-fuel engine (or a
+gas-powered generator - genset). However, one of the main
+quality requirements of natural gas as an engine fuel is the
+methane number (MN). This parameter indicates the fuel’s
+capability to avoid knocking (spontaneous combustion) in
+the engine. A higher MN value indicates a better fuel
+quality for gas engines. The required minimum MN value
+usually depends on the engine manufacturer. More and
+more engine manufacturers or require fuel with a mini-
+mum methane number of 80, while some still maintain
+methane number limits below 80 (most often 70) [5]. In
+[6], a fuel blending system was used to vary the MN. With
+smaller MNs, NOx and CO emissions increased while
+combustion stability remained unaffected.
+The use of artificial neural networks for methane num-
+ber prediction is reported in [7], where the model was
+trained using 1202 different gaseous fuel compositions.
+The neural network model was compared to the A VL
+(Anstalt f ¨ur Verbrennungskraftmaschinen List) model and
+it was reported that the model was able to predict the MN
+accurately (R = 0.999).
+In this paper, the artificial neural network is used to
+predict the MN of different fuel blends based on the tail
+gas and natural gas with assumed known gas composition.
+The results from the neural network are used to find the
+limits on the fuel blending ratio which achieve the MN
+according to the motor specification. The model predictive
+control algorithm is used to minimize the price of the fuel
+blend and the amount of flaring while respecting several
+constraints on the variables of interest.
+arXiv:2608.23337v1  [eess.SY]  24 Aug 2026
+
+permeate gas inletnatural gas inlet buffer
+tank
+gas 
+generator
+set
+PID
+fuel mix ratio
+power reference output power (to grid)
+flow commands
+valves
+Fig. 1. Illustration of the plant operation.
+II. METHODS
+A. Plant description
+The industrial process of interest in this work is a gas-
+fired power plant. The main component of the power
+plant is a generator set which runs on gas and produces
+approximately 1 MW of electrical power. Two gases are
+available for fueling the generator: natural gas, which is
+in constant supply and has to be paid for, and permeate
+gas, whose supply varies, but is available for free. The
+generator runs on a mixture of the two fuel gases and the
+mixing ratio is set manually. The permeate gas is usually
+of lower quality (i.e., contains less methane), which can
+affect the generation of power and should be considered
+when setting the mixing ratio.
+Additionally, a gas tank was installed on the permeate
+gas stream to act as a buffer and mitigate the effect of
+variations in availability. Since the pressure in the tank
+needs to be limited, a safety mechanism which flares
+excess gas in case of high tank pressure was implemented.
+A simplified schematic of the power plant is given in
+Figure 1.
+B. Plant model
+The power output of a fuel engine that runs on methane
+depends on the flow rate of the methane, as well as
+the engine’s design and operating conditions. Generally,
+increasing the flow rate of methane to the engine will
+result in an increase in power output. However, there is
+a limit to how much methane can be safely and efficiently
+combusted within the engine, and at high flow rates, the
+engine may not be able to utilize the methane, resulting
+in decreased power output. Additionally, the engine’s
+compression ratio, ignition timing, and other factors can
+also affect the engine’s power output.
+The focus of the work presented here was on control-
+ling two variables of interest, the power output of the
+gas generator (engine) and the pressure in the gas tank
+(buffer). The actual power plant contains several control
+loops which ensure stable operation and allow for certain
+simplifications in control design.
+In modelling the gas generator, it was assumed that the
+output power is proportional to the amount of methane in
+the fuel, with a certain response time. The resulting model
+can be written as a differential equation:
+dP
+dt = 1τ (knqn +k pqp −P)(1)
+500 1000 1500 2000 2500 3000 3500 4000 4500 5000 5500
+200
+400
+600
+800Engine power [kW]
+Dataset 1
+model
+measurements
+0 500 1000 1500
+400
+600
+800
+1000Engine power [kW]
+Dataset 2
+model
+measurements
+0 500 1000 1500 2000 2500
+Time [s]
+600
+800
+1000Engine power [kW]
+Dataset 3
+model
+measurements
+Fig. 2. Recorded data and model fit.
+wherePis the generated power,q i the mass flow of
+fuel componentiandτthe time constant of the power
+output. The notation(·) n and(·) p refers to natural and
+permeate gas quantities. The gains from fuel components
+to generated power,k n andk p, generally depend on the
+fuel characteristics and the operating point (engine speed
+and torque), as well as other factors such as the engine
+efficiency. However, the on-site measurements enabled cal-
+culating the gains by a least squares fit and approximating
+them as constants. Figure 2 shows the measurements and
+the power output calculations using the obtained gains,
+which were in the order of10±1kW/(L/s)for different
+datasets.
+The tank pressure is affected by the incoming and
+outgoing permeate gas. The conservation of mass principle
+states that [8]:
+dM
+dt = ˙min −˙mout (2)
+whereMis the total mass of a substance in a tank and
+˙mi are the incoming and outgoing mass flows. Following
+the procedure in [9], the derivative of the tank pressure
+can be expressed as:
+dp
+dt = pρV (qi −q p)(3)
+wherep,ρandVdenote the gas pressure, density and
+volume,q i the incoming mass flow andq p the outgoing
+mass flow of permeate gas.
+The available measurements indicate that the gas density
+is approximately constant and equal to 1kg/m 3 for
+both gases so volumetric and mass flow can be used for
+calculations interchangeably.
+C. Neural network-based ratio limit calculation
+Gas engine manufacturers usually specify the desired
+limits for the methane number of fuel. Several methane
+number calculators are available as web [10] or mobile
+phone [11] applications, but using them in a control
+system requires a hardware implementation. The European
+
+0 10 20 30 40 50 60
+Sample number
+55
+60
+65
+70
+75
+80Methane content [%]
+natural gas
+permeate gas
+Fig. 3. Gas methane contents dataset (stars indicate the measurements).
+0 5 10 15 20 25
+Sample number
+70
+80
+90
+100
+110
+120Methane number
+NN
+calculator
+Fig. 4. Neural network performance on the test set.
+Association of Internal Combustion Engine and Alterna-
+tive Powertrain Manufacturers provides an open-source
+methane number calculator developed using Microsoft
+Excel and BASIC [12].
+Since the methane number is a nonlinear function of
+the gas components and running on an embedded system
+is required, a neural network was trained for calculating
+the methane number. For this purpose, on-site gas contents
+measurements were used. The permeate gas measurements
+obtained during one year are given in Table I. The natural
+gas measurements from the same period are approximately
+constant and similar to those of permeate gas in April
+2021. With this data, an augmented dataset of 110 samples
+was created with random linear combinations of adjacent
+samples, as shown in Figure 3.
+A relatively small network, with one hidden layer
+and two neurons with a radial basis activation function,
+was trained using Bayesian regularization and an 80/20
+train/test split. It proved to be complex enough and per-
+formed well on the test set (MSE=0.0547), as shown in
+Figure 4. The main difference between this network and
+the one presented in [7] is the network size; in this case,
+a much smaller network is sufficient since there is less
+variation in the dataset.
+Given the contents of the natural and permeate gases,
+the neural network calculates the methane number for each
+one. The methane number of the engine fuel, however,
+depends on the mixing ratio of the two components. For
+simplicity, it was assumed that the contents of the mix can
+be calculated as:
+cmix =rc p + (1−r)c n (4)
+wherec i are the contents of componentiandris the
+mixing ratio. The methane number of the mix is then
+calculated for different values of the mixing ratio and the
+boundary ratio values which satisfy the methane number
+limits (set by the manufacturer or the operator) are found.
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+Mix ratio
+87
+88
+89
+90
+91
+92
+93Methane number
+Fig. 5. Ratio limit selection.
+Since the methane number is a nonlinear function of the
+components, it is possible that there are several mix ratio
+intervals which satisfy the methane number constraint.
+However, only one interval can be included in the optimal
+control problem formulation presented in the next section.
+In that case, the interval which contains the current mix
+ratio is chosen to avoid oscillations in plant operation. If
+the current mix ratio is not in any of the allowed intervals,
+the closest permitted value is chosen. Additionally, if the
+gas contents are such that the methane number constraint
+cannot be satisfied for any mix ratio, the ratio which
+will produce the best possible methane number (although
+outside the specifications) is selected.
+An illustration is given in Figure 5, where the green
+line indicates the permitted mix ratio intervals, the dotted
+black line shows the current mix ratio and the full black
+lines indicate the selected mix ratio limits.
+D. Model predictive fuel mix ratio controller
+In order to minimize the use of gas flares and the
+operating costs, while limiting the tank pressure and power
+tracking error, a model predictive controller was used
+to determine the optimal fuel mix ratio. The reason for
+choosing the mix ratio instead of the individual gas flows
+as the output variable was the already existing engine
+controller, which determines the final flows according to
+the desired mix ratio and generated power.
+Generally, a model predictive controller seeks the con-
+trol sequence such that the user-defined cost function
+(which contains, e.g., energy usage, reference tracking
+error, safety limit violations) is minimized. The total cost
+function is calculated over a prediction horizon of open-
+loop behavior, consisting of several discrete time steps.
+Also, the choice of optimal control values is subject to
+state and control constraints (e.g., safety boundaries and
+actuator limitations).
+1) Discrete-time model:Firstly, a discrete-time model
+of the plant is needed for MPC. Expressions (1) and (3)
+lead to the following state-space representation:
+
+P
+p
++
+=
+
+1− Tsτ 0
+0 1
+ P
+p
+
++
+ Ts
+τ kn Tsτ kp
+0− TspρV
+ qn
+qp
+
+(5)
+whereT s denotes the chosen sampling time. Note that
+the incoming flow of permeate gas,q i, is not included in
+
+TABLE I
+PERMEATE GAS CONTENTS SAMPLED DURING ONE YEAR
+component 8.1.2021. 3.2.2021. 3.3.2021. 6.4.2021. 5.5.2021. 7.6.2021. 6.7.2021. 10.8.2021. 2.9.2021. 4.10.2021. 3.11.2021. mean value
+C1 [mol%] 60.58 62.02 75.08 80.13 66.71 67.86 61.71 67.86 76.1 55.866 68.471 67.49
+C2 [mol%] 1.28 1.44 1.63 4.21 1.26 1.36 8.23 2.07 6.53 10.159 6.751 4.08
+C3 [mol%] 0.32 0.13 0.15 0.51 0.15 0.17 2.31 0.24 0.96 1.715 0.972 0.69
+i-C4 [mol%] 0.1 0 0.05 0.12 0.05 0.05 0.45 0.04 0.17 0.294 0.161 0.14
+n-C4 [mol%] 0.28 0 0 0.04 0.02 0.09 0.59 0.02 0.11 0.22 0.085 0.13
+i-C5 [mol%] 0.16 0 0 0 0 0.04 0.18 0 0.05 0.082 0.033 0.05
+n-C5 [mol%] 0.24 0 0 0 0 0.06 0.13 0 0 0.07 0 0.05
+C6+ [mol%] 0.72 0.07 0.12 0.31 0.03 0.59 0.31 0.05 0.23 0.305 0.06 0.25
+N2 [mol%] 4.12 4.58 6.1 6.48 7.45 7.65 1.58 7.66 4.77 2.312 4.077 5.16
+CO2 [mol%] 32.21 31.77 16.87 8.2 24.33 22.14 24.51 22.08 11.09 28.977 19.39 21.96
+this model since it is not measured/controlled and can be
+treated as an unknown disturbance. Also, it is assumed
+that both the generator power and the tank pressure are
+measured. Finally, the required output, optimal mixing
+ratio, can be obtained from the optimal gas flows,q n and
+qp, asr=q p/qn. The resulting model (5) is a discrete
+linear time-varying system:
+x+ =Ax+B(x)u, x= [P p] ⊤, u= [q n qp]⊤ (6)
+which can be used in the MPC design.
+2) The objective function:The objective function indi-
+cates which variables are important, i.e., should be min-
+imized in the optimization. In this instance, the primary
+aim of the controller is to minimize deviations from the
+reference and the operating cost. The objective function
+can then be formulated as:
+V(x, u, r) =
+NX
+i=0
+∥xi −r∥ 2Q +∥u i∥2R (7)
+whereNis the prediction horizon,x= [x 0, . . . , xN ]⊤ and
+u= [u0, . . . , uN ]⊤ the state and control sequences,rthe
+state reference andQandRpositive semi-definite weight
+matrices. The notation∥v∥ 2M denotes the quadratic form
+v⊤M v.
+Reference tracking errors of engine power and tank
+pressure can be penalized individually by choosingQto
+be diagonal. Also, operating cost minimization can be
+achieved by setting:
+R=
+rn 0
+0r p
+
+, r n ≫r p (8)
+which will also result in mix ratio maximization, i.e.,
+permeate gas will be used as much as possible and flaring
+will be minimized.
+3) Constraints:Ideally, the optimal control problem
+should be formulated as a linear or quadratic program,
+since there are efficient methods and solvers for solving
+them [13]. To achieve this, the control input matrix in
+(5) is assumed to be constant during the horizon, using
+the current tank pressure measurement. If the tank pres-
+sure does not change significantly during the prediction
+horizon, this simplification should not affect the results.
+Another option would be to use the controller predictions
+from the previous time step. The system dynamics can
+then be included as linear constraints in the optimization
+problem.
+Additionally, the gas flowsq n andq p should be con-
+strained between zero and maximum flows,q n,max and
+qp,max. The mix ratio constraints from the neural network
+can be added with the following expression:
+rmin ≤ qpqn ≤r max (9)
+Since the natural gas flow is nonnegative, this can be
+rewritten as a linear inequality:
+qnrmin ≤q p ≤q nrmax (10)
+If the optimization argument includes the state, an initial
+state constraint is needed such that the predictions start
+from the current measurement. Finally, the engine power
+and tank pressure can also be constrained to lie between
+the minimum and maximum allowed values,x min ≤x≤
+xmax.
+4) The optimization problem:The resulting optimiza-
+tion problem can be formulated as:
+min
+x,u
+V(x, u, r) =
+NX
+i=0
+∥xi −x r∥2Q +∥u i∥2R (11a)
+s.t.x +i =Ax i +Bu i (11b)
+x(0) =x0 (11c)
+xmin ≤x i ≤x max (11d)
+umin ≤u i ≤u max (11e)
+u1,irmin ≤u 2,i ≤u 1,irmax,∀i∈[1, N](11f)
+The cost function is quadratic in the optimization variables
+and all constraints are linear. Therefore, the problem can
+be written as a standard quadratic program:
+min
+x
+1
+2 x⊤P x+q⊤x(12a)
+s.t.l≤Ax≤u(12b)
+and the optimal solution can be obtained using a QP solver
+such as OSQP [14] or MATLAB’s quadprog [15].
+E. The simulation model
+A simulation of the plant and the control algorithm
+was developed using MATLAB and Simulink. In the
+simulation, gas contents are periodically sampled from
+the dataset used to train and test the neural network, i.e.,
+the on-site measurements. The neural network uses these
+measurements to calculate the allowed fuel mix ratio. The
+mix ratio limits are given to the MPC, which outputs the
+
+natural gas contents
+permeate gas contents
+NN methane
+number calculator
+mix ratio limits
+MPC
+optimal mix ratio
+PID
+plant model
+individual gas flows
+methane number limits
+current state (power, pressure)
+reference
+Fig. 6. The simulation scheme.
+TABLE II
+SIMULATION PARAMETERS
+Parameter Value Unit Description
+qmax 300L/smaximum fuel flow
+qi,max 0.1667L/smaximum incoming permeate gas flow
+τ20spower response time constant
+V35m 3 buffer tank volume
+N20−MPC prediction horizon
+QP 1/10002 1/(kW) 2 MPC power tracking error weight
+Qp 1/602 1/(kP a)2 MPC pressure tracking error weight
+Rn 1·10 −4 1/(L/s)2 MPC natural gas flow cost
+Rp 1·10 −6 1/(L/s)2 MPC permeate gas flow cost
+Ts 1scontrol loop sampling time
+optimal mix ratio that satisfies the imposed constraints and
+minimizes the specified cost. Finally, this ratio is used by
+a lower-level PID controller that sets the individual flows
+of the gases in order to achieve the desired engine power
+output.
+The control loop runs with a sampling time of 1 second,
+while the engine power and tank pressure dynamics are
+simulated using continuous-time models (1) and (3). An
+upper bound on the tank pressure is not imposed since the
+excess gas can be flared. Also, the incoming permeate gas
+is modeled as a uniformly distributed noise of moderate
+amplitude.
+The simulation scheme is shown in Figure 6 and the
+most important parameters are given in Table II.
+III. RESULTS
+The primary objective of the described control scheme
+was to automatically set the mixing ratio of the two gases.
+Therefore, closed-loop simulations were compared with
+the case where the mix ratio is set manually and constant.
+For calculating the cost of fuel, it was assumed that the
+unit price of natural gas is 1 and that of the permeate gas
+is 0.3. Two different scenarios were considered.
+In the first scenario, the natural and permeate gas
+contents were obtained by blending the points obtained
+from on-site measurements (Figure 3). In this case, the
+natural gas content varies slowly and the methane content
+in the natural gas is approximately constant, while the
+permeate gas is more volatile.
+In the second scenario, the gas contents are randomly
+selected from the combined dataset, and this scenario
+represents a mixing of two volatile gasses where it is more
+difficult to meet the methane number limits.
+Figures 7 and 8 show the simulation results for the first
+scenario with the gas contents dataset shown in Figure 3.
+0 50 100 150 200 250 300 350 400 450 500
+999
+1000
+1001Engine power [kW]
+0 50 100 150 200 250 300 350 400 450 500
+65
+66
+67
+68
+69Tank pressure [kPa]
+0
+2
+4
+6
+Flare active [0/1]
+0 50 100 150 200 250 300 350 400 450 500
+80
+100
+120Methane number [-]
+0 50 100 150 200 250 300 350 400 450 500
+0
+0.5
+1
+Mix ratio [-]
+0 50 100 150 200 250 300 350 400 450 500
+Time [s]
+0
+20
+40
+60
+80Gas flow [L/s]
+natural gas
+permeate gas
+Fig. 7. Simulation results with a manually set mix ratio and sequentially
+chosen gas contents.
+0 50 100 150 200 250 300 350 400 450 500
+999
+1000
+1001Engine power [kW]
+0 50 100 150 200 250 300 350 400 450 500
+65
+66
+67
+68
+69Tank pressure [kPa]
+0
+2
+4
+6
+Flare active [0/1]
+0 50 100 150 200 250 300 350 400 450 500
+80
+100
+120Methane number [-]
+0 50 100 150 200 250 300 350 400 450 500
+0
+0.5
+1
+Mix ratio [-]
+0 50 100 150 200 250 300 350 400 450 500
+Time [s]
+0
+50
+100Gas flow [L/s]
+natural gas
+permeate gas
+Fig. 8. Simulation results with an automatically set mix ratio and
+sequentially chosen gas contents.
+In both cases, engine power, tank pressure and methane
+number are within the specified limits. However, in the
+second case, the control input oscillates more, while the
+total fuel cost is reduced by 16% and the flaring time is
+reduced by 81%.
+Figures 9 and 10 show the results for the second
+scenario when the gas contents are chosen randomly from
+the combined dataset, instead of sequentially from separate
+datasets for each gas. In the first case, the power output
+is fairly stable, but the tank pressure is too high and the
+flares are activated more often. Additionally, the methane
+number limits are exceeded several times as the manually
+set mix ratio does not fall within the allowed interval. In
+
+0 50 100 150 200 250 300
+999
+1000
+1001Engine power [kW]
+0 50 100 150 200 250 300
+65
+66
+67
+68
+69Tank pressure [kPa]
+0
+2
+4
+6
+Flare active [0/1]
+0 50 100 150 200 250 300
+90
+100
+110
+120Methane number [-]
+0 50 100 150 200 250 300
+0
+0.5
+1
+Mix ratio [-]
+0 50 100 150 200 250 300
+Time [s]
+0
+20
+40
+60Gas flow [L/s]
+natural gas
+permeate gas
+Fig. 9. Simulation results with a manually set mix ratio and randomly
+chosen gas contents.
+0 50 100 150 200 250 300
+999
+1000
+1001Engine power [kW]
+0 50 100 150 200 250 300
+65
+66
+67
+68
+69Tank pressure [kPa]
+0
+2
+4
+6
+Flare active [0/1]
+0 50 100 150 200 250 300
+90
+100
+110
+120Methane number [-]
+0 50 100 150 200 250 300
+0
+0.5
+1
+Mix ratio [-]
+0 50 100 150 200 250 300
+Time [s]
+0
+50
+100Gas flow [L/s]
+natural gas
+permeate gas
+Fig. 10. Simulation results with an automatically set mix ratio and
+randomly chosen gas contents.
+the second case, the control inputs again oscillate more,
+but the duration of flaring is reduced by approximately
+45%. The methane number limits are slightly violated only
+once, when the gas contents are such that the methane
+number constraints cannot be met for any mix ratio. Also,
+there is no significant difference in the power output
+compared to the first case. Finally, the total cost of fuel is
+reduced by 19% in the second case.
+IV. CONCLUSION
+This paper presents artificial intelligence-based predic-
+tive fuel blending control for flare gas mitigation. Since the
+methane number is a nonlinear function that depends on
+gas composition, a neural network was trained to calculate
+it for different fuel blends and find the fuel mixing ratio
+values that satisfy the limits on methane number provided
+by the motor manufacturer. With these constraints on
+the mix ratio, a finite-horizon optimal control problem is
+solved where the main goal is to output the desired power
+while minimizing both the cost of the fuel and gas flaring
+for all possible control inputs. The optimal solution is then
+applied to the plant and the whole process is repeated. The
+algorithm was tested in two scenarios where the natural
+and permeate gas contents were sampled sequentially or
+randomly from the real data obtained from the site. The
+simulation results show that the proposed algorithm is
+capable of producing the desired power while mitigating
+costs and flaring, but also respecting the constraints on the
+fuel methane number.
+ACKNOWLEDGMENT
+The authors would like to thank Bojan Spahija for his
+contribution to this work, especially in data analysis and
+plant modelling.
+REFERENCES
+[1] N. Tahouni, M. Gholami, and M. H. Panjeshahi, “Integration of
+flare gas with fuel gas network in refineries,”Energy, vol. 111, pp.
+82–91, 2016.
+[2] M. Nezhadfard and A. Khalili-Garakani, “Power generation as a
+useful option for flare gas recovery: Enviro-economic evaluation of
+different scenarios,”Energy, vol. 204, p. 117940, 2020.
+[3] A. Norouzi, H. Heidarifar, M. Shahbakhti, C. R. Koch, and
+H. Borhan, “Model predictive control of internal combustion en-
+gines: A review and future directions,”Energies, vol. 14, no. 19,
+p. 6251, 2021.
+[4] C. J. Muller, I. K. Craig, and N. L. Ricker, “Modelling, validation,
+and control of an industrial fuel gas blending system,”Journal of
+Process Control, vol. 21, no. 6, pp. 852–860, 2011.
+[5] S. Kuczy ´nski, M. Łaciak, A. Szurlej, and T. Włodek, “Impact of
+liquefied natural gas composition changes on methane number as a
+fuel quality requirement,”Energies, vol. 13, no. 19, p. 5060, 2020.
+[6] C. J. Kreutzer, D. B. Olsen, and R. J. Bremmer, “Evaluation of a
+lean-burn natural gas engine operating on variable methane num-
+ber fuel,” inInternal Combustion Engine Division Fall Technical
+Conference, vol. 44427, 2011, pp. 159–166.
+[7] S. K. Gupta and M. Mittal, “Predicting the methane number of
+gaseous fuels using an artificial neural network,”Biofuels, vol. 12,
+no. 10, pp. 1191–1198, 2021.
+[8] Y . A. C ¸ engel, M. A. Boles, and M. Kano˘glu,Thermodynamics: An
+engineering approach, 9th ed. New York: McGraw-Hill Education,
+2019.
+[9] C. Long, C. Holland, and E. Gatzke, “Experimental air-pressure
+tank systems for process control education,”Chemical Engineering
+Education, vol. 40, pp. 24–31, 12 2006.
+[10] W ¨artsil¨a, “W ¨artsil¨a Methane Number Calculator.” [On-
+line]. Available: https://www.wartsila.com/marine/products/gas-
+solutions/methane-number-calculator
+[11] Cat, “Cat Methane Number Calculator.” [Online]. Avail-
+able: https://www.cat.com/en US/articles/solutions/oil-gas/Cat-
+Methane-Number-Calculator.html
+[12] J. Torrens, “Methane Number EN16726,” 2021. [Online]. Available:
+https://github.com/TorrensJoaquin/MethaneNumber EN16726
+[13] S. Boyd and L. Vandenberghe,Convex Optimization. Cambridge
+University Press, 2004.
+[14] B. Stellato, G. Banjac, P. Goulart, A. Bemporad, and S. Boyd,
+“OSQP: an operator splitting solver for quadratic programs,”
+Mathematical Programming Computation, vol. 12, no. 4, pp. 637–
+672, 2020. [Online]. Available: https://doi.org/10.1007/s12532-
+020-00179-2
+[15] MATLAB, “Quadprog package - functions to solve
+quadratic programming problems.” [Online]. Available:
+https://www.mathworks.com/help/optim/ug/quadprog.html

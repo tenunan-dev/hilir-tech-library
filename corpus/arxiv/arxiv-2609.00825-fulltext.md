@@ -1,0 +1,550 @@
+---
+source_id: "arxiv"
+title: "Quantum-Based Optimization of Gas Throughput in"
+url: "https://arxiv.org/abs/2609.00825"
+retrieved_at: "2026-10-28T00:00:00+00:00"
+licence: "arXiv-non-exclusive"
+reuse_level: "full-text-open"
+permitted_use: "any"
+sectors: ["H2"]
+disciplines: ["PRC"]
+collected: "manual"
+summary: "Full-text conversion of arXiv 2609.00825. Abstract: Quantum-Based Optimization of Gas Throughput in
+Natural Gas Transmission Networks Under Hydraulic
+Constraints Using QAOA
+Ben-Ishay A.1, Eyal Y.1, Cohen Y.2, and Erez N.2
+1INGL – Israel Natural Gas Lines Ltd., Israel
+2Classiq Technologies, 3 Daniel Frisch Street,Tel Aviv-Yafo, 6473104, Israel
+Abstract
+Maximizing gas throughput in transmission networks under hydraulic and operational constraints is "
+---
+
+# Quantum-Based Optimization of Gas Throughput in
+
+Quantum-Based Optimization of Gas Throughput in
+Natural Gas Transmission Networks Under Hydraulic
+Constraints Using QAOA
+Ben-Ishay A.1, Eyal Y.1, Cohen Y.2, and Erez N.2
+1INGL – Israel Natural Gas Lines Ltd., Israel
+2Classiq Technologies, 3 Daniel Frisch Street,Tel Aviv-Yafo, 6473104, Israel
+Abstract
+Maximizing gas throughput in transmission networks under hydraulic and operational constraints is a combi-
+natorial problem whose complexity grows exponentially with network size, making it computationally intensive to
+solve exactly. This paper addresses the problem of maximizing gas throughput in natural gas pipeline networks
+by optimizing nodal-pressure assignments under the Panhandle-B hydraulic equation. We formulate the problem
+as a graph-based optimization problem with the objective of maximizing weighted customer delivery while en-
+forcing flow conservation at intermediate junction nodes, directed-flow consistency across all pipe segments, and
+minimum-pressure requirements at customer endpoints.
+By framing the problem as a search over discretized nodal-pressure assignments coupled with a cost Hamiltonian
+that encodes both the delivery objective and physical-constraint penalties, we establish a unified formulation
+suitable for the Quantum Approximate Optimization Algorithm (QAOA). The mathematical model is adapted to
+a Quadratic Unconstrained Binary Optimization (QUBO) formulation and implemented using the Classiq quantum
+software platform.
+The proposed method is evaluated on a representative gas-network topology consisting of six nodes and five
+directedpipelineedges. Insimulator-basedexperiments, QAOArecoveredthemaximum-throughputvalidoperating
+point, consistent with classical exhaustive evaluation and classical hydraulic simulation reference solutions.
+A distinctive contribution of this work is the end-to-end execution of a reduced problem instance on the
+IonQ Forte-1 trapped-ion quantum processor. Remarkably, the hardware implementation used onlyp= 2QAOA
+layers, substantially fewer than thep= 30layers used in the simulator-based study. Despite this significant
+reduction in circuit depth, the QPU produced physically valid and interpretable candidate solutions that bracketed
+the continuous classical optimum, with each located within one pressure-discretization step of it. These results
+demonstrate that meaningful gas-network optimization behavior can be obtained using considerably shallower
+QAOA circuits than initially expected and provide an end-to-end proof of concept for near-term quantum-assisted
+gas-network optimization.
+Index Terms—Gas network optimization, maximum throughput, Panhandle-B equation, quadratic unconstrained
+binary optimization, quantum approximate optimization algorithm, NISQ, hybrid quantum-classical optimization,
+trapped-ion quantum processor, gas pipeline hydraulics.
+I. Introduction
+Quantum algorithms have emerged as a promising
+approach for tackling complex network optimization
+problems modeled as graph problems. The Quantum
+Approximate Optimization Algorithm (QAOA), intro-
+duced by Farhiet al.in 2014 [1], has become a cor-
+nerstone framework for addressing combinatorial op-
+timization problems on near-term quantum devices—
+including maximum cut [2], graph coloring [3], and
+network flow problems [4]. For flow and routing prob-
+lems, researchers have explored quantum formulations
+that leverage the superposition principle to explore
+multiple configurations simultaneously [5–7].
+The practical challenges of quantum optimization
+become especially evident in the domain of gas trans-
+mission network operations. A natural gas transmis-
+sion network is a directed graph of pipes connecting
+one or more high-pressure supplier nodes to down-
+stream customer delivery endpoints. A critical oper-
+ational requirement is to determine the optimal pres-
+sure at each node that maximize total gas throughput
+to customers—subject to conservation of mass at in-
+termediatejunctionnodes, directionalflowconsistency
+along each pipe, and maximum and minimum pressure
+requirements at supplier and customer nodes, respec-
+tively. Such a multi-constraint combinatorial problem
+is computationally challenging, particularly as the net-
+work size scales.
+In current engineering practice, this problem is
+solved through iterative manual search over a high-
+fidelity classical hydraulic simulation software. The
+arXiv:2609.00825v1  [quant-ph]  1 Sep 2026
+
+engineer sets a trial pressure configuration and runs
+the simulator to observe the resulting flows. Unsat-
+isfied results are followed by manual adjustment and
+re-simulation, for many iterations until a sufficiently
+good operating point is found. This workflow is time-
+consuming, relies on operator expertise, and provides
+no guarantee of optimality, especially when gas net-
+works are complex.
+This paper addresses the problem of maximiz-
+ing gas throughput for networks governed by the
+Panhandle-B equation, one of the most widely used
+formulas in natural gas pipeline engineering and
+presents a QAOA-based solution executed on the Clas-
+siq platform, validated against classical reference solu-
+tions. The key contributions of this work are:
+•A unified formulation of the gas network throughput
+maximization problem as a combinatorial optimiza-
+tion over discretized node-pressure variables, incor-
+porating the Panhandle-B pipe flow law, junction
+conservation, graph-direction, and minimum cus-
+tomer pressure constraints.
+•A novel cost Hamiltonian that jointly encodes
+delivery maximization and physical constraint
+satisfaction—enabling a single-expression QUBO
+formulation suitable for QAOA.
+•Demonstration that the QAOA-optimized circuit
+recovers the maximum-throughput valid operating
+point, consistent with classical hydraulic simulation
+reference solutions.
+•Quantitative characterization of the three primary
+sources of difference between the quantum model
+and classical hydraulic simulation.
+II. Problem Statement
+Thegasnetworkmaximum-flowproblemisbestde-
+scribed in relation to the directed graphG= (N, E)
+shown in Fig. 1, representing a
+representative branch of a transmission network.
+The node setNis partitioned into three disjoint sub-
+sets:
+•S1is the supply node operating under fixed pressure
+control (and is therefore not a decision variable).
+•NodesBVS1andBVS2are intermediate junctions
+subject to mass conservation constraint.
+•NodesC1,C2andC3represent the customer de-
+livery points, where the optimization objective is to
+maximize the total weighted gas delivery.
+Formally, the optimization problem seeks to de-
+termine the nodal pressure profile across all non-
+supply nodes to maximizes total weighted customer
+throughput, subject to: (i) the non linear Panhandle-
+B pipeline flow equation; (ii) nodal mass conservation
+at intermediate junctions BVS1 and BVS2; (iii) direc-
+tional flow consistency across all pipeline edges; and
+(iv) maximum and minimum pressure requirement at
+each supply and customer nodes, respectively. The op-
+timizer chooses pressure levels at non-supplier nodes,
+and pipe flows are implied by the resulting pressure
+drops.
+III. Mathematical F ormulation
+Squared-pressure variablesπ i =p 2i, are adopted
+here as the governing Panhandle-B pipeline flow rela-
+tion depends directly on squared-pressure differences.
+Notation is summarized in Table 1.
+Table 1:Notation Summary
+Symbol Meaning
+N, ENode set; directed pipe edge set
+sSupplier node (fixed; not a variable)
+JJunction nodes {BVS1, BVS2}
+CCustomer nodes {C1, C2, C3}
+πi =p 2i Squared pressure at nodei(bar 2)
+yij Flow on pipe(i, j)(kSm3/h)
+K physij Panhandle-B flow coefficient
+αPB = 0.51Panhandle-B exponent
+wc Customer delivery weight
+πmin Min. squared pressure at customer nodes
+qi Integer in{0, . . . ,2n−1}chosen
+by optimizer; maps toπi via (7)
+nQubits per node (n=3→8levels)
+A. Objective Function
+max
+π
+X
+(i,c)∈E
+c∈C
+wc yic.(1)
+B. Pipe Flow Law (Panhandle-B)
+yij =K physij (πi −π j)αPB , α PB = 0.51,(2)
+K physij =C·E·  TbPb 2α ·D 2.53 · 1G0.961 Tf L Zα ,(3)
+whereC= 30.7083,Eis the efficiency factor,Dis the
+internal diameter (inches),Gis the gas specific gravity,
+Tf is flowing temperature (Rankine),Lis pipe length
+(miles), andZis the compressibility factor (dimen-
+sionless).
+C. Direction Constraint
+πi ≥π j,∀(i, j)∈E.(4)
+D. Junction Flow Conservation
+X
+(i,j)∈E
+yij =
+X
+(j,k)∈E
+yjk ,∀j∈J.(5)
+E. Minimum Customer Pressure
+πc ≥π min = (Pmin +P atm)2,∀c∈C,(6)
+whereP min = 30barg. Intermediate junction nodes
+are subject to no lower pressure limits, whereas the
+supply node, operating under fixed-pressure control,
+has its pressure pre-specified as an external parame-
+ter.
+F. Pressure Discretization
+πi(qi) =π min + ∆π·q i, q i ∈ {0,1, . . . ,2n −1},(7)
+where∆π= (π max −π min)/2n. The optimizer selects
+integerq i for each node:q i = 0givesπ min,q i = 7
+2
+
+Figure 1:INGL demonstration network topology. Blue: supplier node (S1). Yellow: junction nodes (BVS1, BVS2).
+Purple: customer delivery nodes (C1, C2, C3).
+(withn= 3) givesπ max −∆π. By construction, any
+qi ≥0satisfies the minimum customer pressure con-
+straint (6).
+The problem hasd= 5decision nodes (BVS1,
+BVS2, C1, C2, C3), givingnd= 15binary qubits and
+a state space of85 = 215 = 32,768. The supplier node
+is fixed atqs = 2n = 8.
+IV. Scale Analysis
+The continuous problem is nonlinear and non-
+convex due to the fractional exponentα PB = 0.51
+in (2). After discretization the problem becomes a
+combinatorial integer program conjectured to be NP-
+hard [8,9]. The state space grows exponentially:
+•d= 5,n= 3:2 15 = 32,768— manageable for vali-
+dation.
+•d= 20,n= 4:2 80 ≈10 24 — beyond exhaustive
+search.
+•d= 50,n= 4:2 200 ≈10 60 — entirely intractable.
+QAOA operates on thend-qubit register directly,
+achieving an exponential compression of the search
+space. Circuit operations grow asO(p|E|n 2)forp
+layers.
+V. QUBO F ormulation
+Each integerq i ∈ {0, . . . ,2n −1}is represented by
+itsn-bitbinarydecomposition(15logicalqubitstotal).
+The QUBO Hamiltonian is:
+H(q) = (1−λ)L norm(q)+ λ2 [PBVS1 +P BVS2]+D(q)+c 0.
+(8)
+A. Delivery Term
+Lnorm(q) =
+− P(i,c)∈E, c∈Cwc ˆyic(q)
+Fmax −F min
+.(9)
+The termα PB = 0.51is irrational, so it was approxi-
+mated using a second degree polynomial in the integer
+pressure dropd=q i −q j:
+d0.51 ≈a 2d2 +a 1d+a 0,(10)
+accurate to within 1.5% ford∈ {1, . . . ,8}.
+B. Conservation Penalty
+Pj(q) = [gj(q)]2σj ,(11)
+whereg j = P(i,j) ˆyij − P(j,k) ˆyjk is the signed flow-
+balance residual andσj normalizes to[0,1].
+C. Direction Penalty
+D(q) = 1−
+Y
+(i,j)∈E
+1[qi > qj].(12)
+Implemented via auxiliary control qubits that flag
+reverse-flow edges. For each non-source directed edge
+(i, j)∈E, a temporary auxiliary qubit is reversibly set
+to indicate whetherqi > qj.
+VI. QAOA Algorithm
+QAOA prepares the quantum state:
+|γ, β⟩=
+pY
+k=1
+e−iβkHM e−iγkHC |s⟩,(13)
+starting from the uniform superposition|s⟩=
+H ⊗nd|0⟩nd = 1√2nd Pq |q⟩.
+A. Cost Layer
+UC(γk) =e −iγkHC .(14)
+Phase-rotates each|q⟩byH C(q); interference ampli-
+fies low-cost states over successive layers.
+3
+
+Figure 2:QAOA circuit. All qubits are initialized in the|+⟩state to create an equal superposition, followed by alter-
+nating QAOA cost and mixer layers and final measurement. A classical optimizer updates the parametersγandβto
+minimize the cost function, corresponding in this case to maximizing the total throughput delivered to the customers.
+B. Mixer Layer
+HM =
+ndX
+k=1
+Xk, U M (βk) =
+ndO
+k=1
+RX (2βkγscale),
+(15)
+withγ scale = 0.1.
+C. Classical Optimization
+(γ∗,β ∗) = arg min
+γ,β
+⟨γ, β|HC|γ, β⟩,(16)
+solved with COBYLA, initialized via the linear sched-
+uleγ (0)k =πk/(2p),β (0)k =π(1−k/(2p)). The QAOA
+structure is presented in Fig. 2
+D. Implementation on Classiq
+After convergence, 1,000 shots sample the opti-
+mized circuit. The lowest-cost valid state is the rec-
+ommended operating point. The program was written
+with Classiq’s domain specific language Qmod. The
+circuit was synthesized and optimized using Classiq’s
+synthesis engine platform [10] and executed on the
+Classiq simulator, the circuit is visualized in Fig. 3
+(taken from Classiq’s platform).
+VII. Results and Discussion
+Physical parameters:P s = 70barg;P min =
+30barg;T b = 15 ◦C,P b = 1.01325bara;G= 0.60;
+Z= 0.90;E= 0.92(the last three items are dimen-
+sionless). Customer weights:w C1 = 1.0,w C2 = 2.0,
+wC3 = 3.0. QAOA results were validated against clas-
+sical exhaustive evaluation over all 32,768 candidate
+states.
+A. QAOA Optimization and Sampling
+Withp= 30layers, COBYLA converged within
+50–60 iterations. The maximum-throughput valid so-
+lution appeared as the 5th highest-frequency sam-
+pled state with a probability of 0.03. While not the
+top-ranked state by frequency, this result is encour-
+aging given the coarse discretization (n= 3qubits
+per node). At this resolution, the conservation fea-
+sibility surface is sparsely sampled, making it diffi-
+cult for the post-processing validity checks to cleanly
+separate near-feasible states from truly feasible ones.
+As qubit counts increase, finer pressure discretization
+will sharpen the distinction between valid and invalid
+states, improving both the ranking and concentration
+of valid solutions.
+B. Recommended Operating Point
+The optimal state concentrated delivery on C3,
+consistent withw C3 = 3.0. This state appeared
+as the 5th highest-frequency sampled state with
+a probability of 0.3%, and was identified as the
+maximum-throughput operating point after classical
+post-processing screened all sampled states for direc-
+tion and conservation feasibility. Maximum gas veloc-
+ity occurred on the BVS1→C1 segment (6-inch diam-
+eter, 10km), the expected bottleneck due to its small
+cross-sectional area, still within the allowed range.
+C. Comparison with Classical Hydraulic Simulations
+software
+The quantum optimization is not intended to re-
+place high-fidelity classical hydraulic simulation in the
+short term. Rather, the two tools can serve com-
+plementary roles in a combined workflow: QAOA
+searches the combinatorial space of pressure assign-
+ments to identify the flow allocation that maximizes
+weighted customer throughput within the Panhandle-
+B physical model, while classical hydraulic simulation
+software validates the recommended operating point
+using detailed hydraulic modeling that captures ef-
+fects beyond the optimization resolution and physi-
+cal constraints. The power of the approach lies in
+this combination—automated global search followed
+by engineering-grade verification.
+The QAOA-recommended operating point and the
+classical hydraulic simulation reference solution were
+qualitatively consistent. Quantitative differences arise
+from three sources:
+1.Pressure discretization (primary):n= 3
+qubits per node yield∆π= (π max −π min)/8, in-
+4
+
+Figure 3:Quantum circuit for 15 logical qubits synthesized by the Classiq engine and taken from the Classiq visualization
+platform, consisting of an initial Hadamard transform that creates a uniform superposition, followed by three alternating
+cost and mixer layers as prescribed by the QAOA algorithm.
+troducing up to 12.5% relative error per pipe. In-
+creasing ton= 4orn= 5reduces this to 6.25%
+and 3.125%, respectively.
+2.Flow model:Classical hydraulic simulation uses
+Darcy–Weisbach friction with explicit pipe rough-
+ness, whereas Panhandle-B subsumes roughness
+into a single efficiency factorE.
+3.Thermal modeling:Panhandle-B assumes a
+fixed flowing temperature for each pipeline, while
+classical hydraulic simulation models pipeline-soil
+heat exchange along the pipeline length.
+These differences define a bounded modeling gap
+rather than a fundamental limitation. As qubit re-
+sources grow and finer discretization becomes fea-
+sible, the dominant source of discrepancy—pressure
+quantization—diminishes, bringing the QAOA solu-
+tion closer to the classical hydraulic simulation ref-
+erence.
+VIII. Hardware Execution on a T rapped-Ion
+QPU
+A distinctive contribution of this work is the end-
+to-end execution of the proposed gas-network opti-
+mization workflow on a physical quantum processor.
+To assess the near-term hardware feasibility of the for-
+mulation, we executed a reduced instance of the prob-
+lem on the IonQ Forte-1 trapped-ion quantum process-
+ingunit, accessedthroughtheClassiqplatform[10,11].
+This hardware experiment demonstrates that the pro-
+posed QUBO formulation, circuit synthesis, hybrid
+optimization, quantum execution, and classical post-
+processing can be combined into a complete workflow
+on currently available quantum hardware.
+To reduce the circuit size and depth to a level suit-
+able for present-day hardware, the customer pressures
+were fixed at their minimum values,qc = 0, and equal
+customer-delivery weights were used,w C1 =w C2 =
+wC3 = 1. The resulting problem contains only two
+pressure decision variables, BVS1 and BVS2, repre-
+sentedbysixdecisionqubits. Togetherwithfourauxil-
+iaryqubitsusedtoenforcedirectional-flowconstraints,
+the hardware circuit operates on ten logical qubits.
+Notably, the hardware experiment used onlyp= 2
+QAOA layers, substantially fewer than thep= 30
+layers used for the full simulator-based optimization.
+Such a shallow circuit was selected to limit accumu-
+lated gate errors and decoherence on the physical pro-
+cessor. Despite this significant reduction in circuit
+depth, the experiment produced physically meaning-
+ful candidate solutions and achieved reasonable per-
+formance under current hardware limitations. The
+QAOA parameters were optimized classically using
+COBYLA, and the resulting circuit was sampled us-
+ing 500 shots with hardware-level error mitigation en-
+abled.
+Among the 64 distinct bitstrings observed, the
+highest-frequency valid state,
+(qBVS1, qBVS2) = (5,4),
+appeared with probability0.020. A second valid state,
+(qBVS1, qBVS2) = (4,3),
+appeared with probability0.016. The continuous clas-
+sical optimum lies between these two discretized op-
+erating points. Thus, the two leading valid hardware
+solutions bracket the classical optimum from opposite
+sides, with each solution located within one pressure-
+discretization step of it.
+Together, these two states account for3.6%of all
+measured shots. Although their absolute probabili-
+ties remain modest, this concentration is meaningful
+for a noisy ten-qubit circuit executed with only two
+QAOA layers. More importantly, both states were
+clearly identifiable among the sampled outcomes af-
+ter applying the physical direction and conservation
+validity checks. This shows that even a circuit much
+shallower than the one used in the noiseless simulation
+can retain sufficient optimization structure to produce
+useful candidate operating points.
+The hardware execution therefore provides more
+than a proof of circuit compatibility. It demonstrates
+that the proposed hybrid quantum-classical workflow
+can recover near-optimal and physically interpretable
+gas-network configurations on present-day trapped-
+ion hardware, despite severe restrictions on circuit
+depth and sampling statistics. The results suggest
+that meaningful performance may be achievable be-
+fore deep QAOA circuits become practical, and that
+improvements in hardware fidelity, shot count, er-
+ror mitigation, and circuit synthesis may further in-
+crease the probability concentration on valid high-
+throughput states.
+IX. F uture Extensions
+The current framework can be extended along sev-
+eral critical dimensions:
+1.Scalability:Scaling the network topology to han-
+dle larger systems comprising 50 to 100 nodes.
+2.Hardware Execution:Deploying the full opti-
+mization model on physical quantum hardware [11,
+12]).
+3.Advanced Physical Models:Incorporating
+transient flow dynamics, comprehensive compressor
+thermodynamics, and explicit constraints for mul-
+tiple operational compression stations.
+5
+
+4.Network Complexity:Adaptingthemodeltoac-
+commodate multiple supply nodes, dynamic offtake
+profiles, and real-time supply fluctuations.
+5.Production Pipeline:Developing a QAOA-
+based production pipeline integrated with classical
+hydraulic simulation software to automate network
+balancing and replace manual re-simulation itera-
+tions.
+X. Conclusion
+This work demonstrates a QAOA-based approach
+to maximizing gas throughput under hydraulic con-
+straints in natural gas transmission networks. The
+proposed methodology generalizes the traditional
+manual engineering workflow by searching the com-
+binatorial space of discretized nodal-pressure as-
+signments to identify configurations that maximize
+weighted customer throughput while accounting for
+Panhandle-B hydraulics, junction mass conservation,
+directional-flow consistency, and minimum customer-
+pressure requirements.
+The resulting cost Hamiltonian combines the de-
+livery objective with normalized physical-constraint
+penalties and uses a quadratic polynomial approxi-
+mation of the nonlinear Panhandle-B exponent. The
+minimum customer-pressure constraint is satisfied by
+construction through the selected pressure encoding.
+When evaluated on a representative six-node, five-
+pipeline network, the simulator-based QAOA imple-
+mentation, usingp= 30layers and the COBYLA
+optimizer, recovered the maximum-throughput valid
+operating point. The result was validated against
+bothclassicalexhaustiveenumerationandclassicalhy-
+draulic simulation, while the remaining numerical dis-
+crepancies were attributed primarily to pressure dis-
+cretization and differences in the underlying hydraulic
+and thermal models.
+A distinctive contribution of this work is the suc-
+cessful end-to-end execution of a reduced problem in-
+stance on the IonQ Forte-1 trapped-ion quantum pro-
+cessor. The hardware implementation used onlyp= 2
+QAOA layers, substantially fewer than thep= 30lay-
+ers used in the simulator-based study. Despite this re-
+duction in circuit depth, the QPU produced physically
+valid and interpretable operating points that brack-
+eted the continuous classical optimum, with each lying
+within one pressure-discretization step of it. This re-
+sult indicates that useful optimization behavior can be
+obtained from considerably shallower QAOA circuits
+than might otherwise be expected for this problem.
+Overall, the results show that the proposed hybrid
+quantum-classical workflow is not limited to ideal sim-
+ulation and can already be executed on current quan-
+tum hardware with reasonable performance. Future
+improvements in hardware fidelity, sampling statistics,
+error mitigation, pressure resolution, and circuit syn-
+thesis are expected to improve the concentration and
+quality of valid high-throughput solutions.
+References
+[1] E. Farhi, J. Goldstone, and S. Gutmann, “A quantum approximate optimization algorithm,”arXiv preprint
+arXiv:1411.4028, 2014.
+[2] Z.Wang, S.Hadfield, Z.Jiang, andE.G.Rieffel, “QuantumapproximateoptimizationalgorithmforMaxCut:
+A fermionic view,”Physical Review A, vol. 97, no. 2, p. 022304, 2018.
+[3] G. Min and J. Heo, “Design of quantum approximate optimization algorithm for graph multi-coloring prob-
+lem,” inProc. 14th Int. Conf. Information and Communication Technology Convergence (ICTC), Jeju Island,
+South Korea, 2023, pp. 517–522.
+[4] Y. Zhang, R. Zhang, and A. C. Potter, “QED driven QAOA for network-flow optimization,”Quantum, vol. 5,
+p. 510, 2021.
+[5] C. Dürr, M. Heiligman, P. Høyer, and M. Mhalla, “Quantum query complexity of some graph problems,”
+SIAM Journal on Computing, vol. 35, no. 6, pp. 1310–1328, 2006.
+[6] A. Wesołowski and S. Piddock, “Advances in quantum algorithms for the shortest path problem,”arXiv
+preprint arXiv:2408.10427, 2024.
+[7] J. Li, “Exponential speedup of quantum algorithms for the pathfinding problem,”Quantum Information
+Processing, vol. 24, p. 67, 2025.
+[8] C.-L. Li, S. T. McCormick, and D. Simchi-Levi, “The complexity of finding two disjoint paths with min-max
+objective function,”Discrete Applied Mathematics, vol. 26, no. 1, pp. 105–115, 1990.
+[9] D. Xu, Y. Chen, Y. Xiong, C. Qiao, and X. He, “On the complexity of and algorithms for finding the shortest
+path with a disjoint counterpart,”IEEE/ACM Transactions on Networking, vol. 14, no. 1, pp. 147–158, 2006.
+[10] T. Goldfriendet al., “Design and synthesis of scalable quantum programs,”arXiv preprint arXiv:2412.07372,
+2024.
+[11] IonQ, “IonQ’s accelerated roadmap: Turning quantum ambition into reality,” https://www.ionq.com/blog/
+ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality, 2025, accessed November 2025.
+6
+
+[12] A. C. Hugheset al., “Trapped-ion two-qubit gates with>99.99%fidelity without ground-state cooling,”
+arXiv preprint arXiv:2510.17286, 2025.
+7

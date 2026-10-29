@@ -1,0 +1,1001 @@
+---
+source_id: "arxiv"
+title: "Local B-site chemistry controls oxygen-vacancy energetics in Ca–Ce–Ti–Mn"
+url: "https://arxiv.org/abs/2607.28752"
+retrieved_at: "2026-10-28T00:00:00+00:00"
+licence: "arXiv-non-exclusive"
+reuse_level: "full-text-open"
+permitted_use: "any"
+sectors: ["H2"]
+disciplines: ["PRC"]
+collected: "manual"
+summary: "Full-text conversion of arXiv 2607.28752. Abstract: Local B-site chemistry controls oxygen-vacancy energetics in Ca–Ce–Ti–Mn
+perovskites for thermochemical hydrogen production†
+Manish Kumar, ‡a Natalia Ali, ‡b Matthew D. Witman, c Shang Zhai, d,e James E. Miller, f Ivan Ermanoski, f Ellen B. Stechel, g and
+Robert B. Wexler ∗a
+Two-step thermochemical water splitting driven by concentrated solar heat offers a scalable route to renewable hydrogen, but"
+---
+
+# Local B-site chemistry controls oxygen-vacancy energetics in Ca–Ce–Ti–Mn
+
+Local B-site chemistry controls oxygen-vacancy energetics in Ca–Ce–Ti–Mn
+perovskites for thermochemical hydrogen production†
+Manish Kumar, ‡a Natalia Ali, ‡b Matthew D. Witman, c Shang Zhai, d,e James E. Miller, f Ivan Ermanoski, f Ellen B. Stechel, g and
+Robert B. Wexler ∗a
+Two-step thermochemical water splitting driven by concentrated solar heat offers a scalable route to renewable hydrogen, but practical
+deployment requires oxide materials whose oxygen-vacancy formation energies balance facile reduction with favorable reoxidation. Perovskite
+solid solutions provide compositional flexibility to tune this balance, yet the relationship between bulk stoichiometry and local defect
+energetics remains poorly understood. Here we map oxygen-vacancy formation energetics across Ca–Ce–Ti–Mn (CCTM) perovskites
+using first-principles calculations combined with two complementary fitted models. A coverage-constrained special quasirandom structure
+approach is designed to sample all fifteen symmetry-distinct oxygen nearest-neighbor environments. We develop a crystal-feature model
+whose fitted coefficients directly encode the underlying Born–Haber thermochemistry, and we fine-tune a defect graph neural network to
+model potential nonlinear structure–composition–defect coupling beyond the linear form of the crystal-feature model. Local B-site chemistry
+dominates the oxygen-vacancy formation energy (Ev): varying the nearest-neighbor Mn fraction (B site) shiftsEv by 1.0–1.5 eV depending
+on local Ce content, whereas A-site Ce variation contributes a smaller, Mn-dependent shift of0.2–0.6 eV. This hierarchy indicates that
+short-range B-site cation order, if it can be established and kinetically retained through targeted processing, is a candidate means of
+tuning redox performance without changing bulk composition. Composition-space maps show a Ce/Mn-balanced region (XCe ≈0.29–0.33,
+XMn ≈0.58–0.67) that combines a high fraction of vacancy sites within the targetedEv window with phase stability and solubility, where
+the predicted redox cycle capacity∆δ is comparable to or exceeds the ceria benchmark at substantially lower reduction temperatures
+(Tred =1350 ◦C vs. ∼1600 ◦C for ceria). Experimental measurements on three CCTM compositions show∆δ increasing monotonically
+with Ce content under cycling protocols close to the model conditions, consistent with the qualitative trend from the fitted models. The
+interpretable framework provides both compositional screening capability and mechanistic design rules expected to transfer to related
+perovskite families for solar thermochemical hydrogen production.
+Broader context
+Heat from concentrated sunlight or other carbon-neutral high-
+temperature sources can drive two-step thermochemical cycles:
+a metal oxide releases part of its oxygen at high temperature,
+then splits water to regain it, producing renewable hydrogen. The
+benchmark material, ceria, requires reduction temperatures near
+1600 ◦C, which complicates reactor design and limits cost compet-
+itiveness. Perovskite oxides offer lower operating temperatures
+because compositional flexibility enables tuning of the energy re-
+quired to form oxygen vacancies, but the relationship between
+bulk composition and the energetics of individual vacancy sites
+has remained poorly understood. Here we resolve this relationship
+a Department of Chemistry and Institute of Materials Science and Engineering, Washing-
+ton University in St. Louis, St. Louis, MO 63130, USA. E-mail: wexler@wustl.edu
+b ASU LightWorks® and the School for Engineering of Matter , Transport and Energy,
+Arizona State University, T empe, AZ 85287-8204, USA.
+c Sandia National Laboratories, Livermore, CA 94550, USA.
+d Department of Mechanical and Aerospace Engineering, The Ohio State University,
+Columbus, OH 43210, USA.
+e School of Earth Sciences, The Ohio State University, Columbus, OH 43210, USA.
+f ASU LightWorks® and the School of Sustainability, Arizona State University, T empe,
+AZ 85287-8204, USA.
+g ASU LightWorks® and the School of Molecular Sciences, Arizona State University,
+T empe, AZ 85287-8204, USA.
+‡ These authors contributed equally to this work.
+† Electronic Supplementary Information (ESI) available: magnetic moments and
+oxidation-state assignments; density of states and metallic character; crystal-feature-
+model parity; the vacancy–vacancy electrostatic upper bound; powder X-ray diffrac-
+tion; thermogravimetric analysis; the finite-temperature thermodynamic formalism
+with a worked example; the defect graph neural network model; configurational sen-
+sitivity of bulk energetics under SQS sampling; Brillouin-zone sampling convergence;
+and the atomic-property values used in the crystal-feature-model descriptors.
+for Ca–Ce–Ti–Mn perovskites by combining two complementary
+fitted models with quantum-mechanical calculations that sample
+all fifteen distinct local oxygen environments. Vacancy energetics
+are controlled primarily by the two nearest B-site cations, Ti or
+Mn; the four nearest A-site cations, Ca or Ce, contribute a smaller
+shift. This hierarchy indicates that short-range B-site cation order,
+if achievable through processing, could tune redox performance
+without changing bulk composition. Composition maps show
+materials whose predicted per-cycle oxygen exchange at 1350 ◦C
+matches or exceeds the ceria benchmark, and measurements on
+three compositions are consistent with the predicted trend. The
+design rules should apply to related perovskite families.
+Introduction
+Thermochemical water splitting driven by concentrated solar heat
+offers a renewable route to hydrogen production that can help
+decarbonize transportation, manufacturing, and chemical synthe-
+sis. 1,2 In the canonical two-step redox cycle, a metal oxide is ther-
+mally reduced at high temperature, then reoxidized with steam at
+a lower temperature to produce hydrogen.2,3 For the oxides consid-
+ered here, which accommodate oxygen off-stoichiometry , thermal
+reduction proceeds by oxygen-vacancy formation. Ceria remains
+the benchmark material: it exhibits fast kinetics, stable oxygen-
+exchange capacity over repeated cycling, and a favorable reduction
+entropy that lowers the temperature at which thermal reduction be-
+comes thermodynamically favorable.2–5 This favorable reduction
+entropy is largely electronic in origin: the onsite electronic config-
+urational entropy of reduction is largest for the Ce4+/Ce3+ couple
+among the f elements. 6 In addition, the charged (ionized) nature
+of ceria’s oxygen-vacancy defects underlies its ability to sustain
+1
+arXiv:2607.28752v1  [cond-mat.mtrl-sci]  30 Jul 2026
+
+hydrogen production even at high H2/H2O ratios, the most de-
+manding reoxidation regime for practical operation, whereas many
+candidate oxides are limited to far more dilute ratios.4 However,
+ceria’s high reduction enthalpy requires operating temperatures
+above 1500 ◦C, imposing stringent constraints on reactor design
+and limiting cost competitiveness. 2,4,7–10 Alternative materials
+that reduce at lower temperatures while maintaining comparable
+hydrogen yields are therefore essential for practical deployment.11
+Perovskite oxides (ABO3 –δ ) have emerged as promising alter-
+natives because their compositional flexibility enables systematic
+tuning of vacancy formation energetics. 1,2,12 McDaniel et al. in-
+troduced the LaAlO3-derived series (SrxLa1 –x)(MnyAl1 –y)O3 –δ
+(SLMA), in which Sr2+ substitution on the A site introduces charge
+imbalance that promotes vacancy formation, while Mn on the B
+site provides multivalent redox centers (Mn4+/Mn3+/Mn2+) for
+reversible oxygen exchange. 13 Subsequent work expanded this
+design space through A-site entropy engineering, 14 size-mismatch
+and disorder effects, 15 and B-site substitution with Cr, Co, Ni,
+Fe, or Ga.16–24 Complementary processing innovations, including
+foamed morphologies, have improved heat and mass transport. 25
+A complementary design strategy uses mixed Ce–Mn B-site occu-
+pancy in BaCexMn1 –xO3 –δ (BCM). 26 The large Ba2+ cation sta-
+bilizes a lattice that tolerates significant oxygen off-stoichiometry ,
+while the vacancy formation energy , set jointly by the Ce4+/Ce3+
+and Mn4+/Mn3+ redox couples, falls within the range required
+for efficient cycling. The Ba(Ce0.25Mn0.75)O3 –δ composition re-
+duces below 1400 ◦C with fast kinetics, and Barcellos et al. report
+approximately three times the hydrogen yield of ceria when both
+are reduced at 1350 ◦C, a temperature below ceria’s favorable
+reduction window.26,27 More recently, Perry et al. combined ma-
+chine learning with density functional theory (DFT) to design
+Ba0.875Ca0.125Zr0.875Mn0.125O3 –δ , predicted by thermodynamic
+system-model simulations to reduce at a maximum temperature
+of1523 ◦Cversus1734 ◦Cfor ceria. 28
+Among these materials, Ca–Ce–Ti–Mn (CCTM) perovskites
+have been identified as promising candidates. Initial DFT
+calculations predicted favorable vacancy energetics with re-
+dox activity on both Ce and Mn, 29 and subsequent work
+demonstrated that Ti substitution enhances phase stability
+while placing vacancy formation energies near the target
+3.4to3.9 eV range established in our earlier thermodynamic
+analysis. 2,30 Experimental studies on the reference composi-
+tion Ca2/3Ce1/3Ti1/3Mn2/3O3 (CCTM2112) confirmed hydrogen
+productivities of ∼10 mmol H2/mol atom CCTM2112 per cycle at
+1350 ◦C, with rapid and reversible kinetics. 30 Ce reduction on
+the A site, in addition to conventional B-site Mn reduction, was
+identified as a contributor to the redox activity , providing a design
+variable absent in B-site-only Ce perovskites such as BCM. 30
+Despite this progress, the relationship between bulk stoichiome-
+try and local defect energetics in CCTM perovskites remains poorly
+understood, limiting rational optimization. Prior computational
+studies examined single compositions using representative super-
+cells that do not systematically sample the diversity of local oxygen
+environments present in disordered solid solutions.29,30 Comple-
+mentary high-throughput first-principles screening has mapped
+oxygen-vacancy formation energies and phase stability across large
+perovskite and oxide sets, generally without resolving the distribu-
+tion of distinct local oxygen environments within a disordered com-
+position. 31–33 Furthermore, although machine-learning models
+have been applied to screen perovskite compositions,34–36 many of
+these models lack physical transparency , obscuring the factors that
+control vacancy formation. A predictive framework connecting
+local cation chemistry to macroscopic redox performance through
+interpretable descriptors would enable both rational composition
+optimization and transferable design rules for related perovskite
+families.
+The principal advance of this work is the systematic resolution
+of all fifteen symmetry-distinct oxygen nearest-neighbor environ-
+ments in the CCTM solid solution and the demonstration that
+local B-site chemistry, rather than bulk stoichiometry, dominates
+oxygen-vacancy energetics; the composition-space screening that
+follows is an application of this framework rather than its cen-
+tral result. To establish this, we combine first-principles defect
+thermochemistry with two complementary fitted models to map
+oxygen-vacancy energetics across the CCTM composition space.
+To ensure complete sampling of local chemical diversity , we intro-
+duce a coverage-constrained special quasirandom structure (SQS)
+methodology in which each supercell realizes all fifteen symmetry-
+distinct oxygen nearest-neighbor environments. We develop an
+interpretable crystal-feature model (CFM) whose fitted coefficients
+directly encode the underlying Born–Haber thermochemistry , and
+we benchmark these predictions against a retrained defect graph
+neural network (dGNN).
+This analysis shows that local B-site chemistry dominates va-
+cancy energetics: varying the Mn fraction among nearest-neighbor
+B sites shifts Ev by 1.0–1.5 eV depending on local Ce content,
+whereas A-site Ce variation contributes a smaller, Mn-dependent
+shift of 0.2–0.6 eV; this hierarchy indicates that short-range B-
+site cation order, if it can be kinetically retained, is a candidate
+means of tuning redox performance without changing bulk com-
+position. Combining the in-window Ev fraction with phase sta-
+bility, we identify Ca0.67Ce0.33Ti0.33Mn0.67O3 (CCTM2112) and
+Ca0.71Ce0.29Ti0.42Mn0.58O3 as the most promising candidates
+among the six compositions examined (Table 1), with predicted
+cycle capacities comparable to or exceeding ceria at substantially
+lower reduction temperatures; experimental measurements on
+three compositions are consistent with these predictions. The
+interpretable framework provides both compositional screening
+capability and mechanistic design rules expected to transfer to
+related perovskite families.
+Results
+Compositional design space
+Maximizing hydrogen yield in thermochemical water splitting re-
+quires oxygen-vacancy formation energies,Ev, that are low enough
+to permit thermal reduction yet high enough to drive steam re-
+oxidation, together with a phase-stable host that withstands re-
+peated cycling. Guided by the favorable hydrogen productivity
+of CCTM2112 ( ∼10 mmol H 2/mol atom CCTM2112 per cycle at
+1350 ◦C; reduction and reoxidation conditions comparable to those
+in Table 3),30 we examined six Ca–Ce–Ti–Mn perovskites (host
+2
+
+structure in Fig. 1a; local oxygen coordination in Fig. 1b) in which
+only the A-site Ce fraction and B-site Mn fraction vary , with Ca re-
+tained as the majority A-site cation (Table 1). The Ce mole fraction
+XCe spans 0.25–0.37, bracketing the empirically observed solubility
+limit (∼1/3 ) above which CeO2 segregation is expected. 30,37,38
+Four compositions lie along the line XMn =2X Ce (Fig. 1c); this
+relation enforces nominal charge compensation between Ce and
+Mn (each Ce4+ substituting for Ca2+ on the A site is balanced by
+two Mn3+ substituting for Ti4+ on the B site) and enables a test
+of whether maintaining this balance promotes reversible oxygen
+exchange. Two additional compositions hold XCe =1/3 while devi-
+ating from the 2:1 line toward Mn-poor (XMn =0.58 ) and Mn-rich
+(XMn =0.75 ) limits, decoupling A-site and B-site effects. Together,
+these six compositions enable a systematic assessment of how bulk
+stoichiometry shapes both thermodynamic stability (Ehull) and the
+distribution of local vacancy formation energies.
+Phase stability and vacancy energetics
+Phase stability under repeated redox cycling is essential for prac-
+tical thermochemical hydrogen production. We assess intrinsic
+stability using the zero-kelvin energy above the convex hull, Ehull,
+for each composition (Table 1). All six values lie within 18–
+39 meV atom−1, comparable to the metastability range typical of
+experimentally observed complex oxides; 39 CCTM2112, in the up-
+per portion of this range at 33 meV atom−1, has been synthesized
+in prior work. 30 Along the charge-compensation line XMn =2X Ce
+(Fig. 2, blue circles), Ehull increases monotonically with XCe, con-
+sistent with progressive deviation from the stable CaTiO3 end
+member. At fixed XCe =1/3 (Fig. 2, red squares), increasing XMn
+from 0.58 to 0.75 raises Ehull more modestly (31to35 meV atom −1),
+indicating that B-site variation alone is less destabilizing than si-
+multaneous A- and B-site changes.
+Having established that all six compositions are thermodynam-
+ically accessible, we next assess their oxygen-exchange activity
+through the formation energy of a neutral oxygen vacancy, Ev.
+In these metallic hosts (ESI Fig. S2), the neutral vacancy is the
+relevant charge state (see Methods). Ev accounts for both the
+cost of removing a neutral oxygen atom to form ABO3 –δ and the
+stabilization gained when the two electrons left on the lattice
+are accommodated by reducible neighboring cations (equivalently ,
+O2 – departs as 12 O2, leaving its two electrons behind). Reducible
+couples such as Mn4+/Mn3+ lower Ev by providing favorable
+electron-accepting states, whereas the less reducible Ti4+/Ti3+
+raises it; the role of Ce is intermediate and composition-dependent,
+as discussed below.
+Distributions centered in the 3.4to3.9 eV range are expected
+to balance high-temperature reduction with steam reoxidation:
+the upper bound of the window reflects the requirement that
+Ev be low enough for thermal reduction to be accessible, and
+the lower bound that it remain high enough to retain a thermo-
+dynamic driving force for steam reoxidation, the same competi-
+tion formalized at finite temperature through the reduction and
+water-splitting oxygen chemical potentials (eqn (6) and (8) in
+Methods). 2 This 0 KE v target window is distinct from the explicit
+finite-temperature cycle-capacity evaluation, which uses the spe-
+cific T–PO2values in Methods. All six CCTM compositions populate
+this target window to varying extents (Table 2 and Fig. 3). Along
+the charge-compensation series XMn =2X Ce, the median Ev values
+cluster tightly between 3.46and3.58 eV , and the fraction of sites
+within the target range peaks at XCe =0.33 , where 49 % of vacan-
+cies fall between 3.4and3.9 eV . The mean–median difference
+is at most 0.20 eV across all compositions, indicating only mild
+skewness.
+At fixed XCe =1/3 , varying XMn shifts both the central tendency
+and the spread of the distribution (Fig. 3). The median rises
+from 3.31 eV at XMn =0.58 to 3.46 eV at XMn =0.67 (maximizing
+the in-window fraction at 49 %), then drops to 3.21 eV at XMn =
+0.75. In this Mn-rich limit, 87 % of vacancies fall below 3.4 eV,
+indicating overly facile reduction and a diminished thermodynamic
+driving force for reoxidation. These trends reflect the competing
+influences of cation reducibility: higher local Mn content lowersEv
+through the favorable Mn4+/Mn3+ couple, while Ti raises Ev. An
+intermediate Mn fraction balances these effects, placing the largest
+fraction of sites in the desired window. From a materials-selection
+perspective, Ca0.67Ce0.33Ti0.33Mn0.67O3 (49 % in-window; Ehull =
+33 meV atom−1) and Ca0.71Ce0.29Ti0.42Mn0.58O3 (44 % in-window;
+Ehull =26 meV atom−1) are the candidates that best combine a high
+in-window fraction with phase stability .
+Local cation control of vacancy energetics
+To connect local cation chemistry with vacancy energetics, we
+define a vacancy’s local composition (Fig. 1b) in terms of the Ce
+fraction among its four A-site nearest neighbors (xCe) and the Mn
+fraction among its two B-site nearest neighbors (xMn). Uppercase
+symbols (XCe, XMn) denote bulk-averaged compositions (Table 1),
+while lowercase symbols denote local values around a specific
+vacancy site (Fig. 4). Because only two cation types occupy each
+sublattice, the remaining fractions are fixed by stoichiometry:
+xCa =1−x Ce and xTi =1−x Mn. This mapping assigns each of
+the fifteen symmetry-distinct vacancy environments in the SQS
+supercells to a unique (xCe, xMn) pair, enabling direct correlation
+with the local vacancy formation energyE v.
+The B-site chemistry is the primary control onEv. Increasing xMn
+from 0 to 1 lowers Ev by ∼1.5 eV in Ca0.71Ce0.29Ti0.42Mn0.58O3
+(Fig. 4). The dependence on the local Mn fraction dominates,
+whereas the dependence on local Ce is weaker and nonmonotonic;
+varying xCe shifts Ev by 0.2–0.6 eV depending on local Mn content.
+The target 3.4to3.9 eV window is thus accessible via two routes:
+high local Mn content with high Ce, or moderate Mn with low Ce.
+These observations motivate a physics-informed linear model of
+the form
+Ev =β b⟨Eb⟩+β r⟨Vr⟩+β 0,(1)
+where ⟨Eb⟩ is the average M–O bond-dissociation energy and ⟨Vr⟩
+is the average crystal reduction potential (the reduction potential
+of a cation couple evaluated in the oxide crystal rather than in
+aqueous solution 34), both computed over all six nearest-neighbor
+cations (four A-site, two B-site). The fitted coefficients encode
+the effective contributions of each term to vacancy formation.
+Substituting Mn for Ti weakens M–O bonds and provides a more
+favorable reduction couple (Mn4+/Mn3+), both of which lowerEv;
+3
+
+Table 1CCTM compositions examined in this work.XCe and XMn denote A-site Ce and B-site Mn mole fractions, respectively.Ehull is the zero-kelvin
+energy above the convex hull (meV atom−1). Oxidation states for Ce and Mn are inferred from calculated local magnetic moments (see ESI Section S1).
+Mole fractions Oxidation states
+CCTM chemical formulaX Ce XMn XCe/XMn Ehull (meV atom−1) Ce Mn
+Ca0.75Ce0.25Ti0.50Mn0.50O3 0.25 0.50 1/2 18 3 4, 3
+Ca0.71Ce0.29Ti0.42Mn0.58O3 0.29 0.58 1/2 26 3 4, 3
+Ca0.67Ce0.33Ti0.33Mn0.67O3 0.33 0.67 1/2 33 4, 3 4, 3
+Ca0.63Ce0.37Ti0.25Mn0.75O3 0.37 0.75 1/2 39 3 4, 3
+Ca0.67Ce0.33Ti0.42Mn0.58O3 0.33 0.58>1/2 31 3 4, 3
+Ca0.67Ce0.33Ti0.25Mn0.75O3 0.33 0.75<1/2 35 3 4, 3, 2
+Fig. 1(a) The ABO3 perovskite host structure common to the CCTM compositions (CaTiO3 cell, [001] projection), with A-site cations (blue) between
+corner-sharing BO6 octahedra (B-site cations gray, O red). (b) Zoom on the local nearest-neighbor environment of a representative oxygen site (four
+A-site and two B-site coordinating cations). (c) Composition space explored, plotted asXMn vs. XCe. The blue line marks the charge-compensation
+condition XMn =2X Ce; the red line fixesXCe =1/3. Blue circles and red squares denote the two compositional series, and the gold diamond marks their
+intersection, the reference composition CCTM2112. Compositions withXCe >1/3 lie beyond the empirical Ce solubility limit, whereCeO2 exsolution is
+expected.37,38
+Table 2Summary statistics for oxygen-vacancy formation energies (Ev) across the six CCTM compositions. Means and medians are computed over all
+symmetry-distinct vacancy sites. “Ev ≤3.4 eV” and “Ev ≤3.9 eV” columns give the percentage of sites at or below each threshold; “In target range” is
+the percentage with3.4≤E v ≤3.9 eV. Percentages rounded to nearest integer.
+Percent of sites with Percent in
+CCTM chemical formula Mean MedianE v ≤3.4 eVE v ≤3.9 eVtarget range
+Ca0.75Ce0.25Ti0.50Mn0.50O3 3.60 3.47 40 72 32
+Ca0.71Ce0.29Ti0.42Mn0.58O3 3.55 3.58 34 78 44
+Ca0.67Ce0.33Ti0.33Mn0.67O3 3.48 3.46 40 89 49
+Ca0.63Ce0.37Ti0.25Mn0.75O3 3.52 3.46 31 75 44
+Ca0.67Ce0.33Ti0.42Mn0.58O3 3.51 3.31 55 76 21
+Ca0.67Ce0.33Ti0.25Mn0.75O3 3.21 3.21 87 88 1
+4
+
+Fig. 2Zero-kelvin energies above the convex hull (Ehull) for two CCTM
+compositional series: XMn =2X Ce (charge-compensation line, blue circles)
+and XCe =1/3 (constant-Ce line, red squares); the gold diamond marks
+CCTM2112. Markers indicate0 KE hull in meV atom−1. The dotted hori-
+zontal line marks the vibrational-entropy scale (kBT) at 298 K, the dashed
+horizontal line the empirical35 meV atom−1 synthesizability threshold, and
+the blue dashed and red dash-dotted curves the combined vibrational and
+configurational-mixing offset (kBT+T∆S mix) at 298 K for each series (the
+two offset curves nearly coincide over the plotted range). These room-
+temperature reference scales are exceeded by several of theEhull values;
+at the much higher synthesis temperature, the combined entropic offset
+is substantially larger and exceeds theEhull values of all six compositions,
+indicating thermal accessibility.
+replacing Ca with Ce modifies ⟨Vr⟩ more modestly , consistent with
+the smaller and nonmonotonic influence of A-site composition.
+A Huber regression (which down-weights outliers) fitted to 90
+vacancy energies from the strongly constrained and appropriately
+normed functional with Hubbard U corrections (SCAN+U) sup-
+ports this picture (ESI Fig. S3). The model achieves a mean abso-
+lute error of 0.175(15)eV across 1000 random 50 %/50 % train–test
+splits. This accuracy is comparable to that of earlier linear descrip-
+tor models, which predict oxygen-vacancy formation energies in
+diverse oxides from intrinsic bulk properties (oxide formation
+enthalpy, midgap energy relative to the O 2p band center, and
+atomic electronegativity) to within∼0.2 eV; 40 the crystal-feature
+model attains similar accuracy within the CCTM family using two
+descriptors chosen to expose the underlying Born–Haber thermo-
+chemistry . The fitted coefficients have a direct physical interpreta-
+tion. Although ⟨Eb⟩ and ⟨Vr⟩ are each averaged over all six nearest
+neighbors, the coefficient βb ≈2.0 indicates that approximately
+two bonds’ worth of dissociation energy contributes to Ev, consis-
+tent with the two B-site cations forming direct M–O bonds to the
+removed oxygen, while the more distant A-site cations contribute
+primarily through electrostatics. Similarly ,βr ≈ −1.3reflects stabi-
+lization of the two electrons released upon vacancy formation into
+redox-active states on neighboring cations. We evaluated Ehull as
+a third descriptor but excluded it from the final model: with only
+six unique Ehull values spanning a narrow range, its coefficient is
+not statistically resolved (the 95 % confidence interval spans zero),
+and including it does not improve the cross-validated error (ESI
+Table S2). This compact model directly encodes the underlying
+Fig. 3Count-weighted distributions of oxygen-vacancy formation energies
+(Ev) for the six CCTM compositions, shown as violins at each(XCe,X Mn).
+Each violin is a kernel-density estimate over the symmetry-distinct vacancy
+environments weighted by their multiplicity; black bars mark the medians
+and black dots overlay the individual cell-meanEv values. Violin fill color
+denotes the series: charge-compensation (XMn =2X Ce, blue), constant-
+Ce (XCe =1/3 , red), and their intersection, CCTM2112 (gold). The
+gray shaded band denotes the target3.4to3.9 eV window for balanced
+reduction–reoxidation cycling.
+Born–Haber thermochemistry , enabling both rapid screening and
+mechanistic interpretation.
+Cycle-level performance maps
+The preceding section established how local cation chemistry con-
+trols Ev; here, we translate these site-level energetics into cycle-
+level performance. The local cation environments analyzed above
+produce a distribution of vacancy formation energies rather than
+a single characteristic value. For each local environment we com-
+pute the equilibrium probability that an oxygen site is vacant
+under representative reduction and oxidation conditions (eqn (4)
+in Methods); averaging this equilibrium vacancy population over
+the Ev distribution gives the oxygen off-stoichiometry δ (eqn (5)),
+and the difference between the reduction and oxidation states
+yields the cycle capacity, ∆δ=δ red −δ ox. The thermodynamic
+formalism (eqn (4) and (6)–(8) in Methods) treats vacancies as
+neutral and noninteracting, an approximation supported by the
+modest electrostatic coupling estimated in ESI Section S4. We
+compare predictions from the crystal-feature model (CFM) and
+the defect graph neural network (dGNN) across the CCTM compo-
+sition space.
+Crystal feature model.
+The CFM gives a smooth, physically interpretable map of Ev
+across composition space. As shown in Fig. 5a, the predicted
+cycle capacity ∆δ varies monotonically along the edges of the
+(XCe, XMn) composition square, increasing from the Ce-rich cor-
+5
+
+Fig. 4Local-environment dependence of the oxygen-vacancy formation
+energy Ev. For each local nearest-neighbor composition (xCe, xMn), the Ev
+values from the six bulk compositions are shown as small markers; larger
+markers connected by lines give the count-weighted mean within each
+local-xCe series. The small markers are offset horizontally for visibility, both
+to separate the local-xCe color groups within eachxMn position and to fan
+out the six bulk values within each cell; the underlying localxMn is exactly
+0, 1/2, or 1, and the horizontal spread carries no information. Increasing
+the local Mn fraction lowersEv (the dominant B-site effect), while the
+vertical separation between series at fixedxMn reflects the weaker A-site
+modulation with local Ce. The tight clustering of the six bulk markers
+within each cell indicates that the local-environment dependence is largely
+transferable across bulk compositions. The shaded band marks the target
+Ev window (3.4–3.9 eV) for solar thermochemical H2 production.
+ner (XCe =1 , XMn =0 ; CeTiO3 limit) toward the Mn-rich corner
+(XCe =0 , XMn =1 ; CaMnO3 limit). This trend reflects the corre-
+lation between local Mn content and the favorable Mn4+/Mn3+
+reduction couple. For the cycle conditions employed here (Tred =
+1350 ◦C, PO2 =1×10 −4 bar; Tox =850 ◦C, PH2 /PH2O =1×10 −3),
+the predicted cycle capacity ∆δ spans 0–0.14 per formula unit
+across the accessible composition range. For comparison, ceria
+achieves ∆δ/3≈0.010 under more aggressive cycling conditions
+(Tred ≈1600 ◦C, PO2 =1×10 −5 bar; Tox ≈900 ◦C). 3 On a per-atom
+basis, ∆δ is normalized by the number of atoms per formula unit:
+5 for the ABO3 CCTM perovskites and 3 for the CeO2 fluorite that
+defines the ∆δ/3 ceria value above. On this basis, the synthesized
+CCTM compositions ( ∆δ/5≈0.007–0.010 ) approach or exceed
+this benchmark under our more moderate conditions, suggesting
+competitive performance with reduced thermal demands.
+Practical synthesis constraints narrow the accessible region.
+Prior reports indicate that Ce solubility in the Ca–Mn–O per-
+ovskite host is limited, withCeO2 segregating beyond the solubility
+limit, 37,38 and single-phase CCTM has been demonstrated up to
+XCe =1/3 by powder X-ray diffraction;30 our 0 K stability analysis
+additionally shows that compositions with XMn ≥0.75 have Ehull
+values exceeding that of CCTM2112. These boundaries exclude a
+region at high Ce and high Mn on stability and solubility grounds.
+Within the remaining domain, the CFM predicts that ∆δ is max-
+imized near XCe ≈0 and XMn ≈2/3 . Selecting this composition
+would forgo any potential kinetic or entropic benefits of A-site Ce,
+a tradeoff that merits experimental investigation.
+Defect graph neural network.
+Predictions from the dGNN are broadly consistent with the CFM
+but display nonmonotonic behavior along the CaTiO3–CaMnO3
+and CaMnO3–CeMnO3 edges (Fig. 5b). Because the dGNN re-
+quires explicit structural input, we generated SQS supercells at
+100 grid points across composition space and interpolated be-
+tween them. The nonmonotonic features may reflect composition–
+structure–defect coupling that the linear CFM cannot capture,
+although some deviations could also arise from sparse sampling in
+certain composition regions. Without the stability constraint, the
+dGNN ∆δ maximum lies near (XCe,X Mn)≈(0.5,1) . When the Ehull
+and solubility constraints defined above are applied, compositions
+near(X Ce,X Mn)≈(0.22,0.67)are favorable.
+The CFM and dGNN give complementary descriptions of the
+CCTM redox behavior: the CFM represents mean thermodynamic
+trends with transparent physical interpretation, and the dGNN
+represents potential higher-order structure–composition–defect in-
+teractions. Composition ranges where the two predictions overlap
+balance reducibility with phase stability and are prioritized for
+experiment.
+Experimental validation
+We synthesized three CCTM compositions along the charge-
+compensation series at XCe =0.25 , 0.29, and 0.33, the last cor-
+responding to CCTM2112 (full chemical formulas in Table 3), and
+measured their oxygen-exchange capacities by thermogravimetric
+analysis (TGA) and laser-heated stagnation flow reactor (LSFR)
+cycling. Only orthorhombic perovskite peaks were observed by
+powder X-ray diffraction for each of the three samples, indicat-
+ing high phase purity (ESI Section S5); in contrast to previous
+reports, 30 no CeO2 or other secondary phases were detected. We
+applied three TGA cycling protocols (A, B, and C; Experimental
+methods) and one LSFR protocol to test how reducing atmosphere
+and dwell time affect the measured ∆δ. Full TGA cycling traces
+and protocol details appear in ESI Section S6. Steady-state ∆δ
+values are summarized in Table 3.
+Under TGA Protocol C, in which the reduction PO2(≈1.1×
+10−3 bar) is closest to the model conditions, ∆δ increases mono-
+tonically with XCe from 0.036 at XCe =0.25 to 0.048 at XCe =0.33 .
+Under Protocols A and B, in which residual oxygen in theAr carrier
+gives an effective PO2 ≈1×10 −6 bar (substantially below the model
+conditions), measured ∆δ is systematically higher (0.061–0.072)
+and the XCe-dependent ordering is preserved but flatter. Measured
+∆δ values are lower bounds on the equilibrium oxygen-exchange
+capacity in all four protocols, evidenced by the nonzero O2 release
+rate at the end of the reduction step in the LSFR (Fig. 6). The
+specific rate-limiting step (surface exchange, bulk diffusion, or
+gas-phase transport) is not separately identified from the present
+data and likely differs across protocols owing to the different tem-
+perature ramps, atmospheres, and reactor geometries involved.
+LSFR cycling of the XCe =0.29 and 0.33 compositions yields
+steady-state ∆δ values of 0.047 and 0.067, respectively, compara-
+ble to the corresponding TGA Protocol C values (0.044 and 0.048)
+despite the substantially shorter reduction dwell. This is consistent
+6
+
+Fig. 5Predicted oxygen-exchange capacity (∆δ) across CCTM composition space from (a) the crystal-feature model (CFM) and (b) the defect graph
+neural network (dGNN). Axes denote bulk mole fractionsXCe and XMn; the color scale indicates∆δ, the exchanged oxygen per perovskite formula
+unit. White contours are spaced at intervals of0.05 in ∆δ. Blue circles: charge-compensation series (XMn =2X Ce); red squares: constant-Ce series
+(XCe =1/3); gold diamond: CCTM2112. The CFM surface increases monotonically toward the Mn-rich corner, whereas the dGNN surface exhibits a
+nonmonotonic ridge in mixed Ce–Mn regimes.
+Table 3Predicted and measured oxygen-exchange capacity (∆δ) for three CCTM perovskites across cycling protocols. SCAN+U: site-resolved DFT
+vacancy formation energies for the15 symmetry-distinct nearest-neighbor cation environments of each composition, weighted by their ideal-solution
+(binomial) probabilities at the bulk composition and evaluated through the thermodynamic formalism of ESI Section S7 (ESI eqn (S12) and (S14)).
+CFM: same binomial environment weighting applied to crystal-feature-model predictions of the per-environmentEv. dGNN: defect graph neural network
+ensemble-mean predictions on SQS supercells at100(X Ce,X Mn) grid points; off-grid compositions obtained by linear interpolation between the four
+nearest grid points. All three predictions use identical cycling conditions:Tred =1350 ◦C, PredO2 =1×10 −4 bar; Tox =850 ◦C, PH2 /PH2O =1×10 −3. TGA
+Protocol A: 1350 ◦C (0.5 h) / 1300 ◦C (1 h) reduction inAra, 900 ◦C (0.5 h) reoxidation in 20 %O 2/Ar. Protocol B: 1350 ◦C (1 h) / 1300 ◦C (0.5 h)
+reduction inAra; same reoxidation. Protocol C:1350 ◦C (1.5 h) reduction in0.11 %O 2/Ar, 850 ◦C (1 h) reoxidation in the same atmosphere. LSFR:
+1350 ◦C (5.5 min) reduction inAra, 850 ◦C (25 min) reoxidation in40 %H 2O/Ar; values are mean of cycles2–4 from O2 integration. Experimental
+uncertainties approximately ±10 %. Both TGA and LSFR∆δ are lower bounds on the equilibrium oxygen-exchange capacity owing to incomplete
+equilibration during the reduction dwell.
+Predicted TGA Protocol
+CompositionX Ce XMn SCAN+UCFM dGNN A B C LSFR
+Ca0.75Ce0.25Ti0.50Mn0.50O3 0.25 0.50 0.043 0.036 0.042 0.061 0.066 0.036 — b
+Ca0.71Ce0.29Ti0.42Mn0.58O3 0.29 0.58 0.069 0.044 0.058 0.066 0.071 0.044 0.047
+Ca0.67Ce0.33Ti0.33Mn0.67O3 0.33 0.67 0.044 0.051 0.098 0.067 0.072 0.048 0.067
+a The Ar reduction atmosphere contains residual oxygen atP O2 ≈0.1–1 Pa(≈1×10 −6–1×10 −5 bar).
+b LSFR not performed; theX Ce =0.25composition is the least reducible in the experimental set.
+7
+
+Fig. 6Time-resolved oxygen and hydrogen release rates measured in the laser-heated stagnation flow reactor forCa0.71Ce0.29Ti0.42Mn0.58O3 (XCe =0.29;
+left) and CCTM2112 (XCe =0.33; right) over four redox cycles. Top panels:O2 release rate during reduction (red) andH2 production rate during
+reoxidation (blue), normalized to total atoms in the perovskite formula unit. Bottom panels: sample temperature program (5.5 min reduction at 1350 ◦C
+under Ar, 25 min reoxidation at850 ◦C under 40 %H 2O/Ar). The cycle-1O 2 peak exceeds the cycle-2–4 peaks by a factor of2–3.3 in both compositions,
+reflecting preconditioning of as-synthesized material; tabulated∆δvalues (Table 3) are averaged over cycles2–4.
+8
+
+with laser heating reaching the reduction temperature faster than
+the TGA furnace ramp. Two features are apparent in the time-
+resolved O2 and H2 release rates (Fig. 6). First, the cycle-1O 2 peak
+exceeds the cycle-2–4 peaks in both compositions; this behavior is
+commonly observed and motivates a redox break-in cycle, so tabu-
+lated ∆δ values are averaged over cycles 2–4. Second, the O2 peak
+heights decrease slightly from cycle 2 to cycle 4, and the measured
+H2/O2 material balance shows a small ( 5–7 %) mismatch over
+time. Reoxidation of CCTM and related materials is much slower
+in water vapor (here 40 %H 2O) than in O2/Ar mixtures such as
+those used in the TGA, so this trend is consistent with incomplete
+reoxidation to the starting state of the material in each cycle; the
+O2 evolution is also truncated by the 5.5 min reduction window in
+each cycle. Both the peak-height decline and the material-balance
+mismatch therefore reflect an experimental artifact of reoxidation
+kinetics and cycle times rather than deactivation over consecutive
+cycles; a few-percent mass-spectrometer calibration uncertainty
+(certified gas standards; Experimental methods) may also con-
+tribute. This supports a kinetic rather than thermodynamic origin
+for the lower-bound character of the LSFR ∆δ described above.
+The XCe =0.25 composition was not measured in the LSFR because
+its predicted and TGA-measured ∆δ are the lowest of the three
+compositions and below the productivity threshold of practical
+interest for subsequent characterization.
+At cycling conditions close to the model conditions (TGA Proto-
+col C, LSFR), measured ∆δ at XCe =0.25 (0.036) matches the CFM
+prediction (0.036) and lies below the SCAN+U and dGNN predic-
+tions (0.043 and 0.042, respectively). At CCTM2112 (XCe =0.33 ),
+measured ∆δ (0.048–0.067) brackets the CFM prediction (0.051);
+the SCAN+U value (0.044) lies just below the measured range,
+and the dGNN prediction ( 0.098) well above it. At XCe =0.29 ,
+the SCAN+U (0.069) and dGNN predictions exceed the measured
+range (0.044–0.047) while the CFM (0.044) falls at the lower edge
+of the measured range, the closest of the three; the ordering is
+consistent with experimental ∆δ being a lower bound on the equi-
+librium value, but the magnitude of the SCAN+ U–experiment
+gap is larger here than at the other two compositions. Under
+Protocols A and B, measured ∆δ exceeds all three predictions
+for all three compositions, consistent with the more strongly re-
+ducing residual-PO2atmospheres of these protocols falling outside
+the model conditions. Across the three compositions, the two
+fitted models deviate from SCAN+U in different ways: the CFM
+yields a narrower predicted ∆δ range, while the dGNN yields a
+substantially larger ∆δ at CCTM2112 (ESI Section S8.4). The im-
+plications of these complementary biases for fitted-model selection
+in composition-space screening are addressed in the Discussion.
+Discussion
+B-site chemistry as the primary control over vacancy energetics
+Local B-site chemistry, not bulk stoichiometry alone, dominates
+oxygen-vacancy formation energetics in CCTM perovskites. Vary-
+ing the Mn fraction among nearest-neighbor B sites shifts Ev by
+1.0–1.5 eV depending on local Ce content, whereas A-site Ce varia-
+tion produces a smaller, Mn-dependent shift of 0.2–0.6 eV (Fig. 4).
+This B-site shift is large relative to the targeted energetics: it spans
+2–3 times the 0.5 eV width of the thermochemically favorable 3.4–
+3.9 eV window, and its upper end of 1.5 eV is 38–44 % of the target
+Ev itself. The larger B-site contribution suggests that short-range
+B-site cation order, rather than bulk composition, is the more ef-
+fective target for tuning the Ev distribution: bulk optimization
+averages over local environments, whereas targeted B-site order-
+ing could narrow the distribution and increase the fraction of
+sites within the thermochemically favorable 3.4–3.9 eV window.
+Adopting a uniformly narrow distribution as the optimization goal
+assumes that per-vacancy electronic entropy contributions are
+approximately uniform across local environments; differences be-
+tween Ce- and Mn-localized vacancies could shift the optimum
+from a uniformly narrow distribution to one weighted toward
+specific local environments.
+Several processing routes might achieve such control. Layer-
+by-layer thin-film growth could bias toward specific B-site order-
+ing motifs; epitaxial strain, which couples to octahedral tilting
+and B–O bond lengths, 41,42 could indirectly bias cation arrange-
+ments through these structural distortions; thermal histories that
+permit partial B-site equilibration before quenching offer a bulk-
+compatible alternative; and aliovalent or size-mismatched dopants
+may promote B-site cation ordering directly in bulk material. 43,44
+In related double perovskites, such substitution enhances B-site
+cation order, although the effect is system-dependent and the
+smaller B-site charge contrast in CCTM makes the outcome less
+certain. Any such order would be metastable, requiring kinetic
+trapping during synthesis, and could re-equilibrate toward the
+thermodynamically preferred arrangement at the high reduction
+temperatures of cycling; retention of the targeted ordering is
+therefore a prerequisite for this approach. The present work treats
+disordered configurations via SQS supercells; future first-principles
+calculations comparing representative ordered motifs to this base-
+line would quantify how much ordering can shift the Ev distribu-
+tion and whether such shifts improve ∆δ without compromising
+phase stability. Such ordering can be quantified by short-range
+order parameters (e.g., Warren–Cowley pair correlations45,46 on
+the B-site Ti–Mn sublattice, with secondary parameters describing
+A-site Ca–Ce mixing and the cross-sublattice Ce–Mn correlation,
+extended to multiple sublattices in standard fashion 47), which are
+measurable by high-resolution electron microscopy and can be
+computed from the same supercell configurations used to evaluate
+theE v distribution.
+The larger B-site contribution to Ev is reflected in the CFM coeffi-
+cients, whose fitted values (βb ≈2.0 , βr ≈ −1.3) recover the direct
+M–O bonding of the two B-site cations to the removed oxygen and
+the stabilization of the two released electrons, as detailed above.
+Substituting Mn for Ti weakens the M–O bonds and provides a
+more favorable reduction couple ( Mn4+/Mn3+ vs. Ti4+/Ti3+),
+both of which lower Ev. 48,49 The smaller influence of A-site Ce
+likely reflects the interplay between Ce’s reduction potential, which
+is intermediate between the more reducible Mn4+/Mn3+ and the
+less reducible Ti4+/Ti3+ couples, and local structural distortions,
+though a full mechanistic decomposition remains an open ques-
+tion; the sense in which Ce can be both nominally Ce3+ and
+electronically active in reduction is addressed below.
+9
+
+Cerium oxidation states and delocalized reduction
+Our calculations indicate thatCe3+ predominates in pristine CCTM
+compositions: 23 of 24 Ce sites in the CCTM2112 supercell ex-
+hibit local magnetic moments consistent with 4f 1 occupation (ESI
+Fig. S1 and Table S1). Although the pristine compositions thus
+exhibit predominantly Ce3+-like character within the SCAN+ U
+description, the changes in Ce 4f occupation that accompany
+vacancy formation (below) show that Ce remains electronically
+active during reduction and reoxidation, participating in charge
+compensation through redistribution of electronic density rather
+than through a discrete Ce4+ →Ce 3+ transition. This finding
+contrasts with earlier work emphasizing Ce4+ →Ce 3+ reduction
+as a primary contributor to redox activity, 30 a difference that
+likely reflects the larger supercells and coverage-constrained SQS
+methodology employed here, which sample a more representa-
+tive distribution of local environments. Reduction can still occur
+at nominally Ce3+ sites: the partially occupied Ce 4f states are
+near the Fermi level, providing a manifold that accommodates
+the electrons released on vacancy formation, distributing a small
+additional reduction over many Ce3+-like sites rather than driving
+a discrete change in the formal oxidation state of any single Ce
+ion. 6 Nonlocal accommodation of the electrons released upon
+oxygen-vacancy formation has precedent in related perovskites: in
+SrFeO3 –δ , these electrons localize on second-nearest-neighbor Fe
+rather than the directly coordinated cation. 50
+Resolving the precise partitioning of reduction between Ce and
+Mn will require further investigation. Local compositional fluctua-
+tions, combined with the sensitivity of oxidation-state assignments
+to the choice of DFT functional and Hubbard U parameters, com-
+plicate definitive mechanistic attribution. For thermochemical
+screening purposes, however, the key point is that the CFM and
+dGNN capture the net effect of these contributions on Ev without
+requiring a complete mechanistic decomposition, an advantage
+for high-throughput materials discovery .
+Model validation and limitations
+The CFM and dGNN deviate from SCAN+U (the DFT reference in
+Table 3) in different ways. The CFM’s predicted ∆δ range across
+the three measured compositions (0.036–0.051) is narrower than
+that of SCAN+U (0.043–0.069); this is consistent with the linear
+functional form of the CFM, which cannot represent composition-
+specific changes in the shape of the underlying Ev distribution,
+whose low-Ev tail governs the Boltzmann average. The dGNN
+agrees with SCAN+U within 16 % at XCe =0.25 and 0.29 but pre-
+dicts substantially larger ∆δ at CCTM2112 ( 0.098 vs. SCAN+U
+0.044); we attribute this to a broader, lower-Ev tail of the dGNN Ev
+distribution at this composition (ESI Section S8.4). At XCe =0.29 ,
+the SCAN+U value (0.069) exceeds both fitted-model predictions
+and the measured range ( 0.044–0.047); the present data do not
+distinguish whether this reflects composition-specific incomplete
+equilibration in the experiment, a nonrepresentative low-Ev tail
+in the 15-site DFT sample, or both. The spread among the three
+predictions defines an effective uncertainty band for composition-
+space screening: within its training composition window the CFM
+tends to give a conservative (typically lower) ∆δ estimate, lying
+below SCAN+U at two of the three measured compositions (the
+exception being CCTM2112). Compositions with large dGNN–
+SCAN+U disagreement warrant cross-checking with SCAN+ U
+before committing to synthesis.
+Two further caveats qualify this comparison. First, the noninter-
+acting vacancy approximation does not include possible vacancy–
+vacancy clustering at high δ; electrostatic repulsion remains mod-
+est (a few tens ofmeV) over the relevant δ range, per the screened-
+monopole analysis in ESI Fig. S4, but short-range chemical interac-
+tions could modify the effective Ev distribution at elevated defect
+concentrations. Second, the dGNN screening surface (Fig. 5b)
+exhibits nonmonotonic features in composition regions outside the
+measured set; the present validation cannot distinguish whether
+these reflect genuine composition–structure coupling captured by
+the dGNN’s structural input or sparse-sampling artifacts of the
+underlying training data. Expanding the SCAN+U data set or the
+dGNN training set with additional CCTM compositions, particu-
+larly in the mixed Ce–Mn regime at intermediate XCe, would help
+discriminate between these possibilities.
+Outlook and transferability
+The interpretable modeling framework developed here provides
+design principles that should transfer to related perovskite fami-
+lies. The finding that B-site chemistry dominates Ev suggests that
+other systems with mixed B-site occupancy , such as Sr–Ce–Mn–O
+or Ba–Ce–Mn–O analogs, may exhibit similar tunability through
+short-range cation order.26,38,51 The Born–Haber decomposition
+represented by the CFM coefficients (bond-breaking vs. reduction
+stabilization) provides a physically grounded basis for predicting
+how alternative dopants will shift the Ev distribution: species with
+weaker M–O bonds or more favorable reduction couples should
+lowerE v, while the opposite perturbations should raise it.
+Extending this approach to new compositions requires generat-
+ing appropriate SQS supercells, computing Ev for representative
+local environments, and optionally fine-tuning the dGNN on the
+expanded dataset. The computational cost is modest, roughly
+16 DFT calculations per composition for complete coverage of
+the 15 nearest-neighbor environments, making systematic screen-
+ing across multi-cation perovskite spaces tractable. We note that
+the present analysis addresses thermodynamic capacity; practi-
+cal performance also depends on oxygen-transport kinetics and
+surface-exchange rates, which merit complementary investigation.
+The reoxidation measurements reported here were performed in
+steam ( 40 %H 2O/Ar, with no added H2); CCTM performance
+under high H2/H2O ratios, the stricter and more commercially
+relevant reoxidation test, is left for future work.
+Conclusions
+This work establishes an interpretable computational framework
+for mapping oxygen-vacancy formation energetics across com-
+positionally complex perovskites. Using a coverage-constrained
+special quasirandom structure methodology that samples all fif-
+teen symmetry-distinct oxygen nearest-neighbor environments,
+we computed vacancy formation energies for six Ca–Ce–Ti–Mn
+compositions and developed two complementary fitted models:
+10
+
+a crystal-feature model (CFM) whose fitted coefficients directly
+encode the underlying Born–Haber thermochemistry, and a fine-
+tuned defect graph neural network (dGNN) that models poten-
+tial nonlinear structure–composition–defect coupling beyond the
+linear form of the CFM. Vacancy formation energetics in CCTM
+are dominated by local B-site chemistry: changing the nearest-
+neighbor Mn fraction shifts Ev by 1.0–1.5 eV depending on local
+Ce content, whereas A-site Ce variation produces a smaller, Mn-
+dependent shift of 0.2–0.6 eV. This hierarchy indicates that short-
+range B-site cation order, if it can be established and kinetically
+retained through processing, is a candidate means of tuning redox
+performance. Composition-space maps show a Ce/Mn-balanced
+region (XCe ≈0.29–0.33 , XMn ≈0.58–0.67 ) that combines a high
+in-window Ev fraction with phase stability and solubility, where
+the predicted cycle capacity ∆δ is comparable to or exceeds the ce-
+ria benchmark ( ∆δ/3≈0.010 ) at substantially lower reduction
+temperatures ( Tred =1350 ◦C vs. ∼1600 ◦C for ceria). 3 Experi-
+mental measurements on three compositions along the charge-
+compensation line XMn =2X Ce show ∆δ increasing monotonically
+with XCe under cycling protocols close to the model conditions,
+consistent with the qualitative trend from the fitted models; the
+measured ∆δ values exceed the model predictions under more
+strongly reducing protocols. The interpretable framework pro-
+vides compositional screening capability and mechanistic design
+rules expected to transfer to related perovskite families for solar
+thermochemical hydrogen production.
+Methods
+Computational and theoretical methods
+Supercell construction and vacancy site selection.
+To model configurational disorder in the CCTM solid solution, we
+generated special quasirandom structures (SQSs)52,53 using the
+ICETpackage. 54 A 360-atom orthorhombic 3×3×2 supercell was
+constructed with initial lattice parameters a=16.12Å , b=16.39Å ,
+and c=15.27Å ; lattice vectors and internal coordinates were
+subsequently relaxed by DFT for each composition. Additional
+SQS methodology details and prior validation for multication
+perovskites are provided in ref. 30. The cluster space was defined
+with pair and triplet cutoffs of7.0Å and 4.0Å (ICETv2.2; symmetry
+tolerance 10−4), and the SQS were optimized by 100 001 Monte
+Carlo trial steps (optimality weight 1) from a fixed random seed;
+the realized supercells are provided in the data release.
+The default SQS objective inICETdoes not ensure that every
+symmetry-distinct oxygen first-nearest-neighbor (1NN) environ-
+ment is realized. In CCTM, the four A-site and two B-site neighbors
+surrounding each oxygen yield up to fifteen symmetry-distinct 1NN
+environments. To promote complete coverage, we augmented the
+SQS objective with a penalty term:
+Q′ =Q+k |15−N env| ,(2)
+where Q and Q′ are the original and modified objectives, Nenv is
+the number of distinct O-site 1NN environments realized in the
+supercell, and k is a penalty factor. Setting k=2000 reliably pro-
+duced SQS cells containing all fifteen environments. The coverage
+constraint also removes a source of uncontrolled variance in com-
+puted bulk energetics, since standard SQS realizations at the same
+composition can sample different 1NN environment subsets; ESI
+Section S9 estimates the magnitude of this variance for CCTM2112
+by comparison with the standard-SQS realization of ref. 30.
+Having generated supercells with complete 1NN coverage, we
+next selected representative vacancy sites for DFT calculations.
+Each 360-atom supercell contains 216 oxygen sites, of which 15
+are symmetry-distinct by 1NN environment. To avoid redundant
+calculations, we created one neutral oxygen vacancy per environ-
+ment class. The representative site within each class was chosen
+from a two-dimensional Gaussian kernel density estimate (SCIPY
+gaussian_kde, 55 bandwidth 0.5) of the second-shell Ce and Mn
+cation fractions among all O sites sharing that 1NN environment;
+the site nearest the density maximum was designated as the repre-
+sentative vacancy , so that each selected site is statistically typical
+of its class. For classes containing two or fewer sites, the first such
+site was used.
+Density functional theory calculations.
+All calculations were performed with spin-polarized DFT using
+the Vienna ab initio simulation package (VASP) v5.4.4 and the
+projector-augmented-wave (PAW) formalism. The PAW potentials,
+from the standard PAW_PBE dataset, treated the valence configu-
+rations Ca3s 23p64s2 (Ca_sv), Ce5s 25p66s24f 15d1 (Ce, with the
+4f states in the valence), Ti3p 63d24s2 (Ti_pv), Mn3p 63d54s2
+(Mn_pv), and O2s 22p4 (O). We employed the SCAN exchange–
+correlation functional with Hubbard U corrections (SCAN+U) to
+account for onsite correlation in transition-metal and f -electron
+states, adopting UCe =2.0 eV , UTi =2.5 eV , and UMn =2.7 eV
+based on prior benchmarks against experimental oxidation en-
+thalpies. 56,57 The corrections used the rotationally invariant (Du-
+darev) scheme ( LDAUTYPE = 2 ) with J=0 , so the quoted val-
+ues are effective Ueff =U−J applied to the Ce4f , Ti3d , and
+Mn3d states, with LMAXMIX = 6 . The plane-wave energy cutoff
+was 520 eV, and Brillouin-zone sampling was restricted to the Γ
+point, given the large supercell size. All calculations used the
+Accurate precision setting and the aspherical-gradient correction
+(LASPH = True ) required for the meta-generalized gradient ap-
+proximation. Total energies were minimized with the all-bands
+algorithm (ALGO = All ) to an electronic self-consistency thresh-
+old of 10−5 eV (EDIFF) using Gaussian smearing ( ISMEAR = 0 )
+with a width of 0.05 eV, with symmetry disabled (ISYM = 0 ). The
+pristine supercells were relaxed with respect to both cell and ionic
+degrees of freedom (ISIF = 3 ); each defective supercell was then
+relaxed at the fixed pristine cell shape and volume, allowing only
+the ions to move ( ISIF = 2 ). Both used a quasi-Newton algo-
+rithm (IBRION = 1 ) with an ionic force threshold of 0.03 eVÅ
+−1
+(EDIFFG = -0.03 ). Collinear spin polarization was applied with
+ferromagnetic initial states; initial magnetic moments were set
+to 0.6µ B on Ca and Ti and to 1.0µ B and 5.0µ B on Ce and Mn,
+respectively , then allowed to relax self-consistently .
+The chemical and magnetic disorder in these 360-atom cells
+precludes exhaustive enumeration of magnetic orderings or sys-
+tematic U-parameter sweeps. Prior work indicates that composi-
+tional rankings by Ev are robust to moderate U variations despite
+U-dependent absolute values,58 and that magnetic energy scales
+11
+
+are typically smaller than redox energetics in transition-metal per-
+ovskite oxides. 59 A more comprehensive treatment of magnetic
+disorder, such as disordered-local-moment averaging, is left for
+future work.
+Site-resolved magnetic moments were obtained by integrating
+the spin density (ρ↑ −ρ ↓) within PAW spheres; Bader moments60,61
+for representative structures confirm robustness to the partition
+choice (ESI Section S1). Thermodynamic stability was assessed via
+the 0 K energy above the convex hull (Ehull), computed with the
+PYMATGEN PhaseDiagram module. 62–64 The hull was constructed
+from a reference set of elemental, binary, and ternary phases
+spanning the Ca – Ce – Ti – Mn – Osystem, with total energies taken
+from our prior work 29,34,56,57 at the same SCAN+U level as the
+CCTM supercells (elemental metals at the SCAN level), so that no
+cross-functional energy correction is applied; Ehull is the energy of
+each composition above this hull. Density of states calculations
+used Gaussian smearing (0.05 eV width) at the Γ point; a 2×2×2
+k-mesh produced no qualitative differences (ESI Fig. S10).
+The partially occupied Ce 4f states cross the Fermi level in all
+six compositions, resulting in metallic electronic structure (ESI
+Fig. S2). In such metallic hosts, positively charged oxygen va-
+cancies are disfavored because excess electrons are readily ac-
+commodated in the conduction manifold; 65 we therefore treat
+neutral vacancies as the relevant charge state, consistent with the
+computed metallic electronic structure of all compositions studied.
+Neutral oxygen-vacancy formation energies were computed as
+Ev =E(defective)−E(pristine) + 12 EO2 ,(3)
+where E(defective) and E(pristine) are the total energies of the
+vacancy-containing and stoichiometric supercells, respectively .
+Thermodynamic modeling.
+To translate oxygen-vacancy formation energies into cycle-level
+performance metrics, we modeled the equilibrium oxygen off-
+stoichiometry δ(T,µ O) under representative thermochemical cy-
+cling conditions. The lattice is treated as a set of oxygen sites
+that are either occupied or vacant. For neutral, noninteracting va-
+cancies with temperature-independent formation energy Ev(x,X),
+where x= (xCe,x Mn) denotes the local 1NN environment and X
+the bulk composition, the probability that a site is vacant at tem-
+peratureTand oxygen chemical potentialµ O is
+n(x,X) = 1
+1+exp
+h Ev(x,X)+µO(T,{Pi})
+kBT
+i .(4)
+The overall oxygen deficiency follows from averaging over all local
+environments,
+δ(T,µ O) =3⟨n(x,X)⟩,(5)
+where the factor of 3 reflects the three oxygen atoms per ABO3
+formula unit.
+During thermal reduction, the oxide equilibrates with O2(g),
+and the oxygen chemical potential per atom is
+µO(T,PO2 ) = 12 µ ◦O2 (T) +kBTln  PO2P◦  ,(6)
+where µ ◦O2 (T) is the standard chemical potential of O2 from NIST-
+JANAF thermochemical tables66 and P◦ =1 bar. All oxygen chem-
+ical potentials are referenced to the SCAN total energy of O2,
+computed for a spin-triplet molecule in a 15Å cubic cell at the
+Γ point with the same functional, cutoff, and smearing as the
+solids. No empirical O2 energy correction is applied: SCAN repro-
+duces the O2 equilibrium bond length (1.22Å vs. the experimental
+1.208Å ) and yields a dissociation energy of 5.28 eV, consistent
+with its benchmarked molecular accuracy,67 and in any case the
+O2 reference energy cancels between Ev and the oxygen chemical
+potential (ESI Section S7), so its absolute value does not affect
+the computed ∆δ. The connection between 0 K DFT Ev and the
+finite-temperature formulation is derived in ESI Section S7.
+During water splitting, the relevant equilibrium is
+H2(g) +Olattice − −⇀↽− −H2O(g),(7)
+with corresponding oxygen chemical potential
+µO(T,PH2O,PH2 ) =µ ◦H2O(T)−µ ◦H2 (T) +kBTln
+ PH2O
+PH2
+
+.(8)
+Substituting eqn (6) into eqn (4) and averaging via eqn (5) yields
+the equilibrium deficiency during reduction, δred(Tred,PO2 ); substi-
+tuting eqn (8) yields the oxidation deficiency, δox(Tox,PH2O/PH2 ).
+The cycle capacity is ∆δ=δ red −δ ox. For the screening calcu-
+lations, we used Tred =1350 ◦C, PO2 =1×10 −4 bar; Tox =850 ◦C,
+PH2O/PH2 =1000 (i.e., PH2 /PH2O =1×10 −3). These conditions
+are representative of those used in prior solar thermochemical
+measurements on Sr–La–Mn–Al (SLMA) and Ba–Ce–Mn (BCM)
+perovskites, ceria, and CCTM2112, 26,30 and are adopted here for
+comparability rather than as a CCTM-specific optimum.
+To map ∆δ across the full CCTM composition space, we re-
+placed DFT Ev values with CFM or dGNN predictions. For the
+dGNN, which requires explicit structural input, we generated SQS
+supercells at 100 grid points and linearly interpolated for off-grid
+compositions.
+Model construction.
+Crystal feature model.The crystal-feature model (CFM) uses
+two physically motivated descriptors: the average metal–oxygen
+bond-dissociation energy ⟨Eb⟩ and the average crystal reduction
+potential ⟨Vr⟩. Both ⟨Eb⟩ and ⟨Vr⟩ are computed by averaging
+tabulated atomic values (ESI Tables S5 and S6) over all six nearest-
+neighbor cations surrounding the vacancy (four A-site, two B-site),
+reflecting the local chemical environment. Because all CCTM
+compositions exhibit metallic electronic structure, band gap is not
+included as a feature.
+Model coefficients were obtained by Huber regression, 68,69
+which provides robust estimates for datasets with heterogeneous
+variance. The reported coefficients are obtained from a single
+Huber fit to the full 90-site dataset, with 95 % confidence inter-
+vals from bootstrap resampling of sites with replacement ( 2000
+resamples). Prediction accuracy is assessed separately by 1000
+random 50 %/50 % train–test splits and by leave-one-composition-
+out cross-validation, both reported in ESI Section S3. The fitted
+coefficients (βb ≈2.0 , βr ≈ −1.3, β0 ≈ −4.26) and their physical
+12
