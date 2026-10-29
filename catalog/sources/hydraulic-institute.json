@@ -1,0 +1,32 @@
+{
+  "id": "hydraulic-institute",
+  "name": "Hydraulic Institute pump standards",
+  "url": "https://www.pumps.org",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "PWR",
+    "REF",
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Hydraulic Institute",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "notes": "The pump-industry standards body ('Global Authority on Pumps and Pumping Systems', Parsippany NJ): pump and pump-system standards sold individually or via digital subscription, plus guidebooks, the free HI Data Tool and training. Standards text is paid - manual extracts only. Evidence: pumps.org read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "update_frequency": "irregular"
+}

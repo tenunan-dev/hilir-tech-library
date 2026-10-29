@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-201 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+205 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -123,6 +123,8 @@
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
+| [Canadian Energy Research Institute (CERI) studies](https://canadacommons.ca/orgs/canadian-energy-research-institute) | research-institute | na | mixed | full-text-restricted |
+| [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
 | [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
@@ -139,6 +141,7 @@
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
+| [European Hydrogen Backbone](https://ehb.eu) | association | eu | open | full-text-restricted |
 | [ExxonMobil Catalysts and Licensing](https://www.exxonmobilchemical.com/en/catalysts-and-licensing) | licensor | global | open | full-text-restricted (unverified) |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
@@ -195,6 +198,7 @@
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
+| [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [H2 View](https://www.h2-view.com/) | trade-media | global | open | summary-only (unverified) |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |

@@ -1,0 +1,29 @@
+{
+  "id": "energy-intelligence",
+  "name": "Energy Intelligence",
+  "url": "https://www.energyintel.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Energy Intelligence Group",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "notes": "Paywalled energy trade press (Oil Daily, Energy Compass, Nefte Compass); cited on the Allam-cycle card for the Jan-2026 NET Power interconnection withdrawal. Record-only under the paid-source policy; manual extracts from owner-held copies only. Evidence: energyintel.com article URL cited and read from the card gap 2026-10-28.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "update_frequency": "irregular"
+}

@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-120 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+124 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -63,6 +63,7 @@
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [EUBCE European Biomass Conference and Exhibition](https://www.eubce.com/) | conference | global, eu | open | full-text-restricted |
 | [Fraunhofer ISE](https://www.ise.fraunhofer.de/en.html) | research-institute | eu, global | open | full-text-restricted (unverified) |
+| [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
@@ -79,6 +80,7 @@
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
+| [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
@@ -88,6 +90,7 @@
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
+| [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [Gas Turbine World (Pequot Publishing)](https://gasturbineworld.com/) | trade-media | global | paywalled | summary-only |
 | [GE Vernova](https://www.gevernova.com/) | oem-supplier | global | open | full-text-restricted |
 | [GE Vernova 7HA gas turbine product page](https://www.gevernova.com/gas-power/products/gas-turbines/7ha) | oem-supplier | global | open | full-text-open (unverified) |
@@ -116,6 +119,7 @@
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
 | [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |

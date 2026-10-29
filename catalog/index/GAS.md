@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-191 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+195 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -95,6 +95,7 @@
 | [GPA Midstream Association](https://gpamidstream.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
+| [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
@@ -131,9 +132,11 @@
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
+| [European Hydrogen Backbone](https://ehb.eu) | association | eu | open | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [Gas Exporting Countries Forum](https://www.gecf.org/) | association | me, global | open | full-text-restricted |
 | [Gas Turbine World (Pequot Publishing)](https://gasturbineworld.com/) | trade-media | global | paywalled | summary-only |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
@@ -186,6 +189,7 @@
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |

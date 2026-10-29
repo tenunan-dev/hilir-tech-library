@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-75 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+78 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -58,10 +58,13 @@
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [Cefic European Chemical Industry Council](https://cefic.org/) | association | eu | open | full-text-restricted |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
+| [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
+| [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
+| [IADC (International Association of Drilling Contractors)](https://www.iadc.org) | association | global | mixed | full-text-restricted |
 | [IEA Global Methane Tracker](https://www.iea.org/reports/global-methane-tracker-2025) | agency-data | global | open | full-text-open |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |

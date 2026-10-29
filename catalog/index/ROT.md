@@ -1,6 +1,6 @@
 # ROT: Rotating and static equipment
 
-67 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
+69 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |
+| [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -47,6 +48,7 @@
 | [Heatric printed circuit heat exchangers](https://www.heatric.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Horizontal Drilling Engineering: Theory, Methods and Applications (Samuel & Gao, 2014)](https://id.scribd.com/document/241155713/Horizontal-Drilling-pdf) | association | global | mixed | full-text-restricted |
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [IADC (International Association of Drilling Contractors)](https://www.iadc.org) | association | global | mixed | full-text-restricted |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [John Zink Hamworthy Combustion](https://www.johnzink.com/) | oem-supplier | global | open | summary-only |
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |

@@ -1,0 +1,30 @@
+{
+  "id": "cisa-ics",
+  "name": "CISA Industrial Control Systems advisories",
+  "url": "https://www.cisa.gov/topics/industrial-control-systems",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "PWR",
+    "REF"
+  ],
+  "disciplines": [
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "US Cybersecurity and Infrastructure Security Agency",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "permitted_use": "any",
+  "notes": "US agency publishing open ICS/OT security advisories, fact sheets and OT guidance covering energy and critical-infrastructure control systems. Evidence: cisa.gov ICS topic page read 2026-10-29 (advisory AA26-231A publicly posted).",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated"
+}

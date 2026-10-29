@@ -1,6 +1,6 @@
 # MAT: Materials and integrity
 
-77 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
+78 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -58,6 +58,7 @@
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
+| [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
 | [Clean Hydrogen Partnership (EU) programme reviews](https://www.clean-hydrogen.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |

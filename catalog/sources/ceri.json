@@ -1,0 +1,27 @@
+{
+  "id": "ceri",
+  "name": "Canadian Energy Research Institute (CERI) studies",
+  "url": "https://canadacommons.ca/orgs/canadian-energy-research-institute",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Canadian Energy Research Institute",
+  "country": "CA",
+  "regions": [
+    "na"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "notes": "Independent energy-economics institute known for oil-sands supply-cost studies (e.g. Study 152: SAGD C$58.65/bbl, mining C$70.18/bbl, 2015). DOMAIN DEAD/SQUATTED as of 2026-10-29 (ceri.ca now serves an unrelated environmental group) - studies circulate via NRCan and partner PDF mirrors; the Canada Commons profile is the publishing index. Some full PDFs open (Study 150 on NRCan), newer ones paid. Evidence: web search 2026-10-29 incl. NRCan-hosted Study 150 PDF.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "update_frequency": "irregular"
+}

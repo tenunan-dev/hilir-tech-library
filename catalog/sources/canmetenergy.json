@@ -1,0 +1,29 @@
+{
+  "id": "canmetenergy",
+  "name": "CanmetENERGY (Natural Resources Canada)",
+  "url": "https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy",
+  "source_type": "research-institute",
+  "sectors": [
+    "UPS",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "Natural Resources Canada",
+  "country": "CA",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "Canada's clean-energy research laboratories (Ottawa, Varennes, Devon); the Devon centre works on cleaner fossil fuels and oil-sands technologies, Ottawa on carbon capture and utilization. Government pages and reports open. Evidence: NRCan pages surfaced via web search 2026-10-29 (first tried URL was 404 - use the research-centres path).",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

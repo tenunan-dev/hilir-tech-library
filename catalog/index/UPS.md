@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-185 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+192 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -88,6 +88,7 @@
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
+| [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
@@ -118,7 +119,10 @@
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
+| [Canadian Energy Research Institute (CERI) studies](https://canadacommons.ca/orgs/canadian-energy-research-institute) | research-institute | na | mixed | full-text-restricted |
+| [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
+| [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
@@ -130,11 +134,13 @@
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
 | [Fisher valves (Emerson)](https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves) | oem-supplier | global | open | full-text-restricted |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
+| [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Halliburton](https://www.halliburton.com/) | oem-supplier | global | open | full-text-restricted |
 | [Heatric printed circuit heat exchangers](https://www.heatric.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
 | [Horizontal Drilling Engineering: Theory, Methods and Applications (Samuel & Gao, 2014)](https://id.scribd.com/document/241155713/Horizontal-Drilling-pdf) | association | global | mixed | full-text-restricted |
+| [IADC (International Association of Drilling Contractors)](https://www.iadc.org) | association | global | mixed | full-text-restricted |
 | [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA Global Hydrogen Review 2025 (main report)](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IEA Global Methane Tracker](https://www.iea.org/reports/global-methane-tracker-2025) | agency-data | global | open | full-text-open |
@@ -179,6 +185,7 @@
 | [World Oil](https://www.worldoil.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
+| [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |

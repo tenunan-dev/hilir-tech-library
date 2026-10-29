@@ -1,0 +1,28 @@
+{
+  "id": "ehb",
+  "name": "European Hydrogen Backbone",
+  "url": "https://ehb.eu",
+  "source_type": "association",
+  "sectors": [
+    "H2",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "EHB (33 gas TSOs; secretariat at Gas Infrastructure Europe)",
+  "country": "EU",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "notes": "Initiative of 33 European transmission-system operators mapping a Europe-wide hydrogen pipeline network; publishes the European Hydrogen Infrastructure Map and open reports (e.g. 'Boosting EU Resilience and Competitiveness', Dec 2024; Implementation Roadmap, Apr 2024) as direct PDF downloads. Evidence: ehb.eu read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "update_frequency": "irregular"
+}

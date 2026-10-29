@@ -1,6 +1,6 @@
 # PCH: Petrochemicals
 
-131 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+133 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -53,6 +53,7 @@
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
 | [CCPS Process Safety Beacon](https://www.aiche.org/ccps/process-safety-beacon) | association | global | open | full-text-restricted |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
+| [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [IFP Energies nouvelles](https://www.ifpenergiesnouvelles.com/) | research-institute | eu, global | open | summary-only |
@@ -96,6 +97,7 @@
 | [Fisher valves (Emerson)](https://www.emerson.com/en-us/automation/valves-actuators-regulators/control-valves) | oem-supplier | global | open | full-text-restricted |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |

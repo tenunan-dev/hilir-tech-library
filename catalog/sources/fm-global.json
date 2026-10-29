@@ -1,0 +1,31 @@
+{
+  "id": "fm-global",
+  "name": "FM Global Property Loss Prevention Data Sheets",
+  "url": "https://www.fm.com",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "UPS",
+    "GAS",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Factory Mutual Insurance Company",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "notes": "Commercial property insurer whose FM Property Loss Prevention Data Sheets are the reference engineering guidelines for industrial fire/loss prevention (FM Approvals is the sister certification body). Data sheets are client-gated; site content (insights, Nathaz toolkit) is open. Plain fetchers get 403 - read via reader tool. Evidence: fm.com/about-us read 2026-10-29. Data-sheet access reality to record at first collection.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "update_frequency": "irregular"
+}
