@@ -40,9 +40,9 @@
     {
       "id": "A6",
       "name": "Verification sweep of 193 unverified source records",
-      "status": "queued",
-      "runs": 0,
-      "note": "bot-blocked pages -> blocked-temporary, browser retry"
+      "status": "partial",
+      "runs": 1,
+      "note": "batch 1 of ~20 done: 8/10 verified (aep-journal renamed+remoted to connectsci.au/ep; aker-carbon-capture slbcapturi.com dead; adnoc bot-walled). ~185 records remain; abb-energy + aiche-journal queued for batch 2"
     },
     {
       "id": "A7",
@@ -79,10 +79,10 @@
     {
       "id": "A12",
       "name": "Publish cycle: embed + Neon reload + wrangler deploy + live check",
-      "status": "running",
+      "status": "done",
       "retries": 0,
       "retry_after": "after any 2 content blocks land",
-      "note": "started 2026-10-29; Docker 29.9.1 up",
+      "note": "publish cycle complete 2026-10-29: build 394/299/394, embed 12,553 rows (OMP_NUM_THREADS=4, ~12 min), Neon reload (394 sources/202 docs/299 cards/394 vendors/3,406 nodes/10,228 edges/12,553 vectors), wrangler deploy 8460ca16, live /health OK + /api/stats 394/161/394 matches local",
       "runs": 1
     },
     {
