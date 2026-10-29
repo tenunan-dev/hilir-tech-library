@@ -272,13 +272,17 @@ Done = /api/stats matches local; deploy id + counts in state note.
 
 ## 6. Categorization reference (why A4/A5 exist)
 
-- Sources: 11 `source_type` enums, distribution healthy (2026-10-29: agency-data 64,
-  oem-supplier 49, research-institute 47, journal 39, association 37, licensor 36,
-  standards-body 28, trade-media 22, conference 20, epc-contractor 17, patents 12);
-  193/371 unverified → A6.
-- Vendors: roles describe activities (oem 177, operator 72, developer 71, supplier 65,
-  service 48, licensor 32, epc 28, packager 13, integrator 9, rental 5), not company
-  kind — Samsung Heavy (shipyard) vs Samsung Engineering (plant EPC) → A4 categories.
+- Sources: 11 `source_type` enums, 399 records (2026-10-30); ~165 still unverified → A6
+  continues (batches 1-2 verified 14 records).
+- Vendors: 414 records, each with `roles` (what a company does on a project) and
+  `categories` (what kind of company it is; 12-value enum added by A4, refined by A4b
+  flash sweep — 200 of 413 records corrected 2026-10-30). STANDING RULE: a vendor
+  record always carries the card's short form as an alias alongside the legal name
+  (the IHI/Drax/Yokogawa/Blue-Planet class of mismatch).
+- Coverage queue: EMPTY as of 2026-10-30 — every named supplier on all 299 cards is in
+  the directory. build.py and agent/web.py _coverage_queue (keep in sync) split
+  '/'-compounds and classify leftovers: nameable names → queue, descriptive phrases →
+  "Card notes" section (owner decision #31). New cards may re-populate the queue.
 - Equipment: cards carry `key_equipment` per step; a generated
   `catalog/index/equipment.md` view is PROPOSED, not approved — owner decides (§9).
 
@@ -313,6 +317,14 @@ account, claude.ai connector, Copilot Studio connect).
 
 Newest first.
 
+- **2026-10-30 (session 2):** Queue-closure + categories (owner: "vendors.md not yet
+  closed", "need boiler vendors", "yes proceed"): 26 vendors registered incl. boiler
+  OEMs (Babcock & Wilcox, Cleaver-Brooks, Sumitomo SHI FW) and QatarEnergy LNG;
+  categories refined (A4b, 200/413); build.py + web.py split compounds and move
+  descriptive phrases to card notes (decision #31) — coverage queue EMPTY. A3 batch 4
+  (5 sources), A6 batches 1-2 (14 verified), A9 done (10 candidates), A10
+  blocked-owner (EUBCE is free-registration gated), A7 partial (corporate sites are
+  JS-walled; browser-use needed). Catalog 399 records. Deploys 82aeca5c → ea521ee2.
 - **2026-10-29 (v3):** Rewritten as a precise runbook per owner direction: entry
   protocol, per-block procedures with exact commands, schema/enum reference, worker
   contract, state and queue protocols, outcome rules, parked list. No scope change.

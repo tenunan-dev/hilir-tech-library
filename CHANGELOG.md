@@ -7,6 +7,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.30.2] — 2026-10-30 — Coverage queue closes empty; queue behaviour change (decision #31)
+
+### Added
+- Vendor `qatargas` (QatarEnergy LNG; aliases Qatargas, RasGas) and Foster Wheeler/Amec aliases on `wood`. Vendors 413 → 414.
+
+### Changed
+- `tools/build.py` and `agent/web.py` coverage-queue logic (decision #31): '/'-compounds split and matched part by part; descriptive phrases moved to a "Card notes" section. The queue is empty — every named supplier on all 299 cards is in the directory. Short-form aliases added to blue-planet/carboncure/planetary (card-string mismatch class).
+- Deploy `ea521ee2` live-verified (399 sources / 414 vendors; /vendors shows empty queue + notes).
+
 ## [2026.10.30.1] — 2026-10-30 — Vendor queue closure + categories refinement; catalog 399, vendors 413
 
 ### Added

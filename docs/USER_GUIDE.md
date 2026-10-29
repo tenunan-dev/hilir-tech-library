@@ -90,7 +90,7 @@ the cookie, and any page without a valid session redirects to the sign-in page.
 | `/` | Counts, search box, sector grid |
 | `/search?q=...` | Ranked sources, passages, technology cards and vendor records |
 | `/technologies`, `/technologies/{id}` | Comparison table; one card in full: block diagram, figures with unit/year/basis/source, suppliers, reference plants, gaps, sources |
-| `/vendors` | The vendor directory with its coverage queue of supplier names not yet recorded |
+| `/vendors` | The vendor directory (414 records, categories included); the coverage queue stays empty unless a new card names a supplier the directory lacks, and generic card descriptions are listed as notes |
 | `/register`, `/sources`, `/documents?path=...`, `/gaps` | The register, catalog records with their documents, document text, missing inputs |
 | `/database` | Row counts, schema reference, example queries |
 | `/database/sql` | Read-only SQL console |
