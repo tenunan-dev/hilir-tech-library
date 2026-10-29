@@ -1,0 +1,34 @@
+{
+  "id": "uspe-global",
+  "name": "USP&E Global",
+  "country": "USA",
+  "roles": [
+    "epc",
+    "rental",
+    "operator",
+    "service"
+  ],
+  "description": "US power-station company (Knoxville, TN) that designs, builds, rents and operates diesel, HFO and gas engine and turbine power plants in frontier markets - 45+ countries since 2002, 150+ projects. Also delivers hybrid, biomass and solar-hybrid stations, Siemens SGT-400 gas-turbine packages, and EPC/O&M services for mining, oil & gas, utility and data-centre clients (Siemens SGT-400 supply to NEOM, Barrick Mali 104 MW rehabilitation, Togo emergency power). ISO 9001 and ISO 45001 certified.",
+  "technologies": [
+    "pwr-modular-engine-plants",
+    "pwr-mobile-gas-turbine-plants",
+    "pwr-containerised-hybrid-modules"
+  ],
+  "url": "https://uspeglobal.com",
+  "sources": [
+    {
+      "url": "https://uspeglobal.com",
+      "note": "Vendor site, read 2026-10-29"
+    }
+  ],
+  "last_reviewed": "2026-10-29",
+  "aliases": [
+    "USP&E",
+    "US Power & Environment"
+  ],
+  "products": [
+    "FX-45 mobile gas turbine packages",
+    "diesel/HFO/gas genset power stations",
+    "SmartPower power-station control and fuel management"
+  ]
+}

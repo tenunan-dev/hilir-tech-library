@@ -1,0 +1,70 @@
+# Source discovery plan
+
+Standing programme (owner decision #30, 2026-10-29): after the initial gap-closure
+programme closed ([GAP_CLOSURE_PLAN.md](GAP_CLOSURE_PLAN.md)), finding and registering
+sources that are missing from the catalog is the library's main effort. Sources are no
+longer handled as one-off gap entries; every unknown source goes through this pipeline.
+
+## Problem
+
+The catalog (368 records) was built top-down from a fixed seed sweep. A source outside
+that seed is invisible until someone happens to name it — four examples surfaced in one
+owner question on 2026-10-29 (EUBCE, Gas Turbine World, USP&E Global, "iRecruit 2026"),
+none of which the catalog knew. Discovery must become systematic, not accidental.
+
+## Channels
+
+| # | Channel | Method | Cadence | Output |
+| --- | --- | --- | --- | --- |
+| 1 | Citation mining (internal) | Script-scan `corpus/` markdown, card evidence fields and `catalog/index/gaps.md` "where" hints for source-like mentions (domains, publishers, handbook/standard/proceedings names); fuzzy-diff against catalog by name and domain | Quarterly, and after every bulk corpus intake | candidates |
+| 2 | Citation graph (external) | Push ~50 representative docs' titles through the OpenAlex/Crossref APIs (free, no login), group cited works by venue, flag venues cited ≥3 times that are not in the catalog | Twice a year | candidates |
+| 3 | Vendor provenance | Crawl the vendor directory's sites (whitepaper/standards/certification pages), extract bodies and publications vendors cite | Quarterly | candidates |
+| 4 | Event and standards sweeps | Annual pass over energy-event calendars (registers proceedings sources) and standards-body catalogues (API, ASME, ASTM, ISO/IEC, SIRIM, regional regulators) | Twice a year | candidates |
+| 5 | Owner inbox | Owner drops any name or link into `research/source-discovery/inbox.local.txt`; batch-processed each session | Continuous | candidates |
+
+Channel 1 needs a script (`tools/discover_sources.py`, not yet written) — that plus the
+channel-3 crawler are Wave 0 of this plan. Channel 5 costs nothing and already works.
+
+## Triage workflow (all channels)
+
+1. Append the candidate to `research/source-discovery/candidates.jsonl` (name, url if
+   known, channel, first_seen, status).
+2. Auto-checks: already in `catalog/sources/` (by id/url/name)? domain blocked from this
+   Mac (osti/nrel/pnnl/mdpi rule, `docs/LOGIN_REQUIRED.md`)? login- or registration-gated?
+3. Score: sector fit, source_type, access class, quality tier.
+4. Register: `catalog/sources/<id>.json` per `schema/source.schema.json` (mirror
+   `catalog/sources/ghgt.json` for conferences) or `catalog/vendors/<id>.json` per the
+   vendor schema; run `python tools/build.py`.
+5. Collect according to the recorded access class — no exceptions:
+   - `open` → collectors;
+   - `paywalled` → manual extracts only, via the owner's own copy, into `corpus/_inbox/`;
+   - login/registration-gated or bot-blocked → browser use or manual inbox;
+   - blocked domains → compliant mirrors only.
+6. Verify the record (`verification`, `last_verified`, evidence URL read), then publish:
+   `python tools/build.py && python agent/library.py build` (+ `agent/embed.py` when
+   corpus grew) → Neon reload → `wrangler deploy` → live check `/api/stats`.
+
+## Wave 0 (next session)
+
+1. Write `tools/discover_sources.py` (channel 1) and run it once over the current corpus.
+2. Crawl the first vendor batch (channel 3): all PWR + H2 vendors.
+3. Collect a first EUBCE proceedings batch into `corpus/_inbox/eubce/` (papers for the
+   bioenergy cards: BECCS, biochar, pyrolysis/HTL, cellulosic ethanol, WTE).
+4. OpenAlex run #1 (channel 2) over 50 representative docs.
+
+## Seeded candidates (2026-10-29)
+
+| Candidate | Resolution |
+| --- | --- |
+| EUBCE | Registered as source `eubce` (conference, open proceedings) — done |
+| Gas Turbine World | Registered as source `gas-turbine-world` (paid handbook, summary-only, manual extracts) — done |
+| USP&E Global | Registered as vendor `uspe-global` — done |
+| "iRecruit 2026" | BLOCKED on owner: no energy-sector match found (web matches are an HR/recruitment brand). If I-REC (International Renewable Energy Certificates) was meant, it registers as a standards source — waiting for the link |
+
+## Session log
+
+Newest first, one line per session: what ran, candidates found, registered, collected.
+
+- **2026-10-29:** Plan created after the owner named four unknown sources. Channels 5
+  output processed (4 candidates): 3 registered, 1 blocked on owner input. Wave 0 not
+  started.

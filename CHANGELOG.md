@@ -7,6 +7,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.2] — 2026-10-29 — Source discovery plan; EUBCE, Gas Turbine World, USP&E registered
+
+### Added
+- docs/SOURCE_DISCOVERY_PLAN.md (decision #30): the standing programme for finding sources the catalog does not know — five channels (corpus citation mining, OpenAlex/Crossref venue analysis, vendor provenance, event/standards sweeps, owner inbox) into one triage queue with access-class collection rules; Wave 0 scoped (discover_sources.py, vendor crawl, first EUBCE batch, first OpenAlex run).
+- Source record `eubce` (conference, open-access proceedings via ETA-Florence, tier 1) and source record `gas-turbine-world` (Pequot handbook, paywalled, summary-only, manual extracts only). Catalog now 370 records.
+- Vendor record `uspe-global` (frontier-markets power-station EPC/rental/operation; 378 vendors total).
+- Owner inbox `research/source-discovery/inbox.local.txt` + candidate queue `candidates.jsonl` (gitignored working files).
+
+### Changed
+- docs/STATUS.md backlog now leads with source discovery as the main effort; docs/DECISIONS.md #30; AGENTS.md read-next table points at the plan.
+
 ## [2026.10.29.1] — 2026-10-29 — Wave 4 verified: 91 process gaps closed, register 905 → 830
 
 ### Changed

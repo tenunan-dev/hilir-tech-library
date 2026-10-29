@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-377 vendor records covering 249 technologies. One record per vendor in
+378 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -339,6 +339,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Tesla Energy](https://www.tesla.com/megapack) | USA | oem | Lithium-ion battery energy storage |
 | [Trina Solar](https://www.trinasolar.com) | China | oem, supplier | Crystalline silicon PV (PERC, TOPCon, HJT); Lithium-ion battery energy storage |
 | [Turboden](https://www.turboden.com) | Italy | oem | Modular ORC units for waste heat and small geothermal |
+| [USP&E Global](https://uspeglobal.com) | USA | epc, rental, operator, service | Modular reciprocating engine power plants; Mobile gas turbine power plants; Containerised hybrid power modules (solar, storage, gensets) |
 | [Vestas](https://www.vestas.com) | Denmark | oem, service | Onshore wind; Offshore wind (fixed bottom) |
 | [Voith](https://voith.com) | Germany | oem, service | Hydropower |
 | [Waller Marine](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083) | USA | packager | Powerships and power barges |

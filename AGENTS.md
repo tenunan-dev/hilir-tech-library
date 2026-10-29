@@ -21,6 +21,7 @@ agents to find, cite and read. It has five layers:
 | Understand how the parts fit together | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | Use the library (search, cite, MCP setup) | [docs/USER_GUIDE.md](docs/USER_GUIDE.md) |
 | Add sources, verify terms, collect, run refreshes | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) |
+| Find sources the catalog does not know yet | [docs/SOURCE_DISCOVERY_PLAN.md](docs/SOURCE_DISCOVERY_PLAN.md) |
 | Host the server for cloud agents (Copilot Studio and others) | [docs/HOSTING.md](docs/HOSTING.md) |
 | Export to Dataverse / Power Apps tables | [docs/DATAVERSE.md](docs/DATAVERSE.md) |
 | Load into Postgres with vectors and a knowledge graph (Neon) | [docs/POSTGRES.md](docs/POSTGRES.md) |

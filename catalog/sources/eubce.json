@@ -1,0 +1,30 @@
+{
+  "id": "eubce",
+  "name": "EUBCE European Biomass Conference and Exhibition",
+  "url": "https://www.eubce.com/",
+  "source_type": "conference",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "ETA-Florence Renewable Energies",
+  "country": "INT",
+  "regions": [
+    "global",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Proceedings are published online open access by ETA-Florence (all accepted plenary, oral and poster contributions; Scopus-indexed); the scientific track is coordinated by the European Commission JRC. Covers biomass-to-energy, biofuels and SAF, and the bioeconomy - relevant to the biomass WTE, BECCS, biochar, pyrolysis/HTL and cellulosic-ethanol cards. Evidence: eubce.com and new.etaflorence.it/events/eubce, read 2026-10-29. Terms and automated-access reality to be recorded on first collection.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-130 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+131 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -54,6 +54,7 @@
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
+| [EUBCE European Biomass Conference and Exhibition](https://www.eubce.com/) | conference | global, eu | open | full-text-restricted |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |
 | [GHGT Greenhouse Gas Control Technologies conference](https://ghgt.info/) | conference | global | open | full-text-restricted |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |

@@ -1,0 +1,29 @@
+{
+  "id": "gas-turbine-world",
+  "name": "Gas Turbine World (Pequot Publishing)",
+  "url": "https://gasturbineworld.com/",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR",
+    "GAS",
+    "MID"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "Pequot Publishing Inc.",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Annual GTW Handbook with standardized OEM performance ratings for gas turbines 1-500+ MW (2025 edition Vol 40, USD 245; the 2024 edition Vol 39 is a back issue) and the Performance Specs issue (USD 175 bundle). Site articles are free to read; the data products are paid - manual extracts and summaries only, via corpus/_inbox, from a copy the owner buys or already holds. Site copyright notice: reproduction without written permission strictly prohibited. Site read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "allowed",
+  "permitted_use": "none"
+}
