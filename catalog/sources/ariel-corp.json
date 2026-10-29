@@ -21,7 +21,7 @@
   "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Reciprocating compressors.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Reciprocating compressors. Verified 2026-10-30: leading reciprocating gas-compressor OEM (est. 1966, 75,000+ compressors; gas processing/CNG/H2/CO2 duty).",
+  "verification": "verified",
+  "last_verified": "2026-10-30"
 }

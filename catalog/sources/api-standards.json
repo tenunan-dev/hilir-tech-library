@@ -26,7 +26,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "notes": "Full standards sold; annual publications catalog PDF is free.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Full standards sold; annual publications catalog PDF is free. Verified 2026-10-30: 800+ consensus standards, sold individually/via subscription; free IBR Reading Room + certification directories.",
+  "verification": "verified",
+  "last_verified": "2026-10-30"
 }

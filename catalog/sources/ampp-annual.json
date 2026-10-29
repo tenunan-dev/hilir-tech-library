@@ -21,6 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-10-30",
+  "notes": " Verified 2026-10-30: annual AMPP Conference + Expo (2027: Columbus OH, Apr 11-15)."
 }

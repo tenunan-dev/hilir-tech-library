@@ -19,7 +19,7 @@
   "reuse_level": "summary-only",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "Rotates across Japan, Korea, Taiwan, Thailand, Malaysia, Singapore, India.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Rotates across Japan, Korea, Taiwan, Thailand, Malaysia, Singapore, India. Verified 2026-10-30 (reader; direct fetch timed out): Asia Petrochemical Industry Conference, the established Asian petrochemical conference.",
+  "verification": "verified",
+  "last_verified": "2026-10-30"
 }

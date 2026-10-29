@@ -17,12 +17,13 @@
   "regions": [
     "global"
   ],
-  "access": "free-registration",
-  "licence": "proprietary",
-  "reuse_level": "summary-only",
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "notes": "Life-cycle emissions model for fuels.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Life-cycle emissions model for fuels. Verified 2026-10-30 (reader): R&D GREET 2025 Rev1 free Excel/.Net downloads; LCA model for fuel pathways. Plain fetch 403s.",
+  "verification": "verified",
+  "last_verified": "2026-10-30",
+  "permitted_use": "any"
 }
