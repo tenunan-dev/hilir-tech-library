@@ -360,9 +360,8 @@ flowchart LR
 **Missing inputs:**
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; class names (Q-Max 266k m3) exist in market reports. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched LNG carrier, LNG ship, LNG tanker, liquefied natural gas, membrane); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'LNG carrier'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/LNG_carrier) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/LNG_carrier). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/LNG_carrier). Last reviewed 2026-10-29.
 
 ## LPG and ammonia carriers
 <a id="mid-lpg-ammonia-carriers"></a>
@@ -389,9 +388,8 @@ flowchart LR
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; newbuild prices vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; fleet indicators recorded in performance. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Gas carrier'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Gas_carrier) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Gas_carrier). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Gas_carrier). Last reviewed 2026-10-29.
 
 ## Leak detection (CPM, fibre optic DAS and DTS)
 <a id="mid-leak-detection"></a>
@@ -447,9 +445,8 @@ flowchart LR
 - cost per km of an ILI run (costs): None given. Web-checked 2026-10-28; ILI pricing is vendor-quoted. Where: PHMSA and operator integrity reports (catalog: phmsa, open). Next: Add cost range with year.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous service. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched pigging, in-line inspection, inline inspection, ILI, pipeline inspection); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Pipeline inspection gauge'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Pipeline_inspection_gauge) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf), [2](https://en.wikipedia.org/wiki/Pipeline_inspection_gauge). Last reviewed 2026-10-29.
 
 ## Strategic petroleum reserves (salt caverns, rock caverns)
 <a id="mid-strategic-petroleum-reserves"></a>
@@ -502,9 +499,8 @@ flowchart LR
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; cavern development costs case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named facility added this pass. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Underground gas storage'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Underground_gas_storage) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.eia.gov/naturalgas/storage/basics/). Last reviewed 2026-10-28.
+Sources: [1](https://www.eia.gov/naturalgas/storage/basics/), [2](https://en.wikipedia.org/wiki/Underground_gas_storage). Last reviewed 2026-10-29.
 
 ## Hydrogen blending and repurposing of gas pipelines
 <a id="mid-hydrogen-blending-repurposing"></a>

@@ -104,9 +104,13 @@
       "url": "https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf",
       "source_id": "phmsa",
       "note": "PHMSA Government/Industry Pipeline R&D Forum, technologies for pipeline inspection (older presentation; text partly garbled)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pipeline_inspection_gauge",
+      "note": "Wikipedia: Pigging — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-10-29",
   "gaps": [
     {
       "field": "costs",
@@ -148,24 +152,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Pipeline inspection gauge'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Pipeline_inspection_gauge",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }

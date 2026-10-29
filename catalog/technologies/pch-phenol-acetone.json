@@ -112,9 +112,13 @@
       "url": "https://www.ten.com/sites/energies/files/2025-01/phenolics_brochure.pdf",
       "source_id": "technip-energies",
       "note": "Technip Energies, phenolics brochure (Badger cumene and phenol)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cumene_process",
+      "note": "Wikipedia: Cumene process — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-10-29",
   "gaps": [
     {
       "field": "performance",
@@ -178,24 +182,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Cumene process'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Cumene_process",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }

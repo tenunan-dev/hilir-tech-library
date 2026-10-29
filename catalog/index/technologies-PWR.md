@@ -103,9 +103,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - electrical efficiency, throughput and plant examples (performance): Hitachi Zosen Inova's site redirected to Kanadevia Inova and was not read. Where: [Kanadevia Inova](https://kanadevia-inova.com/) (open). Next: Fetch the redirected site and add plant data.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Waste-to-energy'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Waste-to-energy) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity). Last reviewed 2026-10-28.
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity), [3](https://en.wikipedia.org/wiki/Waste-to-energy). Last reviewed 2026-10-29.
 
 ## Cogeneration and combined heat and power
 <a id="pwr-cogeneration-chp"></a>
@@ -135,9 +134,8 @@ flowchart LR
 **Missing inputs:**
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named CHP project page found in this pass. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry for industrial/utility CHP (searched 'cogeneration', 'CHP', 'combined heat and power', 'trigeneration', 'quad-generation'; nearest rows 'Fuel cell micro-CHP for buildings', 'Trigeneration (CCHP)', 'Quad-generation (CCHP +)' are Buildings-category polygeneration); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Cogeneration'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Cogeneration) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf), [2](https://www.epa.gov/chp/chp-benefits). Last reviewed 2026-10-28.
+Sources: [1](https://www.epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_3._technology_characterization_-_combustion_turbines.pdf), [2](https://www.epa.gov/chp/chp-benefits), [3](https://en.wikipedia.org/wiki/Cogeneration). Last reviewed 2026-10-29.
 
 ## Combined cycle and HRSG
 <a id="pwr-combined-cycle-hrsg"></a>
@@ -171,9 +169,8 @@ flowchart LR
 **Missing inputs:**
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; AEO2026 cost tables (already recorded) name classes, not plants; no single named reference added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Combined cycle power plant'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Combined_cycle_power_plant) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [3](https://power.mhi.com/products/gasturbines/lineup/m701j), [4](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [3](https://power.mhi.com/products/gasturbines/lineup/m701j), [4](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf), [5](https://en.wikipedia.org/wiki/Combined_cycle_power_plant). Last reviewed 2026-10-29.
 
 ## Concentrated solar power with storage
 <a id="pwr-concentrated-solar-power"></a>
@@ -206,10 +203,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Solar tower' 9 (2025); 'Parabolic trough (solar)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Concentrated solar power'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Concentrated_solar_power) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/concentrating_solar_power). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/concentrating_solar_power), [2](https://en.wikipedia.org/wiki/Concentrated_solar_power). Last reviewed 2026-10-29.
 
 ## Containerised hybrid power modules (solar, storage, gensets)
 <a id="pwr-containerised-hybrid-modules"></a>
@@ -277,10 +271,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Crystalline silicon PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Photovoltaics'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Photovoltaics) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations), [3](https://en.wikipedia.org/wiki/Photovoltaics). Last reviewed 2026-10-29.
 
 ## Floating solar
 <a id="pwr-floating-solar"></a>
@@ -936,9 +927,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - round-trip efficiency and Highview Carrington data (performance): Highview's site blocks automated reading and Hydrostor's page gives no efficiency. Where: [Highview Power project pages](https://highview-power.com/) (open). Next: Add efficiency and MWh for operating projects.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; Huntorf/McIntosh capex not stated in open pages read. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Compressed air energy storage'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Compressed_air_energy_storage) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.hydrostor.ca/willow-rock/). Last reviewed 2026-10-28.
+Sources: [1](https://www.hydrostor.ca/willow-rock/), [2](https://en.wikipedia.org/wiki/Compressed_air_energy_storage). Last reviewed 2026-10-29.
 
 ## Enhanced geothermal systems
 <a id="pwr-enhanced-geothermal"></a>
@@ -966,9 +956,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - Fervo Cape Station phases, MW and dates (reference_plants): Fervo's Cape Station page carried only a tagline. Where: [Fervo Energy newsroom](https://fervoenergy.com/newsroom) (open). Next: Add MW, start-up date and drilling-cost trend.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Enhanced geothermal system'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Enhanced_geothermal_system) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal), [2](https://en.wikipedia.org/wiki/Enhanced_geothermal_system). Last reviewed 2026-10-29.
 
 ## Floating offshore wind
 <a id="pwr-floating-offshore-wind"></a>
@@ -999,10 +988,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating offshore wind turbine' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Floating wind turbine'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Floating_wind_turbine) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://www.equinor.com/energy/hywind-tampen), [2](https://atb.nrel.gov/electricity/2024/offshore_wind), [3](https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval). Last reviewed 2026-10-28.
+Sources: [1](https://www.equinor.com/energy/hywind-tampen), [2](https://atb.nrel.gov/electricity/2024/offshore_wind), [3](https://maritime-executive.com/article/wind-farm-to-power-offshore-platforms-gains-approval), [4](https://en.wikipedia.org/wiki/Floating_wind_turbine). Last reviewed 2026-10-29.
 
 ## Gravity energy storage
 <a id="pwr-gravity-storage"></a>

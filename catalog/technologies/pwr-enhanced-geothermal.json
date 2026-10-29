@@ -109,9 +109,13 @@
       "url": "https://atb.nrel.gov/electricity/2024/geothermal",
       "source_id": "nrel",
       "note": "NREL Annual Technology Baseline 2024, geothermal, read 25 October 2026"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Enhanced_geothermal_system",
+      "note": "Wikipedia: Enhanced geothermal system — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-10-29",
   "gaps": [
     {
       "field": "reference_plants",
@@ -126,24 +130,6 @@
         }
       ],
       "action": "Add MW, start-up date and drilling-cost trend."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Enhanced geothermal system'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Enhanced_geothermal_system",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }
