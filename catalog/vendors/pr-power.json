@@ -21,5 +21,9 @@
     "TRIME MGTP solar hybrid generators",
     "containerised gensets"
   ],
-  "url": "https://www.prpower.com.au"
+  "url": "https://www.prpower.com.au",
+  "categories": [
+    "power-rental",
+    "equipment-oem"
+  ]
 }

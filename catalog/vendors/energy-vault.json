@@ -26,5 +26,9 @@
     "EVx gravity storage",
     "turnkey BESS"
   ],
-  "url": "https://energyvault.com"
+  "url": "https://energyvault.com",
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ]
 }

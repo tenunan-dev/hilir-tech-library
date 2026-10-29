@@ -34,5 +34,9 @@
     "mtu Series 4000 gensets and containers",
     "mtu power modules with switchgear and heat recovery"
   ],
-  "url": "https://www.mtu-solutions.com"
+  "url": "https://www.mtu-solutions.com",
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ]
 }

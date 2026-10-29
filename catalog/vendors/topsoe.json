@@ -29,5 +29,9 @@
   "products": [
     "SOEC electrolyzers",
     "HydroFlex"
+  ],
+  "categories": [
+    "equipment-oem",
+    "process-licensor"
   ]
 }

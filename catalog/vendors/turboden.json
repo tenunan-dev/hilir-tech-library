@@ -22,5 +22,8 @@
     "high-temperature heat pumps"
   ],
   "url": "https://www.turboden.com",
-  "notes": "Application pages returned HTTP 503 on 26 October 2026; homepage figures only."
+  "notes": "Application pages returned HTTP 503 on 26 October 2026; homepage figures only.",
+  "categories": [
+    "equipment-oem"
+  ]
 }

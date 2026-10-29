@@ -28,5 +28,9 @@
     "offshore electrification",
     "hydrogen and CCS projects"
   ],
-  "url": "https://www.equinor.com"
+  "url": "https://www.equinor.com",
+  "categories": [
+    "offshore-epc",
+    "equipment-oem"
+  ]
 }

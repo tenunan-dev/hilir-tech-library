@@ -26,5 +26,9 @@
     "Baker Hughes Gas Technology"
   ],
   "url": "https://www.bakerhughes.com/",
-  "last_reviewed": "2026-10-26"
+  "last_reviewed": "2026-10-26",
+  "categories": [
+    "oilfield-service",
+    "equipment-oem"
+  ]
 }

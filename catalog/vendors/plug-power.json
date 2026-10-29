@@ -21,5 +21,8 @@
   "products": [
     "Gemini electrolyser",
     "Georgia LH2 plant"
+  ],
+  "categories": [
+    "equipment-oem"
   ]
 }

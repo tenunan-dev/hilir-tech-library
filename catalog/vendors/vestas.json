@@ -23,5 +23,8 @@
     "V236-15.0 MW offshore turbine",
     "service and digital services"
   ],
-  "url": "https://www.vestas.com"
+  "url": "https://www.vestas.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

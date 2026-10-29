@@ -36,5 +36,11 @@
     "FPSO EPCIC (low-emission standardized)",
     "modularised onshore LNG plants",
     "floating wind platforms (w.semi)"
+  ],
+  "categories": [
+    "offshore-epc",
+    "plant-epc",
+    "fabrication",
+    "equipment-oem"
   ]
 }

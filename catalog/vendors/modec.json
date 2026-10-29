@@ -20,5 +20,10 @@
   "last_reviewed": "2026-10-28",
   "aliases": [
     "MODEC"
+  ],
+  "categories": [
+    "offshore-epc",
+    "operator",
+    "equipment-oem"
   ]
 }

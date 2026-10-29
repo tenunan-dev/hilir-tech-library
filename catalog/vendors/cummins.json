@@ -30,5 +30,8 @@
     "Accelera fuel cells"
   ],
   "url": "https://www.cummins.com",
-  "notes": "cummins.com blocked the automated fetcher (HTTP 403); figures come from the official brochure PDF and the APAC generators page. Accelera (zero-emissions brand: HyLYSER electrolyzers, fuel cells) folded into this record 2026-10-29; the separately created Cummins (Accelera) record was removed as a duplicate sub-brand."
+  "notes": "cummins.com blocked the automated fetcher (HTTP 403); figures come from the official brochure PDF and the APAC generators page. Accelera (zero-emissions brand: HyLYSER electrolyzers, fuel cells) folded into this record 2026-10-29; the separately created Cummins (Accelera) record was removed as a duplicate sub-brand.",
+  "categories": [
+    "equipment-oem"
+  ]
 }

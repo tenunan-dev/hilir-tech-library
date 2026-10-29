@@ -30,5 +30,10 @@
     "FX-45 mobile gas turbine packages",
     "diesel/HFO/gas genset power stations",
     "SmartPower power-station control and fuel management"
+  ],
+  "categories": [
+    "power-rental",
+    "plant-epc",
+    "equipment-oem"
   ]
 }

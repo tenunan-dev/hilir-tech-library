@@ -20,5 +20,8 @@
   "products": [
     "fold-out PV container up to 140 kWp"
   ],
-  "url": "https://www.solarcontainer.one"
+  "url": "https://www.solarcontainer.one",
+  "categories": [
+    "equipment-oem"
+  ]
 }

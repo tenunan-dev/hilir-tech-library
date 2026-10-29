@@ -25,5 +25,9 @@
     "heliostats",
     "CSP intelligent operation"
   ],
-  "url": "https://www.cosinsolar.com"
+  "url": "https://www.cosinsolar.com",
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ]
 }

@@ -25,5 +25,8 @@
     "Xe-100 HTGR",
     "TRISO-X fuel"
   ],
-  "url": "https://x-energy.com"
+  "url": "https://x-energy.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

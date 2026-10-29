@@ -28,5 +28,8 @@
     "microgrid control and VPP software"
   ],
   "url": "https://www.se.com",
-  "notes": "AutoGrid, the VPP software company named in the register, was acquired by Schneider Electric (2022), so its entry is folded into this record as an alias."
+  "notes": "AutoGrid, the VPP software company named in the register, was acquired by Schneider Electric (2022), so its entry is folded into this record as an alias.",
+  "categories": [
+    "equipment-oem"
+  ]
 }

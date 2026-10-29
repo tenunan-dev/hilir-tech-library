@@ -25,5 +25,8 @@
     "circulating fluidised-bed boilers",
     "BrightLoop chemical looping"
   ],
-  "url": "https://babcock.com"
+  "url": "https://babcock.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

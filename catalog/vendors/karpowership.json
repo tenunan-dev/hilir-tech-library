@@ -33,5 +33,8 @@
     "Powership classes Seal (34-40 MW) to Khan (415-470 MW)",
     "LNG Terminal Ships and carriers"
   ],
-  "url": "https://karpowership.com"
+  "url": "https://karpowership.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

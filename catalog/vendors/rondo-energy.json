@@ -19,5 +19,9 @@
   "products": [
     "Rondo Heat Battery"
   ],
-  "url": "https://www.rondo.com/"
+  "url": "https://www.rondo.com/",
+  "categories": [
+    "materials-supplier",
+    "equipment-oem"
+  ]
 }

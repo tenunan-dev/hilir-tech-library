@@ -24,5 +24,8 @@
     "HeatPower 300 (50-355 kW net)",
     "HeatPower 150"
   ],
-  "url": "https://climeon.com"
+  "url": "https://climeon.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

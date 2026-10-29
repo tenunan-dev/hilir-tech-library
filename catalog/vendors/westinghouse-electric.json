@@ -33,5 +33,9 @@
     "AP300 SMR",
     "nuclear fuel and services"
   ],
-  "url": "https://www.westinghousenuclear.com"
+  "url": "https://www.westinghousenuclear.com",
+  "categories": [
+    "utility",
+    "equipment-oem"
+  ]
 }

@@ -33,5 +33,10 @@
     "refinery and petrochemical EPC",
     "ethylene and refining technology licences",
     "FEED and process design"
+  ],
+  "categories": [
+    "plant-epc",
+    "process-licensor",
+    "equipment-oem"
   ]
 }

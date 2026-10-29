@@ -31,5 +31,10 @@
   "products": [
     "ammonia and urea plant EPC and licences",
     "petrochemical EPC"
+  ],
+  "categories": [
+    "plant-epc",
+    "process-licensor",
+    "equipment-oem"
   ]
 }

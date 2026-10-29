@@ -74,6 +74,26 @@
         ]
       }
     },
+    "categories": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "plant-epc",
+          "offshore-epc",
+          "shipyard",
+          "equipment-oem",
+          "process-licensor",
+          "operator",
+          "materials-supplier",
+          "oilfield-service",
+          "power-rental",
+          "engineering-consultancy",
+          "fabrication",
+          "utility"
+        ]
+      },
+      "description": "What kind of company this is (distinct from roles, which say what it does on a project)"
+    },
     "description": {
       "type": "string",
       "description": "One to three sentences in our own words"

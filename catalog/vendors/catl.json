@@ -26,5 +26,8 @@
     "sodium-ion batteries"
   ],
   "url": "https://www.catl.com",
-  "notes": "English product pages 404'd on 26 October 2026; EnerOne/EnerC/TENER names not confirmed by the fetched page."
+  "notes": "English product pages 404'd on 26 October 2026; EnerOne/EnerC/TENER names not confirmed by the fetched page.",
+  "categories": [
+    "equipment-oem"
+  ]
 }

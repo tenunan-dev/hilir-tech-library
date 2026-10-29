@@ -24,5 +24,9 @@
   "products": [
     "APR1400 nuclear plant design and E&C",
     "power plant engineering"
+  ],
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
   ]
 }

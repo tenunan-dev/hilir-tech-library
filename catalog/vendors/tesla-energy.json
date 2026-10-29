@@ -24,5 +24,8 @@
     "Megapack"
   ],
   "url": "https://www.tesla.com/megapack",
-  "notes": "tesla.com returned HTTP 403 to the fetcher on 26 October 2026; the record rests on the catalogued card citation and general knowledge, flagged here."
+  "notes": "tesla.com returned HTTP 403 to the fetcher on 26 October 2026; the record rests on the catalogued card citation and general knowledge, flagged here.",
+  "categories": [
+    "equipment-oem"
+  ]
 }

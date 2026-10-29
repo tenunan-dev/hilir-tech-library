@@ -27,5 +27,8 @@
     "SG 15-236 offshore turbine",
     "service and diagnostics"
   ],
-  "url": "https://www.siemensgamesa.com"
+  "url": "https://www.siemensgamesa.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

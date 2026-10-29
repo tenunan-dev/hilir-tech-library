@@ -23,5 +23,8 @@
   "products": [
     "Rolls-Royce SMR 470 MWe power station"
   ],
-  "url": "https://www.rolls-royce-smr.com"
+  "url": "https://www.rolls-royce-smr.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

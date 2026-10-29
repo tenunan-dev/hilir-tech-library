@@ -20,5 +20,8 @@
   "products": [
     "MATLAB",
     "Simulink"
+  ],
+  "categories": [
+    "equipment-oem"
   ]
 }

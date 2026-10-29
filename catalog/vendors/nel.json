@@ -27,5 +27,8 @@
     "Atmospheric alkaline",
     "MC250 PEM",
     "H2Station"
+  ],
+  "categories": [
+    "equipment-oem"
   ]
 }

@@ -23,5 +23,8 @@
   "products": [
     "AEM Nexus",
     "EL 2.1 stacks"
+  ],
+  "categories": [
+    "equipment-oem"
   ]
 }

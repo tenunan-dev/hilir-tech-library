@@ -19,5 +19,8 @@
   "products": [
     "Natrium reactor (345-500 MWe)"
   ],
-  "url": "https://terrapower.com"
+  "url": "https://terrapower.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

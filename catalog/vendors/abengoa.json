@@ -23,5 +23,9 @@
     "CSP plants (historical portfolio)"
   ],
   "url": "https://www.abengoa.com",
-  "notes": "Record kept for the historical CSP reference base; new CSP business is not verifiable on the current site."
+  "notes": "Record kept for the historical CSP reference base; new CSP business is not verifiable on the current site.",
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ]
 }

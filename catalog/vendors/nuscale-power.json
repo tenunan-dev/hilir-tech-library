@@ -23,5 +23,8 @@
     "NuScale Power Module (77 MWe)",
     "VOYGR-4/6/12 plants"
   ],
-  "url": "https://www.nuscalepower.com"
+  "url": "https://www.nuscalepower.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

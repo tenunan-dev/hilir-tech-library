@@ -21,5 +21,8 @@
     "Blade batteries"
   ],
   "url": "https://www.fdbatt.com",
-  "notes": "byd.com's homepage is vehicles-only and bydenergy.com returned no content on 26 October 2026."
+  "notes": "byd.com's homepage is vehicles-only and bydenergy.com returned no content on 26 October 2026.",
+  "categories": [
+    "equipment-oem"
+  ]
 }

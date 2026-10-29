@@ -29,5 +29,10 @@
     "Ormat Energy Converter (OEC)",
     "REG recovered-energy units"
   ],
-  "url": "https://www.ormat.com"
+  "url": "https://www.ormat.com",
+  "categories": [
+    "utility",
+    "operator",
+    "equipment-oem"
+  ]
 }

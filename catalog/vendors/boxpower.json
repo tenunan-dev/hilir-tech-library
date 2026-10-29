@@ -22,5 +22,8 @@
     "AutoBox (24 kW-1 MW)",
     "MiniBox (12-30 kW)"
   ],
-  "url": "https://boxpower.io"
+  "url": "https://boxpower.io",
+  "categories": [
+    "equipment-oem"
+  ]
 }

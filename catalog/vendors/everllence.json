@@ -37,5 +37,8 @@
     "MAN 175D engines",
     "engines for power barges (MAN DT 18V48/60TS barge design)"
   ],
-  "url": "https://www.everllence.com"
+  "url": "https://www.everllence.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

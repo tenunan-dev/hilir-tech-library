@@ -26,5 +26,8 @@
     "Aurora powerhouse (up to 75 MWe)",
     "HALEU fuel recycling"
   ],
-  "url": "https://oklo.com"
+  "url": "https://oklo.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

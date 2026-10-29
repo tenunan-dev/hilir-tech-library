@@ -26,5 +26,10 @@
     "Mitsubishi FT8 rental modules"
   ],
   "url": "https://www.aprenergy.com",
-  "notes": "Live website returned HTTP 522 on 26 October 2026; figures come from the archived capture."
+  "notes": "Live website returned HTTP 522 on 26 October 2026; figures come from the archived capture.",
+  "categories": [
+    "plant-epc",
+    "power-rental",
+    "equipment-oem"
+  ]
 }

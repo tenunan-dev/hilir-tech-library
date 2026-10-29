@@ -24,5 +24,8 @@
   "products": [
     "O2-X tidal turbine"
   ],
-  "url": "https://www.orbitalmarine.com"
+  "url": "https://www.orbitalmarine.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

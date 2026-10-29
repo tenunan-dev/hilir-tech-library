@@ -29,5 +29,9 @@
     "power plant EPC",
     "80-180 MW power barge design"
   ],
-  "url": "https://www.bwsc.com"
+  "url": "https://www.bwsc.com",
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ]
 }

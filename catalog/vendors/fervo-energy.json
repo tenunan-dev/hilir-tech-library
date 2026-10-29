@@ -20,5 +20,9 @@
   "products": [
     "enhanced geothermal projects"
   ],
-  "url": "https://fervoenergy.com"
+  "url": "https://fervoenergy.com",
+  "categories": [
+    "operator",
+    "equipment-oem"
+  ]
 }

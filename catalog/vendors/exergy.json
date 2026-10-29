@@ -28,5 +28,8 @@
     "Gemini turbine (up to 60 MWe)",
     "ORC plants 100 kW-50 MWe"
   ],
-  "url": "https://exergyint.com"
+  "url": "https://exergyint.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

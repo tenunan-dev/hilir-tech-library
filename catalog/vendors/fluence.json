@@ -29,5 +29,9 @@
     "Mosaic",
     "Nispera"
   ],
-  "url": "https://fluenceenergy.com/"
+  "url": "https://fluenceenergy.com/",
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ]
 }

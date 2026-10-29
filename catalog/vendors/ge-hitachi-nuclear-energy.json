@@ -30,5 +30,8 @@
     "ABWR",
     "GNF fuel"
   ],
-  "url": "https://www.gevernova.com/nuclear"
+  "url": "https://www.gevernova.com/nuclear",
+  "categories": [
+    "equipment-oem"
+  ]
 }

@@ -37,5 +37,8 @@
     "TRISO fuel manufacture",
     "naval reactors"
   ],
-  "url": "https://www.bwxt.com"
+  "url": "https://www.bwxt.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

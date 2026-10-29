@@ -29,5 +29,9 @@
     "HRSG boilers",
     "nuclear components and forgings",
     "offshore wind foundations"
+  ],
+  "categories": [
+    "offshore-epc",
+    "equipment-oem"
   ]
 }

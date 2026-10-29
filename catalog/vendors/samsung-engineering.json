@@ -26,5 +26,9 @@
   "products": [
     "refinery and petrochemical EPC",
     "gas plant EPC"
+  ],
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
   ]
 }

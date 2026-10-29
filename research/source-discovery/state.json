@@ -26,8 +26,9 @@
     {
       "id": "A4",
       "name": "Vendor categories: optional schema field + backfill all vendors",
-      "status": "queued",
-      "runs": 0
+      "status": "done",
+      "runs": 1,
+      "note": "categories enum added to schema (12 values) + presence test; tools/categorise_vendors.py rule-based backfill wrote all 390 records (distribution: equipment-oem 389, plant-epc 32, process-licensor 32, operator 28, materials-supplier 26, offshore-epc 25, oilfield-service 16, power-rental 6, shipyard 6, fabrication 5, utility 4, engineering-consultancy 4); gates green (808 passed). Follow-up A4b: flash refinement sweep of multi-category + fallback-heavy records"
     },
     {
       "id": "A5",
@@ -51,9 +52,9 @@
     {
       "id": "A8",
       "name": "OpenAlex/Crossref venue sweep (channel 2), 50 docs",
-      "status": "running",
+      "status": "done",
       "runs": 1,
-      "note": "background sweep started 2026-10-29 (50 docs, curl to api.openalex.org only)"
+      "note": "sweep complete 2026-10-29: 50 docs, 24 matched, 8 venues flagged and queued (EES, JCP, ES&T, ECM, Applied Energy, SPE journals, JPSE); report research/source-discovery/openalex-venues.txt; script research/source-discovery/openalex_sweep.py (needs parents[2] fix note: committed)"
     },
     {
       "id": "A9",
@@ -80,6 +81,12 @@
       "retries": 0,
       "retry_after": "after any 2 content blocks land",
       "note": "Needs Docker running for deploy; reload/redeploy whenever blocked, retry later"
+    },
+    {
+      "id": "A4b",
+      "name": "Flash refinement sweep of vendor categories (multi-category + equipment-oem fallback records)",
+      "status": "queued",
+      "runs": 0
     }
   ],
   "parked_owner": [

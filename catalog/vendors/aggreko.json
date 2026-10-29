@@ -28,5 +28,9 @@
     "Y.Cube BESS (20 ft container)",
     "250 kW/575 kWh and 500 kW/250 kWh mobile batteries"
   ],
-  "url": "https://www.aggreko.com"
+  "url": "https://www.aggreko.com",
+  "categories": [
+    "power-rental",
+    "equipment-oem"
+  ]
 }

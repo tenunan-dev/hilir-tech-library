@@ -28,5 +28,9 @@
     "Kanadevia Inova Pulse digital platform"
   ],
   "url": "https://www.kanadevia-inova.com",
-  "notes": "hz-inova.com 301-redirects to kanadevia-inova.com."
+  "notes": "hz-inova.com 301-redirects to kanadevia-inova.com.",
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ]
 }

@@ -22,5 +22,8 @@
   "products": [
     "A-CAES plants (Willow Rock, Quinte, Copper Valley, Silver City, Wellington)"
   ],
-  "url": "https://www.hydrostor.ca/"
+  "url": "https://www.hydrostor.ca/",
+  "categories": [
+    "equipment-oem"
+  ]
 }

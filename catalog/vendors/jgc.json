@@ -33,5 +33,10 @@
     "LNG and gas plant EPC",
     "refinery EPC",
     "fuel-ammonia EPC (with Toyo)"
+  ],
+  "categories": [
+    "offshore-epc",
+    "plant-epc",
+    "equipment-oem"
   ]
 }

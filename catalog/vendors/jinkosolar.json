@@ -24,5 +24,8 @@
     "Tiger Neo 3.0/5.0 modules",
     "Jinko ESS BESS"
   ],
-  "url": "https://www.jinkosolar.com"
+  "url": "https://www.jinkosolar.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

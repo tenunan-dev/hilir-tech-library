@@ -26,5 +26,9 @@
     "corporate PPAs",
     "energy trading"
   ],
-  "url": "https://orsted.com"
+  "url": "https://orsted.com",
+  "categories": [
+    "offshore-epc",
+    "equipment-oem"
+  ]
 }

@@ -20,5 +20,8 @@
     "Eavor-Loop",
     "Eavor-Lite demonstration plant"
   ],
-  "url": "https://eavor.com"
+  "url": "https://eavor.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

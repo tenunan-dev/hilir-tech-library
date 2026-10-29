@@ -24,5 +24,8 @@
     "ZEUS",
     "LOKI MMR (portable)"
   ],
-  "url": "https://www.nanonuclearenergy.com"
+  "url": "https://www.nanonuclearenergy.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

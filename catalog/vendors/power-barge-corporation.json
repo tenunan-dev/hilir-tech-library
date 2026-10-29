@@ -29,5 +29,9 @@
     "medium-speed-engine barges 80-200 MW",
     "energy-storage barges"
   ],
-  "url": "https://powerbargecorp.com"
+  "url": "https://powerbargecorp.com",
+  "categories": [
+    "engineering-consultancy",
+    "equipment-oem"
+  ]
 }

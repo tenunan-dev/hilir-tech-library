@@ -30,5 +30,8 @@
     "transformers and switchgear",
     "HMAX digital"
   ],
-  "url": "https://www.hitachienergy.com/"
+  "url": "https://www.hitachienergy.com/",
+  "categories": [
+    "equipment-oem"
+  ]
 }

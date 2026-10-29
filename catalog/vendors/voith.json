@@ -25,5 +25,8 @@
     "reversible pump-turbines",
     "HyCon automation"
   ],
-  "url": "https://voith.com"
+  "url": "https://voith.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }

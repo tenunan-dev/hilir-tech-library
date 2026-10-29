@@ -32,5 +32,9 @@
     "floating power plants",
     "Flexicycle combined cycle"
   ],
-  "url": "https://www.wartsila.com/energy"
+  "url": "https://www.wartsila.com/energy",
+  "categories": [
+    "fabrication",
+    "equipment-oem"
+  ]
 }

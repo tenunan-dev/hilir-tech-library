@@ -30,5 +30,9 @@
     "FT8 aeroderivative packages",
     "hydrogen and ammonia co-firing retrofits"
   ],
-  "url": "https://power.mhi.com"
+  "url": "https://power.mhi.com",
+  "categories": [
+    "power-rental",
+    "equipment-oem"
+  ]
 }

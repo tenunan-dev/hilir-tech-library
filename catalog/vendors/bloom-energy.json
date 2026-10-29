@@ -21,5 +21,8 @@
   "products": [
     "Energy Server",
     "SOEC electrolyser"
+  ],
+  "categories": [
+    "equipment-oem"
   ]
 }

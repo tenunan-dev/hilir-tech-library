@@ -26,6 +26,15 @@ def test_vendor_is_valid(vendor):
         assert s["url"].startswith(("http://", "https://")), f"{vendor['id']}: source without http(s) url"
 
 
+def test_vendor_categories_present_and_valid():
+    for v in VENDORS:
+        assert "categories" in v, f"{v['id']}: missing categories"
+        assert 1 <= len(v["categories"]) <= 4, f"{v['id']}: {len(v['categories'])} categories"
+        allowed = SCHEMA["properties"]["categories"]["items"]["enum"]
+        for c in v["categories"]:
+            assert c in allowed, f"{v['id']}: unknown category {c}"
+
+
 def test_vendor_ids_and_names_unique():
     ids = [v["id"] for v in VENDORS]
     assert len(ids) == len(set(ids)), "duplicate vendor ids"

@@ -21,5 +21,8 @@
     "Flare gas recovery",
     "Ground flares",
     "Vapor recovery units"
+  ],
+  "categories": [
+    "equipment-oem"
   ]
 }

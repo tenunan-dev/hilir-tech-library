@@ -29,5 +29,9 @@
   "products": [
     "Sperry drilling services",
     "Geo i-TRAK"
+  ],
+  "categories": [
+    "oilfield-service",
+    "equipment-oem"
   ]
 }

@@ -24,5 +24,8 @@
     "Power Module75",
     "Active Cooler"
   ],
-  "url": "https://electratherm.com"
+  "url": "https://electratherm.com",
+  "categories": [
+    "equipment-oem"
+  ]
 }
