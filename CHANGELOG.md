@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.7] — 2026-10-29 — Plan v3: rewritten as a precise agent runbook
+
+### Changed
+- docs/SOURCE_DISCOVERY_PLAN.md restructured into an operational runbook any zero-context agent can execute: entry protocol, driving-file shapes, standing rules with full schema/enum reference and documented traps, flash-max worker contract with prompt template, per-block procedures A2–A12 with exact commands, state-update and candidate-outcome protocols, parked owner-only list. Scope unchanged from v2.
+
 ## [2026.10.29.6] — 2026-10-29 — Source discovery plan v2: autonomous sequencing, 43 seeded candidates, categorization stream
 
 ### Changed
