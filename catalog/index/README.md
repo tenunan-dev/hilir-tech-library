@@ -1,6 +1,6 @@
 # Catalog summary
 
-370 sources in total.
+371 sources in total.
 
 ## By sector and discipline code
 
@@ -13,8 +13,8 @@
 | REF | 161 |
 | CCS | 131 |
 | PCH | 131 |
-| DIG | 126 |
-| PWR | 119 |
+| DIG | 127 |
+| PWR | 120 |
 | MAT | 77 |
 | HSE | 75 |
 | MID | 71 |
@@ -28,8 +28,8 @@
 | global | 242 |
 | apac | 78 |
 | sea | 59 |
-| eu | 27 |
-| na | 23 |
+| eu | 28 |
+| na | 24 |
 | me | 13 |
 
 ## By source type
@@ -43,7 +43,7 @@
 | association | 37 |
 | licensor | 36 |
 | standards-body | 28 |
-| trade-media | 21 |
+| trade-media | 22 |
 | conference | 20 |
 | epc-contractor | 17 |
 | patents | 12 |
@@ -53,7 +53,7 @@
 | Value | Sources |
 | --- | --- |
 | full-text-restricted | 127 |
-| summary-only | 107 |
+| summary-only | 108 |
 | catalog-only | 68 |
 | full-text-open | 68 |
 
@@ -62,4 +62,4 @@
 | Value | Sources |
 | --- | --- |
 | unverified | 193 |
-| verified | 177 |
+| verified | 178 |

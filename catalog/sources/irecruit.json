@@ -1,0 +1,28 @@
+{
+  "id": "irecruit",
+  "name": "iRecruit",
+  "url": "https://irecruit.co/",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "iRecruit (recruiting and executive search)",
+  "country": "US",
+  "regions": [
+    "na",
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "US construction/AEC recruiting and executive-search firm; its free content-marketing reports carry dated market data useful as context on power-infrastructure cards: Data Center Cost Per MW 2026 Benchmarks, Construction Salary Guide 2026, 2026 Construction PM Salary Report, Construction Certifications 2026, plus nuclear/SMR, renewables/BESS and HV-substation construction coverage. Tier 3: staffing-firm market data, not an authority. Terms not yet read - record reality on first collection. Resolved the owner's \"iRecruit 2026\" candidate, 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "allowed",
+  "permitted_use": "unstated"
+}

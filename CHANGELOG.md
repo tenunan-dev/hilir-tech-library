@@ -7,6 +7,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.29.3] — 2026-10-29 — iRecruit candidate resolved: source `irecruit` registered
+
+### Added
+- Source record `irecruit` (irecruit.co — US construction/AEC recruiting firm; its free 2026 reports — data-center cost per MW benchmarks, salary guides, nuclear/SMR and renewables construction — are tier-3 market context on PWR cards). Catalog now 371 records; all four owner-named candidates registered; candidates queue and plan table updated.
+
 ## [2026.10.29.2] — 2026-10-29 — Source discovery plan; EUBCE, Gas Turbine World, USP&E registered
 
 ### Added

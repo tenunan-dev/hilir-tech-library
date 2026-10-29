@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-119 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+120 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -117,6 +117,7 @@
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
+| [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |
 | [Offshore Technology](https://www.offshore-technology.com/) | trade-media | global | open | summary-only (unverified) |
 | [Petrofac](https://www.petrofac.com/) | epc-contractor | me, global | open | summary-only (unverified) |

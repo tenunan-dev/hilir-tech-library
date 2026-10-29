@@ -1,6 +1,6 @@
 # DIG: Digital
 
-126 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+127 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -126,6 +126,7 @@
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
+| [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
 | [Offshore Technology](https://www.offshore-technology.com/) | trade-media | global | open | summary-only (unverified) |
 | [Rigzone](https://www.rigzone.com/) | trade-media | global | open | summary-only (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |

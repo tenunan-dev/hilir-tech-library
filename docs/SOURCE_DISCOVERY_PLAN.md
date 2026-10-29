@@ -59,12 +59,13 @@ channel-3 crawler are Wave 0 of this plan. Channel 5 costs nothing and already w
 | EUBCE | Registered as source `eubce` (conference, open proceedings) — done |
 | Gas Turbine World | Registered as source `gas-turbine-world` (paid handbook, summary-only, manual extracts) — done |
 | USP&E Global | Registered as vendor `uspe-global` — done |
-| "iRecruit 2026" | BLOCKED on owner: no energy-sector match found (web matches are an HR/recruitment brand). If I-REC (International Renewable Energy Certificates) was meant, it registers as a standards source — waiting for the link |
+| "iRecruit 2026" | Registered as source `irecruit` after the owner supplied the site: irecruit.co is a US construction/AEC recruiting firm whose free 2026 reports (data-center cost per MW, salary guides, nuclear/SMR and renewables construction) carry usable market data — tier 3 trade media. Done |
 
 ## Session log
 
 Newest first, one line per session: what ran, candidates found, registered, collected.
 
 - **2026-10-29:** Plan created after the owner named four unknown sources. Channels 5
-  output processed (4 candidates): 3 registered, 1 blocked on owner input. Wave 0 not
-  started.
+  output processed (4 candidates): all 4 registered (the owner's `irecruit.co` link
+  resolved the fourth — iRecruit is a construction/AEC recruiting firm with 2026 market
+  reports; `catalog/sources/irecruit.json`, tier 3 trade media). Wave 0 not started.
