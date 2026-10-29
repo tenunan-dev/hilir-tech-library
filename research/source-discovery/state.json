@@ -42,13 +42,14 @@
       "name": "Verification sweep of 193 unverified source records",
       "status": "partial",
       "runs": 1,
-      "note": "batch 1 of ~20 done: 8/10 verified (aep-journal renamed+remoted to connectsci.au/ep; aker-carbon-capture slbcapturi.com dead; adnoc bot-walled). ~185 records remain; abb-energy + aiche-journal queued for batch 2"
+      "note": "batches 1-2 done: 14 records verified (2 dead/bot-walled flagged, abb-energy + aiche-journal queued for batch 3); ~171 remain"
     },
     {
       "id": "A7",
       "name": "Vendor-provenance crawl (channel 3), contractor cohort first",
-      "status": "queued",
-      "runs": 0
+      "status": "running",
+      "runs": 1,
+      "note": "crawl of 14 contractor-cohort vendor sites running in background (7 paths each, research/provenance/); candidate extraction pending"
     },
     {
       "id": "A8",
@@ -60,14 +61,16 @@
     {
       "id": "A9",
       "name": "Event + standards-body sweep (channel 4)",
-      "status": "queued",
-      "runs": 0
+      "status": "done",
+      "runs": 1,
+      "note": "sweep 2026-10-30: 10 candidates queued (SPE ATCE, WGC, EGYPES, Middle East Energy, ISO 19880, ISO 14687, ASME BPVC, SIRIM, NITC to-resolve; NPRA rejected as AFPM-successor). Catalogued events confirmed healthy (OTC/ADIPEC/Gastech/LNG/ARTC/ERC/EnergyAsia/ASME Turbo present)."
     },
     {
       "id": "A10",
       "name": "EUBCE proceedings batch 1 + intake",
-      "status": "queued",
-      "runs": 0
+      "status": "blocked-owner",
+      "runs": 1,
+      "note": "EUBCE proceedings confirmed open-access-behind-free-registration (etaflorence.it/proceedings; search by edition/topic). Owners needs to create the free account (collectors do not register accounts); then PDFs drop into corpus/_inbox/eubce/ and collect.py --manual runs. eubce record corrected to access=free-registration."
     },
     {
       "id": "A11",
