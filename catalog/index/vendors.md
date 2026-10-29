@@ -548,10 +548,10 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).
 Adding a record for one of them is the next batch of this directory.
 
-- **CCS** (11): Blue Planet; CarbonCure; CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Planetary; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
+- **CCS** (8): CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
 - **GAS** (1): RasGas / Qatargas (operators)
 - **MID** (2): Governments; Terminal operators
 - **REF** (3): Axens/Technip Energies; Bechtel/Foster Wheeler (Amec); EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-271 of 299 cards list at least one directory vendor.
+272 of 299 cards list at least one directory vendor.

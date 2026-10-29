@@ -20,5 +20,8 @@
     }
   ],
   "last_reviewed": "2026-10-30",
-  "notes": "Linked to the CO2-concrete/mineralisation card cluster as the closest ocean-CMR card."
+  "notes": "Linked to the CO2-concrete/mineralisation card cluster as the closest ocean-CMR card.",
+  "aliases": [
+    "Planetary"
+  ]
 }
