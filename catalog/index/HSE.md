@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-78 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+80 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -40,6 +40,7 @@
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [IMO MARPOL (International Maritime Organization)](https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx) | standards-body | global | mixed | summary-only |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -61,6 +62,7 @@
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
+| [EPA AP-42 emission factors](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors) | agency-data | na, global | open | full-text-open |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |

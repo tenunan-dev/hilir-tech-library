@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-131 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+132 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -96,6 +96,7 @@
 | [Global CCS Institute CO2RE facilities database](https://www.globalccsinstitute.com/co2re/) | association | global | mixed | summary-only (unverified) |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |
+| [IEA Bioenergy TCP](https://www.ieabioenergy.com) | research-institute | global | open | full-text-restricted |
 | [IEA CCUS Projects Database](https://www.iea.org/data-and-statistics/data-product/ccus-projects-database) | agency-data | global | free-registration | full-text-restricted |
 | [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |

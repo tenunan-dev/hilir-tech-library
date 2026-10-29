@@ -1,0 +1,27 @@
+{
+  "id": "doe-wind-market",
+  "name": "DOE Land-Based Wind Market Report",
+  "url": "https://www.energy.gov/eere/wind/wind-market-reports-2024-edition",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "US Department of Energy (Integrated Energy Systems Office)",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "update_frequency": "annual",
+  "notes": "Annual DOE wind-market report (2024 edition: 150,492 MW land-based capacity end-2023, 6,474 MW added; sister offshore/distributed editions) - turbine prices and PPA data fill wind-card cost gaps. Free on energy.gov. Evidence: energy.gov page read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated"
+}

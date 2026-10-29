@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-124 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+130 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -85,8 +85,10 @@
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
+| [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/wind-market-reports-2024-edition) | agency-data | na | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
+| [EPA AP-42 emission factors](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors) | agency-data | na, global | open | full-text-open |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
@@ -95,8 +97,11 @@
 | [GE Vernova](https://www.gevernova.com/) | oem-supplier | global | open | full-text-restricted |
 | [GE Vernova 7HA gas turbine product page](https://www.gevernova.com/gas-power/products/gas-turbines/7ha) | oem-supplier | global | open | full-text-open (unverified) |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
+| [Idaho National Laboratory](https://inl.gov) | research-institute | na | open | full-text-open |
+| [IEA Bioenergy TCP](https://www.ieabioenergy.com) | research-institute | global | open | full-text-restricted |
 | [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA Global Hydrogen Review 2025 (main report)](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) | agency-data | global | open | full-text-open (unverified) |
+| [IEA PVPS (Photovoltaic Power Systems Programme)](https://iea-pvps.org) | research-institute | global | open | full-text-restricted |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IRENA publications](https://www.irena.org/Publications) | agency-data | global | open | full-text-restricted |
@@ -104,6 +109,7 @@
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
+| [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |

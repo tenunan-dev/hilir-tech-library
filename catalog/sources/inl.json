@@ -1,0 +1,29 @@
+{
+  "id": "inl",
+  "name": "Idaho National Laboratory",
+  "url": "https://inl.gov",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "US Department of Energy (Battelle Energy Alliance)",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "DOE's lead nuclear-energy national lab (Idaho Falls): advanced reactors, SMRs and microreactors, grid testing, hydrogen production research; operates the Advanced Test Reactor. Reports and fact sheets open. inl.gov 403s plain fetchers - read via reader tool; collect via energy.gov mirrors or manual inbox. Evidence: inl.gov/about-inl read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "nrel-atb",
+  "name": "NREL Annual Technology Baseline (ATB)",
+  "url": "https://atb.nrel.gov",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "National Renewable Energy Laboratory",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "Consistent technology cost and performance dataset (Electricity + Transportation; LCOE/CAPEX frameworks with scenarios to 2050; companion Standard Scenarios), freely available. nrel.gov is DNS-blocked from this Mac - verified via the Wayback mirror (web.archive.org, 2024 capture read 2026-10-29); collect via Wayback or energy.gov mirrors.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

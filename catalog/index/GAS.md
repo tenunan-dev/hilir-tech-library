@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-195 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+196 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -97,6 +97,7 @@
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
+| [IMO MARPOL (International Maritime Organization)](https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx) | standards-body | global | mixed | summary-only |
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |

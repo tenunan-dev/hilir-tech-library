@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-192 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+193 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -129,6 +129,7 @@
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Energistics standards (WITSML, PRODML, RESQML)](https://energistics.org/) | standards-body | global | open | full-text-restricted |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
+| [EPA AP-42 emission factors](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors) | agency-data | na, global | open | full-text-open |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |

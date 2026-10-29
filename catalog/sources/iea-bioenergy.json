@@ -1,0 +1,29 @@
+{
+  "id": "iea-bioenergy",
+  "name": "IEA Bioenergy TCP",
+  "url": "https://www.ieabioenergy.com",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "IEA Bioenergy Technology Collaboration Programme",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "permitted_use": "personal-non-commercial",
+  "notes": "IEA Technology Collaboration Programme (est. 1978) whose Tasks cover biomass combustion (32), gasification (33), thermochemical liquefaction (34), waste valorisation (36), biogas (37), biofuels (39), biorefining (42) and flexible bioenergy (44); publishes open technical reports, country reports and factsheets. Relevant to the biomass WTE, pyrolysis/HTL and BECCS cards. Evidence: ieabioenergy.com read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

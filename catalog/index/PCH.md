@@ -1,6 +1,6 @@
 # PCH: Petrochemicals
 
-133 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+134 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -90,6 +90,7 @@
 | [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
+| [EPA AP-42 emission factors](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors) | agency-data | na, global | open | full-text-open |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Catalysts and Licensing](https://www.exxonmobilchemical.com/en/catalysts-and-licensing) | licensor | global | open | full-text-restricted (unverified) |

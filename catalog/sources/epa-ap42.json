@@ -1,0 +1,31 @@
+{
+  "id": "epa-ap42",
+  "name": "EPA AP-42 emission factors",
+  "url": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "US Environmental Protection Agency",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "AP-42 (since 1972): EPA's primary compilation of air-emission factors for 200+ stationary source categories (petroleum industry, storage tanks, combustion) - open chapters and PDFs. The separate GHGRP (Greenhouse Gas Reporting Program) facility data is also open on epa.gov. Evidence: epa.gov AP-42 page read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

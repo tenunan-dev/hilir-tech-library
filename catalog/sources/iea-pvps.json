@@ -1,0 +1,27 @@
+{
+  "id": "iea-pvps",
+  "name": "IEA PVPS (Photovoltaic Power Systems Programme)",
+  "url": "https://iea-pvps.org",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "IEA PVPS TCP (secretariat: Australian PV Institute)",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "notes": "IEA collaborative R&D programme (est. 1993, 32 members incl. Malaysia and SERIS Singapore) publishing open PV technical reports, market/Trends/Snapshot reports and Task outputs (T19 integration, T20 hydrogen hubs). Relevant to the crystalline-silicon PV and floating-solar cards. Plain fetch got 403 - read via reader tool. Evidence: iea-pvps.org/about-iea-pvps read 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "update_frequency": "irregular"
+}

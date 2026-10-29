@@ -1,0 +1,28 @@
+{
+  "id": "doe-h2-records",
+  "name": "DOE Hydrogen Program Records and H2A/HDSAM analysis",
+  "url": "https://www.hydrogen.energy.gov/program-areas/systems-analysis/h2a-analysis/h2a-delivery",
+  "source_type": "agency-data",
+  "sectors": [
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "US Department of Energy",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "DOE Hydrogen Program Records (supporting-data analyses for production, delivery, fuel cells) and the H2A/HDSAM models - HDSAM simulates hydrogen delivery/refueling costs (Argonne). Named in H2 delivery cost gaps. Open PDFs on hydrogen.energy.gov (a reachable host). Evidence: hydrogen.energy.gov pages surfaced via web search 2026-10-29.",
+  "verification": "verified",
+  "last_verified": "2026-10-29",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}
