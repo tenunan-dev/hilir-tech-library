@@ -285,3 +285,8 @@
 {"id": "air-products-tech", "evidence": "https://www.airproducts.com", "finding": "Read 2026-10-29 (reader): homepage structure; /about-us 404 - homepage is the entry."}
 {"id": "aep-journal", "evidence": "https://connectsci.au/ep/pages/about-the-journal", "finding": "2026-10-29 via web search: renamed Australian Energy Producers Journal (2024), CSIRO Publishing moved hosting; old publish.csiro.au/ep 404s after redirect."}
 {"id": "aker-carbon-capture", "evidence": "https://www.slbcapturi.com/", "finding": "2026-10-29: slbcapturi.com DNS fails; capturi.com -> Puzzel (AI co), capturi.dk parked. Brand absorbed into SLB; needs slb.com replacement."}
+{"id": "mit-ccs-db", "evidence": "https://sequestration.mit.edu/tools/index.html", "finding": "Read 2026-10-30: MIT CCS tools site; project database open, sponsors section members-only."}
+{"id": "wb-gfmr", "evidence": "https://www.worldbank.org/en/programs/gasflaringreduction", "finding": "Read 2026-10-30: GFMR successor partnership (Dec 2023); annual Flaring Tracker open (167 bcm, 2026 ed.)."}
+{"id": "eage", "evidence": "https://eage.org", "finding": "Read 2026-10-30: association portfolio (First Break, EarthDoc, 5 journals); access terms per-journal, largely gated."}
+{"id": "meti-gif", "evidence": "https://www.meti.go.jp/english/policy/energy_environment/global_warming/gifund/index.html", "finding": "2026-10-30 via web search: official English GIF portal + NEDO programme site."}
+{"id": "petroleum-research", "evidence": "https://www.keaipublishing.com/en/journals/petroleum-research/", "finding": "2026-10-30 via web search: KeAi APC-free OA journal; Universitas Trisakti NOT the publisher (author affiliation only)."}

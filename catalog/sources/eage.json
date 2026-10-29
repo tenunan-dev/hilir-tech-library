@@ -1,0 +1,27 @@
+{
+  "id": "eage",
+  "name": "EAGE (European Association of Geoscientists & Engineers)",
+  "url": "https://eage.org",
+  "source_type": "association",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "EAGE",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "notes": "Global geoscience association (HQ Netherlands): publishes First Break magazine, the EarthDoc library, and peer-reviewed journals (Near Surface Geophysics, Petroleum Geoscience, Geophysical Prospecting, Basin Research, Geoenergy); runs the Annual Conference & Exhibition. Journals/library largely member-gated. Evidence: eage.org read 2026-10-30.",
+  "verification": "verified",
+  "last_verified": "2026-10-30",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "update_frequency": "irregular"
+}

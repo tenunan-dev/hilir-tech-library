@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "note": "Live sequencer state for docs/SOURCE_DISCOVERY_PLAN.md blocks. Any agent: update after every block completion, failure or re-plan. Statuses: queued | running | done | partial | blocked-temporary (has retry_after + retries) | blocked-owner. Re-sequence freely after each block; never delete rows.",
   "blocks": [
     {
@@ -19,9 +19,9 @@
     {
       "id": "A3",
       "name": "Triage + register queued source candidates (batches of ~8)",
-      "status": "queued",
-      "runs": 0,
-      "note": "43 queued; dedup, verify, register; paid ones -> blocked-owner"
+      "status": "running",
+      "runs": 1,
+      "note": "session 2026-10-30: batch 4 in progress (8 candidates incl. 2 vendor retries); IHS PEP to be re-marked blocked-owner"
     },
     {
       "id": "A4",

@@ -1,0 +1,28 @@
+{
+  "id": "meti-gif",
+  "name": "METI Green Innovation Fund (Japan)",
+  "url": "https://www.meti.go.jp/english/policy/energy_environment/global_warming/gifund/index.html",
+  "source_type": "agency-data",
+  "sectors": [
+    "H2",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Ministry of Economy, Trade and Industry (METI) / NEDO",
+  "country": "JP",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "Japan's 2-trillion-yen innovation fund whose hydrogen/fuel-ammonia pillar funds the e-cracking, liquefied-H2 (Suiso) and ammonia co-firing demonstrations named on cards; English portal open with project overviews (NEDO hosts the programme site). Evidence: meti.go.jp English GIF portal + NEDO green-innovation site surfaced via web search 2026-10-30.",
+  "verification": "verified",
+  "last_verified": "2026-10-30",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

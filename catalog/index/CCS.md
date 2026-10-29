@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-132 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+133 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -104,6 +104,7 @@
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
+| [MIT CCS Project Database](https://sequestration.mit.edu/tools/index.html) | research-institute | global | open | full-text-restricted |
 | [NETL Carbon Capture Technologies Status and Challenges (2023)](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [NETL Compendium of Carbon Capture Technology 2024 (web edition)](https://netl.doe.gov/sites/default/files/2025-01/Carbon-Capture-Compendium-2024.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [NETL Cost of Capturing CO2 from Industrial Sources (2022, project file)](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf) | agency-data | global | open | full-text-open (unverified) |

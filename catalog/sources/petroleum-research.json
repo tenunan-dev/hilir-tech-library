@@ -1,0 +1,27 @@
+{
+  "id": "petroleum-research",
+  "name": "Petroleum Research (KeAi)",
+  "url": "https://www.keaipublishing.com/en/journals/petroleum-research/",
+  "source_type": "journal",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "KeAi (Elsevier x China Science Publishing) with the Chinese Petroleum Society",
+  "country": "CN",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "permitted_use": "any",
+  "notes": "APC-free open-access petroleum journal (ISSN 2096-2495; IF ~4.4, Q1) covering reservoir engineering, EOR/oilfield chemistry and drilling - hosts the Rasool et al. 2025 MEOR field study named in UPS gaps. Full text on ScienceDirect/KeAi. Evidence: KeAi journal pages surfaced via web search 2026-10-30.",
+  "verification": "verified",
+  "last_verified": "2026-10-30",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}

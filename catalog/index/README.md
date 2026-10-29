@@ -1,21 +1,21 @@
 # Catalog summary
 
-394 sources in total.
+399 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 215 |
-| GAS | 200 |
-| UPS | 195 |
-| H2 | 191 |
+| PRC | 220 |
+| GAS | 201 |
+| UPS | 198 |
+| H2 | 192 |
 | REF | 166 |
 | PCH | 135 |
 | DIG | 134 |
-| CCS | 132 |
-| PWR | 131 |
-| HSE | 84 |
+| CCS | 133 |
+| PWR | 132 |
+| HSE | 85 |
 | MAT | 78 |
 | MID | 76 |
 | ROT | 69 |
@@ -25,8 +25,8 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 255 |
-| apac | 80 |
+| global | 259 |
+| apac | 81 |
 | sea | 60 |
 | eu | 31 |
 | na | 31 |
@@ -37,11 +37,11 @@
 
 | Value | Sources |
 | --- | --- |
-| agency-data | 72 |
-| research-institute | 53 |
+| agency-data | 74 |
+| research-institute | 54 |
 | oem-supplier | 49 |
-| association | 41 |
-| journal | 39 |
+| association | 42 |
+| journal | 40 |
 | licensor | 36 |
 | standards-body | 30 |
 | trade-media | 25 |
@@ -53,14 +53,14 @@
 
 | Value | Sources |
 | --- | --- |
-| full-text-restricted | 133 |
+| full-text-restricted | 135 |
 | summary-only | 113 |
-| full-text-open | 78 |
+| full-text-open | 81 |
 | catalog-only | 70 |
 
 ## By verification
 
 | Value | Sources |
 | --- | --- |
-| verified | 207 |
+| verified | 212 |
 | unverified | 187 |

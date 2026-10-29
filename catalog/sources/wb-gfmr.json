@@ -1,0 +1,29 @@
+{
+  "id": "wb-gfmr",
+  "name": "World Bank Global Flaring & Methane Reduction (GFMR) Partnership",
+  "url": "https://www.worldbank.org/en/programs/gasflaringreduction",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "publisher_org": "World Bank Group",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "permitted_use": "any",
+  "notes": "Successor (Dec 2023) to the Global Gas Flaring Reduction partnership: publishes the annual Global Gas Flaring Tracker (2026 edition: 167 bcm flared) openly - the flaring-reduction source named in UPS/HSE gaps. Evidence: worldbank.org GFMR page read 2026-10-30.",
+  "verification": "verified",
+  "last_verified": "2026-10-30",
+  "automated_access": "unstated",
+  "update_frequency": "irregular"
+}
