@@ -72,9 +72,13 @@
     {
       "url": "https://www.oxfordpv.com/",
       "note": "Oxford PV home page, read 25 October 2026 (page carries no tandem data)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Perovskite_solar_cell",
+      "note": "Wikipedia: Perovskite solar cell — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-10-29",
   "gaps": [
     {
       "field": "performance",
@@ -116,24 +120,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Perovskite solar cell'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Perovskite_solar_cell",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [

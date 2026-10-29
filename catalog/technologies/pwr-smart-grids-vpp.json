@@ -104,9 +104,13 @@
       "url": "https://en.wikipedia.org/wiki/Virtual_power_plant",
       "source_id": "wikipedia",
       "note": "Wikipedia, Virtual power plant, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Smart_grid",
+      "note": "Wikipedia: Smart grid — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-10-29",
   "gaps": [
     {
       "field": "performance",
@@ -156,24 +160,6 @@
         }
       ],
       "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Smart grid'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Smart_grid",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ]
 }

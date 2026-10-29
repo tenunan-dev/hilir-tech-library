@@ -301,9 +301,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - current global capacity and yield gain percentage (performance): The World Bank report is from 2018. Web-checked 2026-10-28: World Bank/SERIS put global floating solar above 1.1 GW back in 2018 (pv-tech) with higher yield from water cooling, but neither a current (2025-26) global GW figure nor a verified yield-gain percentage was found in open pages. Where: IRENA and IEA PVPS floating PV statistics (catalog: irena, open). Next: Add a 2024 or 2025 capacity figure.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open $/W or $/MWh figure found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Floating solar'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Floating_solar) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water). Last reviewed 2026-10-28.
+Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water), [2](https://en.wikipedia.org/wiki/Floating_solar). Last reviewed 2026-10-29.
 
 ## Flow batteries (vanadium, zinc-bromine)
 <a id="pwr-flow-batteries"></a>
@@ -329,9 +328,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - Rongke Power Dalian project MW and MWh (reference_plants): The Wikipedia page for the Dalian station returned not found. Where: Rongke Power and Dalian Rongke announcements (open). Next: Add the Dalian MW, MWh and commissioning date.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; system prices are quote-only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Flow battery'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Flow_battery) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://invinity.com/). Last reviewed 2026-10-28.
+Sources: [1](https://invinity.com/), [2](https://en.wikipedia.org/wiki/Flow_battery). Last reviewed 2026-10-29.
 
 ## Gas engines
 <a id="pwr-gas-engines"></a>
@@ -362,9 +360,8 @@ flowchart LR
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Gas engine'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Gas_engine) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine), [2](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants), [3](https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali). Last reviewed 2026-10-28.
+Sources: [1](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine), [2](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants), [3](https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali), [4](https://en.wikipedia.org/wiki/Gas_engine). Last reviewed 2026-10-29.
 
 ## Geothermal (flash and binary cycle)
 <a id="pwr-geothermal-flash-binary"></a>
@@ -394,10 +391,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Flash steam geothermal power plant (hot water)' 9 (2025); 'Organic rankine cycle (low temperature resources)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Geothermal power'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Geothermal_power) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal), [2](https://en.wikipedia.org/wiki/Geothermal_power). Last reviewed 2026-10-29.
 
 ## Grid-forming inverters and synchronous condensers
 <a id="pwr-grid-forming-inverters"></a>
@@ -425,10 +419,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Battery storage system with grid-forming inverter' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Grid-forming inverter'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Grid-forming_inverter) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://en.wikipedia.org/wiki/Grid-forming_inverter), [2](https://arena.gov.au/news/worlds-largest-scale-battery-set-to-get-even-bigger). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Grid-forming_inverter), [2](https://arena.gov.au/news/worlds-largest-scale-battery-set-to-get-even-bigger). Last reviewed 2026-10-29.
 
 ## HVDC transmission and interconnectors
 <a id="pwr-hvdc-transmission"></a>
@@ -456,9 +447,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'High-voltage direct current'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/High-voltage_direct_current) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.hitachienergy.com/products-and-solutions/hvdc). Last reviewed 2026-10-28.
+Sources: [1](https://www.hitachienergy.com/products-and-solutions/hvdc), [2](https://en.wikipedia.org/wiki/High-voltage_direct_current). Last reviewed 2026-10-29.
 
 ## Heavy-duty gas turbines (H and J class)
 <a id="pwr-heavy-duty-gas-turbines"></a>
@@ -491,9 +481,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - installed cost per kW with dollar year (costs): Open vendor pages give no cost; cost databases are commercial. Searched OSTI corpus (25 reports) for "gas turbine", "installed cost", "$/kW", "capital cost", "levelized"; not present; 2026-10-28 Where: Gas Turbine World handbook (paid) (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add an open cost figure, for example from an EIA or NREL cost study.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; H/J-class references exist in OEM case studies behind portal pages; no verifiable open page found (osti corpus checked 2026-10-28, abstracts only). Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Gas turbine'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Gas_turbine) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [2](https://power.mhi.com/products/gasturbines/lineup/m701j), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [2](https://power.mhi.com/products/gasturbines/lineup/m701j), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://en.wikipedia.org/wiki/Gas_turbine). Last reviewed 2026-10-29.
 
 ## Hydropower
 <a id="pwr-hydropower"></a>
@@ -525,9 +514,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - dollar year for the ATB hydropower costs (costs): The page does not state the dollar year. Web-checked 2026-10-28: the ATB is published at atb.nrel.gov, which is network-blocked from this machine; dollar year to be confirmed from an NREL mirror. Where: NREL ATB documentation (catalog: nrel, open). Next: Confirm the dollar year and add it to the figure.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Hydropower'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Hydropower) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/hydropower), [2](https://www.sarawakenergy.com/bakun-hydroelectric-plant). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/hydropower), [2](https://www.sarawakenergy.com/bakun-hydroelectric-plant), [3](https://en.wikipedia.org/wiki/Hydropower). Last reviewed 2026-10-29.
 
 ## Large light-water reactors
 <a id="pwr-large-light-water-reactors"></a>
@@ -557,10 +545,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Generation III/III+ large reactors' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Light-water reactor'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Light-water_reactor) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors), [2](https://gulfbusiness.com/en/2016/energy/uaes-nuclear-power-project-raises-24-4bn-financing). Last reviewed 2026-10-28.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/nuclear-power-reactors), [2](https://gulfbusiness.com/en/2016/energy/uaes-nuclear-power-project-raises-24-4bn-financing), [3](https://en.wikipedia.org/wiki/Light-water_reactor). Last reviewed 2026-10-29.
 
 ## Lithium-ion battery energy storage
 <a id="pwr-lithium-ion-bess"></a>
@@ -590,9 +575,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - $/kWh and $/kW installed cost with dollar year (costs): The ATB page lists cost only in charts. Where: NREL ATB 2024 data download (catalog: nrel, open). Next: Add base-year system cost with dollar year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Battery storage power station'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Battery_storage_power_station) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage), [2](https://en.wikipedia.org/wiki/Battery_storage_power_station). Last reviewed 2026-10-29.
 
 ## Mobile gas turbine power plants
 <a id="pwr-mobile-gas-turbine-plants"></a>
@@ -734,9 +718,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - installed cost $/kW and capacity factor with dollar year (costs): The ATB page shows year-specific values only in interactive charts. Where: NREL ATB 2024 data download (catalog: nrel, open); IRENA Renewable Power Generation Costs (catalog: irena, open). Next: Download the ATB dataset and record the 2022 base cost with its dollar year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Offshore wind power'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Offshore_wind_power) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind), [2](https://en.wikipedia.org/wiki/Offshore_wind_power). Last reviewed 2026-10-29.
 
 ## Onshore wind
 <a id="pwr-onshore-wind"></a>
@@ -762,9 +745,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - turbine ratings, capacity factors and installed cost with dollar year (performance): The DOE land-based wind market report page returned an error and the NREL ATB land-based wind page is blocked by robots.txt. Where: [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/land-based-wind-market-reports-2025-edition) (open); IRENA Renewable Power Generation Costs (catalog: irena, open). Next: Fetch a reachable edition and add figures with their year.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous technology, no single verifiable deployment added (Gobi/Mongolia farms exist but were not this pass). Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Wind power'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Wind_power) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf), [3](https://en.wikipedia.org/wiki/Wind_power). Last reviewed 2026-10-29.
 
 ## Powerships and power barges
 <a id="pwr-powerships-power-barges"></a>
@@ -834,10 +816,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Pumped storage' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Pumped-storage hydroelectricity'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/pumped_storage_hydropower), [2](https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity). Last reviewed 2026-10-29.
 
 ## Smart grids, microgrids and virtual power plants
 <a id="pwr-smart-grids-vpp"></a>
@@ -863,9 +842,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 - microgrid examples for oil and gas operations (performance): Wikipedia covers VPPs only. Web-checked 2026-10-28; O&G microgrid case studies are vendor-published without verifiable figures. Where: Operator microgrid case studies (open). Next: Add an oil and gas microgrid reference.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named O&G microgrid with figures found. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Smart grid'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Smart_grid) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant), [2](https://en.wikipedia.org/wiki/Smart_grid). Last reviewed 2026-10-29.
 
 ## Ammonia co-firing in coal boilers
 <a id="pwr-ammonia-coal-cofiring"></a>
@@ -1012,9 +990,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 - Rudong, China gravity project details (reference_plants): The Energy Vault page read does not mention gravity storage. Where: Energy Vault investor filings (open). Next: Add MWh, efficiency and status from a filing.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor round-trip claims only, no independent figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Gravity battery'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Gravity_battery) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energyvault.com/). Last reviewed 2026-10-28.
+Sources: [1](https://www.energyvault.com/), [2](https://en.wikipedia.org/wiki/Gravity_battery). Last reviewed 2026-10-29.
 
 ## Hydrogen-capable and ammonia-fired gas turbines
 <a id="pwr-hydrogen-ammonia-turbines"></a>
@@ -1105,9 +1082,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor design figures already on card; no independent operating data (no operating SMR yet in Western markets). Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: Darlington BWRX-300 project at CAD 7.7 bn recorded in reference_plants (four-unit programme); per-kW derived cost not stated in the source. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Small modular reactor'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Small_modular_reactor) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors). Last reviewed 2026-10-28.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors), [2](https://en.wikipedia.org/wiki/Small_modular_reactor). Last reviewed 2026-10-29.
 
 ## Sodium-ion batteries
 <a id="pwr-sodium-ion-batteries"></a>
@@ -1167,9 +1143,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; Polar Night Energy has not published plant capex. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Thermal energy storage'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Thermal_energy_storage) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://rondo.com/), [2](https://polarnightenergy.com/). Last reviewed 2026-10-28.
+Sources: [1](https://rondo.com/), [2](https://polarnightenergy.com/), [3](https://en.wikipedia.org/wiki/Thermal_energy_storage). Last reviewed 2026-10-29.
 
 ## Advanced reactors (high-temperature gas, molten salt)
 <a id="pwr-advanced-reactors"></a>
@@ -1224,9 +1199,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - certified cell and module efficiency records with dates (performance): NREL's efficiency chart page and the Oxford PV page carry no values in text. Where: NREL research cell efficiency chart data file (catalog: nrel, open); Oxford PV press releases (open). Next: Download the NREL data file and record tandem and silicon records with dates.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; tandem module prices not yet published in volume. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Perovskite solar cell'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Perovskite_solar_cell) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/). Last reviewed 2026-10-28.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/), [3](https://en.wikipedia.org/wiki/Perovskite_solar_cell). Last reviewed 2026-10-29.
 
 ## Tidal and wave energy
 <a id="pwr-tidal-wave"></a>
@@ -1255,9 +1229,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; MeyGen LCOE estimates vary and no settled open figure found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Tidal power'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Tidal_power) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.orbitalmarine.com/o2/). Last reviewed 2026-10-28.
+Sources: [1](https://www.orbitalmarine.com/o2/), [2](https://en.wikipedia.org/wiki/Tidal_power). Last reviewed 2026-10-29.
 
 ## Fusion
 <a id="pwr-fusion"></a>
@@ -1287,7 +1260,4 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Magnetic confinement fusion: tokamaks' 3 (2025); 'Fusion energy (general entry)' 3 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Fusion power'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Fusion_power) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power). Last reviewed 2026-10-28.
+Sources: [1](https://world-nuclear.org/information-library/current-and-future-generation/nuclear-fusion-power), [2](https://en.wikipedia.org/wiki/Fusion_power). Last reviewed 2026-10-29.
