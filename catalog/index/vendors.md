@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-378 vendor records covering 249 technologies. One record per vendor in
+377 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -95,7 +95,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | licensor, developer | Liquid organic hydrogen carriers (MCH, DBT) |
 | [Clariant](https://www.clariant.com) | Switzerland | supplier | Cellulosic ethanol |
 | [CSIRO](https://www.csiro.au) | Australia | developer | Photocatalytic and thermochemical water splitting |
-| [Cummins (Accelera)](https://www.cummins.com) | USA | oem | PEM electrolysis |
+| [Cummins](https://www.cummins.com) | USA | oem | PEM electrolysis |
 | [Enapter](https://www.enapter.com) | Italy | oem | AEM electrolysis |
 | [Ensyn Corporation](https://www.ensyn.com) | Canada | supplier | Pyrolysis oil and hydrothermal liquefaction |
 | [European Energy](https://europeanenergy.com) | Denmark | developer | E-methanol and bio-methanol |
@@ -387,7 +387,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Heatric (Parker Hannifin)](https://www.heatric.com) | United Kingdom | oem | Shell-and-tube, plate and printed-circuit heat exchangers |
 | [ITT Goulds Pumps](https://www.gouldspumps.com) | USA | oem | Centrifugal and positive displacement pumps |
 | [KSB](https://www.ksb.com) | Germany | oem | Centrifugal and positive displacement pumps |
-| [Mitsubishi Heavy Industries Compressor (MCO-I)](https://www.mhi.com) | USA | oem | Centrifugal and axial compressors |
+| [MHI Compressor (MCO-I)](https://www.mhi.com) | USA | oem | Centrifugal and axial compressors |
 | [Omniseal Solutions](https://www.omnisealsolutions.com) | Belgium | oem | Mechanical seals, magnetic bearings and integrated motor-compressors |
 | [Shanghai Electric](https://www.shanghai-electric.com) | China | oem | Steam turbines and expanders |
 | [SPX Cooling Technologies](https://spxcooling.com) | USA | oem | Air coolers and cooling towers |

@@ -5,10 +5,11 @@
   "roles": [
     "oem"
   ],
-  "description": "Engine and power generation OEM from Columbus, Indiana whose Centum Force range factory-pre-integrates QSK60 gensets (2.0-2.75 MW, 50 Hz) into stackable ISO 40-ft containers.",
+  "description": "Engine and power generation OEM from Columbus, Indiana whose Centum Force range factory-pre-integrates QSK60 gensets (2.0-2.75 MW, 50 Hz) into stackable ISO 40-ft containers; its Accelera brand supplies PEM electrolyzers and fuel cells.",
   "technologies": [
     "pwr-gas-engines",
-    "pwr-modular-engine-plants"
+    "pwr-modular-engine-plants",
+    "h2-pem-electrolysis"
   ],
   "sources": [
     {
@@ -20,12 +21,14 @@
       "note": "Cummins generators page (APAC), read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-26",
+  "last_reviewed": "2026-10-29",
   "products": [
     "Centum Force containerised gensets",
     "QSK-series gensets to 3,750 kVA",
-    "natural gas gensets 13-2,000 kW"
+    "natural gas gensets 13-2,000 kW",
+    "Accelera HyLYSER PEM electrolyzers",
+    "Accelera fuel cells"
   ],
   "url": "https://www.cummins.com",
-  "notes": "cummins.com blocked the automated fetcher (HTTP 403); figures come from the official brochure PDF and the APAC generators page."
+  "notes": "cummins.com blocked the automated fetcher (HTTP 403); figures come from the official brochure PDF and the APAC generators page. Accelera (zero-emissions brand: HyLYSER electrolyzers, fuel cells) folded into this record 2026-10-29; the separately created Cummins (Accelera) record was removed as a duplicate sub-brand."
 }
