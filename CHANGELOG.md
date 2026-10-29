@@ -7,6 +7,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.30.1] — 2026-10-30 — Vendor queue closure + categories refinement; catalog 399, vendors 413
+
+### Added
+- 23 vendor records closing the named-vendor coverage queue (incl. boiler OEMs Babcock & Wilcox, Cleaver-Brooks, Sumitomo SHI FW per owner request; fusion/CSP/floating-solar/utilities cluster; Alfa Laval, Koch-Glitsch); alias fixes for ihi/drax/yokogawa/worley/mitsubishi-power. Vendors 394 → 413; remaining queue = non-vendor placeholders only.
+- 5 sources (METI Green Innovation Fund, MIT CCS Project Database, World Bank GFMR flaring partnership, EAGE, Petroleum Research journal). Catalog 394 → 399.
+
+### Changed
+- A4b: vendor `categories` refined by two serial flash batches — 200 of 413 records corrected.
+- A6: 14 more source records verified (batches 1-2); EUBCE record corrected to free-registration (proceedings behind a free account at etaflorence.it/proceedings).
+- A9: 10 event/standards candidates queued (SPE ATCE, WGC, ISO 19880/14687, ASME BPVC, SIRIM…); republish deploy 82aeca5c live-verified.
+
 ## [2026.10.29.8] — 2026-10-29 — Runbook execution: A2/A3/A4/A5/A6/A8/A11, catalog 394, vendors 394
 
 ### Added
