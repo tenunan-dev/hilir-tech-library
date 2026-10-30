@@ -23,6 +23,7 @@ interface Env {
   USER_STORE_URL?: string; // least-privilege DSN for admin-managed accounts + activity events (agent/userstore.py, db/library.sql); optional
   OAUTH_KV: KVNamespace;
   OAUTH_PROVIDER: OAuthHelpers;
+  AI: { run: (model: string, input: Record<string, unknown>) => Promise<unknown> }; // Workers AI (query embeddings, decision #32)
 }
 
 export class Library extends Container<Env> {
@@ -154,7 +155,32 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/health") {
       return Response.json({ service: "HILIR Technology Library", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json",
-                             auth: "x-api-key header, or OAuth for /mcp" });
+                             auth: "x-api-key header, or OAuth for /mcp", embed: "/__embed" });
+    }
+    // Query-embedding service (decision #32): the container has no fastembed, so it calls
+    // this route for a 384-dim vector from Workers AI (@cf/baai/bge-small-en-v1.5 — the
+    // model family the index was built with). Master key only: the container knows it, and
+    // per-user keys are resolved in the container, which would loop back here.
+    if (url.pathname === "/__embed") {
+      const given = request.headers.get("x-api-key")
+        ?? (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
+      const masterOk = !!env.LIBRARY_API_KEY && env.LIBRARY_API_KEY.length >= 24 && !given.startsWith("hlt_")
+        && sameKey(given, env.LIBRARY_API_KEY);
+      if (!masterOk) return Response.json({ error: "missing or wrong API key" }, { status: 401 });
+      const text = request.method === "GET" ? (url.searchParams.get("text") ?? "") : await request.text();
+      const trimmed = text.trim().slice(0, 2000);
+      if (!trimmed) return Response.json({ error: "text required (max 2000 chars)" }, { status: 400 });
+      try {
+        const result = await env.AI.run("@cf/baai/bge-small-en-v1.5", { text: [trimmed] }) as
+          { data?: number[][]; shape?: number[] };
+        const vec = result?.data?.[0];
+        if (!Array.isArray(vec) || vec.length !== 384) {
+          return Response.json({ error: `embedding model returned ${vec?.length ?? 0} dims` }, { status: 502 });
+        }
+        return Response.json({ model: "@cf/baai/bge-small-en-v1.5", dim: 384, vector: vec });
+      } catch (e) {
+        return Response.json({ error: `embedding failed: ${String(e)}` }, { status: 502 });
+      }
     }
     if (url.pathname === "/api/openapi.json") {
       // The schema holds no data; tools such as ChatGPT Actions import it before they have a key.

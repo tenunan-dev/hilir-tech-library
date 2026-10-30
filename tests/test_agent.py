@@ -91,6 +91,34 @@ def test_get_source_document_and_tags(db):
     assert all(not {"sea", "apac"} & set(r["regions"]) for r in h2[first_non_asia:])
 
 
+def test_search_fuses_precomputed_query_vector(db):
+    """A query with no keyword overlap can still surface the semantically closest row
+    when its 384-dim vector is supplied (edge Workers AI path, decision #32)."""
+    rows = db.execute("SELECT rowid, kind, title, text FROM search").fetchall()
+    target = next(r for r in rows if r["kind"] == "chunk")
+    db.execute("INSERT OR REPLACE INTO info VALUES ('model', 'test')")
+    for r in rows:
+        base = np.zeros(384, dtype=np.float32)
+        base[0 if r["rowid"] == target["rowid"] else 1] = 1.0
+        db.execute("INSERT INTO vectors VALUES (?, ?)", (r["rowid"], base.tobytes()))
+    db.commit()
+    qvec = np.zeros(384, dtype=np.float32)
+    qvec[0] = 1.0
+    hits = library.search("xylophone zebra quux", db=db, query_vector=qvec.tolist())
+    assert hits, "vector fusion should surface the aligned row despite zero keyword overlap"
+    assert any(h.get("kind") == "chunk" and "electrolyzer" in (h.get("title") or "") for h in hits)
+
+
+def test_search_ignores_malformed_query_vector(db):
+    rows = db.execute("SELECT rowid FROM search LIMIT 2").fetchall()
+    db.execute("INSERT OR REPLACE INTO info VALUES ('model', 'test')")
+    for r in rows:
+        db.execute("INSERT INTO vectors VALUES (?, ?)", (r["rowid"], np.ones(384, dtype=np.float32).tobytes()))
+    db.commit()
+    hits = library.search("electrolyzer", db=db, query_vector=[0.1] * 7)  # wrong length: ignored
+    assert hits and all(isinstance(h, dict) for h in hits)
+
+
 class FakeModel:
     """Bag-of-letters vectors: enough to check the plumbing without downloading a model."""
     def _vec(self, text):

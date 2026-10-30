@@ -47,8 +47,15 @@ SECTOR_COLORS = {"UPS": "#8a6d3b", "MID": "#5e8f5e", "GAS": "#b0703a", "REF": "#
                  "PWR": "#c8963e", "H2": "#3e8fc8", "CCS": "#5aa08a"}
 COLOR_FALLBACK = "#5a6b7b"
 MATURITY_COLORS = {"commercial": "#2e7d32", "demonstration": "#1565c0", "pilot": "#ef6c00", "lab": "#616161"}
-NAV = (("Technologies", "/technologies"), ("Vendors", "/vendors"), ("Register", "/register"), ("Sources", "/sources"),
-       ("Gaps", "/gaps"), ("Database", "/database"))
+# Categorized navigation: two dropdown groups in the header (pure <details>, no JS) plus the
+# account area rendered by _page. Keep hrefs in step with the routes below.
+NAV_GROUPS = (
+    ("Library", (("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
+                 ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps"))),
+    ("Database", (("Overview", "/database"), ("SQL console", "/database/sql"),
+                  ("Semantic search", "/database/search"), ("Network", "/database/graph"),
+                  ("Atlas", "/database/map"))),
+)
 # Second-level tabs shown on every /database page (keep in step with the routes below).
 DATABASE_TABS = (("Overview", "/database"), ("SQL console", "/database/sql"), ("Semantic search", "/database/search"),
                  ("Network", "/database/graph"), ("Atlas", "/database/map"))
@@ -95,6 +102,22 @@ header .brand { font-weight: 700; }
 header nav { display: flex; flex-wrap: wrap; gap: .15rem; }
 header nav a { padding: .18rem .5rem; border-radius: 6px; color: #c8d6e5; font-size: .92rem; }
 header nav a.active { background: #27425f; color: #fff; font-weight: 600; }
+details.menu { position: relative; }
+details.menu summary { list-style: none; cursor: pointer; padding: .18rem .5rem; border-radius: 6px;
+                       color: #c8d6e5; font-size: .92rem; display: flex; align-items: center; gap: .3rem; }
+details.menu summary::-webkit-details-marker { display: none; }
+details.menu summary::after { content: "▾"; font-size: .65rem; opacity: .75; }
+details.menu summary.active, details.menu[open] summary { background: #27425f; color: #fff; font-weight: 600; }
+details.menu .menu-body { position: absolute; top: calc(100% + .4rem); left: 0; z-index: 40; min-width: 9.5rem;
+                          background: #132a41; border: 1px solid #2f4d6e; border-radius: 8px; padding: .35rem;
+                          display: flex; flex-direction: column; gap: .1rem;
+                          box-shadow: 0 10px 28px rgba(4, 14, 26, .5); }
+details.menu .menu-body a { padding: .32rem .55rem; border-radius: 6px; color: #c8d6e5; white-space: nowrap; }
+details.menu .menu-body a:hover, details.menu .menu-body a.active { background: #27425f; color: #fff; }
+details.menu .menu-body form { display: flex; margin: .15rem 0 0; }
+details.menu .menu-body .ghost { width: 100%; text-align: left; background: none; border: 0; color: #c8d6e5;
+                                 padding: .32rem .55rem; font: inherit; font-size: .92rem; cursor: pointer; }
+details.menu .menu-body .ghost:hover { background: #27425f; color: #fff; }
 header form { display: flex; gap: .35rem; flex: 1 1 11rem; }
 header input[type=search] { flex: 1; min-width: 7rem; background: #1b3450; border: 1px solid #2f4d6e;
                             color: #fff; border-radius: 6px; padding: .3rem .55rem; }
@@ -111,6 +134,7 @@ header input::placeholder { color: #8fa6bd; }
 .grid a { display: flex; align-items: center; gap: .5rem; background: #fff; border: 1px solid #d9dee3;
           border-radius: 8px; padding: .6rem .8rem; color: #1c2733; text-decoration: none; }
 .grid a:hover { border-color: #9fb2c4; }
+.grid.tiles a { font-weight: 600; color: #1a4f8b; }
 .dot { width: .7rem; height: .7rem; border-radius: 50%; display: inline-block; flex: none; }
 .big { text-align: center; padding: 1.75rem 1rem; }
 .big form { display: flex; gap: .5rem; margin: 0 auto; max-width: 36rem; }
@@ -781,12 +805,26 @@ def _db_panel() -> str:
 
 
 def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=False) -> HTMLResponse:
-    links = []
-    nav_items = NAV + (("Admin", "/admin"), ("Account", "/account")) if admin_nav else NAV + (("Account", "/account"),)
-    for label, href in nav_items:
-        mark = ' class="active"' if href == active else ""
-        links.append(f'<a href="{href}"{mark}>{label}</a>')
-    nav = "".join(links)
+    def group_open(members, prefix=None):
+        return prefix is not None and (active.startswith(prefix) or (subnav is not None and subactive.startswith(prefix))) \
+            or any(active == href for _, href in members)
+
+    nav = []
+    for label, members in NAV_GROUPS:
+        prefix = "/database" if label == "Database" else None
+        open_mark = " open" if group_open(members, prefix) else ""
+        active_mark = ' class="active"' if group_open(members, prefix) else ""
+        body_links = "".join(
+            f'<a href="{href}"{" class=\"active\"" if href == active or href == subactive else ""}>{esc(name)}</a>'
+            for name, href in members)
+        nav.append(f'<details class="menu"{open_mark}><summary{active_mark}>{esc(label)}</summary>'
+                   f'<div class="menu-body">{body_links}</div></details>')
+    account_links = '<a href="/account">Account</a>' + ('<a href="/admin">Admin</a>' if admin_nav else "")
+    account = (f'<details class="menu account"><summary>Account</summary>'
+               f'<div class="menu-body">{account_links}'
+               '<form action="/logout" method="post"><button type="submit" class="ghost">Sign out</button></form>'
+               '</div></details>')
+    nav_html = "".join(nav) + account
     tabs = ""
     if subnav:
         tabs = '<nav class="subnav">' + "".join(
@@ -803,9 +841,8 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 <body>
 <header><div class="bar">
 <a class="brand" href="/">HILIR Technology Library</a>
-<nav>{nav}</nav>
+<nav>{nav_html}</nav>
 <form action="/search" method="get"><input type="search" name="q" value="{esc(q)}" placeholder="Search the library" aria-label="Search"><button type="submit">Search</button></form>
-<form action="/logout" method="post"><button type="submit" class="ghost">Sign out</button></form>
 </div></header>
 {tabs}
 <main class="container">
@@ -848,16 +885,20 @@ def routes(tools, key: str) -> list:
             f'<a href="/technologies?sector={code}"><span class="dot" '
             f'style="background:{SECTOR_COLORS.get(code, COLOR_FALLBACK)}"></span>{esc(label)}</a>'
             for code, label in HOME_SECTORS)
-        more = " · ".join(f'<a href="{href}">{label}</a>' for href, label in (
-            ("/vendors", "Vendors"), ("/register", "Register"), ("/sources", "Sources"), ("/gaps", "Gaps"),
-            ("/database", "Database"), ("/database/map", "Atlas")))
+        library_tiles = "".join(f'<a href="{href}">{esc(label)}</a>' for label, href in (
+            ("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
+            ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps")))
+        database_tiles = "".join(f'<a href="{href}">{esc(label)}</a>' for label, href in DATABASE_TABS)
         body = (
             f'<section class="card"><div class="stats">{cards}</div></section>'
             '<section class="card big"><form action="/search" method="get">'
             '<input type="search" name="q" placeholder="Search sources, passages and technology cards" autofocus>'
-            '<button type="submit">Search</button></form></section>'
+            '<button type="submit">Search</button></form>'
+            '<p class="muted small">Search ranks by keywords and meaning — vectors come from the edge '
+            'embed service, so semantic search works here too.</p></section>'
             f'<section class="card"><h2>Browse by sector</h2><div class="grid">{sectors}</div></section>'
-            f'<section class="card"><h2>More</h2><p>{more}</p></section>')
+            f'<section class="card"><h2>Library</h2><div class="grid tiles">{library_tiles}</div></section>'
+            f'<section class="card"><h2>Database</h2><div class="grid tiles">{database_tiles}</div></section>')
         return _page("Oil, gas and energy technologies", body)
 
     async def login(request: Request):
@@ -925,6 +966,12 @@ def routes(tools, key: str) -> list:
                 + ' <button type="submit">Search</button></form></section>']
         if query.strip():
             results = tools.search(query, kind or "all", sector or None, None, None, None, 30)
+            try:
+                import embed_client
+                semantic = bool(getattr(tools, "_embedder", None)) or embed_client.query_vector(query) is not None
+            except Exception:
+                semantic = bool(getattr(tools, "_embedder", None))
+            mode = _badge("semantic") if semantic else _badge("keyword only")
             sections = []
             for title, want in (("Technologies", "technology"), ("Vendors", "vendor"), ("Sources", "source"),
                                 ("Passages", "chunk")):
@@ -933,6 +980,8 @@ def routes(tools, key: str) -> list:
                     render = _tech_row if want == "technology" else _vendor_row if want == "vendor" else \
                         _source_row if want == "source" else _chunk_row
                     sections.append(_section(title, '<ul class="hits">' + "".join(render(r) for r in hits) + "</ul>"))
+            body += [_section("", f"<p>{mode} <span class=\"muted small\">ranked by keywords + meaning"
+                             " (vectors from the edge embed service when fastembed is absent)</span></p>")]
             body += sections or [_section("", '<p class="muted">No results. Try fewer or different words.</p>')]
         return _page("Search", "".join(body), q=query)
 
@@ -1227,7 +1276,14 @@ def routes(tools, key: str) -> list:
         if query.strip():
             tools.db()
             embedder = getattr(tools, "_embedder", None)
-            qvec = list(embedder([query])[0]) if embedder else None
+            if embedder:
+                qvec = list(embedder([query])[0])
+            else:
+                try:
+                    import embed_client
+                    qvec = embed_client.query_vector(query, tools.db())
+                except Exception:
+                    qvec = None
             try:
                 results = pg.hybrid_search(query, k, qvec)
             except pg.NotConfigured:

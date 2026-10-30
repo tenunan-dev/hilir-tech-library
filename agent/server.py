@@ -71,8 +71,17 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     sector / discipline: a taxonomy code such as H2 or ROT. region: e.g. sea, apac, global.
     """
     database = db()
+    # Local fastembed first (_embedder); the hosted container has none, so it asks the
+    # edge /__embed service for the query vector instead (decision #32).
+    qvec = None
+    if not _embedder:
+        try:
+            import embed_client
+            qvec = embed_client.query_vector(query)
+        except Exception:
+            qvec = None
     return library.search(query, kind, sector, discipline, region, reuse_level, min(limit, 50), database,
-                          _embedder or None, EXCLUDE_RESTRICTED)
+                          _embedder or None, EXCLUDE_RESTRICTED, query_vector=qvec)
 
 
 @server.tool()

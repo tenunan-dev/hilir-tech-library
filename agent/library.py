@@ -238,7 +238,7 @@ def _result(db, row, score, records):
 
 
 def search(query, kind="all", sector=None, discipline=None, region=None, reuse_level=None, limit=10,
-           db=None, embedder=None, exclude_restricted=False):
+           db=None, embedder=None, exclude_restricted=False, query_vector=None):
     """Keyword search (BM25), fused with vector search when vectors and an embedder are available.
 
     exclude_restricted drops passages from full-text-restricted sources (catalog records stay),
@@ -266,9 +266,19 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     ranked = {}
     for pos, row in enumerate(rows):
         ranked[row["rowid"]] = [row, 1.0 / (60 + pos)]
-    if embedder is not None and db.execute("SELECT count(*) FROM vectors").fetchone()[0]:
+    qvec = None
+    if db.execute("SELECT count(*) FROM vectors").fetchone()[0]:
         import numpy as np
-        qvec = np.asarray(embedder([query])[0], dtype=np.float32)
+        if query_vector is not None and len(query_vector) == 384:
+            # pre-embedded query (edge Workers AI service, decision #32): normalise defensively
+            qvec = np.asarray(query_vector, dtype=np.float32)
+            n = np.linalg.norm(qvec)
+            if n:
+                qvec = qvec / n
+        elif embedder is not None:
+            qvec = np.asarray(embedder([query])[0], dtype=np.float32)
+    if qvec is not None:
+        import numpy as np
         ids, vecs = zip(*((r[0], np.frombuffer(r[1], dtype=np.float32)) for r in db.execute("SELECT rowid, vec FROM vectors")))
         sims = np.stack(vecs) @ qvec
         for pos, idx in enumerate(np.argsort(-sims)[:200]):
