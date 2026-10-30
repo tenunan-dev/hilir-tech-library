@@ -22,6 +22,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "agent"))
 import graph  # noqa: E402
 import library  # noqa: E402
+import equipment  # noqa: E402
 import pg  # noqa: E402
 import technologies  # noqa: E402
 import vendors  # noqa: E402
@@ -78,6 +79,7 @@ def collect(include_restricted=False):
     cards = technologies.load_cards()
     entries = technologies.load_register(None, cards)
     vendor_recs = vendors.load_vendors()
+    equipment_recs = equipment.load_equipment()
     docs, chunks = [], []
     for path in sorted(library.CORPUS.glob("*/*.md")):
         if path.parent.name.startswith("_"):
@@ -95,7 +97,7 @@ def collect(include_restricted=False):
             for i, text in enumerate(library.chunk(body)):
                 chunks.append({"id": f"{rel}#{i}", "document_id": rel, "ord": i, "title": meta.get("title"), "body": text})
     return {"labels": labels, "records": records, "cards": cards, "entries": entries, "vendors": vendor_recs,
-            "docs": docs, "chunks": chunks}
+            "equipment": equipment_recs, "docs": docs, "chunks": chunks}
 
 
 def card_search_text(card):
@@ -270,8 +272,9 @@ def main(argv=None):
     if args.embeddings == "fastembed" or (args.embeddings == "auto" and not vectors):
         try:
             card_names = {c["id"]: c["name"] for c in data["cards"]}
+            eq_names = library.equipment_of_vendors(data["equipment"], {v["id"]: v["name"] for v in data["vendors"]})
             items = ([("technology", c["id"], card_search_text(c)) for c in data["cards"]]
-                     + [("vendor", v["id"], library.vendor_text(v, card_names)) for v in data["vendors"]]
+                     + [("vendor", v["id"], library.vendor_text(v, card_names, eq_names.get(v["id"]))) for v in data["vendors"]]
                      + [("chunk", c["id"], f"{c['title']}\n{c['body']}") for c in data["chunks"]])
             vectors = fastembed_vectors(items)
         except ImportError:

@@ -53,11 +53,22 @@ def equipment_text(rec, card_names, vendor_names):
                       " ".join(card_names.get(t, "") for t in rec.get("technologies", []))])
 
 
-def vendor_text(v, card_names):
+def equipment_of_vendors(equipment_recs, vendor_names):
+    """Map vendor id -> the equipment-class names of the records that list it, so vendors that
+    supply a class surface in search even when their own page never says the word ("boiler")."""
+    out = {}
+    for rec in equipment_recs:
+        for vid in rec.get("vendors", []):
+            out.setdefault(vid, []).append(rec["name"])
+    return out
+
+
+def vendor_text(v, card_names, equipment_names=None):
     """The text a vendor record is indexed and embedded by (SQLite and Postgres stay identical)."""
     return "\n".join([v["name"], " ".join(v.get("aliases", [])), v.get("country", ""),
                       " ".join(v.get("roles", [])), " ".join(v.get("products", [])), v.get("description", ""),
-                      " ".join(card_names.get(t, "") for t in v.get("technologies", []))])
+                      " ".join(card_names.get(t, "") for t in v.get("technologies", [])),
+                      "supplies equipment classes: " + " ".join(equipment_names or [])])
 
 
 def vendor_sectors(v, sector_of):
@@ -203,14 +214,16 @@ def build(db_path=None, corpus=None):
                    (card["id"], card["id"], card["name"], text, tag_text({"sectors": [card["sector"]]}, labels)))
     sector_of = {c["id"]: c["sector"] for c in cards}
     card_names = {c["id"]: c["name"] for c in cards}
+    equipment_recs = equipment.load_equipment(corpus.parent / "catalog" / "equipment")
     vendor_recs = vendors.load_vendors(corpus.parent / "catalog" / "vendors")
+    eq_names_by_vendor = equipment_of_vendors(equipment_recs, {v["id"]: v["name"] for v in vendor_recs})
     for v in vendor_recs:
         sectors = vendor_sectors(v, sector_of)
         db.execute("INSERT INTO vendors VALUES (?, ?, ?)",
                    (v["id"], json.dumps(v, ensure_ascii=False), json.dumps(sectors)))
         db.execute("INSERT INTO search VALUES ('vendor', ?, ?, ?, ?, ?)",
-                   (v["id"], v["id"], v["name"], vendor_text(v, card_names), tag_text({"sectors": sectors}, labels)))
-    equipment_recs = equipment.load_equipment(corpus.parent / "catalog" / "equipment")
+                   (v["id"], v["id"], v["name"], vendor_text(v, card_names, eq_names_by_vendor.get(v["id"])),
+                    tag_text({"sectors": sectors}, labels)))
     for rec in equipment_recs:
         sector_tags = rec.get("sector_codes") or ([rec["sector"]] if rec.get("sector") else [])
         sectors = sorted(set(sector_tags))
