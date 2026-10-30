@@ -85,8 +85,8 @@
       "status": "done",
       "retries": 0,
       "retry_after": "after any 2 content blocks land",
-      "note": "republish 2026-10-30: build 399/299/413, embed 12,577 rows ~12min, Neon reload (399/202/299/413/3,434 nodes/10,304 edges/12,577 vectors), deploy 82aeca5c live-verified /api/stats 399/161/413",
-      "runs": 2
+      "note": "republish 2026-10-30 (JEREH vendor added): build 399/299/415, embed 12,579 rows, Neon reload (399/202/299/415/3,437 nodes/10,322 edges/12,579 vectors), commit c01e094; deploy verified after wrangler push",
+      "runs": 3
     },
     {
       "id": "A4b",
