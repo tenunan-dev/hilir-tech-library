@@ -14,7 +14,7 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - Neon status stated plainly: embeddings finished, last reload 2026-10-30 holds 12,577 vectors and 413 vendors (one behind the repo); hosted `search` and `/database/search` are keyword-only because the image ships no embedder.
 - Decisions 14, 23 and 25 now name https://techlib.hilir.app instead of the retired techlibrary.tenunan.com.
 
- — 2026-10-30 — Coverage queue closes empty; queue behaviour change (decision #31)
+## [2026.10.30.2] — 2026-10-30 — Coverage queue closes empty; queue behaviour change (decision #31)
 
 ### Added
 - Vendor `qatargas` (QatarEnergy LNG; aliases Qatargas, RasGas) and Foster Wheeler/Amec aliases on `wood`. Vendors 413 → 414.
