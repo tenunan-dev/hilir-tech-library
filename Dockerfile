@@ -22,7 +22,8 @@ COPY --from=export /public/agent/technologies.py agent/technologies.py
 COPY --from=export /public/agent/vendors.py agent/vendors.py
 COPY --from=export /public/agent/embed.py agent/embed.py
 RUN pip install --no-cache-dir -r requirements-agent.txt "psycopg[binary]>=3.1" \
- && python agent/library.py build && python agent/embed.py
+ && python agent/library.py build \
+ && OMP_NUM_THREADS=4 python agent/embed.py
 
 FROM python:3.12-slim
 WORKDIR /app
