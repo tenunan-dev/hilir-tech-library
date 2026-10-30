@@ -61,6 +61,13 @@ def routes(tools):
     async def vendor(request: Request):
         return _found(tools.get_vendor(request.path_params["vendor_id"]))
 
+    async def equipment_list(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.list_equipment(q.get("equipment_type"), q.get("q")))
+
+    async def equipment(request: Request):
+        return _found(tools.get_equipment(request.path_params["equipment_id"]))
+
     async def register(request: Request):
         q = request.query_params
         return JSONResponse(tools.list_technology_register(q.get("code"), q.get("maturity"), q.get("q")))
@@ -81,6 +88,7 @@ def routes(tools):
         Route("/api/documents", document), Route("/api/technologies", technologies),
         Route("/api/technologies/{technology_id}", technology), Route("/api/vendors", vendors),
         Route("/api/vendors/{vendor_id}", vendor), Route("/api/register", register),
+        Route("/api/equipment", equipment_list), Route("/api/equipment/{equipment_id}", equipment),
         Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/openapi.json", openapi),
     ]
 
@@ -110,9 +118,9 @@ def openapi_spec(server_url):
         "components": {"securitySchemes": {"ApiKey": {"type": "apiKey", "in": "header", "name": "x-api-key"}}},
         "security": [{"ApiKey": []}],
         "paths": {
-            "/api/search": get("search", "Search catalog sources, document passages, technology cards and vendor records", [
+            "/api/search": get("search", "Search catalog sources, document passages, technology cards, vendor records and equipment records", [
                 _param("q", "Search text", required=True),
-                _param("kind", "all, source, chunk, technology or vendor"), SECTOR,
+                _param("kind", "all, source, chunk, technology, vendor or equipment"), SECTOR,
                 _param("discipline", "Discipline code: PRC, ROT, INS, MAT, HSE or DIG"),
                 _param("region", "Region code, e.g. sea, apac, global"),
                 _param("reuse_level", "full-text-open, full-text-restricted, summary-only or catalog-only"),
@@ -136,6 +144,13 @@ def openapi_spec(server_url):
             "/api/vendors/{vendor_id}": get(
                 "getVendor", "One vendor record: country, roles, products, technologies supplied, sources behind it",
                 [_param("vendor_id", "Vendor id, e.g. wartsila", where="path")], JSON_OR_404),
+            "/api/equipment": get("listEquipment", "The equipment catalog: one curated record per equipment class with "
+                                  "specification ranges and supplying vendors", [
+                _param("equipment_type", "e.g. boiler"), _param("q", "Text filter")]),
+            "/api/equipment/{equipment_id}": get(
+                "getEquipment", "One equipment record: specification ranges with basis and sources, vendor model "
+                "lines, technologies and gaps",
+                [_param("equipment_id", "Equipment id, e.g. boiler-hrsg", where="path")], JSON_OR_404),
             "/api/register": get("listTechnologyRegister", "Register of about 300 technologies across all sectors", [
                 _param("code", "Sector or discipline code"), _param("maturity", "Maturity filter"), _param("q", "Text filter")]),
             "/api/gaps": get("listGaps", "Inputs the technology cards still lack, with where to get them", [

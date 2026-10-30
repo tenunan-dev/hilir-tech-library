@@ -1,0 +1,31 @@
+{
+  "id": "miura",
+  "name": "Miura Boiler",
+  "country": "Japan",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Low-water-volume quick-start package boiler OEM (Inuyama, Japan; Miura America for the US market): EX dual-fuel steam shells with floating-header upright design and LX high/low-pressure lines, cold start to full steam inside 5 minutes.",
+  "technologies": [
+    "pwr-cogeneration-chp"
+  ],
+  "url": "https://miuraboiler.com",
+  "sources": [
+    {
+      "url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler",
+      "note": "Miura America EX dual-fuel steam boiler spec tables, read 30 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Miura",
+    "Miura America"
+  ],
+  "products": [
+    "EX dual-fuel steam boiler (100-300 BHP, 170-300 psig)",
+    "LX series gas low-NOx steam boiler"
+  ]
+}

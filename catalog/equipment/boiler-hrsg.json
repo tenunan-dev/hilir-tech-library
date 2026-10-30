@@ -1,0 +1,68 @@
+{
+  "id": "boiler-hrsg",
+  "name": "Heat recovery steam generator (HRSG)",
+  "aliases": ["HRSG", "heat-recovery steam generator", "exhaust heat boiler"],
+  "equipment_type": "boiler",
+  "sector": "PWR",
+  "sector_codes": ["PWR"],
+  "description": "Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam.",
+  "applications": [
+    "combined-cycle power generation",
+    "site-wide cogeneration steam for refineries and petrochemical complexes",
+    "supplemental duct firing where peaks or steam demand require"
+  ],
+  "specifications": [
+    {
+      "metric": "steam-cycle efficiency by HRSG configuration",
+      "unit": "%",
+      "low": 20,
+      "high": 30,
+      "basis": "about 20% for two-pressure without reheat, 26% for three-pressure, about 30% for three-pressure with reheat",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+        "note": "US EPA technical support document: efficient generation from combustion turbine EGUs, April 2024"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "babcock-wilcox",
+      "line": "HRSG systems, upgrades and components",
+      "range": "reliable HRSG systems plus upgrades and replacement components — HARPs (high pressure evaporators), headers, finned tubing and other pressure parts — suitable for a wide range of combustion turbine applications",
+      "url": "https://www.babcock.com/home/products-services/steam-generators/steam-generators",
+      "note": "B&W steam generators overview, HRSG section, read 30 October 2026"
+    },
+    {
+      "vendor": "cleaver-brooks",
+      "line": "packaged HRSG for small turbines",
+      "range": "state-of-the-art customized packaged heat-recovery steam generators for gas-fired turbines from 1 to 60 MW",
+      "url": "https://cleaverbrooks.com",
+      "note": "Cleaver-Brooks HRSG page description, search-verified 30 October 2026 (site returned 403 to direct fetch)"
+    }
+  ],
+  "vendors": ["babcock-wilcox", "cleaver-brooks", "doosan-enerbility", "ihi", "sumitomo-shi-fw"],
+  "technologies": ["pwr-combined-cycle-hrsg", "pwr-cogeneration-chp"],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
+      "note": "US EPA technical support document: efficient generation from combustion turbine EGUs, April 2024 (steam-cycle efficiency by HRSG type)"
+    },
+    {
+      "url": "https://www.babcock.com/home/products-services/steam-generators/steam-generators",
+      "note": "B&W steam generators overview, HRSG section, read 30 October 2026"
+    },
+    {
+      "url": "https://cleaverbrooks.com",
+      "note": "Cleaver-Brooks HRSG page description (1-60 MW turbine HRSG), search-verified 30 October 2026"
+    }
+  ],
+  "notes": "Further suppliers named on the combined-cycle HRSG card (GE Vernova, Siemens Energy, Mitsubishi Power) carry no equipment spec here yet; their HRSG lines are held as a gap.",
+  "gaps": [
+    {
+      "what": "OEM HRSG specification ranges (steam pressures, temperatures, supplemental firing) for major suppliers",
+      "why": "B&W's HRSG detail is behind its components page; Mitsubishi Power, Siemens Energy and GE Vernova HRSG pages not yet read",
+      "next_action": "read Mitsubishi Power and B&W HRSG detail pages in the next equipment sweep"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

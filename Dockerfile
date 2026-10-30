@@ -8,7 +8,7 @@ COPY . .
 RUN pip install --no-cache-dir pyyaml && python agent/export_public.py /public
 
 # Index stage: build + embed from the stable inputs ONLY (catalog, the open corpus, taxonomy
-# and the four agent modules they import). UI/API code changes (web.py, server.py, api.py…)
+# and the five agent modules they import). UI/API code changes (web.py, server.py, api.py…)
 # never touch these layers, so their deploys reuse the embedded index instead of re-running
 # the ~25-minute embed; a catalog or corpus change re-embeds, as it should.
 FROM python:3.12-slim AS index
@@ -20,6 +20,7 @@ COPY --from=export /public/requirements-agent.txt requirements-agent.txt
 COPY --from=export /public/agent/library.py agent/library.py
 COPY --from=export /public/agent/technologies.py agent/technologies.py
 COPY --from=export /public/agent/vendors.py agent/vendors.py
+COPY --from=export /public/agent/equipment.py agent/equipment.py
 COPY --from=export /public/agent/embed.py agent/embed.py
 RUN pip install --no-cache-dir -r requirements-agent.txt "psycopg[binary]>=3.1" \
  && python agent/library.py build \

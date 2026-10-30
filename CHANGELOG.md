@@ -7,6 +7,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.30.7] — 2026-10-30 — Equipment catalog layer opens with boiler (decision #33)
+
+### Added
+- `schema/equipment.schema.json`: one record per equipment class — specification ranges with basis and source, vendor model lines, technologies that use the class, sources and recorded gaps.
+- Five boiler records in `catalog/equipment/`: packaged fire-tube (Cleaver-Brooks CBLE 50–800 HP to 300 psig; Miura EX 100–300 BHP, 84–85% HHV, NOx to 5 ppm options; 5-minute cold start), industrial water-tube package (B&W FM/HCFM/PFM/TSSG: 10,000–1,200,000 lb/h, 250–2,400 psig, saturated–1005°F; D-/O-type; Coen/JZHC burner pairing), HRSG (EPA TSD steam-cycle efficiencies by configuration; B&W HRSG systems/components; Cleaver-Brooks 1–60 MW turbine HRSG), circulating fluidized-bed (Sumitomo SHI FW: 500+ units, ultra-supercritical 257 bar/603 °C, <50 ppm SOx+NOx with in-furnace capture, 98% availability; B&W IR-CFB; BFB sizes) and electric/electrode (Bosch ELSB 350–8,300 kg/h to 24 bar >99%; Cleaver-Brooks Model S 12–2,250 kW).
+- New vendor records `miura` and `bosch-industrial` (vendors 415 → 417); Babcock & Wilcox, Sumitomo SHI FW, Cleaver-Brooks and John Zink (Coen) enriched with sources and product lines read on 2026-10-30.
+- Wiring parallel to vendors: `tools/build.py` writes `catalog/equipment.jsonl` + `catalog/index/equipment.md`; MCP tools `list_equipment`/`get_equipment` (16 in total); REST `/api/equipment`, `/api/equipment/{id}`; web page `/equipment` with spec tables, Library nav entry and the search-kind filter; Dockerfile index stage gains `agent/equipment.py`.
+- `tests/test_equipment.py` (schema, link resolution, basis presence, index/search round-trip).
+
 ## [2026.10.30.6] — 2026-10-30 — Second-level nav row; external links new-tab; layer-split Dockerfile
 
 ### Changed

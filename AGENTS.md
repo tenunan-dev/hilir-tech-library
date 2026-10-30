@@ -6,13 +6,14 @@ working in this repository. Read this file first, then the document that matches
 ## What this repository is
 
 A library of public sources on oil, gas, petrochemical and energy technologies, built for AI
-agents to find, cite and read. It has five layers:
+agents to find, cite and read. It has six layers:
 
 1. **Catalog**: one JSON record per source in `catalog/sources/`, validated against `schema/source.schema.json`.
 2. **Corpus**: collected documents in `corpus/<source-id>/`, each tagged with its licence and carrying a hand-written `summary`.
 3. **Technology cards**: one JSON card per technology in `catalog/technologies/` (schema `schema/technology.schema.json`), linked to the register `catalog/technology-register.yaml`. Every card has sources; every figure has a URL, a basis and (for costs) a dollar year; anything not found is a recorded gap.
-4. **Agent access**: a search index, an MCP server, a REST API and a web interface (`agent/web.py`) in `agent/`, hosted at https://techlib.hilir.app (see docs/HOSTING.md).
-5. **Postgres layer**: schema `og` with pgvector, full-text search and a knowledge graph (`db/schema.sql`, `agent/graph.py`, `tools/load_postgres.py`), meant for Neon and served through the read-only role `og_mcp_read` (`agent/pg.py`). See docs/POSTGRES.md.
+4. **Vendors and equipment**: one vendor record per supplier in `catalog/vendors/` (schema `schema/vendor.schema.json`) and one equipment record per equipment class in `catalog/equipment/` (schema `schema/equipment.schema.json`, opened with boilers) — specification ranges, vendor model lines and sources; no guessed figures.
+5. **Agent access**: a search index, an MCP server, a REST API and a web interface (`agent/web.py`) in `agent/`, hosted at https://techlib.hilir.app (see docs/HOSTING.md).
+6. **Postgres layer**: schema `og` with pgvector, full-text search and a knowledge graph (`db/schema.sql`, `agent/graph.py`, `tools/load_postgres.py`), meant for Neon and served through the read-only role `og_mcp_read` (`agent/pg.py`). See docs/POSTGRES.md.
 
 ## Read next
 

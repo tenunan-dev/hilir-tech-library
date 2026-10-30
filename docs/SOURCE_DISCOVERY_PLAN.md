@@ -283,8 +283,10 @@ Done = /api/stats matches local; deploy id + counts in state note.
   the directory. build.py and agent/web.py _coverage_queue (keep in sync) split
   '/'-compounds and classify leftovers: nameable names → queue, descriptive phrases →
   "Card notes" section (owner decision #31). New cards may re-populate the queue.
-- Equipment: cards carry `key_equipment` per step; a generated
-  `catalog/index/equipment.md` view is PROPOSED, not approved — owner decides (§9).
+- Equipment: the owner took the decision on 2026-10-30 (decision #33): `catalog/equipment/`
+  is a layer now, one record per equipment class with spec ranges, vendor model lines and
+  sources; opened with 5 boiler classes (see catalog/index/equipment.md). Vendor names found
+  while equipment-researching still register through the normal vendor pipeline.
 
 ## 7. State update protocol (after every block outcome)
 
@@ -309,7 +311,8 @@ Done = /api/stats matches local; deploy id + counts in state note.
 
 Purchases and subscriptions (Gas Turbine World handbook, Nelson-Farrar, IHS PEP, Wood
 Mackenzie); human-browser items in `docs/HUMAN_ACTION_KIV.md` (18 bot-walled terms pages,
-PetroWiki/OnePetro); the equipment-index decision (§6); future inbox drops (continuous);
+PetroWiki/OnePetro); the equipment-index decision (taken 2026-10-30, decision #33 — no longer
+parked); future inbox drops (continuous);
 infra owner items (auto-deploy Cloudflare token, Dataverse import, LIBRARY_USERS first
 account, claude.ai connector, Copilot Studio connect).
 

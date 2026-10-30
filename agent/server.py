@@ -42,6 +42,8 @@ Discipline codes: PRC, ROT, INS, MAT, HSE, DIG. Regions include sea, apac, globa
 For "what are the options for X" questions, start with compare_technologies and get_technology
 (curated cards with block diagrams, equipment, costs with basis, and sources), then search for more.
 For who-supplies-it questions, use list_vendors and get_vendor (curated vendor records citing their pages).
+For equipment questions (capacity ranges, pressures, emissions of equipment classes and the
+vendors behind them), use list_equipment and get_equipment."
 Always cite a result's url. Respect reuse_level: full-text-restricted text is a private reference
 copy (no redistribution or commercial use); summary-only and catalog-only sources have no stored text."""
 
@@ -130,6 +132,20 @@ def list_vendors(role: str | None = None, sector: str | None = None, query: str 
 def get_vendor(vendor_id: str) -> dict | None:
     """One vendor record: country, roles, products, the technology cards it supplies, and the sources behind it."""
     return library.get_vendor(vendor_id, db())
+
+
+@server.tool()
+def list_equipment(equipment_type: str | None = None, query: str | None = None) -> list[dict]:
+    """The equipment catalog: one curated record per equipment class (starting with boilers), each with
+    specification ranges, the vendors that supply it and the pages behind every figure.
+    equipment_type: e.g. boiler. query: text."""
+    return library.list_equipment(equipment_type, query, db())
+
+
+@server.tool()
+def get_equipment(equipment_id: str) -> dict | None:
+    """One equipment record: specification ranges with basis and sources, vendor model lines, and the gaps."""
+    return library.get_equipment(equipment_id, db())
 
 
 @server.tool()

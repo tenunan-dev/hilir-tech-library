@@ -1,0 +1,113 @@
+{
+  "id": "boiler-electric-electrode",
+  "name": "Electric and electrode steam boiler",
+  "aliases": ["electric steam boiler", "electrode steam boiler", "high-voltage electric boiler"],
+  "equipment_type": "boiler",
+  "sector": "PWR",
+  "sector_codes": ["PWR", "PRC"],
+  "description": "Steam generator heated directly by electricity — resistance elements in a pressure vessel, or current conducted through the boiler water by electrodes at high voltage. No combustion, no flue gas and no fuel system, so it avoids the chimney, fuel infrastructure and air-permit scope entirely, and pairs with cheap or surplus site power; the electrification option for on-site steam.",
+  "subtypes": [
+    {
+      "name": "Resistance-element electric steam boiler",
+      "description": "immersion or external elements fed at LV/medium voltage, thyristor-modulated; Bosch ELSB and Cleaver-Brooks Model S are this type"
+    },
+    {
+      "name": "Electrode (direct current-through-water) boiler",
+      "description": "boiler water completes an electrical circuit between electrodes; used for utility-scale MW-class hot-water and steam output at high voltage"
+    }
+  ],
+  "applications": [
+    "emission-free process steam on sites with renewable or low-cost power",
+    "standby and peaking steam next to fired boilers",
+    "multivalent operation integrated into existing boiler systems"
+  ],
+  "specifications": [
+    {
+      "metric": "steam output, packaged resistance-type",
+      "unit": "kg/h",
+      "low": 350,
+      "high": 8300,
+      "basis": "Bosch ELSB: 350 to 8,300 kg/h (up to 8.3 t/h per appliance)",
+      "source": {
+        "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
+        "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "safety pressure, resistance-type",
+      "unit": "bar",
+      "low": 0,
+      "high": 24,
+      "basis": "Bosch ELSB up to 24 bar, max temperature 224 C",
+      "source": {
+        "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
+        "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "conversion efficiency, resistance-type",
+      "unit": "%",
+      "low": 99,
+      "basis": "over 99% efficiency level, surpassing combustion systems (Bosch); Cleaver-Brooks states electric boilers are nearly 100% efficient",
+      "source": {
+        "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
+        "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "supply voltage",
+      "unit": "V",
+      "basis": "Bosch ELSB supply 380/400/690 V",
+      "source": {
+        "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
+        "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "Cleaver-Brooks Model S range",
+      "unit": "kW / lb per h / psig",
+      "basis": "12 to 2,250 kW, up to 7,875 lb per h, up to 600 V, 15/150/200/250 psig, no site emissions, nearly 100% efficient",
+      "source": {
+        "url": "https://cleaverbrooks.com",
+        "note": "Cleaver-Brooks Model S electric boiler page, search-verified 30 October 2026 (site returned 403 to direct fetch)"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "bosch-industrial",
+      "line": "ELSB electric steam boiler",
+      "range": "350-8,300 kg/h, up to 24 bar, up to 224 C, supply 380/400/690 V, thyristor-modulated output across the load range",
+      "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
+      "note": "Bosch ELSB product page, read 30 October 2026"
+    },
+    {
+      "vendor": "cleaver-brooks",
+      "line": "Model S electric boiler",
+      "range": "12-2,250 kW, up to 7,875 lb/h, 15/150/200/250 psig",
+      "url": "https://cleaverbrooks.com",
+      "note": "Cleaver-Brooks Model S page, search-verified 30 October 2026"
+    }
+  ],
+  "vendors": ["bosch-industrial", "cleaver-brooks"],
+  "technologies": ["pwr-cogeneration-chp", "pch-electrified-process-heat"],
+  "sources": [
+    {
+      "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
+      "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
+    },
+    {
+      "url": "https://cleaverbrooks.com",
+      "note": "Cleaver-Brooks Model S electric boiler page, search-verified 30 October 2026"
+    }
+  ],
+  "notes": "Sizes above these packaged lines (electrode boilers at hundreds of thousands of pounds per hour for utility service) exist in the market but were not read from an OEM page yet — recorded as a gap rather than guessed.",
+  "gaps": [
+    {
+      "what": "electrode boiler capacity ceiling at high voltage (MW-class hot-water and steam units)",
+      "why": "a utility advocacy page quotes up to 102 MW / 450 psig / 340,000 lb/h for electrode units, but no OEM page was read directly; figures left out to keep the record clean",
+      "next_action": "read an OEM electrode boiler page (e.g. Precision Boilers) for the utility-class range"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}

@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-415 vendor records covering 249 technologies. One record per vendor in
+417 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -308,6 +308,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Babcock & Wilcox](https://www.babcock.com) | USA | oem, service | Combined cycle and HRSG; Biomass and waste-to-energy |
 | [Baker Hughes](https://www.bakerhughes.com/) | USA | oem, service | Aeroderivative and industrial gas turbines; Cogeneration and combined heat and power |
 | [Bechtel](https://www.bechtel.com) | USA | epc | Large light-water reactors |
+| [Bosch Industriekessel](https://www.bosch-industrial.com) | Germany | oem, service | Cogeneration and combined heat and power |
 | [BoxPower](https://boxpower.io) | USA | packager, oem | Containerised hybrid power modules (solar, storage, gensets) |
 | [Bredenoord](https://www.bredenoord.com) | Netherlands | rental | Containerised hybrid power modules (solar, storage, gensets) |
 | [BWSC](https://www.bwsc.com) | Denmark | packager, epc | Powerships and power barges; Biomass and waste-to-energy |
@@ -361,6 +362,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | HVDC transmission and interconnectors |
 | [Mitsubishi Power](https://power.mhi.com) | Japan | oem | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines; Mobile gas turbine power plants |
+| [Miura Boiler](https://miuraboiler.com) | Japan | oem | Cogeneration and combined heat and power |
 | [NANO Nuclear Energy](https://www.nanonuclearenergy.com) | USA | developer | Microreactors (transportable nuclear) |
 | [NuScale Power](https://www.nuscalepower.com) | USA | oem | Small modular reactors |
 | [Oklo](https://oklo.com) | USA | developer, operator | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |

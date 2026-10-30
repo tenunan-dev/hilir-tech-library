@@ -1,0 +1,34 @@
+{
+  "id": "bosch-industrial",
+  "name": "Bosch Industriekessel",
+  "country": "Germany",
+  "roles": [
+    "oem",
+    "service"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Bosch's industrial boiler business (Gunzenhausen/Loisach, Germany): universal steam shells (UL-S/UL-SX, ZFR, CSB, U-MB), the electric steam boiler ELSB, hot-water Unimat lines, plus waste-heat recovery boilers and boiler-house modules, controls and service from a single source.",
+  "technologies": [
+    "pwr-cogeneration-chp"
+  ],
+  "url": "https://www.bosch-industrial.com",
+  "sources": [
+    {
+      "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
+      "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Bosch",
+    "Bosch Industriekessel GmbH"
+  ],
+  "products": [
+    "ELSB electric steam boiler (350-8,300 kg/h, up to 24 bar)",
+    "Universal steam boiler UL-S/UL-SX, ZFR/ZFR-X, CSB, U-MB",
+    "Unimat hot-water boilers UT-L/UT-M/UT-H/UT-HZ",
+    "Self-fired waste heat boilers and HRSB heat-recovery steam boiler"
+  ]
+}

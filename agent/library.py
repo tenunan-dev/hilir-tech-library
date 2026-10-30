@@ -20,6 +20,7 @@ import yaml
 
 import technologies
 import vendors
+import equipment
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
@@ -39,6 +40,17 @@ COUNTRIES = {
 TECHNOLOGY_BOOST = 1.3
 TECHNOLOGY_LICENCE = "Library's own summary of cited sources; cite the sources listed in the card"
 VENDOR_LICENCE = "Library's own curated vendor record; cite the sources listed in the record"
+EQUIPMENT_LICENCE = "Library's own curated equipment record; cite the sources listed in the record"
+
+
+def equipment_text(rec, card_names, vendor_names):
+    """The text an equipment record is indexed and embedded by (SQLite and Postgres stay identical)."""
+    specs = "\n".join(f"{s['metric']}: {s.get('basis', '')}".rstrip(" :") for s in rec.get("specifications", []))
+    models = "\n".join(f"{vendor_names.get(m['vendor'], m['vendor'])} {m.get('line', '')}: {m.get('range', '')}"
+                       for m in rec.get("vendor_models", []))
+    return "\n".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("equipment_type", ""),
+                      rec.get("description", ""), specs, models,
+                      " ".join(card_names.get(t, "") for t in rec.get("technologies", []))])
 
 
 def vendor_text(v, card_names):
@@ -152,6 +164,7 @@ def build(db_path=None, corpus=None):
         CREATE TABLE info (key TEXT PRIMARY KEY, value TEXT);
         CREATE TABLE technologies (id TEXT PRIMARY KEY, card TEXT NOT NULL);
         CREATE TABLE vendors (id TEXT PRIMARY KEY, vendor TEXT NOT NULL, sectors TEXT NOT NULL);
+        CREATE TABLE equipment (id TEXT PRIMARY KEY, record TEXT NOT NULL, sectors TEXT NOT NULL);
     """)
     records = load_records()
     labels = taxonomy_labels()
@@ -197,10 +210,19 @@ def build(db_path=None, corpus=None):
                    (v["id"], json.dumps(v, ensure_ascii=False), json.dumps(sectors)))
         db.execute("INSERT INTO search VALUES ('vendor', ?, ?, ?, ?, ?)",
                    (v["id"], v["id"], v["name"], vendor_text(v, card_names), tag_text({"sectors": sectors}, labels)))
+    equipment_recs = equipment.load_equipment(corpus.parent / "catalog" / "equipment")
+    for rec in equipment_recs:
+        sector_tags = rec.get("sector_codes") or ([rec["sector"]] if rec.get("sector") else [])
+        sectors = sorted(set(sector_tags))
+        db.execute("INSERT INTO equipment VALUES (?, ?, ?)",
+                   (rec["id"], json.dumps(rec, ensure_ascii=False), json.dumps(sectors)))
+        db.execute("INSERT INTO search VALUES ('equipment', ?, ?, ?, ?, ?)",
+                   (rec["id"], rec["id"], rec["name"], equipment_text(rec, card_names, {v["id"]: v["name"] for v in vendor_recs}),
+                    tag_text({"sectors": sectors}, labels)))
     db.execute("INSERT INTO info VALUES ('root', ?)", (str(corpus.parent),))
     db.commit()
     return {"sources": len(records), "documents": n_docs, "chunks": n_chunks, "technologies": len(cards),
-            "vendors": len(vendor_recs)}
+            "vendors": len(vendor_recs), "equipment": len(equipment_recs)}
 
 
 def _matches(rec, sector, discipline, region, reuse_level):
@@ -246,7 +268,7 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     """
     db = db or connect()
     records = {r["id"]: json.loads(r["record"]) for r in db.execute("SELECT * FROM sources")}
-    kinds = ("source", "chunk", "technology", "vendor") if kind == "all" else (kind,)
+    kinds = ("source", "chunk", "technology", "vendor", "equipment") if kind == "all" else (kind,)
     # Keep word characters only, then quote each token: any of the query's words may match, and
     # BM25 ranks rows that match more of them higher. The token filter is what keeps the MATCH
     # value inert, so it must stay on this path into the parameterised query below.
@@ -304,6 +326,15 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
                     and reuse_level in (None, "full-text-open"):
                 results.append((score, row, vrec))
             continue
+        if row["kind"] == "equipment":
+            found = db.execute("SELECT record, sectors FROM equipment WHERE id = ?", (row["ref"],)).fetchone()
+            if not found:
+                continue
+            erec, esectors = json.loads(found[0]), json.loads(found[1])
+            if "equipment" in kinds and (not sector or sector in esectors) and not discipline \
+                    and reuse_level in (None, "full-text-open"):
+                results.append((score, row, erec))
+            continue
         rec = records.get(row["source_id"])
         if not rec or row["kind"] not in kinds or not _matches(rec, None, discipline, region, reuse_level):
             continue
@@ -317,6 +348,7 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
     results.sort(key=lambda t: -t[0])
     return [_technology_result(row, score, rec) if row["kind"] == "technology" else
             _vendor_result(row, score, rec) if row["kind"] == "vendor" else
+            _equipment_result(row, score, rec) if row["kind"] == "equipment" else
             _result(db, row, score, records)
             for score, row, rec in results[:limit]]
 
@@ -400,6 +432,42 @@ def list_vendors(role=None, sector=None, query=None, db=None):
     return out
 
 
+def get_equipment(equipment_id, db=None):
+    """Full equipment catalog record: specifications, vendors, sources and gaps."""
+    db = db or connect()
+    row = db.execute("SELECT record FROM equipment WHERE id = ?", (equipment_id,)).fetchone()
+    return json.loads(row[0]) if row else None
+
+
+def list_equipment(equipment_type=None, query=None, db=None):
+    """Equipment catalog records, optionally filtered by equipment type or text."""
+    db = db or connect()
+    q = (query or "").lower()
+    out = []
+    for blob in db.execute("SELECT record FROM equipment"):
+        rec = json.loads(blob[0])
+        if equipment_type and equipment_type != rec.get("equipment_type"):
+            continue
+        hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                        " ".join(s["metric"] for s in rec.get("specifications", [])),
+                        " ".join(rec.get("vendors", []))]).lower()
+        if q and q not in hay:
+            continue
+        out.append(equipment.summary(rec))
+    out.sort(key=lambda s: s["name"].lower())
+    return out
+
+
+def _equipment_result(row, score, erec):
+    out = {"kind": "equipment", "ref": erec["id"], "title": erec["name"], "score": round(score, 4),
+           "licence": EQUIPMENT_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
+           "equipment_type": erec.get("equipment_type"), "sector": erec.get("sector"),
+           "vendors": erec.get("vendors", []),
+           "spec_metrics": [s["metric"] for s in erec.get("specifications", [])]}
+    out["hint"] = "Call get_equipment for the specification ranges, vendor model lines and sources."
+    return out
+
+
 def get_source(source_id, db=None, exclude_restricted=False):
     db = db or connect()
     row = db.execute("SELECT record FROM sources WHERE id = ?", (source_id,)).fetchone()
@@ -446,6 +514,7 @@ def stats(db=None):
             "vectors": db.execute("SELECT count(*) FROM vectors").fetchone()[0],
             "technologies": db.execute("SELECT count(*) FROM technologies").fetchone()[0],
             "vendors": db.execute("SELECT count(*) FROM vendors").fetchone()[0],
+            "equipment": db.execute("SELECT count(*) FROM equipment").fetchone()[0],
             "embedding_model": (db.execute("SELECT value FROM info WHERE key = 'model'").fetchone() or [None])[0]}
 
 

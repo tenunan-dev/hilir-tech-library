@@ -1,0 +1,121 @@
+{
+  "id": "boiler-circulating-fluidized-bed",
+  "name": "Circulating fluidized-bed boiler (CFB)",
+  "aliases": ["CFB boiler", "circulating fluidised bed boiler", "IR-CFB"],
+  "equipment_type": "boiler",
+  "sector": "PWR",
+  "sector_codes": ["PWR"],
+  "description": "Solid-fuel boiler that burns particles in a circulating fluidized bed, recirculating the bed material through a cyclone so even difficult fuels — high-sulfur, high-ash, waste, biomass and refinery solids — burn cleanly at low furnace temperature with limestone capturing SOx in the furnace. Fluidized-bed steam generation for power and industrial steam where fuel flexibility and in-furnace desulfurization matter.",
+  "subtypes": [
+    {
+      "name": "Sumitomo SHI FW CFB",
+      "description": "high-efficiency multi-fuel CFB with bed material recirculated through a cyclone; up to 100% biomass or RDF streams and Flexi-Burn oxyfuel option"
+    },
+    {
+      "name": "B&W IR-CFB (internal recirculation)",
+      "description": "one- or two-drum top-supported design burning high-sulfur and high-ash fuels, gob and culm, with subcritical and supercritical applications"
+    }
+  ],
+  "applications": [
+    "thermal power stations on local and low-cost fuels",
+    "industrial steam generation in-house",
+    "biomass and RDF power, including 100% biomass co-firing"
+  ],
+  "specifications": [
+    {
+      "metric": "size range of delivered CFB plants",
+      "unit": "GWe",
+      "low": 0,
+      "high": 36,
+      "basis": "Sumitomo SHI FW has delivered more than 500 CFB boilers totalling 36 GWe in power capacity",
+      "source": {
+        "url": "https://www.powerinfotoday.com",
+        "note": "Sumitomo SHI FW company description on Power Info Today, search-verified 30 October 2026"
+      }
+    },
+    {
+      "metric": "steam conditions, largest designs",
+      "unit": "bar / C",
+      "basis": "ultra-supercritical steam at 257 bar and 603 C is available for large-scale plants",
+      "source": {
+        "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+        "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "SOx and NOx without flue-gas cleaning system",
+      "unit": "ppm @ 6% O2",
+      "value": 50,
+      "basis": "less than 50 ppm SOx and NOx at 6% O2 with in-furnace limestone capture; NOx avoided by low-temperature combustion",
+      "source": {
+        "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+        "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "particulate matter with ESP",
+      "unit": "mg/m3 @ 6% O2",
+      "value": 20,
+      "basis": "below 20 mg/m3 with an electrostatic precipitator",
+      "source": {
+        "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+        "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "boiler availability, fleet average",
+      "unit": "%",
+      "value": 98,
+      "basis": "average 98% boiler availability across the fleet (vendor statement)",
+      "source": {
+        "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+        "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "biomass share in co-firing",
+      "unit": "%",
+      "low": 0,
+      "high": 100,
+      "basis": "the multi-fuel CFB can co-fire a wide range of fuels, with up to 100% biomass or RDF streams",
+      "source": {
+        "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+        "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "sumitomo-shi-fw",
+      "line": "CFB boilers",
+      "range": "500+ delivered, including in-house industrial steam generation through thermal power stations; own pressure-part workshops and a fuel test center at the Niihama Works",
+      "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+      "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
+    },
+    {
+      "vendor": "babcock-wilcox",
+      "line": "IR-CFB (internal recirculation)",
+      "range": "one- or two-drum top-supported design for high-sulfur, high-ash and waste fuels with subcritical and supercritical applications",
+      "url": "https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers",
+      "note": "B&W CFB page description via the steam-generators overview, read 30 October 2026"
+    }
+  ],
+  "vendors": ["sumitomo-shi-fw", "babcock-wilcox"],
+  "technologies": ["pwr-biomass-waste-to-energy", "pwr-ammonia-coal-cofiring"],
+  "sources": [
+    {
+      "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+      "note": "Sumitomo SHI FW CFB boiler page (steam conditions, emissions, availability, fuel mixes), read 30 October 2026"
+    },
+    {
+      "url": "https://www.babcock.com/home/products-services/steam-generators/steam-generators",
+      "note": "B&W steam generators overview, IR-CFB section, read 30 October 2026"
+    },
+    {
+      "url": "https://www.powerinfotoday.com",
+      "note": "Sumitomo SHI FW profile (36 GWe / 500+ CFB installed), search-verified 30 October 2026"
+    }
+  ],
+  "notes": "SOx capture in the furnace with limestone removes the traditional FGD system — useful where refineries scrub petcoke or high-sulfur solid firing. Bubbling fluidized-bed variants (BFB) sit in the same family: B&W states bottom-supported BFB up to 225,000 lb/h and top-supported 225,000-1,000,000 lb/h.",
+  "last_reviewed": "2026-10-30"
+}

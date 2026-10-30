@@ -18,7 +18,20 @@
     {
       "url": "https://cleaverbrooks.com",
       "note": "Product lines search-verified via web search 2026-10-30"
+    },
+    {
+      "url": "https://steineratlantic.com/product/cleaver-brooks-cble-firetube-boiler",
+      "note": "CBLE fire-tube specification via distributor Steiner-Atlantic, read 30 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-30"
+  "last_reviewed": "2026-10-30",
+  "aliases": [
+    "Cleaver Brooks"
+  ],
+  "products": [
+    "CBLE fire-tube boiler (50-800 HP, steam to 300 psig)",
+    "CBEX fire-tube line",
+    "Model S electric boiler (12-2,250 kW, 15-250 psig)",
+    "Packaged HRSG for gas turbines 1-60 MW"
+  ]
 }

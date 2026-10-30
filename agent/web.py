@@ -34,11 +34,12 @@ from starlette.routing import Route
 import pg
 import users as user_accounts
 import userstore
+import equipment as equipment_records
 import vendors as vendor_records
 
 COOKIE = "oglib_session"
 # keep in sync with the worker: deploy/cloudflare/src/index.ts (UI_PREFIXES)
-PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account")
+PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account")
 SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
@@ -51,6 +52,7 @@ MATURITY_COLORS = {"commercial": "#2e7d32", "demonstration": "#1565c0", "pilot":
 # account area rendered by _page. Keep hrefs in step with the routes below.
 NAV_GROUPS = (
     ("Library", (("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
+                 ("Equipment", "/equipment"),
                  ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps"))),
     ("Database", (("Overview", "/database"), ("SQL console", "/database/sql"),
                   ("Semantic search", "/database/search"), ("Network", "/database/graph"),
@@ -860,7 +862,7 @@ def _bad_request(message) -> HTMLResponse:
 SECTOR_OPTIONS = [("", "any sector")] + [(c, c) for c in SECTOR_SELECT]
 MATURITY_OPTIONS = [("", "any maturity")] + [(m, m) for m in MATURITIES]
 KIND_OPTIONS = [("all", "all"), ("source", "source"), ("chunk", "chunk"), ("technology", "technology"),
-                ("vendor", "vendor")]
+                ("vendor", "vendor"), ("equipment", "equipment")]
 REUSE_OPTIONS = [("", "any reuse level")] + [(r, r) for r in REUSE_LEVELS]
 FIELD_OPTIONS = [("", "any field")] + [(f, f) for f in GAP_FIELDS]
 
@@ -878,6 +880,7 @@ def routes(tools, key: str) -> list:
             for code, label in HOME_SECTORS)
         library_tiles = "".join(f'<a href="{href}">{esc(label)}</a>' for label, href in (
             ("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
+            ("Equipment", "/equipment"),
             ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps")))
         database_tiles = "".join(f'<a href="{href}">{esc(label)}</a>' for label, href in DATABASE_TABS)
         body = (
@@ -972,11 +975,12 @@ def routes(tools, key: str) -> list:
             mode = _badge("semantic") if semantic else _badge("keyword only")
             note = "" if semantic else ' <span class="muted small">vectors appear once the index is embedded</span>'
             sections = []
-            for title, want in (("Technologies", "technology"), ("Vendors", "vendor"), ("Sources", "source"),
-                                ("Passages", "chunk")):
+            for title, want in (("Technologies", "technology"), ("Vendors", "vendor"), ("Equipment", "equipment"),
+                                ("Sources", "source"), ("Passages", "chunk")):
                 hits = [r for r in results if r.get("kind") == want]
                 if hits:
                     render = _tech_row if want == "technology" else _vendor_row if want == "vendor" else \
+                        _equipment_row if want == "equipment" else \
                         _source_row if want == "source" else _chunk_row
                     sections.append(_section(title, '<ul class="hits">' + "".join(render(r) for r in hits) + "</ul>"))
             body += [_section("", f"<p>{mode}{note}</p>")]
@@ -1089,6 +1093,59 @@ def routes(tools, key: str) -> list:
                               f'<ul class="small">{nblocks}</ul><p class="muted small">These cards describe their '
                               'suppliers generically; the strings are not company names.</p>'))
         return _page("Vendors", body, active="/vendors")
+
+    async def equipment_page(request: Request):
+        qp = request.query_params
+        etype, query = str(qp.get("type") or ""), str(qp.get("q") or "")
+        items = tools.list_equipment(etype or None, query or None)
+        eid = str(qp.get("id") or "")
+        if eid:
+            items = [e for e in items if e.get("id") == eid]
+        vendor_names_by_id = {v.get("id"): v.get("name") for v in tools.list_vendors()}
+        card_names = {t.get("id"): t.get("name") for t in tools.compare_technologies()}
+
+        def detail(rec):
+            specs = "".join(
+                f"<tr><td>{esc(s['metric'])}</td><td>"
+                + (f"{esc(s['value'])} {esc(s.get('unit') or '')}".strip() if "value" in s
+                   else f"{esc(s.get('low', ''))}-{esc(s.get('high', ''))} {esc(s.get('unit') or '')}".strip()
+                   if "low" in s or "high" in s else "—")
+                + f"</td><td class='small'>{esc(s.get('basis') or '')}</td></tr>"
+                for s in rec.get("specifications", []))
+            models = "".join(
+                f"<li><b>{esc(vendor_names_by_id.get(m['vendor'], m['vendor']))}</b>"
+                f"{esc(' ' + m['line']) if m.get('line') else ''}: {esc(m.get('range') or m.get('note') or '')}</li>"
+                for m in rec.get("vendor_models", []))
+            gaps = "".join(f"<li>{esc(g['what'])} — <i>{esc(g['next_action'])}</i></li>" for g in rec.get("gaps", []))
+            techs = "; ".join(f'<a href="/technologies/{esc(t)}">{esc(card_names.get(t, t))}</a>'
+                              for t in rec.get("technologies", []))
+            sources = "".join(
+                f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["url"])}</a>'
+                f'{esc(" — " + s["note"]) if s.get("note") else ""}</li>' for s in rec.get("sources", []))
+            out = (f'<p>{esc(rec.get("description") or "")}</p>'
+                   + '<div class="scroll"><table><thead><tr><th>Specification</th><th>Value</th><th>Basis</th></tr></thead>'
+                   + f'<tbody>{specs or "<tr><td colspan=3>—</td></tr>"}</tbody></table></div>')
+            if models:
+                out += _section("Vendor model lines", f"<ul class='small'>{models}</ul>")
+            if gaps:
+                out += _section("Recorded gaps", f"<ul class='small'>{gaps}</ul>")
+            if techs:
+                out += _section("Technology cards using it", f"<p class='small'>{techs}</p>")
+            out += _section("Sources", f"<ul class='small'>{sources}</ul>")
+            return out
+
+        pieces = ['<section class="card"><form class="filters" method="get" action="/equipment">']
+        types = sorted({e.get("equipment_type") or "" for e in items})
+        pieces.append(_select("type", [("", "any equipment type")] + [(t, t) for t in types], etype))
+        pieces.append(f' <input type="search" name="q" value="{esc(query)}" placeholder="name, spec, vendor" size="20">')
+        pieces.append(' <button type="submit">Filter</button></form>')
+        for e in items:
+            pieces.append(f"<h3>{esc(e['name'])} <span class=\"muted small\">{esc(e['id'])}</span></h3>")
+            rec = equipment_records.load_equipment() and next(
+                (r for r in equipment_records.load_equipment() if r["id"] == e["id"]), None)
+            pieces.append(detail(rec) if rec else "<p class='muted small'>detail not available on this server</p>")
+        pieces.append("</section>")
+        return _page("Equipment", "".join(pieces), active="/equipment")
 
     async def register(request: Request):
         qp = request.query_params
@@ -1674,7 +1731,7 @@ def routes(tools, key: str) -> list:
         Route("/search", gated(search)),
         Route("/technologies", gated(technologies)),
         Route("/technologies/{technology_id}", gated(technology)),
-        Route("/vendors", gated(vendors_page)),
+        Route("/vendors", gated(vendors_page)), Route("/equipment", gated(equipment_page)),
         Route("/register", gated(register)),
         Route("/sources", gated(sources)),
         Route("/sources/{source_id}", gated(source)),
@@ -1723,6 +1780,19 @@ def _vendor_row(hit) -> str:
         out.append(_pill(", ".join(hit["roles"])))
     if hit.get("technologies"):
         out.append(f'<br><span class="muted small">Supplies: {esc(", ".join(hit["technologies"]))}</span>')
+    out.append("</li>")
+    return "".join(out)
+
+
+def _equipment_row(hit) -> str:
+    ref = hit.get("ref") or ""
+    href = f"/equipment?type=&amp;q=&amp;id={urllib.parse.quote(ref, safe='')}"
+    out = [f'<li><a href="{href}">{esc(hit.get("name") or hit.get("title") or ref)}</a> ',
+           f'<span class="muted">{esc(hit.get("equipment_type") or "")}</span> ']
+    if hit.get("vendors"):
+        out.append(f'<br><span class="muted small">Vendors: {esc(", ".join(hit["vendors"]))}</span>')
+    if hit.get("hint"):
+        out.append(f'<br><span class="muted small">{esc(hit["hint"])}</span>')
     out.append("</li>")
     return "".join(out)
 

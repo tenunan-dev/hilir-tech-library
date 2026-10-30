@@ -19,11 +19,25 @@
     {
       "url": "https://www.babcock.com",
       "note": "Boiler lines search-verified via web search 2026-10-30"
+    },
+    {
+      "url": "https://www.babcock.com/home/products/package-boilers",
+      "note": "B&W FM package boiler page with capacity, pressure and temperature tables, read 30 October 2026"
+    },
+    {
+      "url": "https://www.babcock.com/home/products-services/steam-generators/steam-generators",
+      "note": "B&W steam generators overview (utility, renewable, package, HRSG, CFB/BFB), read 30 October 2026"
     }
   ],
   "last_reviewed": "2026-10-30",
   "aliases": [
     "B&W",
     "Babcock and Wilcox"
+  ],
+  "products": [
+    "FM / HCFM / PFM / PFI / PFT / TSSG water-tube package boilers (10,000-1,200,000 lb/h, 250-2,400 psig)",
+    "Stirling power boilers and Towerpak lower-capacity power boilers",
+    "IR-CFB and bubbling fluidized-bed (BFB) boilers",
+    "HRSG systems, upgrades and replacement components (HARPs, headers, finned tubing)"
   ]
 }

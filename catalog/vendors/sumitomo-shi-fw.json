@@ -19,11 +19,20 @@
     {
       "url": "https://shi-fw.com/who-we-are/our-heritage",
       "note": "Heritage and CFB lines search-verified via web search 2026-10-30"
+    },
+    {
+      "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
+      "note": "CFB boiler page (500+ deliveries, ultra-supercritical 257 bar/603 C, emissions, 98% availability), read 30 October 2026"
     }
   ],
   "last_reviewed": "2026-10-30",
   "aliases": [
     "SFW",
     "Sumitomo Heavy Industries Foster Wheeler"
+  ],
+  "products": [
+    "Circulating fluidized-bed (CFB) boilers, 500+ delivered incl. ultra-supercritical 257 bar / 603 C",
+    "Bubbling fluidized-bed (BFB) boilers",
+    "Waste heat boilers (WHB) for metallurgical off-gases, 100+ supplied"
   ]
 }

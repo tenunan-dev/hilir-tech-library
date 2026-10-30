@@ -1,0 +1,145 @@
+{
+  "id": "boiler-industrial-watertube-package",
+  "name": "Industrial water-tube package boiler",
+  "aliases": ["D-type package boiler", "O-type package boiler", "industrial package boiler"],
+  "equipment_type": "boiler",
+  "sector": "PWR",
+  "sector_codes": ["PWR", "REF", "PCH"],
+  "description": "Shop-assembled watertube boiler (steam and lower drum above a water-cooled membrane furnace) custom-engineered per project, with D-type and O-type two-drum layouts. The standard steam generator above the fire-tube class for refineries, petrochemical plants and industrial power, firing liquid or gaseous fuels including refinery byproduct gases.",
+  "subtypes": [
+    {
+      "name": "D-type",
+      "description": "one steam drum and one lower drum centered over each other with the furnace offset to one side, one generating bank"
+    },
+    {
+      "name": "O-type",
+      "description": "drums centered over each other with the furnace in the center of the boiler, two generating banks"
+    },
+    {
+      "name": "Elevated drum",
+      "description": "upper steam drum shipped separately and installed on site, for drum retention times of 5 minutes or more and shipping-limited loads"
+    }
+  ],
+  "applications": [
+    "refining and petrochemical",
+    "utility power",
+    "chemical and pharmaceutical",
+    "food processing",
+    "metals and mining",
+    "carbon black, composite and carbon fiber, wood products"
+  ],
+  "specifications": [
+    {
+      "metric": "steam capacity range",
+      "unit": "lb/h",
+      "low": 10000,
+      "high": 1200000,
+      "basis": "4.5 to 544.2 T/h depending on type and design features",
+      "source": {
+        "url": "https://www.babcock.com/home/products/package-boilers",
+        "note": "Babcock & Wilcox package boilers specification section, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "design pressure range",
+      "unit": "psig",
+      "low": 250,
+      "high": 2400,
+      "basis": "1.7 to 16.5 MPa",
+      "source": {
+        "url": "https://www.babcock.com/home/products/package-boilers",
+        "note": "Babcock & Wilcox package boilers specification section, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "steam temperature",
+      "unit": "F",
+      "low": 0,
+      "high": 1005,
+      "basis": "saturated to 1005 F (540 C) superheat",
+      "source": {
+        "url": "https://www.babcock.com/home/products/package-boilers",
+        "note": "Babcock & Wilcox package boilers specification section, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "installed base",
+      "unit": "units",
+      "low": 5000,
+      "basis": "more than 5,000 units and 150 years of experience (B&W industrial water-tube package and industrial boilers)",
+      "source": {
+        "url": "https://www.babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers",
+        "note": "B&W industrial water-tube package boilers overview, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "FM-series capacity range",
+      "unit": "lb/h",
+      "low": 8200,
+      "high": 275000,
+      "basis": "FM 9 odd-number frames 8,200-40,000; FM 10-52/57/61/66/70/79 and FM 101-88 35,000-75,000; FM 103 70,000-100,000; FM 106/FM 117 100,000-155,000; FM 120/FM 160 155,000-275,000 (saturated steam)",
+      "source": {
+        "url": "https://www.babcock.com/home/products/package-boilers",
+        "note": "B&W package boiler FM capacity tables, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "HCFM / PFM / TSSG capacity, pressure, temperature limits",
+      "unit": "lb/h / psig / F",
+      "basis": "HCFM 200,000-350,000 lb/h to 1,250 psig (7.2 MPa) to 825 F (441 C); PFM 200,000-600,000 lb/h to 1,800 psig (12.4 MPa) to 900 F (482 C); TSSG 300,000-1,200,000 lb/h to 2,400 psig (16.5 MPa) to 1006 F (540 C)",
+      "source": {
+        "url": "https://www.babcock.com/home/products/package-boilers",
+        "note": "B&W package boiler HCFM/PFM/TSSG table, read 30 October 2026"
+      }
+    },
+    {
+      "metric": "tube specification",
+      "unit": "in",
+      "low": 2.5,
+      "high": 1.0,
+      "basis": "larger tube diameter 2.5 in spaced 1 in apart contributes to faster load response (design feature)",
+      "source": {
+        "url": "https://www.babcock.com/home/products/package-boilers",
+        "note": "B&W package boiler design-features list, read 30 October 2026"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "babcock-wilcox",
+      "line": "FM water-tube package",
+      "models": ["FM 9-22 through FM 9-57", "FM 10 / FM 101 / FM 103", "FM 106 / FM 117", "FM 120 / FM 160", "HCFM", "PFM", "PFI", "PFT", "TSSG"],
+      "range": "8,200 to 1,200,000 lb/h across the series; D-type or O-type, single-drum or multi-drum; membrane-wall construction, fully drainable superheaters",
+      "url": "https://www.babcock.com/home/products/package-boilers",
+      "note": "B&W package boilers page including FM capacity tables, read 30 October 2026"
+    },
+    {
+      "vendor": "john-zink",
+      "line": "Coen burners paired with B&W packages",
+      "range": "B&W packages boilers with JZHC Coen burners under an agreement between the two companies; Coen burners installed in more than 15,000 plants",
+      "url": "https://www.babcock.com/home/products/package-boilers",
+      "note": "B&W package boilers page, integrated-boiler-and-burner section, read 30 October 2026"
+    }
+  ],
+  "vendors": ["babcock-wilcox", "john-zink"],
+  "technologies": ["pwr-cogeneration-chp", "pwr-combined-cycle-hrsg"],
+  "sources": [
+    {
+      "url": "https://www.babcock.com/home/products/package-boilers",
+      "note": "Babcock & Wilcox package boilers page with capacity, pressure and temperature tables, read 30 October 2026"
+    },
+    {
+      "url": "https://www.babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers",
+      "note": "B&W industrial water-tube package boilers overview (5000+ units, pulp & paper recovery limits), read 30 October 2026"
+    }
+  ],
+  "notes": "B&W states all package boilers are membrane construction and that equipment can include burner and windbox, fuel and PRV skids, combustion air fan, AIG, SCR reactor, economizer, deaerator and stack delivered with the boiler.",
+  "gaps": [
+    {
+      "what": "efficiency and emission figures for the FM/HCFM/PFM/TSSG lines",
+      "why": "B&W page gives capacity/pressure/temperature but no efficiency or NOx numbers",
+      "next_action": "read the FM brochure PDF (linked 'Download the Brochure') in a later sweep"
+    }
+  ],
+  "last_reviewed": "2026-10-30"
+}
