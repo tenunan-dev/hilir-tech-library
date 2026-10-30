@@ -14,6 +14,16 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - JEREH added to the supplier lists of pwr-mobile-gas-turbine-plants, pwr-aeroderivative-turbines, pwr-gas-engines, pwr-cogeneration-chp, pwr-lithium-ion-bess and ups-hydraulic-fracturing.
 - Vendor count is 415; `catalog.jsonl`, `vendors.jsonl` and indexes regenerated.
 
+## [2026.10.30.5] — 2026-10-30 — Vectors baked into the image; dropdown auto-close
+
+### Fixed
+- vectors: 0 on the hosted stats (owner report): the image built the keyword index only, so hosted keyword fusion never had stored vectors and the semantic badge was misleading. The Dockerfile now runs agent/embed.py at build (fastembed added to requirements-agent.txt): /api/stats shows 11,440 vectors + the embedding model, the container embeds queries locally (exact parity), and the edge /__embed stays as fallback. The /search badge now reflects real fusion.
+- Header dropdown menus auto-close on outside click, link click and Escape (f-string braces escaped — the first cut broke test collection).
+
+### Changed
+- Deploy `32b6d112` live-verified (build embed added ~35 min to the image build — the publish cycle is slower now; vectors also need no Mac embed before deploy for the hosted copy).
+- Concurrent session noted: JEREH vendor record (415 vendors).
+
 ## [2026.10.30.4] — 2026-10-30 — Semantic search via Workers AI edge embeddings (decision #32); categorized web nav
 
 ### Added
