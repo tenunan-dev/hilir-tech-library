@@ -1,3 +1,4 @@
+fastembed>=0.4
 mcp>=1.2
 numpy>=1.26
 pyyaml>=6.0

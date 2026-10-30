@@ -850,6 +850,18 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 </main>
 <footer>Every result carries its licence — cite the url. full-text-restricted text is never served.
  · <a href="/api/openapi.json">REST API</a> · <a href="/mcp">MCP</a></footer>
+<script>
+document.addEventListener('click', function (e) {{
+  // close any open header menu when clicking outside it, or when a link inside is used
+  document.querySelectorAll('details.menu[open]').forEach(function (d) {{
+    if (d.contains(e.target) && e.target.closest('a')) {{ d.removeAttribute('open'); return; }}
+    if (!d.contains(e.target)) {{ d.removeAttribute('open'); }}
+  }});
+}});
+document.addEventListener('keydown', function (e) {{
+  if (e.key === 'Escape') document.querySelectorAll('details.menu[open]').forEach(function (d) {{ d.removeAttribute('open'); }});
+}});
+</script>
 </body>
 </html>""")
 
@@ -966,12 +978,20 @@ def routes(tools, key: str) -> list:
                 + ' <button type="submit">Search</button></form></section>']
         if query.strip():
             results = tools.search(query, kind or "all", sector or None, None, None, None, 30)
+            # honest badge: fusion happens only when the index holds stored vectors, and the
+            # query embeds locally (fastembed) or via the edge service
+            try:
+                n_vectors = tools.db().execute("SELECT count(*) FROM vectors").fetchone()[0]
+            except Exception:
+                n_vectors = 0
             try:
                 import embed_client
-                semantic = bool(getattr(tools, "_embedder", None)) or embed_client.query_vector(query) is not None
+                qvec_ok = bool(getattr(tools, "_embedder", None)) or embed_client.query_vector(query) is not None
             except Exception:
-                semantic = bool(getattr(tools, "_embedder", None))
+                qvec_ok = bool(getattr(tools, "_embedder", None))
+            semantic = n_vectors > 0 and qvec_ok
             mode = _badge("semantic") if semantic else _badge("keyword only")
+            note = "" if semantic else ' <span class="muted small">vectors appear once the index is embedded</span>'
             sections = []
             for title, want in (("Technologies", "technology"), ("Vendors", "vendor"), ("Sources", "source"),
                                 ("Passages", "chunk")):
@@ -980,8 +1000,7 @@ def routes(tools, key: str) -> list:
                     render = _tech_row if want == "technology" else _vendor_row if want == "vendor" else \
                         _source_row if want == "source" else _chunk_row
                     sections.append(_section(title, '<ul class="hits">' + "".join(render(r) for r in hits) + "</ul>"))
-            body += [_section("", f"<p>{mode} <span class=\"muted small\">ranked by keywords + meaning"
-                             " (vectors from the edge embed service when fastembed is absent)</span></p>")]
+            body += [_section("", f"<p>{mode}{note}</p>")]
             body += sections or [_section("", '<p class="muted">No results. Try fewer or different words.</p>')]
         return _page("Search", "".join(body), q=query)
 
