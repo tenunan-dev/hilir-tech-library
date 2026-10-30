@@ -1,0 +1,61 @@
+{
+  "updated": "2026-10-31",
+  "plan": "docs/FRONTEND_BACKEND_SPLIT_PLAN.md (decision #34)",
+  "note": "Frontend/backend split sequencer. Statuses: queued | running | done | partial | blocked-temporary (retry_after) | blocked-owner. Any agent: update after every outcome, never delete rows; keep ids stable.",
+  "phases": [
+    {
+      "id": "P0",
+      "name": "Audit frontend read paths → Neon mapping",
+      "status": "queued",
+      "tasks": [
+        {"id": "P0.1", "desc": "read-paths.md: every web.py handler → today's data source → Neon counterpart (cards, vendors, sources, documents+text, gaps, register, equipment, stats, search kinds)", "status": "queued"},
+        {"id": "P0.2", "desc": "check db/schema.sql + Neon for missing tables/views the UI needs (og.document text storage, v_gap shape, register table); write migration SQL if needed", "status": "queued"},
+        {"id": "P0.3", "desc": "confirm api.hilir.app domain with owner (or keep path-split on one domain)", "status": "blocked-owner", "retry_after": "before Phase 2", "note": "owner-decision: separate subdomain vs path split"}
+      ]
+    },
+    {
+      "id": "P1",
+      "name": "Frontend reads Neon (SQLite = fallback)",
+      "status": "queued",
+      "tasks": [
+        {"id": "P1.1", "desc": "library_stats → Neon counts", "status": "queued"},
+        {"id": "P1.2", "desc": "technologies list + card page → og.card", "status": "queued"},
+        {"id": "P1.3", "desc": "vendors list/get + coverage notes → og.vendor (incl. equipment classes)", "status": "queued"},
+        {"id": "P1.4", "desc": "sources + documents (text!) → og.source / og.document", "status": "queued"},
+        {"id": "P1.5", "desc": "gaps page → v_gap; register → register table", "status": "queued"},
+        {"id": "P1.6", "desc": "equipment pages + search section → og.equipment + hybrid_search join", "status": "queued"},
+        {"id": "P1.7", "desc": "/search + /database/search → Neon hybrid_search all kinds; extend SQL fn if a kind is missing", "status": "queued"},
+        {"id": "P1.8", "desc": "agent/embed.py --incremental (only new/changed rows; per-kind + by-id) + tests", "status": "queued"},
+        {"id": "P1.9", "desc": "render-parity tests: each page on TEST_DATABASE_URL renders identical content to SQLite render", "status": "queued"}
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Split deployments (two Workers, two containers)",
+      "status": "queued",
+      "tasks": [
+        {"id": "P2.1", "desc": "deploy/frontend/ + deploy/backend/ wrangler configs (routes per P0.3 decision)", "status": "queued"},
+        {"id": "P2.2", "desc": "frontend Worker: session-cookie auth only; backend Worker: API-key + OAuth only", "status": "queued"},
+        {"id": "P2.3", "desc": "container split; REMOVE embed from both Dockerfiles (R1); frontend image = web.py + pg (no corpus handling)", "status": "queued"},
+        {"id": "P2.4", "desc": "live verify: both /health, search from each container, dry-run publish (one vendor → visible both sides, no deploy)", "status": "queued"},
+        {"id": "P2.5", "desc": "owner actions: re-point MCP registration + claude.ai connector to api.hilir.app/mcp", "status": "blocked-owner"}
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Cleanup",
+      "status": "queued",
+      "tasks": [
+        {"id": "P3.1", "desc": "retire edge /__embed (owner-decision: remove or keep as utility)", "status": "blocked-owner"},
+        {"id": "P3.2", "desc": "drift stamp /api/version on both (R4)", "status": "queued"},
+        {"id": "P3.3", "desc": "SQLite demoted to fallback; Neon-down static notice (R5); HOSTING.md degradation note", "status": "queued"},
+        {"id": "P3.4", "desc": "docs sweep: ARCHITECTURE, HOSTING, POSTGRES, USER_GUIDE, this plan log", "status": "queued"}
+      ]
+    }
+  ],
+  "parked_owner": [
+    "api.hilir.app domain confirmation (P0.3)",
+    "MCP/connector re-point to api.hilir.app/mcp (P2.5)",
+    "/__embed retire or keep (P3.1)"
+  ]
+}

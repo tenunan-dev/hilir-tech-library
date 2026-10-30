@@ -16,6 +16,7 @@ node_modules/
 research/*
 !research/fields-template.yaml
 !research/source-discovery/
+!research/frontend-split/
 
 # local-only notes and how-tos (e.g. library-users.local.txt)
 *.local.txt

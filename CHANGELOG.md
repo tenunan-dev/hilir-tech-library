@@ -19,7 +19,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - Wiring parallel to vendors: `tools/build.py` writes `catalog/equipment.jsonl` + `catalog/index/equipment.md`; MCP tools `list_equipment`/`get_equipment` (16 in total); REST `/api/equipment`, `/api/equipment/{id}`; web page `/equipment` with spec tables, Library nav entry and the search-kind filter; Dockerfile index stage gains `agent/equipment.py`.
 - `tests/test_equipment.py` (schema, link resolution, basis presence, index/search round-trip).
 
-## [2026.10.30.6] — 2026-10-30 — Second-level nav row; external links new-tab; layer-split Dockerfile
+## [2026.10.31.1] — 2026-10-31 — Frontend/backend split plan approved (decision #34)
+
+### Added
+- docs/FRONTEND_BACKEND_SPLIT_PLAN.md: two containers (web UI + API) over shared Neon; sync inherent (no deploy for data changes); embeddings only in the publish pipeline (incremental embed R6); equipment layer included; phases 0-3 with sequencer research/frontend-split/state.json and a ready new-session prompt (§6).
+
+## [2026.10.31.0] — 2026-10-30 — Second-level nav row; external links new-tab; layer-split Dockerfile
 
 ### Changed
 - Header: three links (Library, Database, Account); the active group's items render as the tab-style second-level row under the header on every page (replaces the dropdowns; Sign out back in the bar). External links open in a new tab (rel=noopener).
