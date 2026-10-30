@@ -73,6 +73,10 @@
       "name": "Siemens Energy",
       "product": "SGT-A35, SGT-A65 aeroderivatives",
       "source_id": "siemens-energy"
+    },
+    {
+      "name": "JEREH",
+      "product": "SGT-A05 aeroderivative genset packages (Jereh Distributed Energy); packaging and distribution of FTAI's Mod-1 CFM56 gensets via the J&F Power Systems joint venture"
     }
   ],
   "performance": [

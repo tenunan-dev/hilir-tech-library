@@ -87,6 +87,10 @@
     {
       "name": "APR Energy",
       "product": "rental fleet of TM2500 variants and Mitsubishi FT8 units, 20-35 MW per unit"
+    },
+    {
+      "name": "JEREH",
+      "product": "Power2Go mobile gas turbine gensets, 8-45 MW class (8, 18, 25, 32, 35 and 45 MW units); US rental/leasing via GenSystems"
     }
   ],
   "performance": [

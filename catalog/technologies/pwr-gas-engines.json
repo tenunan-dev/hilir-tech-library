@@ -68,6 +68,10 @@
       "name": "MAN Energy Solutions (Everllence)",
       "product": "gas engines",
       "source_id": "man-energy"
+    },
+    {
+      "name": "JEREH",
+      "product": "INNIO Jenbacher/Waukesha authorized integrator; 3 kVA-3,300 kVA gas gensets and distributed energy (Jereh Distributed Energy)"
     }
   ],
   "reference_plants": [

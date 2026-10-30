@@ -1,0 +1,76 @@
+{
+  "id": "jereh",
+  "name": "JEREH",
+  "aliases": [
+    "Jereh Group",
+    "Yantai Jereh",
+    "Yantai Jereh Oilfield Services Group Co., Ltd.",
+    "烟台杰瑞石油服务集团"
+  ],
+  "country": "China",
+  "roles": [
+    "oem",
+    "packager",
+    "epc",
+    "service",
+    "rental"
+  ],
+  "categories": [
+    "oilfield-service",
+    "equipment-oem",
+    "power-rental",
+    "plant-epc"
+  ],
+  "description": "Yantai-based, Shenzhen-listed (002353.SZ) integrated energy equipment and services group founded in 1999: oilfield equipment and services (drilling, fracturing, cementing, coiled tubing, wellhead, waste management), gas and LNG equipment, environmental technology and anode materials - plus a fast-growing power generation business built around mobile gas turbine gensets for e-frac power and AI data centres.",
+  "products": [
+    "Power2Go mobile gas turbine gensets (vendor line-up spans 8, 18, 25, 32, 35 and 45 MW per unit)",
+    "Gas reciprocating gensets, 3 kVA to 3,300 kVA (Jereh Distributed Energy)",
+    "INNIO Jenbacher and Waukesha gas engine genset packages (authorized integrator, Jereh Distributed Energy)",
+    "Siemens Energy SGT-A05 aeroderivative gas turbine genset packages (authorized packager, Jereh Distributed Energy)",
+    "Battery energy storage systems, variable frequency drives and power distribution equipment (Jereh Agile Power Energy)",
+    "Oilfield equipment: drill rigs, frac spreads, cementers, coiled tubing units, nitrogen pumpers, snubbing units, hot oilers, wellhead equipment, downhole motors, natural gas compressors",
+    "LNG equipment and natural gas compression packages",
+    "Drilling waste management, sludge treatment and solids control equipment (Jereh Environmental Technology)"
+  ],
+  "technologies": [
+    "pwr-mobile-gas-turbine-plants",
+    "pwr-aeroderivative-turbines",
+    "pwr-gas-engines",
+    "pwr-cogeneration-chp",
+    "pwr-lithium-ion-bess",
+    "ups-hydraulic-fracturing"
+  ],
+  "url": "https://www.jereh.com",
+  "sources": [
+    {
+      "url": "https://www.jereh.com",
+      "note": "Group overview page (Chinese), read 2026-10-30"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jereh_Group",
+      "note": "Company history, product list and project awards; secondary source, read 2026-10-30"
+    },
+    {
+      "url": "https://ir.ftaiaviation.com/news-releases/news-release-details/ftai-announces-1465-billion-gas-turbine-generator-set-order",
+      "note": "FTAI press release on the J&F Power Systems master agreement and USD 1.465 bn initial order, read 2026-10-30"
+    },
+    {
+      "url": "https://en.jereh-power.com",
+      "note": "Jereh Agile Power Energy vendor site: products, applications and case studies, read 2026-10-30"
+    },
+    {
+      "url": "https://en.jereh-power.com/product/gas-turbine-generator-genset",
+      "note": "Mobile gas turbine genset line-up (8-45 MW), read 2026-10-30"
+    },
+    {
+      "url": "http://www.jereh-energy.com",
+      "note": "Jereh Distributed Energy vendor site (INNIO/Waukesha integrator, Siemens SGT-A05 packager), read 2026-10-30"
+    },
+    {
+      "url": "https://www.gen-systems.com",
+      "note": "GenSystems mobile gas turbine rental site (Houston), read 2026-10-30"
+    }
+  ],
+  "notes": "Power generation is the growth story: in July 2026 the J&F Power Systems LLC joint venture with FTAI Aviation (J&F packages and distributes FTAI's Mod-1 CFM56 aeroderivative genset) signed a five-year master supply agreement with a leading international cloud provider for mobile gas turbine generator sets, with an initial purchase order valued at USD 1.465 billion and batch deliveries through November 2027. Vendor case studies include the Sirajganj S4 combined cycle power station in Bangladesh, a combined heat and power project in China and e-frac power for frac fleets in the United States and China; target applications also include data-centre microgrids, municipal emergency power, distributed energy and associated-gas-to-power. Earlier large projects cited in secondary sources: Kuwait Oil Company Jurassic Production Facilities 5 (USD 423.1 million, 2021) and a USD 178 million, 970-set equipment order for PDVSA in Venezuela (2013). Wikipedia and press coverage are secondary sources.",
+  "last_reviewed": "2026-10-30"
+}

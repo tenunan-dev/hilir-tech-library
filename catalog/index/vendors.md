@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-414 vendor records covering 249 technologies. One record per vendor in
+415 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -351,6 +351,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [ITER Organization](https://www.iter.org) | France | developer | Fusion |
 | [JA Solar](https://www.jasolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [JERA](https://www.jera.co.jp) | Japan | operator | Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines |
+| [JEREH](https://www.jereh.com) | China | oem, packager, epc, service, rental | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines; Gas engines; Cogeneration and combined heat and power; Lithium-ion battery energy storage |
 | [JinkoSolar](https://www.jinkosolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [Kairos Power](https://kairospower.com) | USA | developer, oem | Advanced reactors (high-temperature gas, molten salt) |
 | [Karpowership](https://karpowership.com) | Turkey | operator, packager | Powerships and power barges |
@@ -498,6 +499,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Helmerich & Payne](https://www.hpinc.com) | USA | service | Drilling automation and autonomous rigs |
 | [Interwell](https://interwell.com) | Norway | service | Well plug and abandonment technologies (thermite, bismuth plugs) |
 | [JAPEX](https://www.japex.co.jp) | Japan | operator | CO2 enhanced oil recovery (miscible CO2 flooding) |
+| [JEREH](https://www.jereh.com) | China | oem, packager, epc, service, rental | Hydraulic fracturing (plug-and-perf, electric frac fleets) |
 | [JOGMEC](https://www.jogmec.go.jp) | Japan | developer, operator | Gas hydrate production; CO2 enhanced oil recovery (miscible CO2 flooding) |
 | [John Zink Company](https://www.johnzink.com) | USA | oem | Flare gas recovery and zero routine flaring |
 | [Kayrros](https://www.kayrros.com) | France | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |

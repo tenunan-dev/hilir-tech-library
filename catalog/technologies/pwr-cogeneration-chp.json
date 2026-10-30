@@ -70,6 +70,10 @@
       "name": "Wärtsilä",
       "product": "engine CHP",
       "source_id": "wartsila"
+    },
+    {
+      "name": "JEREH",
+      "product": "CHP and distributed energy investment, construction and O&M on Jenbacher/Waukesha gensets (Jereh Distributed Energy)"
     }
   ],
   "performance": [

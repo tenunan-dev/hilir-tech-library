@@ -64,6 +64,10 @@
       "name": "SLB",
       "product": "frac services",
       "source_id": "slb"
+    },
+    {
+      "name": "JEREH",
+      "product": "frac spreads and e-frac power packages: gas-turbine power for fracturing fleets (vendor case studies in the United States and China)"
     }
   ],
   "performance": [

@@ -7,6 +7,13 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.30.5] — 2026-10-30 — JEREH vendor record plus supplier links on six cards (owner request)
+
+### Added
+- `catalog/vendors/jereh.json`: Yantai Jereh Oilfield Services Group (002353.SZ) — oilfield equipment/EPC group whose fast-growing power business covers the Power2Go mobile gas turbine genset line-up (8-45 MW), gas reciprocating gensets (3 kVA-3,300 kVA), SGT-A05 packages and the FTAI J&F Power Systems JV (USD 1.465 bn initial genset order for an international cloud provider, 2026-07-22). Seven read sources cited.
+- JEREH added to the supplier lists of pwr-mobile-gas-turbine-plants, pwr-aeroderivative-turbines, pwr-gas-engines, pwr-cogeneration-chp, pwr-lithium-ion-bess and ups-hydraulic-fracturing.
+- Vendor count is 415; `catalog.jsonl`, `vendors.jsonl` and indexes regenerated.
+
 ## [2026.10.30.4] — 2026-10-30 — Semantic search via Workers AI edge embeddings (decision #32); categorized web nav
 
 ### Added
