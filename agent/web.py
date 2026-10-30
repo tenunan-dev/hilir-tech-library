@@ -65,7 +65,7 @@ HOME_SECTORS = (("UPS", "upstream"), ("MID", "midstream"), ("GAS", "gas processi
                 ("PCH", "petrochemicals"), ("PWR", "power"), ("H2", "hydrogen"), ("CCS", "carbon capture"))
 RELS = ["published_by", "in_sector", "covers_discipline", "in_region", "in_country", "from_source", "cites",
         "cites_document", "supplied_by", "realised_by", "example_supplier", "alternative_to", "mentions",
-        "has_gap", "look_in", "supplies", "alias_of", "similar_to"]
+        "has_gap", "look_in", "supplies", "supplies_equipment", "uses_equipment", "alias_of", "similar_to"]
 GRAPH_NODE_DEFAULT = "technology:ccs-cryogenic"
 # Knowledge-graph node kinds and their colours in the network and atlas views.
 KIND_COLORS = {"technology": "#4f9ad6", "source": "#d6a44f", "org": "#a8875e", "vendor": "#d6739b",

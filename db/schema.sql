@@ -142,6 +142,24 @@ CREATE TABLE IF NOT EXISTS vendor (                    -- curated vendor directo
 );
 CREATE INDEX IF NOT EXISTS vendor_tsv_idx ON vendor USING gin (tsv);
 
+CREATE TABLE IF NOT EXISTS equipment (                     -- curated equipment catalog records
+    id              text PRIMARY KEY,
+    name            text NOT NULL,
+    equipment_type  text NOT NULL,                         -- equipment family, e.g. boiler
+    sector          text,
+    sector_codes    text[] NOT NULL DEFAULT '{}',
+    description     text NOT NULL,
+    specifications  jsonb NOT NULL DEFAULT '[]',           -- metric, range/value, unit, basis, source
+    vendor_models   jsonb NOT NULL DEFAULT '[]',           -- per-vendor model lines with stated ranges
+    vendors         text[] NOT NULL DEFAULT '{}',          -- vendor directory ids supplying this class
+    technologies    text[] NOT NULL DEFAULT '{}',          -- technology cards using this class
+    gaps            jsonb NOT NULL DEFAULT '[]',
+    embedding       vector(384),
+    tsv             tsvector GENERATED ALWAYS AS (
+                      to_tsvector('english', name || ' ' || description)) STORED
+);
+CREATE INDEX IF NOT EXISTS equipment_tsv_idx ON equipment USING gin (tsv);
+
 CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative register of about 300 technologies
     id       text PRIMARY KEY,
     sector   text NOT NULL,
@@ -168,7 +186,8 @@ CREATE INDEX IF NOT EXISTS node_label_trgm_idx ON node USING gin (label gin_trgm
 
 -- Relations: published_by, in_sector, covers_discipline, in_region, in_country, from_source, cites,
 -- cites_document, supplied_by, realises, example_supplier, alternative_to, mentions, has_gap, look_in,
--- supplies (vendor record to the cards it supplies), alias_of (free-text org to its curated vendor
+-- supplies (vendor record to the cards it supplies), supplies_equipment (equipment class to vendor),
+-- uses_equipment (card to equipment class), alias_of (free-text org to its curated vendor
 -- record), similar_to (semantic, from refresh_similarity).
 CREATE TABLE IF NOT EXISTS edge (
     src    text NOT NULL REFERENCES node(id) ON DELETE CASCADE,
@@ -235,6 +254,8 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         SELECT 'technology', t.id, t.name, t.tsv, t.embedding FROM technology t
         UNION ALL
         SELECT 'vendor', v.id, v.name, v.tsv, v.embedding FROM vendor v
+        UNION ALL
+        SELECT 'equipment', e.id, e.name, e.tsv, e.embedding FROM equipment e
     ),
     tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
     kw AS (

@@ -30,7 +30,8 @@ import vendors  # noqa: E402
 SCHEMA = ROOT / "db" / "schema.sql"
 READONLY_SQL = ROOT / "db" / "readonly.sql"
 TABLES = ["edge", "node", "register_entry", "technology_gap", "technology_supplier", "technology_figure",
-          "technology_source", "technology_alias", "technology", "vendor", "chunk", "document", "source_tag", "source"]
+          "technology_source", "technology_alias", "technology", "vendor", "equipment", "chunk", "document",
+          "source_tag", "source"]
 DIM = 384
 
 
@@ -166,12 +167,21 @@ def load(conn, data, nodes, edges, vectors):
                        VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
                     (v["id"], v["name"], v.get("country"), v.get("roles", []), v["description"], v.get("products", []),
                      v.get("url"), v.get("technologies", []), vec_text(vec) if vec is not None else None))
+    for e in data["equipment"]:
+        vec = vectors.get(("equipment", e["id"]))
+        cur.execute("""INSERT INTO equipment (id, name, equipment_type, sector, sector_codes, description,
+                       specifications, vendor_models, vendors, technologies, gaps, embedding)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+                    (e["id"], e["name"], e["equipment_type"], e.get("sector"), e.get("sector_codes", []),
+                     e["description"], json.dumps(e.get("specifications", [])), json.dumps(e.get("vendor_models", [])),
+                     e.get("vendors", []), e.get("technologies", []), json.dumps(e.get("gaps", [])),
+                     vec_text(vec) if vec is not None else None))
     for e in data["entries"]:
         cur.execute("INSERT INTO register_entry VALUES (%s,%s,%s,%s,%s,%s,%s)",
                     (graph.register_id(e).removeprefix("register:"), e["code"], e["area"], e["name"], e["maturity"], e["examples"], e["card"]))
     for n in nodes:
         kind, _, key = n["id"].partition(":")
-        v = vectors.get((kind, key)) if kind in ("technology", "source", "vendor") else None
+        v = vectors.get((kind, key)) if kind in ("technology", "source", "vendor", "equipment") else None
         cur.execute("INSERT INTO node (id, kind, label, props, embedding) VALUES (%s,%s,%s,%s,%s::vector)",
                     (n["id"], n["kind"], n["label"], json.dumps(n["props"]), vec_text(v) if v is not None else None))
     for e in edges:
@@ -182,6 +192,7 @@ def load(conn, data, nodes, edges, vectors):
     cur.execute("ANALYZE")
     return {"sources": len(data["records"]), "documents": len(data["docs"]), "chunks": len(data["chunks"]),
             "technologies": len(data["cards"]), "vendors": len(data["vendors"]), "register": len(data["entries"]),
+            "equipment": len(data["equipment"]),
             "nodes": len(nodes), "edges": len(edges), "vectors": len(vectors)}
 
 
@@ -273,8 +284,10 @@ def main(argv=None):
         try:
             card_names = {c["id"]: c["name"] for c in data["cards"]}
             eq_names = library.equipment_of_vendors(data["equipment"], {v["id"]: v["name"] for v in data["vendors"]})
+            vendor_names = {v["id"]: v["name"] for v in data["vendors"]}
             items = ([("technology", c["id"], card_search_text(c)) for c in data["cards"]]
                      + [("vendor", v["id"], library.vendor_text(v, card_names, eq_names.get(v["id"]))) for v in data["vendors"]]
+                     + [("equipment", e["id"], library.equipment_text(e, card_names, vendor_names)) for e in data["equipment"]]
                      + [("chunk", c["id"], f"{c['title']}\n{c['body']}") for c in data["chunks"]])
             vectors = fastembed_vectors(items)
         except ImportError:

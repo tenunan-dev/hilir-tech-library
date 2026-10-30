@@ -14,6 +14,7 @@ import re
 import library
 import technologies
 import vendors
+import equipment
 
 ROOT = library.ROOT
 GENERIC_NAMES = {"operators", "operator", "various", "research", "major drilling contractors", "service companies",
@@ -145,6 +146,17 @@ def build_graph(root=None, corpus=None):
         for t in v.get("technologies", []):
             if t in card_nodes:
                 g.edge(f"vendor:{v['id']}", card_nodes[t], "supplies")
+
+    # Equipment classes: one node per record, supplies edges to the vendors behind it and
+    # used_by edges to the cards that name the class in their key_equipment or vendors list.
+    for rec in equipment.load_equipment(root / "catalog" / "equipment"):
+        eid = g.node(f"equipment:{rec['id']}", "equipment", rec["name"], equipment_type=rec.get("equipment_type"),
+                     sector=rec.get("sector"))
+        for vid in rec.get("vendors", []):
+            g.edge(f"equipment:{rec['id']}", f"vendor:{vid}", "supplies_equipment")
+        for t in rec.get("technologies", []):
+            if t in card_nodes:
+                g.edge(card_nodes[t], f"equipment:{rec['id']}", "uses_equipment")
 
     # Register entries
     for e in entries:

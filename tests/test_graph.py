@@ -67,6 +67,22 @@ def test_vendor_records_are_linked(built):
     assert alias and all(e["src"].startswith("org:") and e["dst"].startswith("vendor:") for e in alias)
 
 
+def test_equipment_classes_are_linked(built):
+    import equipment as equipment_records
+    nodes, edges = built
+    recs = equipment_records.load_equipment()
+    if not recs:
+        pytest.skip("no equipment records yet")
+    enodes = {n["id"] for n in nodes if n["kind"] == "equipment"}
+    assert enodes == {f"equipment:{r['id']}" for r in recs}
+    supply = [e for e in edges if e["rel"] == "supplies_equipment"]
+    assert supply, "equipment classes must link to the vendors behind them"
+    assert all(e["src"].startswith("equipment:") and e["dst"].startswith("vendor:") for e in supply)
+    uses = [e for e in edges if e["rel"] == "uses_equipment"]
+    assert uses, "equipment classes must link to the cards that use them"
+    assert all(e["src"].startswith("technology:") and e["dst"].startswith("equipment:") for e in uses)
+
+
 def test_term_matching_respects_word_boundaries():
     assert graph.term_count("HEFA", "HEFA and HEFA-SPK; hefa") == 2
     assert graph.term_count("SOEC", "ASOEC SOEC") == 1

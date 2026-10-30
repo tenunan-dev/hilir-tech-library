@@ -259,6 +259,7 @@ _COUNTS_SQL = (
     " UNION ALL SELECT 'chunk', count(*) FROM chunk"
     " UNION ALL SELECT 'technology', count(*) FROM technology"
     " UNION ALL SELECT 'vendor', count(*) FROM vendor"
+    " UNION ALL SELECT 'equipment', count(*) FROM equipment"
     " UNION ALL SELECT 'register_entry', count(*) FROM register_entry"
     " UNION ALL SELECT 'node', count(*) FROM node"
     " UNION ALL SELECT 'edge', count(*) FROM edge"
@@ -317,19 +318,27 @@ def tables_doc() -> dict:
              "columns": ["id", "name", "country", "roles[]", "description", "products[]", "url", "technologies[]",
                          "embedding", "tsv"],
              "holds": "curated vendor directory records; technologies[] holds the card ids they supply"},
+            {"name": "equipment",
+             "columns": ["id", "name", "equipment_type", "sector", "sector_codes[]", "description",
+                         "specifications jsonb", "vendor_models jsonb", "vendors[]", "technologies[]",
+                         "gaps jsonb", "embedding", "tsv"],
+             "holds": "curated equipment catalog records (one per equipment class, boilers first); "
+                      "specifications hold metric/range/basis/source and vendor_models the model lines"},
             {"name": "register_entry",
              "columns": ["id", "sector", "area", "name", "maturity", "examples", "card_id"],
              "holds": "the ~300-technology register"},
             {"name": "node",
              "columns": ["id", "kind", "label", "props", "embedding"],
              "holds": "knowledge graph nodes with ids \"<kind>:<key>\" (source:netl, document:corpus/..., "
-                      "technology:ccs-cryogenic, register:CCS/..., org:honeywell-uop, vendor:wartsila, sector:CCS, "
+                      "technology:ccs-cryogenic, register:CCS/..., org:honeywell-uop, vendor:wartsila, "
+                      "equipment:boiler-hrsg, sector:CCS, "
                       "discipline:PRC, region:sea, country:MY, gap:<card>:<n>)"},
             {"name": "edge",
              "columns": ["src", "dst", "rel", "weight", "props"],
              "holds": "knowledge graph edges; relations published_by, in_sector, covers_discipline, in_region, "
                       "in_country, from_source, cites, cites_document, supplied_by, realised_by, example_supplier, "
-                      "alternative_to, mentions, has_gap, look_in, supplies, alias_of, similar_to"},
+                      "alternative_to, mentions, has_gap, look_in, supplies, supplies_equipment, uses_equipment, "
+                      "alias_of, similar_to"},
         ],
         "views": [
             {"name": "v_gap",
