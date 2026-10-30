@@ -7,6 +7,16 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.30.4] — 2026-10-30 — Semantic search via Workers AI edge embeddings (decision #32); categorized web nav
+
+### Added
+- Edge `/__embed` route (master-key gated) running `@cf/baai/bge-small-en-v1.5` through the new Workers AI binding — query vectors for hosted search fusion, same 384-dim model family the index was built with.
+- `agent/embed_client.py`: query-vector client (local fastembed first, then the edge service; literal-host allowlist, redirects refused, bounded cache; failures fall back to keyword-only and are never cached). Wired into the MCP `search` tool, `/api/search`, the `/search` page (now with a semantic/keyword badge) and `/database/search` (hybrid_search gets its qvec hosted). `requests` added to requirements-agent.txt.
+
+### Changed
+- Header nav grouped into Library and Database dropdown menus plus an Account menu with sign-out (pure `<details>`, no JS); home page gains Library and Database tile sections.
+- Tests: embed_client suite (allowlist, cache, failure modes, local-first) and two query-vector fusion tests — 839 passed.
+
 ## [2026.10.30.3] — 2026-10-30 — Handover refresh; Neon and search-mode status
 
 ### Changed

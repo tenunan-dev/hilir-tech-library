@@ -140,7 +140,23 @@ clients (Copilot Studio, ChatGPT Actions, curl) only need the new base URL.
 Connect a client: URL `https://techlib.hilir.app/mcp`, header `x-api-key: <key>`. For example, Claude Code:
 `claude mcp add --transport http hilir-tech-library-remote https://techlib.hilir.app/mcp --header "x-api-key: <key>"`.
 
-### Test the connection (run from the Mac after any deploy or client setup)
+### Query embeddings (decision #32)
+
+The Worker carries a Workers AI binding (`"ai": { "binding": "AI" }` in wrangler.jsonc) and exposes
+`POST /__embed` (JSON `{"text": "..."}`, master library key in `x-api-key`; GET `?text=` also works).
+It returns `{"model": "@cf/baai/bge-small-en-v1.5", "dim": 384, "vector": [...]}` — the model family
+the index vectors were built with. The container's `agent/embed_client.py` calls it to embed search
+queries (local fastembed is preferred when installed), so hosted MCP/REST/web search fuse vectors
+with keywords without shipping an embedder in the image. Verify after a deploy:
+
+    curl -s -H "x-api-key: $KEY" -d '{"text":"hot potassium carbonate"}' https://techlib.hilir.app/__embed | head -c 120
+
+Parity (measured 2026-10-30): edge vectors are sent RAW (no BGE query instruction).
+Raw-query cosine vs local fastembed query_embed is ~0.91, but top-20 neighbour overlap
+against stored passage vectors is 20/20 on probe queries (the prefixed variant scores
+worse, 13-16/20) — ranking equivalence is the metric that matters.
+
+## Test the connection (run from the Mac after any deploy or client setup)
 
 ```sh
 KEY=$(cat ~/.config/hilir-tech-library/api-key)
