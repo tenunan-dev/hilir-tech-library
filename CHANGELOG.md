@@ -7,6 +7,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
+## [2026.10.30.6] — 2026-10-30 — Second-level nav row; external links new-tab; layer-split Dockerfile
+
+### Changed
+- Header: three links (Library, Database, Account); the active group's items render as the tab-style second-level row under the header on every page (replaces the dropdowns; Sign out back in the bar). External links open in a new tab (rel=noopener).
+- Dockerfile layer split: the embed stage consumes only catalog/open-corpus/taxonomy + library/technologies/vendors/embed — UI and API code changes no longer re-run the ~25-minute embed on deploy (OMP_NUM_THREADS=4 in the stage).
+
 ## [2026.10.30.5] — 2026-10-30 — JEREH vendor record plus supplier links on six cards (owner request)
 
 ### Added
