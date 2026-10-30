@@ -9,6 +9,9 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 
 ## [2026.10.30.7] — 2026-10-30 — Equipment catalog layer opens with boiler (decision #33)
 
+### Deployed
+- Living Version `093f26ba-03ef-419b-a7d2-a726f5a30a88` (container image `sha256:07108a86…`), live-verified 2026-10-31: `/api/stats` 417 vendors / equipment 5 / 11,447 vectors; `/api/equipment`, `/equipment` and the widened vendor search are live. Docker-build operational note: two prior deploy attempts died on pip read-timeouts from files.pythonhosted.org inside the builder and one looked hung while legitimately embedding — expect the in-image embed to peg the Mac for hours (amd64 emulation); native amd64 CI builds are the fix (auto-deploy token still owner-held).
+
 ### Added
 - `schema/equipment.schema.json`: one record per equipment class — specification ranges with basis and source, vendor model lines, technologies that use the class, sources and recorded gaps.
 - Five boiler records in `catalog/equipment/`: packaged fire-tube (Cleaver-Brooks CBLE 50–800 HP to 300 psig; Miura EX 100–300 BHP, 84–85% HHV, NOx to 5 ppm options; 5-minute cold start), industrial water-tube package (B&W FM/HCFM/PFM/TSSG: 10,000–1,200,000 lb/h, 250–2,400 psig, saturated–1005°F; D-/O-type; Coen/JZHC burner pairing), HRSG (EPA TSD steam-cycle efficiencies by configuration; B&W HRSG systems/components; Cleaver-Brooks 1–60 MW turbine HRSG), circulating fluidized-bed (Sumitomo SHI FW: 500+ units, ultra-supercritical 257 bar/603 °C, <50 ppm SOx+NOx with in-furnace capture, 98% availability; B&W IR-CFB; BFB sizes) and electric/electrode (Bosch ELSB 350–8,300 kg/h to 24 bar >99%; Cleaver-Brooks Model S 12–2,250 kW).
