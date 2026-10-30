@@ -85,7 +85,7 @@
       "status": "done",
       "retries": 0,
       "retry_after": "after any 2 content blocks land",
-      "note": "republish 2026-10-30 (JEREH vendor added): build 399/299/415, embed 12,579 rows, Neon reload (399/202/299/415/3,437 nodes/10,322 edges/12,579 vectors), commit c01e094; deploy verified after wrangler push",
+      "note": "republish 2026-10-30 (JEREH vendor added): build 399/299/415, embed 12,579 rows, Neon reload (399/202/299/415/3,437 nodes/10,322 edges/12,579 vectors), commit c01e094, deploy Worker 8bc2c1e3 live-verified /api/stats 415 vendors + /api/vendors/jereh",
       "runs": 3
     },
     {
