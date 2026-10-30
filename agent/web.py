@@ -102,22 +102,6 @@ header .brand { font-weight: 700; }
 header nav { display: flex; flex-wrap: wrap; gap: .15rem; }
 header nav a { padding: .18rem .5rem; border-radius: 6px; color: #c8d6e5; font-size: .92rem; }
 header nav a.active { background: #27425f; color: #fff; font-weight: 600; }
-details.menu { position: relative; }
-details.menu summary { list-style: none; cursor: pointer; padding: .18rem .5rem; border-radius: 6px;
-                       color: #c8d6e5; font-size: .92rem; display: flex; align-items: center; gap: .3rem; }
-details.menu summary::-webkit-details-marker { display: none; }
-details.menu summary::after { content: "▾"; font-size: .65rem; opacity: .75; }
-details.menu summary.active, details.menu[open] summary { background: #27425f; color: #fff; font-weight: 600; }
-details.menu .menu-body { position: absolute; top: calc(100% + .4rem); left: 0; z-index: 40; min-width: 9.5rem;
-                          background: #132a41; border: 1px solid #2f4d6e; border-radius: 8px; padding: .35rem;
-                          display: flex; flex-direction: column; gap: .1rem;
-                          box-shadow: 0 10px 28px rgba(4, 14, 26, .5); }
-details.menu .menu-body a { padding: .32rem .55rem; border-radius: 6px; color: #c8d6e5; white-space: nowrap; }
-details.menu .menu-body a:hover, details.menu .menu-body a.active { background: #27425f; color: #fff; }
-details.menu .menu-body form { display: flex; margin: .15rem 0 0; }
-details.menu .menu-body .ghost { width: 100%; text-align: left; background: none; border: 0; color: #c8d6e5;
-                                 padding: .32rem .55rem; font: inherit; font-size: .92rem; cursor: pointer; }
-details.menu .menu-body .ghost:hover { background: #27425f; color: #fff; }
 header form { display: flex; gap: .35rem; flex: 1 1 11rem; }
 header input[type=search] { flex: 1; min-width: 7rem; background: #1b3450; border: 1px solid #2f4d6e;
                             color: #fff; border-radius: 6px; padding: .3rem .55rem; }
@@ -805,30 +789,28 @@ def _db_panel() -> str:
 
 
 def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=False) -> HTMLResponse:
-    def group_open(members, prefix=None):
-        return prefix is not None and (active.startswith(prefix) or (subnav is not None and subactive.startswith(prefix))) \
-            or any(active == href for _, href in members)
-
-    nav = []
-    for label, members in NAV_GROUPS:
-        prefix = "/database" if label == "Database" else None
-        open_mark = " open" if group_open(members, prefix) else ""
-        active_mark = ' class="active"' if group_open(members, prefix) else ""
-        body_links = "".join(
-            f'<a href="{href}"{" class=\"active\"" if href == active or href == subactive else ""}>{esc(name)}</a>'
-            for name, href in members)
-        nav.append(f'<details class="menu"{open_mark}><summary{active_mark}>{esc(label)}</summary>'
-                   f'<div class="menu-body">{body_links}</div></details>')
-    account_links = '<a href="/account">Account</a>' + ('<a href="/admin">Admin</a>' if admin_nav else "")
-    account = (f'<details class="menu account"><summary>Account</summary>'
-               f'<div class="menu-body">{account_links}'
-               '<form action="/logout" method="post"><button type="submit" class="ghost">Sign out</button></form>'
-               '</div></details>')
-    nav_html = "".join(nav) + account
+    # Top-level nav: one link per group; the group's members render as a second-level row
+    # below the header (the same .subnav row the database pages already used).
+    library_members = dict(NAV_GROUPS)["Library"]
+    database_members = dict(NAV_GROUPS)["Database"]
+    account_open = active.startswith("/account") or active.startswith("/admin")
+    in_library = any(active == href for _, href in library_members)
+    in_database = active.startswith("/database")
+    nav = (f'<a href="/technologies"{" class=\"active\"" if in_library else ""}>Library</a>'
+           f'<a href="/database"{" class=\"active\"" if in_database else ""}>Database</a>'
+           f'<a href="/account"{" class=\"active\"" if account_open else ""}>Account</a>')
+    # second-level row: an explicit subnav wins; otherwise the active group's members
+    if subnav is None:
+        if in_database:
+            subnav = database_members
+        elif account_open:
+            subnav = (("Account", "/account"), ("Admin", "/admin")) if admin_nav else (("Account", "/account"),)
+        elif in_library:
+            subnav = library_members
     tabs = ""
     if subnav:
         tabs = '<nav class="subnav">' + "".join(
-            f'<a href="{href}"{" class=\"active\"" if href == subactive else ""}>{esc(label)}</a>'
+            f'<a href="{href}"{" class=\"active\"" if href == subactive or (href == active and not subactive) else ""}>{esc(label)}</a>'
             for label, href in subnav) + "</nav>"
     return HTMLResponse(f"""<!doctype html>
 <html lang="en">
@@ -841,8 +823,9 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 <body>
 <header><div class="bar">
 <a class="brand" href="/">HILIR Technology Library</a>
-<nav>{nav_html}</nav>
+<nav>{nav}</nav>
 <form action="/search" method="get"><input type="search" name="q" value="{esc(q)}" placeholder="Search the library" aria-label="Search"><button type="submit">Search</button></form>
+<form action="/logout" method="post"><button type="submit" class="ghost">Sign out</button></form>
 </div></header>
 {tabs}
 <main class="container">
@@ -851,15 +834,11 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 <footer>Every result carries its licence — cite the url. full-text-restricted text is never served.
  · <a href="/api/openapi.json">REST API</a> · <a href="/mcp">MCP</a></footer>
 <script>
-document.addEventListener('click', function (e) {{
-  // close any open header menu when clicking outside it, or when a link inside is used
-  document.querySelectorAll('details.menu[open]').forEach(function (d) {{
-    if (d.contains(e.target) && e.target.closest('a')) {{ d.removeAttribute('open'); return; }}
-    if (!d.contains(e.target)) {{ d.removeAttribute('open'); }}
-  }});
-}});
-document.addEventListener('keydown', function (e) {{
-  if (e.key === 'Escape') document.querySelectorAll('details.menu[open]').forEach(function (d) {{ d.removeAttribute('open'); }});
+// external references (vendor sites, document sources, citations) open in a new tab;
+// internal links and the API/MCP footer links stay in this one
+var HERE = location.hostname;
+document.querySelectorAll('a[href^="http"]').forEach(function (a) {{
+  if (a.hostname !== HERE) {{ a.target = "_blank"; a.rel = "noopener"; }}
 }});
 </script>
 </body>
