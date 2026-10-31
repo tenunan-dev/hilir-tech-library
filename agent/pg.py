@@ -595,9 +595,11 @@ def drift_stamp() -> dict:
 
     def work(cur):
         cur.execute("SELECT max(last_reviewed) FROM technology")
-        out["last_reviewed"] = cur.fetchone()[0]
+        row = cur.fetchone()[0]
+        out["last_reviewed"] = row.isoformat() if row else None
         cur.execute("SELECT max(last_verified) FROM source")
-        out["last_verified"] = cur.fetchone()[0]
+        row = cur.fetchone()[0]
+        out["last_verified"] = row.isoformat() if row else None
         return None
 
     _execute(work)
