@@ -79,7 +79,8 @@
         {
           "id": "P1.8",
           "desc": "agent/embed.py --incremental (only new/changed rows; per-kind + by-id) + tests",
-          "status": "queued"
+          "status": "done",
+          "result": "2026-10-31 embed.py --incremental: vectors cached by (kind, ref) + text hash in build/embed-cache.db; only new/changed rows embed (R6); --kind/--ref narrow by-id; --model change wipes the cache; first run ADOPTS an existing vectors table into the cache (guard: skipped after a model wipe, and only possible when rowids still belong to the same build). Verified: 19 test_agent.py tests pass; real index adoption run reused 12586/12586 in ~32 s; by-id --ref run reuse-only; cache 27 MB."
         },
         {
           "id": "P1.9",

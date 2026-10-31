@@ -141,6 +141,52 @@ def test_vectors_fuse_with_keyword_results(db):
     assert hits and library.stats(db)["embedding_model"] == "fake"
 
 
+def test_incremental_embeds_once_then_reuses(db, tmp_path):
+    """The R6 property: an unchanged index re-attaches all vectors from the cache."""
+    cache = tmp_path / "cache.db"
+    first = embed.embed_incremental(db, "fake", model=FakeModel(), cache_path=cache)
+    assert first["embedded"] == first["total"] and first["reused"] == 0
+    second = embed.embed_incremental(db, "fake", model=FakeModel(), cache_path=cache)
+    assert second["embedded"] == 0 and second["reused"] == second["total"]
+
+
+def test_incremental_survives_rebuild_and_picks_up_changes(db, tmp_path):
+    """Rebuilding the index (fresh rowids) keeps vectors via the cache; changed text re-embeds."""
+    import pathlib
+    cache = tmp_path / "cache.db"
+    embed.embed_incremental(db, "fake", model=FakeModel(), cache_path=cache)
+    root = pathlib.Path(db.execute("SELECT value FROM info WHERE key = 'root'").fetchone()[0])
+    doc = next(p for p in (root / "corpus").glob("*/*.md") if "_inbox" not in p.parts)
+    doc.write_text(doc.read_text(encoding="utf-8").replace("Iridium anode dissolution",
+                                                           "Ruthenium anode dissolution"), encoding="utf-8")
+    library.build(root / "lib.db", root / "corpus")
+    fresh = library.connect(root / "lib.db")
+    result = embed.embed_incremental(fresh, "fake", model=FakeModel(), cache_path=cache)
+    assert result["embedded"] >= 1, "the changed document must re-embed"
+    assert result["reused"] >= 1, "unchanged rows must come from the cache"
+    assert result["missing"] == 0
+    assert fresh.execute("SELECT count(*) FROM vectors").fetchone()[0] == result["total"]
+
+
+def test_incremental_narrows_by_kind_and_ref(db, tmp_path):
+    """--kind/--ref: only the narrowed rows embed; the rest stay missing until a later run."""
+    cache = tmp_path / "cache.db"
+    total = db.execute("SELECT count(*) FROM search").fetchone()[0]
+    vendors = db.execute("SELECT count(*) FROM search WHERE kind = 'vendor'").fetchone()[0]
+    result = embed.embed_incremental(db, "fake", model=FakeModel(), cache_path=cache, kind="vendor")
+    assert result["embedded"] == vendors and result["missing"] == total - vendors
+    assert db.execute("SELECT count(*) FROM vectors").fetchone()[0] == vendors
+    second = embed.embed_incremental(db, "fake", model=FakeModel(), cache_path=cache)
+    assert second["reused"] == vendors and second["embedded"] == total - vendors
+
+
+def test_incremental_model_change_wipes_cache(db, tmp_path):
+    cache = tmp_path / "cache.db"
+    embed.embed_incremental(db, "fake", model=FakeModel(), cache_path=cache)
+    again = embed.embed_incremental(db, "other", model=FakeModel(), cache_path=cache)
+    assert again["embedded"] == again["total"] and again["reused"] == 0
+
+
 def test_exclude_restricted_hides_private_text(db):
     rec = library.get_source("arxiv", db)
     restricted = rec["reuse_level"] == "full-text-restricted"
