@@ -1,15 +1,14 @@
 {
-  // Backend Worker of the split deployment (decision #34): MCP + REST at https://api.hilir.app
-  // (domain is the plan's written default, P0.3 — owner may override before the first deploy).
-  // API-key + OAuth auth only; no web UI here. Deploy from this folder: npx wrangler deploy
-  // (needs Docker running; builds ../docker/Dockerfile.backend). The AI binding backs /__embed,
-  // kept until the owner decides its retirement (P3.1).
+  // Backend Worker of the split deployment (decision #34): MCP + REST at https://techlib-api.hilir.app
+  // (owner-confirmed 2026-10-31, P0.3). API-key + OAuth auth only; no web UI here. Deploy from this
+  // folder: npx wrangler deploy (needs Docker running; builds ../docker/Dockerfile.backend).
+  // /__embed was retired 2026-10-31 (P3.1): both split containers embed queries locally, so the
+  // edge service had no callers left; the AI binding went with it.
   "name": "og-tech-library-api",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
   "account_id": "afa8fa65e07832d7e611e831d150d3bd",
   "observability": { "enabled": true },
-  "ai": { "binding": "AI" },
   "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "36f1ee63335644608a3969baec462626" }],
   "containers": [
     {
@@ -25,6 +24,6 @@
   },
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["LibraryApi"] }],
   "routes": [
-    { "pattern": "api.hilir.app", "custom_domain": true }
+    { "pattern": "techlib-api.hilir.app", "custom_domain": true }
   ]
 }

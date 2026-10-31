@@ -1,5 +1,7 @@
-// Backend Worker of the split deployment (decision #34): MCP + REST at api.hilir.app, served by
-// a container built from deploy/docker/Dockerfile.backend (LIBRARY_WEB=off — no UI on this domain).
+// Backend Worker of the split deployment (decision #34): MCP + REST at techlib-api.hilir.app,
+// served by a container built from deploy/docker/Dockerfile.backend (LIBRARY_WEB=off — no UI on
+// this domain). Owner-confirmed domain 2026-10-31 (P0.3); /__embed retired the same day (P3.1) —
+// both split containers embed queries locally, so the edge service had no callers left.
 //
 // Two ways in:
 // - API key (x-api-key or Authorization: Bearer) for /api; the Worker checks it at the edge so
@@ -14,7 +16,7 @@
 import { Container, getContainer } from "@cloudflare/containers";
 import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@cloudflare/workers-oauth-provider";
 
-const ORIGIN = "https://api.hilir.app"; // P0.3: the plan's written default — owner may override before first deploy
+const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P0.3)
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
 
 interface Env {
@@ -24,7 +26,6 @@ interface Env {
   USER_STORE_URL?: string; // account-store DSN (per-user keys + OAuth account resolution); optional
   OAUTH_KV: KVNamespace;
   OAUTH_PROVIDER: OAuthHelpers;
-  AI: { run: (model: string, input: Record<string, unknown>) => Promise<unknown> }; // Workers AI (query embeddings, decision #32)
 }
 
 export class LibraryApi extends Container<Env> {
@@ -148,30 +149,6 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/health") {
       return Response.json({ service: "HILIR Technology Library", role: "backend", mcp: "/mcp", rest: "/api", openapi: "/api/openapi.json" });
-    }
-    // Query-embedding service (decision #32), kept until the owner decides its retirement (P3.1):
-    // the split containers embed queries locally, so this remains a utility for external callers.
-    // Master key only: per-user keys are resolved in the container, which would loop back here.
-    if (url.pathname === "/__embed") {
-      const given = request.headers.get("x-api-key")
-        ?? (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
-      const masterOk = !!env.LIBRARY_API_KEY && env.LIBRARY_API_KEY.length >= 24 && !given.startsWith("hlt_")
-        && sameKey(given, env.LIBRARY_API_KEY);
-      if (!masterOk) return Response.json({ error: "missing or wrong API key" }, { status: 401 });
-      const text = request.method === "GET" ? (url.searchParams.get("text") ?? "") : await request.text();
-      const trimmed = text.trim().slice(0, 2000);
-      if (!trimmed) return Response.json({ error: "text required (max 2000 chars)" }, { status: 400 });
-      try {
-        const result = await env.AI.run("@cf/baai/bge-small-en-v1.5", { text: [trimmed] }) as
-          { data?: number[][]; shape?: number[] };
-        const vec = result?.data?.[0];
-        if (!Array.isArray(vec) || vec.length !== 384) {
-          return Response.json({ error: `embedding model returned ${vec?.length ?? 0} dims` }, { status: 502 });
-        }
-        return Response.json({ model: "@cf/baai/bge-small-en-v1.5", dim: 384, vector: vec });
-      } catch (e) {
-        return Response.json({ error: `embedding failed: ${String(e)}` }, { status: 502 });
-      }
     }
     if (url.pathname === "/api/openapi.json") {
       return toContainer(request, env);

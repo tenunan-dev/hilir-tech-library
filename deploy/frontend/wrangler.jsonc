@@ -9,6 +9,10 @@
   "compatibility_date": "2026-10-01",
   "account_id": "afa8fa65e07832d7e611e831d150d3bd",
   "observability": { "enabled": true },
+  "vars": {
+    // where the UI's footer REST/MCP links point (owner-confirmed backend domain, P0.3)
+    "API_ORIGIN": "https://techlib-api.hilir.app"
+  },
   "containers": [
     {
       "class_name": "LibraryUI",

@@ -23,9 +23,10 @@
         {
           "id": "P0.3",
           "desc": "confirm api.hilir.app domain with owner (or keep path-split on one domain)",
-          "status": "blocked-owner",
+          "status": "done",
           "retry_after": "before Phase 2",
-          "note": "owner-decision: separate subdomain vs path split"
+          "note": "owner-decision: separate subdomain vs path split",
+          "result": "2026-10-31 OWNER CONFIRMED: backend at techlib-api.hilir.app (frontend stays techlib.hilir.app); P2.5 re-point target techlib-api.hilir.app/mcp; P3.1 retire /__embed if no use."
         }
       ]
     },
@@ -135,7 +136,8 @@
         {
           "id": "P3.1",
           "desc": "retire edge /__embed (owner-decision: remove or keep as utility)",
-          "status": "blocked-owner"
+          "status": "done",
+          "result": "2026-10-31 RETIRED (owner: 'retire if no use'): usage audit showed no remaining callers post-split (both containers embed queries locally via the warmed fastembed cache; the client's allowlist even pointed at the frontend domain). Route + AI binding removed from the backend Worker; embed_client kept as a graceful no-op fallback (tests cover it); docstring + HOSTING.md updated."
         },
         {
           "id": "P3.2",

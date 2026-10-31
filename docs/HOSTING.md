@@ -48,32 +48,37 @@ tr -d '\n' < ~/.config/hilir-tech-library/api-key | npx wrangler secret put LIBR
 npx wrangler tail                # live logs
 ```
 
-### Split deployment (decision #34, code ready — deploy pending the P0.3 domain confirmation)
+### Split deployment (decision #34, live since 2026-10-31)
 
 The frontend/backend split keeps the web UI and the API in sync through Neon: data publishes need
 no deploy, code deploys touch only one slim image (no embed step in either Dockerfile — embeddings
-happen only in the publish pipeline). Status: **the single-container deployment above is live**;
-the split lives in the repo, deployed when the owner confirms the backend domain (plan default
-`api.hilir.app`).
+happen only in the publish pipeline). Owner-confirmed domains 2026-10-31 (P0.3): the web UI stays
+at `https://techlib.hilir.app`, the API at `https://techlib-api.hilir.app` — **MCP endpoint:
+`https://techlib-api.hilir.app/mcp`** (P2.5 re-point target).
 
 - `deploy/frontend/` — Worker `og-tech-library-ui` on `techlib.hilir.app`: session-cookie auth
   only, forwards UI paths plus key-held `/api/stats`, `/api/version` and `/api/openapi.json`;
   container from `deploy/docker/Dockerfile.frontend` (SQLite fallback index built in-image, no
   embed; fastembed warms only for runtime query embedding). The `API_ORIGIN` var points the UI's
   footer links at the API origin (`LIBRARY_API_PUBLIC_URL` in the container).
-- `deploy/backend/` — Worker `og-tech-library-api` on `api.hilir.app`: API-key edge check for
-  `/api`, OAuth for `/mcp` (resource `https://api.hilir.app/mcp`), `/__embed` kept as a utility
-  pending the owner's P3.1 decision; container from `deploy/docker/Dockerfile.backend`
-  (`LIBRARY_WEB=off` — no UI routes there; search runs on Neon `hybrid_search` with the local
-  query embedder).
+- `deploy/backend/` — Worker `og-tech-library-api` on `techlib-api.hilir.app`: API-key edge check
+  for `/api`, OAuth for `/mcp` (resource `https://techlib-api.hilir.app/mcp`); container from
+  `deploy/docker/Dockerfile.backend` (`LIBRARY_WEB=off` — no UI routes there; search runs on Neon
+  `hybrid_search` with the local query embedder). `/__embed` was retired (P3.1, owner call): both
+  containers embed locally, nothing called the edge service.
 - **Graceful degradation (R5):** every page reads Neon first and falls back to the built index
   automatically; when the configured database is unreachable, pages show a notice that the data
   may be stale (and `/api/version` reports `layer: sqlite-fallback`).
-- Rollback: `deploy/cloudflare/` is the pre-split single-Worker config and stays deployable.
+- Rollback: `deploy/cloudflare/` is the pre-split single-Worker config and stays deployable (a
+  deploy of it reclaims the techlib.hilir.app custom domain).
 
 ```
-cd deploy/frontend && npx wrangler deploy     # then: wrangler secret put LIBRARY_API_KEY / DATABASE_URL / USER_STORE_URL / LIBRARY_USERS, and API_ORIGIN var
-cd deploy/backend  && npx wrangler deploy     # then: wrangler secret put LIBRARY_API_KEY / DATABASE_URL / USER_STORE_URL
+cd deploy/frontend && npx wrangler deploy     # builds Dockerfile.frontend (~3-5 min, no embed)
+tr -d '\n' < ~/.config/hilir-tech-library/api-key | npx wrangler secret put LIBRARY_API_KEY
+tr -d '\n' < ~/.config/hilir-tech-library/db-readonly.url | npx wrangler secret put DATABASE_URL
+# USER_STORE_URL (same value the pre-split worker uses) and, if used, LIBRARY_USERS
+cd ../backend && npx wrangler deploy          # builds Dockerfile.backend
+# same LIBRARY_API_KEY / DATABASE_URL / USER_STORE_URL secrets here
 ```
 
 ### Web interface (agent/web.py)

@@ -5,10 +5,9 @@ None when no embedder exists (callers then stay keyword-only). Order of preferen
 
 1. local fastembed (the Mac, or any host with fastembed installed and a model row in the
    index) — same code path agent/embed.py's load_embedder uses;
-2. the edge Worker's /__embed route, which runs the same model family the index was
-   built with (Workers AI @cf/baai/bge-small-en-v1.5, 384 dims) — the hosted container
-   has no fastembed, so it lands here; LIBRARY_PUBLIC_URL and LIBRARY_API_KEY (both
-   injected by the edge) must be set.
+2. the edge Worker's /__embed route — RETIRED 2026-10-31 (decision #34 P3.1): the split
+   containers embed queries locally, so the service had no callers left. The client stays
+   only so old checkouts degrade gracefully (the call now returns None, keyword-only).
 
 Security: the service destination is allowlist-validated (only this library's own
 host), https only, redirects refused, and the library key travels only in the header.
