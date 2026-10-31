@@ -8,7 +8,7 @@
       "name": "Audit frontend read paths → Neon mapping",
       "status": "queued",
       "tasks": [
-        {"id": "P0.1", "desc": "read-paths.md: every web.py handler → today's data source → Neon counterpart (cards, vendors, sources, documents+text, gaps, register, equipment, stats, search kinds)", "status": "queued"},
+        {"id": "P0.1", "desc": "read-paths.md: every web.py handler → today's data source → Neon counterpart (cards, vendors, sources, documents+text, gaps, register, equipment, stats, search kinds)", "status": "done", "result": "2026-10-31 research/frontend-split/read-paths.md written; live Neon verified. Gaps found: og.document has no body text (202 open-licence docs' text only in chunks), og.vendor missing aliases (coverage queue), og.equipment missing sources (detail panel); hybrid_search lacks the source kind and a sector filter; edge worker UI_PREFIXES missing /equipment."},
         {"id": "P0.2", "desc": "check db/schema.sql + Neon for missing tables/views the UI needs (og.document text storage, v_gap shape, register table); write migration SQL if needed", "status": "queued"},
         {"id": "P0.3", "desc": "confirm api.hilir.app domain with owner (or keep path-split on one domain)", "status": "blocked-owner", "retry_after": "before Phase 2", "note": "owner-decision: separate subdomain vs path split"}
       ]
