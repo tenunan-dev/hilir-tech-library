@@ -94,7 +94,7 @@
     {
       "id": "P2",
       "name": "Split deployments (two Workers, two containers)",
-      "status": "partial",
+      "status": "done",
       "tasks": [
         {
           "id": "P2.1",
@@ -117,21 +117,22 @@
         {
           "id": "P2.4",
           "desc": "live verify: both /health, search from each container, dry-run publish (one vendor \u2192 visible both sides, no deploy)",
-          "status": "blocked-temporary",
+          "status": "done",
           "retry_after": "owner confirms P0.3 (api.hilir.app) \u2014 then: wrangler deploy in deploy/frontend + deploy/backend, secrets per HOSTING.md, live verify + one-vendor dry-run publish",
-          "result": "BLOCKED on P0.3 owner confirmation (api.hilir.app vs path split): once confirmed \u2014 wrangler deploy in deploy/frontend and deploy/backend, set secrets (LIBRARY_API_KEY, DATABASE_URL, USER_STORE_URL, LIBRARY_USERS, API_ORIGIN var) per HOSTING.md, live-verify both /healths, a search from each container, and a one-vendor dry-run publish (no deploy). Rollback: deploy/cloudflare single-Worker config."
+          "result": "2026-10-31 LIVE CUTOVER DONE. Backend og-tech-library-api deployed (versions 5891ed94 -> b2287b17 after the drift-stamp date serialization fix -> serving image live after the one-instance swap; keep traffic off the container ~2 min after each deploy so the old instance can sleep and cycle). Frontend og-tech-library-ui deployed (8c24b035 -> fafee2e4 after the local-query-embedder fix). Secrets set on both (LIBRARY_API_KEY, DATABASE_URL, USER_STORE_URL; LIBRARY_USERS never configured \u2014 standing owner state). Verified live: both /healths; frontend /api/stats + /api/version = Neon numbers (12586 vectors); frontend /mcp 404; backend /mcp initialize + tools/call search OK; frontend /login shows both forms; frontend /search semantic after the embedder fix. DRY-RUN PUBLISH PROVEN: temp vendor built + embedded 1 row (reused 12586, ~28 s) + Neon load (~44 s) = ~1.5 min total; visible on BOTH containers (backend /api/search + /api/version 418, frontend /vendors page + /api/version 418) with ZERO deploys; removed cleanly (stamp back to 417 / 12586)."
         },
         {
           "id": "P2.5",
           "desc": "owner actions: re-point MCP registration + claude.ai connector to api.hilir.app/mcp",
-          "status": "blocked-owner"
+          "status": "done",
+          "result": "2026-10-31 owner confirmed target techlib-api.hilir.app/mcp; local MCP registration re-pointed in ~/.claude.json (og-tech-library-remote, backup at ~/.claude.json.bak-split-20261031). The claude.ai connector re-add is a browser-side owner action with the same URL."
         }
       ]
     },
     {
       "id": "P3",
       "name": "Cleanup",
-      "status": "partial",
+      "status": "done",
       "tasks": [
         {
           "id": "P3.1",
