@@ -74,7 +74,7 @@ export default {
     }
     // key-held read-only API surfaces kept on this domain (the client's own key travels; the
     // container verifies it — the Worker never injects one for these)
-    if (url.pathname === "/api/stats" || url.pathname === "/api/openapi.json") {
+    if (url.pathname === "/api/stats" || url.pathname === "/api/version" || url.pathname === "/api/openapi.json") {
       return hasClientKey(request) ? toContainer(request, env, false)
         : Response.json({ error: "missing or wrong API key" }, { status: 401 });
     }

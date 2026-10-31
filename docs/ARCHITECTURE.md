@@ -142,13 +142,26 @@ mode over the WAN), open-licence text only by default. The server, the REST API'
 the web UI read it through `agent/pg.py` as role `og_mcp_read` — SELECT-only grants plus forced
 read-only transactions plus a single-statement guard. Details in [POSTGRES.md](POSTGRES.md).
 
-### Hosting (`deploy/cloudflare/`)
+**Neon is the live read layer (decision #34):** the web pages and the MCP/REST `search` read it
+first and fall back to the SQLite index automatically (a page shows a notice when the fallback
+answered). `document.body`, `vendor.aliases`, `equipment.sources` and `source.embedding` back the
+UI's full-document renders, the coverage queue, the equipment detail panel and source search.
+Publish pipeline: `tools/build.py` → `agent/library.py build` → `agent/embed.py --incremental`
+(vectors cached by (kind, ref) + text hash, so only changed rows embed) →
+`tools/load_postgres.py` (one transaction) — data changes go live on both readers with no deploy.
+
+### Hosting (`deploy/cloudflare/`, plus `deploy/frontend/` + `deploy/backend/` for the split)
 
 A Cloudflare Worker checks the API key at the edge and forwards to one Cloudflare Container built
 from the repo Dockerfile (open-licence copy only, built at deploy time). `/mcp` also accepts
 OAuth for URL-only clients such as claude.ai; web UI paths pass through to the container, which
 checks a session cookie derived from the same key. The optional secret `DATABASE_URL` gives the
 container the read-only Postgres DSN. Details in [HOSTING.md](HOSTING.md).
+
+The split deployment (decision #34, code in the repo, deploy pending the owner's domain
+confirmation) separates the two: `deploy/frontend/` serves the web UI (session cookies) at
+`techlib.hilir.app`, `deploy/backend/` serves MCP + REST (API-key/OAuth) at `api.hilir.app`;
+both containers are slim (no embed step) and read Neon live.
 
 ### Automation (`.github/workflows/`)
 

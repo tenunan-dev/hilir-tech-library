@@ -117,7 +117,8 @@
           "id": "P2.4",
           "desc": "live verify: both /health, search from each container, dry-run publish (one vendor \u2192 visible both sides, no deploy)",
           "status": "blocked-temporary",
-          "retry_after": "owner confirms P0.3 (api.hilir.app) \u2014 then: wrangler deploy in deploy/frontend + deploy/backend, secrets per HOSTING.md, live verify + one-vendor dry-run publish"
+          "retry_after": "owner confirms P0.3 (api.hilir.app) \u2014 then: wrangler deploy in deploy/frontend + deploy/backend, secrets per HOSTING.md, live verify + one-vendor dry-run publish",
+          "result": "BLOCKED on P0.3 owner confirmation (api.hilir.app vs path split): once confirmed \u2014 wrangler deploy in deploy/frontend and deploy/backend, set secrets (LIBRARY_API_KEY, DATABASE_URL, USER_STORE_URL, LIBRARY_USERS, API_ORIGIN var) per HOSTING.md, live-verify both /healths, a search from each container, and a one-vendor dry-run publish (no deploy). Rollback: deploy/cloudflare single-Worker config."
         },
         {
           "id": "P2.5",
@@ -129,7 +130,7 @@
     {
       "id": "P3",
       "name": "Cleanup",
-      "status": "queued",
+      "status": "partial",
       "tasks": [
         {
           "id": "P3.1",
@@ -139,17 +140,20 @@
         {
           "id": "P3.2",
           "desc": "drift stamp /api/version on both (R4)",
-          "status": "queued"
+          "status": "done",
+          "result": "2026-10-31 pg.drift_stamp() (counts + vectors + max last_reviewed/last_verified) served at /api/version on the REST layer (Neon first, sqlite-fallback layer tag); openapi spec updated; frontend Worker forwards it key-held. Live-verified: {source 399, document 202, chunk 11466, technology 299, vendor 417, equipment 5, register 306}, vectors 12586, last_reviewed 2026-10-29, last_verified 2026-10-30."
         },
         {
           "id": "P3.3",
           "desc": "SQLite demoted to fallback; Neon-down static notice (R5); HOSTING.md degradation note",
-          "status": "queued"
+          "status": "done",
+          "result": "2026-10-31 web._neon_first raises a per-request degradation flag (contextvar) when a CONFIGURED Neon read fails; _page renders the 'live database unreachable \u2014 fallback index may be stale' notice (R5) and clears it; test_web.test_neon_down_shows_fallback_notice covers it. HOSTING.md documents the degradation + the split's rollback path."
         },
         {
           "id": "P3.4",
           "desc": "docs sweep: ARCHITECTURE, HOSTING, POSTGRES, USER_GUIDE, this plan log",
-          "status": "queued"
+          "status": "done",
+          "result": "2026-10-31 docs sweep: HOSTING.md gained the split-deployment section (deploy steps, secrets, degradation, rollback via deploy/cloudflare); ARCHITECTURE.md describes Neon as the live read layer + the incremental publish pipeline + the split hosting; POSTGRES.md already updated in P0.2; USER_GUIDE.md intentionally untouched (no user-visible change until the cutover deploys); this plan's \u00a77 log records the session."
         }
       ]
     }

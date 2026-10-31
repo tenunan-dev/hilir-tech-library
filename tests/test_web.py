@@ -219,3 +219,14 @@ def test_header_auth_without_cookie():
     with starlette_testclient.TestClient(server.http_app(KEY), base_url="https://testserver") as fresh:
         assert fresh.get("/technologies", headers={"x-api-key": KEY}).status_code == 200
         assert fresh.get("/technologies", headers={"authorization": f"Bearer {KEY}"}).status_code == 200
+
+
+def test_neon_down_shows_fallback_notice(c, monkeypatch):
+    """R5: when the configured database is unreachable, pages say so instead of failing silently
+    (the SQLite fallback still renders, and the notice tells the reader it may be stale)."""
+    def boom(*a, **k):
+        raise web.pg.DatabaseError("connection refused (test)")
+    monkeypatch.setattr(web.pg, "configured", lambda: True)
+    monkeypatch.setattr(web.pg, "library_stats", boom)
+    r = c.get("/", headers={"x-api-key": KEY})
+    assert r.status_code == 200 and "unreachable" in r.text

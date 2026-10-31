@@ -587,6 +587,24 @@ def search_vector_count() -> int:
     return _execute(work)
 
 
+def drift_stamp() -> dict:
+    """The data version (R4): row counts, the vector total and the freshest review/verify dates,
+    so frontend/backend/data agreement is visible at a glance via /api/version."""
+    out = {"counts": {k: counts().get(k) for k in
+                      ("source", "document", "chunk", "technology", "vendor", "equipment", "register_entry")}}
+
+    def work(cur):
+        cur.execute("SELECT max(last_reviewed) FROM technology")
+        out["last_reviewed"] = cur.fetchone()[0]
+        cur.execute("SELECT max(last_verified) FROM source")
+        out["last_verified"] = cur.fetchone()[0]
+        return None
+
+    _execute(work)
+    out["vectors"] = search_vector_count()
+    return out
+
+
 def search_library(q: str, kind: str = "all", sector: str | None = None, limit: int = 10, qvec=None) -> list[dict]:
     """library.search equivalent from Neon: hybrid_search ranking, then one enrichment query per
     kind so rows carry the fields the web page and REST render (licence, snippet, roles, ...)."""

@@ -19,6 +19,7 @@ mirrors PREFIXES to keep these paths off the edge API-key check.
 Every data value reaches the HTML through esc(); text from full-text-restricted documents is still
 filtered by the tools module before it gets here.
 """
+import contextvars
 import html
 import hmac
 import json
@@ -797,6 +798,11 @@ def _db_panel() -> str:
             f'<p class="muted">{links}</p></section>')
 
 
+# Set per request when a configured Neon read failed and the SQLite fallback answered instead
+# (R5); _page renders the degradation notice and clears it.
+_neon_degraded = contextvars.ContextVar("oglib_neon_degraded", default=False)
+
+
 def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=False) -> HTMLResponse:
     # Top-level nav: one link per group; the group's members render as a second-level row
     # below the header (the same .subnav row the database pages already used).
@@ -821,6 +827,12 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
         tabs = '<nav class="subnav">' + "".join(
             f'<a href="{href}"{" class=\"active\"" if href == subactive or (href == active and not subactive) else ""}>{esc(label)}</a>'
             for label, href in subnav) + "</nav>"
+    notice = ""
+    if _neon_degraded.get():
+        _neon_degraded.set(False)
+        notice = ('<section class="card error"><p><b>The live database is unreachable right now — '
+                  'this page is showing the built-in fallback index, which may be stale.</b> '
+                  'Please try again in a few minutes.</p></section>')
     return HTMLResponse(f"""<!doctype html>
 <html lang="en">
 <head>
@@ -838,6 +850,7 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 </div></header>
 {tabs}
 <main class="container">
+{notice}
 {body}
 </main>
 <footer>Every result carries its licence — cite the url. full-text-restricted text is never served.
@@ -863,12 +876,12 @@ def _not_found(message="Nothing is served at this address.") -> HTMLResponse:
 def _neon_first(neon, sqlite):
     """Decision #34 Phase 1: every page reads Neon (the live data layer) first and falls back to
     the built SQLite index automatically — the UI works in a Neon-less checkout and degrades
-    cleanly when the database is unreachable."""
+    cleanly when the database is unreachable (R5: the page then carries a notice, see _page)."""
     if pg.configured():
         try:
             return neon()
         except (pg.NotConfigured, pg.DatabaseError):
-            pass
+            _neon_degraded.set(True)
     return sqlite()
 
 

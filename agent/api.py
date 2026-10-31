@@ -88,6 +88,20 @@ def routes(tools):
                 pass
         return JSONResponse(tools.library_stats())
 
+    async def version(request: Request):
+        """Drift stamp (decision #34 R4): Neon counts, vector total and the freshest review /
+        verify dates when the database is configured; the baked SQLite index otherwise."""
+        if pg.configured():
+            try:
+                return JSONResponse({"service": "HILIR Technology Library", "layer": "neon", **pg.drift_stamp()})
+            except (pg.NotConfigured, pg.DatabaseError):
+                pass
+        stats = tools.library_stats()
+        counts = {k: stats.get(v) for k, v in (("source", "sources"), ("document", "documents"),
+                                               ("technology", "technologies"), ("vendor", "vendors"),
+                                               ("equipment", "equipment"))}
+        return JSONResponse({"service": "HILIR Technology Library", "layer": "sqlite-fallback", "counts": counts})
+
     async def openapi(request: Request):
         return JSONResponse(openapi_spec(os.environ.get("LIBRARY_PUBLIC_URL", str(request.base_url).rstrip("/"))))
 
@@ -97,7 +111,8 @@ def routes(tools):
         Route("/api/technologies/{technology_id}", technology), Route("/api/vendors", vendors),
         Route("/api/vendors/{vendor_id}", vendor), Route("/api/register", register),
         Route("/api/equipment", equipment_list), Route("/api/equipment/{equipment_id}", equipment),
-        Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/openapi.json", openapi),
+        Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/version", version),
+        Route("/api/openapi.json", openapi),
     ]
 
 
@@ -166,5 +181,6 @@ def openapi_spec(server_url):
                 _param("reason_code", "Why it is missing"),
                 _param("include_no_card", "true to add register technologies without a card", schema={"type": "boolean"})]),
             "/api/stats": get("libraryStats", "Counts of sources, documents, chunks and technology cards", []),
+            "/api/version": get("libraryVersion", "Drift stamp: row counts, vectors and the freshest review/verify dates", []),
         },
     }

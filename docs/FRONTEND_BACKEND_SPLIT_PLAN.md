@@ -155,6 +155,20 @@ sessions). Report each phase's completion with the live verification results.
 
 Newest first.
 
+- **2026-10-31 (same day, executing session):** Phases 0, 1 and the code side of 2+3 landed
+  (commits ee8816f → 3a2ea94 and the docs commit). Phase 0: read-paths.md audit; schema gaps
+  closed (document.body, vendor.aliases, equipment.sources, source.embedding+tsv); hybrid_search
+  gained the source kind, a sector filter and per-kind rank pools; Neon reloaded (12,586 vectors).
+  Phase 1: every web page reads Neon first with the SQLite fallback (web._neon_first); embed.py
+  --incremental (R6); render-parity tests 11/11 on a scratch pgvector container. Phase 2 code:
+  deploy/frontend + deploy/backend (two Workers, two slim Dockerfiles with NO embed step — R1),
+  LIBRARY_WEB=off backend, Neon-first MCP search, /equipment prefix sync fix. Phase 3 code:
+  drift stamp /api/version (R4) + the Neon-down notice (R5). **Not deployed:** the live cutover
+  (P2.4) and everything it touches wait on P0.3 — the owner's confirmation of the backend domain
+  (plan default api.hilir.app). MCP re-point (P2.5) and /__embed retirement (P3.1) stay parked.
+  Gotchas recorded in state.json: the loader's schema splitter breaks on inline SQL comments
+  containing `;`; changed-signature functions need an explicit DROP of the old overload;
+  register_entry's column is `sector`; Mimosa blocks f-string SQL construction.
 - **2026-10-31:** Plan written from the owner's proposal review (decision #34). Revisions
   vs the first proposal: embeddings leave deploys entirely (R1 + R6 incremental), the
   equipment layer joins every migration step (R2), atomic-publish invariant documented

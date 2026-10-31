@@ -48,6 +48,34 @@ tr -d '\n' < ~/.config/hilir-tech-library/api-key | npx wrangler secret put LIBR
 npx wrangler tail                # live logs
 ```
 
+### Split deployment (decision #34, code ready — deploy pending the P0.3 domain confirmation)
+
+The frontend/backend split keeps the web UI and the API in sync through Neon: data publishes need
+no deploy, code deploys touch only one slim image (no embed step in either Dockerfile — embeddings
+happen only in the publish pipeline). Status: **the single-container deployment above is live**;
+the split lives in the repo, deployed when the owner confirms the backend domain (plan default
+`api.hilir.app`).
+
+- `deploy/frontend/` — Worker `og-tech-library-ui` on `techlib.hilir.app`: session-cookie auth
+  only, forwards UI paths plus key-held `/api/stats`, `/api/version` and `/api/openapi.json`;
+  container from `deploy/docker/Dockerfile.frontend` (SQLite fallback index built in-image, no
+  embed; fastembed warms only for runtime query embedding). The `API_ORIGIN` var points the UI's
+  footer links at the API origin (`LIBRARY_API_PUBLIC_URL` in the container).
+- `deploy/backend/` — Worker `og-tech-library-api` on `api.hilir.app`: API-key edge check for
+  `/api`, OAuth for `/mcp` (resource `https://api.hilir.app/mcp`), `/__embed` kept as a utility
+  pending the owner's P3.1 decision; container from `deploy/docker/Dockerfile.backend`
+  (`LIBRARY_WEB=off` — no UI routes there; search runs on Neon `hybrid_search` with the local
+  query embedder).
+- **Graceful degradation (R5):** every page reads Neon first and falls back to the built index
+  automatically; when the configured database is unreachable, pages show a notice that the data
+  may be stale (and `/api/version` reports `layer: sqlite-fallback`).
+- Rollback: `deploy/cloudflare/` is the pre-split single-Worker config and stays deployable.
+
+```
+cd deploy/frontend && npx wrangler deploy     # then: wrangler secret put LIBRARY_API_KEY / DATABASE_URL / USER_STORE_URL / LIBRARY_USERS, and API_ORIGIN var
+cd deploy/backend  && npx wrangler deploy     # then: wrangler secret put LIBRARY_API_KEY / DATABASE_URL / USER_STORE_URL
+```
+
 ### Web interface (agent/web.py)
 
 The same container serves a server-rendered HTML interface at the same origin, live since 2026-10-26
