@@ -1,3 +1,15 @@
+## [2026.10.31.4] — 2026-10-31 — Split deployment live at techlib.hilir.app + techlib-api.hilir.app
+
+### Deployed
+- Decision #34 cutover complete. Frontend `og-tech-library-ui` (session-cookie web UI, Neon live reads) at techlib.hilir.app; backend `og-tech-library-api` (MCP + REST, API-key/OAuth) at **techlib-api.hilir.app** — MCP endpoint `https://techlib-api.hilir.app/mcp` (owner-confirmed P0.3/P2.5). Secrets on both: LIBRARY_API_KEY, DATABASE_URL, USER_STORE_URL. Verified live: both /healths; Neon drift stamp 399/202/11466/299/417/5/306 + 12,586 vectors on both sides; /mcp handshake and search end-to-end; /login both forms; /search semantic. Dry-run publish (temp vendor) went live on both containers in ~1.5 min with zero deploys, then removed cleanly — the §4 update flow is proven.
+- `/__embed` retired (P3.1, owner call: no remaining callers — both containers embed queries locally); AI binding removed from the backend Worker; embed_client kept as a graceful no-op fallback.
+
+### Fixed
+- `/api/version` 500 in the first backend image (psycopg date objects are not JSON-serialisable — isoformat now); frontend `/search` was keyword-only (the page's query embedder now uses the server module's local-model helper; both split containers embed locally).
+
+### Changed
+- The pre-split single Worker `og-tech-library` no longer holds a route; it stays deployed as the instant rollback (redeploy `deploy/cloudflare/` to reclaim techlib.hilir.app). MCP registration on the owner's Mac re-pointed to techlib-api.hilir.app/mcp; the claude.ai connector re-add is the owner's browser-side step.
+
 # Changelog
 
 All notable releases of the library. Versions are calendar-based — `YYYY.MM.DD`, with a `.2`,
