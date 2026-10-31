@@ -54,12 +54,13 @@ function storeDsnHeaders(request: Request, env: Env): Headers {
 async function toContainer(request: Request, env: Env, injectKey: boolean): Promise<Response> {
   const url = new URL(request.url);
   const headers = storeDsnHeaders(request, env);
-  const clientKey = request.headers.get("x-api-key") || (request.headers.get("authorization") ?? "").replace(/^Bearer /, "") || "";
-  headers.delete("authorization");
-  if (injectKey || !clientKey.startsWith("hlt_")) {
+  if (injectKey) {
+    headers.delete("authorization");
     headers.delete("x-api-key");
     headers.set("x-api-key", env.LIBRARY_API_KEY);
   }
+  // injectKey=false is the passthrough: the client's own credential travels untouched and the
+  // container verifies it for real (master key, or a per-user hlt_ key against the account store).
   const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
   return getContainer(env.LIBRARY, "main").fetch(INTERNAL + url.pathname + url.search,
                                                  { method: request.method, headers, body });
