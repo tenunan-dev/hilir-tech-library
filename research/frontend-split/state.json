@@ -5,12 +5,28 @@
   "phases": [
     {
       "id": "P0",
-      "name": "Audit frontend read paths → Neon mapping",
+      "name": "Audit frontend read paths \u2192 Neon mapping",
       "status": "queued",
       "tasks": [
-        {"id": "P0.1", "desc": "read-paths.md: every web.py handler → today's data source → Neon counterpart (cards, vendors, sources, documents+text, gaps, register, equipment, stats, search kinds)", "status": "done", "result": "2026-10-31 research/frontend-split/read-paths.md written; live Neon verified. Gaps found: og.document has no body text (202 open-licence docs' text only in chunks), og.vendor missing aliases (coverage queue), og.equipment missing sources (detail panel); hybrid_search lacks the source kind and a sector filter; edge worker UI_PREFIXES missing /equipment."},
-        {"id": "P0.2", "desc": "check db/schema.sql + Neon for missing tables/views the UI needs (og.document text storage, v_gap shape, register table); write migration SQL if needed", "status": "done", "result": "2026-10-31 commit 6709627 + follow-up: db/schema.sql upgrades section (idempotent ALTERs) adds document.body (open-licence only, restricted stays NULL), vendor.aliases, equipment.sources, source.embedding+generated tsv; hybrid_search recreated as (q, qvec, k, sector) with 'source' kind and PER-KIND rank pools (global pool let chunks crowd out all other kinds); loader writes new columns; Neon reloaded in ONE transaction (R3): 399 sources/202 docs/11439 chunks/299 cards/417 vendors/5 equipment/306 register/3444 nodes/10346 edges/12586 vectors preserved; live-verified: 202 bodies, 192 vendors with aliases, 5/5 equipment sources, 399 source embeddings+tsv, balanced kinds for demo/boiler/CCS-sector queries; og_mcp_read grants are table-level (no change needed). Gotchas recorded: inline SQL comments must not contain ';' (loader splitter); source indexes must come after the upgrade ALTERs; changed-signature functions need an explicit DROP of the old overload."},
-        {"id": "P0.3", "desc": "confirm api.hilir.app domain with owner (or keep path-split on one domain)", "status": "blocked-owner", "retry_after": "before Phase 2", "note": "owner-decision: separate subdomain vs path split"}
+        {
+          "id": "P0.1",
+          "desc": "read-paths.md: every web.py handler \u2192 today's data source \u2192 Neon counterpart (cards, vendors, sources, documents+text, gaps, register, equipment, stats, search kinds)",
+          "status": "done",
+          "result": "2026-10-31 research/frontend-split/read-paths.md written; live Neon verified. Gaps found: og.document has no body text (202 open-licence docs' text only in chunks), og.vendor missing aliases (coverage queue), og.equipment missing sources (detail panel); hybrid_search lacks the source kind and a sector filter; edge worker UI_PREFIXES missing /equipment."
+        },
+        {
+          "id": "P0.2",
+          "desc": "check db/schema.sql + Neon for missing tables/views the UI needs (og.document text storage, v_gap shape, register table); write migration SQL if needed",
+          "status": "done",
+          "result": "2026-10-31 commit 6709627 + follow-up: db/schema.sql upgrades section (idempotent ALTERs) adds document.body (open-licence only, restricted stays NULL), vendor.aliases, equipment.sources, source.embedding+generated tsv; hybrid_search recreated as (q, qvec, k, sector) with 'source' kind and PER-KIND rank pools (global pool let chunks crowd out all other kinds); loader writes new columns; Neon reloaded in ONE transaction (R3): 399 sources/202 docs/11439 chunks/299 cards/417 vendors/5 equipment/306 register/3444 nodes/10346 edges/12586 vectors preserved; live-verified: 202 bodies, 192 vendors with aliases, 5/5 equipment sources, 399 source embeddings+tsv, balanced kinds for demo/boiler/CCS-sector queries; og_mcp_read grants are table-level (no change needed). Gotchas recorded: inline SQL comments must not contain ';' (loader splitter); source indexes must come after the upgrade ALTERs; changed-signature functions need an explicit DROP of the old overload."
+        },
+        {
+          "id": "P0.3",
+          "desc": "confirm api.hilir.app domain with owner (or keep path-split on one domain)",
+          "status": "blocked-owner",
+          "retry_after": "before Phase 2",
+          "note": "owner-decision: separate subdomain vs path split"
+        }
       ]
     },
     {
@@ -18,15 +34,58 @@
       "name": "Frontend reads Neon (SQLite = fallback)",
       "status": "queued",
       "tasks": [
-        {"id": "P1.1", "desc": "library_stats → Neon counts", "status": "queued"},
-        {"id": "P1.2", "desc": "technologies list + card page → og.card", "status": "queued"},
-        {"id": "P1.3", "desc": "vendors list/get + coverage notes → og.vendor (incl. equipment classes)", "status": "queued"},
-        {"id": "P1.4", "desc": "sources + documents (text!) → og.source / og.document", "status": "queued"},
-        {"id": "P1.5", "desc": "gaps page → v_gap; register → register table", "status": "queued"},
-        {"id": "P1.6", "desc": "equipment pages + search section → og.equipment + hybrid_search join", "status": "queued"},
-        {"id": "P1.7", "desc": "/search + /database/search → Neon hybrid_search all kinds; extend SQL fn if a kind is missing", "status": "queued"},
-        {"id": "P1.8", "desc": "agent/embed.py --incremental (only new/changed rows; per-kind + by-id) + tests", "status": "queued"},
-        {"id": "P1.9", "desc": "render-parity tests: each page on TEST_DATABASE_URL renders identical content to SQLite render", "status": "queued"}
+        {
+          "id": "P1.1",
+          "desc": "library_stats \u2192 Neon counts",
+          "status": "done",
+          "result": "2026-10-31 pg.library_stats() (7 counts, vectors = non-null embeddings across 5 kinds) wired into home via _neon_first; SQLite fallback. All wired through web._neon_first (Neon first, SQLite automatic fallback; offline tests green). Live-verified against Neon 2026-10-31: parity spot checks (source documents 71/71, restricted error, open text identical); 12559 vectors visible (SQLite index has 27 more chunk rows because its chunk 0 embeds the summary prefix \u2014 expected difference, documented in read-paths.md)."
+        },
+        {
+          "id": "P1.2",
+          "desc": "technologies list + card page \u2192 og.card",
+          "status": "done",
+          "result": "pg.tech_cards()/tech_card() (card jsonb); technologies page uses technologies.compare over Neon cards; card page adds mermaid+licence overlay (SQLite path keeps its own). All wired through web._neon_first (Neon first, SQLite automatic fallback; offline tests green). Live-verified against Neon 2026-10-31: parity spot checks (source documents 71/71, restricted error, open text identical); 12559 vectors visible (SQLite index has 27 more chunk rows because its chunk 0 embeds the summary prefix \u2014 expected difference, documented in read-paths.md)."
+        },
+        {
+          "id": "P1.3",
+          "desc": "vendors list/get + coverage notes \u2192 og.vendor (incl. equipment classes)",
+          "status": "done",
+          "result": "pg.vendor_rows/vendor_row/vendor_names/card_names/coverage_queue; coverage-queue classifier extracted to vendors.coverage_queue shared by disk + Neon paths; og.vendor.aliases now feeds it. All wired through web._neon_first (Neon first, SQLite automatic fallback; offline tests green). Live-verified against Neon 2026-10-31: parity spot checks (source documents 71/71, restricted error, open text identical); 12559 vectors visible (SQLite index has 27 more chunk rows because its chunk 0 embeds the summary prefix \u2014 expected difference, documented in read-paths.md)."
+        },
+        {
+          "id": "P1.4",
+          "desc": "sources + documents (text!) \u2192 og.source / og.document",
+          "status": "done",
+          "result": "pg.source_rows/source_row/document_row; og.document.body carries exact full text (parity-verified: identical text, identical restricted-doc error); restricted text never leaves Neon reads regardless of stored body. All wired through web._neon_first (Neon first, SQLite automatic fallback; offline tests green). Live-verified against Neon 2026-10-31: parity spot checks (source documents 71/71, restricted error, open text identical); 12559 vectors visible (SQLite index has 27 more chunk rows because its chunk 0 embeds the summary prefix \u2014 expected difference, documented in read-paths.md)."
+        },
+        {
+          "id": "P1.5",
+          "desc": "gaps page \u2192 v_gap; register \u2192 register table",
+          "status": "done",
+          "result": "pg.gap_rows (v_gap) + pg.register_rows (register_entry; column is 'sector' not 'code' \u2014 fixed); register order is by id, not YAML declaration order (content identical). All wired through web._neon_first (Neon first, SQLite automatic fallback; offline tests green). Live-verified against Neon 2026-10-31: parity spot checks (source documents 71/71, restricted error, open text identical); 12559 vectors visible (SQLite index has 27 more chunk rows because its chunk 0 embeds the summary prefix \u2014 expected difference, documented in read-paths.md)."
+        },
+        {
+          "id": "P1.6",
+          "desc": "equipment pages + search section \u2192 og.equipment + hybrid_search join",
+          "status": "done",
+          "result": "pg.equipment_rows/equipment_row; equipment detail now from og.equipment incl. sources (no disk read on the Neon path). All wired through web._neon_first (Neon first, SQLite automatic fallback; offline tests green). Live-verified against Neon 2026-10-31: parity spot checks (source documents 71/71, restricted error, open text identical); 12559 vectors visible (SQLite index has 27 more chunk rows because its chunk 0 embeds the summary prefix \u2014 expected difference, documented in read-paths.md)."
+        },
+        {
+          "id": "P1.7",
+          "desc": "/search + /database/search \u2192 Neon hybrid_search all kinds; extend SQL fn if a kind is missing",
+          "status": "done",
+          "result": "pg.search_library = hybrid_search + per-kind enrichment (licence/reuse/snippet/summary for chunks, roles/products/technologies vendors, equipment_type/vendors equipment, url/regions sources, technologies.summary cards); hybrid_search SQL gained 'source' kind + sector filter + per-kind rank pools; web /search reads Neon first with honest semantic badge from pg.search_vector_count(). All wired through web._neon_first (Neon first, SQLite automatic fallback; offline tests green). Live-verified against Neon 2026-10-31: parity spot checks (source documents 71/71, restricted error, open text identical); 12559 vectors visible (SQLite index has 27 more chunk rows because its chunk 0 embeds the summary prefix \u2014 expected difference, documented in read-paths.md)."
+        },
+        {
+          "id": "P1.8",
+          "desc": "agent/embed.py --incremental (only new/changed rows; per-kind + by-id) + tests",
+          "status": "queued"
+        },
+        {
+          "id": "P1.9",
+          "desc": "render-parity tests: each page on TEST_DATABASE_URL renders identical content to SQLite render",
+          "status": "queued"
+        }
       ]
     },
     {
@@ -34,11 +93,31 @@
       "name": "Split deployments (two Workers, two containers)",
       "status": "queued",
       "tasks": [
-        {"id": "P2.1", "desc": "deploy/frontend/ + deploy/backend/ wrangler configs (routes per P0.3 decision)", "status": "queued"},
-        {"id": "P2.2", "desc": "frontend Worker: session-cookie auth only; backend Worker: API-key + OAuth only", "status": "queued"},
-        {"id": "P2.3", "desc": "container split; REMOVE embed from both Dockerfiles (R1); frontend image = web.py + pg (no corpus handling)", "status": "queued"},
-        {"id": "P2.4", "desc": "live verify: both /health, search from each container, dry-run publish (one vendor → visible both sides, no deploy)", "status": "queued"},
-        {"id": "P2.5", "desc": "owner actions: re-point MCP registration + claude.ai connector to api.hilir.app/mcp", "status": "blocked-owner"}
+        {
+          "id": "P2.1",
+          "desc": "deploy/frontend/ + deploy/backend/ wrangler configs (routes per P0.3 decision)",
+          "status": "queued"
+        },
+        {
+          "id": "P2.2",
+          "desc": "frontend Worker: session-cookie auth only; backend Worker: API-key + OAuth only",
+          "status": "queued"
+        },
+        {
+          "id": "P2.3",
+          "desc": "container split; REMOVE embed from both Dockerfiles (R1); frontend image = web.py + pg (no corpus handling)",
+          "status": "queued"
+        },
+        {
+          "id": "P2.4",
+          "desc": "live verify: both /health, search from each container, dry-run publish (one vendor \u2192 visible both sides, no deploy)",
+          "status": "queued"
+        },
+        {
+          "id": "P2.5",
+          "desc": "owner actions: re-point MCP registration + claude.ai connector to api.hilir.app/mcp",
+          "status": "blocked-owner"
+        }
       ]
     },
     {
@@ -46,10 +125,26 @@
       "name": "Cleanup",
       "status": "queued",
       "tasks": [
-        {"id": "P3.1", "desc": "retire edge /__embed (owner-decision: remove or keep as utility)", "status": "blocked-owner"},
-        {"id": "P3.2", "desc": "drift stamp /api/version on both (R4)", "status": "queued"},
-        {"id": "P3.3", "desc": "SQLite demoted to fallback; Neon-down static notice (R5); HOSTING.md degradation note", "status": "queued"},
-        {"id": "P3.4", "desc": "docs sweep: ARCHITECTURE, HOSTING, POSTGRES, USER_GUIDE, this plan log", "status": "queued"}
+        {
+          "id": "P3.1",
+          "desc": "retire edge /__embed (owner-decision: remove or keep as utility)",
+          "status": "blocked-owner"
+        },
+        {
+          "id": "P3.2",
+          "desc": "drift stamp /api/version on both (R4)",
+          "status": "queued"
+        },
+        {
+          "id": "P3.3",
+          "desc": "SQLite demoted to fallback; Neon-down static notice (R5); HOSTING.md degradation note",
+          "status": "queued"
+        },
+        {
+          "id": "P3.4",
+          "desc": "docs sweep: ARCHITECTURE, HOSTING, POSTGRES, USER_GUIDE, this plan log",
+          "status": "queued"
+        }
       ]
     }
   ],

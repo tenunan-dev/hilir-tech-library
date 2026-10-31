@@ -31,10 +31,12 @@ from starlette.requests import Request
 from starlette.responses import HTMLResponse, JSONResponse, RedirectResponse
 from starlette.routing import Route
 
+import equipment as equipment_records
+import library
 import pg
+import technologies as technology_records
 import users as user_accounts
 import userstore
-import equipment as equipment_records
 import vendors as vendor_records
 
 COOKIE = "oglib_session"
@@ -853,6 +855,54 @@ def _not_found(message="Nothing is served at this address.") -> HTMLResponse:
     return resp
 
 
+def _neon_first(neon, sqlite):
+    """Decision #34 Phase 1: every page reads Neon (the live data layer) first and falls back to
+    the built SQLite index automatically — the UI works in a Neon-less checkout and degrades
+    cleanly when the database is unreachable."""
+    if pg.configured():
+        try:
+            return neon()
+        except (pg.NotConfigured, pg.DatabaseError):
+            pass
+    return sqlite()
+
+
+def _query_vector(tools, query):
+    """Query embedding for the Neon search: local fastembed when present, else the edge /__embed
+    service (decision #32). None keeps the search keyword-only."""
+    embedder = getattr(tools, "_embedder", None)
+    if embedder:
+        return list(embedder([query])[0])
+    try:
+        import embed_client
+        return embed_client.query_vector(query, tools.db())
+    except Exception:
+        return None
+
+
+def _run_search(tools, query, kind, sector):
+    """Search over Neon hybrid_search first (decision #34 Phase 1), the SQLite index as fallback.
+    Returns (results, semantic_badge) — the badge is honest about whether fusion was possible."""
+    if pg.configured():
+        try:
+            qvec = _query_vector(tools, query)
+            return (pg.search_library(query, kind or "all", sector or None, 30, qvec),
+                    pg.search_vector_count() > 0 and qvec is not None)
+        except (pg.NotConfigured, pg.DatabaseError):
+            pass
+    results = tools.search(query, kind or "all", sector or None, None, None, None, 30)
+    try:
+        n_vectors = tools.db().execute("SELECT count(*) FROM vectors").fetchone()[0]
+    except Exception:
+        n_vectors = 0
+    try:
+        import embed_client
+        qvec_ok = bool(getattr(tools, "_embedder", None)) or embed_client.query_vector(query) is not None
+    except Exception:
+        qvec_ok = bool(getattr(tools, "_embedder", None))
+    return results, n_vectors > 0 and qvec_ok
+
+
 def _bad_request(message) -> HTMLResponse:
     resp = _page("Bad request", f'<section class="card"><h1>Bad request</h1><p class="muted">{esc(message)}</p></section>')
     resp.status_code = 400
@@ -872,7 +922,7 @@ def routes(tools, key: str) -> list:
     tools.db() and tools._embedder back the database pages."""
 
     async def home(request: Request):
-        stats = tools.library_stats()
+        stats = _neon_first(pg.library_stats, lambda: tools.library_stats())
         cards = "".join(f'<div class="stat"><b>{esc(v)}</b>{esc(k)}</div>' for k, v in stats.items() if v is not None)
         sectors = "".join(
             f'<a href="/technologies?sector={code}"><span class="dot" '
@@ -959,19 +1009,9 @@ def routes(tools, key: str) -> list:
                 + _select("kind", KIND_OPTIONS, kind or "all") + " " + _select("sector", SECTOR_OPTIONS, sector)
                 + ' <button type="submit">Search</button></form></section>']
         if query.strip():
-            results = tools.search(query, kind or "all", sector or None, None, None, None, 30)
-            # honest badge: fusion happens only when the index holds stored vectors, and the
+            results, semantic = _run_search(tools, query, kind, sector)
+            # honest badge: fusion happens when the data layer holds stored vectors and the
             # query embeds locally (fastembed) or via the edge service
-            try:
-                n_vectors = tools.db().execute("SELECT count(*) FROM vectors").fetchone()[0]
-            except Exception:
-                n_vectors = 0
-            try:
-                import embed_client
-                qvec_ok = bool(getattr(tools, "_embedder", None)) or embed_client.query_vector(query) is not None
-            except Exception:
-                qvec_ok = bool(getattr(tools, "_embedder", None))
-            semantic = n_vectors > 0 and qvec_ok
             mode = _badge("semantic") if semantic else _badge("keyword only")
             note = "" if semantic else ' <span class="muted small">vectors appear once the index is embedded</span>'
             sections = []
@@ -990,7 +1030,9 @@ def routes(tools, key: str) -> list:
     async def technologies(request: Request):
         qp = request.query_params
         sector, maturity, query = str(qp.get("sector") or ""), str(qp.get("maturity") or ""), str(qp.get("q") or "")
-        items = tools.compare_technologies(sector or None, maturity or None, None)
+        items = _neon_first(
+            lambda: technology_records.compare(pg.tech_cards(), sector or None, maturity or None, None),
+            lambda: tools.compare_technologies(sector or None, maturity or None, None))
         if query:
             needle = query.lower()
             items = [i for i in items if needle in f"{i.get('name', '')} {i.get('category', '')}".lower()]
@@ -1010,9 +1052,13 @@ def routes(tools, key: str) -> list:
         return _page("Technologies", body, active="/technologies")
 
     async def technology(request: Request):
-        card = tools.get_technology(request.path_params["technology_id"])
+        card = _neon_first(lambda: pg.tech_card(request.path_params["technology_id"]),
+                           lambda: tools.get_technology(request.path_params["technology_id"]))
         if not card:
             return _not_found("No technology card with that id.")
+        if "block_diagram_mermaid" not in card:  # the Neon card jsonb is raw; the SQLite one is not
+            card["block_diagram_mermaid"] = technology_records.mermaid(card)
+            card["licence"] = library.TECHNOLOGY_LICENCE
         body = [_card_head(card)]
         if card.get("principle"):
             body.append(_section("Principle", f"<p>{esc(card['principle'])}</p>"))
@@ -1048,12 +1094,15 @@ def routes(tools, key: str) -> list:
     async def vendors_page(request: Request):
         qp = request.query_params
         sector, role, query = str(qp.get("sector") or ""), str(qp.get("role") or ""), str(qp.get("q") or "")
-        items = tools.list_vendors(role or None, sector or None, query or None)
+        items = _neon_first(
+            lambda: pg.vendor_rows(role or None, sector or None, query or None),
+            lambda: tools.list_vendors(role or None, sector or None, query or None))
         vid = str(qp.get("id") or "")
         if vid:
             items = [v for v in items if v.get("id") == vid]
-        # linked technology names come from the built index, so the hosted server agrees with this page
-        card_names = {t.get("id"): t.get("name") for t in tools.compare_technologies()}
+        # linked technology names come from the data layer, so both sources agree on this page
+        card_names = _neon_first(pg.card_names,
+                                 lambda: {t.get("id"): t.get("name") for t in tools.compare_technologies()})
         body_rows = []
         for v in items:
             name = f'<a href="{esc(v["url"])}">{esc(v["name"])}</a>' if v.get("url") else esc(v["name"])
@@ -1075,7 +1124,7 @@ def routes(tools, key: str) -> list:
                 'the graph column opens the record in the network view.</p>'
                 + '<div class="scroll"><table><thead><tr><th>Vendor</th><th>Country</th><th>Roles</th><th>Products</th>'
                 + f'<th>Supplies</th><th></th></tr></thead><tbody>{"".join(body_rows)}</tbody></table></div></section>')
-        queue, notes = _coverage_queue()
+        queue, notes = _neon_first(pg.coverage_queue, _coverage_queue)
         if queue:
             blocks = "".join(f"<li><b>{esc(code)}</b> ({len(names)}): {esc('; '.join(names))}</li>"
                              for code, names in queue)
@@ -1097,12 +1146,16 @@ def routes(tools, key: str) -> list:
     async def equipment_page(request: Request):
         qp = request.query_params
         etype, query = str(qp.get("type") or ""), str(qp.get("q") or "")
-        items = tools.list_equipment(etype or None, query or None)
+        items = _neon_first(
+            lambda: pg.equipment_rows(etype or None, query or None),
+            lambda: tools.list_equipment(etype or None, query or None))
         eid = str(qp.get("id") or "")
         if eid:
             items = [e for e in items if e.get("id") == eid]
-        vendor_names_by_id = {v.get("id"): v.get("name") for v in tools.list_vendors()}
-        card_names = {t.get("id"): t.get("name") for t in tools.compare_technologies()}
+        vendor_names_by_id = _neon_first(pg.vendor_names,
+                                         lambda: {v.get("id"): v.get("name") for v in tools.list_vendors()})
+        card_names = _neon_first(pg.card_names,
+                                 lambda: {t.get("id"): t.get("name") for t in tools.compare_technologies()})
 
         def detail(rec):
             specs = "".join(
@@ -1141,8 +1194,9 @@ def routes(tools, key: str) -> list:
         pieces.append(' <button type="submit">Filter</button></form>')
         for e in items:
             pieces.append(f"<h3>{esc(e['name'])} <span class=\"muted small\">{esc(e['id'])}</span></h3>")
-            rec = equipment_records.load_equipment() and next(
-                (r for r in equipment_records.load_equipment() if r["id"] == e["id"]), None)
+            rec = _neon_first(lambda eid=e["id"]: pg.equipment_row(eid),
+                              lambda eid=e["id"]: next((r for r in equipment_records.load_equipment()
+                                                        if r["id"] == eid), None))
             pieces.append(detail(rec) if rec else "<p class='muted small'>detail not available on this server</p>")
         pieces.append("</section>")
         return _page("Equipment", "".join(pieces), active="/equipment")
@@ -1150,7 +1204,9 @@ def routes(tools, key: str) -> list:
     async def register(request: Request):
         qp = request.query_params
         code, maturity, query = str(qp.get("code") or ""), str(qp.get("maturity") or ""), str(qp.get("q") or "")
-        entries = tools.list_technology_register(code or None, maturity or None, query or None)
+        entries = _neon_first(
+            lambda: pg.register_rows(code or None, maturity or None, query or None),
+            lambda: tools.list_technology_register(code or None, maturity or None, query or None))
         rows = "".join(
             "<tr><td>" + (f'<a href="/technologies/{esc(e.get("card"))}">{esc(e.get("name"))}</a> {_pill("card")}'
                           if e.get("card") else esc(e.get("name")))
@@ -1169,7 +1225,9 @@ def routes(tools, key: str) -> list:
     async def sources(request: Request):
         qp = request.query_params
         code, region, reuse = str(qp.get("code") or ""), str(qp.get("region") or ""), str(qp.get("reuse_level") or "")
-        items = tools.list_by_tag(code or None, region or None, reuse or None, None)
+        items = _neon_first(
+            lambda: pg.source_rows(code or None, region or None, reuse or None),
+            lambda: tools.list_by_tag(code or None, region or None, reuse or None, None))
         rows = "".join(
             f'<tr><td><a href="/sources/{esc(i.get("id"))}">{esc(i.get("name"))}</a></td>'
             f"<td>{esc(i.get('source_type'))}</td><td>{esc(', '.join(i.get('regions') or []))}</td>"
@@ -1184,7 +1242,8 @@ def routes(tools, key: str) -> list:
         return _page("Sources", body, active="/sources")
 
     async def source(request: Request):
-        rec = tools.get_source(request.path_params["source_id"])
+        rec = _neon_first(lambda: pg.source_row(request.path_params["source_id"]),
+                          lambda: tools.get_source(request.path_params["source_id"]))
         if not rec:
             return _not_found("No catalog source with that id.")
         url = rec.get("url") or ""
@@ -1220,7 +1279,7 @@ def routes(tools, key: str) -> list:
         path = request.query_params.get("path")
         if not path:
             return _bad_request("This address needs a ?path= parameter, as given by a search result.")
-        doc = tools.get_document(path)
+        doc = _neon_first(lambda: pg.document_row(path), lambda: tools.get_document(path))
         if not doc:
             return _not_found("No collected document at that path.")
         meta = doc.get("meta") or {}
@@ -1239,7 +1298,8 @@ def routes(tools, key: str) -> list:
     async def gaps(request: Request):
         qp = request.query_params
         sector, field = str(qp.get("sector") or ""), str(qp.get("field") or "")
-        rows = tools.list_gaps(sector or None, field or None, None, False)
+        rows = _neon_first(lambda: pg.gap_rows(sector or None, field or None),
+                           lambda: tools.list_gaps(sector or None, field or None, None, False))
         groups = {}
         for gap in rows:
             groups.setdefault((gap.get("card"), gap.get("technology")), []).append(gap)
@@ -1949,54 +2009,13 @@ def _hybrid_row(hit) -> str:
 
 
 def _coverage_queue():
-    """Supplier names on technology cards that no vendor directory record answers to, by sector.
-
-    Same rules as catalog/index/vendors.md (tools/build.py): compound entries split on '/' and
-    match part by part; leftovers are either nameable vendor candidates (queue) or descriptive
-    phrases that are not company names (notes). On a hosted server without the files it quietly
-    renders nothing. Keep in sync with the classifier in tools/build.py.
-    """
+    """Supplier names on technology cards that no vendor directory record answers to, by sector,
+    read from the catalog files. The Neon-backed read lives in pg.coverage_queue; the classifier
+    is shared (vendors.coverage_queue, same rules as tools/build.py)."""
     try:
         import technologies
         cards = technologies.load_cards()
         records = vendor_records.load_vendors()
     except OSError:
         return [], []
-    covered = set()
-    for v in records:
-        covered |= vendor_records.vendor_keys(v)
-    note_start = re.compile(
-        r"^(no |none |various |major |operators?|governments?|terminal |research |epc |contractors?|"
-        r"producers|licensors|consortia|programmes?|projects |stage|doe-funded|see )", re.I)
-    note_contains = re.compile(
-        r"\b(vendors|licensors|contractors|producers|operators|groups|programmes|consortia|companies)\b|"
-        r"none named|identified in", re.I)
-
-    def nameable(text):
-        head = re.sub(r"\([^)]*\)", "", text).strip()
-        if not head or note_start.search(head) or note_contains.search(head):
-            return False
-        return len(head.split()) <= 6
-
-    def classify(name):
-        parts = [p.strip() for p in name.split("/") if p.strip()]
-        leftovers = [p for p in parts if vendor_records.name_key(p) not in covered]
-        if len(parts) > 1 and len(leftovers) < len(parts):
-            return leftovers, []
-        if nameable(name):
-            return [name], []
-        return [], [name]
-
-    queue, notes = {}, {}
-    for c in cards:
-        for s in c["suppliers"]:
-            raw = s["name"]
-            if vendor_records.name_key(raw) in covered:
-                continue
-            q_parts, n_parts = classify(raw)
-            for p in q_parts:
-                queue.setdefault(c["sector"], {})[vendor_records.name_key(p)] = p
-            for p in n_parts:
-                notes.setdefault(c["sector"], {})[vendor_records.name_key(p)] = p
-    return (sorted((code, sorted(names.values(), key=str.lower)) for code, names in queue.items()),
-            sorted((code, sorted(names.values(), key=str.lower)) for code, names in notes.items()))
+    return vendor_records.coverage_queue(cards, records)

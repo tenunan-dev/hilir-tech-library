@@ -33,3 +33,52 @@ def summary(vendor):
             "roles": vendor.get("roles", []), "aliases": vendor.get("aliases", []),
             "products": vendor.get("products", []), "url": vendor.get("url"),
             "technologies": vendor.get("technologies", [])}
+
+
+def coverage_queue(cards, records):
+    """Supplier names on technology cards that no vendor directory record answers to, by sector.
+
+    Same rules as catalog/index/vendors.md (tools/build.py): compound entries split on '/' and
+    match part by part; leftovers are either nameable vendor candidates (queue) or descriptive
+    phrases that are not company names (notes). `cards` are card dicts (id, sector, suppliers),
+    `records` vendor dicts (name, aliases) — fed from the catalog files by web.py or from
+    og.technology / og.vendor by pg.coverage_queue.
+    """
+    covered = set()
+    for v in records:
+        covered |= vendor_keys(v)
+    note_start = re.compile(
+        r"^(no |none |various |major |operators?|governments?|terminal |research |epc |contractors?|"
+        r"producers|licensors|consortia|programmes?|projects |stage|doe-funded|see )", re.I)
+    note_contains = re.compile(
+        r"\b(vendors|licensors|contractors|producers|operators|groups|programmes|consortia|companies)\b|"
+        r"none named|identified in", re.I)
+
+    def nameable(text):
+        head = re.sub(r"\([^)]*\)", "", text).strip()
+        if not head or note_start.search(head) or note_contains.search(head):
+            return False
+        return len(head.split()) <= 6
+
+    def classify(name):
+        parts = [p.strip() for p in name.split("/") if p.strip()]
+        leftovers = [p for p in parts if name_key(p) not in covered]
+        if len(parts) > 1 and len(leftovers) < len(parts):
+            return leftovers, []
+        if nameable(name):
+            return [name], []
+        return [], [name]
+
+    queue, notes = {}, {}
+    for c in cards:
+        for s in c["suppliers"]:
+            raw = s["name"]
+            if name_key(raw) in covered:
+                continue
+            q_parts, n_parts = classify(raw)
+            for p in q_parts:
+                queue.setdefault(c["sector"], {})[name_key(p)] = p
+            for p in n_parts:
+                notes.setdefault(c["sector"], {})[name_key(p)] = p
+    return (sorted((code, sorted(names.values(), key=str.lower)) for code, names in queue.items()),
+            sorted((code, sorted(names.values(), key=str.lower)) for code, names in notes.items()))
