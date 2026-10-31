@@ -886,8 +886,15 @@ def _neon_first(neon, sqlite):
 
 
 def _query_vector(tools, query):
-    """Query embedding for the Neon search: local fastembed when present, else the edge /__embed
-    service (decision #32). None keeps the search keyword-only."""
+    """Query embedding for the Neon search: the server module's helper (local fastembed — the
+    split containers warm the model cache — else the retired edge service), then the direct
+    fallbacks for checkouts without it. None keeps the search keyword-only."""
+    helper = getattr(tools, "_query_vector", None)
+    if helper is not None:
+        try:
+            return helper(query)
+        except Exception:
+            return None
     embedder = getattr(tools, "_embedder", None)
     if embedder:
         return list(embedder([query])[0])
