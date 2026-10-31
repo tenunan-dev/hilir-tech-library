@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS document (
     sectors       text[] NOT NULL DEFAULT '{}',
     text_included boolean NOT NULL DEFAULT false,   -- false: metadata only (restricted text stays private)
     summary       text,                             -- our own short summary, never copied text
-    body          text,                             -- full text, open-licence documents only (text_included); NULL otherwise
+    body          text,                             -- full text, open-licence documents only (text_included), NULL otherwise
     meta          jsonb NOT NULL
 );
 CREATE INDEX IF NOT EXISTS document_source_idx ON document (source_id);
@@ -210,18 +210,22 @@ CREATE INDEX IF NOT EXISTS edge_dst_idx ON edge (dst, rel);
 CREATE INDEX IF NOT EXISTS chunk_embedding_idx ON chunk USING hnsw (embedding vector_cosine_ops);
 CREATE INDEX IF NOT EXISTS technology_embedding_idx ON technology USING hnsw (embedding vector_cosine_ops);
 CREATE INDEX IF NOT EXISTS node_embedding_idx ON node USING hnsw (embedding vector_cosine_ops);
-CREATE INDEX IF NOT EXISTS source_tsv_idx ON source USING gin (tsv);
-CREATE INDEX IF NOT EXISTS source_embedding_idx ON source USING hnsw (embedding vector_cosine_ops);
 
 -- ---------------------------------------------------------------- upgrades
 -- Idempotent upgrades for databases created by older schema versions; the loader re-runs this
 -- file on every load, and each statement is a no-op once applied (2026-10-31, decision #34 Phase 0).
+-- The source tsv/embedding indexes live here too, after the columns they need exist on old databases.
 ALTER TABLE document ADD COLUMN IF NOT EXISTS body text;
 ALTER TABLE vendor ADD COLUMN IF NOT EXISTS aliases text[] NOT NULL DEFAULT '{}';
 ALTER TABLE equipment ADD COLUMN IF NOT EXISTS sources jsonb NOT NULL DEFAULT '[]';
 ALTER TABLE source ADD COLUMN IF NOT EXISTS embedding vector(384);
 ALTER TABLE source ADD COLUMN IF NOT EXISTS tsv tsvector GENERATED ALWAYS AS (
     to_tsvector('english', name || ' ' || publisher_org || ' ' || source_type || ' ' || coalesce(notes, ''))) STORED;
+CREATE INDEX IF NOT EXISTS source_tsv_idx ON source USING gin (tsv);
+CREATE INDEX IF NOT EXISTS source_embedding_idx ON source USING hnsw (embedding vector_cosine_ops);
+-- the pre-2026-10-31 hybrid_search had three arguments; CREATE OR REPLACE cannot change a
+-- signature, so the old overload is dropped explicitly (no-op once gone)
+DROP FUNCTION IF EXISTS hybrid_search(text, vector, integer);
 
 -- ---------------------------------------------------------------- views and functions
 -- Technologies that cite the same source: a quick way to find related cards.
@@ -285,14 +289,19 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         FROM source s
     ),
     tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
+    -- one rank pool per kind: 11k passages must not crowd cards, vendors, equipment and
+    -- sources out of the candidate set (each kind contributes up to 50 candidates to the fusion)
     kw AS (
-        SELECT kind, ref, row_number() OVER (ORDER BY ts_rank_cd(tsv, tq.query) DESC) AS r
-        FROM items, tq WHERE tsv @@ tq.query AND (sector IS NULL OR sector = ANY (sectors)) LIMIT 50
+        SELECT kind, ref, r FROM (
+            SELECT kind, ref, row_number() OVER (PARTITION BY kind ORDER BY ts_rank_cd(tsv, tq.query) DESC) AS r
+            FROM items, tq WHERE tsv @@ tq.query AND (sector IS NULL OR sector = ANY (sectors))
+        ) ranked WHERE r <= 50
     ),
     vec AS (
-        SELECT kind, ref, row_number() OVER (ORDER BY embedding <=> qvec) AS r
-        FROM items WHERE qvec IS NOT NULL AND embedding IS NOT NULL AND (sector IS NULL OR sector = ANY (sectors))
-        ORDER BY embedding <=> qvec LIMIT 50
+        SELECT kind, ref, r FROM (
+            SELECT kind, ref, row_number() OVER (PARTITION BY kind ORDER BY embedding <=> qvec) AS r
+            FROM items WHERE qvec IS NOT NULL AND embedding IS NOT NULL AND (sector IS NULL OR sector = ANY (sectors))
+        ) ranked WHERE r <= 50
     ),
     fused AS (
         SELECT kind, ref, sum(1.0 / (60 + r)) AS score FROM (SELECT * FROM kw UNION ALL SELECT * FROM vec) u GROUP BY kind, ref
