@@ -89,13 +89,16 @@ def collect(include_restricted=False):
         meta["sectors"] = library.doc_sectors(meta.get("title", ""), body, meta.get("sectors", []))
         rel = str(path.relative_to(library.ROOT))
         text_ok = include_restricted or meta.get("reuse_level") == "full-text-open"
+        # Same chunking as the SQLite index build (library.build): the summary leads the first
+        # chunk, so chunk ids — and therefore vectors — match one-to-one across both layers.
+        indexed = f"{meta.get('summary')}\n\n{body}" if meta.get("summary") else body
         docs.append({"id": rel, "source_id": meta.get("source_id") if meta.get("source_id") in by_id else None,
                      "title": meta.get("title"), "url": meta.get("url"), "licence": meta.get("licence"),
                      "reuse_level": meta.get("reuse_level"), "retrieved_at": meta.get("retrieved_at"),
                      "sha256": meta.get("sha256"), "sectors": meta["sectors"], "text_included": text_ok,
                      "summary": meta.get("summary"), "body": body if text_ok else None, "meta": meta})
         if text_ok:
-            for i, text in enumerate(library.chunk(body)):
+            for i, text in enumerate(library.chunk(indexed)):
                 chunks.append({"id": f"{rel}#{i}", "document_id": rel, "ord": i, "title": meta.get("title"), "body": text})
     return {"labels": labels, "records": records, "cards": cards, "entries": entries, "vendors": vendor_recs,
             "equipment": equipment_recs, "docs": docs, "chunks": chunks}
