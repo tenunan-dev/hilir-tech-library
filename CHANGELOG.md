@@ -19,6 +19,22 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - Wiring parallel to vendors: `tools/build.py` writes `catalog/equipment.jsonl` + `catalog/index/equipment.md`; MCP tools `list_equipment`/`get_equipment` (16 in total); REST `/api/equipment`, `/api/equipment/{id}`; web page `/equipment` with spec tables, Library nav entry and the search-kind filter; Dockerfile index stage gains `agent/equipment.py`.
 - `tests/test_equipment.py` (schema, link resolution, basis presence, index/search round-trip).
 
+## [2026.10.31.3] — 2026-10-31 — Frontend/backend split: Phase 2+3 code (deploy pending owner domain call)
+
+### Added
+- `deploy/frontend/` + `deploy/backend/`: two Workers and two slim containers for the split (decision #34). Frontend `og-tech-library-ui` (techlib.hilir.app): session-cookie model, forwards UI paths + key-held `/api/stats`, `/api/version`, `/api/openapi.json`, 404s the rest; `/equipment` is now in the UI-prefix sync. Backend `og-tech-library-api` (api.hilir.app, the plan's written default — not confirmed): API-key edge check + OAuth `/mcp`, `/__embed` kept pending P3.1. Forwarding is explicit path+query to a synthetic internal origin (no caller-URL pass-through). Both TypeScript-clean.
+- `deploy/docker/Dockerfile.frontend` + `.backend`: neither runs an embed step (R1); the SQLite fallback index builds in-image in seconds and the fastembed model cache warms for runtime query embedding only; restricted documents never enter the images.
+- Drift stamp (R4): `pg.drift_stamp()` + `/api/version` (Neon first, `sqlite-fallback` layer tag otherwise), in the OpenAPI spec and the frontend Worker's key-held forwards.
+- Graceful degradation (R5): pages show a "live database unreachable — fallback index may be stale" notice when a configured Neon read fails (per-request flag + `_page` banner + test).
+
+### Changed
+- MCP/REST `search` reads Neon `hybrid_search` first (local fastembed query vector, sector filter) with the SQLite index as fallback; `/api/stats` reads Neon first too.
+- `server.http_app(with_web=False)` + `LIBRARY_WEB=off`: the backend container mounts no UI routes (tested).
+- Docs sweep: HOSTING.md (split section: deploy steps, secrets, degradation, rollback), ARCHITECTURE.md (Neon as the live read layer, incremental publish pipeline, split hosting), plan §7 log. USER_GUIDE.md intentionally untouched until the cutover deploys.
+
+### Not deployed
+- The live cutover (P2.4) waits on the owner's P0.3 confirmation of the backend domain. The production single-Worker deployment is untouched; `deploy/cloudflare/` remains the rollback config.
+
 ## [2026.10.31.2] — 2026-10-31 — Frontend/backend split: Phase 0 audit + Phase 1 (web reads Neon) landed
 
 ### Added
