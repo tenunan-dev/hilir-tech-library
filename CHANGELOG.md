@@ -19,6 +19,19 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - Wiring parallel to vendors: `tools/build.py` writes `catalog/equipment.jsonl` + `catalog/index/equipment.md`; MCP tools `list_equipment`/`get_equipment` (16 in total); REST `/api/equipment`, `/api/equipment/{id}`; web page `/equipment` with spec tables, Library nav entry and the search-kind filter; Dockerfile index stage gains `agent/equipment.py`.
 - `tests/test_equipment.py` (schema, link resolution, basis presence, index/search round-trip).
 
+## [2026.10.31.2] — 2026-10-31 — Frontend/backend split: Phase 0 audit + Phase 1 (web reads Neon) landed
+
+### Added
+- Phase 0 audit (`research/frontend-split/read-paths.md`): every web.py handler mapped to today's data source and its Neon counterpart, verified against live Neon; gaps found and closed.
+- `agent/pg.py` catalog-read layer for the web UI: `library_stats`, `tech_cards`/`tech_card`, `vendor_rows`/`vendor_row`/`vendor_names`, `card_names`, `coverage_queue`, `source_rows`/`source_row`, `document_row`, `gap_rows`, `register_rows`, `equipment_rows`/`equipment_row`, `search_vector_count`, `search_library` (hybrid_search + per-kind enrichment).
+- The web pages now read **Neon first with the SQLite index as automatic fallback** (`web._neon_first`): home, search, technologies, vendors (incl. coverage queue from og), equipment (detail incl. sources from og.equipment), register, sources, documents (full text from og.document.body), gaps, source pages. Offline tests stay green.
+- `tests/test_render_parity.py` (gated on `TEST_DATABASE_URL`, scratch-only): 11 content-parity tests across every page, including byte-identical document text. Verified 11/11 against a throwaway pgvector container (test_graph db tests 8/8 too).
+- `agent/embed.py --incremental` (R6): vectors cached by (kind, ref) + text hash in `build/embed-cache.db`; only new/changed rows embed; `--kind`/`--ref` narrow by-id; a model change wipes the cache; an existing vectors table is adopted on first run. A one-supplier publish embeds in seconds.
+
+### Changed
+- Postgres schema (idempotent upgrades in `db/schema.sql`): `document.body` (open-licence text only, restricted stays NULL), `vendor.aliases`, `equipment.sources`, `source.embedding` + generated `tsv`; `hybrid_search(q, qvec, k, sector)` gains the `source` kind, an optional sector filter and **per-kind rank pools** (a global pool let 11k passages crowd cards, vendors, equipment and sources out of every result — fixed); the old 3-arg overload is dropped. Neon reloaded in one transaction: 12,586 vectors preserved.
+- The Postgres loader now chunks with the summary prefix exactly like `library.build`, so chunk ids (and vectors) match one-to-one across the SQLite and Neon layers; the 27-chunk drift between the layers is closed.
+
 ## [2026.10.31.1] — 2026-10-31 — Frontend/backend split plan approved (decision #34)
 
 ### Added

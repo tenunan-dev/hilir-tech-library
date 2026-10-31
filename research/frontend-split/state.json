@@ -32,7 +32,7 @@
     {
       "id": "P1",
       "name": "Frontend reads Neon (SQLite = fallback)",
-      "status": "queued",
+      "status": "done",
       "tasks": [
         {
           "id": "P1.1",
@@ -85,7 +85,8 @@
         {
           "id": "P1.9",
           "desc": "render-parity tests: each page on TEST_DATABASE_URL renders identical content to SQLite render",
-          "status": "queued"
+          "status": "done",
+          "result": "2026-10-31 tests/test_render_parity.py (gated on TEST_DATABASE_URL, scratch-only): 11 content-parity tests \u2014 home stats, technologies ids, card page sources, vendors count+queue, equipment ids+detail sections, register counts, sources ids+filters, source page documents, byte-identical document text, gaps count, search sections/refs. Verified live against a throwaway pgvector container: 11/11 pass (+ test_graph db tests 8/8). Prerequisite fixed: the Postgres loader now chunks WITH the summary prefix exactly like library.build, so chunk ids and vectors match one-to-one across layers; Neon reloaded (11466 chunks, 12586 vectors) \u2014 the old 27-chunk drift is closed."
         }
       ]
     },
