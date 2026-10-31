@@ -51,19 +51,22 @@ function storeDsnHeaders(request: Request, env: Env): Headers {
   return headers;
 }
 
-async function toContainer(request: Request, env: Env, injectKey: boolean): Promise<Response> {
+// Forwarding is strict passthrough: the client's own credential (session cookie for UI paths,
+// API key for the key-held endpoints) travels untouched and the container verifies it for real.
+// The Worker NEVER injects the library key — injecting it on UI paths would make the container's
+// session gate treat every visitor as the key account (observed 2026-10-31: home rendered 200
+// unauthenticated). The container exempts web paths from its ASGI key gate, so UI requests need
+// no key; the session cookie is checked inside web.py.
+async function toContainer(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
   const headers = storeDsnHeaders(request, env);
-  if (injectKey) {
-    headers.delete("authorization");
-    headers.delete("x-api-key");
-    headers.set("x-api-key", env.LIBRARY_API_KEY);
-  }
-  // injectKey=false is the passthrough: the client's own credential travels untouched and the
-  // container verifies it for real (master key, or a per-user hlt_ key against the account store).
   const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
+  // redirect:"manual" is load-bearing: the container answers unauthenticated UI paths with a
+  // 303 to /login (Set-Cookie on the login POST rides that 303 too). The default "follow"
+  // swallowed redirects inside the Worker — the browser never saw the cookie and every gate
+  // rendered the sign-in page with a 200 (observed 2026-10-31, fixed the same hour).
   return getContainer(env.LIBRARY, "main").fetch(INTERNAL + url.pathname + url.search,
-                                                 { method: request.method, headers, body });
+                                                 { method: request.method, headers, body, redirect: "manual" });
 }
 
 
@@ -76,10 +79,10 @@ export default {
     // key-held read-only API surfaces kept on this domain (the client's own key travels; the
     // container verifies it — the Worker never injects one for these)
     if (url.pathname === "/api/stats" || url.pathname === "/api/version" || url.pathname === "/api/openapi.json") {
-      return hasClientKey(request) ? toContainer(request, env, false)
+      return hasClientKey(request) ? toContainer(request, env)
         : Response.json({ error: "missing or wrong API key" }, { status: 401 });
     }
-    if (isUi(url.pathname)) return toContainer(request, env, true);
+    if (isUi(url.pathname)) return toContainer(request, env);
     return Response.json({ error: "the web UI lives here; MCP and the REST API live at " +
                                     (env.API_ORIGIN ?? "the api origin") }, { status: 404 });
   },
