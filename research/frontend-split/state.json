@@ -93,27 +93,31 @@
     {
       "id": "P2",
       "name": "Split deployments (two Workers, two containers)",
-      "status": "queued",
+      "status": "partial",
       "tasks": [
         {
           "id": "P2.1",
           "desc": "deploy/frontend/ + deploy/backend/ wrangler configs (routes per P0.3 decision)",
-          "status": "queued"
+          "status": "done",
+          "result": "2026-10-31 deploy/frontend/ + deploy/backend/ written (wrangler configs, Workers, package.json, tsconfig): frontend og-tech-library-ui on techlib.hilir.app, backend og-tech-library-api on api.hilir.app (the plan's written default \u2014 NOT deployed; P0.3 owner confirmation gates the deploy). Both TS typecheck clean. deploy/cloudflare kept untouched as the rollback config."
         },
         {
           "id": "P2.2",
           "desc": "frontend Worker: session-cookie auth only; backend Worker: API-key + OAuth only",
-          "status": "queued"
+          "status": "done",
+          "result": "Frontend Worker: session-cookie model, injects the library key only for the container hop, forwards UI paths + key-held /api/stats and /api/openapi.json, 404s everything else; /equipment added to the UI prefix sync (was missing pre-split). Backend Worker: API-key edge check for /api + OAuth provider for /mcp (resource https://api.hilir.app/mcp) + /__embed kept pending P3.1. Forwarding is explicit path+query to a synthetic internal origin (no caller-URL pass-through)."
         },
         {
           "id": "P2.3",
           "desc": "container split; REMOVE embed from both Dockerfiles (R1); frontend image = web.py + pg (no corpus handling)",
-          "status": "queued"
+          "status": "done",
+          "result": "deploy/docker/Dockerfile.frontend + Dockerfile.backend: both build the SQLite index WITHOUT any embed step (R1; fast deploys) and warm the fastembed model cache for runtime QUERY embedding only; restricted docs never enter the images (export_public). Backend container sets LIBRARY_WEB=off \u2014 server.http_app(with_web=False) mounts no UI routes (new test). server.search() now runs Neon hybrid_search first (with local qvec) and falls back to SQLite; api.py /api/stats reads Neon first. Live-verified server.search: all five kinds + sector filter from Neon, SQLite fallback clean."
         },
         {
           "id": "P2.4",
           "desc": "live verify: both /health, search from each container, dry-run publish (one vendor \u2192 visible both sides, no deploy)",
-          "status": "queued"
+          "status": "blocked-temporary",
+          "retry_after": "owner confirms P0.3 (api.hilir.app) \u2014 then: wrangler deploy in deploy/frontend + deploy/backend, secrets per HOSTING.md, live verify + one-vendor dry-run publish"
         },
         {
           "id": "P2.5",

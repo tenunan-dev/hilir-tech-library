@@ -37,3 +37,11 @@ def test_initialize_with_key(auth):
 def test_http_mode_refuses_short_key(monkeypatch):
     monkeypatch.setenv("LIBRARY_API_KEY", "short")
     assert server.main(["--http"]) == 2
+
+
+def test_backend_mode_serves_no_ui():
+    """LIBRARY_WEB=off (the split backend container): no UI routes, the key gate covers everything."""
+    with starlette_testclient.TestClient(server.http_app(KEY, with_web=False)) as c:
+        assert c.get("/technologies", headers={"x-api-key": KEY}).status_code == 404
+        assert c.get("/", headers={"x-api-key": KEY}).status_code == 404
+        assert c.get("/", headers={"x-api-key": "w" * 32}).status_code == 401

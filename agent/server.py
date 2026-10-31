@@ -66,12 +66,23 @@ def db():
 @server.tool()
 def search(query: str, kind: str = "all", sector: str | None = None, discipline: str | None = None,
            region: str | None = None, reuse_level: str | None = None, limit: int = 10) -> list[dict]:
-    """Search catalog sources, collected documents, technology cards and vendor records.
+    """Search catalog sources, collected documents, technology cards, vendor and equipment records.
 
     kind: "all", "source" (catalog records), "chunk" (passages from collected documents),
-    "technology" (cards) or "vendor" (vendor directory records).
+    "technology" (cards), "vendor" (vendor directory records) or "equipment" (equipment classes).
     sector / discipline: a taxonomy code such as H2 or ROT. region: e.g. sea, apac, global.
     """
+    # Decision #34: with a database configured, search runs on Neon (single source of truth —
+    # a publish shows up here without a deploy); the SQLite index is the fallback. discipline
+    # and region filters exist only on the SQLite path (Neon search filters by sector).
+    if pg.configured() and not discipline and not region:
+        try:
+            import embed as embed_module
+            embedder = embed_module.load_embedder(db())
+            qvec = list(embedder([query])[0]) if embedder else _query_vector(query)
+            return pg.search_library(query, kind, sector, min(limit, 50), qvec)
+        except (pg.NotConfigured, pg.DatabaseError):
+            pass
     database = db()
     # Local fastembed first (_embedder); the hosted container has none, so it asks the
     # edge /__embed service for the query vector instead (decision #32).
@@ -84,6 +95,25 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
             qvec = None
     return library.search(query, kind, sector, discipline, region, reuse_level, min(limit, 50), database,
                           _embedder or None, EXCLUDE_RESTRICTED, query_vector=qvec)
+
+
+def _query_vector(query: str):
+    """Query embedding without the SQLite index's model row (the split containers keep no
+    embeddings): local fastembed with the default model, else the edge /__embed service."""
+    try:
+        import embed as embed_module
+        model = embed_module._model(embed_module.DEFAULT_MODEL)
+
+        def embed(texts):
+            import numpy as np
+            return [np.asarray(v, dtype=np.float32) / np.linalg.norm(v) for v in model.query_embed(texts)]
+        return list(embed([query])[0])
+    except Exception:
+        try:
+            import embed_client
+            return embed_client.query_vector(query)
+        except Exception:
+            return None
 
 
 @server.tool()
@@ -214,13 +244,16 @@ class RequireApiKey:
     """ASGI middleware: reject requests without the API key (x-api-key or Authorization: Bearer).
 
     The library key grants full access; per-user keys (hlt_…, agent/userstore.py) are accepted
-    when the account store resolves them — they act as their owning account."""
+    when the account store resolves them — they act as their owning account. web=True exempts
+    the UI paths (they authenticate with the session cookie inside web.py); a backend-only
+    container (LIBRARY_WEB=off) exempts nothing."""
 
-    def __init__(self, app, key):
-        self.app, self.key = app, key.encode()
+    def __init__(self, app, key, web=True):
+        self.app, self.key, self.web = app, key.encode(), web
 
     async def __call__(self, scope, receive, send):
-        if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS and not web.is_web_path(scope["path"]):
+        if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS \
+                and not (self.web and web.is_web_path(scope["path"])):
             headers = dict(scope["headers"])
             dsn = headers.get(b"x-user-store-dsn")
             userstore.set_dsn_from_header(dsn.decode("utf-8", "replace") if dsn is not None else None)
@@ -234,7 +267,7 @@ class RequireApiKey:
         await self.app(scope, receive, send)
 
 
-def http_app(key):
+def http_app(key, with_web=True):
     hosts = [h.strip() for h in os.environ.get("LIBRARY_ALLOWED_HOSTS", "").split(",") if h.strip()]
     try:
         from mcp.server.transport_security import TransportSecuritySettings
@@ -245,8 +278,9 @@ def http_app(key):
         server.settings.json_response = True
         app = server.streamable_http_app()
     app.router.routes.extend(api.routes(sys.modules[__name__]))  # REST API for agents without MCP
-    app.router.routes.extend(web.routes(sys.modules[__name__], key))
-    return RequireApiKey(app, key)
+    if with_web:
+        app.router.routes.extend(web.routes(sys.modules[__name__], key))
+    return RequireApiKey(app, key, with_web)
 
 
 def main(argv=None):
@@ -266,9 +300,10 @@ def main(argv=None):
         print("Set LIBRARY_API_KEY (at least 24 characters) before serving over HTTP.", file=sys.stderr)
         return 2
     EXCLUDE_RESTRICTED = not args.include_restricted
+    web_on = os.environ.get("LIBRARY_WEB", "on").lower() not in ("off", "0", "false", "no")
     db()
     import uvicorn
-    uvicorn.run(http_app(key), host=args.host, port=args.port)
+    uvicorn.run(http_app(key, with_web=web_on), host=args.host, port=args.port)
     return 0
 
 

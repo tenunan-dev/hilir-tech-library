@@ -22,6 +22,7 @@ filtered by the tools module before it gets here.
 import html
 import hmac
 import json
+import os
 import re
 import time
 import urllib.parse
@@ -87,6 +88,10 @@ SQL_EXAMPLES = (
      "SELECT node_id, kind, label, depth FROM graph_neighbors('technology:ups-co2-eor', 2, ARRAY['cites','supplied_by','mentions'])"),
     ("hybrid search", "SELECT kind, ref, title, score FROM hybrid_search('CO2 storage Malay Basin', NULL, 10)"),
 )
+# After the split (decision #34) MCP and the REST API live on their own origin; the frontend
+# container's Worker passes it as LIBRARY_API_PUBLIC_URL so the footer links point there.
+# Unset (single-container mode), the relative same-origin links work as before.
+API_PUBLIC_BASE = os.environ.get("LIBRARY_API_PUBLIC_URL", "").rstrip("/")
 MERMAID_SCRIPT = ('<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";'
                   'mermaid.initialize({startOnLoad:true,securityLevel:"strict"});</script>')
 
@@ -836,7 +841,7 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 {body}
 </main>
 <footer>Every result carries its licence — cite the url. full-text-restricted text is never served.
- · <a href="/api/openapi.json">REST API</a> · <a href="/mcp">MCP</a></footer>
+ · <a href="{API_PUBLIC_BASE}/api/openapi.json">REST API</a> · <a href="{API_PUBLIC_BASE}/mcp">MCP</a></footer>
 <script>
 // external references (vendor sites, document sources, citations) open in a new tab;
 // internal links and the API/MCP footer links stay in this one

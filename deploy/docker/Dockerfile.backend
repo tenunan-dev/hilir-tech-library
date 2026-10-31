@@ -1,0 +1,22 @@
+# Backend container of the split deployment (decision #34): MCP + REST at api.hilir.app with
+# API-key/OAuth auth. Search runs on Neon (hybrid_search) with local fastembed supplying the
+# query vector; the SQLite index is built WITHOUT embeddings (R1: no embed at deploy) and only
+# backs the get_*/list_* tools and the Neon-down fallback. Only catalog records and open-licence
+# documents enter the image (agent/export_public.py).
+FROM python:3.12-slim AS export
+WORKDIR /src
+COPY . .
+RUN pip install --no-cache-dir pyyaml && python agent/export_public.py /public
+
+FROM python:3.12-slim
+WORKDIR /app
+COPY --from=export /public .
+RUN pip install --no-cache-dir -r requirements-agent.txt "psycopg[binary]>=3.1" \
+ && python agent/library.py build \
+ && OMP_NUM_THREADS=4 python -c "import sys; sys.path.insert(0, 'agent'); import embed; from fastembed import TextEmbedding; TextEmbedding(model_name=embed.DEFAULT_MODEL)"
+ENV PORT=8000
+# The backend serves no web UI; its Worker routes only /mcp and /api (LIBRARY_WEB=off).
+ENV LIBRARY_WEB=off
+EXPOSE 8000
+# LIBRARY_API_KEY, DATABASE_URL and USER_STORE_URL are set at run time by the backend Worker.
+CMD ["python", "agent/server.py", "--http"]

@@ -6,6 +6,7 @@ Mounted by server.http_app() next to /mcp, behind the same API key. GET only, JS
 """
 import os
 
+import pg
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 from starlette.routing import Route
@@ -78,6 +79,13 @@ def routes(tools):
                                             q.get("include_no_card", "").lower() in ("1", "true", "yes")))
 
     async def stats(request: Request):
+        # Decision #34: the live counts come from Neon when it is configured (the baked SQLite
+        # index in a container is the fallback, and it can be stale); no embedding_model key.
+        if pg.configured():
+            try:
+                return JSONResponse(pg.library_stats())
+            except (pg.NotConfigured, pg.DatabaseError):
+                pass
         return JSONResponse(tools.library_stats())
 
     async def openapi(request: Request):

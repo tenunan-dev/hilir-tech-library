@@ -1,0 +1,28 @@
+{
+  // Frontend Worker of the split deployment (decision #34): the web UI at https://techlib.hilir.app.
+  // Session-cookie auth only (verified inside the container); no public API on this domain except
+  // key-held /api/stats and /api/openapi.json. Deploy from this folder: npx wrangler deploy
+  // (needs Docker running; builds ../docker/Dockerfile.frontend). Rollback: deploy/cloudflare is
+  // the pre-split single-Worker config and stays deployable until Phase 3 completes.
+  "name": "og-tech-library-ui",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "account_id": "afa8fa65e07832d7e611e831d150d3bd",
+  "observability": { "enabled": true },
+  "containers": [
+    {
+      "class_name": "LibraryUI",
+      "image": "../docker/Dockerfile.frontend",
+      "image_build_context": "../..",
+      "instance_type": "basic",
+      "max_instances": 1
+    }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "LIBRARY", "class_name": "LibraryUI" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["LibraryUI"] }],
+  "routes": [
+    { "pattern": "techlib.hilir.app", "custom_domain": true }
+  ]
+}
