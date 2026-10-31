@@ -28,7 +28,10 @@ CREATE TABLE IF NOT EXISTS source (
     last_verified    date,
     update_frequency text,
     notes            text,
-    record           jsonb NOT NULL
+    record           jsonb NOT NULL,
+    embedding        vector(384),
+    tsv              tsvector GENERATED ALWAYS AS (
+                       to_tsvector('english', name || ' ' || publisher_org || ' ' || source_type || ' ' || coalesce(notes, ''))) STORED
 );
 CREATE TABLE IF NOT EXISTS source_tag (
     source_id text NOT NULL REFERENCES source(id) ON DELETE CASCADE,
@@ -50,6 +53,7 @@ CREATE TABLE IF NOT EXISTS document (
     sectors       text[] NOT NULL DEFAULT '{}',
     text_included boolean NOT NULL DEFAULT false,   -- false: metadata only (restricted text stays private)
     summary       text,                             -- our own short summary, never copied text
+    body          text,                             -- full text, open-licence documents only (text_included); NULL otherwise
     meta          jsonb NOT NULL
 );
 CREATE INDEX IF NOT EXISTS document_source_idx ON document (source_id);
@@ -130,6 +134,7 @@ CREATE TABLE IF NOT EXISTS technology_gap (            -- missing inputs, with w
 CREATE TABLE IF NOT EXISTS vendor (                    -- curated vendor directory records
     id           text PRIMARY KEY,
     name         text NOT NULL,
+    aliases      text[] NOT NULL DEFAULT '{}',          -- alternate names, also matched by the coverage queue
     country      text,
     roles        text[] NOT NULL DEFAULT '{}',         -- oem, licensor, packager, epc, developer, operator, ...
     description  text NOT NULL,
@@ -154,6 +159,7 @@ CREATE TABLE IF NOT EXISTS equipment (                     -- curated equipment 
     vendors         text[] NOT NULL DEFAULT '{}',          -- vendor directory ids supplying this class
     technologies    text[] NOT NULL DEFAULT '{}',          -- technology cards using this class
     gaps            jsonb NOT NULL DEFAULT '[]',
+    sources         jsonb NOT NULL DEFAULT '[]',           -- the record's own sources (url, note)
     embedding       vector(384),
     tsv             tsvector GENERATED ALWAYS AS (
                       to_tsvector('english', name || ' ' || description)) STORED
@@ -204,6 +210,18 @@ CREATE INDEX IF NOT EXISTS edge_dst_idx ON edge (dst, rel);
 CREATE INDEX IF NOT EXISTS chunk_embedding_idx ON chunk USING hnsw (embedding vector_cosine_ops);
 CREATE INDEX IF NOT EXISTS technology_embedding_idx ON technology USING hnsw (embedding vector_cosine_ops);
 CREATE INDEX IF NOT EXISTS node_embedding_idx ON node USING hnsw (embedding vector_cosine_ops);
+CREATE INDEX IF NOT EXISTS source_tsv_idx ON source USING gin (tsv);
+CREATE INDEX IF NOT EXISTS source_embedding_idx ON source USING hnsw (embedding vector_cosine_ops);
+
+-- ---------------------------------------------------------------- upgrades
+-- Idempotent upgrades for databases created by older schema versions; the loader re-runs this
+-- file on every load, and each statement is a no-op once applied (2026-10-31, decision #34 Phase 0).
+ALTER TABLE document ADD COLUMN IF NOT EXISTS body text;
+ALTER TABLE vendor ADD COLUMN IF NOT EXISTS aliases text[] NOT NULL DEFAULT '{}';
+ALTER TABLE equipment ADD COLUMN IF NOT EXISTS sources jsonb NOT NULL DEFAULT '[]';
+ALTER TABLE source ADD COLUMN IF NOT EXISTS embedding vector(384);
+ALTER TABLE source ADD COLUMN IF NOT EXISTS tsv tsvector GENERATED ALWAYS AS (
+    to_tsvector('english', name || ' ' || publisher_org || ' ' || source_type || ' ' || coalesce(notes, ''))) STORED;
 
 -- ---------------------------------------------------------------- views and functions
 -- Technologies that cite the same source: a quick way to find related cards.
@@ -244,27 +262,37 @@ RETURNS TABLE (node_id text, kind text, label text, depth integer, via text[]) L
     ORDER BY w.node_id, w.depth;
 $$;
 
--- Hybrid search over passages, cards and vendor records: reciprocal rank fusion of full-text and vector
--- ranks. qvec may be NULL (keyword only). Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
-CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10)
+-- Hybrid search over passages, cards, vendor records, equipment classes and catalog sources:
+-- reciprocal rank fusion of full-text and vector ranks. qvec may be NULL (keyword only); sector
+-- (optional) narrows to one taxonomy code, matching how the SQLite search filters each kind.
+-- Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
+CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10, sector text DEFAULT NULL)
 RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE sql STABLE AS $$
     WITH items AS (
-        SELECT 'chunk'::text AS kind, c.id AS ref, c.title, c.tsv, c.embedding FROM chunk c
+        SELECT 'chunk'::text AS kind, c.id AS ref, c.title, c.tsv, c.embedding, d.sectors
+        FROM chunk c JOIN document d ON d.id = c.document_id
         UNION ALL
-        SELECT 'technology', t.id, t.name, t.tsv, t.embedding FROM technology t
+        SELECT 'technology', t.id, t.name, t.tsv, t.embedding, ARRAY[t.sector] FROM technology t
         UNION ALL
-        SELECT 'vendor', v.id, v.name, v.tsv, v.embedding FROM vendor v
+        SELECT 'vendor', v.id, v.name, v.tsv, v.embedding,
+               (SELECT array_agg(DISTINCT t.sector) FROM technology t WHERE t.id = ANY (v.technologies))
+        FROM vendor v
         UNION ALL
-        SELECT 'equipment', e.id, e.name, e.tsv, e.embedding FROM equipment e
+        SELECT 'equipment', e.id, e.name, e.tsv, e.embedding, e.sector_codes FROM equipment e
+        UNION ALL
+        SELECT 'source', s.id, s.name, s.tsv, s.embedding,
+               (SELECT array_agg(code) FROM source_tag st WHERE st.source_id = s.id AND st.kind = 'sector')
+        FROM source s
     ),
     tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
     kw AS (
         SELECT kind, ref, row_number() OVER (ORDER BY ts_rank_cd(tsv, tq.query) DESC) AS r
-        FROM items, tq WHERE tsv @@ tq.query LIMIT 50
+        FROM items, tq WHERE tsv @@ tq.query AND (sector IS NULL OR sector = ANY (sectors)) LIMIT 50
     ),
     vec AS (
         SELECT kind, ref, row_number() OVER (ORDER BY embedding <=> qvec) AS r
-        FROM items WHERE qvec IS NOT NULL AND embedding IS NOT NULL ORDER BY embedding <=> qvec LIMIT 50
+        FROM items WHERE qvec IS NOT NULL AND embedding IS NOT NULL AND (sector IS NULL OR sector = ANY (sectors))
+        ORDER BY embedding <=> qvec LIMIT 50
     ),
     fused AS (
         SELECT kind, ref, sum(1.0 / (60 + r)) AS score FROM (SELECT * FROM kw UNION ALL SELECT * FROM vec) u GROUP BY kind, ref

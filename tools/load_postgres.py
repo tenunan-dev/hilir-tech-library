@@ -93,7 +93,7 @@ def collect(include_restricted=False):
                      "title": meta.get("title"), "url": meta.get("url"), "licence": meta.get("licence"),
                      "reuse_level": meta.get("reuse_level"), "retrieved_at": meta.get("retrieved_at"),
                      "sha256": meta.get("sha256"), "sectors": meta["sectors"], "text_included": text_ok,
-                     "summary": meta.get("summary"), "meta": meta})
+                     "summary": meta.get("summary"), "body": body if text_ok else None, "meta": meta})
         if text_ok:
             for i, text in enumerate(library.chunk(body)):
                 chunks.append({"id": f"{rel}#{i}", "document_id": rel, "ord": i, "title": meta.get("title"), "body": text})
@@ -118,20 +118,22 @@ def load(conn, data, nodes, edges, vectors):
     cur.execute("SET search_path = og, public")
     cur.execute("TRUNCATE " + ", ".join(TABLES) + " RESTART IDENTITY CASCADE")
     for r in data["records"]:
+        vec = vectors.get(("source", r["id"]))
         cur.execute("""INSERT INTO source (id, name, url, source_type, publisher_org, country, access, licence, reuse_level,
-                       permitted_use, automated_access, quality_tier, verification, last_verified, update_frequency, notes, record)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                       permitted_use, automated_access, quality_tier, verification, last_verified, update_frequency, notes, record, embedding)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
                     (r["id"], r["name"], r["url"], r["source_type"], r["publisher_org"], r.get("country"), r["access"], r["licence"],
                      r["reuse_level"], r.get("permitted_use"), r.get("automated_access"), r.get("quality_tier"), r["verification"],
-                     r.get("last_verified"), r.get("update_frequency"), r.get("notes"), json.dumps(r)))
+                     r.get("last_verified"), r.get("update_frequency"), r.get("notes"), json.dumps(r),
+                     vec_text(vec) if vec is not None else None))
         for kind, key in (("sector", "sectors"), ("discipline", "disciplines"), ("region", "regions")):
             for code in r.get(key, []):
                 cur.execute("INSERT INTO source_tag VALUES (%s,%s,%s)", (r["id"], kind, code))
     for d in data["docs"]:
         cur.execute("""INSERT INTO document (id, source_id, title, url, licence, reuse_level, retrieved_at, sha256, sectors,
-                       text_included, summary, meta) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                       text_included, summary, body, meta) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
                     (d["id"], d["source_id"], d["title"], d["url"], d["licence"], d["reuse_level"], d["retrieved_at"], d["sha256"],
-                     d["sectors"], d["text_included"], d["summary"], json.dumps(d["meta"])))
+                     d["sectors"], d["text_included"], d["summary"], d["body"], json.dumps(d["meta"])))
     cur.executemany("INSERT INTO chunk (id, document_id, ord, title, body, embedding) VALUES (%s,%s,%s,%s,%s,%s::vector)",
                     [(c["id"], c["document_id"], c["ord"], c["title"], c["body"],
                       vec_text(vectors[("chunk", c["id"])]) if ("chunk", c["id"]) in vectors else None) for c in data["chunks"]])
@@ -163,19 +165,19 @@ def load(conn, data, nodes, edges, vectors):
                          json.dumps(g.get("where", []))))
     for v in data["vendors"]:
         vec = vectors.get(("vendor", v["id"]))
-        cur.execute("""INSERT INTO vendor (id, name, country, roles, description, products, url, technologies, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
-                    (v["id"], v["name"], v.get("country"), v.get("roles", []), v["description"], v.get("products", []),
+        cur.execute("""INSERT INTO vendor (id, name, aliases, country, roles, description, products, url, technologies, embedding)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+                    (v["id"], v["name"], v.get("aliases", []), v.get("country"), v.get("roles", []), v["description"], v.get("products", []),
                      v.get("url"), v.get("technologies", []), vec_text(vec) if vec is not None else None))
     for e in data["equipment"]:
         vec = vectors.get(("equipment", e["id"]))
         cur.execute("""INSERT INTO equipment (id, name, equipment_type, sector, sector_codes, description,
-                       specifications, vendor_models, vendors, technologies, gaps, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+                       specifications, vendor_models, vendors, technologies, gaps, sources, embedding)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
                     (e["id"], e["name"], e["equipment_type"], e.get("sector"), e.get("sector_codes", []),
                      e["description"], json.dumps(e.get("specifications", [])), json.dumps(e.get("vendor_models", [])),
                      e.get("vendors", []), e.get("technologies", []), json.dumps(e.get("gaps", [])),
-                     vec_text(vec) if vec is not None else None))
+                     json.dumps(e.get("sources", [])), vec_text(vec) if vec is not None else None))
     for e in data["entries"]:
         cur.execute("INSERT INTO register_entry VALUES (%s,%s,%s,%s,%s,%s,%s)",
                     (graph.register_id(e).removeprefix("register:"), e["code"], e["area"], e["name"], e["maturity"], e["examples"], e["card"]))

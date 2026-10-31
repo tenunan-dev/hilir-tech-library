@@ -144,13 +144,14 @@ def _vec_text(qvec) -> str:
     return "[" + ",".join(f"{float(x):.6g}" for x in qvec) + "]"
 
 
-def hybrid_search(q: str, k: int = 10, qvec=None) -> list[dict]:
-    """hybrid_search(q, qvec, k) over passages and cards; qvec (384 floats) optional, None means keyword only."""
+def hybrid_search(q: str, k: int = 10, qvec=None, sector: str | None = None) -> list[dict]:
+    """hybrid_search(q, qvec, k, sector) over passages, cards, vendors, equipment and sources;
+    qvec (384 floats) optional, None means keyword only; sector (taxonomy code) optional."""
     k = max(1, min(50, int(k)))
     vec = _vec_text(qvec) if qvec is not None else None
 
     def work(cur):
-        cur.execute("SELECT kind, ref, title, score FROM hybrid_search(%s, %s::vector, %s)", (q, vec, k))
+        cur.execute("SELECT kind, ref, title, score FROM hybrid_search(%s, %s::vector, %s, %s)", (q, vec, k, sector))
         return _rows(cur)
 
     return _execute(work)
@@ -283,15 +284,16 @@ def tables_doc() -> dict:
             {"name": "source",
              "columns": ["id", "name", "url", "source_type", "publisher_org", "country", "access", "licence",
                          "reuse_level", "permitted_use", "automated_access", "quality_tier", "verification",
-                         "last_verified", "update_frequency", "notes", "record jsonb"],
+                         "last_verified", "update_frequency", "notes", "record jsonb", "embedding", "tsv"],
              "holds": "one row per catalog record"},
             {"name": "source_tag",
              "columns": ["source_id", "kind", "code"],
              "holds": "taxonomy tags; kind is sector, discipline or region"},
             {"name": "document",
              "columns": ["id", "source_id", "title", "url", "licence", "reuse_level", "retrieved_at", "sha256",
-                         "sectors[]", "text_included", "summary", "meta jsonb"],
-             "holds": "corpus documents; restricted ones have text_included=false and no passages"},
+                         "sectors[]", "text_included", "summary", "body", "meta jsonb"],
+             "holds": "corpus documents; restricted ones have text_included=false and no passages; "
+                      "body holds the full text of open-licence documents only"},
             {"name": "chunk",
              "columns": ["id", "document_id", "ord", "title", "body", "embedding vector(384)", "tsv"],
              "holds": "passages of open-licence documents"},
@@ -315,13 +317,13 @@ def tables_doc() -> dict:
              "columns": ["technology_id", "field", "item", "reason_code", "reason", "action", "blocked_by", "where"],
              "holds": "card children: gaps with reason_code/reason/action/where"},
             {"name": "vendor",
-             "columns": ["id", "name", "country", "roles[]", "description", "products[]", "url", "technologies[]",
+             "columns": ["id", "name", "aliases[]", "country", "roles[]", "description", "products[]", "url", "technologies[]",
                          "embedding", "tsv"],
              "holds": "curated vendor directory records; technologies[] holds the card ids they supply"},
             {"name": "equipment",
              "columns": ["id", "name", "equipment_type", "sector", "sector_codes[]", "description",
                          "specifications jsonb", "vendor_models jsonb", "vendors[]", "technologies[]",
-                         "gaps jsonb", "embedding", "tsv"],
+                         "gaps jsonb", "sources jsonb", "embedding", "tsv"],
              "holds": "curated equipment catalog records (one per equipment class, boilers first); "
                       "specifications hold metric/range/basis/source and vendor_models the model lines"},
             {"name": "register_entry",
@@ -349,8 +351,9 @@ def tables_doc() -> dict:
         "functions": [
             {"name": "graph_neighbors", "signature": "start_id text, max_depth int, rels text[]",
              "does": "recursive walk of the graph, both directions"},
-            {"name": "hybrid_search", "signature": "q text, qvec vector(384), k int",
-             "does": "reciprocal-rank fusion of full-text and vector search over passages and cards"},
+            {"name": "hybrid_search", "signature": "q text, qvec vector(384), k int, sector text",
+             "does": "reciprocal-rank fusion of full-text and vector search over passages, cards, vendors, "
+                     "equipment and catalog sources; qvec/sector optional"},
             {"name": "refresh_similarity", "signature": "k int, min_sim float",
              "does": "rebuilds similar_to edges (write path, loader only)"},
         ],

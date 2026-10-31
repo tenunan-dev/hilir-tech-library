@@ -10,11 +10,11 @@ Schema `og`, defined in [db/schema.sql](../db/schema.sql):
 
 | Table | Holds |
 | --- | --- |
-| `source`, `source_tag` | One row per catalog record; sector, discipline and region tags |
-| `document`, `chunk` | Corpus documents and their passages. `chunk.embedding` is a 384-dimension vector; `chunk.tsv` is the full-text index |
+| `source`, `source_tag` | One row per catalog record; sector, discipline and region tags; an embedding and a full-text index |
+| `document`, `chunk` | Corpus documents and their passages. `document.body` holds the full text of open-licence documents only (restricted text stays out of the database). `chunk.embedding` is a 384-dimension vector; `chunk.tsv` is the full-text index |
 | `technology` and its children | Cards: `technology_alias`, `technology_source`, `technology_figure` (performance and cost figures with unit, year, basis, source URL), `technology_supplier`, `technology_gap` (what is missing, why, where to look) |
-| `vendor` | The vendor directory: one row per curated record with roles, products, the card ids it supplies, an embedding and a full-text index |
-| `equipment` | The equipment catalog: one row per equipment class (boilers first) with `specifications` (range/basis/source jsonb), `vendor_models`, `vendors[]`, `technologies[]`, `gaps`, an embedding and a full-text index |
+| `vendor` | The vendor directory: one row per curated record with aliases, roles, products, the card ids it supplies, an embedding and a full-text index |
+| `equipment` | The equipment catalog: one row per equipment class (boilers first) with `specifications` (range/basis/source jsonb), `vendor_models`, `vendors[]`, `technologies[]`, `gaps`, the record's `sources`, an embedding and a full-text index |
 
 Separate from `og`, schema `library` ([db/library.sql](../db/library.sql)) holds the admin layer's
 durable data: `library.account` (accounts created on `/admin`, scrypt-hashed) and `library.event`
@@ -27,8 +27,9 @@ Library reloads do not touch schema `library`.
 | `node`, `edge` | The knowledge graph (below) |
 
 Views and functions: `v_gap`, `v_technology_co_citation`, `graph_neighbors(start, depth, rels)`,
-`hybrid_search(query, query_vector, k)` (full-text and vector ranks fused over chunks, cards and vendor
-records), `refresh_similarity(k, min_sim)`.
+`hybrid_search(query, query_vector, k, sector)` (full-text and vector ranks fused over chunks, cards,
+vendor records, equipment classes and catalog sources; query_vector and sector optional),
+`refresh_similarity(k, min_sim)`.
 
 ## The graph
 
