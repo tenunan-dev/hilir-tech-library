@@ -10,6 +10,9 @@
   "account_id": "afa8fa65e07832d7e611e831d150d3bd",
   "observability": { "enabled": true },
   "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "36f1ee63335644608a3969baec462626" }],
+  // hilir Access machine keys (sk-…): same-account Service Binding to the access worker;
+  // the INTERNAL_TOKENS secret (same csv as hilir-access holds) rides the binding hop only.
+  "services": [{ "binding": "ACCESS", "service": "hilir-access" }],
   "containers": [
     {
       "class_name": "LibraryApi",

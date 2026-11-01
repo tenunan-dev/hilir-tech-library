@@ -15,9 +15,11 @@
 // URLs); the container serves by path alone.
 import { Container, getContainer } from "@cloudflare/containers";
 import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@cloudflare/workers-oauth-provider";
+import { createKeyChecker, type KeyResult } from "./hilir-auth";
 
 const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P0.3)
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
+const HILIR_SCOPE = "catalog:read"; // the REST API is read-only
 
 interface Env {
   LIBRARY: DurableObjectNamespace<LibraryApi>;
@@ -26,6 +28,8 @@ interface Env {
   USER_STORE_URL?: string; // account-store DSN (per-user keys + OAuth account resolution); optional
   OAUTH_KV: KVNamespace;
   OAUTH_PROVIDER: OAuthHelpers;
+  ACCESS: Fetcher; // Service Binding to hilir-access (sk- key introspection)
+  INTERNAL_TOKENS: string; // shared internal token csv; wrangler secret put INTERNAL_TOKENS
 }
 
 export class LibraryApi extends Container<Env> {
@@ -53,6 +57,31 @@ function keyOk(env: Env, given: string | null): boolean {
   if (!given) return false;
   if (given.startsWith("hlt_")) return true; // resolved inside the container against the account store
   return !!env.LIBRARY_API_KEY && env.LIBRARY_API_KEY.length >= 24 && sameKey(given, env.LIBRARY_API_KEY);
+}
+
+// hilir Access machine keys (sk-…): introspected through the Service Binding with a
+// 60 s result cache (checker cached per-env so the cache survives requests). Gated on
+// the read scope — same estate contract as the other consumers (the shared checker
+// module carries no audience field; a known, accepted estate gap for now). Fail closed
+// on any introspection error: unreachable access = no machine access, never open access.
+const hilirCheckers = new WeakMap<Env, (rawKey: string) => Promise<KeyResult | null>>();
+
+/** Any accepted credential: master key / hlt_ / hilir sk- (introspected). */
+async function credentialOk(env: Env, given: string | null): Promise<boolean> {
+  if (!given) return false;
+  if (!given.startsWith("sk-")) return keyOk(env, given);
+  let checker = hilirCheckers.get(env);
+  if (!checker) {
+    checker = createKeyChecker({ binding: env.ACCESS, internalToken: env.INTERNAL_TOKENS });
+    hilirCheckers.set(env, checker);
+  }
+  try {
+    const result = await checker(given);
+    return !!result?.active && result.scopes.includes(HILIR_SCOPE);
+  } catch (err) {
+    console.error(`hilir introspect failed (${err instanceof Error ? err.message : "error"}) — failing closed`);
+    return false;
+  }
 }
 
 function storeDsnHeaders(request: Request, env: Env): Headers {
@@ -156,10 +185,10 @@ export default {
     const apiKey = request.headers.get("x-api-key");
     const bearer = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
     if (apiKey !== null || url.pathname.startsWith("/api/")) {
-      return keyOk(env, apiKey ?? bearer) ? toContainer(request, env)
+      return (await credentialOk(env, apiKey ?? bearer)) ? toContainer(request, env)
         : Response.json({ error: "missing or wrong API key" }, { status: 401 });
     }
-    if (bearer && keyOk(env, bearer)) return toContainer(request, env); // older clients sending the key as a bearer token
+    if (bearer && (await credentialOk(env, bearer))) return toContainer(request, env); // older clients sending the key as a bearer token
     return oauthProvider.fetch(request, env, ctx); // /mcp with OAuth tokens, and the OAuth endpoints
   },
 };
