@@ -134,7 +134,13 @@ export interface KeyCheckerOptions {
 export interface KeyResult {
   active: boolean;
   scopes: string[];
+  /** the key's owner (users.id) — lets consumers attribute writes to a person */
+  userId?: string;
+  /** the key's own id (api_keys.id) — precise audit trail / emergency revoke */
   keyId?: string;
+  /** the service the key was issued for (api_keys.audience, "" when none) — techlib local
+   *  extension pending upstream; the UI worker does not use it. */
+  audience?: string;
 }
 
 /**
@@ -158,8 +164,14 @@ export function createKeyChecker(opts: KeyCheckerOptions) {
       body: JSON.stringify({ hash }),
     });
     if (!res.ok) throw new Error(`introspect failed: ${res.status}`);
-    const body = (await res.json()) as { active: boolean; scopes?: string[]; key_id?: string };
-    const result: KeyResult = { active: body.active === true, scopes: body.scopes ?? [], keyId: body.key_id };
+    const body = (await res.json()) as { active: boolean; scopes?: string[]; key_id?: string; user_id?: string; audience?: string };
+    const result: KeyResult = {
+      active: body.active === true,
+      scopes: body.scopes ?? [],
+      userId: body.user_id,
+      keyId: body.key_id,
+      audience: body.audience,
+    };
     cache.set(hash, { result, at: Date.now() });
     return result;
   };
@@ -173,12 +185,15 @@ export interface HilirAuthConfig extends HilirJwtOptions, Partial<KeyCheckerOpti
 
 /**
  * Authenticate a Request: Bearer JWT (human) or sk- key (machine).
- * Returns { kind, userId, scopes } or null. With a binding configured,
- * machines work; without one, only JWTs.
+ * Returns { kind, userId, keyId, scopes } or null. With a binding configured,
+ * machines work; without one, only JWTs. Keys carry their owner's userId and
+ * their own keyId, so consumers can attribute writes and name the right actor.
  */
 export function createHilirAuth(config: HilirAuthConfig & { binding?: Fetcher; internalToken?: string }) {
   const checkKey = config.binding && config.internalToken ? createKeyChecker({ binding: config.binding, internalToken: config.internalToken, cacheTtlMs: config.cacheTtlMs }) : null;
-  return async function authenticate(request: Request): Promise<{ kind: "jwt" | "key"; userId?: string; scopes: string[] } | null> {
+  return async function authenticate(
+    request: Request,
+  ): Promise<{ kind: "jwt" | "key"; userId?: string; keyId?: string; scopes: string[] } | null> {
     const header = request.headers.get("Authorization");
     if (!header?.startsWith("Bearer ")) return null;
     const token = header.slice(7).trim();
@@ -188,7 +203,7 @@ export function createHilirAuth(config: HilirAuthConfig & { binding?: Fetcher; i
       if (!checkKey) return null;
       const result = await checkKey(token);
       if (!result || !result.active) return null;
-      return { kind: "key", scopes: result.scopes };
+      return { kind: "key", userId: result.userId, keyId: result.keyId, scopes: result.scopes };
     }
     const claims = await verifyHilirJwt(token, config);
     if (!claims) return null;

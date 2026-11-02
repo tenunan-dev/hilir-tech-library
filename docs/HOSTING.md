@@ -21,7 +21,14 @@ LIBRARY_API_KEY="$(python -c 'import secrets; print(secrets.token_urlsafe(32))')
 # endpoint: http://localhost:8000/mcp
 ```
 
-## Live deployment: Cloudflare (techlib.hilir.app)
+## Live deployment: Cloudflare (the split — see the next section)
+
+> **RETIREMENT NOTE (2026-11-02):** this section describes the pre-split single-Worker deployment.
+> That worker (`og-tech-library`) was **deleted** on 2026-11-02 along with its container
+> application — it held no custom domain and nothing reached it. The live deployment is the
+> split in the next section. To resurrect this path, deploy `deploy/cloudflare/` again (secrets
+> must be re-put: LIBRARY_API_KEY, DATABASE_URL, USER_STORE_URL — all locally available), and
+> move the techlib.hilir.app route as described there. Kept for reference and rollback.
 
 The hosted server runs on Cloudflare Containers, in the Cloudflare account that holds hilir.app and tenunan.com
 (Faisal.muthalib@gmail.com's account, Workers Paid plan). Endpoint: `https://techlib.hilir.app/mcp`.
@@ -73,10 +80,12 @@ at `https://techlib.hilir.app`, the API at `https://techlib-api.hilir.app` — *
   `techlib.hilir.app` → `og-tech-library-ui`, `techlib-api.hilir.app` → `og-tech-library-api`.
   Exactly one worker may hold a custom domain, so the retired pre-split worker's config
   (`deploy/cloudflare/`, worker `og-tech-library`) no longer declares the route — a deploy of it
-  can no longer hijack the UI domain. That worker stays deployed but routeless.
+  can no longer hijack the UI domain. That worker was deleted on 2026-11-02 (with its container
+  application); it held no domain and served nothing.
 - Rollback (deliberate, manual): remove the route from `deploy/frontend/wrangler.jsonc`, re-add
   `"routes": [{ "pattern": "techlib.hilir.app", "custom_domain": true }]` to
-  `deploy/cloudflare/wrangler.jsonc`, then deploy `deploy/cloudflare`.
+  `deploy/cloudflare/wrangler.jsonc`, then deploy `deploy/cloudflare` and re-put its secrets
+  (LIBRARY_API_KEY, DATABASE_URL, USER_STORE_URL — all locally available).
 
 ```
 cd deploy/frontend && npx wrangler deploy     # builds Dockerfile.frontend (~3-5 min, no embed)

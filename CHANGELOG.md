@@ -8,6 +8,30 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.02.2] — 2026-11-02 — Neon-first MCP tools complete, search licence fix, retired worker deleted
+
+### Changed
+- Every MCP `get_*`/`list_*` tool now reads Neon first (baked index as automatic fallback), so a
+  publish reaches **all** tools without a deploy. Full-record parity: `og.vendor` and `og.equipment`
+  gained `record jsonb` (full catalog record), so `get_vendor`/`get_equipment` serve sources,
+  aliases, notes and `last_reviewed` straight from the database. Neon reloaded (12,586 vectors).
+- MCP `search` honours `discipline`, `region` and `reuse_level` on Neon: `hybrid_search(q, qvec, k,
+  sector, discipline, region, reuse_level)` mirrors the SQLite filter semantics (old 4-arg overload
+  dropped).
+- The retired pre-split worker `og-tech-library` and its container application were **deleted**
+  (they held no domain and served nothing); rollback steps documented in HOSTING.md.
+- `deploy/frontend/src/hilir-auth.ts` re-synced to the same module as the backend.
+
+### Fixed
+- **Licence:** Neon-backed search could surface snippets of `full-text-restricted` passages (the
+  SQLite path excludes them; the Neon path did not). `hybrid_search` now excludes them at the
+  source join — live-verified 0 restricted results. Database pages and `/documents` were already
+  gated; only search was affected.
+
+### Deployed
+- Backend `412f7dd9-68ad-4dbe-be20-f27a69e71068` (MCP `get_vendor` returns the full Wärtsilä record
+  with sources; `search(discipline=ROT)` returns sources only; leak probe 0). Frontend `764696f1`.
+
 ## [2026.11.02] — 2026-11-02 — Access consumer re-sync, identity logging, key-audience check, domain de-dup
 
 ### Changed
