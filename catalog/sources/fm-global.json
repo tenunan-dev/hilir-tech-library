@@ -22,7 +22,7 @@
   "licence": "proprietary",
   "reuse_level": "catalog-only",
   "quality_tier": 2,
-  "notes": "Commercial property insurer whose FM Property Loss Prevention Data Sheets are the reference engineering guidelines for industrial fire/loss prevention (FM Approvals is the sister certification body). Data sheets are client-gated; site content (insights, Nathaz toolkit) is open. Plain fetchers get 403 - read via reader tool. Evidence: fm.com/about-us read 2026-10-29. Data-sheet access reality to record at first collection.",
+  "notes": "Read 2026-10-29 (reader tool; plain fetch 403): commercial property insurer; FM Property Loss Prevention Data Sheets are its engineering guidelines; client login present. Evidence: https://www.fm.com/about-us/",
   "verification": "verified",
   "last_verified": "2026-10-29",
   "automated_access": "unstated",

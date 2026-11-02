@@ -21,7 +21,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "permitted_use": "any",
-  "notes": "DOE's lead nuclear-energy national lab (Idaho Falls): advanced reactors, SMRs and microreactors, grid testing, hydrogen production research; operates the Advanced Test Reactor. Reports and fact sheets open. inl.gov 403s plain fetchers - read via reader tool; collect via energy.gov mirrors or manual inbox. Evidence: inl.gov/about-inl read 2026-10-29.",
+  "notes": "Read 2026-10-29 (reader; plain fetch 403): DOE national lab, nuclear/microreactor/grid/H2 research, Battelle Energy Alliance. Evidence: https://inl.gov/about-inl/",
   "verification": "verified",
   "last_verified": "2026-10-29",
   "automated_access": "unstated",

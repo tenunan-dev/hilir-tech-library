@@ -21,7 +21,7 @@
   "reuse_level": "summary-only",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Process Safety Beacon is free (full-text-restricted); guidelines books paid. Verified 2026-10-29 (reader; plain fetch 403): CCPS is AIChE's 316-member process-safety center; books via Wiley/Knovel (paid), free monographs/Golden Rules/SWP exist, member-only content gated.",
+  "notes": "Read 2026-10-29 (reader): CCPS center description, free monographs, paid books via Knovel. Evidence: https://www.aiche.org/ccps",
   "verification": "verified",
   "last_verified": "2026-10-29"
 }

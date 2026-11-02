@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "notes": "Some OA papers under CC BY. Fixed 2026-10-29: APPEA Journal renamed Australian Energy Producers Journal (2024); CSIRO Publishing path 404s, journal now at connectsci.au/ep (search-verified).",
+  "notes": "2026-10-29 via web search: renamed Australian Energy Producers Journal (2024), CSIRO Publishing moved hosting; old publish.csiro.au/ep 404s after redirect. Evidence: https://connectsci.au/ep/pages/about-the-journal",
   "verification": "verified",
   "last_verified": "2026-10-29"
 }

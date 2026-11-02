@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "permitted_use": "any",
-  "notes": "AP-42 (since 1972): EPA's primary compilation of air-emission factors for 200+ stationary source categories (petroleum industry, storage tanks, combustion) - open chapters and PDFs. The separate GHGRP (Greenhouse Gas Reporting Program) facility data is also open on epa.gov. Evidence: epa.gov AP-42 page read 2026-10-29.",
+  "notes": "Read 2026-10-29: AP-42 open since 1972, 200+ source categories, chapters free. Evidence: https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors",
   "verification": "verified",
   "last_verified": "2026-10-29",
   "automated_access": "unstated",

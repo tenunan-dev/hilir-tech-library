@@ -20,7 +20,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "permitted_use": "any",
-  "notes": "Consistent technology cost and performance dataset (Electricity + Transportation; LCOE/CAPEX frameworks with scenarios to 2050; companion Standard Scenarios), freely available. nrel.gov is DNS-blocked from this Mac - verified via the Wayback mirror (web.archive.org, 2024 capture read 2026-10-29); collect via Wayback or energy.gov mirrors.",
+  "notes": "Read 2026-10-29 via Wayback (nrel.gov DNS-blocked from Mac): Electricity+Transportation datasets freely available. Evidence: https://web.archive.org/web/2024/https://atb.nrel.gov/",
   "verification": "verified",
   "last_verified": "2026-10-29",
   "automated_access": "unstated",

@@ -22,7 +22,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "Includes NACE MR0175/ISO 15156 sour service. Verified 2026-10-30: standards sold via AMPP Knowledge Hub; included free with membership; NACE/SSPC legacy (MR0175).",
+  "notes": "Read 2026-10-30: paid via Knowledge Hub; free with membership; copyright single-user. Evidence: https://www.ampp.org/standards",
   "verification": "verified",
   "last_verified": "2026-10-30"
 }

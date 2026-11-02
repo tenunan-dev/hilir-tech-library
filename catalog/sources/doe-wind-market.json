@@ -20,7 +20,7 @@
   "quality_tier": 2,
   "permitted_use": "any",
   "update_frequency": "annual",
-  "notes": "Annual DOE wind-market report (2024 edition: 150,492 MW land-based capacity end-2023, 6,474 MW added; sister offshore/distributed editions) - turbine prices and PPA data fill wind-card cost gaps. Free on energy.gov. Evidence: energy.gov page read 2026-10-29.",
+  "notes": "Read 2026-10-29: annual DOE report, free; 150,492 MW end-2023. Evidence: https://www.energy.gov/eere/wind/wind-market-reports-2024-edition",
   "verification": "verified",
   "last_verified": "2026-10-29",
   "automated_access": "unstated"

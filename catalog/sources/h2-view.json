@@ -14,11 +14,12 @@
   "regions": [
     "global"
   ],
-  "access": "open",
+  "access": "mixed",
   "licence": "proprietary",
   "reuse_level": "summary-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "verification": "unverified",
-  "last_verified": null
+  "verification": "verified",
+  "last_verified": "2026-11-03",
+  "notes": "H2 View confirmed as the hydrogen news platform (Mobility/Power/Technology/Policy pillars). News stories are free to read; the H2 View magazine issues and 'H2 Intelligence' market data are paid products, so access corrected open -> mixed. Evidence: https://www.h2-view.com/ (read 2026-11-03)"
 }
