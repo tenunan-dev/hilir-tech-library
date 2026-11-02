@@ -28,6 +28,7 @@ import api  # noqa: E402
 import embed  # noqa: E402
 import library  # noqa: E402
 import pg  # noqa: E402
+import technologies  # noqa: E402
 import userstore  # noqa: E402
 import web  # noqa: E402
 
@@ -63,6 +64,18 @@ def db():
     return _db
 
 
+def _with_neon(pg_call, fallback):
+    """Decision #34: Neon is the live data layer — a publish shows up in the tools without a
+    deploy. The baked SQLite index is the automatic fallback (no database configured, or the
+    database unreachable)."""
+    if pg.configured():
+        try:
+            return pg_call()
+        except (pg.NotConfigured, pg.DatabaseError):
+            pass
+    return fallback()
+
+
 @server.tool()
 def search(query: str, kind: str = "all", sector: str | None = None, discipline: str | None = None,
            region: str | None = None, reuse_level: str | None = None, limit: int = 10) -> list[dict]:
@@ -73,14 +86,15 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     sector / discipline: a taxonomy code such as H2 or ROT. region: e.g. sea, apac, global.
     """
     # Decision #34: with a database configured, search runs on Neon (single source of truth —
-    # a publish shows up here without a deploy); the SQLite index is the fallback. discipline
-    # and region filters exist only on the SQLite path (Neon search filters by sector).
-    if pg.configured() and not discipline and not region:
+    # a publish shows up here without a deploy); the SQLite index is the fallback. All filters
+    # are honoured on both paths, and passages of full-text-restricted documents never surface
+    # from either.
+    if pg.configured():
         try:
             import embed as embed_module
             embedder = embed_module.load_embedder(db())
             qvec = list(embedder([query])[0]) if embedder else _query_vector(query)
-            return pg.search_library(query, kind, sector, min(limit, 50), qvec)
+            return pg.search_library(query, kind, sector, min(limit, 50), qvec, discipline, region, reuse_level)
         except (pg.NotConfigured, pg.DatabaseError):
             pass
     database = db()
@@ -119,27 +133,36 @@ def _query_vector(query: str):
 @server.tool()
 def get_source(source_id: str) -> dict | None:
     """Full catalog record for one source, with the list of its collected documents."""
-    return library.get_source(source_id, db(), EXCLUDE_RESTRICTED)
+    return _with_neon(lambda: pg.source_row(source_id),
+                      lambda: library.get_source(source_id, db(), EXCLUDE_RESTRICTED))
 
 
 @server.tool()
 def get_document(path: str) -> dict | None:
     """Front matter and full text of one collected document, by the path a search result gave."""
-    return library.get_document(path, db(), EXCLUDE_RESTRICTED)
+    return _with_neon(lambda: pg.document_row(path),
+                      lambda: library.get_document(path, db(), EXCLUDE_RESTRICTED))
 
 
 @server.tool()
 def list_by_tag(code: str | None = None, region: str | None = None, reuse_level: str | None = None,
                 source_type: str | None = None) -> list[dict]:
     """List catalog sources by sector or discipline code, region, reuse level or source type."""
-    return library.list_by_tag(code, region, reuse_level, source_type, db())
+    return _with_neon(lambda: pg.source_rows(code, region, reuse_level, source_type),
+                      lambda: library.list_by_tag(code, region, reuse_level, source_type, db()))
 
 
 @server.tool()
 def get_technology(technology_id: str) -> dict | None:
     """One technology card: principle, process steps with equipment, block flow diagram (Mermaid),
     key equipment, performance and cost figures with their basis and source, suppliers, reference plants."""
-    return library.get_technology(technology_id, db())
+    def neon():
+        card = pg.tech_card(technology_id)
+        if card is not None:
+            card["block_diagram_mermaid"] = technologies.mermaid(card)
+            card["licence"] = library.TECHNOLOGY_LICENCE
+        return card
+    return _with_neon(neon, lambda: library.get_technology(technology_id, db()))
 
 
 @server.tool()
@@ -147,7 +170,8 @@ def compare_technologies(sector: str | None = None, maturity: str | None = None,
                          application: str | None = None) -> list[dict]:
     """Comparison table of technology options, commercial first. sector: e.g. CCS.
     maturity: commercial, demonstration, pilot or lab. application: e.g. cement, power, hydrogen."""
-    return library.compare_technologies(sector, maturity, application, db())
+    return _with_neon(lambda: technologies.compare(pg.tech_cards(), sector, maturity, application),
+                      lambda: library.compare_technologies(sector, maturity, application, db()))
 
 
 @server.tool()
@@ -155,13 +179,15 @@ def list_vendors(role: str | None = None, sector: str | None = None, query: str 
     """The vendor directory: curated records for suppliers, OEMs, licensors and packagers, each citing
     the pages it was written from. role: oem, licensor, packager, epc, developer, operator, rental,
     service, supplier or integrator. sector: a taxonomy code such as PWR or CCS. query: text."""
-    return library.list_vendors(role, sector, query, db())
+    return _with_neon(lambda: pg.vendor_rows(role, sector, query),
+                      lambda: library.list_vendors(role, sector, query, db()))
 
 
 @server.tool()
 def get_vendor(vendor_id: str) -> dict | None:
     """One vendor record: country, roles, products, the technology cards it supplies, and the sources behind it."""
-    return library.get_vendor(vendor_id, db())
+    return _with_neon(lambda: pg.vendor_row(vendor_id),
+                      lambda: library.get_vendor(vendor_id, db()))
 
 
 @server.tool()
@@ -169,13 +195,15 @@ def list_equipment(equipment_type: str | None = None, query: str | None = None) 
     """The equipment catalog: one curated record per equipment class (starting with boilers), each with
     specification ranges, the vendors that supply it and the pages behind every figure.
     equipment_type: e.g. boiler. query: text."""
-    return library.list_equipment(equipment_type, query, db())
+    return _with_neon(lambda: pg.equipment_rows(equipment_type, query),
+                      lambda: library.list_equipment(equipment_type, query, db()))
 
 
 @server.tool()
 def get_equipment(equipment_id: str) -> dict | None:
     """One equipment record: specification ranges with basis and sources, vendor model lines, and the gaps."""
-    return library.get_equipment(equipment_id, db())
+    return _with_neon(lambda: pg.equipment_row(equipment_id),
+                      lambda: library.get_equipment(equipment_id, db()))
 
 
 @server.tool()
@@ -183,7 +211,8 @@ def list_technology_register(code: str | None = None, maturity: str | None = Non
     """The full register of about 300 technologies across all sectors (code: UPS, MID, GAS, REF, PCH, PWR, H2,
     CCS, or a discipline code for cross-cutting equipment). Maturity and examples are indicative and unverified;
     entries with a "card" id have a verified technology card (use get_technology)."""
-    return library.list_register(code, maturity, query)
+    return _with_neon(lambda: pg.register_rows(code, maturity, query),
+                      lambda: library.list_register(code, maturity, query))
 
 
 @server.tool()
@@ -194,7 +223,8 @@ def list_gaps(sector: str | None = None, field: str | None = None, reason_code: 
     general_knowledge_only), where to get it, the next action and any blocker. field: trl, performance, costs,
     reference_plants, suppliers, status, process, other. include_no_card adds register technologies with no card.
     Use it to tell users what the library cannot answer yet, or to pick the next collection task."""
-    return library.list_gaps(sector, field, reason_code, include_no_card, db())
+    return _with_neon(lambda: pg.gap_rows(sector, field, reason_code, include_no_card),
+                      lambda: library.list_gaps(sector, field, reason_code, include_no_card, db()))
 
 
 @server.tool()

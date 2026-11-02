@@ -141,6 +141,7 @@ CREATE TABLE IF NOT EXISTS vendor (                    -- curated vendor directo
     products     text[] NOT NULL DEFAULT '{}',
     url          text,
     technologies text[] NOT NULL DEFAULT '{}',         -- ids of the technology cards this vendor supplies
+    record       jsonb NOT NULL DEFAULT '{}'::jsonb,   -- the full catalog record, as in catalog/vendors
     embedding    vector(384),
     tsv          tsvector GENERATED ALWAYS AS (
                     to_tsvector('english', name || ' ' || coalesce(country, '') || ' ' || description)) STORED
@@ -160,6 +161,7 @@ CREATE TABLE IF NOT EXISTS equipment (                     -- curated equipment 
     technologies    text[] NOT NULL DEFAULT '{}',          -- technology cards using this class
     gaps            jsonb NOT NULL DEFAULT '[]',
     sources         jsonb NOT NULL DEFAULT '[]',           -- the record's own sources (url, note)
+    record          jsonb NOT NULL DEFAULT '{}'::jsonb,    -- the full catalog record, as in catalog/equipment
     embedding       vector(384),
     tsv             tsvector GENERATED ALWAYS AS (
                       to_tsvector('english', name || ' ' || description)) STORED
@@ -223,6 +225,12 @@ ALTER TABLE source ADD COLUMN IF NOT EXISTS tsv tsvector GENERATED ALWAYS AS (
     to_tsvector('english', name || ' ' || publisher_org || ' ' || source_type || ' ' || coalesce(notes, ''))) STORED;
 CREATE INDEX IF NOT EXISTS source_tsv_idx ON source USING gin (tsv);
 CREATE INDEX IF NOT EXISTS source_embedding_idx ON source USING hnsw (embedding vector_cosine_ops);
+-- full catalog records so the get_* tools serve everything without a column per field
+ALTER TABLE vendor ADD COLUMN IF NOT EXISTS record jsonb NOT NULL DEFAULT '{}'::jsonb;
+ALTER TABLE equipment ADD COLUMN IF NOT EXISTS record jsonb NOT NULL DEFAULT '{}'::jsonb;
+-- the pre-2026-11-03 hybrid_search had four arguments; CREATE OR REPLACE cannot change a
+-- signature, so the old overload is dropped explicitly (no-op once gone)
+DROP FUNCTION IF EXISTS hybrid_search(text, vector, integer, text);
 -- the pre-2026-10-31 hybrid_search had three arguments; CREATE OR REPLACE cannot change a
 -- signature, so the old overload is dropped explicitly (no-op once gone)
 DROP FUNCTION IF EXISTS hybrid_search(text, vector, integer);
@@ -267,25 +275,40 @@ RETURNS TABLE (node_id text, kind text, label text, depth integer, via text[]) L
 $$;
 
 -- Hybrid search over passages, cards, vendor records, equipment classes and catalog sources:
--- reciprocal rank fusion of full-text and vector ranks. qvec may be NULL (keyword only); sector
--- (optional) narrows to one taxonomy code, matching how the SQLite search filters each kind.
+-- reciprocal rank fusion of full-text and vector ranks. qvec may be NULL (keyword only); the
+-- optional sector/discipline/region/reuse_level filters mirror the SQLite search exactly:
+-- sector narrows per kind, a discipline or region keeps only sources and their passages (cards,
+-- vendors and equipment carry no such tags on the SQLite path either), and reuse_level compares
+-- the source's level for chunk/source kinds while the library's own records pass only when the
+-- filter is unset or full-text-open. Passages of full-text-restricted documents NEVER surface:
+-- their text may sit in this database (owner load), but search must not serve it.
 -- Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
-CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10, sector text DEFAULT NULL)
+CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10,
+                                         sector text DEFAULT NULL, discipline text DEFAULT NULL,
+                                         region text DEFAULT NULL, reuse_level text DEFAULT NULL)
 RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE sql STABLE AS $$
     WITH items AS (
-        SELECT 'chunk'::text AS kind, c.id AS ref, c.title, c.tsv, c.embedding, d.sectors
-        FROM chunk c JOIN document d ON d.id = c.document_id
+        SELECT 'chunk'::text AS kind, c.id AS ref, c.title, c.tsv, c.embedding, d.sectors,
+               d.source_id AS src_id, s.reuse_level AS src_reuse
+        FROM chunk c
+        JOIN document d ON d.id = c.document_id
+        JOIN source s ON s.id = d.source_id
+        WHERE coalesce(d.reuse_level, s.reuse_level) <> 'full-text-restricted'
         UNION ALL
-        SELECT 'technology', t.id, t.name, t.tsv, t.embedding, ARRAY[t.sector] FROM technology t
+        SELECT 'technology', t.id, t.name, t.tsv, t.embedding, ARRAY[t.sector], NULL::text, NULL::text
+        FROM technology t
         UNION ALL
         SELECT 'vendor', v.id, v.name, v.tsv, v.embedding,
-               (SELECT array_agg(DISTINCT t.sector) FROM technology t WHERE t.id = ANY (v.technologies))
+               (SELECT array_agg(DISTINCT t.sector) FROM technology t WHERE t.id = ANY (v.technologies)),
+               NULL::text, NULL::text
         FROM vendor v
         UNION ALL
-        SELECT 'equipment', e.id, e.name, e.tsv, e.embedding, e.sector_codes FROM equipment e
+        SELECT 'equipment', e.id, e.name, e.tsv, e.embedding, e.sector_codes, NULL::text, NULL::text
+        FROM equipment e
         UNION ALL
         SELECT 'source', s.id, s.name, s.tsv, s.embedding,
-               (SELECT array_agg(code) FROM source_tag st WHERE st.source_id = s.id AND st.kind = 'sector')
+               (SELECT array_agg(code) FROM source_tag st WHERE st.source_id = s.id AND st.kind = 'sector'),
+               s.id, s.reuse_level
         FROM source s
     ),
     tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
@@ -293,14 +316,42 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
     -- sources out of the candidate set (each kind contributes up to 50 candidates to the fusion)
     kw AS (
         SELECT kind, ref, r FROM (
-            SELECT kind, ref, row_number() OVER (PARTITION BY kind ORDER BY ts_rank_cd(tsv, tq.query) DESC) AS r
-            FROM items, tq WHERE tsv @@ tq.query AND (sector IS NULL OR sector = ANY (sectors))
+            SELECT i.kind, i.ref,
+                   row_number() OVER (PARTITION BY i.kind ORDER BY ts_rank_cd(i.tsv, tq.query) DESC) AS r
+            FROM items i, tq
+            WHERE i.tsv @@ tq.query
+              AND (sector IS NULL OR sector = ANY (i.sectors))
+              AND (discipline IS NULL OR (
+                    i.kind IN ('chunk', 'source')
+                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
+                                AND st.kind = 'discipline' AND st.code = discipline)))
+              AND (region IS NULL OR (
+                    i.kind IN ('chunk', 'source')
+                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
+                                AND st.kind = 'region' AND st.code = region)))
+              AND (reuse_level IS NULL OR (
+                    (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
+                    OR (i.kind IN ('technology', 'vendor', 'equipment') AND reuse_level = 'full-text-open')))
         ) ranked WHERE r <= 50
     ),
     vec AS (
         SELECT kind, ref, r FROM (
-            SELECT kind, ref, row_number() OVER (PARTITION BY kind ORDER BY embedding <=> qvec) AS r
-            FROM items WHERE qvec IS NOT NULL AND embedding IS NOT NULL AND (sector IS NULL OR sector = ANY (sectors))
+            SELECT i.kind, i.ref,
+                   row_number() OVER (PARTITION BY i.kind ORDER BY i.embedding <=> qvec) AS r
+            FROM items i
+            WHERE qvec IS NOT NULL AND i.embedding IS NOT NULL
+              AND (sector IS NULL OR sector = ANY (i.sectors))
+              AND (discipline IS NULL OR (
+                    i.kind IN ('chunk', 'source')
+                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
+                                AND st.kind = 'discipline' AND st.code = discipline)))
+              AND (region IS NULL OR (
+                    i.kind IN ('chunk', 'source')
+                    AND EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = i.src_id
+                                AND st.kind = 'region' AND st.code = region)))
+              AND (reuse_level IS NULL OR (
+                    (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
+                    OR (i.kind IN ('technology', 'vendor', 'equipment') AND reuse_level = 'full-text-open')))
         ) ranked WHERE r <= 50
     ),
     fused AS (

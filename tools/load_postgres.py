@@ -168,19 +168,19 @@ def load(conn, data, nodes, edges, vectors):
                          json.dumps(g.get("where", []))))
     for v in data["vendors"]:
         vec = vectors.get(("vendor", v["id"]))
-        cur.execute("""INSERT INTO vendor (id, name, aliases, country, roles, description, products, url, technologies, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+        cur.execute("""INSERT INTO vendor (id, name, aliases, country, roles, description, products, url, technologies, record, embedding)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
                     (v["id"], v["name"], v.get("aliases", []), v.get("country"), v.get("roles", []), v["description"], v.get("products", []),
-                     v.get("url"), v.get("technologies", []), vec_text(vec) if vec is not None else None))
+                     v.get("url"), v.get("technologies", []), json.dumps(v), vec_text(vec) if vec is not None else None))
     for e in data["equipment"]:
         vec = vectors.get(("equipment", e["id"]))
         cur.execute("""INSERT INTO equipment (id, name, equipment_type, sector, sector_codes, description,
-                       specifications, vendor_models, vendors, technologies, gaps, sources, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+                       specifications, vendor_models, vendors, technologies, gaps, sources, record, embedding)
+                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
                     (e["id"], e["name"], e["equipment_type"], e.get("sector"), e.get("sector_codes", []),
                      e["description"], json.dumps(e.get("specifications", [])), json.dumps(e.get("vendor_models", [])),
                      e.get("vendors", []), e.get("technologies", []), json.dumps(e.get("gaps", [])),
-                     json.dumps(e.get("sources", [])), vec_text(vec) if vec is not None else None))
+                     json.dumps(e.get("sources", [])), json.dumps(e), vec_text(vec) if vec is not None else None))
     for e in data["entries"]:
         cur.execute("INSERT INTO register_entry VALUES (%s,%s,%s,%s,%s,%s,%s)",
                     (graph.register_id(e).removeprefix("register:"), e["code"], e["area"], e["name"], e["maturity"], e["examples"], e["card"]))

@@ -262,3 +262,51 @@ def test_mcp_library_stats_prefers_neon(monkeypatch):
     monkeypatch.setattr(library, "stats", lambda db=None: {"sources": 1})
     monkeypatch.setattr(server, "db", lambda: None)
     assert server.library_stats() == {"sources": 1}
+
+
+def test_mcp_get_tools_read_neon_first_and_fall_back(monkeypatch):
+    """The get_* tools prefer Neon (live layer) and drop to the baked index when it errors."""
+    import pg
+    server = pytest.importorskip("server")
+    monkeypatch.setattr(pg, "configured", lambda: True)
+    monkeypatch.setattr(pg, "vendor_row", lambda vid: {"id": vid, "name": "Neon Vendor"})
+    assert server.get_vendor("acme") == {"id": "acme", "name": "Neon Vendor"}
+    monkeypatch.setattr(pg, "tech_card", lambda tid: {"id": tid, "name": "N", "process_steps": []})
+    card = server.get_technology("t1")
+    assert card["block_diagram_mermaid"].startswith("flowchart LR")
+    assert card["licence"] == library.TECHNOLOGY_LICENCE
+
+    def boom(*a, **k):
+        raise pg.DatabaseError("database unreachable (test)")
+    monkeypatch.setattr(pg, "vendor_row", boom)
+    assert server.get_vendor("wartsila")["id"] == "wartsila"  # served by the repo's baked index
+
+
+def test_mcp_list_gaps_forwards_filters(monkeypatch):
+    import pg
+    server = pytest.importorskip("server")
+    seen = {}
+    monkeypatch.setattr(pg, "configured", lambda: True)
+    monkeypatch.setattr(pg, "gap_rows",
+                        lambda sector, field, reason_code, include_no_card:
+                        seen.update(sector=sector, field=field, reason_code=reason_code,
+                                    include_no_card=include_no_card) or [])
+    assert server.list_gaps("CCS", "costs", "paid_source", True) == []
+    assert seen == {"sector": "CCS", "field": "costs", "reason_code": "paid_source", "include_no_card": True}
+
+
+def test_mcp_search_forwards_all_filters(monkeypatch):
+    """discipline/region/reuse_level reach the Neon search instead of silently dropping."""
+    import pg
+    server = pytest.importorskip("server")
+    seen = {}
+    monkeypatch.setattr(pg, "configured", lambda: True)
+    monkeypatch.setattr(pg, "search_library",
+                        lambda q, kind, sector, limit, qvec, discipline, region, reuse:
+                        seen.update(q=q, kind=kind, sector=sector, discipline=discipline,
+                                    region=region, reuse=reuse) or [])
+    monkeypatch.setattr("embed.load_embedder", lambda db: None)
+    monkeypatch.setattr(server, "_query_vector", lambda query: None)
+    assert server.search("boiler", "vendor", "PWR", "ROT", "sea", "full-text-open", 5) == []
+    assert seen == {"q": "boiler", "kind": "vendor", "sector": "PWR",
+                    "discipline": "ROT", "region": "sea", "reuse": "full-text-open"}

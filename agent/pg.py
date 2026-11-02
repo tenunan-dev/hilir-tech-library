@@ -145,14 +145,17 @@ def _vec_text(qvec) -> str:
     return "[" + ",".join(f"{float(x):.6g}" for x in qvec) + "]"
 
 
-def hybrid_search(q: str, k: int = 10, qvec=None, sector: str | None = None) -> list[dict]:
-    """hybrid_search(q, qvec, k, sector) over passages, cards, vendors, equipment and sources;
-    qvec (384 floats) optional, None means keyword only; sector (taxonomy code) optional."""
+def hybrid_search(q: str, k: int = 10, qvec=None, sector: str | None = None, discipline: str | None = None,
+                  region: str | None = None, reuse_level: str | None = None) -> list[dict]:
+    """hybrid_search(q, qvec, k, sector, discipline, region, reuse_level) over passages, cards,
+    vendors, equipment and sources; every filter optional. Passages of full-text-restricted
+    documents never surface (the SQL function excludes them)."""
     k = max(1, min(50, int(k)))
     vec = _vec_text(qvec) if qvec is not None else None
 
     def work(cur):
-        cur.execute("SELECT kind, ref, title, score FROM hybrid_search(%s, %s::vector, %s, %s)", (q, vec, k, sector))
+        cur.execute("SELECT kind, ref, title, score FROM hybrid_search(%s, %s::vector, %s, %s, %s, %s, %s)",
+                    (q, vec, k, sector, discipline, region, reuse_level))
         return _rows(cur)
 
     return _execute(work)
@@ -347,44 +350,40 @@ def card_names() -> dict:
 
 
 def vendor_rows(role: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
-    """Vendor rows shaped like vendors.summary, filtered exactly like library.list_vendors
-    (role, sector via the cards' sectors, text over name/aliases/description/products/country)."""
+    """Vendor rows shaped exactly like library.list_vendors (vendors.summary over the full
+    og.vendor.record), filtered the same way: role, sector via the cards' sectors, text over
+    name/aliases/description/products/country."""
 
     def work(cur):
-        cur.execute("SELECT id, name, aliases, country, roles, description, products, url, technologies FROM vendor ORDER BY name")
-        rows = cur.fetchall()
+        import vendors as vendor_records
+        cur.execute("SELECT record FROM vendor ORDER BY name")
+        records = [_jsonb(r[0]) for r in cur.fetchall()]
         cur.execute("SELECT id, sector FROM technology")
         sector_of = dict(cur.fetchall())
         out = []
-        for vid, name, aliases, country, roles, description, products, url, technologies in rows:
-            sectors = {sector_of[t] for t in (technologies or []) if t in sector_of}
-            if role and role not in (roles or []):
+        for v in records:
+            if role and role not in v.get("roles", []):
                 continue
+            sectors = {sector_of[t] for t in v.get("technologies", []) if t in sector_of}
             if sector and sector not in sectors:
                 continue
-            hay = " ".join([name, " ".join(aliases or []), description or "",
-                            " ".join(products or []), country or ""]).lower()
+            hay = " ".join([v["name"], " ".join(v.get("aliases", [])), v.get("description", ""),
+                            " ".join(v.get("products", [])), v.get("country", "")]).lower()
             if query and query.lower() not in hay:
                 continue
-            out.append({"id": vid, "name": name, "country": country, "roles": roles or [],
-                        "aliases": aliases or [], "products": products or [], "url": url,
-                        "technologies": technologies or []})
+            out.append(vendor_records.summary(v))
         return out
 
     return _execute(work)
 
 
 def vendor_row(vendor_id: str) -> dict | None:
-    """One og.vendor row (columns only; og.vendor holds no sources/notes fields)."""
+    """The full vendor catalog record (og.vendor.record) — get_vendor parity with the SQLite path."""
 
     def work(cur):
-        cur.execute("SELECT id, name, aliases, country, roles, description, products, url, technologies FROM vendor WHERE id = %s", (vendor_id,))
+        cur.execute("SELECT record FROM vendor WHERE id = %s", (vendor_id,))
         rows = cur.fetchall()
-        if not rows:
-            return None
-        vid, name, aliases, country, roles, description, products, url, technologies = rows[0]
-        return {"id": vid, "name": name, "aliases": aliases or [], "country": country, "roles": roles or [],
-                "description": description, "products": products or [], "url": url, "technologies": technologies or []}
+        return _jsonb(rows[0][0]) if rows else None
 
     return _execute(work)
 
@@ -422,9 +421,11 @@ def _coverage_queue_from(cards, records):
     return vendor_records.coverage_queue(cards, records)
 
 
-def source_rows(code: str | None = None, region: str | None = None, reuse_level: str | None = None) -> list[dict]:
+def source_rows(code: str | None = None, region: str | None = None, reuse_level: str | None = None,
+                source_type: str | None = None) -> list[dict]:
     """Catalog source rows shaped like library.list_by_tag output, filtered and sorted the same
-    (Asia Pacific and Southeast Asia first, then quality tier, then name)."""
+    (sector/discipline code, region, reuse level, source type; Asia Pacific and Southeast Asia
+    first, then quality tier, then name)."""
 
     def work(cur):
         cur.execute("""SELECT id, name, url, source_type, reuse_level, quality_tier,
@@ -436,6 +437,8 @@ def source_rows(code: str | None = None, region: str | None = None, reuse_level:
             if code and code not in sectors + disciplines:
                 continue
             if (region and region not in regions) or (reuse_level and reuse_level != reuse):
+                continue
+            if source_type and source_type != stype:
                 continue
             out.append({"id": sid, "name": name, "url": url, "source_type": stype, "regions": regions,
                         "reuse_level": reuse, "quality_tier": tier})
@@ -484,8 +487,11 @@ def document_row(path: str) -> dict | None:
     return _execute(work)
 
 
-def gap_rows(sector: str | None = None, field: str | None = None) -> list[dict]:
-    """list_gaps-shaped rows from v_gap (card gaps plus register entries with no card)."""
+def gap_rows(sector: str | None = None, field: str | None = None, reason_code: str | None = None,
+             include_no_card: bool = False) -> list[dict]:
+    """list_gaps-shaped rows from v_gap. By default the register's no-card rows are excluded
+    (include_no_card=True keeps them; note v_gap's no-card rows are leaner than the SQLite
+    path's generated hints — same item, reason and action, empty where)."""
 
     def work(cur):
         sql = """SELECT technology_id, name, sector, field, item, reason_code, reason, "where", action, blocked_by
@@ -497,6 +503,11 @@ def gap_rows(sector: str | None = None, field: str | None = None) -> list[dict]:
         if field:
             conds.append("field = %s")
             params.append(field)
+        if reason_code:
+            conds.append("reason_code = %s")
+            params.append(reason_code)
+        if not include_no_card:
+            conds.append("reason_code <> 'no_card_yet'")
         if conds:
             sql += " WHERE " + " AND ".join(conds)
         cur.execute(sql, params)
@@ -526,48 +537,37 @@ def register_rows(code: str | None = None, maturity: str | None = None, query: s
 
 
 def equipment_rows(equipment_type: str | None = None, query: str | None = None) -> list[dict]:
-    """Equipment rows shaped like equipment.summary, filtered like library.list_equipment
-    (text over name/aliases/description/spec metrics/vendors; og.equipment holds no aliases)."""
+    """Equipment rows shaped exactly like library.list_equipment (equipment.summary over the full
+    og.equipment.record), filtered the same way: type match, text over name/aliases/description/
+    spec metrics/vendors."""
 
     def work(cur):
-        cur.execute("SELECT id, name, equipment_type, sector, sector_codes, description, specifications, vendors, technologies FROM equipment ORDER BY name")
+        import equipment as equipment_records
+        cur.execute("SELECT record FROM equipment ORDER BY name")
         out = []
-        for eid, name, etype, sector, sector_codes, description, specifications, vendors, technologies in cur.fetchall():
-            specifications = _jsonb(specifications) or []
-            if equipment_type and equipment_type != etype:
+        for r in cur.fetchall():
+            rec = _jsonb(r[0])
+            if equipment_type and equipment_type != rec.get("equipment_type"):
                 continue
-            hay = " ".join([name, description or "",
-                            " ".join(s["metric"] for s in specifications),
-                            " ".join(vendors or [])]).lower()
+            hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("description", ""),
+                            " ".join(s["metric"] for s in rec.get("specifications", [])),
+                            " ".join(rec.get("vendors", []))]).lower()
             if query and query.lower() not in hay:
                 continue
-            out.append({"id": eid, "name": name, "equipment_type": etype, "sector": sector,
-                        "sector_codes": sector_codes or [], "aliases": [],
-                        "spec_metrics": [s["metric"] for s in specifications],
-                        "vendors": vendors or [], "technologies": technologies or []})
+            out.append(equipment_records.summary(rec))
         return out
 
     return _execute(work)
 
 
 def equipment_row(equipment_id: str) -> dict | None:
-    """One og.equipment row with every field the equipment page's detail panel renders
-    (specifications, vendor_models, gaps, vendors, technologies, sources, description)."""
+    """The full equipment catalog record (og.equipment.record) — get_equipment parity with the
+    SQLite path: specifications with basis and sources, vendor model lines, gaps, sources."""
 
     def work(cur):
-        cur.execute("""SELECT id, name, equipment_type, sector, sector_codes, description, specifications,
-                              vendor_models, vendors, technologies, gaps, sources
-                       FROM equipment WHERE id = %s""", (equipment_id,))
+        cur.execute("SELECT record FROM equipment WHERE id = %s", (equipment_id,))
         rows = cur.fetchall()
-        if not rows:
-            return None
-        (eid, name, etype, sector, sector_codes, description, specifications, vendor_models,
-         vendors, technologies, gaps, sources) = rows[0]
-        return {"id": eid, "name": name, "equipment_type": etype, "sector": sector,
-                "sector_codes": sector_codes or [], "description": description,
-                "specifications": _jsonb(specifications) or [], "vendor_models": _jsonb(vendor_models) or [],
-                "vendors": vendors or [], "technologies": technologies or [],
-                "gaps": _jsonb(gaps) or [], "sources": _jsonb(sources) or []}
+        return _jsonb(rows[0][0]) if rows else None
 
     return _execute(work)
 
@@ -607,11 +607,14 @@ def drift_stamp() -> dict:
     return out
 
 
-def search_library(q: str, kind: str = "all", sector: str | None = None, limit: int = 10, qvec=None) -> list[dict]:
-    """library.search equivalent from Neon: hybrid_search ranking, then one enrichment query per
-    kind so rows carry the fields the web page and REST render (licence, snippet, roles, ...)."""
+def search_library(q: str, kind: str = "all", sector: str | None = None, limit: int = 10, qvec=None,
+                   discipline: str | None = None, region: str | None = None,
+                   reuse_level: str | None = None) -> list[dict]:
+    """library.search equivalent from Neon: hybrid_search ranking (with the same filters), then
+    one enrichment query per kind so rows carry the fields the web page and REST render
+    (licence, snippet, roles, ...)."""
     kinds = ("source", "chunk", "technology", "vendor", "equipment") if kind == "all" else (kind,)
-    hits = hybrid_search(q, min(max(1, int(limit)), 50), qvec, sector)
+    hits = hybrid_search(q, min(max(1, int(limit)), 50), qvec, sector, discipline, region, reuse_level)
     by_kind = {}
     for h in hits:
         if h["kind"] in kinds:
@@ -728,15 +731,17 @@ def tables_doc() -> dict:
              "columns": ["technology_id", "field", "item", "reason_code", "reason", "action", "blocked_by", "where"],
              "holds": "card children: gaps with reason_code/reason/action/where"},
             {"name": "vendor",
-             "columns": ["id", "name", "aliases[]", "country", "roles[]", "description", "products[]", "url", "technologies[]",
-                         "embedding", "tsv"],
-             "holds": "curated vendor directory records; technologies[] holds the card ids they supply"},
+             "columns": ["id", "name", "aliases[]", "country", "roles[]", "description", "products[]", "url",
+                         "technologies[]", "record jsonb", "embedding", "tsv"],
+             "holds": "curated vendor directory records; technologies[] holds the card ids they supply; "
+                      "record is the full catalog record (sources, notes, last_reviewed)"},
             {"name": "equipment",
              "columns": ["id", "name", "equipment_type", "sector", "sector_codes[]", "description",
                          "specifications jsonb", "vendor_models jsonb", "vendors[]", "technologies[]",
-                         "gaps jsonb", "sources jsonb", "embedding", "tsv"],
+                         "gaps jsonb", "sources jsonb", "record jsonb", "embedding", "tsv"],
              "holds": "curated equipment catalog records (one per equipment class, boilers first); "
-                      "specifications hold metric/range/basis/source and vendor_models the model lines"},
+                      "specifications hold metric/range/basis/source, vendor_models the model lines and "
+                      "record the full catalog record (aliases, applications, notes, last_reviewed)"},
             {"name": "register_entry",
              "columns": ["id", "sector", "area", "name", "maturity", "examples", "card_id"],
              "holds": "the ~300-technology register"},
@@ -762,9 +767,10 @@ def tables_doc() -> dict:
         "functions": [
             {"name": "graph_neighbors", "signature": "start_id text, max_depth int, rels text[]",
              "does": "recursive walk of the graph, both directions"},
-            {"name": "hybrid_search", "signature": "q text, qvec vector(384), k int, sector text",
+            {"name": "hybrid_search", "signature": "q text, qvec vector(384), k int, sector text, discipline text, region text, reuse_level text",
              "does": "reciprocal-rank fusion of full-text and vector search over passages, cards, vendors, "
-                     "equipment and catalog sources; qvec/sector optional"},
+                     "equipment and catalog sources; all filters optional and mirror the SQLite search; "
+                     "passages of full-text-restricted documents are excluded"},
             {"name": "refresh_similarity", "signature": "k int, min_sim float",
              "does": "rebuilds similar_to edges (write path, loader only)"},
         ],
