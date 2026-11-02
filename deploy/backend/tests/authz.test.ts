@@ -51,10 +51,13 @@ test("audienceVerdict: a key issued for another service is rejected", () => {
                    { reason: "mismatch", expected: "techlib", actual: "tlea-api" });
 });
 
-test("audienceVerdict: missing/empty audience is allowed with a note (legacy keys)", () => {
-  assert.deepEqual(audienceVerdict(key({ audience: "" })), { ok: true, note: "missing" });
-  assert.deepEqual(audienceVerdict(key({ audience: undefined })), { ok: true, note: "missing" });
-  assert.deepEqual(audienceVerdict(key({ audience: "  " })), { ok: true, note: "missing" });
+test("audienceVerdict: missing/empty audience is rejected", () => {
+  for (const audience of ["", undefined, "  "]) {
+    const verdict = audienceVerdict(key({ audience }));
+    assert.equal(verdict.ok, false);
+    assert.equal(verdict.ok === false ? verdict.reason : null, "missing");
+    assert.equal(verdict.ok === false ? verdict.expected : null, "techlib");
+  }
 });
 
 test("audienceVerdict: the expected audience is configurable", () => {

@@ -16,7 +16,7 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - `deploy/cloudflare/wrangler.jsonc` (retired pre-split worker `og-tech-library`) no longer declares the `techlib.hilir.app` route: the Cloudflare workers/domains API attaches that domain to `og-tech-library-ui`, and exactly one worker may hold it. Rollback steps in HOSTING.md.
 
 ### Added
-- Key-audience check on `techlib-api`: a machine key issued for another service is rejected (403 `forbidden`, `reason: audience`). Expected audience is the `AUDIENCE` var (default `techlib`). Keys with an empty audience — legal in Access (`api_keys.audience DEFAULT ''`) — are allowed and logged as `audience_missing` until every live key carries one.
+- Key-audience check on `techlib-api`: a machine key issued for another service is rejected (403 `forbidden`, `reason: audience`). Expected audience is the `AUDIENCE` var (default `techlib`). A key with an empty audience is now also rejected (`detail: missing`): Access requires an audience on new keys and all pre-restructure keys were revoked, so there is no legacy population to keep open. `denied_audience` audit lines carry `detail`, `expected` and `actual`.
 - `deploy/backend/src/authz.ts` (pure identity/authorization rules) and 24 `node --test` unit tests; `npm test` / `npm run typecheck` in `deploy/backend`.
 
 ### Deployed

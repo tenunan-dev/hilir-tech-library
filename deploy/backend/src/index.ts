@@ -105,15 +105,16 @@ async function machineGate(request: Request, env: Env, presented: string | null)
   const audience = audienceVerdict(principal as Principal, env.AUDIENCE ?? DEFAULT_AUDIENCE);
   if (!audience.ok) {
     console.log(auditLine("denied_audience", principal, {
-      path: new URL(request.url).pathname, status: 403, expected: audience.expected, actual: audience.actual,
+      path: new URL(request.url).pathname,
+      status: 403,
+      detail: audience.reason,
+      expected: audience.expected,
+      actual: audience.actual ?? "",
     }));
-    return Response.json({ error: "forbidden", reason: "audience", expected: audience.expected }, { status: 403 });
-  }
-  if (audience.note === "missing") {
-    // log-only: legacy keys may predate service attribution (see authz.audienceVerdict)
-    console.warn(auditLine("audience_missing", principal, {
-      path: new URL(request.url).pathname, expected: env.AUDIENCE ?? DEFAULT_AUDIENCE,
-    }));
+    return Response.json(
+      { error: "forbidden", reason: "audience", detail: audience.reason, expected: audience.expected },
+      { status: 403 },
+    );
   }
   console.log(auditLine("request", principal, {
     method: request.method, path: new URL(request.url).pathname,

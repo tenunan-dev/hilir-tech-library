@@ -40,21 +40,21 @@ export function actorOf(p: Principal): string {
 }
 
 export type AudienceVerdict =
-  | { ok: true; note?: "missing" }
-  | { ok: false; reason: "mismatch"; expected: string; actual: string };
+  | { ok: true }
+  | { ok: false; reason: "mismatch" | "missing"; expected: string; actual?: string };
 
 /**
- * Audience check — a key issued for another service must not open this API.
+ * Audience check — a key issued for another service (or for none) must not open this API.
  *
- * Missing/empty audience is ALLOWED with a note (logged by the Worker) rather than rejected:
- * api_keys.audience is `TEXT NOT NULL DEFAULT ''` and the Access key UI lets a user issue a
- * personal key without a service, so failing closed here could break legitimate keys. Once ops
- * confirms every live key carries an audience, flip the `note` branch to a rejection.
+ * Missing/empty audience is REJECTED (2026-11-02): hilir Access now refuses to issue a key
+ * without an audience, and every pre-existing key was revoked during the scope restructure, so
+ * there is no legacy population to protect. A key that does not name its service is treated as
+ * an error, not as an implicit "any service".
  */
 export function audienceVerdict(p: Principal, expected: string = DEFAULT_AUDIENCE): AudienceVerdict {
   if (p.kind !== "key") return { ok: true }; // master key and hlt_ keys are not Access keys
   const actual = (p.audience ?? "").trim();
-  if (actual.length === 0) return { ok: true, note: "missing" };
+  if (actual.length === 0) return { ok: false, reason: "missing", expected };
   if (actual !== expected) return { ok: false, reason: "mismatch", expected, actual };
   return { ok: true };
 }
