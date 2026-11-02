@@ -1,0 +1,40 @@
+{
+  "id": "soluforce",
+  "name": "SoluForce",
+  "aliases": [
+    "SoluForce B.V.",
+    "Pipelife SoluForce",
+    "SOLUFORCE RTP"
+  ],
+  "country": "Netherlands",
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem",
+    "materials-supplier"
+  ],
+  "description": "SoluForce B.V. (part of the Wienerberger Group, through Pipelife) is the originator and manufacturer of SoluForce Flexible Composite Pipe (FCP, also known as Reinforced Thermoplastic Pipe, RTP) — a fully non-metallic, corrosion-free high-pressure pipe system for oil and gas flowlines, water-injection and effluent lines, onshore and offshore. The system grew out of Pipelife Nederland B.V.'s work in the 1998 Long Length RTP Joint Industry Project. Product range covers hydrocarbon and water service, a gas-tight pipe (SoluForce GT, no venting needed) and hydrogen transport lines, with a corrosion-resistant fitting system and certified installation services.",
+  "products": [
+    "SoluForce FCP/RTP pipe systems for hydrocarbons, water injection and effluent service",
+    "SoluForce GT gas-tight RTP (permeation-tight gas transport without venting)",
+    "RTP qualified for green-hydrogen transport",
+    "Corrosion-resistant fitting system, installation equipment and certified installation engineers"
+  ],
+  "technologies": [
+    "mid-composite-reinforced-thermoplastic-pipe"
+  ],
+  "sources": [
+    {
+      "url": "https://www.soluforce.com/about-us.html",
+      "note": "SoluForce corporate site, About Us, read 2026-11-03"
+    },
+    {
+      "url": "https://www.soluforce.com/product-overview/pipe-types/gas-tight.html",
+      "note": "SoluForce GT gas-tight pipe page, read 2026-11-03 (search result snippet)"
+    }
+  ],
+  "url": "https://www.soluforce.com",
+  "last_reviewed": "2026-11-03"
+}

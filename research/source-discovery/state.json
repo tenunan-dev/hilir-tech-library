@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-03",
   "note": "Live sequencer state for docs/SOURCE_DISCOVERY_PLAN.md blocks. Any agent: update after every block completion, failure or re-plan. Statuses: queued | running | done | partial | blocked-temporary (has retry_after + retries) | blocked-owner. Re-sequence freely after each block; never delete rows.",
   "blocks": [
     {
@@ -21,7 +21,7 @@
       "name": "Triage + register queued source candidates (batches of ~8)",
       "status": "partial",
       "runs": 1,
-      "note": "batches 1-4 done: 40 sources registered (63 total incl. earlier), 4 blocked-owner, 3 rejected; 177 queued (mostly discover_sources URL/phrase hits + 10 A9 events + A4b venues). Next: continue batches of 8, prioritising named orgs over one-off URLs"
+      "note": "batches 1-5 done: 45 sources registered this plan (68 rows incl. earlier), 7 rejected, 4 blocked-owner; 169 queued. Batch 5 (2026-11-03): vendors hengli-petrochemical, nayara-energy, soluforce, pln + catalog/sources/aer; bp enriched with the Cativa licensor role + pch-acetic-acid link; CCAC OGMP and Kanadeva rows resolved as duplicates (ogmp record existed; hitachi-zosen already claims the Kanadevia alias). Next: continue batches of 8, prioritising named orgs over one-off URLs."
     },
     {
       "id": "A4",

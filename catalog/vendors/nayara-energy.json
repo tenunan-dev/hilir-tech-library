@@ -1,0 +1,32 @@
+{
+  "id": "nayara-energy",
+  "name": "Nayara Energy",
+  "aliases": [
+    "Nayara Energy Limited",
+    "Essar Oil",
+    "Nayara Energy (formerly Essar Oil)"
+  ],
+  "country": "India",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Indian downstream company (Rosneft-backed) operating the Vadinar refinery on the Gulf of Kutch, Gujarat — India's second-largest single-site refinery, capable of handling a diverse crude slate — plus the country's fastest-growing private fuel-retail network. Pursuing a phase-wise asset-development strategy to enter petrochemicals as part of a crude-to-chemicals journey.",
+  "products": [
+    "Vadinar refinery (Gulf of Kutch, Gujarat) — India's second-largest single-site refinery",
+    "Pan-India private fuel-retail network"
+  ],
+  "technologies": [
+    "ref-delayed-coking"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nayaraenergy.com/about-us",
+      "note": "Nayara Energy corporate site, About Us, read 2026-11-03"
+    }
+  ],
+  "url": "https://www.nayaraenergy.com",
+  "last_reviewed": "2026-11-03"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hengli-petrochemical",
+  "name": "Hengli Petrochemical",
+  "aliases": [
+    "Hengli Petrochemical Co., Ltd.",
+    "恒力石化",
+    "Hengli Group"
+  ],
+  "country": "China",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Private Chinese refiner-petrochemical producer (Suzhou-based Hengli Group; listed company 600346.SH). Operates the integrated crude-to-chemicals complex on Changxing Island, Dalian — a 20-million-tonne-per-year (about 400,000 b/d) refining and chemical integration project with paraxylene, ethylene and PTA units. US OFAC placed the company under sanctions on 2026-04-24 (company denies the grounds); recorded here as an operational fact, not a judgement.",
+  "products": [
+    "Changxing Island (Dalian) crude-to-chemicals complex, about 400,000 b/d refining plus PX and ethylene units",
+    "PTA production base"
+  ],
+  "technologies": [
+    "ref-crude-to-chemicals"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Hengli_Petrochemical",
+      "note": "Wikipedia company profile, read 2026-11-03 (secondary source; capacity figures as reported by Reuters/Xinhua)"
+    }
+  ],
+  "url": "https://www.hengliap.com",
+  "last_reviewed": "2026-11-03"
+}

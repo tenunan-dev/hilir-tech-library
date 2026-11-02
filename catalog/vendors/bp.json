@@ -3,11 +3,13 @@
   "name": "BP",
   "country": "United Kingdom",
   "roles": [
-    "operator",
-    "developer"
+    "developer",
+    "licensor",
+    "operator"
   ],
-  "description": "UK supermajor: Clair Ridge low-salinity waterflood operator (LoSal EOR) and major offshore and gas operator.",
+  "description": "UK supermajor: Clair Ridge low-salinity waterflood operator (LoSal EOR) and major offshore and gas operator. Licensor of the Cativa iridium-catalysed methanol carbonylation technology for acetic acid.",
   "technologies": [
+    "pch-acetic-acid",
     "ups-waterflood-low-salinity"
   ],
   "url": "https://www.bp.com",
@@ -15,9 +17,13 @@
     {
       "url": "https://www.bp.com",
       "note": "Vendor site, read 2026-10-28"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cativa_process",
+      "note": "Wikipedia, Cativa process (secondary; also cited by the pch-acetic-acid card, read 2026-10-25)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-03",
   "categories": [
     "operator"
   ]

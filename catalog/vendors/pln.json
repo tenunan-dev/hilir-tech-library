@@ -1,0 +1,33 @@
+{
+  "id": "pln",
+  "name": "PT PLN (Persero)",
+  "aliases": [
+    "PLN",
+    "Perusahaan Listrik Negara",
+    "State Electricity Company of Indonesia"
+  ],
+  "country": "Indonesia",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator",
+    "utility"
+  ],
+  "description": "Indonesia's state-owned electric utility: generation, transmission and distribution across the national grid, and the state counterparty for utility-scale power projects. Partner (with Masdar) in the Cirata floating solar PV plant in West Java — 145 MW at its 2023 commissioning, the largest in Southeast Asia, with a planned expansion to 500 MW.",
+  "products": [
+    "National grid generation, transmission and distribution (Java-Madura-Bali, Sumatra, Kalimantan, Sulawesi systems)",
+    "Utility-scale renewable offtake and partnerships (Cirata 145 MW floating PV with Masdar)"
+  ],
+  "technologies": [
+    "pwr-floating-solar"
+  ],
+  "sources": [
+    {
+      "url": "https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations",
+      "note": "TaiyangNews on Southeast Asian floating solar (Cirata, Masdar/PLN), read 2026-10-30 (citation shared with the pwr-floating-solar card)"
+    }
+  ],
+  "url": "https://web.pln.co.id",
+  "last_reviewed": "2026-11-03"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "aer",
+  "name": "Alberta Energy Regulator (AER)",
+  "url": "https://www.aer.ca",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "publisher_org": "Alberta Energy Regulator",
+  "country": "CA",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "all-rights-reserved",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "The regulator of oil, oil sands, natural gas and mineral resource development in Alberta across the full life cycle. Freely downloadable, citable publications: the ST98 Alberta Energy Outlook (reserves, prices, supply costs, pipelines, CCUS, hydrogen/geothermal/helium/lithium emerging resources), the Information Hub performance datasets (wells drilled, methane reduction, pipeline incidents, water use, closure activity), directives and manuals. Reports carry Crown/Alberta Energy Regulator copyright — cite AER with date; the copyright page could not be located this session (site 404), so confirm terms before bulk republication. Evidence: https://www.aer.ca/about-aer (read 2026-11-03).",
+  "verification": "verified",
+  "last_verified": "2026-11-03",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}
