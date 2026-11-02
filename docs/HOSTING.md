@@ -69,8 +69,14 @@ at `https://techlib.hilir.app`, the API at `https://techlib-api.hilir.app` — *
 - **Graceful degradation (R5):** every page reads Neon first and falls back to the built index
   automatically; when the configured database is unreachable, pages show a notice that the data
   may be stale (and `/api/version` reports `layer: sqlite-fallback`).
-- Rollback: `deploy/cloudflare/` is the pre-split single-Worker config and stays deployable (a
-  deploy of it reclaims the techlib.hilir.app custom domain).
+- **Domain ownership (checked 2026-11-02 via the Cloudflare workers/domains API):**
+  `techlib.hilir.app` → `og-tech-library-ui`, `techlib-api.hilir.app` → `og-tech-library-api`.
+  Exactly one worker may hold a custom domain, so the retired pre-split worker's config
+  (`deploy/cloudflare/`, worker `og-tech-library`) no longer declares the route — a deploy of it
+  can no longer hijack the UI domain. That worker stays deployed but routeless.
+- Rollback (deliberate, manual): remove the route from `deploy/frontend/wrangler.jsonc`, re-add
+  `"routes": [{ "pattern": "techlib.hilir.app", "custom_domain": true }]` to
+  `deploy/cloudflare/wrangler.jsonc`, then deploy `deploy/cloudflare`.
 
 ```
 cd deploy/frontend && npx wrangler deploy     # builds Dockerfile.frontend (~3-5 min, no embed)

@@ -1,6 +1,17 @@
 {
-  // Hosted MCP server for the O&G technology library: https://techlib.hilir.app/mcp
-  // Deploy from this folder: npx wrangler deploy   (needs Docker running; builds ../../Dockerfile)
+  // RETIRED / ROLLBACK-ONLY config (pre-split single-container worker `og-tech-library`).
+  // Since the decision #34 cutover the live workers are deploy/frontend (og-tech-library-ui at
+  // techlib.hilir.app) and deploy/backend (og-tech-library-api at techlib-api.hilir.app).
+  //
+  // This worker owns NO custom domain: Cloudflare workers/domains (checked 2026-11-02) attaches
+  // techlib.hilir.app to og-tech-library-ui. The route declaration was removed on 2026-11-02 —
+  // exactly one worker may hold a custom domain, so deploying this folder would otherwise try to
+  // reclaim it from the UI worker (breaking SSO and the web UI).
+  //
+  // Full rollback (deliberate, manual): remove the route from deploy/frontend/wrangler.jsonc,
+  // re-add `"routes": [{ "pattern": "techlib.hilir.app", "custom_domain": true }]` here, then
+  // deploy this folder. Do not deploy this folder without the route: a routeless deploy only
+  // updates a worker nothing reaches.
   "name": "og-tech-library",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
@@ -20,8 +31,5 @@
   "durable_objects": {
     "bindings": [{ "name": "LIBRARY", "class_name": "Library" }]
   },
-  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Library"] }],
-  "routes": [
-    { "pattern": "techlib.hilir.app", "custom_domain": true }
-  ]
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Library"] }]
 }

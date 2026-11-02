@@ -9,6 +9,10 @@
   "compatibility_date": "2026-10-01",
   "account_id": "afa8fa65e07832d7e611e831d150d3bd",
   "observability": { "enabled": true },
+  // The service a machine (sk-) key must be issued for. Estate convention: audience matches the
+  // service, and the Access registry lists this library as "techlib". Keys issued for another
+  // service are rejected; keys with no audience are allowed but logged (see src/authz.ts).
+  "vars": { "AUDIENCE": "techlib" },
   "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "36f1ee63335644608a3969baec462626" }],
   // hilir Access machine keys (sk-…): same-account Service Binding to the access worker;
   // the INTERNAL_TOKENS secret (same csv as hilir-access holds) rides the binding hop only.

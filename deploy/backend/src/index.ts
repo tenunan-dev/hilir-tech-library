@@ -16,10 +16,12 @@
 import { Container, getContainer } from "@cloudflare/containers";
 import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@cloudflare/workers-oauth-provider";
 import { createKeyChecker, type KeyResult } from "./hilir-auth";
+import {
+  DEFAULT_AUDIENCE, HILIR_SCOPE, auditLine, audienceVerdict, authorize, type Principal,
+} from "./authz";
 
 const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P0.3)
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
-const HILIR_SCOPE = "catalog:read"; // the REST API is read-only
 
 interface Env {
   LIBRARY: DurableObjectNamespace<LibraryApi>;
@@ -30,6 +32,7 @@ interface Env {
   OAUTH_PROVIDER: OAuthHelpers;
   ACCESS: Fetcher; // Service Binding to hilir-access (sk- key introspection)
   INTERNAL_TOKENS: string; // shared internal token csv; wrangler secret put INTERNAL_TOKENS
+  AUDIENCE?: string; // machine-key audience this API accepts; default "techlib" (wrangler var)
 }
 
 export class LibraryApi extends Container<Env> {
@@ -60,16 +63,19 @@ function keyOk(env: Env, given: string | null): boolean {
 }
 
 // hilir Access machine keys (sk-…): introspected through the Service Binding with a
-// 60 s result cache (checker cached per-env so the cache survives requests). Gated on
-// the read scope — same estate contract as the other consumers (the shared checker
-// module carries no audience field; a known, accepted estate gap for now). Fail closed
-// on any introspection error: unreachable access = no machine access, never open access.
+// 60 s result cache (checker cached per-env so the cache survives requests). The principal
+// carries the key's owner and id, so request/denial logs name the actor. Fail closed on any
+// introspection error: unreachable access = no machine access, never open access.
 const hilirCheckers = new WeakMap<Env, (rawKey: string) => Promise<KeyResult | null>>();
 
-/** Any accepted credential: master key / hlt_ / hilir sk- (introspected). */
-async function credentialOk(env: Env, given: string | null): Promise<boolean> {
-  if (!given) return false;
-  if (!given.startsWith("sk-")) return keyOk(env, given);
+/** Resolve any accepted credential to a principal, or null when it is not usable. */
+async function principalOf(env: Env, given: string | null): Promise<Principal | null> {
+  if (!given) return null;
+  if (!given.startsWith("sk-")) {
+    // master key (owner) or a per-user hlt_ key resolved inside the container
+    if (!keyOk(env, given)) return null;
+    return { kind: given.startsWith("hlt_") ? "hlt" : "master", scopes: [HILIR_SCOPE] };
+  }
   let checker = hilirCheckers.get(env);
   if (!checker) {
     checker = createKeyChecker({ binding: env.ACCESS, internalToken: env.INTERNAL_TOKENS });
@@ -77,11 +83,42 @@ async function credentialOk(env: Env, given: string | null): Promise<boolean> {
   }
   try {
     const result = await checker(given);
-    return !!result?.active && result.scopes.includes(HILIR_SCOPE);
+    if (!result?.active) return null;
+    return { kind: "key", userId: result.userId, keyId: result.keyId, audience: result.audience, scopes: result.scopes };
   } catch (err) {
     console.error(`hilir introspect failed (${err instanceof Error ? err.message : "error"}) — failing closed`);
-    return false;
+    return null;
   }
+}
+
+/**
+ * The Machine-facing gate for /api and machine Bearer on /mcp: authenticate → catalog:read →
+ * audience. Logs the actor for every machine request and every denial. Returns null to proceed.
+ */
+async function machineGate(request: Request, env: Env, presented: string | null): Promise<Response | null> {
+  const principal = await principalOf(env, presented);
+  const denied = authorize(principal);
+  if (denied) {
+    console.log(auditLine("denied", principal, { path: new URL(request.url).pathname, status: denied.status }));
+    return denied;
+  }
+  const audience = audienceVerdict(principal as Principal, env.AUDIENCE ?? DEFAULT_AUDIENCE);
+  if (!audience.ok) {
+    console.log(auditLine("denied_audience", principal, {
+      path: new URL(request.url).pathname, status: 403, expected: audience.expected, actual: audience.actual,
+    }));
+    return Response.json({ error: "forbidden", reason: "audience", expected: audience.expected }, { status: 403 });
+  }
+  if (audience.note === "missing") {
+    // log-only: legacy keys may predate service attribution (see authz.audienceVerdict)
+    console.warn(auditLine("audience_missing", principal, {
+      path: new URL(request.url).pathname, expected: env.AUDIENCE ?? DEFAULT_AUDIENCE,
+    }));
+  }
+  console.log(auditLine("request", principal, {
+    method: request.method, path: new URL(request.url).pathname,
+  }));
+  return null;
 }
 
 function storeDsnHeaders(request: Request, env: Env): Headers {
@@ -185,10 +222,15 @@ export default {
     const apiKey = request.headers.get("x-api-key");
     const bearer = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
     if (apiKey !== null || url.pathname.startsWith("/api/")) {
-      return (await credentialOk(env, apiKey ?? bearer)) ? toContainer(request, env)
-        : Response.json({ error: "missing or wrong API key" }, { status: 401 });
+      // x-api-key wins when present (estate docs: never send both)
+      const denied = await machineGate(request, env, apiKey ?? bearer);
+      return denied ?? toContainer(request, env);
     }
-    if (bearer && (await credentialOk(env, bearer))) return toContainer(request, env); // older clients sending the key as a bearer token
+    if (bearer && (bearer.startsWith("sk-") || keyOk(env, bearer))) {
+      // older clients send the library key as a bearer token; Access sk- keys are machine auth
+      const denied = await machineGate(request, env, bearer);
+      return denied ?? toContainer(request, env);
+    }
     return oauthProvider.fetch(request, env, ctx); // /mcp with OAuth tokens, and the OAuth endpoints
   },
 };

@@ -1,3 +1,27 @@
+# Changelog
+
+All notable releases of the library. Versions are calendar-based — `YYYY.MM.DD`, with a `.2`,
+`.3`… suffix when a day ships more than one release; a version is cut when a working session
+lands in `main`. Categories follow [Keep a Changelog](https://keepachangelog.com/). Session
+detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
+[docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
+[docs/archive/](docs/archive/) (see its README) and never deleted.
+
+
+## [2026.11.02] — 2026-11-02 — Access consumer re-sync, identity logging, key-audience check, domain de-dup
+
+### Changed
+- `deploy/backend/src/hilir-auth.ts` re-synced to canonical upstream `b5ed348`: sk- keys now expose their owner (`userId`) and the key's own id (`keyId`) from introspection; `authenticate()` returns `{kind, userId, keyId, scopes}` for `sk-` keys. JWT verification, the 60 s result cache and fail-closed introspection behaviour are unchanged.
+- Machine requests and denials now log the actor (`userId`, falling back to `keyId`) as one-line JSON in Workers logs. An authenticated principal without `catalog:read` is denied as **403 forbidden** naming the scope (anonymous or unusable credentials stay 401).
+- `deploy/cloudflare/wrangler.jsonc` (retired pre-split worker `og-tech-library`) no longer declares the `techlib.hilir.app` route: the Cloudflare workers/domains API attaches that domain to `og-tech-library-ui`, and exactly one worker may hold it. Rollback steps in HOSTING.md.
+
+### Added
+- Key-audience check on `techlib-api`: a machine key issued for another service is rejected (403 `forbidden`, `reason: audience`). Expected audience is the `AUDIENCE` var (default `techlib`). Keys with an empty audience — legal in Access (`api_keys.audience DEFAULT ''`) — are allowed and logged as `audience_missing` until every live key carries one.
+- `deploy/backend/src/authz.ts` (pure identity/authorization rules) and 24 `node --test` unit tests; `npm test` / `npm run typecheck` in `deploy/backend`.
+
+### Deployed
+- Backend worker version `406d02ed-0b1f-4c31-afa4-57ebb0ce8b16` (container image unchanged). Live-checked: master key 200, anonymous 401, garbage `sk-` 401, OAuth `/mcp` path intact, audit lines visible in `wrangler tail`.
+
 ## [2026.10.31.4] — 2026-10-31 — Split deployment live at techlib.hilir.app + techlib-api.hilir.app
 
 ### Deployed
@@ -9,16 +33,6 @@
 
 ### Changed
 - The pre-split single Worker `og-tech-library` no longer holds a route; it stays deployed as the instant rollback (redeploy `deploy/cloudflare/` to reclaim techlib.hilir.app). MCP registration on the owner's Mac re-pointed to techlib-api.hilir.app/mcp; the claude.ai connector re-add is the owner's browser-side step.
-
-# Changelog
-
-All notable releases of the library. Versions are calendar-based — `YYYY.MM.DD`, with a `.2`,
-`.3`… suffix when a day ships more than one release; a version is cut when a working session
-lands in `main`. Categories follow [Keep a Changelog](https://keepachangelog.com/). Session
-detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
-[docs/DECISIONS.md](docs/DECISIONS.md); superseded documentation is archived under
-[docs/archive/](docs/archive/) (see its README) and never deleted.
-
 ## [2026.10.30.7] — 2026-10-30 — Equipment catalog layer opens with boiler (decision #33)
 
 ### Deployed
