@@ -1,0 +1,124 @@
+{
+  "id": "turbine-gas-industrial",
+  "name": "Industrial gas turbine (aeroderivative and heavy-frame)",
+  "aliases": [
+    "IGT",
+    "industrial gas turbine",
+    "aeroderivative gas turbine",
+    "heavy-frame gas turbine"
+  ],
+  "equipment_type": "turbine",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "UPS",
+    "GAS",
+    "REF"
+  ],
+  "description": "Gas turbine for power generation and mechanical drive, in two families: aeroderivative units adapted from jet engines (fast start, high simple-cycle efficiency, modular exchange) and heavy-frame machines built for bulky base-load duty behind the grid or as compressor drives on pipelines and gas plants. Sets the exhaust energy that an HRSG converts in combined-cycle and cogeneration service.",
+  "applications": [
+    "grid power generation, simple cycle and combined cycle",
+    "mechanical drive for pipeline and gas-plant compression",
+    "fast-start peaking and grid-resilience duty (aeroderivative)",
+    "hydrogen-blend and hydrogen-ready fuel operation"
+  ],
+  "specifications": [
+    {
+      "metric": "aeroderivative output, LM6000PF+ (50 Hz, ISO)",
+      "unit": "MW",
+      "low": 52.5,
+      "high": 53.8,
+      "basis": "52.5 MWe at generator terminals (power generation); 53.8 MW mechanical drive; vendor spec table",
+      "source": {
+        "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+        "note": "Baker Hughes LM6000PF+ product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
+      }
+    },
+    {
+      "metric": "aeroderivative simple-cycle efficiency, LM6000PF+",
+      "unit": "%",
+      "low": 41,
+      "high": 42,
+      "basis": "vendor spec table: 41% power generation, 42% mechanical drive",
+      "source": {
+        "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+        "note": "Baker Hughes LM6000PF+ product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
+      }
+    },
+    {
+      "metric": "packaged aeroderivative output, LM2500XPRESS+ (50 Hz, ISO, natural gas)",
+      "unit": "MW",
+      "low": 34.5,
+      "high": 36.3,
+      "basis": "G4 and G5 DLE UPT packaged variants",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
+        "note": "GE Vernova LM2500 product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
+      }
+    },
+    {
+      "metric": "hydrogen-blend operating experience",
+      "unit": "% hydrogen by volume",
+      "low": 5,
+      "high": 95,
+      "basis": "about 2 million operating hours on hydrogen-blend fuels across the fleet; headline capability up to 95% by volume",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
+        "note": "GE Vernova LM2500 product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "baker-hughes",
+      "line": "LM6000PF+ aeroderivative gas turbine",
+      "range": "52.5 MWe power generation / 53.8 MW mechanical drive, 41-42% simple-cycle efficiency (ISO, 50 Hz)",
+      "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+      "note": "Baker Hughes product page"
+    },
+    {
+      "vendor": "ge-vernova",
+      "line": "LM2500XPRESS+ packaged aeroderivative",
+      "range": "34.5-36.3 MW (50 Hz, ISO, natural gas); hydrogen-blend experience 5-95% by volume",
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
+      "note": "GE Vernova product page"
+    }
+  ],
+  "vendors": [
+    "baker-hughes",
+    "ge-vernova",
+    "solar-turbines",
+    "siemens-energy"
+  ],
+  "technologies": [
+    "pwr-aeroderivative-turbines"
+  ],
+  "gaps": [
+    {
+      "what": "heavy-frame (H/F-class) power and efficiency ranges per model",
+      "why": "the GE Vernova and Siemens Energy heavy-duty product pages moved (previous URLs return site 404s) and the replacement pages were not located this session",
+      "next_action": "locate the current 9HA/SGT product pages (or fact-sheet PDFs) and add heavy-frame output/efficiency ranges and vendor model lines"
+    },
+    {
+      "what": "Solar Turbines Titan-family model ranges for the 1-25 MW industrial segment",
+      "why": "solarturbines.com served a 458-byte block page to the fetch ladder",
+      "next_action": "fetch Titan 130 / Taurus 70 pages via a browser session and add model lines"
+    },
+    {
+      "what": "exhaust-temperature and exhaust-flow ranges that drive HRSG sizing",
+      "why": "no single fetched source states ranges across the two families",
+      "next_action": "extract per-model exhaust data from the OEM spec tables already cited on the combined-cycle cards"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
+      "note": "Baker Hughes LM6000PF+ page, read 2026-10-30 (citation shared with the pwr-aeroderivative-turbines card)"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
+      "note": "GE Vernova LM2500 page, read 2026-10-30 (citation shared with the pwr-aeroderivative-turbines card)"
+    }
+  ],
+  "last_reviewed": "2026-11-03"
+}

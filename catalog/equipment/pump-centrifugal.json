@@ -1,0 +1,89 @@
+{
+  "id": "pump-centrifugal",
+  "name": "Centrifugal pump (API 610 and general service)",
+  "aliases": [
+    "API 610 pump",
+    "overhung pump",
+    "between-bearing pump",
+    "centrifugal process pump"
+  ],
+  "equipment_type": "pump",
+  "sector": "ROT",
+  "sector_codes": [
+    "ROT",
+    "REF",
+    "PCH",
+    "UPS",
+    "PWR"
+  ],
+  "description": "Rotodynamic pump that adds velocity to the liquid with an impeller and converts it to pressure in a volute or diffuser — the default mover for refinery, petrochemical, power and upstream water duties. API 610 (with ISO 13709) is the refinery-class standard and organises machines into overhung (OH), between-bearing (BB) and vertically-suspended (VS) arrangements; the specific family sets how much flow, head and suction pressure the machine takes.",
+  "applications": [
+    "boiler feed water and condensate in power and cogeneration plants",
+    "refinery and petrochemical process and transfer duties",
+    "pipeline, water injection and utility water service"
+  ],
+  "specifications": [
+    {
+      "metric": "boiler feed pump flow per pump (350 MW unit, two in parallel)",
+      "unit": "L/s",
+      "low": 150,
+      "high": 150,
+      "basis": "example given in the article: two pumps in parallel for a 350 MW unit at 21 MPa",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Centrifugal_pump",
+        "note": "Wikipedia, Centrifugal pump (read 2026-10-30; citation shared with the rot-pumps card)"
+      }
+    },
+    {
+      "metric": "boiler feed pump discharge pressure (350 MW unit)",
+      "unit": "MPa",
+      "low": 21,
+      "high": 21,
+      "basis": "example given in the article for a 350 MW unit's feed system",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Centrifugal_pump",
+        "note": "Wikipedia, Centrifugal pump (read 2026-10-30; citation shared with the rot-pumps card)"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "sulzer",
+      "line": "API 610 and ISO 13709 pump families",
+      "range": "end-suction and overhung, between-bearing (axially- and radially-split, one/two and multi-stage) and vertically-suspended families; per-model flow and head ranges sit on the family pages",
+      "url": "https://www.sulzer.com/en/products/pumps",
+      "note": "Sulzer product overview, read 2026-11-03"
+    }
+  ],
+  "vendors": [
+    "sulzer",
+    "flowserve",
+    "ksb"
+  ],
+  "technologies": [
+    "rot-pumps"
+  ],
+  "gaps": [
+    {
+      "what": "per-model flow, head and pressure ranges for the API 610 families (Sulzer ZE/ZP/ZPP, Flowserve Mark III/OH2/BB5, KSB)",
+      "why": "the family pages carry the numbers behind JS product finders or deeper pages that the fetch ladder did not reach this session (Flowserve's pump page renders as a JS shell)",
+      "next_action": "fetch the Sulzer ZE/ZPP and Flowserve OH2/BB5 family pages (browser session if needed) and add per-model ranges"
+    },
+    {
+      "what": "energy-footprint and efficiency benchmark for process pumps",
+      "why": "no fetched source states a citable range",
+      "next_action": "Hydraulic Institute (pumps.org) pumping-system assessment publication is the natural source"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Centrifugal_pump",
+      "note": "Wikipedia, Centrifugal pump, read 2026-10-30 (citation shared with the rot-pumps card)"
+    },
+    {
+      "url": "https://www.sulzer.com/en/products/pumps",
+      "note": "Sulzer pumps product overview (families incl. API 610 and ISO 13709), read 2026-11-03"
+    }
+  ],
+  "last_reviewed": "2026-11-03"
+}

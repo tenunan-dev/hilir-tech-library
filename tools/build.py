@@ -281,7 +281,7 @@ def equipment_page(equipment, vendor_names_by_id, labels):
             lines.append(rec["description"])
             vendors_listed = [vendor_names_by_id.get(v, v) for v in rec["vendors"]]
             lines += [f"Vendors: {', '.join(vendors_listed)} "
-                      f"({len(rec['vendor_models'])} model lines recorded).", "",
+                      f"({len(rec.get('vendor_models', []))} model lines recorded).", "",
                       "| Specification | Value | Basis |", "| --- | --- | --- |"]
             for s in rec["specifications"]:
                 basis = s.get("basis", "")

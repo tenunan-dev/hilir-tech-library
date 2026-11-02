@@ -1,0 +1,77 @@
+{
+  "id": "compressor-centrifugal",
+  "name": "Centrifugal compressor",
+  "aliases": [
+    "API 617 compressor",
+    "barrel compressor",
+    "process centrifugal compressor"
+  ],
+  "equipment_type": "compressor",
+  "sector": "ROT",
+  "sector_codes": [
+    "ROT",
+    "GAS",
+    "REF",
+    "PCH",
+    "CCS"
+  ],
+  "description": "Dynamic compressor that raises gas pressure across one or more impeller stages — the standard machine for refinery and petrochemical process gas, pipeline boost, gas-lift and reinjection, and CO2 service, driven by gas turbines or electric motors through gears. Casing arrangements (overhung, integrally-geared, horizontally- or vertically-split/barrel) set the pressure class; barrel-style machines serve the highest-pressure gas reinjection duties.",
+  "applications": [
+    "refinery and petrochemical process gas (incl. refrigeration and charge gas)",
+    "pipeline boost and gas-lift compression",
+    "oilfield gas reinjection (highest-pressure barrel casings)",
+    "CO2 compression ahead of transport and storage"
+  ],
+  "specifications": [
+    {
+      "metric": "single-stage pressure ratio",
+      "unit": "ratio",
+      "low": 1,
+      "high": 10,
+      "basis": "single-stage machines; ratios of about 8 are a helicopter-engine example and few centrifugal stages exceed 10:1 — process duty sits well below the top of this range",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Centrifugal_compressor",
+        "note": "Wikipedia, Centrifugal compressor (read 2026-10-30; citation shared with the rot-centrifugal-axial-compressors card)"
+      }
+    },
+    {
+      "metric": "oilfield gas reinjection discharge pressure",
+      "unit": "bar",
+      "low": 700,
+      "high": 700,
+      "basis": "approaching 700 bar with barrel-style casings, as stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Centrifugal_compressor",
+        "note": "Wikipedia, Centrifugal compressor (read 2026-10-30; citation shared with the rot-centrifugal-axial-compressors card)"
+      }
+    }
+  ],
+  "vendors": [
+    "siemens-energy",
+    "baker-hughes",
+    "atlas-copco",
+    "mitsubishi-power"
+  ],
+  "technologies": [
+    "rot-centrifugal-axial-compressors"
+  ],
+  "gaps": [
+    {
+      "what": "per-vendor model-line ranges (flow, stage count, discharge pressure) for Siemens Energy STC, Baker Hughes BCL/DBL and PCL, MCO-I and Atlas Copco integrally-geared machines",
+      "why": "vendor compressor pages were not fetched this session (several returned 404/JS shells to the fetch ladder)",
+      "next_action": "fetch the OEM compressor family pages (browser session if needed) and add model lines with stated ranges"
+    },
+    {
+      "what": "CO2-specific compression train boundaries (inlet, discharge, density effects)",
+      "why": "no fetched source states CO2 train ranges; the ccs-co2-compression-dehydration card carries the duty context",
+      "next_action": "mine the ccs-co2-compression-dehydration card's sources and OEM CO2 compression references"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Centrifugal_compressor",
+      "note": "Wikipedia, Centrifugal compressor, read 2026-10-30 (citation shared with the rot-centrifugal-axial-compressors card)"
+    }
+  ],
+  "last_reviewed": "2026-11-03"
+}
