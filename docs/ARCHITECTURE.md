@@ -142,10 +142,12 @@ mode over the WAN), open-licence text only by default. The server, the REST API'
 the web UI read it through `agent/pg.py` as role `og_mcp_read` — SELECT-only grants plus forced
 read-only transactions plus a single-statement guard. Details in [POSTGRES.md](POSTGRES.md).
 
-**Neon is the live read layer (decision #34):** the web pages and the MCP/REST `search` read it
-first and fall back to the SQLite index automatically (a page shows a notice when the fallback
-answered). `document.body`, `vendor.aliases`, `equipment.sources` and `source.embedding` back the
-UI's full-document renders, the coverage queue, the equipment detail panel and source search.
+**Neon is the live read layer (decision #34):** the web pages, `library_stats` and the MCP/REST
+`search` read it first and fall back to the SQLite index automatically (a page shows a notice when
+the fallback answered), so MCP and REST report the same numbers. The remaining `get_*`/`list_*`
+tools still read the baked index. `document.body`, `vendor.aliases`, `equipment.sources` and
+`source.embedding` back the UI's full-document renders, the coverage queue, the equipment detail
+panel and source search.
 Publish pipeline: `tools/build.py` → `agent/library.py build` → `agent/embed.py --incremental`
 (vectors cached by (kind, ref) + text hash, so only changed rows embed) →
 `tools/load_postgres.py` (one transaction) — data changes go live on both readers with no deploy.

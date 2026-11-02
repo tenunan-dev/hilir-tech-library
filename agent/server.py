@@ -199,7 +199,14 @@ def list_gaps(sector: str | None = None, field: str | None = None, reason_code: 
 
 @server.tool()
 def library_stats() -> dict:
-    """Counts of sources, documents, chunks and vectors in the index."""
+    """Counts of sources, documents, chunks and vectors in the library."""
+    # Neon first (decision #34): the container's baked index is the offline fallback and holds
+    # no embeddings, so without this the MCP number disagreed with REST /api/stats.
+    if pg.configured():
+        try:
+            return pg.library_stats()
+        except (pg.NotConfigured, pg.DatabaseError):
+            pass
     return library.stats(db())
 
 

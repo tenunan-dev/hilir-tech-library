@@ -19,6 +19,9 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - Key-audience check on `techlib-api`: a machine key issued for another service is rejected (403 `forbidden`, `reason: audience`). Expected audience is the `AUDIENCE` var (default `techlib`). A key with an empty audience is now also rejected (`detail: missing`): Access requires an audience on new keys and all pre-restructure keys were revoked, so there is no legacy population to keep open. `denied_audience` audit lines carry `detail`, `expected` and `actual`.
 - `deploy/backend/src/authz.ts` (pure identity/authorization rules) and 24 `node --test` unit tests; `npm test` / `npm run typecheck` in `deploy/backend`.
 
+### Fixed
+- MCP `library_stats` reported the container's baked fallback index (`vectors: 0`, open-licence-only document count) while REST `/api/stats` reported Neon — the two now agree: the tool reads Neon first (decision #34) and falls back to the index only without a database.
+
 ### Deployed
 - Backend worker version `406d02ed-0b1f-4c31-afa4-57ebb0ce8b16` (container image unchanged). Live-checked: master key 200, anonymous 401, garbage `sk-` 401, OAuth `/mcp` path intact, audit lines visible in `wrangler tail`.
 

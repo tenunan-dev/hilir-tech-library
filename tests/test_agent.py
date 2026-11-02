@@ -248,3 +248,17 @@ def test_doc_sectors_narrow_inherited_tags():
 def test_sector_filter_uses_document_tags(db):
     assert library.search("electrolyzer", kind="chunk", sector="CCS", db=db) == []
     assert library.search("electrolyzer", kind="chunk", sector="H2", db=db)
+
+
+def test_mcp_library_stats_prefers_neon(monkeypatch):
+    """Decision #34: the MCP tool must agree with REST /api/stats — Neon first, baked index only
+    as the fallback (the slim image bakes no embeddings, so its vector count would read 0)."""
+    import pg
+    server = pytest.importorskip("server")
+    monkeypatch.setattr(pg, "configured", lambda: True)
+    monkeypatch.setattr(pg, "library_stats", lambda: {"sources": 399, "vectors": 12586})
+    assert server.library_stats() == {"sources": 399, "vectors": 12586}
+    monkeypatch.setattr(pg, "configured", lambda: False)
+    monkeypatch.setattr(library, "stats", lambda db=None: {"sources": 1})
+    monkeypatch.setattr(server, "db", lambda: None)
+    assert server.library_stats() == {"sources": 1}
