@@ -61,7 +61,10 @@ def arxiv(rec, limit):
 
 
 def osti(rec, limit):
-    """OSTI records API. Abstracts are stored; full text is left to per-document rights review."""
+    """OSTI records API. Abstracts are stored. Full text is additionally stored — as a private
+    reference copy — only when OSTI serves it itself (a fulltext link) for a report-style product
+    under uncontrolled distribution; journal articles keep publisher rights and stay
+    metadata-and-abstract. Per-record rights statements decide any later promotion to open."""
     resp = fetch("https://www.osti.gov/api/v1/records", headers={"Accept": "application/json"},  # XML by default
                  q="hydrogen OR \"carbon capture\" OR refining OR \"natural gas\" OR petrochemical",
                  sort="publication_date desc", rows=limit)
@@ -69,9 +72,27 @@ def osti(rec, limit):
         title = item.get("title", "Untitled")
         link = next((l["href"] for l in item.get("links", []) if l.get("rel") == "citation"),
                     f"https://www.osti.gov/biblio/{item.get('osti_id', '')}")
+        meta = {"content": "metadata-and-abstract",
+                "rights_note": "Check the record's rights before storing full text."}
         body = f"**Authors:** {'; '.join(item.get('authors', []))}\n\n**Abstract:** {item.get('description', '')}"
-        yield title, link, body, item.get("publication_date"), {"content": "metadata-and-abstract",
-                                                               "rights_note": "Check the record's rights before storing full text."}
+        purl = next((l["href"] for l in item.get("links", []) if l.get("rel") == "fulltext"), "")
+        report_product = str(item.get("product_type", "")) != "Journal Article"
+        unrestricted = str(item.get("availability") or "").lower().startswith("external/unlimited")
+        if purl and report_product and unrestricted:
+            try:
+                full = fetch(purl)
+                ctype = (full.headers.get("Content-Type") or "").lower()
+                if "pdf" in ctype or full.content[:5] == b"%PDF-":
+                    text = to_markdown(full.content, "application/pdf", link)
+                    if len(text.strip()) >= 500:
+                        body = f"{text}\n\n**Abstract:** {item.get('description', '')}"
+                        meta = {"content": "full-text-report",
+                                "rights_note": f"DOE OSTI report-style product under uncontrolled distribution; stored as a private "
+                                               f"reference copy — review the record's rights statement "
+                                               f"(https://www.osti.gov/biblio/{item.get('osti_id', '')}) before any republication."}
+            except Exception:
+                pass  # the full-text fetch failed; the abstract-only form still stores
+        yield title, link, body, item.get("publication_date"), meta
 
 
 def manual(rec, limit):

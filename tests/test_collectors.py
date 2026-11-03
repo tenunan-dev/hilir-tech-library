@@ -233,3 +233,91 @@ def test_parse_feed_rejects_entity_expansion():
             '<rss version="2.0"><channel><title>&xxe;</title></channel></rss>')
     with pytest.raises(DefusedXmlException):
         adapters.parse_feed(evil)
+
+
+# --- OSTI full-text policy: report-style products under uncontrolled distribution store a
+# private reference copy; journal articles stay metadata-and-abstract. --------------------
+
+def _minimal_pdf(paragraph: str) -> bytes:
+    """A one-page PDF pypdf can parse and extract, built inline so the test stays offline."""
+    stream = f"BT /F1 12 Tf 72 700 Td ({paragraph}) Tj ET".encode()
+    header = b"%PDF-1.4\n"
+    objs = [
+        b"<< /Type /Catalog /Pages 2 0 R >>",
+        b"<< /Type /Pages /Kids [3 0 R] /Count 1 >>",
+        b"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R "
+        b"/Resources << /Font << /F1 5 0 R >> >> >>",
+        b"<< /Length " + str(len(stream)).encode() + b" >>\nstream\n" + stream + b"\nendstream",
+        b"<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>",
+    ]
+    out, offsets = header, []
+    for i, body in enumerate(objs, start=1):
+        offsets.append(len(out))
+        out += f"{i} 0 obj\n".encode() + body + b"\nendobj\n"
+    xref_at = len(out)
+    out += f"xref\n0 {len(objs) + 1}\n0000000000 65535 f \n".encode()
+    out += b"".join(f"{off:010d} 00000 n \n".encode() for off in offsets)
+    out += f"trailer\n<< /Size {len(objs) + 1} /Root 1 0 R >>\nstartxref\n{xref_at}\n%%EOF".encode()
+    return out
+
+
+OSTI_REPORT = {"osti_id": "1234567", "title": "CO2 network assessment",
+               "product_type": "Technical Report",
+               "availability": "External/unlimited (No CUI, UCNI, or other controlled access information)",
+               "publication_date": "2026-08-01T00:00:00Z", "authors": ["A. Analyst"],
+               "description": "Report abstract.",
+               "links": [{"rel": "citation", "href": "https://www.osti.gov/biblio/1234567"},
+                         {"rel": "fulltext", "href": "https://www.osti.gov/servlets/purl/1234567"}]}
+OSTI_JOURNAL = {"osti_id": "1234568", "title": "Capture solvents reviewed",
+                "product_type": "Journal Article",
+                "publication_date": "2026-09-01T00:00:00Z", "authors": ["B. Researcher"],
+                "description": "Journal abstract.",
+                "links": [{"rel": "citation", "href": "https://www.osti.gov/biblio/1234568"},
+                          {"rel": "fulltext", "href": "https://www.osti.gov/servlets/purl/1234568"}]}
+
+
+def test_osti_report_product_stores_full_text_as_private_copy(monkeypatch):
+    pdf = _minimal_pdf("Analysis of CO2 transport network compression and pipeline design. " * 10)
+    pdf_response = FakeResponse("", "application/pdf")
+    pdf_response.content = pdf
+    monkeypatch.setattr(
+        adapters, "fetch",
+        lambda url, headers=None, **kw: pdf_response if "servlets/purl" in url
+        else FakeResponse(json.dumps([OSTI_REPORT]), "application/json"))
+    docs = list(adapters.osti(record(id="osti", licence="mixed-per-document",
+                                     reuse_level="full-text-restricted"), 5))
+    report = next(d for d in docs if d[0] == "CO2 network assessment")
+    assert "Analysis of CO2 transport network" in report[2], "full text should lead the body"
+    assert "Report abstract." in report[2]
+    assert report[4]["content"] == "full-text-report"
+    assert "private reference copy" in report[4]["rights_note"]
+
+
+def test_osti_journal_article_stays_metadata_and_abstract(monkeypatch):
+    monkeypatch.setattr(adapters, "fetch",
+                        lambda url, headers=None, **kw:
+                        FakeResponse(json.dumps([OSTI_JOURNAL]), "application/json"))
+    docs = list(adapters.osti(record(id="osti"), 5))
+    title, url, body, _, extra = docs[0]
+    assert title == "Capture solvents reviewed" and "Journal abstract." in body
+    assert extra["content"] == "metadata-and-abstract"
+    assert url == "https://www.osti.gov/biblio/1234568"
+
+
+def test_osti_report_without_uncontrolled_availability_stays_abstract(monkeypatch):
+    item = dict(OSTI_REPORT, availability=None)
+    monkeypatch.setattr(adapters, "fetch",
+                        lambda url, headers=None, **kw:
+                        FakeResponse(json.dumps([item]), "application/json"))
+    docs = list(adapters.osti(record(id="osti"), 5))
+    assert docs[0][4]["content"] == "metadata-and-abstract"
+
+
+def test_osti_fulltext_fetch_failure_falls_back_to_abstract(monkeypatch):
+    def fetch(url, headers=None, **kw):
+        if "api/v1/records" in url:
+            return FakeResponse(json.dumps([OSTI_REPORT]), "application/json")
+        raise RuntimeError("purl down")
+    monkeypatch.setattr(adapters, "fetch", fetch)
+    docs = list(adapters.osti(record(id="osti"), 5))
+    assert docs[0][4]["content"] == "metadata-and-abstract" and "Report abstract." in docs[0][2]
