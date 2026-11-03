@@ -42,7 +42,7 @@
       "name": "Verification sweep of 193 unverified source records",
       "status": "partial",
       "runs": 1,
-      "note": "batches 1-2 done: 14 verified (api/ampp standards paywalled, anl-greet open, ariel, ampp-annual, apic-asia + batch-1 8); abb-energy + aiche-journal queued; ~171 remain"
+      "note": "batches 1-3 done: 16 verified (batch 3, 2026-11-03: abb-energy + h2-view with access corrected open->mixed; the apply_verification tool now backfills missing checked_on dates from findings). ~169 remain, priority: named-org agency/standards bodies before journals."
     },
     {
       "id": "A7",

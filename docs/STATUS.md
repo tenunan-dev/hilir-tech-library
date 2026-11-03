@@ -69,7 +69,7 @@ Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`
 5. **More adapters** for verified full-text-open sources (government agencies, open-access journals).
 6. **Asia Pacific coverage gaps:** e.g. LNG-specific Malaysian and Indonesian sources; add and verify records.
 7. **Paid sources:** recorded `catalog-only`/`paywalled` (decision #29: no acquisition gating). They stay unreachable without credentials; whether to buy API keys or subscriptions is the owner's call.
-8. **OSTI full text for US Government Works:** the osti adapter stores metadata and abstracts only, because rights vary per document. Records marked as US Government Works are not copyrightable (https://www.osti.gov/disclaim). An adapter change could read each record's rights statement and store full text only for those, with an offline test.
+8. **OSTI full text for US Government Works:** DONE 2026-11-03 — the osti adapter now stores report-style full text as a private reference copy when OSTI serves it itself (a `fulltext` link) for a non-journal product under uncontrolled distribution (`External/unlimited`); journal articles stay metadata-and-abstract because publisher rights vary. Per-record rights statements still decide any later promotion to open (the API exposes no per-record rights field; the conservative private-copy default respects that). Four offline tests cover the policy.
 
 ## Where things run
 

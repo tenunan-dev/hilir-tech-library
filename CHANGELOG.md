@@ -8,6 +8,18 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.03] — 2026-11-03 — Discovery batch 5, verification batch 3, three equipment records, OSTI full-text policy
+
+### Added
+- Discovery batch 5 (decision #30): vendors `hengli-petrochemical`, `nayara-energy`, `soluforce`, `pln`; source `aer` (Alberta Energy Regulator); bp enriched with the Cativa licensor role. Queue at 169 queued / 7 rejected.
+- Equipment layer (decision #33): `turbine-gas-industrial`, `pump-centrifugal`, `compressor-centrifugal` — specifications carry session-verified citations (shared with the source cards where a previous session fetched the OEM page) and per-model vendor ranges are recorded as gaps where the fetch ladder could not reach the pages. Equipment 5 → 8. Neon reloaded (12,594 vectors).
+- OSTI collector: report-style products under uncontrolled distribution store full text as a **private reference copy**; journal articles stay metadata-and-abstract. Four offline tests pin the policy (backend backlog #8 closed).
+
+### Changed
+- `tools/build.py` tolerates equipment records without vendor model lines (schema-optional).
+- `tools/apply_verification.py` log entries missing `checked_on` backfilled from the findings' dates (41 entries).
+- h2-view access corrected `open` → `mixed` (news free; magazine and H2 Intelligence paid) after live verification.
+
 ## [2026.11.02.2] — 2026-11-02 — Neon-first MCP tools complete, search licence fix, retired worker deleted
 
 ### Changed
