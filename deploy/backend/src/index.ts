@@ -24,7 +24,6 @@ const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
 
 interface Env {
-  LIBRARY: DurableObjectNamespace<LibraryApi>;
   LIBRARY_API_KEY: string; // set with: wrangler secret put LIBRARY_API_KEY
   DATABASE_URL?: string; // read-only Neon DSN; set with: wrangler secret put DATABASE_URL
   USER_STORE_URL?: string; // account-store DSN (per-user keys + OAuth account resolution); optional
@@ -33,6 +32,8 @@ interface Env {
   ACCESS: Fetcher; // Service Binding to hilir-access (sk- key introspection)
   INTERNAL_TOKENS: string; // shared internal token csv; wrangler secret put INTERNAL_TOKENS
   AUDIENCE?: string; // machine-key audience this API accepts; default "techlib" (wrangler var)
+  ORIGIN_TOKEN: string; // shared origin secret the VPS Caddy requires (VPS-COMPUTE.md §5.3); wrangler secret put ORIGIN_TOKEN
+  LIBRARY_ORIGIN: string; // tunnel origin serving the VPS containers, e.g. https://techlib-origin.hilir.app (wrangler var)
 }
 
 export class LibraryApi extends Container<Env> {
@@ -138,8 +139,15 @@ async function toContainer(request: Request, env: Env): Promise<Response> {
   }
   const url = new URL(request.url);
   const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
-  return getContainer(env.LIBRARY, "main").fetch(INTERNAL + url.pathname + url.search,
-                                                 { method: request.method, headers, body });
+  // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS now — the
+  // same path-only contract over the tunnel origin instead of the binding.
+  // Caddy refuses requests without the token and routes marked requests to
+  // the API container; the response body streams through untouched (MCP).
+  headers.set("x-origin-token", env.ORIGIN_TOKEN);
+  headers.set("x-origin-route", "api");
+  const upstream = new Request(`${env.LIBRARY_ORIGIN}${url.pathname}${url.search}`,
+                               { method: request.method, headers, body, redirect: "manual" });
+  return fetch(upstream);
 }
 
 const escape = (value: string) => value.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);

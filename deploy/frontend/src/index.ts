@@ -40,12 +40,13 @@ const SESSION_TTL = 30 * 86400; // match SESSION_TTL in agent/users.py
 const BOUNCE_WINDOW = 120; // session minted this recently + back at /login = no account row
 
 interface Env {
-  LIBRARY: DurableObjectNamespace<LibraryUI>;
   LIBRARY_API_KEY: string; // set with: wrangler secret put LIBRARY_API_KEY
   DATABASE_URL?: string; // read-only Neon DSN for the container's live reads; wrangler secret put DATABASE_URL
   LIBRARY_USERS?: string; // named web accounts (agent/users.py); wrangler secret put LIBRARY_USERS (optional)
   USER_STORE_URL?: string; // account-store DSN (agent/userstore.py, db/library.sql); optional
   API_ORIGIN?: string; // e.g. https://api.hilir.app — the footer's REST/MCP links point there (LIBRARY_API_PUBLIC_URL)
+  ORIGIN_TOKEN: string; // shared origin secret the VPS Caddy requires (VPS-COMPUTE.md §5.3); wrangler secret put ORIGIN_TOKEN
+  LIBRARY_ORIGIN: string; // tunnel origin serving the VPS containers, e.g. https://techlib-origin.hilir.app (wrangler var)
 }
 
 export class LibraryUI extends Container<Env> {
@@ -86,8 +87,13 @@ async function toContainer(request: Request, env: Env): Promise<Response> {
   // 303 to /login (Set-Cookie on the login POST rides that 303 too). The default "follow"
   // swallowed redirects inside the Worker — the browser never saw the cookie and every gate
   // rendered the sign-in page with a 200 (observed 2026-10-31, fixed the same hour).
-  return getContainer(env.LIBRARY, "main").fetch(INTERNAL + url.pathname + url.search,
-                                                 { method: request.method, headers, body, redirect: "manual" });
+  // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS — same paths over the
+  // tunnel origin; Caddy refuses requests without x-origin-token and routes unmarked
+  // requests to the UI container. The response body streams through untouched.
+  headers.set("x-origin-token", env.ORIGIN_TOKEN);
+  const upstream = new Request(`${env.LIBRARY_ORIGIN}${url.pathname}${url.search}`,
+                               { method: request.method, headers, body, redirect: "manual" });
+  return fetch(upstream);
 }
 
 // --- edge SSO helpers -----------------------------------------------------------

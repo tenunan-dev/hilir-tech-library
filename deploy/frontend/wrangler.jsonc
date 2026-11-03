@@ -11,21 +11,11 @@
   "observability": { "enabled": true },
   "vars": {
     // where the UI's footer REST/MCP links point (owner-confirmed backend domain, P0.3)
-    "API_ORIGIN": "https://techlib-api.hilir.app"
+    "API_ORIGIN": "https://techlib-api.hilir.app",
+    // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS behind the
+    // tunnel; ORIGIN_TOKEN is the shared origin secret (wrangler secret put).
+    "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app"
   },
-  "containers": [
-    {
-      "class_name": "LibraryUI",
-      "image": "../docker/Dockerfile.frontend",
-      "image_build_context": "../..",
-      "instance_type": "basic",
-      "max_instances": 1
-    }
-  ],
-  "durable_objects": {
-    "bindings": [{ "name": "LIBRARY", "class_name": "LibraryUI" }]
-  },
-  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["LibraryUI"] }],
   "routes": [
     { "pattern": "techlib.hilir.app", "custom_domain": true }
   ]

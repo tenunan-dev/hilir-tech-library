@@ -12,24 +12,16 @@
   // The service a machine (sk-) key must be issued for. Estate convention: audience matches the
   // service, and the Access registry lists this library as "techlib". Keys issued for another
   // service are rejected; keys with no audience are allowed but logged (see src/authz.ts).
-  "vars": { "AUDIENCE": "techlib" },
+  "vars": {
+    "AUDIENCE": "techlib",
+    // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS behind the
+    // tunnel; ORIGIN_TOKEN is the shared origin secret (wrangler secret put).
+    "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app"
+  },
   "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "36f1ee63335644608a3969baec462626" }],
   // hilir Access machine keys (sk-…): same-account Service Binding to the access worker;
   // the INTERNAL_TOKENS secret (same csv as hilir-access holds) rides the binding hop only.
   "services": [{ "binding": "ACCESS", "service": "hilir-access" }],
-  "containers": [
-    {
-      "class_name": "LibraryApi",
-      "image": "../docker/Dockerfile.backend",
-      "image_build_context": "../..",
-      "instance_type": "basic",
-      "max_instances": 1
-    }
-  ],
-  "durable_objects": {
-    "bindings": [{ "name": "LIBRARY", "class_name": "LibraryApi" }]
-  },
-  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["LibraryApi"] }],
   "routes": [
     { "pattern": "techlib-api.hilir.app", "custom_domain": true }
   ]
