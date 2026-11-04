@@ -1,0 +1,32 @@
+{
+  // Consolidated techlib edge (Phase 4). One Worker, both hostnames, two
+  // containers behind it. Deploy from this folder: npx wrangler deploy
+  //
+  // IMPORTANT — deploy order: a custom domain can belong to only one Worker.
+  // The two old Workers currently hold these domains, so the swap is:
+  //   1. npx wrangler deploy            (fails on the domains — expected)
+  //   2. remove the domains from og-tech-library-ui / -api, or delete those
+  //      Workers, then redeploy this one
+  //   3. verify, then keep the old Worker names for a week as rollback
+  // Secrets come from the same keys as before (wrangler secret put on THIS
+  // Worker): LIBRARY_API_KEY, ORIGIN_TOKEN, INTERNAL_TOKENS, DATABASE_URL,
+  // USER_STORE_URL.
+  "name": "techlib-edge",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "account_id": "afa8fa65e07832d7e611e831d150d3bd",
+  "observability": { "enabled": true },
+  "vars": {
+    "API_ORIGIN": "https://techlib-api.hilir.app",
+    "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app",
+    "AUDIENCE": "techlib"
+  },
+  "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "36f1ee63335644608a3969baec462626" }],
+  // Still used by the API handler for sk- key introspection until the Phase 4
+  // auth rewrite lands; removed with it.
+  "services": [{ "binding": "ACCESS", "service": "hilir-access" }],
+  "routes": [
+    { "pattern": "techlib.hilir.app", "custom_domain": true },
+    { "pattern": "techlib-api.hilir.app", "custom_domain": true }
+  ]
+}
