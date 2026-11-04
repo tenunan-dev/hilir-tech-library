@@ -991,7 +991,19 @@ def routes(tools, key: str) -> list:
             form = await request.form()
             next_url = _safe_next(form.get("next"))
             email = str(form.get("email") or "").strip()
-            if email:
+            # A missing account store must be LOUD. With no USER_STORE_URL and no
+            # LIBRARY_USERS entries there is no account to match, and the old
+            # "Wrong email or password" sent the owner hunting for a bad password that
+            # was really a bad deployment (2026-11-04: cost an hour).
+            store_missing = bool(email) and not userstore.configured() and not user_accounts.load_users()
+            if store_missing:
+                userstore.record("login_misconfigured", email,
+                                 "account store not configured", _client_ip(request))
+                error = ('<p><b>Account sign-in is not configured on this server.</b></p>'
+                         '<p class="muted small">USER_STORE_URL is empty and LIBRARY_USERS has no '
+                         'entries, so no account can match. Sign in with the library key below, or '
+                         'ask the owner to set USER_STORE_URL.</p>')
+            elif email:
                 # secret entries and admin-page accounts share one namespace; verify against
                 # whichever holds the email (scrypt verification is constant-time on the hash)
                 row = userstore.all_accounts().get(email.lower())

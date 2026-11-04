@@ -338,6 +338,18 @@ def main(argv=None):
         return 2
     EXCLUDE_RESTRICTED = not args.include_restricted
     web_on = os.environ.get("LIBRARY_WEB", "on").lower() not in ("off", "0", "false", "no")
+    if web_on:
+        # Loud at boot: a missing account store used to look like "no such account"
+        # at sign-in time (2026-11-04). Warn before anyone tries to log in.
+        import users
+        import userstore
+        if not userstore.configured() and not users.load_users():
+            print(
+                "WARNING: account sign-in is not configured — USER_STORE_URL is empty and "
+                "LIBRARY_USERS has no entries. Email/password sign-in will fail for everyone; "
+                "only the library key will work.",
+                file=sys.stderr,
+            )
     db()
     import uvicorn
     uvicorn.run(http_app(key, with_web=web_on), host=args.host, port=args.port)
