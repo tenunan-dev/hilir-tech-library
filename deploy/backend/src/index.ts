@@ -102,7 +102,6 @@ export default {
     }
     const denied = await machineGate(request, env);
     if (denied) return denied;
-    return toContainer(request, env);
     return toContainer(request, env); // /mcp with OAuth tokens, and the OAuth endpoints
   },
 };
