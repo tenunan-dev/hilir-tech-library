@@ -2,26 +2,25 @@
 gaps and, when DATABASE_URL is set, the Postgres layer — including its knowledge graph as an interactive
 network and an atlas view of the whole database.
 
-    LIBRARY_API_KEY=... python agent/server.py --http --port 8000
+    python agent/server.py --http --port 8000
     # /                home: library stats, search, sector links
     # /search /technologies /vendors /register /sources /documents /gaps
     # /database        row counts, schema reference, SQL console, semantic search, graph, atlas
     #                  (the last four only when the environment carries a read-only DATABASE_URL)
 
-People sign in once at /login — with the library API key (the owner, as before) or with a named
-email + password account from the LIBRARY_USERS secret (agent/users.py creates entries); both
-issue the same session cookie, which for accounts carries the signed identity. The session cookie
-is Secure because the server sits behind TLS at techlib.hilir.app. Agents can call the same pages
-with the x-api-key header instead.
-Mounted by server.http_app() next to /mcp and /api at the same origin; deploy/cloudflare/src/index.ts
-mirrors PREFIXES to keep these paths off the edge API-key check.
+Sign-in happens at hilir Access (the edge runs the OIDC flow and forwards
+``Authorization: Bearer <access token>``); this container verifies that token
+locally (agent/auth.py, EdDSA via JWKS) and the account row in the user store
+decides the role. The container holds no passwords, no keys and no login form
+(step 3, AUTH-REBUILD §4.3): the bearer token is the only credential.
+Mounted by server.http_app() next to /mcp and /api at the same origin; the edge
+mirrors PREFIXES to keep these paths on the UI handler.
 
 Every data value reaches the HTML through esc(); text from full-text-restricted documents is still
 filtered by the tools module before it gets here.
 """
 import contextvars
 import html
-import hmac
 import json
 import os
 import re
@@ -42,13 +41,11 @@ except Exception:  # noqa: BLE001 — absence only disables token auth
 import library
 import pg
 import technologies as technology_records
-import users as user_accounts
 import userstore
 import vendors as vendor_records
 
-COOKIE = "oglib_session"
-# keep in sync with the worker: deploy/cloudflare/src/index.ts (UI_PREFIXES)
-PREFIXES = ("/login", "/logout", "/search", "/technologies", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account")
+# keep in sync with the edge: deploy/frontend/src/index.ts (UI_PREFIXES)
+PREFIXES = ("/search", "/technologies", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account")
 SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
@@ -650,10 +647,6 @@ def is_web_path(path: str) -> bool:
     return any(path == p or path.startswith(p + "/") for p in PREFIXES)
 
 
-def session_token(key: str) -> str:
-    return hmac.new(key.encode(), b"hilir-tech-library web session v1", sha256).hexdigest()
-
-
 def _client_ip(request: Request) -> str:
     forwarded = request.headers.get("x-forwarded-for", "")
     if forwarded:
@@ -661,56 +654,32 @@ def _client_ip(request: Request) -> str:
     return request.client.host if request.client else ""
 
 
-def _account(request: Request, key: str) -> dict | None:
-    """The authenticated identity: {'kind': 'key', 'role': 'admin'} for the library key
-    (header or cookie — the key is the owner's credential), the owning account row for a
-    per-user API key (hlt_… header, role inherited from the account), or the account row
-    for a v2 session. A v2 session is only valid while its account still exists, so
-    deleting an account in the admin page revokes access within the account-cache window."""
-    given = request.headers.get("x-api-key") or request.headers.get("authorization", "").removeprefix("Bearer ").strip()
-    if given:
-        if hmac.compare_digest(given.encode(), key.encode()):
-            return {"kind": "key", "email": None, "name": "library key", "role": "admin"}
-        if given.startswith(userstore.KEY_PREFIX):
-            return userstore.account_for_key(given)
-        # Phase 4 dual-accept: a hilir Access access token forwarded by the edge
-        # (agent/auth.py verifies signature + iss/aud/exp against the issuer's
-        # JWKS). The token proves *who*; the account row still decides the role,
-        # so removing a row revokes access exactly as it does for a v2 session.
-        identity = hilir_auth.verify(given) if (hilir_auth and given.count(".") == 2) else None
-        if identity:
-            # Identity from the provider's userinfo endpoint (standard OIDC for
-            # the email scope), cached per token inside the verifier — no
-            # trusted-header assumption. The access token proves possession; the
-            # account row still decides the role.
-            info = hilir_auth.identity(given) or {}
-            email = (info.get("email") or identity.get("email") or "").strip().lower()
-            row = userstore.all_accounts().get(email) if email else None
-            if row:
-                return {"kind": "hilir", "email": email, "name": row.get("name") or email,
-                        "role": row.get("role") or "user"}
+def _account(request: Request) -> dict | None:
+    """The authenticated identity from the hilir Access bearer token the edge
+    forwarded (agent/auth.py verifies signature + iss/aud/exp against the
+    issuer's JWKS). The token proves *who* — via the provider's userinfo
+    endpoint, the standard OIDC source for the email scope, cached per token
+    inside the verifier — and the account row still decides the role, so
+    removing a row in the admin page revokes access within the account-cache
+    window. No other credential exists (step 3): no library key, no per-user
+    keys, no cookie sessions."""
+    given = request.headers.get("authorization", "").removeprefix("Bearer ").strip()
+    if not given or hilir_auth is None or given.count(".") != 2:
         return None
-    token = request.cookies.get(COOKIE, "")
-    if token.startswith("v2|"):
-        email = user_accounts.session_email(token, key)
-        if not email:
-            return None
-        row = userstore.all_accounts().get(email)
-        if not row:
-            return None
-        return {"kind": "account", "email": email, "name": row.get("name") or email,
-                "role": row.get("role") or "user"}
-    if token and hmac.compare_digest(token.encode(), session_token(key).encode()):
-        return {"kind": "key", "email": None, "name": "library key", "role": "admin"}
-    return None
+    identity = hilir_auth.verify(given)
+    if not identity:
+        return None
+    info = hilir_auth.identity(given) or {}
+    email = (info.get("email") or identity.get("email") or "").strip().lower()
+    row = userstore.accounts().get(email) if email else None
+    if not row:
+        return None
+    return {"kind": "hilir", "email": email, "name": row.get("name") or email,
+            "role": row.get("role") or "user"}
 
 
-def _authed(request: Request, key: str) -> bool:
-    return _account(request, key) is not None
-
-
-def _is_admin(request: Request, key: str) -> bool:
-    account = _account(request, key)
+def _is_admin(request: Request) -> bool:
+    account = _account(request)
     return bool(account) and account["role"] == "admin"
 
 
@@ -963,7 +932,7 @@ REUSE_OPTIONS = [("", "any reuse level")] + [(r, r) for r in REUSE_LEVELS]
 FIELD_OPTIONS = [("", "any field")] + [(f, f) for f in GAP_FIELDS]
 
 
-def routes(tools, key: str) -> list:
+def routes(tools) -> list:
     """tools: the server module, whose MCP tool functions apply the hosted server's licence filtering;
     tools.db() and tools._embedder back the database pages."""
 
@@ -990,74 +959,6 @@ def routes(tools, key: str) -> list:
             f'<section class="card"><h2>Library</h2><div class="grid tiles">{library_tiles}</div></section>'
             f'<section class="card"><h2>Database</h2><div class="grid tiles">{database_tiles}</div></section>')
         return _page("Oil, gas and energy technologies", body)
-
-    async def login(request: Request):
-        if request.method == "POST":
-            userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
-            form = await request.form()
-            next_url = _safe_next(form.get("next"))
-            email = str(form.get("email") or "").strip()
-            # A missing account store must be LOUD. With no USER_STORE_URL and no
-            # LIBRARY_USERS entries there is no account to match, and the old
-            # "Wrong email or password" sent the owner hunting for a bad password that
-            # was really a bad deployment (2026-11-04: cost an hour).
-            store_missing = bool(email) and not userstore.configured() and not user_accounts.load_users()
-            if store_missing:
-                userstore.record("login_misconfigured", email,
-                                 "account store not configured", _client_ip(request))
-                error = ('<p><b>Account sign-in is not configured on this server.</b></p>'
-                         '<p class="muted small">USER_STORE_URL is empty and LIBRARY_USERS has no '
-                         'entries, so no account can match. Sign in with the library key below, or '
-                         'ask the owner to set USER_STORE_URL.</p>')
-            elif email:
-                # secret entries and admin-page accounts share one namespace; verify against
-                # whichever holds the email (scrypt verification is constant-time on the hash)
-                row = userstore.all_accounts().get(email.lower())
-                user = row if row and user_accounts.verify_password(str(form.get("password") or ""), row["hash"]) else None
-                if user:
-                    userstore.record("login_ok", user["email"], "", _client_ip(request))
-                    resp = RedirectResponse(next_url, status_code=303)
-                    resp.set_cookie(COOKIE, user_accounts.session_token(user["email"], key),
-                                    max_age=user_accounts.SESSION_TTL, httponly=True, secure=True,
-                                    samesite="lax", path="/")
-                    return resp
-                time.sleep(0.5)  # damp online guessing; constant-ish failure time
-                userstore.record("login_fail", email, "wrong email or password", _client_ip(request))
-                error = '<p><b>Wrong email or password.</b></p>'
-            else:
-                if hmac.compare_digest(str(form.get("key") or "").encode(), key.encode()):
-                    userstore.record("login_ok", "key", "", _client_ip(request))
-                    resp = RedirectResponse(next_url, status_code=303)
-                    resp.set_cookie(COOKIE, session_token(key), max_age=2592000, httponly=True,
-                                    secure=True, samesite="lax", path="/")
-                    return resp
-                time.sleep(0.5)
-                userstore.record("login_fail", "key", "wrong key", _client_ip(request))
-                error = '<p><b>Wrong key.</b></p>'
-        else:
-            next_url = _safe_next(request.query_params.get("next"))
-            error = ""
-        account_form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
-                        '<p><label>Email <input type="email" name="email" autofocus required autocomplete="username"></label></p>'
-                        '<p><label>Password <input type="password" name="password" required autocomplete="current-password"></label></p>'
-                        '<p><button type="submit">Sign in</button></p></form>')
-        key_form = (f'<form method="post" action="/login"><input type="hidden" name="next" value="{esc(next_url)}">'
-                    '<p><label>API key <input type="password" name="key" required></label></p>'
-                    '<p><button type="submit">Sign in</button></p></form>')
-        # The page is public: no account-state disclosure, secret names or internal docs.
-        # Both forms always render; with no accounts configured, an email attempt fails
-        # exactly like a wrong password (generic 401 after the damping delay).
-        body = (f'<section class="card narrow"><h1>Sign in</h1>{error}{account_form}</section>'
-                f'<section class="card narrow"><h2>Or with the library key</h2>{key_form}</section>')
-        resp = _page("Sign in", body)
-        if error:
-            resp.status_code = 401
-        return resp
-
-    async def logout(request: Request):
-        resp = RedirectResponse("/", status_code=303)
-        resp.delete_cookie(COOKIE, path="/")
-        return resp
 
     async def search(request: Request):
         qp = request.query_params
@@ -1613,12 +1514,14 @@ def routes(tools, key: str) -> list:
     def gated(handler):
         async def with_gate(request: Request):
             userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
-            account = _account(request, key)
+            account = _account(request)
             if account is None:
+                # The edge owns /login (the OIDC sign-in), so this redirect lands
+                # the browser in the standard sign-in flow.
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
             path = request.url.path
             if not path.endswith(".json"):
-                who = account["email"] or "key"
+                who = account["email"] or "anonymous"
                 if path == "/search":
                     userstore.record("search", who, str(request.query_params.get("q") or "")[:120], _client_ip(request))
                 else:
@@ -1629,7 +1532,7 @@ def routes(tools, key: str) -> list:
     def admin_gated(handler):
         async def with_gate(request: Request):
             userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
-            account = _account(request, key)
+            account = _account(request)
             if account is None:
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
             if account["role"] != "admin":
@@ -1641,166 +1544,79 @@ def routes(tools, key: str) -> list:
         return with_gate
 
     async def account_page(request: Request):
-        """Per-user page: identity and API-key self-service (create/revoke, raw shown once)."""
-        account = _account(request, key)
-        try:
-            store_ok = userstore.configured()
-            if store_ok:
-                userstore.all_accounts()  # fail fast into the degraded branch below
-        except Exception:
-            store_ok = False
-            note_store = ('<p class="muted small">The account store is unreachable right now '
-                          '(USER_STORE_URL); API keys are unavailable.</p>')
-        else:
-            note_store = ""
-        note = ""
-        if account["kind"] == "key":
-            body_keys = ('<p class="muted small">You are signed in with the master library key, which always '
-                         'has admin rights. Per-user API keys are managed on the <a href="/admin">admin page</a> '
-                         'or from an account sign-in.</p>')
-        elif not store_ok:
-            body_keys = (note_store + '<p class="muted small">API keys need the persistent account store '
-                         '(USER_STORE_URL), which is not configured on this deployment.</p>')
-        else:
-            if request.method == "POST":
-                label = str((await request.form()).get("label") or "")
-                try:
-                    raw = userstore.create_key(account["email"], label)
-                    note = (f'<p><b>Your new API key (shown once — copy it now):</b><br>'
-                            f'<code>{esc(raw)}</code></p>')
-                except Exception as exc:
-                    note = f'<p><b>Could not create the key:</b> {esc(exc)}</p>'
-            my_keys = userstore.keys(email=account["email"])
-            rows = "".join(
-                f'<tr><td>{esc(r[3] or "(no label)")}</td><td><code>{esc(r[1])}…</code></td>'
-                f'<td>{(r[4] or r[5] or "-"):%Y-%m-%d}</td><td>{f"{r[5]:%Y-%m-%d %H:%M} UTC" if r[5] else "never"}</td>'
-                f'<td><form method="post" action="/account/keys/delete" class="inline">'
-                f'<input type="hidden" name="id" value="{r[0]}">'
-                f'<button type="submit" class="small">Revoke</button></form></td></tr>'
-                for r in my_keys)
-            key_table = (f'<table><tr><th>Label</th><th>Key</th><th>Created</th><th>Last used</th><th></th></tr>'
-                         f'{rows}</table>') if rows else '<p class="muted small">No API keys yet.</p>'
-            body_keys = (note + key_table +
-                         '<h3>Create a key</h3>'
-                         '<form method="post" action="/account">'
-                         '<p><label>Label <input type="text" name="label" placeholder="my laptop"></label></p>'
-                         '<p><button type="submit">Create API key</button></p></form>'
-                         '<p class="muted small">Keys act as your account (same rights), work everywhere the '
-                         'library key works (web, REST <code>x-api-key</code>, MCP), and can be revoked any time. '
-                         'The raw key is never stored — only its hash.</p>')
+        """Identity page: who the bearer token belongs to and which role applies."""
+        account = _account(request)
         body = (f'<section class="card narrow"><h1>Account</h1>'
-                f'<p>Signed in as <b>{esc(account.get("email") or "the library key")}</b>'
+                f'<p>Signed in as <b>{esc(account.get("email") or "anonymous")}</b>'
                 + (f' ({esc(account.get("name") or "")})' if account.get("name") else '') +
-                f'<br>Role: <b>{esc(account["role"])}</b></p></section>'
-                f'<section class="card narrow"><h2>API keys</h2>{body_keys}</section>')
+                f'<br>Role: <b>{esc(account["role"])}</b></p>'
+                '<p class="muted small">Sign-in happens at hilir Access; sign out from the button above '
+                '(it ends the Access session). Roles are managed by the owner on the admin page.</p></section>')
         return _page("Account", body)
-
-    async def account_key_delete(request: Request):
-        form = await request.form()
-        my = userstore.keys(email=_account(request, key).get("email") or "")
-        if any(r[0] == _int(form.get("id"), 0, 0, 10**9) for r in my):
-            userstore.delete_key(_int(form.get("id"), 0, 0, 10**9))
-        return RedirectResponse("/account", status_code=303)
 
     async def admin_page(request: Request):
         try:
             store_ok = userstore.configured()
             if store_ok:
-                userstore.all_accounts()  # fail fast into the degraded branch below
+                userstore.accounts()  # fail fast into the degraded branch below
         except Exception:
             store_ok = False
             store_note = ('<p><b>The account store is unreachable right now (USER_STORE_URL).</b> '
-                          'Accounts, keys and analytics are unavailable; the rest of the site works.</p>')
+                          'Accounts and analytics are unavailable; the rest of the site works.</p>')
         else:
             store_note = ""
-        secret_emails = user_accounts.load_users().keys()
 
         def delete_cell(r):
-            if not store_ok or r["email"] in secret_emails:
-                return ""  # secret entries are managed by the owner via the secret, not the page
+            if not store_ok:
+                return ""
             return (f'<form method="post" action="/admin/accounts/delete" class="inline">'
                     f'<input type="hidden" name="email" value="{esc(r["email"])}">'
                     f'<button type="submit" class="small">Delete</button></form>')
 
-        rows = sorted(userstore.all_accounts().values(), key=lambda r: r["email"]) if store_ok else []
+        rows = sorted(userstore.accounts().values(), key=lambda r: r["email"]) if store_ok else []
         account_rows = "".join(
             f'<tr><td>{esc(r["email"])}</td><td>{esc(r.get("name") or "")}</td>'
             f'<td>{esc(r.get("role") or "user")}</td>'
-            f'<td>{"secret" if r["email"] in secret_emails else "admin page"}</td>'
             f'<td>{delete_cell(r)}</td></tr>'
-            for r in rows) or '<tr><td colspan="5" class="muted">no accounts loaded</td></tr>'
+            for r in rows) or '<tr><td colspan="4" class="muted">no accounts loaded</td></tr>'
         if store_ok:
             add_form = ('<form method="post" action="/admin/accounts">'
                         '<p><label>Email <input type="email" name="email" required></label></p>'
                         '<p><label>Name <input type="text" name="name"></label></p>'
                         '<p><label>Role <select name="role"><option value="user">user</option>'
                         '<option value="admin">admin</option></select></label></p>'
-                        '<p><label>Default password <input type="text" name="password" required autocomplete="off"></label></p>'
-                        '<p><button type="submit">Create account</button></p></form>')
+                        '<p><button type="submit">Create account</button></p></form>'
+                        '<p class="muted small">The email must match the person\'s hilir Access account — '
+                        'that is how their token resolves to this row.</p>')
         else:
-            add_form = ('<p class="muted small">Creating accounts from this page needs the persistent account '
-                        'store (USER_STORE_URL). Accounts currently come from the LIBRARY_USERS secret only — '
-                        'see docs/HOSTING.md.</p>')
+            add_form = ('<p class="muted small">Creating accounts from this page needs the persistent '
+                        'account store (USER_STORE_URL) — see docs/HOSTING.md.</p>')
         if store_ok:
             data = userstore.analytics()
             day_rows = "".join(f'<tr><td>{d}</td><td>{v}</td><td>{s}</td></tr>' for d, v, s in data["days"])
             top_rows = "".join(f'<tr><td>{esc(p)}</td><td>{n}</td></tr>' for p, n in data["top"])
-            login_rows = "".join(f'<tr><td>{ts:%m-%d %H:%M} UTC</td><td>{esc(k)}</td><td>{esc(w)}</td>'
-                                 f'<td>{esc(det)}</td><td>{esc(ipc)}</td></tr>'
-                                 for ts, k, w, det, ipc in data["recent"])
-            analytics = (f'<p>{data["logins_ok_7d"]} sign-ins and {data["logins_fail_7d"]} failed attempts in 7 days; '
-                         f'{data["events_total"]} recorded events.</p>'
+            analytics = (f'<p>{data["events_total"]} recorded events.</p>'
                          '<h3>Views and searches per day</h3><table><tr><th>Day</th><th>Views</th><th>Searches</th></tr>'
                          f'{day_rows}</table>'
                          '<h3>Most viewed pages (7 days)</h3><table><tr><th>Path</th><th>Views</th></tr>'
-                         f'{top_rows}</table>'
-                         '<h3>Recent sign-ins</h3><table><tr><th>When</th><th>Event</th><th>Who</th>'
-                         f'<th>Detail</th><th>IP</th></tr>{login_rows}</table>')
+                         f'{top_rows}</table>')
         else:
             analytics = ('<p class="muted small">Activity recording needs the persistent account store '
                          '(USER_STORE_URL), so there is nothing to show yet.</p>')
-        if store_ok:
-            all_keys = userstore.keys()
-            account_emails = sorted(userstore.all_accounts())
-            key_rows = "".join(
-                f'<tr><td>{esc(r[2])}</td><td>{esc(r[3] or "(no label)")}</td><td><code>{esc(r[1])}…</code></td>'
-                f'<td>{(r[4] or r[5] or "-"):%Y-%m-%d}</td><td>{f"{r[5]:%Y-%m-%d %H:%M} UTC" if r[5] else "never"}</td>'
-                f'<td><form method="post" action="/admin/keys/delete" class="inline">'
-                f'<input type="hidden" name="id" value="{r[0]}">'
-                f'<button type="submit" class="small">Revoke</button></form></td></tr>'
-                for r in all_keys)
-            keys_section = ('<h3>API keys</h3>' +
-                            (f'<table><tr><th>Owner</th><th>Label</th><th>Key</th><th>Created</th><th>Last used</th><th></th></tr>{key_rows}</table>'
-                             if all_keys else '<p class="muted small">No API keys yet.</p>') +
-                            '<form method="post" action="/admin/keys">'
-                            '<p><label>Account <input type="email" name="email" list="account-emails" required></label> '
-                            '<datalist id="account-emails">' +
-                            "".join(f'<option value="{esc(e)}">' for e in account_emails) +
-                            '</datalist></p>'
-                            '<p><label>Label <input type="text" name="label" placeholder="team shared key"></label></p>'
-                            '<p><button type="submit">Create key</button></p></form>'
-                            '<p class="muted small">A key acts as its owner\'s account (same role and rights) and '
-                            'works on the web UI, REST and MCP via the x-api-key header. The raw key is shown once '
-                            'after creation; only its hash is stored. Keys die with their account.</p>')
-        else:
-            keys_section = ('<h3>API keys</h3><p class="muted small">API keys need the persistent account store '
-                            '(USER_STORE_URL), which is not configured on this deployment.</p>')
         body = (f'<section class="card"><h1>Admin</h1>{store_note}'
-                f'<p class="muted small">The library key always has admin rights; account passwords are '
-                f'scrypt-hashed and never shown. Deleting an account revokes its sessions within a minute '
-                f'and deletes its API keys.</p></section>'
+                f'<p class="muted small">Sign-in happens at hilir Access; this row decides the role. '
+                f'Deleting an account revokes its access within the account-cache window.</p></section>'
                 f'<section class="card"><h2>Accounts</h2>'
-                f'<table><tr><th>Email</th><th>Name</th><th>Role</th><th>Source</th><th></th></tr>{account_rows}</table>'
+                f'<table><tr><th>Email</th><th>Name</th><th>Role</th><th></th></tr>{account_rows}</table>'
                 f'<h3>Add an account</h3>{add_form}</section>'
-                f'<section class="card"><h2>API keys</h2>{keys_section}</section>'
-                f'<section class="card"><h2>Login data and analytics</h2>{analytics}</section>')
+                f'<section class="card"><h2>Usage data and analytics</h2>{analytics}</section>')
         return _page("Admin", body, admin_nav=True)
 
     async def admin_create(request: Request):
         form = await request.form()
         try:
             userstore.create_account(str(form.get("email") or ""), str(form.get("name") or ""),
-                                     str(form.get("password") or ""), str(form.get("role") or "user"))
+                                     str(form.get("role") or "user"))
         except Exception as exc:
             resp = _page("Admin", f'<section class="card narrow"><h1>Admin</h1>'
                                   f'<p>Could not create the account: {esc(exc)}</p>'
@@ -1814,38 +1630,12 @@ def routes(tools, key: str) -> list:
         userstore.delete_account(str(form.get("email") or ""))
         return RedirectResponse("/admin", status_code=303)
 
-    async def admin_key_create(request: Request):
-        form = await request.form()
-        try:
-            raw = userstore.create_key(str(form.get("email") or ""), str(form.get("label") or ""))
-        except Exception as exc:
-            resp = _page("Admin", f'<section class="card narrow"><h1>Admin</h1>'
-                                  f'<p>Could not create the key: {esc(exc)}</p>'
-                                  f'<p><a href="/admin">Back</a></p></section>', admin_nav=True)
-            resp.status_code = 400
-            return resp
-        resp = _page("Admin", f'<section class="card narrow"><h1>API key created</h1>'
-                              f'<p>For <b>{esc(str(form.get("email") or "").strip().lower())}</b>. '
-                              f'Shown once — copy it now:</p>'
-                              f'<p><code>{esc(raw)}</code></p>'
-                              f'<p><a href="/admin">Back to admin</a></p></section>', admin_nav=True)
-        return resp
-
-    async def admin_key_delete(request: Request):
-        userstore.delete_key(_int((await request.form()).get("id"), 0, 0, 10**9))
-        return RedirectResponse("/admin", status_code=303)
-
     return [
         Route("/", gated(home)),
-        Route("/login", login, methods=["GET", "POST"]),
-        Route("/logout", logout, methods=["GET", "POST"]),
         Route("/admin", admin_gated(admin_page)),
         Route("/admin/accounts", admin_gated(admin_create), methods=["POST"]),
         Route("/admin/accounts/delete", admin_gated(admin_delete), methods=["POST"]),
-        Route("/admin/keys", admin_gated(admin_key_create), methods=["POST"]),
-        Route("/admin/keys/delete", admin_gated(admin_key_delete), methods=["POST"]),
-        Route("/account", gated(account_page), methods=["GET", "POST"]),
-        Route("/account/keys/delete", gated(account_key_delete), methods=["POST"]),
+        Route("/account", gated(account_page)),
         Route("/search", gated(search)),
         Route("/technologies", gated(technologies)),
         Route("/technologies/{technology_id}", gated(technology)),

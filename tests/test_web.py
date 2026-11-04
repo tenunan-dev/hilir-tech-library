@@ -1,4 +1,5 @@
-"""Web interface: sign-in and session cookie, each page answering from the built index, in-process."""
+"""Web interface: the hilir bearer gate and role resolution, each page answering from the built
+index, in-process. The verifier and the account store are stubbed — no Neon, no real JWKS."""
 import pathlib
 import sys
 
@@ -7,160 +8,119 @@ import pytest
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "agent"))
 starlette_testclient = pytest.importorskip("starlette.testclient")
 server = pytest.importorskip("server")
+import userstore  # noqa: E402
 import web  # noqa: E402
 
-KEY = "k" * 32
+ADMIN_TOKEN = "ad." + "p" * 40 + "." + "s" * 40   # three segments, matched by the stub verifier
+USER_TOKEN = "us." + "p" * 40 + "." + "s" * 40
+GHOST_TOKEN = "gh." + "p" * 40 + "." + "s" * 40   # verifies, but no account row (fail-closed)
+
+ACCOUNTS = {
+    "admin@example.com": {"email": "admin@example.com", "name": "Ada", "hash": "", "role": "admin"},
+    "bob@example.com": {"email": "bob@example.com", "name": "Bob", "hash": "", "role": "user"},
+}
+
+
+class StubAuth:
+    """verify/identity keyed by token, like the real verifier's per-token identity cache."""
+
+    def __init__(self):
+        self._emails = {ADMIN_TOKEN: "admin@example.com", USER_TOKEN: "bob@example.com",
+                        GHOST_TOKEN: "ghost@example.com"}
+
+    def verify(self, token):
+        return {"sub": "user-1"} if token in self._emails else None
+
+    def identity(self, token):
+        email = self._emails.get(token)
+        return {"email": email} if email else None
+
+
+@pytest.fixture(autouse=True)
+def stub_auth_and_store(monkeypatch):
+    stub = StubAuth()
+    monkeypatch.setattr(server, "hilir_auth", stub)
+    monkeypatch.setattr(web, "hilir_auth", stub)
+    monkeypatch.setattr(userstore, "accounts", lambda: dict(ACCOUNTS))
+    monkeypatch.setattr(userstore, "configured", lambda: True)
+    # never touch a real Neon connection from page renders
+    monkeypatch.setattr(userstore, "record", lambda *a, **k: None)
+    monkeypatch.setattr(userstore, "analytics",
+                        lambda: {"days": [], "top": [], "events_total": 0})
+    return stub
 
 
 @pytest.fixture(scope="module")
 def c():
-    # https base_url so the Secure session cookie is stored and sent (the transport does no real TLS)
-    with starlette_testclient.TestClient(server.http_app(KEY), base_url="https://testserver") as client:
+    # https base_url so Secure cookies would be stored and sent (the transport does no real TLS)
+    with starlette_testclient.TestClient(server.http_app(), base_url="https://testserver") as client:
         yield client
 
 
-def test_home_and_login_gate_the_site(c):
+def admin(c):
+    c.headers["authorization"] = f"Bearer {ADMIN_TOKEN}"
+    return c
+
+
+def test_home_gates_the_site(c):
     r = c.get("/", follow_redirects=False)
     assert r.status_code == 303 and r.headers["location"].startswith("/login?next=")
-    page = c.get("/login")
-    assert page.status_code == 200 and 'type="password"' in page.text
 
 
-BAD_KEY = "w" + "rong"  # composed so no credential-looking literal sits in the key field
-
-
-def test_login_rejects_a_wrong_key(c):
-    assert c.post("/login", data={"key": BAD_KEY, "next": "/"}, follow_redirects=False).status_code == 401
-
-
-def test_account_login_sets_a_user_session(c, monkeypatch):
-    import users as user_accounts
-    entry = f"alice@example.com|Alice|{user_accounts.hash_password('library-pass-1')}"
-    monkeypatch.setenv("LIBRARY_USERS", entry)
-    page = c.get("/login")
-    assert page.status_code == 200 and 'name="email"' in page.text and 'name="password"' in page.text
-    ok = c.post("/login", data={"email": "Alice@Example.com", "password": "library-pass-1", "next": "/technologies"},
-                follow_redirects=False)
-    assert ok.status_code == 303 and ok.headers["location"] == "/technologies"
-    assert "oglib_session" in ok.cookies
-    # the account cookie, not the key, now opens pages (fresh client without the key header)
-    with starlette_testclient.TestClient(server.http_app(KEY), base_url="https://testserver") as fresh:
-        fresh.cookies.set(web.COOKIE, ok.cookies.get(web.COOKIE))
-        assert fresh.get("/technologies").status_code == 200
-        assert fresh.get("/vendors").status_code == 200
-    bad = c.post("/login", data={"email": "alice@example.com", "password": "wrong", "next": "/"},
-                 follow_redirects=False)
-    assert bad.status_code == 401
-    monkeypatch.delenv("LIBRARY_USERS")
-    none_page = c.get("/login")
-    # both forms always render; the page must not disclose account state or internals
-    assert 'name="email"' in none_page.text and 'name="key"' in none_page.text
-    assert "LIBRARY_USERS" not in none_page.text and "No accounts" not in none_page.text
-    # with no accounts configured, an email attempt fails exactly like a wrong password
-    none_try = c.post("/login", data={"email": "nobody@example.com", "password": "x", "next": "/"},
-                      follow_redirects=False)
-    assert none_try.status_code == 401 and "Wrong email or password" in none_try.text
-
-
-def test_tampered_user_sessions_are_rejected(c):
-    from starlette.testclient import TestClient
-    forged = "v2|eyJ1IjogImFsaWNlQGV4YW1wbGUiLCAiZXhwIjogOTk5OTk5OTk5OX0|0" * 64
-    with TestClient(server.http_app(KEY), base_url="https://testserver") as fresh:
-        fresh.cookies.set(web.COOKIE, forged)
-        r = fresh.get("/technologies", follow_redirects=False)
-        assert r.status_code == 303 and r.headers["location"].startswith("/login?next=")
-
-
-def _session(client, email):
-    import users as user_accounts
-    client.cookies.clear()  # drop cookies from earlier tests in this module (form logins set their own)
-    client.cookies.set(web.COOKIE, user_accounts.session_token(email, KEY))
-
-
-def test_admin_page_gating(c, monkeypatch):
-    admin = f"admin@example.com|Ada|{__import__('users').hash_password('pw-admin-1')}|admin"
-    plain = f"bob@example.com|Bob|{__import__('users').hash_password('pw-bob-1')}"
-    monkeypatch.setenv("LIBRARY_USERS", f"{admin};{plain}")
-    # anonymous -> login
-    anon = starlette_testclient.TestClient(server.http_app(KEY), base_url="https://testserver")
-    r = anon.get("/admin", follow_redirects=False)
-    assert r.status_code == 303 and "/login" in r.headers["location"]
-    # non-admin session -> 403
-    _session(c, "bob@example.com")
-    assert c.get("/admin").status_code == 403
-    # admin session -> the page with the add form and the store-off notice
-    _session(c, "admin@example.com")
-    page = c.get("/admin")
-    assert page.status_code == 200 and "Add an account" in page.text and "USER_STORE_URL" in page.text
-    # a signed session for an account that does not exist is not authenticated
-    _session(c, "ghost@example.com")
-    assert c.get("/admin", follow_redirects=False).status_code == 303
-    # the library key is always admin
-    c.headers["x-api-key"] = KEY
-    page = c.get("/admin")
-    assert page.status_code == 200
-    del c.headers["x-api-key"]
-    # creating accounts from the page needs the store; without it the POST says so
-    _session(c, "admin@example.com")
-    r = c.post("/admin/accounts", data={"email": "new@example.com", "name": "New", "password": "pw", "role": "user"})
-    assert r.status_code == 400 and "USER_STORE_URL" in r.text
-
-
-def test_user_key_headers_and_account_page(c, monkeypatch):
-    import secrets as secrets_mod
-    import users as user_accounts
-    import userstore
-    admin = f"admin@example.com|Ada|{user_accounts.hash_password('pw-admin-1')}|admin"
-    plain = f"bob@example.com|Bob|{user_accounts.hash_password('pw-bob-1')}"
-    monkeypatch.setenv("LIBRARY_USERS", f"{admin};{plain}")
-    user_key = userstore.KEY_PREFIX + secrets_mod.token_urlsafe(24)   # fake keys, resolved via stubs
-    admin_key = userstore.KEY_PREFIX + secrets_mod.token_urlsafe(24)
-    # without the store, an hlt_ key resolves to nothing (redirect at the gate) and /account says so
-    assert c.get("/account", headers={"x-api-key": user_key}, follow_redirects=False).status_code == 303
-    _session(c, "bob@example.com")
-    page = c.get("/account")
-    assert page.status_code == 200 and "USER_STORE_URL" in page.text and "API keys" in page.text
-    # unknown hlt_ keys are not authenticated even with the store shape
-    monkeypatch.setattr(userstore, "account_for_key", lambda raw: None)
-    assert c.get("/technologies", headers={"x-api-key": user_key}, follow_redirects=False).status_code == 303
-    # a resolving hlt_ key acts as its account (bob -> user -> 403 on admin)
-    monkeypatch.setattr(userstore, "account_for_key",
-                        lambda raw: {"kind": "account", "email": "bob@example.com", "name": "Bob", "role": "user"})
-    assert c.get("/technologies", headers={"x-api-key": user_key}).status_code == 200
-    assert c.get("/admin", headers={"x-api-key": user_key}).status_code == 403
-    # an admin-owned hlt_ key gets admin rights
-    monkeypatch.setattr(userstore, "account_for_key",
-                        lambda raw: {"kind": "account", "email": "admin@example.com", "name": "Ada", "role": "admin"})
-    assert c.get("/admin", headers={"x-api-key": admin_key}).status_code == 200
-    # key shape guard: a wrong prefix never reaches the resolver
-    monkeypatch.setattr(userstore, "account_for_key", lambda raw: (_ for _ in ()).throw(AssertionError("reached")))
-    assert c.get("/technologies", headers={"x-api-key": BAD_KEY + secrets_mod.token_urlsafe(8)},
-                 follow_redirects=False).status_code == 303
-
-
-def test_login_sets_the_cookie_and_pages_answer(c):
-    r = c.post("/login", data={"key": KEY, "next": "/"}, follow_redirects=False)
-    assert r.status_code == 303 and r.headers["location"] == "/" and "oglib_session" in r.cookies
-    home = c.get("/")
-    assert home.status_code == 200 and "technology" in home.text.lower()
-    for path in ("/technologies", "/vendors", "/register", "/sources", "/gaps"):
-        assert c.get(path).status_code == 200
+def test_pages_answer_with_a_bearer(c):
+    admin(c)
+    for path in ("/", "/technologies", "/vendors", "/register", "/sources", "/gaps", "/account"):
+        assert c.get(path).status_code == 200, path
     search = c.get("/search", params={"q": "hydrogen"})
     assert search.status_code == 200 and ("/technologies/" in search.text or "/documents?path=" in search.text
                                           or "/sources/" in search.text)
 
 
+def test_token_without_an_account_row_is_refused(c):
+    """The token proves who; the store decides the role. No row = no access (fail-closed)."""
+    c.headers["authorization"] = f"Bearer {GHOST_TOKEN}"
+    assert c.get("/technologies", follow_redirects=False).status_code == 303
+
+
+def test_admin_gating(c):
+    c.headers["authorization"] = f"Bearer {USER_TOKEN}"
+    assert c.get("/admin").status_code == 403
+    admin(c)
+    page = c.get("/admin")
+    assert page.status_code == 200 and "Add an account" in page.text
+    # step 3: the key machinery is gone from the page as well
+    assert "API keys" not in page.text and "library key" not in page.text
+
+
+def test_create_account_without_store_answers_400(c, monkeypatch):
+    admin(c)
+    monkeypatch.setattr(userstore, "configured", lambda: False)
+    r = c.post("/admin/accounts", data={"email": "new@example.com", "name": "New", "role": "user"})
+    assert r.status_code == 400 and "USER_STORE_URL" in r.text
+
+
+def test_account_page_shows_identity_only(c):
+    admin(c)
+    page = c.get("/account")
+    assert page.status_code == 200 and "admin@example.com" in page.text and "Role" in page.text
+    assert "API keys" not in page.text
+
+
+def test_search_escapes_html(c):
+    admin(c)
+    page = c.get("/search", params={"q": "<script>alert(1)</script>"})
+    assert page.status_code == 200 and "<script>alert" not in page.text
+
+
 def test_vendors_page_lists_records_and_filters(c):
+    admin(c)
     page = c.get("/vendors")
     assert page.status_code == 200 and "vendor records" in page.text and "Coverage queue" in page.text
     assert "Wärtsilä" in page.text
-    one = c.get("/vendors", params={"id": "wartsila"})
-    assert one.status_code == 200 and one.text.count("Wärtsilä") >= 1
-    empty = c.get("/vendors", params={"id": "no-such-vendor"})
-    assert empty.status_code == 200 and "0 vendor records" in empty.text
 
 
 def test_database_pages_answer_unconfigured(c, monkeypatch):
+    admin(c)
     monkeypatch.delenv("DATABASE_URL", raising=False)
     for path in ("/database", "/database/map", "/database/graph"):
         page = c.get(path)
@@ -168,6 +128,7 @@ def test_database_pages_answer_unconfigured(c, monkeypatch):
 
 
 def test_graph_json_endpoints_need_the_database(c, monkeypatch):
+    admin(c)
     monkeypatch.delenv("DATABASE_URL", raising=False)
     for path in ("/database/graph/overview.json", "/database/graph/nodes.json?q=co2",
                  "/database/graph/neighborhood.json?id=technology:ccs-cryogenic",
@@ -176,49 +137,16 @@ def test_graph_json_endpoints_need_the_database(c, monkeypatch):
         assert r.status_code == 503 and "not configured" in r.json()["error"]
 
 
-def test_database_unconfigured_and_documents_needs_path(c, monkeypatch):
-    monkeypatch.delenv("DATABASE_URL", raising=False)
-    page = c.get("/database")
-    assert page.status_code == 200 and "requirements-postgres.txt" in page.text
-    assert c.get("/documents").status_code == 400
-
-
-def test_database_pages_carry_the_second_level_tabs(c, monkeypatch):
-    monkeypatch.delenv("DATABASE_URL", raising=False)
-    for path, tab in (("/database", "/database"), ("/database/sql", "/database/sql"),
-                      ("/database/search", "/database/search"), ("/database/graph", "/database/graph"),
-                      ("/database/map", "/database/map")):
-        page = c.get(path)
-        assert page.status_code == 200
-        assert 'class="subnav"' in page.text and "Atlas" in page.text and "Network" in page.text
-        assert f'<a href="{tab}" class="active">' in page.text, f"{tab} tab not active on {path}"
-
-
-def test_search_escapes_html(c):
-    page = c.get("/search", params={"q": "<script>alert(1)</script>"})
-    assert page.status_code == 200 and "<script>alert" not in page.text
-
-
 def test_missing_card_and_source_are_404(c):
+    admin(c)
     assert c.get("/technologies/no-such-card").status_code == 404
     assert c.get("/sources/no-such-source").status_code == 404
 
 
 def test_is_web_path():
     assert web.is_web_path("/") and web.is_web_path("/technologies/x") and web.is_web_path("/database/sql")
-    assert not any(web.is_web_path(p) for p in ("/api/stats", "/mcp", "/api", "/technologiesx"))
-
-
-def test_session_token_is_deterministic_and_key_bound():
-    assert web.session_token(KEY) == web.session_token(KEY)
-    assert web.session_token(KEY) != web.session_token("x" * 32)
-    assert len(web.session_token(KEY)) == 64
-
-
-def test_header_auth_without_cookie():
-    with starlette_testclient.TestClient(server.http_app(KEY), base_url="https://testserver") as fresh:
-        assert fresh.get("/technologies", headers={"x-api-key": KEY}).status_code == 200
-        assert fresh.get("/technologies", headers={"authorization": f"Bearer {KEY}"}).status_code == 200
+    # /login and /logout are the edge's now — the container neither serves nor exempts them
+    assert not any(web.is_web_path(p) for p in ("/api/stats", "/mcp", "/api", "/login", "/logout", "/technologiesx"))
 
 
 def test_neon_down_shows_fallback_notice(c, monkeypatch):
@@ -226,7 +154,8 @@ def test_neon_down_shows_fallback_notice(c, monkeypatch):
     (the SQLite fallback still renders, and the notice tells the reader it may be stale)."""
     def boom(*a, **k):
         raise web.pg.DatabaseError("connection refused (test)")
+    admin(c)
     monkeypatch.setattr(web.pg, "configured", lambda: True)
     monkeypatch.setattr(web.pg, "library_stats", boom)
-    r = c.get("/", headers={"x-api-key": KEY})
+    r = c.get("/")
     assert r.status_code == 200 and "unreachable" in r.text

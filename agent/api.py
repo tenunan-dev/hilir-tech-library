@@ -138,8 +138,9 @@ def openapi_spec(server_url):
                                 "Every result carries url, licence and reuse_level: always cite the url and respect "
                                 "the licence."},
         "servers": [{"url": server_url}],
-        "components": {"securitySchemes": {"ApiKey": {"type": "apiKey", "in": "header", "name": "x-api-key"}}},
-        "security": [{"ApiKey": []}],
+        "components": {"securitySchemes": {"HilirBearer": {"type": "http", "scheme": "bearer",
+                                                           "description": "A hilir Access access token (aud = this app's resource)"}}},
+        "security": [{"HilirBearer": []}],
         "paths": {
             "/api/search": get("search", "Search catalog sources, document passages, technology cards, vendor records and equipment records", [
                 _param("q", "Search text", required=True),

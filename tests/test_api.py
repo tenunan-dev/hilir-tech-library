@@ -1,4 +1,5 @@
-"""REST API: key gate, public schema, and each endpoint answering from the built index, in-process."""
+"""REST API: bearer gate, public schema, and each endpoint answering from the built index,
+in-process. The verifier is stubbed — no real JWKS needed."""
 import pathlib
 import sys
 
@@ -8,25 +9,44 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "agent")
 starlette_testclient = pytest.importorskip("starlette.testclient")
 server = pytest.importorskip("server")
 
-KEY = "k" * 32
-AUTH = {"x-api-key": KEY}
+TOKEN = "ap." + "p" * 40 + "." + "s" * 40  # three segments, matched by the stub verifier
+BAD = "w" * 60
+AUTH = {"authorization": f"Bearer {TOKEN}"}
+
+
+class StubAuth:
+    def verify(self, token):
+        return {"sub": "user-1"} if token == TOKEN else None
+
+    def identity(self, token):
+        return {"email": "agent@example.com"} if token == TOKEN else None
+
+
+@pytest.fixture(autouse=True)
+def stub_verifier(monkeypatch):
+    stub = StubAuth()
+    monkeypatch.setattr(server, "hilir_auth", stub)
+    import web
+    monkeypatch.setattr(web, "hilir_auth", stub)
+    return stub
 
 
 @pytest.fixture(scope="module")
 def c():
-    with starlette_testclient.TestClient(server.http_app(KEY)) as client:
+    with starlette_testclient.TestClient(server.http_app()) as client:
         yield client
 
 
-def test_data_endpoints_need_the_key(c):
+def test_data_endpoints_need_the_token(c):
     assert c.get("/api/stats").status_code == 401
-    assert c.get("/api/search", params={"q": "hydrogen"}, headers={"x-api-key": "wrong"}).status_code == 401
+    assert c.get("/api/search", params={"q": "hydrogen"}, headers={"authorization": f"Bearer {BAD}"}).status_code == 401
 
 
 def test_openapi_is_public_and_lists_paths(c):
     spec = c.get("/api/openapi.json").json()
     assert spec["openapi"].startswith("3.1") and "/api/search" in spec["paths"]
-    assert spec["components"]["securitySchemes"]["ApiKey"]["name"] == "x-api-key"
+    scheme = spec["components"]["securitySchemes"]["HilirBearer"]
+    assert scheme["scheme"] == "bearer"
 
 
 def test_search_stats_and_not_found(c):

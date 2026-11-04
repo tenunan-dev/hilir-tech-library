@@ -3,28 +3,29 @@
     pip install -r requirements-agent.txt
     python agent/library.py build
     python agent/server.py                      # stdio, for agents on this machine
-    LIBRARY_API_KEY=... python agent/server.py --http --port 8000
-                                                # streamable HTTP at /mcp, for hosted agents
+    python agent/server.py --http --port 8000   # streamable HTTP at /mcp, for hosted agents
                                                 # (Copilot Studio, claude.ai connectors, others),
                                                 # plus a REST API under /api (see agent/api.py)
 An HTML web interface (cards, catalog, gaps, database console) is served under / — see agent/web.py; set DATABASE_URL (a read-only DSN) to enable the Postgres-backed tools.
 
-HTTP mode requires an API key (header x-api-key, or Authorization: Bearer <key>) and by
-default does not serve text from full-text-restricted sources, because people other than the
-owner may reach it. --include-restricted turns that off for a server only the owner can use.
+HTTP mode requires a hilir Access bearer token (Authorization: Bearer <access
+token>, forwarded by the edge, verified here against the issuer's JWKS) and by
+default does not serve text from full-text-restricted sources, because people
+other than the owner may reach it. --include-restricted turns that off for a
+server only the owner can use.
 LIBRARY_ALLOWED_HOSTS (comma-separated) enables Host header checks behind a known hostname.
 
 Every result carries the source's licence, reuse_level and permitted_use. Agents must cite
 the url, and must not redistribute text from full-text-restricted sources.
 """
 import argparse
-import hmac
 import os
 import pathlib
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import api  # noqa: E402
+import auth as hilir_auth  # noqa: E402 — hilir Access token verification
 import embed  # noqa: E402
 import library  # noqa: E402
 import pg  # noqa: E402
@@ -277,16 +278,19 @@ def graph_neighbors(node: str, depth: int = 1, rels: list[str] | None = None) ->
         return {"error": str(e)}
 
 
-class RequireApiKey:
-    """ASGI middleware: reject requests without the API key (x-api-key or Authorization: Bearer).
+class RequireHilirToken:
+    """ASGI middleware: reject requests without a hilir Access bearer token.
 
-    The library key grants full access; per-user keys (hlt_…, agent/userstore.py) are accepted
-    when the account store resolves them — they act as their owning account. web=True exempts
-    the UI paths (they authenticate with the session cookie inside web.py); a backend-only
-    container (LIBRARY_WEB=off) exempts nothing."""
+    The edge verifies the browser session and forwards
+    ``Authorization: Bearer <access token>``; this gate confirms the token
+    locally (signature, issuer, audience — agent/auth.py). web=True exempts
+    the UI paths (web.py's own gates do the same verification per page and add
+    role resolution); a backend-only container (LIBRARY_WEB=off) exempts
+    nothing. There is no other credential (step 3): no library key, no
+    per-user keys."""
 
-    def __init__(self, app, key, web=True):
-        self.app, self.key, self.web = app, key.encode(), web
+    def __init__(self, app, web=True):
+        self.app, self.web = app, web
 
     async def __call__(self, scope, receive, send):
         if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS \
@@ -294,17 +298,17 @@ class RequireApiKey:
             headers = dict(scope["headers"])
             dsn = headers.get(b"x-user-store-dsn")
             userstore.set_dsn_from_header(dsn.decode("utf-8", "replace") if dsn is not None else None)
-            given = headers.get(b"x-api-key") or headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
-            given_text = given.decode("utf-8", "replace")
-            if not hmac.compare_digest(given, self.key) and not userstore.account_for_key(given_text):
+            raw = headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
+            token = raw.decode("utf-8", "replace")
+            if hilir_auth is None or token.count(".") != 2 or hilir_auth.verify(token) is None:
                 await send({"type": "http.response.start", "status": 401,
                             "headers": [(b"content-type", b"application/json")]})
-                await send({"type": "http.response.body", "body": b'{"error": "missing or wrong API key"}'})
+                await send({"type": "http.response.body", "body": b'{"error": "missing or invalid token"}'})
                 return
         await self.app(scope, receive, send)
 
 
-def http_app(key, with_web=True):
+def http_app(with_web=True):
     hosts = [h.strip() for h in os.environ.get("LIBRARY_ALLOWED_HOSTS", "").split(",") if h.strip()]
     try:
         from mcp.server.transport_security import TransportSecuritySettings
@@ -316,8 +320,8 @@ def http_app(key, with_web=True):
         app = server.streamable_http_app()
     app.router.routes.extend(api.routes(sys.modules[__name__]))  # REST API for agents without MCP
     if with_web:
-        app.router.routes.extend(web.routes(sys.modules[__name__], key))
-    return RequireApiKey(app, key, with_web)
+        app.router.routes.extend(web.routes(sys.modules[__name__]))
+    return RequireHilirToken(app, with_web)
 
 
 def main(argv=None):
@@ -332,27 +336,21 @@ def main(argv=None):
     if not args.http:
         server.run()
         return 0
-    key = os.environ.get("LIBRARY_API_KEY", "")
-    if len(key) < 24:
-        print("Set LIBRARY_API_KEY (at least 24 characters) before serving over HTTP.", file=sys.stderr)
-        return 2
     EXCLUDE_RESTRICTED = not args.include_restricted
     web_on = os.environ.get("LIBRARY_WEB", "on").lower() not in ("off", "0", "false", "no")
     if web_on:
-        # Loud at boot: a missing account store used to look like "no such account"
-        # at sign-in time (2026-11-04). Warn before anyone tries to log in.
-        import users
-        import userstore
-        if not userstore.configured() and not users.load_users():
+        # Loud at boot: a missing account store leaves every verified identity
+        # without a role row, so no page opens (fail-closed, by design).
+        if not userstore.configured():
             print(
-                "WARNING: account sign-in is not configured — USER_STORE_URL is empty and "
-                "LIBRARY_USERS has no entries. Email/password sign-in will fail for everyone; "
-                "only the library key will work.",
+                "WARNING: the account store is not configured — USER_STORE_URL is empty. "
+                "Verified hilir Access identities have no role row and every gated page "
+                "will refuse them until the edge supplies a store DSN.",
                 file=sys.stderr,
             )
     db()
     import uvicorn
-    uvicorn.run(http_app(key, with_web=web_on), host=args.host, port=args.port)
+    uvicorn.run(http_app(with_web=web_on), host=args.host, port=args.port)
     return 0
 
 

@@ -19,8 +19,7 @@ const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
 
 interface Env {
-  LIBRARY_API_KEY: string; // set with: wrangler secret put LIBRARY_API_KEY
-  USER_STORE_URL?: string; // account-store DSN (per-user keys + OAuth account resolution); optional
+  USER_STORE_URL?: string; // account-store DSN (roles); forwarded per request
   HILIR_ISSUER: string; // https://access-v2.hilir.app/api/auth
   AUDIENCE: string; // the app's resource identifier - the token's aud
   REQUIRED_SCOPE?: string; // default catalog:read
@@ -67,17 +66,15 @@ async function machineGate(request: Request, env: Env): Promise<Response | null>
 function storeDsnHeaders(request: Request, env: Env): Headers {
   const headers = new Headers(request.headers);
   headers.set("x-user-store-dsn", env.USER_STORE_URL ?? "");
+  // Step 3 (2026-11-05): the verified bearer travels to the container — it is
+  // the only credential (machineGate already checked iss/aud/scope; the
+  // container verifies it again and resolves the role row). No API keys exist.
+  headers.delete("x-api-key");
   return headers;
 }
 
 async function toContainer(request: Request, env: Env): Promise<Response> {
   const headers = storeDsnHeaders(request, env);
-  const given = request.headers.get("x-api-key") || (request.headers.get("authorization") ?? "").replace(/^Bearer /, "") || "";
-  headers.delete("authorization");
-  if (!given.startsWith("hlt_")) {
-    headers.delete("x-api-key");
-    headers.set("x-api-key", env.LIBRARY_API_KEY);
-  }
   const url = new URL(request.url);
   const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
   // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS now — the

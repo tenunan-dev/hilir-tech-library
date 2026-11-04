@@ -7,13 +7,8 @@ locally against the issuer's JWKS (EdDSA) and returns the caller's identity.
 
 Roles still come from the account row in the user store — identity from the
 token, authorisation from our own data. Nothing here mints or stores anything.
-
-Wiring (next pass — see docs/STATUS.md §5b for the ordered migration):
-  * ``_account()`` in agent/web.py                       → ``identify(request)``
-  * ``_session()`` / ``_require_session``                 → same
-  * ``GET/POST /login``, ``/logout``, login templates      → delete
-  * ``agent/users.py`` password/session helpers            → delete
-  * ``LIBRARY_API_KEY`` / ``LIBRARY_USERS``                → delete
+The container's own login/users/key machinery was deleted in step 3
+(2026-11-05, AUTH-REBUILD §4.3): this bearer is the only credential.
 
 Environment:
   HILIR_ISSUER    default https://access.hilir.app/api/auth

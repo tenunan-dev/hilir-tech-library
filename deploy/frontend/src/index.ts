@@ -1,7 +1,6 @@
 // techlib UI edge handler (Phase 4 / AUTH-REBUILD §4.3).
 //
-// Auth model changed here: the Worker no longer runs its own OIDC flow and no
-// longer mints the container's "v2" session cookie. It is an OIDC *client*:
+// Auth model: the Worker is an OIDC *client* of hilir Access:
 //
 //   GET /login      → shared package builds the PKCE authorization URL
 //   GET /auth/callback → shared package exchanges the code (sets our cookies)
@@ -9,10 +8,9 @@
 //                     when expired; forward `Authorization: Bearer <token>` to
 //                     the container, which verifies it itself (agent/auth.py)
 //
-// The container therefore holds no signing key and never sees a password. It
+// The container holds no signing key, no password and no login form (step 3,
+// 2026-11-05): the bearer token is the only credential in the whole hop. It
 // resolves the token's email to its account row, so roles stay store-driven.
-//
-// The old key/account form still works through /login?classic=1 until step 3.
 //
 // Forwarding form is unchanged: the client's URL never travels, the body is
 // read once, and redirects stay "manual" so the container's 303s reach the
@@ -34,14 +32,18 @@ import {
 } from "@tenunan-dev/hilir-auth";
 
 // keep in sync with PREFIXES in agent/web.py
-const UI_PREFIXES = ["/login", "/logout", "/search", "/technologies", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account"];
+const UI_PREFIXES = ["/search", "/technologies", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account"];
 const isUi = (p: string) => p === "/" || UI_PREFIXES.some((x) => p.startsWith(x));
 
-/** Key-held read-only surfaces served on this host (the client's own key travels). */
-const KEY_HELD = ["/api/stats", "/api/version", "/api/openapi.json"];
+/**
+ * Read-only machine surfaces on this host. Since step 3 they need a hilir
+ * bearer token (the same verify/refresh path as the pages) — the library key
+ * they used to accept no longer exists. /api/openapi.json stays public to
+ * match the backend worker and the container's api.PUBLIC_PATHS.
+ */
+const TOKEN_HELD = ["/api/stats", "/api/version"];
 
 interface Env {
-  LIBRARY_API_KEY: string;
   DATABASE_URL?: string;
   USER_STORE_URL?: string;
   LIBRARY_ORIGIN: string; // https://techlib-origin.hilir.app
@@ -159,10 +161,6 @@ async function resolveToken(
   return { token: fresh.access_token, setCookies, email };
 }
 
-function hasClientKey(request: Request): boolean {
-  return Boolean(request.headers.get("x-api-key") || request.headers.get("authorization"));
-}
-
 /**
  * Identity from the provider's userinfo endpoint — the documented OIDC source
  * for the `email` scope. The access token carries scopes/aud but no email
@@ -230,14 +228,16 @@ export default {
       });
     }
 
-    // Key-held read-only endpoints: the client's own key is forwarded untouched.
-    if (KEY_HELD.includes(url.pathname)) {
-      return hasClientKey(request) ? toContainer(request, env)
-        : Response.json({ error: "missing or wrong API key" }, { status: 401 });
+    // Machine-held read-only endpoints: a hilir bearer token is required — the
+    // same verify/refresh path as the pages. No token = 401 JSON, not a redirect.
+    if (TOKEN_HELD.includes(url.pathname)) {
+      const { token, setCookies } = await resolveToken(request, env);
+      if (!token) return Response.json({ error: "missing or invalid token" }, { status: 401 });
+      return withCookies(await toContainer(request, env, token), setCookies);
     }
 
-    // Legacy sign-in (container's own key/account form) until step 3.
-    if (url.pathname === "/login" && (request.method === "POST" || url.searchParams.get("classic") === "1")) {
+    // The schema is public (matches the backend worker and the container's api.PUBLIC_PATHS).
+    if (url.pathname === "/api/openapi.json") {
       return toContainer(request, env);
     }
 
@@ -258,7 +258,7 @@ export default {
           `<!doctype html><meta charset="utf-8"><title>Sign-in failed</title>` +
             `<body style="font:16px/1.6 system-ui,sans-serif;max-width:36em;margin:15vh auto;padding:0 24px">` +
             `<h1>Sign-in failed</h1><p><code>${result.error}</code></p>` +
-            `<p><a href="/login?classic=1">Sign in with the library key</a></p></body>`,
+            `<p><a href="/login">Try again</a></p></body>`,
           { status: 400, headers },
         );
       }
