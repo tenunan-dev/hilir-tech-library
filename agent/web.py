@@ -34,6 +34,10 @@ from starlette.responses import HTMLResponse, JSONResponse, RedirectResponse
 from starlette.routing import Route
 
 import equipment as equipment_records
+try:  # Phase 4: optional so a slim image without PyJWT still starts
+    import hilir_auth
+except Exception:  # noqa: BLE001 — absence only disables token auth
+    hilir_auth = None
 import library
 import pg
 import technologies as technology_records
@@ -668,6 +672,17 @@ def _account(request: Request, key: str) -> dict | None:
             return {"kind": "key", "email": None, "name": "library key", "role": "admin"}
         if given.startswith(userstore.KEY_PREFIX):
             return userstore.account_for_key(given)
+        # Phase 4 dual-accept: a hilir Access access token forwarded by the edge
+        # (agent/auth.py verifies signature + iss/aud/exp against the issuer's
+        # JWKS). The token proves *who*; the account row still decides the role,
+        # so removing a row revokes access exactly as it does for a v2 session.
+        identity = hilir_auth.verify(given) if (hilir_auth and given.count(".") == 2) else None
+        if identity:
+            email = (identity.get("email") or "").strip().lower()
+            row = userstore.all_accounts().get(email) if email else None
+            if row:
+                return {"kind": "hilir", "email": email, "name": row.get("name") or email,
+                        "role": row.get("role") or "user"}
         return None
     token = request.cookies.get(COOKIE, "")
     if token.startswith("v2|"):
