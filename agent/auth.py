@@ -36,8 +36,19 @@ JWKS_URL = f"{ISSUER}/jwks"
 
 @lru_cache(maxsize=1)
 def _jwks() -> PyJWKClient:
-    """One cached JWKS client per process; PyJWT refetches on an unknown kid."""
-    return PyJWKClient(JWKS_URL, cache_keys=True, lifespan=300)
+    """One cached JWKS client per process; PyJWT refetches on an unknown kid.
+
+    A plain User-Agent is required: Cloudflare's bot protection on hilir.app
+    rejects the default ``Python-urllib`` UA with 403, which used to make every
+    local verification fail and bounced sign-ins into a redirect loop
+    (2026-11-04). ``headers`` is a documented PyJWKClient parameter.
+    """
+    return PyJWKClient(
+        JWKS_URL,
+        cache_keys=True,
+        lifespan=300,
+        headers={"User-Agent": "hilir-techlib/1.0"},
+    )
 
 
 def bearer(request: Any) -> str | None:
