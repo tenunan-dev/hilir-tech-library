@@ -19,7 +19,11 @@
   "vars": {
     "API_ORIGIN": "https://techlib-api.hilir.app",
     "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app",
-    "AUDIENCE": "techlib"
+    "AUDIENCE": "techlib",
+    // Phase 4: the UI handler is now an OIDC client of the new Access.
+    "HILIR_ISSUER": "https://access-v2.hilir.app/api/auth",
+    "HILIR_CLIENT_ID": "YBUSRWpUyOKWcnrxJPITRYptIBsqtYFL",
+    "APP_ORIGIN": "https://techlib.hilir.app"
   },
   "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "36f1ee63335644608a3969baec462626" }],
   // Still used by the API handler for sk- key introspection until the Phase 4
