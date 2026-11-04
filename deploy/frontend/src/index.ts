@@ -21,6 +21,7 @@
 import {
   callback as completeLogin,
   cookieNames,
+  discover,
   login as startLogin,
   readCookies,
   refresh as refreshTokens,
@@ -143,15 +144,6 @@ async function resolveToken(
     if (user) {
       return { token: current, setCookies: [], email: jar.get("hilir.email") ?? user.email ?? null };
     }
-    console.log("resolve: access cookie present but failed verification", JSON.stringify({
-      len: current.length,
-      names: [...jar.keys()],
-    }));
-  } else {
-    console.log("resolve: no access cookie", JSON.stringify({
-      names: [...jar.keys()],
-      cookieHeader: request.headers.get("cookie") ? "present" : "absent",
-    }));
   }
 
   const refreshToken = jar.get(names.refresh);
@@ -160,15 +152,58 @@ async function resolveToken(
   if (!fresh) return { token: null, setCookies: [], email: null };
   const user = await verify(fresh.access_token, { issuer: cfg.issuer, audience: cfg.resource ?? cfg.clientId });
   if (!user) return { token: null, setCookies: [], email: null };
-  return {
-    token: fresh.access_token,
-    setCookies: tokenCookies(cfg, fresh),
-    email: jar.get("hilir.email") ?? user.email ?? null,
-  };
+  const setCookies = tokenCookies(cfg, fresh);
+  const email = jar.get("hilir.email") ?? user.email ?? null;
+  if (!email) {
+    // The identity cookie expires with the access token; refresh it too.
+    const principal = await principalFromUserinfo(env, fresh.access_token);
+    setCookies.push(...principalCookies(principal.email, principal.sub));
+    return { token: fresh.access_token, setCookies, email: principal.email };
+  }
+  return { token: fresh.access_token, setCookies, email };
 }
 
 function hasClientKey(request: Request): boolean {
   return Boolean(request.headers.get("x-api-key") || request.headers.get("authorization"));
+}
+
+/**
+ * Identity from the provider's userinfo endpoint — the documented OIDC source
+ * for the `email` scope. The access token carries scopes/aud but no email
+ * claim, and the id_token only includes claims an extension adds, so userinfo
+ * is where the caller's email actually lives.
+ */
+async function principalFromUserinfo(
+  env: Env,
+  token: string,
+): Promise<{ email: string | null; sub: string | null }> {
+  try {
+    const doc = await discover(oidcConfig(env));
+    if (!doc.userinfo_endpoint) return { email: null, sub: null };
+    const res = await fetch(doc.userinfo_endpoint, {
+      headers: { authorization: `Bearer ${token}`, accept: "application/json" },
+    });
+    if (!res.ok) return { email: null, sub: null };
+    const info = (await res.json()) as { email?: unknown; sub?: unknown };
+    return {
+      email: typeof info.email === "string" ? info.email : null,
+      sub: typeof info.sub === "string" ? info.sub : null,
+    };
+  } catch {
+    return { email: null, sub: null };
+  }
+}
+
+/** Cookies carrying the caller's identity to the container hop. */
+function principalCookies(email: string | null, sub: string | null): string[] {
+  const out: string[] = [];
+  if (email) {
+    out.push(serializeCookie({ name: "hilir.email", value: email, options: { maxAge: 900 } }));
+  }
+  if (sub) {
+    out.push(serializeCookie({ name: "hilir.sub", value: sub, options: { maxAge: 900 } }));
+  }
+  return out;
 }
 
 /** Decode a JWT's header and payload for diagnostics. Does not verify. */
@@ -231,42 +266,20 @@ export default {
           { status: 400, headers },
         );
       }
-      // TEMPORARY diagnostic (remove once sign-in is verified): log only the
-      // token's shape and registered claims — never the token itself.
-      const claims = decodeClaims(result.tokens.access_token);
-      const check = await verify(result.tokens.access_token, {
-        issuer: env.HILIR_ISSUER,
-        audience: `${env.APP_ORIGIN.replace(/\/+$/, "")}`,
-      });
-      console.log("callback token", JSON.stringify({
-        segments: result.tokens.access_token.split(".").length,
-        alg: claims.header.alg,
-        kid: claims.header.kid,
-        iss: claims.payload.iss,
-        aud: claims.payload.aud,
-        expectedIss: env.HILIR_ISSUER,
-        expectedAud: env.APP_ORIGIN,
-        verifyOk: check !== null,
-      }));
-      // Identity header: the access token carries no email claim; the id_token
-      // does. Decode it at the callback and carry it to the container
-      // (x-hilir-email), mirroring the tlea estate pattern (x-tlea-subject).
+      // Identity: userinfo is the documented source (email scope). The id_token
+      // decode below is only a fallback for providers without userinfo.
+      const principal = await principalFromUserinfo(env, result.tokens.access_token);
       const idToken = result.tokens.id_token;
-      const idClaims = idToken ? decodeClaims(idToken) : { payload: {} as Record<string, unknown> };
-      const principalCookies: string[] = [];
-      const idEmail = idClaims.payload.email;
-      const idSub = idClaims.payload.sub;
-      if (typeof idEmail === "string" && idEmail) {
-        principalCookies.push(serializeCookie({
-          name: "hilir.email", value: idEmail, options: { maxAge: 900 },
-        }));
+      let email = principal.email;
+      let sub = principal.sub;
+      if (!email && idToken) {
+        const idClaims = decodeClaims(idToken);
+        const idEmail = idClaims.payload.email;
+        const idSub = idClaims.payload.sub;
+        if (typeof idEmail === "string") email = idEmail;
+        if (typeof idSub === "string" && !sub) sub = idSub;
       }
-      if (typeof idSub === "string" && idSub) {
-        principalCookies.push(serializeCookie({
-          name: "hilir.sub", value: idSub, options: { maxAge: 900 },
-        }));
-      }
-      return redirect(safeNext(result.next), [...result.cookies, ...principalCookies]);
+      return redirect(safeNext(result.next), [...result.cookies, ...principalCookies(email, sub)]);
     }
 
     if (url.pathname === "/logout") {
