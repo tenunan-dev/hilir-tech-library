@@ -115,7 +115,7 @@ function redirect(location: string, cookies: string[] = []): Response {
 
 function clearSessionCookies(env: Env): string[] {
   const names = cookieNames(oidcConfig(env));
-  return [names.access, names.refresh, names.state, names.next].map((name) =>
+  return [names.access, names.refresh, names.idToken, names.state, names.next].map((name) =>
     serializeCookie({ name, value: "", options: { maxAge: 0 } }),
   );
 }
@@ -281,10 +281,16 @@ export default {
     if (url.pathname === "/logout") {
       // RP-Initiated Logout (OIDC): clearing our own cookies is not enough —
       // the session lives at Access on .hilir.app, so the browser must visit the
-      // provider's end-session endpoint. Without it the next request
-      // re-authenticates silently and sign-out looks broken.
+      // provider's end-session endpoint. The persisted id_token goes along as
+      // id_token_hint (RP-Initiated Logout §3): the provider then ends the
+      // matching session directly and returns here — no confirmation
+      // interstitial (its signed state cookie proved browser-fragile,
+      // 2026-11-05), and it works even when the SSO cookie is already gone.
+      // Without a stored hint the provider falls back to its confirmation page.
+      const idToken = readCookies(request).get(cookieNames(oidcConfig(env)).idToken);
       const end = await endSessionUrl(oidcConfig(env), {
         postLogoutRedirectUri: `${env.APP_ORIGIN.replace(/\/+$/, "")}/`,
+        ...(idToken ? { idTokenHint: idToken } : {}),
       });
       return redirect(end ?? "/", clearSessionCookies(env));
     }
