@@ -683,6 +683,10 @@ def _account(request: Request, key: str) -> dict | None:
             if row:
                 return {"kind": "hilir", "email": email, "name": row.get("name") or email,
                         "role": row.get("role") or "user"}
+            print(f"[auth] token verified but no account row for {email!r}", file=sys.stderr)
+        else:
+            print(f"[auth] token rejected (verifier loaded={hilir_auth is not None}, "
+                  f"shape_ok={given.count('.') == 2})", file=sys.stderr)
         return None
     token = request.cookies.get(COOKIE, "")
     if token.startswith("v2|"):
