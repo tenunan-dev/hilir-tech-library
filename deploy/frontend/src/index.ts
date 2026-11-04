@@ -79,17 +79,12 @@ async function toContainer(
   request: Request,
   env: Env,
   token?: string | null,
-  email?: string | null,
+  _email?: string | null,
 ): Promise<Response> {
   const url = new URL(request.url);
   const headers = dsnHeaders(request, env);
   const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
   headers.set("x-origin-token", env.ORIGIN_TOKEN);
-  if (email) {
-    // Estate pattern: the identity rides a trusted-edge header (like tlea's
-    // x-tlea-subject), because the access token carries no email claim.
-    headers.set("x-hilir-email", email);
-  }
   if (token) {
     // Replaces anything the browser sent: the edge decides the identity.
     headers.set("authorization", `Bearer ${token}`);
