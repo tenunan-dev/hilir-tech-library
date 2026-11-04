@@ -35,7 +35,7 @@ from starlette.routing import Route
 
 import equipment as equipment_records
 try:  # Phase 4: optional so a slim image without PyJWT still starts
-    import hilir_auth
+    import auth as hilir_auth  # agent/auth.py — token verification
 except Exception:  # noqa: BLE001 — absence only disables token auth
     hilir_auth = None
 import library
