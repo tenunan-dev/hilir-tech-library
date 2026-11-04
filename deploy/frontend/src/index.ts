@@ -22,6 +22,7 @@ import {
   callback as completeLogin,
   cookieNames,
   discover,
+  endSessionUrl,
   login as startLogin,
   readCookies,
   refresh as refreshTokens,
@@ -278,7 +279,14 @@ export default {
     }
 
     if (url.pathname === "/logout") {
-      return redirect("/", clearSessionCookies(env));
+      // RP-Initiated Logout (OIDC): clearing our own cookies is not enough —
+      // the session lives at Access on .hilir.app, so the browser must visit the
+      // provider's end-session endpoint. Without it the next request
+      // re-authenticates silently and sign-out looks broken.
+      const end = await endSessionUrl(oidcConfig(env), {
+        postLogoutRedirectUri: `${env.APP_ORIGIN.replace(/\/+$/, "")}/`,
+      });
+      return redirect(end ?? "/", clearSessionCookies(env));
     }
 
     if (isUi(url.pathname)) {
