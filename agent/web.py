@@ -679,7 +679,12 @@ def _account(request: Request, key: str) -> dict | None:
         # so removing a row revokes access exactly as it does for a v2 session.
         identity = hilir_auth.verify(given) if (hilir_auth and given.count(".") == 2) else None
         if identity:
-            email = (identity.get("email") or "").strip().lower()
+            # Identity via the edge's x-hilir-email (estate pattern, like tlea's
+            # x-tlea-subject): the access token carries no email claim, and the
+            # edge is the only caller — it cannot be reached without the origin
+            # token. The Bearer is still verified above; the row still decides
+            # the role.
+            email = (request.headers.get("x-hilir-email") or identity.get("email") or "").strip().lower()
             row = userstore.all_accounts().get(email) if email else None
             if row:
                 return {"kind": "hilir", "email": email, "name": row.get("name") or email,

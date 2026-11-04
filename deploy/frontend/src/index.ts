@@ -57,6 +57,10 @@ function oidcConfig(env: Env): OidcConfig {
     clientSecret: env.HILIR_CLIENT_SECRET,
     redirectUri: `${env.APP_ORIGIN.replace(/\/+$/, "")}/auth/callback`,
     scopes: ["openid", "profile", "email", "offline_access", "catalog:read"],
+    // Resource indicator: without it the provider returns an opaque token that
+    // cannot be verified locally (this was the sign-in loop). The identifier is
+    // the registered resource and becomes the token's `aud`.
+    resource: env.APP_ORIGIN.replace(/\/+$/, ""),
   };
 }
 
@@ -74,11 +78,17 @@ async function toContainer(
   request: Request,
   env: Env,
   token?: string | null,
+  email?: string | null,
 ): Promise<Response> {
   const url = new URL(request.url);
   const headers = dsnHeaders(request, env);
   const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
   headers.set("x-origin-token", env.ORIGIN_TOKEN);
+  if (email) {
+    // Estate pattern: the identity rides a trusted-edge header (like tlea's
+    // x-tlea-subject), because the access token carries no email claim.
+    headers.set("x-hilir-email", email);
+  }
   if (token) {
     // Replaces anything the browser sent: the edge decides the identity.
     headers.set("authorization", `Bearer ${token}`);
@@ -122,28 +132,58 @@ function clearSessionCookies(env: Env): string[] {
 async function resolveToken(
   request: Request,
   env: Env,
-): Promise<{ token: string | null; setCookies: string[] }> {
+): Promise<{ token: string | null; setCookies: string[]; email: string | null }> {
   const cfg = oidcConfig(env);
   const names = cookieNames(cfg);
   const jar = readCookies(request);
 
   const current = jar.get(names.access);
   if (current) {
-    const user = await verify(current, { issuer: cfg.issuer, audience: cfg.clientId });
-    if (user) return { token: current, setCookies: [] };
+    const user = await verify(current, { issuer: cfg.issuer, audience: cfg.resource ?? cfg.clientId });
+    if (user) {
+      return { token: current, setCookies: [], email: jar.get("hilir.email") ?? user.email ?? null };
+    }
+    console.log("resolve: access cookie present but failed verification", JSON.stringify({
+      len: current.length,
+      names: [...jar.keys()],
+    }));
+  } else {
+    console.log("resolve: no access cookie", JSON.stringify({
+      names: [...jar.keys()],
+      cookieHeader: request.headers.get("cookie") ? "present" : "absent",
+    }));
   }
 
   const refreshToken = jar.get(names.refresh);
-  if (!refreshToken) return { token: null, setCookies: [] };
+  if (!refreshToken) return { token: null, setCookies: [], email: null };
   const fresh = await refreshTokens(cfg, refreshToken);
-  if (!fresh) return { token: null, setCookies: [] };
-  const user = await verify(fresh.access_token, { issuer: cfg.issuer, audience: cfg.clientId });
-  if (!user) return { token: null, setCookies: [] };
-  return { token: fresh.access_token, setCookies: tokenCookies(cfg, fresh) };
+  if (!fresh) return { token: null, setCookies: [], email: null };
+  const user = await verify(fresh.access_token, { issuer: cfg.issuer, audience: cfg.resource ?? cfg.clientId });
+  if (!user) return { token: null, setCookies: [], email: null };
+  return {
+    token: fresh.access_token,
+    setCookies: tokenCookies(cfg, fresh),
+    email: jar.get("hilir.email") ?? user.email ?? null,
+  };
 }
 
 function hasClientKey(request: Request): boolean {
   return Boolean(request.headers.get("x-api-key") || request.headers.get("authorization"));
+}
+
+/** Decode a JWT's header and payload for diagnostics. Does not verify. */
+function decodeClaims(token: string): { header: Record<string, unknown>; payload: Record<string, unknown> } {
+  const parts = token.split(".");
+  const decode = (part: string | undefined): Record<string, unknown> => {
+    if (!part) return {};
+    try {
+      const b64 = part.replace(/-/g, "+").replace(/_/g, "/") + "=".repeat((4 - (part.length % 4)) % 4);
+      return JSON.parse(atob(b64)) as Record<string, unknown>;
+    } catch {
+      return {};
+    }
+  };
+  return { header: decode(parts[0]), payload: decode(parts[1]) };
 }
 
 export default {
@@ -179,9 +219,54 @@ export default {
     if (url.pathname === "/auth/callback") {
       const result = await completeLogin(oidcConfig(env), url, request);
       if (!result.ok) {
-        return redirect(`/login?error=${encodeURIComponent(result.error)}`, result.cookies);
+        // Show the reason instead of bouncing to /login: a silent bounce turns a
+        // single failure into an endless sign-in loop (seen 2026-11-04 in Safari).
+        const headers = new Headers({ "content-type": "text/html; charset=utf-8", "cache-control": "no-store" });
+        for (const cookie of result.cookies) headers.append("set-cookie", cookie);
+        return new Response(
+          `<!doctype html><meta charset="utf-8"><title>Sign-in failed</title>` +
+            `<body style="font:16px/1.6 system-ui,sans-serif;max-width:36em;margin:15vh auto;padding:0 24px">` +
+            `<h1>Sign-in failed</h1><p><code>${result.error}</code></p>` +
+            `<p><a href="/login?classic=1">Sign in with the library key</a></p></body>`,
+          { status: 400, headers },
+        );
       }
-      return redirect(safeNext(result.next), result.cookies);
+      // TEMPORARY diagnostic (remove once sign-in is verified): log only the
+      // token's shape and registered claims — never the token itself.
+      const claims = decodeClaims(result.tokens.access_token);
+      const check = await verify(result.tokens.access_token, {
+        issuer: env.HILIR_ISSUER,
+        audience: `${env.APP_ORIGIN.replace(/\/+$/, "")}`,
+      });
+      console.log("callback token", JSON.stringify({
+        segments: result.tokens.access_token.split(".").length,
+        alg: claims.header.alg,
+        kid: claims.header.kid,
+        iss: claims.payload.iss,
+        aud: claims.payload.aud,
+        expectedIss: env.HILIR_ISSUER,
+        expectedAud: env.APP_ORIGIN,
+        verifyOk: check !== null,
+      }));
+      // Identity header: the access token carries no email claim; the id_token
+      // does. Decode it at the callback and carry it to the container
+      // (x-hilir-email), mirroring the tlea estate pattern (x-tlea-subject).
+      const idToken = result.tokens.id_token;
+      const idClaims = idToken ? decodeClaims(idToken) : { payload: {} as Record<string, unknown> };
+      const principalCookies: string[] = [];
+      const idEmail = idClaims.payload.email;
+      const idSub = idClaims.payload.sub;
+      if (typeof idEmail === "string" && idEmail) {
+        principalCookies.push(serializeCookie({
+          name: "hilir.email", value: idEmail, options: { maxAge: 900 },
+        }));
+      }
+      if (typeof idSub === "string" && idSub) {
+        principalCookies.push(serializeCookie({
+          name: "hilir.sub", value: idSub, options: { maxAge: 900 },
+        }));
+      }
+      return redirect(safeNext(result.next), [...result.cookies, ...principalCookies]);
     }
 
     if (url.pathname === "/logout") {
@@ -189,12 +274,12 @@ export default {
     }
 
     if (isUi(url.pathname)) {
-      const { token, setCookies } = await resolveToken(request, env);
+      const { token, setCookies, email } = await resolveToken(request, env);
       if (!token) {
         const next = `${url.pathname}${url.search}`;
         return redirect(`/login?next=${encodeURIComponent(next)}`);
       }
-      return withCookies(await toContainer(request, env, token), setCookies);
+      return withCookies(await toContainer(request, env, token, email), setCookies);
     }
 
     return Response.json(
