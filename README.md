@@ -69,7 +69,7 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 - Simplest: load `catalog/catalog.jsonl` and filter by `sectors`, `disciplines`, `regions` or `reuse_level`.
 - For browsing or a Claude Project: attach `catalog/index/*.md`.
 - Search and retrieval: run the MCP server in `agent/` — 12 tools for search and reading, technology cards, gaps, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window over the Postgres layer — optionally with embeddings for semantic search.
-- Cloud agents and browsers: https://techlib.hilir.app serves the same tools at `/mcp` (API key header), a REST API under `/api`, and an HTML interface where you sign in with the key. See [docs/HOSTING.md](docs/HOSTING.md).
+- Cloud agents and browsers: https://techlib.hilir.app serves the same tools at `/mcp`, a REST API under `/api`, and an HTML interface — all behind **hilir Access**. Browsers sign in at `https://access.hilir.app`; machines send `Authorization: Bearer <hilir Access access token>` with `aud = https://techlib.hilir.app`. There is no library key any more (Phase 4, 2026-11-05). See [docs/HOSTING.md](docs/HOSTING.md).
 - Always cite `url`. `licence` and `reuse_level` are recorded labels the owner weighs when deciding what to include.
 
 ## Adding or changing a source
@@ -82,5 +82,5 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 1. **Catalog (done):** taxonomy, schema, 348 records, generated indexes.
 2. **Verification and corpus (ongoing):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
-3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 12 tools, a REST API and an HTML interface, hosted on Cloudflare at https://techlib.hilir.app (open-licence text only, behind an API key).
+3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 12 tools, a REST API and an HTML interface, hosted on Cloudflare at https://techlib.hilir.app (open-licence text only, behind hilir Access sign-in).
 4. **Postgres layer (done):** pgvector, full-text search and a knowledge graph on Neon, reloaded from the files by `tools/load_postgres.py` and queried read-only by agents (`sql_query`) and the web console as role `og_mcp_read`. See [docs/POSTGRES.md](docs/POSTGRES.md).
