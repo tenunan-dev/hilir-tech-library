@@ -21,7 +21,7 @@
     "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app",
     "AUDIENCE": "https://techlib.hilir.app",
     // Phase 4: the UI handler is now an OIDC client of the new Access.
-    "HILIR_ISSUER": "https://access-v2.hilir.app/api/auth",
+    "HILIR_ISSUER": "https://access.hilir.app/api/auth",
     "HILIR_CLIENT_ID": "YBUSRWpUyOKWcnrxJPITRYptIBsqtYFL",
     "APP_ORIGIN": "https://techlib.hilir.app",
     "REQUIRED_SCOPE": "catalog:read"
