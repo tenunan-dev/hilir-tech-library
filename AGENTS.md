@@ -1,5 +1,25 @@
 # AGENTS.md
 
+### Current estate state (2026-11-06) — read before planning anything
+
+- Auth: hilir Access (`access.hilir.app`). Browser = OIDC PKCE (client `techlib` at the edge);
+  the API/MCP door (`techlib-api.hilir.app`, worker `og-tech-library-api`) accepts an Access
+  JWT (aud = registered origins `https://techlib.hilir.app` /
+  `https://techlib-api.hilir.app`) or a person's estate key, introspected at Access
+  (RFC 7662) with the **techlib-api** client. Headers: `Authorization: Bearer` or
+  `x-api-key` (re-attached as Bearer for the container hop). Scopes are the boundary
+  (`docs/AUTH.md`).
+- MCP: `POST https://techlib-api.hilir.app/mcp` (stateless; PRM anonymous). REST: `/api/*`.
+- Publish: **docs/HOSTING.md** (current-state section at the top) — three workers via wrangler
+  (deploy/edge, deploy/frontend, deploy/backend); containers via CI `images` workflow →
+  VPS `/srv/hilir/techlib` `docker compose pull && up -d`.
+- VPS: both containers run at `/srv/hilir/techlib` on 15.235.248.33 behind Caddy + tunnel.
+- The dead `LibraryApi` Durable Object and the sk-/ACCESS-binding design are deleted; the
+  stale tests were replaced by `deploy/backend/tests/machine-gate.test.ts`.
+- Do not touch auth internals, DNS, or application content without an explicit owner ask.
+  Estate record: `hilir-access/docs/STATUS.md`.
+
+
 Instructions for any AI agent (Claude, Codex, Gemini, Copilot, Cursor or others) and any person
 working in this repository. Read this file first, then the document that matches your task.
 
