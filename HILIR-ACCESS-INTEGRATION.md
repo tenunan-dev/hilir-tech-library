@@ -1,3 +1,10 @@
+<!-- CURRENT STATE — 2026-11-05 (Phase 4 cutover). The body below is HISTORICAL:
+     it describes the retired design (old access.hilir.app, sk- keys, service-binding
+     introspection, container login). It is kept for history and must not be followed. -->
+
+> **Current auth for this app (verified 2026-11-05):** browsers sign in at **https://access.hilir.app** through `techlib-edge` (OIDC code + PKCE + resource indicator); the edge forwards the bearer to the container, which verifies it locally (EdDSA via `PyJWT` + the issuer's JWKS) and reads the role from the Neon `library.account` row. Machine callers send a hilir Access access token with `aud = https://techlib.hilir.app`, scope `catalog:read`. **No library key, no `LIBRARY_USERS`, no container login.** Sign-out is RP-Initiated Logout. Config: `HILIR_ISSUER=https://access.hilir.app/api/auth`, `HILIR_CLIENT_ID` (opaque), `HILIR_CLIENT_SECRET` (edge secret), `APP_ORIGIN`, `AUDIENCE=https://techlib.hilir.app`, `REQUIRED_SCOPE=catalog:read`.
+> Authoritative record: `hilir-access/docs/STATUS.md`.
+
 # techlib × hilir Access — Integration Instructions
 
 > **⚠️ Superseded (2026-11-04).** techlib no longer uses API keys, introspection

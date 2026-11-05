@@ -1,3 +1,10 @@
+<!-- CURRENT STATE — 2026-11-05 (Phase 4 cutover). The body below is HISTORICAL:
+     it describes the retired design (old access.hilir.app, sk- keys, service-binding
+     introspection, container login). It is kept for history and must not be followed. -->
+
+> **Current auth for this app (verified 2026-11-05):** **Authentication is no longer `LIBRARY_API_KEY`.** Browsers sign in at **https://access.hilir.app** via `techlib-edge`; the container verifies the forwarded bearer locally (EdDSA/JWKS) and reads roles from the Neon account row. `LIBRARY_API_KEY`, `LIBRARY_USERS`, the container's own `/login` and the edge's `?classic=1` path were deleted on 2026-11-05 — the `LIBRARY_API_KEY` steps below are historical. The container's remaining config is `USER_STORE_URL`, `DATABASE_URL`, `HILIR_ISSUER`, `HILIR_AUDIENCE`.
+> Authoritative record: `hilir-access/docs/STATUS.md`.
+
 # Hosting the library for agents that connect by URL
 
 Agents that run in the cloud (Microsoft Copilot Studio, claude.ai connectors, other hosted
