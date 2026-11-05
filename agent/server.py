@@ -304,7 +304,9 @@ class RequireHilirToken:
             userstore.set_dsn_from_header(dsn.decode("utf-8", "replace") if dsn is not None else None)
             raw = headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
             token = raw.decode("utf-8", "replace")
-            if hilir_auth is None or token.count(".") != 2 or hilir_auth.verify(token) is None:
+            # verify() accepts BOTH credentials: a JWT (local JWKS check) and
+            # a person's opaque key (RFC 7662 introspection at Access).
+            if hilir_auth is None or hilir_auth.verify(token) is None:
                 # RFC 9728 §5.1 + RFC 6750 §3.1: the 401 names the protected-
                 # resource metadata (so MCP clients can discover Access) and
                 # adds error="invalid_token" only when a bearer was presented.

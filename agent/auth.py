@@ -20,6 +20,7 @@ Environment:
 
 from __future__ import annotations
 
+import base64
 import hashlib
 import os
 import time
@@ -79,8 +80,95 @@ def bearer(request: Any) -> str | None:
     return token or None
 
 
+def _looks_like_jwt(token: str) -> bool:
+    """An access token is a three-segment JWT; a person's key is opaque."""
+    return token.count(".") == 2
+
+
+# --- person-key verification (RFC 7662 introspection) -----------------------
+
+INTROSPECT_URL = os.environ.get(
+    "HILIR_INTROSPECT_URL", f"{ISSUER.rsplit('/api/auth', 1)[0]}/api/v2-introspect"
+)
+HILIR_CLIENT_ID = os.environ.get("HILIR_CLIENT_ID", "").strip()
+HILIR_CLIENT_SECRET = os.environ.get("HILIR_CLIENT_SECRET", "").strip()
+
+_KEY_CACHE: dict[str, tuple[float, dict[str, Any] | None]] = {}
+_KEY_CACHE_TTL_S = 60.0
+_KEY_CACHE_MAX = 1024
+
+
+def _form_encode(value: str) -> str:
+    """RFC 6749 §2.3.1 / Appendix B encoding for one half of a Basic credential."""
+    out = []
+    for ch in value:
+        if ch == " ":
+            out.append("+")
+        elif ch.isalnum() or ch in "-._~":
+            out.append(ch)
+        else:
+            out.append(f"%{ord(ch):02X}")
+    return "".join(out)
+
+
+def _introspect_key(token: str) -> dict[str, Any] | None:
+    """Verify a person's opaque key at Access (RFC 7662) with this app's own
+    client credentials. Cached briefly by token hash; an unreachable verifier
+    or a non-200 is fail-closed (None), never a fabricated identity."""
+    if not HILIR_CLIENT_ID or not HILIR_CLIENT_SECRET:
+        return None
+    cache_key = hashlib.sha256(token.encode()).hexdigest()
+    now = time.time()
+    cached = _KEY_CACHE.get(cache_key)
+    if cached and cached[0] > now:
+        return cached[1]
+
+    result: dict[str, Any] | None = None
+    try:
+        response = requests.post(
+            INTROSPECT_URL,
+            data={"token": token},
+            headers={
+                "authorization": "Basic "
+                + base64.b64encode(
+                    f"{_form_encode(HILIR_CLIENT_ID)}:{_form_encode(HILIR_CLIENT_SECRET)}".encode()
+                ).decode(),
+                "content-type": "application/x-www-form-urlencoded",
+                "user-agent": _UA,
+            },
+            timeout=5,
+        )
+    except Exception:  # noqa: BLE001 — verifier unreachable = fail closed
+        return None
+    if response.status_code == 200:
+        try:
+            body = response.json()
+        except ValueError:
+            body = {}
+        if isinstance(body, dict) and body.get("active") is True:
+            scopes = str(body.get("scope") or "").split()
+            result = {
+                "email": None,
+                "sub": body.get("sub") or "agent-key",
+                "scopes": scopes,
+                "claims": {"sub": body.get("sub"), "scope": scopes},
+            }
+
+    if len(_KEY_CACHE) > _KEY_CACHE_MAX:
+        _KEY_CACHE.clear()
+    _KEY_CACHE[cache_key] = (now + _KEY_CACHE_TTL_S, result)
+    return result
+
+
 def verify(token: str) -> dict[str, Any] | None:
-    """Claims for a valid token, else None. Never raises, never logs the token."""
+    """Claims for a valid token or key, else None. Never raises, never logs
+    the token. Two credentials, one identity shape:
+    - an access token (JWT): verified locally against the issuer's JWKS;
+    - a person's opaque key: introspected at Access (RFC 7662), because an
+      opaque record cannot be verified offline. Roles still come from the
+      account row for token callers; a key caller is the owning account."""
+    if not _looks_like_jwt(token):
+        return _introspect_key(token)
     try:
         signing_key = _jwks().get_signing_key_from_jwt(token).key
         claims = jwt.decode(

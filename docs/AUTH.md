@@ -47,6 +47,7 @@ browser ──/login──▶ techlib-edge ──303──▶ https://access.hil
 | `REQUIRED_SCOPE` | API worker var | `catalog:read` |
 | `USER_STORE_URL` | edge var → header | Neon DSN; roles live in `library.account` |
 | `HILIR_AUDIENCE` | container env | comma list, same two origins (PyJWT accepts a list; default in `agent/auth.py`) |
+| `HILIR_CLIENT_ID` / `HILIR_CLIENT_SECRET` | container env (VPS `.env`) | the **techlib-api** client — used ONLY to introspect a person's opaque key at `POST /api/v2-introspect` (RFC 7662); without them keys fail closed |
 
 ## Verify after any change (copy-paste)
 
@@ -130,3 +131,14 @@ send it to the person. This app's own role (its `library.account.role`) is still
   browser-login client never authenticates introspection.
 - `tests/authz.test.ts` / `tests/hilir-auth.test.ts` were stale (imported the
   deleted `src/authz.ts`) and are replaced by `tests/machine-gate.test.ts`.
+
+### Key acceptance in the container (2026-11-06)
+
+The edge accepts a person's key, then forwards the bearer — an **opaque**
+string — to this container. `agent/auth.py verify()` now resolves BOTH
+credentials to one identity shape: JWTs locally via JWKS; opaque keys via
+RFC 7662 introspection at Access using the `techlib-api` client credentials
+(cached 60 s by token hash, fail-closed on any verifier error). Before this,
+the container's gate required a 3-segment JWT, so a valid key was accepted by
+the Worker and then rejected one hop later — that was the "existing
+copilot-techlib key 401s on techlib" report.
