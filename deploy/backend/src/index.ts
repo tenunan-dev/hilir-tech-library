@@ -16,6 +16,7 @@
 import {
   bearerToken,
   PROTECTED_RESOURCE_METADATA_PATH,
+  protectedResourceMetadata,
   verify,
   keyHasScope,
   looksLikeAgentKey,
@@ -71,6 +72,16 @@ function jsonError(status: number, body: Record<string, unknown>, request?: Requ
       ...(status === 401 ? { "www-authenticate": challenge } : {}),
     },
   });
+}
+
+/** The AS pointer the PRM advertises: the issuer, with a staging fallback. */
+function oidcConfigFrom(env: Env) {
+  return {
+    issuer: env.HILIR_ISSUER,
+    clientId: env.HILIR_CLIENT_ID ?? "",
+    clientSecret: "",
+    redirectUri: "",
+  };
 }
 
 /**
@@ -164,6 +175,14 @@ export default {
     }
     if (url.pathname === "/api/openapi.json") {
       return toContainer(request, env);
+    }
+    // RFC 9728 §3: the discovery document is how an UNAUTHENTICATED client
+    // finds Access — it must be reachable anonymously, or the 401 challenge
+    // names a URL that itself 401s (a discovery loop).
+    if (url.pathname === PROTECTED_RESOURCE_METADATA_PATH) {
+      return Response.json(
+        protectedResourceMetadata(oidcConfigFrom(env), { resource: url.origin, scopes: ["catalog:read"], documentation: `${url.origin}/` }),
+      );
     }
     const denied = await machineGate(request, env);
     if (denied) return denied;
