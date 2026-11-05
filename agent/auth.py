@@ -12,7 +12,10 @@ The container's own login/users/key machinery was deleted in step 3
 
 Environment:
   HILIR_ISSUER    default https://access.hilir.app/api/auth
-  HILIR_AUDIENCE  default techlib
+  HILIR_AUDIENCE  comma-separated registered RFC 8707 resource origins whose
+                  tokens this service accepts. Default covers the UI origin
+                  (the edge forwards the browser session's token) and this API
+                  host's own origin (direct MCP clients). NEVER a client name.
 """
 
 from __future__ import annotations
@@ -29,7 +32,16 @@ import requests
 from jwt import PyJWKClient
 
 ISSUER = os.environ.get("HILIR_ISSUER", "https://access.hilir.app/api/auth").rstrip("/")
-AUDIENCE = os.environ.get("HILIR_AUDIENCE", "techlib")
+# Comma-separated resource origins; PyJWT accepts an iterable audience and
+# requires the token's aud to match ONE of them (RFC 8707).
+AUDIENCES = [
+    a.strip()
+    for a in os.environ.get(
+        "HILIR_AUDIENCE",
+        "https://techlib.hilir.app,https://techlib-api.hilir.app",
+    ).split(",")
+    if a.strip()
+]
 JWKS_URL = f"{ISSUER}/jwks"
 USERINFO_URL = os.environ.get("HILIR_USERINFO_URL", f"{ISSUER}/oauth2/userinfo")
 _UA = "hilir-techlib/1.0"
@@ -75,7 +87,7 @@ def verify(token: str) -> dict[str, Any] | None:
             token,
             signing_key,
             algorithms=["EdDSA"],
-            audience=AUDIENCE,
+            audience=AUDIENCES,
             issuer=ISSUER,
             options={"require": ["exp", "iss", "aud", "sub"]},
         )

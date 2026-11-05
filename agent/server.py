@@ -33,6 +33,10 @@ import technologies  # noqa: E402
 import userstore  # noqa: E402
 import web  # noqa: E402
 
+# The PUBLIC origin of this API (RFC 9728 metadata must name it, not the Caddy
+# tunnel upstream that appears in the proxied Host header).
+MCP_PUBLIC_ORIGIN = os.environ.get("LIBRARY_MCP_ORIGIN", "https://techlib-api.hilir.app")
+
 try:
     from mcp.server.mcpserver import MCPServer as Server
 except ImportError:  # mcp 1.x
@@ -301,8 +305,20 @@ class RequireHilirToken:
             raw = headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
             token = raw.decode("utf-8", "replace")
             if hilir_auth is None or token.count(".") != 2 or hilir_auth.verify(token) is None:
+                # RFC 9728 §5.1 + RFC 6750 §3.1: the 401 names the protected-
+                # resource metadata (so MCP clients can discover Access) and
+                # adds error="invalid_token" only when a bearer was presented.
+                # The public MCP origin is pinned by config, not the Host header
+                # (the tunnel Host is the Caddy upstream name).
+                presented = bool(raw)
+                challenge = ", ".join([
+                    'Bearer resource_metadata="%s/.well-known/oauth-protected-resource"'
+                    % MCP_PUBLIC_ORIGIN.rstrip("/"),
+                    *(['error="invalid_token"'] if presented else []),
+                ])
                 await send({"type": "http.response.start", "status": 401,
-                            "headers": [(b"content-type", b"application/json")]})
+                            "headers": [(b"content-type", b"application/json"),
+                                        (b"www-authenticate", challenge.encode())]})
                 await send({"type": "http.response.body", "body": b'{"error": "missing or invalid token"}'})
                 return
         await self.app(scope, receive, send)
