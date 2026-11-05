@@ -3,6 +3,27 @@
 Instructions for any AI agent (Claude, Codex, Gemini, Copilot, Cursor or others) and any person
 working in this repository. Read this file first, then the document that matches your task.
 
+## ⚠️ AUTH IS LOAD-BEARING — read `docs/AUTH.md` before touching anything auth-related
+
+Sign-in is **hilir Access** (`https://access.hilir.app`); this repo is an OIDC client that
+verifies access tokens locally. **Do not add, restore or "simplify" any of these — each was
+deliberately deleted on 2026-11-05 and each broke production when present:**
+
+- a library key / `LIBRARY_API_KEY` / `LIBRARY_USERS`, the container's `/login`, or the edge's
+  `?classic=1` path (Access is the only door);
+- a password, session or key store of any kind in this repo;
+- identity from a header (`x-hilir-email` is gone) — identity comes from the provider's
+  userinfo endpoint;
+- an audience of `techlib` (the name) — tokens carry `aud = https://techlib.hilir.app`
+  (the registered **resource**);
+- a body-form client secret (the client is registered `client_secret_basic`);
+- a form-POST sign-out, or cookie-clearing-only sign-out (sign-out is a browser navigation to
+  the provider's end-session endpoint).
+
+If a task seems to need any of the above, stop and say so instead of implementing it.
+Verification commands and failure signatures: **`docs/AUTH.md`**. Estate-wide authority:
+`hilir-access/docs/STATUS.md` (FINAL STATE).
+
 ## What this repository is
 
 A library of public sources on oil, gas, petrochemical and energy technologies, built for AI
