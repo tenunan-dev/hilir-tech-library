@@ -91,7 +91,9 @@ function oidcConfigFrom(env: Env) {
  */
 async function machineGate(request: Request, env: Env): Promise<Response | null> {
   const path = new URL(request.url).pathname;
-  const token = bearerToken(request);
+  // Authorization bearer, or the estate's x-api-key (Power Automate API-Key
+  // connectors send this shape). bearerToken() in hilir-auth ≥0.5.2 has it.
+  const token = bearerToken(request) ?? (request.headers.get("x-api-key") || null);
   if (!token) {
     console.log(JSON.stringify({ event: "denied", actor: null, status: 401, reason: "unauthenticated", path }));
     return jsonError(401, { error: "unauthorized" }, request);
@@ -149,6 +151,13 @@ function storeDsnHeaders(request: Request, env: Env): Headers {
   // the only credential (machineGate already checked iss/aud/scope; the
   // container verifies it again and resolves the role row). No API keys exist.
   headers.delete("x-api-key");
+  // The container's bearer() reads only the Authorization header, so a key
+  // that arrived in the estate's x-api-key header (Power Automate API-Key
+  // shape) is re-attached as Bearer here — machineGate has already verified it.
+  if (!headers.get("authorization")) {
+    const presented = request.headers.get("x-api-key");
+    if (presented) headers.set("authorization", `Bearer ${presented.trim()}`);
+  }
   return headers;
 }
 
