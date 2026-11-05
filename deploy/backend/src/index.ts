@@ -40,19 +40,29 @@ interface Env {
   LIBRARY_ORIGIN: string; // tunnel origin serving the VPS containers, e.g. https://techlib-origin.hilir.app (wrangler var)
 }
 
+/**
+ * The RFC 9728 §5.1 challenge with the RFC 6750 §3.1 conditional: an
+ * error="invalid_token" member ONLY when a credential was presented.
+ */
+export function bearerChallenge(origin: string, presented: boolean): string {
+  return [
+    `Bearer resource_metadata="${origin.replace(/\/+$/, "")}${PROTECTED_RESOURCE_METADATA_PATH}"`,
+    ...(presented ? ['error="invalid_token"'] : []),
+  ].join(", ");
+}
+
+/** AUDIENCE is a comma-separated list of registered resource origins. */
+export function parseAudiences(value: string): string[] {
+  return value.split(",").map((a) => a.trim()).filter(Boolean);
+}
+
 function jsonError(status: number, body: Record<string, unknown>, request?: Request): Response {
-  // RFC 9728 §5.1: a 401 from an MCP server names its protected-resource
-  // metadata so OAuth-capable agents can discover Access on their own.
-  // RFC 6750 §3.1: if a credential WAS presented and rejected, the challenge
-  // also names the error; if none was presented, it must not.
   let challenge = "Bearer";
   if (request) {
-    const origin = new URL(request.url).origin;
-    const presented = Boolean(request.headers.get("authorization"));
-    challenge = [
-      `Bearer resource_metadata="${origin}${PROTECTED_RESOURCE_METADATA_PATH}"`,
-      ...(presented ? ['error="invalid_token"'] : []),
-    ].join(", ");
+    challenge = bearerChallenge(
+      new URL(request.url).origin,
+      Boolean(request.headers.get("authorization")),
+    );
   }
   return new Response(JSON.stringify(body), {
     status,
@@ -102,7 +112,7 @@ async function machineGate(request: Request, env: Env): Promise<Response | null>
   }
   // Audiences are the registered resource origins (comma-separated AUDIENCE);
   // any one matching validates the token (RFC 8707 — aud is an origin).
-  const audiences = env.AUDIENCE.split(",").map((a) => a.trim()).filter(Boolean);
+  const audiences = parseAudiences(env.AUDIENCE);
   let user: Awaited<ReturnType<typeof verify>> = null;
   for (const audience of audiences) {
     user = await verify(token, { issuer: env.HILIR_ISSUER, audience });

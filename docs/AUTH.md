@@ -43,10 +43,10 @@ browser ──/login──▶ techlib-edge ──303──▶ https://access.hil
 | `HILIR_CLIENT_ID` | edge var | opaque id (`YBUSRWpUyOKWcnrxJPITRYptIBsqtYFL`) — **never** the name `techlib` |
 | `HILIR_CLIENT_SECRET` | edge **secret** | confidential client; sent as `Authorization: Basic` |
 | `APP_ORIGIN` | edge var | `https://techlib.hilir.app` — also the token's `aud` |
-| `AUDIENCE` | API worker var | `https://techlib.hilir.app` (a **resource URL**, not the client id) |
+| `AUDIENCE` | API worker var | comma list: `https://techlib.hilir.app,https://techlib-api.hilir.app` (registered **resource origins**, never a client name) |
 | `REQUIRED_SCOPE` | API worker var | `catalog:read` |
 | `USER_STORE_URL` | edge var → header | Neon DSN; roles live in `library.account` |
-| `HILIR_AUDIENCE` | container env | `https://techlib.hilir.app` |
+| `HILIR_AUDIENCE` | container env | comma list, same two origins (PyJWT accepts a list; default in `agent/auth.py`) |
 
 ## Verify after any change (copy-paste)
 
@@ -115,3 +115,18 @@ send it to the person. This app's own role (its `library.account.role`) is still
 | Sign-in loops back to `/login` | local verify failing — check `iss`, `aud`, `alg=EdDSA`, and the token actually being a JWT |
 | Signed in but "no account" | the person's email has no row in `library.account` (roles are store-driven) |
 | "Logout error — confirmation invalid or expired" | the CSP `form-action` rewrite in the Access worker is missing |
+
+## Audit applied (2026-11-05/06)
+
+- The API Worker now accepts **both registered resource origins** (UI origin
+  for tokens forwarded by the frontend, API origin for direct MCP clients).
+  Bare client names are never audiences.
+- The container's 401 carries the RFC 9728 challenge
+  (`resource_metadata` pinned by `LIBRARY_MCP_ORIGIN`, default
+  `https://techlib-api.hilir.app`), with `error="invalid_token"` only when a
+  bearer was presented.
+- The introspection client is the dedicated **techlib-api** registration
+  (client_credentials only, `catalog:read`) — one credential per role; the
+  browser-login client never authenticates introspection.
+- `tests/authz.test.ts` / `tests/hilir-auth.test.ts` were stale (imported the
+  deleted `src/authz.ts`) and are replaced by `tests/machine-gate.test.ts`.
