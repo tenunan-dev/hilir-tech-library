@@ -855,7 +855,9 @@ document.querySelectorAll('a[href^="http"]').forEach(function (a) {{
 }});
 </script>
 </body>
-</html>""")
+</html>""", headers={"cache-control": "no-store"})
+    # Auth-dependent page: never cached — a stale copy renders the signed-out
+    # chrome (and dead controls) even when the session is valid (2026-11-05).
 
 
 def _not_found(message="Nothing is served at this address.") -> HTMLResponse:
