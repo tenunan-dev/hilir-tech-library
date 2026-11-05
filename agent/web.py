@@ -164,7 +164,8 @@ textarea { width: 100%; font-family: ui-monospace, Menlo, monospace; font-size: 
 button { background: #0e2033; color: #fff; border: 1px solid #0e2033; border-radius: 6px;
          padding: .3rem .8rem; cursor: pointer; }
 button:hover { background: #1c3350; }
-button.ghost { background: transparent; border-color: #3d5a78; color: #c8d6e5; }
+button.ghost, a.ghost { background: transparent; border-color: #3d5a78; color: #c8d6e5; }
+a.ghost { text-decoration: none; padding: 0.35rem 0.8rem; }
 button.example { background: #eef1f4; color: #1c2733; border-color: #d9dee3; font-size: .8rem; }
 label.check { display: inline-flex; gap: .25rem; align-items: center; font-size: .8rem; margin-right: .6rem; }
 details { margin: .25rem 0; }
@@ -836,7 +837,7 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 <a class="brand" href="/">HILIR Technology Library</a>
 <nav>{nav}</nav>
 <form action="/search" method="get"><input type="search" name="q" value="{esc(q)}" placeholder="Search the library" aria-label="Search"><button type="submit">Search</button></form>
-<form action="/logout" method="post"><button type="submit" class="ghost">Sign out</button></form>
+<a class="ghost" href="/logout">Sign out</a>
 </div></header>
 {tabs}
 <main class="container">
