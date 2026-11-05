@@ -24,6 +24,9 @@ Headers between Worker and container: `x-origin-token` (Caddy gate), `x-user-sto
 - REST: `/api/search`, `/api/technologies`, `/api/vendors`, `/api/equipment`, `/api/stats`, …
   (full list: `https://techlib-api.hilir.app/api/openapi.json`).
 - Power Automate connector: `https://access.hilir.app/connectors/techlib.swagger.json`.
+- Estate keys are **unlimited by design** (the apiKey plugin's silent 10/day default denied
+  real agents after one session — fixed 2026-11-06 at Access). Headers accepted:
+  `Authorization: Bearer <key>` and `x-api-key: <key>`.
 
 ## How to publish
 
