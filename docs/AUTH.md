@@ -80,6 +80,10 @@ from `library.account`.
 Becoming admin: the owner sets `role = admin` on the person's row on
 `/admin` (or the row is created that way).
 
+**People are created at `https://access.hilir.app/admin/users`** (admin only):
+email + name + roles (a comma-separated list). The password is shown once —
+send it to the person. This app's own role (its `library.account.role`) is still set on techlib's `/admin`: creating the Access account does not create the app row.
+
 ## Do not (each of these broke production once)
 
 1. **Do not reintroduce a key or password login.** The library key, `LIBRARY_USERS`,
