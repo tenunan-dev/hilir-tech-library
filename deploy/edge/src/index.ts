@@ -24,6 +24,7 @@
 
 import api from "../../backend/src/index";
 import ui from "../../frontend/src/index";
+import { PROTECTED_RESOURCE_METADATA_PATH, protectedResourceMetadata } from "@tenunan-dev/hilir-auth";
 
 /** Union of both workers' bindings — each handler reads only what it knows. */
 type Env = Parameters<typeof ui.fetch>[1] & Parameters<typeof api.fetch>[1];
@@ -38,6 +39,18 @@ function isApiPath(pathname: string): boolean {
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+
+    // RFC 9728: this MCP server's protected-resource metadata, served on BOTH
+    // hostnames (each names itself as the resource, i.e. the token audience).
+    if (url.pathname === PROTECTED_RESOURCE_METADATA_PATH) {
+      return Response.json(
+        protectedResourceMetadata(
+          { issuer: (env as { HILIR_ISSUER?: string }).HILIR_ISSUER ?? "", clientId: "", redirectUri: "" },
+          { resource: url.origin, scopes: ["catalog:read"], documentation: `${url.origin}/` },
+        ),
+      );
+    }
+
     // A request that arrived on the API hostname is API traffic by definition,
     // whatever its path — that keeps every existing machine client working.
     const chosen = url.hostname === API_HOST || isApiPath(url.pathname) ? api : ui;

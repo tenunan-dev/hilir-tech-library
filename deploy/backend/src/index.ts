@@ -13,7 +13,7 @@
 // Forwarding form: requests reach the container as <method> https://library.internal<path>?<query>
 // with rewritten headers — the client's URL never travels (no pass-through of caller-controlled
 // URLs); the container serves by path alone.
-import { bearerToken, verify } from "@tenunan-dev/hilir-auth";
+import { bearerToken, PROTECTED_RESOURCE_METADATA_PATH, verify } from "@tenunan-dev/hilir-auth";
 
 const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P0.3)
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
@@ -27,12 +27,19 @@ interface Env {
   LIBRARY_ORIGIN: string; // tunnel origin serving the VPS containers, e.g. https://techlib-origin.hilir.app (wrangler var)
 }
 
-function jsonError(status: number, body: Record<string, unknown>): Response {
+function jsonError(status: number, body: Record<string, unknown>, request?: Request): Response {
+  // RFC 9728 §5.1: a 401 from an MCP server names its protected-resource
+  // metadata so OAuth-capable agents can discover Access on their own.
+  let challenge = "Bearer";
+  if (request) {
+    const origin = new URL(request.url).origin;
+    challenge = `Bearer resource_metadata="${origin}${PROTECTED_RESOURCE_METADATA_PATH}"`;
+  }
   return new Response(JSON.stringify(body), {
     status,
     headers: {
       "content-type": "application/json; charset=utf-8",
-      ...(status === 401 ? { "www-authenticate": "Bearer" } : {}),
+      ...(status === 401 ? { "www-authenticate": challenge } : {}),
     },
   });
 }
@@ -47,12 +54,12 @@ async function machineGate(request: Request, env: Env): Promise<Response | null>
   const token = bearerToken(request);
   if (!token) {
     console.log(JSON.stringify({ event: "denied", actor: null, status: 401, reason: "unauthenticated", path }));
-    return jsonError(401, { error: "unauthorized" });
+    return jsonError(401, { error: "unauthorized" }, request);
   }
   const user = await verify(token, { issuer: env.HILIR_ISSUER, audience: env.AUDIENCE });
   if (!user) {
     console.log(JSON.stringify({ event: "denied", actor: null, status: 401, reason: "invalid_token", path }));
-    return jsonError(401, { error: "unauthorized" });
+    return jsonError(401, { error: "unauthorized" }, request);
   }
   const required = env.REQUIRED_SCOPE ?? "catalog:read";
   if (!user.scope.includes(required)) {
