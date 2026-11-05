@@ -1,3 +1,63 @@
+# Hosting the Technology Library
+
+*CURRENT STATE — 2026-11-06. This section is authoritative; everything below it is historical
+(pre-rebuild design: old access.hilir.app, sk-/library keys, Service Binding, container login)
+and must not be followed. Auth rules: `docs/AUTH.md`; estate record: `hilir-access/docs/STATUS.md`.*
+
+## Topology (post Phase 4 + container-on-VPS)
+
+| Piece | Where | Public route | Notes |
+|---|---|---|---|
+| Edge Worker | `og-tech-library-ui`? no — `techlib-edge` (deploy/edge) | `techlib.hilir.app` (UI + sign-in via Access, PKCE client `techlib`) | session cookies; forwards the bearer inward |
+| API Worker | `og-tech-library-api` (deploy/backend) | `techlib-api.hilir.app` — **the MCP + REST door** | `machineGate`: Access JWT (aud = registered origins) or person key (RFC 7662, client `techlib-api` `afRPzPMPgvTxROtxPODjFLeKCkbKJxEz`) |
+| API + UI containers | VPS `15.235.248.33`, compose `/srv/hilir/techlib` (images `ghcr.io/tenunan-dev/hilir-tech-library-{api,ui}:latest`, public) | only via the Workers + Caddy (`techlib-origin.hilir.app`, `ORIGIN_TOKEN`) | container re-verifies the bearer (PyJWT, EdDSA) and reads roles from Neon |
+| Access | `access.hilir.app` (sibling repo) | — | identity + keys |
+
+Headers between Worker and container: `x-origin-token` (Caddy gate), `x-user-store-dsn`
+(per-request Neon DSN). A key that arrives in `x-api-key` is re-attached as
+`Authorization: Bearer` by the API Worker (Power Automate API-Key shape).
+
+## Public surface
+
+- MCP: `POST https://techlib-api.hilir.app/mcp` (Streamable HTTP, stateless — one-shot
+  `tools/call` works; PRM served anonymously).
+- REST: `/api/search`, `/api/technologies`, `/api/vendors`, `/api/equipment`, `/api/stats`, …
+  (full list: `https://techlib-api.hilir.app/api/openapi.json`).
+- Power Automate connector: `https://access.hilir.app/connectors/techlib.swagger.json`.
+
+## How to publish
+
+Workers (from this laptop):
+
+```bash
+cd ".../hilir-tech-library/deploy/edge"     && npx wrangler deploy
+cd ".../hilir-tech-library/deploy/frontend" && npx wrangler deploy
+cd ".../hilir-tech-library/deploy/backend"  && npx wrangler deploy
+```
+
+Containers (CI builds on `workflow_dispatch`/`v*` tags → ghcr; the VPS pulls — techlib images
+are public, no token needed):
+
+```bash
+gh workflow run images --repo tenunan-dev/hilir-tech-library --ref phase4-auth
+ssh -i ~/.ssh/mygis_deploy ubuntu@15.235.248.33 "cd /srv/hilir/techlib && docker compose pull && docker compose up -d"
+```
+
+**EXPECT** `images` success, `api Pulled`, both containers Started/Up.
+
+## After deploying — the 60-second verification
+
+```bash
+curl -s -o /dev/null -w "%{http_code}\n" https://techlib-api.hilir.app/.well-known/oauth-protected-resource   # 200
+curl -s -D- -o /dev/null -X POST https://techlib-api.hilir.app/mcp -H "content-type: application/json" -d '{}' | grep -i www-authenticate   # challenge, no error member
+curl -s -o /dev/null -w "%{http_code}\n" -X POST https://techlib-api.hilir.app/mcp -H "authorization: Bearer wrong" -H "content-type: application/json" -d '{}'   # 401
+```
+
+Secrets on the Workers: `ORIGIN_TOKEN`, `DATABASE_URL`, `USER_STORE_URL` (frontend),
+`HILIR_CLIENT_SECRET` (backend — the techlib-api introspection client). The container gets
+`HILIR_CLIENT_ID/HILIR_CLIENT_SECRET` from `/srv/hilir/techlib/.env` (owner-written) for its
+own key introspection.
+
 <!-- CURRENT STATE — 2026-11-05 (Phase 4 cutover). The body below is HISTORICAL:
      it describes the retired design (old access.hilir.app, sk- keys, service-binding
      introspection, container login). It is kept for history and must not be followed. -->
