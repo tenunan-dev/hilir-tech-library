@@ -14,6 +14,14 @@
   // service are rejected; keys with no audience are allowed but logged (see src/authz.ts).
   "vars": {
     "AUDIENCE": "techlib",
+    // Access: the issuer this Worker verifies against, and the client it
+    // authenticates as when introspecting a person's key (RFC 7662). The
+    // matching client secret is a wrangler secret: HILIR_CLIENT_SECRET.
+    // NOTE: AUDIENCE is the `aud` this Worker requires. The edge advertises the
+    // resource as its own origin (RFC 8707), so confirm which value real tokens
+    // carry before relying on the JWT path here.
+    "HILIR_ISSUER": "https://access.hilir.app/api/auth",
+    "HILIR_CLIENT_ID": "YBUSRWpUyOKWcnrxJPITRYptIBsqtYFL",
     // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS behind the
     // tunnel; ORIGIN_TOKEN is the shared origin secret (wrangler secret put).
     "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app"

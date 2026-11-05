@@ -13,7 +13,14 @@
 // Forwarding form: requests reach the container as <method> https://library.internal<path>?<query>
 // with rewritten headers — the client's URL never travels (no pass-through of caller-controlled
 // URLs); the container serves by path alone.
-import { bearerToken, PROTECTED_RESOURCE_METADATA_PATH, verify } from "@tenunan-dev/hilir-auth";
+import {
+  bearerToken,
+  PROTECTED_RESOURCE_METADATA_PATH,
+  verify,
+  keyHasScope,
+  looksLikeAgentKey,
+  verifyAgentKey,
+} from "@tenunan-dev/hilir-auth";
 
 const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P0.3)
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
@@ -24,16 +31,24 @@ interface Env {
   AUDIENCE: string; // the app's resource identifier - the token's aud
   REQUIRED_SCOPE?: string; // default catalog:read
   ORIGIN_TOKEN: string; // shared origin secret the VPS Caddy requires (VPS-COMPUTE.md §5.3); wrangler secret put ORIGIN_TOKEN
+  HILIR_CLIENT_ID?: string; // opaque client id (wrangler var)
+  HILIR_CLIENT_SECRET?: string; // wrangler secret — used to verify agent keys
   LIBRARY_ORIGIN: string; // tunnel origin serving the VPS containers, e.g. https://techlib-origin.hilir.app (wrangler var)
 }
 
 function jsonError(status: number, body: Record<string, unknown>, request?: Request): Response {
   // RFC 9728 §5.1: a 401 from an MCP server names its protected-resource
   // metadata so OAuth-capable agents can discover Access on their own.
+  // RFC 6750 §3.1: if a credential WAS presented and rejected, the challenge
+  // also names the error; if none was presented, it must not.
   let challenge = "Bearer";
   if (request) {
     const origin = new URL(request.url).origin;
-    challenge = `Bearer resource_metadata="${origin}${PROTECTED_RESOURCE_METADATA_PATH}"`;
+    const presented = Boolean(request.headers.get("authorization"));
+    challenge = [
+      `Bearer resource_metadata="${origin}${PROTECTED_RESOURCE_METADATA_PATH}"`,
+      ...(presented ? ['error="invalid_token"'] : []),
+    ].join(", ");
   }
   return new Response(JSON.stringify(body), {
     status,
@@ -55,6 +70,31 @@ async function machineGate(request: Request, env: Env): Promise<Response | null>
   if (!token) {
     console.log(JSON.stringify({ event: "denied", actor: null, status: 401, reason: "unauthenticated", path }));
     return jsonError(401, { error: "unauthorized" }, request);
+  }
+  if (looksLikeAgentKey(token)) {
+    // A normal account's key (docs/MCP-CLIENTS.md §4b): introspected at Access
+    // with this worker's own client credentials, cached ~60 s. Scopes — not an
+    // app name — decide what it may do here.
+    const info = await verifyAgentKey(
+      {
+        issuer: env.HILIR_ISSUER,
+        clientId: env.HILIR_CLIENT_ID ?? "",
+        clientSecret: env.HILIR_CLIENT_SECRET ?? "",
+        redirectUri: "",
+      },
+      token,
+    );
+    const required = env.REQUIRED_SCOPE ?? "catalog:read";
+    if (!info) {
+      console.log(JSON.stringify({ event: "denied", actor: null, status: 401, reason: "agent_key", path }));
+      return jsonError(401, { error: "unauthorized" }, request);
+    }
+    if (!keyHasScope(info, required)) {
+      console.log(JSON.stringify({ event: "denied", actor: info.userId, status: 403, reason: "scope", required, path }));
+      return jsonError(403, { error: "forbidden", required }, request);
+    }
+    console.log(JSON.stringify({ event: "request", actor: info.userId ?? "agent-key", path, method: request.method }));
+    return null;
   }
   const user = await verify(token, { issuer: env.HILIR_ISSUER, audience: env.AUDIENCE });
   if (!user) {
