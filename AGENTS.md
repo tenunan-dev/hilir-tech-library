@@ -21,6 +21,13 @@ deliberately deleted on 2026-11-05 and each broke production when present:**
   the provider's end-session endpoint).
 
 If a task seems to need any of the above, stop and say so instead of implementing it.
+
+Permissions are route-level: a scope is only a precondition, and each app checks it at the
+exact route or tool that acts (`docs/AUTH.md` → "Who may do what"; estate rule book:
+`hilir-access/docs/ROLES.md`). **Never widen a scope to make something work** — gate the
+specific route instead, keep machine clients separate from people, and update the matrix in
+the same pass.
+
 Verification commands and failure signatures: **`docs/AUTH.md`**. Estate-wide authority:
 `hilir-access/docs/STATUS.md` (FINAL STATE).
 

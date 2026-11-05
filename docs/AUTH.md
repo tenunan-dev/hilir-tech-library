@@ -62,6 +62,24 @@ curl -s -o /dev/null -w "%{redirect_url}\n"              https://techlib.hilir.a
 Then in a browser: sign in → open a page → Sign out → you must land back
 signed out with no error page.
 
+## Who may do what
+
+Authority: `hilir-access/docs/ROLES.md`. Access decides *who*; this app decides *what*.
+
+| Actor | May | Gate (code) |
+|---|---|---|
+| signed-in `user` | read every library page: search, cards, vendors, sources, documents, database views | any valid token → `_account()` (`agent/web.py`) + the `catalog:read` gate on `/api/*` and `/mcp` |
+| `admin` (this app's `library.account.role`) | the above **plus** create/delete account rows and roles | `admin_gated` — `agent/web.py:1639-1640`, `role != "admin"` ⇒ 403 at `:1541` |
+| machine client | read only (`catalog:read`) | edge + container verifier |
+
+**The only write in this app is an account row.** There is no scope that lets
+anyone modify catalog content, and no write endpoint in the Worker at all.
+Being an Access admin does **not** confer this app's admin — the role comes
+from `library.account`.
+
+Becoming admin: the owner sets `role = admin` on the person's row on
+`/admin` (or the row is created that way).
+
 ## Do not (each of these broke production once)
 
 1. **Do not reintroduce a key or password login.** The library key, `LIBRARY_USERS`,
