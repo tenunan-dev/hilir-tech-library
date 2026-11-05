@@ -27,11 +27,15 @@ const INTERNAL = "https://library.internal"; // synthetic origin: the container 
 
 interface Env {
   USER_STORE_URL?: string; // account-store DSN (roles); forwarded per request
-  HILIR_ISSUER: string; // https://access-v2.hilir.app/api/auth
-  AUDIENCE: string; // the app's resource identifier - the token's aud
+  HILIR_ISSUER: string; // https://access.hilir.app/api/auth
+  /** Comma-separated registered RFC 8707 resource origins this API serves —
+   *  the token's aud. NEVER a client name: the UI origin (tokens forwarded by
+   *  the frontend Worker) and this API host's own origin (direct MCP clients
+   *  that discover techlib-api.hilir.app). */
+  AUDIENCE: string;
   REQUIRED_SCOPE?: string; // default catalog:read
   ORIGIN_TOKEN: string; // shared origin secret the VPS Caddy requires (VPS-COMPUTE.md §5.3); wrangler secret put ORIGIN_TOKEN
-  HILIR_CLIENT_ID?: string; // opaque client id (wrangler var)
+  HILIR_CLIENT_ID?: string; // opaque client id (wrangler var) — techlib-api, introspection only
   HILIR_CLIENT_SECRET?: string; // wrangler secret — used to verify agent keys
   LIBRARY_ORIGIN: string; // tunnel origin serving the VPS containers, e.g. https://techlib-origin.hilir.app (wrangler var)
 }
@@ -96,7 +100,14 @@ async function machineGate(request: Request, env: Env): Promise<Response | null>
     console.log(JSON.stringify({ event: "request", actor: info.userId ?? "agent-key", path, method: request.method }));
     return null;
   }
-  const user = await verify(token, { issuer: env.HILIR_ISSUER, audience: env.AUDIENCE });
+  // Audiences are the registered resource origins (comma-separated AUDIENCE);
+  // any one matching validates the token (RFC 8707 — aud is an origin).
+  const audiences = env.AUDIENCE.split(",").map((a) => a.trim()).filter(Boolean);
+  let user: Awaited<ReturnType<typeof verify>> = null;
+  for (const audience of audiences) {
+    user = await verify(token, { issuer: env.HILIR_ISSUER, audience });
+    if (user) break;
+  }
   if (!user) {
     console.log(JSON.stringify({ event: "denied", actor: null, status: 401, reason: "invalid_token", path }));
     return jsonError(401, { error: "unauthorized" }, request);

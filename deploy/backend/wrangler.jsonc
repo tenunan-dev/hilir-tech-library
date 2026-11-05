@@ -13,13 +13,14 @@
   // service, and the Access registry lists this library as "techlib". Keys issued for another
   // service are rejected; keys with no audience are allowed but logged (see src/authz.ts).
   "vars": {
-    "AUDIENCE": "techlib",
+    // Registered RFC 8707 resource origins this API serves — the token's aud.
+    // The UI origin (frontend forwards its session token) and this API host's
+    // own origin (direct MCP clients discovering techlib-api.hilir.app, once
+    // that resource is attached to the "techlib" client). NEVER a client name.
+    "AUDIENCE": "https://techlib.hilir.app,https://techlib-api.hilir.app",
     // Access: the issuer this Worker verifies against, and the client it
     // authenticates as when introspecting a person's key (RFC 7662). The
     // matching client secret is a wrangler secret: HILIR_CLIENT_SECRET.
-    // NOTE: AUDIENCE is the `aud` this Worker requires. The edge advertises the
-    // resource as its own origin (RFC 8707), so confirm which value real tokens
-    // carry before relying on the JWT path here.
     "HILIR_ISSUER": "https://access.hilir.app/api/auth",
     "HILIR_CLIENT_ID": "afRPzPMPgvTxROtxPODjFLeKCkbKJxEz", // techlib-api (introspection only)
     // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS behind the
