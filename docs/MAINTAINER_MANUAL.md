@@ -109,27 +109,32 @@ Write a generator in `collectors/adapters.py` that yields `(title, url, body_mar
 
 ### Publish after any change
 
-The hosted copy (Cloudflare), the Neon database and the Dataverse CSVs are snapshots of the files;
-refresh them after collecting documents or changing cards:
+Content changes reach the hosted copy **without a deploy**: both containers read Neon live.
 
 ```
-python tools/build.py && python agent/library.py build
-python agent/embed.py                        # only when vectors are wanted (slow: ~75 min for the full corpus)
+python tools/build.py
+python agent/library.py build
+python agent/embed.py --incremental          # only changed rows embed; a full embed is ~12 min
 export DATABASE_URL='<unpooled owner DSN>'   # from .env.local on the Mac; never committed
-python tools/load_postgres.py --embeddings sqlite
-cd deploy/cloudflare && npx wrangler deploy  # Docker running; wait out the instance swap before verifying
-python tools/export_dataverse.py --out <dir>
+python tools/load_postgres.py --embeddings sqlite --include-restricted
+python tools/export_dataverse.py --out <dir> # only when the Power Platform tables are wanted
 ```
+
+Verify with `/api/version` (the drift stamp: counts and the last reload) and one search on each
+door. A **code** change still deploys: `npx wrangler deploy` in the Worker you changed, or the CI
+`images` workflow plus a VPS pull for container code. The three paths, with their gates and
+verification, are in [DEVELOPMENT.md](DEVELOPMENT.md) §5.
 
 The read-only role and its grants survive reloads, so `--grant-readonly` is not repeated. Details:
-[POSTGRES.md](POSTGRES.md), [HOSTING.md](HOSTING.md) (including the instance-swap wait),
-[DATAVERSE.md](DATAVERSE.md).
+[POSTGRES.md](POSTGRES.md), [HOSTING.md](HOSTING.md), [DATAVERSE.md](DATAVERSE.md).
 
 ## 6. Finishing a session
 
-1. `python tools/build.py && pytest -q tests` pass.
-2. Update [STATUS.md](STATUS.md) and, for new rules or owner decisions, [DECISIONS.md](DECISIONS.md).
-3. Commit with a message that says what changed and why. Push.
+1. `python tools/build.py && python -m pytest -q tests` pass.
+2. Update [STATUS.md](STATUS.md) (counts and a log entry) and, for new rules or owner decisions,
+   [DECISIONS.md](DECISIONS.md); add a [CHANGELOG.md](../CHANGELOG.md) entry for the release.
+3. Commit the records with the regenerated files, then push. The full checklist (including archive
+   discipline and the Worker tests) is [DEVELOPMENT.md](DEVELOPMENT.md) §10.
 
 ## 7. Troubleshooting
 

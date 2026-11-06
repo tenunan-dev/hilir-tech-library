@@ -2,7 +2,64 @@
 
 Living document. Update it at the end of every working session (newest entry on top in the log).
 
-## Handover (2026-10-30): start here
+## Handover (2026-11-06): start here
+
+**The estate was rebuilt and is live.** Three Cloudflare Workers (`techlib-edge`, frontend UI
+`og-tech-library-ui`, backend API `og-tech-library-api`) plus two containers on the VPS
+(`15.235.248.33`, `/srv/hilir/techlib`, images from CI). The MCP + REST door is
+`https://techlib-api.hilir.app`; the UI is `https://techlib.hilir.app`; both sit behind **hilir
+Access**. Authentication accepts an Access JWT (`aud` = a registered resource origin) or a person's
+estate key (RFC 7662 introspection with the `techlib-api` client), verified at the Worker and again
+in the container. The dead `LibraryApi` Durable Object, the `sk-` keys, the `ACCESS` Service
+Binding, `LIBRARY_API_KEY`, `LIBRARY_USERS`, `users.py`, the container login and `/login?classic=1`
+are **deleted**. Authority: [AUTH.md](AUTH.md) and [HOSTING.md](HOSTING.md) (top section only);
+estate record `hilir-access/docs/STATUS.md`; decision #35.
+
+Repository state at this handover (`python tools/build.py`):
+
+| Item | Count |
+| --- | --- |
+| Catalog records | 400 valid, 400 unique ids |
+| Verified / unverified | see `catalog/index/README.md` (needs-manual-check list unchanged) |
+| Technology cards | 299, covering all 306 register entries |
+| Vendor records | 421, coverage queue empty |
+| Equipment records | 8 — five boiler classes, centrifugal compressor, centrifugal pump, industrial gas turbine |
+| Corpus documents | 202, each with a hand-written summary |
+| Offline tests | 857 passed, 12 skipped (`.venv/bin/python -m pytest -q tests`) |
+
+**Auth verification, run live 2026-11-06 — all green:**
+
+| Check | Result |
+| --- | --- |
+| `/.well-known/oauth-protected-resource` | 200 |
+| `POST /mcp` unauthenticated | `www-authenticate: Bearer resource_metadata="…"`, no `error` member |
+| `POST /mcp` with `Bearer wrong` | 401 |
+| `/` on the UI origin | 303 → `/login?next=%2F` |
+| `/health` | 200 |
+| unauthenticated `/api/stats` | 401 |
+| `/login` | authorize URL on access.hilir.app **with `resource=`**, PKCE S256 |
+| `/logout` | end-session URL with `client_id` + `post_logout_redirect_uri` |
+
+The browser round-trip (sign in → page → sign out) still needs a human or a browser-capable agent;
+it was not exercised by the 2026-11-06 curl pass.
+
+### Open items (2026-11-06)
+
+1. **Owner-only:** re-add the claude.ai connector at `https://techlib-api.hilir.app/mcp`, reconnect
+   Copilot Studio, regenerate the Dataverse CSVs after card changes, and decide on the auto-deploy
+   secret (`gh secret set CLOUDFLARE_API_TOKEN`). No agent should do these.
+2. **Browser round-trip** through Access (sign in, open a page, sign out) — run it in a browser on
+   the next session that has one.
+3. **Source discovery** remains the standing main effort (decision #30); the queue and next
+   blocks are in [SOURCE_DISCOVERY_PLAN.md](SOURCE_DISCOVERY_PLAN.md).
+4. **Equipment families** beyond the current eight wait on the owner's word (decision #33).
+5. **Publish after any content change:** `tools/build.py` → `agent/library.py build` →
+   `agent/embed.py --incremental` → `tools/load_postgres.py --embeddings sqlite --include-restricted`
+   (no deploy). Code changes deploy per `docs/DEVELOPMENT.md` §5.
+6. **Weak spots** from the previous handover still stand (cross-cutting cards thin on suppliers and
+   figures; ~100 cards cite uncatalogued sources); see below.
+
+## Handover (2026-10-30, historical)
 
 State on 2026-10-30, checked against the repository at commit `4414aba`: the catalog holds 399 sources (218 verified, 181 unverified), the corpus 202 summarised documents (161 open-licence, 41 restricted), 299 technology cards covering all 306 register entries (830 open gaps on 277 cards) and 415 vendor records in `catalog/vendors/` with the coverage queue empty (decisions #28 and #31; **417 with the equipment layer, this handover paragraph otherwise reflects the pre-equipment state of commit `4414aba`** — miura and bosch-industrial added, 5 boiler equipment records in `catalog/equipment/`, pytest 850 passed / 1 skipped, 16 MCP tools after list_equipment/get_equipment). `python tools/build.py` prints "399 records valid, 399 unique ids, 299 technology cards, 415 vendor records". In a clean cloud checkout without `TEST_DATABASE_URL`, `pytest -q tests` gives 804 passed, 4 skipped; the 2026-10-30 Mac session reported 832 passed, a count this commit does not reproduce (808 tests are collected), so treat 804 + 4 skipped as the reproducible baseline. The hosted copy lives only at https://techlib.hilir.app (MCP at `/mcp`, browser interface at `/`, same Worker `og-tech-library`); the old techlibrary.tenunan.com domain was retired on 2026-10-27, route and DNS record removed (see Old domain retired in docs/HOSTING.md). The latest recorded deploy is `ea521ee2` (2026-10-30, after `82aeca5c`). A curl connection test (health, stats, MCP handshake, tool call) is in docs/HOSTING.md. The Neon Postgres layer serves the read-only tools `sql_query`, `db_catalog` and `graph_neighbors` through the same server (14 MCP tools in total).
 
@@ -38,17 +95,26 @@ State on 2026-10-30, checked against the repository at commit `4414aba`: the cat
 - Cards with a wiki-only suppliers list name no suppliers; those are recorded as gaps.
 - Older backlog below still stands: manual terms checks, remaining PETRONAS and Ditjen Migas collection (Mac), MDPI and OSTI blockers.
 
-## Current numbers (2026-10-30)
+## Current numbers (2026-11-06)
+
+Counts re-derived from the repository by `python tools/build.py` (which printed
+"400 records valid, 400 unique ids, 299 technology cards, 421 vendor records, 8 equipment
+records"). The verification split has not been re-surveyed since 2026-10-30; check
+`catalog/index/README.md` for the current one.
 
 | Item | Count |
 | --- | --- |
-| Catalog records | 399 (2026-10-30; +31 since 2026-10-29 via source-discovery batches) |
-| Verified | 218 (57 full-text-open, 121 full-text-restricted, 26 summary-only, 14 catalog-only; 8 of the restricted are free-registration-gated) |
-| Unverified | 181, of which 23 need a manual terms check (`catalog/index/needs-manual-check.md`; the full gate survey is in `docs/LOGIN_REQUIRED.md`) |
-| Corpus documents | 202, each with a hand-written `summary` (enforced by tests/test_technologies.py); 161 open-licence, 41 restricted. The hosted copy serves the 161 open-licence ones |
-| Technology cards | 299, one for every one of the 306 register entries in `catalog/technology-register.yaml` (PWR grew 33 → 39 with the six modular-power cards; UPS 54, H2 35, CCS 32, GAS 30, PCH 28, REF 27, MID 20, ROT 11, MAT 6, INS 5, DIG 5, HSE 4, PRC 3). Every card has sources; figures only where a URL was read, everything else is a gap. 830 open gaps on 277 cards (2026-10-28/29 sessions, was 1,118; 288 closed) |
-| Vendor records | 417 in `catalog/vendors/`, every named card supplier covered (coverage queue empty 2026-10-30, decision #31); categories field on all records, refined by flash sweep. JEREH added 2026-10-30 on owner request (Chinese oilfield equipment/EPC group with a growing mobile gas turbine power business). Miura and Bosch Industriekessel added with the equipment layer. 18 generic card descriptions render as notes |
-| Equipment records | 5 boiler classes in `catalog/equipment/` (layer opened 2026-10-30 on owner instruction: fire-tube package, industrial water-tube package, HRSG, CFB, electric/electrode) — schema-based records with spec ranges, sources and vendor model lines; wired into build.py, search (kind equipment), MCP, REST /api/equipment and the web /equipment page |
+| Catalog records | 400 |
+| Verified | see `catalog/index/README.md` (was 218 of 399 on 2026-10-30) |
+| Unverified | see `catalog/index/needs-manual-check.md` (was 181 on 2026-10-30) |
+| Corpus documents | 202, each with a hand-written `summary` (enforced by tests/test_technologies.py); 161 open-licence, 41 restricted. The hosted copy serves the open-licence ones |
+| Technology cards | 299, one for every one of the 306 register entries in `catalog/technology-register.yaml`. Every card has sources; figures only where a URL was read, everything else is a gap (open gaps: `catalog/index/gaps.md`) |
+| Vendor records | 421 in `catalog/vendors/`, every named card supplier covered (coverage queue empty, decision #31); `categories` on all records |
+| Equipment records | 8 in `catalog/equipment/` — boiler-fire-tube-package, boiler-industrial-watertube-package, boiler-hrsg, boiler-circulating-fluidized-bed, boiler-electric-electrode, compressor-centrifugal, pump-centrifugal, turbine-gas-industrial (decision #33) |
+
+Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl`, the MCP tool
+`library_stats` (reads Neon first) and `/api/stats` on the API door.
+
 
 Check live numbers with `catalog/index/README.md`, `wc -l corpus/manifest.jsonl` and the MCP tool `library_stats`.
 
@@ -97,6 +163,7 @@ Add one entry per working session, newest on top, in this format, so an agent wi
 - **YYYY-MM-DD, <who or which agent>:** Did: <changes, with commit hashes>. Verified: <checks run and results, e.g. build.py N records valid, pytest N passed, trial run looked right>. Failed: <what did not work, with the exact error message>. Next: <the concrete next step, or the owner decision it waits on>.
 ```
 
+- **2026-11-06, ZCode agent (estate migration knowledge refresh + full documentation sweep):** Did: read AGENTS.md's current-estate block, docs/AUTH.md and the CURRENT STATE section of docs/HOSTING.md, then ran both verification sets live (3 API-door curls, 6 UI-door curls) — all as expected, table in the handover above. Rewrote the documentation to the post-migration estate and added the agent-agnostic development runbook: new `docs/DEVELOPMENT.md` (environment, change routing, gates, the three publish paths, verification, auth summary, shared-tree safety, troubleshooting, session-close checklist), README.md (counts 400/299/421/8/202, 16 tools, two doors, layout), AGENTS.md (current-numbers block, DEVELOPMENT/AUTH rows in "Read next", permission boundary restated), ARCHITECTURE.md (overview diagram, vendors/equipment layer, auth component table, 16 tools, Neon-first everywhere, 3-Worker + 2-container hosting, images workflow), USER_GUIDE.md (Access sign-in, cloud-agent connection table, equipment tools, /equipment page, admin page), HILIR-ACCESS-INTEGRATION.md (stale `sk-`/Service-Binding body archived verbatim to `docs/archive/2026-11-06_HILIR-ACCESS-INTEGRATION_v2026.11.03.md`, replaced with a pointer), STATUS.md handover + numbers, and the historical/complete banners on FRONTEND_BACKEND_SPLIT_PLAN and HUMAN_ACTION_KIV. Also regenerated the stale generated files (`catalog/index/*`, `catalog/*.jsonl`): the records were already committed at 400/421/8 but the outputs had been built from an older state. Verified: `tools/build.py` → "400 records valid, 400 unique ids, 299 technology cards, 421 vendor records, 8 equipment records"; `pytest -q tests` → 857 passed, 12 skipped; all nine live curls matched (see handover). Failed: nothing. Next: the browser round-trip through Access (needs a person or a browser-capable agent), and the owner-only items in the handover.
 - **2026-11-02, ZCode agent (split deferred items closed — owner's "do 1"):** Did: (1) every MCP get_*/list_* tool now reads Neon first with the baked index as automatic fallback (_with_neon in server.py): get_source/get_document/list_by_tag/get_technology/compare_technologies/list_vendors/get_vendor/list_equipment/get_equipment/list_technology_register/list_gaps. Full-record parity needed new `record jsonb` columns on og.vendor + og.equipment (schema upgrades + loader writes + Neon reload, 12,586 vectors preserved) — get_vendor/get_equipment now return the complete catalog record incl. sources/aliases/last_reviewed straight from Neon, so a publish reaches every tool without a deploy. (2) MCP search honours discipline/region/reuse_level on Neon: hybrid_search recreated as (q, qvec, k, sector, discipline, region, reuse_level) with SQLite-parity semantics (discipline/region keep only sources+passages; reuse compares the source level, library records pass only when unset or full-text-open; old 4-arg overload dropped). **Licence fix found on the way: Neon search was serving snippets of full-text-restricted passages** (live-probed: an OSTI restricted chunk had surfaced through /api/search) — the SQL function now excludes them at the source join; live probe returns 0 restricted results. (3) Retired worker og-tech-library deleted via wrangler (its orphaned container application og-tech-library-library removed via the API — `wrangler containers delete` has a yargs validation bug in 4.152); nothing depended on it; rollback path documented in HOSTING.md (redeploy + re-put secrets). (4) deploy/frontend/src/hilir-auth.ts re-synced to the b5ed348-era module (same as the backend copy; UI imports only the unchanged verifyHilirJwt/sha256B64u). Verified: build 399/299/417/5; pytest 861 passed, 12 skipped (4 new tests: Neon-first tools + fallback, filters forwarding, library_stats); schema statements 47/47 against Neon pre-flight; backend deployed 412f7dd9 (get_vendor via MCP returns Wärtsilä with its sources; search discipline=ROT returns sources only; leak probe 0); frontend deployed 764696f1 (login flow unaffected). Failed: nothing. Next: nothing left from split bucket 1; remaining threads are source discovery (A3/A6/A7 partial, A10 owner), equipment families (owner's word), content backlog.
 - **2026-11-02, ZCode agent (MCP library_stats reads Neon):** Did: after the owner's "check" spotted that the MCP tool `library_stats` reported the container's baked fallback index (vectors 0, open-licence-only document count) while REST `/api/stats` reported Neon truth, the tool now reads Neon first (pg.library_stats) and falls back to the index only when no database is configured — same pattern as the REST route. Regression test test_mcp_library_stats_prefers_neon; ARCHITECTURE.md updated. Verified: build 399/299/417/5; pytest 858 passed, 12 skipped; backend container rebuilt + deployed (version in CHANGELOG); live MCP tools/call library_stats returns the Neon numbers (12,586 vectors), REST unchanged. Failed: nothing. Next: nothing pending on this thread.
 - **2026-11-02, ZCode agent (Access consumer re-sync + identity logging + audience check + domain de-dup):** Did: (1) re-synced deploy/backend/src/hilir-auth.ts to canonical upstream b5ed348 — KeyResult now carries userId/keyId (parsed from introspection user_id/key_id), authenticate() returns {kind,userId,keyId,scopes} for sk- keys; JWT path, cache TTL and fail-closed behaviour unchanged. Remaining diff vs upstream is the provenance header plus one documented local extension (KeyResult.audience) needed for (3). (2) New deploy/backend/src/authz.ts holds the pure identity/authorization rules: actorOf (userId → keyId → credential class), the single catalog:read gate, and auditLine; index.ts now logs `{"event":"request","actor":…}` for machine requests and `{"event":"denied",…,"status":…}` for denials, and denies any *authenticated* principal without catalog:read as 403 `{error:"forbidden",required:"catalog:read"}` (anonymous/invalid stays 401). (3) Audience check shipped: sk- keys whose audience is set and != AUDIENCE (default "techlib", wrangler var) get 403 `{error:"forbidden",reason:"audience"}`; an empty/absent audience is ALLOWED and logged as `audience_missing` because api_keys.audience is `TEXT NOT NULL DEFAULT ''` and the Access UI can issue keys without a service — fail-closed there would break legitimate keys (flip when ops confirms every live key carries one). (4) Domain duplicate resolved from the Cloudflare workers/domains API: techlib.hilir.app → og-tech-library-ui, techlib-api.hilir.app → og-tech-library-api; the retired pre-split worker og-tech-library owned no domain, so its route declaration was removed from deploy/cloudflare/wrangler.jsonc (a deploy can no longer hijack the UI domain); rollback steps documented in HOSTING.md. Verified: backend typecheck clean; 24 new node --test unit tests pass (key identity, forbidden denial, audience match/mismatch/missing, JWT unchanged); repo build 399/299/417/5; pytest 857 passed, 12 skipped; backend deployed 406d02ed (container unchanged — Worker-only change) and live-checked (/health, master key 200, no credential 401, garbage sk- 401, garbage bearer on /mcp 401 through the OAuth path, MCP handshake OK); tail shows the new audit lines. Not done: no live positive sk- key exists yet (Access has none issued for service techlib), so the 200-on-real-key and 403-audience paths are unit-tested only. deploy/frontend/src/hilir-auth.ts is still the pre-b5ed348 copy but only exports sha256B64u/verifyHilirJwt there — the parts b5ed348 does not touch — so it was left alone (UI worker untouched, as instructed).

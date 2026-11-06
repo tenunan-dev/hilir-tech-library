@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-417 vendor records covering 249 technologies. One record per vendor in
+421 vendor records covering 249 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -228,6 +228,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [SICK](https://www.sick.com) | Germany | oem | Custody transfer metering (ultrasonic, Coriolis) |
 | [Silixa](https://silixa.com) | United Kingdom | oem | Leak detection (CPM, fibre optic DAS and DTS) |
 | [SoCalGas](https://www.socalgas.com) | USA | operator | Hydrogen blending and repurposing of gas pipelines |
+| [SoluForce](https://www.soluforce.com) | Netherlands | oem, supplier | Composite and reinforced thermoplastic pipe |
 | [Strohm](https://strohm.eu) | Netherlands | oem | Composite and reinforced thermoplastic pipe |
 | [Subsea7](https://www.subsea7.com) | United Kingdom | epc | Heated and pipe-in-pipe flowlines |
 | [T.D. Williamson](https://www.tdwilliamson.com) | USA | oem, service | Pipeline inline inspection (MFL, ultrasonic, EMAT pigs) |
@@ -240,6 +241,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | --- | --- | --- | --- |
 | [Agilyx](https://agilyx.com) | USA | developer, supplier | Plastics pyrolysis (chemical recycling) |
 | [Borealis](https://www.borealisgroup.com) | Austria | operator | Polyethylene (gas phase, slurry, solution) |
+| [BP](https://www.bp.com) | United Kingdom | developer, licensor, operator | Acetic acid (methanol carbonylation) |
 | [Braskem](https://www.braskem.com) | Brazil | operator | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
 | [Carbios](https://www.carbios.com) | France | developer | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Celanese](https://www.celanese.com) | USA | operator, oem | Acetic acid (methanol carbonylation) |
@@ -374,6 +376,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [PR Power](https://www.prpower.com.au) | Australia | rental, supplier | Containerised hybrid power modules (solar, storage, gensets) |
 | [Principle Power](https://www.principlepower.com) | France | developer, service | Floating offshore wind |
 | [PROENERGY](https://www.proenergyservices.com) | USA | oem, packager, service | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines |
+| [PT PLN (Persero)](https://web.pln.co.id) | Indonesia | operator | Floating solar |
 | [Rolls-Royce Power Systems (mtu)](https://www.mtu-solutions.com) | Germany | oem, packager | Modular reciprocating engine power plants; Gas engines; Cogeneration and combined heat and power |
 | [Rolls-Royce SMR](https://www.rolls-royce-smr.com) | United Kingdom | oem, developer | Small modular reactors |
 | [Rondo Energy](https://www.rondo.com/) | USA | oem | Thermal energy storage (molten salt, sand, bricks) |
@@ -419,6 +422,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Gevo](https://gevo.com) | USA | oem | Alcohol-to-jet SAF |
 | [GS E&C](https://www.gsenc.com) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [GTC Technology](https://gtctech.com) | USA | licensor | Isomerisation (C5/C6) |
+| [Hengli Petrochemical](https://www.hengliap.com) | China | operator | Crude-to-chemicals complexes |
 | [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Advanced process control and real-time optimisation |
 | [Honeywell UOP](https://uop.honeywell.com) | USA | licensor, supplier | Alcohol-to-jet SAF; Alkylation (HF, sulfuric, ionic liquid, solid acid); Catalytic reforming (CCR, semi-regenerative); Co-processing of bio-feeds in FCC and hydrotreaters; Crude-to-chemicals complexes; Fluid catalytic cracking and resid FCC; Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA); Hydrocracking (fixed bed); Hydrotreating (naphtha, diesel, VGO); Isomerisation (C5/C6); Mercaptan sweetening (Merox); Refinery-petrochemical integration (FCC propylene, HS-FCC) |
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
@@ -428,6 +432,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [LanzaJet](https://www.lanzajet.com) | USA | licensor, developer | Alcohol-to-jet SAF |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Delayed coking and fluid coking; Fluid catalytic cracking and resid FCC; Direct crude cracking; Etherification (MTBE, ETBE, TAME) |
 | [Merichem](https://www.merichem.com) | USA | licensor | Mercaptan sweetening (Merox) |
+| [Nayara Energy](https://www.nayaraenergy.com) | India | operator | Delayed coking and fluid coking |
 | [Petrofac](https://www.petrofac.com) | UK | epc, service | Crude and vacuum distillation with heat integration |
 | [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Crude and vacuum distillation with heat integration |
 | [Saudi Aramco](https://www.aramco.com) | Saudi Arabia | operator, developer | Direct crude cracking; Refinery-petrochemical integration (FCC propylene, HS-FCC); Crude-to-chemicals complexes |
@@ -474,7 +479,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Axter](https://axter.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [BiSN Well Tools](https://bisn.com) | United Kingdom | service, supplier | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
 | [Borets Company](https://www.borets.ru) | Russia | oem, service | Electric submersible pumps |
-| [BP](https://www.bp.com) | United Kingdom | operator, developer | Waterflooding and low-salinity water injection |
+| [BP](https://www.bp.com) | United Kingdom | developer, licensor, operator | Waterflooding and low-salinity water injection |
 | [BW Offshore](https://www.bwoffshore.com) | Norway | operator, oem | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Cenovus Energy](https://www.cenovus.com) | Canada | operator | Thermal EOR (steam flood, SAGD, CSS) |
 | [Chevron](https://www.chevron.com) | USA | operator | Thermal EOR (steam flood, SAGD, CSS) |

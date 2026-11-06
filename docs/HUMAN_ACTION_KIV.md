@@ -1,5 +1,10 @@
 # Human-action KIV register (2026-10-28/29 closure effort closeout)
 
+> **Snapshot, 2026-10-28/29 — not a live backlog.** The counts below are from the gap-closure
+> closeout; cards and gaps have changed since (gaps are now listed in `catalog/index/gaps.md` and
+> by the `list_gaps` tool). Kept because the human-only routes it names (paid sources, bot walls,
+> interactive terms checks) do not expire. Live open work: [STATUS.md](STATUS.md) handover.
+
 The automatable programme is complete (register 1,118 -> 905; 213 gaps closed).
 Everything below needs a human or an owner decision. Regenerate anytime:
 `general_knowledge_only`, `not_in_sources_read` etc. remain in catalog/index/gaps.md.

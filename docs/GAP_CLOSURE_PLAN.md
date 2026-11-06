@@ -1,5 +1,11 @@
 # Gap closure plan
 
+> **CLOSED 2026-10-29; kept as the method record.** The closure programme finished, and the
+> standing effort moved to [SOURCE_DISCOVERY_PLAN.md](SOURCE_DISCOVERY_PLAN.md) (decision #30).
+> The waves, the method toolbox (corpus mining → web → mirrors → browser → computer use) and the
+> worker task contract below remain the reference for how a gap is closed; the live numbers are in
+> `catalog/index/gaps.md` and the `list_gaps` tool. Live open work: [STATUS.md](STATUS.md).
+
 Written 2026-10-27 after the gap review. Target: the **1,118 open gaps on 297 cards**
 (`catalog/index/gaps.md`) plus the adjacent registers that close card fields: the 10
 date-driven status re-checks, 2 conflicting-source gaps, and the vendor coverage queue that

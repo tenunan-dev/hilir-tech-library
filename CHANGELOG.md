@@ -8,6 +8,45 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.06] — 2026-11-06 — Documentation to the new estate; agent-agnostic development runbook
+
+### Added
+- **`docs/DEVELOPMENT.md`** — the agent-agnostic runbook for picking up work: environment, a routing
+  table for every kind of change, the three publish paths (data / Worker code / container image),
+  the gate commands, post-deploy verification, shared-tree rules and a session-close checklist.
+  Linked from `AGENTS.md` and `README.md` (decision #36).
+- `AGENTS.md`: a "Where the work stands" block with current counts and the live verification
+  result, the DEVELOPMENT and AUTH rows in "Read next", and the permission boundary restated.
+- `docs/STATUS.md`: the 2026-11-06 handover (estate topology, auth acceptance model, the nine live
+  auth checks, open items) and a session log entry; the 2026-10-30 handover is kept below it.
+
+### Changed
+- Documentation rewritten to the post-migration estate (decision #35): `README.md` (counts
+  400/299/421/8/202, sixteen tools, two Access doors, layout, roadmap), `docs/ARCHITECTURE.md`
+  (overview diagram, vendors/equipment layer, auth component table, 16 tools, Neon-first on every
+  tool, three Workers + two containers, `images.yml`), `docs/USER_GUIDE.md` (Access sign-in, a
+  cloud-agent connection table with the two credential shapes, equipment tools and page, `/admin`),
+  `docs/POSTGRES.md` (`hybrid_search` seven-argument signature; `library.account` is an identity
+  link and `hash`/`library.api_key` are vestigial), `agent/README.md` (equipment and vendor tools,
+  `techlib-api.hilir.app/mcp`, Access sign-in), `docs/HOSTING.md` (branch-agnostic image trigger, the
+  machine-gate test command, the data-publish shortcut).
+- `HILIR-ACCESS-INTEGRATION.md`: the stale `sk-`/Service-Binding guide archived verbatim to
+  `docs/archive/2026-11-06_HILIR-ACCESS-INTEGRATION_v2026.11.03.md`; the living file is now a
+  pointer to `docs/AUTH.md`.
+- Completed/snapshot banners: `docs/FRONTEND_BACKEND_SPLIT_PLAN.md` (complete and live; auth half
+  superseded) and `docs/HUMAN_ACTION_KIV.md` (2026-10-28/29 snapshot, not a live backlog).
+- Regenerated `catalog/catalog.jsonl`, `catalog/index/*`, `catalog/vendors.jsonl`,
+  `catalog/equipment.jsonl` — the records were already committed at 400/421/8 but the generated
+  outputs had been built from an older state.
+
+### Verified
+- `tools/build.py` → 400 records valid, 400 unique ids, 299 technology cards, 421 vendor records,
+  8 equipment records; `pytest -q tests` → 857 passed, 12 skipped.
+- Live: the three API-door checks and six UI-door checks in `docs/HOSTING.md` / `docs/AUTH.md` all as
+  expected (PRM 200, challenge header without an `error` member, wrong bearer 401, `/` 303 →
+  `/login`, `/health` 200, unauthenticated `/api/stats` 401, `/login` with `resource=`, `/logout`
+  end-session).
+
 ## [2026.11.03] — 2026-11-03 — Discovery batch 5, verification batch 3, three equipment records, OSTI full-text policy
 
 ### Added

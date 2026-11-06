@@ -254,32 +254,34 @@ Done = all four sub-cohorts registered or explicitly rejected with reasons.
 ### A12 — publish cycle
 
 Preconditions: 2+ content blocks landed since last publish; Docker running
-(`docker info` OK) for deploy; else mark `blocked-temporary`, retry_when Docker up.
+(`docker info` OK) only if container **code** changed.
 
 ```
 python tools/build.py
 python agent/library.py build
-OMP_NUM_THREADS=4 python agent/embed.py          # up to ~2 h; run in background
-# after embed finishes:
+OMP_NUM_THREADS=4 python agent/embed.py --incremental   # only changed rows embed
 export DATABASE_URL=$(grep '^DATABASE_URL_UNPOOLED' .env.local | cut -d= -f2- | tr -d '"')
 python tools/load_postgres.py --embeddings sqlite --include-restricted
-cd deploy/cloudflare && npx wrangler deploy      # ~25 min container upload; do NOT pipe or kill
 ```
 
-Verify live: `curl -s https://techlib.hilir.app/api/stats` (compare to local counts) and
-`/health`. Update STATUS "Where things run"/counts and CHANGELOG if release-worthy.
-Done = /api/stats matches local; deploy id + counts in state note.
+That is the whole content publish — no deploy: both containers read Neon live (decision #34).
+Deploy only for code: `npx wrangler deploy` in the changed Worker, or the CI `images` workflow plus
+a VPS pull for container code ([DEVELOPMENT.md](DEVELOPMENT.md) §5).
+
+Verify live: `/api/version` on the API door (drift stamp: counts + last reload), `/api/stats` on the
+UI door, and one search per door. Update STATUS counts and CHANGELOG if release-worthy. Done =
+the stamps match the local build; the counts and any deploy id are in the state note.
 
 ## 6. Categorization reference (why A4/A5 exist)
 
-- Sources: 11 `source_type` enums, 399 records (2026-10-30); ~165 still unverified → A6
-  continues (batches 1-2 verified 14 records).
-- Vendors: 414 records, each with `roles` (what a company does on a project) and
+- Sources: 11 `source_type` enums, 400 records (2026-11-06; re-derived with
+  `python tools/build.py`); the unverified tail continues as A6.
+- Vendors: 421 records, each with `roles` (what a company does on a project) and
   `categories` (what kind of company it is; 12-value enum added by A4, refined by A4b
-  flash sweep — 200 of 413 records corrected 2026-10-30). STANDING RULE: a vendor
+  flash sweep). STANDING RULE: a vendor
   record always carries the card's short form as an alias alongside the legal name
   (the IHI/Drax/Yokogawa/Blue-Planet class of mismatch).
-- Coverage queue: EMPTY as of 2026-10-30 — every named supplier on all 299 cards is in
+- Coverage queue: EMPTY — every named supplier on all 299 cards is in
   the directory. build.py and agent/web.py _coverage_queue (keep in sync) split
   '/'-compounds and classify leftovers: nameable names → queue, descriptive phrases →
   "Card notes" section (owner decision #31). New cards may re-populate the queue.

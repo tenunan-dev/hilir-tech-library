@@ -2,20 +2,22 @@
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
-It holds 354 catalog sources across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of 174 collected documents; 299 technology cards covering the 306-entry technology register; and a search index, a Postgres layer, an MCP server, a REST API and a web interface so agents and people can query all of it (see [Roadmap](#roadmap)).
+It holds **400 catalog sources** across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **202 collected documents**; **299 technology cards** covering the 306-entry technology register; a **vendor directory of 421 records**; and an **equipment catalog of 8 equipment classes** (five boiler classes plus centrifugal compressor, centrifugal pump and industrial gas turbine). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
 
 ## Documentation
 
 | Read | For |
 | --- | --- |
-| [AGENTS.md](AGENTS.md) | Start here: rules and pointers for any AI agent or person working on the repo |
-| [docs/USER_GUIDE.md](docs/USER_GUIDE.md) | Using the library: files, MCP server, licence handling |
+| [AGENTS.md](AGENTS.md) | **Start here.** Rules and pointers for any AI agent or person working on the repo (agent-agnostic: Claude, Codex, Gemini, Copilot, Cursor, or a human) |
+| [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) | Picking up development: environment, gates, publish pipeline, verification, where each kind of change goes |
+| [docs/AUTH.md](docs/AUTH.md) | **Auth is load-bearing.** The hilir Access model, where the code lives, what never to reintroduce |
+| [docs/USER_GUIDE.md](docs/USER_GUIDE.md) | Using the library: files, MCP server, REST, web UI, licence handling |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How the parts fit together |
 | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) | Adding sources, verifying terms, collecting, refreshing |
-| [docs/STATUS.md](docs/STATUS.md) | Current numbers and backlog |
+| [docs/HOSTING.md](docs/HOSTING.md) | Topology, publishing, and the post-deploy verification (current-state section at the top) |
+| [docs/STATUS.md](docs/STATUS.md) | Current numbers, open items and the session log |
 | [CHANGELOG.md](CHANGELOG.md) | What shipped in each release |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Owner decisions and the rules they set |
-| [docs/HOSTING.md](docs/HOSTING.md) | The hosted server for cloud agents and browsers (techlib.hilir.app) |
 | [docs/POSTGRES.md](docs/POSTGRES.md) | The Postgres/Neon layer: vectors, knowledge graph, read-only access |
 | [docs/DATAVERSE.md](docs/DATAVERSE.md) | Exporting to Power Platform tables |
 
@@ -24,20 +26,24 @@ It holds 354 catalog sources across 8 sectors and 6 engineering disciplines, wei
 | Path | What it holds |
 | --- | --- |
 | `taxonomy.yaml` | Sector codes (UPS, MID, GAS, REF, PCH, PWR, H2, CCS), discipline codes (PRC, ROT, INS, MAT, HSE, DIG), sub-topics and regions |
-| `schema/source.schema.json` | JSON Schema every catalog record must pass |
+| `schema/` | JSON Schemas for sources, technology cards, vendors and equipment classes |
 | `catalog/sources/<id>.json` | One record per source; this is the source of truth |
 | `catalog/catalog.jsonl` | Generated: all records, one per line, for loaders and embedding pipelines |
 | `catalog/index/<CODE>.md` | Generated: one page per code, Asia Pacific and Southeast Asia sources listed first |
-| `catalog/index/README.md` | Generated: counts by code, region, type, reuse level and verification |
-| `catalog/technologies/` | One JSON card per technology option (schema `schema/technology.schema.json`) |
+| `catalog/technologies/` | One JSON card per technology option |
 | `catalog/technology-register.yaml` | The ~300-technology register the cards cover |
+| `catalog/vendors/` | One record per vendor, supplier, EPC or packager |
+| `catalog/equipment/` | One record per equipment class (specification ranges with sources, vendor model lines) |
 | `corpus/` | Collected content, as Markdown files with licence and provenance front matter |
 | `collectors/` | Licence-aware collectors (see `collectors/README.md`) |
 | `agent/` | Search index, MCP server, REST API and web interface (see `agent/README.md`) |
-| `db/` | Postgres schema (`schema.sql`) and the read-only role (`readonly.sql`) |
-| `deploy/cloudflare/` | The hosted server: Cloudflare Worker and Container configuration |
+| `db/` | Postgres schema (`schema.sql`), admin layer (`library.sql`) and the read-only role (`readonly.sql`) |
+| `deploy/edge/` · `deploy/frontend/` · `deploy/backend/` | The three Workers: sign-in/edge, UI, and the API/MCP door |
+| `deploy/docker/` | The two container images (UI and API) built by CI and run on the VPS |
+| `deploy/cloudflare/` | **Retired** pre-split single Worker, kept for rollback only (see docs/HOSTING.md) |
 | `tools/check_links.py` | Checks every catalog url and writes `catalog/index/link-check.md` |
 | `tools/build.py` | Validates every record and regenerates the generated files |
+| `tools/load_postgres.py` | Reloads the Neon Postgres layer from the same files |
 | `tools/seed/*.psv`, `tools/seed_to_json.py` | The one-time seed lists the records were created from |
 
 ## Reuse levels
@@ -68,8 +74,11 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 - Simplest: load `catalog/catalog.jsonl` and filter by `sectors`, `disciplines`, `regions` or `reuse_level`.
 - For browsing or a Claude Project: attach `catalog/index/*.md`.
-- Search and retrieval: run the MCP server in `agent/` — 12 tools for search and reading, technology cards, gaps, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window over the Postgres layer — optionally with embeddings for semantic search.
-- Cloud agents and browsers: https://techlib.hilir.app serves the same tools at `/mcp`, a REST API under `/api`, and an HTML interface — all behind **hilir Access**. Browsers sign in at `https://access.hilir.app`; machines send `Authorization: Bearer <hilir Access access token>` with `aud = https://techlib.hilir.app`. There is no library key any more (Phase 4, 2026-11-05). See [docs/HOSTING.md](docs/HOSTING.md).
+- Search and retrieval: run the MCP server in `agent/` — **16 tools** for search and reading, technology cards, vendors, equipment classes, gaps, library stats, and (`sql_query`, `db_catalog`, `graph_neighbors`) a read-only SQL window and knowledge graph over the Postgres layer — optionally with embeddings for semantic search.
+- Cloud agents and browsers: **two doors behind hilir Access**.
+  - MCP + REST: `https://techlib-api.hilir.app` (`POST /mcp`, `/api/*`, OpenAPI at `/api/openapi.json`).
+  - Web UI: `https://techlib.hilir.app` (browser sign-in at `https://access.hilir.app`).
+  - A machine sends either an Access **access token** (`Authorization: Bearer`, `aud` = a registered resource origin such as `https://techlib-api.hilir.app`) or a person's **estate key** in `Authorization: Bearer` or `x-api-key`; both are verified at the Worker and again in the container. There is no library API key any more (Phase 4, 2026-11-05; estate migration 2026-11-06). See [docs/AUTH.md](docs/AUTH.md).
 - Always cite `url`. `licence` and `reuse_level` are recorded labels the owner weighs when deciding what to include.
 
 ## Adding or changing a source
@@ -80,7 +89,8 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 ## Roadmap
 
-1. **Catalog (done):** taxonomy, schema, 348 records, generated indexes.
+1. **Catalog (done):** taxonomy, schema, 400 records, generated indexes.
 2. **Verification and corpus (ongoing):** records verified against live terms; collectors in `collectors/` (RSS, arXiv, OSTI, manual inbox) write licence-tagged Markdown into `corpus/<id>/`. See `collectors/README.md`.
-3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 12 tools, a REST API and an HTML interface, hosted on Cloudflare at https://techlib.hilir.app (open-licence text only, behind hilir Access sign-in).
+3. **Agent access (done):** SQLite FTS5 keyword index with optional embeddings, an MCP server with 16 tools, a REST API and an HTML interface, hosted at techlib.hilir.app / techlib-api.hilir.app behind hilir Access (open-licence text only).
 4. **Postgres layer (done):** pgvector, full-text search and a knowledge graph on Neon, reloaded from the files by `tools/load_postgres.py` and queried read-only by agents (`sql_query`) and the web console as role `og_mcp_read`. See [docs/POSTGRES.md](docs/POSTGRES.md).
+5. **Vendors and equipment (in progress):** 421 vendor records and 8 equipment classes; the next families (compressors, turbines, pumps beyond the first of each, then exchangers) arrive on the owner's word (decision #33).

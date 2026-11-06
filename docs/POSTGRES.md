@@ -15,21 +15,29 @@ Schema `og`, defined in [db/schema.sql](../db/schema.sql):
 | `technology` and its children | Cards: `technology_alias`, `technology_source`, `technology_figure` (performance and cost figures with unit, year, basis, source URL), `technology_supplier`, `technology_gap` (what is missing, why, where to look) |
 | `vendor` | The vendor directory: one row per curated record with aliases, roles, products, the card ids it supplies, an embedding and a full-text index |
 | `equipment` | The equipment catalog: one row per equipment class (boilers first) with `specifications` (range/basis/source jsonb), `vendor_models`, `vendors[]`, `technologies[]`, `gaps`, the record's `sources`, an embedding and a full-text index |
-
-Separate from `og`, schema `library` ([db/library.sql](../db/library.sql)) holds the admin layer's
-durable data: `library.account` (accounts created on `/admin`, scrypt-hashed) and `library.event`
-(sign-ins, page views and searches). It is deliberately outside `og` — the library reload truncates
-and reloads `og`, and must not wipe accounts or analytics. The container writes through the
-least-privilege role `library_app` (SELECT/INSERT/UPDATE/DELETE on those two tables only), whose
-DSN is the `USER_STORE_URL` secret; provisioning in [HOSTING.md](HOSTING.md#admin-view-admin-roles-accounts-login-data-analytics).
-Library reloads do not touch schema `library`.
 | `register_entry` | The register of about 300 technologies, linked to a card where one exists |
 | `node`, `edge` | The knowledge graph (below) |
 
+Separate from `og`, schema `library` ([db/library.sql](../db/library.sql)) holds the admin layer's
+durable data: `library.account` (the identity link — email, name, `role` `user`|`admin`) and
+`library.event` (sign-ins, page views and searches). It is deliberately outside `og` — the library
+reload truncates and reloads `og`, and must not wipe accounts or analytics. The container writes
+through the least-privilege role `library_app` (SELECT/INSERT/UPDATE/DELETE on those two tables
+only), whose DSN is the `USER_STORE_URL` secret; the role is provisioned from
+[db/library.sql](../db/library.sql). Library reloads do not touch schema `library`.
+
+**Since the estate migration (2026-11-06, decision #35)** identity comes from hilir Access, so
+`library.account` no longer holds credentials: the `hash` column and `library.api_key` are
+vestigial — no application code reads them, and keys are issued and revoked at Access, not here.
+The account row only decides this app's role and is matched by the email the userinfo endpoint
+returns.
+
 Views and functions: `v_gap`, `v_technology_co_citation`, `graph_neighbors(start, depth, rels)`,
-`hybrid_search(query, query_vector, k, sector)` (full-text and vector ranks fused over chunks, cards,
-vendor records, equipment classes and catalog sources; query_vector and sector optional),
-`refresh_similarity(k, min_sim)`.
+`hybrid_search(q, qvec, k, sector, discipline, region, reuse_level)` (full-text and vector ranks
+fused over chunks, cards, vendor records, equipment classes and catalog sources; every argument
+after `q` is optional, and `discipline`/`region` filter sources and passages only, while
+`reuse_level` compares the source's level), `refresh_similarity(k, min_sim)`.
+
 
 ## The graph
 

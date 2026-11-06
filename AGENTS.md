@@ -19,9 +19,31 @@
 - Do not touch auth internals, DNS, or application content without an explicit owner ask.
   Estate record: `hilir-access/docs/STATUS.md`.
 
+### Where the work stands (2026-11-06)
+
+| Item | Count (from `python tools/build.py`) |
+| --- | --- |
+| Catalog sources | 400 valid, 400 unique ids |
+| Technology cards | 299 (all 306 register entries) |
+| Vendor records | 421 |
+| Equipment classes | 8 (five boiler classes, centrifugal compressor, centrifugal pump, industrial gas turbine) |
+| Corpus documents | 202, each with a hand-written summary |
+
+Verified live 2026-11-06: the three MCP checks in `docs/HOSTING.md` (PRM 200, challenge header
+without an `error` member, wrong bearer 401) and the six UI checks in `docs/AUTH.md`. Standing main
+effort is source discovery (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment
+families wait on the owner (decision #33). Open owner items and the session log are in
+`docs/STATUS.md`.
+
+Permission boundary, restated: the only write in this application is an account row in
+`library.account` (admin-gated). There is no endpoint that writes catalog content, and the
+Postgres layer is read-only by construction. A task that needs a new write path is an owner
+decision, not an implementation detail.
 
 Instructions for any AI agent (Claude, Codex, Gemini, Copilot, Cursor or others) and any person
 working in this repository. Read this file first, then the document that matches your task.
+This file and `docs/DEVELOPMENT.md` are deliberately vendor-neutral: no step depends on a
+particular assistant, model or IDE.
 
 ## ⚠️ AUTH IS LOAD-BEARING — read `docs/AUTH.md` before touching anything auth-related
 
@@ -67,6 +89,8 @@ agents to find, cite and read. It has six layers:
 
 | If you need to | Read |
 | --- | --- |
+| **Pick up development work (start of any coding session)** | **[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)** |
+| Touch sign-in, tokens, keys or sign-out (**read first**) | [docs/AUTH.md](docs/AUTH.md) |
 | Understand how the parts fit together | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | Use the library (search, cite, MCP setup) | [docs/USER_GUIDE.md](docs/USER_GUIDE.md) |
 | Add sources, verify terms, collect, run refreshes | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) |

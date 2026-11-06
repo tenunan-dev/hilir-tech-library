@@ -42,11 +42,18 @@ Containers (CI builds on `workflow_dispatch`/`v*` tags → ghcr; the VPS pulls �
 are public, no token needed):
 
 ```bash
-gh workflow run images --repo tenunan-dev/hilir-tech-library --ref phase4-auth
+gh workflow run images --repo tenunan-dev/hilir-tech-library --ref <branch>
 ssh -i ~/.ssh/mygis_deploy ubuntu@15.235.248.33 "cd /srv/hilir/techlib && docker compose pull && docker compose up -d"
 ```
 
 **EXPECT** `images` success, `api Pulled`, both containers Started/Up.
+
+Data changes need none of this: `tools/build.py` → `agent/library.py build` →
+`agent/embed.py --incremental` → `tools/load_postgres.py` publishes to both containers over Neon in
+minutes, with no deploy. The three publish paths and their gates: [DEVELOPMENT.md](DEVELOPMENT.md) §5.
+
+Tests for the API door: `cd deploy/backend && npm test` (runs
+`deploy/backend/tests/machine-gate.test.ts` — JWT audience, estate key, header re-attachment).
 
 ## After deploying — the 60-second verification
 

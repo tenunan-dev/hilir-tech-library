@@ -1,5 +1,13 @@
 # Frontend / backend split plan (decision #34)
 
+> **STATUS: COMPLETE AND LIVE (2026-10-31; the auth half is superseded by the estate migration,
+> 2026-11-06).** Every phase shipped: `deploy/frontend` (UI) and `deploy/backend` (MCP + REST), two
+> containers over shared Neon, incremental publish with no deploy, `/__embed` retired. The auth
+> design described below is now historical — the live model is hilir Access with an Access JWT or a
+> person's estate key (decision #35, [AUTH.md](AUTH.md)). This file is the design record, not a
+> runbook. Current topology and publish procedure: [HOSTING.md](HOSTING.md) (top section) and
+> [DEVELOPMENT.md](DEVELOPMENT.md) §5.
+
 Owner-approved 2026-10-31 ("ok, write the full plan so that i can start in new session").
 Goal: **separate the web-UI deployment from the API deployment while they stay in sync** —
 when the backend receives new data, the frontend shows it without any redeploy.

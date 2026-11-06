@@ -17,15 +17,21 @@
                                                       ▼
                                    build/library.db (SQLite: FTS5 + optional vectors)
                                                       │
-                                   agent/server.py (MCP over stdio, or --http behind techlib.hilir.app)
+                                   agent/server.py (MCP over stdio, or --http inside a container)
                                       ├─ agent/api.py   REST API under /api
-                                      ├─ agent/web.py   HTML interface (session cookie from the API key)
+                                      ├─ agent/web.py   HTML interface (hilir Access sign-in)
+                                      ├─ agent/auth.py  bearer verifier (JWT via JWKS, estate key via RFC 7662)
                                       └─ agent/pg.py ──▶ Neon Postgres, schema og (read-only role og_mcp_read)
                                                                      ▲
                                    tools/load_postgres.py ──────────┘ (full reload from the same files, owner DSN)
 ```
 
-Everything is plain files in git except `build/`, which is rebuilt locally.
+Everything is plain files in git except `build/`, which is rebuilt locally, and schema `library`
+on Neon (accounts and events), which is the only data that lives only in the database.
+
+In production the `server.py --http` process runs **inside a container on the VPS**, and two
+Cloudflare Workers sit in front of it (see [Hosting](#hosting-deployedge-deployfrontend-deploybackend-deploydocker)).
+
 
 ## Components
 
@@ -74,6 +80,26 @@ One JSON card per technology option: sector, category, maturity (commercial, dem
 ### Technology register (`catalog/technology-register.yaml`)
 
 About 300 technologies across all sectors and cross-cutting disciplines, one line each: name, indicative maturity, example licensors or vendors. It is the backlog for technology cards and is drafted from general knowledge, so it is not evidence. `tools/build.py` links entries to cards by name or alias and writes `catalog/index/technology-register.md`.
+
+### Vendors and equipment (`catalog/vendors/`, `catalog/equipment/`)
+
+Two curated layers that describe *who* and *with what*, both schema-validated:
+
+- **Vendors** (`schema/vendor.schema.json`, `agent/vendors.py`): one record per supplier, OEM,
+  licensor, EPC, packager, operator or service firm — country, roles (enum), products, the
+  technology card ids it supplies, and the pages the record was written from. Indexed as
+  `kind = "vendor"`, served from Neon, and linked in the graph (`vendor:` nodes, `supplies` and
+  `alias_of` edges).
+- **Equipment** (`schema/equipment.schema.json`, `agent/equipment.py`): one record per equipment
+  class — specification ranges (each with unit, basis and source; a cost needs a dollar year),
+  the vendor model lines of the directory vendors that supply the class, the cards that use it,
+  applications, sources and recorded gaps. Indexed as `kind = "equipment"`, served from Neon
+  (`og.equipment`), linked in the graph (`equipment:` nodes, `supplies_equipment` and
+  `uses_equipment` edges).
+
+Current families: five boiler classes (fire-tube package, industrial water-tube package, HRSG,
+CFB, electric/electrode), centrifugal compressor, centrifugal pump and industrial gas turbine.
+New families arrive on the owner's word (decision #33).
 
 ### Verification (`tools/verification/`)
 
@@ -125,12 +151,44 @@ Ranking: rows matching more of the query's words first, then BM25 (name weighted
 ### MCP server (`agent/server.py`)
 
 One server, three doors. Over stdio it serves local MCP clients; with `--http` it also serves the
-REST API under `/api` (`agent/api.py`) and the HTML interface (`agent/web.py`). Twelve tools:
-`search`, `get_source`, `get_document`, `list_by_tag`, `get_technology`, `compare_technologies`,
-`list_technology_register`, `list_gaps`, `library_stats`, and — when `DATABASE_URL` holds the
-read-only role's DSN — `sql_query`, `db_catalog` and `graph_neighbors` over the Postgres layer.
+REST API under `/api` (`agent/api.py`) and the HTML interface (`agent/web.py`). **Sixteen tools**:
+
+| Group | Tools |
+| --- | --- |
+| Search and reading | `search`, `get_source`, `get_document`, `list_by_tag` |
+| Technology cards | `get_technology`, `compare_technologies`, `list_technology_register`, `list_gaps` |
+| Vendors and equipment | `list_vendors`, `get_vendor`, `list_equipment`, `get_equipment` |
+| Library state | `library_stats` |
+| Postgres layer (needs `DATABASE_URL`) | `sql_query`, `db_catalog`, `graph_neighbors` |
+
 It works with mcp 1.x (FastMCP) and 2.x (MCPServer), builds the index on first start if missing,
 and nothing in it is specific to one AI vendor.
+
+Every request that reaches `/mcp` or `/api/*` carries a bearer, verified by
+`RequireHilirToken` (`agent/server.py`) through `agent/auth.py`: a JWT is verified locally
+(EdDSA via the issuer's JWKS, `iss` + `aud`); an opaque estate key is resolved by RFC 7662
+introspection at Access with the `techlib-api` client credentials (60 s cache, fail-closed). The
+`catalog:read` scope is the precondition; each tool is still free to apply its own rules.
+
+
+### Authentication and authorization (`deploy/`, `agent/auth.py`, `agent/web.py`)
+
+Access (`https://access.hilir.app`) owns identity; this repository owns authorization. Full model
+and the do-not-reintroduce list: [AUTH.md](AUTH.md).
+
+| File | Job |
+| --- | --- |
+| `deploy/edge/src/index.ts` | one Worker, both hostnames; UI vs API dispatch |
+| `deploy/frontend/src/index.ts` | `/login`, `/auth/callback`, `/logout`, token resolve/refresh, forwards the bearer |
+| `deploy/backend/src/index.ts` | `machineGate` — verifies the bearer before anything crosses the tunnel |
+| `agent/auth.py` | container verifier: JWT via `PyJWT` + `PyJWKClient` (EdDSA), opaque key via RFC 7662; userinfo identity cache |
+| `agent/web.py` | `_account()` — bearer → email (userinfo) → account row → role; every page gated |
+| `agent/server.py` | `RequireHilirToken` ASGI gate for `/mcp` and `/api/*` |
+
+Acceptance is two credentials resolving to one identity shape: an Access **JWT** (`aud` = a
+registered resource origin) or a person's **estate key** (opaque; introspected at Access with the
+`techlib-api` client). The only write in the application is an account row in `library.account`,
+admin-gated.
 
 ### Postgres layer (`db/`, `agent/graph.py`, `tools/load_postgres.py`, `agent/pg.py`)
 
@@ -142,33 +200,44 @@ mode over the WAN), open-licence text only by default. The server, the REST API'
 the web UI read it through `agent/pg.py` as role `og_mcp_read` — SELECT-only grants plus forced
 read-only transactions plus a single-statement guard. Details in [POSTGRES.md](POSTGRES.md).
 
-**Neon is the live read layer (decision #34):** the web pages, `library_stats` and the MCP/REST
-`search` read it first and fall back to the SQLite index automatically (a page shows a notice when
-the fallback answered), so MCP and REST report the same numbers. The remaining `get_*`/`list_*`
-tools still read the baked index. `document.body`, `vendor.aliases`, `equipment.sources` and
+**Neon is the live read layer (decision #34):** every web page, `library_stats` and every MCP
+`get_*`/`list_*` tool reads it first and falls back to the baked SQLite index automatically (a page
+shows a notice when the fallback answered), so MCP and REST report the same numbers and a publish
+reaches every surface without a deploy. `og.vendor.record` and `og.equipment.record` hold the full
+catalog record as `jsonb`, so `get_vendor`/`get_equipment` serve sources, aliases, notes and dates
+straight from the database; `document.body`, `vendor.aliases`, `equipment.sources` and
 `source.embedding` back the UI's full-document renders, the coverage queue, the equipment detail
 panel and source search.
 Publish pipeline: `tools/build.py` → `agent/library.py build` → `agent/embed.py --incremental`
 (vectors cached by (kind, ref) + text hash, so only changed rows embed) →
 `tools/load_postgres.py` (one transaction) — data changes go live on both readers with no deploy.
 
-### Hosting (`deploy/cloudflare/`, plus `deploy/frontend/` + `deploy/backend/` for the split)
+### Hosting (`deploy/edge`, `deploy/frontend`, `deploy/backend`, `deploy/docker`)
 
-A Cloudflare Worker checks the API key at the edge and forwards to one Cloudflare Container built
-from the repo Dockerfile (open-licence copy only, built at deploy time). `/mcp` also accepts
-OAuth for URL-only clients such as claude.ai; web UI paths pass through to the container, which
-checks a session cookie derived from the same key. The optional secret `DATABASE_URL` gives the
-container the read-only Postgres DSN. Details in [HOSTING.md](HOSTING.md).
+Three Cloudflare Workers and two containers (topology, secrets and the publish procedure:
+[HOSTING.md](HOSTING.md)).
 
-The split deployment (decision #34, code in the repo, deploy pending the owner's domain
-confirmation) separates the two: `deploy/frontend/` serves the web UI (session cookies) at
-`techlib.hilir.app`, `deploy/backend/` serves MCP + REST (API-key/OAuth) at `api.hilir.app`;
-both containers are slim (no embed step) and read Neon live.
+| Piece | Hostname | Does |
+| --- | --- | --- |
+| `techlib-edge` (`deploy/edge`) | both | dispatches UI paths vs API paths; owns the PKCE client and the cookie flow |
+| frontend Worker (`deploy/frontend`) | `techlib.hilir.app` | `/login`, `/auth/callback`, `/logout`, token refresh; forwards the bearer inward |
+| backend Worker (`deploy/backend`) | `techlib-api.hilir.app` | the MCP + REST door: `machineGate` verifies an Access JWT (aud = a registered origin) or a person's estate key before anything crosses the tunnel; re-attaches `x-api-key` as `Authorization: Bearer` |
+| UI container | via Caddy only | `agent/web.py` (all library pages, `/admin`) |
+| API container | via Caddy only | `agent/server.py --http` → `/mcp` + `/api/*` |
+
+Both containers are slim (no embed step; the index builds in-image, embeddings come from the publish
+pipeline), read Neon live, and re-verify the bearer themselves (`agent/auth.py`) before answering.
+`x-origin-token` gates Caddy and `x-user-store-dsn` carries the per-request Neon DSN for the admin
+layer. `deploy/cloudflare/` is the retired pre-split single Worker, kept for rollback only.
+
 
 ### Automation (`.github/workflows/`)
 
 - `validate.yml`: on every push, build, tests, and a check that generated files are committed.
 - `refresh.yml`: Mondays 02:00 UTC collects new arXiv and OSTI records; on the 1st of each month also runs `tools/check_links.py`. Commits changes as github-actions[bot]. Can be run by hand (workflow_dispatch).
+- `images.yml`: builds the two container images (`deploy/docker/Dockerfile.frontend`,
+  `Dockerfile.backend`) and pushes them to ghcr on `workflow_dispatch` or a `v*` tag. The VPS pulls;
+  images are only ever built in CI, never on the VPS.
 
 ## Design choices
 
@@ -177,3 +246,6 @@ both containers are slim (no embed step) and read Neon live.
 - **Verification is a log, not edits.** Findings are replayable and auditable.
 - **One index, two retrieval modes.** Keyword search works with no model download; embeddings are an add-on.
 - **The database is read-only by construction.** Agent-written SQL runs as `og_mcp_read`: SELECT-only grants, forced read-only transactions and a single-statement guard — independent layers, so one mistake cannot expose writes.
+- **Identity is one model, two credential shapes.** A browser JWT and a machine estate key resolve to the same identity before any app logic sees them; no hop trusts the previous hop's answer.
+- **Vendor-neutral by construction.** Nothing in `agent/` or the docs assumes a particular assistant, model or IDE; AGENTS.md is the single entry point for every agent and person (decision #12).
+
