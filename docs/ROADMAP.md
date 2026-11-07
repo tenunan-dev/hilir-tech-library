@@ -43,7 +43,7 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 | 2.1a | Discipline vendor round: switchgear, e-houses, Ex equipment, modular fabricators, Malaysian/SEA EPC + IBS players into `catalog/vendors/` | open |
 | 2.1b | Discipline round 2 cards on the owner's word: PIP (piping), HVAC, telecom/naval architecture, plus deepening PRC/MAT/HSE/DIG | proposed |
 | 2.1c | Equipment classes for the discipline layer (switchgear, transformers, e-houses) — decision #33 pattern | owner gate |
-| 2.1d | Neon publish cycle + deploy so batch 1 shows live | open (owner gate on deploy) |
+| 2.1d | Neon publish cycle + deploy so batch 1 shows live | **done 2026-11-07** (Neon 326 cards/12,625 vectors; containers rebuilt via CI images + VPS compose; live checks green) |
 
 ### 2.2 Fill thin spots (no new pages needed)
 
@@ -65,11 +65,11 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 
 | # | Item | Size | Status |
 |---|---|---|---|
-| 3.1 | **Compare view** — 2–4 technologies side by side (maturity/TRL/performance/costs/suppliers) | S–M | open |
-| 3.2 | Export: CSV/XLSX of tables + per-card citation export | S | open |
-| 3.3 | Charts: sector, maturity, TRL distributions (SECTOR_COLORS exists) | S | open |
-| 3.4 | Discipline/region search filters (both fields already on sources and cards) | S | open |
-| 3.5 | API playground — Swagger UI at /api/docs from the existing openapi.json | S | open |
+| 3.1 | **Compare view** — 2–4 technologies side by side (maturity/TRL/performance/costs/suppliers) at /compare with ?ids= deep links | S–M | **done 2026-11-07** |
+| 3.2 | Export: CSV of technologies/vendors/sources/equipment at /export?kind= (XLSX + citation export follow) | S | **done 2026-11-07** (CSV) |
+| 3.3 | Charts: sector/discipline and maturity distribution bars on the home page | S | **done 2026-11-07** |
+| 3.4 | Discipline/region search filters on /search (backend already supported both; UI selects added) | S | **done 2026-11-07** |
+| 3.5 | API reference page at /database/api, generated from openapi_spec (Swagger try-it-out is not possible cross-door with Access auth; reference + SQL console cover the need) | S | **done 2026-11-07** |
 | 3.6 | Saved items (pin cards/vendors to account; userstore exists) | M | open |
 | 3.7 | "Ask the library" — RAG web endpoint over the indexed chunks | L | owner gate (key routing) |
 

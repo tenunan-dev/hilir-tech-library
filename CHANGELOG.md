@@ -8,6 +8,28 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.07.4] — 2026-11-07 — Quick-win features live: compare, export, charts, filters, API reference
+
+### Added
+- **Compare view** `/compare`: multi-select 2–4 technology cards, side-by-side sector/maturity/
+  TRL/applications/equipment/suppliers/figures/reference counts; deep-linkable `?ids=a,b,c`.
+- **CSV export** `/export?kind=technologies|vendors|sources|equipment` (attachment download).
+- **Home distribution charts**: cards-by-sector/discipline and by-maturity CSS bars linking to the
+  filtered list pages.
+- **Discipline + region search filters** on /search (backend `search(discipline, region)` already
+  existed; the UI selects thread them through Neon hybrid_search and the SQLite fallback).
+- **API reference** tab `/database/api`: REST endpoint table generated live from `openapi_spec`.
+
+### Fixed
+- CI `Validate catalog` was red on every push since the equipment layer (2026-10-30): the workflow
+  ran pytest without `agent/library.py build`, so tests reading `build/library.db` could not open
+  the file. The SQLite build step is now in the workflow (first green run be7acb5).
+
+### Shipped
+- Batch-1 publish completed: Neon reloaded (404 sources / 326 cards / 12,625 vectors), container
+  images rebuilt (Flare Triad redesign + discipline code changes shipped together), both VPS
+  containers Up, live matrix green (PRM 200, MCP wrong-bearer 401, UI 303, /health 200).
+
 ## [2026.11.07.3] — 2026-11-07 — One combined roadmap
 
 ### Changed

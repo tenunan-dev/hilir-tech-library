@@ -159,3 +159,37 @@ def test_neon_down_shows_fallback_notice(c, monkeypatch):
     monkeypatch.setattr(web.pg, "library_stats", boom)
     r = c.get("/")
     assert r.status_code == 200 and "unreachable" in r.text
+
+
+def test_compare_page_renders_side_by_side(c):
+    admin(c)
+    r = c.get("/compare", params={"ids": "ele-transformers,rot-heat-exchangers"})
+    assert r.status_code == 200
+    assert "Side by side" in r.text
+    assert "Power and distribution transformers" in r.text
+    assert "heat exchangers" in r.text.lower()
+    solo = c.get("/compare", params={"ids": "ele-transformers"})
+    assert solo.status_code == 200 and "at least two" in solo.text
+
+
+def test_export_csv_answers_and_sets_download(c):
+    technologies = c.get("/export", params={"kind": "technologies"})
+    assert technologies.status_code == 200
+    assert technologies.headers["content-type"].startswith("text/csv")
+    assert "attachment" in technologies.headers.get("content-disposition", "")
+    assert technologies.text.splitlines()[0].startswith("id,name,sector")
+    vendors = c.get("/export", params={"kind": "vendors"})
+    assert vendors.status_code == 200 and vendors.text.splitlines()[0].startswith("id,name,country")
+    assert c.get("/export", params={"kind": "nope"}).status_code == 400
+
+
+def test_api_reference_lists_endpoints(c):
+    r = c.get("/database/api")
+    assert r.status_code == 200
+    assert "/api/stats" in r.text and "/api/search" in r.text
+
+
+def test_search_form_has_discipline_and_region_filters(c):
+    r = c.get("/search", params={"q": "boiler", "discipline": "ELE", "region": "sea"})
+    assert r.status_code == 200
+    assert 'name="discipline"' in r.text and 'name="region"' in r.text

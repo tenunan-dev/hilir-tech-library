@@ -30,7 +30,7 @@ import urllib.parse
 from hashlib import sha256
 
 from starlette.requests import Request
-from starlette.responses import HTMLResponse, JSONResponse, RedirectResponse
+from starlette.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
 from starlette.routing import Route
 
 import equipment as equipment_records
@@ -65,7 +65,7 @@ NAV_GROUPS = (
 )
 # Second-level tabs shown on every /database page (keep in step with the routes below).
 DATABASE_TABS = (("Overview", "/database"), ("SQL console", "/database/sql"), ("Semantic search", "/database/search"),
-                 ("Network", "/database/graph"), ("Atlas", "/database/map"))
+                 ("Network", "/database/graph"), ("Atlas", "/database/map"), ("API reference", "/database/api"))
 HOME_SECTORS = (("UPS", "upstream"), ("MID", "midstream"), ("GAS", "gas processing & LNG"), ("REF", "refining"),
                 ("PCH", "petrochemicals"), ("PWR", "power"), ("H2", "hydrogen"), ("CCS", "carbon capture"))
 RELS = ["published_by", "in_sector", "covers_discipline", "in_region", "in_country", "from_source", "cites",
@@ -301,6 +301,16 @@ footer .fchip:hover { text-decoration: none; filter: brightness(1.08); }
   .twocol { grid-template-columns: 1fr; }
   .card { padding: 16px; }
 }
+
+/* added: distribution bars + compare table */
+.bars { display: flex; flex-direction: column; gap: .3rem; }
+.barrow { display: flex; align-items: center; gap: .5rem; text-decoration: none; }
+.barrow .lbl { flex: 0 0 6rem; color: var(--text, #e8e6e3); font-size: .8rem; }
+.barrow .fill { display: inline-block; padding: .1rem .45rem; border-radius: .25rem;
+  color: #fff; font-size: .75rem; min-width: 1.6rem; text-align: center; opacity: .92; }
+table.cmp th[scope="row"], table.cmp tbody th { text-align: left; color: var(--muted, #8f959d);
+  font-weight: 500; white-space: nowrap; padding-right: 1rem; }
+table.cmp td, table.cmp th { vertical-align: top; }
 """
 
 # Interactive force-directed network for /database/graph. Self-contained vanilla JS on one canvas:
@@ -864,6 +874,75 @@ def _source_link(source, width=60) -> str:
     return f'<a href="{esc(url)}">{esc(_trunc((source or {}).get("note") or url, width))}</a>'
 
 
+def _distribution_cards():
+    """Home-page distribution bars: cards per sector/discipline code and per maturity."""
+    import collections
+    import pg as pg_mod
+    import server as server_mod
+    cards = pg_mod.tech_cards() if pg_mod.configured() else server_mod.compare_technologies(None, None, None)
+    if not cards:
+        return ""
+    total = len(cards)
+    by_sector = collections.Counter(c.get("sector") for c in cards)
+    by_maturity = collections.Counter(c.get("maturity") for c in cards)
+    def bars(counter, color_of, href_of):
+        out = []
+        for key, n in counter.most_common():
+            pct = max(2, round(100 * n / max(1, total)))
+            out.append(f'<a class="barrow" href="{href_of(key)}">'
+                       f'<span class="lbl">{esc(key)}</span>'
+                       f'<span class="fill" style="width:{pct}%;background:{color_of(key)}">{n}</span></a>')
+        return "".join(out)
+    sector_bars = bars(by_sector, lambda k: SECTOR_COLORS.get(k, COLOR_FALLBACK),
+                       lambda k: f"/technologies?sector={k}")
+    maturity_bars = bars(by_maturity, lambda k: "#7d8a97",
+                         lambda k: f"/technologies?maturity={k}")
+    return (f'<section class="card"><h2>Cards by sector and discipline <span class="muted small">{total} cards</span></h2>'
+            f'<div class="bars">{sector_bars}</div></section>'
+            f'<section class="card"><h2>Cards by maturity</h2><div class="bars">{maturity_bars}</div></section>')
+
+
+def _compare_table(selected):
+    """Side-by-side comparison of 2-4 technology cards."""
+    def names(card, key, n=4):
+        vals = card.get(key) or []
+        out = []
+        for v in vals[:n]:
+            out.append(v.get("name") if isinstance(v, dict) and v.get("name") else str(v))
+        more = len(vals) - len(out)
+        return "; ".join(out) + (f" (+{more})" if more > 0 else "")
+
+    def figures(card, key, n=2):
+        figs = card.get(key) or []
+        out = []
+        for f in figs[:n]:
+            if not isinstance(f, dict):
+                continue
+            lo, hi = f.get("low"), f.get("high")
+            val = f"{lo}-{hi}" if lo is not None and hi is not None and lo != hi else str(hi if hi is not None else lo)
+            out.append(f"{f.get('metric')}: {val} {f.get('unit', '')}".strip())
+        more = len(figs) - len(out)
+        return "<br>".join(esc(o) for o in out) + (esc(f" (+{more})") if more > 0 else "")
+
+    head = "".join(f'<th>{esc(c.get("name"))}</th>' for c in selected)
+    def row(label, render):
+        return f"<tr><th>{esc(label)}</th>" + "".join(f"<td>{render(c)}</td>" for c in selected) + "</tr>"
+    rows = "".join([
+        row("Sector", lambda c: _sector_badge(c.get("sector"))),
+        row("Category", lambda c: esc(c.get("category"))),
+        row("Maturity", lambda c: _maturity_badge(c.get("maturity"))),
+        row("TRL", lambda c: esc(c.get("trl") or "")),
+        row("Applications", lambda c: esc("; ".join((c.get("applications") or [])[:3]))),
+        row("Key equipment", lambda c: names(c, "key_equipment")),
+        row("Suppliers", lambda c: names(c, "suppliers")),
+        row("Performance", lambda c: figures(c, "performance") or '<span class="muted">—</span>'),
+        row("Costs", lambda c: figures(c, "costs") or '<span class="muted">—</span>'),
+        row("Reference plants", lambda c: str(len(c.get("reference_plants") or []))),
+        row("Sources cited", lambda c: str(len(c.get("sources") or []))),
+    ])
+    return f'<div class="scroll"><table class="cmp"><thead><tr><th></th>{head}</tr></thead><tbody>{rows}</tbody></table></div>'
+
+
 def _db_panel() -> str:
     steps = (
         "Create a Neon project (neon.tech).",
@@ -994,17 +1073,18 @@ def _query_vector(tools, query):
         return None
 
 
-def _run_search(tools, query, kind, sector):
+def _run_search(tools, query, kind, sector, discipline=None, region=None):
     """Search over Neon hybrid_search first (decision #34 Phase 1), the SQLite index as fallback.
     Returns (results, semantic_badge) — the badge is honest about whether fusion was possible."""
     if pg.configured():
         try:
             qvec = _query_vector(tools, query)
-            return (pg.search_library(query, kind or "all", sector or None, 30, qvec),
+            return (pg.search_library(query, kind or "all", sector or None, 30, qvec,
+                                      discipline or None, region or None),
                     pg.search_vector_count() > 0 and qvec is not None)
         except (pg.NotConfigured, pg.DatabaseError):
             pass
-    results = tools.search(query, kind or "all", sector or None, None, None, None, 30)
+    results = tools.search(query, kind or "all", sector or None, discipline or None, region or None, None, 30)
     try:
         n_vectors = tools.db().execute("SELECT count(*) FROM vectors").fetchone()[0]
     except Exception:
@@ -1024,6 +1104,10 @@ def _bad_request(message) -> HTMLResponse:
 
 
 SECTOR_OPTIONS = [("", "any sector")] + [(c, c) for c in SECTOR_SELECT]
+DISCIPLINE_SELECT = ["PRC", "ROT", "ELE", "CIV", "INS", "MAT", "HSE", "DIG"]
+DISCIPLINE_OPTIONS = [("", "any discipline")] + [(c, c) for c in DISCIPLINE_SELECT]
+REGION_SELECT = ["global", "apac", "sea", "me", "eu", "na", "latam", "af"]
+REGION_OPTIONS = [("", "any region")] + [(c, c) for c in REGION_SELECT]
 MATURITY_OPTIONS = [("", "any maturity")] + [(m, m) for m in MATURITIES]
 KIND_OPTIONS = [("all", "all"), ("source", "source"), ("chunk", "chunk"), ("technology", "technology"),
                 ("vendor", "vendor"), ("equipment", "equipment")]
@@ -1044,8 +1128,8 @@ def routes(tools) -> list:
             for code, label in HOME_SECTORS)
         library_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
                                f'<span class="sp"></span><span class="arr">→</span></a>' for label, href in (
-            ("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
-            ("Equipment", "/equipment"),
+            ("Technologies", "/technologies"), ("Compare", "/compare"), ("Register", "/register"),
+            ("Vendors", "/vendors"), ("Equipment", "/equipment"),
             ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps")))
         database_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
                                 f'<span class="sp"></span><span class="arr">→</span></a>'
@@ -1063,17 +1147,24 @@ def routes(tools) -> list:
             f'<section class="card"><h2>Library</h2>{library_rows}</section>'
             '</div>'
             f'<section class="card"><h2>Database</h2>{database_rows}</section>')
+        try:
+            body += _distribution_cards()
+        except Exception:
+            pass  # charts are additive; never block the home page
         return _page("Oil, gas and energy technologies", body)
 
     async def search(request: Request):
         qp = request.query_params
         query, kind, sector = str(qp.get("q") or ""), str(qp.get("kind") or ""), str(qp.get("sector") or "")
+        discipline, region = str(qp.get("discipline") or ""), str(qp.get("region") or "")
         body = ['<section class="card"><form class="filters" method="get" action="/search">'
                 f'<input type="search" name="q" value="{esc(query)}" placeholder="Search sources, passages and cards" size="34"> '
                 + _select("kind", KIND_OPTIONS, kind or "all") + " " + _select("sector", SECTOR_OPTIONS, sector)
+                + " " + _select("discipline", DISCIPLINE_OPTIONS, discipline)
+                + " " + _select("region", REGION_OPTIONS, region)
                 + ' <button type="submit">Search</button></form></section>']
         if query.strip():
-            results, semantic = _run_search(tools, query, kind, sector)
+            results, semantic = _run_search(tools, query, kind, sector, discipline, region)
             # honest badge: fusion happens when the data layer holds stored vectors and the
             # query embeds locally (fastembed) or via the edge service
             mode = _badge("semantic") if semantic else _badge("keyword only")
@@ -1154,6 +1245,98 @@ def routes(tools) -> list:
         if diagram:
             body.append(MERMAID_SCRIPT)
         return _page(str(card.get("name") or card.get("id")), "".join(body), active="/technologies")
+
+    async def compare(request: Request):
+        qp = request.query_params
+        ids = [str(v).strip() for v in qp.getlist("ids") if str(v).strip()]
+        flat: list[str] = []
+        for chunk in ids:
+            flat += [p.strip() for p in chunk.split(",") if p.strip()]
+        flat = flat[:4]
+        items = _neon_first(
+            lambda: pg.tech_cards(),
+            lambda: tools.compare_technologies(None, None, None))
+        by_id = {i.get("id"): i for i in items}
+        selected = [by_id[i] for i in flat if i in by_id]
+        options = sorted(((c.get("id"), f'{c.get("name")} [{c.get("sector")}]') for c in items),
+                         key=lambda o: str(o[1]).lower())
+        multi = '<select name="ids" multiple size="10" style="min-width:28rem">' + "".join(
+            f'<option value="{esc(oid)}"{" selected" if oid in flat else ""}>{esc(label)}</option>'
+            for oid, label in options) + "</select>"
+        body = ['<section class="card"><form class="filters" method="get" action="/compare">'
+                + multi + ' <button type="submit">Compare</button></form>'
+                + '<p class="muted small">Pick two to four technology cards; deep-link with ?ids=a,b,c.</p></section>']
+        if len(selected) >= 2:
+            body.append(_section("Side by side", _compare_table(selected)))
+        else:
+            body.append(_section("", '<p class="muted">Select at least two technologies to compare.</p>'))
+        return _page("Compare technologies", "".join(body), active="/technologies")
+
+    async def api_reference(request: Request):
+        import api as api_module
+        spec = api_module.openapi_spec(str(request.base_url).rstrip("/"))
+        rows = []
+        for path, methods in sorted(spec.get("paths", {}).items()):
+            for method, op in methods.items():
+                if method in ("get", "post", "put", "patch", "delete"):
+                    summary = op.get("summary") or (op.get("description") or "").split(".")[0]
+                    rows.append(f"<tr><td><span class=\"pill\">{method.upper()}</span></td>"
+                                f"<td><code>{esc(path)}</code></td><td>{esc(summary)}</td></tr>")
+        note = ('<p class="muted small">Machine access is at <code>techlib-api.hilir.app</code> (MCP + REST) '
+                'behind hilir Access; the schema itself is public at <a href="https://techlib-api.hilir.app/api/openapi.json">/api/openapi.json</a>. '
+                'This reference is generated from that schema.</p>')
+        body = ('<section class="card"><h2>REST endpoints</h2>' + note
+                + f'<div class="scroll"><table><thead><tr><th>Method</th><th>Path</th><th>Purpose</th></tr></thead>'
+                f'<tbody>{"".join(rows)}</tbody></table></div></section>')
+        return _page("API reference", body, active="/database")
+
+    async def export_csv(request: Request):
+        import csv as _csv
+        import io as _io
+        kind = str(request.query_params.get("kind") or "technologies")
+        def _row(cells):
+            return cells
+        if kind == "technologies":
+            items = _neon_first(lambda: pg.tech_cards(), lambda: tools.compare_technologies(None, None, None))
+            head = ["id", "name", "sector", "category", "maturity", "trl", "applications", "suppliers",
+                    "performance_figures", "cost_figures", "reference_plants"]
+            rows = [_row([c.get("id"), c.get("name"), c.get("sector"), c.get("category"), c.get("maturity"),
+                          c.get("trl") or "", "; ".join(c.get("applications") or []),
+                          "; ".join(s.get("name") for s in c.get("suppliers") or [] if isinstance(s, dict)),
+                          len(c.get("performance") or []), len(c.get("costs") or []),
+                          len(c.get("reference_plants") or [])]) for c in items]
+        elif kind == "vendors":
+            items = _neon_first(lambda: pg.vendor_rows(None, None, None),
+                                lambda: tools.list_vendors(None, None, None))
+            head = ["id", "name", "country", "roles", "categories", "technologies"]
+            rows = [_row([v.get("id"), v.get("name"), v.get("country"),
+                          "; ".join(v.get("roles") or []), "; ".join(v.get("categories") or []),
+                          "; ".join(v.get("technologies") or [])]) for v in items]
+        elif kind == "sources":
+            items = _neon_first(lambda: pg.source_rows(None, None, None, None),
+                                lambda: tools.list_by_tag(None, None, None, None))
+            head = ["id", "name", "source_type", "sectors", "disciplines", "access", "licence",
+                    "reuse_level", "quality_tier", "url"]
+            rows = [_row([s.get("id"), s.get("name"), s.get("source_type"),
+                          "; ".join(s.get("sectors") or []), "; ".join(s.get("disciplines") or []),
+                          s.get("access"), s.get("licence"), s.get("reuse_level"),
+                          s.get("quality_tier"), s.get("url")]) for s in items]
+        elif kind == "equipment":
+            items = _neon_first(lambda: pg.equipment_rows(None, None),
+                                lambda: tools.list_equipment(None, None))
+            head = ["id", "name", "equipment_type", "applications", "vendors"]
+            rows = [_row([e.get("id"), e.get("name"), e.get("equipment_type"),
+                          "; ".join(e.get("applications") or []),
+                          "; ".join(v.get("vendor") if isinstance(v, dict) else str(v) for v in e.get("vendors") or [])])
+                    for e in items]
+        else:
+            return _bad_request("Unknown export kind. Use technologies, vendors, sources or equipment.")
+        buf = _io.StringIO()
+        writer = _csv.writer(buf)
+        writer.writerow(head)
+        writer.writerows(rows)
+        return Response(buf.getvalue(), media_type="text/csv; charset=utf-8",
+                        headers={"Content-Disposition": f'attachment; filename="techlib-{kind}.csv"'})
 
     async def vendors_page(request: Request):
         qp = request.query_params
@@ -1742,6 +1925,9 @@ def routes(tools) -> list:
         Route("/search", gated(search)),
         Route("/technologies", gated(technologies)),
         Route("/technologies/{technology_id}", gated(technology)),
+        Route("/compare", gated(compare)),
+        Route("/export", gated(export_csv)),
+        Route("/database/api", gated(api_reference)),
         Route("/vendors", gated(vendors_page)), Route("/equipment", gated(equipment_page)),
         Route("/register", gated(register)),
         Route("/sources", gated(sources)),
