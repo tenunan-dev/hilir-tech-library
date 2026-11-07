@@ -300,8 +300,6 @@ class RequireHilirToken:
         if scope["type"] == "http" and scope["path"] not in api.PUBLIC_PATHS \
                 and not (self.web and web.is_web_path(scope["path"])):
             headers = dict(scope["headers"])
-            dsn = headers.get(b"x-user-store-dsn")
-            userstore.set_dsn_from_header(dsn.decode("utf-8", "replace") if dsn is not None else None)
             raw = headers.get(b"authorization", b"").removeprefix(b"Bearer ").strip()
             token = raw.decode("utf-8", "replace")
             # verify() accepts BOTH credentials: a JWT (local JWKS check) and

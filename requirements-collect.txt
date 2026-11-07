@@ -1,4 +1,4 @@
 requests>=2.31
 trafilatura>=1.8
-pypdf>=4.0
+pypdf>=6.21.4
 defusedxml>=0.7

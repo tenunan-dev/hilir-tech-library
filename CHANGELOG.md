@@ -8,6 +8,36 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.07] — 2026-11-07 — Security audit follow-ups: DSN header retired, safeNext bypass fixed, containers drop root
+
+### Changed
+- **The per-request `x-user-store-dsn` header is retired.** The containers read
+  `USER_STORE_URL`/`DATABASE_URL` from their own compose env (they always carried it);
+  `agent/userstore.py` loses `set_dsn_from_header`, and the ASGI/web gates no longer adopt a DSN
+  from request data. The backend Worker drops any client-supplied value and no longer sets the
+  header; the frontend Worker keeps setting it from its own secret until its file clears the
+  Mimosa edit gate (the container ignores it either way). Rationale: a credential-bearing DSN in
+  a request header is not an industry-acceptable pattern, and the header added no capability.
+- **Containers run as a non-root user** (`useradd --system --uid 10001 library` + `USER library`
+  in both Dockerfiles) — CIS Docker hardening; nothing in the images needs root.
+- **`@tenunan-dev/hilir-auth` 0.5.3** (estate package, published by tag `auth-v0.5.3` in
+  hilir-access): `safeNext()` now rejects the backslash protocol-relative bypass — WHATWG URL
+  parsers fold `/\` into `//`, which made `/\evil.com` a same-origin-looking redirect to an
+  external origin after sign-in (OWASP-documented). Workers bumped to `^0.5.3` and typechecked.
+- Stale comments corrected: the backend Worker header no longer describes the deleted API-key
+  design; `images.yml` now says the ghcr images are public (matching HOSTING.md); both Dockerfile
+  headers describe the current env-based secret flow.
+
+### Fixed
+- `pypdf` floor raised to `>=6.21.4` (venv upgraded to 7.0.0): the collector parses untrusted
+  PDFs and 6.21.2 carried 10 open CVEs (Mimosa's dependency summary, identified with pip-audit).
+
+### Verified
+- `tools/build.py` 400/299/421/8; `pytest -q tests` 857 passed, 12 skipped; backend `npm test`
+  3 pass; `tsc --noEmit` clean in all three Workers; the installed hilir-auth 0.5.3 dist rejects
+  `//evil.com`, `/\evil.com` and `/\` while keeping `/dashboard`, `/2026/x`, `/`.
+- Live after deploy: the HOSTING/AUTH curl matrix (reported in STATUS.md).
+
 ## [2026.11.06] — 2026-11-06 — Documentation to the new estate; agent-agnostic development runbook
 
 ### Added

@@ -4,8 +4,8 @@
 # GitHub runners handle that; the 4 GB VPS must never try.
 #
 # Trigger: manual (workflow_dispatch) or a version tag (v*). Every run pushes
-# :latest plus a ref tag (branch or tag name). Images are PRIVATE on ghcr.io;
-# the VPS pulls with a read-only PAT.
+# :latest plus a ref tag (branch or tag name). Images are PUBLIC on ghcr.io
+# (docs/HOSTING.md current state); the VPS pulls with no token.
 name: images
 
 on:

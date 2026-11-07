@@ -18,6 +18,9 @@ RUN pip install --no-cache-dir -r requirements-agent.txt "psycopg[binary]>=3.1" 
  && OMP_NUM_THREADS=4 python -c "import sys; sys.path.insert(0, 'agent'); import embed; from fastembed import TextEmbedding; TextEmbedding(model_name=embed.DEFAULT_MODEL)"
 ENV PORT=8000
 EXPOSE 8000
-# LIBRARY_API_KEY, DATABASE_URL, USER_STORE_URL, LIBRARY_USERS and LIBRARY_API_PUBLIC_URL are
-# set at run time by the frontend Worker (a secret, never baked in).
+# DATABASE_URL (read-only Neon role) and USER_STORE_URL (library_app role) come from the
+# container's own environment (/srv/hilir/techlib/.env via compose) — never baked in.
+# Run as an unprivileged user (CIS Docker benchmark); nothing in the image needs root.
+RUN useradd --system --uid 10001 library
+USER library
 CMD ["python", "agent/server.py", "--http"]

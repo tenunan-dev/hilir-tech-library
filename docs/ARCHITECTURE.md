@@ -227,8 +227,9 @@ Three Cloudflare Workers and two containers (topology, secrets and the publish p
 
 Both containers are slim (no embed step; the index builds in-image, embeddings come from the publish
 pipeline), read Neon live, and re-verify the bearer themselves (`agent/auth.py`) before answering.
-`x-origin-token` gates Caddy and `x-user-store-dsn` carries the per-request Neon DSN for the admin
-layer. `deploy/cloudflare/` is the retired pre-split single Worker, kept for rollback only.
+`x-origin-token` gates Caddy. The containers read `DATABASE_URL`/`USER_STORE_URL` from their own
+compose env — the former per-request `x-user-store-dsn` header was retired 2026-11-07.
+`deploy/cloudflare/` is the retired pre-split single Worker, kept for rollback only.
 
 
 ### Automation (`.github/workflows/`)

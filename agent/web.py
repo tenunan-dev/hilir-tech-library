@@ -1516,7 +1516,6 @@ def routes(tools) -> list:
 
     def gated(handler):
         async def with_gate(request: Request):
-            userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
             account = _account(request)
             if account is None:
                 # The edge owns /login (the OIDC sign-in), so this redirect lands
@@ -1534,7 +1533,6 @@ def routes(tools) -> list:
 
     def admin_gated(handler):
         async def with_gate(request: Request):
-            userstore.set_dsn_from_header(request.headers.get(userstore.HEADER_DSN))
             account = _account(request)
             if account is None:
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)

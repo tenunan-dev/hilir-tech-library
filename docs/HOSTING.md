@@ -13,9 +13,12 @@ and must not be followed. Auth rules: `docs/AUTH.md`; estate record: `hilir-acce
 | API + UI containers | VPS `15.235.248.33`, compose `/srv/hilir/techlib` (images `ghcr.io/tenunan-dev/hilir-tech-library-{api,ui}:latest`, public) | only via the Workers + Caddy (`techlib-origin.hilir.app`, `ORIGIN_TOKEN`) | container re-verifies the bearer (PyJWT, EdDSA) and reads roles from Neon |
 | Access | `access.hilir.app` (sibling repo) | — | identity + keys |
 
-Headers between Worker and container: `x-origin-token` (Caddy gate), `x-user-store-dsn`
-(per-request Neon DSN). A key that arrives in `x-api-key` is re-attached as
-`Authorization: Bearer` by the API Worker (Power Automate API-Key shape).
+Header between Worker and container: `x-origin-token` (Caddy gate). The containers read
+`DATABASE_URL`/`USER_STORE_URL` from their own compose env — the per-request
+`x-user-store-dsn` header was retired 2026-11-07 (a credential in a request header is not an
+acceptable pattern; the container has held the same value in `.env` all along). A key that
+arrives in `x-api-key` is re-attached as `Authorization: Bearer` by the API Worker (Power
+Automate API-Key shape).
 
 ## Public surface
 

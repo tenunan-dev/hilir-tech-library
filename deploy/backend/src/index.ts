@@ -3,12 +3,12 @@
 // this domain). Owner-confirmed domain 2026-10-31 (P0.3); /__embed retired the same day (P3.1) —
 // both split containers embed queries locally, so the edge service had no callers left.
 //
-// Two ways in:
-// - API key (x-api-key or Authorization: Bearer) for /api; the Worker checks it at the edge so
-//   unauthenticated requests never wake the container.
-// - OAuth for /mcp, for clients that only connect by URL with a sign-in (claude.ai connectors).
-//   The sign-in page asks for the same API key, so only the owner can grant access.
-// Per-user keys (hlt_…) are resolved inside the container, which owns the account store.
+// Two credentials, one gate (docs/AUTH.md):
+// - an hilir Access access token (Authorization: Bearer) — verified locally with jose
+//   (machineGate below), aud = a registered resource origin;
+// - a person's estate key (x-api-key or Authorization: Bearer) — introspected at Access
+//   with this worker's own client credentials (RFC 7662).
+// The container re-verifies the bearer and reads roles from Neon (its own USER_STORE_URL env).
 //
 // Forwarding form: requests reach the container as <method> https://library.internal<path>?<query>
 // with rewritten headers — the client's URL never travels (no pass-through of caller-controlled
@@ -27,7 +27,6 @@ const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
 
 interface Env {
-  USER_STORE_URL?: string; // account-store DSN (roles); forwarded per request
   HILIR_ISSUER: string; // https://access.hilir.app/api/auth
   /** Comma-separated registered RFC 8707 resource origins this API serves —
    *  the token's aud. NEVER a client name: the UI origin (tokens forwarded by
@@ -144,12 +143,15 @@ async function machineGate(request: Request, env: Env): Promise<Response | null>
   return null;
 }
 
-function storeDsnHeaders(request: Request, env: Env): Headers {
+function containerHeaders(request: Request, env: Env): Headers {
   const headers = new Headers(request.headers);
-  headers.set("x-user-store-dsn", env.USER_STORE_URL ?? "");
   // Step 3 (2026-11-05): the verified bearer travels to the container — it is
   // the only credential (machineGate already checked iss/aud/scope; the
   // container verifies it again and resolves the role row). No API keys exist.
+  // The account store's DSN lives in the container's own USER_STORE_URL env —
+  // the per-request x-user-store-dsn header was retired 2026-11-07, and any
+  // client-supplied value is dropped here rather than forwarded.
+  headers.delete("x-user-store-dsn");
   headers.delete("x-api-key");
   // The container's bearer() reads only the Authorization header, so a key
   // that arrived in the estate's x-api-key header (Power Automate API-Key
@@ -162,7 +164,7 @@ function storeDsnHeaders(request: Request, env: Env): Headers {
 }
 
 async function toContainer(request: Request, env: Env): Promise<Response> {
-  const headers = storeDsnHeaders(request, env);
+  const headers = containerHeaders(request, env);
   const url = new URL(request.url);
   const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
   // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS now — the

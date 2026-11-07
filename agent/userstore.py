@@ -10,6 +10,12 @@ password is stored (the schema's hash column stays, empty). All writes are
 single autocommit statements so the store is safe behind transaction-mode
 poolers. Event recording never raises: analytics must not break a page. SQL
 strings stay on one line each; every value goes in as a %s parameter.
+
+The store's DSN comes from the container's own environment only (compose passes
+USER_STORE_URL from /srv/hilir/techlib/.env). The former per-request
+x-user-store-dsn header was retired 2026-11-07: a credential-bearing DSN in a
+request header is not an industry-acceptable pattern, and the container has
+held the same value in its env all along.
 """
 import os
 import time
@@ -27,32 +33,6 @@ _accounts_at = 0.0
 
 def configured() -> bool:
     return bool(os.environ.get(DSN_ENV))
-
-
-HEADER_DSN = "x-user-store-dsn"
-
-
-def set_dsn_from_header(value: str | None):
-    """Adopt the Worker-supplied DSN for this request (the edge overwrites the header from its
-    secret, so containers predating a rotation still see the current value). None = header absent
-    (local runs: leave the env alone); "" = the secret is unset (store off); else the DSN."""
-    global _conn, _conn_at, _accounts, _accounts_at
-    if value is None:
-        return
-    value = value.strip()
-    if value == os.environ.get(DSN_ENV):
-        return
-    if _conn is not None:
-        try:
-            _conn.close()
-        except Exception:
-            pass
-    _conn, _conn_at = None, 0.0
-    _accounts, _accounts_at = None, 0.0
-    if value:
-        os.environ[DSN_ENV] = value
-    else:
-        os.environ.pop(DSN_ENV, None)
 
 
 def _db():
