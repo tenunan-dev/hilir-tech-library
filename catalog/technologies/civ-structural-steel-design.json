@@ -1,0 +1,92 @@
+{
+ "id": "civ-structural-steel-design",
+ "name": "Plant structural steel design",
+ "aliases": [
+  "structural steelwork",
+  "plant steel",
+  "pipe rack steel",
+  "support structures"
+ ],
+ "sector": "CIV",
+ "category": "Structures",
+ "applications": [
+  "process unit structures",
+  "pipe racks",
+  "equipment supports",
+  "offshore topsides",
+  "buildings"
+ ],
+ "maturity": "commercial",
+ "principle": "Process plants are steel frames carrying piping, equipment, platforms and loads under gravity, wind, thermal, seismic and blast demands. Designers size members and connections to structural steel codes (EN 1993, AISC 360, ISO 19902 offshore) with deflection and vibration limits that matter as much as strength: pipe rack spans, equipment nozzle flexibility and platform vibration all drive the geometry. Hot-rolled sections dominate onshore; plate girders, tubulars and cast nodes dominate offshore.",
+ "process_steps": [
+  {
+   "id": "LDG",
+   "name": "Loads gathered: dead, live, piping, wind, seismic, thermal, blast",
+   "equipment": [
+    "load models"
+   ]
+  },
+  {
+   "id": "FRM",
+   "name": "Arrangement set: bays, bracing, support locations aligned with piping and access",
+   "equipment": [
+    "layout"
+   ]
+  },
+  {
+   "id": "DSN",
+   "name": "Members and connections designed to code with serviceability checks",
+   "equipment": [
+    "analysis models"
+   ]
+  },
+  {
+   "id": "DET",
+   "name": "Detailing, galvanising/painting, and connection design for fabrication",
+   "equipment": [
+    "detail drawings"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "hot-rolled beams and columns",
+  "bracing",
+  "base plates and anchors",
+  "gratings and handrails"
+ ],
+ "suppliers": [
+  {
+   "name": "Bechtel",
+   "product": "EPC structural engineering"
+  },
+  {
+   "name": "Fluor",
+   "product": "EPC structural engineering"
+  },
+  {
+   "name": "Saipem",
+   "product": "EPC structural engineering"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "late piping changes propagate into steel redesign \u2014 freezing steelwork late is the classic schedule risk",
+  "thermal expansion of headers needs sliding supports and guides that survive both hot and cold cases"
+ ],
+ "advantages": [
+  "standardised, fabricable, demountable framing suits modular construction",
+  "steel density keeps topsides weight \u2014 the offshore design currency \u2014 under control"
+ ],
+ "sources": [
+  {
+   "url": "https://www.hse.gov.uk/electricity/",
+   "source_id": "hse-uk",
+   "note": "HSE structural and workplace safety guidance framing, read 2026-11-07"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Structural_steel",
+   "note": "background on structural steel grades and sections; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

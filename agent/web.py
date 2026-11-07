@@ -46,7 +46,7 @@ import vendors as vendor_records
 
 # keep in sync with the edge: deploy/frontend/src/index.ts (UI_PREFIXES)
 PREFIXES = ("/search", "/technologies", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account")
-SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "INS", "MAT", "HSE", "DIG"]
+SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "ELE", "CIV", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
 GAP_FIELDS = ["trl", "performance", "costs", "reference_plants", "suppliers", "status", "process", "other", "card"]

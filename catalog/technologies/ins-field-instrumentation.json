@@ -1,0 +1,99 @@
+{
+ "id": "ins-field-instrumentation",
+ "name": "Field instrumentation",
+ "aliases": [
+  "transmitters",
+  "pressure and temperature instruments",
+  "level measurement",
+  "flowmeters",
+  "smart instruments"
+ ],
+ "sector": "INS",
+ "category": "Measurement",
+ "applications": [
+  "process control loops",
+  "safety instrumented functions",
+  "custody and allocation points",
+  "flare and emissions metering",
+  "condition inputs to machinery systems"
+ ],
+ "maturity": "commercial",
+ "principle": "Field instruments sense process conditions and transmit standardised signals (4-20 mA with HART, or fieldbus) to the control and safety systems. Pressure, temperature, level and flow dominate: differential-pressure transmitters with orifice plates or integrated DP flowmeters, coriolis and magnetic flowmeters, thermocouples and RTDs, radar and guided-wave level, and vibration sensors on machinery. Selection trades accuracy, rangeability, process compatibility, Ex protection and SIL capability, with diagnostics (NAMUR NE 107 status) reporting instrument health to the DCS.",
+ "process_steps": [
+  {
+   "id": "SEN",
+   "name": "Primary element senses pressure, temperature, level or flow",
+   "equipment": [
+    "transmitters",
+    "primary elements"
+   ]
+  },
+  {
+   "id": "XMT",
+   "name": "Signal conditioned and transmitted digitally or by 4-20 mA",
+   "equipment": [
+    "smart transmitters"
+   ]
+  },
+  {
+   "id": "INT",
+   "name": "Control or safety system consumes the measurement",
+   "equipment": [
+    "DCS inputs",
+    "SIS inputs"
+   ]
+  },
+  {
+   "id": "DIA",
+   "name": "Onboard diagnostics report status per NAMUR NE 107",
+   "equipment": [
+    "asset management"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "pressure and DP transmitters",
+  "temperature assemblies",
+  "radar and guided-wave level",
+  "coriolis and magnetic flowmeters",
+  "vibration sensors"
+ ],
+ "suppliers": [
+  {
+   "name": "Emerson",
+   "product": "Rosemount instrumentation"
+  },
+  {
+   "name": "Endress+Hauser",
+   "product": "flow, level and analysis"
+  },
+  {
+   "name": "Yokogawa",
+   "product": "EJA transmitters"
+  },
+  {
+   "name": "ABB",
+   "product": "instrumentation portfolio"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "installation effects (straight-run lengths, nozzle geometry) dominate flowmeter accuracy more than the meter itself",
+  "impulse lines freeze and plug; direct-mount and electronic DP reduce that exposure"
+ ],
+ "advantages": [
+  "smart diagnostics turn instrument faults from surprises into work orders",
+  "one transmitter family serves control, safety and custody duties"
+ ],
+ "sources": [
+  {
+   "url": "https://www.emerson.com/",
+   "note": "Rosemount measurement portfolio, read 2026-11-07"
+  },
+  {
+   "url": "https://www.namur.net/",
+   "note": "NAMUR NE 107 instrument diagnostics framework, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

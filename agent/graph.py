@@ -91,7 +91,7 @@ def build_graph(root=None, corpus=None):
 
     for code, name in labels.items():
         kind = "sector" if code in SECTOR_CODES else (
-            "discipline" if code in {"PRC", "ROT", "INS", "MAT", "HSE", "DIG"} else "region")
+            "discipline" if code in {"PRC", "ROT", "ELE", "CIV", "INS", "MAT", "HSE", "DIG"} else "region")
         g.node(f"{kind}:{code}", kind, name)
     for code, name in library.COUNTRIES.items():
         g.node(f"country:{code}", "country", name.rsplit(" ", 1)[0] if code in ("GB", "US") else name)

@@ -1,0 +1,103 @@
+{
+ "id": "ele-motors-drives",
+ "name": "Motors and variable speed drives",
+ "aliases": [
+  "induction motors",
+  "VFD",
+  "VSD",
+  "soft starter",
+  "MV motors",
+  "IE efficiency classes"
+ ],
+ "sector": "ELE",
+ "category": "Electrical drives",
+ "applications": [
+  "pump and compressor drivers",
+  "fans and blowers",
+  "conveyors",
+  "electric subsea pumping",
+  "utility systems"
+ ],
+ "maturity": "commercial",
+ "principle": "Three-phase induction motors remain the workhorse driver; synchronous machines serve large compressors and high-efficiency duties. Efficiency classes IE1 to IE5 are defined in IEC 60034-30-1 for line-operated motors. Variable frequency drives rectify the supply and synthesise an adjustable-voltage, adjustable-frequency output, giving soft starts, process speed control, energy savings on centrifugal loads (affinity laws: power roughly follows speed cubed) and regenerative braking on hoisting duties. Drives inject harmonics, so input filters or multi-pulse/active front ends are applied.",
+ "process_steps": [
+  {
+   "id": "REC",
+   "name": "Drive rectifier converts AC supply to DC bus",
+   "equipment": [
+    "rectifier",
+    "DC link"
+   ]
+  },
+  {
+   "id": "INV",
+   "name": "Inverter synthesises variable-frequency output",
+   "equipment": [
+    "IGBT inverter",
+    "output filter"
+   ]
+  },
+  {
+   "id": "MOT",
+   "name": "Motor converts electrical to mechanical power",
+   "equipment": [
+    "induction or synchronous motor"
+   ]
+  },
+  {
+   "id": "CTRL",
+   "name": "Closed-loop control (V/f, flux vector) tracks torque and speed references",
+   "equipment": [
+    "drive controller",
+    "encoder"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "induction motors",
+  "synchronous motors",
+  "variable frequency drives",
+  "soft starters",
+  "harmonic filters",
+  "motor protection relays"
+ ],
+ "suppliers": [
+  {
+   "name": "ABB",
+   "product": "motors and drives, ACS family"
+  },
+  {
+   "name": "WEG",
+   "product": "motors and MV drives"
+  },
+  {
+   "name": "Siemens Energy",
+   "product": "large drives and motors"
+  },
+  {
+   "name": "Nidec",
+   "product": "industrial motors"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "long cable runs to MV motors need reflected-wave management and surge protection",
+  "harmonic distortion and bearing currents are managed by filters and insulated bearings"
+ ],
+ "advantages": [
+  "cube-law energy savings on centrifugal loads",
+  "replaces control valves and dampers with speed control, cutting throttling losses"
+ ],
+ "sources": [
+  {
+   "url": "https://www.energy.gov/eere/amo/motors",
+   "note": "US DOE Advanced Manufacturing Office motors programme, read 2026-11-07"
+  },
+  {
+   "url": "https://www.iec.ch/standards",
+   "source_id": "iec-standards",
+   "note": "IEC 60034-30-1, IEC web catalogue"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

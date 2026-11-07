@@ -1,0 +1,100 @@
+{
+ "id": "ele-power-management-systems",
+ "name": "Power management and electrical SCADA",
+ "aliases": [
+  "PMS",
+  "electrical SCADA",
+  "load shedding",
+  "islanding management",
+  "automatic synchronisation"
+ ],
+ "sector": "ELE",
+ "category": "Electrical automation",
+ "applications": [
+  "offshore and FPSO power plants",
+  "remote site generation",
+  "industrial complexes with cogeneration",
+  "island-mode operation",
+  "utility interfaces"
+ ],
+ "maturity": "commercial",
+ "principle": "A power management system supervises generation, tie-lines and major loads: it schedules and dispatches running generator sets, synchronises and parallels them, maintains frequency and voltage, arms staged load shedding for generator or tie loss, and manages islanding and re-synchronisation with the grid. PMS logic sits on electrical SCADA above the protection relays and complements them \u2014 protection clears faults in milliseconds while the PMS re-balances the network in seconds.",
+ "process_steps": [
+  {
+   "id": "MEAS",
+   "name": "Network measured from IEDs and meters over IEC 61850/Modbus",
+   "equipment": [
+    "IEDs",
+    "gateway"
+   ]
+  },
+  {
+   "id": "DSP",
+   "name": "Generation dispatched and synchronised against demand and reserve targets",
+   "equipment": [
+    "PMS controller",
+    "synchronisers"
+   ]
+  },
+  {
+   "id": "SHD",
+   "name": "Staged load shedding armed and executed on disturbance",
+   "equipment": [
+    "load-shed relays"
+   ]
+  },
+  {
+   "id": "ISL",
+   "name": "Islanding, closed-bus transfer and re-sync managed",
+   "equipment": [
+    "transfer schemes"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "PMS controllers",
+  "electrical SCADA",
+  "protection relays and IEDs",
+  "synchronisers",
+  "load-shed schemes"
+ ],
+ "suppliers": [
+  {
+   "name": "GE Vernova",
+   "product": "power management systems"
+  },
+  {
+   "name": "ABB",
+   "product": "electrical SCADA and PMS"
+  },
+  {
+   "name": "Schneider Electric",
+   "product": "EcoStruxure Power and PMS"
+  },
+  {
+   "name": "Hitachi Energy",
+   "product": "grid automation"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "PMS misbehaviour in transient studies is a classic commissioning risk; full simulation testing is required",
+  "load-shed priority lists must track the current process state to stay safe"
+ ],
+ "advantages": [
+  "keeps island networks stable through large motor starts and unit trips",
+  "reduces installed generation margin by managing demand actively"
+ ],
+ "sources": [
+  {
+   "url": "https://www.gevernova.com/",
+   "note": "GE Vernova grid and power management offering, read 2026-11-07"
+  },
+  {
+   "url": "https://www.iec.ch/standards",
+   "source_id": "iec-standards",
+   "note": "IEC 61850 substation automation communications, IEC web catalogue"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

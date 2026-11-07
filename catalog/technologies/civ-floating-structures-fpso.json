@@ -1,0 +1,96 @@
+{
+ "id": "civ-floating-structures-fpso",
+ "name": "FPSO and floating production structures",
+ "aliases": [
+  "FPSO",
+  "floating production",
+  "spread-moored",
+  "turret-moored",
+  "FLNG hulls",
+  "semi-subs"
+ ],
+ "sector": "CIV",
+ "category": "Offshore structures",
+ "applications": [
+  "deepwater and remote field development",
+  "marginal and short-bleed-life fields",
+  "harsh-environment production",
+  "FLNG"
+ ],
+ "maturity": "commercial",
+ "principle": "Floating production systems keep process plant on a floating hull: converted tankers or newbuild FPSOs, semi-submersibles or spar hulls, held by moorings or dynamic positioning. Turret-moored FPSOs weathervane into the environment with a swivel stack carrying fluids, power and signals; spread-moored units suit calm or unidirectional seas. Hull design, station-keeping, riser and umbilical dynamics, and motion effects on process equipment (sloshing, level control, rotating equipment limits) define the engineering.",
+ "process_steps": [
+  {
+   "id": "HUL",
+   "name": "Hull built or converted with topsides integration",
+   "equipment": [
+    "shipyard"
+   ]
+  },
+  {
+   "id": "MOO",
+   "name": "Mooring system designed, pre-laid and hooked up",
+   "equipment": [
+    "mooring lines",
+    "turret"
+   ]
+  },
+  {
+   "id": "RIS",
+   "name": "Risers and umbilicals connected, flexible or rigid",
+   "equipment": [
+    "risers",
+    "swivel stack"
+   ]
+  },
+  {
+   "id": "PRO",
+   "name": "Production, offloading and ballast operations managed around weather",
+   "equipment": [
+    "offloading systems"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "hull",
+  "mooring system",
+  "turret and swivel stack",
+  "risers",
+  "offloading systems"
+ ],
+ "suppliers": [
+  {
+   "name": "SBM Offshore",
+   "product": "FPSO lease and operate"
+  },
+  {
+   "name": "Modec",
+   "product": "FPSO EPC and operation"
+  },
+  {
+   "name": "Yinson Production",
+   "product": "FPSO EPC and operation"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "motion, sloshing and fatigue limit equipment choices and inspection access",
+  "mooring integrity over 20-25 year service is a monitored, classed lifetime obligation"
+ ],
+ "advantages": [
+  "no fixed infrastructure left after field life \u2014 FPSOs disconnect and redeploy",
+  "wellhead and storage combined; works where building platforms is uneconomic"
+ ],
+ "sources": [
+  {
+   "url": "https://www.sbmoffshore.com/",
+   "note": "SBM Offshore FPSO fleet and technology pages, read 2026-11-07"
+  },
+  {
+   "url": "https://www.offshore-mag.com/",
+   "source_id": "offshore-mag",
+   "note": "FPSO project and technology coverage, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

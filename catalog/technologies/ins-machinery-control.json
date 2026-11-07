@@ -1,0 +1,93 @@
+{
+ "id": "ins-machinery-control",
+ "name": "Turbomachinery control systems",
+ "aliases": [
+  "turbine control",
+  "compressor control",
+  "anti-surge control",
+  "performance control",
+  "turbo control systems"
+ ],
+ "sector": "INS",
+ "category": "Machinery automation",
+ "applications": [
+  "gas turbine control",
+  "steam turbine control",
+  "compressor trains",
+  "expander-compressors",
+  "pump stations"
+ ],
+ "maturity": "commercial",
+ "principle": "Turbomachinery controllers run the fast, dedicated loops that protect and optimise machines: speed and load control on turbines, surge avoidance on compressors (recycle valves and setpoint margins sized from the compressor map), load sharing between machines, and sequence control for start-up and shutdown. The control system responds in tens of milliseconds \u2014 faster than the DCS loop layer \u2014 and coordinates with the SIS on trip circuits. Integrated machinery packages ship with controllers tuned to the OEM's model, and online performance monitoring feeds optimisation.",
+ "process_steps": [
+  {
+   "id": "SPD",
+   "name": "Speed, load or process demand tracked by fast control loops",
+   "equipment": [
+    "machine controller"
+   ]
+  },
+  {
+   "id": "SRG",
+   "name": "Surge control holds operating point off the compressor surge line",
+   "equipment": [
+    "recycle valves",
+    "surge controller"
+   ]
+  },
+  {
+   "id": "SHR",
+   "name": "Load sharing and sequencing across parallel machines",
+   "equipment": [
+    "control network"
+   ]
+  },
+  {
+   "id": "SEQ",
+   "name": "Start-up, shutdown and purge sequences executed",
+   "equipment": [
+    "sequence logic"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "dedicated machine controllers",
+  "recycle and anti-surge valves",
+  "fast I/O",
+  "surge detection instrumentation"
+ ],
+ "suppliers": [
+  {
+   "name": "Woodward",
+   "product": "turbine and engine control systems"
+  },
+  {
+   "name": "GE Vernova",
+   "product": "Bently Nevada machinery control and protection"
+  },
+  {
+   "name": "Compressor Controls Corporation",
+   "product": "compressor anti-surge and performance control"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "surge margin tuning is compressor-specific and re-verified after every re-rate or re-wheel",
+  "anti-surge control interacts with process control; both need joint tuning, not sequential"
+ ],
+ "advantages": [
+  "prevents surge events that mechanically destroy compressors in seconds",
+  "dedicated fast hardware keeps control deterministic where DCS loops cannot"
+ ],
+ "sources": [
+  {
+   "url": "https://www.woodward.com/",
+   "note": "Woodward turbine and compressor control systems, read 2026-11-07"
+  },
+  {
+   "url": "https://www.bently.com/en",
+   "note": "Bently Nevada machinery protection and control, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

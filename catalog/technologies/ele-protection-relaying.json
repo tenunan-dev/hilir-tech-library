@@ -1,0 +1,113 @@
+{
+ "id": "ele-protection-relaying",
+ "name": "Power system protection and relaying",
+ "aliases": [
+  "protective relays",
+  "numerical relays",
+  "generator protection",
+  "feeder protection",
+  "ANSI device numbers"
+ ],
+ "sector": "ELE",
+ "category": "Power protection",
+ "applications": [
+  "generator protection",
+  "feeder and transformer protection",
+  "motor protection",
+  "busbar protection",
+  "substation automation"
+ ],
+ "maturity": "commercial",
+ "principle": "Protection relays continuously compare measured current, voltage, frequency, phase and differential quantities against settings and command circuit breakers to isolate faults before equipment or people are harmed. Modern numerical relays combine many protection functions (ANSI 50/51 overcurrent, 87 differential, 27/59 voltage, 81 frequency, 46 negative sequence) with recording, metering and IEC 61850 communication in one device. Selectivity is achieved through current grading, time grading or zone-based differential schemes, with breaker-failure back-up tripping the surrounding breakers when the primary trip fails.",
+ "process_steps": [
+  {
+   "id": "SEN",
+   "name": "Current and voltage transformers scale primary quantities to relay inputs",
+   "equipment": [
+    "CTs",
+    "VTs"
+   ]
+  },
+  {
+   "id": "MEA",
+   "name": "Relays compute protection elements and compare with settings",
+   "equipment": [
+    "numerical protection relays"
+   ]
+  },
+  {
+   "id": "DIS",
+   "name": "Grading and zone logic discriminate in-zone faults from load",
+   "equipment": [
+    "protection schemes"
+   ]
+  },
+  {
+   "id": "TRP",
+   "name": "Trip output opens the correct breaker(s); breaker-failure back-up trips wider if needed",
+   "equipment": [
+    "trip circuits",
+    "breaker-fail relays"
+   ]
+  },
+  {
+   "id": "REC",
+   "name": "Event and disturbance records support post-fault analysis",
+   "equipment": [
+    "event recorders"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "numerical protection relays",
+  "current transformers",
+  "voltage transformers",
+  "trip coils",
+  "breaker failure protection",
+  "disturbance recorders"
+ ],
+ "suppliers": [
+  {
+   "name": "Schweitzer Engineering Laboratories",
+   "product": "protective relays and automation platforms"
+  },
+  {
+   "name": "ABB",
+   "product": "Relion protection and control"
+  },
+  {
+   "name": "Schneider Electric",
+   "product": "Easergy protection relays"
+  },
+  {
+   "name": "Siemens Energy",
+   "product": "SIPROTEC protection relays"
+  },
+  {
+   "name": "GE Vernova",
+   "product": "Multilin protection relays"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "protection settings are facility-specific engineering that must be re-studied after every network change",
+  "CT saturation and infeed effects complicate high-impedance and differential schemes"
+ ],
+ "advantages": [
+  "fast, selective fault clearance protects plant and limits arc-flash energy",
+  "one IED platform serves generation, transmission, distribution and motor duties"
+ ],
+ "sources": [
+  {
+   "url": "https://www.selinc.com/products/",
+   "source_id": "selinc",
+   "note": "protection relay and automation product lines, read 2026-11-07"
+  },
+  {
+   "url": "https://www.hse.gov.uk/electricity/",
+   "source_id": "hse-uk",
+   "note": "HSE electricity duties framing why protection and safe isolation are required, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "civ-blast-resistant-buildings",
+ "name": "Blast-resistant buildings",
+ "aliases": [
+  "blast modules",
+  "temporary refuge",
+  "TR",
+  "blast-rated control buildings"
+ ],
+ "sector": "CIV",
+ "category": "Protective structures",
+ "applications": [
+  "occupied buildings near process units",
+  "control rooms",
+  "temporary refuge on offshore installations",
+  " muster and shelters"
+ ],
+ "maturity": "commercial",
+ "principle": "Occupied buildings inside blast overpressure range are engineered to protect people, not just stand up: energy-absorbing steel or reinforced concrete construction, controlled response (ductile, repairable deformation rather than brittle failure), protected openings, and anchored doors and HVAC. Design starts from a siting study and quantified overpressure/impulse from dispersion and explosion modelling (API RP 752/753 onshore; temporary refuge criteria offshore), then verifies member response against that loading.",
+ "process_steps": [
+  {
+   "id": "SIT",
+   "name": "Siting study quantifies overpressure and impulse at each occupied building",
+   "equipment": [
+    "QRA models"
+   ]
+  },
+  {
+   "id": "DSN",
+   "name": "Building designed for the design blast with acceptable response limits",
+   "equipment": [
+    "blast analysis"
+   ]
+  },
+  {
+   "id": "FAB",
+   "name": "Module or building fabricated and certified",
+   "equipment": [
+    "blast modules"
+   ]
+  },
+  {
+   "id": "MAI",
+   "name": "Occupancy controls keep people outside the blast zone where possible",
+   "equipment": [
+    "siting management"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "blast-rated steel modules",
+  "reinforced concrete construction",
+  "blast doors",
+  "protected HVAC"
+ ],
+ "suppliers": [
+  {
+   "name": "RedGuard",
+   "product": "blast-resistant modular buildings"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "protection is only as current as the siting study; process changes move the blast contour",
+  "windows, doors and penetrations are the weak points and drive certification"
+ ],
+ "advantages": [
+  "converts an occupied-building risk into a quantified, testable design case",
+  "modular blast buildings can be relocated as the plant evolves"
+ ],
+ "sources": [
+  {
+   "url": "https://www.hse.gov.uk/comah/",
+   "source_id": "hse-uk",
+   "note": "HSE COMAH occupied-building guidance framing, read 2026-11-07"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Blast_resistance",
+   "note": "background on blast-resistant design; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

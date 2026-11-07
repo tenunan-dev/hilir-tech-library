@@ -1,0 +1,101 @@
+{
+ "id": "ele-cable-systems",
+ "name": "Power and control cable systems",
+ "aliases": [
+  "power cables",
+  "instrument cables",
+  "submarine cables",
+  "cable routing",
+  "tray systems"
+ ],
+ "sector": "ELE",
+ "category": "Power distribution",
+ "applications": [
+  "plant power and control distribution",
+  "offshore and topsides cabling",
+  "subsea and submarine links",
+  "hazardous area wiring",
+  "fire-rated circuits"
+ ],
+ "maturity": "commercial",
+ "principle": "Cable systems move power and signals between equipment and boards. Construction is chosen per duty: XLPE or EPR insulation for power, fire-resistant (circuit integrity) cables for safety circuits that must keep working during a fire, armoured and lead-sheathed designs for direct burial and submarine routes, and segregated tray/ladder routing with derating for bunching, ambient temperature and harmonic heating. Standards such as IEC 60502 (1\u201330 kV) and IEC 60332 (fire behaviour) govern selection and testing.",
+ "process_steps": [
+  {
+   "id": "SEL",
+   "name": "Cable type, size and rating selected for load, voltage drop and fault level",
+   "equipment": [
+    "cable sizing studies"
+   ]
+  },
+  {
+   "id": "ROU",
+   "name": "Routes engineered with segregation by voltage class and fire zoning",
+   "equipment": [
+    "cable trays",
+    "ladder racks"
+   ]
+  },
+  {
+   "id": "INS",
+   "name": "Cable installed, glands and terminations made",
+   "equipment": [
+    "glands",
+    "terminations",
+    "joints"
+   ]
+  },
+  {
+   "id": "TST",
+   "name": "Insulation resistance and withstand tests prove the circuit",
+   "equipment": [
+    "test sets"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "XLPE power cables",
+  "fire-resistant cables",
+  "armoured and submarine cables",
+  "cable trays",
+  "glands and terminations"
+ ],
+ "suppliers": [
+  {
+   "name": "Prysmian",
+   "product": "power and submarine cable systems"
+  },
+  {
+   "name": "Nexans",
+   "product": "power, instrument and subsea cables"
+  },
+  {
+   "name": "LS Cable & System",
+   "product": "power cables"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "cable is a fire load itself, so routing, coating and circuit-integrity classes are safety decisions",
+  "harmonic-rich drives and long runs derate neutrals and raise sheath losses"
+ ],
+ "advantages": [
+  "complete, testable, re-routable distribution without overhead lines",
+  "submarine and umbilical cable technology carries subsea power over tens of kilometres"
+ ],
+ "sources": [
+  {
+   "url": "https://www.prysmian.com/",
+   "note": "Prysmian power and submarine cable portfolio, read 2026-11-07"
+  },
+  {
+   "url": "https://www.nexans.com/",
+   "note": "Nexans cable systems, read 2026-11-07"
+  },
+  {
+   "url": "https://www.iec.ch/standards",
+   "source_id": "iec-standards",
+   "note": "IEC 60502, IEC 60332 cable standards, IEC web catalogue"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "civ-pipe-racks-supports",
+ "name": "Pipe racks, sleepers and pipe supports",
+ "aliases": [
+  "pipe rack",
+  "sleeper rack",
+  "pipe supports",
+  "shoes and guides",
+  "spring hangers"
+ ],
+ "sector": "CIV",
+ "category": "Structures",
+ "applications": [
+  "process interconnecting piping",
+  "off-plant utility runs",
+  "tank farm piping",
+  "offshore module routing"
+ ],
+ "maturity": "commercial",
+ "principle": "Pipe racks carry interconnecting piping in tiers along roads and unit boundaries; individual supports (shoes, guides, anchors, spring and constant-effort hangers) carry the pipe's own loads while allowing thermal movement. Rack design ties together pipe stress needs (support spacing, guide positions), civil loads (wind, seismic, friction), and constructability (splice points, tier heights). Expansion loops, guides and anchors are positioned from stress analysis, not civil preference.",
+ "process_steps": [
+  {
+   "id": "ROU",
+   "name": "Piping routed; rack width, tiers and elevations set",
+   "equipment": [
+    "3D model"
+   ]
+  },
+  {
+   "id": "STR",
+   "name": "Rack structure designed for piping, wind, seismic and friction loads",
+   "equipment": [
+    "analysis models"
+   ]
+  },
+  {
+   "id": "SUP",
+   "name": "Support types selected and located with the pipe stress results",
+   "equipment": [
+    "shoes",
+    "guides",
+    "springs"
+   ]
+  },
+  {
+   "id": "DET",
+   "name": "Support details and spring settings issued and inspected",
+   "equipment": [
+    "hangers"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "rack steelwork",
+  "pipe shoes and guides",
+  "spring hangers",
+  "constant-effort supports",
+  "expansion loops"
+ ],
+ "suppliers": [
+  {
+   "name": "Anvil",
+   "product": "pipe supports"
+  },
+  {
+   "name": "Carpenter & Paterson",
+   "product": "pipe supports and hangers"
+  },
+  {
+   "name": "LISGA",
+   "product": "pipe supports"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "support locations are negotiated between stress and civil every project; late moves are expensive",
+  "corrosion under supports is a known integrity hotspot on aging racks"
+ ],
+ "advantages": [
+  "routable, inspectable, upgradable utility spine for the plant",
+  "standardised supports make thousands of points designable in weeks"
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Pipe_rack",
+   "note": "background on pipe rack function; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

@@ -1,6 +1,6 @@
 # INS: Instrumentation and control
 
-29 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering.
+29 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |

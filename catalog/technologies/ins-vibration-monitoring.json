@@ -1,0 +1,95 @@
+{
+ "id": "ins-vibration-monitoring",
+ "name": "Machinery vibration monitoring",
+ "aliases": [
+  "CMS",
+  "condition monitoring systems",
+  "Bently Nevada",
+  "proximity probes",
+  "vibration analysis"
+ ],
+ "sector": "INS",
+ "category": "Machinery health",
+ "applications": [
+  "compressor trains",
+  "gas and steam turbines",
+  "large pumps and motors",
+  "gearboxes",
+  "monitoring programmes across the plant"
+ ],
+ "maturity": "commercial",
+ "principle": "Vibration monitoring watches rotating machinery health with proximity probes (shaft displacement on fluid-film bearings), velocity and acceleration sensors (bearing housing), and keyphasor references for phase. Protection systems alarm and trip on vibration limits while continuous condition monitoring systems collect waveforms and spectra for diagnostics: orbit shapes, bearing defect frequencies, imbalance, misalignment, looseness. Trending turns failing components into planned work, and API 670 defines the standard hardware architecture for critical trains.",
+ "process_steps": [
+  {
+   "id": "SEN",
+   "name": "Proximity, velocity and acceleration sensors measure machine motion",
+   "equipment": [
+    "proximity probes",
+    "accelerometers"
+   ]
+  },
+  {
+   "id": "MON",
+   "name": "Monitoring system computes amplitudes, alarms and trips",
+   "equipment": [
+    "protection monitors"
+   ]
+  },
+  {
+   "id": "ANL",
+   "name": "Spectra, orbits and trends diagnosed for fault signatures",
+   "equipment": [
+    "CMS software"
+   ]
+  },
+  {
+   "id": "ACT",
+   "name": "Findings route to planned maintenance or operational limits",
+   "equipment": [
+    "work management"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "eddy-current proximity probes",
+  "accelerometers and velocity sensors",
+  "keyphasor",
+  "protection monitors",
+  "CMS software"
+ ],
+ "suppliers": [
+  {
+   "name": "GE Vernova",
+   "product": "Bently Nevada machinery protection and condition monitoring"
+  },
+  {
+   "name": "Emerson",
+   "product": "CSI vibration analysis"
+  },
+  {
+   "name": "Br\u00fcel & Kj\u00e6r Vibro",
+   "product": "condition monitoring systems"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "sensing points must be chosen from the machine's dynamics; retrofit monitors on wrong locations give false comfort",
+  "alarm limits need baselining per machine, not generic thresholds"
+ ],
+ "advantages": [
+  "converts incipient bearing and rotor faults into scheduled work",
+  "API 670 architecture is a mature, vendor-neutral standard for critical trains"
+ ],
+ "sources": [
+  {
+   "url": "https://www.bently.com/en",
+   "note": "Bently Nevada machinery protection and condition monitoring, read 2026-11-07"
+  },
+  {
+   "url": "https://www.iec.ch/standards",
+   "source_id": "iec-standards",
+   "note": "IEC vibration standards context, IEC web catalogue"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

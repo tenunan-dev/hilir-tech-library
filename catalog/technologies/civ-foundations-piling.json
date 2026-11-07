@@ -1,0 +1,86 @@
+{
+ "id": "civ-foundations-piling",
+ "name": "Foundations and piling",
+ "aliases": [
+  "foundation design",
+  "driven piles",
+  "bored piles",
+  "soil improvement",
+  "ground treatment"
+ ],
+ "sector": "CIV",
+ "category": "Geotechnical",
+ "applications": [
+  "equipment foundations",
+  "pipe rack footings",
+  "tank foundations",
+  "offshore jacket piles",
+  "reclaimed land and soft ground"
+ ],
+ "maturity": "commercial",
+ "principle": "Foundations transfer structural loads to the ground safely and within settlement limits. Shallow footings serve competent soils; driven or bored piles take loads past weak layers; ground improvement (stone columns, deep soil mixing, preloading) treats marginal ground instead of deep foundations. Site investigation drives everything \u2014 boreholes, SPT/CPT profiles, groundwater \u2014 and equipment foundations add dynamic checks for machines, plus settlement and vibration limits.",
+ "process_steps": [
+  {
+   "id": "INV",
+   "name": "Geotechnical investigation characterises strata and groundwater",
+   "equipment": [
+    "boreholes",
+    "CPT rigs"
+   ]
+  },
+  {
+   "id": "SEL",
+   "name": "Foundation type chosen: shallow, deep or ground improvement",
+   "equipment": [
+    "design studies"
+   ]
+  },
+  {
+   "id": "EXE",
+   "name": "Piles driven or bored, footings cast, ground improved",
+   "equipment": [
+    "piling rigs",
+    "vibro rigs"
+   ]
+  },
+  {
+   "id": "TST",
+   "name": "Load or integrity tests verify capacity",
+   "equipment": [
+    "pile testing"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "driven steel and concrete piles",
+  "bored piles",
+  "vibro and stone columns",
+  "pile caps"
+ ],
+ "suppliers": [
+  {
+   "name": "Bauer",
+   "product": "piling and ground engineering"
+  },
+  {
+   "name": "Keller",
+   "product": "ground improvement"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "settlement of large tanks and racks on soft ground takes years to manifest; monitoring is part of design",
+  "driving vibration and noise constrain work near existing plant"
+ ],
+ "advantages": [
+  "mature, testable technology with local contractors nearly everywhere",
+  "ground improvement often beats deep foundations on cost for marginal soils"
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Deep_foundation",
+   "note": "background on piling types; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

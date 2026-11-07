@@ -1,0 +1,30 @@
+{
+ "id": "selinc",
+ "name": "Schweitzer Engineering Laboratories (SEL)",
+ "url": "https://www.selinc.com/products/",
+ "source_type": "oem-supplier",
+ "sectors": [
+  "UPS",
+  "MID",
+  "GAS",
+  "REF",
+  "PCH",
+  "PWR"
+ ],
+ "disciplines": [
+  "ELE"
+ ],
+ "publisher_org": "Schweitzer Engineering Laboratories",
+ "country": "US",
+ "regions": [
+  "global"
+ ],
+ "access": "open",
+ "licence": "proprietary",
+ "reuse_level": "full-text-restricted",
+ "quality_tier": 2,
+ "update_frequency": "monthly",
+ "verification": "verified",
+ "last_verified": "2026-11-07",
+ "notes": "SEL protection relays, automation and power-quality product pages plus open technical papers. Read 2026-11-07, HTTP 200."
+}

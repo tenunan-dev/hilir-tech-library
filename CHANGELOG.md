@@ -8,6 +8,31 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.07.2] — 2026-11-07 — Discipline expansion: ELE, CIV, INS deepening (27 new cards)
+
+### Added
+- New cross-cutting discipline codes **ELE** (Electrical engineering) and **CIV** (Civil and
+  structural) in `taxonomy.yaml`, the technology/source schema enums, the knowledge graph and the
+  web sector filter; INS subtopics widened (field instrumentation, F&G, machinery control,
+  vibration monitoring, control valves).
+- **12 ELE cards**: HV/MV switchgear and distribution, protection relaying, transformers,
+  motors and VSDs, emergency/standby/UPS power, hazardous-area Ex equipment, on-site gas turbine
+  generation, electrical heat tracing, power and control cable systems, power management/SCADA,
+  earthing and lightning protection, subsea power and umbilicals.
+- **10 CIV cards**: plant structural steel, modular construction and IBS (CIDB Malaysia angle),
+  pipe racks and supports, foundations and piling, fixed platform topsides/substructures, FPSO and
+  floating production, blast-resistant buildings, fireproofing/PFP, seismic design, heavy lift and
+  temporary works.
+- **5 INS cards**: field instrumentation, fire and gas detection, turbomachinery control, machinery
+  vibration monitoring, custody transfer metering.
+- 27 matching register entries; 4 new sources (`selinc`, `hitachi-energy`, `iecex`, `hse-uk`).
+- `docs/DISCIPLINE_EXPANSION_PLAN.md` (plan + tracking) and decision #37.
+
+### Changed
+- Counts: 404 sources, 326 technology cards (was 299), 421 vendors, 8 equipment. Cards carry no
+  invented figures — evidence-free numbers were dropped during authoring (decision #33 rule
+  applied to the discipline layer).
+
 ## [2026.11.07] — 2026-11-07 — Security audit follow-ups: DSN header retired, safeNext bypass fixed, containers drop root
 
 ### Changed

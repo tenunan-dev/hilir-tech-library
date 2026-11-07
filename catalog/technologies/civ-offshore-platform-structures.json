@@ -1,0 +1,99 @@
+{
+ "id": "civ-offshore-platform-structures",
+ "name": "Fixed platform topsides and substructures",
+ "aliases": [
+  "jacket",
+  "topsides",
+  "concrete gravity structure",
+  "GBS",
+  "minimum facilities platform"
+ ],
+ "sector": "CIV",
+ "category": "Offshore structures",
+ "applications": [
+  "shallow and medium water fixed platforms",
+  "wellhead platforms",
+  "integrated production platforms",
+  "concrete gravity bases"
+ ],
+ "maturity": "commercial",
+ "principle": "Fixed offshore platforms combine a substructure (welded steel jacket, or concrete gravity-base structure) founded on or pinned to the seabed with a topsides deck carrying drilling, production and power. Jackets are launched or lifted in place and piled through legs; topsides are built as integrated or modularised decks and set by float-over or lift. Design is governed by ISO 19902 (steel) and structural reliability against extreme wave, wind and fatigue loads; weight control and deck elevation against air gap are the persistent constraints.",
+ "process_steps": [
+  {
+   "id": "FAB",
+   "name": "Jacket fabricated and launched or transported to site",
+   "equipment": [
+    "fabrication yard",
+    "launch barge"
+   ]
+  },
+  {
+   "id": "PIE",
+   "name": "Jacket levelled and pinned with foundation piles",
+   "equipment": [
+    "piling spreads"
+   ]
+  },
+  {
+   "id": "TOP",
+   "name": "Topsides integrated or modularised, set by lift or float-over",
+   "equipment": [
+    "crane vessels",
+    "float-over barges"
+   ]
+  },
+  {
+   "id": "HKP",
+   "name": "Hook-up, commissioning and first production",
+   "equipment": [
+    "hook-up crews"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "steel jacket",
+  "foundation piles",
+  "topsides modules",
+  "conductor guides",
+  "boat landings and riser guards"
+ ],
+ "suppliers": [
+  {
+   "name": "Saipem",
+   "product": "platform EPC and installation"
+  },
+  {
+   "name": "McDermott",
+   "product": "platform EPC and installation"
+  },
+  {
+   "name": "Seatrium",
+   "product": "topsides fabrication"
+  },
+  {
+   "name": "Samsung Heavy Industries",
+   "product": "topsides fabrication"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "installation weather windows and vessel availability dominate the offshore schedule",
+  "decommissioning obligations are engineered in from the start on many regimes"
+ ],
+ "advantages": [
+  "proven over decades; steel jackets span almost all practical fixed-platform water depths",
+  "modular topsides reduce offshore hook-up and commissioning"
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Oil_platform",
+   "note": "background on fixed platform types; secondary source, read 2026-11-07"
+  },
+  {
+   "url": "https://www.offshore-mag.com/",
+   "source_id": "offshore-mag",
+   "note": "offshore construction and installation coverage, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

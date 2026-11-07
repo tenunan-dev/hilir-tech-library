@@ -1,0 +1,94 @@
+{
+ "id": "ins-custody-transfer-metering",
+ "name": "Custody transfer metering",
+ "aliases": [
+  "fiscal metering",
+  "allocation metering",
+  "gas metering stations",
+  "liquid metering",
+  "proving systems"
+ ],
+ "sector": "INS",
+ "category": "Measurement",
+ "applications": [
+  "export gas and liquids",
+  "pipeline receipts and deliveries",
+  "LNG and NGL accounting",
+  "field allocation",
+  "refinery product blending"
+ ],
+ "maturity": "commercial",
+ "principle": "Custody transfer metering measures commercial quantities of oil, gas and products to contractual accuracy with auditable traceability. Gas stations use ultrasonic or orifice meters with pressure, temperature and composition (gas chromatograph) inputs computing flow to agreed standards (AGA reports, ISO 17089); liquid meters (turbine, coriolis, PD) are proved against prover loops or master meters. Fiscal-class systems add sampling, calibration records, uncertainty budgets and redundant computation under OIML or national type approval.",
+ "process_steps": [
+  {
+   "id": "MEA",
+   "name": "Primary meter measures flow with P, T and composition inputs",
+   "equipment": [
+    "ultrasonic meters",
+    "chromatographs"
+   ]
+  },
+  {
+   "id": "CMP",
+   "name": "Flow computer computes standard volume or energy to the contract standard",
+   "equipment": [
+    "flow computers"
+   ]
+  },
+  {
+   "id": "PRV",
+   "name": "Liquid meters proved against prover or master meter",
+   "equipment": [
+    "prover loops"
+   ]
+  },
+  {
+   "id": "AUD",
+   "name": "Records, sampling and calibration evidence retained for audit",
+   "equipment": [
+    "audit trails"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "ultrasonic gas meters",
+  "coriolis and turbine liquid meters",
+  "gas chromatographs",
+  "flow computers",
+  "prover loops"
+ ],
+ "suppliers": [
+  {
+   "name": "Emerson",
+   "product": "Daniel custody transfer metering"
+  },
+  {
+   "name": "KROHNE",
+   "product": "metering systems"
+  },
+  {
+   "name": "Endress+Hauser",
+   "product": "flow measurement"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "uncertainty budget is contractual: installation effects, calibration drift and composition errors all count",
+  "metering disputes cost more than the metering; documentation discipline is part of the system"
+ ],
+ "advantages": [
+  "energy-flow gas metering settles purchases on heat content, not just volume",
+  "proved liquid meters deliver fiscal accuracy over years with routine proving"
+ ],
+ "sources": [
+  {
+   "url": "https://www.emerson.com/",
+   "note": "Daniel custody transfer metering portfolio, read 2026-11-07"
+  },
+  {
+   "url": "https://www.iso.org/",
+   "note": "ISO measurement standards framing (e.g. ISO 17089 gas metering), read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

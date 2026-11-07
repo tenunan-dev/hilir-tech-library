@@ -1,0 +1,78 @@
+{
+ "id": "civ-seismic-design",
+ "name": "Seismic design of process facilities",
+ "aliases": [
+  "earthquake engineering",
+  "seismic qualification",
+  "base isolation",
+  "performance-based design"
+ ],
+ "sector": "CIV",
+ "category": "Structures",
+ "applications": [
+  "plants in seismic regions",
+  "LNG and gas plants",
+  "nuclear-adjacent industrial standards",
+  "tank farms",
+  "offshore in seismic areas"
+ ],
+ "maturity": "commercial",
+ "principle": "In seismic regions, structures, equipment, piping and their connections are designed for earthquake demands: site-specific hazard analysis, response spectrum or time-history analysis, anchorage and support design for equipment, and settlement or fault-movement checks for tanks and pipelines. Codes (ASCE 7, EN 1998, and industry guides such as ASCE 4 and API 650 Appendix E) tier the objectives \u2014 keep safety systems functional, prevent release of hazardous inventory, allow economic damage elsewhere. Performance-based methods and base isolation are used where downtime cost dominates.",
+ "process_steps": [
+  {
+   "id": "HAZ",
+   "name": "Seismic hazard characterised for the site",
+   "equipment": [
+    "hazard studies"
+   ]
+  },
+  {
+   "id": "ANL",
+   "name": "Structures and equipment analysed for code or project spectra",
+   "equipment": [
+    "dynamic analysis"
+   ]
+  },
+  {
+   "id": "DET",
+   "name": "Anchorage, supports and connections detailed for the demand",
+   "equipment": [
+    "anchorage design"
+   ]
+  },
+  {
+   "id": "VER",
+   "name": "Qualification by analysis, test or experience documented",
+   "equipment": [
+    "qualification reports"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "anchorage systems",
+  "base isolators",
+  "seismic qualification test facilities"
+ ],
+ "suppliers": [
+  {
+   "name": "EPC structural consultants",
+   "product": "seismic design services"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "equipment qualification for safety systems can dominate cost in high-hazard regions",
+  "liquefaction and slope-failure checks frequently govern over the structural analysis itself"
+ ],
+ "advantages": [
+  "keeps hazardous inventory contained and safety systems running through the design event",
+  "performance-based design can cut cost by matching design effort to consequence"
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Earthquake_engineering",
+   "note": "background on seismic design methods; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

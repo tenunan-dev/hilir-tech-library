@@ -1,6 +1,6 @@
 # Technology register
 
-306 technologies across oil, gas, petrochemicals and new energy; 306 have a technology card so far.
+333 technologies across oil, gas, petrochemicals and new energy; 333 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -350,6 +350,11 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Instrumentation and control | Process analysers (gas chromatographs, laser spectroscopy) | commercial | ABB, Yokogawa, Siemens | [card](technologies-INS.md#ins-process-analysers) |
 | Instrumentation and control | Advanced process control and model predictive control | commercial | AspenTech, Honeywell, Yokogawa | [card](technologies-INS.md#ins-apc-mpc) |
 | Instrumentation and control | OT cybersecurity | commercial | Claroty, Nozomi, Dragos | [card](technologies-INS.md#ins-ot-cybersecurity) |
+| Instrumentation and control | Field instrumentation | commercial | Emerson, Endress+Hauser, Yokogawa, ABB | [card](technologies-INS.md#ins-field-instrumentation) |
+| Instrumentation and control | Fire and gas detection systems | commercial | Honeywell Analytics, MSA, Dräger | [card](technologies-INS.md#ins-fire-gas-detection) |
+| Instrumentation and control | Turbomachinery control systems | commercial | Woodward, GE Vernova (Bently Nevada controls), Compressor Controls Corporation | [card](technologies-INS.md#ins-machinery-control) |
+| Instrumentation and control | Machinery vibration monitoring | commercial | GE Vernova Bently Nevada, Emerson CSI, Brüel & Kjær Vibro | [card](technologies-INS.md#ins-vibration-monitoring) |
+| Instrumentation and control | Custody transfer metering | commercial | Emerson (Daniel), KROHNE, Endress+Hauser | [card](technologies-INS.md#ins-custody-transfer-metering) |
 
 ## MAT: Materials and integrity
 
@@ -380,3 +385,35 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Digital | AI and machine learning for maintenance and optimisation | commercial | Cognite, C3 AI, AspenTech, SLB | [card](technologies-DIG.md#dig-ai-ml-maintenance-optimisation) |
 | Digital | Subsurface data platforms (OSDU) | commercial | The Open Group OSDU, SLB, Halliburton, AWS, Microsoft | [card](technologies-DIG.md#dig-osdu) |
 | Digital | Engineering data standards (ISO 15926, CFIHOS) | commercial | IOGP, Fiatech | [card](technologies-DIG.md#dig-engineering-data-standards) |
+
+## ELE: Electrical engineering
+
+| Area | Technology | Maturity | Examples | Card |
+| --- | --- | --- | --- | --- |
+| Power generation and distribution | On-site gas turbine power generation | commercial | Siemens Energy, Mitsubishi Heavy Industries, Baker Hughes, MAN Energy | [card](technologies-ELE.md#ele-gt-power-generation) |
+| Power generation and distribution | HV/MV switchgear and site power distribution | commercial | ABB, Schneider Electric, Siemens Energy, Hitachi Energy, Eaton | [card](technologies-ELE.md#ele-hv-switchgear-distribution) |
+| Power generation and distribution | Power system protection and relaying | commercial | SEL, ABB, Schneider Electric, Siemens Energy, GE Vernova | [card](technologies-ELE.md#ele-protection-relaying) |
+| Power generation and distribution | Power and distribution transformers | commercial | Hitachi Energy, Siemens Energy, GE Vernova, WEG | [card](technologies-ELE.md#ele-transformers) |
+| Power generation and distribution | Motors and variable speed drives | commercial | ABB, WEG, Siemens, Nidec | [card](technologies-ELE.md#ele-motors-drives) |
+| Power generation and distribution | Emergency, standby and UPS power systems | commercial | Cummins, Eaton, ABB, Schneider Electric, Vertiv | [card](technologies-ELE.md#ele-emergency-up-power) |
+| Power generation and distribution | Electrical heat tracing | commercial | nVent, Chromalox, Emerson | [card](technologies-ELE.md#ele-heat-tracing) |
+| Power generation and distribution | Power and control cable systems | commercial | Prysmian, Nexans, LS Cable & System | [card](technologies-ELE.md#ele-cable-systems) |
+| Power generation and distribution | Power management and electrical SCADA | commercial | GE Vernova, ABB, Schneider Electric, Hitachi Energy | [card](technologies-ELE.md#ele-power-management-systems) |
+| Power generation and distribution | Earthing and lightning protection | commercial | nVent ERICO, Dehn, Furse | [card](technologies-ELE.md#ele-earthing-lightning) |
+| Power generation and distribution | Subsea power and umbilical systems | commercial | Aker Solutions, TechnipFMC, Nexans | [card](technologies-ELE.md#ele-subsea-umbilicals-power) |
+| Explosion protection | Hazardous area electrical equipment | commercial | Eaton Crouse-Hinds, R. Stahl, Pepperl+Fuchs, ABB, Emerson | [card](technologies-ELE.md#ele-hazardous-area-electrical) |
+
+## CIV: Civil and structural
+
+| Area | Technology | Maturity | Examples | Card |
+| --- | --- | --- | --- | --- |
+| Structures and construction | Plant structural steel design | commercial | EPC contractors (Bechtel, Fluor, Saipem, Petrofac) | [card](technologies-CIV.md#civ-structural-steel-design) |
+| Structures and construction | Modular construction and industrialised building systems | commercial | Kiewit, Fluor, Saipem; CIDB IBS programme (Malaysia) | [card](technologies-CIV.md#civ-modular-construction-ibs) |
+| Structures and construction | Pipe racks, sleepers and pipe supports | commercial | Anvil, Carpenter & Paterson, LISGA | [card](technologies-CIV.md#civ-pipe-racks-supports) |
+| Structures and construction | Foundations and piling | commercial | Bauer, Keller | [card](technologies-CIV.md#civ-foundations-piling) |
+| Structures and construction | Fixed platform topsides and substructures | commercial | Saipem, McDermott, Seatrium, Samsung Heavy Industries | [card](technologies-CIV.md#civ-offshore-platform-structures) |
+| Structures and construction | FPSO and floating production structures | commercial | SBM Offshore, Modec, Yinson Production | [card](technologies-CIV.md#civ-floating-structures-fpso) |
+| Structures and construction | Blast-resistant buildings | commercial | RedGuard, blast-resistant module fabricators | [card](technologies-CIV.md#civ-blast-resistant-buildings) |
+| Structures and construction | Structural fireproofing and passive fire protection | commercial | AkzoNobel (Chartek), Hempel, Carboline | [card](technologies-CIV.md#civ-fireproofing-passive-protection) |
+| Structures and construction | Seismic design of process facilities | commercial | EPC contractors and structural consultants | [card](technologies-CIV.md#civ-seismic-design) |
+| Structures and construction | Heavy lift, transport and temporary works | commercial | Mammoet, Sarens, Heerema | [card](technologies-CIV.md#civ-heavy-lift-temporary-works) |

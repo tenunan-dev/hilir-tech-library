@@ -1,0 +1,31 @@
+{
+ "id": "hse-uk",
+ "name": "UK Health and Safety Executive (HSE)",
+ "url": "https://www.hse.gov.uk/electricity/",
+ "source_type": "agency-data",
+ "sectors": [
+  "UPS",
+  "MID",
+  "GAS",
+  "REF",
+  "PCH"
+ ],
+ "disciplines": [
+  "ELE",
+  "CIV",
+  "HSE"
+ ],
+ "publisher_org": "UK Health and Safety Executive",
+ "country": "GB",
+ "regions": [
+  "eu"
+ ],
+ "access": "open",
+ "licence": "proprietary",
+ "reuse_level": "summary-only",
+ "quality_tier": 2,
+ "update_frequency": "monthly",
+ "verification": "verified",
+ "last_verified": "2026-11-07",
+ "notes": "HSE electricity-at-work, explosion protection and process-safety guidance pages, Crown copyright, reuse restricted to linking/summary. Read 2026-11-07, HTTP 200."
+}

@@ -76,7 +76,9 @@
           "INS",
           "MAT",
           "HSE",
-          "DIG"
+          "DIG",
+          "ELE",
+          "CIV"
         ]
       }
     },

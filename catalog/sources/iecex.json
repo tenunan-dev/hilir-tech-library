@@ -1,0 +1,31 @@
+{
+ "id": "iecex",
+ "name": "IECEx System (IEC System for Certification to Standards relating to Equipment for use in Explosive Atmospheres)",
+ "url": "https://www.iecex.com/",
+ "source_type": "standards-body",
+ "sectors": [
+  "UPS",
+  "MID",
+  "GAS",
+  "REF",
+  "PCH",
+  "H2"
+ ],
+ "disciplines": [
+  "ELE",
+  "HSE"
+ ],
+ "publisher_org": "IEC",
+ "country": "CH",
+ "regions": [
+  "global"
+ ],
+ "access": "open",
+ "licence": "proprietary",
+ "reuse_level": "summary-only",
+ "quality_tier": 1,
+ "update_frequency": "monthly",
+ "verification": "verified",
+ "last_verified": "2026-11-07",
+ "notes": "IECEx certification scheme, Ex equipment and personnel competence scheme pages. Read 2026-11-07, HTTP 200."
+}

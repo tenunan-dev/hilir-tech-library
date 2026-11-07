@@ -560,15 +560,18 @@ Compound entries are split on '/' and matched part by part; descriptive phrases 
 company names are listed as card notes below. Adding a record for a queue entry is the next
 batch of this directory.
 
-Empty - every named supplier on the cards is in the directory.
+- **CIV** (15): Anvil; Bauer; Carboline; Carpenter & Paterson; CIDB Malaysia; Heerema; Hempel; Keller; Kiewit; LISGA; Mammoet; RedGuard; Sarens; Seatrium; Yinson Production
+- **ELE** (16): Aker Solutions; Chromalox; Dehn; Eaton; Eaton Crouse-Hinds; Furse; LS Cable & System; Nidec; nVent; nVent ERICO; Pepperl+Fuchs; Prysmian; R. Stahl; Schweitzer Engineering Laboratories; Vertiv; WEG
+- **INS** (7): Brüel & Kjær Vibro; Compressor Controls Corporation; Dräger; Honeywell Analytics; KROHNE; MSA Safety; Woodward
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
 These cards describe their suppliers generically; the strings are not company names.
 
 - **CCS** (8): CO2 compressor and dehydration vendors (no licensed process needed); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024; European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim; Fertiliser producers; Rectisol and Selexol licensors (see NETL Gasifipedia); Research consortia (e.g. CSIC-INCAR, Spain); Research programmes (see NETL transformational capture programme); Research stage; no commercial licensor identified in the cited sources
+- **CIV** (1): EPC structural consultants
 - **MID** (2): Governments; Terminal operators
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-272 of 299 cards list at least one directory vendor.
+293 of 326 cards list at least one directory vendor.

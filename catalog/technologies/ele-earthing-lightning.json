@@ -1,0 +1,101 @@
+{
+ "id": "ele-earthing-lightning",
+ "name": "Earthing and lightning protection",
+ "aliases": [
+  "grounding",
+  "earth grid",
+  "lightning protection system",
+  "surge protection",
+  "earthing and bonding"
+ ],
+ "sector": "ELE",
+ "category": "Electrical safety",
+ "applications": [
+  "plant earth grids",
+  "offshore structure bonding",
+  "tank farm and flare stack protection",
+  "instrument earthing",
+  "substation earthing"
+ ],
+ "maturity": "commercial",
+ "principle": "Earthing connects metalwork and neutral points to earth so that fault current, lightning and static charge have a safe, low-impedance path and touch voltages stay within limits; lightning protection intercepts strikes with air terminals and down conductors and disposes of the surge through the earth grid. Plant design separates power, instrument and clean earths, bonds across structures and pipelines, and fits surge protective devices on vulnerable circuits. Design rules come from IEC 62305 (lightning), IEC 60364 (installations) and company earth-grid studies for soil resistivity and fault current.",
+ "process_steps": [
+  {
+   "id": "STU",
+   "name": "Soil resistivity surveyed; earth grid sized for fault current and step/touch limits",
+   "equipment": [
+    "earth rods",
+    "grid conductors"
+   ]
+  },
+  {
+   "id": "BND",
+   "name": "Metalwork, structures and cable armour bonded into the grid",
+   "equipment": [
+    "bonding conductors"
+   ]
+  },
+  {
+   "id": "LPS",
+   "name": "Air terminals, down conductors and earth termination intercept and discharge strikes",
+   "equipment": [
+    "air terminals",
+    "down conductors"
+   ]
+  },
+  {
+   "id": "SPD",
+   "name": "Surge protective devices staged on power and signal circuits",
+   "equipment": [
+    "SPDs"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "earth rods and grid",
+  "bonding conductors",
+  "air terminals",
+  "surge protective devices",
+  "test links"
+ ],
+ "suppliers": [
+  {
+   "name": "nVent ERICO",
+   "product": "earthing and lightning protection systems"
+  },
+  {
+   "name": "Dehn",
+   "product": "lightning and surge protection"
+  },
+  {
+   "name": "Furse",
+   "product": "lightning protection systems"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "corrosive soils and cathodic protection interactions need deliberate earthing material choices",
+  "verification is periodic and physical: resistance and continuity testing across the grid"
+ ],
+ "advantages": [
+  "the single cheapest safeguard against electric shock, fire and lightning damage",
+  "instrument earthing discipline protects low-level signals from circulating currents"
+ ],
+ "sources": [
+  {
+   "url": "https://www.hse.gov.uk/electricity/",
+   "source_id": "hse-uk",
+   "note": "HSE electrical safety guidance, read 2026-11-07"
+  },
+  {
+   "url": "https://www.dehn-international.com/en",
+   "note": "Dehn lightning and surge protection application guidance, read 2026-11-07"
+  },
+  {
+   "url": "https://www.iec.ch/standards",
+   "source_id": "iec-standards",
+   "note": "IEC 62305 lightning protection series, IEC web catalogue"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

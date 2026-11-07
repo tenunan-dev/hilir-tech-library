@@ -11,7 +11,9 @@ sectors:
 disciplines:
   PRC: {name: Process systems, subtopics: [simulation, process-design, heat-integration, separation, reaction-engineering, catalysis]}
   ROT: {name: Rotating and static equipment, subtopics: [compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals]}
-  INS: {name: Instrumentation and control, subtopics: [dcs, sis, analysers, apc, ot-cybersecurity, metering]}
+  ELE: {name: Electrical engineering, subtopics: [power-generation, hv-distribution, switchgear, protection, transformers, motors-drives, emergency-power, hazardous-area-electrical, heat-tracing, cable-systems, power-management, earthing-lightning]}
+  CIV: {name: Civil and structural, subtopics: [structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting]}
+  INS: {name: Instrumentation and control, subtopics: [dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves]}
   MAT: {name: Materials and integrity, subtopics: [corrosion, metallurgy, coatings, inspection, rbi, non-metallics]}
   HSE: {name: "Health, safety and environment", subtopics: [process-safety, methane, flaring, emissions, regulation, decommissioning]}
   DIG: {name: Digital, subtopics: [digital-twin, ai-ml, iiot, data-standards, cloud]}

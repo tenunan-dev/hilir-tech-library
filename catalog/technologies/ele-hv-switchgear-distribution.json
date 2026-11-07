@@ -1,0 +1,130 @@
+{
+ "id": "ele-hv-switchgear-distribution",
+ "name": "HV/MV switchgear and site power distribution",
+ "aliases": [
+  "switchboards",
+  "ring main units",
+  "MV distribution",
+  "IEC 62271 switchgear"
+ ],
+ "sector": "ELE",
+ "category": "Power distribution",
+ "applications": [
+  "oil and gas facilities",
+  "refineries",
+  "offshore platforms",
+  "LNG plants",
+  "petrochemical complexes"
+ ],
+ "maturity": "commercial",
+ "principle": "Medium-voltage switchgear receives, protects and distributes electrical power across a facility. Power arrives from utility infeed or site generation at high voltage (typically 132 kV and above for large plants), is transformed to a main distribution voltage (usually 11 kV or 33/36 kV onshore, 11 kV offshore), and flows through switchboards to transformers, motors and downstream boards. Air-insulated, gas-insulated (GIS) and hybrid designs exist; modern breakers use vacuum or SF6 interrupting technology.",
+ "process_steps": [
+  {
+   "id": "IN",
+   "name": "Incoming supply from utility infeed, generators or interconnector",
+   "equipment": [
+    "HV switchgear",
+    "cable terminations"
+   ]
+  },
+  {
+   "id": "SW",
+   "name": "Main switchboard switches, protects and meters the bus",
+   "equipment": [
+    "circuit breakers",
+    "busbars",
+    "protection relays"
+   ]
+  },
+  {
+   "id": "TR",
+   "name": "Distribution transformers step down to LV or lower MV levels",
+   "equipment": [
+    "power transformers"
+   ]
+  },
+  {
+   "id": "LD",
+   "name": "Motor control centres and LV boards feed process loads",
+   "equipment": [
+    "MCCs",
+    "LV switchboards"
+   ]
+  },
+  {
+   "id": "BK",
+   "name": "Downstream faults are cleared selectively by graded protection",
+   "equipment": [
+    "relays",
+    "fuses"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "circuit breakers (vacuum, SF6)",
+  "switchboards",
+  "busbars",
+  "ring main units",
+  "power transformers",
+  "protection relays",
+  "surge arresters"
+ ],
+ "suppliers": [
+  {
+   "name": "ABB",
+   "product": "MV/LV switchgear, UniGear, HySec"
+  },
+  {
+   "name": "Schneider Electric",
+   "product": "MV switchgear, RM6, SM6"
+  },
+  {
+   "name": "Siemens Energy",
+   "product": "switchgear and grid solutions"
+  },
+  {
+   "name": "Hitachi Energy",
+   "product": "HV switchgear, GIS"
+  },
+  {
+   "name": "Eaton",
+   "product": "MV/LV switchgear and MCCs"
+  }
+ ],
+ "performance": [
+  {
+   "metric": "IEC 62271-200 rated voltage range of metal-enclosed MV switchgear",
+   "low": 1,
+   "high": 52,
+   "unit": "kV",
+   "basis": "IEC 62271-200 covers AC metal-enclosed switchgear and controlgear above 1 kV up to and including 52 kV",
+   "year": 2021,
+   "source": {
+    "url": "https://www.iec.ch/standards",
+    "source_id": "iec-standards",
+    "note": "IEC 62271 series, IEC web catalogue"
+   }
+  }
+ ],
+ "limitations": [
+  "SF6 is a high-GWP gas under phasedown regulation, driving vacuum and dry-air alternatives",
+  "bus fault ratings and arc-flash containment need deliberate design at high fault levels"
+ ],
+ "advantages": [
+  "selective, tested, standardised protection architecture",
+  "GIS suits confined offshore topsides and desert/urban substations"
+ ],
+ "sources": [
+  {
+   "url": "https://www.iec.ch/standards",
+   "source_id": "iec-standards",
+   "note": "IEC 62271 switchgear standards series, catalogue"
+  },
+  {
+   "url": "https://www.hitachienergy.com/products-and-solutions/transformers",
+   "source_id": "hitachi-energy",
+   "note": "grid equipment family pages, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

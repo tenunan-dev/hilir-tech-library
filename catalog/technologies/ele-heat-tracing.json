@@ -1,0 +1,97 @@
+{
+ "id": "ele-heat-tracing",
+ "name": "Electrical heat tracing",
+ "aliases": [
+  "heat trace",
+  "electric trace heating",
+  "impedance heating",
+  "skin-effect tracing",
+  "mineral insulated tracing"
+ ],
+ "sector": "ELE",
+ "category": "Electrical heating",
+ "applications": [
+  "freeze protection",
+  "viscous fluid lines (fuel oil, bitumen)",
+  "hydrate prevention",
+  "steam tracing replacement",
+  "process temperature maintenance and heat-up"
+ ],
+ "maturity": "commercial",
+ "principle": "Electrical heat tracing maintains or raises the temperature of pipes, tanks and instruments by applying heat along the surface. Self-regulating parallel trace cables vary their resistance with temperature and cannot overheat a dry section, constant-wattage cables deliver fixed power, and mineral-insulated or skin-effect systems serve long, hot or high-power duties. Heating replaces or supplements steam tracing, and digital control panels monitor every circuit for current and temperature alarms.",
+ "process_steps": [
+  {
+   "id": "SEL",
+   "name": "Cable type and output selected from heat-loss calculation",
+   "equipment": [
+    "heat-loss software",
+    "trace cable"
+   ]
+  },
+  {
+   "id": "INS",
+   "name": "Cable applied along the line with terminations and junction boxes",
+   "equipment": [
+    "trace cable",
+    "junction boxes"
+   ]
+  },
+  {
+   "id": "INSU",
+   "name": "Insulation installed; trace and sensor routing verified",
+   "equipment": [
+    "insulation",
+    "RTDs"
+   ]
+  },
+  {
+   "id": "CTL",
+   "name": "Control panels switch and monitor circuits by ambient or line temperature",
+   "equipment": [
+    "control panels",
+    "contactors"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "self-regulating trace cable",
+  "constant-wattage cable",
+  "mineral-insulated cable",
+  "control and monitoring panels",
+  "RTDs"
+ ],
+ "suppliers": [
+  {
+   "name": "nVent",
+   "product": "Raychem heat tracing systems"
+  },
+  {
+   "name": "Chromalox",
+   "product": "industrial heat tracing"
+  },
+  {
+   "name": "Emerson",
+   "product": "industrial heat tracing (Bergman Series)"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "design is a per-line engineering exercise: heat loss, exposure, maximum temperature and maintenance allowance all set the cable",
+  "damaged sections on long mineral-insulated runs are hard to locate without segmentation"
+ ],
+ "advantages": [
+  "eliminates steam tracing condensate systems and their maintenance",
+  "self-regulating cable removes the burn-out failure mode"
+ ],
+ "sources": [
+  {
+   "url": "https://www.chromalox.com/",
+   "note": "Chromalox industrial heat tracing product range, read 2026-11-07"
+  },
+  {
+   "url": "https://www.nvent.com/",
+   "note": "nVent heat tracing systems, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

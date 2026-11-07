@@ -349,6 +349,11 @@ INS:
     - Process analysers (gas chromatographs, laser spectroscopy) | C | ABB, Yokogawa, Siemens
     - Advanced process control and model predictive control | C | AspenTech, Honeywell, Yokogawa
     - OT cybersecurity | C | Claroty, Nozomi, Dragos
+    - Field instrumentation | C | Emerson, Endress+Hauser, Yokogawa, ABB
+    - Fire and gas detection systems | C | Honeywell Analytics, MSA, Dräger
+    - Turbomachinery control systems | C | Woodward, GE Vernova (Bently Nevada controls), Compressor Controls Corporation
+    - Machinery vibration monitoring | C | GE Vernova Bently Nevada, Emerson CSI, Brüel & Kjær Vibro
+    - Custody transfer metering | C | Emerson (Daniel), KROHNE, Endress+Hauser
 MAT:
   Materials and integrity:
     - Corrosion-resistant alloys and clad pipe | C | Outokumpu, Butting
@@ -370,3 +375,31 @@ DIG:
     - AI and machine learning for maintenance and optimisation | C | Cognite, C3 AI, AspenTech, SLB
     - Subsurface data platforms (OSDU) | C | The Open Group OSDU, SLB, Halliburton, AWS, Microsoft
     - Engineering data standards (ISO 15926, CFIHOS) | C | IOGP, Fiatech
+
+ELE:
+  Power generation and distribution:
+    - On-site gas turbine power generation | C | Siemens Energy, Mitsubishi Heavy Industries, Baker Hughes, MAN Energy
+    - HV/MV switchgear and site power distribution | C | ABB, Schneider Electric, Siemens Energy, Hitachi Energy, Eaton
+    - Power system protection and relaying | C | SEL, ABB, Schneider Electric, Siemens Energy, GE Vernova
+    - Power and distribution transformers | C | Hitachi Energy, Siemens Energy, GE Vernova, WEG
+    - Motors and variable speed drives | C | ABB, WEG, Siemens, Nidec
+    - Emergency, standby and UPS power systems | C | Cummins, Eaton, ABB, Schneider Electric, Vertiv
+    - Electrical heat tracing | C | nVent, Chromalox, Emerson
+    - Power and control cable systems | C | Prysmian, Nexans, LS Cable & System
+    - Power management and electrical SCADA | C | GE Vernova, ABB, Schneider Electric, Hitachi Energy
+    - Earthing and lightning protection | C | nVent ERICO, Dehn, Furse
+    - Subsea power and umbilical systems | C | Aker Solutions, TechnipFMC, Nexans
+  Explosion protection:
+    - Hazardous area electrical equipment | C | Eaton Crouse-Hinds, R. Stahl, Pepperl+Fuchs, ABB, Emerson
+CIV:
+  Structures and construction:
+    - Plant structural steel design | C | EPC contractors (Bechtel, Fluor, Saipem, Petrofac)
+    - Modular construction and industrialised building systems | C | Kiewit, Fluor, Saipem; CIDB IBS programme (Malaysia)
+    - Pipe racks, sleepers and pipe supports | C | Anvil, Carpenter & Paterson, LISGA
+    - Foundations and piling | C | Bauer, Keller
+    - Fixed platform topsides and substructures | C | Saipem, McDermott, Seatrium, Samsung Heavy Industries
+    - FPSO and floating production structures | C | SBM Offshore, Modec, Yinson Production
+    - Blast-resistant buildings | C | RedGuard, blast-resistant module fabricators
+    - Structural fireproofing and passive fire protection | C | AkzoNobel (Chartek), Hempel, Carboline
+    - Seismic design of process facilities | C | EPC contractors and structural consultants
+    - Heavy lift, transport and temporary works | C | Mammoet, Sarens, Heerema

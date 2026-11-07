@@ -1,0 +1,93 @@
+{
+ "id": "civ-fireproofing-passive-protection",
+ "name": "Structural fireproofing and passive fire protection",
+ "aliases": [
+  "PFP",
+  "intumescent coatings",
+  "cementitious fireproofing",
+  "fire walls and doors",
+  "cable fire protection"
+ ],
+ "sector": "CIV",
+ "category": "Passive fire protection",
+ "applications": [
+  "load-bearing steel near fired equipment",
+  "escape routes and barriers",
+  "offshore decks and bulkheads",
+  "riser and flare line protection",
+  "cable trays"
+ ],
+ "maturity": "commercial",
+ "principle": "Passive fire protection keeps steel below its critical temperature and confines fire by barriers without any active system: cementitious and epoxy intumescent coatings on structure, fire-rated walls, doors and dampers, deck insulation offshore, and fire-protected cabling or trays. Protection classes follow hydrocarbon fire curves (UL 1709 rather than cellulosic) for process zones; the design allocates fireproofing from fire modelling and layout (API 2218 guidance), and inspection regimes track coating condition because PFP failure is invisible until it is needed.",
+ "process_steps": [
+  {
+   "id": "MAP",
+   "name": "Fire protection mapping allocates ratings from layout and fire scenarios",
+   "equipment": [
+    "fire models"
+   ]
+  },
+  {
+   "id": "SEL",
+   "name": "Coating or barrier system selected for the fire curve and duration",
+   "equipment": [
+    "certified systems"
+   ]
+  },
+  {
+   "id": "APP",
+   "name": "Applied on primed, pre-insulated or live-duty steel per system data sheet",
+   "equipment": [
+    "application crews"
+   ]
+  },
+  {
+   "id": "INSP",
+   "name": "Inspection and repair regime tracks adhesion and thickness",
+   "equipment": [
+    "inspection records"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "cementitious fireproofing",
+  "epoxy intumescent coatings",
+  "fire-rated barriers and dampers",
+  "fireproof cable protection"
+ ],
+ "suppliers": [
+  {
+   "name": "AkzoNobel",
+   "product": "Chartek hydrocarbon intumescent coatings"
+  },
+  {
+   "name": "Hempel",
+   "product": "fireproofing coatings"
+  },
+  {
+   "name": "Carboline",
+   "product": "fireproofing coatings"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "hydrocarbon-rated systems are expensive per square metre; the mapping must be disciplined",
+  "coating damage from mechanical impact is common and often repaired poorly"
+ ],
+ "advantages": [
+  "no activation, no power, no maintenance loop \u2014 protection is built in",
+  "preserves evacuation time and structural integrity in the first critical minutes"
+ ],
+ "sources": [
+  {
+   "url": "https://www.hse.gov.uk/comah/",
+   "source_id": "hse-uk",
+   "note": "HSE COMAH fire protection framing, read 2026-11-07"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Fireproofing",
+   "note": "background on fireproofing materials; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

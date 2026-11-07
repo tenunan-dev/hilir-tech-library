@@ -1,0 +1,98 @@
+{
+ "id": "ele-subsea-umbilicals-power",
+ "name": "Subsea power and umbilical systems",
+ "aliases": [
+  "subsea power distribution",
+  "umbilicals",
+  "subsea transformers",
+  "SEV",
+  "subsea variable speed drives"
+ ],
+ "sector": "ELE",
+ "category": "Subsea electrical",
+ "applications": [
+  "subsea boosting and compression",
+  "wellhead umbilicals",
+  "subsea processing",
+  "long step-outs",
+  "seabed gas compression"
+ ],
+ "maturity": "commercial",
+ "principle": "Subsea electrical systems take power from a platform or shore through a power umbilical \u2014 cable plus steel tubes for hydraulic signals \u2014 to subsea distribution units, transformers, variable speed drives and motors on the seabed. Moves toward higher voltage and longer step-outs have already delivered megawatt-class subsea compression, where the whole drive train sits on the seabed without an topsides compressor. Reliability engineering, connector technology and dynamic cable design for floating hosts dominate the design space.",
+ "process_steps": [
+  {
+   "id": "SHP",
+   "name": "Topside or onshore supply conditioned and stepped for export",
+   "equipment": [
+    "VSD",
+    "transformer"
+   ]
+  },
+  {
+   "id": "UMB",
+   "name": "Power umbilical and static/dynamic cable delivered to the seabed",
+   "equipment": [
+    "umbilical",
+    "riser cable"
+   ]
+  },
+  {
+   "id": "SDU",
+   "name": "Subsea distribution and step-down feed seabed loads",
+   "equipment": [
+    "SDU",
+    "subsea transformer"
+   ]
+  },
+  {
+   "id": "LD",
+   "name": "Motors, drives and valve actuators run on the seabed",
+   "equipment": [
+    "subsea motors",
+    "actuators"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "power umbilicals",
+  "subsea transformers",
+  "subsea distribution units",
+  "subsea drives",
+  "wet-mate connectors"
+ ],
+ "suppliers": [
+  {
+   "name": "Aker Solutions",
+   "product": "umbilicals and subsea power"
+  },
+  {
+   "name": "Nexans",
+   "product": "subsea cables and umbilicals"
+  },
+  {
+   "name": "Siemens Energy",
+   "product": "subsea power grids and drives"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "wet-mate connectors and repairability set availability limits; interventions are vessel-based and costly",
+  "dynamic cables on floating production see fatigue that dominates their design"
+ ],
+ "advantages": [
+  "eliminates long risers and topsides compression weight and space",
+  "enables long-distance tiebacks and seabed boosting where topsides power would be prohibitive"
+ ],
+ "sources": [
+  {
+   "url": "https://www.nexans.com/",
+   "note": "Nexans subsea and umbilical cable portfolio, read 2026-11-07"
+  },
+  {
+   "url": "https://www.siemens-energy.com/global/en/home.html",
+   "source_id": "siemens-energy",
+   "note": "subsea power grid offering, site read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

@@ -1,0 +1,114 @@
+{
+ "id": "ele-transformers",
+ "name": "Power and distribution transformers",
+ "aliases": [
+  "step-up transformer",
+  "step-down transformer",
+  "OLTC",
+  "dry-type transformer",
+  "GIT"
+ ],
+ "sector": "ELE",
+ "category": "Power transformation",
+ "applications": [
+  "generator step-up",
+  "site main distribution",
+  "LV distribution",
+  "offshore platforms",
+  "converter services"
+ ],
+ "maturity": "commercial",
+ "principle": "Transformers couple windings through a magnetic core to change voltage levels at essentially constant power. Oil-filled units (mineral oil, ester or gas-insulated) dominate power ratings, with ONAN/ONAF/OFAF/ODAF cooling stages; dry-type cast-resin units suit fire-sensitive or confined locations. An on-load tap changer (OLTC) regulates the output voltage under load. Losses, sound level and thermal behaviour are standardised in the IEC 60076 series.",
+ "process_steps": [
+  {
+   "id": "PRI",
+   "name": "Primary winding energised, core flux established",
+   "equipment": [
+    "core",
+    "windings"
+   ]
+  },
+  {
+   "id": "SEC",
+   "name": "Secondary winding delivers transformed voltage",
+   "equipment": [
+    "windings",
+    "bushings"
+   ]
+  },
+  {
+   "id": "TAP",
+   "name": "Tap changer regulates turns ratio, on-load or off-circuit",
+   "equipment": [
+    "OLTC",
+    "DETC"
+   ]
+  },
+  {
+   "id": "COOL",
+   "name": "Cooling system removes load and no-load losses",
+   "equipment": [
+    "radiators",
+    "fans",
+    "oil pumps"
+   ]
+  },
+  {
+   "id": "PRO",
+   "name": "Gas, pressure and temperature devices protect the unit",
+   "equipment": [
+    "Buchholz relay",
+    "winding temperature indicators",
+    "pressure relief"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "core",
+  "windings",
+  "on-load tap changer",
+  "bushings",
+  "cooling system",
+  "Buchholz relay"
+ ],
+ "suppliers": [
+  {
+   "name": "Hitachi Energy",
+   "product": "power, distribution, GIT and dry-type transformers"
+  },
+  {
+   "name": "Siemens Energy",
+   "product": "power and distribution transformers"
+  },
+  {
+   "name": "GE Vernova",
+   "product": "power transformers"
+  },
+  {
+   "name": "WEG",
+   "product": "distribution and special transformers"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "oil-filled units need fire-risk assessment, bunding and oil handling offshore",
+  "harmonic-rich loads and DC bias from converters raise losses, noise and stray heating"
+ ],
+ "advantages": [
+  "very high reliability and efficiency with decades of service",
+  "broad standardised ranges from pole-mounted units to generator step-up blocks"
+ ],
+ "sources": [
+  {
+   "url": "https://www.hitachienergy.com/products-and-solutions/transformers",
+   "source_id": "hitachi-energy",
+   "note": "transformer product family (power, distribution, gas-insulated, dry-type), read 2026-11-07"
+  },
+  {
+   "url": "https://www.iec.ch/standards",
+   "source_id": "iec-standards",
+   "note": "IEC 60076 series, IEC web catalogue"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}

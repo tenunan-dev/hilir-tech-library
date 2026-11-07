@@ -1,0 +1,100 @@
+{
+ "id": "ins-fire-gas-detection",
+ "name": "Fire and gas detection systems",
+ "aliases": [
+  "F&G systems",
+  "gas detection",
+  "flame detection",
+  "smoke detection",
+  "deluge activation"
+ ],
+ "sector": "INS",
+ "category": "Safety systems",
+ "applications": [
+  "process areas with flammable or toxic inventory",
+  "offshore modules",
+  "onshore plants",
+  "accommodation and technical rooms",
+  "turbo-machinery enclosures"
+ ],
+ "maturity": "commercial",
+ "principle": "Fire and gas detection senses hazardous conditions and initiates alarms and executive actions (deluge, shutdown, isolation, ventilation changes) through dedicated safety logic. Point gas detectors (catalytic, infrared, electrochemical), open-path infrared lines, ultrasonic gas leak detectors for high-pressure releases, flame detectors (UV/IR, multispectral), and smoke or heat detection in buildings are placed from coverage mapping rather than guesswork \u2014 modern practice models 3D coverage of each head against leak scenarios. The F&G system is usually SIL-rated and integrated with, but independent from, the process SIS.",
+ "process_steps": [
+  {
+   "id": "DET",
+   "name": "Detectors sense gas, flame, smoke or heat",
+   "equipment": [
+    "point and open-path gas detectors",
+    "flame detectors"
+   ]
+  },
+  {
+   "id": "VOT",
+   "name": "Voting logic confirms the hazard (2oo3, 2ooN) to reject spurious trips",
+   "equipment": [
+    "F&G logic solver"
+   ]
+  },
+  {
+   "id": "ACT",
+   "name": "Executive actions started: alarm, deluge, ESD, ventilation",
+   "equipment": [
+    "deluge valves",
+    "ESD interfaces"
+   ]
+  },
+  {
+   "id": "COV",
+   "name": "Detector coverage mapped and optimised against leak scenarios",
+   "equipment": [
+    "coverage mapping tools"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "point and open-path gas detectors",
+  "ultrasonic leak detectors",
+  "flame detectors",
+  "F&G logic solvers",
+  "deluge interfaces"
+ ],
+ "suppliers": [
+  {
+   "name": "Honeywell Analytics",
+   "product": "gas detection"
+  },
+  {
+   "name": "MSA Safety",
+   "product": "gas and flame detection"
+  },
+  {
+   "name": "Dr\u00e4ger",
+   "product": "gas detection systems"
+  },
+  {
+   "name": "Emerson",
+   "product": "flame and gas detection (Det-Tronics)"
+  }
+ ],
+ "performance": [],
+ "limitations": [
+  "detector placement is scenario-dependent; a detector that meets a spacing rule may still miss the release that matters",
+  "poisoning, fouling and dirty optics degrade gas and flame detectors silently without a test regime"
+ ],
+ "advantages": [
+  "the first automated response to a leak \u2014 seconds matter before escalation",
+  "3D coverage mapping turns detector layout from folklore into evidence"
+ ],
+ "sources": [
+  {
+   "url": "https://www.honeywellanalytics.com/",
+   "note": "Honeywell Analytics gas detection portfolio, read 2026-11-07"
+  },
+  {
+   "url": "https://www.hse.gov.uk/comah/",
+   "source_id": "hse-uk",
+   "note": "HSE COMAH emergency detection framing, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07"
+}
