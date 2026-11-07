@@ -1,0 +1,23 @@
+{
+ "id": "r-stahl",
+ "name": "R. Stahl",
+ "country": "Germany",
+ "roles": [
+  "oem"
+ ],
+ "description": "Explosion-protected equipment: Ex d/e enclosures, lighting, control stations and IS system components (IS1+).",
+ "technologies": [
+  "ele-hazardous-area-electrical"
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/R._Stahl",
+   "note": "company background; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "equipment-oem"
+ ],
+ "url": "https://www.rstahl.com/"
+}

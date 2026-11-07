@@ -89,7 +89,32 @@
    "product": "distribution and special transformers"
   }
  ],
- "performance": [],
+ "performance": [
+  {
+   "metric": "800 kV UHVDC power transformers delivered",
+   "low": 20,
+   "unit": "units (more than)",
+   "basis": "Hitachi Energy states its power transformer fleet includes more than 20 units of 800 kV UHVDC and more than 500 units in the 735-765 kV AC class",
+   "year": 2026,
+   "source": {
+    "url": "https://www.hitachienergy.com/products-and-solutions/transformers",
+    "source_id": "hitachi-energy",
+    "note": "transformer family page, read 2026-11-07"
+   }
+  },
+  {
+   "metric": "735-765 kV AC power transformers delivered",
+   "low": 500,
+   "unit": "units (more than)",
+   "basis": "same statement as above",
+   "year": 2026,
+   "source": {
+    "url": "https://www.hitachienergy.com/products-and-solutions/transformers",
+    "source_id": "hitachi-energy",
+    "note": "transformer family page, read 2026-11-07"
+   }
+  }
+ ],
  "limitations": [
   "oil-filled units need fire-risk assessment, bunding and oil handling offshore",
   "harmonic-rich loads and DC bias from converters raise losses, noise and stray heating"

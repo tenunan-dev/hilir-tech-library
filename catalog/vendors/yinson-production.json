@@ -1,0 +1,25 @@
+{
+ "id": "yinson-production",
+ "name": "Yinson Production",
+ "country": "Malaysia",
+ "roles": [
+  "operator",
+  "epc"
+ ],
+ "description": "Malaysian FPSO contractor: engineering, construction, lease-and-operate of floating production storage and offloading vessels.",
+ "technologies": [
+  "civ-floating-structures-fpso"
+ ],
+ "sources": [
+  {
+   "url": "https://www.yinsonproduction.com/",
+   "note": "FPSO fleet and projects, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "operator",
+  "offshore-epc"
+ ],
+ "url": "https://www.yinsonproduction.com/"
+}

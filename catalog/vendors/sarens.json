@@ -1,0 +1,24 @@
+{
+ "id": "sarens",
+ "name": "Sarens Group",
+ "country": "Belgium",
+ "roles": [
+  "rental",
+  "service"
+ ],
+ "description": "Heavy crane rental, engineered lifts and transport worldwide; tower crane and gantry solutions for modular construction.",
+ "technologies": [
+  "civ-heavy-lift-temporary-works"
+ ],
+ "sources": [
+  {
+   "url": "https://www.sarens.com/",
+   "note": "crane rental and engineering services, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "url": "https://www.sarens.com/",
+ "categories": [
+  "engineering-consultancy"
+ ]
+}

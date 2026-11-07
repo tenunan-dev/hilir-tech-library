@@ -1,0 +1,25 @@
+{
+ "id": "bently-nevada",
+ "name": "Bently Nevada (GE Vernova)",
+ "country": "United States",
+ "roles": [
+  "oem",
+  "service"
+ ],
+ "description": "Machinery protection and condition monitoring: proximity probes, API 670 monitoring racks, diagnostics software and services.",
+ "technologies": [
+  "ins-vibration-monitoring",
+  "ins-machinery-control"
+ ],
+ "sources": [
+  {
+   "url": "https://www.bently.com/en",
+   "note": "protection and condition monitoring portfolio, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "equipment-oem"
+ ],
+ "url": "https://www.bently.com/en"
+}

@@ -53,6 +53,9 @@ flowchart LR
 
 **Key equipment:** hull, mooring system, turret and swivel stack, risers, offloading systems.
 
+**Performance:**
+- MODEC FPSO project experience: 59 units in 20 countries; MODEC FPSO Projects experience page states 59 units in 20 countries (delivered/operated fleet). [source](https://www.modec.com/)
+
 Sources: [1](https://www.sbmoffshore.com/), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-07.
 
 ## Fixed platform topsides and substructures

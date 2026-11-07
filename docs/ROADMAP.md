@@ -40,7 +40,7 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 
 | # | Item | Status |
 |---|---|---|
-| 2.1a | Discipline vendor round: switchgear, e-houses, Ex equipment, modular fabricators, Malaysian/SEA EPC + IBS players into `catalog/vendors/` | open |
+| 2.1a | Discipline vendor round into `catalog/vendors/` | **done 2026-11-07** (15 added: SEL, Eaton, nVent, Vertiv, Prysmian, Mammoet, Sarens, Yinson Production, RedGuard, Woodward, Bently Nevada, Pepperl+Fuchs, R. Stahl, Bauer, Keller, Cummins, Endress+Hauser, Yokogawa; 436 total) |
 | 2.1b | Discipline round 2 cards on the owner's word: PIP (piping), HVAC, telecom/naval architecture, plus deepening PRC/MAT/HSE/DIG | proposed |
 | 2.1c | Equipment classes for the discipline layer (switchgear, transformers, e-houses) — decision #33 pattern | owner gate |
 | 2.1d | Neon publish cycle + deploy so batch 1 shows live | **done 2026-11-07** (Neon 326 cards/12,625 vectors; containers rebuilt via CI images + VPS compose; live checks green) |
@@ -50,7 +50,7 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 | # | Item | Size | Status |
 |---|---|---|---|
 | 2.2a | Costs fill: only ~73 of 326 cards carry costs; staged by sector, dollar-year basis mandatory | L | open |
-| 2.2b | Reference plants on cards without them (was 132 of 299 before batch 1; recount after batch 1) | M | open |
+| 2.2b | Reference plants / verified figures on cards without them | M | **partial 2026-11-07** (first verified figures on ele-transformers and civ-floating-structures-fpso from cited vendor pages; systematic sweep continues) |
 | 2.2c | Thin sectors: MAT 6, DIG 5, HSE 4, PRC 3 cards (INS lifted by batch 1) | M–L | open |
 | 2.2d | Register entries still without cards (list_gaps), after batch-1 additions | M | open |
 
@@ -59,7 +59,7 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 | # | Item | Size | Status |
 |---|---|---|---|
 | 2.3a | **Standards registry** — API/ASME/ISO/NORSOK/IEC as first-class records linked to equipment + cards (30 standards-body sources already catalogued; batch 1 added IEC links on ELE cards) | M | open |
-| 2.3b | Glossary of acronyms, seeded from card aliases | S | open |
+| 2.3b | Glossary: 60 authored term/expansion entries with related-card links, /glossary page | S | **done 2026-11-07** |
 
 ## 3. Product features (on existing data)
 

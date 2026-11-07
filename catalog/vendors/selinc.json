@@ -1,0 +1,25 @@
+{
+ "id": "selinc",
+ "name": "Schweitzer Engineering Laboratories (SEL)",
+ "country": "United States",
+ "roles": [
+  "oem",
+  "integrator"
+ ],
+ "description": "Protection relays, substation automation and power-quality equipment; the reference platform for numerical protection in industry and utilities.",
+ "technologies": [
+  "ele-protection-relaying",
+  "ele-power-management-systems"
+ ],
+ "sources": [
+  {
+   "url": "https://www.selinc.com/products/",
+   "note": "protection and automation product lines, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "equipment-oem"
+ ],
+ "url": "https://www.selinc.com/"
+}

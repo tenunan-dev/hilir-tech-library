@@ -1,0 +1,24 @@
+{
+ "id": "bauer",
+ "name": "BAUER Maschinen",
+ "country": "Germany",
+ "roles": [
+  "oem",
+  "service"
+ ],
+ "description": "Foundation engineering equipment and contracting: bored piles, diaphragm walls and deep soil mixing rigs.",
+ "technologies": [
+  "civ-foundations-piling"
+ ],
+ "sources": [
+  {
+   "url": "https://www.bauer.de/",
+   "note": "foundation equipment and techniques, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "url": "https://www.bauer.de/",
+ "categories": [
+  "equipment-oem"
+ ]
+}

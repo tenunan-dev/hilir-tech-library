@@ -1,0 +1,23 @@
+{
+ "id": "redguard",
+ "name": "RedGuard",
+ "country": "United States",
+ "roles": [
+  "supplier"
+ ],
+ "description": "Blast-resistant modular buildings: rated steel modules for occupied space inside process plant blast zones.",
+ "technologies": [
+  "civ-blast-resistant-buildings"
+ ],
+ "sources": [
+  {
+   "url": "https://redguard.com/",
+   "note": "blast-resistant module products, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "fabrication"
+ ],
+ "url": "https://redguard.com/"
+}

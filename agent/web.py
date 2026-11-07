@@ -23,6 +23,7 @@ import contextvars
 import html
 import json
 import os
+import pathlib
 import re
 import sys
 import time
@@ -58,7 +59,7 @@ COLOR_FALLBACK = "#5a6b7b"
 NAV_GROUPS = (
     ("Library", (("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
                  ("Equipment", "/equipment"),
-                 ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps"))),
+                 ("Sources", "/sources"), ("Documents", "/documents"), ("Glossary", "/glossary"), ("Gaps", "/gaps"))),
     ("Database", (("Overview", "/database"), ("SQL console", "/database/sql"),
                   ("Semantic search", "/database/search"), ("Network", "/database/graph"),
                   ("Atlas", "/database/map"))),
@@ -1130,7 +1131,7 @@ def routes(tools) -> list:
                                f'<span class="sp"></span><span class="arr">→</span></a>' for label, href in (
             ("Technologies", "/technologies"), ("Compare", "/compare"), ("Register", "/register"),
             ("Vendors", "/vendors"), ("Equipment", "/equipment"),
-            ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps")))
+            ("Sources", "/sources"), ("Documents", "/documents"), ("Glossary", "/glossary"), ("Gaps", "/gaps")))
         database_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
                                 f'<span class="sp"></span><span class="arr">→</span></a>'
                                 for label, href in DATABASE_TABS)
@@ -1337,6 +1338,31 @@ def routes(tools) -> list:
         writer.writerows(rows)
         return Response(buf.getvalue(), media_type="text/csv; charset=utf-8",
                         headers={"Content-Disposition": f'attachment; filename="techlib-{kind}.csv"'})
+
+    async def glossary(request: Request):
+        query = str(request.query_params.get("q") or "").strip().lower()
+        path = pathlib.Path(library.ROOT) / "catalog" / "glossary.jsonl"
+        entries = []
+        if path.exists():
+            entries = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        if query:
+            entries = [e for e in entries if query in str(e.get("term", "")).lower()
+                       or query in str(e.get("expansion", "")).lower()]
+        card_names = _neon_first(pg.card_names, lambda: {})
+        rows = "".join(
+            "<tr><td><b>" + esc(e.get("term")) + "</b></td><td>" + esc(e.get("expansion"))
+            + (f' <span class="muted small">{esc(e.get("note"))}</span>' if e.get("note") else "")
+            + "</td><td>" + " ".join(
+                f'<a class="pill" href="/technologies/{esc(r)}">{esc((card_names.get(r) or r)[:44])}</a>'
+                for r in e.get("related") or [])
+            + "</td></tr>" for e in entries)
+        body = ('<section class="card"><form class="filters" method="get" action="/glossary">'
+                f'<input type="search" name="q" value="{esc(query)}" placeholder="term or expansion" size="24">'
+                ' <button type="submit">Filter</button></form>'
+                f'<p class="muted">{len(entries)} terms</p>'
+                f'<div class="scroll"><table><thead><tr><th>Term</th><th>Expansion</th><th>Related cards</th></tr></thead>'
+                f'<tbody>{rows}</tbody></table></div></section>')
+        return _page("Glossary", body, active="")
 
     async def vendors_page(request: Request):
         qp = request.query_params
@@ -1928,6 +1954,7 @@ def routes(tools) -> list:
         Route("/compare", gated(compare)),
         Route("/export", gated(export_csv)),
         Route("/database/api", gated(api_reference)),
+        Route("/glossary", gated(glossary)),
         Route("/vendors", gated(vendors_page)), Route("/equipment", gated(equipment_page)),
         Route("/register", gated(register)),
         Route("/sources", gated(sources)),

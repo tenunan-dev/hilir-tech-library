@@ -72,7 +72,19 @@
    "product": "FPSO EPC and operation"
   }
  ],
- "performance": [],
+ "performance": [
+  {
+   "metric": "MODEC FPSO project experience",
+   "low": 59,
+   "unit": "units in 20 countries",
+   "basis": "MODEC FPSO Projects experience page states 59 units in 20 countries (delivered/operated fleet)",
+   "year": 2026,
+   "source": {
+    "url": "https://www.modec.com/",
+    "note": "MODEC home, FPSO Projects experience, read 2026-11-07"
+   }
+  }
+ ],
  "limitations": [
   "motion, sloshing and fatigue limit equipment choices and inspection access",
   "mooring integrity over 20-25 year service is a monitored, classed lifetime obligation"

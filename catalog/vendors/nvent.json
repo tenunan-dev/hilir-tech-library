@@ -1,0 +1,24 @@
+{
+ "id": "nvent",
+ "name": "nVent Electric",
+ "country": "United Kingdom",
+ "roles": [
+  "oem"
+ ],
+ "description": "Electrical connection and protection group: Raychem heat tracing, ERICO earthing and lightning protection, and enclosures.",
+ "technologies": [
+  "ele-heat-tracing",
+  "ele-earthing-lightning"
+ ],
+ "sources": [
+  {
+   "url": "https://www.nvent.com/",
+   "note": "heat tracing and earthing product families, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "equipment-oem"
+ ],
+ "url": "https://www.nvent.com/"
+}

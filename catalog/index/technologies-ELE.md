@@ -206,6 +206,10 @@ flowchart LR
 
 **Key equipment:** core, windings, on-load tap changer, bushings, cooling system, Buchholz relay.
 
+**Performance:**
+- 800 kV UHVDC power transformers delivered: 20 units (more than); Hitachi Energy states its power transformer fleet includes more than 20 units of 800 kV UHVDC and more than 500 units in the 735-765 kV AC class. [source](https://www.hitachienergy.com/products-and-solutions/transformers)
+- 735-765 kV AC power transformers delivered: 500 units (more than); same statement as above. [source](https://www.hitachienergy.com/products-and-solutions/transformers)
+
 Sources: [1](https://www.hitachienergy.com/products-and-solutions/transformers), [2](https://www.iec.ch/standards). Last reviewed 2026-11-07.
 
 ## Power management and electrical SCADA

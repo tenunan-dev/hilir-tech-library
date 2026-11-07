@@ -1,0 +1,60 @@
+{"term": "ATEX", "expansion": "Atmosph\u00e8res Explosibles \u2014 EU directives 2014/34/EU (equipment) and 1999/92/EC (worker safety) for explosive atmospheres", "note": "EU counterpart to IECEx certification", "related": ["ele-hazardous-area-electrical"]}
+{"term": "ATR", "expansion": "Autothermal reforming \u2014 syngas generation combining partial oxidation and steam reforming in one reactor", "note": "", "related": ["h2-smr"]}
+{"term": "ATS", "expansion": "Automatic transfer switch \u2014 switches a load between two power sources, typically normal and emergency", "note": "", "related": ["ele-emergency-up-power"]}
+{"term": "BFW", "expansion": "Boiler feed water \u2014 treated water supplied to boilers/HRSGs", "note": "", "related": ["rot-fired-heaters-low-nox-burners"]}
+{"term": "CCGT", "expansion": "Combined-cycle gas turbine \u2014 gas turbine plus HRSG and steam turbine", "note": "", "related": ["ele-gt-power-generation"]}
+{"term": "CT/VT", "expansion": "Current transformer / voltage transformer \u2014 instrument transformers scaling primary quantities to relays and meters", "note": "", "related": ["ele-protection-relaying"]}
+{"term": "DCS", "expansion": "Distributed control system \u2014 the plant's basic process control platform", "note": "", "related": ["ins-dcs-scada"]}
+{"term": "DETC", "expansion": "De-energised tap changer \u2014 transformer tap adjustment with the unit offline", "note": "", "related": ["ele-transformers"]}
+{"term": "DOL", "expansion": "Direct-on-line \u2014 motor starting across full voltage", "note": "", "related": ["ele-motors-drives"]}
+{"term": "DSEAR", "expansion": "Dangerous Substances and Explosive Atmospheres Regulations (UK, 2002) \u2014 area classification and ignition control duties", "note": "UK law implementing ATEX worker-protection principles", "related": ["ele-hazardous-area-electrical", "civ-blast-resistant-buildings"]}
+{"term": "ESD", "expansion": "Emergency shutdown \u2014 automated isolation of inventory on hazard detection", "note": "", "related": ["ins-safety-instrumented-systems"]}
+{"term": "Ex d / Ex e / Ex i / Ex p", "expansion": "Explosion-protection concepts: flameproof enclosure / increased safety / intrinsic safety / pressurisation", "note": "", "related": ["ele-hazardous-area-electrical"]}
+{"term": "F&G", "expansion": "Fire and gas detection \u2014 gas, flame, smoke and heat detection driving alarms and executive actions", "note": "", "related": ["ins-fire-gas-detection"]}
+{"term": "FPSO", "expansion": "Floating production storage and offloading vessel", "note": "", "related": ["civ-floating-structures-fpso"]}
+{"term": "FLNG", "expansion": "Floating liquefied natural gas vessel", "note": "", "related": ["civ-floating-structures-fpso"]}
+{"term": "GBS", "expansion": "Gravity-based structure \u2014 concrete offshore substructure founded by weight and ballast", "note": "", "related": ["civ-offshore-platform-structures"]}
+{"term": "GOOSE", "expansion": "Generic object-oriented substation event \u2014 IEC 61850 peer-to-peer fast signalling between protection devices", "note": "", "related": ["ele-protection-relaying"]}
+{"term": "HAZOP", "expansion": "Hazard and operability study \u2014 systematic guideword review of process deviations", "note": "", "related": ["ins-safety-instrumented-systems"]}
+{"term": "HMI", "expansion": "Human-machine interface \u2014 operator graphics for control systems", "note": "", "related": ["ins-dcs-scada"]}
+{"term": "HRSG", "expansion": "Heat recovery steam generator \u2014 raises steam from gas turbine exhaust", "note": "", "related": ["ele-gt-power-generation"]}
+{"term": "HART", "expansion": "Highway Addressable Remote Transducer \u2014 digital communication over the 4-20 mA loop", "note": "", "related": ["ins-field-instrumentation"]}
+{"term": "IBS", "expansion": "Industrialised building system \u2014 offsite/prefabricated construction methods promoted in Malaysia (CIDB)", "note": "", "related": ["civ-modular-construction-ibs"]}
+{"term": "IECEx", "expansion": "IEC System for certification to standards for explosive atmospheres \u2014 equipment, installation and personnel schemes", "note": "", "related": ["ele-hazardous-area-electrical"]}
+{"term": "IE class", "expansion": "International Efficiency classes IE1-IE5 for electric motors (IEC 60034-30-1)", "note": "", "related": ["ele-motors-drives"]}
+{"term": "IGBT", "expansion": "Insulated-gate bipolar transistor \u2014 the switching device in modern variable frequency drives", "note": "", "related": ["ele-motors-drives"]}
+{"term": "IS", "expansion": "Intrinsic safety \u2014 limiting electrical energy in a circuit so it cannot ignite a flammable atmosphere", "note": "", "related": ["ele-hazardous-area-electrical"]}
+{"term": "LOPA", "expansion": "Layer of protection analysis \u2014 semi-quantitative screening of independent protection layers", "note": "", "related": ["ins-safety-instrumented-systems"]}
+{"term": "LNG", "expansion": "Liquefied natural gas \u2014 methane chilled to about -162 degC for shipping and storage", "note": "", "related": ["gas-boil-off-reliquefaction"]}
+{"term": "MCC", "expansion": "Motor control centre \u2014 LV switchgear assembly of motor starters and feeders", "note": "", "related": ["ele-hv-switchgear-distribution", "ele-motors-drives"]}
+{"term": "MDEA", "expansion": "Methyldiethanolamine \u2014 amine solvent for acid gas removal", "note": "", "related": ["gas-amine-agr"]}
+{"term": "MEA", "expansion": "Monoethanolamine \u2014 first-generation amine solvent, also used in CO2 capture", "note": "", "related": ["ccs-amine-post-combustion"]}
+{"term": "NDT", "expansion": "Non-destructive testing \u2014 UT, radiography, eddy current and related inspection methods", "note": "", "related": ["mat-rbi-integrity"]}
+{"term": "OLTC", "expansion": "On-load tap changer \u2014 regulates transformer output voltage under load", "note": "", "related": ["ele-transformers"]}
+{"term": "OPC UA", "expansion": "OPC Unified Architecture \u2014 industrial interoperability protocol", "note": "", "related": ["dig-iiot-wireless-sensors"]}
+{"term": "PFP", "expansion": "Passive fire protection \u2014 fireproofing, barriers and doors that need no activation", "note": "", "related": ["civ-fireproofing-passive-protection"]}
+{"term": "PMS", "expansion": "Power management system \u2014 supervises generation dispatch, load shed and islanding", "note": "", "related": ["ele-power-management-systems"]}
+{"term": "QRA", "expansion": "Quantitative risk assessment \u2014 consequence and frequency modelling of major hazards", "note": "", "related": ["ins-safety-instrumented-systems"]}
+{"term": "RBI", "expansion": "Risk-based inspection \u2014 prioritising inspection by probability and consequence of failure", "note": "", "related": ["mat-rbi-integrity"]}
+{"term": "RMU", "expansion": "Ring main unit \u2014 compact MV switchgear for ring distribution", "note": "", "related": ["ele-hv-switchgear-distribution"]}
+{"term": "SIL", "expansion": "Safety integrity level \u2014 discrete level (1-4) of a safety function's reliability (IEC 61508/61511)", "note": "", "related": ["ins-safety-instrumented-systems"]}
+{"term": "SIS", "expansion": "Safety instrumented system \u2014 independent logic solver and sensors/final elements for safety functions", "note": "", "related": ["ins-safety-instrumented-systems"]}
+{"term": "SMR", "expansion": "Steam methane reforming \u2014 dominant hydrogen production route", "note": "", "related": ["h2-smr"]}
+{"term": "SPMT", "expansion": "Self-propelled modular transporter \u2014 multi-axle platform for moving heavy modules", "note": "", "related": ["civ-heavy-lift-temporary-works"]}
+{"term": "SCADA", "expansion": "Supervisory control and data acquisition \u2014 supervisory layer over RTUs/PLC/IEDs", "note": "", "related": ["ins-dcs-scada"]}
+{"term": "TRL", "expansion": "Technology readiness level \u2014 1-9 maturity scale used across the cards", "note": "", "related": []}
+{"term": "XLPE", "expansion": "Cross-linked polyethylene \u2014 standard power cable insulation", "note": "", "related": ["ele-cable-systems"]}
+{"term": "UPS", "expansion": "Uninterruptible power supply \u2014 battery-backed power conditioning for critical loads", "note": "", "related": ["ele-emergency-up-power"]}
+{"term": "VFD / VSD", "expansion": "Variable frequency / speed drive \u2014 adjusts motor speed by synthesising a variable-frequency supply", "note": "", "related": ["ele-motors-drives"]}
+{"term": "API 670", "expansion": "Machinery protection systems standard: sensor and monitoring architecture for critical trains", "note": "standards reference", "related": ["ins-vibration-monitoring"]}
+{"term": "API 618", "expansion": "Reciprocating compressors for petroleum, chemical and gas industry services", "note": "standards reference", "related": ["rot-reciprocating-screw-compressors"]}
+{"term": "API 610", "expansion": "Centrifugal pumps for petroleum, petrochemical and natural gas industries", "note": "standards reference", "related": ["rot-pumps"]}
+{"term": "API 661", "expansion": "Air-cooled heat exchangers for general refinery service", "note": "standards reference", "related": ["rot-air-coolers-cooling-towers"]}
+{"term": "API RP 752/753", "expansion": "Occupied-building siting guidance (permanent buildings / portable buildings)", "note": "standards reference", "related": ["civ-blast-resistant-buildings"]}
+{"term": "ISO 19902", "expansion": "Fixed steel offshore structures \u2014 design standard", "note": "standards reference", "related": ["civ-offshore-platform-structures"]}
+{"term": "IEC 60079", "expansion": "Explosive atmospheres standards series (area classification, equipment, inspection)", "note": "standards reference", "related": ["ele-hazardous-area-electrical"]}
+{"term": "IEC 61511", "expansion": "Functional safety \u2014 safety instrumented systems for the process industry", "note": "standards reference", "related": ["ins-safety-instrumented-systems"]}
+{"term": "IEC 61850", "expansion": "Substation communication, configuration and GOOSE signalling standard", "note": "standards reference", "related": ["ele-protection-relaying"]}
+{"term": "IEC 62271", "expansion": "HV/MV switchgear and controlgear standards series", "note": "standards reference", "related": ["ele-hv-switchgear-distribution"]}
+{"term": "IEC 62040", "expansion": "UPS standards series (performance, test methods)", "note": "standards reference", "related": ["ele-emergency-up-power"]}
+{"term": "IEC 62305", "expansion": "Lightning protection standard series", "note": "standards reference", "related": ["ele-earthing-lightning"]}

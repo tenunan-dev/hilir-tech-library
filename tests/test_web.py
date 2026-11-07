@@ -193,3 +193,11 @@ def test_search_form_has_discipline_and_region_filters(c):
     r = c.get("/search", params={"q": "boiler", "discipline": "ELE", "region": "sea"})
     assert r.status_code == 200
     assert 'name="discipline"' in r.text and 'name="region"' in r.text
+
+
+def test_glossary_page_lists_terms_and_links_cards(c):
+    r = c.get("/glossary")
+    assert r.status_code == 200
+    assert "HRSG" in r.text and "terms" in r.text
+    filtered = c.get("/glossary", params={"q": "compressor"})
+    assert filtered.status_code == 200

@@ -1,37 +1,24 @@
 {
-  "id": "cummins",
-  "name": "Cummins",
-  "country": "USA",
-  "roles": [
-    "oem"
-  ],
-  "description": "Engine and power generation OEM from Columbus, Indiana whose Centum Force range factory-pre-integrates QSK60 gensets (2.0-2.75 MW, 50 Hz) into stackable ISO 40-ft containers; its Accelera brand supplies PEM electrolyzers and fuel cells.",
-  "technologies": [
-    "pwr-gas-engines",
-    "pwr-modular-engine-plants",
-    "h2-pem-electrolysis"
-  ],
-  "sources": [
-    {
-      "url": "https://cdn.ade-power.com/assets/pdf/brochures/cummins-centum-force-containerised-generator-sets-brochure.pdf",
-      "note": "Cummins Centum Force brochure 6545129 (distributor-hosted), read 26 October 2026"
-    },
-    {
-      "url": "https://www.cummins.com/en-apac/generators",
-      "note": "Cummins generators page (APAC), read 26 October 2026"
-    }
-  ],
-  "last_reviewed": "2026-10-29",
-  "products": [
-    "Centum Force containerised gensets",
-    "QSK-series gensets to 3,750 kVA",
-    "natural gas gensets 13-2,000 kW",
-    "Accelera HyLYSER PEM electrolyzers",
-    "Accelera fuel cells"
-  ],
-  "url": "https://www.cummins.com",
-  "notes": "cummins.com blocked the automated fetcher (HTTP 403); figures come from the official brochure PDF and the APAC generators page. Accelera (zero-emissions brand: HyLYSER electrolyzers, fuel cells) folded into this record 2026-10-29; the separately created Cummins (Accelera) record was removed as a duplicate sub-brand.",
-  "categories": [
-    "equipment-oem"
-  ]
+ "id": "cummins",
+ "name": "Cummins",
+ "country": "United States",
+ "roles": [
+  "oem"
+ ],
+ "description": "Power generation sets for standby and prime duty, plus filtration and power systems components.",
+ "technologies": [
+  "ele-emergency-up-power",
+  "ele-gt-power-generation"
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Cummins",
+   "note": "company background; secondary source, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "equipment-oem"
+ ],
+ "url": "https://www.cummins.com/"
 }

@@ -1,0 +1,24 @@
+{
+ "id": "mammoet",
+ "name": "Mammoet",
+ "country": "Netherlands",
+ "roles": [
+  "rental",
+  "service"
+ ],
+ "description": "Heavy lifting and engineered transport: crawler cranes, SPMT fleets, gantry systems and lift engineering for modules and reactors.",
+ "technologies": [
+  "civ-heavy-lift-temporary-works"
+ ],
+ "sources": [
+  {
+   "url": "https://www.mammoet.com/",
+   "note": "heavy lift and transport methods, read 2026-11-07"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "url": "https://www.mammoet.com/",
+ "categories": [
+  "engineering-consultancy"
+ ]
+}

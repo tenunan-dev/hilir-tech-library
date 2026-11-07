@@ -1,0 +1,24 @@
+{
+ "id": "pepperl-fuchs",
+ "name": "Pepperl+Fuchs",
+ "country": "Germany",
+ "roles": [
+  "oem"
+ ],
+ "description": "Intrinsic-safety interfaces, Ex i isolators and remote I/O for hazardous-area instrumentation, plus industrial sensors.",
+ "technologies": [
+  "ele-hazardous-area-electrical",
+  "ins-field-instrumentation"
+ ],
+ "sources": [
+  {
+   "url": "https://www.pepperl-fuchs.com/",
+   "note": "safety interface products (site bot-blocked to plain fetch; catalogued for the browser pass) \u2014 site bot-blocked to plain fetch, revisit in the browser pass"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "categories": [
+  "equipment-oem"
+ ],
+ "url": "https://www.pepperl-fuchs.com/"
+}

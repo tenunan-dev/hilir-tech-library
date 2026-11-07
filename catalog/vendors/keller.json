@@ -1,0 +1,23 @@
+{
+ "id": "keller",
+ "name": "Keller Group",
+ "country": "United Kingdom",
+ "roles": [
+  "service"
+ ],
+ "description": "Ground improvement and piling contractor: stone columns, deep soil mixing, jet grouting and piled foundations.",
+ "technologies": [
+  "civ-foundations-piling"
+ ],
+ "sources": [
+  {
+   "url": "https://www.kellerfoundations.com/",
+   "note": "ground improvement techniques (site bot-blocked to plain fetch; catalogued for the browser pass) \u2014 site bot-blocked to plain fetch, revisit in the browser pass"
+  }
+ ],
+ "last_reviewed": "2026-11-07",
+ "url": "https://www.kellerfoundations.com/",
+ "categories": [
+  "oilfield-service"
+ ]
+}

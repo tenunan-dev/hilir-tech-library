@@ -8,6 +8,25 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.07.5] — 2026-11-07 — Vendor round, glossary, first verified-figure fills
+
+### Added
+- **15 discipline vendors** (436 total): SEL, Eaton, nVent, Vertiv, Prysmian, Mammoet, Sarens,
+  Yinson Production (Malaysia), MODEC-restored, RedGuard, Woodward, Bently Nevada, Pepperl+Fuchs,
+  R. Stahl, Bauer, Keller, Cummins, Endress+Hauser, Yokogawa — each linked to the new discipline
+  cards with cited evidence.
+- **Glossary layer**: 60 authored term/expansion entries (`catalog/glossary.jsonl`) with
+  related-card links, served at `/glossary` with a filter box; integrity tests (unique terms,
+  dangling-link check).
+- **First verified performance figures** on discipline cards (evidence-fetched, not guessed):
+  ele-transformers (Hitachi Energy UHVDC/735-765 kV unit counts), civ-floating-structures-fpso
+  (MODEC 59 units in 20 countries).
+
+### Fixed
+- MODEC vendor record restored after an accidental overwrite; near-duplicate Nexans record
+  removed (the original `nexans` record already covered it); missing categories added
+  (Mammoet/Sarens/Bauer/Keller).
+
 ## [2026.11.07.4] — 2026-11-07 — Quick-win features live: compare, export, charts, filters, API reference
 
 ### Added
