@@ -8,6 +8,25 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.07.6] — 2026-11-07 — Sign-in redirect loop fixed: valid-but-unprovisioned identities get a 403 page
+
+### Fixed
+- **techlib.hilir.app "too many redirects" (2026-11-07, owner's Safari):** a valid Access bearer
+  whose email had no row in `library.account` made `gated()`/`admin_gated()` 303 to `/login`,
+  where Access silently re-issued the same identity — an infinite loop. The gates now check
+  whether the forwarded bearer *verifies* (`agent/web.py` `_sign_in_will_not_help`): a verified
+  token with no row answers a **403 "No access here" page**; only the anonymous case still
+  redirects to `/login`. Test contract updated (`tests/test_web.py`: 403, no `location` header,
+  plus the anonymous-redirect case). Root cause and the hop-timing diagnostic recipe are recorded
+  in [docs/STATUS.md](docs/STATUS.md) (2026-11-07 evening entry) and
+  [docs/AUTH.md](docs/AUTH.md) (failure signatures).
+
+### Added
+- The two Access users that had no `library.account` row
+  (`faisal.muthalib@gmail.com`, `faisal_amuthalib@petronas.com.my`) were provisioned via the
+  documented `userstore.create_account()` inside the running container, unblocking the owner
+  before the code fix rolled out.
+
 ## [2026.11.07.5] — 2026-11-07 — Vendor round, glossary, first verified-figure fills
 
 ### Added

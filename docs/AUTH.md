@@ -113,8 +113,8 @@ send it to the person. This app's own role (its `library.account.role`) is still
 |---|---|
 | `invalid_scope` at the authorize step | scope missing from the provider catalogue (`oauthProvider({scopes})` in the Access repo) or not on the client |
 | `invalid_client` at the token step | wrong secret, or the wrong auth method (body instead of Basic) |
-| Sign-in loops back to `/login` | local verify failing — check `iss`, `aud`, `alg=EdDSA`, and the token actually being a JWT |
-| Signed in but "no account" | the person's email has no row in `library.account` (roles are store-driven) |
+| Sign-in loops back to `/login` | since 2026-11-07 (`6dca4d2`) a *verified* bearer with no `library.account` row answers a 403 page instead of redirecting, so a live loop means either local verify failing (`iss`, `aud`, `alg=EdDSA`, token actually a JWT) **or the deployed container predates `6dca4d2`**. Fingerprint for who is bouncing: in the edge worker's logs a ~60 ms `/login` is pure edge, a ~600 ms `/` is the VPS round trip (the container is the bouncer) |
+| Signed in but "No access here" (403) | correct behaviour since `6dca4d2`: the token verifies but the email has no row in `library.account` (roles are store-driven). Fix = add the row on the admin page — never a redirect, which loops forever because Access silently re-issues the same identity |
 | "Logout error — confirmation invalid or expired" | the CSP `form-action` rewrite in the Access worker is missing |
 
 ## Audit applied (2026-11-05/06)
