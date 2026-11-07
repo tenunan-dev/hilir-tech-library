@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.07.3] — 2026-11-07 — One combined roadmap
+
+### Changed
+- **docs/ROADMAP.md is now the library's single plan** (decision #38): the standing
+  source-discovery effort, the discipline layer (batch 1 done, 27 cards), thin-spot fills
+  (costs, reference plants, thin sectors), new layers (standards registry, glossary) and product
+  features (compare, export, charts, filters, playground, saved items, ask) sequenced and aligned
+  under one register/evidence/publish standard.
+- docs/DISCIPLINE_EXPANSION_PLAN.md superseded: body archived verbatim at
+  docs/archive/2026-11-07_DISCIPLINE_EXPANSION_PLAN_v1.md, living file is a pointer.
+
 ## [2026.11.07.2] — 2026-11-07 — Discipline expansion: ELE, CIV, INS deepening (27 new cards)
 
 ### Added
