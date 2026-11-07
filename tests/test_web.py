@@ -77,9 +77,24 @@ def test_pages_answer_with_a_bearer(c):
 
 
 def test_token_without_an_account_row_is_refused(c):
-    """The token proves who; the store decides the role. No row = no access (fail-closed)."""
+    """The token proves who; the store decides the role. No row = no access (fail-closed),
+    and a 403 page — never a redirect to /login, which would loop forever: Access silently
+    re-issues the same valid identity every time (Safari's too-many-redirects, 2026-11-07)."""
     c.headers["authorization"] = f"Bearer {GHOST_TOKEN}"
-    assert c.get("/technologies", follow_redirects=False).status_code == 303
+    r = c.get("/technologies", follow_redirects=False)
+    assert r.status_code == 403
+    assert "location" not in r.headers  # the anti-loop contract: no /login bounce
+    assert "not registered" in r.text
+
+
+def test_invalid_token_still_redirects_to_login(c):
+    """No (or a bad) token is the anonymous case: the standard sign-in flow applies."""
+    c.headers.pop("authorization", None)  # the client is module-scoped; clear leaked headers
+    r = c.get("/technologies", follow_redirects=False)
+    assert r.status_code == 303 and r.headers["location"].startswith("/login?next=")
+    c.headers["authorization"] = "Bearer not.a.jwt"
+    r = c.get("/technologies", follow_redirects=False)
+    assert r.status_code == 303 and r.headers["location"].startswith("/login?next=")
 
 
 def test_admin_gating(c):

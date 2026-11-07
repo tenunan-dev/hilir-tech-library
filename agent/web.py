@@ -777,6 +777,31 @@ def _account(request: Request) -> dict | None:
             "role": row.get("role") or "user"}
 
 
+def _sign_in_will_not_help(request: Request) -> bool:
+    """True when a VALID hilir Access bearer token was forwarded but the caller
+    still has no account row here. Sending that browser to /login loops
+    forever: Access silently re-issues the same identity every time (observed
+    as Safari's too-many-redirects error, 2026-11-07)."""
+    given = request.headers.get("authorization", "").removeprefix("Bearer ").strip()
+    if not given or hilir_auth is None or given.count(".") != 2:
+        return False
+    return hilir_auth.verify(given) is not None
+
+
+def _no_account_response(request: Request) -> Response:
+    """403 page for a signed-in caller the account store does not know."""
+    given = request.headers.get("authorization", "").removeprefix("Bearer ").strip()
+    info = (hilir_auth.identity(given) or {}) if given else {}
+    who = esc(info.get("email") or "your account")
+    resp = _page("No access", f'<section class="card narrow"><h1>No access here</h1>'
+                              f'<p>Signed in as <b>{who}</b> at hilir Access, but this '
+                              f'account is not registered on the Technology Library.</p>'
+                              '<p class="muted small">Ask an administrator to add it on the '
+                              'admin page, or sign in with a different account.</p></section>')
+    resp.status_code = 403
+    return resp
+
+
 def _is_admin(request: Request) -> bool:
     account = _account(request)
     return bool(account) and account["role"] == "admin"
@@ -1829,6 +1854,10 @@ def routes(tools) -> list:
         async def with_gate(request: Request):
             account = _account(request)
             if account is None:
+                if _sign_in_will_not_help(request):
+                    # A valid token but no account row: /login would silently
+                    # re-issue the same identity and loop forever — deny instead.
+                    return _no_account_response(request)
                 # The edge owns /login (the OIDC sign-in), so this redirect lands
                 # the browser in the standard sign-in flow.
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
@@ -1846,6 +1875,8 @@ def routes(tools) -> list:
         async def with_gate(request: Request):
             account = _account(request)
             if account is None:
+                if _sign_in_will_not_help(request):
+                    return _no_account_response(request)
                 return RedirectResponse("/login?next=" + urllib.parse.quote(request.url.path), status_code=303)
             if account["role"] != "admin":
                 resp = _page("Admin", '<section class="card narrow"><h1>Admin</h1>'
