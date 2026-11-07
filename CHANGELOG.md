@@ -38,6 +38,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   `//evil.com`, `/\evil.com` and `/\` while keeping `/dashboard`, `/2026/x`, `/`.
 - Live after deploy: the HOSTING/AUTH curl matrix (reported in STATUS.md).
 
+### Fixed (deploy day)
+- The frontend Worker deploy surfaced and cleared an **orphaned Durable Object namespace**
+  (`og-tech-library-ui_LibraryUI`, dead pre-rebuild object) that blocked every upload; and the
+  deploy itself revealed the worker's auth vars lived only on the live deployment, not in
+  `wrangler.jsonc` — they were wiped and every UI path crashed. The three vars are now committed
+  in `deploy/frontend/wrangler.jsonc` (a deploy without them wipes the live ones — noted in the
+  config), and the missing `HILIR_CLIENT_SECRET` was restored from the estate record's
+  copy-don't-regenerate source. Full curl matrix green after the fixes.
+
 ## [2026.11.06] — 2026-11-06 — Documentation to the new estate; agent-agnostic development runbook
 
 ### Added

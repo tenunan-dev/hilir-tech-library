@@ -14,7 +14,15 @@
     "API_ORIGIN": "https://techlib-api.hilir.app",
     // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS behind the
     // tunnel; ORIGIN_TOKEN is the shared origin secret (wrangler secret put).
-    "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app"
+    "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app",
+    // Phase 4 auth (the UI worker is an OIDC client of hilir Access). These
+    // mirror the edge worker's vars; the client secret is a wrangler secret.
+    // They MUST stay in this config: a deploy without them wipes the live
+    // plain-text vars and every UI path except /health starts 1101-ing
+    // (seen 2026-11-07).
+    "APP_ORIGIN": "https://techlib.hilir.app",
+    "HILIR_ISSUER": "https://access.hilir.app/api/auth",
+    "HILIR_CLIENT_ID": "YBUSRWpUyOKWcnrxJPITRYptIBsqtYFL"
   },
   "routes": [
     { "pattern": "techlib.hilir.app", "custom_domain": true }

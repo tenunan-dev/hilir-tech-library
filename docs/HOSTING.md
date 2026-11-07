@@ -67,7 +67,7 @@ curl -s -o /dev/null -w "%{http_code}\n" -X POST https://techlib-api.hilir.app/m
 ```
 
 Secrets on the Workers: `ORIGIN_TOKEN`, `DATABASE_URL`, `USER_STORE_URL` (frontend),
-`HILIR_CLIENT_SECRET` (backend — the techlib-api introspection client). The container gets
+`HILIR_CLIENT_SECRET` (backend — the techlib-api introspection client; frontend — the OIDC code exchange). The container gets
 `HILIR_CLIENT_ID/HILIR_CLIENT_SECRET` from `/srv/hilir/techlib/.env` (owner-written) for its
 own key introspection.
 
