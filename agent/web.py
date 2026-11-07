@@ -53,7 +53,6 @@ GAP_FIELDS = ["trl", "performance", "costs", "reference_plants", "suppliers", "s
 SECTOR_COLORS = {"UPS": "#8a6d3b", "MID": "#5e8f5e", "GAS": "#b0703a", "REF": "#7d6ba8", "PCH": "#4f8fa8",
                  "PWR": "#c8963e", "H2": "#3e8fc8", "CCS": "#5aa08a"}
 COLOR_FALLBACK = "#5a6b7b"
-MATURITY_COLORS = {"commercial": "#2e7d32", "demonstration": "#1565c0", "pilot": "#ef6c00", "lab": "#616161"}
 # Categorized navigation: two dropdown groups in the header (pure <details>, no JS) plus the
 # account area rendered by _page. Keep hrefs in step with the routes below.
 NAV_GROUPS = (
@@ -99,87 +98,169 @@ MERMAID_SCRIPT = ('<script type="module">import mermaid from "https://cdn.jsdeli
                   'mermaid.initialize({startOnLoad:true,securityLevel:"strict"});</script>')
 
 CSS = """
+/* Flare Triad tokens (estate-canonical: hilir-access src/v2/pages.ts CSS, landing docs/design.md)
+   Three hues, three fixed jobs — --action ember = human controls, --info teal = information,
+   --machine violet = machine surfaces only. --client (petroleum gold) is the techlib identity
+   accent: brand mark, headline emphasis and the active-page underline — never buttons/links.
+   Dark-first; light follows prefers-color-scheme. No toggle, no external assets. */
+:root { color-scheme: dark;
+  --bg:#0f1115; --panel:#131519; --card:#1b1e24; --inset:#0f1115;
+  --border:#2a2e36; --border2:#34383f; --text:#e8e6e3; --muted:#8f959d;
+  --action:#c2410c; --action-line:#e5672f; --action-ink:#ffffff;
+  --client:#e3b341;
+  --info:#2dd4bf; --info-bg:rgba(45,212,191,.10);
+  --machine:#a78bfa; --machine-bg:rgba(167,139,250,.12); --machine-line:rgba(167,139,250,.35);
+  --ok:#4ade80; --danger:#f87171;
+}
+@media (prefers-color-scheme: light) { :root { color-scheme: light;
+  --bg:#f2f4f5; --panel:#e9edef; --card:#ffffff; --inset:#f7f9fa;
+  --border:#d9dfe3; --border2:#c3ccd2; --text:#16283a; --muted:#5e6b74;
+  --action:#c2410c; --action-line:#b23a0a; --action-ink:#ffffff;
+  --client:#a16207;
+  --info:#0e7f96; --info-bg:rgba(14,127,150,.10);
+  --machine:#6d4fc4; --machine-bg:rgba(109,79,196,.10); --machine-line:rgba(109,79,196,.35);
+  --ok:#15803d; --danger:#dc2626;
+}}
 * { box-sizing: border-box; }
-body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-       background: #f6f7f9; color: #1c2733; line-height: 1.5; }
-a { color: #1a4f8b; }
-h1 { font-size: 1.35rem; margin: 0 0 .5rem; }
-h2 { font-size: 1.05rem; margin: .1rem 0 .5rem; }
-header { position: sticky; top: 0; z-index: 5; background: #0e2033; color: #fff;
-         box-shadow: 0 1px 4px rgba(14,32,51,.35); }
-header .bar { max-width: 74rem; margin: 0 auto; padding: .55rem 1rem; display: flex;
-              flex-wrap: wrap; gap: .5rem .9rem; align-items: center; }
-header a { color: #fff; text-decoration: none; }
-header .brand { font-weight: 700; }
-header nav { display: flex; flex-wrap: wrap; gap: .15rem; }
-header nav a { padding: .18rem .5rem; border-radius: 6px; color: #c8d6e5; font-size: .92rem; }
-header nav a.active { background: #27425f; color: #fff; font-weight: 600; }
-header form { display: flex; gap: .35rem; flex: 1 1 11rem; }
-header input[type=search] { flex: 1; min-width: 7rem; background: #1b3450; border: 1px solid #2f4d6e;
-                            color: #fff; border-radius: 6px; padding: .3rem .55rem; }
-header input::placeholder { color: #8fa6bd; }
+[hidden] { display: none !important; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+       background: var(--bg); color: var(--text); line-height: 1.5; font-size: 14px;
+       -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+       -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
+a { color: var(--info); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { font-size: 19px; letter-spacing: -.2px; margin: 0 0 .5rem; }
+h2 { font-size: 12.5px; text-transform: uppercase; letter-spacing: .6px; color: var(--info); margin: .1rem 0 .6rem; }
+h3 { font-size: .95rem; margin: .9rem 0 .4rem; }
+.card.mach { border-color: var(--machine-line); }
+.card.mach h2 { color: var(--machine); }
+.card.error { background: transparent; border-color: var(--danger); }
+/* header: brand (gold client mark) + nav (gold active underline) + search + sign out */
+header { position: sticky; top: 0; z-index: 5; background: var(--panel);
+         border-bottom: 1px solid var(--border); }
+header .bar { max-width: 74rem; margin: 0 auto; padding: .5rem 1rem; display: flex;
+              flex-wrap: wrap; gap: .4rem 1rem; align-items: center; }
+header a { text-decoration: none; }
+header .brand { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 16px; color: var(--text); }
+header .brand .mark { width: 26px; height: 26px; border-radius: 7px; background: var(--client);
+                      display: grid; place-items: center; flex: none; }
+header .brand .brandsub { color: var(--info); }
+header nav { display: flex; flex-wrap: wrap; gap: .1rem; }
+header nav a { padding: .35rem .6rem; color: var(--muted); font-weight: 600; font-size: 13.5px; }
+header nav a:hover { color: var(--text); text-decoration: none; }
+header nav a.active { color: var(--text); box-shadow: inset 0 -2px 0 var(--client); }
+header form { display: flex; gap: .5rem; flex: 1 1 12rem; }
+header input[type=search] { flex: 1; min-width: 7rem; }
+header input::placeholder { color: var(--muted); }
 .container { max-width: 74rem; margin: 0 auto; padding: 1rem; }
-.card { background: #fff; border: 1px solid #d9dee3; border-radius: 8px; padding: 1rem; margin: 0 0 1rem; }
-.card.error { background: #fdf0ee; border-color: #e6b8b0; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin: 0 0 1rem; }
 .narrow { max-width: 26rem; margin: 2.5rem auto; }
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); gap: .75rem; }
-.stat { border: 1px solid #d9dee3; border-radius: 8px; padding: .6rem .4rem; text-align: center;
-        font-size: .78rem; color: #5a6b7b; }
-.stat b { display: block; font-size: 1.35rem; color: #1c2733; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: .75rem; }
-.grid a { display: flex; align-items: center; gap: .5rem; background: #fff; border: 1px solid #d9dee3;
-          border-radius: 8px; padding: .6rem .8rem; color: #1c2733; text-decoration: none; }
-.grid a:hover { border-color: #9fb2c4; }
-.grid.tiles a { font-weight: 600; color: #1a4f8b; }
+/* stat strip: numbers, not boxes (home + database overview) */
+.stats { display: flex; flex-wrap: wrap; gap: .5rem 2rem; }
+.container > .stats { margin: 0 0 1.1rem; }
+.stat { font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); font-weight: 600; }
+.stat b { display: block; font-size: 1.5rem; font-weight: 500; color: var(--client); letter-spacing: 0; }
+/* home hero */
+.hero { background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+        padding: 26px 24px; margin: 0 0 1rem; }
+.hero h1 { margin: 0 0 14px; }
+.hero h1 em { font-style: normal; color: var(--client); }
+.hero form { display: flex; gap: 10px; max-width: 40rem; }
+.hero input { flex: 1; min-height: 46px; }
+.hero button { height: 46px; padding: 0 22px; }
+.hero .sub { font-size: 12.5px; color: var(--muted); margin: 10px 0 0; }
+.twocol { display: grid; grid-template-columns: 1.25fr 1fr; gap: 1rem; align-items: start; }
+/* estate rows (home Library/Database boards) */
+.arow { display: flex; align-items: center; gap: 10px; padding: 10px 4px;
+        border-top: 1px solid var(--border); color: var(--text); text-decoration: none; }
+.arow:first-of-type { border-top: 0; padding-top: 0; }
+.arow .t { font-weight: 600; font-size: 13.5px; }
+.arow:hover { background: var(--inset); text-decoration: none; }
+.arow .sp { flex: 1; }
+.arow .arr { color: var(--info); }
+/* sector + database-view chip grids */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: .5rem; }
+.grid a { display: flex; align-items: center; gap: .5rem; background: var(--inset); border: 1px solid var(--border);
+          border-radius: 8px; padding: 9px 12px; color: var(--text); text-decoration: none; font-size: 13px; }
+.grid a:hover { border-color: var(--border2); text-decoration: none; }
 .dot { width: .7rem; height: .7rem; border-radius: 50%; display: inline-block; flex: none; }
-.big { text-align: center; padding: 1.75rem 1rem; }
-.big form { display: flex; gap: .5rem; margin: 0 auto; max-width: 36rem; }
-.big input { flex: 1; padding: .55rem .8rem; border: 1px solid #d9dee3; border-radius: 8px; font-size: 1rem; }
 .scroll { overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; font-size: .9rem; }
-th, td { border: 1px solid #d9dee3; padding: .35rem .55rem; text-align: left; vertical-align: top; }
-th { background: #eef1f4; }
-tbody tr:nth-child(even) { background: #f7f9fa; }
+.scroll.tall { max-height: calc(100vh - 15rem); overflow: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th { color: var(--muted); text-align: left; font-weight: 600; font-size: 11px; text-transform: uppercase;
+     letter-spacing: .5px; padding: 0 8px 8px; border-bottom: 1px solid var(--border); }
+td { padding: 9px 8px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+tbody tr:hover td { background: var(--inset); }
+.scroll.tall th { position: sticky; top: 0; background: var(--card); z-index: 1; }
 td.wrap { white-space: pre-wrap; }
-pre, code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
-code { background: #eef1f4; border-radius: 4px; padding: .05rem .3rem; font-size: .88em; }
-pre { background: #eef1f4; border-radius: 8px; padding: .75rem; overflow-x: auto; font-size: .82rem; }
-pre code { background: none; padding: 0; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+code { background: var(--inset); border: 1px solid var(--border); border-radius: 4px; padding: .05rem .3rem; font-size: .88em; }
+pre { background: var(--inset); border: 1px solid var(--border); border-radius: 8px; padding: .75rem; overflow-x: auto; font-size: .82rem; }
+pre code { background: none; border: 0; padding: 0; }
 pre.doc { font-size: .8rem; white-space: pre-wrap; }
-.badge { display: inline-block; background: #5a6b7b; color: #fff; border-radius: 999px;
-         padding: .02rem .5rem; font-size: .72rem; vertical-align: middle; white-space: nowrap; }
-.pill { display: inline-block; border: 1px solid #c9d2da; background: #f1f4f6; color: #40506a;
-        border-radius: 999px; padding: 0 .5rem; font-size: .72rem; vertical-align: middle; white-space: nowrap; }
-.muted { color: #5a6b7b; }
+/* chips: filled = data colours (sector badges), outlined = meta, teal = info, violet = machine chips */
+.badge { display: inline-block; color: #fff; border-radius: 999px; padding: 2px 10px; font-size: 11px;
+         font-weight: 600; vertical-align: middle; white-space: nowrap; }
+.pill { display: inline-block; border: 1px solid var(--border2); color: var(--muted); background: transparent;
+        border-radius: 999px; padding: 1px 10px; font-size: 11px; font-weight: 600; vertical-align: middle; white-space: nowrap; }
+.pill.info { border-color: transparent; background: var(--info-bg); color: var(--info); }
+.pill.mach { border-color: transparent; background: var(--machine-bg); color: var(--machine); }
+.mchip { display: inline-block; border: 1px solid var(--border2); color: var(--muted); background: transparent;
+         border-radius: 999px; padding: 1px 10px; font-size: 11px; font-weight: 600; vertical-align: middle; white-space: nowrap; }
+.mchip.m-commercial { border-color: var(--ok); color: var(--ok); }
+.mchip.m-demonstration { border-color: var(--info); color: var(--info); }
+.mchip.m-pilot { border-color: var(--action-line); color: var(--action-line); }
+.mchip.m-lab { color: var(--muted); }
+.muted { color: var(--muted); }
 .small { font-size: .8rem; }
-.snippet { font-size: .85rem; color: #3d4f60; margin: .15rem 0 .1rem; }
-.gap { margin: .7rem 0; padding-top: .6rem; border-top: 1px solid #eef1f4; }
+.snippet { font-size: .85rem; color: var(--muted); margin: .15rem 0 .1rem; }
+.gap { margin: .7rem 0; padding-top: .6rem; border-top: 1px solid var(--border); }
 ul { margin: .3rem 0; padding-left: 1.2rem; }
 .hits li { margin: .4rem 0; }
-form.filters { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .8rem; }
+form.filters { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-bottom: .9rem; }
+/* control scale (estate): 38px inputs/buttons, teal focus, native checkboxes keep accent-color */
 input, select, textarea, button { font: inherit; }
-input, select, textarea { background: #fff; color: #1c2733; border: 1px solid #d9dee3;
-                          border-radius: 6px; padding: .3rem .5rem; }
-textarea { width: 100%; font-family: ui-monospace, Menlo, monospace; font-size: .85rem; }
-button { background: #0e2033; color: #fff; border: 1px solid #0e2033; border-radius: 6px;
-         padding: .3rem .8rem; cursor: pointer; }
-button:hover { background: #1c3350; }
-button.ghost, a.ghost { background: transparent; border-color: #3d5a78; color: #c8d6e5; }
-a.ghost { text-decoration: none; padding: 0.35rem 0.8rem; }
-button.example { background: #eef1f4; color: #1c2733; border-color: #d9dee3; font-size: .8rem; }
+button, select, textarea { -webkit-appearance: none; appearance: none; }
+input:not([type="checkbox"]) { -webkit-appearance: none; appearance: none; }
+input, select, textarea { min-height: 38px; padding: 8px 12px; background: var(--inset); color: var(--text);
+                          border: 1px solid var(--border); border-radius: 8px; }
+select { padding-right: 30px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+                    linear-gradient(-45deg, transparent 50%, var(--muted) 50%);
+  background-position: calc(100% - 15px) calc(50% + 2px), calc(100% - 10px) calc(50% + 2px);
+  background-size: 5px 5px; background-repeat: no-repeat; }
+textarea { width: 100%; min-height: 0; resize: vertical; font-family: ui-monospace, Menlo, monospace; font-size: .85rem; }
+input:focus, select:focus, textarea:focus { outline: 2px solid var(--info); outline-offset: 1px; }
+input[type="checkbox"] { min-height: 0; width: auto; accent-color: var(--action); }
+button { border: 0; border-radius: 8px; height: 38px; padding: 0 16px; font-weight: 600; line-height: 1;
+         cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+         background: var(--action); color: var(--action-ink); }
+button:hover { filter: brightness(1.08); }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--info); outline-offset: 1px; }
+button.small { height: 30px; padding: 0 10px; font-size: 12.5px; }
+button.ghost, a.ghost { background: transparent; color: var(--info); border: 1px solid var(--border2); border-radius: 8px;
+                        height: 38px; padding: 0 14px; font-weight: 600; display: inline-flex; align-items: center; }
+a.ghost { text-decoration: none; }
+button.example { background: transparent; color: var(--muted); border: 1px solid var(--border2); border-radius: 999px;
+                 height: auto; padding: 4px 12px; font-size: 12px; font-weight: 600; }
+button.example:hover { color: var(--text); border-color: var(--muted); }
 label.check { display: inline-flex; gap: .25rem; align-items: center; font-size: .8rem; margin-right: .6rem; }
 details { margin: .25rem 0; }
-summary { cursor: pointer; color: #1a4f8b; font-size: .85rem; }
-footer { max-width: 74rem; margin: 0 auto; padding: .75rem 1rem 2rem; color: #5a6b7b;
-         font-size: .85rem; text-align: center; }
-footer a { color: #1a4f8b; }
-/* second-level tabs on the database pages */
-.subnav { max-width: 74rem; margin: 0 auto; padding: .45rem 1rem 0; display: flex; flex-wrap: wrap; gap: .25rem; }
-.subnav a { color: #40506a; text-decoration: none; font-size: .88rem; padding: .32rem .75rem;
-            border-radius: 6px 6px 0 0; border: 1px solid transparent; border-bottom: none; }
-.subnav a:hover { color: #1c2733; }
-.subnav a.active { background: #fff; border-color: #d9dee3; color: #1c2733; font-weight: 600; }
-/* canvas graph views (network explorer, atlas) */
+summary { cursor: pointer; color: var(--info); font-weight: 600; font-size: 13px; }
+/* footer: licence line + violet machine chips for the API surfaces */
+footer { max-width: 74rem; margin: 0 auto; padding: .75rem 1rem 2rem; color: var(--muted);
+         font-size: 12.5px; display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; }
+footer .sp { flex: 1; }
+footer .fchip { display: inline-block; background: var(--machine-bg); color: var(--machine); border-radius: 999px;
+                padding: 3px 12px; font-size: 11px; font-weight: 600; }
+footer .fchip:hover { text-decoration: none; filter: brightness(1.08); }
+/* second-level tabs on the group pages */
+.subnav { background: var(--panel); border-bottom: 1px solid var(--border); }
+.subnav .bar { max-width: 74rem; margin: 0 auto; padding: 0 1rem; display: flex; flex-wrap: wrap; gap: .1rem; }
+.subnav a { color: var(--muted); text-decoration: none; font-size: 13px; font-weight: 600; padding: .65rem .75rem; }
+.subnav a:hover { color: var(--text); text-decoration: none; }
+.subnav a.active { color: var(--text); box-shadow: inset 0 -2px 0 var(--client); }
+/* canvas graph views (network explorer, atlas) — intentional dark data-viz panels on both themes */
 .canvasbox { position: relative; background: #0b1622; border: 1px solid #22344a; border-radius: 8px; overflow: hidden; }
 .canvasbox canvas { display: block; width: 100%; height: 100%; cursor: grab; }
 .canvasbox canvas.dragging { cursor: grabbing; }
@@ -187,9 +268,9 @@ footer a { color: #1a4f8b; }
 .mapwrap { height: 30rem; }
 .netbar { display: flex; flex-wrap: wrap; gap: .4rem .6rem; align-items: center; margin: 0 0 .6rem; }
 .netbar input[type=text] { flex: 1 1 14rem; }
-.chip { display: inline-block; border: 1px solid #c9d2da; background: #f1f4f6; color: #40506a;
+.chip { display: inline-block; border: 1px solid var(--border2); background: transparent; color: var(--muted);
         border-radius: 999px; padding: 0 .55rem; font-size: .74rem; cursor: pointer; user-select: none; }
-.chip.on { background: #0e2033; border-color: #0e2033; color: #fff; }
+.chip.on { background: var(--action); border-color: var(--action); color: var(--action-ink); }
 .legend { position: absolute; left: .6rem; bottom: .5rem; right: 1rem; display: flex; flex-wrap: wrap;
           gap: .15rem .8rem; font-size: .72rem; color: #9fb2c4; z-index: 2; pointer-events: none; }
 .drawer { position: absolute; top: .6rem; right: .6rem; width: 19rem; max-width: 82%; max-height: 92%;
@@ -202,9 +283,9 @@ footer a { color: #1a4f8b; }
 .drawer dt { font-weight: 600; color: #9fb2c4; font-size: .74rem; margin-top: .35rem; }
 .drawer dd { margin: 0; overflow-wrap: anywhere; }
 .drawer a { color: #8ec3ef; }
-.drawer button { margin: .5rem .4rem 0 0; padding: .2rem .55rem; font-size: .78rem; }
+.drawer button { margin: .5rem .4rem 0 0; padding: .2rem .55rem; font-size: .78rem; height: 28px; }
 .drawer .close { position: absolute; top: .3rem; right: .5rem; background: none; border: none;
-                 color: #9fb2c4; font-size: 1rem; padding: 0 .2rem; }
+                 color: #9fb2c4; font-size: 1rem; padding: 0 .2rem; height: auto; }
 .tip { position: absolute; pointer-events: none; background: rgba(14,32,51,.95); color: #fff;
        border: 1px solid #2f4d6e; border-radius: 6px; padding: .15rem .45rem; font-size: .76rem;
        display: none; max-width: 22rem; z-index: 3; }
@@ -214,6 +295,12 @@ footer a { color: #1a4f8b; }
               padding: .4rem .2rem; text-align: center; color: #9fb2c4; font-size: .72rem;
               text-decoration: none; }
 .mapstats a b { display: block; color: #fff; font-size: 1.1rem; }
+/* iOS zoom guard */
+@media (max-width: 860px) {
+  input, select, textarea { font-size: 16px; }
+  .twocol { grid-template-columns: 1fr; }
+  .card { padding: 16px; }
+}
 """
 
 # Interactive force-directed network for /database/graph. Self-contained vanilla JS on one canvas:
@@ -704,8 +791,14 @@ def _safe_next(value) -> str:
     return value if isinstance(value, str) and value.startswith("/") and not value.startswith("//") else "/"
 
 
-def _badge(text, color=COLOR_FALLBACK) -> str:
-    return f'<span class="badge" style="background:{esc(color)}">{esc(text)}</span>' if text else ""
+def _badge(text, color=None) -> str:
+    # a colour means a data chip (sector codes keep their catalogue hue); no colour means a
+    # neutral meta chip (licence, reuse level, search mode, gap field)
+    if not text:
+        return ""
+    if color:
+        return f'<span class="badge" style="background:{esc(color)}">{esc(text)}</span>'
+    return f'<span class="pill">{esc(text)}</span>'
 
 
 def _sector_badge(code) -> str:
@@ -713,7 +806,10 @@ def _sector_badge(code) -> str:
 
 
 def _maturity_badge(maturity) -> str:
-    return _badge(maturity, MATURITY_COLORS.get(maturity, COLOR_FALLBACK))
+    # outlined estate-hue chips: commercial ok, demonstration info, pilot ember, lab muted
+    if maturity in MATURITIES:
+        return f'<span class="mchip m-{esc(maturity)}">{esc(maturity)}</span>'
+    return _pill(str(maturity or ""))
 
 
 def _pill(text) -> str:
@@ -815,9 +911,9 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
             subnav = library_members
     tabs = ""
     if subnav:
-        tabs = '<nav class="subnav">' + "".join(
+        tabs = '<nav class="subnav"><div class="bar">' + "".join(
             f'<a href="{href}"{" class=\"active\"" if href == subactive or (href == active and not subactive) else ""}>{esc(label)}</a>'
-            for label, href in subnav) + "</nav>"
+            for label, href in subnav) + "</div></nav>"
     notice = ""
     if _neon_degraded.get():
         _neon_degraded.set(False)
@@ -834,7 +930,7 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 </head>
 <body>
 <header><div class="bar">
-<a class="brand" href="/">HILIR Technology Library</a>
+<a class="brand" href="/"><span class="mark"><svg width="15" height="15" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M9 22V10" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path d="M9 16h8a4 4 0 0 0 0-8h-2" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"/></svg></span>hilir <span class="brandsub">Technology Library</span></a>
 <nav>{nav}</nav>
 <form action="/search" method="get"><input type="search" name="q" value="{esc(q)}" placeholder="Search the library" aria-label="Search"><button type="submit">Search</button></form>
 <a class="ghost" href="/logout">Sign out</a>
@@ -844,8 +940,8 @@ def _page(title, body, *, q="", active="", subnav=None, subactive="", admin_nav=
 {notice}
 {body}
 </main>
-<footer>Every result carries its licence — cite the url. full-text-restricted text is never served.
- · <a href="{API_PUBLIC_BASE}/api/openapi.json">REST API</a> · <a href="{API_PUBLIC_BASE}/mcp">MCP</a></footer>
+<footer>Every result carries its licence — cite the url. full-text-restricted text is never served.<span class="sp"></span>
+<a class="fchip" href="{API_PUBLIC_BASE}/api/openapi.json">REST API</a> <a class="fchip" href="{API_PUBLIC_BASE}/mcp">MCP</a></footer>
 <script>
 // external references (vendor sites, document sources, citations) open in a new tab;
 // internal links and the API/MCP footer links stay in this one
@@ -946,21 +1042,27 @@ def routes(tools) -> list:
             f'<a href="/technologies?sector={code}"><span class="dot" '
             f'style="background:{SECTOR_COLORS.get(code, COLOR_FALLBACK)}"></span>{esc(label)}</a>'
             for code, label in HOME_SECTORS)
-        library_tiles = "".join(f'<a href="{href}">{esc(label)}</a>' for label, href in (
+        library_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
+                               f'<span class="sp"></span><span class="arr">→</span></a>' for label, href in (
             ("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
             ("Equipment", "/equipment"),
             ("Sources", "/sources"), ("Documents", "/documents"), ("Gaps", "/gaps")))
-        database_tiles = "".join(f'<a href="{href}">{esc(label)}</a>' for label, href in DATABASE_TABS)
+        database_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
+                                f'<span class="sp"></span><span class="arr">→</span></a>'
+                                for label, href in DATABASE_TABS)
         body = (
-            f'<section class="card"><div class="stats">{cards}</div></section>'
-            '<section class="card big"><form action="/search" method="get">'
+            '<section class="hero"><h1>Oil, gas and <em>energy</em> technologies</h1>'
+            '<form action="/search" method="get">'
             '<input type="search" name="q" placeholder="Search sources, passages and technology cards" autofocus>'
             '<button type="submit">Search</button></form>'
-            '<p class="muted small">Search ranks by keywords and meaning — vectors come from the edge '
+            '<p class="sub">Search ranks by keywords and meaning — vectors come from the edge '
             'embed service, so semantic search works here too.</p></section>'
+            f'<div class="stats">{cards}</div>'
+            '<div class="twocol">'
             f'<section class="card"><h2>Browse by sector</h2><div class="grid">{sectors}</div></section>'
-            f'<section class="card"><h2>Library</h2><div class="grid tiles">{library_tiles}</div></section>'
-            f'<section class="card"><h2>Database</h2><div class="grid tiles">{database_tiles}</div></section>')
+            f'<section class="card"><h2>Library</h2>{library_rows}</section>'
+            '</div>'
+            f'<section class="card"><h2>Database</h2>{database_rows}</section>')
         return _page("Oil, gas and energy technologies", body)
 
     async def search(request: Request):
@@ -1170,7 +1272,7 @@ def routes(tools) -> list:
             lambda: pg.register_rows(code or None, maturity or None, query or None),
             lambda: tools.list_technology_register(code or None, maturity or None, query or None))
         rows = "".join(
-            "<tr><td>" + (f'<a href="/technologies/{esc(e.get("card"))}">{esc(e.get("name"))}</a> {_pill("card")}'
+            "<tr><td>" + (f'<a href="/technologies/{esc(e.get("card"))}">{esc(e.get("name"))}</a> <span class="pill info">card</span>'
                           if e.get("card") else esc(e.get("name")))
             + f"</td><td>{_sector_badge(e.get('code'))}</td><td>{esc(e.get('area'))}</td>"
             f"<td>{_maturity_badge(e.get('maturity'))}</td><td>{esc(e.get('examples'))}</td></tr>"
@@ -1180,7 +1282,7 @@ def routes(tools) -> list:
                 + f' <input type="search" name="q" value="{esc(query)}" placeholder="name, area or examples" size="18">'
                 + ' <button type="submit">Filter</button></form>'
                 + f'<p class="muted">{len(entries)} register entries</p>'
-                + '<div class="scroll"><table><thead><tr><th>Name</th><th>Sector</th><th>Area</th><th>Maturity</th>'
+                + '<div class="scroll tall"><table><thead><tr><th>Name</th><th>Sector</th><th>Area</th><th>Maturity</th>'
                 + f'<th>Examples</th></tr></thead><tbody>{rows}</tbody></table></div></section>')
         return _page("Technology register", body, active="/register")
 
@@ -1604,13 +1706,13 @@ def routes(tools) -> list:
         else:
             analytics = ('<p class="muted small">Activity recording needs the persistent account store '
                          '(USER_STORE_URL), so there is nothing to show yet.</p>')
-        body = (f'<section class="card"><h1>Admin</h1>{store_note}'
+        body = (f'<section class="card mach"><h1>Admin</h1>{store_note}'
                 f'<p class="muted small">Sign-in happens at hilir Access; this row decides the role. '
                 f'Deleting an account revokes its access within the account-cache window.</p></section>'
-                f'<section class="card"><h2>Accounts</h2>'
+                f'<section class="card mach"><h2>Accounts</h2>'
                 f'<table><tr><th>Email</th><th>Name</th><th>Role</th><th></th></tr>{account_rows}</table>'
                 f'<h3>Add an account</h3>{add_form}</section>'
-                f'<section class="card"><h2>Usage data and analytics</h2>{analytics}</section>')
+                f'<section class="card mach"><h2>Usage data and analytics</h2>{analytics}</section>')
         return _page("Admin", body, admin_nav=True)
 
     async def admin_create(request: Request):
@@ -1818,7 +1920,7 @@ def _sql_console(sql, max_rows) -> str:
     buttons = "".join(
         f'<button type="button" class="example" onclick="{esc(_fill_js(query))}">{esc(label)}</button> '
         for label, query in SQL_EXAMPLES)
-    return ('<section class="card"><h2>SQL console</h2>'
+    return ('<section class="card mach"><h2>SQL console</h2>'
             '<p class="muted small">One read-only SELECT or WITH statement against schema og; at most 500 rows.</p>'
             '<form method="post" action="/database/sql">'
             f'<textarea id="sql" name="sql" rows="8" placeholder="one SELECT statement — no semicolon, no comments">{esc(sql)}</textarea>'
