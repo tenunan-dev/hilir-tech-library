@@ -467,6 +467,22 @@ def source_row(source_id: str) -> dict | None:
     return _execute(work)
 
 
+def document_index(limit: int = 500) -> list[dict]:
+    """Lightweight documents index for /documents (no path): id, title, source and reuse
+    level per collected document, newest-sourced first is not tracked — order by id."""
+
+    def work(cur):
+        cur.execute("""SELECT d.id, d.meta->>'title', d.source_id, s.name,
+                              coalesce(d.reuse_level, s.reuse_level)
+                       FROM document d LEFT JOIN source s ON s.id = d.source_id
+                       ORDER BY d.id LIMIT %s""", (limit,))
+        return [{"path": did, "title": title, "source_id": sid, "source_name": sname,
+                 "reuse_level": reuse}
+                for did, title, sid, sname, reuse in cur.fetchall()]
+
+    return _execute(work)
+
+
 def document_row(path: str) -> dict | None:
     """library.get_document equivalent from og.document: front matter and full text. Text of
     full-text-restricted documents is never returned — the stored body is ignored for them

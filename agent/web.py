@@ -57,7 +57,8 @@ COLOR_FALLBACK = "#5a6b7b"
 # Categorized navigation: two dropdown groups in the header (pure <details>, no JS) plus the
 # account area rendered by _page. Keep hrefs in step with the routes below.
 NAV_GROUPS = (
-    ("Library", (("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
+    ("Library", (("Technologies", "/technologies"), ("Compare", "/compare"), ("Register", "/register"),
+                 ("Vendors", "/vendors"),
                  ("Equipment", "/equipment"),
                  ("Sources", "/sources"), ("Documents", "/documents"), ("Standards", "/standards"),
             ("Glossary", "/glossary"), ("Gaps", "/gaps"))),
@@ -1369,7 +1370,7 @@ def routes(tools) -> list:
             body.append(_section("Side by side", _compare_table(selected)))
         elif flat and not q:
             body.append(_section("", '<p class="muted">Select at least two technologies to compare.</p>'))
-        return _page("Compare technologies", "".join(body), active="/technologies")
+        return _page("Compare technologies", "".join(body), active="/compare")
 
     async def api_reference(request: Request):
         import api as api_module
@@ -1688,7 +1689,38 @@ def routes(tools) -> list:
     async def documents(request: Request):
         path = request.query_params.get("path")
         if not path:
-            return _bad_request("This address needs a ?path= parameter, as given by a search result.")
+            # Index view (the menu's Documents tab): the collected documents, each linking to
+            # its viewer. Neon-first, baked-index fallback via the docs table.
+            def _fallback():
+                import json as _json
+                import library as _lib
+                db = _lib.connect()
+                out = []
+                for dpath, srec in db.execute(
+                        "SELECT d.path, s.record FROM docs d JOIN sources s ON s.id = d.source_id ORDER BY d.path LIMIT 500"):
+                    rec = _json.loads(srec)
+                    out.append({"path": dpath, "title": None, "source_id": rec.get("id"),
+                                "source_name": rec.get("name"), "reuse_level": rec.get("reuse_level")})
+                return out
+            rows = _neon_first(lambda: pg.document_index(), _fallback)
+            items = "".join(
+                '<div class="arow"><span class="grow"><a href="/documents?path=%s">%s</a>'
+                '<span class="slotsub">%s</span></span>%s</div>'
+                % (esc(urllib.parse.quote(r.get("path") or "")),
+                   esc(r.get("title") or r.get("path")),
+                   esc(r.get("source_name") or r.get("source_id") or ""),
+                   _badge(r.get("reuse_level")))
+                for r in rows)
+            if items:
+                return _page("Documents",
+                             '<section class="card"><h1>Collected documents <span class="muted small">%d shown</span></h1>'
+                             '<div class="arows">%s</div>'
+                             '<p class="muted small">Open a document for its front matter and (licence permitting) '
+                             'full text. Documents are also reachable from search results.</p></section>'
+                             % (len(rows), items), active="/documents")
+            return _page("Documents",
+                         '<section class="card"><h1>Documents</h1><p class="muted">No documents indexed yet.</p></section>',
+                         active="/documents")
         doc = _neon_first(lambda: pg.document_row(path), lambda: tools.get_document(path))
         if not doc:
             return _not_found("No collected document at that path.")
