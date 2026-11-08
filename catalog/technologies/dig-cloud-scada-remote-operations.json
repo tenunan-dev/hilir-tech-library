@@ -1,0 +1,96 @@
+{
+ "id": "dig-cloud-scada-remote-operations",
+ "name": "Cloud SCADA and remote operations centres",
+ "aliases": [
+  "cloud SCADA",
+  "remote operations centre",
+  "ROC",
+  "edge computing",
+  "hybrid SCADA"
+ ],
+ "sector": "DIG",
+ "category": "Operations infrastructure",
+ "applications": [
+  "distributed well pads",
+  "pipeline networks",
+  "remote terminals",
+  "multi-site production",
+  "brownfield SCADA modernisation"
+ ],
+ "maturity": "commercial",
+ "principle": "Cloud and hybrid SCADA moves the historian, dashboards and supervisory applications to managed cloud infrastructure while keeping the local control loop deterministic at the edge \u2014 PLCs and RTUs keep control during outages and push data up through brokers such as OPC UA. A remote operations centre then pools specialists across sites: one control-room team supervises many facilities, surveillance and analytics run plant-wide, and cybersecurity follows IEC 62443 zoning between the operational network and the cloud layer.",
+ "process_steps": [
+  {
+   "id": "EDG",
+   "name": "Edge devices keep local control and buffer data during outages",
+   "equipment": [
+    "PLCs",
+    "RTUs",
+    "edge gateways"
+   ]
+  },
+  {
+   "id": "BRK",
+   "name": "OPC UA brokers push telemetry to the cloud layer",
+   "equipment": [
+    "OPC UA brokers"
+   ]
+  },
+  {
+   "id": "CLD",
+   "name": "Cloud historian, dashboards and analytics serve all sites",
+   "equipment": [
+    "cloud historian"
+   ]
+  },
+  {
+   "id": "ROC",
+   "name": "Remote operations centre supervises facilities from one room",
+   "equipment": [
+    "ROC workstations"
+   ]
+  },
+  {
+   "id": "SEC",
+   "name": "IEC 62443 zones and conduits separate operational from cloud networks",
+   "equipment": [
+    "firewalls",
+    "DMZ"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "edge gateways",
+  "OPC UA brokers",
+  "cloud historians",
+  "ROC workstations"
+ ],
+ "suppliers": [
+  {
+   "name": "AVEVA (Schneider Electric)",
+   "product": "AVEVA CONNECT cloud and SCADA"
+  },
+  {
+   "name": "Emerson",
+   "product": "remote operations"
+  },
+  {
+   "name": "Honeywell",
+   "product": "process cloud offerings"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.aveva.com/",
+   "source_id": "schneider-aveva",
+   "note": "AVEVA cloud SCADA and CONNECT offering, read 2026-11-08"
+  },
+  {
+   "url": "https://process.honeywell.com/",
+   "source_id": "honeywell-process",
+   "note": "Honeywell process cloud and remote operations, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

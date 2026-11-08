@@ -1,12 +1,56 @@
 # PRC technology options
 
-3 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+5 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
+| [Catalyst management (handling, regeneration, recycling)](#prc-catalyst-management) | Catalysis services | commercial |  | Eurecat (catalyst regeneration and reloading services); Topsoe (catalyst supply and life-cycle services); Johnson Matthey (catalyst supply and reclamation) |  |
+| [Dynamic simulation and operator training simulators](#prc-dynamic-simulation-ots) | Process systems | commercial |  | AVEVA (Schneider Electric) (dynamic simulation and OTS (DYNSIM lineage)); Honeywell (UniSim dynamic simulation and OTS); AspenTech (Aspen Plus Dynamics / custom OTS) |  |
 | [Pinch analysis and heat integration](#prc-pinch-analysis) | Process design and simulation | commercial |  | Pinchco (HeatIT (Excel-based)); Fives ProSim (Simulis Pinch (Excel)); CanmetENERGY (Integration); TLK-Energy (Pinch Analysis Tool (online)) |  |
 | [Process intensification (rotating packed beds, dividing-wall columns, microreactors)](#prc-process-intensification) | Process design and simulation | commercial |  | Sulzer (dividing-wall columns and advanced column internals); Montz (structured packing and dividing-wall column internals) | capital cost reduction: 10-30 %<br>payback period: 1-3 years |
 | [Steady-state and dynamic process simulation](#prc-process-simulation) | Process design and simulation | commercial |  | AspenTech (Aspen HYSYS and Aspen Plus steady-state and dynamic simulation); Honeywell (UniSim Design process simulation); Siemens (PSE) (gPROMS high-fidelity process modelling); AVEVA (AVEVA PRO/II process simulation) |  |
+
+## Catalyst management (handling, regeneration, recycling)
+<a id="prc-catalyst-management"></a>
+
+Catalyst is a consumable with a managed life: fresh catalyst is loaded under inert atmosphere with density and distribution control; activity declines through coking, poisoning and sintering and is watched via bed pressure drop and product quality; spent catalyst is unloaded (often under inert, sometimes offline via skimming), then either regenerated in-situ or sent to a specialist reclaimer that recovers metals and reconditions the carrier. Life-cycle contracts bundle supply, loading, surveillance and disposal so the refiner pays for active-days rather than tonnes.
+
+```mermaid
+flowchart LR
+    LOD["Fresh catalyst loaded with inert-atmosphere handling and loading-density control<br/><small>dense-loading equipment, inert entry systems</small>"]
+    RUN["Activity tracked through temperature profiles, pressure drop and product quality<br/><small>bed instrumentation</small>"]
+    REG["Regenerated in-situ (controlled burn) or sent for ex-situ regeneration<br/><small>regeneration facilities</small>"]
+    REC["Spent catalyst reclaimed: metals recovered, carrier reconditioned or disposed<br/><small>reclamation plants</small>"]
+    LOD --> RUN
+    RUN --> REG
+    REG --> REC
+```
+
+**Key equipment:** dense-loading services, inert-entry crews, regeneration furnaces, metal reclamation plants.
+
+Sources: [1](https://www.eurecat.com/), [2](https://www.hydrocarbon-engineering.com/). Last reviewed 2026-11-08.
+
+## Dynamic simulation and operator training simulators
+<a id="prc-dynamic-simulation-ots"></a>
+
+Dynamic simulation solves the plant's mass, energy and momentum balances over time rather than at steady state, reproducing transient behaviour: relief events, compressor surging, furnace trip response, control-loop interaction. The same high-fidelity model, connected to a replica of the plant DCS graphics, becomes an operator training simulator that lets crews rehearse startups, shutdowns and emergencies offline before touching the real unit.
+
+```mermaid
+flowchart LR
+    MOD["Steady-state or first-principles model built from P&IDs and heat/material balance<br/><small>model development environment</small>"]
+    DYN["Model made dynamic: holds, lags, controller actions, equipment limits<br/><small>dynamic solver</small>"]
+    TUN["Tuned against plant history so transients reproduce observed behaviour<br/><small>plant historian data</small>"]
+    OTS["Connected to a DCS-replica operator station for training scenarios<br/><small>OTS instructor station</small>"]
+    USE["Used for control checkout, procedure trials and operator certification<br/><small>scenario library</small>"]
+    MOD --> DYN
+    DYN --> TUN
+    TUN --> OTS
+    OTS --> USE
+```
+
+**Key equipment:** solver, instructor station, DCS-replica operator stations, scenario libraries.
+
+Sources: [1](https://process.honeywell.com/), [2](https://www.aspen.com/). Last reviewed 2026-11-08.
 
 ## Pinch analysis and heat integration
 <a id="prc-pinch-analysis"></a>

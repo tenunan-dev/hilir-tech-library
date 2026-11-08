@@ -216,3 +216,13 @@ def test_glossary_page_lists_terms_and_links_cards(c):
     assert "HRSG" in r.text and "terms" in r.text
     filtered = c.get("/glossary", params={"q": "compressor"})
     assert filtered.status_code == 200
+
+
+def test_standards_page_lists_and_filters(c):
+    r = c.get("/standards")
+    assert r.status_code == 200
+    assert "IEC 61511" in r.text and "API 610" in r.text
+    iec = c.get("/standards", params={"org": "IEC"})
+    assert iec.status_code == 200 and "API 610" not in iec.text
+    search = c.get("/standards", params={"q": "pumps"})
+    assert search.status_code == 200

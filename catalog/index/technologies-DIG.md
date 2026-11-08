@@ -1,10 +1,12 @@
 # DIG technology options
 
-5 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+7 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [AI and machine learning for maintenance and optimisation](#dig-ai-ml-maintenance-optimisation) | Digital and data | commercial |  | Cognite (Cognite Data Fusion industrial DataOps and AI); C3 AI (C3 AI Reliability predictive-maintenance applications); SparkCognition (SparkPredict asset AI (now part of Scale AI)); Augury (machine-health vibration and ultrasonic diagnostics) |  |
+| [Cloud SCADA and remote operations centres](#dig-cloud-scada-remote-operations) | Operations infrastructure | commercial |  | AVEVA (Schneider Electric) (AVEVA CONNECT cloud and SCADA); Emerson (remote operations); Honeywell (process cloud offerings) |  |
+| [Computerised maintenance management and work management](#dig-cmms-work-management) | Maintenance systems | commercial |  | IBM (Maximo EAM); IFS (IFS EAM); AVEVA (Schneider Electric) (AVEVA Enterprise Resource Management) |  |
 | [Digital twins of plants and assets](#dig-digital-twins) | Digital and data | commercial |  |  |  |
 | [Engineering data standards (ISO 15926, CFIHOS)](#dig-engineering-data-standards) | Digital and data | commercial |  |  |  |
 | [Industrial IoT and wireless sensors](#dig-iiot-wireless-sensors) | Digital and data | commercial |  | Emerson (WirelessHART self-organising mesh instrumentation); Honeywell (OneWireless field device network); Yokogawa (ISA100 wireless compliance and sensors) |  |
@@ -36,6 +38,50 @@ flowchart LR
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://en.wikipedia.org/wiki/Predictive_maintenance). Last reviewed 2026-10-28.
+
+## Cloud SCADA and remote operations centres
+<a id="dig-cloud-scada-remote-operations"></a>
+
+Cloud and hybrid SCADA moves the historian, dashboards and supervisory applications to managed cloud infrastructure while keeping the local control loop deterministic at the edge — PLCs and RTUs keep control during outages and push data up through brokers such as OPC UA. A remote operations centre then pools specialists across sites: one control-room team supervises many facilities, surveillance and analytics run plant-wide, and cybersecurity follows IEC 62443 zoning between the operational network and the cloud layer.
+
+```mermaid
+flowchart LR
+    EDG["Edge devices keep local control and buffer data during outages<br/><small>PLCs, RTUs, edge gateways</small>"]
+    BRK["OPC UA brokers push telemetry to the cloud layer<br/><small>OPC UA brokers</small>"]
+    CLD["Cloud historian, dashboards and analytics serve all sites<br/><small>cloud historian</small>"]
+    ROC["Remote operations centre supervises facilities from one room<br/><small>ROC workstations</small>"]
+    SEC["IEC 62443 zones and conduits separate operational from cloud networks<br/><small>firewalls, DMZ</small>"]
+    EDG --> BRK
+    BRK --> CLD
+    CLD --> ROC
+    ROC --> SEC
+```
+
+**Key equipment:** edge gateways, OPC UA brokers, cloud historians, ROC workstations.
+
+Sources: [1](https://www.aveva.com/), [2](https://process.honeywell.com/). Last reviewed 2026-11-08.
+
+## Computerised maintenance management and work management
+<a id="dig-cmms-work-management"></a>
+
+The CMMS (or enterprise asset management system) is the operational record of every physical asset: equipment hierarchy, failure history, work orders, permits and spare-parts stock. Work management turns that record into a pipeline — backlog prioritised by risk, planned jobs kitted with materials, scheduled into windows that respect process constraints, executed with capture of as-found/as-left condition, then reviewed in bad-actor and reliability analyses that feed back into inspection and strategy decisions. Its value depends entirely on data discipline: a CMMS full of duplicate hierarchies and un-closed work orders drives worse decisions than paper.
+
+```mermaid
+flowchart LR
+    CAP["Asset register and hierarchy maintained from engineering data<br/><small>asset hierarchy</small>"]
+    ORD["Work requests screened, prioritised and planned with materials<br/><small>work-order system</small>"]
+    SCH["Jobs scheduled into windows agreed with operations<br/><small>scheduler</small>"]
+    EXE["Executed with permits; as-found/as-left recorded<br/><small>permit system</small>"]
+    REV["Failure and cost history analysed; strategies updated<br/><small>bad-actor analysis</small>"]
+    CAP --> ORD
+    ORD --> SCH
+    SCH --> EXE
+    EXE --> REV
+```
+
+**Key equipment:** CMMS/EAM software, mobile work execution, permit-to-work systems, spares inventory module.
+
+Sources: [1](https://www.aveva.com/), [2](https://www.ibm.com/products/maximo). Last reviewed 2026-11-08.
 
 ## Digital twins of plants and assets
 <a id="dig-digital-twins"></a>

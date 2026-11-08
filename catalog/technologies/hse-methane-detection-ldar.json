@@ -1,0 +1,88 @@
+{
+ "id": "hse-methane-detection-ldar",
+ "name": "Methane detection and LDAR programmes",
+ "aliases": [
+  "OGI cameras",
+  "leak detection and repair",
+  "continuous methane monitoring",
+  "drone TDLAS",
+  "CMS"
+ ],
+ "sector": "HSE",
+ "category": "Emissions management",
+ "applications": [
+  "upstream production sites",
+  "gas processing plants",
+  "LNG facilities",
+  "transmission and distribution",
+  "refineries"
+ ],
+ "maturity": "commercial",
+ "principle": "Methane leaks are found by layered detection: optical gas imaging cameras on survey rounds, drone- and aircraft-mounted laser spectroscopy for wide area sweeps, fixed continuous monitors on high-consequence sites, and handheld detectors for repair verification \u2014 all inside a leak detection and repair (LDAR) programme that logs each find, schedules repair within regulatory timeframes and closes the loop with re-survey. The driver is quantified by trackers such as the IEA Global Methane Tracker, which ties the industry's measured methane to the mitigation case.",
+ "process_steps": [
+  {
+   "id": "SUR",
+   "name": "Survey layers run: OGI cameras, drones/aircraft, fixed monitors",
+   "equipment": [
+    "OGI cameras",
+    "drone TDLAS",
+    "CMS"
+   ]
+  },
+  {
+   "id": "LOG",
+   "name": "Detections logged, quantified and screened for repair priority",
+   "equipment": [
+    "LDAR software"
+   ]
+  },
+  {
+   "id": "REP",
+   "name": "Repairs executed within regulatory windows; verified by re-measurement",
+   "equipment": [
+    "handheld detectors"
+   ]
+  },
+  {
+   "id": "RPT",
+   "name": "Emissions reported and reconciled against inventories and trackers",
+   "equipment": [
+    "reporting systems"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "OGI cameras",
+  "laser methane detectors",
+  "fixed continuous monitors",
+  "LDAR data systems"
+ ],
+ "suppliers": [
+  {
+   "name": "FLIR (Teledyne)",
+   "product": "OGI cameras"
+  },
+  {
+   "name": "GHGSat",
+   "product": "satellite methane detection"
+  },
+  {
+   "name": "Project Canary",
+   "product": "continuous monitoring"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.iea.org/reports/global-methane-tracker-2025",
+   "source_id": "iea-methane-tracker",
+   "note": "IEA Global Methane Tracker 2025, read 2026-11-08"
+  },
+  {
+   "url": "https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors",
+   "source_id": "epa-ap42",
+   "note": "EPA AP-42 emission factors, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

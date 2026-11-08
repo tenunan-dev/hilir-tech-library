@@ -27,6 +27,24 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   documented `userstore.create_account()` inside the running container, unblocking the owner
   before the code fix rolled out.
 
+## [2026.11.08] — 2026-11-08 — Standards registry + thin-sector batch
+
+### Added
+- **Standards registry** (roadmap 2.3a): 27 first-class records in `catalog/standards.jsonl`
+  (IEC 60079/60076/60034/60502/60332/61508/61511/61850/62271/62040/62305, API 610/617/618/670/661/
+  2218/RP 752-753/620-650, ISO 13709/19902/19904, ASCE 7, EN 1993, ASME B31.3, NFPA 70E, UL 1709),
+  each with org, scope and links to cards/equipment; served at `/standards` with org + text
+  filters; integrity tests (unique designations, org_source_ids resolve, related ids resolve).
+- **8 thin-sector cards** (roadmap 2.2c): prc-dynamic-simulation-ots, prc-catalyst-management,
+  mat-corrosion-monitoring-inhibition, mat-cui-corrosion-under-insulation, hse-methane-detection-ldar,
+  hse-flare-management-recovery, dig-cmms-work-management, dig-cloud-scada-remote-operations —
+  all linked to new register entries.
+
+### Changed
+- Roadmap 2.2d closed: all 333 register entries have cards. 2.2a (costs) annotated: primary cost
+  sources block plain fetch — needs the staged/browser session.
+- Counts: 404 sources / **334 cards** / 436 vendors / 8 equipment.
+
 ## [2026.11.07.5] — 2026-11-07 — Vendor round, glossary, first verified-figure fills
 
 ### Added

@@ -49,16 +49,16 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 
 | # | Item | Size | Status |
 |---|---|---|---|
-| 2.2a | Costs fill: only ~73 of 326 cards carry costs; staged by sector, dollar-year basis mandatory | L | open |
+| 2.2a | Costs fill: only ~73 of 334 cards carry costs; staged by sector, dollar-year basis mandatory. Note: primary cost sources (IRENA, NETL-linked mirrors) block plain fetch — needs the browser/staged session or compliant mirrors per docs/LOGIN_REQUIRED.md | L | open |
 | 2.2b | Reference plants / verified figures on cards without them | M | **partial 2026-11-07** (first verified figures on ele-transformers and civ-floating-structures-fpso from cited vendor pages; systematic sweep continues) |
-| 2.2c | Thin sectors: MAT 6, DIG 5, HSE 4, PRC 3 cards (INS lifted by batch 1) | M–L | open |
-| 2.2d | Register entries still without cards (list_gaps), after batch-1 additions | M | open |
+| 2.2c | Thin sectors: PRC 5, MAT 8, HSE 6, DIG 7 cards after the 2026-11-08 batch (OTS, catalyst management, corrosion monitoring, CUI, methane/LDAR, flare recovery, CMMS, cloud SCADA) | M–L | **batch done 2026-11-08**; further deepening open |
+| 2.2d | Register entries without cards (list_gaps) | M | **closed 2026-11-08** — 0 of 333 uncovered |
 
 ### 2.3 New content layers
 
 | # | Item | Size | Status |
 |---|---|---|---|
-| 2.3a | **Standards registry** — API/ASME/ISO/NORSOK/IEC as first-class records linked to equipment + cards (30 standards-body sources already catalogued; batch 1 added IEC links on ELE cards) | M | open |
+| 2.3a | **Standards registry** — 27 seeded records (`catalog/standards.jsonl`) at /standards, linked to cards + equipment, with integrity tests | M | **done 2026-11-08** |
 | 2.3b | Glossary: 60 authored term/expansion entries with related-card links, /glossary page | S | **done 2026-11-07** |
 
 ## 3. Product features (on existing data)

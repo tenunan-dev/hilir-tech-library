@@ -1,0 +1,85 @@
+{
+ "id": "prc-catalyst-management",
+ "name": "Catalyst management (handling, regeneration, recycling)",
+ "aliases": [
+  "catalyst loading",
+  "catalyst regeneration",
+  "spent catalyst recycling",
+  "catalyst unloading",
+  "skimming"
+ ],
+ "sector": "PRC",
+ "category": "Catalysis services",
+ "applications": [
+  "hydroprocessing units",
+  "reforming units",
+  "cracking units",
+  "chemical plants with noble-metal catalysts"
+ ],
+ "maturity": "commercial",
+ "principle": "Catalyst is a consumable with a managed life: fresh catalyst is loaded under inert atmosphere with density and distribution control; activity declines through coking, poisoning and sintering and is watched via bed pressure drop and product quality; spent catalyst is unloaded (often under inert, sometimes offline via skimming), then either regenerated in-situ or sent to a specialist reclaimer that recovers metals and reconditions the carrier. Life-cycle contracts bundle supply, loading, surveillance and disposal so the refiner pays for active-days rather than tonnes.",
+ "process_steps": [
+  {
+   "id": "LOD",
+   "name": "Fresh catalyst loaded with inert-atmosphere handling and loading-density control",
+   "equipment": [
+    "dense-loading equipment",
+    "inert entry systems"
+   ]
+  },
+  {
+   "id": "RUN",
+   "name": "Activity tracked through temperature profiles, pressure drop and product quality",
+   "equipment": [
+    "bed instrumentation"
+   ]
+  },
+  {
+   "id": "REG",
+   "name": "Regenerated in-situ (controlled burn) or sent for ex-situ regeneration",
+   "equipment": [
+    "regeneration facilities"
+   ]
+  },
+  {
+   "id": "REC",
+   "name": "Spent catalyst reclaimed: metals recovered, carrier reconditioned or disposed",
+   "equipment": [
+    "reclamation plants"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "dense-loading services",
+  "inert-entry crews",
+  "regeneration furnaces",
+  "metal reclamation plants"
+ ],
+ "suppliers": [
+  {
+   "name": "Eurecat",
+   "product": "catalyst regeneration and reloading services"
+  },
+  {
+   "name": "Topsoe",
+   "product": "catalyst supply and life-cycle services"
+  },
+  {
+   "name": "Johnson Matthey",
+   "product": "catalyst supply and reclamation"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.eurecat.com/",
+   "note": "Eurecat catalyst regeneration and recycling services, read 2026-11-08"
+  },
+  {
+   "url": "https://www.hydrocarbon-engineering.com/",
+   "source_id": "hydrocarbon-engineering",
+   "note": "industry coverage of catalyst management practice, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

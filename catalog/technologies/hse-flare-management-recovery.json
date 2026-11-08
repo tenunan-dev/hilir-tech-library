@@ -1,0 +1,92 @@
+{
+ "id": "hse-flare-management-recovery",
+ "name": "Flare management and gas recovery",
+ "aliases": [
+  "flare gas recovery",
+  "FGR compressor",
+  "smokeless flaring",
+  "flare metering",
+  "API 521"
+ ],
+ "sector": "HSE",
+ "category": "Flaring and emissions",
+ "applications": [
+  "refineries",
+  "petrochemical complexes",
+  "gas plants",
+  "LNG facilities",
+  "emissions-regulated jurisdictions"
+ ],
+ "maturity": "commercial",
+ "principle": "The flare is the plant's last line of pressure protection \u2014 but routine flaring is now an emissions and cost target. Flare management splits continuous and routine relief gas from the header with a flare gas recovery compressor and returns it to fuel, meters what is actually flared (ultrasonic or thermal meters on the flare stack), keeps combustion smokeless with staged steam/air assist sized per API 521, and reports volumes and composition to regulators \u2014 all with the flare header's back-pressure limits and knock-out provisions preserved as the safety case.",
+ "process_steps": [
+  {
+   "id": "HDR",
+   "name": "Relief gas collected in the flare header with knock-out ahead of the tip",
+   "equipment": [
+    "knock-out drum",
+    "flare header"
+   ]
+  },
+  {
+   "id": "REC",
+   "name": "Continuous routine gas recovered by compressor back to fuel",
+   "equipment": [
+    "flare gas recovery compressor"
+   ]
+  },
+  {
+   "id": "BUR",
+   "name": "True relief flared smokelessly with staged steam/air assist",
+   "equipment": [
+    "flare tip",
+    "steam/air assist"
+   ]
+  },
+  {
+   "id": "MET",
+   "name": "Flared volume metered, composited and reported",
+   "equipment": [
+    "flare meters",
+    "gas analysers"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "flare gas recovery compressors",
+  "flare meters",
+  "knock-out drums",
+  "smokeless flare tips"
+ ],
+ "suppliers": [
+  {
+   "name": "John Zink Hamworthy",
+   "product": "flares and flare gas recovery"
+  },
+  {
+   "name": "Zeeco",
+   "product": "flare systems"
+  },
+  {
+   "name": "Flare Ventures",
+   "product": "flare metering"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.api.org/products-and-services/standards",
+   "source_id": "api-standards",
+   "note": "API 521 pressure-relieving and depressuring systems, read 2026-11-08"
+  },
+  {
+   "url": "https://www.johnzink.com/",
+   "note": "John Zink flare and recovery products, read 2026-11-08"
+  },
+  {
+   "url": "https://www.zeeco.com/",
+   "note": "Zeeco flare systems, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

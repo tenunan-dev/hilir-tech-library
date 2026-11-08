@@ -583,9 +583,12 @@ company names are listed as card notes below. Adding a record for a queue entry 
 batch of this directory.
 
 - **CIV** (12): Anvil; Bauer; Carboline; Carpenter & Paterson; CIDB Malaysia; Heerema; Hempel; Keller; Kiewit; LISGA; Sarens; Seatrium
-- **DIG** (1): Yokogawa
+- **DIG** (3): IBM; IFS; Yokogawa
 - **ELE** (11): Aker Solutions; Chromalox; Dehn; Eaton Crouse-Hinds; Furse; LS Cable & System; Nidec; nVent; nVent ERICO; Prysmian; WEG
+- **HSE** (1): Flare Ventures
 - **INS** (7): Brüel & Kjær Vibro; Compressor Controls Corporation; Dräger; Honeywell Analytics; KROHNE; MSA Safety; Yokogawa
+- **MAT** (1): Nalco Water (Ecolab)
+- **PRC** (1): Eurecat
 - **REF** (1): Yokogawa
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
@@ -598,4 +601,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-295 of 326 cards list at least one directory vendor.
+303 of 334 cards list at least one directory vendor.

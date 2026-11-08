@@ -1,0 +1,87 @@
+{
+ "id": "mat-cui-corrosion-under-insulation",
+ "name": "Corrosion under insulation (CUI)",
+ "aliases": [
+  "CUI",
+  "insulation stripping survey",
+  "pulsed eddy current",
+  "CUI coating",
+  "carbon steel 10 degC dew point"
+ ],
+ "sector": "MAT",
+ "category": "Inspection and integrity",
+ "applications": [
+  "insulated carbon-steel piping",
+  "offshore topsides",
+  "low-temperature service",
+  "intermittent service lines",
+  "tank roofs and nozzles"
+ ],
+ "maturity": "commercial",
+ "principle": "Water ingress into insulation creates an invisible electrolyte film against hot or cold steel, producing the most widespread hidden-corrosion mechanism on process plants: pitting and general loss under cladding that looks intact from outside. Management combines risk ranking (temperature band, insulation type, coating age, environment), inspection through insulation with pulsed eddy current where possible and targeted stripping where not, and prevention at the source: high-quality CUI-resistant coatings applied before insulation, sealed cladding, and design that avoids water traps.",
+ "process_steps": [
+  {
+   "id": "RNK",
+   "name": "Lines risk-ranked for CUI by temperature band, service and coating history",
+   "equipment": [
+    "risk models"
+   ]
+  },
+  {
+   "id": "SCN",
+   "name": "Screened through insulation with pulsed eddy current; hot spots flagged",
+   "equipment": [
+    "pulsed eddy current instruments"
+   ]
+  },
+  {
+   "id": "STR",
+   "name": "Targeted insulation stripping and visual/UT confirmation at flagged points",
+   "equipment": [
+    "UT instruments"
+   ]
+  },
+  {
+   "id": "PRE",
+   "name": "Prevention: CUI coatings, cladding sealed, water traps designed out",
+   "equipment": [
+    "thermal-spray aluminium",
+    "cladding systems"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "pulsed eddy current instruments",
+  "CUI-resistant coating systems",
+  "thermal-spray aluminium",
+  "sealed cladding"
+ ],
+ "suppliers": [
+  {
+   "name": "AkzoNobel",
+   "product": "CUI coating systems (Interline lineage)"
+  },
+  {
+   "name": "Waygate Technologies",
+   "product": "pulsed eddy current (Eddyfi lineage)"
+  },
+  {
+   "name": "Eddyfi Technologies",
+   "product": "pulsed eddy current inspection"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.ampp.org/standards",
+   "source_id": "ampp-standards",
+   "note": "AMPP (ex-NACE) CUI guidance standards, read 2026-11-08"
+  },
+  {
+   "url": "https://www.iso.org/committee/49690.html",
+   "source_id": "iso-tc67",
+   "note": "ISO corrosion management context, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

@@ -1,0 +1,92 @@
+{
+ "id": "dig-cmms-work-management",
+ "name": "Computerised maintenance management and work management",
+ "aliases": [
+  "CMMS",
+  "EAM",
+  "work orders",
+  "planner-scheduler",
+  "bad actor analysis"
+ ],
+ "sector": "DIG",
+ "category": "Maintenance systems",
+ "applications": [
+  "rotating equipment fleets",
+  "static equipment inspection programmes",
+  "turnaround planning",
+  "spare-parts optimisation",
+  "contractor mobilisation"
+ ],
+ "maturity": "commercial",
+ "principle": "The CMMS (or enterprise asset management system) is the operational record of every physical asset: equipment hierarchy, failure history, work orders, permits and spare-parts stock. Work management turns that record into a pipeline \u2014 backlog prioritised by risk, planned jobs kitted with materials, scheduled into windows that respect process constraints, executed with capture of as-found/as-left condition, then reviewed in bad-actor and reliability analyses that feed back into inspection and strategy decisions. Its value depends entirely on data discipline: a CMMS full of duplicate hierarchies and un-closed work orders drives worse decisions than paper.",
+ "process_steps": [
+  {
+   "id": "CAP",
+   "name": "Asset register and hierarchy maintained from engineering data",
+   "equipment": [
+    "asset hierarchy"
+   ]
+  },
+  {
+   "id": "ORD",
+   "name": "Work requests screened, prioritised and planned with materials",
+   "equipment": [
+    "work-order system"
+   ]
+  },
+  {
+   "id": "SCH",
+   "name": "Jobs scheduled into windows agreed with operations",
+   "equipment": [
+    "scheduler"
+   ]
+  },
+  {
+   "id": "EXE",
+   "name": "Executed with permits; as-found/as-left recorded",
+   "equipment": [
+    "permit system"
+   ]
+  },
+  {
+   "id": "REV",
+   "name": "Failure and cost history analysed; strategies updated",
+   "equipment": [
+    "bad-actor analysis"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "CMMS/EAM software",
+  "mobile work execution",
+  "permit-to-work systems",
+  "spares inventory module"
+ ],
+ "suppliers": [
+  {
+   "name": "IBM",
+   "product": "Maximo EAM"
+  },
+  {
+   "name": "IFS",
+   "product": "IFS EAM"
+  },
+  {
+   "name": "AVEVA (Schneider Electric)",
+   "product": "AVEVA Enterprise Resource Management"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.aveva.com/",
+   "source_id": "schneider-aveva",
+   "note": "AVEVA enterprise asset management offering, read 2026-11-08"
+  },
+  {
+   "url": "https://www.ibm.com/products/maximo",
+   "note": "IBM Maximo product pages, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

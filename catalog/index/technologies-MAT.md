@@ -1,10 +1,12 @@
 # MAT technology options
 
-6 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+8 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Coatings and linings](#mat-coatings-linings) | Materials and integrity | commercial |  | Sherwin-Williams (Valspar); Jotun Powder Coatings; 3M; Axalta Coating Systems; AkzoNobel; BASF |  |
+| [Corrosion monitoring and chemical inhibition](#mat-corrosion-monitoring-inhibition) | Corrosion management | commercial |  | Emerson (corrosion monitoring (Metal Samples lineage)); Clariant (production chemicals and inhibitors); Nalco Water (Ecolab) (inhibitor programmes) |  |
+| [Corrosion under insulation (CUI)](#mat-cui-corrosion-under-insulation) | Inspection and integrity | commercial |  | AkzoNobel (CUI coating systems (Interline lineage)); Waygate Technologies (pulsed eddy current (Eddyfi lineage)); Eddyfi Technologies (pulsed eddy current inspection) |  |
 | [Corrosion-resistant alloys and clad pipe](#mat-cra-clad-pipe) | Materials and integrity | commercial |  | Alleima (duplex tube (named in the Wikipedia reference)); Butting (mechanically clad and metallurgically bonded CRA pipe (BuBi lined pipe)); Tenaris (CRA and clad OCTG and line pipe) |  |
 | [Drones and robotics for inspection](#mat-drones-robotics-inspection) | Materials and integrity | commercial |  | Terra Drone Indonesia (visual and thermal flare stack inspection); Avestec Technologies (SKYRON tethered UT robot) |  |
 | [Non-destructive testing (UT, PAUT, radiography, eddy current)](#mat-ndt) | Materials and integrity | commercial |  | Evident (Olympus) (ultrasonic, phased-array and eddy-current flaw detectors); Eddyfi Technologies (advanced eddy current and UT inspection systems); Waygate Technologies (Baker Hughes) (industrial radiography and computed tomography) |  |
@@ -41,6 +43,46 @@ flowchart LR
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://en.wikipedia.org/wiki/Fusion_bonded_epoxy_coating). Last reviewed 2026-10-28.
+
+## Corrosion monitoring and chemical inhibition
+<a id="mat-corrosion-monitoring-inhibition"></a>
+
+Corrosion risk is managed with a sensing-plus-chemistry loop: coupons and electrical-resistance/linear-polarisation probes give a continuous or periodic corrosion rate alongside UT wall-thickness trending at critical points; the measured environment (water cut, CO2/H2S partial pressure, temperature, flow regime) selects inhibitor chemistry — film-forming amines for condensate and overhead service, imidazolines and phosphate esters for wet gas — injected continuously or batch-wise, with residuals monitored so dose tracks the actual risk rather than a fixed schedule.
+
+```mermaid
+flowchart LR
+    SEN["Coupons and ER/LPR probes read the actual corrosion rate in the stream<br/><small>corrosion coupons, ER/LPR probes</small>"]
+    NDE["UT thickness surveys trend remaining wall at critical locations<br/><small>UT instruments</small>"]
+    DOS["Inhibitor selected and dosed from environment and monitored residuals<br/><small>injection skids, chemical tanks</small>"]
+    ADJ["Dose adjusted on the measured rate; failures trigger material upgrades<br/><small>chemical injection pumps</small>"]
+    SEN --> NDE
+    NDE --> DOS
+    DOS --> ADJ
+```
+
+**Key equipment:** corrosion coupons and holders, ER/LPR probe systems, chemical injection skids, UT thickness instruments.
+
+Sources: [1](https://www.emerson.com/), [2](https://www.iso.org/committee/49690.html). Last reviewed 2026-11-08.
+
+## Corrosion under insulation (CUI)
+<a id="mat-cui-corrosion-under-insulation"></a>
+
+Water ingress into insulation creates an invisible electrolyte film against hot or cold steel, producing the most widespread hidden-corrosion mechanism on process plants: pitting and general loss under cladding that looks intact from outside. Management combines risk ranking (temperature band, insulation type, coating age, environment), inspection through insulation with pulsed eddy current where possible and targeted stripping where not, and prevention at the source: high-quality CUI-resistant coatings applied before insulation, sealed cladding, and design that avoids water traps.
+
+```mermaid
+flowchart LR
+    RNK["Lines risk-ranked for CUI by temperature band, service and coating history<br/><small>risk models</small>"]
+    SCN["Screened through insulation with pulsed eddy current; hot spots flagged<br/><small>pulsed eddy current instruments</small>"]
+    STR["Targeted insulation stripping and visual/UT confirmation at flagged points<br/><small>UT instruments</small>"]
+    PRE["Prevention: CUI coatings, cladding sealed, water traps designed out<br/><small>thermal-spray aluminium, cladding systems</small>"]
+    RNK --> SCN
+    SCN --> STR
+    STR --> PRE
+```
+
+**Key equipment:** pulsed eddy current instruments, CUI-resistant coating systems, thermal-spray aluminium, sealed cladding.
+
+Sources: [1](https://www.ampp.org/standards), [2](https://www.iso.org/committee/49690.html). Last reviewed 2026-11-08.
 
 ## Corrosion-resistant alloys and clad pipe
 <a id="mat-cra-clad-pipe"></a>

@@ -1,11 +1,13 @@
 # HSE technology options
 
-4 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+6 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Decommissioning and well abandonment](#hse-decommissioning-abandonment) | Health, safety and environment | commercial |  |  | UKCS total decommissioning expenditure: 44.5 GBP billion |
+| [Flare management and gas recovery](#hse-flare-management-recovery) | Flaring and emissions | commercial |  | John Zink Hamworthy (flares and flare gas recovery); Zeeco (flare systems); Flare Ventures (flare metering) |  |
 | [Gas and flame detection](#hse-gas-flame-detection) | Health, safety and environment | commercial |  | J-W Instruments (catalytic combustion sensors (founded 1928)) |  |
+| [Methane detection and LDAR programmes](#hse-methane-detection-ldar) | Emissions management | commercial |  | FLIR (Teledyne) (OGI cameras); GHGSat (satellite methane detection); Project Canary (continuous monitoring) |  |
 | [NOx control (SCR, SNCR, low-NOx burners)](#hse-nox-control) | Health, safety and environment | commercial |  | IHI Corporation (first large-scale SCR installation (1978)); Engelhard Corporation (ammonia SCR patent (1957)) |  |
 | [Process hazard analysis (HAZOP, LOPA, QRA)](#hse-pha-hazop-lopa-qra) | Health, safety and environment | commercial |  |  |  |
 
@@ -42,6 +44,26 @@ flowchart LR
 
 Sources: [1](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1264892/pdf). Last reviewed 2026-10-28.
 
+## Flare management and gas recovery
+<a id="hse-flare-management-recovery"></a>
+
+The flare is the plant's last line of pressure protection — but routine flaring is now an emissions and cost target. Flare management splits continuous and routine relief gas from the header with a flare gas recovery compressor and returns it to fuel, meters what is actually flared (ultrasonic or thermal meters on the flare stack), keeps combustion smokeless with staged steam/air assist sized per API 521, and reports volumes and composition to regulators — all with the flare header's back-pressure limits and knock-out provisions preserved as the safety case.
+
+```mermaid
+flowchart LR
+    HDR["Relief gas collected in the flare header with knock-out ahead of the tip<br/><small>knock-out drum, flare header</small>"]
+    REC["Continuous routine gas recovered by compressor back to fuel<br/><small>flare gas recovery compressor</small>"]
+    BUR["True relief flared smokelessly with staged steam/air assist<br/><small>flare tip, steam/air assist</small>"]
+    MET["Flared volume metered, composited and reported<br/><small>flare meters, gas analysers</small>"]
+    HDR --> REC
+    REC --> BUR
+    BUR --> MET
+```
+
+**Key equipment:** flare gas recovery compressors, flare meters, knock-out drums, smokeless flare tips.
+
+Sources: [1](https://www.api.org/products-and-services/standards), [2](https://www.johnzink.com/), [3](https://www.zeeco.com/). Last reviewed 2026-11-08.
+
 ## Gas and flame detection
 <a id="hse-gas-flame-detection"></a>
 
@@ -70,6 +92,26 @@ flowchart LR
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Flame detector'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Flame_detector) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
 Sources: [1](https://en.wikipedia.org/wiki/Gas_detector). Last reviewed 2026-10-28.
+
+## Methane detection and LDAR programmes
+<a id="hse-methane-detection-ldar"></a>
+
+Methane leaks are found by layered detection: optical gas imaging cameras on survey rounds, drone- and aircraft-mounted laser spectroscopy for wide area sweeps, fixed continuous monitors on high-consequence sites, and handheld detectors for repair verification — all inside a leak detection and repair (LDAR) programme that logs each find, schedules repair within regulatory timeframes and closes the loop with re-survey. The driver is quantified by trackers such as the IEA Global Methane Tracker, which ties the industry's measured methane to the mitigation case.
+
+```mermaid
+flowchart LR
+    SUR["Survey layers run: OGI cameras, drones/aircraft, fixed monitors<br/><small>OGI cameras, drone TDLAS, CMS</small>"]
+    LOG["Detections logged, quantified and screened for repair priority<br/><small>LDAR software</small>"]
+    REP["Repairs executed within regulatory windows; verified by re-measurement<br/><small>handheld detectors</small>"]
+    RPT["Emissions reported and reconciled against inventories and trackers<br/><small>reporting systems</small>"]
+    SUR --> LOG
+    LOG --> REP
+    REP --> RPT
+```
+
+**Key equipment:** OGI cameras, laser methane detectors, fixed continuous monitors, LDAR data systems.
+
+Sources: [1](https://www.iea.org/reports/global-methane-tracker-2025), [2](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors). Last reviewed 2026-11-08.
 
 ## NOx control (SCR, SNCR, low-NOx burners)
 <a id="hse-nox-control"></a>

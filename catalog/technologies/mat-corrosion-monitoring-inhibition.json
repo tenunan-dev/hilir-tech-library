@@ -1,0 +1,87 @@
+{
+ "id": "mat-corrosion-monitoring-inhibition",
+ "name": "Corrosion monitoring and chemical inhibition",
+ "aliases": [
+  "corrosion coupons",
+  "ER/LPR probes",
+  "corrosion inhibitor",
+  "film-forming chemistry",
+  "UT wall-thickness trending"
+ ],
+ "sector": "MAT",
+ "category": "Corrosion management",
+ "applications": [
+  "sour gas and crude service",
+  "top-of-line condensation",
+  "water-handling systems",
+  "refinery overhead systems",
+  "pipeline integrity programmes"
+ ],
+ "maturity": "commercial",
+ "principle": "Corrosion risk is managed with a sensing-plus-chemistry loop: coupons and electrical-resistance/linear-polarisation probes give a continuous or periodic corrosion rate alongside UT wall-thickness trending at critical points; the measured environment (water cut, CO2/H2S partial pressure, temperature, flow regime) selects inhibitor chemistry \u2014 film-forming amines for condensate and overhead service, imidazolines and phosphate esters for wet gas \u2014 injected continuously or batch-wise, with residuals monitored so dose tracks the actual risk rather than a fixed schedule.",
+ "process_steps": [
+  {
+   "id": "SEN",
+   "name": "Coupons and ER/LPR probes read the actual corrosion rate in the stream",
+   "equipment": [
+    "corrosion coupons",
+    "ER/LPR probes"
+   ]
+  },
+  {
+   "id": "NDE",
+   "name": "UT thickness surveys trend remaining wall at critical locations",
+   "equipment": [
+    "UT instruments"
+   ]
+  },
+  {
+   "id": "DOS",
+   "name": "Inhibitor selected and dosed from environment and monitored residuals",
+   "equipment": [
+    "injection skids",
+    "chemical tanks"
+   ]
+  },
+  {
+   "id": "ADJ",
+   "name": "Dose adjusted on the measured rate; failures trigger material upgrades",
+   "equipment": [
+    "chemical injection pumps"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "corrosion coupons and holders",
+  "ER/LPR probe systems",
+  "chemical injection skids",
+  "UT thickness instruments"
+ ],
+ "suppliers": [
+  {
+   "name": "Emerson",
+   "product": "corrosion monitoring (Metal Samples lineage)"
+  },
+  {
+   "name": "Clariant",
+   "product": "production chemicals and inhibitors"
+  },
+  {
+   "name": "Nalco Water (Ecolab)",
+   "product": "inhibitor programmes"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.emerson.com/",
+   "note": "corrosion monitoring instrumentation, read 2026-11-08"
+  },
+  {
+   "url": "https://www.iso.org/committee/49690.html",
+   "source_id": "iso-tc67",
+   "note": "ISO/TC 67 corrosion management standards context, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

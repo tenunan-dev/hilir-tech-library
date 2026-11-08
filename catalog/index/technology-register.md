@@ -1,6 +1,6 @@
 # Technology register
 
-333 technologies across oil, gas, petrochemicals and new energy; 333 have a technology card so far.
+341 technologies across oil, gas, petrochemicals and new energy; 341 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -324,6 +324,8 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Process design and simulation | Steady-state and dynamic process simulation | commercial | AspenTech, AVEVA, KBC, Honeywell UniSim | [card](technologies-PRC.md#prc-process-simulation) |
 | Process design and simulation | Pinch analysis and heat integration | commercial | Various | [card](technologies-PRC.md#prc-pinch-analysis) |
 | Process design and simulation | Process intensification (rotating packed beds, dividing-wall columns, microreactors) | demonstration | Sulzer, Corning | [card](technologies-PRC.md#prc-process-intensification) |
+| Process design and simulation | Dynamic simulation and operator training simulators | commercial | AVEVA, Honeywell UniSim, AspenTech | [card](technologies-PRC.md#prc-dynamic-simulation-ots) |
+| Process design and simulation | Catalyst management (handling, regeneration, recycling) | commercial | Eurecat, Topsoe, Johnson Matthey | [card](technologies-PRC.md#prc-catalyst-management) |
 
 ## ROT: Rotating and static equipment
 
@@ -366,6 +368,8 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Materials and integrity | Drones and robotics for inspection | commercial | Flyability, ANYbotics, Gecko Robotics | [card](technologies-MAT.md#mat-drones-robotics-inspection) |
 | Materials and integrity | Risk-based inspection and integrity management | commercial | DNV, Lloyd's Register, Bureau Veritas | [card](technologies-MAT.md#mat-rbi-integrity) |
 | Materials and integrity | Non-metallic and composite equipment | commercial | NOV, Future Pipe Industries | [card](technologies-MAT.md#mat-nonmetallic-composite) |
+| Materials and integrity | Corrosion monitoring and chemical inhibition | commercial | Emerson (Metal Samples), Clariant, Nalco Water | [card](technologies-MAT.md#mat-corrosion-monitoring-inhibition) |
+| Materials and integrity | Corrosion under insulation (CUI) | commercial | Waygate/Eddyfi (PEC), AkzoNobel CUI coatings | [card](technologies-MAT.md#mat-cui-corrosion-under-insulation) |
 
 ## HSE: Health, safety and environment
 
@@ -375,6 +379,8 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Safety and environment | Gas and flame detection | commercial | Honeywell, MSA, Dräger | [card](technologies-HSE.md#hse-gas-flame-detection) |
 | Safety and environment | NOx control (SCR, SNCR, low-NOx burners) | commercial | Topsoe, Johnson Matthey, John Zink | [card](technologies-HSE.md#hse-nox-control) |
 | Safety and environment | Decommissioning and well abandonment | commercial | Contractors | [card](technologies-HSE.md#hse-decommissioning-abandonment) |
+| Safety and environment | Methane detection and LDAR programmes | commercial | FLIR (Teledyne), GHGSat, Project Canary | [card](technologies-HSE.md#hse-methane-detection-ldar) |
+| Safety and environment | Flare management and gas recovery | commercial | John Zink Hamworthy, Zeeco | [card](technologies-HSE.md#hse-flare-management-recovery) |
 
 ## DIG: Digital
 
@@ -385,6 +391,8 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Digital | AI and machine learning for maintenance and optimisation | commercial | Cognite, C3 AI, AspenTech, SLB | [card](technologies-DIG.md#dig-ai-ml-maintenance-optimisation) |
 | Digital | Subsurface data platforms (OSDU) | commercial | The Open Group OSDU, SLB, Halliburton, AWS, Microsoft | [card](technologies-DIG.md#dig-osdu) |
 | Digital | Engineering data standards (ISO 15926, CFIHOS) | commercial | IOGP, Fiatech | [card](technologies-DIG.md#dig-engineering-data-standards) |
+| Digital | Computerised maintenance management and work management | commercial | IBM Maximo, IFS, AVEVA ERM | [card](technologies-DIG.md#dig-cmms-work-management) |
+| Digital | Cloud SCADA and remote operations centres | commercial | AVEVA CONNECT, Emerson, Honeywell | [card](technologies-DIG.md#dig-cloud-scada-remote-operations) |
 
 ## ELE: Electrical engineering
 

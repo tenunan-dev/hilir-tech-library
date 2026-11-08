@@ -328,6 +328,8 @@ PRC:
     - Steady-state and dynamic process simulation | C | AspenTech, AVEVA, KBC, Honeywell UniSim
     - Pinch analysis and heat integration | C | Various
     - Process intensification (rotating packed beds, dividing-wall columns, microreactors) | D | Sulzer, Corning
+    - Dynamic simulation and operator training simulators | C | AVEVA, Honeywell UniSim, AspenTech
+    - Catalyst management (handling, regeneration, recycling) | C | Eurecat, Topsoe, Johnson Matthey
 ROT:
   Rotating equipment:
     - Centrifugal and axial compressors | C | Baker Hughes, Siemens Energy, Elliott, MAN (Everllence), Mitsubishi
@@ -362,12 +364,16 @@ MAT:
     - Drones and robotics for inspection | C | Flyability, ANYbotics, Gecko Robotics
     - Risk-based inspection and integrity management | C | DNV, Lloyd's Register, Bureau Veritas
     - Non-metallic and composite equipment | C | NOV, Future Pipe Industries
+    - Corrosion monitoring and chemical inhibition | C | Emerson (Metal Samples), Clariant, Nalco Water
+    - Corrosion under insulation (CUI) | C | Waygate/Eddyfi (PEC), AkzoNobel CUI coatings
 HSE:
   Safety and environment:
     - Process hazard analysis (HAZOP, LOPA, QRA) | C | DNV, Gexcon, consultants
     - Gas and flame detection | C | Honeywell, MSA, Dräger
     - NOx control (SCR, SNCR, low-NOx burners) | C | Topsoe, Johnson Matthey, John Zink
     - Decommissioning and well abandonment | C | Contractors
+    - Methane detection and LDAR programmes | C | FLIR (Teledyne), GHGSat, Project Canary
+    - Flare management and gas recovery | C | John Zink Hamworthy, Zeeco
 DIG:
   Digital:
     - Digital twins of plants and assets | C | AVEVA, Siemens, Bentley, Kongsberg
@@ -375,6 +381,8 @@ DIG:
     - AI and machine learning for maintenance and optimisation | C | Cognite, C3 AI, AspenTech, SLB
     - Subsurface data platforms (OSDU) | C | The Open Group OSDU, SLB, Halliburton, AWS, Microsoft
     - Engineering data standards (ISO 15926, CFIHOS) | C | IOGP, Fiatech
+    - Computerised maintenance management and work management | C | IBM Maximo, IFS, AVEVA ERM
+    - Cloud SCADA and remote operations centres | C | AVEVA CONNECT, Emerson, Honeywell
 
 ELE:
   Power generation and distribution:

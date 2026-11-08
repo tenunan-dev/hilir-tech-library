@@ -1,0 +1,93 @@
+{
+ "id": "prc-dynamic-simulation-ots",
+ "name": "Dynamic simulation and operator training simulators",
+ "aliases": [
+  "OTS",
+  "operator training simulator",
+  "dynamic process simulation",
+  "DEDS",
+  "high-fidelity model"
+ ],
+ "sector": "PRC",
+ "category": "Process systems",
+ "applications": [
+  "control-system validation",
+  "operator certification",
+  "startup and shutdown procedure trials",
+  "flare and relief studies",
+  "compressor surge-station trials"
+ ],
+ "maturity": "commercial",
+ "principle": "Dynamic simulation solves the plant's mass, energy and momentum balances over time rather than at steady state, reproducing transient behaviour: relief events, compressor surging, furnace trip response, control-loop interaction. The same high-fidelity model, connected to a replica of the plant DCS graphics, becomes an operator training simulator that lets crews rehearse startups, shutdowns and emergencies offline before touching the real unit.",
+ "process_steps": [
+  {
+   "id": "MOD",
+   "name": "Steady-state or first-principles model built from P&IDs and heat/material balance",
+   "equipment": [
+    "model development environment"
+   ]
+  },
+  {
+   "id": "DYN",
+   "name": "Model made dynamic: holds, lags, controller actions, equipment limits",
+   "equipment": [
+    "dynamic solver"
+   ]
+  },
+  {
+   "id": "TUN",
+   "name": "Tuned against plant history so transients reproduce observed behaviour",
+   "equipment": [
+    "plant historian data"
+   ]
+  },
+  {
+   "id": "OTS",
+   "name": "Connected to a DCS-replica operator station for training scenarios",
+   "equipment": [
+    "OTS instructor station"
+   ]
+  },
+  {
+   "id": "USE",
+   "name": "Used for control checkout, procedure trials and operator certification",
+   "equipment": [
+    "scenario library"
+   ]
+  }
+ ],
+ "key_equipment": [
+  "solver",
+  "instructor station",
+  "DCS-replica operator stations",
+  "scenario libraries"
+ ],
+ "suppliers": [
+  {
+   "name": "AVEVA (Schneider Electric)",
+   "product": "dynamic simulation and OTS (DYNSIM lineage)"
+  },
+  {
+   "name": "Honeywell",
+   "product": "UniSim dynamic simulation and OTS"
+  },
+  {
+   "name": "AspenTech",
+   "product": "Aspen Plus Dynamics / custom OTS"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://process.honeywell.com/",
+   "source_id": "honeywell-process",
+   "note": "UniSim dynamic simulation and OTS offering, read 2026-11-08"
+  },
+  {
+   "url": "https://www.aspen.com/",
+   "source_id": "schneider-aveva",
+   "note": "AspenTech dynamics products; AVEVA simulators under the same group, read 2026-11-08"
+  }
+ ],
+ "last_reviewed": "2026-11-08",
+ "performance": []
+}

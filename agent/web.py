@@ -59,7 +59,8 @@ COLOR_FALLBACK = "#5a6b7b"
 NAV_GROUPS = (
     ("Library", (("Technologies", "/technologies"), ("Register", "/register"), ("Vendors", "/vendors"),
                  ("Equipment", "/equipment"),
-                 ("Sources", "/sources"), ("Documents", "/documents"), ("Glossary", "/glossary"), ("Gaps", "/gaps"))),
+                 ("Sources", "/sources"), ("Documents", "/documents"), ("Standards", "/standards"),
+            ("Glossary", "/glossary"), ("Gaps", "/gaps"))),
     ("Database", (("Overview", "/database"), ("SQL console", "/database/sql"),
                   ("Semantic search", "/database/search"), ("Network", "/database/graph"),
                   ("Atlas", "/database/map"))),
@@ -1156,7 +1157,8 @@ def routes(tools) -> list:
                                f'<span class="sp"></span><span class="arr">→</span></a>' for label, href in (
             ("Technologies", "/technologies"), ("Compare", "/compare"), ("Register", "/register"),
             ("Vendors", "/vendors"), ("Equipment", "/equipment"),
-            ("Sources", "/sources"), ("Documents", "/documents"), ("Glossary", "/glossary"), ("Gaps", "/gaps")))
+            ("Sources", "/sources"), ("Documents", "/documents"), ("Standards", "/standards"),
+            ("Glossary", "/glossary"), ("Gaps", "/gaps")))
         database_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
                                 f'<span class="sp"></span><span class="arr">→</span></a>'
                                 for label, href in DATABASE_TABS)
@@ -1388,6 +1390,45 @@ def routes(tools) -> list:
                 f'<div class="scroll"><table><thead><tr><th>Term</th><th>Expansion</th><th>Related cards</th></tr></thead>'
                 f'<tbody>{rows}</tbody></table></div></section>')
         return _page("Glossary", body, active="")
+
+    async def standards_page(request: Request):
+        query = str(request.query_params.get("q") or "").strip().lower()
+        org = str(request.query_params.get("org") or "").strip()
+        path = pathlib.Path(library.ROOT) / "catalog" / "standards.jsonl"
+        entries = []
+        if path.exists():
+            entries = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        orgs = sorted({e.get("org", "") for e in entries})
+        if org:
+            entries = [e for e in entries if e.get("org") == org]
+        if query:
+            entries = [e for e in entries if query in str(e.get("designation", "")).lower()
+                       or query in str(e.get("title", "")).lower()
+                       or query in str(e.get("scope", "")).lower()]
+        card_names = _neon_first(pg.card_names, lambda: {})
+        def related_links(e):
+            out = []
+            for r in e.get("related") or []:
+                if r.startswith("equipment:"):
+                    eid = r.split(":", 1)[1]
+                    out.append(f'<a class="pill" href="/equipment?id={esc(eid)}">{esc(eid)}</a>')
+                else:
+                    out.append(f'<a class="pill" href="/technologies/{esc(r)}">{esc((card_names.get(r) or r)[:44])}</a>')
+            return " ".join(out)
+        org_opts = [("", "any org")] + [(o, o) for o in orgs]
+        rows = "".join(
+            "<tr><td><b>" + esc(e.get("designation")) + "</b></td><td>" + esc(e.get("title"))
+            + '</td><td class="muted">' + esc(e.get("org"))
+            + "</td><td>" + esc(e.get("scope", ""))
+            + "</td><td>" + related_links(e) + "</td></tr>" for e in entries)
+        src_note = ""
+        body = ('<section class="card"><form class="filters" method="get" action="/standards">'
+                f'<input type="search" name="q" value="{esc(query)}" placeholder="designation, title or scope" size="24"> '
+                + _select("org", org_opts, org) + ' <button type="submit">Filter</button></form>'
+                f'<p class="muted">{len(entries)} standards &mdash; linked to the equipment classes and technology cards that reference them</p>'
+                f'<div class="scroll"><table><thead><tr><th>Designation</th><th>Title</th><th>Org</th><th>Scope</th><th>Related</th></tr></thead>'
+                f'<tbody>{rows}</tbody></table></div></section>')
+        return _page("Standards registry", body, active="")
 
     async def vendors_page(request: Request):
         qp = request.query_params
@@ -1986,6 +2027,7 @@ def routes(tools) -> list:
         Route("/export", gated(export_csv)),
         Route("/database/api", gated(api_reference)),
         Route("/glossary", gated(glossary)),
+        Route("/standards", gated(standards_page)),
         Route("/vendors", gated(vendors_page)), Route("/equipment", gated(equipment_page)),
         Route("/register", gated(register)),
         Route("/sources", gated(sources)),
