@@ -313,6 +313,24 @@ footer .fchip:hover { text-decoration: none; filter: brightness(1.08); }
 table.cmp th[scope="row"], table.cmp tbody th { text-align: left; color: var(--muted, #8f959d);
   font-weight: 500; white-space: nowrap; padding-right: 1rem; }
 table.cmp td, table.cmp th { vertical-align: top; }
+/* compare slot tray (TLEA pattern): four numbered slots + searchable add rows */
+.slots { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: .5rem; margin-bottom: .75rem; }
+.slot { display: flex; align-items: baseline; gap: .5rem; padding: .5rem .6rem;
+  border: 1px dashed var(--border, #2a3138); border-radius: .4rem; min-height: 2.2rem; }
+.slotno { color: var(--muted, #8f959d); font-size: .8rem; font-variant-numeric: tabular-nums; }
+.slotbody { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+.slotbody a:first-child { font-weight: 600; }
+.slotsub { color: var(--muted, #8f959d); font-size: .75rem; }
+.slotrm { font-size: .75rem; }
+.slotempty { color: var(--muted, #8f959d); font-size: .8rem; }
+.arows { display: flex; flex-direction: column; }
+.arow { display: flex; align-items: center; justify-content: space-between; gap: .75rem;
+  padding: .35rem .25rem; border-bottom: 1px solid var(--border, #2a3138); }
+.arow:last-child { border-bottom: none; }
+.arow .grow { min-width: 0; display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.btn-add { padding: .15rem .6rem; border: 1px solid var(--action-line); border-radius: .3rem;
+  color: var(--action-line); text-decoration: none; font-size: .8rem; white-space: nowrap; }
+.btn-add:hover { background: var(--action); color: var(--action-ink); }
 """
 
 # Interactive force-directed network for /database/graph. Self-contained vanilla JS on one canvas:
@@ -1281,22 +1299,75 @@ def routes(tools) -> list:
         for chunk in ids:
             flat += [p.strip() for p in chunk.split(",") if p.strip()]
         flat = flat[:4]
+        q = str(qp.get("q") or "").strip()
         items = _neon_first(
             lambda: pg.tech_cards(),
             lambda: tools.compare_technologies(None, None, None))
         by_id = {i.get("id"): i for i in items}
         selected = [by_id[i] for i in flat if i in by_id]
-        options = sorted(((c.get("id"), f'{c.get("name")} [{c.get("sector")}]') for c in items),
-                         key=lambda o: str(o[1]).lower())
-        multi = '<select name="ids" multiple size="10" style="min-width:28rem">' + "".join(
-            f'<option value="{esc(oid)}"{" selected" if oid in flat else ""}>{esc(label)}</option>'
-            for oid, label in options) + "</select>"
-        body = ['<section class="card"><form class="filters" method="get" action="/compare">'
-                + multi + ' <button type="submit">Compare</button></form>'
-                + '<p class="muted small">Pick two to four technology cards; deep-link with ?ids=a,b,c.</p></section>']
+
+        # Candidate list: q narrows server-side (name, sector, category, applications), first 100.
+        needle = q.lower()
+        if needle:
+            items = [c for c in items if needle in str(c.get("name", "")).lower()
+                     or needle in str(c.get("sector", "")).lower()
+                     or needle in str(c.get("category", "")).lower()
+                     or any(needle in str(a).lower() for a in (c.get("applications") or []))]
+        items = sorted(items, key=lambda c: str(c.get("name")).lower())[:100]
+
+        def _href(next_ids):
+            href = f"/compare?ids={','.join(next_ids)}"
+            if q:
+                href += f"&q={urllib.parse.quote(q)}"
+            return href
+
+        slots = []
+        for i in range(4):
+            card = selected[i] if i < len(selected) else None
+            rest = [v for j, v in enumerate(flat) if j != i]
+            if card:
+                slots.append(
+                    '<div class="slot"><span class="slotno" aria-hidden="true">%d</span>'
+                    '<span class="slotbody"><a href="/technologies/%s">%s</a>%s'
+                    '<a class="slotrm" href="%s">remove</a></span></div>'
+                    % (i + 1, esc(str(card.get("id"))), esc(card.get("name")),
+                       ('<span class="slotsub">%s</span>' % esc(card.get("sector"))) if card.get("sector") else "",
+                       esc(_href(rest))))
+            else:
+                slots.append('<div class="slot"><span class="slotno" aria-hidden="true">%d</span>'
+                             '<span class="slotempty">empty — find a technology below</span></div>' % (i + 1))
+
+        results = []
+        for c in items:
+            in_tray = c.get("id") in flat
+            next_ids = flat + [c.get("id")]
+            if in_tray:
+                ctl = '<span class="pill">in comparison</span>'
+            elif len(flat) < 4:
+                ctl = '<a class="btn-add" href="%s">Add</a>' % esc(_href(next_ids))
+            else:
+                ctl = '<span class="muted small">full</span>'
+            results.append('<div class="arow"><span class="grow"><a href="/technologies/%s">%s</a>%s</span>%s</div>'
+                           % (esc(str(c.get("id"))), esc(c.get("name")),
+                              ('<span class="slotsub">%s</span>' % esc(c.get("sector"))) if c.get("sector") else "",
+                              ctl))
+
+        body = ['<section class="card"><div class="slots">%s</div>' % "".join(slots)]
+        body.append('<form class="filters" method="get" action="/compare">'
+                    '<input type="search" name="q" value="%s" placeholder="Name, sector, application" '
+                    'style="min-width:18rem">%s <button type="submit">Find</button></form>'
+                    % (esc(q), ('<input type="hidden" name="ids" value="%s">' % esc(",".join(flat))) if flat else ""))
+        if results:
+            body.append('<section class="card"><div class="arows">%s</div></section>' % "".join(results))
+            body.append('<p class="muted small">Showing at most the first 100 matches — use Find to narrow. '
+                        'Deep link: <code>/compare?ids=a,b,c</code>.</p>')
+        elif not q:
+            body.append('<p class="muted">Pick two to four technology cards to compare.</p>')
+        else:
+            body.append('<p class="muted">No technology matches “%s”.</p>' % esc(q))
         if len(selected) >= 2:
             body.append(_section("Side by side", _compare_table(selected)))
-        else:
+        elif flat and not q:
             body.append(_section("", '<p class="muted">Select at least two technologies to compare.</p>'))
         return _page("Compare technologies", "".join(body), active="/technologies")
 
