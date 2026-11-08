@@ -27,6 +27,20 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   documented `userstore.create_account()` inside the running container, unblocking the owner
   before the code fix rolled out.
 
+## [2026.11.08.2] — 2026-11-08 — Costs fill pass 1 (CCS + H2, 10 cards)
+
+### Changed
+- **10 cards gained evidence-fetched cost figures** (no invented numbers; every figure quoted from
+  a page actually read):
+  - CCS chain from the IEA commentary *Is carbon capture too expensive?* (2019 levelised, US-based,
+    incl. compression): concentrated streams 15–25 USD/t (gas-amine-agr), dilute streams 40–120
+    USD/t (ccs-amine-post-combustion), onshore pipeline 2–14 USD/t (mid-co2-pipelines), onshore
+    storage below 10 USD/t (ccs-depleted-field-storage, ccs-saline-aquifer-storage).
+  - H2 chain from the IEA Global Hydrogen Review 2024 executive summary: renewable-vs-fossil cost
+    gap 1.5–8 USD/kg (4 electrolysis/SMR cards), renewable hydrogen today ~4–18 USD/kg implied
+    (alkaline, PEM, green-blue ammonia).
+- Cost gaps: 230 → ~220; remaining sectors (IRENA/NETL-backed) need the browser/staged session.
+
 ## [2026.11.08] — 2026-11-08 — Standards registry + thin-sector batch
 
 ### Added

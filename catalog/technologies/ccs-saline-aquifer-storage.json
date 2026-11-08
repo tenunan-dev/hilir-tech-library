@@ -1,294 +1,306 @@
 {
-  "id": "ccs-saline-aquifer-storage",
-  "name": "Geological CO2 storage in saline aquifers",
-  "aliases": [
-    "Geological storage in saline aquifers",
-    "saline formation storage",
-    "deep saline aquifer CO2 storage",
-    "CO2 storage in saline formation"
-  ],
-  "sector": "CCS",
-  "category": "CO2 storage / geological",
-  "applications": [
-    "permanent storage of captured CO2 from industry, power and gas processing"
-  ],
-  "maturity": "commercial",
-  "principle": "Captured CO2 is compressed to a dense phase, piped or shipped to an injection site and injected through wells into a porous rock formation filled with salt water, below an impermeable caprock. The CO2 is trapped under the seal, dissolves in the brine and, over long periods, can mineralise. Injection raises reservoir pressure, so capacity is limited by the pressure that the rock and caprock can tolerate; operators manage it with well placement, completion design and sometimes brine production. Monitoring wells and surveys track the plume.",
-  "process_steps": [
-    {
-      "id": "CO2",
-      "name": "Captured CO2 delivery",
-      "equipment": [
-        "pipeline or ship",
-        "intermediate storage"
-      ],
-      "to": [
-        "CMP"
-      ]
-    },
-    {
-      "id": "CMP",
-      "name": "Compression to dense phase",
-      "equipment": [
-        "compressors",
-        "dehydration"
-      ],
-      "to": [
-        "INJ"
-      ]
-    },
-    {
-      "id": "INJ",
-      "name": "Injection wells",
-      "equipment": [
-        "injection wells",
-        "multi-depth completions"
-      ],
-      "to": [
-        "AQF"
-      ]
-    },
-    {
-      "id": "AQF",
-      "name": "Saline aquifer under caprock",
-      "to": [
-        "MON",
-        "BRN"
-      ]
-    },
-    {
-      "id": "MON",
-      "name": "Monitoring",
-      "equipment": [
-        "monitoring wells",
-        "seismic and pressure monitoring"
-      ],
-      "to": []
-    },
-    {
-      "id": "BRN",
-      "name": "Pressure management (optional)",
-      "equipment": [
-        "brine production wells"
-      ],
-      "to": []
-    }
-  ],
-  "key_equipment": [
-    "CO2 compressors",
-    "injection wells",
-    "monitoring wells",
-    "brine production wells (pressure management)",
-    "wellhead and downhole sensors"
-  ],
-  "performance": [
-    {
-      "metric": "storage capacity gain from lateral pressure redistribution by brine production, Natuna D-Alpha (simulation)",
-      "unit": "% over the base case",
-      "basis": "thick carbonate aquifer; high-rate brine production; multi-depth injection alone gave 13%, both together 44% with storage efficiency 0.58%",
-      "source": {
-        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119",
-        "source_id": "lemigas-scog",
-        "note": "Nirwana et al., Optimizing CO2 Storage in Saline Aquifers through Pressure Redistribution in Natuna D-Alpha Field, SCOG 49(3): 53-66, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-      },
-      "low": 64,
-      "high": 64,
-      "year": 2026
-    },
-    {
-      "metric": "increase in stored CO2 from completion redesign, SK gas field aquifer (simulation)",
-      "unit": "% over the corresponding baseline cases",
-      "basis": "120-year simulation with plume confined to the aquifer zone in most cases; mineral trapping a minor share",
-      "source": {
-        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067",
-        "source_id": "lemigas-scog",
-        "note": "Iskandar et al., Optimized CO2 storage strategies for plume containment and mineral trapping in the SK gas field aquifer, SCOG 49(2): 173-201, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-      },
-      "low": 28,
-      "high": 33.3,
-      "year": 2026
-    },
-    {
-      "metric": "pore pressure rise and remaining margin to fracture pressure, sandstone at 1,200 m (simulation)",
-      "unit": "MPa",
-      "basis": "pore pressure 11.8 to 15.8 MPa against 19.0 MPa fracture pressure, safety ratio 1.20; 10 years injection plus 500 years monitoring",
-      "source": {
-        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135",
-        "source_id": "lemigas-scog",
-        "note": "Fitria et al., Impact of CO2-Induced Geochemical Alteration on the Mechanical Integrity of Reservoir and Caprock in Saline Aquifers, SCOG 49(3): 607-645, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-      },
-      "low": 3.2,
-      "high": 3.2,
-      "year": 2026
-    },
-    {
-      "metric": "Upper Baturaja candidate reservoir depth and porosity (screening)",
-      "unit": "m depth",
-      "basis": "porosity 20-25%, dominated by secondary porosity; Kandanghaur-Gantar High, West Java; literature-based pre-feasibility",
-      "source": {
-        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
-        "source_id": "lemigas-scog",
-        "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-      },
-      "low": 1600,
-      "high": 1900,
-      "year": 2026
-    },
-    {
-      "metric": "net reservoir permeability of the Upper Baturaja interval, Kandanghaur-Gantar High (well-log derived)",
-      "unit": "mD",
-      "basis": "Pertamina EP internal petrophysical analysis of more than 40 wells gave 50-70 mD with 14-17% effective porosity; Table 3 screening lists 20-60 mD within Net Reservoir; measured well data, not an injectivity test",
-      "source": {
-        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
-        "source_id": "lemigas-scog",
-        "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0), section 3.3 and Table 3"
-      },
-      "low": 20,
-      "high": 70,
-      "year": 2026
-    },
-    {
-      "metric": "theoretical volumetric CO2 storage capacity across Kandanghaur-Gantar High fields (screening)",
-      "unit": "million tonnes CO2",
-      "basis": "volumetric MCO2/HCPV method; ABG field gas and oil columns 25.96 and 1.5 million tonnes at RF 60% and 10% and CO2 density 383.16 kg/m3; MCO2/HCPV 0.23 and 0.038 million tonnes per million m3 of hydrocarbon pore volume; classed theoretical on the techno-economic resource pyramid; Table 2 total 34.48 million tonnes",
-      "source": {
-        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
-        "source_id": "lemigas-scog",
-        "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0), section 3.6 and Table 2"
-      },
-      "low": 34,
-      "high": 34.5,
-      "year": 2026
-    }
-  ],
-  "trl": {
-    "low": 9,
-    "high": 9,
-    "source": {
-      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-      "source_id": "iea-reports",
-      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'CO2 storage in saline formation' 9"
-    }
+ "id": "ccs-saline-aquifer-storage",
+ "name": "Geological CO2 storage in saline aquifers",
+ "aliases": [
+  "Geological storage in saline aquifers",
+  "saline formation storage",
+  "deep saline aquifer CO2 storage",
+  "CO2 storage in saline formation"
+ ],
+ "sector": "CCS",
+ "category": "CO2 storage / geological",
+ "applications": [
+  "permanent storage of captured CO2 from industry, power and gas processing"
+ ],
+ "maturity": "commercial",
+ "principle": "Captured CO2 is compressed to a dense phase, piped or shipped to an injection site and injected through wells into a porous rock formation filled with salt water, below an impermeable caprock. The CO2 is trapped under the seal, dissolves in the brine and, over long periods, can mineralise. Injection raises reservoir pressure, so capacity is limited by the pressure that the rock and caprock can tolerate; operators manage it with well placement, completion design and sometimes brine production. Monitoring wells and surveys track the plume.",
+ "process_steps": [
+  {
+   "id": "CO2",
+   "name": "Captured CO2 delivery",
+   "equipment": [
+    "pipeline or ship",
+    "intermediate storage"
+   ],
+   "to": [
+    "CMP"
+   ]
   },
-  "suppliers": [
+  {
+   "id": "CMP",
+   "name": "Compression to dense phase",
+   "equipment": [
+    "compressors",
+    "dehydration"
+   ],
+   "to": [
+    "INJ"
+   ]
+  },
+  {
+   "id": "INJ",
+   "name": "Injection wells",
+   "equipment": [
+    "injection wells",
+    "multi-depth completions"
+   ],
+   "to": [
+    "AQF"
+   ]
+  },
+  {
+   "id": "AQF",
+   "name": "Saline aquifer under caprock",
+   "to": [
+    "MON",
+    "BRN"
+   ]
+  },
+  {
+   "id": "MON",
+   "name": "Monitoring",
+   "equipment": [
+    "monitoring wells",
+    "seismic and pressure monitoring"
+   ],
+   "to": []
+  },
+  {
+   "id": "BRN",
+   "name": "Pressure management (optional)",
+   "equipment": [
+    "brine production wells"
+   ],
+   "to": []
+  }
+ ],
+ "key_equipment": [
+  "CO2 compressors",
+  "injection wells",
+  "monitoring wells",
+  "brine production wells (pressure management)",
+  "wellhead and downhole sensors"
+ ],
+ "performance": [
+  {
+   "metric": "storage capacity gain from lateral pressure redistribution by brine production, Natuna D-Alpha (simulation)",
+   "unit": "% over the base case",
+   "basis": "thick carbonate aquifer; high-rate brine production; multi-depth injection alone gave 13%, both together 44% with storage efficiency 0.58%",
+   "source": {
+    "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119",
+    "source_id": "lemigas-scog",
+    "note": "Nirwana et al., Optimizing CO2 Storage in Saline Aquifers through Pressure Redistribution in Natuna D-Alpha Field, SCOG 49(3): 53-66, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+   },
+   "low": 64,
+   "high": 64,
+   "year": 2026
+  },
+  {
+   "metric": "increase in stored CO2 from completion redesign, SK gas field aquifer (simulation)",
+   "unit": "% over the corresponding baseline cases",
+   "basis": "120-year simulation with plume confined to the aquifer zone in most cases; mineral trapping a minor share",
+   "source": {
+    "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067",
+    "source_id": "lemigas-scog",
+    "note": "Iskandar et al., Optimized CO2 storage strategies for plume containment and mineral trapping in the SK gas field aquifer, SCOG 49(2): 173-201, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+   },
+   "low": 28,
+   "high": 33.3,
+   "year": 2026
+  },
+  {
+   "metric": "pore pressure rise and remaining margin to fracture pressure, sandstone at 1,200 m (simulation)",
+   "unit": "MPa",
+   "basis": "pore pressure 11.8 to 15.8 MPa against 19.0 MPa fracture pressure, safety ratio 1.20; 10 years injection plus 500 years monitoring",
+   "source": {
+    "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135",
+    "source_id": "lemigas-scog",
+    "note": "Fitria et al., Impact of CO2-Induced Geochemical Alteration on the Mechanical Integrity of Reservoir and Caprock in Saline Aquifers, SCOG 49(3): 607-645, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+   },
+   "low": 3.2,
+   "high": 3.2,
+   "year": 2026
+  },
+  {
+   "metric": "Upper Baturaja candidate reservoir depth and porosity (screening)",
+   "unit": "m depth",
+   "basis": "porosity 20-25%, dominated by secondary porosity; Kandanghaur-Gantar High, West Java; literature-based pre-feasibility",
+   "source": {
+    "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+    "source_id": "lemigas-scog",
+    "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+   },
+   "low": 1600,
+   "high": 1900,
+   "year": 2026
+  },
+  {
+   "metric": "net reservoir permeability of the Upper Baturaja interval, Kandanghaur-Gantar High (well-log derived)",
+   "unit": "mD",
+   "basis": "Pertamina EP internal petrophysical analysis of more than 40 wells gave 50-70 mD with 14-17% effective porosity; Table 3 screening lists 20-60 mD within Net Reservoir; measured well data, not an injectivity test",
+   "source": {
+    "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+    "source_id": "lemigas-scog",
+    "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0), section 3.3 and Table 3"
+   },
+   "low": 20,
+   "high": 70,
+   "year": 2026
+  },
+  {
+   "metric": "theoretical volumetric CO2 storage capacity across Kandanghaur-Gantar High fields (screening)",
+   "unit": "million tonnes CO2",
+   "basis": "volumetric MCO2/HCPV method; ABG field gas and oil columns 25.96 and 1.5 million tonnes at RF 60% and 10% and CO2 density 383.16 kg/m3; MCO2/HCPV 0.23 and 0.038 million tonnes per million m3 of hydrocarbon pore volume; classed theoretical on the techno-economic resource pyramid; Table 2 total 34.48 million tonnes",
+   "source": {
+    "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+    "source_id": "lemigas-scog",
+    "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0), section 3.6 and Table 2"
+   },
+   "low": 34,
+   "high": 34.5,
+   "year": 2026
+  }
+ ],
+ "trl": {
+  "low": 9,
+  "high": 9,
+  "source": {
+   "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+   "source_id": "iea-reports",
+   "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'CO2 storage in saline formation' 9"
+  }
+ },
+ "suppliers": [
+  {
+   "name": "Equinor"
+  },
+  {
+   "name": "Northern Lights"
+  }
+ ],
+ "advantages": [
+  "Large storage potential and wide geographic spread",
+  "Pressure management can raise safe capacity substantially in simulations",
+  "Indonesian studies exist for Natuna, Jatibarang and gas-field aquifers"
+ ],
+ "limitations": [
+  "Pressure build-up near injectors limits capacity",
+  "Figures here are simulation or screening results, not field performance",
+  "Long-term geochemical and mechanical integrity must be shown"
+ ],
+ "notes": "Southeast Asian figures on this card are from 2026 LEMIGAS studies using simulation or literature screening. They are not measured results from operating projects.",
+ "gaps": [
+  {
+   "field": "costs",
+   "item": "cost of transport and storage in USD per tonne CO2 with dollar year",
+   "reason_code": "not_in_sources_read",
+   "reason": "No source read gives storage costs. Searched LEMIGAS SCOG corpus for cost, USD, tonne, price; the Baturaja paper calls CO2 transport the most significant cost component in CO2 storage projects but states no USD per tonne figure; 2026-10-28 Named-project costs recorded (Sleipner USD 17/t storage-only; NL Phase 2 USD 714 m for 900 kt/yr); a generic full-chain USD/t range was not confirmed open, 2026-10-28.",
+   "where": [
     {
-      "name": "Equinor"
+     "hint": "IEA CCUS reports (iea-reports corpus)",
+     "access": "open",
+     "source_id": "iea-reports"
     },
     {
-      "name": "Northern Lights"
+     "hint": "NETL cost reports (corpus/netl)",
+     "access": "open",
+     "source_id": "netl"
     }
-  ],
-  "advantages": [
-    "Large storage potential and wide geographic spread",
-    "Pressure management can raise safe capacity substantially in simulations",
-    "Indonesian studies exist for Natuna, Jatibarang and gas-field aquifers"
-  ],
-  "limitations": [
-    "Pressure build-up near injectors limits capacity",
-    "Figures here are simulation or screening results, not field performance",
-    "Long-term geochemical and mechanical integrity must be shown"
-  ],
-  "notes": "Southeast Asian figures on this card are from 2026 LEMIGAS studies using simulation or literature screening. They are not measured results from operating projects.",
-  "gaps": [
+   ],
+   "action": "Add storage cost per tonne with dollar year and basis."
+  },
+  {
+   "field": "performance",
+   "item": "measured field injectivity and storage efficiency",
+   "reason_code": "not_in_sources_read",
+   "reason": "Only simulation results were read. Searched LEMIGAS SCOG corpus for injectivity, storage efficiency, permeability, capacity; the Baturaja screening adds measured petrophysics (50-70 mD from more than 40 wells) and a 34 Mt theoretical volumetric capacity with MCO2/HCPV ratios, but no injectivity test or storage-efficiency factor; 2026-10-28 Web-checked 2026-10-28: Sleipner monitoring literature (Utsira) gives plume behaviour, not a single injectivity/efficiency pair; the Baturaja paper figures (20-70 mD permeability, 34-34.5 Mt capacity) were recorded in Wave 1.",
+   "where": [
     {
-      "field": "costs",
-      "item": "cost of transport and storage in USD per tonne CO2 with dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read gives storage costs. Searched LEMIGAS SCOG corpus for cost, USD, tonne, price; the Baturaja paper calls CO2 transport the most significant cost component in CO2 storage projects but states no USD per tonne figure; 2026-10-28 Named-project costs recorded (Sleipner USD 17/t storage-only; NL Phase 2 USD 714 m for 900 kt/yr); a generic full-chain USD/t range was not confirmed open, 2026-10-28.",
-      "where": [
-        {
-          "hint": "IEA CCUS reports (iea-reports corpus)",
-          "access": "open",
-          "source_id": "iea-reports"
-        },
-        {
-          "hint": "NETL cost reports (corpus/netl)",
-          "access": "open",
-          "source_id": "netl"
-        }
-      ],
-      "action": "Add storage cost per tonne with dollar year and basis."
-    },
-    {
-      "field": "performance",
-      "item": "measured field injectivity and storage efficiency",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only simulation results were read. Searched LEMIGAS SCOG corpus for injectivity, storage efficiency, permeability, capacity; the Baturaja screening adds measured petrophysics (50-70 mD from more than 40 wells) and a 34 Mt theoretical volumetric capacity with MCO2/HCPV ratios, but no injectivity test or storage-efficiency factor; 2026-10-28 Web-checked 2026-10-28: Sleipner monitoring literature (Utsira) gives plume behaviour, not a single injectivity/efficiency pair; the Baturaja paper figures (20-70 mD permeability, 34-34.5 Mt capacity) were recorded in Wave 1.",
-      "where": [
-        {
-          "hint": "Operator monitoring reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add measured values from operating projects."
+     "hint": "Operator monitoring reports",
+     "access": "open"
     }
-  ],
-  "sources": [
-    {
-      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119",
-      "source_id": "lemigas-scog",
-      "note": "Nirwana et al., Optimizing CO2 Storage in Saline Aquifers through Pressure Redistribution in Natuna D-Alpha Field, SCOG 49(3): 53-66, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-    },
-    {
-      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067",
-      "source_id": "lemigas-scog",
-      "note": "Iskandar et al., Optimized CO2 storage strategies for plume containment and mineral trapping in the SK gas field aquifer, SCOG 49(2): 173-201, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-    },
-    {
-      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135",
-      "source_id": "lemigas-scog",
-      "note": "Fitria et al., Impact of CO2-Induced Geochemical Alteration on the Mechanical Integrity of Reservoir and Caprock in Saline Aquifers, SCOG 49(3): 607-645, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-    },
-    {
-      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
-      "source_id": "lemigas-scog",
-      "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-    },
-    {
-      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-      "source_id": "iea-reports",
-      "note": "IEA ETP Clean Energy Technology Guide, July 2026"
-    },
-    {
-      "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
-      "note": "MIT CCS project database, Sleipner"
-    }
-  ],
-  "last_reviewed": "2026-10-28",
-  "reference_plants": [
-    {
-      "name": "Sleipner CO2 storage, Utsira Formation, Norwegian North Sea (Equinor)",
-      "country": "NO",
-      "capacity": "about 1 Mt CO2/yr injected into a deep saline formation since 1996; more than 20 Mt stored; injection cost about USD 17/t (storage only); zero leakage detected across 28+ years of monitoring",
-      "status": "operating",
-      "source": {
-        "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
-        "note": "MIT Sleipner project page (USD 17/t injection, 15.5 Mt to 2015); ResearchGate review (over 20 Mt stored since 1996); read 2026-10-28"
-      }
-    },
-    {
-      "name": "Northern Lights CO2 transport and storage, Norway (Equinor/Shell/TotalEnergies)",
-      "country": "NO",
-      "capacity": "world's first merchant CO2 transport and storage: Phase 1 up to 1.5 Mtpa (operational 2024, first injection August 2025); March 2025 FID on a USD 714 m expansion for 900 kt/yr biogenic CO2 over 15 years; Phase 2 to lift capacity to at least 5 Mtpa from 2028",
-      "status": "operating",
-      "source": {
-        "url": "https://www.equinor.com/energy/northern-lights",
-        "note": "Equinor Northern Lights page (1.5 Mtpa, expansion to min 5 Mtpa); ogj 27 Mar 2025 (USD 714 m FID); TotalEnergies notice 25 Aug 2025 (first CO2 storage); read 2026-10-28"
-      }
-    }
-  ],
-  "costs": [
-    {
-      "metric": "saline-aquifer storage cost datapoints (named projects)",
-      "low": 17,
-      "high": 17,
-      "unit": "USD/t CO2 (Sleipner injection/storage only); Northern Lights Phase 2 expansion: USD 714 m capex for 900 kt/yr over 15 years",
-      "year": 2015,
-      "basis": "Sleipner injection cost about USD 17/t CO2 (MIT project page, storage component only; dollar year not stated, page read 2026-10-28); Northern Lights Phase 2 expansion FID USD 714 m for 900,000 t/yr of biogenic CO2 over 15 years (OGJ, 27 Mar 2025) - implying about USD 53/t annualised capex; full-chain transport-plus-storage costs remain project-specific",
-      "source": {
-        "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
-        "note": "MIT Sleipner page; OGJ 27 Mar 2025 for the Northern Lights expansion"
-      }
-    }
-  ]
+   ],
+   "action": "Add measured values from operating projects."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2119",
+   "source_id": "lemigas-scog",
+   "note": "Nirwana et al., Optimizing CO2 Storage in Saline Aquifers through Pressure Redistribution in Natuna D-Alpha Field, SCOG 49(3): 53-66, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+  },
+  {
+   "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2067",
+   "source_id": "lemigas-scog",
+   "note": "Iskandar et al., Optimized CO2 storage strategies for plume containment and mineral trapping in the SK gas field aquifer, SCOG 49(2): 173-201, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+  },
+  {
+   "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2135",
+   "source_id": "lemigas-scog",
+   "note": "Fitria et al., Impact of CO2-Induced Geochemical Alteration on the Mechanical Integrity of Reservoir and Caprock in Saline Aquifers, SCOG 49(3): 607-645, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+  },
+  {
+   "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2126",
+   "source_id": "lemigas-scog",
+   "note": "Musakti et al., Feasibility of Upper Baturaja Interval as a Carbon Storage Reservoir in Kandanghaur-Gantar High, SCOG 49(3): 299-314, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+  },
+  {
+   "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+   "source_id": "iea-reports",
+   "note": "IEA ETP Clean Energy Technology Guide, July 2026"
+  },
+  {
+   "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
+   "note": "MIT CCS project database, Sleipner"
+  }
+ ],
+ "last_reviewed": "2026-10-28",
+ "reference_plants": [
+  {
+   "name": "Sleipner CO2 storage, Utsira Formation, Norwegian North Sea (Equinor)",
+   "country": "NO",
+   "capacity": "about 1 Mt CO2/yr injected into a deep saline formation since 1996; more than 20 Mt stored; injection cost about USD 17/t (storage only); zero leakage detected across 28+ years of monitoring",
+   "status": "operating",
+   "source": {
+    "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
+    "note": "MIT Sleipner project page (USD 17/t injection, 15.5 Mt to 2015); ResearchGate review (over 20 Mt stored since 1996); read 2026-10-28"
+   }
+  },
+  {
+   "name": "Northern Lights CO2 transport and storage, Norway (Equinor/Shell/TotalEnergies)",
+   "country": "NO",
+   "capacity": "world's first merchant CO2 transport and storage: Phase 1 up to 1.5 Mtpa (operational 2024, first injection August 2025); March 2025 FID on a USD 714 m expansion for 900 kt/yr biogenic CO2 over 15 years; Phase 2 to lift capacity to at least 5 Mtpa from 2028",
+   "status": "operating",
+   "source": {
+    "url": "https://www.equinor.com/energy/northern-lights",
+    "note": "Equinor Northern Lights page (1.5 Mtpa, expansion to min 5 Mtpa); ogj 27 Mar 2025 (USD 714 m FID); TotalEnergies notice 25 Aug 2025 (first CO2 storage); read 2026-10-28"
+   }
+  }
+ ],
+ "costs": [
+  {
+   "metric": "saline-aquifer storage cost datapoints (named projects)",
+   "low": 17,
+   "high": 17,
+   "unit": "USD/t CO2 (Sleipner injection/storage only); Northern Lights Phase 2 expansion: USD 714 m capex for 900 kt/yr over 15 years",
+   "year": 2015,
+   "basis": "Sleipner injection cost about USD 17/t CO2 (MIT project page, storage component only; dollar year not stated, page read 2026-10-28); Northern Lights Phase 2 expansion FID USD 714 m for 900,000 t/yr of biogenic CO2 over 15 years (OGJ, 27 Mar 2025) - implying about USD 53/t annualised capex; full-chain transport-plus-storage costs remain project-specific",
+   "source": {
+    "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
+    "note": "MIT Sleipner page; OGJ 27 Mar 2025 for the Northern Lights expansion"
+   }
+  },
+  {
+   "metric": "US onshore storage cost \u2014 over half of estimated capacity below",
+   "low": 10,
+   "unit": "USD/t CO2",
+   "year": 2019,
+   "basis": "IEA commentary figures: 2019 levelised costs, US-based estimates including compression; IEA's own estimates drawing on GCCSI (2017), IEAGHG (2014), Keith et al. (2018), NETL (2014) and Rubin et al. (2015) \u2014 IEA: more than half of US onshore storage capacity is available below USD 10/t; can be negative with CO2-EOR",
+   "source": {
+    "url": "https://www.iea.org/commentaries/is-carbon-capture-too-expensive",
+    "source_id": "iea-reports",
+    "note": "IEA commentary 'Is carbon capture too expensive?', read 2026-11-08"
+   }
+  }
+ ]
 }

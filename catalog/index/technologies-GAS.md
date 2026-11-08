@@ -4,7 +4,7 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Amine acid gas removal (MDEA, formulated amines)](#gas-amine-agr) | Gas treating / chemical solvent | commercial | 9 | BASF (OASE); Dow (UCARSOL); ExxonMobil (FLEXSORB); Honeywell UOP (Amine Guard FS); Shell (ADIP (ADIP-ULTRA per Shell catalysts pages)); Axens (Hysweet sour-gas sweetening solvent technology) |  |
+| [Amine acid gas removal (MDEA, formulated amines)](#gas-amine-agr) | Gas treating / chemical solvent | commercial | 9 | BASF (OASE); Dow (UCARSOL); ExxonMobil (FLEXSORB); Honeywell UOP (Amine Guard FS); Shell (ADIP (ADIP-ULTRA per Shell catalysts pages)); Axens (Hysweet sour-gas sweetening solvent technology) | Capture cost from concentrated CO2 streams (natural gas processing, ethanol): 15-25 USD/t CO2 (2019$) |
 | [Bio-LNG and liquefied biomethane](#gas-bio-lng) | LNG / renewable gas | commercial |  | Shell (bio-LNG plant, about 100,000 t/yr (April 2024)); Titan (bio-LNG (register examples; not verified)) |  |
 | [Boil-off gas management and reliquefaction](#gas-boil-off-reliquefaction) | LNG / shipping | commercial |  | Wärtsilä (LNG reliquefaction system); Burckhardt Compression (Laby-GI fuel gas compressors) |  |
 | [Carbon capture on LNG plants (acid gas reinjection)](#gas-lng-acid-gas-reinjection) | LNG / CO2 management | commercial |  | Chevron Australia (Gorgon CO2 injection); ExxonMobil (partner and register example) | Gorgon CO2 injection system capital cost: 1.7 USD billion |
@@ -62,6 +62,9 @@ flowchart LR
 
 **Performance:**
 - CO2 content of feed gas to LNG pretreatment and after acid gas removal: 50-7050 ppmv CO2; NETL LNG model: removal from about 7,050 ppmv in pipeline feed to about 50 ppmv (low = outlet, high = inlet). [source](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf)
+
+**Costs:**
+- Capture cost from concentrated CO2 streams (natural gas processing, ethanol): 15-25 USD/t CO2 (2019$); IEA commentary figures: 2019 levelised costs, US-based estimates including compression; IEA's own estimates drawing on GCCSI (2017), IEAGHG (2014), Keith et al. (2018), NETL (2014) and Rubin et al. (2015) — pure/concentrated-stream range quoted directly by the IEA. [source](https://www.iea.org/commentaries/is-carbon-capture-too-expensive)
 
 **Reference plants:**
 - PETRONAS PFLNG DUA, Rotan field, offshore Sabah, MY: 1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE; first cargo 24 March 2021. [source](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas)

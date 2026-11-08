@@ -1,184 +1,197 @@
 {
-  "id": "h2-aem-electrolysis",
-  "name": "AEM electrolysis",
-  "aliases": [
-    "anion exchange membrane electrolysis",
-    "AEMEL"
-  ],
-  "sector": "H2",
-  "category": "Hydrogen production / electrolysis",
-  "applications": [
-    "distributed and small industrial hydrogen",
-    "modular multi-megawatt systems"
-  ],
-  "maturity": "pilot",
-  "principle": "An anion exchange membrane carries hydroxide ions between electrodes in a dilute alkaline or pure-water environment. It aims to combine the cheap, platinum-free materials of alkaline electrolysis with the compact, pressurised design of PEM. DOE gives 50 to 80 °C operation.",
-  "process_steps": [
-    {
-      "id": "PWR",
-      "name": "Power conversion",
-      "equipment": [
-        "transformer",
-        "rectifier"
-      ]
-    },
-    {
-      "id": "WAT",
-      "name": "Water treatment",
-      "equipment": [
-        "deionisation",
-        "dilute electrolyte make-up"
-      ]
-    },
-    {
-      "id": "STK",
-      "name": "AEM stacks",
-      "equipment": [
-        "many AEM stacks around a common balance of plant"
-      ],
-      "to": [
-        "SEP"
-      ]
-    },
-    {
-      "id": "SEP",
-      "name": "Gas separation",
-      "equipment": [
-        "hydrogen and oxygen separators"
-      ],
-      "to": [
-        "PUR"
-      ]
-    },
-    {
-      "id": "PUR",
-      "name": "Purification",
-      "equipment": [
-        "optional chiller (99.95%)",
-        "optional dryer (99.999%)"
-      ],
-      "to": []
-    }
-  ],
-  "key_equipment": [
-    "AEM stacks",
-    "power electronics",
-    "gas separators",
-    "chiller and dryer options",
-    "water treatment"
-  ],
-  "performance": [
-    {
-      "metric": "operating temperature",
-      "low": 50,
-      "high": 80,
-      "unit": "°C",
-      "basis": "DOE description of AEM electrolysers",
-      "source": {
-        "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
-        "source_id": "doe-hfto",
-        "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
-      }
-    },
-    {
-      "metric": "system power consumption",
-      "low": 51.3,
-      "high": 51.3,
-      "unit": "kWh/kg H2",
-      "basis": "Enapter AEM Nexus 1000, all utilities inside battery limits, 99.5% purity configuration",
-      "source": {
-        "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
-        "note": "Enapter AEM Nexus 1000 datasheet, rev08"
-      }
-    },
-    {
-      "metric": "hydrogen output per unit",
-      "low": 18.2,
-      "high": 18.2,
-      "unit": "kg H2/h",
-      "basis": "Enapter AEM Nexus 1000 (202 Nm3/h) at 933 kW nominal, up to 31 barg outlet",
-      "source": {
-        "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
-        "note": "Enapter AEM Nexus 1000 datasheet, rev08"
-      }
-    }
-  ],
-  "suppliers": [
-    {
-      "name": "Enapter",
-      "product": "AEM Nexus 1000 and smaller modules",
-      "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf"
-    }
-  ],
-  "advantages": [
-    "No platinum-group metals needed in principle",
-    "Delivers pressurised hydrogen (up to 31 barg on Nexus 1000)",
-    "Modular, mass-manufactured stacks"
-  ],
-  "limitations": [
-    "Membrane durability still being proven",
-    "Small unit sizes so far",
-    "Few independent performance reports"
-  ],
-  "sources": [
-    {
-      "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
-      "source_id": "doe-hfto",
-      "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
-    },
-    {
-      "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
-      "note": "Enapter AEM Nexus 1000 datasheet, rev08"
-    },
-    {
-      "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
-      "source_id": "doe-hfto",
-      "note": "DOE Hydrogen Shot: Water Electrolysis Technology Assessment (2024)"
-    }
-  ],
-  "costs": [
-    {
-      "metric": "AEM stack capital cost, preliminary manufactured estimate",
-      "low": 200,
-      "high": 200,
-      "unit": "USD/kW",
-      "year": 2024,
-      "basis": "Preliminary DOE estimate of AEM stack manufactured cost at about 20 MW/yr production volume, with potential to be even less expensive at about 300 MW/yr; stack only, excludes balance of plant; dollar year not stated",
-      "source": {
-        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
-        "source_id": "doe-hfto",
-        "note": "DOE Hydrogen Shot: Water Electrolysis Technology Assessment (2024), AEM Electrolyzers - Status and R&D Cost Reduction Approaches, pp. 38-39"
-      }
-    }
-  ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read. Web-checked 2026-10-28; Enapter reference installations exist but no verifiable named plant page added.",
-      "where": [
-        {
-          "hint": "IEA Hydrogen Production and Infrastructure Projects Database (free registration)",
-          "source_id": "iea-hydrogen-db",
-          "access": "registration"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
-    }
-  ],
-  "trl": {
-    "low": 7,
-    "high": 7,
-    "source": {
-      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-      "source_id": "iea-reports",
-      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Anion exchange membrane electrolyser' 7"
-    }
+ "id": "h2-aem-electrolysis",
+ "name": "AEM electrolysis",
+ "aliases": [
+  "anion exchange membrane electrolysis",
+  "AEMEL"
+ ],
+ "sector": "H2",
+ "category": "Hydrogen production / electrolysis",
+ "applications": [
+  "distributed and small industrial hydrogen",
+  "modular multi-megawatt systems"
+ ],
+ "maturity": "pilot",
+ "principle": "An anion exchange membrane carries hydroxide ions between electrodes in a dilute alkaline or pure-water environment. It aims to combine the cheap, platinum-free materials of alkaline electrolysis with the compact, pressurised design of PEM. DOE gives 50 to 80 \u00b0C operation.",
+ "process_steps": [
+  {
+   "id": "PWR",
+   "name": "Power conversion",
+   "equipment": [
+    "transformer",
+    "rectifier"
+   ]
+  },
+  {
+   "id": "WAT",
+   "name": "Water treatment",
+   "equipment": [
+    "deionisation",
+    "dilute electrolyte make-up"
+   ]
+  },
+  {
+   "id": "STK",
+   "name": "AEM stacks",
+   "equipment": [
+    "many AEM stacks around a common balance of plant"
+   ],
+   "to": [
+    "SEP"
+   ]
+  },
+  {
+   "id": "SEP",
+   "name": "Gas separation",
+   "equipment": [
+    "hydrogen and oxygen separators"
+   ],
+   "to": [
+    "PUR"
+   ]
+  },
+  {
+   "id": "PUR",
+   "name": "Purification",
+   "equipment": [
+    "optional chiller (99.95%)",
+    "optional dryer (99.999%)"
+   ],
+   "to": []
   }
+ ],
+ "key_equipment": [
+  "AEM stacks",
+  "power electronics",
+  "gas separators",
+  "chiller and dryer options",
+  "water treatment"
+ ],
+ "performance": [
+  {
+   "metric": "operating temperature",
+   "low": 50,
+   "high": 80,
+   "unit": "\u00b0C",
+   "basis": "DOE description of AEM electrolysers",
+   "source": {
+    "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+    "source_id": "doe-hfto",
+    "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+   }
+  },
+  {
+   "metric": "system power consumption",
+   "low": 51.3,
+   "high": 51.3,
+   "unit": "kWh/kg H2",
+   "basis": "Enapter AEM Nexus 1000, all utilities inside battery limits, 99.5% purity configuration",
+   "source": {
+    "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
+    "note": "Enapter AEM Nexus 1000 datasheet, rev08"
+   }
+  },
+  {
+   "metric": "hydrogen output per unit",
+   "low": 18.2,
+   "high": 18.2,
+   "unit": "kg H2/h",
+   "basis": "Enapter AEM Nexus 1000 (202 Nm3/h) at 933 kW nominal, up to 31 barg outlet",
+   "source": {
+    "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
+    "note": "Enapter AEM Nexus 1000 datasheet, rev08"
+   }
+  }
+ ],
+ "suppliers": [
+  {
+   "name": "Enapter",
+   "product": "AEM Nexus 1000 and smaller modules",
+   "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf"
+  }
+ ],
+ "advantages": [
+  "No platinum-group metals needed in principle",
+  "Delivers pressurised hydrogen (up to 31 barg on Nexus 1000)",
+  "Modular, mass-manufactured stacks"
+ ],
+ "limitations": [
+  "Membrane durability still being proven",
+  "Small unit sizes so far",
+  "Few independent performance reports"
+ ],
+ "sources": [
+  {
+   "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+   "source_id": "doe-hfto",
+   "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+  },
+  {
+   "url": "https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf",
+   "note": "Enapter AEM Nexus 1000 datasheet, rev08"
+  },
+  {
+   "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+   "source_id": "doe-hfto",
+   "note": "DOE Hydrogen Shot: Water Electrolysis Technology Assessment (2024)"
+  }
+ ],
+ "costs": [
+  {
+   "metric": "AEM stack capital cost, preliminary manufactured estimate",
+   "low": 200,
+   "high": 200,
+   "unit": "USD/kW",
+   "year": 2024,
+   "basis": "Preliminary DOE estimate of AEM stack manufactured cost at about 20 MW/yr production volume, with potential to be even less expensive at about 300 MW/yr; stack only, excludes balance of plant; dollar year not stated",
+   "source": {
+    "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+    "source_id": "doe-hfto",
+    "note": "DOE Hydrogen Shot: Water Electrolysis Technology Assessment (2024), AEM Electrolyzers - Status and R&D Cost Reduction Approaches, pp. 38-39"
+   }
+  },
+  {
+   "metric": "Cost gap: renewable vs unabated fossil hydrogen production",
+   "low": 1.5,
+   "high": 8,
+   "unit": "USD/kg H2",
+   "year": 2024,
+   "basis": "IEA GHR 2024 executive summary: 'the cost gap with unabated fossil-based production shrinking from USD 1.5-8/kg H2 today to USD 1-3/kg H2 by 2030'",
+   "source": {
+    "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary",
+    "source_id": "iea-reports",
+    "note": "IEA Global Hydrogen Review 2024, executive summary, read 2026-11-08"
+   }
+  }
+ ],
+ "last_reviewed": "2026-10-28",
+ "gaps": [
+  {
+   "field": "reference_plants",
+   "item": "named operating or planned plants with capacity and status",
+   "reason_code": "not_in_sources_read",
+   "reason": "No plant was named in the sources read. Web-checked 2026-10-28; Enapter reference installations exist but no verifiable named plant page added.",
+   "where": [
+    {
+     "hint": "IEA Hydrogen Production and Infrastructure Projects Database (free registration)",
+     "source_id": "iea-hydrogen-db",
+     "access": "registration"
+    },
+    {
+     "hint": "Press releases from the suppliers listed on the card",
+     "access": "open"
+    }
+   ],
+   "action": "Add one to three reference plants with country, capacity, status and source."
+  }
+ ],
+ "trl": {
+  "low": 7,
+  "high": 7,
+  "source": {
+   "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+   "source_id": "iea-reports",
+   "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Anion exchange membrane electrolyser' 7"
+  }
+ }
 }

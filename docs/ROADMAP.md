@@ -49,7 +49,7 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 
 | # | Item | Size | Status |
 |---|---|---|---|
-| 2.2a | Costs fill: only ~73 of 334 cards carry costs; staged by sector, dollar-year basis mandatory. Note: primary cost sources (IRENA, NETL-linked mirrors) block plain fetch — needs the browser/staged session or compliant mirrors per docs/LOGIN_REQUIRED.md | L | open |
+| 2.2a | Costs fill: staged by sector, dollar-year basis mandatory, every figure evidence-fetched. **2026-11-08 pass 1 (CCS + H2, 10 cards)**: IEA 'Is carbon capture too expensive?' figures (concentrated 15-25 / dilute 40-120 USD/t, pipeline 2-14 USD/t, storage <10 USD/t) on 5 CCS-chain cards; IEA GHR 2024 figures (renewable-vs-fossil gap 1.5-8 USD/kg, renewable today 4-18 USD/kg implied) on 5 H2 cards. IRENA/NETL still block plain fetch — remaining sectors need the browser/staged session | L | **started 2026-11-08**; ~220 gaps remain |
 | 2.2b | Reference plants / verified figures on cards without them | M | **partial 2026-11-07** (first verified figures on ele-transformers and civ-floating-structures-fpso from cited vendor pages; systematic sweep continues) |
 | 2.2c | Thin sectors: PRC 5, MAT 8, HSE 6, DIG 7 cards after the 2026-11-08 batch (OTS, catalyst management, corrosion monitoring, CUI, methane/LDAR, flare recovery, CMMS, cloud SCADA) | M–L | **batch done 2026-11-08**; further deepening open |
 | 2.2d | Register entries without cards (list_gaps) | M | **closed 2026-11-08** — 0 of 333 uncovered |

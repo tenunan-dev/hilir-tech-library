@@ -4,7 +4,7 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [CO2 pipelines (dense phase)](#mid-co2-pipelines) | Pipelines | commercial | 9 | Denbury (Green Pipeline (register example)); Northern Lights (ship and pipeline chain) | Weyburn pipeline capex: 110 USD million (about 0.33 million per km) (1997$) |
+| [CO2 pipelines (dense phase)](#mid-co2-pipelines) | Pipelines | commercial | 9 | Denbury (Green Pipeline (register example)); Northern Lights (ship and pipeline chain) | Weyburn pipeline capex: 110 USD million (about 0.33 million per km) (1997$)<br>US onshore CO2 pipeline transport: 2-14 USD/t CO2 (2019$) |
 | [Cathodic protection and coatings (FBE, 3LPE)](#mid-cathodic-protection-coatings) | Pipelines | commercial |  | Corrpro (cathodic protection services); Seal for Life (coating and wrap products) |  |
 | [Composite and reinforced thermoplastic pipe](#mid-composite-reinforced-thermoplastic-pipe) | Pipelines | commercial |  | Baker Hughes (reinforced thermoplastic pipe); Strohm (thermoplastic composite pipe); NOV (fibreglass and composite pipe) |  |
 | [Crude and product tank farms and floating roofs](#mid-tank-farms-floating-roofs) | Storage and terminals | commercial |  | Terminal operators (tank terminals) |  |
@@ -48,6 +48,7 @@ flowchart LR
 
 **Costs:**
 - Weyburn pipeline capex: 110 USD million (about 0.33 million per km) (1997$); 330 km. [source](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf)
+- US onshore CO2 pipeline transport: 2-14 USD/t CO2 (2019$); IEA commentary figures: 2019 levelised costs, US-based estimates including compression; IEA's own estimates drawing on GCCSI (2017), IEAGHG (2014), Keith et al. (2018), NETL (2014) and Rubin et al. (2015) — transport range quoted directly by the IEA. [source](https://www.iea.org/commentaries/is-carbon-capture-too-expensive)
 
 **Reference plants:**
 - Porthos CO2 transport system, Port of Rotterdam, Netherlands, NL: about 55 km of CO2 pipeline (about 30 km onshore laid, more than 20 km offshore); 10 Mtpa design; transports Rotterdam industry CO2 to depleted North Sea gas fields; under construction (2024-); construction. [source](https://www.porthosco2.nl/en)
