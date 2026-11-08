@@ -27,7 +27,7 @@ execution detail. The roadmap folds in one targeted track:
 | # | Item | Status |
 |---|---|---|
 | 1.1 | Five-channel discovery pipeline, triage per access class | standing |
-| 1.2 | Doc-coverage targeting: the ~200 of 404 sources with zero collected documents, prioritised where cards cite them but no doc exists | open |
+| 1.2 | Doc-coverage targeting: 205 of 404 sources have docs. Priority list computed 2026-11-08: 58 card-cited sources with zero docs (top: wikipedia 79 cards — needs per-article docs, offshore-mag 12, honeywell-uop 11, sintef 10, ogj 10 — most mixed/paywalled → browser/manual). First batch done: ge-vernova, axens, slb (manual intake, summaries added) | open | **started 2026-11-08** |
 | 1.3 | Discipline sources: electrical/civil/C&I publishers and OEMs found while authoring round 2 | open |
 
 ## 2. Content expansion

@@ -200,3 +200,6 @@
 {"sha256": "3abcb13a43e180e4d5e7b7848c0fe0c6d658ea77b38e47fe900c991a2559102b", "path": "corpus/arxiv/arxiv-2610.14339-fulltext.md", "url": "https://arxiv.org/abs/2610.14339"}
 {"sha256": "4bc2180a116e46ecf5f5330af0582e6038b9aec1efbc2649ab7de99eac97cacc", "path": "corpus/arxiv/arxiv-2610.15798-fulltext.md", "url": "https://arxiv.org/abs/2610.15798"}
 {"sha256": "6509ff1774e496b21fd3686967edd375ff7a74e3e86a8461b15f33c7800c62e1", "path": "corpus/arxiv/arxiv-2610.23476-fulltext.md", "url": "https://arxiv.org/abs/2610.23476"}
+{"sha256": "45a4e1f100c3bb38c662f80d462e18c71cd4bb89cfa2261c4c4753dc37ef9510", "path": "corpus/ge-vernova/gas-turbines-45a4e1f1.md", "url": "https://www.gevernova.com/gaspower/products/gas-turbines"}
+{"sha256": "4fcdb9c5e9829e97eca91b496d57d6beddbcce165e5a02df26d26d4f60f662c4", "path": "corpus/axens/axens-technologies-home-4fcdb9c5.md", "url": "https://www.axens.net/"}
+{"sha256": "4b49d37fc0f8efc80aef9d35e3df09e818fac325ee7867f83fb52ba31f636441", "path": "corpus/slb/slb-home-4b49d37f.md", "url": "https://www.slb.com/"}

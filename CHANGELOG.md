@@ -27,6 +27,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   documented `userstore.create_account()` inside the running container, unblocking the owner
   before the code fix rolled out.
 
+## [2026.11.08.3] — 2026-11-08 — Doc-coverage batch 1
+
+### Added
+- Three collected documents for card-cited sources with zero docs (manual-intake recipe, hand-written
+  summaries): ge-vernova gas turbine product page, Axens home, SLB home. Corpus 202 → 205 docs.
+- Doc-coverage priority list computed and recorded in the roadmap: 58 card-cited sources still
+  without documents, ranked by card citations (wikipedia 79, offshore-mag 12, honeywell-uop 11,
+  sintef 10, ogj 10); most remaining are mixed/paywalled → manual/browser paths.
+
 ## [2026.11.08.2] — 2026-11-08 — Costs fill pass 1 (CCS + H2, 10 cards)
 
 ### Changed
