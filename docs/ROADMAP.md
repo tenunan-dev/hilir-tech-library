@@ -27,7 +27,7 @@ execution detail. The roadmap folds in one targeted track:
 | # | Item | Status |
 |---|---|---|
 | 1.1 | Five-channel discovery pipeline, triage per access class | standing |
-| 1.2 | Doc-coverage targeting: 205 of 404 sources have docs. Priority list computed 2026-11-08: 58 card-cited sources with zero docs (top: wikipedia 79 cards — needs per-article docs, offshore-mag 12, honeywell-uop 11, sintef 10, ogj 10 — most mixed/paywalled → browser/manual). Batches 1-3 done: ge-vernova, axens, slb + all 30 most-cited wikipedia articles (manual intake, summaries added) | open | **in progress 2026-11-08** (235 docs / 12,191 chunks / 13,373 vectors live; 30/71 cited wikipedia articles done, remaining 41 + mixed/paywalled sources on manual/browser paths) |
+| 1.2 | Doc-coverage targeting: 205 of 404 sources have docs. Priority list computed 2026-11-08: 58 card-cited sources with zero docs (top: wikipedia 79 cards — needs per-article docs, offshore-mag 12, honeywell-uop 11, sintef 10, ogj 10 — most mixed/paywalled → browser/manual). Batches 1-4 done: ge-vernova, axens, slb + 70 of 71 cited wikipedia articles (manual intake, summaries added) | open | **in progress 2026-11-08** (275 docs / 13,070 chunks / 14,252 vectors live; 70/71 cited wikipedia articles done — the last one is a hashtag/section fragment not a real article; cited mixed/paywalled sources still on manual/browser paths) |
 | 1.3 | Discipline sources: electrical/civil/C&I publishers and OEMs found while authoring round 2 | open |
 
 ## 2. Content expansion

@@ -27,6 +27,18 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   documented `userstore.create_account()` inside the running container, unblocking the owner
   before the code fix rolled out.
 
+## [2026.11.08.6] — 2026-11-08 — Doc-coverage batch 4: wikipedia complete
+
+### Added
+- 40 more wikipedia documents — the cited-article set is now complete (70 of 71 listed: the one
+  remainder resolved to a section fragment, not an article). Spanning the full library: flow
+  meters, compressors, drilling, FPSO/LNG carriers, heat exchangers, pinch analysis, simulation,
+  and energy-transition topics (grid-forming inverters, virtual power plants, sodium-ion,
+  Suiso Frontier).
+- Corpus 235 → 275 docs / 13,070 chunks; Neon reloaded (14,252 vectors).
+- Doc-coverage next frontier: the cited mixed/paywalled sources (offshore-mag, honeywell-uop,
+  sintef, ogj, ptq) on manual/browser paths.
+
 ## [2026.11.08.5] — 2026-11-08 — Doc-coverage batch 3: 20 more wikipedia articles
 
 ### Added
