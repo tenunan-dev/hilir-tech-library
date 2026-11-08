@@ -76,6 +76,31 @@ def test_pages_answer_with_a_bearer(c):
                                           or "/sources/" in search.text)
 
 
+def test_documents_index_and_restricted_viewer(c):
+    """/documents without a path is the menu's index (no Bad request, 2026-11-09); restricted
+    documents are listed and their viewer shows metadata + source url but never the body."""
+    admin(c)
+    index = c.get("/documents")
+    assert index.status_code == 200 and "documents?path=" in index.text
+    # find a restricted doc in the baked index (the container build owns the corpus; here the
+    # SQLite fallback runs against build/library.db)
+    import json as _json
+    import library as _lib
+    db = _lib.connect()
+    restricted = None
+    for dpath, srec in db.execute("SELECT d.path, s.record FROM docs d JOIN sources s ON s.id = d.source_id"):
+        meta = _lib.read_document(_lib.ROOT / dpath)[0] if (_lib.ROOT / dpath).exists() else {}
+        # doc-level restriction wins (a source-level restriction with an open doc meta stays open)
+        if meta.get("reuse_level", _json.loads(srec).get("reuse_level")) == "full-text-restricted":
+            restricted = dpath
+            break
+    assert restricted, "no full-text-restricted doc in the baked index to test with"
+    view = c.get("/documents", params={"path": restricted})
+    assert view.status_code == 200
+    assert "Source url:" in view.text and "full text is not served" in view.text
+    assert '<pre class="doc">' not in view.text, "restricted body leaked into the viewer"
+
+
 def test_token_without_an_account_row_is_refused(c):
     """The token proves who; the store decides the role. No row = no access (fail-closed),
     and a 403 page — never a redirect to /login, which would loop forever: Access silently

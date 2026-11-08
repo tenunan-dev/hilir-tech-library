@@ -1689,49 +1689,79 @@ def routes(tools) -> list:
     async def documents(request: Request):
         path = request.query_params.get("path")
         if not path:
-            # Index view (the menu's Documents tab): the collected documents, each linking to
-            # its viewer. Neon-first, baked-index fallback via the docs table.
+            # Index view (the menu's Documents tab): every collected document, restricted ones
+            # included — the viewer carries the metadata and url even when text is not served.
             def _fallback():
                 import json as _json
                 import library as _lib
                 db = _lib.connect()
                 out = []
                 for dpath, srec in db.execute(
-                        "SELECT d.path, s.record FROM docs d JOIN sources s ON s.id = d.source_id ORDER BY d.path LIMIT 500"):
+                        "SELECT d.path, s.record FROM docs d JOIN sources s ON s.id = d.source_id ORDER BY d.path"):
                     rec = _json.loads(srec)
                     out.append({"path": dpath, "title": None, "source_id": rec.get("id"),
-                                "source_name": rec.get("name"), "reuse_level": rec.get("reuse_level")})
+                                "source_name": rec.get("name"), "source_url": rec.get("url"),
+                                "reuse_level": rec.get("reuse_level")})
                 return out
             rows = _neon_first(lambda: pg.document_index(), _fallback)
             items = "".join(
                 '<div class="arow"><span class="grow"><a href="/documents?path=%s">%s</a>'
-                '<span class="slotsub">%s</span></span>%s</div>'
+                '<span class="slotsub">%s</span></span>'
+                '<span style="display:flex;align-items:center;gap:.4rem">%s%s</span></div>'
                 % (esc(urllib.parse.quote(r.get("path") or "")),
                    esc(r.get("title") or r.get("path")),
                    esc(r.get("source_name") or r.get("source_id") or ""),
-                   _badge(r.get("reuse_level")))
+                   _badge(r.get("reuse_level")),
+                   (f'<a class="slotrm" href="{esc(r["source_url"])}" rel="noopener">url ↗</a>'
+                    if r.get("source_url") else ""))
                 for r in rows)
             if items:
                 return _page("Documents",
-                             '<section class="card"><h1>Collected documents <span class="muted small">%d shown</span></h1>'
+                             '<section class="card"><h1>Collected documents <span class="muted small">%d documents</span></h1>'
                              '<div class="arows">%s</div>'
-                             '<p class="muted small">Open a document for its front matter and (licence permitting) '
-                             'full text. Documents are also reachable from search results.</p></section>'
+                             '<p class="muted small">Restricted documents carry their metadata and source url; '
+                             'only their full text is withheld. Documents are also reachable from search results.</p></section>'
                              % (len(rows), items), active="/documents")
             return _page("Documents",
                          '<section class="card"><h1>Documents</h1><p class="muted">No documents indexed yet.</p></section>',
                          active="/documents")
-        doc = _neon_first(lambda: pg.document_row(path), lambda: tools.get_document(path))
+        def _fallback_doc():
+            import json as _json
+            import library as _lib
+            doc = tools.get_document(path)
+            if doc is None:
+                return None
+            db = _lib.connect()
+            srow = db.execute("SELECT record FROM sources WHERE id = (SELECT source_id FROM docs WHERE path = ?)",
+                              (doc["path"],)).fetchone()
+            rec = _json.loads(srow["record"]) if srow else {}
+            restricted = _lib.doc_restricted(db, doc["path"], rec)
+            doc["restricted"] = restricted
+            if restricted:
+                doc["text"] = ""
+            doc["source_url"], doc["source_name"] = rec.get("url"), rec.get("name")
+            return doc
+        doc = _neon_first(lambda: pg.document_row(path), _fallback_doc)
         if not doc:
             return _not_found("No collected document at that path.")
         meta = doc.get("meta") or {}
         title = str(meta.get("title") or doc.get("path") or path)
         badges = " ".join(filter(None, (_badge(meta.get("licence")), _badge(meta.get("reuse_level")))))
-        rows = "".join(f"<tr><th>{esc(k)}</th><td>{esc(_meta_value(v))}</td></tr>" for k, v in meta.items())
-        body = [f'<section class="card"><h1>{esc(title)} {badges}</h1>'
-                f'<div class="scroll"><table>{rows}</table></div></section>']
-        if doc.get("error"):
-            body.append(_section("", f'<p class="muted">{esc(doc["error"])}</p>'))
+        url = meta.get("url") or doc.get("source_url") or ""
+        head = [f'<section class="card"><h1>{esc(title)} {badges}</h1>']
+        if url:
+            head.append(f'<p style="margin:.2rem 0 .6rem">Source url: '
+                        f'<a href="{esc(str(url))}" rel="noopener">{esc(str(url))}</a></p>')
+        if meta.get("summary") or meta.get("abstract"):
+            head.append(f'<p style="margin:.4rem 0">{esc(str(meta.get("summary") or meta.get("abstract")))}</p>')
+        rows = "".join(f"<tr><th>{esc(k)}</th><td>{esc(_meta_value(v))}</td></tr>"
+                       for k, v in meta.items() if k not in ("title", "url", "summary"))
+        head.append(f'<div class="scroll"><table>{rows}</table></div></section>')
+        body = ["".join(head)]
+        if doc.get("restricted"):
+            body.append(_section("", '<p class="muted">Private reference copy; the full text is not served by this '
+                                    'server. Everything above (metadata, abstract, url) is from the collected '
+                                    'front matter — cite the source url.</p>'))
         if doc.get("text"):
             body.append('<section class="card"><pre class="doc">' + esc(doc["text"])
                         + '</pre><p class="muted">Open-licence copy; cite the url.</p></section>')

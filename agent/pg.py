@@ -467,38 +467,42 @@ def source_row(source_id: str) -> dict | None:
     return _execute(work)
 
 
-def document_index(limit: int = 500) -> list[dict]:
-    """Lightweight documents index for /documents (no path): id, title, source and reuse
-    level per collected document, newest-sourced first is not tracked — order by id."""
+def document_index() -> list[dict]:
+    """Complete documents index for /documents (no path): id, title, source, source url and
+    reuse level per collected document — restricted ones included (owner decision
+    2026-11-09: list everything, show the metadata even when the text is not served)."""
 
     def work(cur):
-        cur.execute("""SELECT d.id, d.meta->>'title', d.source_id, s.name,
+        cur.execute("""SELECT d.id, d.meta->>'title', d.source_id, s.name, s.url,
                               coalesce(d.reuse_level, s.reuse_level)
                        FROM document d LEFT JOIN source s ON s.id = d.source_id
-                       ORDER BY d.id LIMIT %s""", (limit,))
+                       ORDER BY d.id""")
         return [{"path": did, "title": title, "source_id": sid, "source_name": sname,
-                 "reuse_level": reuse}
-                for did, title, sid, sname, reuse in cur.fetchall()]
+                 "source_url": surl, "reuse_level": reuse}
+                for did, title, sid, sname, surl, reuse in cur.fetchall()]
 
     return _execute(work)
 
 
 def document_row(path: str) -> dict | None:
     """library.get_document equivalent from og.document: front matter and full text. Text of
-    full-text-restricted documents is never returned — the stored body is ignored for them
-    (the same licence gate the hosted server applies on its SQLite path)."""
+    full-text-restricted documents is never returned — the stored body is dropped and
+    restricted=True is set, but the metadata (title, url, summary) still comes through so the
+    web viewer can cite the source."""
 
     def work(cur):
-        cur.execute("""SELECT d.id, d.meta, d.body, d.reuse_level, s.reuse_level
+        cur.execute("""SELECT d.id, d.meta, d.body, d.reuse_level, s.reuse_level, s.url, s.name
                        FROM document d LEFT JOIN source s ON s.id = d.source_id
                        WHERE d.id = %s""", (path.split("#")[0],))
         rows = cur.fetchall()
         if not rows:
             return None
-        did, meta, body, d_reuse, s_reuse = rows[0]
-        if (d_reuse or s_reuse) == "full-text-restricted":
-            return {"path": did, "error": "Private reference copy; not served by this server. Cite the source url instead."}
-        return {"path": did, "meta": _jsonb(meta) or {}, "text": body or ""}
+        did, meta, body, d_reuse, s_reuse, s_url, s_name = rows[0]
+        restricted = (d_reuse or s_reuse) == "full-text-restricted"
+        return {"path": did, "meta": _jsonb(meta) or {},
+                "text": "" if restricted else (body or ""),
+                "restricted": restricted,
+                "source_url": s_url, "source_name": s_name}
 
     return _execute(work)
 
