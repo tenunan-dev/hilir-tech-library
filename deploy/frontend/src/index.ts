@@ -32,7 +32,7 @@ import {
 } from "@tenunan-dev/hilir-auth";
 
 // keep in sync with PREFIXES in agent/web.py
-const UI_PREFIXES = ["/search", "/technologies", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/database", "/admin", "/account"];
+const UI_PREFIXES = ["/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/admin", "/account"];
 const isUi = (p: string) => p === "/" || UI_PREFIXES.some((x) => p.startsWith(x));
 
 /**
