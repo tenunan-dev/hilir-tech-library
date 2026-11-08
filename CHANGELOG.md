@@ -27,6 +27,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   documented `userstore.create_account()` inside the running container, unblocking the owner
   before the code fix rolled out.
 
+## [2026.11.08.5] — 2026-11-08 — Doc-coverage batch 3: 20 more wikipedia articles
+
+### Added
+- 20 more wikipedia documents (CC BY-SA): gas detector, SCR, SNCR, HAZOP, PRA, MPC, DCS, ICS, gas
+  chromatography, TDLAS, SIS, FBE coating, duplex stainless, cladding, NDT, FRP, RBI, cathodic
+  protection, RTP, oil tankers — all with hand-written summaries.
+- Corpus 215 → 235 docs / 12,191 chunks; Neon reloaded (13,373 vectors). 30 of 71 cited wikipedia
+  articles now stored.
+
 ## [2026.11.08.4] — 2026-11-08 — Doc-coverage batch 2: the 10 most-cited wikipedia articles
 
 ### Added
