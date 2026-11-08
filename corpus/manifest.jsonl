@@ -203,3 +203,13 @@
 {"sha256": "45a4e1f100c3bb38c662f80d462e18c71cd4bb89cfa2261c4c4753dc37ef9510", "path": "corpus/ge-vernova/gas-turbines-45a4e1f1.md", "url": "https://www.gevernova.com/gaspower/products/gas-turbines"}
 {"sha256": "4fcdb9c5e9829e97eca91b496d57d6beddbcce165e5a02df26d26d4f60f662c4", "path": "corpus/axens/axens-technologies-home-4fcdb9c5.md", "url": "https://www.axens.net/"}
 {"sha256": "4b49d37fc0f8efc80aef9d35e3df09e818fac325ee7867f83fb52ba31f636441", "path": "corpus/slb/slb-home-4b49d37f.md", "url": "https://www.slb.com/"}
+{"sha256": "dfc3bb75426f675aa487f4f5a612f864a5f5fa4fdd8ba3578be84fea3310c18e", "path": "corpus/wikipedia/artificial-lift-dfc3bb75.md", "url": "https://en.wikipedia.org/wiki/Artificial_lift"}
+{"sha256": "268ab8be1bc96e1c76972f80fff81e0037107f35f82a540f454d66b929bcdabb", "path": "corpus/wikipedia/digital-twin-268ab8be.md", "url": "https://en.wikipedia.org/wiki/Digital_twin"}
+{"sha256": "beb7c90bc8ce300767973552be64691b60a2d803f6fa4382518072163fffa9ef", "path": "corpus/wikipedia/enhanced-oil-recovery-beb7c90b.md", "url": "https://en.wikipedia.org/wiki/Enhanced_oil_recovery"}
+{"sha256": "c506bd7d64cf841a116f70cf6f4a6803054a282e67f6d8e9caa9a981b0342c5b", "path": "corpus/wikipedia/hydraulic-fracturing-c506bd7d.md", "url": "https://en.wikipedia.org/wiki/Hydraulic_fracturing"}
+{"sha256": "e90f96278840f611b456876a4e831c43604fc618dc68061914b713766f02343b", "path": "corpus/wikipedia/iso-15926-e90f9627.md", "url": "https://en.wikipedia.org/wiki/ISO_15926"}
+{"sha256": "f4b4c51d112dc930d4a75d457a848dbd77f5b15a1690c6a3459f405a126a44a0", "path": "corpus/wikipedia/industrial-internet-of-things-f4b4c51d.md", "url": "https://en.wikipedia.org/wiki/Industrial_internet_of_things"}
+{"sha256": "1266af45a1aa91795b0e1042bac50f240c1fe83349bc5ee93dafada9fe2a3c78", "path": "corpus/wikipedia/oil-platform-1266af45.md", "url": "https://en.wikipedia.org/wiki/Oil_platform"}
+{"sha256": "7e66a5a8e49a1e56b44ac229e9c3bf982f0b188ca8d8379cd6647fb17f196f62", "path": "corpus/wikipedia/predictive-maintenance-7e66a5a8.md", "url": "https://en.wikipedia.org/wiki/Predictive_maintenance"}
+{"sha256": "8da1f092a5717b6202694f70e56758a8e7d4ec84ddf2f527b1cf9a28f2a1691d", "path": "corpus/wikipedia/scada-8da1f092.md", "url": "https://en.wikipedia.org/wiki/SCADA"}
+{"sha256": "b2d92ca17af6447d2bcdc6a4d40258d0c32e6d9878c0ec1d76be5183154934d4", "path": "corpus/wikipedia/steam-assisted-gravity-drainage-b2d92ca1.md", "url": "https://en.wikipedia.org/wiki/Steam-assisted_gravity_drainage"}

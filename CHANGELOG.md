@@ -27,6 +27,14 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
   documented `userstore.create_account()` inside the running container, unblocking the owner
   before the code fix rolled out.
 
+## [2026.11.08.4] — 2026-11-08 — Doc-coverage batch 2: the 10 most-cited wikipedia articles
+
+### Added
+- 10 wikipedia documents (CC BY-SA, full-text-open) for the articles carrying the most card
+  citations: artificial lift, SCADA, oil platform, EOR, hydraulic fracturing, SAGD, predictive
+  maintenance, digital twin, ISO 15926, IIoT — each with a hand-written summary.
+- Corpus 205 → 215 docs, 11,776 chunks; Neon reloaded (12,957 vectors).
+
 ## [2026.11.08.3] — 2026-11-08 — Doc-coverage batch 1
 
 ### Added
