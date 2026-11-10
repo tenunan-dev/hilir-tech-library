@@ -73,6 +73,7 @@ graph adds nothing that is not in the catalog, cards, register or documents. `py
 ```
 pip install -r requirements-postgres.txt
 export DATABASE_URL='postgresql://user:password@host/dbname?sslmode=require'   # never commit this
+psql "$DATABASE_URL" -f db/schema.sql    # once; idempotent (IF NOT EXISTS / OR REPLACE throughout)
 python tools/load_postgres.py
 ```
 
@@ -80,8 +81,8 @@ Against Neon, load with the **unpooled** owner connection string; the pooled rea
 server afterwards (see the next section). The load replaces every table in one transaction and runs
 inside a psycopg pipeline, which batches the round trips over the WAN: it finishes in about half a
 minute, where per-row round trips took 13+ minutes and the connection usually died first.
-Because pipeline mode rejects multi-command strings, `db/schema.sql` is executed one statement at a
-time. Rules the load keeps:
+The schema itself is applied once with `psql -f db/schema.sql` (idempotent — safe to re-run); the
+loader only truncates and refills. Rules the load keeps:
 
 - Only text with an open licence (`reuse_level: full-text-open`) is loaded. Restricted documents get a metadata row and no passages, because a hosted database may be read by others. `--include-restricted` is for a database that nobody else can reach.
 - Embeddings come from the local index `build/library.db` when it has them — run `python agent/library.py build && python agent/embed.py` **before** the load (on the Mac, where fastembed is installed). `--embeddings fastembed` computes them during the load instead. Without either, the database still works with keyword search and the graph; load again once embeddings exist.
@@ -89,17 +90,20 @@ time. Rules the load keeps:
 
 ## Read-only access for the MCP server and the web UI
 
-The server never connects as the owner. Run this once, against the **owner** DSN, to create the
+The server never connects as the owner. Run these once, against the **owner** DSN, to create the
 read-only role from [db/readonly.sql](../db/readonly.sql) and print the DSNs to use with it:
 
 ```
 export DATABASE_URL='postgresql://owner:password@host/dbname?sslmode=require'   # owner DSN
+psql "$DATABASE_URL" -f db/readonly.sql   # once; idempotent (role, grants, DO-block CONNECT grant)
 export OG_READONLY_PASSWORD='<at least 16 characters>'
-python tools/load_postgres.py --grant-readonly
+python tools/load_postgres.py --grant-readonly   # binds the password, prints the DSNs
 ```
 
-The command also sets the role's password and `GRANT CONNECT` itself, so no secret is in the file or
-the repository. It is idempotent. The printed **pooled** read-only DSN is the one the server uses:
+The role and its grants (including `GRANT CONNECT`, resolved server-side by the DO block) come from
+db/readonly.sql; `--grant-readonly` binds only the password (through psycopg's `%s` quoting, so no
+secret is in the file, the repository or shell history). It is idempotent. The printed **pooled**
+read-only DSN is the one the server uses:
 keep it at `~/.config/hilir-tech-library/db-readonly.url` (mode 600, never in the repo) and set it as
 the Cloudflare secret (`tr -d '\n' < ~/.config/hilir-tech-library/db-readonly.url | npx wrangler secret
 put DATABASE_URL`, see docs/HOSTING.md).

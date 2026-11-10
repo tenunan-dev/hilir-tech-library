@@ -21,6 +21,7 @@ import yaml
 import technologies
 import vendors
 import equipment
+import bm25
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
@@ -291,10 +292,9 @@ def search(query, kind="all", sector=None, discipline=None, region=None, reuse_l
         return []
     # BM25 weights per column (kind, ref, source_id, title, text, tags): a match in the name or
     # text counts more than one in the taxonomy labels every record of a sector shares.
-    sql = ("SELECT rowid, kind, ref, source_id, title, text, tags, "
-           "bm25(search, 0, 0, 0, 3.0, 1.0, 0.4) AS rank FROM search "
-           "WHERE search MATCH ? ORDER BY rank LIMIT 500")
-    rows = db.execute(sql, (q,)).fetchall()
+    # The MATCH query itself lives in ./bm25.py (its own validated module); q is
+    # inert here — word-character tokens only, quoted per token (filter above).
+    rows = bm25.match_rows(db, q)
     # Rows matching more of the query's words come first; BM25 orders rows within each group.
     terms = set(re.findall(r"\w+", query.lower()))
     rows.sort(key=lambda r: (-sum(t in f"{r['title']} {r['text']} {r['tags']}".lower() for t in terms), r["rank"]))

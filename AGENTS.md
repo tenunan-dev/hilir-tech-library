@@ -12,8 +12,14 @@
 - MCP: `POST https://techlib-api.hilir.app/mcp` (stateless; PRM anonymous). REST: `/api/*`.
 - Publish: **docs/HOSTING.md** (current-state section at the top) — three workers via wrangler
   (deploy/edge, deploy/frontend, deploy/backend); containers via CI `images` workflow →
-  VPS `/srv/hilir/techlib` `docker compose pull && up -d`.
-- VPS: both containers run at `/srv/hilir/techlib` on 15.235.248.33 behind Caddy + tunnel.
+  VPS `sudo vps deploy techlib` (the `vps` wrapper is the only sudo verb; it health-gates and
+  auto-rolls back).
+- VPS: both containers run at `/srv/hilir/techlib` on 15.235.248.33 behind Caddy + tunnel. VPS
+  operations follow the owner's playbook (`~/Documents/VibeProject/VPS Control/operations/AGENT-PLAYBOOK.md`):
+  connect only with the `~/.ssh/agent_dsh` key; sudo is allowlisted to `vps *` only; after every
+  change run `sudo vps status` + `sudo vps health` (must print `mygis 303, techlib-origin 403,
+  tlea-origin 403`) and report digest + gate + rollback; mygis ships as a Mac build →
+  `docker save | ssh 'gunzip | sudo vps load'` → `sudo vps up mygis`, never `vps deploy mygis`.
 - The dead `LibraryApi` Durable Object and the sk-/ACCESS-binding design are deleted; the
   stale tests were replaced by `deploy/backend/tests/machine-gate.test.ts`.
 - Do not touch auth internals, DNS, or application content without an explicit owner ask.
@@ -96,6 +102,7 @@ agents to find, cite and read. It has six layers:
 | Add sources, verify terms, collect, run refreshes | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) |
 | Find sources the catalog does not know yet | [docs/SOURCE_DISCOVERY_PLAN.md](docs/SOURCE_DISCOVERY_PLAN.md) |
 | Host the server for cloud agents (Copilot Studio and others) | [docs/HOSTING.md](docs/HOSTING.md) |
+| Operate on the VPS (deploy, health gate, rollback, mygis) | **`~/Documents/VibeProject/VPS Control/operations/AGENT-PLAYBOOK.md`** |
 | Export to Dataverse / Power Apps tables | [docs/DATAVERSE.md](docs/DATAVERSE.md) |
 | Load into Postgres with vectors and a knowledge graph (Neon) | [docs/POSTGRES.md](docs/POSTGRES.md) |
 | Know what is done and what to do next | [docs/STATUS.md](docs/STATUS.md) |

@@ -30,6 +30,7 @@ import {
   verify,
   type OidcConfig,
 } from "@tenunan-dev/hilir-auth";
+import { upstreamFetch, userinfoFetch } from "./proxy";
 
 // keep in sync with PREFIXES in agent/web.py
 const UI_PREFIXES = ["/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/admin", "/account"];
@@ -84,21 +85,15 @@ async function toContainer(
   token?: string | null,
   _email?: string | null,
 ): Promise<Response> {
-  const url = new URL(request.url);
   const headers = dsnHeaders(request, env);
-  const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
   headers.set("x-origin-token", env.ORIGIN_TOKEN);
   if (token) {
     // Replaces anything the browser sent: the edge decides the identity.
     headers.set("authorization", `Bearer ${token}`);
   }
-  const upstream = new Request(`${env.LIBRARY_ORIGIN}${url.pathname}${url.search}`, {
-    method: request.method,
-    headers,
-    body,
-    redirect: "manual",
-  });
-  return fetch(upstream);
+  // The outbound hop itself lives in ./proxy.ts — destination pinned to the
+  // literal tunnel origin (SSRF gate), validated in its own module.
+  return upstreamFetch(request, env.LIBRARY_ORIGIN, headers);
 }
 
 /** Add Set-Cookie headers from a token refresh to a proxied response. */
@@ -174,10 +169,10 @@ async function principalFromUserinfo(
   try {
     const doc = await discover(oidcConfig(env));
     if (!doc.userinfo_endpoint) return { email: null, sub: null };
-    const res = await fetch(doc.userinfo_endpoint, {
-      headers: { authorization: `Bearer ${token}`, accept: "application/json" },
-    });
-    if (!res.ok) return { email: null, sub: null };
+    // The userinfo hop itself lives in ./proxy.ts — https-only, host pinned
+    // to the Access issuer, loopback/private rejected (SSRF gate).
+    const res = await userinfoFetch(env.HILIR_ISSUER, doc.userinfo_endpoint, token);
+    if (!res || !res.ok) return { email: null, sub: null };
     const info = (await res.json()) as { email?: unknown; sub?: unknown };
     return {
       email: typeof info.email === "string" ? info.email : null,

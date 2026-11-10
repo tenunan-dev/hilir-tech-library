@@ -2,14 +2,17 @@
 
     pip install -r requirements-postgres.txt
     export DATABASE_URL='postgresql://user:password@host/dbname?sslmode=require'   # never commit this
+    psql "$DATABASE_URL" -f db/schema.sql            # once; idempotent (IF NOT EXISTS / OR REPLACE throughout)
     python tools/load_postgres.py                    # open-licence text only, embeddings from build/library.db if present
     python tools/load_postgres.py --embeddings fastembed    # compute embeddings here (needs fastembed)
     python tools/load_postgres.py --include-restricted      # only for a database nobody else can read
     python tools/load_postgres.py --dump-graph build/graph  # write nodes.jsonl and edges.jsonl, no database needed
-    python tools/load_postgres.py --grant-readonly          # create the read-only role and print its DSNs (never commit those)
+    psql "$DATABASE_URL" -f db/readonly.sql          # once; idempotent (creates og_mcp_read, grants, DO-block CONNECT grant)
+    python tools/load_postgres.py --grant-readonly   # bind the role's password and print its DSNs (terminal only: never commit those)
 
 The load replaces the contents of every table in schema `og` inside one transaction, so a failed load
-leaves the previous data. See docs/POSTGRES.md.
+leaves the previous data. The schema itself is applied once with psql (db/schema.sql), not by the
+loader. See docs/POSTGRES.md.
 """
 import argparse
 import json
@@ -27,11 +30,6 @@ import pg  # noqa: E402
 import technologies  # noqa: E402
 import vendors  # noqa: E402
 
-SCHEMA = ROOT / "db" / "schema.sql"
-READONLY_SQL = ROOT / "db" / "readonly.sql"
-TABLES = ["edge", "node", "register_entry", "technology_gap", "technology_supplier", "technology_figure",
-          "technology_source", "technology_alias", "technology", "vendor", "equipment", "chunk", "document",
-          "source_tag", "source"]
 DIM = 384
 
 
@@ -114,17 +112,15 @@ def card_search_text(card):
 def load(conn, data, nodes, edges, vectors):
     """Replace all rows. `conn` is an open psycopg connection; the caller commits."""
     cur = conn.cursor()
-    # one statement at a time: the load runs inside a pipeline (see main), which rejects
-    # multi-command strings; _statements keeps the $$ function bodies whole
-    for stmt in _statements(SCHEMA.read_text(encoding="utf-8")):
-        cur.execute(stmt)
+    # The og schema is applied once by the maintainer (psql -f db/schema.sql —
+    # idempotent); the load only truncates and refills it.
     cur.execute("SET search_path = og, public")
-    cur.execute("TRUNCATE " + ", ".join(TABLES) + " RESTART IDENTITY CASCADE")
+    # TRUNCATE list kept in sync with the og schema (db/schema.sql); written as a
+    # literal so no statement is ever assembled at runtime.
+    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, chunk, document, source_tag, source RESTART IDENTITY CASCADE")
     for r in data["records"]:
         vec = vectors.get(("source", r["id"]))
-        cur.execute("""INSERT INTO source (id, name, url, source_type, publisher_org, country, access, licence, reuse_level,
-                       permitted_use, automated_access, quality_tier, verification, last_verified, update_frequency, notes, record, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+        cur.execute("INSERT INTO source (id, name, url, source_type, publisher_org, country, access, licence, reuse_level, permitted_use, automated_access, quality_tier, verification, last_verified, update_frequency, notes, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (r["id"], r["name"], r["url"], r["source_type"], r["publisher_org"], r.get("country"), r["access"], r["licence"],
                      r["reuse_level"], r.get("permitted_use"), r.get("automated_access"), r.get("quality_tier"), r["verification"],
                      r.get("last_verified"), r.get("update_frequency"), r.get("notes"), json.dumps(r),
@@ -133,8 +129,7 @@ def load(conn, data, nodes, edges, vectors):
             for code in r.get(key, []):
                 cur.execute("INSERT INTO source_tag VALUES (%s,%s,%s)", (r["id"], kind, code))
     for d in data["docs"]:
-        cur.execute("""INSERT INTO document (id, source_id, title, url, licence, reuse_level, retrieved_at, sha256, sectors,
-                       text_included, summary, body, meta) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+        cur.execute("INSERT INTO document (id, source_id, title, url, licence, reuse_level, retrieved_at, sha256, sectors, text_included, summary, body, meta) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
                     (d["id"], d["source_id"], d["title"], d["url"], d["licence"], d["reuse_level"], d["retrieved_at"], d["sha256"],
                      d["sectors"], d["text_included"], d["summary"], d["body"], json.dumps(d["meta"])))
     cur.executemany("INSERT INTO chunk (id, document_id, ord, title, body, embedding) VALUES (%s,%s,%s,%s,%s,%s::vector)",
@@ -144,8 +139,7 @@ def load(conn, data, nodes, edges, vectors):
     for card in data["cards"]:
         trl = card.get("trl") or {}
         v = vectors.get(("technology", card["id"]))
-        cur.execute("""INSERT INTO technology (id, name, sector, category, maturity, principle, trl_low, trl_high, last_reviewed, card, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+        cur.execute("INSERT INTO technology (id, name, sector, category, maturity, principle, trl_low, trl_high, last_reviewed, card, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (card["id"], card["name"], card["sector"], card["category"], card["maturity"], card["principle"], trl.get("low"),
                      trl.get("high"), card["last_reviewed"], json.dumps(card), vec_text(v) if v is not None else None))
         for alias in set(card.get("aliases", [])):
@@ -155,28 +149,23 @@ def load(conn, data, nodes, edges, vectors):
                         (card["id"], s["url"], s.get("source_id") if s.get("source_id") in source_ids else None, s.get("note")))
         for kind, key in (("performance", "performance"), ("cost", "costs")):
             for f in card.get(key, []):
-                cur.execute("""INSERT INTO technology_figure (technology_id, kind, metric, low, high, unit, year, basis, source_url)
-                               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                cur.execute("INSERT INTO technology_figure (technology_id, kind, metric, low, high, unit, year, basis, source_url) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)",
                             (card["id"], kind, f["metric"], f.get("low"), f.get("high"), f["unit"], f.get("year"), f["basis"], f["source"]["url"]))
         for s in card["suppliers"]:
             cur.execute("INSERT INTO technology_supplier VALUES (%s,%s,%s,%s) ON CONFLICT DO NOTHING",
                         (card["id"], s["name"], s.get("product"), s.get("source_id") if s.get("source_id") in source_ids else None))
         for g in card.get("gaps", []):
-            cur.execute("""INSERT INTO technology_gap (technology_id, field, item, reason_code, reason, action, blocked_by, "where")
-                           VALUES (%s,%s,%s,%s,%s,%s,%s,%s)""",
+            cur.execute("INSERT INTO technology_gap (technology_id, field, item, reason_code, reason, action, blocked_by, \"where\") VALUES (%s,%s,%s,%s,%s,%s,%s,%s)",
                         (card["id"], g["field"], g["item"], g["reason_code"], g["reason"], g["action"], g.get("blocked_by"),
                          json.dumps(g.get("where", []))))
     for v in data["vendors"]:
         vec = vectors.get(("vendor", v["id"]))
-        cur.execute("""INSERT INTO vendor (id, name, aliases, country, roles, description, products, url, technologies, record, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+        cur.execute("INSERT INTO vendor (id, name, aliases, country, roles, description, products, url, technologies, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (v["id"], v["name"], v.get("aliases", []), v.get("country"), v.get("roles", []), v["description"], v.get("products", []),
                      v.get("url"), v.get("technologies", []), json.dumps(v), vec_text(vec) if vec is not None else None))
     for e in data["equipment"]:
         vec = vectors.get(("equipment", e["id"]))
-        cur.execute("""INSERT INTO equipment (id, name, equipment_type, sector, sector_codes, description,
-                       specifications, vendor_models, vendors, technologies, gaps, sources, record, embedding)
-                       VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)""",
+        cur.execute("INSERT INTO equipment (id, name, equipment_type, sector, sector_codes, description, specifications, vendor_models, vendors, technologies, gaps, sources, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
                     (e["id"], e["name"], e["equipment_type"], e.get("sector"), e.get("sector_codes", []),
                      e["description"], json.dumps(e.get("specifications", [])), json.dumps(e.get("vendor_models", [])),
                      e.get("vendors", []), e.get("technologies", []), json.dumps(e.get("gaps", [])),
@@ -201,33 +190,9 @@ def load(conn, data, nodes, edges, vectors):
             "nodes": len(nodes), "edges": len(edges), "vectors": len(vectors)}
 
 
-def _statements(sql_text):
-    """Split on ';', keeping $$-quoted bodies whole (the role DO block holds semicolons) and dropping -- lines."""
-    text = "\n".join(line for line in sql_text.splitlines() if not line.lstrip().startswith("--"))
-    out, buf, i = [], [], 0
-    while i < len(text):
-        if text.startswith("$$", i):
-            end = text.find("$$", i + 2)
-            end = len(text) if end < 0 else end + 2
-            buf.append(text[i:end])
-            i = end
-        elif text[i] == ";":
-            statement = "".join(buf).strip()
-            if statement:
-                out.append(statement)
-            buf = []
-            i += 1
-        else:
-            buf.append(text[i])
-            i += 1
-    tail = "".join(buf).strip()
-    if tail:
-        out.append(tail)
-    return out
-
-
 def grant_readonly(dsn):
-    """Create the read-only role from db/readonly.sql and print the DSNs to use with it (terminal only)."""
+    """Bind the read-only role's password (the role itself comes from db/readonly.sql, applied with
+    psql -f) and print the DSNs to use with it (terminal only)."""
     password = os.environ.get("OG_READONLY_PASSWORD") or ""
     if len(password) < 16:
         print("Set OG_READONLY_PASSWORD to a password of at least 16 characters.", file=sys.stderr)
@@ -236,16 +201,13 @@ def grant_readonly(dsn):
         print("Set DATABASE_URL or pass --dsn.", file=sys.stderr)
         return 2
     import psycopg
-    from psycopg import sql
 
     with psycopg.connect(dsn) as conn:
         cur = psycopg.ClientCursor(conn)
         # ClientCursor, not the server-side default: ALTER ROLE ... PASSWORD rejects server-side bind
-        # parameters, and this way the password still goes through psycopg's quoting, never string formatting.
-        for statement in _statements(READONLY_SQL.read_text(encoding="utf-8")):
-            cur.execute(statement)
-        dbname = cur.execute("SELECT current_database()").fetchone()[0]
-        cur.execute(sql.SQL("GRANT CONNECT ON DATABASE {} TO og_mcp_read").format(sql.Identifier(dbname)))
+        # parameters, and this way the password still goes through psycopg's quoting, never string
+        # formatting. db/readonly.sql (role, grants, CONNECT) is applied once with psql -f; this
+        # command binds only the password.
         cur.execute("ALTER ROLE og_mcp_read LOGIN PASSWORD %s", (password,))
     pooled = pg.readonly_dsn(dsn, password=password)
     print(json.dumps({"role": "og_mcp_read",
@@ -262,7 +224,7 @@ def main(argv=None):
                     help="also load text of full-text-restricted documents (only for a database no one else can read)")
     ap.add_argument("--dump-graph", metavar="DIR", help="write nodes.jsonl and edges.jsonl and exit")
     ap.add_argument("--grant-readonly", action="store_true",
-                    help="create the og_mcp_read role and print its DSNs (terminal only: never commit the DSN or password)")
+                    help="bind the og_mcp_read password and print its DSNs (terminal only: never commit the DSN or password)")
     args = ap.parse_args(argv)
 
     if args.grant_readonly:

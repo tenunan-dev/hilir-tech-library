@@ -42,14 +42,23 @@ cd ".../hilir-tech-library/deploy/backend"  && npx wrangler deploy
 ```
 
 Containers (CI builds on `workflow_dispatch`/`v*` tags → ghcr; the VPS pulls — techlib images
-are public, no token needed):
+are public, no token needed). **VPS operations follow the owner's agent playbook**
+(`~/Documents/VibeProject/VPS Control/operations/AGENT-PLAYBOOK.md`): agents connect with
+`ssh -i ~/.ssh/agent_dsh agent@15.235.248.33`, and the only sudo verb on the box is `vps *` —
+`sudo vps deploy techlib` syntax-checks compose, records a rollback point, pulls, runs
+`up -d --wait` behind a 120 s health gate and auto-rolls back on failure:
 
 ```bash
 gh workflow run images --repo tenunan-dev/hilir-tech-library --ref <branch>
-ssh -i ~/.ssh/mygis_deploy ubuntu@15.235.248.33 "cd /srv/hilir/techlib && docker compose pull && docker compose up -d"
+ssh -i ~/.ssh/agent_dsh agent@15.235.248.33 "sudo vps deploy techlib"
+ssh -i ~/.ssh/agent_dsh agent@15.235.248.33 "sudo vps status && sudo vps health"
 ```
 
-**EXPECT** `images` success, `api Pulled`, both containers Started/Up.
+**EXPECT** `images` success, both containers Up, and the health gate line
+`mygis 303, techlib-origin 403, tlea-origin 403` — then report the pulled digest (from
+`/var/log/vps-deploy.log`), the gate line and the rollback command (playbook §4). The
+pre-playbook path (raw `docker compose pull` over the `mygis_deploy` key) is superseded: agents
+are not in the docker group and sudo is allowlisted to `vps *`.
 
 Data changes need none of this: `tools/build.py` → `agent/library.py build` →
 `agent/embed.py --incremental` → `tools/load_postgres.py` publishes to both containers over Neon in

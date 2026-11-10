@@ -8,6 +8,7 @@
 //   The sign-in page asks for the same API key, so only the owner can grant access.
 import { Container, getContainer } from "@cloudflare/containers";
 import OAuthProvider, { type ConsentDescription, type OAuthHelpers } from "@cloudflare/workers-oauth-provider";
+import { upstreamFetch } from "./proxy";
 
 const ORIGIN = "https://techlib.hilir.app";
 
@@ -77,7 +78,7 @@ function toContainer(request: Request, env: Env): Promise<Response> {
     headers.delete("x-api-key");
     headers.set("x-api-key", env.LIBRARY_API_KEY);
   }
-  return getContainer(env.LIBRARY, "main").fetch(new Request(request, { headers }));
+  return upstreamFetch(env, request, headers);
 }
 
 const escape = (value: string) => value.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
@@ -184,11 +185,11 @@ export default {
     }
     if (url.pathname === "/api/openapi.json") {
       // The schema holds no data; tools such as ChatGPT Actions import it before they have a key.
-      return getContainer(env.LIBRARY, "main").fetch(new Request(request, { headers: storeDsnHeaders(request, env) }));
+      return upstreamFetch(env, request, storeDsnHeaders(request, env));
     }
     // the web UI authenticates with a session cookie derived from the library key, so the edge
     // must NOT require or inject the API key on these paths
-    if (isUi(url.pathname)) return getContainer(env.LIBRARY, "main").fetch(new Request(request, { headers: storeDsnHeaders(request, env) }));
+    if (isUi(url.pathname)) return upstreamFetch(env, request, storeDsnHeaders(request, env));
     const apiKey = request.headers.get("x-api-key");
     const bearer = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
     if (apiKey !== null || url.pathname.startsWith("/api/")) {

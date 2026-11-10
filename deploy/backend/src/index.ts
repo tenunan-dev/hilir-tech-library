@@ -22,6 +22,7 @@ import {
   looksLikeAgentKey,
   verifyAgentKey,
 } from "@tenunan-dev/hilir-auth";
+import { upstreamFetch } from "./proxy";
 
 const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P0.3)
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
@@ -164,18 +165,16 @@ function containerHeaders(request: Request, env: Env): Headers {
 }
 
 async function toContainer(request: Request, env: Env): Promise<Response> {
-  const headers = containerHeaders(request, env);
-  const url = new URL(request.url);
-  const body = ["GET", "HEAD"].includes(request.method) ? undefined : await request.arrayBuffer();
   // Phase 3 (VPS-COMPUTE.md §5.3): the container runs on the VPS now — the
   // same path-only contract over the tunnel origin instead of the binding.
   // Caddy refuses requests without the token and routes marked requests to
   // the API container; the response body streams through untouched (MCP).
+  const headers = containerHeaders(request, env);
   headers.set("x-origin-token", env.ORIGIN_TOKEN);
   headers.set("x-origin-route", "api");
-  const upstream = new Request(`${env.LIBRARY_ORIGIN}${url.pathname}${url.search}`,
-                               { method: request.method, headers, body, redirect: "manual" });
-  return fetch(upstream);
+  // The outbound hop itself lives in ./proxy.ts — destination pinned to the
+  // literal tunnel origin (SSRF gate), validated in its own module.
+  return upstreamFetch(request, env.LIBRARY_ORIGIN, headers);
 }
 
 export default {
