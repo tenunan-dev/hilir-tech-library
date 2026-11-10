@@ -2,7 +2,7 @@
 
 A curated catalog of public sources on oil, gas, petrochemical and energy technologies, built so AI agents can find, cite and read them.
 
-It holds **407 catalog sources** across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **289 collected documents**; **334 technology cards** covering the 341-entry technology register; a **vendor directory of 461 records**; and an **equipment catalog of 8 equipment classes** (five boiler classes plus centrifugal compressor, centrifugal pump and industrial gas turbine). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
+It holds **408 catalog sources** across 8 sectors and 6 engineering disciplines, weighted toward Asia Pacific and Southeast Asia; a licence-tagged corpus of **289 collected documents**; **334 technology cards** covering the 341-entry technology register; a **vendor directory of 461 records**; and an **equipment catalog of 8 equipment classes** (five boiler classes plus centrifugal compressor, centrifugal pump and industrial gas turbine). A search index, a Postgres layer, an MCP server, a REST API and a web interface expose all of it to agents and people.
 
 ## Documentation
 

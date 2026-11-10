@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.11.3] — 2026-11-11 — Continuous pass: project-evidence gaps closed, triage batch 2
+
+### Added
+
+- Reference-plant entries with verified facts: Rongke Power Dalian 100 MW/400 MWh vanadium flow battery (grid-connected 29 Sep 2022, world's largest at the time), Fervo Energy Cape Station (500 MW under construction, GeoBlock 1 COD 30 Sep 2026, ~900 MW contracted), Energy Vault EVx Rudong 25 MW/100 MWh (operating under SGCC).
+- Source record: Construction Industry Institute (CII, UT Austin) as an unverified association draft — catalog now 408 records.
+
+### Closed
+
+- Discovery triage batch 2: 14 more citation-mining candidates decided (mostly dedupes against existing records and unnameable phrases); 26 of 169 triaged overall.
+
 ## [2026.11.11.2] — 2026-11-11 — Tier-2 browser pass published: blocked vendors, IRENA terms, first cost fills
 
 ### Added
