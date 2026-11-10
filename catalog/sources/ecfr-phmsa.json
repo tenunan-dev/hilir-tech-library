@@ -1,0 +1,28 @@
+{
+  "id": "ecfr-phmsa",
+  "name": "eCFR — Title 49 (PHMSA pipeline safety)",
+  "url": "https://www.ecfr.gov",
+  "source_type": "standards-body",
+  "sectors": [
+    "MID",
+    "GAS",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "US Office of the Federal Register",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "daily",
+  "notes": "Electronic Code of Federal Regulations, Title 49 Parts 190-199 (PHMSA pipeline safety rules) — a primary regulatory source cited on midstream pipeline cards. Registered unverified from the citation-mining queue; citation URLs carry query parameters that resolve at collection. Evidence: https://www.ecfr.gov (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "csi-sssguide",
+  "name": "CSI Spring Support and Strut Selection Guide",
+  "url": "https://www.csidesigns.com/PDFs/SSSguide.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV"
+  ],
+  "publisher_org": "Carpenter & Paterson (CSI Designs)",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "annual",
+  "notes": "Vendor spring-support and strut selection guide PDF, a primary engineering source for pipe-support sizing on the pipe-racks/supports card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: http://www.csidesigns.com/PDFs/SSSguide.pdf (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

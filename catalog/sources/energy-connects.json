@@ -1,0 +1,30 @@
+{
+  "id": "energy-connects",
+  "name": "Energy Connects",
+  "url": "https://www.energyconnects.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "GAS",
+    "UPS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Turret Media / Energy Connects",
+  "country": "AE",
+  "regions": [
+    "me",
+    "sea",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Oil and gas industry news site (Turret Media), cited for project milestones such as Singapore's first ammonia bunkering trial on the gas-lng-bunkering card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.energyconnects.com (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-205 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+212 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -63,6 +63,7 @@
 | [Asian Oil & Gas (AOG) magazine](https://www.aogdigital.com/) | trade-media | sea, apac | open | summary-only (unverified) |
 | [Brunei Department of Energy](https://www.energy.gov.bn/) | agency-data | sea | open | summary-only (unverified) |
 | [Energy Asia (Kuala Lumpur)](https://www.energyasia.com.my/) | conference | sea | open | summary-only (unverified) |
+| [Energy Connects](https://www.energyconnects.com) | trade-media | me, sea, global | open | catalog-only (unverified) |
 | [Hanwha Ocean](https://www.hanwhaocean.com/en/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [HD Hyundai Heavy Industries](https://www.hhi.co.kr/en) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [INPEX](https://www.inpex.com.au/) | licensor | apac | open | summary-only (unverified) |
@@ -85,9 +86,12 @@
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
+| [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
+| [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
+| [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
@@ -99,6 +103,7 @@
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Petroleum Exploration and Production Technology (Springer, OA)](https://link.springer.com/journal/13202) | journal | global | open | full-text-open |
 | [Khalifa University research](https://www.ku.ac.ae/research) | research-institute | me | open | full-text-restricted |
+| [LBNL Electricity Markets & Policy — wind PPA prices](https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices) | research-institute | global | open | full-text-open (unverified) |
 | [Materials (MDPI)](https://www.mdpi.com/journal/materials) | journal | global | open | full-text-open |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
@@ -131,6 +136,7 @@
 | [Construction Industry Institute (CII)](https://www.construction-institute.org) | association | global | mixed | catalog-only (unverified) |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
+| [CSI Spring Support and Strut Selection Guide](https://www.csidesigns.com/PDFs/SSSguide.pdf) | oem-supplier | global | open | catalog-only (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [EAGE (European Association of Geoscientists & Engineers)](https://eage.org) | association | global | mixed | full-text-restricted |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
@@ -194,6 +200,7 @@
 | [Weatherford](https://www.weatherford.com/) | oem-supplier | global | open | full-text-restricted |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
+| [World Bank DataBank](https://databank.worldbank.org) | agency-data | global | open | full-text-open (unverified) |
 | [World Bank Global Flaring & Methane Reduction (GFMR) Partnership](https://www.worldbank.org/en/programs/gasflaringreduction) | agency-data | global | open | full-text-open |
 | [World Oil](https://www.worldoil.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |

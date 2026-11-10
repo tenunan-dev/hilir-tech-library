@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-137 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+143 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -56,6 +56,7 @@
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASME Turbo Expo](https://event.asme.org/Turbo-Expo) | conference | global | mixed | catalog-only (unverified) |
+| [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
@@ -64,9 +65,11 @@
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [EUBCE European Biomass Conference and Exhibition](https://www.eubce.com/) | conference | global, eu | free-registration | full-text-restricted |
 | [Fraunhofer ISE](https://www.ise.fraunhofer.de/en.html) | research-institute | eu, global | open | full-text-restricted (unverified) |
+| [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [LBNL Electricity Markets & Policy — wind PPA prices](https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices) | research-institute | global | open | full-text-open (unverified) |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
@@ -88,6 +91,7 @@
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
+| [CSI Spring Support and Strut Selection Guide](https://www.csidesigns.com/PDFs/SSSguide.pdf) | oem-supplier | global | open | catalog-only (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/wind-market-reports-2024-edition) | agency-data | na | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
@@ -97,6 +101,7 @@
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
 | [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
+| [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open (unverified) |
 | [Gas Turbine World (Pequot Publishing)](https://gasturbineworld.com/) | trade-media | global | paywalled | summary-only |
 | [GE Vernova](https://www.gevernova.com/) | oem-supplier | global | open | full-text-restricted |
 | [GE Vernova 7HA gas turbine product page](https://www.gevernova.com/gas-power/products/gas-turbines/7ha) | oem-supplier | global | open | full-text-open (unverified) |
@@ -130,6 +135,7 @@
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
+| [World Bank DataBank](https://databank.worldbank.org) | agency-data | global | open | full-text-open (unverified) |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |

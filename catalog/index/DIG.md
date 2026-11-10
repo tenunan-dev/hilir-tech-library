@@ -1,6 +1,6 @@
 # DIG: Digital
 
-138 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+145 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -45,6 +45,7 @@
 | [Asian Oil & Gas (AOG) magazine](https://www.aogdigital.com/) | trade-media | sea, apac | open | summary-only (unverified) |
 | [Brunei Department of Energy](https://www.energy.gov.bn/) | agency-data | sea | open | summary-only (unverified) |
 | [Energy Asia (Kuala Lumpur)](https://www.energyasia.com.my/) | conference | sea | open | summary-only (unverified) |
+| [Energy Connects](https://www.energyconnects.com) | trade-media | me, sea, global | open | catalog-only (unverified) |
 | [Malaysian Oil & Gas Services Council](https://mogsc.org.my/) | association | sea | open | summary-only (unverified) |
 | [MIDA Malaysian Investment Development Authority energy sector](https://www.mida.gov.my/) | agency-data | sea | open | summary-only (unverified) |
 | [Myanmar Ministry of Energy](https://www.moee.gov.mm/) | agency-data | sea | open | summary-only (unverified) |
@@ -52,12 +53,15 @@
 | [Petrovietnam](https://www.pvn.vn/) | agency-data | sea | open | summary-only (unverified) |
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
+| [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
+| [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Petroleum Exploration and Production Technology (Springer, OA)](https://link.springer.com/journal/13202) | journal | global | open | full-text-open |
+| [LBNL Electricity Markets & Policy — wind PPA prices](https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices) | research-institute | global | open | full-text-open (unverified) |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
@@ -88,9 +92,11 @@
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Energistics standards (WITSML, PRODML, RESQML)](https://energistics.org/) | standards-body | global | open | full-text-restricted |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
+| [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted (unverified) |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
+| [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open (unverified) |
 | [Gas Exporting Countries Forum](https://www.gecf.org/) | association | me, global | open | full-text-restricted |
 | [GE Vernova](https://www.gevernova.com/) | oem-supplier | global | open | full-text-restricted |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
@@ -131,6 +137,7 @@
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [Weatherford](https://www.weatherford.com/) | oem-supplier | global | open | full-text-restricted |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
+| [World Bank DataBank](https://databank.worldbank.org) | agency-data | global | open | full-text-open (unverified) |
 | [World Oil](https://www.worldoil.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |

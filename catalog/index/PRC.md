@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-226 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+235 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -61,6 +61,7 @@
 | [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only (unverified) |
 | [Toyo Engineering](https://www.toyo-eng.com/jp/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
+| [Energy Connects](https://www.energyconnects.com) | trade-media | me, sea, global | open | catalog-only (unverified) |
 | [INPEX](https://www.inpex.com.au/) | licensor | apac | open | summary-only (unverified) |
 | [JERA](https://www.jera.co.jp/en) | licensor | apac | open | summary-only (unverified) |
 | [Keppel Infrastructure and Energy](https://www.keppel.com/) | epc-contractor | sea | open | summary-only (unverified) |
@@ -79,11 +80,14 @@
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
+| [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
+| [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [EUBCE European Biomass Conference and Exhibition](https://www.eubce.com/) | conference | global, eu | free-registration | full-text-restricted |
+| [European Commission CCS Directive implementation guidance](https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf) | agency-data | eu | open | full-text-open (unverified) |
 | [Fraunhofer ISE](https://www.ise.fraunhofer.de/en.html) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |
@@ -127,6 +131,7 @@
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
+| [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [Canadian Energy Research Institute (CERI) studies](https://canadacommons.ca/orgs/canadian-energy-research-institute) | research-institute | na | mixed | full-text-restricted |
 | [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
@@ -148,6 +153,7 @@
 | [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/wind-market-reports-2024-edition) | agency-data | na | open | full-text-open |
 | [DOE: Hydrogen Production - Electrolysis (program page)](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis) | oem-supplier | global | open | full-text-open (unverified) |
 | [EAGE (European Association of Geoscientists & Engineers)](https://eage.org) | association | global | mixed | full-text-restricted |
+| [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted (unverified) |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
@@ -155,6 +161,8 @@
 | [European Hydrogen Backbone](https://ehb.eu) | association | eu | open | full-text-restricted |
 | [ExxonMobil Catalysts and Licensing](https://www.exxonmobilchemical.com/en/catalysts-and-licensing) | licensor | global | open | full-text-restricted (unverified) |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted (unverified) |
+| [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open (unverified) |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
 | [Global CCS Institute CO2RE facilities database](https://www.globalccsinstitute.com/co2re/) | association | global | mixed | summary-only (unverified) |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
@@ -192,6 +200,7 @@
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Plastics Recyclers Europe](https://www.plasticsrecyclers.eu) | association | eu | mixed | summary-only |
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [Renewable Fuels Association](https://ethanolrfa.org) | association | global | open | catalog-only (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | licensor | global | open | full-text-restricted (unverified) |

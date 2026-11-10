@@ -1,0 +1,28 @@
+{
+  "id": "frontiers-climate",
+  "name": "Frontiers in Climate",
+  "url": "https://www.frontiersin.org/journals/climate",
+  "source_type": "journal",
+  "sectors": [
+    "CCS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Frontiers Media",
+  "country": "CH",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Open-access Frontiers journal covering carbon removal, negative emissions and climate mitigation technologies (CC-BY licensed), cited on CDR-related cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: frontiersin.org article 10.3389/fclim.2019.00005 (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

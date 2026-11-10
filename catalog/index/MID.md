@@ -1,6 +1,6 @@
 # MID: Midstream
 
-80 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+81 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -25,6 +25,7 @@
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
+| [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open (unverified) |
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
 | [GPA Midstream Association](https://gpamidstream.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |

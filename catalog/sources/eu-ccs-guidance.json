@@ -1,0 +1,27 @@
+{
+  "id": "eu-ccs-guidance",
+  "name": "European Commission CCS Directive implementation guidance",
+  "url": "https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "CCS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "European Commission DG CLIMA",
+  "country": "EU",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "EU reuse decision 2011/833",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "EC guidance documents for implementing the CCS Directive (storage permitting, monitoring); open EU documents under the 2011 reuse decision. Registered unverified from the citation-mining queue; terms verification pending. Evidence: gd2_en.pdf URL from citation mining (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

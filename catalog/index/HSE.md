@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-90 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+94 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -36,9 +36,11 @@
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [CCPS Process Safety Beacon](https://www.aiche.org/ccps/process-safety-beacon) | association | global | open | full-text-restricted |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
+| [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open (unverified) |
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
+| [European Commission CCS Directive implementation guidance](https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf) | agency-data | eu | open | full-text-open (unverified) |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
@@ -62,6 +64,7 @@
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
 | [Alberta Energy Regulator (AER)](https://www.aer.ca) | agency-data | na | open | full-text-open |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
+| [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
 | [Cefic European Chemical Industry Council](https://cefic.org/) | association | eu | open | full-text-restricted |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
@@ -71,6 +74,7 @@
 | [EPA AP-42 emission factors](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors) | agency-data | na, global | open | full-text-open |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
+| [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted (unverified) |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
 | [IADC (International Association of Drilling Contractors)](https://www.iadc.org) | association | global | mixed | full-text-restricted |
 | [IEA Global Methane Tracker](https://www.iea.org/reports/global-methane-tracker-2025) | agency-data | global | open | full-text-open |

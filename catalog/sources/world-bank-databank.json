@@ -1,0 +1,27 @@
+{
+  "id": "world-bank-databank",
+  "name": "World Bank DataBank",
+  "url": "https://databank.worldbank.org",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "World Bank",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "quarterly",
+  "notes": "World Bank macro and energy indicator database (data licensed CC-BY-4.0 by default) used for country-level electricity and emissions context. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://databank.worldbank.org (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

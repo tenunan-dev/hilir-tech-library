@@ -1,0 +1,26 @@
+{
+  "id": "ethanol-rfa",
+  "name": "Renewable Fuels Association",
+  "url": "https://ethanolrfa.org",
+  "source_type": "association",
+  "sectors": [
+    "REF",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Renewable Fuels Association",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "US ethanol industry association: biorefinery counts, capacity statistics and market data cited on ethanol-to-jet and biofuel cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://ethanolrfa.org (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

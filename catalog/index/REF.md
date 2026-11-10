@@ -1,6 +1,6 @@
 # REF: Refining
 
-174 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
+178 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -66,6 +66,7 @@
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
+| [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
@@ -93,6 +94,7 @@
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
+| [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
@@ -107,6 +109,7 @@
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
+| [CSI Spring Support and Strut Selection Guide](https://www.csidesigns.com/PDFs/SSSguide.pdf) | oem-supplier | global | open | catalog-only (unverified) |
 | [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
 | [DigitalRefining](https://www.digitalrefining.co.uk/) | trade-media | global | mixed | catalog-only (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
@@ -155,6 +158,7 @@
 | [OPEC Annual Statistical Bulletin](https://asb.opec.org/) | agency-data | global, me | open | full-text-restricted |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [Renewable Fuels Association](https://ethanolrfa.org) | association | global | open | catalog-only (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |

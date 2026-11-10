@@ -1,52 +1,52 @@
 # Catalog summary
 
-411 sources in total.
+424 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 226 |
-| GAS | 207 |
-| UPS | 205 |
-| H2 | 196 |
-| REF | 174 |
-| PCH | 143 |
-| DIG | 138 |
-| PWR | 137 |
-| CCS | 134 |
-| HSE | 90 |
-| MID | 80 |
+| PRC | 235 |
+| GAS | 213 |
+| UPS | 212 |
+| H2 | 202 |
+| REF | 178 |
+| DIG | 145 |
+| PCH | 144 |
+| PWR | 143 |
+| CCS | 138 |
+| HSE | 94 |
+| MID | 81 |
 | MAT | 78 |
 | ROT | 69 |
 | INS | 29 |
 | ELE | 4 |
-| CIV | 2 |
+| CIV | 3 |
 
 ## By region
 
 | Value | Sources |
 | --- | --- |
-| global | 268 |
+| global | 280 |
 | apac | 81 |
-| sea | 61 |
-| eu | 32 |
+| sea | 62 |
+| eu | 34 |
 | na | 32 |
-| me | 14 |
+| me | 15 |
 | af | 1 |
 
 ## By source type
 
 | Value | Sources |
 | --- | --- |
-| agency-data | 78 |
-| research-institute | 54 |
-| oem-supplier | 52 |
-| association | 44 |
-| journal | 40 |
-| licensor | 36 |
-| standards-body | 31 |
-| trade-media | 27 |
+| agency-data | 84 |
+| research-institute | 55 |
+| oem-supplier | 53 |
+| association | 45 |
+| journal | 41 |
+| licensor | 37 |
+| standards-body | 32 |
+| trade-media | 28 |
 | conference | 20 |
 | epc-contractor | 17 |
 | patents | 12 |
@@ -55,14 +55,14 @@
 
 | Value | Sources |
 | --- | --- |
-| full-text-restricted | 138 |
+| full-text-restricted | 141 |
 | summary-only | 114 |
-| full-text-open | 84 |
-| catalog-only | 75 |
+| full-text-open | 91 |
+| catalog-only | 78 |
 
 ## By verification
 
 | Value | Sources |
 | --- | --- |
 | verified | 226 |
-| unverified | 185 |
+| unverified | 198 |

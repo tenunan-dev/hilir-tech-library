@@ -1,0 +1,28 @@
+{
+  "id": "eni",
+  "name": "Eni corporate actions pages",
+  "url": "https://www.eni.com",
+  "source_type": "agency-data",
+  "sectors": [
+    "GAS",
+    "CCS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Eni S.p.A.",
+  "country": "IT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Eni's global carbon-neutrality and decarbonisation action pages cited on CCS and biofuel cards (e.g. Gela biorefinery conversion, Ravenna CCS). Vendor-site facts free to read; commercial figures remain site-restricted. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.eni.com/en-IT/actions/global- (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

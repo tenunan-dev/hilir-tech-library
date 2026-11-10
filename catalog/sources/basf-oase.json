@@ -1,0 +1,28 @@
+{
+  "id": "basf-oase",
+  "name": "BASF OASE gas treatment",
+  "url": "https://energy-resources.basf.com/global/en/gas-treatment",
+  "source_type": "licensor",
+  "sectors": [
+    "GAS",
+    "REF",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "BASF",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "BASF's OASE gas-treatment pages: solvent technologies for acid-gas removal and CO2 capture, cited on gas-sweetening and capture cards. Vendor-site facts free to read; process data remains site-restricted. Registered unverified from the citation-mining queue; terms verification pending. Evidence: energy-resources.basf.com OASE solution page (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

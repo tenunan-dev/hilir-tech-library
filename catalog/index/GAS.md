@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-207 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+213 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -67,6 +67,7 @@
 | [Asian Oil & Gas (AOG) magazine](https://www.aogdigital.com/) | trade-media | sea, apac | open | summary-only (unverified) |
 | [Brunei Department of Energy](https://www.energy.gov.bn/) | agency-data | sea | open | summary-only (unverified) |
 | [Energy Asia (Kuala Lumpur)](https://www.energyasia.com.my/) | conference | sea | open | summary-only (unverified) |
+| [Energy Connects](https://www.energyconnects.com) | trade-media | me, sea, global | open | catalog-only (unverified) |
 | [Hanwha Ocean](https://www.hanwhaocean.com/en/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [HD Hyundai Heavy Industries](https://www.hhi.co.kr/en) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [INPEX](https://www.inpex.com.au/) | licensor | apac | open | summary-only (unverified) |
@@ -92,7 +93,9 @@
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
+| [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open (unverified) |
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
+| [European Commission CCS Directive implementation guidance](https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf) | agency-data | eu | open | full-text-open (unverified) |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |
 | [GPA Midstream Association](https://gpamidstream.org/) | association | na, global | mixed | catalog-only (unverified) |
 | [GPSA Engineering Data Book](https://gpsamidstreamsuppliers.org/) | association | global | paywalled | catalog-only (unverified) |
@@ -124,6 +127,7 @@
 | [Atlas Copco Gas and Process](https://www.atlascopco.com/en-us/compressors/products/process-gas-compressors) | oem-supplier | global | open | summary-only (unverified) |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
+| [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
@@ -136,12 +140,14 @@
 | [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Endress+Hauser](https://www.endress.com/) | oem-supplier | global | open | summary-only |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
+| [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [European Hydrogen Backbone](https://ehb.eu) | association | eu | open | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
+| [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted (unverified) |
 | [Gas Exporting Countries Forum](https://www.gecf.org/) | association | me, global | open | full-text-restricted |
 | [Gas Turbine World (Pequot Publishing)](https://gasturbineworld.com/) | trade-media | global | paywalled | summary-only |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |

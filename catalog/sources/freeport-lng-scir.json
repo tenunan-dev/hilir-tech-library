@@ -1,0 +1,26 @@
+{
+  "id": "freeport-lng-scir",
+  "name": "Freeport LNG Site Completion Impact Report (2020)",
+  "url": "https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF",
+  "source_type": "agency-data",
+  "sectors": [
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Freeport LNG Development",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Freeport LNG's 2020 site-completion impact report (PDF) carrying project-scale facts for one of the largest US liquefaction facilities. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,6 +1,6 @@
 # PCH: Petrochemicals
 
-143 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+144 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -88,6 +88,7 @@
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Construction Industry Institute (CII)](https://www.construction-institute.org) | association | global | mixed | catalog-only (unverified) |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
+| [CSI Spring Support and Strut Selection Guide](https://www.csidesigns.com/PDFs/SSSguide.pdf) | oem-supplier | global | open | catalog-only (unverified) |
 | [Danimer Scientific SEC filings (EDGAR)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001814097&type=10-K) | agency-data | global | open | full-text-open (unverified) |
 | [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
 | [DigitalRefining](https://www.digitalrefining.co.uk/) | trade-media | global | mixed | catalog-only (unverified) |

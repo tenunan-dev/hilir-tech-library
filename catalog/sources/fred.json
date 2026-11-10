@@ -1,0 +1,27 @@
+{
+  "id": "fred",
+  "name": "FRED (Federal Reserve Economic Data)",
+  "url": "https://fred.stlouisfed.org",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PWR"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Federal Reserve Bank of St. Louis",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "daily",
+  "notes": "St. Louis Fed macro-economic series (GDP deflators, PPI series) used to establish dollar-year escalation bases for cost figures. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://fred.stlouisfed.org/series/GDPC1/ (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-134 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+138 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -55,6 +55,7 @@
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [EUBCE European Biomass Conference and Exhibition](https://www.eubce.com/) | conference | global, eu | free-registration | full-text-restricted |
+| [European Commission CCS Directive implementation guidance](https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf) | agency-data | eu | open | full-text-open (unverified) |
 | [Gases (MDPI)](https://www.mdpi.com/journal/gases) | journal | global | open | full-text-open |
 | [GHGT Greenhouse Gas Control Technologies conference](https://ghgt.info/) | conference | global | open | full-text-restricted |
 | [GTI Energy](https://www.gti.energy/) | research-institute | global | mixed | summary-only (unverified) |
@@ -85,15 +86,18 @@
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
+| [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
+| [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted (unverified) |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open (unverified) |
 | [Global CCS Institute CO2RE facilities database](https://www.globalccsinstitute.com/co2re/) | association | global | mixed | summary-only (unverified) |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |

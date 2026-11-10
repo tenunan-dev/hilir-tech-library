@@ -1,0 +1,26 @@
+{
+  "id": "lbl-emp-ppa",
+  "name": "LBNL Electricity Markets & Policy — wind PPA prices",
+  "url": "https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "UPS"
+  ],
+  "disciplines": [
+    "DIG"
+  ],
+  "publisher_org": "Lawrence Berkeley National Laboratory",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "quarterly",
+  "notes": "LBNL EMP's wind power-purchase-agreement price tracker — the primary open source for US wind PPA price trends cited on wind-power cost discussions. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}
