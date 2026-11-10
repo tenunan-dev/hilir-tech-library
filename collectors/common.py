@@ -170,7 +170,11 @@ def undouble(text):
 
 
 def to_markdown(content, content_type, url=""):
-    """Convert an HTML page or PDF to plain Markdown text."""
+    """Convert an HTML page or PDF to plain Markdown text.
+
+    Strips NUL bytes: pypdf can emit them from broken font mappings and the
+    embed/loader chain rejects documents containing them.
+    """
     if "pdf" in content_type or url.lower().endswith(".pdf"):
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(content))
@@ -180,10 +184,10 @@ def to_markdown(content, content_type, url=""):
                 pages.append((page.extract_text() or "").strip())
             except Exception:  # pypdf can fail on single pages (e.g. LimitReachedError); keep the rest
                 continue
-        return undouble("\n\n".join(pages).strip())
+        return undouble("\n\n".join(pages).strip()).replace("\x00", "")
     import trafilatura
     html = content.decode("utf-8", errors="replace") if isinstance(content, bytes) else content
-    return (trafilatura.extract(html, output_format="markdown", include_tables=True, url=url) or "").strip()
+    return (trafilatura.extract(html, output_format="markdown", include_tables=True, url=url) or "").strip().replace("\x00", "")
 
 
 def slugify(text, limit=80):

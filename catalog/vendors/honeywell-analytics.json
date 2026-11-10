@@ -1,0 +1,18 @@
+{
+  "id": "honeywell-analytics",
+  "name": "Honeywell Analytics",
+  "aliases": ["Honeywell Gas and Flame Detection"],
+  "country": "USA",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "Honeywell's gas and flame detection business, part of its industrial automation portfolio, supplying fixed and portable gas detection and flame detection for industrial safety.",
+  "technologies": ["ins-fire-gas-detection"],
+  "url": "https://www.honeywellanalytics.com",
+  "sources": [
+    {
+      "url": "https://automation.honeywell.com/us/en/products/sensing-solutions/gas-and-flame-detection",
+      "note": "Honeywell gas and flame detection product category (redirect target of honeywellanalytics.com), read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

@@ -10,6 +10,7 @@ sectors: ["UPS", "GAS", "CCS", "H2"]
 disciplines: ["PRC"]
 sha256: "3e433bd64b62148bcf93a5ee39a164e2b7dda62de2d5ebbae39376409c14cdd6"
 collected: "manual"
+summary: "Chapter 8 of the National Petroleum Council's Dual Challenge report: the role of CO2 enhanced oil recovery in CCUS deployment, covering EOR storage capacity, CO2 supply infrastructure, economics and how CO2-EOR projects can anchor early carbon-storage networks."
 ---
 
 # npc dual challenge chapter8 co2 eor 2021

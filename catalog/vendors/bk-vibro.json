@@ -1,0 +1,18 @@
+{
+  "id": "bk-vibro",
+  "name": "B&K Vibro",
+  "aliases": ["Brüel & Kjær Vibro"],
+  "country": "Germany",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "Condition monitoring specialist offering complete condition monitoring and machine protection solutions for rotating machinery.",
+  "technologies": ["ins-vibration-monitoring"],
+  "url": "https://www.bkvibro.com",
+  "sources": [
+    {
+      "url": "https://www.bkvibro.com/",
+      "note": "B&K Vibro homepage: complete condition monitoring and machine protection solutions, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

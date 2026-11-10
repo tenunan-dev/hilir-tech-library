@@ -1,0 +1,17 @@
+{
+  "id": "chromalox",
+  "name": "Chromalox",
+  "country": "USA",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "Electric heating manufacturer supplying industrial heat tracing cables, heating elements and control systems for process temperature maintenance in harsh environments.",
+  "technologies": ["ele-heat-tracing"],
+  "url": "https://www.chromalox.com",
+  "sources": [
+    {
+      "url": "https://www.chromalox.com/",
+      "note": "Vendor site, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "eurecat",
+  "name": "Eurecat",
+  "country": "France",
+  "roles": ["service"],
+  "categories": ["oilfield-service", "engineering-consultancy"],
+  "description": "French catalyst services company founded in 1978, a leader in the circular economy of catalysts: off-site regeneration and rejuvenation of hydrotreating catalysts (NiMo, CoMo, NiW), spent-catalyst recycling and ex-situ activation of fresh catalysts; acquired by Axens in 2026.",
+  "products": ["RAISE catalyst regeneration technology"],
+  "technologies": ["prc-catalyst-management"],
+  "url": "https://www.eurecat.com",
+  "sources": [
+    {
+      "url": "https://www.eurecat.com",
+      "note": "Eurecat site and search results: regeneration, rejuvenation, recycling; Axens acquisition closed February 2026, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

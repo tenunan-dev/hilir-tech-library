@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-436 vendor records covering 267 technologies. One record per vendor in
+457 vendor records covering 276 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -42,11 +42,18 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [Anvil (ASC Engineered Solutions)](https://www.asc-es.com) | USA | oem, supplier | Pipe racks, sleepers and pipe supports |
 | [BAUER Maschinen](https://www.bauer.de/) | Germany | oem, service | Foundations and piling |
+| [Carboline](https://www.carboline.com) | USA | supplier | Structural fireproofing and passive fire protection |
+| [Carpenter & Paterson](https://pipehangers.com) | USA | oem, supplier | Pipe racks, sleepers and pipe supports |
+| [Heerema](https://www.heerema.com) | Netherlands | epc, service | Heavy lift, transport and temporary works |
+| [Hempel](https://www.hempel.com) | Denmark | supplier | Structural fireproofing and passive fire protection |
 | [Keller Group](https://www.kellerfoundations.com/) | United Kingdom | service | Foundations and piling |
+| [LISEGA](https://www.lisega.de) | Germany | oem, supplier | Pipe racks, sleepers and pipe supports |
 | [Mammoet](https://www.mammoet.com/) | Netherlands | rental, service | Heavy lift, transport and temporary works |
 | [RedGuard](https://redguard.com/) | United States | supplier | Blast-resistant buildings |
 | [Sarens Group](https://www.sarens.com/) | Belgium | rental, service | Heavy lift, transport and temporary works |
+| [Seatrium](https://www.seatrium.com) | Singapore | epc, oem | Fixed platform topsides and substructures |
 | [Yinson Production](https://www.yinsonproduction.com/) | Malaysia | operator, epc | FPSO and floating production structures |
 
 ## DIG: Digital
@@ -58,22 +65,30 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [C3 AI](https://c3.ai) | USA | supplier | AI and machine learning for maintenance and optimisation |
 | [Google Cloud Platform](https://cloud.google.com) | USA | supplier | Subsurface data platforms (OSDU) |
 | [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Industrial IoT and wireless sensors |
+| [IBM](https://www.ibm.com) | USA | supplier | Computerised maintenance management and work management; Subsurface data platforms (OSDU) |
 | [IBM / Red Hat OpenShift](https://www.ibm.com) | USA | supplier | Subsurface data platforms (OSDU) |
+| [IFS](https://www.ifs.com) | Sweden | supplier | Computerised maintenance management and work management |
 | [Microsoft Azure](https://azure.microsoft.com) | USA | supplier | Subsurface data platforms (OSDU) |
 | [SparkCognition](https://www.sparkcognition.com) | USA | supplier | AI and machine learning for maintenance and optimisation |
+| [Yokogawa Electric](https://www.yokogawa.com/) | Japan | oem, integrator | Industrial IoT and wireless sensors |
 
 ## ELE: Electrical engineering
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [Aker Solutions](https://www.akersolutions.com) | Norway | epc, supplier | Subsea power and umbilical systems |
+| [Chromalox](https://www.chromalox.com) | USA | oem, supplier | Electrical heat tracing |
 | [Cummins](https://www.cummins.com/) | United States | oem | Emergency, standby and UPS power systems; On-site gas turbine power generation |
+| [DEHN](https://www.dehn-international.com) | Germany | oem, supplier | Earthing and lightning protection |
 | [Eaton](https://www.eaton.com/) | Ireland | oem, supplier | HV/MV switchgear and site power distribution; Emergency, standby and UPS power systems; Hazardous area electrical equipment |
+| [Nidec](https://www.nidec.com) | Japan | oem | Motors and variable speed drives |
 | [nVent Electric](https://www.nvent.com/) | United Kingdom | oem | Electrical heat tracing; Earthing and lightning protection |
 | [Pepperl+Fuchs](https://www.pepperl-fuchs.com/) | Germany | oem | Hazardous area electrical equipment |
 | [Prysmian Group](https://www.prysmian.com/) | Italy | oem | Power and control cable systems; Subsea power and umbilical systems |
 | [R. Stahl](https://www.rstahl.com/) | Germany | oem | Hazardous area electrical equipment |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/) | United States | oem, integrator | Power system protection and relaying; Power management and electrical SCADA |
 | [Vertiv](https://www.vertiv.com/) | United States | oem | Emergency, standby and UPS power systems |
+| [WEG](https://www.weg.net) | Brazil | oem | Power and distribution transformers; Motors and variable speed drives |
 
 ## GAS: Gas processing and LNG
 
@@ -107,6 +122,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [QatarEnergy LNG](https://www.qatarenergylng.com) | Qatar | operator, developer | LNG regasification (open rack, submerged combustion, ambient air vaporisers); Electric-drive liquefaction (e-LNG) |
 | [Samsung Engineering (Samsung E&A)](https://www.samsungengineering.co.kr) | South Korea | epc | Gas-to-methanol and methanol-to-gasoline |
 | [Sasol](https://www.sasol.com) | South Africa | operator | Gas-to-liquids (Fischer-Tropsch) |
+| [Seatrium](https://www.seatrium.com) | Singapore | epc, oem | LNG bunkering |
 | [Sumitomo Precision Products](https://www.spp.co.jp) | Japan | oem | LNG regasification (open rack, submerged combustion, ambient air vaporisers) |
 | [Titan LNG](https://titan-lng.com) | Netherlands | operator | Bio-LNG and liquefied biomethane |
 | [TotalEnergies](https://totalenergies.com) | France | operator | LNG bunkering |
@@ -193,18 +209,23 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [B&K Vibro](https://www.bkvibro.com) | Germany | oem, supplier | Machinery vibration monitoring |
 | [Bently Nevada (GE Vernova)](https://www.bently.com/en) | United States | oem, service | Machinery vibration monitoring; Turbomachinery control systems |
+| [CCC (Compressor Controls Corporation)](https://www.cccglobal.com) | USA | oem, supplier | Turbomachinery control systems |
 | [Claroty](https://claroty.com) | USA | supplier | OT cybersecurity |
 | [Endress+Hauser](https://www.endress.com/) | Switzerland | oem | Field instrumentation; Custody transfer metering |
 | [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Advanced process control and model predictive control; Distributed control systems and SCADA; OT cybersecurity; Safety instrumented systems |
+| [Honeywell Analytics](https://www.honeywellanalytics.com) | USA | oem, supplier | Fire and gas detection systems |
 | [Inductive Automation](https://inductiveautomation.com) | USA | oem | Distributed control systems and SCADA |
+| [KROHNE](https://www.krohne.com) | Germany | oem, supplier | Custody transfer metering |
 | [MathWorks](https://www.mathworks.com) | USA | supplier | Advanced process control and model predictive control |
+| [MSA Safety](https://www.msasafety.com) | USA | oem, supplier | Fire and gas detection systems |
 | [Nozomi Networks](https://www.nozominetworks.com) | USA | supplier | OT cybersecurity |
 | [Pepperl+Fuchs](https://www.pepperl-fuchs.com/) | Germany | oem | Field instrumentation |
 | [Rockwell Automation](https://www.rockwellautomation.com) | USA | oem | Distributed control systems and SCADA |
 | [Servomex](https://www.servomex.com) | United Kingdom | oem | Process analysers (gas chromatographs, laser spectroscopy) |
 | [Woodward](https://www.woodward.com/) | United States | oem | Turbomachinery control systems |
-| [Yokogawa Electric](https://www.yokogawa.com/) | Japan | oem | Field instrumentation |
+| [Yokogawa Electric](https://www.yokogawa.com/) | Japan | oem, integrator | Field instrumentation; Advanced process control and model predictive control; Distributed control systems and SCADA; Safety instrumented systems |
 
 ## MAT: Materials and integrity
 
@@ -223,6 +244,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Future Pipe Industries](https://www.futurepipe.com) | United Arab Emirates | oem | Non-metallic and composite equipment |
 | [GE Digital (Meridium)](https://www.ge.com/digital) | USA | supplier | Risk-based inspection and integrity management |
 | [Jotun Powder Coatings](https://www.jotun.com) | Norway | supplier | Coatings and linings |
+| [Nalco Water (Ecolab)](https://www.ecolab.com/nalco-water) | USA | supplier, service | Corrosion monitoring and chemical inhibition |
 | [Sherwin-Williams](https://www.sherwin-williams.com) | USA | supplier | Coatings and linings |
 | [Terra Drone Indonesia](https://terra-drone.co.id) | Indonesia | service | Drones and robotics for inspection |
 | [Waygate Technologies (Baker Hughes)](https://www.waygate.com) | USA | oem | Non-destructive testing (UT, PAUT, radiography, eddy current) |
@@ -259,6 +281,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [T.D. Williamson](https://www.tdwilliamson.com) | USA | oem, service | Pipeline inline inspection (MFL, ultrasonic, EMAT pigs) |
 | [Tenaris](https://www.tenaris.com) | Luxembourg | oem | High-strength steel pipelines and automatic welding |
 | [Uniper](https://www.uniper.energy) | Germany | operator | Underground gas storage (salt caverns, depleted fields) |
+| [Yokogawa Electric](https://www.yokogawa.com/) | Japan | oem, integrator | Flow assurance simulation |
 
 ## PCH: Petrochemicals
 
@@ -317,6 +340,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | --- | --- | --- | --- |
 | [AVEVA](https://www.aveva.com) | United Kingdom | supplier | Steady-state and dynamic process simulation |
 | [CanmetENERGY](https://www.nrcan.gc.ca) | Canada | developer | Pinch analysis and heat integration |
+| [Eurecat](https://www.eurecat.com) | France | service | Catalyst management (handling, regeneration, recycling) |
 | [Fives ProSim](https://www.prosim.net) | France | supplier | Pinch analysis and heat integration |
 | [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Steady-state and dynamic process simulation |
 | [Montz](https://www.montz.com) | Netherlands | oem | Process intensification (rotating packed beds, dividing-wall columns, microreactors) |
@@ -465,6 +489,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Wastewater treatment (API separators, DAF, biological, MBR) |
 | [Wood](https://www.woodplc.com) | UK | epc, service | Crude and vacuum distillation with heat integration |
 | [Worley](https://www.worley.com) | Australia | epc, service | Crude and vacuum distillation with heat integration |
+| [Yokogawa Electric](https://www.yokogawa.com/) | Japan | oem, integrator | Advanced process control and real-time optimisation |
 
 ## ROT: Rotating and static equipment
 
@@ -570,6 +595,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Veolia](https://www.veolia.com) | France | supplier, service | Produced water treatment (hydrocyclones, flotation, membranes); Seawater sulfate removal for injection water |
 | [Viridien](https://www.viridienglobal.com) | France | service, supplier | Full-waveform inversion and seismic imaging; 3D and 4D seismic acquisition (towed streamer, ocean-bottom nodes) |
 | [Weatherford International](https://www.weatherford.com) | USA | service, supplier | Casing drilling and expandable tubulars; Gas lift; Managed pressure drilling; Plunger lift and hydraulic jet pumps; Rod lift and progressing cavity pumps; Rotary steerable systems |
+| [WEG](https://www.weg.net) | Brazil | oem | Well plug and abandonment (cement plugs, rig-based) |
 | [Wellstrom AS](https://wellstrom.com) | Norway | oem, service | Well plug and abandonment technologies (thermite, bismuth plugs); Well plug and abandonment (cement plugs, rig-based) |
 | [Wison](https://www.wison-energies.com) | China | epc, developer | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Wood](https://www.woodplc.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
@@ -582,13 +608,11 @@ Compound entries are split on '/' and matched part by part; descriptive phrases 
 company names are listed as card notes below. Adding a record for a queue entry is the next
 batch of this directory.
 
-- **CIV** (12): Anvil; Bauer; Carboline; Carpenter & Paterson; CIDB Malaysia; Heerema; Hempel; Keller; Kiewit; LISGA; Sarens; Seatrium
-- **DIG** (3): IBM; IFS; Yokogawa
-- **ELE** (11): Aker Solutions; Chromalox; Dehn; Eaton Crouse-Hinds; Furse; LS Cable & System; Nidec; nVent; nVent ERICO; Prysmian; WEG
+- **CIV** (5): Bauer; CIDB Malaysia; Keller; Kiewit; Sarens
+- **DIG** (1): Yokogawa
+- **ELE** (6): Eaton Crouse-Hinds; Furse; LS Cable & System; nVent; nVent ERICO; Prysmian
 - **HSE** (1): Flare Ventures
-- **INS** (7): Brüel & Kjær Vibro; Compressor Controls Corporation; Dräger; Honeywell Analytics; KROHNE; MSA Safety; Yokogawa
-- **MAT** (1): Nalco Water (Ecolab)
-- **PRC** (1): Eurecat
+- **INS** (2): Dräger; Yokogawa
 - **REF** (1): Yokogawa
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
@@ -601,4 +625,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-303 of 334 cards list at least one directory vendor.
+305 of 334 cards list at least one directory vendor.

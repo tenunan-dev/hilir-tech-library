@@ -10,7 +10,7 @@
 | [Foundations and piling](#civ-foundations-piling) | Geotechnical | commercial |  | Bauer (piling and ground engineering); Keller (ground improvement) |  |
 | [Heavy lift, transport and temporary works](#civ-heavy-lift-temporary-works) | Construction engineering | commercial |  | Mammoet (heavy lift and transport); Sarens (heavy lift and transport); Heerema (offshore heavy lift) |  |
 | [Modular construction and industrialised building systems](#civ-modular-construction-ibs) | Construction methods | commercial |  | Kiewit (modular EPC and fabrication); Fluor (modular EPC); Saipem (modular fabrication); CIDB Malaysia (IBS industrialised building system programme) |  |
-| [Pipe racks, sleepers and pipe supports](#civ-pipe-racks-supports) | Structures | commercial |  | Anvil (pipe supports); Carpenter & Paterson (pipe supports and hangers); LISGA (pipe supports) |  |
+| [Pipe racks, sleepers and pipe supports](#civ-pipe-racks-supports) | Structures | commercial |  | Anvil (pipe supports); Carpenter & Paterson (pipe supports and hangers); Lisega (pipe supports) |  |
 | [Plant structural steel design](#civ-structural-steel-design) | Structures | commercial |  | Bechtel (EPC structural engineering); Fluor (EPC structural engineering); Saipem (EPC structural engineering) |  |
 | [Seismic design of process facilities](#civ-seismic-design) | Structures | commercial |  | EPC structural consultants (seismic design services) |  |
 | [Structural fireproofing and passive fire protection](#civ-fireproofing-passive-protection) | Passive fire protection | commercial |  | AkzoNobel (Chartek hydrocarbon intumescent coatings); Hempel (fireproofing coatings); Carboline (fireproofing coatings) |  |

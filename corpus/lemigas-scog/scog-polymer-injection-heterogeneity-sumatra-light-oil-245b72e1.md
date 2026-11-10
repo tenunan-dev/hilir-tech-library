@@ -10,6 +10,7 @@ sectors: ["UPS", "REF", "GAS"]
 disciplines: ["PRC"]
 sha256: "245b72e1bf201e5c734d3bdadd7c130fe801a2b6516179b8d0015f70186c699b"
 collected: "manual"
+summary: "LEMIGAS SCOG paper on polymer injection for a Sumatra light-oil reservoir: how reservoir heterogeneity affects polymer flood response, polymer selection and concentration, and the incremental recovery indicated by the study."
 ---
 
 # scog polymer injection heterogeneity sumatra light oil

@@ -1,0 +1,17 @@
+{
+  "id": "krohne",
+  "name": "KROHNE",
+  "country": "Germany",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "German measurement instrumentation manufacturer (founded 1921) producing flowmeters (electromagnetic, ultrasonic, coriolis, thermal), level, pressure and temperature instrumentation for process industries including custody-transfer metering.",
+  "technologies": ["ins-custody-transfer-metering"],
+  "url": "https://www.krohne.com",
+  "sources": [
+    {
+      "url": "https://www.krohne.com/",
+      "note": "Vendor site, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

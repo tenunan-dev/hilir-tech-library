@@ -10,6 +10,7 @@ sectors: ["UPS", "REF", "GAS"]
 disciplines: ["PRC"]
 sha256: "d179b4fab1ffbe6e31b6360d07a970f0b66c6bcd3f98c0e0b93bb693a096afc8"
 collected: "manual"
+summary: "Scientific Contributions Oil and Gas (LEMIGAS) paper on microemulsion flooding as a chemical injection EOR method: formulation behaviour, phase behaviour and displacement performance evaluated for Indonesian reservoir conditions."
 ---
 
 # scog microemulsion flooding chemical injection

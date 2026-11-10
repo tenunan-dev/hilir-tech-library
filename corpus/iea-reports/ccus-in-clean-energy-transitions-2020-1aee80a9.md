@@ -10,6 +10,7 @@ sectors: ["UPS", "GAS", "REF", "PWR", "H2", "CCS"]
 disciplines: ["DIG", "HSE"]
 sha256: "1aee80a97d39563feb7e0603b4d6cda255d44295985865f47d083493d4c8b6b9"
 collected: "manual"
+summary: "IEA special report (2020) on the role of CCUS in clean energy transitions: current capture and storage capacity, cost reduction opportunities in CO2 use, the four CO2 hubs concept, and policy and investment conditions needed to reach the Sustainable Development Scenario capture levels."
 ---
 
 # ccus in clean energy transitions 2020

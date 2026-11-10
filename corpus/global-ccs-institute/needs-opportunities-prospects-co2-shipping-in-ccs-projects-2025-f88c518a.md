@@ -10,6 +10,7 @@ sectors: ["CCS"]
 disciplines: ["PRC", "HSE"]
 sha256: "f88c518ae8f8e980baceebcd5b8df14b5927cc0e1b3aabe83b936c39598f96c2"
 collected: "manual"
+summary: "Global CCS Institute (November 2025) assessment of when CO2 shipping is needed in CCS value chains, the vessel and terminal options (LP/MP liquefied CO2 carriers), cost drivers versus pipelines, and the project prospects for ship-based CO2 transport."
 use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 ---
 

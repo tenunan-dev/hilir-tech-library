@@ -1,0 +1,17 @@
+{
+  "id": "weg",
+  "name": "WEG",
+  "country": "Brazil",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Brazilian electro-mechanical manufacturer with more than 49,000 employees, providing electric motors, variable frequency drives, soft starters, controls, panels, transformers and generators, with dedicated upstream and downstream oil and gas solutions.",
+  "technologies": ["ele-transformers", "ele-motors-drives", "ups-well-plug-abandonment"],
+  "url": "https://www.weg.net",
+  "sources": [
+    {
+      "url": "https://www.weg.net/institutional/en/",
+      "note": "WEG homepage: motors, drives, soft starters, controls, panels, transformers, generators; oil and gas segment; 49,300 employees, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

@@ -10,6 +10,7 @@ sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "ad4b085cfa1eae58542b55c12d336f5cf8f12e2bd2fc5f801fff71bdac5e6970"
 collected: "manual"
+summary: "Applies a physics-informed neural operator (PINO) with continuous convolutional residual learning to reservoir history matching of the Norne field, comparing convergence and match quality against conventional assisted-history-matching workflows."
 use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 ---
 
@@ -359,7 +360,7 @@ Where ∥.∥ represents the M dimensional Euclidean Norm. G : Rd → Rk represe
 the forward problem and defines the relationship between unknown parameters u ∈ Rd , y ∈ Rk is the corrupted noisy
 (or noiseless in rare cases) true data given by.
 y = F
- 
+
 K+, φ + + η (7c)
 where K+, φ + is the underlining unknown true model (we want to recover) and η∼N (0, Γ) . Γ ∈ Rk×k is the data
 noise covariance matrix with Lebesgue density ρ(η). The unknown u follows a prior distribution µ0 with Lebesgue
@@ -383,7 +384,7 @@ dµy
 dµ0 (u) =1 Z exp(−Φ(u;y)), where Z = R Rk exp(−Φ(u;y))µ0(du), and µy and µ0 are measures on Rk with densities π and ρ0 respectively, which shows the posterior is absolutely continuous with respect to the prior density and the
 Radon-Nikodym derivative dµy dµ0 (u) is proportional to the likelihood. Using the Sherman -Morrison-Woodbury Lemma
 [26], we arrive at the VanillaEnsemble Kalman Inversion (EKI),
-u( j) n+1 = u( j) n +CuG n   CGG n + αnΓ −1 (y + √αξn − G(u( j) n )) (8a)
+u( j) n+1 = u( j) n +CuG n  CGG n + αnΓ −1 (y + √αξn − G(u( j) n )) (8a)
 n is the iteration index, j is the ensemble member (columns in the matrix) in the ensemble size J. αn is a (crucial)
 regularisation dampener, CuG n and CGG n are cross-covariance matrixes to be explained shortly, ξ ∼N(0,1).
 CGG n = 1 j − 1 J ∑ j=1  G  u( j) n  − G  u( j) n  ⊗  G  u( j) n  − G  u( j) n  (8b)
@@ -435,7 +436,7 @@ u( j) n  − G  u( j) n  ⊗  G  u( j) n  − G  u( j) n 
 9: Compute: CuGn = 1 j−1 ∑J j=1
 
 u( j) n  −  u( j) n  ⊗  G  u( j) n  − G  u( j) n 
-10: Update ensemble: u( j) n+1 = u( j) n +CuGn   CGGn + αnΓ −1  y + √αnξn − G  u( j) n 
+10: Update ensemble: u( j) n+1 = u( j) n +CuGn  CGGn + αnΓ −1  y + √αnξn − G  u( j) n 
 11: Increment: n ← n + 1
 12: end while
 13: Output:: u( j) ▷ posterior density
@@ -516,7 +517,7 @@ c
 , c≤ |z| ≤2c,
 0, 2c≤ |z| .
 (9a)
-u( j) n+1 = u( j) n + ρ · o ·CuG n   CGG n + αnΓ −1  y + √αnξn − G  u( j) n  , j ∈ {1, . . . ,J} (9b)
+u( j) n+1 = u( j) n + ρ · o ·CuG n  CGG n + αnΓ −1  y + √αnξn − G  u( j) n  , j ∈ {1, . . . ,J} (9b)
 8
 
 4 Mixture of experts.
@@ -578,11 +579,11 @@ A critique of this method is that it re-uses the data in each phase. A Bayesian 
 elegantly. Recall,
 DDD = {(xi,yi)}N i=1 (12a)
 Assume parametric models for the classifier gl (.; θc) =gl
- 
-.; θ l c  and the regressor. fr   .,l; θ l r  for l = 1, . . .L where
+
+.; θ l c  and the regressor. fr  .,l; θ l r  for l = 1, . . .L where
 θc =
- 
-θ 1 c , . . . ,θ L c  and θr =   θ 1 r , . . . ,θ L r  and let θ = (θc, θr), the posterior density has the form,
+
+θ 1 c , . . . ,θ L c  and θr =  θ 1 r , . . . ,θ L r  and let θ = (θc, θr), the posterior density has the form,
 π (θ ,l | D) ∝
 N
 ∏
@@ -594,13 +595,13 @@ i=1
 And
 π (l | xi, θc) =gl (xi; θc) (12d)
 gl (xi; θc) = exp
- 
+
 hl
- 
+
 x; θ l c 
 ∑L l=1 exp(hl (x; θ lc)) (12e)
 hl
- 
+
 x; θ l c  are some standard parametric regressors.
 4.1 Sparse Gaussian process experts
 Mixtures of GP experts have proven to be very successful [20, 47, 57, 10, 13]. In particular, they overcome limitations of
@@ -1038,7 +1039,7 @@ u( j) n − u( j) n
 G(X ( j) n ) − G(X ( j) n )
 
 14: Update ensemble:
-15: u( j) n+1 = u( j) n +CuGn   CGGn + αnΓ −1 (y + √αnξn − G(X ( j) n )) 16: for t = 1 to T do
+15: u( j) n+1 = u( j) n +CuGn  CGGn + αnΓ −1 (y + √αnξn − G(X ( j) n )) 16: for t = 1 to T do
 17: ˆ u( j) x,t−1 = fθ (u( j) x,t ,t) ▷ Refer to Algorithm 5, where fθ is the denoising DDIM function
 18: u( j) x,t = ˆu( j) x,t−1
 19: if t == T then

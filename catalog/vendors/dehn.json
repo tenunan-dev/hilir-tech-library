@@ -1,0 +1,17 @@
+{
+  "id": "dehn",
+  "name": "DEHN",
+  "country": "Germany",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "German manufacturer of surge protection, lightning protection and safety equipment (air terminals, down conductors, earth termination and SPDs) for buildings and industrial plants.",
+  "technologies": ["ele-earthing-lightning"],
+  "url": "https://www.dehn-international.com",
+  "sources": [
+    {
+      "url": "https://www.dehn-international.com/",
+      "note": "Vendor site, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

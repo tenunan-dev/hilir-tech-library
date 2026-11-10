@@ -1,0 +1,17 @@
+{
+  "id": "heerema",
+  "name": "Heerema",
+  "country": "Netherlands",
+  "roles": ["epc", "service"],
+  "categories": ["offshore-epc", "fabrication", "engineering-consultancy"],
+  "description": "Group of offshore energy companies: Heerema Marine Contractors (transport, installation and removal of offshore infrastructure with heavy-lift vessels such as Sleipnir and Thialf), Heerema Fabrication Group (fabrication of offshore structures) and Heerema Engineering Solutions.",
+  "technologies": ["civ-heavy-lift-temporary-works"],
+  "url": "https://www.heerema.com",
+  "sources": [
+    {
+      "url": "https://www.heerema.com/",
+      "note": "Heerema companies homepage: marine contracting, fabrication group, engineering solutions; Sleipnir/Thialf campaigns, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

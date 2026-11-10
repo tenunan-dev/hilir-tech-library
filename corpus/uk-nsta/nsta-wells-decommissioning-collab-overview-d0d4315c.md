@@ -10,6 +10,7 @@ sectors: ["UPS", "CCS"]
 disciplines: ["HSE", "DIG"]
 sha256: "d0d4315c0ae83a0518982f6aa007d89604d24aad613ecc5ccd991511869f5c83"
 collected: "manual"
+summary: "North Sea Transition Authority overview of the Wells Decommissioning Collaborative: shared well P&A learnings, cost-reduction levers and the collaboration framework across UKCS operators for well plug and abandonment campaigns."
 ---
 
 # nsta wells decommissioning collab overview

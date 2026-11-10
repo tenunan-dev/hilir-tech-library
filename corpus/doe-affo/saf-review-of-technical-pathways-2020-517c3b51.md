@@ -10,6 +10,7 @@ sectors: ["REF", "H2"]
 disciplines: ["PRC"]
 sha256: "517c3b51588ca3ecbb368dd6dc87b9c7f3fb04d293158efe78a1dc3723a96e87"
 collected: "manual"
+summary: "DOE/BETO review of sustainable aviation fuel technical pathways: HEFA, alcohol-to-jet, Fischer-Tropsch and emerging routes, with feedstock availability, conversion economics and the certification/approval status of each pathway to drop-in jet fuel."
 ---
 
 # saf review of technical pathways 2020

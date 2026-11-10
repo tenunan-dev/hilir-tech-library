@@ -1,0 +1,18 @@
+{
+  "id": "ifs",
+  "name": "IFS",
+  "country": "Sweden",
+  "roles": ["supplier"],
+  "categories": ["engineering-consultancy"],
+  "description": "Enterprise software provider (HQ Linköping) delivering IFS Cloud: enterprise asset management, asset performance management, field service management and ERP, with a dedicated oil and gas industry practice including upstream production and land management solutions (formerly P2 Energy Solutions).",
+  "products": ["IFS Cloud EAM", "IFS Ultimo EAM", "IFS Energy & Resources (formerly P2)"],
+  "technologies": ["dig-cmms-work-management"],
+  "url": "https://www.ifs.com",
+  "sources": [
+    {
+      "url": "https://www.ifs.com/",
+      "note": "IFS homepage: EAM/FSM/ERP capabilities, oil and gas industry, IFS Energy & Resources formerly P2, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

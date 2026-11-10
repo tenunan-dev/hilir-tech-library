@@ -10,6 +10,7 @@ sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "8d8702a33362bca811f95188d5270542f686375ea9107d55b206edf0bea61180"
 collected: "manual"
+summary: "Meta-analysis of techno-economic studies on marine hydrogen transportation (compressed gas, liquid hydrogen, ammonia, LOHC carriers), harmonising levelised delivery cost ranges and identifying which carrier and vessel assumptions drive the spread."
 use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 ---
 

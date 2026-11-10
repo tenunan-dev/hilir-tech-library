@@ -1,0 +1,17 @@
+{
+  "id": "carboline",
+  "name": "Carboline",
+  "country": "USA",
+  "roles": ["supplier"],
+  "categories": ["materials-supplier"],
+  "description": "St. Louis-based manufacturer of high-performance coatings, linings and fireproofing products (over 35 product lines, including intumescent and cementitious fire protection) with technical service and specifier support for industrial facilities.",
+  "technologies": ["civ-fireproofing-passive-protection"],
+  "url": "https://www.carboline.com",
+  "sources": [
+    {
+      "url": "https://www.carboline.com/",
+      "note": "Carboline homepage: coatings, linings, fireproofing; 35+ product lines; intumescent coatings articles, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

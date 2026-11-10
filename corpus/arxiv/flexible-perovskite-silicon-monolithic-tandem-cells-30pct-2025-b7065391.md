@@ -10,6 +10,7 @@ sectors: ["PWR", "H2", "CCS", "UPS"]
 disciplines: ["DIG", "PRC"]
 sha256: "b70653917134c2e6834448ee50ce8bd93f85ea88ddb181caa9f7f3d235a14ef2"
 collected: "manual"
+summary: "Reports flexible monolithic perovskite/silicon tandem solar cells reaching about 30% power-conversion efficiency, covering the device architecture, passivation and bending-durability results behind the certified-class performance."
 use_note: "Private reference copy. Do not redistribute or use commercially; cite the url."
 ---
 

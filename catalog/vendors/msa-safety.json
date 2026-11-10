@@ -1,0 +1,17 @@
+{
+  "id": "msa-safety",
+  "name": "MSA Safety",
+  "country": "USA",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "The Safety Company: manufacturer of industrial safety equipment including fixed and portable gas detection (through its General Monitors brand), fall protection (Latchways) and personal protective equipment, with Americas and international operations.",
+  "technologies": ["ins-fire-gas-detection"],
+  "url": "https://www.msasafety.com",
+  "sources": [
+    {
+      "url": "https://www.msasafety.com/",
+      "note": "MSA - The Safety Company site (maintenance page): General Monitors gas detection, Latchways fall protection, Americas/Europe contacts, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

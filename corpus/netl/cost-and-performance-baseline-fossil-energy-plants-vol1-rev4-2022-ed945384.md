@@ -10,6 +10,7 @@ sectors: ["UPS", "CCS", "H2", "PWR"]
 disciplines: ["PRC", "MAT"]
 sha256: "ed945384a6dd401610c763df251ef960235ba007d59ce8cf0dc3845296677088"
 collected: "manual"
+summary: "NETL Cost and Performance Baseline for Fossil Energy Plants, Volume 1 Rev 4 (2022): reference bituminous coal and natural gas to electricity plant designs (Case 9 etc.) with capital and O&M cost breakdowns, the standard baseline behind many CCS cost comparisons."
 ---
 
 # cost and performance baseline fossil energy plants vol1 rev4 2022

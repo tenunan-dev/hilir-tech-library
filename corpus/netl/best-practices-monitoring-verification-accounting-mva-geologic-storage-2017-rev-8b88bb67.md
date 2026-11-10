@@ -10,6 +10,7 @@ sectors: ["UPS", "CCS", "H2", "PWR"]
 disciplines: ["PRC", "MAT"]
 sha256: "8b88bb6722877cf3f44ecd543dc433a99e3e0dac2994aa9b3c5be18d635e6fad"
 collected: "manual"
+summary: "NETL/DOE best-practices manual for monitoring, verification and accounting (MVA) of CO2 stored in geologic formations: subsurface and surface monitoring technologies, baseline design, and the accounting and reporting practices for storage projects."
 ---
 
 # best practices monitoring verification accounting mva geologic storage 2017 rev

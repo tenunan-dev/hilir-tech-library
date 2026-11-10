@@ -1,0 +1,19 @@
+{
+  "id": "nalco-water",
+  "name": "Nalco Water (Ecolab)",
+  "aliases": ["Nalco Water", "Ecolab Nalco Water"],
+  "country": "USA",
+  "roles": ["supplier", "service"],
+  "categories": ["materials-supplier", "engineering-consultancy"],
+  "description": "Ecolab's water treatment and process chemicals business (HQ St. Paul, MN): water treatment programs for cooling and boiler systems, with scale, corrosion and deposit control chemistry such as 3D TRASAR technology used across power, oil and gas, mining and chemical processing.",
+  "products": ["3D TRASAR water treatment technology"],
+  "technologies": ["mat-corrosion-monitoring-inhibition"],
+  "url": "https://www.ecolab.com/nalco-water",
+  "sources": [
+    {
+      "url": "https://www.ecolab.com/nalco-water",
+      "note": "Nalco Water page: water treatment and process chemicals; 3D TRASAR scale/corrosion/deposit control, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

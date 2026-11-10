@@ -3,19 +3,31 @@
  "name": "Yokogawa Electric",
  "country": "Japan",
  "roles": [
-  "oem"
+  "oem",
+  "integrator"
  ],
- "description": "Process control and measurement: EJA transmitters, flow and analysis instrumentation, and DCS platforms.",
+ "description": "Process control and measurement since 1915: EJA transmitters, flow and analysis instrumentation, OpreX DCS (CENTUM), safety instrumented systems, advanced process control and real-time optimization, delivered also as main automation contractor (e.g. LNG Canada Phase 2).",
+ "products": ["OpreX Control and Safety System", "CENTUM DCS", "Platform for Advanced Control and Estimation (APC)", "Dynamic Real Time Optimizer (RT-OP)"],
  "technologies": [
-  "ins-field-instrumentation"
+  "ins-field-instrumentation",
+  "ins-apc-mpc",
+  "ins-dcs-scada",
+  "ins-safety-instrumented-systems",
+  "dig-iiot-wireless-sensors",
+  "ref-apc-rto",
+  "mid-flow-assurance-simulation"
  ],
  "sources": [
   {
    "url": "https://www.yokogawa.com/",
    "note": "measurement and control portfolio, read 2026-11-07"
+  },
+  {
+   "url": "https://www.yokogawa.com/",
+   "note": "OpreX DCS/SIS/APC/RT-OP portfolio and MAC for LNG Canada Phase 2, read 2026-11-11"
   }
  ],
- "last_reviewed": "2026-11-07",
+ "last_reviewed": "2026-11-11",
  "categories": [
   "equipment-oem"
  ],

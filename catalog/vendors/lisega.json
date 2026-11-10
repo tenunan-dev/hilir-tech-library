@@ -1,0 +1,18 @@
+{
+  "id": "lisega",
+  "name": "LISEGA",
+  "country": "Germany",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "World-leading specialist in industrial pipe support systems (LISEGA SE): a modular product system of tens of thousands of components — constant and spring hangers, dynamic components, pipe clamps, roller bearings, structural attachments — plus the LICAD design application.",
+  "products": ["LISEGA modular pipe support system (product groups 1-7)", "LICAD design software"],
+  "technologies": ["civ-pipe-racks-supports"],
+  "url": "https://www.lisega.de",
+  "sources": [
+    {
+      "url": "https://www.lisega.de/en/",
+      "note": "LISEGA SE: world's leading specialist in industrial pipe support systems; modular product groups 1-8 incl. LICAD, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}
