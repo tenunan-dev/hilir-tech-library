@@ -25,18 +25,20 @@
 - Do not touch auth internals, DNS, or application content without an explicit owner ask.
   Estate record: `hilir-access/docs/STATUS.md`.
 
-### Where the work stands (2026-11-06)
+### Where the work stands (2026-11-11)
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 400 valid, 400 unique ids |
-| Technology cards | 299 (all 306 register entries) |
-| Vendor records | 421 |
+| Catalog sources | 407 valid, 407 unique ids |
+| Technology cards | 334 (341-entry register) |
+| Vendor records | 457 |
 | Equipment classes | 8 (five boiler classes, centrifugal compressor, centrifugal pump, industrial gas turbine) |
-| Corpus documents | 202, each with a hand-written summary |
+| Corpus documents | 287, each with a hand-written summary (14,948 chunks) |
 
-Verified live 2026-11-06: the three MCP checks in `docs/HOSTING.md` (PRM 200, challenge header
-without an `error` member, wrong bearer 401) and the six UI checks in `docs/AUTH.md`. Standing main
+Verified live 2026-11-11: Neon reloaded (407 sources / 457 vendors / 334 cards / 8 equipment /
+14,948 chunks / 3,720 nodes / 13,140 edges / 16,154 vectors) and both containers re-deployed from
+CI `images` run 42864857287 (ui sha256:f0aa7d4a…, api sha256:2a2f1b5e…, both healthy as user
+`library`); VPS gate `mygis 303, techlib-origin 403, tlea-origin 403` green. Standing main
 effort is source discovery (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment
 families wait on the owner (decision #33). Open owner items and the session log are in
 `docs/STATUS.md`.

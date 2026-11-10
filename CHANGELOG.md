@@ -8,6 +8,23 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.11.1] — 2026-11-11 — Tier-1 content pass published: vendor queue batch + corpus intake
+
+### Added
+
+- 21 vendor records: ASC/Anvil, B&K Vibro, Carboline, Carpenter & Paterson, CCC (Compressor Controls), Chromalox, Aker Solutions, DEHN, Eurecat, Heerema, Hempel, Honeywell Analytics, IBM (Maximo), IFS, KROHNE, Lisega, MSA Safety, Nalco Water (Ecolab), Nidec, Seatrium, WEG — directory now 457 records; Yokogawa extended to seven cards.
+- 12 collected documents with authored summaries (NETL cost baseline vol 1 rev 4 + MVA best practices, IEA CCUS in Clean Energy Transitions 2020, NPC Dual Challenge ch 8 CO2-EOR, DOE SAF pathways review, Global CCS Institute CO2-shipping 2025, two LEMIGAS SCOG EOR papers, NSTA wells-decommissioning overview, three arXiv full texts) — corpus now 287 documents.
+- 3 unverified source drafts from discovery triage: Chemical Engineering Progress, Danimer SEC filings, DigitalRefining.
+
+### Fixed
+
+- `to_markdown` strips NUL bytes on both the PDF and HTML paths (pypdf broken-font mappings produced an undecodable document; the loader rejects NULs).
+- Card typo: `LISGA` → Lisega on the pipe-racks card.
+
+### Published
+
+- Neon reloaded: 407 sources / 287 documents / 14,948 chunks / 334 cards / 457 vendors / 8 equipment / 3,720 nodes / 13,140 edges / 16,154 vectors. Containers redeployed from CI `images` run 42864857287; VPS health gate green.
+
 ## [2026.11.07.6] — 2026-11-07 — Sign-in redirect loop fixed: valid-but-unprovisioned identities get a 403 page
 
 ### Fixed

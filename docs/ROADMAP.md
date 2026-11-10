@@ -27,7 +27,7 @@ execution detail. The roadmap folds in one targeted track:
 | # | Item | Status |
 |---|---|---|
 | 1.1 | Five-channel discovery pipeline, triage per access class | standing |
-| 1.2 | Doc-coverage targeting: 205 of 404 sources have docs. Priority list computed 2026-11-08: 58 card-cited sources with zero docs (top: wikipedia 79 cards — needs per-article docs, offshore-mag 12, honeywell-uop 11, sintef 10, ogj 10 — most mixed/paywalled → browser/manual). Batches 1-4 done: ge-vernova, axens, slb + 70 of 71 cited wikipedia articles (manual intake, summaries added) | open | **in progress 2026-11-08** (275 docs / 13,070 chunks / 14,252 vectors live; 70/71 cited wikipedia articles done — the last one is a hashtag/section fragment not a real article; cited mixed/paywalled sources still on manual/browser paths) |
+| 1.2 | Doc-coverage targeting: 205 of 404 sources have docs. Priority list computed 2026-11-08: 58 card-cited sources with zero docs (top: wikipedia 79 cards — needs per-article docs, offshore-mag 12, honeywell-uop 11, sintef 10, ogj 10 — most mixed/paywalled → browser/manual). Batches 1-4 done: ge-vernova, axens, slb + 70 of 71 cited wikipedia articles (manual intake, summaries added) | open | **in progress 2026-11-11** (287 docs / 14,948 chunks / 16,154 vectors live; 2026-11-11 intake added the 12 leftover PDFs with authored summaries; cited mixed/paywalled sources still on manual/browser paths) |
 | 1.3 | Discipline sources: electrical/civil/C&I publishers and OEMs found while authoring round 2 | open |
 
 ## 2. Content expansion
@@ -40,7 +40,7 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 
 | # | Item | Status |
 |---|---|---|
-| 2.1a | Discipline vendor round into `catalog/vendors/` | **done 2026-11-07** (15 added: SEL, Eaton, nVent, Vertiv, Prysmian, Mammoet, Sarens, Yinson Production, RedGuard, Woodward, Bently Nevada, Pepperl+Fuchs, R. Stahl, Bauer, Keller, Cummins, Endress+Hauser, Yokogawa; 436 total) |
+| 2.1a | Discipline vendor round into `catalog/vendors/` | **done 2026-11-07, extended 2026-11-11** (15 added 2026-11-07; 21 more 2026-11-11: Anvil/ASC, BK Vibro, Carboline, Carpenter & Paterson, CCC, Chromalox, Aker Solutions, DEHN, Eurecat, Heerema, Hempel, Honeywell Analytics, IBM, IFS, KROHNE, Lisega, MSA Safety, Nalco Water, Nidec, Seatrium, WEG; 457 total; queue largely stale — short-form names need aliases, 4 unfetched vendors Dräger/Furse/Kiewit/LS Cable remain) |
 | 2.1b | Discipline round 2 cards on the owner's word: PIP (piping), HVAC, telecom/naval architecture, plus deepening PRC/MAT/HSE/DIG | proposed |
 | 2.1c | Equipment classes for the discipline layer (switchgear, transformers, e-houses) — decision #33 pattern | owner gate |
 | 2.1d | Neon publish cycle + deploy so batch 1 shows live | **done 2026-11-07** (Neon 326 cards/12,625 vectors; containers rebuilt via CI images + VPS compose; live checks green) |
