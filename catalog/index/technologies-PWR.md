@@ -323,13 +323,15 @@ flowchart LR
 **Performance:**
 - energy discharged since 2022, Invinity fleet: 11000 MWh; vendor claim. [source](https://invinity.com/)
 
+**Reference plants:**
+- Dalian Flow Battery Energy Storage Peak-shaving Power Station (Rongke Power), Dalian, Liaoning, CN: Phase 1 100 MW / 400 MWh vanadium redox flow battery, first phase of a planned 200 MW / 800 MWh station; grid-connected 29 September 2022 with commercial operation from mid-October 2022 — the largest flow-battery station in the world at the time; operating. [source](https://english.cas.cn/Special_Reports/rd/2022/202410/t20241031_693355.shtml)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Redox flow storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- Rongke Power Dalian project MW and MWh (reference_plants): The Wikipedia page for the Dalian station returned not found. Where: Rongke Power and Dalian Rongke announcements (open). Next: Add the Dalian MW, MWh and commissioning date.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; system prices are quote-only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://invinity.com/), [2](https://en.wikipedia.org/wiki/Flow_battery). Last reviewed 2026-10-29.
+Sources: [1](https://invinity.com/), [2](https://en.wikipedia.org/wiki/Flow_battery). Last reviewed 2026-11-11.
 
 ## Gas engines
 <a id="pwr-gas-engines"></a>
@@ -710,9 +712,9 @@ flowchart LR
 **Performance:**
 - representative turbine rating: 12 MW; 216 m rotor, 137 m hub height, base year. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
 - capex learning rate, fixed bottom: 6.3-11.2 % per doubling; conservative to advanced scenario. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
-- global weighted average total installed cost, projects commissioned 2023: 2800 2023 USD/kW; global weighted average, projects commissioned in 2023. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
+- global weighted average total installed cost, projects commissioned 2023: 2800 2023 USD/kW (2023$); global weighted average, projects commissioned in 2023. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
 - global weighted average capacity factor, projects commissioned 2023: 41 %; global weighted average, projects commissioned in 2023 (38% in 2010). [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
-- global weighted average LCOE, projects commissioned 2023: 0.075 2023 USD/kWh; global weighted average, projects commissioned in 2023; down 63% from 0.203 in 2010. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
+- global weighted average LCOE, projects commissioned 2023: 0.075 2023 USD/kWh (2023$); global weighted average, projects commissioned in 2023; down 63% from 0.203 in 2010. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
 
 **Reference plants:**
 - Hornsea 2 offshore wind farm, UK North Sea (Orsted), GB: 1.3 GW (165 turbines x 8 MW), world's largest offshore wind farm at full commissioning on 31 Aug 2022; powers about 1.4 million UK homes; operating. [source](https://offshorewind.biz/2022/08/31/worlds-largest-offshore-wind-farm-goes-into-operation)
@@ -930,12 +932,12 @@ flowchart LR
 **Costs:**
 - overnight capital cost, near-field EGS to deep EGS: 6535-13508 USD/kW; NF-EGS flash 6,535 to deep EGS binary 13,508; dollar year not stated (base year 2022). [source](https://atb.nrel.gov/electricity/2024/geothermal)
 
+**Reference plants:**
+- Fervo Energy Cape Station, Beaver County, Utah, US: 500 MW under construction (GeoBlocks 1-11); approximately 900 MW fully contracted with offtakers; GeoBlock 1 reached commercial operation 30 September 2026, about 100 MW of operating capacity expected by early 2027 and GeoBlocks 4-11 targeted for 2028 — the first greenfield enhanced-geothermal development to reach contractual commercial operation; operating (GeoBlock 1), construction (rest). [source](https://fervoenergy.com/projects/)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Enhanced geothermal systems' 7 (2025); 'Closed-loop geothermal systems' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- Fervo Cape Station phases, MW and dates (reference_plants): Fervo's Cape Station page carried only a tagline. Where: [Fervo Energy newsroom](https://fervoenergy.com/newsroom) (open). Next: Add MW, start-up date and drilling-cost trend.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal), [2](https://en.wikipedia.org/wiki/Enhanced_geothermal_system). Last reviewed 2026-10-29.
+Sources: [1](https://atb.nrel.gov/electricity/2024/geothermal), [2](https://en.wikipedia.org/wiki/Enhanced_geothermal_system). Last reviewed 2026-11-11.
 
 ## Floating offshore wind
 <a id="pwr-floating-offshore-wind"></a>
@@ -984,14 +986,16 @@ flowchart LR
 
 **Key equipment:** hoist, masses, motor-generator, control system.
 
+**Reference plants:**
+- Energy Vault EVx Rudong gravity storage, Rudong, Jiangsu (with China Tianying), CN: 25 MW / 100 MWh grid-connected gravity-energy-storage system supporting a wind farm under SGCC — first-of-its-kind commercial EVx deployment, shown as operating on the company's project page; operating. [source](https://energyvault.com/projects)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Gravity-based storage (excluding pumped hydro)' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- Rudong, China gravity project details (reference_plants): The Energy Vault page read does not mention gravity storage. Where: Energy Vault investor filings (open). Next: Add MWh, efficiency and status from a filing.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor round-trip claims only, no independent figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://www.energyvault.com/), [2](https://en.wikipedia.org/wiki/Gravity_battery). Last reviewed 2026-10-29.
+Sources: [1](https://www.energyvault.com/), [2](https://en.wikipedia.org/wiki/Gravity_battery). Last reviewed 2026-11-11.
 
 ## Hydrogen-capable and ammonia-fired gas turbines
 <a id="pwr-hydrogen-ammonia-turbines"></a>

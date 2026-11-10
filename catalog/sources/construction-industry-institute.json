@@ -1,0 +1,29 @@
+{
+  "id": "construction-industry-institute",
+  "name": "Construction Industry Institute (CII)",
+  "url": "https://www.construction-institute.org",
+  "source_type": "association",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "DIG"
+  ],
+  "publisher_org": "University of Texas at Austin",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "quarterly",
+  "notes": "Construction-engineering research institute at UT Austin (FIATECH merged into CII in 2019): modular construction, productivity and capital-projects research cited on the modular-construction card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.construction-institute.org (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

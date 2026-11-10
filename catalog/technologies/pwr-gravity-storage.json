@@ -77,24 +77,11 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Gravity_battery",
-      "note": "Wikipedia: Gravity battery — process-description cross-check 2026-10-29 (secondary source)"
+      "note": "Wikipedia: Gravity battery \u2014 process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-11",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "Rudong, China gravity project details",
-      "reason_code": "source_unreachable",
-      "reason": "The Energy Vault page read does not mention gravity storage.",
-      "where": [
-        {
-          "hint": "Energy Vault investor filings",
-          "access": "open"
-        }
-      ],
-      "action": "Add MWh, efficiency and status from a filing."
-    },
     {
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
@@ -140,6 +127,18 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Energy Vault EVx Rudong gravity storage, Rudong, Jiangsu (with China Tianying)",
+      "country": "CN",
+      "capacity": "25 MW / 100 MWh grid-connected gravity-energy-storage system supporting a wind farm under SGCC \u2014 first-of-its-kind commercial EVx deployment, shown as operating on the company's project page",
+      "status": "operating",
+      "source": {
+        "url": "https://energyvault.com/projects",
+        "note": "Energy Vault projects page, read 2026-11-11"
+      }
     }
   ]
 }

@@ -1,12 +1,13 @@
 # Needs a manual terms check
 
-24 sources whose terms page could not be read automatically.
+25 sources whose terms page could not be read automatically.
 
 | Source | Current reuse level | Finding |
 | --- | --- | --- |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | full-text-open | PATENTSCOPE rendered empty to the fetch tool on 2026-10-23; ASEAN path also unconfirmed. |
 | [AspenTech](https://www.aspentech.com/) | full-text-restricted | Terms page blocked to automated fetch (robots disallow) on 2026-10-23; check manually. |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | catalog-only | AIChE member magazine covering process safety, process technology and digitalization. Registered unverified from the citation-mining queue (org phrase in gap hints); terms verification pending. |
+| [Construction Industry Institute (CII)](https://www.construction-institute.org) | catalog-only | Construction-engineering research institute at UT Austin (FIATECH merged into CII in 2019): modular construction, productivity and capital-projects research cited on the modular-construction card. Registered unverified from the citation-mining queue; terms verification pending. |
 | [Danimer Scientific SEC filings (EDGAR)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001814097&type=10-K) | full-text-open | PHA bioplastics producer's SEC filings (10-K/10-Q) carrying PHA capacity, cost and commercialisation figures cited on the PHA cards; EDGAR is a reachable mirror host. Registered unverified from the citation-mining queue; terms verification pending. |
 | [DGIP Indonesia patent database (PDKI)](https://pdki-indonesia.dgip.go.id/) | full-text-open | Site not reachable by fetch tool on 2026-10-23. |
 | [DigitalRefining](https://www.digitalrefining.co.uk/) | catalog-only | Refining and petrochemical technology articles/practitioner papers cited in REF gaps (revamps, FCC, hydrogen management). Registered unverified from the citation-mining queue; terms verification pending. |
