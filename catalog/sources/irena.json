@@ -20,7 +20,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Terms page not reachable by fetch tool on 2026-10-23; check manually. Evidence: https://www.irena.org/",
+  "notes": "Terms page read in the interactive browser 2026-11-11: IRENA terms-and-conditions Section 4 permits use of Website Content with attribution (no implied endorsement); Section 4.3 makes whole-publication reuse subject to each publication's own copyright notice and terms, so text reuse stays restricted per publication; figures cited into cards with a link are fine. Site 403s plain fetchers \u2014 browser UA + referer downloads work.",
   "verification": "verified",
-  "last_verified": "2026-10-28"
+  "last_verified": "2026-11-11"
 }

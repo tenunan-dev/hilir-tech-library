@@ -19,7 +19,7 @@
 | [Bioenergy with CCS (BECCS)](#ccs-beccs) | Carbon removal / bioenergy | demonstration | 3-7 | Stockholm Exergi (BECCS Stockholm); Drax (BECCS (register examples)); ADM (Decatur (register examples)) |  |
 | [CO2 mineralisation (in-situ basalt)](#ccs-in-situ-mineralisation) | Transport and storage / mineral storage | demonstration | 9 | Carbfix (in-situ mineralisation, Hellisheidi and Coda Terminal) | in-situ mineralisation injection cost, CarbFix method at Hellisheidi: 25 USD per tonne CO2 injected (below) (2020$) |
 | [CO2 shipping and terminals](#ccs-co2-shipping) | Transport and storage / shipping | demonstration | 8 | Northern Lights (Equinor, Shell, TotalEnergies) (CO2 transport and storage) | CO2 shipping cost per tonne: 9-50 USD/t CO2 |
-| [CO2 to methanol and fuels](#ccs-co2-to-methanol-fuels) | Utilisation / fuels | demonstration | 8 | Carbon Recycling International (George Olah plant) |  |
+| [CO2 to methanol and fuels](#ccs-co2-to-methanol-fuels) | Utilisation / fuels | demonstration | 8 | Carbon Recycling International (George Olah plant) | e-methanol production cost, CO2 from combined renewable sources, 2015-2018 estimate: 820-1620 USD/t MeOH<br>e-methanol production cost, CO2 from DAC only, 2015-2018 estimate: 1220-2380 USD/t MeOH<br>bio-methanol total production cost, biomass feedstock below USD 6/GJ: 327-764 USD/t MeOH |
 | [Direct air capture with liquid solvent (KOH and calcium loop)](#ccs-dac-liquid-solvent) | Direct air capture / liquid solvent | demonstration | 5 | Carbon Engineering / 1PointFive (Occidental) | levelised cost of CO2 captured: 94-232 USD/t CO2 (2016$) |
 | [Direct air capture with solid sorbent](#ccs-dac-solid-sorbent) | Direct air capture / solid sorbent | demonstration | 5 | Climeworks | cost of CO2 captured, solid-sorbent DAC with natural-gas CHP (gross capture basis): 90-150 USD/t CO2 (2024$)<br>cost of CO2 captured, same system, net removal basis: 130-240 USD/t CO2 (2024$) |
 | [Ex-situ mineral carbonation](#ccs-ex-situ-mineral-carbonation) | Transport and storage / mineral storage | demonstration | 9 |  | best-case sequestration cost: 42-78 EUR/t CO2 |
@@ -573,16 +573,20 @@ flowchart LR
 **Performance:**
 - George Olah plant capacity: 4000 t/yr methanol; scaled up from 1,300 t/yr. [source](https://carbonrecycling.com/projects/george-olah)
 
+**Costs:**
+- e-methanol production cost, CO2 from combined renewable sources, 2015-2018 estimate: 820-1620 USD/t MeOH; IRENA 'where we should be' assumptions; green H2 4,000-8,000 USD/t and CO2 10-50 USD/t; falls to 410-750 by 2030 and 250-630 by 2050 (no carbon credit). [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jan/IRENA_Innovation_Renewable_Methanol_2021.pdf)
+- e-methanol production cost, CO2 from DAC only, 2015-2018 estimate: 1220-2380 USD/t MeOH; DAC CO2 300-600 USD/t; falls to 600-1,070 by 2030 and 290-630 by 2050 (no carbon credit); a USD 50/t CO2 credit lowers cost about USD 80/t MeOH. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jan/IRENA_Innovation_Renewable_Methanol_2021.pdf)
+- bio-methanol total production cost, biomass feedstock below USD 6/GJ: 327-764 USD/t MeOH; 327-561 USD/t from biomass, 414-583 USD/t from MSW; at USD 6-15/GJ feedstock rises to 447-714 (biomass) and 556-764 (MSW). [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jan/IRENA_Innovation_Renewable_Methanol_2021.pdf)
+
 **Reference plants:**
 - George Olah plant, Svartsengi, IS: 4,000 t/yr methanol; . [source](https://carbonrecycling.com/projects/george-olah)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- production cost (costs): Not on the page. Web-checked 2026-10-28; e-methanol cost estimates vary widely without a settled open figure. Where: IRENA innovation outlook: renewable methanol (catalog: irena, open). Next: Add costs.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://carbonrecycling.com/projects/george-olah). Last reviewed 2026-10-28.
+Sources: [1](https://carbonrecycling.com/projects/george-olah). Last reviewed 2026-11-11.
 
 ## Direct air capture with liquid solvent (KOH and calcium loop)
 <a id="ccs-dac-liquid-solvent"></a>

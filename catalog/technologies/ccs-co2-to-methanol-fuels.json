@@ -67,6 +67,47 @@
       "high": 4000
     }
   ],
+  "costs": [
+    {
+      "metric": "e-methanol production cost, CO2 from combined renewable sources, 2015-2018 estimate",
+      "unit": "USD/t MeOH",
+      "basis": "IRENA 'where we should be' assumptions; green H2 4,000-8,000 USD/t and CO2 10-50 USD/t; falls to 410-750 by 2030 and 250-630 by 2050 (no carbon credit)",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jan/IRENA_Innovation_Renewable_Methanol_2021.pdf",
+        "source_id": "irena",
+        "note": "IRENA/Methanol Institute Innovation Outlook: Renewable Methanol (January 2021), Table: Estimated costs of renewable methanol up to 2050, p. 82, read 2026-11-11"
+      },
+      "low": 820,
+      "high": 1620,
+      "year": 2020
+    },
+    {
+      "metric": "e-methanol production cost, CO2 from DAC only, 2015-2018 estimate",
+      "unit": "USD/t MeOH",
+      "basis": "DAC CO2 300-600 USD/t; falls to 600-1,070 by 2030 and 290-630 by 2050 (no carbon credit); a USD 50/t CO2 credit lowers cost about USD 80/t MeOH",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jan/IRENA_Innovation_Renewable_Methanol_2021.pdf",
+        "source_id": "irena",
+        "note": "IRENA/Methanol Institute Innovation Outlook: Renewable Methanol (January 2021), Estimated-costs table, p. 82, read 2026-11-11"
+      },
+      "low": 1220,
+      "high": 2380,
+      "year": 2020
+    },
+    {
+      "metric": "bio-methanol total production cost, biomass feedstock below USD 6/GJ",
+      "unit": "USD/t MeOH",
+      "basis": "327-561 USD/t from biomass, 414-583 USD/t from MSW; at USD 6-15/GJ feedstock rises to 447-714 (biomass) and 556-764 (MSW)",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jan/IRENA_Innovation_Renewable_Methanol_2021.pdf",
+        "source_id": "irena",
+        "note": "IRENA/Methanol Institute Innovation Outlook: Renewable Methanol (January 2021), Total production cost table, p. 71, read 2026-11-11"
+      },
+      "low": 327,
+      "high": 764,
+      "year": 2020
+    }
+  ],
   "reference_plants": [
     {
       "name": "George Olah plant, Svartsengi",
@@ -85,7 +126,7 @@
     "source": {
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
-      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025)"
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO\u2082-to-methanol synthesis' 8 (2025)"
     }
   },
   "advantages": [
@@ -100,22 +141,8 @@
       "note": "Carbon Recycling International, George Olah plant page"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-11",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "production cost",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not on the page. Web-checked 2026-10-28; e-methanol cost estimates vary widely without a settled open figure.",
-      "where": [
-        {
-          "hint": "IRENA innovation outlook: renewable methanol",
-          "access": "open",
-          "source_id": "irena"
-        }
-      ],
-      "action": "Add costs."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",

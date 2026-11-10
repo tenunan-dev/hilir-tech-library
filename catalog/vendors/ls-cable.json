@@ -1,0 +1,18 @@
+{
+  "id": "ls-cable",
+  "name": "LS Cable & System",
+  "country": "South Korea",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem", "materials-supplier"],
+  "description": "Korean cable manufacturer (LS Group) producing power and communication cables including high-voltage and submarine cable systems.",
+  "technologies": ["ele-cable-systems"],
+  "url": "https://www.lscable.com",
+  "sources": [
+    {
+      "url": "https://www.lscns.com/eng/index.do",
+      "note": "LS Cable & System corporate site (lscable.com and lscns.com): site banner and copyright confirm the brand identity, but the site was under system maintenance at review time and deeper product pages were unreachable from this network (connection reset on lscable.com, browser + reader, 2026-11-11); record kept minimal pending a readable page"
+    }
+  ],
+  "notes": "Read-blocked vendor: plain fetch ECONNRESET, web reader network error, browser got only the maintenance banner. Re-review when the site is back.",
+  "last_reviewed": "2026-11-11"
+}

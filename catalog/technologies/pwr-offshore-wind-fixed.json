@@ -54,7 +54,7 @@
   ],
   "suppliers": [
     {
-      "name": "Ørsted",
+      "name": "\u00d8rsted",
       "product": "developer and operator"
     },
     {
@@ -90,6 +90,44 @@
       },
       "low": 6.3,
       "high": 11.2
+    },
+    {
+      "metric": "global weighted average total installed cost, projects commissioned 2023",
+      "unit": "2023 USD/kW",
+      "basis": "global weighted average, projects commissioned in 2023",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf",
+        "source_id": "irena",
+        "note": "IRENA Renewable Power Generation Costs in 2023, Table S1 (published September 2024), read 2026-11-11"
+      },
+      "low": 2800,
+      "high": 2800,
+      "year": 2023
+    },
+    {
+      "metric": "global weighted average capacity factor, projects commissioned 2023",
+      "unit": "%",
+      "basis": "global weighted average, projects commissioned in 2023 (38% in 2010)",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf",
+        "source_id": "irena",
+        "note": "IRENA Renewable Power Generation Costs in 2023, Table S1 (published September 2024), read 2026-11-11"
+      },
+      "low": 41,
+      "high": 41
+    },
+    {
+      "metric": "global weighted average LCOE, projects commissioned 2023",
+      "unit": "2023 USD/kWh",
+      "basis": "global weighted average, projects commissioned in 2023; down 63% from 0.203 in 2010",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf",
+        "source_id": "irena",
+        "note": "IRENA Renewable Power Generation Costs in 2023, Table S1 (published September 2024), read 2026-11-11"
+      },
+      "low": 0.075,
+      "high": 0.075,
+      "year": 2023
     }
   ],
   "trl": {
@@ -117,31 +155,11 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Offshore_wind_power",
-      "note": "Wikipedia: Offshore wind power — process-description cross-check 2026-10-29 (secondary source)"
+      "note": "Wikipedia: Offshore wind power \u2014 process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "installed cost $/kW and capacity factor with dollar year",
-      "reason_code": "source_unreachable",
-      "reason": "The ATB page shows year-specific values only in interactive charts.",
-      "where": [
-        {
-          "hint": "NREL ATB 2024 data download",
-          "access": "open",
-          "source_id": "nrel"
-        },
-        {
-          "hint": "IRENA Renewable Power Generation Costs",
-          "access": "open",
-          "source_id": "irena"
-        }
-      ],
-      "action": "Download the ATB dataset and record the 2022 base cost with its dollar year."
-    }
-  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Hornsea 2 offshore wind farm, UK North Sea (Orsted)",

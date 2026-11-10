@@ -1,0 +1,17 @@
+{
+  "id": "kiewit",
+  "name": "Kiewit",
+  "country": "USA",
+  "roles": ["epc"],
+  "categories": ["plant-epc", "engineering-consultancy"],
+  "description": "North American engineering and construction organisation (Building Tomorrow Since 1884) that designs, engineers and builds infrastructure and energy projects, with construction, engineering, procurement and project-delivery capabilities including modular construction.",
+  "technologies": ["civ-modular-construction-ibs"],
+  "url": "https://www.kiewit.com",
+  "sources": [
+    {
+      "url": "https://www.kiewit.com/",
+      "note": "Kiewit homepage (behind a Cloudflare challenge that the interactive browser passed): design, engineer and build for North America's infrastructure and energy projects; construction/engineering/procurement capabilities, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

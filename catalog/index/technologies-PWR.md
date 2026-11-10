@@ -710,16 +710,16 @@ flowchart LR
 **Performance:**
 - representative turbine rating: 12 MW; 216 m rotor, 137 m hub height, base year. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
 - capex learning rate, fixed bottom: 6.3-11.2 % per doubling; conservative to advanced scenario. [source](https://atb.nrel.gov/electricity/2024/offshore_wind)
+- global weighted average total installed cost, projects commissioned 2023: 2800 2023 USD/kW; global weighted average, projects commissioned in 2023. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
+- global weighted average capacity factor, projects commissioned 2023: 41 %; global weighted average, projects commissioned in 2023 (38% in 2010). [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
+- global weighted average LCOE, projects commissioned 2023: 0.075 2023 USD/kWh; global weighted average, projects commissioned in 2023; down 63% from 0.203 in 2010. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf)
 
 **Reference plants:**
 - Hornsea 2 offshore wind farm, UK North Sea (Orsted), GB: 1.3 GW (165 turbines x 8 MW), world's largest offshore wind farm at full commissioning on 31 Aug 2022; powers about 1.4 million UK homes; operating. [source](https://offshorewind.biz/2022/08/31/worlds-largest-offshore-wind-farm-goes-into-operation)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Seabed fixed offshore wind turbine' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- installed cost $/kW and capacity factor with dollar year (costs): The ATB page shows year-specific values only in interactive charts. Where: NREL ATB 2024 data download (catalog: nrel, open); IRENA Renewable Power Generation Costs (catalog: irena, open). Next: Download the ATB dataset and record the 2022 base cost with its dollar year.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind), [2](https://en.wikipedia.org/wiki/Offshore_wind_power). Last reviewed 2026-10-29.
+Sources: [1](https://atb.nrel.gov/electricity/2024/offshore_wind), [2](https://en.wikipedia.org/wiki/Offshore_wind_power). Last reviewed 2026-11-11.
 
 ## Onshore wind
 <a id="pwr-onshore-wind"></a>

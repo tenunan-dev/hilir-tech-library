@@ -1,0 +1,19 @@
+{
+  "id": "draeger",
+  "name": "Dräger",
+  "aliases": ["Draeger", "Drägerwerk"],
+  "country": "Germany",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "International leader in medical and safety technology since 1889 (Drägerwerk AG & Co. KGaA): industrial safety products including gas detection, respiratory protection and SCBA, with a South East Asia regional presence.",
+  "products": ["Gas detection systems", "Respiratory protection (APR/PAPR/SCBA, PSS AirBoss)", "Safety equipment rental"],
+  "technologies": ["ins-fire-gas-detection"],
+  "url": "https://www.draeger.com",
+  "sources": [
+    {
+      "url": "https://www.draeger.com/",
+      "note": "Dräger South East Asia homepage: international leader in medical and safety technology since 1889; Safety business field; gas detector rental and SCBA product lines, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "furse",
+  "name": "Furse (ABB)",
+  "aliases": ["Furse", "W.J. Furse"],
+  "country": "United Kingdom",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "ABB's Furse brand (Nottingham, UK, over 130 years of heritage) provides the Total Solution to earthing and lightning protection: structural lightning protection systems, earth termination systems, and surge protection with technical design support.",
+  "products": ["Furse Total Solution (lightning protection, earthing, SPDs)", "Furse product catalogue"],
+  "technologies": ["ele-earthing-lightning"],
+  "url": "https://www.abb.com",
+  "sources": [
+    {
+      "url": "https://www.abb.com/global/en/areas/electrification/low-voltage/earthing-lightning-surge-protection/lightning-protection-and-earthing-systems/furse",
+      "note": "FURSE Earthing and Lightning Protection brand page on abb.com: Total Solution covering structural lightning protection, earthing, surge protection and design support, read 2026-11-11 (furse.com itself serves a certificate mismatch, so the ABB brand page is the citation)"
+    }
+  ],
+  "last_reviewed": "2026-11-11"
+}

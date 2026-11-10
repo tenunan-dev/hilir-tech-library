@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-457 vendor records covering 276 technologies. One record per vendor in
+461 vendor records covering 277 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -49,6 +49,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Heerema](https://www.heerema.com) | Netherlands | epc, service | Heavy lift, transport and temporary works |
 | [Hempel](https://www.hempel.com) | Denmark | supplier | Structural fireproofing and passive fire protection |
 | [Keller Group](https://www.kellerfoundations.com/) | United Kingdom | service | Foundations and piling |
+| [Kiewit](https://www.kiewit.com) | USA | epc | Modular construction and industrialised building systems |
 | [LISEGA](https://www.lisega.de) | Germany | oem, supplier | Pipe racks, sleepers and pipe supports |
 | [Mammoet](https://www.mammoet.com/) | Netherlands | rental, service | Heavy lift, transport and temporary works |
 | [RedGuard](https://redguard.com/) | United States | supplier | Blast-resistant buildings |
@@ -81,6 +82,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Cummins](https://www.cummins.com/) | United States | oem | Emergency, standby and UPS power systems; On-site gas turbine power generation |
 | [DEHN](https://www.dehn-international.com) | Germany | oem, supplier | Earthing and lightning protection |
 | [Eaton](https://www.eaton.com/) | Ireland | oem, supplier | HV/MV switchgear and site power distribution; Emergency, standby and UPS power systems; Hazardous area electrical equipment |
+| [Furse (ABB)](https://www.abb.com) | United Kingdom | oem, supplier | Earthing and lightning protection |
+| [LS Cable & System](https://www.lscable.com) | South Korea | oem, supplier | Power and control cable systems |
 | [Nidec](https://www.nidec.com) | Japan | oem | Motors and variable speed drives |
 | [nVent Electric](https://www.nvent.com/) | United Kingdom | oem | Electrical heat tracing; Earthing and lightning protection |
 | [Pepperl+Fuchs](https://www.pepperl-fuchs.com/) | Germany | oem | Hazardous area electrical equipment |
@@ -213,6 +216,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Bently Nevada (GE Vernova)](https://www.bently.com/en) | United States | oem, service | Machinery vibration monitoring; Turbomachinery control systems |
 | [CCC (Compressor Controls Corporation)](https://www.cccglobal.com) | USA | oem, supplier | Turbomachinery control systems |
 | [Claroty](https://claroty.com) | USA | supplier | OT cybersecurity |
+| [Dräger](https://www.draeger.com) | Germany | oem, supplier | Fire and gas detection systems |
 | [Endress+Hauser](https://www.endress.com/) | Switzerland | oem | Field instrumentation; Custody transfer metering |
 | [Honeywell](https://www.honeywell.com) | USA | oem, integrator | Advanced process control and model predictive control; Distributed control systems and SCADA; OT cybersecurity; Safety instrumented systems |
 | [Honeywell Analytics](https://www.honeywellanalytics.com) | USA | oem, supplier | Fire and gas detection systems |
@@ -608,11 +612,11 @@ Compound entries are split on '/' and matched part by part; descriptive phrases 
 company names are listed as card notes below. Adding a record for a queue entry is the next
 batch of this directory.
 
-- **CIV** (5): Bauer; CIDB Malaysia; Keller; Kiewit; Sarens
+- **CIV** (4): Bauer; CIDB Malaysia; Keller; Sarens
 - **DIG** (1): Yokogawa
-- **ELE** (6): Eaton Crouse-Hinds; Furse; LS Cable & System; nVent; nVent ERICO; Prysmian
+- **ELE** (4): Eaton Crouse-Hinds; nVent; nVent ERICO; Prysmian
 - **HSE** (1): Flare Ventures
-- **INS** (2): Dräger; Yokogawa
+- **INS** (1): Yokogawa
 - **REF** (1): Yokogawa
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
