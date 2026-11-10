@@ -1,0 +1,28 @@
+{
+  "id": "net-zero-teesside",
+  "name": "Net Zero Teesside project pages",
+  "url": "https://www.netzeroteesside.co.uk",
+  "source_type": "agency-data",
+  "sectors": [
+    "CCS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "BP (operator, NZT Power consortium)",
+  "country": "GB",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Project pages for the UK's first industrial-scale gas-fired CCS + power cluster at Teesside (FID 2024, first dispatch power target 2028). Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.netzeroteesside.co.uk/partners/ (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

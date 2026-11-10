@@ -1,0 +1,28 @@
+{
+  "id": "pmc-europepmc",
+  "name": "PubMed Central / Europe PMC open full texts",
+  "url": "https://pmc.ncbi.nlm.nih.gov",
+  "source_type": "journal",
+  "sectors": [
+    "H2",
+    "PWR",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "US National Library of Medicine / EMBL-EBI",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "varies (OA licences)",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Open full-text archives for peer-reviewed literature (PMC and Europe PMC are the compliant mirror hosts for blocked journal sites). Registered unverified from the citation-mining queue; per-article licences vary. Evidence: pmc.ncbi.nlm.nih.gov/articles/PMC5679388 cited by corpus docs (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

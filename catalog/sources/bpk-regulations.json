@@ -1,0 +1,28 @@
+{
+  "id": "bpk-regulations",
+  "name": "Peraturan.id (BPK regulation database)",
+  "url": "https://peraturan.bpk.go.id",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Badan Pemeriksa Keuangan RI",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "daily",
+  "notes": "Indonesia's official regulation database (peraturan.bpk.go.id): laws and ministerial regulations including oil-and-gas sector rules, supporting the library's Southeast Asia focus. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://peraturan.bpk.go.id (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

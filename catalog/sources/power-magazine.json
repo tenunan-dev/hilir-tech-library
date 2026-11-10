@@ -1,0 +1,28 @@
+{
+  "id": "power-magazine",
+  "name": "POWER Magazine",
+  "url": "https://www.powermag.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Access Intelligence",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Power-generation trade magazine cited for plant-conversion and data-centre power stories (e.g. Google geothermal PPA coverage). Registered unverified from the citation-mining queue; terms verification pending. Evidence: powermag.com Google geothermal article citation (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

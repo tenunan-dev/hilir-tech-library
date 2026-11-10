@@ -1,0 +1,27 @@
+{
+  "id": "national-ccc",
+  "name": "National Carbon Capture Center (US DOE)",
+  "url": "https://www.nationalcarboncapturecenter.com",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "US DOE / Southern Company (operated at NCC Wilsonville)",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "DOE-designated CCS pilot test facility publishing post-combustion capture test-campaign results and cost/performance data for capture technologies. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.nationalcarboncapturecenter.com (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

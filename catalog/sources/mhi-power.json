@@ -1,0 +1,28 @@
+{
+  "id": "mhi-power",
+  "name": "Mitsubishi Power news pages",
+  "url": "https://power.mhi.com/news",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "H2",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Mitsubishi Power (MHI group)",
+  "country": "JP",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Mitsubishi Power news releases carrying ammonia-cofiring and hydrogen-turbine milestones cited on the gas-turbine and ammonia cards. Vendor-site facts free to read. Registered unverified from the citation-mining queue; terms verification pending. Evidence: power.mhi.com/news/231130.html (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

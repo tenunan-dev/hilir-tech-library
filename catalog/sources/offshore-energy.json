@@ -1,0 +1,29 @@
+{
+  "id": "offshore-energy",
+  "name": "Offshore Energy",
+  "url": "https://www.offshore-energy.biz",
+  "source_type": "trade-media",
+  "sectors": [
+    "GAS",
+    "UPS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Navingo",
+  "country": "NL",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Offshore industry news portal, cited for LNG shipping and floating-production milestones (e.g. Hammerfest LNG tanker loads). Registered unverified from the citation-mining queue; terms verification pending. Evidence: offshore-energy.biz Hammerfest LNG article (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

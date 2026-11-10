@@ -1,0 +1,27 @@
+{
+  "id": "alberta-open-data",
+  "name": "Alberta Open Data portal",
+  "url": "https://open.alberta.ca",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Government of Alberta",
+  "country": "CA",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Alberta government open-data portal carrying oil-sands well, production and regulatory datasets relevant to the thermal-EOR and oil-sands cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://open.alberta.ca/dataset/ (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

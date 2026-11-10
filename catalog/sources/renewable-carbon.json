@@ -1,0 +1,29 @@
+{
+  "id": "renewable-carbon",
+  "name": "renewable-carbon.eu (nova-Institute news)",
+  "url": "https://renewable-carbon.eu",
+  "source_type": "trade-media",
+  "sectors": [
+    "PCH",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "nova-Institut",
+  "country": "DE",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "nova-Institute's renewable-carbon news portal covering biobased, CO2-based and chemical-recycling industries, cited on CO2-to-polymers and CCU cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: renewable-carbon.eu/news/?p=91819 citation (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

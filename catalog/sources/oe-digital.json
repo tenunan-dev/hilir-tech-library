@@ -1,0 +1,27 @@
+{
+  "id": "oe-digital",
+  "name": "Offshore Engineer (OE Digital)",
+  "url": "https://www.oedigital.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "AtCom Media",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Offshore engineering news site, cited for deepwater technology items such as subsea boosting milestones. Registered unverified from the citation-mining queue; terms verification pending. Evidence: oedigital.com news item on high-pressure deepwater production (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

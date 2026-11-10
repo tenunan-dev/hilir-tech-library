@@ -1,0 +1,27 @@
+{
+  "id": "northern-lights",
+  "name": "Northern Lights JV news pages",
+  "url": "https://norlights.com/news",
+  "source_type": "agency-data",
+  "sectors": [
+    "CCS",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Northern Lights (Equinor, Shell, TotalEnergies JV)",
+  "country": "NO",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "The Northern Lights CO2 transport-and-storage JV's news pages carry project milestones (first CO2 delivery 2025, phase expansions) cited on CCS-shipping and storage cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://norlights.com/news/northern-lights- (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

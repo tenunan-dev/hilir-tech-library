@@ -1,0 +1,28 @@
+{
+  "id": "usgs-mcs",
+  "name": "USGS Mineral Commodity Summaries",
+  "url": "https://pubs.usgs.gov/periodicals/mcs.html",
+  "source_type": "agency-data",
+  "sectors": [
+    "CCS",
+    "PWR",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "publisher_org": "US Geological Survey",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "annual",
+  "notes": "Annual USGS commodity summaries (cement, lithium, nickel, rare earths etc.) — production and price statistics cited on cement, materials and battery-chain cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: pubs.usgs.gov/periodicals/mcs2021/mcs2021-cement.pdf (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

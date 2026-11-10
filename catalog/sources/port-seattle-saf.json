@@ -1,0 +1,26 @@
+{
+  "id": "port-seattle-saf",
+  "name": "Port of Seattle SAF programme",
+  "url": "https://www.portseattle.org/page/sustainable-aviation-fuels",
+  "source_type": "agency-data",
+  "sectors": [
+    "REF",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "Port of Seattle",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Airport-authority pages on sustainable aviation fuel supply and logistics at Seattle-Tacoma, cited on the SAF card for airport-side uptake evidence. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.portseattle.org/page/sustainable-aviation-fuels (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}
