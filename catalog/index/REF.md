@@ -1,6 +1,6 @@
 # REF: Refining
 
-173 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
+174 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -173,6 +173,7 @@
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
+| [Airlines for America (A4A)](https://www.airlines.org) | association | global | open | catalog-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [VEGA Grieshaber](https://www.vega.com/) | oem-supplier | global | open | summary-only (unverified) |

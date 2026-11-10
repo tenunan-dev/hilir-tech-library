@@ -1,0 +1,29 @@
+{
+  "id": "acwa-power",
+  "name": "ACWA Power project pages",
+  "url": "https://acwapower.com",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "H2",
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "ACWA Power",
+  "country": "SA",
+  "regions": [
+    "me",
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Developer project pages carrying scale and commercialisation facts for flagship projects (NEOM Green Hydrogen Project: 2.2 GW electrolysis, 600 t/day H2) cited on the H2 cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/ (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

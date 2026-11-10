@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-205 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+207 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -59,6 +59,7 @@
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
+| [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only (unverified) |
 | [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
@@ -114,6 +115,7 @@
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted |
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
+| [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted (unverified) |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted |
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |

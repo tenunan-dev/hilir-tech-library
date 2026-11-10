@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-204 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+205 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -57,6 +57,7 @@
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
+| [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [Asian Oil & Gas (AOG) magazine](https://www.aogdigital.com/) | trade-media | sea, apac | open | summary-only (unverified) |

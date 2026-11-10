@@ -21,7 +21,7 @@
    "name": "Triage + register queued source candidates (batches of ~8)",
    "status": "partial",
    "runs": 1,
-   "note": "Resumed 2026-11-11: triaged first 12 of 169 queued citation-mining candidates \u2014 3 registered unverified (chemical-engineering-progress, danimer-sec, digital-refining), 3 blocked-owner (API MPMS, API RP, CCPS LOPA \u2014 paid), 6 rejected (section/project/topic names). Remaining ~157 still queued, same triage pattern.",
+   "note": "Resumed 2026-11-11, three batches (42 of 169): batch 1 \u2014 3 registered unverified (chemical-engineering-progress, danimer-sec, digital-refining), 3 blocked-owner (API/CCPS paid), 6 rejected. Batch 2 \u2014 1 new draft (construction-industry-institute), 6 dedupe-registrations, 5 rejections. Batch 3 \u2014 3 new drafts (thai-dmf, acwa-power, airlines-for-america), 7 dedupe-registrations, 6 rejections. Pattern: queue is mostly existing-record dedupes and unnameable phrases; 127 queued remain.",
    "updated": "2026-11-11"
   },
   {

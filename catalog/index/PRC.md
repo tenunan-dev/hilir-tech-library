@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-223 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+226 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -58,6 +58,7 @@
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
+| [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only (unverified) |
 | [Toyo Engineering](https://www.toyo-eng.com/jp/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
 | [INPEX](https://www.inpex.com.au/) | licensor | apac | open | summary-only (unverified) |
@@ -117,6 +118,7 @@
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
 | [TNO energy and materials transition](https://www.tno.nl/en/sustainable/) | research-institute | eu | open | full-text-restricted |
 | [Torque and Drag Field Applications in Horizontal Wells (IJOGCT 16(3), 2017)](https://id.scribd.com/document/604239685/Torque-and-drag-field-applications-in-horizontal-wells) | journal | global | mixed | full-text-restricted |
+| [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted (unverified) |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted |
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
@@ -213,6 +215,7 @@
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
 | [World Bank Global Flaring & Methane Reduction (GFMR) Partnership](https://www.worldbank.org/en/programs/gasflaringreduction) | agency-data | global | open | full-text-open |
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
+| [Airlines for America (A4A)](https://www.airlines.org) | association | global | open | catalog-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |

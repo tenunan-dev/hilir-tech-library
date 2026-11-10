@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-89 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+90 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
+| [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only (unverified) |
 | [Malaysian Petrochemicals Association](https://www.mpa.org.my/) | association | sea | open | summary-only (unverified) |
 | [AIChE Center for Chemical Process Safety (CCPS)](https://www.aiche.org/ccps) | association | global | mixed | summary-only |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |

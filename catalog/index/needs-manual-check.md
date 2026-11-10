@@ -1,9 +1,11 @@
 # Needs a manual terms check
 
-25 sources whose terms page could not be read automatically.
+28 sources whose terms page could not be read automatically.
 
 | Source | Current reuse level | Finding |
 | --- | --- | --- |
+| [ACWA Power project pages](https://acwapower.com) | full-text-restricted | Developer project pages carrying scale and commercialisation facts for flagship projects (NEOM Green Hydrogen Project: 2.2 GW electrolysis, 600 t/day H2) cited on the H2 cards. Registered unverified from the citation-mining queue; terms verification pending. |
+| [Airlines for America (A4A)](https://www.airlines.org) | catalog-only | US airline industry association whose SAF commitments and offtake news are cited on the sustainable-aviation-fuel card. Registered unverified from the citation-mining queue; terms verification pending. |
 | [ASEAN PATENTSCOPE](https://patentscope.wipo.int/search/en/asean/) | full-text-open | PATENTSCOPE rendered empty to the fetch tool on 2026-10-23; ASEAN path also unconfirmed. |
 | [AspenTech](https://www.aspentech.com/) | full-text-restricted | Terms page blocked to automated fetch (robots disallow) on 2026-10-23; check manually. |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | catalog-only | AIChE member magazine covering process safety, process technology and digitalization. Registered unverified from the citation-mining queue (org phrase in gap hints); terms verification pending. |
@@ -28,4 +30,5 @@
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | full-text-restricted | Terms page exists but its body could not be read on 2026-10-23; check manually. |
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | full-text-restricted | Site not reachable by fetch tool on 2026-10-23. |
 | [TechnipFMC](https://www.technipfmc.com/) | full-text-restricted | Footer links not readable by fetch tool on 2026-10-23; check manually. |
+| [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | catalog-only | Thai upstream regulator under the Ministry of Energy: concession and petroleum-exploration data for the Gulf of Thailand and onshore blocks, relevant to the library's Southeast Asia focus. Registered unverified from the citation-mining queue; terms verification pending. |
 | [Wood](https://www.woodplc.com/) | full-text-restricted | Terms page not found by fetch tool on 2026-10-23. |
