@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-248 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+264 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -57,6 +57,7 @@
 | [NEDO New Energy and Industrial Technology Development Organization](https://www.nedo.go.jp/english/) | agency-data | apac | open | full-text-restricted |
 | [Peraturan.id (BPK regulation database)](https://peraturan.bpk.go.id) | standards-body | sea | open | full-text-open (unverified) |
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
+| [SIRIM (Malaysian standards body)](https://www.sirim.my) | standards-body | sea | mixed | catalog-only (unverified) |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only (unverified) |
@@ -79,11 +80,13 @@
 | [AIChE Journal](https://aiche.onlinelibrary.wiley.com/journal/15475905) | journal | global | mixed | catalog-only (unverified) |
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
+| [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
+| [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | open | full-text-open (unverified) |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
@@ -102,6 +105,8 @@
 | [Industrial & Engineering Chemistry Research (ACS)](https://pubs.acs.org/journal/iecred) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Greenhouse Gas Control](https://www.sciencedirect.com/journal/international-journal-of-greenhouse-gas-control) | journal | global | mixed | catalog-only (unverified) |
 | [International Journal of Hydrogen Energy](https://www.sciencedirect.com/journal/international-journal-of-hydrogen-energy) | journal | global | mixed | catalog-only (unverified) |
+| [ISO 14687 (hydrogen fuel purity)](https://www.iso.org/standard/69542.html) | standards-body | global | paywalled | catalog-only (unverified) |
+| [ISO 19880 (gaseous hydrogen fuelling stations)](https://www.iso.org/standard/71925.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 265 Carbon dioxide capture, transportation and geological storage](https://www.iso.org/committee/648607.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Petroleum Exploration and Production Technology (Springer, OA)](https://link.springer.com/journal/13202) | journal | global | open | full-text-open |
@@ -130,12 +135,14 @@
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
 | [Ammonia Energy Association](https://ammoniaenergy.org/) | association | global | open | full-text-restricted |
+| [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted (unverified) |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
 | [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
+| [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-open (unverified) |
 | [Canadian Energy Research Institute (CERI) studies](https://canadacommons.ca/orgs/canadian-energy-research-institute) | research-institute | na | mixed | full-text-restricted |
 | [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
 | [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
@@ -156,7 +163,9 @@
 | [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/wind-market-reports-2024-edition) | agency-data | na | open | full-text-open |
 | [DOE: Hydrogen Production - Electrolysis (program page)](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis) | oem-supplier | global | open | full-text-open (unverified) |
 | [EAGE (European Association of Geoscientists & Engineers)](https://eage.org) | association | global | mixed | full-text-restricted |
+| [Energy Conversion and Management](https://www.sciencedirect.com/journal/energy-conversion-and-management) | journal | global | mixed | full-text-restricted (unverified) |
 | [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted (unverified) |
+| [Environmental Science & Technology](https://pubs.acs.org/journal/esthag) | journal | global | mixed | full-text-restricted (unverified) |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
@@ -183,6 +192,8 @@
 | [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [ITM Power](https://itm-power.com/) | oem-supplier | global, eu | open | summary-only (unverified) |
 | [Johnson Matthey Catalyst Technologies](https://www.honeywell.com/us/en/lp/ct/overview) | licensor | global | open | catalog-only |
+| [Journal of Cleaner Production](https://www.sciencedirect.com/journal/journal-of-cleaner-production) | journal | global | mixed | full-text-restricted (unverified) |
+| [Journal of Petroleum Science and Engineering](https://www.sciencedirect.com/journal/journal-of-petroleum-science-and-engineering) | journal | global | mixed | full-text-restricted (unverified) |
 | [KBR Technology](https://www.kbr.com/en/solutions/technologies) | licensor | global | open | full-text-restricted |
 | [Ketjen (Albemarle) refining catalysts](https://www.ketjen.com/) | licensor | global | open | full-text-restricted |
 | [Koch Engineered Solutions](https://www.kochengineeredsolutions.com/) | oem-supplier | global | open | summary-only (unverified) |
@@ -216,6 +227,8 @@
 | [SINTEF TCCS-10: Emerging CO2 capture technologies (Garcia)](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-capture-technologies.pdf) | research-institute | global | open | full-text-open (unverified) |
 | [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted |
 | [SLB Capturi (formerly Aker Carbon Capture)](https://www.slbcapturi.com/) | licensor | global | open | full-text-restricted |
+| [SPE Annual Technical Conference and Exhibition (ATCE)](https://www.spe.org/events/atce/) | conference | global | mixed | catalog-only (unverified) |
+| [SPE peer-reviewed journals (Formation Evaluation / Reservoir Evaluation)](https://onepetro.org) | journal | global | mixed | full-text-restricted (unverified) |
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [Sunfire](https://www.sunfire.de/en/) | oem-supplier | eu | open | summary-only (unverified) |
 | [Technip Energies](https://www.ten.com/en) | epc-contractor | global | open | summary-only |
@@ -232,15 +245,18 @@
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
 | [World Bank Global Flaring & Methane Reduction (GFMR) Partnership](https://www.worldbank.org/en/programs/gasflaringreduction) | agency-data | global | open | full-text-open |
+| [World Gas Conference (IGU)](https://www.igu.org/events/world-gas-conference/) | conference | global | mixed | catalog-only (unverified) |
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
 | [Airlines for America (A4A)](https://www.airlines.org) | association | global | open | catalog-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
+| [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [H2 View](https://www.h2-view.com/) | trade-media | global | mixed | summary-only |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only (unverified) |
 | [Offshore Engineer (OE Digital)](https://www.oedigital.com) | trade-media | global | open | catalog-only (unverified) |
 | [Petrofac](https://www.petrofac.com/) | epc-contractor | me, global | open | summary-only (unverified) |

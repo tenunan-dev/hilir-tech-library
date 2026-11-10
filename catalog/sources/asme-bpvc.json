@@ -1,0 +1,29 @@
+{
+  "id": "asme-bpvc",
+  "name": "ASME Boiler & Pressure Vessel Code (BPVC)",
+  "url": "https://www.asme.org/codes-standards/bpvc-2023",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "REF",
+    "PCH",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "ASME",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "The ASME BPVC \u2014 the dominant pressure-equipment construction code cited across boiler, vessel and piping cards. Paid code: record-only, no text collection (decision #29 pattern). Registered unverified from the event sweep. Evidence: https://www.asme.org/codes-standards/bpvc-2023 (2026-10-30, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

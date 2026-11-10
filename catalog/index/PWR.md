@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-149 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+158 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -38,6 +38,7 @@
 | [Philippines Department of Energy](https://doe.gov.ph/) | agency-data | sea | open | full-text-open |
 | [Singapore Energy Market Authority](https://www.ema.gov.sg/) | agency-data | sea | open | full-text-restricted |
 | [Singapore National Climate Change Secretariat](https://www.nccs.gov.sg/) | agency-data | sea | open | full-text-restricted |
+| [SIRIM (Malaysian standards body)](https://www.sirim.my) | standards-body | sea | mixed | catalog-only (unverified) |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
 | [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted |
@@ -54,11 +55,13 @@
 | [Seatrium](https://www.seatrium.com/) | epc-contractor | sea, global | open | summary-only (unverified) |
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
+| [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASME Turbo Expo](https://event.asme.org/Turbo-Expo) | conference | global | mixed | catalog-only (unverified) |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
+| [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | open | full-text-open (unverified) |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
@@ -82,10 +85,12 @@
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs.html) | agency-data | global | open | full-text-open (unverified) |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted (unverified) |
+| [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted (unverified) |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
+| [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-open (unverified) |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [Construction Industry Institute (CII)](https://www.construction-institute.org) | association | global | mixed | catalog-only (unverified) |
@@ -96,7 +101,9 @@
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/wind-market-reports-2024-edition) | agency-data | na | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
+| [Energy Conversion and Management](https://www.sciencedirect.com/journal/energy-conversion-and-management) | journal | global | mixed | full-text-restricted (unverified) |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
+| [Environmental Science & Technology](https://pubs.acs.org/journal/esthag) | journal | global | mixed | full-text-restricted (unverified) |
 | [EPA AP-42 emission factors](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors) | agency-data | na, global | open | full-text-open |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
@@ -116,6 +123,7 @@
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IRENA publications](https://www.irena.org/Publications) | agency-data | global | open | full-text-restricted |
+| [Journal of Cleaner Production](https://www.sciencedirect.com/journal/journal-of-cleaner-production) | journal | global | mixed | full-text-restricted (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
@@ -146,6 +154,7 @@
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
 | [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
+| [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |
 | [Offshore Technology](https://www.offshore-technology.com/) | trade-media | global | open | summary-only (unverified) |
 | [Petrofac](https://www.petrofac.com/) | epc-contractor | me, global | open | summary-only (unverified) |

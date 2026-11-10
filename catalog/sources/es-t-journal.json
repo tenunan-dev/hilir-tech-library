@@ -1,0 +1,28 @@
+{
+  "id": "es-t-journal",
+  "name": "Environmental Science & Technology",
+  "url": "https://pubs.acs.org/journal/esthag",
+  "source_type": "journal",
+  "sectors": [
+    "CCS",
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "American Chemical Society",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary (some OA)",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "ACS environmental journal from the OpenAlex venue sweep, hybrid OA. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

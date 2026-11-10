@@ -1,6 +1,6 @@
 # DIG: Digital
 
-152 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+163 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -55,6 +55,7 @@
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
+| [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | open | full-text-open (unverified) |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
@@ -75,11 +76,13 @@
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted (unverified) |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only |
 | [Alberta Open Data portal](https://open.alberta.ca) | agency-data | na | open | full-text-open (unverified) |
+| [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted (unverified) |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
+| [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-open (unverified) |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
@@ -92,6 +95,7 @@
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Energistics standards (WITSML, PRODML, RESQML)](https://energistics.org/) | standards-body | global | open | full-text-restricted |
+| [Energy Conversion and Management](https://www.sciencedirect.com/journal/energy-conversion-and-management) | journal | global | mixed | full-text-restricted (unverified) |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted (unverified) |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
@@ -113,6 +117,8 @@
 | [IRENA publications](https://www.irena.org/Publications) | agency-data | global | open | full-text-restricted |
 | [ISO 15926 / POSC Caesar reference data library](https://www.posccaesar.org/) | standards-body | global | open | full-text-restricted |
 | [JODI Oil and Gas World Database](https://www.jodidata.org/) | agency-data | global | open | full-text-restricted |
+| [Journal of Cleaner Production](https://www.sciencedirect.com/journal/journal-of-cleaner-production) | journal | global | mixed | full-text-restricted (unverified) |
+| [Journal of Petroleum Science and Engineering](https://www.sciencedirect.com/journal/journal-of-petroleum-science-and-engineering) | journal | global | mixed | full-text-restricted (unverified) |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Mitsubishi Power news pages](https://power.mhi.com/news) | oem-supplier | global | open | full-text-restricted (unverified) |
@@ -132,6 +138,8 @@
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted |
+| [SPE Annual Technical Conference and Exhibition (ATCE)](https://www.spe.org/events/atce/) | conference | global | mixed | catalog-only (unverified) |
+| [SPE peer-reviewed journals (Formation Evaluation / Reservoir Evaluation)](https://onepetro.org) | journal | global | mixed | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
@@ -141,11 +149,14 @@
 | [Weatherford](https://www.weatherford.com/) | oem-supplier | global | open | full-text-restricted |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [World Bank DataBank](https://databank.worldbank.org) | agency-data | global | open | full-text-open (unverified) |
+| [World Gas Conference (IGU)](https://www.igu.org/events/world-gas-conference/) | conference | global | mixed | catalog-only (unverified) |
 | [World Oil](https://www.worldoil.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
+| [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
 | [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
+| [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only (unverified) |
 | [Offshore Engineer (OE Digital)](https://www.oedigital.com) | trade-media | global | open | catalog-only (unverified) |
 | [Offshore Technology](https://www.offshore-technology.com/) | trade-media | global | open | summary-only (unverified) |

@@ -1,0 +1,29 @@
+{
+  "id": "egypes",
+  "name": "EGYPES (Egypt Energy Show)",
+  "url": "https://egypes.com",
+  "source_type": "conference",
+  "sectors": [
+    "GAS",
+    "H2",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "dmg events",
+  "country": "EG",
+  "regions": [
+    "me",
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "annual",
+  "notes": "North-Africa energy exhibition (dmg events), relevant to the library's Middle East coverage. Registered unverified from the event sweep; terms verification pending. Evidence: https://egypes.com (2026-10-30, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "j-cleaner-production",
+  "name": "Journal of Cleaner Production",
+  "url": "https://www.sciencedirect.com/journal/journal-of-cleaner-production",
+  "source_type": "journal",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Elsevier",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary (some OA)",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Elsevier sustainability/energy journal prominent in the OpenAlex sweep; hybrid OA with many CC-BY articles. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

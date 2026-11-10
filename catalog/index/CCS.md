@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-145 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+151 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -51,6 +51,7 @@
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
+| [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | open | full-text-open (unverified) |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
@@ -84,6 +85,7 @@
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs.html) | agency-data | global | open | full-text-open (unverified) |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted |
+| [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted (unverified) |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
@@ -94,7 +96,9 @@
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
+| [Energy Conversion and Management](https://www.sciencedirect.com/journal/energy-conversion-and-management) | journal | global | mixed | full-text-restricted (unverified) |
 | [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted (unverified) |
+| [Environmental Science & Technology](https://pubs.acs.org/journal/esthag) | journal | global | mixed | full-text-restricted (unverified) |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
@@ -107,6 +111,7 @@
 | [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
 | [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
+| [Journal of Cleaner Production](https://www.sciencedirect.com/journal/journal-of-cleaner-production) | journal | global | mixed | full-text-restricted (unverified) |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
@@ -141,6 +146,7 @@
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
+| [World Gas Conference (IGU)](https://www.igu.org/events/world-gas-conference/) | conference | global | mixed | catalog-only (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |

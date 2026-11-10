@@ -1,0 +1,29 @@
+{
+  "id": "eesc-journal",
+  "name": "Energy & Environmental Science",
+  "url": "https://pubs.rsc.org/en/journal/eesc",
+  "source_type": "journal",
+  "sectors": [
+    "H2",
+    "CCS",
+    "PWR",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Royal Society of Chemistry",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-NC or proprietary (hybrid)",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "monthly",
+  "notes": "Gold open-access RSC journal at the top of the OpenAlex venue sweep; high-impact reviews on energy conversion and CO2 utilisation. Registered unverified from the citation-graph sweep; per-article licences vary. Evidence: OpenAlex venue-frequency citation-graph sweep (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

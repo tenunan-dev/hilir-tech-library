@@ -1,6 +1,6 @@
 # MID: Midstream
 
-81 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+83 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -34,6 +34,7 @@
 | [IECEx System (IEC System for Certification to Standards relating to Equipment for use in Explosive Atmospheres)](https://www.iecex.com/) | standards-body | global | open | summary-only |
 | [IMO MARPOL (International Maritime Organization)](https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx) | standards-body | global | mixed | summary-only |
 | [IOGP JIP33 Standardized equipment specifications](https://www.iogp.org/workstreams/engineering/standards/jip33/) | association | global | free-registration | full-text-restricted |
+| [ISO 19880 (gaseous hydrogen fuelling stations)](https://www.iso.org/standard/71925.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Materials (MDPI)](https://www.mdpi.com/journal/materials) | journal | global | open | full-text-open |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
@@ -59,6 +60,7 @@
 | [International Gas Union](https://www.igu.org/) | association | global | open | summary-only |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
+| [Journal of Petroleum Science and Engineering](https://www.sciencedirect.com/journal/journal-of-petroleum-science-and-engineering) | journal | global | mixed | full-text-restricted (unverified) |
 | [Journal of Petroleum Technology (JPT)](https://jpt.spe.org/) | trade-media | global | open | summary-only (unverified) |
 | [KROHNE](https://krohne.com/) | oem-supplier | global | open | summary-only |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |

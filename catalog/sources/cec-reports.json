@@ -1,0 +1,28 @@
+{
+  "id": "cec-reports",
+  "name": "California Energy Commission reports",
+  "url": "https://www.energy.ca.gov",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "H2",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "California Energy Commission",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "CEC staff reports (e.g. CEC-600-2017-011 on electricity cost studies) — open state publications cited on power-cost cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: ww2.energy.ca.gov CEC-600-2017-011.pdf citation (2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,28 @@
+{
+  "id": "jpse-journal",
+  "name": "Journal of Petroleum Science and Engineering",
+  "url": "https://www.sciencedirect.com/journal/journal-of-petroleum-science-and-engineering",
+  "source_type": "journal",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Elsevier",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary (some OA)",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Elsevier petroleum-engineering journal from the OpenAlex venue sweep, hybrid OA. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

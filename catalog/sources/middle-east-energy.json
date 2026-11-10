@@ -1,0 +1,29 @@
+{
+  "id": "middle-east-energy",
+  "name": "Middle East Energy (Dubai)",
+  "url": "https://www.middleeast-energy.com",
+  "source_type": "conference",
+  "sectors": [
+    "PWR",
+    "UPS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Informa Markets",
+  "country": "AE",
+  "regions": [
+    "me",
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "annual",
+  "notes": "Dubai-based power/transmission expo relevant to the library's Middle East power coverage. Registered unverified from the event sweep; terms verification pending. Evidence: https://www.middleeast-energy.com (2026-10-30, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

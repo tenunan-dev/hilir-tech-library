@@ -1,0 +1,29 @@
+{
+  "id": "sirim",
+  "name": "SIRIM (Malaysian standards body)",
+  "url": "https://www.sirim.my",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "REF",
+    "PCH",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "SIRIM QAS International",
+  "country": "MY",
+  "regions": [
+    "sea"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Malaysia's national standards and certification body — MS standards adoption matters for the library's Southeast Asia weighting. Registered unverified from the event sweep; terms verification pending. Evidence: https://www.sirim.my (2026-10-30, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

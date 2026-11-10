@@ -1,0 +1,28 @@
+{
+  "id": "ecm-journal",
+  "name": "Energy Conversion and Management",
+  "url": "https://www.sciencedirect.com/journal/energy-conversion-and-management",
+  "source_type": "journal",
+  "sectors": [
+    "PWR",
+    "H2",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Elsevier",
+  "country": "NL",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary (some OA)",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Elsevier energy-conversion journal from the OpenAlex venue sweep, hybrid OA. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}
