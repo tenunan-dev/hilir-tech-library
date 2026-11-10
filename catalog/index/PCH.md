@@ -1,6 +1,6 @@
 # PCH: Petrochemicals
 
-139 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+142 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -84,9 +84,12 @@
 | [Cefic European Chemical Industry Council](https://cefic.org/) | association | eu | open | full-text-restricted |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
+| [Danimer Scientific SEC filings (EDGAR)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001814097&type=10-K) | agency-data | global | open | full-text-open (unverified) |
 | [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
+| [DigitalRefining](https://www.digitalrefining.co.uk/) | trade-media | global | mixed | catalog-only (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |

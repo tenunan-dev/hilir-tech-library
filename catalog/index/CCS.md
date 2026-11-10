@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-133 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+134 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -86,6 +86,7 @@
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
+| [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |

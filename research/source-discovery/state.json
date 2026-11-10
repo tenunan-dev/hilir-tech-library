@@ -1,106 +1,107 @@
 {
-  "updated": "2026-11-03",
-  "note": "Live sequencer state for docs/SOURCE_DISCOVERY_PLAN.md blocks. Any agent: update after every block completion, failure or re-plan. Statuses: queued | running | done | partial | blocked-temporary (has retry_after + retries) | blocked-owner. Re-sequence freely after each block; never delete rows.",
-  "blocks": [
-    {
-      "id": "A1",
-      "name": "Seed candidate harvest from gaps.md where-hints (manual pre-pass)",
-      "status": "done",
-      "runs": 1,
-      "note": "43 candidates queued 2026-10-29"
-    },
-    {
-      "id": "A2",
-      "name": "Write tools/discover_sources.py (channel-1 script) and run over corpus + gaps",
-      "status": "done",
-      "runs": 1,
-      "note": "discover_sources.py + 6 tests committed; strict run 172 new candidates (84 phrases, 88 URLs, deduped vs queue); full --all report 580 rows at research/source-discovery/report-2026-10-29.txt"
-    },
-    {
-      "id": "A3",
-      "name": "Triage + register queued source candidates (batches of ~8)",
-      "status": "partial",
-      "runs": 1,
-      "note": "batches 1-5 done: 45 sources registered this plan (68 rows incl. earlier), 7 rejected, 4 blocked-owner; 169 queued. Batch 5 (2026-11-03): vendors hengli-petrochemical, nayara-energy, soluforce, pln + catalog/sources/aer; bp enriched with the Cativa licensor role + pch-acetic-acid link; CCAC OGMP and Kanadeva rows resolved as duplicates (ogmp record existed; hitachi-zosen already claims the Kanadevia alias). Next: continue batches of 8, prioritising named orgs over one-off URLs."
-    },
-    {
-      "id": "A4",
-      "name": "Vendor categories: optional schema field + backfill all vendors",
-      "status": "done",
-      "runs": 1,
-      "note": "categories enum added to schema (12 values) + presence test; tools/categorise_vendors.py rule-based backfill wrote all 390 records (distribution: equipment-oem 389, plant-epc 32, process-licensor 32, operator 28, materials-supplier 26, offshore-epc 25, oilfield-service 16, power-rental 6, shipyard 6, fabrication 5, utility 4, engineering-consultancy 4); gates green (808 passed). Follow-up A4b: flash refinement sweep of multi-category + fallback-heavy records"
-    },
-    {
-      "id": "A5",
-      "name": "Source miscategorization audit (source_type/sectors) + fixes",
-      "status": "done",
-      "runs": 1,
-      "note": "audit 2026-10-29: scripted sweep over all 394 records (type-vs-publisher patterns, year URLs). 7 flags, 6 false positives (DOE labs/Lemigas correctly research-institute; CHT borderline kept); lng-conference year-URL deliberate, note added. No type changes needed - catalog typing healthy."
-    },
-    {
-      "id": "A6",
-      "name": "Verification sweep of 193 unverified source records",
-      "status": "partial",
-      "runs": 1,
-      "note": "batches 1-3 done: 16 verified (batch 3, 2026-11-03: abb-energy + h2-view with access corrected open->mixed; the apply_verification tool now backfills missing checked_on dates from findings). ~169 remain, priority: named-org agency/standards bodies before journals."
-    },
-    {
-      "id": "A7",
-      "name": "Vendor-provenance crawl (channel 3), contractor cohort first",
-      "status": "partial",
-      "runs": 1,
-      "note": "curl crawl of 14 contractor-cohort sites yielded 42 files but mostly JS shells/error pages (wison empty, toyo error page, daelim 1-2KB); 0 standards extractable from plain HTML. NEXT: browser-use skill for provenance crawl (corporate sites are JS-walled). Files kept in research/provenance/ (gitignored)"
-    },
-    {
-      "id": "A8",
-      "name": "OpenAlex/Crossref venue sweep (channel 2), 50 docs",
-      "status": "done",
-      "runs": 1,
-      "note": "sweep complete 2026-10-29: 50 docs, 24 matched, 8 venues flagged and queued (EES, JCP, ES&T, ECM, Applied Energy, SPE journals, JPSE); report research/source-discovery/openalex-venues.txt; script research/source-discovery/openalex_sweep.py (needs parents[2] fix note: committed)"
-    },
-    {
-      "id": "A9",
-      "name": "Event + standards-body sweep (channel 4)",
-      "status": "done",
-      "runs": 1,
-      "note": "10 candidates queued (SPE ATCE, WGC, EGYPES, MEE, ISO 19880/14687, ASME BPVC, SIRIM, NITC; NPRA rejected). Catalogued events healthy"
-    },
-    {
-      "id": "A10",
-      "name": "EUBCE proceedings batch 1 + intake",
-      "status": "blocked-owner",
-      "runs": 1,
-      "note": "EUBCE proceedings confirmed open-access-behind-free-registration (etaflorence.it/proceedings; search by edition/topic). Owners needs to create the free account (collectors do not register accounts); then PDFs drop into corpus/_inbox/eubce/ and collect.py --manual runs. eubce record corrected to access=free-registration."
-    },
-    {
-      "id": "A11",
-      "name": "Vendor cohorts: Western EPC, NOC engineering arms, SEA contractors, alias fixes",
-      "status": "done",
-      "runs": 1,
-      "note": "Western EPC (fluor, wood, petrofac, worley, bechtel, mcdermott) + NOC arms (cooec, cpecc) registered; PetroChina arm covered by cnpc+cpecc (no separate record); Kanadevia alias fix applied. SEA contractors sub-cohort still queued -> moved to A11 note: split, SEA remains"
-    },
-    {
-      "id": "A12",
-      "name": "Publish cycle: embed + Neon reload + wrangler deploy + live check",
-      "status": "done",
-      "retries": 0,
-      "retry_after": "after any 2 content blocks land",
-      "note": "republish 2026-10-30 (JEREH vendor added): build 399/299/415, embed 12,579 rows, Neon reload (399/202/299/415/3,437 nodes/10,322 edges/12,579 vectors), commit c01e094, deploy Worker 8bc2c1e3 live-verified /api/stats 415 vendors + /api/vendors/jereh",
-      "runs": 3
-    },
-    {
-      "id": "A4b",
-      "name": "Flash refinement sweep of vendor categories (multi-category + equipment-oem fallback records)",
-      "status": "done",
-      "runs": 0,
-      "note": "two serial flash batches reviewed all 413 records: 200 corrected (chemicals->materials-supplier, supermajors->operator, EPC stripped of equipment-oem, services->oilfield-service, institutes->engineering-consultancy, utilities->utility). Distribution now: equipment-oem 223, operator 67, process-licensor 52, materials-supplier 47, plant-epc 36, oilfield-service 25, offshore-epc 19, consultancy 17, utility 9, power-rental 6, shipyard 6, fabrication 3"
-    }
-  ],
-  "parked_owner": [
-    "Gas Turbine World handbook purchase (manual extracts)",
-    "Nelson-Farrar / IHS PEP / Wood Mackenzie subscriptions",
-    "18 bot-walled terms pages + PetroWiki/OnePetro (human browsing, docs/HUMAN_ACTION_KIV.md)",
-    "iRecruit-style future inbox drops (continuous)",
-    "Auto-deploy secret, Dataverse import, LIBRARY_USERS, claude.ai connector, Copilot Studio"
-  ]
+ "updated": "2026-11-11",
+ "note": "Live sequencer state for docs/SOURCE_DISCOVERY_PLAN.md blocks. Any agent: update after every block completion, failure or re-plan. Statuses: queued | running | done | partial | blocked-temporary (has retry_after + retries) | blocked-owner. Re-sequence freely after each block; never delete rows.",
+ "blocks": [
+  {
+   "id": "A1",
+   "name": "Seed candidate harvest from gaps.md where-hints (manual pre-pass)",
+   "status": "done",
+   "runs": 1,
+   "note": "43 candidates queued 2026-10-29"
+  },
+  {
+   "id": "A2",
+   "name": "Write tools/discover_sources.py (channel-1 script) and run over corpus + gaps",
+   "status": "done",
+   "runs": 1,
+   "note": "discover_sources.py + 6 tests committed; strict run 172 new candidates (84 phrases, 88 URLs, deduped vs queue); full --all report 580 rows at research/source-discovery/report-2026-10-29.txt"
+  },
+  {
+   "id": "A3",
+   "name": "Triage + register queued source candidates (batches of ~8)",
+   "status": "partial",
+   "runs": 1,
+   "note": "Resumed 2026-11-11: triaged first 12 of 169 queued citation-mining candidates \u2014 3 registered unverified (chemical-engineering-progress, danimer-sec, digital-refining), 3 blocked-owner (API MPMS, API RP, CCPS LOPA \u2014 paid), 6 rejected (section/project/topic names). Remaining ~157 still queued, same triage pattern.",
+   "updated": "2026-11-11"
+  },
+  {
+   "id": "A4",
+   "name": "Vendor categories: optional schema field + backfill all vendors",
+   "status": "done",
+   "runs": 1,
+   "note": "categories enum added to schema (12 values) + presence test; tools/categorise_vendors.py rule-based backfill wrote all 390 records (distribution: equipment-oem 389, plant-epc 32, process-licensor 32, operator 28, materials-supplier 26, offshore-epc 25, oilfield-service 16, power-rental 6, shipyard 6, fabrication 5, utility 4, engineering-consultancy 4); gates green (808 passed). Follow-up A4b: flash refinement sweep of multi-category + fallback-heavy records"
+  },
+  {
+   "id": "A5",
+   "name": "Source miscategorization audit (source_type/sectors) + fixes",
+   "status": "done",
+   "runs": 1,
+   "note": "audit 2026-10-29: scripted sweep over all 394 records (type-vs-publisher patterns, year URLs). 7 flags, 6 false positives (DOE labs/Lemigas correctly research-institute; CHT borderline kept); lng-conference year-URL deliberate, note added. No type changes needed - catalog typing healthy."
+  },
+  {
+   "id": "A6",
+   "name": "Verification sweep of 193 unverified source records",
+   "status": "partial",
+   "runs": 1,
+   "note": "batches 1-3 done: 16 verified (batch 3, 2026-11-03: abb-energy + h2-view with access corrected open->mixed; the apply_verification tool now backfills missing checked_on dates from findings). ~169 remain, priority: named-org agency/standards bodies before journals."
+  },
+  {
+   "id": "A7",
+   "name": "Vendor-provenance crawl (channel 3), contractor cohort first",
+   "status": "partial",
+   "runs": 1,
+   "note": "curl crawl of 14 contractor-cohort sites yielded 42 files but mostly JS shells/error pages (wison empty, toyo error page, daelim 1-2KB); 0 standards extractable from plain HTML. NEXT: browser-use skill for provenance crawl (corporate sites are JS-walled). Files kept in research/provenance/ (gitignored)"
+  },
+  {
+   "id": "A8",
+   "name": "OpenAlex/Crossref venue sweep (channel 2), 50 docs",
+   "status": "done",
+   "runs": 1,
+   "note": "sweep complete 2026-10-29: 50 docs, 24 matched, 8 venues flagged and queued (EES, JCP, ES&T, ECM, Applied Energy, SPE journals, JPSE); report research/source-discovery/openalex-venues.txt; script research/source-discovery/openalex_sweep.py (needs parents[2] fix note: committed)"
+  },
+  {
+   "id": "A9",
+   "name": "Event + standards-body sweep (channel 4)",
+   "status": "done",
+   "runs": 1,
+   "note": "10 candidates queued (SPE ATCE, WGC, EGYPES, MEE, ISO 19880/14687, ASME BPVC, SIRIM, NITC; NPRA rejected). Catalogued events healthy"
+  },
+  {
+   "id": "A10",
+   "name": "EUBCE proceedings batch 1 + intake",
+   "status": "blocked-owner",
+   "runs": 1,
+   "note": "EUBCE proceedings confirmed open-access-behind-free-registration (etaflorence.it/proceedings; search by edition/topic). Owners needs to create the free account (collectors do not register accounts); then PDFs drop into corpus/_inbox/eubce/ and collect.py --manual runs. eubce record corrected to access=free-registration."
+  },
+  {
+   "id": "A11",
+   "name": "Vendor cohorts: Western EPC, NOC engineering arms, SEA contractors, alias fixes",
+   "status": "done",
+   "runs": 1,
+   "note": "Western EPC (fluor, wood, petrofac, worley, bechtel, mcdermott) + NOC arms (cooec, cpecc) registered; PetroChina arm covered by cnpc+cpecc (no separate record); Kanadevia alias fix applied. SEA contractors sub-cohort still queued -> moved to A11 note: split, SEA remains"
+  },
+  {
+   "id": "A12",
+   "name": "Publish cycle: embed + Neon reload + wrangler deploy + live check",
+   "status": "done",
+   "retries": 0,
+   "retry_after": "after any 2 content blocks land",
+   "note": "republish 2026-10-30 (JEREH vendor added): build 399/299/415, embed 12,579 rows, Neon reload (399/202/299/415/3,437 nodes/10,322 edges/12,579 vectors), commit c01e094, deploy Worker 8bc2c1e3 live-verified /api/stats 415 vendors + /api/vendors/jereh",
+   "runs": 3
+  },
+  {
+   "id": "A4b",
+   "name": "Flash refinement sweep of vendor categories (multi-category + equipment-oem fallback records)",
+   "status": "done",
+   "runs": 0,
+   "note": "two serial flash batches reviewed all 413 records: 200 corrected (chemicals->materials-supplier, supermajors->operator, EPC stripped of equipment-oem, services->oilfield-service, institutes->engineering-consultancy, utilities->utility). Distribution now: equipment-oem 223, operator 67, process-licensor 52, materials-supplier 47, plant-epc 36, oilfield-service 25, offshore-epc 19, consultancy 17, utility 9, power-rental 6, shipyard 6, fabrication 3"
+  }
+ ],
+ "parked_owner": [
+  "Gas Turbine World handbook purchase (manual extracts)",
+  "Nelson-Farrar / IHS PEP / Wood Mackenzie subscriptions",
+  "18 bot-walled terms pages + PetroWiki/OnePetro (human browsing, docs/HUMAN_ACTION_KIV.md)",
+  "iRecruit-style future inbox drops (continuous)",
+  "Auto-deploy secret, Dataverse import, LIBRARY_USERS, claude.ai connector, Copilot Studio"
+ ]
 }

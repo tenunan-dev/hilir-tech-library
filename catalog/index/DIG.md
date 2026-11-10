@@ -1,6 +1,6 @@
 # DIG: Digital
 
-134 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+136 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -75,11 +75,13 @@
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
+| [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
+| [DigitalRefining](https://www.digitalrefining.co.uk/) | trade-media | global | mixed | catalog-only (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
 | [Energistics standards (WITSML, PRODML, RESQML)](https://energistics.org/) | standards-body | global | open | full-text-restricted |

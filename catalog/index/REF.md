@@ -1,6 +1,6 @@
 # REF: Refining
 
-170 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
+172 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -99,6 +99,7 @@
 | [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chevron Lummus Global (CLG)](https://www.chevronlummus.com/) | licensor | global | open | full-text-restricted |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
@@ -106,6 +107,7 @@
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
+| [DigitalRefining](https://www.digitalrefining.co.uk/) | trade-media | global | mixed | catalog-only (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [Elliott Group](https://www.elliott-turbo.com/) | oem-supplier | global | open | full-text-restricted |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |

@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-134 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+135 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -81,6 +81,7 @@
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
+| [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |

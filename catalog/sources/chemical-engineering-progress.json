@@ -1,0 +1,31 @@
+{
+  "id": "chemical-engineering-progress",
+  "name": "Chemical Engineering Progress (CEP Magazine)",
+  "url": "https://www.aiche.org/cep",
+  "source_type": "trade-media",
+  "sectors": [
+    "REF",
+    "PCH",
+    "H2",
+    "CCS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE",
+    "DIG"
+  ],
+  "publisher_org": "AIChE",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "AIChE member magazine covering process safety, process technology and digitalization. Registered unverified from the citation-mining queue (org phrase in gap hints); terms verification pending. Evidence: https://www.aiche.org/cep (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

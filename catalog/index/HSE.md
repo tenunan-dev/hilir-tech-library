@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-88 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+89 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -62,6 +62,7 @@
 | [Alberta Energy Regulator (AER)](https://www.aer.ca) | agency-data | na | open | full-text-open |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
 | [Cefic European Chemical Industry Council](https://cefic.org/) | association | eu | open | full-text-restricted |
+| [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |

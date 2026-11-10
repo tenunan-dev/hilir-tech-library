@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-220 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+223 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -131,13 +131,16 @@
 | [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chevron Lummus Global (CLG)](https://www.chevronlummus.com/) | licensor | global | open | full-text-restricted |
 | [Clean Hydrogen Partnership (EU) programme reviews](https://www.clean-hydrogen.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
+| [Danimer Scientific SEC filings (EDGAR)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001814097&type=10-K) | agency-data | global | open | full-text-open (unverified) |
 | [DEXPI P&ID data exchange standard](https://dexpi.org/) | standards-body | global | open | full-text-open |
+| [DigitalRefining](https://www.digitalrefining.co.uk/) | trade-media | global | mixed | catalog-only (unverified) |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [DOE Hydrogen Program Records and H2A/HDSAM analysis](https://www.hydrogen.energy.gov/program-areas/systems-analysis/h2a-analysis/h2a-delivery) | agency-data | na, global | open | full-text-open |
 | [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/wind-market-reports-2024-edition) | agency-data | na | open | full-text-open |

@@ -1,0 +1,25 @@
+{
+  "id": "danimer-sec",
+  "name": "Danimer Scientific SEC filings (EDGAR)",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001814097&type=10-K",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "publisher_org": "US SEC EDGAR",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "quarterly",
+  "notes": "PHA bioplastics producer's SEC filings (10-K/10-Q) carrying PHA capacity, cost and commercialisation figures cited on the PHA cards; EDGAR is a reachable mirror host. Registered unverified from the citation-mining queue; terms verification pending. Evidence: sec.gov EDGAR CIK 0001814097 (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "digital-refining",
+  "name": "DigitalRefining",
+  "url": "https://www.digitalrefining.co.uk/",
+  "source_type": "trade-media",
+  "sectors": [
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "MEED Media (DigitalRefining)",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Refining and petrochemical technology articles/practitioner papers cited in REF gaps (revamps, FCC, hydrogen management). Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.digitalrefining.co.uk/ (not yet fetched, 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}
