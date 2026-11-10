@@ -8,6 +8,21 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.11.2] — 2026-11-11 — Tier-2 browser pass published: blocked vendors, IRENA terms, first cost fills
+
+### Added
+
+- 4 vendor records via the interactive browser: Dräger (safety/gas detection), Furse (ABB earthing and lightning protection), Kiewit (Cloudflare challenge passed in-browser; EPC), LS Cable & System (minimal record, site under maintenance) — directory now 461 records.
+- 2 IRENA publications collected with summaries: Innovation Outlook Renewable Methanol 2021 and Renewable Power Generation Costs in 2023 executive summary.
+
+### Changed
+
+- IRENA source record: terms page read 2026-11-11 (attributed use permitted, per-publication terms govern) — the 2026-10-23 "check manually" note closed.
+
+### Fixed
+
+- Cost gaps closed with verified figures: offshore wind fixed-bottom (IRENA 2023: 2,800 USD/kW installed, 41% capacity factor, 0.075 USD/kWh LCOE) and CO2-to-methanol (IRENA 2021: e-methanol 820-2,380 USD/t by CO2 source, bio-methanol 327-764 USD/t).
+
 ## [2026.11.11.1] — 2026-11-11 — Tier-1 content pass published: vendor queue batch + corpus intake
 
 ### Added

@@ -31,9 +31,9 @@
 | --- | --- |
 | Catalog sources | 407 valid, 407 unique ids |
 | Technology cards | 334 (341-entry register) |
-| Vendor records | 457 |
+| Vendor records | 461 |
 | Equipment classes | 8 (five boiler classes, centrifugal compressor, centrifugal pump, industrial gas turbine) |
-| Corpus documents | 287, each with a hand-written summary (14,948 chunks) |
+| Corpus documents | 289, each with a hand-written summary (15,115 chunks) |
 
 Verified live 2026-11-11: Neon reloaded (407 sources / 457 vendors / 334 cards / 8 equipment /
 14,948 chunks / 3,720 nodes / 13,140 edges / 16,154 vectors) and both containers re-deployed from
