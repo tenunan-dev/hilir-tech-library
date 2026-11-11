@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.11.4] — 2026-11-11 — Discovery triage batches 3–7: catalog to 453 sources
+
+### Added
+
+- 42 new unverified source drafts from the discovery queue, including high-value open sources: LBNL EMP wind PPA prices, Danish Energy Agency Technology Data, eCFR (PHMSA pipeline safety), World Bank DataBank, FRED, USGS Mineral Commodity Summaries, PMC/Europe PMC, Siemens/Mitsubishi Power news, National Carbon Capture Center, Northern Lights, Net Zero Teesside, Alberta open data, BPK regulations (Indonesia), SIRIM (Malaysia), and six journals plus three conferences and three standards bodies (ISO 19880/14687, ASME BPVC — paid, record-only).
+- Catalog now **453 sources**.
+
+### Fixed
+
+- Discovery queue: 100 of 169 queued candidates triaged (mostly duplicate registrations and unnameable phrases; 55 remain).
+
 ## [2026.11.11.3] — 2026-11-11 — Continuous pass: project-evidence gaps closed, triage batch 2
 
 ### Added
