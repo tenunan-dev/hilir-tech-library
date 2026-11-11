@@ -8,6 +8,14 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.12.2] — 2026-11-12 — IDC card set complete: power, UPS, grid and siting
+
+### Added
+
+- Four sourced cards completing the first IDC set: **behind-the-meter gas** (GE Vernova 14-day TM2500 installs, 7HA.03 430 MW, the ~46-project/56 GW self-build boom), **UPS systems** (Liebert EXL S1 100–1200 kW scaling to ~9.6 MW), **grid interaction** (Enel X Digital Realty sub-0.5 s frequency response; Microsoft battery-sharing), and **siting & power procurement** (AirTrunk Malaysia 700 MW+ corridor).
+- Project record: **airtrunk-malaysia-platform** (Johor + Cyberjaya, 700+ MW, under construction).
+- Catalog: 340 cards / 235 projects.
+
 ## [2026.11.12.1] — 2026-11-12 — Projects become a first-class entity; IDC sector opens
 
 ### Added
