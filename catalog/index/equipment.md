@@ -1,6 +1,6 @@
 # Equipment catalog
 
-8 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+9 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -173,3 +173,23 @@ Recorded gaps:
 - heavy-frame (H/F-class) power and efficiency ranges per model — locate the current 9HA/SGT product pages (or fact-sheet PDFs) and add heavy-frame output/efficiency ranges and vendor model lines
 - Solar Turbines Titan-family model ranges for the 1-25 MW industrial segment — fetch Titan 130 / Taurus 70 pages via a browser session and add model lines
 - exhaust-temperature and exhaust-flow ranges that drive HRSG sizing — extract per-model exhaust data from the OEM spec tables already cited on the combined-cycle cards
+
+## ups
+
+### Data centre UPS (uninterruptible power supply) (ups-data-centre)
+
+Primary code: IDC: Data centres
+Double-conversion UPS systems sized per data hall and paralleled to multi-MW capacity, bridging the IT load between a mains disturbance and generator pickup. The class follows the same specification pattern as industrial UPS but is driven by hyperscale density, lithium-ion adoption and, increasingly, grid-interactive operation.
+Vendors: Vertiv, Schneider Electric, Eaton, ABB (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| unit power range, Vertiv Liebert EXL S1 class | 100-1200 kW | 100-1200 kW per unit, transformer-free high-density design; parallel systems to about 9.6 MW |
+| parallel system capacity, EXL S1 fleet | 9.6 MW | about 9.6 MW via parallel deployment, suitable for a 20 MW data-centre design |
+
+- **Vertiv** Liebert EXL S1: 100-1200 kW per unit, parallel to about 9.6 MW
+
+Recorded gaps:
+
+- efficiency per operating mode (double-conversion vs eco) — Read the EXL S1 datasheet efficiency tables and record per-mode figures
+- Schneider Galaxy VX/VL and Eaton 93PM capacity ranges — Read both vendor product pages and add model lines

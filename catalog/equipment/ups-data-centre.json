@@ -1,0 +1,77 @@
+{
+  "id": "ups-data-centre",
+  "name": "Data centre UPS (uninterruptible power supply)",
+  "equipment_type": "ups",
+  "sector": "IDC",
+  "sector_codes": ["IDC", "ELE"],
+  "description": "Double-conversion UPS systems sized per data hall and paralleled to multi-MW capacity, bridging the IT load between a mains disturbance and generator pickup. The class follows the same specification pattern as industrial UPS but is driven by hyperscale density, lithium-ion adoption and, increasingly, grid-interactive operation.",
+  "subtypes": [
+    {
+      "name": "Double-conversion (online) UPS",
+      "description": "Full rectifier-inverter conditioning of the IT load; the standard for data halls."
+    },
+    {
+      "name": "Modular / scalable UPS",
+      "description": "Power and battery modules added in-frame or in parallel as the hall fills."
+    },
+    {
+      "name": "Grid-interactive UPS",
+      "description": "Fleets that sell frequency response or demand flexibility from the same batteries (see idc-grid-interaction)."
+    }
+  ],
+  "applications": ["colocation halls", "hyperscale campuses", "enterprise data rooms", "frequency-response fleets"],
+  "specifications": [
+    {
+      "metric": "unit power range, Vertiv Liebert EXL S1 class",
+      "unit": "kW",
+      "low": 100,
+      "high": 1200,
+      "basis": "100-1200 kW per unit, transformer-free high-density design; parallel systems to about 9.6 MW",
+      "source": {
+        "url": "https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1",
+        "note": "Vertiv Liebert EXL S1 campaign page, read 2026-11-12"
+      }
+    },
+    {
+      "metric": "parallel system capacity, EXL S1 fleet",
+      "unit": "MW",
+      "low": 9.6,
+      "high": 9.6,
+      "basis": "about 9.6 MW via parallel deployment, suitable for a 20 MW data-centre design",
+      "source": {
+        "url": "https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "note": "Liebert EXL S1 brochure, read via search summary 2026-11-12"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "vertiv",
+      "line": "Liebert EXL S1",
+      "models": ["100 kW", "1000 kW", "1100 kW", "1200 kW (60 Hz UL)"],
+      "range": "100-1200 kW per unit, parallel to about 9.6 MW"
+    }
+  ],
+  "vendors": ["vertiv", "schneider-electric", "eaton", "abb"],
+  "technologies": ["idc-ups-systems", "idc-grid-interaction"],
+  "sources": [
+    {
+      "url": "https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1",
+      "note": "Vertiv Liebert EXL S1 campaign page, read 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "efficiency per operating mode (double-conversion vs eco)",
+      "why": "Vendor datasheets carry the tables but were not read this pass",
+      "next_action": "Read the EXL S1 datasheet efficiency tables and record per-mode figures"
+    },
+    {
+      "what": "Schneider Galaxy VX/VL and Eaton 93PM capacity ranges",
+      "why": "Not yet fetched",
+      "next_action": "Read both vendor product pages and add model lines"
+    }
+  ],
+  "notes": "First data-centre equipment class (decision #33 pattern, IDC extension). Battery-cycling trade-offs for grid-interactive fleets are recorded on the idc-grid-interaction card.",
+  "last_reviewed": "2026-11-12"
+}

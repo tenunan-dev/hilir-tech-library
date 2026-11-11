@@ -1,0 +1,17 @@
+{
+  "id": "fortis-construction",
+  "name": "Fortis Construction",
+  "country": "USA",
+  "roles": ["epc"],
+  "categories": ["plant-epc"],
+  "description": "Pacific-Northwest general contractor (ENR Top-30 Green Contractor) expanding into a new industrial business unit covering emerging energy, technology and manufacturing — the growth path into data-centre and power work.",
+  "technologies": ["idc-siting-power-procurement"],
+  "url": "https://fortisconstruction.com",
+  "sources": [
+    {
+      "url": "https://fortisconstruction.com/",
+      "note": "Fortis homepage: general contractor, ENR Top-30 Green, new industrial unit for Emerging Energy, Technology and Manufacturing, read 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

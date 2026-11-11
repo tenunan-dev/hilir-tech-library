@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-467 vendor records covering 279 technologies. One record per vendor in
+471 vendor records covering 281 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -217,7 +217,11 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Digital Realty](https://www.digitalrealty.com) | USA | developer, operator | SMR and fuel-cell power purchase for data centres |
 | [DPR Construction](https://www.dpr.com) | USA | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Equinix](https://www.equinix.com) | USA | operator | SMR and fuel-cell power purchase for data centres |
+| [Fortis Construction](https://fortisconstruction.com) | USA | epc | Data centre siting and power procurement |
+| [Holder Construction](https://www.holderconstruction.com) | USA | epc | Data centre siting and power procurement |
+| [Mace Group](https://www.macegroup.com) | United Kingdom | epc, service | Data centre siting and power procurement |
 | [Mercury Engineering](https://www.mercuryeng.com) | Ireland | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Rosendin Electric](https://www.rosendin.com) | USA | epc | Data centre UPS systems (double-conversion, lithium, modular); Direct-to-chip liquid cooling (cold plates and CDUs) |
 
 ## INS: Instrumentation and control
 

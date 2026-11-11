@@ -151,12 +151,15 @@
         "PWR",
         "H2",
         "CCS",
+        "IDC",
         "PRC",
         "ROT",
         "INS",
         "MAT",
         "HSE",
-        "DIG"
+        "DIG",
+        "ELE",
+        "CIV"
       ],
       "description": "Primary taxonomy code this equipment is grouped under for index pages"
     },
@@ -172,12 +175,15 @@
           "PWR",
           "H2",
           "CCS",
+          "IDC",
           "PRC",
           "ROT",
           "INS",
           "MAT",
           "HSE",
-          "DIG"
+          "DIG",
+          "ELE",
+          "CIV"
         ]
       },
       "description": "All codes this equipment serves (sectors and disciplines)"

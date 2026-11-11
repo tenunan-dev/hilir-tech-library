@@ -1,0 +1,17 @@
+{
+  "id": "mace-group",
+  "name": "Mace Group",
+  "country": "United Kingdom",
+  "roles": ["epc", "service"],
+  "categories": ["plant-epc", "engineering-consultancy"],
+  "description": "UK construction and consultancy group whose markets include Technology and Manufacturing (covering data centres); split in March 2026 into Mace Consult (infrastructure and capital-programme consultancy) and Mace Construct (construction), with international delivery including Expo 2030 Riyadh.",
+  "technologies": ["idc-siting-power-procurement"],
+  "url": "https://www.macegroup.com",
+  "sources": [
+    {
+      "url": "https://www.macegroup.com/",
+      "note": "Mace homepage: construction and consultancy, markets incl. Technology and Manufacturing, March 2026 business split, read 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

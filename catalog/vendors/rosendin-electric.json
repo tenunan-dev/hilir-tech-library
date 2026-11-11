@@ -1,0 +1,17 @@
+{
+  "id": "rosendin-electric",
+  "name": "Rosendin Electric",
+  "country": "USA",
+  "roles": ["epc"],
+  "categories": ["plant-epc", "equipment-oem"],
+  "description": "The largest employee-owned electrical contractor in the United States (San Jose, CA, founded 1919): electrical and communications installations for data centres, energy and commercial markets nationwide.",
+  "technologies": ["idc-ups-systems", "idc-direct-to-chip-liquid-cooling"],
+  "url": "https://www.rosendin.com",
+  "sources": [
+    {
+      "url": "https://www.rosendin.com/",
+      "note": "Rosendin homepage: largest employee-owned electrical contractor in the US, San Jose HQ, data centres among served sectors, read 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}
