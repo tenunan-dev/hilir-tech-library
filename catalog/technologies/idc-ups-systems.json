@@ -1,0 +1,154 @@
+{
+  "id": "idc-ups-systems",
+  "name": "Data centre UPS systems (double-conversion, lithium, modular)",
+  "aliases": [
+    "uninterruptible power supply for data centres",
+    "data centre UPS"
+  ],
+  "sector": "IDC",
+  "category": "Power distribution",
+  "applications": [
+    "colocation halls",
+    "hyperscale data centres",
+    "mission-critical load protection",
+    "grid-interactive fleets"
+  ],
+  "maturity": "commercial",
+  "principle": "The UPS is the data centre's ride-through bridge: double-conversion units condition and back up the entire IT load, sized per hall and paralleled to hundreds of MW across a campus. The Vertiv Liebert EXL S1 spans 100-1200 kW per unit in the industry's smallest footprint and scales in parallel up to multi-MW systems; lithium-ion battery cabinets cut weight and footprint versus VRLA, and grid-interactive UPS fleets now also sell frequency response back to the grid (see idc-grid-interaction).",
+  "process_steps": [
+    {
+      "id": "INPUT",
+      "name": "Utility or generator input enters the UPS",
+      "equipment": [
+        "input switchgear",
+        "maintenance bypass"
+      ],
+      "to": [
+        "RECT"
+      ]
+    },
+    {
+      "id": "RECT",
+      "name": "Rectifier and battery bridge the gap",
+      "equipment": [
+        "IGBT rectifier",
+        "lithium-ion or VRLA battery cabinets"
+      ],
+      "to": [
+        "INV"
+      ]
+    },
+    {
+      "id": "INV",
+      "name": "Inverter feeds the critical load",
+      "equipment": [
+        "inverter",
+        "output distribution (PDU/busway)"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "double-conversion UPS units (100-1200 kW class)",
+    "lithium-ion battery cabinets",
+    "bypass and paralleling switchgear"
+  ],
+  "suppliers": [
+    {
+      "name": "Vertiv",
+      "product": "Liebert EXL S1 (100-1200 kW, scalable in parallel), Liebert GXT/ITA edge UPS"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "Galaxy VX/VL large UPS for data centres"
+    },
+    {
+      "name": "Eaton",
+      "product": "93PM modular UPS and grid-interactive UPS programmes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "unit power range, Vertiv Liebert EXL S1",
+      "unit": "kW",
+      "low": 100,
+      "high": 1200,
+      "basis": "100-1200 kW per unit, transformer-free high-density design; scalable in parallel for medium-to-large data centres",
+      "source": {
+        "url": "https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1",
+        "note": "Vertiv Liebert EXL S1 campaign page, read 2026-11-12"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "parallel system capacity, EXL S1 fleet",
+      "unit": "MW",
+      "basis": "scalable from a few hundred kW up to about 9.6 MW via parallel deployment, suitable for a 20 MW data-centre design (vendor system sizing)",
+      "source": {
+        "url": "https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "note": "Liebert EXL S1 brochure, read via search summary 2026-11-12"
+      },
+      "year": 2026,
+      "low": 9.6,
+      "high": 9.6
+    }
+  ],
+  "advantages": [
+    "Ride-through of any mains disturbance for the full IT load",
+    "Lithium-ion cabinets cut footprint and weight versus VRLA",
+    "Parallel fleets can double as grid-frequency assets"
+  ],
+  "limitations": [
+    "Battery cycling for grid services trades backup margin against degradation",
+    "Conversion losses cost 2-4% of the load continuously in double-conversion mode",
+    "Large-unit lead times track the wider electrical-equipment backlog"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1",
+      "note": "Vertiv Liebert EXL S1 campaign page (100-1200 kW, smallest-footprint claim), read 2026-11-12"
+    },
+    {
+      "url": "https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+      "note": "Liebert EXL S1 brochure (ratings, parallel scalability, lithium compatibility), read via search summary 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per kW of UPS capacity, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor pages carry no prices.",
+      "where": [
+        {
+          "hint": "Uptime Institute / industry surveys",
+          "access": "open"
+        }
+      ],
+      "action": "Add cost figures with dollar year and basis."
+    },
+    {
+      "field": "performance",
+      "item": "efficiency in double-conversion and ECOnversion modes",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated on the pages read.",
+      "where": [
+        {
+          "hint": "Vertiv EXL S1 datasheet efficiency tables",
+          "access": "open"
+        }
+      ],
+      "action": "Add efficiency figures per mode."
+    }
+  ],
+  "reference_plants": [],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1",
+      "note": "Mature commercial product line shipping since 2017 — TRL 9, read 2026-11-12"
+    }
+  }
+}

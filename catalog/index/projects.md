@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-234 project records (one per named project or plant, schema `schema/project.schema.json`).
+235 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -568,6 +568,13 @@ Equinix's decade-long partnership with Bloom Energy, expanded in 2025, deploying
 Technologies: idc-smr-fuel-cell-ppa
 Capacity: fuel-cell capacity deployed:  MW
 Recorded gaps: site-by-site capacity list
+
+### AirTrunk Malaysia hyperscale platform (Johor and Cyberjaya) (airtrunk-malaysia-platform)
+Status: **under-construction** | Country: MY
+AirTrunk's Malaysian hyperscale platform — the anchor data-centre supply for the Johor-Singapore AI corridor — is expanding past 700 MW across its Johor and Cyberjaya campuses, serving hyperscalers building AI capacity in Southeast Asia.
+Technologies: idc-siting-power-procurement
+Capacity: platform IT capacity: 700+ MW
+Recorded gaps: per-campus capacity split (Johor vs Cyberjaya) and phase dates
 
 ## MAT: Materials and integrity
 

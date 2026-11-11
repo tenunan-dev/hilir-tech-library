@@ -1,6 +1,6 @@
 # Technology register
 
-364 technologies across oil, gas, petrochemicals and new energy; 343 have a technology card so far.
+367 technologies across oil, gas, petrochemicals and new energy; 347 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -434,7 +434,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Siting and demand | AI-training and inference load profiles | commercial | Hyperscaler engineering groups, GPU cluster integrators |  |
 | Siting and demand | Data centre energy and water benchmarking (PUE/WUE) | commercial | Uptime Institute, LBNL, EPRI |  |
 | Power supply | Utility feed and on-site substation for data centres | commercial | ABB, Hitachi Energy, Eaton, Schneider Electric |  |
-| Power supply | Behind-the-meter gas generation for data centres | commercial | GE Vernova, Caterpillar, Cummins, Solar Turbines |  |
+| Power supply | Behind-the-meter gas generation for data centres | commercial | GE Vernova, Caterpillar, Cummins, Solar Turbines | [card](technologies-IDC.md#idc-behind-the-meter-gas) |
 | Power supply | SMR and fuel-cell power purchase for data centres | demonstration | Kairos Power (Google PPA), Bloom Energy (Equinix), Oklo, Westinghouse eVinci, X-energy | [card](technologies-IDC.md#idc-smr-fuel-cell-ppa) |
 | Power supply | Fuel-cell power for data centres | demonstration | Bloom Energy (Equinix), Plug Power |  |
 | Power supply | On-site solar plus battery storage for data centres | commercial | SunPower, Sungrow, CATL, Tesla Energy |  |
@@ -453,3 +453,6 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Construction and delivery | Data centre commissioning and integrated systems testing | commercial | Commissioning agents (Cushman & Wakefield, EYP/Leidos) |  |
 | Digital | DCIM and digital twins for data centres | commercial | Schneider Electric (EcoStruxure), Vertiv, Sunbird, Rigado |  |
 | Digital | Liquid-cooling leak detection and monitoring | demonstration | Vertiv, RLE Technologies, Aquilar |  |
+| Digital | Data centre UPS systems (double-conversion, lithium, modular) | commercial | Vertiv (Liebert EXL S1 100-1200 kW), Schneider Electric, Eaton | [card](technologies-IDC.md#idc-ups-systems) |
+| Digital | Data centre grid interaction (demand response and frequency services) | commercial | Enel X (Digital Realty, Microsoft), GridBeyond, Vertiv | [card](technologies-IDC.md#idc-grid-interaction) |
+| Digital | Data centre siting and power procurement | commercial | Hyperscalers, AirTrunk (Malaysia 700 MW+), Equinix, GE Vernova | [card](technologies-IDC.md#idc-siting-power-procurement) |

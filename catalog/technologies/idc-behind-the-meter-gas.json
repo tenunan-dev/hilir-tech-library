@@ -1,0 +1,150 @@
+{
+  "id": "idc-behind-the-meter-gas",
+  "name": "Behind-the-meter gas generation for data centres",
+  "aliases": ["BTM gas power for data centres", "onsite gas generation for data centres"],
+  "sector": "IDC",
+  "category": "Power supply",
+  "applications": ["hyperscale AI campuses", "co-located power foundries", "grid-constrained sites", "bridge power before grid interconnection"],
+  "maturity": "commercial",
+  "principle": "Data centres site gas turbines or large reciprocating gensets on their own side of the meter to escape multi-year grid-interconnection queues and hedge power-price volatility. GE Vernova markets configurations from a 20-30 MW aeroderivative unit up to 3 GW campuses, with mobile TM2500 units installable in about 14 days and heavy-duty 7HA.03 units at 430 MW; the Chevron/Engine No.1/GE Vernova 'power foundry' programme targets 4 GW of co-located capacity by 2027. Caterpillar restarted 10 MW-class genset production and is investing USD 725 million to expand large-engine capacity for data-centre demand.",
+  "process_steps": [
+    {
+      "id": "FUEL",
+      "name": "Gas supply contracted and delivered",
+      "equipment": ["gas supply agreement", "gas conditioning skid"],
+      "to": ["GEN"]
+    },
+    {
+      "id": "GEN",
+      "name": "Onsite turbines or gensets generate",
+      "equipment": ["aeroderivative turbines (LM6000, TM2500 mobile)", "heavy-duty gas turbines (7HA/9HA)", "reciprocating gensets (10 MW class)"],
+      "to": ["DIST"]
+    },
+    {
+      "id": "DIST",
+      "name": "Private distribution feeds the campus",
+      "equipment": ["MV switchgear", "on-site substations", "battery hybrid for backup"],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "aeroderivative gas turbines (LM6000, TM2500)",
+    "heavy-duty gas turbines (7HA.03, 430 MW class)",
+    "reciprocating gas gensets (10 MW class)",
+    "on-site MV distribution and substations"
+  ],
+  "suppliers": [
+    {
+      "name": "GE Vernova",
+      "product": "gas turbines for data centres: TM2500 mobile (about 14-day install), LM6000, LM2500XPRESS, 7HA.03 (430 MW)"
+    },
+    {
+      "name": "Caterpillar",
+      "product": "10 MW-class gas gensets; USD 725 million large-engine capacity expansion"
+    },
+    {
+      "name": "Solar Turbines (Caterpillar)",
+      "product": "medium gas turbines for industrial and campus power"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "deployment time, mobile aeroderivative units (TM2500)",
+      "unit": "days",
+      "low": 14,
+      "high": 14,
+      "basis": "installable in about 14 days per the vendor; fast-start aeros restore power within five minutes",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova gas power for data centres page, read 2026-11-12"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "campus scale range served",
+      "unit": "MW",
+      "low": 25,
+      "high": 3000,
+      "basis": "'whether your data center needs 25 MW of power or 3 GW' (vendor); 7HA.03 at 430 MW; Chevron/Engine No.1 programme targeting 4 GW by 2027",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+        "source_id": "ge-vernova",
+        "note": "GE Vernova gas power for data centres page, read 2026-11-12"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "US data centres building own generation",
+      "unit": "projects (GW)",
+      "low": 46,
+      "high": 56,
+      "basis": "about 46 projects with about 56 GW planned self-generation; about 90% of BTM announcements made in 2025 alone (industry research tracker)",
+      "source": {
+        "url": "https://www.jaredwatkins.com/research/datacenters/behind-meter-power",
+        "note": "Behind-the-meter data-centre power research tracker, read via search summary 2026-11-12"
+      },
+      "year": 2025
+    }
+  ],
+  "advantages": [
+    "Escapes grid interconnection queues measured in years",
+    "Price hedge and long-term cost predictability for operators",
+    "Mobile aeroderivative units bridge to permanent capacity"
+  ],
+  "limitations": [
+    "Combustion emissions and permitting (NOx, CO2) constrain siting",
+    "Fuel-supply agreements and gas-price exposure shift risk to the operator",
+    "Turbine delivery backlogs now run to years for large heavy-duty frames"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+      "source_id": "ge-vernova",
+      "note": "GE Vernova gas power for data centres page (BTM configurations, turbine classes, deployment-speed claims, 7HA.03 430 MW, Chevron 4 GW by 2027), read 2026-11-12"
+    },
+    {
+      "url": "https://www.chevron.com/newsroom/2025/q1/power-solutions-for-us-data-centers",
+      "note": "Chevron newsroom (28 January 2025): Engine No.1/Chevron/GE Vernova power-foundry partnership for co-located data centres, read via search summary 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per kW for BTM gas capacity, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor pages carry no prices.",
+      "where": [
+        {
+          "hint": "EIA/industry cost studies; disclosed project filings",
+          "access": "open"
+        }
+      ],
+      "action": "Add cost figures with dollar year and basis."
+    },
+    {
+      "field": "performance",
+      "item": "fleet efficiency (heat rate) for BTM configurations",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated on the pages read.",
+      "where": [
+        {
+          "hint": "GE Vernova turbine spec sheets (GER-3567 etc.)",
+          "access": "open"
+        }
+      ],
+      "action": "Add heat rates per turbine class."
+    }
+  ],
+  "reference_plants": [],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+      "source_id": "ge-vernova",
+      "note": "Commercial gas-turbine technology deployed at scale (7F fleet about 175 GW installed) — TRL 9, read 2026-11-12"
+    }
+  }
+}

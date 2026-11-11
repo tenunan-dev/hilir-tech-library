@@ -1,0 +1,147 @@
+{
+  "id": "idc-grid-interaction",
+  "name": "Data centre grid interaction (demand response and frequency services)",
+  "aliases": [
+    "grid-interactive data centres",
+    "UPS frequency response",
+    "demand flexibility for data centres"
+  ],
+  "sector": "IDC",
+  "category": "Grid interaction",
+  "applications": [
+    "frequency containment and dynamic containment schemes",
+    "demand flexibility programmes",
+    "battery-sharing across campuses",
+    "grid stability services"
+  ],
+  "maturity": "commercial",
+  "principle": "The data centre's own UPS fleet doubles as a grid asset: when frequency dips below nominal, inverters draw from batteries instead of the grid for seconds to minutes — no IT impact — and the operator sells that as frequency response. Enel X's Digital Realty deployment in Ireland responds in under half a second; Microsoft is rolling out UPS battery-sharing worldwide and pushed for the UK's Dynamic Containment scheme to open to data centres after Ireland led; UK NESO programmes now listed for data centres include Demand Flexibility Service, Dynamic Containment, Dynamic Moderation, Dynamic Regulation and Static FFR. Battery-cycling degradation is the principal trade-off.",
+  "process_steps": [
+    {
+      "id": "MONITOR",
+      "name": "Aggregator monitors grid frequency",
+      "equipment": [
+        "aggregator platform",
+        "site controller"
+      ],
+      "to": [
+        "TRIGGER"
+      ]
+    },
+    {
+      "id": "TRIGGER",
+      "name": "Event triggers battery bridging or demand reduction",
+      "equipment": [
+        "UPS inverters",
+        "BMS"
+      ],
+      "to": [
+        "SETTLE"
+      ]
+    },
+    {
+      "id": "SETTLE",
+      "name": "Response delivered and revenue settled",
+      "equipment": [
+        "metering",
+        "market settlement"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "UPS fleets as distributed frequency-response assets",
+    "aggregator platform and site controllers",
+    "battery-management and degradation monitoring"
+  ],
+  "suppliers": [
+    {
+      "name": "Enel X",
+      "product": "demand response and frequency services for data centres (Digital Realty, Microsoft programmes)"
+    },
+    {
+      "name": "GridBeyond",
+      "product": "demand-side response for data centres with zero downtime"
+    },
+    {
+      "name": "Vertiv",
+      "product": "grid-interactive UPS whitepaper and sizing guidance"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "UPS fleet frequency-response trigger time, Enel X Digital Realty Ireland",
+      "unit": "seconds",
+      "low": 0.5,
+      "high": 0.5,
+      "basis": "responds in under half a second when grid frequency drops below 50 Hz; the data centre draws on batteries instead of the grid",
+      "source": {
+        "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+        "note": "Enel X Digital Realty Ireland case study, read via search summary 2026-11-12"
+      },
+      "year": 2026
+    }
+  ],
+  "advantages": [
+    "Turns existing backup batteries into a revenue stream",
+    "Sub-second response suits frequency-containment markets",
+    "No IT downtime — the load rides on batteries while the grid sees less demand"
+  ],
+  "limitations": [
+    "Battery wear from cycling — VRLA fleets degrade faster than lithium",
+    "Market access varies by jurisdiction (Ireland open, UK opening)",
+    "Operators must protect the backup mission margin first"
+  ],
+  "sources": [
+    {
+      "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+      "note": "Enel X Digital Realty Ireland case study (sub-half-second UPS frequency response below 50 Hz), read via search summary 2026-11-12"
+    },
+    {
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-to-roll-out-data-center-battery-sharing-worldwide",
+      "note": "Data Center Dynamics: Microsoft rolling out data-centre battery-sharing worldwide and calling for UK Dynamic Containment to open to data centres, read via search summary 2026-11-12"
+    },
+    {
+      "url": "https://www.enelx.com/uk/en/question-and-answer",
+      "note": "Enel X UK programmes FAQ (Demand Flexibility Service, Dynamic Containment/Moderation/Regulation, Static FFR), read via search summary 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "revenue per MW-year for data-centre frequency services, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Market revenues vary by scheme and auction.",
+      "where": [
+        {
+          "hint": "NESO auction results; aggregator disclosures",
+          "access": "open"
+        }
+      ],
+      "action": "Add revenue ranges per scheme."
+    },
+    {
+      "field": "performance",
+      "item": "battery degradation rates under frequency-response cycling",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated on the pages read.",
+      "where": [
+        {
+          "hint": "Eaton/Microsoft whitepaper; NERC 2025 grid-interactive UPS survey",
+          "access": "open"
+        }
+      ],
+      "action": "Add degradation data with basis."
+    }
+  ],
+  "reference_plants": [],
+  "trl": {
+    "low": 8,
+    "high": 9,
+    "source": {
+      "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+      "note": "Commercial deployments operating in Ireland for years — TRL 8-9, read via search summary 2026-11-12"
+    }
+  }
+}

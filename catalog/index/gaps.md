@@ -3,13 +3,13 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-829 missing inputs on 277 cards; 21 register technologies have no card yet.
+837 missing inputs on 281 cards; 20 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 662 |
+| not_in_sources_read | 670 |
 | general_knowledge_only | 140 |
-| no_card_yet | 21 |
+| no_card_yet | 20 |
 | paid_source | 12 |
 | source_unreachable | 11 |
 | status_unchecked | 4 |
@@ -292,10 +292,18 @@ of each card in catalog/technologies/ and from register entries without a card. 
 
 | Technology | Missing | Why | Where to get it | Next action |
 | --- | --- | --- | --- | --- |
+| [Behind-the-meter gas generation for data centres](technologies-IDC.md#idc-behind-the-meter-gas) | installed cost per kW for BTM gas capacity, with dollar year (costs) | Vendor pages carry no prices. | EIA/industry cost studies; disclosed project filings (open) | Add cost figures with dollar year and basis. |
+| [Behind-the-meter gas generation for data centres](technologies-IDC.md#idc-behind-the-meter-gas) | fleet efficiency (heat rate) for BTM configurations (performance) | Not stated on the pages read. | GE Vernova turbine spec sheets (GER-3567 etc.) (open) | Add heat rates per turbine class. |
 | [Direct-to-chip liquid cooling (cold plates and CDUs)](technologies-IDC.md#idc-direct-to-chip-liquid-cooling) | installed cost per kW of cooling capacity, with dollar year (costs) | Vendor pages do not publish CDU prices. | Uptime Institute and industry cost surveys; vendor budgetary quotes (open) | Add cost figures with dollar year and basis. |
 | [Direct-to-chip liquid cooling (cold plates and CDUs)](technologies-IDC.md#idc-direct-to-chip-liquid-cooling) | PUE delta versus air-cooled baseline at a given rack density (performance) | Not stated on the pages read. | Uptime Institute / vendor case studies (open) | Add measured PUE deltas with basis. |
+| [Data centre grid interaction (demand response and frequency services)](technologies-IDC.md#idc-grid-interaction) | revenue per MW-year for data-centre frequency services, with dollar year (costs) | Market revenues vary by scheme and auction. | NESO auction results; aggregator disclosures (open) | Add revenue ranges per scheme. |
+| [Data centre grid interaction (demand response and frequency services)](technologies-IDC.md#idc-grid-interaction) | battery degradation rates under frequency-response cycling (performance) | Not stated on the pages read. | Eaton/Microsoft whitepaper; NERC 2025 grid-interactive UPS survey (open) | Add degradation data with basis. |
+| [Data centre siting and power procurement](technologies-IDC.md#idc-siting-power-procurement) | power cost benchmarks per route (grid, BTM, PPA) in USD/MWh with dollar year (costs) | Route pricing is commercial and market-specific. | datacenterHawk, Uptime Institute market reports (open) | Add benchmark ranges with dollar year. |
+| [Data centre siting and power procurement](technologies-IDC.md#idc-siting-power-procurement) | interconnection queue times by grid operator (performance) | Queue data is published per operator but not yet collected. | Lawrence Berkeley NAB interconnection-queue data (open) | Add queue-time ranges per major grid. |
 | [SMR and fuel-cell power purchase for data centres](technologies-IDC.md#idc-smr-fuel-cell-ppa) | PPA price ranges for SMR and fuel-cell power, with dollar year (costs) | PPA prices are commercially confidential. | Disclosure filings and rate-case documents where public (open) | Add price ranges where disclosed. |
 | [SMR and fuel-cell power purchase for data centres](technologies-IDC.md#idc-smr-fuel-cell-ppa) | first Hermes unit start-up date and Oklo Aurora Aurora-Inn dates (reference_plants) | Dates move with licensing progress. | kairospower.com and oklo.com newsroom (open) | Re-check dates each quarter. |
+| [Data centre UPS systems (double-conversion, lithium, modular)](technologies-IDC.md#idc-ups-systems) | installed cost per kW of UPS capacity, with dollar year (costs) | Vendor pages carry no prices. | Uptime Institute / industry surveys (open) | Add cost figures with dollar year and basis. |
+| [Data centre UPS systems (double-conversion, lithium, modular)](technologies-IDC.md#idc-ups-systems) | efficiency in double-conversion and ECOnversion modes (performance) | Not stated on the pages read. | Vertiv EXL S1 datasheet efficiency tables (open) | Add efficiency figures per mode. |
 
 ## INS cards
 
@@ -922,4 +930,4 @@ of each card in catalog/technologies/ and from register entries without a card. 
 
 See [technology-register.md](technology-register.md) for suppliers and maturity.
 
-- **IDC** (21): Hyperscale data centre siting and power procurement; AI-training and inference load profiles; Data centre energy and water benchmarking (PUE/WUE); Utility feed and on-site substation for data centres; Behind-the-meter gas generation for data centres; Fuel-cell power for data centres; On-site solar plus battery storage for data centres; Data centre UPS systems (double-conversion, lithium, flywheel); Medium-voltage switchgear and busway in the data hall; Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Air cooling (CRAH/CRAC, hot/cold aisle containment); Immersion cooling; Rear-door heat exchangers; Free cooling and economisers; District heating tie-ins from data centres; Data centre demand response and flexible load; Battery storage for data centre load smoothing; Modular and prefabricated data halls; Data centre commissioning and integrated systems testing; DCIM and digital twins for data centres; Liquid-cooling leak detection and monitoring
+- **IDC** (20): Hyperscale data centre siting and power procurement; AI-training and inference load profiles; Data centre energy and water benchmarking (PUE/WUE); Utility feed and on-site substation for data centres; Fuel-cell power for data centres; On-site solar plus battery storage for data centres; Data centre UPS systems (double-conversion, lithium, flywheel); Medium-voltage switchgear and busway in the data hall; Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Air cooling (CRAH/CRAC, hot/cold aisle containment); Immersion cooling; Rear-door heat exchangers; Free cooling and economisers; District heating tie-ins from data centres; Data centre demand response and flexible load; Battery storage for data centre load smoothing; Modular and prefabricated data halls; Data centre commissioning and integrated systems testing; DCIM and digital twins for data centres; Liquid-cooling leak detection and monitoring

@@ -1,0 +1,154 @@
+{
+  "id": "idc-siting-power-procurement",
+  "name": "Data centre siting and power procurement",
+  "aliases": [
+    "data centre site selection",
+    "power procurement for data centres"
+  ],
+  "sector": "IDC",
+  "category": "Siting and demand",
+  "applications": [
+    "hyperscale campus site selection",
+    "colocation market entry",
+    "AI-capacity expansion planning",
+    "SEA corridor development"
+  ],
+  "maturity": "commercial",
+  "principle": "Siting is the data centre's first and most binding engineering decision: power availability, price and time-to-energisation outrank almost everything else, followed by water, fibre and latency. The 2025 boom in behind-the-meter generation (about 46 projects, about 56 GW self-planned, ~90% announced in 2025) exists because grid interconnection queues cannot keep pace; operators therefore choose between grid feed, behind-the-meter gas, PPAs for advanced nuclear or fuel cells, and hybrids — and in Southeast Asia the Johor-Cyberjaya corridor has become the fastest-growing supply region, with AirTrunk's Malaysia platform alone expanding past 700 MW.",
+  "process_steps": [
+    {
+      "id": "DEMAND",
+      "name": "Load forecast and expansion plan",
+      "equipment": [
+        "IT-load forecast (AI training vs inference)"
+      ],
+      "to": [
+        "SCREEN"
+      ]
+    },
+    {
+      "id": "SCREEN",
+      "name": "Screen regions on power, water, fibre, latency and policy",
+      "equipment": [
+        "grid capacity studies",
+        "utility tariff analysis"
+      ],
+      "to": [
+        "PROCURE"
+      ]
+    },
+    {
+      "id": "PROCURE",
+      "name": "Choose and contract the power route",
+      "equipment": [
+        "grid feed + utility agreement",
+        "behind-the-meter generation",
+        "PPAs (nuclear, fuel cells, renewables)"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "grid interconnection and substations",
+    "behind-the-meter generation options",
+    "long-term PPA structures"
+  ],
+  "suppliers": [
+    {
+      "name": "GE Vernova",
+      "product": "onsite and BTM generation configurations (25 MW to 3 GW)"
+    },
+    {
+      "name": "AirTrunk",
+      "product": "hyperscale campuses across APAC including the 700 MW+ Malaysia platform"
+    },
+    {
+      "name": "Equinix",
+      "product": "colocation + interconnection with long-term clean-power contracting"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "self-generation boom, US data centres",
+      "unit": "projects (GW)",
+      "low": 46,
+      "high": 56,
+      "basis": "about 46 projects with about 56 GW of planned self-built capacity; about 90% of behind-the-meter announcements made in 2025 alone — evidence that grid interconnection is the binding constraint",
+      "source": {
+        "url": "https://www.jaredwatkins.com/research/datacenters/behind-meter-power",
+        "note": "Behind-the-meter data-centre power research tracker, read via search summary 2026-11-12"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "AirTrunk Malaysia platform expansion",
+      "unit": "MW",
+      "basis": "AirTrunk expanding its Malaysia platform (Johor and Cyberjaya) to more than 700 MW — the anchor hyperscale supply for the SEA AI corridor",
+      "source": {
+        "url": "https://airtrunk.com/",
+        "note": "AirTrunk site banner: AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+, read 2026-11-12"
+      },
+      "year": 2026,
+      "low": 700,
+      "high": 700
+    }
+  ],
+  "advantages": [
+    "Time-to-energisation is the deciding variable — power routes differ by years",
+    "SEA corridor offers land, power and latency to Singapore markets",
+    "Hybrid routes (grid + BTM + PPAs) de-risk the expansion plan"
+  ],
+  "limitations": [
+    "Grid queues and turbine backlogs move lead times beyond typical build schedules",
+    "Water availability increasingly constrains cooling choices",
+    "Jurisdiction policy ( Singapore's DC-CFA caps, moratoria elsewhere) shapes the map"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jaredwatkins.com/research/datacenters/behind-meter-power",
+      "note": "Behind-the-meter data-centre power research tracker (46 projects / 56 GW / 90% in 2025), read via search summary 2026-11-12"
+    },
+    {
+      "url": "https://airtrunk.com/",
+      "note": "AirTrunk Malaysia platform 700 MW+ banner, read 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "power cost benchmarks per route (grid, BTM, PPA) in USD/MWh with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Route pricing is commercial and market-specific.",
+      "where": [
+        {
+          "hint": "datacenterHawk, Uptime Institute market reports",
+          "access": "open"
+        }
+      ],
+      "action": "Add benchmark ranges with dollar year."
+    },
+    {
+      "field": "performance",
+      "item": "interconnection queue times by grid operator",
+      "reason_code": "not_in_sources_read",
+      "reason": "Queue data is published per operator but not yet collected.",
+      "where": [
+        {
+          "hint": "Lawrence Berkeley NAB interconnection-queue data",
+          "access": "open"
+        }
+      ],
+      "action": "Add queue-time ranges per major grid."
+    }
+  ],
+  "reference_plants": [],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.jaredwatkins.com/research/datacenters/behind-meter-power",
+      "note": "Established commercial practice across every major market — TRL 9, read via search summary 2026-11-12"
+    }
+  }
+}

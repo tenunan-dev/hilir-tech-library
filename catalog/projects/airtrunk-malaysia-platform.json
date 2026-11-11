@@ -1,0 +1,64 @@
+{
+  "id": "airtrunk-malaysia-platform",
+  "name": "AirTrunk Malaysia hyperscale platform (Johor and Cyberjaya)",
+  "aliases": [
+    "AirTrunk JHB",
+    "AirTrunk Cyberjaya",
+    "AirTrunk Malaysia 700MW+"
+  ],
+  "project_type": "expansion",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC"
+  ],
+  "country": "MY",
+  "location": "Johor (Seden Tech Park area) and Cyberjaya, Malaysia",
+  "status": "under-construction",
+  "description": "AirTrunk's Malaysian hyperscale platform — the anchor data-centre supply for the Johor-Singapore AI corridor — is expanding past 700 MW across its Johor and Cyberjaya campuses, serving hyperscalers building AI capacity in Southeast Asia.",
+  "capacities": [
+    {
+      "metric": "platform IT capacity",
+      "value": "700+",
+      "unit": "MW",
+      "basis": "AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+ (company banner); phase-level splits not stated on the page read",
+      "source": {
+        "url": "https://airtrunk.com/",
+        "note": "AirTrunk site banner, read 2026-11-12"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "AirTrunk",
+      "vendor_id": "airtrunk",
+      "role": "developer, owner and operator (Blackstone-owned since 2024)"
+    }
+  ],
+  "technologies": [
+    "idc-siting-power-procurement"
+  ],
+  "milestones": [
+    {
+      "event": "platform expansion past 700 MW announced",
+      "date": "2026",
+      "source": {
+        "url": "https://airtrunk.com/",
+        "note": "AirTrunk site banner, read 2026-11-12"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://airtrunk.com/",
+      "note": "AirTrunk site banner: AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+, read 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-campus capacity split (Johor vs Cyberjaya) and phase dates",
+      "why": "The banner does not break the platform down; the site's newsroom and investor pages carry the detail",
+      "next_action": "Read AirTrunk's newsroom (JHB1/JHB2/CJB1 releases) and record phase-level MW and dates"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}
