@@ -15,6 +15,7 @@ import library
 import technologies
 import vendors
 import equipment
+import projects
 
 ROOT = library.ROOT
 GENERIC_NAMES = {"operators", "operator", "various", "research", "major drilling contractors", "service companies",
@@ -157,6 +158,19 @@ def build_graph(root=None, corpus=None):
         for t in rec.get("technologies", []):
             if t in card_nodes:
                 g.edge(card_nodes[t], f"equipment:{rec['id']}", "uses_equipment")
+
+    # Projects and operating plants: one node per record, uses_technology edges to the cards it
+    # deploys and built_by edges to the vendor-directory parties it names.
+    for rec in projects.load_projects(root / "catalog" / "projects"):
+        pid = g.node(f"project:{rec['id']}", "project", rec["name"], status=rec.get("status"),
+                     country=rec.get("country"), sector=rec.get("sector"))
+        for t in rec.get("technologies", []):
+            if t in card_nodes:
+                g.edge(pid, card_nodes[t], "uses_technology")
+        for group in ("owners", "contractors", "offtakers"):
+            for party in rec.get(group, []):
+                if party.get("vendor_id"):
+                    g.edge(pid, f"vendor:{party['vendor_id']}", "built_by" if group != "offtakers" else "offtaker_of")
 
     # Register entries
     for e in entries:

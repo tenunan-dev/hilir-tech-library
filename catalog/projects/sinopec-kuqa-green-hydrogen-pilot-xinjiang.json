@@ -1,0 +1,33 @@
+{
+  "id": "sinopec-kuqa-green-hydrogen-pilot-xinjiang",
+  "name": "Sinopec Kuqa green hydrogen pilot, Xinjiang",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "20,000 t/yr green hydrogen from solar power; 210,000 m3 hydrogen storage; supplies Tahe Refining & Chemical",
+  "technologies": [
+    "h2-alkaline-electrolysis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
+      "note": "Sinopec press release via Cision, 3 July 2023"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2023",
+      "source": {
+        "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
+        "note": "Sinopec press release via Cision, 3 July 2023"
+      }
+    }
+  ],
+  "notes": "Status per card source: in operation from 2023"
+}

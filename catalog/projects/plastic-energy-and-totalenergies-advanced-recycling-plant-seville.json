@@ -1,0 +1,33 @@
+{
+  "id": "plastic-energy-and-totalenergies-advanced-recycling-plant-seville",
+  "name": "Plastic Energy and TotalEnergies advanced recycling plant, Seville",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "ES",
+  "status": "operating",
+  "description": "33,000 t/yr plastic waste",
+  "technologies": [
+    "pch-plastics-pyrolysis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.letsrecycle.com/news/plastic-energy-transfers-stake-in-chemical-recycling-plant-amid-restructuring/",
+      "note": "letsrecycle.com, 11 September 2026 (read 28 October 2026); plant list from plasticenergy.com/operations/ (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://www.letsrecycle.com/news/plastic-energy-transfers-stake-in-chemical-recycling-plant-amid-restructuring/",
+        "note": "letsrecycle.com, 11 September 2026 (read 28 October 2026); plant list from plasticenergy.com/operations/ (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: no start-up of the new 33,000 t/yr plant was ever announced; Plastic Energy's own current plant list shows only the original Seville plant, operational since 2017; the company entered administration in England in May 2026, emerged in August 2026 with founder Carlos Monreal returning as CEO, and in September 2026 transferred its stake in the TEPEAR joint-venture plant at Grandpuits (15,000 t/yr, operational since March 2026) to TotalEnergies while retaining the Almeria and Seville plants (as of 11 September 2026)"
+}

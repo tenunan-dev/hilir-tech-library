@@ -1,0 +1,23 @@
+{
+  "id": "nordsol-bio-lng-plant-amsterdam-nordsol-shell-renewi",
+  "name": "Nordsol bio-LNG plant, Amsterdam (Nordsol/Shell/Renewi)",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "NL",
+  "status": "operating",
+  "description": "3,400 t/yr bio-LNG plus 6,800 t/yr liquid bio-CO2; feedstock is biogas from Renewi waste processing; opened 15 Oct 2021 - the first bio-LNG plant in the Netherlands",
+  "technologies": [
+    "gas-bio-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bioenergy-news.com",
+      "note": "Bioenergy news, 15 Oct 2021 (opening, 3.4 kt/yr, Nordsol-Shell-Renewi); Nordsol factsheet (European Biogas Association); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "european-energy-kass-denmark",
+  "name": "European Energy Kassø, Denmark",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "DK",
+  "status": "proposed",
+  "description": "42,000 t e-methanol; 52.5 MW electrolysis",
+  "technologies": [
+    "h2-e-methanol"
+  ],
+  "sources": [
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/",
+      "note": "Hydrocarbon Processing, European Energy produces first e-methanol at Kassø, March 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2025",
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/",
+        "note": "Hydrocarbon Processing, European Energy produces first e-methanol at Kassø, March 2025"
+      }
+    }
+  ],
+  "notes": "Status per card source: first e-methanol March 2025; full ramp-up expected Q2 2025"
+}

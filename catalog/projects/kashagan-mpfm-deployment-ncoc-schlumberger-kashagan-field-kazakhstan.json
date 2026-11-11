@@ -1,0 +1,23 @@
+{
+  "id": "kashagan-mpfm-deployment-ncoc-schlumberger-kashagan-field-kazakhstan",
+  "name": "Kashagan MPFM deployment (NCOC/Schlumberger), Kashagan field, Kazakhstan",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "KZ",
+  "status": "operating",
+  "description": "multiphase flow meters on unmanned production islands: one MPFM per group of wells on some islands, one per well on others; used for allocation, well testing and virtual-meter calibration",
+  "technologies": [
+    "ups-multiphase-flow-metering"
+  ],
+  "sources": [
+    {
+      "url": "https://www.academia.edu/66524444/Multiphase_flow_metering_Current_trends_and_future_developments",
+      "note": "SPE-191644 abstract (Mursaliyev et al., 2018, Multiphase Flow Meter Implementation, Verification and Use for Calibration of Virtual Metering in Kashagan Project) as mirrored on the academia.edu page read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

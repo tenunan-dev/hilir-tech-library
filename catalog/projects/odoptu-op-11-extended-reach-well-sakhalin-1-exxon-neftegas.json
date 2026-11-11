@@ -1,0 +1,23 @@
+{
+  "id": "odoptu-op-11-extended-reach-well-sakhalin-1-exxon-neftegas",
+  "name": "Odoptu OP-11 extended-reach well (Sakhalin-1, Exxon Neftegas)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "RU",
+  "status": "operating",
+  "description": "world-record extended-reach well at completion: 12,345 m measured depth (40,502 ft)",
+  "technologies": [
+    "ups-extended-reach-multilateral-wells"
+  ],
+  "sources": [
+    {
+      "url": "https://offshore-energy.biz/2011/01/28/exxon-drills-the-worlds-longest-extended-reach-well-offshore-sakhalin-russia",
+      "note": "Offshore Energy, 28 Jan 2011: Odoptu OP-11 reached 12,345 m MD, world record for extended-reach drilling (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

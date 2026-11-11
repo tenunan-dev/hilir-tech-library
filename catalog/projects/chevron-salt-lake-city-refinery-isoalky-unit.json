@@ -1,0 +1,33 @@
+{
+  "id": "chevron-salt-lake-city-refinery-isoalky-unit",
+  "name": "Chevron Salt Lake City refinery ISOALKY unit",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "retrofit of a 4,500 b/d HF alkylation unit in a 58,000 b/d refinery, with capacity increased",
+  "technologies": [
+    "ref-alkylation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit",
+      "note": "Oil & Gas Journal, 13 April 2021"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2021",
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit",
+        "note": "Oil & Gas Journal, 13 April 2021"
+      }
+    }
+  ],
+  "notes": "Status per card source: first commercial ionic liquid alkylation; start-up announced 13 April 2021"
+}

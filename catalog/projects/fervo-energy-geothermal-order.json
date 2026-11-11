@@ -1,0 +1,23 @@
+{
+  "id": "fervo-energy-geothermal-order",
+  "name": "Fervo Energy geothermal order",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "USA",
+  "status": "proposed",
+  "description": "300 MWe (largest project named)",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://www.turboden.com/",
+      "note": "Turboden homepage, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: Turboden homepage names a 300 MWe supply for Fervo Energy"
+}

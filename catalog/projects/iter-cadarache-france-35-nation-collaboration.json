@@ -1,0 +1,23 @@
+{
+  "id": "iter-cadarache-france-35-nation-collaboration",
+  "name": "ITER, Cadarache, France (35-nation collaboration)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "FR",
+  "status": "under-construction",
+  "description": "tokamak designed for 500 MW fusion power (ten times the input heating); European Council approved EUR 5.61 bn EU funding to 2027 (Feb 2021); first plasma had been expected December 2025 before the 2024 schedule re-baseline added years and about EUR 5 bn; NIF (US) demonstrated fusion ignition December 2022",
+  "technologies": [
+    "pwr-fusion"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/022221-european-council-agrees-eur561-billion-funding-for-iter-fusion-project",
+      "note": "S&P Global, 22 Feb 2021 (EUR 5.61 bn to 2027; first plasma then expected Dec 2025, full operation 2035); 2024 re-baseline reported Jul 2024; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: construction"
+}

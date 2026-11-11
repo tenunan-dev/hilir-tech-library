@@ -1,0 +1,23 @@
+{
+  "id": "meygen-tidal-stream-array-pentland-firth-scotland-sae-renewables",
+  "name": "MeyGen tidal stream array, Pentland Firth, Scotland (SAE Renewables)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "GB",
+  "status": "operating",
+  "description": "phase 1 tidal stream array; more than 91 GWh generated over seven-plus years of operation; supporting a 59 MW commercial-scale development",
+  "technologies": [
+    "pwr-tidal-wave"
+  ],
+  "sources": [
+    {
+      "url": "https://www.directorstalkinterviews.com/meygen-strengthens-the-case-for-scalable-tidal-power/4121247469",
+      "note": "MeyGen operations summary (91 GWh, 59 MW next phase); nef, 13 Nov 2024 (17.5 GWh annual record); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

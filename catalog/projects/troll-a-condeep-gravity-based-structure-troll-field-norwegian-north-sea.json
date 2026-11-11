@@ -1,0 +1,23 @@
+{
+  "id": "troll-a-condeep-gravity-based-structure-troll-field-norwegian-north-sea",
+  "name": "Troll A Condeep gravity-based structure (Troll field, Norwegian North Sea)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "natural-gas production platform; gravity-based substructure about 472 m total height in about 300 m water depth, about 245,000 m3 concrete, about 683,600 t unballasted weight",
+  "technologies": [
+    "ups-fixed-jackets-gravity-structures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/gbs/gbs-cases/troll-a",
+      "note": "Aker Solutions (builder), Troll A Condeep case page: height ~472 m, water depth ~300 m, concrete ~245,000 m3, rebar ~100,000 t, weight ~683,600 t (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

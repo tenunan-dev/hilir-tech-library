@@ -1,0 +1,33 @@
+{
+  "id": "stratos-ector-county-texas",
+  "name": "Stratos, Ector County, Texas",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "under-construction",
+  "description": "up to 500,000 t/yr",
+  "technologies": [
+    "ccs-dac-liquid-solvent"
+  ],
+  "sources": [
+    {
+      "url": "https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/",
+      "note": "E&E News, 7 August 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/",
+        "note": "E&E News, 7 August 2026"
+      }
+    }
+  ],
+  "notes": "Status per card source: start of operations moved to end of 2026 (originally end of 2024); construction began May 2023"
+}

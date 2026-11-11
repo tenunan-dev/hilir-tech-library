@@ -1,0 +1,23 @@
+{
+  "id": "freeport-lng-texas-electric-motor-driven-refrigeration-compressors",
+  "name": "Freeport LNG, Texas (electric-motor-driven refrigeration compressors)",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "three trains equipped with the largest electric motor-powered refrigeration compressors in the US; Train 1 commercial operation December 2019",
+  "technologies": [
+    "gas-electric-drive-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nsenergybusiness.com/company-news/freeport-lng-project-train-3",
+      "note": "NS Energy Business (largest electric-motor refrigeration compressors in the US); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

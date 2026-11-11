@@ -1,0 +1,33 @@
+{
+  "id": "occidental-petroleum-of-qatar-directional-casing-while-drilling-at-idd-s",
+  "name": "Occidental Petroleum of Qatar — directional casing while drilling at Idd Shargi North Dome (offshore Qatar)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "QA",
+  "status": "operating",
+  "description": "12-1/4-in. horizontal production and injection wells landed up to 86 deg inclination into the top of the Shuaiba, with 9-5/8-in. casing drilled and set through the unstable Nahr Umr shale",
+  "technologies": [
+    "ups-casing-drilling-expandable-tubulars"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/drilling-completion/article/16757958/directional-casing-while-drilling-eases-path-through-nahr-umr-shale-off-qatar",
+      "note": "Offshore magazine, Directional Casing while Drilling eases path through Nahr Umr shale off Qatar, September 2009 (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2009",
+      "source": {
+        "url": "https://www.offshore-mag.com/drilling-completion/article/16757958/directional-casing-while-drilling-eases-path-through-nahr-umr-shale-off-qatar",
+        "note": "Offshore magazine, Directional Casing while Drilling eases path through Nahr Umr shale off Qatar, September 2009 (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating"
+}

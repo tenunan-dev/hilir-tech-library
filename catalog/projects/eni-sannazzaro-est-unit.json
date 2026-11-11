@@ -1,0 +1,33 @@
+{
+  "id": "eni-sannazzaro-est-unit",
+  "name": "Eni Sannazzaro EST unit",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "IT",
+  "status": "operating",
+  "description": "23,000 b/d design",
+  "technologies": [
+    "ref-resid-hydrocracking"
+  ],
+  "sources": [
+    {
+      "url": "https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf",
+      "note": "Eni, EST brochure (about 2014)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2013",
+      "source": {
+        "url": "https://eni.com/assets/documents/eng/company/brochure/2014/eni_EST_esecutivo.pdf",
+        "note": "Eni, EST brochure (about 2014)"
+      }
+    }
+  ],
+  "notes": "Status per card source: oil-in 14 October 2013"
+}

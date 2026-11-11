@@ -1,0 +1,33 @@
+{
+  "id": "project-permian-net-power-west-texas",
+  "name": "Project Permian (NET Power), west Texas",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "initial phase now targets 80 MW, using Siemens A35 gas turbines with Entropy post-combustion capture rather than an Allam-Fetvedt cycle plant",
+  "technologies": [
+    "ccs-allam-cycle"
+  ],
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update",
+      "note": "NET Power Q4 and full-year 2025 results, 9 March 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update",
+        "note": "NET Power Q4 and full-year 2025 results, 9 March 2026"
+      }
+    }
+  ],
+  "notes": "Status per card source: FID expected second half 2026, commercial operation targeted early 2029 (as of March 2026)"
+}

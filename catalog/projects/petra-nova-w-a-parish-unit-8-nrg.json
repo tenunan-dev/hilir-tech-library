@@ -1,0 +1,33 @@
+{
+  "id": "petra-nova-w-a-parish-unit-8-nrg",
+  "name": "Petra Nova, W.A. Parish Unit 8 (NRG)",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "4,700 t/day design, 240 MW slipstream; 92.4% average capture; 3.54 Mt captured 2017-2019 (KM CDR)",
+  "technologies": [
+    "ccs-amine-post-combustion"
+  ],
+  "sources": [
+    {
+      "url": "https://publications.ieaghg.org/insightpapers/2020-IP11%20DOE%20report%20on%20Petra%20Nova.pdf",
+      "note": "IEAGHG insight on DOE final report, 2020"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2016",
+      "source": {
+        "url": "https://publications.ieaghg.org/insightpapers/2020-IP11%20DOE%20report%20on%20Petra%20Nova.pdf",
+        "note": "IEAGHG insight on DOE final report, 2020"
+      }
+    }
+  ],
+  "notes": "Status per card source: commercial operation from 29 Dec 2016; DOE demonstration period 2017-2019"
+}

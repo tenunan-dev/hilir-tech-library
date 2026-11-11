@@ -1,0 +1,23 @@
+{
+  "id": "hmc-polymers-polypropylene-plants-map-ta-phut-and-bangkok-region-sites-t",
+  "name": "HMC Polymers polypropylene plants, Map Ta Phut and Bangkok-region sites, Thailand (PTT/PCD joint venture)",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "TH",
+  "status": "operating",
+  "description": "more than 800,000 t/yr of PP (2018); Thailand's first and largest PP producer, passing 1 million tons cumulative-capacity milestone (2023); PP Line IV at Map Ta Phut adds 250 kt/yr",
+  "technologies": [
+    "pch-polypropylene"
+  ],
+  "sources": [
+    {
+      "url": "https://www.scmp.com/country-reports/country-reports/topics/thailand-business-report-december-2018/article/2175634/hmc",
+      "note": "SCMP country report, 9 Dec 2018 (>800 kt/yr); HMC corporate news Feb 2023 (largest in Thailand, Line IV +250 kt); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

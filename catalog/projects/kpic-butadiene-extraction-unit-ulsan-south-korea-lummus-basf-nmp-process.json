@@ -1,0 +1,23 @@
+{
+  "id": "kpic-butadiene-extraction-unit-ulsan-south-korea-lummus-basf-nmp-process",
+  "name": "KPIC butadiene extraction unit, Ulsan, South Korea (Lummus, BASF NMP process)",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "KR",
+  "status": "under-construction",
+  "description": "146,000 t/yr butadiene via BASF BDE NMP extractive distillation, licensed by Lummus (award May 2021)",
+  "technologies": [
+    "pch-butadiene"
+  ],
+  "sources": [
+    {
+      "url": "https://www.european-rubber-journal.com/article/2071146/lummus-to-build-butadiene-plant-for-korea-s-kpic",
+      "note": "European Rubber Journal, 26 May 2021; process-worldwide: 146,000 MTA on completion; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: construction"
+}

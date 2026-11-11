@@ -1,0 +1,23 @@
+{
+  "id": "hornsdale-power-reserve-south-australia-neoen-tesla",
+  "name": "Hornsdale Power Reserve, South Australia (Neoen/Tesla)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "AU",
+  "status": "operating",
+  "description": "100 MW / 129 MWh lithium-ion big battery (Nov 2017) expanded by 50 MW / 64.5 MWh; first grid-forming-inverter inertia services approved by AEMO",
+  "technologies": [
+    "pwr-grid-forming-inverters"
+  ],
+  "sources": [
+    {
+      "url": "https://hornsdalepowerreserve.com.au",
+      "note": "Hornsdale Power Reserve official site; ARENA 19 Nov 2019; Neoen; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

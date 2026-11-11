@@ -1,0 +1,23 @@
+{
+  "id": "barakah-nuclear-energy-plant-uae-enec-nawah",
+  "name": "Barakah Nuclear Energy Plant, UAE (ENEC/NAWAH)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "AE",
+  "status": "operating",
+  "description": "four APR1400 units, 5.6 GW total, about 25% of UAE electricity; construction from 2012; Unit 4 grid-connected March 2024; ~40 TWh/yr",
+  "technologies": [
+    "pwr-large-light-water-reactors"
+  ],
+  "sources": [
+    {
+      "url": "https://www.world-nuclear-news.org/articles/barakah-4-landmark-announced-as-world-nuclear-symp",
+      "note": "World Nuclear News, 5 Sep 2024 (5,600 MW total, ~25% of UAE electricity); energyconnects 25 Mar 2024 (Unit 4 grid connection); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

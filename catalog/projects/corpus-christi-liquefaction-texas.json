@@ -1,0 +1,23 @@
+{
+  "id": "corpus-christi-liquefaction-texas",
+  "name": "Corpus Christi Liquefaction, Texas",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "3 trains, 15.0 Mtpa",
+  "technologies": [
+    "lng-optimized-cascade"
+  ],
+  "sources": [
+    {
+      "url": "https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf",
+      "note": "ConocoPhillips Optimized Cascade quick reference card, CS 24-0106 (2023-2024)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

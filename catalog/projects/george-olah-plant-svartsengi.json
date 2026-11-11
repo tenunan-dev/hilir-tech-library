@@ -1,0 +1,39 @@
+{
+  "id": "george-olah-plant-svartsengi",
+  "name": "George Olah plant, Svartsengi",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "IS",
+  "status": "proposed",
+  "description": "4,000 t/yr methanol",
+  "technologies": [
+    "ccs-co2-to-methanol-fuels"
+  ],
+  "sources": [
+    {
+      "url": "https://carbonrecycling.com/projects/george-olah",
+      "note": "Carbon Recycling International, George Olah plant page"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2012",
+      "source": {
+        "url": "https://carbonrecycling.com/projects/george-olah",
+        "note": "Carbon Recycling International, George Olah plant page"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

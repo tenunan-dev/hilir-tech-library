@@ -1,0 +1,23 @@
+{
+  "id": "karpowership-indonesia-floating-power-plants-with-pal-indonesia-shipyard",
+  "name": "Karpowership Indonesia floating power plants with PAL Indonesia shipyard cooperation",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "ID",
+  "status": "operating",
+  "description": "Karpowership Indonesia operates floating power plants; cooperation agreement with state shipbuilder PAL Indonesia to build power ships for Indonesia (2016); per-ship capacity not stated in the source",
+  "technologies": [
+    "pwr-powerships-power-barges"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thejakartapost.com/news/2016/10/28/karpowership-pal-to-build-power-ships-to-light-up-indonesia",
+      "note": "Jakarta Post, 28 Oct 2016 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

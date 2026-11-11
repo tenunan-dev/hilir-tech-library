@@ -1,0 +1,23 @@
+{
+  "id": "energy-vault-evx-rudong-gravity-storage-rudong-jiangsu-with-china-tianyi",
+  "name": "Energy Vault EVx Rudong gravity storage, Rudong, Jiangsu (with China Tianying)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "25 MW / 100 MWh grid-connected gravity-energy-storage system supporting a wind farm under SGCC — first-of-its-kind commercial EVx deployment, shown as operating on the company's project page",
+  "technologies": [
+    "pwr-gravity-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://energyvault.com/projects",
+      "note": "Energy Vault projects page, read 2026-11-11"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

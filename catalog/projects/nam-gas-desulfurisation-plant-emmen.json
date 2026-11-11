@@ -1,0 +1,39 @@
+{
+  "id": "nam-gas-desulfurisation-plant-emmen",
+  "name": "NAM gas-desulfurisation plant, Emmen",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "NL",
+  "status": "proposed",
+  "description": "300 MMscfd intake",
+  "technologies": [
+    "gas-hybrid-solvent-sulfinol"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions",
+      "note": "Oil & Gas Journal, Gas-desulfurization plant handles wide range of sour gas compositions (NAM Emmen, startup 18 July 1988)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "1988",
+      "source": {
+        "url": "https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions",
+        "note": "Oil & Gas Journal, Gas-desulfurization plant handles wide range of sour gas compositions (NAM Emmen, startup 18 July 1988)"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

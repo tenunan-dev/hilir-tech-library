@@ -1,0 +1,23 @@
+{
+  "id": "t-point-2-validation-plant-with-takasago-hydrogen-park-japan-mitsubishi",
+  "name": "T-Point 2 validation plant with Takasago Hydrogen Park, Japan (Mitsubishi Power)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "JP",
+  "status": "operating",
+  "description": "JAC advanced-class gas turbine validated in commercial configuration; world's first grid-connected 30% hydrogen co-firing demonstration (Nov 2023); Takasago Hydrogen Park supplies on-site hydrogen across the value chain",
+  "technologies": [
+    "pwr-hydrogen-ammonia-turbines"
+  ],
+  "sources": [
+    {
+      "url": "https://power.mhi.com/news/231130.html",
+      "note": "Mitsubishi Power, 30 Nov 2023; Takasago Hydrogen Park success-story page; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

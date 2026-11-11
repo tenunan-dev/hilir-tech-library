@@ -1,0 +1,23 @@
+{
+  "id": "northern-lights-lco2-carrier-fleet-northern-pioneer-pathfinder-liaison-p",
+  "name": "Northern Lights LCO2 carrier fleet (Northern Pioneer, Pathfinder, Liaison, Phoenix)",
+  "project_type": "operating-asset",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "four 7,500 m3 liquefied-CO2 carriers (two full-pressure C-type tanks each, 130 m length); first three delivered from late 2024, fourth arrived July 2026 completing the phase-one fleet; further four 7,500 m3 ships chartered from K Line, scaling to larger vessels",
+  "technologies": [
+    "mid-liquid-co2-carriers"
+  ],
+  "sources": [
+    {
+      "url": "https://gcaptain.com/northern-lights-expands-carbon-shipping-fleet-with-new-co2-carrier/",
+      "note": "gCaptain (three delivered since late 2024); offshore-energy.biz 29 Jul 2026 (fourth arrived from China, 7,500 m3 each); norlights.com (7,500 m3, 130 m); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

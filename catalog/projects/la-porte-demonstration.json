@@ -1,0 +1,33 @@
+{
+  "id": "la-porte-demonstration",
+  "name": "La Porte demonstration",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "50 MWth (25 MWe)",
+  "technologies": [
+    "ccs-allam-cycle"
+  ],
+  "sources": [
+    {
+      "url": "https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/",
+      "note": "POWER magazine, 1 Apr 2019"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2018",
+      "source": {
+        "url": "https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/",
+        "note": "POWER magazine, 1 Apr 2019"
+      }
+    }
+  ],
+  "notes": "Status per card source: first fire 30 May 2018"
+}

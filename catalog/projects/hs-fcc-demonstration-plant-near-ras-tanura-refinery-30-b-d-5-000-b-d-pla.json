@@ -1,0 +1,29 @@
+{
+  "id": "hs-fcc-demonstration-plant-near-ras-tanura-refinery-30-b-d-5-000-b-d-pla",
+  "name": "HS-FCC demonstration plant near Ras Tanura refinery (30 b/d; 5,000 b/d planned at the time)",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "SA",
+  "status": "proposed",
+  "description": "30 b/d",
+  "technologies": [
+    "ref-petrochemical-integration"
+  ],
+  "sources": [
+    {
+      "url": "https://ogj.com/refining-processing/petrochemicals/article/17235744/demonstration-plant-for-new-fcc-technology-yields-increased-propylene",
+      "note": "Oil & Gas Journal, Demonstration plant for new FCC technology yields increased propylene"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

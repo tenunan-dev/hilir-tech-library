@@ -1,0 +1,23 @@
+{
+  "id": "polar-night-energy-sand-batteries-kankaanpaeae-vatajankoski-and-pornaine",
+  "name": "Polar Night Energy sand batteries: Kankaanpaeae (Vatajankoski) and Pornainen, Finland",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "FI",
+  "status": "operating",
+  "description": "Kankaanpaeae: world's first commercial sand battery, 100 kW heating power / 8 MWh, in commercial use since mid-2022; Pornainen: 1 MW / 100 MWh, world's largest, in operation 2025",
+  "technologies": [
+    "pwr-thermal-energy-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://evertiq.com/news/2025-07-01-worlds-largest-sand-battery-now-in-operation-in-finland",
+      "note": "Evertiq, 1 Jul 2025 (Pornainen 1 MW / 100 MWh, ten times the first unit); Proactive Investors, 5 Jul 2022 (Kankaanpaeae 100 kW / 8 MWh commercial sale); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

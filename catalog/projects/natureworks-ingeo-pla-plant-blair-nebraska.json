@@ -1,0 +1,23 @@
+{
+  "id": "natureworks-ingeo-pla-plant-blair-nebraska",
+  "name": "NatureWorks Ingeo PLA plant, Blair, Nebraska",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "nameplate 140,000 t/yr (300 million lb), world's first and largest PLA plant (doubled to full design capacity by 2009)",
+  "technologies": [
+    "pch-bio-based-chemicals"
+  ],
+  "sources": [
+    {
+      "url": "https://cen.acs.org/articles/87/i28/NatureWorks-Ups-PLA-Capacity.html",
+      "note": "C&EN, 13 Jul 2009 (doubling to 140,000 t/yr design capacity); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

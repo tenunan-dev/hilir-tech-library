@@ -1,0 +1,23 @@
+{
+  "id": "maersk-horsburgh-retrofit",
+  "name": "Maersk Horsburgh retrofit",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Denmark (operator)",
+  "status": "proposed",
+  "description": "150 kW",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://climeon.com/references/",
+      "note": "Climeon references page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: marine retrofit with ABS approval since 2022"
+}

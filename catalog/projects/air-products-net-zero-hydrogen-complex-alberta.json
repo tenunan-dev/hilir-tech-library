@@ -1,0 +1,33 @@
+{
+  "id": "air-products-net-zero-hydrogen-complex-alberta",
+  "name": "Air Products Net-Zero Hydrogen Complex, Alberta",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "CA",
+  "status": "FID",
+  "description": "ATR-CCUS blue hydrogen complex",
+  "technologies": [
+    "h2-atr-ccs"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "note": "IEA Global Hydrogen Review 2025, Chapter 5 (page 198) and Chapter 3 (page 114)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2028",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "note": "IEA Global Hydrogen Review 2025, Chapter 5 (page 198) and Chapter 3 (page 114)"
+      }
+    }
+  ],
+  "notes": "Status per card source: ATR-CCUS project at FID (GHR Chapter 5: 'a second ATR-CCUS project in Canada has reached FID'); commissioning delayed from a planned 2024 start to late 2027 or early 2028, capital costs almost tripled from USD 1.2 to 3.3 billion; ATR technology licensor not named in the report"
+}

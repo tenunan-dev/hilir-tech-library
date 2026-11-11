@@ -1,0 +1,33 @@
+{
+  "id": "weyburn-field-saskatchewan-encana",
+  "name": "Weyburn field, Saskatchewan (EnCana)",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "CA",
+  "status": "operating",
+  "description": "about 95 million ft3/d CO2 (4,935 t/d) from the Dakota Gasification plant via a 205-mile pipeline; 130 million bbl incremental oil expected",
+  "technologies": [
+    "ups-co2-eor"
+  ],
+  "sources": [
+    {
+      "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+      "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2008",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating as of the primer (data to 2008)"
+}

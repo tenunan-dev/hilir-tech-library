@@ -1,0 +1,33 @@
+{
+  "id": "air-products-port-arthur-smr-co2-capture-valero-refinery-site",
+  "name": "Air Products Port Arthur SMR CO2 capture (Valero refinery site)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "about 1 Mt/yr CO2 captured by vacuum swing adsorption from SMR process gas, used for enhanced oil recovery",
+  "technologies": [
+    "h2-smr"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon",
+      "note": "DOE Office of Fossil Energy, 25 January 2013"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2013",
+      "source": {
+        "url": "https://www.energy.gov/fe/articles/breakthrough-large-scale-industrial-project-begins-carbon",
+        "note": "DOE Office of Fossil Energy, 25 January 2013"
+      }
+    }
+  ],
+  "notes": "Status per card source: capture began 2013 (first SMR; second planned months later)"
+}

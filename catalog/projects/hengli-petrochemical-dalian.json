@@ -1,0 +1,33 @@
+{
+  "id": "hengli-petrochemical-dalian",
+  "name": "Hengli Petrochemical, Dalian",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "CN",
+  "status": "proposed",
+  "description": "20 Mt/yr crude processing",
+  "technologies": [
+    "ref-crude-to-chemicals"
+  ],
+  "sources": [
+    {
+      "url": "https://yicaiglobal.com/news/hengli-petrochemical-to-finish-dalian-plant-start-20-million-ton-production-",
+      "note": "Yicai Global, 14 December 2018"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2018",
+      "source": {
+        "url": "https://yicaiglobal.com/news/hengli-petrochemical-to-finish-dalian-plant-start-20-million-ton-production-",
+        "note": "Yicai Global, 14 December 2018"
+      }
+    }
+  ],
+  "notes": "Status per card source: production start announced December 2018"
+}

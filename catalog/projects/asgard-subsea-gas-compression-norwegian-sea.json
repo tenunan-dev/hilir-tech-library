@@ -1,0 +1,23 @@
+{
+  "id": "asgard-subsea-gas-compression-norwegian-sea",
+  "name": "Asgard subsea gas compression, Norwegian Sea",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "world's first subsea gas compression facility; on stream 17 Sep 2015; phase 2 started 2025 (first module replaced 2023, second installed at 270 m); recovery from Mikkel and Midgard rising to 90%, about 306 million boe additional, about NOK 175 bn added value",
+  "technologies": [
+    "ups-subsea-gas-compression"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/news/20250926-phase-2-asgard-subsea-compression",
+      "note": "Equinor, 26 Sep 2025 (phase 2 start, recovery to 90%, 306 Mboe); Aker Solutions project page (delivered world's first system in 2015); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

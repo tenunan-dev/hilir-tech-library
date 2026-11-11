@@ -1,0 +1,31 @@
+{
+  "id": "squamish-pilot",
+  "name": "Squamish pilot",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "CA",
+  "status": "operating",
+  "description": "about 0.6 t/day (contactor and pellet reactor loop)",
+  "technologies": [
+    "ccs-dac-liquid-solvent"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jefftk.com/keith2018.pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2015",
+      "source": {
+        "url": "https://www.jefftk.com/keith2018.pdf"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating since 2015 (per 2018 paper)"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "natureworks-ingeo-pla-plant-rayong-thailand",
+  "name": "NatureWorks Ingeo PLA plant, Rayong, Thailand",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "TH",
+  "status": "under-construction",
+  "description": "75,000 t/yr; construction milestone Feb 2023, production planned from 2025",
+  "technologies": [
+    "pch-bio-based-chemicals"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemengonline.com/natureworks-progresses-construction-of-pla-biopolymer-plant-in-thailand",
+      "note": "Chemical Engineering, 24 Oct 2023 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: construction"
+}

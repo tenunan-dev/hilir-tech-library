@@ -1,0 +1,23 @@
+{
+  "id": "dohazari-power-plant",
+  "name": "Dohazari power plant",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Bangladesh",
+  "status": "operating",
+  "description": "102 MW",
+  "technologies": [
+    "pwr-modular-engine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "note": "Wärtsilä white paper on combustion engine power plants, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: delivered in 10 months from notice to proceed to handover"
+}

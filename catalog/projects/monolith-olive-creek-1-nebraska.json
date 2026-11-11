@@ -1,0 +1,33 @@
+{
+  "id": "monolith-olive-creek-1-nebraska",
+  "name": "Monolith Olive Creek 1, Nebraska",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "about 14,000 t/yr carbon black and about 2,500 t/yr hydrogen",
+  "technologies": [
+    "h2-methane-pyrolysis"
+  ],
+  "sources": [
+    {
+      "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
+      "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2020",
+      "source": {
+        "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
+        "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
+      }
+    }
+  ],
+  "notes": "Status per card source: commissioned 2020; Olive Creek 2 planned at about 194,000 t/yr carbon black and 40,000 t/yr hydrogen"
+}

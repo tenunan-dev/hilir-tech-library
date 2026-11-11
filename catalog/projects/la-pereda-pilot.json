@@ -1,0 +1,33 @@
+{
+  "id": "la-pereda-pilot",
+  "name": "La Pereda pilot",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "ES",
+  "status": "proposed",
+  "description": "1.7 MWth",
+  "technologies": [
+    "ccs-calcium-looping"
+  ],
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141",
+      "note": "Energy & Fuels 2024, DOI 10.1021/acs.energyfuels.4c02472"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2024",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141",
+        "note": "Energy & Fuels 2024, DOI 10.1021/acs.energyfuels.4c02472"
+      }
+    }
+  ],
+  "notes": "Status per card source: biomass-fired calciner tests reached capture efficiencies above 99% in some periods (2024)"
+}

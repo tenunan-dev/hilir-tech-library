@@ -1,0 +1,33 @@
+{
+  "id": "usgs-western-canada-sedimentary-basin-petroleum-systems-modeling-demonst",
+  "name": "USGS Western Canada Sedimentary Basin petroleum systems modeling demonstration (PetroMod)",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "CA",
+  "status": "proposed",
+  "description": "1D, 2D and 3D petroleum systems models of the Lower Cretaceous Mannville petroleum system, Western Canada Sedimentary Basin, applied to USGS oil and gas resource assessment",
+  "technologies": [
+    "ups-basin-petroleum-systems-modelling"
+  ],
+  "sources": [
+    {
+      "url": "https://pubs.usgs.gov/of/2006/1024/pdf/OFR-2006-1024.pdf",
+      "note": "USGS Open-File Report 2006-1024, Petroleum System Modeling Capabilities for Use in Oil and Gas Resource Assessments, 2006 (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2006",
+      "source": {
+        "url": "https://pubs.usgs.gov/of/2006/1024/pdf/OFR-2006-1024.pdf",
+        "note": "USGS Open-File Report 2006-1024, Petroleum System Modeling Capabilities for Use in Oil and Gas Resource Assessments, 2006 (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: pilot"
+}

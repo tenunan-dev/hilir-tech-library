@@ -1,0 +1,23 @@
+{
+  "id": "dubai-waste-management-centre-warsan-united-arab-emirates",
+  "name": "Dubai Waste Management Centre (Warsan), United Arab Emirates",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "AE",
+  "status": "operating",
+  "description": "world's largest waste-to-energy plant: processes 1.9 million tonnes of waste a year, powers about 135,000 homes; about USD 1 bn project; began transmitting electricity July 2023",
+  "technologies": [
+    "pwr-biomass-waste-to-energy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity",
+      "note": "AGBI, 19 Jul 2023 (start of electricity transmission, 1.9 Mt/yr, USD 1 bn); FM Middle East, 13 Sep 2022 (world's largest WTE, 135,000 homes); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

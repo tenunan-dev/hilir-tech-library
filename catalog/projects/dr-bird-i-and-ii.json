@@ -1,0 +1,23 @@
+{
+  "id": "dr-bird-i-and-ii",
+  "name": "DR Bird I and II",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Jamaica",
+  "status": "proposed",
+  "description": "50 MW (new unit)",
+  "technologies": [
+    "pwr-powerships-power-barges"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
+      "note": "Wärtsilä floating power plants page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: Wärtsilä power barges; repeat order for a third 50 MW barge with three 18V46 sets"
+}

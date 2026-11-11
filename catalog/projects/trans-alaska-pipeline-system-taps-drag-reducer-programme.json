@@ -1,0 +1,23 @@
+{
+  "id": "trans-alaska-pipeline-system-taps-drag-reducer-programme",
+  "name": "Trans-Alaska Pipeline System (TAPS) drag-reducer programme",
+  "project_type": "operating-asset",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "first commercial use of a polymeric drag-reducing additive to raise crude-oil pipeline flow, beginning 1979 after two full-scale experiments (Burger et al., 1982); DRA let TAPS exceed its design throughput",
+  "technologies": [
+    "mid-drag-reducing-agents"
+  ],
+  "sources": [
+    {
+      "url": "https://cir.nii.ac.jp/crid/1361137044158838528",
+      "note": "Burger et al., Flow Increase in the Trans Alaska Pipeline Through Use of a Drag Reducing Additive (1982, cited 281x); semanticscholar record (first commercial use 1979); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

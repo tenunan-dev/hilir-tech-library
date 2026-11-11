@@ -1,0 +1,23 @@
+{
+  "id": "hellisheidi-geothermal-power-plant-hengill-iceland-on-power",
+  "name": "Hellisheidi geothermal power plant, Hengill, Iceland (ON Power)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "IS",
+  "status": "operating",
+  "description": "303 MWe plus 200-400 MWth hot-water supply; commissioned in five stages 2006-2011; Iceland's largest geothermal CHP plant",
+  "technologies": [
+    "pwr-geothermal-flash-binary"
+  ],
+  "sources": [
+    {
+      "url": "https://verkis.com/projects/energy/hellisheidi-power-plant",
+      "note": "Verkis (design engineer): 303 MWe commissioned in five stages 2006-2011; operator ON Power: 200 MW thermal; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

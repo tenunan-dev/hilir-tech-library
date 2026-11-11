@@ -1,0 +1,23 @@
+{
+  "id": "sulfate-removal-package-veolia-srp-with-dow-filmtec-nanofiltration-membr",
+  "name": "Sulfate Removal Package (Veolia SRP with Dow FilmTec nanofiltration membranes), offshore Angola",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "AO",
+  "status": "operating",
+  "description": "seawater treatment for injection: SRP removes sulphates and other divalent ions from injection water (capacity not stated in the source)",
+  "technologies": [
+    "ups-seawater-sulfate-removal"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pollutionsolutions-online.com/news/water-wastewater/17/veolia-water-solutions-technologies/ultrafiltration-and-sulphate-removal-seawater-treatment-in-offshore-angola/14681",
+      "note": "Pollution Solutions Online, 24 Jun 2011: Veolia ultrafiltration and sulphate removal for seawater injection offshore Angola using Dow FilmTec membranes (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

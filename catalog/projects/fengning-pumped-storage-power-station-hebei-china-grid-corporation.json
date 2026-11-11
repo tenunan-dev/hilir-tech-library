@@ -1,0 +1,23 @@
+{
+  "id": "fengning-pumped-storage-power-station-hebei-china-grid-corporation",
+  "name": "Fengning Pumped Storage Power Station, Hebei, China (Grid Corporation)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "world's most powerful pumped storage station: 3,600 MW installed (12 units), designed to generate 6.61 billion kWh/yr; fully operational December 2024",
+  "technologies": [
+    "pwr-pumped-hydro-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://english.news.cn/20241231/bfa9e1c920f34e0194978ad9706f8d0f/c.html",
+      "note": "Xinhua, 31 Dec 2024 (full operation, 3.6 GW, 6.61 TWh design); Guinness World Records: most powerful pumped storage station; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

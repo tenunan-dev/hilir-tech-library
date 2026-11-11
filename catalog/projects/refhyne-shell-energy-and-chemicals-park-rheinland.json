@@ -1,0 +1,25 @@
+{
+  "id": "refhyne-shell-energy-and-chemicals-park-rheinland",
+  "name": "REFHYNE, Shell Energy and Chemicals Park Rheinland",
+  "project_type": "operating-asset",
+  "sector": "H2",
+  "sector_codes": [
+    "H2",
+    "REF"
+  ],
+  "country": "DE",
+  "status": "operating",
+  "description": "10 MW PEM, described by Shell as Europe's largest PEM electrolyser at start-up",
+  "technologies": [
+    "h2-pem-electrolysis",
+    "ref-green-hydrogen"
+  ],
+  "sources": [
+    {
+      "url": "https://www.shell.com/news-and-insights/our-stories/green-hydrogen-project-goes-live-in-germany.html",
+      "note": "Shell story, Green hydrogen project goes live in Germany"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "porthos-co2-transport-system-port-of-rotterdam-netherlands",
+  "name": "Porthos CO2 transport system, Port of Rotterdam, Netherlands",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "NL",
+  "status": "under-construction",
+  "description": "about 55 km of CO2 pipeline (about 30 km onshore laid, more than 20 km offshore); 10 Mtpa design; transports Rotterdam industry CO2 to depleted North Sea gas fields; under construction (2024-)",
+  "technologies": [
+    "mid-co2-pipelines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.porthosco2.nl/en",
+      "note": "Porthos project site (30 km onshore laid, 20+ km offshore); CATF EU CO2 infrastructure briefing (55 km, 10 Mtpa); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: construction"
+}

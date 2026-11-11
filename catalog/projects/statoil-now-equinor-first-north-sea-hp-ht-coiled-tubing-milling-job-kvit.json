@@ -1,0 +1,33 @@
+{
+  "id": "statoil-now-equinor-first-north-sea-hp-ht-coiled-tubing-milling-job-kvit",
+  "name": "Statoil (now Equinor) first North Sea HP/HT coiled tubing milling job, Kvitebjoern field, block 34/11, Norwegian continental shelf",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "well 34/11-A-9 T2, gas/condensate producer with reservoir at about 4,000 m, 770 bar and 160 C; CT milling of a stuck-closed isolation ball valve",
+  "technologies": [
+    "ups-coiled-tubing-intervention"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/business-briefs/equipment-engineering/article/16761449/statoil-records-first-successful-north-sea-hp-ht-coiled-tubing-milling-job",
+      "note": "Offshore magazine, 1 May 2013 (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2013",
+      "source": {
+        "url": "https://www.offshore-mag.com/business-briefs/equipment-engineering/article/16761449/statoil-records-first-successful-north-sea-hp-ht-coiled-tubing-milling-job",
+        "note": "Offshore magazine, 1 May 2013 (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating"
+}

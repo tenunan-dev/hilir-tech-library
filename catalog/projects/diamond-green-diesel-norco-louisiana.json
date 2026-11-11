@@ -1,0 +1,33 @@
+{
+  "id": "diamond-green-diesel-norco-louisiana",
+  "name": "Diamond Green Diesel, Norco, Louisiana",
+  "project_type": "expansion",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "275 million gal/yr, expanding to 675 million gal/yr (Ecofining)",
+  "technologies": [
+    "ref-hefa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell",
+      "note": "Digital Refining news, 30 September 2019"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2019",
+      "source": {
+        "url": "https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell",
+        "note": "Digital Refining news, 30 September 2019"
+      }
+    }
+  ],
+  "notes": "Status per card source: expansion announced September 2019, completion expected late 2021"
+}

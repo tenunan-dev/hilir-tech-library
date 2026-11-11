@@ -1,0 +1,33 @@
+{
+  "id": "petronas-pflng-dua-rotan-field-offshore-sabah",
+  "name": "PETRONAS PFLNG DUA, Rotan field, offshore Sabah",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "MY",
+  "status": "operating",
+  "description": "1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE",
+  "technologies": [
+    "gas-amine-agr"
+  ],
+  "sources": [
+    {
+      "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas",
+      "note": "BASF OASE gas treatment, natural gas page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2021",
+      "source": {
+        "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas",
+        "note": "BASF OASE gas treatment, natural gas page, read 24 October 2026"
+      }
+    }
+  ],
+  "notes": "Status per card source: first cargo 24 March 2021"
+}

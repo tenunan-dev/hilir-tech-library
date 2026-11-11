@@ -1,0 +1,23 @@
+{
+  "id": "nabors-r801-robotic-drilling-rig-with-exxonmobil",
+  "name": "Nabors R801 robotic drilling rig (with ExxonMobil)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "world's first fully automated land drilling rig; purpose-built proving ground for drilling automation",
+  "technologies": [
+    "ups-drilling-automation"
+  ],
+  "sources": [
+    {
+      "url": "https://investor.nabors.com/2022-11-16-Nabors-Marks-Major-Industry-Milestone-Fully-Automates-Existing-Land-Rig-with-First-of-its-Kind-Robotics-Module",
+      "note": "Nabors investor release, 16 Nov 2022: in 2021 Nabors and ExxonMobil proved fully automated land drilling with the newbuild R801 robotic rig (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

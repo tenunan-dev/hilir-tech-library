@@ -1,0 +1,33 @@
+{
+  "id": "essar-oil-now-nayara-energy-vadinar-refinery-delayed-coker-gujarat",
+  "name": "Essar Oil (now Nayara Energy) Vadinar refinery delayed coker, Gujarat",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "IN",
+  "status": "operating",
+  "description": "coker capacity not stated (described as one of the largest in the world); refinery expanded to 20 Mt/yr (405,000 b/d); Lummus technology and heater design",
+  "technologies": [
+    "ref-delayed-coking"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/",
+      "note": "Hydrocarbon Processing, 7 September 2012"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2012",
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/",
+        "note": "Hydrocarbon Processing, 7 September 2012"
+      }
+    }
+  ],
+  "notes": "Status per card source: commissioned 2012"
+}

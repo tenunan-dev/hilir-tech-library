@@ -1,0 +1,33 @@
+{
+  "id": "carbios-longlaville-plant-meurthe-et-moselle",
+  "name": "Carbios Longlaville plant, Meurthe-et-Moselle",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "FR",
+  "status": "operating",
+  "description": "50,000 t/yr PET waste, EUR 230 million",
+  "technologies": [
+    "pch-pet-depolymerisation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.carbios.com/en/carbios-provides-an-update-on-the-financing-of-its-longlaville-plant-project/",
+      "note": "Carbios press release, 3 August 2026; details from Carbios first-half 2026 results release, 24 September 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://www.carbios.com/en/carbios-provides-an-update-on-the-financing-of-its-longlaville-plant-project/",
+        "note": "Carbios press release, 3 August 2026; details from Carbios first-half 2026 results release, 24 September 2026"
+      }
+    }
+  ],
+  "notes": "Status per card source: ground-breaking April 2024; construction suspended pending project financing; the financial close target of 30 September 2026 was missed and the start of production, previously expected H1 2028, is postponed; credit committee approvals obtained from the majority of lenders during summer 2026, a commercial agreement with a major beverage-industry player being finalised to raise pre-sales to about 60% of nominal capacity, and due diligence by export credit agencies and equity partners ongoing (as of 24 September 2026)"
+}

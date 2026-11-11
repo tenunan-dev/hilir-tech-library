@@ -1,0 +1,39 @@
+{
+  "id": "jubail-united-alpha-sablin-lao-plant",
+  "name": "Jubail United alpha-SABLIN LAO plant",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "SA",
+  "status": "proposed",
+  "description": "150,000 t/yr",
+  "technologies": [
+    "pch-linear-alpha-olefins"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing",
+      "note": "Chemical Processing, SABIC and Linde successfully commercialize linear alpha olefins (30 November 2009)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2009",
+      "source": {
+        "url": "https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing",
+        "note": "Chemical Processing, SABIC and Linde successfully commercialize linear alpha olefins (30 November 2009)"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

@@ -69,6 +69,13 @@ def routes(tools):
     async def equipment(request: Request):
         return _found(tools.get_equipment(request.path_params["equipment_id"]))
 
+    async def project_list(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.list_projects(q.get("status"), q.get("sector"), q.get("q")))
+
+    async def project(request: Request):
+        return _found(tools.get_project(request.path_params["project_id"]))
+
     async def register(request: Request):
         q = request.query_params
         return JSONResponse(tools.list_technology_register(q.get("code"), q.get("maturity"), q.get("q")))
@@ -111,6 +118,7 @@ def routes(tools):
         Route("/api/technologies/{technology_id}", technology), Route("/api/vendors", vendors),
         Route("/api/vendors/{vendor_id}", vendor), Route("/api/register", register),
         Route("/api/equipment", equipment_list), Route("/api/equipment/{equipment_id}", equipment),
+        Route("/api/projects", project_list), Route("/api/projects/{project_id}", project),
         Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/version", version),
         Route("/api/openapi.json", openapi),
     ]
@@ -175,6 +183,14 @@ def openapi_spec(server_url):
                 "getEquipment", "One equipment record: specification ranges with basis and sources, vendor model "
                 "lines, technologies and gaps",
                 [_param("equipment_id", "Equipment id, e.g. boiler-hrsg", where="path")], JSON_OR_404),
+            "/api/projects": get("listProjects", "Named projects and operating plants: status, location, "
+                                 "capacities, owners and the technology cards they deploy", [
+                _param("status", "proposed, FID, under-construction, commissioning, operating, suspended or decommissioned"),
+                SECTOR, _param("q", "Text filter")]),
+            "/api/projects/{project_id}": get(
+                "getProject", "One project record: capacities with sources, milestones, owners, contractors, "
+                "offtakers, technologies and gaps",
+                [_param("project_id", "Project id, e.g. hornsea-2-offshore-wind-farm-uk-north-sea-orsted", where="path")], JSON_OR_404),
             "/api/register": get("listTechnologyRegister", "Register of about 300 technologies across all sectors", [
                 _param("code", "Sector or discipline code"), _param("maturity", "Maturity filter"), _param("q", "Text filter")]),
             "/api/gaps": get("listGaps", "Inputs the technology cards still lack, with where to get them", [

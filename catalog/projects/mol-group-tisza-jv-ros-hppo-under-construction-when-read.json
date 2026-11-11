@@ -1,0 +1,29 @@
+{
+  "id": "mol-group-tisza-jv-ros-hppo-under-construction-when-read",
+  "name": "MOL Group Tiszaújváros HPPO (under construction when read)",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "HU",
+  "status": "proposed",
+  "description": "200,000 t/yr",
+  "technologies": [
+    "pch-propylene-oxide"
+  ],
+  "sources": [
+    {
+      "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
+      "note": "Evonik, HPPO technology page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

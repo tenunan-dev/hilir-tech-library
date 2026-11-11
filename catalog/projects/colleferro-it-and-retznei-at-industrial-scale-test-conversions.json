@@ -1,0 +1,33 @@
+{
+  "id": "colleferro-it-and-retznei-at-industrial-scale-test-conversions",
+  "name": "Colleferro (IT) and Retznei (AT) industrial-scale test conversions",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "XX",
+  "status": "operating",
+  "description": "industrial scale; test phase about EUR 80 million",
+  "technologies": [
+    "ccs-oxyfuel-cement"
+  ],
+  "sources": [
+    {
+      "url": "https://www.heidelbergmaterials.com/en/ecra-oxyfuel",
+      "note": "Heidelberg Materials page, 15 Mar 2018, unchanged since (read 28 October 2026); current project lists at heidelbergmaterials.com/en/ccus and ecra-online.org/research/ccs (read 28 October 2026); 'world's first' claim from CI4C partners press release, 8 July 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2018",
+      "source": {
+        "url": "https://www.heidelbergmaterials.com/en/ecra-oxyfuel",
+        "note": "Heidelberg Materials page, 15 Mar 2018, unchanged since (read 28 October 2026); current project lists at heidelbergmaterials.com/en/ccus and ecra-online.org/research/ccs (read 28 October 2026); 'world's first' claim from CI4C partners press release, 8 July 2026"
+      }
+    }
+  ],
+  "notes": "Status per card source: planned March 2018; the conversions did not go ahead — Heidelberg Materials' current CCUS project list and ECRA's CCS project pages name neither plant (both read 28 October 2026), and the industrial-scale oxyfuel demonstration instead proceeded via the catch4climate new-build plant at Mergelstetten, inaugurated 8 July 2026 as the world's first industrial-scale pure oxyfuel facility"
+}

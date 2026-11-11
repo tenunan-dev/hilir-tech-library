@@ -1,0 +1,33 @@
+{
+  "id": "brevik-ccs-heidelberg-materials",
+  "name": "Brevik CCS (Heidelberg Materials)",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "up to 400,000 t/yr CO2 from cement (SLB Capturi)",
+  "technologies": [
+    "ccs-amine-post-combustion"
+  ],
+  "sources": [
+    {
+      "url": "https://capturi.slb.com/resources/news/2025/slb-capturi-celebrates-first-anniversary-marking-a-year-of-breakthroughs",
+      "note": "SLB Capturi news, 16 Sep 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2025",
+      "source": {
+        "url": "https://capturi.slb.com/resources/news/2025/slb-capturi-celebrates-first-anniversary-marking-a-year-of-breakthroughs",
+        "note": "SLB Capturi news, 16 Sep 2025"
+      }
+    }
+  ],
+  "notes": "Status per card source: in operation since June 2025"
+}

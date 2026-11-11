@@ -1,0 +1,33 @@
+{
+  "id": "neste-singapore-refinery",
+  "name": "Neste Singapore refinery",
+  "project_type": "expansion",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "SG",
+  "status": "operating",
+  "description": "2.6 Mt/yr renewable products including up to 1 Mt/yr SAF",
+  "technologies": [
+    "ref-hefa"
+  ],
+  "sources": [
+    {
+      "url": "https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery",
+      "note": "Neste Singapore refinery page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2023",
+      "source": {
+        "url": "https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery",
+        "note": "Neste Singapore refinery page, read 24 October 2026"
+      }
+    }
+  ],
+  "notes": "Status per card source: expansion completed April 2023 (EUR 1.6 billion)"
+}

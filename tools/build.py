@@ -29,6 +29,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "catalog" / "sources"
 VENDORS = ROOT / "catalog" / "vendors"
 EQUIPMENT = ROOT / "catalog" / "equipment"
+PROJECTS = ROOT / "catalog" / "projects"
 INDEX = ROOT / "catalog" / "index"
 
 
@@ -246,6 +247,61 @@ def load_equipment(vendor_ids, card_ids, source_ids):
     return equipment, errors
 
 
+def load_projects(vendor_ids, card_ids, source_ids):
+    schema = json.loads((ROOT / "schema" / "project.schema.json").read_text(encoding="utf-8"))
+    validator = jsonschema.Draft202012Validator(schema, format_checker=jsonschema.FormatChecker())
+    projects, errors = [], []
+    for path in sorted(PROJECTS.glob("*.json")):
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        errors += [f"projects/{path.name}: {'/'.join(map(str, e.path))} {e.message}" for e in validator.iter_errors(rec)]
+        if rec.get("id") != path.stem:
+            errors.append(f"projects/{path.name}: id does not match file name")
+        unknown = sorted(set(rec.get("technologies", [])) - card_ids)
+        errors += [f"projects/{path.name}: unknown technology id {t}" for t in unknown]
+        unknown = sorted({s["source_id"] for s in rec["sources"] if "source_id" in s} - source_ids)
+        errors += [f"projects/{path.name}: unknown source_id {s}" for s in unknown]
+        for group in ("owners", "contractors", "offtakers"):
+            for party in rec.get(group, []):
+                if "vendor_id" in party and party["vendor_id"] not in vendor_ids:
+                    errors.append(f"projects/{path.name}: unknown vendor id {party['vendor_id']} in {group}")
+        for cost in rec.get("capex", []):
+            if "USD" in (cost.get("unit") or "").upper() and "year" not in cost:
+                errors.append(f"projects/{path.name}: USD capex '{cost['metric']}' needs a dollar year")
+        projects.append(rec)
+    return projects, errors
+
+
+def project_page(projects, labels):
+    """catalog/index/projects.md: the project catalog grouped by sector, then status."""
+    by_sector = collections.defaultdict(list)
+    for rec in projects:
+        by_sector[rec.get("sector", "")].append(rec)
+    lines = ["# Projects and operating plants", "",
+             f"{len(projects)} project records (one per named project or plant, schema `schema/project.schema.json`).",
+             "Seeded from the technology cards' reference plants; every fact cites the page it was read from.", ""]
+    for sector in sorted(by_sector):
+        label = labels.get(sector, sector)
+        lines += [f"## {sector}: {label}", ""]
+        for rec in sorted(by_sector[sector], key=lambda r: (r["status"], r["name"].lower())):
+            site = f" [{rec['name']}]({rec['sources'][0]['url']})" if rec["sources"] else ""
+            lines.append(f"### {rec['name']} ({rec['id']})")
+            lines.append(f"Status: **{rec['status']}** | Country: {rec.get('country', '—')}")
+            if rec.get("description"):
+                lines.append(rec["description"])
+            techs = ", ".join(rec.get("technologies", []))
+            if techs:
+                lines.append(f"Technologies: {techs}")
+            caps = "; ".join(f"{c['metric']}: {c.get('value', '')}{(' ' + c['unit']) if c.get('unit') else ''}"
+                             for c in rec.get("capacities", []))
+            if caps:
+                lines.append(f"Capacity: {caps}")
+            gaps = rec.get("gaps", [])
+            if gaps:
+                lines.append("Recorded gaps: " + "; ".join(g["what"] for g in gaps))
+            lines.append("")
+    return "\n".join(lines)
+
+
 def spec_cell(spec):
     """The value column of one spec row: single value or a low-high range."""
     if "value" in spec:
@@ -308,6 +364,9 @@ def main():
     equipment, eq_errors = load_equipment({v["id"] for v in vendors}, {c["id"] for c in cards},
                                           {r.get("id") for r in records})
     errors += eq_errors
+    projects, proj_errors = load_projects({v["id"] for v in vendors}, {c["id"] for c in cards},
+                                          {r.get("id") for r in records})
+    errors += proj_errors
     if errors:
         print("\n".join(errors))
         print(f"{len(errors)} validation errors")
@@ -328,6 +387,9 @@ def main():
     with (ROOT / "catalog" / "equipment.jsonl").open("w", encoding="utf-8") as fh:
         for rec in equipment:
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    with (ROOT / "catalog" / "projects.jsonl").open("w", encoding="utf-8") as fh:
+        for rec in projects:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
     register = technologies.load_register(cards=cards)
     (INDEX / "technology-register.md").write_text(technologies.register_page(register, labels), encoding="utf-8")
     (INDEX / "gaps.md").write_text(technologies.gaps_page(technologies.gaps(cards, register)), encoding="utf-8")
@@ -336,8 +398,10 @@ def main():
     (INDEX / "vendors.md").write_text(vendors_page(vendors, cards, labels), encoding="utf-8")
     (INDEX / "equipment.md").write_text(
         equipment_page(equipment, {v["id"]: v["name"] for v in vendors}, labels), encoding="utf-8")
+    (INDEX / "projects.md").write_text(project_page(projects, labels), encoding="utf-8")
     print(f"{len(records)} records valid, {len(ids)} unique ids, {len(cards)} technology cards, "
-          f"{len(vendors)} vendor records, {len(equipment)} equipment records; indexes written")
+          f"{len(vendors)} vendor records, {len(equipment)} equipment records, "
+          f"{len(projects)} project records; indexes written")
     return 0
 
 

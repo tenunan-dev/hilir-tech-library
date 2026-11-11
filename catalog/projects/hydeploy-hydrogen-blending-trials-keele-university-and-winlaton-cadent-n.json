@@ -1,0 +1,23 @@
+{
+  "id": "hydeploy-hydrogen-blending-trials-keele-university-and-winlaton-cadent-n",
+  "name": "HyDeploy hydrogen blending trials, Keele University and Winlaton (Cadent/Northern Gas Networks)",
+  "project_type": "operating-asset",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "GB",
+  "status": "operating",
+  "description": "up to 20% hydrogen by volume blended into existing gas networks; Keele University network trial first, then Winlaton, Gateshead from 2021 supplying 668 houses, a school and small businesses",
+  "technologies": [
+    "mid-hydrogen-blending-repurposing"
+  ],
+  "sources": [
+    {
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/072621-uk-hydrogen-blending-for-public-gas-grid-trial-gets-go-ahead",
+      "note": "S&P Global, 26 Jul 2021 (Winlaton 20%, 668 houses); Keele sustainability pages (feasibility demonstrated); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

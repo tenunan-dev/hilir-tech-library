@@ -1,0 +1,23 @@
+{
+  "id": "hammerfest-lng-snohvit-norway-equinor-all-electric-liquefaction",
+  "name": "Hammerfest LNG (Snohvit), Norway (Equinor) - all-electric liquefaction",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "world-scale LNG plant in which, for the first time, all main refrigeration compressors are electrically driven; Equinor investing about USD 1.3 bn to grid-connect and further electrify the plant",
+  "technologies": [
+    "gas-electric-drive-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-energy.biz/hammerfest-lng-one-hundredth-tanker-successfully-loaded-with-liquefied-natural-gas-norway",
+      "note": "Offshore Energy (all main compressors electrically driven - a first for world-scale LNG); highnorthnews 22 Dec 2022 (USD 1.3 bn electrification investment); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

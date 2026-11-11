@@ -1,0 +1,23 @@
+{
+  "id": "bakun-hydroelectric-plant-sarawak-malaysia-sarawak-energy",
+  "name": "Bakun Hydroelectric Plant, Sarawak, Malaysia (Sarawak Energy)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "MY",
+  "status": "operating",
+  "description": "2,400 MW turbine capacity (installed 2,520 MW per 2026 trade press); commissioned 2011; 205 m concrete-faced rockfill dam; firm energy about 1,771 MW; Southeast Asia's largest hydropower installation",
+  "technologies": [
+    "pwr-hydropower"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sarawakenergy.com/bakun-hydroelectric-plant",
+      "note": "Sarawak Energy (operator): commissioned 2011, firm energy 1,771 MW; Water Power Magazine, 12 Feb 2026: installed 2,520 MW, largest in Sarawak; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

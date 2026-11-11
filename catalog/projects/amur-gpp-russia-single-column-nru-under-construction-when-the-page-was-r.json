@@ -1,0 +1,34 @@
+{
+  "id": "amur-gpp-russia-single-column-nru-under-construction-when-the-page-was-r",
+  "name": "Amur GPP (Russia), single-column NRU, under construction when the page was read",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "XX",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "gas-nitrogen-rejection"
+  ],
+  "sources": [
+    {
+      "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
+      "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    },
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "vadinar-refinery-delayed-coking-unit-essar-oil-now-nayara-energy-gujarat",
+  "name": "Vadinar refinery delayed coking unit (Essar Oil, now Nayara Energy), Gujarat, India",
+  "project_type": "operating-asset",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "IN",
+  "status": "operating",
+  "description": "delayed coker described as one of the largest in the world (unit capacity not published in the open article); part of the expansion that lifted the refinery from 200,000 to 405,000 bpd (20 Mt/yr) with Nelson complexity 6.1 to 11.8; commissioned by CB&I in 2012 after a 30-month EPC",
+  "technologies": [
+    "ref-delayed-coking"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india",
+      "note": "Hydrocarbon Processing, 9 Jul 2012 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

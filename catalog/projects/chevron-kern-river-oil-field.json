@@ -1,0 +1,23 @@
+{
+  "id": "chevron-kern-river-oil-field",
+  "name": "Chevron Kern River oil field",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "under-construction",
+  "description": "25 t/day engineering-scale",
+  "technologies": [
+    "ccs-solid-sorbent-tsa"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/node/11418",
+      "note": "NETL project page, Dec 2021"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: design, construction and operation (DOE-funded, USD 13M)"
+}

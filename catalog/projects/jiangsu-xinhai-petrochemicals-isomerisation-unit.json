@@ -1,0 +1,33 @@
+{
+  "id": "jiangsu-xinhai-petrochemicals-isomerisation-unit",
+  "name": "Jiangsu Xinhai Petrochemicals isomerisation unit",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "isomerate RON above 88, up to 89.2, at 65-105% of design feed",
+  "technologies": [
+    "ref-isomerisation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+      "note": "Axens C5/C6 isomerization page"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2019",
+      "source": {
+        "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+        "note": "Axens C5/C6 isomerization page"
+      }
+    }
+  ],
+  "notes": "Status per card source: started up 2019"
+}

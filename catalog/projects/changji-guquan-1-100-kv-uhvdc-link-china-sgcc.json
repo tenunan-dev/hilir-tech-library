@@ -1,0 +1,23 @@
+{
+  "id": "changji-guquan-1-100-kv-uhvdc-link-china-sgcc",
+  "name": "Changji-Guquan ±1,100 kV UHVDC link, China (SGCC)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "±1,100 kV, 12 GW, about 3,300 km from Xinjiang to Anhui; world's highest-voltage DC transmission; full-voltage operation January 2019",
+  "technologies": [
+    "pwr-hvdc-transmission"
+  ],
+  "sources": [
+    {
+      "url": "https://www.powermag.com/press-releases/abb-wins-orders-of-over-300-million-for-worlds-first-1100-kv-uhvdc-power-link-in-china",
+      "note": "POWER Magazine (ABB press release): world's first 1,100 kV UHVDC link, orders over USD 300 m; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

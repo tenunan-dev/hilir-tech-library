@@ -1,0 +1,33 @@
+{
+  "id": "hammerfest-lng-melk-ya",
+  "name": "Hammerfest LNG, Melkøya",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "4.3 Mtpa; all main compressors electric",
+  "technologies": [
+    "lng-mixed-fluid-cascade"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/",
+      "note": "Hydrocarbon Processing news, 1 December 2011"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2011",
+      "source": {
+        "url": "https://www.hydrocarbonprocessing.com/news/2011/12/linde-statoil-say-joint-arctic-lng-plant-exceeding-performance-expectations/",
+        "note": "Hydrocarbon Processing news, 1 December 2011"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating; passed performance test 2011, energy use below guarantee"
+}

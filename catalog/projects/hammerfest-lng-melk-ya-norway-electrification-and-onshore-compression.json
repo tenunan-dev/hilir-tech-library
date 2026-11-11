@@ -1,0 +1,33 @@
+{
+  "id": "hammerfest-lng-melk-ya-norway-electrification-and-onshore-compression",
+  "name": "Hammerfest LNG (Melkøya, Norway), electrification and onshore compression",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "NO",
+  "status": "proposed",
+  "description": "4.65 Mt LNG, 0.34 Mt LPG, 0.73 Mt condensate per year",
+  "technologies": [
+    "gas-electric-drive-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng",
+      "note": "Equinor, High gas exports and emissions cuts from Hammerfest LNG, 20 December 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2028",
+      "source": {
+        "url": "https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng",
+        "note": "Equinor, High gas exports and emissions cuts from Hammerfest LNG, 20 December 2022"
+      }
+    }
+  ],
+  "notes": "Status per card source: electrical operation scheduled to start 2028"
+}

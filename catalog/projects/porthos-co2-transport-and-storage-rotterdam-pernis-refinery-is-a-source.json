@@ -1,0 +1,33 @@
+{
+  "id": "porthos-co2-transport-and-storage-rotterdam-pernis-refinery-is-a-source",
+  "name": "Porthos CO2 transport and storage, Rotterdam (Pernis refinery is a source)",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "NL",
+  "status": "operating",
+  "description": "2.5 Mtpa",
+  "technologies": [
+    "ref-flue-gas-carbon-capture"
+  ],
+  "sources": [
+    {
+      "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+      "note": "iO+, The first Dutch carbon capture and storage plant is taking shape (Porthos)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+        "note": "iO+, The first Dutch carbon capture and storage plant is taking shape (Porthos)"
+      }
+    }
+  ],
+  "notes": "Status per card source: works from 2024, operational expected 2026 per the article"
+}

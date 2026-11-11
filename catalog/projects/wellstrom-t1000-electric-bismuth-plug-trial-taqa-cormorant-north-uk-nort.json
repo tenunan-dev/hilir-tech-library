@@ -1,0 +1,23 @@
+{
+  "id": "wellstrom-t1000-electric-bismuth-plug-trial-taqa-cormorant-north-uk-nort",
+  "name": "Wellstrom T1000 electric bismuth-plug trial, TAQA Cormorant North, UK North Sea",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "GB",
+  "status": "proposed",
+  "description": "9-5/8 x 13-3/8 in bismuth plug set on a platform well; NZTC covered Wellstrom's cost, up-front testing and third-party costs",
+  "technologies": [
+    "ups-thermite-bismuth-plugs"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nsta.co.uk/news/wells-decommissioning-collab-overview",
+      "note": "NSTA Wells Decommissioning Collaboration Overview (in corpus, nsta-wells-decommissioning-collab-overview): \"TAQA Cormorant North provided access to platform for Wellstrom to set a 9-5/8 x 13-3/8 plug\" (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: pilot"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "basf-ludwigshafen-electric-cracking-demonstration-basf-sabic-linde",
+  "name": "BASF Ludwigshafen electric cracking demonstration (BASF, SABIC, Linde)",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "DE",
+  "status": "operating",
+  "description": "two furnaces, about 4 t/h feed, 6 MW renewable power",
+  "technologies": [
+    "pch-electric-steam-cracking"
+  ],
+  "sources": [
+    {
+      "url": "https://www.basf.com/global/en/who-we-are/sustainability/publications/sustainability-news/archive/News_09-2025_eFurnace_Edison-AwardEN",
+      "note": "BASF sustainability news, eFurnace Edison Award, September 2025 (read 28 October 2026); start-up from BASF, SABIC and Linde press release, 17 April 2024"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2024",
+      "source": {
+        "url": "https://www.basf.com/global/en/who-we-are/sustainability/publications/sustainability-news/archive/News_09-2025_eFurnace_Edison-AwardEN",
+        "note": "BASF sustainability news, eFurnace Edison Award, September 2025 (read 28 October 2026); start-up from BASF, SABIC and Linde press release, 17 April 2024"
+      }
+    }
+  ],
+  "notes": "Status per card source: inaugurated 17 April 2024; demonstration continuing, testing two heating concepts; the project won the ICIS Innovation Award 2024 (November 2024) and the Edison Award 2025 (May 2025); Linde is commercialising the technology under the Starbridge brand (as of September 2025)"
+}

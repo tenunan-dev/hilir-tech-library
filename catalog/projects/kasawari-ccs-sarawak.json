@@ -1,0 +1,33 @@
+{
+  "id": "kasawari-ccs-sarawak",
+  "name": "Kasawari CCS, Sarawak",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "MY",
+  "status": "FID",
+  "description": "3.3 Mtpa",
+  "technologies": [
+    "ccs-depleted-field-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+      "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2022",
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+        "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      }
+    }
+  ],
+  "notes": "Status per card source: FID October 2022"
+}

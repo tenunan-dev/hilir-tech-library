@@ -1,0 +1,33 @@
+{
+  "id": "tyrihans-deh-tieback-to-the-kristin-fpso-norwegian-sea",
+  "name": "Tyrihans DEH tieback to the Kristin FPSO (Norwegian Sea)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "43 km, 18-in production pipeline with piggybacked DEH cable, about 10 MW, 52 kV cable — the longest DEH line described in the source",
+  "technologies": [
+    "ups-direct-electrical-heating-tiebacks"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+      "note": "Offshore magazine, October 2007 (43 km, 10 MW); onstream year from Offshore magazine 'Tyrihans tied to Kristin', 7 December 2005 (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2009",
+      "source": {
+        "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+        "note": "Offshore magazine, October 2007 (43 km, 10 MW); onstream year from Offshore magazine 'Tyrihans tied to Kristin', 7 December 2005 (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating"
+}

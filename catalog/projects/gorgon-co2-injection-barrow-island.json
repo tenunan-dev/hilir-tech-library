@@ -1,0 +1,33 @@
+{
+  "id": "gorgon-co2-injection-barrow-island",
+  "name": "Gorgon CO2 Injection, Barrow Island",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "AU",
+  "status": "operating",
+  "description": "3.4 to 4 Mtpa",
+  "technologies": [
+    "gas-lng-acid-gas-reinjection"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
+      "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2019",
+      "source": {
+        "url": "https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project",
+        "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
+      }
+    }
+  ],
+  "notes": "Status per card source: started up per the August 2019 article after delays from March 2017"
+}

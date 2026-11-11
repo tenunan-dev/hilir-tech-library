@@ -1,0 +1,23 @@
+{
+  "id": "tacoa-floating-power-barges-supplying-caracas",
+  "name": "Tacoa floating power barges, supplying Caracas",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Venezuela",
+  "status": "proposed",
+  "description": "2 x 171 MW",
+  "technologies": [
+    "pwr-powerships-power-barges"
+  ],
+  "sources": [
+    {
+      "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
+      "note": "MarineLink news report, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: installed by Waller Marine in a prepared basin"
+}

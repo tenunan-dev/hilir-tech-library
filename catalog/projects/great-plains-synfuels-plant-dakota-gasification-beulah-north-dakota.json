@@ -1,0 +1,23 @@
+{
+  "id": "great-plains-synfuels-plant-dakota-gasification-beulah-north-dakota",
+  "name": "Great Plains Synfuels Plant (Dakota Gasification), Beulah, North Dakota",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "about 2 Mt/yr CO2 from the Rectisol unit, about 95% pure, piped to Weyburn, Saskatchewan for EOR; 40 Mt captured cumulatively",
+  "technologies": [
+    "ccs-physical-solvent-pre-combustion"
+  ],
+  "sources": [
+    {
+      "url": "https://dakotagas.com/News-Center/news-releases/carbon-capture-milestone-reached-at-dakota-gas",
+      "note": "Dakota Gasification Company news release (40 Mt milestone; year not stated on page)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "hengyi-brunei-tatoray-unit",
+  "name": "Hengyi Brunei Tatoray unit",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "BN",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "pch-toluene-disproportionation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+      "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    },
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

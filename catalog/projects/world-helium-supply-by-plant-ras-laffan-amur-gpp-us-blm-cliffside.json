@@ -1,0 +1,23 @@
+{
+  "id": "world-helium-supply-by-plant-ras-laffan-amur-gpp-us-blm-cliffside",
+  "name": "World helium supply by plant (Ras Laffan, Amur GPP, US BLM Cliffside)",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "QA",
+  "status": "operating",
+  "description": "Ras Laffan (Qatar): about 75-81 million m3/yr across three plants - roughly a third of world supply; Amur GPP (Russia): about 45-50 million m3/yr (designed up to 60 Mm3/yr); US BLM Cliffside (Amarillo, Texas) enrichment units; world production capacity about 360 million m3 (13 bcf) per year in 2023 (USGS)",
+  "technologies": [
+    "gas-helium-recovery"
+  ],
+  "sources": [
+    {
+      "url": "https://pubs.usgs.gov",
+      "note": "USGS Minerals Yearbook 2023, helium chapter (world capacity 360 Mm3/yr); portfolio-pplus industry article 15 Mar 2026 (Ras Laffan 75-81, Amur 45-50 Mm3/yr); qatarenergylng.qa (three helium plants at Ras Laffan); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

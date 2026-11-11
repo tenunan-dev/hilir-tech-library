@@ -1,0 +1,23 @@
+{
+  "id": "sunny-bangchak-solar-plant-thailand",
+  "name": "Sunny Bangchak solar plant, Thailand",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "TH",
+  "status": "operating",
+  "description": "44 MW silicon PV, Southeast Asia's largest silicon photovoltaic plant at grid connection (27 Sep 2012)",
+  "technologies": [
+    "pwr-crystalline-silicon-pv"
+  ],
+  "sources": [
+    {
+      "url": "https://www.eco-business.com/news/southeast-asias-largest-solar-plant-in-thailand-gets-turned-on",
+      "note": "Eco-Business, 27 Sep 2012 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

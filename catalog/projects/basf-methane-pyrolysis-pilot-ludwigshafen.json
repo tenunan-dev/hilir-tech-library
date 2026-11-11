@@ -1,0 +1,23 @@
+{
+  "id": "basf-methane-pyrolysis-pilot-ludwigshafen",
+  "name": "BASF methane pyrolysis pilot, Ludwigshafen",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "DE",
+  "status": "under-construction",
+  "description": "pilot",
+  "technologies": [
+    "h2-methane-pyrolysis"
+  ],
+  "sources": [
+    {
+      "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
+      "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: under construction from 2019 per the article"
+}

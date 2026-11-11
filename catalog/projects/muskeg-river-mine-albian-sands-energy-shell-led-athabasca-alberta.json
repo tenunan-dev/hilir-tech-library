@@ -1,0 +1,23 @@
+{
+  "id": "muskeg-river-mine-albian-sands-energy-shell-led-athabasca-alberta",
+  "name": "Muskeg River Mine (Albian Sands Energy, Shell-led), Athabasca, Alberta",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "CA",
+  "status": "operating",
+  "description": "full production 155,000 b/d of bitumen (first oil delayed by a Jan 2003 fire, ramp-up during 2003)",
+  "technologies": [
+    "ups-oil-sands-mining"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/drilling-production/article/17255656/fire-at-muskeg-river-mine-delays-first-athabasca-bitumen-production",
+      "note": "Oil & Gas Journal, 9 Jan 2003: \"full production of 155,000 b/d of bitumen this year\" (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

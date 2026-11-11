@@ -168,6 +168,32 @@ CREATE TABLE IF NOT EXISTS equipment (                     -- curated equipment 
 );
 CREATE INDEX IF NOT EXISTS equipment_tsv_idx ON equipment USING gin (tsv);
 
+CREATE TABLE IF NOT EXISTS project (                        -- curated project and operating-plant records
+    id            text PRIMARY KEY,
+    name          text NOT NULL,
+    project_type  text,                                    -- greenfield, expansion, retrofit, operating-asset
+    sector        text,
+    sector_codes  text[] NOT NULL DEFAULT '{}',
+    country       text,
+    location      text,
+    status        text NOT NULL,                           -- proposed, FID, under-construction, commissioning, operating, suspended, decommissioned
+    description   text NOT NULL,
+    capacities    jsonb NOT NULL DEFAULT '[]',             -- rated capacity per metric, phases separated
+    capex         jsonb NOT NULL DEFAULT '[]',             -- announced capital cost figures, each with dollar year
+    owners        jsonb NOT NULL DEFAULT '[]',             -- owners, sponsors, JV partners
+    contractors   jsonb NOT NULL DEFAULT '[]',             -- EPC, FEED, construction and O&M contractors
+    offtakers     jsonb NOT NULL DEFAULT '[]',
+    technologies  text[] NOT NULL DEFAULT '{}',            -- technology cards this project deploys
+    milestones    jsonb NOT NULL DEFAULT '[]',             -- dated milestones, each with its source
+    gaps          jsonb NOT NULL DEFAULT '[]',
+    sources       jsonb NOT NULL DEFAULT '[]',             -- the record's own sources (url, note)
+    record        jsonb NOT NULL DEFAULT '{}'::jsonb,      -- the full catalog record, as in catalog/projects
+    embedding     vector(384),
+    tsv           tsvector GENERATED ALWAYS AS (
+                    to_tsvector('english', name || ' ' || description)) STORED
+);
+CREATE INDEX IF NOT EXISTS project_tsv_idx ON project USING gin (tsv);
+
 CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative register of about 300 technologies
     id       text PRIMARY KEY,
     sector   text NOT NULL,

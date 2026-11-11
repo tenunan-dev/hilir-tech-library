@@ -1,0 +1,44 @@
+{
+  "id": "fuelng-singapore-500th-ship-to-ship-bunkering-receiving-ship-amphitrite",
+  "name": "FueLNG Singapore, 500th ship-to-ship bunkering (receiving ship Amphitrite Highway, K Line)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "SG",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "gas-lng-bunkering"
+  ],
+  "sources": [
+    {
+      "url": "https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore",
+      "note": "Ship & Bunker, FueLNG marks 500th ship-to-ship LNG bunkering in Singapore, 20 August 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2025",
+      "source": {
+        "url": "https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore",
+        "note": "Ship & Bunker, FueLNG marks 500th ship-to-ship LNG bunkering in Singapore, 20 August 2025"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    },
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

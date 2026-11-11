@@ -1,0 +1,33 @@
+{
+  "id": "lanzajet-freedom-pines-fuels-soperton-georgia",
+  "name": "LanzaJet Freedom Pines Fuels, Soperton, Georgia",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "10 million gal/yr SAF and renewable diesel from ethanol",
+  "technologies": [
+    "ref-alcohol-to-jet"
+  ],
+  "sources": [
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/",
+      "note": "Hydrocarbon Processing news, 26 January 2024"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2024",
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2024/01/industry-leaders-investors-excited-over-grand-opening-of-lanzajet-freedom-pines-fuels/",
+        "note": "Hydrocarbon Processing news, 26 January 2024"
+      }
+    }
+  ],
+  "notes": "Status per card source: opened January 2024; described as the first ATJ SAF plant"
+}

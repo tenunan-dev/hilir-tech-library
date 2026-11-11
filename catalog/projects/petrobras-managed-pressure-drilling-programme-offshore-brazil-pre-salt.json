@@ -1,0 +1,23 @@
+{
+  "id": "petrobras-managed-pressure-drilling-programme-offshore-brazil-pre-salt",
+  "name": "Petrobras managed-pressure drilling programme, offshore Brazil pre-salt",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "BR",
+  "status": "operating",
+  "description": "2 rigs equipped for MPD as of mid-2014, planned expansion to 12 by end-2015 and 16 by 2016; seven wells drilled with MPD at the time",
+  "technologies": [
+    "ups-managed-pressure-drilling"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/managed-pressure-drilling-migrates-deep-water-offshore-brazil",
+      "note": "JPT (SPE), 30 Jun 2014: \"Petrobras now has two drilling rigs working offshore Brazil equipped to do managed-pressure drilling, and plans to expand this total to 12...\"; Lula field re-entry: \"drill 89m with minor (fluid) losses\" then 70 m more under pressurised mud-cap drilling (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

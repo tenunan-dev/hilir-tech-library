@@ -1,0 +1,22 @@
+{
+  "id": "co2ment-richmond-lafarge-cement-plant",
+  "name": "CO2MENT Richmond, Lafarge cement plant",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "CA",
+  "status": "proposed",
+  "description": "1 t/day with CALF-20",
+  "technologies": [
+    "ccs-solid-sorbent-tsa"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/node/11418"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: field testing"
+}

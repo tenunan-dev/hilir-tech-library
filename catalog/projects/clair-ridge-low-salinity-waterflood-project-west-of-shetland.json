@@ -1,0 +1,23 @@
+{
+  "id": "clair-ridge-low-salinity-waterflood-project-west-of-shetland",
+  "name": "Clair Ridge low-salinity waterflood project, west of Shetland",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "GB",
+  "status": "operating",
+  "description": "USD 4.5 bn development targeting 640 million boe over about 40 years; world-first commercial low-salinity (LoSal) water injection EOR; first oil 23 Nov 2018",
+  "technologies": [
+    "ups-waterflood-low-salinity"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energyvoice.com/oilandgas/north-sea/186750/major-milestone-as-bp-hits-clair-ridge-first-oil",
+      "note": "Energy Voice, 23 Nov 2018 (first oil, +40 MMbbl LoSal); Upstream, 6 Oct 2020 (USD 4.5 bn project); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

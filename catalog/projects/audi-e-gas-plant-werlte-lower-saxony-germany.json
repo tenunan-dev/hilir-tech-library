@@ -1,0 +1,23 @@
+{
+  "id": "audi-e-gas-plant-werlte-lower-saxony-germany",
+  "name": "Audi e-gas plant, Werlte, Lower Saxony, Germany",
+  "project_type": "operating-asset",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "DE",
+  "status": "operating",
+  "description": "6 MW power-to-methane plant using renewable electricity, water and CO2 from a nearby biogas plant; opened June 2013, the world's largest power-to-gas facility at the time",
+  "technologies": [
+    "h2-e-methane"
+  ],
+  "sources": [
+    {
+      "url": "https://www.carsales.com.au/editorial/details/audi-e-gas-stabilises-german-power-grid-52657",
+      "note": "Audi e-gas reporting (opened 2013, 6 MW input, world's largest PtG facility at commissioning); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

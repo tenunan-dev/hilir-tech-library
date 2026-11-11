@@ -1,0 +1,23 @@
+{
+  "id": "sapn-bridge-power-south-australia",
+  "name": "SAPN bridge power, South Australia",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Australia",
+  "status": "proposed",
+  "description": "276 MW",
+  "technologies": [
+    "pwr-mobile-gas-turbine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/",
+      "note": "APR Energy homepage (15 July 2026 archive), read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: APR Energy rapid deployment reference"
+}

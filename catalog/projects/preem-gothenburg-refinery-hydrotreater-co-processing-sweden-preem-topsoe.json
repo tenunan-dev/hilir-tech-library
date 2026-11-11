@@ -1,0 +1,23 @@
+{
+  "id": "preem-gothenburg-refinery-hydrotreater-co-processing-sweden-preem-topsoe",
+  "name": "Preem Gothenburg refinery hydrotreater co-processing, Sweden (Preem/Topsoe HydroFlex)",
+  "project_type": "operating-asset",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "SE",
+  "status": "operating",
+  "description": "6,600 bpd hydrotreater co-processing 85% renewable feedstock (achieved May 2021); first company in the world to produce renewable diesel at refinery scale through co-processing",
+  "technologies": [
+    "ref-co-processing"
+  ],
+  "sources": [
+    {
+      "url": "https://www.topsoe.com/news/topsoe-and-preem-achieve-85-co-processing-renewable-feedstock",
+      "note": "Topsoe news, May 2021 (85% co-processing, 6,600 bpd); VAROPreem (first at refinery scale); Honeywell/UOP pyrolysis-oil co-processing trial Sep 2021; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "braskem-green-pe-triunfo",
+  "name": "Braskem Green PE, Triunfo",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "BR",
+  "status": "proposed",
+  "description": "200,000 t/yr",
+  "technologies": [
+    "pch-bio-based-chemicals"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
+      "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2010",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Renewable_polyethylene",
+        "note": "Wikipedia, Renewable polyethylene, read 25 October 2026 (secondary source)"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

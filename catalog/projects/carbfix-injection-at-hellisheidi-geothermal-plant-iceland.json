@@ -1,0 +1,23 @@
+{
+  "id": "carbfix-injection-at-hellisheidi-geothermal-plant-iceland",
+  "name": "Carbfix injection at Hellisheidi geothermal plant, Iceland",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "IS",
+  "status": "operating",
+  "description": "about 12,000 t CO2 per year dissolved in water and injected into basalt, mineralising in under two years; injection cost below USD 25/t",
+  "technologies": [
+    "ccs-in-situ-mineralisation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.carbfix.com/protecting-our-climate-by-turning-co2-into-stone",
+      "note": "Carbfix, Protecting our climate by turning CO2 into stone (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

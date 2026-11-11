@@ -1,0 +1,23 @@
+{
+  "id": "suiso-frontier-lh2-pilot-supply-chain-kawasaki-and-hesc-partners-austral",
+  "name": "Suiso Frontier LH2 pilot supply chain (Kawasaki and HESC partners), Australia-Japan",
+  "project_type": "operating-asset",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "JP",
+  "status": "operating",
+  "description": "world's first purpose-built liquid-hydrogen carrier; 1,250 m3 vacuum-insulated tank; brown-coat HESC pilot project",
+  "technologies": [
+    "mid-liquid-hydrogen-carriers"
+  ],
+  "sources": [
+    {
+      "url": "https://lngprime.com/asia/video-suiso-frontier-delivers-first-liquefied-hydrogen-shipment-to-japan/43855",
+      "note": "LNG Prime, 28 Feb 2022 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

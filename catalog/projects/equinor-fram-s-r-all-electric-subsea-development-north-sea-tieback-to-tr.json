@@ -1,0 +1,33 @@
+{
+  "id": "equinor-fram-s-r-all-electric-subsea-development-north-sea-tieback-to-tr",
+  "name": "Equinor Fram Sør all-electric subsea development (North Sea, tieback to Troll C)",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "116 mmboe gross recoverable; four templates with 12 all-electric trees (SLB OneSubsea)",
+  "technologies": [
+    "ups-all-electric-subsea"
+  ],
+  "sources": [
+    {
+      "url": "https://news.cision.com/var-energi-asa/r/development-plan-for-fram-sor-submitted,c4169146",
+      "note": "Var Energi release via Cision, 26 June 2025; EPC award from SLB OneSubsea release via WebWire, 26 August 2025 (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2025",
+      "source": {
+        "url": "https://news.cision.com/var-energi-asa/r/development-plan-for-fram-sor-submitted,c4169146",
+        "note": "Var Energi release via Cision, 26 June 2025; EPC award from SLB OneSubsea release via WebWire, 26 August 2025 (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: PDO submitted and development plan approved 26 June 2025; EPC contract for four templates and 12 all-electric trees awarded to SLB OneSubsea in August 2025; production scheduled to start at the end of 2029, so the first large-scale all-electric system is not yet operating (as of October 2026)"
+}

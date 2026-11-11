@@ -1,0 +1,23 @@
+{
+  "id": "oxford-pv-perovskite-on-silicon-tandem-line-brandenburg-an-der-havel-ger",
+  "name": "Oxford PV perovskite-on-silicon tandem line, Brandenburg an der Havel, Germany",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "DE",
+  "status": "operating",
+  "description": "world's first commercial shipment of perovskite-tandem solar modules to a customer (5 Sep 2024); production modules 24.5% efficiency (up to 20% more energy than silicon); record 28.6% commercial-size cell (2024)",
+  "technologies": [
+    "pwr-perovskite-tandem"
+  ],
+  "sources": [
+    {
+      "url": "https://pv-magazine-usa.com/2024/09/05/oxford-pv-starts-commercial-distribution-of-perovskite-solar-modules",
+      "note": "pv magazine USA, 5 Sep 2024; Oxford PV about-us page (world-first shipment 2024, 28.6% cell record); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

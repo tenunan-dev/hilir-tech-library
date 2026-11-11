@@ -1,0 +1,23 @@
+{
+  "id": "excelerate-newbuild-fsru-hyundai-heavy-industries",
+  "name": "Excelerate newbuild FSRU (Hyundai Heavy Industries)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "XX",
+  "status": "proposed",
+  "description": "170,000 m3 storage, 1,000 MMscf/d send-out; fleet of 11 FSRUs operating or building",
+  "technologies": [
+    "lng-fsru"
+  ],
+  "sources": [
+    {
+      "url": "https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/",
+      "note": "Excelerate Energy news release, 4 October 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: delivery June 2026"
+}

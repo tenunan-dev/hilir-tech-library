@@ -1,0 +1,23 @@
+{
+  "id": "celanese-acetic-acid-plant-singapore",
+  "name": "Celanese acetic acid plant, Singapore",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "SG",
+  "status": "operating",
+  "description": "500,000 t/yr; plant cost about USD 300 million at launch",
+  "technologies": [
+    "pch-acetic-acid"
+  ],
+  "sources": [
+    {
+      "url": "https://www.researchgate.net/publication/294275655_Celanese_launches_acetic_acid_plant_in_Singapore",
+      "note": "Launch report mirrored on ResearchGate: 500,000 t/yr, about USD 300 m, 100 employees (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

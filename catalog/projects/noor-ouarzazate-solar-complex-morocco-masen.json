@@ -1,0 +1,23 @@
+{
+  "id": "noor-ouarzazate-solar-complex-morocco-masen",
+  "name": "Noor Ouarzazate solar complex, Morocco (MASEN)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "MA",
+  "status": "operating",
+  "description": "about 510 MW of concentrated solar power (plus a 72 MW PV plant) across Noor I-III, including the Noor III molten-salt tower; about USD 2.5 bn; phases 2014-2018; world's largest CSP complex",
+  "technologies": [
+    "pwr-concentrated-solar-power"
+  ],
+  "sources": [
+    {
+      "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/103151506335526236",
+      "note": "World Bank, Noor-Ouarzazate Concentrated Solar Power Project document; 510 MW CSP figure per large.stanford.edu course page, 2 Feb 2023 (citing project data); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

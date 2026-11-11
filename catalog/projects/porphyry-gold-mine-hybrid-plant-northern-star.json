@@ -1,0 +1,23 @@
+{
+  "id": "porphyry-gold-mine-hybrid-plant-northern-star",
+  "name": "Porphyry gold mine hybrid plant (Northern Star)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Australia",
+  "status": "operating",
+  "description": "4.4 MW solar + 2 MW battery",
+  "technologies": [
+    "pwr-containerised-hybrid-modules"
+  ],
+  "sources": [
+    {
+      "url": "https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia",
+      "note": "Aggreko case study, Western Australia, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating under a 10-year PPA; 1.91 million litres of fuel saved per year"
+}

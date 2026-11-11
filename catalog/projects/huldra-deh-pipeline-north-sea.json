@@ -1,0 +1,33 @@
+{
+  "id": "huldra-deh-pipeline-north-sea",
+  "name": "Huldra DEH pipeline (North Sea)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "16 km DEH piggybacked pipeline; activated about 60 times since commissioning in May 2002 — first commercial DEH use in the source",
+  "technologies": [
+    "ups-direct-electrical-heating-tiebacks"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+      "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines, October 2007 (status as of that date; read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2002",
+      "source": {
+        "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
+        "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines, October 2007 (status as of that date; read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating"
+}

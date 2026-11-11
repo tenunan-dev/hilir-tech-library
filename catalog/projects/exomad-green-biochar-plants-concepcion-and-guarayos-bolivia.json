@@ -1,0 +1,23 @@
+{
+  "id": "exomad-green-biochar-plants-concepcion-and-guarayos-bolivia",
+  "name": "Exomad Green biochar plants, Concepcion and Guarayos, Bolivia",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "BO",
+  "status": "operating",
+  "description": "world's largest biochar producer: more than 108,000 t/yr of biochar across two facilities, sequestering about 260,000-420,000 t CO2/yr (company figures vary by date); Microsoft agreement (May 2025) for 1.24 Mt CO2 removal over 10 years - the largest biochar deal to date; world's largest biochar facility under construction in Guarayos since Jun 2025",
+  "technologies": [
+    "ccs-biochar"
+  ],
+  "sources": [
+    {
+      "url": "https://www.exomadgreen.com",
+      "note": "Exomad Green site (world's largest producer; CDR page 108,000+ t biochar, 260,000+ t CO2); carbonherald 21 May 2025 (Microsoft 1.24 Mt deal); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

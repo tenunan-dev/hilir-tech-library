@@ -1,0 +1,30 @@
+{
+  "id": "estrella-del-mar-ii",
+  "name": "Estrella del Mar II",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Dominican Republic",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "pwr-powerships-power-barges"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
+      "note": "Wärtsilä floating power plants page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: Wärtsilä floating power plant reference",
+  "gaps": [
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

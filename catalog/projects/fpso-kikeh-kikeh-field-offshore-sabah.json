@@ -1,0 +1,23 @@
+{
+  "id": "fpso-kikeh-kikeh-field-offshore-sabah",
+  "name": "FPSO Kikeh (Kikeh field, offshore Sabah)",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "MY",
+  "status": "operating",
+  "description": "120,000 bopd process capacity; water depth about 1,300 m; first deepwater FPSO in Malaysia and Asia",
+  "technologies": [
+    "ups-fpso-floating-production"
+  ],
+  "sources": [
+    {
+      "url": "https://www.oedigital.com/news/493811-pttep-awards-long-term-charter-extension-for-fpso-kikeh",
+      "note": "Offshore Engineer, 26 Jan 2022: built 2007, first and largest deepwater FPSO in Malaysia and Asia, 120,000 bopd, PTTEP charter extension. MISC Berhad took full lease-and-operate ownership from SBM Offshore in 2025 (sbmoffshore.com newsroom, 6 Sep 2024)."
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

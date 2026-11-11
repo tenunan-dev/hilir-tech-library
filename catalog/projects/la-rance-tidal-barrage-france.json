@@ -1,0 +1,23 @@
+{
+  "id": "la-rance-tidal-barrage-france",
+  "name": "La Rance tidal barrage, France",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "FR",
+  "status": "operating",
+  "description": "240 MW (24 x 10 MW bulb turbines), commissioned 1966, the world's first large tidal-range power station, still in full operation",
+  "technologies": [
+    "pwr-tidal-wave"
+  ],
+  "sources": [
+    {
+      "url": "https://www.researchgate.net/publication/229648846_POWER_FROM_TIDES-_THE_RANCE_TIDAL_POWER_STATION",
+      "note": "La Rance retrospective (ResearchGate record, 24 x 10 MW bulb turbines, still operating); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

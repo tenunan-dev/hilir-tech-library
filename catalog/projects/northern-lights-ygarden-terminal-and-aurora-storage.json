@@ -1,0 +1,33 @@
+{
+  "id": "northern-lights-ygarden-terminal-and-aurora-storage",
+  "name": "Northern Lights, Øygarden terminal and Aurora storage",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "NO",
+  "status": "proposed",
+  "description": "1.5 Mtpa phase 1",
+  "technologies": [
+    "ccs-co2-shipping"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights",
+      "note": "Equinor, First CO2 volumes stored at Northern Lights, 25 August 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2025",
+      "source": {
+        "url": "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights",
+        "note": "Equinor, First CO2 volumes stored at Northern Lights, 25 August 2025"
+      }
+    }
+  ],
+  "notes": "Status per card source: first CO2 injected, reported 25 August 2025"
+}

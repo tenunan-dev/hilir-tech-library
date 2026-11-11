@@ -1,0 +1,23 @@
+{
+  "id": "northern-lights-co2-transport-and-storage-norway-equinor-shell-totalener",
+  "name": "Northern Lights CO2 transport and storage, Norway (Equinor/Shell/TotalEnergies)",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "world's first merchant CO2 transport and storage: Phase 1 up to 1.5 Mtpa (operational 2024, first injection August 2025); March 2025 FID on a USD 714 m expansion for 900 kt/yr biogenic CO2 over 15 years; Phase 2 to lift capacity to at least 5 Mtpa from 2028",
+  "technologies": [
+    "ccs-saline-aquifer-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/energy/northern-lights",
+      "note": "Equinor Northern Lights page (1.5 Mtpa, expansion to min 5 Mtpa); ogj 27 Mar 2025 (USD 714 m FID); TotalEnergies notice 25 Aug 2025 (first CO2 storage); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

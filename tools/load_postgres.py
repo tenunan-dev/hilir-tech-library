@@ -26,6 +26,7 @@ sys.path.insert(0, str(ROOT / "agent"))
 import graph  # noqa: E402
 import library  # noqa: E402
 import equipment  # noqa: E402
+import projects  # noqa: E402
 import pg  # noqa: E402
 import technologies  # noqa: E402
 import vendors  # noqa: E402
@@ -79,6 +80,7 @@ def collect(include_restricted=False):
     entries = technologies.load_register(None, cards)
     vendor_recs = vendors.load_vendors()
     equipment_recs = equipment.load_equipment()
+    project_recs = projects.load_projects()
     docs, chunks = [], []
     for path in sorted(library.CORPUS.glob("*/*.md")):
         if path.parent.name.startswith("_"):
@@ -99,7 +101,7 @@ def collect(include_restricted=False):
             for i, text in enumerate(library.chunk(indexed)):
                 chunks.append({"id": f"{rel}#{i}", "document_id": rel, "ord": i, "title": meta.get("title"), "body": text})
     return {"labels": labels, "records": records, "cards": cards, "entries": entries, "vendors": vendor_recs,
-            "equipment": equipment_recs, "docs": docs, "chunks": chunks}
+            "equipment": equipment_recs, "projects": project_recs, "docs": docs, "chunks": chunks}
 
 
 def card_search_text(card):
@@ -117,7 +119,7 @@ def load(conn, data, nodes, edges, vectors):
     cur.execute("SET search_path = og, public")
     # TRUNCATE list kept in sync with the og schema (db/schema.sql); written as a
     # literal so no statement is ever assembled at runtime.
-    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, chunk, document, source_tag, source RESTART IDENTITY CASCADE")
+    cur.execute("TRUNCATE edge, node, register_entry, technology_gap, technology_supplier, technology_figure, technology_source, technology_alias, technology, vendor, equipment, project, chunk, document, source_tag, source RESTART IDENTITY CASCADE")
     for r in data["records"]:
         vec = vectors.get(("source", r["id"]))
         cur.execute("INSERT INTO source (id, name, url, source_type, publisher_org, country, access, licence, reuse_level, permitted_use, automated_access, quality_tier, verification, last_verified, update_frequency, notes, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
@@ -170,12 +172,22 @@ def load(conn, data, nodes, edges, vectors):
                      e["description"], json.dumps(e.get("specifications", [])), json.dumps(e.get("vendor_models", [])),
                      e.get("vendors", []), e.get("technologies", []), json.dumps(e.get("gaps", [])),
                      json.dumps(e.get("sources", [])), json.dumps(e), vec_text(vec) if vec is not None else None))
+    for p in data["projects"]:
+        vec = vectors.get(("project", p["id"]))
+        cur.execute("INSERT INTO project (id, name, project_type, sector, sector_codes, country, location, status, description, capacities, capex, owners, contractors, offtakers, technologies, milestones, gaps, sources, record, embedding) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::vector)",
+                    (p["id"], p["name"], p.get("project_type"), p.get("sector"), p.get("sector_codes", []),
+                     p.get("country"), p.get("location"), p["status"], p["description"],
+                     json.dumps(p.get("capacities", [])), json.dumps(p.get("capex", [])),
+                     json.dumps(p.get("owners", [])), json.dumps(p.get("contractors", [])),
+                     json.dumps(p.get("offtakers", [])), p.get("technologies", []),
+                     json.dumps(p.get("milestones", [])), json.dumps(p.get("gaps", [])),
+                     json.dumps(p.get("sources", [])), json.dumps(p), vec_text(vec) if vec is not None else None))
     for e in data["entries"]:
         cur.execute("INSERT INTO register_entry VALUES (%s,%s,%s,%s,%s,%s,%s)",
                     (graph.register_id(e).removeprefix("register:"), e["code"], e["area"], e["name"], e["maturity"], e["examples"], e["card"]))
     for n in nodes:
         kind, _, key = n["id"].partition(":")
-        v = vectors.get((kind, key)) if kind in ("technology", "source", "vendor", "equipment") else None
+        v = vectors.get((kind, key)) if kind in ("technology", "source", "vendor", "equipment", "project") else None
         cur.execute("INSERT INTO node (id, kind, label, props, embedding) VALUES (%s,%s,%s,%s,%s::vector)",
                     (n["id"], n["kind"], n["label"], json.dumps(n["props"]), vec_text(v) if v is not None else None))
     for e in edges:
@@ -186,7 +198,7 @@ def load(conn, data, nodes, edges, vectors):
     cur.execute("ANALYZE")
     return {"sources": len(data["records"]), "documents": len(data["docs"]), "chunks": len(data["chunks"]),
             "technologies": len(data["cards"]), "vendors": len(data["vendors"]), "register": len(data["entries"]),
-            "equipment": len(data["equipment"]),
+            "equipment": len(data["equipment"]), "projects": len(data["projects"]),
             "nodes": len(nodes), "edges": len(edges), "vectors": len(vectors)}
 
 
@@ -255,6 +267,7 @@ def main(argv=None):
             items = ([("technology", c["id"], card_search_text(c)) for c in data["cards"]]
                      + [("vendor", v["id"], library.vendor_text(v, card_names, eq_names.get(v["id"]))) for v in data["vendors"]]
                      + [("equipment", e["id"], library.equipment_text(e, card_names, vendor_names)) for e in data["equipment"]]
+                     + [("project", p["id"], library.project_text(p, card_names, vendor_names)) for p in data["projects"]]
                      + [("chunk", c["id"], f"{c['title']}\n{c['body']}") for c in data["chunks"]])
             vectors = fastembed_vectors(items)
         except ImportError:

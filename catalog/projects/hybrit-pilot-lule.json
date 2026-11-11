@@ -1,0 +1,39 @@
+{
+  "id": "hybrit-pilot-lule",
+  "name": "HYBRIT pilot, Luleå",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "SE",
+  "status": "proposed",
+  "description": "more than 5,000 t sponge iron in total",
+  "technologies": [
+    "h2-dri"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+      "note": "SSAB / HYBRIT press release, August 2024"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2024",
+      "source": {
+        "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+        "note": "SSAB / HYBRIT press release, August 2024"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

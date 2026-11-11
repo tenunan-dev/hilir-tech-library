@@ -1,0 +1,33 @@
+{
+  "id": "wyoming-integrated-test-center-large-pilot-dry-fork-station",
+  "name": "Wyoming Integrated Test Center large pilot, Dry Fork Station",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "under-construction",
+  "description": "150 t/day CO2",
+  "technologies": [
+    "ccs-polymeric-membrane"
+  ],
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20230906900880/en/MTR-Carbon-Capture-Building-World’s-Largest-Membrane-Based-Carbon-Capture-Plant",
+      "note": "MTR press release, 6 Sep 2023"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2024",
+      "source": {
+        "url": "https://www.businesswire.com/news/home/20230906900880/en/MTR-Carbon-Capture-Building-World’s-Largest-Membrane-Based-Carbon-Capture-Plant",
+        "note": "MTR press release, 6 Sep 2023"
+      }
+    }
+  ],
+  "notes": "Status per card source: under construction in Sept 2023, slated to operate in 2024"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "evonik-uhde-hppo-complex-china",
+  "name": "Evonik-Uhde HPPO complex, China",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "new HPPO plant using Evonik-Uhde hydrogen-peroxide-to-propylene-oxide technology; capacity not stated in the open announcement",
+  "technologies": [
+    "pch-propylene-oxide"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemengonline.com/sustainable-production-of-propylene-oxide-begins-at-new-hppo-complex-in-china-using-evonik-uhde-technology",
+      "note": "Chemical Engineering, 5 Sep 2023 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

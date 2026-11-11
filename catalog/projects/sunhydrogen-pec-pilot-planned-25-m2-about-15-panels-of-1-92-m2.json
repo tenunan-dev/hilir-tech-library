@@ -1,0 +1,34 @@
+{
+  "id": "sunhydrogen-pec-pilot-planned-25-m2-about-15-panels-of-1-92-m2",
+  "name": "SunHydrogen PEC pilot (planned >25 m2, about 15 panels of 1.92 m2)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "h2-solar-water-splitting"
+  ],
+  "sources": [
+    {
+      "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+      "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Box 5.4"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    },
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

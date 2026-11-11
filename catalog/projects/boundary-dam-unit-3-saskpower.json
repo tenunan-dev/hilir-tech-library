@@ -1,0 +1,23 @@
+{
+  "id": "boundary-dam-unit-3-saskpower",
+  "name": "Boundary Dam Unit 3 (SaskPower)",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "CA",
+  "status": "operating",
+  "description": "1 Mt/yr CO2 from a 150 MW lignite unit (CANSOLV)",
+  "technologies": [
+    "ccs-amine-post-combustion"
+  ],
+  "sources": [
+    {
+      "url": "https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf",
+      "note": "Shell white paper, February 2019"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

@@ -46,7 +46,7 @@ import userstore
 import vendors as vendor_records
 
 # keep in sync with the edge: deploy/frontend/src/index.ts (UI_PREFIXES)
-PREFIXES = ("/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/admin", "/account")
+PREFIXES = ("/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/projects", "/register", "/sources", "/documents", "/gaps", "/admin", "/account")
 SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "ELE", "CIV", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
@@ -60,6 +60,7 @@ NAV_GROUPS = (
     ("Library", (("Technologies", "/technologies"), ("Compare", "/compare"), ("Register", "/register"),
                  ("Vendors", "/vendors"),
                  ("Equipment", "/equipment"),
+                 ("Projects", "/projects"),
                  ("Sources", "/sources"), ("Documents", "/documents"), ("Standards", "/standards"),
             ("Glossary", "/glossary"), ("Gaps", "/gaps"))),
     ("Database", (("Overview", "/database"), ("SQL console", "/database/sql"),
@@ -1175,7 +1176,7 @@ def routes(tools) -> list:
         library_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
                                f'<span class="sp"></span><span class="arr">→</span></a>' for label, href in (
             ("Technologies", "/technologies"), ("Compare", "/compare"), ("Register", "/register"),
-            ("Vendors", "/vendors"), ("Equipment", "/equipment"),
+            ("Vendors", "/vendors"), ("Equipment", "/equipment"), ("Projects", "/projects"),
             ("Sources", "/sources"), ("Documents", "/documents"), ("Standards", "/standards"),
             ("Glossary", "/glossary"), ("Gaps", "/gaps")))
         database_rows = "".join(f'<a class="arow" href="{href}"><span class="t">{esc(label)}</span>'
@@ -1611,6 +1612,29 @@ def routes(tools) -> list:
             pieces.append(detail(rec) if rec else "<p class='muted small'>detail not available on this server</p>")
         pieces.append("</section>")
         return _page("Equipment", "".join(pieces), active="/equipment")
+
+    async def projects_page(request: Request):
+        qp = request.query_params
+        status, sector, query = str(qp.get("status") or ""), str(qp.get("sector") or ""), str(qp.get("q") or "")
+        items = _neon_first(
+            lambda: pg.project_rows(status or None, sector or None, query or None),
+            lambda: tools.list_projects(status or None, sector or None, query or None))
+        pieces = ['<section class="card"><form class="filters" method="get" action="/projects">']
+        pieces.append(_select("status", [("", "any status")] + [(s, s) for s in sorted({p.get("status") or "" for p in items})], status))
+        pieces.append(_select("sector", SECTOR_OPTIONS, sector))
+        pieces.append(f' <input type="search" name="q" value="{esc(query)}" placeholder="name, location" size="20">')
+        pieces.append(' <button type="submit">Filter</button></form>')
+        pieces.append(f'<p class="muted">{len(items)} project records</p>')
+        for p in items:
+            caps = "; ".join(f"{esc(c['metric'])}: {esc(str(c.get('value', '')))}{esc(' ' + c['unit']) if c.get('unit') else ''}"
+                             for c in p.get("capacities", [])) or "—"
+            pieces.append(
+                f'<div><h3>{esc(p["name"])} <span class="pill info">{esc(p.get("status") or "")}</span> '
+                f'<span class="muted small">{esc(p.get("country") or "")}</span></h3>'
+                f'<p class="muted small">{esc(p.get("description") or "")}</p>'
+                f'<p class="small"><b>Capacity:</b> {caps}</p></div>')
+        pieces.append("</section>")
+        return _page("Projects", "".join(pieces), active="/projects")
 
     async def register(request: Request):
         qp = request.query_params
@@ -2162,6 +2186,7 @@ def routes(tools) -> list:
         Route("/glossary", gated(glossary)),
         Route("/standards", gated(standards_page)),
         Route("/vendors", gated(vendors_page)), Route("/equipment", gated(equipment_page)),
+        Route("/projects", gated(projects_page)),
         Route("/register", gated(register)),
         Route("/sources", gated(sources)),
         Route("/sources/{source_id}", gated(source)),

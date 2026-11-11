@@ -1,0 +1,23 @@
+{
+  "id": "jamnagar-refinery-complex-gujarat-india-reliance",
+  "name": "Jamnagar refinery complex, Gujarat, India (Reliance)",
+  "project_type": "operating-asset",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "IN",
+  "status": "operating",
+  "description": "1.24 million bpd combined crude capacity - the world's largest refining complex (first phase 1999, doubled by 2008); Bechtel was the builder",
+  "technologies": [
+    "ref-cdu-vdu"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bechtel.com/projects/jamnagar-oil-refinery",
+      "note": "Bechtel project page: \"the world's largest refining hub... 1.2M barrels/day capacity\"; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

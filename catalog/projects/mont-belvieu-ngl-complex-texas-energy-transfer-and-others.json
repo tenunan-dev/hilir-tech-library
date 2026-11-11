@@ -1,0 +1,23 @@
+{
+  "id": "mont-belvieu-ngl-complex-texas-energy-transfer-and-others",
+  "name": "Mont Belvieu NGL complex, Texas (Energy Transfer and others)",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "world's largest NGL storage and fractionation hub: Energy Transfer facilities alone hold over 46 million barrels of storage and fractionate over 900,000 bpd; US NGL hub since the 1960s",
+  "technologies": [
+    "gas-ngl-fractionation"
+  ],
+  "sources": [
+    {
+      "url": "https://cms.energytransfer.com/wp-content/uploads/2019/04/Mt-Belvieu-Fact-Sheet-3-29-19.pdf",
+      "note": "Energy Transfer Mont Belvieu facilities fact sheet, 29 Mar 2019 (46+ M bbl storage, >900 kbpd fractionation); OGJ: the Mont Belvieu NGL storage system is the largest in the world; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

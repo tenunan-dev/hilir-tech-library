@@ -1,0 +1,33 @@
+{
+  "id": "purecycle-ironton-ohio",
+  "name": "PureCycle Ironton, Ohio",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "107 million lb/yr (projected)",
+  "technologies": [
+    "pch-solvent-based-plastics-purification"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1830033/000183003326000026/pct-20260630.htm",
+      "note": "PureCycle Technologies 10-Q for the quarter ended 30 June 2026, filed 6 August 2026 (read 28 October 2026); first pellets from Renewable Carbon News, June 2023"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1830033/000183003326000026/pct-20260630.htm",
+        "note": "PureCycle Technologies 10-Q for the quarter ended 30 June 2026, filed 6 August 2026 (read 28 October 2026); first pellets from Renewable Carbon News, June 2023"
+      }
+    }
+  ],
+  "notes": "Status per card source: first commercial-scale pellets June 2023; still ramping: PureFive output was 13.0 million lb in H1 2026 (4.5 million lb in Q2 2026, up from 3.4 million lb in Q2 2025), including an annual maintenance turnaround, and the plant is not yet certified by Leidos Engineering for full-scale commercial operations"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "brazos-midstream-gas-plants-permian-basin",
+  "name": "Brazos Midstream gas plants, Permian Basin",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "two plants of 200 MMscfd each, upgraded from GSP to Ortloff RSV2; over 99% ethane and 100% propane recovery in performance tests",
+  "technologies": [
+    "gas-turboexpander-ngl"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywell.com/us/en/insights/articles/brazos-midstream-successfully-commissions-next-generation-honeywell-uop-advanced-recovery-technology",
+      "note": "Honeywell article, 14 December 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2022",
+      "source": {
+        "url": "https://www.honeywell.com/us/en/insights/articles/brazos-midstream-successfully-commissions-next-generation-honeywell-uop-advanced-recovery-technology",
+        "note": "Honeywell article, 14 December 2022"
+      }
+    }
+  ],
+  "notes": "Status per card source: upgraded late 2021; tests completed December 2022"
+}

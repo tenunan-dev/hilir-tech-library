@@ -1,0 +1,23 @@
+{
+  "id": "bisha-mine-solar-hybrid-plant",
+  "name": "Bisha mine solar-hybrid plant",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Eritrea",
+  "status": "operating",
+  "description": "22 MW gensets + 7.5 MWp solar",
+  "technologies": [
+    "pwr-containerised-hybrid-modules"
+  ],
+  "sources": [
+    {
+      "url": "https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project",
+      "note": "Aggreko case study, Bisha mine, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating under Aggreko contract; over 12% fuel savings"
+}

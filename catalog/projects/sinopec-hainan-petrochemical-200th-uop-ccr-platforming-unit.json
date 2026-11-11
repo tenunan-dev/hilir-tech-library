@@ -1,0 +1,33 @@
+{
+  "id": "sinopec-hainan-petrochemical-200th-uop-ccr-platforming-unit",
+  "name": "Sinopec Hainan Petrochemical (200th UOP CCR Platforming unit)",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "not stated; CCR Platforming first commercialised 1971",
+  "technologies": [
+    "ref-catalytic-reforming"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemicalonline.com/doc/uop-commissions-200th-ccr-platforming-process-0001",
+      "note": "Chemical Online news, 6 March 2007"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2007",
+      "source": {
+        "url": "https://www.chemicalonline.com/doc/uop-commissions-200th-ccr-platforming-process-0001",
+        "note": "Chemical Online news, 6 March 2007"
+      }
+    }
+  ],
+  "notes": "Status per card source: commissioned by 2007"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "exxonmobil-shute-creek-gas-plant-labarge-wyoming",
+  "name": "ExxonMobil Shute Creek gas plant (LaBarge), Wyoming",
+  "project_type": "expansion",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "6-7 Mt/yr CO2 captured from LaBarge gas (about 66% CO2); expansion of up to 1.2 Mt/yr",
+  "technologies": [
+    "ccs-high-purity-compression"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/energy-transition/article/14281919/exxonmobil-gets-blm-approval-for-wyoming-ccs-project",
+      "note": "Oil & Gas Journal, 29 August 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2022",
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14281919/exxonmobil-gets-blm-approval-for-wyoming-ccs-project",
+        "note": "Oil & Gas Journal, 29 August 2022"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating; expansion FID February 2022, start-up estimated 2025"
+}

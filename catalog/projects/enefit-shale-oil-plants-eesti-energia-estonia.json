@@ -1,0 +1,23 @@
+{
+  "id": "enefit-shale-oil-plants-eesti-energia-estonia",
+  "name": "Enefit shale-oil plants (Eesti Energia), Estonia",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "EE",
+  "status": "operating",
+  "description": "group shale-oil production 475,000 t in 2023 (including the Enefit 280-2 oil plant), up 11.9% on 2022; record 411,000 t in 2018",
+  "technologies": [
+    "ups-oil-shale-retorting"
+  ],
+  "sources": [
+    {
+      "url": "https://public-docs.energia.ee/ettevottest/investorile/2023/EE-aastaaruanne-2023-ENG.pdf",
+      "note": "Eesti Energia annual report 2023 (p. on oil plants): \"We produced 475 thousand tonnes of shale oil in 2023\"; 2018 yearbook (energia.ee PDF, 2019): record 411,000 t; both read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

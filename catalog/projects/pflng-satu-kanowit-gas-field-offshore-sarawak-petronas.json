@@ -1,0 +1,23 @@
+{
+  "id": "pflng-satu-kanowit-gas-field-offshore-sarawak-petronas",
+  "name": "PFLNG Satu, Kanowit gas field, offshore Sarawak (PETRONAS)",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "MY",
+  "status": "operating",
+  "description": "world's first operational floating LNG vessel: 360 m long, 1.2 Mtpa; first gas November 2016 at Kanowit, 180 km offshore Bintulu; 50th cargo delivered by October 2021",
+  "technologies": [
+    "lng-flng"
+  ],
+  "sources": [
+    {
+      "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+      "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

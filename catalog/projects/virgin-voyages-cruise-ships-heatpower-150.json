@@ -1,0 +1,23 @@
+{
+  "id": "virgin-voyages-cruise-ships-heatpower-150",
+  "name": "Virgin Voyages cruise ships, HeatPower 150",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "multi-country operation",
+  "status": "operating",
+  "description": "900 kW per vessel (six units)",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://climeon.com/references/",
+      "note": "Climeon references page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: in service with Lloyd's Register class approval since 2020"
+}

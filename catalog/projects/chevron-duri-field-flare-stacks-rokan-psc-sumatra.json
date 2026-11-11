@@ -1,0 +1,40 @@
+{
+  "id": "chevron-duri-field-flare-stacks-rokan-psc-sumatra",
+  "name": "Chevron Duri field flare stacks (Rokan PSC, Sumatra)",
+  "project_type": "greenfield",
+  "sector": "MAT",
+  "sector_codes": [
+    "MAT"
+  ],
+  "country": "ID",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "mat-drones-robotics-inspection"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thedronegirl.com/2021/05/19/chevron-terra-drone-indonesia/amp/",
+      "note": "The Drone Girl, Chevron uses drones to inspect flare stacks in Indonesia (19 May 2021)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2021",
+      "source": {
+        "url": "https://www.thedronegirl.com/2021/05/19/chevron-terra-drone-indonesia/amp/",
+        "note": "The Drone Girl, Chevron uses drones to inspect flare stacks in Indonesia (19 May 2021)"
+      }
+    }
+  ],
+  "notes": "Status per card source: drone inspection reported",
+  "gaps": [
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

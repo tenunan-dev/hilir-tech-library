@@ -1,0 +1,23 @@
+{
+  "id": "axens-isomerisation-licences",
+  "name": "Axens isomerisation licences",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "XX",
+  "status": "proposed",
+  "description": "more than 95 C5/C6 licences in 25 years, over 20 once-through",
+  "technologies": [
+    "ref-isomerisation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
+      "note": "Axens C5/C6 isomerization page"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: per Axens page, read 2026-10-24"
+}

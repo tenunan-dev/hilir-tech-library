@@ -1,0 +1,33 @@
+{
+  "id": "bp-h2teesside-jm-lch-licence",
+  "name": "bp H2Teesside (JM LCH licence)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "GB",
+  "status": "proposed",
+  "description": "1.2 GW hydrogen production targeted by 2030, over 10% of the UK 10 GW target",
+  "technologies": [
+    "h2-gas-heated-reforming"
+  ],
+  "sources": [
+    {
+      "url": "https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project",
+      "note": "JM press release, October 2023; describes H2Teesside GHR-ATR flowsheet and Track-1 selection"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2023",
+      "source": {
+        "url": "https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project",
+        "note": "JM press release, October 2023; describes H2Teesside GHR-ATR flowsheet and Track-1 selection"
+      }
+    }
+  ],
+  "notes": "Status per card source: licensing and engineering agreement signed; UK Track-1 Capture Project, East Coast Cluster Phase 2"
+}

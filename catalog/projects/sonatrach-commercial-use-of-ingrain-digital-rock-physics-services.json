@@ -1,0 +1,33 @@
+{
+  "id": "sonatrach-commercial-use-of-ingrain-digital-rock-physics-services",
+  "name": "Sonatrach commercial use of Ingrain digital rock physics services",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "DZ",
+  "status": "operating",
+  "description": "commercial agreement covering Ingrain's digital rock physics services (3D imaging and computation of reservoir rock properties)",
+  "technologies": [
+    "ups-digital-core-analysis"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/exploration-geosciences/article/16789934/sonatrach-to-use-ingrains-digital-rock-physics-technology",
+      "note": "Offshore magazine, Sonatrach to use Ingrain's digital rock physics technology, 8 May 2009 (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2009",
+      "source": {
+        "url": "https://www.offshore-mag.com/exploration-geosciences/article/16789934/sonatrach-to-use-ingrains-digital-rock-physics-technology",
+        "note": "Offshore magazine, Sonatrach to use Ingrain's digital rock physics technology, 8 May 2009 (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating"
+}

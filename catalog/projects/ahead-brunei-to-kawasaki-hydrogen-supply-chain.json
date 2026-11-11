@@ -1,0 +1,33 @@
+{
+  "id": "ahead-brunei-to-kawasaki-hydrogen-supply-chain",
+  "name": "AHEAD Brunei to Kawasaki hydrogen supply chain",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "BN",
+  "status": "operating",
+  "description": "up to 210 t/yr hydrogen as MCH",
+  "technologies": [
+    "h2-lohc"
+  ],
+  "sources": [
+    {
+      "url": "https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf",
+      "note": "Chiyoda presentation at IEEJ/APERC symposium, 11 October 2023"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2020",
+      "source": {
+        "url": "https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/01/2-3_Mr_Yuji_Chishima_Chiyoda_Corp_231011_IEEJ_APERC-Chiyoda_SPERA_Presentation.pdf",
+        "note": "Chiyoda presentation at IEEJ/APERC symposium, 11 October 2023"
+      }
+    }
+  ],
+  "notes": "Status per card source: demonstration completed December 2020"
+}

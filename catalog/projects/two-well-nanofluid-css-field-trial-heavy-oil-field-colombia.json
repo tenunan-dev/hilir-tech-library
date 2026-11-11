@@ -1,0 +1,23 @@
+{
+  "id": "two-well-nanofluid-css-field-trial-heavy-oil-field-colombia",
+  "name": "Two-well nanofluid CSS field trial, heavy-oil field, Colombia",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "CO",
+  "status": "proposed",
+  "description": "cyclic steam stimulation in two wells; incremental 11,966 bbl (well A) and 3,213 bbl (well B); well names confidential in the source",
+  "technologies": [
+    "ups-nanofluid-eor"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0016236124028850",
+      "note": "Franco et al., Fuel 382:133736 (2025): first global field trial of nanofluids in thermal EOR (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: pilot"
+}

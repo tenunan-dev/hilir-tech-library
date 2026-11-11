@@ -1,0 +1,39 @@
+{
+  "id": "rasgas-helium-2-ras-laffan",
+  "name": "RasGas Helium 2, Ras Laffan",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "QA",
+  "status": "proposed",
+  "description": "1.3 billion cubic feet per year",
+  "technologies": [
+    "gas-helium-recovery"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
+      "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2013",
+      "source": {
+        "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
+        "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

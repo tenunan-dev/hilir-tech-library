@@ -1,0 +1,33 @@
+{
+  "id": "petronas-carigali-and-shell-malaysia-eor-program-baram-delta-sarawak-and",
+  "name": "PETRONAS Carigali and Shell Malaysia EOR program, Baram Delta (Sarawak) and North Sabah PSCs, offshore Malaysia",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "MY",
+  "status": "proposed",
+  "description": "HOA aims to lift production by 90,000-100,000 boe/d across the Baram Delta and North Sabah fields, raising average recovery factor from 36% to 50% and extending field life beyond 2040; technology deployed at North Sabah flagged as possibly the world's first field-scale offshore chemical EOR process",
+  "technologies": [
+    "ups-chemical-eor"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/production/article/16775227/petronas-shell-consider-first-ever-field-scale-chemical-eor-offshore-malaysia",
+      "note": "Offshore magazine, PETRONAS, Shell consider first-ever field-scale chemical EOR offshore Malaysia, 11 November 2011 (status as of that source; read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2011",
+      "source": {
+        "url": "https://www.offshore-mag.com/production/article/16775227/petronas-shell-consider-first-ever-field-scale-chemical-eor-offshore-malaysia",
+        "note": "Offshore magazine, PETRONAS, Shell consider first-ever field-scale chemical EOR offshore Malaysia, 11 November 2011 (status as of that source; read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: planned"
+}

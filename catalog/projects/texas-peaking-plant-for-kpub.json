@@ -1,0 +1,23 @@
+{
+  "id": "texas-peaking-plant-for-kpub",
+  "name": "Texas peaking plant for KPUB",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "USA",
+  "status": "proposed",
+  "description": "124 MW",
+  "technologies": [
+    "pwr-modular-engine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://www.man-es.com/company/press-releases/press-details/2025/05/22/man-51-60g-engines-bound-for-texas-gas--power-plant",
+      "note": "MAN Energy Solutions press release, 22 May 2025, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: six MAN 18V51/60G engines with prefabricated assemblies; engine delivery 2026, operation 2027"
+}

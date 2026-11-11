@@ -42,14 +42,16 @@ try:
 except ImportError:  # mcp 1.x
     from mcp.server.fastmcp import FastMCP as Server
 
-INSTRUCTIONS = """Library of public sources on oil, gas, petrochemical and energy technologies,
-weighted toward Asia Pacific and Southeast Asia. Sector codes: UPS, MID, GAS, REF, PCH, PWR, H2, CCS.
+INSTRUCTIONS = """Library of public sources on oil, gas, petrochemical, energy and data-centre technologies,
+weighted toward Asia Pacific and Southeast Asia. Sector codes: UPS, MID, GAS, REF, PCH, PWR, H2, CCS, IDC.
 Discipline codes: PRC, ROT, INS, MAT, HSE, DIG. Regions include sea, apac, global.
 For "what are the options for X" questions, start with compare_technologies and get_technology
 (curated cards with block diagrams, equipment, costs with basis, and sources), then search for more.
 For who-supplies-it questions, use list_vendors and get_vendor (curated vendor records citing their pages).
 For equipment questions (capacity ranges, pressures, emissions of equipment classes and the
-vendors behind them), use list_equipment and get_equipment."
+vendors behind them), use list_equipment and get_equipment.
+For named projects and operating plants (capacities, owners, contractors, milestones), use
+list_projects and get_project."
 Always cite a result's url. Respect reuse_level: full-text-restricted text is a private reference
 copy (no redistribution or commercial use); summary-only and catalog-only sources have no stored text."""
 
@@ -87,7 +89,8 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     """Search catalog sources, collected documents, technology cards, vendor and equipment records.
 
     kind: "all", "source" (catalog records), "chunk" (passages from collected documents),
-    "technology" (cards), "vendor" (vendor directory records) or "equipment" (equipment classes).
+    "technology" (cards), "vendor" (vendor directory records), "equipment" (equipment classes)
+    or "project" (named projects and operating plants).
     sector / discipline: a taxonomy code such as H2 or ROT. region: e.g. sea, apac, global.
     """
     # Decision #34: with a database configured, search runs on Neon (single source of truth —
@@ -209,6 +212,23 @@ def get_equipment(equipment_id: str) -> dict | None:
     """One equipment record: specification ranges with basis and sources, vendor model lines, and the gaps."""
     return _with_neon(lambda: pg.equipment_row(equipment_id),
                       lambda: library.get_equipment(equipment_id, db()))
+
+
+@server.tool()
+def list_projects(status: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
+    """Named projects and operating plants: one curated record each with status, location, capacities,
+    owners and the technology cards it deploys.
+    status: proposed, FID, under-construction, commissioning, operating, suspended or decommissioned.
+    sector: a taxonomy code such as H2, CCS or IDC. query: text."""
+    return _with_neon(lambda: pg.project_rows(status, sector, query),
+                      lambda: library.list_projects(status, sector, query, db()))
+
+
+@server.tool()
+def get_project(project_id: str) -> dict | None:
+    """One project record: capacities with sources, milestones, owners, contractors, offtakers and gaps."""
+    return _with_neon(lambda: pg.project_row(project_id),
+                      lambda: library.get_project(project_id, db()))
 
 
 @server.tool()

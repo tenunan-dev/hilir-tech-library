@@ -1,0 +1,33 @@
+{
+  "id": "holland-hydrogen-1-shell-rotterdam",
+  "name": "Holland Hydrogen 1 (Shell), Rotterdam",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "NL",
+  "status": "proposed",
+  "description": "200 MW, thyssenkrupp 20 MW alkaline modules; hydrogen piped about 40 km to Shell Energy and Chemicals Park Rotterdam",
+  "technologies": [
+    "h2-alkaline-electrolysis"
+  ],
+  "sources": [
+    {
+      "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
+      "note": "Digital Refining news, 12 January 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2022",
+      "source": {
+        "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
+        "note": "Digital Refining news, 12 January 2022"
+      }
+    }
+  ],
+  "notes": "Status per card source: announced January 2022 with start of production intended for 2024"
+}

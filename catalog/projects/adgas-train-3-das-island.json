@@ -1,0 +1,29 @@
+{
+  "id": "adgas-train-3-das-island",
+  "name": "ADGAS Train 3, Das Island",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "AE",
+  "status": "proposed",
+  "description": "feed about 477 MMSCFD",
+  "technologies": [
+    "gas-hot-potassium-carbonate"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf",
+      "note": "Bryan Research & Engineering, Simulation of the Benfield HiPure Process of Natural Gas Sweetening for LNG Production and Evaluation of Alternatives (ADGAS Train 3, Das Island)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "separex-trains-egyptian-desert",
+  "name": "Separex trains, Egyptian desert",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "EG",
+  "status": "proposed",
+  "description": "three trains expanding to five, 560 MMSCFD total",
+  "technologies": [
+    "gas-membrane-co2"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf",
+      "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: per 2016 datasheet"
+}

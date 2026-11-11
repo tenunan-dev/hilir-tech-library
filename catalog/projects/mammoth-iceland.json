@@ -1,0 +1,33 @@
+{
+  "id": "mammoth-iceland",
+  "name": "Mammoth, Iceland",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "IS",
+  "status": "proposed",
+  "description": "up to 36,000 t/yr nameplate; geothermal energy; storage by Carbfix",
+  "technologies": [
+    "ccs-dac-solid-sorbent"
+  ],
+  "sources": [
+    {
+      "url": "https://www.esgtoday.com/climeworks-starts-up-largest-ever-dac-carbon-removal-plant",
+      "note": "ESG Today, 10 May 2024"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2024",
+      "source": {
+        "url": "https://www.esgtoday.com/climeworks-starts-up-largest-ever-dac-carbon-removal-plant",
+        "note": "ESG Today, 10 May 2024"
+      }
+    }
+  ],
+  "notes": "Status per card source: first CO2 captured, May 2024"
+}

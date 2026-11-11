@@ -1,0 +1,23 @@
+{
+  "id": "sugar-creek-cement-plant-pilot",
+  "name": "Sugar Creek cement plant pilot",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "30 t/day nominal (after 1 t/day tests)",
+  "technologies": [
+    "ccs-cryogenic"
+  ],
+  "sources": [
+    {
+      "url": "https://netl.doe.gov/sites/default/files/netl-file/22CM_PSC15_Hoeger.pdf",
+      "note": "NETL 2022 Carbon Management meeting, SES presentation"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: DOE project Feb 2022 to Apr 2025; target 95% capture and 95% purity"
+}

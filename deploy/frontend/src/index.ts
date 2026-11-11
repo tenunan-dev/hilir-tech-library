@@ -33,7 +33,7 @@ import {
 import { upstreamFetch, userinfoFetch } from "./proxy";
 
 // keep in sync with PREFIXES in agent/web.py
-const UI_PREFIXES = ["/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/register", "/sources", "/documents", "/gaps", "/admin", "/account"];
+const UI_PREFIXES = ["/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/projects", "/register", "/sources", "/documents", "/gaps", "/admin", "/account"];
 const isUi = (p: string) => p === "/" || UI_PREFIXES.some((x) => p.startsWith(x));
 
 /**

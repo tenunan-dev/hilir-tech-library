@@ -1,0 +1,33 @@
+{
+  "id": "hengyi-industries-aromatics-expansion-pulau-muara-besar",
+  "name": "Hengyi Industries aromatics expansion, Pulau Muara Besar",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "BN",
+  "status": "proposed",
+  "description": "2.3 Mtpa Parex; total PX above 3.8 Mtpa",
+  "technologies": [
+    "pch-aromatics-complex"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+      "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2022",
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
+        "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+      }
+    }
+  ],
+  "notes": "Status per card source: Phase 2 commissioning scheduled for 2022 in the article"
+}

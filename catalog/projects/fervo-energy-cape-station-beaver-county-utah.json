@@ -1,0 +1,23 @@
+{
+  "id": "fervo-energy-cape-station-beaver-county-utah",
+  "name": "Fervo Energy Cape Station, Beaver County, Utah",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "500 MW under construction (GeoBlocks 1-11); approximately 900 MW fully contracted with offtakers; GeoBlock 1 reached commercial operation 30 September 2026, about 100 MW of operating capacity expected by early 2027 and GeoBlocks 4-11 targeted for 2028 — the first greenfield enhanced-geothermal development to reach contractual commercial operation",
+  "technologies": [
+    "pwr-enhanced-geothermal"
+  ],
+  "sources": [
+    {
+      "url": "https://fervoenergy.com/projects/",
+      "note": "Fervo Energy projects page fast facts, read 2026-11-11; commercial-operation date confirmed by the Fervo press release of 16 October 2026 (fervoenergy.com newsroom)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating (GeoBlock 1), construction (rest)"
+}

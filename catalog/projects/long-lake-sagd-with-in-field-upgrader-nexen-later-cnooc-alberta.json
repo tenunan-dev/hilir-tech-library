@@ -1,0 +1,23 @@
+{
+  "id": "long-lake-sagd-with-in-field-upgrader-nexen-later-cnooc-alberta",
+  "name": "Long Lake SAGD with in-field upgrader (Nexen, later CNOOC), Alberta",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "CA",
+  "status": "operating",
+  "description": "design 72,000 bpd bitumen (SAGD + integrated in-field upgrader); operator guided 38,000-45,000 bpd for 2011",
+  "technologies": [
+    "ups-heavy-oil-upgrading-in-field"
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/article/markets/nexen-says-long-lake-output-to-lag-design-idUSN16114618",
+      "note": "Reuters, 16 Nov 2010: \"Long Lake to produce between 38,000 and 45,000 barrels per day of bitumen next year, less than the 72,000 bpd it is designed to produce\". Upgrader reported fully operational Dec 2009 (The Globe and Mail, 10 Dec 2009); both read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "beccs-stockholm-stockholm-exergi-hot-potassium-carbonate-capture-on-a-bi",
+  "name": "BECCS Stockholm (Stockholm Exergi), hot potassium carbonate capture on a biomass cogeneration plant",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "SE",
+  "status": "proposed",
+  "description": "about 7 Mt CO2 avoided over ten years",
+  "technologies": [
+    "gas-hot-potassium-carbonate"
+  ],
+  "sources": [
+    {
+      "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+      "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2028",
+      "source": {
+        "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+        "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+      }
+    }
+  ],
+  "notes": "Status per card source: capture targeted late 2028"
+}

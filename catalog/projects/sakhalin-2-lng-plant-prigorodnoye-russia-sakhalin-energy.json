@@ -1,0 +1,23 @@
+{
+  "id": "sakhalin-2-lng-plant-prigorodnoye-russia-sakhalin-energy",
+  "name": "Sakhalin-2 LNG plant, Prigorodnoye, Russia (Sakhalin Energy)",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "RU",
+  "status": "operating",
+  "description": "two 4.8 Mtpa dual-mixed-refrigerant trains (9.6 Mtpa design; production 10.3 Mt in 2025), air-cooled design, first LNG February 2009; a third train is still planned",
+  "technologies": [
+    "lng-dmr"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gem.wiki/Sakhalin_II_LNG_Terminal",
+      "note": "Global Energy Monitor (9.6 Mtpa design, 10.3 Mt 2025); OGJ (two 4.8 Mtpa trains, Sulfinol-D AGR); NS Energy (first production Feb 2009); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

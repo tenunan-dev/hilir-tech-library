@@ -1,0 +1,30 @@
+{
+  "id": "methyl-acetate-reactive-distillation-column-replacing-an-eleven-step-pro",
+  "name": "Methyl acetate reactive distillation column replacing an eleven-step process",
+  "project_type": "greenfield",
+  "sector": "PRC",
+  "sector_codes": [
+    "PRC"
+  ],
+  "country": "XX",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "prc-process-intensification"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources",
+      "note": "Chemical Processing, Energy Saver: Process intensification maximizes output, minimizes resources (read 25 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: described, operator not named",
+  "gaps": [
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

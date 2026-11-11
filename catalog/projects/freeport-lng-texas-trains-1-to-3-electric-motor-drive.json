@@ -1,0 +1,40 @@
+{
+  "id": "freeport-lng-texas-trains-1-to-3-electric-motor-drive",
+  "name": "Freeport LNG, Texas, Trains 1 to 3 (electric motor drive)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "",
+  "technologies": [
+    "gas-electric-drive-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility",
+      "note": "Turbomachinery Magazine, Second of three electric-driven LNG trains starts operations at US facility, 20 January 2020"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2019",
+      "source": {
+        "url": "https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility",
+        "note": "Turbomachinery Magazine, Second of three electric-driven LNG trains starts operations at US facility, 20 January 2020"
+      }
+    }
+  ],
+  "notes": "Status per card source: Train 1 commercial December 2019, Train 2 January 2020 (performance test 37 days against 107 for Train 1), Train 3 expected May 2020 per the article",
+  "gaps": [
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

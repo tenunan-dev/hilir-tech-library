@@ -1,0 +1,23 @@
+{
+  "id": "38-tm2500-units-across-algeria",
+  "name": "38 TM2500 units across Algeria",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Algeria",
+  "status": "operating",
+  "description": "38 units",
+  "technologies": [
+    "pwr-mobile-gas-turbine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
+      "note": "GE Vernova, TM2500 product page, read 26 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating; fleet of more than 350 units installed worldwide"
+}

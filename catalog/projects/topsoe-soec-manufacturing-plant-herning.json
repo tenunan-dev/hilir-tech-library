@@ -1,0 +1,33 @@
+{
+  "id": "topsoe-soec-manufacturing-plant-herning",
+  "name": "Topsoe SOEC manufacturing plant, Herning",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "DK",
+  "status": "operating",
+  "description": "initially 500 MW of electrolysers per year; first offtakers First Ammonia (Texas) and Forestal (e-methanol, Spain)",
+  "technologies": [
+    "h2-soec"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark",
+      "note": "Chemical Engineering, 3 November 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2025",
+      "source": {
+        "url": "https://www.chemengonline.com/topsoe-inaugurates-soec-electrolyzer-manufacturing-facility-in-denmark",
+        "note": "Chemical Engineering, 3 November 2025"
+      }
+    }
+  ],
+  "notes": "Status per card source: inaugurated November 2025"
+}

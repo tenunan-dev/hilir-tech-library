@@ -1,0 +1,23 @@
+{
+  "id": "edwards-sanborn-solar-energy-storage-project-kern-county-california-terr",
+  "name": "Edwards & Sanborn Solar + Energy Storage project, Kern County, California (Terra-Gen)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "about USD 2 bn project: 875 MW solar PV with 3,287 MWh of lithium-ion battery storage (about 1,300 MW discharge); largest of its kind when completed; first phases from 2021, full operation 2023",
+  "technologies": [
+    "pwr-lithium-ion-bess"
+  ],
+  "sources": [
+    {
+      "url": "https://centralcalifornia.org/solar-energy-project-extending-onto-edwards-air-force-base-becomes-kerns-largest-2",
+      "note": "Central California economic development, 19 Jul 2023 (USD 2 bn, 3,287 MWh); Latham & Watkins, 9 Aug 2021 (phase 1: 346 MWac / 1,501 MWh); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

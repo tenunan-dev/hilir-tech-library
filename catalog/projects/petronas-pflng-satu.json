@@ -1,0 +1,33 @@
+{
+  "id": "petronas-pflng-satu",
+  "name": "PETRONAS PFLNG SATU",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "MY",
+  "status": "proposed",
+  "description": "not stated in source read",
+  "technologies": [
+    "lng-flng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+      "note": "PETRONAS press release, 25 March 2021"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2016",
+      "source": {
+        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "note": "PETRONAS press release, 25 March 2021"
+      }
+    }
+  ],
+  "notes": "Status per card source: world's first operational FLNG (2016); moved from Kanowit to Kebabangan field in 2019"
+}

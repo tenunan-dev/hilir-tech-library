@@ -1,0 +1,33 @@
+{
+  "id": "porthos-rotterdam-to-north-sea",
+  "name": "Porthos, Rotterdam to North Sea",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "NL",
+  "status": "proposed",
+  "description": "2.5 Mtpa",
+  "technologies": [
+    "ccs-depleted-field-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+      "note": "iO+, Porthos CCS"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
+        "note": "iO+, Porthos CCS"
+      }
+    }
+  ],
+  "notes": "Status per card source: operational expected 2026"
+}

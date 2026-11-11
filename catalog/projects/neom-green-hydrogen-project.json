@@ -1,0 +1,24 @@
+{
+  "id": "neom-green-hydrogen-project",
+  "name": "NEOM Green Hydrogen Project",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "SA",
+  "status": "proposed",
+  "description": "2 GW+ alkaline electrolysis in 20 MW modules (thyssenkrupp), 600 t/day hydrogen",
+  "technologies": [
+    "h2-alkaline-electrolysis",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+      "note": "ACWA Power project page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: electrolyser commissioning after 4 GW renewables due mid-2026; first product expected 2027"
+}

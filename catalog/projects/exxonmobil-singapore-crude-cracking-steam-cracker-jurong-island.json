@@ -1,0 +1,33 @@
+{
+  "id": "exxonmobil-singapore-crude-cracking-steam-cracker-jurong-island",
+  "name": "ExxonMobil Singapore crude-cracking steam cracker, Jurong Island",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "SG",
+  "status": "operating",
+  "description": "1 Mtpa steam cracker",
+  "technologies": [
+    "ref-direct-crude-cracking"
+  ],
+  "sources": [
+    {
+      "url": "https://chemanager-online.com/en/node/399006",
+      "note": "CHEManager, Exxon starts world's first crude-cracking petrochemical unit (Singapore, 2014)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2013",
+      "source": {
+        "url": "https://chemanager-online.com/en/node/399006",
+        "note": "CHEManager, Exxon starts world's first crude-cracking petrochemical unit (Singapore, 2014)"
+      }
+    }
+  ],
+  "notes": "Status per card source: started mid-2013; formally launched 2014"
+}

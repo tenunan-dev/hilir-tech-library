@@ -1,0 +1,39 @@
+{
+  "id": "clariant-sunliquid-podari",
+  "name": "Clariant sunliquid, Podari",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "RO",
+  "status": "proposed",
+  "description": "about 50,000 t ethanol",
+  "technologies": [
+    "h2-cellulosic-ethanol"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html",
+      "note": "Digital Refining, Clariant produces first commercial sunliquid cellulosic ethanol, June 2022"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2022",
+      "source": {
+        "url": "https://www.digitalrefining.com/news/1006992,clariant-produces-first-commercial-sunliquid-cellulosic-ethanol.html",
+        "note": "Digital Refining, Clariant produces first commercial sunliquid cellulosic ethanol, June 2022"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

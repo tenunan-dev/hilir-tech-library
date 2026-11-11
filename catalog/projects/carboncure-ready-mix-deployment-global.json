@@ -1,0 +1,23 @@
+{
+  "id": "carboncure-ready-mix-deployment-global",
+  "name": "CarbonCure ready-mix deployment (global)",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "CA",
+  "status": "operating",
+  "description": "CO2 mineralisation retrofits across hundreds of ready-mix plants; 500,000 t CO2 saved over 7.5 million truckloads by October 2024",
+  "technologies": [
+    "ccs-co2-concrete"
+  ],
+  "sources": [
+    {
+      "url": "https://carbonherald.com/carboncure-achieves-milestone-500000-tons-of-co2-savings",
+      "note": "Carbon Herald, 28 Oct 2024 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

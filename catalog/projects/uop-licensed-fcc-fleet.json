@@ -1,0 +1,33 @@
+{
+  "id": "uop-licensed-fcc-fleet",
+  "name": "UOP-licensed FCC fleet",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "XX",
+  "status": "proposed",
+  "description": "over 215 FCC/RFCC/MSCC units licensed; over 150 of more than 400 FCC units worldwide under UOP licence",
+  "technologies": [
+    "ref-fcc"
+  ],
+  "sources": [
+    {
+      "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/refining/vaccuum-gas-oil-conversion/honeywell-uop-fcc-related-processes-datasheet.pdf",
+      "note": "Honeywell UOP FCC related processes datasheet, UOP4523-7a, September 2016"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2016",
+      "source": {
+        "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/refining/vaccuum-gas-oil-conversion/honeywell-uop-fcc-related-processes-datasheet.pdf",
+        "note": "Honeywell UOP FCC related processes datasheet, UOP4523-7a, September 2016"
+      }
+    }
+  ],
+  "notes": "Status per card source: per 2016 datasheet"
+}

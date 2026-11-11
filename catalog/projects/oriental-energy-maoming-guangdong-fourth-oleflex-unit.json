@@ -1,0 +1,33 @@
+{
+  "id": "oriental-energy-maoming-guangdong-fourth-oleflex-unit",
+  "name": "Oriental Energy, Maoming, Guangdong (fourth Oleflex unit)",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "CN",
+  "status": "proposed",
+  "description": "three earlier units of 660,000 t/yr each; capacity of the new unit not stated",
+  "technologies": [
+    "pch-propane-dehydrogenation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology",
+      "note": "Honeywell news release, 9 November 2020"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2020",
+      "source": {
+        "url": "https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology",
+        "note": "Honeywell news release, 9 November 2020"
+      }
+    }
+  ],
+  "notes": "Status per card source: start scheduled 2022 (as of November 2020)"
+}

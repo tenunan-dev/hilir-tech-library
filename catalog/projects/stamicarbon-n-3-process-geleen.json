@@ -1,0 +1,29 @@
+{
+  "id": "stamicarbon-n-3-process-geleen",
+  "name": "Stamicarbon N=3 process, Geleen",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "NL",
+  "status": "proposed",
+  "description": "400 t/d",
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
+      "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "beccs-stockholm-stockholm-exergi",
+  "name": "BECCS Stockholm (Stockholm Exergi)",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "SE",
+  "status": "proposed",
+  "description": "about 0.7 Mt CO2/yr implied by 7 Mt over ten years",
+  "technologies": [
+    "ccs-beccs"
+  ],
+  "sources": [
+    {
+      "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+      "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2028",
+      "source": {
+        "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
+        "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
+      }
+    }
+  ],
+  "notes": "Status per card source: environmental permit 28 March 2024; capture targeted late 2028"
+}

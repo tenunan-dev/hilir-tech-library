@@ -1,0 +1,23 @@
+{
+  "id": "tordis-subsea-separation-and-water-reinjection-station-tordis-field-nort",
+  "name": "Tordis subsea separation and water reinjection station, Tordis field, North Sea",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "proposed",
+  "description": "first commercial full-scale subsea separation installation: separator station at about 200 m water depth, separated water and sand to a dedicated injection well; online October 2007",
+  "technologies": [
+    "ups-subsea-separation"
+  ],
+  "sources": [
+    {
+      "url": "https://equinor.industriminne.no/en/seabed-separator",
+      "note": "Equinor industry-monuments page, 18 Jul 2022: online Oct 2007; in May 2008 oily injection water surfaced through a 40 m x 7 m seabed crater (NPD found the geology had been misinterpreted); the separator stayed in use with water piped to the platform for treatment and the IOR project \"never again operated as intended\"; FMC Kongsberg Subsea supplied the system (Offshore Magazine, 30 Nov 2005); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: pilot"
+}

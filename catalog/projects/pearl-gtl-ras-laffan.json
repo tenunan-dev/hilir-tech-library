@@ -1,0 +1,33 @@
+{
+  "id": "pearl-gtl-ras-laffan",
+  "name": "Pearl GTL, Ras Laffan",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "QA",
+  "status": "proposed",
+  "description": "140,000 bbl/d GTL products in two 70,000 bbl/d trains, plus about 120,000 boe/d NGLs and ethane, from 1.6 bcf/d North Field gas",
+  "technologies": [
+    "gas-gtl-ft"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/projects/pearl/",
+      "note": "Offshore Technology project page, Pearl GTL"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2011",
+      "source": {
+        "url": "https://www.offshore-technology.com/projects/pearl/",
+        "note": "Offshore Technology project page, Pearl GTL"
+      }
+    }
+  ],
+  "notes": "Status per card source: first sour gas into the plant March 2011"
+}

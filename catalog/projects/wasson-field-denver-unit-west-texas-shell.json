@@ -1,0 +1,33 @@
+{
+  "id": "wasson-field-denver-unit-west-texas-shell",
+  "name": "Wasson field Denver Unit, West Texas (Shell)",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "31,500 bbl/d of which 26,850 bbl/d incremental from CO2; over 120 million bbl incremental to 2008",
+  "technologies": [
+    "ups-co2-eor"
+  ],
+  "sources": [
+    {
+      "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+      "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2008",
+      "source": {
+        "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
+        "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating as of 2008"
+}

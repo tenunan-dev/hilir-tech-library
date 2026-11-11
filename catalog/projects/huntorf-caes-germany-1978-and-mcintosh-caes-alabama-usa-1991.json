@@ -1,0 +1,23 @@
+{
+  "id": "huntorf-caes-germany-1978-and-mcintosh-caes-alabama-usa-1991",
+  "name": "Huntorf CAES (Germany, 1978) and McIntosh CAES (Alabama, USA, 1991)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "DE",
+  "status": "operating",
+  "description": "Huntorf: world's first CAES plant, 290 MW (1978); McIntosh: 110 MW salt-cavern CAES storing air in a 19-million-cubic-foot cavern (1991)",
+  "technologies": [
+    "pwr-compressed-liquid-air-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nytimes.com/1991/09/29/business/technology-using-compressed-air-to-store-up-electricity.html",
+      "note": "New York Times, 29 Sep 1991 (McIntosh 110 MW, 19-million-cu-ft cavern); Huntorf 290 MW 1978 per the widely cited Crotogino et al. Huntorf 20-years review (researchgate table mirror); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

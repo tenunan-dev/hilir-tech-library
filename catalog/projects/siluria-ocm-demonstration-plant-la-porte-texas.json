@@ -1,0 +1,40 @@
+{
+  "id": "siluria-ocm-demonstration-plant-la-porte-texas",
+  "name": "Siluria OCM demonstration plant, La Porte, Texas",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "",
+  "technologies": [
+    "pch-oxidative-coupling-methane"
+  ],
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/siluria-announces-one-year-of-successful-operations-of-its-disruptive-ethylene-technology-300266816.html",
+      "note": "Siluria Technologies release via PR Newswire, 11 May 2016 (read 28 October 2026); later ownership history from Wikipedia, Siluria Technologies (read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2014",
+      "source": {
+        "url": "https://www.prnewswire.com/news-releases/siluria-announces-one-year-of-successful-operations-of-its-disruptive-ethylene-technology-300266816.html",
+        "note": "Siluria Technologies release via PR Newswire, 11 May 2016 (read 28 October 2026); later ownership history from Wikipedia, Siluria Technologies (read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: demonstration ran from early 2015 and completed 18 test campaigns in its first year (company release, 11 May 2016); no commercial OCM plant followed — Siluria was bought by McDermott in 2019, and McDermott's 2020 post-bankruptcy spin-off of Lummus Technology included Siluria's intellectual property and the La Porte demonstration plant (read 28 October 2026)",
+  "gaps": [
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

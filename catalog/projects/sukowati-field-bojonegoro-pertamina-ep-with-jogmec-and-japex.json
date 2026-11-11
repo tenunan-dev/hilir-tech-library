@@ -1,0 +1,33 @@
+{
+  "id": "sukowati-field-bojonegoro-pertamina-ep-with-jogmec-and-japex",
+  "name": "Sukowati field, Bojonegoro (Pertamina EP, with JOGMEC and JAPEX)",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "ID",
+  "status": "operating",
+  "description": "pilot: about 500 t CO2 huff-and-puff into well SKW-18 over 7 days",
+  "technologies": [
+    "ups-co2-eor"
+  ],
+  "sources": [
+    {
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/japex-and-partners-launch-co2-injection-test-at-sukowati-oil-field-in-indonesia-30847",
+      "note": "ChemAnalyst, JAPEX and partners launch CO2 injection test at Sukowati, 18 October 2024 (read 28 October 2026); October 2026 status from Pertamina EP Cepu statement via suaradesa.co, 14 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/japex-and-partners-launch-co2-injection-test-at-sukowati-oil-field-in-indonesia-30847",
+        "note": "ChemAnalyst, JAPEX and partners launch CO2 injection test at Sukowati, 18 October 2024 (read 28 October 2026); October 2026 status from Pertamina EP Cepu statement via suaradesa.co, 14 October 2026"
+      }
+    }
+  ],
+  "notes": "Status per card source: first CO2 injection 7 December 2023 (500 t huff-and-puff pilot into well SKW-18); inter-well CO2 injection field trial started 8 October 2024 under an August 2024 joint study by Pertamina EP, JAPEX and JOGMEC; full-scale application is still being evaluated by the joint study and Pertamina EP Cepu (operator of the adjacent Jambaran Tiung Biru field) as of October 2026, with commercial CO2-EOR not yet running"
+}

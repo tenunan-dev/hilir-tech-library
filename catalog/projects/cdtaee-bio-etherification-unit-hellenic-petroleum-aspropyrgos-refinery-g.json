@@ -1,0 +1,23 @@
+{
+  "id": "cdtaee-bio-etherification-unit-hellenic-petroleum-aspropyrgos-refinery-g",
+  "name": "CDTaee bio-etherification unit, Hellenic Petroleum Aspropyrgos refinery, Greece",
+  "project_type": "operating-asset",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "GR",
+  "status": "operating",
+  "description": "Lummus CDTaee unit producing bio-ethers (TAEE) from bio-ethanol and isobutylene; start-up announced August 2020",
+  "technologies": [
+    "ref-etherification"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrocarbonengineering.com/clean-fuels/18082020/lummus-technology-announces-start-up-of-bio-ethers-unit-at-greek-refinery",
+      "note": "Hydrocarbon Engineering, 18 Aug 2020 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

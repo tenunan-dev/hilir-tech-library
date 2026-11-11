@@ -1,0 +1,23 @@
+{
+  "id": "sakhalin-lng-prigorodnoye",
+  "name": "Sakhalin LNG (Prigorodnoye)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "RU",
+  "status": "operating",
+  "description": "not stated in source read",
+  "technologies": [
+    "lng-dmr"
+  ],
+  "sources": [
+    {
+      "url": "https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant",
+      "note": "Gas Processing & LNG, Optimal control of mixed refrigerant composition at Sakhalin LNG plant, 1 October 2018"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating (Shell DMR)"
+}

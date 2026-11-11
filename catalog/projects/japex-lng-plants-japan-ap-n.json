@@ -1,0 +1,29 @@
+{
+  "id": "japex-lng-plants-japan-ap-n",
+  "name": "Japex LNG plants, Japan (AP-N)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "JP",
+  "status": "proposed",
+  "description": "144 t/d (2004) and 206 t/d (2007)",
+  "technologies": [
+    "gas-small-scale-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
+      "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    }
+  ]
+}

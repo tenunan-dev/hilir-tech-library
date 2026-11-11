@@ -1,0 +1,23 @@
+{
+  "id": "undo-enhanced-rock-weathering-programme-uk-farms-scotland-and-northern-e",
+  "name": "UNDO enhanced rock weathering programme, UK farms (Scotland and northern England)",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "GB",
+  "status": "operating",
+  "description": "more than 141,000 t of crushed basalt spread on UK farms in 2023, expected over time to draw down about 37,000 t CO2 (projected, not yet measured); Microsoft-funded 25,000 t pilot (2023)",
+  "technologies": [
+    "ccs-enhanced-weathering"
+  ],
+  "sources": [
+    {
+      "url": "https://www.thetimes.com/uk/science/article/microsoft-funds-uk-climate-experiment-to-spread-crushed-rock-on-fields-6sjq5cwzz",
+      "note": "The Times, 13 Apr 2023 (Microsoft-funded 25,000 t pilot); trade reporting 29 Oct 2024 (141,000 t spread, ~37,000 t CO2 expected drawdown); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

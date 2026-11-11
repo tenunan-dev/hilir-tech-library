@@ -1,0 +1,23 @@
+{
+  "id": "johan-sverdrup-power-from-shore-equinor-north-sea",
+  "name": "Johan Sverdrup power-from-shore (Equinor), North Sea",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "field producing since Oct 2019 entirely on hydropower from shore; CO2 emissions 0.67 kg/bbl vs about 9 kg/bbl NCS average; launch estimate 460,000 t CO2/yr avoided, Equinor now states more than 620,000 t/yr",
+  "technologies": [
+    "ups-platform-electrification"
+  ],
+  "sources": [
+    {
+      "url": "https://www.equinor.com/energy/electrification",
+      "note": "Equinor electrification page (0.67 kg vs ~9 kg average; started 2019); Equinor news 9 Oct 2018 (460,000 t/yr estimate); Equinor Johan Sverdrup page (more than 620,000 t/yr); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

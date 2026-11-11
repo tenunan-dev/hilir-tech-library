@@ -1,0 +1,44 @@
+{
+  "id": "coso-operating-company-geothermal-plant-china-lake-california-navy-1-fir",
+  "name": "Coso Operating Company geothermal plant, China Lake, California (Navy 1, first unit 1993; three LO-CAT units)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "gas-liquid-redox-lo-cat"
+  ],
+  "sources": [
+    {
+      "url": "https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal",
+      "note": "Digital Refining, 27 years of reliable sulphur removal (LO-CAT at Coso geothermal plant), read 25 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "1993",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal",
+        "note": "Digital Refining, 27 years of reliable sulphur removal (LO-CAT at Coso geothermal plant), read 25 October 2026"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    },
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

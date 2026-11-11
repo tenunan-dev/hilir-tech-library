@@ -1,0 +1,33 @@
+{
+  "id": "pltd-pesanggaran-bali-pt-indonesia-power",
+  "name": "PLTD Pesanggaran, Bali (PT Indonesia Power)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "ID",
+  "status": "operating",
+  "description": "200 MW, 12 x Wärtsilä 50DF multi-fuel engines",
+  "technologies": [
+    "pwr-gas-engines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+      "note": "Wärtsilä reference: PLTD Pesanggaran, Bali (200 MW multi-fuel, 2015)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2015",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+        "note": "Wärtsilä reference: PLTD Pesanggaran, Bali (200 MW multi-fuel, 2015)"
+      }
+    }
+  ],
+  "notes": "Status per card source: in operation; delivered 2015 and began on HFO, primarily LNG since July 2016 (largest engine-based power plant in Indonesia)"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "shell-monoethylene-glycol-plant-jurong-island-singapore-omega-process",
+  "name": "Shell monoethylene glycol plant, Jurong Island, Singapore (OMEGA process)",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "SG",
+  "status": "operating",
+  "description": "MEG via the OMEGA route (EO to ethylene carbonate, then catalytic hydrolysis) - the first fully catalytic EG process; supported by Shell's 2015 ethylene-unit upgrade on the island",
+  "technologies": [
+    "pch-ethylene-oxide-glycols"
+  ],
+  "sources": [
+    {
+      "url": "https://chemanager-online.com/en/news/shell-upgrades-singapore-ethylene-production",
+      "note": "Chemanager, 9 Apr 2015 (ethylene upgrade supporting the Jurong Island MEG plant); OMEGA described as the first fully catalytic EG process (process literature); plant capacity not stated in open pages; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

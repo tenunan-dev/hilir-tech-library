@@ -1,0 +1,23 @@
+{
+  "id": "fulin-sodium-ion-battery-energy-storage-station-nanning-guangxi-china-so",
+  "name": "Fulin Sodium-ion Battery Energy Storage Station, Nanning, Guangxi (China Southern Power Grid / HiNa Battery)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "China's first large-scale sodium-ion BESS; first phase 10 MWh entered operation 11 May 2024; 42 battery containers and 21 PCS units at full build-out (1 July 2024 completion reported)",
+  "technologies": [
+    "pwr-sodium-ion-batteries"
+  ],
+  "sources": [
+    {
+      "url": "https://electrek.co/2024/05/17/china-first-large-scale-sodium-ion-battery",
+      "note": "Electrek, 17 May 2024 (operation 11 May 2024); HiNa Battery news, 1 Jul 2024 (world's largest Na-ion BESS, 42 containers + 21 PCS); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

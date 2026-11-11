@@ -1,0 +1,23 @@
+{
+  "id": "vireo-hardanger-bio-lng-plant-norway-bright-renewables-nordsol",
+  "name": "Vireo Hardanger bio-LNG plant, Norway (Bright Renewables/Nordsol)",
+  "project_type": "operating-asset",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "about 125,000 t/yr organic feedstock (salmon-processing residues) to bio-LNG; Norway's first bio-LNG facility (2025)",
+  "technologies": [
+    "gas-bio-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bright-renewables.com",
+      "note": "Bright Renewables, 29 Oct 2025 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

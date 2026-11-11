@@ -1,0 +1,33 @@
+{
+  "id": "petronas-pflng-dua-rotan-field-sabah",
+  "name": "PETRONAS PFLNG DUA, Rotan field, Sabah",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "MY",
+  "status": "operating",
+  "description": "1.5 Mtpa LNG in 1,300 m water depth",
+  "technologies": [
+    "lng-flng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+      "note": "PETRONAS press release, 25 March 2021"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2021",
+      "source": {
+        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "note": "PETRONAS press release, 25 March 2021"
+      }
+    }
+  ],
+  "notes": "Status per card source: first cargo 24 March 2021"
+}

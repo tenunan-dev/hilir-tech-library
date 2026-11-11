@@ -1,0 +1,22 @@
+{
+  "id": "twence-ccu-hengelo",
+  "name": "Twence CCU, Hengelo",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "NL",
+  "status": "operating",
+  "description": "100,000 t/yr CO2 from waste-to-energy (Just Catch)",
+  "technologies": [
+    "ccs-amine-post-combustion"
+  ],
+  "sources": [
+    {
+      "url": "https://capturi.slb.com/resources/news/2025/slb-capturi-celebrates-first-anniversary-marking-a-year-of-breakthroughs"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: delivered"
+}

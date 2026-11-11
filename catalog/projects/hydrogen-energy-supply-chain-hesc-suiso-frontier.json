@@ -1,0 +1,33 @@
+{
+  "id": "hydrogen-energy-supply-chain-hesc-suiso-frontier",
+  "name": "Hydrogen Energy Supply Chain (HESC), Suiso Frontier",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "AU",
+  "status": "operating",
+  "description": "1,250 m3 LH2 tank, loaded at Port of Hastings for Kobe",
+  "technologies": [
+    "h2-liquid-hydrogen"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
+      "note": "HESC project page, The Suiso Frontier"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2020",
+      "source": {
+        "url": "https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/",
+        "note": "HESC project page, The Suiso Frontier"
+      }
+    }
+  ],
+  "notes": "Status per card source: ship completed 2020; pilot voyage Australia to Japan"
+}

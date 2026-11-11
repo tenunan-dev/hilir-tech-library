@@ -592,6 +592,44 @@ def equipment_row(equipment_id: str) -> dict | None:
     return _execute(work)
 
 
+def project_rows(status: str | None = None, sector: str | None = None,
+                 query: str | None = None) -> list[dict]:
+    """Project rows shaped exactly like library.list_projects (projects.summary over the full
+    og.project.record), filtered the same way: status, sector code, text over name/aliases/
+    location/description/country."""
+
+    def work(cur):
+        import projects as project_records
+        cur.execute("SELECT record, sector_codes FROM project ORDER BY name")
+        out = []
+        for r in cur.fetchall():
+            rec = _jsonb(r[0])
+            if status and status != rec.get("status"):
+                continue
+            if sector and sector not in (r[1] or []):
+                continue
+            hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("location", ""),
+                            rec.get("description", ""), rec.get("country", "")]).lower()
+            if query and query.lower() not in hay:
+                continue
+            out.append(project_records.summary(rec))
+        return out
+
+    return _execute(work)
+
+
+def project_row(project_id: str) -> dict | None:
+    """The full project catalog record (og.project.record) — get_project parity with the SQLite
+    path: capacities, milestones, owners, contractors, offtakers, gaps, sources."""
+
+    def work(cur):
+        cur.execute("SELECT record FROM project WHERE id = %s", (project_id,))
+        rows = cur.fetchall()
+        return _jsonb(rows[0][0]) if rows else None
+
+    return _execute(work)
+
+
 def search_vector_count() -> int:
     """Rows with an embedding, across every embedded kind — the /search page's honest
     semantic badge (the SQLite path counts the same rows in its vectors table)."""
@@ -601,6 +639,7 @@ def search_vector_count() -> int:
                             + (SELECT count(*) FROM technology WHERE embedding IS NOT NULL)
                             + (SELECT count(*) FROM vendor WHERE embedding IS NOT NULL)
                             + (SELECT count(*) FROM equipment WHERE embedding IS NOT NULL)
+                            + (SELECT count(*) FROM project WHERE embedding IS NOT NULL)
                             + (SELECT count(*) FROM source WHERE embedding IS NOT NULL)""")
         return cur.fetchone()[0]
 

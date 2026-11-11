@@ -1,0 +1,33 @@
+{
+  "id": "daqing-oilfield-polymer-flood",
+  "name": "Daqing oilfield polymer flood",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "average incremental recovery about 11% over waterflooding across tested blocks",
+  "technologies": [
+    "ups-chemical-eor"
+  ],
+  "sources": [
+    {
+      "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125",
+      "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2026",
+      "source": {
+        "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125",
+        "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
+      }
+    }
+  ],
+  "notes": "Status per card source: described as the world's largest commercial polymer flood"
+}

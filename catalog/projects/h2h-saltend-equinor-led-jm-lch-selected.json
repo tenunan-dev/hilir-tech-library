@@ -1,0 +1,33 @@
+{
+  "id": "h2h-saltend-equinor-led-jm-lch-selected",
+  "name": "H2H Saltend (Equinor-led, JM LCH selected)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "GB",
+  "status": "proposed",
+  "description": "large-scale low-carbon hydrogen for Saltend Chemicals Park, Hull",
+  "technologies": [
+    "h2-gas-heated-reforming"
+  ],
+  "sources": [
+    {
+      "url": "https://matthey.com/johnson-matthey-chosen-for-h2h-saltend-low-carbon-hydrogen-project",
+      "note": "JM press release, March 2023"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2023",
+      "source": {
+        "url": "https://matthey.com/johnson-matthey-chosen-for-h2h-saltend-low-carbon-hydrogen-project",
+        "note": "JM press release, March 2023"
+      }
+    }
+  ],
+  "notes": "Status per card source: JM announced as technology provider, March 2023"
+}

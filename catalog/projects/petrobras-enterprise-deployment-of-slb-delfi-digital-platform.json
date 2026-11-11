@@ -1,0 +1,33 @@
+{
+  "id": "petrobras-enterprise-deployment-of-slb-delfi-digital-platform",
+  "name": "Petrobras enterprise deployment of SLB Delfi digital platform",
+  "project_type": "operating-asset",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "BR",
+  "status": "operating",
+  "description": "enterprisewide 5-year contract covering exploration, development and production workflows, moving subsurface workflows to the cloud",
+  "technologies": [
+    "ups-ai-seismic-interpretation-history-matching"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/petrobras-picks-slbs-delfi-platform",
+      "note": "SPE JPT, Petrobras Picks SLB's Delfi Platform: 'Petrobras has awarded SLB a 5-year contract for an enterprisewide deployment of its Delfi digital platform' (SLB release, 6 July 2023; read 28 October 2026)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2023",
+      "source": {
+        "url": "https://jpt.spe.org/petrobras-picks-slbs-delfi-platform",
+        "note": "SPE JPT, Petrobras Picks SLB's Delfi Platform: 'Petrobras has awarded SLB a 5-year contract for an enterprisewide deployment of its Delfi digital platform' (SLB release, 6 July 2023; read 28 October 2026)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating"
+}

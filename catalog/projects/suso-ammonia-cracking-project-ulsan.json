@@ -1,0 +1,23 @@
+{
+  "id": "suso-ammonia-cracking-project-ulsan",
+  "name": "SUSO ammonia cracking project, Ulsan",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "KR",
+  "status": "operating",
+  "description": "10 t/day hydrogen from 72 t/day ammonia (KBR H2ACT)",
+  "technologies": [
+    "h2-ammonia-cracking"
+  ],
+  "sources": [
+    {
+      "url": "https://kbr.foleon.com/technology/h2-act-unlocking-the-global-hydrogen-economy-through-ammonia-cracking/",
+      "note": "KBR H2ACT technology page, read 24 October 2026"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: moving to EPC, target start-up 2028"
+}

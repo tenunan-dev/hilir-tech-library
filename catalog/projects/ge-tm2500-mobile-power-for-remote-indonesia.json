@@ -1,0 +1,23 @@
+{
+  "id": "ge-tm2500-mobile-power-for-remote-indonesia",
+  "name": "GE TM2500 mobile power for remote Indonesia",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "ID",
+  "status": "operating",
+  "description": "TM2500 mobile generators on two-trailer assemblies, more than 25 MW per unit, delivering electricity to Indonesia's remote areas (2016)",
+  "technologies": [
+    "pwr-mobile-gas-turbine-plants"
+  ],
+  "sources": [
+    {
+      "url": "https://jakartaglobe.id/context/ges-power-plant-wheels-delivers-electricity-indonesias-remote-areas",
+      "note": "Jakarta Globe, 15 Oct 2016 (read 2026-10-28)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "shell-prelude-flng",
+  "name": "Shell Prelude FLNG",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "AU",
+  "status": "operating",
+  "description": "488 m long; 3.6 Mtpa LNG, 1.3 Mtpa condensate, 0.4 Mtpa LPG; 475 km NNE of Broome",
+  "technologies": [
+    "lng-flng"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-technology.com/news/shell-prelude-flng/",
+      "note": "Offshore Technology, 26 March 2019"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2019",
+      "source": {
+        "url": "https://www.offshore-technology.com/news/shell-prelude-flng/",
+        "note": "Offshore Technology, 26 March 2019"
+      }
+    }
+  ],
+  "notes": "Status per card source: first condensate cargo shipped by March 2019"
+}

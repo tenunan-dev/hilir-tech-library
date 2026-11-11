@@ -1,0 +1,44 @@
+{
+  "id": "us-plant-412-t-d-ap-n",
+  "name": "US plant, 412 t/d AP-N",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "US",
+  "status": "proposed",
+  "description": "",
+  "technologies": [
+    "gas-small-scale-lng"
+  ],
+  "sources": [
+    {
+      "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
+      "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2022",
+      "source": {
+        "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
+        "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "what": "confirmed project status",
+      "why": "reference-plant entry carried no status",
+      "next_action": "verify status from the cited source or the operator site"
+    },
+    {
+      "what": "project capacity",
+      "why": "reference-plant entry carried no capacity",
+      "next_action": "add MW/t-per-year/IT-load from the cited source"
+    }
+  ]
+}

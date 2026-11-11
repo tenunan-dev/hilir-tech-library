@@ -1,0 +1,23 @@
+{
+  "id": "sleipner-co2-storage-utsira-formation-norwegian-north-sea-equinor",
+  "name": "Sleipner CO2 storage, Utsira Formation, Norwegian North Sea (Equinor)",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "NO",
+  "status": "operating",
+  "description": "about 1 Mt CO2/yr injected into a deep saline formation since 1996; more than 20 Mt stored; injection cost about USD 17/t (storage only); zero leakage detected across 28+ years of monitoring",
+  "technologies": [
+    "ccs-saline-aquifer-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://sequestration.mit.edu/tools/projects/sleipner.html",
+      "note": "MIT Sleipner project page (USD 17/t injection, 15.5 Mt to 2015); ResearchGate review (over 20 Mt stored since 1996); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: operating"
+}

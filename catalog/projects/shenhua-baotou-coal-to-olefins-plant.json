@@ -1,0 +1,33 @@
+{
+  "id": "shenhua-baotou-coal-to-olefins-plant",
+  "name": "Shenhua Baotou coal-to-olefins plant",
+  "project_type": "greenfield",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "CN",
+  "status": "operating",
+  "description": "1.8 Mt/yr methanol feed, 600,000 t/yr polyethylene and polypropylene (first commercial DMTO)",
+  "technologies": [
+    "pch-methanol-to-olefins"
+  ],
+  "sources": [
+    {
+      "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001",
+      "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2010",
+      "source": {
+        "url": "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001",
+        "note": "Ye, Tian and Liu, DMTO: A Sustainable Methanol-to-Olefins Technology, Engineering 7(1), 2021, pp. 17-21 (figures to end-2019)"
+      }
+    }
+  ],
+  "notes": "Status per card source: started 8 August 2010"
+}

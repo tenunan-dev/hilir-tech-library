@@ -1,0 +1,23 @@
+{
+  "id": "kerrobert-thai-in-situ-combustion-pilot-petrobank-later-baytex-saskatche",
+  "name": "Kerrobert THAI in-situ combustion pilot (Petrobank, later Baytex), Saskatchewan",
+  "project_type": "greenfield",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS"
+  ],
+  "country": "CA",
+  "status": "proposed",
+  "description": "THAI (toe-to-heel air injection) pilot; per-well production and injection data published by the operator; numeric capacity not stated on the public data page",
+  "technologies": [
+    "ups-in-situ-combustion-solvent-sagd"
+  ],
+  "sources": [
+    {
+      "url": "https://petrobank.ca/sf/thai/thai.htm",
+      "note": "Petrobank Kerrobert THAI public data page (Saskatchewan, Canada; production history, KP2/KA2 well data). 50/50 Petrobank-Baytex JV reported Jan 2010; read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: pilot"
+}

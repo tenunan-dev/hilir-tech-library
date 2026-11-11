@@ -1,0 +1,33 @@
+{
+  "id": "green-plains-wood-river-biorefinery",
+  "name": "Green Plains Wood River Biorefinery",
+  "project_type": "operating-asset",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "US",
+  "status": "operating",
+  "description": "0.35 Mtpa CO2 capture (biomass / ethanol, deep saline formation storage)",
+  "technologies": [
+    "ccs-beccs"
+  ],
+  "sources": [
+    {
+      "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+      "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2025",
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
+        "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
+      }
+    }
+  ],
+  "notes": "Status per card source: operating"
+}

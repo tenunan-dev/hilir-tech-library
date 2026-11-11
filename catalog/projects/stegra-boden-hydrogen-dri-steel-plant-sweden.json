@@ -1,0 +1,23 @@
+{
+  "id": "stegra-boden-hydrogen-dri-steel-plant-sweden",
+  "name": "Stegra Boden hydrogen-DRI steel plant, Sweden",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "SE",
+  "status": "under-construction",
+  "description": "integrated green hydrogen, iron and steel plant; about USD 7 bn raised; on track for startup in 2026 with about 2.5 Mt/yr initial capacity scaling toward 5 Mt/yr by 2030; EUR 975 m completion round launched Oct 2025",
+  "technologies": [
+    "h2-dri"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article",
+      "note": "gasworld, 13 Oct 2025 (EUR 975 m round); h2invest (about USD 7 bn raised, 2026 startup); steelradar Apr 2025 (5 Mt/yr by 2030); read 2026-10-28"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "notes": "Status per card source: construction"
+}

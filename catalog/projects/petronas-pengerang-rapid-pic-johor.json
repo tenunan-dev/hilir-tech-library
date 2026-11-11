@@ -1,0 +1,33 @@
+{
+  "id": "petronas-pengerang-rapid-pic-johor",
+  "name": "PETRONAS Pengerang RAPID (PIC), Johor",
+  "project_type": "greenfield",
+  "sector": "REF",
+  "sector_codes": [
+    "REF"
+  ],
+  "country": "MY",
+  "status": "operating",
+  "description": "300 kb/d refinery with 3.3 Mt/yr petrochemical capacity; PETRONAS and Saudi Aramco joint ventures",
+  "technologies": [
+    "ref-crude-to-chemicals"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/pic/news-resources/press-releases/petronas-saudi-aramco-announce-formation-jv-malaysia",
+      "note": "PETRONAS press release, 28 March 2018"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2018",
+      "source": {
+        "url": "https://www.petronas.com/pic/news-resources/press-releases/petronas-saudi-aramco-announce-formation-jv-malaysia",
+        "note": "PETRONAS press release, 28 March 2018"
+      }
+    }
+  ],
+  "notes": "Status per card source: refinery start-up targeted Q1 2019 at time of release"
+}

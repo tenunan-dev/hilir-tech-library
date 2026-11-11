@@ -1,0 +1,33 @@
+{
+  "id": "petronas-pflng-1-satu-offshore-sarawak-amine-guard-fs",
+  "name": "PETRONAS PFLNG 1 (SATU), offshore Sarawak, Amine Guard FS",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "MY",
+  "status": "operating",
+  "description": "1.2 Mtpa LNG; about 112 miles off Sarawak; acid gas removal designed by PETRONAS and UOP for floating service",
+  "technologies": [
+    "gas-amine-agr"
+  ],
+  "sources": [
+    {
+      "url": "https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/",
+      "note": "Hydrocarbon Processing news, 16 April 2013"
+    }
+  ],
+  "last_reviewed": "2026-11-11",
+  "milestones": [
+    {
+      "event": "start-up (per card source)",
+      "date": "2013",
+      "source": {
+        "url": "https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/",
+        "note": "Hydrocarbon Processing news, 16 April 2013"
+      }
+    }
+  ],
+  "notes": "Status per card source: start-up scheduled for end 2015 in the 2013 announcement; not confirmed there"
+}
