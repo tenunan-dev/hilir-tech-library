@@ -8,6 +8,18 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.12.4] — 2026-11-12 — AirTrunk per-campus detail, CRAH equipment class, Rittal
+
+### Added
+
+- **airtrunk-malaysia-platform** updated with per-campus splits: JHB1 (150+ MW, opened July 2024, AI-ready with a large direct-to-chip liquid-cooling deployment), JHB2 (~280 MW, USD 2.3bn green financing), JHB3+JHB4 (~280 MW, announced April 2026) — 700+ MW across four Johor Bahru campuses, ~USD 6.8bn total.
+- Second data-centre equipment class: **crah-room-cooling** (CRAH/CRAC + pumped-refrigerant economisers; Liebert DSE 50–165 kW, water-free versus ~4M gallons/yr of chilled-water use at 1 MW IT load).
+- Vendor: **Rittal** (Friedhelm Loh Group; IT racks, PDUs, IT cooling, RiMatrix S modular data centres) — directory now 472.
+
+### Fixed
+
+- **Cyberjaya mislabel corrected**: AirTrunk's four Malaysian campuses are all Johor Bahru (JHB1–JHB4); the earlier record's Cyberjaya reference was plan prose, not source data.
+
 ## [2026.11.12.3] — 2026-11-12 — DC contractor cohort and first IDC equipment class
 
 ### Added
