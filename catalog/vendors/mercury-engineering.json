@@ -1,0 +1,17 @@
+{
+  "id": "mercury-engineering",
+  "name": "Mercury Engineering",
+  "country": "Ireland",
+  "roles": ["epc"],
+  "categories": ["plant-epc"],
+  "description": "Irish engineering and construction contractor and one of Europe's leading data-centre builders (mission-critical mechanical and electrical fit-out), active across Ireland, Northern Europe and the US.",
+  "technologies": ["idc-direct-to-chip-liquid-cooling"],
+  "url": "https://www.mercuryeng.com",
+  "sources": [
+    {
+      "url": "https://www.mercuryeng.com/about-us",
+      "note": "Mercury about page, fetched 2026-11-12 (identity confirmed)"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

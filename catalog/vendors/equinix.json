@@ -1,0 +1,21 @@
+{
+  "id": "equinix",
+  "name": "Equinix",
+  "country": "USA",
+  "roles": ["operator"],
+  "categories": ["operator"],
+  "description": "Global colocation and interconnection REIT operating more than 250 IBX data centres across five continents; runs a decade-long on-site fuel-cell programme with Bloom Energy (more than 100 MW across about 19 sites) and signs long-term clean-power agreements for its AI-era expansion.",
+  "technologies": ["idc-smr-fuel-cell-ppa"],
+  "url": "https://www.equinix.com",
+  "sources": [
+    {
+      "url": "https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/",
+      "note": "The Register, 14 August 2025 (Equinix power agreements incl. >100 MW Bloom fuel cells), read via search summary 2026-11-12"
+    },
+    {
+      "url": "https://www.equinix.com/company",
+      "note": "Equinix company page, fetched 2026-11-12 (identity confirmed)"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

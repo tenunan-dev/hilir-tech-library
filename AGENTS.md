@@ -25,19 +25,20 @@
 - Do not touch auth internals, DNS, or application content without an explicit owner ask.
   Estate record: `hilir-access/docs/STATUS.md`.
 
-### Where the work stands (2026-11-11)
+### Where the work stands (2026-11-12)
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
 | Catalog sources | 484 valid, 484 unique ids |
-| Technology cards | 334 (341-entry register) |
-| Vendor records | 461 |
+| Technology cards | 336 (364-entry register; sector IDC added 2026-11-12) |
+| Vendor records | 467 |
 | Equipment classes | 8 (five boiler classes, centrifugal compressor, centrifugal pump, industrial gas turbine) |
+| Projects and plants | 234 (new first-class entity, `schema/project.schema.json`, seeded from reference_plants) |
 | Corpus documents | 289, each with a hand-written summary (15,115 chunks) |
 
-Verified live 2026-11-11: Neon reloaded (407 sources / 457 vendors / 334 cards / 8 equipment /
-14,948 chunks / 3,720 nodes / 13,140 edges / 16,154 vectors) and both containers re-deployed from
-CI `images` run 42864857287 (ui sha256:f0aa7d4a…, api sha256:2a2f1b5e…, both healthy as user
+Verified live 2026-11-12: Neon reloaded (484 sources / 467 vendors / 336 cards / 8 equipment /
+234 projects / 15,115 chunks / 4,175 nodes / 12,449 edges / 16,644 vectors) and both containers re-deployed from
+CI `images` run 43060890222 (ui sha256:b016cd66…, api sha256:92019049…, both healthy as user
 `library`); VPS gate `mygis 303, techlib-origin 403, tlea-origin 403` green. Standing main
 effort is source discovery (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment
 families wait on the owner (decision #33). Open owner items and the session log are in

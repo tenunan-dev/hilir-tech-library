@@ -1,0 +1,17 @@
+{
+  "id": "anord-mardix",
+  "name": "Anord Mardix",
+  "country": "Ireland",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Critical-power OEM (Aggreko/Solent group) manufacturing switchgear, busbar and power-distribution systems purpose-built for data centres, supplying hyperscale and colocation operators worldwide.",
+  "technologies": ["idc-direct-to-chip-liquid-cooling"],
+  "url": "https://www.anordmardix.com",
+  "sources": [
+    {
+      "url": "https://www.anordmardix.com",
+      "note": "Vendor site, cited from the register's DC power-distribution listing (fetch at next pass)"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

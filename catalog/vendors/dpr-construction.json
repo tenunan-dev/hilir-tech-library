@@ -1,0 +1,17 @@
+{
+  "id": "dpr-construction",
+  "name": "DPR Construction",
+  "country": "USA",
+  "roles": ["epc"],
+  "categories": ["plant-epc", "engineering-consultancy"],
+  "description": "US technical builder (national general contractor) with one of the largest data-centre construction practices in North America, building hyperscale, colocation and AI-campus facilities.",
+  "technologies": ["idc-direct-to-chip-liquid-cooling"],
+  "url": "https://www.dpr.com",
+  "sources": [
+    {
+      "url": "https://www.dpr.com/company",
+      "note": "DPR company page, fetched 2026-11-12 (identity confirmed)"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

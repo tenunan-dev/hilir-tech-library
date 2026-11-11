@@ -1,0 +1,18 @@
+{
+  "id": "airtrunk",
+  "name": "AirTrunk",
+  "country": "Australia",
+  "roles": ["developer", "operator"],
+  "categories": ["operator"],
+  "description": "Asia-Pacific hyperscale data centre platform (Blackstone-owned since 2024) building and operating large-scale campuses across Australia, Japan, Singapore, Malaysia and Hong Kong; its Malaysia platform is expanding to more than 700 MW (Johor and Cyberjaya), the anchor supply for the SEA AI corridor.",
+  "technologies": ["idc-smr-fuel-cell-ppa"],
+  "url": "https://airtrunk.com",
+  "sources": [
+    {
+      "url": "https://airtrunk.com/",
+      "note": "AirTrunk site banner: AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+, read 2026-11-12"
+    }
+  ],
+  "notes": "Full capability figures (platform MW, investors) to be recorded from the site's newsroom at the next pass.",
+  "last_reviewed": "2026-11-12"
+}

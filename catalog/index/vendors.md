@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-461 vendor records covering 277 technologies. One record per vendor in
+467 vendor records covering 279 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -207,6 +207,17 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Engelhard Corporation](https://www.basf.com) | USA | oem | NOx control (SCR, SNCR, low-NOx burners) |
 | [IHI Corporation](https://www.ihi.co.jp) | Japan | oem | NOx control (SCR, SNCR, low-NOx burners) |
 | [J-W Instruments](https://www.jwinstruments.com) | USA | oem | Gas and flame detection |
+
+## IDC: Data centres
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [AirTrunk](https://airtrunk.com) | Australia | developer, operator | SMR and fuel-cell power purchase for data centres |
+| [Anord Mardix](https://www.anordmardix.com) | Ireland | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Digital Realty](https://www.digitalrealty.com) | USA | developer, operator | SMR and fuel-cell power purchase for data centres |
+| [DPR Construction](https://www.dpr.com) | USA | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Equinix](https://www.equinix.com) | USA | operator | SMR and fuel-cell power purchase for data centres |
+| [Mercury Engineering](https://www.mercuryeng.com) | Ireland | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
 
 ## INS: Instrumentation and control
 

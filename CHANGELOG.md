@@ -8,6 +8,19 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.12.1] — 2026-11-12 — Projects become a first-class entity; IDC sector opens
+
+### Added
+
+- **Project/plant entity** (`schema/project.schema.json`): owners, contractors, offtakers, capacities, capex, dated milestones, technology links — **234 records seeded from the cards' reference plants** (deduped across cards), wired into build, SQLite search (`kind = "project"`), MCP (`list_projects` / `get_project` — 18 tools), REST `/api/projects`, web `/projects`, Postgres `og.project` with graph `project:` nodes (`uses_technology` / `built_by` / `offtaker_of` edges), and the embedding chain.
+- **IDC sector (data centres)**: taxonomy + schema enums + 25 register entries covering siting, power supply (BTM gas, SMR/fuel-cell PPAs), power distribution, cooling, heat reuse, grid interaction, construction and DCIM. First two sourced cards: **direct-to-chip liquid cooling** (Vertiv CoolChip CDU 70 kW–2.3 MW range read from the product page) and **SMR + fuel-cell PPAs** (Google–Kairos 500 MW master plant agreement; Equinix–Bloom 100+ MW across ~19 sites).
+- Two project records: **google-kairos-power-smr-fleet** (FID) and **equinix-bloom-fuel-cell-programme** (operating).
+- Six data-centre vendor records: AirTrunk (Malaysia platform 700 MW+), Equinix, Digital Realty, DPR Construction, Mercury Engineering, Anord Mardix — directory now 467.
+
+### Fixed
+
+- og.project applied to production via owner DSN (first attempt landed in `public` because the DDL was unqualified — always qualify `og.` when applying DDL outside psql).
+
 ## [2026.11.11.5] — 2026-11-11 — Discovery queue drained: catalog to 484 sources
 
 ### Added
