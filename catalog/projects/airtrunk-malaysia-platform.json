@@ -1,9 +1,11 @@
 {
   "id": "airtrunk-malaysia-platform",
-  "name": "AirTrunk Malaysia hyperscale platform (Johor and Cyberjaya)",
+  "name": "AirTrunk Malaysia hyperscale platform (JHB1-JHB4, Johor Bahru)",
   "aliases": [
-    "AirTrunk JHB",
-    "AirTrunk Cyberjaya",
+    "AirTrunk JHB1",
+    "AirTrunk JHB2",
+    "AirTrunk JHB3",
+    "AirTrunk JHB4",
     "AirTrunk Malaysia 700MW+"
   ],
   "project_type": "expansion",
@@ -12,18 +14,51 @@
     "IDC"
   ],
   "country": "MY",
-  "location": "Johor (Seden Tech Park area) and Cyberjaya, Malaysia",
+  "location": "Iskandar Puteri / Johor Bahru, Malaysia (four campuses: JHB1-JHB4)",
   "status": "under-construction",
-  "description": "AirTrunk's Malaysian hyperscale platform — the anchor data-centre supply for the Johor-Singapore AI corridor — is expanding past 700 MW across its Johor and Cyberjaya campuses, serving hyperscalers building AI capacity in Southeast Asia.",
+  "description": "AirTrunk's Malaysian hyperscale platform: four campuses in Johor Bahru totalling more than 700 MW of IT capacity and about USD 6.8 billion of investment — the anchor data-centre supply for the Johor-Singapore AI corridor. JHB1 (150+ MW) opened July 2024 as an AI-ready facility with one of the largest direct-to-chip liquid-cooling deployments; JHB2 (about 280 MW, announced February 2025) carries USD 2.3 billion of green financing; JHB3 and JHB4 (about 280 MW combined) were announced April 2026 under a MYR 12 billion investment.",
   "capacities": [
     {
       "metric": "platform IT capacity",
       "value": "700+",
       "unit": "MW",
-      "basis": "AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+ (company banner); phase-level splits not stated on the page read",
+      "basis": "combined across four campuses; about USD 6.8 billion total investment in Malaysia",
       "source": {
         "url": "https://airtrunk.com/",
-        "note": "AirTrunk site banner, read 2026-11-12"
+        "note": "AirTrunk site banner: AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+, read 2026-11-12"
+      }
+    },
+    {
+      "metric": "JHB1 (first campus)",
+      "low": 150,
+      "high": 150,
+      "unit": "MW",
+      "basis": "150+ MW campus on 10.3 hectares, initial phases 50+ MW; opened 30 July 2024 as AI-ready with one of the largest direct-to-chip liquid-cooling deployments; fully contracted",
+      "source": {
+        "url": "https://airtrunk.com/",
+        "note": "AirTrunk JHB1 announcement and opening releases, read via search summaries 2026-11-12"
+      }
+    },
+    {
+      "metric": "JHB2 (second campus)",
+      "low": 270,
+      "high": 280,
+      "unit": "MW",
+      "basis": "about 280 MW announced February 2025 in Iskandar; USD 2.3 billion green financing raised July 2026",
+      "source": {
+        "url": "https://airtrunk.com/",
+        "note": "AirTrunk JHB2 announcement, read via search summaries 2026-11-12"
+      }
+    },
+    {
+      "metric": "JHB3 + JHB4",
+      "low": 280,
+      "high": 280,
+      "unit": "MW",
+      "basis": "about 280 MW combined, announced 30 April 2026 under a MYR 12 billion (about USD 3 billion) investment",
+      "source": {
+        "url": "https://airtrunk.com/",
+        "note": "AirTrunk JHB3/JHB4 announcement, read via search summaries 2026-11-12"
       }
     }
   ],
@@ -35,7 +70,8 @@
     }
   ],
   "technologies": [
-    "idc-siting-power-procurement"
+    "idc-siting-power-procurement",
+    "idc-direct-to-chip-liquid-cooling"
   ],
   "milestones": [
     {
@@ -55,9 +91,9 @@
   ],
   "gaps": [
     {
-      "what": "per-campus capacity split (Johor vs Cyberjaya) and phase dates",
-      "why": "The banner does not break the platform down; the site's newsroom and investor pages carry the detail",
-      "next_action": "Read AirTrunk's newsroom (JHB1/JHB2/CJB1 releases) and record phase-level MW and dates"
+      "what": "per-building phase dates and contracted offtakers",
+      "why": "Newsroom releases carry per-phase detail not yet read page-by-page",
+      "next_action": "Read AirTrunk newsroom releases for JHB1-JHB4 phase schedules"
     }
   ],
   "last_reviewed": "2026-11-12"

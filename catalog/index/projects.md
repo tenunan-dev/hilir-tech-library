@@ -569,12 +569,12 @@ Technologies: idc-smr-fuel-cell-ppa
 Capacity: fuel-cell capacity deployed:  MW
 Recorded gaps: site-by-site capacity list
 
-### AirTrunk Malaysia hyperscale platform (Johor and Cyberjaya) (airtrunk-malaysia-platform)
+### AirTrunk Malaysia hyperscale platform (JHB1-JHB4, Johor Bahru) (airtrunk-malaysia-platform)
 Status: **under-construction** | Country: MY
-AirTrunk's Malaysian hyperscale platform — the anchor data-centre supply for the Johor-Singapore AI corridor — is expanding past 700 MW across its Johor and Cyberjaya campuses, serving hyperscalers building AI capacity in Southeast Asia.
-Technologies: idc-siting-power-procurement
-Capacity: platform IT capacity: 700+ MW
-Recorded gaps: per-campus capacity split (Johor vs Cyberjaya) and phase dates
+AirTrunk's Malaysian hyperscale platform: four campuses in Johor Bahru totalling more than 700 MW of IT capacity and about USD 6.8 billion of investment — the anchor data-centre supply for the Johor-Singapore AI corridor. JHB1 (150+ MW) opened July 2024 as an AI-ready facility with one of the largest direct-to-chip liquid-cooling deployments; JHB2 (about 280 MW, announced February 2025) carries USD 2.3 billion of green financing; JHB3 and JHB4 (about 280 MW combined) were announced April 2026 under a MYR 12 billion investment.
+Technologies: idc-siting-power-procurement, idc-direct-to-chip-liquid-cooling
+Capacity: platform IT capacity: 700+ MW; JHB1 (first campus):  MW; JHB2 (second campus):  MW; JHB3 + JHB4:  MW
+Recorded gaps: per-building phase dates and contracted offtakers
 
 ## MAT: Materials and integrity
 

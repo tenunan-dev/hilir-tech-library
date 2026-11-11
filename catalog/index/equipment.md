@@ -1,6 +1,6 @@
 # Equipment catalog
 
-9 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+10 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -129,6 +129,26 @@ Recorded gaps:
 
 - per-vendor model-line ranges (flow, stage count, discharge pressure) for Siemens Energy STC, Baker Hughes BCL/DBL and PCL, MCO-I and Atlas Copco integrally-geared machines — fetch the OEM compressor family pages (browser session if needed) and add model lines with stated ranges
 - CO2-specific compression train boundaries (inlet, discharge, density effects) — mine the ccs-co2-compression-dehydration card's sources and OEM CO2 compression references
+
+## crah
+
+### Data centre CRAH/CRAC room cooling (air side) (crah-room-cooling)
+
+Primary code: IDC: Data centres
+Per-hall air handlers that close the loop between the cold aisle and the heat-rejection plant: computer-room air handlers (CRAH, chilled water) and air conditioners (CRAC, direct expansion), now joined by water-free pumped-refrigerant economisers. The Vertiv Liebert DSE spans 50-165 kW per unit (packaged systems to about 400 kW) and provides free cooling with no water — a chilled-water plant serving 1 MW of IT load uses roughly 4 million gallons of water a year that the DSE avoids.
+Vendors: Vertiv, Schneider Electric, Rittal (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| unit capacity range, Vertiv Liebert DSE free-cooling system | 50-165 kW | 50-165 kW standard range per unit; larger packaged configurations at about 250 kW and 400 kW |
+| annual water use avoided versus chilled water at 1 MW IT load | 4000000 gallons/year | a chilled-water system for a 1 MW data centre uses about 4 million gallons of water annually, which the water-free DSE avoids |
+
+- **Vertiv** Liebert DSE (pumped refrigerant economiser): 50-165 kW per unit, packaged systems to about 400 kW, water-free
+
+Recorded gaps:
+
+- containment-integrated efficiency figures (kW per kW of heat) — Read the DSE and Liebert CW/PCW datasheets for efficiency data
+- Stulz and Schneider (Uniflair) model lines — Read both vendor ranges and add model lines
 
 ## pump
 

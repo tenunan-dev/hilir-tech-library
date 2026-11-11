@@ -1,0 +1,77 @@
+{
+  "id": "crah-room-cooling",
+  "name": "Data centre CRAH/CRAC room cooling (air side)",
+  "equipment_type": "crah",
+  "sector": "IDC",
+  "sector_codes": ["IDC"],
+  "description": "Per-hall air handlers that close the loop between the cold aisle and the heat-rejection plant: computer-room air handlers (CRAH, chilled water) and air conditioners (CRAC, direct expansion), now joined by water-free pumped-refrigerant economisers. The Vertiv Liebert DSE spans 50-165 kW per unit (packaged systems to about 400 kW) and provides free cooling with no water — a chilled-water plant serving 1 MW of IT load uses roughly 4 million gallons of water a year that the DSE avoids.",
+  "subtypes": [
+    {
+      "name": "CRAH (chilled water air handler)",
+      "description": "Coil-and-fan units fed by the chilled-water plant; the classic air-side workhorse."
+    },
+    {
+      "name": "CRAC (direct expansion)",
+      "description": "Self-contained refrigeration units; simpler plant, lower efficiency at scale."
+    },
+    {
+      "name": "Pumped-refrigerant economiser (free cooling)",
+      "description": "Water-free systems such as the Liebert DSE that reject heat without compressors when ambient allows."
+    }
+  ],
+  "applications": ["colocation halls", "hyperscale halls with containment", "edge data rooms", "water-constrained sites"],
+  "specifications": [
+    {
+      "metric": "unit capacity range, Vertiv Liebert DSE free-cooling system",
+      "unit": "kW",
+      "low": 50,
+      "high": 165,
+      "basis": "50-165 kW standard range per unit; larger packaged configurations at about 250 kW and 400 kW",
+      "source": {
+        "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",
+        "note": "Vertiv Liebert DSE product page, read via search summary 2026-11-12 (page region-blocked on direct fetch)"
+      }
+    },
+    {
+      "metric": "annual water use avoided versus chilled water at 1 MW IT load",
+      "unit": "gallons/year",
+      "low": 4000000,
+      "high": 4000000,
+      "basis": "a chilled-water system for a 1 MW data centre uses about 4 million gallons of water annually, which the water-free DSE avoids",
+      "source": {
+        "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",
+        "note": "Vertiv Liebert DSE product page claim, read via search summary 2026-11-12"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "vertiv",
+      "line": "Liebert DSE (pumped refrigerant economiser)",
+      "models": ["50 kW", "165 kW standard units", "250 kW", "400 kW packaged"],
+      "range": "50-165 kW per unit, packaged systems to about 400 kW, water-free"
+    }
+  ],
+  "vendors": ["vertiv", "schneider-electric", "rittal"],
+  "technologies": ["idc-direct-to-chip-liquid-cooling", "idc-siting-power-procurement"],
+  "sources": [
+    {
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",
+      "note": "Vertiv Liebert DSE product page (capacity range, water-free claim), read via search summary 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "containment-integrated efficiency figures (kW per kW of heat)",
+      "why": "Vendor efficiency tables not yet read",
+      "next_action": "Read the DSE and Liebert CW/PCW datasheets for efficiency data"
+    },
+    {
+      "what": "Stulz and Schneider (Uniflair) model lines",
+      "why": "Competitor pages not yet fetched",
+      "next_action": "Read both vendor ranges and add model lines"
+    }
+  ],
+  "notes": "Second IDC equipment class. Liquid-side cooling (CDUs) is recorded on the idc-direct-to-chip-liquid-cooling card; this class covers the air side and heat rejection boundary.",
+  "last_reviewed": "2026-11-12"
+}

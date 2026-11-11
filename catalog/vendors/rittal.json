@@ -1,0 +1,17 @@
+{
+  "id": "rittal",
+  "name": "Rittal",
+  "country": "Germany",
+  "roles": ["oem", "supplier"],
+  "categories": ["equipment-oem"],
+  "description": "German enclosure and climate-control manufacturer (Friedhelm Loh Group, Haiger) whose system platform spans industrial enclosures, power distribution, IT racks, rack PDUs, IT cooling, monitoring and modular data centres — including preconfigured RiMatrix S modules and liquid-cooling systems.",
+  "technologies": ["idc-direct-to-chip-liquid-cooling"],
+  "url": "https://www.rittal.com",
+  "sources": [
+    {
+      "url": "https://www.rittal.com/com-en/",
+      "note": "Rittal corporate site: enclosures, power distribution, climate control; IT racks, PDUs, IT cooling, RiMatrix S modular data centres, read 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-471 vendor records covering 281 technologies. One record per vendor in
+472 vendor records covering 281 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -221,6 +221,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Holder Construction](https://www.holderconstruction.com) | USA | epc | Data centre siting and power procurement |
 | [Mace Group](https://www.macegroup.com) | United Kingdom | epc, service | Data centre siting and power procurement |
 | [Mercury Engineering](https://www.mercuryeng.com) | Ireland | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Rittal](https://www.rittal.com) | Germany | oem, supplier | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Rosendin Electric](https://www.rosendin.com) | USA | epc | Data centre UPS systems (double-conversion, lithium, modular); Direct-to-chip liquid cooling (cold plates and CDUs) |
 
 ## INS: Instrumentation and control
@@ -631,7 +632,7 @@ batch of this directory.
 - **DIG** (1): Yokogawa
 - **ELE** (4): Eaton Crouse-Hinds; nVent; nVent ERICO; Prysmian
 - **HSE** (1): Flare Ventures
-- **IDC** (7): Boyd; Caterpillar; CoolIT Systems; Enel X; GridBeyond; Motivair; Rittal
+- **IDC** (6): Boyd; Caterpillar; CoolIT Systems; Enel X; GridBeyond; Motivair
 - **INS** (1): Yokogawa
 - **REF** (1): Yokogawa
 
