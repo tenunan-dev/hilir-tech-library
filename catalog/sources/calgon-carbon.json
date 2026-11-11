@@ -1,0 +1,28 @@
+{
+  "id": "calgon-carbon",
+  "name": "Calgon Carbon",
+  "url": "https://www.calgoncarbon.com",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "CCS",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Kuraray Group",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Activated-carbon supplier: flue-gas mercury-control and gas-treatment products cited on mercury-emission and gas-purification cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: calgoncarbon.com flue-gas page (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.11.5] — 2026-11-11 — Discovery queue drained: catalog to 484 sources
+
+### Added
+
+- 31 more source drafts, completing the citation-mining and event-sweep queues: World Nuclear Association, RFF, Congress.gov, EC DG CLIMA, CINEA, Federal Register, ROSAP (DOT), CAAFI, IATA, CCSI Toolset, ccsknowledge, Illinois State Geological Survey, Calgon Carbon, JDIH ESDM (Indonesia), and 17 trade-media/vendor/association titles including CHEManager, Chemical Processing, Gas Processing News, Gasworld, GeoExpro, LNG Prime, The Chemical Engineer, Turbomachinery International, TaiyangNews, Vicat, STAL and the Gasification & Syngas Technologies Council.
+- Catalog now **484 sources**.
+
+### Closed
+
+- **Discovery queue empty**: all 169 queued candidates triaged across eight batches — 60 new drafts, 58 dedupe-registrations, 45 rejections, 2 blocked-owner (S&P Global, Statista — subscription). Plan block A3 marked done.
+
 ## [2026.11.11.4] — 2026-11-11 — Discovery triage batches 3–7: catalog to 453 sources
 
 ### Added

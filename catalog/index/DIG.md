@@ -1,6 +1,6 @@
 # DIG: Digital
 
-163 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+182 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -52,12 +52,15 @@
 | [Petromindo Indonesia energy news](https://www.petromindo.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [Petrovietnam](https://www.pvn.vn/) | agency-data | sea | open | summary-only (unverified) |
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
+| [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
+| [Congress.gov legislation text](https://www.congress.gov) | agency-data | na | open | full-text-open (unverified) |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | open | full-text-open (unverified) |
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
+| [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
 | [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -71,6 +74,7 @@
 | [Pacific Northwest National Laboratory](https://www.pnnl.gov/) | research-institute | na | open | full-text-restricted |
 | [Processes (MDPI)](https://www.mdpi.com/journal/processes) | journal | global | open | full-text-open |
 | [SPE Journal](https://onepetro.org/SJ) | journal | global | paywalled | catalog-only (unverified) |
+| [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open (unverified) |
 | [USGS Energy Resources Program](https://www.usgs.gov/programs/energy-resources-program) | agency-data | na, global | open | full-text-open |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted (unverified) |
@@ -83,6 +87,8 @@
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-open (unverified) |
+| [CCSI Toolset (Carbon Capture Simulation for Industry Impact)](https://github.com/CCSI-Toolset) | research-institute | global | open | full-text-open (unverified) |
+| [ccsknowledge.com (public CCS studies)](https://ccsknowledge.com) | research-institute | global | open | full-text-open (unverified) |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
@@ -109,9 +115,11 @@
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
 | [Hydrogen Council](https://hydrogencouncil.com/en/) | association | global | open | full-text-restricted |
 | [Hydrogen Europe](https://hydrogeneurope.eu/) | association | eu | open | full-text-restricted |
+| [IATA (International Air Transport Association)](https://www.iata.org) | association | global | open | full-text-restricted (unverified) |
 | [Idaho National Laboratory](https://inl.gov) | research-institute | na | open | full-text-open |
 | [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
+| [Illinois State Geological Survey](https://www.isgs.illinois.edu) | research-institute | na | open | full-text-open (unverified) |
 | [International Gas Union](https://www.igu.org/) | association | global | open | summary-only |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [IRENA publications](https://www.irena.org/Publications) | agency-data | global | open | full-text-restricted |
@@ -133,6 +141,7 @@
 | [OSDU Data Platform (The Open Group)](https://www.opengroup.org/osdu-forum/) | association | global | open | full-text-open (unverified) |
 | [Plastics Recyclers Europe](https://www.plasticsrecyclers.eu) | association | eu | mixed | summary-only |
 | [PubMed Central / Europe PMC open full texts](https://pmc.ncbi.nlm.nih.gov) | journal | global | open | full-text-open (unverified) |
+| [Resources for the Future (RFF)](https://www.rff.org) | research-institute | global | open | full-text-open (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
@@ -140,6 +149,7 @@
 | [SLB](https://www.slb.com/) | oem-supplier | global | open | full-text-restricted |
 | [SPE Annual Technical Conference and Exhibition (ATCE)](https://www.spe.org/events/atce/) | conference | global | mixed | catalog-only (unverified) |
 | [SPE peer-reviewed journals (Formation Evaluation / Reservoir Evaluation)](https://onepetro.org) | journal | global | mixed | full-text-restricted (unverified) |
+| [The Chemical Engineer (IChemE)](https://www.thechemicalengineer.com) | trade-media | global | open | catalog-only (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
@@ -153,9 +163,17 @@
 | [World Oil](https://www.worldoil.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
+| [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only (unverified) |
+| [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | open | catalog-only (unverified) |
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
+| [Gas Processing News](https://gasprocessingnews.com) | trade-media | global | open | catalog-only (unverified) |
+| [Gasworld](https://www.gasworld.com) | trade-media | global | open | catalog-only (unverified) |
+| [gCaptain](https://gcaptain.com) | trade-media | global | open | catalog-only (unverified) |
+| [GeoExpro](https://geoexpro.com) | trade-media | global | open | catalog-only (unverified) |
+| [IOP+ (Dutch industry news)](https://ioplus.nl) | trade-media | eu | open | catalog-only (unverified) |
 | [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
+| [LNG Prime](https://lngprime.com) | trade-media | global | open | catalog-only (unverified) |
 | [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only (unverified) |
 | [Offshore Engineer (OE Digital)](https://www.oedigital.com) | trade-media | global | open | catalog-only (unverified) |
@@ -165,5 +183,6 @@
 | [Rigzone](https://www.rigzone.com/) | trade-media | global | open | summary-only (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
+| [TaiyangNews](https://taiyangnews.info) | trade-media | global | open | catalog-only (unverified) |
 | [The Maritime Executive](https://maritime-executive.com) | trade-media | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

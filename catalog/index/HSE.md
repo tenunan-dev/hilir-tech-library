@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-103 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+111 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -21,6 +21,7 @@
 | [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
+| [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open (unverified) |
 | [Malaysia Petroleum Management (PETRONAS MPM)](https://www.petronas.com/mpm) | agency-data | sea | open | summary-only (unverified) |
 | [Methanol Institute](https://www.methanol.org/) | association | global, apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
@@ -44,6 +45,7 @@
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [European Commission CCS Directive implementation guidance](https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf) | agency-data | eu | open | full-text-open (unverified) |
+| [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
 | [Havtil Norwegian Ocean Industry Authority](https://www.havtil.no/en/) | agency-data | eu | open | full-text-open |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEAGHG Technology Collaboration Programme reports](https://ieaghg.org/) | research-institute | global | mixed | full-text-restricted |
@@ -67,9 +69,12 @@
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
+| [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open (unverified) |
 | [Alberta Energy Regulator (AER)](https://www.aer.ca) | agency-data | na | open | full-text-open |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
 | [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
+| [CAAFI (Commercial Aviation Alternative Fuels Initiative)](https://www.caafi.org) | association | global | open | full-text-open (unverified) |
+| [Calgon Carbon](https://www.calgoncarbon.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Cefic European Chemical Industry Council](https://cefic.org/) | association | eu | open | full-text-restricted |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
@@ -99,11 +104,14 @@
 | [Oil and Gas Climate Initiative](https://www.ogci.com/) | association | global | open | summary-only |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Plastics Europe](https://plasticseurope.org/) | association | eu | open | full-text-restricted |
+| [ROSAP (US DOT National Transportation Library)](https://rosap.ntl.bts.gov) | agency-data | global | open | full-text-open (unverified) |
 | [UK Health and Safety Executive (HSE)](https://www.hse.gov.uk/electricity/) | agency-data | eu | open | summary-only |
 | [UK North Sea Transition Authority](https://www.nstauthority.co.uk/) | agency-data | eu | open | full-text-open |
 | [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
+| [Vicat](https://www.vicat.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [World Bank Global Flaring & Methane Reduction (GFMR) Partnership](https://www.worldbank.org/en/programs/gasflaringreduction) | agency-data | global | open | full-text-open |
+| [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted (unverified) |
 | [The Maritime Executive](https://maritime-executive.com) | trade-media | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

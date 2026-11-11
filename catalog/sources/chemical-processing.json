@@ -1,0 +1,27 @@
+{
+  "id": "chemical-processing",
+  "name": "Chemical Processing",
+  "url": "https://www.chemicalprocessing.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Putman Media",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Chemical Processing trade magazine: process-intensification and plant-technology articles cited on process cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

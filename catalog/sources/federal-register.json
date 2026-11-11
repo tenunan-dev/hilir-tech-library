@@ -1,0 +1,28 @@
+{
+  "id": "federal-register",
+  "name": "US Federal Register",
+  "url": "https://www.federalregister.gov",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR",
+    "REF",
+    "UPS"
+  ],
+  "disciplines": [
+    "DIG",
+    "HSE"
+  ],
+  "publisher_org": "US Office of the Federal Register",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 1,
+  "update_frequency": "daily",
+  "notes": "Primary US regulatory notices and rules (e.g. 80 FR 64510 on methane standards, cited on emissions-regulation cards). Registered unverified from the citation-mining queue. Evidence: gpo.gov fdsys FR-2015-10-23 pdf (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

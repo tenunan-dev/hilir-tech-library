@@ -1,0 +1,28 @@
+{
+  "id": "ccsknowledge",
+  "name": "ccsknowledge.com (public CCS studies)",
+  "url": "https://ccsknowledge.com",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS",
+    "PWR",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "ccsknowledge.com",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "irregular",
+  "notes": "Repository of publicly released CCS feasibility studies (e.g. the Shand post-combustion study) — primary plant-level capture data rarely published elsewhere. Registered unverified from the citation-mining queue. Evidence: ccsknowledge.com Shand CCS Feasibility Study (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

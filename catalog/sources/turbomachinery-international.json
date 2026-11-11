@@ -1,0 +1,27 @@
+{
+  "id": "turbomachinery-international",
+  "name": "Turbomachinery International",
+  "url": "https://www.turbomachinerymag.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT",
+    "PRC"
+  ],
+  "publisher_org": "Turbomachinery International",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "monthly",
+  "notes": "Rotating-equipment trade magazine cited on electric-driven LNG trains and compressor milestones. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

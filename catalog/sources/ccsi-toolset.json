@@ -1,0 +1,27 @@
+{
+  "id": "ccsi-toolset",
+  "name": "CCSI Toolset (Carbon Capture Simulation for Industry Impact)",
+  "url": "https://github.com/CCSI-Toolset",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "US DOE / NETL (CCSI2)",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "BSD-style open source",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "DOE's open-source process-simulation and optimisation toolkit for carbon capture (Aspen-independent unit models and reduced-order models), cited on capture-model and process-intensification cards. Registered unverified from the citation-mining queue. Evidence: github.com/CCSI-Toolset (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

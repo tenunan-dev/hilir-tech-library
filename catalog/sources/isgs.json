@@ -1,0 +1,27 @@
+{
+  "id": "isgs",
+  "name": "Illinois State Geological Survey",
+  "url": "https://www.isgs.illinois.edu",
+  "source_type": "research-institute",
+  "sectors": [
+    "CCS",
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "University of Illinois Urbana-Champaign",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "State geological survey with published CCS geology and Illinois Basin storage research (Herrin coal zone and saline formations) cited on storage-capacity cards. Registered unverified from the citation-mining queue. Evidence: isgs.illinois.edu Herrin pages (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

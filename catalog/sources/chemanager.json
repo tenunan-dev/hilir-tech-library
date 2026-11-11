@@ -1,0 +1,27 @@
+{
+  "id": "chemanager",
+  "name": "CheManager",
+  "url": "https://www.chemanager-online.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "PCH",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Wiley-VCH",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "CHEManager trade media covering chemicals-plant projects and process technology, cited on petrochemical upgrade news. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

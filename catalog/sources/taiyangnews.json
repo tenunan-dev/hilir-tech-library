@@ -1,0 +1,26 @@
+{
+  "id": "taiyangnews",
+  "name": "TaiyangNews",
+  "url": "https://taiyangnews.info",
+  "source_type": "trade-media",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "TaiyangNews",
+  "country": "DE",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Solar industry news covering floating PV expansion in Southeast Asia and module technology. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

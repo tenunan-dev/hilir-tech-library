@@ -1,0 +1,27 @@
+{
+  "id": "iata",
+  "name": "IATA (International Air Transport Association)",
+  "url": "https://www.iata.org",
+  "source_type": "association",
+  "sectors": [
+    "REF",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "IATA",
+  "country": "CA",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Airline industry association: net-zero 2050 commitment and SAF offtake announcements cited on the sustainable-aviation-fuel card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: iata.org pressroom 2021-10-04 release (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

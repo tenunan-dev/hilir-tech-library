@@ -1,0 +1,27 @@
+{
+  "id": "gasworld",
+  "name": "Gasworld",
+  "url": "https://www.gasworld.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "GAS",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Gasworld Ltd",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Industrial-gases trade magazine, cited for compressor operating-hour milestones and gas-market news. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

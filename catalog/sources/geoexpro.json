@@ -1,0 +1,26 @@
+{
+  "id": "geoexpro",
+  "name": "GeoExpro",
+  "url": "https://geoexpro.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "GeoPublishing",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "quarterly",
+  "notes": "Geoscience magazine for exploration and production professionals, cited on seismic and reservoir-characterisation cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "stal",
+  "name": "STAL (Chinese refrigeration/pumps)",
+  "url": "https://www.stal.com.cn",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "GAS",
+    "REF"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "publisher_org": "STAL Refrigeration",
+  "country": "CN",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "notes": "Chinese cryogenic pump and refrigeration equipment maker cited on LNG/refrigeration equipment lists; site reachability from outside China to be verified at collection. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

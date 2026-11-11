@@ -1,6 +1,6 @@
 # MID: Midstream
 
-83 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+85 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -71,6 +71,7 @@
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [OSDU Data Platform (The Open Group)](https://www.opengroup.org/osdu-forum/) | association | global | open | full-text-open (unverified) |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [ROSAP (US DOT National Transportation Library)](https://rosap.ntl.bts.gov) | agency-data | global | open | full-text-open (unverified) |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
@@ -81,6 +82,7 @@
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
+| [gCaptain](https://gcaptain.com) | trade-media | global | open | catalog-only (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
 | [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |

@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-225 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+229 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -43,6 +43,7 @@
 | [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
 | [India Petroleum Planning and Analysis Cell (PPAC)](https://ppac.gov.in/) | agency-data | apac | open | full-text-restricted |
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
+| [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open (unverified) |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted |
 | [Journal of Earth Energy Engineering (Universitas Islam Riau)](https://journal.uir.ac.id/index.php/JEEE) | journal | sea | open | full-text-open |
 | [Lembaran Publikasi Minyak dan Gas Bumi (LPMGB, LEMIGAS)](https://journal.lemigas.esdm.go.id/index.php/LPMGB) | journal | sea | open | full-text-open |
@@ -122,6 +123,7 @@
 | [Torque and Drag Field Applications in Horizontal Wells (IJOGCT 16(3), 2017)](https://id.scribd.com/document/604239685/Torque-and-drag-field-applications-in-horizontal-wells) | journal | global | mixed | full-text-restricted |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
+| [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open (unverified) |
 | [USGS Energy Resources Program](https://www.usgs.gov/programs/energy-resources-program) | agency-data | na, global | open | full-text-open |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only |
@@ -166,6 +168,7 @@
 | [IEA Global Hydrogen Review 2025 (main report)](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IEA Global Methane Tracker](https://www.iea.org/reports/global-methane-tracker-2025) | agency-data | global | open | full-text-open |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
+| [Illinois State Geological Survey](https://www.isgs.illinois.edu) | research-institute | na | open | full-text-open (unverified) |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
 | [ISO 15926 / POSC Caesar reference data library](https://www.posccaesar.org/) | standards-body | global | open | full-text-restricted |
@@ -217,6 +220,7 @@
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
+| [GeoExpro](https://geoexpro.com) | trade-media | global | open | catalog-only (unverified) |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only (unverified) |

@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-224 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+236 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -40,6 +40,7 @@
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Institute of Energy Economics, Japan (IEEJ)](https://eneken.ieej.or.jp/en/) | research-institute | apac | mixed | summary-only (unverified) |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
+| [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open (unverified) |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
@@ -133,6 +134,8 @@
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
+| [Calgon Carbon](https://www.calgoncarbon.com) | oem-supplier | global | open | full-text-restricted (unverified) |
+| [CB&I (McDermott) technologies](https://www.cbi.com) | licensor | global | open | full-text-restricted (unverified) |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering Progress (CEP)](https://www.aiche.org/resources/publications/cep) | trade-media | global | mixed | catalog-only (unverified) |
@@ -152,6 +155,7 @@
 | [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted (unverified) |
 | [Gas Exporting Countries Forum](https://www.gecf.org/) | association | me, global | open | full-text-restricted |
 | [Gas Turbine World (Pequot Publishing)](https://gasturbineworld.com/) | trade-media | global | paywalled | summary-only |
+| [Gasification & Syngas Technologies Council](https://www.gasification-syngas.org) | association | global | open | catalog-only (unverified) |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Heatric printed circuit heat exchangers](https://www.heatric.com/) | oem-supplier | global | open | summary-only (unverified) |
@@ -191,6 +195,7 @@
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [ROSAP (US DOT National Transportation Library)](https://rosap.ntl.bts.gov) | agency-data | global | open | full-text-open (unverified) |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
@@ -217,8 +222,12 @@
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
+| [Gas Processing News](https://gasprocessingnews.com) | trade-media | global | open | catalog-only (unverified) |
+| [Gasworld](https://www.gasworld.com) | trade-media | global | open | catalog-only (unverified) |
+| [gCaptain](https://gcaptain.com) | trade-media | global | open | catalog-only (unverified) |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [LNG Prime](https://lngprime.com) | trade-media | global | open | catalog-only (unverified) |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only (unverified) |
 | [Offshore Engineer (OE Digital)](https://www.oedigital.com) | trade-media | global | open | catalog-only (unverified) |
@@ -227,4 +236,7 @@
 | [Rigzone](https://www.rigzone.com/) | trade-media | global | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
 | [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
+| [STAL (Chinese refrigeration/pumps)](https://www.stal.com.cn) | oem-supplier | global | open | catalog-only (unverified) |
+| [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only (unverified) |
+| [Universal Industrial Gases (UIG)](https://www.uigi.com) | agency-data | global | open | full-text-open (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

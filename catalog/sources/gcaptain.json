@@ -1,0 +1,27 @@
+{
+  "id": "gcaptain",
+  "name": "gCaptain",
+  "url": "https://gcaptain.com",
+  "source_type": "trade-media",
+  "sectors": [
+    "GAS",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "gCaptain",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Maritime news site cited on powership and floating-power designs. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

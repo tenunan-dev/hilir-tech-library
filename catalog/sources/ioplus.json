@@ -1,0 +1,27 @@
+{
+  "id": "ioplus",
+  "name": "IOP+ (Dutch industry news)",
+  "url": "https://ioplus.nl",
+  "source_type": "trade-media",
+  "sectors": [
+    "CCS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "IOP+",
+  "country": "NL",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 3,
+  "update_frequency": "daily",
+  "notes": "Dutch industrial news covering CCS and energy-transition projects (e.g. Porthos construction milestones). Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
+  "verification": "unverified",
+  "last_verified": null
+}

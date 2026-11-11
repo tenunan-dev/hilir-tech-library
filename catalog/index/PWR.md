@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-158 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+170 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@
 | [Indonesia Ministry of Energy and Mineral Resources (ESDM)](https://www.esdm.go.id/en) | agency-data | sea | open | full-text-restricted |
 | [Institute of Energy Economics, Japan (IEEJ)](https://eneken.ieej.or.jp/en/) | research-institute | apac | mixed | summary-only (unverified) |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
+| [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open (unverified) |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
 | [Korea Energy Economics Institute (KEEI)](https://www.keei.re.kr/eng) | research-institute | apac | open | full-text-restricted |
 | [Korea Institute of Energy Research (KIER)](https://www.kier.re.kr/eng/) | research-institute | apac | open | summary-only (unverified) |
@@ -58,6 +59,8 @@
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASME Turbo Expo](https://event.asme.org/Turbo-Expo) | conference | global | mixed | catalog-only (unverified) |
+| [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
+| [Congress.gov legislation text](https://www.congress.gov) | agency-data | na | open | full-text-open (unverified) |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
@@ -67,6 +70,7 @@
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
 | [EUBCE European Biomass Conference and Exhibition](https://www.eubce.com/) | conference | global, eu | free-registration | full-text-restricted |
+| [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
 | [Fraunhofer ISE](https://www.ise.fraunhofer.de/en.html) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
@@ -82,6 +86,7 @@
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
+| [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open (unverified) |
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs.html) | agency-data | global | open | full-text-open (unverified) |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted (unverified) |
@@ -91,6 +96,7 @@
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-open (unverified) |
+| [ccsknowledge.com (public CCS studies)](https://ccsknowledge.com) | research-institute | global | open | full-text-open (unverified) |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [Construction Industry Institute (CII)](https://www.construction-institute.org) | association | global | mixed | catalog-only (unverified) |
@@ -136,6 +142,8 @@
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [PubMed Central / Europe PMC open full texts](https://pmc.ncbi.nlm.nih.gov) | journal | global | open | full-text-open (unverified) |
+| [Resources for the Future (RFF)](https://www.rff.org) | research-institute | global | open | full-text-open (unverified) |
+| [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
@@ -149,10 +157,12 @@
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [World Bank DataBank](https://databank.worldbank.org) | agency-data | global | open | full-text-open (unverified) |
+| [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted (unverified) |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
+| [IOP+ (Dutch industry news)](https://ioplus.nl) | trade-media | eu | open | catalog-only (unverified) |
 | [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
 | [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |
@@ -161,4 +171,6 @@
 | [POWER Magazine](https://www.powermag.com) | trade-media | global | mixed | catalog-only (unverified) |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Subsea7](https://www.subsea7.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [TaiyangNews](https://taiyangnews.info) | trade-media | global | open | catalog-only (unverified) |
+| [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

@@ -1,6 +1,6 @@
 # PCH: Petrochemicals
 
-149 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
+158 sources. Sub-topics: steam-cracking, aromatics, polymers, methanol, olefins, circular-plastics, specialty-chemicals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -56,6 +56,7 @@
 | [CCPS Process Safety Beacon](https://www.aiche.org/ccps/process-safety-beacon) | association | global | open | full-text-restricted |
 | [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | open | full-text-open (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
+| [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
 | [IChemE knowledge and Loss Prevention Bulletin](https://www.icheme.org/knowledge/) | association | global | mixed | catalog-only (unverified) |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
@@ -85,6 +86,8 @@
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
 | [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
+| [CCSI Toolset (Carbon Capture Simulation for Industry Impact)](https://github.com/CCSI-Toolset) | research-institute | global | open | full-text-open (unverified) |
+| [ccsknowledge.com (public CCS studies)](https://ccsknowledge.com) | research-institute | global | open | full-text-open (unverified) |
 | [Cefic European Chemical Industry Council](https://cefic.org/) | association | eu | open | full-text-restricted |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
@@ -109,6 +112,7 @@
 | [Flowserve](https://www.flowserve.com/) | oem-supplier | global | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
+| [Gasification & Syngas Technologies Council](https://www.gasification-syngas.org) | association | global | open | catalog-only (unverified) |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Hitachi Energy](https://www.hitachienergy.com/products-and-solutions/transformers) | oem-supplier | global | open | full-text-restricted |
 | [Honeywell Process Solutions](https://process.honeywell.com/) | oem-supplier | global | open | catalog-only |
@@ -132,21 +136,26 @@
 | [Plastics Europe](https://plasticseurope.org/) | association | eu | open | full-text-restricted |
 | [Plastics Recyclers Europe](https://www.plasticsrecyclers.eu) | association | eu | mixed | summary-only |
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [Technip Energies](https://www.ten.com/en) | epc-contractor | global | open | summary-only |
+| [The Chemical Engineer (IChemE)](https://www.thechemicalengineer.com) | trade-media | global | open | catalog-only (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [thyssenkrupp Uhde](https://www.thyssenkrupp-uhde.com/) | licensor | global | open | full-text-restricted |
 | [Topsoe](https://www.topsoe.com/) | licensor | global | open | full-text-restricted |
 | [UK Health and Safety Executive (HSE)](https://www.hse.gov.uk/electricity/) | agency-data | eu | open | summary-only |
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
+| [Vicat](https://www.vicat.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [W. R. Grace refining catalysts](https://grace.com/) | licensor | global | open | full-text-restricted |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
+| [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only (unverified) |
+| [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | open | catalog-only (unverified) |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [renewable-carbon.eu (nova-Institute news)](https://renewable-carbon.eu) | trade-media | eu, global | open | catalog-only (unverified) |

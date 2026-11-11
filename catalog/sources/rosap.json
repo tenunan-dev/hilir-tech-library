@@ -1,0 +1,28 @@
+{
+  "id": "rosap",
+  "name": "ROSAP (US DOT National Transportation Library)",
+  "url": "https://rosap.ntl.bts.gov",
+  "source_type": "agency-data",
+  "sectors": [
+    "GAS",
+    "MID",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "US Department of Transportation",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "DOT's open repository of transport research (pipeline safety, LNG/marine transport studies) — an already-documented compliant mirror host for blocked agency sites. Registered unverified from the citation-mining queue. Evidence: rosap.ntl.bts.gov document 57459 (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

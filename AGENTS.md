@@ -29,7 +29,7 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 453 valid, 453 unique ids |
+| Catalog sources | 484 valid, 484 unique ids |
 | Technology cards | 334 (341-entry register) |
 | Vendor records | 461 |
 | Equipment classes | 8 (five boiler classes, centrifugal compressor, centrifugal pump, industrial gas turbine) |

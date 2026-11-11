@@ -1,6 +1,6 @@
 # REF: Refining
 
-183 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
+195 sources. Sub-topics: crude-distillation, fcc, hydroprocessing, reforming, alkylation, biorefining, co-processing.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -64,11 +64,13 @@
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
 | [CCPS Process Safety Beacon](https://www.aiche.org/ccps/process-safety-beacon) | association | global | open | full-text-restricted |
+| [Congress.gov legislation text](https://www.congress.gov) | agency-data | na | open | full-text-open (unverified) |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy Institute Publications](https://publishing.energyinst.org/) | standards-body | global, eu | mixed | catalog-only (unverified) |
 | [EU BAT Reference Documents (refining, LVOC, polymers)](https://eippcb.jrc.ec.europa.eu/reference) | agency-data | eu, global | open | full-text-open |
 | [EU Joint Research Centre publications](https://joint-research-centre.ec.europa.eu/publications_en) | research-institute | eu, global | open | full-text-open |
+| [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
 | [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-open (unverified) |
 | [Fuel (Elsevier)](https://www.sciencedirect.com/journal/fuel) | journal | global | mixed | catalog-only (unverified) |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
@@ -90,6 +92,7 @@
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [US Chemical Safety Board investigations](https://www.csb.gov/) | agency-data | na, global | open | full-text-open |
+| [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open (unverified) |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only |
 | [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
@@ -101,7 +104,10 @@
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
 | [Burckhardt Compression](https://www.burckhardtcompression.com/) | oem-supplier | global | open | summary-only |
+| [CAAFI (Commercial Aviation Alternative Fuels Initiative)](https://www.caafi.org) | association | global | open | full-text-open (unverified) |
+| [Calgon Carbon](https://www.calgoncarbon.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
+| [CB&I (McDermott) technologies](https://www.cbi.com) | licensor | global | open | full-text-restricted (unverified) |
 | [CFIHOS Capital Facilities Information Handover Specification](https://www.jip36-cfihos.org/) | standards-body | global | open | full-text-open |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
@@ -136,6 +142,7 @@
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |
 | [Honeywell UOP Gas Treating (acid gas removal page)](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal) | oem-supplier | global | open | full-text-open (unverified) |
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [IATA (International Air Transport Association)](https://www.iata.org) | association | global | open | full-text-restricted (unverified) |
 | [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA Global Hydrogen Review 2025 (main report)](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
@@ -164,6 +171,8 @@
 | [Port of Seattle SAF programme](https://www.portseattle.org/page/sustainable-aviation-fuels) | agency-data | na | open | full-text-restricted (unverified) |
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [Renewable Fuels Association](https://ethanolrfa.org) | association | global | open | catalog-only (unverified) |
+| [Resources for the Future (RFF)](https://www.rff.org) | research-institute | global | open | full-text-open (unverified) |
+| [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
@@ -184,6 +193,9 @@
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [Airlines for America (A4A)](https://www.airlines.org) | association | global | open | catalog-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only (unverified) |
+| [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | open | catalog-only (unverified) |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [STAL (Chinese refrigeration/pumps)](https://www.stal.com.cn) | oem-supplier | global | open | catalog-only (unverified) |
 | [VEGA Grieshaber](https://www.vega.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

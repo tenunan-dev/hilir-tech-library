@@ -1,0 +1,28 @@
+{
+  "id": "jdih-esdm",
+  "name": "JDIH ESDM (Indonesian energy regulation database)",
+  "url": "https://jdih.esdm.go.id",
+  "source_type": "agency-data",
+  "sectors": [
+    "UPS",
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "Kementerian ESDM (Republic of Indonesia)",
+  "country": "ID",
+  "regions": [
+    "sea"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "weekly",
+  "notes": "Indonesia's energy-ministry legal database (JDIH ESDM): the authoritative route to Indonesian oil-and-gas, power and minerals regulation text, supporting the library's Southeast Asia weighting. Registered unverified from the citation-mining queue. Evidence: jdih.esdm.go.id (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

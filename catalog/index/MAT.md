@@ -1,6 +1,6 @@
 # MAT: Materials and integrity
 
-79 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
+80 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -72,6 +72,7 @@
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [US BSEE offshore safety and technology](https://www.bsee.gov/) | agency-data | na | open | full-text-open |

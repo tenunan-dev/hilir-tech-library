@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-264 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+290 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -43,6 +43,7 @@
 | [Geological Survey of Queensland open data](https://geoscience.data.qld.gov.au) | agency-data | apac | open | full-text-open |
 | [Global CCS Institute publications](https://www.globalccsinstitute.com/resources/publications-reports-research/) | association | global, apac | mixed | full-text-restricted |
 | [J-PlatPat Japan Platform for Patent Information](https://www.j-platpat.inpit.go.jp/) | patents | apac | open | full-text-open (unverified) |
+| [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open (unverified) |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted |
 | [Journal of Earth Energy Engineering (Universitas Islam Riau)](https://journal.uir.ac.id/index.php/JEEE) | journal | sea | open | full-text-open |
@@ -83,6 +84,7 @@
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
+| [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open (unverified) |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/our-services/projections-and-models/technology-data) | agency-data | eu, global | open | full-text-open (unverified) |
 | [eCFR — Title 49 (PHMSA pipeline safety)](https://www.ecfr.gov) | standards-body | global | open | full-text-open (unverified) |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
@@ -142,10 +144,15 @@
 | [Axens](https://www.axens.net/) | licensor | global | open | full-text-restricted |
 | [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted (unverified) |
 | [BASF Process Catalysts](https://catalysts.basf.com/) | licensor | global | open | full-text-restricted |
+| [CAAFI (Commercial Aviation Alternative Fuels Initiative)](https://www.caafi.org) | association | global | open | full-text-open (unverified) |
+| [Calgon Carbon](https://www.calgoncarbon.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-open (unverified) |
 | [Canadian Energy Research Institute (CERI) studies](https://canadacommons.ca/orgs/canadian-energy-research-institute) | research-institute | na | mixed | full-text-restricted |
 | [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
 | [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
+| [CB&I (McDermott) technologies](https://www.cbi.com) | licensor | global | open | full-text-restricted (unverified) |
+| [CCSI Toolset (Carbon Capture Simulation for Industry Impact)](https://github.com/CCSI-Toolset) | research-institute | global | open | full-text-open (unverified) |
+| [ccsknowledge.com (public CCS studies)](https://ccsknowledge.com) | research-institute | global | open | full-text-open (unverified) |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
 | [Chemical Engineering magazine](https://www.chemengonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
@@ -175,6 +182,7 @@
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted (unverified) |
 | [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open (unverified) |
+| [Gasification & Syngas Technologies Council](https://www.gasification-syngas.org) | association | global | open | catalog-only (unverified) |
 | [GIIGNL International Group of LNG Importers](https://giignl.org/) | association | global | open | full-text-restricted |
 | [Global CCS Institute CO2RE facilities database](https://www.globalccsinstitute.com/co2re/) | association | global | mixed | summary-only (unverified) |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
@@ -182,6 +190,7 @@
 | [Honeywell UOP Gas Treating (acid gas removal page)](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal) | oem-supplier | global | open | full-text-open (unverified) |
 | [Horizontal Drilling Engineering: Theory, Methods and Applications (Samuel & Gao, 2014)](https://id.scribd.com/document/241155713/Horizontal-Drilling-pdf) | association | global | mixed | full-text-restricted |
 | [Hydrocarbon Processing](https://www.hydrocarbonprocessing.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [IATA (International Air Transport Association)](https://www.iata.org) | association | global | open | full-text-restricted (unverified) |
 | [Idaho National Laboratory](https://inl.gov) | research-institute | na | open | full-text-open |
 | [IEA Bioenergy TCP](https://www.ieabioenergy.com) | research-institute | global | open | full-text-restricted |
 | [IEA CCUS Projects Database](https://www.iea.org/data-and-statistics/data-product/ccus-projects-database) | agency-data | global | free-registration | full-text-restricted |
@@ -189,6 +198,7 @@
 | [IEA Global Hydrogen Review 2025 Assumptions Annex](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IEA Hydrogen Production and Infrastructure Projects Database](https://www.iea.org/data-and-statistics/data-product/hydrogen-production-and-infrastructure-projects-database) | agency-data | global | free-registration | full-text-restricted |
 | [IEA PVPS (Photovoltaic Power Systems Programme)](https://iea-pvps.org) | research-institute | global | open | full-text-restricted |
+| [Illinois State Geological Survey](https://www.isgs.illinois.edu) | research-institute | na | open | full-text-open (unverified) |
 | [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [ITM Power](https://itm-power.com/) | oem-supplier | global, eu | open | summary-only (unverified) |
 | [Johnson Matthey Catalyst Technologies](https://www.honeywell.com/us/en/lp/ct/overview) | licensor | global | open | catalog-only |
@@ -221,6 +231,8 @@
 | [PTQ Petroleum Technology Quarterly / Digital Refining](https://www.digitalrefining.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [PubMed Central / Europe PMC open full texts](https://pmc.ncbi.nlm.nih.gov) | journal | global | open | full-text-open (unverified) |
 | [Renewable Fuels Association](https://ethanolrfa.org) | association | global | open | catalog-only (unverified) |
+| [Resources for the Future (RFF)](https://www.rff.org) | research-institute | global | open | full-text-open (unverified) |
+| [ROSAP (US DOT National Transportation Library)](https://rosap.ntl.bts.gov) | agency-data | global | open | full-text-open (unverified) |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell Catalysts & Technologies](https://www.shell.com/business-customers/catalysts-technologies.html) | licensor | global | open | full-text-restricted (unverified) |
@@ -232,6 +244,7 @@
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [Sunfire](https://www.sunfire.de/en/) | oem-supplier | eu | open | summary-only (unverified) |
 | [Technip Energies](https://www.ten.com/en) | epc-contractor | global | open | summary-only |
+| [The Chemical Engineer (IChemE)](https://www.thechemicalengineer.com) | trade-media | global | open | catalog-only (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [thyssenkrupp Uhde](https://www.thyssenkrupp-uhde.com/) | licensor | global | open | full-text-restricted |
 | [Topsoe](https://www.topsoe.com/) | licensor | global | open | full-text-restricted |
@@ -240,6 +253,7 @@
 | [US DOE Hydrogen and Fuel Cell Technologies Office](https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US DOE Office of Fossil Energy and Carbon Management](https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management) | agency-data | na, global | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
+| [Vicat](https://www.vicat.com) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [W. R. Grace refining catalysts](https://grace.com/) | licensor | global | open | full-text-restricted |
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
@@ -247,14 +261,23 @@
 | [World Bank Global Flaring & Methane Reduction (GFMR) Partnership](https://www.worldbank.org/en/programs/gasflaringreduction) | agency-data | global | open | full-text-open |
 | [World Gas Conference (IGU)](https://www.igu.org/events/world-gas-conference/) | conference | global | mixed | catalog-only (unverified) |
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
+| [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted (unverified) |
 | [Airlines for America (A4A)](https://www.airlines.org) | association | global | open | catalog-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
+| [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only (unverified) |
+| [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | open | catalog-only (unverified) |
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
+| [Gas Processing News](https://gasprocessingnews.com) | trade-media | global | open | catalog-only (unverified) |
+| [Gasworld](https://www.gasworld.com) | trade-media | global | open | catalog-only (unverified) |
+| [gCaptain](https://gcaptain.com) | trade-media | global | open | catalog-only (unverified) |
+| [GeoExpro](https://geoexpro.com) | trade-media | global | open | catalog-only (unverified) |
 | [H2 View](https://www.h2-view.com/) | trade-media | global | mixed | summary-only |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [IOP+ (Dutch industry news)](https://ioplus.nl) | trade-media | eu | open | catalog-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [LNG Prime](https://lngprime.com) | trade-media | global | open | catalog-only (unverified) |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only (unverified) |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only (unverified) |
@@ -267,4 +290,7 @@
 | [SABIC Technology](https://www.sabic.com/) | licensor | global, me | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
 | [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
+| [TaiyangNews](https://taiyangnews.info) | trade-media | global | open | catalog-only (unverified) |
+| [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only (unverified) |
+| [Universal Industrial Gases (UIG)](https://www.uigi.com) | agency-data | global | open | full-text-open (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

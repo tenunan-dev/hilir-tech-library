@@ -1,0 +1,26 @@
+{
+  "id": "world-nuclear-association",
+  "name": "World Nuclear Association",
+  "url": "https://world-nuclear.org/information-library",
+  "source_type": "association",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "World Nuclear Association",
+  "country": "GB",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Industry association information library: reactor technology, fuel-cycle and SMR status pages cited on the nuclear-vendor and SMR cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: world-nuclear.org SMR information-library page (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

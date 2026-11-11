@@ -1,0 +1,27 @@
+{
+  "id": "caafi",
+  "name": "CAAFI (Commercial Aviation Alternative Fuels Initiative)",
+  "url": "https://www.caafi.org",
+  "source_type": "association",
+  "sectors": [
+    "REF",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "publisher_org": "CAAFI (FAA/industry consortium)",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "quarterly",
+  "notes": "Aviation-industry SAF consortium: the fuel-qualification (ASTM D4054) pathway and approved-fuel registry, the authoritative list of certified SAF routes cited on the SAF card. Registered unverified from the citation-mining queue. Evidence: caafi.org fuel-qualification page (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}

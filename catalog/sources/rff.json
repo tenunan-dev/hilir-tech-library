@@ -1,0 +1,29 @@
+{
+  "id": "rff",
+  "name": "Resources for the Future (RFF)",
+  "url": "https://www.rff.org",
+  "source_type": "research-institute",
+  "sectors": [
+    "PWR",
+    "CCS",
+    "H2",
+    "REF"
+  ],
+  "disciplines": [
+    "PRC",
+    "DIG"
+  ],
+  "publisher_org": "Resources for the Future",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "full-text-open",
+  "quality_tier": 2,
+  "update_frequency": "monthly",
+  "notes": "Environmental-economics think tank: Global Energy Outlook and policy-cost analyses cited on decarbonisation-economics cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: rff.org Global Energy Outlook 2024 (2026-10-29, triaged 2026-11-11)",
+  "verification": "unverified",
+  "last_verified": null
+}
