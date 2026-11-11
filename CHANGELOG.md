@@ -8,6 +8,14 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.12.3] — 2026-11-12 — DC contractor cohort and first IDC equipment class
+
+### Added
+
+- Four data-centre contractor/EP records: Holder Construction (Atlanta, Data & Telecom practice), Fortis Construction (PNW, emerging-energy/technology unit), Mace Group (UK, Technology and Manufacturing market; March 2026 split into Consult and Construct), Rosendin Electric (largest US employee-owned electrical contractor). ISG was reviewed and deliberately NOT registered — it entered administration in September 2024, the UK's biggest construction collapse since Carillion, with loss-making data-centre contracts a named cause; a collapsed-contractor note belongs in project records, not a live vendor directory.
+- First data-centre equipment class: **ups-data-centre** (decision #33 pattern) with the Liebert EXL S1 model line (100–1200 kW, parallel to ~9.6 MW) and the equipment schema's sector enums extended to IDC/ELE/CIV.
+- Catalog: **471 vendors / 9 equipment classes**.
+
 ## [2026.11.12.2] — 2026-11-12 — IDC card set complete: power, UPS, grid and siting
 
 ### Added
