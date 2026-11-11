@@ -47,7 +47,7 @@ import vendors as vendor_records
 
 # keep in sync with the edge: deploy/frontend/src/index.ts (UI_PREFIXES)
 PREFIXES = ("/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/projects", "/register", "/sources", "/documents", "/gaps", "/admin", "/account")
-SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "PRC", "ROT", "ELE", "CIV", "INS", "MAT", "HSE", "DIG"]
+SECTOR_SELECT = ["UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "IDC", "PRC", "ROT", "ELE", "CIV", "INS", "MAT", "HSE", "DIG"]
 MATURITIES = ["commercial", "demonstration", "pilot", "lab"]
 REUSE_LEVELS = ["full-text-open", "full-text-restricted", "summary-only", "catalog-only"]
 GAP_FIELDS = ["trl", "performance", "costs", "reference_plants", "suppliers", "status", "process", "other", "card"]
@@ -71,7 +71,8 @@ NAV_GROUPS = (
 DATABASE_TABS = (("Overview", "/database"), ("SQL console", "/database/sql"), ("Semantic search", "/database/search"),
                  ("Network", "/database/graph"), ("Atlas", "/database/map"), ("API reference", "/database/api"))
 HOME_SECTORS = (("UPS", "upstream"), ("MID", "midstream"), ("GAS", "gas processing & LNG"), ("REF", "refining"),
-                ("PCH", "petrochemicals"), ("PWR", "power"), ("H2", "hydrogen"), ("CCS", "carbon capture"))
+                ("PCH", "petrochemicals"), ("PWR", "power"), ("H2", "hydrogen"), ("CCS", "carbon capture"),
+                ("IDC", "data centres"))
 RELS = ["published_by", "in_sector", "covers_discipline", "in_region", "in_country", "from_source", "cites",
         "cites_document", "supplied_by", "realised_by", "example_supplier", "alternative_to", "mentions",
         "has_gap", "look_in", "supplies", "supplies_equipment", "uses_equipment", "alias_of", "similar_to"]

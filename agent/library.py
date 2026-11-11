@@ -69,7 +69,7 @@ def equipment_of_vendors(equipment_recs, vendor_names):
 def project_text(rec, card_names, vendor_names):
     """The text a project record is indexed and embedded by (SQLite and Postgres stay identical)."""
     caps = "\n".join(f"{c['metric']}: {c.get('basis', '')}".rstrip(" :") for c in rec.get("capacities", []))
-    parties = "\n".join(f"{p.get('role', '')}: {vendor_names.get(p['vendor_id'], '') or p['name']}".strip(" :")
+    parties = "\n".join(f"{p.get('role', '')}: {vendor_names.get(p.get('vendor_id', ''), '') or p['name']}".strip(" :")
                         for group in ("owners", "contractors", "offtakers") for p in rec.get(group, []))
     return "\n".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("location", ""),
                       rec.get("description", ""), rec.get("status", ""), caps, parties,

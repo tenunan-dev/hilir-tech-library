@@ -1,6 +1,6 @@
 # Technology register
 
-341 technologies across oil, gas, petrochemicals and new energy; 341 have a technology card so far.
+364 technologies across oil, gas, petrochemicals and new energy; 343 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -425,3 +425,31 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Structures and construction | Structural fireproofing and passive fire protection | commercial | AkzoNobel (Chartek), Hempel, Carboline | [card](technologies-CIV.md#civ-fireproofing-passive-protection) |
 | Structures and construction | Seismic design of process facilities | commercial | EPC contractors and structural consultants | [card](technologies-CIV.md#civ-seismic-design) |
 | Structures and construction | Heavy lift, transport and temporary works | commercial | Mammoet, Sarens, Heerema | [card](technologies-CIV.md#civ-heavy-lift-temporary-works) |
+
+## IDC: Data centres
+
+| Area | Technology | Maturity | Examples | Card |
+| --- | --- | --- | --- | --- |
+| Siting and demand | Hyperscale data centre siting and power procurement | commercial | Hyperscalers (Google, Microsoft, AWS, Meta), colocation operators (Equinix, Digital Realty, Vantage, AirTrunk) |  |
+| Siting and demand | AI-training and inference load profiles | commercial | Hyperscaler engineering groups, GPU cluster integrators |  |
+| Siting and demand | Data centre energy and water benchmarking (PUE/WUE) | commercial | Uptime Institute, LBNL, EPRI |  |
+| Power supply | Utility feed and on-site substation for data centres | commercial | ABB, Hitachi Energy, Eaton, Schneider Electric |  |
+| Power supply | Behind-the-meter gas generation for data centres | commercial | GE Vernova, Caterpillar, Cummins, Solar Turbines |  |
+| Power supply | SMR and fuel-cell power purchase for data centres | demonstration | Kairos Power (Google PPA), Bloom Energy (Equinix), Oklo, Westinghouse eVinci, X-energy | [card](technologies-IDC.md#idc-smr-fuel-cell-ppa) |
+| Power supply | Fuel-cell power for data centres | demonstration | Bloom Energy (Equinix), Plug Power |  |
+| Power supply | On-site solar plus battery storage for data centres | commercial | SunPower, Sungrow, CATL, Tesla Energy |  |
+| Power distribution | Data centre UPS systems (double-conversion, lithium, flywheel) | commercial | Vertiv, Schneider Electric, Eaton, ABB, Legrand |  |
+| Power distribution | Medium-voltage switchgear and busway in the data hall | commercial | ABB, Eaton, Schneider Electric, Anord Mardix |  |
+| Power distribution | Rack power distribution (PDU, 48 V DC and 415 V AC architectures) | commercial | Vertiv, Schneider Electric, Raritan/Legrand |  |
+| Cooling | Air cooling (CRAH/CRAC, hot/cold aisle containment) | commercial | Vertiv, Schneider Electric, Rittal, Stulz |  |
+| Cooling | Direct-to-chip liquid cooling (cold plates and CDUs) | demonstration | Vertiv, CoolIT, Boyd, Motivair, Delta | [card](technologies-IDC.md#idc-direct-to-chip-liquid-cooling) |
+| Cooling | Immersion cooling | pilot | GRC, LiquidStack, Submer, Asperitas |  |
+| Cooling | Rear-door heat exchangers | demonstration | Vertiv, nVent, Rittal |  |
+| Cooling | Free cooling and economisers | commercial | Vertiv, Schneider Electric, Munters |  |
+| Heat reuse | District heating tie-ins from data centres | commercial | Nordic operators (Fortum, Vattenfall, Halmstad), Meta Odense |  |
+| Grid interaction | Data centre demand response and flexible load | commercial | Enel X, Centrica, National Grid ESO programmes |  |
+| Grid interaction | Battery storage for data centre load smoothing | commercial | CATL, Sungrow, Fluence, Tesla Energy |  |
+| Construction and delivery | Modular and prefabricated data halls | commercial | Vertiv, Schneider Electric (Smart Bunker), Huawei |  |
+| Construction and delivery | Data centre commissioning and integrated systems testing | commercial | Commissioning agents (Cushman & Wakefield, EYP/Leidos) |  |
+| Digital | DCIM and digital twins for data centres | commercial | Schneider Electric (EcoStruxure), Vertiv, Sunbird, Rigado |  |
+| Digital | Liquid-cooling leak detection and monitoring | demonstration | Vertiv, RLE Technologies, Aquilar |  |

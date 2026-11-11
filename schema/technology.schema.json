@@ -140,7 +140,8 @@
         "INS",
         "MAT",
         "HSE",
-        "DIG"
+        "DIG",
+        "IDC"
       ]
     },
     "category": {

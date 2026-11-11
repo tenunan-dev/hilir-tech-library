@@ -1,0 +1,75 @@
+{
+  "id": "equinix-bloom-fuel-cell-programme",
+  "name": "Equinix Bloom Energy fuel-cell programme",
+  "aliases": ["Equinix solid-oxide fuel cell deployment"],
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": ["IDC"],
+  "country": "US",
+  "location": "About 19 Equinix data centres, primarily the United States (IBX sites)",
+  "status": "operating",
+  "description": "Equinix's decade-long partnership with Bloom Energy, expanded in 2025, deploying more than 100 MW of natural-gas solid-oxide fuel cells at about 19 data centres as on-site generation that bypasses grid interconnection queues and improves power reliability for colocation customers.",
+  "capacities": [
+    {
+      "metric": "fuel-cell capacity deployed",
+      "low": 100,
+      "high": 100,
+      "unit": "MW",
+      "basis": "more than 100 MW across about 19 data centres (about 37 MW across 12 sites as of 2017)",
+      "source": {
+        "url": "https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/",
+        "note": "The Register, 14 August 2025, read via search summary 2026-11-12"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Equinix",
+      "role": "operator and host"
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Bloom Energy",
+      "vendor_id": "bloom-energy",
+      "role": "fuel-cell supplier (ES5-family solid-oxide systems)"
+    }
+  ],
+  "technologies": ["idc-smr-fuel-cell-ppa"],
+  "milestones": [
+    {
+      "event": "partnership began",
+      "date": "2015",
+      "source": {
+        "url": "https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/",
+        "note": "The Register, 14 August 2025 (partnership since 2015), read via search summary 2026-11-12"
+      }
+    },
+    {
+      "event": "expansion to more than 100 MW announced",
+      "date": "2025-02-20",
+      "source": {
+        "url": "https://www.benzinga.com/25/02/43856681/bloom-energy-strengthens-10-year-equinix-partnership-deploying-next-gen-fuel-cells-for-data-center-power",
+        "note": "Benzinga, 20 February 2025 (10-year partnership expansion beyond 100 MW), read via search summary 2026-11-12"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/",
+      "note": "The Register, 14 August 2025, read via search summary 2026-11-12"
+    },
+    {
+      "url": "https://www.benzinga.com/25/02/43856681/bloom-energy-strengthens-10-year-equinix-partnership-deploying-next-gen-fuel-cells-for-data-center-power",
+      "note": "Benzinga, 20 February 2025, read via search summary 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "site-by-site capacity list",
+      "why": "Equinix publishes per-site capacity only in investor materials not yet read",
+      "next_action": "Read Equinix investor/briefing materials and list each site"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}

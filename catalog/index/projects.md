@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-232 project records (one per named project or plant, schema `schema/project.schema.json`).
+234 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -553,6 +553,21 @@ Technologies: h2-methane-pyrolysis
 Status: **under-construction** | Country: SE
 integrated green hydrogen, iron and steel plant; about USD 7 bn raised; on track for startup in 2026 with about 2.5 Mt/yr initial capacity scaling toward 5 Mt/yr by 2030; EUR 975 m completion round launched Oct 2025
 Technologies: h2-dri
+
+## IDC: Data centres
+
+### Google-Kairos Power SMR fleet agreement (google-kairos-power-smr-fleet)
+Status: **FID** | Country: US
+The first corporate agreement for multiple deployments of a single advanced reactor design in the United States: a master plant development agreement under which Kairos Power develops, constructs and operates up to 500 MW of KP-FHR advanced reactors and sells energy and environmental attributes to Google through PPAs, sited in territories serving Google data centres.
+Technologies: idc-smr-fuel-cell-ppa, pwr-microreactors
+Capacity: contracted advanced-nuclear capacity: 500 MW
+
+### Equinix Bloom Energy fuel-cell programme (equinix-bloom-fuel-cell-programme)
+Status: **operating** | Country: US
+Equinix's decade-long partnership with Bloom Energy, expanded in 2025, deploying more than 100 MW of natural-gas solid-oxide fuel cells at about 19 data centres as on-site generation that bypasses grid interconnection queues and improves power reliability for colocation customers.
+Technologies: idc-smr-fuel-cell-ppa
+Capacity: fuel-cell capacity deployed:  MW
+Recorded gaps: site-by-site capacity list
 
 ## MAT: Materials and integrity
 

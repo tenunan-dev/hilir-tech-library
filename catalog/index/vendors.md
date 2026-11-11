@@ -616,6 +616,7 @@ batch of this directory.
 - **DIG** (1): Yokogawa
 - **ELE** (4): Eaton Crouse-Hinds; nVent; nVent ERICO; Prysmian
 - **HSE** (1): Flare Ventures
+- **IDC** (4): Boyd; CoolIT Systems; Motivair; Rittal
 - **INS** (1): Yokogawa
 - **REF** (1): Yokogawa
 
@@ -629,4 +630,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-305 of 334 cards list at least one directory vendor.
+307 of 336 cards list at least one directory vendor.

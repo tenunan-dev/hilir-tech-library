@@ -3,15 +3,16 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-825 missing inputs on 275 cards; 0 register technologies have no card yet.
+829 missing inputs on 277 cards; 21 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 659 |
+| not_in_sources_read | 662 |
 | general_knowledge_only | 140 |
+| no_card_yet | 21 |
 | paid_source | 12 |
 | source_unreachable | 11 |
-| status_unchecked | 3 |
+| status_unchecked | 4 |
 
 ## CCS cards
 
@@ -286,6 +287,15 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [Process hazard analysis (HAZOP, LOPA, QRA)](technologies-HSE.md#hse-pha-hazop-lopa-qra) | capital cost and operating or unit cost, with dollar year and basis (costs) | No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. | arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open)<br>Licensor and EPC studies; paid cost databases are catalog-only (paid)<br>OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked) | Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source. |
 | [Process hazard analysis (HAZOP, LOPA, QRA)](technologies-HSE.md#hse-pha-hazop-lopa-qra) | named plants or projects with capacity and year (reference_plants) | The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. | Licensor and operator press releases for the suppliers listed (open) | Add one or two plants with country, capacity and start-up year. |
 | [Process hazard analysis (HAZOP, LOPA, QRA)](technologies-HSE.md#hse-pha-hazop-lopa-qra) | TRL with a cited source (trl) | The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. | IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open) | Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card. |
+
+## IDC cards
+
+| Technology | Missing | Why | Where to get it | Next action |
+| --- | --- | --- | --- | --- |
+| [Direct-to-chip liquid cooling (cold plates and CDUs)](technologies-IDC.md#idc-direct-to-chip-liquid-cooling) | installed cost per kW of cooling capacity, with dollar year (costs) | Vendor pages do not publish CDU prices. | Uptime Institute and industry cost surveys; vendor budgetary quotes (open) | Add cost figures with dollar year and basis. |
+| [Direct-to-chip liquid cooling (cold plates and CDUs)](technologies-IDC.md#idc-direct-to-chip-liquid-cooling) | PUE delta versus air-cooled baseline at a given rack density (performance) | Not stated on the pages read. | Uptime Institute / vendor case studies (open) | Add measured PUE deltas with basis. |
+| [SMR and fuel-cell power purchase for data centres](technologies-IDC.md#idc-smr-fuel-cell-ppa) | PPA price ranges for SMR and fuel-cell power, with dollar year (costs) | PPA prices are commercially confidential. | Disclosure filings and rate-case documents where public (open) | Add price ranges where disclosed. |
+| [SMR and fuel-cell power purchase for data centres](technologies-IDC.md#idc-smr-fuel-cell-ppa) | first Hermes unit start-up date and Oklo Aurora Aurora-Inn dates (reference_plants) | Dates move with licensing progress. | kairospower.com and oklo.com newsroom (open) | Re-check dates each quarter. |
 
 ## INS cards
 
@@ -912,3 +922,4 @@ of each card in catalog/technologies/ and from register entries without a card. 
 
 See [technology-register.md](technology-register.md) for suppliers and maturity.
 
+- **IDC** (21): Hyperscale data centre siting and power procurement; AI-training and inference load profiles; Data centre energy and water benchmarking (PUE/WUE); Utility feed and on-site substation for data centres; Behind-the-meter gas generation for data centres; Fuel-cell power for data centres; On-site solar plus battery storage for data centres; Data centre UPS systems (double-conversion, lithium, flywheel); Medium-voltage switchgear and busway in the data hall; Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Air cooling (CRAH/CRAC, hot/cold aisle containment); Immersion cooling; Rear-door heat exchangers; Free cooling and economisers; District heating tie-ins from data centres; Data centre demand response and flexible load; Battery storage for data centre load smoothing; Modular and prefabricated data halls; Data centre commissioning and integrated systems testing; DCIM and digital twins for data centres; Liquid-cooling leak detection and monitoring

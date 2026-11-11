@@ -65,7 +65,7 @@ class Graph:
             self.edges.setdefault((src, dst, rel), {"src": src, "dst": dst, "rel": rel, "weight": weight, "props": props})
 
 
-SECTOR_CODES = {"UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS"}
+SECTOR_CODES = {"UPS", "MID", "GAS", "REF", "PCH", "PWR", "H2", "CCS", "IDC"}
 
 
 def code_node(code):

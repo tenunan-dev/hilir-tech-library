@@ -411,3 +411,35 @@ CIV:
     - Structural fireproofing and passive fire protection | C | AkzoNobel (Chartek), Hempel, Carboline
     - Seismic design of process facilities | C | EPC contractors and structural consultants
     - Heavy lift, transport and temporary works | C | Mammoet, Sarens, Heerema
+IDC:
+  Siting and demand:
+    - Hyperscale data centre siting and power procurement | C | Hyperscalers (Google, Microsoft, AWS, Meta), colocation operators (Equinix, Digital Realty, Vantage, AirTrunk)
+    - AI-training and inference load profiles | C | Hyperscaler engineering groups, GPU cluster integrators
+    - Data centre energy and water benchmarking (PUE/WUE) | C | Uptime Institute, LBNL, EPRI
+  Power supply:
+    - Utility feed and on-site substation for data centres | C | ABB, Hitachi Energy, Eaton, Schneider Electric
+    - Behind-the-meter gas generation for data centres | C | GE Vernova, Caterpillar, Cummins, Solar Turbines
+    - SMR and fuel-cell power purchase for data centres | D | Kairos Power (Google PPA), Bloom Energy (Equinix), Oklo, Westinghouse eVinci, X-energy
+    - Fuel-cell power for data centres | D | Bloom Energy (Equinix), Plug Power
+    - On-site solar plus battery storage for data centres | C | SunPower, Sungrow, CATL, Tesla Energy
+  Power distribution:
+    - Data centre UPS systems (double-conversion, lithium, flywheel) | C | Vertiv, Schneider Electric, Eaton, ABB, Legrand
+    - Medium-voltage switchgear and busway in the data hall | C | ABB, Eaton, Schneider Electric, Anord Mardix
+    - Rack power distribution (PDU, 48 V DC and 415 V AC architectures) | C | Vertiv, Schneider Electric, Raritan/Legrand
+  Cooling:
+    - Air cooling (CRAH/CRAC, hot/cold aisle containment) | C | Vertiv, Schneider Electric, Rittal, Stulz
+    - Direct-to-chip liquid cooling (cold plates and CDUs) | D | Vertiv, CoolIT, Boyd, Motivair, Delta
+    - Immersion cooling | P | GRC, LiquidStack, Submer, Asperitas
+    - Rear-door heat exchangers | D | Vertiv, nVent, Rittal
+    - Free cooling and economisers | C | Vertiv, Schneider Electric, Munters
+  Heat reuse:
+    - District heating tie-ins from data centres | C | Nordic operators (Fortum, Vattenfall, Halmstad), Meta Odense
+  Grid interaction:
+    - Data centre demand response and flexible load | C | Enel X, Centrica, National Grid ESO programmes
+    - Battery storage for data centre load smoothing | C | CATL, Sungrow, Fluence, Tesla Energy
+  Construction and delivery:
+    - Modular and prefabricated data halls | C | Vertiv, Schneider Electric (Smart Bunker), Huawei
+    - Data centre commissioning and integrated systems testing | C | Commissioning agents (Cushman & Wakefield, EYP/Leidos)
+  Digital:
+    - DCIM and digital twins for data centres | C | Schneider Electric (EcoStruxure), Vertiv, Sunbird, Rigado
+    - Liquid-cooling leak detection and monitoring | D | Vertiv, RLE Technologies, Aquilar

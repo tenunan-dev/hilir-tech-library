@@ -1,0 +1,179 @@
+{
+  "id": "idc-direct-to-chip-liquid-cooling",
+  "name": "Direct-to-chip liquid cooling (cold plates and CDUs)",
+  "aliases": [
+    "Direct-to-chip cooling",
+    "DTC cooling",
+    "cold plate cooling"
+  ],
+  "sector": "IDC",
+  "category": "Cooling",
+  "applications": [
+    "AI training clusters",
+    "HPC",
+    "high-density colocation racks",
+    "edge data centres"
+  ],
+  "maturity": "demonstration",
+  "principle": "Cold plates mounted on CPUs and GPUs carry coolant to a coolant distribution unit (CDU) that rejects the heat to facility water or room air, decoupling the server loop from the building loop. Air cooling tops out around 40 to 60 kW per rack with containment; liquid cooling carries AI-class racks of 80 kW to 120 kW and beyond. The Vertiv CoolChip family spans 70 kW to 2.3 MW per unit with liquid-to-air and liquid-to-liquid exchangers, redundant pumps, integrated filtration and leak detection.",
+  "process_steps": [
+    {
+      "id": "PLATE",
+      "name": "Cold plates absorb chip heat",
+      "equipment": [
+        "cold plates on CPU/GPU",
+        "server manifolds and quick disconnects"
+      ],
+      "to": [
+        "CDU"
+      ]
+    },
+    {
+      "id": "CDU",
+      "name": "CDU isolates and conditions the loops",
+      "equipment": [
+        "coolant distribution unit (liquid-to-liquid or liquid-to-air)",
+        "redundant pumps",
+        "50/25-micron filter",
+        "flow and leak monitoring"
+      ],
+      "to": [
+        "FAC"
+      ]
+    },
+    {
+      "id": "FAC",
+      "name": "Facility water rejects the heat",
+      "equipment": [
+        "facility water loop",
+        "chiller or dry cooler",
+        "cooling tower where water is available"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "cold plates and server manifolds",
+    "coolant distribution unit (CDU)",
+    "facility water loop and heat rejection",
+    "leak detection and coolant quality management"
+  ],
+  "suppliers": [
+    {
+      "name": "Vertiv",
+      "product": "CoolChip CDU 70/121/600/1350/2300 (direct-to-chip and RDHx)"
+    },
+    {
+      "name": "CoolIT Systems",
+      "product": "cold plates and rack CDUs"
+    },
+    {
+      "name": "Boyd",
+      "product": "liquid cooling loops and cold plates"
+    },
+    {
+      "name": "Motivair",
+      "product": "CDUs and facility chillers for high-density cooling"
+    },
+    {
+      "name": "Rittal",
+      "product": "LCP rack cooling units"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "CDU capacity range, Vertiv CoolChip family",
+      "unit": "kW per unit",
+      "low": 70,
+      "high": 2300,
+      "basis": "CDU 70 at 11 C approach temperature differential (liquid-to-air) up to CDU 2300 at 4 C ATD (liquid-to-liquid, in-row)",
+      "source": {
+        "url": "https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu",
+        "note": "Vertiv CoolChip CDU product page, read 2026-11-12"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "smallest liquid-to-air model capacity",
+      "unit": "kW",
+      "basis": "CDU 70: liquid-to-air, in-row, works without facility water so liquid-cooled servers can sit in an existing air-cooled hall",
+      "source": {
+        "url": "https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu",
+        "note": "Vertiv CoolChip CDU product page, read 2026-11-12"
+      },
+      "year": 2026,
+      "low": 70,
+      "high": 70
+    },
+    {
+      "metric": "in-rack liquid-to-liquid model capacity",
+      "unit": "kW",
+      "basis": "CDU 121: 4U in-rack, liquid-to-liquid at 4 C ATD, 174 x 445 x 868 mm",
+      "source": {
+        "url": "https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu",
+        "note": "Vertiv CoolChip CDU product page, read 2026-11-12"
+      },
+      "year": 2026,
+      "low": 121,
+      "high": 121
+    }
+  ],
+  "advantages": [
+    "Carries AI-class rack densities that air containment cannot",
+    "Liquid-to-air CDUs retrofit into existing halls",
+    "Precise loop control reduces thermal shock to CPUs/GPUs"
+  ],
+  "limitations": [
+    "Requires server-level plumbing, quick disconnects and coolant chemistry management",
+    "Facility-water models need plant changes; leak detection is mandatory for production",
+    "Standards for coolants and connections are still consolidating"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu",
+      "note": "Vertiv CoolChip CDU product page (five models, DTC and RDHx support), read 2026-11-12"
+    },
+    {
+      "url": "https://www.vertiv.com/en-emea/about/news-and-events/news-releases/2026/vertiv-expands-liquid-cooling-portfolio-in-emea-to-accelerate-ai-ready-data-centre-deployments",
+      "note": "Vertiv EMEA liquid-cooling portfolio expansion release, 2026 (portfolio positioning for AI-ready deployments), cited via search summary 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per kW of cooling capacity, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor pages do not publish CDU prices.",
+      "where": [
+        {
+          "hint": "Uptime Institute and industry cost surveys; vendor budgetary quotes",
+          "access": "open"
+        }
+      ],
+      "action": "Add cost figures with dollar year and basis."
+    },
+    {
+      "field": "performance",
+      "item": "PUE delta versus air-cooled baseline at a given rack density",
+      "reason_code": "not_in_sources_read",
+      "reason": "Not stated on the pages read.",
+      "where": [
+        {
+          "hint": "Uptime Institute / vendor case studies",
+          "access": "open"
+        }
+      ],
+      "action": "Add measured PUE deltas with basis."
+    }
+  ],
+  "reference_plants": [],
+  "trl": {
+    "low": 7,
+    "high": 8,
+    "source": {
+      "url": "https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu",
+      "note": "Production product family shipping for AI deployments (vendor catalogue) \u2014 indicative TRL 7-8, library's own judgement, read 2026-11-12"
+    }
+  }
+}

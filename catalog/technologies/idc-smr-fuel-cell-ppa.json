@@ -1,0 +1,167 @@
+{
+  "id": "idc-smr-fuel-cell-ppa",
+  "name": "SMR and fuel-cell power purchase for data centres",
+  "aliases": [
+    "nuclear PPA for data centres",
+    "fuel-cell PPA for data centres",
+    "advanced nuclear for data centres"
+  ],
+  "sector": "IDC",
+  "category": "Power supply",
+  "applications": [
+    "hyperscale data centre power procurement",
+    "24/7 carbon-free energy programmes",
+    "AI campus build-outs"
+  ],
+  "maturity": "demonstration",
+  "principle": "Hyperscalers contract firm clean power at the plant level rather than only grid certificates. Two families lead: advanced reactors sold under long PPAs (Google and Kairos Power's master plant development agreement for up to 500 MW of fluoride-salt-cooled high-temperature reactors, first unit by 2030 and the fleet by 2035, sited in territories serving Google data centres) and on-site solid-oxide fuel cells (Equinix and Bloom Energy's decade-long partnership now above 100 MW across about 19 data centres, running on natural gas today with a hydrogen roadmap). Both convert power procurement from a utility question into a contract-structure question.",
+  "process_steps": [
+    {
+      "id": "DEMAND",
+      "name": "Data centre load profile and clean-energy targets set the requirement",
+      "equipment": [
+        "energy and sustainability targets (24/7 CFE)"
+      ],
+      "to": [
+        "CONTRACT"
+      ]
+    },
+    {
+      "id": "CONTRACT",
+      "name": "Master plant or PPA structure agreed with the developer",
+      "equipment": [
+        "master plant development agreement (Kairos model)",
+        "power purchase agreement with environmental attributes"
+      ],
+      "to": [
+        "BUILD"
+      ]
+    },
+    {
+      "id": "BUILD",
+      "name": "Generation built inside or near the serving territory",
+      "equipment": [
+        "KP-FHR reactor units",
+        "solid-oxide fuel cell blocks"
+      ],
+      "to": [
+        "OPERATE"
+      ]
+    },
+    {
+      "id": "OPERATE",
+      "name": "Firm 24/7 power delivered to the data centre",
+      "equipment": [
+        "grid or direct interconnection"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "advanced reactor units (KP-FHR and peers)",
+    "solid-oxide fuel cell blocks (Bloom Energy)",
+    "interconnection and power path"
+  ],
+  "suppliers": [
+    {
+      "name": "Kairos Power",
+      "product": "KP-FHR advanced reactors under master plant development agreements"
+    },
+    {
+      "name": "Bloom Energy",
+      "product": "solid-oxide fuel cells for on-site data centre power"
+    },
+    {
+      "name": "Oklo",
+      "product": "Aurora fast microreactor PPAs"
+    },
+    {
+      "name": "Westinghouse Electric Company",
+      "product": "eVinci microreactor programme"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "contracted advanced-nuclear capacity, Google-Kairos fleet",
+      "unit": "MW",
+      "basis": "up to 500 MW by 2035 under a master plant development agreement signed 14 October 2024; first deployment targeted by 2030",
+      "source": {
+        "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+        "note": "Kairos Power announcement, read 2026-11-12"
+      },
+      "year": 2024,
+      "low": 500,
+      "high": 500
+    },
+    {
+      "metric": "fuel-cell capacity deployed for Equinix",
+      "unit": "MW",
+      "low": 100,
+      "high": 100,
+      "basis": "more than 100 MW of Bloom solid-oxide fuel cells across about 19 Equinix data centres, under a partnership running since 2015 and expanded in 2025",
+      "source": {
+        "url": "https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/",
+        "note": "The Register, 14 August 2025 (Equinix power deals), read via search summary 2026-11-12"
+      },
+      "year": 2025
+    }
+  ],
+  "advantages": [
+    "Firm 24/7 carbon-free power that certificates alone cannot buy",
+    "Contract structure (master plant agreements) spreads deployment risk across a fleet",
+    "Fuel cells bypass interconnection queues entirely"
+  ],
+  "limitations": [
+    "Advanced-reactor deployments wait on NRC licensing and first-of-a-kind execution (first unit 2030)",
+    "Fuel cells on natural gas carry Scope 3 emissions until hydrogen-ready operation",
+    "Long PPAs need investment-grade counterparties"
+  ],
+  "sources": [
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "note": "Kairos Power announcement (14 October 2024): master plant development agreement, KP-FHR, first deployment by 2030, fleet by 2035, Hermes NRC permit 2023, read 2026-11-12"
+    },
+    {
+      "url": "https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/",
+      "note": "The Register (14 August 2025): Equinix agreements including more than 100 MW of Bloom solid-oxide fuel cells, read via search summary 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "PPA price ranges for SMR and fuel-cell power, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "PPA prices are commercially confidential.",
+      "where": [
+        {
+          "hint": "Disclosure filings and rate-case documents where public",
+          "access": "open"
+        }
+      ],
+      "action": "Add price ranges where disclosed."
+    },
+    {
+      "field": "reference_plants",
+      "item": "first Hermes unit start-up date and Oklo Aurora Aurora-Inn dates",
+      "reason_code": "status_unchecked",
+      "reason": "Dates move with licensing progress.",
+      "where": [
+        {
+          "hint": "kairospower.com and oklo.com newsroom",
+          "access": "open"
+        }
+      ],
+      "action": "Re-check dates each quarter."
+    }
+  ],
+  "reference_plants": [],
+  "trl": {
+    "low": 6,
+    "high": 9,
+    "source": {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "note": "Fuel cells commercial (TRL 9, operating at Equinix since 2015); advanced reactors at licensing/first-build (TRL 6-7) — read 2026-11-12"
+    }
+  }
+}

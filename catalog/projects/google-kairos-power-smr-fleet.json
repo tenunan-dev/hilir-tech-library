@@ -1,0 +1,79 @@
+{
+  "id": "google-kairos-power-smr-fleet",
+  "name": "Google-Kairos Power SMR fleet agreement",
+  "aliases": [
+    "Kairos-Google master plant development agreement"
+  ],
+  "project_type": "greenfield",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "US",
+  "location": "First deployment in a territory serving Google data centres; Hermes demonstrations in Oak Ridge, Tennessee",
+  "status": "FID",
+  "description": "The first corporate agreement for multiple deployments of a single advanced reactor design in the United States: a master plant development agreement under which Kairos Power develops, constructs and operates up to 500 MW of KP-FHR advanced reactors and sells energy and environmental attributes to Google through PPAs, sited in territories serving Google data centres.",
+  "capacities": [
+    {
+      "metric": "contracted advanced-nuclear capacity",
+      "value": 500,
+      "unit": "MW",
+      "basis": "up to 500 MW deployed by 2035; first deployment targeted by 2030",
+      "source": {
+        "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+        "note": "Kairos Power announcement, read 2026-11-12"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Kairos Power",
+      "vendor_id": "kairos-power",
+      "role": "developer, constructor and operator"
+    }
+  ],
+  "offtakers": [
+    {
+      "name": "Google",
+      "role": "energy and environmental attributes purchaser (PPA)"
+    }
+  ],
+  "technologies": [
+    "idc-smr-fuel-cell-ppa",
+    "pwr-microreactors"
+  ],
+  "milestones": [
+    {
+      "event": "master plant development agreement signed",
+      "date": "2024-10-14",
+      "source": {
+        "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+        "note": "Kairos Power announcement, read 2026-11-12"
+      }
+    },
+    {
+      "event": "Hermes demonstration reactor NRC construction permit (first non-water-cooled US reactor approval in over 50 years)",
+      "date": "2023",
+      "source": {
+        "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+        "note": "Kairos Power announcement, read 2026-11-12"
+      }
+    },
+    {
+      "event": "first commercial deployment target",
+      "date": "2030",
+      "source": {
+        "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+        "note": "Kairos Power announcement, read 2026-11-12"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "note": "Kairos Power announcement of the Google agreement, read 2026-11-12"
+    }
+  ],
+  "last_reviewed": "2026-11-12"
+}
