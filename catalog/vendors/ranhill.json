@@ -1,0 +1,25 @@
+{
+  "id": "ranhill",
+  "name": "Ranhill Utilities",
+  "country": "MY",
+  "roles": [
+    "operator",
+    "epc"
+  ],
+  "categories": [
+    "operator",
+    "plant-epc"
+  ],
+  "description": "Malaysian water and wastewater utility (Johor concession) and EPC contractor.",
+  "technologies": [
+    "wwt-activated-sludge"
+  ],
+  "url": "https://www.ranhill.com.my/",
+  "sources": [
+    {
+      "url": "https://www.ranhill.com.my/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

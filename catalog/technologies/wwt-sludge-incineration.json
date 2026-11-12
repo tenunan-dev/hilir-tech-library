@@ -1,0 +1,124 @@
+{
+  "id": "wwt-sludge-incineration",
+  "name": "Sludge incineration and co-incineration",
+  "aliases": [
+    "sludge mono-incineration",
+    "fluidised bed incineration"
+  ],
+  "sector": "WWT",
+  "category": "Sludge and biogas",
+  "applications": [
+    "urban plants with no land for biosolids",
+    "phosphorus-bearing ash recovery (mono-incineration)"
+  ],
+  "maturity": "commercial",
+  "principle": "Published practice: dewatered sludge is fired in fluidised-bed or multiple-hearth furnaces (self-sustaining above ~28% DS with heat recovery to steam/hot flue gas); flue gas cleaning (SNCR, fabric filters, wet scrubbers) meets EU IED; mono-ash retains phosphorus for recovery (e.g. EasyMining Ash2Product); co-incineration routes sludge to cement kilns or coal plants.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Dewatered sludge feed",
+      "equipment": [
+        "piston pumps or belt feeders"
+      ],
+      "to": [
+        "FBC"
+      ],
+      "streams": {
+        "FBC": "sludge fuel"
+      }
+    },
+    {
+      "id": "FBC",
+      "name": "Fluidised-bed incineration",
+      "equipment": [
+        "fluidised-bed furnace (850+ C)",
+        "sand bed"
+      ],
+      "to": [
+        "FGT"
+      ],
+      "streams": {
+        "FGT": "hot flue gas"
+      }
+    },
+    {
+      "id": "FGT",
+      "name": "Flue gas treatment",
+      "equipment": [
+        "SNCR, fabric filter, wet scrubber stages"
+      ],
+      "to": [
+        "STACK"
+      ],
+      "streams": {
+        "STACK": "clean gas"
+      }
+    },
+    {
+      "id": "STACK",
+      "name": "Stack and monitoring",
+      "equipment": [
+        "CEMS"
+      ]
+    },
+    {
+      "id": "ASH",
+      "name": "Ash handling and P recovery (option)",
+      "equipment": [
+        "ash silos",
+        "Ash2Product-type recovery"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "fluidised-bed furnace",
+    "flue gas treatment",
+    "ash handling"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "sludge incineration operations"
+    },
+    {
+      "name": "Hitachi Zosen",
+      "product": "sludge incineration plants"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "furnace temperature",
+      "unit": "C",
+      "low": 850,
+      "high": 950,
+      "basis": "published fluidised-bed operation",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published practice, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "incineration portfolio context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per t DS, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

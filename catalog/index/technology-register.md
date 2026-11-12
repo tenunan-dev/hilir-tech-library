@@ -1,6 +1,6 @@
 # Technology register
 
-401 technologies across oil, gas, petrochemicals and new energy; 351 have a technology card so far.
+401 technologies across oil, gas, petrochemicals and new energy; 376 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -461,37 +461,37 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
-| Physical and chemical treatment | Screening, grit removal and equalisation | commercial | Andritz, Vulcan Industries, Hydro International |  |
-| Physical and chemical treatment | Dissolved air flotation (DAF) | commercial | Veolia, FRC, Nijhuis/Desotec, Evoqua |  |
-| Physical and chemical treatment | Coagulation-flocculation and chemical precipitation (lime, sulphide) | commercial | Veolia, Chemtrade, Kemira (chemicals) |  |
-| Physical and chemical treatment | Lamella and high-rate clarifiers | commercial | Veolia, WesTech, Evoqua |  |
-| Physical and chemical treatment | Oil-water separation and produced-water treatment | commercial | Siemens/SLB produced-water, Frames, CETCO |  |
-| Biological treatment | Conventional activated sludge and oxidation ditches | commercial | Municipal EPCs (AECOM, Black & Veatch), Nijhuis |  |
-| Biological treatment | Sequencing batch reactors (SBR) | commercial | Veolia, Aqua-Aerobic, EnviroSim associates (simulators) |  |
+| Physical and chemical treatment | Screening and grit removal | commercial | Andritz, Vulcan Industries, Hydro International | [card](technologies-WWT.md#wwt-screening-grit) |
+| Physical and chemical treatment | Dissolved air flotation (DAF) | commercial | Veolia, FRC, Nijhuis/Desotec, Evoqua | [card](technologies-WWT.md#wwt-daf) |
+| Physical and chemical treatment | Coagulation-flocculation and chemical precipitation | commercial | Veolia, Chemtrade, Kemira (chemicals) | [card](technologies-WWT.md#wwt-coagulation-precipitation) |
+| Physical and chemical treatment | Lamella and high-rate clarifiers | commercial | Veolia, WesTech, Evoqua | [card](technologies-WWT.md#wwt-lamella-clarifier) |
+| Physical and chemical treatment | Produced-water treatment (oil and gas fields) | commercial | Siemens/SLB produced-water, Frames, CETCO | [card](technologies-WWT.md#wwt-produced-water-treatment) |
+| Biological treatment | Conventional activated sludge | commercial | Municipal EPCs (AECOM, Black & Veatch), Nijhuis | [card](technologies-WWT.md#wwt-activated-sludge) |
+| Biological treatment | Sequencing batch reactor (SBR) | commercial | Veolia, Aqua-Aerobic, EnviroSim associates (simulators) | [card](technologies-WWT.md#wwt-sbr) |
 | Biological treatment | Aerobic granular sludge treatment (Nereda) | commercial | Royal HaskoningDHV (licensor) | [card](technologies-WWT.md#wwt-aerobic-granular-sludge) |
-| Biological treatment | Moving bed biofilm reactors (MBBR/IFAS) | commercial | Veolia/AnoxKaldnes, Headworks, WABAG |  |
+| Biological treatment | Moving bed biofilm reactor (MBBR/IFAS) | commercial | Veolia/AnoxKaldnes, Headworks, WABAG | [card](technologies-WWT.md#wwt-mbbr) |
 | Biological treatment | Membrane bioreactor (MBR) wastewater treatment | commercial | Kubota, Suez (ZeeWeed), Toray, Mitsubishi Chemical Aqua | [card](technologies-WWT.md#wwt-membrane-bioreactor) |
 | Biological treatment | Trickling filters and rotating biological contactors | commercial | Legacy municipal, WesTech |  |
-| Biological treatment | Biological nutrient removal (nitrification, denitrification, Bio-P) | commercial | Black & Veatch, Jacobs (biowise), Veolia |  |
-| Anaerobic treatment | Upflow anaerobic sludge blanket (UASB/EGSB) | commercial | Paques, Biothane (Veolia), Hydroxy / Ecolab? |  |
+| Biological treatment | Biological nutrient removal (BNR) | commercial | Black & Veatch, Jacobs (biowise), Veolia | [card](technologies-WWT.md#wwt-bnr) |
+| Anaerobic treatment | Upflow anaerobic sludge blanket (UASB/EGSB) | commercial | Paques, Biothane (Veolia), Hydroxy / Ecolab? | [card](technologies-WWT.md#wwt-uasb) |
 | Anaerobic treatment | Internal-circulation anaerobic reactor (Paques BIOPAQ IC) | commercial | Paques (licensor) | [card](technologies-WWT.md#wwt-anaerobic-internal-circulation) |
-| Anaerobic treatment | Anaerobic membrane bioreactors (AnMBR) | demonstration | Kubota, Veolia, ADI Systems |  |
-| Anaerobic treatment | Anaerobic digestion of sludge and organics (mesophilic/thermophilic) | commercial | Veolia, WABAG, Xergi, BTG |  |
-| Membrane and reuse | Microfiltration and ultrafiltration pretreatment | commercial | Suez (ZeeWeed), Toray, DuPont (IntegraPak) |  |
+| Anaerobic treatment | Anaerobic membrane bioreactor (AnMBR) | demonstration | Kubota, Veolia, ADI Systems | [card](technologies-WWT.md#wwt-anmbr) |
+| Anaerobic treatment | Anaerobic sludge digestion (mesophilic/thermophilic) | commercial | Veolia, WABAG, Xergi, BTG | [card](technologies-WWT.md#wwt-sludge-digestion) |
+| Membrane and reuse | Microfiltration and ultrafiltration pretreatment | commercial | Suez (ZeeWeed), Toray, DuPont (IntegraPak) | [card](technologies-WWT.md#wwt-uf-pretreatment) |
 | Membrane and reuse | Reverse-osmosis water reuse train (NEWater-style) | commercial | DuPont FilmTec, Hydranautics (Nitto), Toray, Suez | [card](technologies-WWT.md#wwt-ro-reuse-train) |
-| Membrane and reuse | Direct and indirect potable reuse schemes | commercial | Singapore PUB (NEWater), San Diego Pure Water, WateReuse |  |
-| Membrane and reuse | Nanofiltration for selective separations | commercial | DuPont FilmTec NF, Toray, Synder |  |
-| Membrane and reuse | Forward osmosis | pilot | Modern Water, Oasys Water |  |
-| Disinfection and advanced oxidation | UV disinfection (low-pressure, medium-pressure, LED) | commercial | Trojan Technologies, Xylem (Wedeco), Evoqua |  |
-| Disinfection and advanced oxidation | Ozone and ozone-biologically active filtration | commercial | Xylem (Wedeco), Primozone, Wedeco/ITT legacy |  |
-| Disinfection and advanced oxidation | Advanced oxidation (OH radical, persulfate, photo-Fenton) | demonstration | Xylem, Evoqua, Hydroxyl systems |  |
+| Membrane and reuse | Potable reuse schemes (IPR/DPR) | commercial | Singapore PUB (NEWater), San Diego Pure Water, WateReuse | [card](technologies-WWT.md#wwt-potable-reuse-schemes) |
+| Membrane and reuse | Nanofiltration for selective separations | commercial | DuPont FilmTec NF, Toray, Synder | [card](technologies-WWT.md#wwt-nanofiltration) |
+| Membrane and reuse | Forward osmosis | pilot | Modern Water, Oasys Water | [card](technologies-WWT.md#wwt-forward-osmosis) |
+| Disinfection and advanced oxidation | UV disinfection | commercial | Trojan Technologies, Xylem (Wedeco), Evoqua | [card](technologies-WWT.md#wwt-uv-disinfection) |
+| Disinfection and advanced oxidation | Ozonation and ozone-BAC filtration | commercial | Xylem (Wedeco), Primozone, Wedeco/ITT legacy | [card](technologies-WWT.md#wwt-ozone) |
+| Disinfection and advanced oxidation | Advanced oxidation processes (AOP) | demonstration | Xylem, Evoqua, Hydroxyl systems | [card](technologies-WWT.md#wwt-aop) |
 | Disinfection and advanced oxidation | Chlorination and dechlorination | commercial | Municipal standard, Evoqua, ProMinent |  |
 | Sludge and biogas | Sludge thickening (gravity, DAF, drum) | commercial | Veolia, WesTech, Flottweg |  |
-| Sludge and biogas | Mechanical dewatering (centrifuge, belt press, filter press) | commercial | Alfa Laval, Andritz, Flottweg, Huber |  |
-| Sludge and biogas | Thermal drying and pyrolysis of sludge | demonstration | Andritz, Huber, Mid-South Engineering |  |
-| Sludge and biogas | Sludge incineration and co-incineration | commercial | Veolia, Hitachi Zosen, Doosan |  |
-| Sludge and biogas | Biogas upgrading to biomethane (water wash, amine, membrane, PSA) | commercial | Pentair, DMT, CarboTech, Evonik (Sepuran) |  |
-| Resource recovery and ZLD | Nutrient recovery (struvite, ammonia stripping) | demonstration | Ostara (Pearl), Paques (Thiopaq/ANAMMOX), Veolia |  |
-| Resource recovery and ZLD | Zero liquid discharge (evaporator-crystalliser trains) | commercial | Aquatech, Veolia (HPD), GE legacy, Salsnes? |  |
+| Sludge and biogas | Mechanical sludge dewatering | commercial | Alfa Laval, Andritz, Flottweg, Huber | [card](technologies-WWT.md#wwt-sludge-dewatering) |
+| Sludge and biogas | Thermal sludge drying and pyrolysis | demonstration | Andritz, Huber, Mid-South Engineering | [card](technologies-WWT.md#wwt-sludge-drying) |
+| Sludge and biogas | Sludge incineration and co-incineration | commercial | Veolia, Hitachi Zosen, Doosan | [card](technologies-WWT.md#wwt-sludge-incineration) |
+| Sludge and biogas | Biogas upgrading to biomethane | commercial | Pentair, DMT, CarboTech, Evonik (Sepuran) | [card](technologies-H2.md#h2-biogas-upgrading) |
+| Resource recovery and ZLD | Nutrient recovery (struvite and ammonia) | demonstration | Ostara (Pearl), Paques (Thiopaq/ANAMMOX), Veolia | [card](technologies-WWT.md#wwt-struvite-recovery) |
+| Resource recovery and ZLD | Zero liquid discharge (ZLD) | commercial | Aquatech, Veolia (HPD), GE legacy, Salsnes? | [card](technologies-WWT.md#wwt-zld) |
 | Resource recovery and ZLD | Brine concentration and selective salt recovery | demonstration | Aquatech, Oasys, Gradiant (ClearTreat) |  |
 | Resource recovery and ZLD | Water minimisation and reuse pinch for industry | commercial | Consultants (GHD, AECOM), Gradiant |  |

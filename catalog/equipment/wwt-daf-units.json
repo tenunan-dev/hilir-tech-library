@@ -1,0 +1,83 @@
+{
+  "id": "wwt-daf-units",
+  "name": "Dissolved air flotation units",
+  "equipment_type": "daf-units",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "DAF clarifiers: air-saturation vessels release 30-100 um microbubbles into coagulated water; floated flocs are scraped off as a thick float sludge.",
+  "subtypes": [
+    {
+      "name": "rectangular full-surface scraper DAF"
+    },
+    {
+      "name": "circular DAF"
+    },
+    {
+      "name": "multi-saturation counter-current (MSCC)"
+    }
+  ],
+  "applications": [
+    "industrial pretreatment",
+    "algae removal",
+    "sludge thickening"
+  ],
+  "specifications": [
+    {
+      "metric": "microbubble size",
+      "unit": "um",
+      "low": 30,
+      "high": 100,
+      "basis": "published DAF design range",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "Veolia DAF literature, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "hydraulic loading",
+      "unit": "m/h",
+      "low": 5,
+      "high": 15,
+      "basis": "typical design HLR",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "Veolia DAF literature, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "veolia",
+      "line": "F flotation family",
+      "models": [
+        "DAF basins with saturation vessels"
+      ],
+      "range": "5-15 m/h loading"
+    }
+  ],
+  "vendors": [
+    "veolia",
+    "evoqua"
+  ],
+  "technologies": [
+    "wwt-daf",
+    "wwt-lamella-clarifier"
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "Veolia DAF pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model flow ranges",
+      "why": "vendor model tables not read",
+      "next_action": "Read Veolia/Evoqua DAF model pages"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

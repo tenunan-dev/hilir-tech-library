@@ -1,0 +1,25 @@
+{
+  "id": "huber-se",
+  "name": "HUBER SE",
+  "country": "DE",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Headworks-to-drying wastewater equipment: ROTAMAT screens, grit treatment (Ro9), screw presses (Q-PRESS), sludge dryers (SRT).",
+  "technologies": [
+    "wwt-screening-grit",
+    "wwt-sludge-dewatering",
+    "wwt-sludge-drying"
+  ],
+  "url": "https://www.huber.de/",
+  "sources": [
+    {
+      "url": "https://www.huber.de/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

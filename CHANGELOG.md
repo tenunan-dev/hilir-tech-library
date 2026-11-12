@@ -8,6 +8,19 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.3] — 2026-11-13 — WWT phase 2: 25 more cards, 10 equipment classes, 19 vendors
+
+### Added
+
+- **21 more WWT technology cards** (physical/chemical: screening-grit, DAF, coagulation-precipitation, lamella/Actiflo, produced-water; biological: activated sludge, SBR, MBBR/IFAS, BNR; anaerobic: UASB/EGSB (Paques flow), AnMBR, sludge digestion; membrane/reuse: MF/UF pretreatment, NF, forward osmosis, potable reuse schemes (PUB NEWater framing); disinfection/AOP: UV, ozone-BAC, AOP; sludge: dewatering, drying/pyrolysis, incineration; resource/ZLD: struvite recovery (Ostara Pearl flow), ZLD (Aquatech flow)) — every card carries its structured `process_steps` block diagram, licensor-first where a licensor owns the process.
+- **Duplicate caught by the register-link gate**: biogas upgrading already existed as `h2-biogas-upgrading` — the WWT draft was deleted and the H2 card upgraded with the licensor-first DMT/Pentair PFD instead.
+- **10 WWT equipment classes** (decision #33 pattern): wwt-membrane-systems, wwt-daf-units, wwt-aeration-systems, wwt-sludge-dewatering-equipment, wwt-uv-reactors, wwt-ozone-generators, wwt-anaerobic-digesters, wwt-biogas-upgraders, wwt-evaporator-crystallisers, wwt-clarifiers-thickeners.
+- **19 vendor records**: Xylem, Evoqua, Nitto/Hydranautics, Flottweg, HUBER SE, Cambi, Xergi, DMT, Aquatech, WesTech, Trojan, Paques, Kubota (water), Royal HaskoningDHV (Nereda), Ostara, Metito, Ranhill Utilities, Indah Water Konsortium, PUB Singapore — existing Veolia/Suez/DuPont/Toray/Pentair/Alfa Laval/Andritz linked to the new equipment classes. Catalog: **491 vendors / 22 equipment classes / 368 cards**.
+
+### Fixed
+
+- dmt-cleartec.com unreachable from Mac; DMT facts pinned to dmt.nl (live). Nitto/Hydranautics site unreachable from Mac — record honestly unverified, browser-pass flagged.
+
 ## [2026.11.13.2] — 2026-11-13 — WWT sector opened: taxonomy, register, four flagship cards with licensor PFDs
 
 ### Added

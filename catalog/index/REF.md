@@ -95,7 +95,6 @@
 | [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ADIPEC](https://www.adipec.com/) | conference | me, global | mixed | catalog-only |
-| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
 | [AspenTech](https://www.aspentech.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
@@ -192,6 +191,7 @@
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
 | [WPC Energy Congress](https://www.world-petroleum.org/) | conference | global | mixed | catalog-only (unverified) |
 | [Airlines for America (A4A)](https://www.airlines.org) | association | global | open | catalog-only |
+| [Alfa Laval (separation and heat transfer)](https://www.alfalaval.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only |
 | [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | mixed | catalog-only |

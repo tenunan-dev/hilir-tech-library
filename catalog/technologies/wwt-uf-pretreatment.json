@@ -1,0 +1,126 @@
+{
+  "id": "wwt-uf-pretreatment",
+  "name": "Microfiltration and ultrafiltration pretreatment",
+  "aliases": [
+    "MF/UF",
+    "ZeeWeed UF",
+    "membrane pretreatment"
+  ],
+  "sector": "WWT",
+  "category": "Membrane and reuse",
+  "applications": [
+    "RO pretreatment in reuse plants",
+    "surface-water clarification replacement",
+    "MBR-adjacent polishing"
+  ],
+  "maturity": "commercial",
+  "principle": "Follows published licensor flows (Suez ZeeWeed, DuPont): submerged or pressurised hollow-fibre membranes with 0.02-0.1 um pores remove suspended solids, pathogens and colloids from secondary effluent, delivering a low-turbidity feed that lets downstream RO run reliably; periodic backpulse and chemically enhanced backwash maintain flux.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Feed (secondary effluent)",
+      "equipment": [
+        "feed pumps"
+      ]
+    },
+    {
+      "id": "MFUF",
+      "name": "MF/UF filtration",
+      "equipment": [
+        "hollow-fibre modules (ZeeWeed 500D/1000), 0.02-0.1 um"
+      ],
+      "to": [
+        "PERM",
+        "BW"
+      ],
+      "streams": {
+        "PERM": "low-turbidity filtrate",
+        "BW": "backpulse waste"
+      }
+    },
+    {
+      "id": "BW",
+      "name": "Backpulse and chemically enhanced backwash",
+      "equipment": [
+        "backwash pumps",
+        "CEB chemical dosing"
+      ]
+    },
+    {
+      "id": "PERM",
+      "name": "Filtrate to RO",
+      "equipment": [
+        "cartridge guard filters"
+      ]
+    },
+    {
+      "id": "CIP",
+      "name": "Cleaning in place",
+      "equipment": [
+        "CIP tank and circulation"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "hollow-fibre MF/UF modules",
+    "backwash/CEB systems",
+    "CIP skid"
+  ],
+  "suppliers": [
+    {
+      "name": "Suez",
+      "product": "ZeeWeed 500D/1000 hollow-fibre UF"
+    },
+    {
+      "name": "DuPont Water Solutions",
+      "product": "IntegraFlux UF"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "pore size",
+      "unit": "um",
+      "low": 0.02,
+      "high": 0.1,
+      "basis": "published MF/UF membrane ratings",
+      "source": {
+        "url": "https://www.suezwatertechnologies.com/",
+        "note": "ZeeWeed pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "filtrate turbidity",
+      "unit": "NTU",
+      "low": 0.05,
+      "high": 0.1,
+      "basis": "published UF filtrate quality",
+      "source": {
+        "url": "https://www.suezwatertechnologies.com/",
+        "note": "ZeeWeed pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "suez",
+      "url": "https://www.suezwatertechnologies.com/",
+      "note": "ZeeWeed portfolio pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

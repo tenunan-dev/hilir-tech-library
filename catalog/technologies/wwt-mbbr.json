@@ -1,0 +1,133 @@
+{
+  "id": "wwt-mbbr",
+  "name": "Moving bed biofilm reactor (MBBR/IFAS)",
+  "aliases": [
+    "MBBR",
+    "IFAS",
+    "AnoxKaldnes carriers"
+  ],
+  "sector": "WWT",
+  "category": "Biological treatment",
+  "applications": [
+    "retrofits to upgrade existing basins",
+    "high-load industrial effluent",
+    "cold-weather nitrification"
+  ],
+  "maturity": "commercial",
+  "principle": "Follows the Veolia/AnoxKaldnes licensor flow: protected biofilm grows on free-floating polyethylene carrier elements (K1/K3) kept moving by aeration or mixing; retention screens keep carriers in each basin; IFAS retrofits add carriers to existing activated-sludge basins to boost capacity 50-100% without new tanks.",
+  "process_steps": [
+    {
+      "id": "ANOX",
+      "name": "Pre-anoxic zone",
+      "equipment": [
+        "submersible mixers"
+      ]
+    },
+    {
+      "id": "AER",
+      "name": "Aerobic carrier zones",
+      "equipment": [
+        "K1/K3 carriers",
+        "fine-bubble aeration",
+        "carrier retention screens at each partition"
+      ],
+      "to": [
+        "FILT"
+      ],
+      "streams": {
+        "FILT": "treated flow"
+      }
+    },
+    {
+      "id": "FILT",
+      "name": "Polishing (filter or clarifier)",
+      "equipment": [
+        "sand filter or secondary clarifier"
+      ],
+      "to": [
+        "OUT",
+        "SLG"
+      ],
+      "streams": {
+        "OUT": "treated effluent",
+        "SLG": "excess sludge"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "Effluent out",
+      "equipment": [
+        "discharge"
+      ]
+    },
+    {
+      "id": "SLG",
+      "name": "Excess sludge",
+      "equipment": [
+        "sludge wasting"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "biofilm carrier elements",
+    "retention screens",
+    "aeration system"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "AnoxKaldnes MBBR carriers and process licensor"
+    },
+    {
+      "name": "Headworks BIO",
+      "product": "carrier media"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "protected biofilm area",
+      "unit": "m2/m3",
+      "low": 500,
+      "high": 800,
+      "basis": "AnoxKaldnes K1/K3 published values",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "AnoxKaldnes pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "IFAS capacity boost",
+      "unit": "x",
+      "low": 1.5,
+      "high": 2.0,
+      "basis": "published retrofit range",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "AnoxKaldnes pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "Veolia AnoxKaldnes MBBR pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

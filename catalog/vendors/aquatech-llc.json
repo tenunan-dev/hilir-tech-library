@@ -1,0 +1,25 @@
+{
+  "id": "aquatech-llc",
+  "name": "Aquatech International",
+  "country": "US",
+  "roles": [
+    "licensor",
+    "oem"
+  ],
+  "categories": [
+    "process-licensor",
+    "equipment-oem"
+  ],
+  "description": "ZLD licensor and OEM: HERO membrane concentration, MVR evaporators, crystallisers — full zero-liquid-discharge trains.",
+  "technologies": [
+    "wwt-zld"
+  ],
+  "url": "https://www.aquatech.com/",
+  "sources": [
+    {
+      "url": "https://www.aquatech.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

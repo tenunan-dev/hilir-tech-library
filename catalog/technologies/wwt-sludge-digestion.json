@@ -1,0 +1,145 @@
+{
+  "id": "wwt-sludge-digestion",
+  "name": "Anaerobic sludge digestion (mesophilic/thermophilic)",
+  "aliases": [
+    "sludge digester",
+    "mesophilic digestion",
+    "thermal hydrolysis AD"
+  ],
+  "sector": "WWT",
+  "category": "Sludge and biogas",
+  "applications": [
+    "municipal sludge stabilisation",
+    "biogas energy recovery at WWTPs",
+    "co-digestion with organics"
+  ],
+  "maturity": "commercial",
+  "principle": "Standard published practice: thickened sludge is heated and held 15-25 d (mesophilic, ~35 C) or 8-12 d (thermophilic, ~55 C) in complete-mix digesters where methanogens convert volatile solids to biogas (~60% CH4); optional thermal hydrolysis (Cambi/CNS) pretreatment raises biogas yield and dewaterability; digestate is dewatered and the biogas drives CHP or upgrading.",
+  "process_steps": [
+    {
+      "id": "THICK",
+      "name": "Sludge thickening",
+      "equipment": [
+        "gravity or DAF thickeners"
+      ],
+      "to": [
+        "DH"
+      ],
+      "streams": {
+        "DH": "thickened sludge"
+      }
+    },
+    {
+      "id": "DH",
+      "name": "Digestion (mesophilic or thermophilic)",
+      "equipment": [
+        "complete-mix digesters",
+        "heat exchangers",
+        "gas mixing"
+      ],
+      "to": [
+        "DWS",
+        "GAS"
+      ],
+      "streams": {
+        "DWS": "digested sludge",
+        "GAS": "biogas"
+      }
+    },
+    {
+      "id": "GAS",
+      "name": "Biogas use",
+      "equipment": [
+        "H2S removal",
+        "CHP engines or upgrading to biomethane"
+      ]
+    },
+    {
+      "id": "DWS",
+      "name": "Digestate dewatering",
+      "equipment": [
+        "centrifuges or belt presses"
+      ],
+      "to": [
+        "CAKE"
+      ],
+      "streams": {
+        "CAKE": "dewatered cake"
+      }
+    },
+    {
+      "id": "CAKE",
+      "name": "Cake use or disposal",
+      "equipment": [
+        "land application, drying or landfill"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "complete-mix digesters",
+    "heating and gas mixing",
+    "biogas handling",
+    "dewatering"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "digestion configurations"
+    },
+    {
+      "name": "Cambi",
+      "product": "thermal hydrolysis pretreatment"
+    },
+    {
+      "name": "Xergi",
+      "product": "digester packages"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "volatile solids destruction",
+      "unit": "%",
+      "low": 40,
+      "high": 55,
+      "basis": "published mesophilic digestion range",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published AD practice, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "biogas yield",
+      "unit": "m3/t VS destroyed",
+      "low": 700,
+      "high": 1100,
+      "basis": "published municipal sludge biogas yields",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published AD practice, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "digestion portfolio context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per t dry solids, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "wwt-bnr",
+  "name": "Biological nutrient removal (BNR)",
+  "aliases": [
+    "nitrification-denitrification",
+    "bio-P removal",
+    "A2O process"
+  ],
+  "sector": "WWT",
+  "category": "Biological treatment",
+  "applications": [
+    "effluent N and P limits",
+    "advanced municipal plants"
+  ],
+  "maturity": "commercial",
+  "principle": "Standard published configurations (A2/O, UCT, Bardenpho): anaerobic/anoxic/aerobic zone sequencing lets phosphate-accumulating organisms release and luxury-uptake phosphorus and denitrifiers reduce nitrate with influent carbon; internal mixed-liquor recirculation returns nitrified liquor to the anoxic zone. Commodity process knowledge.",
+  "process_steps": [
+    {
+      "id": "ANA",
+      "name": "Anaerobic zone (P release)",
+      "equipment": [
+        "mixers"
+      ]
+    },
+    {
+      "id": "ANOX",
+      "name": "Anoxic denitrification",
+      "equipment": [
+        "mixers",
+        "internal mixed-liquor recycle pumps"
+      ],
+      "to": [
+        "AER"
+      ],
+      "streams": {
+        "AER": "denitrified liquor"
+      }
+    },
+    {
+      "id": "AER",
+      "name": "Aerobic zone (nitrification and P uptake)",
+      "equipment": [
+        "fine-bubble aeration"
+      ],
+      "to": [
+        "SEC"
+      ],
+      "streams": {
+        "SEC": "nutrient-removed liquor"
+      }
+    },
+    {
+      "id": "SEC",
+      "name": "Secondary clarification",
+      "equipment": [
+        "clarifier"
+      ],
+      "to": [
+        "RAS"
+      ],
+      "streams": {
+        "RAS": "PAO-rich sludge"
+      }
+    },
+    {
+      "id": "RAS",
+      "name": "RAS and WAS",
+      "equipment": [
+        "RAS pumps"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "zone partitioning",
+    "internal recirculation pumps",
+    "aeration system"
+  ],
+  "suppliers": [
+    {
+      "name": "Jacobs",
+      "product": "BNR process consulting"
+    },
+    {
+      "name": "Veolia",
+      "product": "BNR configurations"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "total N to below",
+      "unit": "mg/L",
+      "low": 3,
+      "high": 10,
+      "basis": "published BNR effluent limits",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published BNR practice, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "total P to below",
+      "unit": "mg/L",
+      "low": 0.1,
+      "high": 0.3,
+      "basis": "published BNR effluent limits",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published BNR practice, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "BNR portfolio context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

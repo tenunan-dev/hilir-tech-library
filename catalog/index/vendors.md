@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-472 vendor records covering 281 technologies. One record per vendor in
+491 vendor records covering 303 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -147,6 +147,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | developer, epc, licensor | Liquid organic hydrogen carriers (MCH, DBT) |
 | [Clariant](https://www.clariant.com) | Switzerland | supplier | Cellulosic ethanol |
 | [CSIRO](https://www.csiro.au) | Australia | developer | Photocatalytic and thermochemical water splitting |
+| [DMT Environmental Technology](https://www.dmt.nl/) | NL | licensor, oem | Biogas upgrading to biomethane |
 | [Enapter](https://www.enapter.com) | Italy | oem | AEM electrolysis |
 | [Ensyn Corporation](https://www.ensyn.com) | Canada | supplier | Pyrolysis oil and hydrothermal liquefaction |
 | [European Energy](https://europeanenergy.com) | Denmark | developer | E-methanol and bio-methanol |
@@ -621,6 +622,29 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Wood](https://www.woodplc.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Zeeco](https://www.zeeco.com) | USA | oem | Flare gas recovery and zero routine flaring |
 
+## WWT: Wastewater and water reuse
+
+| Vendor | Country | Roles | Supplies |
+| --- | --- | --- | --- |
+| [Aquatech International](https://www.aquatech.com/) | US | licensor, oem | Zero liquid discharge (ZLD) |
+| [Cambi AS](https://cambi.com/) | NO | licensor | Anaerobic sludge digestion (mesophilic/thermophilic) |
+| [Evoqua Water Technologies](https://www.evoqua.com/) | US | supplier, service | Dissolved air flotation (DAF) |
+| [Flottweg SE](https://www.flottweg.com/) | DE | oem | Mechanical sludge dewatering |
+| [HUBER SE](https://www.huber.de/) | DE | oem | Screening and grit removal; Mechanical sludge dewatering; Thermal sludge drying and pyrolysis |
+| [Indah Water Konsortium](https://www.iwk.com.my/) | MY | operator | Conventional activated sludge; Sequencing batch reactor (SBR) |
+| [Kubota (Water & Environment)](https://kubota-membrane.com/) | JP | oem | Membrane bioreactor (MBR) wastewater treatment; Anaerobic membrane bioreactor (AnMBR) |
+| [Metito](https://www.metito.com/) | AE | epc, operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style) |
+| [Nitto / Hydranautics](https://www.hydranautics.com/) | JP | oem | Reverse-osmosis water reuse train (NEWater-style); Nanofiltration for selective separations |
+| [Ostara Nutrient Recovery Technologies](https://ostara.com/) | CA | licensor | Nutrient recovery (struvite and ammonia) |
+| [Paques B.V.](https://www.paques.nl/) | NL | licensor, oem | Internal-circulation anaerobic reactor (Paques BIOPAQ IC); Upflow anaerobic sludge blanket (UASB/EGSB); Nutrient recovery (struvite and ammonia) |
+| [Ranhill Utilities](https://www.ranhill.com.my/) | MY | operator, epc | Conventional activated sludge |
+| [Royal HaskoningDHV](https://www.nereda.net/) | NL | licensor, epc | Aerobic granular sludge treatment (Nereda) |
+| [Singapore PUB (National Water Agency)](https://www.pub.gov.sg/) | SG | operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style); Membrane bioreactor (MBR) wastewater treatment |
+| [Trojan Technologies](https://www.trojantechnologies.com/) | CA | oem | UV disinfection; Advanced oxidation processes (AOP) |
+| [WesTech Engineering](https://www.westech-inc.com/) | US | oem | Lamella and high-rate clarifiers; Coagulation-flocculation and chemical precipitation |
+| [Xergi A/S](https://xergi.com/) | DK | packager | Anaerobic sludge digestion (mesophilic/thermophilic) |
+| [Xylem](https://www.xylem.com/) | US | supplier, oem | Conventional activated sludge; UV disinfection; Ozonation and ozone-BAC filtration; Advanced oxidation processes (AOP) |
+
 ## Coverage queue: supplier names on cards not yet in the directory
 
 Names come from the `suppliers` lists of the technology cards (deduplicated, spelling as found).
@@ -635,7 +659,7 @@ batch of this directory.
 - **IDC** (6): Boyd; Caterpillar; CoolIT Systems; Enel X; GridBeyond; Motivair
 - **INS** (1): Yokogawa
 - **REF** (1): Yokogawa
-- **WWT** (5): Kubota; Mitsubishi Chemical Aqua Solutions; Nitto (Hydranautics); Paques; Royal HaskoningDHV
+- **WWT** (20): ADI Systems (Veolia); Aqua-Aerobic Systems; Biothane (Veolia); Cambi; CETCO; Evoqua; Flottweg; Frames Group; Headworks BIO; Hydro International; Kemira; Mitsubishi Chemical Aqua Solutions; Modern Water; Nitto (Hydranautics); Oasys Water; Ostara; Paques; Primozone; WesTech; Xergi
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
@@ -647,4 +671,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-313 of 344 cards list at least one directory vendor.
+334 of 368 cards list at least one directory vendor.

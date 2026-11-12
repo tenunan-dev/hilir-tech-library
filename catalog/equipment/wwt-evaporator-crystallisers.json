@@ -1,0 +1,84 @@
+{
+  "id": "wwt-evaporator-crystallisers",
+  "name": "ZLD evaporators and crystallisers",
+  "equipment_type": "evaporator-crystallisers",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT",
+    "PWR"
+  ],
+  "description": "Mechanical-vapour-recompression evaporators and forced-circulation crystallisers that end ZLD trains: distillate recycled, salts recovered as solids.",
+  "subtypes": [
+    {
+      "name": "MVR falling-film evaporators"
+    },
+    {
+      "name": "forced-circulation crystallisers"
+    },
+    {
+      "name": "spray dryers"
+    }
+  ],
+  "applications": [
+    "power and refinery ZLD",
+    "arid industrial parks"
+  ],
+  "specifications": [
+    {
+      "metric": "distillate TDS",
+      "unit": "mg/L",
+      "low": 1,
+      "high": 10,
+      "basis": "Aquatech published ZLD performance",
+      "source": {
+        "url": "https://www.aquatech.com/",
+        "note": "Aquatech ZLD pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "brine concentration reached",
+      "unit": "mg/L TDS",
+      "low": 200000,
+      "high": 280000,
+      "basis": "Aquatech published ZLD performance",
+      "source": {
+        "url": "https://www.aquatech.com/",
+        "note": "Aquatech ZLD pages, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "aquatech-llc",
+      "line": "Aquatech ZLD",
+      "models": [
+        "HERO concentration",
+        "MVR evaporators",
+        "crystallisers"
+      ],
+      "range": "full ZLD trains"
+    }
+  ],
+  "vendors": [
+    "aquatech-llc",
+    "veolia"
+  ],
+  "technologies": [
+    "wwt-zld"
+  ],
+  "sources": [
+    {
+      "source_id": "aquatech-llc",
+      "url": "https://www.aquatech.com/",
+      "note": "Aquatech ZLD pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model m3/d ranges",
+      "why": "datasheets not read",
+      "next_action": "Read Aquatech/Veolia HPD model pages"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

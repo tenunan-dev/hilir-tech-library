@@ -1,0 +1,24 @@
+{
+  "id": "nitto-hydranautics",
+  "name": "Nitto / Hydranautics",
+  "country": "JP",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Hydranautics (Nitto group): CPA/ESPA spiral-wound RO elements widely used in reuse trains.",
+  "technologies": [
+    "wwt-ro-reuse-train",
+    "wwt-nanofiltration"
+  ],
+  "url": "https://www.hydranautics.com/",
+  "sources": [
+    {
+      "url": "https://www.hydranautics.com/",
+      "note": "Site unreachable from Mac 2026-11-13 (connection failure) — record from indexed knowledge; verify in browser pass"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

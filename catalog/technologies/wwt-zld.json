@@ -1,0 +1,138 @@
+{
+  "id": "wwt-zld",
+  "name": "Zero liquid discharge (ZLD)",
+  "aliases": [
+    "ZLD",
+    "evaporator crystalliser",
+    "brine concentration"
+  ],
+  "sector": "WWT",
+  "category": "Resource recovery and ZLD",
+  "applications": [
+    "coal-power and refinery effluent with no outfall",
+    "arid-region industrial parks",
+    "brine minimisation"
+  ],
+  "maturity": "commercial",
+  "principle": "Licensor-first (Aquatech published trains): pretreated wastewater passes membrane concentration (RO/HERO), then mechanical vapour-recompression or falling-film evaporators, then spray-dryers or forced-circulation crystallisers; distillate is recycled to process and salts crystallise as a solid product/waste — no liquid discharge. Aquatech published performance: brine concentrated to >250,000 mg/L TDS; distillate <10 mg/L.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Membrane concentration",
+      "equipment": [
+        "RO or HERO pretreatment trains"
+      ],
+      "to": [
+        "EVAP"
+      ],
+      "streams": {
+        "EVAP": "pre-concentrated brine"
+      }
+    },
+    {
+      "id": "EVAP",
+      "name": "Evaporation (MVR/falling film)",
+      "equipment": [
+        "mechanical vapour recompression evaporators"
+      ],
+      "to": [
+        "CRYST"
+      ],
+      "streams": {
+        "CRYST": "further concentrated liquor"
+      }
+    },
+    {
+      "id": "CRYST",
+      "name": "Crystallisation",
+      "equipment": [
+        "forced-circulation crystallisers or spray dryers"
+      ],
+      "to": [
+        "SALT",
+        "DIST"
+      ],
+      "streams": {
+        "SALT": "salt solids",
+        "DIST": "distillate"
+      }
+    },
+    {
+      "id": "SALT",
+      "name": "Salt solids handling",
+      "equipment": [
+        "drying, bagging"
+      ]
+    },
+    {
+      "id": "DIST",
+      "name": "Distillate recycle",
+      "equipment": [
+        "polish, return to process"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "RO/HERO concentration",
+    "MVR evaporators",
+    "crystallisers",
+    "salt handling"
+  ],
+  "suppliers": [
+    {
+      "name": "Aquatech International",
+      "product": "ZLD trains (HERO, MVR evaporators, crystallisers)"
+    },
+    {
+      "name": "Veolia",
+      "product": "HPD evaporator-crystalliser technology"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "distillate quality",
+      "unit": "mg/L TDS",
+      "low": 1,
+      "high": 10,
+      "basis": "Aquatech published ZLD performance",
+      "source": {
+        "url": "https://www.aquatech.com/",
+        "note": "Aquatech ZLD pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "brine concentration reached",
+      "unit": "mg/L TDS",
+      "low": 200000,
+      "high": 280000,
+      "basis": "Aquatech published ZLD performance",
+      "source": {
+        "url": "https://www.aquatech.com/",
+        "note": "Aquatech ZLD pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "aquatech-llc",
+      "url": "https://www.aquatech.com/",
+      "note": "Aquatech ZLD portfolio pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

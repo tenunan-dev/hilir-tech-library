@@ -1,0 +1,24 @@
+{
+  "id": "kubota",
+  "name": "Kubota (Water & Environment)",
+  "country": "JP",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Kubota Submerged Membrane Unit (SMU) flat-plate MBR pioneer (since 1985) and AnMBR membranes.",
+  "technologies": [
+    "wwt-membrane-bioreactor",
+    "wwt-anmbr"
+  ],
+  "url": "https://kubota-membrane.com/",
+  "sources": [
+    {
+      "url": "https://kubota-membrane.com/",
+      "note": "Kubota membrane site live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

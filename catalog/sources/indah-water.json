@@ -1,0 +1,26 @@
+{
+  "name": "Indah Water Konsortium",
+  "url": "https://www.iwk.com.my/",
+  "source_type": "agency-data",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Malaysia national sewerage operator; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "indah-water",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Indah Water Konsortium",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

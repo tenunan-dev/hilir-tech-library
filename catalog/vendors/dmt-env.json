@@ -1,0 +1,25 @@
+{
+  "id": "dmt-env",
+  "name": "DMT Environmental Technology",
+  "country": "NL",
+  "roles": [
+    "licensor",
+    "oem"
+  ],
+  "categories": [
+    "process-licensor",
+    "equipment-oem"
+  ],
+  "description": "Biogas upgrading licensor (membrane, amine, water-wash skids) and H2S removal (THIOPAQ-family biology).",
+  "technologies": [
+    "h2-biogas-upgrading"
+  ],
+  "url": "https://www.dmt.nl/",
+  "sources": [
+    {
+      "url": "https://www.dmt.nl/",
+      "note": "Homepage live (dmt-cleartec.com unreachable from Mac; dmt.nl verified), read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

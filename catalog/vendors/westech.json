@@ -1,0 +1,24 @@
+{
+  "id": "westech",
+  "name": "WesTech Engineering",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Clarifier, thickener and filter equipment OEM for municipal and industrial water treatment.",
+  "technologies": [
+    "wwt-lamella-clarifier",
+    "wwt-coagulation-precipitation"
+  ],
+  "url": "https://www.westech-inc.com/",
+  "sources": [
+    {
+      "url": "https://www.westech-inc.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

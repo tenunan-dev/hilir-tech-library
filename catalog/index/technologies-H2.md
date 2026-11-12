@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- |
 | [Alkaline water electrolysis](#h2-alkaline-electrolysis) | Hydrogen production / electrolysis | commercial | 9 | Thyssenkrupp nucera (20 MW alkaline water electrolysis module); John Cockerill; LONGi Hydrogen; PERIC; Nel Hydrogen; HydrogenPro | uninstalled system capital cost (status): 500-750 USD/kW (2020$)<br>water electrolysis capex, global average (2024): 2000-2600 USD/kWe (2024$)<br>water electrolysis capex, China (2024): 600-1200 USD/kWe (2024$)<br>Cost gap: renewable vs unabated fossil hydrogen production: 1.5-8 USD/kg H2 (2024$)<br>Renewable hydrogen production cost today (implied): 4-18 USD/kg H2 (2024$) |
 | [Biogas reforming to hydrogen](#h2-biogas-reforming) | Hydrogen production / biogenic | commercial | 8 | Yara (ammonia from biomethane, Cubatão) |  |
-| [Biogas upgrading to biomethane](#h2-biogas-upgrading) | Low-carbon fuels / biogas | commercial |  | Air Liquide (register examples); Bright Biomethane (register examples); Pentair (register examples) |  |
+| [Biogas upgrading to biomethane](#h2-biogas-upgrading) | Low-carbon fuels / biogas | commercial |  | DMT Environmental Technology (membrane and amine upgrading skids); Pentair (water-wash upgrading); Air Liquide (register examples); Bright Biomethane (register examples) |  |
 | [Compressed hydrogen storage and tube trailers](#h2-compressed-storage-tube-trailers) | Hydrogen carriers and logistics / compressed gas | commercial |  | Hexagon Purus (Type 4 tube trailers); Linde (register examples; not verified) | gaseous tube-trailer delivery and dispensing cost (excluding production): 8.17-9.46 USD/kg H2 (2016$) |
 | [First-generation biofuels (ethanol, FAME biodiesel)](#h2-first-gen-biofuels) | Low-carbon fuels / biofuels | commercial |  | Raízen (register examples); POET (register examples); Neste (register examples (HVO)) |  |
 | [Fuel cells (PEM, SOFC)](#h2-fuel-cells) | Hydrogen use / power | commercial | 9 | Ballard (register examples); Toyota (register examples); Bloom Energy (SOFC (register examples)) | HD PEM fuel cell system cost, 275 kWnet Class 8 long-haul truck: 168 USD/kWnet (2016$)<br>stack share of HD fuel cell system cost: 63 % of system cost |
@@ -123,15 +123,17 @@ Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-69
 ## Biogas upgrading to biomethane
 <a id="h2-biogas-upgrading"></a>
 
-CO2 is removed from biogas to reach pipeline-grade biomethane using water scrubbing, PSA, membranes, amine scrubbing or cryogenic separation. IEA Bioenergy Task 37 lists methane slip as below 0.1% for amines, 0.5 to 1% for membranes, 1 to 2% for water scrubbing and PSA, and 2 to 4% for physical adsorption.
+Licensor-first flow (DMT/Pentair published trains): raw biogas (~60% CH4, ~1% H2S) is compressed, H2S removed biologically or on carbon, then CO2 separated by water wash, amine wash, membrane separation or PSA to 95-99% methane (grid/vehicle spec); dewpointing and odorisation complete the product. Used at WWTP digesters and farm/landfill biogas alike.
 
 ```mermaid
 flowchart LR
-    PRE["Compression and H2S/moisture removal<br/><small>compressor, activated carbon</small>"]
-    SEP["CO2 separation<br/><small>scrubber, PSA or membrane</small>"]
-    POL["Polishing and injection<br/><small>dryer, odoriser</small>"]
-    PRE --> SEP
-    SEP --> POL
+    COMP["Compression and conditioning<br/><small>compressors, condensate knock-out</small>"]
+    H2S["H2S removal<br/><small>biological desulphurisation (THIOPAQ) or activated carbon</small>"]
+    CO2["CO2 separation<br/><small>water wash, amine wash, membranes or PSA</small>"]
+    PROD["Product conditioning<br/><small>dewpointing, odorisation, calorific adjustment</small>"]
+    COMP -->|pressurised raw gas| H2S
+    H2S -->|clean gas| CO2
+    CO2 -->|biomethane| PROD
 ```
 
 **Key equipment:** biogas compressor, H2S removal, separation unit, gas dryer.
@@ -146,7 +148,7 @@ flowchart LR
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf), [2](https://www.pge.com/assets/pipeline/docs/products/biomethane/WaterChemicalScrubbing_TechnicalAnalysis.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.dmt.nl/). Last reviewed 2026-11-13.
 
 ## Compressed hydrogen storage and tube trailers
 <a id="h2-compressed-storage-tube-trailers"></a>

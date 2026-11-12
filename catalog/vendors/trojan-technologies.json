@@ -1,0 +1,24 @@
+{
+  "id": "trojan-technologies",
+  "name": "Trojan Technologies",
+  "country": "CA",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Municipal UV disinfection leader (UVSwift, UltraFlow) and UV-AOP reactors.",
+  "technologies": [
+    "wwt-uv-disinfection",
+    "wwt-aop"
+  ],
+  "url": "https://www.trojantechnologies.com/",
+  "sources": [
+    {
+      "url": "https://www.trojantechnologies.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Ostara Nutrient Recovery",
+  "url": "https://ostara.com/",
+  "source_type": "licensor",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Pearl struvite recovery process licensor; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "ostara",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Ostara Nutrient Recovery",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

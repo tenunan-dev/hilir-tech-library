@@ -1,0 +1,111 @@
+{
+  "id": "wwt-screening-grit",
+  "name": "Screening and grit removal",
+  "aliases": [
+    "coarse screening",
+    "grit chamber",
+    "fine screening"
+  ],
+  "sector": "WWT",
+  "category": "Physical and chemical treatment",
+  "applications": [
+    "headworks of every treatment plant",
+    "industrial effluent pretreatment"
+  ],
+  "maturity": "commercial",
+  "principle": "The first barrier of any plant: coarse and fine screens stop rags and plastics; grit chambers settle sand before biological stages. Follows standard published headworks practice (HUBER published equipment flows: bar/fine screens followed by grit washers and classifiers).",
+  "process_steps": [
+    {
+      "id": "COARSE",
+      "name": "Coarse screening",
+      "equipment": [
+        "coarse bar screens (6-15 mm)"
+      ]
+    },
+    {
+      "id": "FINE",
+      "name": "Fine screening",
+      "equipment": [
+        "fine screens (1-6 mm) with washing and compaction"
+      ]
+    },
+    {
+      "id": "GRIT",
+      "name": "Grit removal",
+      "equipment": [
+        "vortex or horizontal-flow grit chambers",
+        "grit washer and classifier (HUBER Ro9)"
+      ]
+    },
+    {
+      "id": "EQ",
+      "name": "Flow equalisation",
+      "equipment": [
+        "equalisation basin with mixing"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "coarse and fine screens",
+    "screenings washer-compactor",
+    "grit chamber",
+    "grit classifier"
+  ],
+  "suppliers": [
+    {
+      "name": "HUBER SE",
+      "product": "Ro9 grit treatment, ROTAMAT screens"
+    },
+    {
+      "name": "Hydro International",
+      "product": "vortex grit separators"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "screen opening range",
+      "unit": "mm",
+      "low": 0.75,
+      "high": 15,
+      "basis": "coarse to fine screening openings",
+      "source": {
+        "url": "https://www.huber.de/",
+        "note": "HUBER headworks pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "grit removal at 0.2 mm",
+      "unit": "%",
+      "low": 90,
+      "high": 95,
+      "basis": "vortex grit chamber design range",
+      "source": {
+        "url": "https://www.huber.de/",
+        "note": "HUBER published performance, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "huber-se",
+      "url": "https://www.huber.de/",
+      "note": "HUBER headworks equipment pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per m3/d design flow, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

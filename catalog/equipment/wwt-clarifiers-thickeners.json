@@ -1,0 +1,73 @@
+{
+  "id": "wwt-clarifiers-thickeners",
+  "name": "Clarifiers and thickeners",
+  "equipment_type": "clarifiers-thickeners",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "Primary/secondary circular clarifiers and gravity/DAF thickeners with scraper bridges, plus lamella packs for high-rate duty.",
+  "subtypes": [
+    {
+      "name": "circular clarifiers with scraper bridges"
+    },
+    {
+      "name": "gravity thickeners"
+    },
+    {
+      "name": "lamella packs"
+    },
+    {
+      "name": "DAF thickeners"
+    }
+  ],
+  "applications": [
+    "every treatment plant"
+  ],
+  "specifications": [
+    {
+      "metric": "lamella effective area gain",
+      "unit": "x",
+      "low": 8,
+      "high": 10,
+      "basis": "versus tank footprint",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "Veolia Actiflo pages, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "veolia",
+      "line": "Actiflo/high-rate",
+      "models": [
+        "Actiflo ballasted clarifiers"
+      ],
+      "range": "60-120 m/h loading"
+    }
+  ],
+  "vendors": [
+    "veolia",
+    "westech"
+  ],
+  "technologies": [
+    "wwt-lamella-clarifier",
+    "wwt-coagulation-precipitation"
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "clarification pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model tank sizes",
+      "why": "datasheets not read",
+      "next_action": "Read WesTech/Veolia clarifier model pages"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

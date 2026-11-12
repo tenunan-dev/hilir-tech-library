@@ -1,0 +1,122 @@
+{
+  "id": "wwt-produced-water-treatment",
+  "name": "Produced-water treatment (oil and gas fields)",
+  "aliases": [
+    "oil-water separation",
+    "oily water treatment"
+  ],
+  "sector": "WWT",
+  "category": "Physical and chemical treatment",
+  "applications": [
+    "upstream oil/gas produced water",
+    "refinery oily wastewater",
+    "offshore discharge compliance"
+  ],
+  "maturity": "commercial",
+  "principle": "Standard published produced-water practice: degassing and desanding, multi-stage induced gas flotation for dispersed oil, hydrocyclones or nut-shell filters for tight oil removal, then polishing to reinjection or discharge standards; bridges the WWT sector to upstream operations.",
+  "process_steps": [
+    {
+      "id": "DEG",
+      "name": "Degassing and desanding",
+      "equipment": [
+        "degasser",
+        "desanding hydrocyclone"
+      ]
+    },
+    {
+      "id": "IGF",
+      "name": "Induced gas flotation",
+      "equipment": [
+        "IGF cells (3-4 stages) with gas sparging"
+      ],
+      "to": [
+        "POLISH"
+      ],
+      "streams": {
+        "POLISH": "oil-lean water"
+      }
+    },
+    {
+      "id": "POLISH",
+      "name": "Polishing",
+      "equipment": [
+        "de-oiling hydrocyclones",
+        "nut-shell filter"
+      ],
+      "to": [
+        "REUSE",
+        "DISP"
+      ],
+      "streams": {
+        "REUSE": "water for reinjection",
+        "DISP": "discharge stream"
+      }
+    },
+    {
+      "id": "REUSE",
+      "name": "Reinjection or reuse",
+      "equipment": [
+        "injection pumps"
+      ]
+    },
+    {
+      "id": "DISP",
+      "name": "Compliant discharge",
+      "equipment": [
+        "discharge monitoring"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "IGF cells",
+    "de-oiling hydrocyclones",
+    "nut-shell filters",
+    "reinjection pumps"
+  ],
+  "suppliers": [
+    {
+      "name": "Frames Group",
+      "product": "produced-water packages"
+    },
+    {
+      "name": "CETCO",
+      "product": "CROSFLOW produced-water membranes"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "oil-in-water after treatment",
+      "unit": "mg/L",
+      "low": 10,
+      "high": 30,
+      "basis": "typical discharge compliance range",
+      "source": {
+        "url": "https://www.frames-group.com/",
+        "note": "published produced-water practice, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "produced-water portfolio context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Nitto / Hydranautics",
+  "url": "https://www.hydranautics.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "CPA/ESPA RO elements; registered 2026-11-13 WWT phase 2. Site unreachable from Mac (connection failure) 2026-11-13 — record kept from search-indexed knowledge; verify in browser pass.",
+  "quality_tier": 3,
+  "id": "nitto-hydranautics",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Nitto / Hydranautics",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

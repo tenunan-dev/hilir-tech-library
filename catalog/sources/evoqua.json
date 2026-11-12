@@ -1,0 +1,26 @@
+{
+  "name": "Evoqua Water Technologies",
+  "url": "https://www.evoqua.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "DAF, disinfection, services; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "evoqua",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Evoqua Water Technologies",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

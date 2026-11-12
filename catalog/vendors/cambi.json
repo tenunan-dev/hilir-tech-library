@@ -1,0 +1,23 @@
+{
+  "id": "cambi",
+  "name": "Cambi AS",
+  "country": "NO",
+  "roles": [
+    "licensor"
+  ],
+  "categories": [
+    "process-licensor"
+  ],
+  "description": "Thermal hydrolysis pretreatment (THP) licensor for anaerobic digestion: raises biogas yield and digestate dewaterability.",
+  "technologies": [
+    "wwt-sludge-digestion"
+  ],
+  "url": "https://cambi.com/",
+  "sources": [
+    {
+      "url": "https://cambi.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

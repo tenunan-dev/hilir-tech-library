@@ -1,0 +1,117 @@
+{
+  "id": "wwt-coagulation-precipitation",
+  "name": "Coagulation-flocculation and chemical precipitation",
+  "aliases": [
+    "chemical treatment",
+    "lime precipitation",
+    "ferric precipitation"
+  ],
+  "sector": "WWT",
+  "category": "Physical and chemical treatment",
+  "applications": [
+    "phosphorus removal",
+    "heavy-metal precipitation",
+    "industrial effluent neutralisation"
+  ],
+  "maturity": "commercial",
+  "principle": "Standard published practice: rapid mixing of coagulant (alum, ferric, PAC) destabilises colloids; slow flocculation builds settleable flocs; precipitation reagents (lime, caustic, metal sulphide) convert dissolved phosphate, metals and fluoride to insoluble solids removed by clarification; pH trim finishes the train.",
+  "process_steps": [
+    {
+      "id": "MIX",
+      "name": "Rapid mix (coagulation)",
+      "equipment": [
+        "coagulant dosing",
+        "flash mixer"
+      ]
+    },
+    {
+      "id": "FLOC",
+      "name": "Slow flocculation",
+      "equipment": [
+        "paddle flocculators"
+      ]
+    },
+    {
+      "id": "CLAR",
+      "name": "Clarification and precipitation",
+      "equipment": [
+        "clarifier or lamella pack",
+        "lime or sulphide precipitation reagents"
+      ],
+      "to": [
+        "OUT",
+        "SLG"
+      ],
+      "streams": {
+        "OUT": "treated water",
+        "SLG": "chemical sludge"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "pH correction and discharge",
+      "equipment": [
+        "final pH trim"
+      ]
+    },
+    {
+      "id": "SLG",
+      "name": "Chemical sludge handling",
+      "equipment": [
+        "sludge pump to thickening"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "chemical dosing systems",
+    "flash mixers",
+    "flocculators",
+    "clarifier"
+  ],
+  "suppliers": [
+    {
+      "name": "Kemira",
+      "product": "coagulants and polymers"
+    },
+    {
+      "name": "Veolia",
+      "product": "turnkey chemical treatment trains"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "phosphorus removal to below",
+      "unit": "mg P/L",
+      "low": 0.1,
+      "high": 0.5,
+      "basis": "published enhanced precipitation performance",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published practice, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "Veolia chemical treatment portfolio, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "chemical cost per m3, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

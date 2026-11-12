@@ -1,0 +1,26 @@
+{
+  "id": "metito",
+  "name": "Metito",
+  "country": "AE",
+  "roles": [
+    "epc",
+    "operator"
+  ],
+  "categories": [
+    "plant-epc",
+    "operator"
+  ],
+  "description": "Water and wastewater EPC, investor and operator across MENA, Asia and Africa.",
+  "technologies": [
+    "wwt-potable-reuse-schemes",
+    "wwt-ro-reuse-train"
+  ],
+  "url": "https://www.metito.com/",
+  "sources": [
+    {
+      "url": "https://www.metito.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

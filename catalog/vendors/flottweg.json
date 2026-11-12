@@ -1,0 +1,23 @@
+{
+  "id": "flottweg",
+  "name": "Flottweg SE",
+  "country": "DE",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Decanter and Tricanter centrifuge OEM for sludge dewatering and three-phase separation.",
+  "technologies": [
+    "wwt-sludge-dewatering"
+  ],
+  "url": "https://www.flottweg.com/",
+  "sources": [
+    {
+      "url": "https://www.flottweg.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

@@ -1,31 +1,28 @@
 {
-  "id": "alfa-laval",
-  "name": "Alfa Laval",
+  "name": "Alfa Laval (separation and heat transfer)",
   "url": "https://www.alfalaval.com/",
   "source_type": "oem-supplier",
   "sectors": [
-    "REF",
-    "PCH",
-    "GAS",
-    "H2"
+    "WWT",
+    "MID",
+    "REF"
   ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Decanter centrifuges for sludge dewatering; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "alfa-laval",
   "disciplines": [
-    "ROT",
     "PRC"
   ],
-  "publisher_org": "Alfa Laval",
-  "country": "SE",
   "regions": [
     "global"
   ],
-  "access": "open",
-  "licence": "(unchanged)",
-  "reuse_level": "full-text-restricted",
-  "quality_tier": 2,
-  "update_frequency": "monthly",
-  "notes": "Field normalisation: permitted_use and automated_access set to schema enum values (same-day evidence applies). Evidence: (see prior entry same day)",
-  "verification": "verified",
-  "last_verified": "2026-10-25",
-  "automated_access": "allowed",
-  "permitted_use": "personal-non-commercial"
+  "publisher_org": "Alfa Laval (separation and heat transfer)",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
 }

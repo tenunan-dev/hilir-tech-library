@@ -1,0 +1,126 @@
+{
+  "id": "wwt-lamella-clarifier",
+  "name": "Lamella and high-rate clarifiers",
+  "aliases": [
+    "inclined plate clarifier",
+    "Actiflo",
+    "ballasted flocculation"
+  ],
+  "sector": "WWT",
+  "category": "Physical and chemical treatment",
+  "applications": [
+    "small-footprint clarification",
+    "stormwater and CSO treatment",
+    "pretreatment ahead of filtration"
+  ],
+  "maturity": "commercial",
+  "principle": "Follows the published Veolia Actiflo-type high-rate flow: coagulated water plus recirculated microsand forms ballasted flocs that settle on 55-degree inclined lamella plates giving 8-10x the effective settling area; a hydrocyclone recovers microsand and recirculates it, allowing hydraulic loading of 60-120 m/h versus 1-2 m/h conventional.",
+  "process_steps": [
+    {
+      "id": "COAG",
+      "name": "Coagulation with microsand injection",
+      "equipment": [
+        "coagulant dosing",
+        "microsand recirculation loop"
+      ]
+    },
+    {
+      "id": "FLOC",
+      "name": "Polymer maturation",
+      "equipment": [
+        "polymer dosing",
+        "maturation zone"
+      ]
+    },
+    {
+      "id": "LAM",
+      "name": "Lamella settling",
+      "equipment": [
+        "inclined plate pack",
+        "sludge hopper"
+      ],
+      "to": [
+        "OUT",
+        "SLG",
+        "CYC"
+      ],
+      "streams": {
+        "OUT": "clarified effluent",
+        "SLG": "thickened sludge",
+        "CYC": "flocs with microsand"
+      }
+    },
+    {
+      "id": "CYC",
+      "name": "Microsand recovery",
+      "equipment": [
+        "hydrocyclone"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Effluent out",
+      "equipment": [
+        "weirs"
+      ]
+    },
+    {
+      "id": "SLG",
+      "name": "Sludge out",
+      "equipment": [
+        "sludge pumps"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "lamella plate pack",
+    "microsand recirculation with hydrocyclone",
+    "flocculation tank"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "Actiflo high-rate clarifier"
+    },
+    {
+      "name": "WesTech",
+      "product": "lamella clarifiers"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "hydraulic loading",
+      "unit": "m/h",
+      "low": 60,
+      "high": 120,
+      "basis": "published Actiflo design range",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "Veolia Actiflo pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "Veolia Actiflo pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/h, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

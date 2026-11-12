@@ -1,0 +1,132 @@
+{
+  "id": "wwt-uasb",
+  "name": "Upflow anaerobic sludge blanket (UASB/EGSB)",
+  "aliases": [
+    "UASB",
+    "EGSB",
+    "BIOPAQ UASB"
+  ],
+  "sector": "WWT",
+  "category": "Anaerobic treatment",
+  "applications": [
+    "high-strength industrial effluent",
+    "tropical municipal sewage",
+    "pretreatment ahead of aerobic polishing"
+  ],
+  "maturity": "commercial",
+  "principle": "Follows the Paques BIOPAQ UASB licensor flow: wastewater is fed evenly at the bottom of a tall reactor and flows upward through a dense blanket of anaerobic granular sludge that converts COD to biogas; a three-phase (gas-liquid-solid) separator at the top retains granules, degasses the effluent and discharges treated water. EGSB adds higher upflow velocities and effluent recirculation for dilute streams.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Bottom influent distribution",
+      "equipment": [
+        "distribution nozzles"
+      ]
+    },
+    {
+      "id": "BLANKET",
+      "name": "Granular sludge blanket (COD to biogas)",
+      "equipment": [
+        "granular anaerobic sludge blanket"
+      ],
+      "to": [
+        "SEP"
+      ],
+      "streams": {
+        "SEP": "liquor with gas"
+      }
+    },
+    {
+      "id": "SEP",
+      "name": "Three-phase separator",
+      "equipment": [
+        "gas-liquid-solid separator at reactor top"
+      ],
+      "to": [
+        "OUT",
+        "GAS"
+      ],
+      "streams": {
+        "OUT": "treated effluent",
+        "GAS": "biogas"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "Treated water out",
+      "equipment": [
+        "degassing and outlet weirs"
+      ]
+    },
+    {
+      "id": "GAS",
+      "name": "Biogas off-take",
+      "equipment": [
+        "biogas line to desulphurisation and CHP"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "UASB/EGSB reactor",
+    "three-phase separator",
+    "granular sludge",
+    "biogas handling"
+  ],
+  "suppliers": [
+    {
+      "name": "Paques",
+      "product": "BIOPAQ UASB / UASBplus reactors"
+    },
+    {
+      "name": "Biothane (Veolia)",
+      "product": "Biobed EGSB reactors"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "COD removal",
+      "unit": "%",
+      "low": 70,
+      "high": 90,
+      "basis": "published UASB performance on industrial effluent",
+      "source": {
+        "url": "https://www.paques.nl/",
+        "note": "Paques BIOPAQ UASB pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "organic loading rate",
+      "unit": "kg COD/m3.d",
+      "low": 5,
+      "high": 20,
+      "basis": "published UASB design range",
+      "source": {
+        "url": "https://www.paques.nl/",
+        "note": "Paques UASB pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "paques",
+      "url": "https://www.paques.nl/products/biopaq-uasb",
+      "note": "Paques BIOPAQ UASB product pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "reactor cost per kg COD/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

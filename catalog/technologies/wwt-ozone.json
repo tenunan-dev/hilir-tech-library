@@ -1,0 +1,131 @@
+{
+  "id": "wwt-ozone",
+  "name": "Ozonation and ozone-BAC filtration",
+  "aliases": [
+    "ozone",
+    "O3-BAC",
+    "ozone disinfection"
+  ],
+  "sector": "WWT",
+  "category": "Disinfection and advanced oxidation",
+  "applications": [
+    "micropollutant and odour control",
+    "tertiary disinfection",
+    "ozone-BAC polishing for reuse"
+  ],
+  "maturity": "commercial",
+  "principle": "Published licensor practice (Xylem Wedeco): ozone generated from dry air or oxygen by silent corona discharge is dissolved in side-stream injection Contact tanks; O3 oxidises micropollutants, colour and pathogens (CT dose 0.5-3 mg/L), then residual ozone is quenched and water polished on biologically active carbon (BAC); biofilters then colonise with degrading biomass.",
+  "process_steps": [
+    {
+      "id": "GEN",
+      "name": "Ozone generation",
+      "equipment": [
+        "ozone generators (corona discharge on O2)"
+      ],
+      "to": [
+        "INJ"
+      ],
+      "streams": {
+        "INJ": "oxygen-ozone gas"
+      }
+    },
+    {
+      "id": "INJ",
+      "name": "Side-stream injection",
+      "equipment": [
+        "venturi injectors",
+        "sidestream pumps"
+      ]
+    },
+    {
+      "id": "CT",
+      "name": "Ozone contact and reaction",
+      "equipment": [
+        "contact tanks (CT 0.5-3 mg/L.min)"
+      ],
+      "to": [
+        "QUENCH"
+      ],
+      "streams": {
+        "QUENCH": "ozonated water"
+      }
+    },
+    {
+      "id": "QUENCH",
+      "name": "Residual quench",
+      "equipment": [
+        "quench chemicals or ozone destruction units"
+      ]
+    },
+    {
+      "id": "BAC",
+      "name": "Biologically active carbon polishing",
+      "equipment": [
+        "BAC filters"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "ozone generators",
+    "side-stream injection",
+    "contact tanks",
+    "BAC filters"
+  ],
+  "suppliers": [
+    {
+      "name": "Xylem",
+      "product": "Wedeco ozone systems"
+    },
+    {
+      "name": "Primozone",
+      "product": "high-concentration ozone generation"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "ozone dose for micropollutant control",
+      "unit": "mg/L",
+      "low": 0.5,
+      "high": 3,
+      "basis": "published ozone dosing",
+      "source": {
+        "url": "https://www.xylem.com/",
+        "note": "Wedeco ozone pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "micropollutant removal",
+      "unit": "%",
+      "low": 80,
+      "high": 99,
+      "basis": "published ozone-BAC performance",
+      "source": {
+        "url": "https://www.xylem.com/",
+        "note": "Wedeco ozone pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "xylem",
+      "url": "https://www.xylem.com/",
+      "note": "Wedeco ozone pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

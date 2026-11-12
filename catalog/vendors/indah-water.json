@@ -1,0 +1,24 @@
+{
+  "id": "indah-water",
+  "name": "Indah Water Konsortium",
+  "country": "MY",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Malaysia's national sewerage company: operates >8,000 sewage treatment plants nationwide.",
+  "technologies": [
+    "wwt-activated-sludge",
+    "wwt-sbr"
+  ],
+  "url": "https://www.iwk.com.my/",
+  "sources": [
+    {
+      "url": "https://www.iwk.com.my/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

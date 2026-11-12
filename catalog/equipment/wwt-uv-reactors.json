@@ -1,0 +1,74 @@
+{
+  "id": "wwt-uv-reactors",
+  "name": "UV disinfection reactors",
+  "equipment_type": "uv-reactors",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "Closed-vessel or open-channel UV systems (low-pressure, medium-pressure, LED) delivering 20-100 mJ/cm2 with validated dose monitoring.",
+  "subtypes": [
+    {
+      "name": "open-channel gravity systems"
+    },
+    {
+      "name": "closed-vessel pressurised systems"
+    },
+    {
+      "name": "LED point-of-use"
+    }
+  ],
+  "applications": [
+    "municipal effluent",
+    "reuse trains",
+    "potable"
+  ],
+  "specifications": [
+    {
+      "metric": "delivered dose",
+      "unit": "mJ/cm2",
+      "low": 20,
+      "high": 100,
+      "basis": "published municipal range",
+      "source": {
+        "url": "https://www.trojantechnologies.com/",
+        "note": "Trojan pages, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "trojan-technologies",
+      "line": "UVSwift/UltraFlow",
+      "models": [
+        "UVSwift 412/612",
+        "UltraFlow closed vessel"
+      ],
+      "range": "municipal open-channel and closed-vessel"
+    }
+  ],
+  "vendors": [
+    "trojan-technologies",
+    "xylem"
+  ],
+  "technologies": [
+    "wwt-uv-disinfection",
+    "wwt-aop",
+    "wwt-potable-reuse-schemes"
+  ],
+  "sources": [
+    {
+      "source_id": "trojan-technologies",
+      "url": "https://www.trojantechnologies.com/",
+      "note": "Trojan pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model lamp counts and flows",
+      "why": "datasheets not read",
+      "next_action": "Read Trojan/UVDI model pages"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

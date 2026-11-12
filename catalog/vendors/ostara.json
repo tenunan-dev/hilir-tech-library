@@ -1,0 +1,23 @@
+{
+  "id": "ostara",
+  "name": "Ostara Nutrient Recovery Technologies",
+  "country": "CA",
+  "roles": [
+    "licensor"
+  ],
+  "categories": [
+    "process-licensor"
+  ],
+  "description": "Pearl struvite-recovery process licensor; markets Crystal Green fertiliser pellets.",
+  "technologies": [
+    "wwt-struvite-recovery"
+  ],
+  "url": "https://ostara.com/",
+  "sources": [
+    {
+      "url": "https://ostara.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

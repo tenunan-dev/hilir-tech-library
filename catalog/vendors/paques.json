@@ -1,0 +1,27 @@
+{
+  "id": "paques",
+  "name": "Paques B.V.",
+  "country": "NL",
+  "roles": [
+    "licensor",
+    "oem"
+  ],
+  "categories": [
+    "process-licensor",
+    "equipment-oem"
+  ],
+  "description": "Anaerobic licensor: BIOPAQ IC internal-circulation and UASB reactors, THIOPAQ biogas desulphurisation, ANAMMOX, PHOSPAQ nutrient recovery.",
+  "technologies": [
+    "wwt-anaerobic-internal-circulation",
+    "wwt-uasb",
+    "wwt-struvite-recovery"
+  ],
+  "url": "https://www.paques.nl/",
+  "sources": [
+    {
+      "url": "https://www.paques.nl/",
+      "note": "Homepage and BIOPAQ IC product page live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

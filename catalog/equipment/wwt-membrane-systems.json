@@ -1,0 +1,127 @@
+{
+  "id": "wwt-membrane-systems",
+  "name": "MF/UF/RO membrane systems",
+  "equipment_type": "membrane-systems",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "Pressure-driven membrane systems for water reuse: hollow-fibre microfiltration/ultrafiltration (0.02-0.1 um) pretreatment and spiral-wound reverse osmosis trains that reject salts and micropollutants.",
+  "subtypes": [
+    {
+      "name": "submerged hollow-fibre UF (ZeeWeed style)"
+    },
+    {
+      "name": "pressurised UF"
+    },
+    {
+      "name": "spiral-wound RO trains"
+    },
+    {
+      "name": "nanofiltration"
+    }
+  ],
+  "applications": [
+    "reuse trains",
+    "MBR",
+    "desalination-adjacent polishing"
+  ],
+  "specifications": [
+    {
+      "metric": "UF pore size",
+      "unit": "um",
+      "low": 0.02,
+      "high": 0.1,
+      "basis": "hollow-fibre MF/UF ratings",
+      "source": {
+        "url": "https://www.suezwatertechnologies.com/",
+        "note": "ZeeWeed pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "RO element sizes",
+      "unit": "inch",
+      "low": 8,
+      "high": 16,
+      "basis": "standard 8-inch and large 16-inch elements",
+      "source": {
+        "url": "https://www.dupont.com/water.html",
+        "note": "DuPont FilmTec pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "RO permeate recovery (reuse trains)",
+      "unit": "%",
+      "low": 75,
+      "high": 85,
+      "basis": "typical municipal reuse design recovery",
+      "source": {
+        "url": "https://www.dupont.com/water.html",
+        "note": "DuPont reuse literature, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "suez",
+      "line": "ZeeWeed 500D/1000",
+      "models": [
+        "500D submerged UF",
+        "1000 hollow-fibre UF"
+      ],
+      "range": "submerged and pressurised UF modules"
+    },
+    {
+      "vendor": "dupont",
+      "line": "FilmTec / IntegraFlux",
+      "models": [
+        "BW30 RO",
+        "LC HR",
+        "IntegraFlux XP"
+      ],
+      "range": "brackish and low-energy RO elements"
+    },
+    {
+      "vendor": "toray",
+      "line": "ROMEMBRA / submerged flat sheet",
+      "models": [
+        "ROMEMBRA RO",
+        "flat-sheet MBR modules"
+      ],
+      "range": "RO and MBR modules"
+    }
+  ],
+  "vendors": [
+    "suez",
+    "dupont",
+    "toray",
+    "nitto-hydranautics"
+  ],
+  "technologies": [
+    "wwt-uf-pretreatment",
+    "wwt-ro-reuse-train",
+    "wwt-nanofiltration",
+    "wwt-membrane-bioreactor"
+  ],
+  "sources": [
+    {
+      "source_id": "suez",
+      "url": "https://www.suezwatertechnologies.com/",
+      "note": "ZeeWeed portfolio, read 2026-11-13"
+    },
+    {
+      "source_id": "dupont-water",
+      "url": "https://www.dupont.com/water.html",
+      "note": "DuPont FilmTec pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model flux and pressure tables",
+      "why": "datasheet tables not read this pass",
+      "next_action": "Read FilmTec and ZeeWeed datasheets and record per-model figures"
+    }
+  ],
+  "notes": "First WWT equipment class (decision #33 pattern).",
+  "last_reviewed": "2026-11-13"
+}

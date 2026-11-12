@@ -1,0 +1,88 @@
+{
+  "id": "wwt-aeration-systems",
+  "name": "Aeration systems (blowers and diffusers)",
+  "equipment_type": "aeration",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "The energy centre of biological treatment: blowers (turbo, screw, lobe) and fine-bubble diffuser grids or mechanical aerators deliver oxygen to activated-sludge and MBBR basins.",
+  "subtypes": [
+    {
+      "name": "fine-bubble diffusers"
+    },
+    {
+      "name": "turbo blowers"
+    },
+    {
+      "name": "magnetic-bearing turbo blowers"
+    },
+    {
+      "name": "mechanical surface aerators"
+    }
+  ],
+  "applications": [
+    "activated sludge",
+    "MBBR/IFAS",
+    "SBR"
+  ],
+  "specifications": [
+    {
+      "metric": "fine-bubble diffuser oxygen transfer efficiency",
+      "unit": "%/m",
+      "low": 2,
+      "high": 4,
+      "basis": "published SOTE per metre of submergence",
+      "source": {
+        "url": "https://www.xylem.com/",
+        "note": "published aeration practice, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "turbo blower sizes",
+      "unit": "kW",
+      "low": 30,
+      "high": 500,
+      "basis": "typical single-unit range",
+      "source": {
+        "url": "https://www.xylem.com/",
+        "note": "published practice, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "xylem",
+      "line": "Sanitaire",
+      "models": [
+        "fine-bubble diffuser grids",
+        "turbo blowers"
+      ],
+      "range": "basin aeration systems"
+    }
+  ],
+  "vendors": [
+    "xylem"
+  ],
+  "technologies": [
+    "wwt-activated-sludge",
+    "wwt-mbbr",
+    "wwt-sbr",
+    "wwt-bnr"
+  ],
+  "sources": [
+    {
+      "source_id": "xylem",
+      "url": "https://www.xylem.com/",
+      "note": "Sanitaire pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model blower efficiency tables",
+      "why": "datasheets not read",
+      "next_action": "Read Sanitaire/GE turbo blower datasheets"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

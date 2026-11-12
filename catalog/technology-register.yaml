@@ -448,43 +448,43 @@ IDC:
     - Data centre siting and power procurement | C | Hyperscalers, AirTrunk (Malaysia 700 MW+), Equinix, GE Vernova
 WWT:
   Physical and chemical treatment:
-    - Screening, grit removal and equalisation | C | Andritz, Vulcan Industries, Hydro International
+    - Screening and grit removal | C | Andritz, Vulcan Industries, Hydro International
     - Dissolved air flotation (DAF) | C | Veolia, FRC, Nijhuis/Desotec, Evoqua
-    - Coagulation-flocculation and chemical precipitation (lime, sulphide) | C | Veolia, Chemtrade, Kemira (chemicals)
+    - Coagulation-flocculation and chemical precipitation | C | Veolia, Chemtrade, Kemira (chemicals)
     - Lamella and high-rate clarifiers | C | Veolia, WesTech, Evoqua
-    - Oil-water separation and produced-water treatment | C | Siemens/SLB produced-water, Frames, CETCO
+    - Produced-water treatment (oil and gas fields) | C | Siemens/SLB produced-water, Frames, CETCO
   Biological treatment:
-    - Conventional activated sludge and oxidation ditches | C | Municipal EPCs (AECOM, Black & Veatch), Nijhuis
-    - Sequencing batch reactors (SBR) | C | Veolia, Aqua-Aerobic, EnviroSim associates (simulators)
+    - Conventional activated sludge | C | Municipal EPCs (AECOM, Black & Veatch), Nijhuis
+    - Sequencing batch reactor (SBR) | C | Veolia, Aqua-Aerobic, EnviroSim associates (simulators)
     - Aerobic granular sludge treatment (Nereda) | C | Royal HaskoningDHV (licensor)
-    - Moving bed biofilm reactors (MBBR/IFAS) | C | Veolia/AnoxKaldnes, Headworks, WABAG
+    - Moving bed biofilm reactor (MBBR/IFAS) | C | Veolia/AnoxKaldnes, Headworks, WABAG
     - Membrane bioreactor (MBR) wastewater treatment | C | Kubota, Suez (ZeeWeed), Toray, Mitsubishi Chemical Aqua
     - Trickling filters and rotating biological contactors | C | Legacy municipal, WesTech
-    - Biological nutrient removal (nitrification, denitrification, Bio-P) | C | Black & Veatch, Jacobs (biowise), Veolia
+    - Biological nutrient removal (BNR) | C | Black & Veatch, Jacobs (biowise), Veolia
   Anaerobic treatment:
     - Upflow anaerobic sludge blanket (UASB/EGSB) | C | Paques, Biothane (Veolia), Hydroxy / Ecolab?
     - Internal-circulation anaerobic reactor (Paques BIOPAQ IC) | C | Paques (licensor)
-    - Anaerobic membrane bioreactors (AnMBR) | D | Kubota, Veolia, ADI Systems
-    - Anaerobic digestion of sludge and organics (mesophilic/thermophilic) | C | Veolia, WABAG, Xergi, BTG
+    - Anaerobic membrane bioreactor (AnMBR) | D | Kubota, Veolia, ADI Systems
+    - Anaerobic sludge digestion (mesophilic/thermophilic) | C | Veolia, WABAG, Xergi, BTG
   Membrane and reuse:
     - Microfiltration and ultrafiltration pretreatment | C | Suez (ZeeWeed), Toray, DuPont (IntegraPak)
     - Reverse-osmosis water reuse train (NEWater-style) | C | DuPont FilmTec, Hydranautics (Nitto), Toray, Suez
-    - Direct and indirect potable reuse schemes | C | Singapore PUB (NEWater), San Diego Pure Water, WateReuse
+    - Potable reuse schemes (IPR/DPR) | C | Singapore PUB (NEWater), San Diego Pure Water, WateReuse
     - Nanofiltration for selective separations | C | DuPont FilmTec NF, Toray, Synder
     - Forward osmosis | P | Modern Water, Oasys Water
   Disinfection and advanced oxidation:
-    - UV disinfection (low-pressure, medium-pressure, LED) | C | Trojan Technologies, Xylem (Wedeco), Evoqua
-    - Ozone and ozone-biologically active filtration | C | Xylem (Wedeco), Primozone, Wedeco/ITT legacy
-    - Advanced oxidation (OH radical, persulfate, photo-Fenton) | D | Xylem, Evoqua, Hydroxyl systems
+    - UV disinfection | C | Trojan Technologies, Xylem (Wedeco), Evoqua
+    - Ozonation and ozone-BAC filtration | C | Xylem (Wedeco), Primozone, Wedeco/ITT legacy
+    - Advanced oxidation processes (AOP) | D | Xylem, Evoqua, Hydroxyl systems
     - Chlorination and dechlorination | C | Municipal standard, Evoqua, ProMinent
   Sludge and biogas:
     - Sludge thickening (gravity, DAF, drum) | C | Veolia, WesTech, Flottweg
-    - Mechanical dewatering (centrifuge, belt press, filter press) | C | Alfa Laval, Andritz, Flottweg, Huber
-    - Thermal drying and pyrolysis of sludge | D | Andritz, Huber, Mid-South Engineering
+    - Mechanical sludge dewatering | C | Alfa Laval, Andritz, Flottweg, Huber
+    - Thermal sludge drying and pyrolysis | D | Andritz, Huber, Mid-South Engineering
     - Sludge incineration and co-incineration | C | Veolia, Hitachi Zosen, Doosan
-    - Biogas upgrading to biomethane (water wash, amine, membrane, PSA) | C | Pentair, DMT, CarboTech, Evonik (Sepuran)
+    - Biogas upgrading to biomethane | C | Pentair, DMT, CarboTech, Evonik (Sepuran)
   Resource recovery and ZLD:
-    - Nutrient recovery (struvite, ammonia stripping) | D | Ostara (Pearl), Paques (Thiopaq/ANAMMOX), Veolia
-    - Zero liquid discharge (evaporator-crystalliser trains) | C | Aquatech, Veolia (HPD), GE legacy, Salsnes?
+    - Nutrient recovery (struvite and ammonia) | D | Ostara (Pearl), Paques (Thiopaq/ANAMMOX), Veolia
+    - Zero liquid discharge (ZLD) | C | Aquatech, Veolia (HPD), GE legacy, Salsnes?
     - Brine concentration and selective salt recovery | D | Aquatech, Oasys, Gradiant (ClearTreat)
     - Water minimisation and reuse pinch for industry | C | Consultants (GHD, AECOM), Gradiant

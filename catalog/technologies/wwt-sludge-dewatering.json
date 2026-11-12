@@ -1,0 +1,133 @@
+{
+  "id": "wwt-sludge-dewatering",
+  "name": "Mechanical sludge dewatering",
+  "aliases": [
+    "centrifuge dewatering",
+    "belt press",
+    "filter press"
+  ],
+  "sector": "WWT",
+  "category": "Sludge and biogas",
+  "applications": [
+    "digested or raw sludge dewatering at every plant",
+    "sludge volume reduction before disposal"
+  ],
+  "maturity": "commercial",
+  "principle": "Standard published practice: conditioned sludge (polymer dosed) is dewatered by decanter centrifuges (2,500-4,000 rpm bowl), belt filter presses (gravity drain + wedge press) or membrane/plate filter presses (batch 12-16 bar); cake dryness 18-35% DS depending on device and sludge type; licensor equipment from Alfa Laval, Andritz, Flottweg, HUBER (screw presses).",
+  "process_steps": [
+    {
+      "id": "COND",
+      "name": "Sludge conditioning",
+      "equipment": [
+        "polymer dosing",
+        "conditioning tanks"
+      ],
+      "to": [
+        "DEW"
+      ],
+      "streams": {
+        "DEW": "conditioned sludge"
+      }
+    },
+    {
+      "id": "DEW",
+      "name": "Mechanical dewatering",
+      "equipment": [
+        "decanter centrifuge / belt press / membrane filter press"
+      ],
+      "to": [
+        "CAKE",
+        "FIL"
+      ],
+      "streams": {
+        "CAKE": "dewatered cake",
+        "FIL": "filtrate/centrate"
+      }
+    },
+    {
+      "id": "CAKE",
+      "name": "Cake handling",
+      "equipment": [
+        "cake conveyors, storage"
+      ]
+    },
+    {
+      "id": "FIL",
+      "name": "Filtrate return",
+      "equipment": [
+        "return to plant head"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "decanter centrifuges",
+    "belt filter presses",
+    "membrane filter presses",
+    "polymer system"
+  ],
+  "suppliers": [
+    {
+      "name": "Alfa Laval",
+      "product": "decanters for sludge"
+    },
+    {
+      "name": "Andritz",
+      "product": "belt and filter presses"
+    },
+    {
+      "name": "Flottweg",
+      "product": "Tricanter/decanters"
+    },
+    {
+      "name": "HUBER SE",
+      "product": "screw presses (Q-PRESS)"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "cake dry solids, centrifuge on digested sludge",
+      "unit": "% DS",
+      "low": 22,
+      "high": 30,
+      "basis": "published centrifuge performance",
+      "source": {
+        "url": "https://www.alfalaval.com/",
+        "note": "Alfa Laval decanter pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "cake dry solids, membrane filter press",
+      "unit": "% DS",
+      "low": 30,
+      "high": 40,
+      "basis": "published filter-press performance",
+      "source": {
+        "url": "https://www.andritz.com/",
+        "note": "Andritz press pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "alfa-laval",
+      "url": "https://www.alfalaval.com/",
+      "note": "Alfa Laval decanter pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per t DS, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

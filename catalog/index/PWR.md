@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-171 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+172 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -159,6 +159,7 @@
 | [World Bank DataBank](https://databank.worldbank.org) | agency-data | global | open | full-text-open |
 | [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
+| [Aquatech International (ZLD)](https://www.aquatech.com/) | licensor | global | open | summary-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [DuPont Water Solutions](https://www.dupont.com/water.html) | oem-supplier | global | open | summary-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |

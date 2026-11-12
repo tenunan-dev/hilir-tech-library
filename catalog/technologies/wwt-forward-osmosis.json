@@ -1,0 +1,111 @@
+{
+  "id": "wwt-forward-osmosis",
+  "name": "Forward osmosis",
+  "aliases": [
+    "FO",
+    "forward osmosis draw solutions"
+  ],
+  "sector": "WWT",
+  "category": "Membrane and reuse",
+  "applications": [
+    "high-fouling feeds",
+    "hydration bags and niche industrial concentration",
+    "hybrid FO-RO reuse"
+  ],
+  "maturity": "pilot",
+  "principle": "Published pilot practice (Modern Water, Oasys): water diffuses across a dense active layer driven by an osmotic draw solution instead of hydraulic pressure, giving low-fouling concentration of difficult feeds; the draw is then regenerated (RO, distillation) releasing clean water; commercial deployment remains niche.",
+  "process_steps": [
+    {
+      "id": "FO",
+      "name": "FO membrane stage",
+      "equipment": [
+        "spiral or plate FO modules",
+        "draw solution circulation"
+      ],
+      "to": [
+        "REGEN"
+      ],
+      "streams": {
+        "REGEN": "diluted draw"
+      }
+    },
+    {
+      "id": "REGEN",
+      "name": "Draw regeneration",
+      "equipment": [
+        "RO or distillation regeneration"
+      ],
+      "to": [
+        "PROD"
+      ],
+      "streams": {
+        "PROD": "product water"
+      }
+    },
+    {
+      "id": "PROD",
+      "name": "Product water out",
+      "equipment": [
+        "polishing"
+      ]
+    },
+    {
+      "id": "CONC",
+      "name": "Concentrated feed out",
+      "equipment": [
+        "disposal or recovery"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "FO membrane modules",
+    "draw solution loop",
+    "draw regeneration"
+  ],
+  "suppliers": [
+    {
+      "name": "Modern Water",
+      "product": "commercial FO systems"
+    },
+    {
+      "name": "Oasys Water",
+      "product": "FO draw technology"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "water flux",
+      "unit": "LMH",
+      "low": 10,
+      "high": 25,
+      "basis": "published FO pilot fluxes",
+      "source": {
+        "url": "https://www.ostara.com/",
+        "note": "published FO practice context, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "suez",
+      "url": "https://www.suezwatertechnologies.com/",
+      "note": "membrane portfolio context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

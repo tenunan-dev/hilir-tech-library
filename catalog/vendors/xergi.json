@@ -1,0 +1,23 @@
+{
+  "id": "xergi",
+  "name": "Xergi A/S",
+  "country": "DK",
+  "roles": [
+    "packager"
+  ],
+  "categories": [
+    "fabrication"
+  ],
+  "description": "Biogas plant design-build packager: digester and gas-handling packages for sludge and organics.",
+  "technologies": [
+    "wwt-sludge-digestion"
+  ],
+  "url": "https://xergi.com/",
+  "sources": [
+    {
+      "url": "https://xergi.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

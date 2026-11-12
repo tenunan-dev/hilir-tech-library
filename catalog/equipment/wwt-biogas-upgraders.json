@@ -1,0 +1,86 @@
+{
+  "id": "wwt-biogas-upgraders",
+  "name": "Biogas upgrading units",
+  "equipment_type": "biogas-upgrading",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT",
+    "H2"
+  ],
+  "description": "Water-wash, amine, membrane and PSA units upgrading raw biogas to 95-99% methane grid/vehicle spec.",
+  "subtypes": [
+    {
+      "name": "water wash"
+    },
+    {
+      "name": "amine wash"
+    },
+    {
+      "name": "membrane separation"
+    },
+    {
+      "name": "PSA"
+    }
+  ],
+  "applications": [
+    "WWTP biogas to biomethane",
+    "farm and landfill gas"
+  ],
+  "specifications": [
+    {
+      "metric": "product methane",
+      "unit": "% CH4",
+      "low": 95,
+      "high": 99,
+      "basis": "published grid/vehicle spec",
+      "source": {
+        "url": "https://www.dmt.nl/",
+        "note": "DMT pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "methane recovery",
+      "unit": "%",
+      "low": 98,
+      "high": 99.5,
+      "basis": "published upgrading recovery",
+      "source": {
+        "url": "https://www.dmt.nl/",
+        "note": "DMT pages, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "dmt-env",
+      "line": "DMT upgrading",
+      "models": [
+        "membrane skids",
+        "amine skids"
+      ],
+      "range": "95-99% CH4 product"
+    }
+  ],
+  "vendors": [
+    "dmt-env",
+    "pentair"
+  ],
+  "technologies": [
+    "h2-biogas-upgrading"
+  ],
+  "sources": [
+    {
+      "source_id": "dmt-env",
+      "url": "https://www.dmt.nl/",
+      "note": "DMT pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model Nm3/h ranges",
+      "why": "datasheets not read",
+      "next_action": "Read DMT/Pentair model pages"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

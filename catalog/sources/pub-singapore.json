@@ -1,0 +1,26 @@
+{
+  "name": "Singapore PUB",
+  "url": "https://www.pub.gov.sg/",
+  "source_type": "agency-data",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "Singapore-Open-Data-Licence-1.0",
+  "access": "open",
+  "reuse_level": "full-text-restricted",
+  "notes": "NEWater scheme owner; used for reuse-scheme facts; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "pub-singapore",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Singapore PUB",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

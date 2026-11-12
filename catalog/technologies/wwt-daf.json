@@ -1,0 +1,136 @@
+{
+  "id": "wwt-daf",
+  "name": "Dissolved air flotation (DAF)",
+  "aliases": [
+    "DAF",
+    "flotation clarification"
+  ],
+  "sector": "WWT",
+  "category": "Physical and chemical treatment",
+  "applications": [
+    "industrial effluent with oils and fats",
+    "algae-laden water",
+    "sludge thickening",
+    "pretreatment ahead of membranes"
+  ],
+  "maturity": "commercial",
+  "principle": "Follows the published Veolia/evoqua DAF flow: coagulated water meets 50-70% recycle flow saturated with air at 4-6 bar, released as 30-100 um microbubbles in a contact zone; flocs float and are scraped off as float sludge; clarified water leaves under weirs. Licensor equipment: saturation vessel, injection nozzles, full-surface scraper.",
+  "process_steps": [
+    {
+      "id": "COAG",
+      "name": "Coagulation and flocculation",
+      "equipment": [
+        "coagulant and polymer dosing",
+        "flocculation tank"
+      ]
+    },
+    {
+      "id": "SAT",
+      "name": "Air saturation",
+      "equipment": [
+        "saturation vessel at 4-6 bar",
+        "air compressor"
+      ],
+      "to": [
+        "FLOT"
+      ],
+      "streams": {
+        "FLOT": "recycle with microbubbles"
+      }
+    },
+    {
+      "id": "FLOT",
+      "name": "Flotation separation",
+      "equipment": [
+        "DAF contact and separation zones",
+        "microbubble injection nozzles",
+        "full-surface scraper"
+      ],
+      "to": [
+        "OUT",
+        "SLG"
+      ],
+      "streams": {
+        "OUT": "clarified effluent",
+        "SLG": "float sludge"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "Clarified water out",
+      "equipment": [
+        "effluent weirs"
+      ]
+    },
+    {
+      "id": "SLG",
+      "name": "Float sludge out",
+      "equipment": [
+        "sludge pump"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "saturation vessel",
+    "microbubble injection system",
+    "DAF basin",
+    "scraper"
+  ],
+  "suppliers": [
+    {
+      "name": "Veolia",
+      "product": "DAF flotation systems"
+    },
+    {
+      "name": "Evoqua",
+      "product": "DAF systems"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "microbubble size",
+      "unit": "um",
+      "low": 30,
+      "high": 100,
+      "basis": "published DAF design range",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "Veolia DAF literature, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "hydraulic loading rate",
+      "unit": "m/h",
+      "low": 5,
+      "high": 15,
+      "basis": "typical DAF design HLR",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "Veolia DAF literature, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "Veolia DAF portfolio pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/h design flow, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

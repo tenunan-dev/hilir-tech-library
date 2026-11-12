@@ -1,0 +1,67 @@
+{
+  "id": "wwt-ozone-generators",
+  "name": "Ozone generators",
+  "equipment_type": "ozone-generators",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "Corona-discharge ozone generation on oxygen feed with side-stream injection for micropollutant control and disinfection.",
+  "subtypes": [
+    {
+      "name": "medium-frequency tube generators"
+    },
+    {
+      "name": "high-concentration (Primozone)"
+    }
+  ],
+  "applications": [
+    "tertiary ozone-BAC",
+    "industrial oxidation"
+  ],
+  "specifications": [
+    {
+      "metric": "ozone dose applied",
+      "unit": "mg/L",
+      "low": 0.5,
+      "high": 3,
+      "basis": "published micropollutant dosing",
+      "source": {
+        "url": "https://www.xylem.com/",
+        "note": "Wedeco pages, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "xylem",
+      "line": "Wedeco",
+      "models": [
+        "Effizon HP generators"
+      ],
+      "range": "oxygen-fed corona discharge"
+    }
+  ],
+  "vendors": [
+    "xylem"
+  ],
+  "technologies": [
+    "wwt-ozone",
+    "wwt-aop"
+  ],
+  "sources": [
+    {
+      "source_id": "xylem",
+      "url": "https://www.xylem.com/",
+      "note": "Wedeco ozone pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model kg-O3/h ranges",
+      "why": "datasheets not read",
+      "next_action": "Read Wedeco generator model pages"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

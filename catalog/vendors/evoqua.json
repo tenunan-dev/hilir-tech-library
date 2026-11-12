@@ -1,0 +1,25 @@
+{
+  "id": "evoqua",
+  "name": "Evoqua Water Technologies",
+  "country": "US",
+  "roles": [
+    "supplier",
+    "service"
+  ],
+  "categories": [
+    "equipment-oem",
+    "engineering-consultancy"
+  ],
+  "description": "Water treatment OEM and services (Xylem-owned from 2023-05 acquisition; kept as its own record while brands persist): DAF systems, chlorination/disinfection, membranes and aftermarket services.",
+  "technologies": [
+    "wwt-daf"
+  ],
+  "url": "https://www.evoqua.com/",
+  "sources": [
+    {
+      "url": "https://www.evoqua.com/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

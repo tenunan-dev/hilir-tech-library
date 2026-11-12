@@ -1,0 +1,124 @@
+{
+  "id": "wwt-sludge-drying",
+  "name": "Thermal sludge drying and pyrolysis",
+  "aliases": [
+    "belt dryer",
+    "drum drying",
+    "sludge pyrolysis"
+  ],
+  "sector": "WWT",
+  "category": "Sludge and biogas",
+  "applications": [
+    "sludge volume/weight minimisation",
+    "biosolids product manufacture",
+    "energy recovery via pyrolysis"
+  ],
+  "maturity": "commercial",
+  "principle": "Published practice (Andritz, HUBER, KOPF): dewatered cake (20-28% DS) is dried with waste heat or steam in belt/drum dryers to 90%+ DS (biosolids pellets); pyrolysis variants heat sludge 400-600 C oxygen-free to biochar and syngas, now scaling as a phosphorus-recovery route; evaporated water condensate returns to the plant head.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Dewatered cake feed",
+      "equipment": [
+        "cake pumps and feeders"
+      ],
+      "to": [
+        "DRY"
+      ],
+      "streams": {
+        "DRY": "wet cake"
+      }
+    },
+    {
+      "id": "DRY",
+      "name": "Thermal drying",
+      "equipment": [
+        "belt or drum dryer (low-temperature, waste-heat driven)"
+      ],
+      "to": [
+        "PELLET"
+      ],
+      "streams": {
+        "PELLET": "dried granules"
+      }
+    },
+    {
+      "id": "PELLET",
+      "name": "Pelletising and storage",
+      "equipment": [
+        "pellet mills, silos"
+      ]
+    },
+    {
+      "id": "PYRO",
+      "name": "Pyrolysis (variant route)",
+      "equipment": [
+        "pyrolysis kiln 400-600 C"
+      ],
+      "to": [
+        "CHAR"
+      ],
+      "streams": {
+        "CHAR": "biochar"
+      }
+    },
+    {
+      "id": "CHAR",
+      "name": "Biochar product",
+      "equipment": [
+        "char handling"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "belt/drum dryers",
+    "pellet mills",
+    "pyrolysis kiln (variant)"
+  ],
+  "suppliers": [
+    {
+      "name": "Andritz",
+      "product": "drum/belt dryers"
+    },
+    {
+      "name": "HUBER SE",
+      "product": "SRT sludge dryers"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "dried solids content",
+      "unit": "% DS",
+      "low": 90,
+      "high": 95,
+      "basis": "published dryer output",
+      "source": {
+        "url": "https://www.huber.de/",
+        "note": "HUBER dryer pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "andritz-separation",
+      "url": "https://www.andritz.com/products-separation",
+      "note": "Andritz sludge drying pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per t DS, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

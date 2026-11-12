@@ -1,9 +1,66 @@
 # Equipment catalog
 
-12 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+22 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
+
+## aeration
+
+### Aeration systems (blowers and diffusers) (wwt-aeration-systems)
+
+Primary code: WWT: Wastewater and water reuse
+The energy centre of biological treatment: blowers (turbo, screw, lobe) and fine-bubble diffuser grids or mechanical aerators deliver oxygen to activated-sludge and MBBR basins.
+Vendors: Xylem (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| fine-bubble diffuser oxygen transfer efficiency | 2-4 %/m | published SOTE per metre of submergence |
+| turbo blower sizes | 30-500 kW | typical single-unit range |
+
+- **Xylem** Sanitaire: basin aeration systems
+
+Recorded gaps:
+
+- per-model blower efficiency tables — Read Sanitaire/GE turbo blower datasheets
+
+## anaerobic-digesters
+
+### Anaerobic digesters (sludge and organics) (wwt-anaerobic-digesters)
+
+Primary code: WWT: Wastewater and water reuse
+Complete-mix mesophilic/thermophilic digesters with heating, gas mixing and biogas handling; optionally preceded by thermal hydrolysis.
+Vendors: Veolia, Cambi AS, Xergi A/S (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| volatile solids destruction | 40-55 % | published mesophilic range |
+| biogas yield | 700-1100 m3/t VS destroyed | published sludge yields |
+
+- **Cambi AS** THP: pre-THP boosts VS destruction and dewaterability
+
+Recorded gaps:
+
+- per-project digester sizes — Collect digester sizes from reference projects
+
+## biogas-upgrading
+
+### Biogas upgrading units (wwt-biogas-upgraders)
+
+Primary code: WWT: Wastewater and water reuse
+Water-wash, amine, membrane and PSA units upgrading raw biogas to 95-99% methane grid/vehicle spec.
+Vendors: DMT Environmental Technology, Pentair (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| product methane | 95-99 % CH4 | published grid/vehicle spec |
+| methane recovery | 98-99.5 % | published upgrading recovery |
+
+- **DMT Environmental Technology** DMT upgrading: 95-99% CH4 product
+
+Recorded gaps:
+
+- per-model Nm3/h ranges — Read DMT/Pentair model pages
 
 ## boiler
 
@@ -132,6 +189,24 @@ Recorded gaps:
 - energy-loss comparison versus cable-based distribution — Find an engineering comparison study and record losses per 100 m
 - Schneider/Eaton/Anord Mardix busway model lines — Read each vendor's busway range and add model lines
 
+## clarifiers-thickeners
+
+### Clarifiers and thickeners (wwt-clarifiers-thickeners)
+
+Primary code: WWT: Wastewater and water reuse
+Primary/secondary circular clarifiers and gravity/DAF thickeners with scraper bridges, plus lamella packs for high-rate duty.
+Vendors: Veolia, WesTech Engineering (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| lamella effective area gain | 8-10 x | versus tank footprint |
+
+- **Veolia** Actiflo/high-rate: 60-120 m/h loading
+
+Recorded gaps:
+
+- per-model tank sizes — Read WesTech/Veolia clarifier model pages
+
 ## compressor
 
 ### Centrifugal compressor (compressor-centrifugal)
@@ -171,6 +246,84 @@ Recorded gaps:
 - containment-integrated efficiency figures (kW per kW of heat) — Read the DSE and Liebert CW/PCW datasheets for efficiency data
 - Stulz and Schneider (Uniflair) model lines — Read both vendor ranges and add model lines
 
+## daf-units
+
+### Dissolved air flotation units (wwt-daf-units)
+
+Primary code: WWT: Wastewater and water reuse
+DAF clarifiers: air-saturation vessels release 30-100 um microbubbles into coagulated water; floated flocs are scraped off as a thick float sludge.
+Vendors: Veolia, Evoqua Water Technologies (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| microbubble size | 30-100 um | published DAF design range |
+| hydraulic loading | 5-15 m/h | typical design HLR |
+
+- **Veolia** F flotation family: 5-15 m/h loading
+
+Recorded gaps:
+
+- per-model flow ranges — Read Veolia/Evoqua DAF model pages
+
+## evaporator-crystallisers
+
+### ZLD evaporators and crystallisers (wwt-evaporator-crystallisers)
+
+Primary code: WWT: Wastewater and water reuse
+Mechanical-vapour-recompression evaporators and forced-circulation crystallisers that end ZLD trains: distillate recycled, salts recovered as solids.
+Vendors: Aquatech International, Veolia (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| distillate TDS | 1-10 mg/L | Aquatech published ZLD performance |
+| brine concentration reached | 200000-280000 mg/L TDS | Aquatech published ZLD performance |
+
+- **Aquatech International** Aquatech ZLD: full ZLD trains
+
+Recorded gaps:
+
+- per-model m3/d ranges — Read Aquatech/Veolia HPD model pages
+
+## membrane-systems
+
+### MF/UF/RO membrane systems (wwt-membrane-systems)
+
+Primary code: WWT: Wastewater and water reuse
+Pressure-driven membrane systems for water reuse: hollow-fibre microfiltration/ultrafiltration (0.02-0.1 um) pretreatment and spiral-wound reverse osmosis trains that reject salts and micropollutants.
+Vendors: SUEZ Water Technologies, DuPont Water Solutions, Toray Industries, Nitto / Hydranautics (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| UF pore size | 0.02-0.1 um | hollow-fibre MF/UF ratings |
+| RO element sizes | 8-16 inch | standard 8-inch and large 16-inch elements |
+| RO permeate recovery (reuse trains) | 75-85 % | typical municipal reuse design recovery |
+
+- **SUEZ Water Technologies** ZeeWeed 500D/1000: submerged and pressurised UF modules
+- **DuPont Water Solutions** FilmTec / IntegraFlux: brackish and low-energy RO elements
+- **Toray Industries** ROMEMBRA / submerged flat sheet: RO and MBR modules
+
+Recorded gaps:
+
+- per-model flux and pressure tables — Read FilmTec and ZeeWeed datasheets and record per-model figures
+
+## ozone-generators
+
+### Ozone generators (wwt-ozone-generators)
+
+Primary code: WWT: Wastewater and water reuse
+Corona-discharge ozone generation on oxygen feed with side-stream injection for micropollutant control and disinfection.
+Vendors: Xylem (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ozone dose applied | 0.5-3 mg/L | published micropollutant dosing |
+
+- **Xylem** Wedeco: oxygen-fed corona discharge
+
+Recorded gaps:
+
+- per-model kg-O3/h ranges — Read Wedeco generator model pages
+
 ## pump
 
 ### Centrifugal pump (API 610 and general service) (pump-centrifugal)
@@ -190,6 +343,28 @@ Recorded gaps:
 
 - per-model flow, head and pressure ranges for the API 610 families (Sulzer ZE/ZP/ZPP, Flowserve Mark III/OH2/BB5, KSB) — fetch the Sulzer ZE/ZPP and Flowserve OH2/BB5 family pages (browser session if needed) and add per-model ranges
 - energy-footprint and efficiency benchmark for process pumps — Hydraulic Institute (pumps.org) pumping-system assessment publication is the natural source
+
+## sludge-dewatering
+
+### Sludge dewatering equipment (wwt-sludge-dewatering-equipment)
+
+Primary code: WWT: Wastewater and water reuse
+Decanter centrifuges, belt filter presses, membrane filter presses and screw presses that turn conditioned sludge into 18-40% DS cake.
+Vendors: Alfa Laval, ANDRITZ, Flottweg SE, HUBER SE (4 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| centrifuge cake DS on digested sludge | 22-30 % DS | published centrifuge performance |
+| membrane press cake DS | 30-40 % DS | published filter-press performance |
+
+- **Alfa Laval** decanters: municipal sludge duty
+- **ANDRITZ** presses: 18-40% DS cake
+- **Flottweg SE** Tricanter: simultaneous solids/oil/water separation
+- **HUBER SE** Q-PRESS: 6-25% DS cake, low power
+
+Recorded gaps:
+
+- per-model capacities — Read Alfa Laval/Andritz/Flottweg model pages
 
 ## switchgear
 
@@ -254,3 +429,21 @@ Recorded gaps:
 
 - efficiency per operating mode (double-conversion vs eco) — Read the EXL S1 datasheet efficiency tables and record per-mode figures
 - Schneider Galaxy VX/VL and Eaton 93PM capacity ranges — Read both vendor product pages and add model lines
+
+## uv-reactors
+
+### UV disinfection reactors (wwt-uv-reactors)
+
+Primary code: WWT: Wastewater and water reuse
+Closed-vessel or open-channel UV systems (low-pressure, medium-pressure, LED) delivering 20-100 mJ/cm2 with validated dose monitoring.
+Vendors: Trojan Technologies, Xylem (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| delivered dose | 20-100 mJ/cm2 | published municipal range |
+
+- **Trojan Technologies** UVSwift/UltraFlow: municipal open-channel and closed-vessel
+
+Recorded gaps:
+
+- per-model lamp counts and flows — Read Trojan/UVDI model pages

@@ -1,0 +1,82 @@
+{
+  "id": "wwt-anaerobic-digesters",
+  "name": "Anaerobic digesters (sludge and organics)",
+  "equipment_type": "anaerobic-digesters",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "Complete-mix mesophilic/thermophilic digesters with heating, gas mixing and biogas handling; optionally preceded by thermal hydrolysis.",
+  "subtypes": [
+    {
+      "name": "mesophilic complete-mix"
+    },
+    {
+      "name": "thermophilic"
+    },
+    {
+      "name": "thermal-hydrolysis pretreated"
+    }
+  ],
+  "applications": [
+    "municipal sludge",
+    "co-digestion"
+  ],
+  "specifications": [
+    {
+      "metric": "volatile solids destruction",
+      "unit": "%",
+      "low": 40,
+      "high": 55,
+      "basis": "published mesophilic range",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published AD practice, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "biogas yield",
+      "unit": "m3/t VS destroyed",
+      "low": 700,
+      "high": 1100,
+      "basis": "published sludge yields",
+      "source": {
+        "url": "https://www.veoliawatertech.com/",
+        "note": "published AD practice, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "cambi",
+      "line": "THP",
+      "models": [
+        "Cambi thermal hydrolysis + digester trains"
+      ],
+      "range": "pre-THP boosts VS destruction and dewaterability"
+    }
+  ],
+  "vendors": [
+    "veolia",
+    "cambi",
+    "xergi"
+  ],
+  "technologies": [
+    "wwt-sludge-digestion"
+  ],
+  "sources": [
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "digestion context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-project digester sizes",
+      "why": "project datasheets not read",
+      "next_action": "Collect digester sizes from reference projects"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

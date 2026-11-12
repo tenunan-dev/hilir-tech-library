@@ -1,0 +1,25 @@
+{
+  "id": "pub-singapore",
+  "name": "Singapore PUB (National Water Agency)",
+  "country": "SG",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Singapore's national water agency; NEWater advanced-purification scheme owner and the Tuas/Changi water-reclamation plant operator.",
+  "technologies": [
+    "wwt-potable-reuse-schemes",
+    "wwt-ro-reuse-train",
+    "wwt-membrane-bioreactor"
+  ],
+  "url": "https://www.pub.gov.sg/",
+  "sources": [
+    {
+      "url": "https://www.pub.gov.sg/",
+      "note": "Homepage live, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

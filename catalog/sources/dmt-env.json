@@ -1,0 +1,27 @@
+{
+  "name": "DMT Environmental Technology (biogas)",
+  "url": "https://www.dmt.nl/",
+  "source_type": "licensor",
+  "sectors": [
+    "WWT",
+    "H2"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Biogas upgrading (membrane, amine); registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "dmt-env",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "DMT Environmental Technology (biogas)",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ANDRITZ Separation",
+  "url": "https://www.andritz.com/products-separation",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Decanter, belt press, sludge drying; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "andritz-separation",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "ANDRITZ Separation",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

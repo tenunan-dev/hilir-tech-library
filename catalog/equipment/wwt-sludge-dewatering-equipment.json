@@ -1,0 +1,116 @@
+{
+  "id": "wwt-sludge-dewatering-equipment",
+  "name": "Sludge dewatering equipment",
+  "equipment_type": "sludge-dewatering",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "description": "Decanter centrifuges, belt filter presses, membrane filter presses and screw presses that turn conditioned sludge into 18-40% DS cake.",
+  "subtypes": [
+    {
+      "name": "decanter centrifuge"
+    },
+    {
+      "name": "belt filter press"
+    },
+    {
+      "name": "membrane filter press"
+    },
+    {
+      "name": "screw press"
+    }
+  ],
+  "applications": [
+    "digested and raw sludge dewatering"
+  ],
+  "specifications": [
+    {
+      "metric": "centrifuge cake DS on digested sludge",
+      "unit": "% DS",
+      "low": 22,
+      "high": 30,
+      "basis": "published centrifuge performance",
+      "source": {
+        "url": "https://www.alfalaval.com/",
+        "note": "Alfa Laval decanter pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "membrane press cake DS",
+      "unit": "% DS",
+      "low": 30,
+      "high": 40,
+      "basis": "published filter-press performance",
+      "source": {
+        "url": "https://www.andritz.com/",
+        "note": "Andritz press pages, read 2026-11-13"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alfalaval",
+      "line": "decanters",
+      "models": [
+        "ALDEC sludge decanters"
+      ],
+      "range": "municipal sludge duty"
+    },
+    {
+      "vendor": "andritz",
+      "line": "presses",
+      "models": [
+        "belt presses",
+        "membrane filter presses"
+      ],
+      "range": "18-40% DS cake"
+    },
+    {
+      "vendor": "flottweg",
+      "line": "Tricanter",
+      "models": [
+        "Tricanter 3-phase decanters"
+      ],
+      "range": "simultaneous solids/oil/water separation"
+    },
+    {
+      "vendor": "huber-se",
+      "line": "Q-PRESS",
+      "models": [
+        "screw presses"
+      ],
+      "range": "6-25% DS cake, low power"
+    }
+  ],
+  "vendors": [
+    "alfalaval",
+    "andritz",
+    "flottweg",
+    "huber-se"
+  ],
+  "technologies": [
+    "wwt-sludge-dewatering",
+    "wwt-sludge-digestion"
+  ],
+  "sources": [
+    {
+      "source_id": "alfa-laval",
+      "url": "https://www.alfalaval.com/",
+      "note": "decanter pages, read 2026-11-13"
+    },
+    {
+      "source_id": "huber-se",
+      "url": "https://www.huber.de/",
+      "note": "Q-PRESS pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "per-model capacities",
+      "why": "vendor tables not read",
+      "next_action": "Read Alfa Laval/Andritz/Flottweg model pages"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

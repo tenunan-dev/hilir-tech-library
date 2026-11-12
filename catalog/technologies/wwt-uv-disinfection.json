@@ -1,0 +1,118 @@
+{
+  "id": "wwt-uv-disinfection",
+  "name": "UV disinfection",
+  "aliases": [
+    "UV",
+    "ultraviolet disinfection",
+    "Trojan UVSwift"
+  ],
+  "sector": "WWT",
+  "category": "Disinfection and advanced oxidation",
+  "applications": [
+    "municipal effluent disinfection",
+    "reuse trains (pathogen barrier)",
+    "potable and industrial water"
+  ],
+  "maturity": "commercial",
+  "principle": "Published licensor practice (Trojan, Xylem Wedeco): water passes banks of low-pressure or medium-pressure UV lamps (or emerging LED arrays) emitting ~254 nm UV-C that damages microbial DNA/UV-C proteins at a delivered dose of 20-100 mJ/cm2; no chemical residual, no DBPs; reactors sized with validated dose-monitoring and automatic lamp-intensity control.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Filtered effluent feed",
+      "equipment": [
+        "feed channel"
+      ]
+    },
+    {
+      "id": "UV",
+      "name": "UV reactor exposure",
+      "equipment": [
+        "low- or medium-pressure lamp banks (Trojan UVSwift/UltraFlow)",
+        "dose monitoring sensors",
+        "automatic wipers"
+      ],
+      "to": [
+        "OUT"
+      ],
+      "streams": {
+        "OUT": "disinfected water"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "Disinfected outfall",
+      "equipment": [
+        "discharge"
+      ]
+    },
+    {
+      "id": "MAINT",
+      "name": "Lamp maintenance",
+      "equipment": [
+        "sleeve wiping, lamp replacement schedule"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "UV lamp banks",
+    "dose sensors",
+    "wiping systems"
+  ],
+  "suppliers": [
+    {
+      "name": "Trojan Technologies",
+      "product": "UVSwift/UltraFlow municipal reactors"
+    },
+    {
+      "name": "Xylem",
+      "product": "Wedeco UV systems"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "delivered UV dose",
+      "unit": "mJ/cm2",
+      "low": 20,
+      "high": 100,
+      "basis": "published municipal dose range",
+      "source": {
+        "url": "https://www.trojantechnologies.com/",
+        "note": "Trojan product pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "log reduction of bacteria/viruses",
+      "unit": "log",
+      "low": 4,
+      "high": 6,
+      "basis": "published UV performance",
+      "source": {
+        "url": "https://www.trojantechnologies.com/",
+        "note": "Trojan product pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "trojan-technologies",
+      "url": "https://www.trojantechnologies.com/",
+      "note": "Trojan UV pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

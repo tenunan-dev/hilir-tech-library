@@ -1,0 +1,132 @@
+{
+  "id": "wwt-anmbr",
+  "name": "Anaerobic membrane bioreactor (AnMBR)",
+  "aliases": [
+    "AnMBR",
+    "anaerobic MBR"
+  ],
+  "sector": "WWT",
+  "category": "Anaerobic treatment",
+  "applications": [
+    "high-COD industrial effluent with full solids retention",
+    "low-temperature or dilute streams",
+    "energy-positive treatment"
+  ],
+  "maturity": "demonstration",
+  "principle": "Combines anaerobic treatment with membrane solids retention: an anaerobic reactor (CSTR or UASB-style) paired with submerged or sidestream UF/MF membranes holds all biomass and solids, enabling long SRT at short HRT, biogas capture from dilute feeds and a solids-free effluent; licensor equipment follows Kubota/ADI published configurations (submerged flat-plate or hollow-fibre modules under gas scour).",
+  "process_steps": [
+    {
+      "id": "REACT",
+      "name": "Anaerobic reactor",
+      "equipment": [
+        "complete-mix or upflow anaerobic reactor",
+        "mixing and heating"
+      ],
+      "to": [
+        "MEM"
+      ],
+      "streams": {
+        "MEM": "digested liquor"
+      }
+    },
+    {
+      "id": "MEM",
+      "name": "Membrane solids retention",
+      "equipment": [
+        "submerged UF/MF modules with gas scour",
+        "permeate pump"
+      ],
+      "to": [
+        "PERM",
+        "RAS"
+      ],
+      "streams": {
+        "PERM": "solids-free permeate",
+        "RAS": "retained biomass"
+      }
+    },
+    {
+      "id": "PERM",
+      "name": "Permeate polishing",
+      "equipment": [
+        "nutrient or sulphide polishing as needed"
+      ]
+    },
+    {
+      "id": "GAS",
+      "name": "Biogas capture",
+      "equipment": [
+        "gas dome and handling"
+      ]
+    },
+    {
+      "id": "RAS",
+      "name": "Biomass return",
+      "equipment": [
+        "recirculation pumps"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "anaerobic reactor",
+    "submerged membrane modules",
+    "biogas handling"
+  ],
+  "suppliers": [
+    {
+      "name": "Kubota",
+      "product": "submerged flat-plate membranes for AnMBR"
+    },
+    {
+      "name": "ADI Systems (Veolia)",
+      "product": "AnMBR configurations"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "COD removal",
+      "unit": "%",
+      "low": 85,
+      "high": 95,
+      "basis": "published AnMBR performance on industrial effluent",
+      "source": {
+        "url": "https://kubota-membrane.com/",
+        "note": "Kubota membrane pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "operating flux",
+      "unit": "LMH",
+      "low": 7,
+      "high": 15,
+      "basis": "typical submerged AnMBR flux",
+      "source": {
+        "url": "https://kubota-membrane.com/",
+        "note": "Kubota membrane pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "kubota-membrane",
+      "url": "https://kubota-membrane.com/",
+      "note": "Kubota membrane pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

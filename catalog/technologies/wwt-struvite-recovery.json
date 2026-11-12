@@ -1,0 +1,126 @@
+{
+  "id": "wwt-struvite-recovery",
+  "name": "Nutrient recovery (struvite and ammonia)",
+  "aliases": [
+    "struvite",
+    "Pearl process",
+    "P recovery"
+  ],
+  "sector": "WWT",
+  "category": "Resource recovery and ZLD",
+  "applications": [
+    "P recovery from digester centrate",
+    "fertiliser by-product revenue",
+    "struvite-scale prevention"
+  ],
+  "maturity": "commercial",
+  "principle": "Licensor-first (Ostara Pearl published flow): centrate is fed a reactor where Mg and controlled pH precipitate struvite (MgNH4PO4.6H2O) as spherical pellets harvested continuously; Ostara markets the pellets as Crystal Green fertiliser; ammonia-stripping variants recover N as ammonium sulphate; Paques PHOSPAQ pairs struvite with anaerobic ammonium oxidation.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Centrate/P-rich sidestream feed",
+      "equipment": [
+        "feed pumps"
+      ],
+      "to": [
+        "RCT"
+      ],
+      "streams": {
+        "RCT": "centrate"
+      }
+    },
+    {
+      "id": "RCT",
+      "name": "Struvite crystallisation",
+      "equipment": [
+        "Pearl reactor (fluidised crystallisation)",
+        "Mg dosing, pH control"
+      ],
+      "to": [
+        "HARV"
+      ],
+      "streams": {
+        "HARV": "slurry with pellets"
+      }
+    },
+    {
+      "id": "HARV",
+      "name": "Pellet harvesting and dewatering",
+      "equipment": [
+        "screens, dryers"
+      ],
+      "to": [
+        "PROD"
+      ],
+      "streams": {
+        "PROD": "Crystal Green pellets"
+      }
+    },
+    {
+      "id": "PROD",
+      "name": "Fertiliser product",
+      "equipment": [
+        "bagging"
+      ]
+    },
+    {
+      "id": "SUPP",
+      "name": "Ammonia recovery (variant)",
+      "equipment": [
+        "ammonia stripper and absorber to ammonium sulphate"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "struvite crystalliser",
+    "Mg dosing",
+    "pellet harvesting",
+    "ammonia stripper (variant)"
+  ],
+  "suppliers": [
+    {
+      "name": "Ostara",
+      "product": "Pearl process and Crystal Green fertiliser"
+    },
+    {
+      "name": "Paques",
+      "product": "PHOSPAQ combined recovery"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "P recovery from centrate",
+      "unit": "%",
+      "low": 80,
+      "high": 90,
+      "basis": "published Pearl performance",
+      "source": {
+        "url": "https://ostara.com/",
+        "note": "Ostara Pearl pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ostara",
+      "url": "https://ostara.com/",
+      "note": "Ostara Pearl process pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per kg P recovered, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

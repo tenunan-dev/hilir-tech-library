@@ -1,0 +1,26 @@
+{
+  "name": "Flottweg Separation Technology",
+  "url": "https://www.flottweg.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Tricanter, decanter centrifuges for sludge; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "flottweg",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Flottweg Separation Technology",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

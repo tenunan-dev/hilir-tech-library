@@ -1,0 +1,118 @@
+{
+  "id": "wwt-nanofiltration",
+  "name": "Nanofiltration for selective separations",
+  "aliases": [
+    "NF",
+    "nanofiltration elements"
+  ],
+  "sector": "WWT",
+  "category": "Membrane and reuse",
+  "applications": [
+    "selective divalent/salt rejection",
+    "softening and micropollutant removal",
+    "dye and surfactant separations"
+  ],
+  "maturity": "commercial",
+  "principle": "Published licensor practice (DuPont FilmTec NF, Toray): spiral-wound NF elements pass monovalent salts but reject divalent ions, organics (200+ Da) and micropollutants at roughly half the pressure of RO; used for softening, selective salt fractionation and polishing in reuse trains.",
+  "process_steps": [
+    {
+      "id": "PRE",
+      "name": "Pretreated feed",
+      "equipment": [
+        "MF/UF or cartridge guards"
+      ]
+    },
+    {
+      "id": "NF",
+      "name": "Nanofiltration stage",
+      "equipment": [
+        "NF spiral-wound elements in pressure vessels",
+        "intermediate pumps"
+      ],
+      "to": [
+        "PERM",
+        "CONC"
+      ],
+      "streams": {
+        "PERM": "softened permeate",
+        "CONC": "divalent-rich concentrate"
+      }
+    },
+    {
+      "id": "PERM",
+      "name": "Permeate use",
+      "equipment": [
+        "distribution or further RO"
+      ]
+    },
+    {
+      "id": "CONC",
+      "name": "Concentrate handling",
+      "equipment": [
+        "disposal or recovery"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "NF elements",
+    "pressure vessels",
+    "pumps"
+  ],
+  "suppliers": [
+    {
+      "name": "DuPont Water Solutions",
+      "product": "FilmTec NF270 family"
+    },
+    {
+      "name": "Toray",
+      "product": "NFC/NF elements"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "divalent salt rejection",
+      "unit": "%",
+      "low": 95,
+      "high": 99,
+      "basis": "published FilmTec NF performance",
+      "source": {
+        "url": "https://www.dupont.com/water.html",
+        "note": "DuPont NF pages, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "operating pressure vs RO",
+      "unit": "x",
+      "low": 0.4,
+      "high": 0.6,
+      "basis": "NF runs at roughly half RO pressure",
+      "source": {
+        "url": "https://www.dupont.com/water.html",
+        "note": "DuPont NF pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dupont-water",
+      "url": "https://www.dupont.com/water.html",
+      "note": "DuPont FilmTec NF pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

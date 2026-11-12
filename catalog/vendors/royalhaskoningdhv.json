@@ -1,0 +1,25 @@
+{
+  "id": "royalhaskoningdhv",
+  "name": "Royal HaskoningDHV",
+  "country": "NL",
+  "roles": [
+    "licensor",
+    "epc"
+  ],
+  "categories": [
+    "process-licensor",
+    "plant-epc"
+  ],
+  "description": "Nereda aerobic granular sludge licensor and engineering consultancy/EPC.",
+  "technologies": [
+    "wwt-aerobic-granular-sludge"
+  ],
+  "url": "https://www.nereda.net/",
+  "sources": [
+    {
+      "url": "https://www.nereda.net/",
+      "note": "Nereda site live (405 on HEAD probe; GET verified), read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

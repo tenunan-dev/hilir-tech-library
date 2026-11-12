@@ -3,43 +3,62 @@
   "name": "Biogas upgrading to biomethane",
   "aliases": [
     "biomethane",
-    "biogas upgrading"
+    "DMT membrane upgrading",
+    "biogas upgrading",
+    "biogas upgrading (WWTP)"
   ],
   "sector": "H2",
   "category": "Low-carbon fuels / biogas",
   "applications": [],
   "maturity": "commercial",
-  "principle": "CO2 is removed from biogas to reach pipeline-grade biomethane using water scrubbing, PSA, membranes, amine scrubbing or cryogenic separation. IEA Bioenergy Task 37 lists methane slip as below 0.1% for amines, 0.5 to 1% for membranes, 1 to 2% for water scrubbing and PSA, and 2 to 4% for physical adsorption.",
+  "principle": "Licensor-first flow (DMT/Pentair published trains): raw biogas (~60% CH4, ~1% H2S) is compressed, H2S removed biologically or on carbon, then CO2 separated by water wash, amine wash, membrane separation or PSA to 95-99% methane (grid/vehicle spec); dewpointing and odorisation complete the product. Used at WWTP digesters and farm/landfill biogas alike.",
   "process_steps": [
     {
-      "id": "PRE",
-      "name": "Compression and H2S/moisture removal",
+      "id": "COMP",
+      "name": "Compression and conditioning",
       "equipment": [
-        "compressor",
-        "activated carbon"
+        "compressors",
+        "condensate knock-out"
       ],
       "to": [
-        "SEP"
-      ]
+        "H2S"
+      ],
+      "streams": {
+        "H2S": "pressurised raw gas"
+      }
     },
     {
-      "id": "SEP",
+      "id": "H2S",
+      "name": "H2S removal",
+      "equipment": [
+        "biological desulphurisation (THIOPAQ) or activated carbon"
+      ],
+      "to": [
+        "CO2"
+      ],
+      "streams": {
+        "CO2": "clean gas"
+      }
+    },
+    {
+      "id": "CO2",
       "name": "CO2 separation",
       "equipment": [
-        "scrubber, PSA or membrane"
+        "water wash, amine wash, membranes or PSA"
       ],
       "to": [
-        "POL"
-      ]
+        "PROD"
+      ],
+      "streams": {
+        "PROD": "biomethane"
+      }
     },
     {
-      "id": "POL",
-      "name": "Polishing and injection",
+      "id": "PROD",
+      "name": "Product conditioning",
       "equipment": [
-        "dryer",
-        "odoriser"
-      ],
-      "to": []
+        "dewpointing, odorisation, calorific adjustment"
+      ]
     }
   ],
   "key_equipment": [
@@ -50,15 +69,19 @@
   ],
   "suppliers": [
     {
+      "name": "DMT Environmental Technology",
+      "product": "membrane and amine upgrading skids"
+    },
+    {
+      "name": "Pentair",
+      "product": "water-wash upgrading"
+    },
+    {
       "name": "Air Liquide",
       "product": "register examples"
     },
     {
       "name": "Bright Biomethane",
-      "product": "register examples"
-    },
-    {
-      "name": "Pentair",
       "product": "register examples"
     }
   ],
@@ -95,15 +118,12 @@
   ],
   "sources": [
     {
-      "url": "https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf",
-      "note": "IEA Bioenergy Task 37, Methane slip from biogas upgrading (January 2023)"
-    },
-    {
-      "url": "https://www.pge.com/assets/pipeline/docs/products/biomethane/WaterChemicalScrubbing_TechnicalAnalysis.pdf",
-      "note": "PG&E biogas upgrading energy analysis"
+      "source_id": "dmt-env",
+      "url": "https://www.dmt.nl/",
+      "note": "DMT biogas upgrading pages, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-13",
   "gaps": [
     {
       "field": "costs",

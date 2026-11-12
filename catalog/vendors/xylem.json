@@ -1,0 +1,27 @@
+{
+  "id": "xylem",
+  "name": "Xylem",
+  "country": "US",
+  "roles": [
+    "supplier",
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Global water technology company (ex-ITT): Sanitaire aeration, Wedeco ozone and UV, flygt pumps; its products span the biological, disinfection and advanced-oxidation equipment of treatment plants.",
+  "technologies": [
+    "wwt-activated-sludge",
+    "wwt-uv-disinfection",
+    "wwt-ozone",
+    "wwt-aop"
+  ],
+  "url": "https://www.xylem.com/",
+  "sources": [
+    {
+      "url": "https://www.xylem.com/",
+      "note": "Homepage live (405 on HEAD probe; GET verified earlier), read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

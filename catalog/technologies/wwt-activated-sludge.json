@@ -1,0 +1,132 @@
+{
+  "id": "wwt-activated-sludge",
+  "name": "Conventional activated sludge",
+  "aliases": [
+    "CAS",
+    "oxidation ditch",
+    "extended aeration"
+  ],
+  "sector": "WWT",
+  "category": "Biological treatment",
+  "applications": [
+    "municipal sewage treatment",
+    "industrial biological pretreatment"
+  ],
+  "maturity": "commercial",
+  "principle": "The workhorse municipal process: primary-settled sewage is aerated with return activated sludge so a flocculent mixed community oxidises BOD and nitrifies ammonia; secondary clarification separates sludge, part returned as RAS, part wasted. Commodity process knowledge; vendors supply aeration and clarification equipment.",
+  "process_steps": [
+    {
+      "id": "PRIM",
+      "name": "Primary clarification",
+      "equipment": [
+        "primary clarifiers"
+      ]
+    },
+    {
+      "id": "AER",
+      "name": "Aeration basin",
+      "equipment": [
+        "fine-bubble diffusers",
+        "blowers"
+      ],
+      "to": [
+        "SEC"
+      ],
+      "streams": {
+        "SEC": "nitrified mixed liquor"
+      }
+    },
+    {
+      "id": "SEC",
+      "name": "Secondary clarification",
+      "equipment": [
+        "secondary clarifiers"
+      ],
+      "to": [
+        "DIS",
+        "RAS"
+      ],
+      "streams": {
+        "DIS": "clarified effluent",
+        "RAS": "settled sludge"
+      }
+    },
+    {
+      "id": "RAS",
+      "name": "Return and waste sludge",
+      "equipment": [
+        "RAS pumps",
+        "WAS line to thickening"
+      ]
+    },
+    {
+      "id": "DIS",
+      "name": "Disinfection and discharge",
+      "equipment": [
+        "UV or chlorine contact"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "aeration blowers and diffusers",
+    "secondary clarifiers",
+    "RAS/WAS pumping"
+  ],
+  "suppliers": [
+    {
+      "name": "Xylem",
+      "product": "Sanitaire aeration systems"
+    },
+    {
+      "name": "Suez",
+      "product": "aeration and clarification"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "BOD removal",
+      "unit": "%",
+      "low": 90,
+      "high": 98,
+      "basis": "published design performance",
+      "source": {
+        "url": "https://www.xylem.com/",
+        "note": "published CAS practice, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "design loading",
+      "unit": "kg BOD/m3.d",
+      "low": 0.3,
+      "high": 1.0,
+      "basis": "conventional design range",
+      "source": {
+        "url": "https://www.xylem.com/",
+        "note": "published CAS practice, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "xylem",
+      "url": "https://www.xylem.com/",
+      "note": "Xylem aeration portfolio context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

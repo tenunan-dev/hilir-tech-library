@@ -1,0 +1,26 @@
+{
+  "name": "Ranhill Utilities",
+  "url": "https://www.ranhill.com.my/",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Malaysian water/wastewater utility and EPC; registered 2026-11-13 WWT phase 2.",
+  "quality_tier": 3,
+  "id": "ranhill",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Ranhill Utilities",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,0 +1,111 @@
+{
+  "id": "wwt-potable-reuse-schemes",
+  "name": "Potable reuse schemes (IPR/DPR)",
+  "aliases": [
+    "indirect potable reuse",
+    "direct potable reuse",
+    "advanced purification schemes"
+  ],
+  "sector": "WWT",
+  "category": "Membrane and reuse",
+  "applications": [
+    "Singapore NEWater",
+    "California IPR/DPR projects",
+    "water-stressed coastal cities"
+  ],
+  "maturity": "commercial",
+  "principle": "Scheme-level card: advanced purification (MF/UF + RO + UV/AOP per wwt-ro-reuse-train) is inserted between secondary treatment and the potable network, either indirectly (reservoir/aquifer environmental buffer, IPR) or directly (DPR with engineered storage and intensified monitoring); Singapore NEWater (PUB) is the flagship SEA reference meeting up to 40% of demand.",
+  "process_steps": [
+    {
+      "id": "AP",
+      "name": "Advanced purification train",
+      "equipment": [
+        "MF/UF + RO + UV AOP (see wwt-ro-reuse-train)"
+      ],
+      "to": [
+        "IPR"
+      ],
+      "streams": {
+        "IPR": "purified water"
+      }
+    },
+    {
+      "id": "IPR",
+      "name": "Environmental buffer or engineered storage",
+      "equipment": [
+        "reservoir, aquifer injection or clean-water tank"
+      ],
+      "to": [
+        "DIST"
+      ],
+      "streams": {
+        "DIST": "potable distribution"
+      }
+    },
+    {
+      "id": "DIST",
+      "name": "Blending and distribution",
+      "equipment": [
+        "blend control, monitoring"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Multi-barrier monitoring",
+      "equipment": [
+        "online quality instruments, QMRA"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "advanced purification train",
+    "environmental buffer or engineered storage",
+    "quality monitoring"
+  ],
+  "suppliers": [
+    {
+      "name": "Singapore PUB",
+      "product": "NEWater scheme owner (operating model)"
+    },
+    {
+      "name": "Suez",
+      "product": "advanced purification equipment"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "NEWater share of Singapore demand",
+      "unit": "%",
+      "low": 30,
+      "high": 40,
+      "basis": "PUB published NEWater contribution",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "PUB NEWater pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "pub-singapore",
+      "url": "https://www.pub.gov.sg/",
+      "note": "PUB NEWater scheme pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3 purified, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-294 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+311 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -134,7 +134,6 @@
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted |
 | [Air Products LNG and hydrogen technology](https://www.airproducts.com/) | licensor | global | open | full-text-restricted |
 | [Alberta Open Data portal](https://open.alberta.ca) | agency-data | na | open | full-text-open (unverified) |
-| [Alfa Laval](https://www.alfalaval.com/) | oem-supplier | global | open | full-text-restricted |
 | [American Fuel & Petrochemical Manufacturers (AFPM)](https://www.afpm.org/) | association | na, global | mixed | catalog-only |
 | [Ammonia Energy Association](https://ammoniaenergy.org/) | association | global | open | full-text-restricted |
 | [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted |
@@ -263,38 +262,56 @@
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
 | [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted |
 | [Airlines for America (A4A)](https://www.airlines.org) | association | global | open | catalog-only |
+| [Alfa Laval (separation and heat transfer)](https://www.alfalaval.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [ANDRITZ Separation](https://www.andritz.com/products-separation) | oem-supplier | global | open | summary-only (unverified) |
+| [Aquatech International (ZLD)](https://www.aquatech.com/) | licensor | global | open | summary-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
 | [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only |
 | [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | mixed | catalog-only |
+| [DMT Environmental Technology (biogas)](https://www.dmt.nl/) | licensor | global | open | summary-only (unverified) |
 | [DuPont Water Solutions](https://www.dupont.com/water.html) | oem-supplier | global | open | summary-only (unverified) |
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
+| [Evoqua Water Technologies](https://www.evoqua.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [Flottweg Separation Technology](https://www.flottweg.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Gas Processing News](https://gasprocessingnews.com) | trade-media | global | mixed | catalog-only |
 | [Gasworld](https://www.gasworld.com) | trade-media | global | mixed | catalog-only |
 | [gCaptain](https://gcaptain.com) | trade-media | global | open | catalog-only |
 | [GeoExpro](https://geoexpro.com) | trade-media | global | open | catalog-only |
 | [H2 View](https://www.h2-view.com/) | trade-media | global | mixed | summary-only |
+| [HUBER SE (wastewater equipment)](https://www.huber.de/) | oem-supplier | global | open | summary-only (unverified) |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
+| [Indah Water Konsortium](https://www.iwk.com.my/) | agency-data | global | open | summary-only (unverified) |
 | [IOP+ (Dutch industry news)](https://ioplus.nl) | trade-media | eu | open | catalog-only |
 | [Kubota Membrane (submerged MBR)](https://kubota-membrane.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [LNG Prime](https://lngprime.com) | trade-media | global | open | catalog-only |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Metito](https://www.metito.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only |
+| [Nitto / Hydranautics](https://www.hydranautics.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only |
 | [Offshore Engineer (OE Digital)](https://www.oedigital.com) | trade-media | global | open | catalog-only |
+| [Ostara Nutrient Recovery](https://ostara.com/) | licensor | global | open | summary-only (unverified) |
 | [Paques B.V.](https://www.paques.nl/) | oem-supplier | global | open | summary-only (unverified) |
 | [Petrofac](https://www.petrofac.com/) | epc-contractor | me, global | open | summary-only (unverified) |
 | [Plug Power](https://www.plugpower.com/) | oem-supplier | global, na | open | summary-only (unverified) |
 | [POWER Magazine](https://www.powermag.com) | trade-media | global | mixed | catalog-only |
 | [QatarEnergy LNG](https://www.qatarenergy.qa/en/) | licensor | me | open | summary-only (unverified) |
+| [Ranhill Utilities](https://www.ranhill.com.my/) | epc-contractor | global | open | summary-only (unverified) |
 | [renewable-carbon.eu (nova-Institute news)](https://renewable-carbon.eu) | trade-media | eu, global | open | catalog-only |
 | [Royal HaskoningDHV (Nereda)](https://www.nereda.net/) | licensor | global | open | summary-only (unverified) |
 | [SABIC Technology](https://www.sabic.com/) | licensor | global, me | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
 | [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |
+| [Singapore PUB](https://www.pub.gov.sg/) | agency-data | global | open | full-text-restricted (unverified) |
+| [Suez (water and membrane technologies)](https://www.suezwatertechnologies.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [TaiyangNews](https://taiyangnews.info) | trade-media | global | open | catalog-only |
+| [Toray Industries (membrane products)](https://www.toray.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [Trojan Technologies (UV)](https://www.trojantechnologies.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only |
 | [Universal Industrial Gases (UIG)](https://www.uigi.com) | agency-data | global | open | full-text-restricted |
+| [Veolia (Water Technologies)](https://www.veoliawatertech.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |
+| [Xylem (water technology incl. Wedeco ozone/UV)](https://www.xylem.com/) | oem-supplier | global | open | summary-only (unverified) |
