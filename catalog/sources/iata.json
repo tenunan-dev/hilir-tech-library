@@ -21,7 +21,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Airline industry association: net-zero 2050 commitment and SAF offtake announcements cited on the sustainable-aviation-fuel card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: iata.org pressroom 2021-10-04 release (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "IATA's site is live and matches the record (airline industry association; net-zero 2050 and SAF content). Homepage content browses freely, with member/paid products separate. The Terms of Use (effective March 2024) grant a single-user, non-exclusive, revocable limited license, authorize download or reproduction of selected materials only for personal non-commercial use with copyright notices retained and IATA cited as source, and explicitly prohibit unlimited or wholesale reproduction and any use of IATA information with generative AI tools. This confirms the record's proprietary/full-text-restricted classification. Evidence: https://www.iata.org; https://www.iata.org/en/terms/ (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

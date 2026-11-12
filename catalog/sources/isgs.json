@@ -21,7 +21,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "State geological survey with published CCS geology and Illinois Basin storage research (Herrin coal zone and saline formations) cited on storage-capacity cards. Registered unverified from the citation-mining queue. Evidence: isgs.illinois.edu Herrin pages (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Illinois State Geological Survey homepage (Prairie Research Institute, University of Illinois) is live and lists carbon management, energy and hydrogen-storage research plus publications, maps and data tools, matching the record. Site is free to read. No copyright notice, licence or terms-of-use statement appears on the homepage, so licence remains unknown and reuse must be confirmed with ISGS directly. Evidence: https://www.isgs.illinois.edu (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

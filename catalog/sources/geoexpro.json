@@ -20,7 +20,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "quarterly",
-  "notes": "Geoscience magazine for exploration and production professionals, cited on seismic and reservoir-characterisation cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "GeoExpro is live, covering the energy sector from a subsurface perspective (oil and gas, geothermal, CO2 storage, geoscience), matching the record's description. Online articles are free to read; only the print magazine requires a paid subscription. The footer states '(c) GXP Publishing AS 2026' (publisher shown as GPX/GXP Publishing AS, Norway - slightly different from the record's GeoPublishing) and there is no terms-of-use page, so no reuse licence could be quoted. Evidence: https://geoexpro.com (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

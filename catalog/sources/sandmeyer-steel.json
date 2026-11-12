@@ -21,7 +21,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Stainless-steel plate supplier with technical data sheets (317LMN, duplex grades) cited on materials-selection cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Sandmeyer Steel Company's site is live and freely readable with no paywall. Footer shows 'Copyright (c) 2026 Sandmeyer Steel Company' with Privacy Policy and Terms of Use links (full text not shown on the homepage). access=open and proprietary all-rights-reserved terms as recorded are consistent. Evidence: https://www.sandmeyersteel.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

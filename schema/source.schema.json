@@ -129,11 +129,12 @@
     "reuse_level": {
       "enum": [
         "full-text-open",
+        "full-text-with-attribution",
         "full-text-restricted",
         "summary-only",
         "catalog-only"
       ],
-      "description": "full-text-open: open licence allows reuse. full-text-restricted: downloadable, no open licence, terms do not forbid private reference copies; private repo only, with notes. summary-only: our own summaries and facts. catalog-only: not downloadable or terms forbid copying; keep for future retrieval."
+      "description": "full-text-open: open licence allows reuse. full-text-with-attribution: reuse permitted with credit/attribution (often non-commercial limits) — record the exact terms in notes. full-text-restricted: downloadable, no open licence, terms do not forbid private reference copies; private repo only, with notes. summary-only: our own summaries and facts. catalog-only: not downloadable or terms forbid copying; keep for future retrieval."
     },
     "feeds": {
       "type": "array",

@@ -17,11 +17,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "unknown",
-  "reuse_level": "full-text-open",
+  "licence": "proprietary (terms: contents owned by Southern Company subsidiaries; no reproduction or reuse 'without the prior written consent of Southern Company subsidiaries')",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "DOE-designated CCS pilot test facility publishing post-combustion capture test-campaign results and cost/performance data for capture technologies. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.nationalcarboncapturecenter.com (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "National Carbon Capture Center (DOE-established, Southern Company-managed, Wilsonville) is live with 2026 test-campaign news and 175,000+ testing hours, matching the record. Its General Terms & Conditions of Use state content is owned by Southern Company subsidiaries and may not be 'reproduce[d], republish[ed]... or exploit[ed] in any way' without prior written consent, i.e. all rights reserved. The record's reuse_level full-text-open and licence unknown are therefore wrong: content is free to read but reuse requires permission. Evidence: https://www.nationalcarboncapturecenter.com and https://nationalcarboncapturecenter.com/general-terms-conditions-of-use/ (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

@@ -1,7 +1,7 @@
 {
   "id": "iso-19880",
   "name": "ISO 19880 (gaseous hydrogen fuelling stations)",
-  "url": "https://www.iso.org/standard/71925.html",
+  "url": "https://www.iso.org/standard/71940.html",
   "source_type": "standards-body",
   "sectors": [
     "H2",
@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "ISO standard series for gaseous-hydrogen fuelling stations (part of the H2 refuelling standards chain cited on h2-refuelling cards). Paid standard: record-only, no text collection (decision #29 pattern). Registered unverified from the event sweep. Evidence: https://www.iso.org/standard/71925.html (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "iso.org is live with the same policy: reproduction of ISO publications requires written permission and AI/ML use is prohibited; standards are paid products in the ISO Store, so paywalled/proprietary/catalog-only is correct. The record URL is stale: ISO 19880-1:2020 (current edition) is at /standard/71940.html, not 71925; URL should be corrected in the record. Evidence: https://www.iso.org (read 2026-11-13); https://www.iso.org/standard/71925.html blocked (WebFetch 404, curl 403 Cloudflare challenge); correct page https://www.iso.org/standard/71940.html per search URL updated 2026-11-13 (old: https://www.iso.org/standard/71925.html).",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Indonesia's energy-ministry legal database (JDIH ESDM): the authoritative route to Indonesian oil-and-gas, power and minerals regulation text, supporting the library's Southeast Asia weighting. Registered unverified from the citation-mining queue. Evidence: jdih.esdm.go.id (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "JDIH Kementerian ESDM is live and current (2026-dated regulations, ~25k daily visitors): searchable database of 2,525+ energy/mineral regulations with downloadable PDFs, matching the record. Site is free to read and open. The only licence statement is a footer 'All Rights Reserved by BPHN'; no explicit reuse terms, so licence stays unknown - the regulation texts themselves are official Indonesian legal instruments. Evidence: https://jdih.esdm.go.id (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

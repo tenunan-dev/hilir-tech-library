@@ -1,7 +1,7 @@
 {
   "id": "eu-ccs-guidance",
   "name": "European Commission CCS Directive implementation guidance",
-  "url": "https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf",
+  "url": "https://op.europa.eu/en/publication-detail/-/publication/47fb8148-d436-4ba3-88fb-ceb774b88933",
   "source_type": "agency-data",
   "sectors": [
     "CCS",
@@ -21,7 +21,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "EC guidance documents for implementing the CCS Directive (storage permitting, monitoring); open EU documents under the 2011 reuse decision. Registered unverified from the citation-mining queue; terms verification pending. Evidence: gd2_en.pdf URL from citation mining (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The recorded URL ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf returns HTTP 404 (both WebFetch and curl) - the guidance documents were revised in July 2024 and the EC CCS pages migrated to climate.ec.europa.eu. The revised consolidated CCS Directive guidance document is live there (HTTP 200, content-type application/pdf). EC documents remain governed by the EU reuse decision 2011/833/EU, so the record's licence and reuse fields are correct, but the URL is dead and needs relocating to the climate.ec.europa.eu document. Evidence: https://climate.ec.europa.eu/news-other-reads/news/european-commission-publishes-revised-guidance-documents-ccs-directive-2024-07-23_en; https://climate.ec.europa.eu/document/download/54e016d9-752e-41c1-901a-0994f5234a49_en?filename=ccs_gd_update_en.pdf (read 2026-11-13) URL updated 2026-11-13 (old: https://ec.europa.eu/clima/policies/lowcarbon/ccs/implementation/docs/gd2_en.pdf).",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

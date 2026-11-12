@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Offshore engineering news site, cited for deepwater technology items such as subsea boosting milestones. Registered unverified from the citation-mining queue; terms verification pending. Evidence: oedigital.com news item on high-pressure deepwater production (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Offshore Engineer (OE Digital, AtCoMedia) is live and daily-updated (12 November 2026), covering offshore drilling, subsea, FPSO/FLNG, LNG and offshore wind, matching the record. Footer: '(c) 2026 AtCoMedia. Inc' with linked Terms and Privacy pages (text not visible on the homepage). Free to read, all-rights-reserved - catalog-only reuse level is appropriate. Evidence: https://www.oedigital.com (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

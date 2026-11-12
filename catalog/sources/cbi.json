@@ -21,7 +21,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "CB&I technology pages (LNG liquefaction, gas processing, storage tanks) cited on LNG and storage cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live CB&I site covering LNG/cryogenic and high-pressure storage solutions, free to read. Footer asserts '(c) 2026 - All Rights Reserved' with a Privacy Policy but no Terms of Use page, so no reuse permission is stated. Note: the site presents CB&I as owned by a consortium led by Mason Capital Management, not as a McDermott unit, so the record's publisher_org is outdated (outside this batch's editable fields). Evidence: https://www.cbi.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

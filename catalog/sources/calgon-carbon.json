@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Activated-carbon supplier: flue-gas mercury-control and gas-treatment products cited on mercury-emission and gas-purification cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: calgoncarbon.com flue-gas page (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live Calgon Carbon (Kuraray subsidiary) site with activated-carbon/gas-treatment product content freely readable. Footer asserts '(c) 2026 Calgon Carbon Corporation' with only a Privacy Policy link; no terms-of-use or reuse/licensing statement exists. Record fields (open, proprietary, full-text-restricted) are accurate. Evidence: https://www.calgoncarbon.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

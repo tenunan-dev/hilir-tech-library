@@ -16,11 +16,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "public-domain",
+  "licence": "proprietary (footer '(c)2026 Energy Technologies Area, Berkeley Lab'; lbl.gov terms page requires requests to reproduce materials)",
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "quarterly",
-  "notes": "LBNL EMP's wind power-purchase-agreement price tracker — the primary open source for US wind PPA price trends cited on wind-power cost discussions. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The LBNL Electricity Markets & Policy wind PPA prices page is live (a current April 2026 snapshot exists; emp.lbl.gov is a Berkeley Lab Drupal site, '(c)2026 Energy Technologies Area, Berkeley Lab') but Cloudflare blocks automated fetching. The site's Terms and Conditions page routes 'Requests to Reproduce LBL Information, Materials, or Images' through a request process, so the record's licence 'public-domain' is not supported: Berkeley Lab content is copyrighted (UC Regents/Berkeley Lab), free to read and download but not formally public domain. Evidence: https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices (2026-11-13: direct fetch Cloudflare-blocked, HTTP 403); Wayback snapshot 2026-04-27 of same URL plus https://www.lbl.gov/disclaimers/ Terms and Conditions page (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

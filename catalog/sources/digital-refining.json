@@ -1,7 +1,7 @@
 {
   "id": "digital-refining",
   "name": "DigitalRefining",
-  "url": "https://www.digitalrefining.co.uk/",
+  "url": "https://www.digitalrefining.com",
   "source_type": "trade-media",
   "sectors": [
     "REF",
@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Refining and petrochemical technology articles/practitioner papers cited in REF gaps (revamps, FCC, hydrogen management). Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.digitalrefining.co.uk/ (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The recorded URL digitalrefining.co.uk is dead (DNS failure); the site has moved to www.digitalrefining.com, which is live and matches the record's description (refining/petrochemical articles, news, events). The site is published by Crambeth Allen Media/Publishing Ltd (not MEED Media as the record's publisher_org says). Its terms state: 'All rights in the material on the Site belong to Crambeth Allen or its third party licensors', use is 'solely for your own use and benefit and not for resale', and content may not be used 'in any manner that might compete' with the publisher - i.e. proprietary, personal-use-only; some content sits behind Register/Login, so access:mixed and catalog-only fit. Evidence: https://www.digitalrefining.com/terms_and_conditions (read 2026-11-12); https://www.digitalrefining.com/ (read 2026-11-12) URL updated 2026-11-13 (old: https://www.digitalrefining.co.uk/).",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

@@ -17,12 +17,12 @@
   "regions": [
     "global"
   ],
-  "access": "open",
+  "access": "mixed",
   "licence": "proprietary",
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "IChemE's member magazine, cited for first-of-a-kind process demonstrations (e.g. electric steam cracker start-up). Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "IChemE's The Chemical Engineer is live. News headlines and summaries are free, but the site prompts 'Read The Chemical Engineer in print and online by subscribing today', so full magazine content is subscription-gated and access should be mixed rather than open. Footer shows '(c) 2026 Institution of Chemical Engineers'; no explicit reuse licence text was found. Evidence: https://www.thechemicalengineer.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

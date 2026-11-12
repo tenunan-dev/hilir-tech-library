@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Elsevier energy-conversion journal from the OpenAlex venue sweep, hybrid OA. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
+  "notes": "ScienceDirect is bot-walled to this tooling: WebFetch was redirected to an id.elsevier.com single-sign-on URL and curl returned HTTP 403, so the journal page could not be read. The record's hybrid-OA description (access:mixed, full-text-restricted) is plausible for an Elsevier journal but could not be confirmed on-site; fields left unchanged and unverified. Evidence: https://www.sciencedirect.com/journal/energy-conversion-and-management (read 2026-11-12)",
   "verification": "unverified",
   "last_verified": null
 }

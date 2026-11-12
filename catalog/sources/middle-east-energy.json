@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "annual",
-  "notes": "Dubai-based power/transmission expo relevant to the library's Middle East power coverage. Registered unverified from the event sweep; terms verification pending. Evidence: https://www.middleeast-energy.com (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Middle East Energy (Informa Markets, Dubai) is live and now promotes the May 2027 edition at Expo City Dubai with Intersolar ME, The Battery Show and Energy Storage ME co-located, matching the record's expo role. Footer: 'Copyright (c) 2026. All rights reserved. Informa Markets' with Terms of Use and Visitor Terms pages. Free to browse marketing/directory content with all-rights-reserved terms; catalog-only reuse is appropriate. Evidence: https://www.middleeast-energy.com -> http://www.middleeast-energy.com/en/home.html (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

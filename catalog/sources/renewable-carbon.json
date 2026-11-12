@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "nova-Institute's renewable-carbon news portal covering biobased, CO2-based and chemical-recycling industries, cited on CO2-to-polymers and CCU cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: renewable-carbon.eu/news/?p=91819 citation (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "nova-Institut's renewable-carbon.eu is live, freely readable with no paywall, and offers free reports. Footer shows '(c) 2026 nova-Institut GmbH' with Legal Information and Terms and Conditions links, but no visible Creative Commons or open-licence statement on the site. access=open and licence=unknown as recorded are consistent. Evidence: https://renewable-carbon.eu (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

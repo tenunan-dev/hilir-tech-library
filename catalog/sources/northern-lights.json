@@ -1,7 +1,7 @@
 {
   "id": "northern-lights",
   "name": "Northern Lights JV news pages",
-  "url": "https://norlights.com/news",
+  "url": "https://norlights.com/newsroom/",
   "source_type": "agency-data",
   "sectors": [
     "CCS",
@@ -21,7 +21,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "The Northern Lights CO2 transport-and-storage JV's news pages carry project milestones (first CO2 delivery 2025, phase expansions) cited on CCS-shipping and storage cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://norlights.com/news/northern-lights- (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The Northern Lights JV site (Equinor/Shell/TotalEnergies CO2 transport-and-storage) is live with current CO2-transport-and-storage news items, matching the record, but the recorded /news listing URL is dead (404) - the news index now lives at /newsroom/. No copyright or terms-of-use statement is visible on the homepage (only a Privacy link), so the proprietary label is an inference from standard corporate-site practice rather than published terms. Evidence: https://norlights.com (read 2026-11-13; /news listing returns HTTP 404; /newsroom/ is the live news index; individual /news/<slug> pages return 200) URL updated 2026-11-13 (old: https://norlights.com/news).",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

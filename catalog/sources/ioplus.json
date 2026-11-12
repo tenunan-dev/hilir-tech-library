@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Dutch industrial news covering CCS and energy-transition projects (e.g. Porthos construction milestones). Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "IO+ (ioplus.nl) is live and free to read; it describes itself as an independent journalism platform for the Dutch innovation ecosystem covering tech, science, energy and innovation (broader than the record's 'Dutch industry news' framing, though it does cover CCS/energy-transition stories). The footer shows only a privacy policy link and 'Copyright (c) 2026 IO+. All rights reserved'; no terms-of-use document exists, so the proprietary/catalog-only fields remain unconfirmed defaults. Evidence: https://ioplus.nl (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

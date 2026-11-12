@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Maritime news site cited on powership and floating-power designs. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "gCaptain is live and matches the record as a maritime/offshore news site covering shipping, ports and energy. Homepage content is freely readable with no visible paywall, though the site promotes a free newsletter/membership. The footer shows no terms-of-use or copyright notice (only a Privacy Policy link), so no licence text could be quoted; the proprietary/catalog-only fields are reasonable but unconfirmed defaults. Evidence: https://gcaptain.com (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

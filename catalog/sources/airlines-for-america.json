@@ -20,7 +20,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "weekly",
-  "notes": "US airline industry association whose SAF commitments and offtake news are cited on the sustainable-aviation-fuel card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.airlines.org (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live Airlines for America site with current SAF/advocacy content matching the record. Footer asserts '(c) 2026 Airlines for America (A4A). All rights reserved.' and links only to a Privacy Statement; no terms-of-use or reuse/licensing page is published. Free to read, no reuse permission stated. Record fields (open, proprietary, catalog-only) are accurate. Evidence: https://www.airlines.org (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

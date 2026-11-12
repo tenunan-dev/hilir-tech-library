@@ -55,14 +55,15 @@
 
 | Value | Sources |
 | --- | --- |
-| full-text-restricted | 157 |
+| full-text-restricted | 161 |
 | summary-only | 114 |
-| full-text-open | 110 |
 | catalog-only | 103 |
+| full-text-open | 103 |
+| full-text-with-attribution | 3 |
 
 ## By verification
 
 | Value | Sources |
 | --- | --- |
-| unverified | 258 |
-| verified | 226 |
+| verified | 299 |
+| unverified | 185 |

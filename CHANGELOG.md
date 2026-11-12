@@ -8,6 +8,19 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.1] — 2026-11-13 — Discovery-draft verification sweep, AirTrunk phase dates from primary pages
+
+### Added
+
+- **Verification sweep of the discovery drafts (block A6)**: all **80 source records registered during the 2026-11-11 queue drain** (plus the batch 4–5 drafts) were checked against their live sites by five parallel passes; **65 became `verified`** (catalog now **299 verified / 185 unverified** — the remainder are bot-walled or unreachable sites recorded honestly, e.g. alberta-open-data Cloudflare-blocked, chemical-engineering-progress 403, sciencedirect/onepetro bot-walls). Terms read and recorded for each: EC portals reconfirmed CC-BY-4.0 (2011/833/EU), World Bank DataBank CC-BY-4.0 verbatim, IATA's no-generative-AI clause, FRED's three-tier licence (scraping/AI-training prohibited), ccsknowledge's open licence, CEC's attribution terms.
+- **`full-text-with-attribution` added to the source schema** `reuse_level` enum (a real state: reuse permitted with credit, often non-commercial) and applied to ccsknowledge / cec-reports / fred.
+
+### Fixed
+
+- **Stale URLs corrected** from the sweep: asme-bpvc, iso-14687 (→69539), iso-19880 (→71940), ens-technology-catalog, eu-ccs-guidance (→ op.europa.eu publication page), northern-lights (→ /newsroom/), spe-atce (→ atce.org), usgs-mcs (→ mcs2026), wgc (→ wgc2028.com), digital-refining (→ .com), danimer-sec (→ correct CIK 0001779020). Global Syngas Technologies Council renamed from its pre-2021 name.
+- Field corrections: fred (automated_access prohibited, permitted_use personal-non-commercial), gas-processing-news → access mixed, gasworld → mixed, the-chemical-engineer → mixed, uigi licence quoted + full-text-restricted, lbl-emp-ppa licence proprietary (Berkeley Lab ©, not public-domain), national-ccc licence proprietary + full-text-restricted, eesc-journal hybrid (mixed/full-text-restricted), caafi full-text-restricted, csi-sssguide recorded dead (stays unverified), stal recorded as a subject/URL mismatch (stays unverified, needs re-sourcing).
+- **airtrunk-malaysia-platform rebuilt from primary pages read 2026-11-13**: per-campus specs (JHB1 150+ MW/20 data halls/PUE 1.15/132 kV; JHB2 scalable to 270+ MW/275 kV — "about 280" corrected; JHB3 138+ MW; JHB4 142+ MW, both 275 kV dual feed from JHB2), seven dated milestones from 19 Jan 2023 (entry) through 30 Apr 2026 (JHB3/4, MYR 12bn) and 29 Jul 2026 (USD 2.325bn JHB2 green financing, 30 lenders incl. first IFC; largest single-asset DC green financing in Malaysia); JHB1's remaining ~100 MW phases construction started 9 Aug 2024 (initial tranche mid-2025); recycled-water scheme with Johor Special Water (Apr 2025). Gap narrowed to contracted offtakers (confidential).
+
 ## [2026.11.12.4] — 2026-11-12 — AirTrunk per-campus detail, CRAH equipment class, Rittal
 
 ### Added

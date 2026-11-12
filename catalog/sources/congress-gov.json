@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "daily",
-  "notes": "Primary legislative text (e.g. H.R.3684, the Infrastructure Investment and Jobs Act) — the authoritative source behind the US hydrogen-hub and CCS tax-credit programmes cited throughout. Registered unverified from the citation-mining queue. Evidence: congress.gov 117th Congress H.R.3684 text (2026-10-29, triaged 2026-11-11)",
+  "notes": "Site could not be reached: both WebFetch and curl returned HTTP 403 with a Cloudflare 'Just a moment...' bot-challenge page, so congress.gov is bot-walled to this tooling. The record's public-domain/full-text-open description was not confirmed on-site and no terms were read; fields left unchanged and unverified. Evidence: https://www.congress.gov (read 2026-11-12)",
   "verification": "unverified",
   "last_verified": null
 }

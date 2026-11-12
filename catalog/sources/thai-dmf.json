@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Thai upstream regulator under the Ministry of Energy: concession and petroleum-exploration data for the Gulf of Thailand and onshore blocks, relevant to the library's Southeast Asia focus. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.dmf.go.th (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Thailand Department of Mineral Fuels (Ministry of Energy) is live: the homepage is a small splash page linking to /public, which serves the full Thai-language site (HTTP 200, content referencing 'Department of Mineral Fuels'). Content is openly readable with no gate; no copyright or licence statement was found in the fetched HTML, so licence=unknown is accurate. access=open is right. Evidence: https://www.dmf.go.th and https://www.dmf.go.th/public (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

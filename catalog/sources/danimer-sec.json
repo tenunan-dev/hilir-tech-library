@@ -1,7 +1,7 @@
 {
   "id": "danimer-sec",
   "name": "Danimer Scientific SEC filings (EDGAR)",
-  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001814097&type=10-K",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001779020&type=10-K",
   "source_type": "agency-data",
   "sectors": [
     "PCH"
@@ -19,7 +19,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "quarterly",
-  "notes": "PHA bioplastics producer's SEC filings (10-K/10-Q) carrying PHA capacity, cost and commercialisation figures cited on the PHA cards; EDGAR is a reachable mirror host. Registered unverified from the citation-mining queue; terms verification pending. Evidence: sec.gov EDGAR CIK 0001814097 (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "SEC EDGAR is live and free; the company search confirms Danimer Scientific, Inc. (formerly Live Oak Acquisition Corp, plastics SIC 2821) with CIK 0001779020. However the record's URL uses CIK 0001814097, which returns 'No matching CIK' on EDGAR and a NoSuchKey error from data.sec.gov, so the URL parameter needs correcting (not fixable via the permitted fields). EDGAR filings are US government disclosure records, freely available; the SEC terms only restrict use of SEC seals/logos, consistent with public-domain and full-text-open in the record. Evidence: https://www.sec.gov/cgi-bin/browse-edgar?company=danimer&action=getcompany (read 2026-11-12); https://www.sec.gov/about/privacy-information (read 2026-11-12) URL updated 2026-11-13 (old: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001814097&type=10-K).",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

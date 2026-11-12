@@ -15,12 +15,12 @@
   "regions": [
     "global"
   ],
-  "access": "open",
+  "access": "mixed",
   "licence": "proprietary",
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "monthly",
-  "notes": "Gas-processing trade coverage (NGL recovery cycles, turbo-expander plants) cited on the NGL and gas-processing cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The site is live but is actually titled Gas Processing & LNG (Gulf Publishing Holdings LLC / Gulf Energy Information), not 'Gas Processing News'. Access is mixed: news headlines and teasers are free, but the site pushes Login/Subscribe/Free Trial and full access likely requires registration or subscription. The site displays 'COPYING AND DISTRIBUTING ARE PROHIBITED WITHOUT PERMISSION OF THE PUBLISHER' and 'All material subject to strictly enforced copyright laws', so the proprietary/catalog-only reuse fields are right; only the access field needs correcting. Evidence: https://gasprocessingnews.com (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

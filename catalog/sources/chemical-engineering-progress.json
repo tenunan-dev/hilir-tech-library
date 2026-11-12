@@ -25,7 +25,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "AIChE member magazine covering process safety, process technology and digitalization. Registered unverified from the citation-mining queue (org phrase in gap hints); terms verification pending. Evidence: https://www.aiche.org/cep (not yet fetched, 2026-11-11)",
+  "notes": "Site could not be reached: www.aiche.org redirects /cep to publications.aiche.org, but both hosts return HTTP 403 with a Cloudflare 'Just a moment' challenge to WebFetch and curl. The redirect confirms the domain is live but the CEP magazine content and AIChE terms pages were unreadable, so gating status and reuse terms could not be verified and no record fields were changed. Evidence: https://www.aiche.org/cep -> https://publications.aiche.org/cep (attempted 2026-11-13)",
   "verification": "unverified",
   "last_verified": null
 }

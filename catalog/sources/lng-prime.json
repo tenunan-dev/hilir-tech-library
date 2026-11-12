@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "LNG industry news site cited for bunkering volume records and terminal milestones. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "LNG Prime is live and daily-updated (November 2026 stories), covering LNG industry news by region and topic, matching the record. Footer reads '2026. (c) All rights reserved. LNG Prime LLC' with no licence granting reuse; Terms and Conditions and Privacy Policy pages are linked. Open access to read, proprietary rights - catalog-only reuse level is appropriate. Evidence: https://lngprime.com (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

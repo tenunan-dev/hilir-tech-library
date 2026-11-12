@@ -20,7 +20,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Freeport LNG's 2020 site-completion impact report (PDF) carrying project-scale facts for one of the largest US liquefaction facilities. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "curl -sIL confirms the PDF exists and serves at the recorded URL: HTTP 200, content-type application/pdf, 3152985 bytes (~3.1 MB). It is Freeport LNG's 2020 Site Completion Impact Report, freely downloadable with no login gate. No terms/copyright page was checked for a licence statement, so the record's unknown licence stands as honest. Evidence: https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

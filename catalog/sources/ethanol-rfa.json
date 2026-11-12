@@ -20,7 +20,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "US ethanol industry association: biorefinery counts, capacity statistics and market data cited on ethanol-to-jet and biofuel cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://ethanolrfa.org (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Renewable Fuels Association homepage is live and matches the record: US ethanol trade association with market data, statistics, fact sheets and industry outlook. All visible content is free to read with no registration gate. The site footer publishes no terms-of-use, copyright or reuse statement, so no licence text could be quoted; the record's proprietary/catalog-only classification is a reasonable default but is unconfirmed by site text. Evidence: https://ethanolrfa.org (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

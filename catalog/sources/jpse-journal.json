@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Elsevier petroleum-engineering journal from the OpenAlex venue sweep, hybrid OA. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "ScienceDirect journal page is live but bot-walled (403) and gates anonymous traffic behind Elsevier SSO; the tdm-reservation meta tag directs automated access to Elsevier's TDM policy. Hybrid Elsevier petroleum-engineering journal matches the record's mixed/proprietary(some OA)/full-text-restricted classification; full text needs subscription or per-article OA. Evidence: https://www.sciencedirect.com/journal/journal-of-petroleum-science-and-engineering (curl 2026-11-13: HTTP 403 bot-wall with tdm-reservation/tdm-policy meta tags; WebFetch on the sibling JCP URL redirected to id.elsevier.com SSO)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

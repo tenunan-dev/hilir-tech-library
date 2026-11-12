@@ -1,7 +1,7 @@
 {
   "id": "iso-14687",
   "name": "ISO 14687 (hydrogen fuel purity)",
-  "url": "https://www.iso.org/standard/69542.html",
+  "url": "https://www.iso.org/standard/69539.html",
   "source_type": "standards-body",
   "sectors": [
     "H2"
@@ -20,7 +20,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "ISO hydrogen fuel product specification (purity grades for PEM fuel cells) cited on hydrogen-purity and refuelling cards. Paid standard: record-only (decision #29 pattern). Registered unverified from the event sweep. Evidence: https://www.iso.org/standard/69542.html (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "iso.org is live; ISO copyright policy states all ISO publications are copyrighted, 'any reproduction requires written permission' (copyright@iso.org), and ISO content may not be used for machine learning or AI outside the open data pages. Standards are sold in the ISO Store, so paywalled/proprietary/catalog-only is correct. However the record URL is stale: the individual standard page returns 404/403 (Cloudflare challenge) and ISO 14687:2019 actually sits at /standard/69539.html; URL should be corrected in the record (URL field not in my allowed correction set). Evidence: https://www.iso.org (read 2026-11-13); https://www.iso.org/standard/69542.html blocked (WebFetch 404, curl 403 Cloudflare challenge); correct page https://www.iso.org/standard/69539.html per search URL updated 2026-11-13 (old: https://www.iso.org/standard/69542.html).",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "daily",
-  "notes": "Primary US regulatory notices and rules (e.g. 80 FR 64510 on methane standards, cited on emissions-regulation cards). Registered unverified from the citation-mining queue. Evidence: gpo.gov fdsys FR-2015-10-23 pdf (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "FederalRegister.gov is live (WebFetch bot-blocked to unblock.federalregister.gov but curl with a browser UA fetches fine). It is the OFR/GPO XML rendition of the daily Federal Register with a developer API. The About This Site legal-status section states the XML rendition is an unofficial informational resource until the ACFR grants official status and users should verify against the official PDF on govinfo.gov; the underlying Federal Register documents are US government works, so the record's public-domain/full-text-open classification stands. Legal-status caveat recorded, no access correction needed. Evidence: https://www.federalregister.gov; https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

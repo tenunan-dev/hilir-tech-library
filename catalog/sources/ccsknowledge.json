@@ -18,11 +18,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "unknown",
-  "reuse_level": "full-text-open",
+  "licence": "Open License Agreement: royalty-free non-exclusive licence to reproduce and distribute for non-commercial use, with required attribution (Source: The International CCS Knowledge Centre)",
+  "reuse_level": "full-text-with-attribution",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Repository of publicly released CCS feasibility studies (e.g. the Shand post-combustion study) — primary plant-level capture data rarely published elsewhere. Registered unverified from the citation-mining queue. Evidence: ccsknowledge.com Shand CCS Feasibility Study (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live International CCS Knowledge Centre site (BHP SaskPower CCS Knowledge Centre Inc.), not merely a generic repository named ccsknowledge.com; reports such as Canada's CCUS Status 2026 download free. Its Open License Agreement grants a 'worldwide, royalty-free, non-exclusive, sub-licensable license to use, reproduce, publish, or freely distribute' the materials but only for non-commercial purposes with required attribution notices. Licence and reuse fields corrected accordingly. Evidence: https://ccsknowledge.com, /terms-of-use/ and /open-license-agreement/ (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

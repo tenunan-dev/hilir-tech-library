@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "DOT's open repository of transport research (pipeline safety, LNG/marine transport studies) — an already-documented compliant mirror host for blocked agency sites. Registered unverified from the citation-mining queue. Evidence: rosap.ntl.bts.gov document 57459 (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "ROSAP, the US DOT National Transportation Library repository, is live and describes itself as retaining 'documents in their original published format to ensure public access to scientific information'. No explicit copyright/licence statement appears on the fetched page, but as US DOT-authored materials the documents are US government works (public domain) per DOT policy. access=open, licence=public-domain and reuse_level=full-text-open are consistent. Evidence: https://rosap.ntl.bts.gov (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

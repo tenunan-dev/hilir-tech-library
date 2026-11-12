@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "BASF's OASE gas-treatment pages: solvent technologies for acid-gas removal and CO2 capture, cited on gas-sweetening and capture cards. Vendor-site facts free to read; process data remains site-restricted. Registered unverified from the citation-mining queue; terms verification pending. Evidence: energy-resources.basf.com OASE solution page (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live BASF OASE gas-treatment pages (OASE blue/purple/white/yellow/green, HiPACT) freely readable. BASF's disclaimer states content is 'subject to copyright law' and 'Copying, processing, distribution and any kind of use outside the limits of copyright law require the written consent of BASF.' OASE is a registered BASF trademark. Record fields (open, proprietary, full-text-restricted) are accurate. Evidence: https://energy-resources.basf.com/global/en/gas-treatment and https://www.basf.com/global/en/legal/disclaimer (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

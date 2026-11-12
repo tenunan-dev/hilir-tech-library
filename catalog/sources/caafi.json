@@ -18,10 +18,10 @@
   ],
   "access": "open",
   "licence": "unknown",
-  "reuse_level": "full-text-open",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "quarterly",
-  "notes": "Aviation-industry SAF consortium: the fuel-qualification (ASTM D4054) pathway and approved-fuel registry, the authoritative list of certified SAF routes cited on the SAF card. Registered unverified from the citation-mining queue. Evidence: caafi.org fuel-qualification page (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live CAAFI site, free to browse and described as a reference database for alternative jet fuels. Footer shows only '(c) 2026 by Commercial Aviation Alternative Fuels Initiative'; no Terms of Use or licence page is published, so no reuse permission is granted. Because the site reserves copyright with no stated reuse terms, the record's reuse_level full-text-open overstates what is permitted and is corrected to full-text-restricted; licence remains unknown. Evidence: https://www.caafi.org (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

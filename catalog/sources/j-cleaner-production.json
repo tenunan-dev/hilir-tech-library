@@ -23,7 +23,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Elsevier sustainability/energy journal prominent in the OpenAlex sweep; hybrid OA with many CC-BY articles. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "ScienceDirect journal page is live but bot-walled (403) and routes anonymous visitors to Elsevier single-sign-on; HTML includes a tdm-reservation meta tag pointing to Elsevier's TDM policy (elsevier.com/tdm/tdmrep-policy.json), indicating machine/text-mining access is governed by that policy. Hybrid OA journal with many CC-BY articles matches the record's mixed/proprietary(some OA)/full-text-restricted classification; full journal text requires subscription or per-article OA. Evidence: https://www.sciencedirect.com/journal/journal-of-cleaner-production (curl 2026-11-13: HTTP 403 bot-wall with tdm-reservation/tdm-policy meta tags; WebFetch redirected to id.elsevier.com SSO)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

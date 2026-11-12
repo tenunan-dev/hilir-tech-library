@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "quarterly",
-  "notes": "Construction-engineering research institute at UT Austin (FIATECH merged into CII in 2019): modular construction, productivity and capital-projects research cited on the modular-construction card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.construction-institute.org (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site live: Construction Industry Institute, a UT Austin-affiliated research consortium. Events, overviews and blogs are publicly browsable while full research publications are a member benefit behind sign-in, matching access:mixed. Only a footer copyright notice ('2026 CII Copyright Information') plus UT Austin policy links are shown; no explicit reuse/licence terms were found on the pages checked, so proprietary and catalog-only remain the sensible reading but no licence text was published to confirm. Evidence: https://www.construction-institute.org (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

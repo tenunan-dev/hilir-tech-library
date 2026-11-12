@@ -21,7 +21,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Alberta government open-data portal carrying oil-sands well, production and regulatory datasets relevant to the thermal-EOR and oil-sands cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://open.alberta.ca/dataset/ (2026-11-11)",
+  "notes": "Site could not be reached for verification: open.alberta.ca returns HTTP 403 to fetchers and serves a Cloudflare JavaScript challenge, which also blocked the /opendata/licence page. Web search snippets indicate the portal's datasets are published under an 'Open Government Licence - Alberta' (version 2.1), but this was not confirmed by reading the portal itself. Licence remains unverified; record fields left unchanged pending direct access. Evidence: https://open.alberta.ca and https://open.alberta.ca/opendata/licence (attempted 2026-11-12)",
   "verification": "unverified",
   "last_verified": null
 }

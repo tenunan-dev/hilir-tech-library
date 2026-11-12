@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Eni's global carbon-neutrality and decarbonisation action pages cited on CCS and biofuel cards (e.g. Gela biorefinery conversion, Ravenna CCS). Vendor-site facts free to read; commercial figures remain site-restricted. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.eni.com/en-IT/actions/global- (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site live: Eni's public corporate site; corporate actions and decarbonisation pages are freely readable without login. The terms and conditions state the site's databases and contents 'are protected by copyright pursuant to Law No. 633 of 22 April 1941' and 'Under no circumstances shall these Terms and Conditions be interpreted as granting users the right to extract or reuse the whole or a substantial part of the data' - confirming the record's proprietary licence and full-text-restricted (read-only) reuse level. Evidence: https://www.eni.com (read 2026-11-12); https://www.eni.com/it-IT/termini-e-condizioni.html (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

@@ -16,11 +16,11 @@
     "global"
   ],
   "access": "open",
-  "licence": "unknown",
-  "reuse_level": "full-text-open",
+  "licence": "All rights reserved (c)2026 Universal Industrial Gases; site content 'may not be reproduced elsewhere in any way without our express written permission'",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 3,
   "update_frequency": "irregular",
-  "notes": "Air-separation and cryogenic-gas reference data (oxygen/nitrogen/argon properties and plant descriptions) cited on ASU cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Universal Industrial Gases' site is live and freely readable, but its Site Info page is emphatic about reuse: content 'may not be reproduced elsewhere in any way without our express written permission' and 'cannot be reproduced or used anywhere else, whether in part or in whole. No exceptions.' The record's licence=unknown and reuse_level=full-text-open are therefore wrong: licence is all-rights-reserved with express written permission required and reuse is restricted. Evidence: https://www.uigi.com and https://uigi.com/site-info/ (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

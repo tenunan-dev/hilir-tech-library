@@ -21,7 +21,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "quarterly",
-  "notes": "World Bank macro and energy indicator database (data licensed CC-BY-4.0 by default) used for country-level electricity and emissions context. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://databank.worldbank.org (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "DataBank is live and offers free public access to World Bank databases (databases labeled Public, Public Login option). The World Bank summary terms of use for data state: 'You may copy, distribute, adapt, display or include the data in other products for commercial or noncommercial purposes at no cost under a Creative Commons Attribution 4.0 International License', confirming the recorded CC-BY-4.0 licence, open access and full-text-open reuse. Evidence: https://databank.worldbank.org and https://data.worldbank.org/summary-terms-of-use (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

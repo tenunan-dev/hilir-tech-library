@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Environmental-economics think tank: Global Energy Outlook and policy-cost analyses cited on decarbonisation-economics cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: rff.org Global Energy Outlook 2024 (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Resources for the Future is live; research, briefs and blog appear freely readable with no paywall, so access=open and reuse_level=full-text-open are right. The only notice found is footer '(c) 2026 Resources for the Future'; no explicit reuse/licensing statement is published on the homepage, so the proprietary licence remains a default all-rights-reserved reading rather than quoted terms. Evidence: https://www.rff.org (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

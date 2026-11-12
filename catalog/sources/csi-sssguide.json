@@ -22,7 +22,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "Vendor spring-support and strut selection guide PDF, a primary engineering source for pipe-support sizing on the pipe-racks/supports card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: http://www.csidesigns.com/PDFs/SSSguide.pdf (not yet fetched, 2026-11-11)",
+  "notes": "The recorded URL returns HTTP 404 (confirmed via curl); csidesigns.co.uk does not resolve. Worse, csidesigns.com today is Central States Industrial, a hygienic-processing distributor with no connection to Carpenter & Paterson or pipe-support selection guides, so the domain appears to have changed hands and the publisher attribution in the record is stale. This source needs re-registration under the correct current location; unverified. Evidence: https://www.csidesigns.com/PDFs/SSSguide.pdf (read 2026-11-12); https://www.csidesigns.com (read 2026-11-12)",
   "verification": "unverified",
   "last_verified": null
 }

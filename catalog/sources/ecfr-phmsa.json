@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "daily",
-  "notes": "Electronic Code of Federal Regulations, Title 49 Parts 190-199 (PHMSA pipeline safety rules) — a primary regulatory source cited on midstream pipeline cards. Registered unverified from the citation-mining queue; citation URLs carry query parameters that resolve at collection. Evidence: https://www.ecfr.gov (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site live: eCFR, the Office of the Federal Register's daily codification of the CFR including Title 49. The about-this-site page states: 'Any person may reproduce or republish any material appearing in any regular or special edition of the Federal Register (1 CFR 2.6). There are no restrictions regarding what is reproduced, who can reproduce it, or where it can be reproduced', and describes eCFR content as 'authoritative but unofficial'. Open access and free reproduction confirmed, matching the record's public-domain licence and full-text-open reuse level. Note: WebFetch on some ecfr.gov paths is bounced to an unblock.federalregister.gov bot-check, but the pages fetch fine via curl. Evidence: https://www.ecfr.gov (read 2026-11-12); https://www.ecfr.gov/reader-aids/government-policy-and-ofr-procedures/about-this-site (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

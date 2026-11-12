@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "CHEManager trade media covering chemicals-plant projects and process technology, cited on petrochemical upgrade news. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live CHEManager trade publication (Wiley-VCH) for the chemical/pharma industry, freely readable with no paywall; e-paper archive accessible and some sponsored downloads registration-gated. Its published Terms and Conditions govern advertising contracts only and say nothing about reuse or reproduction of editorial content; no article-reuse licence is stated anywhere. Record fields (open, proprietary, catalog-only) are accurate. Evidence: https://www.chemanager-online.com and /en/page/terms-and-conditions (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

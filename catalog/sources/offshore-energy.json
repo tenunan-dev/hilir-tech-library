@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Offshore industry news portal, cited for LNG shipping and floating-production milestones (e.g. Hammerfest LNG tanker loads). Registered unverified from the citation-mining queue; terms verification pending. Evidence: offshore-energy.biz Hammerfest LNG article (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Offshore Energy (Navingo network) is live with minute-fresh articles across fossil energy, subsea, alternative fuels, hydrogen and marine energy, matching the record. Footer: '(c) 2026 Navingo. All rights reserved.' with no visible reuse licence; a Privacy policy and RSS feed are listed. Free to read, proprietary rights - catalog-only reuse level is appropriate. Evidence: https://www.offshore-energy.biz (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

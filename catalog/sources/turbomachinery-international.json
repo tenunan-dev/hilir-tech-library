@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "monthly",
-  "notes": "Rotating-equipment trade magazine cited on electric-driven LNG trains and compressor milestones. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Turbomachinery Magazine (published by MJH Life Sciences) is live with freely readable articles, podcasts and videos; Subscribe is a newsletter/magazine option, not an access gate. Footer states '(c) 2026 MJH Life Sciences All rights reserved.' with Privacy and Terms and Conditions links. access=open and proprietary terms as recorded are consistent. Evidence: https://www.turbomachinerymag.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

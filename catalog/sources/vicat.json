@@ -21,7 +21,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Cement producer whose CCUS project news (e.g. the Vicat/Saint-Gobain cement CCS collaboration) is cited on oxyfuel and cement-CCS cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Groupe Vicat's corporate site is live with freely readable news and product content and no paywall. Footer links 'Mentions legales' and 'Conditions generales d'utilisation' exist, but the legal text itself is not shown on the homepage. access=open with proprietary site terms as recorded is consistent. Evidence: https://www.vicat.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

@@ -571,10 +571,10 @@ Recorded gaps: site-by-site capacity list
 
 ### AirTrunk Malaysia hyperscale platform (JHB1-JHB4, Johor Bahru) (airtrunk-malaysia-platform)
 Status: **under-construction** | Country: MY
-AirTrunk's Malaysian hyperscale platform: four campuses in Johor Bahru totalling more than 700 MW of IT capacity and about USD 6.8 billion of investment — the anchor data-centre supply for the Johor-Singapore AI corridor. JHB1 (150+ MW) opened July 2024 as an AI-ready facility with one of the largest direct-to-chip liquid-cooling deployments; JHB2 (about 280 MW, announced February 2025) carries USD 2.3 billion of green financing; JHB3 and JHB4 (about 280 MW combined) were announced April 2026 under a MYR 12 billion investment.
+AirTrunk's Malaysian hyperscale platform: four campuses in Johor Bahru (Iskandar Puteri) totalling more than 700 MW of IT capacity and about USD 6.8 billion (MYR 27 billion) of committed investment — the anchor data-centre supply for the Johor-Singapore AI corridor. JHB1 (150+ MW, 20 data halls, 132 kV, design PUE 1.15) opened 30 July 2024 with one of the world's largest direct-to-chip liquid-cooling deployments and its remaining ~100 MW of phases began construction August 2024 (initial tranche mid-2025); JHB2 (scalable to 270+ MW, 275 kV, announced 12 February 2025) carries USD 2.325 billion of green financing raised July 2026 (largest single-asset data-centre green financing in Malaysia, first IFC financing, 30 lenders); JHB3 (138+ MW) and JHB4 (142+ MW) were announced 30 April 2026 under a MYR 12 billion (USD 3 billion) investment, powered by 275 kV dual feeds from JHB2. JHB1 and JHB2 (420+ MW combined) were reported almost 100% contracted at the JHB3/JHB4 announcement.
 Technologies: idc-siting-power-procurement, idc-direct-to-chip-liquid-cooling
-Capacity: platform IT capacity: 700+ MW; JHB1 (first campus):  MW; JHB2 (second campus):  MW; JHB3 + JHB4:  MW
-Recorded gaps: per-building phase dates and contracted offtakers
+Capacity: platform IT capacity:  MW; JHB1 campus:  MW; JHB2 campus:  MW; JHB3 campus:  MW; JHB4 campus:  MW
+Recorded gaps: contracted offtakers (customers) per campus and per-building go-live dates
 
 ## MAT: Materials and integrity
 

@@ -20,7 +20,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Solar industry news covering floating PV expansion in Southeast Asia and module technology. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "TaiyangNews solar-industry site is live with freely linkable news, analysis and rankings; no paywall or login gate is shown (reports may be registration-gated but nothing visible). The only notice is a brief footer 'TaiyangNews 2024'; no terms-of-use or licence page was found, so the recorded licence=proprietary is a default reading and no open licence exists. access=open is correct. Evidence: https://taiyangnews.info (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

@@ -21,7 +21,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "SPE's peer-reviewed journals hosted on OnePetro (which is Cloudflare-bot-walled to plain fetchers); paywalled beyond abstracts. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "OnePetro, the SPE journals/conference library, is live and is a subscription platform: 'Sign In or Register to Continue', member pricing and shopping cart, with full text paywalled beyond abstracts, so access=mixed is right. No explicit terms text on the homepage, only a Terms of Use footer link. Record consistent. Evidence: https://onepetro.org (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "Open-access Frontiers journal covering carbon removal, negative emissions and climate mitigation technologies (CC-BY licensed), cited on CDR-related cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: frontiersin.org article 10.3389/fclim.2019.00005 (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Frontiers in Climate journal page is live and is an open-access journal (APC-funded model). Frontiers' open-access statement confirms articles, Research Topics and ebooks are published under the CC-BY licence (CC BY 4.0), which permits unrestricted use, distribution and reproduction in any medium provided the original authors and source are credited. The record's open/CC-BY/full-text-open classification is confirmed. Evidence: https://www.frontiersin.org/journals/climate; https://www.frontiersin.org/about/open-access (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

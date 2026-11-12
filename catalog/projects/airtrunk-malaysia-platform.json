@@ -16,49 +16,56 @@
   "country": "MY",
   "location": "Iskandar Puteri / Johor Bahru, Malaysia (four campuses: JHB1-JHB4)",
   "status": "under-construction",
-  "description": "AirTrunk's Malaysian hyperscale platform: four campuses in Johor Bahru totalling more than 700 MW of IT capacity and about USD 6.8 billion of investment — the anchor data-centre supply for the Johor-Singapore AI corridor. JHB1 (150+ MW) opened July 2024 as an AI-ready facility with one of the largest direct-to-chip liquid-cooling deployments; JHB2 (about 280 MW, announced February 2025) carries USD 2.3 billion of green financing; JHB3 and JHB4 (about 280 MW combined) were announced April 2026 under a MYR 12 billion investment.",
+  "description": "AirTrunk's Malaysian hyperscale platform: four campuses in Johor Bahru (Iskandar Puteri) totalling more than 700 MW of IT capacity and about USD 6.8 billion (MYR 27 billion) of committed investment — the anchor data-centre supply for the Johor-Singapore AI corridor. JHB1 (150+ MW, 20 data halls, 132 kV, design PUE 1.15) opened 30 July 2024 with one of the world's largest direct-to-chip liquid-cooling deployments and its remaining ~100 MW of phases began construction August 2024 (initial tranche mid-2025); JHB2 (scalable to 270+ MW, 275 kV, announced 12 February 2025) carries USD 2.325 billion of green financing raised July 2026 (largest single-asset data-centre green financing in Malaysia, first IFC financing, 30 lenders); JHB3 (138+ MW) and JHB4 (142+ MW) were announced 30 April 2026 under a MYR 12 billion (USD 3 billion) investment, powered by 275 kV dual feeds from JHB2. JHB1 and JHB2 (420+ MW combined) were reported almost 100% contracted at the JHB3/JHB4 announcement.",
   "capacities": [
     {
       "metric": "platform IT capacity",
-      "value": "700+",
+      "low": 700,
       "unit": "MW",
-      "basis": "combined across four campuses; about USD 6.8 billion total investment in Malaysia",
+      "basis": "combined across four campuses; total committed investment about USD 6.8 billion (MYR 27 billion)",
       "source": {
-        "url": "https://airtrunk.com/",
-        "note": "AirTrunk site banner: AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+, read 2026-11-12"
+        "url": "https://airtrunk.com/airtrunk-doubles-down-in-malaysia-with-two-new-hyperscale-campuses-in-johor-bahru/",
+        "note": "JHB3/JHB4 release, read page-by-page 2026-11-13"
       }
     },
     {
-      "metric": "JHB1 (first campus)",
+      "metric": "JHB1 campus",
       "low": 150,
-      "high": 150,
       "unit": "MW",
-      "basis": "150+ MW campus on 10.3 hectares, initial phases 50+ MW; opened 30 July 2024 as AI-ready with one of the largest direct-to-chip liquid-cooling deployments; fully contracted",
+      "basis": "150+ MW on 10.3 ha, 21,900 m2 technical data hall area, 20 data halls, 132 kV diverse feeds, design PUE 1.15, 20 MW+ direct-to-chip liquid cooling in flight; flagship 150 MW opened 30 July 2024; remaining ~100 MW of phases under construction from August 2024 (initial tranche mid-2025, A$1 billion+ investment, 2,500+ construction jobs); DTC cooling cuts energy use up to 23%",
       "source": {
-        "url": "https://airtrunk.com/",
-        "note": "AirTrunk JHB1 announcement and opening releases, read via search summaries 2026-11-12"
+        "url": "https://airtrunk.com/location/jhb1-johor/",
+        "note": "JHB1 location page + 30 Jul 2024 opening release + 9 Aug 2024 100 MW expansion release, all read 2026-11-13"
       }
     },
     {
-      "metric": "JHB2 (second campus)",
+      "metric": "JHB2 campus",
       "low": 270,
-      "high": 280,
       "unit": "MW",
-      "basis": "about 280 MW announced February 2025 in Iskandar; USD 2.3 billion green financing raised July 2026",
+      "basis": "scalable to over 270 MW (announced 12 February 2025, Iskandar Puteri; design PUE 1.25 at announcement, later releases and the location page state 1.37), 11 ha, 275 kV diverse feeds, liquid cooling for high-density AI; USD 2.325 billion (RM 9.5 billion) green financing raised 29 July 2026 for JHB2 specifically",
       "source": {
-        "url": "https://airtrunk.com/",
-        "note": "AirTrunk JHB2 announcement, read via search summaries 2026-11-12"
+        "url": "https://airtrunk.com/airtrunk-scales-up-in-malaysia-with-announcement-of-second-malaysia-hyperscale-data-centre-jhb2/",
+        "note": "JHB2 announcement + 29 Jul 2026 green-financing release + JHB2 location page, read 2026-11-13"
       }
     },
     {
-      "metric": "JHB3 + JHB4",
-      "low": 280,
-      "high": 280,
+      "metric": "JHB3 campus",
+      "low": 138,
       "unit": "MW",
-      "basis": "about 280 MW combined, announced 30 April 2026 under a MYR 12 billion (about USD 3 billion) investment",
+      "basis": "138+ MW, 5.4034 ha, 11,150 m2 technical data hall area, 8 data halls, 275 kV permanent dual feed from JHB2, design PUE 1.3",
       "source": {
-        "url": "https://airtrunk.com/",
-        "note": "AirTrunk JHB3/JHB4 announcement, read via search summaries 2026-11-12"
+        "url": "https://airtrunk.com/location/jhb3-johor-bahru/",
+        "note": "JHB3 location page, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "JHB4 campus",
+      "low": 142,
+      "unit": "MW",
+      "basis": "142+ MW, 5.589 ha, 11,150 m2 technical data hall area, 8 data halls, 275 kV permanent dual feed from JHB2, design PUE 1.3; JHB3+JHB4 announced together 30 April 2026 at MYR 12 billion (USD 3 billion) for a combined 280+ MW",
+      "source": {
+        "url": "https://airtrunk.com/location/jhb4-johor-bahru/",
+        "note": "JHB4 location page + JHB3/JHB4 release, read 2026-11-13"
       }
     }
   ],
@@ -75,26 +82,114 @@
   ],
   "milestones": [
     {
-      "event": "platform expansion past 700 MW announced",
-      "date": "2026",
+      "event": "Malaysia entry announced: JHB1, 150+ MW, Johor Bahru",
+      "date": "2023-01-19",
       "source": {
-        "url": "https://airtrunk.com/",
-        "note": "AirTrunk site banner, read 2026-11-12"
+        "url": "https://airtrunk.com/airtrunk-enters-malaysia-with-new-150mw-hyperscale-data-centre-in-johor-bahru/",
+        "note": "read 2026-11-13"
+      }
+    },
+    {
+      "event": "JHB1 flagship opened (150 MW, AI-ready, direct-to-chip liquid cooling)",
+      "date": "2024-07-30",
+      "source": {
+        "url": "https://airtrunk.com/airtrunk-opens-ai-ready-data-centre-in-malaysia-accelerating-innovation-and-the-energy-transition/",
+        "note": "read 2026-11-13"
+      }
+    },
+    {
+      "event": "JHB1 remaining ~100 MW of phases start construction; initial tranche targeted mid-2025",
+      "date": "2024-08-09",
+      "source": {
+        "url": "https://airtrunk.com/airtrunk-jhb1100mw-expansion-underway/",
+        "note": "read 2026-11-13"
+      }
+    },
+    {
+      "event": "JHB2 announced: scalable to 270+ MW, Iskandar Puteri; platform reaches RM 9.7 billion (A$3.5 billion) and 420+ MW",
+      "date": "2025-02-12",
+      "source": {
+        "url": "https://airtrunk.com/airtrunk-scales-up-in-malaysia-with-announcement-of-second-malaysia-hyperscale-data-centre-jhb2/",
+        "note": "read 2026-11-13"
+      }
+    },
+    {
+      "event": "Johor Special Water recycled-water supply scheme for JHB1 and JHB2 (largest of its kind in Malaysia to date)",
+      "date": "2025-04-03",
+      "source": {
+        "url": "https://airtrunk.com/airtrunk-johor-special-water-to-develop-sustainable-water-supply-for-airtrunks-johor-data-centres/",
+        "note": "read 2026-11-13"
+      }
+    },
+    {
+      "event": "JHB3 and JHB4 announced: 280+ MW combined, MYR 12 billion; platform past 700 MW and MYR 27 billion (USD 6.8 billion) committed",
+      "date": "2026-04-30",
+      "source": {
+        "url": "https://airtrunk.com/airtrunk-doubles-down-in-malaysia-with-two-new-hyperscale-campuses-in-johor-bahru/",
+        "note": "read 2026-11-13"
+      }
+    },
+    {
+      "event": "USD 2.325 billion (RM 9.5 billion) green financing secured for JHB2 (30 lenders incl. first IFC financing; largest single-asset data-centre green financing in Malaysia)",
+      "date": "2026-07-29",
+      "source": {
+        "url": "https://airtrunk.com/airtrunk-secures-us2-325b-green-financing-to-support-sustainable-digital-infrastructure-growth-in-malaysia/",
+        "note": "read 2026-11-13"
+      }
+    },
+    {
+      "event": "Malaysia's first renewable VPPA for a data centre delivered with ib vogt",
+      "date": "2026-07-01",
+      "source": {
+        "url": "https://airtrunk.com/ib-vogt-airtrunk-deliver-malaysias-first-renewable-vppa-for-a-data-centre/",
+        "note": "title/date read from newsroom index 2026-11-13"
       }
     }
   ],
   "sources": [
     {
-      "url": "https://airtrunk.com/",
-      "note": "AirTrunk site banner: AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+, read 2026-11-12"
+      "url": "https://airtrunk.com/airtrunk-doubles-down-in-malaysia-with-two-new-hyperscale-campuses-in-johor-bahru/",
+      "note": "JHB3/JHB4 release, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/airtrunk-scales-up-in-malaysia-with-announcement-of-second-malaysia-hyperscale-data-centre-jhb2/",
+      "note": "JHB2 release, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/airtrunk-jhb1100mw-expansion-underway/",
+      "note": "JHB1 100 MW expansion release, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/airtrunk-opens-ai-ready-data-centre-in-malaysia-accelerating-innovation-and-the-energy-transition/",
+      "note": "JHB1 opening release, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/airtrunk-secures-us2-325b-green-financing-to-support-sustainable-digital-infrastructure-growth-in-malaysia/",
+      "note": "green financing release, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/location/jhb1-johor/",
+      "note": "per-campus specs JHB1, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/location/jhb2-johor/",
+      "note": "per-campus specs JHB2, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/location/jhb3-johor-bahru/",
+      "note": "per-campus specs JHB3, read 2026-11-13"
+    },
+    {
+      "url": "https://airtrunk.com/location/jhb4-johor-bahru/",
+      "note": "per-campus specs JHB4, read 2026-11-13"
     }
   ],
   "gaps": [
     {
-      "what": "per-building phase dates and contracted offtakers",
-      "why": "Newsroom releases carry per-phase detail not yet read page-by-page",
-      "next_action": "Read AirTrunk newsroom releases for JHB1-JHB4 phase schedules"
+      "what": "contracted offtakers (customers) per campus and per-building go-live dates",
+      "why": "Releases name volumes and financing but not customer identities; 'almost 100% contracted' is the only offtake statement",
+      "next_action": "Offtakers are typically confidential — hold until an owner-sourced release or filing names them"
     }
   ],
-  "last_reviewed": "2026-11-12"
+  "last_reviewed": "2026-11-13"
 }

@@ -60,7 +60,7 @@
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
-| [SPE Annual Technical Conference and Exhibition (ATCE)](https://www.spe.org/events/atce/) | conference | global | mixed | catalog-only (unverified) |
+| [SPE Annual Technical Conference and Exhibition (ATCE)](https://www.atce.org) | conference | global | mixed | catalog-only |
 | [Sulzer](https://www.sulzer.com/) | oem-supplier | global | open | full-text-restricted |
 | [TechnipFMC](https://www.technipfmc.com/) | oem-supplier | global | open | full-text-restricted (unverified) |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
@@ -74,5 +74,5 @@
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |
 | [STAL (Chinese refrigeration/pumps)](https://www.stal.com.cn) | oem-supplier | global | open | catalog-only (unverified) |
-| [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only (unverified) |
+| [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

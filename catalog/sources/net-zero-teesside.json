@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Project pages for the UK's first industrial-scale gas-fired CCS + power cluster at Teesside (FID 2024, first dispatch power target 2028). Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.netzeroteesside.co.uk/partners/ (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Net Zero Teesside project site is live and current (news dated 06.11.26; construction underway, startup expected 2028; NZT Power described as the world's first gas-fired power station with CCS, up to 742 MW and ~2 Mt CO2/yr), matching the record. Footer links Cookie Policy, Privacy policy and Terms of Use. Free to read, proprietary rights, so full-text-restricted is correct. Evidence: https://www.netzeroteesside.co.uk (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

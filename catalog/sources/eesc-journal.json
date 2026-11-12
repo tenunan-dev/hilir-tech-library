@@ -18,12 +18,12 @@
   "regions": [
     "global"
   ],
-  "access": "open",
-  "licence": "CC-BY-NC or proprietary (hybrid)",
-  "reuse_level": "full-text-open",
+  "access": "mixed",
+  "licence": "proprietary (hybrid journal: subscription route paywalled; optional gold OA route at GBP 3,100 APC; CC variant of OA licence not stated on the RSC about page)",
+  "reuse_level": "full-text-restricted",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "Gold open-access RSC journal at the top of the OpenAlex venue sweep; high-impact reviews on energy conversion and CO2 utilisation. Registered unverified from the citation-graph sweep; per-article licences vary. Evidence: OpenAlex venue-frequency citation-graph sweep (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "pubs.rsc.org journal page is bot-walled (Cloudflare 'Just a moment...'), but the RSC's own about-journals page is readable and says Energy & Environmental Science is a Hybrid journal - 'no fees to submit' with authors choosing between the subscription model and gold open access (APC 3,100 GBP) - not a fully gold OA journal. The record's access:open and reuse_level:full-text-open are therefore wrong: subscription-route articles are paywalled. The about page does not name the CC variant for OA articles, so the licence is recorded as the hybrid/proprietary mix rather than a specific CC term. Evidence: https://www.rsc.org/journals-books-databases/about-journals/energy-environmental-science/ (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "Malaysia's national standards and certification body — MS standards adoption matters for the library's Southeast Asia weighting. Registered unverified from the event sweep; terms verification pending. Evidence: https://www.sirim.my (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "SIRIM Berhad (Malaysia's standards/certification body) is live; homepage content is public while some portal features require Sign In, so access=mixed is right. Footer states 'Copyright (c) 2026 SIRIM BERHAD (Company No. 199501038272). All rights reserved.' with Disclaimer and Privacy Policy links; no open licence. Evidence: https://www.sirim.my (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

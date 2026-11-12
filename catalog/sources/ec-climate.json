@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "weekly",
-  "notes": "EU climate-policy pages: ETS, CBAM and Innovation Fund rules that set the CO2-price assumptions behind European CCS and low-carbon-fuel economics. Registered unverified from the citation-mining queue. Evidence: climate.ec.europa.eu (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site live: DG CLIMA (European Commission Directorate-General for Climate Action), open access, no barriers on the pages checked. As an ec.europa.eu Commission site it falls under the Commission legal notice, which licenses EU-owned content under CC BY 4.0 implemented via the Commission Decision of 12 December 2011 (2011/833/EU) - matching the record's licence and full-text-open reuse level. Evidence: https://climate.ec.europa.eu (read 2026-11-12); https://commission.europa.eu/legal-notice_en (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

@@ -17,11 +17,13 @@
     "global"
   ],
   "access": "open",
-  "licence": "public-domain",
-  "reuse_level": "full-text-open",
+  "licence": "FRED Terms of Use: limited licence for personal, non-commercial use; series tiered (Copyrighted: Pre-approval required / Copyrighted: Citation required / Public Domain: Citation requested); no data mining, mirroring, robots, scraping",
+  "reuse_level": "full-text-with-attribution",
   "quality_tier": 1,
   "update_frequency": "daily",
-  "notes": "St. Louis Fed macro-economic series (GDP deflators, PPI series) used to establish dollar-year escalation bases for cost figures. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://fred.stlouisfed.org/series/GDPC1/ (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "FRED is live and free to read, but the record's public-domain licence is wrong: FRED's Terms of Use grant only a limited, revocable licence for personal non-commercial use and classify series into three copyright tiers (Copyrighted: Pre-approval required; Copyrighted: Citation required; Public Domain: Citation requested), with attribution to FRED and the original source required. The terms prohibit data mining, mirroring, robots, scraping, wholesale downloading and use of content for AI/ML training (official API is the sanctioned access path). Evidence: https://fred.stlouisfed.org; https://fred.stlouisfed.org/legal/ (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13",
+  "automated_access": "prohibited",
+  "permitted_use": "personal-non-commercial"
 }

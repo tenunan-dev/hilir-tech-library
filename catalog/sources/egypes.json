@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "annual",
-  "notes": "North-Africa energy exhibition (dmg events), relevant to the library's Middle East coverage. Registered unverified from the event sweep; terms verification pending. Evidence: https://egypes.com (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site live: EGYPES / Egypt Energy Show 2027 in Cairo, organised by dmg events; event, exhibitor and news content is freely readable with no paywall (registration links relate to attending, not reading). The full dmgevents website-terms text could not be retrieved (only navigation returned), but the dmg events footer carries 'dmg events. All rights reserved' notices, consistent with the record's proprietary licence and catalog-only reuse. Record's access:mixed could not be fully tested across the whole site but no gated reading content was seen. Evidence: https://egypes.com (read 2026-11-12); https://www.dmgevents.com/website-terms/ (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

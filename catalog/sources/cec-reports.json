@@ -18,11 +18,11 @@
     "na"
   ],
   "access": "open",
-  "licence": "public-domain",
-  "reuse_level": "full-text-open",
+  "licence": "CEC Conditions of Use: most materials 'free for public use' with Energy Commission credit; commercial use prohibited; third-party materials not for reuse",
+  "reuse_level": "full-text-with-attribution",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "CEC staff reports (e.g. CEC-600-2017-011 on electricity cost studies) — open state publications cited on power-cost cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: ww2.energy.ca.gov CEC-600-2017-011.pdf citation (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live California Energy Commission site with free publications. Conditions of Use say materials 'generated, compiled, or assembled at public expense ... are free for public use' provided the Energy Commission is credited, while commercial/profit-making use and third-party materials are prohibited and the Commission seal/trademarks are restricted. Because crediting is required and commercial use is barred, the record's licence=public-domain and reuse_level=full-text-open are corrected to the site's stated terms. Evidence: https://www.energy.ca.gov and https://www.energy.ca.gov/conditions-of-use (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

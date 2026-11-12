@@ -23,7 +23,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Developer project pages carrying scale and commercialisation facts for flagship projects (NEOM Green Hydrogen Project: 2.2 GW electrolysis, 600 t/day H2) cited on the H2 cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/ (not yet fetched, 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live ACWA Power corporate site with Projects/Sustainability sections matching the record. Its Legal Notice states 'All intellectual property rights are reserved' and 'No use of ACWA Power or Acwa names, trademarks, or hyperlinks is permitted without prior written consent.' Project pages are free to read; no reuse permission granted. Record fields (open, proprietary, full-text-restricted) are accurate. Evidence: https://acwapower.com and https://acwapower.com/en/legal-notice (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

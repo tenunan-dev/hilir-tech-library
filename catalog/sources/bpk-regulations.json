@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "Indonesia's official regulation database (peraturan.bpk.go.id): laws and ministerial regulations including oil-and-gas sector rules, supporting the library's Southeast Asia focus. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://peraturan.bpk.go.id (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live JDIH BPK regulation database of Indonesia's Badan Pemeriksa Keuangan, stating free access 'dapat diakses oleh Pelaksana BPK maupun masyarakat umum secara gratis dan tanpa syarat.' Only a disclaimer page exists (documents sourced from official institution websites; users told to verify discrepancies with the issuing agency); no copyright notice, open-licence statement or reuse policy is published. Full text is openly readable, so access=open is right, but reuse terms are unstated and licence stays unknown. Evidence: https://peraturan.bpk.go.id (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

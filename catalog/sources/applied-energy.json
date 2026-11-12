@@ -23,7 +23,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Elsevier applied-energy journal from the OpenAlex venue sweep, hybrid OA. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "ScienceDirect is live but returns HTTP 403 to automated fetchers (journal URL 302-redirects to id.elsevier.com sign-in), so the journal page itself was not readable. Elsevier's website terms allow only personal, non-commercial download/printing, prohibit reproduction, derivative works, AI-tool use and automated scraping absent express permission; open-access articles are governed by separate terms. Record fields (mixed hybrid-OA access, proprietary, full-text-restricted) are consistent with these terms. Evidence: https://www.sciencedirect.com/journal/applied-energy (bot-blocked) and https://www.elsevier.com/legal/elsevier-website-terms-and-conditions (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

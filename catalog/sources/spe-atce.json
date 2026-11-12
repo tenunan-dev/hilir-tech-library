@@ -1,7 +1,7 @@
 {
   "id": "spe-atce",
   "name": "SPE Annual Technical Conference and Exhibition (ATCE)",
-  "url": "https://www.spe.org/events/atce/",
+  "url": "https://www.atce.org",
   "source_type": "conference",
   "sectors": [
     "UPS",
@@ -22,7 +22,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "SPE's flagship annual conference; papers hosted on OnePetro (bot-walled). Registered unverified from the event sweep; terms verification pending. Evidence: https://www.spe.org/events/atce/ (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The recorded URL spe.org/events/atce/ returns 404 (confirmed by WebFetch and curl), but the live official ATCE site is https://www.atce.org/ (currently ATCE 2027, Denver), a freely readable conference site with 'Copyright (c) 2003-2026, Society of Petroleum Engineers. All rights reserved.' and SPE Terms/Privacy links. Papers remain hosted on OnePetro (paywalled). Record needs its url field repointed to www.atce.org; other fields are consistent. Evidence: https://www.atce.org/ (read 2026-11-12); recorded URL https://www.spe.org/events/atce/ returned 404 (read 2026-11-12) URL updated 2026-11-13 (old: https://www.spe.org/events/atce/).",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

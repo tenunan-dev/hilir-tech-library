@@ -1,7 +1,7 @@
 {
   "id": "usgs-mcs",
   "name": "USGS Mineral Commodity Summaries",
-  "url": "https://pubs.usgs.gov/periodicals/mcs.html",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/",
   "source_type": "agency-data",
   "sectors": [
     "CCS",
@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "notes": "Annual USGS commodity summaries (cement, lithium, nickel, rare earths etc.) — production and price statistics cited on cement, materials and battery-chain cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: pubs.usgs.gov/periodicals/mcs2021/mcs2021-cement.pdf (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The recorded URL returns 404, but the live Mineral Commodity Summaries 2026 index at pubs.usgs.gov/periodicals/mcs2026/ is a plain directory listing with unrestricted free PDF downloads. No licence text appears on the listing page, but USGS-authored publications are US-government public domain per USGS policy. access=open, licence=public-domain and reuse_level=full-text-open are consistent; the url field should be repointed to the current MCS index. Evidence: https://pubs.usgs.gov/periodicals/mcs2026/ (read 2026-11-12); recorded URL https://pubs.usgs.gov/periodicals/mcs.html returned 404 (read 2026-11-12) URL updated 2026-11-13 (old: https://pubs.usgs.gov/periodicals/mcs.html).",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

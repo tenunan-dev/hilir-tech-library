@@ -22,7 +22,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Power-generation trade magazine cited for plant-conversion and data-centre power stories (e.g. Google geothermal PPA coverage). Registered unverified from the citation-mining queue; terms verification pending. Evidence: powermag.com Google geothermal article citation (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "POWER Magazine (Access Intelligence) is live and matches the record. Headlines/teasers are free but the site pushes Subscribe/login for full membership, so access=mixed is right. Footer states 'Copyright (c) 2026 Access Intelligence, LLC - All Rights Reserved' with a Terms & Conditions link; no open licence. Evidence: https://www.powermag.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

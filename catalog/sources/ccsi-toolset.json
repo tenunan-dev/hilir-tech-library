@@ -21,7 +21,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "DOE's open-source process-simulation and optimisation toolkit for carbon capture (Aspen-independent unit models and reduced-order models), cited on capture-model and process-intensification cards. Registered unverified from the citation-mining queue. Evidence: github.com/CCSI-Toolset (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live GitHub org for the DOE CCSI Toolset with 38 repositories (FOQUS, SimSinter, turb_sci_gate, model bundles), actively maintained into 2026. FOQUS carries a BSD-3-Clause-style licence (redistribution permitted with copyright notice and disclaimer; US Government retains certain rights) co-owned by ORISE, the national labs and universities. Record fields (open, BSD-style open source, full-text-open) are accurate. Evidence: https://github.com/CCSI-Toolset and FOQUS LICENSE.md at https://raw.githubusercontent.com/CCSI-Toolset/FOQUS/master/LICENSE.md (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

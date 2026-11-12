@@ -1,7 +1,7 @@
 {
   "id": "wgc",
   "name": "World Gas Conference (IGU)",
-  "url": "https://www.igu.org/events/world-gas-conference/",
+  "url": "https://www.wgc2028.com",
   "source_type": "conference",
   "sectors": [
     "GAS",
@@ -22,7 +22,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "irregular",
-  "notes": "The International Gas Union's triennial flagship conference. Registered unverified from the event sweep; terms verification pending. Evidence: https://www.igu.org/events/world-gas-conference/ (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The recorded URL returns 404 (WebFetch and curl), but the International Gas Union's site is live and promotes the World Gas Conference: WGC2028, the 30th edition at ExCeL London 15-18 May 2028, at https://www.wgc2028.com/. The conference series is real and the IGU site matches the record's subject; the url field should be repointed to the current WGC page. Proprietary association terms as recorded are consistent. Evidence: https://www.igu.org (read 2026-11-12); recorded URL https://www.igu.org/events/world-gas-conference/ returned 404 (read 2026-11-12) URL updated 2026-11-13 (old: https://www.igu.org/events/world-gas-conference/).",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

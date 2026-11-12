@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "monthly",
-  "notes": "EU funding-agency project pages with verified facts on EU-funded first-of-a-kind BECCS, CCS and hydrogen projects (e.g. Stockholm Exergi BECCS). Registered unverified from the citation-mining queue. Evidence: cinea.ec.europa.eu Stockholm BECCS featured project (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site live: CINEA (European Climate, Infrastructure and Environment Executive Agency) multilingual EU-agency site, open access. The Commission-wide legal notice states the EU reuse policy is implemented by the Commission Decision of 12 December 2011 and that EU-owned content is licensed under CC BY 4.0 ('reuse is allowed, provided appropriate credit is given and changes are indicated'). Record's 'EU reuse decision 2011/833' and full-text-open are consistent with this; no correction needed. Evidence: https://cinea.ec.europa.eu (read 2026-11-12); https://commission.europa.eu/legal-notice_en (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

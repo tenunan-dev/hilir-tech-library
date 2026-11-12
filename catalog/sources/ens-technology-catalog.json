@@ -1,7 +1,7 @@
 {
   "id": "ens-technology-catalog",
   "name": "Danish Energy Agency Technology Data catalogue",
-  "url": "https://ens.dk/en/our-services/projections-and-models/technology-data",
+  "url": "https://ens.dk/en/analyses-and-statistics/technology-catalogues",
   "source_type": "agency-data",
   "sectors": [
     "PWR",
@@ -23,7 +23,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 1,
   "update_frequency": "annual",
-  "notes": "The DEA's Technology Data catalogue: openly published technology data sheets with levelised cost, efficiency and investment cost assumptions for power generation, hydrogen and storage — one of the best open cost datasets, cited on PWR/H2 cost gaps. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://ens.dk/en/our-services/projections-and-models/technology- (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The recorded URL (ens.dk/en/our-services/projections-and-models/technology-data) returns 404 after a site restructure; the live hub is ens.dk/en/analyses-and-statistics/technology-catalogues with per-topic Technology Data catalogues (electricity/district heating, transport, storage, CCS). Content is openly published and freely downloadable with no registration. No copyright or reuse licence statement was found on the pages checked, so the record's licence:unknown stays honest; access:open and full-text-open are consistent with what is observed, subject to the URL correction noted in the finding. Evidence: https://ens.dk/en/analyses-and-statistics/technology-catalogues (read 2026-11-12) URL updated 2026-11-13 (old: https://ens.dk/en/our-services/projections-and-models/technology-data).",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

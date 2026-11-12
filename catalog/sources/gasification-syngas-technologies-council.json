@@ -1,7 +1,7 @@
 {
   "id": "gasification-syngas-technologies-council",
-  "name": "Gasification & Syngas Technologies Council",
-  "url": "https://www.gasification-syngas.org",
+  "name": "Global Syngas Technologies Council",
+  "url": "https://globalsyngas.org",
   "source_type": "association",
   "sectors": [
     "GAS",
@@ -21,7 +21,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 2,
   "update_frequency": "annual",
-  "notes": "Industry association for gasification and syngas technologies: conference papers and plant counts cited on gasification cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "www.gasification-syngas.org now 301-redirects to globalsyngas.org, where the organisation appears as the Global Syngas Technologies Council (renamed successor to the Gasification & Syngas Technologies Council); the site is live. No terms-of-use, copyright or privacy links were found on the homepage, so no licence statement could be quoted and the proprietary/catalog-only fields remain unconfirmed defaults. The record's URL still resolves via redirect, so access works, but the name/URL are outdated. Evidence: http://www.gasification-syngas.org (redirects to https://globalsyngas.org/) (read 2026-11-13) URL updated 2026-11-13 (old: https://www.gasification-syngas.org).",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

@@ -16,12 +16,12 @@
   "regions": [
     "global"
   ],
-  "access": "open",
+  "access": "mixed",
   "licence": "proprietary",
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Chemical Processing trade magazine: process-intensification and plant-technology articles cited on process cards. Registered unverified from the citation-mining queue. Evidence: citation-mining sweep 2026-10-29, triaged 2026-11-11.",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live Chemical Processing trade site now published by Endeavor Business Media (record's Putman Media is outdated; outside editable fields). Most articles are free but some are marked 'Members Only', so access is mixed rather than fully open. Footer asserts '(c) 2026 All rights reserved.' and links to Endeavor terms, whose document is JavaScript-gated and could not be read; no explicit reuse permission is stated. access corrected to mixed. Evidence: https://www.chemicalprocessing.com (read 2026-11-13; Endeavor terms at endeavorb2b.com JS-gated)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

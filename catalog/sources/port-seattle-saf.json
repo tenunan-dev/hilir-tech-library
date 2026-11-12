@@ -20,7 +20,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Airport-authority pages on sustainable aviation fuel supply and logistics at Seattle-Tacoma, cited on the SAF card for airport-side uptake evidence. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.portseattle.org/page/sustainable-aviation-fuels (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Port of Seattle SAF page is live and details SEA SAF goals (10% blend by 2028), ~600M gallons/yr jet fuel, WA 2023 SAF incentive and linked 2016-2023 research reports, matching the record. Footer: '(c) Copyright Port of Seattle. All Rights Reserved.' with no explicit reuse licence - open to read, reuse requires permission, so full-text-restricted is correct and licence stays unknown. Evidence: https://www.portseattle.org/page/sustainable-aviation-fuels (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

@@ -24,7 +24,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 3,
   "update_frequency": "daily",
-  "notes": "Oil and gas industry news site (Turret Media), cited for project milestones such as Singapore's first ammonia bunkering trial on the gas-lng-bunkering card. Registered unverified from the citation-mining queue; terms verification pending. Evidence: https://www.energyconnects.com (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Site live: Energy Connects, an oil/gas/LNG/hydrogen news site and official media partner of dmg events' energy portfolio. Articles, videos and podcasts are openly readable with no paywall or registration wall observed. No terms-of-use document was found beyond a footer '2026 Energy Connects. All Rights Reserved' notice, matching the record's proprietary licence and catalog-only reuse; no exact licence text available. Evidence: https://www.energyconnects.com (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

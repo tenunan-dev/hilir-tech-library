@@ -22,7 +22,7 @@
   "reuse_level": "full-text-open",
   "quality_tier": 2,
   "update_frequency": "daily",
-  "notes": "Open full-text archives for peer-reviewed literature (PMC and Europe PMC are the compliant mirror hosts for blocked journal sites). Registered unverified from the citation-mining queue; per-article licences vary. Evidence: pmc.ncbi.nlm.nih.gov/articles/PMC5679388 cited by corpus docs (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "PubMed Central (NIH/NLM) is live and describes itself as 'a free full-text archive of biomedical and life sciences journal literature' with 12.6 million articles, confirming open full-text access. The homepage carries no blanket licence statement: deposit/licence arrangements differ per journal and per article, so per-article CC/OA licence terms must be checked on each article page - consistent with the record's 'varies (OA licences)'. Evidence: https://pmc.ncbi.nlm.nih.gov (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }

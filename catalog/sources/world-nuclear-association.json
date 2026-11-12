@@ -20,7 +20,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "Industry association information library: reactor technology, fuel-cycle and SMR status pages cited on the nuclear-vendor and SMR cards. Registered unverified from the citation-mining queue; terms verification pending. Evidence: world-nuclear.org SMR information-library page (2026-10-29, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "The WNA Information Library is live and free to read (member and shop areas are gated). Its Permission for Use of Content page permits limited reuse: 'You may reproduce sections of up to 150 words from individual pages' with attribution and a link back, plus unaltered use of WNA-marked charts; anything beyond requires specific permission. access=open and reuse_level=full-text-restricted are correct. Evidence: https://world-nuclear.org/information-library and https://world-nuclear.org/general/permission-for-use-of-content (read 2026-11-12)",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

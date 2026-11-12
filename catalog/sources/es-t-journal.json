@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "monthly",
-  "notes": "ACS environmental journal from the OpenAlex venue sweep, hybrid OA. Registered unverified from the citation-graph sweep; terms verification pending. Evidence: OpenAlex venue-frequency sweep (2026-10-29, triaged 2026-11-11)",
+  "notes": "pubs.acs.org is bot-walled to this tooling (Cloudflare 'Just a moment...' on both WebFetch and curl) and the ACS open-access landing page returned empty content, so the journal page could not be read. The record's hybrid description (access:mixed, full-text-restricted) is plausible for ACS journals but was not confirmed on-site; fields left unchanged and unverified. Evidence: https://pubs.acs.org/journal/esthag (read 2026-11-12); https://www.acs.org/publish/open-access.html (read 2026-11-12)",
   "verification": "unverified",
   "last_verified": null
 }

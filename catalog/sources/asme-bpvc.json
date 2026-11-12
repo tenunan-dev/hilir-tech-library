@@ -1,7 +1,7 @@
 {
   "id": "asme-bpvc",
   "name": "ASME Boiler & Pressure Vessel Code (BPVC)",
-  "url": "https://www.asme.org/codes-standards/bpvc-2023",
+  "url": "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023",
   "source_type": "standards-body",
   "sectors": [
     "PWR",
@@ -23,7 +23,7 @@
   "reuse_level": "catalog-only",
   "quality_tier": 1,
   "update_frequency": "irregular",
-  "notes": "The ASME BPVC \u2014 the dominant pressure-equipment construction code cited across boiler, vessel and piping cards. Paid code: record-only, no text collection (decision #29 pattern). Registered unverified from the event sweep. Evidence: https://www.asme.org/codes-standards/bpvc-2023 (2026-10-30, triaged 2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Live ASME site: the recorded URL now 404s and the 2023 BPVC product page has moved to /codes-standards/bpvc-standards/bpvc-2023 (a 2025 edition is also listed). Codes are sold (print sections roughly $540-$1,050); footer states '(c) 2026 The American Society of Mechanical Engineers. All rights reserved.' with no licensing/reproduction terms on the page. Record fields (paywalled, proprietary, catalog-only) are accurate; only the stored URL is stale (url field not editable in this batch). Evidence: https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023 (read 2026-11-12; recorded URL /codes-standards/bpvc-2023 returns 404) URL updated 2026-11-13 (old: https://www.asme.org/codes-standards/bpvc-2023).",
+  "verification": "verified",
+  "last_verified": "2026-11-12"
 }

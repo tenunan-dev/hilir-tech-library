@@ -22,7 +22,7 @@
   "reuse_level": "full-text-restricted",
   "quality_tier": 2,
   "update_frequency": "weekly",
-  "notes": "Mitsubishi Power news releases carrying ammonia-cofiring and hydrogen-turbine milestones cited on the gas-turbine and ammonia cards. Vendor-site facts free to read. Registered unverified from the citation-mining queue; terms verification pending. Evidence: power.mhi.com/news/231130.html (2026-11-11)",
-  "verification": "unverified",
-  "last_verified": null
+  "notes": "Mitsubishi Power news index is live with 2026 news releases (ammonia/CCS/gas-turbine items) and a 2012-2026 archive, matching the record. Footer shows '(c) MITSUBISHI HEAVY INDUSTRIES, LTD.' with Site Terms of Use and Privacy Policy links. Press releases are free to read but copyrighted, consistent with proprietary/full-text-restricted. Evidence: https://power.mhi.com/news (read 2026-11-13)",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
 }
