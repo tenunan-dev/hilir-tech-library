@@ -29,15 +29,15 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 484 valid, 484 unique ids |
-| Technology cards | 340 (364-entry register; IDC sector added 2026-11-12) |
-| Vendor records | 472 |
-| Equipment classes | 12 (five boiler classes, centrifugal compressor, centrifugal pump, industrial gas turbine, data-centre UPS, CRAH/CRAC cooling, busway, MV switchgear) |
-| Projects and plants | 235 (new first-class entity, `schema/project.schema.json`, seeded from reference_plants) |
+| Catalog sources | 505 valid, 505 unique ids |
+| Technology cards | 368 (401-entry register; WWT sector added 2026-11-13 — licensor-first PFD rule) |
+| Vendor records | 491 |
+| Equipment classes | 22 (boilers, compressors/pumps/turbines, DC UPS/CRAH/busway/MV switchgear, and ten WWT classes: membranes, DAF, aeration, dewatering, UV, ozone, digesters, biogas upgraders, evaporator-crystallisers, clarifiers) |
+| Projects and plants | 239 |
 | Corpus documents | 289, each with a hand-written summary (15,115 chunks) |
 
-Verified live 2026-11-12: Neon reloaded (484 sources / 472 vendors / 340 cards / 12 equipment /
-235 projects / 15,115 chunks / 4,206 nodes / 12,529 edges / 16,656 vectors) and both containers re-deployed from
+Verified live 2026-11-12: Neon reloaded 2026-11-13 (505 sources / 491 vendors / 368 cards / 22 equipment /
+239 projects / 15,115 chunks / 4,451 nodes / 13,002 edges / 16,740 vectors) and both containers re-deployed from
 CI `images` run 43119783444 (ui sha256:8b8766ee…, api sha256:b869892e…, both healthy as user
 `library`); VPS gate `mygis 303, techlib-origin 403, tlea-origin 403` green. Standing main
 effort is source discovery (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment
@@ -123,7 +123,7 @@ agents to find, cite and read. It has six layers:
 6. **Generated files are not edited by hand.** `catalog/catalog.jsonl` and `catalog/index/*` come from `tools/build.py`; `build/` comes from `agent/library.py build`.
 7. **Record access reality.** Paywalled or login-only pages are recorded with their real `access` value (`paywalled`, `free-registration`); whether to buy credentials is the owner's call. Never simulate or guess content that could not be fetched.
 8. **Every corpus document needs a `summary`.** Write one or two sentences in your own words in the front matter (never copied text). `tests/test_technologies.py` fails for any document without one, so a collector run is not finished until the new documents are summarised.
-9. **Technology cards follow the card rules.** Card name or alias must match a register entry exactly; `sector` is one of UPS, MID, GAS, REF, PCH, PWR, H2, CCS, IDC or a discipline code (PRC, ROT, INS, MAT, HSE, DIG); a `source_id` must exist in `catalog/sources/`; a Wikipedia citation is secondary and must say so in its note; a USD cost needs a `year` or the words "dollar year not stated" in its basis. Missing facts become `gaps` with a valid `reason_code`.
+9. **Technology cards follow the card rules.** Card name or alias must match a register entry exactly; `sector` is one of UPS, MID, GAS, REF, PCH, PWR, H2, CCS, IDC, WWT or a discipline code (PRC, ROT, INS, MAT, HSE, DIG); a `source_id` must exist in `catalog/sources/`; a Wikipedia citation is secondary and must say so in its note; a USD cost needs a `year` or the words "dollar year not stated" in its basis. Missing facts become `gaps` with a valid `reason_code`.
 10. **Secrets never enter the repository or the memory notes.** That covers the library API key, Cloudflare tokens and the Neon connection string.
 
 ## Before you commit
