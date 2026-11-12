@@ -99,8 +99,16 @@ SQL_EXAMPLES = (
 # container's Worker passes it as LIBRARY_API_PUBLIC_URL so the footer links point there.
 # Unset (single-container mode), the relative same-origin links work as before.
 API_PUBLIC_BASE = os.environ.get("LIBRARY_API_PUBLIC_URL", "").rstrip("/")
+# Block-diagram theme follows the estate Flare Triad tokens (dark-first, light via
+# prefers-color-scheme) instead of Mermaid's default lavender, so the diagram reads as
+# part of the card: card-surface nodes, border-line strokes, muted arrows, panel clusters.
 MERMAID_SCRIPT = ('<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";'
-                  'mermaid.initialize({startOnLoad:true,securityLevel:"strict"});</script>')
+                  'const s=getComputedStyle(document.documentElement),v=n=>s.getPropertyValue(n).trim();'
+                  'mermaid.initialize({startOnLoad:true,securityLevel:"strict",theme:"base",'
+                  'themeVariables:{background:"transparent",'
+                  'primaryColor:v("--card"),primaryTextColor:v("--text"),primaryBorderColor:v("--border2"),'
+                  'lineColor:v("--muted"),edgeLabelBackground:v("--bg"),clusterBkg:v("--panel"),'
+                  'clusterBorder:v("--border"),fontSize:"14px"}});</script>')
 
 CSS = """
 /* Flare Triad tokens (estate-canonical: hilir-access src/v2/pages.ts CSS, landing docs/design.md)
@@ -201,6 +209,9 @@ td.wrap { white-space: pre-wrap; }
 pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 code { background: var(--inset); border: 1px solid var(--border); border-radius: 4px; padding: .05rem .3rem; font-size: .88em; }
 pre { background: var(--inset); border: 1px solid var(--border); border-radius: 8px; padding: .75rem; overflow-x: auto; font-size: .82rem; }
+/* block diagram: blend with the card, not a code inset */
+pre.mermaid { background: transparent; border: none; padding: 0; font-size: 14px; text-align: center; overflow-x: auto; }
+pre.mermaid svg { max-width: 100%; height: auto; }
 pre code { background: none; border: 0; padding: 0; }
 pre.doc { font-size: .8rem; white-space: pre-wrap; }
 /* chips: filled = data colours (sector badges), outlined = meta, teal = info, violet = machine chips */

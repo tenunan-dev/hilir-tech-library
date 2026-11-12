@@ -8,6 +8,12 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.5] — 2026-11-13 — Block-diagram theme fixed to the estate design (owner feedback)
+
+### Fixed
+
+- Owner flagged the card block diagrams as ugly: Mermaid's default lavender theme rendered on the dark estate background. The diagram now reads as part of the card — Mermaid `base` theme with `themeVariables` pulled from the live Flare Triad CSS custom properties at render time (`--card` node fill, `--text` node text, `--border2` strokes, `--muted` arrows, `--bg` edge-label background, `--panel`/`--border` clusters), so dark-first and light mode both stay on-palette with no toggle. The diagram box itself is transparent (was the code `pre` inset) and scales to card width. Content unchanged; presentation only, no routes or auth bytes touched (D40 presentation-only rule).
+
 ## [2026.11.13.4] — 2026-11-13 — WWT phase 3: project records
 
 ### Added
