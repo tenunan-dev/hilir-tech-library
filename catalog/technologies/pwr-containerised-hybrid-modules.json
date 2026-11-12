@@ -155,7 +155,8 @@
       "source": {
         "url": "https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project",
         "note": "Aggreko case study, Bisha mine, read 26 October 2026"
-      }
+      },
+      "project_id": "bisha-mine-solar-hybrid-plant"
     },
     {
       "name": "Porphyry gold mine hybrid plant (Northern Star)",
@@ -165,7 +166,8 @@
       "source": {
         "url": "https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia",
         "note": "Aggreko case study, Western Australia, read 26 October 2026"
-      }
+      },
+      "project_id": "porphyry-gold-mine-hybrid-plant-northern-star"
     }
   ],
   "advantages": [

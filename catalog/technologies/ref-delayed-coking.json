@@ -206,7 +206,8 @@
         "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india/",
         "source_id": "hydrocarbon-processing",
         "note": "Hydrocarbon Processing, 7 September 2012"
-      }
+      },
+      "project_id": "essar-oil-now-nayara-energy-vadinar-refinery-delayed-coker-gujarat"
     },
     {
       "name": "Vadinar refinery delayed coking unit (Essar Oil, now Nayara Energy), Gujarat, India",
@@ -216,7 +217,8 @@
       "source": {
         "url": "https://www.hydrocarbonprocessing.com/news/2012/09/cbi-commissions-delayed-coking-unit-on-essar-oil-vadinar-expansion-in-india",
         "note": "Hydrocarbon Processing, 9 Jul 2012 (read 2026-10-28)"
-      }
+      },
+      "project_id": "vadinar-refinery-delayed-coking-unit-essar-oil-now-nayara-energy-gujarat"
     }
   ]
 }

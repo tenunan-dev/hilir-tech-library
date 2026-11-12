@@ -193,7 +193,8 @@
         "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
         "source_id": "iea-reports",
         "note": "IEA Global Hydrogen Review 2025: Chapter 3 FID detail (page 114); Chapter 5 (page 169) identifies the plant as an autothermal reforming plant for low-emissions ammonia"
-      }
+      },
+      "project_id": "blue-point-complex-cf-industries-jera-mitsui-jv-louisiana"
     },
     {
       "name": "Air Products Net-Zero Hydrogen Complex, Alberta",
@@ -205,7 +206,8 @@
         "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
         "source_id": "iea-reports",
         "note": "IEA Global Hydrogen Review 2025, Chapter 5 (page 198) and Chapter 3 (page 114)"
-      }
+      },
+      "project_id": "air-products-net-zero-hydrogen-complex-alberta"
     }
   ],
   "sources": [

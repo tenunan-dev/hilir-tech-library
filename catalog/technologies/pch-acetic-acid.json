@@ -125,7 +125,8 @@
       "source": {
         "url": "https://www.bicmagazine.com/industry/refining-petrochem/march-19-celanese-looks-to-expand-clear-lake-acetic-acid-facility",
         "note": "BIC Magazine, 8 Mar 2019 (read 2026-10-28)"
-      }
+      },
+      "project_id": "celanese-clear-lake-acetic-acid-plant-texas"
     },
     {
       "name": "Celanese acetic acid plant, Singapore",
@@ -135,7 +136,8 @@
       "source": {
         "url": "https://www.researchgate.net/publication/294275655_Celanese_launches_acetic_acid_plant_in_Singapore",
         "note": "Launch report mirrored on ResearchGate: 500,000 t/yr, about USD 300 m, 100 employees (read 2026-10-28)"
-      }
+      },
+      "project_id": "celanese-acetic-acid-plant-singapore"
     }
   ],
   "costs": [

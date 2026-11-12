@@ -162,7 +162,8 @@
       "source": {
         "url": "https://public-docs.energia.ee/ettevottest/investorile/2023/EE-aastaaruanne-2023-ENG.pdf",
         "note": "Eesti Energia annual report 2023 (p. on oil plants): \"We produced 475 thousand tonnes of shale oil in 2023\"; 2018 yearbook (energia.ee PDF, 2019): record 411,000 t; both read 2026-10-28"
-      }
+      },
+      "project_id": "enefit-shale-oil-plants-eesti-energia-estonia"
     }
   ]
 }

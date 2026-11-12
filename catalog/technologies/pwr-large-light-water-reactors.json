@@ -135,7 +135,8 @@
       "source": {
         "url": "https://www.world-nuclear-news.org/articles/barakah-4-landmark-announced-as-world-nuclear-symp",
         "note": "World Nuclear News, 5 Sep 2024 (5,600 MW total, ~25% of UAE electricity); energyconnects 25 Mar 2024 (Unit 4 grid connection); read 2026-10-28"
-      }
+      },
+      "project_id": "barakah-nuclear-energy-plant-uae-enec-nawah"
     }
   ],
   "costs": [

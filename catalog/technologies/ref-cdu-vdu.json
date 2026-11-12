@@ -208,7 +208,8 @@
       "source": {
         "url": "https://www.bechtel.com/projects/jamnagar-oil-refinery",
         "note": "Bechtel project page: \"the world's largest refining hub... 1.2M barrels/day capacity\"; read 2026-10-28"
-      }
+      },
+      "project_id": "jamnagar-refinery-complex-gujarat-india-reliance"
     }
   ]
 }

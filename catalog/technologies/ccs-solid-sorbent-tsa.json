@@ -105,7 +105,8 @@
         "url": "https://netl.doe.gov/node/11418",
         "source_id": "netl",
         "note": "NETL project page, Dec 2021"
-      }
+      },
+      "project_id": "chevron-kern-river-oil-field"
     },
     {
       "name": "CO2MENT Richmond, Lafarge cement plant",
@@ -115,7 +116,8 @@
       "source": {
         "url": "https://netl.doe.gov/node/11418",
         "source_id": "netl"
-      }
+      },
+      "project_id": "co2ment-richmond-lafarge-cement-plant"
     }
   ],
   "advantages": [

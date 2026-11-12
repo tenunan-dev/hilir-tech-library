@@ -145,8 +145,7 @@
     }
   ],
   "last_reviewed": "2026-10-29",
-  "gaps": [
-  ],
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Cirata floating solar PV plant, West Java, Indonesia",
@@ -156,7 +155,8 @@
       "source": {
         "url": "https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations",
         "note": "TaiyangNews, 27 Sep 2023 (145 MW, SEA's largest floating PV, upgrade to 500 MW planned); read 2026-10-28"
-      }
+      },
+      "project_id": "cirata-floating-solar-pv-plant-west-java-indonesia"
     },
     {
       "name": "Sunny Bangchak solar plant, Thailand",
@@ -166,7 +166,8 @@
       "source": {
         "url": "https://www.eco-business.com/news/southeast-asias-largest-solar-plant-in-thailand-gets-turned-on",
         "note": "Eco-Business, 27 Sep 2012 (read 2026-10-28)"
-      }
+      },
+      "project_id": "sunny-bangchak-solar-plant-thailand"
     }
   ]
 }

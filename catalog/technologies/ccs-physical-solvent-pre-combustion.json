@@ -224,7 +224,8 @@
       "source": {
         "url": "https://dakotagas.com/News-Center/news-releases/carbon-capture-milestone-reached-at-dakota-gas",
         "note": "Dakota Gasification Company news release (40 Mt milestone; year not stated on page)"
-      }
+      },
+      "project_id": "great-plains-synfuels-plant-dakota-gasification-beulah-north-dakota"
     }
   ],
   "notes": "Maturity is commercial: capture from gasification syngas with physical solvents has operated at scale (Great Plains Synfuels, about 2 Mt/yr). The IEA's TRL 7 is for coal power with pre-combustion capture."

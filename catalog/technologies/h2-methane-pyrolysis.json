@@ -113,7 +113,8 @@
         "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
         "source_id": "ptq-digital-refining",
         "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
-      }
+      },
+      "project_id": "monolith-olive-creek-1-nebraska"
     },
     {
       "name": "BASF methane pyrolysis pilot, Ludwigshafen",
@@ -124,7 +125,8 @@
         "url": "https://digitalrefining.com/article/1002720/turquoise-hydrogen-production-by-methane-pyrolysis",
         "source_id": "ptq-digital-refining",
         "note": "Digital Refining / PTQ, Turquoise hydrogen production by methane pyrolysis, January 2022"
-      }
+      },
+      "project_id": "basf-methane-pyrolysis-pilot-ludwigshafen"
     }
   ],
   "advantages": [

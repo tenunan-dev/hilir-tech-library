@@ -125,7 +125,8 @@
       "source": {
         "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/022221-european-council-agrees-eur561-billion-funding-for-iter-fusion-project",
         "note": "S&P Global, 22 Feb 2021 (EUR 5.61 bn to 2027; first plasma then expected Dec 2025, full operation 2035); 2024 re-baseline reported Jul 2024; read 2026-10-28"
-      }
+      },
+      "project_id": "iter-cadarache-france-35-nation-collaboration"
     }
   ],
   "costs": [

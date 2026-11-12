@@ -108,7 +108,8 @@
       "source": {
         "url": "https://www.powermag.com/inside-net-power-gas-power-goes-supercritical/",
         "note": "POWER magazine, 1 Apr 2019"
-      }
+      },
+      "project_id": "la-porte-demonstration"
     },
     {
       "name": "Project Permian (NET Power), west Texas",
@@ -119,7 +120,8 @@
       "source": {
         "url": "https://www.businesswire.com/news/home/20260309883836/en/Net-Power-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update",
         "note": "NET Power Q4 and full-year 2025 results, 9 March 2026"
-      }
+      },
+      "project_id": "project-permian-net-power-west-texas"
     }
   ],
   "advantages": [

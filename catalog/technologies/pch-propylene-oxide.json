@@ -96,7 +96,8 @@
       "source": {
         "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
         "note": "Evonik, HPPO technology page, read 25 October 2026"
-      }
+      },
+      "project_id": "skc-ulsan-hppo-plant"
     },
     {
       "name": "MOL Group Tiszaújváros HPPO (under construction when read)",
@@ -105,7 +106,8 @@
       "source": {
         "url": "https://www.evonik.com/en/company/businesslines/ao/highlights/hp-plus-technologies/hppo-technology.html",
         "note": "Evonik, HPPO technology page, read 25 October 2026"
-      }
+      },
+      "project_id": "mol-group-tisza-jv-ros-hppo-under-construction-when-read"
     },
     {
       "name": "Evonik-Uhde HPPO complex, China",
@@ -115,7 +117,8 @@
       "source": {
         "url": "https://www.chemengonline.com/sustainable-production-of-propylene-oxide-begins-at-new-hppo-complex-in-china-using-evonik-uhde-technology",
         "note": "Chemical Engineering, 5 Sep 2023 (read 2026-10-28)"
-      }
+      },
+      "project_id": "evonik-uhde-hppo-complex-china"
     }
   ],
   "advantages": [

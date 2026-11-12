@@ -129,7 +129,8 @@
         "url": "https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf",
         "source_id": "honeywell-uop",
         "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
-      }
+      },
+      "project_id": "separex-offshore-system-south-china-sea"
     },
     {
       "name": "Separex trains, Egyptian desert",
@@ -140,7 +141,8 @@
         "url": "https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf",
         "source_id": "honeywell-uop",
         "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
-      }
+      },
+      "project_id": "separex-trains-egyptian-desert"
     }
   ],
   "advantages": [

@@ -157,8 +157,7 @@
     }
   ],
   "last_reviewed": "2026-10-29",
-  "gaps": [
-  ],
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Noor Ouarzazate solar complex, Morocco (MASEN)",
@@ -168,7 +167,8 @@
       "source": {
         "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/103151506335526236",
         "note": "World Bank, Noor-Ouarzazate Concentrated Solar Power Project document; 510 MW CSP figure per large.stanford.edu course page, 2 Feb 2023 (citing project data); read 2026-10-28"
-      }
+      },
+      "project_id": "noor-ouarzazate-solar-complex-morocco-masen"
     }
   ]
 }

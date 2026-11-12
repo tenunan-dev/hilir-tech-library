@@ -169,7 +169,8 @@
       "source": {
         "url": "https://climeon.com/references/",
         "note": "Climeon references page, read 26 October 2026"
-      }
+      },
+      "project_id": "virgin-voyages-cruise-ships-heatpower-150"
     },
     {
       "name": "Maersk Horsburgh retrofit",
@@ -179,7 +180,8 @@
       "source": {
         "url": "https://climeon.com/references/",
         "note": "Climeon references page, read 26 October 2026"
-      }
+      },
+      "project_id": "maersk-horsburgh-retrofit"
     },
     {
       "name": "Fervo Energy geothermal order",
@@ -190,7 +192,8 @@
         "url": "https://www.turboden.com/",
         "source_id": "mitsubishi-heavy",
         "note": "Turboden homepage, read 26 October 2026"
-      }
+      },
+      "project_id": "fervo-energy-geothermal-order"
     }
   ],
   "advantages": [

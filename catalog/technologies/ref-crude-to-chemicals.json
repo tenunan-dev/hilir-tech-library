@@ -80,7 +80,8 @@
         "url": "https://www.petronas.com/pic/news-resources/press-releases/petronas-saudi-aramco-announce-formation-jv-malaysia",
         "source_id": "petronas-tech",
         "note": "PETRONAS press release, 28 March 2018"
-      }
+      },
+      "project_id": "petronas-pengerang-rapid-pic-johor"
     },
     {
       "name": "Hengli Petrochemical, Dalian",
@@ -91,7 +92,8 @@
       "source": {
         "url": "https://yicaiglobal.com/news/hengli-petrochemical-to-finish-dalian-plant-start-20-million-ton-production-",
         "note": "Yicai Global, 14 December 2018"
-      }
+      },
+      "project_id": "hengli-petrochemical-dalian"
     }
   ],
   "suppliers": [

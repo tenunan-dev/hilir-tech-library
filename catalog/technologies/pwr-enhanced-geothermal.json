@@ -112,7 +112,7 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Enhanced_geothermal_system",
-      "note": "Wikipedia: Enhanced geothermal system \u2014 process-description cross-check 2026-10-29 (secondary source)"
+      "note": "Wikipedia: Enhanced geothermal system — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
   "last_reviewed": "2026-11-11",
@@ -121,12 +121,13 @@
     {
       "name": "Fervo Energy Cape Station, Beaver County, Utah",
       "country": "US",
-      "capacity": "500 MW under construction (GeoBlocks 1-11); approximately 900 MW fully contracted with offtakers; GeoBlock 1 reached commercial operation 30 September 2026, about 100 MW of operating capacity expected by early 2027 and GeoBlocks 4-11 targeted for 2028 \u2014 the first greenfield enhanced-geothermal development to reach contractual commercial operation",
+      "capacity": "500 MW under construction (GeoBlocks 1-11); approximately 900 MW fully contracted with offtakers; GeoBlock 1 reached commercial operation 30 September 2026, about 100 MW of operating capacity expected by early 2027 and GeoBlocks 4-11 targeted for 2028 — the first greenfield enhanced-geothermal development to reach contractual commercial operation",
       "status": "operating (GeoBlock 1), construction (rest)",
       "source": {
         "url": "https://fervoenergy.com/projects/",
         "note": "Fervo Energy projects page fast facts, read 2026-11-11; commercial-operation date confirmed by the Fervo press release of 16 October 2026 (fervoenergy.com newsroom)"
-      }
+      },
+      "project_id": "fervo-energy-cape-station-beaver-county-utah"
     }
   ]
 }

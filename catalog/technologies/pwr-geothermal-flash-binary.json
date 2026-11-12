@@ -144,7 +144,8 @@
       "source": {
         "url": "https://verkis.com/projects/energy/hellisheidi-power-plant",
         "note": "Verkis (design engineer): 303 MWe commissioned in five stages 2006-2011; operator ON Power: 200 MW thermal; read 2026-10-28"
-      }
+      },
+      "project_id": "hellisheidi-geothermal-power-plant-hengill-iceland-on-power"
     }
   ]
 }

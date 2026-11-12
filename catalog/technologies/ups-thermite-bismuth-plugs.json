@@ -161,7 +161,8 @@
       "source": {
         "url": "https://www.nsta.co.uk/news/wells-decommissioning-collab-overview",
         "note": "NSTA Wells Decommissioning Collaboration Overview (in corpus, nsta-wells-decommissioning-collab-overview): \"TAQA Cormorant North provided access to platform for Wellstrom to set a 9-5/8 x 13-3/8 plug\" (read 2026-10-28)"
-      }
+      },
+      "project_id": "wellstrom-t1000-electric-bismuth-plug-trial-taqa-cormorant-north-uk-nort"
     }
   ]
 }

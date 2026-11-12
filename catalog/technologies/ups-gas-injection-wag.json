@@ -179,7 +179,8 @@
       "source": {
         "url": "https://www.equinor.com/news/archive/2003/03/17/BoostingRecoveryWithFoam",
         "note": "Equinor news, 17 Mar 2003: \"Statfjord's injection system was converted in the late 1990s from water alone to water alternating gas (WAG)\". Field facts from norskpetroleum.no/en/facts/field/statfjord (start-up 1979, WAG pressure support, depressurisation from 2007); both read 2026-10-28"
-      }
+      },
+      "project_id": "statfjord-wag-water-alternating-gas-injection"
     }
   ]
 }

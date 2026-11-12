@@ -254,7 +254,8 @@
         "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
         "source_id": "netl",
         "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
-      }
+      },
+      "project_id": "weyburn-field-saskatchewan-encana"
     },
     {
       "name": "Wasson field Denver Unit, West Texas (Shell)",
@@ -266,7 +267,8 @@
         "url": "https://www.netl.doe.gov/sites/default/files/netl-file/co2_eor_primer.pdf",
         "source_id": "netl",
         "note": "NETL Carbon Dioxide Enhanced Oil Recovery Primer (data to 2008; public domain)"
-      }
+      },
+      "project_id": "wasson-field-denver-unit-west-texas-shell"
     },
     {
       "name": "Sukowati field, Bojonegoro (Pertamina EP, with JOGMEC and JAPEX)",
@@ -277,7 +279,8 @@
       "source": {
         "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/japex-and-partners-launch-co2-injection-test-at-sukowati-oil-field-in-indonesia-30847",
         "note": "ChemAnalyst, JAPEX and partners launch CO2 injection test at Sukowati, 18 October 2024 (read 28 October 2026); October 2026 status from Pertamina EP Cepu statement via suaradesa.co, 14 October 2026"
-      }
+      },
+      "project_id": "sukowati-field-bojonegoro-pertamina-ep-with-jogmec-and-japex"
     }
   ],
   "advantages": [

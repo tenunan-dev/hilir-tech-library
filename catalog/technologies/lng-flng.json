@@ -92,7 +92,8 @@
         "url": "https://www.offshore-technology.com/news/shell-prelude-flng/",
         "source_id": "offshore-technology",
         "note": "Offshore Technology, 26 March 2019"
-      }
+      },
+      "project_id": "shell-prelude-flng"
     },
     {
       "name": "PETRONAS PFLNG DUA, Rotan field, Sabah",
@@ -104,7 +105,8 @@
         "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
         "source_id": "petronas-tech",
         "note": "PETRONAS press release, 25 March 2021"
-      }
+      },
+      "project_id": "petronas-pflng-dua-rotan-field-sabah"
     },
     {
       "name": "PETRONAS PFLNG SATU",
@@ -116,7 +118,8 @@
         "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
         "source_id": "petronas-tech",
         "note": "PETRONAS press release, 25 March 2021"
-      }
+      },
+      "project_id": "petronas-pflng-satu"
     },
     {
       "name": "PFLNG Satu, Kanowit gas field, offshore Sarawak (PETRONAS)",
@@ -126,7 +129,8 @@
       "source": {
         "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
         "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
-      }
+      },
+      "project_id": "pflng-satu-kanowit-gas-field-offshore-sarawak-petronas"
     }
   ],
   "advantages": [

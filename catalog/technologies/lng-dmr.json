@@ -121,7 +121,8 @@
       "source": {
         "url": "https://gasprocessingnews.com/articles/2018/10/optimal-control-of-mixed-refrigerant-composition-at-sakhalin-lng-plant",
         "note": "Gas Processing & LNG, Optimal control of mixed refrigerant composition at Sakhalin LNG plant, 1 October 2018"
-      }
+      },
+      "project_id": "sakhalin-lng-prigorodnoye"
     },
     {
       "name": "Sakhalin-2 LNG plant, Prigorodnoye, Russia (Sakhalin Energy)",
@@ -131,7 +132,8 @@
       "source": {
         "url": "https://www.gem.wiki/Sakhalin_II_LNG_Terminal",
         "note": "Global Energy Monitor (9.6 Mtpa design, 10.3 Mt 2025); OGJ (two 4.8 Mtpa trains, Sulfinol-D AGR); NS Energy (first production Feb 2009); read 2026-10-28"
-      }
+      },
+      "project_id": "sakhalin-2-lng-plant-prigorodnoye-russia-sakhalin-energy"
     }
   ],
   "advantages": [

@@ -95,7 +95,8 @@
       "source": {
         "url": "https://jpt.spe.org/petrobras-picks-slbs-delfi-platform",
         "note": "SPE JPT, Petrobras Picks SLB's Delfi Platform: 'Petrobras has awarded SLB a 5-year contract for an enterprisewide deployment of its Delfi digital platform' (SLB release, 6 July 2023; read 28 October 2026)"
-      }
+      },
+      "project_id": "petrobras-enterprise-deployment-of-slb-delfi-digital-platform"
     }
   ],
   "performance": [

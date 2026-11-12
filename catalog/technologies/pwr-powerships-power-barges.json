@@ -171,7 +171,8 @@
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
         "source_id": "wartsila",
         "note": "Wärtsilä floating power plants page, read 26 October 2026"
-      }
+      },
+      "project_id": "estrella-del-mar-ii"
     },
     {
       "name": "DR Bird I and II",
@@ -182,7 +183,8 @@
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants",
         "source_id": "wartsila",
         "note": "Wärtsilä floating power plants page, read 26 October 2026"
-      }
+      },
+      "project_id": "dr-bird-i-and-ii"
     },
     {
       "name": "Tacoa floating power barges, supplying Caracas",
@@ -192,7 +194,8 @@
       "source": {
         "url": "https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083",
         "note": "MarineLink news report, read 26 October 2026"
-      }
+      },
+      "project_id": "tacoa-floating-power-barges-supplying-caracas"
     },
     {
       "name": "Karpowership Indonesia floating power plants with PAL Indonesia shipyard cooperation",
@@ -202,7 +205,8 @@
       "source": {
         "url": "https://www.thejakartapost.com/news/2016/10/28/karpowership-pal-to-build-power-ships-to-light-up-indonesia",
         "note": "Jakarta Post, 28 Oct 2016 (read 2026-10-28)"
-      }
+      },
+      "project_id": "karpowership-indonesia-floating-power-plants-with-pal-indonesia-shipyard"
     }
   ],
   "advantages": [

@@ -108,7 +108,8 @@
       "source": {
         "url": "https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export",
         "note": "Gulf Times, New plant takes Qatar to top spot in helium export, 9 July 2013"
-      }
+      },
+      "project_id": "rasgas-helium-2-ras-laffan"
     },
     {
       "name": "World helium supply by plant (Ras Laffan, Amur GPP, US BLM Cliffside)",
@@ -118,7 +119,8 @@
       "source": {
         "url": "https://pubs.usgs.gov",
         "note": "USGS Minerals Yearbook 2023, helium chapter (world capacity 360 Mm3/yr); portfolio-pplus industry article 15 Mar 2026 (Ras Laffan 75-81, Amur 45-50 Mm3/yr); qatarenergylng.qa (three helium plants at Ras Laffan); read 2026-10-28"
-      }
+      },
+      "project_id": "world-helium-supply-by-plant-ras-laffan-amur-gpp-us-blm-cliffside"
     }
   ],
   "advantages": [

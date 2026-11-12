@@ -117,7 +117,8 @@
       "source": {
         "url": "https://carbonrecycling.com/projects/george-olah",
         "note": "Carbon Recycling International, George Olah plant page"
-      }
+      },
+      "project_id": "george-olah-plant-svartsengi"
     }
   ],
   "trl": {
@@ -126,7 +127,7 @@
     "source": {
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
-      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO\u2082-to-methanol synthesis' 8 (2025)"
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025)"
     }
   },
   "advantages": [

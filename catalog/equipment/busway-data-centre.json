@@ -1,0 +1,88 @@
+{
+  "id": "busway-data-centre",
+  "name": "Data centre busway (overhead busbar power distribution)",
+  "equipment_type": "busway",
+  "sector": "IDC",
+  "sector_codes": ["IDC", "ELE"],
+  "description": "Overhead extruded-aluminium busbar runs that carry power across a data hall and let plug-in tap-off units be added or moved at any point without shutting the run down — the reason busway has displaced cable trays for in-hall distribution. Starline's ranges illustrate the class: Track Busway 40-1250 A, Series-S 100-1200 A (IP54) and high-power enclosed busway 630-6000 A (to IP65), with plug-in units carrying integrated circuit protection and a metering family for branch-level monitoring.",
+  "subtypes": [
+    {
+      "name": "Track busway (continuous access)",
+      "description": "Open-channel run with plug-in units insertable at any location at any time."
+    },
+    {
+      "name": "High-power enclosed busway",
+      "description": "Higher-amperage enclosed runs feeding rows or halls; IP54 to IP65 ingress protection."
+    },
+    {
+      "name": "Busway with integrated metering",
+      "description": "Plug, standalone and end-feed meters enabling branch circuit monitoring."
+    }
+  ],
+  "applications": ["data hall overhead distribution", "row-level power to racks", "colocation fit-outs", "mission-critical power upgrades without downtime"],
+  "specifications": [
+    {
+      "metric": "Track Busway amperage range",
+      "unit": "A",
+      "low": 40,
+      "high": 1250,
+      "basis": "Starline Track Busway 40-1250 A; plug-in units connect at any location at any time without shutting down the busway",
+      "source": {
+        "url": "https://www.starlinepower.com/products/busway",
+        "note": "Starline Power busway product page, read 2026-11-12"
+      }
+    },
+    {
+      "metric": "high-power enclosed busway amperage range",
+      "unit": "A",
+      "low": 630,
+      "high": 6000,
+      "basis": "630-6000 A per product listings, up to 6300 A in the higher-amperage section; ingress protection to IP65",
+      "source": {
+        "url": "https://www.starlinepower.com/products/busway",
+        "note": "Starline Power busway product page, read 2026-11-12"
+      }
+    },
+    {
+      "metric": "Series-S Track Busway rating",
+      "unit": "A",
+      "low": 100,
+      "high": 1200,
+      "basis": "100-1200 A, IP54 rated for harsh environments, UL857 listed",
+      "source": {
+        "url": "https://www.starlinepower.com/products/busway",
+        "note": "Starline Power busway product page, read 2026-11-12"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "vertiv",
+      "line": "Starline Track Busway (Vertiv brand)",
+      "models": ["Track Busway 40-1250 A", "Series-S 100-1200 A", "High Power enclosed 630-6000 A"],
+      "range": "40-6000 A across families; IP54/IP65 options"
+    }
+  ],
+  "vendors": ["vertiv", "schneider-electric", "eaton", "anord-mardix"],
+  "technologies": ["idc-ups-systems"],
+  "sources": [
+    {
+      "url": "https://www.starlinepower.com/products/busway",
+      "note": "Starline Power busway product page (Track 40-1250 A, Series-S 100-1200 A, high-power 630-6000 A, metering), read 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "energy-loss comparison versus cable-based distribution",
+      "why": "Vendor pages do not publish loss figures",
+      "next_action": "Find an engineering comparison study and record losses per 100 m"
+    },
+    {
+      "what": "Schneider/Eaton/Anord Mardix busway model lines",
+      "why": "Not yet fetched",
+      "next_action": "Read each vendor's busway range and add model lines"
+    }
+  ],
+  "notes": "Third IDC equipment class. Starline is a Vertiv brand, so the vendor id is vertiv.",
+  "last_reviewed": "2026-11-12"
+}

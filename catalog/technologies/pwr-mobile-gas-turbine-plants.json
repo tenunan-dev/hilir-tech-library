@@ -173,7 +173,8 @@
         "url": "https://www.gevernova.com/gas-power/products/gas-turbines/tm2500",
         "source_id": "ge-vernova",
         "note": "GE Vernova, TM2500 product page, read 26 October 2026"
-      }
+      },
+      "project_id": "38-tm2500-units-across-algeria"
     },
     {
       "name": "SAPN bridge power, South Australia",
@@ -183,7 +184,8 @@
       "source": {
         "url": "https://web.archive.org/web/20260715202302/https://www.aprenergy.com/",
         "note": "APR Energy homepage (15 July 2026 archive), read 26 October 2026"
-      }
+      },
+      "project_id": "sapn-bridge-power-south-australia"
     },
     {
       "name": "GE TM2500 mobile power for remote Indonesia",
@@ -193,7 +195,8 @@
       "source": {
         "url": "https://jakartaglobe.id/context/ges-power-plant-wheels-delivers-electricity-indonesias-remote-areas",
         "note": "Jakarta Globe, 15 Oct 2016 (read 2026-10-28)"
-      }
+      },
+      "project_id": "ge-tm2500-mobile-power-for-remote-indonesia"
     }
   ],
   "advantages": [

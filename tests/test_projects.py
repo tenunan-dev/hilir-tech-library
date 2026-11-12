@@ -52,3 +52,15 @@ def test_party_vendor_ids_resolve():
             for p in rec.get(group, []):
                 if "vendor_id" in p:
                     assert p["vendor_id"] in vendors, f"{rec['id']}: vendor {p['vendor_id']} not in directory"
+
+
+def test_reference_plants_link_to_projects():
+    """Every card reference plant points at a real project record, so the two layers cannot drift."""
+    by_id = {r["id"]: r for r in PROJECTS}
+    for card in CARDS.values():
+        for rp in card.get("reference_plants", []):
+            pid = rp.get("project_id")
+            assert pid, f"{card['id']}: reference plant '{rp['name']}' has no project_id"
+            assert pid in by_id, f"{card['id']}: project_id {pid} does not exist"
+            assert card["id"] in by_id[pid].get("technologies", []), \
+                f"{pid}: does not list card {card['id']} in technologies"

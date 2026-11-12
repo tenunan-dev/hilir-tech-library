@@ -98,7 +98,8 @@
       "source": {
         "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
         "note": "SSAB / HYBRIT press release, August 2024"
-      }
+      },
+      "project_id": "hybrit-pilot-lule"
     },
     {
       "name": "Stegra Boden hydrogen-DRI steel plant, Sweden",
@@ -108,7 +109,8 @@
       "source": {
         "url": "https://www.gasworld.com/story/stegra-launches-e975m-funding-round-to-complete-hydrogen-based-steel-plant/2243666.article",
         "note": "gasworld, 13 Oct 2025 (EUR 975 m round); h2invest (about USD 7 bn raised, 2026 startup); steelradar Apr 2025 (5 Mt/yr by 2030); read 2026-10-28"
-      }
+      },
+      "project_id": "stegra-boden-hydrogen-dri-steel-plant-sweden"
     }
   ],
   "trl": {

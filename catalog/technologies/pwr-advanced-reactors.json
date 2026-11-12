@@ -162,7 +162,8 @@
       "source": {
         "url": "https://en.cnnc.com.cn/searchen.html?searchText=HTGR",
         "note": "CNNC: \"the world's first High Temperature gas cooled Reactor of Pebble bed Module (HTR-PM) is now connected to the grid\"; core-outlet 750 C / steam 566 C from world-energy.org, 24 Aug 2021 (fuel loading); commercial operation Dec 2023 widely reported; read 2026-10-28"
-      }
+      },
+      "project_id": "htr-pm-demonstration-plant-shidaowan-china-cnnc-huaneng-tsinghua"
     }
   ]
 }

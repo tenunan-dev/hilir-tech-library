@@ -149,7 +149,8 @@
       "source": {
         "url": "https://jpt.spe.org/managed-pressure-drilling-migrates-deep-water-offshore-brazil",
         "note": "JPT (SPE), 30 Jun 2014: \"Petrobras now has two drilling rigs working offshore Brazil equipped to do managed-pressure drilling, and plans to expand this total to 12...\"; Lula field re-entry: \"drill 89m with minor (fluid) losses\" then 70 m more under pressurised mud-cap drilling (read 2026-10-28)"
-      }
+      },
+      "project_id": "petrobras-managed-pressure-drilling-programme-offshore-brazil-pre-salt"
     }
   ]
 }

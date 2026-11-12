@@ -130,7 +130,8 @@
       "source": {
         "url": "https://www.researchgate.net/publication/229648846_POWER_FROM_TIDES-_THE_RANCE_TIDAL_POWER_STATION",
         "note": "La Rance retrospective (ResearchGate record, 24 x 10 MW bulb turbines, still operating); read 2026-10-28"
-      }
+      },
+      "project_id": "la-rance-tidal-barrage-france"
     },
     {
       "name": "MeyGen tidal stream array, Pentland Firth, Scotland (SAE Renewables)",
@@ -140,7 +141,8 @@
       "source": {
         "url": "https://www.directorstalkinterviews.com/meygen-strengthens-the-case-for-scalable-tidal-power/4121247469",
         "note": "MeyGen operations summary (91 GWh, 59 MW next phase); nef, 13 Nov 2024 (17.5 GWh annual record); read 2026-10-28"
-      }
+      },
+      "project_id": "meygen-tidal-stream-array-pentland-firth-scotland-sae-renewables"
     }
   ]
 }

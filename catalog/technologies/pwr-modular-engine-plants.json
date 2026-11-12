@@ -175,7 +175,8 @@
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "wartsila",
         "note": "Wärtsilä white paper on combustion engine power plants, read 26 October 2026"
-      }
+      },
+      "project_id": "dohazari-power-plant"
     },
     {
       "name": "Texas peaking plant for KPUB",
@@ -186,7 +187,8 @@
         "url": "https://www.man-es.com/company/press-releases/press-details/2025/05/22/man-51-60g-engines-bound-for-texas-gas--power-plant",
         "source_id": "man-energy",
         "note": "MAN Energy Solutions press release, 22 May 2025, read 26 October 2026"
-      }
+      },
+      "project_id": "texas-peaking-plant-for-kpub"
     }
   ],
   "advantages": [

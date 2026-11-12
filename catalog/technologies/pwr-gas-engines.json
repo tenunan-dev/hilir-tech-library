@@ -85,7 +85,8 @@
         "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
         "source_id": "wartsila",
         "note": "Wärtsilä reference: PLTD Pesanggaran, Bali (200 MW multi-fuel, 2015)"
-      }
+      },
+      "project_id": "pltd-pesanggaran-bali-pt-indonesia-power"
     }
   ],
   "performance": [

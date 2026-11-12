@@ -200,7 +200,8 @@
       "source": {
         "url": "https://petrobank.ca/sf/thai/thai.htm",
         "note": "Petrobank Kerrobert THAI public data page (Saskatchewan, Canada; production history, KP2/KA2 well data). 50/50 Petrobank-Baytex JV reported Jan 2010; read 2026-10-28"
-      }
+      },
+      "project_id": "kerrobert-thai-in-situ-combustion-pilot-petrobank-later-baytex-saskatche"
     }
   ]
 }

@@ -96,7 +96,7 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Flow_battery",
-      "note": "Wikipedia: Flow battery \u2014 process-description cross-check 2026-10-29 (secondary source)"
+      "note": "Wikipedia: Flow battery — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
   "last_reviewed": "2026-11-11",
@@ -129,12 +129,13 @@
     {
       "name": "Dalian Flow Battery Energy Storage Peak-shaving Power Station (Rongke Power), Dalian, Liaoning",
       "country": "CN",
-      "capacity": "Phase 1 100 MW / 400 MWh vanadium redox flow battery, first phase of a planned 200 MW / 800 MWh station; grid-connected 29 September 2022 with commercial operation from mid-October 2022 \u2014 the largest flow-battery station in the world at the time",
+      "capacity": "Phase 1 100 MW / 400 MWh vanadium redox flow battery, first phase of a planned 200 MW / 800 MWh station; grid-connected 29 September 2022 with commercial operation from mid-October 2022 — the largest flow-battery station in the world at the time",
       "status": "operating",
       "source": {
         "url": "https://english.cas.cn/Special_Reports/rd/2022/202410/t20241031_693355.shtml",
         "note": "Chinese Academy of Sciences English feature on the DICP/Rongke Power Dalian station, read 2026-11-11"
-      }
+      },
+      "project_id": "dalian-flow-battery-energy-storage-peak-shaving-power-station-rongke-pow"
     }
   ]
 }

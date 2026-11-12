@@ -102,7 +102,8 @@
         "url": "https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project",
         "source_id": "johnson-matthey",
         "note": "JM press release, October 2023; describes H2Teesside GHR-ATR flowsheet and Track-1 selection"
-      }
+      },
+      "project_id": "bp-h2teesside-jm-lch-licence"
     },
     {
       "name": "H2H Saltend (Equinor-led, JM LCH selected)",
@@ -114,7 +115,8 @@
         "url": "https://matthey.com/johnson-matthey-chosen-for-h2h-saltend-low-carbon-hydrogen-project",
         "source_id": "johnson-matthey",
         "note": "JM press release, March 2023"
-      }
+      },
+      "project_id": "h2h-saltend-equinor-led-jm-lch-selected"
     }
   ],
   "performance": [

@@ -135,7 +135,8 @@
         "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
         "source_id": "offshore-mag",
         "note": "Offshore magazine, October 2007 (43 km, 10 MW); onstream year from Offshore magazine 'Tyrihans tied to Kristin', 7 December 2005 (read 28 October 2026)"
-      }
+      },
+      "project_id": "tyrihans-deh-tieback-to-the-kristin-fpso-norwegian-sea"
     },
     {
       "name": "Huldra DEH pipeline (North Sea)",
@@ -147,7 +148,8 @@
         "url": "https://www.offshore-mag.com/pipelines/article/16760932/direct-heating-safeguards-flow-through-harsh-environment-pipelines",
         "source_id": "offshore-mag",
         "note": "Offshore magazine, Direct heating safeguards flow through harsh-environment pipelines, October 2007 (status as of that date; read 28 October 2026)"
-      }
+      },
+      "project_id": "huldra-deh-pipeline-north-sea"
     }
   ],
   "last_reviewed": "2026-10-28",

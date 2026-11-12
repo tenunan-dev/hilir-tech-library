@@ -190,7 +190,8 @@
       "source": {
         "url": "https://www.equinor.com/news/20250926-phase-2-asgard-subsea-compression",
         "note": "Equinor, 26 Sep 2025 (phase 2 start, recovery to 90%, 306 Mboe); Aker Solutions project page (delivered world's first system in 2015); read 2026-10-28"
-      }
+      },
+      "project_id": "asgard-subsea-gas-compression-norwegian-sea"
     }
   ]
 }

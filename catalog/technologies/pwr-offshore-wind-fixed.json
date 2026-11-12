@@ -54,7 +54,7 @@
   ],
   "suppliers": [
     {
-      "name": "\u00d8rsted",
+      "name": "Ørsted",
       "product": "developer and operator"
     },
     {
@@ -155,7 +155,7 @@
     },
     {
       "url": "https://en.wikipedia.org/wiki/Offshore_wind_power",
-      "note": "Wikipedia: Offshore wind power \u2014 process-description cross-check 2026-10-29 (secondary source)"
+      "note": "Wikipedia: Offshore wind power — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
   "last_reviewed": "2026-11-11",
@@ -169,7 +169,8 @@
       "source": {
         "url": "https://offshorewind.biz/2022/08/31/worlds-largest-offshore-wind-farm-goes-into-operation",
         "note": "OffshoreWind.biz, 31 Aug 2022 (read 2026-10-28)"
-      }
+      },
+      "project_id": "hornsea-2-offshore-wind-farm-uk-north-sea-orsted"
     }
   ]
 }

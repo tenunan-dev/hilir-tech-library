@@ -97,7 +97,8 @@
       "source": {
         "url": "https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg",
         "note": "CINEA, BECCS Stockholm: delivering net carbon removals with clean energy"
-      }
+      },
+      "project_id": "beccs-stockholm-stockholm-exergi"
     },
     {
       "name": "ADM Illinois Industrial",
@@ -109,7 +110,8 @@
         "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
         "source_id": "global-ccs-institute",
         "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
-      }
+      },
+      "project_id": "adm-illinois-industrial"
     },
     {
       "name": "ADM Columbus",
@@ -121,7 +123,8 @@
         "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
         "source_id": "global-ccs-institute",
         "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
-      }
+      },
+      "project_id": "adm-columbus"
     },
     {
       "name": "CapturePoint Arkalon CO2 Compression Facility",
@@ -133,7 +136,8 @@
         "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
         "source_id": "global-ccs-institute",
         "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
-      }
+      },
+      "project_id": "capturepoint-arkalon-co2-compression-facility"
     },
     {
       "name": "Conestoga Energy Bonanza BioEnergy",
@@ -145,7 +149,8 @@
         "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
         "source_id": "global-ccs-institute",
         "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
-      }
+      },
+      "project_id": "conestoga-energy-bonanza-bioenergy"
     },
     {
       "name": "Green Plains Wood River Biorefinery",
@@ -157,7 +162,8 @@
         "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
         "source_id": "global-ccs-institute",
         "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
-      }
+      },
+      "project_id": "green-plains-wood-river-biorefinery"
     },
     {
       "name": "BioCirc Vesthimmerland Biogas Plant",
@@ -169,7 +175,8 @@
         "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
         "source_id": "global-ccs-institute",
         "note": "Global Status of CCS 2026 (Global CCS Institute), Facilities list, 'In operation 2026' table (pp. 52-56)"
-      }
+      },
+      "project_id": "biocirc-vesthimmerland-biogas-plant"
     }
   ],
   "trl": {

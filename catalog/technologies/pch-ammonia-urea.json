@@ -153,7 +153,8 @@
       "source": {
         "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
         "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
-      }
+      },
+      "project_id": "stamicarbon-n-3-process-bontang-indonesia"
     },
     {
       "name": "Stamicarbon N=3 process, Geleen",
@@ -162,7 +163,8 @@
       "source": {
         "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf",
         "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
-      }
+      },
+      "project_id": "stamicarbon-n-3-process-geleen"
     }
   ],
   "trl": {

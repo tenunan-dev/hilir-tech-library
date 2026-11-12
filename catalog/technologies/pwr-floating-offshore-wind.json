@@ -136,8 +136,7 @@
     }
   ],
   "last_reviewed": "2026-10-29",
-  "gaps": [
-  ],
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Hywind Tampen floating wind farm, North Sea (Equinor)",
@@ -147,7 +146,8 @@
       "source": {
         "url": "https://jpt.spe.org/equinor-announces-first-power-from-hywind-tampen-wind-farm",
         "note": "JPT, 22 Nov 2022 (first power 13 Nov 2022); Maritime Executive, 8 Apr 2020 (investment close to NOK 5 bn, about USD 488 m; NOK 2.3 bn Enova support per Windpower Monthly); read 2026-10-28"
-      }
+      },
+      "project_id": "hywind-tampen-floating-wind-farm-north-sea-equinor"
     }
   ],
   "costs": [

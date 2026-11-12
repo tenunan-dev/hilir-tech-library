@@ -133,7 +133,8 @@
       "source": {
         "url": "https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery",
         "note": "Neste Singapore refinery page, read 24 October 2026"
-      }
+      },
+      "project_id": "neste-singapore-refinery"
     },
     {
       "name": "Diamond Green Diesel, Norco, Louisiana",
@@ -145,7 +146,8 @@
         "url": "https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell",
         "source_id": "ptq-digital-refining",
         "note": "Digital Refining news, 30 September 2019"
-      }
+      },
+      "project_id": "diamond-green-diesel-norco-louisiana"
     }
   ],
   "advantages": [

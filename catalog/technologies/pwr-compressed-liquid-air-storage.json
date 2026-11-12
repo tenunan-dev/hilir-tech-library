@@ -162,7 +162,8 @@
       "source": {
         "url": "https://www.nytimes.com/1991/09/29/business/technology-using-compressed-air-to-store-up-electricity.html",
         "note": "New York Times, 29 Sep 1991 (McIntosh 110 MW, 19-million-cu-ft cavern); Huntorf 290 MW 1978 per the widely cited Crotogino et al. Huntorf 20-years review (researchgate table mirror); read 2026-10-28"
-      }
+      },
+      "project_id": "huntorf-caes-germany-1978-and-mcintosh-caes-alabama-usa-1991"
     }
   ]
 }

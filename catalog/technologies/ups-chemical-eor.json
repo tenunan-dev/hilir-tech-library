@@ -210,7 +210,8 @@
         "url": "https://journal.lemigas.esdm.go.id/index.php/SCOG/article/view/2125",
         "source_id": "lemigas-scog",
         "note": "Osama et al., Rheological Screening of HPAM for High-Salinity EOR, SCOG 49(3): 335-347, 2026 (LEMIGAS SCOG, CC BY-SA 4.0)"
-      }
+      },
+      "project_id": "daqing-oilfield-polymer-flood"
     },
     {
       "name": "PETRONAS Carigali and Shell Malaysia EOR program, Baram Delta (Sarawak) and North Sabah PSCs, offshore Malaysia",
@@ -222,7 +223,8 @@
         "url": "https://www.offshore-mag.com/production/article/16775227/petronas-shell-consider-first-ever-field-scale-chemical-eor-offshore-malaysia",
         "source_id": "offshore-mag",
         "note": "Offshore magazine, PETRONAS, Shell consider first-ever field-scale chemical EOR offshore Malaysia, 11 November 2011 (status as of that source; read 28 October 2026)"
-      }
+      },
+      "project_id": "petronas-carigali-and-shell-malaysia-eor-program-baram-delta-sarawak-and"
     }
   ],
   "advantages": [

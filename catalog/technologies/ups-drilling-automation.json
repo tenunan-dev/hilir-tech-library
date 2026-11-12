@@ -206,7 +206,8 @@
       "source": {
         "url": "https://investor.nabors.com/2022-11-16-Nabors-Marks-Major-Industry-Milestone-Fully-Automates-Existing-Land-Rig-with-First-of-its-Kind-Robotics-Module",
         "note": "Nabors investor release, 16 Nov 2022: in 2021 Nabors and ExxonMobil proved fully automated land drilling with the newbuild R801 robotic rig (read 2026-10-28)"
-      }
+      },
+      "project_id": "nabors-r801-robotic-drilling-rig-with-exxonmobil"
     }
   ]
 }

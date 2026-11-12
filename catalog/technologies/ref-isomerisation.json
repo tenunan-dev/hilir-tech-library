@@ -180,7 +180,8 @@
         "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
         "source_id": "axens",
         "note": "Axens C5/C6 isomerization page"
-      }
+      },
+      "project_id": "jiangsu-xinhai-petrochemicals-isomerisation-unit"
     },
     {
       "name": "Axens isomerisation licences",
@@ -190,7 +191,8 @@
         "url": "https://www.axens.net/markets/oil-refining/c5c6-isomerization",
         "source_id": "axens",
         "note": "Axens C5/C6 isomerization page"
-      }
+      },
+      "project_id": "axens-isomerisation-licences"
     }
   ]
 }

@@ -118,7 +118,8 @@
         "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
         "source_id": "honeywell-uop",
         "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
-      }
+      },
+      "project_id": "japex-lng-plants-japan-ap-n"
     },
     {
       "name": "US plant, 412 t/d AP-N",
@@ -128,7 +129,8 @@
         "url": "https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf",
         "source_id": "honeywell-uop",
         "note": "Honeywell UOP, small-scale LNG liquefaction plant capabilities, March 2025"
-      }
+      },
+      "project_id": "us-plant-412-t-d-ap-n"
     }
   ],
   "advantages": [

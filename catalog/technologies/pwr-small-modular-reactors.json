@@ -147,7 +147,8 @@
       "source": {
         "url": "https://pro.smrbrief.com/projects/darlington-bwrx-300",
         "note": "SMR Brief project tracker (construction approval Apr 2025, CAD 7.7 bn); ANS Nuclear Newswire, Oct 2026 (under construction); NuScale status: NRC design certification 2023, but the first proposed US project (UAMPS Carbon Free Power Project) was cancelled Nov 2023; UK SMR competition narrowed to four contenders Sep 2024; read 2026-10-28"
-      }
+      },
+      "project_id": "darlington-bwrx-300-ontario-opg-ge-hitachi"
     }
   ]
 }

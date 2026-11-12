@@ -135,7 +135,8 @@
         "url": "https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf",
         "source_id": "netl",
         "note": "NETL Gas Treating Technical Paper (acid gas removal), read 25 October 2026"
-      }
+      },
+      "project_id": "sarlux-and-api-energia-gasification-projects-italy"
     },
     {
       "name": "Texaco Cool Water and TVA Muscle Shoals gasification (first use in the 1980s)",
@@ -143,7 +144,8 @@
         "url": "https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf",
         "source_id": "netl",
         "note": "NETL Gas Treating Technical Paper (acid gas removal), read 25 October 2026"
-      }
+      },
+      "project_id": "texaco-cool-water-and-tva-muscle-shoals-gasification-first-use-in-the-19"
     }
   ],
   "advantages": [

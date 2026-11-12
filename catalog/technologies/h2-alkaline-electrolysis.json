@@ -1,373 +1,377 @@
 {
- "id": "h2-alkaline-electrolysis",
- "name": "Alkaline water electrolysis",
- "aliases": [
-  "AWE",
-  "alkaline electrolyser",
-  "AEL",
-  "pressurised alkaline"
- ],
- "sector": "H2",
- "category": "Hydrogen production / electrolysis",
- "applications": [
-  "green hydrogen for refineries",
-  "green ammonia",
-  "e-fuels",
-  "steel"
- ],
- "maturity": "commercial",
- "principle": "Two electrodes sit in a liquid alkaline electrolyte of potassium or sodium hydroxide, separated by a diaphragm. Water is split by direct current: hydrogen forms at the cathode and oxygen at the anode, and the electrolyte circulates through gas separators. DOE gives an operating range of 60 to 90 \u00b0C.",
- "process_steps": [
-  {
-   "id": "PWR",
-   "name": "Power conversion",
-   "equipment": [
-    "transformer",
-    "rectifier"
-   ]
-  },
-  {
-   "id": "WAT",
-   "name": "Water treatment",
-   "equipment": [
-    "reverse osmosis and deionisation"
-   ]
-  },
-  {
-   "id": "STK",
-   "name": "Electrolysis stacks",
-   "equipment": [
-    "alkaline cell stacks with diaphragm",
-    "KOH electrolyte circulation pumps and coolers"
-   ],
-   "to": [
-    "SEPH",
-    "SEPO"
-   ],
-   "streams": {
-    "SEPH": "H2 + lye",
-    "SEPO": "O2 + lye"
-   }
-  },
-  {
-   "id": "SEPH",
-   "name": "Hydrogen gas separation",
-   "equipment": [
-    "hydrogen separator drum",
-    "lye return"
-   ],
-   "to": [
-    "PUR"
-   ]
-  },
-  {
-   "id": "SEPO",
-   "name": "Oxygen gas separation",
-   "equipment": [
-    "oxygen separator drum",
-    "vent or O2 recovery"
-   ],
-   "to": []
-  },
-  {
-   "id": "PUR",
-   "name": "Hydrogen purification",
-   "equipment": [
-    "deoxidiser",
-    "dryer (TSA)"
-   ],
-   "to": [
-    "CMP"
-   ]
-  },
-  {
-   "id": "CMP",
-   "name": "Compression and storage",
-   "equipment": [
-    "hydrogen compressor",
-    "buffer storage"
-   ],
-   "to": []
-  }
- ],
- "key_equipment": [
-  "transformer and rectifier",
-  "alkaline electrolyser stacks",
-  "gas-liquid separators",
-  "lye circulation and cooling",
-  "deoxidiser and dryer",
-  "water treatment",
-  "hydrogen compressor"
- ],
- "performance": [
-  {
-   "metric": "operating temperature",
-   "low": 60,
-   "high": 90,
-   "unit": "\u00b0C",
-   "basis": "DOE description of alkaline electrolysers",
-   "source": {
-    "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
-    "source_id": "doe-hfto",
-    "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
-   }
-  },
-  {
-   "metric": "standard module size (thyssenkrupp)",
-   "low": 20,
-   "high": 20,
-   "unit": "MW",
-   "year": 2022,
-   "basis": "thyssenkrupp 20 MW alkaline module used for NEOM and Holland Hydrogen 1",
-   "source": {
-    "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
-    "source_id": "ammonia-energy",
-    "note": "Ammonia Energy Association, 16 January 2022"
-   }
-  },
-  {
-   "metric": "system electricity use (status, beginning of life)",
-   "low": 55,
-   "high": 55,
-   "unit": "kWh/kg H2",
-   "year": 2024,
-   "basis": "DOE status for liquid alkaline; stack 51 kWh/kg; ultimate target system 48",
-   "source": {
-    "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
-    "source_id": "doe-hfto",
-    "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
-   }
-  },
-  {
-   "metric": "stack lifetime (status)",
-   "low": 60000,
-   "high": 60000,
-   "unit": "h",
-   "year": 2024,
-   "basis": "DOE status table for liquid alkaline; 0.5 A/cm2 at 1.9 V",
-   "source": {
-    "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
-    "source_id": "doe-hfto",
-    "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
-   }
-  }
- ],
- "suppliers": [
-  {
-   "name": "Thyssenkrupp nucera",
-   "product": "20 MW alkaline water electrolysis module",
-   "source_id": "thyssenkrupp-uhde"
-  },
-  {
-   "name": "John Cockerill"
-  },
-  {
-   "name": "LONGi Hydrogen",
-   "source_id": "longi-hydrogen"
-  },
-  {
-   "name": "PERIC"
-  },
-  {
-   "name": "Nel Hydrogen",
-   "source_id": "nel-hydrogen"
-  },
-  {
-   "name": "HydrogenPro"
-  }
- ],
- "reference_plants": [
-  {
-   "name": "NEOM Green Hydrogen Project",
-   "country": "SA",
-   "capacity": "2 GW+ alkaline electrolysis in 20 MW modules (thyssenkrupp), 600 t/day hydrogen",
-   "status": "electrolyser commissioning after 4 GW renewables due mid-2026; first product expected 2027",
-   "source": {
-    "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
-    "note": "ACWA Power project page, read 24 October 2026"
-   }
-  },
-  {
-   "name": "Sinopec Kuqa green hydrogen pilot, Xinjiang",
-   "country": "CN",
-   "capacity": "20,000 t/yr green hydrogen from solar power; 210,000 m3 hydrogen storage; supplies Tahe Refining & Chemical",
-   "status": "in operation from 2023",
-   "year": 2023,
-   "source": {
-    "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
-    "source_id": "sinopec-tech",
-    "note": "Sinopec press release via Cision, 3 July 2023"
-   }
-  },
-  {
-   "name": "Holland Hydrogen 1 (Shell), Rotterdam",
-   "country": "NL",
-   "capacity": "200 MW, thyssenkrupp 20 MW alkaline modules; hydrogen piped about 40 km to Shell Energy and Chemicals Park Rotterdam",
-   "status": "announced January 2022 with start of production intended for 2024",
-   "year": 2022,
-   "source": {
-    "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
-    "source_id": "ptq-digital-refining",
-    "note": "Digital Refining news, 12 January 2022"
-   }
-  },
-  {
-   "name": "ACES Delta, Utah",
-   "country": "US",
-   "capacity": "220 MW alkaline (HydrogenPro), up to 100 t/day hydrogen stored in salt caverns",
-   "status": "USD 504.4 million conditional DOE loan guarantee, April 2022",
-   "year": 2022,
-   "source": {
-    "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
-    "note": "POWER magazine, April 2022"
-   }
-  }
- ],
- "advantages": [
-  "Most deployed electrolysis technology at large scale",
-  "No platinum-group metals in the cell",
-  "Large standard modules"
- ],
- "limitations": [
-  "Slower response to fluctuating power than PEM in conventional designs",
-  "Caustic electrolyte handling",
-  "Lower current density, so larger stacks"
- ],
- "sources": [
-  {
-   "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
-   "source_id": "doe-hfto",
-   "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
-  },
-  {
-   "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
-   "source_id": "ammonia-energy",
-   "note": "Ammonia Energy Association, 16 January 2022"
-  },
-  {
-   "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
-   "note": "ACWA Power project page, read 24 October 2026"
-  },
-  {
-   "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
-   "source_id": "sinopec-tech",
-   "note": "Sinopec press release via Cision, 3 July 2023"
-  },
-  {
-   "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
-   "source_id": "ptq-digital-refining",
-   "note": "Digital Refining news, 12 January 2022"
-  },
-  {
-   "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
-   "note": "POWER magazine, April 2022"
-  },
-  {
-   "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
-   "source_id": "doe-hfto",
-   "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
-  },
-  {
-   "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
-   "source_id": "iea-reports",
-   "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Alkaline_water_electrolysis",
-   "note": "Wikipedia: Alkaline water electrolysis \u2014 process-description cross-check 2026-10-28 (secondary source)"
-  }
- ],
- "last_reviewed": "2026-10-28",
- "costs": [
-  {
-   "metric": "uninstalled system capital cost (status)",
-   "low": 500,
-   "high": 750,
-   "unit": "USD/kW",
-   "year": 2020,
-   "basis": "DOE H2A-Lite current status for liquid alkaline, 50 t/day plant, based on 4.5 MW stacks and 10 MW modules; installed about 2x (1,000-1,500)",
-   "source": {
-    "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
-    "source_id": "doe-hfto",
-    "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
-   }
-  },
-  {
-   "metric": "water electrolysis capex, global average (2024)",
-   "low": 2000,
-   "high": 2600,
-   "unit": "USD/kWe",
-   "year": 2024,
-   "basis": "IEA; includes electrolyser system, electrical, gas treatment, balance of plant and EPC, excludes power assets; STEPS 2030 1,400-1,820; not split by electrolyser type",
-   "source": {
-    "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
-    "source_id": "iea-reports",
-    "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
-   }
-  },
-  {
-   "metric": "water electrolysis capex, China (2024)",
-   "low": 600,
-   "high": 1200,
-   "unit": "USD/kWe",
-   "year": 2024,
-   "basis": "IEA, same scope; STEPS 2030 450-900",
-   "source": {
-    "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
-    "source_id": "iea-reports",
-    "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
-   }
-  },
-  {
-   "metric": "Cost gap: renewable vs unabated fossil hydrogen production",
-   "low": 1.5,
-   "high": 8,
-   "unit": "USD/kg H2",
-   "year": 2024,
-   "basis": "IEA GHR 2024 executive summary: 'the cost gap with unabated fossil-based production shrinking from USD 1.5-8/kg H2 today to USD 1-3/kg H2 by 2030'",
-   "source": {
-    "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary",
-    "source_id": "iea-reports",
-    "note": "IEA Global Hydrogen Review 2024, executive summary, read 2026-11-08"
-   }
-  },
-  {
-   "metric": "Renewable hydrogen production cost today (implied)",
-   "low": 4,
-   "high": 18,
-   "unit": "USD/kg H2",
-   "year": 2024,
-   "basis": "IEA GHR 2024 executive summary: 2030 NZE renewable hydrogen cost 'falls to USD 2-9/kg H2 by 2030 - half of today's value', implying today's value is roughly twice that range",
-   "source": {
-    "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary",
-    "source_id": "iea-reports",
-    "note": "IEA Global Hydrogen Review 2024, executive summary, read 2026-11-08"
-   }
-  }
- ],
- "gaps": [
-  {
-   "field": "other",
-   "item": "electrolyser type and supplier at Sinopec Kuqa",
-   "reason_code": "not_in_sources_read",
-   "reason": "The Sinopec release read does not state the electrolyser type or supplier. Facts recorded 2026-10-28: Sinopec Kuqa (Xinjiang) is the world's largest solar-powered green hydrogen facility - 20,000 t/yr from a 300 MW solar field feeding about 260-390 MW of ALK electrolysis (reported both figures), project cost about USD 831 m; 100% electrolyser load reported January 2025. The electrolyser is alkaline-type; the specific supplier attribution (PERIC-class Chinese ALK vendors) circulates in trade press but was not confirmable on a primary page.",
-   "where": [
+  "id": "h2-alkaline-electrolysis",
+  "name": "Alkaline water electrolysis",
+  "aliases": [
+    "AWE",
+    "alkaline electrolyser",
+    "AEL",
+    "pressurised alkaline"
+  ],
+  "sector": "H2",
+  "category": "Hydrogen production / electrolysis",
+  "applications": [
+    "green hydrogen for refineries",
+    "green ammonia",
+    "e-fuels",
+    "steel"
+  ],
+  "maturity": "commercial",
+  "principle": "Two electrodes sit in a liquid alkaline electrolyte of potassium or sodium hydroxide, separated by a diaphragm. Water is split by direct current: hydrogen forms at the cathode and oxygen at the anode, and the electrolyte circulates through gas separators. DOE gives an operating range of 60 to 90 °C.",
+  "process_steps": [
     {
-     "hint": "Sinopec news releases; LONGi Hydrogen and PERIC project news",
-     "source_id": "sinopec-tech",
-     "access": "open"
+      "id": "PWR",
+      "name": "Power conversion",
+      "equipment": [
+        "transformer",
+        "rectifier"
+      ]
+    },
+    {
+      "id": "WAT",
+      "name": "Water treatment",
+      "equipment": [
+        "reverse osmosis and deionisation"
+      ]
+    },
+    {
+      "id": "STK",
+      "name": "Electrolysis stacks",
+      "equipment": [
+        "alkaline cell stacks with diaphragm",
+        "KOH electrolyte circulation pumps and coolers"
+      ],
+      "to": [
+        "SEPH",
+        "SEPO"
+      ],
+      "streams": {
+        "SEPH": "H2 + lye",
+        "SEPO": "O2 + lye"
+      }
+    },
+    {
+      "id": "SEPH",
+      "name": "Hydrogen gas separation",
+      "equipment": [
+        "hydrogen separator drum",
+        "lye return"
+      ],
+      "to": [
+        "PUR"
+      ]
+    },
+    {
+      "id": "SEPO",
+      "name": "Oxygen gas separation",
+      "equipment": [
+        "oxygen separator drum",
+        "vent or O2 recovery"
+      ],
+      "to": []
+    },
+    {
+      "id": "PUR",
+      "name": "Hydrogen purification",
+      "equipment": [
+        "deoxidiser",
+        "dryer (TSA)"
+      ],
+      "to": [
+        "CMP"
+      ]
+    },
+    {
+      "id": "CMP",
+      "name": "Compression and storage",
+      "equipment": [
+        "hydrogen compressor",
+        "buffer storage"
+      ],
+      "to": []
     }
-   ],
-   "action": "Confirm the electrolyser supplier from a Sinopec or vendor primary page when available."
+  ],
+  "key_equipment": [
+    "transformer and rectifier",
+    "alkaline electrolyser stacks",
+    "gas-liquid separators",
+    "lye circulation and cooling",
+    "deoxidiser and dryer",
+    "water treatment",
+    "hydrogen compressor"
+  ],
+  "performance": [
+    {
+      "metric": "operating temperature",
+      "low": 60,
+      "high": 90,
+      "unit": "°C",
+      "basis": "DOE description of alkaline electrolysers",
+      "source": {
+        "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+      }
+    },
+    {
+      "metric": "standard module size (thyssenkrupp)",
+      "low": 20,
+      "high": 20,
+      "unit": "MW",
+      "year": 2022,
+      "basis": "thyssenkrupp 20 MW alkaline module used for NEOM and Holland Hydrogen 1",
+      "source": {
+        "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
+        "source_id": "ammonia-energy",
+        "note": "Ammonia Energy Association, 16 January 2022"
+      }
+    },
+    {
+      "metric": "system electricity use (status, beginning of life)",
+      "low": 55,
+      "high": 55,
+      "unit": "kWh/kg H2",
+      "year": 2024,
+      "basis": "DOE status for liquid alkaline; stack 51 kWh/kg; ultimate target system 48",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    },
+    {
+      "metric": "stack lifetime (status)",
+      "low": 60000,
+      "high": 60000,
+      "unit": "h",
+      "year": 2024,
+      "basis": "DOE status table for liquid alkaline; 0.5 A/cm2 at 1.9 V",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Thyssenkrupp nucera",
+      "product": "20 MW alkaline water electrolysis module",
+      "source_id": "thyssenkrupp-uhde"
+    },
+    {
+      "name": "John Cockerill"
+    },
+    {
+      "name": "LONGi Hydrogen",
+      "source_id": "longi-hydrogen"
+    },
+    {
+      "name": "PERIC"
+    },
+    {
+      "name": "Nel Hydrogen",
+      "source_id": "nel-hydrogen"
+    },
+    {
+      "name": "HydrogenPro"
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "NEOM Green Hydrogen Project",
+      "country": "SA",
+      "capacity": "2 GW+ alkaline electrolysis in 20 MW modules (thyssenkrupp), 600 t/day hydrogen",
+      "status": "electrolyser commissioning after 4 GW renewables due mid-2026; first product expected 2027",
+      "source": {
+        "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+        "note": "ACWA Power project page, read 24 October 2026"
+      },
+      "project_id": "neom-green-hydrogen-project"
+    },
+    {
+      "name": "Sinopec Kuqa green hydrogen pilot, Xinjiang",
+      "country": "CN",
+      "capacity": "20,000 t/yr green hydrogen from solar power; 210,000 m3 hydrogen storage; supplies Tahe Refining & Chemical",
+      "status": "in operation from 2023",
+      "year": 2023,
+      "source": {
+        "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
+        "source_id": "sinopec-tech",
+        "note": "Sinopec press release via Cision, 3 July 2023"
+      },
+      "project_id": "sinopec-kuqa-green-hydrogen-pilot-xinjiang"
+    },
+    {
+      "name": "Holland Hydrogen 1 (Shell), Rotterdam",
+      "country": "NL",
+      "capacity": "200 MW, thyssenkrupp 20 MW alkaline modules; hydrogen piped about 40 km to Shell Energy and Chemicals Park Rotterdam",
+      "status": "announced January 2022 with start of production intended for 2024",
+      "year": 2022,
+      "source": {
+        "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
+        "source_id": "ptq-digital-refining",
+        "note": "Digital Refining news, 12 January 2022"
+      },
+      "project_id": "holland-hydrogen-1-shell-rotterdam"
+    },
+    {
+      "name": "ACES Delta, Utah",
+      "country": "US",
+      "capacity": "220 MW alkaline (HydrogenPro), up to 100 t/day hydrogen stored in salt caverns",
+      "status": "USD 504.4 million conditional DOE loan guarantee, April 2022",
+      "year": 2022,
+      "source": {
+        "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
+        "note": "POWER magazine, April 2022"
+      },
+      "project_id": "aces-delta-utah"
+    }
+  ],
+  "advantages": [
+    "Most deployed electrolysis technology at large scale",
+    "No platinum-group metals in the cell",
+    "Large standard modules"
+  ],
+  "limitations": [
+    "Slower response to fluctuating power than PEM in conventional designs",
+    "Caustic electrolyte handling",
+    "Lower current density, so larger stacks"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen and Fuel Cell Technologies Office, Hydrogen Production: Electrolysis"
+    },
+    {
+      "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
+      "source_id": "ammonia-energy",
+      "note": "Ammonia Energy Association, 16 January 2022"
+    },
+    {
+      "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+      "note": "ACWA Power project page, read 24 October 2026"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20230703ae48443",
+      "source_id": "sinopec-tech",
+      "note": "Sinopec press release via Cision, 3 July 2023"
+    },
+    {
+      "url": "https://digitalrefining.com/news/1006809,thyssenkrupp-to-install-200-mw-green-hydrogen-facility-for-shell-in-port-of-rotterdam.html",
+      "source_id": "ptq-digital-refining",
+      "note": "Digital Refining news, 12 January 2022"
+    },
+    {
+      "url": "https://www.powermag.com/aces-deltas-giant-utah-salt-cavern-hydrogen-storage-project-gets-504m-conditional-doe-loan-guarantee/",
+      "note": "POWER magazine, April 2022"
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+      "source_id": "doe-hfto",
+      "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+    },
+    {
+      "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alkaline_water_electrolysis",
+      "note": "Wikipedia: Alkaline water electrolysis — process-description cross-check 2026-10-28 (secondary source)"
+    }
+  ],
+  "last_reviewed": "2026-10-28",
+  "costs": [
+    {
+      "metric": "uninstalled system capital cost (status)",
+      "low": 500,
+      "high": 750,
+      "unit": "USD/kW",
+      "year": 2020,
+      "basis": "DOE H2A-Lite current status for liquid alkaline, 50 t/day plant, based on 4.5 MW stacks and 10 MW modules; installed about 2x (1,000-1,500)",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+        "source_id": "doe-hfto",
+        "note": "DOE Hydrogen Shot Water Electrolysis Technology Assessment, December 2024, Table 2 and Tables A-1 to A-2"
+      }
+    },
+    {
+      "metric": "water electrolysis capex, global average (2024)",
+      "low": 2000,
+      "high": 2600,
+      "unit": "USD/kWe",
+      "year": 2024,
+      "basis": "IEA; includes electrolyser system, electrical, gas treatment, balance of plant and EPC, excludes power assets; STEPS 2030 1,400-1,820; not split by electrolyser type",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
+      }
+    },
+    {
+      "metric": "water electrolysis capex, China (2024)",
+      "low": 600,
+      "high": 1200,
+      "unit": "USD/kWe",
+      "year": 2024,
+      "basis": "IEA, same scope; STEPS 2030 450-900",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, Production pathways table (p. 6), CC BY 4.0"
+      }
+    },
+    {
+      "metric": "Cost gap: renewable vs unabated fossil hydrogen production",
+      "low": 1.5,
+      "high": 8,
+      "unit": "USD/kg H2",
+      "year": 2024,
+      "basis": "IEA GHR 2024 executive summary: 'the cost gap with unabated fossil-based production shrinking from USD 1.5-8/kg H2 today to USD 1-3/kg H2 by 2030'",
+      "source": {
+        "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2024, executive summary, read 2026-11-08"
+      }
+    },
+    {
+      "metric": "Renewable hydrogen production cost today (implied)",
+      "low": 4,
+      "high": 18,
+      "unit": "USD/kg H2",
+      "year": 2024,
+      "basis": "IEA GHR 2024 executive summary: 2030 NZE renewable hydrogen cost 'falls to USD 2-9/kg H2 by 2030 - half of today's value', implying today's value is roughly twice that range",
+      "source": {
+        "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2024, executive summary, read 2026-11-08"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "field": "other",
+      "item": "electrolyser type and supplier at Sinopec Kuqa",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Sinopec release read does not state the electrolyser type or supplier. Facts recorded 2026-10-28: Sinopec Kuqa (Xinjiang) is the world's largest solar-powered green hydrogen facility - 20,000 t/yr from a 300 MW solar field feeding about 260-390 MW of ALK electrolysis (reported both figures), project cost about USD 831 m; 100% electrolyser load reported January 2025. The electrolyser is alkaline-type; the specific supplier attribution (PERIC-class Chinese ALK vendors) circulates in trade press but was not confirmable on a primary page.",
+      "where": [
+        {
+          "hint": "Sinopec news releases; LONGi Hydrogen and PERIC project news",
+          "source_id": "sinopec-tech",
+          "access": "open"
+        }
+      ],
+      "action": "Confirm the electrolyser supplier from a Sinopec or vendor primary page when available."
+    }
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
+      "source_id": "iea-reports",
+      "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Alkaline electrolyser' 9"
+    }
   }
- ],
- "trl": {
-  "low": 9,
-  "high": 9,
-  "source": {
-   "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
-   "source_id": "iea-reports",
-   "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Alkaline electrolyser' 9"
-  }
- }
 }

@@ -299,6 +299,11 @@
           "year": {
             "type": "integer"
           },
+          "project_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Id of the full project record in catalog/projects/ for this plant"
+          },
           "source": {
             "$ref": "#/$defs/ref"
           }

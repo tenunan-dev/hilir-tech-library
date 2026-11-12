@@ -155,7 +155,8 @@
       "year": 2015,
       "source": {
         "url": "https://www.jefftk.com/keith2018.pdf"
-      }
+      },
+      "project_id": "squamish-pilot"
     },
     {
       "name": "Stratos, Ector County, Texas",
@@ -166,7 +167,8 @@
       "source": {
         "url": "https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/",
         "note": "E&E News, 7 August 2026"
-      }
+      },
+      "project_id": "stratos-ector-county-texas"
     }
   ],
   "advantages": [

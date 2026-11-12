@@ -159,7 +159,8 @@
       "source": {
         "url": "https://www.bioenergy-news.com",
         "note": "Bioenergy news, 15 Oct 2021 (opening, 3.4 kt/yr, Nordsol-Shell-Renewi); Nordsol factsheet (European Biogas Association); read 2026-10-28"
-      }
+      },
+      "project_id": "nordsol-bio-lng-plant-amsterdam-nordsol-shell-renewi"
     },
     {
       "name": "Vireo Hardanger bio-LNG plant, Norway (Bright Renewables/Nordsol)",
@@ -169,7 +170,8 @@
       "source": {
         "url": "https://www.bright-renewables.com",
         "note": "Bright Renewables, 29 Oct 2025 (read 2026-10-28)"
-      }
+      },
+      "project_id": "vireo-hardanger-bio-lng-plant-norway-bright-renewables-nordsol"
     }
   ]
 }

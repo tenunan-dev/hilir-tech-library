@@ -1,0 +1,76 @@
+{
+  "id": "mv-switchgear-data-centre",
+  "name": "Data centre medium-voltage switchgear",
+  "equipment_type": "switchgear",
+  "sector": "IDC",
+  "sector_codes": ["IDC", "ELE"],
+  "description": "The MV layer that takes utility or on-site generation supply into a data-centre campus and splits it to transformers and UPS halls: air-insulated (AIS) for flexible, expandable rooms and gas-insulated (GIS) where footprint or harsh conditions rule. ABB's MV switchgear covers 1-52 kV under IEC to IEC 62271, with SF6-free insulation (dry air or natural-origin gases, GWP below 1) available for most 6-24 kV applications and compliant with EU F-gas regulation 2024/573; data centres are a named served industry.",
+  "subtypes": [
+    {
+      "name": "Air-insulated switchgear (AIS)",
+      "description": "Modular withdrawable panels, easy to extend in an assembled room; the default for accessible plant rooms."
+    },
+    {
+      "name": "Gas-insulated switchgear (GIS)",
+      "description": "Compact sealed tank design for constrained or harsh sites; SF6 or SF6-free (dry-air / natural-origin gas)."
+    },
+    {
+      "name": "SF6-free GIS",
+      "description": "Same interface and footprint as SF6 versions, GWP below 1, compliant with EU F-gas regulation 2024/573."
+    }
+  ],
+  "applications": ["data-centre campus incoming supply", "HV/MV transformation", "UPS hall distribution", "generator and BTM interconnection"],
+  "specifications": [
+    {
+      "metric": "medium-voltage switchgear range (IEC)",
+      "unit": "kV",
+      "low": 1,
+      "high": 52,
+      "basis": "1 kV to 52 kV according to IEC standards (vendor range statement); standards compliance to IEC 62271",
+      "source": {
+        "url": "https://new.abb.com/medium-voltage/switchgear",
+        "note": "ABB medium-voltage switchgear overview page, read 2026-11-12 via reader (direct fetch times out)"
+      }
+    },
+    {
+      "metric": "SF6-free insulation coverage",
+      "unit": "kV",
+      "low": 6,
+      "high": 24,
+      "basis": "SF6-free GIS suitable for most 6-24 kV switching applications with dry air or natural-origin gases, GWP below 1, EU F-gas regulation (EU) 2024/573 compliant",
+      "source": {
+        "url": "https://new.abb.com/medium-voltage/switchgear",
+        "note": "ABB MV switchgear FAQ section, read 2026-11-12"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "abb",
+      "line": "ABB medium-voltage switchgear (AIS and GIS)",
+      "range": "1-52 kV IEC; SF6-free GIS for 6-24 kV; LSC2B/LSC2A/LSC2/LSC1 service continuity classes"
+    }
+  ],
+  "vendors": ["abb", "schneider-electric", "eaton", "anord-mardix", "hitachi-energy"],
+  "technologies": ["idc-siting-power-procurement", "idc-behind-the-meter-gas"],
+  "sources": [
+    {
+      "url": "https://new.abb.com/medium-voltage/switchgear",
+      "note": "ABB medium-voltage switchgear overview (1-52 kV IEC, AIS vs GIS, SF6-free 6-24 kV, data centres as a served industry), read 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "rated current and short-circuit withstand per panel family",
+      "why": "The overview page carries no per-panel ratings",
+      "next_action": "Read ABB UniGear and SafeRing datasheets for current/short-circuit figures"
+    },
+    {
+      "what": "Schneider PIX/SM6 and Hitachi Energy model lines",
+      "why": "Not yet fetched",
+      "next_action": "Read both ranges and add model lines"
+    }
+  ],
+  "notes": "Fourth IDC equipment class. Anord Mardix included as a DC-specific switchgear manufacturer; Hitachi Energy as a grid-scale MV supplier.",
+  "last_reviewed": "2026-11-12"
+}

@@ -174,7 +174,8 @@
       "source": {
         "url": "https://www.equinor.com/energy/electrification",
         "note": "Equinor electrification page (0.67 kg vs ~9 kg average; started 2019); Equinor news 9 Oct 2018 (460,000 t/yr estimate); Equinor Johan Sverdrup page (more than 620,000 t/yr); read 2026-10-28"
-      }
+      },
+      "project_id": "johan-sverdrup-power-from-shore-equinor-north-sea"
     }
   ]
 }

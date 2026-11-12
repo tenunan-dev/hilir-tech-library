@@ -1,6 +1,6 @@
 # Equipment catalog
 
-10 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+12 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -111,6 +111,27 @@ Recorded gaps:
 - turndown ratios and part-load efficiency curves for the main fire-tube lines — read Cleaver-Brooks and Miura turndown data during the next boiler sweep
 - refinery large-firetube practice and which classes refineries specify below what load — look for refinery utility steam design references in corpus/
 
+## busway
+
+### Data centre busway (overhead busbar power distribution) (busway-data-centre)
+
+Primary code: IDC: Data centres
+Overhead extruded-aluminium busbar runs that carry power across a data hall and let plug-in tap-off units be added or moved at any point without shutting the run down — the reason busway has displaced cable trays for in-hall distribution. Starline's ranges illustrate the class: Track Busway 40-1250 A, Series-S 100-1200 A (IP54) and high-power enclosed busway 630-6000 A (to IP65), with plug-in units carrying integrated circuit protection and a metering family for branch-level monitoring.
+Vendors: Vertiv, Schneider Electric, Eaton, Anord Mardix (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Track Busway amperage range | 40-1250 A | Starline Track Busway 40-1250 A; plug-in units connect at any location at any time without shutting down the busway |
+| high-power enclosed busway amperage range | 630-6000 A | 630-6000 A per product listings, up to 6300 A in the higher-amperage section; ingress protection to IP65 |
+| Series-S Track Busway rating | 100-1200 A | 100-1200 A, IP54 rated for harsh environments, UL857 listed |
+
+- **Vertiv** Starline Track Busway (Vertiv brand): 40-6000 A across families; IP54/IP65 options
+
+Recorded gaps:
+
+- energy-loss comparison versus cable-based distribution — Find an engineering comparison study and record losses per 100 m
+- Schneider/Eaton/Anord Mardix busway model lines — Read each vendor's busway range and add model lines
+
 ## compressor
 
 ### Centrifugal compressor (compressor-centrifugal)
@@ -169,6 +190,26 @@ Recorded gaps:
 
 - per-model flow, head and pressure ranges for the API 610 families (Sulzer ZE/ZP/ZPP, Flowserve Mark III/OH2/BB5, KSB) — fetch the Sulzer ZE/ZPP and Flowserve OH2/BB5 family pages (browser session if needed) and add per-model ranges
 - energy-footprint and efficiency benchmark for process pumps — Hydraulic Institute (pumps.org) pumping-system assessment publication is the natural source
+
+## switchgear
+
+### Data centre medium-voltage switchgear (mv-switchgear-data-centre)
+
+Primary code: IDC: Data centres
+The MV layer that takes utility or on-site generation supply into a data-centre campus and splits it to transformers and UPS halls: air-insulated (AIS) for flexible, expandable rooms and gas-insulated (GIS) where footprint or harsh conditions rule. ABB's MV switchgear covers 1-52 kV under IEC to IEC 62271, with SF6-free insulation (dry air or natural-origin gases, GWP below 1) available for most 6-24 kV applications and compliant with EU F-gas regulation 2024/573; data centres are a named served industry.
+Vendors: ABB, Schneider Electric, Eaton, Anord Mardix, Hitachi Energy (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| medium-voltage switchgear range (IEC) | 1-52 kV | 1 kV to 52 kV according to IEC standards (vendor range statement); standards compliance to IEC 62271 |
+| SF6-free insulation coverage | 6-24 kV | SF6-free GIS suitable for most 6-24 kV switching applications with dry air or natural-origin gases, GWP below 1, EU F-gas regulation (EU) 2024/573 compliant |
+
+- **ABB** ABB medium-voltage switchgear (AIS and GIS): 1-52 kV IEC; SF6-free GIS for 6-24 kV; LSC2B/LSC2A/LSC2/LSC1 service continuity classes
+
+Recorded gaps:
+
+- rated current and short-circuit withstand per panel family — Read ABB UniGear and SafeRing datasheets for current/short-circuit figures
+- Schneider PIX/SM6 and Hitachi Energy model lines — Read both ranges and add model lines
 
 ## turbine
 
