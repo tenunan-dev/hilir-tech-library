@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-235 project records (one per named project or plant, schema `schema/project.schema.json`).
+239 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -1221,3 +1221,29 @@ Technologies: ups-basin-petroleum-systems-modelling
 Status: **proposed** | Country: GB
 9-5/8 x 13-3/8 in bismuth plug set on a platform well; NZTC covered Wellstrom's cost, up-front testing and third-party costs
 Technologies: ups-thermite-bismuth-plugs
+
+## WWT: Wastewater and water reuse
+
+### Changi Water Reclamation Plant, Singapore (changi-water-reclamation-plant)
+Status: **operating** | Country: SG
+One of Singapore's two used-water reclamation plants serving the NEWater scheme: treats used water with deep-tunnel conveyance (DTSS Phase 1 came online 2019 moving flows underground to Changi) and supplies effluent to NEWater factories; Phase 2 will co-locate with a Tuas biogas energy facility under the integrated Tuas WRP development.
+Technologies: wwt-activated-sludge, wwt-uf-pretreatment, wwt-potable-reuse-schemes
+Capacity: design treatment capacity:  m3/d (x1000)
+
+### Pantai 2 Sewage Treatment Plant, Kuala Lumpur (pantai-2-stp-kuala-lumpur)
+Status: **operating** | Country: MY
+SEA's largest underground sewage treatment plant: built by Indah Water Konsortium (IWK) under the Greater KL sewage project, replacing an old open plant with a multi-storey underground facility beneath a public park; serves ~1.4 million population equivalent with a membrane-type advanced process; completed under the 11th Malaysia Plan programme.
+Technologies: wwt-membrane-bioreactor, wwt-activated-sludge, wwt-uv-disinfection
+Capacity: population equivalent served:  PE
+
+### Pengerang Integrated Complex effluent and utility systems (pengerang-integrated-complex-effluent)
+Status: **operating** | Country: MY
+The industrial-effluent and water-utility systems of PETRONAS' Refinery and Petrochemical Integrated Development (RAPID) complex at Pengerang: integrated effluent treatment serving the refinery and petrochemical trains, plus supplied industrial water; anchors the WWT sector's industrial-relevance link to the REF sector.
+Technologies: wwt-produced-water-treatment, wwt-daf, wwt-activated-sludge
+Capacity: refinery capacity:  bbl/d
+
+### Tuas Water Reclamation Park, Singapore (tuas-water-reclamation-park)
+Status: **under-construction** | Country: SG
+Singapore's next-generation co-located water-reclamation and energy facility under DTSS Phase 2: used water from the deep tunnel is treated at Tuas with an integrated used-water treatment, NEWater production and biogas energy recovery complex; designed with membrane bioreactors and up to ~2 MW-scale solar on site. PUB positions Tuas WRP as the world's most energy-efficient WRP concept (pre-cooling of digesters, co-location with IWMF waste-to-energy).
+Technologies: wwt-membrane-bioreactor, wwt-sludge-digestion, wwt-potable-reuse-schemes, wwt-uv-disinfection
+Capacity: design capacity:  m3/d (x1000)

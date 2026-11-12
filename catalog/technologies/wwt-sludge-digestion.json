@@ -141,5 +141,15 @@
       "action": "Ask owner for a priced reference or use GWI benchmarks."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-13",
+  "reference_plants": [
+    {
+      "name": "Tuas Water Reclamation Park (co-located sludge energy)",
+      "project_id": "tuas-water-reclamation-park",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "project page, read 2026-11-13"
+      }
+    }
+  ]
 }

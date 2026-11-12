@@ -1,0 +1,59 @@
+{
+  "id": "pengerang-integrated-complex-effluent",
+  "name": "Pengerang Integrated Complex effluent and utility systems",
+  "aliases": [
+    "PIC wastewater",
+    "RAPID Pengerang effluent"
+  ],
+  "project_type": "operating-asset",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT",
+    "REF"
+  ],
+  "country": "MY",
+  "location": "Pengerang, Johor, Malaysia",
+  "status": "operating",
+  "description": "The industrial-effluent and water-utility systems of PETRONAS' Refinery and Petrochemical Integrated Development (RAPID) complex at Pengerang: integrated effluent treatment serving the refinery and petrochemical trains, plus supplied industrial water; anchors the WWT sector's industrial-relevance link to the REF sector.",
+  "capacities": [
+    {
+      "metric": "refinery capacity",
+      "low": "300000",
+      "high": "300000",
+      "unit": "bbl/d",
+      "basis": "RAPID refinery 300,000 bbl/d context",
+      "source": {
+        "url": "https://www.petronas.com/",
+        "note": "PETRONAS RAPID pages, read 2026-11-13"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "PETRONAS",
+      "role": "owner"
+    }
+  ],
+  "technologies": [
+    "wwt-produced-water-treatment",
+    "wwt-daf",
+    "wwt-activated-sludge"
+  ],
+  "milestones": [
+    {
+      "event": "RAPID refinery start-up (effluent systems in service)",
+      "date": "2019",
+      "source": {
+        "url": "https://www.petronas.com/",
+        "note": "PETRONAS RAPID start-up release, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.petronas.com/",
+      "note": "PETRONAS RAPID pages, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

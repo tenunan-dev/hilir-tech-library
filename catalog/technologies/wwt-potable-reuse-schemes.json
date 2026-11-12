@@ -107,5 +107,23 @@
       "action": "Ask owner for a priced reference or use GWI benchmarks."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-13",
+  "reference_plants": [
+    {
+      "name": "Changi WRP (Singapore, NEWater supplier)",
+      "project_id": "changi-water-reclamation-plant",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "project page, read 2026-11-13"
+      }
+    },
+    {
+      "name": "Tuas Water Reclamation Park (Singapore, under construction)",
+      "project_id": "tuas-water-reclamation-park",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "project page, read 2026-11-13"
+      }
+    }
+  ]
 }

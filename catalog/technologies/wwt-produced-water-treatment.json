@@ -118,5 +118,15 @@
       "action": "Ask owner for a priced reference or use GWI benchmarks."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-13",
+  "reference_plants": [
+    {
+      "name": "Pengerang Integrated Complex effluent systems",
+      "project_id": "pengerang-integrated-complex-effluent",
+      "source": {
+        "url": "https://www.petronas.com/",
+        "note": "project page, read 2026-11-13"
+      }
+    }
+  ]
 }

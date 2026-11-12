@@ -8,6 +8,13 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.4] — 2026-11-13 — WWT phase 3: project records
+
+### Added
+
+- **4 project records**: changi-water-reclamation-plant (operating, ~237,000 m3/d, DTSS Phase 1 conveyance 2019), tuas-water-reclamation-park (greenfield under construction, ~800,000+ m3/d, co-located NEWater + sludge-energy concept), pantai-2-stp-kuala-lumpur (operating, ~1.4 million PE, SEA's largest underground STP), pengerang-integrated-complex-effluent (operating, RAPID refinery 300,000 bbl/d context — the WWT↔REF industrial link).
+- Card reference_plants back-refs added on five WWT cards (with sources — the drift-test pattern from the 2026-11-12 back-ref round). Catalog: **239 projects**.
+
 ## [2026.11.13.3] — 2026-11-13 — WWT phase 2: 25 more cards, 10 equipment classes, 19 vendors
 
 ### Added

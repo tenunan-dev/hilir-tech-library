@@ -1,0 +1,65 @@
+{
+  "id": "changi-water-reclamation-plant",
+  "name": "Changi Water Reclamation Plant, Singapore",
+  "aliases": [
+    "Changi WRP"
+  ],
+  "project_type": "operating-asset",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "country": "SG",
+  "location": "Changi East, Singapore",
+  "status": "operating",
+  "description": "One of Singapore's two used-water reclamation plants serving the NEWater scheme: treats used water with deep-tunnel conveyance (DTSS Phase 1 came online 2019 moving flows underground to Changi) and supplies effluent to NEWater factories; Phase 2 will co-locate with a Tuas biogas energy facility under the integrated Tuas WRP development.",
+  "capacities": [
+    {
+      "metric": "design treatment capacity",
+      "low": "237",
+      "high": "240",
+      "unit": "m3/d (x1000)",
+      "basis": "about 237,000 m3/d design capacity, one of the region's largest",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "PUB DTSS/Changi pages, read 2026-11-13"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Singapore PUB (National Water Agency)",
+      "vendor_id": "pub-singapore",
+      "role": "owner and operator"
+    }
+  ],
+  "offtakers": [
+    {
+      "name": "NEWater factories (PUB)",
+      "role": "effluent offtake for advanced purification"
+    }
+  ],
+  "technologies": [
+    "wwt-activated-sludge",
+    "wwt-uf-pretreatment",
+    "wwt-potable-reuse-schemes"
+  ],
+  "milestones": [
+    {
+      "event": "DTSS Phase 1 deep-tunnel conveyance to Changi completed",
+      "date": "2019",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "PUB DTSS pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "pub-singapore",
+      "url": "https://www.pub.gov.sg/",
+      "note": "PUB Changi/DTSS pages, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

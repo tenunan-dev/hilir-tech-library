@@ -84,6 +84,9 @@ flowchart LR
 - volatile solids destruction: 40-55 %; published mesophilic digestion range. [source](https://www.veoliawatertech.com/)
 - biogas yield: 700-1100 m3/t VS destroyed; published municipal sludge biogas yields. [source](https://www.veoliawatertech.com/)
 
+**Reference plants:**
+- Tuas Water Reclamation Park (co-located sludge energy): ; . [source](https://www.pub.gov.sg/)
+
 **Missing inputs:**
 - cost per t dry solids, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
 
@@ -171,6 +174,9 @@ flowchart LR
 **Performance:**
 - BOD removal: 90-98 %; published design performance. [source](https://www.xylem.com/)
 - design loading: 0.3-1 kg BOD/m3.d; conventional design range. [source](https://www.xylem.com/)
+
+**Reference plants:**
+- Changi Water Reclamation Plant, Singapore: ; . [source](https://www.pub.gov.sg/)
 
 **Missing inputs:**
 - cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
@@ -321,6 +327,9 @@ flowchart LR
 **Performance:**
 - mixed-liquor concentration in membrane tank: 8-15 g MLSS/L; typical submerged MBR operating range (vendor literature). [source](https://kubota-membrane.com/en/mbr-system/)
 - permeate turbidity: 0.05-0.2 NTU; flat-plate MBR permeate is effectively solids-free. [source](https://kubota-membrane.com/en/mbr-system/)
+
+**Reference plants:**
+- Pantai 2 STP, Kuala Lumpur (underground MBR plant): ; . [source](https://www.iwk.com.my/)
 
 **Missing inputs:**
 - installed cost per m3/d with dollar year (costs): Vendor sites do not publish plant-level prices. Where: [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report).
@@ -493,6 +502,10 @@ flowchart LR
 **Performance:**
 - NEWater share of Singapore demand: 30-40 %; PUB published NEWater contribution. [source](https://www.pub.gov.sg/)
 
+**Reference plants:**
+- Changi WRP (Singapore, NEWater supplier): ; . [source](https://www.pub.gov.sg/)
+- Tuas Water Reclamation Park (Singapore, under construction): ; . [source](https://www.pub.gov.sg/)
+
 **Missing inputs:**
 - cost per m3 purified, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
 
@@ -521,6 +534,9 @@ flowchart LR
 
 **Performance:**
 - oil-in-water after treatment: 10-30 mg/L; typical discharge compliance range. [source](https://www.frames-group.com/)
+
+**Reference plants:**
+- Pengerang Integrated Complex effluent systems: ; . [source](https://www.petronas.com/)
 
 **Missing inputs:**
 - cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.

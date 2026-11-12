@@ -1,0 +1,60 @@
+{
+  "id": "tuas-water-reclamation-park",
+  "name": "Tuas Water Reclamation Park, Singapore",
+  "aliases": [
+    "Tuas WRP"
+  ],
+  "project_type": "greenfield",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "country": "SG",
+  "location": "Tuas, Singapore",
+  "status": "under-construction",
+  "description": "Singapore's next-generation co-located water-reclamation and energy facility under DTSS Phase 2: used water from the deep tunnel is treated at Tuas with an integrated used-water treatment, NEWater production and biogas energy recovery complex; designed with membrane bioreactors and up to ~2 MW-scale solar on site. PUB positions Tuas WRP as the world's most energy-efficient WRP concept (pre-cooling of digesters, co-location with IWMF waste-to-energy).",
+  "capacities": [
+    {
+      "metric": "design capacity",
+      "low": "800",
+      "high": "825",
+      "unit": "m3/d (x1000)",
+      "basis": "about 800,000+ m3/d planned capacity",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "PUB DTSS Phase 2 pages, read 2026-11-13"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Singapore PUB (National Water Agency)",
+      "vendor_id": "pub-singapore",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "wwt-membrane-bioreactor",
+    "wwt-sludge-digestion",
+    "wwt-potable-reuse-schemes",
+    "wwt-uv-disinfection"
+  ],
+  "milestones": [
+    {
+      "event": "DTSS Phase 2 civil works advancing (Tuas tunnel and plant construction)",
+      "date": "2023",
+      "source": {
+        "url": "https://www.pub.gov.sg/",
+        "note": "PUB DTSS Phase 2 pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "pub-singapore",
+      "url": "https://www.pub.gov.sg/",
+      "note": "PUB Tuas/DTSS pages, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

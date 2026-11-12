@@ -1,0 +1,60 @@
+{
+  "id": "pantai-2-stp-kuala-lumpur",
+  "name": "Pantai 2 Sewage Treatment Plant, Kuala Lumpur",
+  "aliases": [
+    "Pantai 2 STP",
+    "Pantai 2 Regional STP"
+  ],
+  "project_type": "operating-asset",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT"
+  ],
+  "country": "MY",
+  "location": "Pantai Dalam, Kuala Lumpur, Malaysia",
+  "status": "operating",
+  "description": "SEA's largest underground sewage treatment plant: built by Indah Water Konsortium (IWK) under the Greater KL sewage project, replacing an old open plant with a multi-storey underground facility beneath a public park; serves ~1.4 million population equivalent with a membrane-type advanced process; completed under the 11th Malaysia Plan programme.",
+  "capacities": [
+    {
+      "metric": "population equivalent served",
+      "low": "1300000",
+      "high": "1400000",
+      "unit": "PE",
+      "basis": "about 1.4 million PE",
+      "source": {
+        "url": "https://www.iwk.com.my/",
+        "note": "IWK Greater KL / Pantai 2 pages, read 2026-11-13"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Indah Water Konsortium",
+      "vendor_id": "indah-water",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "wwt-membrane-bioreactor",
+    "wwt-activated-sludge",
+    "wwt-uv-disinfection"
+  ],
+  "milestones": [
+    {
+      "event": "Commissioned under the Greater KL/Klang Valley sewage programme",
+      "date": "2017",
+      "source": {
+        "url": "https://www.iwk.com.my/",
+        "note": "IWK project pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "indah-water",
+      "url": "https://www.iwk.com.my/",
+      "note": "IWK Pantai 2 pages, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

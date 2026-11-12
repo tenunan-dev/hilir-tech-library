@@ -156,5 +156,15 @@
       "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-13",
+  "reference_plants": [
+    {
+      "name": "Pantai 2 STP, Kuala Lumpur (underground MBR plant)",
+      "project_id": "pantai-2-stp-kuala-lumpur",
+      "source": {
+        "url": "https://www.iwk.com.my/",
+        "note": "project page, read 2026-11-13"
+      }
+    }
+  ]
 }
