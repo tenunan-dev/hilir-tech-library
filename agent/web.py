@@ -100,15 +100,17 @@ SQL_EXAMPLES = (
 # Unset (single-container mode), the relative same-origin links work as before.
 API_PUBLIC_BASE = os.environ.get("LIBRARY_API_PUBLIC_URL", "").rstrip("/")
 # Block-diagram theme follows the estate Flare Triad tokens (dark-first, light via
-# prefers-color-scheme) instead of Mermaid's default lavender, so the diagram reads as
-# part of the card: card-surface nodes, border-line strokes, muted arrows, panel clusters.
+# prefers-color-scheme) instead of Mermaid's default lavender, with the owner's neon
+# treatment: node borders in the estate info-teal neon, arrows in the client gold neon
+# (petroleum gold is the techlib identity accent; both tokens flip properly in light mode).
 MERMAID_SCRIPT = ('<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";'
                   'const s=getComputedStyle(document.documentElement),v=n=>s.getPropertyValue(n).trim();'
                   'mermaid.initialize({startOnLoad:true,securityLevel:"strict",theme:"base",'
                   'themeVariables:{background:"transparent",'
-                  'primaryColor:v("--card"),primaryTextColor:v("--text"),primaryBorderColor:v("--border2"),'
-                  'lineColor:v("--muted"),edgeLabelBackground:v("--bg"),clusterBkg:v("--panel"),'
-                  'clusterBorder:v("--border"),fontSize:"14px"}});</script>')
+                  'primaryColor:v("--card"),primaryTextColor:v("--text"),primaryBorderColor:v("--info"),'
+                  'lineColor:v("--client"),edgeLabelBackground:v("--bg"),clusterBkg:v("--panel"),'
+                  'clusterBorder:v("--border"),fontSize:"14px",'
+                  'lineHeight:"1.4"}});</script>')
 
 CSS = """
 /* Flare Triad tokens (estate-canonical: hilir-access src/v2/pages.ts CSS, landing docs/design.md)
