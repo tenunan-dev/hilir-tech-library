@@ -3,13 +3,13 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-837 missing inputs on 281 cards; 20 register technologies have no card yet.
+841 missing inputs on 285 cards; 50 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 670 |
+| not_in_sources_read | 674 |
 | general_knowledge_only | 140 |
-| no_card_yet | 20 |
+| no_card_yet | 50 |
 | paid_source | 12 |
 | source_unreachable | 11 |
 | status_unchecked | 4 |
@@ -926,8 +926,18 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [Well plug and abandonment (cement plugs, rig-based)](technologies-UPS.md#ups-well-plug-abandonment) | average P&A cost per well offshore Southeast Asia and per well in the UKCS (costs) | The NSTA report read gives totals and spend, not a clear cost per well; the LEMIGAS figure is one onshore well. UKCS per-well spend and an operator per-well saving have been added from the NSTA 2026 update; a Southeast Asia per-well average is still not in the sources read. Searched LEMIGAS SCOG corpus for per well, average, offshore, benchmark; the H-11 paper is a single onshore well and names no Southeast Asia offshore average; note its USD 505,737.59 / 1,170,558.11 figures are projected 2066 values, the 2026 calculations are USD 179,276.30 / 414,945.09; 2026-10-28 | NSTA decommissioning benchmarking report (appendices); SKK Migas decommissioning guidance (catalog: uk-nsta, open) | Add cost per well with dollar year and basis from the NSTA appendices or SKK Migas. |
 | [Well plug and abandonment (cement plugs, rig-based)](technologies-UPS.md#ups-well-plug-abandonment) | process steps are general practice, not taken from one source (process) | Only the barrier layout in the LEMIGAS paper was read; the sequence of steps is general knowledge. Searched LEMIGAS SCOG corpus for procedure, sequence, steps; the H-11 paper describes only cement barrier plug placement (SNI and NORSOK layouts, balanced plug method), not the full kill-to-site-restoration sequence; 2026-10-28 | SKK Migas Work Procedure Guideline 040/PTK/SKKIA0000/2023/S9 Rev.02 and NORSOK D-010 (catalog: id-skkmigas, open) | Check the steps against the standards and name them. |
 
+## WWT cards
+
+| Technology | Missing | Why | Where to get it | Next action |
+| --- | --- | --- | --- | --- |
+| [Aerobic granular sludge treatment (Nereda)](technologies-WWT.md#wwt-aerobic-granular-sludge) | installed cost per m3/d, dollar year (costs) | Licensor does not publish prices. | [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report). |
+| [Internal-circulation anaerobic reactor (Paques BIOPAQ IC)](technologies-WWT.md#wwt-anaerobic-internal-circulation) | reactor cost per kg COD/d, dollar year (costs) | Licensor does not publish prices. | [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report). |
+| [Membrane bioreactor (MBR) wastewater treatment](technologies-WWT.md#wwt-membrane-bioreactor) | installed cost per m3/d with dollar year (costs) | Vendor sites do not publish plant-level prices. | [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report). |
+| [Reverse-osmosis water reuse train (NEWater-style)](technologies-WWT.md#wwt-ro-reuse-train) | installed cost per m3/d with dollar year (costs) | OEM sites do not publish train prices. | [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report). |
+
 ## Technologies with no card yet
 
 See [technology-register.md](technology-register.md) for suppliers and maturity.
 
 - **IDC** (20): Hyperscale data centre siting and power procurement; AI-training and inference load profiles; Data centre energy and water benchmarking (PUE/WUE); Utility feed and on-site substation for data centres; Fuel-cell power for data centres; On-site solar plus battery storage for data centres; Data centre UPS systems (double-conversion, lithium, flywheel); Medium-voltage switchgear and busway in the data hall; Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Air cooling (CRAH/CRAC, hot/cold aisle containment); Immersion cooling; Rear-door heat exchangers; Free cooling and economisers; District heating tie-ins from data centres; Data centre demand response and flexible load; Battery storage for data centre load smoothing; Modular and prefabricated data halls; Data centre commissioning and integrated systems testing; DCIM and digital twins for data centres; Liquid-cooling leak detection and monitoring
+- **WWT** (30): Screening, grit removal and equalisation; Dissolved air flotation (DAF); Coagulation-flocculation and chemical precipitation (lime, sulphide); Lamella and high-rate clarifiers; Oil-water separation and produced-water treatment; Conventional activated sludge and oxidation ditches; Sequencing batch reactors (SBR); Moving bed biofilm reactors (MBBR/IFAS); Trickling filters and rotating biological contactors; Biological nutrient removal (nitrification, denitrification, Bio-P); Upflow anaerobic sludge blanket (UASB/EGSB); Anaerobic membrane bioreactors (AnMBR); Anaerobic digestion of sludge and organics (mesophilic/thermophilic); Microfiltration and ultrafiltration pretreatment; Direct and indirect potable reuse schemes; Nanofiltration for selective separations; Forward osmosis; UV disinfection (low-pressure, medium-pressure, LED); Ozone and ozone-biologically active filtration; Advanced oxidation (OH radical, persulfate, photo-Fenton); Chlorination and dechlorination; Sludge thickening (gravity, DAF, drum); Mechanical dewatering (centrifuge, belt press, filter press); Thermal drying and pyrolysis of sludge; Sludge incineration and co-incineration; Biogas upgrading to biomethane (water wash, amine, membrane, PSA); Nutrient recovery (struvite, ammonia stripping); Zero liquid discharge (evaporator-crystalliser trains); Brine concentration and selective salt recovery; Water minimisation and reuse pinch for industry

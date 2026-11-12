@@ -1,0 +1,26 @@
+{
+  "name": "Kubota Membrane (submerged MBR)",
+  "url": "https://kubota-membrane.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "Kubota flat-plate submerged membrane bioreactor product site; registered 2026-11-13 for WWT.",
+  "quality_tier": 3,
+  "id": "kubota-membrane",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Kubota Membrane (submerged MBR)",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

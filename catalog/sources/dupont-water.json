@@ -1,0 +1,27 @@
+{
+  "name": "DuPont Water Solutions",
+  "url": "https://www.dupont.com/water.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT",
+    "PWR"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "FilmTec reverse osmosis/nanofiltration elements; registered 2026-11-13 for WWT.",
+  "quality_tier": 3,
+  "id": "dupont-water",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "DuPont Water Solutions",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-290 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+294 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -267,6 +267,7 @@
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
 | [CheManager](https://www.chemanager-online.com) | trade-media | global | open | catalog-only |
 | [Chemical Processing](https://www.chemicalprocessing.com) | trade-media | global | mixed | catalog-only |
+| [DuPont Water Solutions](https://www.dupont.com/water.html) | oem-supplier | global | open | summary-only (unverified) |
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Gas Processing News](https://gasprocessingnews.com) | trade-media | global | mixed | catalog-only |
@@ -276,17 +277,20 @@
 | [H2 View](https://www.h2-view.com/) | trade-media | global | mixed | summary-only |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [IOP+ (Dutch industry news)](https://ioplus.nl) | trade-media | eu | open | catalog-only |
+| [Kubota Membrane (submerged MBR)](https://kubota-membrane.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [LNG Prime](https://lngprime.com) | trade-media | global | open | catalog-only |
 | [McDermott](https://www.mcdermott.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only |
 | [Offshore Energy](https://www.offshore-energy.biz) | trade-media | eu, global | open | catalog-only |
 | [Offshore Engineer (OE Digital)](https://www.oedigital.com) | trade-media | global | open | catalog-only |
+| [Paques B.V.](https://www.paques.nl/) | oem-supplier | global | open | summary-only (unverified) |
 | [Petrofac](https://www.petrofac.com/) | epc-contractor | me, global | open | summary-only (unverified) |
 | [Plug Power](https://www.plugpower.com/) | oem-supplier | global, na | open | summary-only (unverified) |
 | [POWER Magazine](https://www.powermag.com) | trade-media | global | mixed | catalog-only |
 | [QatarEnergy LNG](https://www.qatarenergy.qa/en/) | licensor | me | open | summary-only (unverified) |
 | [renewable-carbon.eu (nova-Institute news)](https://renewable-carbon.eu) | trade-media | eu, global | open | catalog-only |
+| [Royal HaskoningDHV (Nereda)](https://www.nereda.net/) | licensor | global | open | summary-only (unverified) |
 | [SABIC Technology](https://www.sabic.com/) | licensor | global, me | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
 | [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |

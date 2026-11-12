@@ -635,6 +635,7 @@ batch of this directory.
 - **IDC** (6): Boyd; Caterpillar; CoolIT Systems; Enel X; GridBeyond; Motivair
 - **INS** (1): Yokogawa
 - **REF** (1): Yokogawa
+- **WWT** (5): Kubota; Mitsubishi Chemical Aqua Solutions; Nitto (Hydranautics); Paques; Royal HaskoningDHV
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
@@ -646,4 +647,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-311 of 340 cards list at least one directory vendor.
+313 of 344 cards list at least one directory vendor.

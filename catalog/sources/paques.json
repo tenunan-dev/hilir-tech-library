@@ -1,0 +1,27 @@
+{
+  "name": "Paques B.V.",
+  "url": "https://www.paques.nl/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT",
+    "H2"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "notes": "BIOPAQ IC internal-circulation anaerobic reactor licensor; Thiopaq biogas desulphurisation; ANAMMOX. Registered 2026-11-13 for the WWT sector opening; verification pending.",
+  "quality_tier": 3,
+  "id": "paques",
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Paques B.V.",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

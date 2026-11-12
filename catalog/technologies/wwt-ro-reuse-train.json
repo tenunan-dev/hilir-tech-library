@@ -1,0 +1,180 @@
+{
+  "id": "wwt-ro-reuse-train",
+  "name": "Reverse-osmosis water reuse train (NEWater-style)",
+  "aliases": [
+    "RO reuse",
+    "indirect potable reuse train",
+    "UF-RO reuse"
+  ],
+  "sector": "WWT",
+  "category": "Membrane and reuse",
+  "applications": [
+    "indirect/direct potable reuse",
+    "high-purity industrial water",
+    "NEWater-style advanced purification"
+  ],
+  "maturity": "commercial",
+  "principle": "Follows the published advanced-purification (NEWater-style) train with licensor membrane equipment: secondary effluent passes microfiltration/ultrafiltration (licensor: Suez ZeeWeed / DuPont), then cartridge filtration, then reverse osmosis at high pressure (DuPont FilmTec / Hydranautics elements), then UV disinfection/advanced oxidation and mineralisation. The RO stage rejects salts, organics, pathogens and trace contaminants; UV destroys trace organics and provides a second pathogen barrier; conditioning restores hardness and pH for distribution.",
+  "process_steps": [
+    {
+      "id": "SEC",
+      "name": "Secondary effluent feed",
+      "equipment": [
+        "feed pumps"
+      ],
+      "to": [
+        "MF"
+      ],
+      "streams": {
+        "MF": "filtered feed"
+      }
+    },
+    {
+      "id": "MF",
+      "name": "Microfiltration / ultrafiltration",
+      "equipment": [
+        "submerged or pressurised MF/UF (ZeeWeed / DuPont)",
+        "backwash and CIP systems"
+      ],
+      "to": [
+        "CARTRIDGE"
+      ],
+      "streams": {
+        "CARTRIDGE": "low-turbidity filtrate"
+      }
+    },
+    {
+      "id": "CARTRIDGE",
+      "name": "Cartridge security filtration",
+      "equipment": [
+        "5 um cartridge filters",
+        "antiscalant dosing"
+      ],
+      "to": [
+        "RO"
+      ],
+      "streams": {
+        "RO": "RO-ready feed"
+      }
+    },
+    {
+      "id": "RO",
+      "name": "Reverse osmosis",
+      "equipment": [
+        "FilmTec / Hydranautics spiral-wound elements in pressure vessels",
+        "high-pressure pumps",
+        "energy recovery devices"
+      ],
+      "to": [
+        "UV",
+        "CONC"
+      ],
+      "streams": {
+        "UV": "permeate",
+        "CONC": "rejected concentrate"
+      }
+    },
+    {
+      "id": "UV",
+      "name": "UV disinfection / advanced oxidation",
+      "equipment": [
+        "medium-pressure UV reactors"
+      ],
+      "to": [
+        "COND"
+      ],
+      "streams": {
+        "COND": "conditioning"
+      }
+    },
+    {
+      "id": "COND",
+      "name": "Mineralisation and pH conditioning",
+      "equipment": [
+        "lime/CO2 dosing"
+      ],
+      "to": [],
+      "streams": {}
+    },
+    {
+      "id": "CONC",
+      "name": "Concentrate disposal or further recovery",
+      "equipment": [
+        "outfall or brine treatment"
+      ],
+      "to": [],
+      "streams": {}
+    }
+  ],
+  "key_equipment": [
+    "MF/UF membrane systems",
+    "RO trains with energy recovery",
+    "UV/AOP reactors",
+    "cleaning-in-place skids"
+  ],
+  "suppliers": [
+    {
+      "name": "DuPont Water Solutions",
+      "product": "FilmTec RO and NF elements"
+    },
+    {
+      "name": "Nitto (Hydranautics)",
+      "product": "CPA/ESPA RO elements"
+    },
+    {
+      "name": "Toray",
+      "product": "ROMEMBRA RO elements"
+    },
+    {
+      "name": "Suez",
+      "product": "ZeeWeed MF/UF"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "RO permeate recovery in reuse trains",
+      "unit": "%",
+      "low": 75,
+      "high": 85,
+      "basis": "typical municipal reuse RO design recovery",
+      "source": {
+        "url": "https://www.dupont.com/water.html",
+        "note": "vendor page, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "log removal of pathogens across full train",
+      "unit": "log",
+      "low": 8,
+      "high": 12,
+      "basis": "multi-barrier claim of advanced purification schemes",
+      "source": {
+        "url": "https://www.dupont.com/water.html",
+        "note": "vendor page, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "dupont-water",
+      "url": "https://www.dupont.com/water.html",
+      "note": "DuPont Water Solutions site (FilmTec RO/NF families), read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per m3/d with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "OEM sites do not publish train prices.",
+      "where": [
+        {
+          "hint": "ICIS Water or Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

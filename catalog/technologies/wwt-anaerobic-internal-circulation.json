@@ -1,0 +1,146 @@
+{
+  "id": "wwt-anaerobic-internal-circulation",
+  "name": "Internal-circulation anaerobic reactor (Paques BIOPAQ IC)",
+  "aliases": [
+    "BIOPAQ IC",
+    "IC reactor",
+    "internal circulation UASB"
+  ],
+  "sector": "WWT",
+  "category": "Anaerobic treatment",
+  "applications": [
+    "high-strength industrial effluent (breweries, sugar, pulp & paper, food)",
+    "COD removal with on-site biogas production",
+    "pretreatment ahead of aerobic polishing"
+  ],
+  "maturity": "commercial",
+  "principle": "Follows the Paques BIOPAQ IC licensor flow: a tall (16-28 m) reactor treats wastewater in two stages inside one vessel. In the first stage the upflow anaerobic sludge blanket converts most COD to biogas; the gas is captured in the first separator and the rising gas-lift drives an internal circulation loop that returns the mixed liquor to the reactor bottom without external pumps. The pre-treated water then flows to a second, low-loading polishing stage with a gas separator at the top. The published Paques arrangement is: influent distribution at the bottom, first-stage granular sludge blanket, gas-liquid separator and gas-lift riser/downer forming the internal circulation, second polishing stage, treated-water outlet with optional degassing.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Influent distribution at reactor bottom",
+      "equipment": [
+        "influent distribution system"
+      ],
+      "to": [
+        "STAGE1"
+      ],
+      "streams": {
+        "STAGE1": "raw high-COD wastewater"
+      }
+    },
+    {
+      "id": "STAGE1",
+      "name": "First stage: high-load UASB blanket",
+      "equipment": [
+        "granular anaerobic sludge blanket",
+        "first gas-liquid separator"
+      ],
+      "to": [
+        "STAGE2",
+        "CIRC"
+      ],
+      "streams": {
+        "STAGE2": "partially treated water",
+        "CIRC": "biogas-driven gas lift"
+      }
+    },
+    {
+      "id": "CIRC",
+      "name": "Internal circulation loop (gas lift)",
+      "equipment": [
+        "riser and downer forming the internal circulation",
+        "no external recirculation pumps"
+      ],
+      "to": [
+        "STAGE1"
+      ],
+      "streams": {
+        "STAGE1": "recirculated liquor"
+      }
+    },
+    {
+      "id": "STAGE2",
+      "name": "Second stage: polishing blanket",
+      "equipment": [
+        "low-load polishing blanket",
+        "top gas separator"
+      ],
+      "to": [
+        "OUT"
+      ],
+      "streams": {
+        "OUT": "treated effluent"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "Treated water and biogas off-take",
+      "equipment": [
+        "degassing tank",
+        "biogas line to desulphurisation/CHP"
+      ],
+      "to": [],
+      "streams": {}
+    }
+  ],
+  "key_equipment": [
+    "BIOPAQ IC reactor vessel (16-28 m tall)",
+    "internal circulation riser/downer",
+    "granular sludge blanket",
+    "biogas handling (to THIOPAQ desulphurisation or CHP)"
+  ],
+  "suppliers": [
+    {
+      "name": "Paques",
+      "product": "BIOPAQ IC / ICX internal-circulation reactors; BIOPAQ UASB family"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "COD removal at design load",
+      "unit": "%",
+      "low": 80,
+      "high": 90,
+      "basis": "vendor-published performance for BIOPAQ IC on high-strength industrial effluent",
+      "source": {
+        "url": "https://www.paques.nl/products/biopaq-ic",
+        "note": "vendor page, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "volumetric loading capacity advantage vs single-stage UASB",
+      "unit": "x",
+      "low": 2,
+      "high": 3,
+      "basis": "internal circulation allows higher loads at the same removal",
+      "source": {
+        "url": "https://www.paques.nl/products/biopaq-ic",
+        "note": "vendor page, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "paques",
+      "url": "https://www.paques.nl/products/biopaq-ic",
+      "note": "Paques BIOPAQ IC product page (two-stage internal circulation description, sector and application list), read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "reactor cost per kg COD/d, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Licensor does not publish prices.",
+      "where": [
+        {
+          "hint": "ICIS Water or Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

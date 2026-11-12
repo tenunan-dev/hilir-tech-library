@@ -1,0 +1,160 @@
+{
+  "id": "wwt-membrane-bioreactor",
+  "name": "Membrane bioreactor (MBR) wastewater treatment",
+  "aliases": [
+    "MBR",
+    "submerged membrane bioreactor",
+    "Kubota SMU MBR"
+  ],
+  "sector": "WWT",
+  "category": "Biological treatment",
+  "applications": [
+    "municipal wastewater reuse",
+    "industrial effluent (food, beverage, pharma)",
+    "high-density sites with small footprint",
+    "water recycling for irrigation and industry"
+  ],
+  "maturity": "commercial",
+  "principle": "A membrane bioreactor replaces the secondary clarifier of an activated-sludge plant with a submerged ultrafiltration/microfiltration membrane unit inside (or immediately after) the bioreactor. Mixed liquor is filtered directly at 0.1-0.4 um, giving a solids-free, turbidity-low effluent ready for disinfection or RO reuse, at a much smaller footprint and higher mixed-liquor concentration (8-15 g/L MLSS typical). Per licensor-first rule this card follows the Kubota Submerged Membrane Unit (SMU) flat-plate configuration published by Kubota Water & Environment: coarse screening to fine screening, equalisation, anoxic/aerobic bioreactor, submerged flat-plate membrane tank with coarse-bubble air scour, permeate drawn at low trans-membrane pressure, and in-tank membrane cleaning by backwash with chlorine and periodic recovery chemical clean.",
+  "process_steps": [
+    {
+      "id": "PRET",
+      "name": "Screening and equalisation",
+      "equipment": [
+        "fine screen (1-3 mm) to protect flat plates",
+        "equalisation tank"
+      ],
+      "to": [
+        "BIO"
+      ],
+      "streams": {
+        "BIO": "screened raw sewage"
+      }
+    },
+    {
+      "id": "BIO",
+      "name": "Biological oxidation (anoxic + aerobic zones)",
+      "equipment": [
+        "anoxic zone with mixing for denitrification",
+        "aerobic zone with fine-bubble diffusers"
+      ],
+      "to": [
+        "MEM"
+      ],
+      "streams": {
+        "MEM": "nitrified mixed liquor"
+      }
+    },
+    {
+      "id": "MEM",
+      "name": "Submerged membrane filtration (Kubota SMU flat plates)",
+      "equipment": [
+        "flat-plate membrane cartridges immersed in the membrane tank",
+        "coarse-bubble air scour",
+        "permeate pump at low trans-membrane pressure"
+      ],
+      "to": [
+        "PERM",
+        "RAS"
+      ],
+      "streams": {
+        "PERM": "filtered permeate",
+        "RAS": "return sludge"
+      }
+    },
+    {
+      "id": "PERM",
+      "name": "Permeate polishing and disinfection",
+      "equipment": [
+        "chlorine contact or UV disinfection"
+      ],
+      "to": [],
+      "streams": {}
+    },
+    {
+      "id": "RAS",
+      "name": "Return and waste activated sludge",
+      "equipment": [
+        "RAS pumps",
+        "sludge wasting to thickening"
+      ],
+      "to": [
+        "PRET"
+      ],
+      "streams": {
+        "PRET": "return mixed liquor"
+      }
+    }
+  ],
+  "key_equipment": [
+    "submerged flat-plate membrane cartridges (Kubota SMU)",
+    "membrane tank and air-scour blowers",
+    "permeate pumps",
+    "fine screens and equalisation"
+  ],
+  "suppliers": [
+    {
+      "name": "Kubota",
+      "product": "Submerged Membrane Unit (SMU) flat-plate MBR, marketed since 1985"
+    },
+    {
+      "name": "Suez",
+      "product": "ZeeWeed hollow-fibre MBR"
+    },
+    {
+      "name": "Toray",
+      "product": "submerged flat-sheet MBR modules"
+    },
+    {
+      "name": "Mitsubishi Chemical Aqua Solutions",
+      "product": "submerged MBR membrane"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "mixed-liquor concentration in membrane tank",
+      "unit": "g MLSS/L",
+      "low": 8,
+      "high": 15,
+      "basis": "typical submerged MBR operating range (vendor literature)",
+      "source": {
+        "url": "https://kubota-membrane.com/en/mbr-system/",
+        "note": "vendor page, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "permeate turbidity",
+      "unit": "NTU",
+      "low": 0.05,
+      "high": 0.2,
+      "basis": "flat-plate MBR permeate is effectively solids-free",
+      "source": {
+        "url": "https://kubota-membrane.com/en/mbr-system/",
+        "note": "vendor page, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "kubota-membrane",
+      "url": "https://kubota-membrane.com/en/mbr-system/",
+      "note": "Kubota Water & Environment MBR system pages (SMU description, reuse-quality effluent, 40+ years of MBR supply), read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per m3/d with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor sites do not publish plant-level prices.",
+      "where": [
+        {
+          "hint": "ICIS Water or Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

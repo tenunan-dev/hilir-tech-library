@@ -1,18 +1,18 @@
 # Catalog summary
 
-484 sources in total.
+488 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 290 |
+| PRC | 294 |
 | GAS | 236 |
-| H2 | 230 |
+| H2 | 231 |
 | UPS | 229 |
 | REF | 195 |
 | DIG | 182 |
-| PWR | 170 |
+| PWR | 171 |
 | CCS | 163 |
 | PCH | 158 |
 | HSE | 111 |
@@ -22,12 +22,13 @@
 | INS | 29 |
 | CIV | 4 |
 | ELE | 4 |
+| WWT | 4 |
 
 ## By region
 
 | Value | Sources |
 | --- | --- |
-| global | 326 |
+| global | 330 |
 | apac | 81 |
 | sea | 65 |
 | eu | 41 |
@@ -40,12 +41,12 @@
 | Value | Sources |
 | --- | --- |
 | agency-data | 97 |
+| oem-supplier | 61 |
 | research-institute | 60 |
-| oem-supplier | 58 |
 | association | 49 |
 | journal | 49 |
 | trade-media | 43 |
-| licensor | 38 |
+| licensor | 39 |
 | standards-body | 37 |
 | conference | 24 |
 | epc-contractor | 17 |
@@ -56,7 +57,7 @@
 | Value | Sources |
 | --- | --- |
 | full-text-restricted | 161 |
-| summary-only | 114 |
+| summary-only | 118 |
 | catalog-only | 103 |
 | full-text-open | 103 |
 | full-text-with-attribution | 3 |
@@ -66,4 +67,4 @@
 | Value | Sources |
 | --- | --- |
 | verified | 299 |
-| unverified | 185 |
+| unverified | 189 |

@@ -9,6 +9,7 @@ sectors:
   H2:  {name: Hydrogen and low-carbon fuels, subtopics: [electrolysis, blue-hydrogen, ammonia, e-fuels, saf, biofuels, biogas]}
   CCS: {name: CCUS, subtopics: [capture, co2-transport, storage-mrv, utilisation, direct-air-capture]}
   IDC: {name: Data centres, subtopics: [siting, power-supply, power-distribution, cooling, heat-reuse, grid-interaction, construction, dcim]}
+  WWT: {name: Wastewater and water reuse, subtopics: [physical-treatment, biological-treatment, anaerobic-treatment, membrane-and-reuse, disinfection-advanced, sludge-and-biogas, resource-recovery]}
 disciplines:
   PRC: {name: Process systems, subtopics: [simulation, process-design, heat-integration, separation, reaction-engineering, catalysis]}
   ROT: {name: Rotating and static equipment, subtopics: [compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals]}

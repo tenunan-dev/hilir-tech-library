@@ -1,6 +1,6 @@
 # Technology register
 
-367 technologies across oil, gas, petrochemicals and new energy; 347 have a technology card so far.
+401 technologies across oil, gas, petrochemicals and new energy; 351 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -456,3 +456,42 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Digital | Data centre UPS systems (double-conversion, lithium, modular) | commercial | Vertiv (Liebert EXL S1 100-1200 kW), Schneider Electric, Eaton | [card](technologies-IDC.md#idc-ups-systems) |
 | Digital | Data centre grid interaction (demand response and frequency services) | commercial | Enel X (Digital Realty, Microsoft), GridBeyond, Vertiv | [card](technologies-IDC.md#idc-grid-interaction) |
 | Digital | Data centre siting and power procurement | commercial | Hyperscalers, AirTrunk (Malaysia 700 MW+), Equinix, GE Vernova | [card](technologies-IDC.md#idc-siting-power-procurement) |
+
+## WWT: Wastewater and water reuse
+
+| Area | Technology | Maturity | Examples | Card |
+| --- | --- | --- | --- | --- |
+| Physical and chemical treatment | Screening, grit removal and equalisation | commercial | Andritz, Vulcan Industries, Hydro International |  |
+| Physical and chemical treatment | Dissolved air flotation (DAF) | commercial | Veolia, FRC, Nijhuis/Desotec, Evoqua |  |
+| Physical and chemical treatment | Coagulation-flocculation and chemical precipitation (lime, sulphide) | commercial | Veolia, Chemtrade, Kemira (chemicals) |  |
+| Physical and chemical treatment | Lamella and high-rate clarifiers | commercial | Veolia, WesTech, Evoqua |  |
+| Physical and chemical treatment | Oil-water separation and produced-water treatment | commercial | Siemens/SLB produced-water, Frames, CETCO |  |
+| Biological treatment | Conventional activated sludge and oxidation ditches | commercial | Municipal EPCs (AECOM, Black & Veatch), Nijhuis |  |
+| Biological treatment | Sequencing batch reactors (SBR) | commercial | Veolia, Aqua-Aerobic, EnviroSim associates (simulators) |  |
+| Biological treatment | Aerobic granular sludge treatment (Nereda) | commercial | Royal HaskoningDHV (licensor) | [card](technologies-WWT.md#wwt-aerobic-granular-sludge) |
+| Biological treatment | Moving bed biofilm reactors (MBBR/IFAS) | commercial | Veolia/AnoxKaldnes, Headworks, WABAG |  |
+| Biological treatment | Membrane bioreactor (MBR) wastewater treatment | commercial | Kubota, Suez (ZeeWeed), Toray, Mitsubishi Chemical Aqua | [card](technologies-WWT.md#wwt-membrane-bioreactor) |
+| Biological treatment | Trickling filters and rotating biological contactors | commercial | Legacy municipal, WesTech |  |
+| Biological treatment | Biological nutrient removal (nitrification, denitrification, Bio-P) | commercial | Black & Veatch, Jacobs (biowise), Veolia |  |
+| Anaerobic treatment | Upflow anaerobic sludge blanket (UASB/EGSB) | commercial | Paques, Biothane (Veolia), Hydroxy / Ecolab? |  |
+| Anaerobic treatment | Internal-circulation anaerobic reactor (Paques BIOPAQ IC) | commercial | Paques (licensor) | [card](technologies-WWT.md#wwt-anaerobic-internal-circulation) |
+| Anaerobic treatment | Anaerobic membrane bioreactors (AnMBR) | demonstration | Kubota, Veolia, ADI Systems |  |
+| Anaerobic treatment | Anaerobic digestion of sludge and organics (mesophilic/thermophilic) | commercial | Veolia, WABAG, Xergi, BTG |  |
+| Membrane and reuse | Microfiltration and ultrafiltration pretreatment | commercial | Suez (ZeeWeed), Toray, DuPont (IntegraPak) |  |
+| Membrane and reuse | Reverse-osmosis water reuse train (NEWater-style) | commercial | DuPont FilmTec, Hydranautics (Nitto), Toray, Suez | [card](technologies-WWT.md#wwt-ro-reuse-train) |
+| Membrane and reuse | Direct and indirect potable reuse schemes | commercial | Singapore PUB (NEWater), San Diego Pure Water, WateReuse |  |
+| Membrane and reuse | Nanofiltration for selective separations | commercial | DuPont FilmTec NF, Toray, Synder |  |
+| Membrane and reuse | Forward osmosis | pilot | Modern Water, Oasys Water |  |
+| Disinfection and advanced oxidation | UV disinfection (low-pressure, medium-pressure, LED) | commercial | Trojan Technologies, Xylem (Wedeco), Evoqua |  |
+| Disinfection and advanced oxidation | Ozone and ozone-biologically active filtration | commercial | Xylem (Wedeco), Primozone, Wedeco/ITT legacy |  |
+| Disinfection and advanced oxidation | Advanced oxidation (OH radical, persulfate, photo-Fenton) | demonstration | Xylem, Evoqua, Hydroxyl systems |  |
+| Disinfection and advanced oxidation | Chlorination and dechlorination | commercial | Municipal standard, Evoqua, ProMinent |  |
+| Sludge and biogas | Sludge thickening (gravity, DAF, drum) | commercial | Veolia, WesTech, Flottweg |  |
+| Sludge and biogas | Mechanical dewatering (centrifuge, belt press, filter press) | commercial | Alfa Laval, Andritz, Flottweg, Huber |  |
+| Sludge and biogas | Thermal drying and pyrolysis of sludge | demonstration | Andritz, Huber, Mid-South Engineering |  |
+| Sludge and biogas | Sludge incineration and co-incineration | commercial | Veolia, Hitachi Zosen, Doosan |  |
+| Sludge and biogas | Biogas upgrading to biomethane (water wash, amine, membrane, PSA) | commercial | Pentair, DMT, CarboTech, Evonik (Sepuran) |  |
+| Resource recovery and ZLD | Nutrient recovery (struvite, ammonia stripping) | demonstration | Ostara (Pearl), Paques (Thiopaq/ANAMMOX), Veolia |  |
+| Resource recovery and ZLD | Zero liquid discharge (evaporator-crystalliser trains) | commercial | Aquatech, Veolia (HPD), GE legacy, Salsnes? |  |
+| Resource recovery and ZLD | Brine concentration and selective salt recovery | demonstration | Aquatech, Oasys, Gradiant (ClearTreat) |  |
+| Resource recovery and ZLD | Water minimisation and reuse pinch for industry | commercial | Consultants (GHD, AECOM), Gradiant |  |

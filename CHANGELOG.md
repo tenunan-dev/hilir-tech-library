@@ -8,6 +8,20 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.2] — 2026-11-13 — WWT sector opened: taxonomy, register, four flagship cards with licensor PFDs
+
+### Added
+
+- **New sector: WWT (wastewater and water reuse)** — 10th sector in `taxonomy.yaml` (subtopics physical-treatment, biological-treatment, anaerobic-treatment, membrane-and-reuse, disinfection-advanced, sludge-and-biogas, resource-recovery); sector enums extended in the technology, source, project and equipment schemas.
+- **Register**: 34 WWT entries across seven areas, licensor-first sourcing recorded (Paques BIOPAQ IC, Royal HaskoningDHV Nereda, Kubota SMU, DuPont FilmTec/Hydranautics, Aquatech ZLD, Ostara struvite).
+- **Four flagship technology cards, each with a licensor-first process flow diagram** (the card page renders the Mermaid block diagram from `process_steps`):
+  - `wwt-membrane-bioreactor` — Kubota Submerged Membrane Unit flow (screen→bioreactor→flat-plate membrane tank→permeate, RAS loop).
+  - `wwt-anaerobic-internal-circulation` — Paques BIOPAQ IC two-stage internal-circulation flow (gas-lift loop, no external recirculation pumps).
+  - `wwt-aerobic-granular-sludge` — Royal HaskoningDHV Nereda cyclical flow (fill/reaction→fast granule settling→decant→waste).
+  - `wwt-ro-reuse-train` — NEWater-style advanced-purification train (MF/UF→cartridge→RO→UV/AOP→mineralisation) with licensor membrane equipment.
+- Sources: paques, kubota-membrane, royalhaskoningdhv, dupont-water registered (unverified drafts, pages read 2026-11-13).
+- Catalog: **344 technology cards**; 1,212 tests green.
+
 ## [2026.11.13.1] — 2026-11-13 — Discovery-draft verification sweep, AirTrunk phase dates from primary pages
 
 ### Added
