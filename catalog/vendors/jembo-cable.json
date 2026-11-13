@@ -1,0 +1,24 @@
+{
+  "id": "jembo-cable",
+  "name": "PT Jembo Cable Company Tbk",
+  "country": "ID",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Indonesian listed cable manufacturer supplying power, telecommunication and instrumentation cable, including XLPE medium-voltage cable and lead-sheathed low-voltage cable.",
+  "technologies": ["ele-cable-systems", "ele-mv-distribution"],
+  "products": [
+    "power cables (low and medium voltage)",
+    "overhead transmission and distribution line conductor",
+    "fire-resistant cable",
+    "instrumentation cable (XLPE and PVC)",
+    "metal corrugated armoured and lead-sheathed cable"
+  ],
+  "url": "https://www.jembo.co.id/",
+  "sources": [
+    {
+      "url": "https://www.jembo.co.id/",
+      "note": "Jembo Cable product catalogue page (power, fire-resistant, instrumentation, armoured and lead-sheathed cable families), read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

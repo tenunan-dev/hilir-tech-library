@@ -34,10 +34,16 @@
      "source": {"url": "https://www.tstransco.in/", "note": "state discom cost data cited from search summary, 2026-11-13"}}
   ],
   "vendor_models": [
+    {"vendor": "southern-cable", "line": "XLPE power cables (LV to HV)", "models": ["LV 0.6/1 kV", "MV XLPE 6.6-33 kV", "HV XLPE to 132 kV"], "range": "300 V to 132 kV; TNB-registered Malaysian maker"},
+    {"vendor": "universal-cable", "line": "XLPE power cables (MV to EHV)", "models": ["3-core 6.6-33 kV", "1-core screened 6.6-33 kV", "76/132 (145) kV IEC 60840", "160/275 (300) kV IEC 62067"], "range": "6.6 kV to 275 kV, TNB specification"},
+    {"vendor": "sucaco", "line": "SUPREME N2XSY / NA2XSY", "models": ["MV XLPE Cu", "MV XLPE Al", "to 150 kV"], "range": "up to 150 kV, IEC 60502-2 / SNI / SPLN"},
+    {"vendor": "voksel", "line": "Voksel power cables", "models": ["LV power cable", "MV XLPE cable"], "range": "Indonesian PLN-supplied LV-MV"},
+    {"vendor": "jembo-cable", "line": "Jembo power cables", "models": ["LV and MV power cable", "lead-sheathed LV", "armoured cable"], "range": "LV-MV plus instrumentation"},
+    {"vendor": "kabelindo", "line": "Kabelindo conductors and cables", "models": ["ACSR/ACCC bare conductor", "LV-MV power cable"], "range": "PLN 150 kV reconductoring references"},
     {"vendor": "prysmian", "line": "XLPE cables", "models": ["medium-voltage XLPE", "high-voltage XLPE"], "range": "0.6 kV to 400 kV"},
     {"vendor": "nexans", "line": "Power cables", "models": ["MV XLPE", "HV XLPE"], "range": "LV to EHV"}
   ],
-  "vendors": ["prysmian", "nexans"],
+  "vendors": ["southern-cable", "universal-cable", "sucaco", "voksel", "jembo-cable", "kabelindo", "prysmian", "nexans"],
   "technologies": ["ele-cable-systems", "ele-mv-distribution", "ele-transmission-lines"],
   "sources": [
     {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"}

@@ -1,0 +1,23 @@
+{
+  "id": "universal-cable",
+  "name": "Universal Cable (M) Berhad",
+  "country": "MY",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Malaysian cable manufacturer in the Sarawak Cable group, producing XLPE-insulated power cables from 6.6 kV to 33 kV in three-core and single-core forms and EHV cables to 132 kV (IEC 60840) and 275 kV (IEC 62067) for TNB specifications, using triple-layer extrusion with dry curing.",
+  "technologies": ["ele-cable-systems", "ele-mv-distribution", "ele-transmission-lines"],
+  "products": [
+    "three-core XLPE unarmoured PVC-sheathed cable, 6.6 kV to 33 kV",
+    "copper-screened single-core XLPE cable, 6.6-33 kV",
+    "76/132 (145) kV XLPE cable to IEC 60840 and TNB specification",
+    "160/275 (300) kV XLPE corrugated aluminium sheathed cable to IEC 62067"
+  ],
+  "url": "https://www.universalcable.com.my/",
+  "sources": [
+    {
+      "url": "https://www.universalcable.com.my/",
+      "note": "product range and dry-curing process from the company's product literature cited in search summary; the site did not respond to a direct probe 2026-11-13, so identity rests on the Sarawak Cable group disclosures"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

@@ -413,7 +413,7 @@ Recorded gaps:
 
 Primary code: ELE: Electrical engineering
 XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 (LV/MV) and IEC 60840/62067 (HV/EHV).
-Vendors: Prysmian Group, Nexans (2 model lines recorded).
+Vendors: Southern Cable Group Berhad, Universal Cable (M) Berhad, PT Supreme Cable Manufacturing & Commerce Tbk (SUCACO), PT Voksel Electric Tbk, PT Jembo Cable Company Tbk, PT Kabelindo Murni Tbk, Prysmian Group, Nexans (8 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -422,6 +422,12 @@ Vendors: Prysmian Group, Nexans (2 model lines recorded).
 | indicative cost, 6.35/11 kV 3-core Cu XLPE/SWA/PVC 185 mm2 | 31.0-39.3 USD per metre | Same price guide: 11 kV 185 mm2 copper USD 31.00-39.30/m; 95 mm2 USD 17.00-21.70/m; 300 mm2 USD 47.70-61.10/m |
 | indicative cost, 11 kV and 33 kV underground cable per km (tender-derived) | 8100-44000 USD per km | Indian utility tender cost data: 33 kV 1Cx630 mm2 aluminium XLPE about USD 8,100/km; 33 kV 1Cx400 mm2 copper about USD 44,000/km; 11 kV 3x185 mm2 about USD 11,000/km; 11 kV 3x300 mm2 about USD 14,500/km. Tender-derived and useful for magnitude only. |
 
+- **Southern Cable Group Berhad** XLPE power cables (LV to HV): 300 V to 132 kV; TNB-registered Malaysian maker
+- **Universal Cable (M) Berhad** XLPE power cables (MV to EHV): 6.6 kV to 275 kV, TNB specification
+- **PT Supreme Cable Manufacturing & Commerce Tbk (SUCACO)** SUPREME N2XSY / NA2XSY: up to 150 kV, IEC 60502-2 / SNI / SPLN
+- **PT Voksel Electric Tbk** Voksel power cables: Indonesian PLN-supplied LV-MV
+- **PT Jembo Cable Company Tbk** Jembo power cables: LV-MV plus instrumentation
+- **PT Kabelindo Murni Tbk** Kabelindo conductors and cables: PLN 150 kV reconductoring references
 - **Prysmian Group** XLPE cables: 0.6 kV to 400 kV
 - **Nexans** Power cables: LV to EHV
 

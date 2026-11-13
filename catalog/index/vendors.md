@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-493 vendor records covering 305 technologies. One record per vendor in
+499 vendor records covering 306 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -90,8 +90,14 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [nVent Electric](https://www.nvent.com/) | United Kingdom | oem | Electrical heat tracing; Earthing and lightning protection |
 | [Pepperl+Fuchs](https://www.pepperl-fuchs.com/) | Germany | oem | Hazardous area electrical equipment |
 | [Prysmian Group](https://www.prysmian.com/) | Italy | oem | Power and control cable systems; Subsea power and umbilical systems |
+| [PT Jembo Cable Company Tbk](https://www.jembo.co.id/) | ID | oem | Power and control cable systems; Medium-voltage distribution (11 kV and 33 kV) |
+| [PT Kabelindo Murni Tbk](https://www.kabelindo.co.id/) | ID | oem | Power and control cable systems; Overhead transmission lines (132-500 kV) |
+| [PT Supreme Cable Manufacturing & Commerce Tbk (SUCACO)](https://www.sucaco.com/) | ID | oem | Power and control cable systems; Medium-voltage distribution (11 kV and 33 kV); Overhead transmission lines (132-500 kV) |
+| [PT Voksel Electric Tbk](https://www.voksel.co.id/) | ID | oem | Power and control cable systems; Medium-voltage distribution (11 kV and 33 kV) |
 | [R. Stahl](https://www.rstahl.com/) | Germany | oem | Hazardous area electrical equipment |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/) | United States | oem, integrator | Power system protection and relaying; Power management and electrical SCADA |
+| [Southern Cable Group Berhad](https://www.southerncable.com.my/) | MY | oem | Power and control cable systems; Medium-voltage distribution (11 kV and 33 kV); Overhead transmission lines (132-500 kV) |
+| [Universal Cable (M) Berhad](https://www.universalcable.com.my/) | MY | oem | Power and control cable systems; Medium-voltage distribution (11 kV and 33 kV); Overhead transmission lines (132-500 kV) |
 | [Vertiv](https://www.vertiv.com/) | United States | oem | Emergency, standby and UPS power systems |
 | [WEG](https://www.weg.net) | Brazil | oem | Power and distribution transformers; Motors and variable speed drives |
 

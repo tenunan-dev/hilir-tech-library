@@ -1,0 +1,24 @@
+{
+  "id": "sucaco",
+  "name": "PT Supreme Cable Manufacturing & Commerce Tbk (SUCACO)",
+  "country": "ID",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Indonesian cable manufacturer (established 1970, listed as PT SUCACO Tbk, brand SUPREME) producing power cables up to 150 kV with XLPE insulation via triple extrusion and dry curing; a founding member of the Indonesian cable manufacturers association APKABEL. Medium-voltage types include N2XSY and NA2XSY to IEC 60502-2, SNI and PLN specification SPLN.",
+  "technologies": ["ele-cable-systems", "ele-mv-distribution", "ele-transmission-lines"],
+  "products": [
+    "medium-voltage XLPE cable N2XSY / NA2XSY",
+    "low-voltage power cable (armoured and non-armoured)",
+    "PVC and XLPE insulated cable",
+    "fire-resistant, instrumentation, solar and OPGW cable",
+    "high-voltage cable to 150 kV"
+  ],
+  "url": "https://www.sucaco.com/",
+  "sources": [
+    {
+      "url": "https://www.sucaco.com/",
+      "note": "SUCACO product catalogue page (medium-voltage, LV, fire-resistant, instrumentation, solar, OPGW cable families), read 2026-11-13; XLPE triple-extrusion dry-curing, 150 kV capability and IEC 60502-2/SNI/SPLN standards from company literature cited in search summary"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

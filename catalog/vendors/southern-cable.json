@@ -1,0 +1,24 @@
+{
+  "id": "southern-cable",
+  "name": "Southern Cable Group Berhad",
+  "country": "MY",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Malaysian cable manufacturer (Kuala Ketil and Sungai Petani, Kedah; listed on Bursa Malaysia) supplying low-voltage through high-voltage cables from 300 V to 132 kV, including XLPE medium and high-voltage power cables. Registered supplier to TNB, TM, SESB, Sarawak Energy and PETRONAS.",
+  "technologies": ["ele-cable-systems", "ele-mv-distribution", "ele-transmission-lines"],
+  "products": [
+    "LV power cables (300/500 V, 0.6/1 kV)",
+    "MV XLPE power cables (6.6-33 kV)",
+    "HV XLPE power cables (to 132 kV)",
+    "fire-resistant and instrumentation cable",
+    "bare conductors and UL aluminium wires (export)"
+  ],
+  "url": "https://www.southerncable.com.my/",
+  "sources": [
+    {
+      "url": "https://www.southerncable.com.my/",
+      "note": "Southern Cable site: 'we supply cables and wires from 300V up to 132kV', read 2026-11-13; TNB/TM/SESB/Sarawak Energy/PETRONAS customer list and Bursa listing from company disclosures cited in search summary"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

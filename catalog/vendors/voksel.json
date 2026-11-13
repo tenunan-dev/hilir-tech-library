@@ -1,0 +1,23 @@
+{
+  "id": "voksel",
+  "name": "PT Voksel Electric Tbk",
+  "country": "ID",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Indonesian listed manufacturer of electrical and telecommunication cable, supplying power cables across the low- and medium-voltage range to PLN and industrial customers.",
+  "technologies": ["ele-cable-systems", "ele-mv-distribution"],
+  "products": [
+    "low-voltage power cable",
+    "medium-voltage XLPE power cable",
+    "telecommunication and fibre cable",
+    "bare conductor"
+  ],
+  "url": "https://www.voksel.co.id/",
+  "sources": [
+    {
+      "url": "https://www.voksel.co.id/",
+      "note": "Voksel Electric site ('sebagai salah satu produsen kabel listrik dan telekomunikasi terkemuka di Indonesia'), read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}
