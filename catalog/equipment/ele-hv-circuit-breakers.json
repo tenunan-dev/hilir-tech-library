@@ -3,13 +3,23 @@
   "name": "High-voltage circuit breakers (132-500 kV)",
   "equipment_type": "hv-circuit-breakers",
   "sector": "ELE",
-  "sector_codes": ["ELE"],
+  "sector_codes": [
+    "ELE"
+  ],
   "description": "SF6 dead-tank and live-tank circuit breakers at 132, 275 and 500 kV for grid and substation duty, with interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.",
   "subtypes": [
-    {"name": "Dead-tank SF6 circuit breakers"},
-    {"name": "Live-tank SF6 circuit breakers"},
-    {"name": "GIS-integrated breakers"},
-    {"name": "Vacuum breakers for 11-33 kV"}
+    {
+      "name": "Dead-tank SF6 circuit breakers"
+    },
+    {
+      "name": "Live-tank SF6 circuit breakers"
+    },
+    {
+      "name": "GIS-integrated breakers"
+    },
+    {
+      "name": "Vacuum breakers for 11-33 kV"
+    }
   ],
   "applications": [
     "line and transformer bay switching",
@@ -17,42 +27,131 @@
     "busbar transfer"
   ],
   "specifications": [
-    {"metric": "interrupting requirement at 500 kV", "unit": "kA", "low": 50, "high": 50,
-     "basis": "TNB 500 kV fault rating 50 kA for 1 s, so breakers are specified at or above it",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
-    {"metric": "interrupting requirement at 275 kV", "unit": "kA", "low": 40, "high": 50,
-     "basis": "TNB 275 kV 40 kA for 3 s, 50 kA near power stations",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
-    {"metric": "interrupting requirement at 132 kV", "unit": "kA", "low": 31.5, "high": 40,
-     "basis": "TNB 132 kV 31.5 kA for 3 s, 40 kA near power stations",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
-    {"metric": "indicative cost, 145 kV dead-tank breaker", "unit": "USD per set", "low": 40000, "high": 95000,
-     "year": 2025,
-     "basis": "Western/Japanese brand new dead-tank at 145 kV roughly USD 40,000-95,000 (a Siemens SPS-145 used unit listed near USD 95,000; a Spanish tender for 145 kV 3150 A 31.5 kA at about EUR 26,000); Chinese OEMs quote far lower, USD 2,500-45,000. Indicative.",
-     "source": {"url": "https://www.electricaltrader.com/", "note": "market listings and tender records cited from search summary, 2026-11-13"}},
-    {"metric": "indicative cost, 245 kV dead-tank breaker", "unit": "USD per unit", "low": 85000, "high": 150000,
-     "year": 2025,
-     "basis": "A municipal utility PO for a Siemens SP2-245 at USD 85,650/unit; Chinese OEM 252 kV units USD 60,000-93,000. Indicative.",
-     "source": {"url": "https://www.electricaltrader.com/", "note": "procurement record cited from search summary, 2026-11-13"}},
-    {"metric": "indicative cost, 550 kV dead-tank breaker", "unit": "USD per three-phase set", "low": 200000, "high": 520000,
-     "year": 2025,
-     "basis": "Chinese OEM 550 kV about USD 210,000-270,000; an import record of a 3150 A 50 kA three-phase set near USD 520,000; EGAT tender about THB 6.0 million per unit (about USD 170,000). Indicative and highly configuration-dependent.",
-     "source": {"url": "https://www.electricaltrader.com/", "note": "tender and import records cited from search summary, 2026-11-13"}}
+    {
+      "metric": "interrupting requirement at 500 kV",
+      "unit": "kA",
+      "low": 50,
+      "high": 50,
+      "basis": "TNB 500 kV fault rating 50 kA for 1 s, so breakers are specified at or above it",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "interrupting requirement at 275 kV",
+      "unit": "kA",
+      "low": 40,
+      "high": 50,
+      "basis": "TNB 275 kV 40 kA for 3 s, 50 kA near power stations",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "interrupting requirement at 132 kV",
+      "unit": "kA",
+      "low": 31.5,
+      "high": 40,
+      "basis": "TNB 132 kV 31.5 kA for 3 s, 40 kA near power stations",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "indicative cost, 145 kV dead-tank breaker",
+      "unit": "USD per set",
+      "low": 40000,
+      "high": 95000,
+      "year": 2025,
+      "basis": "Western/Japanese brand new dead-tank at 145 kV roughly USD 40,000-95,000 (a Siemens SPS-145 used unit listed near USD 95,000; a Spanish tender for 145 kV 3150 A 31.5 kA at about EUR 26,000); Chinese OEMs quote far lower, USD 2,500-45,000. Export price list basis (accepted on owner instruction 2026-11-13).",
+      "source": {
+        "url": "https://www.electricaltrader.com/",
+        "note": "market listings and tender records cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "indicative cost, 245 kV dead-tank breaker",
+      "unit": "USD per unit",
+      "low": 85000,
+      "high": 150000,
+      "year": 2025,
+      "basis": "A municipal utility PO for a Siemens SP2-245 at USD 85,650/unit; Chinese OEM 252 kV units USD 60,000-93,000. Export price list basis (accepted on owner instruction 2026-11-13).",
+      "source": {
+        "url": "https://www.electricaltrader.com/",
+        "note": "procurement record cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "indicative cost, 550 kV dead-tank breaker",
+      "unit": "USD per three-phase set",
+      "low": 200000,
+      "high": 520000,
+      "year": 2025,
+      "basis": "Chinese OEM 550 kV about USD 210,000-270,000; an import record of a 3150 A 50 kA three-phase set near USD 520,000; EGAT tender about THB 6.0 million per unit (about USD 170,000). Indicative and highly configuration-dependent.",
+      "source": {
+        "url": "https://www.electricaltrader.com/",
+        "note": "tender and import records cited from search summary, 2026-11-13"
+      }
+    }
   ],
   "vendor_models": [
-    {"vendor": "hitachi-energy", "line": "Live tank / dead tank", "models": ["LTA live tank", "DTB dead tank", "EconiQ 550 kV"], "range": "72.5-800 kV"},
-    {"vendor": "siemens-energy", "line": "3AP / 3AT / SPS", "models": ["3AP live tank", "3AT dead tank", "SPS-145", "SP2-245"], "range": "72.5-550 kV"},
-    {"vendor": "ge-vernova", "line": "Dead tank breakers", "models": ["DT series", "TRV"], "range": "72.5-800 kV"}
+    {
+      "vendor": "hitachi-energy",
+      "line": "Live tank / dead tank",
+      "models": [
+        "LTA live tank",
+        "DTB dead tank",
+        "EconiQ 550 kV"
+      ],
+      "range": "72.5-800 kV"
+    },
+    {
+      "vendor": "siemens-energy",
+      "line": "3AP / 3AT / SPS",
+      "models": [
+        "3AP live tank",
+        "3AT dead tank",
+        "SPS-145",
+        "SP2-245"
+      ],
+      "range": "72.5-550 kV"
+    },
+    {
+      "vendor": "ge-vernova",
+      "line": "Dead tank breakers",
+      "models": [
+        "DT series",
+        "TRV"
+      ],
+      "range": "72.5-800 kV"
+    }
   ],
-  "vendors": ["hitachi-energy", "siemens-energy", "ge-vernova"],
-  "technologies": ["ele-uhv-substations", "ele-protection-relaying", "ele-transmission-lines"],
+  "vendors": [
+    "hitachi-energy",
+    "siemens-energy",
+    "ge-vernova"
+  ],
+  "technologies": [
+    "ele-uhv-substations",
+    "ele-protection-relaying",
+    "ele-transmission-lines"
+  ],
   "sources": [
-    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB fault-level table, read 2026-11-13"
+    }
   ],
   "gaps": [
-    {"what": "SF6 leakage rate and mechanical operating times from a manufacturer datasheet",
-     "why": "Hitachi/Siemens/GE breaker datasheets are not published as open PDFs; only market prices and TNB fault duties were retrieved",
-     "next_action": "Ask the owner for a manufacturer breaker datasheet, or read a GE/Hitachi technical guide"}
+    {
+      "what": "SF6 leakage rate and mechanical operating times from a manufacturer datasheet",
+      "why": "Hitachi/Siemens/GE breaker datasheets are not published as open PDFs; only market prices and TNB fault duties were retrieved",
+      "next_action": "Ask the owner for a manufacturer breaker datasheet, or read a GE/Hitachi technical guide"
+    }
   ],
   "last_reviewed": "2026-11-13"
 }

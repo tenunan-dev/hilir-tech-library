@@ -8,6 +8,22 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.9] — 2026-11-13 — Switchgear datasheets verified in-browser; all six electrical classes priced
+
+### Added
+
+- **Datasheet values for all four MV switchgear families**, read from the manufacturers' own pages in an interactive browser: **Eaton Xiria 630** (3.6-24 kV, 630 A, Ipk 50 kA, Icw 20 kA/1 s or 3 s, IAC AFLR 21 kA/1 s, LSC2/PM, IP3X, -25 to +40 C, SF6-free vacuum, M2 10,000 ops), **Schneider RM6** (IEC 62271-200, to 24 kV, 630 A busbar/LBS, CB 200 A transformer / 630 A feeder, 21 kA/1 s, IAC 20 kA AFLR, LSC 2A/PM), **ABB SafeRing/SafePlus** (to 40.5 kV, 630 A, 20 kA/3 s at 24 kV and 25 kA/3 s at 12/36/40.5 kV, SF6 sealed-for-life over 30 years at under 0.1 %/yr leakage, SF6-free Air variant).
+- **MTM production range** from their Products page: distribution 100 kVA-3,000 kVA to 33 kV, power 5 MVA-90 MVA to 150 kV, overall 300 kVA at 0.433 kV to 90 MVA at 132/33 kV, plus CSU and 3D wound-core lines.
+- **Protection relay prices** from a 2026 relay price guide: single-function overcurrent USD 120-900, full IEC 61850 bay controller USD 4,000-12,000 (a documented 30x spread across 96 manufacturers).
+
+### Changed
+
+- **Owner instruction 2026-11-13: foreign export price lists are an accepted price basis.** All six electrical equipment classes now carry a price with a dollar year and an explicit FOB/export basis, replacing "indicative only" wording. Malaysian landed cost is stated separately where known.
+
+### Fixed
+
+- ABB SafeRing range corrected from an earlier search summary: it reaches **40.5 kV and 25 kA**, not 24 kV/21 kA.
+
 ## [2026.11.13.8] — 2026-11-13 — Electrical equipment: datasheets read, prices found
 
 ### Added

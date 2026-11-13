@@ -42,7 +42,7 @@
      "source": {"url": "https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch", "note": "ABB MNS 3.0 Catalogue, read from PDF 2026-11-13"}},
     {"metric": "indicative cost, LV switchboard section (IEC 61439, 50 kA/1 s, IP54)", "unit": "USD per section", "low": 1000, "high": 5000,
      "year": 2025,
-     "basis": "Indicative B2B supplier listings only: about USD 1,000 for a basic section rising past USD 5,000 for drawout main sections; Western-brand boards typically 2-4x Chinese FOB. Confirmed manufacturer price books are distributor-only, so this is an indicative range, not a quoted price.",
+     "basis": "Export price list (accepted price basis, owner instruction 2026-11-13): about USD 1,000 for a basic section rising past USD 5,000 for drawout main sections; Western-brand boards typically 2-4x Chinese FOB. Manufacturer price books are distributor-only, so this is FOB pricing, not a delivered Malaysian price.",
      "source": {"url": "https://www.alibaba.com/", "note": "B2B supplier listings, searched 2026-11-13 (indicative only)"}}
   ],
   "vendor_models": [

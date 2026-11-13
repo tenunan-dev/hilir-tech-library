@@ -92,6 +92,30 @@
         "url": "https://www.tnb.com.my/",
         "note": "TNB fault-level table, read 2026-11-13"
       }
+    },
+    {
+      "metric": "indicative cost, single-function overcurrent relay (export price list)",
+      "unit": "USD per unit",
+      "low": 120,
+      "high": 900,
+      "year": 2026,
+      "basis": "Export price list, accepted as the price basis on owner instruction 2026-11-13. A 2026 microprocessor-relay price guide covering 96 manufacturers and 560 SKUs puts single-function overcurrent devices at about USD 120 through Chinese OEM channels, rising with function count and brand tier.",
+      "source": {
+        "url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html",
+        "note": "Microprocessor protection relay price and cost guide 2026, read via browser search 2026-11-13"
+      }
+    },
+    {
+      "metric": "indicative cost, full IEC 61850 bay-controller IED (export price list)",
+      "unit": "USD per unit",
+      "low": 4000,
+      "high": 12000,
+      "year": 2026,
+      "basis": "Same price guide: the spread reaches USD 12,000+ for a full IEC 61850 bay controller from Schweitzer Engineering Laboratories or GE Grid Solutions. Function class, brand tier and certification drive the 30x spread the source documents.",
+      "source": {
+        "url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html",
+        "note": "Microprocessor protection relay price and cost guide 2026, read via browser search 2026-11-13"
+      }
     }
   ],
   "vendor_models": [
@@ -161,9 +185,9 @@
   ],
   "gaps": [
     {
-      "what": "protection relay unit prices",
-      "why": "Relay pricing is quotation-only; no public list prices were found in this pass",
-      "next_action": "Ask owner for a relay quote benchmark from a SEL/Siemens panel integrator"
+      "what": "delivered Malaysian pricing from a panel integrator",
+      "why": "Only the export/FOB guide is published; panel-build and integration add substantially to relay unit cost",
+      "next_action": "Ask owner for an integrator quote if a project budget needs it"
     }
   ],
   "last_reviewed": "2026-11-13"

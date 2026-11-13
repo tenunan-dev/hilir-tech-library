@@ -3,13 +3,23 @@
   "name": "MV switchgear and ring main units (11-33 kV)",
   "equipment_type": "mv-switchgear",
   "sector": "ELE",
-  "sector_codes": ["ELE"],
+  "sector_codes": [
+    "ELE"
+  ],
   "description": "11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271-200/60298.",
   "subtypes": [
-    {"name": "Ring main unit (RMU) with load-break switches and fuse or T-off"},
-    {"name": "Metal-clad vacuum circuit-breaker switchgear"},
-    {"name": "Gas-insulated switchgear (GIS) for space-constrained sites"},
-    {"name": "SF6-free dry-air RMU"}
+    {
+      "name": "Ring main unit (RMU) with load-break switches and fuse or T-off"
+    },
+    {
+      "name": "Metal-clad vacuum circuit-breaker switchgear"
+    },
+    {
+      "name": "Gas-insulated switchgear (GIS) for space-constrained sites"
+    },
+    {
+      "name": "SF6-free dry-air RMU"
+    }
   ],
   "applications": [
     "TNB 11 kV and 33 kV intake",
@@ -17,67 +27,228 @@
     "package substation"
   ],
   "specifications": [
-    {"metric": "rated voltage, Siemens 8DJH", "unit": "kV", "low": 7.2, "high": 24,
-     "basis": "8DJH datasheet covers 7.2, 12, 15, 17.5 and 24 kV ratings; TNB distributes at 11 kV and 33 kV",
-     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
-    {"metric": "busbar continuous current, Siemens 8DJH", "unit": "A", "low": 630, "high": 630,
-     "basis": "8DJH datasheet: busbar rated continuous current 630 A",
-     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
-    {"metric": "internal arc classification, Siemens 8DJH at 12 kV", "unit": "kA for 1 s", "low": 25, "high": 25,
-     "basis": "8DJH: short-time withstand 25 kA for 1 s up to 17.5 kV (20-21 kA for 3 s); optional IAC A FL/FLR 21 kA 1 s",
-     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
-    {"metric": "partition and continuity class, Siemens 8DJH", "unit": "class", "value": "LSC 2, partition class PM",
-     "basis": "8DJH datasheet: partition class PM, loss of service continuity LSC 2, type-tested to IEC 62271-200",
-     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
-    {"metric": "busbar current, ABB SafeRing/SafePlus", "unit": "A", "low": 630, "high": 630,
-     "basis": "ABB product scope table: max rated continuous current (busbar) 630 A for both the SF6 and the SF6-free SafeRing Air/SafePlus Air ranges",
-     "source": {"url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus", "note": "ABB SafeRing/SafePlus product scope table, read in browser 2026-11-13"}},
-    {"metric": "rated voltage and short-time withstand, ABB SafeRing/SafePlus", "unit": "kV", "low": 12, "high": 40.5,
-     "basis": "ABB product scope: up to 40.5 kV; short-time withstand up to 20 kA for 3 s at 24 kV and up to 25 kA for 3 s at 12/36/40.5 kV (SF6-free Air variant: up to 24 kV, 20 kA for 3 s). SF6 tank sealed for life over 30 years with leakage below 0.1% per year",
-     "source": {"url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus", "note": "ABB SafeRing/SafePlus product scope and SF6 enclosure description, read in browser 2026-11-13"}},
-    {"metric": "rated voltage, Eaton Xiria 630", "unit": "kV", "low": 3.6, "high": 24,
-     "basis": "Xiria 630 technical data table: rated voltage 3.6, 7.2, 12, 17.5 and 24 kV; impulse withstand 40-125 kV, power-frequency withstand 10-50 kV for 1 min",
-     "source": {"url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html", "note": "Eaton Xiria 630 Technical information table, read in browser 2026-11-13"}},
-    {"metric": "busbar current and peak withstand, Eaton Xiria 630", "unit": "A", "low": 630, "high": 630,
-     "basis": "Xiria 630: load-break switch and circuit-breaker rated current 630 A; rated peak withstand current 50 kA; short-time withstand 20 kA for 1 s or 20 kA for 3 s",
-     "source": {"url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html", "note": "Eaton Xiria 630 busbar and circuit-breaker tables, read in browser 2026-11-13"}},
-    {"metric": "internal arc classification, Eaton Xiria 630", "unit": "kA for 1 s", "low": 21, "high": 21,
-     "basis": "Xiria 630: IAC AFLR 21 kA for 1 s (16 kA with absorber or cable compartment). Classification LSC2, partition class PM, degree of protection IP3X in service, ambient -25 to +40 C. SF6-free: switching and insulation by vacuum",
-     "source": {"url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html", "note": "Eaton Xiria 630 general table and SF6-free description, read in browser 2026-11-13"}},
-    {"metric": "rated voltage, Schneider RM6", "unit": "kV", "low": 24, "high": 24,
-     "basis": "Schneider RM6 facts: gas-insulated RMU up to 24 kV, standard IEC 62271-200, 50 or 60 Hz",
-     "source": {"url": "https://www.se.com/my/en/product-range/967-rm6/", "note": "Schneider Electric Malaysia RM6 product range page (Facts about RM6), read in browser 2026-11-13"}},
-    {"metric": "busbar and switching currents, Schneider RM6", "unit": "A", "low": 630, "high": 630,
-     "basis": "RM6: busbar and load-break switch 630 A; circuit breaker 200 A for transformer protection or 630 A for feeder protection; single busbar system",
-     "source": {"url": "https://www.se.com/my/en/product-range/967-rm6/", "note": "Schneider RM6 facts, read in browser 2026-11-13"}},
-    {"metric": "short-circuit and arc ratings, Schneider RM6", "unit": "kA", "low": 20, "high": 21,
-     "basis": "RM6: short-circuit rated current up to 21 kA for 1 s; internal arc classification up to 20 kA AFLR with options; loss of service continuity LSC 2 A, partition class PM",
-     "source": {"url": "https://www.se.com/my/en/product-range/967-rm6/", "note": "Schneider RM6 facts, read in browser 2026-11-13"}},
-    {"metric": "indicative cost, 12-24 kV SF6 RMU, unit", "unit": "USD per unit", "low": 2000, "high": 7000,
-     "year": 2025,
-     "basis": "Indicative B2B listings: compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Indicative only, not a quote.",
-     "source": {"url": "https://www.alibaba.com/", "note": "B2B supplier listings, searched 2026-11-13"}},
-    {"metric": "TNB 11 kV motorised RMU supply contract value (benchmark, not unit price)", "unit": "MYR million", "value": 113.31,
-     "year": 2025,
-     "basis": "TNB Letter of Award to EPE Switchgear (60% subsidiary of Pekat Group) for 11 kV motorised RMUs with interconnectors and remote control boxes, various configurations, two-year term from 29 December 2025; RM113.31 million inclusive of SST. A multi-configuration supply contract, so it bounds rather than fixes a per-unit price.",
-     "source": {"url": "https://www.bursamalaysia.com/", "note": "Bursa Malaysia announcement GA1-31122025-00042 (Pekat Group/EPE Switchgear), cross-reported by NST/Business Today, 2026-11-13"}}
+    {
+      "metric": "rated voltage, Siemens 8DJH",
+      "unit": "kV",
+      "low": 7.2,
+      "high": 24,
+      "basis": "8DJH datasheet covers 7.2, 12, 15, 17.5 and 24 kV ratings; TNB distributes at 11 kV and 33 kV",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
+        "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
+      }
+    },
+    {
+      "metric": "busbar continuous current, Siemens 8DJH",
+      "unit": "A",
+      "low": 630,
+      "high": 630,
+      "basis": "8DJH datasheet: busbar rated continuous current 630 A",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
+        "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
+      }
+    },
+    {
+      "metric": "internal arc classification, Siemens 8DJH at 12 kV",
+      "unit": "kA for 1 s",
+      "low": 25,
+      "high": 25,
+      "basis": "8DJH: short-time withstand 25 kA for 1 s up to 17.5 kV (20-21 kA for 3 s); optional IAC A FL/FLR 21 kA 1 s",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
+        "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
+      }
+    },
+    {
+      "metric": "partition and continuity class, Siemens 8DJH",
+      "unit": "class",
+      "value": "LSC 2, partition class PM",
+      "basis": "8DJH datasheet: partition class PM, loss of service continuity LSC 2, type-tested to IEC 62271-200",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
+        "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
+      }
+    },
+    {
+      "metric": "busbar current, ABB SafeRing/SafePlus",
+      "unit": "A",
+      "low": 630,
+      "high": 630,
+      "basis": "ABB product scope table: max rated continuous current (busbar) 630 A for both the SF6 and the SF6-free SafeRing Air/SafePlus Air ranges",
+      "source": {
+        "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus",
+        "note": "ABB SafeRing/SafePlus product scope table, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "rated voltage and short-time withstand, ABB SafeRing/SafePlus",
+      "unit": "kV",
+      "low": 12,
+      "high": 40.5,
+      "basis": "ABB product scope: up to 40.5 kV; short-time withstand up to 20 kA for 3 s at 24 kV and up to 25 kA for 3 s at 12/36/40.5 kV (SF6-free Air variant: up to 24 kV, 20 kA for 3 s). SF6 tank sealed for life over 30 years with leakage below 0.1% per year",
+      "source": {
+        "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus",
+        "note": "ABB SafeRing/SafePlus product scope and SF6 enclosure description, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "rated voltage, Eaton Xiria 630",
+      "unit": "kV",
+      "low": 3.6,
+      "high": 24,
+      "basis": "Xiria 630 technical data table: rated voltage 3.6, 7.2, 12, 17.5 and 24 kV; impulse withstand 40-125 kV, power-frequency withstand 10-50 kV for 1 min",
+      "source": {
+        "url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html",
+        "note": "Eaton Xiria 630 Technical information table, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "busbar current and peak withstand, Eaton Xiria 630",
+      "unit": "A",
+      "low": 630,
+      "high": 630,
+      "basis": "Xiria 630: load-break switch and circuit-breaker rated current 630 A; rated peak withstand current 50 kA; short-time withstand 20 kA for 1 s or 20 kA for 3 s",
+      "source": {
+        "url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html",
+        "note": "Eaton Xiria 630 busbar and circuit-breaker tables, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "internal arc classification, Eaton Xiria 630",
+      "unit": "kA for 1 s",
+      "low": 21,
+      "high": 21,
+      "basis": "Xiria 630: IAC AFLR 21 kA for 1 s (16 kA with absorber or cable compartment). Classification LSC2, partition class PM, degree of protection IP3X in service, ambient -25 to +40 C. SF6-free: switching and insulation by vacuum",
+      "source": {
+        "url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html",
+        "note": "Eaton Xiria 630 general table and SF6-free description, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "rated voltage, Schneider RM6",
+      "unit": "kV",
+      "low": 24,
+      "high": 24,
+      "basis": "Schneider RM6 facts: gas-insulated RMU up to 24 kV, standard IEC 62271-200, 50 or 60 Hz",
+      "source": {
+        "url": "https://www.se.com/my/en/product-range/967-rm6/",
+        "note": "Schneider Electric Malaysia RM6 product range page (Facts about RM6), read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "busbar and switching currents, Schneider RM6",
+      "unit": "A",
+      "low": 630,
+      "high": 630,
+      "basis": "RM6: busbar and load-break switch 630 A; circuit breaker 200 A for transformer protection or 630 A for feeder protection; single busbar system",
+      "source": {
+        "url": "https://www.se.com/my/en/product-range/967-rm6/",
+        "note": "Schneider RM6 facts, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "short-circuit and arc ratings, Schneider RM6",
+      "unit": "kA",
+      "low": 20,
+      "high": 21,
+      "basis": "RM6: short-circuit rated current up to 21 kA for 1 s; internal arc classification up to 20 kA AFLR with options; loss of service continuity LSC 2 A, partition class PM",
+      "source": {
+        "url": "https://www.se.com/my/en/product-range/967-rm6/",
+        "note": "Schneider RM6 facts, read in browser 2026-11-13"
+      }
+    },
+    {
+      "metric": "indicative cost, 12-24 kV SF6 RMU, unit",
+      "unit": "USD per unit",
+      "low": 2000,
+      "high": 7000,
+      "year": 2025,
+      "basis": "Export price list (accepted price basis, owner instruction 2026-11-13): compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Not a delivered Malaysian price.",
+      "source": {
+        "url": "https://www.alibaba.com/",
+        "note": "B2B supplier listings, searched 2026-11-13"
+      }
+    },
+    {
+      "metric": "TNB 11 kV motorised RMU supply contract value (benchmark, not unit price)",
+      "unit": "MYR million",
+      "value": 113.31,
+      "year": 2025,
+      "basis": "TNB Letter of Award to EPE Switchgear (60% subsidiary of Pekat Group) for 11 kV motorised RMUs with interconnectors and remote control boxes, various configurations, two-year term from 29 December 2025; RM113.31 million inclusive of SST. A multi-configuration supply contract, so it bounds rather than fixes a per-unit price.",
+      "source": {
+        "url": "https://www.bursamalaysia.com/",
+        "note": "Bursa Malaysia announcement GA1-31122025-00042 (Pekat Group/EPE Switchgear), cross-reported by NST/Business Today, 2026-11-13"
+      }
+    }
   ],
   "vendor_models": [
-    {"vendor": "abb", "line": "SafeRing / SafePlus", "models": ["SafeRing 12 kV", "SafePlus 36 kV", "Safe Air (SF6-free)"], "range": "12-36 kV RMU"},
-    {"vendor": "schneider-electric", "line": "RM6 / Premset", "models": ["RM6", "Premset"], "range": "11-36 kV"},
-    {"vendor": "siemens", "line": "8DJH", "models": ["8DJH 12", "8DJH 24", "8DJH 36"], "range": "7.2-24 kV type-tested, SF6 sealed for life"},
-    {"vendor": "eaton", "line": "Xiria", "models": ["Xiria E", "Xiria Panel"], "range": "12-24 kV"}
+    {
+      "vendor": "abb",
+      "line": "SafeRing / SafePlus",
+      "models": [
+        "SafeRing 12 kV",
+        "SafePlus 36 kV",
+        "Safe Air (SF6-free)"
+      ],
+      "range": "12-36 kV RMU"
+    },
+    {
+      "vendor": "schneider-electric",
+      "line": "RM6 / Premset",
+      "models": [
+        "RM6",
+        "Premset"
+      ],
+      "range": "11-36 kV"
+    },
+    {
+      "vendor": "siemens",
+      "line": "8DJH",
+      "models": [
+        "8DJH 12",
+        "8DJH 24",
+        "8DJH 36"
+      ],
+      "range": "7.2-24 kV type-tested, SF6 sealed for life"
+    },
+    {
+      "vendor": "eaton",
+      "line": "Xiria",
+      "models": [
+        "Xiria E",
+        "Xiria Panel"
+      ],
+      "range": "12-24 kV"
+    }
   ],
-  "vendors": ["abb", "schneider-electric", "siemens", "eaton"],
-  "technologies": ["ele-mv-distribution", "ele-hv-switchgear-distribution"],
+  "vendors": [
+    "abb",
+    "schneider-electric",
+    "siemens",
+    "eaton"
+  ],
+  "technologies": [
+    "ele-mv-distribution",
+    "ele-hv-switchgear-distribution"
+  ],
   "sources": [
-    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB MV voltage and fault-level tables, read 2026-11-13"},
-    {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH datasheet, read from PDF 2026-11-13"}
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB MV voltage and fault-level tables, read 2026-11-13"
+    },
+    {
+      "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
+      "note": "Siemens 8DJH datasheet, read from PDF 2026-11-13"
+    }
   ],
   "gaps": [
-    {"what": "per-panel prices from ABB/Schneider/Eaton themselves",
-     "why": "Manufacturer price books are distributor-only; only indicative B2B listings and the TNB contract total were found",
-     "next_action": "Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark"}
+    {
+      "what": "per-panel prices from ABB/Schneider/Eaton themselves",
+      "why": "Manufacturer price books are distributor-only; only indicative B2B listings and the TNB contract total were found",
+      "next_action": "Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark"
+    }
   ],
   "notes": "Ratings for all four vendor families now come from the manufacturers' own pages read in an interactive browser 2026-11-13: Siemens 8DJH (PDF), ABB SafeRing/SafePlus (product scope table), Schneider RM6 (Malaysia product range page), Eaton Xiria 630 (technical data table). The ABB figures corrected an earlier search-summary version: the range goes to 40.5 kV and 25 kA for 3 s at 12/36/40.5 kV, not 24 kV/21 kA.",
   "last_reviewed": "2026-11-13"

@@ -41,10 +41,10 @@
     {"metric": "power transformer rating, MTM", "unit": "MVA", "low": 5, "high": 90,
      "basis": "MTM Products page: power transformers 5 MVA to 90 MVA, supporting up to 150 kV",
      "source": {"url": "https://www.malaysiatransformer.com/products", "note": "MTM Products page, read in browser 2026-11-13"}},
-    {"metric": "indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer", "unit": "USD per unit", "low": 7000, "high": 20000,
+    {"metric": "indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer (export price list)", "unit": "USD per unit", "low": 7000, "high": 20000,
      "year": 2025,
-     "basis": "Indicative export quotes: aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000. Malaysian landed prices are expected 30-60% above these FOB figures for duties, SST, compliance testing and local margin (roughly MYR 80,000-150,000 for a compliant S13-class copper unit). Indicative only.",
-     "source": {"url": "https://www.alibaba.com/", "note": "B2B/export quotation listings, searched 2026-11-13 (indicative only)"}}
+     "basis": "Foreign export price list, accepted as the price basis on owner instruction 2026-11-13. Aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000; 33 kV class USD 10,000-20,000. Malaysian landed cost adds roughly 30-60% for duties, SST, compliance testing and local margin (about MYR 80,000-150,000 for a compliant S13-class copper unit). FOB export, not a delivered Malaysian price.",
+     "source": {"url": "https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html", "note": "Export listings for Malaysia-power-project S11/S13 1000 kVA transformers (made-in-china, Alibaba), found in browser search 2026-11-13"}}
   ],
   "vendor_models": [
     {"vendor": "malaysia-transformer", "line": "MTM distribution and power transformers", "models": ["distribution transformers (to 5,000 kVA, 33 kV)", "power transformers (to 100 MVA)", "dry-type", "generator and earthing transformers", "compact substation units"], "range": "100 kVA to 100 MVA; refurbishment to 275 kV"},
@@ -64,8 +64,8 @@
      "why": "Hitachi/Siemens transformer datasheets are project-specific and were not read; only the distribution-class Malaysian loss schedule was found",
      "next_action": "Read a manufacturer power-transformer technical guide for loss ranges by rating"},
     {"what": "Malaysian retail prices from a local manufacturer",
-     "why": "Only export/FOB listings were found; local TNB-registered manufacturers do not publish prices",
-     "next_action": "Ask owner for a local transformer quote benchmark"}
+     "why": "Searched in an interactive browser (DuckDuckGo HTML, 2026-11-13): the only 1,000 kVA 11-13 kV hits were Chinese export listings (made-in-china, Alibaba). MTM and other TNB-registered Malaysian manufacturers publish no prices and sell by tender, so no local figure exists openly",
+     "next_action": "Ask owner for a local transformer quote benchmark, or watch ePerolehan/TNB tender award notices for a like-for-like unit price"}
   ],
   "last_reviewed": "2026-11-13"
 }
