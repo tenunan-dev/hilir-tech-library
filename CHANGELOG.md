@@ -8,6 +8,19 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.7] — 2026-11-13 — Electrical vertical: 415 V to 500 kV, Malaysia-compatible
+
+### Added
+
+- **Five lifecycle cards across the Malaysian voltage range**: ele-lv-distribution (415/240 V: main switchboard → motor control centre → boards, 30 mA RCD), ele-mv-distribution (11 kV and 33 kV intake, RMU-fed substations), ele-transmission-lines (132-500 kV towers, conductors, OPGW, distance protection, patrol maintenance), ele-uhv-substations (275-500 kV switchyards, transformer banks, reactive compensation, IEC 61850), ele-grid-connection (GSO-owned grid code: impact study, compliance, connection agreement, commissioning).
+- **TNB-sourced performance data** throughout: supply ranges by maximum demand (415 V to 1,000 kVA; 11 kV 1,000-5,000 kVA; 33 kV 5,000-25,000 kVA; 132/275 kV above 25,000 kVA), fault levels (20 kA at 11 kV, 25 kA at 33 kV, 31.5-40 kA at 132 kV, 40-50 kA at 275 kV, 50 kA at 500 kV) and per-tier voltage tolerances.
+- **Six electrical equipment classes**: LV switchboards, MV switchgear and RMUs, power and distribution transformers, HV circuit breakers, protection relays and IEDs, power cables (0.6-275 kV).
+- Sources: TNB (licensee), Suruhanjaya Tenaga (regulator) and the Grid System Operator (grid-code owner) registered with their roles; vendor HD Hyundai Electric added (**492 vendors**).
+
+### Changed
+
+- **Twelve existing electrical cards deepened**: they carried no performance entries, gaps or references. Each now has Malaysian voltage and fault-level figures, an honest cost gap and TNB/GSO sources.
+
 ## [2026.11.13.6] — 2026-11-13 — WWT register closed + neon glow on diagrams
 
 ### Added
