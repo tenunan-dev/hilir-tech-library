@@ -1,0 +1,118 @@
+{
+  "id": "wwt-water-pinch",
+  "name": "Water minimisation and reuse pinch for industry",
+  "aliases": [
+    "water pinch",
+    "water network design",
+    "industrial water reuse"
+  ],
+  "sector": "WWT",
+  "category": "Resource recovery and ZLD",
+  "applications": [
+    "refinery and petrochemical water networks",
+    "industrial park reuse",
+    "ZLD scope definition"
+  ],
+  "maturity": "commercial",
+  "principle": "Mass-exchange pinch analysis treats water as a network resource: each use has a limiting contaminant concentration, so streams can be cascaded from the cleanest duty to the dirtiest before treatment. Targeting gives the minimum fresh-water and wastewater flows, and a regenerator (DAF, membrane, ion exchange) placed at the pinch relaxes the constraint, cutting both intake and downstream ZLD load.",
+  "process_steps": [
+    {
+      "id": "AUDIT",
+      "name": "Water audit and contaminant data",
+      "equipment": [
+        "stream characterisation (COD, TDS, hardness, oil)"
+      ]
+    },
+    {
+      "id": "TARGET",
+      "name": "Pinch targeting",
+      "equipment": [
+        "mass-exchange pinch analysis software"
+      ]
+    },
+    {
+      "id": "NET",
+      "name": "Water network design",
+      "equipment": [
+        "cascade reuse network",
+        "regenerator placement"
+      ],
+      "to": [
+        "REG"
+      ],
+      "streams": {
+        "REG": "streams needing treatment"
+      }
+    },
+    {
+      "id": "REG",
+      "name": "Partial regeneration",
+      "equipment": [
+        "DAF / membrane / ion exchange regenerator"
+      ],
+      "to": [
+        "REUSE"
+      ],
+      "streams": {
+        "REUSE": "regenerated water"
+      }
+    },
+    {
+      "id": "REUSE",
+      "name": "Reuse and discharge",
+      "equipment": [
+        "reuse allocation and final effluent"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "pinch analysis software",
+    "regenerator units",
+    "monitoring instrumentation"
+  ],
+  "suppliers": [
+    {
+      "name": "Jacobs",
+      "product": "water network and pinch consulting"
+    },
+    {
+      "name": "GHD",
+      "product": "water reuse advisory"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "fresh-water reduction typical of a pinch retrofit",
+      "unit": "%",
+      "low": 20,
+      "high": 40,
+      "basis": "published industrial water-pinch case range",
+      "source": {
+        "url": "https://www.metito.com/",
+        "note": "published water-pinch practice context, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "metito",
+      "url": "https://www.metito.com/",
+      "note": "water reuse advisory context, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "consultancy cost per study, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Advisory firms do not publish study prices.",
+      "where": [
+        {
+          "hint": "Ask the owner for a benchmarked study cost"
+        }
+      ],
+      "action": "Ask owner for a priced reference."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "westech",
+  "name": "WesTech Engineering",
+  "url": "https://www.westech-inc.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "WWT"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "WesTech Engineering",
+  "country": "US",
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "notes": "Clarifier, thickener, trickling-filter and filter equipment OEM for municipal and industrial water treatment. Registered 2026-11-13 in the WWT sector.",
+  "verification": "unverified",
+  "last_verified": null
+}

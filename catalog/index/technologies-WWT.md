@@ -1,12 +1,13 @@
 # WWT technology options
 
-28 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+33 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Aerobic granular sludge treatment (Nereda)](#wwt-aerobic-granular-sludge) | Biological treatment | commercial |  | Royal HaskoningDHV (Nereda aerobic granular sludge technology (licensor)) |  |
 | [Anaerobic sludge digestion (mesophilic/thermophilic)](#wwt-sludge-digestion) | Sludge and biogas | commercial |  | Veolia (digestion configurations); Cambi (thermal hydrolysis pretreatment); Xergi (digester packages) |  |
 | [Biological nutrient removal (BNR)](#wwt-bnr) | Biological treatment | commercial |  | Jacobs (BNR process consulting); Veolia (BNR configurations) |  |
+| [Chlorination and dechlorination](#wwt-chlorination) | Disinfection and advanced oxidation | commercial |  | Evoqua Water Technologies (chlorination and dechlorination systems); Xylem (disinfection dosing) |  |
 | [Coagulation-flocculation and chemical precipitation](#wwt-coagulation-precipitation) | Physical and chemical treatment | commercial |  | Kemira (coagulants and polymers); Veolia (turnkey chemical treatment trains) |  |
 | [Conventional activated sludge](#wwt-activated-sludge) | Biological treatment | commercial |  | Xylem (Sanitaire aeration systems); Suez (aeration and clarification) |  |
 | [Dissolved air flotation (DAF)](#wwt-daf) | Physical and chemical treatment | commercial |  | Veolia (DAF flotation systems); Evoqua (DAF systems) |  |
@@ -25,12 +26,16 @@
 | [Screening and grit removal](#wwt-screening-grit) | Physical and chemical treatment | commercial |  | HUBER SE (Ro9 grit treatment, ROTAMAT screens); Hydro International (vortex grit separators) |  |
 | [Sequencing batch reactor (SBR)](#wwt-sbr) | Biological treatment | commercial |  | Aqua-Aerobic Systems (SBR decanters and Selector technology); Veolia (SBR configurations) |  |
 | [Sludge incineration and co-incineration](#wwt-sludge-incineration) | Sludge and biogas | commercial |  | Veolia (sludge incineration operations); Hitachi Zosen (sludge incineration plants) |  |
+| [Sludge thickening](#wwt-sludge-thickening) | Sludge and biogas | commercial |  | HUBER SE (rotary drum and disc thickeners); Veolia (gravity and DAF thickeners); WesTech Engineering (gravity thickeners) |  |
 | [Thermal sludge drying and pyrolysis](#wwt-sludge-drying) | Sludge and biogas | commercial |  | Andritz (drum/belt dryers); HUBER SE (SRT sludge dryers) |  |
+| [Trickling filters and rotating biological contactors](#wwt-trickling-filters) | Biological treatment | commercial |  | WesTech Engineering (trickling filter and clarifier equipment); HUBER SE (biological filter media) |  |
 | [UV disinfection](#wwt-uv-disinfection) | Disinfection and advanced oxidation | commercial |  | Trojan Technologies (UVSwift/UltraFlow municipal reactors); Xylem (Wedeco UV systems) |  |
 | [Upflow anaerobic sludge blanket (UASB/EGSB)](#wwt-uasb) | Anaerobic treatment | commercial |  | Paques (BIOPAQ UASB / UASBplus reactors); Biothane (Veolia) (Biobed EGSB reactors) |  |
+| [Water minimisation and reuse pinch for industry](#wwt-water-pinch) | Resource recovery and ZLD | commercial |  | Jacobs (water network and pinch consulting); GHD (water reuse advisory) |  |
 | [Zero liquid discharge (ZLD)](#wwt-zld) | Resource recovery and ZLD | commercial |  | Aquatech International (ZLD trains (HERO, MVR evaporators, crystallisers)); Veolia (HPD evaporator-crystalliser technology) |  |
 | [Advanced oxidation processes (AOP)](#wwt-aop) | Disinfection and advanced oxidation | demonstration |  | Trojan Technologies (UV AOP reactors); Xylem (Wedeco AOP systems) |  |
 | [Anaerobic membrane bioreactor (AnMBR)](#wwt-anmbr) | Anaerobic treatment | demonstration |  | Kubota (submerged flat-plate membranes for AnMBR); ADI Systems (Veolia) (AnMBR configurations) |  |
+| [Brine concentration and selective salt recovery](#wwt-brine-concentration) | Resource recovery and ZLD | demonstration |  | Aquatech International (HERO concentrate treatment); Gradiant (brine concentration and salt recovery) |  |
 | [Forward osmosis](#wwt-forward-osmosis) | Membrane and reuse | pilot |  | Modern Water (commercial FO systems); Oasys Water (FO draw technology) |  |
 
 ## Aerobic granular sludge treatment (Nereda)
@@ -120,6 +125,32 @@ flowchart LR
 - cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
 
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
+
+## Chlorination and dechlorination
+<a id="wwt-chlorination"></a>
+
+Dosed chlorine (gas, hypochlorite or on-site electrochlorination) forms hypochlorous acid that inactivates pathogens; a contact basin gives the required CT (concentration x time); where chlorinated organics or aquatic toxicity matter, sulphur-dioxide or bisulphite dechlorination strips residual before discharge.
+
+```mermaid
+flowchart LR
+    DOSE["Chlorine dosing<br/><small>hypochlorite or gas dosing skids, on-site electrochlorinators</small>"]
+    CT["Contact basin (CT target)<br/><small>baffled contact tank</small>"]
+    DECHL["Dechlorination<br/><small>sulphur dioxide or bisulphite dosing, ORP control</small>"]
+    OUT["Discharge or reuse<br/><small>residual monitoring</small>"]
+    DOSE --> CT
+    CT -->|chlorinated effluent| DECHL
+    DECHL -->|dechlorinated effluent| OUT
+```
+
+**Key equipment:** dosing skids, contact basin, dechlorination dosing, residual analysers.
+
+**Performance:**
+- contact time (CT) for bacteria: 15-30 mg.min/L; published CT targets at typical pH. [source](https://www.evoqua.com/)
+
+**Missing inputs:**
+- chemical cost per m3, dollar year (costs): Vendor/licensor sites do not publish operating costs. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+
+Sources: [1](https://www.evoqua.com/). Last reviewed 2026-11-13.
 
 ## Coagulation-flocculation and chemical precipitation
 <a id="wwt-coagulation-precipitation"></a>
@@ -659,6 +690,33 @@ flowchart LR
 
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
 
+## Sludge thickening
+<a id="wwt-sludge-thickening"></a>
+
+Removes free water before digestion or dewatering: gravity thickeners settle sludge to 2-5% DS, DAF thickeners to 4-6% DS (better for waste activated sludge with poor settleability), rotary drum and gravity-belt thickeners to 4-8% DS with polymer; higher feed solids cut digester volume and dewatering load.
+
+```mermaid
+flowchart LR
+    FEED["Sludge feed and screening<br/><small>sludge screens</small>"]
+    THICK["Thickening<br/><small>gravity thickener / DAF thickener / rotary drum thickener with polymer</small>"]
+    THK["Thickened sludge out<br/><small>sludge pumps to digestion</small>"]
+    OVF["Overflow and filtrate return<br/><small>return to plant head</small>"]
+    FEED --> THICK
+    THICK -->|thickened sludge| THK
+    THK --> OVF
+```
+
+**Key equipment:** gravity or DAF thickener, rotary drum thickener, polymer dosing.
+
+**Performance:**
+- thickened solids, gravity: 2-5 % DS; published gravity thickener range. [source](https://www.huber.de/)
+- thickened solids, drum thickener: 4-8 % DS; published drum thickener performance. [source](https://www.huber.de/)
+
+**Missing inputs:**
+- cost per t DS, dollar year (costs): Vendor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+
+Sources: [1](https://www.huber.de/). Last reviewed 2026-11-13.
+
 ## Thermal sludge drying and pyrolysis
 <a id="wwt-sludge-drying"></a>
 
@@ -686,6 +744,36 @@ flowchart LR
 - cost per t DS, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
 
 Sources: [1](https://www.andritz.com/products-separation). Last reviewed 2026-11-13.
+
+## Trickling filters and rotating biological contactors
+<a id="wwt-trickling-filters"></a>
+
+Attached-growth on fixed media: wastewater trickles over rock or plastic media colonised by biofilm; air drawn through by natural or forced ventilation supplies oxygen; a secondary clarifier with recirculation settles sloughed biomass. RBCs rotate partially submerged discs in the flow for the same biofilm effect with low power demand.
+
+```mermaid
+flowchart LR
+    PRIM["Primary settlement<br/><small>primary clarifier</small>"]
+    TF["Trickling filter bed<br/><small>rock or plastic media (2-10 m deep), rotary distributor, ventilation</small>"]
+    SEC["Secondary clarification<br/><small>humus tank</small>"]
+    REC["Recirculation and sludge<br/><small>recirculation pumps, humus sludge wasting</small>"]
+    OUT["Effluent out<br/><small>disinfection</small>"]
+    PRIM --> TF
+    TF -->|biofilm-treated flow| SEC
+    SEC -->|sloughed biomass| REC
+    SEC -->|treated effluent| OUT
+    REC --> OUT
+```
+
+**Key equipment:** filter media and distributor, secondary clarifier, recirculation pumps, RBC shafts and discs (variant).
+
+**Performance:**
+- BOD removal per pass: 70-90 %; published trickling-filter performance. [source](https://www.westech-inc.com/)
+- organic loading (low-rate): 0.08-0.4 kg BOD/m3.d; published loading bands. [source](https://www.westech-inc.com/)
+
+**Missing inputs:**
+- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+
+Sources: [1](https://www.westech-inc.com/). Last reviewed 2026-11-13.
 
 ## UV disinfection
 <a id="wwt-uv-disinfection"></a>
@@ -743,6 +831,34 @@ flowchart LR
 - reactor cost per kg COD/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
 
 Sources: [1](https://www.paques.nl/products/biopaq-uasb). Last reviewed 2026-11-13.
+
+## Water minimisation and reuse pinch for industry
+<a id="wwt-water-pinch"></a>
+
+Mass-exchange pinch analysis treats water as a network resource: each use has a limiting contaminant concentration, so streams can be cascaded from the cleanest duty to the dirtiest before treatment. Targeting gives the minimum fresh-water and wastewater flows, and a regenerator (DAF, membrane, ion exchange) placed at the pinch relaxes the constraint, cutting both intake and downstream ZLD load.
+
+```mermaid
+flowchart LR
+    AUDIT["Water audit and contaminant data<br/><small>stream characterisation (COD, TDS, hardness, oil)</small>"]
+    TARGET["Pinch targeting<br/><small>mass-exchange pinch analysis software</small>"]
+    NET["Water network design<br/><small>cascade reuse network, regenerator placement</small>"]
+    REG["Partial regeneration<br/><small>DAF / membrane / ion exchange regenerator</small>"]
+    REUSE["Reuse and discharge<br/><small>reuse allocation and final effluent</small>"]
+    AUDIT --> TARGET
+    TARGET --> NET
+    NET -->|streams needing treatment| REG
+    REG -->|regenerated water| REUSE
+```
+
+**Key equipment:** pinch analysis software, regenerator units, monitoring instrumentation.
+
+**Performance:**
+- fresh-water reduction typical of a pinch retrofit: 20-40 %; published industrial water-pinch case range. [source](https://www.metito.com/)
+
+**Missing inputs:**
+- consultancy cost per study, dollar year (costs): Advisory firms do not publish study prices. Where: Ask the owner for a benchmarked study cost. Next: Ask owner for a priced reference.
+
+Sources: [1](https://www.metito.com/). Last reviewed 2026-11-13.
 
 ## Zero liquid discharge (ZLD)
 <a id="wwt-zld"></a>
@@ -827,6 +943,35 @@ flowchart LR
 - cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
 
 Sources: [1](https://kubota-membrane.com/). Last reviewed 2026-11-13.
+
+## Brine concentration and selective salt recovery
+<a id="wwt-brine-concentration"></a>
+
+Steps ahead of full ZLD: high-pressure RO/HERO, membrane distillation or electrodialysis reversal push brine from a typical 4-8% up to 15-25% salt, cutting evaporator duty; nanofiltration fractionation or selective crystallisation then splits mixed brine into saleable single salts (NaCl, Na2SO4) instead of a mixed waste.
+
+```mermaid
+flowchart LR
+    FEED["Brine feed and softening<br/><small>softening if needed</small>"]
+    CONC["Concentration<br/><small>high-pressure RO / HERO / membrane distillation / EDR</small>"]
+    FRAC["Selective salt recovery<br/><small>nanofiltration fractionation, crystallisers for single salts</small>"]
+    SALT["Salt product handling<br/><small>drying and bagging</small>"]
+    PERM["Permeate recycle<br/><small>polish before reuse</small>"]
+    FEED --> CONC
+    CONC -->|concentrated brine| FRAC
+    CONC -->|permeate to reuse| PERM
+    FRAC -->|single-salt product| SALT
+    SALT --> PERM
+```
+
+**Key equipment:** high-pressure RO or HERO, membrane distillation or EDR, crystallisers.
+
+**Performance:**
+- brine concentration reached before evaporation: 15-25 % salt; published concentration targets. [source](https://www.aquatech.com/)
+
+**Missing inputs:**
+- cost per m3 of brine, dollar year (costs): Vendor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+
+Sources: [1](https://www.aquatech.com/). Last reviewed 2026-11-13.
 
 ## Forward osmosis
 <a id="wwt-forward-osmosis"></a>

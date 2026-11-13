@@ -1,0 +1,120 @@
+{
+  "id": "wwt-sludge-thickening",
+  "name": "Sludge thickening",
+  "aliases": [
+    "gravity thickener",
+    "drum thickener",
+    "sludge pre-thickening"
+  ],
+  "sector": "WWT",
+  "category": "Sludge and biogas",
+  "applications": [
+    "pre-digestion thickening",
+    "WAS volume reduction",
+    "dewatering feed conditioning"
+  ],
+  "maturity": "commercial",
+  "principle": "Removes free water before digestion or dewatering: gravity thickeners settle sludge to 2-5% DS, DAF thickeners to 4-6% DS (better for waste activated sludge with poor settleability), rotary drum and gravity-belt thickeners to 4-8% DS with polymer; higher feed solids cut digester volume and dewatering load.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Sludge feed and screening",
+      "equipment": [
+        "sludge screens"
+      ]
+    },
+    {
+      "id": "THICK",
+      "name": "Thickening",
+      "equipment": [
+        "gravity thickener / DAF thickener / rotary drum thickener with polymer"
+      ],
+      "to": [
+        "THK"
+      ],
+      "streams": {
+        "THK": "thickened sludge"
+      }
+    },
+    {
+      "id": "THK",
+      "name": "Thickened sludge out",
+      "equipment": [
+        "sludge pumps to digestion"
+      ]
+    },
+    {
+      "id": "OVF",
+      "name": "Overflow and filtrate return",
+      "equipment": [
+        "return to plant head"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "gravity or DAF thickener",
+    "rotary drum thickener",
+    "polymer dosing"
+  ],
+  "suppliers": [
+    {
+      "name": "HUBER SE",
+      "product": "rotary drum and disc thickeners"
+    },
+    {
+      "name": "Veolia",
+      "product": "gravity and DAF thickeners"
+    },
+    {
+      "name": "WesTech Engineering",
+      "product": "gravity thickeners"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "thickened solids, gravity",
+      "unit": "% DS",
+      "low": 2,
+      "high": 5,
+      "basis": "published gravity thickener range",
+      "source": {
+        "url": "https://www.huber.de/",
+        "note": "published practice, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "thickened solids, drum thickener",
+      "unit": "% DS",
+      "low": 4,
+      "high": 8,
+      "basis": "published drum thickener performance",
+      "source": {
+        "url": "https://www.huber.de/",
+        "note": "HUBER thickener pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "huber-se",
+      "url": "https://www.huber.de/",
+      "note": "HUBER thickening pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per t DS, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

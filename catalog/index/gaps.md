@@ -3,13 +3,13 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-865 missing inputs on 309 cards; 25 register technologies have no card yet.
+870 missing inputs on 314 cards; 20 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 698 |
+| not_in_sources_read | 703 |
 | general_knowledge_only | 140 |
-| no_card_yet | 25 |
+| no_card_yet | 20 |
 | paid_source | 12 |
 | source_unreachable | 11 |
 | status_unchecked | 4 |
@@ -936,6 +936,8 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [Anaerobic membrane bioreactor (AnMBR)](technologies-WWT.md#wwt-anmbr) | cost per m3/d, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Advanced oxidation processes (AOP)](technologies-WWT.md#wwt-aop) | cost per m3, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Biological nutrient removal (BNR)](technologies-WWT.md#wwt-bnr) | cost per m3/d, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
+| [Brine concentration and selective salt recovery](technologies-WWT.md#wwt-brine-concentration) | cost per m3 of brine, dollar year (costs) | Vendor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
+| [Chlorination and dechlorination](technologies-WWT.md#wwt-chlorination) | chemical cost per m3, dollar year (costs) | Vendor/licensor sites do not publish operating costs. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Coagulation-flocculation and chemical precipitation](technologies-WWT.md#wwt-coagulation-precipitation) | chemical cost per m3, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Dissolved air flotation (DAF)](technologies-WWT.md#wwt-daf) | cost per m3/h design flow, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Forward osmosis](technologies-WWT.md#wwt-forward-osmosis) | cost per m3, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
@@ -953,10 +955,13 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [Anaerobic sludge digestion (mesophilic/thermophilic)](technologies-WWT.md#wwt-sludge-digestion) | cost per t dry solids, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Thermal sludge drying and pyrolysis](technologies-WWT.md#wwt-sludge-drying) | cost per t DS, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Sludge incineration and co-incineration](technologies-WWT.md#wwt-sludge-incineration) | cost per t DS, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
+| [Sludge thickening](technologies-WWT.md#wwt-sludge-thickening) | cost per t DS, dollar year (costs) | Vendor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Nutrient recovery (struvite and ammonia)](technologies-WWT.md#wwt-struvite-recovery) | cost per kg P recovered, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
+| [Trickling filters and rotating biological contactors](technologies-WWT.md#wwt-trickling-filters) | cost per m3/d, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Upflow anaerobic sludge blanket (UASB/EGSB)](technologies-WWT.md#wwt-uasb) | reactor cost per kg COD/d, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [Microfiltration and ultrafiltration pretreatment](technologies-WWT.md#wwt-uf-pretreatment) | cost per m3/d, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 | [UV disinfection](technologies-WWT.md#wwt-uv-disinfection) | cost per m3/d, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
+| [Water minimisation and reuse pinch for industry](technologies-WWT.md#wwt-water-pinch) | consultancy cost per study, dollar year (costs) | Advisory firms do not publish study prices. | Ask the owner for a benchmarked study cost | Ask owner for a priced reference. |
 | [Zero liquid discharge (ZLD)](technologies-WWT.md#wwt-zld) | cost per m3/d, dollar year (costs) | Vendor/licensor sites do not publish plant prices. | [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/) | Ask owner for a priced reference or use GWI benchmarks. |
 
 ## Technologies with no card yet
@@ -964,4 +969,3 @@ of each card in catalog/technologies/ and from register entries without a card. 
 See [technology-register.md](technology-register.md) for suppliers and maturity.
 
 - **IDC** (20): Hyperscale data centre siting and power procurement; AI-training and inference load profiles; Data centre energy and water benchmarking (PUE/WUE); Utility feed and on-site substation for data centres; Fuel-cell power for data centres; On-site solar plus battery storage for data centres; Data centre UPS systems (double-conversion, lithium, flywheel); Medium-voltage switchgear and busway in the data hall; Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Air cooling (CRAH/CRAC, hot/cold aisle containment); Immersion cooling; Rear-door heat exchangers; Free cooling and economisers; District heating tie-ins from data centres; Data centre demand response and flexible load; Battery storage for data centre load smoothing; Modular and prefabricated data halls; Data centre commissioning and integrated systems testing; DCIM and digital twins for data centres; Liquid-cooling leak detection and monitoring
-- **WWT** (5): Trickling filters and rotating biological contactors; Chlorination and dechlorination; Sludge thickening (gravity, DAF, drum); Brine concentration and selective salt recovery; Water minimisation and reuse pinch for industry

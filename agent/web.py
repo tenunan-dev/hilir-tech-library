@@ -211,9 +211,13 @@ td.wrap { white-space: pre-wrap; }
 pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 code { background: var(--inset); border: 1px solid var(--border); border-radius: 4px; padding: .05rem .3rem; font-size: .88em; }
 pre { background: var(--inset); border: 1px solid var(--border); border-radius: 8px; padding: .75rem; overflow-x: auto; font-size: .82rem; }
-/* block diagram: blend with the card, not a code inset */
+/* block diagram: blend with the card, not a code inset; neon glow on the two hues */
 pre.mermaid { background: transparent; border: none; padding: 0; font-size: 14px; text-align: center; overflow-x: auto; }
 pre.mermaid svg { max-width: 100%; height: auto; }
+pre.mermaid .node rect, pre.mermaid .node polygon, pre.mermaid .node circle, pre.mermaid .node ellipse {
+  stroke-width: 2px; filter: drop-shadow(0 0 4px var(--info)); }
+pre.mermaid .edgePath .path, pre.mermaid .flowchart-link { stroke-width: 2px; filter: drop-shadow(0 0 3px var(--client)); }
+pre.mermaid marker path { fill: var(--client); stroke: var(--client); }
 pre code { background: none; border: 0; padding: 0; }
 pre.doc { font-size: .8rem; white-space: pre-wrap; }
 /* chips: filled = data colours (sector badges), outlined = meta, teal = info, violet = machine chips */

@@ -1,6 +1,6 @@
 # WWT: Wastewater and water reuse
 
-22 sources. Sub-topics: physical-treatment, biological-treatment, anaerobic-treatment, membrane-and-reuse, disinfection-advanced, sludge-and-biogas, resource-recovery.
+23 sources. Sub-topics: physical-treatment, biological-treatment, anaerobic-treatment, membrane-and-reuse, disinfection-advanced, sludge-and-biogas, resource-recovery.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -25,4 +25,5 @@
 | [Toray Industries (membrane products)](https://www.toray.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Trojan Technologies (UV)](https://www.trojantechnologies.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Veolia (Water Technologies)](https://www.veoliawatertech.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [WesTech Engineering](https://www.westech-inc.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Xylem (water technology incl. Wedeco ozone/UV)](https://www.xylem.com/) | oem-supplier | global | open | summary-only (unverified) |

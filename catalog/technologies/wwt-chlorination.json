@@ -1,0 +1,114 @@
+{
+  "id": "wwt-chlorination",
+  "name": "Chlorination and dechlorination",
+  "aliases": [
+    "chlorine disinfection",
+    "sodium hypochlorite dosing",
+    "dechlorination"
+  ],
+  "sector": "WWT",
+  "category": "Disinfection and advanced oxidation",
+  "applications": [
+    "effluent disinfection with residual",
+    "odour and biofilm control",
+    "industrial cooling-water treatment"
+  ],
+  "maturity": "commercial",
+  "principle": "Dosed chlorine (gas, hypochlorite or on-site electrochlorination) forms hypochlorous acid that inactivates pathogens; a contact basin gives the required CT (concentration x time); where chlorinated organics or aquatic toxicity matter, sulphur-dioxide or bisulphite dechlorination strips residual before discharge.",
+  "process_steps": [
+    {
+      "id": "DOSE",
+      "name": "Chlorine dosing",
+      "equipment": [
+        "hypochlorite or gas dosing skids",
+        "on-site electrochlorinators"
+      ]
+    },
+    {
+      "id": "CT",
+      "name": "Contact basin (CT target)",
+      "equipment": [
+        "baffled contact tank"
+      ],
+      "to": [
+        "DECHL"
+      ],
+      "streams": {
+        "DECHL": "chlorinated effluent"
+      }
+    },
+    {
+      "id": "DECHL",
+      "name": "Dechlorination",
+      "equipment": [
+        "sulphur dioxide or bisulphite dosing",
+        "ORP control"
+      ],
+      "to": [
+        "OUT"
+      ],
+      "streams": {
+        "OUT": "dechlorinated effluent"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "Discharge or reuse",
+      "equipment": [
+        "residual monitoring"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "dosing skids",
+    "contact basin",
+    "dechlorination dosing",
+    "residual analysers"
+  ],
+  "suppliers": [
+    {
+      "name": "Evoqua Water Technologies",
+      "product": "chlorination and dechlorination systems"
+    },
+    {
+      "name": "Xylem",
+      "product": "disinfection dosing"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "contact time (CT) for bacteria",
+      "unit": "mg.min/L",
+      "low": 15,
+      "high": 30,
+      "basis": "published CT targets at typical pH",
+      "source": {
+        "url": "https://www.evoqua.com/",
+        "note": "published chlorination practice, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "evoqua",
+      "url": "https://www.evoqua.com/",
+      "note": "Evoqua disinfection pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "chemical cost per m3, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor/licensor sites do not publish operating costs.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

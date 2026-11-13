@@ -1,12 +1,12 @@
 # Catalog summary
 
-505 sources in total.
+506 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 311 |
+| PRC | 312 |
 | GAS | 235 |
 | H2 | 231 |
 | UPS | 229 |
@@ -20,7 +20,7 @@
 | MAT | 80 |
 | ROT | 71 |
 | INS | 29 |
-| WWT | 22 |
+| WWT | 23 |
 | CIV | 4 |
 | ELE | 4 |
 
@@ -28,7 +28,7 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 347 |
+| global | 348 |
 | apac | 81 |
 | sea | 65 |
 | eu | 41 |
@@ -41,7 +41,7 @@
 | Value | Sources |
 | --- | --- |
 | agency-data | 99 |
-| oem-supplier | 71 |
+| oem-supplier | 72 |
 | research-institute | 60 |
 | association | 49 |
 | journal | 49 |
@@ -57,7 +57,7 @@
 | Value | Sources |
 | --- | --- |
 | full-text-restricted | 161 |
-| summary-only | 135 |
+| summary-only | 136 |
 | catalog-only | 103 |
 | full-text-open | 103 |
 | full-text-with-attribution | 3 |
@@ -67,4 +67,4 @@
 | Value | Sources |
 | --- | --- |
 | verified | 298 |
-| unverified | 207 |
+| unverified | 208 |

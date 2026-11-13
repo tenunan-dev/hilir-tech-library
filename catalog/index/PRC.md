@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-311 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+312 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -313,5 +313,6 @@
 | [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only |
 | [Universal Industrial Gases (UIG)](https://www.uigi.com) | agency-data | global | open | full-text-restricted |
 | [Veolia (Water Technologies)](https://www.veoliawatertech.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [WesTech Engineering](https://www.westech-inc.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |
 | [Xylem (water technology incl. Wedeco ozone/UV)](https://www.xylem.com/) | oem-supplier | global | open | summary-only (unverified) |

@@ -1,0 +1,121 @@
+{
+  "id": "wwt-brine-concentration",
+  "name": "Brine concentration and selective salt recovery",
+  "aliases": [
+    "brine minimisation",
+    "salts recovery",
+    "HERO concentrate treatment"
+  ],
+  "sector": "WWT",
+  "category": "Resource recovery and ZLD",
+  "applications": [
+    "reducing ZLD energy cost by pre-concentrating",
+    "salt products from desalination and industrial brine",
+    "discharge volume reduction"
+  ],
+  "maturity": "demonstration",
+  "principle": "Steps ahead of full ZLD: high-pressure RO/HERO, membrane distillation or electrodialysis reversal push brine from a typical 4-8% up to 15-25% salt, cutting evaporator duty; nanofiltration fractionation or selective crystallisation then splits mixed brine into saleable single salts (NaCl, Na2SO4) instead of a mixed waste.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Brine feed and softening",
+      "equipment": [
+        "softening if needed"
+      ]
+    },
+    {
+      "id": "CONC",
+      "name": "Concentration",
+      "equipment": [
+        "high-pressure RO / HERO / membrane distillation / EDR"
+      ],
+      "to": [
+        "FRAC",
+        "PERM"
+      ],
+      "streams": {
+        "FRAC": "concentrated brine",
+        "PERM": "permeate to reuse"
+      }
+    },
+    {
+      "id": "FRAC",
+      "name": "Selective salt recovery",
+      "equipment": [
+        "nanofiltration fractionation",
+        "crystallisers for single salts"
+      ],
+      "to": [
+        "SALT"
+      ],
+      "streams": {
+        "SALT": "single-salt product"
+      }
+    },
+    {
+      "id": "SALT",
+      "name": "Salt product handling",
+      "equipment": [
+        "drying and bagging"
+      ]
+    },
+    {
+      "id": "PERM",
+      "name": "Permeate recycle",
+      "equipment": [
+        "polish before reuse"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "high-pressure RO or HERO",
+    "membrane distillation or EDR",
+    "crystallisers"
+  ],
+  "suppliers": [
+    {
+      "name": "Aquatech International",
+      "product": "HERO concentrate treatment"
+    },
+    {
+      "name": "Gradiant",
+      "product": "brine concentration and salt recovery"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "brine concentration reached before evaporation",
+      "unit": "% salt",
+      "low": 15,
+      "high": 25,
+      "basis": "published concentration targets",
+      "source": {
+        "url": "https://www.aquatech.com/",
+        "note": "Aquatech HERO pages, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "aquatech-llc",
+      "url": "https://www.aquatech.com/",
+      "note": "Aquatech brine pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per m3 of brine, dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor sites do not publish plant prices.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Ask owner for a priced reference or use GWI benchmarks."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

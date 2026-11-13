@@ -1,6 +1,6 @@
 # Technology register
 
-401 technologies across oil, gas, petrochemicals and new energy; 376 have a technology card so far.
+401 technologies across oil, gas, petrochemicals and new energy; 381 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -471,7 +471,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Biological treatment | Aerobic granular sludge treatment (Nereda) | commercial | Royal HaskoningDHV (licensor) | [card](technologies-WWT.md#wwt-aerobic-granular-sludge) |
 | Biological treatment | Moving bed biofilm reactor (MBBR/IFAS) | commercial | Veolia/AnoxKaldnes, Headworks, WABAG | [card](technologies-WWT.md#wwt-mbbr) |
 | Biological treatment | Membrane bioreactor (MBR) wastewater treatment | commercial | Kubota, Suez (ZeeWeed), Toray, Mitsubishi Chemical Aqua | [card](technologies-WWT.md#wwt-membrane-bioreactor) |
-| Biological treatment | Trickling filters and rotating biological contactors | commercial | Legacy municipal, WesTech |  |
+| Biological treatment | Trickling filters and rotating biological contactors | commercial | Legacy municipal, WesTech | [card](technologies-WWT.md#wwt-trickling-filters) |
 | Biological treatment | Biological nutrient removal (BNR) | commercial | Black & Veatch, Jacobs (biowise), Veolia | [card](technologies-WWT.md#wwt-bnr) |
 | Anaerobic treatment | Upflow anaerobic sludge blanket (UASB/EGSB) | commercial | Paques, Biothane (Veolia), Hydroxy / Ecolab? | [card](technologies-WWT.md#wwt-uasb) |
 | Anaerobic treatment | Internal-circulation anaerobic reactor (Paques BIOPAQ IC) | commercial | Paques (licensor) | [card](technologies-WWT.md#wwt-anaerobic-internal-circulation) |
@@ -485,13 +485,13 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Disinfection and advanced oxidation | UV disinfection | commercial | Trojan Technologies, Xylem (Wedeco), Evoqua | [card](technologies-WWT.md#wwt-uv-disinfection) |
 | Disinfection and advanced oxidation | Ozonation and ozone-BAC filtration | commercial | Xylem (Wedeco), Primozone, Wedeco/ITT legacy | [card](technologies-WWT.md#wwt-ozone) |
 | Disinfection and advanced oxidation | Advanced oxidation processes (AOP) | demonstration | Xylem, Evoqua, Hydroxyl systems | [card](technologies-WWT.md#wwt-aop) |
-| Disinfection and advanced oxidation | Chlorination and dechlorination | commercial | Municipal standard, Evoqua, ProMinent |  |
-| Sludge and biogas | Sludge thickening (gravity, DAF, drum) | commercial | Veolia, WesTech, Flottweg |  |
+| Disinfection and advanced oxidation | Chlorination and dechlorination | commercial | Municipal standard, Evoqua, ProMinent | [card](technologies-WWT.md#wwt-chlorination) |
+| Sludge and biogas | Sludge thickening | commercial | Veolia, WesTech, Flottweg | [card](technologies-WWT.md#wwt-sludge-thickening) |
 | Sludge and biogas | Mechanical sludge dewatering | commercial | Alfa Laval, Andritz, Flottweg, Huber | [card](technologies-WWT.md#wwt-sludge-dewatering) |
 | Sludge and biogas | Thermal sludge drying and pyrolysis | demonstration | Andritz, Huber, Mid-South Engineering | [card](technologies-WWT.md#wwt-sludge-drying) |
 | Sludge and biogas | Sludge incineration and co-incineration | commercial | Veolia, Hitachi Zosen, Doosan | [card](technologies-WWT.md#wwt-sludge-incineration) |
 | Sludge and biogas | Biogas upgrading to biomethane | commercial | Pentair, DMT, CarboTech, Evonik (Sepuran) | [card](technologies-H2.md#h2-biogas-upgrading) |
 | Resource recovery and ZLD | Nutrient recovery (struvite and ammonia) | demonstration | Ostara (Pearl), Paques (Thiopaq/ANAMMOX), Veolia | [card](technologies-WWT.md#wwt-struvite-recovery) |
 | Resource recovery and ZLD | Zero liquid discharge (ZLD) | commercial | Aquatech, Veolia (HPD), GE legacy, Salsnes? | [card](technologies-WWT.md#wwt-zld) |
-| Resource recovery and ZLD | Brine concentration and selective salt recovery | demonstration | Aquatech, Oasys, Gradiant (ClearTreat) |  |
-| Resource recovery and ZLD | Water minimisation and reuse pinch for industry | commercial | Consultants (GHD, AECOM), Gradiant |  |
+| Resource recovery and ZLD | Brine concentration and selective salt recovery | demonstration | Aquatech, Oasys, Gradiant (ClearTreat) | [card](technologies-WWT.md#wwt-brine-concentration) |
+| Resource recovery and ZLD | Water minimisation and reuse pinch for industry | commercial | Consultants (GHD, AECOM), Gradiant | [card](technologies-WWT.md#wwt-water-pinch) |

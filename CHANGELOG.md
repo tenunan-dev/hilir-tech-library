@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.6] — 2026-11-13 — WWT register closed + neon glow on diagrams
+
+### Added
+
+- **Five WWT cards close the register**: trickling filters/RBC, chlorination-dechlorination, sludge thickening, brine concentration and selective salt recovery, water minimisation/pinch. Every WWT register entry now has a card — **33 WWT cards**, 373 total.
+- Source record `westech` (WesTech Engineering).
+
+### Changed
+
+- **Block-diagram neon glow (owner request)**: node outlines glow teal (`--info` drop-shadow) and arrows glow petroleum gold (`--client`, marker fill matched), both following the live design tokens so light mode stays correct. Strokes raised to 2 px.
+
 ## [2026.11.13.5] — 2026-11-13 — Block-diagram theme fixed to the estate design (owner feedback)
 
 ### Fixed

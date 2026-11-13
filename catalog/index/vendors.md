@@ -659,7 +659,7 @@ batch of this directory.
 - **IDC** (6): Boyd; Caterpillar; CoolIT Systems; Enel X; GridBeyond; Motivair
 - **INS** (1): Yokogawa
 - **REF** (1): Yokogawa
-- **WWT** (20): ADI Systems (Veolia); Aqua-Aerobic Systems; Biothane (Veolia); Cambi; CETCO; Evoqua; Flottweg; Frames Group; Headworks BIO; Hydro International; Kemira; Mitsubishi Chemical Aqua Solutions; Modern Water; Nitto (Hydranautics); Oasys Water; Ostara; Paques; Primozone; WesTech; Xergi
+- **WWT** (22): ADI Systems (Veolia); Aqua-Aerobic Systems; Biothane (Veolia); Cambi; CETCO; Evoqua; Flottweg; Frames Group; GHD; Gradiant; Headworks BIO; Hydro International; Kemira; Mitsubishi Chemical Aqua Solutions; Modern Water; Nitto (Hydranautics); Oasys Water; Ostara; Paques; Primozone; WesTech; Xergi
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
@@ -671,4 +671,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-334 of 368 cards list at least one directory vendor.
+339 of 373 cards list at least one directory vendor.
