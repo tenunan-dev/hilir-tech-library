@@ -7,18 +7,25 @@
   "description": "Malaysian transformer manufacturer and wholly owned Tenaga Nasional Berhad (TNB) subsidiary: distribution, power, dry-type and generator transformers from 100 kVA to 100 MVA, plus remanufacturing, retrofit and refurbishment services to 275 kV. Serves TNB, SESB, IPPs and the oil and gas sector.",
   "technologies": ["ele-transformers", "ele-mv-distribution", "ele-uhv-substations"],
   "products": [
-    "distribution transformers (to 5,000 kVA, 33 kV class per company history)",
-    "power transformers (to 100 MVA)",
+    "distribution transformers, 100 kVA to 3,000 kVA, to 33 kV",
+    "power transformers, 5 MVA to 90 MVA, to 150 kV",
+    "oil-immersed transformers",
     "dry-type transformers",
-    "generator transformers",
     "earthing transformers",
-    "compact substation units"
+    "generator transformers",
+    "customised design transformers",
+    "compact substation units (CSU: transformer, switchgear and protection integrated)",
+    "3D wound-core transformers (reduced losses)"
   ],
   "url": "https://www.malaysiatransformer.com/",
   "sources": [
     {
       "url": "https://www.malaysiatransformer.com/",
       "note": "MTM homepage: TNB wholly owned subsidiary, transformer range 100 kVA to 100 MVA including distribution, power, dry-type and generator units; remanufacturing/refurbishment services, read 2026-11-13"
+    },
+    {
+      "url": "https://www.malaysiatransformer.com/products",
+      "note": "MTM Products page: production range 300 kVA at 0.433 kV up to 90 MVA at 132/33 kV; distribution 100 kVA-3,000 kVA to 33 kV; power 5 MVA-90 MVA to 150 kV; CSU and 3D wound-core lines, read in browser 2026-11-13"
     }
   ],
   "last_reviewed": "2026-11-13"

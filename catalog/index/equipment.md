@@ -374,8 +374,14 @@ Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 | busbar continuous current, Siemens 8DJH | 630 A | 8DJH datasheet: busbar rated continuous current 630 A |
 | internal arc classification, Siemens 8DJH at 12 kV | 25 kA for 1 s | 8DJH: short-time withstand 25 kA for 1 s up to 17.5 kV (20-21 kA for 3 s); optional IAC A FL/FLR 21 kA 1 s |
 | partition and continuity class, Siemens 8DJH | LSC 2, partition class PM class | 8DJH datasheet: partition class PM, loss of service continuity LSC 2, type-tested to IEC 62271-200 |
-| busbar current, ABB SafeRing at 12 kV | 630-1250 A | SafeRing 12/17.5/24 kV: C-module rated current 630 A; CB module up to 1250 A |
-| short-circuit withstand, ABB SafeRing | 16-21 kA for 3 s | SafeRing catalogue: 21/16/16 kA for 3 s across 12/17.5/24 kV; V20/V25 modules give 20-25 kA breaking |
+| busbar current, ABB SafeRing/SafePlus | 630 A | ABB product scope table: max rated continuous current (busbar) 630 A for both the SF6 and the SF6-free SafeRing Air/SafePlus Air ranges |
+| rated voltage and short-time withstand, ABB SafeRing/SafePlus | 12-40.5 kV | ABB product scope: up to 40.5 kV; short-time withstand up to 20 kA for 3 s at 24 kV and up to 25 kA for 3 s at 12/36/40.5 kV (SF6-free Air variant: up to 24 kV, 20 kA for 3 s). SF6 tank sealed for life over 30 years with leakage below 0.1% per year |
+| rated voltage, Eaton Xiria 630 | 3.6-24 kV | Xiria 630 technical data table: rated voltage 3.6, 7.2, 12, 17.5 and 24 kV; impulse withstand 40-125 kV, power-frequency withstand 10-50 kV for 1 min |
+| busbar current and peak withstand, Eaton Xiria 630 | 630 A | Xiria 630: load-break switch and circuit-breaker rated current 630 A; rated peak withstand current 50 kA; short-time withstand 20 kA for 1 s or 20 kA for 3 s |
+| internal arc classification, Eaton Xiria 630 | 21 kA for 1 s | Xiria 630: IAC AFLR 21 kA for 1 s (16 kA with absorber or cable compartment). Classification LSC2, partition class PM, degree of protection IP3X in service, ambient -25 to +40 C. SF6-free: switching and insulation by vacuum |
+| rated voltage, Schneider RM6 | 24 kV | Schneider RM6 facts: gas-insulated RMU up to 24 kV, standard IEC 62271-200, 50 or 60 Hz |
+| busbar and switching currents, Schneider RM6 | 630 A | RM6: busbar and load-break switch 630 A; circuit breaker 200 A for transformer protection or 630 A for feeder protection; single busbar system |
+| short-circuit and arc ratings, Schneider RM6 | 20-21 kA | RM6: short-circuit rated current up to 21 kA for 1 s; internal arc classification up to 20 kA AFLR with options; loss of service continuity LSC 2 A, partition class PM |
 | indicative cost, 12-24 kV SF6 RMU, unit | 2000-7000 USD per unit | Indicative B2B listings: compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Indicative only, not a quote. |
 | TNB 11 kV motorised RMU supply contract value (benchmark, not unit price) | 113.31 MYR million | TNB Letter of Award to EPE Switchgear (60% subsidiary of Pekat Group) for 11 kV motorised RMUs with interconnectors and remote control boxes, various configurations, two-year term from 29 December 2025; RM113.31 million inclusive of SST. A multi-configuration supply contract, so it bounds rather than fixes a per-unit price. |
 
@@ -387,7 +393,6 @@ Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 Recorded gaps:
 
 - per-panel prices from ABB/Schneider/Eaton themselves — Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark
-- Eaton Xiria and Schneider RM6 datasheet values — Read the Xiria and RM6 catalogues and record the same ratings set
 
 ## ozone-generators
 
@@ -452,6 +457,8 @@ Vendors: Malaysia Transformer Manufacturing (MTM), Hitachi Energy, Siemens Energ
 | short-circuit impedance, distribution class | 4.5-6.5 % | Typical 11 kV distribution transformer impedance range; TNB specifications commonly fall at 4.5-6% |
 | distribution transformer rating | 500-2500 kVA | Typical 11-33 kV / 415-433 V distribution sizes in Malaysian schedules |
 | power transformer rating | 100-700 MVA | Grid bank sizes at 275 and 500 kV |
+| distribution transformer rating, Malaysia Transformer Manufacturing (MTM) | 100-3000 kVA | MTM Products page: distribution transformers 100 kVA to 3,000 kVA for voltages up to 33 kV; overall production range stated as 300 kVA at 0.433 kV up to 90 MVA at 132/33 kV |
+| power transformer rating, MTM | 5-90 MVA | MTM Products page: power transformers 5 MVA to 90 MVA, supporting up to 150 kV |
 | indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer | 7000-20000 USD per unit | Indicative export quotes: aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000. Malaysian landed prices are expected 30-60% above these FOB figures for duties, SST, compliance testing and local margin (roughly MYR 80,000-150,000 for a compliant S13-class copper unit). Indicative only. |
 
 - **Malaysia Transformer Manufacturing (MTM)** MTM distribution and power transformers: 100 kVA to 100 MVA; refurbishment to 275 kV
