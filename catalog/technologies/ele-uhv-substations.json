@@ -1,0 +1,155 @@
+{
+  "id": "ele-uhv-substations",
+  "name": "UHV and HV substations (275-500 kV)",
+  "aliases": [
+    "500 kV substation",
+    "275 kV substation",
+    "bulk supply substation"
+  ],
+  "sector": "ELE",
+  "category": "Power generation and distribution",
+  "applications": [
+    "bulk grid transfer nodes",
+    "large plant grid connections",
+    "reliability reinforcement"
+  ],
+  "maturity": "commercial",
+  "principle": "The 275 kV and 500 kV bulk nodes of the Malaysian grid. Air-insulated switchyard designs (dead-tank breakers, disconnectors, CTs and VTs, surge arresters, lattice busbars) dominate on land, with gas-insulated switchgear for space-constrained urban sites. Transformer banks step 500/275 kV and 275/132 kV; shunt reactors and capacitor banks or SVC/STATCOM manage voltage on long lines; IEC 61850 substation automation runs protection and monitoring.",
+  "process_steps": [
+    {
+      "id": "BAY",
+      "name": "Incoming line bays",
+      "equipment": [
+        "line disconnectors",
+        "surge arresters",
+        "capacitor voltage transformers"
+      ],
+      "to": [
+        "BUS"
+      ],
+      "streams": {
+        "BUS": "busbar"
+      }
+    },
+    {
+      "id": "BUS",
+      "name": "Busbars and transfer schemes (AIS or GIS)",
+      "equipment": [
+        "double busbar",
+        "bus coupler and transfer breakers"
+      ],
+      "to": [
+        "TRF",
+        "COMP"
+      ],
+      "streams": {
+        "TRF": "transformer bays",
+        "COMP": "reactive compensation"
+      }
+    },
+    {
+      "id": "TRF",
+      "name": "Power transformer banks",
+      "equipment": [
+        "500/275 kV and 275/132 kV banks",
+        "on-load tap changers",
+        "Buchholz and protection devices"
+      ],
+      "to": [
+        "PROT"
+      ],
+      "streams": {
+        "PROT": "protection and control"
+      }
+    },
+    {
+      "id": "COMP",
+      "name": "Reactive compensation",
+      "equipment": [
+        "shunt reactors",
+        "capacitor banks, SVC or STATCOM"
+      ]
+    },
+    {
+      "id": "PROT",
+      "name": "Substation automation and protection",
+      "equipment": [
+        "IEC 61850 IEDs",
+        "SCADA gateway",
+        "redundant protection schemes"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "power transformers",
+    "dead-tank and GIS circuit breakers",
+    "disconnectors and earthing switches",
+    "current and voltage transformers",
+    "surge arresters",
+    "protection IEDs"
+  ],
+  "suppliers": [
+    {
+      "name": "Hitachi Energy",
+      "product": "power transformers, GIS and HVDC"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "GIS, transformers and substation automation"
+    },
+    {
+      "name": "GE Vernova",
+      "product": "high-voltage equipment"
+    },
+    {
+      "name": "Hyundai Electric",
+      "product": "transformers and switchgear"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "275 kV fault level rating",
+      "unit": "kA",
+      "low": 40,
+      "high": 50,
+      "basis": "TNB 275 kV 40 kA for 3 s, 50 kA near power stations",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "500 kV fault level rating",
+      "unit": "kA",
+      "low": 50,
+      "high": 50,
+      "basis": "TNB 500 kV 50 kA for 1 s",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB fault-level and voltage tables, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per bay or per MVA of substation capacity",
+      "reason_code": "not_in_sources_read",
+      "reason": "Network operators do not publish substation costs.",
+      "where": [
+        {
+          "hint": "GSO or Energy Commission regulatory filings"
+        }
+      ],
+      "action": "Ask owner for a priced reference."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

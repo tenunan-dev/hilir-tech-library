@@ -1,6 +1,6 @@
 # Technology register
 
-401 technologies across oil, gas, petrochemicals and new energy; 381 have a technology card so far.
+406 technologies across oil, gas, petrochemicals and new energy; 386 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -398,6 +398,11 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
+| Power generation and distribution | Low-voltage distribution (415/240 V) | commercial | Schneider Electric, ABB, Siemens, Eaton (Malaysia panel builders) | [card](technologies-ELE.md#ele-lv-distribution) |
+| Power generation and distribution | Medium-voltage distribution (11 kV and 33 kV) | commercial | ABB, Schneider Electric, Siemens, Eaton; licensed by TNB | [card](technologies-ELE.md#ele-mv-distribution) |
+| Power generation and distribution | Overhead transmission lines (132-500 kV) | commercial | TNB (operator), Siemens Energy, GE Vernova, Hitachi Energy | [card](technologies-ELE.md#ele-transmission-lines) |
+| Power generation and distribution | UHV and HV substations (275-500 kV) | commercial | Hitachi Energy, Siemens Energy, GE Vernova, HD Hyundai Electric | [card](technologies-ELE.md#ele-uhv-substations) |
+| Power generation and distribution | Grid connection and interconnection studies | commercial | GSO (grid code), TNB, Siemens PTI, DNV | [card](technologies-ELE.md#ele-grid-connection) |
 | Power generation and distribution | On-site gas turbine power generation | commercial | Siemens Energy, Mitsubishi Heavy Industries, Baker Hughes, MAN Energy | [card](technologies-ELE.md#ele-gt-power-generation) |
 | Power generation and distribution | HV/MV switchgear and site power distribution | commercial | ABB, Schneider Electric, Siemens Energy, Hitachi Energy, Eaton | [card](technologies-ELE.md#ele-hv-switchgear-distribution) |
 | Power generation and distribution | Power system protection and relaying | commercial | SEL, ABB, Schneider Electric, Siemens Energy, GE Vernova | [card](technologies-ELE.md#ele-protection-relaying) |

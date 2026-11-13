@@ -1,0 +1,40 @@
+{
+  "id": "ele-power-cables",
+  "name": "Power cables (LV to 500 kV)",
+  "equipment_type": "power-cables",
+  "sector": "ELE",
+  "sector_codes": ["ELE"],
+  "description": "XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 and IEC 60840/62067.",
+  "subtypes": [
+    {"name": "LV XLPE/PVC cables (0.6/1 kV)"},
+    {"name": "MV XLPE cables (6.6/11/22/33 kV)"},
+    {"name": "HV transmission cables (132-275 kV)"},
+    {"name": "Fire-resistant and mineral-insulated cable"}
+  ],
+  "applications": [
+    "substation interconnectors",
+    "buried distribution networks",
+    "plant power and control"
+  ],
+  "specifications": [
+    {"metric": "voltage grades covering the Malaysian system", "unit": "kV", "low": 0.6, "high": 275,
+     "basis": "0.6/1 kV LV through 11-33 kV MV to 132-275 kV transmission cable grades",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"}},
+    {"metric": "conductor material", "unit": "type", "low": 1, "high": 1,
+     "basis": "copper for LV and aluminium for HV conductors",
+     "source": {"url": "https://www.prysmian.com/", "note": "Prysmian cable catalogue, read 2026-11-13"}}
+  ],
+  "vendor_models": [
+    {"vendor": "prysmian", "line": "XLPE cables", "models": ["Medium voltage XLPE", "High voltage XLPE"], "range": "0.6 kV to 400 kV"},
+    {"vendor": "nexans", "line": "Power cables", "models": ["MV XLPE", "HV XLPE"], "range": "LV to EHV"}
+  ],
+  "vendors": ["prysmian", "nexans"],
+  "technologies": ["ele-cable-systems", "ele-mv-distribution", "ele-transmission-lines"],
+  "sources": [
+    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"}
+  ],
+  "gaps": [
+    {"what": "ampacity tables by installation method", "why": "Cable ampacity depends on derating and was not read this pass", "next_action": "Read IEC 60287/60364 ampacity tables"}
+  ],
+  "last_reviewed": "2026-11-13"
+}

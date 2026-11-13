@@ -1,0 +1,17 @@
+{
+  "id": "hyundai-electric",
+  "name": "HD Hyundai Electric",
+  "country": "KR",
+  "roles": ["oem"],
+  "categories": ["equipment-oem"],
+  "description": "Korean heavy-electrical OEM: power transformers, gas-insulated switchgear, high-voltage circuit breakers and HVDC equipment; a major supplier to Asian transmission utilities.",
+  "technologies": ["ele-uhv-substations", "ele-transformers", "ele-hv-switchgear-distribution"],
+  "url": "https://www.hyundai-electric.com",
+  "sources": [
+    {
+      "url": "https://www.hyundai-electric.com",
+      "note": "corporate site cited for product families; page not re-read this pass (registered as unverified), 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

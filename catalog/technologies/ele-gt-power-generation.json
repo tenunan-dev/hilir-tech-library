@@ -1,112 +1,159 @@
 {
- "id": "ele-gt-power-generation",
- "name": "On-site gas turbine power generation",
- "aliases": [
-  "site power plant",
-  "gas turbine generator",
-  "GTG",
-  "cogeneration",
-  "island mode"
- ],
- "sector": "ELE",
- "category": "Power generation",
- "applications": [
-  "remote facilities without grid",
-  "offshore platforms",
-  "LNG plants",
-  "refineries and petrochemical complexes",
-  "island and parallel operation with the grid"
- ],
- "maturity": "commercial",
- "principle": "Facilities generate their own power with gas turbine generator sets when the grid is weak, absent or considered unreliable, or when waste heat from exhaust can drive steam for process use (cogeneration). Industrial and aeroderivative turbines from about 5 MW to well above 100 MW are installed per train; multiple units run with a power management system, spinning reserve and load-shed logic. Offshore and remote platforms historically ran at 4.16 kV or 11 kV with closed-bus transfer between boards.",
- "process_steps": [
-  {
-   "id": "CMP",
-   "name": "Compressor raises combustion air",
-   "equipment": [
-    "axial compressor"
-   ]
-  },
-  {
-   "id": "BUR",
-   "name": "Fuel burns in combustors; turbine expands hot gas",
-   "equipment": [
-    "combustors",
-    "turbine"
-   ]
-  },
-  {
-   "id": "GEN",
-   "name": "Generator converts shaft power to electricity",
-   "equipment": [
-    "synchronous generator"
-   ]
-  },
-  {
-   "id": "EXH",
-   "name": "Exhaust heat raised to steam where cogeneration applies",
-   "equipment": [
-    "HRSG"
-   ]
-  },
-  {
-   "id": "DIS",
-   "name": "PMS dispatches generation against demand, reserve and shed priority",
-   "equipment": [
-    "power management system"
-   ]
-  }
- ],
- "key_equipment": [
-  "gas turbine generator sets",
-  "HRSG",
-  "generators",
-  "power management system",
-  "fuel gas conditioning"
- ],
- "suppliers": [
-  {
-   "name": "Siemens Energy",
-   "product": "industrial and aeroderivative gas turbines"
-  },
-  {
-   "name": "Mitsubishi Heavy Industries",
-   "product": "gas turbines"
-  },
-  {
-   "name": "Baker Hughes",
-   "product": "NovaLT and aeroderivative gensets"
-  },
-  {
-   "name": "MAN Energy Solutions",
-   "product": "gensets"
-  }
- ],
- "performance": [],
- "limitations": [
-  "fuel is a large fixed opex; efficiency of simple-cycle industrial sets is far below combined cycle",
-  "island operation demands careful transient studies, load-shed tuning and closed-bus transfer design"
- ],
- "advantages": [
-  "energy independence for remote sites and platforms",
-  "exhaust heat reuse makes cogeneration efficiency attractive versus grid plus boilers"
- ],
- "sources": [
-  {
-   "url": "https://www.siemens-energy.com/global/en/home.html",
-   "source_id": "siemens-energy",
-   "note": "gas turbine and genset product family, site read 2026-11-07"
-  },
-  {
-   "url": "https://www.mhi.com/",
-   "source_id": "mitsubishi-heavy",
-   "note": "MHI gas turbine product range, site read 2026-11-07"
-  },
-  {
-   "url": "https://www.eia.gov/electricity/",
-   "source_id": "eia-reports",
-   "note": "EIA electricity statistics context for generation economics, read 2026-11-07"
-  }
- ],
- "last_reviewed": "2026-11-07"
+  "id": "ele-gt-power-generation",
+  "name": "On-site gas turbine power generation",
+  "aliases": [
+    "site power plant",
+    "gas turbine generator",
+    "GTG",
+    "cogeneration",
+    "island mode"
+  ],
+  "sector": "ELE",
+  "category": "Power generation",
+  "applications": [
+    "remote facilities without grid",
+    "offshore platforms",
+    "LNG plants",
+    "refineries and petrochemical complexes",
+    "island and parallel operation with the grid"
+  ],
+  "maturity": "commercial",
+  "principle": "Facilities generate their own power with gas turbine generator sets when the grid is weak, absent or considered unreliable, or when waste heat from exhaust can drive steam for process use (cogeneration). Industrial and aeroderivative turbines from about 5 MW to well above 100 MW are installed per train; multiple units run with a power management system, spinning reserve and load-shed logic. Offshore and remote platforms historically ran at 4.16 kV or 11 kV with closed-bus transfer between boards.",
+  "process_steps": [
+    {
+      "id": "CMP",
+      "name": "Compressor raises combustion air",
+      "equipment": [
+        "axial compressor"
+      ]
+    },
+    {
+      "id": "BUR",
+      "name": "Fuel burns in combustors; turbine expands hot gas",
+      "equipment": [
+        "combustors",
+        "turbine"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Generator converts shaft power to electricity",
+      "equipment": [
+        "synchronous generator"
+      ]
+    },
+    {
+      "id": "EXH",
+      "name": "Exhaust heat raised to steam where cogeneration applies",
+      "equipment": [
+        "HRSG"
+      ]
+    },
+    {
+      "id": "DIS",
+      "name": "PMS dispatches generation against demand, reserve and shed priority",
+      "equipment": [
+        "power management system"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "gas turbine generator sets",
+    "HRSG",
+    "generators",
+    "power management system",
+    "fuel gas conditioning"
+  ],
+  "suppliers": [
+    {
+      "name": "Siemens Energy",
+      "product": "industrial and aeroderivative gas turbines"
+    },
+    {
+      "name": "Mitsubishi Heavy Industries",
+      "product": "gas turbines"
+    },
+    {
+      "name": "Baker Hughes",
+      "product": "NovaLT and aeroderivative gensets"
+    },
+    {
+      "name": "MAN Energy Solutions",
+      "product": "gensets"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "generator connection voltage to TNB grid",
+      "unit": "kV",
+      "low": 11,
+      "high": 275,
+      "basis": "embedded generation connects at 11 kV through to 275 kV by size",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB published table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "132/275 kV supply threshold for large connections",
+      "unit": "kVA",
+      "low": 25000,
+      "high": 25000,
+      "basis": "TNB supplies 132 kV and 275 kV above about 25,000 kVA",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB published table, read 2026-11-13"
+      }
+    }
+  ],
+  "limitations": [
+    "fuel is a large fixed opex; efficiency of simple-cycle industrial sets is far below combined cycle",
+    "island operation demands careful transient studies, load-shed tuning and closed-bus transfer design"
+  ],
+  "advantages": [
+    "energy independence for remote sites and platforms",
+    "exhaust heat reuse makes cogeneration efficiency attractive versus grid plus boilers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.siemens-energy.com/global/en/home.html",
+      "source_id": "siemens-energy",
+      "note": "gas turbine and genset product family, site read 2026-11-07"
+    },
+    {
+      "url": "https://www.mhi.com/",
+      "source_id": "mitsubishi-heavy",
+      "note": "MHI gas turbine product range, site read 2026-11-07"
+    },
+    {
+      "url": "https://www.eia.gov/electricity/",
+      "source_id": "eia-reports",
+      "note": "EIA electricity statistics context for generation economics, read 2026-11-07"
+    },
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB voltage and fault-level tables, read 2026-11-13"
+    },
+    {
+      "source_id": "gso",
+      "url": "https://www.gso.org.my/",
+      "note": "GSO grid code context, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per MW installed, open cycle and combined cycle",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "where": [
+        {
+          "hint": "Ask the owner for a Malaysian contractor benchmark"
+        }
+      ],
+      "action": "Ask owner for a priced reference or a contractor quote."
+    }
+  ]
 }

@@ -1,0 +1,44 @@
+{
+  "id": "ele-hv-circuit-breakers",
+  "name": "High-voltage circuit breakers (132-500 kV)",
+  "equipment_type": "hv-circuit-breakers",
+  "sector": "ELE",
+  "sector_codes": ["ELE"],
+  "description": "SF6 and vacuum circuit breakers at 132, 275 and 500 kV for grid and substation duty, with their interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.",
+  "subtypes": [
+    {"name": "Dead-tank SF6 circuit breakers"},
+    {"name": "Live-tank SF6 circuit breakers"},
+    {"name": "GIS-integrated breakers"},
+    {"name": "Vacuum breakers for 11-33 kV"}
+  ],
+  "applications": [
+    "line and transformer bay switching",
+    "fault interruption",
+    "busbar transfer"
+  ],
+  "specifications": [
+    {"metric": "interrupting rating at 500 kV", "unit": "kA", "low": 50, "high": 63,
+     "basis": "TNB 500 kV fault rating 50 kA at 1 s; breakers specified at or above it",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
+    {"metric": "interrupting rating at 275 kV", "unit": "kA", "low": 40, "high": 50,
+     "basis": "TNB 275 kV fault rating 40 kA at 3 s, 50 kA near power stations",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
+    {"metric": "interrupting rating at 132 kV", "unit": "kA", "low": 31.5, "high": 40,
+     "basis": "TNB 132 kV fault rating 31.5 kA at 3 s, 40 kA near power stations",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}}
+  ],
+  "vendor_models": [
+    {"vendor": "hitachi-energy", "line": "Live tank / dead tank", "models": ["LTA", "DTB"], "range": "72.5-800 kV"},
+    {"vendor": "siemens-energy", "line": "3AP / 3AT", "models": ["3AP live tank", "3AT dead tank"], "range": "72.5-550 kV"},
+    {"vendor": "ge-vernova", "line": "Dead tank breakers", "models": ["DT", "TRV"], "range": "72.5-800 kV"}
+  ],
+  "vendors": ["hitachi-energy", "siemens-energy", "ge-vernova"],
+  "technologies": ["ele-uhv-substations", "ele-protection-relaying", "ele-transmission-lines"],
+  "sources": [
+    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}
+  ],
+  "gaps": [
+    {"what": "SF6 leakage and operating-time figures", "why": "Datasheets were not read this pass", "next_action": "Read breaker datasheets and record leak rate and operating times"}
+  ],
+  "last_reviewed": "2026-11-13"
+}

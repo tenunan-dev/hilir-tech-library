@@ -1,0 +1,47 @@
+{
+  "id": "ele-mv-switchgear",
+  "name": "MV switchgear and ring main units (11-33 kV)",
+  "equipment_type": "mv-switchgear",
+  "sector": "ELE",
+  "sector_codes": ["ELE"],
+  "description": "11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271.",
+  "subtypes": [
+    {"name": "Ring main unit (RMU) with load-break switches and fuse/T-off"},
+    {"name": "Metal-clad vacuum circuit-breaker switchgear"},
+    {"name": "Gas-insulated switchgear (GIS) for space-constrained sites"}
+  ],
+  "applications": [
+    "TNB 11 kV and 33 kV intake",
+    "plant distribution ring",
+    "package substation"
+  ],
+  "specifications": [
+    {"metric": "rated voltage", "unit": "kV", "low": 11, "high": 33,
+     "basis": "TNB MV distribution levels at 11 kV and 33 kV",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB supply-voltage table, read 2026-11-13"}},
+    {"metric": "short-circuit rating at 11 kV", "unit": "kA", "low": 20, "high": 25,
+     "basis": "TNB 11 kV fault rating is 20 kA for 3 s; switchgear normally rated 20-25 kA",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
+    {"metric": "short-circuit rating at 33 kV", "unit": "kA", "low": 25, "high": 31.5,
+     "basis": "TNB 33 kV fault rating is 25 kA for 3 s; switchgear rated 25-31.5 kA",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
+    {"metric": "busbar current, typical RMU", "unit": "A", "low": 630, "high": 1250,
+     "basis": "typical RMU busbar rating",
+     "source": {"url": "https://new.abb.com/medium-voltage/switchgear/ring-main-units", "note": "ABB RMU range, read 2026-11-13"}}
+  ],
+  "vendor_models": [
+    {"vendor": "abb", "line": "SafeRing / SafePlus", "models": ["SafeRing 12 kV", "SafePlus 36 kV"], "range": "11-36 kV RMU"},
+    {"vendor": "schneider-electric", "line": "RM6 / Premset", "models": ["RM6", "Premset"], "range": "11-36 kV"},
+    {"vendor": "siemens", "line": "8DJH", "models": ["8DJH 12", "8DJH 36"], "range": "11-36 kV"},
+    {"vendor": "eaton", "line": "Xiria", "models": ["Xiria E", "Xiria Panel"], "range": "12-24 kV"}
+  ],
+  "vendors": ["abb", "schneider-electric", "siemens", "eaton"],
+  "technologies": ["ele-mv-distribution", "ele-hv-switchgear-distribution"],
+  "sources": [
+    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB MV voltage and fault-level tables, read 2026-11-13"}
+  ],
+  "gaps": [
+    {"what": "per-panel price tables", "why": "Distributor-only pricing, not published", "next_action": "Ask a Malaysian switchgear panel builder for a quote benchmark"}
+  ],
+  "last_reviewed": "2026-11-13"
+}

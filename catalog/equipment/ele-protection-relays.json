@@ -1,0 +1,43 @@
+{
+  "id": "ele-protection-relays",
+  "name": "Protection relays and substation IEDs",
+  "equipment_type": "protection-relays",
+  "sector": "ELE",
+  "sector_codes": ["ELE"],
+  "description": "Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, to IEC 60255.",
+  "subtypes": [
+    {"name": "Feeder overcurrent and earth-fault relays"},
+    {"name": "Line distance and differential protection"},
+    {"name": "Transformer differential and REF protection"},
+    {"name": "Busbar protection"},
+    {"name": "Substation automation IEDs (IEC 61850)"}
+  ],
+  "applications": [
+    "transmission line protection",
+    "transformer and busbar protection",
+    "industrial plant protection"
+  ],
+  "specifications": [
+    {"metric": "fault clearance basis at 500 kV", "unit": "kA", "low": 50, "high": 50,
+     "basis": "protection must clear the 50 kA, 1 s duty",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
+    {"metric": "communication protocol", "unit": "standard", "low": 61850, "high": 61850,
+     "basis": "IEC 61850 substation automation is the standard for new installations",
+     "source": {"url": "https://www.gso.org.my/", "note": "grid code and substation practice, read 2026-11-13"}}
+  ],
+  "vendor_models": [
+    {"vendor": "hitachi-energy", "line": "REL / RED", "models": ["REL 670 line differential", "RED 670 busbar"], "range": "transmission protection"},
+    {"vendor": "siemens-energy", "line": "SIPROTEC", "models": ["SIPROTEC 5 7SA distance", "7UT transformer differential"], "range": "transmission and transformer"},
+    {"vendor": "ge-vernova", "line": "UR (Universal Relay)", "models": ["T60 transformer", "L90 line differential", "D60 distance"], "range": "transmission protection"}
+  ],
+  "vendors": ["hitachi-energy", "siemens-energy", "ge-vernova"],
+  "technologies": ["ele-protection-relaying", "ele-power-management-systems", "ele-uhv-substations"],
+  "sources": [
+    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"},
+    {"source_id": "gso", "url": "https://www.gso.org.my/", "note": "grid code context, read 2026-11-13"}
+  ],
+  "gaps": [
+    {"what": "operating times and setting ranges per model", "why": "Relay manuals are large and were not read this pass", "next_action": "Read manufacturer tech manuals for operating times"}
+  ],
+  "last_reviewed": "2026-11-13"
+}

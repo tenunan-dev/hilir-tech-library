@@ -1,111 +1,147 @@
 {
- "id": "ele-hazardous-area-electrical",
- "name": "Hazardous area electrical equipment",
- "aliases": [
-  "Ex equipment",
-  "explosion-proof",
-  "intrinsically safe",
-  "Ex d",
-  "flameproof",
-  "IEC 60079",
-  "DSEAR"
- ],
- "sector": "ELE",
- "category": "Explosion protection",
- "applications": [
-  "drilling areas",
-  "process units with flammables",
-  "fuel storage and loading",
-  "hydrogen service",
-  "dust-handling areas"
- ],
- "maturity": "commercial",
- "principle": "Where flammable atmospheres can occur, electrical equipment is selected to exclude or contain ignition sources. Areas are classified by likelihood and duration (gas: Zone 0/1/2; dust: Zone 20/21/22) under IEC 60079-10 or DSEAR in the UK, then protected by equipment protection concepts matched to the zone: intrinsic safety (Ex ia/ib) for instrumentation, flameproof enclosures (Ex d), increased safety (Ex e), pressurisation (Ex p), encapsulation (Ex m) and others. The IECEx certification system covers equipment certification, conformity of installation and personnel competence across member countries.",
- "process_steps": [
-  {
-   "id": "CLA",
-   "name": "Hazardous area classification maps zones from leak sources and dispersion",
-   "equipment": [
-    "dispersion studies"
-   ]
-  },
-  {
-   "id": "SEL",
-   "name": "Ex protection concept selected per zone and equipment group",
-   "equipment": [
-    "Ex-rated equipment"
-   ]
-  },
-  {
-   "id": "INS",
-   "name": "Certified installation with correct glands, bonding and segregation",
-   "equipment": [
-    "cable glands",
-    "earthing"
-   ]
-  },
-  {
-   "id": "CHK",
-   "name": "Initial and periodic inspections verify Ex integrity",
-   "equipment": [
-    "inspection records"
-   ]
-  }
- ],
- "key_equipment": [
-  "flameproof enclosures",
-  "intrinsically safe circuits and isolators",
-  "purge and pressurisation panels",
-  "Ex lighting and motors",
-  "sealing glands"
- ],
- "suppliers": [
-  {
-   "name": "Eaton Crouse-Hinds",
-   "product": "Ex enclosures and lighting"
-  },
-  {
-   "name": "R. Stahl",
-   "product": "Ex equipment and IS barriers"
-  },
-  {
-   "name": "Pepperl+Fuchs",
-   "product": "intrinsic safety interfaces"
-  },
-  {
-   "name": "ABB",
-   "product": "Ex motors and instrumentation"
-  },
-  {
-   "name": "Emerson",
-   "product": "Ex-rated instrumentation"
-  }
- ],
- "performance": [],
- "limitations": [
-  "modified or uncertified equipment voids the Ex certificate and the legal case for safe operation",
-  "zone extent depends on ventilation; offshore modules need module-level justification"
- ],
- "advantages": [
-  "internationally recognised certification chain lets equipment and crews move between projects",
-  "intrinsic safety removes ignition energy from instrument circuits entirely"
- ],
- "sources": [
-  {
-   "url": "https://www.iecex.com/",
-   "source_id": "iecex",
-   "note": "IECEx system and schemes, read 2026-11-07"
-  },
-  {
-   "url": "https://www.iec.ch/standards",
-   "source_id": "iec-standards",
-   "note": "IEC 60079 series, IEC web catalogue"
-  },
-  {
-   "url": "https://www.hse.gov.uk/electricity/",
-   "source_id": "hse-uk",
-   "note": "HSE guidance on explosive atmospheres and DSEAR duties, read 2026-11-07"
-  }
- ],
- "last_reviewed": "2026-11-07"
+  "id": "ele-hazardous-area-electrical",
+  "name": "Hazardous area electrical equipment",
+  "aliases": [
+    "Ex equipment",
+    "explosion-proof",
+    "intrinsically safe",
+    "Ex d",
+    "flameproof",
+    "IEC 60079",
+    "DSEAR"
+  ],
+  "sector": "ELE",
+  "category": "Explosion protection",
+  "applications": [
+    "drilling areas",
+    "process units with flammables",
+    "fuel storage and loading",
+    "hydrogen service",
+    "dust-handling areas"
+  ],
+  "maturity": "commercial",
+  "principle": "Where flammable atmospheres can occur, electrical equipment is selected to exclude or contain ignition sources. Areas are classified by likelihood and duration (gas: Zone 0/1/2; dust: Zone 20/21/22) under IEC 60079-10 or DSEAR in the UK, then protected by equipment protection concepts matched to the zone: intrinsic safety (Ex ia/ib) for instrumentation, flameproof enclosures (Ex d), increased safety (Ex e), pressurisation (Ex p), encapsulation (Ex m) and others. The IECEx certification system covers equipment certification, conformity of installation and personnel competence across member countries.",
+  "process_steps": [
+    {
+      "id": "CLA",
+      "name": "Hazardous area classification maps zones from leak sources and dispersion",
+      "equipment": [
+        "dispersion studies"
+      ]
+    },
+    {
+      "id": "SEL",
+      "name": "Ex protection concept selected per zone and equipment group",
+      "equipment": [
+        "Ex-rated equipment"
+      ]
+    },
+    {
+      "id": "INS",
+      "name": "Certified installation with correct glands, bonding and segregation",
+      "equipment": [
+        "cable glands",
+        "earthing"
+      ]
+    },
+    {
+      "id": "CHK",
+      "name": "Initial and periodic inspections verify Ex integrity",
+      "equipment": [
+        "inspection records"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "flameproof enclosures",
+    "intrinsically safe circuits and isolators",
+    "purge and pressurisation panels",
+    "Ex lighting and motors",
+    "sealing glands"
+  ],
+  "suppliers": [
+    {
+      "name": "Eaton Crouse-Hinds",
+      "product": "Ex enclosures and lighting"
+    },
+    {
+      "name": "R. Stahl",
+      "product": "Ex equipment and IS barriers"
+    },
+    {
+      "name": "Pepperl+Fuchs",
+      "product": "intrinsic safety interfaces"
+    },
+    {
+      "name": "ABB",
+      "product": "Ex motors and instrumentation"
+    },
+    {
+      "name": "Emerson",
+      "product": "Ex-rated instrumentation"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "LV equipment used in hazardous areas",
+      "unit": "V",
+      "low": 400,
+      "high": 415,
+      "basis": "hazardous-area equipment operates at the TNB LV level in process plants",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB published table, read 2026-11-13"
+      }
+    }
+  ],
+  "limitations": [
+    "modified or uncertified equipment voids the Ex certificate and the legal case for safe operation",
+    "zone extent depends on ventilation; offshore modules need module-level justification"
+  ],
+  "advantages": [
+    "internationally recognised certification chain lets equipment and crews move between projects",
+    "intrinsic safety removes ignition energy from instrument circuits entirely"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iecex.com/",
+      "source_id": "iecex",
+      "note": "IECEx system and schemes, read 2026-11-07"
+    },
+    {
+      "url": "https://www.iec.ch/standards",
+      "source_id": "iec-standards",
+      "note": "IEC 60079 series, IEC web catalogue"
+    },
+    {
+      "url": "https://www.hse.gov.uk/electricity/",
+      "source_id": "hse-uk",
+      "note": "HSE guidance on explosive atmospheres and DSEAR duties, read 2026-11-07"
+    },
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB voltage and fault-level tables, read 2026-11-13"
+    },
+    {
+      "source_id": "gso",
+      "url": "https://www.gso.org.my/",
+      "note": "GSO grid code context, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost premium of Ex-rated over standard equipment",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "where": [
+        {
+          "hint": "Ask the owner for a Malaysian contractor benchmark"
+        }
+      ],
+      "action": "Ask owner for a priced reference or a contractor quote."
+    }
+  ]
 }

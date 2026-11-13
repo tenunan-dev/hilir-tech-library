@@ -1,0 +1,45 @@
+{
+  "id": "ele-lv-switchboard",
+  "name": "LV switchboards and distribution boards",
+  "equipment_type": "lv-switchboards",
+  "sector": "ELE",
+  "sector_codes": ["ELE"],
+  "description": "Form 1-4 rated low-voltage assemblies at 415/240 V: main switchboards with air circuit breakers, motor control centres and final distribution boards, built to IEC 61439.",
+  "subtypes": [
+    {"name": "Form 4b main switchboard with ACB incomer"},
+    {"name": "Motor control centre with starters and drives"},
+    {"name": "Final distribution board with MCBs/RCBOs"}
+  ],
+  "applications": [
+    "plant LV distribution",
+    "building services",
+    "motor control"
+  ],
+  "specifications": [
+    {"metric": "rated busbar current", "unit": "A", "low": 630, "high": 6300,
+     "basis": "typical LV switchboard busbar ratings for Malaysian industrial premises",
+     "source": {"url": "https://new.abb.com/low-voltage/products/switching-and-protection/mns", "note": "ABB MNS switchboard range, read 2026-11-13"}},
+    {"metric": "rated operational voltage", "unit": "V", "low": 400, "high": 690,
+     "basis": "IEC 61439 LV assemblies cover 400-690 V; Malaysian LV supply is 400/415 V",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB LV supply level, read 2026-11-13"}},
+    {"metric": "short-circuit withstand", "unit": "kA", "low": 25, "high": 100,
+     "basis": "manufacturer catalogues for main switchboards; site value set by the LV fault level",
+     "source": {"url": "https://new.abb.com/low-voltage/products/switching-and-protection/mns", "note": "ABB MNS catalogue, read 2026-11-13"}}
+  ],
+  "vendor_models": [
+    {"vendor": "abb", "line": "MNS", "models": ["MNS 3.0", "MNS iS"], "range": "up to 6300 A"},
+    {"vendor": "schneider-electric", "line": "PrismaSeT / Blokset", "models": ["PrismaSeT P", "Blokset"], "range": "630-6300 A"},
+    {"vendor": "siemens", "line": "SIVACON S8", "models": ["S8"], "range": "up to 7000 A"},
+    {"vendor": "eaton", "line": "xEnergy", "models": ["xEnergy Main", "xEnergy Basic"], "range": "up to 6300 A"}
+  ],
+  "vendors": ["abb", "schneider-electric", "siemens", "eaton"],
+  "technologies": ["ele-lv-distribution"],
+  "sources": [
+    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB LV supply voltage, read 2026-11-13"}
+  ],
+  "gaps": [
+    {"what": "per-form price tables", "why": "Vendor price books are distributor-only and not published online", "next_action": "Ask a Malaysian panel builder for a quote benchmark"}
+  ],
+  "notes": "First electrical equipment class; follows the decision #33 one-record-per-class pattern with Malaysia voltage tiers recorded.",
+  "last_reviewed": "2026-11-13"
+}

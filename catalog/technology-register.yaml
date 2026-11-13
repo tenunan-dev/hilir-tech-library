@@ -386,6 +386,11 @@ DIG:
 
 ELE:
   Power generation and distribution:
+    - Low-voltage distribution (415/240 V) | C | Schneider Electric, ABB, Siemens, Eaton (Malaysia panel builders)
+    - Medium-voltage distribution (11 kV and 33 kV) | C | ABB, Schneider Electric, Siemens, Eaton; licensed by TNB
+    - Overhead transmission lines (132-500 kV) | C | TNB (operator), Siemens Energy, GE Vernova, Hitachi Energy
+    - UHV and HV substations (275-500 kV) | C | Hitachi Energy, Siemens Energy, GE Vernova, HD Hyundai Electric
+    - Grid connection and interconnection studies | C | GSO (grid code), TNB, Siemens PTI, DNV
     - On-site gas turbine power generation | C | Siemens Energy, Mitsubishi Heavy Industries, Baker Hughes, MAN Energy
     - HV/MV switchgear and site power distribution | C | ABB, Schneider Electric, Siemens Energy, Hitachi Energy, Eaton
     - Power system protection and relaying | C | SEL, ABB, Schneider Electric, Siemens Energy, GE Vernova

@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-491 vendor records covering 303 technologies. One record per vendor in
+492 vendor records covering 304 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -83,6 +83,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [DEHN](https://www.dehn-international.com) | Germany | oem, supplier | Earthing and lightning protection |
 | [Eaton](https://www.eaton.com/) | Ireland | oem, supplier | HV/MV switchgear and site power distribution; Emergency, standby and UPS power systems; Hazardous area electrical equipment |
 | [Furse (ABB)](https://www.abb.com) | United Kingdom | oem, supplier | Earthing and lightning protection |
+| [HD Hyundai Electric](https://www.hyundai-electric.com) | KR | oem | UHV and HV substations (275-500 kV); Power and distribution transformers; HV/MV switchgear and site power distribution |
 | [LS Cable & System](https://www.lscable.com) | South Korea | oem, supplier | Power and control cable systems |
 | [Nidec](https://www.nidec.com) | Japan | oem | Motors and variable speed drives |
 | [nVent Electric](https://www.nvent.com/) | United Kingdom | oem | Electrical heat tracing; Earthing and lightning protection |
@@ -654,7 +655,7 @@ batch of this directory.
 
 - **CIV** (4): Bauer; CIDB Malaysia; Keller; Sarens
 - **DIG** (1): Yokogawa
-- **ELE** (4): Eaton Crouse-Hinds; nVent; nVent ERICO; Prysmian
+- **ELE** (8): Eaton Crouse-Hinds; Grid System Operator (GSO); Hyundai Electric; nVent; nVent ERICO; Prysmian; Siemens PTI; Tenaga Nasional Berhad (TNB)
 - **HSE** (1): Flare Ventures
 - **IDC** (6): Boyd; Caterpillar; CoolIT Systems; Enel X; GridBeyond; Motivair
 - **INS** (1): Yokogawa
@@ -671,4 +672,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-339 of 373 cards list at least one directory vendor.
+343 of 378 cards list at least one directory vendor.

@@ -1,0 +1,28 @@
+{
+  "name": "Tenaga Nasional Berhad (TNB)",
+  "url": "https://www.tnb.com.my/",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "country": "MY",
+  "notes": "Peninsular Malaysia transmission and distribution licensee. Supply-voltage table (415 V to 275 kV by maximum demand) and short-circuit ratings used for the electrical vertical; registered 2026-11-13.",
+  "quality_tier": 3,
+  "id": "tnb",
+  "regions": [
+    "sea",
+    "global"
+  ],
+  "publisher_org": "Tenaga Nasional Berhad (TNB)",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

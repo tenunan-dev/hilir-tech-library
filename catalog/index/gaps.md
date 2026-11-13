@@ -3,11 +3,11 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-870 missing inputs on 314 cards; 20 register technologies have no card yet.
+887 missing inputs on 331 cards; 20 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 703 |
+| not_in_sources_read | 720 |
 | general_knowledge_only | 140 |
 | no_card_yet | 20 |
 | paid_source | 12 |
@@ -114,6 +114,28 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [Subsurface data platforms (OSDU)](technologies-DIG.md#dig-osdu) | named plants or projects with capacity and year (reference_plants) | The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. | Licensor and operator press releases for the suppliers listed (open) | Add one or two plants with country, capacity and start-up year. |
 | [Subsurface data platforms (OSDU)](technologies-DIG.md#dig-osdu) | TRL with a cited source (trl) | The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. | IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open) | Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card. |
 | [Subsurface data platforms (OSDU)](technologies-DIG.md#dig-osdu) | process steps and equipment are general engineering practice, not taken from one source (process) | The sources read describe the principle but not a full step-by-step flow. | Licensor process descriptions and textbooks (open) | Check the steps against a licensor description and name it. |
+
+## ELE cards
+
+| Technology | Missing | Why | Where to get it | Next action |
+| --- | --- | --- | --- | --- |
+| [Power and control cable systems](technologies-ELE.md#ele-cable-systems) | cost per metre by voltage class and conductor size (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Earthing and lightning protection](technologies-ELE.md#ele-earthing-lightning) | cost per substation earthing system (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Emergency, standby and UPS power systems](technologies-ELE.md#ele-emergency-up-power) | cost per kVA of standby capacity installed (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Grid connection and interconnection studies](technologies-ELE.md#ele-grid-connection) | study cost per MW connected, with a Malaysian consultant benchmark (costs) | Consultancies do not publish study prices. | Ask the owner for a benchmarked study cost | Ask owner for a priced reference. |
+| [On-site gas turbine power generation](technologies-ELE.md#ele-gt-power-generation) | cost per MW installed, open cycle and combined cycle (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Hazardous area electrical equipment](technologies-ELE.md#ele-hazardous-area-electrical) | cost premium of Ex-rated over standard equipment (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Electrical heat tracing](technologies-ELE.md#ele-heat-tracing) | cost per metre of traced pipe (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [HV/MV switchgear and site power distribution](technologies-ELE.md#ele-hv-switchgear-distribution) | cost per panel by voltage class (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Low-voltage distribution (415/240 V)](technologies-ELE.md#ele-lv-distribution) | cost per board or per kVA of installed LV distribution (costs) | Vendor and licensee sites do not publish installed prices. | Manufacturer price books or a Malaysian licensed-contractor benchmark | Ask owner for a priced reference or a quote from a licensed contractor. |
+| [Motors and variable speed drives](technologies-ELE.md#ele-motors-drives) | cost per kW by drive size and voltage (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Medium-voltage distribution (11 kV and 33 kV)](technologies-ELE.md#ele-mv-distribution) | cost per substation installed, ring versus radial, with a Malaysian contractor benchmark (costs) | Vendor and licensee sites do not publish installed prices. | Malaysian electrical contractor tender benchmarks | Ask owner for a priced reference or a contractor quote. |
+| [Power management and electrical SCADA](technologies-ELE.md#ele-power-management-systems) | cost per substation of SCADA and automation (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Power system protection and relaying](technologies-ELE.md#ele-protection-relaying) | cost per protection panel or per feeder (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Subsea power and umbilical systems](technologies-ELE.md#ele-subsea-umbilicals-power) | cost per kilometre of umbilical (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Power and distribution transformers](technologies-ELE.md#ele-transformers) | cost per MVA installed, by transformer class and voltage (costs) | Vendor and licensee sites do not publish installed prices. | Ask the owner for a Malaysian contractor benchmark | Ask owner for a priced reference or a contractor quote. |
+| [Overhead transmission lines (132-500 kV)](technologies-ELE.md#ele-transmission-lines) | cost per kilometre by voltage and terrain (costs) | Network operators do not publish line costs. | Energy Commission or GSO tariff filings | Ask owner for a priced reference. |
+| [UHV and HV substations (275-500 kV)](technologies-ELE.md#ele-uhv-substations) | cost per bay or per MVA of substation capacity (costs) | Network operators do not publish substation costs. | GSO or Energy Commission regulatory filings | Ask owner for a priced reference. |
 
 ## GAS cards
 

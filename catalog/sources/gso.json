@@ -1,0 +1,28 @@
+{
+  "name": "Grid System Operator (GSO), Malaysia",
+  "url": "https://www.gso.org.my/",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "country": "MY",
+  "notes": "Malaysian grid code owner and system operator (authorised under s22A of the Electricity Supply Act 1990); governs connection, dispatch and system performance standards. Registered 2026-11-13.",
+  "quality_tier": 3,
+  "id": "gso",
+  "regions": [
+    "sea",
+    "global"
+  ],
+  "publisher_org": "Grid System Operator (GSO), Malaysia",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

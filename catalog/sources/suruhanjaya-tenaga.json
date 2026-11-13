@@ -1,0 +1,28 @@
+{
+  "name": "Suruhanjaya Tenaga (Energy Commission, Malaysia)",
+  "url": "https://www.st.gov.my/",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "country": "MY",
+  "notes": "Malaysian energy regulator: Electricity Supply Act 1990 and Electricity Regulations 1994/2024, competent-person (wireman/chargeman) licensing, Certificate of Fitness and periodic inspection duties used for the electrical lifecycle. Registered 2026-11-13.",
+  "quality_tier": 3,
+  "id": "suruhanjaya-tenaga",
+  "regions": [
+    "sea",
+    "global"
+  ],
+  "publisher_org": "Suruhanjaya Tenaga (Energy Commission, Malaysia)",
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "verification": "unverified",
+  "last_verified": null
+}

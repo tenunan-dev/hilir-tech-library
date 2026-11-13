@@ -1,0 +1,140 @@
+{
+  "id": "ele-grid-connection",
+  "name": "Grid connection and interconnection studies",
+  "aliases": [
+    "grid impact study",
+    "connection study",
+    "grid code compliance"
+  ],
+  "sector": "ELE",
+  "category": "Power generation and distribution",
+  "applications": [
+    "new generation connections",
+    "industrial bulk supply above 25 MVA",
+    "renewable and storage integration"
+  ],
+  "maturity": "commercial",
+  "principle": "A connection must satisfy the Malaysian Grid Code, which the Grid System Operator owns and administers. The chain is load-flow, short-circuit and transient-stability modelling of the proposed connection, then compliance checks for voltage limits, fault ride-through and reactive capability, then a connection agreement with TNB and GSO approval before energisation. Industrial loads above about 25,000 kVA take supply at 132 kV or 275 kV, which places them inside grid-code territory.",
+  "process_steps": [
+    {
+      "id": "APP",
+      "name": "Connection application and data pack",
+      "equipment": [
+        "load or generation data",
+        "single-line diagram",
+        "network model (PSS/E or DIgSILENT)"
+      ]
+    },
+    {
+      "id": "STUDY",
+      "name": "Grid impact study",
+      "equipment": [
+        "load-flow",
+        "short-circuit",
+        "transient-stability simulation"
+      ],
+      "to": [
+        "COMPLY"
+      ],
+      "streams": {
+        "COMPLY": "compliance findings"
+      }
+    },
+    {
+      "id": "COMPLY",
+      "name": "Grid-code compliance",
+      "equipment": [
+        "voltage and fault ride-through checks",
+        "reactive capability",
+        "protection coordination"
+      ],
+      "to": [
+        "AGREE"
+      ],
+      "streams": {
+        "AGREE": "compliance report to GSO"
+      }
+    },
+    {
+      "id": "AGREE",
+      "name": "Connection agreement and approval",
+      "equipment": [
+        "TNB connection offer",
+        "GSO approval"
+      ]
+    },
+    {
+      "id": "COMM",
+      "name": "Commissioning and energisation",
+      "equipment": [
+        "witnessed acceptance tests",
+        "protection settings handover"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "network modelling software",
+    "protection coordination tools",
+    "commissioning test sets"
+  ],
+  "suppliers": [
+    {
+      "name": "Grid System Operator (GSO)",
+      "product": "Malaysian grid code administration"
+    },
+    {
+      "name": "Tenaga Nasional Berhad (TNB)",
+      "product": "connection offer and network access"
+    },
+    {
+      "name": "Siemens PTI",
+      "product": "PSS/E modelling and grid studies"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "TNB 132/275 kV supply threshold",
+      "unit": "kVA",
+      "low": 25000,
+      "high": 25000,
+      "basis": "TNB supplies 132 kV and 275 kV for demands above about 25,000 kVA",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB supply-voltage table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "transmission voltage tolerance at 132/275 kV",
+      "unit": "%",
+      "low": -5,
+      "high": 10,
+      "basis": "TNB limits at 132 kV and 275 kV",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB voltage limits, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "gso",
+      "url": "https://www.gso.org.my/",
+      "note": "GSO grid code pages, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "study cost per MW connected, with a Malaysian consultant benchmark",
+      "reason_code": "not_in_sources_read",
+      "reason": "Consultancies do not publish study prices.",
+      "where": [
+        {
+          "hint": "Ask the owner for a benchmarked study cost"
+        }
+      ],
+      "action": "Ask owner for a priced reference."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

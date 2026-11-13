@@ -1,0 +1,45 @@
+{
+  "id": "ele-power-transformers",
+  "name": "Power and distribution transformers",
+  "equipment_type": "power-transformers",
+  "sector": "ELE",
+  "sector_codes": ["ELE"],
+  "description": "Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to IEC 60076.",
+  "subtypes": [
+    {"name": "Generator step-up and grid power transformers (275-500 kV)"},
+    {"name": "Distribution transformers (11-33 kV / 415 V)"},
+    {"name": "Dry-type and cast-resin for indoor sites"},
+    {"name": "Traction, converter and autotransformers"}
+  ],
+  "applications": [
+    "grid transmission nodes",
+    "industrial substations",
+    "renewable plant step-up"
+  ],
+  "specifications": [
+    {"metric": "ratio tiers used in Malaysia", "unit": "kV", "low": 0.415, "high": 500,
+     "basis": "Malaysian tiers 500, 275, 132, 33, 11 kV and 415 V are joined by transformers",
+     "source": {"url": "https://www.tnb.com.my/", "note": "TNB supply-voltage table, read 2026-11-13"}},
+    {"metric": "distribution transformer rating", "unit": "kVA", "low": 500, "high": 2500,
+     "basis": "typical 11-33 kV / 415 V distribution sizes",
+     "source": {"url": "https://www.hitachienergy.com/products-and-solutions/transformers", "note": "Hitachi Energy distribution transformer range, read 2026-11-13"}},
+    {"metric": "power transformer rating", "unit": "MVA", "low": 100, "high": 700,
+     "basis": "grid bank sizes at 275 and 500 kV",
+     "source": {"url": "https://www.hitachienergy.com/products-and-solutions/transformers", "note": "Hitachi Energy power transformer range, read 2026-11-13"}}
+  ],
+  "vendor_models": [
+    {"vendor": "hitachi-energy", "line": "Power and distribution transformers", "models": ["TRAFOstar", "Resibloc dry-type"], "range": "power and distribution"},
+    {"vendor": "siemens-energy", "line": "Transformers", "models": ["power transformers", "GEAFOL dry-type"], "range": "distribution to UHV"},
+    {"vendor": "ge-vernova", "line": "Transformers", "models": ["power transformers", "distribution transformers"], "range": "distribution to UHV"}
+  ],
+  "vendors": ["hitachi-energy", "siemens-energy", "ge-vernova"],
+  "technologies": ["ele-transformers", "ele-mv-distribution", "ele-uhv-substations"],
+  "sources": [
+    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"},
+    {"url": "https://www.hitachienergy.com/products-and-solutions/transformers", "note": "transformer range, read 2026-11-13"}
+  ],
+  "gaps": [
+    {"what": "loss tables (no-load and load) by rating", "why": "Manufacturer loss values are datasheet-specific and were not read", "next_action": "Read Hitachi/Siemens transformer datasheets and record loss figures"}
+  ],
+  "last_reviewed": "2026-11-13"
+}

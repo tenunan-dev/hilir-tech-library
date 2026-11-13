@@ -1,6 +1,6 @@
 # Equipment catalog
 
-22 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+28 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -284,6 +284,51 @@ Recorded gaps:
 
 - per-model m3/d ranges — Read Aquatech/Veolia HPD model pages
 
+## hv-circuit-breakers
+
+### High-voltage circuit breakers (132-500 kV) (ele-hv-circuit-breakers)
+
+Primary code: ELE: Electrical engineering
+SF6 and vacuum circuit breakers at 132, 275 and 500 kV for grid and substation duty, with their interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.
+Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| interrupting rating at 500 kV | 50-63 kA | TNB 500 kV fault rating 50 kA at 1 s; breakers specified at or above it |
+| interrupting rating at 275 kV | 40-50 kA | TNB 275 kV fault rating 40 kA at 3 s, 50 kA near power stations |
+| interrupting rating at 132 kV | 31.5-40 kA | TNB 132 kV fault rating 31.5 kA at 3 s, 40 kA near power stations |
+
+- **Hitachi Energy** Live tank / dead tank: 72.5-800 kV
+- **Siemens Energy** 3AP / 3AT: 72.5-550 kV
+- **GE Vernova** Dead tank breakers: 72.5-800 kV
+
+Recorded gaps:
+
+- SF6 leakage and operating-time figures — Read breaker datasheets and record leak rate and operating times
+
+## lv-switchboards
+
+### LV switchboards and distribution boards (ele-lv-switchboard)
+
+Primary code: ELE: Electrical engineering
+Form 1-4 rated low-voltage assemblies at 415/240 V: main switchboards with air circuit breakers, motor control centres and final distribution boards, built to IEC 61439.
+Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| rated busbar current | 630-6300 A | typical LV switchboard busbar ratings for Malaysian industrial premises |
+| rated operational voltage | 400-690 V | IEC 61439 LV assemblies cover 400-690 V; Malaysian LV supply is 400/415 V |
+| short-circuit withstand | 25-100 kA | manufacturer catalogues for main switchboards; site value set by the LV fault level |
+
+- **ABB** MNS: up to 6300 A
+- **Schneider Electric** PrismaSeT / Blokset: 630-6300 A
+- **Siemens** SIVACON S8: up to 7000 A
+- **Eaton** xEnergy: up to 6300 A
+
+Recorded gaps:
+
+- per-form price tables — Ask a Malaysian panel builder for a quote benchmark
+
 ## membrane-systems
 
 ### MF/UF/RO membrane systems (wwt-membrane-systems)
@@ -306,6 +351,30 @@ Recorded gaps:
 
 - per-model flux and pressure tables — Read FilmTec and ZeeWeed datasheets and record per-model figures
 
+## mv-switchgear
+
+### MV switchgear and ring main units (11-33 kV) (ele-mv-switchgear)
+
+Primary code: ELE: Electrical engineering
+11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271.
+Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| rated voltage | 11-33 kV | TNB MV distribution levels at 11 kV and 33 kV |
+| short-circuit rating at 11 kV | 20-25 kA | TNB 11 kV fault rating is 20 kA for 3 s; switchgear normally rated 20-25 kA |
+| short-circuit rating at 33 kV | 25-31.5 kA | TNB 33 kV fault rating is 25 kA for 3 s; switchgear rated 25-31.5 kA |
+| busbar current, typical RMU | 630-1250 A | typical RMU busbar rating |
+
+- **ABB** SafeRing / SafePlus: 11-36 kV RMU
+- **Schneider Electric** RM6 / Premset: 11-36 kV
+- **Siemens** 8DJH: 11-36 kV
+- **Eaton** Xiria: 12-24 kV
+
+Recorded gaps:
+
+- per-panel price tables — Ask a Malaysian switchgear panel builder for a quote benchmark
+
 ## ozone-generators
 
 ### Ozone generators (wwt-ozone-generators)
@@ -323,6 +392,69 @@ Vendors: Xylem (1 model lines recorded).
 Recorded gaps:
 
 - per-model kg-O3/h ranges — Read Wedeco generator model pages
+
+## power-cables
+
+### Power cables (LV to 500 kV) (ele-power-cables)
+
+Primary code: ELE: Electrical engineering
+XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 and IEC 60840/62067.
+Vendors: Prysmian Group, Nexans (2 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| voltage grades covering the Malaysian system | 0.6-275 kV | 0.6/1 kV LV through 11-33 kV MV to 132-275 kV transmission cable grades |
+| conductor material | 1 type | copper for LV and aluminium for HV conductors |
+
+- **Prysmian Group** XLPE cables: 0.6 kV to 400 kV
+- **Nexans** Power cables: LV to EHV
+
+Recorded gaps:
+
+- ampacity tables by installation method — Read IEC 60287/60364 ampacity tables
+
+## power-transformers
+
+### Power and distribution transformers (ele-power-transformers)
+
+Primary code: ELE: Electrical engineering
+Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to IEC 60076.
+Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| ratio tiers used in Malaysia | 0.415-500 kV | Malaysian tiers 500, 275, 132, 33, 11 kV and 415 V are joined by transformers |
+| distribution transformer rating | 500-2500 kVA | typical 11-33 kV / 415 V distribution sizes |
+| power transformer rating | 100-700 MVA | grid bank sizes at 275 and 500 kV |
+
+- **Hitachi Energy** Power and distribution transformers: power and distribution
+- **Siemens Energy** Transformers: distribution to UHV
+- **GE Vernova** Transformers: distribution to UHV
+
+Recorded gaps:
+
+- loss tables (no-load and load) by rating — Read Hitachi/Siemens transformer datasheets and record loss figures
+
+## protection-relays
+
+### Protection relays and substation IEDs (ele-protection-relays)
+
+Primary code: ELE: Electrical engineering
+Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, to IEC 60255.
+Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| fault clearance basis at 500 kV | 50 kA | protection must clear the 50 kA, 1 s duty |
+| communication protocol | 61850 standard | IEC 61850 substation automation is the standard for new installations |
+
+- **Hitachi Energy** REL / RED: transmission protection
+- **Siemens Energy** SIPROTEC: transmission and transformer
+- **GE Vernova** UR (Universal Relay): transmission protection
+
+Recorded gaps:
+
+- operating times and setting ranges per model — Read manufacturer tech manuals for operating times
 
 ## pump
 

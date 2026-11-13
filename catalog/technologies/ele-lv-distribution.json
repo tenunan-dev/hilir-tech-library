@@ -1,0 +1,180 @@
+{
+  "id": "ele-lv-distribution",
+  "name": "Low-voltage distribution (415/240 V)",
+  "aliases": [
+    "LV distribution",
+    "415 V board",
+    "MSB distribution board"
+  ],
+  "sector": "ELE",
+  "category": "Power generation and distribution",
+  "applications": [
+    "plant LV power at 415 V three-phase / 240 V single-phase",
+    "motor control centres",
+    "building services and small power"
+  ],
+  "maturity": "commercial",
+  "principle": "The Malaysian LV level: TNB supplies 415/240 V (also written 400/230 V) three-phase four-wire to premises up to roughly 1,000 kVA via CT metering. Within the installation a main switchboard divides into sub-boards, motor control centres and final circuits; discrimination between breakers and the fault level at each board set the breaking capacities. Per the Electricity Regulations, LV work is done by licensed wiremen/chargemen and needs a Test Certificate (Form H) before TNB energises.",
+  "process_steps": [
+    {
+      "id": "SUPPLY",
+      "name": "TNB LV supply point (415/240 V, CT metered above 100 A)",
+      "equipment": [
+        "service cable, meter, main switch"
+      ],
+      "to": [
+        "MSB"
+      ],
+      "streams": {
+        "MSB": "415 V three-phase four-wire"
+      }
+    },
+    {
+      "id": "MSB",
+      "name": "Main switchboard: incomer and busbar",
+      "equipment": [
+        "air circuit breaker (ACB) incomer",
+        "busbar 630-3200 A",
+        "surge protective device"
+      ],
+      "to": [
+        "MCC",
+        "DB"
+      ],
+      "streams": {
+        "MCC": "motor and process boards",
+        "DB": "lighting, small power and UPS boards"
+      }
+    },
+    {
+      "id": "MCC",
+      "name": "Motor control centre",
+      "equipment": [
+        "moulded-case breakers",
+        "contactors and overloads",
+        "variable-speed drives"
+      ],
+      "to": [
+        "LOAD"
+      ],
+      "streams": {
+        "LOAD": "motors and drives"
+      }
+    },
+    {
+      "id": "DB",
+      "name": "Distribution boards and final circuits",
+      "equipment": [
+        "MCBs (6-63 A)",
+        "RCBOs for socket circuits",
+        "30 mA RCD protection"
+      ],
+      "to": [
+        "LOAD"
+      ],
+      "streams": {
+        "LOAD": "final loads"
+      }
+    },
+    {
+      "id": "LOAD",
+      "name": "Utilisation",
+      "equipment": [
+        "motors, lighting, socket outlets, HVAC"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "main switchboard with ACB",
+    "motor control centre",
+    "distribution board",
+    "MCB and RCBO devices",
+    "surge protective devices"
+  ],
+  "suppliers": [
+    {
+      "name": "Schneider Electric",
+      "product": "Prisma/Blokset switchboards, Acti9 MCBs"
+    },
+    {
+      "name": "ABB",
+      "product": "MNS boards, S200 MCBs"
+    },
+    {
+      "name": "Siemens",
+      "product": "Sivacon switchboards"
+    },
+    {
+      "name": "Eaton",
+      "product": "xEnergy boards"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "LV supply voltage, three-phase",
+      "unit": "V",
+      "low": 400,
+      "high": 415,
+      "basis": "TNB supply-voltage table; both 400/230 V and 415/240 V describe the same LV level",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB supply-voltage table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "LV supply available up to (CT metered)",
+      "unit": "kVA",
+      "low": 1000,
+      "high": 1000,
+      "basis": "TNB three-phase four-wire CT metered up to about 1,000 kVA; above that an 11 kV supply applies",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB supply-voltage table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "LV steady-state voltage tolerance",
+      "unit": "%",
+      "low": -6,
+      "high": 10,
+      "basis": "TNB voltage-fluctuation limits at 400/230 V under normal conditions",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB voltage limits, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "required RCD sensitivity for socket circuits",
+      "unit": "mA",
+      "low": 30,
+      "high": 30,
+      "basis": "Malaysian practice for socket-outlet final circuits (30 mA RCD)",
+      "source": {
+        "url": "https://www.st.gov.my/",
+        "note": "Electricity Regulations guidance, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB supply-voltage table, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per board or per kVA of installed LV distribution",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "where": [
+        {
+          "hint": "Manufacturer price books or a Malaysian licensed-contractor benchmark"
+        }
+      ],
+      "action": "Ask owner for a priced reference or a quote from a licensed contractor."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}

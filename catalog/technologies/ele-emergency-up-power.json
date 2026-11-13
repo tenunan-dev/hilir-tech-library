@@ -1,114 +1,161 @@
 {
- "id": "ele-emergency-up-power",
- "name": "Emergency, standby and UPS power systems",
- "aliases": [
-  "emergency diesel generators",
-  "uninterruptible power supply",
-  "black start",
-  "essential power",
-  "battery systems"
- ],
- "sector": "ELE",
- "category": "Emergency power",
- "applications": [
-  "safety-critical loads",
-  "emergency lighting and communications",
-  "process shutdown support",
-  "control power",
-  "data/SCADA rooms"
- ],
- "maturity": "commercial",
- "principle": "A facility secures loads that must not fail through layers: battery-backed uninterruptible power supplies (classified VFI, VI or DXI by output dependency under IEC 62040-3) ride through the first seconds, standby generating sets start and close onto the emergency bus, and automatic transfer switching restores normal supply after the outage. Emergency generation is sized for essential process, fire and life-safety loads; batteries carry instrumentation, control and safety systems through the transition and support black-start of larger units.",
- "process_steps": [
-  {
-   "id": "FLT",
-   "name": "Normal supply fails; undervoltage detected",
-   "equipment": [
-    "protection relays",
-    "voltage sensing"
-   ]
-  },
-  {
-   "id": "UPS",
-   "name": "UPS carries critical loads from batteries",
-   "equipment": [
-    "UPS",
-    "battery bank"
-   ]
-  },
-  {
-   "id": "GEN",
-   "name": "Standby genset starts and closes onto the emergency bus",
-   "equipment": [
-    "diesel genset",
-    "automatic transfer switch"
-   ]
-  },
-  {
-   "id": "RES",
-   "name": "Load shed/blocks restored in priority sequence",
-   "equipment": [
-    "load-shed scheme"
-   ]
-  },
-  {
-   "id": "REC",
-   "name": "Normal supply returns; retransfer and battery recharge",
-   "equipment": [
-    "charger",
-    "ATS"
-   ]
-  }
- ],
- "key_equipment": [
-  "standby diesel or gas gensets",
-  "UPS units",
-  "battery banks (VRLA, lithium)",
-  "automatic transfer switches",
-  "battery chargers"
- ],
- "suppliers": [
-  {
-   "name": "Cummins",
-   "product": "generator sets"
-  },
-  {
-   "name": "Eaton",
-   "product": "UPS systems"
-  },
-  {
-   "name": "ABB",
-   "product": "UPS and emergency power"
-  },
-  {
-   "name": "Schneider Electric",
-   "product": "Galaxy UPS systems"
-  },
-  {
-   "name": "Vertiv",
-   "product": "critical power UPS"
-  }
- ],
- "performance": [],
- "limitations": [
-  "batteries age invisibly without a tested maintenance and capacity programme",
-  "gensets need periodic load-bank runs to avoid wet stacking and prove start reliability"
- ],
- "advantages": [
-  "layered ride-through keeps safety instrumented and control systems alive",
-  "black-start-capable units let facilities recover without grid support"
- ],
- "sources": [
-  {
-   "url": "https://www.iec.ch/standards",
-   "source_id": "iec-standards",
-   "note": "IEC 62040 UPS series, IEC web catalogue"
-  },
-  {
-   "url": "https://www.hse.gov.uk/electricity/",
-   "source_id": "hse-uk",
-   "note": "HSE guidance on electrical safety and duty of care for emergency systems, read 2026-11-07"
-  }
- ],
- "last_reviewed": "2026-11-07"
+  "id": "ele-emergency-up-power",
+  "name": "Emergency, standby and UPS power systems",
+  "aliases": [
+    "emergency diesel generators",
+    "uninterruptible power supply",
+    "black start",
+    "essential power",
+    "battery systems"
+  ],
+  "sector": "ELE",
+  "category": "Emergency power",
+  "applications": [
+    "safety-critical loads",
+    "emergency lighting and communications",
+    "process shutdown support",
+    "control power",
+    "data/SCADA rooms"
+  ],
+  "maturity": "commercial",
+  "principle": "A facility secures loads that must not fail through layers: battery-backed uninterruptible power supplies (classified VFI, VI or DXI by output dependency under IEC 62040-3) ride through the first seconds, standby generating sets start and close onto the emergency bus, and automatic transfer switching restores normal supply after the outage. Emergency generation is sized for essential process, fire and life-safety loads; batteries carry instrumentation, control and safety systems through the transition and support black-start of larger units.",
+  "process_steps": [
+    {
+      "id": "FLT",
+      "name": "Normal supply fails; undervoltage detected",
+      "equipment": [
+        "protection relays",
+        "voltage sensing"
+      ]
+    },
+    {
+      "id": "UPS",
+      "name": "UPS carries critical loads from batteries",
+      "equipment": [
+        "UPS",
+        "battery bank"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Standby genset starts and closes onto the emergency bus",
+      "equipment": [
+        "diesel genset",
+        "automatic transfer switch"
+      ]
+    },
+    {
+      "id": "RES",
+      "name": "Load shed/blocks restored in priority sequence",
+      "equipment": [
+        "load-shed scheme"
+      ]
+    },
+    {
+      "id": "REC",
+      "name": "Normal supply returns; retransfer and battery recharge",
+      "equipment": [
+        "charger",
+        "ATS"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "standby diesel or gas gensets",
+    "UPS units",
+    "battery banks (VRLA, lithium)",
+    "automatic transfer switches",
+    "battery chargers"
+  ],
+  "suppliers": [
+    {
+      "name": "Cummins",
+      "product": "generator sets"
+    },
+    {
+      "name": "Eaton",
+      "product": "UPS systems"
+    },
+    {
+      "name": "ABB",
+      "product": "UPS and emergency power"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "Galaxy UPS systems"
+    },
+    {
+      "name": "Vertiv",
+      "product": "critical power UPS"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "LV standby supply voltage",
+      "unit": "V",
+      "low": 400,
+      "high": 415,
+      "basis": "standby generators and UPS output at the TNB LV level",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB published table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "required periodic inspection for MV installations",
+      "unit": "visits/month",
+      "low": 4,
+      "high": 4,
+      "basis": "Energy Commission inspection frequency above 11 kV to 132 kV",
+      "source": {
+        "url": "https://www.st.gov.my/",
+        "note": "Suruhanjaya Tenaga inspection rules, read 2026-11-13"
+      }
+    }
+  ],
+  "limitations": [
+    "batteries age invisibly without a tested maintenance and capacity programme",
+    "gensets need periodic load-bank runs to avoid wet stacking and prove start reliability"
+  ],
+  "advantages": [
+    "layered ride-through keeps safety instrumented and control systems alive",
+    "black-start-capable units let facilities recover without grid support"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iec.ch/standards",
+      "source_id": "iec-standards",
+      "note": "IEC 62040 UPS series, IEC web catalogue"
+    },
+    {
+      "url": "https://www.hse.gov.uk/electricity/",
+      "source_id": "hse-uk",
+      "note": "HSE guidance on electrical safety and duty of care for emergency systems, read 2026-11-07"
+    },
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB voltage and fault-level tables, read 2026-11-13"
+    },
+    {
+      "source_id": "gso",
+      "url": "https://www.gso.org.my/",
+      "note": "GSO grid code context, read 2026-11-13"
+    }
+  ],
+  "last_reviewed": "2026-11-13",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per kVA of standby capacity installed",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "where": [
+        {
+          "hint": "Ask the owner for a Malaysian contractor benchmark"
+        }
+      ],
+      "action": "Ask owner for a priced reference or a contractor quote."
+    }
+  ]
 }

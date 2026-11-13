@@ -1,0 +1,195 @@
+{
+  "id": "ele-mv-distribution",
+  "name": "Medium-voltage distribution (11 kV and 33 kV)",
+  "aliases": [
+    "11 kV distribution",
+    "33 kV distribution",
+    "MV ring main unit"
+  ],
+  "sector": "ELE",
+  "category": "Power generation and distribution",
+  "applications": [
+    "industrial intake above about 1 MVA",
+    "plant distribution ring",
+    "TNB 11 kV and 33 kV supplies"
+  ],
+  "maturity": "commercial",
+  "principle": "Malaysia's MV distribution levels: TNB supplies 11 kV for roughly 1,000-5,000 kVA and 33 kV up to about 25,000 kVA (22 kV appears in parts of Johor and Perak). At site level an intake substation receives the supply and ring-main units feed substation transformers, often with redundant transformers and an N+1 scheme for critical process loads. MV installations carry the highest periodic-inspection frequency under the Electricity Regulations.",
+  "process_steps": [
+    {
+      "id": "INTAKE",
+      "name": "TNB 11 kV or 33 kV supply point",
+      "equipment": [
+        "ring main unit (RMU) or received section",
+        "TNB metering cubicle"
+      ],
+      "to": [
+        "PHASE"
+      ],
+      "streams": {
+        "PHASE": "nominal 11 kV or 33 kV"
+      }
+    },
+    {
+      "id": "PHASE",
+      "name": "Main MV switchgear",
+      "equipment": [
+        "vacuum circuit breakers",
+        "busbar 630-2500 A",
+        "current transformers and protection relays"
+      ],
+      "to": [
+        "TF",
+        "FR"
+      ],
+      "streams": {
+        "TF": "transformer feeders",
+        "FR": "outgoing site feeders"
+      }
+    },
+    {
+      "id": "TF",
+      "name": "Distribution transformers",
+      "equipment": [
+        "11 kV/415 V or 33 kV/415 V transformers (1000-2500 kVA)"
+      ],
+      "to": [
+        "LV"
+      ],
+      "streams": {
+        "LV": "415 V to the LV boards"
+      }
+    },
+    {
+      "id": "FR",
+      "name": "Feeder route",
+      "equipment": [
+        "MV cables or overhead lines"
+      ],
+      "to": [
+        "SUB"
+      ],
+      "streams": {
+        "SUB": "remote substations"
+      }
+    },
+    {
+      "id": "SUB",
+      "name": "Site substations",
+      "equipment": [
+        "package substations with RMU-fed transformers"
+      ]
+    },
+    {
+      "id": "LV",
+      "name": "Low-voltage distribution boards",
+      "equipment": [
+        "see the low-voltage distribution card"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "ring main units",
+    "vacuum circuit breakers",
+    "distribution transformers",
+    "MV cables",
+    "protection relays"
+  ],
+  "suppliers": [
+    {
+      "name": "ABB",
+      "product": "SafeRing/SafePlus RMUs, UniGear MV switchgear"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "RM6, Premset, SM6"
+    },
+    {
+      "name": "Siemens",
+      "product": "8DJH RMU, NXPlusC"
+    },
+    {
+      "name": "Eaton",
+      "product": "Xiria medium-voltage switchgear"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "11 kV supply range for TNB customers",
+      "unit": "kVA",
+      "low": 1000,
+      "high": 5000,
+      "basis": "TNB three-phase three-wire 11 kV for 1,000-5,000 kVA",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB supply-voltage table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "33 kV supply range for TNB customers",
+      "unit": "kVA",
+      "low": 5000,
+      "high": 25000,
+      "basis": "TNB three-phase three-wire 33 kV for 5,000-25,000 kVA",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB supply-voltage table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "MV steady-state voltage tolerance",
+      "unit": "%",
+      "low": -5,
+      "high": 5,
+      "basis": "TNB limits at 6.6 kV, 11 kV, 22 kV and 33 kV",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB voltage limits, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "33 kV fault level rating",
+      "unit": "kA",
+      "low": 25,
+      "high": 25,
+      "basis": "TNB 33 kV short-circuit rating 25 kA for 3 s",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "11 kV fault level rating",
+      "unit": "kA",
+      "low": 20,
+      "high": 20,
+      "basis": "TNB 11 kV short-circuit rating 20 kA for 3 s",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB supply-voltage and fault-level tables, read 2026-11-13"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per substation installed, ring versus radial, with a Malaysian contractor benchmark",
+      "reason_code": "not_in_sources_read",
+      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "where": [
+        {
+          "hint": "Malaysian electrical contractor tender benchmarks"
+        }
+      ],
+      "action": "Ask owner for a priced reference or a contractor quote."
+    }
+  ],
+  "last_reviewed": "2026-11-13"
+}
