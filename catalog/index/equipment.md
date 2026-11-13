@@ -289,22 +289,25 @@ Recorded gaps:
 ### High-voltage circuit breakers (132-500 kV) (ele-hv-circuit-breakers)
 
 Primary code: ELE: Electrical engineering
-SF6 and vacuum circuit breakers at 132, 275 and 500 kV for grid and substation duty, with their interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.
+SF6 dead-tank and live-tank circuit breakers at 132, 275 and 500 kV for grid and substation duty, with interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.
 Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
-| interrupting rating at 500 kV | 50-63 kA | TNB 500 kV fault rating 50 kA at 1 s; breakers specified at or above it |
-| interrupting rating at 275 kV | 40-50 kA | TNB 275 kV fault rating 40 kA at 3 s, 50 kA near power stations |
-| interrupting rating at 132 kV | 31.5-40 kA | TNB 132 kV fault rating 31.5 kA at 3 s, 40 kA near power stations |
+| interrupting requirement at 500 kV | 50 kA | TNB 500 kV fault rating 50 kA for 1 s, so breakers are specified at or above it |
+| interrupting requirement at 275 kV | 40-50 kA | TNB 275 kV 40 kA for 3 s, 50 kA near power stations |
+| interrupting requirement at 132 kV | 31.5-40 kA | TNB 132 kV 31.5 kA for 3 s, 40 kA near power stations |
+| indicative cost, 145 kV dead-tank breaker | 40000-95000 USD per set | Western/Japanese brand new dead-tank at 145 kV roughly USD 40,000-95,000 (a Siemens SPS-145 used unit listed near USD 95,000; a Spanish tender for 145 kV 3150 A 31.5 kA at about EUR 26,000); Chinese OEMs quote far lower, USD 2,500-45,000. Indicative. |
+| indicative cost, 245 kV dead-tank breaker | 85000-150000 USD per unit | A municipal utility PO for a Siemens SP2-245 at USD 85,650/unit; Chinese OEM 252 kV units USD 60,000-93,000. Indicative. |
+| indicative cost, 550 kV dead-tank breaker | 200000-520000 USD per three-phase set | Chinese OEM 550 kV about USD 210,000-270,000; an import record of a 3150 A 50 kA three-phase set near USD 520,000; EGAT tender about THB 6.0 million per unit (about USD 170,000). Indicative and highly configuration-dependent. |
 
 - **Hitachi Energy** Live tank / dead tank: 72.5-800 kV
-- **Siemens Energy** 3AP / 3AT: 72.5-550 kV
+- **Siemens Energy** 3AP / 3AT / SPS: 72.5-550 kV
 - **GE Vernova** Dead tank breakers: 72.5-800 kV
 
 Recorded gaps:
 
-- SF6 leakage and operating-time figures — Read breaker datasheets and record leak rate and operating times
+- SF6 leakage rate and mechanical operating times from a manufacturer datasheet — Ask the owner for a manufacturer breaker datasheet, or read a GE/Hitachi technical guide
 
 ## lv-switchboards
 
@@ -316,9 +319,15 @@ Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
-| rated busbar current | 630-6300 A | typical LV switchboard busbar ratings for Malaysian industrial premises |
-| rated operational voltage | 400-690 V | IEC 61439 LV assemblies cover 400-690 V; Malaysian LV supply is 400/415 V |
-| short-circuit withstand | 25-100 kA | manufacturer catalogues for main switchboards; site value set by the LV fault level |
+| busbar rated current, ABB MNS 3.0 | 630-6300 A | ABB MNS 3.0 catalogue: copper busbars rated current Ie up to 6300 A; distribution bars up to 2000 A |
+| rated peak withstand current Ipk, ABB MNS | 220 kA | ABB MNS 3.0 catalogue: rated peak withstand current Ipk up to 220 kA |
+| rated short-time withstand current Icw, ABB MNS | 100 kA | ABB MNS 3.0 catalogue: Icw up to 100 kA (arc-rated to IEC 61641 criteria 1-7 at 300 ms) |
+| rated operational voltage Ue, ABB MNS | 690 V | MNS 3.0: Ue up to 690 V AC, Ui up to 1000 V AC, Uimp 6/8/12 kV |
+| degree of protection, ABB MNS | 30-54 IP | MNS 3.0: IP30 to IP54, internal subdivision up to Form 4 |
+| busbar rated current, Siemens SIVACON S8 | 630-7000 A | SIVACON S8 catalogue: main busbars rated currents up to 7,000 A |
+| rated short-time withstand current Icw, Siemens S8 | 150 kA | SIVACON S8: Icw up to 150 kA, Ipk up to 330 kA |
+| section dimensions, ABB MNS | 2200 mm | MNS 3.0: standard height 2200 mm; width 400-1200 mm; depth 800-1200 mm |
+| indicative cost, LV switchboard section (IEC 61439, 50 kA/1 s, IP54) | 1000-5000 USD per section | Indicative B2B supplier listings only: about USD 1,000 for a basic section rising past USD 5,000 for drawout main sections; Western-brand boards typically 2-4x Chinese FOB. Confirmed manufacturer price books are distributor-only, so this is an indicative range, not a quoted price. |
 
 - **ABB** MNS: up to 6300 A
 - **Schneider Electric** PrismaSeT / Blokset: 630-6300 A
@@ -327,7 +336,7 @@ Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 
 Recorded gaps:
 
-- per-form price tables — Ask a Malaysian panel builder for a quote benchmark
+- per-form price tables from the manufacturers themselves — Ask a Malaysian panel builder (IPP/TNB-registered) for a section price benchmark
 
 ## membrane-systems
 
@@ -356,24 +365,29 @@ Recorded gaps:
 ### MV switchgear and ring main units (11-33 kV) (ele-mv-switchgear)
 
 Primary code: ELE: Electrical engineering
-11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271.
+11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271-200/60298.
 Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
-| rated voltage | 11-33 kV | TNB MV distribution levels at 11 kV and 33 kV |
-| short-circuit rating at 11 kV | 20-25 kA | TNB 11 kV fault rating is 20 kA for 3 s; switchgear normally rated 20-25 kA |
-| short-circuit rating at 33 kV | 25-31.5 kA | TNB 33 kV fault rating is 25 kA for 3 s; switchgear rated 25-31.5 kA |
-| busbar current, typical RMU | 630-1250 A | typical RMU busbar rating |
+| rated voltage, Siemens 8DJH | 7.2-24 kV | 8DJH datasheet covers 7.2, 12, 15, 17.5 and 24 kV ratings; TNB distributes at 11 kV and 33 kV |
+| busbar continuous current, Siemens 8DJH | 630 A | 8DJH datasheet: busbar rated continuous current 630 A |
+| internal arc classification, Siemens 8DJH at 12 kV | 25 kA for 1 s | 8DJH: short-time withstand 25 kA for 1 s up to 17.5 kV (20-21 kA for 3 s); optional IAC A FL/FLR 21 kA 1 s |
+| partition and continuity class, Siemens 8DJH | LSC 2, partition class PM class | 8DJH datasheet: partition class PM, loss of service continuity LSC 2, type-tested to IEC 62271-200 |
+| busbar current, ABB SafeRing at 12 kV | 630-1250 A | SafeRing 12/17.5/24 kV: C-module rated current 630 A; CB module up to 1250 A |
+| short-circuit withstand, ABB SafeRing | 16-21 kA for 3 s | SafeRing catalogue: 21/16/16 kA for 3 s across 12/17.5/24 kV; V20/V25 modules give 20-25 kA breaking |
+| indicative cost, 12-24 kV SF6 RMU, unit | 2000-7000 USD per unit | Indicative B2B listings: compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Indicative only, not a quote. |
+| TNB 11 kV motorised RMU supply contract value (benchmark, not unit price) | 113.31 MYR million | TNB Letter of Award to EPE Switchgear (60% subsidiary of Pekat Group) for 11 kV motorised RMUs with interconnectors and remote control boxes, various configurations, two-year term from 29 December 2025; RM113.31 million inclusive of SST. A multi-configuration supply contract, so it bounds rather than fixes a per-unit price. |
 
-- **ABB** SafeRing / SafePlus: 11-36 kV RMU
+- **ABB** SafeRing / SafePlus: 12-36 kV RMU
 - **Schneider Electric** RM6 / Premset: 11-36 kV
-- **Siemens** 8DJH: 11-36 kV
+- **Siemens** 8DJH: 7.2-24 kV type-tested, SF6 sealed for life
 - **Eaton** Xiria: 12-24 kV
 
 Recorded gaps:
 
-- per-panel price tables — Ask a Malaysian switchgear panel builder for a quote benchmark
+- per-panel prices from ABB/Schneider/Eaton themselves — Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark
+- Eaton Xiria and Schneider RM6 datasheet values — Read the Xiria and RM6 catalogues and record the same ratings set
 
 ## ozone-generators
 
@@ -398,63 +412,77 @@ Recorded gaps:
 ### Power cables (LV to 500 kV) (ele-power-cables)
 
 Primary code: ELE: Electrical engineering
-XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 and IEC 60840/62067.
+XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 (LV/MV) and IEC 60840/62067 (HV/EHV).
 Vendors: Prysmian Group, Nexans (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
-| voltage grades covering the Malaysian system | 0.6-275 kV | 0.6/1 kV LV through 11-33 kV MV to 132-275 kV transmission cable grades |
-| conductor material | 1 type | copper for LV and aluminium for HV conductors |
+| voltage grades covering the Malaysian system | 0.6-275 kV | 0.6/1 kV LV through 6.35/11 and 19/33 kV MV to 132-275 kV transmission grades |
+| indicative cost, 19/33 kV 3-core Cu XLPE/SWA/PVC 95 mm2 | 26.5-34.0 USD per metre | FOB China price guide at LME copper about USD 9,800-10,200/t: 19/33 kV 95 mm2 3-core copper USD 26.50-34.00/m; 240 mm2 USD 60-77/m; 400 mm2 USD 96-123/m. Aluminium conductor saves roughly 40-55%. |
+| indicative cost, 6.35/11 kV 3-core Cu XLPE/SWA/PVC 185 mm2 | 31.0-39.3 USD per metre | Same price guide: 11 kV 185 mm2 copper USD 31.00-39.30/m; 95 mm2 USD 17.00-21.70/m; 300 mm2 USD 47.70-61.10/m |
+| indicative cost, 11 kV and 33 kV underground cable per km (tender-derived) | 8100-44000 USD per km | Indian utility tender cost data: 33 kV 1Cx630 mm2 aluminium XLPE about USD 8,100/km; 33 kV 1Cx400 mm2 copper about USD 44,000/km; 11 kV 3x185 mm2 about USD 11,000/km; 11 kV 3x300 mm2 about USD 14,500/km. Tender-derived and useful for magnitude only. |
 
 - **Prysmian Group** XLPE cables: 0.6 kV to 400 kV
 - **Nexans** Power cables: LV to EHV
 
 Recorded gaps:
 
-- ampacity tables by installation method — Read IEC 60287/60364 ampacity tables
+- ampacity tables by installation method (IEC 60287/60364) — Record a small derated ampacity table for the common 11/33 kV sizes
+- 132 kV cable prices — Ask owner for a Prysmian/Nexans EHV quote if a project needs it
 
 ## power-transformers
 
 ### Power and distribution transformers (ele-power-transformers)
 
 Primary code: ELE: Electrical engineering
-Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to IEC 60076.
-Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
+Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted).
+Vendors: Hitachi Energy, Siemens Energy, GE Vernova, HD Hyundai Electric (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
-| ratio tiers used in Malaysia | 0.415-500 kV | Malaysian tiers 500, 275, 132, 33, 11 kV and 415 V are joined by transformers |
-| distribution transformer rating | 500-2500 kVA | typical 11-33 kV / 415 V distribution sizes |
-| power transformer rating | 100-700 MVA | grid bank sizes at 275 and 500 kV |
+| ratio tiers used in Malaysia | 0.415-500 kV | Malaysian tiers 500, 275, 132, 33, 11 kV and 415-433 V are joined by transformers; the LV secondary is 415 V nominal or 433 V rated depending on specification |
+| no-load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN | 1600 W | Malaysian public-sector (JKR-type) specification for 11 kV/433 V Dyn11 hermetically sealed distribution transformers: 1,000 kVA no-load loss limit 1,600 W |
+| load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN | 6100 W | Same Malaysian schedule: 1,000 kVA load loss limit 6,100 W (other tiers 750 kVA 5,600 W; 1,500 kVA 10,000 W; 2,000 kVA 12,000 W; 2,500 kVA 13,900 W) |
+| short-circuit impedance, distribution class | 4.5-6.5 % | Typical 11 kV distribution transformer impedance range; TNB specifications commonly fall at 4.5-6% |
+| distribution transformer rating | 500-2500 kVA | Typical 11-33 kV / 415-433 V distribution sizes in Malaysian schedules |
+| power transformer rating | 100-700 MVA | Grid bank sizes at 275 and 500 kV |
+| indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer | 7000-20000 USD per unit | Indicative export quotes: aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000. Malaysian landed prices are expected 30-60% above these FOB figures for duties, SST, compliance testing and local margin (roughly MYR 80,000-150,000 for a compliant S13-class copper unit). Indicative only. |
 
-- **Hitachi Energy** Power and distribution transformers: power and distribution
+- **Hitachi Energy** Power and distribution transformers: distribution to UHV
 - **Siemens Energy** Transformers: distribution to UHV
 - **GE Vernova** Transformers: distribution to UHV
+- **HD Hyundai Electric** Transformers: grid class
 
 Recorded gaps:
 
-- loss tables (no-load and load) by rating — Read Hitachi/Siemens transformer datasheets and record loss figures
+- manufacturer loss tables for power transformers (275-500 kV class) — Read a manufacturer power-transformer technical guide for loss ranges by rating
+- Malaysian retail prices from a local manufacturer — Ask owner for a local transformer quote benchmark
 
 ## protection-relays
 
 ### Protection relays and substation IEDs (ele-protection-relays)
 
 Primary code: ELE: Electrical engineering
-Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, to IEC 60255.
-Vendors: Hitachi Energy, Siemens Energy, GE Vernova (3 model lines recorded).
+Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, type-tested to IEC 60255.
+Vendors: Schweitzer Engineering Laboratories (SEL), Siemens Energy, Hitachi Energy, GE Vernova (4 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
-| fault clearance basis at 500 kV | 50 kA | protection must clear the 50 kA, 1 s duty |
-| communication protocol | 61850 standard | IEC 61850 substation automation is the standard for new installations |
+| distance protection operating time, SEL-421 high-speed | 0.8 cycles | SEL-421 high-speed element: 0.8 cycle maximum operating time at 70% of reach and SIR = 1; the standard SEL-421-1 is 1.5 cycles |
+| timer accuracy, SEL-421 | +/-0.125 cycle plus 0.1% of setting cycles | SEL-421 data sheet: timer accuracy plus/minus 0.125 cycle plus 0.1% of setting; event time stamping better than 10 microseconds |
+| trip time, SIPROTEC 7SA513 distance | 11 ms | Siemens 7SA513 shortest command time about 11 ms; 7SA86 tripolar minimum about 9 ms; distance function type-tested to IEC 60255-151 |
+| overcurrent IDMT timing tolerance, SIPROTEC | <=5% +/-15 ms % | SIPROTEC technical data: IDMT tolerance within 5% plus/minus 15 ms for 2 to 20 x pickup and 1-20 s |
+| communication standard | IEC 61850 (Ed2/Ed2.1 with 9-2 process bus) standard | SIPROTEC 7SA supports IEC 61850 Ed1/Ed2.1 and IEC 61850-9-2 process bus with PTP time sync; new substations in Malaysia follow IEC 61850 |
+| fault duty protection must clear at 500 kV | 50 kA | TNB 500 kV 50 kA for 1 s |
 
-- **Hitachi Energy** REL / RED: transmission protection
-- **Siemens Energy** SIPROTEC: transmission and transformer
+- **Schweitzer Engineering Laboratories (SEL)** SEL-421 / SEL-411L: subcycle to 1.5-cycle distance protection
+- **Siemens Energy** SIPROTEC 5: IEC 60255-151 type-tested
+- **Hitachi Energy** Relion: transmission protection
 - **GE Vernova** UR (Universal Relay): transmission protection
 
 Recorded gaps:
 
-- operating times and setting ranges per model — Read manufacturer tech manuals for operating times
+- protection relay unit prices — Ask owner for a relay quote benchmark from a SEL/Siemens panel integrator
 
 ## pump
 

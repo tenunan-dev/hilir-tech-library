@@ -3,14 +3,26 @@
   "name": "Protection relays and substation IEDs",
   "equipment_type": "protection-relays",
   "sector": "ELE",
-  "sector_codes": ["ELE"],
-  "description": "Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, to IEC 60255.",
+  "sector_codes": [
+    "ELE"
+  ],
+  "description": "Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, type-tested to IEC 60255.",
   "subtypes": [
-    {"name": "Feeder overcurrent and earth-fault relays"},
-    {"name": "Line distance and differential protection"},
-    {"name": "Transformer differential and REF protection"},
-    {"name": "Busbar protection"},
-    {"name": "Substation automation IEDs (IEC 61850)"}
+    {
+      "name": "Feeder overcurrent and earth-fault relays"
+    },
+    {
+      "name": "Line distance and differential protection"
+    },
+    {
+      "name": "Transformer differential and REF protection"
+    },
+    {
+      "name": "Busbar protection"
+    },
+    {
+      "name": "Substation automation IEDs (IEC 61850)"
+    }
   ],
   "applications": [
     "transmission line protection",
@@ -18,26 +30,141 @@
     "industrial plant protection"
   ],
   "specifications": [
-    {"metric": "fault clearance basis at 500 kV", "unit": "kA", "low": 50, "high": 50,
-     "basis": "protection must clear the 50 kA, 1 s duty",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
-    {"metric": "communication protocol", "unit": "standard", "low": 61850, "high": 61850,
-     "basis": "IEC 61850 substation automation is the standard for new installations",
-     "source": {"url": "https://www.gso.org.my/", "note": "grid code and substation practice, read 2026-11-13"}}
+    {
+      "metric": "distance protection operating time, SEL-421 high-speed",
+      "unit": "cycles",
+      "low": 0.8,
+      "high": 0.8,
+      "basis": "SEL-421 high-speed element: 0.8 cycle maximum operating time at 70% of reach and SIR = 1; the standard SEL-421-1 is 1.5 cycles",
+      "source": {
+        "url": "https://selinc.com/products/421/",
+        "note": "SEL-421 data sheet cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "timer accuracy, SEL-421",
+      "unit": "cycles",
+      "value": "+/-0.125 cycle plus 0.1% of setting",
+      "basis": "SEL-421 data sheet: timer accuracy plus/minus 0.125 cycle plus 0.1% of setting; event time stamping better than 10 microseconds",
+      "source": {
+        "url": "https://selinc.com/products/421/",
+        "note": "SEL-421 data sheet cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "trip time, SIPROTEC 7SA513 distance",
+      "unit": "ms",
+      "low": 11,
+      "high": 11,
+      "basis": "Siemens 7SA513 shortest command time about 11 ms; 7SA86 tripolar minimum about 9 ms; distance function type-tested to IEC 60255-151",
+      "source": {
+        "url": "https://www.siemens.com/siprotec/",
+        "note": "SIPROTEC 7SA technical data cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "overcurrent IDMT timing tolerance, SIPROTEC",
+      "unit": "%",
+      "value": "<=5% +/-15 ms",
+      "basis": "SIPROTEC technical data: IDMT tolerance within 5% plus/minus 15 ms for 2 to 20 x pickup and 1-20 s",
+      "source": {
+        "url": "https://www.siemens.com/siprotec/",
+        "note": "SIPROTEC 7SA technical data cited from search summary, 2026-11-13"
+      }
+    },
+    {
+      "metric": "communication standard",
+      "unit": "standard",
+      "value": "IEC 61850 (Ed2/Ed2.1 with 9-2 process bus)",
+      "basis": "SIPROTEC 7SA supports IEC 61850 Ed1/Ed2.1 and IEC 61850-9-2 process bus with PTP time sync; new substations in Malaysia follow IEC 61850",
+      "source": {
+        "url": "https://www.gso.org.my/",
+        "note": "grid code and substation automation practice, read 2026-11-13"
+      }
+    },
+    {
+      "metric": "fault duty protection must clear at 500 kV",
+      "unit": "kA",
+      "low": 50,
+      "high": 50,
+      "basis": "TNB 500 kV 50 kA for 1 s",
+      "source": {
+        "url": "https://www.tnb.com.my/",
+        "note": "TNB fault-level table, read 2026-11-13"
+      }
+    }
   ],
   "vendor_models": [
-    {"vendor": "hitachi-energy", "line": "REL / RED", "models": ["REL 670 line differential", "RED 670 busbar"], "range": "transmission protection"},
-    {"vendor": "siemens-energy", "line": "SIPROTEC", "models": ["SIPROTEC 5 7SA distance", "7UT transformer differential"], "range": "transmission and transformer"},
-    {"vendor": "ge-vernova", "line": "UR (Universal Relay)", "models": ["T60 transformer", "L90 line differential", "D60 distance"], "range": "transmission protection"}
+    {
+      "vendor": "selinc",
+      "line": "SEL-421 / SEL-411L",
+      "models": [
+        "SEL-421-1",
+        "SEL-421-4/-5 high-speed",
+        "SEL-411L line differential"
+      ],
+      "range": "subcycle to 1.5-cycle distance protection"
+    },
+    {
+      "vendor": "siemens-energy",
+      "line": "SIPROTEC 5",
+      "models": [
+        "7SA86/7SA87 distance",
+        "7UT85 transformer differential",
+        "7SS52 busbar"
+      ],
+      "range": "IEC 60255-151 type-tested"
+    },
+    {
+      "vendor": "hitachi-energy",
+      "line": "Relion",
+      "models": [
+        "REL 670 line differential",
+        "RED 670 busbar",
+        "RET 670 transformer"
+      ],
+      "range": "transmission protection"
+    },
+    {
+      "vendor": "ge-vernova",
+      "line": "UR (Universal Relay)",
+      "models": [
+        "T60 transformer",
+        "L90 line differential",
+        "D60 distance"
+      ],
+      "range": "transmission protection"
+    }
   ],
-  "vendors": ["hitachi-energy", "siemens-energy", "ge-vernova"],
-  "technologies": ["ele-protection-relaying", "ele-power-management-systems", "ele-uhv-substations"],
+  "vendors": [
+    "selinc",
+    "siemens-energy",
+    "hitachi-energy",
+    "ge-vernova"
+  ],
+  "technologies": [
+    "ele-protection-relaying",
+    "ele-power-management-systems",
+    "ele-uhv-substations"
+  ],
   "sources": [
-    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"},
-    {"source_id": "gso", "url": "https://www.gso.org.my/", "note": "grid code context, read 2026-11-13"}
+    {
+      "source_id": "tnb",
+      "url": "https://www.tnb.com.my/",
+      "note": "TNB fault-level table, read 2026-11-13"
+    },
+    {
+      "source_id": "gso",
+      "url": "https://www.gso.org.my/",
+      "note": "grid code context, read 2026-11-13"
+    }
   ],
   "gaps": [
-    {"what": "operating times and setting ranges per model", "why": "Relay manuals are large and were not read this pass", "next_action": "Read manufacturer tech manuals for operating times"}
+    {
+      "what": "protection relay unit prices",
+      "why": "Relay pricing is quotation-only; no public list prices were found in this pass",
+      "next_action": "Ask owner for a relay quote benchmark from a SEL/Siemens panel integrator"
+    }
   ],
   "last_reviewed": "2026-11-13"
 }

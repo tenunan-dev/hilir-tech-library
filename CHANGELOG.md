@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.13.8] — 2026-11-13 — Electrical equipment: datasheets read, prices found
+
+### Added
+
+- **Datasheet data for all six electrical equipment classes**, read from the manufacturers' own documents where reachable: ABB MNS 3.0 Catalogue (PDF read: Ie to 6,300 A, Ipk 220 kA, Icw 100 kA, Ue 690 V, IP30-54, Form 4, 2,200 mm sections) and Siemens SIVACON S8 catalogue (PDF read: 7,000 A busbar, Icw 150 kA, Ipk 330 kA, IP54) for LV assemblies; Siemens 8DJH datasheet (PDF read: 7.2-24 kV, 630 A busbar, 25 kA/1 s to 17.5 kV, LSC 2, partition class PM, IAC A FL/FLR 21 kA 1 s, SF6 sealed for life) and the ABB SafeRing catalogue for MV; the Malaysian JKR/CIDB distribution-transformer loss schedule (1,000 kVA 11 kV/433 V Dyn11 ONAN: 1,600 W no-load, 6,100 W load, with the 750-2,500 kVA tiers) for transformers; SEL-421 and SIPROTEC 7SA operating times (0.8 cycle high-speed distance; ~11 ms trip; IDMT within 5% ± 15 ms) for relays; IEC 60840 class grades for cables.
+- **Prices for all six classes**, each with a dollar year and an explicit indicative-versus-quoted basis: LV sections USD 1,000-5,000; MV RMUs USD 2,000-7,000 plus the **TNB 11 kV motorised RMU supply award to EPE Switchgear at RM113.31 million over two years** (Bursa filing); transformers USD 7,000-20,000 for 1,000 kVA with the Malaysian landed expectation of MYR 80,000-150,000; HV breakers USD 40k-95k at 145 kV, USD 85k-150k at 245 kV and USD 200k-520k per three-phase set at 550 kV; cables USD 26.50-34.00/m for 19/33 kV 95 mm2 copper, with tender-derived USD 8,100-44,000/km at 11-33 kV; relays left honestly unpriced (quotation-only).
+
+### Fixed
+
+- Duplicate vendor caught by the uniqueness test: a `sel` record was created when `selinc` already existed; the duplicate was removed and the relay model lines repointed.
+
 ## [2026.11.13.7] — 2026-11-13 — Electrical vertical: 415 V to 500 kV, Malaysia-compatible
 
 ### Added

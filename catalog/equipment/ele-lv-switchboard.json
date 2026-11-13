@@ -16,15 +16,34 @@
     "motor control"
   ],
   "specifications": [
-    {"metric": "rated busbar current", "unit": "A", "low": 630, "high": 6300,
-     "basis": "typical LV switchboard busbar ratings for Malaysian industrial premises",
-     "source": {"url": "https://new.abb.com/low-voltage/products/switching-and-protection/mns", "note": "ABB MNS switchboard range, read 2026-11-13"}},
-    {"metric": "rated operational voltage", "unit": "V", "low": 400, "high": 690,
-     "basis": "IEC 61439 LV assemblies cover 400-690 V; Malaysian LV supply is 400/415 V",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB LV supply level, read 2026-11-13"}},
-    {"metric": "short-circuit withstand", "unit": "kA", "low": 25, "high": 100,
-     "basis": "manufacturer catalogues for main switchboards; site value set by the LV fault level",
-     "source": {"url": "https://new.abb.com/low-voltage/products/switching-and-protection/mns", "note": "ABB MNS catalogue, read 2026-11-13"}}
+    {"metric": "busbar rated current, ABB MNS 3.0", "unit": "A", "low": 630, "high": 6300,
+     "basis": "ABB MNS 3.0 catalogue: copper busbars rated current Ie up to 6300 A; distribution bars up to 2000 A",
+     "source": {"url": "https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch", "note": "ABB MNS 3.0 Catalogue, read from PDF 2026-11-13"}},
+    {"metric": "rated peak withstand current Ipk, ABB MNS", "unit": "kA", "low": 220, "high": 220,
+     "basis": "ABB MNS 3.0 catalogue: rated peak withstand current Ipk up to 220 kA",
+     "source": {"url": "https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch", "note": "ABB MNS 3.0 Catalogue, read from PDF 2026-11-13"}},
+    {"metric": "rated short-time withstand current Icw, ABB MNS", "unit": "kA", "low": 100, "high": 100,
+     "basis": "ABB MNS 3.0 catalogue: Icw up to 100 kA (arc-rated to IEC 61641 criteria 1-7 at 300 ms)",
+     "source": {"url": "https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch", "note": "ABB MNS 3.0 Catalogue, read from PDF 2026-11-13"}},
+    {"metric": "rated operational voltage Ue, ABB MNS", "unit": "V", "low": 690, "high": 690,
+     "basis": "MNS 3.0: Ue up to 690 V AC, Ui up to 1000 V AC, Uimp 6/8/12 kV",
+     "source": {"url": "https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch", "note": "ABB MNS 3.0 Catalogue, read from PDF 2026-11-13"}},
+    {"metric": "degree of protection, ABB MNS", "unit": "IP", "low": 30, "high": 54,
+     "basis": "MNS 3.0: IP30 to IP54, internal subdivision up to Form 4",
+     "source": {"url": "https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch", "note": "ABB MNS 3.0 Catalogue, read from PDF 2026-11-13"}},
+    {"metric": "busbar rated current, Siemens SIVACON S8", "unit": "A", "low": 630, "high": 7000,
+     "basis": "SIVACON S8 catalogue: main busbars rated currents up to 7,000 A",
+     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf", "note": "Siemens SIVACON S8 catalogue, read from PDF 2026-11-13"}},
+    {"metric": "rated short-time withstand current Icw, Siemens S8", "unit": "kA", "low": 150, "high": 150,
+     "basis": "SIVACON S8: Icw up to 150 kA, Ipk up to 330 kA",
+     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf", "note": "Siemens SIVACON S8 catalogue, read from PDF 2026-11-13"}},
+    {"metric": "section dimensions, ABB MNS", "unit": "mm", "low": 2200, "high": 2200,
+     "basis": "MNS 3.0: standard height 2200 mm; width 400-1200 mm; depth 800-1200 mm",
+     "source": {"url": "https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch", "note": "ABB MNS 3.0 Catalogue, read from PDF 2026-11-13"}},
+    {"metric": "indicative cost, LV switchboard section (IEC 61439, 50 kA/1 s, IP54)", "unit": "USD per section", "low": 1000, "high": 5000,
+     "year": 2025,
+     "basis": "Indicative B2B supplier listings only: about USD 1,000 for a basic section rising past USD 5,000 for drawout main sections; Western-brand boards typically 2-4x Chinese FOB. Confirmed manufacturer price books are distributor-only, so this is an indicative range, not a quoted price.",
+     "source": {"url": "https://www.alibaba.com/", "note": "B2B supplier listings, searched 2026-11-13 (indicative only)"}}
   ],
   "vendor_models": [
     {"vendor": "abb", "line": "MNS", "models": ["MNS 3.0", "MNS iS"], "range": "up to 6300 A"},
@@ -38,8 +57,10 @@
     {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB LV supply voltage, read 2026-11-13"}
   ],
   "gaps": [
-    {"what": "per-form price tables", "why": "Vendor price books are distributor-only and not published online", "next_action": "Ask a Malaysian panel builder for a quote benchmark"}
+    {"what": "per-form price tables from the manufacturers themselves",
+     "why": "ABB/Siemens/Schneider price books are distributor-only; only indicative B2B listings were found",
+     "next_action": "Ask a Malaysian panel builder (IPP/TNB-registered) for a section price benchmark"}
   ],
-  "notes": "First electrical equipment class; follows the decision #33 one-record-per-class pattern with Malaysia voltage tiers recorded.",
+  "notes": "First electrical equipment class; decision #33 one-record-per-class pattern with Malaysian voltage tiers. Datasheets read from the manufacturers' own PDFs 2026-11-13 (ABB MNS 3.0 catalogue, Siemens SIVACON S8 catalogue).",
   "last_reviewed": "2026-11-13"
 }

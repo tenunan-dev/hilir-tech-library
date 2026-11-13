@@ -4,11 +4,12 @@
   "equipment_type": "mv-switchgear",
   "sector": "ELE",
   "sector_codes": ["ELE"],
-  "description": "11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271.",
+  "description": "11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271-200/60298.",
   "subtypes": [
-    {"name": "Ring main unit (RMU) with load-break switches and fuse/T-off"},
+    {"name": "Ring main unit (RMU) with load-break switches and fuse or T-off"},
     {"name": "Metal-clad vacuum circuit-breaker switchgear"},
-    {"name": "Gas-insulated switchgear (GIS) for space-constrained sites"}
+    {"name": "Gas-insulated switchgear (GIS) for space-constrained sites"},
+    {"name": "SF6-free dry-air RMU"}
   ],
   "applications": [
     "TNB 11 kV and 33 kV intake",
@@ -16,32 +17,52 @@
     "package substation"
   ],
   "specifications": [
-    {"metric": "rated voltage", "unit": "kV", "low": 11, "high": 33,
-     "basis": "TNB MV distribution levels at 11 kV and 33 kV",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB supply-voltage table, read 2026-11-13"}},
-    {"metric": "short-circuit rating at 11 kV", "unit": "kA", "low": 20, "high": 25,
-     "basis": "TNB 11 kV fault rating is 20 kA for 3 s; switchgear normally rated 20-25 kA",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
-    {"metric": "short-circuit rating at 33 kV", "unit": "kA", "low": 25, "high": 31.5,
-     "basis": "TNB 33 kV fault rating is 25 kA for 3 s; switchgear rated 25-31.5 kA",
-     "source": {"url": "https://www.tnb.com.my/", "note": "TNB fault-level table, read 2026-11-13"}},
-    {"metric": "busbar current, typical RMU", "unit": "A", "low": 630, "high": 1250,
-     "basis": "typical RMU busbar rating",
-     "source": {"url": "https://new.abb.com/medium-voltage/switchgear/ring-main-units", "note": "ABB RMU range, read 2026-11-13"}}
+    {"metric": "rated voltage, Siemens 8DJH", "unit": "kV", "low": 7.2, "high": 24,
+     "basis": "8DJH datasheet covers 7.2, 12, 15, 17.5 and 24 kV ratings; TNB distributes at 11 kV and 33 kV",
+     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
+    {"metric": "busbar continuous current, Siemens 8DJH", "unit": "A", "low": 630, "high": 630,
+     "basis": "8DJH datasheet: busbar rated continuous current 630 A",
+     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
+    {"metric": "internal arc classification, Siemens 8DJH at 12 kV", "unit": "kA for 1 s", "low": 25, "high": 25,
+     "basis": "8DJH: short-time withstand 25 kA for 1 s up to 17.5 kV (20-21 kA for 3 s); optional IAC A FL/FLR 21 kA 1 s",
+     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
+    {"metric": "partition and continuity class, Siemens 8DJH", "unit": "class", "value": "LSC 2, partition class PM",
+     "basis": "8DJH datasheet: partition class PM, loss of service continuity LSC 2, type-tested to IEC 62271-200",
+     "source": {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"}},
+    {"metric": "busbar current, ABB SafeRing at 12 kV", "unit": "A", "low": 630, "high": 1250,
+     "basis": "SafeRing 12/17.5/24 kV: C-module rated current 630 A; CB module up to 1250 A",
+     "source": {"url": "https://library.e.abb.com/public/38d143df00e04144b7773e7caa82fa52/1VDD006104_Catalogue_SR-SP-12-24_DE_12-2019.pdf", "note": "ABB SafeRing/SafePlus 12-24 kV catalogue (cited from search summary of the library PDF; PDF fetch blocked this pass), 2026-11-13"}},
+    {"metric": "short-circuit withstand, ABB SafeRing", "unit": "kA for 3 s", "low": 16, "high": 21,
+     "basis": "SafeRing catalogue: 21/16/16 kA for 3 s across 12/17.5/24 kV; V20/V25 modules give 20-25 kA breaking",
+     "source": {"url": "https://library.e.abb.com/public/38d143df00e04144b7773e7caa82fa52/1VDD006104_Catalogue_SR-SP-12-24_DE_12-2019.pdf", "note": "ABB SafeRing catalogue (cited from search summary; PDF not fetched), 2026-11-13"}},
+    {"metric": "indicative cost, 12-24 kV SF6 RMU, unit", "unit": "USD per unit", "low": 2000, "high": 7000,
+     "year": 2025,
+     "basis": "Indicative B2B listings: compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Indicative only, not a quote.",
+     "source": {"url": "https://www.alibaba.com/", "note": "B2B supplier listings, searched 2026-11-13"}},
+    {"metric": "TNB 11 kV motorised RMU supply contract value (benchmark, not unit price)", "unit": "MYR million", "value": 113.31,
+     "year": 2025,
+     "basis": "TNB Letter of Award to EPE Switchgear (60% subsidiary of Pekat Group) for 11 kV motorised RMUs with interconnectors and remote control boxes, various configurations, two-year term from 29 December 2025; RM113.31 million inclusive of SST. A multi-configuration supply contract, so it bounds rather than fixes a per-unit price.",
+     "source": {"url": "https://www.bursamalaysia.com/", "note": "Bursa Malaysia announcement GA1-31122025-00042 (Pekat Group/EPE Switchgear), cross-reported by NST/Business Today, 2026-11-13"}}
   ],
   "vendor_models": [
-    {"vendor": "abb", "line": "SafeRing / SafePlus", "models": ["SafeRing 12 kV", "SafePlus 36 kV"], "range": "11-36 kV RMU"},
+    {"vendor": "abb", "line": "SafeRing / SafePlus", "models": ["SafeRing 12 kV", "SafePlus 36 kV", "Safe Air (SF6-free)"], "range": "12-36 kV RMU"},
     {"vendor": "schneider-electric", "line": "RM6 / Premset", "models": ["RM6", "Premset"], "range": "11-36 kV"},
-    {"vendor": "siemens", "line": "8DJH", "models": ["8DJH 12", "8DJH 36"], "range": "11-36 kV"},
+    {"vendor": "siemens", "line": "8DJH", "models": ["8DJH 12", "8DJH 24", "8DJH 36"], "range": "7.2-24 kV type-tested, SF6 sealed for life"},
     {"vendor": "eaton", "line": "Xiria", "models": ["Xiria E", "Xiria Panel"], "range": "12-24 kV"}
   ],
   "vendors": ["abb", "schneider-electric", "siemens", "eaton"],
   "technologies": ["ele-mv-distribution", "ele-hv-switchgear-distribution"],
   "sources": [
-    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB MV voltage and fault-level tables, read 2026-11-13"}
+    {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB MV voltage and fault-level tables, read 2026-11-13"},
+    {"url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf", "note": "Siemens 8DJH datasheet, read from PDF 2026-11-13"}
   ],
   "gaps": [
-    {"what": "per-panel price tables", "why": "Distributor-only pricing, not published", "next_action": "Ask a Malaysian switchgear panel builder for a quote benchmark"}
+    {"what": "per-panel prices from ABB/Schneider/Eaton themselves",
+     "why": "Manufacturer price books are distributor-only; only indicative B2B listings and the TNB contract total were found",
+     "next_action": "Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark"},
+    {"what": "Eaton Xiria and Schneider RM6 datasheet values",
+     "why": "Neither datasheet could be fetched this pass",
+     "next_action": "Read the Xiria and RM6 catalogues and record the same ratings set"}
   ],
   "last_reviewed": "2026-11-13"
 }

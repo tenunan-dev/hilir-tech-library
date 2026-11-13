@@ -4,10 +4,10 @@
   "equipment_type": "power-cables",
   "sector": "ELE",
   "sector_codes": ["ELE"],
-  "description": "XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 and IEC 60840/62067.",
+  "description": "XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 (LV/MV) and IEC 60840/62067 (HV/EHV).",
   "subtypes": [
     {"name": "LV XLPE/PVC cables (0.6/1 kV)"},
-    {"name": "MV XLPE cables (6.6/11/22/33 kV)"},
+    {"name": "MV XLPE cables (6.35/11 kV, 19/33 kV)"},
     {"name": "HV transmission cables (132-275 kV)"},
     {"name": "Fire-resistant and mineral-insulated cable"}
   ],
@@ -18,14 +18,23 @@
   ],
   "specifications": [
     {"metric": "voltage grades covering the Malaysian system", "unit": "kV", "low": 0.6, "high": 275,
-     "basis": "0.6/1 kV LV through 11-33 kV MV to 132-275 kV transmission cable grades",
+     "basis": "0.6/1 kV LV through 6.35/11 and 19/33 kV MV to 132-275 kV transmission grades",
      "source": {"url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"}},
-    {"metric": "conductor material", "unit": "type", "low": 1, "high": 1,
-     "basis": "copper for LV and aluminium for HV conductors",
-     "source": {"url": "https://www.prysmian.com/", "note": "Prysmian cable catalogue, read 2026-11-13"}}
+    {"metric": "indicative cost, 19/33 kV 3-core Cu XLPE/SWA/PVC 95 mm2", "unit": "USD per metre", "low": 26.5, "high": 34.0,
+     "year": 2026,
+     "basis": "FOB China price guide at LME copper about USD 9,800-10,200/t: 19/33 kV 95 mm2 3-core copper USD 26.50-34.00/m; 240 mm2 USD 60-77/m; 400 mm2 USD 96-123/m. Aluminium conductor saves roughly 40-55%.",
+     "source": {"url": "https://www.shengecable.com/", "note": "Sheng Cable 2026 medium-voltage price guide cited from search summary, 2026-11-13"}},
+    {"metric": "indicative cost, 6.35/11 kV 3-core Cu XLPE/SWA/PVC 185 mm2", "unit": "USD per metre", "low": 31.0, "high": 39.3,
+     "year": 2026,
+     "basis": "Same price guide: 11 kV 185 mm2 copper USD 31.00-39.30/m; 95 mm2 USD 17.00-21.70/m; 300 mm2 USD 47.70-61.10/m",
+     "source": {"url": "https://www.shengecable.com/", "note": "Sheng Cable 2026 MV price guide cited from search summary, 2026-11-13"}},
+    {"metric": "indicative cost, 11 kV and 33 kV underground cable per km (tender-derived)", "unit": "USD per km", "low": 8100, "high": 44000,
+     "year": 2025,
+     "basis": "Indian utility tender cost data: 33 kV 1Cx630 mm2 aluminium XLPE about USD 8,100/km; 33 kV 1Cx400 mm2 copper about USD 44,000/km; 11 kV 3x185 mm2 about USD 11,000/km; 11 kV 3x300 mm2 about USD 14,500/km. Tender-derived and useful for magnitude only.",
+     "source": {"url": "https://www.tstransco.in/", "note": "state discom cost data cited from search summary, 2026-11-13"}}
   ],
   "vendor_models": [
-    {"vendor": "prysmian", "line": "XLPE cables", "models": ["Medium voltage XLPE", "High voltage XLPE"], "range": "0.6 kV to 400 kV"},
+    {"vendor": "prysmian", "line": "XLPE cables", "models": ["medium-voltage XLPE", "high-voltage XLPE"], "range": "0.6 kV to 400 kV"},
     {"vendor": "nexans", "line": "Power cables", "models": ["MV XLPE", "HV XLPE"], "range": "LV to EHV"}
   ],
   "vendors": ["prysmian", "nexans"],
@@ -34,7 +43,12 @@
     {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"}
   ],
   "gaps": [
-    {"what": "ampacity tables by installation method", "why": "Cable ampacity depends on derating and was not read this pass", "next_action": "Read IEC 60287/60364 ampacity tables"}
+    {"what": "ampacity tables by installation method (IEC 60287/60364)",
+     "why": "Cable ampacity needs derating by grouping, depth and soil thermal resistivity; no single datasheet value is meaningful",
+     "next_action": "Record a small derated ampacity table for the common 11/33 kV sizes"},
+    {"what": "132 kV cable prices",
+     "why": "Suppliers do not publish EHV cable prices; they are project-quoted to IEC 60840/62067",
+     "next_action": "Ask owner for a Prysmian/Nexans EHV quote if a project needs it"}
   ],
   "last_reviewed": "2026-11-13"
 }
