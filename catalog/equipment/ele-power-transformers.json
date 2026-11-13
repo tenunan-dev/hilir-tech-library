@@ -41,12 +41,13 @@
      "source": {"url": "https://www.alibaba.com/", "note": "B2B/export quotation listings, searched 2026-11-13 (indicative only)"}}
   ],
   "vendor_models": [
+    {"vendor": "malaysia-transformer", "line": "MTM distribution and power transformers", "models": ["distribution transformers (to 5,000 kVA, 33 kV)", "power transformers (to 100 MVA)", "dry-type", "generator and earthing transformers", "compact substation units"], "range": "100 kVA to 100 MVA; refurbishment to 275 kV"},
     {"vendor": "hitachi-energy", "line": "Power and distribution transformers", "models": ["TRAFOstar power transformers", "Resibloc dry-type"], "range": "distribution to UHV"},
     {"vendor": "siemens-energy", "line": "Transformers", "models": ["power transformers", "GEAFOL cast-resin"], "range": "distribution to UHV"},
     {"vendor": "ge-vernova", "line": "Transformers", "models": ["power transformers", "distribution transformers"], "range": "distribution to UHV"},
     {"vendor": "hyundai-electric", "line": "Transformers", "models": ["power transformers"], "range": "grid class"}
   ],
-  "vendors": ["hitachi-energy", "siemens-energy", "ge-vernova", "hyundai-electric"],
+  "vendors": ["malaysia-transformer", "hitachi-energy", "siemens-energy", "ge-vernova", "hyundai-electric"],
   "technologies": ["ele-transformers", "ele-mv-distribution", "ele-uhv-substations"],
   "sources": [
     {"source_id": "tnb", "url": "https://www.tnb.com.my/", "note": "TNB voltage tiers, read 2026-11-13"},

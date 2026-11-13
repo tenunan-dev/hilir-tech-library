@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-175 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+176 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -50,6 +50,7 @@
 | [JERA](https://www.jera.co.jp/en) | licensor | apac | open | summary-only (unverified) |
 | [Keppel Infrastructure and Energy](https://www.keppel.com/) | epc-contractor | sea | open | summary-only (unverified) |
 | [LONGi Hydrogen](https://www.longi.com/en/) | oem-supplier | apac, global | open | summary-only (unverified) |
+| [Malaysia Transformer Manufacturing (MTM)](https://www.malaysiatransformer.com/) | oem-supplier | sea | open | summary-only |
 | [MIDA Malaysian Investment Development Authority energy sector](https://www.mida.gov.my/) | agency-data | sea | open | summary-only (unverified) |
 | [Pertamina](https://www.pertamina.com/en) | licensor | sea | open | summary-only |
 | [Petromindo Indonesia energy news](https://www.petromindo.com/) | trade-media | sea | mixed | catalog-only (unverified) |

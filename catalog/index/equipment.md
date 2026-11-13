@@ -436,7 +436,7 @@ Recorded gaps:
 
 Primary code: ELE: Electrical engineering
 Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted).
-Vendors: Hitachi Energy, Siemens Energy, GE Vernova, HD Hyundai Electric (4 model lines recorded).
+Vendors: Malaysia Transformer Manufacturing (MTM), Hitachi Energy, Siemens Energy, GE Vernova, HD Hyundai Electric (5 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -448,6 +448,7 @@ Vendors: Hitachi Energy, Siemens Energy, GE Vernova, HD Hyundai Electric (4 mode
 | power transformer rating | 100-700 MVA | Grid bank sizes at 275 and 500 kV |
 | indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer | 7000-20000 USD per unit | Indicative export quotes: aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000. Malaysian landed prices are expected 30-60% above these FOB figures for duties, SST, compliance testing and local margin (roughly MYR 80,000-150,000 for a compliant S13-class copper unit). Indicative only. |
 
+- **Malaysia Transformer Manufacturing (MTM)** MTM distribution and power transformers: 100 kVA to 100 MVA; refurbishment to 275 kV
 - **Hitachi Energy** Power and distribution transformers: distribution to UHV
 - **Siemens Energy** Transformers: distribution to UHV
 - **GE Vernova** Transformers: distribution to UHV

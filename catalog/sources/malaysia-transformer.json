@@ -1,0 +1,27 @@
+{
+  "id": "malaysia-transformer",
+  "name": "Malaysia Transformer Manufacturing (MTM)",
+  "url": "https://www.malaysiatransformer.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "Malaysia Transformer Manufacturing Sdn Bhd",
+  "country": "MY",
+  "licence": "proprietary",
+  "access": "open",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "update_frequency": "irregular",
+  "automated_access": "unstated",
+  "permitted_use": "unstated",
+  "notes": "Malaysian transformer manufacturer and wholly owned TNB subsidiary: distribution, power, dry-type and generator transformers from 100 kVA to 100 MVA, plus remanufacturing and refurbishment services. Homepage read 2026-11-13 (TNB subsidiary status and the 100 kVA-100 MVA range stated on site).",
+  "verification": "verified",
+  "last_verified": "2026-11-13"
+}

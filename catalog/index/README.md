@@ -1,6 +1,6 @@
 # Catalog summary
 
-509 sources in total.
+510 sources in total.
 
 ## By sector and discipline code
 
@@ -12,7 +12,7 @@
 | UPS | 229 |
 | REF | 195 |
 | DIG | 182 |
-| PWR | 175 |
+| PWR | 176 |
 | CCS | 163 |
 | PCH | 157 |
 | HSE | 111 |
@@ -21,7 +21,7 @@
 | ROT | 71 |
 | INS | 29 |
 | WWT | 23 |
-| ELE | 7 |
+| ELE | 8 |
 | CIV | 4 |
 
 ## By region
@@ -30,7 +30,7 @@
 | --- | --- |
 | global | 351 |
 | apac | 81 |
-| sea | 68 |
+| sea | 69 |
 | eu | 41 |
 | na | 38 |
 | me | 17 |
@@ -41,7 +41,7 @@
 | Value | Sources |
 | --- | --- |
 | agency-data | 101 |
-| oem-supplier | 72 |
+| oem-supplier | 73 |
 | research-institute | 60 |
 | association | 49 |
 | journal | 49 |
@@ -57,7 +57,7 @@
 | Value | Sources |
 | --- | --- |
 | full-text-restricted | 161 |
-| summary-only | 139 |
+| summary-only | 140 |
 | catalog-only | 103 |
 | full-text-open | 103 |
 | full-text-with-attribution | 3 |
@@ -66,5 +66,5 @@
 
 | Value | Sources |
 | --- | --- |
-| verified | 298 |
+| verified | 299 |
 | unverified | 211 |

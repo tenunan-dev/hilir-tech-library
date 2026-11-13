@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-492 vendor records covering 304 technologies. One record per vendor in
+493 vendor records covering 305 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -85,6 +85,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Furse (ABB)](https://www.abb.com) | United Kingdom | oem, supplier | Earthing and lightning protection |
 | [HD Hyundai Electric](https://www.hyundai-electric.com) | KR | oem | UHV and HV substations (275-500 kV); Power and distribution transformers; HV/MV switchgear and site power distribution |
 | [LS Cable & System](https://www.lscable.com) | South Korea | oem, supplier | Power and control cable systems |
+| [Malaysia Transformer Manufacturing (MTM)](https://www.malaysiatransformer.com/) | MY | oem, service | Power and distribution transformers; Medium-voltage distribution (11 kV and 33 kV); UHV and HV substations (275-500 kV) |
 | [Nidec](https://www.nidec.com) | Japan | oem | Motors and variable speed drives |
 | [nVent Electric](https://www.nvent.com/) | United Kingdom | oem | Electrical heat tracing; Earthing and lightning protection |
 | [Pepperl+Fuchs](https://www.pepperl-fuchs.com/) | Germany | oem | Hazardous area electrical equipment |
