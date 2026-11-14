@@ -27,7 +27,7 @@ execution detail. The roadmap folds in one targeted track:
 | # | Item | Status |
 |---|---|---|
 | 1.1 | Five-channel discovery pipeline, triage per access class | standing |
-| 1.2 | Doc-coverage targeting: 205 of 404 sources have docs. Priority list computed 2026-11-08: 58 card-cited sources with zero docs (top: wikipedia 79 cards — needs per-article docs, offshore-mag 12, honeywell-uop 11, sintef 10, ogj 10 — most mixed/paywalled → browser/manual). Batches 1-4 done: ge-vernova, axens, slb + 70 of 71 cited wikipedia articles (manual intake, summaries added) | open | **in progress 2026-11-11** (287 docs / 14,948 chunks / 16,154 vectors live; 2026-11-11 intake added the 12 leftover PDFs with authored summaries; cited mixed/paywalled sources still on manual/browser paths) |
+| 1.2 | Doc-coverage targeting: **27 sources hold all 289 corpus documents**; 483 of 510 catalogued sources have none (measured 2026-11-14 — the earlier "205 of 404 sources have docs" figure counted citations, not documents, and read as far better coverage than exists). The 28-arXiv corpus was already converted; its summaries were raw stubs and are now authored (2026-11-14) | open | **re-measured 2026-11-14**; /sources now shows the per-source count and a coverage filter, so the hole is visible on the site |
 | 1.3 | Discipline sources: electrical/civil/C&I publishers and OEMs found while authoring round 2 | open |
 
 ## 2. Content expansion
@@ -49,10 +49,10 @@ tests 884 passed. Tracking tables for the 27 cards live in the archived plan; re
 
 | # | Item | Size | Status |
 |---|---|---|---|
-| 2.2a | Costs fill: staged by sector, dollar-year basis mandatory, every figure evidence-fetched. **2026-11-08 pass 1 (CCS + H2, 10 cards)**: IEA 'Is carbon capture too expensive?' figures (concentrated 15-25 / dilute 40-120 USD/t, pipeline 2-14 USD/t, storage <10 USD/t) on 5 CCS-chain cards; IEA GHR 2024 figures (renewable-vs-fossil gap 1.5-8 USD/kg, renewable today 4-18 USD/kg implied) on 5 H2 cards. IRENA/NETL still block plain fetch — remaining sectors need the browser/staged session | L | **started 2026-11-08**; ~220 gaps remain |
+| 2.2a | Costs fill: staged by sector, dollar-year basis mandatory, every figure evidence-fetched. **2026-11-08 pass 1 (CCS + H2, 10 cards)**: IEA figures on 5 CCS-chain cards and 5 H2 cards. **2026-11-14 pass 2 (15 cards)**: 11 ELE figures reusing the owner-accepted export-price basis already on the equipment records, plus 13 EPA fact-sheet figures across 8 WWT cards. Costs gaps 271 → 275 (4 closed, 10 new IDC cards and 29 CIV gaps recorded) | L | **two passes done**; 275 cards still carry no cost figure |
 | 2.2b | Reference plants / verified figures on cards without them | M | **partial 2026-11-07** (first verified figures on ele-transformers and civ-floating-structures-fpso from cited vendor pages; systematic sweep continues) |
 | 2.2c | Thin sectors: PRC 5, MAT 8, HSE 6, DIG 7 cards after the 2026-11-08 batch (OTS, catalyst management, corrosion monitoring, CUI, methane/LDAR, flare recovery, CMMS, cloud SCADA) | M–L | **batch done 2026-11-08**; further deepening open |
-| 2.2d | Register entries without cards (list_gaps) | M | **closed 2026-11-08** — 0 of 333 uncovered |
+| 2.2d | Register entries without cards (list_gaps) | M | **open again 2026-11-14** — the 2026-11-08 "closed, 0 of 333" claim did not survive the IDC sector: 17 IDC entries were uncovered, 3 of them because duplicate register rows had been added instead of linking the originals. Duplicates removed, 10 cards authored, **7 remain** (fuel-cell power, district heating tie-ins, battery load smoothing, modular data halls, commissioning and IST, DCIM and digital twins, leak detection) — each needs a source read before a card can be written |
 
 ### 2.3 New content layers
 

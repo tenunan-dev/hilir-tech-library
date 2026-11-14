@@ -8,6 +8,25 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.14] — 2026-11-14 — the gap register made visible; 15 cards filled; 10 IDC cards authored
+
+### Added
+
+- **Ten IDC cards** — AI load profiles, PUE/WUE benchmarking, utility feed and on-site substation, MV switchgear and busway, rack power distribution, air cooling, rear-door heat exchangers, free cooling and economisers, immersion cooling, and on-site solar plus storage. Each rests on sources read this session: the IEA *Energy and AI* report, the Uptime Institute 2025 survey, Vertiv, ABB, Starline, Server Technology and Submer. Register uncovered 17 → 7.
+- **`/sources` shows document coverage**: a Docs column, a with-documents count and a coverage filter. 483 of 510 catalogued sources hold no full text, and nothing on the site said so.
+- **`/register` marks uncovered entries** with a warn pill and filters by card state; uncovered rows previously read identically to covered ones.
+- Authored summaries for the 28 arXiv full-text documents, which carried raw conversion stubs ("Full-text conversion of arXiv X. Abstract: …") as their summary.
+
+### Changed
+
+- **`/gaps` now includes register entries with no card.** The page passed `include_no_card=False`, so the 20 IDC technologies with no card — the library's biggest structural hole — were invisible on the only page meant to show gaps. Groups are ordered by triage weight: uncovered entries first, then the cards carrying most open inputs.
+- **Three duplicate IDC register rows removed** and their original topics linked to the existing cards by alias. An earlier session had appended rows matching its cards instead of linking the originals, which left those originals permanently uncovered.
+- **CIV audited**: all ten CIV cards held zero gaps while carrying no cost, no TRL, almost no performance data and no reference project — the only sector with an empty register. 29 real gaps now recorded.
+
+### Fixed
+
+- Costs recorded on 15 cards from sources actually read: 11 on electrical cards reusing the owner-accepted export-price figures already held on the equipment records, and 13 EPA fact-sheet figures across 8 WWT cards (package plants, SBR, MBR, belt filter press, multi-stage digestion, incineration, gravity thickening, ozone). Two ELE and two WWT costs gaps close outright.
+
 ## [2026.11.13.9] — 2026-11-13 — Switchgear datasheets verified in-browser; all six electrical classes priced
 
 ### Added
