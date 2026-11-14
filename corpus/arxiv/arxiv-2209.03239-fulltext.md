@@ -9,18 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2209.03239. Abstract: 1 
- 
-Technical and Economic Feasibility Analysis of Underground 
-Hydrogen Storage : A Case Study in Intermountain-West 
-Region USA 
- 
-Fangxuan Chen1,2,*, Zhiwei Ma1, Hadi Nasrabadi2, Bailian Chen1, Mohamed 
-Mehana1,*, Jolante Wieke Van Wijk1 
- 
-1) Los Alamos National Laboratory, Los Alamos, United States 
-2) Texas A&M University, College station, United States 
-*Corresponding author: Fangxuan Chen"
+summary: "Techno-economic feasibility of geologic hydrogen storage in depleted gas reservoirs, salt caverns and aquifers across the US Intermountain-West, ranking candidate sites and estimating volumetric storage capacity."
 ---
 
 # arXiv:2209.03239

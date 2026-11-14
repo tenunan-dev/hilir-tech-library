@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.00825. Abstract: Quantum-Based Optimization of Gas Throughput in
-Natural Gas Transmission Networks Under Hydraulic
-Constraints Using QAOA
-Ben-Ishay A.1, Eyal Y.1, Cohen Y.2, and Erez N.2
-1INGL – Israel Natural Gas Lines Ltd., Israel
-2Classiq Technologies, 3 Daniel Frisch Street,Tel Aviv-Yafo, 6473104, Israel
-Abstract
-Maximizing gas throughput in transmission networks under hydraulic and operational constraints is "
+summary: "Graph-based optimisation of nodal pressures under the Panhandle-B hydraulic equation to maximise weighted delivered gas throughput in transmission networks."
 ---
 
 # Quantum-Based Optimization of Gas Throughput in

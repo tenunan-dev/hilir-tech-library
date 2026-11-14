@@ -9,12 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.16056. Abstract: Multi-Modal Semantic Segmentation of Electrolyzer Components for
-Sustainable Hydrogen Technologies: A Dual-Branch Deep Learning
-Approach
-Wasimul Karim1, 2 iD , Nur Mohammad Fahad1,3,* iD , Abdul Hasib Siddique2, 4 iD ,
-Md Rafiqul Islam4 iD , Hooman Mehdizadeh-Rad4 iD , Asif Karim4 iD , Sami Azam4,* iD
-1Applied Artificial Intelligence and INtelligent Systems (AAIINS) Laboratory, Dhaka 1217, Banglad"
+summary: "HREM-Net, a dual-branch hyperspectral plus RGB segmentation framework that identifies electrolyser materials for automated disassembly and recycling despite spectrally similar classes and severe class imbalance."
 ---
 
 # Multi-Modal Semantic Segmentation of Electrolyzer Components for

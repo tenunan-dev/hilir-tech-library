@@ -9,13 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.26750. Abstract: Enhancing hydrogen production in alkaline
-electrolyzers by using an ultra-fast kinetics surfactant
-D. Fernández-Martíneza,b, G. Martín-Zazoa, A. Rubio-Gonzáleza,b, J. L.
-Serrano-Marcosc, J. M. Montaneroa,b, F. J. Perosanzc, E. J. Vegaa,b,∗
-aDepto. de Ingeniería Mecánica, Energética y de los Materiales, Universidad de
-Extremadura, E-06006 Badajoz, Spain
-bInstituto de Computación Científica Avanzada"
+summary: "Surfynol 465 cuts bubble residence time by an order of magnitude and suppresses bubbles above 200 micrometres, lowering cell overpotential by 140-150 mV and roughly tripling current density at 2 V in an anion-exchange membrane electrolyser."
 ---
 
 # Enhancing hydrogen production in alkaline

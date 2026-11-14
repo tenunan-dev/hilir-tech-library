@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.19281. Abstract: A REINFORCEMENT-LEARNING-AUGMENTEDLIQUID-FUELED
-REACTORNETWORKMODEL FORPREDICTINGLEAN
-BLOWOUT INGASTURBINECOMBUSTORS
-Philip John1, Eloghosa Ikponmwoba1, Pinaki Pal2, Opeoluwa Owoyele1∗
-1Department of Mechanical and Industrial Engineering
-Louisiana State University, Baton Rouge, LA 70803, USA
-2Transportation and Power Systems Division
-Argonne National Laboratory, 9700 S. Cass Ave, Lemont, IL 60439,"
+summary: "Reinforcement-learning framework that builds goal-oriented clusters of liquid-fueled reactor designs, forming clusters against lean-blowout prediction accuracy instead of input-space distance."
 ---
 
 # A REINFORCEMENT-LEARNING-AUGMENTEDLIQUID-FUELED

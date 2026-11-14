@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2608.02389. Abstract: 1 
- 
-Degradation of Proton Exchange Membrane Water Electrolyzers in 
-Accelerated Stress Tests of Dynamic Load Cycling 
- 
-Yunyi Zhang1, Qingbo Gao1, Jiawei Yang2,3, Zhen Zeng1,3, Rui Chen1,3, Tianyou Wang1,3, Zhizhao Che1,2,3,* 
-1. State Key Laboratory of Engines, Tianjin University, Tianjin, 300350, China 
-2. The International Joint Institute of Tianjin University, Fuzhou, Tianjin University, Tian"
+summary: "Accelerated stress testing of PEM water electrolysis under dynamic load cycling, isolating how peak voltage and cycling frequency drive degradation under variable renewable operation."
 ---
 
 # arXiv:2608.02389

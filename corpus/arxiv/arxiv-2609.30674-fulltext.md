@@ -9,13 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.30674. Abstract: SkillRefine: Cross-Source Skill Induction and Execution Validation
-for LLM Agents in Refinery Planning Software
-Dongxiao Liu1,2, Boren Zhu2, Yuwen Ding2, Linghui Li1, Li Lei2, Xiaoyong Li1
-1Beijing University of Posts and Telecommunications, Beijing, China
-2Sinopec Engineering Incorporation, Beijing, China
-liudongxiao@bupt.edu.cn, zhuboren.sei@sinopec.com, dingyuwen.sei@sinopec.com,
-lilinghui@bupt"
+summary: "SkillRefine, an LLM agent framework for operating industrial planning software such as AspenTech PIMS that combines documentation, expert case records and execution feedback to bridge the documentation-practice gap."
 ---
 
 # SkillRefine: Cross-Source Skill Induction and Execution Validation

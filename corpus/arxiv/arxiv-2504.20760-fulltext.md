@@ -9,16 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2504.20760. Abstract: 1 
- 
-Flexible Perovskite/Silicon Monolithic Tandem Solar Cells 
-Approaching 30% Efficiency 
-Yinqing Sun1†, Faming Li 1†, Hao Zhang 1†, Wenzhu Liu2†, Zenghui Wang3, Lin Mao1, Qian Li1, 
-Youlin He1, Tian Yang1,  Xianggang Sun1, Yicheng Qian1, Yinyi Ma1, Liping Zhang2, Junlin Du2, 
-Jianhua Shi 2, Guangyuan Wang 2, Anjun Han 2, Na Wang 2, Fanying Meng 2, Zhengxin Liu 2*, 
-Mingzhen Liu1,4* 
- 
-1School o"
+summary: "Flexible perovskite/c-silicon monolithic tandem cells: perovskite phase homogeneity is shown to control both photocarrier transport and residual-stress relief, the two limits on flexible tandem efficiency."
 ---
 
 # arXiv:2504.20760

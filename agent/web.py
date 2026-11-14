@@ -125,6 +125,7 @@ CSS = """
   --client:#e3b341;
   --info:#2dd4bf; --info-bg:rgba(45,212,191,.10);
   --machine:#a78bfa; --machine-bg:rgba(167,139,250,.12); --machine-line:rgba(167,139,250,.35);
+  --warn:#e3b341; --warn-bg:rgba(227,179,65,.12);
   --ok:#4ade80; --danger:#f87171;
 }
 @media (prefers-color-scheme: light) { :root { color-scheme: light;
@@ -134,6 +135,7 @@ CSS = """
   --client:#a16207;
   --info:#0e7f96; --info-bg:rgba(14,127,150,.10);
   --machine:#6d4fc4; --machine-bg:rgba(109,79,196,.10); --machine-line:rgba(109,79,196,.35);
+  --warn:#a16207; --warn-bg:rgba(161,98,7,.10);
   --ok:#15803d; --danger:#dc2626;
 }}
 * { box-sizing: border-box; }
@@ -227,6 +229,7 @@ pre.doc { font-size: .8rem; white-space: pre-wrap; }
         border-radius: 999px; padding: 1px 10px; font-size: 11px; font-weight: 600; vertical-align: middle; white-space: nowrap; }
 .pill.info { border-color: transparent; background: var(--info-bg); color: var(--info); }
 .pill.mach { border-color: transparent; background: var(--machine-bg); color: var(--machine); }
+.pill.warn { border-color: transparent; background: var(--warn-bg); color: var(--warn); }
 .mchip { display: inline-block; border: 1px solid var(--border2); color: var(--muted); background: transparent;
          border-radius: 999px; padding: 1px 10px; font-size: 11px; font-weight: 600; vertical-align: middle; white-space: nowrap; }
 .mchip.m-commercial { border-color: var(--ok); color: var(--ok); }
@@ -1178,6 +1181,8 @@ KIND_OPTIONS = [("all", "all"), ("source", "source"), ("chunk", "chunk"), ("tech
                 ("vendor", "vendor"), ("equipment", "equipment")]
 REUSE_OPTIONS = [("", "any reuse level")] + [(r, r) for r in REUSE_LEVELS]
 FIELD_OPTIONS = [("", "any field")] + [(f, f) for f in GAP_FIELDS]
+CARD_STATE_OPTIONS = [("", "any card state"), ("no", "no card"), ("yes", "with card")]
+DOCS_OPTIONS = [("", "any coverage"), ("none", "no documents"), ("some", "with documents")]
 
 
 def routes(tools) -> list:
@@ -1657,20 +1662,27 @@ def routes(tools) -> list:
     async def register(request: Request):
         qp = request.query_params
         code, maturity, query = str(qp.get("code") or ""), str(qp.get("maturity") or ""), str(qp.get("q") or "")
+        card_state = str(qp.get("card") or "")
         entries = _neon_first(
             lambda: pg.register_rows(code or None, maturity or None, query or None),
             lambda: tools.list_technology_register(code or None, maturity or None, query or None))
+        # an uncovered register entry reads exactly like a covered one without this marker and filter
+        if card_state:
+            entries = [e for e in entries
+                       if (bool(e.get("card")) if card_state == "yes" else not e.get("card"))]
+        uncovered = sum(1 for e in entries if not e.get("card"))
         rows = "".join(
             "<tr><td>" + (f'<a href="/technologies/{esc(e.get("card"))}">{esc(e.get("name"))}</a> <span class="pill info">card</span>'
-                          if e.get("card") else esc(e.get("name")))
+                          if e.get("card") else f'{esc(e.get("name"))} <span class="pill warn">no card</span>')
             + f"</td><td>{_sector_badge(e.get('code'))}</td><td>{esc(e.get('area'))}</td>"
             f"<td>{_maturity_badge(e.get('maturity'))}</td><td>{esc(e.get('examples'))}</td></tr>"
             for e in entries)
         body = ('<section class="card"><form class="filters" method="get" action="/register">'
                 + _select("code", SECTOR_OPTIONS, code) + _select("maturity", MATURITY_OPTIONS, maturity)
+                + _select("card", CARD_STATE_OPTIONS, card_state)
                 + f' <input type="search" name="q" value="{esc(query)}" placeholder="name, area or examples" size="18">'
                 + ' <button type="submit">Filter</button></form>'
-                + f'<p class="muted">{len(entries)} register entries</p>'
+                + f'<p class="muted">{len(entries)} register entries — {uncovered} with no card</p>'
                 + '<div class="scroll tall"><table><thead><tr><th>Name</th><th>Sector</th><th>Area</th><th>Maturity</th>'
                 + f'<th>Examples</th></tr></thead><tbody>{rows}</tbody></table></div></section>')
         return _page("Technology register", body, active="/register")
@@ -1678,20 +1690,27 @@ def routes(tools) -> list:
     async def sources(request: Request):
         qp = request.query_params
         code, region, reuse = str(qp.get("code") or ""), str(qp.get("region") or ""), str(qp.get("reuse_level") or "")
+        docs_state = str(qp.get("docs") or "")
         items = _neon_first(
             lambda: pg.source_rows(code or None, region or None, reuse or None),
             lambda: tools.list_by_tag(code or None, region or None, reuse or None, None))
+        if docs_state:
+            want = docs_state == "some"
+            items = [i for i in items if bool(i.get("docs")) is want]
+        with_docs = sum(1 for i in items if i.get("docs"))
         rows = "".join(
             f'<tr><td><a href="/sources/{esc(i.get("id"))}">{esc(i.get("name"))}</a></td>'
             f"<td>{esc(i.get('source_type'))}</td><td>{esc(', '.join(i.get('regions') or []))}</td>"
-            f"<td>{_badge(i.get('reuse_level'))}</td><td>{esc(i.get('quality_tier'))}</td></tr>" for i in items)
+            f"<td>{_badge(i.get('reuse_level'))}</td><td>{esc(i.get('quality_tier'))}</td>"
+            f'<td>{esc(i.get("docs")) if i.get("docs") else "&mdash;"}</td></tr>' for i in items)
         body = ('<section class="card"><form class="filters" method="get" action="/sources">'
                 + _select("code", SECTOR_OPTIONS, code) + _select("reuse_level", REUSE_OPTIONS, reuse)
+                + _select("docs", DOCS_OPTIONS, docs_state)
                 + f' <input type="text" name="region" value="{esc(region)}" placeholder="region, e.g. sea" size="12">'
                 + ' <button type="submit">Filter</button></form>'
-                + f'<p class="muted">{len(items)} sources</p>'
+                + f'<p class="muted">{len(items)} sources — {with_docs} with documents</p>'
                 + '<div class="scroll"><table><thead><tr><th>Name</th><th>Type</th><th>Regions</th><th>Reuse level</th>'
-                + f'<th>Tier</th></tr></thead><tbody>{rows}</tbody></table></div></section>')
+                + f'<th>Tier</th><th>Docs</th></tr></thead><tbody>{rows}</tbody></table></div></section>')
         return _page("Sources", body, active="/sources")
 
     async def source(request: Request):
@@ -1812,20 +1831,26 @@ def routes(tools) -> list:
     async def gaps(request: Request):
         qp = request.query_params
         sector, field = str(qp.get("sector") or ""), str(qp.get("field") or "")
-        rows = _neon_first(lambda: pg.gap_rows(sector or None, field or None),
-                           lambda: tools.list_gaps(sector or None, field or None, None, False))
+        # include_no_card is deliberate: register entries with no card are the library's biggest
+        # structural hole and were invisible here while this passed False.
+        rows = _neon_first(lambda: pg.gap_rows(sector or None, field or None, None, True),
+                           lambda: tools.list_gaps(sector or None, field or None, None, True))
         groups = {}
         for gap in rows:
             groups.setdefault((gap.get("card"), gap.get("technology")), []).append(gap)
+        no_card = sum(1 for g in rows if g.get("reason_code") == "no_card_yet")
+        # triage order: register entries with no card first, then the cards carrying most open inputs
+        ordered = sorted(groups.items(), key=lambda kv: (kv[0][0] is not None, -len(kv[1]), kv[0][1] or ""))
         blocks = "".join(
             f'<section class="card"><h2>' + (f'<a href="/technologies/{esc(card_id)}">{esc(name)}</a>' if card_id
-                                             else esc(name))
+                                             else esc(name) + ' <span class="pill warn">no card</span>')
             + f"</h2>{''.join(_gap_block(g) for g in items)}</section>"
-            for (card_id, name), items in groups.items())
+            for (card_id, name), items in ordered)
         body = ('<section class="card"><form class="filters" method="get" action="/gaps">'
                 + _select("sector", SECTOR_OPTIONS, sector) + _select("field", FIELD_OPTIONS, field)
                 + ' <button type="submit">Filter</button></form>'
-                + f'<p class="muted">{len(rows)} gaps</p></section>')
+                + f'<p class="muted">{len(rows)} gaps — {len(rows) - no_card} on cards, '
+                + f'{no_card} register entries with no card.</p></section>')
         body += blocks or _section("", '<p class="muted">No open gaps for that filter.</p>')
         return _page("Gaps", body, active="/gaps")
 

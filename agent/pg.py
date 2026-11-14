@@ -428,11 +428,14 @@ def source_rows(code: str | None = None, region: str | None = None, reuse_level:
     first, then quality tier, then name)."""
 
     def work(cur):
-        cur.execute("""SELECT id, name, url, source_type, reuse_level, quality_tier,
-                              record->'sectors', record->'disciplines', record->'regions'
-                       FROM source ORDER BY id""")
+        # docs: documents loaded into the corpus for this source. The doc-coverage gap (most
+        # catalogued sources hold no full text) is otherwise invisible from the table.
+        cur.execute("""SELECT s.id, s.name, s.url, s.source_type, s.reuse_level, s.quality_tier,
+                              s.record->'sectors', s.record->'disciplines', s.record->'regions',
+                              (SELECT count(*) FROM document d WHERE d.source_id = s.id) AS docs
+                       FROM source s ORDER BY s.id""")
         out = []
-        for sid, name, url, stype, reuse, tier, sectors, disciplines, regions in cur.fetchall():
+        for sid, name, url, stype, reuse, tier, sectors, disciplines, regions, docs in cur.fetchall():
             sectors, disciplines, regions = _jsonb(sectors) or [], _jsonb(disciplines) or [], _jsonb(regions) or []
             if code and code not in sectors + disciplines:
                 continue
@@ -441,7 +444,7 @@ def source_rows(code: str | None = None, region: str | None = None, reuse_level:
             if source_type and source_type != stype:
                 continue
             out.append({"id": sid, "name": name, "url": url, "source_type": stype, "regions": regions,
-                        "reuse_level": reuse, "quality_tier": tier})
+                        "reuse_level": reuse, "quality_tier": tier, "docs": int(docs or 0)})
         out.sort(key=lambda r: (not ({"sea", "apac"} & set(r["regions"])), r["quality_tier"], r["name"].lower()))
         return out
 

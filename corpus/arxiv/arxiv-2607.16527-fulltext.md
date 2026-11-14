@@ -9,16 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.16527. Abstract:  
- 
-Comparative Analysis of Linepack Impact in 
-Hydrogen and Natural Gas Networks under 
-Dynamic Operating Conditions 
-Abstract—Linepack is a critical buffer in gas networks, 
-providing short-term storage and operational flexibility . This 
-paper presents a comparative dynamic analysis of the linepack 
-impact in hydrogen (H2) and natural gas (CH4) networks under 
-compressor contingency conditions."
+summary: "Dynamic comparison of linepack buffering in hydrogen and natural gas networks after a compressor contingency: hydrogen recovers faster although it carries less linepack."
 ---
 
 # arXiv:2607.16527

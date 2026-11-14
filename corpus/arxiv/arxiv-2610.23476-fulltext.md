@@ -9,18 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2610.23476. Abstract: Closely spaced change-point detection with an
-application to geopolitical shocks in oil and gas markets
-Nachiketas Waychal
-nachiketas.waychal@spjimr.org∗
-Arnab Kumar Laha
-arnab@iima.ac.in†
-Ankur Sinha
-asinha@iima.ac.in‡
-October 19, 2026
-Abstract
-Change points that arrive in quick succession, or near the boundaries of the sample,
-are prone to type-II error: the few observations trapped between succ"
+summary: "Change-point test statistic with a derived limiting null distribution plus a two-phase detection algorithm that stays informative for closely spaced or edge-adjacent breaks."
 ---
 
 # Closely spaced change-point detection with an

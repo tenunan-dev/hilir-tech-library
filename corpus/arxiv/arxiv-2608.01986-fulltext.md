@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2608.01986. Abstract: Physics-Constrained Soft Actor-Critic for Simulator-in-the-Loop Petroleum
-Reservoir History Matching
-Nam-Phong Huu Nguyen1, Duy-Dong Nguyen1, Tho Quan1,
-1Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Ho Chi Minh City, Vietnam
-Abstract
-Many scientific calibration problems expose only an expen-
-sive executable simulator, making gradients unavailable and
-large-scale training-data genera"
+summary: "Treats petroleum reservoir history matching as simulator-in-the-loop policy search, wrapping the CMG IMEX full-physics simulator as a Gymnasium environment so Soft Actor-Critic learns a proposal over porosity, directional permeability and well skin."
 ---
 
 # Physics-Constrained Soft Actor-Critic for Simulator-in-the-Loop Petroleum

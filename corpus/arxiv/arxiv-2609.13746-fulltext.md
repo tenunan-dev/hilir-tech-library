@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.13746. Abstract: Low-Ripple Modulation Strategy for a
-Photovoltaic-Based Triple-Port Hydrogen Production
- System
-Shiqi Zhang, Ziang Jiao, Jiaxin Su, Ning Wang, Zheng Li, Xiaoqiang Guo, and Changchun Hua
-Accepted manuscript
-DOI: https://doi.org/10.1109/TIE.2025.3639816
-© 2025 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other
-uses, in any current or future media, i"
+summary: "Low-ripple modulation strategy for the triple active bridge isolated DC-DC converter that feeds hydrogen production, where output current ripple governs electrolyser efficiency and production rate."
 ---
 
 # Low-Ripple Modulation Strategy for a

@@ -9,15 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2610.15798. Abstract: Ionomer-free Iridium Anodes with Low Loading
-for Zero-gap Electrolyzers via Direct Atomic
-Layer Deposition
-Peter M. Piechulla,∗,† Iris Blommestein,† Anne van Gerven,† Henri Pelzer,† Ezgi
-Demir¨ oz,† Jonas Englhard,‡ Mingliang Chen,† Julien Bachmann,‡ and J. Ruud
-van Ommen†
-†Department of Chemical Engineering, Delft University of Technology, 2629 HZ, Delft, The
-Netherlands
-‡Chair ’Chemistry of Thin"
+summary: "Ionomer-free iridium anode catalyst layers built on custom microporous substrates by two atomic layer deposition routes, aimed at cutting the iridium loading that limits PEM electrolyser scale-up."
 ---
 
 # Ionomer-free Iridium Anodes with Low Loading

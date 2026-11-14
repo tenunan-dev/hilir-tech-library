@@ -9,12 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.06093. Abstract: Hybrid electrolyzer systems: Smart strategy or economic fallacy?
-Marie Arnold∗,a,b, Jonathan Brandt∗,b, Geert Tjarksa, Richard Hanke-Rauschenbachb
-aEWE GASSPEICHER GmbH, Oldenburg, 26122, Lower Saxony, Germany
-bLeibniz Universität Hannover , Institute for Electric Power Systems, Hanover , 30167, Lower Saxony, Germany
-Abstract
-Hybrid electrolyzer systems combining alkaline water electrolysis and pr"
+summary: "Large-scale sensitivity analysis testing whether hybrid alkaline plus PEM electrolyser plants beat single-technology plants when electrolyser efficiency and investment cost are varied independently."
 ---
 
 # Hybrid electrolyzer systems: Smart strategy or economic fallacy?

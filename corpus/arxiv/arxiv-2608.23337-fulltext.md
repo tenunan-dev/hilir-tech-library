@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2608.23337. Abstract: Artificial intelligence-based predictive fuel
-blending control for flare gas mitigation
-J. Kir Hromatko ∗, ˇS. Ile ˇs∗, R. Huljev †, V . Vuˇckovi´c‡
-∗ University of Zagreb, Faculty of Electrical Engineering and Computing, Zagreb, Croatia
-E-mail:{josip.kir.hromatko, sandor.iles}@fer.hr
-† Genuyn, Office 9, Dalton House, 60 Windsor Avenue, London, United Kingdom, SW19 2RR
-E-mail: rube@genuyn.com
-‡ Po"
+summary: "AI plus model-predictive-control fuel blending for a gas-fired power plant, holding the fuel methane number inside engine limits while cutting operating cost and flaring."
 ---
 
 # Artificial intelligence-based predictive fuel

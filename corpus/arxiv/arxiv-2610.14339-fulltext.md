@@ -9,12 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2610.14339. Abstract: A Bilevel Market Equilibrium Model for Natural Gas Pipeline Network
-Operations: Convex Relaxations and Single-level Reformulations
-Novel Kumar Dey 1, Afrooz Jalilzadeh 1, Erfan Yazdandoost Hamedani 1, Saif R. Kazi 2 and Anatoly Zlotnik 2
-Abstract— We propose an integrated market equilibrium
-model for determining the spot market prices and flow rates
-in a natural gas pipeline network. The tradition"
+summary: "Bilevel market-equilibrium model that sets spot gas prices and pipeline flows jointly, using convex relaxations of the nonconvex Weymouth pressure-drop equation and a compressor-cost surrogate."
 ---
 
 # A Bilevel Market Equilibrium Model for Natural Gas Pipeline Network

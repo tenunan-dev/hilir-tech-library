@@ -9,24 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2406.00889. Abstract: RESERVOIR HISTORY MATCHING OF THE Norne FIELD WITH
-GENERATIVE EXOTIC PRIORS AND A COUPLED MIXTURE OF
-EXPERTS - PHYSICS INFORMED NEURAL OPERATOR FORWARD
-MODEL
-Clement Etienam
-Nvidia
-cetienam@nvidia.com
-Yang Juntao
-Nvidia
-yjuntao@nvidia.com
-Oleg Ovcharenko
-Nvidia
-oovcharenko@nvidia.com
-Issam Said
-Nvidia
-Isaid@nvidia.com
-ABSTRACT
-We have developed a novel reservoir characterization workflow that solv"
+summary: "Reservoir history matching of the Norne field coupling a physics-informed neural operator forward model with a cluster-classify-regress mixture of experts and adaptive regularised ensemble Kalman inversion, for non-Gaussian permeability and porosity posteriors."
 ---
 
 # RESERVOIR HISTORY MATCHING OF THE Norne FIELD WITH

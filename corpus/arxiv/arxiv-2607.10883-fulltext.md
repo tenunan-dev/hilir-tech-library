@@ -9,13 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.10883. Abstract: IEEE Vehicle Power and Propulsion Conference (VPPC) --- 5-9 October 2026, Lyon, France
-Model-Free Detection and Accommodation of Sensor Faults Fo r a PEM
-Electrolyzer
-Meziane Ait Ziane 1, Michel Zasadzinski 2, C´ edric Join2 and Michel Fliess 3
-Abstract— We investigate the detection and accommodation
-of sensor faults for a proton exchange membrane electrolyze r
-coupled to a DC/DC converter powered"
+summary: "Model-free detection and accommodation of sensor faults on a PEM electrolyser coupled to a DC/DC converter, using algebraic estimation rather than a plant model."
 ---
 
 # IEEE Vehicle Power and Propulsion Conference (VPPC) --- 5-9 October 2026, Lyon, France

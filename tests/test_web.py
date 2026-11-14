@@ -251,3 +251,33 @@ def test_standards_page_lists_and_filters(c):
     assert iec.status_code == 200 and "API 610" not in iec.text
     search = c.get("/standards", params={"q": "pumps"})
     assert search.status_code == 200
+
+
+def test_gaps_page_shows_register_entries_without_a_card(c):
+    # these rows were filtered out of /gaps while it passed include_no_card=False, which hid the
+    # library's biggest structural hole from the only page meant to show it
+    r = c.get("/gaps")
+    assert r.status_code == 200
+    assert "register entries with no card" in r.text
+    assert 'class="pill warn">no card' in r.text
+    only = c.get("/gaps", params={"field": "card"})
+    assert only.status_code == 200
+    assert "gaps — 0 on cards" in only.text
+
+
+def test_register_marks_and_filters_entries_without_a_card(c):
+    r = c.get("/register", params={"card": "no"})
+    assert r.status_code == 200
+    assert 'name="card"' in r.text
+    assert 'class="pill warn">no card' in r.text
+    assert "with no card" in r.text
+    covered = c.get("/register", params={"card": "yes"})
+    assert covered.status_code == 200
+    assert 'class="pill warn">no card' not in covered.text
+
+
+def test_sources_page_shows_document_coverage(c):
+    r = c.get("/sources")
+    assert r.status_code == 200
+    assert "<th>Docs</th>" in r.text and "with documents" in r.text
+    assert 'name="docs"' in r.text

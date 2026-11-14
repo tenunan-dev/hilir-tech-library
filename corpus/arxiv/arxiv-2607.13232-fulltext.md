@@ -9,13 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.13232. Abstract:   1 
-Design of Carbon Capture Processes Under  
-Part-load Operating Conditions 
-David Y. Shuab, Boxun Huanga, Yurim Kima, Randall Fieldb, Rahul Gandhic, and Sungho Shina* 
-a Massachusetts Institute of Technology, Department of Chemical Engineering, Cambridge, MA 02139, USA 
-b Massachusetts Institute of Technology, MIT Energy Initiative, Cambridge, MA 02139, USA 
-c Shell Technology Center, Houston,"
+summary: "Process-systems optimisation of solvent-based CO2 capture designed over multiple operating points for dispatchable power plants, targeting the computational cost that pushes practice back to single-point designs."
 ---
 
 # arXiv:2607.13232

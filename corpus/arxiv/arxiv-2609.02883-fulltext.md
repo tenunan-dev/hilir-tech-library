@@ -9,15 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.02883. Abstract: Repairing PBE-Spurious Metallicity for
-HSE06-Level Screening of 2D Photocatalysts for
-Green Hydrogen Production
-Ritam Chakraborty∗,† and Arpan Das∗,‡
-†Theoretical Sciences Unit, Jawaharlal Nehru Centre for Advanced Scientific Research
-(JNCASR), Bangalore 560064, India
-‡Department of Science and Humanities, Audisankara (Deemed to be University), Gudur
-524101, India
-E-mail: ritamchakraborty454@gmail"
+summary: "Repairs PBE-spurious metallicity in the Computational 2D Materials Database and adds HSE06-PBE delta-learning, recovering band gaps for photocatalyst screening at 0.108 eV mean absolute error."
 ---
 
 # Repairing PBE-Spurious Metallicity for

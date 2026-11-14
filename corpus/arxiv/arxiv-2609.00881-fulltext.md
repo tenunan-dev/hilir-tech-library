@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.00881. Abstract: Towards Natural Gas Contract Selection
-via Quantum-Guided Independent Set Reduction
-Vivek Dixit,1,∗ Vaibhaw Kumar,1 Kentaro Ohno,1 Alberto Maldonado Romo, 1 and Larry Bowden 2,†
-1IBM Research
-2Woodside Energy
-(Dated: September 2, 2026)
-Selecting mutually compatible natural gas transportation contracts is a practically important
-optimization task in which operators must choose from many candidate a"
+summary: "Formulates natural gas transportation contract selection as a maximum clique problem on a contract-compatibility graph, solved as a maximum independent set with iterative classical graph reduction plus quantum-guided optimisation on noisy hardware."
 ---
 
 # Towards Natural Gas Contract Selection

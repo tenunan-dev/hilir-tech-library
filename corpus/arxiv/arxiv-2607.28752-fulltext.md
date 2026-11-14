@@ -9,11 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2607.28752. Abstract: Local B-site chemistry controls oxygen-vacancy energetics in Ca–Ce–Ti–Mn
-perovskites for thermochemical hydrogen production†
-Manish Kumar, ‡a Natalia Ali, ‡b Matthew D. Witman, c Shang Zhai, d,e James E. Miller, f Ivan Ermanoski, f Ellen B. Stechel, g and
-Robert B. Wexler ∗a
-Two-step thermochemical water splitting driven by concentrated solar heat offers a scalable route to renewable hydrogen, but"
+summary: "Local B-site chemistry is shown to govern oxygen-vacancy energetics in Ca-Ce-Ti-Mn perovskites, the balance between facile reduction and reoxidation for two-step solar thermochemical water splitting."
 ---
 
 # Local B-site chemistry controls oxygen-vacancy energetics in Ca–Ce–Ti–Mn

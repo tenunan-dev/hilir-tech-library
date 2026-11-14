@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.31741. Abstract: Pressure and temperature dependence of methane
-pyrolysis and hydrogen production in a micro flow
-reactor
-Mohammad Reza Razavia,∗, Ömer L. Güldera
-aUniversity of Toronto Institute for Aerospace Studies, 4925 Dufferin Street, Toronto, M3H 5T6, Canada.
-Abstract
-Methane pyrolysis experiments were performed in a micro flow reactor to investigate the chemical mechanism
-sensitivities at elevated pressure"
+summary: "Micro flow-reactor methane pyrolysis at 1400-1800 K and 1-10 bar with a fixed 60 ms residence time, quantifying hydrogen, unreacted methane, solid carbon and PAH yields to test kinetic mechanisms at elevated pressure."
 ---
 
 # Pressure and temperature dependence of methane

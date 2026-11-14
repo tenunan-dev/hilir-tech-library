@@ -9,11 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.01368. Abstract: 14th Conference on Industrial Computed Tomography, Antwerp, Belgium (iCT 2025), www.ICT2025.org 
-Copyright 2025 - by the Authors. Licensed under a Creative Commons Attribution 4.0 International License. 
-Accurate Reconstruction of Gas Turbine Blade Geometry Using 3D/2D Rigid 
-Registration and CT View Optimization 
-Hristo Valtchanov1, Nicolas Piché2, Vladimir Brailovski3, Justin Byers4, Catherine D"
+summary: "Multi-part 3D-2D rigid registration that aligns CAD models directly to X-ray projections instead of CT reconstruction, registering blade exteriors first and then internal cooling channels."
 ---
 
 # 14th Conference on Industrial Computed Tomography, Antwerp, Belgium (iCT 2025), www.ICT2025.org

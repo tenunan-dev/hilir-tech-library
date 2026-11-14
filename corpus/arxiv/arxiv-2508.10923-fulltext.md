@@ -9,15 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2508.10923. Abstract: 1 
- 
-Interactive framework for techno-economic meta-analysis of marine hydrogen 
-transportation  
-Lucas Hanssens 1, Maarten Houlleberghs 1, Karel Van Acker ,2,3,4 , Johan A. Martens 1,5 and Eric 
-Breynaert1,5,* 
-Abstract 
-As a result of the wide span of uncertainties and input variables considered in recent peer-reviewed 
-studies on hydrogen supply chains, consensus and generalized insight are har"
+summary: "Meta-analysis model over a growing database of published hydrogen transport cost estimates, with an online interface for comparing supply chains across input scenarios, costing methodology and shipping fuel."
 ---
 
 # arXiv:2508.10923

@@ -9,17 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2608.11929. Abstract:  
-Coordinated Dynamic Operation of Integrated 
-Electrolyzer–Compressor Systems 
- 
-Amin Salehi, Student Member, IEEE, Janne Seppänen, Senior Member, IEEE, Mahdi Pourakbari-Kasmaei, Senior 
-Member, IEEE 
- 
- Abstract— The increasing interaction between power and 
-hydrogen sectors highlights the  importance of  coordinated 
-operation of electrolyzers and electric-driven compressor stations 
-(EDCSs). T"
+summary: "Dynamic model and PID control for an integrated electrolyser and electric-driven compressor station, addressing disturbances that propagate between the coupled power and hydrogen subsystems."
 ---
 
 # arXiv:2608.11929

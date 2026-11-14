@@ -9,13 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2608.22696. Abstract: Unit-to-Plant Stability Shaping of Multi-Electrolyzer 
-ReP2H Plants via Interface Design and Dispatch 
-Miao Zhang, Yiwei Qiu, Member, IEEE, Xiaoyu Wang, Linlin Wu, Yi Zhou, Member, IEEE, Shi Chen, Member, IEEE,  
-Buxiang Zhou, Member, IEEE, and Kaigui Xie, Fellow, IEEE
-Abstract—Alkaline water electrolysis (AWE) units supplied by 
-insulated gate bipolar transistor rectifiers (IGBT-Rs) may experi-
-e"
+summary: "Stability-oriented control design and production dispatch for multi-unit alkaline electrolysers fed by IGBT rectifiers, using a three-port admittance model to keep plant output inside the stability boundary."
 ---
 
 # Unit-to-Plant Stability Shaping of Multi-Electrolyzer

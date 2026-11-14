@@ -9,14 +9,7 @@ permitted_use: "any"
 sectors: ["H2"]
 disciplines: ["PRC"]
 collected: "manual"
-summary: "Full-text conversion of arXiv 2609.12408. Abstract: IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS 1
-GSO-Net: Visual State Machines for Hazardous
-Freight Transfer Compliance at Petrochemical
-Logistics Nodes
-Yu Xie1, Bangshu Xiong 1∗, Zhibo Rao 1, Rui Gan 2, Chongxuan Liu 2, and Zechu Ouyang 2
-Abstract—Hazardous-freight operations at petrochemical lo-
-gistics nodes are safety-critical for intelligent transportation
-systems, yet existing vis"
+summary: "GSO-Net, the first public benchmark for visual understanding of standard operating procedures in petrochemical unloading, built for sparse round-robin camera polling and incomplete observations."
 ---
 
 # IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS 1
