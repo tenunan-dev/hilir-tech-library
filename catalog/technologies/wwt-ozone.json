@@ -105,6 +105,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "annual operation and maintenance cost, 1 MGD ozone disinfection system, excluding power",
+      "unit": "USD per year",
+      "low": 18500,
+      "high": 18500,
+      "year": 1998,
+      "basis": "EPA 832-F-99-063 Table 2 (typical cost estimate for a 1 MGD system, source Champion Technology 1998): labour USD 12,000/yr plus other consumables USD 6,500/yr (filter replacements, compressor oil, spare dielectric); power demand 90 kW is listed but not costed. The USD 18,500 total is the sum of the two listed items and excludes power.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-06/documents/ozon.pdf",
+        "note": "US EPA, Wastewater Technology Fact Sheet: Ozone Disinfection, EPA 832-F-99-063, September 1999, Table 2 typical cost estimate for a 1 MGD system (source Champion Technology, 1998)"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "xylem",
@@ -115,17 +129,16 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per m3/d, dollar year",
+      "item": "total installed capital cost for an ozone disinfection system",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "reason": "Annual O&M excluding power is now recorded. Table 2 lists capital components (oxygen feed gas and compressor USD 245,500; contact vessel USD 4,000-5,000; destruct unit USD 800-1,200; non-component USD 35,000; engineering USD 12,000-15,000; contingencies 30 percent) but states no total, and summing it would be a derivation the sheet does not make.",
       "where": [
         {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
+          "hint": "EPA 832-F-99-063 Table 2 components; ozone vendor budget quotes"
         }
       ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "action": "Add a total capital cost from a vendor quote or a study that states the total."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-14"
 }

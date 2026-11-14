@@ -119,6 +119,32 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "capital cost, two-stage anaerobic digestion system, 12 MGD plant (Grand Island, Nebraska)",
+      "unit": "USD million",
+      "low": 10.7,
+      "high": 10.7,
+      "year": 2006,
+      "basis": "EPA 832-F-06-031 COSTS section: a USD 10.7 million two-stage anaerobic digestion system in design for a 12 MGD plant receiving about 40 percent industrial agricultural flow. Figure published 2006; no dollar year stated.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/multistage-anaerobic-digestion-factsheet.pdf",
+        "note": "US EPA, Biosolids Technology Fact Sheet: Multi-Stage Anaerobic Digestion, EPA 832-F-06-031, COSTS section (named facilities)"
+      }
+    },
+    {
+      "metric": "capital cost, two-stage TPAD anaerobic digestion system, 43 MGD plant (WLSSD Duluth)",
+      "unit": "USD million",
+      "low": 32.6,
+      "high": 32.6,
+      "year": 2006,
+      "basis": "Same section: the WLSSD two-stage TPAD system at a 43 MGD regional plant, in operation from 2001, had a construction cost of USD 32.6 million. Figure published 2006; no dollar year stated.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/multistage-anaerobic-digestion-factsheet.pdf",
+        "note": "US EPA, Biosolids Technology Fact Sheet: Multi-Stage Anaerobic Digestion, EPA 832-F-06-031, COSTS section (named facilities)"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "veolia",
@@ -129,19 +155,18 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per t dry solids, dollar year",
+      "item": "unit capital and operating cost per dry tonne of solids stabilised",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "reason": "Named-facility capital costs are now recorded (EPA 832-F-06-031). A unit cost per dry tonne of solids, which is what sizing a project needs, is not stated in the sheet.",
       "where": [
         {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
+          "hint": "WEF/EPA biosolids cost studies reporting USD per dry tonne for digestion"
         }
       ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "action": "Add a unit cost per dry tonne from a biosolids cost study."
     }
   ],
-  "last_reviewed": "2026-11-13",
+  "last_reviewed": "2026-11-14",
   "reference_plants": [
     {
       "name": "Tuas Water Reclamation Park (co-located sludge energy)",

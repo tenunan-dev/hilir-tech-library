@@ -106,6 +106,32 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants above 0.02 MGD)",
+      "unit": "USD per gallon per day",
+      "low": 2.0,
+      "high": 2.5,
+      "year": 2000,
+      "basis": "EPA fact sheet, figure as published: for larger plants capital costs are approximately USD 2 to USD 2.50 per gallon of wastewater treated. Sheet dated September 2000 and states no dollar year, so the document year is recorded.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-06/documents/package_plant.pdf",
+        "note": "US EPA, Wastewater Technology Fact Sheet: Package Plants, EPA 832-F-00-016, September 2000, COSTS section (extended-aeration package plants; figures provided by Aeration Products, Inc.)"
+      }
+    },
+    {
+      "metric": "capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants below 0.02 MGD)",
+      "unit": "USD per gallon per day",
+      "low": 4.0,
+      "high": 6.0,
+      "year": 2000,
+      "basis": "Smaller extended-aeration package plants designed for less than 0.02 MGD cost approximately USD 4 to USD 6 per gallon of water treated, based on capital costs; routine maintenance averages USD 350 per year. Document year recorded; no dollar year stated in the sheet.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-06/documents/package_plant.pdf",
+        "note": "US EPA, Wastewater Technology Fact Sheet: Package Plants, EPA 832-F-00-016, September 2000, COSTS section (extended-aeration package plants; figures provided by Aeration Products, Inc.)"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "xylem",
@@ -116,19 +142,18 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per m3/d, dollar year",
+      "item": "operating cost and energy demand per m3 treated, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "reason": "Package-plant capital cost per gallon per day is now recorded (EPA 832-F-00-016, 2000 basis). Operating cost and specific energy for a full-size activated sludge plant are not stated in any source read.",
       "where": [
         {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
+          "hint": "EPA fact sheets state no operating energy figure for activated sludge; plant energy benchmarks are in utility and WEF publications"
         }
       ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "action": "Add operating cost and specific energy (kWh/m3) from an operating plant benchmark."
     }
   ],
-  "last_reviewed": "2026-11-13",
+  "last_reviewed": "2026-11-14",
   "reference_plants": [
     {
       "name": "Changi Water Reclamation Plant, Singapore",

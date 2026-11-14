@@ -98,6 +98,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "operating cost, biosolids incineration",
+      "unit": "USD per dry Mg",
+      "low": 83,
+      "high": 269,
+      "year": 2002,
+      "basis": "EPA 832-F-03-013: operating costs in one study range from USD 83 to USD 269 per dry Mg (USD 76-245 per dry ton), adjusted using 2002 ENR values. Comparable figures in the same sheet: landfill USD 127/dry Mg (USD 115/dry ton), land application about USD 15.40/dry Mg (USD 14/dry ton).",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/use-incineration-biosolids-management-factsheet.pdf",
+        "note": "US EPA, Biosolids Technology Fact Sheet: Use of Incineration for Biosolids Management, EPA 832-F-03-013, COSTS section (costs adjusted using 2002 ENR values)"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "veolia",
@@ -108,17 +122,16 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per t DS, dollar year",
+      "item": "capital cost per tonne per day of installed incineration capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "reason": "Operating cost per dry Mg is now recorded (2002 basis, EPA 832-F-03-013). The sheet gives one facility capital quote (USD 6 million for a two-plant facility) without a capacity basis usable as a unit cost.",
       "where": [
         {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
+          "hint": "EPA 832-F-03-013 facility examples; state revolving fund project cost data"
         }
       ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "action": "Add capital cost per tonne per day from a facility with a stated capacity."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-14"
 }

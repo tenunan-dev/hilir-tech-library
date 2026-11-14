@@ -92,6 +92,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "operation and maintenance cost, sequencing batch reactor",
+      "unit": "USD per million gallons treated",
+      "low": 800,
+      "high": 2000,
+      "year": 1999,
+      "basis": "EPA fact sheet: operation and maintenance costs are site specific and may range from USD 800 to USD 2,000 per million gallons treated. Document dated September 1999 and states no dollar year, so the document year is recorded.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2022-10/sequencing-batch-reactors-factsheet.pdf",
+        "note": "US EPA, Wastewater Technology Fact Sheet: Sequencing Batch Reactors, EPA 832-F-99-073, September 1999, COSTS section"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "veolia",
@@ -102,17 +116,16 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per m3/d, dollar year",
+      "item": "capital cost per gallon per day of capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "reason": "The SBR operation and maintenance range is now recorded (EPA 832-F-99-073). The sheet's capital cost table did not survive as machine-readable text in the copy read, so no capital figure is recorded.",
       "where": [
         {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
+          "hint": "EPA 832-F-99-073 Table 6 (cost estimates for SBRs), read as page images"
         }
       ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "action": "Read the SBR capital cost table from the PDF pages and record the per-gallon range."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-14"
 }

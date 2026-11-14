@@ -1,94 +1,141 @@
 {
- "id": "civ-heavy-lift-temporary-works",
- "name": "Heavy lift, transport and temporary works",
- "aliases": [
-  "heavy lifting",
-  "SPMT transport",
-  "float-over",
-  "rigging engineering",
-  "temporary works design"
- ],
- "sector": "CIV",
- "category": "Construction engineering",
- "applications": [
-  "module setting",
-  "vessel and reactor lifts",
-  "float-over topsides installation",
-  "bridge and module transport",
-  "shutdown heavy lifts"
- ],
- "maturity": "commercial",
- "principle": "Heavy lift and transport engineering plans how very large loads are lifted, rolled or floated into position: engineered rigging, crane or gantry selection, ground bearing assessments, SPMT trailer configurations, transport surveys and lifts supervised by independent checking engineers. Temporary works \u2014 cradle supports, lifting frames, hauling systems, shoring \u2014 are designed, certified and inspected like permanent structures. Success is almost entirely preparation: surveys, simulations and rehearsals before the load moves.",
- "process_steps": [
-  {
-   "id": "SUR",
-   "name": "Route and lift-site surveys, ground bearing and clearance checks",
-   "equipment": [
-    "surveys"
-   ]
-  },
-  {
-   "id": "PLN",
-   "name": "Lift plan: crane or gantry, rigging, load path and contingency",
-   "equipment": [
-    "lift studies"
-   ]
-  },
-  {
-   "id": "TW",
-   "name": "Temporary works designed, certified and inspected",
-   "equipment": [
-    "lifting frames",
-    "shoring"
-   ]
-  },
-  {
-   "id": "EXE",
-   "name": "Transport and lift executed with weather and hold points",
-   "equipment": [
-    "cranes",
-    "SPMTs"
-   ]
-  }
- ],
- "key_equipment": [
-  "crawler cranes",
-  "SPMT self-propelled modular transporters",
-  "gantry systems",
-  "engineered rigging"
- ],
- "suppliers": [
-  {
-   "name": "Mammoet",
-   "product": "heavy lift and transport"
-  },
-  {
-   "name": "Sarens",
-   "product": "heavy lift and transport"
-  },
-  {
-   "name": "Heerema",
-   "product": "offshore heavy lift"
-  }
- ],
- "performance": [],
- "limitations": [
-  "single-point lifts concentrate enormous risk in one engineered day \u2014 hold points and abort criteria are mandatory",
-  "ground bearing under cranes and SPMTs is the most common near-miss source"
- ],
- "advantages": [
-  "makes factory-built modules practical at multi-thousand-tonne scale",
-  "shutdown durations shrink when big items lift out and in as one piece"
- ],
- "sources": [
-  {
-   "url": "https://www.mammoet.com/",
-   "note": "Mammoet heavy lift and transport methods pages, read 2026-11-07"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Self-propelled_modular_transporter",
-   "note": "background on SPMT transport; secondary source, read 2026-11-07"
-  }
- ],
- "last_reviewed": "2026-11-07"
+  "id": "civ-heavy-lift-temporary-works",
+  "name": "Heavy lift, transport and temporary works",
+  "aliases": [
+    "heavy lifting",
+    "SPMT transport",
+    "float-over",
+    "rigging engineering",
+    "temporary works design"
+  ],
+  "sector": "CIV",
+  "category": "Construction engineering",
+  "applications": [
+    "module setting",
+    "vessel and reactor lifts",
+    "float-over topsides installation",
+    "bridge and module transport",
+    "shutdown heavy lifts"
+  ],
+  "maturity": "commercial",
+  "principle": "Heavy lift and transport engineering plans how very large loads are lifted, rolled or floated into position: engineered rigging, crane or gantry selection, ground bearing assessments, SPMT trailer configurations, transport surveys and lifts supervised by independent checking engineers. Temporary works — cradle supports, lifting frames, hauling systems, shoring — are designed, certified and inspected like permanent structures. Success is almost entirely preparation: surveys, simulations and rehearsals before the load moves.",
+  "process_steps": [
+    {
+      "id": "SUR",
+      "name": "Route and lift-site surveys, ground bearing and clearance checks",
+      "equipment": [
+        "surveys"
+      ]
+    },
+    {
+      "id": "PLN",
+      "name": "Lift plan: crane or gantry, rigging, load path and contingency",
+      "equipment": [
+        "lift studies"
+      ]
+    },
+    {
+      "id": "TW",
+      "name": "Temporary works designed, certified and inspected",
+      "equipment": [
+        "lifting frames",
+        "shoring"
+      ]
+    },
+    {
+      "id": "EXE",
+      "name": "Transport and lift executed with weather and hold points",
+      "equipment": [
+        "cranes",
+        "SPMTs"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "crawler cranes",
+    "SPMT self-propelled modular transporters",
+    "gantry systems",
+    "engineered rigging"
+  ],
+  "suppliers": [
+    {
+      "name": "Mammoet",
+      "product": "heavy lift and transport"
+    },
+    {
+      "name": "Sarens",
+      "product": "heavy lift and transport"
+    },
+    {
+      "name": "Heerema",
+      "product": "offshore heavy lift"
+    }
+  ],
+  "performance": [],
+  "limitations": [
+    "single-point lifts concentrate enormous risk in one engineered day — hold points and abort criteria are mandatory",
+    "ground bearing under cranes and SPMTs is the most common near-miss source"
+  ],
+  "advantages": [
+    "makes factory-built modules practical at multi-thousand-tonne scale",
+    "shutdown durations shrink when big items lift out and in as one piece"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mammoet.com/",
+      "note": "Mammoet heavy lift and transport methods pages, read 2026-11-07"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Self-propelled_modular_transporter",
+      "note": "background on SPMT transport; secondary source, read 2026-11-07"
+    }
+  ],
+  "last_reviewed": "2026-11-14",
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "lifting capacity and load-out weight ranges by method, with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The sources read describe the method but publish no measurable performance figure for it.",
+      "action": "Add the figures that let this technology be compared with alternatives, each with its basis and source.",
+      "where": [
+        {
+          "hint": "Contractor and fabricator technical literature"
+        },
+        {
+          "hint": "Standards-body design guides"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "crane and heavy-lift vessel day rates, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price.",
+      "action": "Add a figure with metric, range, unit, dollar year, basis and source.",
+      "where": [
+        {
+          "hint": "Heavy-lift contractor published day rates and charter rates"
+        },
+        {
+          "hint": "Offshore installation vessel charter market reports"
+        }
+      ]
+    },
+    {
+      "field": "reference_plants",
+      "item": "named reference projects with structure type, scale and country",
+      "reason_code": "not_in_sources_read",
+      "reason": "The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit.",
+      "action": "Add two or three named projects with country, scale, status and source.",
+      "where": [
+        {
+          "hint": "Named projects with structure type, capacity and country (the projects layer carries 239 records)"
+        },
+        {
+          "hint": "Operator and contractor press releases for awarded structures"
+        }
+      ]
+    }
+  ]
 }

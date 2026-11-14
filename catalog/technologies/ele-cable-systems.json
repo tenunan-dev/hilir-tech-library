@@ -97,6 +97,44 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "indicative cost, 6.35/11 kV 3-core Cu XLPE/SWA/PVC 185 mm2 cable",
+      "unit": "USD per metre",
+      "low": 31.0,
+      "high": 39.3,
+      "year": 2026,
+      "basis": "FOB China price guide: 11 kV 185 mm2 copper USD 31.00-39.30/m; 95 mm2 USD 17.00-21.70/m; 300 mm2 USD 47.70-61.10/m.",
+      "source": {
+        "url": "https://www.shengecable.com/",
+        "note": "Sheng Cable 2026 medium-voltage price guide cited from search summary, 2026-11-13; recorded on equipment record ele-power-cables"
+      }
+    },
+    {
+      "metric": "indicative cost, 19/33 kV 3-core Cu XLPE/SWA/PVC 95 mm2 cable",
+      "unit": "USD per metre",
+      "low": 26.5,
+      "high": 34.0,
+      "year": 2026,
+      "basis": "FOB China price guide at LME copper about USD 9,800-10,200/t: 19/33 kV 95 mm2 3-core copper USD 26.50-34.00/m; 240 mm2 USD 60-77/m; 400 mm2 USD 96-123/m. Aluminium conductor saves roughly 40-55%.",
+      "source": {
+        "url": "https://www.shengecable.com/",
+        "note": "Sheng Cable 2026 medium-voltage price guide cited from search summary, 2026-11-13; recorded on equipment record ele-power-cables"
+      }
+    },
+    {
+      "metric": "indicative cost, 11 kV and 33 kV underground cable per km (tender-derived)",
+      "unit": "USD per km",
+      "low": 8100,
+      "high": 44000,
+      "year": 2025,
+      "basis": "Indian utility tender cost data: 33 kV 1Cx630 mm2 aluminium XLPE about USD 8,100/km; 33 kV 1Cx400 mm2 copper about USD 44,000/km; 11 kV 3x185 mm2 about USD 11,000/km; 11 kV 3x300 mm2 about USD 14,500/km. Tender-derived and useful for magnitude only.",
+      "source": {
+        "url": "https://www.tstransco.in/",
+        "note": "state discom cost data cited from search summary, 2026-11-13; recorded on equipment record ele-power-cables"
+      }
+    }
+  ],
   "limitations": [
     "cable is a fire load itself, so routing, coating and circuit-integrity classes are safety decisions",
     "harmonic-rich drives and long runs derate neutrals and raise sheath losses"
@@ -131,18 +169,5 @@
     }
   ],
   "last_reviewed": "2026-11-13",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "cost per metre by voltage class and conductor size",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
-      "where": [
-        {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote."
-    }
-  ]
+  "gaps": []
 }

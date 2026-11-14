@@ -112,6 +112,32 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "indicative cost, single-function overcurrent protection relay (export price list)",
+      "unit": "USD per unit",
+      "low": 120,
+      "high": 900,
+      "year": 2026,
+      "basis": "Export price list, accepted as the price basis on owner instruction 2026-11-13. A 2026 microprocessor-relay price guide covering 96 manufacturers and 560 SKUs puts single-function overcurrent devices at about USD 120 through Chinese OEM channels, rising with function count and brand tier.",
+      "source": {
+        "url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html",
+        "note": "Microprocessor protection relay price and cost guide 2026; recorded on equipment record ele-protection-relays"
+      }
+    },
+    {
+      "metric": "indicative cost, full IEC 61850 bay-controller IED (export price list)",
+      "unit": "USD per unit",
+      "low": 4000,
+      "high": 12000,
+      "year": 2026,
+      "basis": "Same price guide: the spread reaches USD 12,000+ for a full IEC 61850 bay controller from Schweitzer Engineering Laboratories or GE Grid Solutions. Function class, brand tier and certification drive the 30x spread the source documents.",
+      "source": {
+        "url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html",
+        "note": "Microprocessor protection relay price and cost guide 2026; recorded on equipment record ele-protection-relays"
+      }
+    }
+  ],
   "limitations": [
     "protection settings are facility-specific engineering that must be re-studied after every network change",
     "CT saturation and infeed effects complicate high-impedance and differential schemes"
@@ -143,18 +169,5 @@
     }
   ],
   "last_reviewed": "2026-11-13",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "cost per protection panel or per feeder",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
-      "where": [
-        {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote."
-    }
-  ]
+  "gaps": []
 }

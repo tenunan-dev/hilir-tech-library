@@ -106,6 +106,32 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "indicative cost, 12-24 kV SF6 ring main unit, unit",
+      "unit": "USD per unit",
+      "low": 2000,
+      "high": 7000,
+      "year": 2025,
+      "basis": "Export price list (accepted price basis, owner instruction 2026-11-13): compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Not a delivered Malaysian price.",
+      "source": {
+        "url": "https://www.alibaba.com/",
+        "note": "B2B supplier listings, searched 2026-11-13; recorded on equipment record ele-mv-switchgear"
+      }
+    },
+    {
+      "metric": "indicative cost, 145 kV dead-tank circuit breaker",
+      "unit": "USD per set",
+      "low": 40000,
+      "high": 95000,
+      "year": 2025,
+      "basis": "Western/Japanese brand new dead-tank at 145 kV roughly USD 40,000-95,000 (a Siemens SPS-145 used unit listed near USD 95,000; a Spanish tender for 145 kV 3150 A 31.5 kA at about EUR 26,000); Chinese OEMs quote far lower, USD 2,500-45,000. Export price list basis (accepted on owner instruction 2026-11-13).",
+      "source": {
+        "url": "https://www.electricaltrader.com/",
+        "note": "market listings and tender records cited from search summary, 2026-11-13; recorded on equipment record ele-hv-circuit-breakers"
+      }
+    }
+  ],
   "limitations": [
     "SF6 is a high-GWP gas under phasedown regulation, driving vacuum and dry-air alternatives",
     "bus fault ratings and arc-flash containment need deliberate design at high fault levels"
@@ -140,15 +166,15 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per panel by voltage class",
+      "item": "installed cost per HV switchboard bay, including protection, control and civil works",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "reason": "Equipment-level prices are now recorded for 12-24 kV RMUs and 145 kV dead-tank breakers (export basis, 2025). A complete HV bay — breaker, disconnectors, CTs/VTs, protection IEDs, control panel, civil works — is quoted per project and not published.",
       "where": [
         {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
+          "hint": "Utility substation tender schedules or an EPC schedule of rates"
         }
       ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "action": "Add a per-bay installed cost when a substation tender schedule is available."
     }
   ]
 }

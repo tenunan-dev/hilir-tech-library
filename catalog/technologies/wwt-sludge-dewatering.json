@@ -107,6 +107,44 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "capital cost, belt filter press (0.5 m belt, about 500 dry lb/h)",
+      "unit": "USD per press",
+      "low": 47500,
+      "high": 47500,
+      "year": 2000,
+      "basis": "Vendor estimates in EPA 832-F-00-057: USD 47,500 for a 0.5 m belt (about 500 dry pounds per hour) on 5 percent solids feed. Excludes installation, shipping and ancillary equipment such as flow control and centrate management. Document year recorded; no dollar year stated.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/belt-filter-press-factsheet.pdf",
+        "note": "US EPA, Biosolids Technology Fact Sheet: Belt Filter Press, EPA 832-F-00-057, September 2000, COSTS section (vendor estimates)"
+      }
+    },
+    {
+      "metric": "capital cost, belt filter press (1.5 m belt, about 1,625 dry lb/h)",
+      "unit": "USD per press",
+      "low": 115000,
+      "high": 115000,
+      "year": 2000,
+      "basis": "Same sheet: USD 115,000 for a 1.5 m belt (about 1,625 dry pounds per hour), 5 percent solids feed, excluding installation, shipping and ancillary equipment.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/belt-filter-press-factsheet.pdf",
+        "note": "US EPA, Biosolids Technology Fact Sheet: Belt Filter Press, EPA 832-F-00-057, September 2000, COSTS section (vendor estimates)"
+      }
+    },
+    {
+      "metric": "operation and maintenance cost, belt filter press",
+      "unit": "USD per dry ton of solids",
+      "low": 80,
+      "high": 200,
+      "year": 2000,
+      "basis": "Overall operation and maintenance costs range from USD 80 to USD 200 per dry ton of solids. Polymer conditioning adds USD 2.65-91.15 per million gallons (average USD 24.38), and permanganate about USD 1 per million gallons.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/belt-filter-press-factsheet.pdf",
+        "note": "US EPA, Biosolids Technology Fact Sheet: Belt Filter Press, EPA 832-F-00-057, September 2000, COSTS section (vendor estimates)"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "alfa-laval",
@@ -114,20 +152,6 @@
       "note": "Alfa Laval decanter pages, read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "cost per t DS, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
-    }
-  ],
-  "last_reviewed": "2026-11-13"
+  "gaps": [],
+  "last_reviewed": "2026-11-14"
 }

@@ -1,108 +1,140 @@
 {
- "id": "civ-floating-structures-fpso",
- "name": "FPSO and floating production structures",
- "aliases": [
-  "FPSO",
-  "floating production",
-  "spread-moored",
-  "turret-moored",
-  "FLNG hulls",
-  "semi-subs"
- ],
- "sector": "CIV",
- "category": "Offshore structures",
- "applications": [
-  "deepwater and remote field development",
-  "marginal and short-bleed-life fields",
-  "harsh-environment production",
-  "FLNG"
- ],
- "maturity": "commercial",
- "principle": "Floating production systems keep process plant on a floating hull: converted tankers or newbuild FPSOs, semi-submersibles or spar hulls, held by moorings or dynamic positioning. Turret-moored FPSOs weathervane into the environment with a swivel stack carrying fluids, power and signals; spread-moored units suit calm or unidirectional seas. Hull design, station-keeping, riser and umbilical dynamics, and motion effects on process equipment (sloshing, level control, rotating equipment limits) define the engineering.",
- "process_steps": [
-  {
-   "id": "HUL",
-   "name": "Hull built or converted with topsides integration",
-   "equipment": [
-    "shipyard"
-   ]
-  },
-  {
-   "id": "MOO",
-   "name": "Mooring system designed, pre-laid and hooked up",
-   "equipment": [
-    "mooring lines",
-    "turret"
-   ]
-  },
-  {
-   "id": "RIS",
-   "name": "Risers and umbilicals connected, flexible or rigid",
-   "equipment": [
+  "id": "civ-floating-structures-fpso",
+  "name": "FPSO and floating production structures",
+  "aliases": [
+    "FPSO",
+    "floating production",
+    "spread-moored",
+    "turret-moored",
+    "FLNG hulls",
+    "semi-subs"
+  ],
+  "sector": "CIV",
+  "category": "Offshore structures",
+  "applications": [
+    "deepwater and remote field development",
+    "marginal and short-bleed-life fields",
+    "harsh-environment production",
+    "FLNG"
+  ],
+  "maturity": "commercial",
+  "principle": "Floating production systems keep process plant on a floating hull: converted tankers or newbuild FPSOs, semi-submersibles or spar hulls, held by moorings or dynamic positioning. Turret-moored FPSOs weathervane into the environment with a swivel stack carrying fluids, power and signals; spread-moored units suit calm or unidirectional seas. Hull design, station-keeping, riser and umbilical dynamics, and motion effects on process equipment (sloshing, level control, rotating equipment limits) define the engineering.",
+  "process_steps": [
+    {
+      "id": "HUL",
+      "name": "Hull built or converted with topsides integration",
+      "equipment": [
+        "shipyard"
+      ]
+    },
+    {
+      "id": "MOO",
+      "name": "Mooring system designed, pre-laid and hooked up",
+      "equipment": [
+        "mooring lines",
+        "turret"
+      ]
+    },
+    {
+      "id": "RIS",
+      "name": "Risers and umbilicals connected, flexible or rigid",
+      "equipment": [
+        "risers",
+        "swivel stack"
+      ]
+    },
+    {
+      "id": "PRO",
+      "name": "Production, offloading and ballast operations managed around weather",
+      "equipment": [
+        "offloading systems"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "hull",
+    "mooring system",
+    "turret and swivel stack",
     "risers",
-    "swivel stack"
-   ]
-  },
-  {
-   "id": "PRO",
-   "name": "Production, offloading and ballast operations managed around weather",
-   "equipment": [
     "offloading systems"
-   ]
-  }
- ],
- "key_equipment": [
-  "hull",
-  "mooring system",
-  "turret and swivel stack",
-  "risers",
-  "offloading systems"
- ],
- "suppliers": [
-  {
-   "name": "SBM Offshore",
-   "product": "FPSO lease and operate"
-  },
-  {
-   "name": "Modec",
-   "product": "FPSO EPC and operation"
-  },
-  {
-   "name": "Yinson Production",
-   "product": "FPSO EPC and operation"
-  }
- ],
- "performance": [
-  {
-   "metric": "MODEC FPSO project experience",
-   "low": 59,
-   "unit": "units in 20 countries",
-   "basis": "MODEC FPSO Projects experience page states 59 units in 20 countries (delivered/operated fleet)",
-   "year": 2026,
-   "source": {
-    "url": "https://www.modec.com/",
-    "note": "MODEC home, FPSO Projects experience, read 2026-11-07"
-   }
-  }
- ],
- "limitations": [
-  "motion, sloshing and fatigue limit equipment choices and inspection access",
-  "mooring integrity over 20-25 year service is a monitored, classed lifetime obligation"
- ],
- "advantages": [
-  "no fixed infrastructure left after field life \u2014 FPSOs disconnect and redeploy",
-  "wellhead and storage combined; works where building platforms is uneconomic"
- ],
- "sources": [
-  {
-   "url": "https://www.sbmoffshore.com/",
-   "note": "SBM Offshore FPSO fleet and technology pages, read 2026-11-07"
-  },
-  {
-   "url": "https://www.offshore-mag.com/",
-   "source_id": "offshore-mag",
-   "note": "FPSO project and technology coverage, read 2026-11-07"
-  }
- ],
- "last_reviewed": "2026-11-07"
+  ],
+  "suppliers": [
+    {
+      "name": "SBM Offshore",
+      "product": "FPSO lease and operate"
+    },
+    {
+      "name": "Modec",
+      "product": "FPSO EPC and operation"
+    },
+    {
+      "name": "Yinson Production",
+      "product": "FPSO EPC and operation"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "MODEC FPSO project experience",
+      "low": 59,
+      "unit": "units in 20 countries",
+      "basis": "MODEC FPSO Projects experience page states 59 units in 20 countries (delivered/operated fleet)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.modec.com/",
+        "note": "MODEC home, FPSO Projects experience, read 2026-11-07"
+      }
+    }
+  ],
+  "limitations": [
+    "motion, sloshing and fatigue limit equipment choices and inspection access",
+    "mooring integrity over 20-25 year service is a monitored, classed lifetime obligation"
+  ],
+  "advantages": [
+    "no fixed infrastructure left after field life — FPSOs disconnect and redeploy",
+    "wellhead and storage combined; works where building platforms is uneconomic"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sbmoffshore.com/",
+      "note": "SBM Offshore FPSO fleet and technology pages, read 2026-11-07"
+    },
+    {
+      "url": "https://www.offshore-mag.com/",
+      "source_id": "offshore-mag",
+      "note": "FPSO project and technology coverage, read 2026-11-07"
+    }
+  ],
+  "last_reviewed": "2026-11-14",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "conversion and new-build capex for an FPSO hull and topside structure, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price.",
+      "action": "Add a figure with metric, range, unit, dollar year, basis and source.",
+      "where": [
+        {
+          "hint": "Published FPSO contract award values from operators and shipyards"
+        },
+        {
+          "hint": "SBM Offshore and MODEC annual reports"
+        }
+      ]
+    },
+    {
+      "field": "reference_plants",
+      "item": "named reference projects with structure type, scale and country",
+      "reason_code": "not_in_sources_read",
+      "reason": "The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit.",
+      "action": "Add two or three named projects with country, scale, status and source.",
+      "where": [
+        {
+          "hint": "Named projects with structure type, capacity and country (the projects layer carries 239 records)"
+        },
+        {
+          "hint": "Operator and contractor press releases for awarded structures"
+        }
+      ]
+    }
+  ]
 }

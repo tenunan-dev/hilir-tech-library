@@ -134,6 +134,32 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "installed capital cost, MBR package plant",
+      "unit": "USD per gallon per day",
+      "low": 7,
+      "high": 20,
+      "year": 2007,
+      "basis": "EPA fact sheet: US Filter/Siemens Memcor package plants have installed costs of USD 7-20 per gallon treated. Document dated September 2007 and states no dollar year, so the document year is recorded.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2019-08/documents/membrane_bioreactor_fact_sheet_p100il7g.pdf",
+        "note": "US EPA, Wastewater Management Fact Sheet: Membrane Bioreactors, EPA 832-F-07-015, September 2007, COSTS section (US Filter/Siemens Memcor installed costs; Fleischer et al. 2005)"
+      }
+    },
+    {
+      "metric": "installed capital cost, MBR plus granular activated carbon (12 MGD design, Loudoun County VA)",
+      "unit": "USD per gallon per day",
+      "low": 12,
+      "high": 12,
+      "year": 2007,
+      "basis": "Fleischer et al. (2005) cost comparison for a 12 MGD design: MBR plus GAC at USD 12 per gallon treated was the same order of magnitude as multiple-point alum addition, high lime treatment and post-secondary alternatives. Compiled in EPA 832-F-07-015 (2007); no dollar year stated.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2019-08/documents/membrane_bioreactor_fact_sheet_p100il7g.pdf",
+        "note": "US EPA, Wastewater Management Fact Sheet: Membrane Bioreactors, EPA 832-F-07-015, September 2007, COSTS section (US Filter/Siemens Memcor installed costs; Fleischer et al. 2005)"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "kubota-membrane",
@@ -141,22 +167,8 @@
       "note": "Kubota Water & Environment MBR system pages (SMU description, reuse-quality effluent, 40+ years of MBR supply), read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "installed cost per m3/d with dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor sites do not publish plant-level prices.",
-      "where": [
-        {
-          "hint": "ICIS Water or Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
-    }
-  ],
-  "last_reviewed": "2026-11-13",
+  "gaps": [],
+  "last_reviewed": "2026-11-14",
   "reference_plants": [
     {
       "name": "Pantai 2 STP, Kuala Lumpur (underground MBR plant)",

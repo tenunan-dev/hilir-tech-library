@@ -115,6 +115,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed distribution transformer (export price list)",
+      "unit": "USD per unit",
+      "low": 7000,
+      "high": 20000,
+      "year": 2025,
+      "basis": "Foreign export price list, accepted as the price basis on owner instruction 2026-11-13. Aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000; 33 kV class USD 10,000-20,000. Malaysian landed cost adds roughly 30-60% for duties, SST, compliance testing and local margin (about MYR 80,000-150,000 for a compliant S13-class copper unit). FOB export, not a delivered Malaysian price.",
+      "source": {
+        "url": "https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html",
+        "note": "Export listings for Malaysia-power-project S11/S13 1000 kVA transformers; recorded on equipment record ele-power-transformers"
+      }
+    }
+  ],
   "limitations": [
     "oil-filled units need fire-risk assessment, bunding and oil handling offshore",
     "harmonic-rich loads and DC bias from converters raise losses, noise and stray heating"
@@ -149,15 +163,18 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per MVA installed, by transformer class and voltage",
+      "item": "installed cost per MVA, including civil works, installation and commissioning, by transformer class",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "reason": "Unit prices are now recorded (1000 kVA 11 kV/0.4 kV FOB export basis, 2025). Installed cost per MVA — the figure a project budget needs — is not published by any source read: it depends on civil works, transport, erection and commissioning, which vendors quote per project.",
       "where": [
         {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
+          "hint": "Malaysian contractor or utility benchmark for installed transformer cost per MVA (TNB distribution works orders)"
+        },
+        {
+          "hint": "Ask the owner for a priced reference or a contractor quote"
         }
       ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "action": "Ask owner for a priced reference or a contractor quote; keep the unit price as the magnitude anchor until then."
     }
   ]
 }

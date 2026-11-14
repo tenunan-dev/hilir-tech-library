@@ -170,6 +170,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "indicative cost, 12-24 kV SF6 ring main unit, unit",
+      "unit": "USD per unit",
+      "low": 2000,
+      "high": 7000,
+      "year": 2025,
+      "basis": "Export price list (accepted price basis, owner instruction 2026-11-13): compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Not a delivered Malaysian price.",
+      "source": {
+        "url": "https://www.alibaba.com/",
+        "note": "B2B supplier listings, searched 2026-11-13; recorded on equipment record ele-mv-switchgear"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "tnb",
@@ -180,15 +194,15 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per substation installed, ring versus radial, with a Malaysian contractor benchmark",
+      "item": "installed cost per MV circuit or per distribution bay",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "reason": "Ring-main-unit unit prices are now recorded (export basis, 2025). A per-bay installed cost covering cable terminations, civil works, earthing and commissioning is not published openly.",
       "where": [
         {
-          "hint": "Malaysian electrical contractor tender benchmarks"
+          "hint": "Malaysian utility distribution works orders or a contractor schedule of rates"
         }
       ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "action": "Add a per-bay installed cost when a Malaysian schedule of rates is available."
     }
   ],
   "last_reviewed": "2026-11-13"

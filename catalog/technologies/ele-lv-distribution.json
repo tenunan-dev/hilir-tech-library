@@ -155,6 +155,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "indicative cost, LV switchboard section (IEC 61439, 50 kA/1 s, IP54)",
+      "unit": "USD per section",
+      "low": 1000,
+      "high": 5000,
+      "year": 2025,
+      "basis": "Export price list (accepted price basis, owner instruction 2026-11-13): about USD 1,000 for a basic section rising past USD 5,000 for drawout main sections; Western-brand boards typically 2-4x Chinese FOB. Manufacturer price books are distributor-only, so this is FOB pricing, not a delivered Malaysian price.",
+      "source": {
+        "url": "https://www.alibaba.com/",
+        "note": "B2B supplier listings, searched 2026-11-13; recorded on equipment record ele-lv-switchboard"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "tnb",
@@ -165,15 +179,15 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per board or per kVA of installed LV distribution",
+      "item": "installed cost per distribution board, MCC section or outgoing way",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "reason": "The LV switchboard section price is now recorded (FOB export basis, 2025). Manufacturer price books are distributor-only and installed cost per outgoing way (with cabling, assembly and testing) is not published.",
       "where": [
         {
-          "hint": "Manufacturer price books or a Malaysian licensed-contractor benchmark"
+          "hint": "Electrical contractor schedule of rates for LV distribution"
         }
       ],
-      "action": "Ask owner for a priced reference or a quote from a licensed contractor."
+      "action": "Add per-way installed cost from a contractor schedule of rates."
     }
   ],
   "last_reviewed": "2026-11-13"

@@ -94,6 +94,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "installed capital cost, gravity thickener, by plant capacity (2-25 MGD)",
+      "unit": "USD",
+      "low": 199000,
+      "high": 3200000,
+      "year": 2000,
+      "basis": "EPA 832-F-03-022 Table 5, adjusted to the year 2000: construction plus engineering and administration of USD 199,000 at 2 MGD, 426,000 at 4 MGD, 914,000 at 8 MGD, 1,825,000 at 15 MGD, 2,504,000 at 20 MGD and 3,200,000 at 25 MGD (construction only: 162,000 to 2,610,000). The range spans plant capacity, not uncertainty at one size.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/gravity-thickening-factsheet.pdf",
+        "note": "US EPA, Biosolids Technology Fact Sheet: Gravity Thickening, EPA 832-F-03-022, September 2003, Table 5 (estimated capital costs adjusted to the year 2000; underlying source U.S. EPA 1979)"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "huber-se",
@@ -104,17 +118,16 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per t DS, dollar year",
+      "item": "operating cost per dry tonne of solids thickened",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor sites do not publish plant prices.",
+      "reason": "Capital cost by plant capacity is now recorded (Table 5, year-2000 basis). The sheet's unit operating cost line is truncated in the copy read and no complete per-dry-tonne figure could be transcribed.",
       "where": [
         {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
+          "hint": "EPA 832-F-03-022 COSTS section, read as page images"
         }
       ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "action": "Read the operating cost paragraph from the PDF pages and record the per-dry-tonne figure."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-14"
 }

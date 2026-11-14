@@ -130,6 +130,20 @@
       }
     }
   ],
+  "costs": [
+    {
+      "metric": "indicative cost, 550 kV dead-tank circuit breaker, three-phase set",
+      "unit": "USD per three-phase set",
+      "low": 200000,
+      "high": 520000,
+      "year": 2025,
+      "basis": "Chinese OEM 550 kV about USD 210,000-270,000; an import record of a 3150 A 50 kA three-phase set near USD 520,000; EGAT tender about THB 6.0 million per unit (about USD 170,000). Indicative and highly configuration-dependent.",
+      "source": {
+        "url": "https://www.electricaltrader.com/",
+        "note": "tender and import records cited from search summary, 2026-11-13; recorded on equipment record ele-hv-circuit-breakers"
+      }
+    }
+  ],
   "sources": [
     {
       "source_id": "tnb",
@@ -140,15 +154,18 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per bay or per MVA of substation capacity",
+      "item": "substation-level cost per bay or per MVA for 275-500 kV substations",
       "reason_code": "not_in_sources_read",
-      "reason": "Network operators do not publish substation costs.",
+      "reason": "The 550 kV breaker set price is now recorded (tender and import records, 2025). Substation-level cost per bay or per MVA, covering transformers, GIS, civil works and control buildings, is quoted per project and not published openly.",
       "where": [
         {
-          "hint": "GSO or Energy Commission regulatory filings"
+          "hint": "Utility 275-500 kV substation tender schedules"
+        },
+        {
+          "hint": "EPC consortium published project costs"
         }
       ],
-      "action": "Ask owner for a priced reference."
+      "action": "Add per-bay substation cost when a tender schedule is available."
     }
   ],
   "last_reviewed": "2026-11-13"
