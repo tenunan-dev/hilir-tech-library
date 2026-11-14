@@ -4,7 +4,8 @@
   "aliases": [
     "grid-interactive data centres",
     "UPS frequency response",
-    "demand flexibility for data centres"
+    "demand flexibility for data centres",
+    "Data centre demand response and flexible load"
   ],
   "sector": "IDC",
   "category": "Grid interaction",
@@ -106,7 +107,7 @@
       "note": "Enel X UK programmes FAQ (Demand Flexibility Service, Dynamic Containment/Moderation/Regulation, Static FFR), read via search summary 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-12",
+  "last_reviewed": "2026-11-14",
   "gaps": [
     {
       "field": "costs",

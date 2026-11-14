@@ -1,0 +1,151 @@
+{
+  "id": "idc-rear-door-heat-exchangers",
+  "name": "Rear-door heat exchangers",
+  "aliases": [
+    "RDHx",
+    "rear door cooling",
+    "passive rear door heat exchanger"
+  ],
+  "category": "Cooling",
+  "maturity": "demonstration",
+  "applications": [
+    "Racks of 20-80 kW where liquid cooling is not yet installed",
+    "Incremental cooling retrofits",
+    "Bridging air-cooled and liquid-cooled halls"
+  ],
+  "principle": "A rear-door heat exchanger replaces the rack's rear door with a liquid coil. Server fans push exhaust air through the coil, so heat leaves in water rather than in room air. Passive units rely entirely on server fans; active units add variable-speed fans. The coil handles the rack's heat at its own density, which is why the door approach reaches densities room air cooling cannot.",
+  "process_steps": [
+    {
+      "id": "RACK",
+      "name": "Server fans discharge hot air at the rack rear",
+      "equipment": [
+        "servers",
+        "rack"
+      ],
+      "to": [
+        "DOOR"
+      ]
+    },
+    {
+      "id": "DOOR",
+      "name": "Door coil absorbs the heat into facility or local water",
+      "equipment": [
+        "rear-door heat exchanger",
+        "modulating valve"
+      ],
+      "to": [
+        "LOOP"
+      ]
+    },
+    {
+      "id": "LOOP",
+      "name": "Water loop carries heat to the cooling plant",
+      "equipment": [
+        "CDU",
+        "chiller",
+        "dry cooler"
+      ],
+      "to": [
+        "RETURN"
+      ]
+    },
+    {
+      "id": "RETURN",
+      "name": "Cooled air returns to the room or directly to the cold aisle",
+      "equipment": [
+        "containment"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "passive rear-door coils",
+    "active rear-door units with variable-speed fans",
+    "modulating valves and return-water temperature control",
+    "CDU or facility water loop"
+  ],
+  "suppliers": [
+    {
+      "name": "Vertiv",
+      "product": "rear-door heat exchangers"
+    },
+    {
+      "name": "nVent",
+      "product": "rear-door heat exchangers"
+    },
+    {
+      "name": "Rittal",
+      "product": "rear-door cooling units"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "supported rack density, rear-door heat exchanger",
+      "unit": "kW per rack",
+      "low": 20,
+      "high": 80,
+      "year": 2026,
+      "basis": "Vertiv article: rear-door heat exchangers support rack densities from 20 to 80 kW, against a practical air-cooling limit of around 20 kW.",
+      "source": {
+        "url": "https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling",
+        "note": "Vertiv, How rear door heat exchangers (RDHx) support high-density rack cooling, read 2026-11-14"
+      }
+    }
+  ],
+  "advantages": [
+    "Reaches 20-80 kW per rack without changing the room architecture",
+    "Rack-agnostic and deployable without facility water",
+    "Can be installed incrementally, rack by rack"
+  ],
+  "limitations": [
+    "Puts water at the back of the rack, so leak response matters",
+    "Passive units depend on server fan head and can constrain airflow",
+    "Return-water temperature control adds a control loop to commission"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling",
+      "note": "Vertiv, How rear door heat exchangers (RDHx) support high-density rack cooling, read 2026-11-14"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "cooling capacity per door in kW and the air-side pressure drop",
+      "reason_code": "not_in_sources_read",
+      "reason": "The article read gives the supported rack-density range but no per-door kW capacity or pressure drop.",
+      "action": "Read a datasheet and record capacity and pressure drop.",
+      "where": [
+        {
+          "hint": "Vertiv and nVent rear-door heat exchanger datasheets"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "cost per rear-door unit by capacity, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read prices rear-door units.",
+      "action": "Add a unit price from a vendor quote.",
+      "where": [
+        {
+          "hint": "Vendor budget quotes"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read; the register records it as demonstration without a source.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

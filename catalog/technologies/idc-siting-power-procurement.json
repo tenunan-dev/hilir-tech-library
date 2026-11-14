@@ -3,7 +3,8 @@
   "name": "Data centre siting and power procurement",
   "aliases": [
     "data centre site selection",
-    "power procurement for data centres"
+    "power procurement for data centres",
+    "Hyperscale data centre siting and power procurement"
   ],
   "sector": "IDC",
   "category": "Siting and demand",
@@ -113,7 +114,7 @@
       "note": "AirTrunk Malaysia platform 700 MW+ banner, read 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-12",
+  "last_reviewed": "2026-11-14",
   "gaps": [
     {
       "field": "costs",

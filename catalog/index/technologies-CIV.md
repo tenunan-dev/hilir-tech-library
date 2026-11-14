@@ -33,7 +33,12 @@ flowchart LR
 
 **Key equipment:** blast-rated steel modules, reinforced concrete construction, blast doors, protected HVAC.
 
-Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Blast_resistance). Last reviewed 2026-11-07.
+**Missing inputs:**
+- blast overpressure rating range and panel weight per square metre, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- capital cost per square metre of blast-resistant building by overpressure rating, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Blast-rated modular building vendors (budget quotes per m2 by kPa rating); Offshore and petrochemical shelter vendors. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Blast_resistance). Last reviewed 2026-11-14.
 
 ## FPSO and floating production structures
 <a id="civ-floating-structures-fpso"></a>
@@ -56,7 +61,11 @@ flowchart LR
 **Performance:**
 - MODEC FPSO project experience: 59 units in 20 countries; MODEC FPSO Projects experience page states 59 units in 20 countries (delivered/operated fleet). [source](https://www.modec.com/)
 
-Sources: [1](https://www.sbmoffshore.com/), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-07.
+**Missing inputs:**
+- conversion and new-build capex for an FPSO hull and topside structure, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Published FPSO contract award values from operators and shipyards; SBM Offshore and MODEC annual reports. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://www.sbmoffshore.com/), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-14.
 
 ## Fixed platform topsides and substructures
 <a id="civ-offshore-platform-structures"></a>
@@ -76,7 +85,12 @@ flowchart LR
 
 **Key equipment:** steel jacket, foundation piles, topsides modules, conductor guides, boat landings and riser guards.
 
-Sources: [1](https://en.wikipedia.org/wiki/Oil_platform), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-07.
+**Missing inputs:**
+- topsides and jacket weight against water depth and production capacity, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- jacket and topside fabrication cost per tonne, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Published EPC contract award values for fixed platforms; Fabrication yard public order books. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://en.wikipedia.org/wiki/Oil_platform), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-14.
 
 ## Foundations and piling
 <a id="civ-foundations-piling"></a>
@@ -96,7 +110,12 @@ flowchart LR
 
 **Key equipment:** driven steel and concrete piles, bored piles, vibro and stone columns, pile caps.
 
-Sources: [1](https://en.wikipedia.org/wiki/Deep_foundation). Last reviewed 2026-11-07.
+**Missing inputs:**
+- achievable pile capacity and productivity by pile type, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- cost per pile metre and per cubic metre of foundation concrete, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Geotechnical contractor schedules of rates; CIDB Malaysia piling and foundation rates. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://en.wikipedia.org/wiki/Deep_foundation). Last reviewed 2026-11-14.
 
 ## Heavy lift, transport and temporary works
 <a id="civ-heavy-lift-temporary-works"></a>
@@ -116,7 +135,12 @@ flowchart LR
 
 **Key equipment:** crawler cranes, SPMT self-propelled modular transporters, gantry systems, engineered rigging.
 
-Sources: [1](https://www.mammoet.com/), [2](https://en.wikipedia.org/wiki/Self-propelled_modular_transporter). Last reviewed 2026-11-07.
+**Missing inputs:**
+- lifting capacity and load-out weight ranges by method, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- crane and heavy-lift vessel day rates, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Heavy-lift contractor published day rates and charter rates; Offshore installation vessel charter market reports. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://www.mammoet.com/), [2](https://en.wikipedia.org/wiki/Self-propelled_modular_transporter). Last reviewed 2026-11-14.
 
 ## Modular construction and industrialised building systems
 <a id="civ-modular-construction-ibs"></a>
@@ -136,7 +160,12 @@ flowchart LR
 
 **Key equipment:** fabrication yards, SPMT transporters, heavy cranes, module interface joints.
 
-Sources: [1](https://www.cidb.gov.my/), [2](https://en.wikipedia.org/wiki/Modular_construction). Last reviewed 2026-11-07.
+**Missing inputs:**
+- programme saving and cost premium against conventional construction, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- cost per square metre of modular or IBS construction against conventional build, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: CIDB Malaysia IBS cost studies; Modular building fabricators' published rates. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://www.cidb.gov.my/), [2](https://en.wikipedia.org/wiki/Modular_construction). Last reviewed 2026-11-14.
 
 ## Pipe racks, sleepers and pipe supports
 <a id="civ-pipe-racks-supports"></a>
@@ -156,7 +185,12 @@ flowchart LR
 
 **Key equipment:** rack steelwork, pipe shoes and guides, spring hangers, constant-effort supports, expansion loops.
 
-Sources: [1](https://en.wikipedia.org/wiki/Pipe_rack). Last reviewed 2026-11-07.
+**Missing inputs:**
+- steel intensity per metre of rack and per pipe, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- cost per metre of pipe rack (steel-only and erected), with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: EPC structural steel rates from published project cost studies; Pipe rack module fabricators' published rates. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://en.wikipedia.org/wiki/Pipe_rack). Last reviewed 2026-11-14.
 
 ## Plant structural steel design
 <a id="civ-structural-steel-design"></a>
@@ -176,7 +210,12 @@ flowchart LR
 
 **Key equipment:** hot-rolled beams and columns, bracing, base plates and anchors, gratings and handrails.
 
-Sources: [1](https://www.hse.gov.uk/electricity/), [2](https://en.wikipedia.org/wiki/Structural_steel). Last reviewed 2026-11-07.
+**Missing inputs:**
+- steel weight per square metre of building and erection productivity, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- erected cost per tonne of structural steel, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Quantity-surveyor and steel-fabricator price guides (structural steel per tonne, erected); Malaysian steel fabricator and CIDB schedule-of-rates data. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://www.hse.gov.uk/electricity/), [2](https://en.wikipedia.org/wiki/Structural_steel). Last reviewed 2026-11-14.
 
 ## Seismic design of process facilities
 <a id="civ-seismic-design"></a>
@@ -196,7 +235,12 @@ flowchart LR
 
 **Key equipment:** anchorage systems, base isolators, seismic qualification test facilities.
 
-Sources: [1](https://en.wikipedia.org/wiki/Earthquake_engineering). Last reviewed 2026-11-07.
+**Missing inputs:**
+- design ground acceleration ranges and structural steel premium, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- engineering cost and structural premium of seismic design, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Structural engineering fee benchmarks; Cost studies of seismic design premiums. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://en.wikipedia.org/wiki/Earthquake_engineering). Last reviewed 2026-11-14.
 
 ## Structural fireproofing and passive fire protection
 <a id="civ-fireproofing-passive-protection"></a>
@@ -216,4 +260,9 @@ flowchart LR
 
 **Key equipment:** cementitious fireproofing, epoxy intumescent coatings, fire-rated barriers and dampers, fireproof cable protection.
 
-Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Fireproofing). Last reviewed 2026-11-07.
+**Missing inputs:**
+- fire rating achieved per coating thickness and application productivity, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
+- cost per square metre of fire protection (intumescent coating, board, cementitious), with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Passive fire protection contractors and intumescent coating suppliers' published rates; Fire-test certification body data on thickness versus rating. Next: Add a figure with metric, range, unit, dollar year, basis and source.
+- named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
+
+Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Fireproofing). Last reviewed 2026-11-14.

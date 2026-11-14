@@ -448,9 +448,6 @@ IDC:
   Digital:
     - DCIM and digital twins for data centres | C | Schneider Electric (EcoStruxure), Vertiv, Sunbird, Rigado
     - Liquid-cooling leak detection and monitoring | D | Vertiv, RLE Technologies, Aquilar
-    - Data centre UPS systems (double-conversion, lithium, modular) | C | Vertiv (Liebert EXL S1 100-1200 kW), Schneider Electric, Eaton
-    - Data centre grid interaction (demand response and frequency services) | C | Enel X (Digital Realty, Microsoft), GridBeyond, Vertiv
-    - Data centre siting and power procurement | C | Hyperscalers, AirTrunk (Malaysia 700 MW+), Equinix, GE Vernova
 WWT:
   Physical and chemical treatment:
     - Screening and grit removal | C | Andritz, Vulcan Industries, Hydro International

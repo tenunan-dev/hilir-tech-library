@@ -8,19 +8,19 @@
 | [Electrical heat tracing](#ele-heat-tracing) | Electrical heating | commercial |  | nVent (Raychem heat tracing systems); Chromalox (industrial heat tracing); Emerson (industrial heat tracing (Bergman Series)) |  |
 | [Emergency, standby and UPS power systems](#ele-emergency-up-power) | Emergency power | commercial |  | Cummins (generator sets); Eaton (UPS systems); ABB (UPS and emergency power); Schneider Electric (Galaxy UPS systems); Vertiv (critical power UPS) |  |
 | [Grid connection and interconnection studies](#ele-grid-connection) | Power generation and distribution | commercial |  | Grid System Operator (GSO) (Malaysian grid code administration); Tenaga Nasional Berhad (TNB) (connection offer and network access); Siemens PTI (PSS/E modelling and grid studies) |  |
-| [HV/MV switchgear and site power distribution](#ele-hv-switchgear-distribution) | Power distribution | commercial |  | ABB (MV/LV switchgear, UniGear, HySec); Schneider Electric (MV switchgear, RM6, SM6); Siemens Energy (switchgear and grid solutions); Hitachi Energy (HV switchgear, GIS); Eaton (MV/LV switchgear and MCCs) |  |
+| [HV/MV switchgear and site power distribution](#ele-hv-switchgear-distribution) | Power distribution | commercial |  | ABB (MV/LV switchgear, UniGear, HySec); Schneider Electric (MV switchgear, RM6, SM6); Siemens Energy (switchgear and grid solutions); Hitachi Energy (HV switchgear, GIS); Eaton (MV/LV switchgear and MCCs) | indicative cost, 12-24 kV SF6 ring main unit, unit: 2000-7000 USD per unit (2025$)<br>indicative cost, 145 kV dead-tank circuit breaker: 40000-95000 USD per set (2025$) |
 | [Hazardous area electrical equipment](#ele-hazardous-area-electrical) | Explosion protection | commercial |  | Eaton Crouse-Hinds (Ex enclosures and lighting); R. Stahl (Ex equipment and IS barriers); Pepperl+Fuchs (intrinsic safety interfaces); ABB (Ex motors and instrumentation); Emerson (Ex-rated instrumentation) |  |
-| [Low-voltage distribution (415/240 V)](#ele-lv-distribution) | Power generation and distribution | commercial |  | Schneider Electric (Prisma/Blokset switchboards, Acti9 MCBs); ABB (MNS boards, S200 MCBs); Siemens (Sivacon switchboards); Eaton (xEnergy boards) |  |
-| [Medium-voltage distribution (11 kV and 33 kV)](#ele-mv-distribution) | Power generation and distribution | commercial |  | ABB (SafeRing/SafePlus RMUs, UniGear MV switchgear); Schneider Electric (RM6, Premset, SM6); Siemens (8DJH RMU, NXPlusC); Eaton (Xiria medium-voltage switchgear) |  |
+| [Low-voltage distribution (415/240 V)](#ele-lv-distribution) | Power generation and distribution | commercial |  | Schneider Electric (Prisma/Blokset switchboards, Acti9 MCBs); ABB (MNS boards, S200 MCBs); Siemens (Sivacon switchboards); Eaton (xEnergy boards) | indicative cost, LV switchboard section (IEC 61439, 50 kA/1 s, IP54): 1000-5000 USD per section (2025$) |
+| [Medium-voltage distribution (11 kV and 33 kV)](#ele-mv-distribution) | Power generation and distribution | commercial |  | ABB (SafeRing/SafePlus RMUs, UniGear MV switchgear); Schneider Electric (RM6, Premset, SM6); Siemens (8DJH RMU, NXPlusC); Eaton (Xiria medium-voltage switchgear) | indicative cost, 12-24 kV SF6 ring main unit, unit: 2000-7000 USD per unit (2025$) |
 | [Motors and variable speed drives](#ele-motors-drives) | Electrical drives | commercial |  | ABB (motors and drives, ACS family); WEG (motors and MV drives); Siemens Energy (large drives and motors); Nidec (industrial motors) |  |
 | [On-site gas turbine power generation](#ele-gt-power-generation) | Power generation | commercial |  | Siemens Energy (industrial and aeroderivative gas turbines); Mitsubishi Heavy Industries (gas turbines); Baker Hughes (NovaLT and aeroderivative gensets); MAN Energy Solutions (gensets) |  |
 | [Overhead transmission lines (132-500 kV)](#ele-transmission-lines) | Power generation and distribution | commercial |  | Siemens Energy (grid transmission equipment); GE Vernova (grid solutions); Hitachi Energy (FACTS and transmission equipment); Tenaga Nasional Berhad (TNB) (owner and operator of the Peninsular grid) |  |
-| [Power and control cable systems](#ele-cable-systems) | Power distribution | commercial |  | Prysmian (power and submarine cable systems); Nexans (power, instrument and subsea cables); LS Cable & System (power cables) |  |
-| [Power and distribution transformers](#ele-transformers) | Power transformation | commercial |  | Hitachi Energy (power, distribution, GIT and dry-type transformers); Siemens Energy (power and distribution transformers); GE Vernova (power transformers); WEG (distribution and special transformers) |  |
+| [Power and control cable systems](#ele-cable-systems) | Power distribution | commercial |  | Prysmian (power and submarine cable systems); Nexans (power, instrument and subsea cables); LS Cable & System (power cables) | indicative cost, 6.35/11 kV 3-core Cu XLPE/SWA/PVC 185 mm2 cable: 31-39.3 USD per metre (2026$)<br>indicative cost, 19/33 kV 3-core Cu XLPE/SWA/PVC 95 mm2 cable: 26.5-34 USD per metre (2026$)<br>indicative cost, 11 kV and 33 kV underground cable per km (tender-derived): 8100-44000 USD per km (2025$) |
+| [Power and distribution transformers](#ele-transformers) | Power transformation | commercial |  | Hitachi Energy (power, distribution, GIT and dry-type transformers); Siemens Energy (power and distribution transformers); GE Vernova (power transformers); WEG (distribution and special transformers) | indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed distribution transformer (export price list): 7000-20000 USD per unit (2025$) |
 | [Power management and electrical SCADA](#ele-power-management-systems) | Electrical automation | commercial |  | GE Vernova (power management systems); ABB (electrical SCADA and PMS); Schneider Electric (EcoStruxure Power and PMS); Hitachi Energy (grid automation) |  |
-| [Power system protection and relaying](#ele-protection-relaying) | Power protection | commercial |  | Schweitzer Engineering Laboratories (protective relays and automation platforms); ABB (Relion protection and control); Schneider Electric (Easergy protection relays); Siemens Energy (SIPROTEC protection relays); GE Vernova (Multilin protection relays) |  |
+| [Power system protection and relaying](#ele-protection-relaying) | Power protection | commercial |  | Schweitzer Engineering Laboratories (protective relays and automation platforms); ABB (Relion protection and control); Schneider Electric (Easergy protection relays); Siemens Energy (SIPROTEC protection relays); GE Vernova (Multilin protection relays) | indicative cost, single-function overcurrent protection relay (export price list): 120-900 USD per unit (2026$)<br>indicative cost, full IEC 61850 bay-controller IED (export price list): 4000-12000 USD per unit (2026$) |
 | [Subsea power and umbilical systems](#ele-subsea-umbilicals-power) | Subsea electrical | commercial |  | Aker Solutions (umbilicals and subsea power); Nexans (subsea cables and umbilicals); Siemens Energy (subsea power grids and drives) |  |
-| [UHV and HV substations (275-500 kV)](#ele-uhv-substations) | Power generation and distribution | commercial |  | Hitachi Energy (power transformers, GIS and HVDC); Siemens Energy (GIS, transformers and substation automation); GE Vernova (high-voltage equipment); Hyundai Electric (transformers and switchgear) |  |
+| [UHV and HV substations (275-500 kV)](#ele-uhv-substations) | Power generation and distribution | commercial |  | Hitachi Energy (power transformers, GIS and HVDC); Siemens Energy (GIS, transformers and substation automation); GE Vernova (high-voltage equipment); Hyundai Electric (transformers and switchgear) | indicative cost, 550 kV dead-tank circuit breaker, three-phase set: 200000-520000 USD per three-phase set (2025$) |
 
 ## Earthing and lightning protection
 <a id="ele-earthing-lightning"></a>
@@ -155,8 +155,12 @@ flowchart LR
 **Performance:**
 - IEC 62271-200 rated voltage range of metal-enclosed MV switchgear: 1-52 kV; IEC 62271-200 covers AC metal-enclosed switchgear and controlgear above 1 kV up to and including 52 kV. [source](https://www.iec.ch/standards)
 
+**Costs:**
+- indicative cost, 12-24 kV SF6 ring main unit, unit: 2000-7000 USD per unit (2025$); Export price list (accepted price basis, owner instruction 2026-11-13): compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Not a delivered Malaysian price.. [source](https://www.alibaba.com/)
+- indicative cost, 145 kV dead-tank circuit breaker: 40000-95000 USD per set (2025$); Western/Japanese brand new dead-tank at 145 kV roughly USD 40,000-95,000 (a Siemens SPS-145 used unit listed near USD 95,000; a Spanish tender for 145 kV 3150 A 31.5 kA at about EUR 26,000); Chinese OEMs quote far lower, USD 2,500-45,000. Export price list basis (accepted on owner instruction 2026-11-13).. [source](https://www.electricaltrader.com/)
+
 **Missing inputs:**
-- cost per panel by voltage class (costs): Vendor and licensee sites do not publish installed prices. Where: Ask the owner for a Malaysian contractor benchmark. Next: Ask owner for a priced reference or a contractor quote.
+- installed cost per HV switchboard bay, including protection, control and civil works (costs): Equipment-level prices are now recorded for 12-24 kV RMUs and 145 kV dead-tank breakers (export basis, 2025). A complete HV bay — breaker, disconnectors, CTs/VTs, protection IEDs, control panel, civil works — is quoted per project and not published. Where: Utility substation tender schedules or an EPC schedule of rates. Next: Add a per-bay installed cost when a substation tender schedule is available.
 
 Sources: [1](https://www.iec.ch/standards), [2](https://www.hitachienergy.com/products-and-solutions/transformers), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-13.
 
@@ -213,8 +217,11 @@ flowchart LR
 - LV steady-state voltage tolerance: -6-10 %; TNB voltage-fluctuation limits at 400/230 V under normal conditions. [source](https://www.tnb.com.my/)
 - required RCD sensitivity for socket circuits: 30 mA; Malaysian practice for socket-outlet final circuits (30 mA RCD). [source](https://www.st.gov.my/)
 
+**Costs:**
+- indicative cost, LV switchboard section (IEC 61439, 50 kA/1 s, IP54): 1000-5000 USD per section (2025$); Export price list (accepted price basis, owner instruction 2026-11-13): about USD 1,000 for a basic section rising past USD 5,000 for drawout main sections; Western-brand boards typically 2-4x Chinese FOB. Manufacturer price books are distributor-only, so this is FOB pricing, not a delivered Malaysian price.. [source](https://www.alibaba.com/)
+
 **Missing inputs:**
-- cost per board or per kVA of installed LV distribution (costs): Vendor and licensee sites do not publish installed prices. Where: Manufacturer price books or a Malaysian licensed-contractor benchmark. Next: Ask owner for a priced reference or a quote from a licensed contractor.
+- installed cost per distribution board, MCC section or outgoing way (costs): The LV switchboard section price is now recorded (FOB export basis, 2025). Manufacturer price books are distributor-only and installed cost per outgoing way (with cabling, assembly and testing) is not published. Where: Electrical contractor schedule of rates for LV distribution. Next: Add per-way installed cost from a contractor schedule of rates.
 
 Sources: [1](https://www.tnb.com.my/). Last reviewed 2026-11-13.
 
@@ -248,8 +255,11 @@ flowchart LR
 - 33 kV fault level rating: 25 kA; TNB 33 kV short-circuit rating 25 kA for 3 s. [source](https://www.tnb.com.my/)
 - 11 kV fault level rating: 20 kA; TNB 11 kV short-circuit rating 20 kA for 3 s. [source](https://www.tnb.com.my/)
 
+**Costs:**
+- indicative cost, 12-24 kV SF6 ring main unit, unit: 2000-7000 USD per unit (2025$); Export price list (accepted price basis, owner instruction 2026-11-13): compact SF6 RMUs about USD 2,000-2,700, mainstream 12-24 kV units USD 3,400-4,700, outdoor GIS RMU USD 6,000-7,100; Western-brand equipment typically 2-4x these FOB figures. Not a delivered Malaysian price.. [source](https://www.alibaba.com/)
+
 **Missing inputs:**
-- cost per substation installed, ring versus radial, with a Malaysian contractor benchmark (costs): Vendor and licensee sites do not publish installed prices. Where: Malaysian electrical contractor tender benchmarks. Next: Ask owner for a priced reference or a contractor quote.
+- installed cost per MV circuit or per distribution bay (costs): Ring-main-unit unit prices are now recorded (export basis, 2025). A per-bay installed cost covering cable terminations, civil works, earthing and commissioning is not published openly. Where: Malaysian utility distribution works orders or a contractor schedule of rates. Next: Add a per-bay installed cost when a Malaysian schedule of rates is available.
 
 Sources: [1](https://www.tnb.com.my/). Last reviewed 2026-11-13.
 
@@ -363,8 +373,10 @@ flowchart LR
 - MV cable working voltage: 11-33 kV; TNB MV distribution voltages for cable rating. [source](https://www.tnb.com.my/)
 - LV cable working voltage: 400-415 V; TNB LV supply for LV power and control cables. [source](https://www.tnb.com.my/)
 
-**Missing inputs:**
-- cost per metre by voltage class and conductor size (costs): Vendor and licensee sites do not publish installed prices. Where: Ask the owner for a Malaysian contractor benchmark. Next: Ask owner for a priced reference or a contractor quote.
+**Costs:**
+- indicative cost, 6.35/11 kV 3-core Cu XLPE/SWA/PVC 185 mm2 cable: 31-39.3 USD per metre (2026$); FOB China price guide: 11 kV 185 mm2 copper USD 31.00-39.30/m; 95 mm2 USD 17.00-21.70/m; 300 mm2 USD 47.70-61.10/m.. [source](https://www.shengecable.com/)
+- indicative cost, 19/33 kV 3-core Cu XLPE/SWA/PVC 95 mm2 cable: 26.5-34 USD per metre (2026$); FOB China price guide at LME copper about USD 9,800-10,200/t: 19/33 kV 95 mm2 3-core copper USD 26.50-34.00/m; 240 mm2 USD 60-77/m; 400 mm2 USD 96-123/m. Aluminium conductor saves roughly 40-55%.. [source](https://www.shengecable.com/)
+- indicative cost, 11 kV and 33 kV underground cable per km (tender-derived): 8100-44000 USD per km (2025$); Indian utility tender cost data: 33 kV 1Cx630 mm2 aluminium XLPE about USD 8,100/km; 33 kV 1Cx400 mm2 copper about USD 44,000/km; 11 kV 3x185 mm2 about USD 11,000/km; 11 kV 3x300 mm2 about USD 14,500/km. Tender-derived and useful for magnitude only.. [source](https://www.tstransco.in/)
 
 Sources: [1](https://www.prysmian.com/), [2](https://www.nexans.com/), [3](https://www.iec.ch/standards), [4](https://www.tnb.com.my/), [5](https://www.gso.org.my/). Last reviewed 2026-11-13.
 
@@ -392,8 +404,11 @@ flowchart LR
 - 800 kV UHVDC power transformers delivered: 20 units (more than); Hitachi Energy states its power transformer fleet includes more than 20 units of 800 kV UHVDC and more than 500 units in the 735-765 kV AC class. [source](https://www.hitachienergy.com/products-and-solutions/transformers)
 - 735-765 kV AC power transformers delivered: 500 units (more than); same statement as above. [source](https://www.hitachienergy.com/products-and-solutions/transformers)
 
+**Costs:**
+- indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed distribution transformer (export price list): 7000-20000 USD per unit (2025$); Foreign export price list, accepted as the price basis on owner instruction 2026-11-13. Aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000; 33 kV class USD 10,000-20,000. Malaysian landed cost adds roughly 30-60% for duties, SST, compliance testing and local margin (about MYR 80,000-150,000 for a compliant S13-class copper unit). FOB export, not a delivered Malaysian price.. [source](https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html)
+
 **Missing inputs:**
-- cost per MVA installed, by transformer class and voltage (costs): Vendor and licensee sites do not publish installed prices. Where: Ask the owner for a Malaysian contractor benchmark. Next: Ask owner for a priced reference or a contractor quote.
+- installed cost per MVA, including civil works, installation and commissioning, by transformer class (costs): Unit prices are now recorded (1000 kVA 11 kV/0.4 kV FOB export basis, 2025). Installed cost per MVA — the figure a project budget needs — is not published by any source read: it depends on civil works, transport, erection and commissioning, which vendors quote per project. Where: Malaysian contractor or utility benchmark for installed transformer cost per MVA (TNB distribution works orders); Ask the owner for a priced reference or a contractor quote. Next: Ask owner for a priced reference or a contractor quote; keep the unit price as the magnitude anchor until then.
 
 Sources: [1](https://www.hitachienergy.com/products-and-solutions/transformers), [2](https://www.iec.ch/standards), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-13.
 
@@ -448,8 +463,9 @@ flowchart LR
 - 11 kV clearing requirement implied by fault rating: 20 kA; protection must clear the 20 kA, 3 s 11 kV fault duty. [source](https://www.tnb.com.my/)
 - 500 kV fault ratings protection must handle: 50 kA; 50 kA for 1 s at 500 kV. [source](https://www.tnb.com.my/)
 
-**Missing inputs:**
-- cost per protection panel or per feeder (costs): Vendor and licensee sites do not publish installed prices. Where: Ask the owner for a Malaysian contractor benchmark. Next: Ask owner for a priced reference or a contractor quote.
+**Costs:**
+- indicative cost, single-function overcurrent protection relay (export price list): 120-900 USD per unit (2026$); Export price list, accepted as the price basis on owner instruction 2026-11-13. A 2026 microprocessor-relay price guide covering 96 manufacturers and 560 SKUs puts single-function overcurrent devices at about USD 120 through Chinese OEM channels, rising with function count and brand tier.. [source](https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html)
+- indicative cost, full IEC 61850 bay-controller IED (export price list): 4000-12000 USD per unit (2026$); Same price guide: the spread reaches USD 12,000+ for a full IEC 61850 bay controller from Schweitzer Engineering Laboratories or GE Grid Solutions. Function class, brand tier and certification drive the 30x spread the source documents.. [source](https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html)
 
 Sources: [1](https://www.selinc.com/products/), [2](https://www.hse.gov.uk/electricity/), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-13.
 
@@ -501,7 +517,10 @@ flowchart LR
 - 275 kV fault level rating: 40-50 kA; TNB 275 kV 40 kA for 3 s, 50 kA near power stations. [source](https://www.tnb.com.my/)
 - 500 kV fault level rating: 50 kA; TNB 500 kV 50 kA for 1 s. [source](https://www.tnb.com.my/)
 
+**Costs:**
+- indicative cost, 550 kV dead-tank circuit breaker, three-phase set: 200000-520000 USD per three-phase set (2025$); Chinese OEM 550 kV about USD 210,000-270,000; an import record of a 3150 A 50 kA three-phase set near USD 520,000; EGAT tender about THB 6.0 million per unit (about USD 170,000). Indicative and highly configuration-dependent.. [source](https://www.electricaltrader.com/)
+
 **Missing inputs:**
-- cost per bay or per MVA of substation capacity (costs): Network operators do not publish substation costs. Where: GSO or Energy Commission regulatory filings. Next: Ask owner for a priced reference.
+- substation-level cost per bay or per MVA for 275-500 kV substations (costs): The 550 kV breaker set price is now recorded (tender and import records, 2025). Substation-level cost per bay or per MVA, covering transformers, GIS, civil works and control buildings, is quoted per project and not published openly. Where: Utility 275-500 kV substation tender schedules; EPC consortium published project costs. Next: Add per-bay substation cost when a tender schedule is available.
 
 Sources: [1](https://www.tnb.com.my/). Last reviewed 2026-11-13.

@@ -1,0 +1,170 @@
+{
+  "id": "idc-free-cooling-economisers",
+  "name": "Free cooling and economisers",
+  "aliases": [
+    "air-side economiser",
+    "water-side economiser",
+    "free cooling"
+  ],
+  "category": "Cooling",
+  "maturity": "commercial",
+  "applications": [
+    "Reducing mechanical cooling hours in temperate climates",
+    "Water-free cooling where water supply is constrained",
+    "Hybrid DX and economiser designs"
+  ],
+  "principle": "An economiser uses outdoor conditions to do the cooling work instead of a compressor. Air-side designs bring outside air in; water-side designs cool the loop with a dry cooler or cooling tower; packaged units combine both. The saving is proportional to annual hours below the switch-over temperature, so the same equipment saves far more in a high-latitude climate than in the tropics - which is exactly the PUE spread the Uptime survey reports.",
+  "process_steps": [
+    {
+      "id": "SENSE",
+      "name": "Controls compare outdoor and return conditions against the switch-over point",
+      "equipment": [
+        "controllers",
+        "temperature sensors"
+      ],
+      "to": [
+        "MODE"
+      ]
+    },
+    {
+      "id": "MODE",
+      "name": "Unit selects mechanical, partial or full economiser operation",
+      "equipment": [
+        "economiser damper or dry cooler",
+        "DX compressors"
+      ],
+      "to": [
+        "COIL"
+      ]
+    },
+    {
+      "id": "COIL",
+      "name": "Cooling is delivered to the room or loop",
+      "equipment": [
+        "CRAH",
+        "dry cooler"
+      ],
+      "to": [
+        "RETURN"
+      ]
+    },
+    {
+      "id": "RETURN",
+      "name": "Return air or water is rejected and the cycle repeats",
+      "equipment": [
+        "exhaust",
+        "cooling tower"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "packaged free-cooling units",
+    "air-side economiser dampers and filters",
+    "dry coolers and fluid coolers",
+    "switch-over controls"
+  ],
+  "suppliers": [
+    {
+      "name": "Vertiv",
+      "product": "Liebert DSE free-cooling system (50-165 kW)"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "Uniflair free-cooling units"
+    },
+    {
+      "name": "Munters",
+      "product": "evaporative and indirect cooling"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "unit capacity, Vertiv Liebert DSE free-cooling system",
+      "unit": "kW",
+      "low": 50,
+      "high": 165,
+      "year": 2026,
+      "basis": "Liebert DSE product page: 50-165 kW standard range with packaged units around 250-400 kW; the unit is water-free, avoiding the makeup water a chilled-water plant needs.",
+      "source": {
+        "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",
+        "note": "Vertiv Liebert DSE free-cooling system 50-165 kW product page, read 2026-11-12"
+      }
+    },
+    {
+      "metric": "PUE advantage of high-latitude sites",
+      "unit": "ratio",
+      "low": 1.3,
+      "high": 1.54,
+      "year": 2025,
+      "basis": "Uptime Institute 2025 survey: facilities in high latitudes in North America and Europe have PUEs of 1.3 or better, against a weighted average of 1.54 across respondents; climate, not only design, drives the spread.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+        "note": "Uptime Institute Global Data Center Survey 2025 (31-page report PDF), text extracted and read 2026-11-14"
+      }
+    }
+  ],
+  "advantages": [
+    "Large energy saving in climates with cool ambient hours",
+    "Water-free options remove the water permit and plume",
+    "Simple, well-understood control logic"
+  ],
+  "limitations": [
+    "Saving collapses in hot humid climates",
+    "Air-side designs import pollutants and humidity",
+    "Part-load control and switch-over points are the usual commissioning failures"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",
+      "note": "Vertiv Liebert DSE free-cooling system 50-165 kW product page, read 2026-11-12"
+    },
+    {
+      "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+      "note": "Uptime Institute Global Data Center Survey 2025 (31-page report PDF), text extracted and read 2026-11-14"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "annual hours of economiser operation and kW saved per site climate",
+      "reason_code": "not_in_sources_read",
+      "reason": "Neither source read gives operating hours or saved kW by climate for a specific unit.",
+      "action": "Add a site-specific economiser hours analysis.",
+      "where": [
+        {
+          "hint": "Cooling vendor selection software output"
+        },
+        {
+          "hint": "Site weather data with switch-over temperature"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "capital cost per kW and the saving against mechanical cooling, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read prices free-cooling units or their saving.",
+      "action": "Add a cost and saving from a vendor quote or study.",
+      "where": [
+        {
+          "hint": "Vendor quotes and payback studies"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

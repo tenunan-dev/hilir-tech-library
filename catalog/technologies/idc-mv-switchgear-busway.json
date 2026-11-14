@@ -1,0 +1,161 @@
+{
+  "id": "idc-mv-switchgear-busway",
+  "name": "Medium-voltage switchgear and busway in the data hall",
+  "aliases": [
+    "data hall busway",
+    "MV switchgear for data centres",
+    "overhead busbar power"
+  ],
+  "category": "Power distribution",
+  "maturity": "commercial",
+  "applications": [
+    "MV distribution from site substations to data hall UPS and PDU plant",
+    "Overhead power distribution to rows and racks",
+    "Reconfiguration as rack densities change"
+  ],
+  "principle": "MV switchgear is the switching and protection layer between the site transformers and the data hall; busway replaces fixed cable runs with a tap-off busbar so power can be taken off anywhere along a row and racks added without re-cabling. Busway matters at AI densities because the tap-off positions, not the cable schedule, define where a rack can go.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "MV feed enters the data hall switchgear",
+      "equipment": [
+        "MV switchgear",
+        "ring main units"
+      ],
+      "to": [
+        "UPS"
+      ]
+    },
+    {
+      "id": "UPS",
+      "name": "UPS and PDU plant condition and distribute the load",
+      "equipment": [
+        "UPS",
+        "floor PDU"
+      ],
+      "to": [
+        "BUS"
+      ]
+    },
+    {
+      "id": "BUS",
+      "name": "Overhead busway carries power along the row",
+      "equipment": [
+        "busway",
+        "tap-off boxes"
+      ],
+      "to": [
+        "RACK"
+      ]
+    },
+    {
+      "id": "RACK",
+      "name": "Rack PDUs take power at the tap-off point",
+      "equipment": [
+        "rack PDU"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "MV switchgear and ring main units (1-52 kV IEC class)",
+    "busway with tap-off units and metering",
+    "floor PDUs",
+    "rack PDUs"
+  ],
+  "suppliers": [
+    {
+      "name": "ABB",
+      "product": "medium-voltage switchgear, including SF6-free 6-24 kV"
+    },
+    {
+      "name": "Starline Power",
+      "product": "busway (Track, Series-S, high-power ranges)"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "MV switchgear and busway for data centres"
+    },
+    {
+      "name": "Eaton",
+      "product": "MV distribution and busway"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "ABB medium-voltage switchgear voltage class",
+      "unit": "kV",
+      "low": 1,
+      "high": 52,
+      "year": 2026,
+      "basis": "ABB medium-voltage switchgear overview: 1-52 kV IEC range, air-insulated versus gas-insulated designs, and SF6-free variants offered at 6-24 kV.",
+      "source": {
+        "url": "https://new.abb.com/medium-voltage/switchgear",
+        "note": "ABB medium-voltage switchgear overview (1-52 kV IEC, AIS vs GIS, SF6-free 6-24 kV), read 2026-11-12"
+      }
+    },
+    {
+      "metric": "Starline busway current rating, Track range",
+      "unit": "A",
+      "low": 40,
+      "high": 1250,
+      "year": 2026,
+      "basis": "Starline product page: Track 40-1250 A, Series-S 100-1200 A, and high-power busway 630-6000 A, with metering options.",
+      "source": {
+        "url": "https://www.starlinepower.com/products/busway",
+        "note": "Starline Power busway product page (Track 40-1250 A, Series-S 100-1200 A, high-power 630-6000 A, metering), read 2026-11-12"
+      }
+    }
+  ],
+  "advantages": [
+    "Reconfiguration without re-cabling",
+    "Tap-off positions let racks move as density changes",
+    "Metering per tap-off makes row-level energy visible"
+  ],
+  "limitations": [
+    "Busway fault levels and coordination need the whole train modelled",
+    "Overhead busway constrains ceiling space and sprinkler layout",
+    "MV switchgear lead times are long and SF6 alternatives carry different footprints"
+  ],
+  "sources": [
+    {
+      "url": "https://new.abb.com/medium-voltage/switchgear",
+      "note": "ABB medium-voltage switchgear overview (1-52 kV IEC, AIS vs GIS, SF6-free 6-24 kV), read 2026-11-12"
+    },
+    {
+      "url": "https://www.starlinepower.com/products/busway",
+      "note": "Starline Power busway product page (Track 40-1250 A, Series-S 100-1200 A, high-power 630-6000 A, metering), read 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per MV bay and per metre of busway, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "Neither vendor page read gives prices.",
+      "action": "Add budget prices from a distributor price book or tender.",
+      "where": [
+        {
+          "hint": "Electrical distributor price books"
+        },
+        {
+          "hint": "Data-centre fit-out tender schedules"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

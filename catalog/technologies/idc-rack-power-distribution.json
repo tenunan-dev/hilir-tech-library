@@ -1,0 +1,140 @@
+{
+  "id": "idc-rack-power-distribution",
+  "name": "Rack power distribution (PDU, 48 V DC and 415 V AC architectures)",
+  "aliases": [
+    "rack PDU",
+    "48 V DC data centre power",
+    "415 V AC rack power"
+  ],
+  "category": "Power distribution",
+  "maturity": "commercial",
+  "applications": [
+    "Powering IT racks from row or floor distribution",
+    "Per-outlet metering and remote switching",
+    "DC distribution to servers and to liquid-cooled accelerator racks"
+  ],
+  "principle": "The rack PDU is where distribution voltage becomes equipment power, and it is also the finest-grained metering point in the building. Architectures differ at that boundary: 415 V AC three-phase racks reduce current per rack for a given power, while 48 V DC distribution moves rectification to the row and avoids a conversion stage per server.",
+  "process_steps": [
+    {
+      "id": "ROW",
+      "name": "Row or floor distribution supplies the rack position",
+      "equipment": [
+        "busway tap-off",
+        "floor PDU"
+      ],
+      "to": [
+        "RPDU"
+      ]
+    },
+    {
+      "id": "RPDU",
+      "name": "Rack PDU distributes to outlets with metering and switching",
+      "equipment": [
+        "rack PDU",
+        "per-outlet metering"
+      ],
+      "to": [
+        "IT"
+      ]
+    },
+    {
+      "id": "IT",
+      "name": "IT equipment draws power at the rack voltage",
+      "equipment": [
+        "servers",
+        "network switches"
+      ],
+      "to": [
+        "MON"
+      ]
+    },
+    {
+      "id": "MON",
+      "name": "Metering feeds DCIM for capacity and efficiency reporting",
+      "equipment": [
+        "DCIM"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "rack PDUs (basic, metered, switched, per-outlet sensing)",
+    "415 V three-phase rack PDUs",
+    "48 V DC rack power shelves",
+    "outlet-level metering"
+  ],
+  "suppliers": [
+    {
+      "name": "Server Technology",
+      "product": "rack PDUs including 415 V and -48 V DC ranges"
+    },
+    {
+      "name": "Vertiv",
+      "product": "rack PDUs and power management"
+    },
+    {
+      "name": "Raritan (Legrand)",
+      "product": "intelligent rack PDUs"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "rack PDUs and metering"
+    }
+  ],
+  "advantages": [
+    "Per-outlet metering and switching make capacity and faults visible at the rack",
+    "415 V three-phase reduces current per rack for high-density loads",
+    "48 V DC removes a conversion stage and can simplify rack power shelves"
+  ],
+  "limitations": [
+    "Outlet-level metering is a cost that only pays off where capacity is scarce",
+    "Mixed AC and DC architectures complicate spares and switching procedures",
+    "Rack PDU rating, plug type and redundancy must match the row distribution exactly"
+  ],
+  "sources": [
+    {
+      "url": "https://www.servertech.com/products",
+      "note": "Server Technology rack PDU product range (basic/metered/smart/switched/POPS, 415 V and -48 V DC variants), read 2026-11-14"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "power and current rating per rack PDU model family (kW and A per cabinet)",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Server Technology page read lists product families and voltage variants but no per-cabinet kW or A ratings.",
+      "action": "Read a datasheet for each family and record the ratings.",
+      "where": [
+        {
+          "hint": "Server Technology and Vertiv rack PDU datasheets"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "cost per rack PDU by metering level, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read gives rack PDU prices.",
+      "action": "Add budget prices from a distributor price book.",
+      "where": [
+        {
+          "hint": "Distributor price books"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

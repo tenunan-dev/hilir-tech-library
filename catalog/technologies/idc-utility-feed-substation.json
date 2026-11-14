@@ -1,0 +1,174 @@
+{
+  "id": "idc-utility-feed-substation",
+  "name": "Utility feed and on-site substation for data centres",
+  "aliases": [
+    "data centre substation",
+    "utility interconnection for data centres",
+    "on-site HV substation"
+  ],
+  "category": "Power supply",
+  "maturity": "commercial",
+  "applications": [
+    "Interconnection of 20-500 MW campuses",
+    "Voltage transformation from transmission to data hall distribution",
+    "Redundancy design (N+1 feeds, dual redundant substations)"
+  ],
+  "principle": "A hyperscale campus is a utility-scale load: the feed is taken at transmission or high distribution voltage and transformed on site, because the alternative is carrying tens of megawatts at utilisation voltage. The binding constraint is less often transformer capacity than the interconnection queue and the local network's ability to absorb a step load, which the IEA flags as a first-order constraint in its high-growth case.",
+  "process_steps": [
+    {
+      "id": "QUEUE",
+      "name": "Interconnection request and utility study define the deliverable capacity",
+      "equipment": [
+        "protection study",
+        "load-flow study"
+      ],
+      "to": [
+        "FEED"
+      ]
+    },
+    {
+      "id": "FEED",
+      "name": "Transmission or HV distribution line is terminated at the site substation",
+      "equipment": [
+        "HV circuit breakers",
+        "disconnectors",
+        "surge arresters"
+      ],
+      "to": [
+        "XFMR"
+      ]
+    },
+    {
+      "id": "XFMR",
+      "name": "Power transformers step down to the site distribution voltage",
+      "equipment": [
+        "power transformers"
+      ],
+      "to": [
+        "MV"
+      ]
+    },
+    {
+      "id": "MV",
+      "name": "MV switchgear distributes to data hall substations and UPS plant",
+      "equipment": [
+        "MV switchgear",
+        "busway"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "HV circuit breakers and disconnectors",
+    "power transformers",
+    "MV switchgear",
+    "protection and control (IEC 61850)",
+    "metering at the point of supply"
+  ],
+  "suppliers": [
+    {
+      "name": "ABB",
+      "product": "medium- and high-voltage switchgear, transformers"
+    },
+    {
+      "name": "Hitachi Energy",
+      "product": "transformers and substation equipment"
+    },
+    {
+      "name": "Siemens Energy",
+      "product": "substation and grid connection equipment"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "global electricity generation to supply data centres, 2024",
+      "unit": "TWh",
+      "low": 460,
+      "high": 460,
+      "year": 2024,
+      "basis": "IEA: global electricity generation to supply data centres grows from 460 TWh in 2024 to over 1000 TWh in 2030 and 1300 TWh in 2035 in the base case; data centres rise from about 1 percent of global electricity generation today to 3 percent in 2030.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Energy supply for AI, read 2026-11-14"
+      }
+    },
+    {
+      "metric": "share of additional data centre demand met by renewables over five years",
+      "unit": "%",
+      "low": 50,
+      "high": 50,
+      "year": 2025,
+      "basis": "IEA: over five years renewables meet nearly half of the additional demand, followed by gas and coal.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Energy supply for AI, read 2026-11-14"
+      }
+    }
+  ],
+  "advantages": [
+    "Allows a campus to be sized in tens to hundreds of megawatts",
+    "On-site transformation keeps distribution at a practical voltage",
+    "Dual feeds and redundant substations support concurrent maintainability"
+  ],
+  "limitations": [
+    "Interconnection queues can delay a project by years in constrained networks",
+    "Substation lead times for large power transformers are long",
+    "Step loads and harmonics need utility agreement, not just equipment"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+      "source_id": "iea-reports",
+      "note": "IEA, Energy and AI, Energy supply for AI, read 2026-11-14"
+    },
+    {
+      "url": "https://new.abb.com/medium-voltage/switchgear",
+      "note": "ABB medium-voltage switchgear overview (1-52 kV IEC, AIS vs GIS, SF6-free 6-24 kV), read 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per MW of interconnection and on-site substation capacity, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read gives a per-MW interconnect or substation cost; utility upgrade charges are project-specific.",
+      "action": "Add a per-MW cost from a published interconnection study or project disclosure.",
+      "where": [
+        {
+          "hint": "Utility interconnection study cost allocations"
+        },
+        {
+          "hint": "EPC substation contract awards"
+        }
+      ]
+    },
+    {
+      "field": "reference_plants",
+      "item": "named data-centre substation projects with voltage, capacity and country",
+      "reason_code": "not_in_sources_read",
+      "reason": "No named interconnection project was read in the sources used.",
+      "action": "Add two or three named projects with voltage, MW and source.",
+      "where": [
+        {
+          "hint": "Utility interconnection queue filings and utility press releases"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

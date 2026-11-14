@@ -3,7 +3,8 @@
   "name": "Data centre UPS systems (double-conversion, lithium, modular)",
   "aliases": [
     "uninterruptible power supply for data centres",
-    "data centre UPS"
+    "data centre UPS",
+    "Data centre UPS systems (double-conversion, lithium, flywheel)"
   ],
   "sector": "IDC",
   "category": "Power distribution",
@@ -113,7 +114,7 @@
       "note": "Liebert EXL S1 brochure (ratings, parallel scalability, lithium compatibility), read via search summary 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-12",
+  "last_reviewed": "2026-11-14",
   "gaps": [
     {
       "field": "costs",

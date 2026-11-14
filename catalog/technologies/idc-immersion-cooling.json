@@ -1,0 +1,154 @@
+{
+  "id": "idc-immersion-cooling",
+  "name": "Immersion cooling",
+  "aliases": [
+    "single-phase immersion",
+    "two-phase immersion",
+    "tank immersion cooling"
+  ],
+  "category": "Cooling",
+  "maturity": "pilot",
+  "applications": [
+    "Very high density racks where cold plates are insufficient",
+    "Edge and HPC deployments with constrained air handling",
+    "Heat reuse at higher grade"
+  ],
+  "principle": "Immersion cooling puts the server, or a sealed chassis, into a dielectric bath, so heat leaves by direct contact with liquid instead of air. Single-phase systems circulate the fluid to an external heat exchanger; two-phase systems let the fluid boil and condense on a coil. Because the whole board is wetted, density is limited by the tank and fluid rather than by a cold plate's coverage, but service procedures and fluid compatibility change completely.",
+  "process_steps": [
+    {
+      "id": "TANK",
+      "name": "Servers are immersed in dielectric fluid",
+      "equipment": [
+        "immersion tank",
+        "dielectric fluid"
+      ],
+      "to": [
+        "FLUID"
+      ]
+    },
+    {
+      "id": "FLUID",
+      "name": "Fluid absorbs heat by conduction and convection",
+      "equipment": [
+        "circulation pump"
+      ],
+      "to": [
+        "HX"
+      ]
+    },
+    {
+      "id": "HX",
+      "name": "Heat is rejected to a facility water loop or dry cooler",
+      "equipment": [
+        "heat exchanger",
+        "dry cooler"
+      ],
+      "to": [
+        "SERVICE"
+      ]
+    },
+    {
+      "id": "SERVICE",
+      "name": "Servers are drained and lifted for maintenance",
+      "equipment": [
+        "lifting rig",
+        "drip tray"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "immersion tanks",
+    "dielectric fluids",
+    "fluid circulation and heat exchangers",
+    "server lifting and drainage equipment"
+  ],
+  "suppliers": [
+    {
+      "name": "Submer",
+      "product": "immersion cooling systems"
+    },
+    {
+      "name": "GRC (Green Revolution Cooling)",
+      "product": "immersion cooling systems"
+    },
+    {
+      "name": "LiquidStack",
+      "product": "immersion and direct-to-chip cooling"
+    },
+    {
+      "name": "Asperitas",
+      "product": "immersion cooling"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "liquid-cooled infrastructure deployed by one vendor",
+      "unit": "MW",
+      "low": 500,
+      "high": 500,
+      "year": 2026,
+      "basis": "Submer home page: 500 MW+ liquid-cooled infrastructure deployed and 8 GW+ deployment-ready capacity, with 3 global R&D labs. Vendor-reported aggregate; no per-tank capacity given.",
+      "source": {
+        "url": "https://submer.com",
+        "note": "Submer Group home page (deployed capacity claims), read 2026-11-14"
+      }
+    }
+  ],
+  "advantages": [
+    "Removes the air-side limit on rack density",
+    "No fans in the tank, so IT fan power falls",
+    "Heat is available at a higher grade for reuse"
+  ],
+  "limitations": [
+    "Service and warranty implications for every server model",
+    "Fluid cost, handling and top-up are new operational disciplines",
+    "Very little independent operating data is public"
+  ],
+  "sources": [
+    {
+      "url": "https://submer.com",
+      "note": "Submer Group home page (deployed capacity claims), read 2026-11-14"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "cooling capacity per tank in kW and achievable PUE",
+      "reason_code": "not_in_sources_read",
+      "reason": "The vendor page read gives aggregate deployed capacity and a deployment-ready figure but no per-tank kW capacity or PUE.",
+      "action": "Read a product datasheet and a published deployment case with capacities.",
+      "where": [
+        {
+          "hint": "GRC, LiquidStack and Submer datasheets and case studies"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "capital cost per kW of immersion capacity and fluid top-up cost, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read prices immersion systems or fluid.",
+      "action": "Add capital and fluid cost from a vendor quote.",
+      "where": [
+        {
+          "hint": "Vendor budget quotes"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

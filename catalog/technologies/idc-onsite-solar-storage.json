@@ -1,0 +1,173 @@
+{
+  "id": "idc-onsite-solar-storage",
+  "name": "On-site solar plus battery storage for data centres",
+  "aliases": [
+    "solar plus BESS data centre",
+    "on-site generation for data centres",
+    "behind-the-meter solar"
+  ],
+  "category": "Power supply",
+  "maturity": "commercial",
+  "applications": [
+    "Offsetting grid import and emissions",
+    "Firming part of a campus load behind the meter",
+    "Reducing peak demand charges and supporting grid services"
+  ],
+  "principle": "Solar plus storage behind the meter changes the profile of a campus's grid draw without changing the load: the array produces while the sun is up, the battery shifts that energy to evening peaks and can also provide demand response. It is not a substitute for utility capacity, because a data centre load runs continuously and a solar array's capacity factor is a fraction of its nameplate - which is why the IEA sees renewables meeting only about half of the additional demand, with gas and coal behind them.",
+  "process_steps": [
+    {
+      "id": "GEN",
+      "name": "Solar array produces DC power",
+      "equipment": [
+        "PV modules",
+        "mounting structure"
+      ],
+      "to": [
+        "INV"
+      ]
+    },
+    {
+      "id": "INV",
+      "name": "Inverters convert to AC at the site distribution voltage",
+      "equipment": [
+        "inverters",
+        "transformers"
+      ],
+      "to": [
+        "BUS"
+      ]
+    },
+    {
+      "id": "BUS",
+      "name": "Site switchboard couples solar, battery and grid",
+      "equipment": [
+        "switchgear",
+        "protection"
+      ],
+      "to": [
+        "BESS"
+      ]
+    },
+    {
+      "id": "BESS",
+      "name": "Battery charges, discharges and provides grid services",
+      "equipment": [
+        "battery modules",
+        "PCS"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "PV modules and mounting",
+    "string and central inverters",
+    "battery energy storage (LFP)",
+    "power conversion system",
+    "site protection and metering"
+  ],
+  "suppliers": [
+    {
+      "name": "Sungrow",
+      "product": "solar inverters and battery storage"
+    },
+    {
+      "name": "CATL",
+      "product": "LFP battery cells and containers"
+    },
+    {
+      "name": "Tesla Energy",
+      "product": "Megapack battery storage"
+    },
+    {
+      "name": "Fluence",
+      "product": "grid-scale battery storage"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "share of additional data centre demand met by renewables over five years",
+      "unit": "%",
+      "low": 50,
+      "high": 50,
+      "year": 2025,
+      "basis": "IEA: over five years renewables meet nearly half of the additional data centre demand, followed by gas and coal; solar and wind are the renewable sources in that mix.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Energy supply for AI, read 2026-11-14"
+      }
+    }
+  ],
+  "advantages": [
+    "Reduces grid import and scope-2 emissions without changing the IT load",
+    "Battery can earn demand-response and frequency-service revenue",
+    "Deployable incrementally behind the meter"
+  ],
+  "limitations": [
+    "Solar capacity factor is far below the round-the-clock load, so it displaces energy rather than capacity",
+    "Land or roof area is the binding constraint at campus scale",
+    "Battery fire code, insurance and permitting add cost and time"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+      "source_id": "iea-reports",
+      "note": "IEA, Energy and AI, Energy supply for AI, read 2026-11-14"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "capacity factor achieved by on-site solar at a data centre and usable battery cycles per year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA page read gives the aggregate renewable share of added demand but no data-centre-specific capacity factor or cycle count.",
+      "action": "Add capacity factor and annual cycles from an operating project.",
+      "where": [
+        {
+          "hint": "Operator sustainability reports with on-site generation data"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "cost per MW of solar and per kWh of battery installed, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read prices on-site solar or storage.",
+      "action": "Add installed costs from a project disclosure.",
+      "where": [
+        {
+          "hint": "IEA and LBNL cost benchmarks"
+        },
+        {
+          "hint": "Project finance disclosures"
+        }
+      ]
+    },
+    {
+      "field": "reference_plants",
+      "item": "named data centres with on-site solar and storage, with capacity and country",
+      "reason_code": "not_in_sources_read",
+      "reason": "No named project was read.",
+      "action": "Add named projects with capacity and source.",
+      "where": [
+        {
+          "hint": "Operator press releases"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

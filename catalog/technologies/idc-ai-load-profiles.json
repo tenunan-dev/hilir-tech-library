@@ -1,0 +1,214 @@
+{
+  "id": "idc-ai-load-profiles",
+  "name": "AI-training and inference load profiles",
+  "aliases": [
+    "AI data centre load profile",
+    "GPU cluster power profile",
+    "inference load"
+  ],
+  "category": "Siting and demand",
+  "maturity": "commercial",
+  "applications": [
+    "Capacity planning and utility interconnection requests for AI campuses",
+    "Cooling and power-train sizing for accelerator halls",
+    "Load forecasting and demand-flexibility product design"
+  ],
+  "principle": "AI workloads change the shape of a data centre's electrical load rather than only its size: training runs hold a large, sustained, synchronised draw across thousands of accelerators for hours, while inference is bursty and follows user traffic. Both run on accelerated servers whose share of the load is growing several times faster than conventional servers, so the design load is set by a rack density that air cooling cannot reach.",
+  "process_steps": [
+    {
+      "id": "WORKLOAD",
+      "name": "Workload is scheduled (training job or inference traffic)",
+      "equipment": [
+        "cluster scheduler",
+        "batch queue"
+      ],
+      "to": [
+        "RACK"
+      ]
+    },
+    {
+      "id": "RACK",
+      "name": "Accelerated servers draw power at rack level",
+      "equipment": [
+        "GPU/accelerator trays",
+        "high-density rack"
+      ],
+      "to": [
+        "PDU",
+        "CDU"
+      ]
+    },
+    {
+      "id": "PDU",
+      "name": "Rack PDU and busway carry the load to the UPS and utility feed",
+      "equipment": [
+        "rack PDU",
+        "busway",
+        "UPS"
+      ],
+      "to": []
+    },
+    {
+      "id": "CDU",
+      "name": "Cooling removes the heat at the same density the rack produces it",
+      "equipment": [
+        "CDU",
+        "cold plates",
+        "CRAH"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "accelerated servers and GPU trays",
+    "high-density racks (20 kW and above)",
+    "rack PDUs rated for AI rack currents",
+    "liquid cooling distribution units"
+  ],
+  "suppliers": [
+    {
+      "name": "NVIDIA",
+      "product": "accelerator platforms that set rack power envelopes"
+    },
+    {
+      "name": "Vertiv",
+      "product": "power and cooling built around accelerated rack densities"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "data centre physical infrastructure for AI halls"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "global data centre electricity consumption, 2024",
+      "unit": "TWh",
+      "low": 415,
+      "high": 415,
+      "year": 2024,
+      "basis": "IEA: around 1.5 percent of global electricity consumption in 2024.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Executive summary, read 2026-11-14"
+      }
+    },
+    {
+      "metric": "global data centre electricity consumption, 2030 base case",
+      "unit": "TWh",
+      "low": 945,
+      "high": 945,
+      "year": 2025,
+      "basis": "IEA base case: more than doubles to around 945 TWh by 2030, slightly more than Japan's total electricity consumption today; AI is the most important driver of the growth.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Executive summary, read 2026-11-14"
+      }
+    },
+    {
+      "metric": "growth rate of data centre electricity consumption",
+      "unit": "% per year",
+      "low": 12,
+      "high": 15,
+      "year": 2025,
+      "basis": "IEA: around 12 percent per year since 2017 (more than four times the growth of total electricity demand), accelerating to around 15 percent per year over 2024-2030.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
+      }
+    },
+    {
+      "metric": "share of data centre electricity used by server equipment",
+      "unit": "% of data centre electricity",
+      "low": 60,
+      "high": 60,
+      "year": 2025,
+      "basis": "IEA split: servers around 60 percent, storage around 5 percent, networking up to 5 percent, cooling about 7 percent for efficient hyperscale centres rising above 30 percent for less efficient enterprise centres.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
+      }
+    },
+    {
+      "metric": "growth rate of accelerated-server electricity use against conventional servers",
+      "unit": "% per year",
+      "low": 9,
+      "high": 30,
+      "year": 2025,
+      "basis": "IEA: accelerated servers grow around 30 percent annually against 9 percent per year for conventional servers, and supply almost half of the net increase in data centre electricity use to 2030.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
+      }
+    }
+  ],
+  "advantages": [
+    "Frames capacity planning around the load shape, not just annual energy",
+    "Explains why rack density, not floor area, now drives power and cooling design",
+    "Gives a defensible basis for interconnection requests and demand-flexibility products"
+  ],
+  "limitations": [
+    "The IEA pages read give no training-versus-inference split of energy demand",
+    "Per-accelerator power and shipment counts are not published on the pages read",
+    "Load shape varies by operator and is rarely disclosed"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "source_id": "iea-reports",
+      "note": "IEA, Energy and AI, Executive summary, read 2026-11-14"
+    },
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+      "source_id": "iea-reports",
+      "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "training versus inference share of data centre electricity demand, with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA Energy and AI pages read state data-centre-level demand and segment shares but give no training-versus-inference split.",
+      "action": "Add a sourced split, or record that no open source disaggregates it.",
+      "where": [
+        {
+          "hint": "Hyperscaler sustainability or energy reports that disclose workload mix"
+        },
+        {
+          "hint": "Peer-reviewed measurements of inference versus training energy"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "not_in_sources_read",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read prices AI load profiles; the subject is a demand characteristic rather than a purchasable technology.",
+      "action": "Record the cost of the demand it drives (rack power, cooling, interconnection) on the linked cards instead.",
+      "where": [
+        {
+          "hint": "Interconnection study costs and utility upgrade charges"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read for this topic; the register records it as commercial without a source.",
+      "action": "Add a TRL reference or leave maturity resting on the evidence on the card.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

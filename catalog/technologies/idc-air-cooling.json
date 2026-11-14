@@ -1,0 +1,176 @@
+{
+  "id": "idc-air-cooling",
+  "name": "Air cooling (CRAH/CRAC, hot/cold aisle containment)",
+  "aliases": [
+    "CRAH",
+    "CRAC",
+    "hot and cold aisle containment",
+    "room air cooling"
+  ],
+  "category": "Cooling",
+  "maturity": "commercial",
+  "applications": [
+    "Cooling racks up to roughly 20 kW",
+    "General enterprise and colocation halls",
+    "Retrofit cooling where liquid cooling is not warranted"
+  ],
+  "principle": "Air cooling moves heat from the rack to a room coil and then to outdoor air or a chilled-water loop. Containment separates the cold supply from the hot return so the coil sees the rack outlet temperature instead of a mixed room average. The architecture stops being practical somewhere around 20 kW per rack, which is where liquid cooling enters.",
+  "process_steps": [
+    {
+      "id": "SUPPLY",
+      "name": "Cooled air is supplied into the cold aisle",
+      "equipment": [
+        "CRAH",
+        "CRAC",
+        "perforated tiles"
+      ],
+      "to": [
+        "RACK"
+      ]
+    },
+    {
+      "id": "RACK",
+      "name": "Server fans draw air through IT equipment",
+      "equipment": [
+        "servers"
+      ],
+      "to": [
+        "RETURN"
+      ]
+    },
+    {
+      "id": "RETURN",
+      "name": "Containment carries hot return air back to the coil",
+      "equipment": [
+        "containment",
+        "blanking panels"
+      ],
+      "to": [
+        "COIL"
+      ]
+    },
+    {
+      "id": "COIL",
+      "name": "Coil transfers heat to chilled water or refrigerant",
+      "equipment": [
+        "CRAH coil",
+        "chiller",
+        "condenser"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "CRAH and CRAC units",
+    "hot/cold aisle containment and blanking",
+    "chilled-water plant or DX condensers",
+    "airflow management"
+  ],
+  "suppliers": [
+    {
+      "name": "Vertiv",
+      "product": "Liebert CRAH/CRAC and in-row cooling"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "Uniflair and room cooling"
+    },
+    {
+      "name": "Rittal",
+      "product": "rack and room cooling"
+    },
+    {
+      "name": "Stulz",
+      "product": "precision air conditioning"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "practical air-cooling limit per rack",
+      "unit": "kW per rack",
+      "low": 20,
+      "high": 20,
+      "year": 2026,
+      "basis": "Vertiv article on rear-door heat exchangers: the practical limit for air cooling is around 20 kW per rack, which is where rear-door and other liquid approaches start.",
+      "source": {
+        "url": "https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling",
+        "note": "Vertiv, How rear door heat exchangers (RDHx) support high-density rack cooling, read 2026-11-14"
+      }
+    },
+    {
+      "metric": "installed share of racks below 10 kW, 2024 to 2025",
+      "unit": "% of installed racks",
+      "low": 38,
+      "high": 47,
+      "year": 2025,
+      "basis": "Vertiv figure on installed racks: racks below 10 kW fell from 47 percent in 2024 to 38 percent in 2025; 10-20 kW rose from 27 to 30 percent and 20-30 kW from 24 to 28 percent, so air-cooled densities are shrinking as a share.",
+      "source": {
+        "url": "https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling",
+        "note": "Vertiv, How rear door heat exchangers (RDHx) support high-density rack cooling, read 2026-11-14"
+      }
+    },
+    {
+      "metric": "unit cooling capacity, Vertiv Liebert DSE free-cooling system",
+      "unit": "kW",
+      "low": 50,
+      "high": 165,
+      "year": 2026,
+      "basis": "Liebert DSE product page: 50-165 kW standard range, with packaged units around 250-400 kW; water-free operation.",
+      "source": {
+        "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",
+        "note": "Vertiv Liebert DSE free-cooling system 50-165 kW product page, read 2026-11-12"
+      }
+    }
+  ],
+  "advantages": [
+    "Lowest cost per kW of cooling at low density",
+    "Simple to maintain and well understood by operators",
+    "No facility water and no liquid in the white space"
+  ],
+  "limitations": [
+    "Practical limit around 20 kW per rack",
+    "Cooling is 7-30 percent of data centre electricity, the largest parasitic load",
+    "Containment discipline decays without operational enforcement"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling",
+      "note": "Vertiv, How rear door heat exchangers (RDHx) support high-density rack cooling, read 2026-11-14"
+    },
+    {
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw",
+      "note": "Vertiv Liebert DSE free-cooling system 50-165 kW product page, read 2026-11-12"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per kW of installed CRAH capacity, with dollar year and basis",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read prices CRAH units or aisle containment.",
+      "action": "Add a cost per kW from a vendor quote or fit-out tender.",
+      "where": [
+        {
+          "hint": "Cooling vendor budget quotes"
+        },
+        {
+          "hint": "Data-centre fit-out tender schedules"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

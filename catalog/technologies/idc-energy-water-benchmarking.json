@@ -1,0 +1,194 @@
+{
+  "id": "idc-energy-water-benchmarking",
+  "name": "Data centre energy and water benchmarking (PUE/WUE)",
+  "aliases": [
+    "PUE benchmarking",
+    "WUE benchmarking",
+    "data centre efficiency reporting"
+  ],
+  "category": "Siting and demand",
+  "maturity": "commercial",
+  "applications": [
+    "Efficiency reporting and regulatory disclosure",
+    "Design target setting for new campuses",
+    "Comparing cooling architectures and operating regimes"
+  ],
+  "principle": "Power usage effectiveness divides total facility power by IT power; water usage effectiveness divides water consumption by IT energy. Both are ratio metrics, so they say nothing about how much work the IT load does, and PUE in particular is dominated by climate, age and cooling architecture rather than by operator skill. The IEA notes cooling is about 7 percent of electricity in an efficient hyperscale centre but above 30 percent in a less efficient enterprise one, which is exactly the spread PUE is meant to expose.",
+  "process_steps": [
+    {
+      "id": "METER",
+      "name": "Meter IT load and total facility load separately",
+      "equipment": [
+        "power meters",
+        "branch-circuit monitoring"
+      ],
+      "to": [
+        "CALC"
+      ]
+    },
+    {
+      "id": "CALC",
+      "name": "Compute PUE as facility power over IT power over a defined period",
+      "equipment": [
+        "DCIM",
+        "metering platform"
+      ],
+      "to": [
+        "WATER"
+      ]
+    },
+    {
+      "id": "WATER",
+      "name": "Meter water consumption and divide by IT energy for WUE",
+      "equipment": [
+        "water meters",
+        "cooling plant telemetry"
+      ],
+      "to": [
+        "REPORT"
+      ]
+    },
+    {
+      "id": "REPORT",
+      "name": "Report against the chosen protocol and boundary",
+      "equipment": [
+        "reporting tool"
+      ],
+      "to": []
+    }
+  ],
+  "key_equipment": [
+    "revenue-grade power meters on IT and facility feeders",
+    "water meters on makeup and blowdown",
+    "DCIM or metering platform with defined boundaries"
+  ],
+  "suppliers": [
+    {
+      "name": "Uptime Institute",
+      "product": "survey benchmark and PUE guidance"
+    },
+    {
+      "name": "Schneider Electric",
+      "product": "EcoStruxure metering and reporting"
+    },
+    {
+      "name": "Vertiv",
+      "product": "power and thermal telemetry"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "weighted average PUE, survey respondents, 2025",
+      "unit": "ratio",
+      "low": 1.54,
+      "high": 1.54,
+      "year": 2025,
+      "basis": "Uptime Institute 2025 survey: respondents' annual PUE had a weighted average of 1.54, and average PUE has hovered above 1.5 for years.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+        "note": "Uptime Institute Global Data Center Survey 2025 (31-page report PDF), text extracted and read 2026-11-14"
+      }
+    },
+    {
+      "metric": "average PUE, facilities commissioned within about five years",
+      "unit": "ratio",
+      "low": 1.48,
+      "high": 1.48,
+      "year": 2025,
+      "basis": "Uptime Institute 2025 survey: facilities commissioned from around early 2020 achieved an average PUE of 1.48.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+        "note": "Uptime Institute Global Data Center Survey 2025 (31-page report PDF), text extracted and read 2026-11-14"
+      }
+    },
+    {
+      "metric": "average PUE, facilities of 20 MW and above",
+      "unit": "ratio",
+      "low": 1.44,
+      "high": 1.44,
+      "year": 2025,
+      "basis": "Uptime Institute 2025 survey: larger data centres of 20 MW and above averaged 1.44 globally; facilities in high latitudes in North America and Europe have PUEs of 1.3 or better.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+        "note": "Uptime Institute Global Data Center Survey 2025 (31-page report PDF), text extracted and read 2026-11-14"
+      }
+    },
+    {
+      "metric": "cooling share of data centre electricity",
+      "unit": "% of data centre electricity",
+      "low": 7,
+      "high": 30,
+      "year": 2025,
+      "basis": "IEA: cooling is about 7 percent for efficient hyperscale centres and over 30 percent for less efficient enterprise centres.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+        "source_id": "iea-reports",
+        "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
+      }
+    }
+  ],
+  "advantages": [
+    "Common language for design targets, regulation and utility negotiation",
+    "Cheap to instrument relative to the savings it can expose",
+    "Exposes cooling-architecture spread that annual energy totals hide"
+  ],
+  "limitations": [
+    "PUE is a ratio to IT load and rewards load growth as much as efficiency",
+    "Values are not comparable across boundaries, climates and vintage without the protocol stated",
+    "Neither metric measures useful compute delivered per kWh"
+  ],
+  "sources": [
+    {
+      "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+      "note": "Uptime Institute Global Data Center Survey 2025 (31-page report PDF), text extracted and read 2026-11-14"
+    },
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+      "source_id": "iea-reports",
+      "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
+    }
+  ],
+  "gaps": [
+    {
+      "field": "performance",
+      "item": "water usage effectiveness (WUE) benchmark, in litres per kWh of IT energy",
+      "reason_code": "not_in_sources_read",
+      "reason": "The Uptime report read gives PUE figures but no WUE value in its text; no other source read states one.",
+      "action": "Add a sourced WUE benchmark with its boundary and cooling type.",
+      "where": [
+        {
+          "hint": "Uptime Institute WUE reporting guidance"
+        },
+        {
+          "hint": "Operator sustainability reports disclosing WUE"
+        }
+      ]
+    },
+    {
+      "field": "costs",
+      "item": "cost of metering and benchmarking instrumentation per MW of IT load",
+      "reason_code": "not_in_sources_read",
+      "reason": "No source read prices metering and DCIM at data-centre scale.",
+      "action": "Add a metering cost per MW from a vendor or project quote.",
+      "where": [
+        {
+          "hint": "Metering and DCIM vendor quotes"
+        }
+      ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No TRL table was read; measurement practice is mature but no source read states a level.",
+      "action": "Add a TRL reference.",
+      "where": [
+        {
+          "hint": "IEA Energy Technology Guide"
+        }
+      ]
+    }
+  ],
+  "sector": "IDC",
+  "last_reviewed": "2026-11-14"
+}

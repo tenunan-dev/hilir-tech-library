@@ -664,7 +664,7 @@ batch of this directory.
 - **DIG** (1): Yokogawa
 - **ELE** (8): Eaton Crouse-Hinds; Grid System Operator (GSO); Hyundai Electric; nVent; nVent ERICO; Prysmian; Siemens PTI; Tenaga Nasional Berhad (TNB)
 - **HSE** (1): Flare Ventures
-- **IDC** (6): Boyd; Caterpillar; CoolIT Systems; Enel X; GridBeyond; Motivair
+- **IDC** (18): Asperitas; Boyd; Caterpillar; CoolIT Systems; Enel X; GRC (Green Revolution Cooling); GridBeyond; LiquidStack; Motivair; Munters; nVent; NVIDIA; Raritan (Legrand); Server Technology; Starline Power; Stulz; Submer; Uptime Institute
 - **INS** (1): Yokogawa
 - **REF** (1): Yokogawa
 - **WWT** (22): ADI Systems (Veolia); Aqua-Aerobic Systems; Biothane (Veolia); Cambi; CETCO; Evoqua; Flottweg; Frames Group; GHD; Gradiant; Headworks BIO; Hydro International; Kemira; Mitsubishi Chemical Aqua Solutions; Modern Water; Nitto (Hydranautics); Oasys Water; Ostara; Paques; Primozone; WesTech; Xergi
@@ -679,4 +679,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-343 of 378 cards list at least one directory vendor.
+352 of 388 cards list at least one directory vendor.
