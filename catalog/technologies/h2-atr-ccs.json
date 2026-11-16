@@ -208,6 +208,18 @@
         "note": "IEA Global Hydrogen Review 2025, Chapter 5 (page 198) and Chapter 3 (page 114)"
       },
       "project_id": "air-products-net-zero-hydrogen-complex-alberta"
+    },
+    {
+      "name": "Air Products Net-Zero Hydrogen Energy Complex, Edmonton",
+      "country": "Canada",
+      "capacity": "1,500 t/d hydrogen; about 3 Mt CO2/yr captured",
+      "status": "FID taken; delayed from the original 2024 target",
+      "source": {
+        "url": "https://majorprojects.alberta.ca/details/Air-Products-Hydrogen-Production-and-Liquefaction-Facility/4461",
+        "note": "Alberta Major Projects registry entry for the Air Products hydrogen and liquefaction facility, read 2026-11-16"
+      },
+      "project_id": "air-products-edmonton-net-zero-hydrogen",
+      "year": 2024
     }
   ],
   "sources": [
@@ -226,27 +238,8 @@
       "note": "IEA Global Hydrogen Review 2025"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "No plant was named in the sources read. Already closed in Wave 1 (Blue Point and Air Products Alberta from GHR 2025).",
-      "where": [
-        {
-          "hint": "IEA Hydrogen Production and Infrastructure Projects Database (free registration)",
-          "source_id": "iea-hydrogen-db",
-          "access": "registration"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
-    }
-  ],
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
   "trl": {
     "low": 5,
     "high": 5,

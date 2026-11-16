@@ -1,0 +1,32 @@
+{
+  "id": "nature-energy-korskro",
+  "name": "Nature Energy Korskro biogas plant",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "Denmark",
+  "status": "operating",
+  "description": "Biogas upgrading to grid-quality biomethane; some sources quote 37-41 million Nm3 for raw biogas, not upgraded output.",
+  "technologies": [
+    "h2-biogas-upgrading"
+  ],
+  "sources": [
+    {
+      "url": "https://bioenergyinternational.com/nature-energy-inaugurate-korskro-biogas-plant",
+      "note": "Bioenergy International: Korskro inaugurated May 2019, about 22 million Nm3 biomethane, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://bioenergyinternational.com/nature-energy-inaugurate-korskro-biogas-plant",
+        "note": "Bioenergy International: Korskro inaugurated May 2019, about 22 million Nm3 biomethane, read 2026-11-16"
+      },
+      "date": "2019",
+      "event": "start-up / delivery"
+    }
+  ]
+}

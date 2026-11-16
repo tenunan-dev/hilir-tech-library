@@ -1,0 +1,32 @@
+{
+  "id": "mgc-antwerpen",
+  "name": "MGC Antwerpen (EXMAR)",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Belgium (owner)",
+  "status": "operating",
+  "description": "Medium gas carrier able to run on ammonia as fuel.",
+  "technologies": [
+    "mid-lpg-ammonia-carriers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lr-supports-delivery-of-world-first-ammonia-dual-fuel-gas-carrier",
+      "note": "Lloyd's Register release on the delivery, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lr-supports-delivery-of-world-first-ammonia-dual-fuel-gas-carrier",
+        "note": "Lloyd's Register release on the delivery, read 2026-11-16"
+      },
+      "date": "2026",
+      "event": "start-up / delivery"
+    }
+  ]
+}

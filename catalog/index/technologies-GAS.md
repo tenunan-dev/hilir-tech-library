@@ -132,14 +132,16 @@ flowchart LR
 - power saving of latest Wärtsilä reliquefaction generation: 15 %; Wärtsilä: condensing BOG at higher pressure and temperature with early removal of compression heat. [source](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system)
 - operating experience of Laby-GI compressors for MAN ME-GI engines: 1e+06 operating hours; Burckhardt claim. [source](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article)
 
+**Reference plants:**
+- LNG carrier Quest Kirishima (NYK), Japan: 174,000 m3 with reliquefaction system; delivered December 2024. [source](https://www.nyk.com/english/news/2024/20241202_02.html)
+
 **Missing inputs:**
 - kWh per tonne reliquefied (performance): No source read gives it. Web-checked 2026-10-28; specific-power figures sit in vendor (Wartsila/Hamworthy/Mitsubishi) brochures not open. Where: Wärtsilä and Burckhardt brochures (open). Next: Add specific energy from a vendor datasheet.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named installation added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system), [2](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article), [3](https://www.aidic.it/cet/21/88/153.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system), [2](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article), [3](https://www.aidic.it/cet/21/88/153.pdf). Last reviewed 2026-11-16.
 
 ## Carbon capture on LNG plants (acid gas reinjection)
 <a id="gas-lng-acid-gas-reinjection"></a>
@@ -168,13 +170,13 @@ flowchart LR
 
 **Reference plants:**
 - Gorgon CO2 Injection, Barrow Island, AU: 3.4 to 4 Mtpa; started up per the August 2019 article after delays from March 2017. [source](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project)
+- Snohvit / Hammerfest LNG acid gas reinjection, Norway: 750,000 t CO2/yr reinjected (Statoil-era material says 700,000); operating since 2008. [source](https://www.equinor.com/energy/snohvit)
 
 **Missing inputs:**
-- operating record since 2019 (reference_plants): The article is from start-up. Global CCS Institute 2026 database lists Gorgon as operating since 2019 (4 Mtpa capture capacity, deep saline) but states no Gorgon-specific actual injected tonnes per year. Where: Chevron Australia reports (open); Global CCS Institute facility database (catalog: global-ccs-institute, open). Next: Add actual injected tonnes per year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28; Gorgon operating record recorded in Wave 2). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project), [2](https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project), [2](https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf). Last reviewed 2026-11-16.
 
 ## Cascade liquefaction
 <a id="lng-optimized-cascade"></a>
@@ -238,11 +240,13 @@ flowchart LR
 - LNG trucks in China: 350000 vehicles; end of 2017. [source](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf)
 - natural-gas vehicle fleet and refuelling stations: 23-29 million NGVs worldwide (US DOE AFDC: about 23 million; 2026 industry counts: more than 29 million CNG vehicles with over 39,000 public CNG stations); US: more than 175,000 vehicles, 1,385 CNG plus 81 LNG stations (2026); US DOE Alternative Fuels Data Center: "more than 175,000 vehicles in the United States and roughly 23 million vehicles worldwide"; businessresearchinsights (Sep 2026): more than 29 million CNG vehicles, over 39,000 public CNG stations; transportproject.org (15 Dec 2025): 1,385 US CNG + 81 LNG stations. [source](https://afdc.energy.gov/vehicles/natural-gas)
 
+**Reference plants:**
+- Rolande CNG/LNG station, Ulm, Germany: daily capacity for up to 150 vehicles; opened 2020. [source](https://www.rolande.eu/en/rolande-opens-filling-stations-in-ulm)
+
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-CNG facilities' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: US station costs (fast-fill about USD 400k; large stations USD 0.6-1.7 m) exist in industry PDFs but without a citable primary; named plants n/a. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; station counts recorded in performance. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
 Sources: [1](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf), [2](https://afdc.energy.gov/vehicles/natural-gas), [3](https://en.wikipedia.org/wiki/Natural_gas_vehicle). Last reviewed 2026-11-16.
 
@@ -606,14 +610,16 @@ flowchart LR
 - largest single open rack vaporiser: 200-250 MMSCFD; KBR authors; ORV unusable in seawater below 42 degF. [source](https://www.pumpindustry.com.au/lng-receiving-terminals)
 - largest single submerged combustion vaporiser: 150 MMSCFD; KBR authors; burns send-out gas. [source](https://www.pumpindustry.com.au/lng-receiving-terminals)
 
+**Reference plants:**
+- Deutsche Ostsee LNG terminal, Lubmin (FSRU), Germany: 5 bcm/yr; commissioned 2023. [source](https://totalenergies.com/newsroom/commissioning-floating-lng-regasification-unit-delivered-totalenergies-lubmin/?lang=eng)
+
 **Missing inputs:**
 - fuel gas percentage and cold-energy use (performance): The article gives no percentage figures. Web-checked 2026-10-28: SCV fuel-gas percentages (~0.01-0.02% class) circulate in vendor material; no verifiable open table found. Where: GIIGNL handbook and terminal operator documents (catalog: giignl, open). Next: Add fuel use and cold-energy recovery options.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable terminal added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.pumpindustry.com.au/lng-receiving-terminals). Last reviewed 2026-10-28.
+Sources: [1](https://www.pumpindustry.com.au/lng-receiving-terminals). Last reviewed 2026-11-16.
 
 ## Liquid redox sulfur recovery (LO-CAT)
 <a id="gas-liquid-redox-lo-cat"></a>
@@ -705,12 +711,14 @@ flowchart LR
 **Performance:**
 - mercury specification for LNG: up to 10 ng/Nm3; Axens; matches the quantification limit of current analysers; raw gas ranges from undetected to 300 µg/Nm3. [source](https://blog.axens.net/how-to-remove-mercury-from-extracted-natural-gas)
 
+**Reference plants:**
+- Ichthys LNG, Australia: 9.3 Mt/yr LNG; mercury removal unit capacity not itemised; first LNG July 2018. [source](https://www.inpex.com.au/projects/ichthys-lng)
+
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; vendor quotes only. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Web-checked 2026-10-28; ubiquitous unit type. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
-Sources: [1](https://blog.axens.net/how-to-remove-mercury-from-extracted-natural-gas). Last reviewed 2026-10-28.
+Sources: [1](https://blog.axens.net/how-to-remove-mercury-from-extracted-natural-gas). Last reviewed 2026-11-16.
 
 ## Mixed fluid cascade
 <a id="lng-mixed-fluid-cascade"></a>
@@ -768,12 +776,14 @@ flowchart LR
 **Performance:**
 - water content after molecular sieve dehydration for LNG: up to 0.5 ppmv H2O; NETL LNG pretreatment assumption (below 0.5 ppmv). [source](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf)
 
+**Reference plants:**
+- Gorgon LNG (three trains), Australia: 15.6 Mt/yr LNG; dehydration unit capacity not itemised; first LNG 2016. [source](https://australia.chevron.com/what-we-do/gorgon-project)
+
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; vendor quotes only. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Web-checked 2026-10-28; ubiquitous unit type. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
-Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-11-16.
 
 ## NGL fractionation and LPG recovery
 <a id="gas-ngl-fractionation"></a>
@@ -986,12 +996,14 @@ flowchart LR
 - SmartSulf sub-dewpoint recovery without tail gas unit (Axens): 99.5-99.9 %; base SmartSulf more than 99.5%; with polishing up to 99.9%+. [source](https://www.axens.net/markets/natural-gas/sulfur-recovery)
 - Sultimate tail gas treatment recovery (Axens): 99.9 %; amine-based tail gas treatment, typically 99.9%+. [source](https://www.axens.net/markets/natural-gas/sulfur-recovery)
 
+**Reference plants:**
+- Shah sour gas plant (Al Hosn / ADNOC Sour Gas), United Arab Emirates: 9,900 t/day sulfur granules (Fluor states 9,200 t/day); opened April 2016. [source](https://www.ogj.com/refining-processing/article/17251141/adnoc-opens-shah-sour-gas-plant)
+
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; SRU costs are vendor-quoted. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Web-checked 2026-10-28; ubiquitous unit type. Where: GIIGNL annual report: LNG plants and terminals by country (private copy only) (catalog: giignl, open); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
 
-Sources: [1](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf), [2](https://www.bakerhughes.com/acid-gas-treatment-and-sulfur-recovery), [3](https://www.axens.net/markets/natural-gas/sulfur-recovery). Last reviewed 2026-10-28.
+Sources: [1](https://energy-resources.basf.com/dam/jcr:46d84926-60eb-3d04-bded-8a1571daa961/basf/energy-resources/download-center-sheets/SRU_Tailgas_Treatment_Brochure.pdf), [2](https://www.bakerhughes.com/acid-gas-treatment-and-sulfur-recovery), [3](https://www.axens.net/markets/natural-gas/sulfur-recovery). Last reviewed 2026-11-16.
 
 ## Turbo-expander NGL recovery (GSP, RSV processes)
 <a id="gas-turboexpander-ngl"></a>

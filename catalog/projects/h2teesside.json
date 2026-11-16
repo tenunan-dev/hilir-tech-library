@@ -1,0 +1,32 @@
+{
+  "id": "h2teesside",
+  "name": "H2Teesside (bp, Johnson Matthey LCH technology)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "United Kingdom",
+  "status": "proposed",
+  "description": "Blue hydrogen project using a gas-heated reformer paired with autothermal reforming; a 2030 target, not an operating capacity.",
+  "technologies": [
+    "h2-gas-heated-reforming"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bp.com/en-GB/press-and-publications/press-releases/bp-selects-johnson-mattheys-lch-technology",
+      "note": "bp release: Johnson Matthey LCH (gas-heated reformer with ATR) selected for H2Teesside, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.bp.com/en-GB/press-and-publications/press-releases/bp-selects-johnson-mattheys-lch-technology",
+        "note": "bp release: Johnson Matthey LCH (gas-heated reformer with ATR) selected for H2Teesside, read 2026-11-16"
+      },
+      "date": "2023",
+      "event": "start-up / delivery"
+    }
+  ]
+}

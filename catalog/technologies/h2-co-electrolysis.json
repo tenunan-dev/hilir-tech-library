@@ -80,7 +80,7 @@
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Sunfire SOEC funding; technology readiness figures"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -120,19 +120,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -144,6 +131,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sunfire SynLink co-electrolysis module",
+      "country": "Germany",
+      "capacity": "150 kW SOEC module",
+      "status": "commissioned 2023",
+      "source": {
+        "url": "https://h2-tech.com/news/2023/02-2023/sunfire-successfully-commissions-high-temperature-electrolyzer",
+        "note": "H2 Tech: Sunfire commissioned the high-temperature co-electrolysis module, 150 kW, read 2026-11-16"
+      },
+      "project_id": "sunfire-synlink-co-electrolysis",
+      "year": 2023
     }
   ]
 }

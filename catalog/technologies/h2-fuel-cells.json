@@ -131,20 +131,20 @@
       }
     }
   ],
-  "last_reviewed": "2026-10-29",
-  "gaps": [
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; HD fuel-cell system cost already recorded from DOE records in Wave 1.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
+      "name": "SK Eternix / Bloom Energy solid-oxide fuel cell installation",
+      "country": "South Korea",
+      "capacity": "80 MW",
+      "status": "announced November 2024",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-announces-worlds-largest-fuel-cell-installation-in-history",
+        "note": "Bloom Energy release: 80 MW SOFC installation with SK Eternix, read 2026-11-16"
+      },
+      "project_id": "sk-eternix-bloom-fuel-cell",
+      "year": 2024
     }
   ]
 }

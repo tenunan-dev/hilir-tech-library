@@ -101,7 +101,7 @@
       "note": "Wikipedia: Hydrogen compressor — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -116,19 +116,20 @@
         }
       ],
       "action": "Add cost and kWh/kg."
-    },
+    }
+  ],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
+      "name": "Daxing hydrogen refuelling station (Howden compressors)",
+      "country": "China",
+      "capacity": "4.8 t/d production; refuels up to 600 vehicles/day",
+      "status": "2021",
+      "source": {
+        "url": "https://h2-tech.com/news/2021/08-2021/howden-supplies-compressors-for-large-scale-h2-refueling-station-in-china",
+        "note": "H2 Tech: Howden compressors for the Daxing station, 4.8 t/d, read 2026-11-16"
+      },
+      "project_id": "daxing-hydrogen-refuelling-station",
+      "year": 2021
     }
   ]
 }

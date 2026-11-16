@@ -1,0 +1,32 @@
+{
+  "id": "islay-eth-pip-tieback",
+  "name": "Islay electrically trace-heated pipe-in-pipe tieback (Total E&P UK)",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "United Kingdom",
+  "status": "operating",
+  "description": "Electrically trace-heated pipe-in-pipe flowline tieback.",
+  "technologies": [
+    "mid-heated-pipe-in-pipe-flowlines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.offshore-mag.com/subsea/article/16760226/subsea-innovations-make-complex-islay-tieback-possible",
+      "note": "Offshore magazine: world's first reeled electrically trace-heated pipe-in-pipe, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760226/subsea-innovations-make-complex-islay-tieback-possible",
+        "note": "Offshore magazine: world's first reeled electrically trace-heated pipe-in-pipe, read 2026-11-16"
+      },
+      "date": "2011",
+      "event": "start-up / delivery"
+    }
+  ]
+}

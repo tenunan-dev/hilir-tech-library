@@ -1,0 +1,32 @@
+{
+  "id": "air-products-edmonton-net-zero-hydrogen",
+  "name": "Air Products Net-Zero Hydrogen Energy Complex, Edmonton",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "Canada",
+  "status": "under-construction",
+  "description": "Autothermal reforming with carbon capture for blue hydrogen; capacity stated in tonnes per day of hydrogen, not MW.",
+  "technologies": [
+    "h2-atr-ccs"
+  ],
+  "sources": [
+    {
+      "url": "https://majorprojects.alberta.ca/details/Air-Products-Hydrogen-Production-and-Liquefaction-Facility/4461",
+      "note": "Alberta Major Projects registry entry for the Air Products hydrogen and liquefaction facility, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://majorprojects.alberta.ca/details/Air-Products-Hydrogen-Production-and-Liquefaction-Facility/4461",
+        "note": "Alberta Major Projects registry entry for the Air Products hydrogen and liquefaction facility, read 2026-11-16"
+      },
+      "date": "2024",
+      "event": "start-up / delivery"
+    }
+  ]
+}

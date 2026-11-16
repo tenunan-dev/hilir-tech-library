@@ -1,0 +1,32 @@
+{
+  "id": "gorgon-lng",
+  "name": "Gorgon LNG (three trains)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "Australia",
+  "status": "operating",
+  "description": "LNG trains with molecular sieve dehydration as train pretreatment.",
+  "technologies": [
+    "gas-dehydration"
+  ],
+  "sources": [
+    {
+      "url": "https://australia.chevron.com/what-we-do/gorgon-project",
+      "note": "Chevron Australia Gorgon project page, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://australia.chevron.com/what-we-do/gorgon-project",
+        "note": "Chevron Australia Gorgon project page, read 2026-11-16"
+      },
+      "date": "2016",
+      "event": "start-up / delivery"
+    }
+  ]
+}

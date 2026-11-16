@@ -202,21 +202,8 @@
       "note": "Wikipedia: Combined-cycle power plant — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; AEO2026 cost tables (already recorded) name classes, not plants; no single named reference added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",
@@ -230,6 +217,20 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Keadby 2 CCGT (SSE Thermal)",
+      "country": "United Kingdom",
+      "capacity": "893 MW CCGT (N2 configuration with HRSG)",
+      "status": "commercial operation March 2023",
+      "source": {
+        "url": "https://www.ssethermal.com/flexible-generation/operational/keadby-2",
+        "note": "SSE Thermal project page: 893 MW, commercial operation March 2023, read 2026-11-16"
+      },
+      "project_id": "keadby-2-ccgt",
+      "year": 2023
     }
   ]
 }

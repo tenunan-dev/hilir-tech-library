@@ -136,19 +136,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named pilot page found.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -169,5 +156,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Molten carbonates fuel cell' TRL 2025 - MCFC is the TRL 9 fuel cell; this card is its capture duty; read 2026-11-16"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "ExxonMobil-FuelCell Energy carbonate fuel cell pilot, Rotterdam",
+      "country": "Netherlands",
+      "capacity": "not disclosed; about 90% of flue-gas CO2 captured",
+      "status": "starting 2026",
+      "source": {
+        "url": "http://corporate.exxonmobil.com/locations/european-region/european-newsroom/carbon-capture-technology-field-testing-rotterdam",
+        "note": "ExxonMobil newsroom on the Rotterdam field test, read 2026-11-16"
+      },
+      "project_id": "exxonmobil-fuelcell-rotterdam-pilot",
+      "year": 2026
+    }
+  ]
 }

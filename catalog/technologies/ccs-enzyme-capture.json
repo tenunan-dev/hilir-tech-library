@@ -69,7 +69,7 @@
       "note": "Digital Refining, Bluenzyme sustainable CO2 capture solution from Saipem"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -113,19 +113,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -151,6 +138,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "CO2 Solutions (now Saipem) enzyme capture unit, Resolute Saint-Felicien mill",
+      "country": "Canada",
+      "capacity": "30 t/day",
+      "status": "commissioning 2019",
+      "source": {
+        "url": "https://www.newswire.ca/news-releases/co2-solutions-begins-commissioning-of-its-carbon-capture-unit-at-the-resolute-pulp-mill-in-saint-felicien-quebec-840933841.html",
+        "note": "Newswire release: commissioning of the 30 tpd enzyme capture unit, read 2026-11-16"
+      },
+      "project_id": "resolute-saint-felicien-enzyme-capture",
+      "year": 2019
     }
   ]
 }

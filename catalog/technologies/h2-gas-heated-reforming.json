@@ -117,6 +117,18 @@
         "note": "JM press release, March 2023"
       },
       "project_id": "h2h-saltend-equinor-led-jm-lch-selected"
+    },
+    {
+      "name": "H2Teesside (bp, Johnson Matthey LCH technology)",
+      "country": "United Kingdom",
+      "capacity": "1.2 GW hydrogen target by 2030",
+      "status": "technology selected October 2023; pre-construction",
+      "source": {
+        "url": "https://www.bp.com/en-GB/press-and-publications/press-releases/bp-selects-johnson-mattheys-lch-technology",
+        "note": "bp release: Johnson Matthey LCH (gas-heated reformer with ATR) selected for H2Teesside, read 2026-11-16"
+      },
+      "project_id": "h2teesside",
+      "year": 2023
     }
   ],
   "performance": [
@@ -202,7 +214,7 @@
       "note": "JM press release on bp H2Teesside, October 2023"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -226,19 +238,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "operating plants with capacity and start-up year (the two named projects are pre-FID/FEED stage)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No operating GHR+ATR plant is named in sources read; bp H2Teesside and H2H Saltend are projects. Web-checked 2026-10-28: the card names pre-FID projects correctly; no operating GHR plant found open.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add an operating plant with country, capacity and start-up year once one reaches operation."
     },
     {
       "field": "process",

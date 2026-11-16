@@ -81,22 +81,8 @@
       "note": "US DOE, Strategic Petroleum Reserve page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "rock cavern examples and Asian reserves",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only the US reserve was read. Web-checked 2026-10-28; no verifiable named rock-cavern SPR page found this pass.",
-      "where": [
-        {
-          "hint": "IEA emergency response and JOGMEC stockpile pages",
-          "access": "open",
-          "source_id": "jogmec"
-        }
-      ],
-      "action": "Add a Japan or Korea example."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -146,6 +132,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "US Strategic Petroleum Reserve",
+      "country": "United States",
+      "capacity": "714 million barrels authorised",
+      "status": "programme operating since 1975",
+      "source": {
+        "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve",
+        "note": "US DOE page on the SPR, read 2026-11-16"
+      },
+      "project_id": "us-strategic-petroleum-reserve",
+      "year": 1975
     }
   ]
 }

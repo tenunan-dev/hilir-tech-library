@@ -194,6 +194,18 @@
         "note": "Turboden homepage, read 26 October 2026"
       },
       "project_id": "fervo-energy-geothermal-order"
+    },
+    {
+      "name": "Velika Ciglena geothermal ORC (Turboden)",
+      "country": "Croatia",
+      "capacity": "17.5 MWe gross (one engineering page quotes 10 MWe net)",
+      "status": "commissioned December 2018",
+      "source": {
+        "url": "https://www.turboden.com/media/press/504/turboden-completed-the-commissioning-of-the-175-mwe-velika-ciglena-geothermal-plant",
+        "note": "Turboden release: 17.5 MWe Velika Ciglena ORC commissioned Dec 2018, read 2026-11-16"
+      },
+      "project_id": "velika-ciglena-geothermal-orc",
+      "year": 2018
     }
   ],
   "advantages": [
@@ -265,19 +277,6 @@
         }
       ],
       "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "modular ORC installation in Southeast Asia",
-      "reason_code": "not_in_sources_read",
-      "reason": "References read are European and North American. Web-checked 2026-10-28 (Indonesian geothermal ORC search hit an MCP error; no verifiable named SEA ORC package found on open pages before the error).",
-      "where": [
-        {
-          "hint": "Turboden and Exergy reference lists: Indonesian geothermal fields are their natural market",
-          "access": "open"
-        }
-      ],
-      "action": "Add a Southeast Asian (ideally Indonesian geothermal) reference with capacity and year."
     },
     {
       "field": "process",

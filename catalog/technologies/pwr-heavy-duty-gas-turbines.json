@@ -190,7 +190,7 @@
       "note": "Wikipedia: Gas turbine — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -209,19 +209,20 @@
         }
       ],
       "action": "Add an open cost figure, for example from an EIA or NREL cost study."
-    },
+    }
+  ],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; H/J-class references exist in OEM case studies behind portal pages; no verifiable open page found (osti corpus checked 2026-10-28, abstracts only).",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
+      "name": "Hamriyah Independent Power Plant (3 x GE 9HA.01)",
+      "country": "United Arab Emirates",
+      "capacity": "1.8 GW",
+      "status": "commercial operation October 2023",
+      "source": {
+        "url": "https://www.gevernova.com/news/press-releases/sewa-shipco-ge-vernova-announce-commercial-operations-of-hamriyah-ipp-meas-most",
+        "note": "GE Vernova release: Hamriyah IPP commercial operations, 1.8 GW, three 9HA.01 units, read 2026-11-16"
+      },
+      "project_id": "hamriyah-ipp",
+      "year": 2023
     }
   ]
 }

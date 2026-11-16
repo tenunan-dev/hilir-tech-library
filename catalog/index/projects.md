@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-241 project records (one per named project or plant, schema `schema/project.schema.json`).
+293 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -9,6 +9,11 @@ Seeded from the technology cards' reference plants; every fact cites the page it
 Status: **FID** | Country: MY
 3.3 Mtpa
 Technologies: ccs-depleted-field-storage
+
+### ExxonMobil-FuelCell Energy carbonate fuel cell pilot, Rotterdam (exxonmobil-fuelcell-rotterdam-pilot)
+Status: **commissioning** | Country: Netherlands
+MCFC capture pilot; no open source states a MW or t/day capacity, so none is recorded.
+Technologies: ccs-molten-carbonate-fuel-cell-capture
 
 ### ADM Columbus (adm-columbus)
 Status: **operating** | Country: US
@@ -19,6 +24,11 @@ Technologies: ccs-beccs
 Status: **operating** | Country: US
 1 Mtpa CO2 capture (biomass / ethanol, deep saline formation storage)
 Technologies: ccs-beccs
+
+### Aquistore measurement, monitoring and verification programme (aquistore-mmv)
+Status: **operating** | Country: Canada
+Dedicated MMV programme at a deep saline storage site.
+Technologies: ccs-mmv
 
 ### BioCirc Vesthimmerland Biogas Plant (biocirc-vesthimmerland-biogas-plant)
 Status: **operating** | Country: DK
@@ -55,6 +65,16 @@ Status: **operating** | Country: DE
 450 t/day clinker; designed by thyssenkrupp Polysius; over EUR 120 million, no public funding
 Technologies: ccs-oxyfuel-cement
 
+### CHEERS chemical looping combustion pilot (cheers-clc-pilot)
+Status: **operating** | Country: China
+Chemical looping combustion demonstration; the host country is inferred from the described configuration and funding, so treat it as provisional.
+Technologies: ccs-chemical-looping-combustion
+
+### CO2 Solutions (now Saipem) enzyme capture unit, Resolute Saint-Felicien mill (resolute-saint-felicien-enzyme-capture)
+Status: **operating** | Country: Canada
+Carbonic anhydrase enzyme-catalysed capture at a pulp mill.
+Technologies: ccs-enzyme-capture
+
 ### Colleferro (IT) and Retznei (AT) industrial-scale test conversions (colleferro-it-and-retznei-at-industrial-scale-test-conversions)
 Status: **operating** | Country: XX
 industrial scale; test phase about EUR 80 million
@@ -64,6 +84,16 @@ Technologies: ccs-oxyfuel-cement
 Status: **operating** | Country: US
 0.16 Mtpa CO2 capture (biomass / ethanol, enhanced oil recovery)
 Technologies: ccs-beccs
+
+### Covestro Dream Production CO2-polyol plant, Dormagen (covestro-dream-production)
+Status: **operating** | Country: Germany
+Industrial-scale use of CO2 as a feedstock for polyols; urea route is not covered by this project.
+Technologies: ccs-co2-to-urea-polymers
+
+### DMX demonstrator at ArcelorMittal Dunkirk (dmx-dunkirk-demonstrator)
+Status: **operating** | Country: France
+Phase-change solvent capture demonstration on a steel plant.
+Technologies: ccs-emerging-solvents-electrochemical
 
 ### Exomad Green biochar plants, Concepcion and Guarayos, Bolivia (exomad-green-biochar-plants-concepcion-and-guarayos-bolivia)
 Status: **operating** | Country: BO
@@ -90,10 +120,20 @@ Status: **operating** | Country: AU
 about 2,500 t CO2/yr into about 10,000 t of carbonate materials; first-of-its-kind demonstration fed from Orica emissions
 Technologies: ccs-ex-situ-mineral-carbonation
 
+### Mission Zero direct air capture at O.C.O Technology (mission-zero-oco-technology)
+Status: **operating** | Country: United Kingdom
+Small direct air capture deployment using an electrochemical regeneration route.
+Technologies: ccs-electro-swing-moisture-swing-dac
+
 ### Northern Lights CO2 transport and storage, Norway (Equinor/Shell/TotalEnergies) (northern-lights-co2-transport-and-storage-norway-equinor-shell-totalener)
 Status: **operating** | Country: NO
 world's first merchant CO2 transport and storage: Phase 1 up to 1.5 Mtpa (operational 2024, first injection August 2025); March 2025 FID on a USD 714 m expansion for 900 kt/yr biogenic CO2 over 15 years; Phase 2 to lift capacity to at least 5 Mtpa from 2028
-Technologies: ccs-saline-aquifer-storage
+Technologies: ccs-saline-aquifer-storage, ccs-well-integrity-cements
+
+### OCOchem Carbon FluX electrolyser pilot (ocochem-carbon-flux-pilot)
+Status: **operating** | Country: United States
+Pilot converting CO2 and water to formate; the card covers CO, formic acid and ethylene routes.
+Technologies: ccs-co2-electroreduction
 
 ### Petra Nova, W.A. Parish Unit 8 (NRG) (petra-nova-w-a-parish-unit-8-nrg)
 Status: **operating** | Country: US
@@ -108,7 +148,7 @@ Technologies: ccs-allam-cycle
 ### Quest, Scotford upgrader (Shell) (quest-scotford-upgrader-shell)
 Status: **operating** | Country: CA
 1 Mt/yr nameplate; about 80% of CO2 from the hydrogen units
-Technologies: ccs-syngas-chemical-solvent
+Technologies: ccs-syngas-chemical-solvent, ccs-co2-compression-dehydration
 
 ### Sleipner CO2 storage, Utsira Formation, Norwegian North Sea (Equinor) (sleipner-co2-storage-utsira-formation-norwegian-north-sea-equinor)
 Status: **operating** | Country: NO
@@ -218,6 +258,11 @@ Status: **operating** | Country: AU
 1 train, 3.7 Mtpa
 Technologies: lng-optimized-cascade
 
+### Deutsche Ostsee LNG terminal, Lubmin (FSRU) (lubmin-fsru-deutsche-ostsee)
+Status: **operating** | Country: Germany
+Floating storage and regasification unit supplying the German grid.
+Technologies: gas-lng-regasification
+
 ### Freeport LNG, Texas (electric-motor-driven refrigeration compressors) (freeport-lng-texas-electric-motor-driven-refrigeration-compressors)
 Status: **operating** | Country: US
 three trains equipped with the largest electric motor-powered refrigeration compressors in the US; Train 1 commercial operation December 2019
@@ -233,15 +278,30 @@ Status: **operating** | Country: AU
 3.4 to 4 Mtpa
 Technologies: gas-lng-acid-gas-reinjection
 
+### Gorgon LNG (three trains) (gorgon-lng)
+Status: **operating** | Country: Australia
+LNG trains with molecular sieve dehydration as train pretreatment.
+Technologies: gas-dehydration
+
 ### Hammerfest LNG (Snohvit), Norway (Equinor) - all-electric liquefaction (hammerfest-lng-snohvit-norway-equinor-all-electric-liquefaction)
 Status: **operating** | Country: NO
 world-scale LNG plant in which, for the first time, all main refrigeration compressors are electrically driven; Equinor investing about USD 1.3 bn to grid-connect and further electrify the plant
-Technologies: gas-electric-drive-lng
+Technologies: gas-electric-drive-lng, gas-lng-acid-gas-reinjection
 
 ### Hammerfest LNG, Melkøya (hammerfest-lng-melk-ya)
 Status: **operating** | Country: NO
 4.3 Mtpa; all main compressors electric
 Technologies: lng-mixed-fluid-cascade
+
+### Ichthys LNG (ichthys-lng)
+Status: **operating** | Country: Australia
+LNG plant with gas-phase mercury removal units ahead of acid gas removal.
+Technologies: gas-mercury-removal
+
+### LNG carrier Quest Kirishima (NYK) (quest-kirishima-lng-carrier)
+Status: **operating** | Country: Japan
+LNGC with an on-board boil-off reliquefaction system.
+Technologies: gas-boil-off-reliquefaction
 
 ### Mont Belvieu NGL complex, Texas (Energy Transfer and others) (mont-belvieu-ngl-complex-texas-energy-transfer-and-others)
 Status: **operating** | Country: US
@@ -283,6 +343,11 @@ Status: **operating** | Country: QA
 14 trains on AP-C3MR or AP-X; AP-X trains 7.8 Mtpa each
 Technologies: lng-c3mr-apx
 
+### Rolande CNG/LNG station, Ulm (rolande-ulm-cng-lng-station)
+Status: **operating** | Country: Germany
+Public CNG/LNG refuelling station.
+Technologies: gas-natural-gas-vehicle-fuel
+
 ### Sabine Pass Liquefaction, Louisiana (sabine-pass-liquefaction-louisiana)
 Status: **operating** | Country: US
 6 trains, 30.0 Mtpa
@@ -297,6 +362,11 @@ Technologies: lng-dmr
 Status: **operating** | Country: RU
 two 4.8 Mtpa dual-mixed-refrigerant trains (9.6 Mtpa design; production 10.3 Mt in 2025), air-cooled design, first LNG February 2009; a third train is still planned
 Technologies: lng-dmr
+
+### Shah sour gas plant (Al Hosn / ADNOC Sour Gas) (shah-sour-gas-plant)
+Status: **operating** | Country: United Arab Emirates
+Large sour gas plant with Claus-type sulfur recovery; several figures circulate for the granule output.
+Technologies: gas-sulfur-recovery
 
 ### Shell Prelude FLNG (shell-prelude-flng)
 Status: **operating** | Country: AU
@@ -414,6 +484,11 @@ Status: **FID** | Country: US
 1.4 Mtpa low-emissions ammonia via autothermal reforming; about 2 Mtpa CO2 captured (about 95% of plant emissions)
 Technologies: h2-atr-ccs
 
+### Enapter AEM Nexus 500 at Simon Fraser University (enapter-aem-nexus-sfu)
+Status: **commissioning** | Country: Canada
+Anion exchange membrane electrolyser at a university hydrogen hub; commissioning, not yet an operating reference.
+Technologies: h2-aem-electrolysis
+
 ### AHEAD Brunei to Kawasaki hydrogen supply chain (ahead-brunei-to-kawasaki-hydrogen-supply-chain)
 Status: **operating** | Country: BN
 up to 210 t/yr hydrogen as MCH
@@ -424,25 +499,70 @@ Status: **operating** | Country: DE
 6 MW power-to-methane plant using renewable electricity, water and CO2 from a nearby biogas plant; opened June 2013, the world's largest power-to-gas facility at the time
 Technologies: h2-e-methane
 
+### CF Industries Donaldsonville nitrogen complex (cf-donaldsonville)
+Status: **operating** | Country: United States
+Large nitrogen complex; the operator page quotes total nitrogen products, with the ammonia figure from the 2016 start-up release.
+Technologies: h2-refinery-ammonia-feedstock
+
+### Daxing hydrogen refuelling station (Howden compressors) (daxing-hydrogen-refuelling-station)
+Status: **operating** | Country: China
+Large hydrogen refuelling station; the compressor duty is not stated separately from station throughput.
+Technologies: h2-compressors
+
+### Ensus Wilton wheat ethanol refinery (ensus-wilton-ethanol)
+Status: **operating** | Country: United Kingdom
+Wheat-to-ethanol plant with DDGS co-product.
+Technologies: h2-first-gen-biofuels
+
+### FirstElement Fuel heavy-duty hydrogen station, Oakland (firstelement-oakland-hd)
+Status: **operating** | Country: United States
+Heavy-duty hydrogen refuelling station with 18,000 kg/day design capacity.
+Technologies: h2-refuelling-stations
+
 ### Hydrogen Energy Supply Chain (HESC), Suiso Frontier (hydrogen-energy-supply-chain-hesc-suiso-frontier)
 Status: **operating** | Country: AU
 1,250 m3 LH2 tank, loaded at Port of Hastings for Kobe
 Technologies: h2-liquid-hydrogen
+
+### Jamnagar petcoke gasification complex (Reliance) (jamnagar-petcoke-gasification)
+Status: **operating** | Country: India
+Petcoke partial oxidation to syngas; the operator page gives no start-up date, so the year comes from trade press.
+Technologies: h2-gasification-pox
 
 ### Monolith Olive Creek 1, Nebraska (monolith-olive-creek-1-nebraska)
 Status: **operating** | Country: US
 about 14,000 t/yr carbon black and about 2,500 t/yr hydrogen
 Technologies: h2-methane-pyrolysis
 
+### Nature Energy Korskro biogas plant (nature-energy-korskro)
+Status: **operating** | Country: Denmark
+Biogas upgrading to grid-quality biomethane; some sources quote 37-41 million Nm3 for raw biogas, not upgraded output.
+Technologies: h2-biogas-upgrading
+
+### Powertech Labs high-capacity hydrogen tube trailer (powertech-labs-tube-trailer)
+Status: **operating** | Country: Canada
+High-capacity composite tube trailer; recorded as a product unveiling, not an operating fleet.
+Technologies: h2-compressed-storage-tube-trailers
+
 ### REFHYNE, Shell Energy and Chemicals Park Rheinland (refhyne-shell-energy-and-chemicals-park-rheinland)
 Status: **operating** | Country: DE
 10 MW PEM, described by Shell as Europe's largest PEM electrolyser at start-up
 Technologies: h2-pem-electrolysis, ref-green-hydrogen
 
+### Silva Green Fuel / Steeper Hydrofaction HTL demonstration, Tofte (silva-green-fuel-htl)
+Status: **operating** | Country: Norway
+Demonstration-scale HTL unit; a 2,000 bpd commercial unit is proposed but not built.
+Technologies: h2-pyrolysis-htl
+
 ### Sinopec Kuqa green hydrogen pilot, Xinjiang (sinopec-kuqa-green-hydrogen-pilot-xinjiang)
 Status: **operating** | Country: CN
 20,000 t/yr green hydrogen from solar power; 210,000 m3 hydrogen storage; supplies Tahe Refining & Chemical
 Technologies: h2-alkaline-electrolysis
+
+### Sunfire SynLink co-electrolysis module (sunfire-synlink-co-electrolysis)
+Status: **operating** | Country: Germany
+Module-scale solid-oxide co-electrolysis demonstration, not a full plant.
+Technologies: h2-co-electrolysis
 
 ### SUSO ammonia cracking project, Ulsan (suso-ammonia-cracking-project-ulsan)
 Status: **operating** | Country: KR
@@ -501,6 +621,11 @@ Status: **proposed** | Country: GB
 large-scale low-carbon hydrogen for Saltend Chemicals Park, Hull
 Technologies: h2-gas-heated-reforming
 
+### H2Teesside (bp, Johnson Matthey LCH technology) (h2teesside)
+Status: **proposed** | Country: United Kingdom
+Blue hydrogen project using a gas-heated reformer paired with autothermal reforming; a 2030 target, not an operating capacity.
+Technologies: h2-gas-heated-reforming
+
 ### Holland Hydrogen 1 (Shell), Rotterdam (holland-hydrogen-1-shell-rotterdam)
 Status: **proposed** | Country: NL
 200 MW, thyssenkrupp 20 MW alkaline modules; hydrogen piped about 40 km to Shell Energy and Chemicals Park Rotterdam
@@ -528,6 +653,11 @@ Status: **proposed** | Country: JP
 Technologies: h2-ammonia-marine-fuel
 Recorded gaps: confirmed project status; project capacity
 
+### SK Eternix / Bloom Energy solid-oxide fuel cell installation (sk-eternix-bloom-fuel-cell)
+Status: **proposed** | Country: South Korea
+Billed as the world's largest fuel cell installation at announcement; recorded as announced, not operating.
+Technologies: h2-fuel-cells
+
 ### Sparc Hydrogen photocatalytic pilot, commissioning from mid-2025 (sparc-hydrogen-photocatalytic-pilot-commissioning-from-mid-2025)
 Status: **proposed** | Country: AU
 Technologies: h2-solar-water-splitting
@@ -543,6 +673,16 @@ Status: **proposed** | Country: BR
 6 to 7 ktpa goal
 Technologies: h2-biogas-reforming
 Recorded gaps: confirmed project status
+
+### GoBiGas (Goteborg Energi) (gobigas)
+Status: **suspended** | Country: Sweden
+Demonstration-scale biomass gasification to biomethane; the plant was mothballed rather than continued commercially.
+Technologies: h2-biomass-gasification
+
+### Air Products Net-Zero Hydrogen Energy Complex, Edmonton (air-products-edmonton-net-zero-hydrogen)
+Status: **under-construction** | Country: Canada
+Autothermal reforming with carbon capture for blue hydrogen; capacity stated in tonnes per day of hydrogen, not MW.
+Technologies: h2-atr-ccs
 
 ### BASF methane pyrolysis pilot, Ludwigshafen (basf-methane-pyrolysis-pilot-ludwigshafen)
 Status: **under-construction** | Country: DE
@@ -569,12 +709,22 @@ Technologies: idc-smr-fuel-cell-ppa
 Capacity: fuel-cell capacity deployed:  MW
 Recorded gaps: site-by-site capacity list
 
+### GW Ranch campus (Amazon, developed by Pacifico Energy) (gw-ranch-campus)
+Status: **proposed** | Country: United States
+Data-centre campus powered by behind-the-meter solar and storage; announced, not built.
+Technologies: idc-onsite-solar-storage
+
 ### AirTrunk Malaysia hyperscale platform (JHB1-JHB4, Johor Bahru) (airtrunk-malaysia-platform)
 Status: **under-construction** | Country: MY
 AirTrunk's Malaysian hyperscale platform: four campuses in Johor Bahru (Iskandar Puteri) totalling more than 700 MW of IT capacity and about USD 6.8 billion (MYR 27 billion) of committed investment — the anchor data-centre supply for the Johor-Singapore AI corridor. JHB1 (150+ MW, 20 data halls, 132 kV, design PUE 1.15) opened 30 July 2024 with one of the world's largest direct-to-chip liquid-cooling deployments and its remaining ~100 MW of phases began construction August 2024 (initial tranche mid-2025); JHB2 (scalable to 270+ MW, 275 kV, announced 12 February 2025) carries USD 2.325 billion of green financing raised July 2026 (largest single-asset data-centre green financing in Malaysia, first IFC financing, 30 lenders); JHB3 (138+ MW) and JHB4 (142+ MW) were announced 30 April 2026 under a MYR 12 billion (USD 3 billion) investment, powered by 275 kV dual feeds from JHB2. JHB1 and JHB2 (420+ MW combined) were reported almost 100% contracted at the JHB3/JHB4 announcement.
 Technologies: idc-siting-power-procurement, idc-direct-to-chip-liquid-cooling
 Capacity: platform IT capacity:  MW; JHB1 campus:  MW; JHB2 campus:  MW; JHB3 campus:  MW; JHB4 campus:  MW
 Recorded gaps: contracted offtakers (customers) per campus and per-building go-live dates
+
+### Lancium Abilene AI campus substations (lancium-abilene-campus)
+Status: **under-construction** | Country: United States
+Greenfield campus with purpose-built 138 kV and 345 kV substations.
+Technologies: idc-utility-feed-substation
 
 ## MAT: Materials and integrity
 
@@ -585,10 +735,55 @@ Recorded gaps: project capacity
 
 ## MID: Midstream
 
+### Bergermeer gas storage (TAQA Energy) (bergermeer-gas-storage)
+Status: **operating** | Country: Netherlands
+Depleted-field gas storage; the operator quotes 4.3 bcm and 4.5 m households against Reuters' 4.1 bcm.
+Technologies: mid-underground-gas-storage
+
+### BP Angola Block 18 Western Area integrated flow assurance model (bp-angola-block-18-flow-assurance)
+Status: **operating** | Country: Angola
+Integrated flow-assurance modelling for a deepwater development; the citation stub carries no year.
+Technologies: mid-flow-assurance-simulation
+
+### BRUA gas corridor fibre-optic leak detection (brua-corridor-leak-detection)
+Status: **operating** | Country: Romania
+Distributed acoustic and temperature sensing for leak detection and third-party intrusion; neither year nor capacity is stated.
+Technologies: mid-leak-detection
+
+### FPSO Egina oil fiscal metering package (fpso-egina-metering)
+Status: **operating** | Country: Nigeria
+Fiscal custody-transfer metering on a producing FPSO.
+Technologies: mid-custody-transfer-metering
+
+### Hawtah field reinforced thermoplastic pipe flowlines (Saudi Aramco) (hawtah-rtp-flowlines)
+Status: **operating** | Country: Saudi Arabia
+Reinforced thermoplastic pipe used for water injection.
+Technologies: mid-composite-reinforced-thermoplastic-pipe
+
 ### HyDeploy hydrogen blending trials, Keele University and Winlaton (Cadent/Northern Gas Networks) (hydeploy-hydrogen-blending-trials-keele-university-and-winlaton-cadent-n)
 Status: **operating** | Country: GB
 up to 20% hydrogen by volume blended into existing gas networks; Keele University network trial first, then Winlaton, Gateshead from 2021 supplying 668 houses, a school and small businesses
 Technologies: mid-hydrogen-blending-repurposing
+
+### Islay electrically trace-heated pipe-in-pipe tieback (Total E&P UK) (islay-eth-pip-tieback)
+Status: **operating** | Country: United Kingdom
+Electrically trace-heated pipe-in-pipe flowline tieback.
+Technologies: mid-heated-pipe-in-pipe-flowlines
+
+### LNG carrier Christophe de Margerie (Arc7) (christophe-de-margerie)
+Status: **operating** | Country: Russia
+Arc7 ice-class LNG carrier serving Yamal.
+Technologies: mid-lng-carriers
+
+### MGC Antwerpen (EXMAR) (mgc-antwerpen)
+Status: **operating** | Country: Belgium (owner)
+Medium gas carrier able to run on ammonia as fuel.
+Technologies: mid-lpg-ammonia-carriers
+
+### MT Gagarin Prospect (Sovcomflot / Shell) (mt-gagarin-prospect)
+Status: **operating** | Country: Russia (owner)
+LNG dual-fuel Aframax tanker.
+Technologies: mid-crude-product-tankers
 
 ### Northern Lights LCO2 carrier fleet (Northern Pioneer, Pathfinder, Liaison, Phoenix) (northern-lights-lco2-carrier-fleet-northern-pioneer-pathfinder-liaison-p)
 Status: **operating** | Country: NO
@@ -600,10 +795,40 @@ Status: **operating** | Country: JP
 world's first purpose-built liquid-hydrogen carrier; 1,250 m3 vacuum-insulated tank; brown-coat HESC pilot project
 Technologies: mid-liquid-hydrogen-carriers
 
+### Sullom Voe Terminal (sullom-voe-terminal)
+Status: **operating** | Country: United Kingdom
+Crude terminal with floating-roof tanks; tank counts and total capacity disagree between sources.
+Technologies: mid-tank-farms-floating-roofs
+
+### Trans Mountain Expansion (trans-mountain-expansion)
+Status: **operating** | Country: Canada
+Pipeline expansion with a documented coating and cathodic protection system.
+Technologies: mid-cathodic-protection-coatings
+
 ### Trans-Alaska Pipeline System (TAPS) drag-reducer programme (trans-alaska-pipeline-system-taps-drag-reducer-programme)
 Status: **operating** | Country: US
 first commercial use of a polymeric drag-reducing additive to raise crude-oil pipeline flow, beginning 1979 after two full-scale experiments (Burger et al., 1982); DRA let TAPS exceed its design throughput
 Technologies: mid-drag-reducing-agents
+
+### Trans-Alaska Pipeline System inline inspection programme (trans-alaska-pipeline-ili)
+Status: **operating** | Country: United States
+Pipeline run with magnetic-flux and ultrasonic inline inspection.
+Technologies: mid-inline-inspection-pigging
+
+### US Strategic Petroleum Reserve (us-strategic-petroleum-reserve)
+Status: **operating** | Country: United States
+Government strategic storage across four salt-cavern sites.
+Technologies: mid-strategic-petroleum-reserves
+
+### Vega field subsea hydrate management (vega-field-hydrate-management)
+Status: **operating** | Country: Norway
+Field operated without continuous monoethylene glycol injection; the year is the paper's, not a start-up date.
+Technologies: mid-hydrate-wax-asphaltene-management
+
+### Yamal-Europe pipeline (yamal-europe-pipeline)
+Status: **operating** | Country: Russia / Poland / Germany
+Large-diameter high-strength line built with automatic welding; the source gives no throughput figure.
+Technologies: mid-high-strength-steel-pipelines
 
 ### Porthos CO2 transport system, Port of Rotterdam, Netherlands (porthos-co2-transport-system-port-of-rotterdam-netherlands)
 Status: **under-construction** | Country: NL
@@ -757,6 +982,11 @@ Status: **operating** | Country: AE
 four APR1400 units, 5.6 GW total, about 25% of UAE electricity; construction from 2012; Unit 4 grid-connected March 2024; ~40 TWh/yr
 Technologies: pwr-large-light-water-reactors
 
+### Bisha mine solar-diesel hybrid (Aggreko for Nevsun) (bisha-mine-solar-diesel-hybrid)
+Status: **operating** | Country: Eritrea
+Containerised solar-diesel hybrid power for an off-grid mine.
+Technologies: pwr-containerised-hybrid-modules
+
 ### Bisha mine solar-hybrid plant (bisha-mine-solar-hybrid-plant)
 Status: **operating** | Country: Eritrea
 22 MW gensets + 7.5 MWp solar
@@ -807,6 +1037,11 @@ Status: **operating** | Country: CN
 25 MW / 100 MWh grid-connected gravity-energy-storage system supporting a wind farm under SGCC — first-of-its-kind commercial EVx deployment, shown as operating on the company's project page
 Technologies: pwr-gravity-storage
 
+### Fantanele-Cogealac wind farm (fantanele-cogealac-wind-farm)
+Status: **operating** | Country: Romania
+600 MW onshore wind farm in Romania, one of Europe's largest at completion.
+Technologies: pwr-onshore-wind
+
 ### Fengning Pumped Storage Power Station, Hebei, China (Grid Corporation) (fengning-pumped-storage-power-station-hebei-china-grid-corporation)
 Status: **operating** | Country: CN
 world's most powerful pumped storage station: 3,600 MW installed (12 units), designed to generate 6.61 billion kWh/yr; fully operational December 2024
@@ -826,6 +1061,11 @@ Technologies: pwr-sodium-ion-batteries
 Status: **operating** | Country: ID
 TM2500 mobile generators on two-trailer assemblies, more than 25 MW per unit, delivering electricity to Indonesia's remote areas (2016)
 Technologies: pwr-mobile-gas-turbine-plants
+
+### Hamriyah Independent Power Plant (3 x GE 9HA.01) (hamriyah-ipp)
+Status: **operating** | Country: United Arab Emirates
+1.8 GW combined-cycle plant with three GE 9HA.01 heavy-duty gas turbines, described by GE as the most efficient in the region.
+Technologies: pwr-heavy-duty-gas-turbines
 
 ### Hellisheidi geothermal power plant, Hengill, Iceland (ON Power) (hellisheidi-geothermal-power-plant-hengill-iceland-on-power)
 Status: **operating** | Country: IS
@@ -862,6 +1102,11 @@ Status: **operating** | Country: ID
 Karpowership Indonesia operates floating power plants; cooperation agreement with state shipbuilder PAL Indonesia to build power ships for Indonesia (2016); per-ship capacity not stated in the source
 Technologies: pwr-powerships-power-barges
 
+### Keadby 2 CCGT (SSE Thermal) (keadby-2-ccgt)
+Status: **operating** | Country: United Kingdom
+893 MW CCGT with HRSG, the most efficient CCGT in Europe at commissioning.
+Technologies: pwr-combined-cycle-hrsg
+
 ### La Rance tidal barrage, France (la-rance-tidal-barrage-france)
 Status: **operating** | Country: FR
 240 MW (24 x 10 MW bulb turbines), commissioned 1966, the world's first large tidal-range power station, still in full operation
@@ -871,6 +1116,16 @@ Technologies: pwr-tidal-wave
 Status: **operating** | Country: GB
 phase 1 tidal stream array; more than 91 GWh generated over seven-plus years of operation; supporting a 59 MW commercial-scale development
 Technologies: pwr-tidal-wave
+
+### MV Karadeniz Powership Osman Khan (Karpowership) (mv-karadeniz-osman-khan)
+Status: **operating** | Country: Ghana
+Powership supplying Ghana's grid under a power purchase agreement with ECG.
+Technologies: pwr-powerships-power-barges
+
+### Next Kraftwerke Next Pool VPP (next-kraftwerke-next-pool)
+Status: **operating** | Country: Germany (plus seven EU countries)
+Virtual power plant pooling distributed generation and flexible demand across eight European markets.
+Technologies: pwr-smart-grids-vpp
 
 ### Noor Ouarzazate solar complex, Morocco (MASEN) (noor-ouarzazate-solar-complex-morocco-masen)
 Status: **operating** | Country: MA
@@ -906,6 +1161,11 @@ Technologies: pwr-crystalline-silicon-pv
 Status: **operating** | Country: JP
 JAC advanced-class gas turbine validated in commercial configuration; world's first grid-connected 30% hydrogen co-firing demonstration (Nov 2023); Takasago Hydrogen Park supplies on-site hydrogen across the value chain
 Technologies: pwr-hydrogen-ammonia-turbines
+
+### Velika Ciglena geothermal ORC (Turboden) (velika-ciglena-geothermal-orc)
+Status: **operating** | Country: Croatia
+Geothermal ORC plant in Croatia; two figures circulate (17.5 MWe gross per the supplier, 10 MWe net per one engineering page).
+Technologies: pwr-modular-orc-units
 
 ### Virgin Voyages cruise ships, HeatPower 150 (virgin-voyages-cruise-ships-heatpower-150)
 Status: **operating** | Country: multi-country operation

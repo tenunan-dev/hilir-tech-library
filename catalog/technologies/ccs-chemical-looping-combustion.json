@@ -95,7 +95,7 @@
       "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -143,29 +143,20 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
+    }
+  ],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "Lab-stage technology: pilot units may exist but none was found in sources read. Web-checked 2026-10-28: pilot-scale units only (no commercial CLC plant found open).",
-      "where": [
-        {
-          "hint": "IEA CCUS Projects Database (free registration)",
-          "source_id": "iea-ccus-db",
-          "access": "registration"
-        },
-        {
-          "hint": "Global CCS Institute CO2RE facilities database",
-          "source_id": "global-ccs-co2re",
-          "access": "open"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
+      "name": "CHEERS chemical looping combustion pilot",
+      "country": "China",
+      "capacity": "5 MWth (3.5-5.0 MWth campaign)",
+      "status": "June-September 2024 campaign",
+      "source": {
+        "url": "https://www.eurekalert.org/news-releases/1135856",
+        "note": "EurekAlert release on the CHEERS 5 MWth CLC campaign, read 2026-11-16"
+      },
+      "project_id": "cheers-clc-pilot",
+      "year": 2024
     }
   ]
 }

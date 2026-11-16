@@ -80,7 +80,7 @@
       "note": "Wikipedia, Reinforced thermoplastic pipe (listed in search; not read in detail)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -119,19 +119,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named installation added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -157,6 +144,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Hawtah field reinforced thermoplastic pipe flowlines (Saudi Aramco)",
+      "country": "Saudi Arabia",
+      "capacity": "3 x 4-in RTP, 3,072-8,500 bpd each",
+      "status": "in service 2003, inspected 2008",
+      "source": {
+        "url": "https://www.iqpc.com/media/1002073/50076.pdf",
+        "note": "IQPC paper on Saudi Aramco RTP water-injection flowlines, read 2026-11-16"
+      },
+      "project_id": "hawtah-rtp-flowlines",
+      "year": 2003
     }
   ]
 }

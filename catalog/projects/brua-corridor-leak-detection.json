@@ -1,0 +1,22 @@
+{
+  "id": "brua-corridor-leak-detection",
+  "name": "BRUA gas corridor fibre-optic leak detection",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Romania",
+  "status": "operating",
+  "description": "Distributed acoustic and temperature sensing for leak detection and third-party intrusion; neither year nor capacity is stated.",
+  "technologies": [
+    "mid-leak-detection"
+  ],
+  "sources": [
+    {
+      "url": "https://www.apsensing.com/en/application/process-automation-and-pipeline-monitoring/pipeline-monitoring",
+      "note": "AP Sensing application page on BRUA pipeline monitoring, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

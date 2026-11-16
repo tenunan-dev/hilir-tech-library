@@ -1,0 +1,32 @@
+{
+  "id": "powertech-labs-tube-trailer",
+  "name": "Powertech Labs high-capacity hydrogen tube trailer",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "Canada",
+  "status": "operating",
+  "description": "High-capacity composite tube trailer; recorded as a product unveiling, not an operating fleet.",
+  "technologies": [
+    "h2-compressed-storage-tube-trailers"
+  ],
+  "sources": [
+    {
+      "url": "https://canadah2.ca/powertech-labs-unveils-the-industrys-first-smart-high-capacity",
+      "note": "Canadian Hydrogen Association: Powertech trailer unveiled May 2026, 1,050 kg at 517 bar, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://canadah2.ca/powertech-labs-unveils-the-industrys-first-smart-high-capacity",
+        "note": "Canadian Hydrogen Association: Powertech trailer unveiled May 2026, 1,050 kg at 517 bar, read 2026-11-16"
+      },
+      "date": "2026",
+      "event": "start-up / delivery"
+    }
+  ]
+}

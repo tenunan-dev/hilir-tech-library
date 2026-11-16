@@ -1,0 +1,32 @@
+{
+  "id": "keadby-2-ccgt",
+  "name": "Keadby 2 CCGT (SSE Thermal)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "United Kingdom",
+  "status": "operating",
+  "description": "893 MW CCGT with HRSG, the most efficient CCGT in Europe at commissioning.",
+  "technologies": [
+    "pwr-combined-cycle-hrsg"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ssethermal.com/flexible-generation/operational/keadby-2",
+      "note": "SSE Thermal project page: 893 MW, commercial operation March 2023, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.ssethermal.com/flexible-generation/operational/keadby-2",
+        "note": "SSE Thermal project page: 893 MW, commercial operation March 2023, read 2026-11-16"
+      },
+      "date": "2023",
+      "event": "start-up / delivery"
+    }
+  ]
+}

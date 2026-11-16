@@ -145,18 +145,6 @@
       ]
     },
     {
-      "field": "reference_plants",
-      "item": "named data-centre substation projects with voltage, capacity and country",
-      "reason_code": "not_in_sources_read",
-      "reason": "No named interconnection project was read in the sources used.",
-      "action": "Add two or three named projects with voltage, MW and source.",
-      "where": [
-        {
-          "hint": "Utility interconnection queue filings and utility press releases"
-        }
-      ]
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -170,5 +158,19 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-16",
+  "reference_plants": [
+    {
+      "name": "Lancium Abilene AI campus substations",
+      "country": "United States",
+      "capacity": "200 MW at 138 kV plus 1 GW at 345 kV",
+      "status": "substations energised Dec 2025 and Mar 2026",
+      "source": {
+        "url": "https://www.mortenson.com/projects/abilene-data-center-development",
+        "note": "Mortenson project page for the Abilene data-centre development, read 2026-11-16"
+      },
+      "project_id": "lancium-abilene-campus",
+      "year": 2025
+    }
+  ]
 }

@@ -68,7 +68,7 @@
       "note": "SLB, OLGA dynamic multiphase flow simulator page, read 25 October 2026 (descriptive only)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -108,19 +108,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named use added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -146,6 +133,19 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "BP Angola Block 18 Western Area integrated flow assurance model",
+      "country": "Angola",
+      "capacity": "capacity not stated in the source",
+      "status": "operating",
+      "source": {
+        "url": "https://www.researchgate.net/publication/254541889_Integrated_Flow_Assurance_Modeling_of_the_BP_Angola_Block_18_Western_Area_Development",
+        "note": "SPE paper record on the integrated flow assurance model, read 2026-11-16"
+      },
+      "project_id": "bp-angola-block-18-flow-assurance"
     }
   ]
 }

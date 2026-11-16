@@ -1,0 +1,32 @@
+{
+  "id": "mt-gagarin-prospect",
+  "name": "MT Gagarin Prospect (Sovcomflot / Shell)",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Russia (owner)",
+  "status": "operating",
+  "description": "LNG dual-fuel Aframax tanker.",
+  "technologies": [
+    "mid-crude-product-tankers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/first-gas-fuelling-of-first-lng-powered-aframax-tanker-23143",
+      "note": "Riviera: first LNG-powered Aframax, 114,000 dwt, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/first-gas-fuelling-of-first-lng-powered-aframax-tanker-23143",
+        "note": "Riviera: first LNG-powered Aframax, 114,000 dwt, read 2026-11-16"
+      },
+      "date": "2018",
+      "event": "start-up / delivery"
+    }
+  ]
+}

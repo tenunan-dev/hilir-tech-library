@@ -70,7 +70,7 @@
       "note": "Rasool et al. 2025, A review on cementing systems for CO2 storage wells, Petroleum Research 11(2) (abstract)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -109,19 +109,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named well set added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -147,6 +134,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Northern Lights CO2 injection wells",
+      "country": "Norway",
+      "capacity": "up to 1.5 Mt CO2/yr (Phase 1)",
+      "status": "first injection August 2025",
+      "source": {
+        "url": "https://www.equinor.com/energy/northern-lights",
+        "note": "Equinor page for Northern Lights: 1.5 Mt/yr Phase 1, first injection August 2025, read 2026-11-16"
+      },
+      "project_id": "northern-lights-co2-transport-and-storage-norway-equinor-shell-totalener",
+      "year": 2025
     }
   ]
 }

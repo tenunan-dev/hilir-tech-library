@@ -168,6 +168,18 @@
         "note": "Aggreko case study, Western Australia, read 26 October 2026"
       },
       "project_id": "porphyry-gold-mine-hybrid-plant-northern-star"
+    },
+    {
+      "name": "Bisha mine solar-diesel hybrid (Aggreko for Nevsun)",
+      "country": "Eritrea",
+      "capacity": "22 MW diesel + 7.5 MW solar = 29.5 MW",
+      "status": "in service 2017",
+      "source": {
+        "url": "https://www.miningweekly.com/article/nevsun-taps-uk-based-aggreko-to-provide-295-mw-solar-diesel-hybrid-power-to-bisha-2017-05-04",
+        "note": "Mining Weekly: 29.5 MW combined solar-diesel hybrid; Aggreko's own case study rounds it to 20 MW, read 2026-11-16"
+      },
+      "project_id": "bisha-mine-solar-diesel-hybrid",
+      "year": 2017
     }
   ],
   "advantages": [
@@ -210,7 +222,7 @@
       "note": "SolarContainer product information page, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -243,19 +255,6 @@
         }
       ],
       "action": "Find a TRL table entry or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "reference_plants",
-      "item": "reference hybrid module deployment in Southeast Asia",
-      "reason_code": "not_in_sources_read",
-      "reason": "Case studies read are in Eritrea and Australia. Web-checked 2026-10-28; Aggreko hybrid case studies found for Australia (Granny Smith) and Latin America, no verifiable named SEA module deployment.",
-      "where": [
-        {
-          "hint": "Aggreko Asia-Pacific case studies and Indonesian or Philippine mine microgrid tenders",
-          "access": "open"
-        }
-      ],
-      "action": "Add a Southeast Asian reference with capacity and fuel savings."
     },
     {
       "field": "process",

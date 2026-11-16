@@ -1,0 +1,32 @@
+{
+  "id": "quest-kirishima-lng-carrier",
+  "name": "LNG carrier Quest Kirishima (NYK)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "Japan",
+  "status": "operating",
+  "description": "LNGC with an on-board boil-off reliquefaction system.",
+  "technologies": [
+    "gas-boil-off-reliquefaction"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nyk.com/english/news/2024/20241202_02.html",
+      "note": "NYK release: Quest Kirishima delivery, reliquefaction system, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.nyk.com/english/news/2024/20241202_02.html",
+        "note": "NYK release: Quest Kirishima delivery, reliquefaction system, read 2026-11-16"
+      },
+      "date": "2024",
+      "event": "start-up / delivery"
+    }
+  ]
+}

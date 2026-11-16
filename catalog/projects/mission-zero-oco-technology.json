@@ -1,0 +1,32 @@
+{
+  "id": "mission-zero-oco-technology",
+  "name": "Mission Zero direct air capture at O.C.O Technology",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "United Kingdom",
+  "status": "operating",
+  "description": "Small direct air capture deployment using an electrochemical regeneration route.",
+  "technologies": [
+    "ccs-electro-swing-moisture-swing-dac"
+  ],
+  "sources": [
+    {
+      "url": "https://www.missionzero.tech/projects/oco-technology",
+      "note": "Mission Zero project page for the O.C.O Technology installation, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.missionzero.tech/projects/oco-technology",
+        "note": "Mission Zero project page for the O.C.O Technology installation, read 2026-11-16"
+      },
+      "date": "2025",
+      "event": "start-up / delivery"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hawtah-rtp-flowlines",
+  "name": "Hawtah field reinforced thermoplastic pipe flowlines (Saudi Aramco)",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Saudi Arabia",
+  "status": "operating",
+  "description": "Reinforced thermoplastic pipe used for water injection.",
+  "technologies": [
+    "mid-composite-reinforced-thermoplastic-pipe"
+  ],
+  "sources": [
+    {
+      "url": "https://www.iqpc.com/media/1002073/50076.pdf",
+      "note": "IQPC paper on Saudi Aramco RTP water-injection flowlines, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.iqpc.com/media/1002073/50076.pdf",
+        "note": "IQPC paper on Saudi Aramco RTP water-injection flowlines, read 2026-11-16"
+      },
+      "date": "2003",
+      "event": "start-up / delivery"
+    }
+  ]
+}

@@ -103,21 +103,8 @@
       "note": "CarbFix2 cost demonstration"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -157,6 +144,18 @@
         "note": "Carbfix, Protecting our climate by turning CO2 into stone (read 2026-10-28)"
       },
       "project_id": "carbfix-injection-at-hellisheidi-geothermal-plant-iceland"
+    },
+    {
+      "name": "CarbFix2 injection at Hellisheidi",
+      "country": "Iceland",
+      "capacity": "about 12,000 t CO2/yr captured and injected",
+      "status": "CarbFix2 scale-up from 2017; injection since 2012",
+      "source": {
+        "url": "https://www.carbfix.com/carbfix2",
+        "note": "CarbFix project page for CarbFix2, read 2026-11-16"
+      },
+      "project_id": "carbfix-injection-at-hellisheidi-geothermal-plant-iceland",
+      "year": 2017
     }
   ]
 }

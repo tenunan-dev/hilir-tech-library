@@ -1,0 +1,32 @@
+{
+  "id": "sk-eternix-bloom-fuel-cell",
+  "name": "SK Eternix / Bloom Energy solid-oxide fuel cell installation",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "South Korea",
+  "status": "proposed",
+  "description": "Billed as the world's largest fuel cell installation at announcement; recorded as announced, not operating.",
+  "technologies": [
+    "h2-fuel-cells"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-announces-worlds-largest-fuel-cell-installation-in-history",
+      "note": "Bloom Energy release: 80 MW SOFC installation with SK Eternix, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-announces-worlds-largest-fuel-cell-installation-in-history",
+        "note": "Bloom Energy release: 80 MW SOFC installation with SK Eternix, read 2026-11-16"
+      },
+      "date": "2024",
+      "event": "start-up / delivery"
+    }
+  ]
+}

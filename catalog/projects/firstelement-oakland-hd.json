@@ -1,0 +1,32 @@
+{
+  "id": "firstelement-oakland-hd",
+  "name": "FirstElement Fuel heavy-duty hydrogen station, Oakland",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "United States",
+  "status": "operating",
+  "description": "Heavy-duty hydrogen refuelling station with 18,000 kg/day design capacity.",
+  "technologies": [
+    "h2-refuelling-stations"
+  ],
+  "sources": [
+    {
+      "url": "https://www.truckinginfo.com/news/high-capacity-hydrogen-truck-fueling-station-opens-in-oakland-california",
+      "note": "Trucking Info: high-capacity hydrogen truck fuelling station opened May 2024, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.truckinginfo.com/news/high-capacity-hydrogen-truck-fueling-station-opens-in-oakland-california",
+        "note": "Trucking Info: high-capacity hydrogen truck fuelling station opened May 2024, read 2026-11-16"
+      },
+      "date": "2024",
+      "event": "start-up / delivery"
+    }
+  ]
+}

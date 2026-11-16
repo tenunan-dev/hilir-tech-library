@@ -1,0 +1,32 @@
+{
+  "id": "yamal-europe-pipeline",
+  "name": "Yamal-Europe pipeline",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Russia / Poland / Germany",
+  "status": "operating",
+  "description": "Large-diameter high-strength line built with automatic welding; the source gives no throughput figure.",
+  "technologies": [
+    "mid-high-strength-steel-pipelines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/home/article/17220879/automatic-welding-used-on-large-russian-gas-line",
+      "note": "Oil & Gas Journal article on automatic welding on the Yamal line, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.ogj.com/home/article/17220879/automatic-welding-used-on-large-russian-gas-line",
+        "note": "Oil & Gas Journal article on automatic welding on the Yamal line, read 2026-11-16"
+      },
+      "date": "1999",
+      "event": "start-up / delivery"
+    }
+  ]
+}

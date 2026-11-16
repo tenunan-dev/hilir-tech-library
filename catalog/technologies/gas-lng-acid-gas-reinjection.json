@@ -124,6 +124,18 @@
         "note": "Oil & Gas Journal, Chevron Australia starts up Gorgon LNG carbon-capture project, 8 August 2019"
       },
       "project_id": "gorgon-co2-injection-barrow-island"
+    },
+    {
+      "name": "Snohvit / Hammerfest LNG acid gas reinjection",
+      "country": "Norway",
+      "capacity": "750,000 t CO2/yr reinjected (Statoil-era material says 700,000)",
+      "status": "operating since 2008",
+      "source": {
+        "url": "https://www.equinor.com/energy/snohvit",
+        "note": "Equinor page for Snohvit, read 2026-11-16"
+      },
+      "project_id": "hammerfest-lng-snohvit-norway-equinor-all-electric-liquefaction",
+      "year": 2008
     }
   ],
   "advantages": [
@@ -145,26 +157,8 @@
       "note": "Global Status of CCS 2026 (Global CCS Institute)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "operating record since 2019",
-      "reason_code": "not_in_sources_read",
-      "reason": "The article is from start-up. Global CCS Institute 2026 database lists Gorgon as operating since 2019 (4 Mtpa capture capacity, deep saline) but states no Gorgon-specific actual injected tonnes per year.",
-      "where": [
-        {
-          "hint": "Chevron Australia reports",
-          "access": "open"
-        },
-        {
-          "hint": "Global CCS Institute facility database",
-          "access": "open",
-          "source_id": "global-ccs-institute"
-        }
-      ],
-      "action": "Add actual injected tonnes per year."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",

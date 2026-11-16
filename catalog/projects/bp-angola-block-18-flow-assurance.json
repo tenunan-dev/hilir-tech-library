@@ -1,0 +1,22 @@
+{
+  "id": "bp-angola-block-18-flow-assurance",
+  "name": "BP Angola Block 18 Western Area integrated flow assurance model",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Angola",
+  "status": "operating",
+  "description": "Integrated flow-assurance modelling for a deepwater development; the citation stub carries no year.",
+  "technologies": [
+    "mid-flow-assurance-simulation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.researchgate.net/publication/254541889_Integrated_Flow_Assurance_Modeling_of_the_BP_Angola_Block_18_Western_Area_Development",
+      "note": "SPE paper record on the integrated flow assurance model, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

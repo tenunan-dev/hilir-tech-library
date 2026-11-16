@@ -1,0 +1,32 @@
+{
+  "id": "silva-green-fuel-htl",
+  "name": "Silva Green Fuel / Steeper Hydrofaction HTL demonstration, Tofte",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "Norway",
+  "status": "operating",
+  "description": "Demonstration-scale HTL unit; a 2,000 bpd commercial unit is proposed but not built.",
+  "technologies": [
+    "h2-pyrolysis-htl"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ieabioenergy.com/wp-content/uploads/2023/07/WP3.3-DTL-Final.pdf",
+      "note": "IEA Bioenergy report on hydrothermal liquefaction demonstrations, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.ieabioenergy.com/wp-content/uploads/2023/07/WP3.3-DTL-Final.pdf",
+        "note": "IEA Bioenergy report on hydrothermal liquefaction demonstrations, read 2026-11-16"
+      },
+      "date": "2021",
+      "event": "start-up / delivery"
+    }
+  ]
+}

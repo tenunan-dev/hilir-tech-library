@@ -1,0 +1,32 @@
+{
+  "id": "christophe-de-margerie",
+  "name": "LNG carrier Christophe de Margerie (Arc7)",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Russia",
+  "status": "operating",
+  "description": "Arc7 ice-class LNG carrier serving Yamal.",
+  "technologies": [
+    "mid-lng-carriers"
+  ],
+  "sources": [
+    {
+      "url": "https://scf-group.com/en/media/news_articles/item103404.html",
+      "note": "Sovcomflot release on the Christophe de Margerie, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://scf-group.com/en/media/news_articles/item103404.html",
+        "note": "Sovcomflot release on the Christophe de Margerie, read 2026-11-16"
+      },
+      "date": "2017",
+      "event": "start-up / delivery"
+    }
+  ]
+}

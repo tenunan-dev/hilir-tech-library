@@ -1,0 +1,32 @@
+{
+  "id": "cheers-clc-pilot",
+  "name": "CHEERS chemical looping combustion pilot",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "China",
+  "status": "operating",
+  "description": "Chemical looping combustion demonstration; the host country is inferred from the described configuration and funding, so treat it as provisional.",
+  "technologies": [
+    "ccs-chemical-looping-combustion"
+  ],
+  "sources": [
+    {
+      "url": "https://www.eurekalert.org/news-releases/1135856",
+      "note": "EurekAlert release on the CHEERS 5 MWth CLC campaign, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.eurekalert.org/news-releases/1135856",
+        "note": "EurekAlert release on the CHEERS 5 MWth CLC campaign, read 2026-11-16"
+      },
+      "date": "2024",
+      "event": "start-up / delivery"
+    }
+  ]
+}

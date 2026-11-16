@@ -1,0 +1,32 @@
+{
+  "id": "hamriyah-ipp",
+  "name": "Hamriyah Independent Power Plant (3 x GE 9HA.01)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "United Arab Emirates",
+  "status": "operating",
+  "description": "1.8 GW combined-cycle plant with three GE 9HA.01 heavy-duty gas turbines, described by GE as the most efficient in the region.",
+  "technologies": [
+    "pwr-heavy-duty-gas-turbines"
+  ],
+  "sources": [
+    {
+      "url": "https://www.gevernova.com/news/press-releases/sewa-shipco-ge-vernova-announce-commercial-operations-of-hamriyah-ipp-meas-most",
+      "note": "GE Vernova release: Hamriyah IPP commercial operations, 1.8 GW, three 9HA.01 units, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.gevernova.com/news/press-releases/sewa-shipco-ge-vernova-announce-commercial-operations-of-hamriyah-ipp-meas-most",
+        "note": "GE Vernova release: Hamriyah IPP commercial operations, 1.8 GW, three 9HA.01 units, read 2026-11-16"
+      },
+      "date": "2023",
+      "event": "start-up / delivery"
+    }
+  ]
+}

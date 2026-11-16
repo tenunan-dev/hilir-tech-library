@@ -1,0 +1,32 @@
+{
+  "id": "lubmin-fsru-deutsche-ostsee",
+  "name": "Deutsche Ostsee LNG terminal, Lubmin (FSRU)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "Germany",
+  "status": "operating",
+  "description": "Floating storage and regasification unit supplying the German grid.",
+  "technologies": [
+    "gas-lng-regasification"
+  ],
+  "sources": [
+    {
+      "url": "https://totalenergies.com/newsroom/commissioning-floating-lng-regasification-unit-delivered-totalenergies-lubmin/?lang=eng",
+      "note": "TotalEnergies release on commissioning the Lubmin FSRU, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://totalenergies.com/newsroom/commissioning-floating-lng-regasification-unit-delivered-totalenergies-lubmin/?lang=eng",
+        "note": "TotalEnergies release on commissioning the Lubmin FSRU, read 2026-11-16"
+      },
+      "date": "2023",
+      "event": "start-up / delivery"
+    }
+  ]
+}

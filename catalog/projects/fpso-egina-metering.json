@@ -1,0 +1,32 @@
+{
+  "id": "fpso-egina-metering",
+  "name": "FPSO Egina oil fiscal metering package",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Nigeria",
+  "status": "operating",
+  "description": "Fiscal custody-transfer metering on a producing FPSO.",
+  "technologies": [
+    "mid-custody-transfer-metering"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ubsco.net/uploads/ODS%20SAUDI/ODS%20Metering%20Systems%20Reference%20list%20-%20Onshore%20PJT.PDF",
+      "note": "ODS Metering reference list entry for FPSO Egina, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.ubsco.net/uploads/ODS%20SAUDI/ODS%20Metering%20Systems%20Reference%20list%20-%20Onshore%20PJT.PDF",
+        "note": "ODS Metering reference list entry for FPSO Egina, read 2026-11-16"
+      },
+      "date": "2018",
+      "event": "start-up / delivery"
+    }
+  ]
+}

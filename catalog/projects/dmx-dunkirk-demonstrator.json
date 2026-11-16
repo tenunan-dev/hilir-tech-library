@@ -1,0 +1,32 @@
+{
+  "id": "dmx-dunkirk-demonstrator",
+  "name": "DMX demonstrator at ArcelorMittal Dunkirk",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "France",
+  "status": "operating",
+  "description": "Phase-change solvent capture demonstration on a steel plant.",
+  "technologies": [
+    "ccs-emerging-solvents-electrochemical"
+  ],
+  "sources": [
+    {
+      "url": "https://cordis.europa.eu/project/id/838031",
+      "note": "EU CORDIS project record for the DMX demonstration, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://cordis.europa.eu/project/id/838031",
+        "note": "EU CORDIS project record for the DMX demonstration, read 2026-11-16"
+      },
+      "date": "2023",
+      "event": "start-up / delivery"
+    }
+  ]
+}

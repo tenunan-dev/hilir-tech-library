@@ -1,0 +1,32 @@
+{
+  "id": "trans-mountain-expansion",
+  "name": "Trans Mountain Expansion",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Canada",
+  "status": "operating",
+  "description": "Pipeline expansion with a documented coating and cathodic protection system.",
+  "technologies": [
+    "mid-cathodic-protection-coatings"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sealforlife.com/case-studies/the-trans-mountain-expansion-project",
+      "note": "Seal For Life case study on the TMX coating and CP scope; Trans Mountain specification confirms protective coatings and CP, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.sealforlife.com/case-studies/the-trans-mountain-expansion-project",
+        "note": "Seal For Life case study on the TMX coating and CP scope; Trans Mountain specification confirms protective coatings and CP, read 2026-11-16"
+      },
+      "date": "2024",
+      "event": "start-up / delivery"
+    }
+  ]
+}

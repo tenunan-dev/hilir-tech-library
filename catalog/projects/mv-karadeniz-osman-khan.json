@@ -1,0 +1,32 @@
+{
+  "id": "mv-karadeniz-osman-khan",
+  "name": "MV Karadeniz Powership Osman Khan (Karpowership)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Ghana",
+  "status": "operating",
+  "description": "Powership supplying Ghana's grid under a power purchase agreement with ECG.",
+  "technologies": [
+    "pwr-powerships-power-barges"
+  ],
+  "sources": [
+    {
+      "url": "https://karpowership.com/media/s1wesz43/ghana.pdf",
+      "note": "Karpowership Ghana brochure: 470 MW vessel, 450 MW contracted under the ECG PPA, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://karpowership.com/media/s1wesz43/ghana.pdf",
+        "note": "Karpowership Ghana brochure: 470 MW vessel, 450 MW contracted under the ECG PPA, read 2026-11-16"
+      },
+      "date": "2017",
+      "event": "start-up / delivery"
+    }
+  ]
+}

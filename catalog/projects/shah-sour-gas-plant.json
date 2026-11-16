@@ -1,0 +1,32 @@
+{
+  "id": "shah-sour-gas-plant",
+  "name": "Shah sour gas plant (Al Hosn / ADNOC Sour Gas)",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "United Arab Emirates",
+  "status": "operating",
+  "description": "Large sour gas plant with Claus-type sulfur recovery; several figures circulate for the granule output.",
+  "technologies": [
+    "gas-sulfur-recovery"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/refining-processing/article/17251141/adnoc-opens-shah-sour-gas-plant",
+      "note": "Oil & Gas Journal: Shah plant opened April 2016, 9,900 t/d sulfur granules, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.ogj.com/refining-processing/article/17251141/adnoc-opens-shah-sour-gas-plant",
+        "note": "Oil & Gas Journal: Shah plant opened April 2016, 9,900 t/d sulfur granules, read 2026-11-16"
+      },
+      "date": "2016",
+      "event": "start-up / delivery"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rolande-ulm-cng-lng-station",
+  "name": "Rolande CNG/LNG station, Ulm",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "Germany",
+  "status": "operating",
+  "description": "Public CNG/LNG refuelling station.",
+  "technologies": [
+    "gas-natural-gas-vehicle-fuel"
+  ],
+  "sources": [
+    {
+      "url": "https://www.rolande.eu/en/rolande-opens-filling-stations-in-ulm",
+      "note": "Rolande release on the Ulm stations, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.rolande.eu/en/rolande-opens-filling-stations-in-ulm",
+        "note": "Rolande release on the Ulm stations, read 2026-11-16"
+      },
+      "date": "2020",
+      "event": "start-up / delivery"
+    }
+  ]
+}

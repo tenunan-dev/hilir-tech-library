@@ -126,7 +126,7 @@
       "note": "The Register (14 August 2025): Equinix agreements including more than 100 MW of Bloom solid-oxide fuel cells, read via search summary 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-12",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -140,22 +140,22 @@
         }
       ],
       "action": "Add price ranges where disclosed."
-    },
-    {
-      "field": "reference_plants",
-      "item": "first Hermes unit start-up date and Oklo Aurora Aurora-Inn dates",
-      "reason_code": "status_unchecked",
-      "reason": "Dates move with licensing progress.",
-      "where": [
-        {
-          "hint": "kairospower.com and oklo.com newsroom",
-          "access": "open"
-        }
-      ],
-      "action": "Re-check dates each quarter."
     }
   ],
-  "reference_plants": [],
+  "reference_plants": [
+    {
+      "name": "Google-Kairos Power SMR offtake",
+      "country": "United States",
+      "capacity": "up to 500 MW",
+      "status": "agreement 2024; first SMR 2030, fleet by 2035",
+      "source": {
+        "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement",
+        "note": "Google blog on the Kairos Power agreement, read 2026-11-16"
+      },
+      "project_id": "google-kairos-power-smr-fleet",
+      "year": 2024
+    }
+  ],
   "trl": {
     "low": 6,
     "high": 9,

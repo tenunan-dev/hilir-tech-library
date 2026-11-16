@@ -102,7 +102,7 @@
       "note": "Wikipedia: Wind power — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -122,19 +122,6 @@
         }
       ],
       "action": "Fetch a reachable edition and add figures with their year."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous technology, no single verifiable deployment added (Gobi/Mongolia farms exist but were not this pass).",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     }
   ],
   "costs": [
@@ -150,6 +137,20 @@
         "source_id": "irena",
         "note": "IRENA, Renewable Power Generation Costs in 2018 (report PDF mirror, 29 May 2019) (read 2026-10-28)"
       }
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Fantanele-Cogealac wind farm",
+      "country": "Romania",
+      "capacity": "600 MW (240 x GE 2.5xl)",
+      "status": "in operation 2012",
+      "source": {
+        "url": "https://www.power-technology.com/projects/fantanele-cogealac-wind-farm",
+        "note": "Power Technology project profile: 600 MW, 240 GE 2.5xl turbines, read 2026-11-16"
+      },
+      "project_id": "fantanele-cogealac-wind-farm",
+      "year": 2012
     }
   ]
 }

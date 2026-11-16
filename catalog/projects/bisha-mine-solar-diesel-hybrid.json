@@ -1,0 +1,32 @@
+{
+  "id": "bisha-mine-solar-diesel-hybrid",
+  "name": "Bisha mine solar-diesel hybrid (Aggreko for Nevsun)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Eritrea",
+  "status": "operating",
+  "description": "Containerised solar-diesel hybrid power for an off-grid mine.",
+  "technologies": [
+    "pwr-containerised-hybrid-modules"
+  ],
+  "sources": [
+    {
+      "url": "https://www.miningweekly.com/article/nevsun-taps-uk-based-aggreko-to-provide-295-mw-solar-diesel-hybrid-power-to-bisha-2017-05-04",
+      "note": "Mining Weekly: 29.5 MW combined solar-diesel hybrid; Aggreko's own case study rounds it to 20 MW, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.miningweekly.com/article/nevsun-taps-uk-based-aggreko-to-provide-295-mw-solar-diesel-hybrid-power-to-bisha-2017-05-04",
+        "note": "Mining Weekly: 29.5 MW combined solar-diesel hybrid; Aggreko's own case study rounds it to 20 MW, read 2026-11-16"
+      },
+      "date": "2017",
+      "event": "start-up / delivery"
+    }
+  ]
+}

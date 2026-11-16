@@ -207,6 +207,18 @@
         "note": "Jakarta Post, 28 Oct 2016 (read 2026-10-28)"
       },
       "project_id": "karpowership-indonesia-floating-power-plants-with-pal-indonesia-shipyard"
+    },
+    {
+      "name": "MV Karadeniz Powership Osman Khan (Karpowership)",
+      "country": "Ghana",
+      "capacity": "470 MW installed; 450 MW under the ECG PPA",
+      "status": "deployed August 2017",
+      "source": {
+        "url": "https://karpowership.com/media/s1wesz43/ghana.pdf",
+        "note": "Karpowership Ghana brochure: 470 MW vessel, 450 MW contracted under the ECG PPA, read 2026-11-16"
+      },
+      "project_id": "mv-karadeniz-osman-khan",
+      "year": 2017
     }
   ],
   "advantages": [
@@ -278,19 +290,6 @@
         }
       ],
       "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "operating powership or barge in Southeast Asia with capacity",
-      "reason_code": "not_in_sources_read",
-      "reason": "Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name. Karpowership/PAL Indonesia reference added (2016); a verifiable per-ship MW figure for a SEA powership was not found, 2026-10-28.",
-      "where": [
-        {
-          "hint": "Karpowership reference lists and Indonesian PLN procurement announcements",
-          "access": "open"
-        }
-      ],
-      "action": "Add a Southeast Asian reference with vessel name, capacity and years."
     },
     {
       "field": "process",

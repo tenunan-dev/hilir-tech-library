@@ -142,18 +142,6 @@
           "hint": "Project finance disclosures"
         }
       ]
-    },
-    {
-      "field": "reference_plants",
-      "item": "named data centres with on-site solar and storage, with capacity and country",
-      "reason_code": "not_in_sources_read",
-      "reason": "No named project was read.",
-      "action": "Add named projects with capacity and source.",
-      "where": [
-        {
-          "hint": "Operator press releases"
-        }
-      ]
     }
   ],
   "sector": "IDC",
@@ -165,5 +153,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Crystalline silicon PV and Lithium-ion storage battery' TRL 2025 - both constituents are TRL 9 rows; the card is their combination; read 2026-11-16"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "GW Ranch campus (Amazon, developed by Pacifico Energy)",
+      "country": "United States",
+      "capacity": "750 MWac solar plus 1.8 GW battery storage, behind the meter",
+      "status": "announced 2026; first power targeted Q1 2027",
+      "source": {
+        "url": "https://www.pacificoenergy.com/gw-ranch",
+        "note": "Pacifico Energy project page for GW Ranch, read 2026-11-16"
+      },
+      "project_id": "gw-ranch-campus",
+      "year": 2026
+    }
+  ]
 }

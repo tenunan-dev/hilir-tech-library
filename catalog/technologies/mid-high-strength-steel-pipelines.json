@@ -111,7 +111,7 @@
       "note": "CBMM Niobium Tech, The development of weld procedures for X80 pipelines in the UK (installations 2000 to 2010)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -126,19 +126,6 @@
         }
       ],
       "action": "Add cost per inch-km with year."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named pipeline added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
       "field": "trl",
@@ -166,6 +153,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Yamal-Europe pipeline",
+      "country": "Russia / Poland / Germany",
+      "capacity": "X-70, 56-in; four automatic welding spreads",
+      "status": "in service 1999",
+      "source": {
+        "url": "https://www.ogj.com/home/article/17220879/automatic-welding-used-on-large-russian-gas-line",
+        "note": "Oil & Gas Journal article on automatic welding on the Yamal line, read 2026-11-16"
+      },
+      "project_id": "yamal-europe-pipeline",
+      "year": 1999
     }
   ]
 }

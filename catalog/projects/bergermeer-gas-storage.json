@@ -1,0 +1,32 @@
+{
+  "id": "bergermeer-gas-storage",
+  "name": "Bergermeer gas storage (TAQA Energy)",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Netherlands",
+  "status": "operating",
+  "description": "Depleted-field gas storage; the operator quotes 4.3 bcm and 4.5 m households against Reuters' 4.1 bcm.",
+  "technologies": [
+    "mid-underground-gas-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/article/business/energy/taqa-starts-injecting-gas-into-dutch-storage-site-bergermeer-idUSL6N0WY2GB",
+      "note": "Reuters: TAQA started injection at Bergermeer, 4.1 bcm, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.reuters.com/article/business/energy/taqa-starts-injecting-gas-into-dutch-storage-site-bergermeer-idUSL6N0WY2GB",
+        "note": "Reuters: TAQA started injection at Bergermeer, 4.1 bcm, read 2026-11-16"
+      },
+      "date": "2015",
+      "event": "start-up / delivery"
+    }
+  ]
+}

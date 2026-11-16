@@ -75,7 +75,7 @@
       "note": "Journal of Petroleum Technology, Flow assurance: hydrates and paraffin management"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -115,19 +115,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28 (Fenja ETH recorded on the related UPS DEH card in this wave).",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -153,6 +140,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Islay electrically trace-heated pipe-in-pipe tieback (Total E&P UK)",
+      "country": "United Kingdom",
+      "capacity": "6 km, about 100 m water depth",
+      "status": "installed 2011",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760226/subsea-innovations-make-complex-islay-tieback-possible",
+        "note": "Offshore magazine: world's first reeled electrically trace-heated pipe-in-pipe, read 2026-11-16"
+      },
+      "project_id": "islay-eth-pip-tieback",
+      "year": 2011
     }
   ]
 }

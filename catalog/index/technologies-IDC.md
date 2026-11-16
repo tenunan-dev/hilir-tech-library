@@ -303,12 +303,14 @@ flowchart LR
 **Performance:**
 - share of additional data centre demand met by renewables over five years: 50 %; IEA: over five years renewables meet nearly half of the additional data centre demand, followed by gas and coal; solar and wind are the renewable sources in that mix.. [source](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai)
 
+**Reference plants:**
+- GW Ranch campus (Amazon, developed by Pacifico Energy), United States: 750 MWac solar plus 1.8 GW battery storage, behind the meter; announced 2026; first power targeted Q1 2027. [source](https://www.pacificoenergy.com/gw-ranch)
+
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Crystalline silicon PV and Lithium-ion storage battery' TRL 2025 - both constituents are TRL 9 rows; the card is their combination; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
 - capacity factor achieved by on-site solar at a data centre and usable battery cycles per year (performance): The IEA page read gives the aggregate renewable share of added demand but no data-centre-specific capacity factor or cycle count. Where: Operator sustainability reports with on-site generation data. Next: Add capacity factor and annual cycles from an operating project.
 - cost per MW of solar and per kWh of battery installed, with dollar year (costs): No source read prices on-site solar or storage. Where: IEA and LBNL cost benchmarks; Project finance disclosures. Next: Add installed costs from a project disclosure.
-- named data centres with on-site solar and storage, with capacity and country (reference_plants): No named project was read. Where: Operator press releases. Next: Add named projects with capacity and source.
 
 Sources: [1](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai). Last reviewed 2026-11-16.
 
@@ -359,12 +361,14 @@ flowchart LR
 - global electricity generation to supply data centres, 2024: 460 TWh; IEA: global electricity generation to supply data centres grows from 460 TWh in 2024 to over 1000 TWh in 2030 and 1300 TWh in 2035 in the base case; data centres rise from about 1 percent of global electricity generation today to 3 percent in 2030.. [source](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai)
 - share of additional data centre demand met by renewables over five years: 50 %; IEA: over five years renewables meet nearly half of the additional demand, followed by gas and coal.. [source](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai)
 
+**Reference plants:**
+- Lancium Abilene AI campus substations, United States: 200 MW at 138 kV plus 1 GW at 345 kV; substations energised Dec 2025 and Mar 2026. [source](https://www.mortenson.com/projects/abilene-data-center-development)
+
 **Missing inputs:**
 - cost per MW of interconnection and on-site substation capacity, with dollar year and basis (costs): No source read gives a per-MW interconnect or substation cost; utility upgrade charges are project-specific. Where: Utility interconnection study cost allocations; EPC substation contract awards. Next: Add a per-MW cost from a published interconnection study or project disclosure.
-- named data-centre substation projects with voltage, capacity and country (reference_plants): No named interconnection project was read in the sources used. Where: Utility interconnection queue filings and utility press releases. Next: Add two or three named projects with voltage, MW and source.
 - TRL with a cited source (trl): No TRL table was read. Where: IEA Energy Technology Guide. Next: Add a TRL reference.
 
-Sources: [1](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai), [2](https://new.abb.com/medium-voltage/switchgear). Last reviewed 2026-11-14.
+Sources: [1](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai), [2](https://new.abb.com/medium-voltage/switchgear). Last reviewed 2026-11-16.
 
 ## Direct-to-chip liquid cooling (cold plates and CDUs)
 <a id="idc-direct-to-chip-liquid-cooling"></a>
@@ -445,13 +449,15 @@ flowchart LR
 - contracted advanced-nuclear capacity, Google-Kairos fleet: 500 MW; up to 500 MW by 2035 under a master plant development agreement signed 14 October 2024; first deployment targeted by 2030. [source](https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation)
 - fuel-cell capacity deployed for Equinix: 100 MW; more than 100 MW of Bloom solid-oxide fuel cells across about 19 Equinix data centres, under a partnership running since 2015 and expanded in 2025. [source](https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/)
 
+**Reference plants:**
+- Google-Kairos Power SMR offtake, United States: up to 500 MW; agreement 2024; first SMR 2030, fleet by 2035. [source](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement)
+
 TRL source: [Fuel cells commercial (TRL 9, operating at Equinix since 2015); advanced reactors at licensing/first-build (TRL 6-7) — read 2026-11-12](https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation)
 
 **Missing inputs:**
 - PPA price ranges for SMR and fuel-cell power, with dollar year (costs): PPA prices are commercially confidential. Where: Disclosure filings and rate-case documents where public (open). Next: Add price ranges where disclosed.
-- first Hermes unit start-up date and Oklo Aurora Aurora-Inn dates (reference_plants): Dates move with licensing progress. Where: kairospower.com and oklo.com newsroom (open). Next: Re-check dates each quarter.
 
-Sources: [1](https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation), [2](https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/). Last reviewed 2026-11-12.
+Sources: [1](https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation), [2](https://www.theregister.com/off-prem/2025/08/14/equinix-signs-nuke-deals-to-power-its-datacenters/). Last reviewed 2026-11-16.
 
 ## Immersion cooling
 <a id="idc-immersion-cooling"></a>

@@ -1,0 +1,32 @@
+{
+  "id": "daxing-hydrogen-refuelling-station",
+  "name": "Daxing hydrogen refuelling station (Howden compressors)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "China",
+  "status": "operating",
+  "description": "Large hydrogen refuelling station; the compressor duty is not stated separately from station throughput.",
+  "technologies": [
+    "h2-compressors"
+  ],
+  "sources": [
+    {
+      "url": "https://h2-tech.com/news/2021/08-2021/howden-supplies-compressors-for-large-scale-h2-refueling-station-in-china",
+      "note": "H2 Tech: Howden compressors for the Daxing station, 4.8 t/d, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://h2-tech.com/news/2021/08-2021/howden-supplies-compressors-for-large-scale-h2-refueling-station-in-china",
+        "note": "H2 Tech: Howden compressors for the Daxing station, 4.8 t/d, read 2026-11-16"
+      },
+      "date": "2021",
+      "event": "start-up / delivery"
+    }
+  ]
+}

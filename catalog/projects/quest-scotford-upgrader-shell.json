@@ -10,7 +10,8 @@
   "status": "operating",
   "description": "1 Mt/yr nameplate; about 80% of CO2 from the hydrogen units",
   "technologies": [
-    "ccs-syngas-chemical-solvent"
+    "ccs-syngas-chemical-solvent",
+    "ccs-co2-compression-dehydration"
   ],
   "sources": [
     {
@@ -18,6 +19,6 @@
       "note": "Shell white paper, February 2019"
     }
   ],
-  "last_reviewed": "2026-11-11",
+  "last_reviewed": "2026-11-16",
   "notes": "Status per card source: operating; more than 3 Mt captured by early 2019"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "sullom-voe-terminal",
+  "name": "Sullom Voe Terminal",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "United Kingdom",
+  "status": "operating",
+  "description": "Crude terminal with floating-roof tanks; tank counts and total capacity disagree between sources.",
+  "technologies": [
+    "mid-tank-farms-floating-roofs"
+  ],
+  "sources": [
+    {
+      "url": "https://www.enquest.com/fileadmin/content/operations/ICOP_PDFs/Sullom_Voe_Terminal__SVT_.pdf",
+      "note": "EnQuest ICOP document on Sullom Voe; conflicting capacity figures circulate, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/operations/ICOP_PDFs/Sullom_Voe_Terminal__SVT_.pdf",
+        "note": "EnQuest ICOP document on Sullom Voe; conflicting capacity figures circulate, read 2026-11-16"
+      },
+      "date": "1978",
+      "event": "start-up / delivery"
+    }
+  ]
+}

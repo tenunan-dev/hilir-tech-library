@@ -1,0 +1,32 @@
+{
+  "id": "cf-donaldsonville",
+  "name": "CF Industries Donaldsonville nitrogen complex",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "United States",
+  "status": "operating",
+  "description": "Large nitrogen complex; the operator page quotes total nitrogen products, with the ammonia figure from the 2016 start-up release.",
+  "technologies": [
+    "h2-refinery-ammonia-feedstock"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cfindustries.com/whoweare/locations/donaldsonville",
+      "note": "CF Industries site page for Donaldsonville, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.cfindustries.com/whoweare/locations/donaldsonville",
+        "note": "CF Industries site page for Donaldsonville, read 2026-11-16"
+      },
+      "date": "2016",
+      "event": "start-up / delivery"
+    }
+  ]
+}

@@ -142,11 +142,13 @@ flowchart LR
 - methane slip by technology: 0.04-4 vol% of upgraded gas; amine 0.04 to 0.1% (lowest); membrane 0.5 to 1%; water scrubber 1 to 2%; PSA below 2%; physical adsorption 2 to 4%; cryogenic about 2%. [source](https://task37.ieabioenergy.com/wp-content/uploads/sites/32/2023/11/IEA-Bioenergy-Task_37-Methane-slip-Jan.pdf)
 - biogas upgrading energy use by technology: 0.15-0.5 kWh per Nm3 raw biogas (water scrubbing about 0.4-0.5, reducible to about 0.3 in advanced designs; PSA 0.15-0.3; membranes 0.2-0.4; amine wash regeneration adds 0.1-0.15 kWh/Nm3); PG&E technical analysis (2 Jul 2018): water/chemical scrubbing needs about 0.4-0.5 kWh/Nm3 raw biogas; Bauer et al. SGC report: PSA electricity 0.15-0.3 kWh/Nm3; Wantz et al. 2023: high-pressure water scrubber measured 0.8 kWh/Nm3, reducible to 0.3; Khan et al. 2021 review (OSTI): amine regeneration adds 0.1-0.15 kWh/Nm3. [source](https://www.pge.com/assets/pipeline/docs/products/biomethane/WaterChemicalScrubbing_TechnicalAnalysis.pdf)
 
+**Reference plants:**
+- Nature Energy Korskro biogas plant, Denmark: about 22 million Nm3 biomethane/yr; opened 20 May 2019. [source](https://bioenergyinternational.com/nature-energy-inaugurate-korskro-biogas-plant)
+
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Anaerobic digestion and upgrading with CO2 venting' TRL 2025 - the guide prices upgrading within the AD chains; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; plant capex vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.dmt.nl/). Last reviewed 2026-11-16.
@@ -173,10 +175,10 @@ flowchart LR
 **Costs:**
 - gaseous tube-trailer delivery and dispensing cost (excluding production): 8.17-9.46 USD/kg H2 (2016$); HDSAM v3.1 early-market levelized delivery plus dispensing, urban market, 1% FCEV penetration, 700 bar dispensing, low-volume component costs; low = 1,000 kg/day station, high = 450 kg/day station; liquid tanker routes cost USD 8.31-11.35/kg in the same comparison; DOE record 19001 notes that at delivery distances above ~400 miles liquid tankers are more cost competitive than gaseous tube trailers. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf)
 
-TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Pressure vessel storage' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+**Reference plants:**
+- Powertech Labs high-capacity hydrogen tube trailer, Canada: 1,050 kg H2 per trailer at 517 bar; product unveiled May 2026 - not a fleet deployment. [source](https://canadah2.ca/powertech-labs-unveils-the-industrys-first-smart-high-capacity)
 
-**Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; delivery economics already recorded from DOE records in Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Pressure vessel storage' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 Sources: [1](https://hexagonpurus.com/type-4-cylinders-vs-traditional-steel-tube-trailers), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/20007-hydrogen-delivery-dispensing-cost.pdf), [3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/19001_hydrogen_liquefaction_costs.pdf), [4](https://en.wikipedia.org/wiki/Hydrogen_storage). Last reviewed 2026-11-16.
 
@@ -201,11 +203,13 @@ flowchart LR
 - US ethanol production: 61.4 billion litres; REN21 states an all-time high; year not stated. [source](https://www.ren21.net/gsr-2025/technologies/bioenergy/)
 - life-cycle GHG intensity of first-generation biofuels: 39-46 % GHG reduction vs petroleum baseline for average US dry-mill corn ethanol (EPA RFS setting, 2023); with indirect land-use change included, a 2025 Transport and Environment study finds global biofuel production emits about 16% MORE CO2 than the fossil fuels replaced; EPA RFS 2023-2025 setting: average US dry-mill corn ethanol has a lifecycle value 39-46% below the petroleum baseline; Transport and Environment-commissioned study (Oct 2025): including ILUC, global biofuels emit about 16% more CO2 than the fossil fuels they replace. [source](https://growthenergy.org/wp-content/uploads/2023/02/Growth-Energy-Set-comment-2023-02-10-PDF.pdf)
 
+**Reference plants:**
+- Ensus Wilton wheat ethanol refinery, United Kingdom: 400,000 m3/yr ethanol plus 350,000 t/yr DDGS; full production January 2010. [source](https://www.cropenergies.com/en/company/locations/wilton)
+
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Sugar/starch fermentation and Transesterification of oils and fats' TRL 2025 - ethanol and FAME are both TRL 9 rows; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; commodity plant costs case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous industry. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
 Sources: [1](https://www.ren21.net/gsr-2025/technologies/bioenergy/), [2](https://en.wikipedia.org/wiki/Biofuel). Last reviewed 2026-11-16.
 
@@ -230,12 +234,12 @@ flowchart LR
 - HD PEM fuel cell system cost, 275 kWnet Class 8 long-haul truck: 168 USD/kWnet (2016$); 2023-status next-generation laboratory technology on direct hydrogen at 50,000 systems/yr, 2016$; about USD 160/kWnet at 100,000 units/yr; Monte Carlo 90% confidence range USD 142-195/kW; 2022 status was USD 179/kWnet; DOE targets USD 140/kWnet (2025), 80 (2030) and 60 (ultimate). [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf)
 - stack share of HD fuel cell system cost: 63 % of system cost; stack is circa 63% of the USD 168/kWnet 2023 system cost at 50,000 systems/yr, i.e. roughly USD 105/kWnet; catalyst is more than half the stack cost at high production volume. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf)
 
+**Reference plants:**
+- SK Eternix / Bloom Energy solid-oxide fuel cell installation, South Korea: 80 MW; announced November 2024. [source](https://www.bloomenergy.com/news/bloom-energy-announces-worlds-largest-fuel-cell-installation-in-history)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Polymer electrolyte membrane hydrogen fuel cell for FCEVs' 9 (2025); 'Solid oxide fuel cell' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; HD fuel-cell system cost already recorded from DOE records in Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf), [3](https://en.wikipedia.org/wiki/Fuel_cell). Last reviewed 2026-10-29.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/24004-hd-fuel-cell-system-cost-2023.pdf), [3](https://en.wikipedia.org/wiki/Fuel_cell). Last reviewed 2026-11-16.
 
 ## Hydrogen compressors (diaphragm, ionic, reciprocating)
 <a id="h2-compressors"></a>
@@ -256,13 +260,15 @@ flowchart LR
 **Performance:**
 - discharge pressure as booster: up to 900 bar; Burckhardt claim (non-lubricated). [source](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article)
 
+**Reference plants:**
+- Daxing hydrogen refuelling station (Howden compressors), China: 4.8 t/d production; refuels up to 600 vehicles/day; 2021. [source](https://h2-tech.com/news/2021/08-2021/howden-supplies-compressors-for-large-scale-h2-refueling-station-in-china)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydrogen turbo compressors' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - compressor cost and specific energy (costs): The article gives none; the doe-hfto corpus records (checked 2026-10-28) give no hydrogen compressor capital cost or specific energy in kWh/kg either. Web-checked 2026-10-28; the only compressor cost found (FuelCell air compressor) was rejected as a different component in Wave 1. Where: DOE hydrogen compression targets (catalog: doe-hfto, open). Next: Add cost and kWh/kg.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
-Sources: [1](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article), [2](https://en.wikipedia.org/wiki/Hydrogen_compressor). Last reviewed 2026-10-29.
+Sources: [1](https://www.compressortech2.com/news/Burckhardt-to-develop-hydrogen-compressor-systems/8015862.article), [2](https://en.wikipedia.org/wiki/Hydrogen_compressor). Last reviewed 2026-11-16.
 
 ## Hydrogen for refinery and ammonia feedstock
 <a id="h2-refinery-ammonia-feedstock"></a>
@@ -288,13 +294,15 @@ flowchart LR
 - levelised cost of hydrogen, natural gas with CCUS, 2022 gas-price episode: 2 USD/kg H2 (2024$); in the 2022 gas-price crisis, LCOH from unabated natural gas was just above USD 1/kg (nearly USD 2/kg with CCUS) in gas-producing regions and up to close to USD 9/kg in importing regions; figure values in USD (2024). [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 - levelised cost of hydrogen, renewable electrolytic, STEPS 2030 projection: 2-4 USD/kg H2 (2024$); Stated Policies Scenario 2030, in USD (2024): lower end close to under USD 2/kg in China; USD 3-4/kg in Australia, Chile, Brazil, the Middle East and the United States. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 
+**Reference plants:**
+- CF Industries Donaldsonville nitrogen complex, United States: about 8 Mt/yr nitrogen products; 4.3 Mt/yr gross ammonia after the 2016 plant; latest ammonia plant start-up 2016. [source](https://www.cfindustries.com/whoweare/locations/donaldsonville)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Wave 1 recorded 2024 LCOH ranges; plant references are the conventional SMR fleet already cited. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-11-16.
 
 ## Hydrogen refuelling stations
 <a id="h2-refuelling-stations"></a>
@@ -321,11 +329,13 @@ flowchart LR
 - station capital equipment cost per unit dispensing capacity: 1200-3000 USD/(kg/day) (2016$); 111 new fueling stations awarded by the California Energy Commission in 2020; capacity 770-1,620 kg/day, all 700-bar light-duty; uninstalled equipment capital cost (combined awarded grant and match funding), adjusted to 2016 dollars using Chemical Engineering Plant Cost Indices; equivalent to USD 300-890/(kg/day) per dispenser. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf)
 - average station total capital cost: 1.9e+06 USD per station (2016$); mean and median total capital cost across the 111 California-awarded stations; average capacity 1,240 kg/day, median 1,500 kg/day; uninstalled equipment capital cost in 2016 dollars. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf)
 
+**Reference plants:**
+- FirstElement Fuel heavy-duty hydrogen station, Oakland, United States: 18,000 kg/day design; opened May 2024. [source](https://www.truckinginfo.com/news/high-capacity-hydrogen-truck-fueling-station-opens-in-oakland-california)
+
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. California CEC station counts and 2016 cost basis already recorded from Wave 1. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf), [3](https://en.wikipedia.org/wiki/Hydrogen_station). Last reviewed 2026-10-29.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/21002-hydrogen-fueling-station-cost.pdf), [3](https://en.wikipedia.org/wiki/Hydrogen_station). Last reviewed 2026-11-16.
 
 ## Liquid hydrogen
 <a id="h2-liquid-hydrogen"></a>
@@ -450,13 +460,15 @@ flowchart LR
 - Total plant cost of coal gasification hydrogen plant without capture (Case 4): 4264 USD per (kg H2/day) of capacity (2018$); Case 4 total plant cost $4,264 per kg H2/day of plant capacity (plant 659,947 kg H2/day), total overnight cost $5,243 and total as-spent cost $5,853 per kg H2/day; Dec 2018 cost base, 2018 dollars. [source](https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
 - Total overnight cost of coal gasification hydrogen plant with capture (Case 5): 6044 USD per (kg H2/day) of capacity (2018$); Case 5 total overnight cost $6,044 per kg H2/day of plant capacity (plant 660,004 kg H2/day), total plant cost $4,901 and total as-spent cost $6,747 per kg H2/day; Dec 2018 cost base, 2018 dollars. [source](https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf)
 
+**Reference plants:**
+- Jamnagar petcoke gasification complex (Reliance), India: 1.7 MMTPA petcoke feed (about 10 GWth syngas); phased commissioning 2021-23; year is soft. [source](https://www.ril.com/businesses/energy/refining-marketing)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Coal gasification - partial capture rates' 9 (2025); 'Coal gasification - high capture rates' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. NETL Case 4/5 plants (coal gasification, 660,000 kg/day) already recorded from Wave 1 mining. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Partial oxidation'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Partial_oxidation) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon), [2](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [3](https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon), [2](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [3](https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf). Last reviewed 2026-11-16.
 
 ## Steam methane reforming
 <a id="h2-smr"></a>
@@ -719,15 +731,15 @@ flowchart LR
 **Reference plants:**
 - bp H2Teesside (JM LCH licence), GB: 1.2 GW hydrogen production targeted by 2030, over 10% of the UK 10 GW target; licensing and engineering agreement signed; UK Track-1 Capture Project, East Coast Cluster Phase 2. [source](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project)
 - H2H Saltend (Equinor-led, JM LCH selected), GB: large-scale low-carbon hydrogen for Saltend Chemicals Park, Hull; JM announced as technology provider, March 2023. [source](https://matthey.com/johnson-matthey-chosen-for-h2h-saltend-low-carbon-hydrogen-project)
+- H2Teesside (bp, Johnson Matthey LCH technology), United Kingdom: 1.2 GW hydrogen target by 2030; technology selected October 2023; pre-construction. [source](https://www.bp.com/en-GB/press-and-publications/press-releases/bp-selects-johnson-mattheys-lch-technology)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Autothermal reforming - gas heated reformer' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- operating plants with capacity and start-up year (the two named projects are pre-FID/FEED stage) (reference_plants): No operating GHR+ATR plant is named in sources read; bp H2Teesside and H2H Saltend are projects. Web-checked 2026-10-28: the card names pre-FID projects correctly; no operating GHR plant found open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add an operating plant with country, capacity and start-up year once one reaches operation.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [2](https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen), [3](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project). Last reviewed 2026-10-28.
+Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [2](https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen), [3](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project). Last reviewed 2026-11-16.
 
 ## Green and blue ammonia
 <a id="h2-green-blue-ammonia"></a>
@@ -997,12 +1009,12 @@ flowchart LR
 - AEM stack capital cost, preliminary manufactured estimate: 200 USD/kW (2024$); Preliminary DOE estimate of AEM stack manufactured cost at about 20 MW/yr production volume, with potential to be even less expensive at about 300 MW/yr; stack only, excludes balance of plant; dollar year not stated. [source](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf)
 - Cost gap: renewable vs unabated fossil hydrogen production: 1.5-8 USD/kg H2 (2024$); IEA GHR 2024 executive summary: 'the cost gap with unabated fossil-based production shrinking from USD 1.5-8/kg H2 today to USD 1-3/kg H2 by 2030'. [source](https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary)
 
+**Reference plants:**
+- Enapter AEM Nexus 500 at Simon Fraser University, Canada: 500 kW; commissioning scheduled Q4 2025. [source](https://enapter.com/en/press-release/enapter-ag-to-deliver-containerised-electrolysers-for-europes-largest-renewable-energy-research-project-and-canadian-clean-hydrogen-hub)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Anion exchange membrane electrolyser' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Web-checked 2026-10-28; Enapter reference installations exist but no verifiable named plant page added. Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
-
-Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf), [3](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis), [2](https://handbook.enapter.com/electrolyser/aem_nexus/downloads/Enapter_Datasheet_AEM-Nexus-1000.pdf), [3](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf). Last reviewed 2026-11-16.
 
 ## Autothermal reforming with CO2 capture (blue hydrogen)
 <a id="h2-atr-ccs"></a>
@@ -1039,13 +1051,11 @@ flowchart LR
 **Reference plants:**
 - Blue Point Complex (CF Industries / JERA / Mitsui JV), Louisiana, US: 1.4 Mtpa low-emissions ammonia via autothermal reforming; about 2 Mtpa CO2 captured (about 95% of plant emissions); USD 4 billion FID April 2025 (JV holding CF Industries 40%, JERA 35%, Mitsui 25%); operations expected 2029; CO2 to the Pelican Sequestration Hub; ATR technology licensor not named in the report. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
 - Air Products Net-Zero Hydrogen Complex, Alberta, CA: ATR-CCUS blue hydrogen complex; ATR-CCUS project at FID (GHR Chapter 5: 'a second ATR-CCUS project in Canada has reached FID'); commissioning delayed from a planned 2024 start to late 2027 or early 2028, capital costs almost tripled from USD 1.2 to 3.3 billion; ATR technology licensor not named in the report. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- Air Products Net-Zero Hydrogen Energy Complex, Edmonton, Canada: 1,500 t/d hydrogen; about 3 Mt CO2/yr captured; FID taken; delayed from the original 2024 target. [source](https://majorprojects.alberta.ca/details/Air-Products-Hydrogen-Production-and-Liquefaction-Facility/4461)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Autothermal reforming - single reformer' 5; 'Autothermal reforming - gas heated reformer' 5](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- named operating or planned plants with capacity and status (reference_plants): No plant was named in the sources read. Already closed in Wave 1 (Blue Point and Air Products Alberta from GHR 2025). Where: IEA Hydrogen Production and Infrastructure Projects Database (free registration) (catalog: iea-hydrogen-db, registration); Press releases from the suppliers listed on the card (open). Next: Add one to three reference plants with country, capacity, status and source.
-
-Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [2](https://www.wfmz.com/news/area/lehighvalley/air-products-scraps-plans-for-massive-clean-energy-complex/article_3d8eac87-46cf-4b46-a0fe-cbaad5d21d7f.html), [3](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [2](https://www.wfmz.com/news/area/lehighvalley/air-products-scraps-plans-for-massive-clean-energy-complex/article_3d8eac87-46cf-4b46-a0fe-cbaad5d21d7f.html), [3](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-11-16.
 
 ## Biomass gasification to hydrogen
 <a id="h2-biomass-gasification"></a>
@@ -1072,12 +1082,12 @@ flowchart LR
 **Costs:**
 - levelised hydrogen cost: 2.8-5.4 USD/kg (2009$); 2009 dollars; nth plant 2,000 dtpd USD 2.80, first plant 500 dtpd USD 5.40; panel financing raises these to 3.80 and 7.70; report has internal inconsistencies. [source](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent)
 
+**Reference plants:**
+- GoBiGas (Goteborg Energi), Sweden: 20 MW biomethane from 32 MW fuel; phase 1 2014; mothballed and sold after 2018. [source](https://www.ieabioenergy.com/wp-content/uploads/2018/06/GoBiGas_Webinar_20_june_final.pdf)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass-waste gasification without CCUS' 6 (2025); 'Biomass-waste gasification with CCUS' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- operating biomass-to-hydrogen plants (reference_plants): IEA says output is marginal; no plant is named in sources read. Web-checked 2026-10-28; no named operating BTH plant found open. Where: IEA Bioenergy Task 33 gasification database (open). Next: Add one or two operating plants.
-
-Sources: [1](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://en.wikipedia.org/wiki/Biomass_gasification). Last reviewed 2026-10-29.
+Sources: [1](https://www.energy.gov/eere/fuelcells/articles/hydrogen-production-cost-estimate-using-biomass-gasification-independent), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://en.wikipedia.org/wiki/Biomass_gasification). Last reviewed 2026-11-16.
 
 ## Co-electrolysis of CO2 and water
 <a id="h2-co-electrolysis"></a>
@@ -1095,15 +1105,17 @@ flowchart LR
 
 **Key equipment:** solid oxide electrolyser stacks, steam generator, heat recovery.
 
+**Reference plants:**
+- Sunfire SynLink co-electrolysis module, Germany: 150 kW SOEC module; commissioned 2023. [source](https://h2-tech.com/news/2023/02-2023/sunfire-successfully-commissions-high-temperature-electrolyzer)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 and h2o co-electrolysis' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - power use per kg syngas and stack lifetime (performance): No source read gives them. Web-checked 2026-10-28; SOEC co-electrolysis figures in DOE/IEA annexes not open. Where: Topsoe and Sunfire technical papers (catalog: topsoe, open). Next: Add performance data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-11-16.
 
 ## Natural (geologic) hydrogen
 <a id="h2-natural-hydrogen"></a>
@@ -1156,13 +1168,15 @@ flowchart LR
 **Performance:**
 - liquid yield from fast pyrolysis (dry basis): up to 65 wt%; at about 500 degC; bio-oil has about half the energy content of fuel oil, 35 to 40% oxygen, pH below 2. [source](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion)
 
+**Reference plants:**
+- Silva Green Fuel / Steeper Hydrofaction HTL demonstration, Tofte, Norway: 30 barrels/day bio-crude; completed November 2021. [source](https://www.ieabioenergy.com/wp-content/uploads/2023/07/WP3.3-DTL-Final.pdf)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass pyrolysis' 7 (2025); 'Hydrothermal liquefaction and upgrading of biomass' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- commercial-scale operating capacity (reference_plants): ETIP names plant sizes of 10,000 to 50,000 t bio-oil/yr without status. Web-checked 2026-10-28; no verifiable named commercial HTL plant found. Where: Ensyn, Steeper and Licella press releases (open). Next: Add current operating status.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion), [2](https://en.wikipedia.org/wiki/Hydrothermal_liquefaction). Last reviewed 2026-10-29.
+Sources: [1](https://etipbioenergy.eu/value-chains/conversion-technologies/advanced-technologies/pvc3-transport-fuels-via-pyrolytic-and-thermolytic-conversion), [2](https://en.wikipedia.org/wiki/Hydrothermal_liquefaction). Last reviewed 2026-11-16.
 
 ## Algal fuels
 <a id="h2-algal-fuels"></a>

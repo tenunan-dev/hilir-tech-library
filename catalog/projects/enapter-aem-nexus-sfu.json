@@ -1,0 +1,32 @@
+{
+  "id": "enapter-aem-nexus-sfu",
+  "name": "Enapter AEM Nexus 500 at Simon Fraser University",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "Canada",
+  "status": "commissioning",
+  "description": "Anion exchange membrane electrolyser at a university hydrogen hub; commissioning, not yet an operating reference.",
+  "technologies": [
+    "h2-aem-electrolysis"
+  ],
+  "sources": [
+    {
+      "url": "https://enapter.com/en/press-release/enapter-ag-to-deliver-containerised-electrolysers-for-europes-largest-renewable-energy-research-project-and-canadian-clean-hydrogen-hub",
+      "note": "Enapter release: AEM Nexus 500 containerised electrolyser for the Canadian clean hydrogen hub, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://enapter.com/en/press-release/enapter-ag-to-deliver-containerised-electrolysers-for-europes-largest-renewable-energy-research-project-and-canadian-clean-hydrogen-hub",
+        "note": "Enapter release: AEM Nexus 500 containerised electrolyser for the Canadian clean hydrogen hub, read 2026-11-16"
+      },
+      "date": "2025",
+      "event": "start-up / delivery"
+    }
+  ]
+}

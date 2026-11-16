@@ -1,0 +1,32 @@
+{
+  "id": "velika-ciglena-geothermal-orc",
+  "name": "Velika Ciglena geothermal ORC (Turboden)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Croatia",
+  "status": "operating",
+  "description": "Geothermal ORC plant in Croatia; two figures circulate (17.5 MWe gross per the supplier, 10 MWe net per one engineering page).",
+  "technologies": [
+    "pwr-modular-orc-units"
+  ],
+  "sources": [
+    {
+      "url": "https://www.turboden.com/media/press/504/turboden-completed-the-commissioning-of-the-175-mwe-velika-ciglena-geothermal-plant",
+      "note": "Turboden release: 17.5 MWe Velika Ciglena ORC commissioned Dec 2018, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.turboden.com/media/press/504/turboden-completed-the-commissioning-of-the-175-mwe-velika-ciglena-geothermal-plant",
+        "note": "Turboden release: 17.5 MWe Velika Ciglena ORC commissioned Dec 2018, read 2026-11-16"
+      },
+      "date": "2018",
+      "event": "start-up / delivery"
+    }
+  ]
+}

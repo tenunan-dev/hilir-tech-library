@@ -1,0 +1,32 @@
+{
+  "id": "resolute-saint-felicien-enzyme-capture",
+  "name": "CO2 Solutions (now Saipem) enzyme capture unit, Resolute Saint-Felicien mill",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "Canada",
+  "status": "operating",
+  "description": "Carbonic anhydrase enzyme-catalysed capture at a pulp mill.",
+  "technologies": [
+    "ccs-enzyme-capture"
+  ],
+  "sources": [
+    {
+      "url": "https://www.newswire.ca/news-releases/co2-solutions-begins-commissioning-of-its-carbon-capture-unit-at-the-resolute-pulp-mill-in-saint-felicien-quebec-840933841.html",
+      "note": "Newswire release: commissioning of the 30 tpd enzyme capture unit, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.newswire.ca/news-releases/co2-solutions-begins-commissioning-of-its-carbon-capture-unit-at-the-resolute-pulp-mill-in-saint-felicien-quebec-840933841.html",
+        "note": "Newswire release: commissioning of the 30 tpd enzyme capture unit, read 2026-11-16"
+      },
+      "date": "2019",
+      "event": "start-up / delivery"
+    }
+  ]
+}

@@ -223,21 +223,8 @@
       "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, April 2022"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. NETL Case 4/5 plants (coal gasification, 660,000 kg/day) already recorded from Wave 1 mining.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -255,6 +242,20 @@
         }
       ],
       "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Jamnagar petcoke gasification complex (Reliance)",
+      "country": "India",
+      "capacity": "1.7 MMTPA petcoke feed (about 10 GWth syngas)",
+      "status": "phased commissioning 2021-23; year is soft",
+      "source": {
+        "url": "https://www.ril.com/businesses/energy/refining-marketing",
+        "note": "Reliance refining and marketing page describing the petcoke gasification complex, read 2026-11-16"
+      },
+      "project_id": "jamnagar-petcoke-gasification",
+      "year": 2022
     }
   ]
 }

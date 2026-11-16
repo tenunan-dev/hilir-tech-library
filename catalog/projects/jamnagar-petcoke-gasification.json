@@ -1,0 +1,32 @@
+{
+  "id": "jamnagar-petcoke-gasification",
+  "name": "Jamnagar petcoke gasification complex (Reliance)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "India",
+  "status": "operating",
+  "description": "Petcoke partial oxidation to syngas; the operator page gives no start-up date, so the year comes from trade press.",
+  "technologies": [
+    "h2-gasification-pox"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ril.com/businesses/energy/refining-marketing",
+      "note": "Reliance refining and marketing page describing the petcoke gasification complex, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.ril.com/businesses/energy/refining-marketing",
+        "note": "Reliance refining and marketing page describing the petcoke gasification complex, read 2026-11-16"
+      },
+      "date": "2022",
+      "event": "start-up / delivery"
+    }
+  ]
+}

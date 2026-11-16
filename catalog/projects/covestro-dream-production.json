@@ -1,0 +1,32 @@
+{
+  "id": "covestro-dream-production",
+  "name": "Covestro Dream Production CO2-polyol plant, Dormagen",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "Germany",
+  "status": "operating",
+  "description": "Industrial-scale use of CO2 as a feedstock for polyols; urea route is not covered by this project.",
+  "technologies": [
+    "ccs-co2-to-urea-polymers"
+  ],
+  "sources": [
+    {
+      "url": "https://www.plasticstoday.com/materials/covestro-opens-industrial-scale-co2-based-polyol-plant",
+      "note": "Plastics Today: Covestro industrial-scale CO2-based polyol plant, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.plasticstoday.com/materials/covestro-opens-industrial-scale-co2-based-polyol-plant",
+        "note": "Plastics Today: Covestro industrial-scale CO2-based polyol plant, read 2026-11-16"
+      },
+      "date": "2016",
+      "event": "start-up / delivery"
+    }
+  ]
+}

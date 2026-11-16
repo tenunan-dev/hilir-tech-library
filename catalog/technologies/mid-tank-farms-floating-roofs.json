@@ -70,7 +70,7 @@
       "note": "Wikipedia, Floating roof, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -114,19 +114,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -152,6 +139,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Sullom Voe Terminal",
+      "country": "United Kingdom",
+      "capacity": "16 floating-roof crude tanks (10 operational), about 520,000 bbl",
+      "status": "operating since 1978",
+      "source": {
+        "url": "https://www.enquest.com/fileadmin/content/operations/ICOP_PDFs/Sullom_Voe_Terminal__SVT_.pdf",
+        "note": "EnQuest ICOP document on Sullom Voe; conflicting capacity figures circulate, read 2026-11-16"
+      },
+      "project_id": "sullom-voe-terminal",
+      "year": 1978
     }
   ]
 }

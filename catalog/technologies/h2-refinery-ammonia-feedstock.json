@@ -144,21 +144,8 @@
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): oil refining demand, Southeast Asia refining, ammonia from biomethane"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Wave 1 recorded 2024 LCOH ranges; plant references are the conventional SMR fleet already cited.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -171,6 +158,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "CF Industries Donaldsonville nitrogen complex",
+      "country": "United States",
+      "capacity": "about 8 Mt/yr nitrogen products; 4.3 Mt/yr gross ammonia after the 2016 plant",
+      "status": "latest ammonia plant start-up 2016",
+      "source": {
+        "url": "https://www.cfindustries.com/whoweare/locations/donaldsonville",
+        "note": "CF Industries site page for Donaldsonville, read 2026-11-16"
+      },
+      "project_id": "cf-donaldsonville",
+      "year": 2016
     }
   ]
 }

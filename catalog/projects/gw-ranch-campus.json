@@ -1,0 +1,32 @@
+{
+  "id": "gw-ranch-campus",
+  "name": "GW Ranch campus (Amazon, developed by Pacifico Energy)",
+  "project_type": "greenfield",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC"
+  ],
+  "country": "United States",
+  "status": "proposed",
+  "description": "Data-centre campus powered by behind-the-meter solar and storage; announced, not built.",
+  "technologies": [
+    "idc-onsite-solar-storage"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pacificoenergy.com/gw-ranch",
+      "note": "Pacifico Energy project page for GW Ranch, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.pacificoenergy.com/gw-ranch",
+        "note": "Pacifico Energy project page for GW Ranch, read 2026-11-16"
+      },
+      "date": "2026",
+      "event": "start-up / delivery"
+    }
+  ]
+}

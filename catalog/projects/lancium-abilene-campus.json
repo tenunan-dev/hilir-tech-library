@@ -1,0 +1,32 @@
+{
+  "id": "lancium-abilene-campus",
+  "name": "Lancium Abilene AI campus substations",
+  "project_type": "greenfield",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC"
+  ],
+  "country": "United States",
+  "status": "under-construction",
+  "description": "Greenfield campus with purpose-built 138 kV and 345 kV substations.",
+  "technologies": [
+    "idc-utility-feed-substation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.mortenson.com/projects/abilene-data-center-development",
+      "note": "Mortenson project page for the Abilene data-centre development, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.mortenson.com/projects/abilene-data-center-development",
+        "note": "Mortenson project page for the Abilene data-centre development, read 2026-11-16"
+      },
+      "date": "2025",
+      "event": "start-up / delivery"
+    }
+  ]
+}

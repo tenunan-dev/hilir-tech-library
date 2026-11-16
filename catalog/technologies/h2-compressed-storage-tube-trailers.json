@@ -117,21 +117,7 @@
     }
   ],
   "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; delivery economics already recorded from DOE records in Wave 1.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    }
-  ],
+  "gaps": [],
   "trl": {
     "low": 9,
     "high": 9,
@@ -139,5 +125,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Pressure vessel storage' TRL 2025; read 2026-11-16"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "Powertech Labs high-capacity hydrogen tube trailer",
+      "country": "Canada",
+      "capacity": "1,050 kg H2 per trailer at 517 bar",
+      "status": "product unveiled May 2026 - not a fleet deployment",
+      "source": {
+        "url": "https://canadah2.ca/powertech-labs-unveils-the-industrys-first-smart-high-capacity",
+        "note": "Canadian Hydrogen Association: Powertech trailer unveiled May 2026, 1,050 kg at 517 bar, read 2026-11-16"
+      },
+      "project_id": "powertech-labs-tube-trailer",
+      "year": 2026
+    }
+  ]
 }

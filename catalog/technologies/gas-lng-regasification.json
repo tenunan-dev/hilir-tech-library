@@ -117,7 +117,7 @@
       "note": "Coyle and Patel (KBR), LNG receiving terminals, Pump Industry"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -157,19 +157,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable terminal added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -195,6 +182,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Deutsche Ostsee LNG terminal, Lubmin (FSRU)",
+      "country": "Germany",
+      "capacity": "5 bcm/yr",
+      "status": "commissioned 2023",
+      "source": {
+        "url": "https://totalenergies.com/newsroom/commissioning-floating-lng-regasification-unit-delivered-totalenergies-lubmin/?lang=eng",
+        "note": "TotalEnergies release on commissioning the Lubmin FSRU, read 2026-11-16"
+      },
+      "project_id": "lubmin-fsru-deutsche-ostsee",
+      "year": 2023
     }
   ]
 }

@@ -8,6 +8,22 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.7] — 2026-11-16 — 57 reference plants; project layer 241 → 293
+
+### Added
+
+- **Fifty-seven named reference projects linked to cards**, each with capacity, year, status and a source page: power (Keadby 2, Hamriyah, Velika Ciglena, Fântânele-Cogealac, Karpowership, Next Pool VPP), hydrogen (Enapter, Air Products Edmonton, Korskro, GoBiGas, GoBiGas-scale HTL, Ensus Wilton, FirstElement Oakland, CF Donaldsonville), CCS (CHEERS, Quest, OCOchem, Covestro, Mission Zero, DMX Dunkirk, Resolute, CarbFix2, Aquistore, Northern Lights), gas processing (Gorgon, Snøhvit, Lubmin, Ichthys, Shah, Quest Kirishima, Rolande) and midstream (Trans Mountain, Hawtah RTP, Gagarin Prospect, FPSO Egina, Islay ETH-PiP, Yamal–Europe, TAPS, BRUA, Christophe de Margerie, MGC Antwerpen, US SPR, Sullom Voe, Bergermeer) plus data-centre power (GW Ranch, Google–Kairos, Lancium Abilene).
+- **Fifty-two new project records**; five existing ones (Quest, CarbFix, Northern Lights, Snøhvit, Google–Kairos) were extended rather than duplicated. Projects 241 → **293**.
+
+### Changed
+
+- **Seven "plants" are recorded as announced, commissioning or under construction, and one as suspended** — GoBiGas is mothballed, the Powertech trailer is a product unveiling, not a deployment. Conflicts are shown rather than averaged: Quest 1.0 vs 1.2 Mt/yr, Snøhvit 750k vs 700k t/yr, Shah 9,900 vs 9,200 t/d sulfur, Bergermeer 4.1 vs 4.3 bcm, Sullom Voe tank/capacity figures, Karpowership 470 vs 450 MW, Bisha 29.5 vs 20 MW, Velika Ciglena 17.5 gross vs 10 net.
+- Reference-plant gaps **147 → 90**.
+
+### Fixed
+
+- Milestones were written as `year`/`name` when the schema requires `event`/`date`; 50 records failed validation and were normalised before publishing.
+
 ## [2026.11.16.6] — 2026-11-16 — TRL from the IEA guide; silent gaps made explicit
 
 ### Added

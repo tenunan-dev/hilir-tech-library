@@ -1,0 +1,32 @@
+{
+  "id": "trans-alaska-pipeline-ili",
+  "name": "Trans-Alaska Pipeline System inline inspection programme",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "United States",
+  "status": "operating",
+  "description": "Pipeline run with magnetic-flux and ultrasonic inline inspection.",
+  "technologies": [
+    "mid-inline-inspection-pigging"
+  ],
+  "sources": [
+    {
+      "url": "https://alyeska-pipe.com/wp-content/uploads/2025/01/24-APSC-0352-FACTBOOK-UPDATE-FOR-WEB-FINAL1_AA.pdf",
+      "note": "Alyeska fact book: MFL/UT smart-pig inspection programme, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://alyeska-pipe.com/wp-content/uploads/2025/01/24-APSC-0352-FACTBOOK-UPDATE-FOR-WEB-FINAL1_AA.pdf",
+        "note": "Alyeska fact book: MFL/UT smart-pig inspection programme, read 2026-11-16"
+      },
+      "date": "1977",
+      "event": "start-up / delivery"
+    }
+  ]
+}

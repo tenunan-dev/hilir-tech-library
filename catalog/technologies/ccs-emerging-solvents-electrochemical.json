@@ -100,7 +100,7 @@
       "note": "NETL Compendium of Carbon Capture Technology 2024: about 145 DOE-funded R&D project sheets with diagrams and per-project capture costs"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -124,29 +124,20 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
+    }
+  ],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "named operating or planned plants with capacity and status",
-      "reason_code": "not_in_sources_read",
-      "reason": "Lab-stage technology: pilot units may exist but none was found in sources read. Web-checked 2026-10-28; no named plant found open.",
-      "where": [
-        {
-          "hint": "IEA CCUS Projects Database (free registration)",
-          "source_id": "iea-ccus-db",
-          "access": "registration"
-        },
-        {
-          "hint": "Global CCS Institute CO2RE facilities database",
-          "source_id": "global-ccs-co2re",
-          "access": "open"
-        },
-        {
-          "hint": "Press releases from the suppliers listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Add one to three reference plants with country, capacity, status and source."
+      "name": "DMX demonstrator at ArcelorMittal Dunkirk",
+      "country": "France",
+      "capacity": "0.5 t CO2/h",
+      "status": "operating since April 2023",
+      "source": {
+        "url": "https://cordis.europa.eu/project/id/838031",
+        "note": "EU CORDIS project record for the DMX demonstration, read 2026-11-16"
+      },
+      "project_id": "dmx-dunkirk-demonstrator",
+      "year": 2023
     }
   ]
 }

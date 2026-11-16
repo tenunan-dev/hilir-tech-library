@@ -170,19 +170,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; MMV programmes are embedded in storage projects already referenced.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -203,5 +190,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Advanced CO2 storage monitoring technologies' TRL 2025 - the guide's closest row to MMV; it covers storage monitoring rather than a measurement programme as such; read 2026-11-16"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "Aquistore measurement, monitoring and verification programme",
+      "country": "Canada",
+      "capacity": "more than 620,000 t CO2 stored (cumulative)",
+      "status": "injection start 2015 per project literature, not the cited page",
+      "source": {
+        "url": "https://ptrc.ca/aquistore",
+        "note": "PTRC Aquistore page: cumulative tonnage stored, read 2026-11-16"
+      },
+      "project_id": "aquistore-mmv",
+      "year": 2015
+    }
+  ]
 }

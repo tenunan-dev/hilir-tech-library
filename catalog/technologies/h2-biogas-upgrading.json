@@ -149,19 +149,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -182,5 +169,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Anaerobic digestion and upgrading with CO2 venting' TRL 2025 - the guide prices upgrading within the AD chains; read 2026-11-16"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "Nature Energy Korskro biogas plant",
+      "country": "Denmark",
+      "capacity": "about 22 million Nm3 biomethane/yr",
+      "status": "opened 20 May 2019",
+      "source": {
+        "url": "https://bioenergyinternational.com/nature-energy-inaugurate-korskro-biogas-plant",
+        "note": "Bioenergy International: Korskro inaugurated May 2019, about 22 million Nm3 biomethane, read 2026-11-16"
+      },
+      "project_id": "nature-energy-korskro",
+      "year": 2019
+    }
+  ]
 }

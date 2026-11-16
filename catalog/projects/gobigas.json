@@ -1,0 +1,32 @@
+{
+  "id": "gobigas",
+  "name": "GoBiGas (Goteborg Energi)",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "Sweden",
+  "status": "suspended",
+  "description": "Demonstration-scale biomass gasification to biomethane; the plant was mothballed rather than continued commercially.",
+  "technologies": [
+    "h2-biomass-gasification"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ieabioenergy.com/wp-content/uploads/2018/06/GoBiGas_Webinar_20_june_final.pdf",
+      "note": "IEA Bioenergy webinar slides on GoBiGas: 20 MW biomethane, 2014, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.ieabioenergy.com/wp-content/uploads/2018/06/GoBiGas_Webinar_20_june_final.pdf",
+        "note": "IEA Bioenergy webinar slides on GoBiGas: 20 MW biomethane, 2014, read 2026-11-16"
+      },
+      "date": "2014",
+      "event": "start-up / delivery"
+    }
+  ]
+}

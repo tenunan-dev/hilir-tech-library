@@ -1,0 +1,32 @@
+{
+  "id": "sunfire-synlink-co-electrolysis",
+  "name": "Sunfire SynLink co-electrolysis module",
+  "project_type": "greenfield",
+  "sector": "H2",
+  "sector_codes": [
+    "H2"
+  ],
+  "country": "Germany",
+  "status": "operating",
+  "description": "Module-scale solid-oxide co-electrolysis demonstration, not a full plant.",
+  "technologies": [
+    "h2-co-electrolysis"
+  ],
+  "sources": [
+    {
+      "url": "https://h2-tech.com/news/2023/02-2023/sunfire-successfully-commissions-high-temperature-electrolyzer",
+      "note": "H2 Tech: Sunfire commissioned the high-temperature co-electrolysis module, 150 kW, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://h2-tech.com/news/2023/02-2023/sunfire-successfully-commissions-high-temperature-electrolyzer",
+        "note": "H2 Tech: Sunfire commissioned the high-temperature co-electrolysis module, 150 kW, read 2026-11-16"
+      },
+      "date": "2023",
+      "event": "start-up / delivery"
+    }
+  ]
+}

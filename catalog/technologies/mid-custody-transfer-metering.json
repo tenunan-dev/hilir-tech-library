@@ -112,7 +112,7 @@
       "note": "Wikipedia: Flow measurement — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -152,19 +152,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -177,6 +164,20 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "FPSO Egina oil fiscal metering package",
+      "country": "Nigeria",
+      "capacity": "7,200 m3/h oil; 4.6 MSm3/d gas fiscal metering",
+      "status": "in service 2018",
+      "source": {
+        "url": "https://www.ubsco.net/uploads/ODS%20SAUDI/ODS%20Metering%20Systems%20Reference%20list%20-%20Onshore%20PJT.PDF",
+        "note": "ODS Metering reference list entry for FPSO Egina, read 2026-11-16"
+      },
+      "project_id": "fpso-egina-metering",
+      "year": 2018
     }
   ]
 }

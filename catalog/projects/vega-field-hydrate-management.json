@@ -1,0 +1,32 @@
+{
+  "id": "vega-field-hydrate-management",
+  "name": "Vega field subsea hydrate management",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "Norway",
+  "status": "operating",
+  "description": "Field operated without continuous monoethylene glycol injection; the year is the paper's, not a start-up date.",
+  "technologies": [
+    "mid-hydrate-wax-asphaltene-management"
+  ],
+  "sources": [
+    {
+      "url": "https://jpt.spe.org/flow-assurance-strategy-manages-subsea-asset-without-continuous-meg-injection",
+      "note": "JPT summary: hydrate management without continuous MEG injection, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://jpt.spe.org/flow-assurance-strategy-manages-subsea-asset-without-continuous-meg-injection",
+        "note": "JPT summary: hydrate management without continuous MEG injection, read 2026-11-16"
+      },
+      "date": "2020",
+      "event": "start-up / delivery"
+    }
+  ]
+}

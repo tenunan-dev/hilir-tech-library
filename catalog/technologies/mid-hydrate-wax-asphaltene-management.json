@@ -106,7 +106,7 @@
       "note": "Journal of Petroleum Technology, Flow assurance: hydrates and paraffin management"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -121,19 +121,6 @@
         }
       ],
       "action": "Add typical dosage and cost."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named scheme added.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
       "field": "trl",
@@ -166,6 +153,20 @@
         }
       ],
       "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Vega field subsea hydrate management",
+      "country": "Norway",
+      "capacity": "capacity not stated",
+      "status": "strategy documented in a 2020 paper",
+      "source": {
+        "url": "https://jpt.spe.org/flow-assurance-strategy-manages-subsea-asset-without-continuous-meg-injection",
+        "note": "JPT summary: hydrate management without continuous MEG injection, read 2026-11-16"
+      },
+      "project_id": "vega-field-hydrate-management",
+      "year": 2020
     }
   ]
 }

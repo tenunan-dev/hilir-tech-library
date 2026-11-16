@@ -128,19 +128,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named facility added this pass.",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
     }
   ],
   "trl": {
@@ -150,5 +137,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Salt cavern storage' TRL 2025 - natural gas storage in salt caverns; the guide's storage rows are gas-generic; read 2026-11-16"
     }
-  }
+  },
+  "reference_plants": [
+    {
+      "name": "Bergermeer gas storage (TAQA Energy)",
+      "country": "Netherlands",
+      "capacity": "4.1 bcm working gas (TAQA states 4.3 bcm)",
+      "status": "commercial operation 2015",
+      "source": {
+        "url": "https://www.reuters.com/article/business/energy/taqa-starts-injecting-gas-into-dutch-storage-site-bergermeer-idUSL6N0WY2GB",
+        "note": "Reuters: TAQA started injection at Bergermeer, 4.1 bcm, read 2026-11-16"
+      },
+      "project_id": "bergermeer-gas-storage",
+      "year": 2015
+    }
+  ]
 }

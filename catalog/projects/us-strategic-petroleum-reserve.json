@@ -1,0 +1,32 @@
+{
+  "id": "us-strategic-petroleum-reserve",
+  "name": "US Strategic Petroleum Reserve",
+  "project_type": "greenfield",
+  "sector": "MID",
+  "sector_codes": [
+    "MID"
+  ],
+  "country": "United States",
+  "status": "operating",
+  "description": "Government strategic storage across four salt-cavern sites.",
+  "technologies": [
+    "mid-strategic-petroleum-reserves"
+  ],
+  "sources": [
+    {
+      "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve",
+      "note": "US DOE page on the SPR, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve",
+        "note": "US DOE page on the SPR, read 2026-11-16"
+      },
+      "date": "1975",
+      "event": "start-up / delivery"
+    }
+  ]
+}

@@ -80,13 +80,15 @@ flowchart LR
 - ICCP source rating for a pipeline: 50 A and V (up to); depends on size and coating quality. [source](https://en.wikipedia.org/wiki/Cathodic_protection)
 - cathodic protection criterion for buried steel pipelines: -850 mV vs copper/copper-sulfate electrode (CSE), polarised potential; the standard criterion of -850 mV vs CSE "can provide full protection for a buried API 5L" steel per NACE/AMPP SP0169 practice (critical-review paper: "the optimum potential is -850 mV for both steels"); SP0169 also allows a 100 mV cathodic-polarisation criterion and bounds overprotection near -1150 mV; FBE/3LPE coating property tables were not captured this pass. [source](https://www.researchgate.net/publication/256689812_Cathodic_protection_criteria_of_thermally_insulated_pipeline_buried_in_soil)
 
+**Reference plants:**
+- Trans Mountain Expansion, Canada: coating and cathodic protection scope; pipeline design 890,000 b/d; in service 2024. [source](https://www.sealforlife.com/case-studies/the-trans-mountain-expansion-project)
+
 **Missing inputs:**
 - protection criterion (for example -850 mV CSE) and FBE/3LPE properties (performance): The Wikipedia page does not state them. Protection criterion recorded in performance (-850 mV CSE); FBE/3LPE property tables remain in coating-vendor literature, 2026-10-28. Where: AMPP SP0169 and ISO 15589-1 (catalog: ampp-standards, open). Next: Add the criterion with its standard.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous practice. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Cathodic_protection). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Cathodic_protection). Last reviewed 2026-11-16.
 
 ## Composite and reinforced thermoplastic pipe
 <a id="mid-composite-reinforced-thermoplastic-pipe"></a>
@@ -104,14 +106,16 @@ flowchart LR
 
 **Key equipment:** thermoplastic liner, fibre reinforcement, end fittings, reel and installation spread.
 
+**Reference plants:**
+- Hawtah field reinforced thermoplastic pipe flowlines (Saudi Aramco), Saudi Arabia: 3 x 4-in RTP, 3,072-8,500 bpd each; in service 2003, inspected 2008. [source](https://www.iqpc.com/media/1002073/50076.pdf)
+
 **Missing inputs:**
 - pressure ratings, diameters, laying speed and temperature limits (performance): Shawcor's PDF is blocked by robots.txt and the Wikipedia page was not read in detail. Where: Soluforce, Strohm and Baker Hughes product pages (open). Next: Add ratings from a vendor datasheet.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named installation added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Reinforced_thermoplastic_pipe). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Reinforced_thermoplastic_pipe). Last reviewed 2026-11-16.
 
 ## Crude and product tank farms and floating roofs
 <a id="mid-tank-farms-floating-roofs"></a>
@@ -129,14 +133,16 @@ flowchart LR
 
 **Key equipment:** storage tanks, floating roofs and seals, fire protection, pumps, vapour control.
 
+**Reference plants:**
+- Sullom Voe Terminal, United Kingdom: 16 floating-roof crude tanks (10 operational), about 520,000 bbl; operating since 1978. [source](https://www.enquest.com/fileadmin/content/operations/ICOP_PDFs/Sullom_Voe_Terminal__SVT_.pdf)
+
 **Missing inputs:**
 - emission reduction and seal types, per AP-42 and API 650 (performance): Not on the page read. Web-checked 2026-10-28; AP-42 emission-factor tables are EPA-hosted PDFs not read this pass. Where: EPA AP-42 chapter 7.1 (open); API 650 and 653 (catalog: api-standards, open). Next: Add loss factors from AP-42.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Floating_roof). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Floating_roof). Last reviewed 2026-11-16.
 
 ## Crude and product tankers with scrubbers or LNG fuel
 <a id="mid-crude-product-tankers"></a>
@@ -158,14 +164,16 @@ flowchart LR
 - VLCC cargo: 2 million barrels (about 318,000 t); 200,000 to 320,000 dwt class. [source](https://en.wikipedia.org/wiki/Oil_tanker)
 - active tankers above 10,000 dwt: 4024 ships; infobox; date not stated. [source](https://en.wikipedia.org/wiki/Oil_tanker)
 
+**Reference plants:**
+- MT Gagarin Prospect (Sovcomflot / Shell), Russia (owner): 114,000 dwt LNG dual-fuel Aframax; in service 2018. [source](https://www.rivieramm.com/news-content-hub/news-content-hub/first-gas-fuelling-of-first-lng-powered-aframax-tanker-23143)
+
 **Missing inputs:**
 - IMO sulphur cap and compliance options (other): The IMO page is blocked by robots.txt. Where: IMO MARPOL Annex VI summary (open). Next: Add the 0.50% global limit and ECA limit with dates.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; scrubber/LNG-fuel retrofit costs are shipyard-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named vessel added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Oil_tanker). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Oil_tanker). Last reviewed 2026-11-16.
 
 ## Custody transfer metering (ultrasonic, Coriolis)
 <a id="mid-custody-transfer-metering"></a>
@@ -187,13 +195,15 @@ flowchart LR
 - calibrated cone meter accuracy: 0.5 % (±); up to ±5% uncalibrated. [source](https://en.wikipedia.org/wiki/Coriolis_flowmeter)
 - custody-transfer meter accuracy under AGA standards: 0.35-0.5 % volume-flow accuracy for Coriolis meters under AGA 11 (ultrasonic meters governed by AGA 9); "The use of Coriolis meters for custody transfer is governed by AGA-11. Advantages include standard volume flow accuracy of 0.35% to 0.5%" (Control Engineering, 13 Jun 2016); AGA 9 governs multipath ultrasonic custody-transfer meters; the specific AGA 9 and API MPMS class values were not read this pass. [source](https://www.controleng.com/selecting-flowmeters-for-natural-gas)
 
+**Reference plants:**
+- FPSO Egina oil fiscal metering package, Nigeria: 7,200 m3/h oil; 4.6 MSm3/d gas fiscal metering; in service 2018. [source](https://www.ubsco.net/uploads/ODS%20SAUDI/ODS%20Metering%20Systems%20Reference%20list%20-%20Onshore%20PJT.PDF)
+
 **Missing inputs:**
 - custody-transfer accuracy classes under AGA 9, AGA 11 and API MPMS (performance): Not stated in the pages read. AGA 11 Coriolis accuracy (0.35-0.5%) recorded in performance; AGA 9/API MPMS class tables are paywalled standards text, 2026-10-28. Where: AGA 9 and API MPMS (catalog: api-standards, open). Next: Add accuracy classes with standard references.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; meter prices vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Ultrasonic_flow_meter), [2](https://en.wikipedia.org/wiki/Coriolis_flowmeter), [3](https://en.wikipedia.org/wiki/Flow_measurement). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Ultrasonic_flow_meter), [2](https://en.wikipedia.org/wiki/Coriolis_flowmeter), [3](https://en.wikipedia.org/wiki/Flow_measurement). Last reviewed 2026-11-16.
 
 ## Drag reducing agents
 <a id="mid-drag-reducing-agents"></a>
@@ -242,14 +252,16 @@ flowchart LR
 
 **Key equipment:** dynamic multiphase simulator, PVT and thermal models.
 
+**Reference plants:**
+- BP Angola Block 18 Western Area integrated flow assurance model, Angola: capacity not stated in the source; operating. [source](https://www.researchgate.net/publication/254541889_Integrated_Flow_Assurance_Modeling_of_the_BP_Angola_Block_18_Western_Area_Development)
+
 **Missing inputs:**
 - capabilities, validation accuracy and typical use (performance): The SLB page contains navigation text only. Web-checked 2026-10-28; OLGA/LEDAAP validation tables sit in SPE papers. Where: SLB OLGA documentation (catalog: slb, open). Next: Add validation statements with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licence prices vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named use added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.slb.com/products-and-services/delivering-digital-at-scale/software/olga-dynamic-multiphase-flow-simulator). Last reviewed 2026-10-28.
+Sources: [1](https://www.slb.com/products-and-services/delivering-digital-at-scale/software/olga-dynamic-multiphase-flow-simulator). Last reviewed 2026-11-16.
 
 ## Heated and pipe-in-pipe flowlines
 <a id="mid-heated-pipe-in-pipe-flowlines"></a>
@@ -267,14 +279,16 @@ flowchart LR
 
 **Key equipment:** pipe-in-pipe, insulation, heating cable, field joints.
 
+**Reference plants:**
+- Islay electrically trace-heated pipe-in-pipe tieback (Total E&P UK), United Kingdom: 6 km, about 100 m water depth; installed 2011. [source](https://www.offshore-mag.com/subsea/article/16760226/subsea-innovations-make-complex-islay-tieback-possible)
+
 **Missing inputs:**
 - U-values, depths, lengths and temperatures (performance): The TechnipFMC page returned an error. Where: TechnipFMC and Subsea7 project pages (catalog: technipfmc, open). Next: Add figures from a project page or paper.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; project-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28 (Fenja ETH recorded on the related UPS DEH card in this wave). Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-10-28.
+Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-11-16.
 
 ## High-strength steel pipelines and automatic welding
 <a id="mid-high-strength-steel-pipelines"></a>
@@ -297,13 +311,15 @@ flowchart LR
 - cost saving of X80 over X65: 22.7 %; independent consultant estimate, UK transmission. [source](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf)
 - UK X80 installed: 889 km; sum of 15 projects, 2000 to 2010; the paper states both 'almost 900 km' and 'over 900 km'. [source](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf)
 
+**Reference plants:**
+- Yamal-Europe pipeline, Russia / Poland / Germany: X-70, 56-in; four automatic welding spreads; in service 1999. [source](https://www.ogj.com/home/article/17220879/automatic-welding-used-on-large-russian-gas-line)
+
 **Missing inputs:**
 - current cost per km with dollar year (costs): The paper gives a saving percentage only. Web-checked 2026-10-28; pipeline build costs vary by region; no authoritative open $/km found. Where: PRCI and operator project cost studies (catalog: prci, open). Next: Add cost per inch-km with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named pipeline added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched linepipe, X70, X80, pipeline steel, high strength steel, pipelines); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf). Last reviewed 2026-11-16.
 
 ## Hydrate, wax and asphaltene management (inhibitors, heating, pigging)
 <a id="mid-hydrate-wax-asphaltene-management"></a>
@@ -325,13 +341,15 @@ flowchart LR
 - methane held by one volume of hydrate: 160-180 volumes; article statement. [source](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management)
 - example wax appearance temperature: 106 °F; case study flowlines; blockage 15,000 ft from wellhead. [source](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management)
 
+**Reference plants:**
+- Vega field subsea hydrate management, Norway: capacity not stated; strategy documented in a 2020 paper. [source](https://jpt.spe.org/flow-assurance-strategy-manages-subsea-asset-without-continuous-meg-injection)
+
 **Missing inputs:**
 - chemical cost and MEG recovery cost (costs): None given. Web-checked 2026-10-28; chemical prices are vendor-quoted. Where: SPE papers on flow assurance cost (catalog: onepetro, open). Next: Add typical dosage and cost.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named scheme added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched hydrate, wax, asphaltene, flow assurance, chemical injection); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Gas hydrate'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Gas_hydrate) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-10-28.
+Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-11-16.
 
 ## LNG carriers (membrane and Moss tanks, reliquefaction)
 <a id="mid-lng-carriers"></a>
@@ -358,11 +376,13 @@ flowchart LR
 - newbuild price, 170,000 m3: 200 USD million (could cost); dollar year not stated in the article. [source](https://en.wikipedia.org/wiki/LNG_carrier)
 - newbuild price of a standard 174,000 m3 LNG carrier: 248 million USD per vessel (about $269 m at the 2024 record high; $200-220 m range quoted for 2026 contracts) (2025$); Clarkson data (early November 2025), reported 20 Nov 2025: current market price for 174,000 m3 LNG carriers is approximately $248 million; vesselslink (Jun 2024): $269 m record high; shipfinex (Jan 2026): $200-220 m range with Korean-built premium; dollar years as dated. [source](https://www.imarinenews.com/29440.html)
 
+**Reference plants:**
+- LNG carrier Christophe de Margerie (Arc7), Russia: 172,600 m3; in service 2017. [source](https://scf-group.com/en/media/news_articles/item103404.html)
+
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; class names (Q-Max 266k m3) exist in market reports. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched LNG carrier, LNG ship, LNG tanker, liquefied natural gas, membrane); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/LNG_carrier). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/LNG_carrier). Last reviewed 2026-11-16.
 
 ## LPG and ammonia carriers
 <a id="mid-lpg-ammonia-carriers"></a>
@@ -385,12 +405,14 @@ flowchart LR
 - semi-refrigerated propane carriage: -10 °C at 8.5 kg/cm2; article statement. [source](https://en.wikipedia.org/wiki/Gas_carrier)
 - ammonia and LPG carrier fleet indicators: 50 very large ammonia carriers (VLACs) ordered in 12 months (DNV, Oct 2024); BW LPG is the largest VLGC operator with about 50 vessels; a 39,200 m3 fully-refrigerated LPG carrier class is typical; the -33 C atmospheric carriage temperature for fully refrigerated ammonia was not stated in the open pages read; DNV (16 Oct 2024): "ordering of more than 50 very large ammonia carriers (VLACs) over the past 12 months", split between dedicated VLGCs and multipurpose VLACs; shipfinex (May 2026): BW LPG about 50 vessels, largest VLGC operator. [source](https://www.dnv.com/expert-story/maritime-impact/investing-in-future-ammonia-markets)
 
+**Reference plants:**
+- MGC Antwerpen (EXMAR), Belgium (owner): 46,000 m3 ammonia/LPG dual-fuel; delivered 10 June 2026. [source](https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lr-supports-delivery-of-world-first-ammonia-dual-fuel-gas-carrier)
+
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; newbuild prices vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; fleet indicators recorded in performance. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Gas_carrier). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Gas_carrier). Last reviewed 2026-11-16.
 
 ## Leak detection (CPM, fibre optic DAS and DTS)
 <a id="mid-leak-detection"></a>
@@ -413,14 +435,16 @@ flowchart LR
 - Raman DTS range with multimode fibre: 50 km (up to); vendor article. [source](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing)
 - DAS interrogator spacing for NPW monitoring: 120 km; quantitative DAS. [source](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing)
 
+**Reference plants:**
+- BRUA gas corridor fibre-optic leak detection, Romania: capacity not stated; operating. [source](https://www.apsensing.com/en/application/process-automation-and-pipeline-monitoring/pipeline-monitoring)
+
 **Missing inputs:**
 - minimum detectable leak size and response time (performance): The vendor article gives no numbers. Web-checked 2026-10-28: API 1130 CPM thresholds (about 1% of flow) circulate in vendor material; no verifiable open table found. Where: API RP 1130 and API RP 1175 summaries (open); PHMSA leak detection study (catalog: phmsa, open). Next: Add thresholds from an independent study.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named deployment added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing). Last reviewed 2026-10-28.
+Sources: [1](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing). Last reviewed 2026-11-16.
 
 ## Pipeline inline inspection (MFL, ultrasonic, EMAT pigs)
 <a id="mid-inline-inspection-pigging"></a>
@@ -442,12 +466,14 @@ flowchart LR
 - MFL wall-loss sizing accuracy: 10 % (about); older PHMSA forum presentation. [source](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf)
 - gas-coupled ultrasonic wall thickness accuracy (under development): 2 % (a couple of percent); versus 10% for MFL, per the presentation. [source](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf)
 
+**Reference plants:**
+- Trans-Alaska Pipeline System inline inspection programme, United States: 800 miles (1,288 km); ILI programme; pipeline in service since 1977. [source](https://alyeska-pipe.com/wp-content/uploads/2025/01/24-APSC-0352-FACTBOOK-UPDATE-FOR-WEB-FINAL1_AA.pdf)
+
 **Missing inputs:**
 - cost per km of an ILI run (costs): None given. Web-checked 2026-10-28; ILI pricing is vendor-quoted. Where: PHMSA and operator integrity reports (catalog: phmsa, open). Next: Add cost range with year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous service. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched pigging, in-line inspection, inline inspection, ILI, pipeline inspection); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf), [2](https://en.wikipedia.org/wiki/Pipeline_inspection_gauge). Last reviewed 2026-10-29.
+Sources: [1](https://primis-meetings.phmsa.dot.gov/meetings/186309ad-6581-4e62-b3e5-ea7938e79343/files/240f9863-c4bf-458b-9719-4cdf9f684163/inspection-technologies.pdf), [2](https://en.wikipedia.org/wiki/Pipeline_inspection_gauge). Last reviewed 2026-11-16.
 
 ## Strategic petroleum reserves (salt caverns, rock caverns)
 <a id="mid-strategic-petroleum-reserves"></a>
@@ -468,13 +494,15 @@ flowchart LR
 **Performance:**
 - US SPR authorised capacity: 714 million barrels; four sites. [source](https://www.energy.gov/ceser/strategic-petroleum-reserve)
 
+**Reference plants:**
+- US Strategic Petroleum Reserve, United States: 714 million barrels authorised; programme operating since 1975. [source](https://www.energy.gov/ceser/strategic-petroleum-reserve)
+
 **Missing inputs:**
-- rock cavern examples and Asian reserves (reference_plants): Only the US reserve was read. Web-checked 2026-10-28; no verifiable named rock-cavern SPR page found this pass. Where: IEA emergency response and JOGMEC stockpile pages (catalog: jogmec, open). Next: Add a Japan or Korea example.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; programme figures are government-budgeted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energy.gov/ceser/strategic-petroleum-reserve). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/ceser/strategic-petroleum-reserve). Last reviewed 2026-11-16.
 
 ## Underground gas storage (salt caverns, depleted fields)
 <a id="mid-underground-gas-storage"></a>
@@ -496,11 +524,13 @@ flowchart LR
 - active US underground storage facilities: 400 sites (nearly), about 120 operators; Lower 48. [source](https://www.eia.gov/naturalgas/storage/basics/)
 - US underground gas storage working capacity and cushion share: 4595-4683 Bcf working gas capacity (AGA survey total 4,595 Bcf of 8,934 Bcf total capacity; Lower-48 working design capacity 4,683 Bcf as of Nov 2025); American Gas Association survey: total capacity 8,934 Bcf with working gas 4,595 Bcf - implying about 49% cushion (base) gas by difference; compressortech2 (3 Jun 2026): Lower-48 combined working gas design capacity 4,683 Bcf as of Nov 2025; per-storage-type deliverability figures were not stated in the pages read. [source](https://www.aga.org/wp-content/uploads/2023/01/Section4Divider.pdf)
 
+**Reference plants:**
+- Bergermeer gas storage (TAQA Energy), Netherlands: 4.1 bcm working gas (TAQA states 4.3 bcm); commercial operation 2015. [source](https://www.reuters.com/article/business/energy/taqa-starts-injecting-gas-into-dutch-storage-site-bergermeer-idUSL6N0WY2GB)
+
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Salt cavern storage' TRL 2025 - natural gas storage in salt caverns; the guide's storage rows are gas-generic; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; cavern development costs case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named facility added this pass. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
 Sources: [1](https://www.eia.gov/naturalgas/storage/basics/), [2](https://en.wikipedia.org/wiki/Underground_gas_storage). Last reviewed 2026-11-16.
 

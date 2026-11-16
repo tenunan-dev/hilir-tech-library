@@ -1,0 +1,32 @@
+{
+  "id": "exxonmobil-fuelcell-rotterdam-pilot",
+  "name": "ExxonMobil-FuelCell Energy carbonate fuel cell pilot, Rotterdam",
+  "project_type": "greenfield",
+  "sector": "CCS",
+  "sector_codes": [
+    "CCS"
+  ],
+  "country": "Netherlands",
+  "status": "commissioning",
+  "description": "MCFC capture pilot; no open source states a MW or t/day capacity, so none is recorded.",
+  "technologies": [
+    "ccs-molten-carbonate-fuel-cell-capture"
+  ],
+  "sources": [
+    {
+      "url": "http://corporate.exxonmobil.com/locations/european-region/european-newsroom/carbon-capture-technology-field-testing-rotterdam",
+      "note": "ExxonMobil newsroom on the Rotterdam field test, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "http://corporate.exxonmobil.com/locations/european-region/european-newsroom/carbon-capture-technology-field-testing-rotterdam",
+        "note": "ExxonMobil newsroom on the Rotterdam field test, read 2026-11-16"
+      },
+      "date": "2026",
+      "event": "start-up / delivery"
+    }
+  ]
+}

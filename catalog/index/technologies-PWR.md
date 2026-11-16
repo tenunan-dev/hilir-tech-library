@@ -168,11 +168,13 @@ flowchart LR
 - total overnight cost, combined cycle multi-shaft: 1032 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 1,227 MW unit, first available 2028, technological optimism factor 1.00; exclusions and S&L/PJM adjustment basis as for the single-shaft entry; Table 4 regional range 830-1,445 USD/kW (2025$), average 1,049. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
 - total overnight cost, combined cycle with 95% carbon capture: 2824 USD/kW (2025$); AEO2026 EMM Table 3 (2025$/kW): 543 MW unit, first available 2029, base overnight cost 2,567 USD/kW times technological optimism factor 1.10; excludes regional multipliers, learning effects and interest during construction; Table 4 regional range 2,268-5,674 USD/kW (2025$), average 2,954. [source](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf)
 
+**Reference plants:**
+- Keadby 2 CCGT (SSE Thermal), United Kingdom: 893 MW CCGT (N2 configuration with HRSG); commercial operation March 2023. [source](https://www.ssethermal.com/flexible-generation/operational/keadby-2)
+
 **Missing inputs:**
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; AEO2026 cost tables (already recorded) name classes, not plants; no single named reference added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [3](https://power.mhi.com/products/gasturbines/lineup/m701j), [4](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf), [5](https://en.wikipedia.org/wiki/Combined_cycle_power_plant). Last reviewed 2026-10-29.
+Sources: [1](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [3](https://power.mhi.com/products/gasturbines/lineup/m701j), [4](https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf), [5](https://en.wikipedia.org/wiki/Combined_cycle_power_plant). Last reviewed 2026-11-16.
 
 ## Concentrated solar power with storage
 <a id="pwr-concentrated-solar-power"></a>
@@ -235,14 +237,14 @@ flowchart LR
 **Reference plants:**
 - Bisha mine solar-hybrid plant, Eritrea: 22 MW gensets + 7.5 MWp solar; operating under Aggreko contract; over 12% fuel savings. [source](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project)
 - Porphyry gold mine hybrid plant (Northern Star), Australia: 4.4 MW solar + 2 MW battery; operating under a 10-year PPA; 1.91 million litres of fuel saved per year. [source](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia)
+- Bisha mine solar-diesel hybrid (Aggreko for Nevsun), Eritrea: 22 MW diesel + 7.5 MW solar = 29.5 MW; in service 2017. [source](https://www.miningweekly.com/article/nevsun-taps-uk-based-aggreko-to-provide-295-mw-solar-diesel-hybrid-power-to-bisha-2017-05-04)
 
 **Missing inputs:**
 - module prices or contract rates in $/kW or $/kWh delivered, with dollar year (costs): Vendor pages sell services without publishing rates. Web-checked 2026-10-28; module prices are quote-only. Where: arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands (catalog: arxiv, open); IRENA reports on hybrid mini-grid costs (irena.org) (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no entry for hybrid container modules as such. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): mini-grid and off-grid PV entries (catalog: iea-reports, open). Next: Find a TRL table entry or leave maturity resting on the evidence on the card.
-- reference hybrid module deployment in Southeast Asia (reference_plants): Case studies read are in Eritrea and Australia. Web-checked 2026-10-28; Aggreko hybrid case studies found for Australia (Granny Smith) and Latin America, no verifiable named SEA module deployment. Where: Aggreko Asia-Pacific case studies and Indonesian or Philippine mine microgrid tenders (open). Next: Add a Southeast Asian reference with capacity and fuel savings.
 - hybrid control sequence is generalised from vendor pages (process): The controller logic (solar first, battery smoothing, genset backup) is standard practice, not one named source. Where: Vendor white papers on hybrid controller algorithms (open). Next: Check the steps against a named vendor white paper.
 
-Sources: [1](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants), [2](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems), [3](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project), [4](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia), [5](https://boxpower.io/products/solar-container/), [6](https://www.bredenoord.com/en/knowledge/mobile-solar-plant), [7](https://www.solarcontainer.one/english/product-information). Last reviewed 2026-10-28.
+Sources: [1](https://www.aggreko.com/en-ae/solutions/power-plants/hybrid-power-plants), [2](https://www.aggreko.com/en-us/news/aggreko-launches-new-mid-sized-500-kw-250-kwh-and-250-kw-575-kwh-energy-storage-systems), [3](https://www.aggreko.com/en-sg/case-studies/mining/eritrea-solar-hybrid-mine-project), [4](https://www.aggreko.com/en-pg/case-studies/mining/solar-power-remote-gold-mine-western-australia), [5](https://boxpower.io/products/solar-container/), [6](https://www.bredenoord.com/en/knowledge/mobile-solar-plant), [7](https://www.solarcontainer.one/english/product-information). Last reviewed 2026-11-16.
 
 ## Crystalline silicon PV (PERC, TOPCon, HJT)
 <a id="pwr-crystalline-silicon-pv"></a>
@@ -482,13 +484,15 @@ flowchart LR
 - 7HA hot restart to full gas-turbine load: 10-21 min; 7HA.02 10 min, 7HA.03 21 min. [source](https://www.gevernova.com/gas-power/products/gas-turbines/7ha)
 - hydrogen co-firing capability: 30-50 % hydrogen by volume; GE 7HA up to 50%; MHI says 30% demonstrated on M701J. [source](https://www.gevernova.com/gas-power/products/gas-turbines/7ha)
 
+**Reference plants:**
+- Hamriyah Independent Power Plant (3 x GE 9HA.01), United Arab Emirates: 1.8 GW; commercial operation October 2023. [source](https://www.gevernova.com/news/press-releases/sewa-shipco-ge-vernova-announce-commercial-operations-of-hamriyah-ipp-meas-most)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'H₂ blending in natural gas turbine' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - installed cost per kW with dollar year (costs): Open vendor pages give no cost; cost databases are commercial. Searched OSTI corpus (25 reports) for "gas turbine", "installed cost", "$/kW", "capital cost", "levelized"; not present; 2026-10-28 Where: Gas Turbine World handbook (paid) (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add an open cost figure, for example from an EIA or NREL cost study.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; H/J-class references exist in OEM case studies behind portal pages; no verifiable open page found (osti corpus checked 2026-10-28, abstracts only). Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
-Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [2](https://power.mhi.com/products/gasturbines/lineup/m701j), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://en.wikipedia.org/wiki/Gas_turbine). Last reviewed 2026-10-29.
+Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [2](https://power.mhi.com/products/gasturbines/lineup/m701j), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://en.wikipedia.org/wiki/Gas_turbine). Last reviewed 2026-11-16.
 
 ## Hydropower
 <a id="pwr-hydropower"></a>
@@ -652,12 +656,12 @@ flowchart LR
 - Virgin Voyages cruise ships, HeatPower 150, multi-country operation: 900 kW per vessel (six units); in service with Lloyd's Register class approval since 2020. [source](https://climeon.com/references/)
 - Maersk Horsburgh retrofit, Denmark (operator): 150 kW; marine retrofit with ABS approval since 2022. [source](https://climeon.com/references/)
 - Fervo Energy geothermal order, USA: 300 MWe (largest project named); Turboden homepage names a 300 MWe supply for Fervo Energy. [source](https://www.turboden.com/)
+- Velika Ciglena geothermal ORC (Turboden), Croatia: 17.5 MWe gross (one engineering page quotes 10 MWe net); commissioned December 2018. [source](https://www.turboden.com/media/press/504/turboden-completed-the-commissioning-of-the-175-mwe-velika-ciglena-geothermal-plant)
 
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Organic rankine cycle (low temperature resources)' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
 - installed cost per kW for a modular ORC unit, with dollar year and basis (costs): Vendor pages read do not publish prices. Web-checked 2026-10-28; unit prices are quote-only. Where: arXiv and open-access journals: ORC waste-heat techno-economic reviews (catalog: arxiv, open); IEA and IRENA renewable cost databases (open); MDPI Energies ORC reviews; www.mdpi.com is CDN-blocked, use the manual inbox (catalog: mdpi-energies, blocked). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
-- modular ORC installation in Southeast Asia (reference_plants): References read are European and North American. Web-checked 2026-10-28 (Indonesian geothermal ORC search hit an MCP error; no verifiable named SEA ORC package found on open pages before the error). Where: Turboden and Exergy reference lists: Indonesian geothermal fields are their natural market (open). Next: Add a Southeast Asian (ideally Indonesian geothermal) reference with capacity and year.
 - ORC cycle steps are textbook standard (process): The cycle description follows standard ORC engineering practice rather than one named source. Where: A licensor page or review paper describing the ORC process step by step (open). Next: Check the steps against a named source and cite it.
 
 Sources: [1](https://climeon.com/heatpower-300-technology/), [2](https://climeon.com/references/), [3](https://www.enogia.com/orc), [4](https://exergyint.com/orc/), [5](https://exergyint.com/radial-outflow-turbine/), [6](https://www.turboden.com/), [7](https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89), [8](https://electratherm.com/products/). Last reviewed 2026-11-16.
@@ -747,13 +751,15 @@ flowchart LR
 **Costs:**
 - global weighted-average utility-scale onshore wind cost: 1210 USD/kW installed (2018), average LCOE 0.056 USD/kWh (2018$); IRENA, Renewable Power Generation Costs in 2018: utility-scale onshore wind installed costs fell 13% to USD 1,210/kW in 2018 (2018 USD); weighted-average LCOE USD 0.056/kWh. [source](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf)
 
+**Reference plants:**
+- Fantanele-Cogealac wind farm, Romania: 600 MW (240 x GE 2.5xl); in operation 2012. [source](https://www.power-technology.com/projects/fantanele-cogealac-wind-farm)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Onshore wind' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - turbine ratings, capacity factors and installed cost with dollar year (performance): The DOE land-based wind market report page returned an error and the NREL ATB land-based wind page is blocked by robots.txt. Where: [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/land-based-wind-market-reports-2025-edition) (open); IRENA Renewable Power Generation Costs (catalog: irena, open). Next: Fetch a reachable edition and add figures with their year.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous technology, no single verifiable deployment added (Gobi/Mongolia farms exist but were not this pass). Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf), [3](https://en.wikipedia.org/wiki/Wind_power). Last reviewed 2026-10-29.
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf), [3](https://en.wikipedia.org/wiki/Wind_power). Last reviewed 2026-11-16.
 
 ## Powerships and power barges
 <a id="pwr-powerships-power-barges"></a>
@@ -786,10 +792,10 @@ flowchart LR
 - DR Bird I and II, Jamaica: 50 MW (new unit); Wärtsilä power barges; repeat order for a third 50 MW barge with three 18V46 sets. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
 - Tacoa floating power barges, supplying Caracas, Venezuela: 2 x 171 MW; installed by Waller Marine in a prepared basin. [source](https://www.marinelink.com/news/waller-marine-installs-floating-power-generation-barges-venezuela-338083)
 - Karpowership Indonesia floating power plants with PAL Indonesia shipyard cooperation, ID: Karpowership Indonesia operates floating power plants; cooperation agreement with state shipbuilder PAL Indonesia to build power ships for Indonesia (2016); per-ship capacity not stated in the source; operating. [source](https://www.thejakartapost.com/news/2016/10/28/karpowership-pal-to-build-power-ships-to-light-up-indonesia)
+- MV Karadeniz Powership Osman Khan (Karpowership), Ghana: 470 MW installed; 450 MW under the ECG PPA; deployed August 2017. [source](https://karpowership.com/media/s1wesz43/ghana.pdf)
 
 **Missing inputs:**
 - charter rate or levelised cost per MWh for a powership, with dollar year and basis (costs): Operator and packager pages read do not publish prices. Web-checked 2026-10-28; charter rates are contract-confidential. Where: arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation (catalog: arxiv, open); Regulator filings, for example South Africa NERSA hearings on Karpowership tariffs (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
-- operating powership or barge in Southeast Asia with capacity (reference_plants): Karpowership lists Indonesia among its operating countries, but the pages read give no Indonesian capacity or vessel name. Karpowership/PAL Indonesia reference added (2016); a verifiable per-ship MW figure for a SEA powership was not found, 2026-10-28. Where: Karpowership reference lists and Indonesian PLN procurement announcements (open). Next: Add a Southeast Asian reference with vessel name, capacity and years.
 - connection sequence is generalised from vendor claims (process): Vendor pages state 'weeks, not years' but do not document the step-by-step connection process. Where: Port authority or regulator case documents for a specific powership project (open). Next: Check the steps against a named project document.
 - TRL with a cited source (trl): No agency TRL row corresponds to this power technology in the IEA guide. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
@@ -844,14 +850,16 @@ flowchart LR
 - North American VPP capacity: 37.5 GW; 2025. [source](https://en.wikipedia.org/wiki/Virtual_power_plant)
 - AGL South Australia VPP: 25-37 MW solar and MW storage; 2025 programme size after AGL acquisition. [source](https://en.wikipedia.org/wiki/Virtual_power_plant)
 
+**Reference plants:**
+- Next Kraftwerke Next Pool VPP, Germany (plus seven EU countries): 15,541 MW networked; 14,375 units; operating, Q4 2025 figures. [source](https://www.next-kraftwerke.com/vpp)
+
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Virtual power plants' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
 - microgrid examples for oil and gas operations (performance): Wikipedia covers VPPs only. Web-checked 2026-10-28; O&G microgrid case studies are vendor-published without verifiable figures. Where: Operator microgrid case studies (open). Next: Add an oil and gas microgrid reference.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named O&G microgrid with figures found. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
-Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant), [2](https://en.wikipedia.org/wiki/Smart_grid). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant), [2](https://en.wikipedia.org/wiki/Smart_grid). Last reviewed 2026-11-16.
 
 ## Ammonia co-firing in coal boilers
 <a id="pwr-ammonia-coal-cofiring"></a>

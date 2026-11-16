@@ -100,7 +100,7 @@
       "note": "NETL project kickoff slides, Verdox electro-swing adsorption DAC (February 2021)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -126,19 +126,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "reference_plants",
-      "item": "named plants or projects with capacity and year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added (laboratory/pilot stage).",
-      "where": [
-        {
-          "hint": "Licensor and operator press releases for the suppliers listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -150,6 +137,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Mission Zero direct air capture at O.C.O Technology",
+      "country": "United Kingdom",
+      "capacity": "up to 250 t CO2/yr",
+      "status": "operating 2025",
+      "source": {
+        "url": "https://www.missionzero.tech/projects/oco-technology",
+        "note": "Mission Zero project page for the O.C.O Technology installation, read 2026-11-16"
+      },
+      "project_id": "mission-zero-oco-technology",
+      "year": 2025
     }
   ]
 }

@@ -148,21 +148,8 @@
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "reference_plants",
-      "item": "operating compression units at CCS plants",
-      "reason_code": "not_in_sources_read",
-      "reason": "The report read is a design study. Web-checked 2026-10-28: operating CCS plants with compression are named in the GCI 2026 status document already cited (Quest, Gorgon, Northern Lights); no separate compression-unit register found.",
-      "where": [
-        {
-          "hint": "Boundary Dam, Quest, Sleipner papers",
-          "access": "open"
-        }
-      ],
-      "action": "Add operating references."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -175,6 +162,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "reference_plants": [
+    {
+      "name": "Quest CCS at the Scotford upgrader (Shell)",
+      "country": "Canada",
+      "capacity": "about 1 Mt CO2/yr (Fluor states up to 1.2 Mt)",
+      "status": "operating since 2015",
+      "source": {
+        "url": "https://ccsknowledge.com/technical-studies/shell-quest-carbon-capture-and-storage-facility-a-case-study",
+        "note": "CCS Knowledge case study on Quest: about 1 Mt/yr, CO2 compressed and dehydrated, read 2026-11-16"
+      },
+      "project_id": "quest-scotford-upgrader-shell",
+      "year": 2015
     }
   ]
 }

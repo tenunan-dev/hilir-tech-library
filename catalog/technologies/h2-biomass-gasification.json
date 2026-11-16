@@ -133,20 +133,20 @@
       "note": "Wikipedia: Gasification — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
-  "gaps": [
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
+  "reference_plants": [
     {
-      "field": "reference_plants",
-      "item": "operating biomass-to-hydrogen plants",
-      "reason_code": "not_in_sources_read",
-      "reason": "IEA says output is marginal; no plant is named in sources read. Web-checked 2026-10-28; no named operating BTH plant found open.",
-      "where": [
-        {
-          "hint": "IEA Bioenergy Task 33 gasification database",
-          "access": "open"
-        }
-      ],
-      "action": "Add one or two operating plants."
+      "name": "GoBiGas (Goteborg Energi)",
+      "country": "Sweden",
+      "capacity": "20 MW biomethane from 32 MW fuel",
+      "status": "phase 1 2014; mothballed and sold after 2018",
+      "source": {
+        "url": "https://www.ieabioenergy.com/wp-content/uploads/2018/06/GoBiGas_Webinar_20_june_final.pdf",
+        "note": "IEA Bioenergy webinar slides on GoBiGas: 20 MW biomethane, 2014, read 2026-11-16"
+      },
+      "project_id": "gobigas",
+      "year": 2014
     }
   ]
 }

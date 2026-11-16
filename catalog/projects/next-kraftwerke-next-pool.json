@@ -1,0 +1,32 @@
+{
+  "id": "next-kraftwerke-next-pool",
+  "name": "Next Kraftwerke Next Pool VPP",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Germany (plus seven EU countries)",
+  "status": "operating",
+  "description": "Virtual power plant pooling distributed generation and flexible demand across eight European markets.",
+  "technologies": [
+    "pwr-smart-grids-vpp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.next-kraftwerke.com/vpp",
+      "note": "Next Kraftwerke VPP page: 15,541 MW and 14,375 units networked, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.next-kraftwerke.com/vpp",
+        "note": "Next Kraftwerke VPP page: 15,541 MW and 14,375 units networked, read 2026-11-16"
+      },
+      "date": "2025",
+      "event": "start-up / delivery"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ichthys-lng",
+  "name": "Ichthys LNG",
+  "project_type": "greenfield",
+  "sector": "GAS",
+  "sector_codes": [
+    "GAS"
+  ],
+  "country": "Australia",
+  "status": "operating",
+  "description": "LNG plant with gas-phase mercury removal units ahead of acid gas removal.",
+  "technologies": [
+    "gas-mercury-removal"
+  ],
+  "sources": [
+    {
+      "url": "https://www.inpex.com.au/projects/ichthys-lng",
+      "note": "INPEX project page; NT EPA onshore EMP confirms gas-phase MRUs ahead of the AGRUs, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "milestones": [
+    {
+      "source": {
+        "url": "https://www.inpex.com.au/projects/ichthys-lng",
+        "note": "INPEX project page; NT EPA onshore EMP confirms gas-phase MRUs ahead of the AGRUs, read 2026-11-16"
+      },
+      "date": "2018",
+      "event": "start-up / delivery"
+    }
+  ]
+}
