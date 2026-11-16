@@ -1,8 +1,12 @@
+# Manual only (2026-11-16): the weekly/monthly crons were removed. They spent Actions minutes on
+# every run and pushed a bot commit back to the repo, which is now storage rather than a pipeline.
+# The collection itself still works and is run locally:
+#   python collectors/collect.py --source arxiv --limit 25
+#   python collectors/collect.py --source osti  --limit 25
+#   python tools/check_links.py            # monthly
+#   python tools/build.py && python agent/library.py build
 name: Refresh corpus and links
 on:
-  schedule:
-    - cron: "0 2 * * 1"   # Mondays 02:00 UTC: collect new arXiv and OSTI records
-    - cron: "0 3 1 * *"   # 1st of the month: also check every catalog link
   workflow_dispatch:
 permissions:
   contents: write

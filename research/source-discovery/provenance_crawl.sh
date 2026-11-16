@@ -2,7 +2,7 @@
 # A7 vendor-provenance crawl: fetch contractor-cohort vendor pages via curl, save raw
 # HTML/text under research/provenance/ for candidate extraction. Read-only fetches,
 # polite delays, fixed target list from /tmp/provenance_targets.txt.
-cd "/Users/faisal.muthalib/Documents/VibeProject/O&G_Technologies_Library/hilir-tech-library" || exit 1
+cd "/Users/faisal.muthalib/VibeProject/O&G_Technologies_Library/hilir-tech-library" || exit 1
 mkdir -p research/provenance
 while read -r id url; do
   [ -z "$id" ] && continue

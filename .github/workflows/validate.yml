@@ -1,7 +1,9 @@
+# Manual only (2026-11-16): GitHub is repo storage, not the pipeline. Nothing here may run on a
+# push — that spends the owner's exhausted Actions quota to repeat a check `pytest -q` already
+# runs locally. Trigger by hand from the Actions tab only if a second opinion is ever wanted.
 name: Validate catalog
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 jobs:
   validate:
     runs-on: ubuntu-latest

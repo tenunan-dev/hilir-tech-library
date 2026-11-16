@@ -41,20 +41,32 @@ cd ".../hilir-tech-library/deploy/frontend" && npx wrangler deploy
 cd ".../hilir-tech-library/deploy/backend"  && npx wrangler deploy
 ```
 
-Containers (CI builds on `workflow_dispatch`/`v*` tags → ghcr; the VPS pulls — techlib images
-are public, no token needed). **VPS operations follow the owner's agent playbook**
-(`~/Documents/VibeProject/VPS Control/operations/AGENT-PLAYBOOK.md`): agents connect with
-`ssh -i ~/.ssh/agent_dsh agent@15.235.248.33`, and the only sudo verb on the box is `vps *` —
-`sudo vps deploy techlib` syntax-checks compose, records a rollback point, pulls, runs
-`up -d --wait` behind a 120 s health gate and auto-rolls back on failure:
+Containers (**Mac build → VPS load**, 2026-11-16). GitHub is repo storage only — its Actions quota
+is exhausted, so the `images` workflow no longer builds and ghcr is out of the deploy path. The two
+images are built here for `linux/amd64` with the ghcr tags the VPS compose already references, then
+streamed in and activated from local images:
 
 ```bash
-gh workflow run images --repo tenunan-dev/hilir-tech-library --ref <branch>
-ssh -i ~/.ssh/agent_dsh agent@15.235.248.33 "sudo vps deploy techlib"
+deploy/local-images.sh            # build → docker save | gzip | ssh 'gunzip | sudo vps load' → sudo vps up techlib → gate
+```
+
+The emulated arm64→amd64 build is slow (15-30 min cold) but costs nothing; the VPS must never build
+these itself (4 GB — both images bake the corpus and warm the fastembed model). Read the script's
+header for `--build-only` / `--ship-only` / `--dry-run`. Activate with `sudo vps up techlib`, never
+`sudo vps deploy techlib`: `deploy` pulls `:latest` from ghcr and would overwrite what was loaded.
+
+**VPS operations follow the owner's agent playbook**
+(`~/VibeProject/VPS Control/operations/AGENT-PLAYBOOK.md`): agents connect with
+`ssh -i ~/.ssh/agent_dsh agent@15.235.248.33`, and the only sudo verb on the box is `vps *` —
+`sudo vps up techlib` syntax-checks compose, records a rollback point, runs `up -d --wait` behind a
+120 s health gate and auto-rolls back on failure:
+
+```bash
+deploy/local-images.sh                     # build both, load both, `sudo vps up techlib`, gate
 ssh -i ~/.ssh/agent_dsh agent@15.235.248.33 "sudo vps status && sudo vps health"
 ```
 
-**EXPECT** `images` success, both containers Up, and the health gate line
+**EXPECT** both containers Up, and the health gate line
 `mygis 303, techlib-origin 403, tlea-origin 403` — then report the pulled digest (from
 `/var/log/vps-deploy.log`), the gate line and the rollback command (playbook §4). The
 pre-playbook path (raw `docker compose pull` over the `mygis_deploy` key) is superseded: agents

@@ -572,8 +572,12 @@ def get_document(path, db=None, exclude_restricted=False):
         return None
     if exclude_restricted and doc_restricted(db, row["path"], json.loads(row["record"])):
         return {"path": row["path"], "error": "Private reference copy; not served by this server. Cite the source url instead."}
+    # The baked root is absolute and machine-specific, so a checkout that was moved after the
+    # build still holds the old one. Prefer it while it resolves, then fall back to this checkout.
     root = db.execute("SELECT value FROM info WHERE key = 'root'").fetchone()
-    meta, body = read_document(pathlib.Path(root[0] if root else ROOT) / row["path"])
+    bases = [pathlib.Path(root[0]) if root else ROOT, ROOT]
+    doc_path = next((b / row["path"] for b in bases if (b / row["path"]).exists()), bases[0] / row["path"])
+    meta, body = read_document(doc_path)
     return {"path": row["path"], "meta": meta, "text": body}
 
 
