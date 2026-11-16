@@ -17,7 +17,7 @@
     "idc-immersion-cooling"
   ],
   "url": "https://www.asperitas.com/",
-  "notes": "A 2023-24 insolvency was checked for and NOT corroborated: no loaded page reports administration, bankruptcy or an asset sale, and the company was still funded and trading as of March 2026.",
+  "notes": "A 2023-24 insolvency was checked for and NOT corroborated: no loaded page reports administration, bankruptcy or an asset sale, and the company was still funded and trading as of March 2026. Re-checked 2026-11-16: asperitas.com returns HTTP 200 with 2026-dated content and live news pages, so the record stays LIVE, not historical.",
   "sources": [
     {
       "url": "https://www.asperitas.com/",
@@ -26,6 +26,10 @@
     {
       "url": "https://www.datacenterdynamics.com/en/news/immersion-cooling-firm-asperitas-secures-investment-from-thailands-stecon-group-and-invest-nl",
       "note": "September 2025 scale-up round, read 2026-11-16"
+    },
+    {
+      "url": "https://www.asperitas.com/",
+      "note": "Status re-check 2026-11-16: homepage HTTP 200, 111 KB, 2026-dated content and /news pages live"
     }
   ],
   "last_reviewed": "2026-11-16"
