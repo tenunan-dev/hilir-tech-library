@@ -1,0 +1,35 @@
+{
+  "id": "motivair",
+  "name": "Motivair",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Lancaster, New York cooling vendor covering the chip-to-white-space set: in-rack coolant distribution units, ChilledDoor rear-door heat exchangers, cold plates, manifolds and chillers. Schneider Electric acquired a 75% controlling interest, completed 28 February 2025, with the remaining 25% due in 2028; it now trades as 'Motivair by Schneider Electric'.",
+  "products": [
+    "In-rack CDUs",
+    "ChilledDoor rear-door heat exchanger",
+    "Heat Dissipation Unit (HDU)",
+    "Dynamic cold plates",
+    "Free-cooling and low-temperature chillers"
+  ],
+  "technologies": [
+    "idc-direct-to-chip-liquid-cooling"
+  ],
+  "url": "https://www.motivaircorp.com/",
+  "notes": "An earlier note attributing Motivair to Chart Industries was wrong on every page read: Chart is never mentioned. The owner is Schneider Electric, reported within its Energy Management business.",
+  "sources": [
+    {
+      "url": "https://www.motivaircorp.com/",
+      "note": "Products, Lancaster NY address, 'Motivair by Schneider Electric', read 2026-11-16"
+    },
+    {
+      "url": "https://live.euronext.com/sites/default/files/company_press_releases/attachments/2025/02/28/cpr03_lesechos_16165_1318109_2025.02.28_Schneider_Electric_completes_acquisition_of_Motivair_Corporation_PR_vF.pdf",
+      "note": "75% acquired, completed 28 Feb 2025, 25% in 2028, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

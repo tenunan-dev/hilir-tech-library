@@ -1,0 +1,32 @@
+{
+  "id": "submer",
+  "name": "Submer",
+  "country": "ES",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Barcelona immersion-cooling company selling SmartPod EVO and SmartPod EXO systems, with design-and-build services and adjacent GPUaaS ventures. Founded 2015; North American headquarters in Houston and a Taipei office.",
+  "products": [
+    "SmartPod EVO",
+    "SmartPod EXO",
+    "Immersion design and build"
+  ],
+  "technologies": [
+    "idc-immersion-cooling"
+  ],
+  "url": "https://submer.com/",
+  "sources": [
+    {
+      "url": "https://submer.com/about/",
+      "note": "SmartPod lines, Barcelona HQ, founding 2015, read 2026-11-16"
+    },
+    {
+      "url": "https://submer.com/contact/",
+      "note": "Houston and Taipei offices, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

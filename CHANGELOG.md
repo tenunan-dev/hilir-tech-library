@@ -8,6 +8,22 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.4] — 2026-11-16 — the data-centre vendor cohort; IDC queue drained
+
+### Added
+
+- **Fifteen vendor records** closing every remaining IDC queue name: Asperitas, Boyd, Caterpillar, CoolIT Systems, Enel X, GRC, GridBeyond, LiquidStack, Motivair, Munters, NVIDIA, STULZ, Submer and Uptime Institute, plus one Legrand record carrying Raritan, Server Technology and Starline Power as aliases. Vendors 511 → **526**; the IDC queue is empty.
+
+### Corrected
+
+- **Motivair is a Schneider Electric company** (75% closed 28 Feb 2025, 25% due 2028), not Chart Industries — the earlier attribution was wrong on every page read.
+- **LiquidStack was acquired by Trane Technologies** (completed 3 Mar 2026) and **CoolIT is being acquired by Ecolab** (agreement 20 Mar 2026, about $4.75bn, completion unconfirmed); **Boyd's thermal business went to Eaton** for $9.5bn; **Enel X is reorganised rather than sold**, with North American demand response now under Enel North America.
+- Attributions that no page supports are flagged rather than smoothed: Boyd's cold-plate/coolant-loop role is unconfirmed (its data-centre content is EMI/RFI shielding), and **Asperitas is trading and funded**, not insolvent — that premise was checked in English and Dutch and not corroborated.
+
+### Published
+
+- Neon reloaded: 510 sources / 289 documents / 15,116 chunks / 388 cards / **526 vendors** / 241 projects; 4,583 nodes, 13,399 edges, 16,809 vectors. SQL-verified, including all 15 new IDC vendors.
+
 ## [2026.11.16.3] — 2026-11-16 — wastewater cost fills; only sourceless gaps left open
 
 ### Added

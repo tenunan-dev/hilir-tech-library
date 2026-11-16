@@ -1,0 +1,31 @@
+{
+  "id": "stulz",
+  "name": "STULZ",
+  "country": "DE",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Hamburg family-owned cooling manufacturer for data centres and server rooms: precision close-control air conditioning, high-density and rack-based cooling, liquid cooling, chillers, air-handling units and micro data centres, with monitoring.",
+  "products": [
+    "Precision air conditioning",
+    "High-density and rack-based cooling",
+    "Liquid cooling",
+    "Chillers and AHUs",
+    "Micro data centres"
+  ],
+  "technologies": [
+    "idc-air-cooling"
+  ],
+  "url": "https://www.stulz.com/",
+  "notes": "Describes itself as a Hamburg-based family business; no acquisition or ownership change was found. The pages avoid the phrase 'precision air conditioning' in the copy read, though the product taxonomy is close-control cooling.",
+  "sources": [
+    {
+      "url": "https://www.stulz.com/about-stulz/",
+      "note": "Hamburg-based family business, product list, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

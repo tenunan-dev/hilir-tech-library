@@ -1,0 +1,34 @@
+{
+  "id": "uptime-institute",
+  "name": "Uptime Institute",
+  "country": "US",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "New York advisory and certification body for digital infrastructure rather than an equipment vendor: it runs the Tier Standard and Tier certifications, management-and-operations reviews, risk, energy and sustainability assessments, education, and the Uptime Intelligence research service whose industry surveys the card's benchmarks draw on. Owned by The 451 Group.",
+  "products": [
+    "Tier Standard and Tier Certification",
+    "Management & Operations reviews",
+    "Uptime Intelligence research",
+    "Data Center Industry Surveys"
+  ],
+  "technologies": [
+    "idc-energy-water-benchmarking"
+  ],
+  "url": "https://uptimeinstitute.com/",
+  "notes": "Registered as an advisory body, not a vendor: the card cites it for survey benchmarking and PUE guidance. PUE-specific guidance was not visible on the pages read, so a PUE standard is not attributed to it here; the 2019 451 Research sale to S&P Global left 451 Group focused on Uptime Institute, and no sale of Uptime Institute itself was found.",
+  "sources": [
+    {
+      "url": "https://uptimeinstitute.com/about-ui",
+      "note": "Advisory organisation, Tier Standard, certifications, research, read 2026-11-16"
+    },
+    {
+      "url": "https://uptimeinstitute.com/about-ui/press-releases/the-451-group-to-focus-on-expansion-of-uptime-institute,-the-global-digital-infrastructure-authority",
+      "note": "451 Group ownership and focus after the 451 Research sale, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

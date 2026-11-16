@@ -1,0 +1,33 @@
+{
+  "id": "munters",
+  "name": "Munters",
+  "country": "SE",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Kista-based Munters Group sells air, liquid and hybrid cooling for data centres through its Data Center Technologies arm: chillers, CDUs, CRAHs, dry coolers and the Oasis IEC indirect evaporative cooler, which uses a separate air path so no moisture enters the server space.",
+  "products": [
+    "Oasis IEC indirect evaporative cooler",
+    "DSS Pro desiccant systems",
+    "Data-centre chillers, CDUs, CRAHs and dry coolers"
+  ],
+  "technologies": [
+    "idc-free-cooling-economisers"
+  ],
+  "url": "https://www.munters.com/",
+  "notes": "'Adiabatic' is our card's label, not the vendor's: the word does not appear on the pages read. Most munters.com section pages returned a Cloudflare 403; facts come from the corporate root and datacenter.munters.com.",
+  "sources": [
+    {
+      "url": "https://datacenter.munters.com/product/oasis-iec",
+      "note": "Oasis IEC: indirect evaporative cooling without adding moisture, read 2026-11-16"
+    },
+    {
+      "url": "https://www.munters.com/",
+      "note": "Munters Group AB, Kista, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

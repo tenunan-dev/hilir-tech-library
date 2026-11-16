@@ -1,0 +1,33 @@
+{
+  "id": "nvidia",
+  "name": "NVIDIA",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Accelerator vendor whose rack-scale platforms set the power and cooling envelope for AI halls. GB300 NVL72 is a fully liquid-cooled rack integrating 72 Blackwell Ultra GPUs and 36 Arm-based Grace CPUs; GB200 NVL72 is the earlier liquid-cooled rack-scale design.",
+  "products": [
+    "GB300 NVL72",
+    "GB200 NVL72",
+    "Grace Blackwell platforms"
+  ],
+  "technologies": [
+    "idc-ai-load-profiles"
+  ],
+  "url": "https://www.nvidia.com/",
+  "notes": "Neither product page states a kW-per-rack figure; the liquid-cooling claim is a design property, not a stated requirement. A rack-power number for the card must come from a DGX SuperPOD reference architecture, not these pages.",
+  "sources": [
+    {
+      "url": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/",
+      "note": "72 Blackwell Ultra GPUs + 36 Grace CPUs, fully liquid-cooled rack-scale, read 2026-11-16"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/contact/",
+      "note": "Santa Clara HQ, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

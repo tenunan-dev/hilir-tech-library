@@ -1,0 +1,33 @@
+{
+  "id": "boyd",
+  "name": "Boyd Corporation",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Thermal-management and engineered-materials company. Its thermal business was sold to Eaton for $9.5 billion (announced November 2025, completed March 2026); Boyd Corporation continues separately with sealing, protection and EMI/RFI products.",
+  "products": [
+    "Thermal management (sold to Eaton)",
+    "EMI/RFI shielding for AI data centres",
+    "Sealing and protection"
+  ],
+  "technologies": [
+    "idc-direct-to-chip-liquid-cooling"
+  ],
+  "url": "https://www.boydcorp.com/",
+  "notes": "The card cites Boyd for liquid-cooling loops and cold plates, but no Boyd page read on 2026-11-16 mentions cold plates, CDUs or coolant loops - its data-centre content is EMI/RFI shielding. The thermal business now sits with Eaton, and Eaton's thermal pages timed out. Treat the cold-plate attribution as unconfirmed until Eaton's product pages are read.",
+  "sources": [
+    {
+      "url": "https://www.boydcorp.com/",
+      "note": "Homepage: 'Boyd Thermal is now part of Eaton!', read 2026-11-16"
+    },
+    {
+      "url": "https://www.boydcorp.com/boyd-completes-the-sale-of-its-thermal-business-to-eaton-for-9-5-billion.html",
+      "note": "Sale completion, $9.5bn, Boca Raton dateline, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

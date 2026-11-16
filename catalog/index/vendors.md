@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-511 vendor records covering 311 technologies. One record per vendor in
+526 vendor records covering 320 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -223,15 +223,30 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | --- | --- | --- | --- |
 | [AirTrunk](https://airtrunk.com) | Australia | developer, operator | SMR and fuel-cell power purchase for data centres |
 | [Anord Mardix](https://www.anordmardix.com) | Ireland | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Asperitas](https://www.asperitas.com/) | NL | oem | Immersion cooling |
+| [Boyd Corporation](https://www.boydcorp.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Caterpillar](https://www.caterpillar.com/) | US | oem | Behind-the-meter gas generation for data centres |
+| [CoolIT Systems](https://www.coolitsystems.com/) | CA | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Digital Realty](https://www.digitalrealty.com) | USA | developer, operator | SMR and fuel-cell power purchase for data centres |
 | [DPR Construction](https://www.dpr.com) | USA | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Enel X](https://www.enelx.com/) | IT | service | Data centre grid interaction (demand response and frequency services) |
 | [Equinix](https://www.equinix.com) | USA | operator | SMR and fuel-cell power purchase for data centres |
 | [Fortis Construction](https://fortisconstruction.com) | USA | epc | Data centre siting and power procurement |
+| [Green Revolution Cooling (GRC)](https://www.grcooling.com/) | US | oem | Immersion cooling |
+| [GridBeyond](https://gridbeyond.com/) | IE | service | Data centre grid interaction (demand response and frequency services) |
 | [Holder Construction](https://www.holderconstruction.com) | USA | epc | Data centre siting and power procurement |
+| [Legrand](https://www.legrand.com/) | FR | oem | Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Medium-voltage switchgear and busway in the data hall |
+| [LiquidStack](https://www.liquidstack.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Mace Group](https://www.macegroup.com) | United Kingdom | epc, service | Data centre siting and power procurement |
 | [Mercury Engineering](https://www.mercuryeng.com) | Ireland | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Motivair](https://www.motivaircorp.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [Munters](https://www.munters.com/) | SE | oem | Free cooling and economisers |
+| [NVIDIA](https://www.nvidia.com/) | US | oem | AI-training and inference load profiles |
 | [Rittal](https://www.rittal.com) | Germany | oem, supplier | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Rosendin Electric](https://www.rosendin.com) | USA | epc | Data centre UPS systems (double-conversion, lithium, modular); Direct-to-chip liquid cooling (cold plates and CDUs) |
+| [STULZ](https://www.stulz.com/) | DE | oem | Air cooling (CRAH/CRAC, hot/cold aisle containment) |
+| [Submer](https://submer.com/) | ES | oem | Immersion cooling |
+| [Uptime Institute](https://uptimeinstitute.com/) | US | service | Data centre energy and water benchmarking (PUE/WUE) |
 
 ## INS: Instrumentation and control
 
@@ -674,9 +689,8 @@ company names are listed as card notes below. Adding a record for a queue entry 
 batch of this directory.
 
 - **CIV** (1): CIDB Malaysia
-- **ELE** (4): Grid System Operator (GSO); Hyundai Electric; nVent ERICO; Tenaga Nasional Berhad (TNB)
+- **ELE** (3): Grid System Operator (GSO); Hyundai Electric; Tenaga Nasional Berhad (TNB)
 - **HSE** (1): Flare Ventures
-- **IDC** (17): Asperitas; Boyd; Caterpillar; CoolIT Systems; Enel X; GRC (Green Revolution Cooling); GridBeyond; LiquidStack; Motivair; Munters; NVIDIA; Raritan (Legrand); Server Technology; Starline Power; Stulz; Submer; Uptime Institute
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
@@ -688,4 +702,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-359 of 388 cards list at least one directory vendor.
+360 of 388 cards list at least one directory vendor.

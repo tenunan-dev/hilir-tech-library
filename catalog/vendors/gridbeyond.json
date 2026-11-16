@@ -1,0 +1,32 @@
+{
+  "id": "gridbeyond",
+  "name": "GridBeyond",
+  "country": "IE",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "utility"
+  ],
+  "description": "Dublin-based energy-services company running AI-optimised demand-side response and funded battery storage, with data centres among the sectors it serves. Backed by investors including Samsung Ventures, ABB, Constellation, EDP and Yokogawa.",
+  "products": [
+    "Demand-side response",
+    "Funded battery storage",
+    "Distributed-asset optimisation"
+  ],
+  "technologies": [
+    "idc-grid-interaction"
+  ],
+  "url": "https://gridbeyond.com/",
+  "sources": [
+    {
+      "url": "https://gridbeyond.com/",
+      "note": "Demand-side response, battery storage, investor list, read 2026-11-16"
+    },
+    {
+      "url": "https://gridbeyond.com/contact/",
+      "note": "Dublin 24, Citywest Business Campus, labelled Headquarters, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

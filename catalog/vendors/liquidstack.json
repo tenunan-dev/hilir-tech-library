@@ -1,0 +1,33 @@
+{
+  "id": "liquidstack",
+  "name": "LiquidStack",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Liquid-cooling systems vendor in Carrollton, Texas, selling coolant distribution units and high-density cooling for AI workloads. Trane Technologies completed its acquisition in March 2026.",
+  "products": [
+    "CDU 1.X",
+    "CDU 2.X",
+    "GigaModular CDU"
+  ],
+  "technologies": [
+    "idc-direct-to-chip-liquid-cooling"
+  ],
+  "url": "https://www.liquidstack.com/",
+  "notes": "The homepage presents a CDU-centric portfolio and does not mention immersion, while Trane's release describes 'liquid, direct-to-chip, and immersion cooling' - the immersion capability is the parent's wording, not the vendor page's.",
+  "sources": [
+    {
+      "url": "https://www.liquidstack.com/",
+      "note": "CDU product lines, Carrollton TX, read 2026-11-16"
+    },
+    {
+      "url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Completes-Acquisition-of-LiquidStack/default.aspx",
+      "note": "Trane acquisition completed 3 March 2026, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

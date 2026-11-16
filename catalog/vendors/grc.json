@@ -1,0 +1,32 @@
+{
+  "id": "grc",
+  "name": "Green Revolution Cooling (GRC)",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Austin, Texas immersion-cooling vendor: single-phase immersion tanks and racks, dielectric fluids and system management, sold as ICEraQ, ICETank and ElectroSafe product lines.",
+  "products": [
+    "ICEraQ SX / Nano / Flex / Micro",
+    "ICETank",
+    "ElectroSafe fluids",
+    "System Manager"
+  ],
+  "technologies": [
+    "idc-immersion-cooling"
+  ],
+  "url": "https://www.grcooling.com/",
+  "sources": [
+    {
+      "url": "https://www.grcooling.com/",
+      "note": "Product lines and Austin TX base, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16",
+  "aliases": [
+    "GRC"
+  ]
+}

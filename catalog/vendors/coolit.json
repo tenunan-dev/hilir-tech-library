@@ -1,0 +1,33 @@
+{
+  "id": "coolit",
+  "name": "CoolIT Systems",
+  "country": "CA",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Calgary direct-liquid-cooling specialist: coolant distribution units, coldplates, coldplate loops and rack manifolds. Acquired by KKR in 2023; Ecolab announced an agreement in March 2026 to buy it from KKR funds for about $4.75 billion in cash.",
+  "products": [
+    "Coolant distribution units (CDUs)",
+    "Coldplates and coldplate loops",
+    "Rack manifolds"
+  ],
+  "technologies": [
+    "idc-direct-to-chip-liquid-cooling"
+  ],
+  "url": "https://www.coolitsystems.com/",
+  "notes": "Ecolab's release announces an agreement, not completion; no page read confirms the deal closed.",
+  "sources": [
+    {
+      "url": "https://www.coolitsystems.com/contact/",
+      "note": "Calgary address and product family, read 2026-11-16"
+    },
+    {
+      "url": "https://investor.ecolab.com/news/news-details/2026/Ecolab-to-Acquire-CoolIT-Systems-a-Global-Leader-in-Advanced-Liquid-Cooling-for-Next-Gen-AI-Data-Centers/default.aspx",
+      "note": "Ecolab agreement, about $4.75bn from KKR funds, 20 March 2026, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

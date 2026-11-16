@@ -1,0 +1,33 @@
+{
+  "id": "caterpillar",
+  "name": "Caterpillar",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Large diesel and natural-gas engine maker whose reciprocating gensets are sold for behind-the-meter prime power at data centres, up to about 10 MW per engine. It is expanding large-engine capacity at Lafayette, Indiana: a $725 million 2024 programme plus $890 million more, about $1.615 billion in total.",
+  "products": [
+    "10 MW-class medium-speed gas engines",
+    "G3516 fast-response natural gas gensets",
+    "Diesel and gas generator sets"
+  ],
+  "technologies": [
+    "idc-behind-the-meter-gas"
+  ],
+  "url": "https://www.caterpillar.com/",
+  "notes": "cat.com product and newsroom pages timed out repeatedly on 2026-11-16; the capacity figures come from trade and investor coverage. The G3516 named in the January 2026 investor release is far below 10 MW - the 10 MW-class claim rests on Caterpillar's own commentary about reciprocating engines 'as large as 10 megawatts'.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/energy/articles/caterpillar-sees-strong-2026-start-220313330.html",
+      "note": "Large-engine capacity at 3x the 2024 level; engines up to 10 MW; behind-the-meter data centres, read 2026-11-16"
+    },
+    {
+      "url": "https://manufacturing-today.com/news/caterpillar-targets-890-million-boost-to-manufacturing-capacity",
+      "note": "Lafayette, Indiana: $890M on top of $725M = about $1.615bn, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

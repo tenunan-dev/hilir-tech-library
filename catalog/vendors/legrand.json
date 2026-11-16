@@ -1,0 +1,50 @@
+{
+  "id": "legrand",
+  "name": "Legrand",
+  "country": "FR",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "aliases": [
+    "Raritan",
+    "Server Technology",
+    "Starline Power",
+    "Starline"
+  ],
+  "description": "Limoges-based electrical-infrastructure group whose data-centre brand family covers rack power and power distribution: Raritan for intelligent PDUs, KVM and DCIM; Server Technology for rack PDUs including 415 V and -48 V DC ranges; Starline for Track, Series-S and high-power busway.",
+  "products": [
+    "Raritan intelligent PDUs and KVM",
+    "Server Technology PRO4X/PRO3X rack PDUs",
+    "Server Technology 415 V and -48 V DC PDUs",
+    "Starline Track and Series-S busway",
+    "Starline high-power busway"
+  ],
+  "technologies": [
+    "idc-rack-power-distribution",
+    "idc-mv-switchgear-busway"
+  ],
+  "url": "https://www.legrand.com/",
+  "notes": "Three card suppliers (Raritan, Server Technology, Starline Power) are Legrand brands, so they are aliases on one company record rather than three duplicates. 'Legrand Data Center Solutions' reads as a brand family, not a formally reported segment; servertech.com does not itself state Legrand ownership in prose, so ownership is cited from legrand.us.",
+  "sources": [
+    {
+      "url": "https://www.legrand.com/datacenter/en",
+      "note": "Brand list: Starline, Raritan, Minkels, USystems, Server Technology, read 2026-11-16"
+    },
+    {
+      "url": "https://www.legrand.us/raritan",
+      "note": "Raritan: intelligent PDU and KVM solutions, a Legrand brand, read 2026-11-16"
+    },
+    {
+      "url": "https://www.legrand.us/server-technology",
+      "note": "Server Technology: PRO4X/PRO3X, 415V and -48VDC PDUs, read 2026-11-16"
+    },
+    {
+      "url": "https://www.starlinepower.com/",
+      "note": "Starline, a brand of Legrand; Track, Series-S, high-power busway, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

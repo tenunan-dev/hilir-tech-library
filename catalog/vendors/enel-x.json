@@ -1,0 +1,37 @@
+{
+  "id": "enel-x",
+  "name": "Enel X",
+  "country": "IT",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "utility"
+  ],
+  "description": "Enel's energy-services arm: demand response, virtual power plant and flexible-demand programmes, including data centres as a customer class. The business has been reorganised rather than sold - Italian solutions now sit on enel.it, the North American EV charging business ceased in October 2024, and North American demand response is presented under Enel North America.",
+  "products": [
+    "Demand response programmes",
+    "Virtual power plant and flexibility services",
+    "Energy management"
+  ],
+  "technologies": [
+    "idc-grid-interaction"
+  ],
+  "url": "https://www.enelx.com/",
+  "notes": "Recorded as Enel X (Enel X Italia S.r.l.), Rome, within the Enel Group. No loaded page states a sale of the demand-response business itself.",
+  "sources": [
+    {
+      "url": "https://www.enelx.com/au/en/demand-response",
+      "note": "Enel X Australia demand response programmes, read 2026-11-16"
+    },
+    {
+      "url": "https://www.enelnorthamerica.com/solutions/energy-solutions/demand-response",
+      "note": "North American demand response now under Enel North America, 15+ markets, read 2026-11-16"
+    },
+    {
+      "url": "https://www.enelx.com/",
+      "note": "Italian solutions migrated to enel.it, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}
