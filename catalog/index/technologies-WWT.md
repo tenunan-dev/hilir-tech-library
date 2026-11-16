@@ -4,39 +4,39 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Aerobic granular sludge treatment (Nereda)](#wwt-aerobic-granular-sludge) | Biological treatment | commercial |  | Royal HaskoningDHV (Nereda aerobic granular sludge technology (licensor)) |  |
-| [Anaerobic sludge digestion (mesophilic/thermophilic)](#wwt-sludge-digestion) | Sludge and biogas | commercial |  | Veolia (digestion configurations); Cambi (thermal hydrolysis pretreatment); Xergi (digester packages) | capital cost, two-stage anaerobic digestion system, 12 MGD plant (Grand Island, Nebraska): 10.7 USD million (2006$)<br>capital cost, two-stage TPAD anaerobic digestion system, 43 MGD plant (WLSSD Duluth): 32.6 USD million (2006$) |
-| [Biological nutrient removal (BNR)](#wwt-bnr) | Biological treatment | commercial |  | Jacobs (BNR process consulting); Veolia (BNR configurations) |  |
-| [Chlorination and dechlorination](#wwt-chlorination) | Disinfection and advanced oxidation | commercial |  | Evoqua Water Technologies (chlorination and dechlorination systems); Xylem (disinfection dosing) |  |
-| [Coagulation-flocculation and chemical precipitation](#wwt-coagulation-precipitation) | Physical and chemical treatment | commercial |  | Kemira (coagulants and polymers); Veolia (turnkey chemical treatment trains) |  |
-| [Conventional activated sludge](#wwt-activated-sludge) | Biological treatment | commercial |  | Xylem (Sanitaire aeration systems); Suez (aeration and clarification) | capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants above 0.02 MGD): 2-2.5 USD per gallon per day (2000$)<br>capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants below 0.02 MGD): 4-6 USD per gallon per day (2000$) |
-| [Dissolved air flotation (DAF)](#wwt-daf) | Physical and chemical treatment | commercial |  | Veolia (DAF flotation systems); Evoqua (DAF systems) |  |
+| [Aerobic granular sludge treatment (Nereda)](#wwt-aerobic-granular-sludge) | Biological treatment | commercial |  | Royal HaskoningDHV (Nereda aerobic granular sludge technology (licensor)) | installed capital cost, AGS plus tertiary UF upgrade: 1863 NIS per m3/d of capacity |
+| [Anaerobic sludge digestion (mesophilic/thermophilic)](#wwt-sludge-digestion) | Sludge and biogas | commercial |  | Veolia (digestion configurations); Cambi (thermal hydrolysis pretreatment); Xergi (digester packages) | capital cost, two-stage anaerobic digestion system, 12 MGD plant (Grand Island, Nebraska): 10.7 USD million (2006$)<br>capital cost, two-stage TPAD anaerobic digestion system, 43 MGD plant (WLSSD Duluth): 32.6 USD million (2006$)<br>operation and maintenance cost, anaerobic digestion: 9.39-51.51 USD per dry ton through the digesters (1999$) |
+| [Biological nutrient removal (BNR)](#wwt-bnr) | Biological treatment | commercial |  | Jacobs (BNR process consulting); Veolia (BNR configurations) | capital cost, BNR retrofit: 588000-6.972e+06 USD per mgd of capacity (2006$) |
+| [Chlorination and dechlorination](#wwt-chlorination) | Disinfection and advanced oxidation | commercial |  | Evoqua Water Technologies (chlorination and dechlorination systems); Xylem (disinfection dosing) | annualised capital cost, chlorination plus dechlorination plus fire-code compliance: 1.127e+06-1.434e+07 USD per mgd of capacity (1995$)<br>chemical-only disinfectant cost, sodium hypochlorite: 0.0166-0.066 USD per m3 treated (2024$) |
+| [Coagulation-flocculation and chemical precipitation](#wwt-coagulation-precipitation) | Physical and chemical treatment | commercial |  | Kemira (coagulants and polymers); Veolia (turnkey chemical treatment trains) | bulk coagulant price, liquid alum (iron-free): 152-269 USD per tonne (2000$) |
+| [Conventional activated sludge](#wwt-activated-sludge) | Biological treatment | commercial |  | Xylem (Sanitaire aeration systems); Suez (aeration and clarification) | capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants above 0.02 MGD): 2-2.5 USD per gallon per day (2000$)<br>capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants below 0.02 MGD): 4-6 USD per gallon per day (2000$)<br>plant electricity use, secondary treatment including sludge management: 1500-1700 kWh per million gallons treated<br>electricity cost, secondary treatment including sludge management: 0.036-0.0405 USD per m3 treated |
+| [Dissolved air flotation (DAF)](#wwt-daf) | Physical and chemical treatment | commercial |  | Veolia (DAF flotation systems); Evoqua (DAF systems) | total installed cost, dissolved air flotation thickener: 2640 USD per m3/h of design flow |
 | [Internal-circulation anaerobic reactor (Paques BIOPAQ IC)](#wwt-anaerobic-internal-circulation) | Anaerobic treatment | commercial |  | Paques (BIOPAQ IC / ICX internal-circulation reactors; BIOPAQ UASB family) |  |
-| [Lamella and high-rate clarifiers](#wwt-lamella-clarifier) | Physical and chemical treatment | commercial |  | Veolia (Actiflo high-rate clarifier); WesTech (lamella clarifiers) |  |
+| [Lamella and high-rate clarifiers](#wwt-lamella-clarifier) | Physical and chemical treatment | commercial |  | Veolia (Actiflo high-rate clarifier); WesTech (lamella clarifiers) | equipment cost, lamella settler in SUS 304: 300-600 USD per m3/h of design flow (2026$) |
 | [Mechanical sludge dewatering](#wwt-sludge-dewatering) | Sludge and biogas | commercial |  | Alfa Laval (decanters for sludge); Andritz (belt and filter presses); Flottweg (Tricanter/decanters); HUBER SE (screw presses (Q-PRESS)) | capital cost, belt filter press (0.5 m belt, about 500 dry lb/h): 47500 USD per press (2000$)<br>capital cost, belt filter press (1.5 m belt, about 1,625 dry lb/h): 115000 USD per press (2000$)<br>operation and maintenance cost, belt filter press: 80-200 USD per dry ton of solids (2000$) |
 | [Membrane bioreactor (MBR) wastewater treatment](#wwt-membrane-bioreactor) | Biological treatment | commercial |  | Kubota (Submerged Membrane Unit (SMU) flat-plate MBR, marketed since 1985); Suez (ZeeWeed hollow-fibre MBR); Toray (submerged flat-sheet MBR modules); Mitsubishi Chemical Aqua Solutions (submerged MBR membrane) | installed capital cost, MBR package plant: 7-20 USD per gallon per day (2007$)<br>installed capital cost, MBR plus granular activated carbon (12 MGD design, Loudoun County VA): 12 USD per gallon per day (2007$) |
-| [Microfiltration and ultrafiltration pretreatment](#wwt-uf-pretreatment) | Membrane and reuse | commercial |  | Suez (ZeeWeed 500D/1000 hollow-fibre UF); DuPont Water Solutions (IntegraFlux UF) |  |
-| [Moving bed biofilm reactor (MBBR/IFAS)](#wwt-mbbr) | Biological treatment | commercial |  | Veolia (AnoxKaldnes MBBR carriers and process licensor); Headworks BIO (carrier media) |  |
-| [Nanofiltration for selective separations](#wwt-nanofiltration) | Membrane and reuse | commercial |  | DuPont Water Solutions (FilmTec NF270 family); Toray (NFC/NF elements) |  |
-| [Nutrient recovery (struvite and ammonia)](#wwt-struvite-recovery) | Resource recovery and ZLD | commercial |  | Ostara (Pearl process and Crystal Green fertiliser); Paques (PHOSPAQ combined recovery) |  |
-| [Ozonation and ozone-BAC filtration](#wwt-ozone) | Disinfection and advanced oxidation | commercial |  | Xylem (Wedeco ozone systems); Primozone (high-concentration ozone generation) | annual operation and maintenance cost, 1 MGD ozone disinfection system, excluding power: 18500 USD per year (1998$) |
-| [Potable reuse schemes (IPR/DPR)](#wwt-potable-reuse-schemes) | Membrane and reuse | commercial |  | Singapore PUB (NEWater scheme owner (operating model)); Suez (advanced purification equipment) |  |
-| [Produced-water treatment (oil and gas fields)](#wwt-produced-water-treatment) | Physical and chemical treatment | commercial |  | Frames Group (produced-water packages); CETCO (CROSFLOW produced-water membranes) |  |
-| [Reverse-osmosis water reuse train (NEWater-style)](#wwt-ro-reuse-train) | Membrane and reuse | commercial |  | DuPont Water Solutions (FilmTec RO and NF elements); Nitto (Hydranautics) (CPA/ESPA RO elements); Toray (ROMEMBRA RO elements); Suez (ZeeWeed MF/UF) |  |
-| [Screening and grit removal](#wwt-screening-grit) | Physical and chemical treatment | commercial |  | HUBER SE (Ro9 grit treatment, ROTAMAT screens); Hydro International (vortex grit separators) |  |
-| [Sequencing batch reactor (SBR)](#wwt-sbr) | Biological treatment | commercial |  | Aqua-Aerobic Systems (SBR decanters and Selector technology); Veolia (SBR configurations) | operation and maintenance cost, sequencing batch reactor: 800-2000 USD per million gallons treated (1999$) |
-| [Sludge incineration and co-incineration](#wwt-sludge-incineration) | Sludge and biogas | commercial |  | Veolia (sludge incineration operations); Hitachi Zosen (sludge incineration plants) | operating cost, biosolids incineration: 83-269 USD per dry Mg (2002$) |
-| [Sludge thickening](#wwt-sludge-thickening) | Sludge and biogas | commercial |  | HUBER SE (rotary drum and disc thickeners); Veolia (gravity and DAF thickeners); WesTech Engineering (gravity thickeners) | installed capital cost, gravity thickener, by plant capacity (2-25 MGD): 199000-3.2e+06 USD (2000$) |
-| [Thermal sludge drying and pyrolysis](#wwt-sludge-drying) | Sludge and biogas | commercial |  | Andritz (drum/belt dryers); HUBER SE (SRT sludge dryers) |  |
-| [Trickling filters and rotating biological contactors](#wwt-trickling-filters) | Biological treatment | commercial |  | WesTech Engineering (trickling filter and clarifier equipment); HUBER SE (biological filter media) |  |
-| [UV disinfection](#wwt-uv-disinfection) | Disinfection and advanced oxidation | commercial |  | Trojan Technologies (UVSwift/UltraFlow municipal reactors); Xylem (Wedeco UV systems) |  |
-| [Upflow anaerobic sludge blanket (UASB/EGSB)](#wwt-uasb) | Anaerobic treatment | commercial |  | Paques (BIOPAQ UASB / UASBplus reactors); Biothane (Veolia) (Biobed EGSB reactors) |  |
+| [Microfiltration and ultrafiltration pretreatment](#wwt-uf-pretreatment) | Membrane and reuse | commercial |  | Suez (ZeeWeed 500D/1000 hollow-fibre UF); DuPont Water Solutions (IntegraFlux UF) | installed capital cost, hollow-fibre UF ahead of NF: 0.67 USD per gallon per day (2018$) |
+| [Moving bed biofilm reactor (MBBR/IFAS)](#wwt-mbbr) | Biological treatment | commercial |  | Veolia (AnoxKaldnes MBBR carriers and process licensor); Headworks BIO (carrier media) | packaged MBBR plant, equipment: 4160 USD per m3/d of capacity |
+| [Nanofiltration for selective separations](#wwt-nanofiltration) | Membrane and reuse | commercial |  | DuPont Water Solutions (FilmTec NF270 family); Toray (NFC/NF elements) | installed capital cost, hollow-fibre loose NF with sand filtration: 1.96-2.49 USD per gallon per day (2018$) |
+| [Nutrient recovery (struvite and ammonia)](#wwt-struvite-recovery) | Resource recovery and ZLD | commercial |  | Ostara (Pearl process and Crystal Green fertiliser); Paques (PHOSPAQ combined recovery) | break-even cost, electrochemical struvite recovery: 6.03 USD per kg struvite recovered (2022$)<br>break-even cost per kg phosphorus recovered: 47.9 USD per kg P (2022$) |
+| [Ozonation and ozone-BAC filtration](#wwt-ozone) | Disinfection and advanced oxidation | commercial |  | Xylem (Wedeco ozone systems); Primozone (high-concentration ozone generation) | annual operation and maintenance cost, 1 MGD ozone disinfection system, excluding power: 18500 USD per year (1998$)<br>total installed capital cost, ozone disinfection: 389000 USD per mgd of capacity (1998$) |
+| [Potable reuse schemes (IPR/DPR)](#wwt-potable-reuse-schemes) | Membrane and reuse | commercial |  | Singapore PUB (NEWater scheme owner (operating model)); Suez (advanced purification equipment) | treated water cost, indirect potable reuse (full advanced treatment): 2.8-4.1 USD per 1,000 gallons |
+| [Produced-water treatment (oil and gas fields)](#wwt-produced-water-treatment) | Physical and chemical treatment | commercial |  | Frames Group (produced-water packages); CETCO (CROSFLOW produced-water membranes) | capital cost, advanced produced-water treatment complex (MBBR + evaporation/crystallisation): 4583 USD per barrel per day of capacity (2015$) |
+| [Reverse-osmosis water reuse train (NEWater-style)](#wwt-ro-reuse-train) | Membrane and reuse | commercial |  | DuPont Water Solutions (FilmTec RO and NF elements); Nitto (Hydranautics) (CPA/ESPA RO elements); Toray (ROMEMBRA RO elements); Suez (ZeeWeed MF/UF) | installed capital cost, potable reuse train (MF/RO/UVAOP): 6 USD per gallon per day (2013$) |
+| [Screening and grit removal](#wwt-screening-grit) | Physical and chemical treatment | commercial |  | HUBER SE (Ro9 grit treatment, ROTAMAT screens); Hydro International (vortex grit separators) | construction cost, headworks screening facility: 98-108 USD per m3/d of design flow (2019$) |
+| [Sequencing batch reactor (SBR)](#wwt-sbr) | Biological treatment | commercial |  | Aqua-Aerobic Systems (SBR decanters and Selector technology); Veolia (SBR configurations) | operation and maintenance cost, sequencing batch reactor: 800-2000 USD per million gallons treated (1999$)<br>installed cost, SBR system: 1.65-5 USD per gallon per day of capacity (1998$) |
+| [Sludge incineration and co-incineration](#wwt-sludge-incineration) | Sludge and biogas | commercial |  | Veolia (sludge incineration operations); Hitachi Zosen (sludge incineration plants) | operating cost, biosolids incineration: 83-269 USD per dry Mg (2002$)<br>capital cost, new fluidised-bed incineration facility: 60000 USD per dry tonne per day of capacity (1994$) |
+| [Sludge thickening](#wwt-sludge-thickening) | Sludge and biogas | commercial |  | HUBER SE (rotary drum and disc thickeners); Veolia (gravity and DAF thickeners); WesTech Engineering (gravity thickeners) | installed capital cost, gravity thickener, by plant capacity (2-25 MGD): 199000-3.2e+06 USD (2000$)<br>unit cost, gravity thickening operation: 0.3-3 USD per dry ton (2000$) |
+| [Thermal sludge drying and pyrolysis](#wwt-sludge-drying) | Sludge and biogas | commercial |  | Andritz (drum/belt dryers); HUBER SE (SRT sludge dryers) | total cost, heat drying of biosolids: 323-441 USD per dry tonne (1994$) |
+| [Trickling filters and rotating biological contactors](#wwt-trickling-filters) | Biological treatment | commercial |  | WesTech Engineering (trickling filter and clarifier equipment); HUBER SE (biological filter media) | construction cost, trickling filter plant: 760000-6.34e+07 USD per mgd of capacity |
+| [UV disinfection](#wwt-uv-disinfection) | Disinfection and advanced oxidation | commercial |  | Trojan Technologies (UVSwift/UltraFlow municipal reactors); Xylem (Wedeco UV systems) | total capital cost, UV disinfection system: 244000 USD (1999$)<br>capital cost, UV disinfection at plant peak flow: 11-21.1 USD per m3/d of capacity (2004$) |
+| [Upflow anaerobic sludge blanket (UASB/EGSB)](#wwt-uasb) | Anaerobic treatment | commercial |  | Paques (BIOPAQ UASB / UASBplus reactors); Biothane (Veolia) (Biobed EGSB reactors) | UASB acquisition cost per organic load: 262 USD per kg COD/d of design load (2019$) |
 | [Water minimisation and reuse pinch for industry](#wwt-water-pinch) | Resource recovery and ZLD | commercial |  | Jacobs (water network and pinch consulting); GHD (water reuse advisory) |  |
-| [Zero liquid discharge (ZLD)](#wwt-zld) | Resource recovery and ZLD | commercial |  | Aquatech International (ZLD trains (HERO, MVR evaporators, crystallisers)); Veolia (HPD evaporator-crystalliser technology) |  |
-| [Advanced oxidation processes (AOP)](#wwt-aop) | Disinfection and advanced oxidation | demonstration |  | Trojan Technologies (UV AOP reactors); Xylem (Wedeco AOP systems) |  |
-| [Anaerobic membrane bioreactor (AnMBR)](#wwt-anmbr) | Anaerobic treatment | demonstration |  | Kubota (submerged flat-plate membranes for AnMBR); ADI Systems (Veolia) (AnMBR configurations) |  |
-| [Brine concentration and selective salt recovery](#wwt-brine-concentration) | Resource recovery and ZLD | demonstration |  | Aquatech International (HERO concentrate treatment); Gradiant (brine concentration and salt recovery) |  |
-| [Forward osmosis](#wwt-forward-osmosis) | Membrane and reuse | pilot |  | Modern Water (commercial FO systems); Oasys Water (FO draw technology) |  |
+| [Zero liquid discharge (ZLD)](#wwt-zld) | Resource recovery and ZLD | commercial |  | Aquatech International (ZLD trains (HERO, MVR evaporators, crystallisers)); Veolia (HPD evaporator-crystalliser technology) | total water cost, ZLD by direct-contact membrane distillation plus cooling crystallisation: 0.64-1.41 USD per barrel of clean water (2025$) |
+| [Advanced oxidation processes (AOP)](#wwt-aop) | Disinfection and advanced oxidation | demonstration |  | Trojan Technologies (UV AOP reactors); Xylem (Wedeco AOP systems) | total treatment cost, UV/H2O2 (Calgon Carbon estimate): 0.084-1.08 USD per m3 treated<br>total treatment cost, H2O2/O3: 0.092-0.955 USD per m3 treated |
+| [Anaerobic membrane bioreactor (AnMBR)](#wwt-anmbr) | Anaerobic treatment | demonstration |  | Kubota (submerged flat-plate membranes for AnMBR); ADI Systems (Veolia) (AnMBR configurations) | net treatment cost, mainstream AnMBR: 0.35-0.42 EUR per m3 treated |
+| [Brine concentration and selective salt recovery](#wwt-brine-concentration) | Resource recovery and ZLD | demonstration |  | Aquatech International (HERO concentrate treatment); Gradiant (brine concentration and salt recovery) | levelised cost of water, single-stage mechanical vapour compression: 3.6-6.1 USD per m3 of product water (2024$) |
+| [Forward osmosis](#wwt-forward-osmosis) | Membrane and reuse | pilot |  | Modern Water (commercial FO systems); Oasys Water (FO draw technology) | water cost, FO-RO plus AnMBR municipal treatment: 0.81-1.27 EUR per m3 treated |
 
 ## Aerobic granular sludge treatment (Nereda)
 <a id="wwt-aerobic-granular-sludge"></a>
@@ -59,10 +59,10 @@ flowchart LR
 - footprint vs conventional activated sludge: 0.25-0.5 x; vendor claim: up to 4x smaller footprint. [source](https://www.nereda.net/)
 - energy vs conventional activated sludge: 0.5-0.7 x; vendor claim: 20-50% energy saving. [source](https://www.nereda.net/)
 
-**Missing inputs:**
-- installed cost per m3/d, dollar year (costs): Licensor does not publish prices. Where: [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report).
+**Costs:**
+- installed capital cost, AGS plus tertiary UF upgrade: 1863 NIS per m3/d of capacity; Soreq WWTP train 5, 75,000 m3/d basis, built up from equipment costs, membrane quotations and independent review; excludes replacing outdated equipment in existing trains and the new feed pump station. A second case gives 1,758 NIS/m3/d on 79,500 m3/d.. [source](https://iwaponline.com/wpt/article/21/8/3544/112830/Experiences-with-aerobic-granular-sludge-for-large)
 
-Sources: [1](https://www.nereda.net/). Last reviewed 2026-11-13.
+Sources: [1](https://www.nereda.net/). Last reviewed 2026-11-16.
 
 ## Anaerobic sludge digestion (mesophilic/thermophilic)
 <a id="wwt-sludge-digestion"></a>
@@ -92,14 +92,15 @@ flowchart LR
 **Costs:**
 - capital cost, two-stage anaerobic digestion system, 12 MGD plant (Grand Island, Nebraska): 10.7 USD million (2006$); EPA 832-F-06-031 COSTS section: a USD 10.7 million two-stage anaerobic digestion system in design for a 12 MGD plant receiving about 40 percent industrial agricultural flow. Figure published 2006; no dollar year stated.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/multistage-anaerobic-digestion-factsheet.pdf)
 - capital cost, two-stage TPAD anaerobic digestion system, 43 MGD plant (WLSSD Duluth): 32.6 USD million (2006$); Same section: the WLSSD two-stage TPAD system at a 43 MGD regional plant, in operation from 2001, had a construction cost of USD 32.6 million. Figure published 2006; no dollar year stated.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/multistage-anaerobic-digestion-factsheet.pdf)
+- operation and maintenance cost, anaerobic digestion: 9.39-51.51 USD per dry ton through the digesters (1999$); Operation $5.30-41.03 (average $17.47), maintenance $4.09-10.48 (average $7.44): total $9.39-51.51, average $24.91 per dry ton. Figures from the Multi-Agency Benchmarking Study (Dec 1999) reproduced in the EPA fact sheet. Uplift for a UK cross-check (Ofwat/Jacobs 2021) is per wet tonne, not per dry tonne, so it is not used here.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/multistage-anaerobic-digestion-factsheet.pdf)
 
 **Reference plants:**
 - Tuas Water Reclamation Park (co-located sludge energy): ; . [source](https://www.pub.gov.sg/)
 
 **Missing inputs:**
-- unit capital and operating cost per dry tonne of solids stabilised (costs): Named-facility capital costs are now recorded (EPA 832-F-06-031). A unit cost per dry tonne of solids, which is what sizing a project needs, is not stated in the sheet. Where: WEF/EPA biosolids cost studies reporting USD per dry tonne for digestion. Next: Add a unit cost per dry tonne from a biosolids cost study.
+- unit capital cost per dry tonne of solids stabilised (costs): O&M per dry tonne is now recorded ($9.39-51.51, average $24.91, 1999 USD). A capital figure normalised per dry tonne was not found; the card holds named-facility capital costs instead. Where: WEF/EPA biosolids cost studies reporting USD per dry tonne for digestion. Next: Leave open until a source states a capital cost per dry tonne.
 
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-14.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Biological nutrient removal (BNR)
 <a id="wwt-bnr"></a>
@@ -125,10 +126,10 @@ flowchart LR
 - total N to below: 3-10 mg/L; published BNR effluent limits. [source](https://www.veoliawatertech.com/)
 - total P to below: 0.1-0.3 mg/L; published BNR effluent limits. [source](https://www.veoliawatertech.com/)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- capital cost, BNR retrofit: 588000-6.972e+06 USD per mgd of capacity (2006$); Retrofit upgrades (engineering, pilot study, design, construction) across 43 Maryland and 23 Connecticut plants by size band: >10 mgd $588,000/mgd; 1-10 mgd $1,742,000/mgd; 0.1-1.0 mgd $6,972,000/mgd. 2006 USD, ENR 7910.81. Retrofit, not greenfield.. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=60000G2U.TXT)
 
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Chlorination and dechlorination
 <a id="wwt-chlorination"></a>
@@ -151,10 +152,11 @@ flowchart LR
 **Performance:**
 - contact time (CT) for bacteria: 15-30 mg.min/L; published CT targets at typical pH. [source](https://www.evoqua.com/)
 
-**Missing inputs:**
-- chemical cost per m3, dollar year (costs): Vendor/licensor sites do not publish operating costs. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- annualised capital cost, chlorination plus dechlorination plus fire-code compliance: 1.127e+06-1.434e+07 USD per mgd of capacity (1995$); WERF 1995 study at 1 mgd ADWF, 5 mg/L dose: chlorination $410,000 + dechlorination $290,000 + UFC compliance $239,000 = $1,127,000; 10 mgd $3,137,000 (5 mg/L); 100 mgd $14.34M. Dechlorination adds 30-50%. O&M $49,300/yr at 1 mgd (about $0.036/m3), $158,200/yr at 10 mgd.. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=200044E0.TXT)
+- chemical-only disinfectant cost, sodium hypochlorite: 0.0166-0.066 USD per m3 treated (2024$); Derived: 12.5% hypochlorite at $1.79/gal (Oct 2024 unit-price sheet) = $1.50/lb available Cl2 ($3.31/kg) assuming SG 1.20; dose 5-20 mg/L (EPA) gives 0.0166-0.066 USD/m3. Chemical only - no power, labour or dechlorination. A Dec 2023 Baytown bid ($0.2300/lb solution) gives about $0.021/m3 at 5 mg/L, an independent check.. [source](https://public.destinyhosted.com/casagdocs/2024/CCREG/20241007_2380/7630_Unit_Prices.pdf)
 
-Sources: [1](https://www.evoqua.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.evoqua.com/). Last reviewed 2026-11-16.
 
 ## Coagulation-flocculation and chemical precipitation
 <a id="wwt-coagulation-precipitation"></a>
@@ -180,10 +182,13 @@ flowchart LR
 **Performance:**
 - phosphorus removal to below: 0.1-0.5 mg P/L; published enhanced precipitation performance. [source](https://www.veoliawatertech.com/)
 
-**Missing inputs:**
-- chemical cost per m3, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- bulk coagulant price, liquid alum (iron-free): 152-269 USD per tonne (2000$); EPA fact sheet, January 2000: liquid alum $269/t iron-free and $152/t; ferric chloride $255-300/t; hydrated lime $70/t; enclosed lime feed system $110,000-130,000. A plating-waste study also gives $0.04/gal total treatment cost (1995) - industrial scope, not municipal.. [source](https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P1001QTR.PDF)
 
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
+**Missing inputs:**
+- chemical cost per m3 treated (dose x bulk price), with dollar year (costs): Bulk coagulant prices are now recorded (alum, ferric chloride, lime, Jan 2000). A per-m3 figure needs a dose, which no loaded source pairs with these prices; the $0.04/gal figure found is for metal-plating waste, not municipal sewage. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this metric; do not derive it from an unrelated scope.
+
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Conventional activated sludge
 <a id="wwt-activated-sludge"></a>
@@ -213,14 +218,16 @@ flowchart LR
 **Costs:**
 - capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants above 0.02 MGD): 2-2.5 USD per gallon per day (2000$); EPA fact sheet, figure as published: for larger plants capital costs are approximately USD 2 to USD 2.50 per gallon of wastewater treated. Sheet dated September 2000 and states no dollar year, so the document year is recorded.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/package_plant.pdf)
 - capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants below 0.02 MGD): 4-6 USD per gallon per day (2000$); Smaller extended-aeration package plants designed for less than 0.02 MGD cost approximately USD 4 to USD 6 per gallon of water treated, based on capital costs; routine maintenance averages USD 350 per year. Document year recorded; no dollar year stated in the sheet.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/package_plant.pdf)
+- plant electricity use, secondary treatment including sludge management: 1500-1700 kWh per million gallons treated; Whole-plant electricity for an activated-sludge plant including residuals management; about 0.40-0.45 kWh/m3. Aeration alone is 30-80% of plant electricity (67% in NYSERDA's typical plant).. [source](https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Environmental/Energy-Efficiency-Municipal-WWTP.pdf)
+- electricity cost, secondary treatment including sludge management: 0.036-0.0405 USD per m3 treated; Derived: 1,500-1,700 kWh per million gallons (0.40-0.45 kWh/m3) at the $0.09/kWh statewide average NYSERDA quotes. Electricity only - no labour, chemicals, sludge haulage or maintenance. Dollar year not stated: the quoted electricity price line carries no date.. [source](https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Environmental/Energy-Efficiency-Municipal-WWTP.pdf)
 
 **Reference plants:**
 - Changi Water Reclamation Plant, Singapore: ; . [source](https://www.pub.gov.sg/)
 
 **Missing inputs:**
-- operating cost and energy demand per m3 treated, with dollar year and basis (costs): Package-plant capital cost per gallon per day is now recorded (EPA 832-F-00-016, 2000 basis). Operating cost and specific energy for a full-size activated sludge plant are not stated in any source read. Where: EPA fact sheets state no operating energy figure for activated sludge; plant energy benchmarks are in utility and WEF publications. Next: Add operating cost and specific energy (kWh/m3) from an operating plant benchmark.
+- non-energy operating cost per m3 treated, with dollar year (costs): Energy demand and its electricity cost are now recorded (1,500-1,700 kWh/MG; about $0.036-0.041/m3 at the quoted $0.09/kWh). Labour, chemicals, maintenance and sludge haulage were not priced in any source loaded on 2026-11-16. Where: EPA fact sheets state no operating energy figure for activated sludge; plant energy benchmarks are in utility and WEF publications. Next: Leave open until a source states this metric; do not derive it from an unrelated scope.
 
-Sources: [1](https://www.xylem.com/). Last reviewed 2026-11-14.
+Sources: [1](https://www.xylem.com/). Last reviewed 2026-11-16.
 
 ## Dissolved air flotation (DAF)
 <a id="wwt-daf"></a>
@@ -247,10 +254,10 @@ flowchart LR
 - microbubble size: 30-100 um; published DAF design range. [source](https://www.veoliawatertech.com/)
 - hydraulic loading rate: 5-15 m/h; typical DAF design HLR. [source](https://www.veoliawatertech.com/)
 
-**Missing inputs:**
-- cost per m3/h design flow, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- total installed cost, dissolved air flotation thickener: 2640 USD per m3/h of design flow; Derived from a manufacturer example: USD 600,000 installed for a 40 ft diameter DAF on 1,000 gpm (~227 m3/h) waste-activated-sludge feed at 5,000 mg/L, with 1,200 gpm recycle. Dollar year not stated; manufacturer figure, order-of-magnitude only.. [source](https://www.westechwater.com/blog/reduce-energy-costs-using-dissolved-air-flotation-for-waste-activated-sludge-thickening)
 
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Internal-circulation anaerobic reactor (Paques BIOPAQ IC)
 <a id="wwt-anaerobic-internal-circulation"></a>
@@ -278,9 +285,9 @@ flowchart LR
 - volumetric loading capacity advantage vs single-stage UASB: 2-3 x; internal circulation allows higher loads at the same removal. [source](https://www.paques.nl/products/biopaq-ic)
 
 **Missing inputs:**
-- reactor cost per kg COD/d, dollar year (costs): Licensor does not publish prices. Where: [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report).
+- reactor cost per kg COD/d, dollar year (costs): Searched 2026-11-16: the per-kg-COD figure exists in the literature (Wiley, doi 10.1002/cjce.70351) but Cloudflare blocked the HTML, PDF and XML routes; vendors quote only lump-sum equipment ($200k-400k) with no flow basis. Where: [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Retry the Wiley paper through the owner's browser; otherwise request the figure from a licensor quote.
 
-Sources: [1](https://www.paques.nl/products/biopaq-ic). Last reviewed 2026-11-13.
+Sources: [1](https://www.paques.nl/products/biopaq-ic). Last reviewed 2026-11-16.
 
 ## Lamella and high-rate clarifiers
 <a id="wwt-lamella-clarifier"></a>
@@ -309,10 +316,10 @@ flowchart LR
 **Performance:**
 - hydraulic loading: 60-120 m/h; published Actiflo design range. [source](https://www.veoliawatertech.com/)
 
-**Missing inputs:**
-- cost per m3/h, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- equipment cost, lamella settler in SUS 304: 300-600 USD per m3/h of design flow (2026$); Vendor price list, May 2026: standard SUS 304 lamella settler, price per m3/h falling with size and rising for premium alloys or customisation. The page does not itemise what the figure includes; vendor rule of thumb, not a benchmark.. [source](https://www.weilanwaters.com/lamella-settler-prices)
 
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Mechanical sludge dewatering
 <a id="wwt-sludge-dewatering"></a>
@@ -403,10 +410,10 @@ flowchart LR
 - pore size: 0.02-0.1 um; published MF/UF membrane ratings. [source](https://www.suezwatertechnologies.com/)
 - filtrate turbidity: 0.05-0.1 NTU; published UF filtrate quality. [source](https://www.suezwatertechnologies.com/)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- installed capital cost, hollow-fibre UF ahead of NF: 0.67 USD per gallon per day (2018$); 2 mgd hollow-fibre UF, equipment $1.04M, part of a $2.49/gpd total train with NF.. [source](https://www.deswater.com/readfulltextopenaccess.php?id=RFdUX2FydGljbGVzL3ZvbF8xMjRfcGFwZXJzLzEyNF8yMDE4XzEucGRm)
 
-Sources: [1](https://www.suezwatertechnologies.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.suezwatertechnologies.com/). Last reviewed 2026-11-16.
 
 ## Moving bed biofilm reactor (MBBR/IFAS)
 <a id="wwt-mbbr"></a>
@@ -433,10 +440,10 @@ flowchart LR
 - protected biofilm area: 500-800 m2/m3; AnoxKaldnes K1/K3 published values. [source](https://www.veoliawatertech.com/)
 - IFAS capacity boost: 1.5-2 x; published retrofit range. [source](https://www.veoliawatertech.com/)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- packaged MBBR plant, equipment: 4160 USD per m3/d of capacity; Derived from a 5 m3/d all-in-one packaged unit at USD 20,800 (average 5, maximum 8 m3/d): screen, equalisation, anoxic tank, MBBR tank, central tube, chlorine contact, filtration and sludge holding; media and spares listed separately. Vendor quotes 2021, price year not stated. A small packaged unit has no economy of scale - do not read it as a municipal MBBR benchmark.. [source](https://ejfa.me/index.php/journal/article/download/2848/1631)
 
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Nanofiltration for selective separations
 <a id="wwt-nanofiltration"></a>
@@ -461,10 +468,10 @@ flowchart LR
 - divalent salt rejection: 95-99 %; published FilmTec NF performance. [source](https://www.dupont.com/water.html)
 - operating pressure vs RO: 0.4-0.6 x; NF runs at roughly half RO pressure. [source](https://www.dupont.com/water.html)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- installed capital cost, hollow-fibre loose NF with sand filtration: 1.96-2.49 USD per gallon per day (2018$); 2 mgd plant on Florida groundwater: HF-LNF $1.96/gpd (total $4.482M); seawater-NF alternative $2.49/gpd. O&M $0.06/gpd (HF-LNF) and $0.11/gpd (SW-NF).. [source](https://www.deswater.com/readfulltextopenaccess.php?id=RFdUX2FydGljbGVzL3ZvbF8xMjRfcGFwZXJzLzEyNF8yMDE4XzEucGRm)
 
-Sources: [1](https://www.dupont.com/water.html). Last reviewed 2026-11-13.
+Sources: [1](https://www.dupont.com/water.html). Last reviewed 2026-11-16.
 
 ## Nutrient recovery (struvite and ammonia)
 <a id="wwt-struvite-recovery"></a>
@@ -489,10 +496,11 @@ flowchart LR
 **Performance:**
 - P recovery from centrate: 80-90 %; published Pearl performance. [source](https://ostara.com/)
 
-**Missing inputs:**
-- cost per kg P recovered, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- break-even cost, electrochemical struvite recovery: 6.03 USD per kg struvite recovered (2022$); Pearl 500 reactor at a 45,425 m3/d plant with anaerobic digestion, 18-33% phosphorus recovery: capital $2.16/kg and O&M $0.34/kg against a $6.03/kg break-even.. [source](https://www.mdpi.com/2071-1050/14/20/13657)
+- break-even cost per kg phosphorus recovered: 47.9 USD per kg P (2022$); Derived from $6.03/kg struvite at 0.126 kg P per kg struvite; the conversion is ours, not the paper's.. [source](https://www.mdpi.com/2071-1050/14/20/13657)
 
-Sources: [1](https://ostara.com/). Last reviewed 2026-11-13.
+Sources: [1](https://ostara.com/). Last reviewed 2026-11-16.
 
 ## Ozonation and ozone-BAC filtration
 <a id="wwt-ozone"></a>
@@ -520,11 +528,9 @@ flowchart LR
 
 **Costs:**
 - annual operation and maintenance cost, 1 MGD ozone disinfection system, excluding power: 18500 USD per year (1998$); EPA 832-F-99-063 Table 2 (typical cost estimate for a 1 MGD system, source Champion Technology 1998): labour USD 12,000/yr plus other consumables USD 6,500/yr (filter replacements, compressor oil, spare dielectric); power demand 90 kW is listed but not costed. The USD 18,500 total is the sum of the two listed items and excludes power.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/ozon.pdf)
+- total installed capital cost, ozone disinfection: 389000 USD per mgd of capacity (1998$); Line items for 1 mgd of secondary effluent (BOD<30, SS<30 mg/L): oxygen feed gas and compressor $245,500; contact vessel $4,000-5,000; off-gas destruct $800-1,200; non-component $35,000; engineering $12,000-15,000; plus 30% contingency. O&M: labour $12,000/yr, 90 kW power, other $6,500/yr.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/ozon.pdf)
 
-**Missing inputs:**
-- total installed capital cost for an ozone disinfection system (costs): Annual O&M excluding power is now recorded. Table 2 lists capital components (oxygen feed gas and compressor USD 245,500; contact vessel USD 4,000-5,000; destruct unit USD 800-1,200; non-component USD 35,000; engineering USD 12,000-15,000; contingencies 30 percent) but states no total, and summing it would be a derivation the sheet does not make. Where: EPA 832-F-99-063 Table 2 components; ozone vendor budget quotes. Next: Add a total capital cost from a vendor quote or a study that states the total.
-
-Sources: [1](https://www.xylem.com/). Last reviewed 2026-11-14.
+Sources: [1](https://www.xylem.com/). Last reviewed 2026-11-16.
 
 ## Potable reuse schemes (IPR/DPR)
 <a id="wwt-potable-reuse-schemes"></a>
@@ -547,14 +553,14 @@ flowchart LR
 **Performance:**
 - NEWater share of Singapore demand: 30-40 %; PUB published NEWater contribution. [source](https://www.pub.gov.sg/)
 
+**Costs:**
+- treated water cost, indirect potable reuse (full advanced treatment): 2.8-4.1 USD per 1,000 gallons; 10 mgd IPR facility, annualised over 20 years; about 0.74-1.08 USD/m3. The document is 2017 but the quoted sentence gives no base year - dollar year not stated.. [source](https://19january2021snapshot.epa.gov/sites/static/files/2018-01/documents/potablereusecompendium.pdf)
+
 **Reference plants:**
 - Changi WRP (Singapore, NEWater supplier): ; . [source](https://www.pub.gov.sg/)
 - Tuas Water Reclamation Park (Singapore, under construction): ; . [source](https://www.pub.gov.sg/)
 
-**Missing inputs:**
-- cost per m3 purified, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
-
-Sources: [1](https://www.pub.gov.sg/). Last reviewed 2026-11-13.
+Sources: [1](https://www.pub.gov.sg/). Last reviewed 2026-11-16.
 
 ## Produced-water treatment (oil and gas fields)
 <a id="wwt-produced-water-treatment"></a>
@@ -580,13 +586,16 @@ flowchart LR
 **Performance:**
 - oil-in-water after treatment: 10-30 mg/L; typical discharge compliance range. [source](https://www.frames-group.com/)
 
+**Costs:**
+- capital cost, advanced produced-water treatment complex (MBBR + evaporation/crystallisation): 4583 USD per barrel per day of capacity (2015$); Antero Clearwater, WV: USD 275M for 60,000 bbl/d (~28,800 USD per m3/d), treating flowback and produced water to a $4.00/bbl fee. NOTE the scope is an evaporation/crystallisation ZLD complex, not the CPI/IGF plus hydrocyclone de-oiling train this card describes - it is not a de-oiling benchmark.. [source](https://www.anteroresources.com/investors/press-releases/detail/55/antero-announces-60000-barrel-per-day-advanced-wastewater)
+
 **Reference plants:**
 - Pengerang Integrated Complex effluent systems: ; . [source](https://www.petronas.com/)
 
 **Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+- capital cost per m3/d for a CPI/IGF plus hydrocyclone de-oiling train, with dollar year (costs): The 2015 Antero figure is recorded but its scope is evaporation/crystallisation ZLD, not de-oiling. No loaded source prices the simpler train as a unit cost; searched 2026-11-16. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this exact metric and scope.
 
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Reverse-osmosis water reuse train (NEWater-style)
 <a id="wwt-ro-reuse-train"></a>
@@ -616,10 +625,10 @@ flowchart LR
 - RO permeate recovery in reuse trains: 75-85 %; typical municipal reuse RO design recovery. [source](https://www.dupont.com/water.html)
 - log removal of pathogens across full train: 8-12 log; multi-barrier claim of advanced purification schemes. [source](https://www.dupont.com/water.html)
 
-**Missing inputs:**
-- installed cost per m3/d with dollar year (costs): OEM sites do not publish train prices. Where: [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report).
+**Costs:**
+- installed capital cost, potable reuse train (MF/RO/UVAOP): 6 USD per gallon per day (2013$); 20 mgd train, secondary-effluent feed with ocean disposal of concentrate: $120M capital = $6.00/gpd (~1,585 USD per m3/d). O&M $5.9M/yr separately; a 5 mgd train costs $52M.. [source](https://watereuse.org/wp-content/uploads/2015/12/2013_Watereuse_Webcast_Schimmoller_Kealy-Rev1.pdf)
 
-Sources: [1](https://www.dupont.com/water.html). Last reviewed 2026-11-13.
+Sources: [1](https://www.dupont.com/water.html). Last reviewed 2026-11-16.
 
 ## Screening and grit removal
 <a id="wwt-screening-grit"></a>
@@ -643,10 +652,10 @@ flowchart LR
 - screen opening range: 0.75-15 mm; coarse to fine screening openings. [source](https://www.huber.de/)
 - grit removal at 0.2 mm: 90-95 %; vortex grit chamber design range. [source](https://www.huber.de/)
 
-**Missing inputs:**
-- installed cost per m3/d design flow, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- construction cost, headworks screening facility: 98-108 USD per m3/d of design flow (2019$); Derived from a Class 5 estimate for the Roberto Bustamante WWTP headworks: screening facility construction $19.0M (total project $20.9M) against the 51 mgd AADF expansion flow the headworks is designed for (193,055 m3/d). Dividing by permitted peak flow instead gives a much lower figure, so the flow basis travels with the number: $98/m3/d construction, $108/m3/d project cost.. [source](https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6843404/File/Business%20Center/Purchasing%20Overview/Bids/Professional%20Services/RFQ114-19/Condition%20Assessment%20and%20Alternatives%20Evaluation%20TM.pdf)
 
-Sources: [1](https://www.huber.de/). Last reviewed 2026-11-13.
+Sources: [1](https://www.huber.de/). Last reviewed 2026-11-16.
 
 ## Sequencing batch reactor (SBR)
 <a id="wwt-sbr"></a>
@@ -673,11 +682,9 @@ flowchart LR
 
 **Costs:**
 - operation and maintenance cost, sequencing batch reactor: 800-2000 USD per million gallons treated (1999$); EPA fact sheet: operation and maintenance costs are site specific and may range from USD 800 to USD 2,000 per million gallons treated. Document dated September 1999 and states no dollar year, so the document year is recorded.. [source](https://www.epa.gov/system/files/documents/2022-10/sequencing-batch-reactors-factsheet.pdf)
+- installed cost, SBR system: 1.65-5 USD per gallon per day of capacity (1998$); March 1998 USD, ENR 5875, complete installed SBR including sludge handling: $1.96-5.00/gal at 0.5-1.0 mgd, $1.83-2.69 at 1.1-1.5 mgd, $1.65-3.29 at 1.5-2.0 mgd. Equipment only (excluding tanks and sitework) $150,000-350,000 at 1 mgd. O&M $800-2,000 per million gallons treated.. [source](https://www.epa.gov/system/files/documents/2022-10/sequencing-batch-reactors-factsheet.pdf)
 
-**Missing inputs:**
-- capital cost per gallon per day of capacity (costs): The SBR operation and maintenance range is now recorded (EPA 832-F-99-073). The sheet's capital cost table did not survive as machine-readable text in the copy read, so no capital figure is recorded. Where: EPA 832-F-99-073 Table 6 (cost estimates for SBRs), read as page images. Next: Read the SBR capital cost table from the PDF pages and record the per-gallon range.
-
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-14.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Sludge incineration and co-incineration
 <a id="wwt-sludge-incineration"></a>
@@ -704,11 +711,9 @@ flowchart LR
 
 **Costs:**
 - operating cost, biosolids incineration: 83-269 USD per dry Mg (2002$); EPA 832-F-03-013: operating costs in one study range from USD 83 to USD 269 per dry Mg (USD 76-245 per dry ton), adjusted using 2002 ENR values. Comparable figures in the same sheet: landfill USD 127/dry Mg (USD 115/dry ton), land application about USD 15.40/dry Mg (USD 14/dry ton).. [source](https://www.epa.gov/sites/default/files/2018-11/documents/use-incineration-biosolids-management-factsheet.pdf)
+- capital cost, new fluidised-bed incineration facility: 60000 USD per dry tonne per day of capacity (1994$); New FBF in North Carolina serving 136,000 m3/d (36 MGD): $6M facility. EPA prints the unit figure as $66/dry Mg ($60/dry ton); the '/day' and thousands are implied by the context, so treat as indicative. O&M $76-245/dry ton (2002 ENR).. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P10053DX.TXT)
 
-**Missing inputs:**
-- capital cost per tonne per day of installed incineration capacity (costs): Operating cost per dry Mg is now recorded (2002 basis, EPA 832-F-03-013). The sheet gives one facility capital quote (USD 6 million for a two-plant facility) without a capacity basis usable as a unit cost. Where: EPA 832-F-03-013 facility examples; state revolving fund project cost data. Next: Add capital cost per tonne per day from a facility with a stated capacity.
-
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-14.
+Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Sludge thickening
 <a id="wwt-sludge-thickening"></a>
@@ -734,11 +739,9 @@ flowchart LR
 
 **Costs:**
 - installed capital cost, gravity thickener, by plant capacity (2-25 MGD): 199000-3.2e+06 USD (2000$); EPA 832-F-03-022 Table 5, adjusted to the year 2000: construction plus engineering and administration of USD 199,000 at 2 MGD, 426,000 at 4 MGD, 914,000 at 8 MGD, 1,825,000 at 15 MGD, 2,504,000 at 20 MGD and 3,200,000 at 25 MGD (construction only: 162,000 to 2,610,000). The range spans plant capacity, not uncertainty at one size.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/gravity-thickening-factsheet.pdf)
+- unit cost, gravity thickening operation: 0.3-3 USD per dry ton (2000$); Economies of scale, larger plants at the low end. EPA describes these as unit costs for the thickening operation and does not state whether capital is included, so treat as O&M-side only.. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P10053EB.TXT)
 
-**Missing inputs:**
-- operating cost per dry tonne of solids thickened (costs): Capital cost by plant capacity is now recorded (Table 5, year-2000 basis). The sheet's unit operating cost line is truncated in the copy read and no complete per-dry-tonne figure could be transcribed. Where: EPA 832-F-03-022 COSTS section, read as page images. Next: Read the operating cost paragraph from the PDF pages and record the per-dry-tonne figure.
-
-Sources: [1](https://www.huber.de/). Last reviewed 2026-11-14.
+Sources: [1](https://www.huber.de/). Last reviewed 2026-11-16.
 
 ## Thermal sludge drying and pyrolysis
 <a id="wwt-sludge-drying"></a>
@@ -763,10 +766,10 @@ flowchart LR
 **Performance:**
 - dried solids content: 90-95 % DS; published dryer output. [source](https://www.huber.de/)
 
-**Missing inputs:**
-- cost per t DS, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- total cost, heat drying of biosolids: 323-441 USD per dry tonne (1994$); Indirect dryer $323/dry ton, direct dryer $441/dry ton at ~35 dry metric t/d; capital $26.8M indirect vs $37M direct. O&M separately $180-300/dry ton.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/heat-drying-factsheet.pdf)
 
-Sources: [1](https://www.andritz.com/products-separation). Last reviewed 2026-11-13.
+Sources: [1](https://www.andritz.com/products-separation). Last reviewed 2026-11-16.
 
 ## Trickling filters and rotating biological contactors
 <a id="wwt-trickling-filters"></a>
@@ -793,10 +796,10 @@ flowchart LR
 - BOD removal per pass: 70-90 %; published trickling-filter performance. [source](https://www.westech-inc.com/)
 - organic loading (low-rate): 0.08-0.4 kg BOD/m3.d; published loading bands. [source](https://www.westech-inc.com/)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- construction cost, trickling filter plant: 760000-6.34e+07 USD per mgd of capacity; Complete TF system at 1 mgd $0.76M, 10 mgd $6.34M, 50 mgd $25M, 100 mgd $63.4M, with labour $0.05-1.0M and O&M $0.063-1.3M/yr; adapted from Martin & Martin (1990), base year not stated on the sheet - order of magnitude.. [source](https://www.epa.gov/system/files/documents/2022-10/trickling-filters-factsheet.pdf)
 
-Sources: [1](https://www.westech-inc.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.westech-inc.com/). Last reviewed 2026-11-16.
 
 ## UV disinfection
 <a id="wwt-uv-disinfection"></a>
@@ -820,10 +823,11 @@ flowchart LR
 - delivered UV dose: 20-100 mJ/cm2; published municipal dose range. [source](https://www.trojantechnologies.com/)
 - log reduction of bacteria/viruses: 4-6 log; published UV performance. [source](https://www.trojantechnologies.com/)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- total capital cost, UV disinfection system: 244000 USD (1999$); Equipment $120,000 + structural $64,000 + electrical $20,000 + miscellaneous $40,000; O&M $19,190/yr (energy $3,300, lamps/chemicals $2,840, cleaning $1,180, maintenance $1,440, process control $6,240, testing $4,160). The sheet does NOT state the design flow, so it cannot be normalised to m3/d; the underlying WERF study covers 1, 10 and 100 mgd with lamps banded 1-5, 5-10 and 19-100 mgd.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/uv.pdf)
+- capital cost, UV disinfection at plant peak flow: 11-21.1 USD per m3/d of capacity (2004$); Derived: $3,350,000 for low-pressure high-output UV sized for 42 mgd (158,987 m3/d) = $21.1/m3/d. About half the capital was modifying the outfall into a UV chamber; with an existing chlorine contact tank the report says the cost could fall by up to $1.6M, giving about $11/m3/d. Chlorination/dechlorination for the same flow was $1,150,000.. [source](https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/UV-Disinfection-Options-for-Wastewater-Treatment-Plants.pdf)
 
-Sources: [1](https://www.trojantechnologies.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.trojantechnologies.com/). Last reviewed 2026-11-16.
 
 ## Upflow anaerobic sludge blanket (UASB/EGSB)
 <a id="wwt-uasb"></a>
@@ -850,10 +854,10 @@ flowchart LR
 - COD removal: 70-90 %; published UASB performance on industrial effluent. [source](https://www.paques.nl/)
 - organic loading rate: 5-20 kg COD/m3.d; published UASB design range. [source](https://www.paques.nl/)
 
-**Missing inputs:**
-- reactor cost per kg COD/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- UASB acquisition cost per organic load: 262 USD per kg COD/d of design load (2019$); Derived from a Brazilian pulp-and-paper mill: UASB acquisition cost USD 3.4M against a design organic loading rate of 12,960 kg COD/d (9,288 m3/d wastewater). Acquisition cost only, single retrofit, no civils breakdown - an order-of-magnitude anchor, not a cost curve.. [source](https://www.biofueljournal.com/article_92201_58ae1ca2f4769904c302d9aee827e1c9.pdf)
 
-Sources: [1](https://www.paques.nl/products/biopaq-uasb). Last reviewed 2026-11-13.
+Sources: [1](https://www.paques.nl/products/biopaq-uasb). Last reviewed 2026-11-16.
 
 ## Water minimisation and reuse pinch for industry
 <a id="wwt-water-pinch"></a>
@@ -879,9 +883,9 @@ flowchart LR
 - fresh-water reduction typical of a pinch retrofit: 20-40 %; published industrial water-pinch case range. [source](https://www.metito.com/)
 
 **Missing inputs:**
-- consultancy cost per study, dollar year (costs): Advisory firms do not publish study prices. Where: Ask the owner for a benchmarked study cost. Next: Ask owner for a priced reference.
+- consultancy cost per study, dollar year (costs): Searched 2026-11-16: no page prices a pinch/process-integration study. Consultancy fees are commercially confidential and are not published. Where: Ask the owner for a benchmarked study cost. Next: Ask the owner's preferred consultancy for a typical fee, or record the gap as permanently owner-held.
 
-Sources: [1](https://www.metito.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.metito.com/). Last reviewed 2026-11-16.
 
 ## Zero liquid discharge (ZLD)
 <a id="wwt-zld"></a>
@@ -908,10 +912,10 @@ flowchart LR
 - distillate quality: 1-10 mg/L TDS; Aquatech published ZLD performance. [source](https://www.aquatech.com/)
 - brine concentration reached: 200000-280000 mg/L TDS; Aquatech published ZLD performance. [source](https://www.aquatech.com/)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- total water cost, ZLD by direct-contact membrane distillation plus cooling crystallisation: 0.64-1.41 USD per barrel of clean water (2025$); $1.41/bbl with steam heat (~8.87 USD/m3) and $0.64/bbl with waste heat (~4.02 USD/m3) at 500,000 GPD on high-salinity produced water. Capital $0.12/bbl; operating cost dominates at $1.29/bbl.. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12471401)
 
-Sources: [1](https://www.aquatech.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.aquatech.com/). Last reviewed 2026-11-16.
 
 ## Advanced oxidation processes (AOP)
 <a id="wwt-aop"></a>
@@ -932,10 +936,11 @@ flowchart LR
 **Performance:**
 - trace-organism removal: 70-95 %; published AOP performance on trace organics. [source](https://www.trojantechnologies.com/)
 
-**Missing inputs:**
-- cost per m3, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- total treatment cost, UV/H2O2 (Calgon Carbon estimate): 0.084-1.08 USD per m3 treated; Derived from the source's USD per 1,000 gal: 0.32/1,000 gal at 1,380 m3/h and 20 ug/L pollutant, rising to 4.11/1,000 gal at 13.8 m3/h and 2,000 ug/L. Total treatment cost (amortised capital plus O&M), not capital only; price year not stated.. [source](https://iopscience.iop.org/article/10.1088/1757-899x/206/1/012089/pdf)
+- total treatment cost, H2O2/O3: 0.092-0.955 USD per m3 treated; Derived from 0.35/1,000 gal at 1,380 m3/h to 3.62/1,000 gal at 13.8 m3/h; photo-Fenton is quoted at 2.88/m3 under optimum conditions. Price year not stated.. [source](https://iopscience.iop.org/article/10.1088/1757-899x/206/1/012089/pdf)
 
-Sources: [1](https://www.trojantechnologies.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.trojantechnologies.com/). Last reviewed 2026-11-16.
 
 ## Anaerobic membrane bioreactor (AnMBR)
 <a id="wwt-anmbr"></a>
@@ -962,10 +967,13 @@ flowchart LR
 - COD removal: 85-95 %; published AnMBR performance on industrial effluent. [source](https://kubota-membrane.com/)
 - operating flux: 7-15 LMH; typical submerged AnMBR flux. [source](https://kubota-membrane.com/)
 
-**Missing inputs:**
-- cost per m3/d, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- net treatment cost, mainstream AnMBR: 0.35-0.42 EUR per m3 treated; CAPEX plus OPEX minus electricity revenue, 100-1,100 mg COD/L influent. Not a capital cost per m3/d, which is what the gap asks for.. [source](https://diposit.ub.edu/bitstreams/1de7dcf1-7b79-4842-863f-b130a02a1f57/download)
 
-Sources: [1](https://kubota-membrane.com/). Last reviewed 2026-11-13.
+**Missing inputs:**
+- capital cost per m3/d of installed capacity, with dollar year (costs): Total treatment cost (0.35-0.42 EUR/m3) is now recorded. Capital cost per m3/d was not present in any source loaded on 2026-11-16; the gap is narrowed to that. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this metric; do not derive it from an unrelated scope.
+
+Sources: [1](https://kubota-membrane.com/). Last reviewed 2026-11-16.
 
 ## Brine concentration and selective salt recovery
 <a id="wwt-brine-concentration"></a>
@@ -991,10 +999,10 @@ flowchart LR
 **Performance:**
 - brine concentration reached before evaporation: 15-25 % salt; published concentration targets. [source](https://www.aquatech.com/)
 
-**Missing inputs:**
-- cost per m3 of brine, dollar year (costs): Vendor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- levelised cost of water, single-stage mechanical vapour compression: 3.6-6.1 USD per m3 of product water (2024$); Feed 25-150 g/kg, recovery 40-80%, annualised capital plus operating cost. Brine concentration by MVC; per m3 of product, not per m3 of feed.. [source](https://www.osti.gov/servlets/purl/2476217)
 
-Sources: [1](https://www.aquatech.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.aquatech.com/). Last reviewed 2026-11-16.
 
 ## Forward osmosis
 <a id="wwt-forward-osmosis"></a>
@@ -1017,7 +1025,7 @@ flowchart LR
 **Performance:**
 - water flux: 10-25 LMH; published FO pilot fluxes. [source](https://www.ostara.com/)
 
-**Missing inputs:**
-- cost per m3, dollar year (costs): Vendor/licensor sites do not publish plant prices. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Ask owner for a priced reference or use GWI benchmarks.
+**Costs:**
+- water cost, FO-RO plus AnMBR municipal treatment: 0.81-1.27 EUR per m3 treated; Minimum 0.81 EUR/m3 at 50% FO recovery, rising to 1.01 at 80% and 1.27 at 90%; open-loop freshwater comparison 0.80 EUR/m3. Pre-2018 prices as published.. [source](https://diposit.ub.edu/bitstreams/f1e99a08-bd96-44ab-9655-0dc9686198f3/download)
 
-Sources: [1](https://www.suezwatertechnologies.com/). Last reviewed 2026-11-13.
+Sources: [1](https://www.suezwatertechnologies.com/). Last reviewed 2026-11-16.

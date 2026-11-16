@@ -116,17 +116,31 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per m3/d, dollar year",
+      "item": "capital cost per m3/d of installed capacity, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
+      "reason": "Total treatment cost (0.35-0.42 EUR/m3) is now recorded. Capital cost per m3/d was not present in any source loaded on 2026-11-16; the gap is narrowed to that.",
       "where": [
         {
           "hint": "Global Water Intelligence cost benchmarks",
           "url": "https://www.globalwaterintel.com/"
         }
       ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "action": "Leave open until a source states this metric; do not derive it from an unrelated scope."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-16",
+  "costs": [
+    {
+      "metric": "net treatment cost, mainstream AnMBR",
+      "unit": "EUR per m3 treated",
+      "year": 2021,
+      "low": 0.35,
+      "high": 0.42,
+      "basis": "CAPEX plus OPEX minus electricity revenue, 100-1,100 mg COD/L influent. Not a capital cost per m3/d, which is what the gap asks for.",
+      "source": {
+        "url": "https://diposit.ub.edu/bitstreams/1de7dcf1-7b79-4842-863f-b130a02a1f57/download",
+        "note": "Vinardell et al., Bioresource Technology (2021), mainstream AnMBR plant layouts, read 2026-11-16"
+      }
+    }
+  ]
 }

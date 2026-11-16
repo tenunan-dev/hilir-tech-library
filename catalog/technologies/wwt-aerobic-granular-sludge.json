@@ -106,20 +106,20 @@
       "note": "Nereda technology site (licensor), read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "installed cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Licensor does not publish prices.",
-      "where": [
-        {
-          "hint": "ICIS Water or Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
+      "metric": "installed capital cost, AGS plus tertiary UF upgrade",
+      "unit": "NIS per m3/d of capacity",
+      "year": 2020,
+      "low": 1863,
+      "high": 1863,
+      "basis": "Soreq WWTP train 5, 75,000 m3/d basis, built up from equipment costs, membrane quotations and independent review; excludes replacing outdated equipment in existing trains and the new feed pump station. A second case gives 1,758 NIS/m3/d on 79,500 m3/d.",
+      "source": {
+        "url": "https://iwaponline.com/wpt/article/21/8/3544/112830/Experiences-with-aerobic-granular-sludge-for-large",
+        "note": "Giesen et al., Water Practice & Technology 21(8):3544 (2026): 1,863 NIS per m3/d at 75,000 m3/d, 2020 prices, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

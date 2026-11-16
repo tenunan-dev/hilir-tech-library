@@ -116,20 +116,19 @@
       "source_id": "westech"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "construction cost, trickling filter plant",
+      "unit": "USD per mgd of capacity",
+      "low": 760000,
+      "high": 63400000,
+      "basis": "Complete TF system at 1 mgd $0.76M, 10 mgd $6.34M, 50 mgd $25M, 100 mgd $63.4M, with labour $0.05-1.0M and O&M $0.063-1.3M/yr; adapted from Martin & Martin (1990), base year not stated on the sheet - order of magnitude.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2022-10/trickling-filters-factsheet.pdf",
+        "note": "EPA 832-F-00-014, Trickling Filters, Table 2 construction cost by plant size (~1990 USD), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

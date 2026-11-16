@@ -131,16 +131,16 @@
     {
       "field": "costs",
       "item": "reactor cost per kg COD/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Licensor does not publish prices.",
+      "reason_code": "source_unreachable",
+      "reason": "Searched 2026-11-16: the per-kg-COD figure exists in the literature (Wiley, doi 10.1002/cjce.70351) but Cloudflare blocked the HTML, PDF and XML routes; vendors quote only lump-sum equipment ($200k-400k) with no flow basis.",
       "where": [
         {
           "hint": "ICIS Water or Global Water Intelligence cost benchmarks",
           "url": "https://www.globalwaterintel.com/"
         }
       ],
-      "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
+      "action": "Retry the Wiley paper through the owner's browser; otherwise request the figure from a licensor quote."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-16"
 }

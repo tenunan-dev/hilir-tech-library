@@ -92,20 +92,20 @@
       "note": "HUBER headworks equipment pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "installed cost per m3/d design flow, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "construction cost, headworks screening facility",
+      "unit": "USD per m3/d of design flow",
+      "year": 2019,
+      "low": 98,
+      "high": 108,
+      "basis": "Derived from a Class 5 estimate for the Roberto Bustamante WWTP headworks: screening facility construction $19.0M (total project $20.9M) against the 51 mgd AADF expansion flow the headworks is designed for (193,055 m3/d). Dividing by permitted peak flow instead gives a much lower figure, so the flow basis travels with the number: $98/m3/d construction, $108/m3/d project cost.",
+      "source": {
+        "url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6843404/File/Business%20Center/Purchasing%20Overview/Bids/Professional%20Services/RFQ114-19/Condition%20Assessment%20and%20Alternatives%20Evaluation%20TM.pdf",
+        "note": "El Paso Water, Roberto Bustamante WWTP headworks condition assessment (Carollo, Jul 2019): screening facility construction $19.0M, project $20.9M at 51 mgd AADF expansion flow, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

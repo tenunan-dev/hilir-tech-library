@@ -107,20 +107,20 @@
       "note": "ZeeWeed portfolio pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "installed capital cost, hollow-fibre UF ahead of NF",
+      "unit": "USD per gallon per day",
+      "year": 2018,
+      "low": 0.67,
+      "high": 0.67,
+      "basis": "2 mgd hollow-fibre UF, equipment $1.04M, part of a $2.49/gpd total train with NF.",
+      "source": {
+        "url": "https://www.deswater.com/readfulltextopenaccess.php?id=RFdUX2FydGljbGVzL3ZvbF8xMjRfcGFwZXJzLzEyNF8yMDE4XzEucGRm",
+        "note": "Duranceau & Yonge, Desalination and Water Treatment 124 (2018) 1-10: 2 mgd hollow-fibre loose NF + sand filtration, Florida groundwater (2018 USD), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

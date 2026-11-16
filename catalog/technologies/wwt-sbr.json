@@ -104,6 +104,18 @@
         "url": "https://www.epa.gov/system/files/documents/2022-10/sequencing-batch-reactors-factsheet.pdf",
         "note": "US EPA, Wastewater Technology Fact Sheet: Sequencing Batch Reactors, EPA 832-F-99-073, September 1999, COSTS section"
       }
+    },
+    {
+      "metric": "installed cost, SBR system",
+      "unit": "USD per gallon per day of capacity",
+      "year": 1998,
+      "low": 1.65,
+      "high": 5.0,
+      "basis": "March 1998 USD, ENR 5875, complete installed SBR including sludge handling: $1.96-5.00/gal at 0.5-1.0 mgd, $1.83-2.69 at 1.1-1.5 mgd, $1.65-3.29 at 1.5-2.0 mgd. Equipment only (excluding tanks and sitework) $150,000-350,000 at 1 mgd. O&M $800-2,000 per million gallons treated.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2022-10/sequencing-batch-reactors-factsheet.pdf",
+        "note": "EPA 932-F-99-073, Sequencing Batch Reactors: installed cost per gallon and O&M per million gallons (Mar 1998 USD), read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -113,19 +125,6 @@
       "note": "SBR portfolio context, read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost per gallon per day of capacity",
-      "reason_code": "not_in_sources_read",
-      "reason": "The SBR operation and maintenance range is now recorded (EPA 832-F-99-073). The sheet's capital cost table did not survive as machine-readable text in the copy read, so no capital figure is recorded.",
-      "where": [
-        {
-          "hint": "EPA 832-F-99-073 Table 6 (cost estimates for SBRs), read as page images"
-        }
-      ],
-      "action": "Read the SBR capital cost table from the PDF pages and record the per-gallon range."
-    }
-  ],
-  "last_reviewed": "2026-11-14"
+  "gaps": [],
+  "last_reviewed": "2026-11-16"
 }

@@ -105,20 +105,20 @@
       "note": "Andritz sludge drying pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per t DS, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "total cost, heat drying of biosolids",
+      "unit": "USD per dry tonne",
+      "year": 1994,
+      "low": 323,
+      "high": 441,
+      "basis": "Indirect dryer $323/dry ton, direct dryer $441/dry ton at ~35 dry metric t/d; capital $26.8M indirect vs $37M direct. O&M separately $180-300/dry ton.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/heat-drying-factsheet.pdf",
+        "note": "EPA 832-F-06-029, Biosolids Technology Fact Sheet: Heat Drying (1994 USD costs, ~35 dry t/d basis), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

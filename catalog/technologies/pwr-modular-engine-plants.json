@@ -238,7 +238,7 @@
       "field": "costs",
       "item": "capital cost per kW for a modular engine plant versus a conventional build, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Searched 2026-11-16 and still no open source states a modular-vs-conventional $/kW delta. Wärtsilä's Modular Block article describes containerised transport, bolted joints, no site welding and a ~5-week build, and claims only qualitative cost savings where site works are expensive; its data-centre page's '20-30% lower CAPEX' names no comparator. The EPA/DOE total-installed figures now on pwr-gas-engines are for engine CHP, not for a modular premium.",
+      "reason": "Searched three times (2026-10-28, 2026-11-16 twice). No open source states a capital cost per kW for a modular/containerised engine plant, or a premium/discount against a stick-built plant: EIA's AEO2025 capital-cost report has no reciprocating-engine or modular line to cite, the Danish Energy Agency catalogue page 404s, ESMAP's equipment-price study is 403, and vendor pages claim only qualitative savings (Wärtsilä's '20-30% lower CAPEX' names no comparator). The EPA and DOE engine figures now on pwr-gas-engines are engine CHP, not a modular premium.",
       "where": [
         {
           "hint": "Manufacturer investor material or EPC tender results comparing modular and stick-built engine plants",
@@ -249,13 +249,13 @@
           "access": "open"
         }
       ],
-      "action": "Leave open until a source states the delta; do not derive it by subtracting two unrelated figures."
+      "action": "Treat as unmeasured. Only an owner/utility board paper publishing both bids for one project, or a manufacturer's investor disclosure, can close this; do not derive it by subtracting unrelated figures."
     },
     {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "No agency source assigns a TRL to modular/containerised engine plants as a distinct technology: the IEA ETP Clean Energy Technology Guide dataset has no such row, and DOE/EPA cover the engine, not the packaging. Commercial deployment is evidenced by the reference plants (Dohazari 102 MW in 10 months; KPUB 124 MW), so the blocker is the missing agency rating, not the technology.",
+      "reason": "No agency assigns a TRL or maturity grade to modular engine plants as distinct from the engine itself: the IEA Clean Energy Technology Guide dataset has no such row, and maturity schemes (IEA, DOE, EPA) grade reciprocating/gas engines generically. Commercial deployment is evidenced by the reference plants (Dohazari 102 MW in 10 months; KPUB 124 MW), so the blocker is the missing agency rating, not the technology.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for reciprocating engine power plants",
@@ -263,7 +263,7 @@
           "source_id": "iea-reports"
         }
       ],
-      "action": "Cite a deployment record, or leave the TRL empty rather than infer 9 from maturity prose."
+      "action": "Leave the TRL empty rather than infer 9; cite the deployment record in prose if a number is demanded."
     }
   ],
   "notes": "MAN Energy Solutions was renamed Everllence on 4 June 2025 (everllence.com press release read 26 October 2026); the catalogued source record still carries the former name. Rolls-Royce Power Systems launched its modular gas engine power plant offer in February 2026, so the concept is new even though mtu gensets have run on the UK grid since 2014. Wärtsilä reports 81 GW of engine power plant capacity delivered (wartsila.com/energy/engine-power-plant-solutions, read 26 October 2026). Deployment sequence provenance: factory fabrication and testing, bolted site erection without welding and the ~5-week assembly window are as described in Wärtsilä's Modular Block article (wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block, read 2026-11-16); balance-of-plant and grid-synchronisation steps are the standard plant sequence."

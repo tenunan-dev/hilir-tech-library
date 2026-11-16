@@ -130,6 +130,28 @@
         "url": "https://www.epa.gov/sites/default/files/2015-06/documents/package_plant.pdf",
         "note": "US EPA, Wastewater Technology Fact Sheet: Package Plants, EPA 832-F-00-016, September 2000, COSTS section (extended-aeration package plants; figures provided by Aeration Products, Inc.)"
       }
+    },
+    {
+      "metric": "plant electricity use, secondary treatment including sludge management",
+      "unit": "kWh per million gallons treated",
+      "low": 1500,
+      "high": 1700,
+      "basis": "Whole-plant electricity for an activated-sludge plant including residuals management; about 0.40-0.45 kWh/m3. Aeration alone is 30-80% of plant electricity (67% in NYSERDA's typical plant).",
+      "source": {
+        "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Environmental/Energy-Efficiency-Municipal-WWTP.pdf",
+        "note": "NYSERDA, Energy Efficiency in Municipal Wastewater Treatment Plants: 1,500-1,700 kWh per million gallons treated; aeration 30-80% of plant electricity, read 2026-11-16"
+      }
+    },
+    {
+      "metric": "electricity cost, secondary treatment including sludge management",
+      "unit": "USD per m3 treated",
+      "low": 0.036,
+      "high": 0.0405,
+      "basis": "Derived: 1,500-1,700 kWh per million gallons (0.40-0.45 kWh/m3) at the $0.09/kWh statewide average NYSERDA quotes. Electricity only - no labour, chemicals, sludge haulage or maintenance. Dollar year not stated: the quoted electricity price line carries no date.",
+      "source": {
+        "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Environmental/Energy-Efficiency-Municipal-WWTP.pdf",
+        "note": "NYSERDA, Energy Efficiency in Municipal Wastewater Treatment Plants: energy intensity and $0.09/kWh statewide average, read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -142,18 +164,18 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "operating cost and energy demand per m3 treated, with dollar year and basis",
+      "item": "non-energy operating cost per m3 treated, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Package-plant capital cost per gallon per day is now recorded (EPA 832-F-00-016, 2000 basis). Operating cost and specific energy for a full-size activated sludge plant are not stated in any source read.",
+      "reason": "Energy demand and its electricity cost are now recorded (1,500-1,700 kWh/MG; about $0.036-0.041/m3 at the quoted $0.09/kWh). Labour, chemicals, maintenance and sludge haulage were not priced in any source loaded on 2026-11-16.",
       "where": [
         {
           "hint": "EPA fact sheets state no operating energy figure for activated sludge; plant energy benchmarks are in utility and WEF publications"
         }
       ],
-      "action": "Add operating cost and specific energy (kWh/m3) from an operating plant benchmark."
+      "action": "Leave open until a source states this metric; do not derive it from an unrelated scope."
     }
   ],
-  "last_reviewed": "2026-11-14",
+  "last_reviewed": "2026-11-16",
   "reference_plants": [
     {
       "name": "Changi Water Reclamation Plant, Singapore",

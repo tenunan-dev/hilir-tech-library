@@ -8,6 +8,18 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.3] — 2026-11-16 — wastewater cost fills; only sourceless gaps left open
+
+### Added
+
+- **Twenty-five cost figures across the wastewater sector**, each from a page read this session: SBR (installed $/gal, 1998 USD), trickling filters (construction $/mgd, ~1990), BNR (retrofit capital $/mgd by size, 2006), DAF, MBBR, aerobic granular sludge (NIS/m3/d, 2020), lamella clarifiers, nanofiltration and ultrafiltration ($/gpd, 2018), RO reuse train ($/gpd, 2013), forward osmosis (EUR/m3), advanced oxidation ($/1,000 gal), ozone ($389,000 per mgd, 1998), chlorination (capital + O&M, plus a derived chemical-only $0.017–0.066/m3), brine concentration by MVC ($3.6–6.1/m3, 2024), ZLD ($0.64–1.41/bbl, 2025), sludge drying, incineration, thickening, struvite recovery and headworks screening.
+- **Derived figures are labelled as derived and show their arithmetic** — the activated-sludge electricity cost, the chlorination chemical cost, the UV and headworks $/m3/d normalisations, and struvite $/kg P. Where a source omitted the design flow (the EPA UV fact sheet), no $/m3/d was invented.
+
+### Changed
+
+- **Costs gaps 300 → 275**; on WWT cards 31 → 7. The seven that remain each state exactly what is missing and why: no source prices an IC reactor or a de-oiling produced-water train per unit; UASB and IC figures sit behind a bot-blocked Wiley paper; a chlorination chemical cost needs a dose; sludge-digestion capital per dry tonne is unpublished; pinch-study fees are confidential.
+- `pwr-modular-engine-plants` keeps its costs and TRL gaps after a third search, now with the evidence named: EIA's AEO2025 capital-cost report has no reciprocating/modular line, the DEA catalogue page 404s, ESMAP's study is 403, and no agency grades modular packaging separately from engines.
+
 ## [2026.11.16.2] — 2026-11-16 — vendor queue corrected; 12 WWT vendors; gas-engine and CHP gaps closed
 
 ### Added

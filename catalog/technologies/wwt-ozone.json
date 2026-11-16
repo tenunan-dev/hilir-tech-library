@@ -117,6 +117,18 @@
         "url": "https://www.epa.gov/sites/default/files/2015-06/documents/ozon.pdf",
         "note": "US EPA, Wastewater Technology Fact Sheet: Ozone Disinfection, EPA 832-F-99-063, September 1999, Table 2 typical cost estimate for a 1 MGD system (source Champion Technology, 1998)"
       }
+    },
+    {
+      "metric": "total installed capital cost, ozone disinfection",
+      "unit": "USD per mgd of capacity",
+      "year": 1998,
+      "low": 389000,
+      "high": 389000,
+      "basis": "Line items for 1 mgd of secondary effluent (BOD<30, SS<30 mg/L): oxygen feed gas and compressor $245,500; contact vessel $4,000-5,000; off-gas destruct $800-1,200; non-component $35,000; engineering $12,000-15,000; plus 30% contingency. O&M: labour $12,000/yr, 90 kW power, other $6,500/yr.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-06/documents/ozon.pdf",
+        "note": "EPA 832-F-99-063, Ozone Disinfection: total installed cost for 1 mgd (1998 vendor estimate), read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -126,19 +138,6 @@
       "note": "Wedeco ozone pages, read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "total installed capital cost for an ozone disinfection system",
-      "reason_code": "not_in_sources_read",
-      "reason": "Annual O&M excluding power is now recorded. Table 2 lists capital components (oxygen feed gas and compressor USD 245,500; contact vessel USD 4,000-5,000; destruct unit USD 800-1,200; non-component USD 35,000; engineering USD 12,000-15,000; contingencies 30 percent) but states no total, and summing it would be a derivation the sheet does not make.",
-      "where": [
-        {
-          "hint": "EPA 832-F-99-063 Table 2 components; ozone vendor budget quotes"
-        }
-      ],
-      "action": "Add a total capital cost from a vendor quote or a study that states the total."
-    }
-  ],
-  "last_reviewed": "2026-11-14"
+  "gaps": [],
+  "last_reviewed": "2026-11-16"
 }

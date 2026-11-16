@@ -116,20 +116,20 @@
       "note": "BNR portfolio context, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "capital cost, BNR retrofit",
+      "unit": "USD per mgd of capacity",
+      "year": 2006,
+      "low": 588000,
+      "high": 6972000,
+      "basis": "Retrofit upgrades (engineering, pilot study, design, construction) across 43 Maryland and 23 Connecticut plants by size band: >10 mgd $588,000/mgd; 1-10 mgd $1,742,000/mgd; 0.1-1.0 mgd $6,972,000/mgd. 2006 USD, ENR 7910.81. Retrofit, not greenfield.",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=60000G2U.TXT",
+        "note": "EPA 823-R-07-002, Biological Nutrient Removal Processes and Costs, Table: retrofit capital by plant size (2006 USD), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

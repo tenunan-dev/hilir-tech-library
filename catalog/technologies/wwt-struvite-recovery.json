@@ -107,20 +107,32 @@
       "note": "Ostara Pearl process pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per kg P recovered, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "break-even cost, electrochemical struvite recovery",
+      "unit": "USD per kg struvite recovered",
+      "year": 2022,
+      "low": 6.03,
+      "high": 6.03,
+      "basis": "Pearl 500 reactor at a 45,425 m3/d plant with anaerobic digestion, 18-33% phosphorus recovery: capital $2.16/kg and O&M $0.34/kg against a $6.03/kg break-even.",
+      "source": {
+        "url": "https://www.mdpi.com/2071-1050/14/20/13657",
+        "note": "Morrissey et al., Sustainability 14(20):13657 (2022): electrochemical struvite recovery, Pearl 500 at Fort Smith AR, 45,425 m3/d, read 2026-11-16"
+      }
+    },
+    {
+      "metric": "break-even cost per kg phosphorus recovered",
+      "unit": "USD per kg P",
+      "year": 2022,
+      "low": 47.9,
+      "high": 47.9,
+      "basis": "Derived from $6.03/kg struvite at 0.126 kg P per kg struvite; the conversion is ours, not the paper's.",
+      "source": {
+        "url": "https://www.mdpi.com/2071-1050/14/20/13657",
+        "note": "Morrissey et al., Sustainability 14(20):13657 (2022): electrochemical struvite recovery, Pearl 500 at Fort Smith AR, 45,425 m3/d, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

@@ -114,20 +114,19 @@
       "note": "Veolia AnoxKaldnes MBBR pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "packaged MBBR plant, equipment",
+      "unit": "USD per m3/d of capacity",
+      "low": 4160,
+      "high": 4160,
+      "basis": "Derived from a 5 m3/d all-in-one packaged unit at USD 20,800 (average 5, maximum 8 m3/d): screen, equalisation, anoxic tank, MBBR tank, central tube, chlorine contact, filtration and sludge holding; media and spares listed separately. Vendor quotes 2021, price year not stated. A small packaged unit has no economy of scale - do not read it as a municipal MBBR benchmark.",
+      "source": {
+        "url": "https://ejfa.me/index.php/journal/article/download/2848/1631",
+        "note": "Al Hosani et al., Emir. J. Food Agric. 34(9):731 (2022) Table 3: USD 20,800 for a packaged 5 m3/d MBBR (vendor quotes 2021, year not stated), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

@@ -117,20 +117,19 @@
       "note": "Veolia DAF portfolio pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/h design flow, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "total installed cost, dissolved air flotation thickener",
+      "unit": "USD per m3/h of design flow",
+      "low": 2640,
+      "high": 2640,
+      "basis": "Derived from a manufacturer example: USD 600,000 installed for a 40 ft diameter DAF on 1,000 gpm (~227 m3/h) waste-activated-sludge feed at 5,000 mg/L, with 1,200 gpm recycle. Dollar year not stated; manufacturer figure, order-of-magnitude only.",
+      "source": {
+        "url": "https://www.westechwater.com/blog/reduce-energy-costs-using-dissolved-air-flotation-for-waste-activated-sludge-thickening",
+        "note": "WesTech: USD 600,000 total installed for a 40 ft DAF at 1,000 gpm (~227 m3/h) WAS feed; dollar year not stated, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

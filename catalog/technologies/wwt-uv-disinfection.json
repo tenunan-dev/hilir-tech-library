@@ -99,20 +99,32 @@
       "note": "Trojan UV pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "total capital cost, UV disinfection system",
+      "unit": "USD",
+      "year": 1999,
+      "low": 244000,
+      "high": 244000,
+      "basis": "Equipment $120,000 + structural $64,000 + electrical $20,000 + miscellaneous $40,000; O&M $19,190/yr (energy $3,300, lamps/chemicals $2,840, cleaning $1,180, maintenance $1,440, process control $6,240, testing $4,160). The sheet does NOT state the design flow, so it cannot be normalised to m3/d; the underlying WERF study covers 1, 10 and 100 mgd with lamps banded 1-5, 5-10 and 19-100 mgd.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2015-06/documents/uv.pdf",
+        "note": "EPA 832-F-99-064, Ultraviolet Disinfection, Tables 3A-3B: USD 244,000 capital, USD 19,190/yr O&M; design flow not stated, read 2026-11-16"
+      }
+    },
+    {
+      "metric": "capital cost, UV disinfection at plant peak flow",
+      "unit": "USD per m3/d of capacity",
+      "year": 2004,
+      "low": 11.0,
+      "high": 21.1,
+      "basis": "Derived: $3,350,000 for low-pressure high-output UV sized for 42 mgd (158,987 m3/d) = $21.1/m3/d. About half the capital was modifying the outfall into a UV chamber; with an existing chlorine contact tank the report says the cost could fall by up to $1.6M, giving about $11/m3/d. Chlorination/dechlorination for the same flow was $1,150,000.",
+      "source": {
+        "url": "https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/UV-Disinfection-Options-for-Wastewater-Treatment-Plants.pdf",
+        "note": "NYSERDA-funded Southtowns WWTP study, Table 8-1 (2004 dollars): UV capital $3.35M at 42 mgd peak flow, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

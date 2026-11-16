@@ -113,20 +113,20 @@
       "note": "Paques BIOPAQ UASB product pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "reactor cost per kg COD/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "UASB acquisition cost per organic load",
+      "unit": "USD per kg COD/d of design load",
+      "year": 2019,
+      "low": 262,
+      "high": 262,
+      "basis": "Derived from a Brazilian pulp-and-paper mill: UASB acquisition cost USD 3.4M against a design organic loading rate of 12,960 kg COD/d (9,288 m3/d wastewater). Acquisition cost only, single retrofit, no civils breakdown - an order-of-magnitude anchor, not a cost curve.",
+      "source": {
+        "url": "https://www.biofueljournal.com/article_92201_58ae1ca2f4769904c302d9aee827e1c9.pdf",
+        "note": "Ferreira et al., Biofuel Research Journal (2019): UASB acquisition cost USD 3.4M at 12,960 kg COD/d design load, Brazilian pulp mill, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

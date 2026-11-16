@@ -95,20 +95,32 @@
       "note": "Evoqua disinfection pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "chemical cost per m3, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish operating costs.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "annualised capital cost, chlorination plus dechlorination plus fire-code compliance",
+      "unit": "USD per mgd of capacity",
+      "year": 1995,
+      "low": 1127000,
+      "high": 14340000,
+      "basis": "WERF 1995 study at 1 mgd ADWF, 5 mg/L dose: chlorination $410,000 + dechlorination $290,000 + UFC compliance $239,000 = $1,127,000; 10 mgd $3,137,000 (5 mg/L); 100 mgd $14.34M. Dechlorination adds 30-50%. O&M $49,300/yr at 1 mgd (about $0.036/m3), $158,200/yr at 10 mgd.",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=200044E0.TXT",
+        "note": "EPA 832-F-99-062, Chlorine Disinfection: annualised capital and O&M from the WERF 1995 study (1995-1999 USD), read 2026-11-16"
+      }
+    },
+    {
+      "metric": "chemical-only disinfectant cost, sodium hypochlorite",
+      "unit": "USD per m3 treated",
+      "year": 2024,
+      "low": 0.0166,
+      "high": 0.066,
+      "basis": "Derived: 12.5% hypochlorite at $1.79/gal (Oct 2024 unit-price sheet) = $1.50/lb available Cl2 ($3.31/kg) assuming SG 1.20; dose 5-20 mg/L (EPA) gives 0.0166-0.066 USD/m3. Chemical only - no power, labour or dechlorination. A Dec 2023 Baytown bid ($0.2300/lb solution) gives about $0.021/m3 at 5 mg/L, an independent check.",
+      "source": {
+        "url": "https://public.destinyhosted.com/casagdocs/2024/CCREG/20241007_2380/7630_Unit_Prices.pdf",
+        "note": "City of Casa Grande unit-price sheet (Oct 2024): sodium hypochlorite 12.5%, bulk, $1.79/gal, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

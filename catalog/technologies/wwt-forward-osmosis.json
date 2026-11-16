@@ -92,20 +92,19 @@
       "note": "membrane portfolio context, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "water cost, FO-RO plus AnMBR municipal treatment",
+      "unit": "EUR per m3 treated",
+      "low": 0.81,
+      "high": 1.27,
+      "basis": "Minimum 0.81 EUR/m3 at 50% FO recovery, rising to 1.01 at 80% and 1.27 at 90%; open-loop freshwater comparison 0.80 EUR/m3. Pre-2018 prices as published.",
+      "source": {
+        "url": "https://diposit.ub.edu/bitstreams/f1e99a08-bd96-44ab-9655-0dc9686198f3/download",
+        "note": "Vinardell et al., techno-economic analysis of FO-RO combined with AnMBR, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

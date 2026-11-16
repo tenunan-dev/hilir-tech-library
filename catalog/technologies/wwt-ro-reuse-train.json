@@ -161,20 +161,20 @@
       "note": "DuPont Water Solutions site (FilmTec RO/NF families), read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "installed cost per m3/d with dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "OEM sites do not publish train prices.",
-      "where": [
-        {
-          "hint": "ICIS Water or Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use a published benchmark (e.g. a reuse-scheme annual report)."
+      "metric": "installed capital cost, potable reuse train (MF/RO/UVAOP)",
+      "unit": "USD per gallon per day",
+      "year": 2013,
+      "low": 6.0,
+      "high": 6.0,
+      "basis": "20 mgd train, secondary-effluent feed with ocean disposal of concentrate: $120M capital = $6.00/gpd (~1,585 USD per m3/d). O&M $5.9M/yr separately; a 5 mgd train costs $52M.",
+      "source": {
+        "url": "https://watereuse.org/wp-content/uploads/2015/12/2013_Watereuse_Webcast_Schimmoller_Kealy-Rev1.pdf",
+        "note": "Schimmoller & Kealy, The Cost of Overtreating Reclaimed Water, WateReuse webcast (2013): MF/RO/UVAOP train, 20 mgd, 2013 USD, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

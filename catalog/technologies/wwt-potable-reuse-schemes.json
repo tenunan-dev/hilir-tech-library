@@ -92,22 +92,8 @@
       "note": "PUB NEWater scheme pages, read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "cost per m3 purified, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
-    }
-  ],
-  "last_reviewed": "2026-11-13",
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
   "reference_plants": [
     {
       "name": "Changi WRP (Singapore, NEWater supplier)",
@@ -123,6 +109,19 @@
       "source": {
         "url": "https://www.pub.gov.sg/",
         "note": "project page, read 2026-11-13"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "treated water cost, indirect potable reuse (full advanced treatment)",
+      "unit": "USD per 1,000 gallons",
+      "low": 2.8,
+      "high": 4.1,
+      "basis": "10 mgd IPR facility, annualised over 20 years; about 0.74-1.08 USD/m3. The document is 2017 but the quoted sentence gives no base year - dollar year not stated.",
+      "source": {
+        "url": "https://19january2021snapshot.epa.gov/sites/static/files/2018-01/documents/potablereusecompendium.pdf",
+        "note": "EPA 810-R-17-002, 2017 Potable Reuse Compendium ch.11: $2.8-4.1 per 1,000 gal at 10 mgd, annualised over 20 years, read 2026-11-16"
       }
     }
   ]

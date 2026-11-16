@@ -105,14 +105,14 @@
       "field": "costs",
       "item": "consultancy cost per study, dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Advisory firms do not publish study prices.",
+      "reason": "Searched 2026-11-16: no page prices a pinch/process-integration study. Consultancy fees are commercially confidential and are not published.",
       "where": [
         {
           "hint": "Ask the owner for a benchmarked study cost"
         }
       ],
-      "action": "Ask owner for a priced reference."
+      "action": "Ask the owner's preferred consultancy for a typical fee, or record the gap as permanently owner-held."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-16"
 }

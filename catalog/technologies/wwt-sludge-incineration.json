@@ -110,6 +110,18 @@
         "url": "https://www.epa.gov/sites/default/files/2018-11/documents/use-incineration-biosolids-management-factsheet.pdf",
         "note": "US EPA, Biosolids Technology Fact Sheet: Use of Incineration for Biosolids Management, EPA 832-F-03-013, COSTS section (costs adjusted using 2002 ENR values)"
       }
+    },
+    {
+      "metric": "capital cost, new fluidised-bed incineration facility",
+      "unit": "USD per dry tonne per day of capacity",
+      "year": 1994,
+      "low": 60000,
+      "high": 60000,
+      "basis": "New FBF in North Carolina serving 136,000 m3/d (36 MGD): $6M facility. EPA prints the unit figure as $66/dry Mg ($60/dry ton); the '/day' and thousands are implied by the context, so treat as indicative. O&M $76-245/dry ton (2002 ENR).",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P10053DX.TXT",
+        "note": "EPA 832-F-03-013, Biosolids Technology Fact Sheet: Use of Incineration (1994 USD), read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -119,19 +131,6 @@
       "note": "incineration portfolio context, read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost per tonne per day of installed incineration capacity",
-      "reason_code": "not_in_sources_read",
-      "reason": "Operating cost per dry Mg is now recorded (2002 basis, EPA 832-F-03-013). The sheet gives one facility capital quote (USD 6 million for a two-plant facility) without a capacity basis usable as a unit cost.",
-      "where": [
-        {
-          "hint": "EPA 832-F-03-013 facility examples; state revolving fund project cost data"
-        }
-      ],
-      "action": "Add capital cost per tonne per day from a facility with a stated capacity."
-    }
-  ],
-  "last_reviewed": "2026-11-14"
+  "gaps": [],
+  "last_reviewed": "2026-11-16"
 }

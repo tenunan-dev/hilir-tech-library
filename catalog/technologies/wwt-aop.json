@@ -80,20 +80,30 @@
       "note": "Trojan AOP pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "total treatment cost, UV/H2O2 (Calgon Carbon estimate)",
+      "unit": "USD per m3 treated",
+      "low": 0.084,
+      "high": 1.08,
+      "basis": "Derived from the source's USD per 1,000 gal: 0.32/1,000 gal at 1,380 m3/h and 20 ug/L pollutant, rising to 4.11/1,000 gal at 13.8 m3/h and 2,000 ug/L. Total treatment cost (amortised capital plus O&M), not capital only; price year not stated.",
+      "source": {
+        "url": "https://iopscience.iop.org/article/10.1088/1757-899x/206/1/012089/pdf",
+        "note": "Krishnan et al., IOP Conf. Ser. MSE 206:012089 (2017): vendor estimates per 1,000 gal; year not stated, read 2026-11-16"
+      }
+    },
+    {
+      "metric": "total treatment cost, H2O2/O3",
+      "unit": "USD per m3 treated",
+      "low": 0.092,
+      "high": 0.955,
+      "basis": "Derived from 0.35/1,000 gal at 1,380 m3/h to 3.62/1,000 gal at 13.8 m3/h; photo-Fenton is quoted at 2.88/m3 under optimum conditions. Price year not stated.",
+      "source": {
+        "url": "https://iopscience.iop.org/article/10.1088/1757-899x/206/1/012089/pdf",
+        "note": "Krishnan et al., IOP Conf. Ser. MSE 206:012089 (2017): vendor estimates per 1,000 gal; year not stated, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

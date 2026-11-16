@@ -119,20 +119,20 @@
       "note": "Aquatech ZLD portfolio pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "total water cost, ZLD by direct-contact membrane distillation plus cooling crystallisation",
+      "unit": "USD per barrel of clean water",
+      "year": 2025,
+      "low": 0.64,
+      "high": 1.41,
+      "basis": "$1.41/bbl with steam heat (~8.87 USD/m3) and $0.64/bbl with waste heat (~4.02 USD/m3) at 500,000 GPD on high-salinity produced water. Capital $0.12/bbl; operating cost dominates at $1.29/bbl.",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12471401",
+        "note": "Fernandez et al., Zero liquid discharge of high-salinity produced water via DCMD and cooling crystallisation (2025), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

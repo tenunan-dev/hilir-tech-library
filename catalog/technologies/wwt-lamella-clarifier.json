@@ -107,20 +107,20 @@
       "note": "Veolia Actiflo pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/h, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "equipment cost, lamella settler in SUS 304",
+      "unit": "USD per m3/h of design flow",
+      "year": 2026,
+      "low": 300,
+      "high": 600,
+      "basis": "Vendor price list, May 2026: standard SUS 304 lamella settler, price per m3/h falling with size and rising for premium alloys or customisation. The page does not itemise what the figure includes; vendor rule of thumb, not a benchmark.",
+      "source": {
+        "url": "https://www.weilanwaters.com/lamella-settler-prices",
+        "note": "Lamella settler price list, May 2026: USD 300-600 per m3/h design flow (vendor rule of thumb), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

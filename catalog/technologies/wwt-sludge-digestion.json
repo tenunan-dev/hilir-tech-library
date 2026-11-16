@@ -143,6 +143,18 @@
         "url": "https://www.epa.gov/sites/default/files/2018-11/documents/multistage-anaerobic-digestion-factsheet.pdf",
         "note": "US EPA, Biosolids Technology Fact Sheet: Multi-Stage Anaerobic Digestion, EPA 832-F-06-031, COSTS section (named facilities)"
       }
+    },
+    {
+      "metric": "operation and maintenance cost, anaerobic digestion",
+      "unit": "USD per dry ton through the digesters",
+      "year": 1999,
+      "low": 9.39,
+      "high": 51.51,
+      "basis": "Operation $5.30-41.03 (average $17.47), maintenance $4.09-10.48 (average $7.44): total $9.39-51.51, average $24.91 per dry ton. Figures from the Multi-Agency Benchmarking Study (Dec 1999) reproduced in the EPA fact sheet. Uplift for a UK cross-check (Ofwat/Jacobs 2021) is per wet tonne, not per dry tonne, so it is not used here.",
+      "source": {
+        "url": "https://www.epa.gov/sites/default/files/2018-11/documents/multistage-anaerobic-digestion-factsheet.pdf",
+        "note": "EPA Biosolids Technology Fact Sheet: Multi-Stage Anaerobic Digestion, Table 4 O&M costs per dry ton (source: Multi-Agency Benchmarking Study, Dec 1999), read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -155,18 +167,18 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "unit capital and operating cost per dry tonne of solids stabilised",
+      "item": "unit capital cost per dry tonne of solids stabilised",
       "reason_code": "not_in_sources_read",
-      "reason": "Named-facility capital costs are now recorded (EPA 832-F-06-031). A unit cost per dry tonne of solids, which is what sizing a project needs, is not stated in the sheet.",
+      "reason": "O&M per dry tonne is now recorded ($9.39-51.51, average $24.91, 1999 USD). A capital figure normalised per dry tonne was not found; the card holds named-facility capital costs instead.",
       "where": [
         {
           "hint": "WEF/EPA biosolids cost studies reporting USD per dry tonne for digestion"
         }
       ],
-      "action": "Add a unit cost per dry tonne from a biosolids cost study."
+      "action": "Leave open until a source states a capital cost per dry tonne."
     }
   ],
-  "last_reviewed": "2026-11-14",
+  "last_reviewed": "2026-11-16",
   "reference_plants": [
     {
       "name": "Tuas Water Reclamation Park (co-located sludge energy)",

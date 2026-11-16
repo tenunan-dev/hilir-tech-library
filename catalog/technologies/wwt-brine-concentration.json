@@ -102,20 +102,20 @@
       "note": "Aquatech brine pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3 of brine, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "levelised cost of water, single-stage mechanical vapour compression",
+      "unit": "USD per m3 of product water",
+      "year": 2024,
+      "low": 3.6,
+      "high": 6.1,
+      "basis": "Feed 25-150 g/kg, recovery 40-80%, annualised capital plus operating cost. Brine concentration by MVC; per m3 of product, not per m3 of feed.",
+      "source": {
+        "url": "https://www.osti.gov/servlets/purl/2476217",
+        "note": "Tucker et al., Component innovations for lower cost mechanical vapor compression, OSTI 2476217 (2024): single-stage MVC LCOW, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

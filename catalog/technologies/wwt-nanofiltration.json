@@ -99,20 +99,20 @@
       "note": "DuPont FilmTec NF pages, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per m3/d, dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor/licensor sites do not publish plant prices.",
-      "where": [
-        {
-          "hint": "Global Water Intelligence cost benchmarks",
-          "url": "https://www.globalwaterintel.com/"
-        }
-      ],
-      "action": "Ask owner for a priced reference or use GWI benchmarks."
+      "metric": "installed capital cost, hollow-fibre loose NF with sand filtration",
+      "unit": "USD per gallon per day",
+      "year": 2018,
+      "low": 1.96,
+      "high": 2.49,
+      "basis": "2 mgd plant on Florida groundwater: HF-LNF $1.96/gpd (total $4.482M); seawater-NF alternative $2.49/gpd. O&M $0.06/gpd (HF-LNF) and $0.11/gpd (SW-NF).",
+      "source": {
+        "url": "https://www.deswater.com/readfulltextopenaccess.php?id=RFdUX2FydGljbGVzL3ZvbF8xMjRfcGFwZXJzLzEyNF8yMDE4XzEucGRm",
+        "note": "Duranceau & Yonge, Desalination and Water Treatment 124 (2018) 1-10: 2 mgd hollow-fibre loose NF + sand filtration, Florida groundwater (2018 USD), read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }
