@@ -86,15 +86,19 @@
     {
       "url": "https://petrowiki.spe.org/Sand_control",
       "note": "PetroWiki (SPE), Sand control (page covers managed sand production; does not describe gravel pack)"
+    },
+    {
+      "url": "https://petrowiki.spe.org/Sand_control_techniques",
+      "note": "SPE PetroWiki sand control techniques, read 2026-11-16"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "process",
-      "item": "gravel pack and frac pack procedures and screen types",
+      "item": "frac-pack procedure, premium and expandable screen types, and the pumping/TSO sequence",
       "reason_code": "not_in_sources_read",
-      "reason": "The PetroWiki page does not describe them. Web-checked 2026-10-28: vendor pages describe screen families (wire-wrap, premium mesh) but the procedures and screen-type taxonomy pages found are vendor-portal restricted; no open single authority captured.",
+      "reason": "The gravel-pack sequence is now cited (SPE PetroWiki), which covers only two screen types and no frac packing; those parts remain open.",
       "where": [
         {
           "hint": "SPE PetroWiki sand control sections",
@@ -102,7 +106,7 @@
           "source_id": "onepetro"
         }
       ],
-      "action": "Add a source for the mechanical methods."
+      "action": "Leave open until an operator or equipment source publishes this detail."
     },
     {
       "field": "costs",
@@ -154,5 +158,6 @@
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
-  ]
+  ],
+  "notes": "Process provenance: the gravel-pack description follows SPE PetroWiki - a screen or slotted liner run across the interval with gravel placed concentrically around it, sized about 5-6x the median formation sand, so the screen retains the gravel and forms a permeable filter; stand-alone options are slotted liners and wire-wrapped screens sized to D10, with resin consolidation and resin-coated gravel as alternatives. The page does not cover frac packing, premium/expandable screens or pumping procedures."
 }

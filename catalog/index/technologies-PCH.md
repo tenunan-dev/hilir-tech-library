@@ -193,11 +193,10 @@ flowchart LR
 - KPIC butadiene extraction unit, Ulsan, South Korea (Lummus, BASF NMP process), KR: 146,000 t/yr butadiene via BASF BDE NMP extractive distillation, licensed by Lummus (award May 2021); construction. [source](https://www.european-rubber-journal.com/article/2071146/lummus-to-build-butadiene-plant-for-korea-s-kpic)
 
 **Missing inputs:**
-- CATADIENE and other on-purpose routes (process): Only the extraction sheet was read. Web-checked 2026-10-28: no open CATADIENE (on-purpose butane dehydrogenation) page found; co-production share and BASF-NMP reference recorded. Where: Lummus CATADIENE page (catalog: lummus, open). Next: Add dehydrogenation data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; unit capex licensor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.lummustechnology.com/getmedia/b9694881-4803-41ff-8e0a-06f5afc17992/2020-09-15-butadiene-extraction-technology-tech-sheet.pdf), [2](http://www.ugr.es/~tep028/pqi/descargas/Industria%20quimica%20organica/tema_3/butadieno_a04_431.pdf). Last reviewed 2026-11-16.
 
 ## Engineering plastics (polycarbonate, nylon)
 <a id="pch-engineering-plastics"></a>

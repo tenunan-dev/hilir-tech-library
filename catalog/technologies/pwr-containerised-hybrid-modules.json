@@ -220,6 +220,10 @@
     {
       "url": "https://www.solarcontainer.one/english/product-information",
       "note": "SolarContainer product information page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.cat.com/en_US/by-industry/electric-power/Articles/White-papers/how-solar-and-battery-energy-storage-change-the-way-diesel-generator-sets-run.html",
+      "note": "Caterpillar white paper on PV/battery/diesel dispatch, read 2026-11-16"
     }
   ],
   "last_reviewed": "2026-11-16",
@@ -255,20 +259,7 @@
         }
       ],
       "action": "Find a TRL table entry or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "hybrid control sequence is generalised from vendor pages",
-      "reason_code": "general_knowledge_only",
-      "reason": "The controller logic (solar first, battery smoothing, genset backup) is standard practice, not one named source.",
-      "where": [
-        {
-          "hint": "Vendor white papers on hybrid controller algorithms",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a named vendor white paper."
     }
   ],
-  "notes": "Aggreko is part of I Squara Capital's portfolio since 2021; the company describes itself as a power solutions provider on rental and BOOM contracts. Atlas Copco's Zenergee hybrid container could not be verified (HTTP 404 on 26 October 2026) and is therefore not listed."
+  "notes": "Aggreko is part of I Squara Capital's portfolio since 2021; the company describes itself as a power solutions provider on rental and BOOM contracts. Atlas Copco's Zenergee hybrid container could not be verified (HTTP 404 on 26 October 2026) and is therefore not listed. Process provenance: the dispatch sequence follows Caterpillar's description of a containerised PV/battery/diesel cabinet - MPPT controllers charge the battery, the battery carries the site at night or above solar output, and the diesel set starts only when solar and stored energy cannot meet demand and then runs to recharge rather than to carry load. The battery is held in a 20-80% state-of-charge window. Written for telecom towers, so setpoints and controller logic are outside its scope."
 }

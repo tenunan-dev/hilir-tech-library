@@ -8,6 +8,20 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.9] — 2026-11-16 — process provenance: 11 cited, 9 gaps closed, 131 exposed as boilerplate
+
+### Added
+
+- **Process sources cited on eleven cards**, each with a note naming what the source actually documents: ExxonMobil fluid-bed MTG, NORSOK D-010 chapter 9 barrier philosophy, Linde MFC cascaded cycles, Houdry Catadiene, Caterpillar PV/battery/diesel dispatch, Westinghouse microreactor deployment, GE TM2500, the ORC cycle, Karpowership's connection model, SPE PetroWiki sand control, and the IBP/ANP abandonment guideline.
+
+### Changed
+
+- Nine process gaps closed; two narrowed because the source is partial (PetroWiki has no frac packing; Karpowership publishes no cable or protection detail). Process gaps 142 → 133.
+
+### Found
+
+- **131 of the 142 process gaps are the same sentence** — "process steps and equipment are general engineering practice, not taken from one source". They are provenance flags rather than missing data, and closing them is a modelling decision for the owner, not 131 research tasks.
+
 ## [2026.11.16.8] — 2026-11-16 — cost pass 2: power, gas, CCS and data centres
 
 ### Added

@@ -251,25 +251,15 @@
     {
       "url": "https://electratherm.com/products/",
       "note": "ElectraTherm products page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.mdpi.com/2227-9717/11/7/1982",
+      "note": "open-access ORC review (Processes 11(7):1982), read 2026-11-16"
     }
   ],
   "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "process",
-      "item": "ORC cycle steps are textbook standard",
-      "reason_code": "general_knowledge_only",
-      "reason": "The cycle description follows standard ORC engineering practice rather than one named source.",
-      "where": [
-        {
-          "hint": "A licensor page or review paper describing the ORC process step by step",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a named source and cite it."
-    }
-  ],
-  "notes": "Turboden is part of the Mitsubishi Heavy Industries group (MHI group companies page is catalogued as mitsubishi-heavy). Enogia's page is in French. Turboden's application pages returned HTTP 503 on 26 October 2026, so only its homepage figures are used.",
+  "gaps": [],
+  "notes": "Turboden is part of the Mitsubishi Heavy Industries group (MHI group companies page is catalogued as mitsubishi-heavy). Enogia's page is in French. Turboden's application pages returned HTTP 503 on 26 October 2026, so only its homepage figures are used. Process provenance: the cycle is as the review states it - pump raises the pressure of saturated liquid, evaporator vaporises it, expander drops pressure and produces work, condenser liquefies it before the pump - with recuperative, regenerative and reheated variants, and working fluids selected by temperature (R123 below 130 C, hexane/R113/isobutane 130-230 C, toluene/benzene near 330 C).",
   "trl": {
     "low": 9,
     "high": 9,

@@ -199,6 +199,10 @@
     {
       "url": "https://www.nanonuclearenergy.com",
       "note": "NANO Nuclear Energy homepage, read 26 October 2026"
+    },
+    {
+      "url": "https://www.nrc.gov/docs/ML2509/ML25094A039.pdf",
+      "note": "Westinghouse NRC briefing on transportable microreactor deployment, read 2026-11-16"
     }
   ],
   "last_reviewed": "2026-11-16",
@@ -215,22 +219,9 @@
         }
       ],
       "action": "Re-check statuses quarterly and update this card."
-    },
-    {
-      "field": "process",
-      "item": "transport and installation sequence is generalised from vendor claims",
-      "reason_code": "general_knowledge_only",
-      "reason": "Vendor pages state transportability but not a documented installation procedure.",
-      "where": [
-        {
-          "hint": "NRIC DOME test-bed documentation and future eVinci deployment filings",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a named licensing or test-bed document."
     }
   ],
-  "notes": "The eVinci test reactor is a scaled-down 3 MWt unit at the NRIC DOME test bed in Idaho (DOE approved its preliminary safety design report in June 2025, the first for a microreactor developer). Oklo's INL unit is being built under DOE authorisation, to be converted to an NRC commercial licence. The US Army selected eVinci for the next phase of its Janus programme in August 2026 (energy.gov article read 26 October 2026).",
+  "notes": "The eVinci test reactor is a scaled-down 3 MWt unit at the NRIC DOME test bed in Idaho (DOE approved its preliminary safety design report in June 2025, the first for a microreactor developer). Oklo's INL unit is being built under DOE authorisation, to be converted to an NRC commercial licence. The US Army selected eVinci for the next phase of its Janus programme in August 2026 (energy.gov article read 26 October 2026). Process provenance: the deployment sequence is as Westinghouse described it to the NRC - factory assembly with fuel loaded there, transport to site, installation and operation, then refuelling/refurbishment or decommissioning with the irradiated reactor transported away; a 5 MWe unit on under 3 acres with a 0.4-acre reactor building and 200 sq ft basemat, shipped as packaged modules. Transport modes, route approvals and commissioning tests are not covered.",
   "trl": {
     "low": 5,
     "high": 5,

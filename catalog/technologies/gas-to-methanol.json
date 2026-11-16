@@ -110,23 +110,14 @@
     {
       "url": "https://www.digitalrefining.com/news/1003028/zeogas-awarded-methanol-to-gasoline-technology-license-by-exxonmobil",
       "note": "DigitalRefining, ZeoGas awarded MTG licence by ExxonMobil, 21 Jul 2014"
+    },
+    {
+      "url": "https://www.exxonmobilchemical.com/-/media/media-assets/media-library-assets/15/fluidized_bed_methanol_to_gasoline_mtg_v6.pdf",
+      "note": "ExxonMobil fluid-bed methanol-to-gasoline technology description, read 2026-11-16"
     }
   ],
   "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "process",
-      "item": "methanol-to-gasoline step",
-      "reason_code": "not_in_sources_read",
-      "reason": "The MTG step is now sourced: methanol is dehydrated to dimethyl ether then converted over a ZSM-5 zeolite fixed bed to 90-octane gasoline, first commercialised at Motunui in 1985 (14,500 bpd); ExxonMobil licenses the technology (ZeoGas licence awarded 2014). What remains open is licensor-level detail on yields and catalyst life.",
-      "where": [
-        {
-          "hint": "ExxonMobil MTG technology pages and DigitalRefining news, 21 Jul 2014",
-          "access": "open"
-        }
-      ],
-      "action": "If a deeper process description is needed, read an ExxonMobil MTG technical paper."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",
@@ -168,5 +159,6 @@
         "note": "Methanol Institute / ADI Analytics study, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: the methanol-to-gasoline step follows ExxonMobil's own description - methanol is dehydrated to a methanol/DME/water mixture in a DME reactor, the oxygenates convert over ZSM-5 to water and gasoline-range hydrocarbons, and the effluent passes through gasoline recovery towers, splitter, treater and stabilizer with a heavy-gasoline treater isomerising durene. The fluid-bed variant uses one reactor/regenerator with continuous catalyst make-up."
 }

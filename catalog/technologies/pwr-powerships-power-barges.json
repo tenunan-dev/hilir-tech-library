@@ -269,6 +269,10 @@
       "url": "https://en.wikipedia.org/wiki/Powership",
       "source_id": "wikipedia",
       "note": "Wikipedia, Powership (secondary source; used only for industry-scale context of 75+ barges and the 1931 SS Jacona precedent)"
+    },
+    {
+      "url": "https://karpowership.com/the-powership-solution",
+      "note": "Karpowership powership solution page, read 2026-11-16"
     }
   ],
   "last_reviewed": "2026-11-16",
@@ -293,16 +297,16 @@
     },
     {
       "field": "process",
-      "item": "connection sequence is generalised from vendor claims",
-      "reason_code": "general_knowledge_only",
-      "reason": "Vendor pages state 'weeks, not years' but do not document the step-by-step connection process.",
+      "item": "cable routing, on-board substation interface and commissioning-test detail for a powership connection",
+      "reason_code": "not_in_sources_read",
+      "reason": "The commercial sequence is now cited (Karpowership); the engineering detail of the shore connection is not published by the operator.",
       "where": [
         {
           "hint": "Port authority or regulator case documents for a specific powership project",
           "access": "open"
         }
       ],
-      "action": "Check the steps against a named project document."
+      "action": "Leave open until an operator or equipment source publishes this detail."
     },
     {
       "field": "trl",
@@ -322,7 +326,7 @@
       "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
   ],
-  "notes": "Waller Marine's own website returned HTTP 403 on 26 October 2026, so its record rests on the MarineLink and Power Engineering reports cited above. The joint 80-180 MW engine-barge design is by Power Barge Corporation with BWSC and Vard, with ABS approval in principle (gCaptain, read 26 October 2026). Wikipedia is cited only as a secondary source for industry scale.",
+  "notes": "Waller Marine's own website returned HTTP 403 on 26 October 2026, so its record rests on the MarineLink and Power Engineering reports cited above. The joint 80-180 MW engine-barge design is by Power Barge Corporation with BWSC and Vard, with ABS approval in principle (gCaptain, read 26 October 2026). Wikipedia is cited only as a secondary source for industry scale. Process provenance: the connection sequence follows Karpowership's own description - moored at a coastal site with no land-based infrastructure, connected directly to the national grid and commissioned in under 30 days, with a one-stop sequence of contract, in-house design and construction, site preparation, grid integration, then O&M and fuel management. Cable routing, voltage, switchgear and protection settings are not published.",
   "costs": [
     {
       "metric": "power tariff, powership supply",

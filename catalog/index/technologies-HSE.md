@@ -37,12 +37,11 @@ flowchart LR
 - UKCS total decommissioning expenditure: 44.5 GBP billion; total as stated; cost year not stated. [source](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1264892/pdf)
 
 **Missing inputs:**
-- well P&A methods and standards (NORSOK D-010, Oil & Gas UK) (process): Not covered by the paper. Lead 2026-10-28: NORSOK D-010 Rev 4 updates and the PTK-040 guideline are already in the corpus (collected 2026-10-27); methods detail is on the ups-well-plug-abandonment card. Where: NORSOK D-010 and OEUK guidelines (open). Next: Link to the thermite and bismuth P&A card and add the steps.
 - Southeast Asia decommissioning rules (Malaysia, Indonesia, Thailand) (other): Only the North Sea review was read. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: PETRONAS, SKK Migas and Thai DMF decommissioning guidance (open). Next: Add regional rules.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'decommissioning', 'well abandonment', 'plug and abandonment', 'P&A'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1264892/pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1264892/pdf), [2](https://www.offshorenorge.no/globalassets/dokumenter/drift/presentasjonerarrangementer/plug--abandonment-seminar-2013/3---norsok--garry-brewster.pdf). Last reviewed 2026-11-16.
 
 ## Flare management and gas recovery
 <a id="hse-flare-management-recovery"></a>

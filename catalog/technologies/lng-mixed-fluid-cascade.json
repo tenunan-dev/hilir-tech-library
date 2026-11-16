@@ -131,9 +131,13 @@
     {
       "url": "https://ogst.ifpenergiesnouvelles.fr/en/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html",
       "note": "Sabbagh, Fanaei and Arjomand, Techno-economic evolution of an existing operational NGL plant with adding LNG production part, Oil & Gas Science and Technology 75:27 (2020), CC BY 4.0; comparison of own and cited simulation results"
+    },
+    {
+      "url": "https://assets.linde.com/-/media/global/engineering/engineering/home/about/locations/linde-engineering-hangzhou/lng-technology.pdf",
+      "note": "Linde MFC liquefaction technology brochure, read 2026-11-16"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "trl",
@@ -174,20 +178,7 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "number and arrangement of MFC refrigerant cycles",
-      "reason_code": "general_knowledge_only",
-      "reason": "Described from general knowledge; the source read confirms only name, capacity and electric drive.",
-      "where": [
-        {
-          "hint": "Linde Engineering MFC process literature",
-          "source_id": "linde-engineering",
-          "access": "open"
-        }
-      ],
-      "action": "Confirm the cycle arrangement from a Linde source and cite it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the cycle arrangement is as Linde describes its MFC family - three cascaded mixed-refrigerant cycles (pre-cooling, liquefaction, sub-cooling) each with its own refrigerant and compressor, with two-cycle variants (MFC1/MFC2) and three-cycle variants (MFC3/MFC4), propane pre-cooling for warm climates and mixed-refrigerant pre-cooling for cold or space-constrained sites. The brochure gives no refrigerant compositions, cycle pressures or equipment sizing."
 }

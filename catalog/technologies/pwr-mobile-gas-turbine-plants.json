@@ -235,6 +235,10 @@
       "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/gas-turbines.html",
       "source_id": "siemens-energy",
       "note": "Siemens Energy gas turbine portfolio page, read 26 October 2026"
+    },
+    {
+      "url": "https://www.gevernova.com/content/dam/gepower-new/global/en_US/downloads/gas-new-site/resources/GEA31885B-TM2500DLE-brochure.pdf",
+      "note": "GE Vernova TM2500 DLE brochure, read 2026-11-16"
     }
   ],
   "last_reviewed": "2026-11-16",
@@ -263,19 +267,6 @@
       "action": "Leave open until a source states this metric and scope."
     },
     {
-      "field": "process",
-      "item": "deployment sequence is general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The vendor pages give timings but not a step-by-step deployment flow.",
-      "where": [
-        {
-          "hint": "Vendor installation manuals or trade press deployment reports",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a named source."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -293,7 +284,7 @@
       "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
   ],
-  "notes": "The SGT-A45 TR is treated as historical: it launched in 2017 but no longer appears on the Siemens Energy portfolio page read on 26 October 2026. The PE6000 is a single-lift skid package rather than trailer-mounted; it sits between the trailer-mobile TM2500 class and permanent plant packages. APR Energy's live website was unreachable (HTTP 522) on 26 October 2026; figures come from a 15 July 2026 Wayback capture.",
+  "notes": "The SGT-A45 TR is treated as historical: it launched in 2017 but no longer appears on the Siemens Energy portfolio page read on 26 October 2026. The PE6000 is a single-lift skid package rather than trailer-mounted; it sits between the trailer-mobile TM2500 class and permanent plant packages. APR Energy's live website was unreachable (HTTP 522) on 26 October 2026; figures come from a 15 July 2026 Wayback capture. Process provenance: the deployment sequence follows GE Vernova's brochure - a two-trailer package moved by land, sea or air, parked and connected to fuel, control house and switchgear with exhaust and generator connections, under 30 days from park-trailer to commissioning (about three weeks on the ground) and a 5-minute cold start. Vendor envelope, not an engineering procedure; permitting, foundations and protection settings are not covered.",
   "costs": [
     {
       "metric": "rental cost, 25-35 MW mobile gas turbine",

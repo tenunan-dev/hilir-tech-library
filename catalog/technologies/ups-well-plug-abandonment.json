@@ -214,20 +214,6 @@
       "action": "Add cost per well with dollar year and basis from the NSTA appendices or SKK Migas."
     },
     {
-      "field": "process",
-      "item": "process steps are general practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "Only the barrier layout in the LEMIGAS paper was read; the sequence of steps is general knowledge. Searched LEMIGAS SCOG corpus for procedure, sequence, steps; the H-11 paper describes only cement barrier plug placement (SNI and NORSOK layouts, balanced plug method), not the full kill-to-site-restoration sequence; 2026-10-28",
-      "where": [
-        {
-          "hint": "SKK Migas Work Procedure Guideline 040/PTK/SKKIA0000/2023/S9 Rev.02 and NORSOK D-010",
-          "access": "open",
-          "source_id": "id-skkmigas"
-        }
-      ],
-      "action": "Check the steps against the standards and name them."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -260,7 +246,12 @@
       "url": "https://www.nstauthority.co.uk/media/3rmh154v/the-wells-decommissioning-collab-overview.pdf",
       "source_id": "uk-nsta",
       "note": "NSTA Wells Decommissioning Collaboration Overview"
+    },
+    {
+      "url": "https://www.ibp.org.br/media/diretrizes-para-abandono-de-pocos-ingles.pdf",
+      "note": "IBP guidelines for well abandonment (ANP context), read 2026-11-16"
     }
   ],
-  "last_reviewed": "2026-11-16"
+  "last_reviewed": "2026-11-16",
+  "notes": "Process provenance: the sequence follows the IBP guideline - identify intervals with flow potential and aquifers, define the required isolations and barrier acceptance criteria, install permanent barriers and verify them; offshore in 100 m of water or less, remove the wellhead, cut casing 3 m below seabed and install the surface plug, with a documented risk-based analysis able to justify shorter barriers. Brazilian/ANP requirements level, not a rig-by-rig procedure."
 }

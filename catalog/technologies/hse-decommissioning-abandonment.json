@@ -90,23 +90,14 @@
     {
       "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1264892/pdf",
       "note": "Frontiers in Marine Science 2024, review of offshore oil and gas decommissioning options in the North Sea (49 peer-reviewed articles)"
+    },
+    {
+      "url": "https://www.offshorenorge.no/globalassets/dokumenter/drift/presentasjonerarrangementer/plug--abandonment-seminar-2013/3---norsok--garry-brewster.pdf",
+      "note": "NORSOK D-010 Chapter 9 barrier philosophy (editors' summary, Rev 4), read 2026-11-16"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "process",
-      "item": "well P&A methods and standards (NORSOK D-010, Oil & Gas UK)",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not covered by the paper. Lead 2026-10-28: NORSOK D-010 Rev 4 updates and the PTK-040 guideline are already in the corpus (collected 2026-10-27); methods detail is on the ups-well-plug-abandonment card.",
-      "where": [
-        {
-          "hint": "NORSOK D-010 and OEUK guidelines",
-          "access": "open"
-        }
-      ],
-      "action": "Link to the thermite and bismuth P&A card and add the steps."
-    },
     {
       "field": "other",
       "item": "Southeast Asia decommissioning rules (Malaysia, Indonesia, Thailand)",
@@ -147,5 +138,6 @@
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
-  ]
+  ],
+  "notes": "Process provenance: the barrier logic follows NORSOK D-010 Chapter 9 - one barrier where there is no flow potential, two independent barriers across hydrocarbon-bearing or abnormally pressured zones, each extending over the full well cross-section; plug length, tagging, pressure testing to 70 bar above leak-off and section milling where casing cement is unverified are as the chapter summary states. This is the editors' Rev 4 summary, not the paid Rev 5 text, so Rev 5 clause detail is unverified."
 }
