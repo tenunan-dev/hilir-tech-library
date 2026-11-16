@@ -39,7 +39,7 @@ It holds **484 catalog sources** across 10 sectors (the eight energy sectors, ID
 | `agent/` | Search index, MCP server, REST API and web interface (see `agent/README.md`) |
 | `db/` | Postgres schema (`schema.sql`), admin layer (`library.sql`) and the read-only role (`readonly.sql`) |
 | `deploy/edge/` · `deploy/frontend/` · `deploy/backend/` | The three Workers: sign-in/edge, UI, and the API/MCP door |
-| `deploy/docker/` | The two container images (UI and API) built by CI and run on the VPS |
+| `deploy/docker/` | The two container images (UI and API), built on the owner's Mac and streamed to the VPS by `deploy/local-images.sh` |
 | `deploy/cloudflare/` | **Retired** pre-split single Worker, kept for rollback only (see docs/HOSTING.md) |
 | `tools/check_links.py` | Checks every catalog url and writes `catalog/index/link-check.md` |
 | `tools/build.py` | Validates every record and regenerates the generated files |
@@ -85,7 +85,8 @@ Terms findings are recorded as labels — e.g. terms-forbid-copying sites carry 
 
 1. Add or edit `catalog/sources/<id>.json` (the id must match the file name).
 2. Run `pip install -r requirements.txt` once, then `python tools/build.py`.
-3. Commit the record together with the regenerated files. CI runs the same check on every push.
+3. Commit the record together with the regenerated files. Nothing on the server checks this for you
+   (no workflow runs on a push — decision #39), so run `pytest -q tests` before committing.
 
 ## Roadmap
 

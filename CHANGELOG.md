@@ -8,6 +8,24 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16] — 2026-11-16 — GitHub out of the deploy path; containers build on the Mac
+
+### Changed
+
+- **GitHub is repo storage only** (decision #39). The owner's Actions quota is exhausted, so no workflow may run on a push, a tag or a schedule: `validate.yml`, `refresh.yml` and `images.yml` are all `workflow_dispatch` only. `refresh.yml` keeps its collection commands in the file header so they can be run locally; `images.yml` is marked superseded but kept as the reference recipe for the two Dockerfiles.
+- **Containers ship Mac → VPS, no registry.** New `deploy/local-images.sh` builds both images for `linux/amd64` with the ghcr tags the VPS compose already references, streams them in one `docker save | gzip | ssh 'gunzip | sudo vps load'`, then activates with `sudo vps up techlib` — never `vps deploy`, which pulls ghcr's `:latest` over the loaded image. That frozen ghcr pair is the rollback path while nothing publishes there.
+- A local build is cheap: the two Dockerfiles share identical final stages, so the api image reuses the ui layers, and every dependency resolves to a manylinux x86_64 wheel, so nothing compiles under emulation. The pair builds in a few minutes, not the tens feared. The 4 GB VPS still never builds them.
+- Docs swept for the new path: `AGENTS.md`, `docs/HOSTING.md`, `docs/DEVELOPMENT.md` §5c, `docs/ARCHITECTURE.md`, `docs/STATUS.md`, `README.md`, and the `validate`-failure troubleshooting row that no longer applies.
+
+### Fixed
+
+- **A moved checkout no longer 404s every document.** `build/library.db` records the corpus root as an absolute path, so moving `~/Documents/VibeProject` → `~/VibeProject` made `library.get_document` resolve every document against a deleted directory. It now falls back to the checkout's own `ROOT` when the baked root does not resolve.
+- The move's two other casualties: 30 `.venv/bin` console scripts pointed at the venv's original `og-tech-sources` path (bad interpreter) and were repointed at the venv's own `python3`; 37 `.pyc` files carried the old absolute path in their code objects, which made pytest import every module from the deleted tree — caches cleared.
+
+### Deployed
+
+- api `sha256:808e2f5b8025…`, ui `sha256:5d2804494ce1…`, both `Up (healthy)` after `sudo vps up techlib`; gate `mygis 303, techlib-origin 403, tlea-origin 403`; PRM 200, MCP 401 with a proper `www-authenticate` challenge, bad token 401, UI `/` 303 → `/login`; VPS disk 54% → 57%.
+
 ## [2026.11.14] — 2026-11-14 — the gap register made visible; 15 cards filled; 10 IDC cards authored
 
 ### Added

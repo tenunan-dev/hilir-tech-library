@@ -75,12 +75,12 @@ Worker secrets set with `wrangler secret put`. If you need one you do not have, 
 | Web page | `agent/web.py` | tests (render parity if it reads Neon) |
 | Postgres schema or loader | `db/schema.sql`, `tools/load_postgres.py`, `agent/graph.py` | schema pre-flight, tests, Neon reload |
 | **Auth, tokens, cookies, sign-out** | `deploy/edge`, `deploy/frontend`, `deploy/backend`, `agent/auth.py`, `agent/server.py` | read [AUTH.md](AUTH.md) first; **owner ask required**; run the auth verification |
-| Container images | `deploy/docker/Dockerfile.frontend`, `Dockerfile.backend` | CI `images` workflow → VPS pull |
+| Container images | `deploy/docker/Dockerfile.frontend`, `Dockerfile.backend` | `deploy/local-images.sh` — Mac build → `vps load` → `sudo vps up techlib` |
 | Docs | `docs/`, `README.md`, `AGENTS.md`, `CLAUDE.md` | update `STATUS.md`, `CHANGELOG.md`, archive superseded versions |
 
 **Never hand-edit generated files:** `catalog/catalog.jsonl`, `catalog/index/*`,
 `catalog/vendors.jsonl`, `catalog/equipment.jsonl`, `catalog/technologies.jsonl`, `build/*`.
-They come from `tools/build.py` and `agent/library.py build`; CI fails when they are stale.
+They come from `tools/build.py` and `agent/library.py build`; the test suite fails when they are stale.
 
 ## 4. Gates — run before every commit
 
@@ -141,13 +141,21 @@ container image.
 ### 5c. Container code (anything under `agent/`, `deploy/docker/`, `catalog` baked into the image)
 
 ```bash
-gh workflow run images --repo tenunan-dev/hilir-tech-library --ref <branch>
-ssh -i ~/.ssh/mygis_deploy ubuntu@15.235.248.33 \
-  "cd /srv/hilir/techlib && docker compose pull && docker compose up -d"
+deploy/local-images.sh            # build both for linux/amd64 → load both → sudo vps up techlib → gate
 ```
 
-Expect the workflow to succeed and both containers to report Started/Up. Keep traffic low for a
-minute after the swap: a single-instance container needs the old instance to sleep and cycle.
+The script builds with the ghcr tags the VPS compose already references, streams both images in one
+`docker save | gzip | ssh 'gunzip | sudo vps load'`, then activates with `sudo vps up techlib`
+(health-gated, auto-rollback, digest logged). **Never `sudo vps deploy techlib` after it** — that
+pulls `:latest` from ghcr and overwrites what was just loaded. `--build-only`, `--ship-only` and
+`--dry-run` are documented in its header.
+
+GitHub is repo storage only (decision #39): no workflow builds or ships, so nothing here waits on a
+push. The emulated build is quick — the two Dockerfiles share identical final stages, so the second
+image reuses the first one's layers; expect a few minutes, not tens.
+
+Expect both containers `Up (healthy)`. Keep traffic low for a minute after the swap: a single-instance
+container needs the old instance to sleep and cycle.
 
 ## 6. Verification after a deploy — the 60-second check
 
@@ -193,7 +201,7 @@ Report the HTTP status codes you actually saw. "Deployed" is not "verified".
 | --- | --- |
 | `pytest: command not found` or the wrong interpreter | Use `.venv/bin/python -m pytest` |
 | `wrangler` says "Login failed with code: 1" | A stale certificate: `security delete-internet-password -s registry.cloudflare.com`, then retry |
-| CI `validate` fails on generated files | You changed records but did not run `tools/build.py`; run it and commit the output |
+| Generated files look stale (tests fail, `git diff` shows churn) | You changed records but did not run `tools/build.py`; run it and commit the output. Nothing catches this for you now — the push-time `validate` workflow is manual-only (decision #39) |
 | `/api/version` numbers do not match the repo | The Neon reload did not run, or it ran before `tools/build.py`; rerun §5a in order |
 | Web page shows the "fallback index" notice | Neon unreachable from the container; check `DATABASE_URL` on the Worker and the Neon project state |
 | Search returns no chunks for a source you just collected | `agent/library.py build` was not rerun, or the document lacks a `summary` (tests fail) |

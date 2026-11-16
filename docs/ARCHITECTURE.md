@@ -234,11 +234,19 @@ compose env — the former per-request `x-user-store-dsn` header was retired 202
 
 ### Automation (`.github/workflows/`)
 
-- `validate.yml`: on every push, build, tests, and a check that generated files are committed.
-- `refresh.yml`: Mondays 02:00 UTC collects new arXiv and OSTI records; on the 1st of each month also runs `tools/check_links.py`. Commits changes as github-actions[bot]. Can be run by hand (workflow_dispatch).
-- `images.yml`: builds the two container images (`deploy/docker/Dockerfile.frontend`,
-  `Dockerfile.backend`) and pushes them to ghcr on `workflow_dispatch` or a `v*` tag. The VPS pulls;
-  images are only ever built in CI, never on the VPS.
+GitHub is **repo storage only** (decision #39, 2026-11-16): every workflow is manual
+(`workflow_dispatch`) and none may run on a push, a tag or a schedule — the owner's Actions quota is
+exhausted. The recipes are kept so they remain readable and runnable by hand.
+
+- `validate.yml`: build, tests, and a check that generated files are committed. Manual only.
+- `refresh.yml`: collects new arXiv and OSTI records, optionally `tools/check_links.py`, commits as
+  github-actions[bot]. The crons are gone; run it by hand, or run the same commands locally (they are
+  listed in the file header). Manual only.
+- `images.yml`: SUPERSEDED as the deploy path — the two container images (`deploy/docker/
+  Dockerfile.frontend`, `Dockerfile.backend`) now build on the owner's Mac for `linux/amd64` and ship
+  to the VPS with `deploy/local-images.sh` (`docker save | gzip | ssh 'gunzip | sudo vps load'` →
+  `sudo vps up techlib`), so ghcr is not in the path. The file is kept as the reference recipe. The
+  4 GB VPS still never builds these.
 
 ## Design choices
 
