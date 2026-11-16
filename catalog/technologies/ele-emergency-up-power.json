@@ -143,19 +143,20 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
-  "gaps": [
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per kVA of standby capacity installed",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
-      "where": [
-        {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "metric": "total installed cost, diesel standby generator",
+      "unit": "USD per kVA",
+      "year": 2026,
+      "low": 310,
+      "high": 560,
+      "basis": "Derived from a vendor pricing survey stated per kW ($250-450/kW total installed for US large industrial) at 0.8 power factor; a 500 kW unit is quoted at $135,000-600,000 depending on channel. Vendor blog, not an agency study, and no open UPS-specific $/kVA benchmark was found - treat as an order-of-magnitude range for standby gensets.",
+      "source": {
+        "url": "https://zccpower.com/commercial-standby-generator-cost",
+        "note": "ZC Power standby generator pricing (Jun 2026), vendor blog, read 2026-11-16"
+      }
     }
   ]
 }

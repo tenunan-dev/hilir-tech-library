@@ -130,6 +130,18 @@
         "url": "https://www.electricaltrader.com/",
         "note": "market listings and tender records cited from search summary, 2026-11-13; recorded on equipment record ele-hv-circuit-breakers"
       }
+    },
+    {
+      "metric": "installed cost, HV switchgear bay",
+      "unit": "EUR per bay",
+      "year": 2023,
+      "low": 837306,
+      "high": 1516905,
+      "basis": "ACER/PwC 2023 EUR, 220-275 kV busbar class (closest published class to 245 kV): mean EUR 1,206,055/bay, median 1,133,288, interquartile range shown, n=48, 2014-2021 data. No 145 kV subcategory is published and protection/control/civil are not broken out - this is a total-cost-per-bay indicator.",
+      "source": {
+        "url": "https://www.acer.europa.eu/sites/default/files/documents/Reports/UIC_report_2023.pdf",
+        "note": "ACER/PwC Unit Investment Cost Indicators (Jul 2023), 2023 EUR: cost per bay and per MVA, read 2026-11-16"
+      }
     }
   ],
   "limitations": [
@@ -162,19 +174,6 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "installed cost per HV switchboard bay, including protection, control and civil works",
-      "reason_code": "not_in_sources_read",
-      "reason": "Equipment-level prices are now recorded for 12-24 kV RMUs and 145 kV dead-tank breakers (export basis, 2025). A complete HV bay — breaker, disconnectors, CTs/VTs, protection IEDs, control panel, civil works — is quoted per project and not published.",
-      "where": [
-        {
-          "hint": "Utility substation tender schedules or an EPC schedule of rates"
-        }
-      ],
-      "action": "Add a per-bay installed cost when a substation tender schedule is available."
-    }
-  ]
+  "last_reviewed": "2026-11-16",
+  "gaps": []
 }

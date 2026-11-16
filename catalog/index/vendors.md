@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-526 vendor records covering 320 technologies. One record per vendor in
+528 vendor records covering 321 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -83,7 +83,8 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [DEHN](https://www.dehn-international.com) | Germany | oem, supplier | Earthing and lightning protection |
 | [Eaton](https://www.eaton.com/) | Ireland | oem, supplier | HV/MV switchgear and site power distribution; Emergency, standby and UPS power systems; Hazardous area electrical equipment |
 | [Furse (ABB)](https://www.abb.com) | United Kingdom | oem, supplier | Earthing and lightning protection |
-| [HD Hyundai Electric](https://www.hyundai-electric.com) | KR | oem | UHV and HV substations (275-500 kV); Power and distribution transformers; HV/MV switchgear and site power distribution |
+| [Grid System Operator (GSO)](https://gso.org.my/) | MY | operator | Grid connection and interconnection studies |
+| [HD Hyundai Electric](https://hd-hyundaielectric.com/) | KR | oem | UHV and HV substations (275-500 kV); Power and distribution transformers; HV/MV switchgear and site power distribution |
 | [LS Cable & System](https://www.lscable.com) | South Korea | oem, supplier | Power and control cable systems |
 | [Malaysia Transformer Manufacturing (MTM)](https://www.malaysiatransformer.com/) | MY | oem, service | Power and distribution transformers; Medium-voltage distribution (11 kV and 33 kV); UHV and HV substations (275-500 kV) |
 | [Nidec](https://www.nidec.com) | Japan | oem | Motors and variable speed drives |
@@ -97,6 +98,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [R. Stahl](https://www.rstahl.com/) | Germany | oem | Hazardous area electrical equipment |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/) | United States | oem, integrator | Power system protection and relaying; Power management and electrical SCADA |
 | [Southern Cable Group Berhad](https://www.southerncable.com.my/) | MY | oem | Power and control cable systems; Medium-voltage distribution (11 kV and 33 kV); Overhead transmission lines (132-500 kV) |
+| [Tenaga Nasional Berhad](https://www.tnb.com.my/) | MY | operator | Grid connection and interconnection studies; Overhead transmission lines (132-500 kV) |
 | [Universal Cable (M) Berhad](https://www.universalcable.com.my/) | MY | oem | Power and control cable systems; Medium-voltage distribution (11 kV and 33 kV); Overhead transmission lines (132-500 kV) |
 | [Vertiv](https://www.vertiv.com/) | United States | oem | Emergency, standby and UPS power systems |
 | [WEG](https://www.weg.net) | Brazil | oem | Power and distribution transformers; Motors and variable speed drives |
@@ -689,7 +691,6 @@ company names are listed as card notes below. Adding a record for a queue entry 
 batch of this directory.
 
 - **CIV** (1): CIDB Malaysia
-- **ELE** (3): Grid System Operator (GSO); Hyundai Electric; Tenaga Nasional Berhad (TNB)
 - **HSE** (1): Flare Ventures
 
 ## Card notes: generic supplier descriptions (not nameable vendors)

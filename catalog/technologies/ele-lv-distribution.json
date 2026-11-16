@@ -167,6 +167,18 @@
         "url": "https://www.alibaba.com/",
         "note": "B2B supplier listings, searched 2026-11-13; recorded on equipment record ele-lv-switchboard"
       }
+    },
+    {
+      "metric": "replacement cost, LV distribution board at a distribution transformer",
+      "unit": "INR lakh per board",
+      "year": 2025,
+      "low": 0.28,
+      "high": 1.195,
+      "basis": "MSEDCL 2024-25 tender rates, material plus labour: MCCB distribution board for a 63/100 kVA transformer INR 0.280 lakh; 200 kVA INR 0.464 lakh; 315 kVA six-way feeder pillar with ACB INR 1.195 lakh. Scope is replacing an existing DB or feeder pillar, not a new MCC with multiple outgoing ways.",
+      "source": {
+        "url": "https://www.mahadiscom.in/supplier/wp-content/uploads/2024/11/Activity_Rates.pdf",
+        "note": "MSEDCL Cost Data 2024-25 activity rates, INR lakh: 11/22/33 kV feeder bays, DTC distribution boards, read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -179,16 +191,16 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "installed cost per distribution board, MCC section or outgoing way",
+      "item": "installed cost per outgoing way (MCC section or switchboard way), with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "The LV switchboard section price is now recorded (FOB export basis, 2025). Manufacturer price books are distributor-only and installed cost per outgoing way (with cabling, assembly and testing) is not published.",
+      "reason": "Board-level replacement costs are now recorded (INR 0.280-1.195 lakh per board, 2024-25 rates), but no loaded source prices a per-outgoing-way or per-MCC-section rate; searched 2026-11-16.",
       "where": [
         {
           "hint": "Electrical contractor schedule of rates for LV distribution"
         }
       ],
-      "action": "Add per-way installed cost from a contractor schedule of rates."
+      "action": "Leave open until a source states this exact metric and scope."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-16"
 }

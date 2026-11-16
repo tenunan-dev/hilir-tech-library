@@ -1,0 +1,40 @@
+{
+  "id": "grid-system-operator",
+  "name": "Grid System Operator (GSO)",
+  "country": "MY",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "utility"
+  ],
+  "aliases": [
+    "GSO"
+  ],
+  "description": "The entity that operates Peninsular Malaysia's electricity grid from Kuala Lumpur: real-time operation and security of the system, operational planning, scheduling and dispatch, monitoring and control, coordination of grid users, and short- and medium-term transmission and generation planning, including the Thailand and Singapore interconnections. It is a ring-fenced entity inside Tenaga Nasional Berhad rather than a separately listed company.",
+  "products": [
+    "Real-time grid operation and dispatch",
+    "Transmission and generation planning",
+    "Grid code administration"
+  ],
+  "technologies": [
+    "ele-grid-connection"
+  ],
+  "url": "https://gso.org.my/",
+  "notes": "gso.com.my does not resolve; gso.org.my does. It is authorised under section 22A of the Electricity Supply Act 1990. The Energy Commission describes it as a 'ring fenced entity within TNB responsible for operational planning, real-time re-scheduling, dispatch and control of the grid system', and TNB's 2024 annual report repeats the ring-fencing. Its establishment date and legal form were not established from any loadable primary source.",
+  "sources": [
+    {
+      "url": "https://gso.org.my/",
+      "note": "Grid System Operator site, Kuala Lumpur address and section 22A authority, read 2026-11-16"
+    },
+    {
+      "url": "https://www.tnb.com.my/assets/annual_report/TNB_IAR_2024.pdf",
+      "note": "TNB Integrated Annual Report 2024, p.97: GSO is a ring-fenced entity within TNB, read 2026-11-16"
+    },
+    {
+      "url": "https://st.gov.my/sites/default/files/2026-02/Energy-Malaysia%2C-Volume-6%2C-2015.pdf",
+      "note": "Energy Commission, Energy Malaysia Vol. 6: GSO's operational remit, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

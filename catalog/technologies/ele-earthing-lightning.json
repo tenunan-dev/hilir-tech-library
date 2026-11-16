@@ -119,19 +119,33 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per substation earthing system",
+      "item": "cost per substation earthing system (grid, rods, bonding), with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "reason": "Only a bundled site-work rate that includes grounding is published ($403,539/acre, 2023 USD); no source prices the earthing system alone. Searched 2026-11-16.",
       "where": [
         {
           "hint": "Ask the owner for a Malaysian contractor benchmark"
         }
       ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "action": "Leave open until a source states this exact metric and scope."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "substation site work including grounding",
+      "unit": "USD per acre",
+      "year": 2023,
+      "low": 403539,
+      "high": 403539,
+      "basis": "MISO 2023 USD: substation site work is $403,539/acre and explicitly covers clearing, grading, grounding and physical security. This is a bundled rate, not the price of an earthing system on its own - no standalone per-substation earthing figure was published in any source loaded.",
+      "source": {
+        "url": "https://cdn.misoenergy.org/20240131%20PSC%20Item%2005%20Transmission%20Cost%20Estimation%20Guide%20for%20MTEP24%20-%20Redline631529.pdf",
+        "note": "MISO Transmission Cost Estimation Guide for MTEP24 (Jan 2024), 2023 USD: line, transformer and site-work tables, read 2026-11-16"
+      }
     }
   ]
 }

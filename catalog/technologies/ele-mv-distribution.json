@@ -182,6 +182,30 @@
         "url": "https://www.alibaba.com/",
         "note": "B2B supplier listings, searched 2026-11-13; recorded on equipment record ele-mv-switchgear"
       }
+    },
+    {
+      "metric": "supply, erection, testing and commissioning, MV feeder bay",
+      "unit": "INR lakh per bay",
+      "year": 2025,
+      "low": 10.179,
+      "high": 17.712,
+      "basis": "MSEDCL Cost Data 2024-25, tender-cost column: 11 kV feeder bay INR 10.179 lakh (DPR estimate 14.342); 22 kV INR 12.106 (17.062); 33 kV INR 12.566 (17.712). Scope is stated as supply, erection, testing and commissioning. Note the DPR column runs about 40% above the tender column - quoting the wrong one shifts the result.",
+      "source": {
+        "url": "https://www.mahadiscom.in/supplier/wp-content/uploads/2024/11/Activity_Rates.pdf",
+        "note": "MSEDCL Cost Data 2024-25 activity rates, INR lakh: 11/22/33 kV feeder bays, DTC distribution boards, read 2026-11-16"
+      }
+    },
+    {
+      "metric": "installed cost, new 33/11 kV substation package",
+      "unit": "INR lakh per MVA",
+      "year": 2025,
+      "low": 20.4,
+      "high": 28.5,
+      "basis": "MSEDCL 2024-25: a new 33/11 kV substation with 2 x 10 MVA costs INR 407.463 lakh at tender (569.047 lakh DPR) for 20 MVA, i.e. about INR 20.4-28.5 lakh/MVA for the whole package including transformers, both voltage levels and civil works.",
+      "source": {
+        "url": "https://www.mahadiscom.in/supplier/wp-content/uploads/2024/11/Activity_Rates.pdf",
+        "note": "MSEDCL Cost Data 2024-25 activity rates, INR lakh: 11/22/33 kV feeder bays, DTC distribution boards, read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -191,19 +215,6 @@
       "note": "TNB supply-voltage and fault-level tables, read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "installed cost per MV circuit or per distribution bay",
-      "reason_code": "not_in_sources_read",
-      "reason": "Ring-main-unit unit prices are now recorded (export basis, 2025). A per-bay installed cost covering cable terminations, civil works, earthing and commissioning is not published openly.",
-      "where": [
-        {
-          "hint": "Malaysian utility distribution works orders or a contractor schedule of rates"
-        }
-      ],
-      "action": "Add a per-bay installed cost when a Malaysian schedule of rates is available."
-    }
-  ],
-  "last_reviewed": "2026-11-13"
+  "gaps": [],
+  "last_reviewed": "2026-11-16"
 }

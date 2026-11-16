@@ -141,19 +141,32 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
-  "gaps": [
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per MW installed, open cycle and combined cycle",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
-      "where": [
-        {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "metric": "overnight capital cost, simple (open) cycle gas turbine",
+      "unit": "USD per kW",
+      "year": 2023,
+      "low": 836,
+      "high": 1606,
+      "basis": "EIA / Sargent & Lundy, 2023 price level, overnight capital cost excluding financing, US 30-city average, greenfield EPC turnkey: 1xH-class 419 MW $836/kW; aeroderivative 211 MW $1,606/kW. AEO2025's assumptions table reprints industrial-frame CT at $791/kW in 2024$.",
+      "source": {
+        "url": "https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf",
+        "note": "EIA / Sargent & Lundy capital cost report (Jan 2024), Table 1-2, overnight capital cost in 2023 USD, read 2026-11-16"
+      }
+    },
+    {
+      "metric": "overnight capital cost, combined cycle",
+      "unit": "USD per kW",
+      "year": 2023,
+      "low": 868,
+      "high": 921,
+      "basis": "EIA / Sargent & Lundy, 2023 price level: 2x2x1 H-class 1,227 MW $868/kW; 1x1x1 single-shaft 627 MW $921/kW. Overnight capital cost, no financing; 2024$ equivalents are $824/kW multi-shaft and $875/kW single-shaft.",
+      "source": {
+        "url": "https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf",
+        "note": "EIA / Sargent & Lundy capital cost report (Jan 2024), Table 1-2, overnight capital cost in 2023 USD, read 2026-11-16"
+      }
     }
   ]
 }

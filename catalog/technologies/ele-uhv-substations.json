@@ -142,6 +142,30 @@
         "url": "https://www.electricaltrader.com/",
         "note": "tender and import records cited from search summary, 2026-11-13; recorded on equipment record ele-hv-circuit-breakers"
       }
+    },
+    {
+      "metric": "total investment cost, 380-400 kV substation bay",
+      "unit": "EUR per bay",
+      "year": 2023,
+      "low": 1152582,
+      "high": 5238417,
+      "basis": "ACER/PwC 2023 EUR: mean EUR 3,382,029 per bay (median 2,435,831, n=58, interquartile range shown). 300-330 kV class mean EUR 1,210,624/bay. ACER does not itemise what a bay includes - it is total project cost divided by bay count.",
+      "source": {
+        "url": "https://www.acer.europa.eu/sites/default/files/documents/Reports/UIC_report_2023.pdf",
+        "note": "ACER/PwC Unit Investment Cost Indicators (Jul 2023), 2023 EUR: cost per bay and per MVA, read 2026-11-16"
+      }
+    },
+    {
+      "metric": "total investment cost, EHV substation per MVA",
+      "unit": "EUR per MVA",
+      "year": 2023,
+      "low": 65884,
+      "high": 123678,
+      "basis": "ACER/PwC 2023 EUR: GIS new EUR 123,678/MVA mean (median 109,818); AIS new EUR 65,884/MVA (median 63,470). Whole-substation basis, not a transformer-only price.",
+      "source": {
+        "url": "https://www.acer.europa.eu/sites/default/files/documents/Reports/UIC_report_2023.pdf",
+        "note": "ACER/PwC Unit Investment Cost Indicators (Jul 2023), 2023 EUR: cost per bay and per MVA, read 2026-11-16"
+      }
     }
   ],
   "sources": [
@@ -151,22 +175,6 @@
       "note": "TNB fault-level and voltage tables, read 2026-11-13"
     }
   ],
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "substation-level cost per bay or per MVA for 275-500 kV substations",
-      "reason_code": "not_in_sources_read",
-      "reason": "The 550 kV breaker set price is now recorded (tender and import records, 2025). Substation-level cost per bay or per MVA, covering transformers, GIS, civil works and control buildings, is quoted per project and not published openly.",
-      "where": [
-        {
-          "hint": "Utility 275-500 kV substation tender schedules"
-        },
-        {
-          "hint": "EPC consortium published project costs"
-        }
-      ],
-      "action": "Add per-bay substation cost when a tender schedule is available."
-    }
-  ],
-  "last_reviewed": "2026-11-13"
+  "gaps": [],
+  "last_reviewed": "2026-11-16"
 }

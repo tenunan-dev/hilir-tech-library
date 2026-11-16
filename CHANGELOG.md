@@ -8,6 +8,21 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.5] — 2026-11-16 — the electrical sector: 15 cost figures, ELE vendor queue emptied
+
+### Added
+
+- **Fifteen sourced cost figures across the ELE cards** (10 gaps closed, 5 narrowed): transmission lines by voltage with terrain adders (MISO, 2023 USD), UHV/EHV substation bays and per-MVA (ACER, 2023 EUR), HV switchgear bays, MV feeder bays (MSEDCL 2024-25), transformers per MVA by class (MISO), substation relay room with SCADA (Western Power), gas turbines open and combined cycle (EIA/Sargent & Lundy overnight capital), standby power per kVA, the Ex-rated equipment premium (+150–300%) and subsea umbilicals (~$1M/km).
+- **GSO and TNB as operator/utility records** — GSO is a ring-fenced entity inside TNB operating the Peninsular grid under s.22A of the Electricity Supply Act 1990, not an independent vendor.
+
+### Corrected
+
+- **Hyundai Electric was already registered** as "HD Hyundai Electric" from an unverified 2026-11-13 citation, which is why the card's supplier name never matched and the queue kept listing it. The record is now verified from the working domain (hyundai-electric.com fails TLS), carries the "Hyundai Electric" alias, and the duplicate I first wrote was deleted.
+
+### Published
+
+- Neon reloaded: 510 sources / 289 documents / 15,116 chunks / 388 cards / **528 vendors** / 241 projects; 4,575 nodes, 13,395 edges, 16,811 vectors.
+
 ## [2026.11.16.4] — 2026-11-16 — the data-centre vendor cohort; IDC queue drained
 
 ### Added

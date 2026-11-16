@@ -127,14 +127,28 @@
       "field": "costs",
       "item": "study cost per MW connected, with a Malaysian consultant benchmark",
       "reason_code": "not_in_sources_read",
-      "reason": "Consultancies do not publish study prices.",
+      "reason": "No published study fee exists: regulators publish deposits and milestone payments, not consultant fees. The MISO M2 milestone ($8,000/MW, 2024) is recorded as adjacent data with that caveat. Commercial study fees are quoted privately; searched 2026-11-16.",
       "where": [
         {
           "hint": "Ask the owner for a benchmarked study cost"
         }
       ],
-      "action": "Ask owner for a priced reference."
+      "action": "Leave open until a source states this exact metric and scope."
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-16",
+  "costs": [
+    {
+      "metric": "interconnection milestone payment",
+      "unit": "USD per MW",
+      "year": 2024,
+      "low": 8000,
+      "high": 8000,
+      "basis": "MISO raised its M2 milestone payment from $4,000/MW to $8,000/MW at the queue application deadline. This is a refundable-at-risk DEPOSIT tied to capacity, not the cost of performing a connection study - recorded because no study fee is published anywhere.",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2024-08/0724_MISO_IQ_reform_and_2023_cycle_policy_note_draft_FINAL.pdf",
+        "note": "US DOE, MISO interconnection queue reform policy note (Aug 2024), M2 milestone on p.15, read 2026-11-16"
+      }
+    }
+  ]
 }

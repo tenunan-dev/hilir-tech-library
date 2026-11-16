@@ -104,19 +104,20 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
-  "gaps": [
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per kilometre of umbilical",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
-      "where": [
-        {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "metric": "average installed umbilical cost",
+      "unit": "USD per km",
+      "year": 2024,
+      "low": 1000000,
+      "high": 1000000,
+      "basis": "'Average umbilical costs are roughly $1 million per kilometer' (OTC-35318-MS, 2024), used there as the counterfactual avoided by an autonomous power system. Order of magnitude only: not a vendor quote and not split by diameter, voltage or water depth. Dollar year not stated - the paper is dated 2024. Granular benchmarks sit in paid offshore cost databases.",
+      "source": {
+        "url": "https://www.osti.gov/servlets/purl/2567462",
+        "note": "Hammagren & Lesemann, OTC-35318-MS (2024): average umbilical cost about USD 1 million per km, read 2026-11-16"
+      }
     }
   ]
 }

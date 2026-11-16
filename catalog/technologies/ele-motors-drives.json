@@ -143,19 +143,32 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per kW by drive size and voltage",
+      "item": "installed cost per kW by motor size and voltage, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "reason": "A single-brand hardware price list is recorded ($41.6-61.8/kW, undated, drive only). Installed cost and a size/voltage split need a Western-brand or agency source; searched 2026-11-16.",
       "where": [
         {
           "hint": "Ask the owner for a Malaysian contractor benchmark"
         }
       ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "action": "Leave open until a source states this exact metric and scope."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "list price, variable-frequency drive (hardware only)",
+      "unit": "USD per kW",
+      "low": 41.6,
+      "high": 61.8,
+      "basis": "Published price list for one low-cost brand, 380-480 V three-phase: 7.5 kW $463.25 ($61.8/kW), 45 kW $2,193.10 ($48.7/kW), 90 kW $3,741.60 ($41.6/kW). Drive only - no motor, filters, cabling or installation - and the list is undated, so dollar year not stated. A floor, not a budget figure.",
+      "source": {
+        "url": "https://www.ato.com/variable-frequency-drive-price-list",
+        "note": "ATO variable-frequency drive price list, hardware only, undated, read 2026-11-16"
+      }
     }
   ]
 }

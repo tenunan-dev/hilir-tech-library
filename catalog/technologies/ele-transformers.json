@@ -127,6 +127,18 @@
         "url": "https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html",
         "note": "Export listings for Malaysia-power-project S11/S13 1000 kVA transformers; recorded on equipment record ele-power-transformers"
       }
+    },
+    {
+      "metric": "installed cost, power transformer",
+      "unit": "USD per MVA",
+      "year": 2023,
+      "low": 5615,
+      "high": 8891,
+      "basis": "MISO 2023 USD, material, shipping, foundation and installation included (excludes civil, switchgear and land): 230 kV high side $5,615/MVA; 345 kV $6,895/MVA; 500 kV $8,891/MVA. The 230 to 345 kV step alone adds about 23%; 765 kV reaches $12,510/MVA.",
+      "source": {
+        "url": "https://cdn.misoenergy.org/20240131%20PSC%20Item%2005%20Transmission%20Cost%20Estimation%20Guide%20for%20MTEP24%20-%20Redline631529.pdf",
+        "note": "MISO Transmission Cost Estimation Guide for MTEP24 (Jan 2024), 2023 USD: line, transformer and site-work tables, read 2026-11-16"
+      }
     }
   ],
   "limitations": [
@@ -159,22 +171,6 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "installed cost per MVA, including civil works, installation and commissioning, by transformer class",
-      "reason_code": "not_in_sources_read",
-      "reason": "Unit prices are now recorded (1000 kVA 11 kV/0.4 kV FOB export basis, 2025). Installed cost per MVA — the figure a project budget needs — is not published by any source read: it depends on civil works, transport, erection and commissioning, which vendors quote per project.",
-      "where": [
-        {
-          "hint": "Malaysian contractor or utility benchmark for installed transformer cost per MVA (TNB distribution works orders)"
-        },
-        {
-          "hint": "Ask the owner for a priced reference or a contractor quote"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote; keep the unit price as the magnitude anchor until then."
-    }
-  ]
+  "last_reviewed": "2026-11-16",
+  "gaps": []
 }

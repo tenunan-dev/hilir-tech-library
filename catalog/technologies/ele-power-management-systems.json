@@ -129,19 +129,20 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
-  "gaps": [
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per substation of SCADA and automation",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
-      "where": [
-        {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "metric": "substation relay room including SCADA and communications",
+      "unit": "AUD per substation",
+      "year": 2024,
+      "low": 3530000,
+      "high": 3530000,
+      "basis": "Western Power 2024 estimate for a new three-bay 330 kV terminal station: AUD 3,530,000 for the relay room including new SCADA and communications facilities, before escalation to 2027/28. A protection/control/RTU/comms building package, not a software licence price.",
+      "source": {
+        "url": "https://www.erawa.com.au/sites/default/files/24397/BRCP-2025-Total-transmission-cost-estimate-for-the-BRCP-for-2027-28-Western-Power.PDF",
+        "note": "Western Power, total transmission cost estimate for 2027/28 (Sep 2024), A$: 330 kV line, three-bay substation, relay room with SCADA, read 2026-11-16"
+      }
     }
   ]
 }

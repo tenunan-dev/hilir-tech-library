@@ -129,19 +129,20 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
-  "gaps": [
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost premium of Ex-rated over standard equipment",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
-      "where": [
-        {
-          "hint": "Ask the owner for a Malaysian contractor benchmark"
-        }
-      ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "metric": "equipment cost premium, Ex-rated over standard",
+      "unit": "percent",
+      "year": 2026,
+      "low": 150,
+      "high": 300,
+      "basis": "Industry cost commentary gives component multipliers: enclosures 2.5-4x standard (+150% to +300%), cable glands 2-3x, sealing systems 1.5-2x, internal control circuits 3-5x, and installation labour 25-40% above standard. Widens with zone and EPL severity; excludes certification and notified-body fees. Vendor/industry commentary, not a regulator study - an order-of-magnitude factor.",
+      "source": {
+        "url": "https://www.waromgroup.com/explosion-proof-equipment-cost-understanding-investment-drivers",
+        "note": "Warom Group explosion-proof equipment cost multipliers (Apr 2026), read 2026-11-16"
+      }
     }
   ]
 }

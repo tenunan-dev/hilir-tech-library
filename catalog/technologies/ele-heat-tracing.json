@@ -115,19 +115,32 @@
       "note": "GSO grid code context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per metre of traced pipe",
+      "item": "installed cost per metre of traced pipe, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor and licensee sites do not publish installed prices.",
+      "reason": "Cable material cost is recorded ($10.66/m derived from $3.25/ft). Insulation, cladding, fixings, controls and labour are not priced in any loaded source; searched 2026-11-16.",
       "where": [
         {
           "hint": "Ask the owner for a Malaysian contractor benchmark"
         }
       ],
-      "action": "Ask owner for a priced reference or a contractor quote."
+      "action": "Leave open until a source states this exact metric and scope."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "material cost, self-regulating heat trace cable",
+      "unit": "USD per m",
+      "low": 10.66,
+      "high": 10.66,
+      "basis": "Derived from a retail price of $3.25/ft for 8 W/ft self-regulating cable (500 ft spool $1,625), converted at 3.28084 ft/m. Cable only: add fixings, insulation and cladding, connection kits, controls and labour for an installed per-metre cost. Undated retail list, so dollar year not stated.",
+      "source": {
+        "url": "https://www.flotraceusa.com/products/8-watt-heat-trace",
+        "note": "FloTrace 8 W/ft self-regulating heat trace cable price, cable only, undated, read 2026-11-16"
+      }
     }
   ]
 }

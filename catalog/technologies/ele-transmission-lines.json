@@ -149,19 +149,20 @@
       "note": "TNB transmission, voltage and fault-level tables, read 2026-11-13"
     }
   ],
-  "gaps": [
+  "gaps": [],
+  "last_reviewed": "2026-11-16",
+  "costs": [
     {
-      "field": "costs",
-      "item": "cost per kilometre by voltage and terrain",
-      "reason_code": "not_in_sources_read",
-      "reason": "Network operators do not publish line costs.",
-      "where": [
-        {
-          "hint": "Energy Commission or GSO tariff filings"
-        }
-      ],
-      "action": "Ask owner for a priced reference."
+      "metric": "total installed cost, new single-circuit overhead line",
+      "unit": "USD per km",
+      "year": 2023,
+      "low": 1300000,
+      "high": 3000000,
+      "basis": "MISO 2023 USD, $/mile converted: 230 kV $2.1-2.5M/mile (~$1.3-1.6M/km), 345 kV $3.4-3.9M/mile (~$2.1-2.4M/km), 500 kV $4.2-4.8M/mile (~$2.6-3.0M/km). Total installed, excludes land. Terrain is priced as adders, not in the base: forested clearing $5,995/acre, mountainous $794/acre, wetland $69,975/acre plus $56,132/acre mitigation. A terrain-priced cross-check from Western Power (330 kV, A$1.17M/km rural to A$2.24M/km urban) sits in the same order.",
+      "source": {
+        "url": "https://cdn.misoenergy.org/20240131%20PSC%20Item%2005%20Transmission%20Cost%20Estimation%20Guide%20for%20MTEP24%20-%20Redline631529.pdf",
+        "note": "MISO Transmission Cost Estimation Guide for MTEP24 (Jan 2024), 2023 USD: line, transformer and site-work tables, read 2026-11-16"
+      }
     }
-  ],
-  "last_reviewed": "2026-11-13"
+  ]
 }

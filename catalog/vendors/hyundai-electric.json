@@ -2,16 +2,44 @@
   "id": "hyundai-electric",
   "name": "HD Hyundai Electric",
   "country": "KR",
-  "roles": ["oem"],
-  "categories": ["equipment-oem"],
-  "description": "Korean heavy-electrical OEM: power transformers, gas-insulated switchgear, high-voltage circuit breakers and HVDC equipment; a major supplier to Asian transmission utilities.",
-  "technologies": ["ele-uhv-substations", "ele-transformers", "ele-hv-switchgear-distribution"],
-  "url": "https://www.hyundai-electric.com",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "South Korean heavy-electrical OEM, spun out of Hyundai Heavy Industries in April 2017 and renamed HD Hyundai Electric in 2023: power and distribution transformers, gas-insulated switchgear, HV circuit breakers, HV/LV motors and generators, HVDC equipment and battery storage. HD Hyundai Co., Ltd. is the largest shareholder at 35.60% (KRX: 267260), and it is a major supplier to Asian transmission utilities.",
+  "technologies": [
+    "ele-uhv-substations",
+    "ele-transformers",
+    "ele-hv-switchgear-distribution"
+  ],
+  "url": "https://hd-hyundaielectric.com/",
   "sources": [
     {
-      "url": "https://www.hyundai-electric.com",
-      "note": "corporate site cited for product families; page not re-read this pass (registered as unverified), 2026-11-13"
+      "url": "https://hd-hyundaielectric.com/elect/m/en/company/history.jsp",
+      "note": "Company history: established April 2017, renamed HD Hyundai Electric 2023, read 2026-11-16"
+    },
+    {
+      "url": "https://hd-hyundaielectric.com/elect/en/IR/governance2.jsp",
+      "note": "Governance and largest shareholder (35.60%), read 2026-11-16"
+    },
+    {
+      "url": "https://hd.com/en/investors/governance/subsidiary/contents",
+      "note": "HD Hyundai group subsidiary list, read 2026-11-16"
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-16",
+  "aliases": [
+    "Hyundai Electric"
+  ],
+  "products": [
+    "Power and distribution transformers",
+    "Gas-insulated switchgear (GIS)",
+    "HV circuit breakers",
+    "HV/LV motors and generators",
+    "HVDC equipment",
+    "Battery energy storage"
+  ],
+  "notes": "Registered 2026-11-13 from an unverified citation; re-verified 2026-11-16 from the working official domain. The older domains are unreachable from here: hyundai-electric.com fails the TLS handshake over https and returns 403 over http, and hyundai-elec.com does not resolve. Alias 'Hyundai Electric' added so the card's supplier name matches this record instead of sitting in the coverage queue."
 }
