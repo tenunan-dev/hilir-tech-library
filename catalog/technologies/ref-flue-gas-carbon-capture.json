@@ -120,9 +120,13 @@
     {
       "url": "https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape",
       "note": "iO+, The first Dutch carbon capture and storage plant is taking shape (Porthos)"
+    },
+    {
+      "url": "https://www.linde-engineering.com/products-and-services/process-plants/co2-plants/carbon-capture/post-combustion-capture",
+      "note": "Linde Engineering (post-combustion capture), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -164,19 +168,7 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents flue-gas pretreatment and cooling, CO2 absorption in the absorber, regeneration in the desorber/stripper with reboiler, and lists compression, drying and purification as supplied downstream systems."
 }

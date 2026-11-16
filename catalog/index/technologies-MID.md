@@ -136,9 +136,8 @@ flowchart LR
 - emission reduction and seal types, per AP-42 and API 650 (performance): Not on the page read. Web-checked 2026-10-28; AP-42 emission-factor tables are EPA-hosted PDFs not read this pass. Where: EPA AP-42 chapter 7.1 (open); API 650 and 653 (catalog: api-standards, open). Next: Add loss factors from AP-42.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Floating_roof). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Floating_roof), [2](https://www.hse.gov.uk/pubns/books/hsg176.htm). Last reviewed 2026-11-17.
 
 ## Crude and product tankers with scrubbers or LNG fuel
 <a id="mid-crude-product-tankers"></a>
@@ -167,9 +166,8 @@ flowchart LR
 - IMO sulphur cap and compliance options (other): The IMO page is blocked by robots.txt. Where: IMO MARPOL Annex VI summary (open). Next: Add the 0.50% global limit and ECA limit with dates.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; scrubber/LNG-fuel retrofit costs are shipyard-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Oil_tanker). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Oil_tanker), [2](https://www.jms.ucg.ac.me/jms_archive/v23_1_2022/jms_23_01_2022_12.pdf). Last reviewed 2026-11-17.
 
 ## Custody transfer metering (ultrasonic, Coriolis)
 <a id="mid-custody-transfer-metering"></a>
@@ -255,9 +253,8 @@ flowchart LR
 - capabilities, validation accuracy and typical use (performance): The SLB page contains navigation text only. Web-checked 2026-10-28; OLGA/LEDAAP validation tables sit in SPE papers. Where: SLB OLGA documentation (catalog: slb, open). Next: Add validation statements with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licence prices vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.slb.com/products-and-services/delivering-digital-at-scale/software/olga-dynamic-multiphase-flow-simulator). Last reviewed 2026-11-16.
+Sources: [1](https://www.slb.com/products-and-services/delivering-digital-at-scale/software/olga-dynamic-multiphase-flow-simulator), [2](https://www.slb.com/products-and-services/delivering-digital-at-scale/software/olga/olga-dynamic-multiphase-flow-simulator). Last reviewed 2026-11-17.
 
 ## Heated and pipe-in-pipe flowlines
 <a id="mid-heated-pipe-in-pipe-flowlines"></a>
@@ -282,9 +279,8 @@ flowchart LR
 - U-values, depths, lengths and temperatures (performance): The TechnipFMC page returned an error. Where: TechnipFMC and Subsea7 project pages (catalog: technipfmc, open). Next: Add figures from a project page or paper.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; project-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-11-16.
+Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management), [2](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines). Last reviewed 2026-11-17.
 
 ## High-strength steel pipelines and automatic welding
 <a id="mid-high-strength-steel-pipelines"></a>
@@ -313,9 +309,8 @@ flowchart LR
 **Missing inputs:**
 - current cost per km with dollar year (costs): The paper gives a saving percentage only. Web-checked 2026-10-28; pipeline build costs vary by region; no authoritative open $/km found. Where: PRCI and operator project cost studies (catalog: prci, open). Next: Add cost per inch-km with year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched linepipe, X70, X80, pipeline steel, high strength steel, pipelines); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://niobium.tech/-/media/niobiumtech/attachments-biblioteca-tecnica/nt_the-development-of-weld-procedures-for-x80-pipelines-in-the-uk.pdf), [2](https://www.dnv.com/oilgas/download/dnv-st-f101-submarine-pipeline-systems/). Last reviewed 2026-11-17.
 
 ## Hydrate, wax and asphaltene management (inhibitors, heating, pigging)
 <a id="mid-hydrate-wax-asphaltene-management"></a>
@@ -343,9 +338,8 @@ flowchart LR
 **Missing inputs:**
 - chemical cost and MEG recovery cost (costs): None given. Web-checked 2026-10-28; chemical prices are vendor-quoted. Where: SPE papers on flow assurance cost (catalog: onepetro, open). Next: Add typical dosage and cost.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched hydrate, wax, asphaltene, flow assurance, chemical injection); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Gas hydrate'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Gas_hydrate) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management). Last reviewed 2026-11-16.
+Sources: [1](https://jpt.spe.org/flow-assurance-hydrates-and-paraffin-management), [2](https://www.osti.gov/etdeweb/servlets/purl/21150481). Last reviewed 2026-11-17.
 
 ## LNG carriers (membrane and Moss tanks, reliquefaction)
 <a id="mid-lng-carriers"></a>
@@ -438,9 +432,8 @@ flowchart LR
 - minimum detectable leak size and response time (performance): The vendor article gives no numbers. Web-checked 2026-10-28: API 1130 CPM thresholds (about 1% of flow) circulate in vendor material; no verifiable open table found. Where: API RP 1130 and API RP 1175 summaries (open); PHMSA leak detection study (catalog: phmsa, open). Next: Add thresholds from an independent study.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing). Last reviewed 2026-11-16.
+Sources: [1](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing), [2](https://www.api.org/products-and-services/standards/important-standards-announcements/rp1130). Last reviewed 2026-11-17.
 
 ## Pipeline inline inspection (MFL, ultrasonic, EMAT pigs)
 <a id="mid-inline-inspection-pigging"></a>
@@ -496,9 +489,8 @@ flowchart LR
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; programme figures are government-budgeted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energy.gov/ceser/strategic-petroleum-reserve). Last reviewed 2026-11-16.
+Sources: [1](https://www.energy.gov/ceser/strategic-petroleum-reserve), [2](https://www.energy.gov/ceser/strategic-petroleum-reserve). Last reviewed 2026-11-17.
 
 ## Underground gas storage (salt caverns, depleted fields)
 <a id="mid-underground-gas-storage"></a>
@@ -558,9 +550,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - repurposing cost versus new build (costs): NREL's review text read gives no cost. Web-checked 2026-10-28: European Hydrogen Backbone cost ratios circulate in reports but no verifiable primary figure read this pass. Where: European Hydrogen Backbone and DNV reports (catalog: iea-hydrogen-db, open). Next: Add cost fraction with source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Hydrogen economy'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Hydrogen_economy) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://docs.nlr.gov/docs/fy23osti/81704.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://docs.nlr.gov/docs/fy23osti/81704.pdf), [2](https://www.pnnl.gov/publications/hydrogen-blending-natural-gas-pipeline-infrastructure-review-state-technology). Last reviewed 2026-11-17.
 
 ## Liquid CO2 carriers
 <a id="mid-liquid-co2-carriers"></a>
@@ -591,10 +582,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 shipping'](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [4](https://gcaptain.com/northern-lights-expands-carbon-shipping-fleet-with-new-co2-carrier/). Last reviewed 2026-10-28.
+Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [4](https://gcaptain.com/northern-lights-expands-carbon-shipping-fleet-with-new-co2-carrier/), [5](https://www.dnv.com/expert-story/maritime-impact/DNV-supports-innovations-in-CO2-carrier-design). Last reviewed 2026-11-17.
 
 ## Liquid hydrogen carriers
 <a id="mid-liquid-hydrogen-carriers"></a>
@@ -625,6 +613,5 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Liquefie
 **Missing inputs:**
 - commercial-scale carrier designs and boil-off rates (performance): Only the pilot ship was read. Suiso Frontier design/cargo figures recorded in performance; boil-off rate not published, 2026-10-28. Where: Kawasaki Heavy Industries press releases (open). Next: Add 160,000 m3 carrier design data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Suiso_Frontier). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Suiso_Frontier), [2](https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/other/342-requirements-for-liquefied-hydrogen-carriers_2023/342-liquefied-hydrogen-carriers-reqts-oct23.pdf). Last reviewed 2026-11-17.

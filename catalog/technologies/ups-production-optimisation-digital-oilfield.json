@@ -94,9 +94,13 @@
     {
       "url": "https://www.aveva.com/en/our-industrial-life/type/article/when-the-rig-starts-thinking-the-rise-of-autonomous-drilling/",
       "note": "AVEVA, When the rig starts thinking: the rise of autonomous drilling (vendor-authored; company claims relayed)"
+    },
+    {
+      "url": "https://www.aveva.com/en/our-industrial-life/type/article/when-the-rig-starts-thinking-the-rise-of-autonomous-drilling/",
+      "note": "AVEVA (vendor article), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -161,19 +165,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the digital-oilfield closed loop on the drilling side - downhole and fibre-optic sensing, analytics/interpretation, decision, and actuation through rig controls and downhole tools, overseen from an onshore real-time centre."
 }

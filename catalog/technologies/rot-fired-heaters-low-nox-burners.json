@@ -93,9 +93,13 @@
     {
       "url": "https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf",
       "note": "ClearSign, Duplex for refinery process heaters (2015 vendor white paper; its claims are the vendor's own)"
+    },
+    {
+      "url": "https://www.api.org/~/media/files/publications/whats%20new/535%20e3%20pa.pdf",
+      "note": "American Petroleum Institute (RP 535), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -163,24 +167,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Low NOx burner'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Low_NOx_burner",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: API RP 535 gives the burner types and the selection and evaluation basis - including low-NOx burners - where the burner interacts with fired-heater design."
 }

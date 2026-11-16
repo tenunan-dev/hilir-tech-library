@@ -121,9 +121,13 @@
       "source_id": "dmt-env",
       "url": "https://www.dmt.nl/",
       "note": "DMT biogas upgrading pages, read 2026-11-13"
+    },
+    {
+      "url": "https://task37.ieabioenergy.com/technical-reports/biogas-upgrading-technologies",
+      "note": "IEA Bioenergy Task 37, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -147,19 +151,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "trl": {
@@ -183,5 +174,6 @@
       "project_id": "nature-energy-korskro",
       "year": 2019
     }
-  ]
+  ],
+  "notes": "Process provenance: IEA Bioenergy Task 37 brochure TR0910 reviews biogas upgrading - the treatment steps that remove CO2 to raise methane content for grid injection or vehicle fuel (water/amine scrubbing, PSA, membranes) and the need to minimise methane slip in reject gas and scrubber water."
 }

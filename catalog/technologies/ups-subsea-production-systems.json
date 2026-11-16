@@ -124,9 +124,13 @@
     {
       "url": "https://www.ogj.com/general-interest/companies/article/17268670/shell-sets-record-with-perdido-offshore-well-completion",
       "note": "Oil & Gas Journal, Shell sets record with Perdido well completion, 3 Dec 2008"
+    },
+    {
+      "url": "https://www.slb.com/-/media/files/oilfield-review/defining-subsea-infrastructure.ashx",
+      "note": "SLB Oilfield Review, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -190,24 +194,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Subsea technology'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Subsea_technology",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the subsea production chain from wellbore to host - tree, jumper through a multiphase meter, manifold, flowline, booster pump, PLET, riser and FPSO, with the umbilical/UTA routing power, hydraulics and chemicals."
 }

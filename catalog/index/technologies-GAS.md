@@ -173,9 +173,8 @@ flowchart LR
 
 **Missing inputs:**
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28; Gorgon operating record recorded in Wave 2). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project), [2](https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://www.ogj.com/pipelines-transportation/lng/article/14038048/chevron-australia-starts-up-gorgon-lng-carbon-capture-project), [2](https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf), [3](https://www.gasliquids.com/portfolio-item/chevron-gorgon). Last reviewed 2026-11-17.
 
 ## Cascade liquefaction
 <a id="lng-optimized-cascade"></a>
@@ -314,9 +313,8 @@ flowchart LR
 - MW per train and specific energy for electric versus gas-turbine drive (performance): The articles read give neither. Web-checked 2026-10-28: motor ratings circulate in trade press but were not verifiable on the open pages read; specific-energy comparison not found. Where: McDermott e-drive page (catalog: mcdermott, open); Equinor technical papers (catalog: equinor-tech, open). Next: Add motor sizes and kWh per tonne from vendor or LNG conference papers.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; project-level figures only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng), [2](https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility). Last reviewed 2026-10-28.
+Sources: [1](https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng), [2](https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility), [3](https://www.gastechevent.com/media/2hmfdizk/john-vincent-ergina_siemens-energy.pdf). Last reviewed 2026-11-17.
 
 ## Floating LNG (FLNG)
 <a id="lng-flng"></a>
@@ -487,9 +485,8 @@ flowchart LR
 **Missing inputs:**
 - unit capital and operating cost per unit of helium capacity (costs): Total capital for two flowsheets is recorded ($127-281M); a per-unit-capacity figure could not be verified. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export), [2](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/). Last reviewed 2026-11-16.
+Sources: [1](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export), [2](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/), [3](https://www.linde-engineering.com/products-and-services/process-plants/natural-gas-processing/helium-recovery-and-liquefaction-plants). Last reviewed 2026-11-17.
 
 ## Hot potassium carbonate (Benfield)
 <a id="gas-hot-potassium-carbonate"></a>
@@ -525,9 +522,8 @@ flowchart LR
 - BRE's comparison is a vendor-neutral simulation; no UOP-published figures were read (performance): UOP's page lists Benfield without specifications. Gap item restated 2026-10-28: UOP-published Benfield figures remain in licensor material. Where: Honeywell UOP Benfield datasheet (catalog: honeywell-uop, open). Next: Add UOP datasheet figures.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal), [2](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf), [3](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg). Last reviewed 2026-10-28.
+Sources: [1](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal), [2](https://www.bre.com/PDF/Simulation-of-the-Benfield-HiPure-Process-of-Natural-Gas-Sweetening-for-LNG-Production-and-Evaluation-of-Alternatives.pdf), [3](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg), [4](https://www.karbonatesolutions.com/hpc-process-description). Last reviewed 2026-11-17.
 
 ## Hybrid solvent gas treating (Sulfinol)
 <a id="gas-hybrid-solvent-sulfinol"></a>
@@ -562,9 +558,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Advanced
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://catalysts.shell.com/en/lower-costs-sulfinol), [2](https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions). Last reviewed 2026-11-16.
+Sources: [1](https://catalysts.shell.com/en/lower-costs-sulfinol), [2](https://www.ogj.com/home/article/17238096/gas-desulfurization-plant-handles-wide-range-of-sour-gas-compositions), [3](https://scholar.tecnico.ulisboa.pt/api/records/fMKc3Yc0Gah26-B-LqMkuZmDn5MLUxKqAsR0/file/5fbfd8ecbf2e3a6b1fb48c3ddb6546eca15302b85d6842c1552f3f4a1032c62d.pdf). Last reviewed 2026-11-17.
 
 ## LNG bunkering
 <a id="gas-lng-bunkering"></a>
@@ -596,9 +591,8 @@ flowchart LR
 **Missing inputs:**
 - global LNG bunkering volumes and port list (performance): Only Singapore items were read; the LNG Prime article is paywalled. Outlook and cumulative port figures recorded in performance; a verified global 2024/25 volume total and port list not found open, 2026-10-28. Where: Singapore MPA bunkering statistics (open); Maritime Executive and Ship & Bunker coverage (open). Next: Add global volumes and the Malaysia (Pengerang, Johor) position.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore), [2](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/). Last reviewed 2026-11-16.
+Sources: [1](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore), [2](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/), [3](https://fkab.com/wp-content/uploads/2025/03/LNG_Ship_to_Ship_Bunkering_Procedure_Complete_-_SMTF_version.pdf). Last reviewed 2026-11-17.
 
 ## LNG regasification (open rack, submerged combustion, ambient air vaporisers)
 <a id="gas-lng-regasification"></a>
@@ -629,9 +623,8 @@ flowchart LR
 - fuel gas percentage and cold-energy use (performance): The article gives no percentage figures. Web-checked 2026-10-28: SCV fuel-gas percentages (~0.01-0.02% class) circulate in vendor material; no verifiable open table found. Where: GIIGNL handbook and terminal operator documents (catalog: giignl, open). Next: Add fuel use and cold-energy recovery options.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.pumpindustry.com.au/lng-receiving-terminals). Last reviewed 2026-11-16.
+Sources: [1](https://www.pumpindustry.com.au/lng-receiving-terminals), [2](https://globallngservices.com/lng-receiving-terminal-process). Last reviewed 2026-11-17.
 
 ## Liquid redox sulfur recovery (LO-CAT)
 <a id="gas-liquid-redox-lo-cat"></a>
@@ -665,9 +658,8 @@ flowchart LR
 - H2S removal efficiency, capacity range in tonnes of sulfur per day and installed base (performance): Neither the Digital Refining article text nor the Merichem page read gives them. Web-checked 2026-10-28: LO-CAT vendor pages found but the 99.9+% efficiency and installed-base figures sit in brochure material not readable this pass. Where: Merichem LO-CAT brochure (open); Digital Refining article tables 1 and 2 (not in the text read) (catalog: ptq-digital-refining, open). Next: Add them from a licensor datasheet.
 - unit cost per t/d of sulfur capacity (costs): One plant-specific installed cost is recorded ($9.93M, plus/minus 50%); no unit cost per t/d of sulfur capacity was published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal), [2](https://www.axens.net/markets/natural-gas/sulfur-recovery). Last reviewed 2026-11-16.
+Sources: [1](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal), [2](https://www.axens.net/markets/natural-gas/sulfur-recovery), [3](https://www.merichem.com/wp-content/uploads/2021/12/Hydrocarbon-Engineering-December-2021-Article-D-Jackson.pdf). Last reviewed 2026-11-17.
 
 ## Membrane CO2 removal for high-CO2 gas
 <a id="gas-membrane-co2"></a>
@@ -917,9 +909,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Advanced
 
 **Missing inputs:**
 - capital cost for a natural-gas physical-solvent AGR unit (costs): Only a pre-combustion IGCC capture cost is published ($27-31/t, 2022); it is recorded with that scope warning, but no natural-gas AGR figure exists. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf), [2](https://en.wikipedia.org/wiki/Selexol). Last reviewed 2026-11-16.
+Sources: [1](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf), [2](https://en.wikipedia.org/wiki/Selexol), [3](https://www.aspentech.com/-/media/aspentech/home/resources/white-papers/pdfs/fy18/q3/11-7677-wp-depg-1215.pdf?sc_lang=en). Last reviewed 2026-11-17.
 
 ## Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X)
 <a id="lng-c3mr-apx"></a>
@@ -1099,6 +1090,5 @@ flowchart LR
 **Missing inputs:**
 - unit capital and operating cost with a primary source (costs): One project figure is recorded (about $1bn for 3.7-4 Mtpa); it comes from secondary commentary, so the unit cost needs a primary operator source. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/), [3](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027), [4](https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/). Last reviewed 2026-11-16.
+Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/), [3](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027), [4](https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/), [5](https://www.ogj.com/home/article/17233856/processes-combine-to-assist-acid-gas-handling-reinjection). Last reviewed 2026-11-17.

@@ -119,9 +119,13 @@
     {
       "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/gbs/gbs-cases/troll-a",
       "note": "Aker Solutions, Troll A Condeep gravity-based structure case page (read 2026-10-28)"
+    },
+    {
+      "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
+      "note": "ESDEP / University of Ljubljana (Offshore Structures lecture), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -149,19 +153,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -176,5 +167,6 @@
       },
       "project_id": "troll-a-condeep-gravity-based-structure-troll-field-norwegian-north-sea"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents jacket and GBS concepts with execution phases - jacket pile arrangements (through-leg, skirt, vertical skirt), fabrication on the quay, load-out and sea-fastening, lift-and-upend or launch installation, piling and topsides installation; for GBS, concrete base fabrication, barge positioning between columns, deballasting to receive the deck, tow-out and set-down by ballasting."
 }

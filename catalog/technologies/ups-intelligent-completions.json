@@ -107,9 +107,13 @@
       "url": "https://jpt.spe.org/inflow-control-device-inflow-control-valves-aid-kuwaits-first-smart-multilateral-well",
       "source_id": "jpt",
       "note": "JPT, Inflow-control device and inflow-control valves aid Kuwait's first smart multilateral well"
+    },
+    {
+      "url": "https://www.halliburton.com/en/completions/well-completions/intelligent-completions/flow-controls",
+      "note": "Halliburton, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -174,19 +178,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents intelligent-completion flow control architecture - downhole interval control valves (HS-ICV, Accu-Pulse, SmartPlex II, eMotion) operated by electro-hydraulic or all-electric control lines (Turing manages up to 12 ICVs on three lines) and linked to manual or automated surface control for remote zonal choke adjustment and interventionless actuation. Packers and sensor details are not covered."
 }

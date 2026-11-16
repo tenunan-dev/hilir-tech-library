@@ -122,6 +122,10 @@
       "url": "https://www.offshore-mag.com/subsea/article/14208015/record-length-heated-subsea-production-pipeline-installed-at-fenja-oil-field-offshore-norway",
       "source_id": "offshore-mag",
       "note": "Offshore magazine, Record-length heated pipeline installed at Fenja oil field, 3 August 2021: 37-km electrically trace-heated (ETH) pipe-in-pipe pipeline for Neptune Energy, tieback to Njord A (read 28 October 2026)"
+    },
+    {
+      "url": "https://blog.sintef.com/ocean/direct-electrical-heating-deh",
+      "note": "SINTEF, read 2026-11-17"
     }
   ],
   "reference_plants": [
@@ -152,7 +156,7 @@
       "project_id": "huldra-deh-pipeline-north-sea"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -203,19 +207,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the DEH circuit and installation sequence - topside power feeds a riser cable and seabed feeder, a piggyback cable runs along the flowline and is grounded to the pipe at the far end, with return current split between steel and seawater; anodes designed for the current-transfer zones; reel-lay installation, field-proven in 40+ installations."
 }

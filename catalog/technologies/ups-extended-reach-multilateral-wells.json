@@ -109,9 +109,13 @@
     {
       "url": "https://offshore-energy.biz/2011/01/28/exxon-drills-the-worlds-longest-extended-reach-well-offshore-sakhalin-russia",
       "note": "Offshore Energy, Exxon drills the world's longest extended-reach well offshore Sakhalin, 28 Jan 2011"
+    },
+    {
+      "url": "https://petroedgeasia.net/blog/extended-reach-drilling-erd-complete-guide-to-planning-execution-and-risk-control",
+      "note": "PetroEdge (ERD best-practices guide), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -140,24 +144,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Directional drilling'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Directional_drilling",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -172,5 +158,6 @@
       },
       "project_id": "odoptu-op-11-extended-reach-well-sakhalin-1-exxon-neftegas"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the ERD planning and execution sequence - target/slot definition, trajectory design with anti-collision checks, torque-and-drag modelling, hydraulics and cuttings transport, casing running strategy, rotary-steerable or motor BHA selection, fluid strategy, then execution monitoring of torque, drag, ECD and stick-slip. Multilateral wells are covered only as a brief variant, not in detail."
 }

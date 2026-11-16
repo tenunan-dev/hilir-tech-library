@@ -144,10 +144,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 transport pipeline'](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf), [2](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-11-16.
+Sources: [1](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf), [2](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [3](https://ccsknowledge.com/tools-resources/co2-compression-and-dehydration-technologies). Last reviewed 2026-11-17.
 
 ## CO2 to concrete and aggregates
 <a id="ccs-co2-concrete"></a>
@@ -174,9 +171,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for CO2 mineralisation in concrete, capital cost and unit cost; not present; 2026-10-28 Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://gasworld.com/story/carboncure-hits-500000-tonnes-co2-milestone-with-mineralised-concrete-tech/2145799.article), [2](https://carbonherald.com/carboncure-achieves-milestone-500000-tons-of-co2-savings). Last reviewed 2026-10-28.
+Sources: [1](https://gasworld.com/story/carboncure-hits-500000-tonnes-co2-milestone-with-mineralised-concrete-tech/2145799.article), [2](https://carbonherald.com/carboncure-achieves-milestone-500000-tons-of-co2-savings), [3](https://www.carboncure.com/technologies). Last reviewed 2026-11-17.
 
 ## CO2 to urea and polymers
 <a id="ccs-co2-to-urea-polymers"></a>
@@ -202,9 +198,8 @@ flowchart LR
 - global CO2 demand for urea (performance): No source read. Global CCS Institute Global Status of CCS 2026 and CO2 shipping brief (2025) state no global urea CO2 demand figure. Web-checked 2026-10-28: global urea production is around 180 Mt-class in market reports, but no open source states the corresponding CO2 consumption in Mt/yr; not recorded. Where: IEA CCUS in the transition or Global CCS Institute (catalog: global-ccs-institute, open). Next: Add urea CO2 use in Mt/yr.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.european-rubber-journal.com/2016/06/20/covestro-starts-co2-based-polyols-plant). Last reviewed 2026-11-16.
+Sources: [1](https://www.european-rubber-journal.com/2016/06/20/covestro-starts-co2-based-polyols-plant), [2](https://www.thyssenkrupp-uhde.com/en/products-and-technologies/fertilizer-technologies/urea-plants/urea-synthesis-with-pool-condenser). Last reviewed 2026-11-17.
 
 ## Capture from high-purity CO2 streams (compression and dehydration only)
 <a id="ccs-high-purity-compression"></a>
@@ -351,9 +346,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Advanced
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; QGESS MMV cost table already mined in Wave 1. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://albertainnovates.ca/wp-content/uploads/2022/07/CCUS-paper-carbon-MMV-Lawton-et-al.pdf), [2](https://netl.doe.gov/sites/default/files/2018-10/BPM-MVA-2012.pdf), [3](https://netl.doe.gov/projects/VueConnection/download.aspx?id=c6081462-66d8-4cf2-a8e8-cd3424dce3d9&filename=QualityGuidelinesforEnergySystemStudiesCarbonDioxideTransportandStorageCostsinNETLStudies_073124.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://albertainnovates.ca/wp-content/uploads/2022/07/CCUS-paper-carbon-MMV-Lawton-et-al.pdf), [2](https://netl.doe.gov/sites/default/files/2018-10/BPM-MVA-2012.pdf), [3](https://netl.doe.gov/projects/VueConnection/download.aspx?id=c6081462-66d8-4cf2-a8e8-cd3424dce3d9&filename=QualityGuidelinesforEnergySystemStudiesCarbonDioxideTransportandStorageCostsinNETLStudies_073124.pdf), [4](https://netl.doe.gov/sites/default/files/2018-10/BPM-MVA-2012.pdf). Last reviewed 2026-11-17.
 
 ## Physical solvent acid gas removal (pre-combustion)
 <a id="ccs-physical-solvent-pre-combustion"></a>
@@ -418,9 +412,8 @@ flowchart LR
 - quantified strength retention and carbonation depth (performance): Only the abstract was read. Web-checked 2026-10-28; CO2-cement reactivity studies are in journal papers not captured open. Where: Full text of Rasool et al. 2025 (Petroleum Research) (open). Next: Add figures from the full text.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://pure.unileoben.ac.at/en/publications/a-review-on-cementing-system-for-co2-storage-wells-mechanisms-tes/). Last reviewed 2026-11-16.
+Sources: [1](https://pure.unileoben.ac.at/en/publications/a-review-on-cementing-system-for-co2-storage-wells-mechanisms-tes/), [2](https://www.netl.doe.gov/projects/files/DOE.NETL-2021.2649_AReviewofInternationalFieldExperiencewithWellIntegrity_031021.pdf). Last reviewed 2026-11-17.
 
 ## Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)
 <a id="ccs-allam-cycle"></a>
@@ -524,10 +517,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764), [2](https://www.carbfix.com/carbfix2). Last reviewed 2026-11-16.
+Sources: [1](https://alcircle.com/news/carbfix-transforming-co2-emissions-into-stone-for-a-sustainable-future-101764), [2](https://www.carbfix.com/carbfix2), [3](https://www.bafu.admin.ch/dam/de/sd-web/UwpFiJ0kr0-h/Geological-storage-of-CO2-by-in-situ-mineralization.pdf). Last reviewed 2026-11-17.
 
 ## CO2 shipping and terminals
 <a id="ccs-co2-shipping"></a>
@@ -593,10 +583,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://carbonrecycling.com/projects/george-olah). Last reviewed 2026-11-11.
+Sources: [1](https://carbonrecycling.com/projects/george-olah), [2](https://csei.eu/wp-content/uploads/2024/09/2024_09_13-sustained-02_rosenberg_cri.pdf). Last reviewed 2026-11-17.
 
 ## Direct air capture with liquid solvent (KOH and calcium loop)
 <a id="ccs-dac-liquid-solvent"></a>
@@ -701,10 +688,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 sequestration in inert carbonate materials (mineralisation)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf), [2](https://ieaghg.org/publications/2022-10%20Mineral%20Carbonation%20using%20Mine%20Tailings%20%E2%80%93%20A%20Strategic%20Overview%20of%20Potential%20and%20Opportunities.pdf). Last reviewed 2026-11-17.
 
 ## Molten carbonate fuel cell capture
 <a id="ccs-molten-carbonate-fuel-cell-capture"></a>
@@ -736,9 +720,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Molten c
 
 **Missing inputs:**
 - capture rate, power output per tonne CO2, cost (performance): The article gives none. Web-checked 2026-10-28; ExxonMobil/FuelCell Energy pilot data not published open. Where: EU CFC Pilot4CCS project page (cinea.ec.europa.eu) (open); FuelCell Energy announcements (open). Next: Add measured pilot results.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/). Last reviewed 2026-11-16.
+Sources: [1](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/), [2](https://www.fuelcellenergy.com/hubfs/Carbon%20Capture%20with%20FuelCell%20Energy%20Systems.pdf). Last reviewed 2026-11-17.
 
 ## Oxyfuel combustion in cement kilns
 <a id="ccs-oxyfuel-cement"></a>
@@ -851,9 +834,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'C
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; NETL QGESS transport/storage costs (mined in Wave 1) remain the open reference; site-specific capex not published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape), [2](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-28.
+Sources: [1](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape), [2](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [4](https://ieaghg.org/publications/2024-05%20Managing%20the%20transition%20of%20depleted%20oil%20and%20gas%20fields%20to%20CO2%20storage.pdf). Last reviewed 2026-11-17.
 
 ## Calcium looping
 <a id="ccs-calcium-looping"></a>
@@ -949,10 +931,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'CO2 sequestration in inert carbonate materials (mineralisation)' TRL 2025 - mineralisation is the same carbonation chemistry; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full), [2](https://www.thetimes.com/uk/science/article/microsoft-funds-uk-climate-experiment-to-spread-crushed-rock-on-fields-6sjq5cwzz). Last reviewed 2026-11-16.
+Sources: [1](https://oa.tib.eu/renate/items/5c9d035a-23d0-4d16-af2f-eacc94b97374/full), [2](https://www.thetimes.com/uk/science/article/microsoft-funds-uk-climate-experiment-to-spread-crushed-rock-on-fields-6sjq5cwzz), [3](https://puro.earth/methodologies/enhanced-rock-weathering). Last reviewed 2026-11-17.
 
 ## Enzyme-catalysed capture
 <a id="ccs-enzyme-capture"></a>
@@ -980,9 +959,8 @@ flowchart LR
 **Missing inputs:**
 - specific energy and capture rate (performance): Not given. Web-checked 2026-10-28; enzyme-capture (Aker SARC class) figures not published open. Where: ACCSESS project results (open); Saipem technical papers (catalog: saipem, open). Next: Add measured figures.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.digitalrefining.com/news/1007573/bluenzyme-sustainable-co2-capture-solution-from-saipem). Last reviewed 2026-11-16.
+Sources: [1](https://www.digitalrefining.com/news/1007573/bluenzyme-sustainable-co2-capture-solution-from-saipem), [2](https://www.osti.gov/servlets/purl/2424760). Last reviewed 2026-11-17.
 
 ## Polymeric membrane capture
 <a id="ccs-polymeric-membrane"></a>
@@ -1056,9 +1034,8 @@ flowchart LR
 
 **Missing inputs:**
 - current TRL and Twelve plant data (trl): The review is from 2013. IEA ETP Guide (July 2026) has no matching entry (searched electroreduction, electrochemical, CO2 electrolysis, co-electrolysis, ethylene, formic); 2026-10-28 Web-checked 2026-10-28; Twelve commercial-scale data not published open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Add post-2020 pilot data.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf), [2](https://cxx.caltech.edu/documents/18089/Gas-Diffusion_Electrodes_for_Carbon_Dioxide_Reduction-_A_New_Paradigm.pdf). Last reviewed 2026-11-17.
 
 ## Chemical looping combustion
 <a id="ccs-chemical-looping-combustion"></a>
@@ -1118,10 +1095,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Electrochemical DAC (e-DAC)' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf), [2](https://news.mit.edu/2020/new-approach-to-carbon-capture-0709). Last reviewed 2026-11-17.
 
 ## Emerging capture: water-lean solvents, ionic liquids and electrochemical separation
 <a id="ccs-emerging-solvents-electrochemical"></a>

@@ -87,9 +87,13 @@
     {
       "url": "https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf",
       "note": "Jhong, Ma and Kenis, Electrochemical conversion of CO2 to useful chemicals (review, 2013)"
+    },
+    {
+      "url": "https://cxx.caltech.edu/documents/18089/Gas-Diffusion_Electrodes_for_Carbon_Dioxide_Reduction-_A_New_Paradigm.pdf",
+      "note": "Higgins et al., ACS Energy Letters (Caltech/SLAC PDF), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -104,19 +108,6 @@
         }
       ],
       "action": "Add post-2020 pilot data."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -146,5 +137,6 @@
         "note": "IEAGHG techno-economic assessment of electrochemical CO2 conversion, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the device architecture for electrochemical CO2 reduction - gas-diffusion electrode (catalyst layer plus gas-diffusion layer), anode, membrane/electrolyte and flow-field - and the associated mass-transport and water-management constraints."
 }

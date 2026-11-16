@@ -95,9 +95,13 @@
     {
       "url": "https://jpt.spe.org/managed-pressure-drilling-migrates-deep-water-offshore-brazil",
       "note": "JPT, Managed-Pressure Drilling Migrates Into Deep Water Offshore Brazil, 30 Jun 2014 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.drillopedia.com/mpd-equipment",
+      "note": "Drillopedia, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -125,19 +129,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -152,5 +143,6 @@
       },
       "project_id": "petrobras-managed-pressure-drilling-programme-offshore-brazil-pre-salt"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the MPD closed-loop equipment sequence - the rotating control device seals the annulus and diverts returns into a closed system, the automated choke manifold applies surface backpressure, Coriolis/ultrasonic/multiphase flow meters provide inflow-outflow data, and separators, gas busters, degassers and flare handle influx while control holds a constant bottomhole pressure setpoint."
 }

@@ -104,9 +104,13 @@
     {
       "url": "https://www.sciencedirect.com/science/article/pii/S0016236124028850",
       "note": "Franco et al., Fuel 382:133736, 2025 (open access)"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11447752",
+      "note": "PubMed Central (peer-reviewed article, 2024), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -121,19 +125,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "costs": [
@@ -162,5 +153,6 @@
       },
       "project_id": "two-well-nanofluid-css-field-trial-heavy-oil-field-colombia"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents a laboratory nanofluid EOR sequence - nanoparticle functionalisation and drying, nanofluid formulation with naphtha and Tween 80, then coreflood injection of steam, a nanofluid slug, a soak period and resumed steam."
 }

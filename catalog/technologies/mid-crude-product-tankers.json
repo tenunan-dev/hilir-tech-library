@@ -103,9 +103,13 @@
       "url": "https://en.wikipedia.org/wiki/Oil_tanker",
       "source_id": "wikipedia",
       "note": "Wikipedia, Oil tanker, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.jms.ucg.ac.me/jms_archive/v23_1_2022/jms_23_01_2022_12.pdf",
+      "note": "Journal of Maritime Sciences (Univ. of Montenegro), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "other",
@@ -156,19 +160,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -184,5 +175,6 @@
       "project_id": "mt-gagarin-prospect",
       "year": 2018
     }
-  ]
+  ],
+  "notes": "Process provenance: Peer-reviewed review of crude-oil tanker cargo operations on VLCCs, covering the loading and discharging sequence together with the cargo-system equipment and the optimisation and safety models applied to it."
 }

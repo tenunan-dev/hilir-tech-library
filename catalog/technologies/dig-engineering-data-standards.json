@@ -59,9 +59,13 @@
     {
       "url": "https://www.jip36-cfihos.org/",
       "note": "IOGP JIP36, CFIHOS home page (read 25 October 2026)"
+    },
+    {
+      "url": "https://www.iogp.org/blog/standards/cfihos-explained",
+      "note": "IOGP (CFIHOS), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "other",
@@ -125,19 +129,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Explains CFIHOS, the Capital Facilities Information Handover Specification - the industry data standard structuring equipment and document information for handover from contractor to operator across the asset lifecycle."
 }

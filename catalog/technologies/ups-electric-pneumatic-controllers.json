@@ -87,9 +87,13 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
+    },
+    {
+      "url": "https://canusaepc.com/resources/instrument-air-nitrogen-or-electric-a-side-by-side-look-at-instrumentation-alternatives-for-emissions-reduction-compliance",
+      "note": "CANUSA EPC, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -117,19 +121,6 @@
         }
       ],
       "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "trl": {
@@ -140,5 +131,6 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'Instrumented air systems'"
     }
-  }
+  },
+  "notes": "Process provenance: Compares replacement paths for natural-gas pneumatic controllers - instrument air (electric-driven compressor and dryers, clean/dry air piped to existing devices), liquid nitrogen (pressurised vessel plus regulators, 30-60 day refills), and electric actuators (retrofit, power/solar supply, cabling, remote monitoring)."
 }

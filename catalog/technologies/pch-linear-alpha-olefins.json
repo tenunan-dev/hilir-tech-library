@@ -85,9 +85,13 @@
     {
       "url": "https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing",
       "note": "Chemical Processing, SABIC and Linde successfully commercialize linear alpha olefins (30 November 2009)"
+    },
+    {
+      "url": "https://cdn.ihs.com/www/pdf/CEH-Linear-Alpha-Olefins-sample-report-2010.pdf",
+      "note": "IHS/SRI Chemical Economics Handbook (sample), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -139,19 +143,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Its manufacturing chapter describes ethylene oligomerisation routes chain-length by chain-length, including Chevron Phillips' one-step Ziegler process, INEOS' modified Ziegler, Shell SHOP, Idemitsu, SABLIN and others."
 }

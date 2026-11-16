@@ -148,9 +148,13 @@
     {
       "url": "https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility",
       "note": "Turbomachinery Magazine, Second of three electric-driven LNG trains starts operations at US facility, 20 January 2020"
+    },
+    {
+      "url": "https://www.gastechevent.com/media/2hmfdizk/john-vincent-ergina_siemens-energy.pdf",
+      "note": "Siemens Energy (Gastech: e-drive retrofits at LNG plants), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -207,19 +211,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the electric-drive LNG refrigeration train (main compressors on synchronous motors with VFD/LCI, transformers, GIS, E-houses) and the construction, cable-pulling, energisation, alignment and commissioning sequence for converting mechanical-drive trains to e-drive."
 }

@@ -98,24 +98,14 @@
       "url": "https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf",
       "source_id": "netl",
       "note": "NETL project kickoff slides, Verdox electro-swing adsorption DAC (February 2021)"
-    }
-  ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
+      "url": "https://news.mit.edu/2020/new-approach-to-carbon-capture-0709",
+      "note": "MIT News (Voskian & Hatton, Energy & Environmental Science 2019), read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Mission Zero direct air capture at O.C.O Technology",
@@ -142,5 +132,6 @@
         "note": "PMC review of moisture-swing direct air capture, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the faradaic electro-swing cycle - a quinone-based material on a conductive electrode binds CO2 when a voltage is applied and releases it when reversed, cycling between capture and release rather than heating."
 }

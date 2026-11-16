@@ -167,9 +167,13 @@
     {
       "url": "https://en.wikipedia.org/wiki/Selexol",
       "note": "Wikipedia, Selexol, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.aspentech.com/-/media/aspentech/home/resources/white-papers/pdfs/fy18/q3/11-7677-wp-depg-1215.pdf?sc_lang=en",
+      "note": "AspenTech (DEPG physical solvents), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -193,19 +197,6 @@
         }
       ],
       "action": "Leave open until a source states this metric and scope."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "trl": {
@@ -229,5 +220,6 @@
         "note": "NETL review of physical-solvent TEA studies, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the physical-solvent AGR flow - feed separator, absorber with lean DEPG (Selexol-type) solvent, rich solvent to flash drum and stripper, regeneration by staged pressure reduction (and a stripper for deep removal) before lean solvent recycle."
 }

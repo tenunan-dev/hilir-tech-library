@@ -96,9 +96,13 @@
       "url": "https://www.offshore-mag.com/exploration-geosciences/article/16789934/sonatrach-to-use-ingrains-digital-rock-physics-technology",
       "source_id": "offshore-mag",
       "note": "Offshore magazine, Sonatrach to use Ingrain's digital rock physics technology, 8 May 2009 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.halliburton.com/en/resources/fastscal-digital-scal-improves-resource-estimates",
+      "note": "Halliburton (FastSCAL case study), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -126,19 +130,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -155,5 +146,6 @@
       },
       "project_id": "sonatrach-commercial-use-of-ingrain-digital-rock-physics-services"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the digital SCAL workflow - whole-core dual-energy CT for rock typing, microCT/FIBSEM pore imaging, construction of digital rock replicas, then PcRI simulation of SCAL experiments to derive rock-type-specific saturation exponents. Results were validated against formation testing."
 }

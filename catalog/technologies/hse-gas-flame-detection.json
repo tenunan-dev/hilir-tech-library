@@ -81,9 +81,13 @@
       "url": "https://en.wikipedia.org/wiki/Gas_detector",
       "source_id": "wikipedia",
       "note": "Wikipedia, Gas detector, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.isa.org/getmedia/f6016f2c-0eb1-4fc6-8039-cbee53f34f52/tr_840007_preview.pdf",
+      "note": "ISA (ISA-TR84.00.07), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -147,24 +151,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Flame detector'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Flame_detector",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Guidance on evaluating the effectiveness of fire, combustible-gas and toxic-gas detection systems in process plants - detector coverage, voting, and the detection-to-mitigation sequence."
 }

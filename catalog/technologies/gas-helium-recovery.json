@@ -140,9 +140,13 @@
       "url": "https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/",
       "source_id": "linde-engineering",
       "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.linde-engineering.com/products-and-services/process-plants/natural-gas-processing/helium-recovery-and-liquefaction-plants",
+      "note": "Linde Engineering, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -180,19 +184,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "costs": [
@@ -208,5 +199,6 @@
         "note": "MDPI Processes paper on helium extraction, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Outlines the plant chain - cryogenic recovery of raw helium from natural gas, purification by pressure-swing adsorption, then liquefaction to high-purity helium and storage, with optional integration of nitrogen rejection."
 }

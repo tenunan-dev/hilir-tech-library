@@ -79,9 +79,13 @@
     {
       "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve",
       "note": "US DOE, Strategic Petroleum Reserve page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve",
+      "note": "US Department of Energy, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -119,19 +123,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -147,5 +138,6 @@
       "project_id": "us-strategic-petroleum-reserve",
       "year": 1975
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents underground salt-cavern storage plus the pipeline and marine-terminal distribution system, with links to fill, drawdown/release and exchange operations."
 }

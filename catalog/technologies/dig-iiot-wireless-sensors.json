@@ -88,9 +88,13 @@
       "url": "https://en.wikipedia.org/wiki/Industrial_internet_of_things",
       "source_id": "wikipedia",
       "note": "Wikipedia, Industrial internet of things, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
+      "note": "FieldComm Group, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -141,19 +145,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Describes WirelessHART (IEC 62591) and its three-element architecture - field devices, gateway and network manager - carrying wireless sensor data into the control system over a mesh network."
 }

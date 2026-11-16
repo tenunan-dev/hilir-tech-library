@@ -115,9 +115,13 @@
     {
       "url": "https://www.pumpindustry.com.au/lng-receiving-terminals",
       "note": "Coyle and Patel (KBR), LNG receiving terminals, Pump Industry"
+    },
+    {
+      "url": "https://globallngservices.com/lng-receiving-terminal-process",
+      "note": "Global LNG Services, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -169,19 +173,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -197,5 +188,6 @@
       "project_id": "lubmin-fsru-deutsche-ostsee",
       "year": 2023
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the receiving-to-send-out chain by subsystem - unloading arms, storage tanks, boil-off-gas handling, low- and high-pressure send-out pumps, open-rack or submerged-combustion vaporizers, recirculation, metering and flare/vent, with operating rates."
 }

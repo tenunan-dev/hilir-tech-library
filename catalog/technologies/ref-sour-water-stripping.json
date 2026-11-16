@@ -99,9 +99,13 @@
     {
       "url": "https://www.digitalrefining.com/article/1000799/sour-water-strippers-design-and-operation",
       "note": "Lieberman, Sour water strippers: design and operation (PTQ/DigitalRefining)"
+    },
+    {
+      "url": "https://www.pall.com/en/oil-gas/refining/sour-water-stripping.html",
+      "note": "Pall Corporation, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -152,19 +156,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "performance": [
@@ -180,5 +171,6 @@
         "note": "Brimstone STS Technical Paper 03V12, Hatcher et al., Sour Water Stripper Performance (read 2026-10-28); also digitalrefining.com/article/1000799 and bre.com Sour Water PDF"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Describes collected sour water being heated and pH-controlled, then fed through a heat exchanger to one or two steam-stripped or reboiled stripper columns where H2S and ammonia are removed overhead, with notes on fouling and corrosion."
 }

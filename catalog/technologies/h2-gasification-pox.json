@@ -221,29 +221,14 @@
       "url": "https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf",
       "source_id": "netl",
       "note": "NETL, Comparison of Commercial, State-of-the-Art, Fossil-Based Hydrogen Production Technologies, DOE/NETL-2022/3241, April 2022"
-    }
-  ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Partial oxidation'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Partial_oxidation",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
+      "url": "https://engineering-technologies.airliquide.com/technologies/hydrogen-syngas/gas-partial-oxidation-gaspox",
+      "note": "Air Liquide Engineering & Construction, read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Jamnagar petcoke gasification complex (Reliance)",
@@ -257,5 +242,6 @@
       "project_id": "jamnagar-petcoke-gasification",
       "year": 2022
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents non-catalytic GasPOX partial oxidation - a steam-cooled top-mounted burner stabilising the flame at up to about 1450 C, feedstock flexibility (natural gas, refinery off-gas, gasifier syngas), CO2 recycle for H2:CO adjustment, and sour-shift catalyst downstream."
 }

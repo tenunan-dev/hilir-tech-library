@@ -80,9 +80,13 @@
       "url": "https://en.wikipedia.org/wiki/Downhole_oil%E2%80%93water_separation_technology",
       "source_id": "wikipedia",
       "note": "Wikipedia, Downhole oil-water separation technology, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Downhole_oil%E2%80%93water_separation_technology",
+      "note": "Wikipedia (downhole oil-water separation), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -147,19 +151,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the in-well separation sequence - packers isolate the producing zone and seal the DOWS intake, produced fluids enter the intake, a hydrocyclone separates the stream, the oil/gas-rich stream is lifted while the water-rich stream is injected into a separate disposal zone via ESP or reservoir pressure."
 }

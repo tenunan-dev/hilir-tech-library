@@ -212,9 +212,13 @@
       "url": "https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project",
       "source_id": "johnson-matthey",
       "note": "JM press release on bp H2Teesside, October 2023"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/technologies/equipment-and-spare-parts/heat-exchange-reformer-hter",
+      "note": "Topsoe, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -238,19 +242,7 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the heat exchange (gas-heated) reformer, which recovers reformer-effluent heat convectively into a catalyst-filled tube side inside a refractory-lined pressure shell, and its integration with ATR, tubular SMR or SMR-plus-secondary reformer configurations."
 }

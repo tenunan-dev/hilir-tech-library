@@ -120,9 +120,13 @@
     {
       "url": "https://cdn.ihsmarkit.com/www/pdf/0920/2020-09-18_VC_PC_Brochure_White-Paper2_IHS.pdf",
       "note": "IHS Markit / licensor brochure, vinyl chloride and PVC technologies (2010 capacity data)"
+    },
+    {
+      "url": "https://pvc.org/about-pvc/pvc-production",
+      "note": "ECVM / PVC.org, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -186,24 +190,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Chloralkali process'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Chloralkali_process",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the PVC chain - brine electrolysis to chlorine and caustic soda, chlorine reaction with ethylene to ethylene dichloride, conversion of EDC to vinyl chloride monomer, suspension or emulsion polymerisation to PVC resin, then compounding."
 }

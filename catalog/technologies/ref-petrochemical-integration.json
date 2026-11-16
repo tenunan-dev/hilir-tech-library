@@ -155,9 +155,13 @@
     {
       "url": "https://korea.aramco.com/en/news-media/news/2019/cc2c",
       "note": "Saudi Aramco, CC2C builds on proven HS-FCC, 29 Jan 2019"
+    },
+    {
+      "url": "https://blog.axens.net/crude-oil-to-chemicals-ctc-a-straight-forward-route-for-a-strategic-turn",
+      "note": "Axens (crude-to-chemicals), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "reference_plants",
@@ -209,19 +213,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Sets out the integrated configuration as three linked blocks - conversion (H-Oil, HyK, Solvahl/FLEXICOKING, Hyvahl), aromatics (Aromizing/ParamaX on heavy naphtha) and olefins (steam cracking or HS-FCC) - with resid-to-naphtha and resid-to-olefins routing."
 }

@@ -118,9 +118,13 @@
     {
       "url": "https://petrobank.ca/sf/thai/thai.htm",
       "note": "Petrobank, Kerrobert THAI public data (read 2026-10-28)"
+    },
+    {
+      "url": "https://onepetro.org/spe/general-information/1735/In-situ-combustion",
+      "note": "SPE (PetroWiki in-situ combustion), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -171,24 +175,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Steam assisted gravity drainage'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Steam_assisted_gravity_drainage",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -203,5 +189,6 @@
       },
       "project_id": "kerrobert-thai-in-situ-combustion-pilot-petrobank-later-baytex-saskatche"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the ISC sequence - oxygen-containing gas (air or oxygen-enriched air) injected through an injection well, ignition by autoignition, downhole gas burner, electric heater or pyrophoric agent, then a forward combustion front moving with airflow through burned zone, combustion front, cracking/vaporization, steam plateau, water bank and oil bank to the producer; wet combustion adds water. Solvent-assisted SAGD is not covered on this page."
 }

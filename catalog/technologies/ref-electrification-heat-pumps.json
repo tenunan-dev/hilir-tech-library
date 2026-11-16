@@ -93,9 +93,13 @@
     {
       "url": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/",
       "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
+    },
+    {
+      "url": "https://www.ogci.com/wp-content/uploads/2026/04/Heat-Pump-Applications-Report-Final-Designed-Compressed.pdf",
+      "note": "OGCI / Wood, Heat Pump Applications (Apr 2026), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "reference_plants",
@@ -132,19 +136,7 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Reviews industrial heat-pump types (single-stage, cascade, MVR/steam compression, Stirling) and gives, for each ranked refinery case such as the FCC propylene splitter reboiler, a process description plus equipment and electrical-infrastructure sections."
 }

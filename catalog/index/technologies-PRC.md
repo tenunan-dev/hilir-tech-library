@@ -118,9 +118,8 @@ flowchart LR
 **Missing inputs:**
 - dividing-wall column and rotating packed bed figures (performance): The Wikipedia pages for these were not found and the article gives no detail. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Dividing-wall column studies in Chemical Engineering Progress (AIChE) (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add energy and capex figures for each device with source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources). Last reviewed 2026-10-28.
+Sources: [1](https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources), [2](https://rapid.aiche.org/sites/default/files/news/files/010022_cep_stankiewicz.pdf). Last reviewed 2026-11-17.
 
 ## Steady-state and dynamic process simulation
 <a id="prc-process-simulation"></a>

@@ -118,9 +118,13 @@
     {
       "url": "https://www.hydrocarbonengineering.com/clean-fuels/18082020/lummus-technology-announces-start-up-of-bio-ethers-unit-at-greek-refinery",
       "note": "Hydrocarbon Engineering, Lummus CDTaee start-up at Aspropyrgos, 18 Aug 2020"
+    },
+    {
+      "url": "https://portfolio-pplus.com/Technologies/Details/335",
+      "note": "PEP/Portfolio-pplus (Lummus CDMtbe/CDEtbe), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -158,24 +162,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Ether'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Ether",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -190,5 +176,6 @@
       },
       "project_id": "cdtaee-bio-etherification-unit-hellenic-petroleum-aspropyrgos-refinery-g"
     }
-  ]
+  ],
+  "notes": "Process provenance: Describes the etherification sequence - feed pressurisation and preheat, a primary fixed-bed reactor, a catalytic distillation column combining reaction and fractionation, and methanol recovery via water-wash scrubber and distillation, with the equipment list."
 }

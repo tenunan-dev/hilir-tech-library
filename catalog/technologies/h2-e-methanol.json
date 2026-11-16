@@ -121,29 +121,14 @@
       "url": "https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/",
       "source_id": "hydrocarbon-processing",
       "note": "Hydrocarbon Processing, European Energy produces first e-methanol at Kassø, March 2025"
-    }
-  ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Methanol fuel'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Methanol_fuel",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
+      "url": "https://www.liquidwind.com/emethanol",
+      "note": "Liquid Wind, read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "costs": [
     {
       "metric": "renewable e-methanol production cost (Chinese feasibility study)",
@@ -157,5 +142,6 @@
         "note": "Feasibility study of renewable e-methanol production (read 2026-10-28)"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Sets out the e-methanol train - renewable-powered electrolysis, chemical-solvent carbon capture, mixing and compression of H2 with biogenic CO2, heating and catalytic reaction to methanol and water, then distillation."
 }

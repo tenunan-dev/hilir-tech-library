@@ -144,9 +144,13 @@
     {
       "url": "https://cen.acs.org/articles/87/i28/NatureWorks-Ups-PLA-Capacity.html",
       "note": "C&EN, NatureWorks ups PLA capacity, 13 Jul 2009"
+    },
+    {
+      "url": "https://www.ieabioenergy.com/wp-content/uploads/2020/02/Bio-based-chemicals-a-2020-update-final-200213.pdf",
+      "note": "IEA Bioenergy Task 42 (2020 update), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -170,19 +174,7 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the biorefinery platforms producing bio-based chemicals (sugar, syngas, lignin, pyrolysis oil, organic-solution, CO2) and the conversion sequences behind them - pretreatment, enzymatic hydrolysis, fermentation, chemical transformation and polymerisation - with integrated flowsheets such as ethanol-plus-lactic-acid co-production."
 }

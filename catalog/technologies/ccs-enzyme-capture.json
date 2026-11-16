@@ -67,9 +67,13 @@
       "url": "https://www.digitalrefining.com/news/1007573/bluenzyme-sustainable-co2-capture-solution-from-saipem",
       "source_id": "ptq-digital-refining",
       "note": "Digital Refining, Bluenzyme sustainable CO2 capture solution from Saipem"
+    },
+    {
+      "url": "https://www.osti.gov/servlets/purl/2424760",
+      "note": "Xiao et al., Univ. of Kentucky CAER / NC State (OSTI full text), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -102,19 +106,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -144,5 +135,6 @@
         "note": "IEAGHG further assessment of emerging capture technologies, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents an enzyme-assisted absorption process - carbonic anhydrase immobilised on textile structured packing in an absorber column accelerates CO2 hydration into aqueous MDEA, with bench absorber/desorption testing."
 }

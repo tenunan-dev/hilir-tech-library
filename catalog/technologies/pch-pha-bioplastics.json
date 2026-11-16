@@ -79,9 +79,13 @@
     {
       "url": "https://renewable-carbon.eu/news/?p=91819",
       "note": "Renewable Carbon News, Danimer Scientific completes debottlenecking of Kentucky facility, June 2021"
+    },
+    {
+      "url": "https://www.eeer.org/journal/view.php?number=1649",
+      "note": "Environmental Engineering Research (open-access review, 2025), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -122,19 +126,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the PHA downstream sequence - optional biomass pretreatment, recovery by cell disruption and extraction (solvent, chemical, enzymatic, bead mill, supercritical, homogenisation, ultrasonication), separation by precipitation, centrifugation, evaporation or membrane filtration, then purification."
 }

@@ -168,9 +168,13 @@
     {
       "url": "https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station",
       "note": "Turbomachinery Magazine, GE Vernova delivers two LM6000 for QPM Isaac Power Station, 23 Oct 2025"
+    },
+    {
+      "url": "https://www.bakerhughes.com/sites/bakerhughes/files/2021-06/BakerHughes_LMPGT25%2BG4_Overview-060121.pdf",
+      "note": "Baker Hughes (PGT25+/LM2500+G4 overview), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -185,19 +189,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -226,5 +217,6 @@
         "note": "EIA capital cost study (AEO2025), Table 1-2, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the aeroderivative package layout - 17-stage high-pressure axial compressor, annular combustor with dry low emission system, and a choice of low-speed or high-speed power turbine on a two-shaft gas generator."
 }

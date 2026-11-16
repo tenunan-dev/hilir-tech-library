@@ -142,9 +142,13 @@
       "url": "https://netl.doe.gov/projects/VueConnection/download.aspx?id=c6081462-66d8-4cf2-a8e8-cd3424dce3d9&filename=QualityGuidelinesforEnergySystemStudiesCarbonDioxideTransportandStorageCostsinNETLStudies_073124.pdf",
       "source_id": "netl",
       "note": "QGESS: Carbon Dioxide Transport and Storage Costs in NETL Studies, DOE/NETL-2024/4852, July 2024"
+    },
+    {
+      "url": "https://netl.doe.gov/sites/default/files/2018-10/BPM-MVA-2012.pdf",
+      "note": "US DOE/NETL Best Practices Manual DOE/NETL-2017/1847, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -168,19 +172,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "trl": {
@@ -204,5 +195,6 @@
       "project_id": "aquistore-mmv",
       "year": 2015
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the monitoring, verification and accounting workflow for geologic CO2 storage - risk-based site assessment and baseline surveys, downhole pressure/temperature, seismic, wellbore-integrity, soil-gas and atmospheric monitoring, then verification and reporting across the project lifecycle."
 }

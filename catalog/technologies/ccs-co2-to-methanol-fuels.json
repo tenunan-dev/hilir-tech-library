@@ -140,22 +140,13 @@
     {
       "url": "https://carbonrecycling.com/projects/george-olah",
       "note": "Carbon Recycling International, George Olah plant page"
+    },
+    {
+      "url": "https://csei.eu/wp-content/uploads/2024/09/2024_09_13-sustained-02_rosenberg_cri.pdf",
+      "note": "Carbon Recycling International (Emissions-to-Liquids presentation), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-11",
-  "gaps": [
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
-    }
-  ]
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
+  "notes": "Process provenance: Documents CRI's single-stage Emissions-to-Liquids route - CO2 capture and conditioning, renewable hydrogen from electrolysis, direct catalytic hydrogenation of CO2 to methanol and water, then purification to fuel-grade methanol."
 }

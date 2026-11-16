@@ -91,9 +91,13 @@
     {
       "url": "https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/",
       "note": "The Chemical Engineer, ExxonMobil to build CCS pilot plant using carbonate fuel cell technology"
+    },
+    {
+      "url": "https://www.fuelcellenergy.com/hubfs/Carbon%20Capture%20with%20FuelCell%20Energy%20Systems.pdf",
+      "note": "FuelCell Energy (Carbon Capture with FuelCell Energy Systems, 2022), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -111,19 +115,6 @@
         }
       ],
       "action": "Add measured pilot results."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "trl": {
@@ -161,5 +152,6 @@
       },
       "year": 2020
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the carbonate fuel cell capture flow - flue gas fed to the cathode, CO2 carried as carbonate ions through the molten carbonate electrolyte and concentrated at the anode, anode exhaust chilled to separate a concentrated CO2 stream while the stack co-produces electricity."
 }

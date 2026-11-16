@@ -78,9 +78,13 @@
       "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
       "source_id": "iea-reports",
       "note": "IEA Global Hydrogen Review 2025 (collected in corpus/iea-reports): Sunfire SOEC funding; technology readiness figures"
+    },
+    {
+      "url": "https://www.ikts.fraunhofer.de/en/departments/energy_systems/materials_and_components/ceramic_energy_converters/solid-oxide_co-electrolysis_as_a_key_technology_for_co2_utilization.html",
+      "note": "Fraunhofer IKTS, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -118,19 +122,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -146,5 +137,6 @@
       "project_id": "sunfire-synlink-co-electrolysis",
       "year": 2023
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents solid-oxide co-electrolysis of H2O and CO2 to syngas in CFY stacks - ten-cell steam and co-electrolysis tests, H2O:CO2 ratios for Fischer-Tropsch (2) and methanation (3.3), conversion at about 830 C, and coupling to a downstream Fischer-Tropsch unit."
 }

@@ -112,24 +112,14 @@
     {
       "url": "https://www.world-energy.org/article/19854.html",
       "note": "World-Energy, Fuel loading under way at China's HTR-PM, 24 Aug 2021"
-    }
-  ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
+      "url": "https://www.gen-4.org/generation-iv-criteria-and-technologies",
+      "note": "Generation IV International Forum, read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "HTR-PM demonstration plant, Shidaowan, China (CNNC/Huaneng/Tsinghua)",
@@ -156,5 +146,6 @@
         "note": "EIA capital cost study (AEO2025), Table 1-2, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Describes the six Generation IV systems - VHTR, SFR, SCWR, GFR, LFR and MSR - comparing neutron spectrum, coolant (helium, sodium, supercritical water, lead or lead-bismuth, liquid salt), outlet temperature, fuel form and closed fuel cycle."
 }

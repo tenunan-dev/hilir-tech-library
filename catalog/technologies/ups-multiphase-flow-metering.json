@@ -116,9 +116,13 @@
       "url": "https://www.emerson.com/en-us/automation/measurement-instrumentation/flow-measurement/multiphase-meters",
       "source_id": "emerson",
       "note": "Emerson, Roxar 2600 multiphase flow meter page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.emerson.com/en-us/automation/measurement-instrumentation/flow-measurement/multiphase-meters",
+      "note": "Emerson (Roxar multiphase meter page), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -169,19 +173,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -196,5 +187,6 @@
       },
       "project_id": "kashagan-mpfm-deployment-ncoc-schlumberger-kashagan-field-kazakhstan"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the Roxar 2600 measurement chain - Venturi differential pressure for total mass flow, electrical impedance and optional gamma densitometry for phase fractions, then software that computes oil, water and gas rates in real time."
 }

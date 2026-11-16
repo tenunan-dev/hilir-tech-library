@@ -124,9 +124,13 @@
       "url": "https://docs.nlr.gov/docs/fy23osti/81704.pdf",
       "source_id": "nrel",
       "note": "NREL/TP-5400-81704, Hydrogen blending into natural gas pipeline infrastructure: review of the state of technology (2022)"
+    },
+    {
+      "url": "https://www.pnnl.gov/publications/hydrogen-blending-natural-gas-pipeline-infrastructure-review-state-technology",
+      "note": "PNNL (US DOE), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -141,24 +145,6 @@
         }
       ],
       "action": "Add cost fraction with source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Hydrogen economy'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Hydrogen_economy",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -173,5 +159,6 @@
       },
       "project_id": "hydeploy-hydrogen-blending-trials-keele-university-and-winlaton-cadent-n"
     }
-  ]
+  ],
+  "notes": "Process provenance: State-of-technology review of blending hydrogen into natural gas pipelines - material and equipment effects, compression, end-use separation, and the testing and demonstration steps needed."
 }

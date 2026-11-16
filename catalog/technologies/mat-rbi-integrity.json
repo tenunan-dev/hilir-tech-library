@@ -62,9 +62,13 @@
       "url": "https://en.wikipedia.org/wiki/Risk-based_inspection",
       "source_id": "wikipedia",
       "note": "Wikipedia, Risk-based inspection, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://inspectioneering.com/feature/mipi/rbi/2",
+      "note": "Inspectioneering (MIPI RBI module), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -128,19 +132,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the RBI methodology as Risk = Probability x Consequence, with the team workflow of collecting, reviewing and validating data, identifying and analysing risk, and building an inspection plan sized to condition and tolerated risk, including the diminishing returns on inspection effort."
 }

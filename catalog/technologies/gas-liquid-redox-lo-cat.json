@@ -127,9 +127,13 @@
       "url": "https://www.axens.net/markets/natural-gas/sulfur-recovery",
       "source_id": "axens",
       "note": "Axens sulfur recovery page, read 25 October 2026"
+    },
+    {
+      "url": "https://www.merichem.com/wp-content/uploads/2021/12/Hydrocarbon-Engineering-December-2021-Article-D-Jackson.pdf",
+      "note": "Merichem (Hydrocarbon Engineering, Dec 2021), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -185,19 +189,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "costs": [
@@ -213,5 +204,6 @@
         "note": "New Mexico Environment Department filing for the Denton gas plant, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the LO-CAT equipment train - knock-out drum and coalescing filter, absorber with chelated-iron solution converting H2S to elemental sulfur, air-blown oxidiser for catalyst regeneration, recycle pump, and a slip stream to settler/sulfur filter; also the single-vessel autocirculation variant."
 }

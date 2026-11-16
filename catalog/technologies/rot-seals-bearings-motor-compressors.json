@@ -63,9 +63,13 @@
       "url": "https://en.wikipedia.org/wiki/Mechanical_seal",
       "source_id": "wikipedia",
       "note": "Wikipedia, Seal (mechanical), read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.api.org/~/media/files/publications/whats%20new/617_e8%20pa.pdf",
+      "note": "American Petroleum Institute (Std 617), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -142,24 +146,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Mechanical seal'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Mechanical_seal",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: API Std 617 for axial and centrifugal compressors and expander-compressors spans magnetic bearings and dry gas seal systems on motor-driven compressor trains."
 }

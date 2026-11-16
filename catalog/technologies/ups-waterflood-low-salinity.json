@@ -145,9 +145,13 @@
     {
       "url": "https://www.energyvoice.com/oilandgas/north-sea/186750/major-milestone-as-bp-hits-clair-ridge-first-oil",
       "note": "Energy Voice, Clair Ridge first oil, 23 Nov 2018"
+    },
+    {
+      "url": "https://eniec.cug.edu.cn/__local/2/A5/CC/25BA71EF43CDE17B78ADB0759AD_8F3908F6_F86B72.pdf",
+      "note": "Geoenergy Science and Engineering review (CUG repository PDF), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -162,19 +166,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -189,5 +180,6 @@
       },
       "project_id": "clair-ridge-low-salinity-waterflood-project-west-of-shetland"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the low-salinity waterflood field workflow - laboratory coreflood and single-well chemical tracer test, interwell test, then full-field design with a desalination unit and injection facilities, referenced to Clair Ridge and Pervomaiskoye."
 }

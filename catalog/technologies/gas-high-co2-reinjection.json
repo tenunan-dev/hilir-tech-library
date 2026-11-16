@@ -185,9 +185,13 @@
     {
       "url": "https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/",
       "note": "GeoExpro, Kasawari - gas production has commenced, but when does the CO2 storage project?, 14 August 2025 (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.ogj.com/home/article/17233856/processes-combine-to-assist-acid-gas-handling-reinjection",
+      "note": "Oil & Gas Journal, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -225,19 +229,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "costs": [
@@ -253,5 +244,6 @@
         "note": "Khor Reports commentary citing the Kasawari CCS cost, read 2026-11-16"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents acid-gas handling and reinjection as a sequence of activated-MDEA/Sprex/Hybrisol removal, TEG dehydration of treated gas, and compression or pumping of the separated acid gas to injection pressure, comparing process options rather than one itemised flowsheet."
 }

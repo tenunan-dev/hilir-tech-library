@@ -77,9 +77,13 @@
       "url": "https://en.wikipedia.org/wiki/Predictive_maintenance",
       "source_id": "wikipedia",
       "note": "Wikipedia, Predictive maintenance, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/24/12/4013",
+      "note": "Sensors (MDPI), peer-reviewed 2024, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -153,19 +157,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Peer-reviewed review of predictive analytics and machine learning in oil and gas - data acquisition, model families, and the maintenance and equipment-optimisation workflow they support."
 }

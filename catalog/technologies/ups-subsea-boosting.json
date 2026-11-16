@@ -116,9 +116,13 @@
     {
       "url": "http://www.findingpetroleum.com/n/Baker-Hughes-installs-subsea-pumps-at-Perdido-field/8c0b00f8.aspx",
       "note": "Finding Petroleum, Baker Hughes installs subsea pumps at Perdido field, 5 May 2010"
+    },
+    {
+      "url": "https://mcedd.com/wp-content/uploads/Arne%20B.%20Olsen%20-%20OneSubsea.pdf",
+      "note": "OneSubsea (MCEDD presentation), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -156,19 +160,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -183,5 +174,6 @@
       },
       "project_id": "perdido-subsea-boosting-baker-hughes-gulf-of-mexico"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the Barracuda high-boost multiphase pump system layout and flow path - subsea tree and umbilical/SCM, flowbase, pump module and production outlet, with gas lift and a control umbilical."
 }

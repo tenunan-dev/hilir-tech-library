@@ -149,9 +149,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Anaerobi
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; plant capex vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.dmt.nl/). Last reviewed 2026-11-16.
+Sources: [1](https://www.dmt.nl/), [2](https://task37.ieabioenergy.com/technical-reports/biogas-upgrading-technologies). Last reviewed 2026-11-17.
 
 ## Compressed hydrogen storage and tube trailers
 <a id="h2-compressed-storage-tube-trailers"></a>
@@ -299,10 +298,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Haber-bosch process using electrolytic hydrogen' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://iea.blob.core.windows.net/assets/9e3a3493-b9a6-4b7d-b499-7ca48e357561/The_Future_of_Hydrogen.pdf). Last reviewed 2026-11-17.
 
 ## Hydrogen refuelling stations
 <a id="h2-refuelling-stations"></a>
@@ -465,10 +461,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Coal gasification - partial capture rates' 9 (2025); 'Coal gasification - high capture rates' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Partial oxidation'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Partial_oxidation) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon), [2](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [3](https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://netl.doe.gov/research/carbon-management/energy-systems/gasification/gasifipedia/technologies-hydrogen/without-carbon), [2](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [3](https://netl.doe.gov/projects/files/ComparisonofCommercialStateofArtFossilBasedHydrogenProductionTechnologies_041222.pdf), [4](https://engineering-technologies.airliquide.com/technologies/hydrogen-syngas/gas-partial-oxidation-gaspox). Last reviewed 2026-11-17.
 
 ## Steam methane reforming
 <a id="h2-smr"></a>
@@ -634,9 +627,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'C
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; e-methane costs sit in the same e-fuel ranges as the FT card. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Methanation'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Methanation) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://pgjonline.com/news/2022/june/tokyo-gas-begins-synthetic-methane-trial-using-green-hydrogen), [2](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [3](https://www.topsoe.com/solutions/outputs/rng). Last reviewed 2026-11-17.
 
 ## E-methanol and bio-methanol
 <a id="h2-e-methanol"></a>
@@ -665,10 +657,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Direct CO₂-to-methanol synthesis' 8 (2025); 'Methanol production using biomass and waste gasification' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Methanol fuel'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Methanol_fuel) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
-
-Sources: [1](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/). Last reviewed 2026-10-28.
+Sources: [1](https://hydrocarbonprocessing.com/news/2025/03/european-energy-produces-first-emethanol-at-kassoe/), [2](https://www.liquidwind.com/emethanol). Last reviewed 2026-11-17.
 
 ## Fischer-Tropsch SAF and e-fuels (biomass or CO2 plus H2)
 <a id="h2-ft-saf-efuels"></a>
@@ -737,9 +726,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [2](https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen), [3](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project). Last reviewed 2026-11-16.
+Sources: [1](https://www.nstauthority.co.uk/media/8605/blue-hydrogen-technology-review.pdf), [2](https://matthey.com/products-and-markets/energy/ccs-enabled-blue-hydrogen), [3](https://matthey.com/media/2023/bp-selects-johnson-matthey-s-lch-technology-for-its-first-low-carbon-hydrogen-project), [4](https://www.topsoe.com/solutions/technologies/equipment-and-spare-parts/heat-exchange-reformer-hter). Last reviewed 2026-11-17.
 
 ## Green and blue ammonia
 <a id="h2-green-blue-ammonia"></a>
@@ -938,9 +926,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - CO2 conversion and energy per kg CO (performance): None given. Web-checked 2026-10-28; RWGS figures in journal papers not captured. Where: Topsoe technical papers (catalog: topsoe, open). Next: Add them.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://patents.google.com/patent/WO2021225643A1/en). Last reviewed 2026-11-17.
 
 ## Solid oxide electrolysis
 <a id="h2-soec"></a>
@@ -1113,9 +1100,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - power use per kg syngas and stack lifetime (performance): No source read gives them. Web-checked 2026-10-28; SOEC co-electrolysis figures in DOE/IEA annexes not open. Where: Topsoe and Sunfire technical papers (catalog: topsoe, open). Next: Add performance data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.ikts.fraunhofer.de/en/departments/energy_systems/materials_and_components/ceramic_energy_converters/solid-oxide_co-electrolysis_as_a_key_technology_for_co2_utilization.html). Last reviewed 2026-11-17.
 
 ## Natural (geologic) hydrogen
 <a id="h2-natural-hydrogen"></a>
@@ -1144,10 +1130,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Natural hydrogen extraction' 5 (2025); 'Mineralogical reactions' 3 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.usgs.gov/centers/central-energy-resources-science-center/science/geologic-hydrogen). Last reviewed 2026-11-17.
 
 ## Pyrolysis oil and hydrothermal liquefaction
 <a id="h2-pyrolysis-htl"></a>
@@ -1234,6 +1217,5 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Photocatalytic water splitting'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Photocatalytic_water_splitting) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.energy.gov/cmei/fuels/hydrogen-production-photoelectrochemical-water-splitting). Last reviewed 2026-11-17.

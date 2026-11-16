@@ -73,9 +73,13 @@
     {
       "url": "https://www.opengroup.org/osdu-forum/",
       "note": "The Open Group, OSDU Forum page (read 25 October 2026)"
+    },
+    {
+      "url": "https://www.opengroup.org/osdu-forum/home",
+      "note": "The Open Group / OSDU Forum, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "other",
@@ -139,19 +143,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Describes the vendor-neutral OSDU Standard, the open-source data platform and its test suite for subsurface and wells data."
 }

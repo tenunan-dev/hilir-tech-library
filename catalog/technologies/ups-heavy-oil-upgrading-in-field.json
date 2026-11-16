@@ -92,9 +92,13 @@
     {
       "url": "https://www.reuters.com/article/markets/nexen-says-long-lake-output-to-lag-design-idUSN16114618",
       "note": "Reuters, Nexen says Long Lake output to lag design, 16 Nov 2010 (read 2026-10-28)"
+    },
+    {
+      "url": "https://www.oilsandsmagazine.com/bitumen-upgrading-index",
+      "note": "Oil Sands Magazine, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -146,19 +150,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -173,5 +164,6 @@
       },
       "project_id": "long-lake-sagd-with-in-field-upgrader-nexen-later-cnooc-alberta"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the bitumen upgrading process train and equipment - distillation/fractionation with diluent recovery, residue conversion above 400 C by coking (carbon rejection) and/or hydroconversion (hydrogen addition), catalytic hydrotreating for sulphur/nitrogen/metals removal, sulphur recovery to elemental sulphur, and blending of distillates into synthetic crude."
 }

@@ -113,9 +113,13 @@
       "url": "https://en.wikipedia.org/wiki/Cladding_(metalworking)",
       "source_id": "wikipedia",
       "note": "Wikipedia, Cladding (metalworking), read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.butting.com/en/products/clad-pipes",
+      "note": "BUTTING, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -179,19 +183,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents CRA clad pipe manufacture by mechanical lining (hydroformed stainless liner in a carbon-manganese shell; adhesive-bonded for reel-lay) and by metallurgical cladding, with thin-layer variants, end weld cladding and finished clad spools."
 }

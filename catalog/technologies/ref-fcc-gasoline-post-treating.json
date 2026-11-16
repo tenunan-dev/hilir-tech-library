@@ -139,9 +139,13 @@
     {
       "url": "https://www.digitalrefining.com/article/1001408/fcc-gasoline-desulphurisation-for-tier-3-sulphur-compliance",
       "note": "DigitalRefining Tier 3 FCC gasoline HDS article"
+    },
+    {
+      "url": "https://refiningcommunity.com/wp-content/uploads/2017/02/FCC-Naphtha-Post-treatment-Rasmussen-Haldor-Topsoe-FCCU-Galveston-2017-.pdf",
+      "note": "Haldor Topsoe, RefComm Galveston 2017, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -211,19 +215,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Walks the post-treatment step by step with a unit layout - selective hydrogenation (di-olefin saturation, sulfur shifted to heavy ends), stabiliser and LCN/HCN splitter, heavy-naphtha HDS reactor, then a mercaptan-control reactor on the light fraction."
 }

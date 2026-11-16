@@ -136,9 +136,13 @@
     {
       "url": "https://www.chemengonline.com/sustainable-production-of-propylene-oxide-begins-at-new-hppo-complex-in-china-using-evonik-uhde-technology",
       "note": "Evonik-Uhde HPPO complex in China, 5 Sep 2023"
+    },
+    {
+      "url": "https://www.aidic.it/cet/10/21/096.pdf",
+      "note": "AIDIC CET (BASF/Dow HPPO paper), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -176,24 +180,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Propylene oxide'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Propylene_oxide",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Describes the BASF-Dow HPPO design in equipment terms - a fixed bed of TS-1 titanium silicalite in a tubular reactor with methanol solvent, a two-step reactor concept below 90 C and 30 bar, distillation to strip propylene oxide, a finishing reactor, and methanol recovery."
 }

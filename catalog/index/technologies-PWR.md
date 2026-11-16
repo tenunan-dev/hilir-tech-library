@@ -75,9 +75,8 @@ flowchart LR
 
 **Missing inputs:**
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station). Last reviewed 2026-11-16.
+Sources: [1](https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station), [5](https://www.bakerhughes.com/sites/bakerhughes/files/2021-06/BakerHughes_LMPGT25%2BG4_Overview-060121.pdf). Last reviewed 2026-11-17.
 
 ## Biomass and waste-to-energy
 <a id="pwr-biomass-waste-to-energy"></a>
@@ -900,9 +899,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - co-firing retrofit capital cost (costs): The fuel price is recorded ($782-860/t, 2025). Retrofit capex is unpublished: the demonstration projects do not disclose it. Where: NEDO and METI Green Innovation Fund documents (catalog: meti-japan, open). Next: Leave open until a source states this metric and scope.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.jera.co.jp/en/news/notice/20240626_1954), [2](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html), [3](https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results). Last reviewed 2026-11-16.
+Sources: [1](https://www.jera.co.jp/en/news/notice/20240626_1954), [2](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html), [3](https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results), [4](https://www.ihi.co.jp/en/technology/techinfo/contents_no/1199400_13586.html). Last reviewed 2026-11-17.
 
 ## Compressed and liquid air energy storage
 <a id="pwr-compressed-liquid-air-storage"></a>
@@ -1052,9 +1050,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - cost of hydrogen-ready turbine and conversion (costs): None of the pages read gives a cost. Web-checked 2026-10-28; OEM premium/conversion prices are quote-only. Where: Mitsubishi Power and GE Vernova project announcements (open). Next: Add conversion cost with a dollar year if a project disclosure exists.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah), [2](https://www.power-eng.com/hydrogen/mitsubishi-power-highlights-four-hydrogen-projects/), [3](https://www.turbomachinerymag.com/view/mitsubishi-power-executes-30-hydrogen-fuel-blend-in-jac-gas-turbine), [4](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [5](https://power.mhi.com/news/231130.html). Last reviewed 2026-10-28.
+Sources: [1](https://www.turbomachinerymag.com/view/mitsubishi-power-delivers-30-hydrogen-fuel-gas-turbines-to-ipp-renewed-project-in-utah), [2](https://www.power-eng.com/hydrogen/mitsubishi-power-highlights-four-hydrogen-projects/), [3](https://www.turbomachinerymag.com/view/mitsubishi-power-executes-30-hydrogen-fuel-blend-in-jac-gas-turbine), [4](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [5](https://power.mhi.com/news/231130.html), [6](https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/tr/pdf/e583/e583030.pdf). Last reviewed 2026-11-17.
 
 ## Microreactors (transportable nuclear)
 <a id="pwr-microreactors"></a>
@@ -1146,9 +1143,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 **Missing inputs:**
 - primary-source specifications (performance): Figures come from a Wikipedia summary of vendor claims. Where: CATL and HiNa technical announcements (open); [Open process-description authority (secondary): Wikipedia article 'Sodium-ion battery'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Sodium-ion_battery) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Replace with vendor datasheets.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; pack prices not published in open sources. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Sodium-ion battery'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Sodium-ion_battery) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Sodium-ion_battery). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Sodium-ion_battery), [2](https://www.batterydesign.net/sodium-ion-cell-manufacturing-process/). Last reviewed 2026-11-17.
 
 ## Thermal energy storage (molten salt, sand, bricks)
 <a id="pwr-thermal-energy-storage"></a>
@@ -1209,10 +1205,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'High-temperature gas-cooled SMR' 8 (2025); 'Molten salt SMR' 4 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors), [2](https://www.world-energy.org/article/19854.html). Last reviewed 2026-11-16.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors), [2](https://www.world-energy.org/article/19854.html), [3](https://www.gen-4.org/generation-iv-criteria-and-technologies). Last reviewed 2026-11-17.
 
 ## Perovskite and tandem solar cells
 <a id="pwr-perovskite-tandem"></a>

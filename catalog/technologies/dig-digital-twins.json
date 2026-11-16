@@ -62,9 +62,13 @@
       "url": "https://en.wikipedia.org/wiki/Digital_twin",
       "source_id": "wikipedia",
       "note": "Wikipedia, Digital twin, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.dnv.com/digital-trust/recommended-practices/digital-twin-assurance-dnv-rp-a204",
+      "note": "DNV-RP-A204, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "reference_plants",
@@ -101,19 +105,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "trl": {
@@ -123,5 +114,6 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Digital twins' TRL 2025; read 2026-11-16"
     }
-  }
+  },
+  "notes": "Process provenance: DNV-RP-A204 sets out how a digital twin is developed and quality-assured through its lifecycle, with requirements scaled to the criticality of the application."
 }

@@ -149,9 +149,13 @@
       "url": "https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex",
       "source_id": "ogj",
       "note": "Oil & Gas Journal, Hengyi lets contract for aromatics expansion at Brunei complex, 25 February 2021"
+    },
+    {
+      "url": "https://www.digitalrefining.com/qanda/394",
+      "note": "Digital Refining (technical Q&A), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -203,19 +207,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Walks the integrated aromatics complex sequence - naphtha splitter, CCR Platforming, debutaniser/depentaniser, reformate splitter, Sulfolane extractive distillation for benzene/toluene, Tatoray transalkylation and PX-Plus toluene disproportionation, Parex adsorptive paraxylene recovery, BTF dividing-wall fractionation."
 }

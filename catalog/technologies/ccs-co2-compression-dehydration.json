@@ -158,24 +158,14 @@
       "url": "https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide",
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide dataset (July 2026)"
-    }
-  ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
+      "url": "https://ccsknowledge.com/tools-resources/co2-compression-and-dehydration-technologies",
+      "note": "International CCS Knowledge Centre, read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Quest CCS at the Scotford upgrader (Shell)",
@@ -189,5 +179,6 @@
       "project_id": "quest-scotford-upgrader-shell",
       "year": 2015
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the CO2 compression and dehydration train - each wet-compression stage followed by an intercooler and knockout drum, then dehydration (TEG or PSA/desiccant) and dry compression to pipeline pressure, explaining why dehydration sits between compression stages."
 }

@@ -69,9 +69,13 @@
       "url": "https://en.wikipedia.org/wiki/Nondestructive_testing",
       "source_id": "wikipedia",
       "note": "Wikipedia, Nondestructive testing, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.nationalboard.org/SiteDocuments/ASME_SectionV_50thAnniversary.pdf",
+      "note": "National Board (ASME Section V 50th anniversary papers), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -135,19 +139,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Republished ASME Section V panel papers document the code's NDE methods and what each examination entails - radiographic (Articles 2 and 3), ultrasonic, liquid penetrant, magnetic particle, eddy current, visual and leak testing - including procedure and personnel qualification, calibration and reporting."
 }

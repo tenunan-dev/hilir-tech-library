@@ -106,9 +106,13 @@
     {
       "url": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/",
       "note": "The Chemical Engineer, World-first electric steam cracker demo starts operations, 23 April 2024"
+    },
+    {
+      "url": "https://www.linde-engineering.com/products-and-services/success-stories/2024/it-is-electrifying-stem-crackers-go-electric",
+      "note": "Linde Engineering, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -136,19 +140,7 @@
         }
       ],
       "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Describes the BASF/SABIC/Linde electrically heated steam-cracking furnace integrated into an existing cracker, contrasting direct resistive heating of the process tubes with indirect heating via electric elements at about 850 C, up to 6 MW and roughly four tonnes of feed."
 }

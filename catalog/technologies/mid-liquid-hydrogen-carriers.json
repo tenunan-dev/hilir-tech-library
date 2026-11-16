@@ -103,9 +103,13 @@
       "url": "https://en.wikipedia.org/wiki/Suiso_Frontier",
       "source_id": "wikipedia",
       "note": "Wikipedia, Suiso Frontier, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/other/342-requirements-for-liquefied-hydrogen-carriers_2023/342-liquefied-hydrogen-carriers-reqts-oct23.pdf",
+      "note": "American Bureau of Shipping (LH2 carrier requirements, 2023), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -142,19 +146,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -177,5 +168,6 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Liquefied hydrogen tanker' TRL 2025 - carrier row covers the LH2 sea transport this card describes; read 2026-11-16"
     }
-  }
+  },
+  "notes": "Process provenance: ABS Requirements for Liquefied Hydrogen Carriers (Oct 2023) sets the class requirements applied to an LH2 carrier design - cargo containment, piping and safety systems for bulk LH2 carriage."
 }

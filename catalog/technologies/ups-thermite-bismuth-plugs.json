@@ -120,9 +120,13 @@
       "url": "https://www.nstauthority.co.uk/media/3rmh154v/the-wells-decommissioning-collab-overview.pdf",
       "source_id": "uk-nsta",
       "note": "NSTA Wells Decommissioning Collaboration Overview"
+    },
+    {
+      "url": "https://bisn.com/technology",
+      "note": "BiSN, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -137,19 +141,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -164,5 +155,6 @@
       },
       "project_id": "wellstrom-t1000-electric-bismuth-plug-trial-taqa-cormorant-north-uk-nort"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the bismuth plug operation - tool located at depth on electric line/wireline, thermite heater fired to melt the bismuth alloy, alloy flows to fill the void and sets as it cools, then is ready for testing."
 }

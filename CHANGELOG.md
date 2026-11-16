@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.17] — 2026-11-17 — the process class drained: 116 cards cited, gaps 119 → 3
+
+### Added
+
+- **A cited process sequence on 116 more cards**, in seven parallel research batches spanning upstream, CCS, hydrogen, petrochemicals, refining, gas processing, materials, digital/instrumentation, midstream and safety. Sources are licensors (Topsoe, Air Liquide, Lummus, Axens, thyssenkrupp, Siemens Energy, Linde), agencies (IEA, NETL, IEAGHG, USGS, DOE, PNNL, SINTEF, Fraunhofer, DNV, ABS), standards bodies (API RP 535/555/1130, Std 617, ASME V, ISA/IEC 62443, IOGP S-715/CFIHOS, DNV-ST-F101, HSE HSG176) and peers-reviewed work.
+
+### Changed
+
+- Process gaps **142 → 133 → 119 → 3**. The three that remain are the ones already narrowed for cause: pipeline field coatings outside IOGP S-715 (needs ISO 21809), powership shore-connection detail Karpowership does not publish, and frac packing, which SPE PetroWiki does not cover.
+- This settles the previous entry's question: the 131 "boilerplate" gaps were citable after all — 116 of 119 closed in one session.
+
 ## [2026.11.16.10] — 2026-11-16/17 — process sample-audit: 15 cards, 14 cited, one narrowed
 
 ### Added

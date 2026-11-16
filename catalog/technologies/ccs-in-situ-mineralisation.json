@@ -101,24 +101,14 @@
     {
       "url": "https://www.carbfix.com/carbfix2",
       "note": "CarbFix2 cost demonstration"
-    }
-  ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
+      "url": "https://www.bafu.admin.ch/dam/de/sd-web/UwpFiJ0kr0-h/Geological-storage-of-CO2-by-in-situ-mineralization.pdf",
+      "note": "Swiss FOEN/BAFU (Diamond et al. 2025), read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "costs": [
     {
       "metric": "in-situ mineralisation injection cost, CarbFix method at Hellisheidi",
@@ -157,5 +147,6 @@
       "project_id": "carbfix-injection-at-hellisheidi-geothermal-plant-iceland",
       "year": 2017
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents in-situ mineralisation at six implementation sites (CarbFix and other basalt/peridotite projects) - CO2 dissolution in water, injection well design, fluid-rock reaction precipitating carbonate, and containment, safety and monitoring requirements."
 }

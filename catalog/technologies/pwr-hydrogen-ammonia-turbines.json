@@ -142,9 +142,13 @@
     {
       "url": "https://power.mhi.com/news/231130.html",
       "note": "Mitsubishi Power, 30% hydrogen co-firing at T-Point 2, 30 Nov 2023"
+    },
+    {
+      "url": "https://www.mhi.com/technology/review/sites/g/files/jwhtju2326/files/tr/pdf/e583/e583030.pdf",
+      "note": "Mitsubishi Heavy Industries Technical Review 58(3), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -158,19 +162,6 @@
         }
       ],
       "action": "Add conversion cost with a dollar year if a project disclosure exists."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -185,5 +176,6 @@
       },
       "project_id": "t-point-2-validation-plant-with-takasago-hydrogen-park-japan-mitsubishi"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents Mitsubishi Power's hydrogen and ammonia gas turbine development - a completed 30 vol% hydrogen co-firing combustor for large frame units, a 100% hydrogen combustor in development, and a 40 MW-class gas turbine burning 100% ammonia in GTCC configurations."
 }

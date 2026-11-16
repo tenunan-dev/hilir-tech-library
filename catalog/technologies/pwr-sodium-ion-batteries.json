@@ -96,9 +96,13 @@
       "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
       "source_id": "wikipedia",
       "note": "Wikipedia, Sodium-ion battery, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://www.batterydesign.net/sodium-ion-cell-manufacturing-process/",
+      "note": "Battery Design (technical reference), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -140,24 +144,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Sodium-ion battery'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -172,5 +158,6 @@
       },
       "project_id": "fulin-sodium-ion-battery-energy-storage-station-nanning-guangxi-china-so"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the sodium-ion cell manufacturing sequence - electrode mixing, coating, drying and calendering; slitting, cutting, winding or stacking, terminal welding and canning; electrolyte filling, formation, sealing, aging and inspection, noting aluminium current collectors on both electrodes."
 }

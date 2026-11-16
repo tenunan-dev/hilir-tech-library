@@ -121,24 +121,14 @@
       "url": "https://publications.tno.nl/publication/34628514/f2Z0x3/c05022.pdf",
       "source_id": "tno",
       "note": "ECN/TNO review of mineral carbonation routes (2003-2004 literature)"
-    }
-  ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
+      "url": "https://ieaghg.org/publications/2022-10%20Mineral%20Carbonation%20using%20Mine%20Tailings%20%E2%80%93%20A%20Strategic%20Overview%20of%20Potential%20and%20Opportunities.pdf",
+      "note": "IEAGHG Technical Report 2022-10, read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "MCi Carbon Myrtle ex-situ mineralisation plant, Kooragang Island, Newcastle, Australia",
@@ -151,5 +141,6 @@
       },
       "project_id": "mci-carbon-myrtle-ex-situ-mineralisation-plant-kooragang-island-newcastl"
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents ex-situ mineral carbonation using magnesium-silicate mine tailings - feedstock characterisation and comminution/activation, dissolution and carbonation reactor steps, product handling, and the energy and net-CO2 accounting of the route."
 }

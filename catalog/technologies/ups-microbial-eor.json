@@ -104,9 +104,13 @@
     {
       "url": "https://www.ogj.com/home/article/17222121/meor-applications-conclusion-field-cases-illustrate-meor-effectiveness",
       "note": "Oil & Gas Journal, MEOR field cases, 24 Aug 2009"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1394838/full",
+      "note": "Frontiers in Microbiology, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "reference_plants",
@@ -134,19 +138,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "costs": [
@@ -163,5 +154,6 @@
         "note": "Oil & Gas Journal, 24 Aug 2009 (read 2026-10-28)"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the MEOR field implementation path - screening/selection of indigenous or exogenous microorganisms with biosurfactant, acid, gas or polymer traits, mixing microbes with water and nitrogen/phosphorus nutrients, injection through injection wells, and nutrient activation of indigenous microbes; field cases report increased output and lower water cut. No shut-in/incubation schedule is given."
 }

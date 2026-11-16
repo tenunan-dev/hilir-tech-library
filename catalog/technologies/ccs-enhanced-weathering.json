@@ -101,24 +101,14 @@
     {
       "url": "https://www.thetimes.com/uk/science/article/microsoft-funds-uk-climate-experiment-to-spread-crushed-rock-on-fields-6sjq5cwzz",
       "note": "UNDO basalt spreading pilots"
-    }
-  ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
+      "url": "https://puro.earth/methodologies/enhanced-rock-weathering",
+      "note": "Puro.earth (ERW methodology), read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "UNDO enhanced rock weathering programme, UK farms (Scotland and northern England)",
@@ -139,5 +129,6 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'CO2 sequestration in inert carbonate materials (mineralisation)' TRL 2025 - mineralisation is the same carbonation chemistry; read 2026-11-16"
     }
-  }
+  },
+  "notes": "Process provenance: Documents the ERW chain and its quantification - sourcing and crushing silicate rock to raise reactive surface area, spreading on soils, and third-party monitoring, sampling and quantification of CO2 removed and stored as bicarbonate/carbonate."
 }

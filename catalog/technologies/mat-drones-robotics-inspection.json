@@ -113,9 +113,13 @@
     {
       "url": "https://www.wevolver.com/article/flying-robot-inspects-tanks-pipes-and-flare-stacks",
       "note": "Wevolver, Flying robot inspects tanks, pipes and flare stacks (Avestec SKYRON case study)"
+    },
+    {
+      "url": "https://www.dnv.com/services/ship-classification-fleet-in-service/drone-surveys-the-safer-and-smarter-way",
+      "note": "DNV, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -166,19 +170,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents the drone-assisted survey procedure - two trained surveyors work as a team, one flying a UAV carrying an HD camera with lighting for dark enclosed spaces while the other views the live recording on a tablet, with conventional close-up survey required where damage is found."
 }

@@ -130,9 +130,13 @@
       "url": "https://www.digitalrefining.com/article/1000691/processing-heavy-ends-part-ii",
       "source_id": "ptq-digital-refining",
       "note": "PTQ / Digital Refining, Processing heavy ends Part II (KBR ROSE)"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1000690/solvent-deasphalting-and-gasification-a-synergy",
+      "note": "DigitalRefining (SDA and gasification), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -197,24 +201,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Visbreaking'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Visbreaking",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: Documents an integrated residue-upgrading sequence - vacuum residue visbroken, visbroken residue to a ROSE solvent-deasphalting unit, asphaltenes to IGCC - plus the solvent-contact and supercritical solvent-recovery principle; equipment detail is at scheme level rather than itemised."
 }
