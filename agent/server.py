@@ -42,18 +42,44 @@ try:
 except ImportError:  # mcp 1.x
     from mcp.server.fastmcp import FastMCP as Server
 
-INSTRUCTIONS = """Library of public sources on oil, gas, petrochemical, energy and data-centre technologies,
-weighted toward Asia Pacific and Southeast Asia. Sector codes: UPS, MID, GAS, REF, PCH, PWR, H2, CCS, IDC.
-Discipline codes: PRC, ROT, INS, MAT, HSE, DIG. Regions include sea, apac, global.
-For "what are the options for X" questions, start with compare_technologies and get_technology
-(curated cards with block diagrams, equipment, costs with basis, and sources), then search for more.
-For who-supplies-it questions, use list_vendors and get_vendor (curated vendor records citing their pages).
-For equipment questions (capacity ranges, pressures, emissions of equipment classes and the
-vendors behind them), use list_equipment and get_equipment.
-For named projects and operating plants (capacities, owners, contractors, milestones), use
-list_projects and get_project."
-Always cite a result's url. Respect reuse_level: full-text-restricted text is a private reference
-copy (no redistribution or commercial use); summary-only and catalog-only sources have no stored text."""
+INSTRUCTIONS = """A curated library of public sources, technology cards, vendors, projects and figures for oil,
+gas, petrochemical, power, hydrogen, CCUS, data-centre, water and industrial-decarbonisation work,
+weighted toward Asia Pacific and Southeast Asia. Everything here is evidence-linked: a card, vendor,
+project or figure is only recorded because a page was read, and each carries the page it came from.
+
+TERMINOLOGY: a "card" is a technology card (one technology, with principle, process steps, suppliers,
+figures, reference plants, gaps). "Sector codes" are UPS, MID, GAS, REF, PCH, PWR, H2, CCS, IDC, WWT.
+"Discipline codes" are PRC, ROT, ELE, CIV, INS, MAT, HSE, DIG. Call taxonomy() when you need the exact
+code list with names and subtopics rather than guessing.
+
+ROUTING — pick the tool by the question being asked:
+- "What are the options for X?" -> compare_technologies, then get_technology on the interesting ids.
+- "How much does X cost / how efficient is X?" -> find_figures (returns every recorded figure with
+  its basis, dollar year and source url). Use get_technology when you want the whole card.
+- "Who supplies X / what does vendor Y make?" -> list_vendors, then get_vendor.
+- "What equipment classes exist and what are their limits?" -> list_equipment, then get_equipment.
+- "Which plants or projects use X, or what is built in country Z?" -> list_projects, get_project.
+- "What does this acronym mean?" -> get_glossary_term (or list_glossary to browse).
+- "Which standard applies?" -> list_standards / get_standard (designation, title, scope, url).
+- "Find me sources or text about X" -> search (kind: all/source/chunk/technology/vendor/equipment/
+  project), then get_source or get_document for the full record or text.
+- "What does the library not know yet?" -> list_gaps (per-card missing inputs with reason and next
+  action), and list_technology_register for the indicative register including entries with no card.
+- "How are these things connected?" -> graph_neighbors (technology, vendor, project, source nodes).
+- "Give me counts / is the data current?" -> library_stats.
+- Anything the tools above do not express -> sql_query against the read-only Postgres layer; call
+  db_catalog first for tables, views and columns.
+
+RULES THAT MATTER:
+1. Cite the url (source_url, url, or the source note) for every factual claim you take from here.
+2. Respect reuse_level: full-text-restricted means a private reference copy — quote briefly and never
+   redistribute; summary-only and catalog-only sources have no stored text.
+3. A figure without its basis is not usable. Prefer figures whose basis names the scope (installed vs
+   overnight vs LCOE, per kW vs per kWh, dollar year). If a card records no figure, say so and point
+   at the gap rather than estimating.
+4. Cards record gaps deliberately; when a gap exists, tell the user what is missing instead of filling
+   it yourself.
+5. Maturity and register entries are indicative unless a card exists (cards are the verified layer)."""
 
 server = Server("hilir-tech-library", instructions=INSTRUCTIONS)
 _db = None
@@ -183,6 +209,25 @@ def compare_technologies(sector: str | None = None, maturity: str | None = None,
 
 
 @server.tool()
+def find_figures(kind: str = "both", sector: str | None = None, technology_id: str | None = None,
+                 query: str | None = None, unit: str | None = None, limit: int = 50) -> list[dict]:
+    """Every cost or performance figure recorded on the cards, one row per figure.
+
+    Use this for numbers questions ("installed cost per kW of a heavy-duty gas turbine", "round-trip
+    efficiency of liquid air storage", "energy per tonne of captured CO2"). Each row carries the
+    metric, low/high, unit, dollar or publication year, the basis (scope: installed vs overnight,
+    per kW vs per kWh, feed conditions) and the source url — quote the basis with the number.
+    kind: "cost", "performance" or "both". sector: a taxonomy code. technology_id: one card.
+    query: substring over metric, basis and card name. unit: substring of the unit, e.g. "USD/kW",
+    "GJ/t", "kWh/t", "%". limit: rows returned (max 200). Empty results mean the cards record no
+    figure for that question — check list_gaps rather than estimating."""
+    if kind not in ("cost", "performance", "both"):
+        raise ValueError('kind must be "cost", "performance" or "both"')
+    return _with_neon(lambda: pg.figure_rows(kind, sector, technology_id, query, unit, limit),
+                      lambda: library.find_figures(kind, sector, technology_id, query, unit, limit, db()))
+
+
+@server.tool()
 def list_vendors(role: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
     """The vendor directory: curated records for suppliers, OEMs, licensors and packagers, each citing
     the pages it was written from. role: oem, licensor, packager, epc, developer, operator, rental,
@@ -250,6 +295,45 @@ def list_gaps(sector: str | None = None, field: str | None = None, reason_code: 
     Use it to tell users what the library cannot answer yet, or to pick the next collection task."""
     return _with_neon(lambda: pg.gap_rows(sector, field, reason_code, include_no_card),
                       lambda: library.list_gaps(sector, field, reason_code, include_no_card, db()))
+
+
+@server.tool()
+def taxonomy() -> dict:
+    """The library's two tag axes with names and subtopics, plus region codes.
+
+    Call this before filtering anything by sector, discipline or region so you use real codes
+    (sectors: UPS, MID, GAS, REF, PCH, PWR, H2, CCS, IDC, WWT; disciplines: PRC, ROT, ELE, CIV,
+    INS, MAT, HSE, DIG). Cheaper and more reliable than guessing a code and getting zero results."""
+    return library.taxonomy()
+
+
+@server.tool()
+def list_glossary(query: str | None = None) -> list[dict]:
+    """The library's glossary: terms and abbreviations with their expansion and a short note.
+
+    Use it to resolve acronyms an agent or user may not know (PUE, WUE, TRL, SRU, MERCON, SMR,
+    DLE, HRSG...). query filters term, expansion and note by substring."""
+    return library.list_glossary(query)
+
+
+@server.tool()
+def get_glossary_term(term: str) -> dict | None:
+    """One glossary entry by term or expansion; falls back to a substring match, returns null if absent."""
+    return library.get_glossary_term(term)
+
+
+@server.tool()
+def list_standards(org: str | None = None, query: str | None = None) -> list[dict]:
+    """Standards, codes and specifications referenced across the library, with designation, title,
+    scope and url. org filters the issuing body (e.g. API, ISO, NORSOK, ASME, IEC, DNV). query
+    matches designation, title and scope. Use get_standard for one entry."""
+    return library.list_standards(org, query)
+
+
+@server.tool()
+def get_standard(ref: str) -> dict | None:
+    """One standard by id or designation (e.g. "API RP 535", "ISO 21809-2", "NORSOK M-501")."""
+    return library.get_standard(ref)
 
 
 @server.tool()

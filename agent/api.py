@@ -85,6 +85,27 @@ def routes(tools):
         return JSONResponse(tools.list_gaps(q.get("sector"), q.get("field"), q.get("reason_code"),
                                             q.get("include_no_card", "").lower() in ("1", "true", "yes")))
 
+    async def figures(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.find_figures(q.get("kind", "both"), q.get("sector"), q.get("technology_id"),
+                                               q.get("q"), q.get("unit"), _int(q.get("limit"), 50, 1, 200)))
+
+    async def taxonomy(_request: Request):
+        return JSONResponse(tools.taxonomy())
+
+    async def glossary(request: Request):
+        return JSONResponse(tools.list_glossary(request.query_params.get("q")))
+
+    async def glossary_term(request: Request):
+        return _found(tools.get_glossary_term(request.path_params["term"]))
+
+    async def standards(request: Request):
+        q = request.query_params
+        return JSONResponse(tools.list_standards(q.get("org"), q.get("q")))
+
+    async def standard(request: Request):
+        return _found(tools.get_standard(request.path_params["ref"]))
+
     async def stats(request: Request):
         # Decision #34: the live counts come from Neon when it is configured (the baked SQLite
         # index in a container is the fallback, and it can be stale); no embedding_model key.
@@ -120,6 +141,9 @@ def routes(tools):
         Route("/api/equipment", equipment_list), Route("/api/equipment/{equipment_id}", equipment),
         Route("/api/projects", project_list), Route("/api/projects/{project_id}", project),
         Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/version", version),
+        Route("/api/figures", figures), Route("/api/taxonomy", taxonomy),
+        Route("/api/glossary", glossary), Route("/api/glossary/{term}", glossary_term),
+        Route("/api/standards", standards), Route("/api/standards/{ref}", standard),
         Route("/api/openapi.json", openapi),
     ]
 
@@ -197,6 +221,23 @@ def openapi_spec(server_url):
                 SECTOR, _param("field", "trl, performance, costs, reference_plants, suppliers, status, process, other"),
                 _param("reason_code", "Why it is missing"),
                 _param("include_no_card", "true to add register technologies without a card", schema={"type": "boolean"})]),
+            "/api/figures": get("findFigures", "Every cost or performance figure recorded on the cards, one row "
+                                "per figure, each with its basis, year and source url", [
+                _param("kind", "cost, performance or both (default both)"), SECTOR,
+                _param("technology_id", "Restrict to one card id, e.g. pwr-gas-engines"),
+                _param("q", "Substring over metric, basis and card name"),
+                _param("unit", "Substring of the unit, e.g. USD/kW, GJ/t, kWh/t, %"),
+                _param("limit", "Rows to return, 1-200 (default 50)", schema={"type": "integer"})]),
+            "/api/taxonomy": get("taxonomy", "Sector and discipline codes with names and subtopics, plus region codes", []),
+            "/api/glossary": get("listGlossary", "Terms and abbreviations with their expansion and a short note", [
+                _param("q", "Text filter over term, expansion and note")]),
+            "/api/glossary/{term}": get("getGlossaryTerm", "One glossary entry by term or expansion",
+                                        [_param("term", "e.g. CCGT", where="path")], JSON_OR_404),
+            "/api/standards": get("listStandards", "Standards and codes referenced by the library, with scope and url", [
+                _param("org", "Issuing body: API, ISO, IEC, ASME, ASCE, CEN, NFPA or UL"),
+                _param("q", "Text filter over designation, title and scope")]),
+            "/api/standards/{ref}": get("getStandard", "One standard by id or designation",
+                                        [_param("ref", "e.g. IEC 60079 or api-rp-535", where="path")], JSON_OR_404),
             "/api/stats": get("libraryStats", "Counts of sources, documents, chunks and technology cards", []),
             "/api/version": get("libraryVersion", "Drift stamp: row counts, vectors and the freshest review/verify dates", []),
         },

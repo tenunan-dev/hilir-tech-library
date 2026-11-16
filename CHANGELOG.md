@@ -8,6 +8,23 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.17.4] — 2026-11-17 — MCP surface widened to 24 tools, with an agent routing guide
+
+### Added
+
+- **`find_figures`** — every cost and performance figure on the cards, one row per figure with metric, range, unit, year, basis and source url; filters by kind, sector, card, text and unit.
+- **`taxonomy`**, **`list_glossary`** / **`get_glossary_term`**, **`list_standards`** / **`get_standard`** — the reference layers that were only reachable through SQL before.
+- **Six REST endpoints and OpenAPI entries** mirroring the new tools, so non-MCP clients get the same functions.
+- **[docs/MCP.md](docs/MCP.md)** — the agent-facing manual: the four rules, question→tool routing for all 24 tools, a parameter-and-shape reference, three worked answers, the REST mirror, and troubleshooting.
+
+### Changed
+
+- **MCP instructions rewritten** into a routing guide with explicit rules: cite the url, respect `reuse_level`, never state a figure without its basis, report a gap instead of estimating, and treat register maturity as indicative until a card exists.
+
+### Deployed
+
+- api `699b9db070c7`, ui `32d76b078d98`; gate `mygis 303, techlib-origin 403, tlea-origin 403`; `/api/openapi.json` live-verified to advertise all six new paths.
+
 ## [2026.11.17.3] — 2026-11-17 — performance drained: 105 figures, gaps 130 → 2
 
 ### Added

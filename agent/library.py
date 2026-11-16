@@ -443,6 +443,114 @@ def compare_technologies(sector=None, maturity=None, application=None, db=None):
     return technologies.compare(cards, sector, maturity, application)
 
 
+GLOSSARY_PATH = ROOT / "catalog" / "glossary.jsonl"
+STANDARDS_PATH = ROOT / "catalog" / "standards.jsonl"
+
+
+def _read_jsonl(path):
+    if not path.exists():
+        return []
+    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def taxonomy():
+    """The two tag axes with their subtopics, so a caller can pick valid filter codes.
+
+    Every source and card carries at least one sector and one discipline; the register uses the
+    same codes. Returned as lists of {code, name, subtopics} to keep the shape stable on the wire.
+    """
+    tax = yaml.safe_load((ROOT / "taxonomy.yaml").read_text(encoding="utf-8"))
+    return {
+        "sectors": [{"code": code, **info} for code, info in tax["sectors"].items()],
+        "disciplines": [{"code": code, **info} for code, info in tax["disciplines"].items()],
+        "regions": [{"code": code, "name": name} for code, name in (tax.get("regions") or {}).items()],
+        "note": "Filter sectors/disciplines/regions use these codes. A card has one sector; a discipline "
+                "code may be either axis when filtering sources.",
+    }
+
+
+def find_figures(kind="both", sector=None, technology_id=None, query=None, unit=None, limit=50, db=None):
+    """Every performance or cost figure recorded on the cards, one row per figure.
+
+    kind: "cost", "performance" or "both". sector / technology_id narrow to one card or sector.
+    query matches the metric, basis or card name (case-insensitive substring). unit matches the
+    unit string the same way (e.g. "USD/kW", "GJ/t"). Each row keeps its basis and source, which
+    is what makes a figure usable — a bare number without them is not evidence.
+    """
+    db = db or connect()
+    kinds = ("performance", "cost") if kind == "both" else (kind,)
+    q = (query or "").lower()
+    u = (unit or "").lower()
+    out = []
+    for row in db.execute("SELECT card FROM technologies"):
+        card = json.loads(row[0])
+        if sector and card.get("sector") != sector:
+            continue
+        if technology_id and card.get("id") != technology_id:
+            continue
+        for one in kinds:
+            for fig in card.get("costs" if one == "cost" else "performance") or []:
+                if u and u not in (fig.get("unit") or "").lower():
+                    continue
+                hay = f'{card["name"]} {fig.get("metric", "")} {fig.get("basis", "")}'.lower()
+                if q and q not in hay:
+                    continue
+                src = fig.get("source") or {}
+                out.append({"kind": one, "technology": card["name"], "technology_id": card["id"],
+                            "sector": card.get("sector"), "metric": fig.get("metric"),
+                            "low": fig.get("low"), "high": fig.get("high"), "unit": fig.get("unit"),
+                            "year": fig.get("year"), "basis": fig.get("basis"),
+                            "source_url": src.get("url"), "source_note": src.get("note"),
+                            "licence": TECHNOLOGY_LICENCE})
+    out.sort(key=lambda r: (r["technology"].lower(), r["kind"], r["metric"] or ""))
+    return out[:limit]
+
+
+def list_glossary(query=None):
+    """Terms and expansions used across the library (60 entries), optionally filtered by text."""
+    q = (query or "").lower()
+    return [t for t in _read_jsonl(GLOSSARY_PATH)
+            if not q or q in f'{t["term"]} {t.get("expansion", "")} {t.get("note", "")}'.lower()]
+
+
+def get_glossary_term(term):
+    """One glossary entry by term or expansion (exact first, then substring)."""
+    needle = (term or "").strip().lower()
+    if not needle:
+        return None
+    entries = _read_jsonl(GLOSSARY_PATH)
+    for t in entries:
+        if needle == t["term"].lower() or needle == (t.get("expansion") or "").lower():
+            return t
+    for t in entries:
+        if needle in f'{t["term"]} {t.get("expansion", "")}'.lower():
+            return t
+    return None
+
+
+def list_standards(org=None, query=None):
+    """Standards and codes referenced by the library (27 entries): designation, title, scope, url."""
+    q = (query or "").lower()
+    return [s for s in _read_jsonl(STANDARDS_PATH)
+            if (not org or s.get("org") == org)
+            and (not q or q in f'{s["designation"]} {s["title"]} {s.get("scope", "")}'.lower())]
+
+
+def get_standard(ref):
+    """One standard by id or designation, exact then substring."""
+    needle = (ref or "").strip().lower()
+    if not needle:
+        return None
+    entries = _read_jsonl(STANDARDS_PATH)
+    for s in entries:
+        if needle in (s.get("id", "").lower(), s["designation"].lower()):
+            return s
+    for s in entries:
+        if needle in f'{s["designation"]} {s["title"]}'.lower():
+            return s
+    return None
+
+
 def _vendor_result(row, score, vrec):
     out = {"kind": "vendor", "ref": vrec["id"], "title": vrec["name"], "score": round(score, 4),
            "licence": VENDOR_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",

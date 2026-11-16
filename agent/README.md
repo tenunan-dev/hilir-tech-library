@@ -25,7 +25,8 @@ Run `embed.py` again after each `library.py build`.
 
 ## MCP server
 
-`python agent/server.py` serves over stdio. Sixteen tools:
+`python agent/server.py` serves over stdio. Twenty-four tools — the routing guide for an agent is
+[docs/MCP.md](../docs/MCP.md):
 
 | Tool | What it returns |
 | --- | --- |
@@ -33,12 +34,16 @@ Run `embed.py` again after each `library.py build`.
 | `get_source(source_id)` | The full catalog record and its collected documents |
 | `get_document(path)` | Front matter and full text of one document |
 | `list_by_tag(code, region, reuse_level, source_type)` | Catalog sources for a sector or discipline code, Asia Pacific first |
+| **`find_figures(kind, sector, technology_id, query, unit, limit)`** | **Every cost or performance figure recorded on the cards, one row per figure with metric, low/high, unit, year, basis and source url** — the tool for numbers questions |
 | `list_vendors(role, sector, query)` / `get_vendor(vendor_id)` | The curated vendor directory — roles, products, the cards it supplies, the pages each record was written from |
 | `list_equipment(equipment_type, query)` / `get_equipment(equipment_id)` | The equipment catalog — specification ranges with basis and source, vendor model lines, applications, the cards that use the class, gaps |
-| `get_technology(technology_id)` | One technology card: principle, process steps with equipment, Mermaid block flow diagram, key equipment, costs with basis, suppliers, reference plants |
+| `get_technology(technology_id)` | One technology card: principle, process steps with equipment, Mermaid block flow diagram, key equipment, costs and performance with basis, suppliers, reference plants, gaps |
 | `compare_technologies(sector, maturity, application)` | Comparison table of technology options, commercial first |
-| `list_technology_register(code, maturity, query)` | The register of about 300 technologies across all sectors |
+| `list_technology_register(code, maturity, query)` | The register of about 300 technologies across all sectors, including entries with no card yet |
 | `list_gaps(sector, field, reason_code, include_no_card)` | Inputs the technology cards still lack, with why and where to get them |
+| **`taxonomy()`** | **Sector and discipline codes with names and subtopics, plus region codes** — call before filtering so a guess does not return zero rows |
+| **`list_glossary(query)` / `get_glossary_term(term)`** | **Terms and abbreviations with their expansion and a short note** |
+| **`list_standards(org, query)` / `get_standard(ref)`** | **Standards and codes referenced by the library, with designation, title, scope and url** |
 | `library_stats()` | Counts read from Neon first (baked index as fallback) |
 | `sql_query(sql, max_rows=100)` | Rows from one read-only `SELECT`/`WITH` statement against the Postgres layer (schema `og`): guarded, read-only role, 15 s timeout, at most 500 rows. Answers `database not configured` unless `DATABASE_URL` is set |
 | `db_catalog()` | Reference for the Postgres layer — tables and their columns, views, and the `graph_neighbors` / `hybrid_search` functions; read before writing `sql_query` statements |

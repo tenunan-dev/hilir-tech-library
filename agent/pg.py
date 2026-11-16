@@ -349,6 +349,43 @@ def card_names() -> dict:
     return _execute(work)
 
 
+def figure_rows(kind: str = "both", sector: str | None = None, technology_id: str | None = None,
+                query: str | None = None, unit: str | None = None, limit: int = 50) -> list[dict]:
+    """find_figures-shaped rows from og.technology_figure joined to its card, same filters and order."""
+
+    def work(cur):
+        sql = """SELECT f.kind, t.name, t.id, t.sector, f.metric, f.low, f.high, f.unit, f.year,
+                        f.basis, f.source_url
+                 FROM technology_figure f JOIN technology t ON t.id = f.technology_id"""
+        conds, params = [], []
+        if kind in ("cost", "performance"):
+            conds.append("f.kind = %s")
+            params.append(kind)
+        if sector:
+            conds.append("t.sector = %s")
+            params.append(sector)
+        if technology_id:
+            conds.append("t.id = %s")
+            params.append(technology_id)
+        if unit:
+            conds.append("f.unit ILIKE %s")
+            params.append(f"%{unit}%")
+        if query:
+            conds.append("(f.metric ILIKE %s OR f.basis ILIKE %s OR t.name ILIKE %s)")
+            params += [f"%{query}%"] * 3
+        if conds:
+            sql += " WHERE " + " AND ".join(conds)
+        sql += " ORDER BY lower(t.name), f.kind, f.metric LIMIT %s"
+        params.append(max(1, min(limit, 200)))
+        cur.execute(sql, params)
+        return [{"kind": k, "technology": name, "technology_id": tid, "sector": sec, "metric": metric,
+                 "low": low, "high": high, "unit": unit_, "year": year, "basis": basis,
+                 "source_url": url}
+                for k, name, tid, sec, metric, low, high, unit_, year, basis, url in cur.fetchall()]
+
+    return _execute(work)
+
+
 def vendor_rows(role: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
     """Vendor rows shaped exactly like library.list_vendors (vendors.summary over the full
     og.vendor.record), filtered the same way: role, sector via the cards' sectors, text over

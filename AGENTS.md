@@ -10,6 +10,9 @@
   `x-api-key` (re-attached as Bearer for the container hop). Scopes are the boundary
   (`docs/AUTH.md`).
 - MCP: `POST https://techlib-api.hilir.app/mcp` (stateless; PRM anonymous). REST: `/api/*`.
+  **Read [docs/MCP.md](docs/MCP.md) before using or changing the tool surface** — it is the routing
+  guide for agents (which tool answers which question), the four rules (cite the url, respect
+  `reuse_level`, carry a figure's basis, say "gap" instead of estimating) and the REST mirror table.
 - Publish: **docs/HOSTING.md** (current-state section at the top) — three workers via wrangler
   (deploy/edge, deploy/frontend, deploy/backend); containers via `deploy/local-images.sh` (Mac build
   for linux/amd64 → `vps load` → `sudo vps up techlib`). GitHub is repo storage only (2026-11-16):

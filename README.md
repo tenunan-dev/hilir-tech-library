@@ -12,6 +12,7 @@ It holds **484 catalog sources** across 10 sectors (the eight energy sectors, ID
 | [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) | Picking up development: environment, gates, publish pipeline, verification, where each kind of change goes |
 | [docs/AUTH.md](docs/AUTH.md) | **Auth is load-bearing.** The hilir Access model, where the code lives, what never to reintroduce |
 | [docs/USER_GUIDE.md](docs/USER_GUIDE.md) | Using the library: files, MCP server, REST, web UI, licence handling |
+| [docs/MCP.md](docs/MCP.md) | **Agent routing guide to the 24 MCP tools** — which tool answers which question, the four rules, worked answers, and the REST mirror |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | How the parts fit together |
 | [docs/MAINTAINER_MANUAL.md](docs/MAINTAINER_MANUAL.md) | Adding sources, verifying terms, collecting, refreshing |
 | [docs/HOSTING.md](docs/HOSTING.md) | Topology, publishing, and the post-deploy verification (current-state section at the top) |
