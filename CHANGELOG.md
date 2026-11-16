@@ -15,6 +15,11 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 - **Twenty-five cost figures across the wastewater sector**, each from a page read this session: SBR (installed $/gal, 1998 USD), trickling filters (construction $/mgd, ~1990), BNR (retrofit capital $/mgd by size, 2006), DAF, MBBR, aerobic granular sludge (NIS/m3/d, 2020), lamella clarifiers, nanofiltration and ultrafiltration ($/gpd, 2018), RO reuse train ($/gpd, 2013), forward osmosis (EUR/m3), advanced oxidation ($/1,000 gal), ozone ($389,000 per mgd, 1998), chlorination (capital + O&M, plus a derived chemical-only $0.017–0.066/m3), brine concentration by MVC ($3.6–6.1/m3, 2024), ZLD ($0.64–1.41/bbl, 2025), sludge drying, incineration, thickening, struvite recovery and headworks screening.
 - **Derived figures are labelled as derived and show their arithmetic** — the activated-sludge electricity cost, the chlorination chemical cost, the UV and headworks $/m3/d normalisations, and struvite $/kg P. Where a source omitted the design flow (the EPA UV fact sheet), no $/m3/d was invented.
 
+### Published
+
+- Neon reloaded with the session's data: 510 sources / 289 documents / 15,116 chunks / 388 cards / **511 vendors** / 403 register entries / 28 equipment / **241 projects**; 4,568 nodes, 13,366 edges, 16,794 vectors (45 newly embedded, 0 missing). No container rebuild — the containers read Neon live.
+- **The scheduled `refresh` job was still firing**: GitHub runs schedules from the default branch, so removing the crons on a feature branch did nothing and a run failed on `main`. All three workflows are now disabled at the platform level (`gh workflow disable`), which is branch-independent.
+
 ### Changed
 
 - **Costs gaps 300 → 275**; on WWT cards 31 → 7. The seven that remain each state exactly what is missing and why: no source prices an IC reactor or a de-oiling produced-water train per unit; UASB and IC figures sit behind a bot-blocked Wiley paper; a chlorination chemical cost needs a dose; sludge-digestion capital per dry tonne is unpublished; pinch-study fees are confidential.
