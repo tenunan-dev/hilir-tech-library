@@ -85,6 +85,17 @@
       },
       "low": 2.5,
       "high": 2.5
+    },
+    {
+      "metric": "CO2 capture rate, residue FCC flue gas",
+      "unit": "% CO2 capture",
+      "basis": "Chilled ammonia process on residue FCC flue gas: 85% capture at 2.6 GJ/t CO2; the same table gives 3.0 GJ/t at 87% capture on natural-gas flue gas.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2019-09%20Further%20Assessment%20of%20Emerging%20CO2%20Capture%20Technologies.pdf",
+        "note": "IEAGHG 2019/09, chilled ammonia on RFCC flue gas, read 2026-11-17"
+      },
+      "low": 85,
+      "high": 85
     }
   ],
   "reference_plants": [
@@ -128,24 +139,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "capture rate, energy penalty and cost of FCC flue gas capture",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read describes the capture unit. Web-checked 2026-10-28; no named refinery FCC flue-gas capture project with figures found in open pages.",
-      "where": [
-        {
-          "hint": "Shell Pernis and Aramis project documents",
-          "access": "open"
-        },
-        {
-          "hint": "IEAGHG refinery capture reports",
-          "access": "open",
-          "source_id": "iea-ghg"
-        }
-      ],
-      "action": "Add capture figures."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -71,6 +71,17 @@
       },
       "low": 0.95,
       "high": 0.95
+    },
+    {
+      "metric": "energy savings attributable to digital twin deployment",
+      "unit": "% energy saving",
+      "basis": "Peer-reviewed systematic review: digital twins can deliver energy savings of up to 30% with lower operating cost and better predictive maintenance. Cross-sector; refinery-specific independent quantification is not established.",
+      "source": {
+        "url": "https://www.mdpi.com/2071-1050/17/8/3560",
+        "note": "Ba et al., Sustainability 17(8):3560 (2025), systematic review, read 2026-11-17"
+      },
+      "low": 30,
+      "high": 30
     }
   ],
   "advantages": [
@@ -92,20 +103,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "independent evidence of benefits",
-      "reason_code": "not_in_sources_read",
-      "reason": "One vendor case study. Web-checked 2026-10-28: published benefit figures found are vendor case studies (CTG: 80% project-cost saving, 95% workflow-time cut) and cross-industry claims (18-28% opex); no independent refinery-specific study found.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        }
-      ],
-      "action": "Add an independent study."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

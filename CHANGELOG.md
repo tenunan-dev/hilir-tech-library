@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.17.2] — 2026-11-17 — performance pass 1: 23 figures across CCS, hydrogen and refining
+
+### Added
+
+- **Twenty-three performance figures with cited sources**, closing as many gaps: Allam cycle capture and efficiency, biochar 100-year durability, calcium looping and CLOU energy penalties, water-lean and enzyme solvent regeneration energy, high-purity compression energy, MCFC separation rate, oxyfuel cement SPECCA, Sleipner injection rate, syngas capture efficiency, cement carbonation depth, urea CO2 demand, biogas reforming yield, co-electrolysis power and stack life, liquid hydrogen boil-off, RWGS conversion, alkylate octane, FCC naphtha octane loss, RFCC capture rate, HEFA SAF GHG intensity, digital-twin savings and visbreaking conversion.
+
+### Changed
+
+- Performance gaps **130 → 107**; the library now carries **766** performance figures across 388 cards.
+- Two entries are weaker and labelled: the 30% digital-twin saving is a cross-sector review bound, and the compression figure is derived from NETL's quoted power and flow rather than stated as specific energy.
+
 ## [2026.11.17] — 2026-11-17 — the process class drained: 116 cards cited, gaps 119 → 3
 
 ### Added

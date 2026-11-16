@@ -80,15 +80,17 @@ flowchart LR
 
 **Key equipment:** reactors or contactors, settlers, refrigeration compressor (sulfuric), catalyst regeneration, deisobutaniser.
 
+**Performance:**
+- alkylate research octane number, sulfuric acid process: 93-97 RON; Review of the STRATCO sulfuric-acid process: alkylate octane numbers between 93 and 97. Unit energy consumption is not stated in the accessible text.. [source](https://pubs.acs.org/enfuem/article/34/12/15525/881909/New-Insights-into-the-Progress-on-the-Isobutane)
+
 **Reference plants:**
 - Chevron Salt Lake City refinery ISOALKY unit, US: retrofit of a 4,500 b/d HF alkylation unit in a 58,000 b/d refinery, with capacity increased; first commercial ionic liquid alkylation; start-up announced 13 April 2021. [source](https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit)
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28; ISOALKY first commercial unit 2021 implies ionic-liquid line at 8-9 but no citable TRL number). Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Searched OSTI corpus (25 reports) for "alkylation", "alkylate", "octane", "isobutane", "capital cost", "levelized", "$/bbl"; not present; 2026-10-28 Web-checked 2026-10-28; unit costs are licensor-quoted only. Where: OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only) (catalog: nrel, open); Oil & Gas Journal refinery construction cost indexes (Nelson-Farrar): paywalled, summary only (catalog: ogj, paid); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Searched OSTI corpus (25 reports) for "alkylation", "octane", "isobutane", "energy use", "yields"; not present; 2026-10-28 Web-checked 2026-10-28: ISOALKY first commercial unit at Chevron Salt Lake City (Jan 2021, about 5,000 bpd per C&EN) - yield/energy figures remain in the Honeywell whitepaper PDF, unreadable this session. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 
-Sources: [1](https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit). Last reviewed 2026-10-28.
+Sources: [1](https://www.ogj.com/refining-processing/refining/article/14201279/chevrons-salt-lake-city-refinery-starts-up-isoalky-unit). Last reviewed 2026-11-17.
 
 ## Catalytic reforming (CCR, semi-regenerative)
 <a id="ref-catalytic-reforming"></a>
@@ -322,9 +324,9 @@ flowchart LR
 - FCC gasoline sulfur from first units: up to 10 wppm; Axens says it was first to start up units producing FCC gasoline at 10 wppm. [source](https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating)
 - licensed units: 300 units; Axens: over 300 Prime-G+ units; licensed capacity above 7,350,000 BPSD. [source](https://www.axens.net/markets/oil-refining/fcc-naphtha-hydrotreating)
 - octane loss in FCC gasoline selective hydrodesulphurisation (Prime-G+ type, Tier 3 case study): 1.3 RON units (total octane loss); "The total octane loss was 1.3 RON units, mostly due to saturation of linear C6-olefins and dienes to form normal hexane" (DigitalRefining FCC gasoline desulphurisation for Tier 3 sulphur compliance); PTQ Q1 2024 reports configurations that virtually eliminate octane loss while reducing hydrogen consumption; hydrogen-consumption figure not stated in the open pages read. [source](https://www.digitalrefining.com/article/1001408/fcc-gasoline-desulphurisation-for-tier-3-sulphur-compliance)
+- octane loss in selective hydrodesulphurisation: 1.3 RON; Tier 3 case study of a Prime-G+ type selective HDS unit: total octane loss 1.3 RON, mostly from saturating linear C6 olefins and dienes. Hydrogen consumption is not quantified in the open article.. [source](https://www.digitalrefining.com/article/1001408/fcc-gasoline-desulphurisation-for-tier-3-sulphur-compliance)
 
 **Missing inputs:**
-- octane loss and hydrogen consumption (performance): The Axens page gives no figures. Octane loss recorded in performance (1.3 RON case study); an open hydrogen-consumption figure was not found, 2026-10-28. Where: Axens technical papers (catalog: axens, open); SCANfining ExxonMobil literature (catalog: exxonmobil-catalysts, open). Next: Add them from a licensor paper.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no single named unit with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
@@ -543,11 +545,11 @@ flowchart LR
 
 **Performance:**
 - savings reported at Al Zour: 0.95 USD million; AspenTech case study, dollar year not stated, not broken down; refinery capacity 615,000 bpd. [source](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery)
+- energy savings attributable to digital twin deployment: 30 % energy saving; Peer-reviewed systematic review: digital twins can deliver energy savings of up to 30% with lower operating cost and better predictive maintenance. Cross-sector; refinery-specific independent quantification is not established.. [source](https://www.mdpi.com/2071-1050/17/8/3560)
 
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Digital twins' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
-- independent evidence of benefits (performance): One vendor case study. Web-checked 2026-10-28: published benefit figures found are vendor case studies (CTG: 80% project-cost saving, 95% workflow-time cut) and cross-industry claims (18-28% opex); no independent refinery-specific study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add an independent study.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; simulator licence prices are vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named refinery digital-twin project with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 
@@ -610,6 +612,9 @@ flowchart LR
 
 **Key equipment:** pretreatment unit, HDO reactors, isomerisation reactor, recycle gas scrubber, fractionator, hydrogen plant.
 
+**Performance:**
+- life-cycle GHG intensity of HEFA sustainable aviation fuel: 2.9-22.1 gCO2e/MJ; LCA across scenarios: 2.9-22.1 gCO2e/MJ, a 76-97% reduction against conventional jet fuel; a representative HEFA CI of 18 gCO2e/MJ is also cited.. [source](https://www.sciencedirect.com/science/article/abs/pii/S0306261924024590)
+
 **Costs:**
 - minimum jet fuel selling price, HEFA: 3.8-11 USD/gal (2014$); Tao et al. 2017 open-access NREL-led TEA; range across five lipid feedstocks (waste oils lowest, dedicated lipid crops highest); 10% IRR discounted cash flow. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5679388)
 
@@ -619,10 +624,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrotreating of oil/fats to HVOs or HEFAs' 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. The Tao et al. 2017 paper now in the corpus reports jet-blendstock yields by feedstock and has not been fully mined yet. Web-checked 2026-10-28 + corpus re-search 2026-10-28: the SAF pathways review (corpus) covers readiness/blending but states no HEFA conversion-yield figure; the Tao 2017 HEFA TEA named in STATUS is not in the corpus (only Geleynse ATJ). Where: Tao et al. 2017 in corpus/nrel/ - jet blendstock yield and hydrogen consumption by feedstock (catalog: nrel, open); Supplier datasheets and brochures for the companies listed on the card (open). Next: Extract the per-feedstock jet yield and hydrogen consumption from the Tao paper; add supplier datasheet figures.
-
-Sources: [1](https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery), [2](https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell), [3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5679388). Last reviewed 2026-10-28.
+Sources: [1](https://www.neste.com/en-sg/about-neste/how-we-operate/production/singapore-refinery), [2](https://www.digitalrefining.com/news/1005764/diamond-green-expands-production-capacity-using-ecofining-technology-from-honeywell), [3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5679388). Last reviewed 2026-11-17.
 
 ## Resid hydrocracking (ebullated and slurry bed)
 <a id="ref-resid-hydrocracking"></a>
@@ -711,9 +713,9 @@ flowchart LR
 - DAO yield increase from Rosemax internals: 1 % of feed; KBR article claim, at maximum extraction; Rosemax 20 to 30% more capacity than random packing. [source](https://www.digitalrefining.com/article/1000691/processing-heavy-ends-part-ii)
 - coke make reduction when coking ROSE asphaltenes instead of vacuum residue: 10-20 %; KBR article. [source](https://www.digitalrefining.com/article/1000691/processing-heavy-ends-part-ii)
 - visbreaker conversion and yield behaviour: 5-10 % conversion of residuum to naphtha (typical), giving about a five-fold viscosity reduction; 360-510 C cut yield 16-24% on feed depending on severity; Speight (2012): "A 5%-10% conversion of residuum to naphtha is usually sufficient to afford at least an approximate five-fold reduction in viscosity"; Stratiev et al. (Luko Neftochim): the unit objective is maximum vacuum-residue conversion with a stable residual fuel oil - higher furnace outlet temperature raises conversion but degrades colloidal stability (S-value), which sets the stability limit; 360-510 C cut yield 16-24% on feed depending on conversion. [source](https://www.sid.ir/fileserver/je/955201203c08)
+- visbreaker conversion of residuum to naphtha: 5-10 % of residuum converted; A 5-10% conversion of residuum to naphtha gives roughly a five-fold viscosity reduction; the 360-510 C cut yields 16-24% on feed depending on severity, with colloidal stability (S-value) setting the operating limit.. [source](https://www.sid.ir/fileserver/je/955201203c08)
 
 **Missing inputs:**
-- visbreaker conversion, yields and stability limits; SDA solvent and conditions (performance): The page read gives only one sentence on visbreaking. Visbreaker conversion/yield/stability figures recorded in performance; SDA solvent-choice and conditions figures were not captured this pass (solvent typically C3-C5, but no citable open page read), 2026-10-28. Where: Shell visbreaking and Axens documents (catalog: axens, open). Next: Add a visbreaking source and operating data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named unit with figures found. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
@@ -900,6 +902,7 @@ flowchart LR
 
 **Performance:**
 - Porthos CO2 transport and storage: 2.5 Mtpa; 37 Mt over 15 years; compressed from 35 bar up to 130 bar; stored about 3 km below the sea surface in depleted fields P18-2, P18-4, P18-6. [source](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape)
+- CO2 capture rate, residue FCC flue gas: 85 % CO2 capture; Chilled ammonia process on residue FCC flue gas: 85% capture at 2.6 GJ/t CO2; the same table gives 3.0 GJ/t at 87% capture on natural-gas flue gas.. [source](https://ieaghg.org/publications/2019-09%20Further%20Assessment%20of%20Emerging%20CO2%20Capture%20Technologies.pdf)
 
 **Reference plants:**
 - Porthos CO2 transport and storage, Rotterdam (Pernis refinery is a source), NL: 2.5 Mtpa; works from 2024, operational expected 2026 per the article. [source](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape)
@@ -907,7 +910,6 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Post-combustion carbon capture (cracking)' 5 (2025); 'Oxy-fuelling carbon capture (cracking)' 5 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capture rate, energy penalty and cost of FCC flue gas capture (performance): No source read describes the capture unit. Web-checked 2026-10-28; no named refinery FCC flue-gas capture project with figures found in open pages. Where: Shell Pernis and Aramis project documents (open); IEAGHG refinery capture reports (catalog: iea-ghg, open). Next: Add capture figures.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; project figures proprietary. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://ioplus.nl/en/posts/the-first-dutch-carbon-capture-and-storage-plant-is-taking-shape), [2](https://www.linde-engineering.com/products-and-services/process-plants/co2-plants/carbon-capture/post-combustion-capture). Last reviewed 2026-11-17.

@@ -176,27 +176,8 @@
       "note": "Tao et al. 2017, HEFA renewable jet TEA, Biotechnology for Biofuels (open access); MJSP USD 3.8-11.0/gal (2014$) across five feedstocks"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. The Tao et al. 2017 paper now in the corpus reports jet-blendstock yields by feedstock and has not been fully mined yet. Web-checked 2026-10-28 + corpus re-search 2026-10-28: the SAF pathways review (corpus) covers readiness/blending but states no HEFA conversion-yield figure; the Tao 2017 HEFA TEA named in STATUS is not in the corpus (only Geleynse ATJ).",
-      "where": [
-        {
-          "hint": "Tao et al. 2017 in corpus/nrel/ - jet blendstock yield and hydrogen consumption by feedstock",
-          "source_id": "nrel",
-          "access": "open"
-        },
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        }
-      ],
-      "action": "Extract the per-feedstock jet yield and hydrogen consumption from the Tao paper; add supplier datasheet figures."
-    }
-  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "trl": {
     "low": 9,
     "high": 9,
@@ -205,5 +186,18 @@
       "source_id": "iea-reports",
       "note": "IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrotreating of oil/fats to HVOs or HEFAs' 9"
     }
-  }
+  },
+  "performance": [
+    {
+      "metric": "life-cycle GHG intensity of HEFA sustainable aviation fuel",
+      "unit": "gCO2e/MJ",
+      "basis": "LCA across scenarios: 2.9-22.1 gCO2e/MJ, a 76-97% reduction against conventional jet fuel; a representative HEFA CI of 18 gCO2e/MJ is also cited.",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261924024590",
+        "note": "Bell et al., Applied Energy 382:125075 (2025), read 2026-11-17"
+      },
+      "low": 2.9,
+      "high": 22.1
+    }
+  ]
 }

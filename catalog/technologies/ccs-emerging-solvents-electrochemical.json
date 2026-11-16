@@ -100,32 +100,8 @@
       "note": "NETL Compendium of Carbon Capture Technology 2024: about 145 DOE-funded R&D project sheets with diagrams and per-project capture costs"
     }
   ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. Searched arXiv corpus (28 papers) for water-lean solvents, ionic liquids and electrochemical separation energy and capture rate; not present; 2026-10-28 Web-checked 2026-10-28; water-lean/ionic-liquid energy figures sit in journal papers (arXiv corpus is abstract-only).",
-      "where": [
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        }
-      ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
-    }
-  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "DMX demonstrator at ArcelorMittal Dunkirk",
@@ -138,6 +114,19 @@
       },
       "project_id": "dmx-dunkirk-demonstrator",
       "year": 2023
+    }
+  ],
+  "performance": [
+    {
+      "metric": "regeneration energy, water-lean amine solvent",
+      "unit": "GJ/t CO2",
+      "basis": "ION Engineering water-lean blend: 3.4 GJ/t at 90% capture on 4.1% CO2 flue gas at TCM; 3.6 GJ/t unoptimised at NCCC above 95% capture; 3.3 GJ/t at 12.5% CO2.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2019-09%20Further%20Assessment%20of%20Emerging%20CO2%20Capture%20Technologies.pdf",
+        "note": "IEAGHG 2019/09, emerging capture technologies, read 2026-11-17"
+      },
+      "low": 3.3,
+      "high": 3.6
     }
   ]
 }

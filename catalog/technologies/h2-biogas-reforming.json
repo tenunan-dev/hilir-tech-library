@@ -69,6 +69,17 @@
       },
       "low": 6,
       "high": 7
+    },
+    {
+      "metric": "hydrogen yield per Nm3 biogas, steam reforming",
+      "unit": "kg H2/Nm3 biogas",
+      "basis": "Comparative study of steam and dry reforming of biogas: steam reforming gives 0.14-0.19 kg H2/Nm3 with 0.048-0.075 MWh/kg H2 specific energy.",
+      "source": {
+        "url": "https://www.mdpi.com/1996-1073/18/10/2631",
+        "note": "Singh et al., Energies 18(10):2631 (2025), read 2026-11-17"
+      },
+      "low": 0.14,
+      "high": 0.19
     }
   ],
   "reference_plants": [
@@ -111,22 +122,8 @@
       "note": "Wikipedia: Biogas — process-description cross-check 2026-10-28 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "reforming efficiency and hydrogen yield per Nm3 biogas",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read. Web-checked 2026-10-28; per-Nm3 yields sit in journal papers.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        }
-      ],
-      "action": "Add yield and cost from a review."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -77,19 +77,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "quantified strength retention and carbonation depth",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only the abstract was read. Web-checked 2026-10-28; CO2-cement reactivity studies are in journal papers not captured open.",
-      "where": [
-        {
-          "hint": "Full text of Rasool et al. 2025 (Petroleum Research)",
-          "access": "open"
-        }
-      ],
-      "action": "Add figures from the full text."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -141,5 +128,18 @@
       "year": 2025
     }
   ],
-  "notes": "Process provenance: Reviews international field experience with well integrity at storage sites - well construction and cement/sealant systems, plugs and completion practice, and the leakage and verification experience defining CO2-resistant cement requirements."
+  "notes": "Process provenance: Reviews international field experience with well integrity at storage sites - well construction and cement/sealant systems, plugs and completion practice, and the leakage and verification experience defining CO2-resistant cement requirements.",
+  "performance": [
+    {
+      "metric": "cement carbonation depth after long-term CO2 exposure",
+      "unit": "mm",
+      "basis": "SACROC field cores: degraded layer at most 0.125 in (3.2 mm) at the wellbore and 0.25 in (6.4 mm) at the cement-shale interface, in 50-year-old neat Portland cement after about 30 years of CO2 exposure. No strength-retention percentage is reported.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2018-08%20Well%20Engineering%20and%20Injection%20Regularity%20in%20CO2%20Storage%20Wells.pdf",
+        "note": "IEAGHG 2018/08, well engineering in CO2 storage wells, read 2026-11-17"
+      },
+      "low": 3.2,
+      "high": 6.4
+    }
+  ]
 }

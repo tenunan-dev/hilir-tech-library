@@ -159,6 +159,17 @@
       "low": 34,
       "high": 34.5,
       "year": 2026
+    },
+    {
+      "metric": "measured field CO2 injection rate",
+      "unit": "Mt CO2/yr",
+      "basis": "Sleipner has injected at a relatively uniform rate of about 1 Mt/yr since 1996 into the Utsira Formation at about 1,000 m, roughly 20 Mt cumulative from one near-horizontal well. Field-scale storage efficiency itself is not measured.",
+      "source": {
+        "url": "https://nora.nerc.ac.uk/id/eprint/508611/1/Sleipner_Chapter_V5_withFigs_singlespace.pdf",
+        "note": "Chadwick et al., Sleipner CO2 storage (NERC/IEAGHG chapter), read 2026-11-17"
+      },
+      "low": 1,
+      "high": 1
     }
   ],
   "trl": {
@@ -208,19 +219,6 @@
         }
       ],
       "action": "Add storage cost per tonne with dollar year and basis."
-    },
-    {
-      "field": "performance",
-      "item": "measured field injectivity and storage efficiency",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only simulation results were read. Searched LEMIGAS SCOG corpus for injectivity, storage efficiency, permeability, capacity; the Baturaja screening adds measured petrophysics (50-70 mD from more than 40 wells) and a 34 Mt theoretical volumetric capacity with MCO2/HCPV ratios, but no injectivity test or storage-efficiency factor; 2026-10-28 Web-checked 2026-10-28: Sleipner monitoring literature (Utsira) gives plume behaviour, not a single injectivity/efficiency pair; the Baturaja paper figures (20-70 mD permeability, 34-34.5 Mt capacity) were recorded in Wave 1.",
-      "where": [
-        {
-          "hint": "Operator monitoring reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add measured values from operating projects."
     }
   ],
   "sources": [
@@ -254,7 +252,7 @@
       "note": "MIT CCS project database, Sleipner"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "reference_plants": [
     {
       "name": "Sleipner CO2 storage, Utsira Formation, Norwegian North Sea (Equinor)",

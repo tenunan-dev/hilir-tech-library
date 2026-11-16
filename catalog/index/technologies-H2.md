@@ -108,6 +108,7 @@ flowchart LR
 
 **Performance:**
 - Yara Cubatão ammonia target from biomethane: 6-7 ktpa; IEA GHR 2025 text. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- hydrogen yield per Nm3 biogas, steam reforming: 0.14-0.19 kg H2/Nm3 biogas; Comparative study of steam and dry reforming of biogas: steam reforming gives 0.14-0.19 kg H2/Nm3 with 0.048-0.075 MWh/kg H2 specific energy.. [source](https://www.mdpi.com/1996-1073/18/10/2631)
 
 **Reference plants:**
 - Yara Cubatão, Brazil, ammonia from biomethane, BR: 6 to 7 ktpa goal; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
@@ -115,10 +116,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Anaerobic digestion and upgrading with CCUS' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- reforming efficiency and hydrogen yield per Nm3 biogas (performance): No source read. Web-checked 2026-10-28; per-Nm3 yields sit in journal papers. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add yield and cost from a review.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://en.wikipedia.org/wiki/Biogas). Last reviewed 2026-10-28.
+Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://en.wikipedia.org/wiki/Biogas). Last reviewed 2026-11-17.
 
 ## Biogas upgrading to biomethane
 <a id="h2-biogas-upgrading"></a>
@@ -361,6 +361,7 @@ flowchart LR
 - liquefaction energy, current industrial liquefiers: 10-20 kWh/kg H2; DOE record 19001; theoretical minimum 2.88 kWh/kg (20 bar inlet). [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
 - largest US liquefier capacity: 70 t H2/day; DOE record 19001; smallest about 6 t/day. [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
 - US installed liquefaction capacity: 304-794 t H2/day; DOE record 24003, May 2024; low = operating (14 plants of 5-32 t/day), high = existing plus announced. [source](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/24003-hydrogen-liquefaction-capacity-united-states.pdf)
+- boil-off rate, commercial liquid hydrogen storage: 1 % per day; Commercial LH2 tanks use perlite insulation under vacuum and limit boil-off to 1.0%/day, a rate the review describes as still high for long storage; large modern stationary tanks reach 0.05-0.2%/day.. [source](https://www.mdpi.com/2071-1050/16/18/8270)
 
 **Costs:**
 - levelized liquefaction cost, 27 t/day liquefier: 2.75 USD/kg H2 (2016$); DOE HDSAM model incl. electricity; capital share about USD 1.40/kg; the record also quotes USD 2.75/kg for a 2018$ California case, so the dollar year is uncertain. [source](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf)
@@ -371,10 +372,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Hydrogen liquefaction' 9; 'Liquefied hydrogen tanker' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- boil-off rate in storage and shipping (performance): DOE record 19001 counts boil-off as a cost but gives no rate; no other doe-hfto record in the corpus (checked 2026-10-28) publishes a %/day boil-off rate either. Web-checked 2026-10-28; HDSAM counts boil-off as a cost line without a published percentage (checked Wave 1). Where: DOE Hydrogen Program Records on delivery (HDSAM) (catalog: doe-hfto, open); HESC / Kawasaki publications on the Suiso Frontier voyage (open). Next: Add boil-off rate (% per day) for tanks and ships with source.
-
-Sources: [1](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/), [2](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.hydrogenenergysupplychain.com/supply-chain/the-suiso-frontier/), [2](https://www.hydrogen.energy.gov/pdfs/19001_hydrogen_liquefaction_costs.pdf). Last reviewed 2026-11-17.
 
 ## PEM electrolysis
 <a id="h2-pem-electrolysis"></a>
@@ -917,6 +915,7 @@ flowchart LR
 
 **Performance:**
 - FrontFuel SynFuels CO2 throughput: 12 kg/h; started November 2024 with Topsoe electrified RWGS. [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
+- CO2 conversion in reverse water-gas shift: 65 % CO2 conversion; Experimental RWGS: up to 65% CO2 conversion with CO energy yield up to 0.27 kg CO/kWh (about 3.7 kWh/kg CO) and under 0.1 vol% O2 in the product gas.. [source](https://www.sciencedirect.com/science/article/abs/pii/S0360319925038595)
 
 **Reference plants:**
 - FrontFuel SynFuels, Denmark (12 kg/h CO2), DK: ; . [source](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf)
@@ -924,7 +923,6 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO₂-to-methanol via reverse water-gas shift' 6 (2025); 'CO₂-to-liquids (integrated RWGS + fischer–tropsch process)' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- CO2 conversion and energy per kg CO (performance): None given. Web-checked 2026-10-28; RWGS figures in journal papers not captured. Where: Topsoe technical papers (catalog: topsoe, open). Next: Add them.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://patents.google.com/patent/WO2021225643A1/en). Last reviewed 2026-11-17.
@@ -1092,13 +1090,15 @@ flowchart LR
 
 **Key equipment:** solid oxide electrolyser stacks, steam generator, heat recovery.
 
+**Performance:**
+- system electricity consumption, co-electrolysis to syngas: 8.4 kWh/kg syngas; Use case BP 2: 7.1 kWh/kg conversion plus 0.5 compression, 0.6 electric heaters and 0.2 AC/DC, at 92% LHV system efficiency. CATF links 1%/1,000 h degradation to about a 2.5-year stack life.. [source](https://ispt.eu/media/20230508-FINAL-SOE-public-report-ISPT.pdf)
+
 **Reference plants:**
 - Sunfire SynLink co-electrolysis module, Germany: 150 kW SOEC module; commissioned 2023. [source](https://h2-tech.com/news/2023/02-2023/sunfire-successfully-commissions-high-temperature-electrolyzer)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 and h2o co-electrolysis' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- power use per kg syngas and stack lifetime (performance): No source read gives them. Web-checked 2026-10-28; SOEC co-electrolysis figures in DOE/IEA annexes not open. Where: Topsoe and Sunfire technical papers (catalog: topsoe, open). Next: Add performance data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf), [2](https://www.ikts.fraunhofer.de/en/departments/energy_systems/materials_and_components/ceramic_energy_converters/solid-oxide_co-electrolysis_as_a_key_technology_for_co2_utilization.html). Last reviewed 2026-11-17.

@@ -54,6 +54,17 @@
       },
       "low": 200,
       "high": 200
+    },
+    {
+      "metric": "specific energy, enzyme-catalysed absorption",
+      "unit": "GJ/t CO2",
+      "basis": "CO2 Solutions enzyme (1T1) with K2CO3 at a 10 t/d facility, regeneration at 80-95 C on low-grade heat; capture cost 39 USD/t from pilot results, TRL 6.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2019-09%20Further%20Assessment%20of%20Emerging%20CO2%20Capture%20Technologies.pdf",
+        "note": "IEAGHG 2019/09, emerging capture technologies, read 2026-11-17"
+      },
+      "low": 3.8,
+      "high": 3.8
     }
   ],
   "advantages": [
@@ -75,24 +86,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "specific energy and capture rate",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not given. Web-checked 2026-10-28; enzyme-capture (Aker SARC class) figures not published open.",
-      "where": [
-        {
-          "hint": "ACCSESS project results",
-          "access": "open"
-        },
-        {
-          "hint": "Saipem technical papers",
-          "access": "open",
-          "source_id": "saipem"
-        }
-      ],
-      "action": "Add measured figures."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",

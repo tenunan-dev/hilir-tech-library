@@ -67,6 +67,17 @@
       },
       "low": 12,
       "high": 12
+    },
+    {
+      "metric": "CO2 conversion in reverse water-gas shift",
+      "unit": "% CO2 conversion",
+      "basis": "Experimental RWGS: up to 65% CO2 conversion with CO energy yield up to 0.27 kg CO/kWh (about 3.7 kWh/kg CO) and under 0.1 vol% O2 in the product gas.",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360319925038595",
+        "note": "Jeong et al., Int. J. Hydrogen Energy (2025), read 2026-11-17"
+      },
+      "low": 65,
+      "high": 65
     }
   ],
   "reference_plants": [
@@ -110,20 +121,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "CO2 conversion and energy per kg CO",
-      "reason_code": "not_in_sources_read",
-      "reason": "None given. Web-checked 2026-10-28; RWGS figures in journal papers not captured.",
-      "where": [
-        {
-          "hint": "Topsoe technical papers",
-          "access": "open",
-          "source_id": "topsoe"
-        }
-      ],
-      "action": "Add them."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

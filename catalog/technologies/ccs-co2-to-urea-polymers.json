@@ -58,6 +58,17 @@
       },
       "low": 5000,
       "high": 5000
+    },
+    {
+      "metric": "global CO2 consumption in urea manufacturing",
+      "unit": "Mt CO2/yr",
+      "basis": "Global accounting: 130 Mt CO2 used in urea, the largest single use, ahead of 70-80 Mt for enhanced oil recovery.",
+      "source": {
+        "url": "https://www.iea.org/reports/putting-co2-to-use",
+        "note": "IEA, Putting CO2 to Use (2019), read 2026-11-17"
+      },
+      "low": 130,
+      "high": 130
     }
   ],
   "advantages": [
@@ -78,20 +89,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "global CO2 demand for urea",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read. Global CCS Institute Global Status of CCS 2026 and CO2 shipping brief (2025) state no global urea CO2 demand figure. Web-checked 2026-10-28: global urea production is around 180 Mt-class in market reports, but no open source states the corresponding CO2 consumption in Mt/yr; not recorded.",
-      "where": [
-        {
-          "hint": "IEA CCUS in the transition or Global CCS Institute",
-          "access": "open",
-          "source_id": "global-ccs-institute"
-        }
-      ],
-      "action": "Add urea CO2 use in Mt/yr."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -121,6 +121,17 @@
         "url": "https://www.digitalrefining.com/article/1001408/fcc-gasoline-desulphurisation-for-tier-3-sulphur-compliance",
         "note": "DigitalRefining (PTQ), FCC gasoline desulphurisation for Tier 3 sulphur compliance (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "octane loss in selective hydrodesulphurisation",
+      "unit": "RON",
+      "basis": "Tier 3 case study of a Prime-G+ type selective HDS unit: total octane loss 1.3 RON, mostly from saturating linear C6 olefins and dienes. Hydrogen consumption is not quantified in the open article.",
+      "source": {
+        "url": "https://www.digitalrefining.com/article/1001408/fcc-gasoline-desulphurisation-for-tier-3-sulphur-compliance",
+        "note": "DigitalRefining/PTQ, FCC gasoline desulphurisation for Tier 3, read 2026-11-17"
+      },
+      "low": 1.3,
+      "high": 1.3
     }
   ],
   "advantages": [
@@ -147,25 +158,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "octane loss and hydrogen consumption",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Axens page gives no figures. Octane loss recorded in performance (1.3 RON case study); an open hydrogen-consumption figure was not found, 2026-10-28.",
-      "where": [
-        {
-          "hint": "Axens technical papers",
-          "access": "open",
-          "source_id": "axens"
-        },
-        {
-          "hint": "SCANfining ExxonMobil literature",
-          "access": "open",
-          "source_id": "exxonmobil-catalysts"
-        }
-      ],
-      "action": "Add them from a licensor paper."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

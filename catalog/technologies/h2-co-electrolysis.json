@@ -87,20 +87,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "power use per kg syngas and stack lifetime",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read gives them. Web-checked 2026-10-28; SOEC co-electrolysis figures in DOE/IEA annexes not open.",
-      "where": [
-        {
-          "hint": "Topsoe and Sunfire technical papers",
-          "access": "open",
-          "source_id": "topsoe"
-        }
-      ],
-      "action": "Add performance data."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -138,5 +124,18 @@
       "year": 2023
     }
   ],
-  "notes": "Process provenance: Documents solid-oxide co-electrolysis of H2O and CO2 to syngas in CFY stacks - ten-cell steam and co-electrolysis tests, H2O:CO2 ratios for Fischer-Tropsch (2) and methanation (3.3), conversion at about 830 C, and coupling to a downstream Fischer-Tropsch unit."
+  "notes": "Process provenance: Documents solid-oxide co-electrolysis of H2O and CO2 to syngas in CFY stacks - ten-cell steam and co-electrolysis tests, H2O:CO2 ratios for Fischer-Tropsch (2) and methanation (3.3), conversion at about 830 C, and coupling to a downstream Fischer-Tropsch unit.",
+  "performance": [
+    {
+      "metric": "system electricity consumption, co-electrolysis to syngas",
+      "unit": "kWh/kg syngas",
+      "basis": "Use case BP 2: 7.1 kWh/kg conversion plus 0.5 compression, 0.6 electric heaters and 0.2 AC/DC, at 92% LHV system efficiency. CATF links 1%/1,000 h degradation to about a 2.5-year stack life.",
+      "source": {
+        "url": "https://ispt.eu/media/20230508-FINAL-SOE-public-report-ISPT.pdf",
+        "note": "ISPT, Next Level Solid Oxide Electrolysis (2023), read 2026-11-17"
+      },
+      "low": 8.4,
+      "high": 8.4
+    }
+  ]
 }

@@ -78,6 +78,17 @@
       },
       "low": 20,
       "high": 20
+    },
+    {
+      "metric": "CO2 separation rate of a molten carbonate fuel cell",
+      "unit": "% of CO2 transferred",
+      "basis": "92% separation in a 250 cm2 cell on synthetic flue gas; an 11.7 m2 stack transferred over 90% of CO2 across 6,500 h with 8 kW near-constant DC output and 1.3 MJ/kg CO2 energy use.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2019-09%20Further%20Assessment%20of%20Emerging%20CO2%20Capture%20Technologies.pdf",
+        "note": "IEAGHG 2019/09, Table 21 (FuelCell Energy), read 2026-11-17"
+      },
+      "low": 90,
+      "high": 92
     }
   ],
   "advantages": [
@@ -98,25 +109,7 @@
     }
   ],
   "last_reviewed": "2026-11-17",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "capture rate, power output per tonne CO2, cost",
-      "reason_code": "not_in_sources_read",
-      "reason": "The article gives none. Web-checked 2026-10-28; ExxonMobil/FuelCell Energy pilot data not published open.",
-      "where": [
-        {
-          "hint": "EU CFC Pilot4CCS project page (cinea.ec.europa.eu)",
-          "access": "open"
-        },
-        {
-          "hint": "FuelCell Energy announcements",
-          "access": "open"
-        }
-      ],
-      "action": "Add measured pilot results."
-    }
-  ],
+  "gaps": [],
   "trl": {
     "low": 9,
     "high": 9,

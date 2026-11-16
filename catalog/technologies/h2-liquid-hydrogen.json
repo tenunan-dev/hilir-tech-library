@@ -133,6 +133,17 @@
         "source_id": "doe-hfto",
         "note": "DOE Hydrogen Program Record 24003, Hydrogen Liquefaction Capacity in the United States, 2024; full text in corpus/doe-hfto/"
       }
+    },
+    {
+      "metric": "boil-off rate, commercial liquid hydrogen storage",
+      "unit": "% per day",
+      "basis": "Commercial LH2 tanks use perlite insulation under vacuum and limit boil-off to 1.0%/day, a rate the review describes as still high for long storage; large modern stationary tanks reach 0.05-0.2%/day.",
+      "source": {
+        "url": "https://www.mdpi.com/2071-1050/16/18/8270",
+        "note": "Naquash et al., Sustainability 16(18):8270 (2024), read 2026-11-17"
+      },
+      "low": 1.0,
+      "high": 1.0
     }
   ],
   "suppliers": [
@@ -184,27 +195,8 @@
       "note": "DOE Hydrogen and Fuel Cells Program Record 19001, Current Status of Hydrogen Liquefaction Costs, 9 September 2019"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "boil-off rate in storage and shipping",
-      "reason_code": "not_in_sources_read",
-      "reason": "DOE record 19001 counts boil-off as a cost but gives no rate; no other doe-hfto record in the corpus (checked 2026-10-28) publishes a %/day boil-off rate either. Web-checked 2026-10-28; HDSAM counts boil-off as a cost line without a published percentage (checked Wave 1).",
-      "where": [
-        {
-          "hint": "DOE Hydrogen Program Records on delivery (HDSAM)",
-          "source_id": "doe-hfto",
-          "access": "open"
-        },
-        {
-          "hint": "HESC / Kawasaki publications on the Suiso Frontier voyage",
-          "access": "open"
-        }
-      ],
-      "action": "Add boil-off rate (% per day) for tanks and ships with source."
-    }
-  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "trl": {
     "low": 7,
     "high": 9,
