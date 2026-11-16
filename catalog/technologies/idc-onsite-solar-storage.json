@@ -154,20 +154,16 @@
           "hint": "Operator press releases"
         }
       ]
-    },
-    {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "No TRL table was read.",
-      "action": "Add a TRL reference.",
-      "where": [
-        {
-          "hint": "IEA Energy Technology Guide"
-        }
-      ]
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-16",
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Crystalline silicon PV and Lithium-ion storage battery' TRL 2025 - both constituents are TRL 9 rows; the card is their combination; read 2026-11-16"
+    }
+  }
 }

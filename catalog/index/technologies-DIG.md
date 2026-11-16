@@ -7,7 +7,7 @@
 | [AI and machine learning for maintenance and optimisation](#dig-ai-ml-maintenance-optimisation) | Digital and data | commercial |  | Cognite (Cognite Data Fusion industrial DataOps and AI); C3 AI (C3 AI Reliability predictive-maintenance applications); SparkCognition (SparkPredict asset AI (now part of Scale AI)); Augury (machine-health vibration and ultrasonic diagnostics) |  |
 | [Cloud SCADA and remote operations centres](#dig-cloud-scada-remote-operations) | Operations infrastructure | commercial |  | AVEVA (Schneider Electric) (AVEVA CONNECT cloud and SCADA); Emerson (remote operations); Honeywell (process cloud offerings) |  |
 | [Computerised maintenance management and work management](#dig-cmms-work-management) | Maintenance systems | commercial |  | IBM (Maximo EAM); IFS (IFS EAM); AVEVA (Schneider Electric) (AVEVA Enterprise Resource Management) |  |
-| [Digital twins of plants and assets](#dig-digital-twins) | Digital and data | commercial |  |  |  |
+| [Digital twins of plants and assets](#dig-digital-twins) | Digital and data | commercial | 9 |  |  |
 | [Engineering data standards (ISO 15926, CFIHOS)](#dig-engineering-data-standards) | Digital and data | commercial |  |  |  |
 | [Industrial IoT and wireless sensors](#dig-iiot-wireless-sensors) | Digital and data | commercial |  | Emerson (WirelessHART self-organising mesh instrumentation); Honeywell (OneWireless field device network); Yokogawa (ISA100 wireless compliance and sensors) |  |
 | [Subsurface data platforms (OSDU)](#dig-osdu) | Digital and data | commercial |  | Microsoft Azure; Amazon Web Services; Google Cloud Platform; IBM Red Hat OpenShift |  |
@@ -59,7 +59,10 @@ flowchart LR
 
 **Key equipment:** edge gateways, OPC UA brokers, cloud historians, ROC workstations.
 
-Sources: [1](https://www.aveva.com/), [2](https://process.honeywell.com/). Last reviewed 2026-11-08.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL row corresponds to this digital technology in the IEA guide. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.aveva.com/), [2](https://process.honeywell.com/). Last reviewed 2026-11-16.
 
 ## Computerised maintenance management and work management
 <a id="dig-cmms-work-management"></a>
@@ -81,7 +84,10 @@ flowchart LR
 
 **Key equipment:** CMMS/EAM software, mobile work execution, permit-to-work systems, spares inventory module.
 
-Sources: [1](https://www.aveva.com/), [2](https://www.ibm.com/products/maximo). Last reviewed 2026-11-08.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL row corresponds to this digital technology in the IEA guide. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.aveva.com/), [2](https://www.ibm.com/products/maximo). Last reviewed 2026-11-16.
 
 ## Digital twins of plants and assets
 <a id="dig-digital-twins"></a>
@@ -102,13 +108,14 @@ flowchart LR
 **Performance:**
 - smart energy system consumption cut: up to 30 % (up to); example quoted for smart energy systems, not oil and gas. [source](https://en.wikipedia.org/wiki/Digital_twin)
 
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Digital twins' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
 **Missing inputs:**
 - oil and gas twin deployments (reference_plants): None on the page. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Operator and vendor case studies (open). Next: Add examples with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Digital_twin). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Digital_twin). Last reviewed 2026-11-16.
 
 ## Engineering data standards (ISO 15926, CFIHOS)
 <a id="dig-engineering-data-standards"></a>

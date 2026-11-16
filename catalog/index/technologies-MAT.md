@@ -62,7 +62,10 @@ flowchart LR
 
 **Key equipment:** corrosion coupons and holders, ER/LPR probe systems, chemical injection skids, UT thickness instruments.
 
-Sources: [1](https://www.emerson.com/), [2](https://www.iso.org/committee/49690.html). Last reviewed 2026-11-08.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for materials classes. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.emerson.com/), [2](https://www.iso.org/committee/49690.html). Last reviewed 2026-11-16.
 
 ## Corrosion under insulation (CUI)
 <a id="mat-cui-corrosion-under-insulation"></a>
@@ -82,7 +85,10 @@ flowchart LR
 
 **Key equipment:** pulsed eddy current instruments, CUI-resistant coating systems, thermal-spray aluminium, sealed cladding.
 
-Sources: [1](https://www.ampp.org/standards), [2](https://www.iso.org/committee/49690.html). Last reviewed 2026-11-08.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for materials classes. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.ampp.org/standards), [2](https://www.iso.org/committee/49690.html). Last reviewed 2026-11-16.
 
 ## Corrosion-resistant alloys and clad pipe
 <a id="mat-cra-clad-pipe"></a>

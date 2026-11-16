@@ -5,9 +5,9 @@
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Decommissioning and well abandonment](#hse-decommissioning-abandonment) | Health, safety and environment | commercial |  |  | UKCS total decommissioning expenditure: 44.5 GBP billion |
-| [Flare management and gas recovery](#hse-flare-management-recovery) | Flaring and emissions | commercial |  | John Zink Hamworthy (flares and flare gas recovery); Zeeco (flare systems); Flare Ventures (flare metering) |  |
+| [Flare management and gas recovery](#hse-flare-management-recovery) | Flaring and emissions | commercial | 9 | John Zink Hamworthy (flares and flare gas recovery); Zeeco (flare systems); Flare Ventures (flare metering) |  |
 | [Gas and flame detection](#hse-gas-flame-detection) | Health, safety and environment | commercial |  | J-W Instruments (catalytic combustion sensors (founded 1928)) |  |
-| [Methane detection and LDAR programmes](#hse-methane-detection-ldar) | Emissions management | commercial |  | FLIR (Teledyne) (OGI cameras); GHGSat (satellite methane detection); Project Canary (continuous monitoring) |  |
+| [Methane detection and LDAR programmes](#hse-methane-detection-ldar) | Emissions management | commercial | 9 | FLIR (Teledyne) (OGI cameras); GHGSat (satellite methane detection); Project Canary (continuous monitoring) |  |
 | [NOx control (SCR, SNCR, low-NOx burners)](#hse-nox-control) | Health, safety and environment | commercial |  | IHI Corporation (first large-scale SCR installation (1978)); Engelhard Corporation (ammonia SCR patent (1957)) |  |
 | [Process hazard analysis (HAZOP, LOPA, QRA)](#hse-pha-hazop-lopa-qra) | Health, safety and environment | commercial |  |  |  |
 
@@ -62,7 +62,9 @@ flowchart LR
 
 **Key equipment:** flare gas recovery compressors, flare meters, knock-out drums, smokeless flare tips.
 
-Sources: [1](https://www.api.org/products-and-services/standards), [2](https://www.johnzink.com/), [3](https://www.zeeco.com/). Last reviewed 2026-11-08.
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Flare gas recovery' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
+Sources: [1](https://www.api.org/products-and-services/standards), [2](https://www.johnzink.com/), [3](https://www.zeeco.com/). Last reviewed 2026-11-16.
 
 ## Gas and flame detection
 <a id="hse-gas-flame-detection"></a>
@@ -111,7 +113,9 @@ flowchart LR
 
 **Key equipment:** OGI cameras, laser methane detectors, fixed continuous monitors, LDAR data systems.
 
-Sources: [1](https://www.iea.org/reports/global-methane-tracker-2025), [2](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors). Last reviewed 2026-11-08.
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Satellite-based methane emission monitoring in oil and gas facilities' TRL 2025 - the guide also has periodic monitoring at TRL 9; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
+Sources: [1](https://www.iea.org/reports/global-methane-tracker-2025), [2](https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors). Last reviewed 2026-11-16.
 
 ## NOx control (SCR, SNCR, low-NOx burners)
 <a id="hse-nox-control"></a>

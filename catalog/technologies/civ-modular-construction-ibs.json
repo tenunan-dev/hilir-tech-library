@@ -95,7 +95,7 @@
       "note": "background on modular building methods; secondary source, read 2026-11-07"
     }
   ],
-  "last_reviewed": "2026-11-14",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -141,6 +141,23 @@
           "hint": "Operator and contractor press releases for awarded structures"
         }
       ]
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No agency TRL exists for civil and structural works. Checked 2026-11-16.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (already searched, 634 rows)",
+          "access": "open"
+        },
+        {
+          "hint": "Sector regulator or industry body publishing a TRL for this class",
+          "access": "open"
+        }
+      ],
+      "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
   ]
 }

@@ -64,7 +64,7 @@
       "note": "Wikipedia, Digital twin, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "reference_plants",
@@ -103,20 +103,6 @@
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -129,5 +115,13 @@
       ],
       "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Digital twins' TRL 2025; read 2026-11-16"
+    }
+  }
 }

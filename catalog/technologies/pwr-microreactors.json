@@ -201,7 +201,7 @@
       "note": "NANO Nuclear Energy homepage, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -225,20 +225,6 @@
         }
       ],
       "action": "Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no separate microreactor entry; SMR entries cover larger units.",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): check the SMR entry's scope",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Decide whether the IEA SMR entry covers microreactors, or leave maturity resting on the evidence on the card."
     },
     {
       "field": "status",
@@ -267,5 +253,13 @@
       "action": "Check the steps against a named licensing or test-bed document."
     }
   ],
-  "notes": "The eVinci test reactor is a scaled-down 3 MWt unit at the NRIC DOME test bed in Idaho (DOE approved its preliminary safety design report in June 2025, the first for a microreactor developer). Oklo's INL unit is being built under DOE authorisation, to be converted to an NRC commercial licence. The US Army selected eVinci for the next phase of its Janus programme in August 2026 (energy.gov article read 26 October 2026)."
+  "notes": "The eVinci test reactor is a scaled-down 3 MWt unit at the NRIC DOME test bed in Idaho (DOE approved its preliminary safety design report in June 2025, the first for a microreactor developer). Oklo's INL unit is being built under DOE authorisation, to be converted to an NRC commercial licence. The US Army selected eVinci for the next phase of its Janus programme in August 2026 (energy.gov article read 26 October 2026).",
+  "trl": {
+    "low": 5,
+    "high": 5,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Heat-pipe cooled SMRs' TRL 2025 - the guide has no 'microreactor' row; heat-pipe SMR is the closest class and the basis for the number; read 2026-11-16"
+    }
+  }
 }

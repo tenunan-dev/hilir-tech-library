@@ -8,6 +8,21 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.6] — 2026-11-16 — TRL from the IEA guide; silent gaps made explicit
+
+### Added
+
+- **Twenty-three TRLs with cited IEA Clean Energy Technology Guide rows**, covering CO2 storage monitoring, MCFC capture, mineralisation, biogas upgrading, pressure-vessel hydrogen storage, first-generation biofuels, heat-pipe SMRs (as the closest class to microreactors, stated as such), ORC, LH2 carriers, salt-cavern storage, acid-gas removal, mini-LNG, GTL, CNG/LNG vehicle fuel, satellite methane monitoring, flare gas recovery, digital twins, UHV, solar-plus-storage and anaerobic digestion. Cards with a TRL: 107 → **132**.
+
+### Changed
+
+- **95 cards that carried no TRL and no gap now state why.** The IEA guide's scope is energy-transition technology, not oil-and-gas process units or data-centre hardware, so those cards name what was searched and carry the rule "do not infer a TRL from commercial maturity". Recorded TRL gaps therefore rose 203 → 256: the backlog did not grow, it stopped being invisible.
+- Rejected three tempting automated matches that were different technologies wearing the same words (nitrogen reduction for CO2 electroreduction; LOHC for compressed tube trailers; AD *without* upgrading for the biogas-upgrading card).
+
+### Fixed
+
+- My own backfill read a stale index and left 23 cards holding a TRL *and* a TRL gap; a consistency query caught it and it was cleaned before publishing.
+
 ## [2026.11.16.5] — 2026-11-16 — the electrical sector: 15 cost figures, ELE vendor queue emptied
 
 ### Added

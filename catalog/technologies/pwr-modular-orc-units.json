@@ -241,7 +241,7 @@
       "note": "ElectraTherm products page, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -265,20 +265,6 @@
         }
       ],
       "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide was not re-checked for ORC entries. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry).",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for organic Rankine cycle",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL table entry or leave maturity resting on the evidence on the card."
     },
     {
       "field": "reference_plants",
@@ -307,5 +293,13 @@
       "action": "Check the steps against a named source and cite it."
     }
   ],
-  "notes": "Turboden is part of the Mitsubishi Heavy Industries group (MHI group companies page is catalogued as mitsubishi-heavy). Enogia's page is in French. Turboden's application pages returned HTTP 503 on 26 October 2026, so only its homepage figures are used."
+  "notes": "Turboden is part of the Mitsubishi Heavy Industries group (MHI group companies page is catalogued as mitsubishi-heavy). Enogia's page is in French. Turboden's application pages returned HTTP 503 on 26 October 2026, so only its homepage figures are used.",
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Organic rankine cycle (low temperature resources)' TRL 2025; read 2026-11-16"
+    }
+  }
 }

@@ -13,13 +13,13 @@
 | [Delayed coking and fluid coking](#ref-delayed-coking) | Conversion / thermal | commercial |  | Lummus; Bechtel/Foster Wheeler (Amec); ExxonMobil (Flexicoking) |  |
 | [Etherification (MTBE, ETBE, TAME)](#ref-etherification) | Refining / gasoline blending | commercial |  | Axens (MTBE/ETBE, TAME/TAEE, Isobutely back-cracking); Lummus Technology (CDEthers (page not read)); Lummus Technology (etherification technologies (CDEthers/CDTaee line - MTBE, ETBE, TAEE and bio-ethers) — started up the CDTaee bio-ethers unit at Hellenic Petroleum Aspropyrgos, Greece (Aug 2020)) |  |
 | [FCC gasoline post-treating (Prime-G+, SCANfining)](#ref-fcc-gasoline-post-treating) | Refining / treating | commercial |  | Axens (Prime-G+); ExxonMobil (SCANfining (register examples; not verified in sources read)) |  |
-| [Flare gas recovery and smokeless flares](#ref-flare-systems) | Refining / environment | commercial |  | Zeeco (flare systems (register examples)); John Zink (flare systems); John Zink (Koch) (industrial burners, flares (enclosed ground, ultra-low-emission), thermal oxidizers, vapor control and flare gas recovery systems) |  |
+| [Flare gas recovery and smokeless flares](#ref-flare-systems) | Refining / environment | commercial | 9 | Zeeco (flare systems (register examples)); John Zink (flare systems); John Zink (Koch) (industrial burners, flares (enclosed ground, ultra-low-emission), thermal oxidizers, vapor control and flare gas recovery systems) |  |
 | [Fluid catalytic cracking and resid FCC](#ref-fcc) | Conversion / catalytic cracking | commercial |  | Honeywell UOP (FCC, RFCC, PetroFCC); KBR; Axens/Technip Energies; Lummus; Shell |  |
 | [Hydrocracking (fixed bed)](#ref-hydrocracking) | Conversion / hydroprocessing | commercial |  | Chevron Lummus Global (ISOCRACKING); Honeywell UOP (Unicracking); Shell; Topsoe; Axens |  |
 | [Hydrotreating (naphtha, diesel, VGO)](#ref-hydrotreating) | Treating / hydroprocessing | commercial |  | Topsoe (TK-series BRIM and HyBRIM catalysts, HDS/HDA); Axens; Honeywell UOP (Unionfining); Shell Catalysts & Technologies; Chevron Lummus Global |  |
 | [Isomerisation (C5/C6)](#ref-isomerisation) | Octane upgrading | commercial |  | Axens (once-through, Ipsorb, Hexorb; ATIS-1L/2L catalysts); Honeywell UOP (Penex); GTC Technology |  |
 | [Mercaptan sweetening (Merox)](#ref-merox-sweetening) | Refining / treating | commercial |  | Honeywell UOP (Merox); Merichem (mercaptan treating (register examples; not verified)) |  |
-| [Process simulation and digital twins](#ref-process-simulation-digital-twin) | Refining / digital | commercial |  | AspenTech (Aspen HYSYS); AVEVA (register examples); KBC (Petro-SIM (register examples)) |  |
+| [Process simulation and digital twins](#ref-process-simulation-digital-twin) | Refining / digital | commercial | 9 | AspenTech (Aspen HYSYS); AVEVA (register examples); KBC (Petro-SIM (register examples)) |  |
 | [Refinery-petrochemical integration (FCC propylene, HS-FCC)](#ref-petrochemical-integration) | Refining / petrochemical integration | commercial |  | Axens (HS-FCC licensing (with Shaw, search result not read)); Chiyoda (built the 30 b/d demonstration plant); Saudi Aramco (HS-FCC development with KFUPM and JX Nippon Oil); Honeywell UOP (register examples; not verified); KBR (register examples; not verified) |  |
 | [Renewable diesel and SAF by hydrotreated esters and fatty acids (HEFA)](#ref-hefa) | Low-carbon refining / bio-feed hydroprocessing | commercial | 9 | Neste (NEXBTL); Honeywell UOP (Ecofining (with Eni)); Topsoe (HydroFlex); Axens (Vegan) | minimum jet fuel selling price, HEFA: 3.8-11 USD/gal (2014$) |
 | [Resid hydrocracking (ebullated and slurry bed)](#ref-resid-hydrocracking) | Conversion / residue upgrading | commercial |  | Eni (EST); Axens (H-Oil); Chevron Lummus Global (LC-FINING); KBR (VCC) |  |
@@ -353,12 +353,13 @@ flowchart LR
 - destruction efficiency of properly operated flares: 98 %; EPA AP-42; 96.5% combustion efficiency roughly equals 98% destruction. [source](https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf)
 - NOx emission factor, elevated flares: 0.068 lb/10^6 Btu; EPA AP-42. [source](https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf)
 
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Flare gas recovery' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no named flare project with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf), [2](https://en.wikipedia.org/wiki/Gas_flare). Last reviewed 2026-10-28.
+Sources: [1](https://www.epa.gov/sites/default/files/2020-10/documents/13.5_industrial_flares.pdf), [2](https://en.wikipedia.org/wiki/Gas_flare). Last reviewed 2026-11-16.
 
 ## Fluid catalytic cracking and resid FCC
 <a id="ref-fcc"></a>
@@ -547,14 +548,15 @@ flowchart LR
 **Performance:**
 - savings reported at Al Zour: 0.95 USD million; AspenTech case study, dollar year not stated, not broken down; refinery capacity 615,000 bpd. [source](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery)
 
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Digital twins' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
 **Missing inputs:**
 - independent evidence of benefits (performance): One vendor case study. Web-checked 2026-10-28: published benefit figures found are vendor case studies (CTG: 80% project-cost saving, 95% workflow-time cut) and cross-industry claims (18-28% opex); no independent refinery-specific study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add an independent study.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; simulator licence prices are vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named refinery digital-twin project with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28; its Digital twins entry is grids-category, not refining). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery). Last reviewed 2026-10-28.
+Sources: [1](https://solutions.aspentech.com/en/resources/case-studies/refinery-wide-simulation-in-aspen-hysys-a-game-changer-for-kipics-al-zour-refinery). Last reviewed 2026-11-16.
 
 ## Refinery-petrochemical integration (FCC propylene, HS-FCC)
 <a id="ref-petrochemical-integration"></a>

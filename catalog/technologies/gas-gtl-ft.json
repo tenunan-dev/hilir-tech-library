@@ -122,21 +122,8 @@
       "note": "Shell Qatar, Pearl GTL"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "trl",
-      "item": "TRL range with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
-      "where": [
-        {
-          "hint": "Licensor or industry association statements of commercial deployment; academic reviews",
-          "access": "open"
-        }
-      ],
-      "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
     {
       "field": "costs",
       "item": "capital cost and levelized or unit cost, with dollar year and basis",
@@ -178,5 +165,13 @@
         "note": "Shell Qatar Pearl GTL page; industrialinfo (USD 19 bn commissioning); read 2026-10-28"
       }
     }
-  ]
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-GTL conversion plants' TRL 2025; read 2026-11-16"
+    }
+  }
 }

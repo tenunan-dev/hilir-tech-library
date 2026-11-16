@@ -144,7 +144,7 @@
       "note": "QGESS: Carbon Dioxide Transport and Storage Costs in NETL Studies, DOE/NETL-2024/4852, July 2024"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -183,20 +183,6 @@
       "action": "Add one or two plants with country, capacity and start-up year."
     },
     {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -209,5 +195,13 @@
       ],
       "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Advanced CO2 storage monitoring technologies' TRL 2025 - the guide's closest row to MMV; it covers storage monitoring rather than a measurement programme as such; read 2026-11-16"
+    }
+  }
 }

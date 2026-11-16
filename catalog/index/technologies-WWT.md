@@ -5,7 +5,7 @@
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
 | [Aerobic granular sludge treatment (Nereda)](#wwt-aerobic-granular-sludge) | Biological treatment | commercial |  | Royal HaskoningDHV (Nereda aerobic granular sludge technology (licensor)) | installed capital cost, AGS plus tertiary UF upgrade: 1863 NIS per m3/d of capacity |
-| [Anaerobic sludge digestion (mesophilic/thermophilic)](#wwt-sludge-digestion) | Sludge and biogas | commercial |  | Veolia (digestion configurations); Cambi (thermal hydrolysis pretreatment); Xergi (digester packages) | capital cost, two-stage anaerobic digestion system, 12 MGD plant (Grand Island, Nebraska): 10.7 USD million (2006$)<br>capital cost, two-stage TPAD anaerobic digestion system, 43 MGD plant (WLSSD Duluth): 32.6 USD million (2006$)<br>operation and maintenance cost, anaerobic digestion: 9.39-51.51 USD per dry ton through the digesters (1999$) |
+| [Anaerobic sludge digestion (mesophilic/thermophilic)](#wwt-sludge-digestion) | Sludge and biogas | commercial | 9 | Veolia (digestion configurations); Cambi (thermal hydrolysis pretreatment); Xergi (digester packages) | capital cost, two-stage anaerobic digestion system, 12 MGD plant (Grand Island, Nebraska): 10.7 USD million (2006$)<br>capital cost, two-stage TPAD anaerobic digestion system, 43 MGD plant (WLSSD Duluth): 32.6 USD million (2006$)<br>operation and maintenance cost, anaerobic digestion: 9.39-51.51 USD per dry ton through the digesters (1999$) |
 | [Biological nutrient removal (BNR)](#wwt-bnr) | Biological treatment | commercial |  | Jacobs (BNR process consulting); Veolia (BNR configurations) | capital cost, BNR retrofit: 588000-6.972e+06 USD per mgd of capacity (2006$) |
 | [Chlorination and dechlorination](#wwt-chlorination) | Disinfection and advanced oxidation | commercial |  | Evoqua Water Technologies (chlorination and dechlorination systems); Xylem (disinfection dosing) | annualised capital cost, chlorination plus dechlorination plus fire-code compliance: 1.127e+06-1.434e+07 USD per mgd of capacity (1995$)<br>chemical-only disinfectant cost, sodium hypochlorite: 0.0166-0.066 USD per m3 treated (2024$) |
 | [Coagulation-flocculation and chemical precipitation](#wwt-coagulation-precipitation) | Physical and chemical treatment | commercial |  | Kemira (coagulants and polymers); Veolia (turnkey chemical treatment trains) | bulk coagulant price, liquid alum (iron-free): 152-269 USD per tonne (2000$) |
@@ -62,6 +62,9 @@ flowchart LR
 **Costs:**
 - installed capital cost, AGS plus tertiary UF upgrade: 1863 NIS per m3/d of capacity; Soreq WWTP train 5, 75,000 m3/d basis, built up from equipment costs, membrane quotations and independent review; excludes replacing outdated equipment in existing trains and the new feed pump station. A second case gives 1,758 NIS/m3/d on 79,500 m3/d.. [source](https://iwaponline.com/wpt/article/21/8/3544/112830/Experiences-with-aerobic-granular-sludge-for-large)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.nereda.net/). Last reviewed 2026-11-16.
 
 ## Anaerobic sludge digestion (mesophilic/thermophilic)
@@ -97,6 +100,8 @@ flowchart LR
 **Reference plants:**
 - Tuas Water Reclamation Park (co-located sludge energy): ; . [source](https://www.pub.gov.sg/)
 
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Anaerobic digestion without biogas upgrading' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
 **Missing inputs:**
 - unit capital cost per dry tonne of solids stabilised (costs): O&M per dry tonne is now recorded ($9.39-51.51, average $24.91, 1999 USD). A capital figure normalised per dry tonne was not found; the card holds named-facility capital costs instead. Where: WEF/EPA biosolids cost studies reporting USD per dry tonne for digestion. Next: Leave open until a source states a capital cost per dry tonne.
 
@@ -129,6 +134,9 @@ flowchart LR
 **Costs:**
 - capital cost, BNR retrofit: 588000-6.972e+06 USD per mgd of capacity (2006$); Retrofit upgrades (engineering, pilot study, design, construction) across 43 Maryland and 23 Connecticut plants by size band: >10 mgd $588,000/mgd; 1-10 mgd $1,742,000/mgd; 0.1-1.0 mgd $6,972,000/mgd. 2006 USD, ENR 7910.81. Retrofit, not greenfield.. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=60000G2U.TXT)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Chlorination and dechlorination
@@ -155,6 +163,9 @@ flowchart LR
 **Costs:**
 - annualised capital cost, chlorination plus dechlorination plus fire-code compliance: 1.127e+06-1.434e+07 USD per mgd of capacity (1995$); WERF 1995 study at 1 mgd ADWF, 5 mg/L dose: chlorination $410,000 + dechlorination $290,000 + UFC compliance $239,000 = $1,127,000; 10 mgd $3,137,000 (5 mg/L); 100 mgd $14.34M. Dechlorination adds 30-50%. O&M $49,300/yr at 1 mgd (about $0.036/m3), $158,200/yr at 10 mgd.. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=200044E0.TXT)
 - chemical-only disinfectant cost, sodium hypochlorite: 0.0166-0.066 USD per m3 treated (2024$); Derived: 12.5% hypochlorite at $1.79/gal (Oct 2024 unit-price sheet) = $1.50/lb available Cl2 ($3.31/kg) assuming SG 1.20; dose 5-20 mg/L (EPA) gives 0.0166-0.066 USD/m3. Chemical only - no power, labour or dechlorination. A Dec 2023 Baytown bid ($0.2300/lb solution) gives about $0.021/m3 at 5 mg/L, an independent check.. [source](https://public.destinyhosted.com/casagdocs/2024/CCREG/20241007_2380/7630_Unit_Prices.pdf)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.evoqua.com/). Last reviewed 2026-11-16.
 
@@ -187,6 +198,7 @@ flowchart LR
 
 **Missing inputs:**
 - chemical cost per m3 treated (dose x bulk price), with dollar year (costs): Bulk coagulant prices are now recorded (alum, ferric chloride, lime, Jan 2000). A per-m3 figure needs a dose, which no loaded source pairs with these prices; the $0.04/gal figure found is for metal-plating waste, not municipal sewage. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this metric; do not derive it from an unrelated scope.
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
@@ -226,6 +238,7 @@ flowchart LR
 
 **Missing inputs:**
 - non-energy operating cost per m3 treated, with dollar year (costs): Energy demand and its electricity cost are now recorded (1,500-1,700 kWh/MG; about $0.036-0.041/m3 at the quoted $0.09/kWh). Labour, chemicals, maintenance and sludge haulage were not priced in any source loaded on 2026-11-16. Where: EPA fact sheets state no operating energy figure for activated sludge; plant energy benchmarks are in utility and WEF publications. Next: Leave open until a source states this metric; do not derive it from an unrelated scope.
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.xylem.com/). Last reviewed 2026-11-16.
 
@@ -257,6 +270,9 @@ flowchart LR
 **Costs:**
 - total installed cost, dissolved air flotation thickener: 2640 USD per m3/h of design flow; Derived from a manufacturer example: USD 600,000 installed for a 40 ft diameter DAF on 1,000 gpm (~227 m3/h) waste-activated-sludge feed at 5,000 mg/L, with 1,200 gpm recycle. Dollar year not stated; manufacturer figure, order-of-magnitude only.. [source](https://www.westechwater.com/blog/reduce-energy-costs-using-dissolved-air-flotation-for-waste-activated-sludge-thickening)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Internal-circulation anaerobic reactor (Paques BIOPAQ IC)
@@ -286,6 +302,7 @@ flowchart LR
 
 **Missing inputs:**
 - reactor cost per kg COD/d, dollar year (costs): Searched 2026-11-16: the per-kg-COD figure exists in the literature (Wiley, doi 10.1002/cjce.70351) but Cloudflare blocked the HTML, PDF and XML routes; vendors quote only lump-sum equipment ($200k-400k) with no flow basis. Where: [ICIS Water or Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Retry the Wiley paper through the owner's browser; otherwise request the figure from a licensor quote.
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.paques.nl/products/biopaq-ic). Last reviewed 2026-11-16.
 
@@ -319,6 +336,9 @@ flowchart LR
 **Costs:**
 - equipment cost, lamella settler in SUS 304: 300-600 USD per m3/h of design flow (2026$); Vendor price list, May 2026: standard SUS 304 lamella settler, price per m3/h falling with size and rising for premium alloys or customisation. The page does not itemise what the figure includes; vendor rule of thumb, not a benchmark.. [source](https://www.weilanwaters.com/lamella-settler-prices)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Mechanical sludge dewatering
@@ -349,7 +369,10 @@ flowchart LR
 - capital cost, belt filter press (1.5 m belt, about 1,625 dry lb/h): 115000 USD per press (2000$); Same sheet: USD 115,000 for a 1.5 m belt (about 1,625 dry pounds per hour), 5 percent solids feed, excluding installation, shipping and ancillary equipment.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/belt-filter-press-factsheet.pdf)
 - operation and maintenance cost, belt filter press: 80-200 USD per dry ton of solids (2000$); Overall operation and maintenance costs range from USD 80 to USD 200 per dry ton of solids. Polymer conditioning adds USD 2.65-91.15 per million gallons (average USD 24.38), and permanganate about USD 1 per million gallons.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/belt-filter-press-factsheet.pdf)
 
-Sources: [1](https://www.alfalaval.com/). Last reviewed 2026-11-14.
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.alfalaval.com/). Last reviewed 2026-11-16.
 
 ## Membrane bioreactor (MBR) wastewater treatment
 <a id="wwt-membrane-bioreactor"></a>
@@ -383,7 +406,10 @@ flowchart LR
 **Reference plants:**
 - Pantai 2 STP, Kuala Lumpur (underground MBR plant): ; . [source](https://www.iwk.com.my/)
 
-Sources: [1](https://kubota-membrane.com/en/mbr-system/). Last reviewed 2026-11-14.
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://kubota-membrane.com/en/mbr-system/). Last reviewed 2026-11-16.
 
 ## Microfiltration and ultrafiltration pretreatment
 <a id="wwt-uf-pretreatment"></a>
@@ -412,6 +438,9 @@ flowchart LR
 
 **Costs:**
 - installed capital cost, hollow-fibre UF ahead of NF: 0.67 USD per gallon per day (2018$); 2 mgd hollow-fibre UF, equipment $1.04M, part of a $2.49/gpd total train with NF.. [source](https://www.deswater.com/readfulltextopenaccess.php?id=RFdUX2FydGljbGVzL3ZvbF8xMjRfcGFwZXJzLzEyNF8yMDE4XzEucGRm)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.suezwatertechnologies.com/). Last reviewed 2026-11-16.
 
@@ -443,6 +472,9 @@ flowchart LR
 **Costs:**
 - packaged MBBR plant, equipment: 4160 USD per m3/d of capacity; Derived from a 5 m3/d all-in-one packaged unit at USD 20,800 (average 5, maximum 8 m3/d): screen, equalisation, anoxic tank, MBBR tank, central tube, chlorine contact, filtration and sludge holding; media and spares listed separately. Vendor quotes 2021, price year not stated. A small packaged unit has no economy of scale - do not read it as a municipal MBBR benchmark.. [source](https://ejfa.me/index.php/journal/article/download/2848/1631)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Nanofiltration for selective separations
@@ -470,6 +502,9 @@ flowchart LR
 
 **Costs:**
 - installed capital cost, hollow-fibre loose NF with sand filtration: 1.96-2.49 USD per gallon per day (2018$); 2 mgd plant on Florida groundwater: HF-LNF $1.96/gpd (total $4.482M); seawater-NF alternative $2.49/gpd. O&M $0.06/gpd (HF-LNF) and $0.11/gpd (SW-NF).. [source](https://www.deswater.com/readfulltextopenaccess.php?id=RFdUX2FydGljbGVzL3ZvbF8xMjRfcGFwZXJzLzEyNF8yMDE4XzEucGRm)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.dupont.com/water.html). Last reviewed 2026-11-16.
 
@@ -499,6 +534,9 @@ flowchart LR
 **Costs:**
 - break-even cost, electrochemical struvite recovery: 6.03 USD per kg struvite recovered (2022$); Pearl 500 reactor at a 45,425 m3/d plant with anaerobic digestion, 18-33% phosphorus recovery: capital $2.16/kg and O&M $0.34/kg against a $6.03/kg break-even.. [source](https://www.mdpi.com/2071-1050/14/20/13657)
 - break-even cost per kg phosphorus recovered: 47.9 USD per kg P (2022$); Derived from $6.03/kg struvite at 0.126 kg P per kg struvite; the conversion is ours, not the paper's.. [source](https://www.mdpi.com/2071-1050/14/20/13657)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://ostara.com/). Last reviewed 2026-11-16.
 
@@ -530,6 +568,9 @@ flowchart LR
 - annual operation and maintenance cost, 1 MGD ozone disinfection system, excluding power: 18500 USD per year (1998$); EPA 832-F-99-063 Table 2 (typical cost estimate for a 1 MGD system, source Champion Technology 1998): labour USD 12,000/yr plus other consumables USD 6,500/yr (filter replacements, compressor oil, spare dielectric); power demand 90 kW is listed but not costed. The USD 18,500 total is the sum of the two listed items and excludes power.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/ozon.pdf)
 - total installed capital cost, ozone disinfection: 389000 USD per mgd of capacity (1998$); Line items for 1 mgd of secondary effluent (BOD<30, SS<30 mg/L): oxygen feed gas and compressor $245,500; contact vessel $4,000-5,000; off-gas destruct $800-1,200; non-component $35,000; engineering $12,000-15,000; plus 30% contingency. O&M: labour $12,000/yr, 90 kW power, other $6,500/yr.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/ozon.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.xylem.com/). Last reviewed 2026-11-16.
 
 ## Potable reuse schemes (IPR/DPR)
@@ -559,6 +600,9 @@ flowchart LR
 **Reference plants:**
 - Changi WRP (Singapore, NEWater supplier): ; . [source](https://www.pub.gov.sg/)
 - Tuas Water Reclamation Park (Singapore, under construction): ; . [source](https://www.pub.gov.sg/)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.pub.gov.sg/). Last reviewed 2026-11-16.
 
@@ -594,6 +638,7 @@ flowchart LR
 
 **Missing inputs:**
 - capital cost per m3/d for a CPI/IGF plus hydrocyclone de-oiling train, with dollar year (costs): The 2015 Antero figure is recorded but its scope is evaporation/crystallisation ZLD, not de-oiling. No loaded source prices the simpler train as a unit cost; searched 2026-11-16. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this exact metric and scope.
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
@@ -628,6 +673,9 @@ flowchart LR
 **Costs:**
 - installed capital cost, potable reuse train (MF/RO/UVAOP): 6 USD per gallon per day (2013$); 20 mgd train, secondary-effluent feed with ocean disposal of concentrate: $120M capital = $6.00/gpd (~1,585 USD per m3/d). O&M $5.9M/yr separately; a 5 mgd train costs $52M.. [source](https://watereuse.org/wp-content/uploads/2015/12/2013_Watereuse_Webcast_Schimmoller_Kealy-Rev1.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.dupont.com/water.html). Last reviewed 2026-11-16.
 
 ## Screening and grit removal
@@ -654,6 +702,9 @@ flowchart LR
 
 **Costs:**
 - construction cost, headworks screening facility: 98-108 USD per m3/d of design flow (2019$); Derived from a Class 5 estimate for the Roberto Bustamante WWTP headworks: screening facility construction $19.0M (total project $20.9M) against the 51 mgd AADF expansion flow the headworks is designed for (193,055 m3/d). Dividing by permitted peak flow instead gives a much lower figure, so the flow basis travels with the number: $98/m3/d construction, $108/m3/d project cost.. [source](https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6843404/File/Business%20Center/Purchasing%20Overview/Bids/Professional%20Services/RFQ114-19/Condition%20Assessment%20and%20Alternatives%20Evaluation%20TM.pdf)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.huber.de/). Last reviewed 2026-11-16.
 
@@ -684,6 +735,9 @@ flowchart LR
 - operation and maintenance cost, sequencing batch reactor: 800-2000 USD per million gallons treated (1999$); EPA fact sheet: operation and maintenance costs are site specific and may range from USD 800 to USD 2,000 per million gallons treated. Document dated September 1999 and states no dollar year, so the document year is recorded.. [source](https://www.epa.gov/system/files/documents/2022-10/sequencing-batch-reactors-factsheet.pdf)
 - installed cost, SBR system: 1.65-5 USD per gallon per day of capacity (1998$); March 1998 USD, ENR 5875, complete installed SBR including sludge handling: $1.96-5.00/gal at 0.5-1.0 mgd, $1.83-2.69 at 1.1-1.5 mgd, $1.65-3.29 at 1.5-2.0 mgd. Equipment only (excluding tanks and sitework) $150,000-350,000 at 1 mgd. O&M $800-2,000 per million gallons treated.. [source](https://www.epa.gov/system/files/documents/2022-10/sequencing-batch-reactors-factsheet.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Sludge incineration and co-incineration
@@ -713,6 +767,9 @@ flowchart LR
 - operating cost, biosolids incineration: 83-269 USD per dry Mg (2002$); EPA 832-F-03-013: operating costs in one study range from USD 83 to USD 269 per dry Mg (USD 76-245 per dry ton), adjusted using 2002 ENR values. Comparable figures in the same sheet: landfill USD 127/dry Mg (USD 115/dry ton), land application about USD 15.40/dry Mg (USD 14/dry ton).. [source](https://www.epa.gov/sites/default/files/2018-11/documents/use-incineration-biosolids-management-factsheet.pdf)
 - capital cost, new fluidised-bed incineration facility: 60000 USD per dry tonne per day of capacity (1994$); New FBF in North Carolina serving 136,000 m3/d (36 MGD): $6M facility. EPA prints the unit figure as $66/dry Mg ($60/dry ton); the '/day' and thousands are implied by the context, so treat as indicative. O&M $76-245/dry ton (2002 ENR).. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P10053DX.TXT)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
 ## Sludge thickening
@@ -741,6 +798,9 @@ flowchart LR
 - installed capital cost, gravity thickener, by plant capacity (2-25 MGD): 199000-3.2e+06 USD (2000$); EPA 832-F-03-022 Table 5, adjusted to the year 2000: construction plus engineering and administration of USD 199,000 at 2 MGD, 426,000 at 4 MGD, 914,000 at 8 MGD, 1,825,000 at 15 MGD, 2,504,000 at 20 MGD and 3,200,000 at 25 MGD (construction only: 162,000 to 2,610,000). The range spans plant capacity, not uncertainty at one size.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/gravity-thickening-factsheet.pdf)
 - unit cost, gravity thickening operation: 0.3-3 USD per dry ton (2000$); Economies of scale, larger plants at the low end. EPA describes these as unit costs for the thickening operation and does not state whether capital is included, so treat as O&M-side only.. [source](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P10053EB.TXT)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.huber.de/). Last reviewed 2026-11-16.
 
 ## Thermal sludge drying and pyrolysis
@@ -768,6 +828,9 @@ flowchart LR
 
 **Costs:**
 - total cost, heat drying of biosolids: 323-441 USD per dry tonne (1994$); Indirect dryer $323/dry ton, direct dryer $441/dry ton at ~35 dry metric t/d; capital $26.8M indirect vs $37M direct. O&M separately $180-300/dry ton.. [source](https://www.epa.gov/sites/default/files/2018-11/documents/heat-drying-factsheet.pdf)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.andritz.com/products-separation). Last reviewed 2026-11-16.
 
@@ -799,6 +862,9 @@ flowchart LR
 **Costs:**
 - construction cost, trickling filter plant: 760000-6.34e+07 USD per mgd of capacity; Complete TF system at 1 mgd $0.76M, 10 mgd $6.34M, 50 mgd $25M, 100 mgd $63.4M, with labour $0.05-1.0M and O&M $0.063-1.3M/yr; adapted from Martin & Martin (1990), base year not stated on the sheet - order of magnitude.. [source](https://www.epa.gov/system/files/documents/2022-10/trickling-filters-factsheet.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.westech-inc.com/). Last reviewed 2026-11-16.
 
 ## UV disinfection
@@ -826,6 +892,9 @@ flowchart LR
 **Costs:**
 - total capital cost, UV disinfection system: 244000 USD (1999$); Equipment $120,000 + structural $64,000 + electrical $20,000 + miscellaneous $40,000; O&M $19,190/yr (energy $3,300, lamps/chemicals $2,840, cleaning $1,180, maintenance $1,440, process control $6,240, testing $4,160). The sheet does NOT state the design flow, so it cannot be normalised to m3/d; the underlying WERF study covers 1, 10 and 100 mgd with lamps banded 1-5, 5-10 and 19-100 mgd.. [source](https://www.epa.gov/sites/default/files/2015-06/documents/uv.pdf)
 - capital cost, UV disinfection at plant peak flow: 11-21.1 USD per m3/d of capacity (2004$); Derived: $3,350,000 for low-pressure high-output UV sized for 42 mgd (158,987 m3/d) = $21.1/m3/d. About half the capital was modifying the outfall into a UV chamber; with an existing chlorine contact tank the report says the cost could fall by up to $1.6M, giving about $11/m3/d. Chlorination/dechlorination for the same flow was $1,150,000.. [source](https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/UV-Disinfection-Options-for-Wastewater-Treatment-Plants.pdf)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.trojantechnologies.com/). Last reviewed 2026-11-16.
 
@@ -857,6 +926,9 @@ flowchart LR
 **Costs:**
 - UASB acquisition cost per organic load: 262 USD per kg COD/d of design load (2019$); Derived from a Brazilian pulp-and-paper mill: UASB acquisition cost USD 3.4M against a design organic loading rate of 12,960 kg COD/d (9,288 m3/d wastewater). Acquisition cost only, single retrofit, no civils breakdown - an order-of-magnitude anchor, not a cost curve.. [source](https://www.biofueljournal.com/article_92201_58ae1ca2f4769904c302d9aee827e1c9.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.paques.nl/products/biopaq-uasb). Last reviewed 2026-11-16.
 
 ## Water minimisation and reuse pinch for industry
@@ -884,6 +956,7 @@ flowchart LR
 
 **Missing inputs:**
 - consultancy cost per study, dollar year (costs): Searched 2026-11-16: no page prices a pinch/process-integration study. Consultancy fees are commercially confidential and are not published. Where: Ask the owner for a benchmarked study cost. Next: Ask the owner's preferred consultancy for a typical fee, or record the gap as permanently owner-held.
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.metito.com/). Last reviewed 2026-11-16.
 
@@ -915,6 +988,9 @@ flowchart LR
 **Costs:**
 - total water cost, ZLD by direct-contact membrane distillation plus cooling crystallisation: 0.64-1.41 USD per barrel of clean water (2025$); $1.41/bbl with steam heat (~8.87 USD/m3) and $0.64/bbl with waste heat (~4.02 USD/m3) at 500,000 GPD on high-salinity produced water. Capital $0.12/bbl; operating cost dominates at $1.29/bbl.. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12471401)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.aquatech.com/). Last reviewed 2026-11-16.
 
 ## Advanced oxidation processes (AOP)
@@ -939,6 +1015,9 @@ flowchart LR
 **Costs:**
 - total treatment cost, UV/H2O2 (Calgon Carbon estimate): 0.084-1.08 USD per m3 treated; Derived from the source's USD per 1,000 gal: 0.32/1,000 gal at 1,380 m3/h and 20 ug/L pollutant, rising to 4.11/1,000 gal at 13.8 m3/h and 2,000 ug/L. Total treatment cost (amortised capital plus O&M), not capital only; price year not stated.. [source](https://iopscience.iop.org/article/10.1088/1757-899x/206/1/012089/pdf)
 - total treatment cost, H2O2/O3: 0.092-0.955 USD per m3 treated; Derived from 0.35/1,000 gal at 1,380 m3/h to 3.62/1,000 gal at 13.8 m3/h; photo-Fenton is quoted at 2.88/m3 under optimum conditions. Price year not stated.. [source](https://iopscience.iop.org/article/10.1088/1757-899x/206/1/012089/pdf)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.trojantechnologies.com/). Last reviewed 2026-11-16.
 
@@ -972,6 +1051,7 @@ flowchart LR
 
 **Missing inputs:**
 - capital cost per m3/d of installed capacity, with dollar year (costs): Total treatment cost (0.35-0.42 EUR/m3) is now recorded. Capital cost per m3/d was not present in any source loaded on 2026-11-16; the gap is narrowed to that. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this metric; do not derive it from an unrelated scope.
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://kubota-membrane.com/). Last reviewed 2026-11-16.
 
@@ -1002,6 +1082,9 @@ flowchart LR
 **Costs:**
 - levelised cost of water, single-stage mechanical vapour compression: 3.6-6.1 USD per m3 of product water (2024$); Feed 25-150 g/kg, recovery 40-80%, annualised capital plus operating cost. Brine concentration by MVC; per m3 of product, not per m3 of feed.. [source](https://www.osti.gov/servlets/purl/2476217)
 
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.aquatech.com/). Last reviewed 2026-11-16.
 
 ## Forward osmosis
@@ -1027,5 +1110,8 @@ flowchart LR
 
 **Costs:**
 - water cost, FO-RO plus AnMBR municipal treatment: 0.81-1.27 EUR per m3 treated; Minimum 0.81 EUR/m3 at 50% FO recovery, rising to 1.01 at 80% and 1.27 at 90%; open-loop freshwater comparison 0.80 EUR/m3. Pre-2018 prices as published.. [source](https://diposit.ub.edu/bitstreams/f1e99a08-bd96-44ab-9655-0dc9686198f3/download)
+
+**Missing inputs:**
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.suezwatertechnologies.com/). Last reviewed 2026-11-16.

@@ -176,5 +176,13 @@
     }
   ],
   "gaps": [],
-  "last_reviewed": "2026-11-16"
+  "last_reviewed": "2026-11-16",
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Ultra-high voltage' TRL 2025; read 2026-11-16"
+    }
+  }
 }

@@ -28,7 +28,10 @@ flowchart LR
 
 **Key equipment:** dense-loading services, inert-entry crews, regeneration furnaces, metal reclamation plants.
 
-Sources: [1](https://www.eurecat.com/), [2](https://www.hydrocarbon-engineering.com/). Last reviewed 2026-11-08.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for process-control/automation hardware. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.eurecat.com/), [2](https://www.hydrocarbon-engineering.com/). Last reviewed 2026-11-16.
 
 ## Dynamic simulation and operator training simulators
 <a id="prc-dynamic-simulation-ots"></a>
@@ -50,7 +53,10 @@ flowchart LR
 
 **Key equipment:** solver, instructor station, DCS-replica operator stations, scenario libraries.
 
-Sources: [1](https://process.honeywell.com/), [2](https://www.aspen.com/). Last reviewed 2026-11-08.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for process-control/automation hardware. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://process.honeywell.com/), [2](https://www.aspen.com/). Last reviewed 2026-11-16.
 
 ## Pinch analysis and heat integration
 <a id="prc-pinch-analysis"></a>

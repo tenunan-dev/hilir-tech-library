@@ -20,7 +20,7 @@
 | [Power management and electrical SCADA](#ele-power-management-systems) | Electrical automation | commercial |  | GE Vernova (power management systems); ABB (electrical SCADA and PMS); Schneider Electric (EcoStruxure Power and PMS); Hitachi Energy (grid automation) | substation relay room including SCADA and communications: 3.53e+06 AUD per substation |
 | [Power system protection and relaying](#ele-protection-relaying) | Power protection | commercial |  | Schweitzer Engineering Laboratories (protective relays and automation platforms); ABB (Relion protection and control); Schneider Electric (Easergy protection relays); Siemens Energy (SIPROTEC protection relays); GE Vernova (Multilin protection relays) | indicative cost, single-function overcurrent protection relay (export price list): 120-900 USD per unit (2026$)<br>indicative cost, full IEC 61850 bay-controller IED (export price list): 4000-12000 USD per unit (2026$) |
 | [Subsea power and umbilical systems](#ele-subsea-umbilicals-power) | Subsea electrical | commercial |  | Aker Solutions (umbilicals and subsea power); Nexans (subsea cables and umbilicals); Siemens Energy (subsea power grids and drives) | average installed umbilical cost: 1e+06 USD per km (2024$) |
-| [UHV and HV substations (275-500 kV)](#ele-uhv-substations) | Power generation and distribution | commercial |  | Hitachi Energy (power transformers, GIS and HVDC); Siemens Energy (GIS, transformers and substation automation); GE Vernova (high-voltage equipment); Hyundai Electric (transformers and switchgear) | indicative cost, 550 kV dead-tank circuit breaker, three-phase set: 200000-520000 USD per three-phase set (2025$)<br>total investment cost, 380-400 kV substation bay: 1.15258e+06-5.23842e+06 EUR per bay<br>total investment cost, EHV substation per MVA: 65884-123678 EUR per MVA |
+| [UHV and HV substations (275-500 kV)](#ele-uhv-substations) | Power generation and distribution | commercial | 9 | Hitachi Energy (power transformers, GIS and HVDC); Siemens Energy (GIS, transformers and substation automation); GE Vernova (high-voltage equipment); Hyundai Electric (transformers and switchgear) | indicative cost, 550 kV dead-tank circuit breaker, three-phase set: 200000-520000 USD per three-phase set (2025$)<br>total investment cost, 380-400 kV substation bay: 1.15258e+06-5.23842e+06 EUR per bay<br>total investment cost, EHV substation per MVA: 65884-123678 EUR per MVA |
 
 ## Earthing and lightning protection
 <a id="ele-earthing-lightning"></a>
@@ -48,6 +48,7 @@ flowchart LR
 
 **Missing inputs:**
 - cost per substation earthing system (grid, rods, bonding), with dollar year (costs): Only a bundled site-work rate that includes grounding is published ($403,539/acre, 2023 USD); no source prices the earthing system alone. Searched 2026-11-16. Where: Ask the owner for a Malaysian contractor benchmark. Next: Leave open until a source states this exact metric and scope.
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.hse.gov.uk/electricity/), [2](https://www.dehn-international.com/en), [3](https://www.iec.ch/standards), [4](https://www.tnb.com.my/), [5](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -77,6 +78,7 @@ flowchart LR
 
 **Missing inputs:**
 - installed cost per metre of traced pipe, with dollar year (costs): Cable material cost is recorded ($10.66/m derived from $3.25/ft). Insulation, cladding, fixings, controls and labour are not priced in any loaded source; searched 2026-11-16. Where: Ask the owner for a Malaysian contractor benchmark. Next: Leave open until a source states this exact metric and scope.
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.chromalox.com/), [2](https://www.nvent.com/), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -106,6 +108,9 @@ flowchart LR
 
 **Costs:**
 - total installed cost, diesel standby generator: 310-560 USD per kVA (2026$); Derived from a vendor pricing survey stated per kW ($250-450/kW total installed for US large industrial) at 0.8 power factor; a 500 kW unit is quoted at $135,000-600,000 depending on channel. Vendor blog, not an agency study, and no open UPS-specific $/kVA benchmark was found - treat as an order-of-magnitude range for standby gensets.. [source](https://zccpower.com/commercial-standby-generator-cost)
+
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.iec.ch/standards), [2](https://www.hse.gov.uk/electricity/), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -138,6 +143,7 @@ flowchart LR
 
 **Missing inputs:**
 - study cost per MW connected, with a Malaysian consultant benchmark (costs): No published study fee exists: regulators publish deposits and milestone payments, not consultant fees. The MISO M2 milestone ($8,000/MW, 2024) is recorded as adjacent data with that caveat. Commercial study fees are quoted privately; searched 2026-11-16. Where: Ask the owner for a benchmarked study cost. Next: Leave open until a source states this exact metric and scope.
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -169,6 +175,9 @@ flowchart LR
 - indicative cost, 145 kV dead-tank circuit breaker: 40000-95000 USD per set (2025$); Western/Japanese brand new dead-tank at 145 kV roughly USD 40,000-95,000 (a Siemens SPS-145 used unit listed near USD 95,000; a Spanish tender for 145 kV 3150 A 31.5 kA at about EUR 26,000); Chinese OEMs quote far lower, USD 2,500-45,000. Export price list basis (accepted on owner instruction 2026-11-13).. [source](https://www.electricaltrader.com/)
 - installed cost, HV switchgear bay: 837306-1.5169e+06 EUR per bay; ACER/PwC 2023 EUR, 220-275 kV busbar class (closest published class to 245 kV): mean EUR 1,206,055/bay, median 1,133,288, interquartile range shown, n=48, 2014-2021 data. No 145 kV subcategory is published and protection/control/civil are not broken out - this is a total-cost-per-bay indicator.. [source](https://www.acer.europa.eu/sites/default/files/documents/Reports/UIC_report_2023.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.iec.ch/standards), [2](https://www.hitachienergy.com/products-and-solutions/transformers), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
 ## Hazardous area electrical equipment
@@ -194,6 +203,9 @@ flowchart LR
 
 **Costs:**
 - equipment cost premium, Ex-rated over standard: 150-300 percent; Industry cost commentary gives component multipliers: enclosures 2.5-4x standard (+150% to +300%), cable glands 2-3x, sealing systems 1.5-2x, internal control circuits 3-5x, and installation labour 25-40% above standard. Widens with zone and EPL severity; excludes certification and notified-body fees. Vendor/industry commentary, not a regulator study - an order-of-magnitude factor.. [source](https://www.waromgroup.com/explosion-proof-equipment-cost-understanding-investment-drivers)
+
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.iecex.com/), [2](https://www.iec.ch/standards), [3](https://www.hse.gov.uk/electricity/), [4](https://www.tnb.com.my/), [5](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -230,6 +242,7 @@ flowchart LR
 
 **Missing inputs:**
 - installed cost per outgoing way (MCC section or switchboard way), with dollar year (costs): Board-level replacement costs are now recorded (INR 0.280-1.195 lakh per board, 2024-25 rates), but no loaded source prices a per-outgoing-way or per-MCC-section rate; searched 2026-11-16. Where: Electrical contractor schedule of rates for LV distribution. Next: Leave open until a source states this exact metric and scope.
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.tnb.com.my/). Last reviewed 2026-11-16.
 
@@ -268,6 +281,9 @@ flowchart LR
 - supply, erection, testing and commissioning, MV feeder bay: 10.179-17.712 INR lakh per bay; MSEDCL Cost Data 2024-25, tender-cost column: 11 kV feeder bay INR 10.179 lakh (DPR estimate 14.342); 22 kV INR 12.106 (17.062); 33 kV INR 12.566 (17.712). Scope is stated as supply, erection, testing and commissioning. Note the DPR column runs about 40% above the tender column - quoting the wrong one shifts the result.. [source](https://www.mahadiscom.in/supplier/wp-content/uploads/2024/11/Activity_Rates.pdf)
 - installed cost, new 33/11 kV substation package: 20.4-28.5 INR lakh per MVA; MSEDCL 2024-25: a new 33/11 kV substation with 2 x 10 MVA costs INR 407.463 lakh at tender (569.047 lakh DPR) for 20 MVA, i.e. about INR 20.4-28.5 lakh/MVA for the whole package including transformers, both voltage levels and civil works.. [source](https://www.mahadiscom.in/supplier/wp-content/uploads/2024/11/Activity_Rates.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.tnb.com.my/). Last reviewed 2026-11-16.
 
 ## Motors and variable speed drives
@@ -298,6 +314,7 @@ flowchart LR
 
 **Missing inputs:**
 - installed cost per kW by motor size and voltage, with dollar year (costs): A single-brand hardware price list is recorded ($41.6-61.8/kW, undated, drive only). Installed cost and a size/voltage split need a Western-brand or agency source; searched 2026-11-16. Where: Ask the owner for a Malaysian contractor benchmark. Next: Leave open until a source states this exact metric and scope.
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.energy.gov/eere/amo/motors), [2](https://www.iec.ch/standards), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -328,6 +345,9 @@ flowchart LR
 **Costs:**
 - overnight capital cost, simple (open) cycle gas turbine: 836-1606 USD per kW (2023$); EIA / Sargent & Lundy, 2023 price level, overnight capital cost excluding financing, US 30-city average, greenfield EPC turnkey: 1xH-class 419 MW $836/kW; aeroderivative 211 MW $1,606/kW. AEO2025's assumptions table reprints industrial-frame CT at $791/kW in 2024$.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
 - overnight capital cost, combined cycle: 868-921 USD per kW (2023$); EIA / Sargent & Lundy, 2023 price level: 2x2x1 H-class 1,227 MW $868/kW; 1x1x1 single-shaft 627 MW $921/kW. Overnight capital cost, no financing; 2024$ equivalents are $824/kW multi-shaft and $875/kW single-shaft.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
+
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.siemens-energy.com/global/en/home.html), [2](https://www.mhi.com/), [3](https://www.eia.gov/electricity/), [4](https://www.tnb.com.my/), [5](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -360,6 +380,9 @@ flowchart LR
 **Costs:**
 - total installed cost, new single-circuit overhead line: 1.3e+06-3e+06 USD per km (2023$); MISO 2023 USD, $/mile converted: 230 kV $2.1-2.5M/mile (~$1.3-1.6M/km), 345 kV $3.4-3.9M/mile (~$2.1-2.4M/km), 500 kV $4.2-4.8M/mile (~$2.6-3.0M/km). Total installed, excludes land. Terrain is priced as adders, not in the base: forested clearing $5,995/acre, mountainous $794/acre, wetland $69,975/acre plus $56,132/acre mitigation. A terrain-priced cross-check from Western Power (330 kV, A$1.17M/km rural to A$2.24M/km urban) sits in the same order.. [source](https://cdn.misoenergy.org/20240131%20PSC%20Item%2005%20Transmission%20Cost%20Estimation%20Guide%20for%20MTEP24%20-%20Redline631529.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.tnb.com.my/). Last reviewed 2026-11-16.
 
 ## Power and control cable systems
@@ -389,7 +412,10 @@ flowchart LR
 - indicative cost, 19/33 kV 3-core Cu XLPE/SWA/PVC 95 mm2 cable: 26.5-34 USD per metre (2026$); FOB China price guide at LME copper about USD 9,800-10,200/t: 19/33 kV 95 mm2 3-core copper USD 26.50-34.00/m; 240 mm2 USD 60-77/m; 400 mm2 USD 96-123/m. Aluminium conductor saves roughly 40-55%.. [source](https://www.shengecable.com/)
 - indicative cost, 11 kV and 33 kV underground cable per km (tender-derived): 8100-44000 USD per km (2025$); Indian utility tender cost data: 33 kV 1Cx630 mm2 aluminium XLPE about USD 8,100/km; 33 kV 1Cx400 mm2 copper about USD 44,000/km; 11 kV 3x185 mm2 about USD 11,000/km; 11 kV 3x300 mm2 about USD 14,500/km. Tender-derived and useful for magnitude only.. [source](https://www.tstransco.in/)
 
-Sources: [1](https://www.prysmian.com/), [2](https://www.nexans.com/), [3](https://www.iec.ch/standards), [4](https://www.tnb.com.my/), [5](https://www.gso.org.my/). Last reviewed 2026-11-13.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.prysmian.com/), [2](https://www.nexans.com/), [3](https://www.iec.ch/standards), [4](https://www.tnb.com.my/), [5](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
 ## Power and distribution transformers
 <a id="ele-transformers"></a>
@@ -419,6 +445,9 @@ flowchart LR
 - indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed distribution transformer (export price list): 7000-20000 USD per unit (2025$); Foreign export price list, accepted as the price basis on owner instruction 2026-11-13. Aluminium-wound standard units about USD 7,000-12,000; copper-wound low-loss IEC units USD 12,000-20,000; 33 kV class USD 10,000-20,000. Malaysian landed cost adds roughly 30-60% for duties, SST, compliance testing and local margin (about MYR 80,000-150,000 for a compliant S13-class copper unit). FOB export, not a delivered Malaysian price.. [source](https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html)
 - installed cost, power transformer: 5615-8891 USD per MVA (2023$); MISO 2023 USD, material, shipping, foundation and installation included (excludes civil, switchgear and land): 230 kV high side $5,615/MVA; 345 kV $6,895/MVA; 500 kV $8,891/MVA. The 230 to 345 kV step alone adds about 23%; 765 kV reaches $12,510/MVA.. [source](https://cdn.misoenergy.org/20240131%20PSC%20Item%2005%20Transmission%20Cost%20Estimation%20Guide%20for%20MTEP24%20-%20Redline631529.pdf)
 
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
 Sources: [1](https://www.hitachienergy.com/products-and-solutions/transformers), [2](https://www.iec.ch/standards), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
 ## Power management and electrical SCADA
@@ -445,6 +474,9 @@ flowchart LR
 
 **Costs:**
 - substation relay room including SCADA and communications: 3.53e+06 AUD per substation; Western Power 2024 estimate for a new three-bay 330 kV terminal station: AUD 3,530,000 for the relay room including new SCADA and communications facilities, before escalation to 2027/28. A protection/control/RTU/comms building package, not a software licence price.. [source](https://www.erawa.com.au/sites/default/files/24397/BRCP-2025-Total-transmission-cost-estimate-for-the-BRCP-for-2027-28-Western-Power.PDF)
+
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.gevernova.com/), [2](https://www.iec.ch/standards), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -476,7 +508,10 @@ flowchart LR
 - indicative cost, single-function overcurrent protection relay (export price list): 120-900 USD per unit (2026$); Export price list, accepted as the price basis on owner instruction 2026-11-13. A 2026 microprocessor-relay price guide covering 96 manufacturers and 560 SKUs puts single-function overcurrent devices at about USD 120 through Chinese OEM channels, rising with function count and brand tier.. [source](https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html)
 - indicative cost, full IEC 61850 bay-controller IED (export price list): 4000-12000 USD per unit (2026$); Same price guide: the spread reaches USD 12,000+ for a full IEC 61850 bay controller from Schweitzer Engineering Laboratories or GE Grid Solutions. Function class, brand tier and certification drive the 30x spread the source documents.. [source](https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html)
 
-Sources: [1](https://www.selinc.com/products/), [2](https://www.hse.gov.uk/electricity/), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-13.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.selinc.com/products/), [2](https://www.hse.gov.uk/electricity/), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
 ## Subsea power and umbilical systems
 <a id="ele-subsea-umbilicals-power"></a>
@@ -498,6 +533,9 @@ flowchart LR
 
 **Costs:**
 - average installed umbilical cost: 1e+06 USD per km (2024$); 'Average umbilical costs are roughly $1 million per kilometer' (OTC-35318-MS, 2024), used there as the counterfactual avoided by an autonomous power system. Order of magnitude only: not a vendor quote and not split by diameter, voltage or water depth. Dollar year not stated - the paper is dated 2024. Granular benchmarks sit in paid offshore cost databases.. [source](https://www.osti.gov/servlets/purl/2567462)
+
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for most electrical hardware; the guide rates UHV, HVDC and SF6-free switchgear only. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.nexans.com/), [2](https://www.siemens-energy.com/global/en/home.html), [3](https://www.tnb.com.my/), [4](https://www.gso.org.my/). Last reviewed 2026-11-16.
 
@@ -530,5 +568,7 @@ flowchart LR
 - indicative cost, 550 kV dead-tank circuit breaker, three-phase set: 200000-520000 USD per three-phase set (2025$); Chinese OEM 550 kV about USD 210,000-270,000; an import record of a 3150 A 50 kA three-phase set near USD 520,000; EGAT tender about THB 6.0 million per unit (about USD 170,000). Indicative and highly configuration-dependent.. [source](https://www.electricaltrader.com/)
 - total investment cost, 380-400 kV substation bay: 1.15258e+06-5.23842e+06 EUR per bay; ACER/PwC 2023 EUR: mean EUR 3,382,029 per bay (median 2,435,831, n=58, interquartile range shown). 300-330 kV class mean EUR 1,210,624/bay. ACER does not itemise what a bay includes - it is total project cost divided by bay count.. [source](https://www.acer.europa.eu/sites/default/files/documents/Reports/UIC_report_2023.pdf)
 - total investment cost, EHV substation per MVA: 65884-123678 EUR per MVA; ACER/PwC 2023 EUR: GIS new EUR 123,678/MVA mean (median 109,818); AIS new EUR 65,884/MVA (median 63,470). Whole-substation basis, not a transformer-only price.. [source](https://www.acer.europa.eu/sites/default/files/documents/Reports/UIC_report_2023.pdf)
+
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Ultra-high voltage' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 Sources: [1](https://www.tnb.com.my/). Last reviewed 2026-11-16.

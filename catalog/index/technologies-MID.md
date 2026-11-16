@@ -20,10 +20,10 @@
 | [Leak detection (CPM, fibre optic DAS and DTS)](#mid-leak-detection) | Pipelines | commercial |  | AP Sensing (DAS and DTS); Silixa (DAS); Emerson (CPM leak detection) |  |
 | [Pipeline inline inspection (MFL, ultrasonic, EMAT pigs)](#mid-inline-inspection-pigging) | Pipelines | commercial |  | ROSEN (ILI tools); Baker Hughes (ILI services); T.D. Williamson (ILI and hot tapping) |  |
 | [Strategic petroleum reserves (salt caverns, rock caverns)](#mid-strategic-petroleum-reserves) | Storage and terminals | commercial |  | Governments (strategic reserves) |  |
-| [Underground gas storage (salt caverns, depleted fields)](#mid-underground-gas-storage) | Storage and terminals | commercial |  | Uniper (gas storage); PETRONAS (register example) |  |
+| [Underground gas storage (salt caverns, depleted fields)](#mid-underground-gas-storage) | Storage and terminals | commercial | 9 | Uniper (gas storage); PETRONAS (register example) |  |
 | [Hydrogen blending and repurposing of gas pipelines](#mid-hydrogen-blending-repurposing) | Pipelines | demonstration | 7-8 | Gasunie (hydrogen network conversion); SoCalGas (blending trials); PETRONAS Gas (register example) |  |
 | [Liquid CO2 carriers](#mid-liquid-co2-carriers) | Shipping | demonstration | 7-8 | Northern Lights (ship, terminal and storage chain); Mitsubishi Shipbuilding (CO2 carrier design) | ship transport cost excluding liquefaction: 20-28 USD/t (2004$) |
-| [Liquid hydrogen carriers](#mid-liquid-hydrogen-carriers) | Shipping | demonstration |  | Kawasaki Heavy Industries (Suiso Frontier) |  |
+| [Liquid hydrogen carriers](#mid-liquid-hydrogen-carriers) | Shipping | demonstration | 7 | Kawasaki Heavy Industries (Suiso Frontier) |  |
 
 ## CO2 pipelines (dense phase)
 <a id="mid-co2-pipelines"></a>
@@ -496,12 +496,13 @@ flowchart LR
 - active US underground storage facilities: 400 sites (nearly), about 120 operators; Lower 48. [source](https://www.eia.gov/naturalgas/storage/basics/)
 - US underground gas storage working capacity and cushion share: 4595-4683 Bcf working gas capacity (AGA survey total 4,595 Bcf of 8,934 Bcf total capacity; Lower-48 working design capacity 4,683 Bcf as of Nov 2025); American Gas Association survey: total capacity 8,934 Bcf with working gas 4,595 Bcf - implying about 49% cushion (base) gas by difference; compressortech2 (3 Jun 2026): Lower-48 combined working gas design capacity 4,683 Bcf as of Nov 2025; per-storage-type deliverability figures were not stated in the pages read. [source](https://www.aga.org/wp-content/uploads/2023/01/Section4Divider.pdf)
 
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Salt cavern storage' TRL 2025 - natural gas storage in salt caverns; the guide's storage rows are gas-generic; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; cavern development costs case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named facility added this pass. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.eia.gov/naturalgas/storage/basics/), [2](https://en.wikipedia.org/wiki/Underground_gas_storage). Last reviewed 2026-10-29.
+Sources: [1](https://www.eia.gov/naturalgas/storage/basics/), [2](https://en.wikipedia.org/wiki/Underground_gas_storage). Last reviewed 2026-11-16.
 
 ## Hydrogen blending and repurposing of gas pipelines
 <a id="mid-hydrogen-blending-repurposing"></a>
@@ -593,10 +594,11 @@ flowchart LR
 **Reference plants:**
 - Suiso Frontier LH2 pilot supply chain (Kawasaki and HESC partners), Australia-Japan, JP: world's first purpose-built liquid-hydrogen carrier; 1,250 m3 vacuum-insulated tank; brown-coat HESC pilot project; operating. [source](https://lngprime.com/asia/video-suiso-frontier-delivers-first-liquefied-hydrogen-shipment-to-japan/43855)
 
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Liquefied hydrogen tanker' TRL 2025 - carrier row covers the LH2 sea transport this card describes; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
 **Missing inputs:**
 - commercial-scale carrier designs and boil-off rates (performance): Only the pilot ship was read. Suiso Frontier design/cargo figures recorded in performance; boil-off rate not published, 2026-10-28. Where: Kawasaki Heavy Industries press releases (open). Next: Add 160,000 m3 carrier design data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Suiso_Frontier). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Suiso_Frontier). Last reviewed 2026-11-16.

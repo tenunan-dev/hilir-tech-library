@@ -59,7 +59,10 @@ flowchart LR
 
 **Key equipment:** ultrasonic gas meters, coriolis and turbine liquid meters, gas chromatographs, flow computers, prover loops.
 
-Sources: [1](https://www.emerson.com/), [2](https://www.iso.org/). Last reviewed 2026-11-07.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for instrumentation and control hardware. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.emerson.com/), [2](https://www.iso.org/). Last reviewed 2026-11-16.
 
 ## Distributed control systems and SCADA
 <a id="ins-dcs-scada"></a>
@@ -108,7 +111,10 @@ flowchart LR
 
 **Key equipment:** pressure and DP transmitters, temperature assemblies, radar and guided-wave level, coriolis and magnetic flowmeters, vibration sensors.
 
-Sources: [1](https://www.emerson.com/), [2](https://www.namur.net/). Last reviewed 2026-11-07.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for instrumentation and control hardware. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.emerson.com/), [2](https://www.namur.net/). Last reviewed 2026-11-16.
 
 ## Fire and gas detection systems
 <a id="ins-fire-gas-detection"></a>
@@ -128,7 +134,10 @@ flowchart LR
 
 **Key equipment:** point and open-path gas detectors, ultrasonic leak detectors, flame detectors, F&G logic solvers, deluge interfaces.
 
-Sources: [1](https://www.honeywellanalytics.com/), [2](https://www.hse.gov.uk/comah/). Last reviewed 2026-11-07.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for instrumentation and control hardware. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.honeywellanalytics.com/), [2](https://www.hse.gov.uk/comah/). Last reviewed 2026-11-16.
 
 ## Machinery vibration monitoring
 <a id="ins-vibration-monitoring"></a>
@@ -148,7 +157,10 @@ flowchart LR
 
 **Key equipment:** eddy-current proximity probes, accelerometers and velocity sensors, keyphasor, protection monitors, CMS software.
 
-Sources: [1](https://www.bently.com/en), [2](https://www.iec.ch/standards). Last reviewed 2026-11-07.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for instrumentation and control hardware. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.bently.com/en), [2](https://www.iec.ch/standards). Last reviewed 2026-11-16.
 
 ## OT cybersecurity
 <a id="ins-ot-cybersecurity"></a>
@@ -248,4 +260,7 @@ flowchart LR
 
 **Key equipment:** dedicated machine controllers, recycle and anti-surge valves, fast I/O, surge detection instrumentation.
 
-Sources: [1](https://www.woodward.com/), [2](https://www.bently.com/en). Last reviewed 2026-11-07.
+**Missing inputs:**
+- TRL with a cited source (trl): No agency TRL exists for instrumentation and control hardware. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
+
+Sources: [1](https://www.woodward.com/), [2](https://www.bently.com/en). Last reviewed 2026-11-16.

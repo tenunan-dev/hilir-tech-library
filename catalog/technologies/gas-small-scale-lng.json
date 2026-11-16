@@ -156,7 +156,7 @@
       "note": "Wikipedia: Liquefied natural gas — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -199,20 +199,14 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "trl",
-      "item": "TRL with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28).",
-      "where": [
-        {
-          "hint": "IEA ETP Clean Energy Technology Guide (collected): search for the technology name",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
-  ]
+  ],
+  "trl": {
+    "low": 9,
+    "high": 9,
+    "source": {
+      "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
+      "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-LNG facilities' TRL 2025; read 2026-11-16"
+    }
+  }
 }

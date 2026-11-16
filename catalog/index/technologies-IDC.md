@@ -13,7 +13,7 @@
 | [Data centre siting and power procurement](#idc-siting-power-procurement) | Siting and demand | commercial | 9 | GE Vernova (onsite and BTM generation configurations (25 MW to 3 GW)); AirTrunk (hyperscale campuses across APAC including the 700 MW+ Malaysia platform); Equinix (colocation + interconnection with long-term clean-power contracting) |  |
 | [Free cooling and economisers](#idc-free-cooling-economisers) | Cooling | commercial |  | Vertiv (Liebert DSE free-cooling system (50-165 kW)); Schneider Electric (Uniflair free-cooling units); Munters (evaporative and indirect cooling) |  |
 | [Medium-voltage switchgear and busway in the data hall](#idc-mv-switchgear-busway) | Power distribution | commercial |  | ABB (medium-voltage switchgear, including SF6-free 6-24 kV); Starline Power (busway (Track, Series-S, high-power ranges)); Schneider Electric (MV switchgear and busway for data centres); Eaton (MV distribution and busway) |  |
-| [On-site solar plus battery storage for data centres](#idc-onsite-solar-storage) | Power supply | commercial |  | Sungrow (solar inverters and battery storage); CATL (LFP battery cells and containers); Tesla Energy (Megapack battery storage); Fluence (grid-scale battery storage) |  |
+| [On-site solar plus battery storage for data centres](#idc-onsite-solar-storage) | Power supply | commercial | 9 | Sungrow (solar inverters and battery storage); CATL (LFP battery cells and containers); Tesla Energy (Megapack battery storage); Fluence (grid-scale battery storage) |  |
 | [Rack power distribution (PDU, 48 V DC and 415 V AC architectures)](#idc-rack-power-distribution) | Power distribution | commercial |  | Server Technology (rack PDUs including 415 V and -48 V DC ranges); Vertiv (rack PDUs and power management); Raritan (Legrand) (intelligent rack PDUs); Schneider Electric (rack PDUs and metering) |  |
 | [Utility feed and on-site substation for data centres](#idc-utility-feed-substation) | Power supply | commercial |  | ABB (medium- and high-voltage switchgear, transformers); Hitachi Energy (transformers and substation equipment); Siemens Energy (substation and grid connection equipment) |  |
 | [Direct-to-chip liquid cooling (cold plates and CDUs)](#idc-direct-to-chip-liquid-cooling) | Cooling | demonstration | 7-8 | Vertiv (CoolChip CDU 70/121/600/1350/2300 (direct-to-chip and RDHx)); CoolIT Systems (cold plates and rack CDUs); Boyd (liquid cooling loops and cold plates); Motivair (CDUs and facility chillers for high-density cooling); Rittal (LCP rack cooling units) |  |
@@ -303,13 +303,14 @@ flowchart LR
 **Performance:**
 - share of additional data centre demand met by renewables over five years: 50 %; IEA: over five years renewables meet nearly half of the additional data centre demand, followed by gas and coal; solar and wind are the renewable sources in that mix.. [source](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai)
 
+TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Crystalline silicon PV and Lithium-ion storage battery' TRL 2025 - both constituents are TRL 9 rows; the card is their combination; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
+
 **Missing inputs:**
 - capacity factor achieved by on-site solar at a data centre and usable battery cycles per year (performance): The IEA page read gives the aggregate renewable share of added demand but no data-centre-specific capacity factor or cycle count. Where: Operator sustainability reports with on-site generation data. Next: Add capacity factor and annual cycles from an operating project.
 - cost per MW of solar and per kWh of battery installed, with dollar year (costs): No source read prices on-site solar or storage. Where: IEA and LBNL cost benchmarks; Project finance disclosures. Next: Add installed costs from a project disclosure.
 - named data centres with on-site solar and storage, with capacity and country (reference_plants): No named project was read. Where: Operator press releases. Next: Add named projects with capacity and source.
-- TRL with a cited source (trl): No TRL table was read. Where: IEA Energy Technology Guide. Next: Add a TRL reference.
 
-Sources: [1](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai). Last reviewed 2026-11-14.
+Sources: [1](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai). Last reviewed 2026-11-16.
 
 ## Rack power distribution (PDU, 48 V DC and 415 V AC architectures)
 <a id="idc-rack-power-distribution"></a>

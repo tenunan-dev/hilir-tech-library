@@ -237,7 +237,7 @@
       "note": "Siemens Energy gas turbine portfolio page, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
@@ -274,6 +274,23 @@
         }
       ],
       "action": "Check the steps against a named source."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No agency TRL row corresponds to this power technology in the IEA guide. Checked 2026-11-16.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (already searched, 634 rows)",
+          "access": "open"
+        },
+        {
+          "hint": "Sector regulator or industry body publishing a TRL for this class",
+          "access": "open"
+        }
+      ],
+      "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
   ],
   "notes": "The SGT-A45 TR is treated as historical: it launched in 2017 but no longer appears on the Siemens Energy portfolio page read on 26 October 2026. The PE6000 is a single-lift skid package rather than trailer-mounted; it sits between the trailer-mobile TM2500 class and permanent plant packages. APR Energy's live website was unreachable (HTTP 522) on 26 October 2026; figures come from a 15 July 2026 Wayback capture."
