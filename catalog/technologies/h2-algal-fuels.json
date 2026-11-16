@@ -95,9 +95,13 @@
     {
       "url": "https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf",
       "note": "DOE BETO 2021 peer review, algae (Schideman), 16 February 2021"
+    },
+    {
+      "url": "https://ohioline.osu.edu/factsheet/AEX-651-11",
+      "note": "Ohio State University Extension factsheet on algae for biofuels, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -125,19 +129,7 @@
         }
       ],
       "action": "Add one or two plants with country, capacity and start-up year."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the chain follows the factsheet - cultivation in open ponds or enclosed bioreactors with light/CO2/nutrient control, harvesting by flocculation then filtration, centrifugation or sedimentation, oil extraction by press, solvent or supercritical CO2, and conversion by transesterification, fermentation, gasification, pyrolysis, liquefaction or anaerobic digestion. Stops at conversion: no upgrading, distribution or LCA."
 }

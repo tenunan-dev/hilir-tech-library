@@ -137,9 +137,13 @@
       "url": "https://digitalrefining.com/article/1003050/crude-to-chemicals-part-2",
       "source_id": "ptq-digital-refining",
       "note": "PTQ / Digital Refining, Crude to chemicals Part 2 (Saudi Aramco TC2C)"
+    },
+    {
+      "url": "https://www.digitalrefining.com/article/1003322/single-step-conversion-of-crude-to-olefins-and-aromatics",
+      "note": "Digital Refining article on single-step crude-to-chemicals, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -177,19 +181,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the route follows HPCL's description - direct catalytic conversion of crude to light olefins and BTX in a single unit, explicitly avoiding the fractionation and hydroprocessing steps of the naphtha steam-cracking route. Feed pretreatment, the downstream separation train, catalyst and yields are not described."
 }

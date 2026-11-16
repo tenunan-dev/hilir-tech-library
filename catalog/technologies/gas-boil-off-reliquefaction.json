@@ -134,9 +134,13 @@
     {
       "url": "https://www.aidic.it/cet/21/88/153.pdf",
       "note": "Chemical Engineering Transactions 21, paper 153 (thermal energy storage for LNG carrier reliquefaction)"
+    },
+    {
+      "url": "https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system",
+      "note": "Wärtsilä Encyclopedia entry on the LNG reliquefaction system, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -187,19 +191,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -215,5 +206,6 @@
       "project_id": "quest-kirishima-lng-carrier",
       "year": 2024
     }
-  ]
+  ],
+  "notes": "Process provenance: the cycle follows Wärtsilä's description - boil-off gas from the cargo tanks compressed in a two-stage centrifugal compressor, condensed in a cryogenic cold box, non-condensables (mainly nitrogen) separated, LNG returned to the tanks on system differential pressure, with cold from a nitrogen compression-expansion cycle under PLC capacity control. No COP, turndown or cycle-comparison data."
 }

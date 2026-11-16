@@ -83,6 +83,10 @@
     {
       "url": "https://jpt.spe.org/petrobras-picks-slbs-delfi-platform",
       "note": "SPE JPT, Petrobras Picks SLB's Delfi Platform: Petrobras awarded SLB a 5-year contract for enterprisewide Delfi deployment (SLB release, 6 July 2023; read 28 October 2026)"
+    },
+    {
+      "url": "https://www.cmgl.ca/resources/enhancing-co2-storage-confidence-through-spatial-history-matching-ai-driven-interpretation-and-dynamic-simulation-full",
+      "note": "CMG case note on Sleipner 4D seismic and spatial history matching, read 2026-11-17"
     }
   ],
   "reference_plants": [
@@ -113,7 +117,7 @@
       "high": 80
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -151,19 +155,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the workflow follows the Sleipner case described by CMG - 4D seismic inverted to CO2-probability volumes, deep-learning plume picking, depth conversion onto the simulation grid, then spatial history matching of simulated saturation against the seismic plume before forecasting. A CO2-storage case rather than an oil field, and no porosity-permeability update loop or AI method detail is given."
 }

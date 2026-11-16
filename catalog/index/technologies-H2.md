@@ -1204,9 +1204,8 @@ flowchart LR
 **Missing inputs:**
 - TRL (trl): No IEA entry for algal fuels. IEA ETP Guide (July 2026) has no matching entry (searched algal, algae, microalgae, biofuel, hydrothermal liquefaction); 2026-10-28 no open TRL source found (IEA ETP guide checked 2026-10-28; no algae entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; algal-fuel pilot pages unverifiable. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/sites/default/files/2021-04/beto-17-peer-review-2021-algae-schideman.pdf), [2](https://ohioline.osu.edu/factsheet/AEX-651-11). Last reviewed 2026-11-17.
 
 ## Photocatalytic and thermochemical water splitting
 <a id="h2-solar-water-splitting"></a>

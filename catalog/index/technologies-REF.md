@@ -56,9 +56,8 @@ flowchart LR
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; APC project prices are vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; benefit study figures recorded in performance; no single named refinery project with figures on open pages. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.yokogawa.com/sa-es/library/resources/references/suc-shell-deerpark-apc-gasoil-hydrotreater/). Last reviewed 2026-10-28.
+Sources: [1](https://www.yokogawa.com/sa-es/library/resources/references/suc-shell-deerpark-apc-gasoil-hydrotreater/), [2](https://www.pcne.eu/article/how-advanced-process-control-and-agentic-systems-are-transforming-process-industries). Last reviewed 2026-11-17.
 
 ## Alkylation (HF, sulfuric, ionic liquid, solid acid)
 <a id="ref-alkylation"></a>
@@ -826,9 +825,8 @@ flowchart LR
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. TC2C claims ~30-40% CAPEX reduction vs conventional integration (Lummus-Aramco paper, 2026-10-28); absolute costs remain proprietary. Web-checked 2026-10-28; TC2C claims 30-40% CAPEX reduction (relative only). Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://chemanager-online.com/en/node/399006), [2](https://digitalrefining.com/article/1003050/crude-to-chemicals-part-2). Last reviewed 2026-10-28.
+Sources: [1](https://chemanager-online.com/en/node/399006), [2](https://digitalrefining.com/article/1003050/crude-to-chemicals-part-2), [3](https://www.digitalrefining.com/article/1003322/single-step-conversion-of-crude-to-olefins-and-aromatics). Last reviewed 2026-11-17.
 
 ## Green hydrogen in refineries
 <a id="ref-green-hydrogen"></a>

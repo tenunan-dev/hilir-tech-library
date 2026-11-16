@@ -59,9 +59,8 @@ flowchart LR
 **Missing inputs:**
 - conditions, yields and plant capacities (performance): The secondary source gives no numbers. Web-checked 2026-10-28: named plant capacities recorded in reference_plants; Cativa conditions/yield tables remain in licensor literature. Where: BP Cativa licensing page (open). Next: Add primary data.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Acetic acid'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Acetic_acid) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Cativa_process). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Cativa_process), [2](https://patents.google.com/patent/WO2014004307A1/en). Last reviewed 2026-11-17.
 
 ## Ammonia and urea
 <a id="pch-ammonia-urea"></a>
@@ -95,9 +94,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; GHR 2025 LCOH/cost context already recorded; ammonia-plant capex figures are vendor/EPC quotes. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open); [Open process-description authority (secondary): Wikipedia article 'Urea'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Urea) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf), [2](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.fertilizer.org/wp-content/uploads/2023/01/2000_ifa_neworleans_jonckers.pdf), [2](https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf), [3](https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf). Last reviewed 2026-11-17.
 
 ## Aromatics complexes (paraxylene, benzene)
 <a id="pch-aromatics-complex"></a>

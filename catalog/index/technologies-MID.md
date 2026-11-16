@@ -55,10 +55,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide dataset (July 2026), entry 'CO2 transport pipeline'](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
-
-Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [4](https://www.porthosco2.nl/en). Last reviewed 2026-10-28.
+Sources: [1](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf), [2](https://norlights.com/what-we-do/), [3](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [4](https://www.porthosco2.nl/en), [5](https://www.projectconsulting.com/pcs-insights/design-of-co2-transmission-pipeline-systems-part-1). Last reviewed 2026-11-17.
 
 ## Cathodic protection and coatings (FBE, 3LPE)
 <a id="mid-cathodic-protection-coatings"></a>
@@ -113,9 +110,8 @@ flowchart LR
 - pressure ratings, diameters, laying speed and temperature limits (performance): Shawcor's PDF is blocked by robots.txt and the Wikipedia page was not read in detail. Where: Soluforce, Strohm and Baker Hughes product pages (open). Next: Add ratings from a vendor datasheet.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://en.wikipedia.org/wiki/Reinforced_thermoplastic_pipe). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Reinforced_thermoplastic_pipe), [2](https://www.cnps.com/rtp-pipe-reinforced-thermoplastic-api-15s/). Last reviewed 2026-11-17.
 
 ## Crude and product tank farms and floating roofs
 <a id="mid-tank-farms-floating-roofs"></a>

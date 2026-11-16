@@ -96,6 +96,10 @@
       "url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/software/basin-modeling/petromod-basin-modeling-software",
       "source_id": "slb",
       "note": "SLB, Petromod basin modeling software product page: heat flow calibration to well temperature and vitrinite reflectance, PetroRisk uncertainty module (read 28 October 2026)"
+    },
+    {
+      "url": "https://pubs.usgs.gov/of/2006/1024/pdf/OFR-2006-1024.pdf",
+      "note": "USGS Open-File Report 2006-1024 (petroleum systems modelling), read 2026-11-17"
     }
   ],
   "reference_plants": [
@@ -112,7 +116,7 @@
       "project_id": "usgs-western-canada-sedimentary-basin-petroleum-systems-modeling-demonst"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -150,19 +154,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the workflow is the one USGS sets out - 1-D burial history at wells, compaction and porosity/permeability through time, thermal calibration against vitrinite reflectance and DST temperatures, kinetic kerogen transformation, then 2-D/3-D generation, migration flowpaths and catchments, PVT and accumulation timing relative to trap formation. PetroMod-centric and 2006-vintage; no unstructured-mesh or basin-inversion methods."
 }

@@ -106,9 +106,8 @@ flowchart LR
 **Missing inputs:**
 - capital and operating cost per tonne of bio-LNG (costs): A project cost without a stated capacity is recorded; a per-tonne figure cannot be formed from it. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526). Last reviewed 2026-11-16.
+Sources: [1](https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526), [2](https://nordsol.com/articles/demonstrating-viable-small-scale-bio-lng-the-bio-lng-wilp-project). Last reviewed 2026-11-17.
 
 ## Boil-off gas management and reliquefaction
 <a id="gas-boil-off-reliquefaction"></a>
@@ -140,9 +139,8 @@ flowchart LR
 - kWh per tonne reliquefied (performance): No source read gives it. Web-checked 2026-10-28; specific-power figures sit in vendor (Wartsila/Hamworthy/Mitsubishi) brochures not open. Where: Wärtsilä and Burckhardt brochures (open). Next: Add specific energy from a vendor datasheet.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system), [2](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article), [3](https://www.aidic.it/cet/21/88/153.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system), [2](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article), [3](https://www.aidic.it/cet/21/88/153.pdf), [4](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system). Last reviewed 2026-11-17.
 
 ## Carbon capture on LNG plants (acid gas reinjection)
 <a id="gas-lng-acid-gas-reinjection"></a>

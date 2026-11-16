@@ -121,9 +121,13 @@
     {
       "url": "https://www.offshore-energy.biz/2026/10/22/onesubsea-and-oil-and-gas-giants-are-unlocking-deeper-waters-with-all-electric-subsea-tech/",
       "note": "Offshore Energy, OneSubsea and oil and gas giants unlocking deeper waters with all-electric subsea tech, 22 October 2026: all-electric production technology moving toward commercial deployment through Fram Sor (read 28 October 2026)"
+    },
+    {
+      "url": "https://www.onesubsea.slb.com/solutions-and-capabilities/subsea-electrification",
+      "note": "OneSubsea (SLB) subsea electrification page, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -161,19 +165,7 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the equipment chain follows OneSubsea's description - electrification replaces hydraulic or multiplexed electrohydraulic control, eliminating hydraulic failure modes and fluid releases, with power umbilicals and cables, a subsea power hub, subsea substation and junction box carrying power. No integrated bill of materials for tree, template and control module; subsea actuators are presented as R&D."
 }

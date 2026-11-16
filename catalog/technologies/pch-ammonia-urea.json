@@ -192,9 +192,13 @@
       "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
       "source_id": "iea-reports",
       "note": "IEA Global Hydrogen Review 2025 Assumptions Annex"
+    },
+    {
+      "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
+      "note": "thyssenkrupp Uhde urea technology brochure, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -218,24 +222,7 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Urea'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Urea",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the urea train follows the Uhde brochure - carbamate condensation and urea reaction, CO2 stripping, low-pressure recirculation, evaporation, then prilling or fluid-bed granulation, with off-gas scrubbing and desorption/hydrolysis of process condensate. The ammonia synthesis loop itself is not described; the NH3/CO2 tie-in appears only in the block flow."
 }

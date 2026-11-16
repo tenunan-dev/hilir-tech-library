@@ -66,9 +66,13 @@
     {
       "url": "https://en.wikipedia.org/wiki/Cativa_process",
       "note": "Wikipedia, Cativa process, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2014004307A1/en",
+      "note": "patent flowsheet WO2014004307A1 (acetic acid production), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -96,24 +100,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Acetic acid'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Acetic_acid",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -153,5 +139,6 @@
         "note": "Celanese Singapore acetic acid plant launch record (read 2026-10-28)"
       }
     }
-  ]
+  ],
+  "notes": "Process provenance: the sequence follows the patent's flowsheet - carbonylation reactor (methanol + CO), flash vessel with catalyst/HI/water recycle, light-ends column with decanter and crude side draw, drying column, heavy-ends column to product. Monsanto/Cativa catalyst chemistry and conditions are not on that page; it is a Celanese purification patent, not a licensor process description."
 }

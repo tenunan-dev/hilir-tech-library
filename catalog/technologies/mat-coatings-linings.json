@@ -101,9 +101,13 @@
       "url": "https://en.wikipedia.org/wiki/Fusion_bonded_epoxy_coating",
       "source_id": "wikipedia",
       "note": "Wikipedia, Fusion bonded epoxy coating, read 25 October 2026 (secondary source)"
+    },
+    {
+      "url": "http://jip33.iogp.org/wp-content/uploads/2024/05/S-715v2024-05-TRS.pdf",
+      "note": "IOGP S-715 (JIP33 supplementary specification to NORSOK M-501), read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -170,16 +174,17 @@
     },
     {
       "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
+      "item": "field-applied pipeline and flowline coating plus internal lining sequence",
+      "reason_code": "not_in_sources_read",
+      "reason": "The vessel/structural application sequence is now cited from IOGP S-715 / NORSOK M-501, but that standard explicitly excludes pipeline and flowline coatings, riser sheathing and thermoplastic liners, which is the other half of this card.",
       "where": [
         {
           "hint": "Licensor process descriptions and textbooks",
           "access": "open"
         }
       ],
-      "action": "Check the steps against a licensor description and name it."
+      "action": "Leave open until a pipeline-coating standard (e.g. ISO 21809) is read."
     }
-  ]
+  ],
+  "notes": "Process provenance: the application sequence follows IOGP S-715 - clause 7 pre-blasting preparation, blast cleaning and final surface condition (Sa 2.5 = SSPC-SP 10 = NACE No. 2), clause 8 airless or plural-component spray application within a four-hour primer window, then thermally sprayed metals, PFP, qualification, inspection and repair. The specification explicitly excludes pipeline and flowline coatings, riser sheathing and thermoplastic liners, so the pipeline half of this card is only partly served."
 }

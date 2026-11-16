@@ -208,9 +208,13 @@
       "url": "https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf",
       "source_id": "global-ccs-institute",
       "note": "Global Status of CCS 2026 (Global CCS Institute)"
+    },
+    {
+      "url": "https://www.ieabioenergy.com/wp-content/uploads/2020/06/Deployment-of-BECCS-Value-Chains-IEA-Bioenergy-Task-40.pdf",
+      "note": "IEA Bioenergy Task 40, Deployment of BECCS value chains, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -234,19 +238,7 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
-  ]
+  ],
+  "notes": "Process provenance: the chain follows IEA Bioenergy Task 40 - capture at bioethanol fermentation, pulp and paper recovery boilers and waste-to-energy, CO2 transport by pipeline or ship, storage in deep saline aquifers and depleted fields, then BECCU. Biomass production and procurement are explicitly out of scope there."
 }

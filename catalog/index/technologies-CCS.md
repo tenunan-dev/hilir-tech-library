@@ -110,9 +110,8 @@ flowchart LR
 - permanence and yield per tonne feedstock (performance): Not in the source. Industrial yield figures recorded in performance (derived from Exomad Green); permanence timescales still unpublished in open pages, 2026-10-28. Where: IBI biochar standards (open). Next: Add permanence figures.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for biochar capital cost, operating cost and unit cost; not present; 2026-10-28 Web-checked 2026-10-28; plant capex not published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://biochartoday.com/news/biochars-big-year-107000-tonnes-delivered-amid-8m-tonne-carbon-removal-boom/), [2](https://www.exomadgreen.com). Last reviewed 2026-10-28.
+Sources: [1](https://biochartoday.com/news/biochars-big-year-107000-tonnes-delivered-amid-8m-tonne-carbon-removal-boom/), [2](https://www.exomadgreen.com), [3](https://www.mdpi.com/1996-1073/18/11/2979). Last reviewed 2026-11-17.
 
 ## CO2 compression and dehydration
 <a id="ccs-co2-compression-dehydration"></a>
@@ -493,9 +492,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; BECCS capex case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg), [2](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf), [3](https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://cinea.ec.europa.eu/featured-projects/beccs-stockholm-delivering-net-carbon-removals-clean-energy_bg), [2](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf), [3](https://www.globalccsinstitute.com/wp-content/uploads/2026/10/Global-Status-of-CCS-2026-report-Global-CCS-Institute.pdf), [4](https://www.ieabioenergy.com/wp-content/uploads/2020/06/Deployment-of-BECCS-Value-Chains-IEA-Bioenergy-Task-40.pdf). Last reviewed 2026-11-17.
 
 ## CO2 mineralisation (in-situ basalt)
 <a id="ccs-in-situ-mineralisation"></a>

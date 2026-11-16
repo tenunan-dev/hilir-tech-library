@@ -8,6 +8,18 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.10] — 2026-11-16/17 — process sample-audit: 15 cards, 14 cited, one narrowed
+
+### Added
+
+- **Citable process sequences on 14 of 15 sampled cards**: USGS OFR 2006-1024 (basin modelling workflow), IEA Bioenergy Task 40 (BECCS chain), thyssenkrupp Uhde (urea train), Wärtsilä (BOG reliquefaction cycle), Nordsol (bio-LNG chain), IOGP S-715 (coating and lining application), CMG (spatial history matching), OneSubsea (subsea electrification), an open-access biochar pyrolysis review, a Celanese acetic-acid flowsheet, HPCL direct crude cracking, PCE (APC/RTO stack), API 15S RTP construction, and Ohioline algal fuels.
+
+### Changed
+
+- **A correction to the previous entry's framing**: these boilerplate gaps are not merely provenance flags — 14 of 15 were citable, at roughly 15 cards per research run. Process gaps 142 → 133 → 119.
+- One card narrowed, not closed: IOGP S-715 excludes pipeline and flowline coatings, which is half of what `mat-coatings-linings` covers; that half stays open pending ISO 21809.
+- Two sources are weaker than the rest and say so in the card: a CO2-storage vendor case standing in for an oil-field workflow, and a purification patent standing in for a licensor process description.
+
 ## [2026.11.16.9] — 2026-11-16 — process provenance: 11 cited, 9 gaps closed, 131 exposed as boilerplate
 
 ### Added

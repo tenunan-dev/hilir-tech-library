@@ -78,9 +78,13 @@
       "url": "https://en.wikipedia.org/wiki/Reinforced_thermoplastic_pipe",
       "source_id": "wikipedia",
       "note": "Wikipedia, Reinforced thermoplastic pipe (listed in search; not read in detail)"
+    },
+    {
+      "url": "https://www.cnps.com/rtp-pipe-reinforced-thermoplastic-api-15s/",
+      "note": "spoolable RTP supplier description referencing API 15S, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "performance",
@@ -131,19 +135,6 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
     }
   ],
   "reference_plants": [
@@ -159,5 +150,6 @@
       "project_id": "hawtah-rtp-flowlines",
       "year": 2003
     }
-  ]
+  ],
+  "notes": "Process provenance: construction and installation follow the supplier's description of API 15S line pipe - thermoplastic liner, helically wound reinforcement (polymer fibre, glass, aramid or steel strip) and outer cover, with end fittings as pressure-containing parts; installation covered at planning level (reel capacity, payout, minimum bend radius, pull forces, burial, terminations, repairs). No step-by-step procedure or qualification-test regime."
 }

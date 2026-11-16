@@ -147,24 +147,14 @@
     {
       "url": "https://www.porthosco2.nl/en",
       "note": "Porthos CO2 infrastructure (read 2026-10-28)"
-    }
-  ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
+    },
     {
-      "field": "process",
-      "item": "process steps and equipment are general engineering practice, not taken from one source",
-      "reason_code": "general_knowledge_only",
-      "reason": "The sources read describe the principle but not a full step-by-step flow.",
-      "where": [
-        {
-          "hint": "Licensor process descriptions and textbooks",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a licensor description and name it."
+      "url": "https://www.projectconsulting.com/pcs-insights/design-of-co2-transmission-pipeline-systems-part-1",
+      "note": "Project Consulting Services design note on CO2 transmission pipelines, read 2026-11-17"
     }
   ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "trl": {
     "low": 9,
     "high": 9,
@@ -186,5 +176,6 @@
       },
       "project_id": "porthos-co2-transport-system-port-of-rotterdam-netherlands"
     }
-  ]
+  ],
+  "notes": "Process provenance: the operating regime follows the design note - 1,100-2,200 psig and 60-90 F, with impurities widening the two-phase region and shifting critical properties so the minimum operating pressure must sit above the phase envelope; nitrogen capped at 3% and hydrogen at 1%. Dehydration, corrosion control, fracture arrest and material selection sit in DNV-RP-F104 / ISO 27913 and are not covered."
 }
