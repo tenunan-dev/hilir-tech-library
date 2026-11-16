@@ -138,20 +138,20 @@
       "note": "Vertiv EMEA liquid-cooling portfolio expansion release, 2026 (portfolio positioning for AI-ready deployments), cited via search summary 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-12",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "installed cost per kW of cooling capacity, with dollar year",
+      "item": "cost per kW of cooling capacity (per kW of IT load is now recorded)",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor pages do not publish CDU prices.",
+      "reason": "Costs are recorded per kW of IT load; a per-kW-of-cooling-capacity figure would need the design delta-T, which no source pairs with a price.",
       "where": [
         {
           "hint": "Uptime Institute and industry cost surveys; vendor budgetary quotes",
           "access": "open"
         }
       ],
-      "action": "Add cost figures with dollar year and basis."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "performance",
@@ -173,7 +173,21 @@
     "high": 8,
     "source": {
       "url": "https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu",
-      "note": "Production product family shipping for AI deployments (vendor catalogue) \u2014 indicative TRL 7-8, library's own judgement, read 2026-11-12"
+      "note": "Production product family shipping for AI deployments (vendor catalogue) — indicative TRL 7-8, library's own judgement, read 2026-11-12"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "installed cost, direct-to-chip cooling",
+      "unit": "USD per kW of IT load",
+      "year": 2025,
+      "low": 6000,
+      "high": 9500,
+      "basis": "Cold plates, CDU and manifolds, facility side excluded; a $2,500-4,500/kW premium over air, with in-rack CDU ASP $15,000-30,000 per unit. Per kW of IT load, not per kW of cooling capacity. Vendor/analyst figures.",
+      "source": {
+        "url": "https://energy-solutions.co/articles/sub/data-center-cooling-liquid-immersion-vs-air",
+        "note": "Vendor comparison; CDU ASP cross-checked at idtechex, read 2026-11-16"
+      }
+    }
+  ]
 }

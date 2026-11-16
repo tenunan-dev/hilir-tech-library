@@ -154,7 +154,7 @@
       "note": "PETRONAS press release, 25 March 2021"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "trl",
@@ -168,33 +168,6 @@
         }
       ],
       "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
-          "source_id": "oxford-oies",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox",
-          "access": "blocked"
-        },
-        {
-          "hint": "Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access",
-          "access": "paid"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
       "field": "performance",
@@ -218,6 +191,20 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "liquefaction plant cost, floating LNG",
+      "unit": "USD per tpa",
+      "year": 2018,
+      "low": 600,
+      "high": 2000,
+      "basis": "Golar 600, PFLNG2 825, PFLNG1 968, Prelude 2,000 - liquefaction plant only, projects built 2014-18.",
+      "source": {
+        "url": "https://www.oxfordenergy.org/wpcms/wp-content/uploads/2018/10/LNG-Plant-Cost-Reduction-2014%E2%80%9318-NG137.pdf",
+        "note": "OIES NG137, LNG plant cost reduction 2014-18, read 2026-11-16"
+      }
     }
   ]
 }

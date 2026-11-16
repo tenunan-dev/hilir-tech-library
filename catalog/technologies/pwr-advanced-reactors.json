@@ -114,31 +114,8 @@
       "note": "World-Energy, Fuel loading under way at China's HTR-PM, 24 Aug 2021"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open unit cost for Gen-IV demonstration plants (HTR-PM costs not published; US projects pre-FEED).",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
     {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
@@ -164,6 +141,20 @@
         "note": "CNNC: \"the world's first High Temperature gas cooled Reactor of Pebble bed Module (HTR-PM) is now connected to the grid\"; core-outlet 750 C / steam 566 C from world-energy.org, 24 Aug 2021 (fuel loading); commercial operation Dec 2023 widely reported; read 2026-10-28"
       },
       "project_id": "htr-pm-demonstration-plant-shidaowan-china-cnnc-huaneng-tsinghua"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost, advanced reactor (2 x AP1000)",
+      "unit": "USD per kW",
+      "year": 2023,
+      "low": 7861,
+      "high": 7861,
+      "basis": "EIA/Sargent & Lundy, total overnight capital cost, brownfield 2xAP1000 at 2,156 MW net.",
+      "source": {
+        "url": "https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf",
+        "note": "EIA capital cost study (AEO2025), Table 1-2, read 2026-11-16"
+      }
     }
   ]
 }

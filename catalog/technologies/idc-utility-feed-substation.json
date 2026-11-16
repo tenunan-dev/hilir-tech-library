@@ -130,21 +130,6 @@
   ],
   "gaps": [
     {
-      "field": "costs",
-      "item": "cost per MW of interconnection and on-site substation capacity, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read gives a per-MW interconnect or substation cost; utility upgrade charges are project-specific.",
-      "action": "Add a per-MW cost from a published interconnection study or project disclosure.",
-      "where": [
-        {
-          "hint": "Utility interconnection study cost allocations"
-        },
-        {
-          "hint": "EPC substation contract awards"
-        }
-      ]
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -171,6 +156,20 @@
       },
       "project_id": "lancium-abilene-campus",
       "year": 2025
+    }
+  ],
+  "costs": [
+    {
+      "metric": "utility works and substation cost, 1 GW AI campus",
+      "unit": "USD per MW of interconnection capacity",
+      "year": 2026,
+      "low": 164000,
+      "high": 164000,
+      "basis": "Epoch AI campus capex model: $164M per 1 GW facility for utility works and substations ($164/kW). A per-MVA figure needs a transformer rating assumption, which the model does not state.",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "note": "Epoch AI data-centre cost breakdown, read 2026-11-16"
+      }
     }
   ]
 }

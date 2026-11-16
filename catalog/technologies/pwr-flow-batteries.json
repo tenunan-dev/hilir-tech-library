@@ -99,32 +99,8 @@
       "note": "Wikipedia: Flow battery — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-11-11",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; system prices are quote-only.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    }
-  ],
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Dalian Flow Battery Energy Storage Peak-shaving Power Station (Rongke Power), Dalian, Liaoning",
@@ -136,6 +112,20 @@
         "note": "Chinese Academy of Sciences English feature on the DICP/Rongke Power Dalian station, read 2026-11-11"
       },
       "project_id": "dalian-flow-battery-energy-storage-peak-shaving-power-station-rongke-pow"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "installed cost, vanadium redox flow battery",
+      "unit": "USD per kWh",
+      "year": 2024,
+      "low": 446,
+      "high": 446,
+      "basis": "100 MW / 10 h system, total installed cost, from the PNNL assessment as reported second-hand; a 10-hour LFP comparator is $379/kWh.",
+      "source": {
+        "url": "https://gr1d.us/insights/flow-battery-data-center",
+        "note": "GRId article citing the PNNL September 2024 storage cost assessment, read 2026-11-16"
+      }
     }
   ]
 }

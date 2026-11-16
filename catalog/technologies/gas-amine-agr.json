@@ -210,36 +210,8 @@
       "note": "Honeywell UOP acid gas removal page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; AGR unit costs are licensor-quoted.",
-      "where": [
-        {
-          "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
-          "source_id": "oxford-oies",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox",
-          "access": "blocked"
-        },
-        {
-          "hint": "Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access",
-          "access": "paid"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    }
-  ],
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
   "trl": {
     "low": 9,
     "high": 9,
@@ -262,6 +234,18 @@
         "url": "https://www.iea.org/commentaries/is-carbon-capture-too-expensive",
         "source_id": "iea-reports",
         "note": "IEA commentary 'Is carbon capture too expensive?', read 2026-11-08"
+      }
+    },
+    {
+      "metric": "CO2 capture cost, amine absorption",
+      "unit": "USD per t CO2 removed",
+      "year": 2019,
+      "low": 15,
+      "high": 25,
+      "basis": "Concentrated streams (natural gas processing, ethanol), including compression. IEA range.",
+      "source": {
+        "url": "https://www.iea.org/commentaries/is-carbon-capture-too-expensive",
+        "note": "IEA commentary on carbon capture cost, read 2026-11-16"
       }
     }
   ]

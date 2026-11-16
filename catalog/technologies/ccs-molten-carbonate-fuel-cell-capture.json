@@ -113,29 +113,6 @@
       "action": "Add measured pilot results."
     },
     {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for molten carbonate fuel cell capture capital cost and unit cost; not present; 2026-10-28 Web-checked 2026-10-28; no open figures.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -169,6 +146,20 @@
       },
       "project_id": "exxonmobil-fuelcell-rotterdam-pilot",
       "year": 2026
+    }
+  ],
+  "costs": [
+    {
+      "metric": "CO2 capture cost, MW-class molten carbonate fuel cell",
+      "unit": "USD per t CO2",
+      "low": 27.49,
+      "high": 34.0,
+      "basis": "$34.00/t captured and $27.49/t avoided, pre-FEED study for an oil-sands facility (FuelCell Energy for Alberta Innovates); year set to the 2020 publication date.",
+      "source": {
+        "url": "https://albertainnovates.ca/wp-content/uploads/2020/10/FuelCell-Energy-Pre-FEED-Study-of-a-MW-Class-Molten-Carbonate-Fuel-Cell-System-for-Carbon-Capture-Demonstration-at-an-Oil-Sands-Facility.pdf",
+        "note": "Alberta Innovates pre-FEED study, read 2026-11-16"
+      },
+      "year": 2020
     }
   ]
 }

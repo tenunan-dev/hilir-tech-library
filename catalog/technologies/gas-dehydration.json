@@ -137,9 +137,9 @@
     },
     {
       "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "item": "molecular sieve and glycol dehydration cost with a stated dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; vendor quotes only.",
+      "reason": "A TEG package rate is recorded ($12,000 per MMSCFD, c.2013, undated); molecular sieve costs were not found.",
       "where": [
         {
           "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
@@ -160,7 +160,7 @@
           "access": "paid"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     }
   ],
   "reference_plants": [
@@ -175,6 +175,19 @@
       },
       "project_id": "gorgon-lng",
       "year": 2016
+    }
+  ],
+  "costs": [
+    {
+      "metric": "installed cost, TEG dehydration package",
+      "unit": "USD per MMSCFD",
+      "low": 12000,
+      "high": 12000,
+      "basis": "Onshore sweet-gas TEG package, installed, about $1.2M per 100 MMSCFD; c.2013 and the source does not restate a dollar year; dollar year not stated",
+      "source": {
+        "url": "http://www.jmcampbell.com/tip-of-the-month/2013/06/teg-dehydration-stripping-gas-charts-for-lean-teg-regeneration",
+        "note": "Campbell Tip of the Month on TEG dehydration, read 2026-11-16"
+      }
     }
   ]
 }

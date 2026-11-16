@@ -126,32 +126,8 @@
       "note": "IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched the 11 NETL corpus docs for 'calcium looping', 'carbonate looping', 'CaO', 'Calix', 'LEILAC'; no calcium-looping content (NETL's cement capture cases use Cansolv amine). Web-checked 2026-10-28; no open study found (2026-10-28 recheck).",
-      "where": [
-        {
-          "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
-          "source_id": "netl",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
-          "source_id": "osti",
-          "access": "blocked"
-        },
-        {
-          "hint": "IEAGHG technical reports (private copy only)",
-          "source_id": "iea-ghg",
-          "access": "open"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
     {
       "field": "performance",
       "item": "key performance figures (energy use, yields, capture or conversion rate)",
@@ -174,6 +150,19 @@
         }
       ],
       "action": "Add the figures that matter for comparing options, each with its basis and source."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "CO2 avoided cost, calcium looping",
+      "unit": "USD per t CO2 avoided",
+      "low": 39.4,
+      "high": 39.4,
+      "basis": "Mean of reviewed studies for post-combustion calcium looping; the review (2017) does not restate a dollar year; dollar year not stated",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S175058361730289X",
+        "note": "Leeson et al. systematic review of calcium looping TEA, read 2026-11-16"
+      }
     }
   ]
 }

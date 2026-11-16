@@ -275,9 +275,9 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "charter rate or levelised cost per MWh for a powership, with dollar year and basis",
+      "item": "charter rate and levelised cost",
       "reason_code": "not_in_sources_read",
-      "reason": "Operator and packager pages read do not publish prices. Web-checked 2026-10-28; charter rates are contract-confidential.",
+      "reason": "A delivered tariff is recorded ($0.072-0.095/kWh); charter day rates are commercially confidential and unpublished.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation",
@@ -289,7 +289,7 @@
           "access": "open"
         }
       ],
-      "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "process",
@@ -322,5 +322,19 @@
       "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
   ],
-  "notes": "Waller Marine's own website returned HTTP 403 on 26 October 2026, so its record rests on the MarineLink and Power Engineering reports cited above. The joint 80-180 MW engine-barge design is by Power Barge Corporation with BWSC and Vard, with ABS approval in principle (gCaptain, read 26 October 2026). Wikipedia is cited only as a secondary source for industry scale."
+  "notes": "Waller Marine's own website returned HTTP 403 on 26 October 2026, so its record rests on the MarineLink and Power Engineering reports cited above. The joint 80-180 MW engine-barge design is by Power Barge Corporation with BWSC and Vard, with ABS approval in principle (gCaptain, read 26 October 2026). Wikipedia is cited only as a secondary source for industry scale.",
+  "costs": [
+    {
+      "metric": "power tariff, powership supply",
+      "unit": "USD per kWh",
+      "year": 2024,
+      "low": 0.072,
+      "high": 0.095,
+      "basis": "Guyana contract at $0.072/kWh (2024) and $0.09-0.095/kWh under negotiation; a tariff, not a charter rate - Karpowership day rates are confidential.",
+      "source": {
+        "url": "https://inewsguyana.com/guyana-karpowership-negotiating-9-9-5%C2%A2-per-kwh-power-price-min-indar",
+        "note": "iNews Guyana report on the Karpowership tariff, read 2026-11-16"
+      }
+    }
+  ]
 }

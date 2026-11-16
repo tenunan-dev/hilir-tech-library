@@ -241,9 +241,9 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost per kW and rental day rate, with dollar year and basis",
+      "item": "capital cost per kW (rental is now recorded; capex is not)",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for mobile gas turbine packages. Web-checked 2026-10-28; rental day rates are quote-only (osti corpus checked, abstracts only).",
+      "reason": "Rental and lease rates are recorded. A capex figure for a mobile set was not found - the EIA aeroderivative number is a comparable, not this product.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity",
@@ -260,7 +260,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "process",
@@ -293,5 +293,19 @@
       "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
   ],
-  "notes": "The SGT-A45 TR is treated as historical: it launched in 2017 but no longer appears on the Siemens Energy portfolio page read on 26 October 2026. The PE6000 is a single-lift skid package rather than trailer-mounted; it sits between the trailer-mobile TM2500 class and permanent plant packages. APR Energy's live website was unreachable (HTTP 522) on 26 October 2026; figures come from a 15 July 2026 Wayback capture."
+  "notes": "The SGT-A45 TR is treated as historical: it launched in 2017 but no longer appears on the Siemens Energy portfolio page read on 26 October 2026. The PE6000 is a single-lift skid package rather than trailer-mounted; it sits between the trailer-mobile TM2500 class and permanent plant packages. APR Energy's live website was unreachable (HTTP 522) on 26 October 2026; figures come from a 15 July 2026 Wayback capture.",
+  "costs": [
+    {
+      "metric": "rental cost, 25-35 MW mobile gas turbine",
+      "unit": "USD per month",
+      "year": 2025,
+      "low": 1200000,
+      "high": 2500000,
+      "basis": "Rental or lease for a TM2500-class set (about $40-70/kW-month), fuel excluded, vendor-side indicative; trade range $18,000-28,000/MW-month. Capital anchor if needed: EIA aeroderivative $1,606/kW.",
+      "source": {
+        "url": "https://megagridsupply.com/tm2500-rental",
+        "note": "Vendor rental listing for TM2500 units, read 2026-11-16"
+      }
+    }
+  ]
 }

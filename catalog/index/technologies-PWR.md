@@ -4,44 +4,44 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Aeroderivative and industrial gas turbines](#pwr-aeroderivative-turbines) | Gas-fired power | commercial |  | Baker Hughes (LM6000, LM9000); GE Vernova (LM2500, LM2500XPRESS, LM6000); Solar Turbines (Titan, Taurus, Mars industrial turbines); Siemens Energy (SGT-A35, SGT-A65 aeroderivatives); JEREH (SGT-A05 aeroderivative genset packages (Jereh Distributed Energy); packaging and distribution of FTAI's Mod-1 CFM56 gensets via the J&F Power Systems joint venture) |  |
+| [Aeroderivative and industrial gas turbines](#pwr-aeroderivative-turbines) | Gas-fired power | commercial |  | Baker Hughes (LM6000, LM9000); GE Vernova (LM2500, LM2500XPRESS, LM6000); Solar Turbines (Titan, Taurus, Mars industrial turbines); Siemens Energy (SGT-A35, SGT-A65 aeroderivatives); JEREH (SGT-A05 aeroderivative genset packages (Jereh Distributed Energy); packaging and distribution of FTAI's Mod-1 CFM56 gensets via the J&F Power Systems joint venture) | overnight capital cost, aeroderivative simple cycle: 1606 USD per kW (2023$) |
 | [Biomass and waste-to-energy](#pwr-biomass-waste-to-energy) | Biomass and waste | commercial | 9 | Hitachi Zosen Inova (now Kanadevia Inova) (waste-to-energy plants); Babcock & Wilcox (biomass and waste boilers) | capital cost of the Dubai Waste Management Centre waste-to-energy plant: 1 billion USD project cost (1.9 Mt/yr waste processing) (2023$) |
 | [Cogeneration and combined heat and power](#pwr-cogeneration-chp) | Gas-fired power | commercial | 9 | Solar Turbines (Titan and Taurus CHP packages); Siemens Energy (industrial gas turbine CHP); Wärtsilä (engine CHP); JEREH (CHP and distributed energy investment, construction and O&M on Jenbacher/Waukesha gensets (Jereh Distributed Energy)) | installed cost, gas-turbine CHP: 1248-3281 USD/kW (2013$) |
 | [Combined cycle and HRSG](#pwr-combined-cycle-hrsg) | Gas-fired power | commercial |  | GE Vernova (HA combined-cycle plants); Siemens Energy (combined-cycle plants and HRSGs); Mitsubishi Heavy Industries (Mitsubishi Power) (GTCC plants) | total overnight cost, combined cycle single-shaft: 1086 USD/kW (2025$)<br>total overnight cost, combined cycle multi-shaft: 1032 USD/kW (2025$)<br>total overnight cost, combined cycle with 95% carbon capture: 2824 USD/kW (2025$) |
 | [Concentrated solar power with storage](#pwr-concentrated-solar-power) | Solar | commercial | 9 | Abengoa (CSP plants); SolarReserve (tower plants (company later closed)); Cosin (CSP plants) | capital cost, base year: 7912 USD/kWe (2022$) |
 | [Containerised hybrid power modules (solar, storage, gensets)](#pwr-containerised-hybrid-modules) | Modular power plants | commercial |  | Aggreko (hybrid power plants (relocatable solar + Y.Cube BESS + gensets) on rental or BOOM contracts); BoxPower (MegaBox, AutoBox and MiniBox containerised microgrids, 5 kW to 20 MW+); Bredenoord (Mobile Solar Plant (23 kWp fold-out) with Smart Power Bank battery and backup genset); SolarContainer (fold-out PV container, up to 140 kWp); PR Power (TRIME solar hybrid generators (15-24 kVA class), Australian rental and distribution) |  |
 | [Crystalline silicon PV (PERC, TOPCon, HJT)](#pwr-crystalline-silicon-pv) | Solar | commercial | 9 | LONGi (HJT and back-contact modules); Jinko Solar (TOPCon modules); Trina Solar (TOPCon modules); JA Solar (modules) | overnight capital cost: 1.56 USD/Wac (2023$) |
-| [Floating solar](#pwr-floating-solar) | Solar | commercial | 9 | Sungrow (floating PV systems); Ciel & Terre (Hydrelio floats) |  |
-| [Flow batteries (vanadium, zinc-bromine)](#pwr-flow-batteries) | Electrochemical storage | commercial | 9 | Rongke Power (vanadium flow); Invinity Energy Systems (vanadium flow) |  |
+| [Floating solar](#pwr-floating-solar) | Solar | commercial | 9 | Sungrow (floating PV systems); Ciel & Terre (Hydrelio floats) | total capital cost, floating PV: 1.18 USD per Wp (2022$) |
+| [Flow batteries (vanadium, zinc-bromine)](#pwr-flow-batteries) | Electrochemical storage | commercial | 9 | Rongke Power (vanadium flow); Invinity Energy Systems (vanadium flow) | installed cost, vanadium redox flow battery: 446 USD per kWh (2024$) |
 | [Gas engines](#pwr-gas-engines) | Gas-fired power | commercial | 9 | Wärtsilä (31SG, 34SG, 50SG); INNIO Jenbacher (Jenbacher gas engines); MAN Energy Solutions (Everllence) (gas engines); JEREH (INNIO Jenbacher/Waukesha authorized integrator; 3 kVA-3,300 kVA gas gensets and distributed energy (Jereh Distributed Energy)) | total installed cost, gas engine in grid-interconnected CHP application: 1433-2900 USD/kW (2013) (2013$)<br>total installed cost, reciprocating engine CHP: 2000-4250 USD/kW (2020) (2020$) |
 | [Geothermal (flash and binary cycle)](#pwr-geothermal-flash-binary) | Geothermal | commercial | 9 | Ormat (binary and flash plants); Toshiba (geothermal steam turbines); Fuji Electric (geothermal steam turbines) | overnight capital cost, hydrothermal: 4759-6349 USD/kW |
 | [Grid-forming inverters and synchronous condensers](#pwr-grid-forming-inverters) | Grid | commercial | 9 | SMA (grid-forming inverters); Siemens Energy (synchronous condensers) | Hornsdale grid-forming expansion cost: 71 million AUD (50 MW / 64.5 MWh expansion) |
-| [HVDC transmission and interconnectors](#pwr-hvdc-transmission) | Grid | commercial | 9 | Hitachi Energy (HVDC Classic and HVDC Light); Siemens Energy (HVDC Plus); GE Vernova (HVDC) |  |
-| [Heavy-duty gas turbines (H and J class)](#pwr-heavy-duty-gas-turbines) | Gas-fired power | commercial | 9 | GE Vernova (7HA, 9HA); Mitsubishi Heavy Industries (Mitsubishi Power) (M501/M701 J and JAC); Siemens Energy (HL class) |  |
-| [Hydropower](#pwr-hydropower) | Hydro | commercial | 9 | Andritz (hydro turbines); Voith (hydro turbines); GE Vernova (hydro turbines) | overnight capital cost, new stream-reach: 6574-8611 USD/kW |
+| [HVDC transmission and interconnectors](#pwr-hvdc-transmission) | Grid | commercial | 9 | Hitachi Energy (HVDC Classic and HVDC Light); Siemens Energy (HVDC Plus); GE Vernova (HVDC) | capital cost, HVDC transmission line: 0.3-0.34 USD million per km (2010$) |
+| [Heavy-duty gas turbines (H and J class)](#pwr-heavy-duty-gas-turbines) | Gas-fired power | commercial | 9 | GE Vernova (7HA, 9HA); Mitsubishi Heavy Industries (Mitsubishi Power) (M501/M701 J and JAC); Siemens Energy (HL class) | overnight capital cost, heavy-duty gas turbine: 836-921 USD per kW (2023$) |
+| [Hydropower](#pwr-hydropower) | Hydro | commercial | 9 | Andritz (hydro turbines); Voith (hydro turbines); GE Vernova (hydro turbines) | overnight capital cost, new stream-reach: 6574-8611 USD/kW<br>overnight capital cost, hydropower: 3045-20043 USD per kW (2023$) |
 | [Large light-water reactors](#pwr-large-light-water-reactors) | Nuclear | commercial | 9 | Westinghouse (AP1000); EDF (EPR (Framatome)); KHNP (APR1400); CGN (Hualong One) | Barakah four-unit plant cost (financing basis) and build time: 4360 USD/kW derived (USD 24.4 bn for 5.6 GW); build time 12 years (2012-2024) (2016$) |
-| [Lithium-ion battery energy storage](#pwr-lithium-ion-bess) | Electrochemical storage | commercial | 9 | CATL (LFP storage systems); BYD (storage systems); Tesla (Megapack); Fluence (integrated storage); JEREH (battery energy storage systems paired with mobile gas turbines and solar (Jereh Agile Power Energy)) |  |
-| [Mobile gas turbine power plants](#pwr-mobile-gas-turbine-plants) | Modular power plants | commercial |  | GE Vernova (TM2500 mobile packages (DLE and SAC variants)); Siemens Energy (SGT-A45 TR mobile unit (launched 2017; no longer listed in the current portfolio)); PROENERGY (PE6000 50 MW fast-start package, LM6000-interchangeable); APR Energy (rental fleet of TM2500 variants and Mitsubishi FT8 units, 20-35 MW per unit); JEREH (Power2Go mobile gas turbine gensets, 8-45 MW class (8, 18, 25, 32, 35 and 45 MW units); US rental/leasing via GenSystems) |  |
-| [Modular ORC units for waste heat and small geothermal](#pwr-modular-orc-units) | Modular power plants | commercial | 9 | Climeon (HeatPower 300 (50-355 kW net) and HeatPower 150 marine modules); Enogia (10-180 kWe ORC modules, combinable above 1 MWe); Exergy (radial outflow turbine ORC plants, 100 kW to 50 MWe); Turboden (ORC units for geothermal, biomass and waste heat, 1-20 MWe class); Ormat (Ormat Energy Converter ORC units for geothermal and recovered heat); ElectraTherm (BITZER Group) (Power+ Generator waste heat ORC, up to 150 kWe) |  |
+| [Lithium-ion battery energy storage](#pwr-lithium-ion-bess) | Electrochemical storage | commercial | 9 | CATL (LFP storage systems); BYD (storage systems); Tesla (Megapack); Fluence (integrated storage); JEREH (battery energy storage systems paired with mobile gas turbines and solar (Jereh Agile Power Energy)) | total capital cost, 4-hour lithium-ion BESS: 436-1744 USD per kW and USD per kWh (2023$) |
+| [Mobile gas turbine power plants](#pwr-mobile-gas-turbine-plants) | Modular power plants | commercial |  | GE Vernova (TM2500 mobile packages (DLE and SAC variants)); Siemens Energy (SGT-A45 TR mobile unit (launched 2017; no longer listed in the current portfolio)); PROENERGY (PE6000 50 MW fast-start package, LM6000-interchangeable); APR Energy (rental fleet of TM2500 variants and Mitsubishi FT8 units, 20-35 MW per unit); JEREH (Power2Go mobile gas turbine gensets, 8-45 MW class (8, 18, 25, 32, 35 and 45 MW units); US rental/leasing via GenSystems) | rental cost, 25-35 MW mobile gas turbine: 1.2e+06-2.5e+06 USD per month (2025$) |
+| [Modular ORC units for waste heat and small geothermal](#pwr-modular-orc-units) | Modular power plants | commercial | 9 | Climeon (HeatPower 300 (50-355 kW net) and HeatPower 150 marine modules); Enogia (10-180 kWe ORC modules, combinable above 1 MWe); Exergy (radial outflow turbine ORC plants, 100 kW to 50 MWe); Turboden (ORC units for geothermal, biomass and waste heat, 1-20 MWe class); Ormat (Ormat Energy Converter ORC units for geothermal and recovered heat); ElectraTherm (BITZER Group) (Power+ Generator waste heat ORC, up to 150 kWe) | installed cost, waste-heat ORC: 1800-3000 USD per kW |
 | [Modular reciprocating engine power plants](#pwr-modular-engine-plants) | Modular power plants | commercial |  | Wärtsilä (Modular Block (~6-10 MW per block) and Smart Power Generation plants); Rolls-Royce Power Systems (mtu) (modular gas engine power plants from 10/20/30 MW factory-tested blocks); Everllence (formerly MAN Energy Solutions) (modularised 51/60 series engine power plants); INNIO Jenbacher (containerised gensets, 249-4,507 kW per container); Cummins (Centum Force containerised gensets, 2.0-2.75 MW (50 Hz)) |  |
 | [Offshore wind (fixed bottom)](#pwr-offshore-wind-fixed) | Wind | commercial | 9 | Ørsted (developer and operator); Siemens Gamesa (offshore turbines); Vestas (offshore turbines) |  |
 | [Onshore wind](#pwr-onshore-wind) | Wind | commercial | 9 | Vestas (onshore turbines); Siemens Gamesa (onshore turbines); Goldwind (onshore turbines); Envision (onshore turbines) | global weighted-average utility-scale onshore wind cost: 1210 USD/kW installed (2018), average LCOE 0.056 USD/kWh (2018$) |
-| [Powerships and power barges](#pwr-powerships-power-barges) | Modular power plants | commercial |  | Karpowership (Karadeniz Energy Group) (Powerships, Seal 34-40 MW to Khan 415-470 MW classes, plus LNG-to-power vessels); Power Barge Corporation (gas-turbine barges 30-300 MW, medium-speed-engine barges 80-200 MW, storage barges); Wärtsilä (floating power plants on Wärtsilä engine sets); Waller Marine (barge-mounted gas-turbine plants (2 x 171 MW at Tacoa, Venezuela); no live website found); BWSC (co-developer of an 80-180 MW medium-speed-engine power barge design with ABS approval in principle) |  |
+| [Powerships and power barges](#pwr-powerships-power-barges) | Modular power plants | commercial |  | Karpowership (Karadeniz Energy Group) (Powerships, Seal 34-40 MW to Khan 415-470 MW classes, plus LNG-to-power vessels); Power Barge Corporation (gas-turbine barges 30-300 MW, medium-speed-engine barges 80-200 MW, storage barges); Wärtsilä (floating power plants on Wärtsilä engine sets); Waller Marine (barge-mounted gas-turbine plants (2 x 171 MW at Tacoa, Venezuela); no live website found); BWSC (co-developer of an 80-180 MW medium-speed-engine power barge design with ABS approval in principle) | power tariff, powership supply: 0.072-0.095 USD per kWh (2024$) |
 | [Pumped hydro storage](#pwr-pumped-hydro-storage) | Mechanical storage | commercial | 9 | Andritz (pump-turbines); Voith (pump-turbines); GE Vernova (pump-turbines) | overnight capital cost, 10 h, closed loop: 3029-4501 USD/kW (2021$)<br>overnight capital cost, 10 h, one new reservoir: 1730-3250 USD/kW (2021$) |
-| [Smart grids, microgrids and virtual power plants](#pwr-smart-grids-vpp) | Grid | commercial | 9 | Schneider Electric (microgrid and DERMS software); Siemens (grid software); AutoGrid (VPP software) |  |
-| [Ammonia co-firing in coal boilers](#pwr-ammonia-coal-cofiring) | Gas-fired power | demonstration | 8 | IHI (ammonia co-firing burners); JERA (Hekinan demonstration) |  |
-| [Compressed and liquid air energy storage](#pwr-compressed-liquid-air-storage) | Mechanical storage | demonstration | 7-9 | Hydrostor (advanced CAES); Highview Power (liquid air storage) |  |
+| [Smart grids, microgrids and virtual power plants](#pwr-smart-grids-vpp) | Grid | commercial | 9 | Schneider Electric (microgrid and DERMS software); Siemens (grid software); AutoGrid (VPP software) | cost of VPP-delivered resource versus conventional alternative: 40-60 percent of conventional cost |
+| [Ammonia co-firing in coal boilers](#pwr-ammonia-coal-cofiring) | Gas-fired power | demonstration | 8 | IHI (ammonia co-firing burners); JERA (Hekinan demonstration) | green ammonia fuel price: 782-860 USD per tonne (2025$) |
+| [Compressed and liquid air energy storage](#pwr-compressed-liquid-air-storage) | Mechanical storage | demonstration | 7-9 | Hydrostor (advanced CAES); Highview Power (liquid air storage) | capital cost, liquid air energy storage: 3250 GBP per kW |
 | [Enhanced geothermal systems](#pwr-enhanced-geothermal) | Geothermal | demonstration | 6-7 | Fervo Energy (EGS projects); Eavor (closed-loop Eavor-Loop) | overnight capital cost, near-field EGS to deep EGS: 6535-13508 USD/kW |
 | [Floating offshore wind](#pwr-floating-offshore-wind) | Wind | demonstration | 8 | Equinor (Hywind spar); Principle Power (WindFloat) | Hywind Tampen project cost: 488-550 million USD (about NOK 5 bn) (2020$) |
 | [Gravity energy storage](#pwr-gravity-storage) | Mechanical storage | demonstration | 7 | Energy Vault (gravity storage (the company's site now describes battery projects)) |  |
 | [Hydrogen-capable and ammonia-fired gas turbines](#pwr-hydrogen-ammonia-turbines) | Gas-fired power | demonstration | 5-9 | Mitsubishi Heavy Industries (Mitsubishi Power) (M501JAC hydrogen-ready); GE Vernova (7HA with up to 50% hydrogen); IHI (ammonia combustion) |  |
-| [Microreactors (transportable nuclear)](#pwr-microreactors) | Modular power plants | demonstration | 5 | Westinghouse Electric Company (eVinci 5 MWe heat-pipe microreactor); BWX Technologies (BANR 75 MWt / 22 MWe HTGR; Project Pele 1-5 MWe transportable microreactor); Oklo (Aurora powerhouse, up to 75 MWe liquid-metal fast reactor); HolosGen (Holos Quad 3-13 MWe containerised modules); NANO Nuclear Energy (KRONOS MMR, ZEUS and LOKI designs) |  |
-| [Small modular reactors](#pwr-small-modular-reactors) | Nuclear | demonstration | 7 | NuScale (VOYGR); GE Vernova Hitachi (BWRX-300); Rolls-Royce SMR (470 MWe design) |  |
+| [Microreactors (transportable nuclear)](#pwr-microreactors) | Modular power plants | demonstration | 5 | Westinghouse Electric Company (eVinci 5 MWe heat-pipe microreactor); BWX Technologies (BANR 75 MWt / 22 MWe HTGR; Project Pele 1-5 MWe transportable microreactor); Oklo (Aurora powerhouse, up to 75 MWe liquid-metal fast reactor); HolosGen (Holos Quad 3-13 MWe containerised modules); NANO Nuclear Energy (KRONOS MMR, ZEUS and LOKI designs) | overnight capital cost, microreactor: 8000-17000 USD per kW (2023$) |
+| [Small modular reactors](#pwr-small-modular-reactors) | Nuclear | demonstration | 7 | NuScale (VOYGR); GE Vernova Hitachi (BWRX-300); Rolls-Royce SMR (470 MWe design) | overnight capital cost, light-water SMR: 8936 USD per kW (2023$) |
 | [Sodium-ion batteries](#pwr-sodium-ion-batteries) | Electrochemical storage | demonstration | 9 | CATL (Naxtra); HiNa (sodium-ion cells) |  |
-| [Thermal energy storage (molten salt, sand, bricks)](#pwr-thermal-energy-storage) | Thermal storage | demonstration | 8 | Rondo Energy (heat battery); Polar Night Energy (sand battery); Kraftblock (granulate storage) |  |
-| [Advanced reactors (high-temperature gas, molten salt)](#pwr-advanced-reactors) | Nuclear | pilot | 4-8 | X-energy (Xe-100); Kairos Power (molten-salt-cooled reactors); TerraPower (Natrium) |  |
-| [Perovskite and tandem solar cells](#pwr-perovskite-tandem) | Solar | pilot | 6 | Oxford PV (perovskite-on-silicon tandem modules); LONGi (tandem cell research) |  |
-| [Tidal and wave energy](#pwr-tidal-wave) | Ocean | pilot | 6 | Orbital Marine Power (O2 floating turbine); SIMEC Atlantis (MeyGen tidal stream) |  |
+| [Thermal energy storage (molten salt, sand, bricks)](#pwr-thermal-energy-storage) | Thermal storage | demonstration | 8 | Rondo Energy (heat battery); Polar Night Energy (sand battery); Kraftblock (granulate storage) | specific capital cost, two-tank molten salt storage: 30-40 USD per kWh-thermal |
+| [Advanced reactors (high-temperature gas, molten salt)](#pwr-advanced-reactors) | Nuclear | pilot | 4-8 | X-energy (Xe-100); Kairos Power (molten-salt-cooled reactors); TerraPower (Natrium) | overnight capital cost, advanced reactor (2 x AP1000): 7861 USD per kW (2023$) |
+| [Perovskite and tandem solar cells](#pwr-perovskite-tandem) | Solar | pilot | 6 | Oxford PV (perovskite-on-silicon tandem modules); LONGi (tandem cell research) | module manufacturing cost, perovskite/silicon tandem: 0.29-0.42 USD per W-DC (2024$) |
+| [Tidal and wave energy](#pwr-tidal-wave) | Ocean | pilot | 6 | Orbital Marine Power (O2 floating turbine); SIMEC Atlantis (MeyGen tidal stream) | levelised cost of electricity, wave and tidal: 120-140 USD per MWh (2025$) |
 | [Fusion](#pwr-fusion) | Nuclear | lab | 3 | ITER (international tokamak, Cadarache); Commonwealth Fusion Systems (SPARC and ARC); Tokamak Energy (spherical tokamak) | ITER project cost (construction and operations, evolving): 15-22 billion EUR (estimates; EU share EUR 5.61 bn approved to 2027) |
 
 ## Aeroderivative and industrial gas turbines
@@ -67,15 +67,17 @@ flowchart LR
 - LM2500XPRESS+ output (50 Hz, ISO, natural gas): 34.5-36.3 MW; G4 and G5 DLE UPT variants. [source](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500)
 - LM2500 hydrogen-blend operating experience: 5-95 % hydrogen by volume; about 2 million operating hours on hydrogen-blend fuels; headline capability up to 75% hydrogen. [source](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500)
 
+**Costs:**
+- overnight capital cost, aeroderivative simple cycle: 1606 USD per kW (2023$); 4 x 54 MW aeroderivative units, 211 MW net, overnight capital excluding financing.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
+
 **Reference plants:**
 - QPM Isaac Power Station aeroderivative units, Queensland, AU: two GE Vernova LM6000 aeroderivative gas turbines generating up to 112 MW; delivered 2025; construction. [source](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; OEM quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station). Last reviewed 2026-10-28.
+Sources: [1](https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf), [2](https://www.gevernova.com/gas-power/products/gas-turbines/lm2500), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://www.turbomachinerymag.com/view/ge-vernova-delivers-two-lm6000-aeroderivatives-for-qpm-s-isaac-power-station). Last reviewed 2026-11-16.
 
 ## Biomass and waste-to-energy
 <a id="pwr-biomass-waste-to-energy"></a>
@@ -297,6 +299,9 @@ flowchart LR
 - global installed floating PV: 1.1 GW; September 2018 (report date 30 October 2018). [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
 - conservative global potential: 400 GW; World Bank estimate. [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
 
+**Costs:**
+- total capital cost, floating PV: 1.18 USD per Wp (2022$); Median of reported projects (about 1,180 USD/kWp); 30 projects sit below 1.00 USD/W. Total capex, not overnight.. [source](https://iea-pvps.org/wp-content/uploads/2025/04/IEA-PVPS-T13-31-2025-REPORT-Floating-PV-Plants.pdf)
+
 **Reference plants:**
 - Cirata floating solar PV plant, West Java, Indonesia, ID: 145 MW floating PV (Masdar/PLN), largest in Southeast Asia at its 2023 commissioning, planned expansion to 500 MW; operating. [source](https://taiyangnews.info/markets/floating-solar-expansion-in-southeast-asian-nations)
 
@@ -304,9 +309,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - current global capacity and yield gain percentage (performance): The World Bank report is from 2018. Web-checked 2026-10-28: World Bank/SERIS put global floating solar above 1.1 GW back in 2018 (pv-tech) with higher yield from water cooling, but neither a current (2025-26) global GW figure nor a verified yield-gain percentage was found in open pages. Where: IRENA and IEA PVPS floating PV statistics (catalog: irena, open). Next: Add a 2024 or 2025 capacity figure.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open $/W or $/MWh figure found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water), [2](https://en.wikipedia.org/wiki/Floating_solar). Last reviewed 2026-10-29.
+Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water), [2](https://en.wikipedia.org/wiki/Floating_solar). Last reviewed 2026-11-16.
 
 ## Flow batteries (vanadium, zinc-bromine)
 <a id="pwr-flow-batteries"></a>
@@ -327,15 +331,15 @@ flowchart LR
 **Performance:**
 - energy discharged since 2022, Invinity fleet: 11000 MWh; vendor claim. [source](https://invinity.com/)
 
+**Costs:**
+- installed cost, vanadium redox flow battery: 446 USD per kWh (2024$); 100 MW / 10 h system, total installed cost, from the PNNL assessment as reported second-hand; a 10-hour LFP comparator is $379/kWh.. [source](https://gr1d.us/insights/flow-battery-data-center)
+
 **Reference plants:**
 - Dalian Flow Battery Energy Storage Peak-shaving Power Station (Rongke Power), Dalian, Liaoning, CN: Phase 1 100 MW / 400 MWh vanadium redox flow battery, first phase of a planned 200 MW / 800 MWh station; grid-connected 29 September 2022 with commercial operation from mid-October 2022 — the largest flow-battery station in the world at the time; operating. [source](https://english.cas.cn/Special_Reports/rd/2022/202410/t20241031_693355.shtml)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Redox flow storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; system prices are quote-only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-
-Sources: [1](https://invinity.com/), [2](https://en.wikipedia.org/wiki/Flow_battery). Last reviewed 2026-11-11.
+Sources: [1](https://invinity.com/), [2](https://en.wikipedia.org/wiki/Flow_battery). Last reviewed 2026-11-16.
 
 ## Gas engines
 <a id="pwr-gas-engines"></a>
@@ -448,15 +452,15 @@ flowchart LR
 **Performance:**
 - world-record UHVDC voltage and capacity (Changji-Guquan, China): 1100-12 kV DC bipolar voltage (±1,100) and GW transmission capacity (12 GW over about 3,300 km); ±1,100 kV Changji (Xinjiang) to Guquan (Anhui) UHVDC link, 12,000 MW, world records in voltage, capacity and distance; full-voltage transmission began January 2019; loss-per-1,000-km figure not stated in the pages read. [source](https://www.jiludb.com/en/record/highest-voltage-power-transmission-project)
 
+**Costs:**
+- capital cost, HVDC transmission line: 0.3-0.34 USD million per km (2010$); Line only - converter stations excluded, and no per-MW figure is separable; average about $0.30M/km, example $275M for an 805 km line.. [source](https://documents1.worldbank.org/curated/en/099040926152055780/pdf/P506480-a2f4b5e4-cca9-437b-b33d-38293adae0e7.pdf)
+
 **Reference plants:**
 - Changji-Guquan ±1,100 kV UHVDC link, China (SGCC), CN: ±1,100 kV, 12 GW, about 3,300 km from Xinjiang to Anhui; world's highest-voltage DC transmission; full-voltage operation January 2019; operating. [source](https://www.powermag.com/press-releases/abb-wins-orders-of-over-300-million-for-worlds-first-1100-kv-uhvdc-power-link-in-china)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'HVDC power transmission' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-
-Sources: [1](https://www.hitachienergy.com/products-and-solutions/hvdc), [2](https://en.wikipedia.org/wiki/High-voltage_direct_current). Last reviewed 2026-10-29.
+Sources: [1](https://www.hitachienergy.com/products-and-solutions/hvdc), [2](https://en.wikipedia.org/wiki/High-voltage_direct_current). Last reviewed 2026-11-16.
 
 ## Heavy-duty gas turbines (H and J class)
 <a id="pwr-heavy-duty-gas-turbines"></a>
@@ -484,13 +488,13 @@ flowchart LR
 - 7HA hot restart to full gas-turbine load: 10-21 min; 7HA.02 10 min, 7HA.03 21 min. [source](https://www.gevernova.com/gas-power/products/gas-turbines/7ha)
 - hydrogen co-firing capability: 30-50 % hydrogen by volume; GE 7HA up to 50%; MHI says 30% demonstrated on M701J. [source](https://www.gevernova.com/gas-power/products/gas-turbines/7ha)
 
+**Costs:**
+- overnight capital cost, heavy-duty gas turbine: 836-921 USD per kW (2023$); Simple cycle 1xH-class 419 MW $836/kW; combined cycle 2x2x1 $868/kW; single-shaft CC 1x1x1 $921/kW. Overnight capital, no financing.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
+
 **Reference plants:**
 - Hamriyah Independent Power Plant (3 x GE 9HA.01), United Arab Emirates: 1.8 GW; commercial operation October 2023. [source](https://www.gevernova.com/news/press-releases/sewa-shipco-ge-vernova-announce-commercial-operations-of-hamriyah-ipp-meas-most)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'H₂ blending in natural gas turbine' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
-
-**Missing inputs:**
-- installed cost per kW with dollar year (costs): Open vendor pages give no cost; cost databases are commercial. Searched OSTI corpus (25 reports) for "gas turbine", "installed cost", "$/kW", "capital cost", "levelized"; not present; 2026-10-28 Where: Gas Turbine World handbook (paid) (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add an open cost figure, for example from an EIA or NREL cost study.
 
 Sources: [1](https://www.gevernova.com/gas-power/products/gas-turbines/7ha), [2](https://power.mhi.com/products/gasturbines/lineup/m701j), [3](https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf), [4](https://en.wikipedia.org/wiki/Gas_turbine). Last reviewed 2026-11-16.
 
@@ -516,16 +520,14 @@ flowchart LR
 
 **Costs:**
 - overnight capital cost, new stream-reach: 6574-8611 USD/kW; base year; dollar year not stated on the page. [source](https://atb.nrel.gov/electricity/2024/hydropower)
+- overnight capital cost, hydropower: 3045-20043 USD per kW (2023$); NREL ATB 2025 base year 2022 plant: new planned development $3,045-20,043/kW, new site development $6,574-8,611/kW. EIA cross-check $7,073/kW for 100 MW new stream-reach. Both in 2023 USD, which answers the dollar-year question in the gap.. [source](https://atb.nrel.gov/electricity/2025/hydropower)
 
 **Reference plants:**
 - Bakun Hydroelectric Plant, Sarawak, Malaysia (Sarawak Energy), MY: 2,400 MW turbine capacity (installed 2,520 MW per 2026 trade press); commissioned 2011; 205 m concrete-faced rockfill dam; firm energy about 1,771 MW; Southeast Asia's largest hydropower installation; operating. [source](https://www.sarawakenergy.com/bakun-hydroelectric-plant)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Hydropower' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- dollar year for the ATB hydropower costs (costs): The page does not state the dollar year. Web-checked 2026-10-28: the ATB is published at atb.nrel.gov, which is network-blocked from this machine; dollar year to be confirmed from an NREL mirror. Where: NREL ATB documentation (catalog: nrel, open). Next: Confirm the dollar year and add it to the figure.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/hydropower), [2](https://www.sarawakenergy.com/bakun-hydroelectric-plant), [3](https://en.wikipedia.org/wiki/Hydropower). Last reviewed 2026-10-29.
+Sources: [1](https://atb.nrel.gov/electricity/2024/hydropower), [2](https://www.sarawakenergy.com/bakun-hydroelectric-plant), [3](https://en.wikipedia.org/wiki/Hydropower). Last reviewed 2026-11-16.
 
 ## Large light-water reactors
 <a id="pwr-large-light-water-reactors"></a>
@@ -578,15 +580,15 @@ flowchart LR
 - design life: 15 years; with augmentation. [source](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage)
 - capex reduction 2022 to 2035, 60 MW 4-hour: 18-52 % (conservative to advanced); moderate 37%. [source](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage)
 
+**Costs:**
+- total capital cost, 4-hour lithium-ion BESS: 436-1744 USD per kW and USD per kWh (2023$); 150 MW/600 MWh greenfield: $1,744/kW and $436/kWh (EPC plus owner's costs). NREL's 2025 projection for 4-hour systems is $147-339/kWh.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
+
 **Reference plants:**
 - Edwards & Sanborn Solar + Energy Storage project, Kern County, California (Terra-Gen), US: about USD 2 bn project: 875 MW solar PV with 3,287 MWh of lithium-ion battery storage (about 1,300 MW discharge); largest of its kind when completed; first phases from 2021, full operation 2023; operating. [source](https://centralcalifornia.org/solar-energy-project-extending-onto-edwards-air-force-base-becomes-kerns-largest-2)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Lithium-ion storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- $/kWh and $/kW installed cost with dollar year (costs): The ATB page lists cost only in charts. Where: NREL ATB 2024 data download (catalog: nrel, open). Next: Add base-year system cost with dollar year.
-
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage), [2](https://en.wikipedia.org/wiki/Battery_storage_power_station). Last reviewed 2026-10-29.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_battery_storage), [2](https://en.wikipedia.org/wiki/Battery_storage_power_station). Last reviewed 2026-11-16.
 
 ## Mobile gas turbine power plants
 <a id="pwr-mobile-gas-turbine-plants"></a>
@@ -614,13 +616,16 @@ flowchart LR
 - PROENERGY PE6000 gross output: 50.2 MW; gross heat rate 8,800 Btu/kWh; 5-minute start; factory enclosure unloaded in a single lift; 35% hydrogen ready. [source](https://www.proenergyservices.com/solutions/manufactured-equipment/pe6000/)
 - APR Energy deployment time: 30-90 days; 30 to 90 days average, some projects in 15 days; 20-35 MW ISO per unit; fleet over 1.1 GW. [source](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/our-technology/gas-turbines/)
 
+**Costs:**
+- rental cost, 25-35 MW mobile gas turbine: 1.2e+06-2.5e+06 USD per month (2025$); Rental or lease for a TM2500-class set (about $40-70/kW-month), fuel excluded, vendor-side indicative; trade range $18,000-28,000/MW-month. Capital anchor if needed: EIA aeroderivative $1,606/kW.. [source](https://megagridsupply.com/tm2500-rental)
+
 **Reference plants:**
 - 38 TM2500 units across Algeria, Algeria: 38 units; operating; fleet of more than 350 units installed worldwide. [source](https://www.gevernova.com/gas-power/products/gas-turbines/tm2500)
 - SAPN bridge power, South Australia, Australia: 276 MW; APR Energy rapid deployment reference. [source](https://web.archive.org/web/20260715202302/https://www.aprenergy.com/)
 - GE TM2500 mobile power for remote Indonesia, ID: TM2500 mobile generators on two-trailer assemblies, more than 25 MW per unit, delivering electricity to Indonesia's remote areas (2016); operating. [source](https://jakartaglobe.id/context/ges-power-plant-wheels-delivers-electricity-indonesias-remote-areas)
 
 **Missing inputs:**
-- capital cost per kW and rental day rate, with dollar year and basis (costs): No open source read so far gives costs for mobile gas turbine packages. Web-checked 2026-10-28; rental day rates are quote-only (osti corpus checked, abstracts only). Where: arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity (catalog: arxiv, open); Vendor quotations and cost databases; paid sources are catalog-only (paid); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost per kW (rental is now recorded; capex is not) (costs): Rental and lease rates are recorded. A capex figure for a mobile set was not found - the EIA aeroderivative number is a comparable, not this product. Where: arXiv and open-access journals: techno-economic studies of rental or mobile peaking capacity (catalog: arxiv, open); Vendor quotations and cost databases; paid sources are catalog-only (paid); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - deployment sequence is general engineering practice, not taken from one source (process): The vendor pages give timings but not a step-by-step deployment flow. Where: Vendor installation manuals or trade press deployment reports (open). Next: Check the steps against a named source.
 - TRL with a cited source (trl): No agency TRL row corresponds to this power technology in the IEA guide. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
@@ -652,6 +657,9 @@ flowchart LR
 - Ormat geothermal fleet: 3200 MW; more than 3,200 MW of geothermal capacity across more than 190 plants, described as modular and flexible. [source](https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89)
 - ElectraTherm Power+ Generator output: up to 150 kWe; up to 150 kWe currently available (250 kW in development) from heat sources at 70-150 degrees C. [source](https://electratherm.com/products/)
 
+**Costs:**
+- installed cost, waste-heat ORC: 1800-3000 USD per kW; Installed cost for small waste-heat ORC units, clustering at the high end; the paper is around 2011 and does not restate a dollar year; dollar year not stated. [source](https://www.aceee.org/wp-content/uploads/proceedings-1980-2020/2011/0085-000077.pdf)
+
 **Reference plants:**
 - Virgin Voyages cruise ships, HeatPower 150, multi-country operation: 900 kW per vessel (six units); in service with Lloyd's Register class approval since 2020. [source](https://climeon.com/references/)
 - Maersk Horsburgh retrofit, Denmark (operator): 150 kW; marine retrofit with ABS approval since 2022. [source](https://climeon.com/references/)
@@ -661,7 +669,6 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Organic rankine cycle (low temperature resources)' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
-- installed cost per kW for a modular ORC unit, with dollar year and basis (costs): Vendor pages read do not publish prices. Web-checked 2026-10-28; unit prices are quote-only. Where: arXiv and open-access journals: ORC waste-heat techno-economic reviews (catalog: arxiv, open); IEA and IRENA renewable cost databases (open); MDPI Energies ORC reviews; www.mdpi.com is CDN-blocked, use the manual inbox (catalog: mdpi-energies, blocked). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
 - ORC cycle steps are textbook standard (process): The cycle description follows standard ORC engineering practice rather than one named source. Where: A licensor page or review paper describing the ORC process step by step (open). Next: Check the steps against a named source and cite it.
 
 Sources: [1](https://climeon.com/heatpower-300-technology/), [2](https://climeon.com/references/), [3](https://www.enogia.com/orc), [4](https://exergyint.com/orc/), [5](https://exergyint.com/radial-outflow-turbine/), [6](https://www.turboden.com/), [7](https://www.ormat.com/en/renewables/geothermal/view/?ContentID=89), [8](https://electratherm.com/products/). Last reviewed 2026-11-16.
@@ -787,6 +794,9 @@ flowchart LR
 - Power Barge Corporation product range: 30-300 MW; gas-turbine barges 30-300 MW (simple and combined cycle); medium-speed-engine barges 80-200 MW on gas, diesel, biodiesel or low-sulphur HFO. [source](https://powerbargecorp.com)
 - Wärtsilä power barge for Jamaica: 50 MW; repeat order for a 50 MW barge with three Wärtsilä 18V46 generating sets. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
 
+**Costs:**
+- power tariff, powership supply: 0.072-0.095 USD per kWh (2024$); Guyana contract at $0.072/kWh (2024) and $0.09-0.095/kWh under negotiation; a tariff, not a charter rate - Karpowership day rates are confidential.. [source](https://inewsguyana.com/guyana-karpowership-negotiating-9-9-5%C2%A2-per-kwh-power-price-min-indar)
+
 **Reference plants:**
 - Estrella del Mar II, Dominican Republic: ; Wärtsilä floating power plant reference. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
 - DR Bird I and II, Jamaica: 50 MW (new unit); Wärtsilä power barges; repeat order for a third 50 MW barge with three 18V46 sets. [source](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/applications/floating-power-plants)
@@ -795,7 +805,7 @@ flowchart LR
 - MV Karadeniz Powership Osman Khan (Karpowership), Ghana: 470 MW installed; 450 MW under the ECG PPA; deployed August 2017. [source](https://karpowership.com/media/s1wesz43/ghana.pdf)
 
 **Missing inputs:**
-- charter rate or levelised cost per MWh for a powership, with dollar year and basis (costs): Operator and packager pages read do not publish prices. Web-checked 2026-10-28; charter rates are contract-confidential. Where: arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation (catalog: arxiv, open); Regulator filings, for example South Africa NERSA hearings on Karpowership tariffs (open). Next: Find an open cost figure; record it with metric, range, unit, dollar year, basis and source.
+- charter rate and levelised cost (costs): A delivered tariff is recorded ($0.072-0.095/kWh); charter day rates are commercially confidential and unpublished. Where: arXiv and open-access journals: techno-economic studies of powership or barge-mounted generation (catalog: arxiv, open); Regulator filings, for example South Africa NERSA hearings on Karpowership tariffs (open). Next: Leave open until a source states this metric and scope.
 - connection sequence is generalised from vendor claims (process): Vendor pages state 'weeks, not years' but do not document the step-by-step connection process. Where: Port authority or regulator case documents for a specific powership project (open). Next: Check the steps against a named project document.
 - TRL with a cited source (trl): No agency TRL row corresponds to this power technology in the IEA guide. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
@@ -850,6 +860,9 @@ flowchart LR
 - North American VPP capacity: 37.5 GW; 2025. [source](https://en.wikipedia.org/wiki/Virtual_power_plant)
 - AGL South Australia VPP: 25-37 MW solar and MW storage; 2025 programme size after AGL acquisition. [source](https://en.wikipedia.org/wiki/Virtual_power_plant)
 
+**Costs:**
+- cost of VPP-delivered resource versus conventional alternative: 40-60 percent of conventional cost; Brattle finds VPP resources cost about 40-60% of the conventional alternative - a comparative ratio, not an absolute capital cost.. [source](https://www.brattle.com/wp-content/uploads/2023/04/Real-Reliability-The-Value-of-Virtual-Power-Full-Report.pdf)
+
 **Reference plants:**
 - Next Kraftwerke Next Pool VPP, Germany (plus seven EU countries): 15,541 MW networked; 14,375 units; operating, Q4 2025 figures. [source](https://www.next-kraftwerke.com/vpp)
 
@@ -857,7 +870,7 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - microgrid examples for oil and gas operations (performance): Wikipedia covers VPPs only. Web-checked 2026-10-28; O&G microgrid case studies are vendor-published without verifiable figures. Where: Operator microgrid case studies (open). Next: Add an oil and gas microgrid reference.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- absolute capital and operating cost (costs): Only a comparative ratio is published (40-60% of the conventional alternative); no absolute $/kW for a VPP platform was found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 
 Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant), [2](https://en.wikipedia.org/wiki/Smart_grid). Last reviewed 2026-11-16.
 
@@ -882,16 +895,19 @@ flowchart LR
 - SOx change with 20% ammonia: -20 %; versus coal alone. [source](https://www.jera.co.jp/en/news/notice/20240626_1954)
 - CO2 change with 20% ammonia: -20 %; IHI reports about 20% lower CO2; the JERA notice gives no CO2 figure. [source](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html)
 
+**Costs:**
+- green ammonia fuel price: 782-860 USD per tonne (2025$); US $782/t (June 2025) against $807-860/t CFR Europe - fuel price only. No citable co-firing retrofit capex exists; JERA/Hekinan demo costs are undisclosed.. [source](https://www.imarcgroup.com/green-ammonia-price-trend)
+
 **Reference plants:**
 - JERA Hekinan Thermal Power Station Unit 4 ammonia co-firing demonstration, Aichi, Japan (with IHI), JP: 1 GW coal unit; world's first large-scale demonstration of 20% (by heating value) fuel-ammonia substitution; three-month trial concluded June 2024 with positive results; pilot. [source](https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Co-firing of ammonia in coal power plants' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- fuel ammonia cost and conversion capex (costs): Press releases give no cost. Web-checked 2026-10-28; JERA/IHI published combustion results, not fuel-cost or capex figures. Where: NEDO and METI Green Innovation Fund documents (catalog: meti-japan, open). Next: Add cost per tonne of ammonia and retrofit capex with year.
+- co-firing retrofit capital cost (costs): The fuel price is recorded ($782-860/t, 2025). Retrofit capex is unpublished: the demonstration projects do not disclose it. Where: NEDO and METI Green Innovation Fund documents (catalog: meti-japan, open). Next: Leave open until a source states this metric and scope.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.jera.co.jp/en/news/notice/20240626_1954), [2](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html), [3](https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results). Last reviewed 2026-10-28.
+Sources: [1](https://www.jera.co.jp/en/news/notice/20240626_1954), [2](https://www.ihi.co.jp/en/all_news/2024/resources_energy_environment/1200954_13691.html), [3](https://www.hydrocarbonprocessing.com/news/2024/06/jera-ends-ammonia-co-firing-trial-at-coal-power-station-with-positive-results). Last reviewed 2026-11-16.
 
 ## Compressed and liquid air energy storage
 <a id="pwr-compressed-liquid-air-storage"></a>
@@ -913,6 +929,9 @@ flowchart LR
 - Willow Rock power: 500 MW; late-stage development. [source](https://www.hydrostor.ca/willow-rock/)
 - Willow Rock energy: 4000 MWh; 8+ hours. [source](https://www.hydrostor.ca/willow-rock/)
 
+**Costs:**
+- capital cost, liquid air energy storage: 3250 GBP per kW; Per kW of power capacity, not per kWh - a scope difference the gap's wording does not anticipate.. [source](https://insights.lcp.com/rs/032-PAO-331/images/LCP-Delta-Value-of-long-duration-BESS-April-2025.pdf)
+
 **Reference plants:**
 - Huntorf CAES (Germany, 1978) and McIntosh CAES (Alabama, USA, 1991), DE: Huntorf: world's first CAES plant, 290 MW (1978); McIntosh: 110 MW salt-cavern CAES storing air in a 19-million-cubic-foot cavern (1991); operating. [source](https://www.nytimes.com/1991/09/29/business/technology-using-compressed-air-to-store-up-electricity.html)
 
@@ -920,9 +939,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - round-trip efficiency and Highview Carrington data (performance): Highview's site blocks automated reading and Hydrostor's page gives no efficiency. Where: [Highview Power project pages](https://highview-power.com/) (open). Next: Add efficiency and MWh for operating projects.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; Huntorf/McIntosh capex not stated in open pages read. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://www.hydrostor.ca/willow-rock/), [2](https://en.wikipedia.org/wiki/Compressed_air_energy_storage). Last reviewed 2026-10-29.
+Sources: [1](https://www.hydrostor.ca/willow-rock/), [2](https://en.wikipedia.org/wiki/Compressed_air_energy_storage). Last reviewed 2026-11-16.
 
 ## Enhanced geothermal systems
 <a id="pwr-enhanced-geothermal"></a>
@@ -1068,10 +1086,12 @@ flowchart LR
 - Oklo Aurora maximum output: up to 75 MWe; liquid-metal-cooled, metal-fuelled fast reactor, maximum power level 75 MWe (NRC pre-application docket 99902095); first plant at Idaho National Laboratory forecast to begin commercial operations in 2028. [source](https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/who-were-working-with/pre-application-activities/oklo-aurora-powerhouse)
 - HolosGen Holos Quad output: 3-13 MWe; scalable 3-13 MWe from subcritical modules in ISO shipping containers; 3-5 MWe units airliftable; Quad Titan up to 81 MWe. [source](https://holosgen.com/)
 
+**Costs:**
+- overnight capital cost, microreactor: 8000-17000 USD per kW (2023$); Literature synthesis: low $8,000/kW, median $13,000/kW, high $17,000/kW. The extract does not restate a dollar year; the study is 2023.. [source](https://gain.inl.gov/content/uploads/4/2024/11/INL-RPT-23-72972-Literature-Review-of-Adv-Reactor-Cost-Estimates.pdf)
+
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Heat-pipe cooled SMRs' TRL 2025 - the guide has no 'microreactor' row; heat-pipe SMR is the closest class and the basis for the number; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
-- capital cost per kW and electricity price under a build-own-operate contract, with dollar year (costs): Developer pages do not publish prices; Oklo sells power rather than reactors but no figure was read. Where: arXiv and open-access journals: microreactor techno-economic analyses (catalog: arxiv, open); US DOE and Idaho National Laboratory cost studies; DOE sites reachable via energy.gov mirrors (open); OSTI.GOV reports; osti.gov is unreachable from this machine (catalog: osti, blocked). Next: Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - licensing and deployment milestones are moving fast (status): Milestones read on 26 October 2026 (eVinci criticality, Oklo 2028 target, Belledune early 2030s) will age quickly. Checked Google News and Bing News for NRC, DOE and developer news on 2026-10-28; no licensing or deployment milestone after 26 October 2026 found for eVinci, Oklo Aurora or BWXT (an Environment+Energy Leader item dated 26 October 2026 reports DOE approval of the Oklo Aurora-INL safety analysis under the DOE pilot programme, within the same-day window already reviewed). Where: NRC and DOE news pages, developer newsrooms (open). Next: Re-check statuses quarterly and update this card.
 - transport and installation sequence is generalised from vendor claims (process): Vendor pages state transportability but not a documented installation procedure. Where: NRIC DOME test-bed documentation and future eVinci deployment filings (open). Next: Check the steps against a named licensing or test-bed document.
 
@@ -1093,6 +1113,9 @@ flowchart LR
 
 **Key equipment:** reactor module, steam generator, containment, turbine.
 
+**Costs:**
+- overnight capital cost, light-water SMR: 8936 USD per kW (2023$); 6 x 80 MW SMR, 480 MW net, total overnight capital.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
+
 **Reference plants:**
 - Darlington BWRX-300, Ontario (OPG / GE Hitachi), CA: 300 MWe BWRX-300; OPG received construction approval April 2025 - first grid-scale SMR under construction in a G7 country; CAD 7.7 bn project; construction. [source](https://pro.smrbrief.com/projects/darlington-bwrx-300)
 
@@ -1100,9 +1123,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor design figures already on card; no independent operating data (no operating SMR yet in Western markets). Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: Darlington BWRX-300 project at CAD 7.7 bn recorded in reference_plants (four-unit programme); per-kW derived cost not stated in the source. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors), [2](https://en.wikipedia.org/wiki/Small_modular_reactor). Last reviewed 2026-10-29.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors), [2](https://en.wikipedia.org/wiki/Small_modular_reactor). Last reviewed 2026-11-16.
 
 ## Sodium-ion batteries
 <a id="pwr-sodium-ion-batteries"></a>
@@ -1155,15 +1177,15 @@ flowchart LR
 - Rondo electricity-to-heat efficiency: 98 % (over); vendor claim. [source](https://rondo.com/)
 - Yarwun project storage: 360 MWh; Rio Tinto alumina refinery, Australia. [source](https://rondo.com/)
 
+**Costs:**
+- specific capital cost, two-tank molten salt storage: 30-40 USD per kWh-thermal; Two-tank molten-salt specific cost at CSP-class sizes; the source does not restate a dollar year (paper from the 2010s). Newer trade estimates put it at $15-25/kWh; dollar year not stated. [source](https://www.researchgate.net/publication/223608778_Two-Tank_Molten_Salt_Storage_for_Parabolic_Trough_Solar_Power_Plants)
+
 **Reference plants:**
 - Polar Night Energy sand batteries: Kankaanpaeae (Vatajankoski) and Pornainen, Finland, FI: Kankaanpaeae: world's first commercial sand battery, 100 kW heating power / 8 MWh, in commercial use since mid-2022; Pornainen: 1 MW / 100 MWh, world's largest, in operation 2025; operating. [source](https://evertiq.com/news/2025-07-01-worlds-largest-sand-battery-now-in-operation-in-finland)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Molten salts storage' 8 (2025); 'Sand thermal battery' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; Polar Night Energy has not published plant capex. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-
-Sources: [1](https://rondo.com/), [2](https://polarnightenergy.com/), [3](https://en.wikipedia.org/wiki/Thermal_energy_storage). Last reviewed 2026-10-29.
+Sources: [1](https://rondo.com/), [2](https://polarnightenergy.com/), [3](https://en.wikipedia.org/wiki/Thermal_energy_storage). Last reviewed 2026-11-16.
 
 ## Advanced reactors (high-temperature gas, molten salt)
 <a id="pwr-advanced-reactors"></a>
@@ -1185,16 +1207,18 @@ flowchart LR
 - HTR-PM demonstration size: 210 MWe; two 250 MWt modules; steam at 566 °C. [source](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors)
 - HTGR helium coolant temperature: 950 °C (up to); general HTGR statement. [source](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors)
 
+**Costs:**
+- overnight capital cost, advanced reactor (2 x AP1000): 7861 USD per kW (2023$); EIA/Sargent & Lundy, total overnight capital cost, brownfield 2xAP1000 at 2,156 MW net.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
+
 **Reference plants:**
 - HTR-PM demonstration plant, Shidaowan, China (CNNC/Huaneng/Tsinghua), CN: world's first high-temperature gas-cooled reactor pebble-bed module plant; two 105 MWe reactor modules; grid-connected December 2021, commercial operation from December 2023; 750 C core-outlet helium, 566 C steam; operating. [source](https://en.cnnc.com.cn/searchen.html?searchText=HTGR)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'High-temperature gas-cooled SMR' 8 (2025); 'Molten salt SMR' 4 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open unit cost for Gen-IV demonstration plants (HTR-PM costs not published; US projects pre-FEED). Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors), [2](https://www.world-energy.org/article/19854.html). Last reviewed 2026-10-28.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/advanced-nuclear-power-reactors), [2](https://www.world-energy.org/article/19854.html). Last reviewed 2026-11-16.
 
 ## Perovskite and tandem solar cells
 <a id="pwr-perovskite-tandem"></a>
@@ -1210,6 +1234,9 @@ flowchart LR
 
 **Key equipment:** perovskite deposition line, silicon bottom cell, encapsulation.
 
+**Costs:**
+- module manufacturing cost, perovskite/silicon tandem: 0.29-0.42 USD per W-DC (2024$); Module manufacturing cost only (median $0.35/W), not plant capex per kW; at 25-30% module efficiency.. [source](https://www.cell.com/joule/pdf/S2542-4351(24)00466-5.pdf)
+
 **Reference plants:**
 - Oxford PV perovskite-on-silicon tandem line, Brandenburg an der Havel, Germany, DE: world's first commercial shipment of perovskite-tandem solar modules to a customer (5 Sep 2024); production modules 24.5% efficiency (up to 20% more energy than silicon); record 28.6% commercial-size cell (2024); operating. [source](https://pv-magazine-usa.com/2024/09/05/oxford-pv-starts-commercial-distribution-of-perovskite-solar-modules)
 
@@ -1217,9 +1244,9 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, lat
 
 **Missing inputs:**
 - certified cell and module efficiency records with dates (performance): NREL's efficiency chart page and the Oxford PV page carry no values in text. Where: NREL research cell efficiency chart data file (catalog: nrel, open); Oxford PV press releases (open). Next: Download the NREL data file and record tandem and silicon records with dates.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; tandem module prices not yet published in volume. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- plant capital cost per kW for a tandem PV plant (costs): Module manufacturing cost is recorded ($0.29-0.42/W DC, 2024). A plant-level capex per kW needs BOS and installation, which no source loaded provides. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/), [3](https://en.wikipedia.org/wiki/Perovskite_solar_cell). Last reviewed 2026-10-29.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/), [3](https://en.wikipedia.org/wiki/Perovskite_solar_cell). Last reviewed 2026-11-16.
 
 ## Tidal and wave energy
 <a id="pwr-tidal-wave"></a>
@@ -1240,6 +1267,9 @@ flowchart LR
 **Performance:**
 - O2 rated capacity: 2 MW; anchored at EMEC Fall of Warness. [source](https://www.orbitalmarine.com/o2/)
 
+**Costs:**
+- levelised cost of electricity, wave and tidal: 120-140 USD per MWh (2025$); Projected LCOE at 2 GW deployed: about $120/MWh wave, $140/MWh tidal. IRENA publishes no $/kW because too few devices are commissioned.. [source](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf)
+
 **Reference plants:**
 - La Rance tidal barrage, France, FR: 240 MW (24 x 10 MW bulb turbines), commissioned 1966, the world's first large tidal-range power station, still in full operation; operating. [source](https://www.researchgate.net/publication/229648846_POWER_FROM_TIDES-_THE_RANCE_TIDAL_POWER_STATION)
 - MeyGen tidal stream array, Pentland Firth, Scotland (SAE Renewables), GB: phase 1 tidal stream array; more than 91 GWh generated over seven-plus years of operation; supporting a 59 MW commercial-scale development; operating. [source](https://www.directorstalkinterviews.com/meygen-strengthens-the-case-for-scalable-tidal-power/4121247469)
@@ -1247,9 +1277,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Tidal stream (ocean current energy)' 6 (2025); 'Wave energy converters (wave energy)' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; MeyGen LCOE estimates vary and no settled open figure found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost per kW (costs): Only LCOE is published ($120-140/MWh projected at 2 GW); IRENA gives no $/kW because too few devices are built. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 
-Sources: [1](https://www.orbitalmarine.com/o2/), [2](https://en.wikipedia.org/wiki/Tidal_power). Last reviewed 2026-10-29.
+Sources: [1](https://www.orbitalmarine.com/o2/), [2](https://en.wikipedia.org/wiki/Tidal_power). Last reviewed 2026-11-16.
 
 ## Fusion
 <a id="pwr-fusion"></a>

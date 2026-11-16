@@ -88,6 +88,18 @@
         "source_id": "global-ccs-institute",
         "note": "Global CCS Institute, Needs, Opportunities and Prospects for CO2 Shipping in CCS Projects, November 2025; full text in corpus/global-ccs-institute/"
       }
+    },
+    {
+      "metric": "CO2 shipping cost",
+      "unit": "USD per t CO2",
+      "year": 2023,
+      "low": 11.9,
+      "high": 17.3,
+      "basis": "Medium-pressure shipping, 50,000 t cargo, including liquefaction, storage and loading: $11.9/t at 500 km rising to $17.3/t at 2,000 km.",
+      "source": {
+        "url": "https://www.globalccsinstitute.com/wp-content/uploads/2025/08/Advancements-in-CCS-Technologies-and-Costs-Report-2.pdf",
+        "note": "Global CCS Institute advancements in CCS technologies and costs (2025), read 2026-11-16"
+      }
     }
   ],
   "performance": [
@@ -158,6 +170,6 @@
       "note": "Wikipedia: Carbon capture and storage — process-description cross-check 2026-10-28 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": []
 }

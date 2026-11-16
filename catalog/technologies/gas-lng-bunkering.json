@@ -139,7 +139,7 @@
       "note": "LNG Prime, Singapore LNG bunkering volumes hit new record in 2025 (summary only; article paywalled)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -157,29 +157,6 @@
         }
       ],
       "action": "Add global volumes and the Malaysia (Pengerang, Johor) position."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; bunker price spreads are commercial.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
       "field": "trl",
@@ -207,6 +184,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost, 18,000 m3 LNG bunker vessel",
+      "unit": "USD million",
+      "year": 2025,
+      "low": 87.5,
+      "high": 87.5,
+      "basis": "Dual-fuel LNG bunker vessel newbuild order (HJ Shipbuilding).",
+      "source": {
+        "url": "https://www.lloydslist.com/LL1152534/HJ-Shipbuilding-seals-$88m-LNG-bunkering-vessel-order",
+        "note": "Lloyd's List report on the bunker vessel order, read 2026-11-16"
+      }
     }
   ]
 }

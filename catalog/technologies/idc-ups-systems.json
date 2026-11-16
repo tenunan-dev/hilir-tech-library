@@ -114,20 +114,20 @@
       "note": "Liebert EXL S1 brochure (ratings, parallel scalability, lithium compatibility), read via search summary 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-14",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "installed cost per kW of UPS capacity, with dollar year",
+      "item": "installed cost per kW (equipment cost is now recorded)",
       "reason_code": "not_in_sources_read",
-      "reason": "Vendor pages carry no prices.",
+      "reason": "Equipment cost is recorded ($800/kW, undated); installation and battery costs were not found.",
       "where": [
         {
           "hint": "Uptime Institute / industry surveys",
           "access": "open"
         }
       ],
-      "action": "Add cost figures with dollar year and basis."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "performance",
@@ -151,5 +151,18 @@
       "url": "https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1",
       "note": "Mature commercial product line shipping since 2017 — TRL 9, read 2026-11-12"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "equipment cost, three-phase data-centre UPS",
+      "unit": "USD per kW",
+      "low": 800,
+      "high": 800,
+      "basis": "About $0.8M/MW for UPS equipment only, excluding installation and batteries; the source does not state a dollar year and expressly disclaims turnkey use; dollar year not stated",
+      "source": {
+        "url": "https://datacenterscope.com/power/data-center-ups-cost",
+        "note": "DataCenterScope UPS cost page, read 2026-11-16"
+      }
+    }
+  ]
 }

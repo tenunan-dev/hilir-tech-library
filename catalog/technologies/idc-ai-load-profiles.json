@@ -186,10 +186,10 @@
     },
     {
       "field": "costs",
-      "item": "not_in_sources_read",
+      "item": "measured IT load per rack (kW) by accelerator generation",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read prices AI load profiles; the subject is a demand characteristic rather than a purchasable technology.",
-      "action": "Record the cost of the demand it drives (rack power, cooling, interconnection) on the linked cards instead.",
+      "reason": "An IT-equipment cost per kW is recorded; the card still needs a measured load figure, since its gap text had been corrupted to a reason code.",
+      "action": "Leave open until a source states this metric and scope.",
       "where": [
         {
           "hint": "Interconnection study costs and utility upgrade charges"
@@ -210,5 +210,19 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-16",
+  "costs": [
+    {
+      "metric": "IT equipment cost per kW of AI capacity",
+      "unit": "USD per kW of IT capacity",
+      "year": 2026,
+      "low": 21188,
+      "high": 21188,
+      "basis": "$21.2bn per 1 GW = $21,188/kW of IT capacity; IT equipment is 55.9% of campus capex, with GPU servers plus networking separate at $4.9bn. Cost, not a measured load profile.",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "note": "Epoch AI data-centre cost breakdown, read 2026-11-16"
+      }
+    }
+  ]
 }

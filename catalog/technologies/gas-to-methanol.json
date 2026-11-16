@@ -112,7 +112,7 @@
       "note": "DigitalRefining, ZeoGas awarded MTG licence by ExxonMobil, 21 Jul 2014"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "process",
@@ -126,29 +126,6 @@
         }
       ],
       "action": "If a deeper process description is needed, read an ExxonMobil MTG technical paper."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; project capex case-specific.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     },
     {
       "field": "trl",
@@ -176,6 +153,20 @@
         "note": "DigitalRefining news, 21 Jul 2014 (first commercialised 1985 by New Zealand Synfuels, 14,500 bpd); MOTAT collection record (opened Feb 1985, Maui gas); read 2026-10-28"
       },
       "project_id": "motunui-synthetic-fuels-plant-new-zealand-synfuels-taranaki-new-zealand"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost, gas-to-methanol",
+      "unit": "USD per t/yr of capacity",
+      "year": 2014,
+      "low": 400,
+      "high": 1350,
+      "basis": "Average $532/t/yr across planned US gas-based methanol plants; small-scale 17-55 t/d plants at $400-1,350/t/yr.",
+      "source": {
+        "url": "https://methanol.org/wp-content/uploads/2018/04/ADIAnalytics.pdf",
+        "note": "Methanol Institute / ADI Analytics study, read 2026-11-16"
+      }
     }
   ]
 }

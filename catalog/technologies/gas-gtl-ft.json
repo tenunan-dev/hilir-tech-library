@@ -123,35 +123,7 @@
     }
   ],
   "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28: Pearl GTL project cost about USD 19 bn recorded in the performance basis; unit costs are case-specific.",
-      "where": [
-        {
-          "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
-          "source_id": "oxford-oies",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox",
-          "access": "blocked"
-        },
-        {
-          "hint": "Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access",
-          "access": "paid"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    }
-  ],
+  "gaps": [],
   "performance": [
     {
       "metric": "Pearl GTL conversion scale (world's largest GTL plant)",
@@ -173,5 +145,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-GTL conversion plants' TRL 2025; read 2026-11-16"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "capital cost, gas-to-liquids (Fischer-Tropsch)",
+      "unit": "USD per bbl/d",
+      "year": 1999,
+      "low": 12000,
+      "high": 35000,
+      "basis": "Generic Gulf Coast GTL, base case Exxon AGC-21 50,000 b/d at $1.2bn ($24,000/bbl/d). Modular mini-GTL is far above this range (about $80,000/bbl/d).",
+      "source": {
+        "url": "https://www.osti.gov/servlets/purl/752576",
+        "note": "OSTI report on GTL economics, read 2026-11-16"
+      }
+    }
+  ]
 }

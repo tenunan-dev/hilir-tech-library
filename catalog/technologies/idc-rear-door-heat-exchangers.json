@@ -123,10 +123,10 @@
     },
     {
       "field": "costs",
-      "item": "cost per rear-door unit by capacity, with dollar year and basis",
+      "item": "cost per rear-door unit by capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read prices rear-door units.",
-      "action": "Add a unit price from a vendor quote.",
+      "reason": "The cost is recorded per kW of cooling; a per-unit price by model size was not found.",
+      "action": "Leave open until a source states this metric and scope.",
       "where": [
         {
           "hint": "Vendor budget quotes"
@@ -147,5 +147,19 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-16",
+  "costs": [
+    {
+      "metric": "installed cost, rear-door heat exchanger",
+      "unit": "USD per kW of cooling capacity",
+      "year": 2026,
+      "low": 1800,
+      "high": 3200,
+      "basis": "'Advanced air' category including distribution; vendor-site figure, order-of-magnitude only.",
+      "source": {
+        "url": "https://energy-solutions.co/articles/sub/data-center-cooling-liquid-immersion-vs-air",
+        "note": "Vendor comparison of data-centre cooling options, read 2026-11-16"
+      }
+    }
+  ]
 }

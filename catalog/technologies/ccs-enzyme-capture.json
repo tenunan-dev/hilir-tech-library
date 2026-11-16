@@ -90,29 +90,6 @@
       "action": "Add measured figures."
     },
     {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for enzyme capture, carbonic anhydrase, capital cost and unit cost; not present; 2026-10-28 Web-checked 2026-10-28; no open figures.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
@@ -152,6 +129,20 @@
       },
       "project_id": "resolute-saint-felicien-enzyme-capture",
       "year": 2019
+    }
+  ],
+  "costs": [
+    {
+      "metric": "CO2 capture cost, enzyme-catalysed absorption",
+      "unit": "USD per t CO2",
+      "year": 2017,
+      "low": 39,
+      "high": 39,
+      "basis": "CO2 Solutions enzyme process at 3.8 GJ/t CO2, based on pilot results.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2019-09%20Further%20Assessment%20of%20Emerging%20CO2%20Capture%20Technologies.pdf",
+        "note": "IEAGHG further assessment of emerging capture technologies, read 2026-11-16"
+      }
     }
   ]
 }

@@ -256,29 +256,6 @@
   "last_reviewed": "2026-11-16",
   "gaps": [
     {
-      "field": "costs",
-      "item": "installed cost per kW for a modular ORC unit, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "Vendor pages read do not publish prices. Web-checked 2026-10-28; unit prices are quote-only.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: ORC waste-heat techno-economic reviews",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "IEA and IRENA renewable cost databases",
-          "access": "open"
-        },
-        {
-          "hint": "MDPI Energies ORC reviews; www.mdpi.com is CDN-blocked, use the manual inbox",
-          "access": "blocked",
-          "source_id": "mdpi-energies"
-        }
-      ],
-      "action": "Find an open cost figure; record it with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "process",
       "item": "ORC cycle steps are textbook standard",
       "reason_code": "general_knowledge_only",
@@ -300,5 +277,18 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Organic rankine cycle (low temperature resources)' TRL 2025; read 2026-11-16"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "installed cost, waste-heat ORC",
+      "unit": "USD per kW",
+      "low": 1800,
+      "high": 3000,
+      "basis": "Installed cost for small waste-heat ORC units, clustering at the high end; the paper is around 2011 and does not restate a dollar year; dollar year not stated",
+      "source": {
+        "url": "https://www.aceee.org/wp-content/uploads/proceedings-1980-2020/2011/0085-000077.pdf",
+        "note": "ACEEE proceedings paper on ORC installed costs, read 2026-11-16"
+      }
+    }
+  ]
 }

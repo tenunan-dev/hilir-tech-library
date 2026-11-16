@@ -4,9 +4,9 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Amine solvent post-combustion capture](#ccs-amine-post-combustion) | Post-combustion / chemical solvent | commercial | 6-9 | Mitsubishi Heavy Industries (KM CDR Process with KS-1 solvent); Shell Catalysts & Technologies (CANSOLV CO2 Capture System); SLB Capturi (Just Catch (modular) and larger plants); Fluor (Econamine FG Plus) | cost of CO2 captured, new NGCC (H-class to F-class), 90% capture: 55.9-60.7 USD/t CO2 (2018$)<br>cost of CO2 captured, NGCC retrofit (H-class to F-class), 90% capture: 56.7-61.8 USD/t CO2 (2018$)<br>cost of CO2 captured, new-build power plants with amine capture, 90% capture: 38.1-60.7 USD/t CO2 (2018$)<br>cost of CO2 captured, cement (greenfield, 90% capture): 62.7 USD/t CO2 (2018$)<br>cost of CO2 captured, iron and steel BOF (retrofit, 90% capture): 65.9 USD/t CO2 (2018$)<br>Capture cost from dilute streams (cement, power generation): 40-120 USD/t CO2 (2019$) |
+| [Amine solvent post-combustion capture](#ccs-amine-post-combustion) | Post-combustion / chemical solvent | commercial | 6-9 | Mitsubishi Heavy Industries (KM CDR Process with KS-1 solvent); Shell Catalysts & Technologies (CANSOLV CO2 Capture System); SLB Capturi (Just Catch (modular) and larger plants); Fluor (Econamine FG Plus) | cost of CO2 captured, new NGCC (H-class to F-class), 90% capture: 55.9-60.7 USD/t CO2 (2018$)<br>cost of CO2 captured, NGCC retrofit (H-class to F-class), 90% capture: 56.7-61.8 USD/t CO2 (2018$)<br>cost of CO2 captured, new-build power plants with amine capture, 90% capture: 38.1-60.7 USD/t CO2 (2018$)<br>cost of CO2 captured, cement (greenfield, 90% capture): 62.7 USD/t CO2 (2018$)<br>cost of CO2 captured, iron and steel BOF (retrofit, 90% capture): 65.9 USD/t CO2 (2018$)<br>Capture cost from dilute streams (cement, power generation): 40-120 USD/t CO2 (2019$)<br>CO2 capture cost, amine post-combustion on NGCC: 61 USD per t CO2 captured (2022$) |
 | [Biochar](#ccs-biochar) | Carbon removal / pyrolysis | commercial |  | Exomad Green (biochar CDR producer) |  |
-| [CO2 compression and dehydration](#ccs-co2-compression-dehydration) | Transport and storage / compression | commercial | 9 | Atlas Copco (CO2 compressors (search result only)); Siemens Energy (register examples); MAN Energy Solutions (Everllence) (register examples); Baker Hughes (register examples) | integrally geared package capex, Drax BECCS case: 32 GBP million |
+| [CO2 compression and dehydration](#ccs-co2-compression-dehydration) | Transport and storage / compression | commercial | 9 | Atlas Copco (CO2 compressors (search result only)); Siemens Energy (register examples); MAN Energy Solutions (Everllence) (register examples); Baker Hughes (register examples) | integrally geared package capex, Drax BECCS case: 32 GBP million<br>CO2 compression and pumping cost: 10.49-19.52 USD per t CO2 (2023$) |
 | [CO2 to concrete and aggregates](#ccs-co2-concrete) | Utilisation / building materials | commercial | 9 | CarbonCure (mineralised ready-mix concrete); Blue Planet (aggregates (register examples)) |  |
 | [CO2 to urea and polymers](#ccs-co2-to-urea-polymers) | Utilisation / chemicals | commercial |  | Covestro (cardyon CO2-based polyols); Fertiliser producers (urea) |  |
 | [Capture from high-purity CO2 streams (compression and dehydration only)](#ccs-high-purity-compression) | Point source / no separation step | commercial |  | CO2 compressor and dehydration vendors (no licensed process needed) | cost of CO2 captured, natural gas processing (greenfield): 16.1 USD/t CO2 (2018$)<br>cost of CO2 captured, ammonia (greenfield): 19 USD/t CO2 (2018$)<br>cost of CO2 captured, ethylene oxide (greenfield): 26 USD/t CO2 (2018$)<br>cost of CO2 captured, ethanol (greenfield): 31.8 USD/t CO2 (2018$)<br>cost of CO2 captured, gas-to-liquids: 6.4 USD/t CO2 (2018$)<br>average cost of CO2 captured, high-purity industrial streams (over 95% CO2): 17.5 USD/t CO2 (2018$) |
@@ -18,23 +18,23 @@
 | [Allam-Fetvedt cycle (oxy-combustion supercritical CO2 power)](#ccs-allam-cycle) | Oxyfuel / power cycle | demonstration | 2-5 | NET Power (cycle developer), Toshiba (combustor and turbine) |  |
 | [Bioenergy with CCS (BECCS)](#ccs-beccs) | Carbon removal / bioenergy | demonstration | 3-7 | Stockholm Exergi (BECCS Stockholm); Drax (BECCS (register examples)); ADM (Decatur (register examples)) |  |
 | [CO2 mineralisation (in-situ basalt)](#ccs-in-situ-mineralisation) | Transport and storage / mineral storage | demonstration | 9 | Carbfix (in-situ mineralisation, Hellisheidi and Coda Terminal) | in-situ mineralisation injection cost, CarbFix method at Hellisheidi: 25 USD per tonne CO2 injected (below) (2020$) |
-| [CO2 shipping and terminals](#ccs-co2-shipping) | Transport and storage / shipping | demonstration | 8 | Northern Lights (Equinor, Shell, TotalEnergies) (CO2 transport and storage) | CO2 shipping cost per tonne: 9-50 USD/t CO2 |
+| [CO2 shipping and terminals](#ccs-co2-shipping) | Transport and storage / shipping | demonstration | 8 | Northern Lights (Equinor, Shell, TotalEnergies) (CO2 transport and storage) | CO2 shipping cost per tonne: 9-50 USD/t CO2<br>CO2 shipping cost: 11.9-17.3 USD per t CO2 (2023$) |
 | [CO2 to methanol and fuels](#ccs-co2-to-methanol-fuels) | Utilisation / fuels | demonstration | 8 | Carbon Recycling International (George Olah plant) | e-methanol production cost, CO2 from combined renewable sources, 2015-2018 estimate: 820-1620 USD/t MeOH (2020$)<br>e-methanol production cost, CO2 from DAC only, 2015-2018 estimate: 1220-2380 USD/t MeOH (2020$)<br>bio-methanol total production cost, biomass feedstock below USD 6/GJ: 327-764 USD/t MeOH (2020$) |
 | [Direct air capture with liquid solvent (KOH and calcium loop)](#ccs-dac-liquid-solvent) | Direct air capture / liquid solvent | demonstration | 5 | Carbon Engineering / 1PointFive (Occidental) | levelised cost of CO2 captured: 94-232 USD/t CO2 (2016$) |
 | [Direct air capture with solid sorbent](#ccs-dac-solid-sorbent) | Direct air capture / solid sorbent | demonstration | 5 | Climeworks | cost of CO2 captured, solid-sorbent DAC with natural-gas CHP (gross capture basis): 90-150 USD/t CO2 (2024$)<br>cost of CO2 captured, same system, net removal basis: 130-240 USD/t CO2 (2024$) |
 | [Ex-situ mineral carbonation](#ccs-ex-situ-mineral-carbonation) | Transport and storage / mineral storage | demonstration | 9 |  | best-case sequestration cost: 42-78 EUR/t CO2 |
-| [Molten carbonate fuel cell capture](#ccs-molten-carbonate-fuel-cell-capture) | Capture / electrochemical | demonstration | 9 | FuelCell Energy (carbonate fuel cell); ExxonMobil (joint development and Rotterdam pilot (ESSO Nederland)) |  |
-| [Oxyfuel combustion in cement kilns](#ccs-oxyfuel-cement) | Oxyfuel | demonstration | 7 | European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim |  |
+| [Molten carbonate fuel cell capture](#ccs-molten-carbonate-fuel-cell-capture) | Capture / electrochemical | demonstration | 9 | FuelCell Energy (carbonate fuel cell); ExxonMobil (joint development and Rotterdam pilot (ESSO Nederland)) | CO2 capture cost, MW-class molten carbonate fuel cell: 27.49-34 USD per t CO2 (2020$) |
+| [Oxyfuel combustion in cement kilns](#ccs-oxyfuel-cement) | Oxyfuel | demonstration | 7 | European Cement Research Academy (ECRA) with Heidelberg Materials and Holcim | CO2 capture cost, coal oxy-combustion: 79.3 USD per t CO2 captured (2013$) |
 | [Solid sorbent capture by rapid temperature swing](#ccs-solid-sorbent-tsa) | Post-combustion / solid sorbent | demonstration | 6 | Svante (rapid cycle thermal swing adsorption with structured adsorbents) | Cost of CO2 captured, Svante RC-TSA (power plant TEA basis): 30-50 USD/t CO2 (2024$)<br>Capture unit capital expenditure: 70000-80000 USD per t/day of capacity (2024$)<br>Capture unit operating expenditure: 26-28 USD/t CO2 (2024$)<br>Cost of CO2 captured, Svante VeloxoTherm at Linde SMR hydrogen plant: 65-78 USD/t CO2 (2024$)<br>CALF-20 structured sorbent manufacturing cost: 30-35 USD/kg (2024$) |
 | [Storage in depleted oil and gas fields](#ccs-depleted-field-storage) | Transport and storage / storage | demonstration | 8 | Porthos (Port of Rotterdam, Gasunie, EBN) (depleted-field storage); PETRONAS Carigali (Kasawari CCS) | US onshore storage cost — over half of estimated capacity below: 10 USD/t CO2 (2019$) |
-| [Calcium looping](#ccs-calcium-looping) | Post-combustion / high-temperature solid looping | pilot | 6-7 | Research consortia (e.g. CSIC-INCAR, Spain) |  |
+| [Calcium looping](#ccs-calcium-looping) | Post-combustion / high-temperature solid looping | pilot | 6-7 | Research consortia (e.g. CSIC-INCAR, Spain) | CO2 avoided cost, calcium looping: 39.4 USD per t CO2 avoided |
 | [Cryogenic carbon capture (desublimation)](#ccs-cryogenic) | Post-combustion / cryogenic | pilot | 5 | Sustainable Energy Solutions (Chart Industries) (Cryogenic Carbon Capture) | cost of CO2 captured, InnoSepra sorbent-and-membrane cryogenic process, post-combustion power: 40 USD/t CO2 (2024$) |
 | [Enhanced rock weathering and ocean alkalinity enhancement](#ccs-enhanced-weathering) | Carbon removal / geochemical | pilot | 9 | UNDO (enhanced rock weathering (register examples)); Planetary (ocean alkalinity (register examples)) | removal cost: 60-200 USD/t CO2 (2018$) |
-| [Enzyme-catalysed capture](#ccs-enzyme-capture) | Capture / solvent | pilot |  | Saipem (Bluenzyme (from CO2 Solutions)) |  |
+| [Enzyme-catalysed capture](#ccs-enzyme-capture) | Capture / solvent | pilot |  | Saipem (Bluenzyme (from CO2 Solutions)) | CO2 capture cost, enzyme-catalysed absorption: 39 USD per t CO2 (2017$) |
 | [Polymeric membrane capture](#ccs-polymeric-membrane) | Post-combustion / membrane | pilot | 6 | MTR Carbon Capture (Polaris membrane) | Cost of CO2 captured, MTR Polaris membrane process (FEED study potential): 40 USD/t CO2 (2024$)<br>Cost of CO2 captured, MTR hybrid membrane-absorption process: 43-54 USD/t CO2 (2024$)<br>Membrane material manufacturing cost: 10-30 USD/m2 (2024$)<br>Membrane module manufacturing and installation cost, projected at full commercialization: 50 USD/m2 of membrane (2024$) |
-| [CO2 electroreduction to CO, formic acid and ethylene](#ccs-co2-electroreduction) | Utilisation / electrochemical | lab |  | Twelve (E-Jet CO2 electrolysis (register examples)) |  |
+| [CO2 electroreduction to CO, formic acid and ethylene](#ccs-co2-electroreduction) | Utilisation / electrochemical | lab |  | Twelve (E-Jet CO2 electrolysis (register examples)) | levelised production cost, CO2 electroreduction products: 3.7-60 EUR per kg product |
 | [Chemical looping combustion](#ccs-chemical-looping-combustion) | Oxyfuel / chemical looping | lab | 4-5 | Research stage; no commercial licensor identified in the cited sources |  |
-| [Electro-swing and moisture-swing DAC](#ccs-electro-swing-moisture-swing-dac) | Carbon removal / direct air capture | lab | 6 | Verdox (electro-swing adsorption) |  |
+| [Electro-swing and moisture-swing DAC](#ccs-electro-swing-moisture-swing-dac) | Carbon removal / direct air capture | lab | 6 | Verdox (electro-swing adsorption) | capture cost, moisture-swing / low-temperature sorbents: 99-244 EUR per t CO2 |
 | [Emerging capture: water-lean solvents, ionic liquids and electrochemical separation](#ccs-emerging-solvents-electrochemical) | Post-combustion / emerging | lab | 4-5 | Research programmes (see NETL transformational capture programme); DOE-funded R&D projects listed in the NETL Compendium of Carbon Capture Technology 2024 | DOE transformational capture cost target: 30-40 USD/t CO2 |
 
 ## Amine solvent post-combustion capture
@@ -71,6 +71,7 @@ flowchart LR
 - cost of CO2 captured, cement (greenfield, 90% capture): 62.7 USD/t CO2 (2018$); NETL industrial case, capture, compression, intercooling and dehydration; 99% capture case 60.8; retrofit 64.3. [source](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf)
 - cost of CO2 captured, iron and steel BOF (retrofit, 90% capture): 65.9 USD/t CO2 (2018$); NETL industrial case, retrofit only; 99% capture case 65.4. [source](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf)
 - Capture cost from dilute streams (cement, power generation): 40-120 USD/t CO2 (2019$); IEA commentary figures: 2019 levelised costs, US-based estimates including compression; IEA's own estimates drawing on GCCSI (2017), IEAGHG (2014), Keith et al. (2018), NETL (2014) and Rubin et al. (2015) — dilute-stream range quoted directly by the IEA. [source](https://www.iea.org/commentaries/is-carbon-capture-too-expensive)
+- CO2 capture cost, amine post-combustion on NGCC: 61 USD per t CO2 captured (2022$); F-class NGCC at 90% capture, NETL updated baseline, down from $80/t in the earlier estimate.. [source](https://netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf)
 
 **Reference plants:**
 - Boundary Dam Unit 3 (SaskPower), CA: 1 Mt/yr CO2 from a 150 MW lignite unit (CANSOLV); operating. [source](https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf)
@@ -80,7 +81,7 @@ flowchart LR
 
 TRL source: [IEAGHG review of current and emerging CO2 capture technologies, TCCS-10, June 2019, Task 1 TRL tables](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf)
 
-Sources: [1](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [2](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf), [3](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [4](https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf), [5](https://a.fluor.com/f/1014770/x/a744f915e1/econamine-fg-plus-brochure.pdf), [6](https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf), [7](https://netl.doe.gov/projects/files/CostAndPerformanceBaselineForFossilEnergyPlantsVolume1BituminousCoalAndNaturalGasToElectricity_101422.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf), [2](https://www.netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf), [3](https://netl.doe.gov/projects/files/CarbonCaptureTechnologiesStatusandChallenges_012423.pdf), [4](https://catalysts.shell.com/hubfs/1220448_Cansolv_CO2_white_paper_d4%20(1).pdf), [5](https://a.fluor.com/f/1014770/x/a744f915e1/econamine-fg-plus-brochure.pdf), [6](https://www.netl.doe.gov/projects/files/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf), [7](https://netl.doe.gov/projects/files/CostAndPerformanceBaselineForFossilEnergyPlantsVolume1BituminousCoalAndNaturalGasToElectricity_101422.pdf). Last reviewed 2026-11-16.
 
 ## Biochar
 <a id="ccs-biochar"></a>
@@ -137,6 +138,7 @@ flowchart LR
 
 **Costs:**
 - integrally geared package capex, Drax BECCS case: 32 GBP million; approximate, one comparison; year not stated in text read. [source](https://assets.publishing.service.gov.uk/media/621c9528d3bf7f4f0adec82e/KKD_CO2_Compression_and_Dehydration_Unit_Report.pdf)
+- CO2 compression and pumping cost: 10.49-19.52 USD per t CO2 (2023$); 8-stage compression to dense phase, 10,000 t/d (range 1,000-25,000 t/d), 90% load factor, location-adjusted. Dehydration is excluded, which the gap's wording pairs with compression.. [source](https://www.globalccsinstitute.com/wp-content/uploads/2025/08/Advancements-in-CCS-Technologies-and-Costs-Report-2.pdf)
 
 **Reference plants:**
 - Quest CCS at the Scotford upgrader (Shell), Canada: about 1 Mt CO2/yr (Fluor states up to 1.2 Mt); operating since 2015. [source](https://ccsknowledge.com/technical-studies/shell-quest-carbon-capture-and-storage-facility-a-case-study)
@@ -555,13 +557,14 @@ flowchart LR
 
 **Costs:**
 - CO2 shipping cost per tonne: 9-50 USD/t CO2; Global CCS Institute 2025 brief: USD 9/t at 1 Mtpa over 600 km to USD 50/t at 5 Mtpa over 1,200 km; dollar year not stated; shipping dominated by opex unlike pipeline capex. [source](https://www.globalccsinstitute.com/wp-content/uploads/2025/11/Global-CCS-Institute-Needs-Opportunities-and-Prospects-for-CO2-Shipping-in-CCS-Projects.pdf)
+- CO2 shipping cost: 11.9-17.3 USD per t CO2 (2023$); Medium-pressure shipping, 50,000 t cargo, including liquefaction, storage and loading: $11.9/t at 500 km rising to $17.3/t at 2,000 km.. [source](https://www.globalccsinstitute.com/wp-content/uploads/2025/08/Advancements-in-CCS-Technologies-and-Costs-Report-2.pdf)
 
 **Reference plants:**
 - Northern Lights, Øygarden terminal and Aurora storage, NO: 1.5 Mtpa phase 1; first CO2 injected, reported 25 August 2025. [source](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'CO2 shipping' 8 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-Sources: [1](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights), [2](https://en.wikipedia.org/wiki/Carbon_capture_and_storage). Last reviewed 2026-10-28.
+Sources: [1](https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights), [2](https://en.wikipedia.org/wiki/Carbon_capture_and_storage). Last reviewed 2026-11-16.
 
 ## CO2 to methanol and fuels
 <a id="ccs-co2-to-methanol-fuels"></a>
@@ -725,6 +728,9 @@ flowchart LR
 - NOx destroyed in the cell: 70 %; approximate, per the article. [source](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/)
 - power penalty of conventional capture, as stated by FuelCell Energy: 20 % of plant output; vendor claim; carbonate cells instead generate power. [source](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/)
 
+**Costs:**
+- CO2 capture cost, MW-class molten carbonate fuel cell: 27.49-34 USD per t CO2 (2020$); $34.00/t captured and $27.49/t avoided, pre-FEED study for an oil-sands facility (FuelCell Energy for Alberta Innovates); year set to the 2020 publication date.. [source](https://albertainnovates.ca/wp-content/uploads/2020/10/FuelCell-Energy-Pre-FEED-Study-of-a-MW-Class-Molten-Carbonate-Fuel-Cell-System-for-Carbon-Capture-Demonstration-at-an-Oil-Sands-Facility.pdf)
+
 **Reference plants:**
 - ExxonMobil-FuelCell Energy carbonate fuel cell pilot, Rotterdam, Netherlands: not disclosed; about 90% of flue-gas CO2 captured; starting 2026. [source](http://corporate.exxonmobil.com/locations/european-region/european-newsroom/carbon-capture-technology-field-testing-rotterdam)
 
@@ -732,7 +738,6 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Molten c
 
 **Missing inputs:**
 - capture rate, power output per tonne CO2, cost (performance): The article gives none. Web-checked 2026-10-28; ExxonMobil/FuelCell Energy pilot data not published open. Where: EU CFC Pilot4CCS project page (cinea.ec.europa.eu) (open); FuelCell Energy announcements (open). Next: Add measured pilot results.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for molten carbonate fuel cell capture capital cost and unit cost; not present; 2026-10-28 Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://www.thechemicalengineer.com/news/exxonmobil-to-build-ccs-pilot-plant-using-carbonate-fuel-cell-technology/). Last reviewed 2026-11-16.
@@ -758,6 +763,9 @@ flowchart LR
 **Performance:**
 - oxyfuel cement kiln CO2 capture rate (design/LCA basis): 90 % CO2 capture efficiency (process plus fuel CO2), including electricity-demand changes for the oxy-process and oxygen production; the psi.ch LCA dataset entry for carbon dioxide captured at a cement plant using oxyfuel states 90% CO2 capture efficiency (process + fuel CO2); this is a design/LCA assumption - measured results from the Mergelstetten catch4climate plant (commissioned July 2026, recorded in Wave 2) were not yet published as of 2026-10-28. [source](https://clic.psi.ch/datasets/carbon-dioxide-captured-at-cement-production-plant-using-oxyfuel)
 
+**Costs:**
+- CO2 capture cost, coal oxy-combustion: 79.3 USD per t CO2 captured (2013$); Coal oxy-combustion benchmarked against Alstom LCL (Marion 2013) - NOT a cement plant, so the scope does not match this card.. [source](https://ieaghg.org/publications/2014-TR4%20Assessment%20of%20emerging%20CO2%20capture%20technologies%20and%20their%20potential%20to%20reduce%20costs.pdf)
+
 **Reference plants:**
 - catch4climate pure oxyfuel plant (CI4C), Mergelstetten cement plant, DE: 450 t/day clinker; designed by thyssenkrupp Polysius; over EUR 120 million, no public funding; inaugurated 8 July 2026; first clinker end of May 2026, first oxygen mid-June 2026. [source](https://www.vicat.com/sites/default/files/2026-07/Press%20Release%20CI4C%20Inauguration%20Event_EN.pdf)
 - Colleferro (IT) and Retznei (AT) industrial-scale test conversions: industrial scale; test phase about EUR 80 million; planned March 2018; the conversions did not go ahead — Heidelberg Materials' current CCUS project list and ECRA's CCS project pages name neither plant (both read 28 October 2026), and the industrial-scale oxyfuel demonstration instead proceeded via the catch4climate new-build plant at Mergelstetten, inaugurated 8 July 2026 as the world's first industrial-scale pure oxyfuel facility. [source](https://www.heidelbergmaterials.com/en/ecra-oxyfuel)
@@ -765,10 +773,10 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Oxy-fuelling and carbon capture' 7](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Searched the 11 NETL corpus docs for 'oxyfuel', 'oxy-fuel', 'oxy-combustion'; NETL's cement capture cases (Cost of Capturing CO2 from Industrial Sources 2022; Heidelberg Mitchell FEED in the 2024 Compendium) use Shell Cansolv / MHI amine, not oxyfuel. Web-checked 2026-10-28; catch4climate project costs not published. Where: NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); IEAGHG technical reports (private copy only) (catalog: iea-ghg, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capture cost for an oxyfuel cement plant (costs): Only coal oxy-combustion is published ($79.3/t, about 2013); no cement-specific oxyfuel cost was found, so the coal figure is recorded with that scope warning. Where: NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); IEAGHG technical reports (private copy only) (catalog: iea-ghg, open). Next: Leave open until a source states this metric and scope.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Searched the 11 NETL corpus docs for 'oxyfuel', 'oxy-fuel', 'oxy-combustion' and cement kiln terms; no oxyfuel-cement performance data present. Design capture rate of 90% recorded in performance (LCA dataset); measured Mergelstetten results still unpublished, 2026-10-28. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
-Sources: [1](https://www.heidelbergmaterials.com/en/ecra-oxyfuel), [2](https://www.heidelbergmaterials.com/en/ccus), [3](https://www.ecra-online.org/research/ccs), [4](https://www.vicat.com/sites/default/files/2026-07/Press%20Release%20CI4C%20Inauguration%20Event_EN.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.heidelbergmaterials.com/en/ecra-oxyfuel), [2](https://www.heidelbergmaterials.com/en/ccus), [3](https://www.ecra-online.org/research/ccs), [4](https://www.vicat.com/sites/default/files/2026-07/Press%20Release%20CI4C%20Inauguration%20Event_EN.pdf). Last reviewed 2026-11-16.
 
 ## Solid sorbent capture by rapid temperature swing
 <a id="ccs-solid-sorbent-tsa"></a>
@@ -870,16 +878,18 @@ flowchart LR
 
 **Key equipment:** two interconnected circulating fluidised bed reactors, cyclones, air separation unit, limestone feeder, heat recovery system, CO2 compressor.
 
+**Costs:**
+- CO2 avoided cost, calcium looping: 39.4 USD per t CO2 avoided; Mean of reviewed studies for post-combustion calcium looping; the review (2017) does not restate a dollar year; dollar year not stated. [source](https://www.sciencedirect.com/science/article/pii/S175058361730289X)
+
 **Reference plants:**
 - La Pereda pilot, ES: 1.7 MWth; biomass-fired calciner tests reached capture efficiencies above 99% in some periods (2024). [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141)
 
 TRL source: [Energy & Fuels 38(15), 2024, CC BY 4.0: pilot at TRL7; IEAGHG 2019 gave TRL 6](https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141)
 
 **Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Searched the 11 NETL corpus docs for 'calcium looping', 'carbonate looping', 'CaO', 'Calix', 'LEILAC'; no calcium-looping content (NETL's cement capture cases use Cansolv amine). Web-checked 2026-10-28; no open study found (2026-10-28 recheck). Where: NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open); OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic' (catalog: osti, blocked); IEAGHG technical reports (private copy only) (catalog: iea-ghg, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Searched the 11 NETL corpus docs for 'calcium looping', 'carbonate looping', 'calcination' and related terms; no calcium-looping performance data present. Web-checked 2026-10-28; pilot-level figures in journal papers not captured. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies (catalog: netl, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
-Sources: [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141), [2](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://pmc.ncbi.nlm.nih.gov/articles/PMC11299141), [2](https://www.sintef.no/globalassets/project/tccs-10/dokumenter/d6/tccs-10-monica-garcia-emerging-technologies.pdf). Last reviewed 2026-11-16.
 
 ## Cryogenic carbon capture (desublimation)
 <a id="ccs-cryogenic"></a>
@@ -963,12 +973,14 @@ flowchart LR
 **Performance:**
 - nominal capture capacity of Bluenzyme 200: 200 t CO2/day; Saipem product. [source](https://www.digitalrefining.com/news/1007573/bluenzyme-sustainable-co2-capture-solution-from-saipem)
 
+**Costs:**
+- CO2 capture cost, enzyme-catalysed absorption: 39 USD per t CO2 (2017$); CO2 Solutions enzyme process at 3.8 GJ/t CO2, based on pilot results.. [source](https://ieaghg.org/publications/2019-09%20Further%20Assessment%20of%20Emerging%20CO2%20Capture%20Technologies.pdf)
+
 **Reference plants:**
 - CO2 Solutions (now Saipem) enzyme capture unit, Resolute Saint-Felicien mill, Canada: 30 t/day; commissioning 2019. [source](https://www.newswire.ca/news-releases/co2-solutions-begins-commissioning-of-its-carbon-capture-unit-at-the-resolute-pulp-mill-in-saint-felicien-quebec-840933841.html)
 
 **Missing inputs:**
 - specific energy and capture rate (performance): Not given. Web-checked 2026-10-28; enzyme-capture (Aker SARC class) figures not published open. Where: ACCSESS project results (open); Saipem technical papers (catalog: saipem, open). Next: Add measured figures.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for enzyme capture, carbonic anhydrase, capital cost and unit cost; not present; 2026-10-28 Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
@@ -1038,12 +1050,14 @@ flowchart LR
 - CO faradaic efficiency on Ag GDE: 94 %; 91 mA/cm2, energy efficiency 46%. [source](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf)
 - C1-C2 fuels at high current: 70 % faradaic efficiency; 600 mA/cm2, energy efficiency below 22%. [source](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf)
 
+**Costs:**
+- levelised production cost, CO2 electroreduction products: 3.7-60 EUR per kg product; Low-temperature CO2 electrolysis at 4,000 full-load hours: CO 5.1 EUR/kg, formate 3.7, ethylene 60. Investment is over 60% of the levelised cost. Per kg of product, not per tonne of CO2.. [source](https://ieaghg.org/publications/2023-03%20Techno-Economic%20Assessment%20of%20Electrochemical%20CO2%20Conversion%20Technologies.pdf)
+
 **Reference plants:**
 - OCOchem Carbon FluX electrolyser pilot, United States: 60 t/yr formate; commissioned 2025. [source](https://ocochem.com/ocochem-commissions-worlds-first-pilot-plant-using-multiple-industrial-scale-cells-to-directly-convert-co%E2%82%82-and-water-into-organic-molecules)
 
 **Missing inputs:**
 - current TRL and Twelve plant data (trl): The review is from 2013. IEA ETP Guide (July 2026) has no matching entry (searched electroreduction, electrochemical, CO2 electrolysis, co-electrolysis, ethylene, formic); 2026-10-28 Web-checked 2026-10-28; Twelve commercial-scale data not published open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Add post-2020 pilot data.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://kenis-group.chbe.illinois.edu/Publications/2013/jhong_2013_eco2rropportunities.pdf). Last reviewed 2026-11-16.
@@ -1098,13 +1112,15 @@ flowchart LR
 - channel pressure drop reported: up to 1000 Pa; Verdox DOE kickoff slides, February 2021. [source](https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf)
 - electro-swing and supercapacitive-swing CO2 capture energy: 0.3-22.7 kJ per mol CO2 (faradaic electro-swing about 1 GJ/t = 22.7 kJ/mol; supercapacitive swing adsorption reported as low as 0.3 kJ/mol); Voskian and Hatton (MIT, Energy Environ. Sci. 2019) faradaic electro-swing system reported at about 1 GJ per ton of CO2 (1 GJ/t = 22.7 kJ/mol); a 2025 review of supercapacitive swing adsorption reports energy requirements as low as 0.3 kJ/mol CO2 and adsorption rates above 300 mmol per kg electrode per hour. [source](https://www.semanticscholar.org/paper/Faradaic-electro-swing-reactive-adsorption-for-CO2-Voskian/2d3d85f85823bb4eb21249ceb931d70253fa2140)
 
+**Costs:**
+- capture cost, moisture-swing / low-temperature sorbents: 99-244 EUR per t CO2; Review range for moisture-swing solid sorbents; the source quotes the range without a dollar year.. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC9930410/)
+
 **Reference plants:**
 - Mission Zero direct air capture at O.C.O Technology, United Kingdom: up to 250 t CO2/yr; operating 2025. [source](https://www.missionzero.tech/projects/oco-technology)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Electrochemical DAC (e-DAC)' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for electro-swing, moisture swing and direct air capture cost; not present; 2026-10-28 Web-checked 2026-10-28; Verdox costs not published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://netl.doe.gov/sites/default/files/netl-file/21DAC_Voskian_A.pdf). Last reviewed 2026-11-16.

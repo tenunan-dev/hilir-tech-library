@@ -8,6 +8,23 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.8] — 2026-11-16 — cost pass 2: power, gas, CCS and data centres
+
+### Added
+
+- **Fifty cost entries across 50 cards**, agency-first: EIA/Sargent & Lundy overnight capital (advanced reactors, aeroderivative and heavy-duty gas turbines, SMR, lithium-ion BESS), NREL ATB (hydropower, 2023 USD), INL (microreactors), IEA-PVPS (floating PV), World Bank (HVDC per km), IEAGHG and GCCSI (amine, MCFC, enzyme, calcium looping, compression, CO2 shipping, electroreduction), NETL, OIES (FLNG), World Bank (micro-LNG), Methanol Institute, plus vendor/analyst figures where nothing better exists.
+- **Cost gaps 265 → 238**; 171 cards now carry 272 cost figures.
+
+### Changed
+
+- **Twenty gaps narrowed, not closed**, where the published number answers a neighbouring question: LCOE instead of capex (tidal, powerships), module cost instead of plant capex (perovskite), per-kW-of-IT instead of per-kW-of-cooling (D2C, rear-door), equipment-only instead of installed (UPS), coal oxyfuel instead of cement, IGCC pre-combustion instead of natural-gas AGR.
+- Scope traps recorded in the basis rather than smoothed: LAES per kW not per kWh, VPP as a 40–60% cost ratio, undated ORC and molten-salt figures, Kasawari from secondary commentary.
+- A 2026 trade range for modular engine plants was found and **rejected again** (no methodology), keeping that gap open and consistent.
+
+### Fixed
+
+- Six cards failed the dollar-year test because undated USD figures lacked the phrase it looks for; the basis text was corrected rather than the year invented.
+
 ## [2026.11.16.7] — 2026-11-16 — 57 reference plants; project layer 241 → 293
 
 ### Added

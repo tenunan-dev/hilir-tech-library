@@ -142,13 +142,13 @@
       "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "unit capital and operating cost per unit of helium capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
+      "reason": "Total capital for two flowsheets is recorded ($127-281M); a per-unit-capacity figure could not be verified.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -165,7 +165,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "trl",
@@ -193,6 +193,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "total capital cost, helium extraction plant",
+      "unit": "USD million",
+      "year": 2024,
+      "low": 127,
+      "high": 281,
+      "basis": "Two flowsheets (cryogenic and PSA) at $102-232M installed; capacity per unit not verified against the plant size.",
+      "source": {
+        "url": "https://www.mdpi.com/2227-9717/12/9/1892",
+        "note": "MDPI Processes paper on helium extraction, read 2026-11-16"
+      }
     }
   ]
 }

@@ -103,29 +103,6 @@
   "last_reviewed": "2026-11-16",
   "gaps": [
     {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched arXiv corpus (28 papers) for electro-swing, moisture swing and direct air capture cost; not present; 2026-10-28 Web-checked 2026-10-28; Verdox costs not published.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -151,6 +128,19 @@
       },
       "project_id": "mission-zero-oco-technology",
       "year": 2025
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capture cost, moisture-swing / low-temperature sorbents",
+      "unit": "EUR per t CO2",
+      "low": 99,
+      "high": 244,
+      "basis": "Review range for moisture-swing solid sorbents; the source quotes the range without a dollar year.",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9930410/",
+        "note": "PMC review of moisture-swing direct air capture, read 2026-11-16"
+      }
     }
   ]
 }

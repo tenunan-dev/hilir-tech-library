@@ -191,26 +191,7 @@
     }
   ],
   "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "installed cost per kW with dollar year",
-      "reason_code": "paid_source",
-      "reason": "Open vendor pages give no cost; cost databases are commercial. Searched OSTI corpus (25 reports) for \"gas turbine\", \"installed cost\", \"$/kW\", \"capital cost\", \"levelized\"; not present; 2026-10-28",
-      "where": [
-        {
-          "hint": "Gas Turbine World handbook (paid)",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Add an open cost figure, for example from an EIA or NREL cost study."
-    }
-  ],
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Hamriyah Independent Power Plant (3 x GE 9HA.01)",
@@ -223,6 +204,20 @@
       },
       "project_id": "hamriyah-ipp",
       "year": 2023
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost, heavy-duty gas turbine",
+      "unit": "USD per kW",
+      "year": 2023,
+      "low": 836,
+      "high": 921,
+      "basis": "Simple cycle 1xH-class 419 MW $836/kW; combined cycle 2x2x1 $868/kW; single-shaft CC 1x1x1 $921/kW. Overnight capital, no financing.",
+      "source": {
+        "url": "https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf",
+        "note": "EIA capital cost study (AEO2025), Table 1-2, read 2026-11-16"
+      }
     }
   ]
 }

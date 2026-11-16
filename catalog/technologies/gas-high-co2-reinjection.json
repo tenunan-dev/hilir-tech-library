@@ -187,13 +187,13 @@
       "note": "GeoExpro, Kasawari - gas production has commenced, but when does the CO2 storage project?, 14 August 2025 (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "unit capital and operating cost with a primary source",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; Kasawari project capex exists in press but not verifiably per-tonne.",
+      "reason": "One project figure is recorded (about $1bn for 3.7-4 Mtpa); it comes from secondary commentary, so the unit cost needs a primary operator source.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -210,7 +210,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "trl",
@@ -238,6 +238,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost, offshore high-CO2 development with reinjection",
+      "unit": "USD billion",
+      "year": 2025,
+      "low": 1.0,
+      "high": 1.0,
+      "basis": "Kasawari CCS component for 3.7-4 Mtpa: offshore CO2 platform, 138 km pipeline and injection, about RM4.5bn (~$250/tpa).",
+      "source": {
+        "url": "https://www.khor-reports.com/blog/2025/9/25/ccus-role-in-the-transition-to-net-zero-1",
+        "note": "Khor Reports commentary citing the Kasawari CCS cost, read 2026-11-16"
+      }
     }
   ]
 }

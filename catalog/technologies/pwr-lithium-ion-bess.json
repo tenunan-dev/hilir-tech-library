@@ -141,23 +141,8 @@
       "note": "Wikipedia: Battery storage power station — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "$/kWh and $/kW installed cost with dollar year",
-      "reason_code": "source_unreachable",
-      "reason": "The ATB page lists cost only in charts.",
-      "where": [
-        {
-          "hint": "NREL ATB 2024 data download",
-          "access": "open",
-          "source_id": "nrel"
-        }
-      ],
-      "action": "Add base-year system cost with dollar year."
-    }
-  ],
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Edwards & Sanborn Solar + Energy Storage project, Kern County, California (Terra-Gen)",
@@ -169,6 +154,20 @@
         "note": "Central California economic development, 19 Jul 2023 (USD 2 bn, 3,287 MWh); Latham & Watkins, 9 Aug 2021 (phase 1: 346 MWac / 1,501 MWh); read 2026-10-28"
       },
       "project_id": "edwards-sanborn-solar-energy-storage-project-kern-county-california-terr"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "total capital cost, 4-hour lithium-ion BESS",
+      "unit": "USD per kW and USD per kWh",
+      "year": 2023,
+      "low": 436,
+      "high": 1744,
+      "basis": "150 MW/600 MWh greenfield: $1,744/kW and $436/kWh (EPC plus owner's costs). NREL's 2025 projection for 4-hour systems is $147-339/kWh.",
+      "source": {
+        "url": "https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf",
+        "note": "EIA capital cost study (AEO2025), Case 19, read 2026-11-16"
+      }
     }
   ]
 }

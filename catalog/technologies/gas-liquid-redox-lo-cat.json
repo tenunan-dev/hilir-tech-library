@@ -129,7 +129,7 @@
       "note": "Axens sulfur recovery page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -151,9 +151,9 @@
     },
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "unit cost per t/d of sulfur capacity",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only.",
+      "reason": "One plant-specific installed cost is recorded ($9.93M, plus/minus 50%); no unit cost per t/d of sulfur capacity was published.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -170,7 +170,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "trl",
@@ -198,6 +198,20 @@
         }
       ],
       "action": "Check the steps against a licensor description and name it."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "installed cost, LO-CAT liquid redox sulfur recovery",
+      "unit": "USD million",
+      "year": 2020,
+      "low": 9.93,
+      "high": 9.93,
+      "basis": "Denton NM gas plant, Merichem estimate at plus/minus 50%; the plant sits inside the 0.5-25 t/d sulfur niche, so this is one data point, not a curve.",
+      "source": {
+        "url": "https://www.env.nm.gov/opf/wp-content/uploads/sites/2/2020/07/Davis-Denton-gas-plant-4FA-addl-info-4-3-20.pdf",
+        "note": "New Mexico Environment Department filing for the Denton gas plant, read 2026-11-16"
+      }
     }
   ]
 }

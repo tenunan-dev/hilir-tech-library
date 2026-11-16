@@ -4,36 +4,36 @@
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
-| [Amine acid gas removal (MDEA, formulated amines)](#gas-amine-agr) | Gas treating / chemical solvent | commercial | 9 | BASF (OASE); Dow (UCARSOL); ExxonMobil (FLEXSORB); Honeywell UOP (Amine Guard FS); Shell (ADIP (ADIP-ULTRA per Shell catalysts pages)); Axens (Hysweet sour-gas sweetening solvent technology) | Capture cost from concentrated CO2 streams (natural gas processing, ethanol): 15-25 USD/t CO2 (2019$) |
-| [Bio-LNG and liquefied biomethane](#gas-bio-lng) | LNG / renewable gas | commercial |  | Shell (bio-LNG plant, about 100,000 t/yr (April 2024)); Titan (bio-LNG (register examples; not verified)) |  |
+| [Amine acid gas removal (MDEA, formulated amines)](#gas-amine-agr) | Gas treating / chemical solvent | commercial | 9 | BASF (OASE); Dow (UCARSOL); ExxonMobil (FLEXSORB); Honeywell UOP (Amine Guard FS); Shell (ADIP (ADIP-ULTRA per Shell catalysts pages)); Axens (Hysweet sour-gas sweetening solvent technology) | Capture cost from concentrated CO2 streams (natural gas processing, ethanol): 15-25 USD/t CO2 (2019$)<br>CO2 capture cost, amine absorption: 15-25 USD per t CO2 removed (2019$) |
+| [Bio-LNG and liquefied biomethane](#gas-bio-lng) | LNG / renewable gas | commercial |  | Shell (bio-LNG plant, about 100,000 t/yr (April 2024)); Titan (bio-LNG (register examples; not verified)) | project cost, farm-based bio-LNG plant: 2.5 EUR million |
 | [Boil-off gas management and reliquefaction](#gas-boil-off-reliquefaction) | LNG / shipping | commercial |  | Wärtsilä (LNG reliquefaction system); Burckhardt Compression (Laby-GI fuel gas compressors) |  |
 | [Carbon capture on LNG plants (acid gas reinjection)](#gas-lng-acid-gas-reinjection) | LNG / CO2 management | commercial |  | Chevron Australia (Gorgon CO2 injection); ExxonMobil (partner and register example) | Gorgon CO2 injection system capital cost: 1.7 USD billion |
 | [Cascade liquefaction](#lng-optimized-cascade) | LNG liquefaction | commercial |  | ConocoPhillips (Optimized Cascade Process); Bechtel (EPC partner) |  |
-| [Compressed natural gas and LNG as vehicle fuel](#gas-natural-gas-vehicle-fuel) | Gas use / transport | commercial | 9 | Clean Energy Fuels (US stations (more than 550 per the OIES report)) |  |
+| [Compressed natural gas and LNG as vehicle fuel](#gas-natural-gas-vehicle-fuel) | Gas use / transport | commercial | 9 | Clean Energy Fuels (US stations (more than 550 per the OIES report)) | capital cost, fast-fill CNG station: 0.4-2 USD million per station (2026$) |
 | [Dual mixed refrigerant liquefaction](#lng-dmr) | LNG liquefaction | commercial |  | Shell (Shell DMR); Air Products (AP-DMR) |  |
 | [Electric-drive liquefaction (e-LNG)](#gas-electric-drive-lng) | LNG / liquefaction drive | commercial |  | Equinor (Hammerfest LNG electrification (Snøhvit Future)); Freeport LNG (three electric-driven trains); McDermott (e-drive solutions (search result only; page not read)) |  |
-| [Floating LNG (FLNG)](#lng-flng) | LNG liquefaction / floating | commercial |  | PETRONAS (owner-operator, PFLNG SATU and DUA); Shell (owner-operator, Prelude); Golar LNG (FLNG conversions (Hilli)) |  |
-| [Floating storage and regasification units (FSRU)](#lng-fsru) | LNG import / regasification | commercial |  | Excelerate Energy; Höegh LNG; Golar LNG |  |
-| [Gas-to-liquids (Fischer-Tropsch)](#gas-gtl-ft) | Gas conversion | commercial | 9 | Shell (Shell Middle Distillate Synthesis (SMDS)); Sasol |  |
-| [Gas-to-methanol and methanol-to-gasoline](#gas-to-methanol) | Gas conversion / methanol | commercial |  | Topsoe (methanol (register examples; not verified)); Johnson Matthey (Honeywell) (methanol (register examples)); ExxonMobil (MTG (register examples)) |  |
-| [Helium recovery](#gas-helium-recovery) | Gas processing / helium | commercial |  | RasGas / Qatargas (operators) (Helium 2 plant; liquefier co-owned); Linde Engineering (PSA plus HISELECT helium purification hybrid with NRU) |  |
+| [Floating LNG (FLNG)](#lng-flng) | LNG liquefaction / floating | commercial |  | PETRONAS (owner-operator, PFLNG SATU and DUA); Shell (owner-operator, Prelude); Golar LNG (FLNG conversions (Hilli)) | liquefaction plant cost, floating LNG: 600-2000 USD per tpa (2018$) |
+| [Floating storage and regasification units (FSRU)](#lng-fsru) | LNG import / regasification | commercial |  | Excelerate Energy; Höegh LNG; Golar LNG | time charter rate, 170,000 m3 FSRU: 80000-120000 USD per day (2018$) |
+| [Gas-to-liquids (Fischer-Tropsch)](#gas-gtl-ft) | Gas conversion | commercial | 9 | Shell (Shell Middle Distillate Synthesis (SMDS)); Sasol | capital cost, gas-to-liquids (Fischer-Tropsch): 12000-35000 USD per bbl/d (1999$) |
+| [Gas-to-methanol and methanol-to-gasoline](#gas-to-methanol) | Gas conversion / methanol | commercial |  | Topsoe (methanol (register examples; not verified)); Johnson Matthey (Honeywell) (methanol (register examples)); ExxonMobil (MTG (register examples)) | capital cost, gas-to-methanol: 400-1350 USD per t/yr of capacity (2014$) |
+| [Helium recovery](#gas-helium-recovery) | Gas processing / helium | commercial |  | RasGas / Qatargas (operators) (Helium 2 plant; liquefier co-owned); Linde Engineering (PSA plus HISELECT helium purification hybrid with NRU) | total capital cost, helium extraction plant: 127-281 USD million (2024$) |
 | [Hot potassium carbonate (Benfield)](#gas-hot-potassium-carbonate) | Gas treating / chemical solvent | commercial |  | Honeywell UOP (Benfield, Benfield HiPure) |  |
 | [Hybrid solvent gas treating (Sulfinol)](#gas-hybrid-solvent-sulfinol) | Gas treating / hybrid solvent | commercial | 9 | Shell (Sulfinol) |  |
-| [LNG bunkering](#gas-lng-bunkering) | LNG / marine fuel | commercial |  | FueLNG (ship-to-ship LNG bunkering, Singapore (Shell and Seatrium)); Shell (LNG bunkering); TotalEnergies (LNG bunkering (register examples)); PETRONAS (LNG bunkering (register examples)) |  |
+| [LNG bunkering](#gas-lng-bunkering) | LNG / marine fuel | commercial |  | FueLNG (ship-to-ship LNG bunkering, Singapore (Shell and Seatrium)); Shell (LNG bunkering); TotalEnergies (LNG bunkering (register examples)); PETRONAS (LNG bunkering (register examples)) | capital cost, 18,000 m3 LNG bunker vessel: 87.5 USD million (2025$) |
 | [LNG regasification (open rack, submerged combustion, ambient air vaporisers)](#gas-lng-regasification) | LNG / import terminals | commercial |  | Sumitomo Precision Products (vaporisers (register examples; not verified)); Kobe Steel (vaporisers (register examples; not verified)); Chart Industries (ambient-air vaporisers with HVAC pre-heating, 30 to 100% turndown) |  |
-| [Liquid redox sulfur recovery (LO-CAT)](#gas-liquid-redox-lo-cat) | Gas treating / sulfur recovery | commercial |  | Merichem (LO-CAT); Axens (SweetSulf (redox, H2S below 1 ppmv achievable per Axens)) |  |
-| [Membrane CO2 removal for high-CO2 gas](#gas-membrane-co2) | Gas treating / membrane | commercial |  | Honeywell UOP (Separex); SLB (Cynara); Air Liquide |  |
+| [Liquid redox sulfur recovery (LO-CAT)](#gas-liquid-redox-lo-cat) | Gas treating / sulfur recovery | commercial |  | Merichem (LO-CAT); Axens (SweetSulf (redox, H2S below 1 ppmv achievable per Axens)) | installed cost, LO-CAT liquid redox sulfur recovery: 9.93 USD million (2020$) |
+| [Membrane CO2 removal for high-CO2 gas](#gas-membrane-co2) | Gas treating / membrane | commercial |  | Honeywell UOP (Separex); SLB (Cynara); Air Liquide | sweetening cost, two-stage carbon membrane: 0.0112 USD per m3 sweet gas (2017$) |
 | [Mercury removal units](#gas-mercury-removal) | Gas treating / adsorption | commercial |  | Axens (AxTrap Mercury Series); Johnson Matthey (Honeywell) (PURASPEC); Clariant |  |
 | [Mixed fluid cascade](#lng-mixed-fluid-cascade) | LNG liquefaction | commercial |  | Linde Engineering (MFC) |  |
-| [Molecular sieve and glycol dehydration](#gas-dehydration) | Gas treating / dehydration | commercial |  | Honeywell UOP; BASF; Axens |  |
+| [Molecular sieve and glycol dehydration](#gas-dehydration) | Gas treating / dehydration | commercial |  | Honeywell UOP; BASF; Axens | installed cost, TEG dehydration package: 12000 USD per MMSCFD |
 | [NGL fractionation and LPG recovery](#gas-ngl-fractionation) | Gas processing / NGL | commercial |  | Honeywell UOP (fractionation modules); Enerflex (LPG extraction and NGL recovery (search result only; page not read)) | cost reduction for a deethanizer single-tower design compared with historical two-tower projects: 14 % |
 | [Nitrogen rejection units](#gas-nitrogen-rejection) | Gas processing / nitrogen removal | commercial |  | Linde Engineering (single-column, partitioned-column, double-column and enrichment NRUs); Air Products (NRU (register examples column; not verified in sources read)) |  |
-| [Physical solvent gas treating (Selexol, Rectisol, Purisol)](#gas-physical-solvent-agr) | Gas treating / physical solvent | commercial | 9 | Honeywell UOP (Selexol (Union Carbide solvent, licensed through UOP)); Linde (Rectisol (examples column of the register; not verified in sources read)); Air Liquide (Rectisol (examples column of the register; not verified in sources read)); Linde Engineering (Rectisol chilled-methanol wash licensor (with Air Liquide)); Air Liquide Engineering & Construction (Rectisol process (originally Lurgi) and Purisol (N-methylpyrrolidone) gas purification) |  |
+| [Physical solvent gas treating (Selexol, Rectisol, Purisol)](#gas-physical-solvent-agr) | Gas treating / physical solvent | commercial | 9 | Honeywell UOP (Selexol (Union Carbide solvent, licensed through UOP)); Linde (Rectisol (examples column of the register; not verified in sources read)); Air Liquide (Rectisol (examples column of the register; not verified in sources read)); Linde Engineering (Rectisol chilled-methanol wash licensor (with Air Liquide)); Air Liquide Engineering & Construction (Rectisol process (originally Lurgi) and Purisol (N-methylpyrrolidone) gas purification) | cost of CO2 capture, physical solvent (Selexol): 27-31 USD per t CO2 captured (2022$) |
 | [Propane-precooled mixed refrigerant liquefaction (C3MR, AP-X)](#lng-c3mr-apx) | LNG liquefaction | commercial |  | Air Products (AP-C3MR, AP-X, AP-DMR, AP-N) |  |
-| [Small and mid-scale modular LNG](#gas-small-scale-lng) | LNG / liquefaction | commercial | 9 | Honeywell UOP (AP-N nitrogen expander, AP-C1, AP-SMR processes (document hosted by UOP)); Chart Industries (small-scale LNG (register examples; not verified)); Black & Veatch (PRICO (register examples; not verified)) |  |
+| [Small and mid-scale modular LNG](#gas-small-scale-lng) | LNG / liquefaction | commercial | 9 | Honeywell UOP (AP-N nitrogen expander, AP-C1, AP-SMR processes (document hosted by UOP)); Chart Industries (small-scale LNG (register examples; not verified)); Black & Veatch (PRICO (register examples; not verified)) | capital cost, micro-scale LNG liquefaction: 600 USD per tpa (FOB) |
 | [Sulfur recovery (Claus, tail gas treating, SuperClaus)](#gas-sulfur-recovery) | Gas treating / sulfur recovery | commercial |  | Shell; Worley Comprimo; Jacobs; KT Tecnimont; Baker Hughes; BASF (OASE yellow, sulfexx); Axens (Claus, SmartSulf, Sultimate) |  |
 | [Turbo-expander NGL recovery (GSP, RSV processes)](#gas-turboexpander-ngl) | NGL recovery / cryogenic | commercial |  | Honeywell UOP Ortloff (GSP, RSV, SCORE, SRP, SRC, SRX); Linde Engineering |  |
-| [High-CO2 gas field development with reinjection](#gas-high-co2-reinjection) | Gas treating / field development | demonstration |  | PETRONAS Carigali (operator of Kasawari CCS); Baker Hughes (gas turbine compressor trains (PGT25+ / PGT25 DLE), two trains each for booster and reinjection); Malaysia Marine and Heavy Engineering (CCS platform EPCIC (awarded November 2022)); Technip Energies (FEED within the NPCC consortium) |  |
+| [High-CO2 gas field development with reinjection](#gas-high-co2-reinjection) | Gas treating / field development | demonstration |  | PETRONAS Carigali (operator of Kasawari CCS); Baker Hughes (gas turbine compressor trains (PGT25+ / PGT25 DLE), two trains each for booster and reinjection); Malaysia Marine and Heavy Engineering (CCS platform EPCIC (awarded November 2022)); Technip Energies (FEED within the NPCC consortium) | capital cost, offshore high-CO2 development with reinjection: 1 USD billion (2025$) |
 
 ## Amine acid gas removal (MDEA, formulated amines)
 <a id="gas-amine-agr"></a>
@@ -65,6 +65,7 @@ flowchart LR
 
 **Costs:**
 - Capture cost from concentrated CO2 streams (natural gas processing, ethanol): 15-25 USD/t CO2 (2019$); IEA commentary figures: 2019 levelised costs, US-based estimates including compression; IEA's own estimates drawing on GCCSI (2017), IEAGHG (2014), Keith et al. (2018), NETL (2014) and Rubin et al. (2015) — pure/concentrated-stream range quoted directly by the IEA. [source](https://www.iea.org/commentaries/is-carbon-capture-too-expensive)
+- CO2 capture cost, amine absorption: 15-25 USD per t CO2 removed (2019$); Concentrated streams (natural gas processing, ethanol), including compression. IEA range.. [source](https://www.iea.org/commentaries/is-carbon-capture-too-expensive)
 
 **Reference plants:**
 - PETRONAS PFLNG DUA, Rotan field, offshore Sabah, MY: 1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE; first cargo 24 March 2021. [source](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas)
@@ -72,10 +73,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Advanced acid gas removal' 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; AGR unit costs are licensor-quoted. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-
-Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas), [3](https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/), [4](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas), [3](https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/), [4](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal). Last reviewed 2026-11-16.
 
 ## Bio-LNG and liquefied biomethane
 <a id="gas-bio-lng"></a>
@@ -98,16 +96,19 @@ flowchart LR
 **Performance:**
 - Shell bio-LNG plant capacity: 100000 t/yr; Natural Gas World, April 2024; site and feedstock not stated in the text read. [source](https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526)
 
+**Costs:**
+- project cost, farm-based bio-LNG plant: 2.5 EUR million; Greenville liquid biomethane plant; the capacity of the plant is not stated on the page, so this is a single unverifiable data point.. [source](https://www.frenchrenewableenergy.com/project-details/greenville-bio-lng-plant-346)
+
 **Reference plants:**
 - Nordsol bio-LNG plant, Amsterdam (Nordsol/Shell/Renewi), NL: 3,400 t/yr bio-LNG plus 6,800 t/yr liquid bio-CO2; feedstock is biogas from Renewi waste processing; opened 15 Oct 2021 - the first bio-LNG plant in the Netherlands; operating. [source](https://www.bioenergy-news.com)
 - Vireo Hardanger bio-LNG plant, Norway (Bright Renewables/Nordsol), NO: about 125,000 t/yr organic feedstock (salmon-processing residues) to bio-LNG; Norway's first bio-LNG facility (2025); operating. [source](https://www.bright-renewables.com)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital and operating cost per tonne of bio-LNG (costs): A project cost without a stated capacity is recorded; a per-tonne figure cannot be formed from it. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526). Last reviewed 2026-10-28.
+Sources: [1](https://naturalgasworld.com/shell-inaugurates-germanys-largest-bio-lng-production-plant-117526). Last reviewed 2026-11-16.
 
 ## Boil-off gas management and reliquefaction
 <a id="gas-boil-off-reliquefaction"></a>
@@ -240,13 +241,16 @@ flowchart LR
 - LNG trucks in China: 350000 vehicles; end of 2017. [source](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf)
 - natural-gas vehicle fleet and refuelling stations: 23-29 million NGVs worldwide (US DOE AFDC: about 23 million; 2026 industry counts: more than 29 million CNG vehicles with over 39,000 public CNG stations); US: more than 175,000 vehicles, 1,385 CNG plus 81 LNG stations (2026); US DOE Alternative Fuels Data Center: "more than 175,000 vehicles in the United States and roughly 23 million vehicles worldwide"; businessresearchinsights (Sep 2026): more than 29 million CNG vehicles, over 39,000 public CNG stations; transportproject.org (15 Dec 2025): 1,385 US CNG + 81 LNG stations. [source](https://afdc.energy.gov/vehicles/natural-gas)
 
+**Costs:**
+- capital cost, fast-fill CNG station: 0.4-2 USD million per station (2026$); Compression, storage and dispensing; market-report range, not a project cost.. [source](https://www.mordorintelligence.com/industry-reports/cng-compressor-market)
+
 **Reference plants:**
 - Rolande CNG/LNG station, Ulm, Germany: daily capacity for up to 150 vehicles; opened 2020. [source](https://www.rolande.eu/en/rolande-opens-filling-stations-in-ulm)
 
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-CNG facilities' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: US station costs (fast-fill about USD 400k; large stations USD 0.6-1.7 m) exist in industry PDFs but without a citable primary; named plants n/a. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital and operating cost with a primary source (costs): A market-report range is recorded ($0.4-2.0M per station); no project-level cost was found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 
 Sources: [1](https://oxfordenergy.org/wpcms/wp-content/uploads/2019/04/A-review-of-prospects-for-natural-gas-as-a-fuel-in-road-transport-Insight-50.pdf), [2](https://afdc.energy.gov/vehicles/natural-gas), [3](https://en.wikipedia.org/wiki/Natural_gas_vehicle). Last reviewed 2026-11-16.
 
@@ -336,6 +340,9 @@ flowchart LR
 
 **Key equipment:** turret and mooring, topsides gas treating, liquefaction modules, hull LNG tanks, offloading arms.
 
+**Costs:**
+- liquefaction plant cost, floating LNG: 600-2000 USD per tpa (2018$); Golar 600, PFLNG2 825, PFLNG1 968, Prelude 2,000 - liquefaction plant only, projects built 2014-18.. [source](https://www.oxfordenergy.org/wpcms/wp-content/uploads/2018/10/LNG-Plant-Cost-Reduction-2014%E2%80%9318-NG137.pdf)
+
 **Reference plants:**
 - Shell Prelude FLNG, AU: 488 m long; 3.6 Mtpa LNG, 1.3 Mtpa condensate, 0.4 Mtpa LPG; 475 km NNE of Broome; first condensate cargo shipped by March 2019. [source](https://www.offshore-technology.com/news/shell-prelude-flng/)
 - PETRONAS PFLNG DUA, Rotan field, Sabah, MY: 1.5 Mtpa LNG in 1,300 m water depth; first cargo 24 March 2021. [source](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities)
@@ -344,10 +351,9 @@ flowchart LR
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
-Sources: [1](https://www.offshore-technology.com/news/shell-prelude-flng/), [2](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities). Last reviewed 2026-10-28.
+Sources: [1](https://www.offshore-technology.com/news/shell-prelude-flng/), [2](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities). Last reviewed 2026-11-16.
 
 ## Floating storage and regasification units (FSRU)
 <a id="lng-fsru"></a>
@@ -373,14 +379,16 @@ flowchart LR
 - regasification energy requirement: 0.214 MJ/kg LNG; NETL import terminal model (open rack vaporisers). [source](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf)
 - newbuild FSRU send-out capacity: 1000 MMscf/d; Excelerate newbuild at HHI, 170,000 m3 storage, delivery June 2026. [source](https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/)
 
+**Costs:**
+- time charter rate, 170,000 m3 FSRU: 80000-120000 USD per day (2018$); Q4 2018 rates; 2024-25 rates quoted at $120,000-140,000/day in the same source.. [source](https://www.wilhelmsen.com/port-services/ships-agency/industry-perspectives/fsrus-not-a-passing-phase-anymore)
+
 **Reference plants:**
 - Excelerate newbuild FSRU (Hyundai Heavy Industries): 170,000 m3 storage, 1,000 MMscf/d send-out; fleet of 11 FSRUs operating or building; delivery June 2026. [source](https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/)
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/). Last reviewed 2026-10-28.
+Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://excelerateenergy.com/news/excelerate-energy-finalizes-agreement-with-hhi-for-newbuild-fsru/). Last reviewed 2026-11-16.
 
 ## Gas-to-liquids (Fischer-Tropsch)
 <a id="gas-gtl-ft"></a>
@@ -407,13 +415,13 @@ flowchart LR
 **Performance:**
 - Pearl GTL conversion scale (world's largest GTL plant): 140000 bpd GTL products from 1.6 bcf/d of wellhead gas (plus about 120,000 boe/d NGLs); Pearl GTL reached full capacity in 2012: 1.6 billion scf/d of North Field gas converted via Shell Middle Distillate Synthesis into about 140,000 bpd of GTL products, with about 120,000 boe/d of NGLs and LPGs; about USD 19 bn project. [source](https://www.shell.com.qa/about-us/projects-and-sites/pearl-gtl.html)
 
+**Costs:**
+- capital cost, gas-to-liquids (Fischer-Tropsch): 12000-35000 USD per bbl/d (1999$); Generic Gulf Coast GTL, base case Exxon AGC-21 50,000 b/d at $1.2bn ($24,000/bbl/d). Modular mini-GTL is far above this range (about $80,000/bbl/d).. [source](https://www.osti.gov/servlets/purl/752576)
+
 **Reference plants:**
 - Pearl GTL, Ras Laffan, QA: 140,000 bbl/d GTL products in two 70,000 bbl/d trains, plus about 120,000 boe/d NGLs and ethane, from 1.6 bcf/d North Field gas; first sour gas into the plant March 2011. [source](https://www.offshore-technology.com/projects/pearl/)
 
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-GTL conversion plants' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
-
-**Missing inputs:**
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28: Pearl GTL project cost about USD 19 bn recorded in the performance basis; unit costs are case-specific. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://www.offshore-technology.com/projects/pearl/), [2](https://www.shell.com.qa/about-us/projects-and-sites/pearl-gtl.html). Last reviewed 2026-11-16.
 
@@ -438,15 +446,17 @@ flowchart LR
 **Performance:**
 - exergetic efficiency, three natural-gas routes: 28.2-55.6 %; Case I SMR 28.2% (2,200 t/d); Case III CO2 plus steam reforming 41.0%; Case II SMR+ATR 55.6%; paper's simulation, not plant data. [source](https://depositonce.tu-berlin.de/items/c222282b-e88c-41d3-813f-ff34d6f7aba4/full)
 
+**Costs:**
+- capital cost, gas-to-methanol: 400-1350 USD per t/yr of capacity (2014$); Average $532/t/yr across planned US gas-based methanol plants; small-scale 17-55 t/d plants at $400-1,350/t/yr.. [source](https://methanol.org/wp-content/uploads/2018/04/ADIAnalytics.pdf)
+
 **Reference plants:**
 - Motunui synthetic fuels plant (New Zealand Synfuels), Taranaki, New Zealand, NZ: 14,500 bpd of synthetic gasoline from Maui natural gas via methanol; the world's first natural-gas-to-gasoline plant, opened February 1985 (Methanex later closed the Taranaki units after 30+ years); closed. [source](https://www.digitalrefining.com/news/1003028/zeogas-awarded-methanol-to-gasoline-technology-license-by-exxonmobil)
 
 **Missing inputs:**
 - methanol-to-gasoline step (process): The MTG step is now sourced: methanol is dehydrated to dimethyl ether then converted over a ZSM-5 zeolite fixed bed to 90-octane gasoline, first commercialised at Motunui in 1985 (14,500 bpd); ExxonMobil licenses the technology (ZeoGas licence awarded 2014). What remains open is licensor-level detail on yields and catalyst life. Where: ExxonMobil MTG technology pages and DigitalRefining news, 21 Jul 2014 (open). Next: If a deeper process description is needed, read an ExxonMobil MTG technical paper.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; project capex case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://depositonce.tu-berlin.de/items/c222282b-e88c-41d3-813f-ff34d6f7aba4/full), [2](https://www.digitalrefining.com/news/1003028/zeogas-awarded-methanol-to-gasoline-technology-license-by-exxonmobil). Last reviewed 2026-10-28.
+Sources: [1](https://depositonce.tu-berlin.de/items/c222282b-e88c-41d3-813f-ff34d6f7aba4/full), [2](https://www.digitalrefining.com/news/1003028/zeogas-awarded-methanol-to-gasoline-technology-license-by-exxonmobil). Last reviewed 2026-11-16.
 
 ## Helium recovery
 <a id="gas-helium-recovery"></a>
@@ -470,16 +480,19 @@ flowchart LR
 - Helium 2 plant capacity: 1.3 billion cubic feet per year; RasGas Helium 2, operational July 2013; with the existing plant 2 billion cubic feet per year. [source](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export)
 - share of global liquid helium demand met by the two Qatar plants: 25 %; Gulf Times, 2013 expectation. [source](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export)
 
+**Costs:**
+- total capital cost, helium extraction plant: 127-281 USD million (2024$); Two flowsheets (cryogenic and PSA) at $102-232M installed; capacity per unit not verified against the plant size.. [source](https://www.mdpi.com/2227-9717/12/9/1892)
+
 **Reference plants:**
 - RasGas Helium 2, Ras Laffan, QA: 1.3 billion cubic feet per year; . [source](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export)
 - World helium supply by plant (Ras Laffan, Amur GPP, US BLM Cliffside), QA: Ras Laffan (Qatar): about 75-81 million m3/yr across three plants - roughly a third of world supply; Amur GPP (Russia): about 45-50 million m3/yr (designed up to 60 Mm3/yr); US BLM Cliffside (Amarillo, Texas) enrichment units; world production capacity about 360 million m3 (13 bcf) per year in 2023 (USGS); operating. [source](https://pubs.usgs.gov)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- unit capital and operating cost per unit of helium capacity (costs): Total capital for two flowsheets is recorded ($127-281M); a per-unit-capacity figure could not be verified. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export), [2](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/). Last reviewed 2026-10-28.
+Sources: [1](https://www.gulf-times.com/story/358882/New-plant-takes-Qatar-to-top-spot-in-helium-export), [2](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/). Last reviewed 2026-11-16.
 
 ## Hot potassium carbonate (Benfield)
 <a id="gas-hot-potassium-carbonate"></a>
@@ -577,16 +590,18 @@ flowchart LR
 - Singapore LNG bunker sales, July: 41500 t; Ship & Bunker, market total, down 3.9% year on year. [source](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore)
 - LNG bunker demand outlook and cumulative port volumes: 2-27 million m3 cumulative bonded LNG bunkered at Shanghai to date (2+ M m3, 355 vessels); Shell outlook: global LNG bunker demand rising sevenfold to 27 million mt/yr by 2035; Shell outlook reported by LNG Prime: global LNG bunker demand expected to increase sevenfold to 27 million mt by 2035 as the LNG-fuelled fleet expands; LNG Prime: Shanghai cumulative bonded LNG bunker supplies surpassed 2 million m3 with 355 vessels bunkered; Singapore sales at record highs; a verified global volume total for 2024/25 was not available in open pages. [source](https://www.linkedin.com/posts/lng-prime_singapore-lng-bunkering-volumes-hit-new-record-activity-7472176654832832512-pbGB)
 
+**Costs:**
+- capital cost, 18,000 m3 LNG bunker vessel: 87.5 USD million (2025$); Dual-fuel LNG bunker vessel newbuild order (HJ Shipbuilding).. [source](https://www.lloydslist.com/LL1152534/HJ-Shipbuilding-seals-$88m-LNG-bunkering-vessel-order)
+
 **Reference plants:**
 - FueLNG Singapore, 500th ship-to-ship bunkering (receiving ship Amphitrite Highway, K Line), SG: ; . [source](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore)
 
 **Missing inputs:**
 - global LNG bunkering volumes and port list (performance): Only Singapore items were read; the LNG Prime article is paywalled. Outlook and cumulative port figures recorded in performance; a verified global 2024/25 volume total and port list not found open, 2026-10-28. Where: Singapore MPA bunkering statistics (open); Maritime Executive and Ship & Bunker coverage (open). Next: Add global volumes and the Malaysia (Pengerang, Johor) position.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; bunker price spreads are commercial. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore), [2](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/). Last reviewed 2026-10-28.
+Sources: [1](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore), [2](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/). Last reviewed 2026-11-16.
 
 ## LNG regasification (open rack, submerged combustion, ambient air vaporisers)
 <a id="gas-lng-regasification"></a>
@@ -643,16 +658,19 @@ flowchart LR
 **Performance:**
 - average inlet H2S over 22 years at one site: up to 0.7 vol%; Coso geothermal Navy 1 unit, designed for 1.2 vol% H2S in the feed. [source](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal)
 
+**Costs:**
+- installed cost, LO-CAT liquid redox sulfur recovery: 9.93 USD million (2020$); Denton NM gas plant, Merichem estimate at plus/minus 50%; the plant sits inside the 0.5-25 t/d sulfur niche, so this is one data point, not a curve.. [source](https://www.env.nm.gov/opf/wp-content/uploads/sites/2/2020/07/Davis-Denton-gas-plant-4FA-addl-info-4-3-20.pdf)
+
 **Reference plants:**
 - Coso Operating Company geothermal plant, China Lake, California (Navy 1, first unit 1993; three LO-CAT units), US: ; . [source](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal)
 
 **Missing inputs:**
 - H2S removal efficiency, capacity range in tonnes of sulfur per day and installed base (performance): Neither the Digital Refining article text nor the Merichem page read gives them. Web-checked 2026-10-28: LO-CAT vendor pages found but the 99.9+% efficiency and installed-base figures sit in brochure material not readable this pass. Where: Merichem LO-CAT brochure (open); Digital Refining article tables 1 and 2 (not in the text read) (catalog: ptq-digital-refining, open). Next: Add them from a licensor datasheet.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- unit cost per t/d of sulfur capacity (costs): One plant-specific installed cost is recorded ($9.93M, plus/minus 50%); no unit cost per t/d of sulfur capacity was published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal), [2](https://www.axens.net/markets/natural-gas/sulfur-recovery). Last reviewed 2026-10-28.
+Sources: [1](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal), [2](https://www.axens.net/markets/natural-gas/sulfur-recovery). Last reviewed 2026-11-16.
 
 ## Membrane CO2 removal for high-CO2 gas
 <a id="gas-membrane-co2"></a>
@@ -680,15 +698,17 @@ flowchart LR
 **Performance:**
 - typical feed CO2 content: 3-90 mol% CO2; UOP Separex datasheet, typical range. [source](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf)
 
+**Costs:**
+- sweetening cost, two-stage carbon membrane: 0.0112 USD per m3 sweet gas (2017$); 50,000 m3/h, 10% CO2, 90 bar, membrane at $100/m2; the paper's capital-related charge implies about $17.1M capex (roughly $400k per MMSCFD), which is a derivation, not a stated figure.. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316760/)
+
 **Reference plants:**
 - Separex offshore system, South China Sea: 680 MMSCFD on a large platform; installed (per 2016 datasheet). [source](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf)
 - Separex trains, Egyptian desert, EG: three trains expanding to five, 560 MMSCFD total; per 2016 datasheet. [source](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf)
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; vendor quotes only. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/documents/lifecycle-solutions/all-equipment-and-aftermarke/modular-solutions/gas-processing/UOP-Separex-membrane-elements-datasheet.pdf). Last reviewed 2026-11-16.
 
 ## Mercury removal units
 <a id="gas-mercury-removal"></a>
@@ -776,12 +796,15 @@ flowchart LR
 **Performance:**
 - water content after molecular sieve dehydration for LNG: up to 0.5 ppmv H2O; NETL LNG pretreatment assumption (below 0.5 ppmv). [source](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf)
 
+**Costs:**
+- installed cost, TEG dehydration package: 12000 USD per MMSCFD; Onshore sweet-gas TEG package, installed, about $1.2M per 100 MMSCFD; c.2013 and the source does not restate a dollar year; dollar year not stated. [source](http://www.jmcampbell.com/tip-of-the-month/2013/06/teg-dehydration-stripping-gas-charts-for-lean-teg-regeneration)
+
 **Reference plants:**
 - Gorgon LNG (three trains), Australia: 15.6 Mt/yr LNG; dehydration unit capacity not itemised; first LNG 2016. [source](https://australia.chevron.com/what-we-do/gorgon-project)
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
-- capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; vendor quotes only. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- molecular sieve and glycol dehydration cost with a stated dollar year (costs): A TEG package rate is recorded ($12,000 per MMSCFD, c.2013, undated); molecular sieve costs were not found. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Leave open until a source states this metric and scope.
 
 Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-11-16.
 
@@ -887,6 +910,9 @@ flowchart LR
 **Performance:**
 - absorption pressure range at which Selexol is competitive: 2.07-13.8 MPa; feed-gas pressure stated as 300 to 2000 psia; below about 300 psia solvent capacity drops and amines usually perform better. [source](https://en.wikipedia.org/wiki/Selexol)
 
+**Costs:**
+- cost of CO2 capture, physical solvent (Selexol): 27-31 USD per t CO2 captured (2022$); NETL sensitivity for pre-combustion/IGCC capture - NOT natural-gas AGR, so the scope does not match this card.. [source](https://www.netl.doe.gov/projects/files/ReviewofTechnoEconomicAnalysisStudiesUsingPhysicalSolventsforPreCombustionCO2Capture_092122.pdf)
+
 **Reference plants:**
 - Sarlux and api Energia gasification projects (Italy): ; . [source](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf)
 - Texaco Cool Water and TVA Muscle Shoals gasification (first use in the 1980s): ; . [source](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf)
@@ -894,7 +920,7 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Advanced acid gas removal' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only (NETL Selexol case costs already recorded in Wave 1). Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- capital cost for a natural-gas physical-solvent AGR unit (costs): Only a pre-combustion IGCC capture cost is published ($27-31/t, 2022); it is recorded with that scope warning, but no natural-gas AGR figure exists. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
 Sources: [1](https://netl.doe.gov/sites/default/files/2021-04/acid-gas-removal.pdf), [2](https://en.wikipedia.org/wiki/Selexol). Last reviewed 2026-11-16.
@@ -956,6 +982,9 @@ flowchart LR
 - nitrogen expander specific power: 350 kWh/t; 0.56 kWh/gal on lean high-pressure (about 1,100 psig) feed; vendor article, other feeds not covered. [source](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng)
 - typical small-scale plant size: 4-42 MMscfd; 50,000 to 500,000 gal/d per Cosmodyne article. [source](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng)
 
+**Costs:**
+- capital cost, micro-scale LNG liquefaction: 600 USD per tpa (FOB); Micro-scale liquefaction including gas treatment (Galileo Cryobox class, up to about 9 kt/yr). Report undated (2017), so dollar year not stated.. [source](https://documents1.worldbank.org/curated/en/099055504182314311/pdf/IDU0b08a7c1704730047b7095640f60da3b94c07.pdf)
+
 **Reference plants:**
 - Japex LNG plants, Japan (AP-N), JP: 144 t/d (2004) and 206 t/d (2007); . [source](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf)
 - US plant, 412 t/d AP-N, US: ; . [source](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf)
@@ -964,7 +993,6 @@ TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-LNG
 
 **Missing inputs:**
 - independent comparison of N2 expander and SMR power use (performance): Both sources are vendors. Web-checked 2026-10-28; vendor-specific specific-power claims not independently comparable in open pages. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); LNG Industry / Gastech papers (catalog: lng-industry, open). Next: Add an independent comparison.
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; modular-plant prices are quote-only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf), [2](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng), [3](https://en.wikipedia.org/wiki/LNG_plant). Last reviewed 2026-11-16.
 
@@ -1066,12 +1094,15 @@ flowchart LR
 - sour gas field size: 3.2 tcf; Kasawari, Block SK316, about 200 km offshore Bintulu, Sarawak. [source](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs)
 - subsea CO2 pipeline length: 138 km; 16-inch pipeline to depleted M1 field. [source](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/)
 
+**Costs:**
+- capital cost, offshore high-CO2 development with reinjection: 1 USD billion (2025$); Kasawari CCS component for 3.7-4 Mtpa: offshore CO2 platform, 138 km pipeline and injection, about RM4.5bn (~$250/tpa).. [source](https://www.khor-reports.com/blog/2025/9/25/ccus-role-in-the-transition-to-net-zero-1)
+
 **Reference plants:**
 - PETRONAS Kasawari CCS (Block SK316, offshore Sarawak), MY: 3.3 Mtpa CO2; FID 20 October 2022; the Kasawari gas field began production in August 2024, but CO2 injection had not started as of April 2026 — PETRONAS said on 1 April 2026 it is looking to bring the first CO2 injection forward to as early as 2027, from a previous projection of end-2029/early 2030; the 2025 and end-2025 start-up dates cited in earlier sources did not materialise. [source](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027)
 
 **Missing inputs:**
-- capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; Kasawari project capex exists in press but not verifiably per-tonne. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
+- unit capital and operating cost with a primary source (costs): One project figure is recorded (about $1bn for 3.7-4 Mtpa); it comes from secondary commentary, so the unit cost needs a primary operator source. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 - process steps and equipment are general engineering practice, not taken from one source (process): The sources read describe the principle but not a full step-by-step flow. Where: Licensor process descriptions and textbooks (open). Next: Check the steps against a licensor description and name it.
 
-Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/), [3](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027), [4](https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/). Last reviewed 2026-10-28.
+Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/), [3](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027), [4](https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/). Last reviewed 2026-11-16.

@@ -162,7 +162,7 @@
       "note": "UOP Separex membrane elements datasheet, UOP4524-19a, 2016"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "trl",
@@ -176,33 +176,20 @@
         }
       ],
       "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
+    }
+  ],
+  "costs": [
     {
-      "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28; vendor quotes only.",
-      "where": [
-        {
-          "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
-          "source_id": "oxford-oies",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox",
-          "access": "blocked"
-        },
-        {
-          "hint": "Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access",
-          "access": "paid"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "metric": "sweetening cost, two-stage carbon membrane",
+      "unit": "USD per m3 sweet gas",
+      "year": 2017,
+      "low": 0.0112,
+      "high": 0.0112,
+      "basis": "50,000 m3/h, 10% CO2, 90 bar, membrane at $100/m2; the paper's capital-related charge implies about $17.1M capex (roughly $400k per MMSCFD), which is a derivation, not a stated figure.",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6316760/",
+        "note": "PMC paper on carbon membrane CO2 removal, read 2026-11-16"
+      }
     }
   ]
 }

@@ -128,32 +128,8 @@
       "note": "Wikipedia: Thermal energy storage — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; Polar Night Energy has not published plant capex.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    }
-  ],
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Polar Night Energy sand batteries: Kankaanpaeae (Vatajankoski) and Pornainen, Finland",
@@ -165,6 +141,19 @@
         "note": "Evertiq, 1 Jul 2025 (Pornainen 1 MW / 100 MWh, ten times the first unit); Proactive Investors, 5 Jul 2022 (Kankaanpaeae 100 kW / 8 MWh commercial sale); read 2026-10-28"
       },
       "project_id": "polar-night-energy-sand-batteries-kankaanpaeae-vatajankoski-and-pornaine"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "specific capital cost, two-tank molten salt storage",
+      "unit": "USD per kWh-thermal",
+      "low": 30,
+      "high": 40,
+      "basis": "Two-tank molten-salt specific cost at CSP-class sizes; the source does not restate a dollar year (paper from the 2010s). Newer trade estimates put it at $15-25/kWh; dollar year not stated",
+      "source": {
+        "url": "https://www.researchgate.net/publication/223608778_Two-Tank_Molten_Salt_Storage_for_Parabolic_Trough_Solar_Power_Plants",
+        "note": "Two-tank molten salt storage for parabolic trough plants, read 2026-11-16"
+      }
     }
   ]
 }

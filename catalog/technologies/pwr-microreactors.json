@@ -204,29 +204,6 @@
   "last_reviewed": "2026-11-16",
   "gaps": [
     {
-      "field": "costs",
-      "item": "capital cost per kW and electricity price under a build-own-operate contract, with dollar year",
-      "reason_code": "not_in_sources_read",
-      "reason": "Developer pages do not publish prices; Oklo sells power rather than reactors but no figure was read.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: microreactor techno-economic analyses",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "US DOE and Idaho National Laboratory cost studies; DOE sites reachable via energy.gov mirrors",
-          "access": "open"
-        },
-        {
-          "hint": "OSTI.GOV reports; osti.gov is unreachable from this machine",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Find an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "status",
       "item": "licensing and deployment milestones are moving fast",
       "reason_code": "status_unchecked",
@@ -261,5 +238,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Heat-pipe cooled SMRs' TRL 2025 - the guide has no 'microreactor' row; heat-pipe SMR is the closest class and the basis for the number; read 2026-11-16"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "overnight capital cost, microreactor",
+      "unit": "USD per kW",
+      "year": 2023,
+      "low": 8000,
+      "high": 17000,
+      "basis": "Literature synthesis: low $8,000/kW, median $13,000/kW, high $17,000/kW. The extract does not restate a dollar year; the study is 2023.",
+      "source": {
+        "url": "https://gain.inl.gov/content/uploads/4/2024/11/INL-RPT-23-72972-Literature-Review-of-Adv-Reactor-Cost-Estimates.pdf",
+        "note": "INL literature review of advanced reactor cost estimates, read 2026-11-16"
+      }
+    }
+  ]
 }

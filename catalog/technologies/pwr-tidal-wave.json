@@ -95,13 +95,13 @@
       "note": "Wikipedia: Tidal power — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "capital cost per kW",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; MeyGen LCOE estimates vary and no settled open figure found.",
+      "reason": "Only LCOE is published ($120-140/MWh projected at 2 GW); IRENA gives no $/kW because too few devices are built.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -118,7 +118,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     }
   ],
   "reference_plants": [
@@ -143,6 +143,20 @@
         "note": "MeyGen operations summary (91 GWh, 59 MW next phase); nef, 13 Nov 2024 (17.5 GWh annual record); read 2026-10-28"
       },
       "project_id": "meygen-tidal-stream-array-pentland-firth-scotland-sae-renewables"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "levelised cost of electricity, wave and tidal",
+      "unit": "USD per MWh",
+      "year": 2025,
+      "low": 120,
+      "high": 140,
+      "basis": "Projected LCOE at 2 GW deployed: about $120/MWh wave, $140/MWh tidal. IRENA publishes no $/kW because too few devices are commissioned.",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf",
+        "note": "IRENA Renewable Power Generation Costs in 2024, read 2026-11-16"
+      }
     }
   ]
 }

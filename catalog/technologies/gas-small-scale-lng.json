@@ -176,29 +176,6 @@
         }
       ],
       "action": "Add an independent comparison."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; modular-plant prices are quote-only.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     }
   ],
   "trl": {
@@ -208,5 +185,18 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-LNG facilities' TRL 2025; read 2026-11-16"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "capital cost, micro-scale LNG liquefaction",
+      "unit": "USD per tpa (FOB)",
+      "low": 600,
+      "high": 600,
+      "basis": "Micro-scale liquefaction including gas treatment (Galileo Cryobox class, up to about 9 kt/yr). Report undated (2017), so dollar year not stated.",
+      "source": {
+        "url": "https://documents1.worldbank.org/curated/en/099055504182314311/pdf/IDU0b08a7c1704730047b7095640f60da3b94c07.pdf",
+        "note": "World Bank report on small-scale LNG, read 2026-11-16"
+      }
+    }
+  ]
 }

@@ -190,6 +190,18 @@
         "source_id": "iea-reports",
         "note": "IEA commentary 'Is carbon capture too expensive?', read 2026-11-08"
       }
+    },
+    {
+      "metric": "CO2 capture cost, amine post-combustion on NGCC",
+      "unit": "USD per t CO2 captured",
+      "year": 2022,
+      "low": 61,
+      "high": 61,
+      "basis": "F-class NGCC at 90% capture, NETL updated baseline, down from $80/t in the earlier estimate.",
+      "source": {
+        "url": "https://netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_071522.pdf",
+        "note": "NETL cost of capturing CO2 from industrial sources (2022), read 2026-11-16"
+      }
     }
   ],
   "suppliers": [
@@ -342,6 +354,6 @@
       "note": "NETL, Cost and Performance Baseline for Fossil Energy Plants Vol 1, Rev 4, DOE/NETL-2023/4320, Oct 2022, Exhibits ES-7/ES-8 (pp. 15-16); full text in corpus/netl/"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": []
 }

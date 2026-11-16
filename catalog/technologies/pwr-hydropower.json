@@ -104,6 +104,18 @@
       },
       "low": 6574,
       "high": 8611
+    },
+    {
+      "metric": "overnight capital cost, hydropower",
+      "unit": "USD per kW",
+      "year": 2023,
+      "low": 3045,
+      "high": 20043,
+      "basis": "NREL ATB 2025 base year 2022 plant: new planned development $3,045-20,043/kW, new site development $6,574-8,611/kW. EIA cross-check $7,073/kW for 100 MW new stream-reach. Both in 2023 USD, which answers the dollar-year question in the gap.",
+      "source": {
+        "url": "https://atb.nrel.gov/electricity/2025/hydropower",
+        "note": "NREL Annual Technology Baseline 2025, hydropower, read 2026-11-16"
+      }
     }
   ],
   "trl": {
@@ -138,23 +150,8 @@
       "note": "Wikipedia: Hydropower — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "dollar year for the ATB hydropower costs",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page does not state the dollar year. Web-checked 2026-10-28: the ATB is published at atb.nrel.gov, which is network-blocked from this machine; dollar year to be confirmed from an NREL mirror.",
-      "where": [
-        {
-          "hint": "NREL ATB documentation",
-          "access": "open",
-          "source_id": "nrel"
-        }
-      ],
-      "action": "Confirm the dollar year and add it to the figure."
-    }
-  ],
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Bakun Hydroelectric Plant, Sarawak, Malaysia (Sarawak Energy)",

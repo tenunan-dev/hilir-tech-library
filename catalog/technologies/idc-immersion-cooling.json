@@ -126,10 +126,10 @@
     },
     {
       "field": "costs",
-      "item": "capital cost per kW of immersion capacity and fluid top-up cost, with dollar year",
+      "item": "fluid top-up cost (capital is now recorded)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read prices immersion systems or fluid.",
-      "action": "Add capital and fluid cost from a vendor quote.",
+      "reason": "Installed capital is recorded ($4,500-6,800/kW IT, vendor figures); the annual fluid top-up cost was not found.",
+      "action": "Leave open until a source states this metric and scope.",
       "where": [
         {
           "hint": "Vendor budget quotes"
@@ -150,5 +150,19 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-16",
+  "costs": [
+    {
+      "metric": "installed capital cost, single-phase immersion",
+      "unit": "USD per kW of IT load",
+      "year": 2026,
+      "low": 4500,
+      "high": 6800,
+      "basis": "Tanks, fluid, pumping and heat rejection; vendor-site figures (capital intensity $3,500-6,500/kW), order-of-magnitude only.",
+      "source": {
+        "url": "https://energy-solutions.co/articles/sub/data-center-cooling-liquid-immersion-vs-air",
+        "note": "Vendor comparison of immersion and air cooling, read 2026-11-16"
+      }
+    }
+  ]
 }

@@ -173,9 +173,9 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "capital cost for a natural-gas physical-solvent AGR unit",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only (NETL Selexol case costs already recorded in Wave 1).",
+      "reason": "Only a pre-combustion IGCC capture cost is published ($27-31/t, 2022); it is recorded with that scope warning, but no natural-gas AGR figure exists.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -192,7 +192,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "process",
@@ -215,5 +215,19 @@
       "url": "https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv",
       "note": "IEA ETP Clean Energy Technology Guide public dataset, row 'Advanced acid gas removal' TRL 2025; read 2026-11-16"
     }
-  }
+  },
+  "costs": [
+    {
+      "metric": "cost of CO2 capture, physical solvent (Selexol)",
+      "unit": "USD per t CO2 captured",
+      "year": 2022,
+      "low": 27,
+      "high": 31,
+      "basis": "NETL sensitivity for pre-combustion/IGCC capture - NOT natural-gas AGR, so the scope does not match this card.",
+      "source": {
+        "url": "https://www.netl.doe.gov/projects/files/ReviewofTechnoEconomicAnalysisStudiesUsingPhysicalSolventsforPreCombustionCO2Capture_092122.pdf",
+        "note": "NETL review of physical-solvent TEA studies, read 2026-11-16"
+      }
+    }
+  ]
 }

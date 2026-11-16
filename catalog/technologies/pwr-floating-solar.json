@@ -117,7 +117,7 @@
       "note": "Wikipedia: Floating solar — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "performance",
@@ -132,29 +132,6 @@
         }
       ],
       "action": "Add a 2024 or 2025 capacity figure."
-    },
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open $/W or $/MWh figure found.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
     }
   ],
   "reference_plants": [
@@ -168,6 +145,20 @@
         "note": "TaiyangNews, 27 Sep 2023 (read 2026-10-28)"
       },
       "project_id": "cirata-floating-solar-pv-plant-west-java-indonesia"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "total capital cost, floating PV",
+      "unit": "USD per Wp",
+      "year": 2022,
+      "low": 1.18,
+      "high": 1.18,
+      "basis": "Median of reported projects (about 1,180 USD/kWp); 30 projects sit below 1.00 USD/W. Total capex, not overnight.",
+      "source": {
+        "url": "https://iea-pvps.org/wp-content/uploads/2025/04/IEA-PVPS-T13-31-2025-REPORT-Floating-PV-Plants.pdf",
+        "note": "IEA-PVPS T13-31:2025 floating PV report, read 2026-11-16"
+      }
     }
   ]
 }

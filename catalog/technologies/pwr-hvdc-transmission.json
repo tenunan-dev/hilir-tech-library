@@ -91,32 +91,8 @@
       "note": "Wikipedia: High-voltage direct current — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
-  "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    }
-  ],
+  "last_reviewed": "2026-11-16",
+  "gaps": [],
   "performance": [
     {
       "metric": "world-record UHVDC voltage and capacity (Changji-Guquan, China)",
@@ -142,6 +118,20 @@
         "note": "POWER Magazine (ABB press release): world's first 1,100 kV UHVDC link, orders over USD 300 m; read 2026-10-28"
       },
       "project_id": "changji-guquan-1-100-kv-uhvdc-link-china-sgcc"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost, HVDC transmission line",
+      "unit": "USD million per km",
+      "year": 2010,
+      "low": 0.3,
+      "high": 0.34,
+      "basis": "Line only - converter stations excluded, and no per-MW figure is separable; average about $0.30M/km, example $275M for an 805 km line.",
+      "source": {
+        "url": "https://documents1.worldbank.org/curated/en/099040926152055780/pdf/P506480-a2f4b5e4-cca9-437b-b33d-38293adae0e7.pdf",
+        "note": "World Bank, Understanding the Cost of Transmission, read 2026-11-16"
+      }
     }
   ]
 }

@@ -144,9 +144,9 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "capital and operating cost with a primary source",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28: US station costs (fast-fill about USD 400k; large stations USD 0.6-1.7 m) exist in industry PDFs but without a citable primary; named plants n/a.",
+      "reason": "A market-report range is recorded ($0.4-2.0M per station); no project-level cost was found.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -163,7 +163,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     }
   ],
   "trl": {
@@ -186,6 +186,20 @@
       },
       "project_id": "rolande-ulm-cng-lng-station",
       "year": 2020
+    }
+  ],
+  "costs": [
+    {
+      "metric": "capital cost, fast-fill CNG station",
+      "unit": "USD million per station",
+      "year": 2026,
+      "low": 0.4,
+      "high": 2.0,
+      "basis": "Compression, storage and dispensing; market-report range, not a project cost.",
+      "source": {
+        "url": "https://www.mordorintelligence.com/industry-reports/cng-compressor-market",
+        "note": "Mordor Intelligence CNG compressor market report, read 2026-11-16"
+      }
     }
   ]
 }

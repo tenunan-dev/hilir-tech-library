@@ -170,31 +170,8 @@
       "note": "Turbomachinery Magazine, GE Vernova delivers two LM6000 for QPM Isaac Power Station, 23 Oct 2025"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
-    {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; OEM quotes only.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
     {
       "field": "trl",
       "item": "TRL with a cited source",
@@ -234,6 +211,20 @@
         "note": "Turbomachinery Magazine, 23 Oct 2025 (read 2026-10-28); also GE Aerospace press: three LM6000-PF Sprint units at 46 MW each for Sakhalin Energy"
       },
       "project_id": "qpm-isaac-power-station-aeroderivative-units-queensland"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "overnight capital cost, aeroderivative simple cycle",
+      "unit": "USD per kW",
+      "year": 2023,
+      "low": 1606,
+      "high": 1606,
+      "basis": "4 x 54 MW aeroderivative units, 211 MW net, overnight capital excluding financing.",
+      "source": {
+        "url": "https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf",
+        "note": "EIA capital cost study (AEO2025), Table 1-2, read 2026-11-16"
+      }
     }
   ]
 }

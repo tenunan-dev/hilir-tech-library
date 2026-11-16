@@ -106,29 +106,6 @@
       "action": "Add post-2020 pilot data."
     },
     {
-      "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Licensor and EPC studies; paid cost databases are catalog-only",
-          "access": "paid"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
       "field": "process",
       "item": "process steps and equipment are general engineering practice, not taken from one source",
       "reason_code": "general_knowledge_only",
@@ -154,6 +131,20 @@
       },
       "project_id": "ocochem-carbon-flux-pilot",
       "year": 2025
+    }
+  ],
+  "costs": [
+    {
+      "metric": "levelised production cost, CO2 electroreduction products",
+      "unit": "EUR per kg product",
+      "year": 2023,
+      "low": 3.7,
+      "high": 60,
+      "basis": "Low-temperature CO2 electrolysis at 4,000 full-load hours: CO 5.1 EUR/kg, formate 3.7, ethylene 60. Investment is over 60% of the levelised cost. Per kg of product, not per tonne of CO2.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2023-03%20Techno-Economic%20Assessment%20of%20Electrochemical%20CO2%20Conversion%20Technologies.pdf",
+        "note": "IEAGHG techno-economic assessment of electrochemical CO2 conversion, read 2026-11-16"
+      }
     }
   ]
 }

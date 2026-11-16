@@ -121,13 +121,13 @@
       "note": "CI4C partners press release, 8 July 2026: world's first industrial-scale pure oxyfuel facility inaugurated at Mergelstetten"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "item": "capture cost for an oxyfuel cement plant",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Searched the 11 NETL corpus docs for 'oxyfuel', 'oxy-fuel', 'oxy-combustion'; NETL's cement capture cases (Cost of Capturing CO2 from Industrial Sources 2022; Heidelberg Mitchell FEED in the 2024 Compendium) use Shell Cansolv / MHI amine, not oxyfuel. Web-checked 2026-10-28; catch4climate project costs not published.",
+      "reason": "Only coal oxy-combustion is published ($79.3/t, about 2013); no cement-specific oxyfuel cost was found, so the coal figure is recorded with that scope warning.",
       "where": [
         {
           "hint": "NETL Cost and Performance Baseline for Fossil Energy Plants, Rev 4a, and other NETL cost studies",
@@ -145,7 +145,7 @@
           "access": "open"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "performance",
@@ -191,6 +191,20 @@
       "source": {
         "url": "https://clic.psi.ch/datasets/carbon-dioxide-captured-at-cement-production-plant-using-oxyfuel",
         "note": "PSI LCA dataset entry, cement oxyfuel capture (read 2026-10-28)"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "CO2 capture cost, coal oxy-combustion",
+      "unit": "USD per t CO2 captured",
+      "year": 2013,
+      "low": 79.3,
+      "high": 79.3,
+      "basis": "Coal oxy-combustion benchmarked against Alstom LCL (Marion 2013) - NOT a cement plant, so the scope does not match this card.",
+      "source": {
+        "url": "https://ieaghg.org/publications/2014-TR4%20Assessment%20of%20emerging%20CO2%20capture%20technologies%20and%20their%20potential%20to%20reduce%20costs.pdf",
+        "note": "IEAGHG TR4 assessment of emerging capture technologies, read 2026-11-16"
       }
     }
   ]

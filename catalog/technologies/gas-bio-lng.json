@@ -97,13 +97,13 @@
       "note": "Natural Gas World, Shell inaugurates Germany's largest bio-LNG production plant, 19 April 2024"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "capital and operating cost per tonne of bio-LNG",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures.",
+      "reason": "A project cost without a stated capacity is recorded; a per-tonne figure cannot be formed from it.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -120,7 +120,7 @@
           "source_id": "osti"
         }
       ],
-      "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states this metric and scope."
     },
     {
       "field": "trl",
@@ -172,6 +172,19 @@
         "note": "Bright Renewables, 29 Oct 2025 (read 2026-10-28)"
       },
       "project_id": "vireo-hardanger-bio-lng-plant-norway-bright-renewables-nordsol"
+    }
+  ],
+  "costs": [
+    {
+      "metric": "project cost, farm-based bio-LNG plant",
+      "unit": "EUR million",
+      "low": 2.5,
+      "high": 2.5,
+      "basis": "Greenville liquid biomethane plant; the capacity of the plant is not stated on the page, so this is a single unverifiable data point.",
+      "source": {
+        "url": "https://www.frenchrenewableenergy.com/project-details/greenville-bio-lng-plant-346",
+        "note": "French Renewable Energy project page, read 2026-11-16"
+      }
     }
   ]
 }

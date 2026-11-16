@@ -130,10 +130,10 @@
     },
     {
       "field": "costs",
-      "item": "cost per MW of solar and per kWh of battery installed, with dollar year",
+      "item": "cost per MW of solar (the battery figure is now recorded)",
       "reason_code": "not_in_sources_read",
-      "reason": "No source read prices on-site solar or storage.",
-      "action": "Add installed costs from a project disclosure.",
+      "reason": "Battery cost is recorded ($709/kWh, 2023); a separate PV $/MW for a campus deployment was not on the page.",
+      "action": "Leave open until a source states this metric and scope.",
       "where": [
         {
           "hint": "IEA and LBNL cost benchmarks"
@@ -166,6 +166,20 @@
       },
       "project_id": "gw-ranch-campus",
       "year": 2026
+    }
+  ],
+  "costs": [
+    {
+      "metric": "installed cost, battery storage in a PV+battery hybrid",
+      "unit": "USD per kWh",
+      "year": 2023,
+      "low": 709,
+      "high": 709,
+      "basis": "LBNL Utility-Scale Solar 2023: batteries are 51% of hybrid installed cost at about $709/kWh. The PV $/MW component is not separately stated on the page read.",
+      "source": {
+        "url": "https://emp.lbl.gov/sites/default/files/emp-files/utility_scale_solar_2023_edition_slides.pdf",
+        "note": "LBNL Utility-Scale Solar 2023 edition, read 2026-11-16"
+      }
     }
   ]
 }
