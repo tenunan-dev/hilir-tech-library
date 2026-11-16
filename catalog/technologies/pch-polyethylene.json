@@ -79,6 +79,17 @@
       "low": 800000,
       "high": 800000,
       "year": 2025
+    },
+    {
+      "metric": "cradle-to-gate CO2 for HDPE resin",
+      "unit": "kg CO2e per tonne",
+      "basis": "US average 1,320 kg CO2 per tonne of HDPE (down from 1,465 in 2010) and 73.8 GJ per tonne.",
+      "source": {
+        "url": "https://plasticmakers.org/wp-content/uploads/2022/09/A-Decreasing-Footprint-LCI-HDPE-LDPE-LLDPE-PP-1.pdf",
+        "note": "American Chemistry Council / Franklin Associates, resin LCAs (2020 data), read 2026-11-17"
+      },
+      "low": 1320,
+      "high": 1320
     }
   ],
   "suppliers": [
@@ -161,25 +172,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "performance",
-      "item": "energy and CO2 per tonne of polyethylene (polymerisation only and including ethylene)",
-      "reason_code": "not_in_sources_read",
-      "reason": "None of the sources read gives it.",
-      "where": [
-        {
-          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Add energy use and CO2 with system boundary stated."
     }
   ],
   "sources": [
@@ -189,5 +181,5 @@
       "note": "Hydrocarbon Processing, 12 May 2025"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-11-17"
 }

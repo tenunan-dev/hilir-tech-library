@@ -73,21 +73,8 @@
       "note": "Wikipedia, Safety instrumented system, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "SIL levels and probability of failure on demand values",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not on the page read. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "IEC 61511 and exida handbook summaries",
-          "access": "paid"
-        }
-      ],
-      "action": "Add SIL bands with source."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -137,6 +124,19 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "PFDavg band for SIL 2, low demand",
+      "unit": "PFDavg",
+      "basis": "Low-demand SIL bands: SIL 4 1e-5 to <1e-4, SIL 3 1e-4 to <1e-3, SIL 2 1e-3 to <1e-2, SIL 1 1e-2 to <1e-1.",
+      "source": {
+        "url": "https://portal.endress.com/wa001/dla/5000639/2936/000/01/CP01008Z11EN_0313_SIL-Brochure_X4_.pdf",
+        "note": "Endress+Hauser SIL brochure (IEC 61508/61511), read 2026-11-17"
+      },
+      "low": 0.001,
+      "high": 0.01
     }
   ]
 }

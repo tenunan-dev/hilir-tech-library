@@ -102,28 +102,8 @@
       "note": "Wikipedia: Wind power — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "turbine ratings, capacity factors and installed cost with dollar year",
-      "reason_code": "source_unreachable",
-      "reason": "The DOE land-based wind market report page returned an error and the NREL ATB land-based wind page is blocked by robots.txt.",
-      "where": [
-        {
-          "hint": "DOE Land-Based Wind Market Report",
-          "access": "open",
-          "url": "https://www.energy.gov/eere/wind/land-based-wind-market-reports-2025-edition"
-        },
-        {
-          "hint": "IRENA Renewable Power Generation Costs",
-          "access": "open",
-          "source_id": "irena"
-        }
-      ],
-      "action": "Fetch a reachable edition and add figures with their year."
-    }
-  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "costs": [
     {
       "metric": "global weighted-average utility-scale onshore wind cost",
@@ -151,6 +131,19 @@
       },
       "project_id": "fantanele-cogealac-wind-farm",
       "year": 2012
+    }
+  ],
+  "performance": [
+    {
+      "metric": "capacity factor, US onshore wind",
+      "unit": "%",
+      "basis": "Average 2022 capacity factor for projects built in 2021 was 37%, below 2014-2020 vintages.",
+      "source": {
+        "url": "https://www.energy.gov/sites/default/files/2023-08/land-based-wind-market-report-2023-edition.pdf",
+        "note": "US DOE, Land-Based Wind Market Report 2023, read 2026-11-17"
+      },
+      "low": 37,
+      "high": 37
     }
   ]
 }

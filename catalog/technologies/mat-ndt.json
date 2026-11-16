@@ -78,19 +78,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "probability of detection figures",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page points to ASTM E2862 and MIL-HDBK-1823A but gives no values. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "ASTM E2862 summary",
-          "access": "open"
-        }
-      ],
-      "action": "Add values if open."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -141,5 +128,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Republished ASME Section V panel papers document the code's NDE methods and what each examination entails - radiographic (Articles 2 and 3), ultrasonic, liquid penetrant, magnetic particle, eddy current, visual and leak testing - including procedure and personnel qualification, calibration and reporting."
+  "notes": "Process provenance: Republished ASME Section V panel papers document the code's NDE methods and what each examination entails - radiographic (Articles 2 and 3), ultrasonic, liquid penetrant, magnetic particle, eddy current, visual and leak testing - including procedure and personnel qualification, calibration and reporting.",
+  "performance": [
+    {
+      "metric": "probability of detection, phased-array ultrasonic testing",
+      "unit": "% POD at 4.21 mm flaw length",
+      "basis": "Round-robin on real cracks: 80% POD at 4.21 mm length and 1.41 mm height (a80), reported separately for length and depth.",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10649133/",
+        "note": "Kang et al., reliability of phased-array UT, round-robin (2023), read 2026-11-17"
+      },
+      "low": 80,
+      "high": 80
+    }
+  ]
 }

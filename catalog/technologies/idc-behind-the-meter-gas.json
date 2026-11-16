@@ -1,29 +1,52 @@
 {
   "id": "idc-behind-the-meter-gas",
   "name": "Behind-the-meter gas generation for data centres",
-  "aliases": ["BTM gas power for data centres", "onsite gas generation for data centres"],
+  "aliases": [
+    "BTM gas power for data centres",
+    "onsite gas generation for data centres"
+  ],
   "sector": "IDC",
   "category": "Power supply",
-  "applications": ["hyperscale AI campuses", "co-located power foundries", "grid-constrained sites", "bridge power before grid interconnection"],
+  "applications": [
+    "hyperscale AI campuses",
+    "co-located power foundries",
+    "grid-constrained sites",
+    "bridge power before grid interconnection"
+  ],
   "maturity": "commercial",
   "principle": "Data centres site gas turbines or large reciprocating gensets on their own side of the meter to escape multi-year grid-interconnection queues and hedge power-price volatility. GE Vernova markets configurations from a 20-30 MW aeroderivative unit up to 3 GW campuses, with mobile TM2500 units installable in about 14 days and heavy-duty 7HA.03 units at 430 MW; the Chevron/Engine No.1/GE Vernova 'power foundry' programme targets 4 GW of co-located capacity by 2027. Caterpillar restarted 10 MW-class genset production and is investing USD 725 million to expand large-engine capacity for data-centre demand.",
   "process_steps": [
     {
       "id": "FUEL",
       "name": "Gas supply contracted and delivered",
-      "equipment": ["gas supply agreement", "gas conditioning skid"],
-      "to": ["GEN"]
+      "equipment": [
+        "gas supply agreement",
+        "gas conditioning skid"
+      ],
+      "to": [
+        "GEN"
+      ]
     },
     {
       "id": "GEN",
       "name": "Onsite turbines or gensets generate",
-      "equipment": ["aeroderivative turbines (LM6000, TM2500 mobile)", "heavy-duty gas turbines (7HA/9HA)", "reciprocating gensets (10 MW class)"],
-      "to": ["DIST"]
+      "equipment": [
+        "aeroderivative turbines (LM6000, TM2500 mobile)",
+        "heavy-duty gas turbines (7HA/9HA)",
+        "reciprocating gensets (10 MW class)"
+      ],
+      "to": [
+        "DIST"
+      ]
     },
     {
       "id": "DIST",
       "name": "Private distribution feeds the campus",
-      "equipment": ["MV switchgear", "on-site substations", "battery hybrid for backup"],
+      "equipment": [
+        "MV switchgear",
+        "on-site substations",
+        "battery hybrid for backup"
+      ],
       "to": []
     }
   ],
@@ -85,6 +108,17 @@
         "note": "Behind-the-meter data-centre power research tracker, read via search summary 2026-11-12"
       },
       "year": 2025
+    },
+    {
+      "metric": "fleet heat rate, simple-cycle gas turbines",
+      "unit": "Btu/kWh",
+      "basis": "US simple-cycle fleet average about 10,000 Btu/kWh against 7,146 Btu/kWh for combined cycle - the benchmark for BTM simple-cycle data-centre plants.",
+      "source": {
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=52158",
+        "note": "US EIA, Today in Energy, read 2026-11-17"
+      },
+      "low": 10000,
+      "high": 10000
     }
   ],
   "advantages": [
@@ -108,7 +142,7 @@
       "note": "Chevron newsroom (28 January 2025): Engine No.1/Chevron/GE Vernova power-foundry partnership for co-located data centres, read via search summary 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-12",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -122,19 +156,6 @@
         }
       ],
       "action": "Add cost figures with dollar year and basis."
-    },
-    {
-      "field": "performance",
-      "item": "fleet efficiency (heat rate) for BTM configurations",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated on the pages read.",
-      "where": [
-        {
-          "hint": "GE Vernova turbine spec sheets (GER-3567 etc.)",
-          "access": "open"
-        }
-      ],
-      "action": "Add heat rates per turbine class."
     }
   ],
   "reference_plants": [],

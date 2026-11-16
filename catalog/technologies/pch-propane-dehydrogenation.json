@@ -136,6 +136,17 @@
         "url": "https://www.scribd.com/document/460716966/4244-Article-Text-12672-1-10-20180730",
         "note": "PDH technology review article (2018) (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "total energy requirement, propane dehydrogenation",
+      "unit": "GJ per tonne propylene",
+      "basis": "PDH total energy 10.35 GJ per tonne of propylene (1.843 kWh/t electricity); 11.84 GJ per tonne of propane feed is also quoted. PDH selectivity about 90%.",
+      "source": {
+        "url": "https://epocbelgium.be/sites/epoc/files/Propylene_FactSheet_ShortVersion_TaliehRajabloo.pdf",
+        "note": "EPOC, propylene fact sheet (2021), read 2026-11-17"
+      },
+      "low": 10.35,
+      "high": 10.35
     }
   ],
   "suppliers": [
@@ -218,25 +229,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "performance",
-      "item": "propylene yield, selectivity and energy use per tonne of propylene",
-      "reason_code": "not_in_sources_read",
-      "reason": "The release read gives capacity only. Per-pass conversions recorded in performance (~50% CATOFIN / ~40% Oleflex); selectivity and energy figures remain in licensor literature, 2026-10-28.",
-      "where": [
-        {
-          "hint": "UOP and Lummus process brochures",
-          "access": "open",
-          "source_id": "honeywell-uop"
-        },
-        {
-          "hint": "Open techno-economic papers on PDH",
-          "access": "open",
-          "source_id": "arxiv"
-        }
-      ],
-      "action": "Add yield, selectivity and energy use with basis and source."
     }
   ],
   "sources": [
@@ -246,5 +238,5 @@
       "note": "Honeywell news release, 9 November 2020"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-11-17"
 }

@@ -96,6 +96,17 @@
       },
       "low": 120,
       "high": 120
+    },
+    {
+      "metric": "minimum detectable leak rate, fibre-optic DAS",
+      "unit": "% of pipeline flow",
+      "basis": "DN100 gas test line, 1-8 mm pinholes at 5-25 bar: leaks down to 0.1% of flow detected and located using 30 s spectral averaging.",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6164018/",
+        "note": "Stajanca et al., distributed acoustic sensing (Sensors 2018), read 2026-11-17"
+      },
+      "low": 0.1,
+      "high": 0.1
     }
   ],
   "advantages": [
@@ -118,24 +129,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "minimum detectable leak size and response time",
-      "reason_code": "not_in_sources_read",
-      "reason": "The vendor article gives no numbers. Web-checked 2026-10-28: API 1130 CPM thresholds (about 1% of flow) circulate in vendor material; no verifiable open table found.",
-      "where": [
-        {
-          "hint": "API RP 1130 and API RP 1175 summaries",
-          "access": "open"
-        },
-        {
-          "hint": "PHMSA leak detection study",
-          "access": "open",
-          "source_id": "phmsa"
-        }
-      ],
-      "action": "Add thresholds from an independent study."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -82,21 +82,8 @@
       "note": "Wikipedia, Pinch analysis, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "typical energy savings reported by pinch studies",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page read gives no savings figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "IEA, DOE industrial assessment centre and CanmetENERGY case studies",
-          "access": "open"
-        }
-      ],
-      "action": "Add savings with plant type and year from a case study."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -146,6 +133,19 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "energy savings from pinch analysis",
+      "unit": "% (up to)",
+      "basis": "Up to 25% saving depending on the starting point, applied to refinery and process heat recovery; also reduces furnace, boiler and cooling-tower size in new designs.",
+      "source": {
+        "url": "https://www.ipieca.org/resources/energy-efficiency-compendium/pinch-analysis-2022",
+        "note": "Ipieca, Pinch analysis (Energy Efficiency Compendium 2022), read 2026-11-17"
+      },
+      "low": 25,
+      "high": 25
     }
   ]
 }

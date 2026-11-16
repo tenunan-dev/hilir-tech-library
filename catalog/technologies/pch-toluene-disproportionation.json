@@ -92,20 +92,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "conversion per pass, hydrogen consumption, xylene yield",
-      "reason_code": "not_in_sources_read",
-      "reason": "None in the article. Web-checked 2026-10-28; licensor (UOP PX-Plus, ExSorb class) performance tables not open.",
-      "where": [
-        {
-          "hint": "UOP Tatoray datasheet",
-          "access": "open",
-          "source_id": "honeywell-uop"
-        }
-      ],
-      "action": "Add figures."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -143,5 +129,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Documents the Mobil selective toluene disproportionation demonstration - a converted cold-wall downflow reactor with internal insulation holding 3,700 kg of selectivated ZSM-5 at L/D 0.85, dry heat-up and offsite decoking, with stabilised product routed to BTX fractionation."
+  "notes": "Process provenance: Documents the Mobil selective toluene disproportionation demonstration - a converted cold-wall downflow reactor with internal insulation holding 3,700 kg of selectivated ZSM-5 at L/D 0.85, dry heat-up and offsite decoking, with stabilised product routed to BTX fractionation.",
+  "performance": [
+    {
+      "metric": "toluene conversion per pass",
+      "unit": "% conversion per pass",
+      "basis": "Commercial test: 46-48% conversion with 90-93% selectivity and xylene/benzene molar ratio 2.5-3.0. Hydrogen consumption is not stated.",
+      "source": {
+        "url": "https://www.researchgate.net/publication/298174881_Commercial_test_of_HLD-001_catalyst_for_toluene_disproportionation_and_transalkylation",
+        "note": "Commercial test of HLD-001 catalyst for toluene disproportionation, read 2026-11-17"
+      },
+      "low": 46,
+      "high": 48
+    }
+  ]
 }

@@ -144,6 +144,17 @@
         "source_id": "iea-reports",
         "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
       }
+    },
+    {
+      "metric": "inference share of data-centre electricity demand",
+      "unit": "% of demand",
+      "basis": "McKinsey puts AI inference above 40% and training just under 30% of 2025 data-centre demand (82.3 GW total).",
+      "source": {
+        "url": "https://www.mckinsey.com/featured-insights/charts/the-future-of-ai-workloads",
+        "note": "McKinsey & Company, the future of AI workloads, read 2026-11-17"
+      },
+      "low": 40,
+      "high": 40
     }
   ],
   "advantages": [
@@ -170,21 +181,6 @@
   ],
   "gaps": [
     {
-      "field": "performance",
-      "item": "training versus inference share of data centre electricity demand, with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA Energy and AI pages read state data-centre-level demand and segment shares but give no training-versus-inference split.",
-      "action": "Add a sourced split, or record that no open source disaggregates it.",
-      "where": [
-        {
-          "hint": "Hyperscaler sustainability or energy reports that disclose workload mix"
-        },
-        {
-          "hint": "Peer-reviewed measurements of inference versus training energy"
-        }
-      ]
-    },
-    {
       "field": "costs",
       "item": "measured IT load per rack (kW) by accelerator generation",
       "reason_code": "not_in_sources_read",
@@ -210,7 +206,7 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "costs": [
     {
       "metric": "IT equipment cost per kW of AI capacity",

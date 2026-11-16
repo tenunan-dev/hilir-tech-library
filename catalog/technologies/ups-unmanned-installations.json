@@ -79,29 +79,6 @@
       "action": "Add a saving with source."
     },
     {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. Web-checked 2026-10-28; no open KPI set for NUI operations found.",
-      "where": [
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
-    {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",
       "reason_code": "not_in_sources_read",
@@ -129,5 +106,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Documents the NUI/UWP operating model - minimum facilities on a shallow-water platform, production piped to a manned installation or shore, remote operation, and visits only for inspection and planned maintenance."
+  "notes": "Process provenance: Documents the NUI/UWP operating model - minimum facilities on a shallow-water platform, production piped to a manned installation or shore, remote operation, and visits only for inspection and planned maintenance.",
+  "performance": [
+    {
+      "metric": "capex reduction for a fully unmanned platform",
+      "unit": "% of capex",
+      "basis": "Equinor stated 30% lower capex and 50% lower opex than a traditional concept for the fully unmanned Oseberg H.",
+      "source": {
+        "url": "https://www.offshore-technology.com/features/inside-the-first-fully-automated-offshore-platform",
+        "note": "Offshore Technology, Equinor Oseberg H (2019), read 2026-11-17"
+      },
+      "low": 30,
+      "high": 30
+    }
+  ]
 }

@@ -90,6 +90,17 @@
         "url": "https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling",
         "note": "Vertiv, How rear door heat exchangers (RDHx) support high-density rack cooling, read 2026-11-14"
       }
+    },
+    {
+      "metric": "cooling capacity per rear door",
+      "unit": "kW/door",
+      "basis": "78 kW at 14 C water and 24 C air, falling to 44 kW at 24 C water and 27 C air; 12 fans and a 200 kPa water-side drop at 6 m3/h.",
+      "source": {
+        "url": "https://www.nvent.com/sites/default/files/dam//schroff-spec-n00647-rdhxpro-en.pdf",
+        "note": "nVent Schroff RDHX PRO datasheet, read 2026-11-17"
+      },
+      "low": 44,
+      "high": 78
     }
   ],
   "advantages": [
@@ -109,18 +120,6 @@
     }
   ],
   "gaps": [
-    {
-      "field": "performance",
-      "item": "cooling capacity per door in kW and the air-side pressure drop",
-      "reason_code": "not_in_sources_read",
-      "reason": "The article read gives the supported rack-density range but no per-door kW capacity or pressure drop.",
-      "action": "Read a datasheet and record capacity and pressure drop.",
-      "where": [
-        {
-          "hint": "Vertiv and nVent rear-door heat exchanger datasheets"
-        }
-      ]
-    },
     {
       "field": "costs",
       "item": "cost per rear-door unit by capacity",
@@ -147,7 +146,7 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "costs": [
     {
       "metric": "installed cost, rear-door heat exchanger",

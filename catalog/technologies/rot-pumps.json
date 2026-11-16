@@ -82,6 +82,17 @@
       },
       "low": 150,
       "high": 150
+    },
+    {
+      "metric": "best-efficiency-point efficiency",
+      "unit": "%",
+      "basis": "80% for a 36 m3/h pump at ns 30 and about 87% at 180 m3/h; 91% or more for large pumps at optimum specific speed.",
+      "source": {
+        "url": "https://www.pumpsandsystems.com/article/what-really-determines-centrifugal-pump-efficiency",
+        "note": "Pumps & Systems, determinants of centrifugal pump efficiency, read 2026-11-17"
+      },
+      "low": 80,
+      "high": 91
     }
   ],
   "advantages": [],
@@ -100,21 +111,8 @@
       "note": "Wikipedia: Pump — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "pump efficiency, head and flow by type",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated on the page. Web-checked 2026-10-28; pump selection curves are vendor-selector material.",
-      "where": [
-        {
-          "hint": "Hydraulic Institute and OEM catalogues",
-          "access": "open"
-        }
-      ],
-      "action": "Add ranges per pump class."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

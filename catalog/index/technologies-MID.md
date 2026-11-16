@@ -76,16 +76,16 @@ flowchart LR
 **Performance:**
 - ICCP source rating for a pipeline: 50 A and V (up to); depends on size and coating quality. [source](https://en.wikipedia.org/wiki/Cathodic_protection)
 - cathodic protection criterion for buried steel pipelines: -850 mV vs copper/copper-sulfate electrode (CSE), polarised potential; the standard criterion of -850 mV vs CSE "can provide full protection for a buried API 5L" steel per NACE/AMPP SP0169 practice (critical-review paper: "the optimum potential is -850 mV for both steels"); SP0169 also allows a 100 mV cathodic-polarisation criterion and bounds overprotection near -1150 mV; FBE/3LPE coating property tables were not captured this pass. [source](https://www.researchgate.net/publication/256689812_Cathodic_protection_criteria_of_thermally_insulated_pipeline_buried_in_soil)
+- cathodic protection criterion, pipe-to-soil potential: -850 mV vs Cu/CuSO4; SP0169 -850 mV CSE criterion for buried carbon steel; the standard also allows a 100 mV polarisation criterion and bounds over-protection near -1150 mV. Coating property tables were not captured.. [source](https://www.researchgate.net/publication/256689812_Cathodic_protection_criteria_of_thermally_insulated_pipeline_buried_in_soil)
 
 **Reference plants:**
 - Trans Mountain Expansion, Canada: coating and cathodic protection scope; pipeline design 890,000 b/d; in service 2024. [source](https://www.sealforlife.com/case-studies/the-trans-mountain-expansion-project)
 
 **Missing inputs:**
-- protection criterion (for example -850 mV CSE) and FBE/3LPE properties (performance): The Wikipedia page does not state them. Protection criterion recorded in performance (-850 mV CSE); FBE/3LPE property tables remain in coating-vendor literature, 2026-10-28. Where: AMPP SP0169 and ISO 15589-1 (catalog: ampp-standards, open). Next: Add the criterion with its standard.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Cathodic_protection). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Cathodic_protection). Last reviewed 2026-11-17.
 
 ## Composite and reinforced thermoplastic pipe
 <a id="mid-composite-reinforced-thermoplastic-pipe"></a>
@@ -103,11 +103,13 @@ flowchart LR
 
 **Key equipment:** thermoplastic liner, fibre reinforcement, end fittings, reel and installation spread.
 
+**Performance:**
+- maximum design pressure, reinforced thermoplastic pipe: 450 bar; Up to 450 bar (6,527 psi) design pressure, service to 85 C (105 C for the high-temperature grade). Diameter range not stated on the page read.. [source](https://www.soluforce.com/product-overview/what-is-an-fcp-rtp.html)
+
 **Reference plants:**
 - Hawtah field reinforced thermoplastic pipe flowlines (Saudi Aramco), Saudi Arabia: 3 x 4-in RTP, 3,072-8,500 bpd each; in service 2003, inspected 2008. [source](https://www.iqpc.com/media/1002073/50076.pdf)
 
 **Missing inputs:**
-- pressure ratings, diameters, laying speed and temperature limits (performance): Shawcor's PDF is blocked by robots.txt and the Wikipedia page was not read in detail. Where: Soluforce, Strohm and Baker Hughes product pages (open). Next: Add ratings from a vendor datasheet.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -129,11 +131,13 @@ flowchart LR
 
 **Key equipment:** storage tanks, floating roofs and seals, fire protection, pumps, vapour control.
 
+**Performance:**
+- VOC control efficiency of an internal floating roof with seals: 60-99 %; AP-42: control efficiency of adding an internal floating roof and seals to a fixed-roof tank ranges 60-99% depending on roof, seal and liquid; rim-mounted secondary seals outperform shoe-mounted.. [source](https://gaftp.epa.gov/ap42/ch07/s01/final/c07s01.pdf)
+
 **Reference plants:**
 - Sullom Voe Terminal, United Kingdom: 16 floating-roof crude tanks (10 operational), about 520,000 bbl; operating since 1978. [source](https://www.enquest.com/fileadmin/content/operations/ICOP_PDFs/Sullom_Voe_Terminal__SVT_.pdf)
 
 **Missing inputs:**
-- emission reduction and seal types, per AP-42 and API 650 (performance): Not on the page read. Web-checked 2026-10-28; AP-42 emission-factor tables are EPA-hosted PDFs not read this pass. Where: EPA AP-42 chapter 7.1 (open); API 650 and 653 (catalog: api-standards, open). Next: Add loss factors from AP-42.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -188,16 +192,16 @@ flowchart LR
 **Performance:**
 - calibrated cone meter accuracy: 0.5 % (±); up to ±5% uncalibrated. [source](https://en.wikipedia.org/wiki/Coriolis_flowmeter)
 - custody-transfer meter accuracy under AGA standards: 0.35-0.5 % volume-flow accuracy for Coriolis meters under AGA 11 (ultrasonic meters governed by AGA 9); "The use of Coriolis meters for custody transfer is governed by AGA-11. Advantages include standard volume flow accuracy of 0.35% to 0.5%" (Control Engineering, 13 Jun 2016); AGA 9 governs multipath ultrasonic custody-transfer meters; the specific AGA 9 and API MPMS class values were not read this pass. [source](https://www.controleng.com/selecting-flowmeters-for-natural-gas)
+- custody-transfer accuracy, Coriolis meters under AGA 11: 0.35-0.5 % of volumetric flow; AGA 11 governs Coriolis custody meters at 0.35-0.5% volumetric accuracy; AGA 9 governs multipath ultrasonic meters. API MPMS tables were not read.. [source](https://www.controleng.com/selecting-flowmeters-for-natural-gas)
 
 **Reference plants:**
 - FPSO Egina oil fiscal metering package, Nigeria: 7,200 m3/h oil; 4.6 MSm3/d gas fiscal metering; in service 2018. [source](https://www.ubsco.net/uploads/ODS%20SAUDI/ODS%20Metering%20Systems%20Reference%20list%20-%20Onshore%20PJT.PDF)
 
 **Missing inputs:**
-- custody-transfer accuracy classes under AGA 9, AGA 11 and API MPMS (performance): Not stated in the pages read. AGA 11 Coriolis accuracy (0.35-0.5%) recorded in performance; AGA 9/API MPMS class tables are paywalled standards text, 2026-10-28. Where: AGA 9 and API MPMS (catalog: api-standards, open). Next: Add accuracy classes with standard references.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; meter prices vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Ultrasonic_flow_meter), [2](https://en.wikipedia.org/wiki/Coriolis_flowmeter), [3](https://en.wikipedia.org/wiki/Flow_measurement). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Ultrasonic_flow_meter), [2](https://en.wikipedia.org/wiki/Coriolis_flowmeter), [3](https://en.wikipedia.org/wiki/Flow_measurement). Last reviewed 2026-11-17.
 
 ## Drag reducing agents
 <a id="mid-drag-reducing-agents"></a>
@@ -246,11 +250,13 @@ flowchart LR
 
 **Key equipment:** dynamic multiphase simulator, PVT and thermal models.
 
+**Performance:**
+- validation accuracy gain in liquid-holdup prediction: 31 % error reduction; Model validated on 904 experimental points: 51% lower pressure-gradient error, 31% lower liquid-holdup error and 18% better flow-pattern prediction than the prior model.. [source](https://climit.no/en/project/olga-robust-enhanced-and-accurate-co2-handling-olga-co2-reach)
+
 **Reference plants:**
 - BP Angola Block 18 Western Area integrated flow assurance model, Angola: capacity not stated in the source; operating. [source](https://www.researchgate.net/publication/254541889_Integrated_Flow_Assurance_Modeling_of_the_BP_Angola_Block_18_Western_Area_Development)
 
 **Missing inputs:**
-- capabilities, validation accuracy and typical use (performance): The SLB page contains navigation text only. Web-checked 2026-10-28; OLGA/LEDAAP validation tables sit in SPE papers. Where: SLB OLGA documentation (catalog: slb, open). Next: Add validation statements with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licence prices vendor-quoted. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -272,11 +278,13 @@ flowchart LR
 
 **Key equipment:** pipe-in-pipe, insulation, heating cable, field joints.
 
+**Performance:**
+- overall heat transfer coefficient, insulated pipe-in-pipe: 0.5 W/(m2.K); OHTC down to 0.5 W/m2K; sizes 6"/10" to 12"/18", maximum 50 km at full power, up to 55 W/m heating per cable; first deployed at Islay in 2011.. [source](https://www.technipfmc.com/media/vmhafzbk/sp014-brochure_eth-pip_v3_digital-2.pdf)
+
 **Reference plants:**
 - Islay electrically trace-heated pipe-in-pipe tieback (Total E&P UK), United Kingdom: 6 km, about 100 m water depth; installed 2011. [source](https://www.offshore-mag.com/subsea/article/16760226/subsea-innovations-make-complex-islay-tieback-possible)
 
 **Missing inputs:**
-- U-values, depths, lengths and temperatures (performance): The TechnipFMC page returned an error. Where: TechnipFMC and Subsea7 project pages (catalog: technipfmc, open). Next: Add figures from a project page or paper.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; project-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -424,12 +432,12 @@ flowchart LR
 - Raman DTS location accuracy: 0.5-3 m ('a few metres'); depends on measurement time and fibre length. [source](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing)
 - Raman DTS range with multimode fibre: 50 km (up to); vendor article. [source](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing)
 - DAS interrogator spacing for NPW monitoring: 120 km; quantitative DAS. [source](https://www.apsensing.com/news/detail/selection-criteria-for-pipeline-leak-detection-methods-using-distributed-fiber-optic-sensing)
+- minimum detectable leak rate, fibre-optic DAS: 0.1 % of pipeline flow; DN100 gas test line, 1-8 mm pinholes at 5-25 bar: leaks down to 0.1% of flow detected and located using 30 s spectral averaging.. [source](https://pmc.ncbi.nlm.nih.gov/articles/PMC6164018/)
 
 **Reference plants:**
 - BRUA gas corridor fibre-optic leak detection, Romania: capacity not stated; operating. [source](https://www.apsensing.com/en/application/process-automation-and-pipeline-monitoring/pipeline-monitoring)
 
 **Missing inputs:**
-- minimum detectable leak size and response time (performance): The vendor article gives no numbers. Web-checked 2026-10-28: API 1130 CPM thresholds (about 1% of flow) circulate in vendor material; no verifiable open table found. Where: API RP 1130 and API RP 1175 summaries (open); PHMSA leak detection study (catalog: phmsa, open). Next: Add thresholds from an independent study.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -604,6 +612,7 @@ flowchart LR
 - Suiso Frontier capacity: 1250 m3; prototype. [source](https://en.wikipedia.org/wiki/Suiso_Frontier)
 - liquefied hydrogen temperature: -253 °C; 20 K. [source](https://en.wikipedia.org/wiki/Suiso_Frontier)
 - Suiso Frontier liquefied-hydrogen carrier (world's first LH2 ship): 1250-75 m3 LH2 tank capacity (1,250 cbm), about 75 t LH2 per cargo, 116 m and about 8,000 t displacement; maiden international LH2 voyage Hastings (Victoria, Australia) to Kobe, Japan, delivered February 2022; boil-off rate not published in open pages. [source](https://lngprime.com/asia/video-suiso-frontier-delivers-first-liquefied-hydrogen-shipment-to-japan/43855)
+- boil-off rate of a liquefied-hydrogen carrier: 0.06-0.3 % per day; Suiso Frontier 0.3%/day and Hy touch Kobe 0.06%/day; commercial carrier classes 40,000-200,000 m3 including 160,000 m3 with four 40,000 m3 tanks.. [source](https://www.jcoal.or.jp/event/upload/7d5b12554f00baffab62e2f24c152dda9ece3700.pdf)
 
 **Reference plants:**
 - Suiso Frontier LH2 pilot supply chain (Kawasaki and HESC partners), Australia-Japan, JP: world's first purpose-built liquid-hydrogen carrier; 1,250 m3 vacuum-insulated tank; brown-coat HESC pilot project; operating. [source](https://lngprime.com/asia/video-suiso-frontier-delivers-first-liquefied-hydrogen-shipment-to-japan/43855)
@@ -611,7 +620,6 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Liquefied hydrogen tanker' TRL 2025 - carrier row covers the LH2 sea transport this card describes; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
-- commercial-scale carrier designs and boil-off rates (performance): Only the pilot ship was read. Suiso Frontier design/cargo figures recorded in performance; boil-off rate not published, 2026-10-28. Where: Kawasaki Heavy Industries press releases (open). Next: Add 160,000 m3 carrier design data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://en.wikipedia.org/wiki/Suiso_Frontier), [2](https://ww2.eagle.org/content/dam/eagle/rules-and-guides/current/other/342-requirements-for-liquefied-hydrogen-carriers_2023/342-liquefied-hydrogen-carriers-reqts-oct23.pdf). Last reviewed 2026-11-17.

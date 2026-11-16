@@ -89,6 +89,17 @@
         "url": "https://lngprime.com/asia/video-suiso-frontier-delivers-first-liquefied-hydrogen-shipment-to-japan/43855",
         "note": "LNG Prime, 28 Feb 2022 (1,250 cbm, first shipment); lngprime Jan 2022 (75 t cargo, 116 m, 8,000 t); read 2026-10-28"
       }
+    },
+    {
+      "metric": "boil-off rate of a liquefied-hydrogen carrier",
+      "unit": "% per day",
+      "basis": "Suiso Frontier 0.3%/day and Hy touch Kobe 0.06%/day; commercial carrier classes 40,000-200,000 m3 including 160,000 m3 with four 40,000 m3 tanks.",
+      "source": {
+        "url": "https://www.jcoal.or.jp/event/upload/7d5b12554f00baffab62e2f24c152dda9ece3700.pdf",
+        "note": "Kawasaki Heavy Industries, liquefied hydrogen supply chain (2024), read 2026-11-17"
+      },
+      "low": 0.06,
+      "high": 0.3
     }
   ],
   "advantages": [
@@ -111,19 +122,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "commercial-scale carrier designs and boil-off rates",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only the pilot ship was read. Suiso Frontier design/cargo figures recorded in performance; boil-off rate not published, 2026-10-28.",
-      "where": [
-        {
-          "hint": "Kawasaki Heavy Industries press releases",
-          "access": "open"
-        }
-      ],
-      "action": "Add 160,000 m3 carrier design data."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

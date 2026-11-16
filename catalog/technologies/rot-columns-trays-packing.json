@@ -100,6 +100,17 @@
       },
       "low": 40,
       "high": 40
+    },
+    {
+      "metric": "HETP, structured versus random packing",
+      "unit": "m",
+      "basis": "150 mm for high-performance structured packing in low-pressure distillation, up to 600 mm or more for random packing in difficult services.",
+      "source": {
+        "url": "https://c-psystems.com/glossary-hetp",
+        "note": "C-P Systems, HETP glossary (vendor technical reference), read 2026-11-17"
+      },
+      "low": 0.15,
+      "high": 0.6
     }
   ],
   "advantages": [],
@@ -113,21 +124,8 @@
       "note": "Wikipedia, Fractionating column, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "tray efficiency and packing pressure drop figures",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not in the page read. Web-checked 2026-10-28; efficiency correlations are textbook/vendor-selector material.",
-      "where": [
-        {
-          "hint": "Vendor technical bulletins",
-          "access": "open"
-        }
-      ],
-      "action": "Add figures with source."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

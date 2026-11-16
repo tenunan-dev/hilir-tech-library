@@ -99,6 +99,17 @@
       },
       "low": 37,
       "high": 37
+    },
+    {
+      "metric": "longest DEH-heated subsea flowline",
+      "unit": "km",
+      "basis": "Lianzi field: 43 km DEH flowline in 1,050 m of water, the longest and deepest DEH installation; Tyrihans holds the highest voltage at 52 kV.",
+      "source": {
+        "url": "https://blog.sintef.com/energy/electrical-heating-flow-assurance-subsea-flowlines",
+        "note": "SINTEF, electrical heating for subsea flow assurance (2025), read 2026-11-17"
+      },
+      "low": 43,
+      "high": 43
     }
   ],
   "advantages": [
@@ -158,19 +169,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "current longest DEH tieback",
-      "reason_code": "not_in_sources_read",
-      "reason": "Article predates recent projects. Web-checked 2026-10-28 (offshore-mag sitemap sweep of DEH and heated-pipeline articles; Irpa 80-km tieback and Fenja 37-km ETH pipe-in-pipe articles read); no open source states a DEH tieback longer than Tyrihans 43 km, and the recent record-length claim found (Fenja, 37 km) is for ETH pipe-in-pipe, a different heating technology.",
-      "where": [
-        {
-          "hint": "Equinor and Nexans DEH references",
-          "access": "open"
-        }
-      ],
-      "action": "Add the current record."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -33,13 +33,15 @@ flowchart LR
 
 **Key equipment:** process model, optimiser, DCS interface.
 
+**Performance:**
+- typical energy savings from APC: 1-5 %; Honeywell states 1-5% energy savings, 1-3% production increase, 1-4% yield improvement and 3-6 month ROI across its installed base - a licensor claim.. [source](https://process.honeywell.com/us/en/solutions/honeywell-forge/honeywell-forge-advanced-process-control)
+
 **Missing inputs:**
-- refinery benefit figures (performance): The page gives none. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: Published refinery APC benefit studies (open). Next: Add benefits with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Model_predictive_control). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Model_predictive_control). Last reviewed 2026-11-17.
 
 ## Custody transfer metering
 <a id="ins-custody-transfer-metering"></a>
@@ -232,13 +234,15 @@ flowchart LR
 
 **Key equipment:** sensors, logic solver (PLC or relay), final elements, power and instrument air.
 
+**Performance:**
+- PFDavg band for SIL 2, low demand: 0.001-0.01 PFDavg; Low-demand SIL bands: SIL 4 1e-5 to <1e-4, SIL 3 1e-4 to <1e-3, SIL 2 1e-3 to <1e-2, SIL 1 1e-2 to <1e-1.. [source](https://portal.endress.com/wa001/dla/5000639/2936/000/01/CP01008Z11EN_0313_SIL-Brochure_X4_.pdf)
+
 **Missing inputs:**
-- SIL levels and probability of failure on demand values (performance): Not on the page read. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: IEC 61511 and exida handbook summaries (paid). Next: Add SIL bands with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Safety_instrumented_system). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Safety_instrumented_system). Last reviewed 2026-11-17.
 
 ## Turbomachinery control systems
 <a id="ins-machinery-control"></a>

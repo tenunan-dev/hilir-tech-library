@@ -75,20 +75,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "capabilities, validation accuracy and typical use",
-      "reason_code": "not_in_sources_read",
-      "reason": "The SLB page contains navigation text only. Web-checked 2026-10-28; OLGA/LEDAAP validation tables sit in SPE papers.",
-      "where": [
-        {
-          "hint": "SLB OLGA documentation",
-          "access": "open",
-          "source_id": "slb"
-        }
-      ],
-      "action": "Add validation statements with source."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -139,5 +125,18 @@
       "project_id": "bp-angola-block-18-flow-assurance"
     }
   ],
-  "notes": "Process provenance: The OLGA product page documents the transient multiphase flow simulation that flow-assurance studies are built on for wells, flowlines and pipelines."
+  "notes": "Process provenance: The OLGA product page documents the transient multiphase flow simulation that flow-assurance studies are built on for wells, flowlines and pipelines.",
+  "performance": [
+    {
+      "metric": "validation accuracy gain in liquid-holdup prediction",
+      "unit": "% error reduction",
+      "basis": "Model validated on 904 experimental points: 51% lower pressure-gradient error, 31% lower liquid-holdup error and 18% better flow-pattern prediction than the prior model.",
+      "source": {
+        "url": "https://climit.no/en/project/olga-robust-enhanced-and-accurate-co2-handling-olga-co2-reach",
+        "note": "OLGA-CO2 Reach JIP (CLIMIT), read 2026-11-17"
+      },
+      "low": 31,
+      "high": 31
+    }
+  ]
 }

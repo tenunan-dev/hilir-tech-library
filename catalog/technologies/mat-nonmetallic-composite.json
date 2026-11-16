@@ -74,19 +74,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "pressure and temperature ratings (API 15 series, ISO 14692)",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not on the page. API 15HR/15LR and ISO 14692 (GRP piping) carry the pressure-temperature ratings; standard text is paywalled, 2026-10-28.",
-      "where": [
-        {
-          "hint": "API 15 and ISO 14692 summaries",
-          "access": "open"
-        }
-      ],
-      "action": "Add ratings."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -137,5 +124,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Summarises API Spec 15S for spoolable reinforced plastic line pipe - three-layer construction (thermoplastic inner liner, helical steel or non-metallic reinforcement, outer cover), manufacture and qualification requirements, end fittings and couplings, and the API Monogram route."
+  "notes": "Process provenance: Summarises API Spec 15S for spoolable reinforced plastic line pipe - three-layer construction (thermoplastic inner liner, helical steel or non-metallic reinforcement, outer cover), manufacture and qualification requirements, end fittings and couplings, and the API Monogram route.",
+  "performance": [
+    {
+      "metric": "maximum operating pressure, API 15S-qualified composite line pipe",
+      "unit": "psi",
+      "basis": "Vendor states up to 3,000 psi and 180 F (82.2 C) service; the product is described as API 15S-qualified. ISO 14692 is not referenced.",
+      "source": {
+        "url": "https://www.bakerhughes.com/onshore-composite-pipe",
+        "note": "Baker Hughes, onshore composite pipe product data, read 2026-11-17"
+      },
+      "low": 3000,
+      "high": 3000
+    }
+  ]
 }

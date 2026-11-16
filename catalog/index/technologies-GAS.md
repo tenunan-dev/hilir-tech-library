@@ -131,12 +131,12 @@ flowchart LR
 - attainable boil-off rate with current containment: 0.07 % of cargo per day; Chemical Engineering Transactions paper; 0.05% expected in the future. [source](https://www.aidic.it/cet/21/88/153.pdf)
 - power saving of latest Wärtsilä reliquefaction generation: 15 %; Wärtsilä: condensing BOG at higher pressure and temperature with early removal of compression heat. [source](https://www.wartsila.com/encyclopedia/term/lng-reliquefaction-system)
 - operating experience of Laby-GI compressors for MAN ME-GI engines: 1e+06 operating hours; Burckhardt claim. [source](https://www.gasworld.com/story/burckhardt-compression-passes-1m-operating-hours-with-laby-gi-compressors/2091950.article)
+- specific energy consumption, BOG reliquefaction: 529.4 kWh/t; Proposed process at 529.4 kWh/t, 50.34% below the reference process.. [source](https://ideas.repec.org/a/eee/energy/v278y2023ics0360544223012173.html)
 
 **Reference plants:**
 - LNG carrier Quest Kirishima (NYK), Japan: 174,000 m3 with reliquefaction system; delivered December 2024. [source](https://www.nyk.com/english/news/2024/20241202_02.html)
 
 **Missing inputs:**
-- kWh per tonne reliquefied (performance): No source read gives it. Web-checked 2026-10-28; specific-power figures sit in vendor (Wartsila/Hamworthy/Mitsubishi) brochures not open. Where: Wärtsilä and Burckhardt brochures (open). Next: Add specific energy from a vendor datasheet.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -201,6 +201,7 @@ flowchart LR
 - plant availability: 95 %; licensor claim for the two-trains-in-one configuration. [source](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf)
 - turndown: 10-100 % of nameplate; licensor claim. [source](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf)
 - pretreatment and liquefaction fuel energy: 2.78-3.35 MJ/kg gas liquefied; NETL model of a US C3MR plant from Mallapragada et al. 2018; range covers adsorption or cryogenic heavy hydrocarbon removal, with or without HRSG; fuel is a parasitic stream of feed gas, not compressor shaft power. [source](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf)
+- specific power, classical cascade liquefaction: 330 kWh/t; 0.33 kWh/kg (330 kWh/t), the lowest of the cycles compared and used as the normalised value of 1.. [source](https://www.techscience.com/fdmp/v18n1/45569/html)
 
 **Reference plants:**
 - Sabine Pass Liquefaction, Louisiana, US: 6 trains, 30.0 Mtpa; operating. [source](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf)
@@ -211,9 +212,8 @@ flowchart LR
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 - capital cost and levelized or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Refinery and gas plant unit costs are mostly published in paid sources. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Open-access journal techno-economic papers (MDPI Energies, Processes); MDPI is blocked by its CDN, use the manual inbox (blocked); Paid cost databases (consultancies, licensor studies): catalog-only until the owner provides access (paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes (performance): An open 2020 comparison (OGST, CC BY 4.0) gives specific power for C3MR, DMR and MFC (about 320-391 kWh/t) but not for the cascade process. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: ConocoPhillips Optimized Cascade technical papers (LNG conference proceedings) (open); [NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) (catalog: netl, open); IEA gas and LNG reports (catalog: iea-reports, open); Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox) (blocked); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open). Next: Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis.
 
-Sources: [1](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-10-28.
+Sources: [1](https://static.conocophillips.com/files/resources/23-0622-lng-quick-reference-card.pdf), [2](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf). Last reviewed 2026-11-17.
 
 ## Compressed natural gas and LNG as vehicle fuel
 <a id="gas-natural-gas-vehicle-fuel"></a>
@@ -302,6 +302,7 @@ flowchart LR
 
 **Performance:**
 - CO2 reduction from Hammerfest electrification: 850000 t CO2 per year; Equinor: about 850,000 t/yr, equal to 450,000 ICE cars; carbon footprint 3.8 to 0.6 g CO2e/MJ. [source](https://equinor.com/news/20221220-high-gas-exports-and-emissions-cuts-from-hammerfest-lng)
+- electric motor rating per refrigeration compressor: 75 MW; Three GE 75 MW motors drive the propane and mixed-refrigerant compressors through variable-frequency drives.. [source](https://freeportlng.com/our-business/elng)
 
 **Reference plants:**
 - Freeport LNG, Texas, Trains 1 to 3 (electric motor drive), US: ; Train 1 commercial December 2019, Train 2 January 2020 (performance test 37 days against 107 for Train 1), Train 3 expected May 2020 per the article. [source](https://www.turbomachinerymag.com/view/second-of-three-electric-driven-lng-trains-starts-operations-at-us-facility)
@@ -310,7 +311,6 @@ flowchart LR
 - Freeport LNG, Texas (electric-motor-driven refrigeration compressors), US: three trains equipped with the largest electric motor-powered refrigeration compressors in the US; Train 1 commercial operation December 2019; operating. [source](https://www.nsenergybusiness.com/company-news/freeport-lng-project-train-3)
 
 **Missing inputs:**
-- MW per train and specific energy for electric versus gas-turbine drive (performance): The articles read give neither. Web-checked 2026-10-28: motor ratings circulate in trade press but were not verifiable on the open pages read; specific-energy comparison not found. Where: McDermott e-drive page (catalog: mcdermott, open); Equinor technical papers (catalog: equinor-tech, open). Next: Add motor sizes and kWh per tonne from vendor or LNG conference papers.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; project-level figures only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -336,6 +336,9 @@ flowchart LR
 
 **Key equipment:** turret and mooring, topsides gas treating, liquefaction modules, hull LNG tanks, offloading arms.
 
+**Performance:**
+- specific power, floating LNG liquefaction: 0.208 kWh/m3 of feed gas; Modelled FLNG cycle at 0.208 kWh/m3 of feed gas.. [source](https://www.mdpi.com/2227-9717/13/8/2530)
+
 **Costs:**
 - liquefaction plant cost, floating LNG: 600-2000 USD per tpa (2018$); Golar 600, PFLNG2 825, PFLNG1 968, Prelude 2,000 - liquefaction plant only, projects built 2014-18.. [source](https://www.oxfordenergy.org/wpcms/wp-content/uploads/2018/10/LNG-Plant-Cost-Reduction-2014%E2%80%9318-NG137.pdf)
 
@@ -347,9 +350,8 @@ flowchart LR
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv: open techno-economic and review papers (collector already runs weekly) (catalog: arxiv, open); Oxford Institute for Energy Studies LNG and gas papers (private copy only) (catalog: oxford-oies, open). Next: Add the figures that matter for comparing options, each with its basis and source.
 
-Sources: [1](https://www.offshore-technology.com/news/shell-prelude-flng/), [2](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities). Last reviewed 2026-11-16.
+Sources: [1](https://www.offshore-technology.com/news/shell-prelude-flng/), [2](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities). Last reviewed 2026-11-17.
 
 ## Floating storage and regasification units (FSRU)
 <a id="lng-fsru"></a>
@@ -581,6 +583,7 @@ flowchart LR
 - Singapore LNG bunker sales growth 2025 over 2024: 23.9 %; MPA via LNG Prime summary; absolute volumes behind paywall. [source](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/)
 - Singapore LNG bunker sales, July: 41500 t; Ship & Bunker, market total, down 3.9% year on year. [source](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore)
 - LNG bunker demand outlook and cumulative port volumes: 2-27 million m3 cumulative bonded LNG bunkered at Shanghai to date (2+ M m3, 355 vessels); Shell outlook: global LNG bunker demand rising sevenfold to 27 million mt/yr by 2035; Shell outlook reported by LNG Prime: global LNG bunker demand expected to increase sevenfold to 27 million mt by 2035 as the LNG-fuelled fleet expands; LNG Prime: Shanghai cumulative bonded LNG bunker supplies surpassed 2 million m3 with 355 vessels bunkered; Singapore sales at record highs; a verified global volume total for 2024/25 was not available in open pages. [source](https://www.linkedin.com/posts/lng-prime_singapore-lng-bunkering-volumes-hit-new-record-activity-7472176654832832512-pbGB)
+- ports offering LNG bunkering worldwide: 222 ports; SEA-LNG counts 222 ports in 2026, up from 198 in 2024.. [source](https://shipandbunker.com/news/world/310446-lng-bunkering-now-available-at-222-ports-globally-sea-lng)
 
 **Costs:**
 - capital cost, 18,000 m3 LNG bunker vessel: 87.5 USD million (2025$); Dual-fuel LNG bunker vessel newbuild order (HJ Shipbuilding).. [source](https://www.lloydslist.com/LL1152534/HJ-Shipbuilding-seals-$88m-LNG-bunkering-vessel-order)
@@ -589,7 +592,6 @@ flowchart LR
 - FueLNG Singapore, 500th ship-to-ship bunkering (receiving ship Amphitrite Highway, K Line), SG: ; . [source](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore)
 
 **Missing inputs:**
-- global LNG bunkering volumes and port list (performance): Only Singapore items were read; the LNG Prime article is paywalled. Outlook and cumulative port figures recorded in performance; a verified global 2024/25 volume total and port list not found open, 2026-10-28. Where: Singapore MPA bunkering statistics (open); Maritime Executive and Ship & Bunker coverage (open). Next: Add global volumes and the Malaysia (Pengerang, Johor) position.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
 Sources: [1](https://shipandbunker.com/news/apac/716479-fuelng-marks-500th-ship-to-ship-lng-bunkering-in-singapore), [2](https://lngprime.com/asia/singapore-lng-bunkering-volumes-hit-new-record-in-2025/174296/), [3](https://fkab.com/wp-content/uploads/2025/03/LNG_Ship_to_Ship_Bunkering_Procedure_Complete_-_SMTF_version.pdf). Last reviewed 2026-11-17.
@@ -615,12 +617,12 @@ flowchart LR
 **Performance:**
 - largest single open rack vaporiser: 200-250 MMSCFD; KBR authors; ORV unusable in seawater below 42 degF. [source](https://www.pumpindustry.com.au/lng-receiving-terminals)
 - largest single submerged combustion vaporiser: 150 MMSCFD; KBR authors; burns send-out gas. [source](https://www.pumpindustry.com.au/lng-receiving-terminals)
+- fuel gas consumption, submerged combustion vaporiser: 1.5-2 % of LNG vaporised; Burner fuel use of 1.5-2.0% of send-out LNG on an HHV basis.. [source](https://cdn.digitalrefining.com/data/articles/file/171194535.pdf)
 
 **Reference plants:**
 - Deutsche Ostsee LNG terminal, Lubmin (FSRU), Germany: 5 bcm/yr; commissioned 2023. [source](https://totalenergies.com/newsroom/commissioning-floating-lng-regasification-unit-delivered-totalenergies-lubmin/?lang=eng)
 
 **Missing inputs:**
-- fuel gas percentage and cold-energy use (performance): The article gives no percentage figures. Web-checked 2026-10-28: SCV fuel-gas percentages (~0.01-0.02% class) circulate in vendor material; no verifiable open table found. Where: GIIGNL handbook and terminal operator documents (catalog: giignl, open). Next: Add fuel use and cold-energy recovery options.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -647,6 +649,7 @@ flowchart LR
 
 **Performance:**
 - average inlet H2S over 22 years at one site: up to 0.7 vol%; Coso geothermal Navy 1 unit, designed for 1.2 vol% H2S in the feed. [source](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal)
+- H2S removal efficiency, liquid redox: 99.9-100 %; Removal above 99.9%, essentially 100%, for sulfur loads typically under 25 long tons per day.. [source](https://www.digitalrefining.com/article/1001047/lo-cat-a-flexible-hydrogen-sulphide-removal-process)
 
 **Costs:**
 - installed cost, LO-CAT liquid redox sulfur recovery: 9.93 USD million (2020$); Denton NM gas plant, Merichem estimate at plus/minus 50%; the plant sits inside the 0.5-25 t/d sulfur niche, so this is one data point, not a curve.. [source](https://www.env.nm.gov/opf/wp-content/uploads/sites/2/2020/07/Davis-Denton-gas-plant-4FA-addl-info-4-3-20.pdf)
@@ -655,7 +658,6 @@ flowchart LR
 - Coso Operating Company geothermal plant, China Lake, California (Navy 1, first unit 1993; three LO-CAT units), US: ; . [source](https://www.digitalrefining.com/article/1002993/27-years-of-reliable-sulphur-removal)
 
 **Missing inputs:**
-- H2S removal efficiency, capacity range in tonnes of sulfur per day and installed base (performance): Neither the Digital Refining article text nor the Merichem page read gives them. Web-checked 2026-10-28: LO-CAT vendor pages found but the 99.9+% efficiency and installed-base figures sit in brochure material not readable this pass. Where: Merichem LO-CAT brochure (open); Digital Refining article tables 1 and 2 (not in the text read) (catalog: ptq-digital-refining, open). Next: Add them from a licensor datasheet.
 - unit cost per t/d of sulfur capacity (costs): One plant-specific installed cost is recorded ($9.93M, plus/minus 50%); no unit cost per t/d of sulfur capacity was published. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -826,6 +828,7 @@ flowchart LR
 - installed fractionation experience: 800 kbpd; UOP claim, 'more than 800kbpd'. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
 - tray pressure drop with UOP high-capacity trays: up to 0.05 psi per tray; UOP claim. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
 - module delivery time: up to 40 weeks; UOP claim for pre-engineered modules. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
+- NGL recovery fraction, integrated NGL/LNG process: 90-100 %; Over 90% NGL recovery at 0.359 kWh/kg LNG. No per-barrel fractionation energy is stated.. [source](https://ogst.ifpenergiesnouvelles.fr/articles/ogst/full_html/2020/01/ogst200035/ogst200035.html)
 
 **Costs:**
 - cost reduction for a deethanizer single-tower design compared with historical two-tower projects: 14 %; UOP datasheet cites a USD 2 million saving; results vary by application. [source](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf)
@@ -834,10 +837,9 @@ flowchart LR
 - Mont Belvieu NGL complex, Texas (Energy Transfer and others), US: world's largest NGL storage and fractionation hub: Energy Transfer facilities alone hold over 46 million barrels of storage and fractionate over 900,000 bpd; US NGL hub since the 1960s; operating. [source](https://cms.energytransfer.com/wp-content/uploads/2019/04/Mt-Belvieu-Fact-Sheet-3-29-19.pdf)
 
 **Missing inputs:**
-- energy use per barrel fractionated and recovery fractions (performance): The datasheet gives experience and delivery figures only. Web-checked 2026-10-28; fractionation energy figures sit in process-licensing material. Where: GPSA Engineering Data Book (catalog: gpsa, paid); Licensor papers (open). Next: Add energy and recovery figures from a published design case.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched NGL, natural gas liquids, LPG, fractionation, deethanizer); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf), [2](https://cms.energytransfer.com/wp-content/uploads/2019/04/Mt-Belvieu-Fact-Sheet-3-29-19.pdf), [3](https://en.wikipedia.org/wiki/Natural-gas_processing). Last reviewed 2026-10-28.
+Sources: [1](https://www.honeywell.com.cn/content/dam/honcn/download/lifecycle-solutions/all-equipment-and-afterm/gas-processing/modular-ngl-recovery/honeywell-uop-fractionation-datasheet.pdf), [2](https://cms.energytransfer.com/wp-content/uploads/2019/04/Mt-Belvieu-Fact-Sheet-3-29-19.pdf), [3](https://en.wikipedia.org/wiki/Natural-gas_processing). Last reviewed 2026-11-17.
 
 ## Nitrogen rejection units
 <a id="gas-nitrogen-rejection"></a>
@@ -861,16 +863,16 @@ flowchart LR
 - nitrogen after rejection for pipeline gas: 3-4 %; Linde statement of typical pipeline specification. [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
 - nitrogen after rejection for LNG storage: up to 1 %; Linde statement. [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
 - helium recovery in the Amur GPP NRU design: 98 %; Linde states more than 98% of helium (well under 1% of the gas) can be recovered. [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
+- installed compression per unit gas treated, cryogenic NRU: 1050 hp for a 7.5 MMscfd facility; 1,050 hp of installed compression for a 7.5 MMscfd facility.. [source](https://www.ogj.com/general-interest/companies/article/17216185/nitrogen-rejection-process-developed-for-small-fields)
 
 **Reference plants:**
 - Amur GPP (Russia), single-column NRU, under construction when the page was read: ; . [source](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/)
 
 **Missing inputs:**
-- power use per unit gas treated (performance): Linde's page gives no capacities or energy figures. Web-checked 2026-10-28; NRJ power figures are vendor-quoted. Where: AIChE Spring Meeting papers on NRU technology (catalog: aiche-spring, open). Next: Add specific energy from an open paper.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/), [2](https://en.wikipedia.org/wiki/Nitrogen_rejection_unit). Last reviewed 2026-10-28.
+Sources: [1](https://www.linde-engineering.com/en/process-plants/lng-and-natural-gas-processing-plants/nitrogen-rejection/), [2](https://en.wikipedia.org/wiki/Nitrogen_rejection_unit). Last reviewed 2026-11-17.
 
 ## Physical solvent gas treating (Selexol, Rectisol, Purisol)
 <a id="gas-physical-solvent-agr"></a>
@@ -968,6 +970,7 @@ flowchart LR
 - UOP small-scale offering capacity: up to 800 t/d; AP-N single expander 140 to 250 t/d, dual expander 200 to 650 t/d, AP-C1 60 to 800+ t/d. [source](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf)
 - nitrogen expander specific power: 350 kWh/t; 0.56 kWh/gal on lean high-pressure (about 1,100 psig) feed; vendor article, other feeds not covered. [source](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng)
 - typical small-scale plant size: 4-42 MMscfd; 50,000 to 500,000 gal/d per Cosmodyne article. [source](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng)
+- specific power, nitrogen expander liquefaction: 350 kWh/t; 0.56 kWh/gal on lean high-pressure feed at about 1,100 psig, equivalent to roughly 350 kWh/t - vendor figure.. [source](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng)
 
 **Costs:**
 - capital cost, micro-scale LNG liquefaction: 600 USD per tpa (FOB); Micro-scale liquefaction including gas treatment (Galileo Cryobox class, up to about 9 kt/yr). Report undated (2017), so dollar year not stated.. [source](https://documents1.worldbank.org/curated/en/099055504182314311/pdf/IDU0b08a7c1704730047b7095640f60da3b94c07.pdf)
@@ -978,10 +981,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Mini-LNG facilities' TRL 2025; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
-**Missing inputs:**
-- independent comparison of N2 expander and SMR power use (performance): Both sources are vendors. Web-checked 2026-10-28; vendor-specific specific-power claims not independently comparable in open pages. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); LNG Industry / Gastech papers (catalog: lng-industry, open). Next: Add an independent comparison.
-
-Sources: [1](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf), [2](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng), [3](https://en.wikipedia.org/wiki/LNG_plant). Last reviewed 2026-11-16.
+Sources: [1](https://uop.honeywell.com/content/dam/uop/en-us/documents/industry-solutions/gas-processing/lng/hon-ess-uop-032025-small-scale-lng-liquefaction-plant-capabilities.pdf), [2](https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng), [3](https://en.wikipedia.org/wiki/LNG_plant). Last reviewed 2026-11-17.
 
 ## Sulfur recovery (Claus, tail gas treating, SuperClaus)
 <a id="gas-sulfur-recovery"></a>

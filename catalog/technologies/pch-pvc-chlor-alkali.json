@@ -103,6 +103,17 @@
         "note": "IHS Markit / licensor brochure, vinyl chloride and PVC technologies (2010 capacity data)"
       },
       "high": 700
+    },
+    {
+      "metric": "acetylene-route share of Chinese PVC production",
+      "unit": "% of integrated Chinese PVC production",
+      "basis": "More than 80% of Chinese integrated PVC is carbide-based; China's capacity is close to 30 Mt against a global market of about 56 Mt.",
+      "source": {
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2808308-chinese-carbide-pvc-could-temper-us-exports-to-asia",
+        "note": "Argus Media, Chinese carbide PVC (2026), read 2026-11-17"
+      },
+      "low": 80,
+      "high": 80
     }
   ],
   "advantages": [
@@ -128,19 +139,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "global PVC capacity today and acetylene route share in China",
-      "reason_code": "not_in_sources_read",
-      "reason": "The brochure gives 2010 capacity only. Web-checked 2026-10-28: China PVC capacity reached 26 Mt/yr by 2013 with northwest coal-to-carbide regions ~35% of capacity (2020); the crisp acetylene-route share of Chinese capacity (~80% class) was not verifiable in open pages.",
-      "where": [
-        {
-          "hint": "IHS or OECD chemicals reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add current capacity."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

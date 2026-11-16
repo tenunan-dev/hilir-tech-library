@@ -45,16 +45,16 @@ flowchart LR
 - growth rate of data centre electricity consumption: 12-15 % per year; IEA: around 12 percent per year since 2017 (more than four times the growth of total electricity demand), accelerating to around 15 percent per year over 2024-2030.. [source](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)
 - share of data centre electricity used by server equipment: 60 % of data centre electricity; IEA split: servers around 60 percent, storage around 5 percent, networking up to 5 percent, cooling about 7 percent for efficient hyperscale centres rising above 30 percent for less efficient enterprise centres.. [source](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)
 - growth rate of accelerated-server electricity use against conventional servers: 9-30 % per year; IEA: accelerated servers grow around 30 percent annually against 9 percent per year for conventional servers, and supply almost half of the net increase in data centre electricity use to 2030.. [source](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)
+- inference share of data-centre electricity demand: 40 % of demand; McKinsey puts AI inference above 40% and training just under 30% of 2025 data-centre demand (82.3 GW total).. [source](https://www.mckinsey.com/featured-insights/charts/the-future-of-ai-workloads)
 
 **Costs:**
 - IT equipment cost per kW of AI capacity: 21188 USD per kW of IT capacity (2026$); $21.2bn per 1 GW = $21,188/kW of IT capacity; IT equipment is 55.9% of campus capex, with GPU servers plus networking separate at $4.9bn. Cost, not a measured load profile.. [source](https://epoch.ai/data-insights/ai-datacenter-cost-breakdown)
 
 **Missing inputs:**
-- training versus inference share of data centre electricity demand, with a cited source (performance): The IEA Energy and AI pages read state data-centre-level demand and segment shares but give no training-versus-inference split. Where: Hyperscaler sustainability or energy reports that disclose workload mix; Peer-reviewed measurements of inference versus training energy. Next: Add a sourced split, or record that no open source disaggregates it.
 - measured IT load per rack (kW) by accelerator generation (costs): An IT-equipment cost per kW is recorded; the card still needs a measured load figure, since its gap text had been corrupted to a reason code. Where: Interconnection study costs and utility upgrade charges. Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): No TRL table was read for this topic; the register records it as commercial without a source. Where: IEA Energy Technology Guide. Next: Add a TRL reference or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.iea.org/reports/energy-and-ai/executive-summary), [2](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai). Last reviewed 2026-11-16.
+Sources: [1](https://www.iea.org/reports/energy-and-ai/executive-summary), [2](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai). Last reviewed 2026-11-17.
 
 ## Air cooling (CRAH/CRAC, hot/cold aisle containment)
 <a id="idc-air-cooling"></a>
@@ -105,14 +105,14 @@ flowchart LR
 - deployment time, mobile aeroderivative units (TM2500): 14 days; installable in about 14 days per the vendor; fast-start aeros restore power within five minutes. [source](https://www.gevernova.com/gas-power/industries/data-centers)
 - campus scale range served: 25-3000 MW; 'whether your data center needs 25 MW of power or 3 GW' (vendor); 7HA.03 at 430 MW; Chevron/Engine No.1 programme targeting 4 GW by 2027. [source](https://www.gevernova.com/gas-power/industries/data-centers)
 - US data centres building own generation: 46-56 projects (GW); about 46 projects with about 56 GW planned self-generation; about 90% of BTM announcements made in 2025 alone (industry research tracker). [source](https://www.jaredwatkins.com/research/datacenters/behind-meter-power)
+- fleet heat rate, simple-cycle gas turbines: 10000 Btu/kWh; US simple-cycle fleet average about 10,000 Btu/kWh against 7,146 Btu/kWh for combined cycle - the benchmark for BTM simple-cycle data-centre plants.. [source](https://www.eia.gov/todayinenergy/detail.php?id=52158)
 
 TRL source: [Commercial gas-turbine technology deployed at scale (7F fleet about 175 GW installed) — TRL 9, read 2026-11-12](https://www.gevernova.com/gas-power/industries/data-centers)
 
 **Missing inputs:**
 - installed cost per kW for BTM gas capacity, with dollar year (costs): Vendor pages carry no prices. Where: EIA/industry cost studies; disclosed project filings (open). Next: Add cost figures with dollar year and basis.
-- fleet efficiency (heat rate) for BTM configurations (performance): Not stated on the pages read. Where: GE Vernova turbine spec sheets (GER-3567 etc.) (open). Next: Add heat rates per turbine class.
 
-Sources: [1](https://www.gevernova.com/gas-power/industries/data-centers), [2](https://www.chevron.com/newsroom/2025/q1/power-solutions-for-us-data-centers). Last reviewed 2026-11-12.
+Sources: [1](https://www.gevernova.com/gas-power/industries/data-centers), [2](https://www.chevron.com/newsroom/2025/q1/power-solutions-for-us-data-centers). Last reviewed 2026-11-17.
 
 ## Data centre UPS systems (double-conversion, lithium, modular)
 <a id="idc-ups-systems"></a>
@@ -133,6 +133,7 @@ flowchart LR
 **Performance:**
 - unit power range, Vertiv Liebert EXL S1: 100-1200 kW; 100-1200 kW per unit, transformer-free high-density design; scalable in parallel for medium-to-large data centres. [source](https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1)
 - parallel system capacity, EXL S1 fleet: 9.6 MW; scalable from a few hundred kW up to about 9.6 MW via parallel deployment, suitable for a 20 MW data-centre design (vendor system sizing). [source](https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf)
+- UPS efficiency, double conversion and ECO mode: 96-99 %; Above 96% in double conversion and above 99% in ECO mode.. [source](https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-exm-)
 
 **Costs:**
 - equipment cost, three-phase data-centre UPS: 800 USD per kW; About $0.8M/MW for UPS equipment only, excluding installation and batteries; the source does not state a dollar year and expressly disclaims turnkey use; dollar year not stated. [source](https://datacenterscope.com/power/data-center-ups-cost)
@@ -141,9 +142,8 @@ TRL source: [Mature commercial product line shipping since 2017 — TRL 9, read 
 
 **Missing inputs:**
 - installed cost per kW (equipment cost is now recorded) (costs): Equipment cost is recorded ($800/kW, undated); installation and battery costs were not found. Where: Uptime Institute / industry surveys (open). Next: Leave open until a source states this metric and scope.
-- efficiency in double-conversion and ECOnversion modes (performance): Not stated on the pages read. Where: Vertiv EXL S1 datasheet efficiency tables (open). Next: Add efficiency figures per mode.
 
-Sources: [1](https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1), [2](https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf). Last reviewed 2026-11-16.
+Sources: [1](https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1), [2](https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf). Last reviewed 2026-11-17.
 
 ## Data centre energy and water benchmarking (PUE/WUE)
 <a id="idc-energy-water-benchmarking"></a>
@@ -168,13 +168,13 @@ flowchart LR
 - average PUE, facilities commissioned within about five years: 1.48 ratio; Uptime Institute 2025 survey: facilities commissioned from around early 2020 achieved an average PUE of 1.48.. [source](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf)
 - average PUE, facilities of 20 MW and above: 1.44 ratio; Uptime Institute 2025 survey: larger data centres of 20 MW and above averaged 1.44 globally; facilities in high latitudes in North America and Europe have PUEs of 1.3 or better.. [source](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf)
 - cooling share of data centre electricity: 7-30 % of data centre electricity; IEA: cooling is about 7 percent for efficient hyperscale centres and over 30 percent for less efficient enterprise centres.. [source](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai)
+- water usage effectiveness benchmark: 1.8 L/kWh; 1.8 L/kWh cited as the cross-industry average WUE.. [source](https://www.datacenterknowledge.com/cooling/a-guide-to-data-center-water-usage-effectiveness-wue-and-best-practices)
 
 **Missing inputs:**
-- water usage effectiveness (WUE) benchmark, in litres per kWh of IT energy (performance): The Uptime report read gives PUE figures but no WUE value in its text; no other source read states one. Where: Uptime Institute WUE reporting guidance; Operator sustainability reports disclosing WUE. Next: Add a sourced WUE benchmark with its boundary and cooling type.
 - cost of metering and benchmarking instrumentation per MW of IT load (costs): No source read prices metering and DCIM at data-centre scale. Where: Metering and DCIM vendor quotes. Next: Add a metering cost per MW from a vendor or project quote.
 - TRL with a cited source (trl): No TRL table was read; measurement practice is mature but no source read states a level. Where: IEA Energy Technology Guide. Next: Add a TRL reference.
 
-Sources: [1](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf), [2](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai). Last reviewed 2026-11-14.
+Sources: [1](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf), [2](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai). Last reviewed 2026-11-17.
 
 ## Data centre grid interaction (demand response and frequency services)
 <a id="idc-grid-interaction"></a>
@@ -194,14 +194,14 @@ flowchart LR
 
 **Performance:**
 - UPS fleet frequency-response trigger time, Enel X Digital Realty Ireland: 0.5 seconds; responds in under half a second when grid frequency drops below 50 Hz; the data centre draws on batteries instead of the grid. [source](https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study)
+- battery degradation under frequency-response cycling: 0.0359 % of life per day; Computed from an actual annual frequency curve for a Li-ion BESS on frequency-regulation duty.. [source](https://link.springer.com/article/10.1186/s41601-018-0076-2)
 
 TRL source: [Commercial deployments operating in Ireland for years — TRL 8-9, read via search summary 2026-11-12](https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study)
 
 **Missing inputs:**
 - revenue per MW-year for data-centre frequency services, with dollar year (costs): Market revenues vary by scheme and auction. Where: NESO auction results; aggregator disclosures (open). Next: Add revenue ranges per scheme.
-- battery degradation rates under frequency-response cycling (performance): Not stated on the pages read. Where: Eaton/Microsoft whitepaper; NERC 2025 grid-interactive UPS survey (open). Next: Add degradation data with basis.
 
-Sources: [1](https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study), [2](https://www.datacenterdynamics.com/en/news/microsoft-to-roll-out-data-center-battery-sharing-worldwide), [3](https://www.enelx.com/uk/en/question-and-answer). Last reviewed 2026-11-14.
+Sources: [1](https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study), [2](https://www.datacenterdynamics.com/en/news/microsoft-to-roll-out-data-center-battery-sharing-worldwide), [3](https://www.enelx.com/uk/en/question-and-answer). Last reviewed 2026-11-17.
 
 ## Data centre siting and power procurement
 <a id="idc-siting-power-procurement"></a>
@@ -222,14 +222,14 @@ flowchart LR
 **Performance:**
 - self-generation boom, US data centres: 46-56 projects (GW); about 46 projects with about 56 GW of planned self-built capacity; about 90% of behind-the-meter announcements made in 2025 alone — evidence that grid interconnection is the binding constraint. [source](https://www.jaredwatkins.com/research/datacenters/behind-meter-power)
 - AirTrunk Malaysia platform expansion: 700 MW; AirTrunk expanding its Malaysia platform (Johor and Cyberjaya) to more than 700 MW — the anchor hyperscale supply for the SEA AI corridor. [source](https://airtrunk.com/)
+- interconnection queue duration: 5 years; Median request-to-commercial-operation time for projects built in 2023 was nearly five years.. [source](https://emp.lbl.gov/publications/queued-2024-edition-characteristics)
 
 TRL source: [Established commercial practice across every major market — TRL 9, read via search summary 2026-11-12](https://www.jaredwatkins.com/research/datacenters/behind-meter-power)
 
 **Missing inputs:**
 - power cost benchmarks per route (grid, BTM, PPA) in USD/MWh with dollar year (costs): Route pricing is commercial and market-specific. Where: datacenterHawk, Uptime Institute market reports (open). Next: Add benchmark ranges with dollar year.
-- interconnection queue times by grid operator (performance): Queue data is published per operator but not yet collected. Where: Lawrence Berkeley NAB interconnection-queue data (open). Next: Add queue-time ranges per major grid.
 
-Sources: [1](https://www.jaredwatkins.com/research/datacenters/behind-meter-power), [2](https://airtrunk.com/). Last reviewed 2026-11-14.
+Sources: [1](https://www.jaredwatkins.com/research/datacenters/behind-meter-power), [2](https://airtrunk.com/). Last reviewed 2026-11-17.
 
 ## Free cooling and economisers
 <a id="idc-free-cooling-economisers"></a>
@@ -252,13 +252,13 @@ flowchart LR
 **Performance:**
 - unit capacity, Vertiv Liebert DSE free-cooling system: 50-165 kW; Liebert DSE product page: 50-165 kW standard range with packaged units around 250-400 kW; the unit is water-free, avoiding the makeup water a chilled-water plant needs.. [source](https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw)
 - PUE advantage of high-latitude sites: 1.3-1.54 ratio; Uptime Institute 2025 survey: facilities in high latitudes in North America and Europe have PUEs of 1.3 or better, against a weighted average of 1.54 across respondents; climate, not only design, drives the spread.. [source](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf)
+- annual economiser hours: 5100 hours/year; 5,100 expected free-cooling hours for ASHRAE climate zone 5B; a cited measurement shows 47.5-67.2% cooling-energy savings from air-side economisers.. [source](https://dcatlas.io/en/learn/dc-fundamentals/cooling-systems/free-cooling-economization)
 
 **Missing inputs:**
-- annual hours of economiser operation and kW saved per site climate (performance): Neither source read gives operating hours or saved kW by climate for a specific unit. Where: Cooling vendor selection software output; Site weather data with switch-over temperature. Next: Add a site-specific economiser hours analysis.
 - capital cost per kW and the saving against mechanical cooling, with dollar year (costs): No source read prices free-cooling units or their saving. Where: Vendor quotes and payback studies. Next: Add a cost and saving from a vendor quote or study.
 - TRL with a cited source (trl): No TRL table was read. Where: IEA Energy Technology Guide. Next: Add a TRL reference.
 
-Sources: [1](https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw), [2](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf). Last reviewed 2026-11-14.
+Sources: [1](https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw), [2](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf). Last reviewed 2026-11-17.
 
 ## Medium-voltage switchgear and busway in the data hall
 <a id="idc-mv-switchgear-busway"></a>
@@ -308,6 +308,7 @@ flowchart LR
 
 **Performance:**
 - share of additional data centre demand met by renewables over five years: 50 %; IEA: over five years renewables meet nearly half of the additional data centre demand, followed by gas and coal; solar and wind are the renewable sources in that mix.. [source](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai)
+- solar PV capacity factor: 23 %; US utility-scale PV averaged a 23% annual capacity factor in 2024.. [source](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=table_6_07_b)
 
 **Costs:**
 - installed cost, battery storage in a PV+battery hybrid: 709 USD per kWh (2023$); LBNL Utility-Scale Solar 2023: batteries are 51% of hybrid installed cost at about $709/kWh. The PV $/MW component is not separately stated on the page read.. [source](https://emp.lbl.gov/sites/default/files/emp-files/utility_scale_solar_2023_edition_slides.pdf)
@@ -318,10 +319,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide public dataset, row 'Crystalline silicon PV and Lithium-ion storage battery' TRL 2025 - both constituents are TRL 9 rows; the card is their combination; read 2026-11-16](https://www.iea.org/files/57136415-72b6-4548-9deb-f81fc9a6048d/IEACleanTechGuidepublicdataset.csv)
 
 **Missing inputs:**
-- capacity factor achieved by on-site solar at a data centre and usable battery cycles per year (performance): The IEA page read gives the aggregate renewable share of added demand but no data-centre-specific capacity factor or cycle count. Where: Operator sustainability reports with on-site generation data. Next: Add capacity factor and annual cycles from an operating project.
 - cost per MW of solar (the battery figure is now recorded) (costs): Battery cost is recorded ($709/kWh, 2023); a separate PV $/MW for a campus deployment was not on the page. Where: IEA and LBNL cost benchmarks; Project finance disclosures. Next: Leave open until a source states this metric and scope.
 
-Sources: [1](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai). Last reviewed 2026-11-16.
+Sources: [1](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai). Last reviewed 2026-11-17.
 
 ## Rack power distribution (PDU, 48 V DC and 415 V AC architectures)
 <a id="idc-rack-power-distribution"></a>
@@ -341,12 +341,14 @@ flowchart LR
 
 **Key equipment:** rack PDUs (basic, metered, switched, per-outlet sensing), 415 V three-phase rack PDUs, 48 V DC rack power shelves, outlet-level metering.
 
+**Performance:**
+- rack PDU power rating: 16.2 kW; PDU3EVNR6G60A rated 16.2 kW at 208 V three-phase, 60 A, monitored per outlet.. [source](https://www.mouser.com/datasheet/2/87/pdu3evnr6g60a-3243643.pdf)
+
 **Missing inputs:**
-- power and current rating per rack PDU model family (kW and A per cabinet) (performance): The Server Technology page read lists product families and voltage variants but no per-cabinet kW or A ratings. Where: Server Technology and Vertiv rack PDU datasheets. Next: Read a datasheet for each family and record the ratings.
 - cost per rack PDU by metering level, with dollar year and basis (costs): No source read gives rack PDU prices. Where: Distributor price books. Next: Add budget prices from a distributor price book.
 - TRL with a cited source (trl): No TRL table was read. Where: IEA Energy Technology Guide. Next: Add a TRL reference.
 
-Sources: [1](https://www.servertech.com/products). Last reviewed 2026-11-14.
+Sources: [1](https://www.servertech.com/products). Last reviewed 2026-11-17.
 
 ## Utility feed and on-site substation for data centres
 <a id="idc-utility-feed-substation"></a>
@@ -401,6 +403,7 @@ flowchart LR
 - CDU capacity range, Vertiv CoolChip family: 70-2300 kW per unit; CDU 70 at 11 C approach temperature differential (liquid-to-air) up to CDU 2300 at 4 C ATD (liquid-to-liquid, in-row). [source](https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu)
 - smallest liquid-to-air model capacity: 70 kW; CDU 70: liquid-to-air, in-row, works without facility water so liquid-cooled servers can sit in an existing air-cooled hall. [source](https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu)
 - in-rack liquid-to-liquid model capacity: 121 kW; CDU 121: 4U in-rack, liquid-to-liquid at 4 C ATD, 174 x 445 x 868 mm. [source](https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu)
+- PUE delta versus air-cooled baseline: 0.04 PUE points; Metered PUE fell from 1.38 all-air to 1.34 at 74.9% direct-to-chip liquid cooling in a 1-2 MW hall with 50 high-density racks.. [source](https://www.vertiv.com/en-us/about/news-and-events/articles/blog-posts/quantifying-data-center-pue-when-introducing-liquid-cooling)
 
 **Costs:**
 - installed cost, direct-to-chip cooling: 6000-9500 USD per kW of IT load (2025$); Cold plates, CDU and manifolds, facility side excluded; a $2,500-4,500/kW premium over air, with in-rack CDU ASP $15,000-30,000 per unit. Per kW of IT load, not per kW of cooling capacity. Vendor/analyst figures.. [source](https://energy-solutions.co/articles/sub/data-center-cooling-liquid-immersion-vs-air)
@@ -409,9 +412,8 @@ TRL source: [Production product family shipping for AI deployments (vendor catal
 
 **Missing inputs:**
 - cost per kW of cooling capacity (per kW of IT load is now recorded) (costs): Costs are recorded per kW of IT load; a per-kW-of-cooling-capacity figure would need the design delta-T, which no source pairs with a price. Where: Uptime Institute and industry cost surveys; vendor budgetary quotes (open). Next: Leave open until a source states this metric and scope.
-- PUE delta versus air-cooled baseline at a given rack density (performance): Not stated on the pages read. Where: Uptime Institute / vendor case studies (open). Next: Add measured PUE deltas with basis.
 
-Sources: [1](https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu), [2](https://www.vertiv.com/en-emea/about/news-and-events/news-releases/2026/vertiv-expands-liquid-cooling-portfolio-in-emea-to-accelerate-ai-ready-data-centre-deployments). Last reviewed 2026-11-16.
+Sources: [1](https://www.vertiv.com/en-in/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu), [2](https://www.vertiv.com/en-emea/about/news-and-events/news-releases/2026/vertiv-expands-liquid-cooling-portfolio-in-emea-to-accelerate-ai-ready-data-centre-deployments). Last reviewed 2026-11-17.
 
 ## Rear-door heat exchangers
 <a id="idc-rear-door-heat-exchangers"></a>
@@ -433,16 +435,16 @@ flowchart LR
 
 **Performance:**
 - supported rack density, rear-door heat exchanger: 20-80 kW per rack; Vertiv article: rear-door heat exchangers support rack densities from 20 to 80 kW, against a practical air-cooling limit of around 20 kW.. [source](https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling)
+- cooling capacity per rear door: 44-78 kW/door; 78 kW at 14 C water and 24 C air, falling to 44 kW at 24 C water and 27 C air; 12 fans and a 200 kPa water-side drop at 6 m3/h.. [source](https://www.nvent.com/sites/default/files/dam//schroff-spec-n00647-rdhxpro-en.pdf)
 
 **Costs:**
 - installed cost, rear-door heat exchanger: 1800-3200 USD per kW of cooling capacity (2026$); 'Advanced air' category including distribution; vendor-site figure, order-of-magnitude only.. [source](https://energy-solutions.co/articles/sub/data-center-cooling-liquid-immersion-vs-air)
 
 **Missing inputs:**
-- cooling capacity per door in kW and the air-side pressure drop (performance): The article read gives the supported rack-density range but no per-door kW capacity or pressure drop. Where: Vertiv and nVent rear-door heat exchanger datasheets. Next: Read a datasheet and record capacity and pressure drop.
 - cost per rear-door unit by capacity (costs): The cost is recorded per kW of cooling; a per-unit price by model size was not found. Where: Vendor budget quotes. Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): No TRL table was read; the register records it as demonstration without a source. Where: IEA Energy Technology Guide. Next: Add a TRL reference.
 
-Sources: [1](https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling). Last reviewed 2026-11-16.
+Sources: [1](https://www.vertiv.com/en-asia/insights/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling). Last reviewed 2026-11-17.
 
 ## SMR and fuel-cell power purchase for data centres
 <a id="idc-smr-fuel-cell-ppa"></a>
@@ -496,13 +498,13 @@ flowchart LR
 
 **Performance:**
 - liquid-cooled infrastructure deployed by one vendor: 500 MW; Submer home page: 500 MW+ liquid-cooled infrastructure deployed and 8 GW+ deployment-ready capacity, with 3 global R&D labs. Vendor-reported aggregate; no per-tank capacity given.. [source](https://submer.com)
+- cooling capacity per immersion tank: 100 kW/tank; 100 kW per two-phase tank with PUE below 1.08 - manufacturer figure.. [source](https://www.deltapowersolutions.com/en/mcis/data-center-immersion-cooling-two-phase.php)
 
 **Costs:**
 - installed capital cost, single-phase immersion: 4500-6800 USD per kW of IT load (2026$); Tanks, fluid, pumping and heat rejection; vendor-site figures (capital intensity $3,500-6,500/kW), order-of-magnitude only.. [source](https://energy-solutions.co/articles/sub/data-center-cooling-liquid-immersion-vs-air)
 
 **Missing inputs:**
-- cooling capacity per tank in kW and achievable PUE (performance): The vendor page read gives aggregate deployed capacity and a deployment-ready figure but no per-tank kW capacity or PUE. Where: GRC, LiquidStack and Submer datasheets and case studies. Next: Read a product datasheet and a published deployment case with capacities.
 - fluid top-up cost (capital is now recorded) (costs): Installed capital is recorded ($4,500-6,800/kW IT, vendor figures); the annual fluid top-up cost was not found. Where: Vendor budget quotes. Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): No TRL table was read. Where: IEA Energy Technology Guide. Next: Add a TRL reference.
 
-Sources: [1](https://submer.com). Last reviewed 2026-11-16.
+Sources: [1](https://submer.com). Last reviewed 2026-11-17.

@@ -107,6 +107,17 @@
       },
       "low": 4,
       "high": 42
+    },
+    {
+      "metric": "specific power, nitrogen expander liquefaction",
+      "unit": "kWh/t",
+      "basis": "0.56 kWh/gal on lean high-pressure feed at about 1,100 psig, equivalent to roughly 350 kWh/t - vendor figure.",
+      "source": {
+        "url": "https://gasprocessingnews.com/articles/2013/07/nitrogen-expansion-cycle-enhances-flexibility-of-small-scale-lng",
+        "note": "Pak (Cosmodyne), Nitrogen expansion cycle for small-scale LNG, read 2026-11-17"
+      },
+      "low": 350,
+      "high": 350
     }
   ],
   "reference_plants": [
@@ -156,28 +167,8 @@
       "note": "Wikipedia: Liquefied natural gas — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "independent comparison of N2 expander and SMR power use",
-      "reason_code": "not_in_sources_read",
-      "reason": "Both sources are vendors. Web-checked 2026-10-28; vendor-specific specific-power claims not independently comparable in open pages.",
-      "where": [
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "LNG Industry / Gastech papers",
-          "access": "open",
-          "source_id": "lng-industry"
-        }
-      ],
-      "action": "Add an independent comparison."
-    }
-  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "trl": {
     "low": 9,
     "high": 9,

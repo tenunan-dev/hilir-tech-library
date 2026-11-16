@@ -81,6 +81,17 @@
         "note": "Enel X Digital Realty Ireland case study, read via search summary 2026-11-12"
       },
       "year": 2026
+    },
+    {
+      "metric": "battery degradation under frequency-response cycling",
+      "unit": "% of life per day",
+      "basis": "Computed from an actual annual frequency curve for a Li-ion BESS on frequency-regulation duty.",
+      "source": {
+        "url": "https://link.springer.com/article/10.1186/s41601-018-0076-2",
+        "note": "Yan et al., Protection and Control of Modern Power Systems, read 2026-11-17"
+      },
+      "low": 0.0359,
+      "high": 0.0359
     }
   ],
   "advantages": [
@@ -107,7 +118,7 @@
       "note": "Enel X UK programmes FAQ (Demand Flexibility Service, Dynamic Containment/Moderation/Regulation, Static FFR), read via search summary 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-14",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -121,19 +132,6 @@
         }
       ],
       "action": "Add revenue ranges per scheme."
-    },
-    {
-      "field": "performance",
-      "item": "battery degradation rates under frequency-response cycling",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated on the pages read.",
-      "where": [
-        {
-          "hint": "Eaton/Microsoft whitepaper; NERC 2025 grid-interactive UPS survey",
-          "access": "open"
-        }
-      ],
-      "action": "Add degradation data with basis."
     }
   ],
   "reference_plants": [],

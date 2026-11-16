@@ -110,6 +110,17 @@
         "note": "gasworld, Burckhardt Compression passes 1m operating hours with Laby-GI compressors"
       },
       "low": 1000000
+    },
+    {
+      "metric": "specific energy consumption, BOG reliquefaction",
+      "unit": "kWh/t",
+      "basis": "Proposed process at 529.4 kWh/t, 50.34% below the reference process.",
+      "source": {
+        "url": "https://ideas.repec.org/a/eee/energy/v278y2023ics0360544223012173.html",
+        "note": "Jin et al., BOG reliquefaction performance analysis (Energy, 2023), read 2026-11-17"
+      },
+      "low": 529.4,
+      "high": 529.4
     }
   ],
   "advantages": [
@@ -142,19 +153,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "kWh per tonne reliquefied",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read gives it. Web-checked 2026-10-28; specific-power figures sit in vendor (Wartsila/Hamworthy/Mitsubishi) brochures not open.",
-      "where": [
-        {
-          "hint": "Wärtsilä and Burckhardt brochures",
-          "access": "open"
-        }
-      ],
-      "action": "Add specific energy from a vendor datasheet."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

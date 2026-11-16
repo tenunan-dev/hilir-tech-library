@@ -84,21 +84,8 @@
       "note": "Wikipedia: Measurement while drilling — process-description cross-check 2026-10-28 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "telemetry data rate and measurement accuracy",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not on the page read. Web-checked 2026-10-28: open articles (Oilwoman Sep-Oct 2020 via Energies Media) characterise mud pulse as low-throughput (highest for continuous-wave) vs wired drill pipe \"superior telemetry rates\", and directional drilling to 40,000 ft, but state no numeric bps/accuracy; researchgate table captions indicate >50 bit/s effective throughput with compression.",
-      "where": [
-        {
-          "hint": "Vendor datasheets",
-          "access": "open"
-        }
-      ],
-      "action": "Add bit rates and accuracy figures."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -148,6 +135,19 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "mud-pulse telemetry data rate",
+      "unit": "bit/s",
+      "basis": "Up to 20 bit/s against below 3 bit/s conventionally, including 15 bit/s at 24,000 ft in the North Sea.",
+      "source": {
+        "url": "https://www.academia.edu/9840372/IADC_SPE_112683_A_New_Mud_Pulse_Telemetry_System_for_Enhanced_MWD_LWD_Applications",
+        "note": "IADC/SPE 112683, mud-pulse telemetry system, read 2026-11-17"
+      },
+      "low": 3,
+      "high": 20
     }
   ]
 }

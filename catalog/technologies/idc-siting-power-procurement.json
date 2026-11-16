@@ -92,6 +92,17 @@
       "year": 2026,
       "low": 700,
       "high": 700
+    },
+    {
+      "metric": "interconnection queue duration",
+      "unit": "years",
+      "basis": "Median request-to-commercial-operation time for projects built in 2023 was nearly five years.",
+      "source": {
+        "url": "https://emp.lbl.gov/publications/queued-2024-edition-characteristics",
+        "note": "LBNL, Queued Up 2024 edition, read 2026-11-17"
+      },
+      "low": 5,
+      "high": 5
     }
   ],
   "advantages": [
@@ -114,7 +125,7 @@
       "note": "AirTrunk Malaysia platform 700 MW+ banner, read 2026-11-12"
     }
   ],
-  "last_reviewed": "2026-11-14",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
@@ -128,19 +139,6 @@
         }
       ],
       "action": "Add benchmark ranges with dollar year."
-    },
-    {
-      "field": "performance",
-      "item": "interconnection queue times by grid operator",
-      "reason_code": "not_in_sources_read",
-      "reason": "Queue data is published per operator but not yet collected.",
-      "where": [
-        {
-          "hint": "Lawrence Berkeley NAB interconnection-queue data",
-          "access": "open"
-        }
-      ],
-      "action": "Add queue-time ranges per major grid."
     }
   ],
   "reference_plants": [],

@@ -88,6 +88,17 @@
       "low": 650000,
       "high": 650000,
       "year": 2023
+    },
+    {
+      "metric": "cradle-to-gate CO2 for polypropylene resin",
+      "unit": "kg CO2e per tonne",
+      "basis": "US average 1,272 kg CO2 per tonne of PP (down from 1,469 in 2010) and 75.5 GJ per tonne.",
+      "source": {
+        "url": "https://plasticmakers.org/wp-content/uploads/2022/09/A-Decreasing-Footprint-LCI-HDPE-LDPE-LLDPE-PP-1.pdf",
+        "note": "American Chemistry Council / Franklin Associates, resin LCAs (2021 PP data), read 2026-11-17"
+      },
+      "low": 1272,
+      "high": 1272
     }
   ],
   "suppliers": [
@@ -150,25 +161,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "performance",
-      "item": "energy and CO2 per tonne of polypropylene",
-      "reason_code": "not_in_sources_read",
-      "reason": "None of the sources read gives it. Web-checked 2026-10-28: LCA values exist in databases but no verifiable open per-tonne figure found.",
-      "where": [
-        {
-          "hint": "Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "IEA reports on petrochemicals (check the iea-reports corpus first)",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Add with system boundary stated."
     }
   ],
   "sources": [
@@ -178,7 +170,7 @@
       "note": "Grace article on UNIPOL PP (2023 licensing figures)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "reference_plants": [
     {
       "name": "HMC Polymers polypropylene plants, Map Ta Phut and Bangkok-region sites, Thailand (PTT/PCD joint venture)",

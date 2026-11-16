@@ -69,6 +69,17 @@
       },
       "low": 25,
       "high": 10000
+    },
+    {
+      "metric": "flame detector horizontal field of view",
+      "unit": "degrees",
+      "basis": "IR field of view 90 degrees horizontal and 80 vertical, detecting a 1 ft2 heptane fire at 0-100 ft (0-30 m) - manufacturer datasheet.",
+      "source": {
+        "url": "https://my.fike.com/_fike_docs/New_Docs_System/Fire%20Protection/Fire%20Detection%20&%20Control/Flame%20and%20Heat%20Detection/Detection/Datasheets/P.1.246.01.pdf",
+        "note": "Fike UV/IR flame detector datasheet, read 2026-11-17"
+      },
+      "low": 90,
+      "high": 90
     }
   ],
   "advantages": [],
@@ -89,19 +100,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "flame detector types and coverage",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not on the page. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "Vendor and FM Global guidance",
-          "access": "open"
-        }
-      ],
-      "action": "Add UV/IR flame detector data."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

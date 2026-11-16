@@ -157,9 +157,9 @@
     },
     {
       "field": "performance",
-      "item": "measured results from the demonstration (CO2, energy, run length)",
-      "reason_code": "status_unchecked",
-      "reason": "Only the 2024 start-up announcement was read. Checked BASF's sustainability pages and Google/Bing news on 2026-10-28; no measured operating results (CO2 avoided, energy use, run length) have been published yet — as of September 2025 BASF reported the plant still testing two heating concepts, with recognition limited to awards (ICIS 2024, Edison 2025).",
+      "item": "measured results from the demonstration (CO2 avoided, energy use, run length)",
+      "reason_code": "not_in_sources_read",
+      "reason": "BASF, SABIC and Linde publish only design targets (two 6 MW furnaces, about 4 t/h feed, 90-95% CO2-reduction potential); as of September 2025 the plant was still testing two heating concepts and no measured CO2, energy or run-length data had been released.",
       "where": [
         {
           "hint": "BASF and Linde publications after 2024; BASF sustainability news archive and annual reports",
@@ -172,7 +172,7 @@
           "source_id": "linde-engineering"
         }
       ],
-      "action": "Check for measured results and any commercial-scale announcement; update the card."
+      "action": "Leave open until the demonstration publishes measured results."
     }
   ],
   "sources": [
@@ -186,5 +186,5 @@
       "note": "BASF sustainability news: eFurnace Edison Award; plant testing two heating concepts, funding up to EUR 14.8 million, September 2025 (read 28 October 2026)"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-11-17"
 }

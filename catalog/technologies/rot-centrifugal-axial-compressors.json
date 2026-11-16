@@ -103,6 +103,17 @@
       },
       "low": 1,
       "high": 10
+    },
+    {
+      "metric": "polytropic efficiency, process centrifugal compressors",
+      "unit": "%",
+      "basis": "Typical 70-85% polytropic efficiency, approaching 90% for the best machines.",
+      "source": {
+        "url": "https://oaktrust.library.tamu.edu/bitstreams/c92a37d9-5159-4a42-9b12-0b349c306028/download",
+        "note": "Gallick, Centrifugal or reciprocating compressor? (TAMU Turbomachinery Symposium), read 2026-11-17"
+      },
+      "low": 70,
+      "high": 85
     }
   ],
   "advantages": [],
@@ -117,21 +128,8 @@
       "note": "Wikipedia, Centrifugal compressor, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "process-duty flow and head ranges, efficiency and API 617 limits",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page gives only a small research compressor map. Web-checked 2026-10-28: Atlas Copco centrifugal class to 205 bar(a) recorded with suppliers; polytropic-efficiency and flow/head envelope tables sit in vendor selectors.",
-      "where": [
-        {
-          "hint": "OEM datasheets and API 617 summaries",
-          "access": "open"
-        }
-      ],
-      "action": "Add typical flow, head and efficiency ranges."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -111,6 +111,17 @@
         "note": "Linde Engineering, nitrogen rejection page, read 25 October 2026"
       },
       "low": 98
+    },
+    {
+      "metric": "installed compression per unit gas treated, cryogenic NRU",
+      "unit": "hp for a 7.5 MMscfd facility",
+      "basis": "1,050 hp of installed compression for a 7.5 MMscfd facility.",
+      "source": {
+        "url": "https://www.ogj.com/general-interest/companies/article/17216185/nitrogen-rejection-process-developed-for-small-fields",
+        "note": "Oil & Gas Journal, nitrogen rejection for small fields, read 2026-11-17"
+      },
+      "low": 1050,
+      "high": 1050
     }
   ],
   "reference_plants": [
@@ -143,22 +154,8 @@
       "note": "Wikipedia: Nitrogen rejection unit — process-description cross-check 2026-10-28 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "power use per unit gas treated",
-      "reason_code": "not_in_sources_read",
-      "reason": "Linde's page gives no capacities or energy figures. Web-checked 2026-10-28; NRJ power figures are vendor-quoted.",
-      "where": [
-        {
-          "hint": "AIChE Spring Meeting papers on NRU technology",
-          "access": "open",
-          "source_id": "aiche-spring"
-        }
-      ],
-      "action": "Add specific energy from an open paper."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

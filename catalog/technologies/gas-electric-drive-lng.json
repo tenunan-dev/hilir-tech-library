@@ -81,6 +81,17 @@
       },
       "low": 850000,
       "high": 850000
+    },
+    {
+      "metric": "electric motor rating per refrigeration compressor",
+      "unit": "MW",
+      "basis": "Three GE 75 MW motors drive the propane and mixed-refrigerant compressors through variable-frequency drives.",
+      "source": {
+        "url": "https://freeportlng.com/our-business/elng",
+        "note": "Freeport LNG, eLNG, read 2026-11-17"
+      },
+      "low": 75,
+      "high": 75
     }
   ],
   "reference_plants": [
@@ -156,25 +167,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "MW per train and specific energy for electric versus gas-turbine drive",
-      "reason_code": "not_in_sources_read",
-      "reason": "The articles read give neither. Web-checked 2026-10-28: motor ratings circulate in trade press but were not verifiable on the open pages read; specific-energy comparison not found.",
-      "where": [
-        {
-          "hint": "McDermott e-drive page",
-          "access": "open",
-          "source_id": "mcdermott"
-        },
-        {
-          "hint": "Equinor technical papers",
-          "access": "open",
-          "source_id": "equinor-tech"
-        }
-      ],
-      "action": "Add motor sizes and kWh per tonne from vendor or LNG conference papers."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

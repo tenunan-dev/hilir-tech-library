@@ -97,6 +97,17 @@
         "url": "https://19january2021snapshot.epa.gov/sites/static/files/2017-08/documents/richards_midland_2006.pdf",
         "note": "US EPA, Installing Vapor Recovery Units to Reduce Methane Losses (Lessons Learned), 2006 (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "flare gas recovery unit product recovery",
+      "unit": "%",
+      "basis": "ASPEN HYSYS simulation of a 430,600 kg/h refinery FGRU: 94% average product recovery; sliding-vane recovery compressors give about 3:1 turndown.",
+      "source": {
+        "url": "https://biomedres.us/fulltexts/BJSTR.MS.ID.007881.php",
+        "note": "Bashir et al., flare gas recovery simulation (2023), read 2026-11-17"
+      },
+      "low": 94,
+      "high": 94
     }
   ],
   "trl": {
@@ -149,19 +160,6 @@
       "action": "Add capex and payback with basis."
     },
     {
-      "field": "performance",
-      "item": "recovery efficiency and turndown of recovery units",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read gives them. EPA Lessons Learned (2006) gives VRU capture of up to 95% of tank vapours (added to performance); FGR-unit turndown still not stated in open datasheets (Zeeco/John Zink pages 404, 2026-10-28).",
-      "where": [
-        {
-          "hint": "Supplier datasheets for the companies listed",
-          "access": "open"
-        }
-      ],
-      "action": "Add recovery efficiency with source."
-    },
-    {
       "field": "reference_plants",
       "item": "named flare reduction projects in Malaysia and Indonesia",
       "reason_code": "not_in_sources_read",
@@ -188,5 +186,5 @@
       "note": "IEA ETP Clean Energy Technology Guide, July 2026"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-11-17"
 }

@@ -79,6 +79,17 @@
         "url": "https://www.carbios.com/en/carbios-depolymerizes-100-of-pet-based-plastic-waste-with-its-enzymatic-recycling-process",
         "note": "Carbios press release, 2 Dec 2015; C&EN 8 Feb 2020 (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "enzymatic PET depolymerisation extent",
+      "unit": "% PET depolymerised in 10 h",
+      "basis": "At least 90% depolymerisation to monomers in 10 hours at 16.7 g terephthalate per litre per hour.",
+      "source": {
+        "url": "https://www.nature.com/articles/s41586-020-2149-4",
+        "note": "Tournier et al., engineered PET depolymerase (Nature, 2020), read 2026-11-17"
+      },
+      "low": 90,
+      "high": 90
     }
   ],
   "trl": {
@@ -151,20 +162,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "performance",
-      "item": "monomer yield and energy use",
-      "reason_code": "not_in_sources_read",
-      "reason": "The article read gives capacity only. Carbios company-reported 100% depolymerisation recorded; independent yield figures and energy use remain unpublished, 2026-10-28.",
-      "where": [
-        {
-          "hint": "Carbios technical publications; open reviews of PET recycling",
-          "access": "open",
-          "source_id": "arxiv"
-        }
-      ],
-      "action": "Add yield and energy per tonne PET."
     }
   ],
   "sources": [
@@ -185,5 +182,5 @@
       "note": "Carbios enzymatic depolymerisation release, 2 Dec 2015"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-11-17"
 }

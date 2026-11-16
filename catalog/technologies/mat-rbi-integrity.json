@@ -71,19 +71,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "documented savings from RBI programmes",
-      "reason_code": "not_in_sources_read",
-      "reason": "None on the page. Web-checked 2026-10-28: suppliers recorded where applicable; the remaining performance/cost figures sit in vendor-selector or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "API 580 and 581 summaries",
-          "access": "open"
-        }
-      ],
-      "action": "Add examples."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -134,5 +121,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Documents the RBI methodology as Risk = Probability x Consequence, with the team workflow of collecting, reviewing and validating data, identifying and analysing risk, and building an inspection plan sized to condition and tolerated risk, including the diminishing returns on inspection effort."
+  "notes": "Process provenance: Documents the RBI methodology as Risk = Probability x Consequence, with the team workflow of collecting, reviewing and validating data, identifying and analysing risk, and building an inspection plan sized to condition and tolerated risk, including the diminishing returns on inspection effort.",
+  "performance": [
+    {
+      "metric": "documented inspection-related savings from RBI",
+      "unit": "USD million over ten years",
+      "basis": "About USD 15M saved over ten years, built from USD 3.2M maintenance reduction, USD 4.6M risk-reduction and USD 8M from extended turnaround intervals - a vendor case study; dollar year not stated",
+      "source": {
+        "url": "https://www.aoccorp.com/knowledge/rbi-yields-big-savings",
+        "note": "AOC Corp, RBI case study (Gulf Coast chemical plant), read 2026-11-17"
+      },
+      "low": 15,
+      "high": 15
+    }
+  ]
 }

@@ -116,6 +116,17 @@
         "source_id": "netl",
         "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
       }
+    },
+    {
+      "metric": "specific power, classical cascade liquefaction",
+      "unit": "kWh/t",
+      "basis": "0.33 kWh/kg (330 kWh/t), the lowest of the cycles compared and used as the normalised value of 1.",
+      "source": {
+        "url": "https://www.techscience.com/fdmp/v18n1/45569/html",
+        "note": "Critical analysis of LNG liquefaction technology (FDMP 2022), read 2026-11-17"
+      },
+      "low": 330,
+      "high": 330
     }
   ],
   "suppliers": [
@@ -196,7 +207,7 @@
       "note": "NETL, Life Cycle GHG Perspective on Exporting LNG from the United States: 2019 Update, DOE/NETL-2019/2041, 12 September 2019, Exhibits 5-7 and 5-11, Appendix B"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -237,39 +248,6 @@
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
-    },
-    {
-      "field": "performance",
-      "item": "specific power of the liquefaction process (kWh/t LNG) and how it differs from other processes",
-      "reason_code": "not_in_sources_read",
-      "reason": "An open 2020 comparison (OGST, CC BY 4.0) gives specific power for C3MR, DMR and MFC (about 320-391 kWh/t) but not for the cascade process. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "ConocoPhillips Optimized Cascade technical papers (LNG conference proceedings)",
-          "access": "open"
-        },
-        {
-          "hint": "NETL LNG life cycle report 2019 (collected): Exhibit 5-7 only",
-          "url": "https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf",
-          "source_id": "netl",
-          "access": "open"
-        },
-        {
-          "hint": "IEA gas and LNG reports",
-          "source_id": "iea-reports",
-          "access": "open"
-        },
-        {
-          "hint": "Open journal comparisons of LNG processes (MDPI Energies is blocked; use the manual inbox)",
-          "access": "blocked"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        }
-      ],
-      "action": "Find an open paper or report that compares specific power across C3MR, AP-X, cascade, DMR and MFC on the same basis."
     }
   ]
 }

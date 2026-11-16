@@ -94,6 +94,9 @@ flowchart LR
 
 **Key equipment:** fuel handling, grate or fluidised-bed boiler, steam turbine, flue gas cleaning.
 
+**Performance:**
+- net electricity yield per tonne of municipal solid waste: 550 kWh/t; EIA: a typical waste-to-energy plant generates about 550 kWh per ton of waste. No net electrical-efficiency percentage is given.. [source](https://www.eia.gov/energyexplained/biomass/waste-to-energy-in-depth.php)
+
 **Costs:**
 - capital cost of the Dubai Waste Management Centre waste-to-energy plant: 1 billion USD project cost (1.9 Mt/yr waste processing) (2023$); dollar year not stated in the source (publication 2023); "Dubai opens $1bn waste-to-energy centre" covering 1.9 Mt/yr of waste. [source](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity)
 
@@ -102,10 +105,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Biomass gasification - small-scale (bio-syngas)' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- electrical efficiency, throughput and plant examples (performance): Hitachi Zosen Inova's site redirected to Kanadevia Inova and was not read. Where: [Kanadevia Inova](https://kanadevia-inova.com/) (open). Next: Fetch the redirected site and add plant data.
-
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity), [3](https://en.wikipedia.org/wiki/Waste-to-energy). Last reviewed 2026-10-29.
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.agbi.com/energy/2023/07/dubai-waste-to-energy-plant-starts-transmitting-electricity), [3](https://en.wikipedia.org/wiki/Waste-to-energy). Last reviewed 2026-11-17.
 
 ## Cogeneration and combined heat and power
 <a id="pwr-cogeneration-chp"></a>
@@ -296,6 +296,7 @@ flowchart LR
 **Performance:**
 - global installed floating PV: 1.1 GW; September 2018 (report date 30 October 2018). [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
 - conservative global potential: 400 GW; World Bank estimate. [source](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water)
+- global cumulative installed floating PV capacity, end-2024: 9.16 GW; IEA PVPS: 9.16 GW cumulative at end-2024, up from 7.7 GW in 2023 with 1.5 GW added in 2024. A verified yield gain versus land PV is not given.. [source](https://taiyangnews.info/technology/iea-pvps-global-floating-solar-capacity-exceeds-9-gw-in-2024)
 
 **Costs:**
 - total capital cost, floating PV: 1.18 USD per Wp (2022$); Median of reported projects (about 1,180 USD/kWp); 30 projects sit below 1.00 USD/W. Total capex, not overnight.. [source](https://iea-pvps.org/wp-content/uploads/2025/04/IEA-PVPS-T13-31-2025-REPORT-Floating-PV-Plants.pdf)
@@ -305,10 +306,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Floating solar PV' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- current global capacity and yield gain percentage (performance): The World Bank report is from 2018. Web-checked 2026-10-28: World Bank/SERIS put global floating solar above 1.1 GW back in 2018 (pv-tech) with higher yield from water cooling, but neither a current (2025-26) global GW figure nor a verified yield-gain percentage was found in open pages. Where: IRENA and IEA PVPS floating PV statistics (catalog: irena, open). Next: Add a 2024 or 2025 capacity figure.
-
-Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water), [2](https://en.wikipedia.org/wiki/Floating_solar). Last reviewed 2026-11-16.
+Sources: [1](https://www.worldbank.org/en/topic/energy/publication/where-sun-meets-water), [2](https://en.wikipedia.org/wiki/Floating_solar). Last reviewed 2026-11-17.
 
 ## Flow batteries (vanadium, zinc-bromine)
 <a id="pwr-flow-batteries"></a>
@@ -749,6 +747,9 @@ flowchart LR
 
 **Key equipment:** rotor, nacelle with generator, tower, converter, foundation.
 
+**Performance:**
+- capacity factor, US onshore wind: 37 %; Average 2022 capacity factor for projects built in 2021 was 37%, below 2014-2020 vintages.. [source](https://www.energy.gov/sites/default/files/2023-08/land-based-wind-market-report-2023-edition.pdf)
+
 **Costs:**
 - global weighted-average utility-scale onshore wind cost: 1210 USD/kW installed (2018), average LCOE 0.056 USD/kWh (2018$); IRENA, Renewable Power Generation Costs in 2018: utility-scale onshore wind installed costs fell 13% to USD 1,210/kW in 2018 (2018 USD); weighted-average LCOE USD 0.056/kWh. [source](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf)
 
@@ -757,10 +758,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Onshore wind' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- turbine ratings, capacity factors and installed cost with dollar year (performance): The DOE land-based wind market report page returned an error and the NREL ATB land-based wind page is blocked by robots.txt. Where: [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/land-based-wind-market-reports-2025-edition) (open); IRENA Renewable Power Generation Costs (catalog: irena, open). Next: Fetch a reachable edition and add figures with their year.
-
-Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf), [3](https://en.wikipedia.org/wiki/Wind_power). Last reviewed 2026-11-16.
+Sources: [1](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide), [2](https://www.actu-environnement.com/media/pdf/news-33524-rapport.pdf), [3](https://en.wikipedia.org/wiki/Wind_power). Last reviewed 2026-11-17.
 
 ## Powerships and power barges
 <a id="pwr-powerships-power-barges"></a>
@@ -853,6 +851,7 @@ flowchart LR
 **Performance:**
 - North American VPP capacity: 37.5 GW; 2025. [source](https://en.wikipedia.org/wiki/Virtual_power_plant)
 - AGL South Australia VPP: 25-37 MW solar and MW storage; 2025 programme size after AGL acquisition. [source](https://en.wikipedia.org/wiki/Virtual_power_plant)
+- share of platform electricity demand met by offshore wind: 35 %; 88 MW Hywind Tampen is expected to meet about 35% of the electricity demand of the Gullfaks and Snorre fields - the closest cited oil-and-gas microgrid case.. [source](https://www.equinor.com/news/20221114-first-power-from-hywind-tampen)
 
 **Costs:**
 - cost of VPP-delivered resource versus conventional alternative: 40-60 percent of conventional cost; Brattle finds VPP resources cost about 40-60% of the conventional alternative - a comparative ratio, not an absolute capital cost.. [source](https://www.brattle.com/wp-content/uploads/2023/04/Real-Reliability-The-Value-of-Virtual-Power-Full-Report.pdf)
@@ -863,10 +862,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Virtual power plants' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- microgrid examples for oil and gas operations (performance): Wikipedia covers VPPs only. Web-checked 2026-10-28; O&G microgrid case studies are vendor-published without verifiable figures. Where: Operator microgrid case studies (open). Next: Add an oil and gas microgrid reference.
 - absolute capital and operating cost (costs): Only a comparative ratio is published (40-60% of the conventional alternative); no absolute $/kW for a VPP platform was found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 
-Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant), [2](https://en.wikipedia.org/wiki/Smart_grid). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Virtual_power_plant), [2](https://en.wikipedia.org/wiki/Smart_grid). Last reviewed 2026-11-17.
 
 ## Ammonia co-firing in coal boilers
 <a id="pwr-ammonia-coal-cofiring"></a>
@@ -921,6 +919,7 @@ flowchart LR
 **Performance:**
 - Willow Rock power: 500 MW; late-stage development. [source](https://www.hydrostor.ca/willow-rock/)
 - Willow Rock energy: 4000 MWh; 8+ hours. [source](https://www.hydrostor.ca/willow-rock/)
+- round-trip efficiency, liquid air energy storage: 50-60 %; Optimised process model predicted up to 60% round-trip efficiency against a >50% design target for the pilot plant. No Carrington operating figure is stated.. [source](https://cris.brighton.ac.uk/ws/files/5530179/Liquid_air_energy_storage_Analysis_and_first_results_from_a_pilot_scale_demonstration_plant.pdf.pdf)
 
 **Costs:**
 - capital cost, liquid air energy storage: 3250 GBP per kW; Per kW of power capacity, not per kWh - a scope difference the gap's wording does not anticipate.. [source](https://insights.lcp.com/rs/032-PAO-331/images/LCP-Delta-Value-of-long-duration-BESS-April-2025.pdf)
@@ -930,10 +929,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Compressed air energy storage' 9 (2025); 'Liquid air energy storage' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- round-trip efficiency and Highview Carrington data (performance): Highview's site blocks automated reading and Hydrostor's page gives no efficiency. Where: [Highview Power project pages](https://highview-power.com/) (open). Next: Add efficiency and MWh for operating projects.
-
-Sources: [1](https://www.hydrostor.ca/willow-rock/), [2](https://en.wikipedia.org/wiki/Compressed_air_energy_storage). Last reviewed 2026-11-16.
+Sources: [1](https://www.hydrostor.ca/willow-rock/), [2](https://en.wikipedia.org/wiki/Compressed_air_energy_storage). Last reviewed 2026-11-17.
 
 ## Enhanced geothermal systems
 <a id="pwr-enhanced-geothermal"></a>
@@ -1011,16 +1007,18 @@ flowchart LR
 
 **Key equipment:** hoist, masses, motor-generator, control system.
 
+**Performance:**
+- round-trip efficiency, gravity energy storage: 65-90 %; Peer-reviewed assessment reports a 65-90% round-trip band for gravity storage, against 65-87% for pumped hydro.. [source](https://www.sciencedirect.com/science/article/abs/pii/S2352152X22014967)
+
 **Reference plants:**
 - Energy Vault EVx Rudong gravity storage, Rudong, Jiangsu (with China Tianying), CN: 25 MW / 100 MWh grid-connected gravity-energy-storage system supporting a wind farm under SGCC — first-of-its-kind commercial EVx deployment, shown as operating on the company's project page; operating. [source](https://energyvault.com/projects)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Gravity-based storage (excluding pumped hydro)' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor round-trip claims only, no independent figures. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open cost figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://www.energyvault.com/), [2](https://en.wikipedia.org/wiki/Gravity_battery). Last reviewed 2026-11-11.
+Sources: [1](https://www.energyvault.com/), [2](https://en.wikipedia.org/wiki/Gravity_battery). Last reviewed 2026-11-17.
 
 ## Hydrogen-capable and ammonia-fired gas turbines
 <a id="pwr-hydrogen-ammonia-turbines"></a>
@@ -1104,6 +1102,9 @@ flowchart LR
 
 **Key equipment:** reactor module, steam generator, containment, turbine.
 
+**Performance:**
+- net electrical capacity, BWRX-300 SMR: 300 MWe; 300 MWe BWRX-300 at Darlington, construction approval April 2025, CAD 7.7 bn project.. [source](https://pro.smrbrief.com/projects/darlington-bwrx-300)
+
 **Costs:**
 - overnight capital cost, light-water SMR: 8936 USD per kW (2023$); 6 x 80 MW SMR, 480 MW net, total overnight capital.. [source](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf)
 
@@ -1112,10 +1113,7 @@ flowchart LR
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Water-cooled SMR' 7 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-**Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; vendor design figures already on card; no independent operating data (no operating SMR yet in Western markets). Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
-
-Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors), [2](https://en.wikipedia.org/wiki/Small_modular_reactor). Last reviewed 2026-11-16.
+Sources: [1](https://world-nuclear.org/information-library/nuclear-fuel-cycle/nuclear-power-reactors/small-nuclear-power-reactors), [2](https://en.wikipedia.org/wiki/Small_modular_reactor). Last reviewed 2026-11-17.
 
 ## Sodium-ion batteries
 <a id="pwr-sodium-ion-batteries"></a>
@@ -1134,6 +1132,7 @@ flowchart LR
 **Performance:**
 - energy density, CATL Naxtra: 175 Wh/kg; versus about 185 Wh/kg for LFP; secondary source. [source](https://en.wikipedia.org/wiki/Sodium-ion_battery)
 - cycle life claim, CATL Naxtra: 10000 cycles; vendor claim relayed by a secondary source. [source](https://en.wikipedia.org/wiki/Sodium-ion_battery)
+- energy density, sodium-ion battery: 175 Wh/kg; CATL states 175 Wh/kg with a claim of over 10,000 cycles - manufacturer figures.. [source](https://www.catl.com/en/news/6401.html)
 
 **Reference plants:**
 - Fulin Sodium-ion Battery Energy Storage Station, Nanning, Guangxi (China Southern Power Grid / HiNa Battery), CN: China's first large-scale sodium-ion BESS; first phase 10 MWh entered operation 11 May 2024; 42 battery containers and 21 PCS units at full build-out (1 July 2024 completion reported); operating. [source](https://electrek.co/2024/05/17/china-first-large-scale-sodium-ion-battery)
@@ -1141,7 +1140,6 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Sodium-ion storage battery' 9 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- primary-source specifications (performance): Figures come from a Wikipedia summary of vendor claims. Where: CATL and HiNa technical announcements (open); [Open process-description authority (secondary): Wikipedia article 'Sodium-ion battery'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.](https://en.wikipedia.org/wiki/Sodium-ion_battery) (open). Next: Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Replace with vendor datasheets.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; pack prices not published in open sources. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
 Sources: [1](https://en.wikipedia.org/wiki/Sodium-ion_battery), [2](https://www.batterydesign.net/sodium-ion-cell-manufacturing-process/). Last reviewed 2026-11-17.
@@ -1221,6 +1219,9 @@ flowchart LR
 
 **Key equipment:** perovskite deposition line, silicon bottom cell, encapsulation.
 
+**Performance:**
+- certified cell efficiency, two-terminal perovskite/silicon tandem: 34.85 %; Independently certified 34.85% for a two-terminal crystalline-silicon/perovskite tandem cell. Module efficiency is recorded separately on the card.. [source](https://www.longi.com/en/news/silicon-perovskite-tandem-solar-cells-new-world-efficiency)
+
 **Costs:**
 - module manufacturing cost, perovskite/silicon tandem: 0.29-0.42 USD per W-DC (2024$); Module manufacturing cost only (median $0.35/W), not plant capex per kW; at 25-30% module efficiency.. [source](https://www.cell.com/joule/pdf/S2542-4351(24)00466-5.pdf)
 
@@ -1230,10 +1231,9 @@ flowchart LR
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, latest assessment (IEA 1-11 scale): 'Perovskite thin film' 6 (2025)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- certified cell and module efficiency records with dates (performance): NREL's efficiency chart page and the Oxford PV page carry no values in text. Where: NREL research cell efficiency chart data file (catalog: nrel, open); Oxford PV press releases (open). Next: Download the NREL data file and record tandem and silicon records with dates.
 - plant capital cost per kW for a tandem PV plant (costs): Module manufacturing cost is recorded ($0.29-0.42/W DC, 2024). A plant-level capex per kW needs BOS and installation, which no source loaded provides. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Leave open until a source states this metric and scope.
 
-Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/), [3](https://en.wikipedia.org/wiki/Perovskite_solar_cell). Last reviewed 2026-11-16.
+Sources: [1](https://atb.nrel.gov/electricity/2024/utility-scale_pv), [2](https://www.oxfordpv.com/), [3](https://en.wikipedia.org/wiki/Perovskite_solar_cell). Last reviewed 2026-11-17.
 
 ## Tidal and wave energy
 <a id="pwr-tidal-wave"></a>

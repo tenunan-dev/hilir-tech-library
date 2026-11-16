@@ -125,6 +125,17 @@
         "source_id": "iea-reports",
         "note": "IEA, Energy and AI, Energy demand from AI, read 2026-11-14"
       }
+    },
+    {
+      "metric": "water usage effectiveness benchmark",
+      "unit": "L/kWh",
+      "basis": "1.8 L/kWh cited as the cross-industry average WUE.",
+      "source": {
+        "url": "https://www.datacenterknowledge.com/cooling/a-guide-to-data-center-water-usage-effectiveness-wue-and-best-practices",
+        "note": "Data Center Knowledge, WUE guide, read 2026-11-17"
+      },
+      "low": 1.8,
+      "high": 1.8
     }
   ],
   "advantages": [
@@ -149,21 +160,6 @@
     }
   ],
   "gaps": [
-    {
-      "field": "performance",
-      "item": "water usage effectiveness (WUE) benchmark, in litres per kWh of IT energy",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Uptime report read gives PUE figures but no WUE value in its text; no other source read states one.",
-      "action": "Add a sourced WUE benchmark with its boundary and cooling type.",
-      "where": [
-        {
-          "hint": "Uptime Institute WUE reporting guidance"
-        },
-        {
-          "hint": "Operator sustainability reports disclosing WUE"
-        }
-      ]
-    },
     {
       "field": "costs",
       "item": "cost of metering and benchmarking instrumentation per MW of IT load",
@@ -190,5 +186,5 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-17"
 }

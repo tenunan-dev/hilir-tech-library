@@ -87,19 +87,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "pressure ratings, diameters, laying speed and temperature limits",
-      "reason_code": "source_unreachable",
-      "reason": "Shawcor's PDF is blocked by robots.txt and the Wikipedia page was not read in detail.",
-      "where": [
-        {
-          "hint": "Soluforce, Strohm and Baker Hughes product pages",
-          "access": "open"
-        }
-      ],
-      "action": "Add ratings from a vendor datasheet."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -151,5 +138,18 @@
       "year": 2003
     }
   ],
-  "notes": "Process provenance: construction and installation follow the supplier's description of API 15S line pipe - thermoplastic liner, helically wound reinforcement (polymer fibre, glass, aramid or steel strip) and outer cover, with end fittings as pressure-containing parts; installation covered at planning level (reel capacity, payout, minimum bend radius, pull forces, burial, terminations, repairs). No step-by-step procedure or qualification-test regime."
+  "notes": "Process provenance: construction and installation follow the supplier's description of API 15S line pipe - thermoplastic liner, helically wound reinforcement (polymer fibre, glass, aramid or steel strip) and outer cover, with end fittings as pressure-containing parts; installation covered at planning level (reel capacity, payout, minimum bend radius, pull forces, burial, terminations, repairs). No step-by-step procedure or qualification-test regime.",
+  "performance": [
+    {
+      "metric": "maximum design pressure, reinforced thermoplastic pipe",
+      "unit": "bar",
+      "basis": "Up to 450 bar (6,527 psi) design pressure, service to 85 C (105 C for the high-temperature grade). Diameter range not stated on the page read.",
+      "source": {
+        "url": "https://www.soluforce.com/product-overview/what-is-an-fcp-rtp.html",
+        "note": "SoluForce RTP product overview (API 15S), read 2026-11-17"
+      },
+      "low": 450,
+      "high": 450
+    }
+  ]
 }

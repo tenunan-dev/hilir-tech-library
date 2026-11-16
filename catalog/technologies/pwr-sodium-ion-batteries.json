@@ -72,6 +72,17 @@
       },
       "low": 10000,
       "high": 10000
+    },
+    {
+      "metric": "energy density, sodium-ion battery",
+      "unit": "Wh/kg",
+      "basis": "CATL states 175 Wh/kg with a claim of over 10,000 cycles - manufacturer figures.",
+      "source": {
+        "url": "https://www.catl.com/en/news/6401.html",
+        "note": "CATL Naxtra launch release (2025), read 2026-11-17"
+      },
+      "low": 175,
+      "high": 175
     }
   ],
   "trl": {
@@ -104,24 +115,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "primary-source specifications",
-      "reason_code": "general_knowledge_only",
-      "reason": "Figures come from a Wikipedia summary of vendor claims.",
-      "where": [
-        {
-          "hint": "CATL and HiNa technical announcements",
-          "access": "open"
-        },
-        {
-          "hint": "Open process-description authority (secondary): Wikipedia article 'Sodium-ion battery'. Cross-check the card's process_steps against it, then cite it in sources with note 'secondary'.",
-          "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
-          "access": "open"
-        }
-      ],
-      "action": "Verify the card's process_steps against the attached authority page, then cite it and delete this gap. Replace with vendor datasheets."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -93,31 +93,8 @@
       "note": "Wikipedia, Process simulation, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
-          "source_id": "osti"
-        }
-      ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
@@ -167,6 +144,19 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    }
+  ],
+  "performance": [
+    {
+      "metric": "energy-duty reduction from simulation-based retrofit optimisation",
+      "unit": "%",
+      "basis": "Tuning existing operating variables in a rigorous steady-state model cut total energy duty 14%, about USD 1.4M per year, before any capital retrofit - a single case.",
+      "source": {
+        "url": "https://pubs.acs.org/iecred/article/64/49/23622/3733008/Process-Simulation-and-Retrofit-Optimization-for",
+        "note": "Dias et al., Process Simulation and Retrofit Optimization (I&EC Research 2025), read 2026-11-17"
+      },
+      "low": 14,
+      "high": 14
     }
   ]
 }

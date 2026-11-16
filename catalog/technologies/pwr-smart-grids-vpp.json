@@ -81,6 +81,17 @@
       "low": 25,
       "high": 37,
       "year": 2025
+    },
+    {
+      "metric": "share of platform electricity demand met by offshore wind",
+      "unit": "%",
+      "basis": "88 MW Hywind Tampen is expected to meet about 35% of the electricity demand of the Gullfaks and Snorre fields - the closest cited oil-and-gas microgrid case.",
+      "source": {
+        "url": "https://www.equinor.com/news/20221114-first-power-from-hywind-tampen",
+        "note": "Equinor, First power from Hywind Tampen (2022), read 2026-11-17"
+      },
+      "low": 35,
+      "high": 35
     }
   ],
   "trl": {
@@ -110,21 +121,8 @@
       "note": "Wikipedia: Smart grid — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "microgrid examples for oil and gas operations",
-      "reason_code": "not_in_sources_read",
-      "reason": "Wikipedia covers VPPs only. Web-checked 2026-10-28; O&G microgrid case studies are vendor-published without verifiable figures.",
-      "where": [
-        {
-          "hint": "Operator microgrid case studies",
-          "access": "open"
-        }
-      ],
-      "action": "Add an oil and gas microgrid reference."
-    },
     {
       "field": "costs",
       "item": "absolute capital and operating cost",

@@ -60,6 +60,17 @@
       },
       "low": 32.5,
       "high": 32.5
+    },
+    {
+      "metric": "overall material yield, mechanical recycling of mixed plastic waste",
+      "unit": "% overall yield",
+      "basis": "Mechanical recycling yields 53% overall against 65% for physical recycling, with 25-37% of output going to refuse-derived fuel.",
+      "source": {
+        "url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC132067/JRC132067_01.pdf",
+        "note": "EU Joint Research Centre, plastic waste recycling assessment (2023), read 2026-11-17"
+      },
+      "low": 53,
+      "high": 53
     }
   ],
   "advantages": [
@@ -78,21 +89,8 @@
       "note": "Wikipedia: Plastic recycling — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "yields and recyclate quality limits",
-      "reason_code": "not_in_sources_read",
-      "reason": "The paper gives no yields. Web-checked 2026-10-28: quality degradation per mechanical cycle is well described qualitatively (IV loss, chain scission) but no verified numeric yield/quality-limit table found in open pages.",
-      "where": [
-        {
-          "hint": "Plastics Recyclers Europe reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add yield data."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

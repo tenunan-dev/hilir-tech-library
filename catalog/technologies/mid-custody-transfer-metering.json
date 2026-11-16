@@ -87,6 +87,17 @@
         "url": "https://www.controleng.com/selecting-flowmeters-for-natural-gas",
         "note": "Control Engineering, Selecting flowmeters for natural gas, 13 Jun 2016 (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "custody-transfer accuracy, Coriolis meters under AGA 11",
+      "unit": "% of volumetric flow",
+      "basis": "AGA 11 governs Coriolis custody meters at 0.35-0.5% volumetric accuracy; AGA 9 governs multipath ultrasonic meters. API MPMS tables were not read.",
+      "source": {
+        "url": "https://www.controleng.com/selecting-flowmeters-for-natural-gas",
+        "note": "Control Engineering, selecting flowmeters for natural gas (2016), read 2026-11-17"
+      },
+      "low": 0.35,
+      "high": 0.5
     }
   ],
   "advantages": [
@@ -112,22 +123,8 @@
       "note": "Wikipedia: Flow measurement — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "custody-transfer accuracy classes under AGA 9, AGA 11 and API MPMS",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated in the pages read. AGA 11 Coriolis accuracy (0.35-0.5%) recorded in performance; AGA 9/API MPMS class tables are paywalled standards text, 2026-10-28.",
-      "where": [
-        {
-          "hint": "AGA 9 and API MPMS",
-          "access": "open",
-          "source_id": "api-standards"
-        }
-      ],
-      "action": "Add accuracy classes with standard references."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

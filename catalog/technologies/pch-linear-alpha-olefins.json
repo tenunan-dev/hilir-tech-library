@@ -60,6 +60,17 @@
       },
       "low": 150000,
       "high": 150000
+    },
+    {
+      "metric": "product distribution, Chevron Phillips LAO process",
+      "unit": "wt% in the hexene-to-decene cut",
+      "basis": "Typical distribution by process (wt%): C4 14, C6-C10 41, C12-C14 19, C16-C18 12, C20+ 14. Shell and Ethyl distributions differ.",
+      "source": {
+        "url": "https://ijeast.com/papers/83-86,Tesma204,IJEAST.pdf",
+        "note": "IJEAST review, LAO production by ethylene oligomerisation (2017), read 2026-11-17"
+      },
+      "low": 41,
+      "high": 41
     }
   ],
   "reference_plants": [
@@ -93,20 +104,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "product distribution and selectivity",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not in the article; the collected Linde document (gas conditioning and purification: CO shift conversion, Rectisol wash) contains no alpha-SABLIN product distribution or selectivity data. Web-checked 2026-10-28: LAO distributions follow near-Flory statistics by carbon number, but the open pages found state no verifiable distribution table.",
-      "where": [
-        {
-          "hint": "Linde alpha-SABLIN brochure",
-          "access": "open",
-          "source_id": "linde-engineering"
-        }
-      ],
-      "action": "Add distribution."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

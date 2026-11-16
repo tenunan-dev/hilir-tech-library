@@ -96,6 +96,17 @@
         "source_id": "iea-reports",
         "note": "IEA, Energy and AI, Energy supply for AI, read 2026-11-14"
       }
+    },
+    {
+      "metric": "solar PV capacity factor",
+      "unit": "%",
+      "basis": "US utility-scale PV averaged a 23% annual capacity factor in 2024.",
+      "source": {
+        "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=table_6_07_b",
+        "note": "US EIA, Electric Power Monthly, read 2026-11-17"
+      },
+      "low": 23,
+      "high": 23
     }
   ],
   "advantages": [
@@ -117,18 +128,6 @@
   ],
   "gaps": [
     {
-      "field": "performance",
-      "item": "capacity factor achieved by on-site solar at a data centre and usable battery cycles per year",
-      "reason_code": "not_in_sources_read",
-      "reason": "The IEA page read gives the aggregate renewable share of added demand but no data-centre-specific capacity factor or cycle count.",
-      "action": "Add capacity factor and annual cycles from an operating project.",
-      "where": [
-        {
-          "hint": "Operator sustainability reports with on-site generation data"
-        }
-      ]
-    },
-    {
       "field": "costs",
       "item": "cost per MW of solar (the battery figure is now recorded)",
       "reason_code": "not_in_sources_read",
@@ -145,7 +144,7 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "trl": {
     "low": 9,
     "high": 9,

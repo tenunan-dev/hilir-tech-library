@@ -84,6 +84,17 @@
       },
       "low": 4000,
       "high": 4000
+    },
+    {
+      "metric": "round-trip efficiency, liquid air energy storage",
+      "unit": "%",
+      "basis": "Optimised process model predicted up to 60% round-trip efficiency against a >50% design target for the pilot plant. No Carrington operating figure is stated.",
+      "source": {
+        "url": "https://cris.brighton.ac.uk/ws/files/5530179/Liquid_air_energy_storage_Analysis_and_first_results_from_a_pilot_scale_demonstration_plant.pdf.pdf",
+        "note": "Morgan et al., Liquid air energy storage pilot plant (Applied Energy), read 2026-11-17"
+      },
+      "low": 50,
+      "high": 60
     }
   ],
   "trl": {
@@ -113,23 +124,8 @@
       "note": "Wikipedia: Compressed-air energy storage — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "round-trip efficiency and Highview Carrington data",
-      "reason_code": "source_unreachable",
-      "reason": "Highview's site blocks automated reading and Hydrostor's page gives no efficiency.",
-      "where": [
-        {
-          "hint": "Highview Power project pages",
-          "access": "open",
-          "url": "https://highview-power.com/"
-        }
-      ],
-      "action": "Add efficiency and MWh for operating projects."
-    }
-  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Huntorf CAES (Germany, 1978) and McIntosh CAES (Alabama, USA, 1991)",

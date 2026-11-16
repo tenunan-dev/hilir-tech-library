@@ -72,24 +72,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "process descriptions, capacities and energy use for polycarbonate and nylon",
-      "reason_code": "source_unreachable",
-      "reason": "Search results were patents and a paywalled news item.",
-      "where": [
-        {
-          "hint": "Covestro and SABIC technical pages",
-          "access": "open",
-          "source_id": "sabic-licensing"
-        },
-        {
-          "hint": "IHS Process Economics Program (paid)",
-          "access": "paid"
-        }
-      ],
-      "action": "Add a licensor or review source."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -140,5 +122,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Documents continuous two-stage polymerisation of polyamide 6 - pre-polymeriser under pressure followed by a VK tube at vacuum or atmospheric pressure - for engineering-plastic and fibre grades at line capacities up to 400 t/day."
+  "notes": "Process provenance: Documents continuous two-stage polymerisation of polyamide 6 - pre-polymeriser under pressure followed by a VK tube at vacuum or atmospheric pressure - for engineering-plastic and fibre grades at line capacities up to 400 t/day.",
+  "performance": [
+    {
+      "metric": "energy and CO2 per tonne of compounded polycarbonate",
+      "unit": "GJ per tonne",
+      "basis": "About 18 GJ per tonne of compounded polycarbonate, giving about 1.1 t CO2 per tonne.",
+      "source": {
+        "url": "https://www.pbl.nl/uploads/default/downloads/pbl-2021-decarbonisation-options-for-the-dutch-polycarbonate-industry-4580.pdf",
+        "note": "PBL Netherlands, decarbonisation options for polycarbonate (2021), read 2026-11-17"
+      },
+      "low": 18,
+      "high": 18
+    }
+  ]
 }

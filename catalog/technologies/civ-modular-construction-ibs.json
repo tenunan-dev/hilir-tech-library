@@ -76,7 +76,19 @@
       "product": "IBS industrialised building system programme"
     }
   ],
-  "performance": [],
+  "performance": [
+    {
+      "metric": "programme saving versus conventional construction",
+      "unit": "% construction time",
+      "basis": "IBS projects save up to 30% of construction time; CIDB case studies show near cost parity.",
+      "source": {
+        "url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2014/02/e3sconf_etsdc2014_01009.pdf",
+        "note": "Mydin, E3S Web of Conferences (2014), read 2026-11-17"
+      },
+      "low": 30,
+      "high": 30
+    }
+  ],
   "limitations": [
     "module interfaces concentrate risk: every split is a fabricated joint on site",
     "early freeze conflicts with normal design iteration; the schedule benefit is lost if design is late"
@@ -95,23 +107,8 @@
       "note": "background on modular building methods; secondary source, read 2026-11-07"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "programme saving and cost premium against conventional construction, with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read describe the method but publish no measurable performance figure for it.",
-      "action": "Add the figures that let this technology be compared with alternatives, each with its basis and source.",
-      "where": [
-        {
-          "hint": "Contractor and fabricator technical literature"
-        },
-        {
-          "hint": "Standards-body design guides"
-        }
-      ]
-    },
     {
       "field": "costs",
       "item": "cost per square metre of modular or IBS construction against conventional build, with dollar year and basis",

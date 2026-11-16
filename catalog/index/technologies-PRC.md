@@ -78,13 +78,15 @@ flowchart LR
 
 **Key equipment:** heat exchanger network, pinch software.
 
+**Performance:**
+- energy savings from pinch analysis: 25 % (up to); Up to 25% saving depending on the starting point, applied to refinery and process heat recovery; also reduces furnace, boiler and cooling-tower size in new designs.. [source](https://www.ipieca.org/resources/energy-efficiency-compendium/pinch-analysis-2022)
+
 **Missing inputs:**
-- typical energy savings reported by pinch studies (performance): The page read gives no savings figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: IEA, DOE industrial assessment centre and CanmetENERGY case studies (open). Next: Add savings with plant type and year from a case study.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Pinch_analysis). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Pinch_analysis). Last reviewed 2026-11-17.
 
 ## Process intensification (rotating packed beds, dividing-wall columns, microreactors)
 <a id="prc-process-intensification"></a>
@@ -107,6 +109,7 @@ flowchart LR
 **Performance:**
 - energy savings from intensification: 20-60 %; range stated by the Chemical Processing article; no baseline process given. [source](https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources)
 - microreactor channel size: 10-500 um; channel dimension quoted in the article. [source](https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources)
+- dividing-wall column energy saving versus conventional distillation: 20-30 %; GT-DWC quoted at 20-30% lower capital cost and 20-30% lower energy than two-column systems; peer-reviewed DWC studies cluster near 30% energy saving.. [source](https://solutions.sulzer.com/our-solutions/gt-dwc-dividing-wall-column-distillation)
 
 **Costs:**
 - capital cost reduction: 10-30 %; range stated in the article; no dollar amounts or year given. [source](https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources)
@@ -116,7 +119,6 @@ flowchart LR
 - Methyl acetate reactive distillation column replacing an eleven-step process: ; described, operator not named. [source](https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources)
 
 **Missing inputs:**
-- dividing-wall column and rotating packed bed figures (performance): The Wikipedia pages for these were not found and the article gives no detail. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Dividing-wall column studies in Chemical Engineering Progress (AIChE) (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open). Next: Add energy and capex figures for each device with source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
 Sources: [1](https://www.chemicalprocessing.com/voices/energy-saver/article/55303778/energy-saver-process-intensification-maximizes-output-minimizes-resources), [2](https://rapid.aiche.org/sites/default/files/news/files/010022_cep_stankiewicz.pdf). Last reviewed 2026-11-17.
@@ -141,10 +143,12 @@ flowchart LR
 
 **Key equipment:** flowsheet simulator, thermodynamic property package, dynamic simulation engine, operator training simulator.
 
+**Performance:**
+- energy-duty reduction from simulation-based retrofit optimisation: 14 %; Tuning existing operating variables in a rigorous steady-state model cut total energy duty 14%, about USD 1.4M per year, before any capital retrofit - a single case.. [source](https://pubs.acs.org/iecred/article/64/49/23622/3733008/Process-Simulation-and-Retrofit-Optimization-for)
+
 **Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Process_simulation). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Process_simulation). Last reviewed 2026-11-17.

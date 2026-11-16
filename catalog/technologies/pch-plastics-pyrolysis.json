@@ -91,6 +91,17 @@
       "low": 33000,
       "high": 33000,
       "year": 2022
+    },
+    {
+      "metric": "oil yield from pyrolysis of waste polyethylene",
+      "unit": "wt% oil yield",
+      "basis": "Highest waxy-oil yield from waste PE about 86 wt%, from waste PP about 82 wt%, depending on reactor and temperature.",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0301479725041556",
+        "note": "Kim et al., waxy oils from waste-plastic pyrolysis (2025), read 2026-11-17"
+      },
+      "low": 86,
+      "high": 86
     }
   ],
   "trl": {
@@ -144,20 +155,6 @@
   ],
   "gaps": [
     {
-      "field": "performance",
-      "item": "oil yield (% of plastic input) and energy use",
-      "reason_code": "not_in_sources_read",
-      "reason": "The release read gives capacity only. Web-checked 2026-10-28: vendor figures (Plastic Energy ~80% class) exist in brochures; no independently verifiable oil-yield table found in open pages this pass.",
-      "where": [
-        {
-          "hint": "Open reviews of pyrolysis yields (arXiv, open-access journals)",
-          "access": "open",
-          "source_id": "arxiv"
-        }
-      ],
-      "action": "Add yield and energy per tonne with the waste mix stated."
-    },
-    {
       "field": "costs",
       "item": "capital cost and production cost, with dollar year and basis",
       "reason_code": "paid_source",
@@ -201,5 +198,5 @@
       "note": "IEA Clean Energy Technology Guide 2025: 'Pyrolysis recycling' TRL 9"
     }
   ],
-  "last_reviewed": "2026-10-28"
+  "last_reviewed": "2026-11-17"
 }

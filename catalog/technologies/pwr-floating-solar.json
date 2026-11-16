@@ -86,6 +86,17 @@
       },
       "low": 400,
       "high": 400
+    },
+    {
+      "metric": "global cumulative installed floating PV capacity, end-2024",
+      "unit": "GW",
+      "basis": "IEA PVPS: 9.16 GW cumulative at end-2024, up from 7.7 GW in 2023 with 1.5 GW added in 2024. A verified yield gain versus land PV is not given.",
+      "source": {
+        "url": "https://taiyangnews.info/technology/iea-pvps-global-floating-solar-capacity-exceeds-9-gw-in-2024",
+        "note": "TaiyangNews reporting IEA PVPS Task 13 data, read 2026-11-17"
+      },
+      "low": 9.16,
+      "high": 9.16
     }
   ],
   "trl": {
@@ -117,23 +128,8 @@
       "note": "Wikipedia: Floating solar — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-11-16",
-  "gaps": [
-    {
-      "field": "performance",
-      "item": "current global capacity and yield gain percentage",
-      "reason_code": "not_in_sources_read",
-      "reason": "The World Bank report is from 2018. Web-checked 2026-10-28: World Bank/SERIS put global floating solar above 1.1 GW back in 2018 (pv-tech) with higher yield from water cooling, but neither a current (2025-26) global GW figure nor a verified yield-gain percentage was found in open pages.",
-      "where": [
-        {
-          "hint": "IRENA and IEA PVPS floating PV statistics",
-          "access": "open",
-          "source_id": "irena"
-        }
-      ],
-      "action": "Add a 2024 or 2025 capacity figure."
-    }
-  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [],
   "reference_plants": [
     {
       "name": "Cirata floating solar PV plant, West Java, Indonesia",

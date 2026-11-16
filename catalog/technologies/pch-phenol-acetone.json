@@ -99,6 +99,17 @@
       },
       "low": 36,
       "high": 36
+    },
+    {
+      "metric": "phenol yield, cumene hydroperoxide cleavage stage",
+      "unit": "% phenol yield",
+      "basis": "Worked examples: 30,431 kg/h phenol at 99.5% yield with 18,770 kg/h acetone at 98.5%, and phenol tar 54.2 kg per tonne of phenol; a second example gives 99.2% and 59.2 kg/t tar.",
+      "source": {
+        "url": "http://patentimages.storage.googleapis.com/pdfs/68d6292f46dfecc2357f/EP0670296B1.pdf",
+        "note": "EP 0670296 B1, cumene hydroperoxide cleavage (worked examples), read 2026-11-17"
+      },
+      "low": 99.2,
+      "high": 99.5
     }
   ],
   "advantages": [
@@ -118,21 +129,8 @@
       "note": "Wikipedia: Cumene process — process-description cross-check 2026-10-29 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "phenol yield and energy use",
-      "reason_code": "not_in_sources_read",
-      "reason": "None in the brochure. Web-checked 2026-10-28; cumene-process yields in licensor literature only.",
-      "where": [
-        {
-          "hint": "Lummus and KBR phenol sheets",
-          "access": "open"
-        }
-      ],
-      "action": "Add numbers."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

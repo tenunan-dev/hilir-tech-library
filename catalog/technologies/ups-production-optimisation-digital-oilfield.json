@@ -81,6 +81,17 @@
       },
       "low": 30,
       "high": 40
+    },
+    {
+      "metric": "production increase from digital oilfield implementation",
+      "unit": "%",
+      "basis": "IHS CERA: 2-8% production increase and 5-25% operating expense reduction.",
+      "source": {
+        "url": "https://www.imeche.org/news/news-article/digital-oilfield-2.0-uses-smart-technology-to-boost-production-efficiency",
+        "note": "IMechE citing IHS CERA (2020), read 2026-11-17"
+      },
+      "low": 2,
+      "high": 8
     }
   ],
   "advantages": [
@@ -102,20 +113,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "production uplift percentage with basis",
-      "reason_code": "not_in_sources_read",
-      "reason": "Sources give no production figures. Web-checked 2026-10-28: no independently-published production-uplift percentage found (vendor case studies only).",
-      "where": [
-        {
-          "hint": "IEA oil and gas net-zero report, digitalisation section",
-          "access": "open",
-          "source_id": "iea-reports"
-        }
-      ],
-      "action": "Add independent production or cost evidence."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

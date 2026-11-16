@@ -72,19 +72,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "magnetic bearing and integrated motor-compressor performance",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not covered on the page read.",
-      "where": [
-        {
-          "hint": "OEM pages for subsea and onshore motor-compressors",
-          "access": "open"
-        }
-      ],
-      "action": "Add references from OEMs and operators."
-    },
-    {
       "field": "other",
       "item": "seal leakage rates and pressure limits (API 682, dry gas seals)",
       "reason_code": "not_in_sources_read",
@@ -148,5 +135,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: API Std 617 for axial and centrifugal compressors and expander-compressors spans magnetic bearings and dry gas seal systems on motor-driven compressor trains."
+  "notes": "Process provenance: API Std 617 for axial and centrifugal compressors and expander-compressors spans magnetic bearings and dry gas seal systems on motor-driven compressor trains.",
+  "performance": [
+    {
+      "metric": "rating of an integrated motor-compressor on magnetic bearings",
+      "unit": "MW",
+      "basis": "Two 11.5 MW HOFIM motor-compressor units on SKF magnetic bearings, operating 300 m below sea level.",
+      "source": {
+        "url": "https://www.offshore-energy.biz/2017/08/18/asgard-subsea-compression-system-becomes-field-proven-technology",
+        "note": "Offshore Energy, Asgard subsea compression field-proven (2017), read 2026-11-17"
+      },
+      "low": 11.5,
+      "high": 11.5
+    }
+  ]
 }

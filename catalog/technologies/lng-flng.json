@@ -154,7 +154,7 @@
       "note": "PETRONAS press release, 25 March 2021"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "trl",
@@ -168,29 +168,6 @@
         }
       ],
       "action": "Find a TRL table that covers this technology and add trl {low, high, source}."
-    },
-    {
-      "field": "performance",
-      "item": "key performance figures (energy use, yields, capture or conversion rate)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No source read so far gives performance figures. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open.",
-      "where": [
-        {
-          "hint": "Supplier datasheets and brochures for the companies listed on the card",
-          "access": "open"
-        },
-        {
-          "hint": "arXiv: open techno-economic and review papers (collector already runs weekly)",
-          "source_id": "arxiv",
-          "access": "open"
-        },
-        {
-          "hint": "Oxford Institute for Energy Studies LNG and gas papers (private copy only)",
-          "source_id": "oxford-oies",
-          "access": "open"
-        }
-      ],
-      "action": "Add the figures that matter for comparing options, each with its basis and source."
     }
   ],
   "costs": [
@@ -205,6 +182,19 @@
         "url": "https://www.oxfordenergy.org/wpcms/wp-content/uploads/2018/10/LNG-Plant-Cost-Reduction-2014%E2%80%9318-NG137.pdf",
         "note": "OIES NG137, LNG plant cost reduction 2014-18, read 2026-11-16"
       }
+    }
+  ],
+  "performance": [
+    {
+      "metric": "specific power, floating LNG liquefaction",
+      "unit": "kWh/m3 of feed gas",
+      "basis": "Modelled FLNG cycle at 0.208 kWh/m3 of feed gas.",
+      "source": {
+        "url": "https://www.mdpi.com/2227-9717/13/8/2530",
+        "note": "Gao et al., Novel FLNG liquefaction process (Processes 2025), read 2026-11-17"
+      },
+      "low": 0.208,
+      "high": 0.208
     }
   ]
 }

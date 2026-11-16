@@ -80,6 +80,17 @@
       },
       "low": 2000,
       "high": 2000
+    },
+    {
+      "metric": "WAG incremental recovery factor",
+      "unit": "% of OOIP",
+      "basis": "WAG pilots typically yield 5-10% of OOIP incremental recovery, with up to 20% in a few pilots.",
+      "source": {
+        "url": "https://link.springer.com/article/10.1007/s13202-019-0694-x",
+        "note": "Belazreg & Mahmood, WAG pilot review (2020), read 2026-11-17"
+      },
+      "low": 5,
+      "high": 20
     }
   ],
   "advantages": [
@@ -109,20 +120,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "WAG incremental recovery, injectivity and gravity override evidence",
-      "reason_code": "source_unreachable",
-      "reason": "The WAG review on ScienceDirect is blocked by robots.txt.",
-      "where": [
-        {
-          "hint": "SPE WAG field experience reviews",
-          "access": "open",
-          "source_id": "onepetro"
-        }
-      ],
-      "action": "Add typical incremental recovery with basis."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

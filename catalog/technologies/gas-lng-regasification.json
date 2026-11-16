@@ -102,6 +102,17 @@
       },
       "low": 150,
       "high": 150
+    },
+    {
+      "metric": "fuel gas consumption, submerged combustion vaporiser",
+      "unit": "% of LNG vaporised",
+      "basis": "Burner fuel use of 1.5-2.0% of send-out LNG on an HHV basis.",
+      "source": {
+        "url": "https://cdn.digitalrefining.com/data/articles/file/171194535.pdf",
+        "note": "Leite, Submerged combustion vaporisers (Digital Refining), read 2026-11-17"
+      },
+      "low": 1.5,
+      "high": 2.0
     }
   ],
   "advantages": [
@@ -123,20 +134,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "fuel gas percentage and cold-energy use",
-      "reason_code": "not_in_sources_read",
-      "reason": "The article gives no percentage figures. Web-checked 2026-10-28: SCV fuel-gas percentages (~0.01-0.02% class) circulate in vendor material; no verifiable open table found.",
-      "where": [
-        {
-          "hint": "GIIGNL handbook and terminal operator documents",
-          "access": "open",
-          "source_id": "giignl"
-        }
-      ],
-      "action": "Add fuel use and cold-energy recovery options."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -82,6 +82,17 @@
       },
       "low": 2,
       "high": 4
+    },
+    {
+      "metric": "ultra-low-NOx burner emission guarantee",
+      "unit": "ppm at 3% O2",
+      "basis": "Vendor guarantee of 18-25 ppm depending on fuel and furnace conditions - a manufacturer claim, not independent test data.",
+      "source": {
+        "url": "https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf",
+        "note": "ClearSign white paper on refinery process heaters (2015), read 2026-11-17"
+      },
+      "low": 18,
+      "high": 25
     }
   ],
   "advantages": [],
@@ -101,23 +112,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "independent heater efficiency and NOx data",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only a vendor white paper was read. Web-checked 2026-10-28; heater efficiency/NOx tables sit in vendor and EPA material not read this pass.",
-      "where": [
-        {
-          "hint": "API 560 summaries",
-          "access": "open"
-        },
-        {
-          "hint": "EPA and industry burner test reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add independent figures."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -99,18 +99,6 @@
   ],
   "gaps": [
     {
-      "field": "performance",
-      "item": "power and current rating per rack PDU model family (kW and A per cabinet)",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Server Technology page read lists product families and voltage variants but no per-cabinet kW or A ratings.",
-      "action": "Read a datasheet for each family and record the ratings.",
-      "where": [
-        {
-          "hint": "Server Technology and Vertiv rack PDU datasheets"
-        }
-      ]
-    },
-    {
       "field": "costs",
       "item": "cost per rack PDU by metering level, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -136,5 +124,18 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-17",
+  "performance": [
+    {
+      "metric": "rack PDU power rating",
+      "unit": "kW",
+      "basis": "PDU3EVNR6G60A rated 16.2 kW at 208 V three-phase, 60 A, monitored per outlet.",
+      "source": {
+        "url": "https://www.mouser.com/datasheet/2/87/pdu3evnr6g60a-3243643.pdf",
+        "note": "Eaton (Tripp Lite) PDU datasheet, read 2026-11-17"
+      },
+      "low": 16.2,
+      "high": 16.2
+    }
+  ]
 }

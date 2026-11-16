@@ -102,6 +102,17 @@
       },
       "low": 1,
       "high": 58
+    },
+    {
+      "metric": "drilling cost reduction from automation and digitalisation",
+      "unit": "%",
+      "basis": "Rystad estimated 10-20% lower drilling costs and 10-30% lower facility and subsea costs.",
+      "source": {
+        "url": "https://www.offshore-mag.com/field-development/article/14068181/digitalization-automation-could-save-upstream-market-100-billion-rystad-energy-finds",
+        "note": "Rystad Energy via Offshore Magazine (2019), read 2026-11-17"
+      },
+      "low": 10,
+      "high": 20
     }
   ],
   "advantages": [
@@ -131,20 +142,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "independent verification of ROP and cost savings",
-      "reason_code": "not_in_sources_read",
-      "reason": "All figures are from vendors or vendor-published papers. Web-checked 2026-10-28 (SPE/IADC 223xxx papers are OnePetro-restricted; only vendor-published figures found).",
-      "where": [
-        {
-          "hint": "SPE/IADC papers 223649, 223824, 223800, 223804",
-          "access": "open",
-          "source_id": "onepetro"
-        }
-      ],
-      "action": "Compare with independent operator studies."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

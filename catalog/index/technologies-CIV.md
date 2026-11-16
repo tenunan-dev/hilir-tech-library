@@ -33,13 +33,15 @@ flowchart LR
 
 **Key equipment:** blast-rated steel modules, reinforced concrete construction, blast doors, protected HVAC.
 
+**Performance:**
+- blast overpressure rating: 1-8 psi; Modules rated to 8 psi overpressure; lightweight blast panels held to 3 lb/ft2 (14.6 kg/m2) under FM DS 1-44.. [source](https://structures.atco.com/en-ca/industrial/blast-resistant-modules.html)
+
 **Missing inputs:**
-- blast overpressure rating range and panel weight per square metre, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - capital cost per square metre of blast-resistant building by overpressure rating, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Blast-rated modular building vendors (budget quotes per m2 by kPa rating); Offshore and petrochemical shelter vendors. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Blast_resistance). Last reviewed 2026-11-16.
+Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Blast_resistance). Last reviewed 2026-11-17.
 
 ## FPSO and floating production structures
 <a id="civ-floating-structures-fpso"></a>
@@ -87,13 +89,15 @@ flowchart LR
 
 **Key equipment:** steel jacket, foundation piles, topsides modules, conductor guides, boat landings and riser guards.
 
+**Performance:**
+- jacket weight against water depth: 14000 t at 105 m water depth; A 14,000 t steel jacket installed in 105 m of water.. [source](https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0900.htm)
+
 **Missing inputs:**
-- topsides and jacket weight against water depth and production capacity, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - jacket and topside fabrication cost per tonne, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Published EPC contract award values for fixed platforms; Fabrication yard public order books. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://en.wikipedia.org/wiki/Oil_platform), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Oil_platform), [2](https://www.offshore-mag.com/). Last reviewed 2026-11-17.
 
 ## Foundations and piling
 <a id="civ-foundations-piling"></a>
@@ -113,13 +117,15 @@ flowchart LR
 
 **Key equipment:** driven steel and concrete piles, bored piles, vibro and stone columns, pile caps.
 
+**Performance:**
+- pile productivity by pile type: 2-22 piles/day at 16 m depth; 22 driven H piles per day against 11 CFA and 2 bored 600 mm piles per day; a 2 m bored pile can exceed 5,000 kN.. [source](https://methvin.co/production-rates/foundation/piling-productivities/piling-productivities)
+
 **Missing inputs:**
-- achievable pile capacity and productivity by pile type, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - cost per pile metre and per cubic metre of foundation concrete, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Geotechnical contractor schedules of rates; CIDB Malaysia piling and foundation rates. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://en.wikipedia.org/wiki/Deep_foundation). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Deep_foundation). Last reviewed 2026-11-17.
 
 ## Heavy lift, transport and temporary works
 <a id="civ-heavy-lift-temporary-works"></a>
@@ -139,13 +145,15 @@ flowchart LR
 
 **Key equipment:** crawler cranes, SPMT self-propelled modular transporters, gantry systems, engineered rigging.
 
+**Performance:**
+- load-out weight by method: 33000 t; 33,000 t floating production unit weighed, jacked and loaded out on strand jacks and skid tracks.. [source](https://www.mammoet.com/cases/topsides-load-out-streamlined-with-mega-jack-and-weighing-solution)
+
 **Missing inputs:**
-- lifting capacity and load-out weight ranges by method, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - crane and heavy-lift vessel day rates, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Heavy-lift contractor published day rates and charter rates; Offshore installation vessel charter market reports. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://www.mammoet.com/), [2](https://en.wikipedia.org/wiki/Self-propelled_modular_transporter). Last reviewed 2026-11-16.
+Sources: [1](https://www.mammoet.com/), [2](https://en.wikipedia.org/wiki/Self-propelled_modular_transporter). Last reviewed 2026-11-17.
 
 ## Modular construction and industrialised building systems
 <a id="civ-modular-construction-ibs"></a>
@@ -165,13 +173,15 @@ flowchart LR
 
 **Key equipment:** fabrication yards, SPMT transporters, heavy cranes, module interface joints.
 
+**Performance:**
+- programme saving versus conventional construction: 30 % construction time; IBS projects save up to 30% of construction time; CIDB case studies show near cost parity.. [source](https://www.e3s-conferences.org/articles/e3sconf/pdf/2014/02/e3sconf_etsdc2014_01009.pdf)
+
 **Missing inputs:**
-- programme saving and cost premium against conventional construction, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - cost per square metre of modular or IBS construction against conventional build, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: CIDB Malaysia IBS cost studies; Modular building fabricators' published rates. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://www.cidb.gov.my/), [2](https://en.wikipedia.org/wiki/Modular_construction). Last reviewed 2026-11-16.
+Sources: [1](https://www.cidb.gov.my/), [2](https://en.wikipedia.org/wiki/Modular_construction). Last reviewed 2026-11-17.
 
 ## Pipe racks, sleepers and pipe supports
 <a id="civ-pipe-racks-supports"></a>
@@ -191,13 +201,15 @@ flowchart LR
 
 **Key equipment:** rack steelwork, pipe shoes and guides, spring hangers, constant-effort supports, expansion loops.
 
+**Performance:**
+- steel intensity per metre of pipe rack: 1728 kg/m; 16 kg/m3 incidence over a 9 m wide, 12 m high three-tier rack, equal to about 1,728 kg per metre run.. [source](https://civilejournal.org/index.php/cej/article/download/2130/pdf/5840)
+
 **Missing inputs:**
-- steel intensity per metre of rack and per pipe, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - cost per metre of pipe rack (steel-only and erected), with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: EPC structural steel rates from published project cost studies; Pipe rack module fabricators' published rates. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://en.wikipedia.org/wiki/Pipe_rack). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Pipe_rack). Last reviewed 2026-11-17.
 
 ## Plant structural steel design
 <a id="civ-structural-steel-design"></a>
@@ -217,13 +229,15 @@ flowchart LR
 
 **Key equipment:** hot-rolled beams and columns, bracing, base plates and anchors, gratings and handrails.
 
+**Performance:**
+- steel erection productivity: 1.5-1.68 t per worker-day; AISC case-study building: 400 t with 7 workers in 38 days (1.5 t/worker-day); Empire State reached 1.68 t/worker-day, with low-rise frames at 50-60 kg/m2.. [source](https://www.construction-physics.com/p/construction-productivity-structural)
+
 **Missing inputs:**
-- steel weight per square metre of building and erection productivity, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - erected cost per tonne of structural steel, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Quantity-surveyor and steel-fabricator price guides (structural steel per tonne, erected); Malaysian steel fabricator and CIDB schedule-of-rates data. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://www.hse.gov.uk/electricity/), [2](https://en.wikipedia.org/wiki/Structural_steel). Last reviewed 2026-11-16.
+Sources: [1](https://www.hse.gov.uk/electricity/), [2](https://en.wikipedia.org/wiki/Structural_steel). Last reviewed 2026-11-17.
 
 ## Seismic design of process facilities
 <a id="civ-seismic-design"></a>
@@ -243,13 +257,15 @@ flowchart LR
 
 **Key equipment:** anchorage systems, base isolators, seismic qualification test facilities.
 
+**Performance:**
+- seismic cost premium, steel special moment frames: 6-16 % of building cost; Risk Category IV against II on high-seismic sites (SDC D+, SDS 0.33g and above), greatest around eight storeys.. [source](https://ej.aisc.org/index.php/engj/article/download/1208/1207/1207)
+
 **Missing inputs:**
-- design ground acceleration ranges and structural steel premium, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - engineering cost and structural premium of seismic design, with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Structural engineering fee benchmarks; Cost studies of seismic design premiums. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://en.wikipedia.org/wiki/Earthquake_engineering). Last reviewed 2026-11-16.
+Sources: [1](https://en.wikipedia.org/wiki/Earthquake_engineering). Last reviewed 2026-11-17.
 
 ## Structural fireproofing and passive fire protection
 <a id="civ-fireproofing-passive-protection"></a>
@@ -269,10 +285,12 @@ flowchart LR
 
 **Key equipment:** cementitious fireproofing, epoxy intumescent coatings, fire-rated barriers and dampers, fireproof cable protection.
 
+**Performance:**
+- intumescent coating thickness for a 90-minute rating: 1500 um dry film thickness; 1.50 mm DFT (about 2.6 kg/m2) gives 90 minutes at Hp/A 150.. [source](https://tradecalculator.co.uk/answers/how-much-intumescent-paint)
+
 **Missing inputs:**
-- fire rating achieved per coating thickness and application productivity, with a cited source (performance): The sources read describe the method but publish no measurable performance figure for it. Where: Contractor and fabricator technical literature; Standards-body design guides. Next: Add the figures that let this technology be compared with alternatives, each with its basis and source.
 - cost per square metre of fire protection (intumescent coating, board, cementitious), with dollar year and basis (costs): No source read so far gives a cost figure for this construction technology; the card was authored from standards-body and vendor material that describes method, not price. Where: Passive fire protection contractors and intumescent coating suppliers' published rates; Fire-test certification body data on thickness versus rating. Next: Add a figure with metric, range, unit, dollar year, basis and source.
 - named reference projects with structure type, scale and country (reference_plants): The card cites no named project, so the technology rests on method description alone. Its reference-plant register was empty at the 2026-11-14 audit. Where: Named projects with structure type, capacity and country (the projects layer carries 239 records); Operator and contractor press releases for awarded structures. Next: Add two or three named projects with country, scale, status and source.
 - TRL with a cited source (trl): No agency TRL exists for civil and structural works. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Fireproofing). Last reviewed 2026-11-16.
+Sources: [1](https://www.hse.gov.uk/comah/), [2](https://en.wikipedia.org/wiki/Fireproofing). Last reviewed 2026-11-17.

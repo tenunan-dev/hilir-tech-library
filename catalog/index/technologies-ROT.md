@@ -68,14 +68,14 @@ flowchart LR
 **Performance:**
 - oilfield reinjection discharge pressure: 700 bar (approaching); barrel-style casings for gas reinjection, as stated. [source](https://en.wikipedia.org/wiki/Centrifugal_compressor)
 - single-stage pressure ratio: 1-10 ratio (few exceed 10:1); single-stage machines; the 8 stated is a helicopter engine example, not process duty. [source](https://en.wikipedia.org/wiki/Centrifugal_compressor)
+- polytropic efficiency, process centrifugal compressors: 70-85 %; Typical 70-85% polytropic efficiency, approaching 90% for the best machines.. [source](https://oaktrust.library.tamu.edu/bitstreams/c92a37d9-5159-4a42-9b12-0b349c306028/download)
 
 **Missing inputs:**
-- process-duty flow and head ranges, efficiency and API 617 limits (performance): The page gives only a small research compressor map. Web-checked 2026-10-28: Atlas Copco centrifugal class to 205 bar(a) recorded with suppliers; polytropic-efficiency and flow/head envelope tables sit in vendor selectors. Where: OEM datasheets and API 617 summaries (open). Next: Add typical flow, head and efficiency ranges.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; OEM quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_compressor). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_compressor). Last reviewed 2026-11-17.
 
 ## Centrifugal and positive displacement pumps
 <a id="rot-pumps"></a>
@@ -95,14 +95,14 @@ flowchart LR
 
 **Performance:**
 - boiler feed pump flow: 150 L/s per pump at 21 MPa; two pumps in parallel for a 350 MW unit, example given in the article. [source](https://en.wikipedia.org/wiki/Centrifugal_pump)
+- best-efficiency-point efficiency: 80-91 %; 80% for a 36 m3/h pump at ns 30 and about 87% at 180 m3/h; 91% or more for large pumps at optimum specific speed.. [source](https://www.pumpsandsystems.com/article/what-really-determines-centrifugal-pump-efficiency)
 
 **Missing inputs:**
-- pump efficiency, head and flow by type (performance): Not stated on the page. Web-checked 2026-10-28; pump selection curves are vendor-selector material. Where: Hydraulic Institute and OEM catalogues (open). Next: Add ranges per pump class.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_pump), [2](https://en.wikipedia.org/wiki/Pump). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Centrifugal_pump), [2](https://en.wikipedia.org/wiki/Pump). Last reviewed 2026-11-17.
 
 ## Columns, trays and structured packing
 <a id="rot-columns-trays-packing"></a>
@@ -126,14 +126,14 @@ flowchart LR
 - industrial column diameter: 0.65-6 m; range stated for industrial columns. [source](https://en.wikipedia.org/wiki/Fractionating_column)
 - industrial column height: 6-60 m (or more); range stated. [source](https://en.wikipedia.org/wiki/Fractionating_column)
 - share of plant energy use: 40 % (about); stated for a typical chemical plant. [source](https://en.wikipedia.org/wiki/Fractionating_column)
+- HETP, structured versus random packing: 0.15-0.6 m; 150 mm for high-performance structured packing in low-pressure distillation, up to 600 mm or more for random packing in difficult services.. [source](https://c-psystems.com/glossary-hetp)
 
 **Missing inputs:**
-- tray efficiency and packing pressure drop figures (performance): Not in the page read. Web-checked 2026-10-28; efficiency correlations are textbook/vendor-selector material. Where: Vendor technical bulletins (open). Next: Add figures with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Fractionating_column). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Fractionating_column). Last reviewed 2026-11-17.
 
 ## Fired heaters and low-NOx burners
 <a id="rot-fired-heaters-low-nox-burners"></a>
@@ -156,9 +156,9 @@ flowchart LR
 **Performance:**
 - ultra-low-NOx burner guaranteed emission: 18-25 ppm at 3% O2; typically guaranteed range, depends on fuel and furnace conditions; ClearSign white paper. [source](https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf)
 - claimed thermal efficiency gain from Duplex: 2-4 % (vendor claim); ClearSign's own analysis, not independent. [source](https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf)
+- ultra-low-NOx burner emission guarantee: 18-25 ppm at 3% O2; Vendor guarantee of 18-25 ppm depending on fuel and furnace conditions - a manufacturer claim, not independent test data.. [source](https://clearsign.com/wp-content/uploads/2019/10/Duplex-for-Refinery-Process-Heaters.Rev_.3-18-2015-1.pdf)
 
 **Missing inputs:**
-- independent heater efficiency and NOx data (performance): Only a vendor white paper was read. Web-checked 2026-10-28; heater efficiency/NOx tables sit in vendor and EPA material not read this pass. Where: API 560 summaries (open); EPA and industry burner test reports (open). Next: Add independent figures.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; vendor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous equipment. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
@@ -181,8 +181,10 @@ flowchart LR
 
 **Key equipment:** dry gas seal, labyrinth seal, spring-energised seal, magnetic bearing, integrated motor-compressor.
 
+**Performance:**
+- rating of an integrated motor-compressor on magnetic bearings: 11.5 MW; Two 11.5 MW HOFIM motor-compressor units on SKF magnetic bearings, operating 300 m below sea level.. [source](https://www.offshore-energy.biz/2017/08/18/asgard-subsea-compression-system-becomes-field-proven-technology)
+
 **Missing inputs:**
-- magnetic bearing and integrated motor-compressor performance (performance): Not covered on the page read. Where: OEM pages for subsea and onshore motor-compressors (open). Next: Add references from OEMs and operators.
 - seal leakage rates and pressure limits (API 682, dry gas seals) (other): Not stated on the page. Where: OEM seal datasheets (open). Next: Add limits with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
@@ -210,15 +212,15 @@ flowchart LR
 
 **Performance:**
 - hydrostatic test pressure: 1.5 times working pressure; as stated for pressure vessels. [source](https://en.wikipedia.org/wiki/Pressure_vessel)
+- design boil-off rate, full-containment LNG tank: 0.05 % of tank volume per day; 0.05 vol%/day for a 9% nickel-steel inner-tank full-containment design.. [source](http://large.stanford.edu/publications/coal/references/docs/add10896.pdf)
 
 **Missing inputs:**
 - fabricators of pressure vessels, reactors and cryogenic tanks (suppliers): The sources read name no suppliers for this technology. Where: Fabricator pages (open). Next: Add suppliers from vendor pages, with the product each supplies.
-- cryogenic tank designs (full-containment LNG, double-wall LH2) (performance): Not on the page read. Where: IGU and OEM LNG tank pages (open). Next: Add a cryogenic section with sources.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Pressure_vessel). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Pressure_vessel). Last reviewed 2026-11-17.
 
 ## Reciprocating and screw compressors
 <a id="rot-reciprocating-screw-compressors"></a>
@@ -238,15 +240,15 @@ flowchart LR
 
 **Performance:**
 - multistage discharge pressure: up to 34.5 MPa (up to about); 5,000 psig stated for multistage reciprocating compressors. [source](https://en.wikipedia.org/wiki/Reciprocating_compressor)
+- suction volume range, rotary screw compressors: 300-60000 m3/h; Rotary screw compressors cover 300-60,000 m3/h suction volume (176-35,310 acfm). A pressure limit is not stated in the paper.. [source](https://oaktrust.library.tamu.edu/bitstreams/826c5eb1-2ee6-43dc-8635-42377bca95cb/download)
 
 **Missing inputs:**
 - reciprocating and screw compressor OEMs (suppliers): The sources read name no suppliers for this technology. Where: OEM pages (open). Next: Add suppliers from vendor pages, with the product each supplies.
-- screw compressor pressure and flow ranges; reciprocating efficiency (performance): Screw compressors are not covered by the page read. Where: OEM datasheets (open); GPSA Engineering Data Book summaries (paid). Next: Add ranges with source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Reciprocating_compressor). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Reciprocating_compressor). Last reviewed 2026-11-17.
 
 ## Shell-and-tube, plate and printed-circuit heat exchangers
 <a id="rot-heat-exchangers"></a>
@@ -297,16 +299,16 @@ flowchart LR
 **Performance:**
 - isentropic efficiency: 20-90 %; range stated, depending on application. [source](https://en.wikipedia.org/wiki/Steam_turbine)
 - unit size: 0.75-1.5e+06 kW (from under 0.75 kW up to 1,500 MW); range of units built, as stated. [source](https://en.wikipedia.org/wiki/Steam_turbine)
+- isentropic efficiency, gas turboexpander: 85 %; The compendium's worked power-recovery example uses 85% turboexpander efficiency.. [source](https://www.ipieca.org/resources/energy-efficiency-compendium/gas-turboexpanders-2023)
 
 **Costs:**
 - maintenance cost: 0.005 USD per kWh; typical value as stated; dollar year not stated. [source](https://en.wikipedia.org/wiki/Steam_turbine)
 
 **Missing inputs:**
-- expander duties such as turboexpanders in LNG and gas plants (performance): The page covers steam turbines only. Where: OEM pages for turboexpanders (open). Next: Add a card or section for gas expanders with figures.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. IEA ETP Guide (July 2026) has no matching entry (searched 'steam turbine', 'turboexpander', 'expander'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://en.wikipedia.org/wiki/Steam_turbine). Last reviewed 2026-10-29.
+Sources: [1](https://en.wikipedia.org/wiki/Steam_turbine). Last reviewed 2026-11-17.
 
 ## Valves and actuators
 <a id="rot-valves-actuators"></a>

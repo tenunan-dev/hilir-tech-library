@@ -93,6 +93,17 @@
         "url": "https://submer.com",
         "note": "Submer Group home page (deployed capacity claims), read 2026-11-14"
       }
+    },
+    {
+      "metric": "cooling capacity per immersion tank",
+      "unit": "kW/tank",
+      "basis": "100 kW per two-phase tank with PUE below 1.08 - manufacturer figure.",
+      "source": {
+        "url": "https://www.deltapowersolutions.com/en/mcis/data-center-immersion-cooling-two-phase.php",
+        "note": "Delta Power Solutions, two-phase immersion cooling, read 2026-11-17"
+      },
+      "low": 100,
+      "high": 100
     }
   ],
   "advantages": [
@@ -112,18 +123,6 @@
     }
   ],
   "gaps": [
-    {
-      "field": "performance",
-      "item": "cooling capacity per tank in kW and achievable PUE",
-      "reason_code": "not_in_sources_read",
-      "reason": "The vendor page read gives aggregate deployed capacity and a deployment-ready figure but no per-tank kW capacity or PUE.",
-      "action": "Read a product datasheet and a published deployment case with capacities.",
-      "where": [
-        {
-          "hint": "GRC, LiquidStack and Submer datasheets and case studies"
-        }
-      ]
-    },
     {
       "field": "costs",
       "item": "fluid top-up cost (capital is now recorded)",
@@ -150,7 +149,7 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "costs": [
     {
       "metric": "installed capital cost, single-phase immersion",

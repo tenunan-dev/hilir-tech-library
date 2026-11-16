@@ -93,6 +93,17 @@
         "source_id": "ogj",
         "note": "Oil & Gas Journal, 2 Apr 2018 (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "water cut with optimised inflow control valves",
+      "unit": "% water cut",
+      "basis": "Sector model of an Iranian field: water cut 80% in conventional wells against 30% with optimised ICVs; cumulative water 14.0 to 3.5 million bbl.",
+      "source": {
+        "url": "https://ijogst.put.ac.ir/article_13827.html",
+        "note": "Behrouz et al., ICV optimisation (2016), read 2026-11-17"
+      },
+      "low": 30,
+      "high": 30
     }
   ],
   "advantages": [
@@ -115,20 +126,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "production and water-cut results of the Kuwait well",
-      "reason_code": "not_in_sources_read",
-      "reason": "Shown only in a chart. Kuwait-well figures remain in SPE-restricted papers; an offshore-China CP+ICD analogue (Liuhua A4H4, OGJ 2018) is now recorded in performance, 2026-10-28.",
-      "where": [
-        {
-          "hint": "SPE paper behind the JPT article",
-          "access": "open",
-          "source_id": "onepetro"
-        }
-      ],
-      "action": "Add oil rate and water cut vs a conventional well."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

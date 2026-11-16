@@ -49,6 +49,9 @@ flowchart LR
 
 **Key equipment:** carbonylation reactor, flash vessel, light-ends and drying columns.
 
+**Performance:**
+- acetic acid selectivity on methanol, Cativa process: 99 % selectivity (methanol basis); Cativa carbonylation at 30-60 bar and 150-200 C over an iridium catalyst gives at least 99% selectivity on methanol.. [source](https://www.sciencedirect.com/science/article/abs/pii/S0920586100002637)
+
 **Costs:**
 - capital cost of a world-scale acetic acid plant (named datapoint): 600 USD per tonne/yr of capacity (USD 300 m for 500,000 t/yr) (2000$); derived from the Celanese Singapore plant launch report (about USD 300 m for 500,000 t/yr, 100 employees); dollar year not stated in the source (publication ~2000s); operating costs not stated in open sources. [source](https://www.researchgate.net/publication/294275655_Celanese_launches_acetic_acid_plant_in_Singapore)
 
@@ -57,7 +60,6 @@ flowchart LR
 - Celanese acetic acid plant, Singapore, SG: 500,000 t/yr; plant cost about USD 300 million at launch; operating. [source](https://www.researchgate.net/publication/294275655_Celanese_launches_acetic_acid_plant_in_Singapore)
 
 **Missing inputs:**
-- conditions, yields and plant capacities (performance): The secondary source gives no numbers. Web-checked 2026-10-28: named plant capacities recorded in reference_plants; Cativa conditions/yield tables remain in licensor literature. Where: BP Cativa licensing page (open). Next: Add primary data.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
 Sources: [1](https://en.wikipedia.org/wiki/Cativa_process), [2](https://patents.google.com/patent/WO2014004307A1/en). Last reviewed 2026-11-17.
@@ -123,12 +125,12 @@ flowchart LR
 **Performance:**
 - LD Parex paraxylene recovery at Hengyi Brunei: 2.3 Mtpa; total paraxylene capacity above 3.8 Mtpa after Phase 2. [source](https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex)
 - para-xylene yield on crude oil for crude-to-aromatics plants: 5-20 % by weight of crude (typical complexes 5-10%; new crude-to-PX plants expected >20%); Nexant, Disruption in Aromatics (17 Jan 2019): "PX yields on crude oil by weight are typically from five to ten percent, but these new plants are expected to yield over 20 percent by converting heavy crude"; PX-per-tonne-naphtha and complex energy-use figures were not stated in open pages read. [source](https://www.nexanteca.com/sites/default/files/Nexant%20-%20Disruption%20in%20Aromatics%20-%20Blog%2017-Jan-2019.pdf)
+- specific energy consumption, integrated aromatics complex: 7.73 GJ thermal per tonne aromatics; Modelled integrated complex: 7.73 GJ-th per tonne of aromatics plus 0.91 GJ/t of electricity. A PX yield per tonne of naphtha is not stated.. [source](https://www.sciencedirect.com/science/article/pii/S0959652622033042)
 
 **Reference plants:**
 - Hengyi Industries aromatics expansion, Pulau Muara Besar, BN: 2.3 Mtpa Parex; total PX above 3.8 Mtpa; Phase 2 commissioning scheduled for 2022 in the article. [source](https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex)
 
 **Missing inputs:**
-- energy use and overall PX yield per tonne naphtha (performance): Only a UOP claim of doubling PX yield. PX-on-crude yields recorded in performance (5-10% typical, >20% new plants, Nexant 2019); per-tonne-naphtha and energy figures not found open, 2026-10-28. Where: UOP aromatics brochures (catalog: honeywell-uop, open). Next: Add yields.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; complex capex case-specific. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -210,8 +212,10 @@ flowchart LR
 
 **Key equipment:** polymerisation reactors, extruders, pelletisers.
 
+**Performance:**
+- energy and CO2 per tonne of compounded polycarbonate: 18 GJ per tonne; About 18 GJ per tonne of compounded polycarbonate, giving about 1.1 t CO2 per tonne.. [source](https://www.pbl.nl/uploads/default/downloads/pbl-2021-decarbonisation-options-for-the-dutch-polycarbonate-industry-4580.pdf)
+
 **Missing inputs:**
-- process descriptions, capacities and energy use for polycarbonate and nylon (performance): Search results were patents and a paywalled news item. Where: Covestro and SABIC technical pages (catalog: sabic-licensing, open); IHS Process Economics Program (paid) (paid). Next: Add a licensor or review source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
@@ -265,12 +269,12 @@ flowchart LR
 
 **Performance:**
 - Jubail LAO plant design capacity: 150000 t/yr; Jubail United Petrochemical Co.. [source](https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing)
+- product distribution, Chevron Phillips LAO process: 41 wt% in the hexene-to-decene cut; Typical distribution by process (wt%): C4 14, C6-C10 41, C12-C14 19, C16-C18 12, C20+ 14. Shell and Ethyl distributions differ.. [source](https://ijeast.com/papers/83-86,Tesma204,IJEAST.pdf)
 
 **Reference plants:**
 - Jubail United alpha-SABLIN LAO plant, SA: 150,000 t/yr; . [source](https://www.chemicalprocessing.com/processing-equipment/reaction-synthesis/news/11357729/sabic-linde-group-successfully-commercialize-linear-alpha-olefins-chemical-processing)
 
 **Missing inputs:**
-- product distribution and selectivity (performance): Not in the article; the collected Linde document (gas conditioning and purification: CO shift conversion, Rectisol wash) contains no alpha-SABLIN product distribution or selectivity data. Web-checked 2026-10-28: LAO distributions follow near-Flory statistics by carbon number, but the open pages found state no verifiable distribution table. Where: Linde alpha-SABLIN brochure (catalog: linde-engineering, open). Next: Add distribution.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -294,14 +298,14 @@ flowchart LR
 
 **Performance:**
 - European post-consumer plastic waste collected for recycling, 2018: 32.5 %; country rates 20 to 45%. [source](https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf)
+- overall material yield, mechanical recycling of mixed plastic waste: 53 % overall yield; Mechanical recycling yields 53% overall against 65% for physical recycling, with 25-37% of output going to refuse-derived fuel.. [source](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC132067/JRC132067_01.pdf)
 
 **Missing inputs:**
-- yields and recyclate quality limits (performance): The paper gives no yields. Web-checked 2026-10-28: quality degradation per mechanical cycle is well described qualitatively (IV loss, chain scission) but no verified numeric yield/quality-limit table found in open pages. Where: Plastics Recyclers Europe reports (open). Next: Add yield data.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added this pass. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf), [2](https://en.wikipedia.org/wiki/Plastic_recycling). Last reviewed 2026-10-29.
+Sources: [1](https://docs.european-bioplastics.org/publications/bp/EUBP_BP_Mechanical_recycling.pdf), [2](https://en.wikipedia.org/wiki/Plastic_recycling). Last reviewed 2026-11-17.
 
 ## Metathesis (OCT)
 <a id="pch-olefins-metathesis"></a>
@@ -360,6 +364,7 @@ flowchart LR
 - methanol consumption per tonne of light olefins, original process: 2.97 t methanol/t olefins; DICP; 2.85 with newer catalyst, about 2.64 for DMTO-III. [source](https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001)
 - DMTO units licensed (to end-2019): 26 units; 14 started up; licensed olefins capacity 14 Mt/yr, 7.67 Mt/yr in the 14 started units. [source](https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001)
 - DMTO methanol consumption per tonne of olefin; BMTO+CCS emissions case: 2.97 t methanol per t olefin (DMTO 72-h performance test); BMTO with CCS: minus 8.2 t CO2 per t ethylene; "The 72 hours' performance tests demonstrate that the production of 1 ton of olefin requires about 2.97 tons of methanol feed" (DMTO: A Sustainable Methanol-to-Olefins Technology, 2020); Inner Mongolia coal-to-olefin value-chain study (Dec 2024): combining CCS with biomethanol MTO gives CO2 emissions of minus 8.2 t per t ethylene (29.4% lower); the base coal-MTO CO2 intensity was not stated in the open pages read. [source](https://www.researchgate.net/publication/347481336_DMTO_A_Sustainable_Methanol-to-Olefins_Technology)
+- CO2 intensity of the coal-methanol MTO route: 7.1-10 t CO2 per t olefins; The conventional coal-to-olefins route emits 7.1-10 t CO2 per t olefins; green-methanol and green-hydrogen variants are reported far lower.. [source](https://dmto.dicp.ac.cn/dnl12eng/2025-45.pdf)
 
 **Reference plants:**
 - Shenhua Baotou coal-to-olefins plant, CN: 1.8 Mt/yr methanol feed, 600,000 t/yr polyethylene and polypropylene (first commercial DMTO); started 8 August 2010. [source](https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001)
@@ -367,9 +372,8 @@ flowchart LR
 **Missing inputs:**
 - TRL with a cited source (trl): The IEA guide has no MTO entry; the installed base (26 licences) supports 'commercial'. IEA ETP Guide (July 2026) has no matching entry (searched 'methanol-to-olefins', 'MTO', 'DMTO', 'olefins', 'propylene'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists methanol-to-olefins.
 - capital cost and production cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open); Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access (catalog: nexant-chemsystems, paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- CO2 intensity of coal-based and green-methanol MTO (performance): The DMTO paper read gives selectivity and methanol use, not carbon intensity. Methanol ratio 2.97 t/t and the BMTO+CCS minus-8.2 t/t case recorded in performance; base coal-MTO CO2 intensity not found open, 2026-10-28. Where: IEA reports on chemicals and China coal chemistry (iea-reports corpus) (catalog: iea-reports, open); Open life-cycle assessments of coal-to-olefins (catalog: arxiv, open). Next: Add t CO2 per tonne of olefins with the methanol source stated.
 
-Sources: [1](https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001). Last reviewed 2026-10-28.
+Sources: [1](https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2020.12.001). Last reviewed 2026-11-17.
 
 ## PET and polyester
 <a id="pch-pet-polyester"></a>
@@ -448,9 +452,9 @@ flowchart LR
 - electrolysis energy, membrane cell: up to 1960 kWh per t NaOH; at 6 kA/m2; ODC cuts energy by up to 25%. [source](https://www.thyssenkrupp-nucera.com/chlor-alkali-solutions/)
 - ethylene and chlorine per tonne VCM: 459-575 kg; ethylene 459 kg, chlorine 575 kg per 1,000 kg VCM (licensor expected figures). [source](https://cdn.ihsmarkit.com/www/pdf/0920/2020-09-18_VC_PC_Brochure_White-Paper2_IHS.pdf)
 - steam per tonne PVC powder: up to 700 kg; 435 kg combined with VCM plant. [source](https://cdn.ihsmarkit.com/www/pdf/0920/2020-09-18_VC_PC_Brochure_White-Paper2_IHS.pdf)
+- acetylene-route share of Chinese PVC production: 80 % of integrated Chinese PVC production; More than 80% of Chinese integrated PVC is carbide-based; China's capacity is close to 30 Mt against a global market of about 56 Mt.. [source](https://www.argusmedia.com/en/news-and-insights/latest-market-news/2808308-chinese-carbide-pvc-could-temper-us-exports-to-asia)
 
 **Missing inputs:**
-- global PVC capacity today and acetylene route share in China (performance): The brochure gives 2010 capacity only. Web-checked 2026-10-28: China PVC capacity reached 26 Mt/yr by 2013 with northwest coal-to-carbide regions ~35% of capacity (2020); the crisp acetylene-route share of Chinese capacity (~80% class) was not verifiable in open pages. Where: IHS or OECD chemicals reports (open). Next: Add current capacity.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
@@ -512,14 +516,14 @@ flowchart LR
 **Performance:**
 - single-train cumene capacity: 750 kt/yr; Technip Energies brochure. [source](https://www.ten.com/sites/energies/files/2025-01/phenolics_brochure.pdf)
 - cumene licences since 1996: 36 licences; Technip Energies Badger. [source](https://www.ten.com/sites/energies/files/2025-01/phenolics_brochure.pdf)
+- phenol yield, cumene hydroperoxide cleavage stage: 99.2-99.5 % phenol yield; Worked examples: 30,431 kg/h phenol at 99.5% yield with 18,770 kg/h acetone at 98.5%, and phenol tar 54.2 kg per tonne of phenol; a second example gives 99.2% and 59.2 kg/t tar.. [source](http://patentimages.storage.googleapis.com/pdfs/68d6292f46dfecc2357f/EP0670296B1.pdf)
 
 **Missing inputs:**
-- phenol yield and energy use (performance): None in the brochure. Web-checked 2026-10-28; cumene-process yields in licensor literature only. Where: Lummus and KBR phenol sheets (open). Next: Add numbers.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; no verifiable named plant added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.ten.com/sites/energies/files/2025-01/phenolics_brochure.pdf), [2](https://en.wikipedia.org/wiki/Cumene_process). Last reviewed 2026-10-29.
+Sources: [1](https://www.ten.com/sites/energies/files/2025-01/phenolics_brochure.pdf), [2](https://en.wikipedia.org/wiki/Cumene_process). Last reviewed 2026-11-17.
 
 ## Polyethylene (gas phase, slurry, solution)
 <a id="pch-polyethylene"></a>
@@ -543,14 +547,14 @@ flowchart LR
 
 **Performance:**
 - UNIPOL PE single-line design capacity: 800000 t/yr; Univation (announced May 2025), up from 650,000 t/yr nameplate. [source](https://hydrocarbonprocessing.com/news/2025/05/univation-technologies-announces-world-scale-800-000-tpy-design-capacity-for-unipol-pe-process-technology/)
+- cradle-to-gate CO2 for HDPE resin: 1320 kg CO2e per tonne; US average 1,320 kg CO2 per tonne of HDPE (down from 1,465 in 2010) and 73.8 GJ per tonne.. [source](https://plasticmakers.org/wp-content/uploads/2022/09/A-Decreasing-Footprint-LCI-HDPE-LDPE-LLDPE-PP-1.pdf)
 
 **Missing inputs:**
 - named polyethylene plants with capacity (reference_plants): The article read gives the design capacity but no plant. Web-checked 2026-10-28; no verifiable named PE plant page added this pass. Where: Licensor and operator news (Univation, LyondellBasell, Ineos) (catalog: hydrocarbon-processing, open). Next: Add one or two plants with capacity and start-up year.
 - TRL with a cited source (trl): No IEA entry for conventional PE. IEA ETP Guide (July 2026) has no matching entry (searched 'polyethylene', 'polymerisation', 'gas-phase', 'slurry'); 2026-10-28 Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table, or rely on decades of commercial operation.
 - capital cost and production cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open); Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access (catalog: nexant-chemsystems, paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- energy and CO2 per tonne of polyethylene (polymerisation only and including ethylene) (performance): None of the sources read gives it. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open). Next: Add energy use and CO2 with system boundary stated.
 
-Sources: [1](https://hydrocarbonprocessing.com/news/2025/05/univation-technologies-announces-world-scale-800-000-tpy-design-capacity-for-unipol-pe-process-technology/). Last reviewed 2026-10-28.
+Sources: [1](https://hydrocarbonprocessing.com/news/2025/05/univation-technologies-announces-world-scale-800-000-tpy-design-capacity-for-unipol-pe-process-technology/). Last reviewed 2026-11-17.
 
 ## Polypropylene (gas phase, bulk)
 <a id="pch-polypropylene"></a>
@@ -575,6 +579,7 @@ flowchart LR
 **Performance:**
 - UNIPOL PP licensed reactor lines: 100 lines; Grace: over 100 licensed in more than 25 countries and 76 operating in 2023. [source](https://grace.com/insights/unipol--pp-technology--leading-the-way-in-innovation-and-growth/)
 - largest single UNIPOL PP line designed: 650000 t/yr; Grace: basic engineering package completed for a licensee in 2023. [source](https://grace.com/insights/unipol--pp-technology--leading-the-way-in-innovation-and-growth/)
+- cradle-to-gate CO2 for polypropylene resin: 1272 kg CO2e per tonne; US average 1,272 kg CO2 per tonne of PP (down from 1,469 in 2010) and 75.5 GJ per tonne.. [source](https://plasticmakers.org/wp-content/uploads/2022/09/A-Decreasing-Footprint-LCI-HDPE-LDPE-LLDPE-PP-1.pdf)
 
 **Reference plants:**
 - HMC Polymers polypropylene plants, Map Ta Phut and Bangkok-region sites, Thailand (PTT/PCD joint venture), TH: more than 800,000 t/yr of PP (2018); Thailand's first and largest PP producer, passing 1 million tons cumulative-capacity milestone (2023); PP Line IV at Map Ta Phut adds 250 kt/yr; operating. [source](https://www.scmp.com/country-reports/country-reports/topics/thailand-business-report-december-2018/article/2175634/hmc)
@@ -582,9 +587,8 @@ flowchart LR
 **Missing inputs:**
 - TRL with a cited source (trl): No IEA entry for conventional PP. IEA ETP Guide (July 2026) has no matching entry (searched 'polypropylene', 'PP', 'Spheripol', 'Innovene'); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table, or rely on commercial operation.
 - capital cost and production cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open); Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access (catalog: nexant-chemsystems, paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- energy and CO2 per tonne of polypropylene (performance): None of the sources read gives it. Web-checked 2026-10-28: LCA values exist in databases but no verifiable open per-tonne figure found. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open). Next: Add with system boundary stated.
 
-Sources: [1](https://grace.com/insights/unipol--pp-technology--leading-the-way-in-innovation-and-growth/). Last reviewed 2026-10-28.
+Sources: [1](https://grace.com/insights/unipol--pp-technology--leading-the-way-in-innovation-and-growth/). Last reviewed 2026-11-17.
 
 ## Propane dehydrogenation (Oleflex, CATOFIN)
 <a id="pch-propane-dehydrogenation"></a>
@@ -616,6 +620,7 @@ flowchart LR
 - global Oleflex propylene capacity: 7.9 Mt/yr; Honeywell, as of November 2020; 68 of the last 92 dehydrogenation projects worldwide since 2011 used UOP technology. [source](https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology)
 - capacity of each of Oriental Energy's three earlier Oleflex units: 660000 t/yr propylene; Honeywell release. [source](https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology)
 - per-pass propane conversion, CATOFIN and Oleflex: 40-50 % per pass (CATOFIN about 50; Oleflex about 40); "Propane/propylene conversions in CATOFIN and OLEFLEX are ~50% and ~40%, respectively" (open PDH technology review); selectivity and energy-per-tonne figures were not stated in the open pages read. [source](https://www.scribd.com/document/460716966/4244-Article-Text-12672-1-10-20180730)
+- total energy requirement, propane dehydrogenation: 10.35 GJ per tonne propylene; PDH total energy 10.35 GJ per tonne of propylene (1.843 kWh/t electricity); 11.84 GJ per tonne of propane feed is also quoted. PDH selectivity about 90%.. [source](https://epocbelgium.be/sites/epoc/files/Propylene_FactSheet_ShortVersion_TaliehRajabloo.pdf)
 
 **Reference plants:**
 - Oriental Energy, Maoming, Guangdong (fourth Oleflex unit), CN: three earlier units of 660,000 t/yr each; capacity of the new unit not stated; start scheduled 2022 (as of November 2020). [source](https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology)
@@ -623,9 +628,8 @@ flowchart LR
 **Missing inputs:**
 - TRL with a cited source (trl): The IEA guide has no PDH entry; the card is commercial on the basis of the 7.9 Mt/yr installed base. IEA ETP Guide (July 2026) has no matching entry (searched 'propane dehydrogenation', 'PDH', 'dehydrogenation', 'Oleflex', 'CATOFIN', 'on-purpose propylene'); 2026-10-28 no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open); Licensor statements of commercial references (catalog: honeywell-uop, open). Next: Find a TRL table that lists on-purpose propylene, or leave the commercial claim resting on the installed capacity.
 - capital cost and production cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open); Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access (catalog: nexant-chemsystems, paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- propylene yield, selectivity and energy use per tonne of propylene (performance): The release read gives capacity only. Per-pass conversions recorded in performance (~50% CATOFIN / ~40% Oleflex); selectivity and energy figures remain in licensor literature, 2026-10-28. Where: UOP and Lummus process brochures (catalog: honeywell-uop, open); Open techno-economic papers on PDH (catalog: arxiv, open). Next: Add yield, selectivity and energy use with basis and source.
 
-Sources: [1](https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology). Last reviewed 2026-10-28.
+Sources: [1](https://www.honeywell.com/us/en/news/press-releases/2020/11/oriental-energy-expands-use-of-honeywell-technology). Last reviewed 2026-11-17.
 
 ## Propylene oxide (HPPO, PO/SM)
 <a id="pch-propylene-oxide"></a>
@@ -714,11 +718,13 @@ flowchart LR
 
 **Key equipment:** reactor, stripper, fractionators, hydrogen recycle.
 
+**Performance:**
+- toluene conversion per pass: 46-48 % conversion per pass; Commercial test: 46-48% conversion with 90-93% selectivity and xylene/benzene molar ratio 2.5-3.0. Hydrogen consumption is not stated.. [source](https://www.researchgate.net/publication/298174881_Commercial_test_of_HLD-001_catalyst_for_toluene_disproportionation_and_transalkylation)
+
 **Reference plants:**
 - Hengyi Brunei Tatoray unit, BN: ; . [source](https://www.ogj.com/refining-processing/petrochemicals/article/14198324/hengyi-lets-contract-for-aromatics-expansion-at-brunei-complex)
 
 **Missing inputs:**
-- conversion per pass, hydrogen consumption, xylene yield (performance): None in the article. Web-checked 2026-10-28; licensor (UOP PX-Plus, ExSorb class) performance tables not open. Where: UOP Tatoray datasheet (catalog: honeywell-uop, open). Next: Add figures.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; licensor quotes only. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -745,6 +751,7 @@ flowchart LR
 **Performance:**
 - Longlaville plant design capacity: 50000 t/yr post-consumer PET waste; Carbios, on Indorama Ventures' site; EUR 230 million. [source](https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/)
 - enzymatic PET depolymerisation extent (company-reported): 100 % of PET waste depolymerised (company claim); "CARBIOS depolymerizes 100% of PET based plastic waste with its enzymatic recycling process" (Carbios, 2 Dec 2015, company claim); C&EN (8 Feb 2020): the enzymes break PET down into monomers for virgin-quality plastic; an independently verified monomer-yield percentage and energy use were not available in open pages. [source](https://www.carbios.com/en/carbios-depolymerizes-100-of-pet-based-plastic-waste-with-its-enzymatic-recycling-process)
+- enzymatic PET depolymerisation extent: 90 % PET depolymerised in 10 h; At least 90% depolymerisation to monomers in 10 hours at 16.7 g terephthalate per litre per hour.. [source](https://www.nature.com/articles/s41586-020-2149-4)
 
 **Reference plants:**
 - Carbios Longlaville plant, Meurthe-et-Moselle, FR: 50,000 t/yr PET waste, EUR 230 million; ground-breaking April 2024; construction suspended pending project financing; the financial close target of 30 September 2026 was missed and the start of production, previously expected H1 2028, is postponed; credit committee approvals obtained from the majority of lenders during summer 2026, a commercial agreement with a major beverage-industry player being finalised to raise pre-sales to about 60% of nominal capacity, and due diligence by export credit agencies and equity partners ongoing (as of 24 September 2026). [source](https://www.carbios.com/en/carbios-provides-an-update-on-the-financing-of-its-longlaville-plant-project/)
@@ -753,9 +760,8 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 
 **Missing inputs:**
 - capital cost and production cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open); Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access (catalog: nexant-chemsystems, paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- monomer yield and energy use (performance): The article read gives capacity only. Carbios company-reported 100% depolymerisation recorded; independent yield figures and energy use remain unpublished, 2026-10-28. Where: Carbios technical publications; open reviews of PET recycling (catalog: arxiv, open). Next: Add yield and energy per tonne PET.
 
-Sources: [1](https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/), [2](https://www.carbios.com/en/carbios-provides-an-update-on-the-financing-of-its-longlaville-plant-project/), [3](https://www.carbios.com/en/carbios-reports-first-half-2026-results/), [4](https://www.carbios.com/en/carbios-depolymerizes-100-of-pet-based-plastic-waste-with-its-enzymatic-recycling-process). Last reviewed 2026-10-28.
+Sources: [1](https://www.packaging-gateway.com/projects/carbios-pet-biorecycling-plant-longlaville-france/), [2](https://www.carbios.com/en/carbios-provides-an-update-on-the-financing-of-its-longlaville-plant-project/), [3](https://www.carbios.com/en/carbios-reports-first-half-2026-results/), [4](https://www.carbios.com/en/carbios-depolymerizes-100-of-pet-based-plastic-waste-with-its-enzymatic-recycling-process). Last reviewed 2026-11-17.
 
 ## Electric steam cracking
 <a id="pch-electric-steam-cracking"></a>
@@ -786,9 +792,9 @@ TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 202
 
 **Missing inputs:**
 - capital cost and production cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open); Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access (catalog: nexant-chemsystems, paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
-- measured results from the demonstration (CO2, energy, run length) (performance): Only the 2024 start-up announcement was read. Checked BASF's sustainability pages and Google/Bing news on 2026-10-28; no measured operating results (CO2 avoided, energy use, run length) have been published yet — as of September 2025 BASF reported the plant still testing two heating concepts, with recognition limited to awards (ICIS 2024, Edison 2025). Where: BASF and Linde publications after 2024; BASF sustainability news archive and annual reports (catalog: basf-catalysts, open); Linde Engineering Starbridge pages and success stories (catalog: linde-engineering, open). Next: Check for measured results and any commercial-scale announcement; update the card.
+- measured results from the demonstration (CO2 avoided, energy use, run length) (performance): BASF, SABIC and Linde publish only design targets (two 6 MW furnaces, about 4 t/h feed, 90-95% CO2-reduction potential); as of September 2025 the plant was still testing two heating concepts and no measured CO2, energy or run-length data had been released. Where: BASF and Linde publications after 2024; BASF sustainability news archive and annual reports (catalog: basf-catalysts, open); Linde Engineering Starbridge pages and success stories (catalog: linde-engineering, open). Next: Leave open until the demonstration publishes measured results.
 
-Sources: [1](https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html), [2](https://www.basf.com/global/en/who-we-are/sustainability/publications/sustainability-news/archive/News_09-2025_eFurnace_Edison-AwardEN). Last reviewed 2026-10-28.
+Sources: [1](https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177.html), [2](https://www.basf.com/global/en/who-we-are/sustainability/publications/sustainability-news/archive/News_09-2025_eFurnace_Edison-AwardEN). Last reviewed 2026-11-17.
 
 ## Electrification of process heat (e-boilers, heat pumps)
 <a id="pch-electrified-process-heat"></a>
@@ -834,11 +840,13 @@ flowchart LR
 
 **Key equipment:** OCM reactor, oxygen supply, ethylene recovery, recycle compressors.
 
+**Performance:**
+- C2 yield over the benchmark Mn-Na2WO4/SiO2 catalyst: 26.4 % C2 yield; At 750 C: C2 yield 26.4%, C2 selectivity 80%, CH4 conversion 33%, stable over 500 h. The review notes about 30% is the industrial threshold.. [source](https://www.osti.gov/servlets/purl/3011568)
+
 **Reference plants:**
 - Siluria OCM demonstration plant, La Porte, Texas, US: ; demonstration ran from early 2015 and completed 18 test campaigns in its first year (company release, 11 May 2016); no commercial OCM plant followed — Siluria was bought by McDermott in 2019, and McDermott's 2020 post-bankruptcy spin-off of Lummus Technology included Siluria's intellectual property and the La Porte demonstration plant (read 28 October 2026). [source](https://www.prnewswire.com/news-releases/siluria-announces-one-year-of-successful-operations-of-its-disruptive-ethylene-technology-300266816.html)
 
 **Missing inputs:**
-- key performance figures (energy use, yields, capture or conversion rate) (performance): No source read so far gives performance figures. Web-checked 2026-10-28; Siluria demo-era figures remain in SPE/licensor material. Where: Supplier datasheets and brochures for the companies listed on the card (open); arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Add the figures that matter for comparing options, each with its basis and source.
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open figures. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, blocked). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28; status updated in Wave 2). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
@@ -868,6 +876,7 @@ flowchart LR
 
 **Performance:**
 - planned Seville plant capacity: 33000 t/yr post-consumer plastic waste; Plastic Energy and TotalEnergies, expected operational early 2025 (as of January 2022). [source](https://www.businesswire.com/news/home/20220110006139/en/Plastic-Energy-and-TotalEnergies-Sign-an-Agreement-for-an-Advanced-Recycling-Project-in-Spain)
+- oil yield from pyrolysis of waste polyethylene: 86 wt% oil yield; Highest waxy-oil yield from waste PE about 86 wt%, from waste PP about 82 wt%, depending on reactor and temperature.. [source](https://www.sciencedirect.com/science/article/abs/pii/S0301479725041556)
 
 **Reference plants:**
 - Plastic Energy and TotalEnergies advanced recycling plant, Seville, ES: 33,000 t/yr plastic waste; no start-up of the new 33,000 t/yr plant was ever announced; Plastic Energy's own current plant list shows only the original Seville plant, operational since 2017; the company entered administration in England in May 2026, emerged in August 2026 with founder Carlos Monreal returning as CEO, and in September 2026 transferred its stake in the TEPEAR joint-venture plant at Grandpuits (15,000 t/yr, operational since March 2026) to TotalEnergies while retaining the Almeria and Seville plants (as of 11 September 2026). [source](https://www.letsrecycle.com/news/plastic-energy-transfers-stake-in-chemical-recycling-plant-amid-restructuring/)
@@ -875,10 +884,9 @@ flowchart LR
 TRL source: [IEA Clean Energy Technology Guide 2025: 'Pyrolysis recycling' TRL 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
 **Missing inputs:**
-- oil yield (% of plastic input) and energy use (performance): The release read gives capacity only. Web-checked 2026-10-28: vendor figures (Plastic Energy ~80% class) exist in brochures; no independently verifiable oil-yield table found in open pages this pass. Where: Open reviews of pyrolysis yields (arXiv, open-access journals) (catalog: arxiv, open). Next: Add yield and energy per tonne with the waste mix stated.
 - capital cost and production cost, with dollar year and basis (costs): No open source read so far gives costs for this technology; petrochemical unit costs are mostly in paid sources. Where: Open techno-economic papers on arXiv and open-access journals (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); IEA reports on petrochemicals (check the iea-reports corpus first) (catalog: iea-reports, open); Paid cost databases and licensor studies (consultancies, IHS/S&P, Nexant): catalog-only until the owner provides access (catalog: nexant-chemsystems, paid). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 
-Sources: [1](https://www.businesswire.com/news/home/20220110006139/en/Plastic-Energy-and-TotalEnergies-Sign-an-Agreement-for-an-Advanced-Recycling-Project-in-Spain), [2](https://www.letsrecycle.com/news/plastic-energy-transfers-stake-in-chemical-recycling-plant-amid-restructuring/), [3](https://plasticenergy.com/operations/), [4](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-10-28.
+Sources: [1](https://www.businesswire.com/news/home/20220110006139/en/Plastic-Energy-and-TotalEnergies-Sign-an-Agreement-for-an-Advanced-Recycling-Project-in-Spain), [2](https://www.letsrecycle.com/news/plastic-energy-transfers-stake-in-chemical-recycling-plant-amid-restructuring/), [3](https://plasticenergy.com/operations/), [4](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide). Last reviewed 2026-11-17.
 
 ## Solvent-based purification of plastics
 <a id="pch-solvent-based-plastics-purification"></a>

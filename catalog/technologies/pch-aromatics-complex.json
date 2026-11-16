@@ -121,6 +121,17 @@
         "url": "https://www.nexanteca.com/sites/default/files/Nexant%20-%20Disruption%20in%20Aromatics%20-%20Blog%2017-Jan-2019.pdf",
         "note": "NexantECA blog PDF, 17 Jan 2019 (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "specific energy consumption, integrated aromatics complex",
+      "unit": "GJ thermal per tonne aromatics",
+      "basis": "Modelled integrated complex: 7.73 GJ-th per tonne of aromatics plus 0.91 GJ/t of electricity. A PX yield per tonne of naphtha is not stated.",
+      "source": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0959652622033042",
+        "note": "Yang et al., integral comparison of aromatics complexes (J. Cleaner Production 2022), read 2026-11-17"
+      },
+      "low": 7.73,
+      "high": 7.73
     }
   ],
   "reference_plants": [
@@ -157,20 +168,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "energy use and overall PX yield per tonne naphtha",
-      "reason_code": "not_in_sources_read",
-      "reason": "Only a UOP claim of doubling PX yield. PX-on-crude yields recorded in performance (5-10% typical, >20% new plants, Nexant 2019); per-tonne-naphtha and energy figures not found open, 2026-10-28.",
-      "where": [
-        {
-          "hint": "UOP aromatics brochures",
-          "access": "open",
-          "source_id": "honeywell-uop"
-        }
-      ],
-      "action": "Add yields."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

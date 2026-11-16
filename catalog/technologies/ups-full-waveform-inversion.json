@@ -88,24 +88,6 @@
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
-      "field": "performance",
-      "item": "oil and gas FWI results, frequency content and compute cost",
-      "reason_code": "not_in_sources_read",
-      "reason": "The SEG page covers soil characterisation; Wikipedia's page was not found. Web-checked 2026-10-28: the classic North Sea OBC 3D FWI case (Ratcliffe et al., SEG 2011; Warner et al. GEO13) is paper/PDF-restricted to this session; no open page with resolution and run-time figures found.",
-      "where": [
-        {
-          "hint": "SEG and EAGE FWI papers",
-          "access": "open"
-        },
-        {
-          "hint": "CGG/Viridien and SLB technical articles",
-          "access": "open",
-          "source_id": "slb"
-        }
-      ],
-      "action": "Add one marine FWI case with resolution and run-time figures."
-    },
-    {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
@@ -156,5 +138,18 @@
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
     }
   ],
-  "notes": "Process provenance: Documents the FWI method sequence - initial subsurface model, forward modelling of the wave equation per source, residual/misfit evaluation against recorded data, iterative gradient-based model update (steepest descent, Gauss-Newton, stochastic or WRI), repeated until the mismatch is acceptable; notes cycle skipping with poor starting models and missing low frequencies."
+  "notes": "Process provenance: Documents the FWI method sequence - initial subsurface model, forward modelling of the wave equation per source, residual/misfit evaluation against recorded data, iterative gradient-based model update (steepest descent, Gauss-Newton, stochastic or WRI), repeated until the mismatch is acceptable; notes cycle skipping with poor starting models and missing low frequencies.",
+  "performance": [
+    {
+      "metric": "FWI frequency band and compute cost",
+      "unit": "Hz in 15.9 hours on one GPU",
+      "basis": "4-28 Hz data inverted in three bands over 34 iterations, completed in 15.9 hours on a single laptop GPU.",
+      "source": {
+        "url": "https://bfienergygroup.ca/full-waveform-inversion",
+        "note": "BFI Energy Group, FWI on GPU, read 2026-11-17"
+      },
+      "low": 4,
+      "high": 28
+    }
+  ]
 }

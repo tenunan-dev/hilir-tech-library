@@ -100,6 +100,17 @@
       },
       "low": 0.75,
       "high": 1500000
+    },
+    {
+      "metric": "isentropic efficiency, gas turboexpander",
+      "unit": "%",
+      "basis": "The compendium's worked power-recovery example uses 85% turboexpander efficiency.",
+      "source": {
+        "url": "https://www.ipieca.org/resources/energy-efficiency-compendium/gas-turboexpanders-2023",
+        "note": "IPIECA, Gas turboexpanders (Energy Efficiency Compendium, 2023), read 2026-11-17"
+      },
+      "low": 85,
+      "high": 85
     }
   ],
   "costs": [
@@ -129,21 +140,8 @@
       "note": "Wikipedia, Steam turbine, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "expander duties such as turboexpanders in LNG and gas plants",
-      "reason_code": "not_in_sources_read",
-      "reason": "The page covers steam turbines only.",
-      "where": [
-        {
-          "hint": "OEM pages for turboexpanders",
-          "access": "open"
-        }
-      ],
-      "action": "Add a card or section for gas expanders with figures."
-    },
     {
       "field": "reference_plants",
       "item": "named plants or projects with capacity and year",

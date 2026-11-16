@@ -103,6 +103,17 @@
       },
       "low": 0,
       "high": 100
+    },
+    {
+      "metric": "multiphase flow meter measurement uncertainty",
+      "unit": "% of reading",
+      "basis": "Allocation agreements required 5% on oil and gas and 10% on water; the meter was verified to 5% on oil and gas over six months at 80-85% GVF.",
+      "source": {
+        "url": "https://www.osti.gov/etdeweb/servlets/purl/20892519",
+        "note": "Tierney, Howe field allocation (OTC via OSTI), read 2026-11-17"
+      },
+      "low": 5,
+      "high": 10
     }
   ],
   "advantages": [
@@ -124,19 +135,6 @@
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "uncertainty percentages and subsea installed count",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated. Web-checked 2026-10-28: accuracy requirements of 5-10% (management) / 2-5% (allocation) and up-to-62% test-line cost savings are stated in the Falcone/Harrison 2002 JPSE review, but the open copy (academia.edu) exposes only the abstract, so the figures are not verifiable page-by-page; subsea installed count not found.",
-      "where": [
-        {
-          "hint": "NFOGM and NORSOK I-104 documents",
-          "access": "open"
-        }
-      ],
-      "action": "Add uncertainty class with source."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

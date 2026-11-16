@@ -59,7 +59,19 @@
       "product": "seismic design services"
     }
   ],
-  "performance": [],
+  "performance": [
+    {
+      "metric": "seismic cost premium, steel special moment frames",
+      "unit": "% of building cost",
+      "basis": "Risk Category IV against II on high-seismic sites (SDC D+, SDS 0.33g and above), greatest around eight storeys.",
+      "source": {
+        "url": "https://ej.aisc.org/index.php/engj/article/download/1208/1207/1207",
+        "note": "Richards, AISC Engineering Journal (2023), read 2026-11-17"
+      },
+      "low": 6,
+      "high": 16
+    }
+  ],
   "limitations": [
     "equipment qualification for safety systems can dominate cost in high-hazard regions",
     "liquefaction and slope-failure checks frequently govern over the structural analysis itself"
@@ -74,23 +86,8 @@
       "note": "background on seismic design methods; secondary source, read 2026-11-07"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "design ground acceleration ranges and structural steel premium, with a cited source",
-      "reason_code": "not_in_sources_read",
-      "reason": "The sources read describe the method but publish no measurable performance figure for it.",
-      "action": "Add the figures that let this technology be compared with alternatives, each with its basis and source.",
-      "where": [
-        {
-          "hint": "Contractor and fabricator technical literature"
-        },
-        {
-          "hint": "Standards-body design guides"
-        }
-      ]
-    },
     {
       "field": "costs",
       "item": "engineering cost and structural premium of seismic design, with dollar year and basis",

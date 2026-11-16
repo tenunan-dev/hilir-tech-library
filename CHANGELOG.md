@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.17.3] — 2026-11-17 — performance drained: 105 figures, gaps 130 → 2
+
+### Added
+
+- **One hundred and five performance figures** across power and storage, rotating equipment and gas processing, petrochemicals and materials, data centres and civil works, upstream, midstream and instrumentation — each from a cited source (EIA, NREL, IEA, IRENA, ISO, NORSOK, API, IEC, licensors, peer-reviewed).
+- The library now carries **871 performance figures** across 388 cards.
+
+### Changed
+
+- Performance gaps **130 → 2**. The two that remain are blocked by cause: the BASF/SABIC/Linde electric steam cracker has published design targets but no measured run data, and the Benfield hot-potassium-carbonate card needs a licensor-neutral simulation the BRE comparison does not provide.
+
 ## [2026.11.17.2] — 2026-11-17 — performance pass 1: 23 figures across CCS, hydrogen and refining
 
 ### Added

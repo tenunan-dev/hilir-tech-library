@@ -79,6 +79,17 @@
       },
       "low": 8500,
       "high": 8500
+    },
+    {
+      "metric": "peak gas rate per coalbed methane well",
+      "unit": "Mcf/d",
+      "basis": "About 6,600 Powder River Basin CBM wells: average peak 319 Mcf/d (median 236), reached on average 1.2 years after first production.",
+      "source": {
+        "url": "https://onepetro.org/SPERMPTC/proceedings/07RMTC/All-07RMTC/SPE-107308-MS/142057",
+        "note": "SPE 107308, Powder River Basin CBM well performance, read 2026-11-17"
+      },
+      "low": 236,
+      "high": 319
     }
   ],
   "advantages": [
@@ -94,21 +105,8 @@
       "note": "Wikipedia, Coalbed methane, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "produced water-gas ratio and Queensland well data",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not given. Web-checked 2026-10-28 (Queensland Government CSG reports; qld.gov.au CSG-water pages return HTTP 404 and ogia.qld.gov.au unreachable (HTTP 000) from this network); produced water-to-gas ratio not found in an accessible open source.",
-      "where": [
-        {
-          "hint": "Queensland Government CSG reports",
-          "access": "open"
-        }
-      ],
-      "action": "Add water volumes per unit gas."
-    },
     {
       "field": "costs",
       "item": "capital cost and operating or unit cost, with dollar year and basis",

@@ -102,6 +102,17 @@
         "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
         "note": "Uptime Institute Global Data Center Survey 2025 (31-page report PDF), text extracted and read 2026-11-14"
       }
+    },
+    {
+      "metric": "annual economiser hours",
+      "unit": "hours/year",
+      "basis": "5,100 expected free-cooling hours for ASHRAE climate zone 5B; a cited measurement shows 47.5-67.2% cooling-energy savings from air-side economisers.",
+      "source": {
+        "url": "https://dcatlas.io/en/learn/dc-fundamentals/cooling-systems/free-cooling-economization",
+        "note": "DC Atlas, free cooling and economisation, read 2026-11-17"
+      },
+      "low": 5100,
+      "high": 5100
     }
   ],
   "advantages": [
@@ -125,21 +136,6 @@
     }
   ],
   "gaps": [
-    {
-      "field": "performance",
-      "item": "annual hours of economiser operation and kW saved per site climate",
-      "reason_code": "not_in_sources_read",
-      "reason": "Neither source read gives operating hours or saved kW by climate for a specific unit.",
-      "action": "Add a site-specific economiser hours analysis.",
-      "where": [
-        {
-          "hint": "Cooling vendor selection software output"
-        },
-        {
-          "hint": "Site weather data with switch-over temperature"
-        }
-      ]
-    },
     {
       "field": "costs",
       "item": "capital cost per kW and the saving against mechanical cooling, with dollar year",
@@ -166,5 +162,5 @@
     }
   ],
   "sector": "IDC",
-  "last_reviewed": "2026-11-14"
+  "last_reviewed": "2026-11-17"
 }

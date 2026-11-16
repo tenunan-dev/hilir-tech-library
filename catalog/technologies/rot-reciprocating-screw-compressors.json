@@ -59,6 +59,17 @@
         "note": "Wikipedia, Reciprocating compressor, read 25 October 2026 (secondary source)"
       },
       "high": 34.5
+    },
+    {
+      "metric": "suction volume range, rotary screw compressors",
+      "unit": "m3/h",
+      "basis": "Rotary screw compressors cover 300-60,000 m3/h suction volume (176-35,310 acfm). A pressure limit is not stated in the paper.",
+      "source": {
+        "url": "https://oaktrust.library.tamu.edu/bitstreams/826c5eb1-2ee6-43dc-8635-42377bca95cb/download",
+        "note": "Bloch, Large liquid-injected screw compressors (TAMU Symposium), read 2026-11-17"
+      },
+      "low": 300,
+      "high": 60000
     }
   ],
   "advantages": [],
@@ -72,7 +83,7 @@
       "note": "Wikipedia, Reciprocating compressor, read 25 October 2026 (secondary source)"
     }
   ],
-  "last_reviewed": "2026-10-29",
+  "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "suppliers",
@@ -86,23 +97,6 @@
         }
       ],
       "action": "Add suppliers from vendor pages, with the product each supplies."
-    },
-    {
-      "field": "performance",
-      "item": "screw compressor pressure and flow ranges; reciprocating efficiency",
-      "reason_code": "not_in_sources_read",
-      "reason": "Screw compressors are not covered by the page read.",
-      "where": [
-        {
-          "hint": "OEM datasheets",
-          "access": "open"
-        },
-        {
-          "hint": "GPSA Engineering Data Book summaries",
-          "access": "paid"
-        }
-      ],
-      "action": "Add ranges with source."
     },
     {
       "field": "costs",
