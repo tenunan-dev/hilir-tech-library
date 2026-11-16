@@ -1,0 +1,31 @@
+{
+  "id": "ghd",
+  "name": "GHD",
+  "country": "AU",
+  "roles": [
+    "service"
+  ],
+  "categories": [
+    "engineering-consultancy"
+  ],
+  "description": "Engineering, architecture and construction-services consultancy that grew from a Melbourne practice founded in 1928 into a global professional-services firm. Supplies design and advisory work, not equipment.",
+  "products": [
+    "Water and wastewater engineering",
+    "Engineering, architecture and construction services"
+  ],
+  "technologies": [
+    "wwt-water-pinch"
+  ],
+  "url": "https://www.ghd.com/",
+  "sources": [
+    {
+      "url": "https://www.ghd.com/en/about-ghd",
+      "note": "Origin in Melbourne 1928, professional-services description, read 2026-11-16"
+    },
+    {
+      "url": "https://www.ghd.com/en",
+      "note": "Site title: Engineering, Architecture & Construction Services, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

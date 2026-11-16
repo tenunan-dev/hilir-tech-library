@@ -1,0 +1,24 @@
+{
+  "id": "bremen-chp-swb",
+  "name": "Bremen CHP plant (swb)",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Germany",
+  "location": "Bremen",
+  "status": "operating",
+  "description": "105 MW electrical and up to 93 MW district-heating CHP plant: 9 x Wärtsilä 31SG gas engines with heat recovery, EPC with Uniper as consortium leader.",
+  "technologies": [
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/bremen-germany",
+      "note": "Wärtsilä reference page: 105 MW electrical / up to 93 MW district heating, delivery mid-2022, read 2026-11-16"
+    }
+  ],
+  "notes": "The source states a delivery date of mid-2022, not a commercial-operation date; status recorded as operating on that basis and the card flags the distinction. Operator: swb Erzeugung GmbH & Co KG.",
+  "last_reviewed": "2026-11-16"
+}

@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-239 project records (one per named project or plant, schema `schema/project.schema.json`).
+241 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -762,6 +762,11 @@ Status: **operating** | Country: Eritrea
 22 MW gensets + 7.5 MWp solar
 Technologies: pwr-containerised-hybrid-modules
 
+### Bremen CHP plant (swb) (bremen-chp-swb)
+Status: **operating** | Country: Germany
+105 MW electrical and up to 93 MW district-heating CHP plant: 9 x Wärtsilä 31SG gas engines with heat recovery, EPC with Uniper as consortium leader.
+Technologies: pwr-cogeneration-chp
+
 ### Changji-Guquan ±1,100 kV UHVDC link, China (SGCC) (changji-guquan-1-100-kv-uhvdc-link-china-sgcc)
 Status: **operating** | Country: CN
 ±1,100 kV, 12 GW, about 3,300 km from Xinjiang to Anhui; world's highest-voltage DC transmission; full-voltage operation January 2019
@@ -781,6 +786,11 @@ Technologies: pwr-flow-batteries
 Status: **operating** | Country: Bangladesh
 102 MW
 Technologies: pwr-modular-engine-plants
+
+### Dresden-Reick CHP plant (dresden-reick-chp)
+Status: **operating** | Country: Germany
+94 MW electrical and 84 MW district-heating combined heat and power plant: 8 x Wärtsilä 31SG gas engines on natural gas, EPC delivery, operational in 2022.
+Technologies: pwr-cogeneration-chp
 
 ### Dubai Waste Management Centre (Warsan), United Arab Emirates (dubai-waste-management-centre-warsan-united-arab-emirates)
 Status: **operating** | Country: AE

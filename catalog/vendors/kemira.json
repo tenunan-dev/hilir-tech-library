@@ -1,0 +1,28 @@
+{
+  "id": "kemira",
+  "name": "Kemira",
+  "country": "FI",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "materials-supplier"
+  ],
+  "description": "Water-chemistry supplier covering raw and drinking water, wastewater, sludge handling and activated carbon, with digital services for process optimisation. Sells chemistry and services rather than packaged plants.",
+  "products": [
+    "Water treatment chemistry",
+    "Activated carbon",
+    "Digital services"
+  ],
+  "technologies": [
+    "wwt-coagulation-precipitation"
+  ],
+  "url": "https://www.kemira.com/",
+  "sources": [
+    {
+      "url": "https://www.kemira.com/company/about-us/",
+      "note": "Business areas and Helsinki HQ, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

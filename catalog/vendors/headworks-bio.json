@@ -1,0 +1,34 @@
+{
+  "id": "headworks-bio",
+  "name": "Headworks BIO",
+  "country": "US",
+  "roles": [
+    "oem",
+    "licensor"
+  ],
+  "categories": [
+    "equipment-oem",
+    "process-licensor"
+  ],
+  "description": "Biological wastewater treatment supplier in Houston, Texas, specialising in moving-bed biofilm and integrated fixed-film processes, including anaerobic MBBR and anammox.",
+  "products": [
+    "Anoxic MBBR",
+    "Anaerobic MBBR (EnergyCell)",
+    "Anammox (ActiveMox)",
+    "MBBR / IFAS",
+    "UltraCell",
+    "HIT Systems compact treatment"
+  ],
+  "technologies": [
+    "wwt-mbbr"
+  ],
+  "url": "https://www.headworksinternational.com/",
+  "notes": "headworksbio.com serves a certificate that fails verification (leaf signature). Read the parent brand site headworksinternational.com instead.",
+  "sources": [
+    {
+      "url": "https://www.headworksinternational.com/",
+      "note": "MBBR/IFAS product list and Houston TX HQ, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

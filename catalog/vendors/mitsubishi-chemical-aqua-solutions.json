@@ -1,0 +1,33 @@
+{
+  "id": "mitsubishi-chemical-aqua-solutions",
+  "name": "Mitsubishi Chemical Aqua Solutions",
+  "country": "JP",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Japanese membrane and water-treatment systems house: membrane-bioreactor wastewater plants, hollow-fibre membrane filtration, RO and pure-water units, and treatment chemicals.",
+  "products": [
+    "DiaFellow MBR (AM packaged unit, PT microbial carrier, NR metal recovery, CT catalyst)",
+    "Hollow-fibre membrane elements",
+    "RO membrane units (NDR, DiaPure CRO)",
+    "Two-bed-three-tower and mixed-bed pure water units"
+  ],
+  "technologies": [
+    "wwt-membrane-bioreactor"
+  ],
+  "url": "https://www.mcas.co.jp/",
+  "sources": [
+    {
+      "url": "https://www.mcas.co.jp/company/outline/",
+      "note": "Tokyo address and business scope (MBR, hollow-fibre membrane), read 2026-11-16"
+    },
+    {
+      "url": "https://www.mcas.co.jp/products/",
+      "note": "DiaFellow MBR series and membrane/RO product lines, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

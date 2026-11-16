@@ -1,0 +1,37 @@
+{
+  "id": "aqua-aerobic-systems",
+  "name": "Aqua-Aerobic Systems",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Wastewater equipment OEM in Loves Park, Illinois: sequencing-batch reactors, cloth-media filtration, aeration and mixing, and process controls.",
+  "products": [
+    "AquaSBR",
+    "AquaNereda",
+    "Aqua MSBR",
+    "AquaMB Process",
+    "AquaStorm cloth-media filtration",
+    "Aqua-Jet",
+    "Aqua MultiBore",
+    "Aqua ElectrOzone"
+  ],
+  "technologies": [
+    "wwt-sbr"
+  ],
+  "url": "https://www.aqua-aerobic.com/",
+  "sources": [
+    {
+      "url": "https://www.aqua-aerobic.com/",
+      "note": "Product list, read 2026-11-16"
+    },
+    {
+      "url": "https://aqua-aerobic.com/contact/",
+      "note": "6306 North Alpine Road, Loves Park IL, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

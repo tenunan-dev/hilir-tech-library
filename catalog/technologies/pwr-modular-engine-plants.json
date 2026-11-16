@@ -232,36 +232,30 @@
       "note": "INNIO Jenbacher containerised solutions page, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-16",
   "gaps": [
     {
       "field": "costs",
       "item": "capital cost per kW for a modular engine plant versus a conventional build, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives installed costs for modular engine plants.",
+      "reason": "Searched 2026-11-16 and still no open source states a modular-vs-conventional $/kW delta. Wärtsilä's Modular Block article describes containerised transport, bolted joints, no site welding and a ~5-week build, and claims only qualitative cost savings where site works are expensive; its data-centre page's '20-30% lower CAPEX' names no comparator. The EPA/DOE total-installed figures now on pwr-gas-engines are for engine CHP, not for a modular premium.",
       "where": [
         {
-          "hint": "arXiv and open-access journals: techno-economic studies of engine power plants",
-          "access": "open",
-          "source_id": "arxiv"
-        },
-        {
-          "hint": "Wärtsilä investor and annual reports may carry $/kW averages",
+          "hint": "Manufacturer investor material or EPC tender results comparing modular and stick-built engine plants",
           "access": "open"
         },
         {
-          "hint": "OSTI.GOV reports; osti.gov is unreachable from this machine",
-          "access": "blocked",
-          "source_id": "osti"
+          "hint": "Owner/utility board papers publishing both bids for the same project",
+          "access": "open"
         }
       ],
-      "action": "Find an open installed-cost figure; record it with metric, range, unit, dollar year, basis and source."
+      "action": "Leave open until a source states the delta; do not derive it by subtracting two unrelated figures."
     },
     {
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "The IEA ETP Clean Energy Technology Guide was not re-checked for this entry.",
+      "reason": "No agency source assigns a TRL to modular/containerised engine plants as a distinct technology: the IEA ETP Clean Energy Technology Guide dataset has no such row, and DOE/EPA cover the engine, not the packaging. Commercial deployment is evidenced by the reference plants (Dohazari 102 MW in 10 months; KPUB 124 MW), so the blocker is the missing agency rating, not the technology.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (collected): search for reciprocating engine power plants",
@@ -269,21 +263,8 @@
           "source_id": "iea-reports"
         }
       ],
-      "action": "Find a TRL table entry or leave maturity resting on the evidence on the card."
-    },
-    {
-      "field": "process",
-      "item": "deployment sequence is generalised from vendor descriptions",
-      "reason_code": "general_knowledge_only",
-      "reason": "Wärtsilä's page describes the Modular Block assembly; the full flow is standard practice, not one named source.",
-      "where": [
-        {
-          "hint": "Vendor EPC brochures or an engineering contractor's project description",
-          "access": "open"
-        }
-      ],
-      "action": "Check the steps against a named EPC or licensor description."
+      "action": "Cite a deployment record, or leave the TRL empty rather than infer 9 from maturity prose."
     }
   ],
-  "notes": "MAN Energy Solutions was renamed Everllence on 4 June 2025 (everllence.com press release read 26 October 2026); the catalogued source record still carries the former name. Rolls-Royce Power Systems launched its modular gas engine power plant offer in February 2026, so the concept is new even though mtu gensets have run on the UK grid since 2014. Wärtsilä reports 81 GW of engine power plant capacity delivered (wartsila.com/energy/engine-power-plant-solutions, read 26 October 2026)."
+  "notes": "MAN Energy Solutions was renamed Everllence on 4 June 2025 (everllence.com press release read 26 October 2026); the catalogued source record still carries the former name. Rolls-Royce Power Systems launched its modular gas engine power plant offer in February 2026, so the concept is new even though mtu gensets have run on the UK grid since 2014. Wärtsilä reports 81 GW of engine power plant capacity delivered (wartsila.com/energy/engine-power-plant-solutions, read 26 October 2026). Deployment sequence provenance: factory fabrication and testing, bolted site erection without welding and the ~5-week assembly window are as described in Wärtsilä's Modular Block article (wartsila.com/insights/article/towards-higher-efficiencies-with-wartsila-modular-block, read 2026-11-16); balance-of-plant and grid-synchronisation steps are the standard plant sequence."
 }

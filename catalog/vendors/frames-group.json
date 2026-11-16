@@ -1,0 +1,36 @@
+{
+  "id": "frames-group",
+  "name": "Frames Group",
+  "country": "NL",
+  "roles": [
+    "packager",
+    "integrator"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Turnkey process and separation systems integrator, historically oil and gas. Its product families still include produced water treatment, electrostatic coalescers and oil/water multiphase separation, though the company now positions itself toward hydrogen; a Plug Power subsidiary since December 2021.",
+  "products": [
+    "Produced Water Treatment",
+    "Electrostatic Coalescers",
+    "Oil & Water Multiphase Separation",
+    "Chemical Injection",
+    "Gas and liquid sweetening / sulphur recovery"
+  ],
+  "technologies": [
+    "wwt-produced-water-treatment"
+  ],
+  "url": "https://frames-group.com/",
+  "notes": "framesgroup.com (no hyphen) is a dead JS shell returning an empty body on every path; the live site is frames-group.com. Headquarters city not stated on any page read — the Plug Power release says only 'headquartered in the Netherlands'.",
+  "sources": [
+    {
+      "url": "https://frames-group.com/services-and-after-sales/",
+      "note": "Product families incl. produced water and electrostatic coalescers; portfolio shift note, read 2026-11-16"
+    },
+    {
+      "url": "https://www.ir.plugpower.com/press-releases/news-details/2021/Plug-Power-Completes-Acquisition-of-Frames-Group-2021-12-9/default.aspx",
+      "note": "Plug Power acquisition completed Dec 2021; Netherlands HQ, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

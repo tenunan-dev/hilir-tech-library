@@ -1,0 +1,24 @@
+{
+  "id": "dresden-reick-chp",
+  "name": "Dresden-Reick CHP plant",
+  "project_type": "greenfield",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR"
+  ],
+  "country": "Germany",
+  "location": "Dresden-Reick",
+  "status": "operating",
+  "description": "94 MW electrical and 84 MW district-heating combined heat and power plant: 8 x Wärtsilä 31SG gas engines on natural gas, EPC delivery, operational in 2022.",
+  "technologies": [
+    "pwr-cogeneration-chp"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/drewag-germany",
+      "note": "Wärtsilä reference page: 94 MW electrical / 84 MW district heating, operational 2022, read 2026-11-16"
+    }
+  ],
+  "notes": "Operator listed by Wärtsilä as DREWAG (SachsenEnergie).",
+  "last_reviewed": "2026-11-16"
+}

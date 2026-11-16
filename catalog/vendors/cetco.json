@@ -1,0 +1,34 @@
+{
+  "id": "cetco",
+  "name": "CETCO",
+  "country": "US",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "materials-supplier"
+  ],
+  "description": "Environmental-materials business of Minerals Technologies: organically modified bentonite (ORGANOCLAY) that adsorbs oils and high-molecular-weight organics from water, plus GCL liners and PFAS adsorbents. Sold into industrial wastewater and groundwater remediation.",
+  "products": [
+    "ORGANOCLAY",
+    "CRUDESORB",
+    "LIQUISORB",
+    "FLUORO-SORB"
+  ],
+  "technologies": [
+    "wwt-produced-water-treatment"
+  ],
+  "url": "https://www.mineralstech.com/cetco",
+  "notes": "CETCO is a Minerals Technologies business segment; cetco.com redirects to mineralstech.com. ORGANOCLAY is still sold, but no current page positions it for produced water (the Environmental Products page is now liners, mining, CCR and vapour mitigation) — the produced-water attribution rests on the card's source.",
+  "sources": [
+    {
+      "url": "https://www.mineralstech.com/cetco/water-and-remediation",
+      "note": "ORGANOCLAY and the water/remediation product list, read 2026-11-16"
+    },
+    {
+      "url": "https://www.mineralstech.com/our-company",
+      "note": "Minerals Technologies headquartered in New York City, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

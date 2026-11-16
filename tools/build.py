@@ -101,6 +101,22 @@ def vendor_names(vendor):
     return {name_key(n) for n in [vendor["name"]] + vendor.get("aliases", [])}
 
 
+def matches_directory(name, by_key):
+    """Is this card supplier already in the directory?
+
+    Exact keys are not enough: cards say "Bauer", "Flottweg", "nVent" where the record says
+    "BAUER Maschinen", "Flottweg SE", "nVent Electric". Treat a word-boundary prefix in either
+    direction as the same company, so the coverage queue only lists genuinely absent vendors
+    (it was reporting 19 registered ones as missing before 2026-11-16).
+    """
+    key = name_key(name)
+    if key in by_key:
+        return True
+    if len(key) < 3:
+        return False
+    return any(k.startswith(key + " ") or key.startswith(k + " ") for k in by_key)
+
+
 def vendors_page(vendors, cards, labels):
     """catalog/index/vendors.md: directory by sector plus the coverage queue."""
     by_key = {}
@@ -144,10 +160,10 @@ def vendors_page(vendors, cards, labels):
     for c in cards:
         for s in c["suppliers"]:
             raw = s["name"]
-            if name_key(raw) in by_key:
+            if matches_directory(raw, by_key):
                 continue
             parts = [p.strip() for p in raw.split("/") if p.strip()]
-            leftovers = [p for p in parts if name_key(p) not in by_key]
+            leftovers = [p for p in parts if not matches_directory(p, by_key)]
             if len(parts) > 1 and len(leftovers) < len(parts):
                 for p in leftovers:
                     bucket = queue if nameable(p) else notes
@@ -172,7 +188,7 @@ def vendors_page(vendors, cards, labels):
         for code in sorted(notes):
             names = sorted(notes[code].values(), key=str.lower)
             lines.append(f"- **{code}** ({len(names)}): " + "; ".join(names))
-    matched = sum(1 for c in cards if any(name_key(s["name"]) in by_key for s in c["suppliers"]))
+    matched = sum(1 for c in cards if any(matches_directory(s["name"], by_key) for s in c["suppliers"]))
     lines += ["", f"{matched} of {len(cards)} cards list at least one directory vendor.", ""]
     return "\n".join(lines)
 

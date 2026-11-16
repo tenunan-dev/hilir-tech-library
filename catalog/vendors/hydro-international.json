@@ -1,0 +1,42 @@
+{
+  "id": "hydro-international",
+  "name": "Hydro International",
+  "country": "UK",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Stormwater and wastewater equipment OEM: grit removal, fine screening, flow controls and filters. Europe head office in Clevedon, Somerset; part of Oldcastle Infrastructure (a CRH company) since July 2023.",
+  "products": [
+    "Hydro GritCleanse",
+    "Grit King",
+    "HeadCell",
+    "Hydro MicroScreen",
+    "Hydro-Brake Optimum",
+    "Downstream Defender",
+    "Up-Flo Filter",
+    "First Defense"
+  ],
+  "technologies": [
+    "wwt-screening-grit"
+  ],
+  "url": "https://www.hydro-int.com/",
+  "notes": "The homepage also renders 'Hydro International is now part of Tarmac Group'; the acquisition announcement names Oldcastle Infrastructure (a CRH company), and Tarmac is also CRH — likely a UK-entity framing. Recorded as Oldcastle/CRH.",
+  "sources": [
+    {
+      "url": "https://www.hydro-int.com/",
+      "note": "Product families, read 2026-11-16"
+    },
+    {
+      "url": "https://www.hydro-int.com/en/contact-us",
+      "note": "Europe head office, Kenn Business Park, Clevedon BS21 6FT, read 2026-11-16"
+    },
+    {
+      "url": "https://www.hydro-int.com/en/news/we-have-been-acquired-oldcastle-infrastructure",
+      "note": "Acquired 24 July 2023 by Oldcastle Infrastructure, a CRH company, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

@@ -8,6 +8,24 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.16.2] — 2026-11-16 — vendor queue corrected; 12 WWT vendors; gas-engine and CHP gaps closed
+
+### Added
+
+- **Twelve wastewater vendor records**, each from pages read: Gradiant, Kemira, Modern Water, Oasys Water, Mitsubishi Chemical Aqua Solutions, Frames Group, CETCO, Aqua-Aerobic Systems, Hydro International, GHD, Headworks BIO and Primozone. Vendors 499 → 511; the WWT coverage queue is empty.
+- **Gas-engine costs, two independent figures**: EPA Catalog of CHP Technologies (total installed, 2013 USD, 100 kW $2,900 → 9.3 MW $1,433) and US DOE's 2023 fact sheet (2020 USD, 35 kW $4,250 → 4.5 MW $2,000). Recorded separately with their dollar years rather than averaged — the two agencies differ by ~25% at the small end.
+- **Two named CHP reference plants with project records**: Dresden-Reick (94 MW electrical / 84 MW district heating, 2022) and Bremen swb (105 MW / 93 MW, delivery mid-2022 — a delivery date, not a stated COD).
+- TRL 9 with cited sources for gas engines (DOE "mature technology", 2,700 US sites) and for cogeneration (IEA ETP Clean Energy Technology Guide, trigeneration/CCHP row).
+
+### Fixed
+
+- **The vendor coverage queue was overstating the backlog by 19 records.** `name_key` compared exact normalised names, so `Bauer` never matched `BAUER Maschinen`, `Flottweg` never matched `Flottweg SE`. Word-boundary prefix matching in either direction now applies to both the queue and the coverage statistic: the queue fell from 56 to 37 names on that change alone, and the "cards with a directory vendor" figure rose 352 → 357.
+- ADI Systems and Biothane were Veolia brands sitting in the queue; they are now aliases on the Veolia record, with `wwt-anmbr` and `wwt-uasb` added to it, instead of duplicate company records.
+
+### Changed
+
+- `pwr-modular-engine-plants` keeps its costs and TRL gaps, but with precise reasons: no open source states a modular-vs-conventional $/kW delta, and no agency assigns a TRL to the packaging as distinct from the engine. The process gap closed, with its provenance recorded in the card notes.
+
 ## [2026.11.16] — 2026-11-16 — GitHub out of the deploy path; containers build on the Mac
 
 ### Changed

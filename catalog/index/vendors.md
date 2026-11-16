@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-499 vendor records covering 306 technologies. One record per vendor in
+511 vendor records covering 311 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -634,21 +634,34 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
+| [Aqua-Aerobic Systems](https://www.aqua-aerobic.com/) | US | oem | Sequencing batch reactor (SBR) |
 | [Aquatech International](https://www.aquatech.com/) | US | licensor, oem | Zero liquid discharge (ZLD) |
 | [Cambi AS](https://cambi.com/) | NO | licensor | Anaerobic sludge digestion (mesophilic/thermophilic) |
+| [CETCO](https://www.mineralstech.com/cetco) | US | supplier | Produced-water treatment (oil and gas fields) |
 | [Evoqua Water Technologies](https://www.evoqua.com/) | US | supplier, service | Dissolved air flotation (DAF) |
 | [Flottweg SE](https://www.flottweg.com/) | DE | oem | Mechanical sludge dewatering |
+| [Frames Group](https://frames-group.com/) | NL | packager, integrator | Produced-water treatment (oil and gas fields) |
+| [GHD](https://www.ghd.com/) | AU | service | Water minimisation and reuse pinch for industry |
+| [Gradiant](https://www.gradiant.com/) | US | oem | Brine concentration and selective salt recovery |
+| [Headworks BIO](https://www.headworksinternational.com/) | US | oem, licensor | Moving bed biofilm reactor (MBBR/IFAS) |
 | [HUBER SE](https://www.huber.de/) | DE | oem | Screening and grit removal; Mechanical sludge dewatering; Thermal sludge drying and pyrolysis |
+| [Hydro International](https://www.hydro-int.com/) | UK | oem | Screening and grit removal |
 | [Indah Water Konsortium](https://www.iwk.com.my/) | MY | operator | Conventional activated sludge; Sequencing batch reactor (SBR) |
+| [Kemira](https://www.kemira.com/) | FI | supplier | Coagulation-flocculation and chemical precipitation |
 | [Kubota (Water & Environment)](https://kubota-membrane.com/) | JP | oem | Membrane bioreactor (MBR) wastewater treatment; Anaerobic membrane bioreactor (AnMBR) |
 | [Metito](https://www.metito.com/) | AE | epc, operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style) |
+| [Mitsubishi Chemical Aqua Solutions](https://www.mcas.co.jp/) | JP | oem | Membrane bioreactor (MBR) wastewater treatment |
+| [Modern Water](https://www.modernwater.com/) | UK | oem | Forward osmosis |
 | [Nitto / Hydranautics](https://www.hydranautics.com/) | JP | oem | Reverse-osmosis water reuse train (NEWater-style); Nanofiltration for selective separations |
+| [Oasys Water](https://www.oasyswater.com/) | US | licensor | Forward osmosis |
 | [Ostara Nutrient Recovery Technologies](https://ostara.com/) | CA | licensor | Nutrient recovery (struvite and ammonia) |
 | [Paques B.V.](https://www.paques.nl/) | NL | licensor, oem | Internal-circulation anaerobic reactor (Paques BIOPAQ IC); Upflow anaerobic sludge blanket (UASB/EGSB); Nutrient recovery (struvite and ammonia) |
+| [Primozone](https://www.primozone.com/) | SE | oem | Ozonation and ozone-BAC filtration |
 | [Ranhill Utilities](https://www.ranhill.com.my/) | MY | operator, epc | Conventional activated sludge |
 | [Royal HaskoningDHV](https://www.nereda.net/) | NL | licensor, epc | Aerobic granular sludge treatment (Nereda) |
 | [Singapore PUB (National Water Agency)](https://www.pub.gov.sg/) | SG | operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style); Membrane bioreactor (MBR) wastewater treatment |
 | [Trojan Technologies](https://www.trojantechnologies.com/) | CA | oem | UV disinfection; Advanced oxidation processes (AOP) |
+| [Veolia](https://www.veolia.com) | France | supplier, service | Anaerobic membrane bioreactor (AnMBR); Upflow anaerobic sludge blanket (UASB/EGSB) |
 | [WesTech Engineering](https://www.westech-inc.com/) | US | oem | Lamella and high-rate clarifiers; Coagulation-flocculation and chemical precipitation |
 | [Xergi A/S](https://xergi.com/) | DK | packager | Anaerobic sludge digestion (mesophilic/thermophilic) |
 | [Xylem](https://www.xylem.com/) | US | supplier, oem | Conventional activated sludge; UV disinfection; Ozonation and ozone-BAC filtration; Advanced oxidation processes (AOP) |
@@ -660,14 +673,10 @@ Compound entries are split on '/' and matched part by part; descriptive phrases 
 company names are listed as card notes below. Adding a record for a queue entry is the next
 batch of this directory.
 
-- **CIV** (4): Bauer; CIDB Malaysia; Keller; Sarens
-- **DIG** (1): Yokogawa
-- **ELE** (8): Eaton Crouse-Hinds; Grid System Operator (GSO); Hyundai Electric; nVent; nVent ERICO; Prysmian; Siemens PTI; Tenaga Nasional Berhad (TNB)
+- **CIV** (1): CIDB Malaysia
+- **ELE** (4): Grid System Operator (GSO); Hyundai Electric; nVent ERICO; Tenaga Nasional Berhad (TNB)
 - **HSE** (1): Flare Ventures
-- **IDC** (18): Asperitas; Boyd; Caterpillar; CoolIT Systems; Enel X; GRC (Green Revolution Cooling); GridBeyond; LiquidStack; Motivair; Munters; nVent; NVIDIA; Raritan (Legrand); Server Technology; Starline Power; Stulz; Submer; Uptime Institute
-- **INS** (1): Yokogawa
-- **REF** (1): Yokogawa
-- **WWT** (22): ADI Systems (Veolia); Aqua-Aerobic Systems; Biothane (Veolia); Cambi; CETCO; Evoqua; Flottweg; Frames Group; GHD; Gradiant; Headworks BIO; Hydro International; Kemira; Mitsubishi Chemical Aqua Solutions; Modern Water; Nitto (Hydranautics); Oasys Water; Ostara; Paques; Primozone; WesTech; Xergi
+- **IDC** (17): Asperitas; Boyd; Caterpillar; CoolIT Systems; Enel X; GRC (Green Revolution Cooling); GridBeyond; LiquidStack; Motivair; Munters; NVIDIA; Raritan (Legrand); Server Technology; Starline Power; Stulz; Submer; Uptime Institute
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
@@ -679,4 +688,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-352 of 388 cards list at least one directory vendor.
+359 of 388 cards list at least one directory vendor.

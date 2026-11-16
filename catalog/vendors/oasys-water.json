@@ -1,0 +1,35 @@
+{
+  "id": "oasys-water",
+  "name": "Oasys Water",
+  "country": "US",
+  "roles": [
+    "licensor"
+  ],
+  "categories": [
+    "process-licensor"
+  ],
+  "description": "Forward-osmosis desalination and brine-concentration developer, originally of Cambridge, Massachusetts. No longer independent: its forward-osmosis patent ownership, equipment assets, brand and trademarks were bought by CAMCE Water (US), closing 3 April 2018.",
+  "products": [
+    "Forward osmosis (FO) membranes and systems"
+  ],
+  "technologies": [
+    "wwt-forward-osmosis"
+  ],
+  "url": "https://www.oasyswater.com/",
+  "notes": "oasyswater.com no longer serves the company: the TLS certificate expired 15 Nov 2024 and the domain now serves an unrelated home-appliance blog. Operations were suspended and assets sold in 2017-2018; the CAMCE annual report records the IP and brand transfer, and the brand was renamed Oasys Holding Inc. / Oasys Water LLC under CAMCE. Treat as a historical supplier, not a live one.",
+  "sources": [
+    {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002051&id=5145065",
+      "note": "CAMCE (中工国际) 2018 annual report: Oasys FO patents, assets, brand and trademarks bought by CAMCE Water (US), close 2018-04-03; read 2026-11-16"
+    },
+    {
+      "url": "https://www.waterworld.com/home/article/16203120/oasys-looks-to-sell-forward-osmosis-ip-as-cash-flow-dries-up",
+      "note": "Operations suspended and asset sale reported Dec 2017; read 2026-11-16"
+    },
+    {
+      "url": "https://www.flagshippioneering.com/companies/oasys-water",
+      "note": "Investor lists the company as historical; read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

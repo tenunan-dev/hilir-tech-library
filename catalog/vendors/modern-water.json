@@ -1,0 +1,29 @@
+{
+  "id": "modern-water",
+  "name": "Modern Water",
+  "country": "UK",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Membrane-based water treatment and advanced water monitoring, including toxicity testing with bioluminescent microbes and immunoassay methods. Offices in York and Wetherby.",
+  "products": [
+    "Membrane water treatment",
+    "Bioluminescent toxicity testing",
+    "Immunoassay monitoring"
+  ],
+  "technologies": [
+    "wwt-forward-osmosis"
+  ],
+  "url": "https://www.modernwater.com/",
+  "notes": "The technology card cites Modern Water for forward osmosis; the live site (2026-11-16) sells membrane treatment and monitoring and no longer lists forward osmosis, so the FO attribution may be historical.",
+  "sources": [
+    {
+      "url": "https://www.modernwater.com/",
+      "note": "Homepage, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}

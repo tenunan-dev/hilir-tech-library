@@ -1,0 +1,38 @@
+{
+  "id": "gradiant",
+  "name": "Gradiant",
+  "country": "US",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Industrial water treatment company selling membrane and thermal systems for wastewater recycling, minimum-liquid and zero-liquid discharge. Its own acronyms cover the process steps: counterflow RO, osmotically-assisted RO, semi-batch RO and selective contaminant extraction.",
+  "products": [
+    "Counterflow Reverse Osmosis (CFRO)",
+    "Osmotically-Assisted Reverse Osmosis (OARO)",
+    "Semi-Batch Reverse Osmosis (SBRO)",
+    "Selective Contaminant Extraction (SCE)",
+    "Carrier Gas Extraction (CGE)",
+    "Bio Infinity (Bio-I)",
+    "Free Radical Oxidation (FRO)",
+    "CURE Chemicals",
+    "SmartOps"
+  ],
+  "technologies": [
+    "wwt-brine-concentration"
+  ],
+  "url": "https://www.gradiant.com/",
+  "sources": [
+    {
+      "url": "https://www.gradiant.com/",
+      "note": "Homepage and technology list, read 2026-11-16"
+    },
+    {
+      "url": "https://www.gradiant.com/privacy-statement/",
+      "note": "Registered address, Woburn MA, read 2026-11-16"
+    }
+  ],
+  "last_reviewed": "2026-11-16"
+}
