@@ -33,10 +33,10 @@ bearer token, and by default it does not serve text from full-text-restricted so
 | What does X cost / how efficient is X? | `find_figures(query=..., sector=...)` | `get_technology` for the whole card |
 | Who supplies X, or what does vendor Y make? | `list_vendors(sector=..., query=...)` | `get_vendor` |
 | What are the limits of this equipment class? | `list_equipment(equipment_type=...)` | `get_equipment` |
-| Which plants/projects use X, or what is built in Z? | `list_projects(sector=..., query=...)` | `get_project` |
+| Which plants/projects use X, or what is built in Z? | `list_projects(sector=..., country=..., query=...)` | `get_project` |
 | What does this acronym mean? | `get_glossary_term("CCGT")` | `list_glossary(q)` to browse |
 | Which code/standard applies? | `list_standards(org="API")` | `get_standard("API RP 535")` |
-| Find sources or text about X | `search(q, kind=...)` | `get_source` / `get_document` |
+| Find sources or text about X | `search(q, kind=...)` — kinds include `project` and `equipment` | `get_source` / `get_document` |
 | What does the library not know? | `list_gaps(...)` | `list_technology_register` for cards that do not exist yet |
 | How are these connected? | `graph_neighbors(node=...)` | `sql_query` for custom joins |
 | Counts, freshness, provenance of the numbers | `library_stats()` | `sql_query` against `db_catalog()` |
@@ -55,8 +55,9 @@ IDC, WWT; discipline codes are PRC, ROT, ELE, CIV, INS, MAT, HSE, DIG; regions i
 Codes with names and subtopics. Cache it for the session; it changes only when the taxonomy does.
 
 **`search(query, kind="all", sector=None, discipline=None, region=None, reuse_level=None, limit=10) → [rows]`**
-Hybrid keyword + vector search over sources, document passages, cards, vendors and equipment. Each
-row carries `kind`, `ref`, `title`, `score`, `licence`, `reuse_level`, `permitted_use` and a url.
+Hybrid keyword + vector search over sources, document passages, cards, vendors, equipment and
+projects. Each row carries `kind`, `ref`, `title`, `score`, `licence`, `reuse_level`,
+`permitted_use` and a url.
 `kind` may be `source`, `chunk`, `technology`, `vendor`, `equipment` or `project` to narrow.
 Use it to *find* things; use the `get_*`/`list_*` tools to *read* them.
 
@@ -103,10 +104,12 @@ Technology/Starline), and a brand named on a card may resolve to a parent record
 Equipment classes with specification ranges (each with basis and source), vendor model lines, the
 cards that use the class, and gaps.
 
-**`list_projects(status=None, sector=None, query=None)`** / **`get_project(project_id)`**
+**`list_projects(status=None, sector=None, country=None, query=None)`** / **`get_project(project_id)`**
 Named plants and projects: `status` (proposed, FID, under-construction, commissioning, operating,
 suspended, decommissioned), `country`, `capacities[]`, `owners[]`, `contractors[]`, `offtakers[]`,
-`milestones[]` (each dated, each sourced), `technologies[]`. Cards link here through
+`milestones[]` (each dated, each sourced), `technologies[]`. The `country` filter takes a full
+name or a two-letter code and canonicalises mixed record spellings ("US", "USA" and
+"United States" all match). Cards link here through
 `reference_plants[].project_id`, so a card's reference plant and the project record are the same
 thing seen from two sides.
 
@@ -185,7 +188,7 @@ Same functions, same shapes, for clients without MCP:
 | `find_figures` | `GET /api/figures?kind=&sector=&technology_id=&q=&unit=&limit=` |
 | `list_vendors` / `get_vendor` | `GET /api/vendors?...` · `GET /api/vendors/{id}` |
 | `list_equipment` / `get_equipment` | `GET /api/equipment?...` · `GET /api/equipment/{id}` |
-| `list_projects` / `get_project` | `GET /api/projects?...` · `GET /api/projects/{id}` |
+| `list_projects` / `get_project` | `GET /api/projects?status=&sector=&country=&q=` · `GET /api/projects/{id}` |
 | `list_technology_register` | `GET /api/register?...` |
 | `list_gaps` | `GET /api/gaps?field=&reason_code=&include_no_card=` |
 | `taxonomy` | `GET /api/taxonomy` |

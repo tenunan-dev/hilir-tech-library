@@ -632,11 +632,11 @@ def equipment_row(equipment_id: str) -> dict | None:
     return _execute(work)
 
 
-def project_rows(status: str | None = None, sector: str | None = None,
+def project_rows(status: str | None = None, sector: str | None = None, country: str | None = None,
                  query: str | None = None) -> list[dict]:
     """Project rows shaped exactly like library.list_projects (projects.summary over the full
-    og.project.record), filtered the same way: status, sector code, text over name/aliases/
-    location/description/country."""
+    og.project.record), filtered the same way: status, sector code, country, text over name/
+    aliases/location/description/country."""
 
     def work(cur):
         import projects as project_records
@@ -647,6 +647,8 @@ def project_rows(status: str | None = None, sector: str | None = None,
             if status and status != rec.get("status"):
                 continue
             if sector and sector not in (r[1] or []):
+                continue
+            if not project_records.country_matches(rec.get("country"), country):
                 continue
             hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("location", ""),
                             rec.get("description", ""), rec.get("country", "")]).lower()
@@ -712,7 +714,7 @@ def search_library(q: str, kind: str = "all", sector: str | None = None, limit: 
     """library.search equivalent from Neon: hybrid_search ranking (with the same filters), then
     one enrichment query per kind so rows carry the fields the web page and REST render
     (licence, snippet, roles, ...)."""
-    kinds = ("source", "chunk", "technology", "vendor", "equipment") if kind == "all" else (kind,)
+    kinds = ("source", "chunk", "technology", "vendor", "equipment", "project") if kind == "all" else (kind,)
     hits = hybrid_search(q, min(max(1, int(limit)), 50), qvec, sector, discipline, region, reuse_level)
     by_kind = {}
     for h in hits:
@@ -758,6 +760,21 @@ def search_library(q: str, kind: str = "all", sector: str | None = None, limit: 
                                 "reuse_level": "full-text-open", "permitted_use": "any",
                                 "equipment_type": etype, "vendors": vendors_ or [], "spec_metrics": [],
                                 "hint": "Call get_equipment for the specification ranges, vendor model lines and sources."})
+        if "project" in by_kind:
+            import projects as project_records
+            cur.execute("SELECT id, country, status, location, record FROM project WHERE id = ANY(%s)", (by_kind["project"],))
+            by_id = {r[0]: r for r in cur.fetchall()}
+            for h in hits:
+                if h["kind"] == "project" and h["ref"] in by_id:
+                    _, country_, status_, location_, rec = by_id[h["ref"]]
+                    row = {"kind": "project", "ref": h["ref"], "title": h["title"], "score": round(h["score"], 4),
+                           "licence": "Library's own curated project record; cite the sources listed in the record",
+                           "reuse_level": "full-text-open", "permitted_use": "any",
+                           "country": country_, "status": status_, "location": location_,
+                           "hint": "Call get_project for capacities, capex, owners, milestones and sources."}
+                    row.update(project_records.summary(_jsonb(rec)))
+                    row["title"] = h["title"]
+                    out.append(row)
         if "source" in by_kind:
             cur.execute("SELECT id, url, licence, reuse_level, permitted_use, record->'sectors', record->'regions', record->'disciplines' FROM source WHERE id = ANY(%s)", (by_kind["source"],))
             by_id = {r[0]: r for r in cur.fetchall()}

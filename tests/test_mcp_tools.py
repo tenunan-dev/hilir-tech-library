@@ -10,6 +10,7 @@ import pytest
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "agent"))
 server = pytest.importorskip("server")
+import projects  # noqa: E402  (country matcher used by the filter assertions)
 
 
 def test_taxonomy_lists_both_axes_with_names():
@@ -64,3 +65,36 @@ def test_every_documented_tool_exists():
                  "get_glossary_term", "list_standards", "get_standard", "library_stats",
                  "sql_query", "db_catalog", "graph_neighbors"):
         assert callable(getattr(server, name)), f"{name} is documented but not exposed"
+
+
+def test_search_finds_projects():
+    """The search docstring promises kind="project"; the SQLite path and the Neon hybrid_search
+    (db/schema.sql) must both serve it — 2026-11-17 the Neon union silently dropped projects."""
+    rows = server.search("Donaldsonville ammonia", kind="project")
+    assert rows and all(r["kind"] == "project" for r in rows)
+    assert "cf-donaldsonville" in {r["ref"] for r in rows}
+    for r in rows:
+        assert r.get("status"), "project search rows carry the status"
+
+
+def test_list_projects_country_filter():
+    """Country filter canonicalises mixed spellings: records store "US", "USA" and
+    "United States"; a two-letter code must match only through the alias map, never as a
+    stray substring ("ES" must not match "United States")."""
+    us = server.list_projects(country="US")
+    assert us and "cf-donaldsonville" in {p["id"] for p in us}
+    assert all(projects.country_matches(p.get("country"), "US") for p in us)
+    ca = server.list_projects(country="Canada")
+    assert "nutrien-redwater" in {p["id"] for p in ca}
+    assert not ({"nutrien-redwater"} & {p["id"] for p in us})
+    es = server.list_projects(country="ES")
+    assert es and all((p.get("country") or "").strip().lower() in ("es", "spain") for p in es)
+
+
+def test_hybrid_search_schema_serves_projects():
+    """Static guard on db/schema.sql: the Neon hybrid_search union must include the project
+    table and the reuse-level pass-through must admit project records."""
+    sql = (pathlib.Path(__file__).resolve().parent.parent / "db" / "schema.sql").read_text(encoding="utf-8")
+    fn = sql.split("CREATE OR REPLACE FUNCTION hybrid_search", 1)[1].split("$$;", 1)[0]
+    assert "SELECT 'project', p.id, p.name" in fn, "hybrid_search union lacks the project branch"
+    assert "('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open'" in fn

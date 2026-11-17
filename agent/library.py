@@ -641,8 +641,8 @@ def get_project(project_id, db=None):
     return json.loads(row[0]) if row else None
 
 
-def list_projects(status=None, sector=None, query=None, db=None):
-    """Project catalog records, optionally filtered by status, sector code or text."""
+def list_projects(status=None, sector=None, country=None, query=None, db=None):
+    """Project catalog records, optionally filtered by status, sector code, country or text."""
     db = db or connect()
     q = (query or "").lower()
     out = []
@@ -651,6 +651,8 @@ def list_projects(status=None, sector=None, query=None, db=None):
         if status and status != rec.get("status"):
             continue
         if sector and sector not in json.loads(blob[1]):
+            continue
+        if not projects.country_matches(rec.get("country"), country):
             continue
         hay = " ".join([rec["name"], " ".join(rec.get("aliases", [])), rec.get("location", ""),
                         rec.get("description", ""), rec.get("country", "")]).lower()

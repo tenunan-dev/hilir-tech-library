@@ -8,6 +8,22 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.18.1] — 2026-11-18 — MCP realignment: `search(kind="project")` actually works, and `list_projects` gains a country filter
+
+### Fixed
+
+- **`search(kind="project")` returned empty on the live path.** The tool docstring and the SQLite fallback both promised projects, but the Neon `hybrid_search` union never included the `project` table, and `pg.search_library` dropped the kind from its kind list with no enrichment branch. Found by testing the hosted service after the 2026-11-17 content work. Fixed in `db/schema.sql` (project branch in the union, project admitted through the reuse-level pass-through) and `agent/pg.py` (project kind + a project enrichment branch rendering status, country, location and capacities).
+
+### Added
+
+- **`list_projects(country=...)`** across MCP, REST (`/api/projects?country=`) and the web projects page. The filter canonicalises mixed record spellings through `projects.country_matches` — "US", "USA" and "United States" all match; a two-letter code matches only through the alias map, never as a stray substring ("ES" no longer matches "United **s**t**at**es" — a bug caught by the new tests during the first cut).
+
+### Verified
+
+- 3 new tests in `tests/test_mcp_tools.py` (search finds projects, country filter, static guard on the schema's project branch); pytest **1,419 passed, 12 skipped**.
+- `db/schema.sql` applied to Neon (function body verified to contain the project branch).
+- Deployed: api `3ff265770d33`, ui `21f4397e63ea`; gate `mygis 303, techlib-origin 403, tlea-origin 403`; live-verified `search("Donaldsonville ammonia", kind="project")` returns both plants with capacities, and the country filter passes the new tests against the baked index.
+
 ## [2026.11.17.9] — 2026-11-17 — last four content gaps: urea capex, ASU energy, model lines, NA trade
 
 ### Added

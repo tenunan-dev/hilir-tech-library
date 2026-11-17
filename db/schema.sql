@@ -300,14 +300,14 @@ RETURNS TABLE (node_id text, kind text, label text, depth integer, via text[]) L
     ORDER BY w.node_id, w.depth;
 $$;
 
--- Hybrid search over passages, cards, vendor records, equipment classes and catalog sources:
--- reciprocal rank fusion of full-text and vector ranks. qvec may be NULL (keyword only); the
--- optional sector/discipline/region/reuse_level filters mirror the SQLite search exactly:
+-- Hybrid search over passages, cards, vendor records, equipment classes, projects and catalog
+-- sources: reciprocal rank fusion of full-text and vector ranks. qvec may be NULL (keyword only);
+-- the optional sector/discipline/region/reuse_level filters mirror the SQLite search exactly:
 -- sector narrows per kind, a discipline or region keeps only sources and their passages (cards,
--- vendors and equipment carry no such tags on the SQLite path either), and reuse_level compares
--- the source's level for chunk/source kinds while the library's own records pass only when the
--- filter is unset or full-text-open. Passages of full-text-restricted documents NEVER surface:
--- their text may sit in this database (owner load), but search must not serve it.
+-- vendors, equipment and projects carry no such tags on the SQLite path either), and reuse_level
+-- compares the source's level for chunk/source kinds while the library's own records pass only
+-- when the filter is unset or full-text-open. Passages of full-text-restricted documents NEVER
+-- surface: their text may sit in this database (owner load), but search must not serve it.
 -- Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
 CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10,
                                          sector text DEFAULT NULL, discipline text DEFAULT NULL,
@@ -336,6 +336,9 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                (SELECT array_agg(code) FROM source_tag st WHERE st.source_id = s.id AND st.kind = 'sector'),
                s.id, s.reuse_level
         FROM source s
+        UNION ALL
+        SELECT 'project', p.id, p.name, p.tsv, p.embedding, p.sector_codes, NULL::text, NULL::text
+        FROM project p
     ),
     tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
     -- one rank pool per kind: 11k passages must not crowd cards, vendors, equipment and
@@ -357,7 +360,7 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                                 AND st.kind = 'region' AND st.code = region)))
               AND (reuse_level IS NULL OR (
                     (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
-                    OR (i.kind IN ('technology', 'vendor', 'equipment') AND reuse_level = 'full-text-open')))
+                    OR (i.kind IN ('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open')))
         ) ranked WHERE r <= 50
     ),
     vec AS (
@@ -377,7 +380,7 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
                                 AND st.kind = 'region' AND st.code = region)))
               AND (reuse_level IS NULL OR (
                     (i.kind IN ('chunk', 'source') AND i.src_reuse = reuse_level)
-                    OR (i.kind IN ('technology', 'vendor', 'equipment') AND reuse_level = 'full-text-open')))
+                    OR (i.kind IN ('technology', 'vendor', 'equipment', 'project') AND reuse_level = 'full-text-open')))
         ) ranked WHERE r <= 50
     ),
     fused AS (

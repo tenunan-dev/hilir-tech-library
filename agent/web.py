@@ -1639,12 +1639,14 @@ def routes(tools) -> list:
     async def projects_page(request: Request):
         qp = request.query_params
         status, sector, query = str(qp.get("status") or ""), str(qp.get("sector") or ""), str(qp.get("q") or "")
+        country = str(qp.get("country") or "")
         items = _neon_first(
-            lambda: pg.project_rows(status or None, sector or None, query or None),
-            lambda: tools.list_projects(status or None, sector or None, query or None))
+            lambda: pg.project_rows(status or None, sector or None, country or None, query or None),
+            lambda: tools.list_projects(status or None, sector or None, country or None, query or None))
         pieces = ['<section class="card"><form class="filters" method="get" action="/projects">']
         pieces.append(_select("status", [("", "any status")] + [(s, s) for s in sorted({p.get("status") or "" for p in items})], status))
         pieces.append(_select("sector", SECTOR_OPTIONS, sector))
+        pieces.append(f' <input type="search" name="country" value="{esc(country)}" placeholder="country" size="10">')
         pieces.append(f' <input type="search" name="q" value="{esc(query)}" placeholder="name, location" size="20">')
         pieces.append(' <button type="submit">Filter</button></form>')
         pieces.append(f'<p class="muted">{len(items)} project records</p>')

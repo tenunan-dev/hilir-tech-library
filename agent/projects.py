@@ -26,3 +26,30 @@ def summary(rec):
             "capacities": rec.get("capacities", []),
             "technologies": rec.get("technologies", []),
             "owners": [p.get("vendor_id") or p["name"] for p in rec.get("owners", [])]}
+
+
+# Records store countries in mixed spellings ("US" and "United States", "CA" and "Canada"), so a
+# country filter canonicalises both sides through this map before comparing.
+COUNTRY_ALIASES = {
+    "us": "united states", "usa": "united states", "ca": "canada", "uk": "united kingdom",
+    "gb": "united kingdom", "uae": "united arab emirates", "kr": "south korea",
+    "id": "indonesia", "my": "malaysia", "sg": "singapore", "nl": "netherlands",
+    "sa": "saudi arabia", "jp": "japan", "au": "australia", "no": "norway",
+}
+
+
+def country_matches(value, param):
+    """Case-insensitive country filter: canonicalise both sides, then exact match, or substring
+    only when the shorter side is at least four characters ("united" matches "United States";
+    a two-letter code matches only through the alias map, never as a random substring)."""
+    want = (param or "").strip().lower()
+    have = (value or "").strip().lower()
+    if not want:
+        return True
+    if not have:
+        return False
+    want = COUNTRY_ALIASES.get(want, want)
+    have = COUNTRY_ALIASES.get(have, have)
+    if want == have:
+        return True
+    return (len(want) >= 4 and want in have) or (len(have) >= 4 and have in want)

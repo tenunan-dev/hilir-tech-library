@@ -58,7 +58,8 @@ ROUTING — pick the tool by the question being asked:
   its basis, dollar year and source url). Use get_technology when you want the whole card.
 - "Who supplies X / what does vendor Y make?" -> list_vendors, then get_vendor.
 - "What equipment classes exist and what are their limits?" -> list_equipment, then get_equipment.
-- "Which plants or projects use X, or what is built in country Z?" -> list_projects, get_project.
+- "Which plants or projects use X, or what is built in country Z?" -> list_projects (filter by
+  status, sector or country), get_project.
 - "What does this acronym mean?" -> get_glossary_term (or list_glossary to browse).
 - "Which standard applies?" -> list_standards / get_standard (designation, title, scope, url).
 - "Find me sources or text about X" -> search (kind: all/source/chunk/technology/vendor/equipment/
@@ -260,13 +261,15 @@ def get_equipment(equipment_id: str) -> dict | None:
 
 
 @server.tool()
-def list_projects(status: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
+def list_projects(status: str | None = None, sector: str | None = None, country: str | None = None,
+                  query: str | None = None) -> list[dict]:
     """Named projects and operating plants: one curated record each with status, location, capacities,
     owners and the technology cards it deploys.
     status: proposed, FID, under-construction, commissioning, operating, suspended or decommissioned.
-    sector: a taxonomy code such as H2, CCS or IDC. query: text."""
-    return _with_neon(lambda: pg.project_rows(status, sector, query),
-                      lambda: library.list_projects(status, sector, query, db()))
+    sector: a taxonomy code such as H2, CCS or IDC. country: full name or two-letter code, e.g.
+    "US" (matches "United States"), "Canada", "NL". query: text."""
+    return _with_neon(lambda: pg.project_rows(status, sector, country, query),
+                      lambda: library.list_projects(status, sector, country, query, db=db()))
 
 
 @server.tool()

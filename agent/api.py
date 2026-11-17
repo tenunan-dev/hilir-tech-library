@@ -71,7 +71,7 @@ def routes(tools):
 
     async def project_list(request: Request):
         q = request.query_params
-        return JSONResponse(tools.list_projects(q.get("status"), q.get("sector"), q.get("q")))
+        return JSONResponse(tools.list_projects(q.get("status"), q.get("sector"), q.get("country"), q.get("q")))
 
     async def project(request: Request):
         return _found(tools.get_project(request.path_params["project_id"]))
@@ -210,7 +210,8 @@ def openapi_spec(server_url):
             "/api/projects": get("listProjects", "Named projects and operating plants: status, location, "
                                  "capacities, owners and the technology cards they deploy", [
                 _param("status", "proposed, FID, under-construction, commissioning, operating, suspended or decommissioned"),
-                SECTOR, _param("q", "Text filter")]),
+                SECTOR, _param("country", "Country filter: full name or two-letter code, e.g. US, Canada, NL"),
+                _param("q", "Text filter")]),
             "/api/projects/{project_id}": get(
                 "getProject", "One project record: capacities with sources, milestones, owners, contractors, "
                 "offtakers, technologies and gaps",
