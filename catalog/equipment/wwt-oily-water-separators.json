@@ -67,7 +67,9 @@
   ],
   "vendors": [
     "westech",
-    "veolia"
+    "veolia",
+    "panam-environmental",
+    "frc-systems"
   ],
   "technologies": [
     "wwt-api-cpi-separators"

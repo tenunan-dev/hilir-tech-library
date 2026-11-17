@@ -8,6 +8,21 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.18.5] — 2026-11-18 — MCP/data audit after ETS work: `library_stats` gained projects and register; separator vendor list completed
+
+### Found and fixed
+
+- **`library_stats` on the Neon path omitted `projects` and `register`** while the SQLite fallback included both — an agent asking "is the data current?" saw one fewer layer and different keys depending on which backend served the call. `pg.library_stats()` now returns `projects` and `register` and counts project embeddings in `vectors` (verified: 299 projects, register 406, vectors 16,906).
+- **`wwt-oily-water-separators.vendors` listed only WesTech and Veolia** while its `vendor_models` carried Panam and FRC — the two model-line OEMs are now in the vendors list, so `list_vendors`/`get_vendor` cross-references match the equipment record.
+
+### Audited clean
+
+- `find_figures` returns the new ETS cost figures (verified the WAO 9.75M USD figure by `technology_id`); `compare_technologies(sector="WWT")` shows all four ETS cards with the "Industrial effluent treatment (ETS)" category and the TRL 8 on spent caustic; `list_vendors`/`get_equipment`/`taxonomy()`/glossary all surface the new records.
+
+### Verified and deployed
+
+- pytest **1,428 passed, 12 skipped**; Neon reloaded; **deployed** api `a6dbf562bc4c`, ui `e43c1d948fdf`; gate `mygis 303, techlib-origin 403, tlea-origin 403`; live `library_stats` shows all nine count keys including projects and register.
+
 ## [2026.11.18.4] — 2026-11-18 — ETS gaps closed with sources: TRL 8 for WAO, four cost figures, seven suppliers, seven model lines
 
 ### Added

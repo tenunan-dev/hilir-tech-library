@@ -305,7 +305,8 @@ def library_stats() -> dict:
                             + (SELECT count(*) FROM technology WHERE embedding IS NOT NULL)
                             + (SELECT count(*) FROM vendor WHERE embedding IS NOT NULL)
                             + (SELECT count(*) FROM equipment WHERE embedding IS NOT NULL)
-                            + (SELECT count(*) FROM source WHERE embedding IS NOT NULL)""")
+                            + (SELECT count(*) FROM source WHERE embedding IS NOT NULL)
+                            + (SELECT count(*) FROM project WHERE embedding IS NOT NULL)""")
         out["vectors"] = cur.fetchone()[0]
         cur.execute("SELECT count(*) FROM technology")
         out["technologies"] = cur.fetchone()[0]
@@ -313,6 +314,10 @@ def library_stats() -> dict:
         out["vendors"] = cur.fetchone()[0]
         cur.execute("SELECT count(*) FROM equipment")
         out["equipment"] = cur.fetchone()[0]
+        cur.execute("SELECT count(*) FROM register_entry")
+        out["register"] = cur.fetchone()[0]
+        cur.execute("SELECT count(*) FROM project")
+        out["projects"] = cur.fetchone()[0]
         return out
 
     return _execute(work)

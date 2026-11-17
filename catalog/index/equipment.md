@@ -504,7 +504,7 @@ Recorded gaps:
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment.
-Vendors: WesTech Engineering, Veolia (7 model lines recorded).
+Vendors: WesTech Engineering, Veolia, Panam Environmental Products, FRC Systems (7 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
