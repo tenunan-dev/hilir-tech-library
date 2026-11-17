@@ -8,6 +8,18 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.18.2] — 2026-11-18 — MCP descriptions audited agent-first; nine stale or thin descriptions rewritten
+
+### Changed
+
+- Every tool docstring audited from an agent's point of view (what it returns, what the parameters mean, what an empty result means). Nine were insufficient and are rewritten: `search` (kinds list is exact — anything else returns empty; a wrong sector code silently returns empty, so call `taxonomy()` first; limit caps at 50; rows are lean summaries), `list_equipment` (the stale "(starting with boilers)" replaced with the real breadth — 36 classes including ammonia/urea), `list_technology_register` ("about 300" → 400+ entries, codes via `taxonomy()`), `library_stats` (now names technologies/vendors/equipment/projects and explains the Neon-vs-baked-index difference), `get_project` (capex with dollar year added to the field list), `list_projects` (rows are summaries — capex and milestones live in `get_project`), `get_document` (full-text-restricted text is withheld by design, not a fetch failure), `list_by_tag` (inventory-vs-search purpose and row contents), `list_vendors` (brand-alias guidance inline). `get_source` names its fields.
+- The same two stale strings in the REST OpenAPI (`/api/register`, `/api/stats`) updated for parity.
+
+### Verified
+
+- pytest **1,419 passed, 12 skipped** (descriptions are strings; no behaviour change).
+- Deployed: api `336e6496dfe2`, ui `8d4cdecdcaca`; gate `mygis 303, techlib-origin 403, tlea-origin 403`; live OpenAPI confirms the corrected strings.
+
 ## [2026.11.18.1] — 2026-11-18 — MCP realignment: `search(kind="project")` actually works, and `list_projects` gains a country filter
 
 ### Fixed

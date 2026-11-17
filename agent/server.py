@@ -113,13 +113,18 @@ def _with_neon(pg_call, fallback):
 @server.tool()
 def search(query: str, kind: str = "all", sector: str | None = None, discipline: str | None = None,
            region: str | None = None, reuse_level: str | None = None, limit: int = 10) -> list[dict]:
-    """Search catalog sources, collected documents, technology cards, vendor and equipment records.
+    """Hybrid keyword + vector search over everything the library holds: catalog sources, collected
+    document passages, technology cards, vendor records, equipment classes and projects.
 
     kind: "all", "source" (catalog records), "chunk" (passages from collected documents),
     "technology" (cards), "vendor" (vendor directory records), "equipment" (equipment classes)
-    or "project" (named projects and operating plants).
-    sector / discipline: a taxonomy code such as H2 or ROT. region: e.g. sea, apac, global.
-    """
+    or "project" (named projects and operating plants). Anything else returns empty — the kind
+    list is exact, not a free-text filter.
+    sector / discipline: a taxonomy code such as H2 or ROT — call taxonomy() first; a wrong code
+    silently returns empty. region: e.g. sea, apac, global. limit: rows returned, capped at 50.
+    Rows are lean summaries whose extra fields vary by kind (vendors carry roles, projects carry
+    status and capacities); an empty result can mean a wrong code or a real gap — follow the get_*
+    tools for the full record, and do not read one empty page as "nothing exists"."""
     # Decision #34: with a database configured, search runs on Neon (single source of truth —
     # a publish shows up here without a deploy); the SQLite index is the fallback. All filters
     # are honoured on both paths, and passages of full-text-restricted documents never surface
@@ -167,14 +172,18 @@ def _query_vector(query: str):
 
 @server.tool()
 def get_source(source_id: str) -> dict | None:
-    """Full catalog record for one source, with the list of its collected documents."""
+    """Full catalog record for one source, with the list of its collected documents: url, publisher,
+    licence, reuse_level, permitted_use, verification state, sectors/disciplines/regions and notes.
+    Returns null for an unknown id."""
     return _with_neon(lambda: pg.source_row(source_id),
                       lambda: library.get_source(source_id, db(), EXCLUDE_RESTRICTED))
 
 
 @server.tool()
 def get_document(path: str) -> dict | None:
-    """Front matter and full text of one collected document, by the path a search result gave."""
+    """Front matter and full text of one collected document, by the path a search result gave.
+    Text of full-text-restricted documents is withheld on public servers — the front matter and
+    summary still come back, which is a licence boundary, not a fetch failure."""
     return _with_neon(lambda: pg.document_row(path),
                       lambda: library.get_document(path, db(), EXCLUDE_RESTRICTED))
 
@@ -182,7 +191,11 @@ def get_document(path: str) -> dict | None:
 @server.tool()
 def list_by_tag(code: str | None = None, region: str | None = None, reuse_level: str | None = None,
                 source_type: str | None = None) -> list[dict]:
-    """List catalog sources by sector or discipline code, region, reuse level or source type."""
+    """Inventory of catalog sources by tag: sector or discipline code, region, reuse level or
+    source type (agency-data, licensor, journal, association, ...). Returns one summary row per
+    source (title, publisher, url, licence, reuse_level). The right tool for "what sources do we
+    hold on X" — cheaper than search when you want the inventory rather than passages; use search
+    for text."""
     return _with_neon(lambda: pg.source_rows(code, region, reuse_level, source_type),
                       lambda: library.list_by_tag(code, region, reuse_level, source_type, db()))
 
@@ -232,7 +245,10 @@ def find_figures(kind: str = "both", sector: str | None = None, technology_id: s
 def list_vendors(role: str | None = None, sector: str | None = None, query: str | None = None) -> list[dict]:
     """The vendor directory: curated records for suppliers, OEMs, licensors and packagers, each citing
     the pages it was written from. role: oem, licensor, packager, epc, developer, operator, rental,
-    service, supplier or integrator. sector: a taxonomy code such as PWR or CCS. query: text."""
+    service, supplier or integrator. sector: a taxonomy code such as PWR or CCS. query: text over
+    name, products and description. A brand named on a card may be an alias of a parent company
+    (Veolia carries ADI Systems; Schneider Electric owns Motivair) — match on aliases too, and
+    prefer get_vendor on the parent."""
     return _with_neon(lambda: pg.vendor_rows(role, sector, query),
                       lambda: library.list_vendors(role, sector, query, db()))
 
@@ -246,9 +262,11 @@ def get_vendor(vendor_id: str) -> dict | None:
 
 @server.tool()
 def list_equipment(equipment_type: str | None = None, query: str | None = None) -> list[dict]:
-    """The equipment catalog: one curated record per equipment class (starting with boilers), each with
-    specification ranges, the vendors that supply it and the pages behind every figure.
-    equipment_type: e.g. boiler. query: text."""
+    """The equipment catalog: one curated record per equipment class — boilers, compressors, pumps
+    and turbines, data-centre electrical, wastewater treatment, and ammonia/urea plant classes —
+    each with specification ranges, per-vendor model lines, the vendors that supply it and the pages
+    behind every figure. equipment_type: e.g. boiler, compressor, urea-reactor — call with no
+    arguments first to see the classes that exist. query: text."""
     return _with_neon(lambda: pg.equipment_rows(equipment_type, query),
                       lambda: library.list_equipment(equipment_type, query, db()))
 
@@ -264,7 +282,8 @@ def get_equipment(equipment_id: str) -> dict | None:
 def list_projects(status: str | None = None, sector: str | None = None, country: str | None = None,
                   query: str | None = None) -> list[dict]:
     """Named projects and operating plants: one curated record each with status, location, capacities,
-    owners and the technology cards it deploys.
+    owners and the technology cards it deploys. Rows are summaries — call get_project for capex,
+    milestones, contractors and the record's own sources.
     status: proposed, FID, under-construction, commissioning, operating, suspended or decommissioned.
     sector: a taxonomy code such as H2, CCS or IDC. country: full name or two-letter code, e.g.
     "US" (matches "United States"), "Canada", "NL". query: text."""
@@ -274,16 +293,19 @@ def list_projects(status: str | None = None, sector: str | None = None, country:
 
 @server.tool()
 def get_project(project_id: str) -> dict | None:
-    """One project record: capacities with sources, milestones, owners, contractors, offtakers and gaps."""
+    """One project record: capacities and capex each with their dollar year and source, milestones
+    (each dated and sourced), owners, contractors, offtakers, the technology cards it deploys, and
+    recorded gaps. Returns null for an unknown id."""
     return _with_neon(lambda: pg.project_row(project_id),
                       lambda: library.get_project(project_id, db()))
 
 
 @server.tool()
 def list_technology_register(code: str | None = None, maturity: str | None = None, query: str | None = None) -> list[dict]:
-    """The full register of about 300 technologies across all sectors (code: UPS, MID, GAS, REF, PCH, PWR, H2,
-    CCS, or a discipline code for cross-cutting equipment). Maturity and examples are indicative and unverified;
-    entries with a "card" id have a verified technology card (use get_technology)."""
+    """The full technology register (400+ entries across all sectors — call taxonomy() for the exact
+    code list). Maturity and examples are indicative and unverified; entries with a "card" id have
+    a verified technology card (use get_technology). Use it to find technologies the library has
+    not written a card for yet."""
     return _with_neon(lambda: pg.register_rows(code, maturity, query),
                       lambda: library.list_register(code, maturity, query))
 
@@ -341,7 +363,10 @@ def get_standard(ref: str) -> dict | None:
 
 @server.tool()
 def library_stats() -> dict:
-    """Counts of sources, documents, chunks and vectors in the library."""
+    """Counts of sources, documents, chunks, vectors, technology cards, vendors, equipment classes
+    and projects — the freshness check: compare against what you expect after a publish. On a
+    Neon-backed server the numbers are live; on the baked-index fallback documents exclude
+    full-text-restricted sources and vectors may be absent."""
     # Neon first (decision #34): the container's baked index is the offline fallback and holds
     # no embeddings, so without this the MCP number disagreed with REST /api/stats.
     if pg.configured():

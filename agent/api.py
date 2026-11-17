@@ -216,7 +216,7 @@ def openapi_spec(server_url):
                 "getProject", "One project record: capacities with sources, milestones, owners, contractors, "
                 "offtakers, technologies and gaps",
                 [_param("project_id", "Project id, e.g. hornsea-2-offshore-wind-farm-uk-north-sea-orsted", where="path")], JSON_OR_404),
-            "/api/register": get("listTechnologyRegister", "Register of about 300 technologies across all sectors", [
+            "/api/register": get("listTechnologyRegister", "The full technology register (400+ entries across all sectors)", [
                 _param("code", "Sector or discipline code"), _param("maturity", "Maturity filter"), _param("q", "Text filter")]),
             "/api/gaps": get("listGaps", "Inputs the technology cards still lack, with where to get them", [
                 SECTOR, _param("field", "trl, performance, costs, reference_plants, suppliers, status, process, other"),
@@ -239,7 +239,7 @@ def openapi_spec(server_url):
                 _param("q", "Text filter over designation, title and scope")]),
             "/api/standards/{ref}": get("getStandard", "One standard by id or designation",
                                         [_param("ref", "e.g. IEC 60079 or api-rp-535", where="path")], JSON_OR_404),
-            "/api/stats": get("libraryStats", "Counts of sources, documents, chunks and technology cards", []),
+            "/api/stats": get("libraryStats", "Counts of sources, documents, chunks, vectors, technology cards, vendors, equipment classes and projects", []),
             "/api/version": get("libraryVersion", "Drift stamp: row counts, vectors and the freshest review/verify dates", []),
         },
     }
