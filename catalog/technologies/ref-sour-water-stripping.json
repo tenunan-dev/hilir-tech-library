@@ -105,7 +105,7 @@
       "note": "Pall Corporation, read 2026-11-17"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-18",
   "gaps": [
     {
       "field": "costs",
@@ -172,5 +172,5 @@
       }
     }
   ],
-  "notes": "Process provenance: Describes collected sour water being heated and pH-controlled, then fed through a heat exchanger to one or two steam-stripped or reboiled stripper columns where H2S and ammonia are removed overhead, with notes on fouling and corrosion."
+  "notes": "Process provenance: Describes collected sour water being heated and pH-controlled, then fed through a heat exchanger to one or two steam-stripped or reboiled stripper columns where H2S and ammonia are removed overhead, with notes on fouling and corrosion. ETS lifecycle tie-in (2026-11-18): in an integrated refinery effluent train the stripped sour water reports to the equalisation basin (wwt-equalisation) ahead of oily-water separation (wwt-api-cpi-separators) and the biological stage; spent-caustic treatment (wwt-spent-caustic-treatment) protects the same train upstream."
 }

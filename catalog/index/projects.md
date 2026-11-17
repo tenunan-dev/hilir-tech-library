@@ -1530,7 +1530,7 @@ Status: **proposed** | Country: GB
 9-5/8 x 13-3/8 in bismuth plug set on a platform well; NZTC covered Wellstrom's cost, up-front testing and third-party costs
 Technologies: ups-thermite-bismuth-plugs
 
-## WWT: Wastewater and water reuse
+## WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 
 ### Changi Water Reclamation Plant, Singapore (changi-water-reclamation-plant)
 Status: **operating** | Country: SG
@@ -1547,7 +1547,7 @@ Capacity: population equivalent served:  PE
 ### Pengerang Integrated Complex effluent and utility systems (pengerang-integrated-complex-effluent)
 Status: **operating** | Country: MY
 The industrial-effluent and water-utility systems of PETRONAS' Refinery and Petrochemical Integrated Development (RAPID) complex at Pengerang: integrated effluent treatment serving the refinery and petrochemical trains, plus supplied industrial water; anchors the WWT sector's industrial-relevance link to the REF sector.
-Technologies: wwt-produced-water-treatment, wwt-daf, wwt-activated-sludge
+Technologies: ups-produced-water-treatment, wwt-daf, wwt-activated-sludge
 Capacity: refinery capacity:  bbl/d
 
 ### Tuas Water Reclamation Park, Singapore (tuas-water-reclamation-park)

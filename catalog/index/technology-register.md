@@ -1,6 +1,6 @@
 # Technology register
 
-403 technologies across oil, gas, petrochemicals and new energy; 396 have a technology card so far.
+406 technologies across oil, gas, petrochemicals and new energy; 399 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -459,7 +459,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Digital | DCIM and digital twins for data centres | commercial | Schneider Electric (EcoStruxure), Vertiv, Sunbird, Rigado |  |
 | Digital | Liquid-cooling leak detection and monitoring | demonstration | Vertiv, RLE Technologies, Aquilar |  |
 
-## WWT: Wastewater and water reuse
+## WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 
 | Area | Technology | Maturity | Examples | Card |
 | --- | --- | --- | --- | --- |
@@ -467,7 +467,10 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Physical and chemical treatment | Dissolved air flotation (DAF) | commercial | Veolia, FRC, Nijhuis/Desotec, Evoqua | [card](technologies-WWT.md#wwt-daf) |
 | Physical and chemical treatment | Coagulation-flocculation and chemical precipitation | commercial | Veolia, Chemtrade, Kemira (chemicals) | [card](technologies-WWT.md#wwt-coagulation-precipitation) |
 | Physical and chemical treatment | Lamella and high-rate clarifiers | commercial | Veolia, WesTech, Evoqua | [card](technologies-WWT.md#wwt-lamella-clarifier) |
-| Physical and chemical treatment | Produced-water treatment (oil and gas fields) | commercial | Siemens/SLB produced-water, Frames, CETCO | [card](technologies-WWT.md#wwt-produced-water-treatment) |
+| Industrial effluent treatment (ETS) — collection to discharge | API and CPI oily-water separators | commercial | WesTech, Monroe Environmental, Panam | [card](technologies-WWT.md#wwt-api-cpi-separators) |
+| Industrial effluent treatment (ETS) — collection to discharge | Spent caustic treatment (wet air oxidation) | commercial | Linde, Evoqua (Zimpro legacy) | [card](technologies-WWT.md#wwt-spent-caustic-treatment) |
+| Industrial effluent treatment (ETS) — collection to discharge | Effluent equalisation and surge management | commercial | EPC standard practice (IPIECA) | [card](technologies-WWT.md#wwt-equalisation) |
+| Industrial effluent treatment (ETS) — collection to discharge | Contaminated stormwater collection and diversion | commercial | IPIECA practice | [card](technologies-WWT.md#wwt-contaminated-stormwater) |
 | Biological treatment | Conventional activated sludge | commercial | Municipal EPCs (AECOM, Black & Veatch), Nijhuis | [card](technologies-WWT.md#wwt-activated-sludge) |
 | Biological treatment | Sequencing batch reactor (SBR) | commercial | Veolia, Aqua-Aerobic, EnviroSim associates (simulators) | [card](technologies-WWT.md#wwt-sbr) |
 | Biological treatment | Aerobic granular sludge treatment (Nereda) | commercial | Royal HaskoningDHV (licensor) | [card](technologies-WWT.md#wwt-aerobic-granular-sludge) |

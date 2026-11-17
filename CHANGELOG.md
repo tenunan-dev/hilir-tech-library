@@ -8,6 +8,29 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.18.3] — 2026-11-18 — ETS combined into WWT as WWT/ETS: taxonomy, four lifecycle cards, equipment, vendors, sources
+
+### Decision (industry-practice basis)
+
+- **Effluent Treatment System/System (ETS/ETP) is the industrial application of wastewater treatment, not a separate discipline** — IPIECA's refining water best practices, Veolia's industrial-wastewater framing and the Indian ETP/STP/CETP vocabulary all treat it as industrial wastewater with industrial streams (desalter effluent, sour water, spent caustic, contaminated stormwater). The sector code stays `WWT`; the display identity is now **"Wastewater treatment / Effluent treatment (WWT/ETS)"**, with `taxonomy()` subtopics extended (industrial-effluent-ets, oily-water-separation, equalisation-stormwater).
+
+### Added
+
+- **Terminology**: 10 glossary entries — ETS, ETP, WWTP, STP, CETP, API 421, CPI, WAO, IGF, ZLD.
+- **Four lifecycle cards** under a new register category "Industrial effluent treatment (ETS) — collection to discharge": `wwt-api-cpi-separators` (API 421 150-micron threshold, ≤100 mg/L design effluent, CPI to ~60 micron, 45-min residence, 0.015 m/s velocity cap), `wwt-spent-caustic-treatment` (WAO: sulfide >99.9% destroyed from 8,500 mg/L to <1, 130–260 °C and 7–86 barg windows by caustic type), `wwt-equalisation` (12–24 h retention; IPIECA "a day or so" for desalter effluent) and `wwt-contaminated-stormwater` (first-flush 25–50 mm capture).
+- **Equipment**: `wwt-oily-water-separators` (API/CPI class) with the same sourced specifications.
+- **Vendors**: `thermax`, `va-tech-wabag`, `praj` (industrial ETP/ZLD) and Linde's WAO added to the existing record; SUEZ extended with the MBR/UF cards.
+- **Sources**: `epa-effluent-guidelines` (40 CFR 419, public domain) and `cpcb` (India discharge standards); the existing `ipieca` record extended with the WWT sector and the refining-water best-practices PDF.
+- **Cross-link**: `ref-sour-water-stripping` now names its place in the ETS train (equalisation → API/CPI → biological).
+
+### Changed
+
+- **Produced-water cards consolidated**: `wwt-produced-water-treatment` merged into `ups-produced-water-treatment` (the 10–30 mg/L oil-in-water figure, Frames/CETCO suppliers, the Pengerang reference plant and both gaps moved); the register line removed; vendors and the Pengerang project repointed. Produced water is now recorded once, in upstream facilities.
+
+### Verified
+
+- Build **525 sources / 391 cards / 535 vendors / 37 equipment / 299 projects**; pytest **1,426 passed, 12 skipped**; Neon reloaded (16,903 vectors); **deployed** api `ff9cd4c65a2e`, ui `1e5b5ca93802`; gate `mygis 303, techlib-origin 403, tlea-origin 403`; live-verified taxonomy(), the ETS glossary entry and the new API/CPI card through the hosted service.
+
 ## [2026.11.18.2] — 2026-11-18 — MCP descriptions audited agent-first; nine stale or thin descriptions rewritten
 
 ### Changed

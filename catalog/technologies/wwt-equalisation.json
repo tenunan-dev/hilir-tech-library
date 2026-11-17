@@ -1,0 +1,108 @@
+{
+  "id": "wwt-equalisation",
+  "name": "Effluent equalisation and surge management",
+  "aliases": [],
+  "sector": "WWT",
+  "category": "Industrial effluent treatment (ETS)",
+  "applications": [
+    "industrial effluent",
+    "refinery effluent",
+    "reuse"
+  ],
+  "maturity": "commercial",
+  "principle": "An equalisation basin between the oily-water separation and the biological stage damps flow and load spikes so downstream units see steady hydraulic and organic loading. IPIECA: flow equalisation dampens flow variations, reducing potential spikes in flow and loads to the downstream units. Industrial practice sizes equalisation for 12-24 hours of retention; IPIECA quotes about a day for desalter effluent.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Collection sump",
+      "equipment": [
+        "collection sump",
+        "diversion valves"
+      ]
+    },
+    {
+      "id": "EQ",
+      "name": "Equalisation basin",
+      "equipment": [
+        "mixing or coarse-bubble aeration",
+        "transfer pumps"
+      ],
+      "to": [
+        "OUT"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Controlled feed out",
+      "equipment": [
+        "flow control to biological treatment"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "equalisation basin",
+    "mixers or aeration grid",
+    "transfer pumps"
+  ],
+  "performance": [
+    {
+      "metric": "design retention, industrial effluent",
+      "unit": "h",
+      "low": 12,
+      "high": 24,
+      "basis": "equalisation tanks sized for 12 to 24 hours retention",
+      "source": {
+        "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+        "note": "Baldwin refinery effluent design note, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "desalter effluent equalisation residence",
+      "unit": "h",
+      "low": 20,
+      "high": 28,
+      "basis": "residence time of a day or so (IPIECA)",
+      "source": {
+        "url": "https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf",
+        "source_id": "ipieca",
+        "note": "IPIECA Refining Water Best Practices (mirrored PDF), read 2026-11-18"
+      }
+    }
+  ],
+  "suppliers": [],
+  "sources": [
+    {
+      "url": "https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf",
+      "source_id": "ipieca",
+      "note": "IPIECA Refining Water Best Practices (mirrored PDF), read 2026-11-18"
+    },
+    {
+      "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+      "note": "Baldwin refinery effluent design note, read 2026-11-18"
+    }
+  ],
+  "advantages": [
+    "Protects biological treatment from load spikes",
+    "Smooths contaminated-stormwater and spent-caustic routing decisions"
+  ],
+  "limitations": [
+    "Footprint and capital grow with retention hours",
+    "No named licensor — standard EPC practice"
+  ],
+  "last_reviewed": "2026-11-18",
+  "gaps": [
+    {
+      "field": "suppliers",
+      "item": "named EPC or licensor for equalisation basins",
+      "reason_code": "not_in_sources_read",
+      "reason": "Standard EPC practice; no vendor page read claims it as a product. Checked 2026-11-18.",
+      "where": [
+        {
+          "hint": "Industrial-water EPC pages (Thermax, Wabag, Veolia)",
+          "access": "open"
+        }
+      ],
+      "action": "Add a named supplier when a page states it."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-532 vendor records covering 322 technologies. One record per vendor in
+535 vendor records covering 324 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -583,6 +583,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [BP](https://www.bp.com) | United Kingdom | developer, licensor, operator | Waterflooding and low-salinity water injection |
 | [BW Offshore](https://www.bwoffshore.com) | Norway | operator, oem | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Cenovus Energy](https://www.cenovus.com) | Canada | operator | Thermal EOR (steam flood, SAGD, CSS) |
+| [CETCO](https://www.mineralstech.com/cetco) | US | supplier | Produced water treatment (hydrocyclones, flotation, membranes) |
 | [Chevron](https://www.chevron.com) | USA | operator | Thermal EOR (steam flood, SAGD, CSS) |
 | [Cimarron Energy (Aereon)](https://aereon.com) | USA | oem, service | Flare gas recovery and zero routine flaring |
 | [CNOOC Engineering (COOEC)](https://www.cnoocengineering.com) | China | epc | Fixed jackets and gravity-based structures; FPSO and floating production (TLP, spar, semi-submersible) |
@@ -600,6 +601,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Exedra AS](https://exedra.no) | Norway | service | Well plug and abandonment (cement plugs, rig-based) |
 | [Exxon Neftegas](https://www.exxonmobil.com) | Russia | operator | Extended-reach and multilateral wells |
 | [FLIR Systems](https://www.flir.com) | USA | oem | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
+| [Frames Group](https://frames-group.com/) | NL | packager, integrator | Produced water treatment (hydrocyclones, flotation, membranes) |
 | [Framo](https://www.onesubsea.slb.com) | Norway | oem | Subsea boosting and multiphase pumps; Subsea separation and water reinjection |
 | [GHGSat](https://www.ghgsat.com) | Canada | service | Methane leak detection and repair (LDAR, satellites and continuous monitoring) |
 | [Halliburton](https://www.halliburton.com) | USA | service, supplier | AI-assisted seismic interpretation and history matching; Coiled tubing and well intervention; Hydraulic fracturing (plug-and-perf, electric frac fleets); Intelligent completions and inflow control devices; Managed pressure drilling; Measurement and logging while drilling (MWD/LWD); Production optimisation and digital oilfield; Rotary steerable systems; Sand control (gravel pack, frac pack, screens) |
@@ -655,17 +657,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Wood](https://www.woodplc.com) | UK | epc, service | FPSO and floating production (TLP, spar, semi-submersible) |
 | [Zeeco](https://www.zeeco.com) | USA | oem | Flare gas recovery and zero routine flaring |
 
-## WWT: Wastewater and water reuse
+## WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 
 | Vendor | Country | Roles | Supplies |
 | --- | --- | --- | --- |
 | [Aqua-Aerobic Systems](https://www.aqua-aerobic.com/) | US | oem | Sequencing batch reactor (SBR) |
 | [Aquatech International](https://www.aquatech.com/) | US | licensor, oem | Zero liquid discharge (ZLD) |
 | [Cambi AS](https://cambi.com/) | NO | licensor | Anaerobic sludge digestion (mesophilic/thermophilic) |
-| [CETCO](https://www.mineralstech.com/cetco) | US | supplier | Produced-water treatment (oil and gas fields) |
 | [Evoqua Water Technologies](https://www.evoqua.com/) | US | supplier, service | Dissolved air flotation (DAF) |
 | [Flottweg SE](https://www.flottweg.com/) | DE | oem | Mechanical sludge dewatering |
-| [Frames Group](https://frames-group.com/) | NL | packager, integrator | Produced-water treatment (oil and gas fields) |
 | [GHD](https://www.ghd.com/) | AU | service | Water minimisation and reuse pinch for industry |
 | [Gradiant](https://www.gradiant.com/) | US | oem | Brine concentration and selective salt recovery |
 | [Headworks BIO](https://www.headworksinternational.com/) | US | oem, licensor | Moving bed biofilm reactor (MBBR/IFAS) |
@@ -674,6 +674,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Indah Water Konsortium](https://www.iwk.com.my/) | MY | operator | Conventional activated sludge; Sequencing batch reactor (SBR) |
 | [Kemira](https://www.kemira.com/) | FI | supplier | Coagulation-flocculation and chemical precipitation |
 | [Kubota (Water & Environment)](https://kubota-membrane.com/) | JP | oem | Membrane bioreactor (MBR) wastewater treatment; Anaerobic membrane bioreactor (AnMBR) |
+| [Linde](https://www.linde.com) | Germany | supplier, operator | Spent caustic treatment (wet air oxidation) |
 | [Metito](https://www.metito.com/) | AE | epc, operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style) |
 | [Mitsubishi Chemical Aqua Solutions](https://www.mcas.co.jp/) | JP | oem | Membrane bioreactor (MBR) wastewater treatment |
 | [Modern Water](https://www.modernwater.com/) | UK | oem | Forward osmosis |
@@ -681,11 +682,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Oasys Water](https://www.oasyswater.com/) | US | licensor | Forward osmosis |
 | [Ostara Nutrient Recovery Technologies](https://ostara.com/) | CA | licensor | Nutrient recovery (struvite and ammonia) |
 | [Paques B.V.](https://www.paques.nl/) | NL | licensor, oem | Internal-circulation anaerobic reactor (Paques BIOPAQ IC); Upflow anaerobic sludge blanket (UASB/EGSB); Nutrient recovery (struvite and ammonia) |
+| [Praj Industries](https://www.praj.net) | India | epc, licensor | Zero liquid discharge (ZLD); Conventional activated sludge |
 | [Primozone](https://www.primozone.com/) | SE | oem | Ozonation and ozone-BAC filtration |
 | [Ranhill Utilities](https://www.ranhill.com.my/) | MY | operator, epc | Conventional activated sludge |
 | [Royal HaskoningDHV](https://www.nereda.net/) | NL | licensor, epc | Aerobic granular sludge treatment (Nereda) |
 | [Singapore PUB (National Water Agency)](https://www.pub.gov.sg/) | SG | operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style); Membrane bioreactor (MBR) wastewater treatment |
+| [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Membrane bioreactor (MBR) wastewater treatment; Microfiltration and ultrafiltration pretreatment |
+| [Thermax](https://www.thermaxglobal.com) | India | epc, oem | Conventional activated sludge; Zero liquid discharge (ZLD) |
 | [Trojan Technologies](https://www.trojantechnologies.com/) | CA | oem | UV disinfection; Advanced oxidation processes (AOP) |
+| [VA Tech Wabag](https://www.wabag.com) | India | epc, licensor | Conventional activated sludge; Moving bed biofilm reactor (MBBR/IFAS); Effluent equalisation and surge management |
 | [Veolia](https://www.veolia.com) | France | supplier, service | Anaerobic membrane bioreactor (AnMBR); Upflow anaerobic sludge blanket (UASB/EGSB) |
 | [WesTech Engineering](https://www.westech-inc.com/) | US | oem | Lamella and high-rate clarifiers; Coagulation-flocculation and chemical precipitation |
 | [Xergi A/S](https://xergi.com/) | DK | packager | Anaerobic sludge digestion (mesophilic/thermophilic) |
@@ -700,6 +705,7 @@ batch of this directory.
 
 - **CIV** (1): CIDB Malaysia
 - **HSE** (1): Flare Ventures
+- **WWT** (2): Monroe Environmental; Panam Environmental
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
@@ -711,4 +717,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-360 of 388 cards list at least one directory vendor.
+361 of 391 cards list at least one directory vendor.

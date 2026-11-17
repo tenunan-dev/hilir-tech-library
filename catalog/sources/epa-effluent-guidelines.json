@@ -1,0 +1,39 @@
+{
+  "id": "epa-effluent-guidelines",
+  "name": "EPA Effluent Guidelines — Petroleum Refining (40 CFR 419)",
+  "url": "https://www.epa.gov/eg/petroleum-refining-effluent-guidelines",
+  "source_type": "agency-data",
+  "sectors": [
+    "WWT",
+    "REF"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "subtopics": [
+    "refinery effluent limits",
+    "NPDES",
+    "point-source category"
+  ],
+  "publisher_org": "U.S. Environmental Protection Agency",
+  "country": "US",
+  "regions": [
+    "na",
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html",
+    "pdf"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-18",
+  "notes": "EPA petroleum refining effluent guidelines (40 CFR Part 419, promulgated 1974, covering 140+ refineries) incorporated into NPDES permits. US government work, public domain. Evidence: page read 2026-11-18.",
+  "automated_access": "allowed",
+  "permitted_use": "any"
+}

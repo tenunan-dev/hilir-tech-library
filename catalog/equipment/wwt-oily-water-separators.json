@@ -1,0 +1,93 @@
+{
+  "id": "wwt-oily-water-separators",
+  "name": "Oily-water separators (API/CPI)",
+  "aliases": [
+    "API separator",
+    "corrugated plate interceptor",
+    "tilted plate separator"
+  ],
+  "equipment_type": "oily-water-separator",
+  "sector": "WWT",
+  "sector_codes": [
+    "WWT",
+    "REF",
+    "UPS"
+  ],
+  "description": "Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment.",
+  "applications": [
+    "refinery and petrochemical effluent trains",
+    "produced-water de-oiling",
+    "terminal and tank-farm runoff"
+  ],
+  "specifications": [
+    {
+      "metric": "free-oil droplet removal threshold",
+      "unit": "micron",
+      "low": 150,
+      "high": 150,
+      "basis": "API 421 traditional separators remove droplets down to about 150 micron under ideal conditions",
+      "source": {
+        "url": "https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421",
+        "note": "API 421 implications summary, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "design effluent free-oil concentration",
+      "unit": "mg/L",
+      "low": 0,
+      "high": 100,
+      "basis": "effluent of 100 mg/L or less of non-emulsified free oil droplets 150 micron and larger",
+      "source": {
+        "url": "https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf",
+        "note": "Panam API separator note, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "CPI removable droplet size",
+      "unit": "micron",
+      "low": 40,
+      "high": 60,
+      "basis": "plate separators down to about 60 micron, 40 micron in enhanced designs",
+      "source": {
+        "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+        "note": "Baldwin refinery note, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "design residence time",
+      "unit": "min",
+      "low": 45,
+      "high": 45,
+      "basis": "45-minute design residence; velocity capped at 0.015 m/s; length-to-width ratio at least 5:1",
+      "source": {
+        "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+        "note": "Baldwin refinery note, read 2026-11-18"
+      }
+    }
+  ],
+  "vendors": [
+    "westech",
+    "veolia"
+  ],
+  "technologies": [
+    "wwt-api-cpi-separators"
+  ],
+  "sources": [
+    {
+      "url": "https://www.westechwater.com/products/oil-water-separator",
+      "note": "WesTech oil/water separator page, read 2026-11-18"
+    },
+    {
+      "url": "https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf",
+      "note": "Panam API separator note, read 2026-11-18"
+    }
+  ],
+  "last_reviewed": "2026-11-18",
+  "gaps": [
+    {
+      "what": "per-vendor model lines with plate-area and capacity ranges",
+      "why": "vendor pages read give design-basis figures but not named model series",
+      "next_action": "fetch WesTech and Monroe model pages and add model lines"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Equipment catalog
 
-36 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+37 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -9,7 +9,7 @@ follow the registration queue.
 
 ### Aeration systems (blowers and diffusers) (wwt-aeration-systems)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 The energy centre of biological treatment: blowers (turbo, screw, lobe) and fine-bubble diffuser grids or mechanical aerators deliver oxygen to activated-sludge and MBBR basins.
 Vendors: Xylem (1 model lines recorded).
 
@@ -75,7 +75,7 @@ Recorded gaps:
 
 ### Anaerobic digesters (sludge and organics) (wwt-anaerobic-digesters)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Complete-mix mesophilic/thermophilic digesters with heating, gas mixing and biogas handling; optionally preceded by thermal hydrolysis.
 Vendors: Veolia, Cambi AS, Xergi A/S (1 model lines recorded).
 
@@ -94,7 +94,7 @@ Recorded gaps:
 
 ### Biogas upgrading units (wwt-biogas-upgraders)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Water-wash, amine, membrane and PSA units upgrading raw biogas to 95-99% methane grid/vehicle spec.
 Vendors: DMT Environmental Technology, Pentair (1 model lines recorded).
 
@@ -258,7 +258,7 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem (3 mod
 
 ### Clarifiers and thickeners (wwt-clarifiers-thickeners)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Primary/secondary circular clarifiers and gravity/DAF thickeners with scraper bridges, plus lamella packs for high-rate duty.
 Vendors: Veolia, WesTech Engineering (1 model lines recorded).
 
@@ -334,7 +334,7 @@ Recorded gaps:
 
 ### Dissolved air flotation units (wwt-daf-units)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 DAF clarifiers: air-saturation vessels release 30-100 um microbubbles into coagulated water; floated flocs are scraped off as a thick float sludge.
 Vendors: Veolia, Evoqua Water Technologies (1 model lines recorded).
 
@@ -353,7 +353,7 @@ Recorded gaps:
 
 ### ZLD evaporators and crystallisers (wwt-evaporator-crystallisers)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Mechanical-vapour-recompression evaporators and forced-circulation crystallisers that end ZLD trains: distillate recycled, salts recovered as solids.
 Vendors: Aquatech International, Veolia (1 model lines recorded).
 
@@ -446,7 +446,7 @@ Recorded gaps:
 
 ### MF/UF/RO membrane systems (wwt-membrane-systems)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Pressure-driven membrane systems for water reuse: hollow-fibre microfiltration/ultrafiltration (0.02-0.1 um) pretreatment and spiral-wound reverse osmosis trains that reject salts and micropollutants.
 Vendors: SUEZ Water Technologies, DuPont Water Solutions, Toray Industries, Nitto / Hydranautics (3 model lines recorded).
 
@@ -498,11 +498,31 @@ Recorded gaps:
 
 - per-panel prices from ABB/Schneider/Eaton themselves — Ask a TNB-registered Malaysian switchgear supplier (EPE Switchgear, Inteflex, others) for a per-unit benchmark
 
+## oily-water-separator
+
+### Oily-water separators (API/CPI) (wwt-oily-water-separators)
+
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
+Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment.
+Vendors: WesTech Engineering, Veolia (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| free-oil droplet removal threshold | 150 micron | API 421 traditional separators remove droplets down to about 150 micron under ideal conditions |
+| design effluent free-oil concentration | 0-100 mg/L | effluent of 100 mg/L or less of non-emulsified free oil droplets 150 micron and larger |
+| CPI removable droplet size | 40-60 micron | plate separators down to about 60 micron, 40 micron in enhanced designs |
+| design residence time | 45 min | 45-minute design residence; velocity capped at 0.015 m/s; length-to-width ratio at least 5:1 |
+
+
+Recorded gaps:
+
+- per-vendor model lines with plate-area and capacity ranges — fetch WesTech and Monroe model pages and add model lines
+
 ## ozone-generators
 
 ### Ozone generators (wwt-ozone-generators)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Corona-discharge ozone generation on oxygen feed with side-stream injection for micropollutant control and disinfection.
 Vendors: Xylem (1 model lines recorded).
 
@@ -645,7 +665,7 @@ Recorded gaps:
 
 ### Sludge dewatering equipment (wwt-sludge-dewatering-equipment)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Decanter centrifuges, belt filter presses, membrane filter presses and screw presses that turn conditioned sludge into 18-40% DS cake.
 Vendors: Alfa Laval, ANDRITZ, Flottweg SE, HUBER SE (4 model lines recorded).
 
@@ -775,7 +795,7 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem (5 mod
 
 ### UV disinfection reactors (wwt-uv-reactors)
 
-Primary code: WWT: Wastewater and water reuse
+Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Closed-vessel or open-channel UV systems (low-pressure, medium-pressure, LED) delivering 20-100 mJ/cm2 with validated dose monitoring.
 Vendors: Trojan Technologies, Xylem (1 model lines recorded).
 

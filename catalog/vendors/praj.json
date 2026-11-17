@@ -1,0 +1,26 @@
+{
+  "id": "praj",
+  "name": "Praj Industries",
+  "country": "India",
+  "roles": [
+    "epc",
+    "licensor"
+  ],
+  "categories": [
+    "plant-epc",
+    "process-licensor"
+  ],
+  "description": "Indian process engineering company (biofuels and biotechnology) whose wastewater line runs from effluent treatment through to zero liquid discharge.",
+  "technologies": [
+    "wwt-zld",
+    "wwt-activated-sludge"
+  ],
+  "url": "https://www.praj.net",
+  "sources": [
+    {
+      "url": "https://www.praj.net/businesslines-type/wastewater-treatment",
+      "note": "Praj wastewater treatment business line, read 2026-11-18"
+    }
+  ],
+  "last_reviewed": "2026-11-18"
+}

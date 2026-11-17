@@ -689,7 +689,7 @@ flowchart LR
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; ubiquitous unit, no named reference added. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.bechtel.com/services/petrochemicals/bhts/sulfur/sour-water-stripping/), [2](https://www.digitalrefining.com/article/1000799/sour-water-strippers-design-and-operation), [3](https://www.pall.com/en/oil-gas/refining/sour-water-stripping.html). Last reviewed 2026-11-17.
+Sources: [1](https://www.bechtel.com/services/petrochemicals/bhts/sulfur/sour-water-stripping/), [2](https://www.digitalrefining.com/article/1000799/sour-water-strippers-design-and-operation), [3](https://www.pall.com/en/oil-gas/refining/sour-water-stripping.html). Last reviewed 2026-11-18.
 
 ## Visbreaking and solvent deasphalting
 <a id="ref-visbreaking-sda"></a>

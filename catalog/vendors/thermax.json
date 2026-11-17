@@ -1,0 +1,26 @@
+{
+  "id": "thermax",
+  "name": "Thermax",
+  "country": "India",
+  "roles": [
+    "epc",
+    "oem"
+  ],
+  "categories": [
+    "plant-epc",
+    "equipment-oem"
+  ],
+  "description": "Indian energy and water engineering group offering effluent treatment and recycling plants through to zero liquid discharge for industrial clients.",
+  "technologies": [
+    "wwt-activated-sludge",
+    "wwt-zld"
+  ],
+  "url": "https://www.thermaxglobal.com",
+  "sources": [
+    {
+      "url": "https://www.thermaxglobal.com/industrial-products/water-and-waste-solutions/effluent-treatment-recycling-plants",
+      "note": "Thermax effluent treatment and recycling plants page, read 2026-11-18"
+    }
+  ],
+  "last_reviewed": "2026-11-18"
+}

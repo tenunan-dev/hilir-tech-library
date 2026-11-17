@@ -1,0 +1,26 @@
+{
+  "id": "va-tech-wabag",
+  "name": "VA Tech Wabag",
+  "country": "India",
+  "roles": [
+    "epc",
+    "licensor"
+  ],
+  "categories": [
+    "plant-epc"
+  ],
+  "description": "Indian-headquartered water technology company supplying customised industrial effluent treatment plants and municipal water work; repeat industrial ETP orders include Reliance's Jamnagar complex.",
+  "technologies": [
+    "wwt-activated-sludge",
+    "wwt-mbbr",
+    "wwt-equalisation"
+  ],
+  "url": "https://www.wabag.com",
+  "sources": [
+    {
+      "url": "https://www.wabag.com/offering/effluent-treatment-plant",
+      "note": "Wabag effluent treatment plant offering page, read 2026-11-18"
+    }
+  ],
+  "last_reviewed": "2026-11-18"
+}

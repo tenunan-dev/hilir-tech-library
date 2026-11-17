@@ -1,16 +1,19 @@
 # WWT technology options
 
-33 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
+36 technologies, from commercial to lab stage. Generated from catalog/technologies/; every figure links to its source.
 
 | Technology | Category | Maturity | TRL | Suppliers | Cost figures |
 | --- | --- | --- | --- | --- | --- |
+| [API and CPI oily-water separators](#wwt-api-cpi-separators) | Industrial effluent treatment (ETS) | commercial |  | WesTech (API 421 oil/water separators); Monroe Environmental (API separators); Panam Environmental (API separator design note) |  |
 | [Aerobic granular sludge treatment (Nereda)](#wwt-aerobic-granular-sludge) | Biological treatment | commercial |  | Royal HaskoningDHV (Nereda aerobic granular sludge technology (licensor)) | installed capital cost, AGS plus tertiary UF upgrade: 1863 NIS per m3/d of capacity |
 | [Anaerobic sludge digestion (mesophilic/thermophilic)](#wwt-sludge-digestion) | Sludge and biogas | commercial | 9 | Veolia (digestion configurations); Cambi (thermal hydrolysis pretreatment); Xergi (digester packages) | capital cost, two-stage anaerobic digestion system, 12 MGD plant (Grand Island, Nebraska): 10.7 USD million (2006$)<br>capital cost, two-stage TPAD anaerobic digestion system, 43 MGD plant (WLSSD Duluth): 32.6 USD million (2006$)<br>operation and maintenance cost, anaerobic digestion: 9.39-51.51 USD per dry ton through the digesters (1999$) |
 | [Biological nutrient removal (BNR)](#wwt-bnr) | Biological treatment | commercial |  | Jacobs (BNR process consulting); Veolia (BNR configurations) | capital cost, BNR retrofit: 588000-6.972e+06 USD per mgd of capacity (2006$) |
 | [Chlorination and dechlorination](#wwt-chlorination) | Disinfection and advanced oxidation | commercial |  | Evoqua Water Technologies (chlorination and dechlorination systems); Xylem (disinfection dosing) | annualised capital cost, chlorination plus dechlorination plus fire-code compliance: 1.127e+06-1.434e+07 USD per mgd of capacity (1995$)<br>chemical-only disinfectant cost, sodium hypochlorite: 0.0166-0.066 USD per m3 treated (2024$) |
 | [Coagulation-flocculation and chemical precipitation](#wwt-coagulation-precipitation) | Physical and chemical treatment | commercial |  | Kemira (coagulants and polymers); Veolia (turnkey chemical treatment trains) | bulk coagulant price, liquid alum (iron-free): 152-269 USD per tonne (2000$) |
+| [Contaminated stormwater collection and diversion](#wwt-contaminated-stormwater) | Industrial effluent treatment (ETS) | commercial |  |  |  |
 | [Conventional activated sludge](#wwt-activated-sludge) | Biological treatment | commercial |  | Xylem (Sanitaire aeration systems); Suez (aeration and clarification) | capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants above 0.02 MGD): 2-2.5 USD per gallon per day (2000$)<br>capital cost, extended-aeration activated sludge package plant, per gallon per day of capacity (plants below 0.02 MGD): 4-6 USD per gallon per day (2000$)<br>plant electricity use, secondary treatment including sludge management: 1500-1700 kWh per million gallons treated<br>electricity cost, secondary treatment including sludge management: 0.036-0.0405 USD per m3 treated |
 | [Dissolved air flotation (DAF)](#wwt-daf) | Physical and chemical treatment | commercial |  | Veolia (DAF flotation systems); Evoqua (DAF systems) | total installed cost, dissolved air flotation thickener: 2640 USD per m3/h of design flow |
+| [Effluent equalisation and surge management](#wwt-equalisation) | Industrial effluent treatment (ETS) | commercial |  |  |  |
 | [Internal-circulation anaerobic reactor (Paques BIOPAQ IC)](#wwt-anaerobic-internal-circulation) | Anaerobic treatment | commercial |  | Paques (BIOPAQ IC / ICX internal-circulation reactors; BIOPAQ UASB family) |  |
 | [Lamella and high-rate clarifiers](#wwt-lamella-clarifier) | Physical and chemical treatment | commercial |  | Veolia (Actiflo high-rate clarifier); WesTech (lamella clarifiers) | equipment cost, lamella settler in SUS 304: 300-600 USD per m3/h of design flow (2026$) |
 | [Mechanical sludge dewatering](#wwt-sludge-dewatering) | Sludge and biogas | commercial |  | Alfa Laval (decanters for sludge); Andritz (belt and filter presses); Flottweg (Tricanter/decanters); HUBER SE (screw presses (Q-PRESS)) | capital cost, belt filter press (0.5 m belt, about 500 dry lb/h): 47500 USD per press (2000$)<br>capital cost, belt filter press (1.5 m belt, about 1,625 dry lb/h): 115000 USD per press (2000$)<br>operation and maintenance cost, belt filter press: 80-200 USD per dry ton of solids (2000$) |
@@ -21,12 +24,12 @@
 | [Nutrient recovery (struvite and ammonia)](#wwt-struvite-recovery) | Resource recovery and ZLD | commercial |  | Ostara (Pearl process and Crystal Green fertiliser); Paques (PHOSPAQ combined recovery) | break-even cost, electrochemical struvite recovery: 6.03 USD per kg struvite recovered (2022$)<br>break-even cost per kg phosphorus recovered: 47.9 USD per kg P (2022$) |
 | [Ozonation and ozone-BAC filtration](#wwt-ozone) | Disinfection and advanced oxidation | commercial |  | Xylem (Wedeco ozone systems); Primozone (high-concentration ozone generation) | annual operation and maintenance cost, 1 MGD ozone disinfection system, excluding power: 18500 USD per year (1998$)<br>total installed capital cost, ozone disinfection: 389000 USD per mgd of capacity (1998$) |
 | [Potable reuse schemes (IPR/DPR)](#wwt-potable-reuse-schemes) | Membrane and reuse | commercial |  | Singapore PUB (NEWater scheme owner (operating model)); Suez (advanced purification equipment) | treated water cost, indirect potable reuse (full advanced treatment): 2.8-4.1 USD per 1,000 gallons |
-| [Produced-water treatment (oil and gas fields)](#wwt-produced-water-treatment) | Physical and chemical treatment | commercial |  | Frames Group (produced-water packages); CETCO (CROSFLOW produced-water membranes) | capital cost, advanced produced-water treatment complex (MBBR + evaporation/crystallisation): 4583 USD per barrel per day of capacity (2015$) |
 | [Reverse-osmosis water reuse train (NEWater-style)](#wwt-ro-reuse-train) | Membrane and reuse | commercial |  | DuPont Water Solutions (FilmTec RO and NF elements); Nitto (Hydranautics) (CPA/ESPA RO elements); Toray (ROMEMBRA RO elements); Suez (ZeeWeed MF/UF) | installed capital cost, potable reuse train (MF/RO/UVAOP): 6 USD per gallon per day (2013$) |
 | [Screening and grit removal](#wwt-screening-grit) | Physical and chemical treatment | commercial |  | HUBER SE (Ro9 grit treatment, ROTAMAT screens); Hydro International (vortex grit separators) | construction cost, headworks screening facility: 98-108 USD per m3/d of design flow (2019$) |
 | [Sequencing batch reactor (SBR)](#wwt-sbr) | Biological treatment | commercial |  | Aqua-Aerobic Systems (SBR decanters and Selector technology); Veolia (SBR configurations) | operation and maintenance cost, sequencing batch reactor: 800-2000 USD per million gallons treated (1999$)<br>installed cost, SBR system: 1.65-5 USD per gallon per day of capacity (1998$) |
 | [Sludge incineration and co-incineration](#wwt-sludge-incineration) | Sludge and biogas | commercial |  | Veolia (sludge incineration operations); Hitachi Zosen (sludge incineration plants) | operating cost, biosolids incineration: 83-269 USD per dry Mg (2002$)<br>capital cost, new fluidised-bed incineration facility: 60000 USD per dry tonne per day of capacity (1994$) |
 | [Sludge thickening](#wwt-sludge-thickening) | Sludge and biogas | commercial |  | HUBER SE (rotary drum and disc thickeners); Veolia (gravity and DAF thickeners); WesTech Engineering (gravity thickeners) | installed capital cost, gravity thickener, by plant capacity (2-25 MGD): 199000-3.2e+06 USD (2000$)<br>unit cost, gravity thickening operation: 0.3-3 USD per dry ton (2000$) |
+| [Spent caustic treatment (wet air oxidation)](#wwt-spent-caustic-treatment) | Industrial effluent treatment (ETS) | commercial |  | Linde (Linde WAO for spent caustic); Evoqua (Zimpro wet air oxidation (legacy)) |  |
 | [Thermal sludge drying and pyrolysis](#wwt-sludge-drying) | Sludge and biogas | commercial |  | Andritz (drum/belt dryers); HUBER SE (SRT sludge dryers) | total cost, heat drying of biosolids: 323-441 USD per dry tonne (1994$) |
 | [Trickling filters and rotating biological contactors](#wwt-trickling-filters) | Biological treatment | commercial |  | WesTech Engineering (trickling filter and clarifier equipment); HUBER SE (biological filter media) | construction cost, trickling filter plant: 760000-6.34e+07 USD per mgd of capacity |
 | [UV disinfection](#wwt-uv-disinfection) | Disinfection and advanced oxidation | commercial |  | Trojan Technologies (UVSwift/UltraFlow municipal reactors); Xylem (Wedeco UV systems) | total capital cost, UV disinfection system: 244000 USD (1999$)<br>capital cost, UV disinfection at plant peak flow: 11-21.1 USD per m3/d of capacity (2004$) |
@@ -37,6 +40,44 @@
 | [Anaerobic membrane bioreactor (AnMBR)](#wwt-anmbr) | Anaerobic treatment | demonstration |  | Kubota (submerged flat-plate membranes for AnMBR); ADI Systems (Veolia) (AnMBR configurations) | net treatment cost, mainstream AnMBR: 0.35-0.42 EUR per m3 treated |
 | [Brine concentration and selective salt recovery](#wwt-brine-concentration) | Resource recovery and ZLD | demonstration |  | Aquatech International (HERO concentrate treatment); Gradiant (brine concentration and salt recovery) | levelised cost of water, single-stage mechanical vapour compression: 3.6-6.1 USD per m3 of product water (2024$) |
 | [Forward osmosis](#wwt-forward-osmosis) | Membrane and reuse | pilot |  | Modern Water (commercial FO systems); Oasys Water (FO draw technology) | water cost, FO-RO plus AnMBR municipal treatment: 0.81-1.27 EUR per m3 treated |
+
+## API and CPI oily-water separators
+<a id="wwt-api-cpi-separators"></a>
+
+First step of a refinery effluent train: free (non-emulsified) oil floats under gravity in a long, baffled API-type basin designed to API 421, or coalesces on tilted corrugated plates (CPI/PPI), which pack the same duty into a smaller footprint. Skimmed oil is recovered; the oily water continues to flotation (DAF/IGF) and then biological treatment. IPIECA's refinery train: API separator, then DAF or IAF, then equalisation and biological treatment.
+
+```mermaid
+flowchart LR
+    IN["Inlet distribution<br/><small>inlet weir and distribution baffle</small>"]
+    SEP["Gravity separation / plate coalescence<br/><small>API basin with slotted-pipe skimmers, CPI/PPI plate pack</small>"]
+    OUT["Oily water out<br/><small>underflow weir</small>"]
+    OIL["Recovered oil<br/><small>skim pipe, oil sump</small>"]
+    SLG["Bottom sludge<br/><small>sludge rake and pump</small>"]
+    DAF["To flotation polishing<br/><small>DAF or IGF unit</small>"]
+    IN --> SEP
+    SEP -->|oily water to flotation| OUT
+    SEP -->|recovered oil| OIL
+    SEP -->|separator bottom sludge| SLG
+    OUT --> DAF
+    OIL --> SLG
+    SLG --> DAF
+```
+
+**Key equipment:** API basin, CPI plate pack, slotted-pipe oil skimmer, sludge rake.
+
+**Performance:**
+- free-oil droplet removal threshold, API separator: 150 micron; API 421: traditional separators remove only down to about 150-micron droplets under ideal conditions. [source](https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421)
+- design effluent free-oil concentration: 0-100 mg/L; designed to produce an effluent of 100 mg/L or less of oil droplets 150 micron and larger, non-emulsified free oil. [source](https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf)
+- typical API separator effluent oil: 50-200 mg/L; typical effluent oil concentrations. [source](https://www.baldwin.com.au/industries/petroleum-refineries)
+- CPI removable droplet size: 40-60 micron; coalescing plate separators down to approximately 60 micron, 40 micron in enhanced designs. [source](https://www.baldwin.com.au/industries/petroleum-refineries)
+- design residence time: 45 min; 45-minute design residence time. [source](https://www.baldwin.com.au/industries/petroleum-refineries)
+- horizontal velocity cap: 0.015 m/s; horizontal velocity capped at 0.015 m/s; minimum length-to-width ratio 5:1. [source](https://www.baldwin.com.au/industries/petroleum-refineries)
+
+**Missing inputs:**
+- installed cost per m2 of API/CPI separator, with dollar year (costs): No open source prices the unit; vendor quotes only. Checked 2026-11-18. Where: Vendor budgetary quotes; paid cost databases are catalog-only (paid). Next: Record when a sourced cost figure appears.
+- TRL with a cited source (trl): No agency TRL table covers wastewater process units; checked 2026-11-18. Where: IEA ETP Clean Energy Technology Guide (already searched) (open). Next: Add only when an agency publishes one; do not infer from 'commercial'.
+
+Sources: [1](https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf), [2](https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421), [3](https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf), [4](https://www.baldwin.com.au/industries/petroleum-refineries), [5](https://www.westechwater.com/products/oil-water-separator). Last reviewed 2026-11-18.
 
 ## Aerobic granular sludge treatment (Nereda)
 <a id="wwt-aerobic-granular-sludge"></a>
@@ -202,6 +243,30 @@ flowchart LR
 
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
 
+## Contaminated stormwater collection and diversion
+<a id="wwt-contaminated-stormwater"></a>
+
+Refinery and petrochemical sites segregate clean and contaminated stormwater. IPIECA: contaminated stormwater must be collected separately and stored until it can be treated in the wastewater treatment plant; the first-flush volume — the first one to two inches of rain — is captured in a tank or basin and discharged to wastewater treatment at a controlled rate.
+
+```mermaid
+flowchart LR
+    DIV["First-flush diversion<br/><small>diversion weir or valve, rain gauges</small>"]
+    STORE["Stormwater storage<br/><small>stormwater tank or basin</small>"]
+    TREAT["Controlled treatment feed<br/><small>pumps to the ETP at a controlled rate</small>"]
+    DIV --> STORE
+    STORE --> TREAT
+```
+
+**Key equipment:** diversion structure, stormwater basin or tank, transfer pumps.
+
+**Performance:**
+- first-flush capture depth: 25-50 mm; the first one to two inches of rain captured (IPIECA). [source](https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf)
+
+**Missing inputs:**
+- cost per hectare of contaminated-stormwater capture, with dollar year (costs): Site-specific civil scope; no open cost source. Checked 2026-11-18. Where: Refinery project cost disclosures (open). Next: Record when a sourced figure appears.
+
+Sources: [1](https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf). Last reviewed 2026-11-18.
+
 ## Conventional activated sludge
 <a id="wwt-activated-sludge"></a>
 
@@ -274,6 +339,31 @@ flowchart LR
 - TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
+
+## Effluent equalisation and surge management
+<a id="wwt-equalisation"></a>
+
+An equalisation basin between the oily-water separation and the biological stage damps flow and load spikes so downstream units see steady hydraulic and organic loading. IPIECA: flow equalisation dampens flow variations, reducing potential spikes in flow and loads to the downstream units. Industrial practice sizes equalisation for 12-24 hours of retention; IPIECA quotes about a day for desalter effluent.
+
+```mermaid
+flowchart LR
+    IN["Collection sump<br/><small>collection sump, diversion valves</small>"]
+    EQ["Equalisation basin<br/><small>mixing or coarse-bubble aeration, transfer pumps</small>"]
+    OUT["Controlled feed out<br/><small>flow control to biological treatment</small>"]
+    IN --> EQ
+    EQ --> OUT
+```
+
+**Key equipment:** equalisation basin, mixers or aeration grid, transfer pumps.
+
+**Performance:**
+- design retention, industrial effluent: 12-24 h; equalisation tanks sized for 12 to 24 hours retention. [source](https://www.baldwin.com.au/industries/petroleum-refineries)
+- desalter effluent equalisation residence: 20-28 h; residence time of a day or so (IPIECA). [source](https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf)
+
+**Missing inputs:**
+- named EPC or licensor for equalisation basins (suppliers): Standard EPC practice; no vendor page read claims it as a product. Checked 2026-11-18. Where: Industrial-water EPC pages (Thermax, Wabag, Veolia) (open). Next: Add a named supplier when a page states it.
+
+Sources: [1](https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf), [2](https://www.baldwin.com.au/industries/petroleum-refineries). Last reviewed 2026-11-18.
 
 ## Internal-circulation anaerobic reactor (Paques BIOPAQ IC)
 <a id="wwt-anaerobic-internal-circulation"></a>
@@ -606,42 +696,6 @@ flowchart LR
 
 Sources: [1](https://www.pub.gov.sg/). Last reviewed 2026-11-16.
 
-## Produced-water treatment (oil and gas fields)
-<a id="wwt-produced-water-treatment"></a>
-
-Standard published produced-water practice: degassing and desanding, multi-stage induced gas flotation for dispersed oil, hydrocyclones or nut-shell filters for tight oil removal, then polishing to reinjection or discharge standards; bridges the WWT sector to upstream operations.
-
-```mermaid
-flowchart LR
-    DEG["Degassing and desanding<br/><small>degasser, desanding hydrocyclone</small>"]
-    IGF["Induced gas flotation<br/><small>IGF cells (3-4 stages) with gas sparging</small>"]
-    POLISH["Polishing<br/><small>de-oiling hydrocyclones, nut-shell filter</small>"]
-    REUSE["Reinjection or reuse<br/><small>injection pumps</small>"]
-    DISP["Compliant discharge<br/><small>discharge monitoring</small>"]
-    DEG --> IGF
-    IGF -->|oil-lean water| POLISH
-    POLISH -->|water for reinjection| REUSE
-    POLISH -->|discharge stream| DISP
-    REUSE --> DISP
-```
-
-**Key equipment:** IGF cells, de-oiling hydrocyclones, nut-shell filters, reinjection pumps.
-
-**Performance:**
-- oil-in-water after treatment: 10-30 mg/L; typical discharge compliance range. [source](https://www.frames-group.com/)
-
-**Costs:**
-- capital cost, advanced produced-water treatment complex (MBBR + evaporation/crystallisation): 4583 USD per barrel per day of capacity (2015$); Antero Clearwater, WV: USD 275M for 60,000 bbl/d (~28,800 USD per m3/d), treating flowback and produced water to a $4.00/bbl fee. NOTE the scope is an evaporation/crystallisation ZLD complex, not the CPI/IGF plus hydrocyclone de-oiling train this card describes - it is not a de-oiling benchmark.. [source](https://www.anteroresources.com/investors/press-releases/detail/55/antero-announces-60000-barrel-per-day-advanced-wastewater)
-
-**Reference plants:**
-- Pengerang Integrated Complex effluent systems: ; . [source](https://www.petronas.com/)
-
-**Missing inputs:**
-- capital cost per m3/d for a CPI/IGF plus hydrocyclone de-oiling train, with dollar year (costs): The 2015 Antero figure is recorded but its scope is evaporation/crystallisation ZLD, not de-oiling. No loaded source prices the simpler train as a unit cost; searched 2026-11-16. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this exact metric and scope.
-- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
-
-Sources: [1](https://www.veoliawatertech.com/). Last reviewed 2026-11-16.
-
 ## Reverse-osmosis water reuse train (NEWater-style)
 <a id="wwt-ro-reuse-train"></a>
 
@@ -802,6 +856,39 @@ flowchart LR
 - TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
 Sources: [1](https://www.huber.de/). Last reviewed 2026-11-16.
+
+## Spent caustic treatment (wet air oxidation)
+<a id="wwt-spent-caustic-treatment"></a>
+
+Spent caustic from mercaptan removal, ethylene quench and refinery LPG treating carries sulfides, mercaptides, cresylates and naphthenates at high pH. Wet air oxidation (WAO) oxidises these with air at elevated temperature and pressure so the effluent is biologically treatable; IPIECA notes spent caustic should be neutralised or routed to equalisation to protect the API separators. Linde has supplied WAO since 1970; Evoqua carries the Zimpro legacy.
+
+```mermaid
+flowchart LR
+    FEED["Spent caustic feed and analysis<br/><small>spent-caustic storage, feed pumps</small>"]
+    WAO["Wet air oxidation reactor<br/><small>WAO reactor, air compressor, feed/effluent heat exchanger</small>"]
+    COOL["Heat recovery and let-down<br/><small>heat exchangers, pressure let-down valves, separator</small>"]
+    OUT["Treated caustic out<br/><small>neutralisation, to equalisation or biological treatment</small>"]
+    OFFGAS["Vent gas handling<br/><small>off-gas scrubber</small>"]
+    FEED --> WAO
+    WAO --> COOL
+    COOL --> OUT
+    COOL --> OFFGAS
+    OUT --> OFFGAS
+```
+
+**Key equipment:** WAO reactor, air compressor, feed/effluent heat exchanger, off-gas scrubber.
+
+**Performance:**
+- sulfide destruction: 99.9 %; 8,500 mg/L as S reduced to below 1 mg/L (Siemens/Zimpro paper). [source](https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf)
+- sulfidic COD destruction: 84-99.5 %; Siemens/Zimpro WAO table spans 84% to more than 99.5% across cases. [source](https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf)
+- operating temperature window: 130-260 °C; WAO range 150-320 C overall; sulfidic caustic 130-200 C, cresylic 200-260 C, naphthenic 240-260 C. [source](https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf)
+- operating pressure window: 7-86 barg; sulfidic caustic 7-27.5 barg; cresylic 27.5-86 barg; naphthenic 55-86 barg. [source](https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf)
+
+**Missing inputs:**
+- installed cost of a spent-caustic WAO unit, with dollar year (costs): Licensor-quoted only; no open source found. Checked 2026-11-18. Where: Licensor budgetary studies; paid cost databases are catalog-only (paid). Next: Record when a sourced figure appears.
+- confirm other WAO licensors (e.g. Siirtec Nigi) with a page (suppliers): Named in secondary discussion but no readable page this pass. Where: Siirtec Nigi spent caustic page (fetch blocked 2026-11-18) (blocked). Next: Add when a page is reachable.
+
+Sources: [1](https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf), [2](https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf), [3](https://www.linde-engineering.com/products-and-services/process-plants/petrochemical-technologies/wet-air-oxidation). Last reviewed 2026-11-18.
 
 ## Thermal sludge drying and pyrolysis
 <a id="wwt-sludge-drying"></a>

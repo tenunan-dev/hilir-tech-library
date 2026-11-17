@@ -1,0 +1,92 @@
+{
+  "id": "wwt-contaminated-stormwater",
+  "name": "Contaminated stormwater collection and diversion",
+  "aliases": [],
+  "sector": "WWT",
+  "category": "Industrial effluent treatment (ETS)",
+  "applications": [
+    "industrial effluent",
+    "refinery effluent",
+    "reuse"
+  ],
+  "maturity": "commercial",
+  "principle": "Refinery and petrochemical sites segregate clean and contaminated stormwater. IPIECA: contaminated stormwater must be collected separately and stored until it can be treated in the wastewater treatment plant; the first-flush volume — the first one to two inches of rain — is captured in a tank or basin and discharged to wastewater treatment at a controlled rate.",
+  "process_steps": [
+    {
+      "id": "DIV",
+      "name": "First-flush diversion",
+      "equipment": [
+        "diversion weir or valve",
+        "rain gauges"
+      ]
+    },
+    {
+      "id": "STORE",
+      "name": "Stormwater storage",
+      "equipment": [
+        "stormwater tank or basin"
+      ],
+      "to": [
+        "TREAT"
+      ]
+    },
+    {
+      "id": "TREAT",
+      "name": "Controlled treatment feed",
+      "equipment": [
+        "pumps to the ETP at a controlled rate"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "diversion structure",
+    "stormwater basin or tank",
+    "transfer pumps"
+  ],
+  "performance": [
+    {
+      "metric": "first-flush capture depth",
+      "unit": "mm",
+      "low": 25,
+      "high": 50,
+      "basis": "the first one to two inches of rain captured (IPIECA)",
+      "source": {
+        "url": "https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf",
+        "source_id": "ipieca",
+        "note": "IPIECA Refining Water Best Practices (mirrored PDF), read 2026-11-18"
+      }
+    }
+  ],
+  "suppliers": [],
+  "sources": [
+    {
+      "url": "https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf",
+      "source_id": "ipieca",
+      "note": "IPIECA Refining Water Best Practices (mirrored PDF), read 2026-11-18"
+    }
+  ],
+  "advantages": [
+    "Keeps hydrocarbon-contaminated runoff out of untreated discharge",
+    "Uses existing ETP capacity instead of a dedicated plant"
+  ],
+  "limitations": [
+    "Basin sizing is site- and rainfall-specific",
+    "Beyond first flush, flows may bypass treatment — site water-balance discipline required"
+  ],
+  "last_reviewed": "2026-11-18",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "cost per hectare of contaminated-stormwater capture, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Site-specific civil scope; no open cost source. Checked 2026-11-18.",
+      "where": [
+        {
+          "hint": "Refinery project cost disclosures",
+          "access": "open"
+        }
+      ],
+      "action": "Record when a sourced figure appears."
+    }
+  ]
+}

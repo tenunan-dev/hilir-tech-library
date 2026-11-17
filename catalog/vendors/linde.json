@@ -9,7 +9,8 @@
   "description": "Global industrial-gas and engineering group: hydrogen supply, compression, refuelling and cryogenic infrastructure.",
   "technologies": [
     "h2-compressed-storage-tube-trailers",
-    "h2-refuelling-stations"
+    "h2-refuelling-stations",
+    "wwt-spent-caustic-treatment"
   ],
   "url": "https://www.linde.com",
   "sources": [
@@ -18,8 +19,9 @@
       "note": "Vendor site, read 2026-10-28"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-18",
   "categories": [
     "materials-supplier"
-  ]
+  ],
+  "notes": "WAO for spent caustic added 2026-11-18 from the Linde WAO page."
 }

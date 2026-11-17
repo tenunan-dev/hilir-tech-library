@@ -454,7 +454,11 @@ WWT:
     - Dissolved air flotation (DAF) | C | Veolia, FRC, Nijhuis/Desotec, Evoqua
     - Coagulation-flocculation and chemical precipitation | C | Veolia, Chemtrade, Kemira (chemicals)
     - Lamella and high-rate clarifiers | C | Veolia, WesTech, Evoqua
-    - Produced-water treatment (oil and gas fields) | C | Siemens/SLB produced-water, Frames, CETCO
+  Industrial effluent treatment (ETS) — collection to discharge:
+    - API and CPI oily-water separators | C | WesTech, Monroe Environmental, Panam
+    - Spent caustic treatment (wet air oxidation) | C | Linde, Evoqua (Zimpro legacy)
+    - Effluent equalisation and surge management | C | EPC standard practice (IPIECA)
+    - Contaminated stormwater collection and diversion | C | IPIECA practice
   Biological treatment:
     - Conventional activated sludge | C | Municipal EPCs (AECOM, Black & Veatch), Nijhuis
     - Sequencing batch reactor (SBR) | C | Veolia, Aqua-Aerobic, EnviroSim associates (simulators)

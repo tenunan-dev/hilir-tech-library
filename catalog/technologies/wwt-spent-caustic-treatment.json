@@ -1,0 +1,179 @@
+{
+  "id": "wwt-spent-caustic-treatment",
+  "name": "Spent caustic treatment (wet air oxidation)",
+  "aliases": [],
+  "sector": "WWT",
+  "category": "Industrial effluent treatment (ETS)",
+  "applications": [
+    "industrial effluent",
+    "refinery effluent",
+    "reuse"
+  ],
+  "maturity": "commercial",
+  "principle": "Spent caustic from mercaptan removal, ethylene quench and refinery LPG treating carries sulfides, mercaptides, cresylates and naphthenates at high pH. Wet air oxidation (WAO) oxidises these with air at elevated temperature and pressure so the effluent is biologically treatable; IPIECA notes spent caustic should be neutralised or routed to equalisation to protect the API separators. Linde has supplied WAO since 1970; Evoqua carries the Zimpro legacy.",
+  "process_steps": [
+    {
+      "id": "FEED",
+      "name": "Spent caustic feed and analysis",
+      "equipment": [
+        "spent-caustic storage",
+        "feed pumps"
+      ]
+    },
+    {
+      "id": "WAO",
+      "name": "Wet air oxidation reactor",
+      "equipment": [
+        "WAO reactor",
+        "air compressor",
+        "feed/effluent heat exchanger"
+      ],
+      "to": [
+        "COOL"
+      ]
+    },
+    {
+      "id": "COOL",
+      "name": "Heat recovery and let-down",
+      "equipment": [
+        "heat exchangers",
+        "pressure let-down valves",
+        "separator"
+      ],
+      "to": [
+        "OUT",
+        "OFFGAS"
+      ]
+    },
+    {
+      "id": "OUT",
+      "name": "Treated caustic out",
+      "equipment": [
+        "neutralisation",
+        "to equalisation or biological treatment"
+      ]
+    },
+    {
+      "id": "OFFGAS",
+      "name": "Vent gas handling",
+      "equipment": [
+        "off-gas scrubber"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "WAO reactor",
+    "air compressor",
+    "feed/effluent heat exchanger",
+    "off-gas scrubber"
+  ],
+  "performance": [
+    {
+      "metric": "sulfide destruction",
+      "unit": "%",
+      "low": 99.9,
+      "high": 99.9,
+      "basis": "8,500 mg/L as S reduced to below 1 mg/L (Siemens/Zimpro paper)",
+      "source": {
+        "url": "https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf",
+        "note": "Siemens/Zimpro WAO paper (Forbess, Kumfer, Olsen), read 2026-11-18"
+      }
+    },
+    {
+      "metric": "sulfidic COD destruction",
+      "unit": "%",
+      "low": 84,
+      "high": 99.5,
+      "basis": "Siemens/Zimpro WAO table spans 84% to more than 99.5% across cases",
+      "source": {
+        "url": "https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf",
+        "note": "Siemens/Zimpro WAO paper (Forbess, Kumfer, Olsen), read 2026-11-18"
+      }
+    },
+    {
+      "metric": "operating temperature window",
+      "unit": "°C",
+      "low": 130,
+      "high": 260,
+      "basis": "WAO range 150-320 C overall; sulfidic caustic 130-200 C, cresylic 200-260 C, naphthenic 240-260 C",
+      "source": {
+        "url": "https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf",
+        "note": "Siemens/Zimpro WAO paper (Forbess, Kumfer, Olsen), read 2026-11-18"
+      }
+    },
+    {
+      "metric": "operating pressure window",
+      "unit": "barg",
+      "low": 7,
+      "high": 86,
+      "basis": "sulfidic caustic 7-27.5 barg; cresylic 27.5-86 barg; naphthenic 55-86 barg",
+      "source": {
+        "url": "https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf",
+        "note": "Siemens/Zimpro WAO paper (Forbess, Kumfer, Olsen), read 2026-11-18"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Linde",
+      "product": "Linde WAO for spent caustic"
+    },
+    {
+      "name": "Evoqua",
+      "product": "Zimpro wet air oxidation (legacy)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf",
+      "source_id": "ipieca",
+      "note": "IPIECA Refining Water Best Practices (mirrored PDF), read 2026-11-18"
+    },
+    {
+      "url": "https://kh.aquaenergyexpo.com/wp-content/uploads/2023/02/Wet-Air-Oxidation-Treatment-of-Spent-Caustic-in-Ethylene-Plants-and-Petroleum-Refineries.pdf",
+      "note": "Siemens/Zimpro WAO paper (Forbess, Kumfer, Olsen), read 2026-11-18"
+    },
+    {
+      "url": "https://www.linde-engineering.com/products-and-services/process-plants/petrochemical-technologies/wet-air-oxidation",
+      "note": "Linde WAO page, read 2026-11-18"
+    }
+  ],
+  "advantages": [
+    "Destroys sulfide to biological-treatability levels instead of mere dilution",
+    "Handles sulfidic, cresylic and naphthenic caustics in one technology family",
+    "Recovers heat through feed/effluent exchange"
+  ],
+  "limitations": [
+    "High temperature and pressure class — special materials and pressure discipline",
+    "No open cost figure found; licensor-quoted"
+  ],
+  "last_reviewed": "2026-11-18",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost of a spent-caustic WAO unit, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Licensor-quoted only; no open source found. Checked 2026-11-18.",
+      "where": [
+        {
+          "hint": "Licensor budgetary studies; paid cost databases are catalog-only",
+          "access": "paid"
+        }
+      ],
+      "action": "Record when a sourced figure appears."
+    },
+    {
+      "field": "suppliers",
+      "item": "confirm other WAO licensors (e.g. Siirtec Nigi) with a page",
+      "reason_code": "source_unreachable",
+      "reason": "Named in secondary discussion but no readable page this pass.",
+      "where": [
+        {
+          "hint": "Siirtec Nigi spent caustic page (fetch blocked 2026-11-18)",
+          "access": "blocked"
+        }
+      ],
+      "action": "Add when a page is reachable."
+    }
+  ]
+}

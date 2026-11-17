@@ -63,6 +63,14 @@
       "name": "SLB",
       "product": "produced water systems",
       "source_id": "slb"
+    },
+    {
+      "name": "Frames Group",
+      "product": "produced-water packages"
+    },
+    {
+      "name": "CETCO",
+      "product": "CROSFLOW produced-water membranes"
     }
   ],
   "performance": [
@@ -89,6 +97,17 @@
         "url": "https://oap.ospar.org/media/filer_public/54/79/54796902-37e5-4166-816c-5177bf65b584/p00634e_offshore_discharges_report_2012.pdf",
         "note": "OSPAR Commission, Offshore Industry Series: report on discharges, spills and emissions from offshore oil and gas installations (read 2026-10-28)"
       }
+    },
+    {
+      "metric": "oil-in-water after treatment",
+      "unit": "mg/L",
+      "low": 10,
+      "high": 30,
+      "basis": "typical discharge compliance range",
+      "source": {
+        "url": "https://www.frames-group.com/",
+        "note": "published produced-water practice, read 2026-11-13"
+      }
     }
   ],
   "advantages": [
@@ -101,9 +120,14 @@
     {
       "url": "https://en.wikipedia.org/wiki/Produced_water",
       "note": "Wikipedia: Produced water — process-description cross-check 2026-10-28 (secondary source)"
+    },
+    {
+      "source_id": "veolia",
+      "url": "https://www.veoliawatertech.com/",
+      "note": "produced-water portfolio context, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-18",
   "gaps": [
     {
       "field": "costs",
@@ -154,6 +178,47 @@
         }
       ],
       "action": "Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card."
+    },
+    {
+      "field": "costs",
+      "item": "capital cost per m3/d for a CPI/IGF plus hydrocyclone de-oiling train, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "The 2015 Antero figure is recorded but its scope is evaporation/crystallisation ZLD, not de-oiling. No loaded source prices the simpler train as a unit cost; searched 2026-11-16.",
+      "where": [
+        {
+          "hint": "Global Water Intelligence cost benchmarks",
+          "url": "https://www.globalwaterintel.com/"
+        }
+      ],
+      "action": "Leave open until a source states this exact metric and scope."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (already searched, 634 rows)",
+          "access": "open"
+        },
+        {
+          "hint": "Sector regulator or industry body publishing a TRL for this class",
+          "access": "open"
+        }
+      ],
+      "action": "Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity."
     }
-  ]
+  ],
+  "reference_plants": [
+    {
+      "name": "Pengerang Integrated Complex effluent systems",
+      "project_id": "pengerang-integrated-complex-effluent",
+      "source": {
+        "url": "https://www.petronas.com/",
+        "note": "project page, read 2026-11-13"
+      }
+    }
+  ],
+  "notes": "Merged with the former WWT-sector produced-water card (2026-11-18): produced-water treatment is recorded once, in upstream facilities, and serves as the produced-water instance of the WWT/ETS industrial-effluent layer."
 }

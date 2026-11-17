@@ -1,0 +1,224 @@
+{
+  "id": "wwt-api-cpi-separators",
+  "name": "API and CPI oily-water separators",
+  "aliases": [],
+  "sector": "WWT",
+  "category": "Industrial effluent treatment (ETS)",
+  "applications": [
+    "industrial effluent",
+    "refinery effluent",
+    "reuse"
+  ],
+  "maturity": "commercial",
+  "principle": "First step of a refinery effluent train: free (non-emulsified) oil floats under gravity in a long, baffled API-type basin designed to API 421, or coalesces on tilted corrugated plates (CPI/PPI), which pack the same duty into a smaller footprint. Skimmed oil is recovered; the oily water continues to flotation (DAF/IGF) and then biological treatment. IPIECA's refinery train: API separator, then DAF or IAF, then equalisation and biological treatment.",
+  "process_steps": [
+    {
+      "id": "IN",
+      "name": "Inlet distribution",
+      "equipment": [
+        "inlet weir and distribution baffle"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "Gravity separation / plate coalescence",
+      "equipment": [
+        "API basin with slotted-pipe skimmers",
+        "CPI/PPI plate pack"
+      ],
+      "to": [
+        "OUT",
+        "OIL",
+        "SLG"
+      ],
+      "streams": {
+        "OUT": "oily water to flotation",
+        "OIL": "recovered oil",
+        "SLG": "separator bottom sludge"
+      }
+    },
+    {
+      "id": "OUT",
+      "name": "Oily water out",
+      "equipment": [
+        "underflow weir"
+      ],
+      "to": [
+        "DAF"
+      ]
+    },
+    {
+      "id": "OIL",
+      "name": "Recovered oil",
+      "equipment": [
+        "skim pipe",
+        "oil sump"
+      ]
+    },
+    {
+      "id": "SLG",
+      "name": "Bottom sludge",
+      "equipment": [
+        "sludge rake and pump"
+      ]
+    },
+    {
+      "id": "DAF",
+      "name": "To flotation polishing",
+      "equipment": [
+        "DAF or IGF unit"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "API basin",
+    "CPI plate pack",
+    "slotted-pipe oil skimmer",
+    "sludge rake"
+  ],
+  "performance": [
+    {
+      "metric": "free-oil droplet removal threshold, API separator",
+      "unit": "micron",
+      "low": 150,
+      "high": 150,
+      "basis": "API 421: traditional separators remove only down to about 150-micron droplets under ideal conditions",
+      "source": {
+        "url": "https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421",
+        "note": "API 421 implications summary, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "design effluent free-oil concentration",
+      "unit": "mg/L",
+      "low": 0,
+      "high": 100,
+      "basis": "designed to produce an effluent of 100 mg/L or less of oil droplets 150 micron and larger, non-emulsified free oil",
+      "source": {
+        "url": "https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf",
+        "note": "Panam Environmental API separator design note, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "typical API separator effluent oil",
+      "unit": "mg/L",
+      "low": 50,
+      "high": 200,
+      "basis": "typical effluent oil concentrations",
+      "source": {
+        "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+        "note": "Baldwin refinery effluent design note, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "CPI removable droplet size",
+      "unit": "micron",
+      "low": 40,
+      "high": 60,
+      "basis": "coalescing plate separators down to approximately 60 micron, 40 micron in enhanced designs",
+      "source": {
+        "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+        "note": "Baldwin refinery effluent design note, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "design residence time",
+      "unit": "min",
+      "low": 45,
+      "high": 45,
+      "basis": "45-minute design residence time",
+      "source": {
+        "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+        "note": "Baldwin refinery effluent design note, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "horizontal velocity cap",
+      "unit": "m/s",
+      "low": 0.015,
+      "high": 0.015,
+      "basis": "horizontal velocity capped at 0.015 m/s; minimum length-to-width ratio 5:1",
+      "source": {
+        "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+        "note": "Baldwin refinery effluent design note, read 2026-11-18"
+      }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "WesTech",
+      "product": "API 421 oil/water separators"
+    },
+    {
+      "name": "Monroe Environmental",
+      "product": "API separators",
+      "url": "https://www.monroeenvironmental.com/water-and-wastewater-treatment/api-separators"
+    },
+    {
+      "name": "Panam Environmental",
+      "product": "API separator design note",
+      "url": "https://www.panamenv.com/"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf",
+      "source_id": "ipieca",
+      "note": "IPIECA Refining Water Best Practices (mirrored PDF), read 2026-11-18"
+    },
+    {
+      "url": "https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421",
+      "note": "API 421 implications summary, read 2026-11-18"
+    },
+    {
+      "url": "https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf",
+      "note": "Panam Environmental API separator design note, read 2026-11-18"
+    },
+    {
+      "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
+      "note": "Baldwin refinery effluent design note, read 2026-11-18"
+    },
+    {
+      "url": "https://www.westechwater.com/products/oil-water-separator",
+      "note": "WesTech oil/water separator page, read 2026-11-18"
+    }
+  ],
+  "advantages": [
+    "The signature first step of an industrial effluent train; recovers oil as a product",
+    "CPI packs the duty into a smaller footprint than an API basin",
+    "Established design code (API 421)"
+  ],
+  "limitations": [
+    "Removes only free oil — emulsified and soluble organics need flotation and biological treatment",
+    "Separator bottom sludge is a listed hazardous waste in many regimes"
+  ],
+  "last_reviewed": "2026-11-18",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "installed cost per m2 of API/CPI separator, with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "No open source prices the unit; vendor quotes only. Checked 2026-11-18.",
+      "where": [
+        {
+          "hint": "Vendor budgetary quotes; paid cost databases are catalog-only",
+          "access": "paid"
+        }
+      ],
+      "action": "Record when a sourced cost figure appears."
+    },
+    {
+      "field": "trl",
+      "item": "TRL with a cited source",
+      "reason_code": "not_in_sources_read",
+      "reason": "No agency TRL table covers wastewater process units; checked 2026-11-18.",
+      "where": [
+        {
+          "hint": "IEA ETP Clean Energy Technology Guide (already searched)",
+          "access": "open"
+        }
+      ],
+      "action": "Add only when an agency publishes one; do not infer from 'commercial'."
+    }
+  ]
+}

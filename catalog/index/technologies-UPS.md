@@ -31,7 +31,7 @@
 | [Offshore platform electrification (power from shore, offshore wind)](#ups-platform-electrification) | Offshore and subsea | commercial |  | Equinor (Johan Sverdrup and Hywind Tampen); Siemens Energy (power systems); ABB (power systems) |  |
 | [Oil sands mining and froth treatment](#ups-oil-sands-mining) | Unconventional and other resources | commercial |  | Suncor (mining operations); Syncrude (mining operations) |  |
 | [Plunger lift and hydraulic jet pumps](#ups-plunger-hydraulic-lift) | Production and artificial lift | commercial |  | Weatherford (plunger and hydraulic lift); Liberty Lift (hydraulic and plunger lift) |  |
-| [Produced water treatment (hydrocyclones, flotation, membranes)](#ups-produced-water-treatment) | Water and emissions in upstream | commercial |  | Veolia (produced water treatment); Siemens (water treatment); SLB (produced water systems) |  |
+| [Produced water treatment (hydrocyclones, flotation, membranes)](#ups-produced-water-treatment) | Water and emissions in upstream | commercial |  | Veolia (produced water treatment); Siemens (water treatment); SLB (produced water systems); Frames Group (produced-water packages); CETCO (CROSFLOW produced-water membranes) |  |
 | [Production optimisation and digital oilfield](#ups-production-optimisation-digital-oilfield) | Production and artificial lift | commercial |  | SLB (digital platforms); Halliburton (digital platforms); AspenTech (optimisation software); Cognite (data operations) |  |
 | [Reservoir simulation (black oil, compositional, thermal)](#ups-reservoir-simulation) | Exploration and subsurface | commercial |  | SLB (ECLIPSE and INTERSECT); CMG (IMEX, GEM, STARS); Rock Flow Dynamics (tNavigator) |  |
 | [Rod lift and progressing cavity pumps](#ups-rod-lift-pcp) | Production and artificial lift | commercial |  | Weatherford (rod lift and PCP); Dover (rod lift); NOV (PCP) |  |
@@ -904,13 +904,19 @@ flowchart LR
 **Performance:**
 - radium in an Ohio brine sample: 3500 pCi/L (above); NRC discharge limit below 60 pCi/L for Ra-226 and Ra-228. [source](https://en.wikipedia.org/wiki/Produced_water)
 - OSPAR dispersed-oil-in-produced-water discharge performance standard (NE Atlantic offshore): 30 mg oil per litre discharged (average annual performance standard); OSPAR offshore discharges report tables list "installations for which the average annual oil content of the produced water discharged to the sea exceeds the 30 mg/l performance standard"; treatment to below the standard is by hydrocyclones/flotation, for which the sources read state no single efficiency figure. [source](https://oap.ospar.org/media/filer_public/54/79/54796902-37e5-4166-816c-5177bf65b584/p00634e_offshore_discharges_report_2012.pdf)
+- oil-in-water after treatment: 10-30 mg/L; typical discharge compliance range. [source](https://www.frames-group.com/)
+
+**Reference plants:**
+- Pengerang Integrated Complex effluent systems: ; . [source](https://www.petronas.com/)
 
 **Missing inputs:**
 - capital cost and operating or unit cost, with dollar year and basis (costs): No open source read so far gives costs for this technology. Web-checked 2026-10-28; no open techno-economic study found. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, open). Next: Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source.
 - named plants or projects with capacity and year (reference_plants): The sources read name no specific plant. Web-checked 2026-10-28; OSPAR reports aggregate installations, no named treatment plant. Where: Licensor and operator press releases for the suppliers listed (open). Next: Add one or two plants with country, capacity and start-up year.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
+- capital cost per m3/d for a CPI/IGF plus hydrocyclone de-oiling train, with dollar year (costs): The 2015 Antero figure is recorded but its scope is evaporation/crystallisation ZLD, not de-oiling. No loaded source prices the simpler train as a unit cost; searched 2026-11-16. Where: [Global Water Intelligence cost benchmarks](https://www.globalwaterintel.com/). Next: Leave open until a source states this exact metric and scope.
+- TRL with a cited source (trl): The IEA guide covers anaerobic digestion but not municipal wastewater process units; no agency TRL exists for most of them. Checked 2026-11-16. Where: IEA ETP Clean Energy Technology Guide (already searched, 634 rows) (open); Sector regulator or industry body publishing a TRL for this class (open). Next: Add the TRL only when an agency publishes one for this technology; do not infer it from 'commercial' maturity.
 
-Sources: [1](https://en.wikipedia.org/wiki/Produced_water). Last reviewed 2026-10-28.
+Sources: [1](https://en.wikipedia.org/wiki/Produced_water), [2](https://www.veoliawatertech.com/). Last reviewed 2026-11-18.
 
 ## Production optimisation and digital oilfield
 <a id="ups-production-optimisation-digital-oilfield"></a>

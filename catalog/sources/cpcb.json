@@ -1,0 +1,36 @@
+{
+  "id": "cpcb",
+  "name": "Central Pollution Control Board (India) — general standards for discharge",
+  "url": "https://cpcb.nic.in/generalstandards.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "WWT",
+    "REF",
+    "PCH"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "subtopics": [
+    "discharge standards",
+    "effluent norms"
+  ],
+  "publisher_org": "Central Pollution Control Board, India",
+  "country": "IN",
+  "regions": [
+    "apac"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "pdf"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-18",
+  "notes": "CPCB general standards for effluent discharge (pH, oil and grease and other parameters) — the Indian regulatory baseline for ETPs. No explicit licence text seen; summary-only. Evidence: PDF read 2026-11-18.",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}
