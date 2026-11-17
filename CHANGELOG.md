@@ -25,6 +25,10 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 
 - Build 523/388/532/36/299; pytest **1,416 passed, 12 skipped**; Neon reloaded (15,116 chunks, 16,894 vectors).
 
+### Artifacts
+
+- All derived artifacts regenerated after the final content pass: `catalog/*.jsonl` and `catalog/index/*` via `tools/build.py`; `build/library.db` and `build/embed-cache.db` via `agent/library.py build` and `agent/embed.py --incremental` (0 missing); Neon reloaded; `build/public` via `agent/export_public.py` (239 open documents exported, 50 restricted left out); and `build/dataverse/*.csv` via `tools/export_dataverse.py --include-restricted` (388 technologies, 523 sources, 289 documents with text). `build/` is gitignored — the Dataverse CSVs are local outputs for the owner's import, not repository content.
+
 ## [2026.11.17.8] — 2026-11-17 — mining pass: IEA Roadmap, EPA emissions, GCCSI status, market benchmarks
 
 ### Added
