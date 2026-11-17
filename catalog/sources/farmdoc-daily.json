@@ -1,0 +1,35 @@
+{
+  "id": "farmdoc-daily",
+  "name": "farmdoc daily (University of Illinois)",
+  "url": "https://farmdocdaily.illinois.edu/",
+  "source_type": "research-institute",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "anhydrous ammonia prices",
+    "fertilizer economics",
+    "US crop budgets"
+  ],
+  "publisher_org": "University of Illinois Urbana-Champaign",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
+  "update_frequency": "weekly",
+  "content_formats": [
+    "html"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "University of Illinois extension analysis of US fertilizer prices, anhydrous ammonia and crop economics; footer carries a copyright notice and no open reuse licence. Evidence: https://farmdocdaily.illinois.edu/ (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

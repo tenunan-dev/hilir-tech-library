@@ -111,7 +111,7 @@
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
           "source_id": "osti",
-          "access": "blocked"
+          "access": "open"
         },
         {
           "hint": "IEAGHG technical reports (private copy only)",

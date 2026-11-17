@@ -143,6 +143,339 @@
         "source_id": "iea-reports",
         "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, 'Hydrogen-based industrial products - Ammonia (NH3)' table (page 8)"
       }
+    },
+    {
+      "metric": "stoichiometric ammonia consumption per tonne urea",
+      "low": 0.567,
+      "high": 0.567,
+      "unit": "t NH3/t urea",
+      "basis": "stoichiometric quantity for urea synthesis",
+      "source": {
+        "url": "https://www.fertilizerseurope.com/wp-content/uploads/2019/08/Booklet_5_final.pdf",
+        "note": "Fertilizers Europe (EFMA) Best Available Techniques booklet 5, urea, 2000"
+      }
+    },
+    {
+      "metric": "stoichiometric carbon dioxide consumption per tonne urea",
+      "low": 0.733,
+      "high": 0.733,
+      "unit": "t CO2/t urea",
+      "basis": "stoichiometric quantity for urea synthesis",
+      "source": {
+        "url": "https://www.fertilizerseurope.com/wp-content/uploads/2019/08/Booklet_5_final.pdf",
+        "note": "Fertilizers Europe (EFMA) Best Available Techniques booklet 5, urea, 2000"
+      }
+    },
+    {
+      "metric": "steam consumption, urea plant",
+      "low": 570,
+      "high": 800,
+      "unit": "kg/t urea",
+      "basis": "values per tonne of urea product across process and pressure levels (24 to 120 bar)",
+      "source": {
+        "url": "https://www.fertilizerseurope.com/wp-content/uploads/2019/08/Booklet_5_final.pdf",
+        "note": "Fertilizers Europe (EFMA) Best Available Techniques booklet 5, urea, 2000"
+      }
+    },
+    {
+      "metric": "total energy consumption, new natural gas reforming ammonia plant",
+      "low": 29.3,
+      "high": 29.3,
+      "unit": "GJ LHV/t NH3",
+      "basis": "best available technique; new reforming plants should not exceed 29.3 GJ(LHV)/t",
+      "source": {
+        "url": "https://www.fertilizerseurope.com/wp-content/uploads/2019/08/Booklet_1_final.pdf",
+        "note": "Fertilizers Europe (EFMA) Best Available Techniques booklet 1, ammonia, 2000"
+      }
+    },
+    {
+      "metric": "HP steam consumption, Stamicarbon urea process",
+      "low": 566,
+      "high": 566,
+      "unit": "kg/t urea",
+      "basis": "less than 566 kg HP steam per tonne of urea",
+      "source": {
+        "url": "https://www.stamicarbon.com/sites/default/files/2023-10/2023-09-Stami%20Urea%20Launch%20Brochure.pdf",
+        "note": "Stamicarbon urea launch brochure, 2023"
+      }
+    },
+    {
+      "metric": "global ammonia demand",
+      "low": 185,
+      "high": 230,
+      "unit": "Mt NH3/yr",
+      "year": 2021,
+      "basis": "185 Mt in 2020 rising to 230 Mt in 2050 under the IEA sustainable development scenario",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "share of ammonia used for nitrogen fertiliser",
+      "low": 70,
+      "high": 70,
+      "unit": "%",
+      "year": 2021,
+      "basis": "just under 70% of ammonia is used for nitrogen fertiliser applications (2019/2020)",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "share of ammonia demand taken by urea",
+      "low": 55,
+      "high": 55,
+      "unit": "%",
+      "year": 2021,
+      "basis": "urea production accounts for around 55% of ammonia demand (2019)",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "direct CO2 intensity, average ammonia plant",
+      "low": 2.4,
+      "high": 2.4,
+      "unit": "t CO2/t NH3",
+      "year": 2021,
+      "basis": "around 2.4 t CO2 per tonne of ammonia produced, direct emissions",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "direct CO2 intensity by production route (best available technology)",
+      "low": 0.1,
+      "high": 3.2,
+      "unit": "t CO2/t NH3",
+      "year": 2021,
+      "basis": "SMR 1.8; ATR 1.6; coal 3.2; SMR with CCS 0.1; ATR with CCS 0.1; coal with CCS 0.2; electrolysis 0",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021, direct CO2 intensity table"
+      }
+    },
+    {
+      "metric": "energy intensity, average ammonia plant in 2020",
+      "low": 41,
+      "high": 46,
+      "unit": "GJ/t NH3",
+      "year": 2021,
+      "basis": "2020 average 46 GJ gross and 41 GJ net per tonne; best available SMR 32.4 GJ gross and 27.6 GJ net",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "North America ammonia production",
+      "low": 21,
+      "high": 23,
+      "unit": "Mt NH3/yr",
+      "year": 2021,
+      "basis": "around 21 Mt today rising slightly to 23 Mt by 2050 under the sustainable development scenario",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "US nitrogen fertilizer production (national statistic)",
+      "low": 13816258,
+      "high": 13816258,
+      "unit": "t N/yr",
+      "year": 2024,
+      "basis": "FAOSTAT Fertilizers by Nutrient, nutrient nitrogen total, production, imputed flag I",
+      "source": {
+        "url": "https://www.fao.org/faostat/en/#data/RFN",
+        "source_id": "faostat",
+        "note": "FAOSTAT Fertilizers by Nutrient (RFN), 2024 data, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "Canada nitrogen fertilizer production (national statistic)",
+      "low": 3571100,
+      "high": 3571100,
+      "unit": "t N/yr",
+      "year": 2024,
+      "basis": "FAOSTAT Fertilizers by Nutrient, nutrient nitrogen total, production, imputed flag I",
+      "source": {
+        "url": "https://www.fao.org/faostat/en/#data/RFN",
+        "source_id": "faostat",
+        "note": "FAOSTAT Fertilizers by Nutrient (RFN), 2024 data, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "US ammonia imports for consumption",
+      "low": 1.9,
+      "high": 1.9,
+      "unit": "Mt N/yr",
+      "basis": "Imports for consumption of anhydrous ammonia (HS 2814.10.0000), nitrogen content; 2025 estimate",
+      "source": {
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf",
+        "note": "USGS Mineral Commodity Summaries 2026, nitrogen chapter",
+        "source_id": "usgs-mcs-nitrogen"
+      }
+    },
+    {
+      "metric": "US ammonia exports",
+      "low": 1.1,
+      "high": 1.1,
+      "unit": "Mt N/yr",
+      "basis": "Exports of anhydrous ammonia, nitrogen content; 2025 estimate",
+      "source": {
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf",
+        "note": "USGS Mineral Commodity Summaries 2026, nitrogen chapter",
+        "source_id": "usgs-mcs-nitrogen"
+      }
+    },
+    {
+      "metric": "US ammonia net import reliance",
+      "low": 5,
+      "high": 5,
+      "unit": "%",
+      "basis": "Net import reliance as a percentage of apparent consumption; 2025 estimate",
+      "source": {
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf",
+        "note": "USGS Mineral Commodity Summaries 2026, nitrogen chapter (import sources 2021-24: Canada 49%, Trinidad and Tobago 47%)",
+        "source_id": "usgs-mcs-nitrogen"
+      }
+    },
+    {
+      "metric": "US seaborne urea imports",
+      "low": 4.75,
+      "high": 4.75,
+      "unit": "Mt/yr",
+      "basis": "Seaborne imports in the 2025-2026 fertiliser year (July-June), product weight; Argus citing US Census",
+      "source": {
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2844963-us-seaborne-urea-imports-flat-with-prior-year",
+        "note": "Argus Media market news, read 2026-11-17; terms restrict reproduction, summary only"
+      }
+    },
+    {
+      "metric": "Canada ammonia exports to the United States",
+      "low": 0.959,
+      "high": 0.959,
+      "unit": "Mt/yr",
+      "basis": "Canadian exports to the USA in 2019, product weight",
+      "source": {
+        "url": "https://fertilizercanada.ca/economic-impact-report-2020/global-use-and-export",
+        "note": "Fertilizer Canada economic impact report, 2020"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "metric": "ammonia plant capital cost, natural gas reforming",
+      "low": 1390,
+      "high": 2415,
+      "unit": "USD/(t NH3/yr)",
+      "year": 2024,
+      "basis": "installed cost including air separation unit; natural gas reforming",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, ammonia table (page 8)"
+      }
+    },
+    {
+      "metric": "ammonia plant capital cost, natural gas reforming with CCUS",
+      "low": 1640,
+      "high": 2855,
+      "unit": "USD/(t NH3/yr)",
+      "year": 2024,
+      "basis": "installed cost including air separation unit; natural gas reforming with CCUS",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, ammonia table (page 8)"
+      }
+    },
+    {
+      "metric": "ammonia plant capital cost, coal gasification with CCUS",
+      "low": 3190,
+      "high": 5540,
+      "unit": "USD/(t NH3/yr)",
+      "year": 2024,
+      "basis": "installed cost including air separation unit; coal gasification with CCUS",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/15673ab3-a86a-4434-bff4-490bb42d3563/GlobalHydrogenReview2025AssumptionsAnnex.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Global Hydrogen Review 2025 Assumptions Annex, ammonia table (page 8)"
+      }
+    },
+    {
+      "metric": "ammonia production cost, natural gas based",
+      "low": 110,
+      "high": 340,
+      "unit": "USD/t NH3",
+      "basis": "natural gas at USD 2 to 10 per million Btu; IRENA Innovation Outlook: Ammonia 2022 citing Topsøe 2020; dollar year not stated",
+      "source": {
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/May/IRENA_Innovation_Outlook_Ammonia_2022.pdf",
+        "note": "IRENA Innovation Outlook: Ammonia, 2022"
+      }
+    },
+    {
+      "metric": "ammonia plant capex, gas SMR reference plant",
+      "low": 1675,
+      "high": 1675,
+      "unit": "USD million per 875 kt/yr plant",
+      "year": 2021,
+      "basis": "core equipment for the 875 kt/yr reference-scale plant, including EPC; about 1,914 USD per tonne of annual capacity (derived)",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "urea market price benchmark",
+      "low": 420,
+      "high": 420,
+      "unit": "USD/t",
+      "year": 2026,
+      "basis": "prill spot f.o.b. Middle East, October 2026 — market benchmark, not a production cost",
+      "source": {
+        "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf",
+        "source_id": "world-bank-pink-sheet",
+        "note": "World Bank Commodity Markets Pink Sheet, November 2026 edition (October 2026 data)"
+      }
+    },
+    {
+      "metric": "US natural gas price, Henry Hub",
+      "low": 2.96,
+      "high": 2.96,
+      "unit": "USD/mmbtu",
+      "year": 2026,
+      "basis": "Henry Hub spot price, October 2026",
+      "source": {
+        "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf",
+        "source_id": "world-bank-pink-sheet",
+        "note": "World Bank Commodity Markets Pink Sheet, November 2026 edition (October 2026 data)"
+      }
+    },
+    {
+      "metric": "urea plant capital cost",
+      "low": 42.9,
+      "high": 42.9,
+      "unit": "USD million for 460 kt/yr plant",
+      "year": 2024,
+      "basis": "reference urea plant of 460,000 t/yr, about 93 USD per tonne of annual capacity (derived); price year not stated in the source text, 2024 publication underlying the 2025 thesis",
+      "source": {
+        "url": "https://d-nb.info/1377345548/34",
+        "note": "Techno-economic thesis, 2025; urea CAPEX from Khan, Abbas & Dickson, Green Chemistry 2024, 26, 1551"
+      }
     }
   ],
   "reference_plants": [
@@ -165,6 +498,83 @@
         "note": "IFA technical conference paper (Jonckers), urea stripping processes, 2000"
       },
       "project_id": "stamicarbon-n-3-process-geleen"
+    },
+    {
+      "name": "CF Industries Donaldsonville Complex",
+      "country": "US",
+      "capacity": "nearly 8 Mt/yr nitrogen products; six world-scale ammonia plants and five urea plants",
+      "status": "operating",
+      "source": {
+        "url": "https://www.cfindustries.com/whoweare/locations/donaldsonville",
+        "note": "CF Industries Donaldsonville Complex page, read 2026-11-17"
+      },
+      "project_id": "cf-donaldsonville"
+    },
+    {
+      "name": "Nutrien Geismar nitrogen complex",
+      "country": "US",
+      "capacity": "0.6 Mt/yr ammonia; 0.4 Mt/yr urea",
+      "status": "operating",
+      "source": {
+        "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+        "note": "Nutrien 2025 Annual Report, capacity table, read 2026-11-17"
+      },
+      "project_id": "nutrien-geismar"
+    },
+    {
+      "name": "Nutrien Redwater nitrogen complex",
+      "country": "CA",
+      "capacity": "1.0 Mt/yr ammonia; 0.7 Mt/yr urea",
+      "status": "operating",
+      "source": {
+        "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+        "note": "Nutrien 2025 Annual Report, capacity table, read 2026-11-17"
+      },
+      "project_id": "nutrien-redwater"
+    },
+    {
+      "name": "LSB Industries El Dorado nitrogen complex",
+      "country": "US",
+      "capacity": "493,000 t/yr ammonia (1,350 t/d)",
+      "status": "operating",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526076810/lxu-20251231.htm",
+        "note": "LSB Industries 2025 Form 10-K, read 2026-11-17"
+      },
+      "project_id": "lsb-el-dorado"
+    },
+    {
+      "name": "LSB Industries Pryor nitrogen complex",
+      "country": "US",
+      "capacity": "246,000 t/yr ammonia (675 t/d)",
+      "status": "operating",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526076810/lxu-20251231.htm",
+        "note": "LSB Industries 2025 Form 10-K, read 2026-11-17"
+      },
+      "project_id": "lsb-pryor"
+    },
+    {
+      "name": "Koch Fertilizer Enid nitrogen complex",
+      "country": "US",
+      "capacity": "two ammonia plants of 1,700 and 1,900 t/d; urea 4,000 t/d",
+      "status": "operating",
+      "source": {
+        "url": "https://applications.deq.ok.gov/permitspublic/storedpermits/9140.pdf",
+        "note": "Oklahoma DEQ permit 9140, read 2026-11-17"
+      },
+      "project_id": "koch-enid"
+    },
+    {
+      "name": "Beaumont New Ammonia (Woodside), Texas",
+      "country": "US",
+      "capacity": "1.1 Mt/yr ammonia",
+      "status": "operating (first ammonia December 2025)",
+      "source": {
+        "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+        "note": "Woodside Beaumont New Ammonia project page, read 2026-11-17"
+      },
+      "project_id": "woodside-beaumont-new-ammonia"
     }
   ],
   "trl": {
@@ -180,8 +590,8 @@
     "Mature, large-scale technology"
   ],
   "limitations": [
-    "Paper is from 2000; NH3 and CO2 consumption per tonne not in the paper",
-    "Ammonia synthesis energy intensity not covered by the sources read"
+    "Urea stoichiometry and steam figures are from 2000 Best Available Techniques booklets; licensor designs differ by process",
+    "Urea-plant capital cost per tonne of annual capacity has no open source yet"
   ],
   "sources": [
     {
@@ -196,15 +606,63 @@
     {
       "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
       "note": "thyssenkrupp Uhde urea technology brochure, read 2026-11-17"
+    },
+    {
+      "url": "https://www.fertilizerseurope.com/wp-content/uploads/2019/08/Booklet_5_final.pdf",
+      "note": "Fertilizers Europe (EFMA) Best Available Techniques booklet 5, urea, 2000"
+    },
+    {
+      "url": "https://www.fertilizerseurope.com/wp-content/uploads/2019/08/Booklet_1_final.pdf",
+      "note": "Fertilizers Europe (EFMA) Best Available Techniques booklet 1, ammonia, 2000"
+    },
+    {
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/May/IRENA_Innovation_Outlook_Ammonia_2022.pdf",
+      "note": "IRENA Innovation Outlook: Ammonia, 2022"
+    },
+    {
+      "url": "https://www.stamicarbon.com/sites/default/files/2023-10/2023-09-Stami%20Urea%20Launch%20Brochure.pdf",
+      "note": "Stamicarbon urea launch brochure, 2023"
+    },
+    {
+      "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Ammonia Technology Roadmap, 2021"
+    },
+    {
+      "url": "https://www.fao.org/faostat/en/#data/RFN",
+      "source_id": "faostat",
+      "note": "FAOSTAT Fertilizers by Nutrient (RFN), 2024 data, read 2026-11-17"
+    },
+    {
+      "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf",
+      "source_id": "world-bank-pink-sheet",
+      "note": "World Bank Commodity Markets Pink Sheet, November 2026 edition"
+    },
+    {
+      "url": "https://www.epa.gov/system/files/other-files/2024-10/2023_data_summary_spreadsheets.zip",
+      "source_id": "epa-ghgrp",
+      "note": "EPA Greenhouse Gas Reporting Program, 2023 data summary spreadsheets (reported 2023 direct emissions)"
+    },
+    {
+      "url": "https://d-nb.info/1377345548/34",
+      "note": "Techno-economic thesis with a urea-only CAPEX term, 2025"
+    },
+    {
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2844963-us-seaborne-urea-imports-flat-with-prior-year",
+      "note": "Argus Media on US seaborne urea imports, read 2026-11-17 (summary only)"
+    },
+    {
+      "url": "https://fertilizercanada.ca/economic-impact-report-2020/global-use-and-export",
+      "note": "Fertilizer Canada economic impact report, 2020"
     }
   ],
   "last_reviewed": "2026-11-17",
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and operating or unit cost, with dollar year and basis",
+      "item": "independently corroborated urea-plant capital cost with an explicit dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology. Web-checked 2026-10-28; GHR 2025 LCOH/cost context already recorded; ammonia-plant capex figures are vendor/EPC quotes.",
+      "reason": "One open 2025 thesis gives USD 42.9 million for a 460 kt/yr urea plant (about 93 USD/t-yr) but does not state a price year; no independent open second figure was found. Web-checked 2026-11-17.",
       "where": [
         {
           "hint": "arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox)",
@@ -217,7 +675,7 @@
         },
         {
           "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
+          "access": "open",
           "source_id": "osti"
         }
       ],

@@ -1,0 +1,30 @@
+{
+  "id": "cf-industries",
+  "name": "CF Industries",
+  "country": "United States",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Nitrogen fertilizer and industrial-chemicals producer; describes itself as the world's largest producer of ammonia and operates the Donaldsonville, Louisiana complex with six world-scale ammonia plants, five urea plants, four nitric acid plants, three urea ammonium nitrate plants and a diesel exhaust fluid plant.",
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock",
+    "h2-green-blue-ammonia"
+  ],
+  "url": "https://www.cfindustries.com",
+  "sources": [
+    {
+      "url": "https://www.cfindustries.com/who-we-are",
+      "note": "CF Industries 'Who We Are' page (company introduction, 2,700 employees, 2016 capacity expansion, low-carbon ammonia facility), read 2026-11-17"
+    },
+    {
+      "url": "https://www.cfindustries.com/whoweare/locations/donaldsonville",
+      "note": "CF Industries Donaldsonville Complex location page (plant count, nearly 8 million tons of nitrogen products, 1,400 acres), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "Headquarters city is not stated on the pages read; the country is recorded from the US site and plant pages."
+}

@@ -8,6 +8,97 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.17.9] — 2026-11-17 — last four content gaps: urea capex, ASU energy, model lines, NA trade
+
+### Added
+
+- **Urea-plant-only capital cost**: USD 42.9 million for a 460 kt/yr reference urea plant (about USD 93 per t/yr derived), from an open 2025 techno-economic thesis citing Green Chemistry 2024; price year not stated in the source. The costs gap was narrowed to independent corroboration with an explicit dollar year.
+- **ASU specific energy**: 245 kWh per tonne of contained oxygen (>99.5% purity, conventional cryogenic ASU, Linde/IEAGHG 2009) on the `air-separation-unit` equipment record, with the oxygen-vs-nitrogen basis made explicit; the remaining gap is now nitrogen-basis kWh/t N2.
+- **26 per-vendor model lines** across all eight ammonia/urea equipment classes: Topsoe S-200/S-300 and radiant-wall reformer, KBR 105-D converter and KRES, Uhde A30/A20 converter and primary reformer, Linde NOVON/LION/SPECTRA/INSPIRE/LOGO, Air Liquide SIGMA/Yango/APSA, Air Products cryogenic ASU, plus Stamicarbon LAUNCH MELT/pool/prilling/granulation, Toyo ACES21/ACES21-LP/VSCC/spout-fluid, Casale HYPER-U/SPLIT FLOW LOOP/GREEN GRANULATION and Saipem Snamprogetti lines.
+- **North American trade figures** on `pch-ammonia-urea`: US ammonia imports 1.9 Mt N and exports 1.1 Mt N (2025e), 5% net import reliance, Canada 49% / Trinidad 47% of import sources (USGS MCS 2026); US seaborne urea imports 4.75 Mt in FY2025-26 (Argus citing US Census, summary only); Canadian ammonia exports to the US 0.959 Mt (2019, Fertilizer Canada).
+
+### Note
+
+- **UN Comtrade, USITC DataWeb and trade.gov** remain unavailable (licence restriction, JS shell and CAPTCHA respectively); no trade figure was estimated from them.
+
+### Published
+
+- Build 523/388/532/36/299; pytest **1,416 passed, 12 skipped**; Neon reloaded (15,116 chunks, 16,894 vectors).
+
+## [2026.11.17.8] — 2026-11-17 — mining pass: IEA Roadmap, EPA emissions, GCCSI status, market benchmarks
+
+### Added
+
+- **`pch-ammonia-urea` now carries the IEA Ammonia Technology Roadmap figures**: global demand 185 Mt (2020) rising to 230 Mt (2050 SDS); ~70% of ammonia used for nitrogen fertiliser; urea ~55% of ammonia demand; average direct CO2 intensity 2.4 t CO2/t NH3 with a by-route table (SMR 1.8, ATR 1.6, coal 3.2, CCS routes 0.1-0.2, electrolysis 0); 2020 average energy intensity 46 GJ gross / 41 GJ net per t NH3; North America production 21 Mt rising to 23 Mt; gas-SMR reference-plant capex USD 1,675 million for 875 kt/yr (2021).
+- **National market context** on the same card: US nitrogen production 13,816,258 t N (2024) and Canada 3,571,100 t N (2024) from FAOSTAT; urea benchmark USD 420/t (Middle East FOB, October 2026) and US Henry Hub gas USD 2.96/mmbtu from the World Bank Pink Sheet.
+- **`h2-green-blue-ammonia` costs filled**: electrolysis LCOA USD 525-1,170/t NH3 (2021), electrolysis plant capex USD 2,065 million for 875 kt/yr, and the 10-115% near-zero-route cost premium; direct CO2 intensity 0-0.2 t CO2/t NH3 for electrolysis and CCS routes.
+- **EPA GHGRP 2023 reported emissions on six plants**: Donaldsonville 9,475,266 t CO2e; Koch Enid 2,379,962; Nutrien Geismar 1,666,091; LSB El Dorado 1,027,772; LSB Pryor 427,703; Beaumont (OCI site) 723,476 — each with its EPA facility ID and subpart-PP status.
+
+### Changed
+
+- **GCCSI cross-checks recorded in project notes**: Blue Point as "Under Evaluation" in the Nov-2024 report (pre-dating the April 2025 FID), LSB El Dorado as "Lapis Energy El Dorado" (0.45 Mtpa CO2, deep saline), Redwater as "WCS Redwater" (0.3 Mtpa CO2, EOR, operational 2020), and a separate CF Donaldsonville clean-ammonia project distinct from the operating complex.
+
+### Note
+
+- **UN Comtrade yielded no figures**: the public page is a JS shell and the licence prohibits automated downloading, so the trade half remains a recorded gap rather than an estimate.
+
+### Verified
+
+- `tools/build.py`: 523 sources, 388 cards, 532 vendors, 36 equipment, 299 projects; `pytest -q tests`: **1,416 passed, 12 skipped**.
+
+### Published
+
+- Neon reloaded from the local index; SQL verification: `og.source` 523, `og.technology` 388, `og.vendor` 532, `og.equipment` 36, `og.project` 299, `og.chunk` 15,116 (100% vectorised), `og.technology_figure` 1,168, `og.register_entry` 403, `og.node` 4,369, `og.edge` 15,075 (the loader's 13,135 plus `similar_to` edges). All four NA producer records and seven NA project records present. No container rebuild needed for a data change.
+
+## [2026.11.17.7] — 2026-11-17 — fertiliser source layer: eight verified-open sources added, and OSTI unblocked
+
+### Added
+
+- **Eight source records** verified reachable and licence-checked on 2026-11-17: `epa-class-vi` (Class VI CO2 injection permits), `faostat` (FAO fertilizer production/consumption), `un-comtrade` (ammonia/urea trade; licence prohibits automated download, so catalog-only), `world-bank-pink-sheet` (monthly urea and gas prices, CC BY 4.0), `canada-cer` (Canadian energy data), `enhance-energy` (Alberta Carbon Trunk Line operator), `farmdoc-daily` (US anhydrous ammonia and crop economics) and `usda-ers` (fertiliser market and nitrogen-import analysis).
+
+### Changed
+
+- **152 technology cards corrected**: the gap `where` entries that cited OSTI.GOV as `access: blocked` now say `open`, because OSTI returns HTTP 200 and its DOE/NETL reports are reachable. The stale label had propagated from an earlier session.
+
+### Verified
+
+- `tools/build.py`: **523 sources**, 388 cards, 532 vendors, 36 equipment, 299 projects.
+- `pytest -q tests`: **1,416 passed, 12 skipped**; incremental embed **8 embedded, 16,886 reused, 0 missing**.
+
+## [2026.11.17.6] — 2026-11-17 — ammonia/urea: costs, stoichiometry, six US/Canadian plants and eight equipment classes
+
+### Added
+
+- **Five source records** for the fertiliser layer: `ifa` (International Fertilizer Association), `tfi` (The Fertilizer Institute), `aapfco`, `usgs-mcs-nitrogen` (USGS Mineral Commodity Summaries nitrogen chapter, public domain) and `fertilizers-europe` (EFMA successor).
+- **Koch Fertilizer** vendor record (Wichita, Kansas; five US production facilities plus one in Canada; more than 12 Mt/yr distributed).
+- **Six North American plant project records**: `nutrien-geismar` (US; 0.6 Mt/yr ammonia, 0.4 Mt/yr urea), `nutrien-redwater` (Canada; 1.0 Mt/yr ammonia, 0.7 Mt/yr urea, low-carbon ammonia to the Alberta Carbon Trunk Line), `lsb-el-dorado` (US; 493,000 t/yr ammonia plus a 400–500 kt/yr CO2 blue-ammonia CCS project), `lsb-pryor` (US; 246,000 t/yr ammonia), `koch-enid` (US; 1,700 and 1,900 t/d ammonia, 4,000 t/d urea) and `woodside-beaumont-new-ammonia` (US; 1.1 Mt/yr, first ammonia December 2025).
+- **Eight equipment classes** opening the ammonia/urea equipment layer: `ammonia-synthesis-converter`, `steam-reformer`, `air-separation-unit`, `urea-reactor`, `urea-co2-stripper`, `urea-carbamate-condenser`, `urea-prilling-tower` and `urea-fluid-bed-granulator`, each with sourced specification ranges.
+
+### Changed
+
+- **`pch-ammonia-urea` deepened**: urea stoichiometry (0.567 t NH3 and 0.733 t CO2 per t urea), urea steam 570–800 kg/t and Stamicarbon <566 kg HP steam/t; ammonia BAT energy 29.3 GJ LHV/t; ammonia-plant capex 1,390–2,415 USD/(t NH3/yr) for gas reforming, 1,640–2,855 with CCUS and 3,190–5,540 for coal with CCUS (2024); gas-based ammonia production cost 110–340 USD/t (dollar year not stated). The card now carries **seven North American reference plants** instead of none. The costs gap was narrowed to the urea-plant-only capital cost, which remains unrecorded.
+
+### Verified
+
+- `tools/build.py`: 515 sources, 388 cards, 532 vendors, 36 equipment, 299 projects.
+- `pytest -q tests`: **1,416 passed, 12 skipped** after `agent/library.py build` and an incremental embed pass (35 embedded, 16,851 reused, 0 missing).
+
+## [2026.11.17.5] — 2026-11-17 — ammonia/urea: North American producers and the two US plants filled in
+
+### Added
+
+- **Three North American nitrogen-producer vendor records**: `cf-industries` (world's largest ammonia producer; Donaldsonville complex with six ammonia and five urea plants, nearly 8 Mt/yr nitrogen products), `nutrien` (more than 7 Mt/yr gross ammonia nameplate across 11 nitrogen facilities in Canada and the US plus Trinidad) and `lsb-industries` (Oklahoma City; El Dorado, Cherokee and Pryor plants; blue-ammonia and El Dorado CCS programmes). Each is an operator record with cited sources.
+- **North American reference plants on two cards**: CF Industries Donaldsonville on `pch-ammonia-urea` and the Blue Point Complex (Louisiana) on `h2-green-blue-ammonia` — the first US entries on those cards.
+
+### Changed
+
+- **`cf-donaldsonville` project enriched** with location, a nearly 8 Mt/yr nitrogen-products capacity, the CF Industries owner link, and `pch-ammonia-urea` in its technologies.
+- **`blue-point-complex-cf-industries-jera-mitsui-jv-louisiana` project enriched** with structured 1.4 Mt/yr ammonia and 2 Mt/yr CO2 capacities, the USD 4 billion capex with dollar year 2025, an April 2025 FID milestone and the CF 40% / JERA 35% / Mitsui 25% ownership split, all from the IEA GHR 2025 source already on the record.
+
+### Note
+
+- Remaining NA gaps: Koch Fertilizer, OCI and Ascend producer records (Koch's site is JavaScript-only, OCI returned 508 and Saipem/Maire are captcha- or block-gated on 2026-11-17), additional US plants as project records, and the ammonia/urea equipment classes.
+
 ## [2026.11.17.4] — 2026-11-17 — MCP surface widened to 24 tools, with an agent routing guide
 
 ### Added

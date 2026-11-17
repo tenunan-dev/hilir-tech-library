@@ -166,7 +166,7 @@
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
           "source_id": "osti",
-          "access": "blocked"
+          "access": "open"
         },
         {
           "hint": "NREL techno-economic reports and the NREL/PNNL SAF analyses (private copy only)",

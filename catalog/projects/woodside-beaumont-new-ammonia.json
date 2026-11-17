@@ -1,0 +1,90 @@
+{
+  "id": "woodside-beaumont-new-ammonia",
+  "name": "Beaumont New Ammonia (Woodside), Texas",
+  "project_type": "operating-asset",
+  "sector": "H2",
+  "sector_codes": [
+    "H2",
+    "PCH"
+  ],
+  "country": "US",
+  "location": "Beaumont, Texas",
+  "status": "operating",
+  "description": "1.1 Mt/yr ammonia plant at Beaumont, Texas, which produced first ammonia in December 2025 and came under Woodside's operational control in March 2026 after Woodside acquired OCI's clean-ammonia business; lower-carbon output is targeted for 2027.",
+  "capacities": [
+    {
+      "metric": "ammonia",
+      "value": 1.1,
+      "unit": "Mt/yr",
+      "basis": "nameplate capacity",
+      "source": {
+        "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+        "note": "Woodside Beaumont New Ammonia project page, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "reported direct GHG emissions (EPA GHGRP)",
+      "value": 723476,
+      "unit": "t CO2e/yr",
+      "basis": "reported 2023 direct emissions (metric tons CO2e, AR4 GWP); EPA facility ID 1010636. Reported as OCI Beaumont LLC (Nederland, TX); subparts C and X only, so the new ammonia train was not yet reporting in 2023.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/other-files/2024-10/2023_data_summary_spreadsheets.zip",
+        "source_id": "epa-ghgrp",
+        "note": "EPA GHGRP 2023 data summary spreadsheets, direct point emitters, read 2026-11-17"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "acquisition consideration",
+      "value": 2350,
+      "unit": "USD million",
+      "year": 2024,
+      "basis": "consideration for OCI's clean-ammonia business including the Beaumont plant",
+      "source": {
+        "url": "https://oci-global.com/news-stories/press-releases/oci-global-completes-sale-of-clean-ammonia-to-woodside-2",
+        "note": "OCI Global press release on completion of the clean-ammonia sale to Woodside, read 2026-11-17"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Woodside Energy",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+      "note": "Woodside Beaumont New Ammonia project page (first ammonia December 2025, operational control March 2026, 1.1 Mt/yr, lower-carbon output 2027), read 2026-11-17"
+    },
+    {
+      "url": "https://oci-global.com/news-stories/press-releases/oci-global-completes-sale-of-clean-ammonia-to-woodside-2",
+      "note": "OCI Global press release on completion of the clean-ammonia sale to Woodside (consideration approximately USD 2,350 million), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "milestones": [
+    {
+      "event": "first ammonia",
+      "date": "2025-12",
+      "source": {
+        "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+        "note": "Woodside project page, read 2026-11-17"
+      }
+    },
+    {
+      "event": "Woodside assumed operational control",
+      "date": "2026-03",
+      "source": {
+        "url": "https://www.woodside.com/what-we-do/growth-projects/beaumont-new-ammonia",
+        "note": "Woodside project page, read 2026-11-17"
+      }
+    }
+  ],
+  "notes": "The adjacent Beaumont methanol plant (910,000 t/yr methanol and 340,000 t/yr ammonia) was sold by OCI to Methanex and closed on 27 June 2025; it is not part of this project."
+}

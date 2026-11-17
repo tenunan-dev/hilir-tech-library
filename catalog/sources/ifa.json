@@ -1,0 +1,36 @@
+{
+  "id": "ifa",
+  "name": "International Fertilizer Association (IFA)",
+  "url": "https://www.fertilizer.org/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "fertilizer statistics",
+    "ammonia and urea supply",
+    "technical conference papers"
+  ],
+  "publisher_org": "International Fertilizer Association",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html",
+    "pdf"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "Global fertilizer-industry association; the site and publication library are browsable, many reports are member-only. Footer reads '©IFA 2024'; no open reuse licence seen. Evidence: https://www.fertilizer.org/ (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

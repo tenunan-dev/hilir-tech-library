@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-312 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+325 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -82,6 +82,7 @@
 | [AIChE Spring Meeting and Global Congress on Process Safety](https://www.aiche.org/conferences/aiche-spring-meeting-and-global-congress-on-process-safety) | conference | global | mixed | catalog-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
+| [Association of American Plant Food Control Officials (AAPFCO)](https://www.aapfco.org/) | association | na | mixed | catalog-only |
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Catalysts (MDPI)](https://www.mdpi.com/journal/catalysts) | journal | global | open | full-text-open |
 | [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open |
@@ -146,6 +147,7 @@
 | [CAAFI (Commercial Aviation Alternative Fuels Initiative)](https://www.caafi.org) | association | global | open | full-text-restricted |
 | [Calgon Carbon](https://www.calgoncarbon.com) | oem-supplier | global | open | full-text-restricted |
 | [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-with-attribution |
+| [Canada Energy Regulator — data and analysis](https://www.cer-rec.gc.ca/en/data-analysis/) | agency-data | na | open | summary-only |
 | [Canadian Energy Research Institute (CERI) studies](https://canadacommons.ca/orgs/canadian-energy-research-institute) | research-institute | na | mixed | full-text-restricted |
 | [CanmetENERGY (Natural Resources Canada)](https://natural-resources.canada.ca/science-data/science-research/research-centres/canmetenergy) | research-institute | na | open | full-text-open |
 | [Casale](https://www.casale.ch/) | licensor | global | open | full-text-restricted |
@@ -172,12 +174,16 @@
 | [Energy Conversion and Management](https://www.sciencedirect.com/journal/energy-conversion-and-management) | journal | global | mixed | full-text-restricted (unverified) |
 | [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted |
 | [Environmental Science & Technology](https://pubs.acs.org/journal/esthag) | journal | global | mixed | full-text-restricted (unverified) |
+| [EPA Class VI well information (geologic sequestration of CO2)](https://www.epa.gov/uic/class-vi-wells-used-geologic-sequestration-carbon-dioxide) | agency-data | na | open | full-text-open |
 | [EPA GSG: Petroleum Refineries (LCAR snapshot)](https://19january2021snapshot.epa.gov/sites/static/files/2020-09/documents/5.1_petroleum_refineries.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [ERTC European Refining Technology Conference](https://www.wraconferences.com/) | conference | eu | mixed | catalog-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [European Hydrogen Backbone](https://ehb.eu) | association | eu | open | full-text-restricted |
 | [ExxonMobil Catalysts and Licensing](https://www.exxonmobilchemical.com/en/catalysts-and-licensing) | licensor | global | open | full-text-restricted (unverified) |
+| [FAOSTAT](https://www.fao.org/faostat/en/) | agency-data | global | open | summary-only |
+| [farmdoc daily (University of Illinois)](https://farmdocdaily.illinois.edu/) | research-institute | na | open | summary-only |
+| [Fertilizers Europe (EFMA successor)](https://www.fertilizerseurope.com/) | association | eu | open | summary-only |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Freeport LNG Site Completion Impact Report (2020)](https://freeportlng.com/files/docs/2020-Freeport-LNG-SCIR.PDF) | agency-data | global | open | full-text-restricted |
 | [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open |
@@ -198,6 +204,7 @@
 | [IEA Hydrogen Production and Infrastructure Projects Database](https://www.iea.org/data-and-statistics/data-product/hydrogen-production-and-infrastructure-projects-database) | agency-data | global | free-registration | full-text-restricted |
 | [IEA PVPS (Photovoltaic Power Systems Programme)](https://iea-pvps.org) | research-institute | global | open | full-text-restricted |
 | [Illinois State Geological Survey](https://www.isgs.illinois.edu) | research-institute | na | open | full-text-open |
+| [International Fertilizer Association (IFA)](https://www.fertilizer.org/) | association | global | mixed | summary-only |
 | [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [ITM Power](https://itm-power.com/) | oem-supplier | global, eu | open | summary-only (unverified) |
 | [Johnson Matthey Catalyst Technologies](https://www.honeywell.com/us/en/lp/ct/overview) | licensor | global | open | catalog-only |
@@ -220,6 +227,7 @@
 | [NETL LCA of Greenhouse Gas Emissions for Hydrogen Pathways (2019)](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [Nexant / NexantECA reports](https://www.nexanteca.com/) | research-institute | global | paywalled | catalog-only (unverified) |
 | [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
+| [Nitrogen (Fixed)—Ammonia, Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf) | agency-data | global | open | full-text-open |
 | [Northern Lights JV news pages](https://norlights.com/newsroom/) | agency-data | eu | open | full-text-restricted |
 | [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
 | [Oil & Gas Journal](https://www.ogj.com/) | trade-media | global | mixed | summary-only (unverified) |
@@ -244,19 +252,23 @@
 | [Sunfire](https://www.sunfire.de/en/) | oem-supplier | eu | open | summary-only (unverified) |
 | [Technip Energies](https://www.ten.com/en) | epc-contractor | global | open | summary-only |
 | [The Chemical Engineer (IChemE)](https://www.thechemicalengineer.com) | trade-media | global | mixed | catalog-only |
+| [The Fertilizer Institute (TFI)](https://www.tfi.org/) | association | na | open | summary-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
 | [thyssenkrupp Uhde](https://www.thyssenkrupp-uhde.com/) | licensor | global | open | full-text-restricted |
 | [Topsoe](https://www.topsoe.com/) | licensor | global | open | full-text-restricted |
 | [Torque and Drag Analysis (MSc thesis, Technical University of Crete, 2019)](https://id.scribd.com/document/625547964/Azeez-Mustafa-MSc-2019-1) | research-institute | eu | mixed | full-text-restricted |
+| [UN Comtrade Database](https://comtradeplus.un.org/) | agency-data | global | mixed | catalog-only |
 | [US DOE Alternative Fuels and Feedstocks Office (formerly Bioenergy Technologies Office)](https://www.energy.gov/eere/bioenergy/bioenergy-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US DOE Hydrogen and Fuel Cell Technologies Office](https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US DOE Office of Fossil Energy and Carbon Management](https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management) | agency-data | na, global | open | full-text-open |
+| [USDA Economic Research Service](https://www.ers.usda.gov/) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
 | [Vicat](https://www.vicat.com) | oem-supplier | global | open | full-text-restricted |
 | [W. R. Grace refining catalysts](https://grace.com/) | licensor | global | open | full-text-restricted |
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Wood](https://www.woodplc.com/) | epc-contractor | global | open | full-text-restricted (unverified) |
+| [World Bank Commodity Markets (Pink Sheet)](https://www.worldbank.org/en/research/commodity-markets) | agency-data | global | open | full-text-with-attribution |
 | [World Bank Global Flaring & Methane Reduction (GFMR) Partnership](https://www.worldbank.org/en/programs/gasflaringreduction) | agency-data | global | open | full-text-open |
 | [World Gas Conference (IGU)](https://www.wgc2028.com) | conference | global | mixed | catalog-only |
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
@@ -273,6 +285,7 @@
 | [DuPont Water Solutions](https://www.dupont.com/water.html) | oem-supplier | global | open | summary-only (unverified) |
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
+| [Enhance Energy (Alberta Carbon Trunk Line)](https://www.enhanceenergy.com/) | oem-supplier | na | open | summary-only |
 | [Evoqua Water Technologies](https://www.evoqua.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Flottweg Separation Technology](https://www.flottweg.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Gas Processing News](https://gasprocessingnews.com) | trade-media | global | mixed | catalog-only |

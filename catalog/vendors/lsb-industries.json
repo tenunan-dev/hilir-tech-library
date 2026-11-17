@@ -1,0 +1,29 @@
+{
+  "id": "lsb-industries",
+  "name": "LSB Industries",
+  "country": "United States",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Ammonia and ammonia-related-products manufacturer, formed in 1968 and headquartered in Oklahoma City, Oklahoma, with production at El Dorado, Arkansas, Cherokee, Alabama and Pryor, Oklahoma, and a facility operated for Covestro in Baytown, Texas.",
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock",
+    "h2-green-blue-ammonia"
+  ],
+  "url": "https://www.lsbindustries.com",
+  "sources": [
+    {
+      "url": "https://www.lsbindustries.com/about",
+      "note": "LSB Industries About page (company history, ammonia products, El Dorado, Cherokee and Pryor plants, Covestro Baytown facility, blue-ammonia and El Dorado CCS programmes), read 2026-11-17"
+    },
+    {
+      "url": "https://www.lsbindustries.com/contact",
+      "note": "LSB Industries contact page (corporate office, 3503 NW 63rd Street, Oklahoma City, OK 73116), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17"
+}

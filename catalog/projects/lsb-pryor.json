@@ -1,0 +1,54 @@
+{
+  "id": "lsb-pryor",
+  "name": "LSB Industries Pryor nitrogen complex",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "US",
+  "location": "Pryor, Oklahoma",
+  "status": "operating",
+  "description": "Operating ammonia plant with 246,000 t/yr ammonia capacity (based on 675 tons per day).",
+  "capacities": [
+    {
+      "metric": "ammonia",
+      "value": 246000,
+      "unit": "t/yr",
+      "basis": "based on 675 tons per day",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526076810/lxu-20251231.htm",
+        "note": "LSB Industries 2025 Form 10-K, ammonia capacity table, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "reported direct GHG emissions (EPA GHGRP)",
+      "value": 427703,
+      "unit": "t CO2e/yr",
+      "basis": "reported 2023 direct emissions (metric tons CO2e, AR4 GWP); EPA facility ID 1005867. Facility reports as LSB Chemical L.L.C.; subpart PP present in 2023.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/other-files/2024-10/2023_data_summary_spreadsheets.zip",
+        "source_id": "epa-ghgrp",
+        "note": "EPA GHGRP 2023 data summary spreadsheets, direct point emitters, read 2026-11-17"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "LSB Industries",
+      "vendor_id": "lsb-industries",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526076810/lxu-20251231.htm",
+      "note": "LSB Industries 2025 Form 10-K (ammonia capacity table), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17"
+}

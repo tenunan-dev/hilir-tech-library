@@ -1,0 +1,37 @@
+{
+  "id": "canada-cer",
+  "name": "Canada Energy Regulator — data and analysis",
+  "url": "https://www.cer-rec.gc.ca/en/data-analysis/",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH",
+    "CCS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "Canadian energy data",
+    "CO2 pipelines",
+    "industrial emissions"
+  ],
+  "publisher_org": "Canada Energy Regulator",
+  "country": "CA",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html",
+    "dataset"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "Canadian federal energy regulator data and analysis, including CO2 pipeline and industrial context relevant to Alberta ammonia/CCS. The terms page carried no extractable licence text on the pages read, so default copyright applies. Evidence: https://www.cer-rec.gc.ca/en/data-analysis/ (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

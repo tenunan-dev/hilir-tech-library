@@ -1,0 +1,36 @@
+{
+  "id": "aapfco",
+  "name": "Association of American Plant Food Control Officials (AAPFCO)",
+  "url": "https://www.aapfco.org/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "fertilizer regulation",
+    "uniform state fertilizer bill",
+    "official terms"
+  ],
+  "publisher_org": "Association of American Plant Food Control Officials",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "mixed",
+  "licence": "all-rights-reserved",
+  "reuse_level": "catalog-only",
+  "update_frequency": "annual",
+  "content_formats": [
+    "html",
+    "pdf"
+  ],
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "US state fertilizer-control officials' association; publishes the annual Official Publication (model Uniform State Fertilizer Bill, policy statements, official terms). The index is open but the searchable publication is a paid subscription. Footer reads 'Copyright © AAPFCO. All rights reserved.' Evidence: https://www.aapfco.org/ and /publications.html (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

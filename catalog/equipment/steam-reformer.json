@@ -1,0 +1,128 @@
+{
+  "id": "steam-reformer",
+  "name": "Steam reformer (primary and secondary)",
+  "aliases": [
+    "SMR reformer",
+    "primary reformer",
+    "secondary reformer",
+    "hydrogen reformer"
+  ],
+  "equipment_type": "steam-reformer",
+  "sector": "H2",
+  "sector_codes": [
+    "H2",
+    "PCH",
+    "REF"
+  ],
+  "description": "Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections.",
+  "applications": [
+    "hydrogen and ammonia synthesis gas production",
+    "methanol and refinery hydrogen plants"
+  ],
+  "specifications": [
+    {
+      "metric": "outlet temperature",
+      "unit": "°C",
+      "low": 800,
+      "high": 900,
+      "basis": "optimal SMR operating range at medium pressure",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+      }
+    },
+    {
+      "metric": "operating pressure",
+      "unit": "bar",
+      "low": 20,
+      "high": 30,
+      "basis": "medium-pressure SMR range",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+      }
+    },
+    {
+      "metric": "steam-to-carbon ratio",
+      "unit": "mol/mol",
+      "low": 2.5,
+      "high": 3.0,
+      "basis": "typical S/C values; the NETL design case uses 2.60",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+        "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+      }
+    },
+    {
+      "metric": "secondary reformer outlet temperature",
+      "unit": "°C",
+      "value": 982,
+      "basis": "syngas cooled from the secondary reformer outlet in the NETL design case",
+      "source": {
+        "url": "https://www.osti.gov/servlets/purl/3363286",
+        "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
+      }
+    }
+  ],
+  "vendors": [
+    "topsoe",
+    "kbr",
+    "thyssenkrupp-uhde"
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-smr",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Steam_reforming",
+      "note": "Wikipedia, Steam reforming (read 2026-11-17)"
+    },
+    {
+      "url": "https://www.osti.gov/servlets/purl/3363286",
+      "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/technologies/equipment-and-spare-parts/tubular-radiant-wall-steam-reformer",
+      "note": "Topsoe tubular radiant-wall steam reformer page, read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [
+    {
+      "what": "tube wall temperature and tube-life limits",
+      "why": "no fetched source states the tube wall temperature range",
+      "next_action": "fetch an OEM reformer datasheet or a metallurgy reference that states tube skin temperature"
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "topsoe",
+      "line": "Tubular radiant wall steam reformer",
+      "models": [
+        "radiant wall reformer"
+      ],
+      "range": "more than 250 units designed over 50+ years; low steam-to-carbon, high heat flux, high outlet temperature",
+      "url": "https://www.topsoe.com/solutions/technologies/equipment-and-spare-parts/tubular-radiant-wall-steam-reformer"
+    },
+    {
+      "vendor": "kbr",
+      "line": "KRES (KBR Reforming Exchanger)",
+      "models": [
+        "KRES"
+      ],
+      "range": "installed in parallel with the existing SMR and secondary reformer; up to 130% of SMR capacity",
+      "url": "https://www.kbr.com/en/insights-news/thought-leadership/ammonia-revamp-kbr-response-modern-day-challenges"
+    },
+    {
+      "vendor": "thyssenkrupp-uhde",
+      "line": "uhde primary reformer",
+      "models": [
+        "primary reformer"
+      ],
+      "range": "catalyst tube outlet about 800 C at approximately 45 bar",
+      "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/6cc6d788-4f6c-49f4-adf9-08295b1ee60c/brochure-ammonia_scr.pdf"
+    }
+  ]
+}

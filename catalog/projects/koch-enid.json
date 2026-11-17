@@ -1,0 +1,110 @@
+{
+  "id": "koch-enid",
+  "name": "Koch Fertilizer Enid nitrogen complex",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "country": "US",
+  "location": "Enid, Oklahoma",
+  "status": "operating",
+  "description": "Operating nitrogen complex with two ammonia plants of 1,700 and 1,900 tons per day and a urea plant of 4,000 tons per day; Koch describes a USD 1.3 billion expansion and modernisation from 2014 to 2017 and a further USD 150 million investment in 2021.",
+  "capacities": [
+    {
+      "metric": "ammonia (two plants)",
+      "value": "1,700 and 1,900",
+      "unit": "t/d",
+      "basis": "Plant 1 and Plant 2 permitted capacity",
+      "source": {
+        "url": "https://applications.deq.ok.gov/permitspublic/storedpermits/9140.pdf",
+        "note": "Oklahoma DEQ permit 9140, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "urea",
+      "value": 4000,
+      "unit": "t/d",
+      "basis": "No. 2 Urea Plant permitted capacity, raised from 3,650 t/d",
+      "source": {
+        "url": "https://applications.deq.ok.gov/permitspublic/storedpermits/9140.pdf",
+        "note": "Oklahoma DEQ permit 9140, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "reported direct GHG emissions (EPA GHGRP)",
+      "value": 2379962,
+      "unit": "t CO2e/yr",
+      "basis": "reported 2023 direct emissions (metric tons CO2e, AR4 GWP); EPA facility ID 1002407. Subpart PP present in 2023.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/other-files/2024-10/2023_data_summary_spreadsheets.zip",
+        "source_id": "epa-ghgrp",
+        "note": "EPA GHGRP 2023 data summary spreadsheets, direct point emitters, read 2026-11-17"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "expansion and modernisation",
+      "value": 1.3,
+      "unit": "USD billion",
+      "year": 2017,
+      "basis": "works carried out 2014-2017",
+      "source": {
+        "url": "https://applications.deq.ok.gov/permitspublic/storedpermits/9140.pdf",
+        "note": "Oklahoma DEQ permit 9140, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "further expansion",
+      "value": 150,
+      "unit": "USD million",
+      "year": 2021,
+      "basis": "announced investment to raise ammonia upgrade output",
+      "source": {
+        "url": "https://kochfertilizer.com/newsroom/kf-to-invest-150m-in-enid-expansion",
+        "note": "Koch Fertilizer newsroom, read 2026-11-17"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Koch Fertilizer",
+      "vendor_id": "koch-fertilizer",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock"
+  ],
+  "sources": [
+    {
+      "url": "https://applications.deq.ok.gov/permitspublic/storedpermits/9140.pdf",
+      "note": "Oklahoma DEQ permit 9140 (ammonia and urea plant capacities, USD 1.3 billion expansion), read 2026-11-17"
+    },
+    {
+      "url": "https://kochfertilizer.com/newsroom/kf-to-invest-150m-in-enid-expansion",
+      "note": "Koch Fertilizer newsroom on the approximately USD 150 million Enid expansion (2021), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "milestones": [
+    {
+      "event": "expansion and modernisation completed",
+      "date": "2017",
+      "source": {
+        "url": "https://applications.deq.ok.gov/permitspublic/storedpermits/9140.pdf",
+        "note": "Oklahoma DEQ permit 9140, read 2026-11-17"
+      }
+    },
+    {
+      "event": "further expansion announced",
+      "date": "2021",
+      "source": {
+        "url": "https://kochfertilizer.com/newsroom/kf-to-invest-150m-in-enid-expansion",
+        "note": "Koch Fertilizer newsroom, read 2026-11-17"
+      }
+    }
+  ]
+}

@@ -162,7 +162,7 @@
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
           "source_id": "osti",
-          "access": "blocked"
+          "access": "open"
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."

@@ -194,7 +194,7 @@
         },
         {
           "hint": "OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic'",
-          "access": "blocked",
+          "access": "open",
           "source_id": "osti"
         }
       ],

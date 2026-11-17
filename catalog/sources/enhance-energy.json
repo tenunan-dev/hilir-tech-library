@@ -1,0 +1,36 @@
+{
+  "id": "enhance-energy",
+  "name": "Enhance Energy (Alberta Carbon Trunk Line)",
+  "url": "https://www.enhanceenergy.com/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "CCS",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "CO2 trunk line",
+    "carbon capture and storage",
+    "Alberta industrial CCS"
+  ],
+  "publisher_org": "Enhance Energy",
+  "country": "CA",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html"
+  ],
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "Operator of the Alberta Carbon Trunk Line, the CO2 pipeline that carries captured CO2 from the Redwater area; company site, no open reuse licence. Evidence: https://www.enhanceenergy.com/ (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

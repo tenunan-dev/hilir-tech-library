@@ -1,0 +1,120 @@
+{
+  "id": "urea-fluid-bed-granulator",
+  "name": "Urea fluid-bed granulator",
+  "aliases": [
+    "fluidised-bed granulator",
+    "UFT granulator",
+    "urea granulation"
+  ],
+  "equipment_type": "granulator",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "description": "Fluid-bed unit that builds urea granules from sprayed melt onto seed particles, with internal recycling and classification to hold a target granule size. Granules are larger and harder than prills, which suits bulk blending and reduces caking.",
+  "applications": [
+    "urea finishing to granular product"
+  ],
+  "specifications": [
+    {
+      "metric": "granulation unit capacity",
+      "unit": "t/d",
+      "value": 3600,
+      "basis": "SAFCO IV granulation unit; more than 20 plants have capacities of 3,000 t/d or more",
+      "source": {
+        "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
+        "note": "thyssenkrupp Uhde urea technology brochure, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "granule size",
+      "unit": "mm",
+      "low": 2,
+      "high": 8,
+      "basis": "product sizes produced in one plant",
+      "source": {
+        "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
+        "note": "thyssenkrupp Uhde urea technology brochure, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "recycle ratio",
+      "unit": "ratio",
+      "value": 0.5,
+      "basis": "recycle to product in a TEC fluid-bed granulator",
+      "source": {
+        "url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf",
+        "note": "Su, Analysis of particle growth in a TEC fluid-bed granulator, 2015, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "bed temperature",
+      "unit": "°C",
+      "low": 110,
+      "high": 119,
+      "basis": "fluid-bed granulator bed temperature in the cited study",
+      "source": {
+        "url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf",
+        "note": "Su, Analysis of particle growth in a TEC fluid-bed granulator, 2015, read 2026-11-17"
+      }
+    }
+  ],
+  "vendors": [
+    "thyssenkrupp-uhde",
+    "stamicarbon",
+    "toyo",
+    "casale"
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
+      "note": "thyssenkrupp Uhde urea technology brochure (capacity and granule size), read 2026-11-17"
+    },
+    {
+      "url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf",
+      "note": "Su, Analysis of particle growth in a TEC fluid-bed granulator, 2015 (recycle ratio and bed temperature), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "vendor_models": [
+    {
+      "vendor": "thyssenkrupp-uhde",
+      "line": "UFT Fluid Bed Granulation",
+      "models": [
+        "UFT"
+      ],
+      "range": "2-8 mm product sizes from one plant; more than 20 plants at 3,000 mt/d or more",
+      "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf"
+    },
+    {
+      "vendor": "toyo",
+      "line": "Spout-Fluid Bed Granulation",
+      "models": [
+        "spout-fluid bed"
+      ],
+      "range": "scaled from 50 to 3,250 MTPD; designed to 4,500 MTPD",
+      "url": "https://www.toyo-eng.com/jp/en/products/petrochmical/urea/technical_paper/pdf/2007_The_TOYO_Urea_Granulation_Technology.pdf"
+    },
+    {
+      "vendor": "stamicarbon",
+      "line": "Fluid-bed granulation technology",
+      "models": [
+        "fluid-bed granulation"
+      ],
+      "range": "98.5 wt.% melt; up to 0.3 wt.% formaldehyde; on-stream time more than 150 days",
+      "url": "https://www.stamicarbon.com/sites/default/files/2023-10/2023-09-Stami%20Urea%20Launch%20Brochure.pdf"
+    },
+    {
+      "vendor": "casale",
+      "line": "GREEN GRANULATION",
+      "models": [
+        "GREEN GRANULATION"
+      ],
+      "range": "feed concentration can be as low as 96-97%",
+      "url": "https://casale.ch/wp-content/uploads/2025/11/Casale_UREA_GREEN-GRANULATION.pdf"
+    }
+  ]
+}

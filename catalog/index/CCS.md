@@ -1,6 +1,6 @@
 # CCS: CCUS
 
-163 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
+166 sources. Sub-topics: capture, co2-transport, storage-mrv, utilisation, direct-air-capture.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -94,6 +94,7 @@
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
 | [BASF OASE gas treatment](https://energy-resources.basf.com/global/en/gas-treatment) | licensor | global | open | full-text-restricted |
 | [Calgon Carbon](https://www.calgoncarbon.com) | oem-supplier | global | open | full-text-restricted |
+| [Canada Energy Regulator — data and analysis](https://www.cer-rec.gc.ca/en/data-analysis/) | agency-data | na | open | summary-only |
 | [CCSI Toolset (Carbon Capture Simulation for Industry Impact)](https://github.com/CCSI-Toolset) | research-institute | global | open | full-text-open |
 | [ccsknowledge.com (public CCS studies)](https://ccsknowledge.com) | research-institute | global | open | full-text-with-attribution |
 | [Chart Industries](https://www.chartindustries.com/) | oem-supplier | global | open | full-text-restricted |
@@ -105,6 +106,7 @@
 | [Energy Conversion and Management](https://www.sciencedirect.com/journal/energy-conversion-and-management) | journal | global | mixed | full-text-restricted (unverified) |
 | [Eni corporate actions pages](https://www.eni.com) | agency-data | global | open | full-text-restricted |
 | [Environmental Science & Technology](https://pubs.acs.org/journal/esthag) | journal | global | mixed | full-text-restricted (unverified) |
+| [EPA Class VI well information (geologic sequestration of CO2)](https://www.epa.gov/uic/class-vi-wells-used-geologic-sequestration-carbon-dioxide) | agency-data | na | open | full-text-open |
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [Fluor](https://www.fluor.com/) | epc-contractor | global | open | summary-only (unverified) |
@@ -162,6 +164,7 @@
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
 | [Carbon Herald](https://carbonherald.com/) | trade-media | global | open | summary-only (unverified) |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
+| [Enhance Energy (Alberta Carbon Trunk Line)](https://www.enhanceenergy.com/) | oem-supplier | na | open | summary-only |
 | [IOP+ (Dutch industry news)](https://ioplus.nl) | trade-media | eu | open | catalog-only |
 | [POWER Magazine](https://www.powermag.com) | trade-media | global | mixed | catalog-only |
 | [renewable-carbon.eu (nova-Institute news)](https://renewable-carbon.eu) | trade-media | eu, global | open | catalog-only |

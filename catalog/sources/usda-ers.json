@@ -1,0 +1,37 @@
+{
+  "id": "usda-ers",
+  "name": "USDA Economic Research Service",
+  "url": "https://www.ers.usda.gov/",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "fertilizer market",
+    "nitrogen imports",
+    "farm input prices"
+  ],
+  "publisher_org": "U.S. Department of Agriculture, Economic Research Service",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html",
+    "pdf",
+    "dataset"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "USDA ERS analysis of fertiliser markets and farm input prices (for example the Amber Waves article on the global fertiliser market after Russia's invasion of Ukraine, and the earlier analysis of US nitrogen and potash imports). USDA is a US federal agency; ERS pages carry no separate licence statement. Evidence: https://www.ers.usda.gov/ (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "any"
+}

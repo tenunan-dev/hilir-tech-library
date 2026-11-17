@@ -7,10 +7,63 @@
     "H2"
   ],
   "country": "US",
+  "location": "Louisiana",
   "status": "FID",
-  "description": "1.4 Mtpa low-emissions ammonia via autothermal reforming; about 2 Mtpa CO2 captured (about 95% of plant emissions)",
+  "description": "1.4 Mtpa low-emissions ammonia via autothermal reforming; about 2 Mtpa CO2 captured (about 95% of plant emissions).",
+  "capacities": [
+    {
+      "metric": "ammonia production",
+      "value": 1.4,
+      "unit": "Mt/yr",
+      "basis": "low-emissions ammonia",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "note": "IEA Global Hydrogen Review 2025: Chapter 3 FID detail (page 114); Chapter 5 (page 169)"
+      }
+    },
+    {
+      "metric": "CO2 captured",
+      "value": 2,
+      "unit": "Mt/yr",
+      "basis": "about 95% of plant emissions",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "note": "IEA Global Hydrogen Review 2025: Chapter 5 (page 169)"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "announced capital cost",
+      "value": 4,
+      "unit": "USD billion",
+      "year": 2025,
+      "basis": "FID in April 2025",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "note": "IEA Global Hydrogen Review 2025: Chapter 3 FID detail (page 114)"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "CF Industries",
+      "vendor_id": "cf-industries",
+      "role": "joint-venture owner (40%)"
+    },
+    {
+      "name": "JERA",
+      "vendor_id": "jera",
+      "role": "joint-venture owner (35%)"
+    },
+    {
+      "name": "Mitsui",
+      "role": "joint-venture owner (25%)"
+    }
+  ],
   "technologies": [
-    "h2-atr-ccs"
+    "h2-atr-ccs",
+    "h2-green-blue-ammonia"
   ],
   "sources": [
     {
@@ -18,8 +71,16 @@
       "note": "IEA Global Hydrogen Review 2025: Chapter 3 FID detail (page 114); Chapter 5 (page 169) identifies the plant as an autothermal reforming plant for low-emissions ammonia"
     }
   ],
-  "last_reviewed": "2026-11-11",
+  "last_reviewed": "2026-11-17",
   "milestones": [
+    {
+      "event": "FID",
+      "date": "2025-04",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "note": "IEA Global Hydrogen Review 2025: Chapter 3 FID detail (page 114)"
+      }
+    },
     {
       "event": "start-up (per card source)",
       "date": "2029",
@@ -29,5 +90,5 @@
       }
     }
   ],
-  "notes": "Status per card source: USD 4 billion FID April 2025 (JV holding CF Industries 40%, JERA 35%, Mitsui 25%); operations expected 2029; CO2 to the Pelican Sequestration Hub; ATR technology licensor not named in the report"
+  "notes": "FID April 2025 (JV holding CF Industries 40%, JERA 35%, Mitsui 25%); operations expected 2029; CO2 to the Pelican Sequestration Hub; ATR technology licensor not named in the report. GCCSI's November 2024 Global Status report lists this as 'CF Industries Blue Point' at the 'Under Evaluation' stage, 1.2 Mt/yr ammonia with a 2030 target — a pre-FID snapshot that predates the April 2025 FID recorded in this project."
 }

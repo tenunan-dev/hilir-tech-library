@@ -101,6 +101,19 @@
         "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
         "note": "ACWA Power project page, read 24 October 2026"
       }
+    },
+    {
+      "metric": "direct CO2 intensity, ammonia route with and without CCS",
+      "low": 0,
+      "high": 0.2,
+      "unit": "t CO2/t NH3",
+      "year": 2021,
+      "basis": "electrolysis 0; SMR with CCS 0.1; ATR with CCS 0.1; coal with CCS 0.2 (best available technology)",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021, direct CO2 intensity table"
+      }
     }
   ],
   "suppliers": [
@@ -135,6 +148,17 @@
         "note": "ACWA Power project page, read 24 October 2026"
       },
       "project_id": "neom-green-hydrogen-project"
+    },
+    {
+      "name": "Blue Point Complex (CF Industries / JERA / Mitsui JV), Louisiana",
+      "country": "US",
+      "capacity": "1.4 Mt/yr low-emissions ammonia; about 2 Mt/yr CO2 captured",
+      "status": "FID April 2025; operations expected 2029",
+      "source": {
+        "url": "https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf",
+        "note": "IEA Global Hydrogen Review 2025: Chapter 3 FID detail (page 114); Chapter 5 (page 169)"
+      },
+      "project_id": "blue-point-complex-cf-industries-jera-mitsui-jv-louisiana"
     }
   ],
   "advantages": [
@@ -156,15 +180,20 @@
       "url": "https://ammoniaenergy.org/articles/thyssenkrupp-to-install-2-plus-gw-of-electrolysers-for-neom",
       "source_id": "ammonia-energy",
       "note": "Ammonia Energy Association, 16 January 2022"
+    },
+    {
+      "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+      "source_id": "iea-reports",
+      "note": "IEA Ammonia Technology Roadmap, 2021"
     }
   ],
   "last_reviewed": "2026-10-28",
   "gaps": [
     {
       "field": "costs",
-      "item": "capital cost and levelized or unit cost, with dollar year and basis",
+      "item": "region-specific levelised cost and CCS retrofit cost, with dollar year and basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source read so far gives costs for this technology; the doe-hfto corpus (checked 2026-10-28) covers electrolysis, liquefaction, delivery and fuel-cell costs only, with no ammonia synthesis economics. Web-checked 2026-10-28; GHR 2025 ammonia energy intensities recorded in Wave 1; capex vendor-quoted.",
+      "reason": "The IEA Ammonia Technology Roadmap (2021) now supplies a global electrolysis LCOA (USD 525-1,170/t NH3), reference-plant capex for gas SMR and electrolysis, and the near-zero cost premium; what is still missing is a region-specific levelised cost and the CCS retrofit cost. Web-checked 2026-11-17.",
       "where": [
         {
           "hint": "DOE Hydrogen Program Records and H2A analyses",
@@ -180,7 +209,7 @@
         {
           "hint": "OSTI.GOV full-text reports from DOE labs (NETL, NREL, PNNL): search the technology name plus 'techno-economic'",
           "source_id": "osti",
-          "access": "blocked"
+          "access": "open"
         }
       ],
       "action": "Look for an open techno-economic study; record each figure with metric, range, unit, dollar year, basis and source."
@@ -207,6 +236,45 @@
         "url": "https://www.iea.org/reports/global-hydrogen-review-2024/executive-summary",
         "source_id": "iea-reports",
         "note": "IEA Global Hydrogen Review 2024, executive summary, read 2026-11-08"
+      }
+    },
+    {
+      "metric": "levelised cost of ammonia via electrolysis",
+      "low": 525,
+      "high": 1170,
+      "unit": "USD/t NH3",
+      "year": 2021,
+      "basis": "2020 costs; grid electricity USD 10-40/MWh, electrolyser USD 1,477/kWe, 8% discount rate, 25-year life",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "electrolysis ammonia plant capex",
+      "low": 2065,
+      "high": 2065,
+      "unit": "USD million per 875 kt/yr plant",
+      "year": 2021,
+      "basis": "reference-scale plant including EPC, electrolyser USD 1,477/kWe; about 2,360 USD per tonne of annual capacity (derived)",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
+      }
+    },
+    {
+      "metric": "cost premium of near-zero-emission ammonia routes over the incumbent",
+      "low": 10,
+      "high": 115,
+      "unit": "%",
+      "year": 2021,
+      "basis": "gas with CCS +10-25%; coal with CCS about +15%; range across near-zero routes",
+      "source": {
+        "url": "https://www.iea.org/files/6ee41bb9-8e81-4b64-8701-2acc064ff6e4/AmmoniaTechnologyRoadmap.pdf",
+        "source_id": "iea-reports",
+        "note": "IEA Ammonia Technology Roadmap, 2021"
       }
     }
   ]

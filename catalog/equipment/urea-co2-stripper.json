@@ -1,0 +1,111 @@
+{
+  "id": "urea-co2-stripper",
+  "name": "Urea CO2 stripper",
+  "aliases": [
+    "CO2 stripping column",
+    "urea stripper",
+    "HP stripper"
+  ],
+  "equipment_type": "co2-stripper",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "description": "High-pressure column that strips unconverted carbamate from the urea solution using feed CO2 as the stripping agent, decomposing carbamate and returning ammonia and CO2 to the condenser. CO2 stripping cut the steam demand of urea plants relative to conventional total-recycle designs.",
+  "applications": [
+    "urea synthesis, high-pressure loop carbamate recovery"
+  ],
+  "specifications": [
+    {
+      "metric": "stripper effluent pressure",
+      "unit": "bar",
+      "value": 140,
+      "basis": "CO2-stripping process, effluent conditions as stated",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2017097981A1/en",
+        "note": "Patent WO2017097981A1, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "stripper effluent temperature",
+      "unit": "°C",
+      "value": 190,
+      "basis": "CO2-stripping process, effluent conditions as stated",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2017097981A1/en",
+        "note": "Patent WO2017097981A1, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "residual carbamate in stripper outlet solution",
+      "unit": "%",
+      "low": 1,
+      "high": 2,
+      "basis": "solution leaving the stripper",
+      "source": {
+        "url": "https://patents.google.com/patent/WO2017097981A1/en",
+        "note": "Patent WO2017097981A1, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "stripping steam consumption",
+      "unit": "t steam/t urea",
+      "low": 0.8,
+      "high": 1.0,
+      "basis": "steam used per tonne of urea in the stripping section",
+      "source": {
+        "url": "https://patents.google.com/patent/US10919846B2/en",
+        "note": "Patent US10919846B2, read 2026-11-17"
+      }
+    }
+  ],
+  "vendors": [
+    "stamicarbon",
+    "thyssenkrupp-uhde",
+    "toyo"
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/WO2017097981A1/en",
+      "note": "Patent WO2017097981A1 (CO2-stripping effluent pressure, temperature and residual carbamate), read 2026-11-17"
+    },
+    {
+      "url": "https://patents.google.com/patent/US10919846B2/en",
+      "note": "Patent US10919846B2 (stripping steam range), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "Urea licensors use different stripping agents — CO2 stripping (Stamicarbon, Toyo ACES, Uhde), self-stripping (Casale) and NH3 stripping (Saipem) — so pressure, temperature and steam figures are not interchangeable across processes.",
+  "vendor_models": [
+    {
+      "vendor": "stamicarbon",
+      "line": "High-pressure CO2 stripper",
+      "models": [
+        "HP stripper"
+      ],
+      "range": "CO2 stripping; no medium-pressure recirculation stage downstream",
+      "url": "https://www.stamicarbon.com/sites/default/files/2023-10/2023-09-Stami%20Urea%20Launch%20Brochure.pdf"
+    },
+    {
+      "vendor": "casale",
+      "line": "SPLIT FLOW LOOP",
+      "models": [
+        "SPLIT FLOW LOOP"
+      ],
+      "range": "best suited up to 2,300 MTD, or 3,500 MTD with medium-pressure stage",
+      "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_SPLIT-FLOW-LOOP.pdf"
+    },
+    {
+      "vendor": "saipem",
+      "line": "Falling-film stripper 31/41 E-1",
+      "models": [
+        "31/41 E-1"
+      ],
+      "range": "operates at 146 kg/cm2g",
+      "url": "https://ureaknowhow.com/wp-content/uploads/2021/01/2021-01-Baboo-Snamprogetti-Urea-Process.pdf"
+    }
+  ]
+}

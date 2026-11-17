@@ -1,0 +1,36 @@
+{
+  "id": "fertilizers-europe",
+  "name": "Fertilizers Europe (EFMA successor)",
+  "url": "https://www.fertilizerseurope.com/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "ammonia best available techniques",
+    "urea production booklet",
+    "fertilizer industry policy"
+  ],
+  "publisher_org": "Fertilizers Europe",
+  "country": "BE",
+  "regions": [
+    "eu"
+  ],
+  "access": "open",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html",
+    "pdf"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "European fertilizer-industry association (successor to EFMA); publishes the ammonia and urea Best Available Techniques booklets used for stoichiometry and energy figures. Footer reads '©FERTILIZERS EUROPE 2023'; no open reuse licence seen. Evidence: https://www.fertilizerseurope.com/ and the Booklet 1 / Booklet 5 PDFs (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

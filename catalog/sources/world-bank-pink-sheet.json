@@ -1,0 +1,37 @@
+{
+  "id": "world-bank-pink-sheet",
+  "name": "World Bank Commodity Markets (Pink Sheet)",
+  "url": "https://www.worldbank.org/en/research/commodity-markets",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "urea prices",
+    "natural gas prices",
+    "commodity price forecasts"
+  ],
+  "publisher_org": "World Bank",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "CC-BY-4.0",
+  "reuse_level": "full-text-with-attribution",
+  "update_frequency": "monthly",
+  "content_formats": [
+    "html",
+    "dataset"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "Monthly commodity price data including urea and natural gas. The dataset terms grant a limited licence conditioned on proper attribution to the World Bank Group. Evidence: https://www.worldbank.org/en/research/commodity-markets and the dataset terms page (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "any"
+}

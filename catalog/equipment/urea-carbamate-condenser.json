@@ -1,0 +1,101 @@
+{
+  "id": "urea-carbamate-condenser",
+  "name": "Urea carbamate condenser",
+  "aliases": [
+    "pool condenser",
+    "HP carbamate condenser",
+    "urea condenser"
+  ],
+  "equipment_type": "carbamate-condenser",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "description": "High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section.",
+  "applications": [
+    "urea synthesis, high-pressure carbamate formation and heat recovery"
+  ],
+  "specifications": [
+    {
+      "metric": "HP loop pressure",
+      "unit": "bar",
+      "value": 150,
+      "basis": "Saipem urea flowsheet, NH3-stripping process",
+      "source": {
+        "url": "https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf",
+        "note": "Saipem urea technology brochure, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "condenser outlet temperature",
+      "unit": "°C",
+      "value": 155,
+      "basis": "Saipem urea flowsheet, NH3-stripping process",
+      "source": {
+        "url": "https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf",
+        "note": "Saipem urea technology brochure, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "approach to equilibrium in a pool condenser",
+      "unit": "%",
+      "value": 60,
+      "basis": "reaction extent achieved in the pool condenser",
+      "source": {
+        "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2001_tech_mennen.pdf",
+        "note": "IFA technical conference paper (Mennen), 2001, read 2026-11-17"
+      }
+    }
+  ],
+  "vendors": [
+    "stamicarbon",
+    "thyssenkrupp-uhde",
+    "toyo",
+    "casale",
+    "saipem"
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf",
+      "note": "Saipem urea technology brochure (HP loop pressure and condenser outlet temperature), read 2026-11-17"
+    },
+    {
+      "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2001_tech_mennen.pdf",
+      "note": "IFA technical conference paper (Mennen), 2001 (pool-condenser reaction extent), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "The pressure and temperature are from Saipem's NH3-stripping flowsheet; the 60% approach figure is for a pool condenser and is not a universal condenser specification.",
+  "vendor_models": [
+    {
+      "vendor": "stamicarbon",
+      "line": "LAUNCH MELT pool condenser design",
+      "models": [
+        "LAUNCH MELT"
+      ],
+      "range": "capacities from about 2,500 up to 6,000 mtpd",
+      "url": "https://www.stamicarbon.com/sites/default/files/2023-10/2023-09-Stami%20Urea%20Launch%20Brochure.pdf"
+    },
+    {
+      "vendor": "thyssenkrupp-uhde",
+      "line": "Urea 2000plus pool condenser",
+      "models": [
+        "Urea 2000plus"
+      ],
+      "range": "horizontal high-pressure carbamate condenser with submerged U-tube bundle",
+      "url": "https://www.thyssenkrupp-uhde.com/en/products-and-technologies/fertilizer-technologies/urea-plants"
+    },
+    {
+      "vendor": "toyo",
+      "line": "Vertical Submerged Carbamate Condenser (VSCC)",
+      "models": [
+        "VSCC"
+      ],
+      "range": "180 C and 152 bar; produces 5 bar steam",
+      "url": "https://www.toyo-eng.com/jp/en/solution/energy/pdf/ACES21_Brochure.pdf"
+    }
+  ]
+}

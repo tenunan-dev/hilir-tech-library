@@ -1,0 +1,36 @@
+{
+  "id": "usgs-mcs-nitrogen",
+  "name": "Nitrogen (Fixed)—Ammonia, Mineral Commodity Summaries 2026",
+  "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "world ammonia production",
+    "ammonia reserves",
+    "plant capacity changes"
+  ],
+  "publisher_org": "U.S. Geological Survey",
+  "country": "US",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "update_frequency": "annual",
+  "content_formats": [
+    "pdf"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "One-page USGS Mineral Commodity Summaries chapter on fixed nitrogen/ammonia with world production and reserves by country (US 13,600 to 14,000 kt; China 49,000 kt; India 15,000 kt; Malaysia 1,500 kt) and plant closures. USGS-authored material is US public domain. Evidence: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf (read 2026-11-17).",
+  "automated_access": "allowed",
+  "permitted_use": "any"
+}

@@ -1,6 +1,6 @@
 # Equipment catalog
 
-28 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+36 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -23,6 +23,53 @@ Vendors: Xylem (1 model lines recorded).
 Recorded gaps:
 
 - per-model blower efficiency tables — Read Sanitaire/GE turbo blower datasheets
+
+## air-separation-unit
+
+### Air separation unit (ASU) (air-separation-unit)
+
+Primary code: GAS: Gas processing and LNG
+Cryogenic distillation plant that separates air into nitrogen, oxygen and argon. In ammonia plants the ASU supplies the nitrogen feed at high purity; in gasification, oxyfuel and CCS plants it supplies oxygen.
+Vendors: Linde, Air Products (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| nitrogen purity | <1 ppm O2 | cryogenic distillation delivers almost pure nitrogen, typically below 1 ppm oxygen |
+| product delivery pressure | 5-10 barg | typical gaseous product delivery pressure |
+| main air compressor power | 50720 kWe | NETL design case for a 1.3 Mt/yr ammonia ATR plant |
+| specific energy, conventional cryogenic ASU | 245 kWh/t O2 | conventional ASU at >99.5% oxygen purity, per tonne of contained oxygen; 20 C ambient, 15 C cooling water, 60% RH, sea level (oxygen basis, not ammonia nitrogen basis) |
+
+- **Linde** Linde standard ASU families: NOVON 3,000-150,000 Nm3/h gaseous O2; LION 1,000-24,000 Nm3/h liquid; SPECTRA 8,000-90,000; INSPIRE 8,000-70,000; LOGO 3,000-30,000 Nm3/h at 90-95%
+- **Air Liquide** Air Liquide standard ASU plants: SIGMA 110-350 t/d O2 at 96-99.6% and up to 40 barg; Yango 330-770 t/d O2 at 99.5-99.8%; APSA 1,000-50,000 Nm3/h N2 at 2-10 barg
+- **Air Products** Cryogenic ASU: from 50 t/d oxygen up to single-train plants beyond 4,000 t/d, with development toward 7,000 t/d
+
+Recorded gaps:
+
+- ASU specific energy on a nitrogen basis (kWh/t N2) — fetch an OEM ASU datasheet that states capacity and kWh/t N2
+
+## ammonia-converter
+
+### Ammonia synthesis converter (ammonia-synthesis-converter)
+
+Primary code: H2: Hydrogen and low-carbon fuels
+Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter.
+Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale (4 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| operating pressure | 150-200 bar | typical ammonia synthesis pressure as stated |
+| reactor temperature | 380-520 °C | NH3 synthesis reactor operating temperature |
+| single-train capacity | small-3500 t/d | large single-train ammonia converters up to 3,500 MTPD; Uhde quotes 3,300 mtpd and more |
+| conversion per pass | 15 % | about 15% of the gas turns into ammonia on each pass |
+
+- **Topsoe** S-200 ammonia converter basket: two-bed radial flow with indirect cooling between beds; more than 130 units since 1976
+- **Topsoe** S-300 ammonia converter basket: three-bed radial flow; higher conversion and production efficiency than S-200; more than 50 installations
+- **KBR** KBR ammonia converter: vertical converters below 2,000 MTPD; horizontal units up to 6,000 MTPD; add-on bed gives 21-24% conversion
+- **thyssenkrupp Uhde** uhde ammonia converter A30/A20 series: three radial catalyst beds in one or two converters; loop up to 210 bar; A30 4,000-5,000 mtpd
+
+Recorded gaps:
+
+- per-vendor converter model lines with casing, catalyst basket and pressure-drop data — fetch Topsoe S-200/S-300, KBR, Casale and Uhde converter pages and add model lines
 
 ## anaerobic-digesters
 
@@ -189,6 +236,24 @@ Recorded gaps:
 - energy-loss comparison versus cable-based distribution — Find an engineering comparison study and record losses per 100 m
 - Schneider/Eaton/Anord Mardix busway model lines — Read each vendor's busway range and add model lines
 
+## carbamate-condenser
+
+### Urea carbamate condenser (urea-carbamate-condenser)
+
+Primary code: PCH: Petrochemicals
+High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section.
+Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| HP loop pressure | 150 bar | Saipem urea flowsheet, NH3-stripping process |
+| condenser outlet temperature | 155 °C | Saipem urea flowsheet, NH3-stripping process |
+| approach to equilibrium in a pool condenser | 60 % | reaction extent achieved in the pool condenser |
+
+- **Stamicarbon** LAUNCH MELT pool condenser design: capacities from about 2,500 up to 6,000 mtpd
+- **thyssenkrupp Uhde** Urea 2000plus pool condenser: horizontal high-pressure carbamate condenser with submerged U-tube bundle
+- **Toyo Engineering** Vertical Submerged Carbamate Condenser (VSCC): 180 C and 152 bar; produces 5 bar steam
+
 ## clarifiers-thickeners
 
 ### Clarifiers and thickeners (wwt-clarifiers-thickeners)
@@ -206,6 +271,25 @@ Vendors: Veolia, WesTech Engineering (1 model lines recorded).
 Recorded gaps:
 
 - per-model tank sizes — Read WesTech/Veolia clarifier model pages
+
+## co2-stripper
+
+### Urea CO2 stripper (urea-co2-stripper)
+
+Primary code: PCH: Petrochemicals
+High-pressure column that strips unconverted carbamate from the urea solution using feed CO2 as the stripping agent, decomposing carbamate and returning ammonia and CO2 to the condenser. CO2 stripping cut the steam demand of urea plants relative to conventional total-recycle designs.
+Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| stripper effluent pressure | 140 bar | CO2-stripping process, effluent conditions as stated |
+| stripper effluent temperature | 190 °C | CO2-stripping process, effluent conditions as stated |
+| residual carbamate in stripper outlet solution | 1-2 % | solution leaving the stripper |
+| stripping steam consumption | 0.8-1.0 t steam/t urea | steam used per tonne of urea in the stripping section |
+
+- **Stamicarbon** High-pressure CO2 stripper: CO2 stripping; no medium-pressure recirculation stage downstream
+- **Casale** SPLIT FLOW LOOP: best suited up to 2,300 MTD, or 3,500 MTD with medium-pressure stage
+- **Saipem** Falling-film stripper 31/41 E-1: operates at 146 kg/cm2g
 
 ## compressor
 
@@ -283,6 +367,26 @@ Vendors: Aquatech International, Veolia (1 model lines recorded).
 Recorded gaps:
 
 - per-model m3/d ranges — Read Aquatech/Veolia HPD model pages
+
+## granulator
+
+### Urea fluid-bed granulator (urea-fluid-bed-granulator)
+
+Primary code: PCH: Petrochemicals
+Fluid-bed unit that builds urea granules from sprayed melt onto seed particles, with internal recycling and classification to hold a target granule size. Granules are larger and harder than prills, which suits bulk blending and reduces caking.
+Vendors: thyssenkrupp Uhde, Stamicarbon, Toyo Engineering, Casale (4 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| granulation unit capacity | 3600 t/d | SAFCO IV granulation unit; more than 20 plants have capacities of 3,000 t/d or more |
+| granule size | 2-8 mm | product sizes produced in one plant |
+| recycle ratio | 0.5 ratio | recycle to product in a TEC fluid-bed granulator |
+| bed temperature | 110-119 °C | fluid-bed granulator bed temperature in the cited study |
+
+- **thyssenkrupp Uhde** UFT Fluid Bed Granulation: 2-8 mm product sizes from one plant; more than 20 plants at 3,000 mt/d or more
+- **Toyo Engineering** Spout-Fluid Bed Granulation: scaled from 50 to 3,250 MTPD; designed to 4,500 MTPD
+- **Stamicarbon** Fluid-bed granulation technology: 98.5 wt.% melt; up to 0.3 wt.% formaldehyde; on-stream time more than 150 days
+- **Casale** GREEN GRANULATION: feed concentration can be as low as 96-97%
 
 ## hv-circuit-breakers
 
@@ -472,6 +576,23 @@ Recorded gaps:
 - manufacturer loss tables for power transformers (275-500 kV class) — Read a manufacturer power-transformer technical guide for loss ranges by rating
 - Malaysian retail prices from a local manufacturer — Ask owner for a local transformer quote benchmark, or watch ePerolehan/TNB tender award notices for a like-for-like unit price
 
+## prilling-tower
+
+### Urea prilling tower (urea-prilling-tower)
+
+Primary code: PCH: Petrochemicals
+Tall tower in which molten urea is sprayed from the top and solidifies in falling droplets cooled by rising air, producing small round prills. Tower height and airflow set the prill size and the product's cooling and hardening; prills are smaller and more spherical than fluid-bed granules.
+Vendors: Stamicarbon, Saipem, Casale, Toyo Engineering (1 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| tower height | 80-140 m | height varies with plant load and weather |
+| large-unit capacity | 3000-very high t/d | large prilling units of at least 3,000 t/d of urea prills |
+| large-unit dimensions | at least 100 high and 20 in diameter m | large prilling towers |
+| prill size | 1.65 mm | typical prill diameter, compared with 2.82-3.06 mm granules |
+
+- **Stamicarbon** Prilling Design: rotating buckets distribute liquid urea droplets evenly in the tower; optional seeding
+
 ## protection-relays
 
 ### Protection relays and substation IEDs (ele-protection-relays)
@@ -542,6 +663,29 @@ Recorded gaps:
 
 - per-model capacities — Read Alfa Laval/Andritz/Flottweg model pages
 
+## steam-reformer
+
+### Steam reformer (primary and secondary) (steam-reformer)
+
+Primary code: H2: Hydrogen and low-carbon fuels
+Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections.
+Vendors: Topsoe, KBR, thyssenkrupp Uhde (3 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| outlet temperature | 800-900 °C | optimal SMR operating range at medium pressure |
+| operating pressure | 20-30 bar | medium-pressure SMR range |
+| steam-to-carbon ratio | 2.5-3.0 mol/mol | typical S/C values; the NETL design case uses 2.60 |
+| secondary reformer outlet temperature | 982 °C | syngas cooled from the secondary reformer outlet in the NETL design case |
+
+- **Topsoe** Tubular radiant wall steam reformer: more than 250 units designed over 50+ years; low steam-to-carbon, high heat flux, high outlet temperature
+- **KBR** KRES (KBR Reforming Exchanger): installed in parallel with the existing SMR and secondary reformer; up to 130% of SMR capacity
+- **thyssenkrupp Uhde** uhde primary reformer: catalyst tube outlet about 800 C at approximately 45 bar
+
+Recorded gaps:
+
+- tube wall temperature and tube-life limits — fetch an OEM reformer datasheet or a metallurgy reference that states tube skin temperature
+
 ## switchgear
 
 ### Data centre medium-voltage switchgear (mv-switchgear-data-centre)
@@ -605,6 +749,27 @@ Recorded gaps:
 
 - efficiency per operating mode (double-conversion vs eco) — Read the EXL S1 datasheet efficiency tables and record per-mode figures
 - Schneider Galaxy VX/VL and Eaton 93PM capacity ranges — Read both vendor product pages and add model lines
+
+## urea-reactor
+
+### Urea reactor (urea-reactor)
+
+Primary code: PCH: Petrochemicals
+High-pressure reactor in which ammonia and carbon dioxide form ammonium carbamate and then dehydrate to urea. Conversion per pass is incomplete, so the high-pressure loop strips and recycles unconverted carbamate; reactor pressure, temperature and the ammonia-to-CO2 ratio set conversion and downstream stripping duty.
+Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem (5 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| operating pressure | 150 bar | Saipem urea flowsheet, NH3-stripping process |
+| reactor outlet temperature | 188 °C | Saipem urea flowsheet, NH3-stripping process |
+| NH3/CO2 (N/C) ratio | 3.2-3.4 mol/mol | Snamprogetti process; patents quote 2.5-3.5 with 3.0-3.2 preferred |
+| CO2 conversion per pass | 62-64 % | share of CO2 entering the reactor converted to urea; the high-pressure loop reaches 85-90% overall |
+
+- **Stamicarbon** LAUNCH MELT pool reactor design: suited to capacities up to about 2,500 mtpd; about 30 m plant height
+- **Toyo Engineering** ACES21 process: reactor at N/C 3.7, 182 C and 152 bar
+- **Toyo Engineering** ACES21-LP process: synthesis pressure lowered to 136 barG; 5-10% lighter synthesis equipment
+- **Casale** HYPER-U: combined condenser/reactor; optimally designed up to 4,000 MTD
+- **Saipem** Snamprogetti ammonia stripping urea process: synthesis conditions 188 C and 155 kg/cm2
 
 ## uv-reactors
 

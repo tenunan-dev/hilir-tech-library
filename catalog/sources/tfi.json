@@ -1,0 +1,35 @@
+{
+  "id": "tfi",
+  "name": "The Fertilizer Institute (TFI)",
+  "url": "https://www.tfi.org/",
+  "source_type": "association",
+  "sectors": [
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "fertilizer policy",
+    "industry statistics",
+    "ammonia carbon intensity"
+  ],
+  "publisher_org": "The Fertilizer Institute",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "all-rights-reserved",
+  "reuse_level": "summary-only",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "US fertilizer trade association; statistics, policy and member resources. Footer reads 'All rights reserved'; the terms page grants a non-exclusive, non-transferable, revocable contribution licence only. Evidence: https://www.tfi.org/ and /terms-of-use/ (read 2026-11-17).",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

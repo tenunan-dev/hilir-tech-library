@@ -1,0 +1,60 @@
+{
+  "id": "nutrien-redwater",
+  "name": "Nutrien Redwater nitrogen complex",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "H2"
+  ],
+  "country": "CA",
+  "location": "Redwater, Alberta",
+  "status": "operating",
+  "description": "Operating nitrogen complex in Alberta with gross annual capacity of 1.0 Mt ammonia and 0.7 Mt urea; the site produces low-carbon ammonia with CO2 sent to the Alberta Carbon Trunk Line and was certified under the TFI Verified Ammonia Carbon Intensity programme in 2025.",
+  "capacities": [
+    {
+      "metric": "ammonia",
+      "value": 1.0,
+      "unit": "Mt/yr",
+      "basis": "gross annual capacity, including allowances for normal operating plant conditions",
+      "source": {
+        "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+        "note": "Nutrien 2025 Annual Report, capacity table, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "urea",
+      "value": 0.7,
+      "unit": "Mt/yr",
+      "basis": "gross annual capacity, including allowances for normal operating plant conditions",
+      "source": {
+        "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+        "note": "Nutrien 2025 Annual Report, capacity table, read 2026-11-17"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Nutrien",
+      "vendor_id": "nutrien",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+      "note": "Nutrien 2025 Annual Report, nitrogen capacity table, read 2026-11-17"
+    },
+    {
+      "url": "https://www.nutrien.com/news/stories/redwater-certified-in-ammonia-carbon-intensity-program",
+      "note": "Nutrien story on Redwater's TFI Verified Ammonia Carbon Intensity certification (February 2025) and CO2 sent to the Alberta Carbon Trunk Line, read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "The site is quoted at 950,000 gross tonnes of ammonia and other nitrogen-based fertilizers, with more than 800 tonnes per day of CO2 sent to the Alberta Carbon Trunk Line after the 2023 expansion. Nutrien cites up to 1 million tonnes of low-carbon ammonia production capability across Redwater, Geismar and Joffre. GCCSI's November 2024 report lists 'WCS Redwater' as operational since 2020, capturing 0.3 Mtpa CO2 for enhanced oil recovery; GCCSI does not use the Nutrien name or state an ammonia capacity."
+}

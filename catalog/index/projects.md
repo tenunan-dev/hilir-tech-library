@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-293 project records (one per named project or plant, schema `schema/project.schema.json`).
+299 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -481,8 +481,9 @@ Technologies: h2-atr-ccs
 
 ### Blue Point Complex (CF Industries / JERA / Mitsui JV), Louisiana (blue-point-complex-cf-industries-jera-mitsui-jv-louisiana)
 Status: **FID** | Country: US
-1.4 Mtpa low-emissions ammonia via autothermal reforming; about 2 Mtpa CO2 captured (about 95% of plant emissions)
-Technologies: h2-atr-ccs
+1.4 Mtpa low-emissions ammonia via autothermal reforming; about 2 Mtpa CO2 captured (about 95% of plant emissions).
+Technologies: h2-atr-ccs, h2-green-blue-ammonia
+Capacity: ammonia production: 1.4 Mt/yr; CO2 captured: 2 Mt/yr
 
 ### Enapter AEM Nexus 500 at Simon Fraser University (enapter-aem-nexus-sfu)
 Status: **commissioning** | Country: Canada
@@ -499,10 +500,17 @@ Status: **operating** | Country: DE
 6 MW power-to-methane plant using renewable electricity, water and CO2 from a nearby biogas plant; opened June 2013, the world's largest power-to-gas facility at the time
 Technologies: h2-e-methane
 
+### Beaumont New Ammonia (Woodside), Texas (woodside-beaumont-new-ammonia)
+Status: **operating** | Country: US
+1.1 Mt/yr ammonia plant at Beaumont, Texas, which produced first ammonia in December 2025 and came under Woodside's operational control in March 2026 after Woodside acquired OCI's clean-ammonia business; lower-carbon output is targeted for 2027.
+Technologies: pch-ammonia-urea, h2-green-blue-ammonia
+Capacity: ammonia: 1.1 Mt/yr; reported direct GHG emissions (EPA GHGRP): 723476 t CO2e/yr
+
 ### CF Industries Donaldsonville nitrogen complex (cf-donaldsonville)
 Status: **operating** | Country: United States
-Large nitrogen complex; the operator page quotes total nitrogen products, with the ammonia figure from the 2016 start-up release.
-Technologies: h2-refinery-ammonia-feedstock
+Large nitrogen complex with six world-scale ammonia plants, five urea plants, four nitric acid plants, three urea ammonium nitrate plants and a diesel exhaust fluid plant; the operator quotes nearly 8 million tons of nitrogen products a year depending on product mix.
+Technologies: h2-refinery-ammonia-feedstock, pch-ammonia-urea
+Capacity: nitrogen products: nearly 8 million t/yr; reported direct GHG emissions (EPA GHGRP): 9475266 t CO2e/yr
 
 ### Daxing hydrogen refuelling station (Howden compressors) (daxing-hydrogen-refuelling-station)
 Status: **operating** | Country: China
@@ -867,10 +875,40 @@ Status: **operating** | Country: TH
 more than 800,000 t/yr of PP (2018); Thailand's first and largest PP producer, passing 1 million tons cumulative-capacity milestone (2023); PP Line IV at Map Ta Phut adds 250 kt/yr
 Technologies: pch-polypropylene
 
+### Koch Fertilizer Enid nitrogen complex (koch-enid)
+Status: **operating** | Country: US
+Operating nitrogen complex with two ammonia plants of 1,700 and 1,900 tons per day and a urea plant of 4,000 tons per day; Koch describes a USD 1.3 billion expansion and modernisation from 2014 to 2017 and a further USD 150 million investment in 2021.
+Technologies: pch-ammonia-urea, h2-refinery-ammonia-feedstock
+Capacity: ammonia (two plants): 1,700 and 1,900 t/d; urea: 4000 t/d; reported direct GHG emissions (EPA GHGRP): 2379962 t CO2e/yr
+
+### LSB Industries El Dorado nitrogen complex (lsb-el-dorado)
+Status: **operating** | Country: US
+Operating ammonia plant with 493,000 t/yr ammonia capacity (based on 1,350 tons per day); a blue-ammonia and carbon-capture project is in development that would capture and sequester 400,000 to 500,000 t/yr of CO2 and yield 305,000 to 380,000 t/yr of low-carbon ammonia.
+Technologies: pch-ammonia-urea, h2-refinery-ammonia-feedstock, h2-green-blue-ammonia
+Capacity: ammonia: 493000 t/yr; CO2 captured (project): 400,000 to 500,000 t/yr; low-carbon ammonia (project): 305,000 to 380,000 t/yr; reported direct GHG emissions (EPA GHGRP): 1027772 t CO2e/yr
+
+### LSB Industries Pryor nitrogen complex (lsb-pryor)
+Status: **operating** | Country: US
+Operating ammonia plant with 246,000 t/yr ammonia capacity (based on 675 tons per day).
+Technologies: pch-ammonia-urea, h2-refinery-ammonia-feedstock
+Capacity: ammonia: 246000 t/yr; reported direct GHG emissions (EPA GHGRP): 427703 t CO2e/yr
+
 ### NatureWorks Ingeo PLA plant, Blair, Nebraska (natureworks-ingeo-pla-plant-blair-nebraska)
 Status: **operating** | Country: US
 nameplate 140,000 t/yr (300 million lb), world's first and largest PLA plant (doubled to full design capacity by 2009)
 Technologies: pch-bio-based-chemicals
+
+### Nutrien Geismar nitrogen complex (nutrien-geismar)
+Status: **operating** | Country: US
+Operating nitrogen complex producing ammonia, nitric acid, urea, urea ammonium nitrate and diesel exhaust fluid; the 2025 annual report gives gross annual capacity of 0.6 Mt ammonia and 0.4 Mt urea.
+Technologies: pch-ammonia-urea, h2-refinery-ammonia-feedstock
+Capacity: ammonia: 0.6 Mt/yr; urea: 0.4 Mt/yr; reported direct GHG emissions (EPA GHGRP): 1666091 t CO2e/yr
+
+### Nutrien Redwater nitrogen complex (nutrien-redwater)
+Status: **operating** | Country: CA
+Operating nitrogen complex in Alberta with gross annual capacity of 1.0 Mt ammonia and 0.7 Mt urea; the site produces low-carbon ammonia with CO2 sent to the Alberta Carbon Trunk Line and was certified under the TFI Verified Ammonia Carbon Intensity programme in 2025.
+Technologies: pch-ammonia-urea, h2-refinery-ammonia-feedstock, h2-green-blue-ammonia
+Capacity: ammonia: 1.0 Mt/yr; urea: 0.7 Mt/yr
 
 ### Plastic Energy and TotalEnergies advanced recycling plant, Seville (plastic-energy-and-totalenergies-advanced-recycling-plant-seville)
 Status: **operating** | Country: ES

@@ -1,0 +1,136 @@
+{
+  "id": "ammonia-synthesis-converter",
+  "name": "Ammonia synthesis converter",
+  "aliases": [
+    "Haber-Bosch converter",
+    "ammonia reactor",
+    "synthesis loop converter"
+  ],
+  "equipment_type": "ammonia-converter",
+  "sector": "H2",
+  "sector_codes": [
+    "H2",
+    "PCH"
+  ],
+  "description": "Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter.",
+  "applications": [
+    "ammonia synthesis in nitrogen fertiliser and chemical plants",
+    "green and blue ammonia plants using electrolytic or low-carbon hydrogen"
+  ],
+  "specifications": [
+    {
+      "metric": "operating pressure",
+      "unit": "bar",
+      "low": 150,
+      "high": 200,
+      "basis": "typical ammonia synthesis pressure as stated",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+        "note": "Wikipedia, Ammonia production (read 2026-11-17)"
+      }
+    },
+    {
+      "metric": "reactor temperature",
+      "unit": "°C",
+      "low": 380,
+      "high": 520,
+      "basis": "NH3 synthesis reactor operating temperature",
+      "source": {
+        "url": "https://www.osti.gov/servlets/purl/3363286",
+        "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
+      }
+    },
+    {
+      "metric": "single-train capacity",
+      "unit": "t/d",
+      "low": "small",
+      "high": 3500,
+      "basis": "large single-train ammonia converters up to 3,500 MTPD; Uhde quotes 3,300 mtpd and more",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/two-step-reformer-based-ammonia-process",
+        "note": "Topsoe two-step reformer ammonia process page, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "conversion per pass",
+      "unit": "%",
+      "value": 15,
+      "basis": "about 15% of the gas turns into ammonia on each pass",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+        "note": "Wikipedia, Ammonia production (read 2026-11-17)"
+      }
+    }
+  ],
+  "vendors": [
+    "topsoe",
+    "thyssenkrupp-uhde",
+    "kbr",
+    "casale"
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ammonia_production",
+      "note": "Wikipedia, Ammonia production (read 2026-11-17)"
+    },
+    {
+      "url": "https://www.osti.gov/servlets/purl/3363286",
+      "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
+    },
+    {
+      "url": "https://www.topsoe.com/solutions/technologies/process-licensing/two-step-reformer-based-ammonia-process",
+      "note": "Topsoe two-step reformer ammonia process page, read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "gaps": [
+    {
+      "what": "per-vendor converter model lines with casing, catalyst basket and pressure-drop data",
+      "why": "vendor equipment pages were not fetched this session beyond Topsoe's process page",
+      "next_action": "fetch Topsoe S-200/S-300, KBR, Casale and Uhde converter pages and add model lines"
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "topsoe",
+      "line": "S-200 ammonia converter basket",
+      "models": [
+        "S-200"
+      ],
+      "range": "two-bed radial flow with indirect cooling between beds; more than 130 units since 1976",
+      "url": "https://www.topsoe.com/solutions/technologies/equipment-and-spare-parts/ammonia-converter-baskets-s-200"
+    },
+    {
+      "vendor": "topsoe",
+      "line": "S-300 ammonia converter basket",
+      "models": [
+        "S-300"
+      ],
+      "range": "three-bed radial flow; higher conversion and production efficiency than S-200; more than 50 installations",
+      "url": "https://www.topsoe.com/solutions/technologies/equipment-and-spare-parts/ammonia-converter-baskets-s-300"
+    },
+    {
+      "vendor": "kbr",
+      "line": "KBR ammonia converter",
+      "models": [
+        "105-D"
+      ],
+      "range": "vertical converters below 2,000 MTPD; horizontal units up to 6,000 MTPD; add-on bed gives 21-24% conversion",
+      "url": "https://www.kbr.com/en/insights-news/thought-leadership/ammonia-revamp-kbr-response-modern-day-challenges"
+    },
+    {
+      "vendor": "thyssenkrupp-uhde",
+      "line": "uhde ammonia converter A30/A20 series",
+      "models": [
+        "A30",
+        "A20"
+      ],
+      "range": "three radial catalyst beds in one or two converters; loop up to 210 bar; A30 4,000-5,000 mtpd",
+      "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/6cc6d788-4f6c-49f4-adf9-08295b1ee60c/brochure-ammonia_scr.pdf"
+    }
+  ]
+}

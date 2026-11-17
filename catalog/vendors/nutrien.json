@@ -1,0 +1,26 @@
+{
+  "id": "nutrien",
+  "name": "Nutrien",
+  "country": "Canada",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Global fertilizer producer that produces and upgrades nitrogen at 11 strategically located facilities in Canada and the United States plus one in Trinidad; it reports a combined annual gross ammonia nameplate capacity of more than seven million tonnes and supplies about 5 million tonnes of fertilizer products to customers in more than 50 countries.",
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock",
+    "h2-green-blue-ammonia"
+  ],
+  "url": "https://www.nutrien.com",
+  "sources": [
+    {
+      "url": "https://www.nutrien.com/about/our-business/nitrogen",
+      "note": "Nutrien nitrogen business page (more than 7 Mt/yr gross ammonia nameplate, 11 nitrogen facilities in Canada and the US plus Trinidad, product slate), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "Headquarters city is not stated on the page read; country recorded from the Canadian producer's own site."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "un-comtrade",
+  "name": "UN Comtrade Database",
+  "url": "https://comtradeplus.un.org/",
+  "source_type": "agency-data",
+  "sectors": [
+    "PCH",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "ammonia trade",
+    "urea trade",
+    "fertilizer imports and exports"
+  ],
+  "publisher_org": "United Nations Statistics Division",
+  "country": "INT",
+  "regions": [
+    "global"
+  ],
+  "access": "mixed",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "update_frequency": "monthly",
+  "content_formats": [
+    "html",
+    "dataset",
+    "api"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "UN international trade statistics; useful for US/Canada ammonia and urea trade flows. The licence agreement states that, except as expressly permitted, copying, automated browsing or downloading, redistribution, publication or commercial exploitation is strictly prohibited. Evidence: https://comtradeplus.un.org/ and /LicenseAgreement (read 2026-11-17).",
+  "automated_access": "prohibited",
+  "permitted_use": "personal-non-commercial"
+}

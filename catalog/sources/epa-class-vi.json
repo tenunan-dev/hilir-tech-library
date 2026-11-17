@@ -1,0 +1,38 @@
+{
+  "id": "epa-class-vi",
+  "name": "EPA Class VI well information (geologic sequestration of CO2)",
+  "url": "https://www.epa.gov/uic/class-vi-wells-used-geologic-sequestration-carbon-dioxide",
+  "source_type": "agency-data",
+  "sectors": [
+    "CCS",
+    "PCH"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "subtopics": [
+    "Class VI permits",
+    "CO2 injection wells",
+    "blue ammonia CCS"
+  ],
+  "publisher_org": "U.S. Environmental Protection Agency",
+  "country": "US",
+  "regions": [
+    "na"
+  ],
+  "access": "open",
+  "licence": "public-domain",
+  "reuse_level": "full-text-open",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "html",
+    "pdf"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-17",
+  "notes": "EPA Underground Injection Control pages for Class VI wells used for geologic sequestration of CO2, including permit status. EPA content is a US government work; no separate licence text needed. Evidence: URL read 2026-11-17 (HTTP 200).",
+  "automated_access": "allowed",
+  "permitted_use": "any"
+}

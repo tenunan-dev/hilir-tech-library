@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-528 vendor records covering 321 technologies. One record per vendor in
+532 vendor records covering 322 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -154,6 +154,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Bright Biomethane (Bright Renewables)](https://www.bright-renewables.com) | Netherlands | oem | Biogas upgrading to biomethane |
 | [Burckhardt Compression](https://www.burckhardtcompression.com) | Switzerland | oem, service | Hydrogen compressors (diaphragm, ionic, reciprocating) |
 | [Casale](https://www.casale.ch) | Switzerland | licensor | Green and blue ammonia |
+| [CF Industries](https://www.cfindustries.com) | United States | operator | Hydrogen for refinery and ammonia feedstock; Green and blue ammonia |
 | [Chiyoda Corporation](https://www.chiyoda-corp.com) | Japan | developer, epc, licensor | Liquid organic hydrogen carriers (MCH, DBT) |
 | [Clariant](https://www.clariant.com) | Switzerland | supplier | Cellulosic ethanol |
 | [CSIRO](https://www.csiro.au) | Australia | developer | Photocatalytic and thermochemical water splitting |
@@ -178,16 +179,19 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Johnson Matthey](https://matthey.com) | United Kingdom | licensor, supplier | Gas-heated reforming; Ammonia as hydrogen carrier and ammonia cracking; Autothermal reforming with CO2 capture (blue hydrogen); E-methanol and bio-methanol; Reverse water-gas shift for e-fuels; Partial oxidation and gasification |
 | [Kawasaki Heavy Industries](https://global.kawasaki.com) | Japan | oem, developer | Liquid hydrogen |
 | [KBR](https://www.kbr.com) | USA | licensor | Ammonia as hydrogen carrier and ammonia cracking; Green and blue ammonia |
+| [Koch Fertilizer](https://www.kochfertilizer.com) | United States | operator | Hydrogen for refinery and ammonia feedstock |
 | [Koloma](https://www.koloma.com) | USA | developer | Natural (geologic) hydrogen |
 | [Licella](https://licella.com.au) | Australia | developer | Pyrolysis oil and hydrothermal liquefaction |
 | [Linde](https://www.linde.com) | Germany | supplier, operator | Compressed hydrogen storage and tube trailers; Hydrogen refuelling stations |
 | [Linde Engineering](https://www.linde-engineering.com) | Germany | licensor, oem | Liquid hydrogen; Steam methane reforming |
 | [LONGi Hydrogen](https://www.longihydrogen.com) | China | oem | Alkaline water electrolysis |
+| [LSB Industries](https://www.lsbindustries.com) | United States | operator | Hydrogen for refinery and ammonia feedstock; Green and blue ammonia |
 | [Magnum Development](https://www.magnumdev.com) | USA | developer, operator | Hydrogen storage in salt caverns |
 | [Midrex Technologies](https://midrex.com) | USA | licensor | Hydrogen direct reduction of iron |
 | [Monolith](https://monolith-corp.com) | USA | developer | Methane pyrolysis (turquoise hydrogen) |
 | [Nel ASA](https://nelhydrogen.com) | Norway | oem | Alkaline water electrolysis; PEM electrolysis; Hydrogen refuelling stations |
 | [Neste](https://www.neste.com) | Finland | operator | First-generation biofuels (ethanol, FAME biodiesel) |
+| [Nutrien](https://www.nutrien.com) | Canada | operator | Hydrogen for refinery and ammonia feedstock; Green and blue ammonia |
 | [PDC Machines](https://www.pdcmachines.com) | USA | oem | Hydrogen compressors (diaphragm, ionic, reciprocating) |
 | [Pentair](https://www.pentair.com) | USA | oem | Biogas upgrading to biomethane |
 | [PERIC Hydrogen Technologies](https://en.peric.com.cn) | China | oem | Alkaline water electrolysis |
@@ -339,6 +343,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Braskem](https://www.braskem.com) | Brazil | operator | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
 | [Carbios](https://www.carbios.com) | France | developer | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Celanese](https://www.celanese.com) | USA | operator, oem | Acetic acid (methanol carbonylation) |
+| [CF Industries](https://www.cfindustries.com) | United States | operator | Ammonia and urea |
 | [Chevron Phillips Chemical](https://www.cpchem.com) | USA | oem, licensor | Polyethylene (gas phase, slurry, solution) |
 | [CJ CheilJedang](https://www.cj.co.kr) | South Korea | oem | PHA bioplastics |
 | [Covestro](https://www.covestro.com) | Germany | oem | Engineering plastics (polycarbonate, nylon) |
@@ -355,12 +360,15 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Hyundai Engineering & Construction](https://www.hdec.co.kr) | South Korea | epc | Steam cracking (naphtha, ethane, LPG) |
 | [Indorama Ventures](https://www.indoramaventures.com) | Thailand | oem | Depolymerisation of PET (glycolysis, enzymatic) |
 | [Ineos](https://www.ineos.com) | United Kingdom | oem | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); PVC (suspension) and chlor-alkali |
+| [Koch Fertilizer](https://www.kochfertilizer.com) | United States | operator | Ammonia and urea |
 | [Koch-Glitsch](https://kochglitsch.com) | USA | oem, supplier | Steam cracking (naphtha, ethane, LPG) |
 | [Loop Industries](https://www.loopindustries.com) | Canada | developer | Depolymerisation of PET (glycolysis, enzymatic) |
+| [LSB Industries](https://www.lsbindustries.com) | United States | operator | Ammonia and urea |
 | [Lummus Technology](https://www.lummustechnology.com) | USA | licensor | Butadiene extraction and on-purpose butadiene; Metathesis (OCT); Oxidative coupling of methane; Propane dehydrogenation (Oleflex, CATOFIN); Steam cracking (naphtha, ethane, LPG); Phenol and acetone (cumene) |
 | [LyondellBasell](https://www.lyondellbasell.com) | Netherlands | oem, licensor | Polyethylene (gas phase, slurry, solution); Polypropylene (gas phase, bulk); Propylene oxide (HPPO, PO/SM) |
 | [Mura Technology](https://muraplastics.com) | United Kingdom | developer | Plastics pyrolysis (chemical recycling) |
 | [NatureWorks](https://www.natureworks.com) | USA | oem | Bio-based chemicals (bio-ethylene, bio-PE, PLA) |
+| [Nutrien](https://www.nutrien.com) | Canada | operator | Ammonia and urea |
 | [Plastic Energy](https://plasticenergy.com) | Spain | developer, operator | Plastics pyrolysis (chemical recycling) |
 | [PureCycle Technologies](https://purecycletech.com) | USA | operator, oem | Solvent-based purification of plastics |
 | [SABIC](https://www.sabic.com) | Saudi Arabia | oem | Electric steam cracking; Engineering plastics (polycarbonate, nylon) |

@@ -1,0 +1,74 @@
+{
+  "id": "nutrien-geismar",
+  "name": "Nutrien Geismar nitrogen complex",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "H2"
+  ],
+  "country": "US",
+  "location": "Geismar, Louisiana",
+  "status": "operating",
+  "description": "Operating nitrogen complex producing ammonia, nitric acid, urea, urea ammonium nitrate and diesel exhaust fluid; the 2025 annual report gives gross annual capacity of 0.6 Mt ammonia and 0.4 Mt urea.",
+  "capacities": [
+    {
+      "metric": "ammonia",
+      "value": 0.6,
+      "unit": "Mt/yr",
+      "basis": "gross annual capacity, including allowances for normal operating plant conditions",
+      "source": {
+        "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+        "note": "Nutrien 2025 Annual Report, capacity table, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "urea",
+      "value": 0.4,
+      "unit": "Mt/yr",
+      "basis": "gross annual capacity, including allowances for normal operating plant conditions",
+      "source": {
+        "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+        "note": "Nutrien 2025 Annual Report, capacity table, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "reported direct GHG emissions (EPA GHGRP)",
+      "value": 1666091,
+      "unit": "t CO2e/yr",
+      "basis": "reported 2023 direct emissions (metric tons CO2e, AR4 GWP); EPA facility ID 1003489. Facility reports as PCS Nitrogen Fertilizer LP - Geismar; subpart PP (supplier of CO2) present in 2023.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/other-files/2024-10/2023_data_summary_spreadsheets.zip",
+        "source_id": "epa-ghgrp",
+        "note": "EPA GHGRP 2023 data summary spreadsheets, direct point emitters, read 2026-11-17"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "Nutrien",
+      "vendor_id": "nutrien",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock"
+  ],
+  "sources": [
+    {
+      "url": "https://cdn.sanity.io/files/ixv7nalm/production/316f7c925cbaee5b88ca199f30a6ead9c3858a50.pdf",
+      "note": "Nutrien 2025 Annual Report, nitrogen capacity table, read 2026-11-17"
+    },
+    {
+      "url": "https://www.nutrien.com/news/press-releases/nutrien-reports-second-quarter-2024-results-and-announces-chief-financial-officer-transition-1710",
+      "note": "Nutrien Q2 2024 results: Geismar Clean Ammonia project no longer pursued; USD 195 million non-cash impairment, read 2026-11-17"
+    },
+    {
+      "url": "https://www.nutrien.com/news/press-releases/nutrien-announces-intention-to-build-world-s-largest-clean-ammonia-production-facility-1646",
+      "note": "Nutrien 2022 announcement of the proposed 1.2 Mt/yr Geismar clean ammonia facility (approximately USD 2 billion, 2022 US$), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "A separate 1.2 Mt/yr Geismar Clean Ammonia project was proposed in 2022 at approximately USD 2 billion (2022 US$) but cancelled in 2024 with a USD 195 million impairment; the existing operating complex is the asset recorded here."
+}

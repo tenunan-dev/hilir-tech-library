@@ -1,0 +1,85 @@
+{
+  "id": "lsb-el-dorado",
+  "name": "LSB Industries El Dorado nitrogen complex",
+  "project_type": "operating-asset",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH",
+    "CCS"
+  ],
+  "country": "US",
+  "location": "El Dorado, Arkansas",
+  "status": "operating",
+  "description": "Operating ammonia plant with 493,000 t/yr ammonia capacity (based on 1,350 tons per day); a blue-ammonia and carbon-capture project is in development that would capture and sequester 400,000 to 500,000 t/yr of CO2 and yield 305,000 to 380,000 t/yr of low-carbon ammonia.",
+  "capacities": [
+    {
+      "metric": "ammonia",
+      "value": 493000,
+      "unit": "t/yr",
+      "basis": "based on 1,350 tons per day",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526076810/lxu-20251231.htm",
+        "note": "LSB Industries 2025 Form 10-K, ammonia capacity table, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "CO2 captured (project)",
+      "value": "400,000 to 500,000",
+      "unit": "t/yr",
+      "basis": "blue-ammonia CCS project in development",
+      "source": {
+        "url": "https://lsbindustries.com/clean-energy/blue-ammonia/",
+        "note": "LSB Industries blue-ammonia page, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "low-carbon ammonia (project)",
+      "value": "305,000 to 380,000",
+      "unit": "t/yr",
+      "basis": "blue-ammonia CCS project in development",
+      "source": {
+        "url": "https://lsbindustries.com/clean-energy/blue-ammonia/",
+        "note": "LSB Industries blue-ammonia page, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "reported direct GHG emissions (EPA GHGRP)",
+      "value": 1027772,
+      "unit": "t CO2e/yr",
+      "basis": "reported 2023 direct emissions (metric tons CO2e, AR4 GWP); EPA facility ID 1003993. Facility reports as El Dorado Chemical Company; subpart PP present in 2023.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/other-files/2024-10/2023_data_summary_spreadsheets.zip",
+        "source_id": "epa-ghgrp",
+        "note": "EPA GHGRP 2023 data summary spreadsheets, direct point emitters, read 2026-11-17"
+      }
+    }
+  ],
+  "owners": [
+    {
+      "name": "LSB Industries",
+      "vendor_id": "lsb-industries",
+      "role": "owner and operator"
+    }
+  ],
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock",
+    "h2-green-blue-ammonia"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/60714/000119312526076810/lxu-20251231.htm",
+      "note": "LSB Industries 2025 Form 10-K (ammonia capacity and project description), read 2026-11-17"
+    },
+    {
+      "url": "https://lsbindustries.com/clean-energy/blue-ammonia/",
+      "note": "LSB Industries blue-ammonia page (CO2 and low-carbon ammonia ranges), read 2026-11-17"
+    },
+    {
+      "url": "https://lsbindustries.com/clean-energy/eld-ccs/",
+      "note": "LSB Industries El Dorado CCS page (Class VI permit status and timing), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "The CCS project is pre-FID with an EPA Class VI permit under review; the capture fee is expected to start at the end of 2026, and a May 2026 agreement sets a pathway to 100% ownership of the CCS project. GCCSI's November 2024 report lists the related capture project as 'Lapis Energy El Dorado' (under evaluation, 2026; 0.45 Mtpa CO2; deep saline formation), consistent with the 400,000-500,000 t/yr range recorded here."
+}

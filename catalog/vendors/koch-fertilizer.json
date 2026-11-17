@@ -1,0 +1,33 @@
+{
+  "id": "koch-fertilizer",
+  "name": "Koch Fertilizer",
+  "country": "United States",
+  "roles": [
+    "operator"
+  ],
+  "categories": [
+    "operator"
+  ],
+  "description": "Nitrogen fertilizer producer and distributor with five production facilities in the United States and one in Canada, more than 50 terminals, and more than 12 million metric tons of product distributed annually; products include ammonia, urea, UAN, phosphate, ammonium thiosulfate and diesel exhaust fluid.",
+  "technologies": [
+    "pch-ammonia-urea",
+    "h2-refinery-ammonia-feedstock"
+  ],
+  "url": "https://www.kochfertilizer.com",
+  "sources": [
+    {
+      "url": "https://kochfertilizer.com/about",
+      "note": "Koch Fertilizer About page (five US production facilities, one in Canada, more than 50 terminals, more than 12 million metric tons distributed annually), read 2026-11-17"
+    },
+    {
+      "url": "https://kochfertilizer.com/customer-service",
+      "note": "Koch Fertilizer customer-service page (4111 E. 37th Street North, Wichita, KS 67220), read 2026-11-17"
+    },
+    {
+      "url": "https://kochfertilizer.com/environmental",
+      "note": "Koch Fertilizer environmental page naming the Beatrice NE, Enid OK, Fort Dodge IA, Wever IA and Brandon MB sites with project years, read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "notes": "Ammonia and urea capacity by plant is not published on the pages read; Enid capacity is recorded from the Oklahoma DEQ permit on the project record."
+}

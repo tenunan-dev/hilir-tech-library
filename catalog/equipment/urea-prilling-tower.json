@@ -1,0 +1,96 @@
+{
+  "id": "urea-prilling-tower",
+  "name": "Urea prilling tower",
+  "aliases": [
+    "prill tower",
+    "urea prilling"
+  ],
+  "equipment_type": "prilling-tower",
+  "sector": "PCH",
+  "sector_codes": [
+    "PCH"
+  ],
+  "description": "Tall tower in which molten urea is sprayed from the top and solidifies in falling droplets cooled by rising air, producing small round prills. Tower height and airflow set the prill size and the product's cooling and hardening; prills are smaller and more spherical than fluid-bed granules.",
+  "applications": [
+    "urea finishing to solid prilled product"
+  ],
+  "specifications": [
+    {
+      "metric": "tower height",
+      "unit": "m",
+      "low": 80,
+      "high": 140,
+      "basis": "height varies with plant load and weather",
+      "source": {
+        "url": "https://ureaknowhow.com/wp-content/uploads/2021/05/2021-06-Baboo-Prilling-Tower-and-Granulator-Heat-and-Mass-Transfer.pdf",
+        "note": "Baboo, Prilling tower and granulator heat and mass transfer, 2021, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "large-unit capacity",
+      "unit": "t/d",
+      "low": 3000,
+      "high": "very high",
+      "basis": "large prilling units of at least 3,000 t/d of urea prills",
+      "source": {
+        "url": "https://patents.google.com/patent/EP4545507A1/en",
+        "note": "Patent EP4545507A1, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "large-unit dimensions",
+      "unit": "m",
+      "value": "at least 100 high and 20 in diameter",
+      "basis": "large prilling towers",
+      "source": {
+        "url": "https://patents.google.com/patent/EP4545507A1/en",
+        "note": "Patent EP4545507A1, read 2026-11-17"
+      }
+    },
+    {
+      "metric": "prill size",
+      "unit": "mm",
+      "value": 1.65,
+      "basis": "typical prill diameter, compared with 2.82-3.06 mm granules",
+      "source": {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/97580/1/Urea%20prilling%20vs%20granulation%202015.pdf",
+        "note": "Rahmanian et al., Urea prilling vs granulation, 2015, read 2026-11-17"
+      }
+    }
+  ],
+  "vendors": [
+    "stamicarbon",
+    "saipem",
+    "casale",
+    "toyo"
+  ],
+  "technologies": [
+    "pch-ammonia-urea"
+  ],
+  "sources": [
+    {
+      "url": "https://ureaknowhow.com/wp-content/uploads/2021/05/2021-06-Baboo-Prilling-Tower-and-Granulator-Heat-and-Mass-Transfer.pdf",
+      "note": "Baboo, Prilling tower and granulator heat and mass transfer, 2021 (tower height), read 2026-11-17"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP4545507A1/en",
+      "note": "Patent EP4545507A1 (large-unit capacity and dimensions), read 2026-11-17"
+    },
+    {
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/97580/1/Urea%20prilling%20vs%20granulation%202015.pdf",
+      "note": "Rahmanian et al., Urea prilling vs granulation, 2015 (prill size), read 2026-11-17"
+    }
+  ],
+  "last_reviewed": "2026-11-17",
+  "vendor_models": [
+    {
+      "vendor": "stamicarbon",
+      "line": "Prilling Design",
+      "models": [
+        "rotating prilling buckets"
+      ],
+      "range": "rotating buckets distribute liquid urea droplets evenly in the tower; optional seeding",
+      "url": "https://www.stamicarbon.com/prilling-design"
+    }
+  ]
+}
