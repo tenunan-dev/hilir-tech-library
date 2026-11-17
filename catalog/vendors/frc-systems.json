@@ -1,0 +1,24 @@
+{
+  "id": "frc-systems",
+  "name": "FRC Systems",
+  "country": "United States",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "US manufacturer of industrial solids-contact and oil-separation equipment; corrugated plate interceptors (CPI) and DAF units for refinery and industrial effluent.",
+  "technologies": [
+    "wwt-api-cpi-separators",
+    "wwt-daf"
+  ],
+  "url": "https://www.frcsystems.com",
+  "sources": [
+    {
+      "url": "https://www.frcsystems.com/products/ows",
+      "note": "FRC corrugated plate interceptor page, read 2026-11-18"
+    }
+  ],
+  "last_reviewed": "2026-11-18"
+}

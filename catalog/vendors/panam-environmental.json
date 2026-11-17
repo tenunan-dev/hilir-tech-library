@@ -1,0 +1,24 @@
+{
+  "id": "panam-environmental",
+  "name": "Panam Environmental Products",
+  "country": "United States",
+  "roles": [
+    "oem"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "US manufacturer of API-421-based oil-water separators (hopper-bottom, flat-bottom, coated steel, stainless and fibreglass series) and tilted-plate (CPI) interceptors.",
+  "technologies": [
+    "wwt-api-cpi-separators",
+    "wwt-daf"
+  ],
+  "url": "https://www.panamenv.com",
+  "sources": [
+    {
+      "url": "https://www.panamenv.com/oil-water-separators/",
+      "note": "Panam oil-water separator series pages, read 2026-11-18"
+    }
+  ],
+  "last_reviewed": "2026-11-18"
+}

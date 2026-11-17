@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-535 vendor records covering 324 technologies. One record per vendor in
+537 vendor records covering 325 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -666,21 +666,25 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Cambi AS](https://cambi.com/) | NO | licensor | Anaerobic sludge digestion (mesophilic/thermophilic) |
 | [Evoqua Water Technologies](https://www.evoqua.com/) | US | supplier, service | Dissolved air flotation (DAF) |
 | [Flottweg SE](https://www.flottweg.com/) | DE | oem | Mechanical sludge dewatering |
+| [Fluence](https://fluenceenergy.com/) | USA | integrator, service | Effluent equalisation and surge management |
+| [FRC Systems](https://www.frcsystems.com) | United States | oem | API and CPI oily-water separators; Dissolved air flotation (DAF) |
 | [GHD](https://www.ghd.com/) | AU | service | Water minimisation and reuse pinch for industry |
 | [Gradiant](https://www.gradiant.com/) | US | oem | Brine concentration and selective salt recovery |
 | [Headworks BIO](https://www.headworksinternational.com/) | US | oem, licensor | Moving bed biofilm reactor (MBBR/IFAS) |
-| [HUBER SE](https://www.huber.de/) | DE | oem | Screening and grit removal; Mechanical sludge dewatering; Thermal sludge drying and pyrolysis |
+| [HUBER SE](https://www.huber.de/) | DE | oem | Screening and grit removal; Mechanical sludge dewatering; Thermal sludge drying and pyrolysis; Effluent equalisation and surge management |
 | [Hydro International](https://www.hydro-int.com/) | UK | oem | Screening and grit removal |
 | [Indah Water Konsortium](https://www.iwk.com.my/) | MY | operator | Conventional activated sludge; Sequencing batch reactor (SBR) |
 | [Kemira](https://www.kemira.com/) | FI | supplier | Coagulation-flocculation and chemical precipitation |
 | [Kubota (Water & Environment)](https://kubota-membrane.com/) | JP | oem | Membrane bioreactor (MBR) wastewater treatment; Anaerobic membrane bioreactor (AnMBR) |
 | [Linde](https://www.linde.com) | Germany | supplier, operator | Spent caustic treatment (wet air oxidation) |
+| [Merichem](https://www.merichem.com) | USA | licensor | Spent caustic treatment (wet air oxidation) |
 | [Metito](https://www.metito.com/) | AE | epc, operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style) |
 | [Mitsubishi Chemical Aqua Solutions](https://www.mcas.co.jp/) | JP | oem | Membrane bioreactor (MBR) wastewater treatment |
 | [Modern Water](https://www.modernwater.com/) | UK | oem | Forward osmosis |
 | [Nitto / Hydranautics](https://www.hydranautics.com/) | JP | oem | Reverse-osmosis water reuse train (NEWater-style); Nanofiltration for selective separations |
 | [Oasys Water](https://www.oasyswater.com/) | US | licensor | Forward osmosis |
 | [Ostara Nutrient Recovery Technologies](https://ostara.com/) | CA | licensor | Nutrient recovery (struvite and ammonia) |
+| [Panam Environmental Products](https://www.panamenv.com) | United States | oem | API and CPI oily-water separators; Dissolved air flotation (DAF) |
 | [Paques B.V.](https://www.paques.nl/) | NL | licensor, oem | Internal-circulation anaerobic reactor (Paques BIOPAQ IC); Upflow anaerobic sludge blanket (UASB/EGSB); Nutrient recovery (struvite and ammonia) |
 | [Praj Industries](https://www.praj.net) | India | epc, licensor | Zero liquid discharge (ZLD); Conventional activated sludge |
 | [Primozone](https://www.primozone.com/) | SE | oem | Ozonation and ozone-BAC filtration |
@@ -688,6 +692,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [Royal HaskoningDHV](https://www.nereda.net/) | NL | licensor, epc | Aerobic granular sludge treatment (Nereda) |
 | [Singapore PUB (National Water Agency)](https://www.pub.gov.sg/) | SG | operator | Potable reuse schemes (IPR/DPR); Reverse-osmosis water reuse train (NEWater-style); Membrane bioreactor (MBR) wastewater treatment |
 | [SUEZ Water Technologies](https://www.suezwatertechnologies.com) | France | supplier | Membrane bioreactor (MBR) wastewater treatment; Microfiltration and ultrafiltration pretreatment |
+| [Technip Energies](https://www.technipenergies.com) | France | epc, licensor | Spent caustic treatment (wet air oxidation) |
 | [Thermax](https://www.thermaxglobal.com) | India | epc, oem | Conventional activated sludge; Zero liquid discharge (ZLD) |
 | [Trojan Technologies](https://www.trojantechnologies.com/) | CA | oem | UV disinfection; Advanced oxidation processes (AOP) |
 | [VA Tech Wabag](https://www.wabag.com) | India | epc, licensor | Conventional activated sludge; Moving bed biofilm reactor (MBBR/IFAS); Effluent equalisation and surge management |
@@ -705,7 +710,7 @@ batch of this directory.
 
 - **CIV** (1): CIDB Malaysia
 - **HSE** (1): Flare Ventures
-- **WWT** (2): Monroe Environmental; Panam Environmental
+- **WWT** (1): Monroe Environmental
 
 ## Card notes: generic supplier descriptions (not nameable vendors)
 
@@ -717,4 +722,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-361 of 391 cards list at least one directory vendor.
+362 of 391 cards list at least one directory vendor.

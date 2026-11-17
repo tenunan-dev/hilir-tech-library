@@ -12,7 +12,8 @@
   "technologies": [
     "wwt-screening-grit",
     "wwt-sludge-dewatering",
-    "wwt-sludge-drying"
+    "wwt-sludge-drying",
+    "wwt-equalisation"
   ],
   "url": "https://www.huber.de/",
   "sources": [
@@ -21,5 +22,5 @@
       "note": "Homepage live, read 2026-11-13"
     }
   ],
-  "last_reviewed": "2026-11-13"
+  "last_reviewed": "2026-11-18"
 }

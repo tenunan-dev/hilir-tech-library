@@ -8,7 +8,8 @@
   "description": "Houston company licensing caustic treating and LO-CAT liquid redox sulfur recovery technology.",
   "technologies": [
     "gas-liquid-redox-lo-cat",
-    "ref-merox-sweetening"
+    "ref-merox-sweetening",
+    "wwt-spent-caustic-treatment"
   ],
   "url": "https://www.merichem.com",
   "sources": [
@@ -17,9 +18,10 @@
       "note": "Vendor site, read 2026-10-28"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-18",
   "categories": [
     "process-licensor",
     "equipment-oem"
-  ]
+  ],
+  "notes": "WAO technology acquired from Kenox, within the MERICON spent-caustic portfolio (added 2026-11-18)."
 }

@@ -69,7 +69,16 @@
       }
     }
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "name": "HUBER SE",
+      "product": "Mixing and equalization tank / storage and equalization tank (WASTE WATER Solutions brochure)"
+    },
+    {
+      "name": "Fluence",
+      "product": "equalisation tank within the Aspiral package scope"
+    }
+  ],
   "sources": [
     {
       "url": "https://savetexaswater.org/bmp/industrial/doc/Refining_Water_Best_Practices.pdf",
@@ -90,19 +99,19 @@
     "No named licensor — standard EPC practice"
   ],
   "last_reviewed": "2026-11-18",
-  "gaps": [
+  "gaps": [],
+  "costs": [
     {
-      "field": "suppliers",
-      "item": "named EPC or licensor for equalisation basins",
-      "reason_code": "not_in_sources_read",
-      "reason": "Standard EPC practice; no vendor page read claims it as a product. Checked 2026-11-18.",
-      "where": [
-        {
-          "hint": "Industrial-water EPC pages (Thermax, Wabag, Veolia)",
-          "access": "open"
-        }
-      ],
-      "action": "Add a named supplier when a page states it."
+      "metric": "equalisation basin and pumping, total project cost",
+      "low": 3.0,
+      "high": 3.0,
+      "unit": "USD million per basin",
+      "year": 2022,
+      "basis": "Montecito Sanitary District MBR retrofit cost table (presented in 2022 dollars, expressed in 2021 dollars): flow equalisation basin and pumping 3.00 USD million including 30% contingency and engineering; a primary-effluent bypass would cut it to 1.5 USD million; municipal MBR context, not refinery ETP",
+      "source": {
+        "url": "https://www.montsan.org/files/d1c6ee922/TM06+-+Cost+for+MBR+Construction+and+30-yr+Operations.pdf",
+        "note": "Montecito Sanitary District TM6 cost technical memorandum, read 2026-11-18"
+      }
     }
   ]
 }

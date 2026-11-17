@@ -1,0 +1,39 @@
+{
+  "id": "concawe",
+  "name": "Concawe — Innovative Techniques for Effluent Treatment (Report 6/25)",
+  "url": "https://www.concawe.eu/wp-content/uploads/Rpt_25-6.pdf",
+  "source_type": "association",
+  "sectors": [
+    "WWT",
+    "REF"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "subtopics": [
+    "effluent treatment TRL",
+    "refinery effluent",
+    "spent caustic",
+    "WAO"
+  ],
+  "publisher_org": "Concawe (European Petroleum Refiners Association)",
+  "country": "BE",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "update_frequency": "irregular",
+  "content_formats": [
+    "pdf"
+  ],
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-18",
+  "notes": "Concawe Report 6/25 (2025) grades innovative refinery effluent techniques by TRL (Table 20 grades Wet Air Oxidation TRL 8 for spent catalyst/caustics); API/CPI separators appear as the mature baseline without a number. No explicit licence text; summary-only. Evidence: PDF read 2026-11-18.",
+  "automated_access": "unstated",
+  "permitted_use": "unstated"
+}

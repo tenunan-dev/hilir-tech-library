@@ -9,7 +9,8 @@
   "description": "Grid-scale energy storage products, services and digital applications company founded by Siemens and AES, offering turnkey BESS delivery with Gridstack and Smartstack products and the Mosaic and Nispera digital platforms.",
   "technologies": [
     "pwr-lithium-ion-bess",
-    "pwr-smart-grids-vpp"
+    "pwr-smart-grids-vpp",
+    "wwt-equalisation"
   ],
   "sources": [
     {
@@ -17,7 +18,7 @@
       "note": "Fluence homepage, read 26 October 2026"
     }
   ],
-  "last_reviewed": "2026-10-26",
+  "last_reviewed": "2026-11-18",
   "aliases": [
     "Fluence Energy"
   ],

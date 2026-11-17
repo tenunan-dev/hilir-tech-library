@@ -85,9 +85,74 @@
   "last_reviewed": "2026-11-18",
   "gaps": [
     {
-      "what": "per-vendor model lines with plate-area and capacity ranges",
-      "why": "vendor pages read give design-basis figures but not named model series",
-      "next_action": "fetch WesTech and Monroe model pages and add model lines"
+      "what": "per-vendor model lines for WesTech and Monroe",
+      "why": "both are custom-engineered suppliers: their pages state design-basis and project capacities but publish no named series with ranges; Panam and FRC lines are recorded",
+      "next_action": "record WesTech/Monroe project references as reference plants rather than model lines"
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "panam-environmental",
+      "line": "API hopper-bottom oil water separator",
+      "models": [
+        "API"
+      ],
+      "range": "flow rates from 15 GPM to over 1,000+ GPM; API 421; length-to-width at least 5:1",
+      "url": "https://www.panamenv.com/oil-water-separators/api/"
+    },
+    {
+      "vendor": "panam-environmental",
+      "line": "FB flat-bottom oil water separator",
+      "models": [
+        "FB"
+      ],
+      "range": "flow rates from 5 to 5,000 GPM",
+      "url": "https://www.panamenv.com/oil-water-separators/fb/"
+    },
+    {
+      "vendor": "panam-environmental",
+      "line": "OS coated-steel oil water separator",
+      "models": [
+        "OS"
+      ],
+      "range": "flow rate range 5-5,000+ GPM; targets 10 mg/L or less of oil droplets 30 micron and larger",
+      "url": "https://www.panamenv.com/oil-water-separators/os/"
+    },
+    {
+      "vendor": "panam-environmental",
+      "line": "OSE stainless-steel oil water separator",
+      "models": [
+        "OSE"
+      ],
+      "range": "flow rates from 5 to 250,000+ GPM (as written on the vendor page); 99.99% free-oil removal, meets EPA Method 1664 and EN 858-1",
+      "url": "https://www.panamenv.com/oil-water-separators/stainless-steel-oil-water-separator-ose/"
+    },
+    {
+      "vendor": "panam-environmental",
+      "line": "OSF fibreglass oil water separator",
+      "models": [
+        "OSF"
+      ],
+      "range": "flow rates from 5 to 50 GPM",
+      "url": "https://www.panamenv.com/oil-water-separators/osf/"
+    },
+    {
+      "vendor": "panam-environmental",
+      "line": "TPI tilted plate interceptor (CPI)",
+      "models": [
+        "TPI"
+      ],
+      "range": "customised to flow rate; removes up to 99% of free-floating oil, outlet typically below 10 ppm",
+      "url": "https://www.panamenv.com/oil-water-separators/tpi/"
+    },
+    {
+      "vendor": "frc-systems",
+      "line": "Corrugated Plate Interceptor (CPI)",
+      "models": [
+        "CPI"
+      ],
+      "range": "flow capacity up to 6,000+ GPM (1,363+ m3/h); effective separation area 32-3,101 sq ft (2.97-288.1 m2); stainless 304/316/duplex",
+      "url": "https://www.frcsystems.com/products/ows"
     }
   ]
 }

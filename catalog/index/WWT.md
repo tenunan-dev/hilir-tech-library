@@ -1,10 +1,11 @@
 # WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 
-26 sources. Sub-topics: physical-treatment, biological-treatment, anaerobic-treatment, membrane-and-reuse, disinfection-advanced, sludge-and-biogas, resource-recovery, industrial-effluent-ets, oily-water-separation, equalisation-stormwater.
+27 sources. Sub-topics: physical-treatment, biological-treatment, anaerobic-treatment, membrane-and-reuse, disinfection-advanced, sludge-and-biogas, resource-recovery, industrial-effluent-ets, oily-water-separation, equalisation-stormwater.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [Central Pollution Control Board (India) — general standards for discharge](https://cpcb.nic.in/generalstandards.pdf) | agency-data | apac | open | summary-only |
+| [Concawe — Innovative Techniques for Effluent Treatment (Report 6/25)](https://www.concawe.eu/wp-content/uploads/Rpt_25-6.pdf) | association | eu, global | open | summary-only |
 | [EPA Effluent Guidelines — Petroleum Refining (40 CFR 419)](https://www.epa.gov/eg/petroleum-refining-effluent-guidelines) | agency-data | na, global | open | full-text-open |
 | [Ipieca resources](https://www.ipieca.org/resources) | association | global | open | full-text-restricted |
 | [Alfa Laval (separation and heat transfer)](https://www.alfalaval.com/) | oem-supplier | global | open | summary-only (unverified) |

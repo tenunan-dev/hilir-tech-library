@@ -8,7 +8,8 @@
   ],
   "description": "Engineering and technology licensor for hydrogen, LNG and ethylene, with proprietary reforming and low-carbon hydrogen solutions.",
   "technologies": [
-    "h2-smr"
+    "h2-smr",
+    "wwt-spent-caustic-treatment"
   ],
   "url": "https://www.technipenergies.com",
   "sources": [
@@ -17,12 +18,13 @@
       "note": "Vendor site, read 2026-10-28"
     }
   ],
-  "last_reviewed": "2026-10-28",
+  "last_reviewed": "2026-11-18",
   "aliases": [
     "Technip Energies (Badger)"
   ],
   "categories": [
     "plant-epc",
     "process-licensor"
-  ]
+  ],
+  "notes": "proprietary medium-pressure WAO for spent caustic from ethylene and petrochemical plants (added 2026-11-18)."
 }

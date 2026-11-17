@@ -504,7 +504,7 @@ Recorded gaps:
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
 Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment.
-Vendors: WesTech Engineering, Veolia (0 model lines recorded).
+Vendors: WesTech Engineering, Veolia (7 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -513,10 +513,17 @@ Vendors: WesTech Engineering, Veolia (0 model lines recorded).
 | CPI removable droplet size | 40-60 micron | plate separators down to about 60 micron, 40 micron in enhanced designs |
 | design residence time | 45 min | 45-minute design residence; velocity capped at 0.015 m/s; length-to-width ratio at least 5:1 |
 
+- **Panam Environmental Products** API hopper-bottom oil water separator: flow rates from 15 GPM to over 1,000+ GPM; API 421; length-to-width at least 5:1
+- **Panam Environmental Products** FB flat-bottom oil water separator: flow rates from 5 to 5,000 GPM
+- **Panam Environmental Products** OS coated-steel oil water separator: flow rate range 5-5,000+ GPM; targets 10 mg/L or less of oil droplets 30 micron and larger
+- **Panam Environmental Products** OSE stainless-steel oil water separator: flow rates from 5 to 250,000+ GPM (as written on the vendor page); 99.99% free-oil removal, meets EPA Method 1664 and EN 858-1
+- **Panam Environmental Products** OSF fibreglass oil water separator: flow rates from 5 to 50 GPM
+- **Panam Environmental Products** TPI tilted plate interceptor (CPI): customised to flow rate; removes up to 99% of free-floating oil, outlet typically below 10 ppm
+- **FRC Systems** Corrugated Plate Interceptor (CPI): flow capacity up to 6,000+ GPM (1,363+ m3/h); effective separation area 32-3,101 sq ft (2.97-288.1 m2); stainless 304/316/duplex
 
 Recorded gaps:
 
-- per-vendor model lines with plate-area and capacity ranges — fetch WesTech and Monroe model pages and add model lines
+- per-vendor model lines for WesTech and Monroe — record WesTech/Monroe project references as reference plants rather than model lines
 
 ## ozone-generators
 

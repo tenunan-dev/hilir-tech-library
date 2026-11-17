@@ -8,6 +8,19 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.18.4] — 2026-11-18 — ETS gaps closed with sources: TRL 8 for WAO, four cost figures, seven suppliers, seven model lines
+
+### Added
+
+- **TRL closed where a citable source exists**: wet air oxidation is **TRL 8** per Concawe Report 6/25, Table 20 ("Wet Air Oxidation — TRL 8 — Spent catalyst/caustics"); `concawe` added as a source record. For API/CPI separators, equalisation and stormwater, no citable TRL exists — the gaps stay open but now carry the searched provenance (Concawe, the IEA guide dataset and the World Bank/IHS report all checked).
+- **Four sourced cost figures**: WAO system USD 9.75 million for a 10-gpm unit (2001-02 Zimpro ROM, chemical-neutralent duty — the refinery-duty gap is narrowed, not deleted); stormwater wet-pond BMP USD 35,000-75,000 per acre treated (2019 USD, EPA fact sheet) and detention storage USD 17.5-84 per m³ (EPA 832-F-01-005); equalisation basin and pumping USD 3.0 million (Montecito MBR retrofit TM6, 2022 dollars).
+- **Suppliers closed**: Technip Energies (proprietary MP-WAO) and Merichem (Kenox WAO, MERICON portfolio) join the spent-caustic card — the Siirtec-Nigi gap is resolved as "absorbed into Baker Hughes, no WAO claim found"; HUBER (equalisation tank brochure) and Fluence (Aspiral scope) close the equalisation supplier gap.
+- **Seven vendor model lines** on `wwt-oily-water-separators`: six Panam series (API hopper, FB, OS, OSE, OSF, TPI) with flow ranges, and the FRC CPI (up to 6,000+ GPM, 2.97-288 m² separation area). `panam-environmental` and `frc-systems` added as vendor records; WesTech and Monroe are custom-engineered and recorded as such in the gap.
+
+### Verified
+
+- Build **526 sources / 391 cards / 537 vendors / 37 equipment / 299 projects**; pytest **1,428 passed, 12 skipped**; Neon reloaded (16,906 vectors); live-verified the spent-caustic card through the hosted service (TRL 8, cost figure, four suppliers, narrowed gap).
+
 ## [2026.11.18.3] — 2026-11-18 — ETS combined into WWT as WWT/ETS: taxonomy, four lifecycle cards, equipment, vendors, sources
 
 ### Decision (industry-practice basis)

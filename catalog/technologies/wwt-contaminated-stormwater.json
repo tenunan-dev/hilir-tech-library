@@ -77,9 +77,9 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "cost per hectare of contaminated-stormwater capture, with dollar year",
+      "item": "refinery-site-specific cost per hectare of contaminated-stormwater first-flush capture",
       "reason_code": "not_in_sources_read",
-      "reason": "Site-specific civil scope; no open cost source. Checked 2026-11-18.",
+      "reason": "Open figures now cover municipal wet-pond BMP construction (35,000-75,000 USD/acre treated, 2019 USD) and detention storage (17.5-84 USD/m3); no open source prices a refinery first-flush basin as such. Checked 2026-11-18.",
       "where": [
         {
           "hint": "Refinery project cost disclosures",
@@ -87,6 +87,32 @@
         }
       ],
       "action": "Record when a sourced figure appears."
+    }
+  ],
+  "costs": [
+    {
+      "metric": "wet-pond BMP construction cost",
+      "low": 35000,
+      "high": 75000,
+      "unit": "USD per acre of impervious area treated",
+      "year": 2019,
+      "basis": "King and Hagan (2011) construction cost range, prices updated to 2019 dollars; municipal stormwater BMP, a proxy for industrial contaminated-runoff capture basins",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2021-11/bmp-wet-ponds.pdf",
+        "note": "EPA NPDES wet-pond BMP fact sheet, read 2026-11-18"
+      }
+    },
+    {
+      "metric": "stormwater detention storage cost",
+      "low": 17.5,
+      "high": 84,
+      "unit": "USD per m3 of storage",
+      "year": 2001,
+      "basis": "surface ponds 17.50-35 USD per cubic meter of storage (Center for Watershed Protection, 1998); buried corrugated steel pipe about 84 USD per cubic meter (Arizona engineer's estimates); dollar year not stated in the source text, EPA fact sheet published 2001",
+      "source": {
+        "url": "https://nepis.epa.gov/Exe/ZyPDF.cgi/P100IL5C.PDF?Dockey=P100IL5C.PDF",
+        "note": "EPA 832-F-01-005 stormwater detention fact sheet, read 2026-11-18"
+      }
     }
   ]
 }

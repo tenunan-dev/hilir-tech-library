@@ -198,11 +198,16 @@
       "field": "costs",
       "item": "installed cost per m2 of API/CPI separator, with dollar year",
       "reason_code": "not_in_sources_read",
-      "reason": "No open source prices the unit; vendor quotes only. Checked 2026-11-18.",
+      "reason": "No open source prices the unit: the EPA/NETL-commissioned produced-water report declines to ascribe economics ('No attempt was made to ascribe economic factors to these technologies since costs will vary from location to location'), and vendor pages are quote-only. Checked 2026-11-18.",
       "where": [
         {
           "hint": "Vendor budgetary quotes; paid cost databases are catalog-only",
           "access": "paid"
+        },
+        {
+          "hint": "ALL Consulting produced-water treatment options report (2005), cost-ascription refusal",
+          "url": "http://dvikan.no/ntnu-studentserver/reports/ALLConsulting-WaterTreatmentOptionsReport.pdf",
+          "access": "open"
         }
       ],
       "action": "Record when a sourced cost figure appears."
@@ -211,7 +216,7 @@
       "field": "trl",
       "item": "TRL with a cited source",
       "reason_code": "not_in_sources_read",
-      "reason": "No agency TRL table covers wastewater process units; checked 2026-11-18.",
+      "reason": "No agency TRL table covers wastewater process units; checked 2026-11-18. Searched 2026-11-18: Concawe Report 6/25 (mentions API separators but grades only innovative techniques), the IEA ETP Clean Energy Technology Guide dataset (no rows), and the World Bank/IHS water-management report (TRL table covers desalination only). Reviews treat these as the mature baseline and never assign a number.",
       "where": [
         {
           "hint": "IEA ETP Clean Energy Technology Guide (already searched)",

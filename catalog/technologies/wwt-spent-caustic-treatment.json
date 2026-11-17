@@ -121,6 +121,16 @@
     {
       "name": "Evoqua",
       "product": "Zimpro wet air oxidation (legacy)"
+    },
+    {
+      "name": "Technip Energies",
+      "product": "Spent Caustic Technology Unit (proprietary medium-pressure WAO)",
+      "url": "https://www.ten.com/en/media/document-library/spent-caustic-technology-unit-wet-air-oxidation-brochure"
+    },
+    {
+      "name": "Merichem Technologies",
+      "product": "WAO technology acquired from Kenox, within the MERICON spent-caustic portfolio",
+      "url": "https://merichemtech.com/wet-air-oxidation-wao-technology-acquired-from-kenox/"
     }
   ],
   "sources": [
@@ -151,9 +161,9 @@
   "gaps": [
     {
       "field": "costs",
-      "item": "installed cost of a spent-caustic WAO unit, with dollar year",
+      "item": "installed cost for a refinery/ethylene spent-caustic WAO duty (the open figure covers a 10-gpm chemical-agent neutralent system)",
       "reason_code": "not_in_sources_read",
-      "reason": "Licensor-quoted only; no open source found. Checked 2026-11-18.",
+      "reason": "The ACWA/AATAP report gives a 2001-02 Zimpro rough-order-of-magnitude cost for a 10-gpm WAO system (USD 9.75M with installation and facility) but for chemical-neutralent duty; no open source prices a refinery spent-caustic unit. Checked 2026-11-18.",
       "where": [
         {
           "hint": "Licensor budgetary studies; paid cost databases are catalog-only",
@@ -161,19 +171,30 @@
         }
       ],
       "action": "Record when a sourced figure appears."
-    },
-    {
-      "field": "suppliers",
-      "item": "confirm other WAO licensors (e.g. Siirtec Nigi) with a page",
-      "reason_code": "source_unreachable",
-      "reason": "Named in secondary discussion but no readable page this pass.",
-      "where": [
-        {
-          "hint": "Siirtec Nigi spent caustic page (fetch blocked 2026-11-18)",
-          "access": "blocked"
-        }
-      ],
-      "action": "Add when a page is reachable."
     }
-  ]
+  ],
+  "trl": {
+    "low": 8,
+    "high": 8,
+    "source": {
+      "url": "https://www.concawe.eu/wp-content/uploads/Rpt_25-6.pdf",
+      "source_id": "concawe",
+      "note": "Concawe Report 6/25, Innovative Techniques for Effluent Treatment, Table 20, read 2026-11-18"
+    }
+  },
+  "costs": [
+    {
+      "metric": "wet air oxidation system installed cost",
+      "low": 9.75,
+      "high": 9.75,
+      "unit": "USD million per 10-gpm system",
+      "year": 2001,
+      "basis": "capital including installation and facility for a 10-gallon-per-minute WAO system, about 54.5 m3/d (about 179 USD-thousand per m3/d derived); US Filter/Zimpro rough-order-of-magnitude estimate, chemical-agent neutralent duty rather than refinery spent caustic; 2001-2002 vendor estimates",
+      "source": {
+        "url": "https://clu-in.org/acwaatap/06-wetairoxidationfinal.pdf",
+        "note": "ACWA/AATAP wet air oxidation evaluation report, read 2026-11-18"
+      }
+    }
+  ],
+  "notes": "Siirtec Nigi was absorbed into Baker Hughes (siirtecnigi.com redirects to the Baker Hughes plant-module page, 2026-11-18) — no WAO claim found there."
 }
