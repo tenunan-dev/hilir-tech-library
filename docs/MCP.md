@@ -35,7 +35,7 @@ bearer token, and by default it does not serve text from full-text-restricted so
 | What are the limits of this equipment class? | `list_equipment(equipment_type=...)` | `get_equipment` |
 | Which plants/projects use X, or what is built in Z? | `list_projects(sector=..., country=..., query=...)` | `get_project` |
 | What does this acronym mean? | `get_glossary_term("CCGT")` | `list_glossary(q)` to browse |
-| Which code/standard applies? | `list_standards(org="API")` | `get_standard("API RP 535")` |
+| Which code/standard applies? | `list_standards(org="API")` | `get_standard("API 610")` |
 | Find sources or text about X | `search(q, kind=...)` — kinds include `project` and `equipment` | `get_source` / `list_documents` / `get_document` |
 | What does the library not know? | `list_gaps(...)` | `list_technology_register` for cards that do not exist yet |
 | How are these connected? | `graph_neighbors(node=...)` | `sql_query` for custom joins |

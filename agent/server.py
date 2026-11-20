@@ -381,14 +381,14 @@ def get_glossary_term(term: str) -> dict | None:
 @server.tool()
 def list_standards(org: str | None = None, query: str | None = None) -> list[dict]:
     """Standards, codes and specifications referenced across the library, with designation, title,
-    scope and url. org filters the issuing body (e.g. API, ISO, NORSOK, ASME, IEC, DNV). query
-    matches designation, title and scope. Use get_standard for one entry."""
+    scope and url. org filters the issuing body (e.g. API, ISO, IEC, ASME, ASCE, CEN, NFPA, UL).
+    query matches designation, title and scope. Use get_standard for one entry."""
     return library.list_standards(org, query)
 
 
 @server.tool()
 def get_standard(ref: str) -> dict | None:
-    """One standard by id or designation (e.g. "API RP 535", "ISO 21809-2", "NORSOK M-501")."""
+    """One standard by id or designation (e.g. "API 610", "IEC 61511", "API RP 2218")."""
     return library.get_standard(ref)
 
 
