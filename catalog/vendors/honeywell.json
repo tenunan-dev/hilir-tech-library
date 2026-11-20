@@ -26,5 +26,7 @@
   "last_reviewed": "2026-10-28",
   "categories": [
     "equipment-oem"
-  ]
+  ],
+  "stub": true,
+  "notes": "stub: the directory record exists to claim the card supplier name; products not yet researched (2026-11-20)."
 }

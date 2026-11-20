@@ -36,7 +36,7 @@ bearer token, and by default it does not serve text from full-text-restricted so
 | Which plants/projects use X, or what is built in Z? | `list_projects(sector=..., country=..., query=...)` | `get_project` |
 | What does this acronym mean? | `get_glossary_term("CCGT")` | `list_glossary(q)` to browse |
 | Which code/standard applies? | `list_standards(org="API")` | `get_standard("API RP 535")` |
-| Find sources or text about X | `search(q, kind=...)` — kinds include `project` and `equipment` | `get_source` / `get_document` |
+| Find sources or text about X | `search(q, kind=...)` — kinds include `project` and `equipment` | `get_source` / `list_documents` / `get_document` |
 | What does the library not know? | `list_gaps(...)` | `list_technology_register` for cards that do not exist yet |
 | How are these connected? | `graph_neighbors(node=...)` | `sql_query` for custom joins |
 | Counts, freshness, provenance of the numbers | `library_stats()` | `sql_query` against `db_catalog()` |
@@ -66,11 +66,24 @@ Catalogue records by sector/discipline code, Asia Pacific ranked first. The righ
 "what sources do we hold on midstream leak detection" — cheaper than search when you want the
 inventory rather than passages.
 
+**`list_documents(source_id=None, sector=None, limit=50) → [documents]`**
+The collected-documents index: `path` (the handle `get_document` takes), `title`, `source_id`,
+`source_name`, `source_url`, `reuse_level`, `sectors`, and `text_included` — false for
+full-text-restricted documents, whose stored text is never served (the metadata is).
+
+**`get_document(path, offset=0, limit=20000) → {meta, text, total_chars, ...}`**
+Front matter and text of one document. `offset`/`limit` page through the text in characters
+(default 20,000, hard cap 100,000); the corpus holds documents over 2M characters, so check
+`total_chars` and page rather than asking for everything.
+
 ### Cards and figures
 
-**`compare_technologies(sector=None, maturity=None, application=None) → [cards]`**
-Compact comparison table, commercial first. `maturity`: commercial, demonstration, pilot, lab;
-`application` is free text ("cement", "power", "hydrogen") matched against the card's applications.
+**`compare_technologies(sector=None, maturity=None, application=None, technology_ids=None) → [cards]`**
+Compact comparison table, commercial first; each row carries a `gaps` count so a blank
+`trl`/`costs` cell can be told apart from an unrecorded one. `maturity`: commercial,
+demonstration, pilot, lab; `application` is free text ("cement", "power", "hydrogen") matched
+against the card's applications. `technology_ids` compares named cards side by side in the order
+given (filters do not apply; unknown ids are skipped).
 
 **`get_technology(technology_id) → card`**
 The full card: `principle`, `process_steps` (each with equipment), `block_diagram_mermaid`,
@@ -117,7 +130,11 @@ thing seen from two sides.
 
 **`list_technology_register(code=None, maturity=None, query=None)`**
 The indicative register (~400 entries, all sectors). Entries with a `card` id are verified; the rest
-are topics awaiting a card. Maturity and examples here are indicative, not verified.
+are topics awaiting a card. Maturity and examples here are indicative, not verified. Rows carry
+their `id`, which `get_register_entry(id)` takes.
+
+**`get_register_entry(entry_id)`**
+One register entry by its id (`code/slug-of-name`, e.g. `CCS/amine-solvent-post-combustion-capture`).
 
 **`list_gaps(sector=None, field=None, reason_code=None, include_no_card=False)`**
 What the library knows it does not know: `field` (trl, performance, costs, reference_plants,
@@ -129,7 +146,7 @@ the next thing worth researching.
 ### Reference
 
 **`list_glossary(query=None)` / `get_glossary_term(term)`**
-Terms and abbreviations with expansion and note — resolve PUE, WUE, SMR, DLE, HRSG, MERCON, SRU
+Terms and abbreviations with expansion and note — resolve PUE, WUE, SMR, DLE, HRSG, SRU
 before paraphrasing them.
 
 **`list_standards(org=None, query=None)` / `get_standard(ref)`**
@@ -183,7 +200,7 @@ Same functions, same shapes, for clients without MCP:
 |---|---|
 | `search` | `GET /api/search?q=&kind=&sector=&discipline=&region=&reuse_level=&limit=` |
 | `list_by_tag` | `GET /api/sources?code=&region=&reuse_level=&source_type=` |
-| `get_source` / `get_document` | `GET /api/sources/{id}` · `GET /api/documents?path=` |
+| `get_source` / `get_document` | `GET /api/sources/{id}` · `GET /api/documents?path=&offset=&limit=` (no `path` → the index) |
 | `compare_technologies` / `get_technology` | `GET /api/technologies?...` · `GET /api/technologies/{id}` |
 | `find_figures` | `GET /api/figures?kind=&sector=&technology_id=&q=&unit=&limit=` |
 | `list_vendors` / `get_vendor` | `GET /api/vendors?...` · `GET /api/vendors/{id}` |

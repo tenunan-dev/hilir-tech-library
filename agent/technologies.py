@@ -52,6 +52,10 @@ def check(card):
 
 def _range(fig):
     lo, hi = fig.get("low"), fig.get("high")
+    if lo is None and hi is None:
+        # Schema-valid figure with no range recorded (only metric/unit/basis/source required):
+        # render nothing instead of crashing the comparison/search/markdown paths.
+        return "no range recorded"
     value = f"{lo:g}" if lo is not None and (hi is None or lo == hi) else (f"{lo:g}-{hi:g}" if lo is not None else f"up to {hi:g}")
     return f"{value} {fig['unit']}" + (f" ({fig['year']}$)" if "USD" in fig["unit"] and fig.get("year") else "")
 
@@ -67,10 +71,22 @@ def summary(card):
         "key_equipment": card["key_equipment"],
         "costs": [f"{c['metric']}: {_range(c)}" for c in card.get("costs", [])],
         "largest_reference": next((f"{p['name']}: {p.get('capacity', '')}" for p in card.get("reference_plants", [])), None),
+        # A blank trl/applications/costs in a comparison row may be a RECORDED gap, not an
+        # oversight — surface the count so callers can tell the difference (get_technology
+        # and list_gaps carry the detail).
+        "gaps": len(card.get("gaps", [])),
     }
 
 
-def compare(cards, sector=None, maturity=None, application=None):
+def compare(cards, sector=None, maturity=None, application=None, technology_ids=None):
+    """technology_ids: compare these named cards side by side, in the order given (unknown
+    ids are skipped, consistent with the get_* tools' unknown-id tolerance); when given,
+    the sector/maturity/application filters do not apply."""
+    if technology_ids:
+        wanted = {tid: n for n, tid in enumerate(technology_ids)}
+        hits = [c for c in cards if c["id"] in wanted]
+        hits.sort(key=lambda c: wanted[c["id"]])
+        return [summary(c) for c in hits]
     hits = [c for c in cards if (not sector or c["sector"] == sector) and (not maturity or c["maturity"] == maturity)
             and (not application or any(application.lower() in a.lower() for a in c.get("applications", [])))]
     hits.sort(key=lambda c: (MATURITY_ORDER[c["maturity"]], c["name"]))

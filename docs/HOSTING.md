@@ -33,10 +33,14 @@ Automate API-Key shape).
 
 ## How to publish
 
-Workers (from this laptop):
+Workers (from this laptop). **The live pair is `deploy/frontend` (`og-tech-library-ui`,
+`techlib.hilir.app`) + `deploy/backend` (`og-tech-library-api`, `techlib-api.hilir.app`) —
+verified live 2026-11-20.** `deploy/edge` is REFERENCE ONLY: its `routes` block was removed
+(so it can no longer claim both custom domains in an accidental deploy) and its `AUDIENCE`
+var was corrected to the two-origin comma list. Do not deploy it unless you are deliberately
+finishing the Phase-4 consolidation — see the note in its config.
 
 ```bash
-cd ".../hilir-tech-library/deploy/edge"     && npx wrangler deploy
 cd ".../hilir-tech-library/deploy/frontend" && npx wrangler deploy
 cd ".../hilir-tech-library/deploy/backend"  && npx wrangler deploy
 ```
@@ -77,7 +81,11 @@ Data changes need none of this: `tools/build.py` → `agent/library.py build` �
 minutes, with no deploy. The three publish paths and their gates: [DEVELOPMENT.md](DEVELOPMENT.md) §5.
 
 Tests for the API door: `cd deploy/backend && npm test` (runs
-`deploy/backend/tests/machine-gate.test.ts` — JWT audience, estate key, header re-attachment).
+`deploy/backend/tests/machine-gate.test.ts` — the RFC 9728/6750 challenge shape, the
+`AUDIENCE` list parse, and the container-hop header shaping: the retired DSN header and any
+client `x-api-key` are dropped, a verified estate key is re-attached as Bearer. The suite
+was unrunnable as committed until 2026-11-20 — its import needed an explicit `.ts`
+extension under plain `node --test`).
 
 ## After deploying — the 60-second verification
 

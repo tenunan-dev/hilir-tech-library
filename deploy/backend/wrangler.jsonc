@@ -1,17 +1,16 @@
 {
   // Backend Worker of the split deployment (decision #34): MCP + REST at https://techlib-api.hilir.app
-  // (owner-confirmed 2026-10-31, P0.3). API-key + OAuth auth only; no web UI here. Deploy from this
+  // (owner-confirmed 2026-10-31, P0.3). Bearer + estate-key auth only; no web UI here. Deploy from this
   // folder: npx wrangler deploy (needs Docker running; builds ../docker/Dockerfile.backend).
   // /__embed was retired 2026-10-31 (P3.1): both split containers embed queries locally, so the
   // edge service had no callers left; the AI binding went with it.
+  // NOTE: deploy/edge is REFERENCE ONLY (its routes block was removed 2026-11-20 — it claims
+  // this worker's domain and is not live); see that file before any consolidation deploy.
   "name": "og-tech-library-api",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
   "account_id": "afa8fa65e07832d7e611e831d150d3bd",
   "observability": { "enabled": true },
-  // The service a machine (sk-) key must be issued for. Estate convention: audience matches the
-  // service, and the Access registry lists this library as "techlib". Keys issued for another
-  // service are rejected; keys with no audience are allowed but logged (see src/authz.ts).
   "vars": {
     // Registered RFC 8707 resource origins this API serves — the token's aud.
     // The UI origin (frontend forwards its session token) and this API host's

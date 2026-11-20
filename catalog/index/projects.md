@@ -1,14 +1,9 @@
 # Projects and operating plants
 
-299 project records (one per named project or plant, schema `schema/project.schema.json`).
+295 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
-
-### Kasawari CCS, Sarawak (kasawari-ccs-sarawak)
-Status: **FID** | Country: MY
-3.3 Mtpa
-Technologies: ccs-depleted-field-storage
 
 ### ExxonMobil-FuelCell Energy carbonate fuel cell pilot, Rotterdam (exxonmobil-fuelcell-rotterdam-pilot)
 Status: **commissioning** | Country: Netherlands
@@ -298,6 +293,12 @@ Status: **operating** | Country: Australia
 LNG plant with gas-phase mercury removal units ahead of acid gas removal.
 Technologies: gas-mercury-removal
 
+### Kasawari gas field development and CCS project (Block SK316, offshore Sarawak) (kasawari-ccs-sarawak)
+Status: **operating** | Country: MY
+3.3 Mtpa CO2 reinjection — Malaysia's first large-scale CCS project. The Kasawari gas field began production in August 2024; CO2 injection had not started as of April 2026 — PETRONAS said on 1 April 2026 it is looking to bring the first injection forward to as early as 2027, from a previous projection of end-2029/early 2030
+Technologies: gas-high-co2-reinjection, ccs-depleted-field-storage
+Capacity: CO2 reinjection capacity:  Mtpa
+
 ### LNG carrier Quest Kirishima (NYK) (quest-kirishima-lng-carrier)
 Status: **operating** | Country: Japan
 LNGC with an on-board boil-off reliquefaction system.
@@ -313,30 +314,17 @@ Status: **operating** | Country: NL
 3,400 t/yr bio-LNG plus 6,800 t/yr liquid bio-CO2; feedstock is biogas from Renewi waste processing; opened 15 Oct 2021 - the first bio-LNG plant in the Netherlands
 Technologies: gas-bio-lng
 
-### PETRONAS Kasawari CCS (Block SK316, offshore Sarawak) (petronas-kasawari-ccs-block-sk316-offshore-sarawak)
+### PETRONAS PFLNG Dua (PFLNG 2), Rotan field, offshore Sabah (petronas-pflng-dua-rotan-field-offshore-sabah)
 Status: **operating** | Country: MY
-3.3 Mtpa CO2
-Technologies: gas-high-co2-reinjection
+1.5 Mtpa LNG in 1,300 m water depth; first cargo 24 March 2021; first floating LNG reference for BASF OASE acid gas removal
+Technologies: lng-flng, gas-amine-agr
+Capacity: LNG production capacity:  Mtpa
 
-### PETRONAS PFLNG 1 (SATU), offshore Sarawak, Amine Guard FS (petronas-pflng-1-satu-offshore-sarawak-amine-guard-fs)
+### PETRONAS PFLNG Satu (PFLNG 1), Kanowit then Kebabangan, offshore Malaysia (petronas-pflng-satu)
 Status: **operating** | Country: MY
-1.2 Mtpa LNG; about 112 miles off Sarawak; acid gas removal designed by PETRONAS and UOP for floating service
-Technologies: gas-amine-agr
-
-### PETRONAS PFLNG DUA, Rotan field, offshore Sabah (petronas-pflng-dua-rotan-field-offshore-sabah)
-Status: **operating** | Country: MY
-1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE
-Technologies: gas-amine-agr
-
-### PETRONAS PFLNG DUA, Rotan field, Sabah (petronas-pflng-dua-rotan-field-sabah)
-Status: **operating** | Country: MY
-1.5 Mtpa LNG in 1,300 m water depth
-Technologies: lng-flng
-
-### PFLNG Satu, Kanowit gas field, offshore Sarawak (PETRONAS) (pflng-satu-kanowit-gas-field-offshore-sarawak-petronas)
-Status: **operating** | Country: MY
-world's first operational floating LNG vessel: 360 m long, 1.2 Mtpa; first gas November 2016 at Kanowit, 180 km offshore Bintulu; 50th cargo delivered by October 2021
-Technologies: lng-flng
+world's first operational floating LNG vessel: 360 m long, 1.2 Mtpa; first gas November 2016 at Kanowit, 180 km offshore Bintulu; redeployed to the Kebabangan (KBB) field, offshore Sabah, in 2019; 50th cargo delivered by October 2021; acid gas removal designed by PETRONAS and UOP (Amine Guard FS) for floating service
+Technologies: lng-flng, gas-amine-agr
+Capacity: LNG production capacity:  Mtpa
 
 ### Ras Laffan LNG trains (ras-laffan-lng-trains)
 Status: **operating** | Country: QA
@@ -435,11 +423,6 @@ Recorded gaps: confirmed project status
 Status: **proposed** | Country: QA
 140,000 bbl/d GTL products in two 70,000 bbl/d trains, plus about 120,000 boe/d NGLs and ethane, from 1.6 bcf/d North Field gas
 Technologies: gas-gtl-ft
-
-### PETRONAS PFLNG SATU (petronas-pflng-satu)
-Status: **proposed** | Country: MY
-not stated in source read
-Technologies: lng-flng
 
 ### RasGas Helium 2, Ras Laffan (rasgas-helium-2-ras-laffan)
 Status: **proposed** | Country: QA

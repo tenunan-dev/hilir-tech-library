@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import base64
 import hashlib
+import logging
 import os
 import time
 from functools import lru_cache
@@ -31,6 +32,8 @@ from urllib.parse import urlparse
 import jwt
 import requests
 from jwt import PyJWKClient
+
+_LOG = logging.getLogger("hilir.auth")
 
 ISSUER = os.environ.get("HILIR_ISSUER", "https://access.hilir.app/api/auth").rstrip("/")
 # Comma-separated resource origins; PyJWT accepts an iterable audience and
@@ -140,6 +143,13 @@ def _introspect_key(token: str) -> dict[str, Any] | None:
         )
     except Exception:  # noqa: BLE001 — verifier unreachable = fail closed
         return None
+    if response.status_code == 429:
+        # Since 2026-11-20 Access rate-limits /api/v2-introspect at the edge
+        # (50 requests / 10 s per datacenter+IP). This is "the verifier is
+        # throttling us", not "the key is bad" — say so in the log so an
+        # operator can tell a lockout window from a real key failure.
+        _LOG.warning("key verifier rate-limited (HTTP 429) at %s; failing closed for this "
+                     "token hash for the cache window", INTROSPECT_URL)
     if response.status_code == 200:
         try:
             body = response.json()

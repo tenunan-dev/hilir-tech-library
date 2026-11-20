@@ -194,7 +194,7 @@ CREATE TABLE IF NOT EXISTS project (                        -- curated project a
 );
 CREATE INDEX IF NOT EXISTS project_tsv_idx ON project USING gin (tsv);
 
-CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative register of about 300 technologies
+CREATE TABLE IF NOT EXISTS register_entry (            -- the indicative technology register (see library_stats for the live count)
     id       text PRIMARY KEY,
     sector   text NOT NULL,
     area     text NOT NULL,
@@ -309,35 +309,41 @@ $$;
 -- when the filter is unset or full-text-open. Passages of full-text-restricted documents NEVER
 -- surface: their text may sit in this database (owner load), but search must not serve it.
 -- Example: SELECT * FROM hybrid_search('CO2 storage Malay Basin', NULL, 10);
+-- Ranking parity with the SQLite fallback (agent/library.py): technology cards are boosted
+-- 1.3 (TECHNOLOGY_BOOST) and chunk/source rows get the region boost of their source's tags
+-- (sea 1.25, apac 1.15 — the max when a source carries both), so the two paths rank alike.
 CREATE OR REPLACE FUNCTION hybrid_search(q text, qvec vector(384) DEFAULT NULL, k integer DEFAULT 10,
                                          sector text DEFAULT NULL, discipline text DEFAULT NULL,
                                          region text DEFAULT NULL, reuse_level text DEFAULT NULL)
 RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE sql STABLE AS $$
     WITH items AS (
         SELECT 'chunk'::text AS kind, c.id AS ref, c.title, c.tsv, c.embedding, d.sectors,
-               d.source_id AS src_id, s.reuse_level AS src_reuse
+               d.source_id AS src_id, s.reuse_level AS src_reuse,
+               (SELECT array_agg(code) FROM source_tag st
+                WHERE st.source_id = d.source_id AND st.kind = 'region') AS regions
         FROM chunk c
         JOIN document d ON d.id = c.document_id
         JOIN source s ON s.id = d.source_id
         WHERE coalesce(d.reuse_level, s.reuse_level) <> 'full-text-restricted'
         UNION ALL
-        SELECT 'technology', t.id, t.name, t.tsv, t.embedding, ARRAY[t.sector], NULL::text, NULL::text
+        SELECT 'technology', t.id, t.name, t.tsv, t.embedding, ARRAY[t.sector], NULL::text, NULL::text, NULL::text[]
         FROM technology t
         UNION ALL
         SELECT 'vendor', v.id, v.name, v.tsv, v.embedding,
                (SELECT array_agg(DISTINCT t.sector) FROM technology t WHERE t.id = ANY (v.technologies)),
-               NULL::text, NULL::text
+               NULL::text, NULL::text, NULL::text[]
         FROM vendor v
         UNION ALL
-        SELECT 'equipment', e.id, e.name, e.tsv, e.embedding, e.sector_codes, NULL::text, NULL::text
+        SELECT 'equipment', e.id, e.name, e.tsv, e.embedding, e.sector_codes, NULL::text, NULL::text, NULL::text[]
         FROM equipment e
         UNION ALL
         SELECT 'source', s.id, s.name, s.tsv, s.embedding,
                (SELECT array_agg(code) FROM source_tag st WHERE st.source_id = s.id AND st.kind = 'sector'),
-               s.id, s.reuse_level
+               s.id, s.reuse_level,
+               (SELECT array_agg(code) FROM source_tag st WHERE st.source_id = s.id AND st.kind = 'region')
         FROM source s
         UNION ALL
-        SELECT 'project', p.id, p.name, p.tsv, p.embedding, p.sector_codes, NULL::text, NULL::text
+        SELECT 'project', p.id, p.name, p.tsv, p.embedding, p.sector_codes, NULL::text, NULL::text, NULL::text[]
         FROM project p
     ),
     tq AS (SELECT websearch_to_tsquery('english', regexp_replace(trim(q), '\s+', ' or ', 'g')) AS query),
@@ -384,7 +390,19 @@ RETURNS TABLE (kind text, ref text, title text, score double precision) LANGUAGE
         ) ranked WHERE r <= 50
     ),
     fused AS (
-        SELECT kind, ref, sum(1.0 / (60 + r)) AS score FROM (SELECT * FROM kw UNION ALL SELECT * FROM vec) u GROUP BY kind, ref
+        -- Parity boosts with the SQLite fallback: technology 1.3; chunk/source rows carry their
+        -- source's region tags, so sea/apac sources rank up the same way library.search does.
+        -- (regions is functionally dependent on kind+ref via the items join; it rides in the
+        -- GROUP BY so the multiplier outside the aggregate is legal.)
+        SELECT u.kind, u.ref, u.regions,
+               sum(1.0 / (60 + u.r))
+               * (CASE WHEN u.kind = 'technology' THEN 1.3 ELSE 1.0 END)
+               * (CASE WHEN u.regions IS NULL THEN 1.0 ELSE
+                      greatest(CASE WHEN 'sea' = ANY (u.regions) THEN 1.25 ELSE 1.0 END,
+                               CASE WHEN 'apac' = ANY (u.regions) THEN 1.15 ELSE 1.0 END) END) AS score
+        FROM (SELECT k.*, i.regions FROM (SELECT * FROM kw UNION ALL SELECT * FROM vec) k
+              JOIN items i ON i.kind = k.kind AND i.ref = k.ref) u
+        GROUP BY u.kind, u.ref, u.regions
     )
     SELECT f.kind, f.ref, i.title, f.score
     FROM fused f JOIN items i ON i.kind = f.kind AND i.ref = f.ref

@@ -69,11 +69,11 @@ flowchart LR
 
 **Reference plants:**
 - PETRONAS PFLNG DUA, Rotan field, offshore Sabah, MY: 1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE; first cargo 24 March 2021. [source](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas)
-- PETRONAS PFLNG 1 (SATU), offshore Sarawak, Amine Guard FS, MY: 1.2 Mtpa LNG; about 112 miles off Sarawak; acid gas removal designed by PETRONAS and UOP for floating service; start-up scheduled for end 2015 in the 2013 announcement; not confirmed there. [source](https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/)
+- PETRONAS PFLNG Satu (PFLNG 1), Kanowit then Kebabangan, offshore Malaysia, MY: 1.2 Mtpa LNG; first gas November 2016 at Kanowit, redeployed to Kebabangan in 2019; operating. [source](https://maritime-executive.com/article/petronas-names-its-first-flng)
 
 TRL source: [IEA ETP Clean Energy Technology Guide, dataset of 24 July 2026, 2025 assessment (IEA 1-11 scale): 'Advanced acid gas removal' 9](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide)
 
-Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas), [3](https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/), [4](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal). Last reviewed 2026-11-16.
+Sources: [1](https://www.energy.gov/sites/prod/files/2019/09/f66/2019%20NETL%20LCA-GHG%20Report.pdf), [2](https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas), [3](https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/), [4](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal). Last reviewed 2026-11-20.
 
 ## Bio-LNG and liquefied biomethane
 <a id="gas-bio-lng"></a>
@@ -344,14 +344,13 @@ flowchart LR
 
 **Reference plants:**
 - Shell Prelude FLNG, AU: 488 m long; 3.6 Mtpa LNG, 1.3 Mtpa condensate, 0.4 Mtpa LPG; 475 km NNE of Broome; first condensate cargo shipped by March 2019. [source](https://www.offshore-technology.com/news/shell-prelude-flng/)
-- PETRONAS PFLNG DUA, Rotan field, Sabah, MY: 1.5 Mtpa LNG in 1,300 m water depth; first cargo 24 March 2021. [source](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities)
-- PETRONAS PFLNG SATU, MY: not stated in source read; world's first operational FLNG (2016); moved from Kanowit to Kebabangan field in 2019. [source](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities)
-- PFLNG Satu, Kanowit gas field, offshore Sarawak (PETRONAS), MY: world's first operational floating LNG vessel: 360 m long, 1.2 Mtpa; first gas November 2016 at Kanowit, 180 km offshore Bintulu; 50th cargo delivered by October 2021; operating. [source](https://maritime-executive.com/article/petronas-names-its-first-flng)
+- PETRONAS PFLNG Satu (PFLNG 1), Kanowit then Kebabangan, offshore Malaysia, MY: 1.2 Mtpa LNG; first gas November 2016 at Kanowit, redeployed to Kebabangan in 2019; operating. [source](https://maritime-executive.com/article/petronas-names-its-first-flng)
+- PETRONAS PFLNG Dua (PFLNG 2), Rotan field, offshore Sabah, MY: 1.5 Mtpa LNG in 1,300 m water depth; first cargo 24 March 2021. [source](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities)
 
 **Missing inputs:**
 - TRL range with a cited source (trl): Commercial technology, so TRL 9 is expected, but no source read states it. The IEA Clean Energy Technology Guide (collected October 2026, 634 entries) has no matching entry. Web-checked 2026-10-28: suppliers recorded where applicable; remaining figures sit in vendor-selector, licensor or paywalled-standards material and were not verifiable open. Where: Licensor or industry association statements of commercial deployment; academic reviews (open). Next: Find a TRL table that covers this technology and add trl {low, high, source}.
 
-Sources: [1](https://www.offshore-technology.com/news/shell-prelude-flng/), [2](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities). Last reviewed 2026-11-17.
+Sources: [1](https://www.offshore-technology.com/news/shell-prelude-flng/), [2](https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities). Last reviewed 2026-11-20.
 
 ## Floating storage and regasification units (FSRU)
 <a id="lng-fsru"></a>
@@ -1085,10 +1084,10 @@ flowchart LR
 - capital cost, offshore high-CO2 development with reinjection: 1 USD billion (2025$); Kasawari CCS component for 3.7-4 Mtpa: offshore CO2 platform, 138 km pipeline and injection, about RM4.5bn (~$250/tpa).. [source](https://www.khor-reports.com/blog/2025/9/25/ccus-role-in-the-transition-to-net-zero-1)
 
 **Reference plants:**
-- PETRONAS Kasawari CCS (Block SK316, offshore Sarawak), MY: 3.3 Mtpa CO2; FID 20 October 2022; the Kasawari gas field began production in August 2024, but CO2 injection had not started as of April 2026 — PETRONAS said on 1 April 2026 it is looking to bring the first CO2 injection forward to as early as 2027, from a previous projection of end-2029/early 2030; the 2025 and end-2025 start-up dates cited in earlier sources did not materialise. [source](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027)
+- Kasawari gas field development and CCS project (Block SK316, offshore Sarawak), MY: 3.3 Mtpa CO2; operating (gas since August 2024); CO2 injection targeted from as early as 2027. [source](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027)
 
 **Missing inputs:**
 - unit capital and operating cost with a primary source (costs): One project figure is recorded (about $1bn for 3.7-4 Mtpa); it comes from secondary commentary, so the unit cost needs a primary operator source. Where: arXiv and open-access journals: techno-economic or review papers (MDPI is blocked by its CDN; use the manual inbox) (catalog: arxiv, open); Licensor and EPC studies; paid cost databases are catalog-only (paid); OSTI.GOV full-text reports from DOE labs: search the technology name plus 'techno-economic' (catalog: osti, open). Next: Leave open until a source states this metric and scope.
 - TRL with a cited source (trl): The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL table found (IEA ETP guide checked 2026-10-28). Where: IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open). Next: Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card.
 
-Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/), [3](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027), [4](https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/), [5](https://www.ogj.com/home/article/17233856/processes-combine-to-assist-acid-gas-handling-reinjection). Last reviewed 2026-11-17.
+Sources: [1](https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs), [2](https://www.hydrocarbonengineering.com/the-environment/06012023/baker-hughes-to-supply-technology-for-offshore-ccs-facilities/), [3](https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027), [4](https://geoexpro.com/kasawari-gas-production-has-commenced-but-when-does-the-co2-storage-project/), [5](https://www.ogj.com/home/article/17233856/processes-combine-to-assist-acid-gas-handling-reinjection). Last reviewed 2026-11-20.

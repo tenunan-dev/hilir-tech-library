@@ -1,33 +1,73 @@
 {
   "id": "kasawari-ccs-sarawak",
-  "name": "Kasawari CCS, Sarawak",
-  "project_type": "greenfield",
-  "sector": "CCS",
+  "name": "Kasawari gas field development and CCS project (Block SK316, offshore Sarawak)",
+  "aliases": [
+    "Kasawari CCS",
+    "PETRONAS Kasawari CCS",
+    "Kasawari gas field",
+    "Kasawari (Block SK316)"
+  ],
+  "project_type": "operating-asset",
+  "sector": "GAS",
   "sector_codes": [
+    "GAS",
     "CCS"
   ],
   "country": "MY",
-  "status": "FID",
-  "description": "3.3 Mtpa",
+  "status": "operating",
+  "location": "Kasawari field, Block SK316, offshore Sarawak, Malaysia",
+  "description": "3.3 Mtpa CO2 reinjection — Malaysia's first large-scale CCS project. The Kasawari gas field began production in August 2024; CO2 injection had not started as of April 2026 — PETRONAS said on 1 April 2026 it is looking to bring the first injection forward to as early as 2027, from a previous projection of end-2029/early 2030",
   "technologies": [
+    "gas-high-co2-reinjection",
     "ccs-depleted-field-storage"
   ],
-  "sources": [
+  "owners": [
     {
-      "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
-      "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      "name": "PETRONAS",
+      "vendor_id": "petronas",
+      "role": "operator"
     }
   ],
-  "last_reviewed": "2026-11-11",
-  "milestones": [
+  "capacities": [
     {
-      "event": "start-up (per card source)",
-      "date": "2022",
+      "metric": "CO2 reinjection capacity",
+      "low": 3.3,
+      "unit": "Mtpa",
+      "basis": "FID announcement (Oil & Gas Journal); injection timeline per The Star, 1 April 2026",
       "source": {
         "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
         "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
       }
     }
   ],
-  "notes": "Status per card source: FID October 2022"
+  "milestones": [
+    {
+      "event": "FID",
+      "date": "2022-10-20",
+      "source": {
+        "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+        "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+      }
+    },
+    {
+      "event": "first gas (Kasawari gas field)",
+      "date": "2024-08",
+      "source": {
+        "url": "https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027",
+        "note": "The Star, PETRONAS seeks to bring forward first CO2 injection at Kasawari to 2027, 1 April 2026 (read 28 October 2026)"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ogj.com/energy-transition/article/14286402/petronas-takes-fid-for-offshore-malaysia-ccs",
+      "note": "Oil & Gas Journal, PETRONAS takes FID for offshore Malaysia CCS"
+    },
+    {
+      "url": "https://www.thestar.com.my/business/business-news/2026/04/01/petronas-seeks-to-bring-forward-first-co2-injection-at-kasawari-to-2027",
+      "note": "The Star, PETRONAS seeks to bring forward first CO2 injection at Kasawari to 2027, 1 April 2026 (read 28 October 2026)"
+    }
+  ],
+  "notes": "Merged 2026-11-20 from kasawari-ccs-sarawak (status FID, milestone mislabelled 'start-up') and petronas-kasawari-ccs-block-sk316-offshore-sarawak: one development, gas and CCS. The milestone the old record called 'start-up (per card source)' was the FID — re-read from the sources. The 2025 and end-2025 start-up dates cited in earlier sources did not materialise.",
+  "last_reviewed": "2026-11-20"
 }

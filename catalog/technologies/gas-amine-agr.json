@@ -165,17 +165,16 @@
       "project_id": "petronas-pflng-dua-rotan-field-offshore-sabah"
     },
     {
-      "name": "PETRONAS PFLNG 1 (SATU), offshore Sarawak, Amine Guard FS",
+      "name": "PETRONAS PFLNG Satu (PFLNG 1), Kanowit then Kebabangan, offshore Malaysia",
       "country": "MY",
-      "capacity": "1.2 Mtpa LNG; about 112 miles off Sarawak; acid gas removal designed by PETRONAS and UOP for floating service",
-      "status": "start-up scheduled for end 2015 in the 2013 announcement; not confirmed there",
-      "year": 2013,
+      "capacity": "1.2 Mtpa LNG; first gas November 2016 at Kanowit, redeployed to Kebabangan in 2019",
+      "status": "operating",
+      "year": 2016,
       "source": {
-        "url": "https://hydrocarbonprocessing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/",
-        "source_id": "hydrocarbon-processing",
-        "note": "Hydrocarbon Processing news, 16 April 2013"
+        "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+        "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
       },
-      "project_id": "petronas-pflng-1-satu-offshore-sarawak-amine-guard-fs"
+      "project_id": "petronas-pflng-satu"
     }
   ],
   "advantages": [
@@ -210,7 +209,7 @@
       "note": "Honeywell UOP acid gas removal page, read 25 October 2026"
     }
   ],
-  "last_reviewed": "2026-11-16",
+  "last_reviewed": "2026-11-20",
   "gaps": [],
   "trl": {
     "low": 9,

@@ -32,7 +32,11 @@ def summary(vendor):
     return {"id": vendor["id"], "name": vendor["name"], "country": vendor.get("country"),
             "roles": vendor.get("roles", []), "aliases": vendor.get("aliases", []),
             "products": vendor.get("products", []), "url": vendor.get("url"),
-            "technologies": vendor.get("technologies", [])}
+            "technologies": vendor.get("technologies", []),
+            # An empty products list may be a deliberate stub (record created to claim a
+            # card's supplier name, products not yet researched) — say so instead of
+            # leaving a blank that reads as "sells nothing".
+            "stub": bool(vendor.get("stub"))}
 
 
 def coverage_queue(cards, records):

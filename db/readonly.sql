@@ -16,3 +16,9 @@ ALTER ROLE og_mcp_read SET statement_timeout = '15s';
 -- CONNECT on the current database, name resolved server-side (Postgres identifiers cannot be %s
 -- bind parameters); format %I is the server-side injection-safe quoting for identifiers.
 DO $$ BEGIN EXECUTE format('GRANT CONNECT ON DATABASE %I TO og_mcp_read', current_database()); END $$;
+-- Postgres grants EXECUTE on functions to PUBLIC by default, and og.refresh_similarity is a write
+-- path (DELETE + INSERT on edge). The READ ONLY transaction the MCP layer opens already blocks it,
+-- but the grant should not exist either — revoke it explicitly so the read-only role is read-only
+-- even outside that transaction. graph_neighbors / hybrid_search are read-only and keep their
+-- default PUBLIC grant (sql_query calls them).
+REVOKE EXECUTE ON FUNCTION og.refresh_similarity(integer, double precision) FROM PUBLIC;

@@ -428,6 +428,41 @@ def list_register(code=None, maturity=None, query=None):
             and (not q or q in f"{e['name']} {e['area']} {e['examples']}".lower())]
 
 
+def get_register_entry(entry_id):
+    """One register entry by its id — "<code>/<slug-of-name>", the same id the Neon rows carry
+    (graph.register_id minus the "register:" prefix). Returns None for an unknown id."""
+    from graph import slug
+    needle = (entry_id or "").strip().removeprefix("register:")
+    if not needle:
+        return None
+    for e in technologies.load_register():
+        if f"{e['code']}/{slug(e['name'])[:80]}" == needle:
+            return e
+    return None
+
+
+def list_documents(source_id=None, sector=None, limit=50, db=None, exclude_restricted=False):
+    """Document index rows (path, title, source, reuse level), optionally per source or sector.
+    Mirrors pg.document_rows: restricted documents are listed with their metadata even when the
+    text is withheld (text_included=false) — the index is the discovery surface, not the text."""
+    db = db or connect()
+    out = []
+    for path, title, url, sid, blob in db.execute(
+            "SELECT d.path, d.title, d.url, s.id, s.record FROM docs d JOIN sources s ON s.id = d.source_id ORDER BY d.path"):
+        rec = json.loads(blob)
+        if source_id and sid != source_id:
+            continue
+        if sector and sector not in rec.get("sectors", []):
+            continue
+        if len(out) >= max(1, min(int(limit), 500)):
+            break
+        restricted = exclude_restricted and doc_restricted(db, path, rec)
+        out.append({"path": path, "title": title, "source_id": sid, "source_name": rec.get("name"),
+                    "source_url": rec.get("url"), "reuse_level": rec.get("reuse_level"),
+                    "text_included": not restricted, "sectors": rec.get("sectors", [])})
+    return out
+
+
 def list_gaps(sector=None, field=None, reason_code=None, include_no_card=False, db=None):
     """Missing inputs recorded on cards (why missing, where to get them, next action); optionally register entries with no card."""
     db = db or connect()
@@ -437,10 +472,10 @@ def list_gaps(sector=None, field=None, reason_code=None, include_no_card=False, 
             and (not reason_code or r["reason_code"] == reason_code)]
 
 
-def compare_technologies(sector=None, maturity=None, application=None, db=None):
+def compare_technologies(sector=None, maturity=None, application=None, db=None, technology_ids=None):
     db = db or connect()
     cards = [json.loads(r[0]) for r in db.execute("SELECT card FROM technologies")]
-    return technologies.compare(cards, sector, maturity, application)
+    return technologies.compare(cards, sector, maturity, application, technology_ids)
 
 
 GLOSSARY_PATH = ROOT / "catalog" / "glossary.jsonl"
@@ -507,7 +542,7 @@ def find_figures(kind="both", sector=None, technology_id=None, query=None, unit=
 
 
 def list_glossary(query=None):
-    """Terms and expansions used across the library (60 entries), optionally filtered by text."""
+    """Terms and expansions used across the library, optionally filtered by text."""
     q = (query or "").lower()
     return [t for t in _read_jsonl(GLOSSARY_PATH)
             if not q or q in f'{t["term"]} {t.get("expansion", "")} {t.get("note", "")}'.lower()]
@@ -674,7 +709,7 @@ def get_source(source_id, db=None, exclude_restricted=False):
     return rec
 
 
-def get_document(path, db=None, exclude_restricted=False):
+def get_document(path, db=None, exclude_restricted=False, offset=0, limit=None):
     db = db or connect()
     row = db.execute("SELECT d.path, s.record FROM docs d JOIN sources s ON s.id = d.source_id WHERE d.path = ?",
                      (path.split("#")[0],)).fetchone()
@@ -688,7 +723,14 @@ def get_document(path, db=None, exclude_restricted=False):
     bases = [pathlib.Path(root[0]) if root else ROOT, ROOT]
     doc_path = next((b / row["path"] for b in bases if (b / row["path"]).exists()), bases[0] / row["path"])
     meta, body = read_document(doc_path)
-    return {"path": row["path"], "meta": meta, "text": body}
+    # Page through the text in characters (default limit 20,000, hard cap 100,000): the corpus
+    # holds documents over 2M characters, so an uncapped call is unusable for an agent.
+    if limit is None:
+        limit = 20000
+    limit = max(0, min(int(limit), 100_000))
+    offset = max(0, int(offset))
+    return {"path": row["path"], "meta": meta, "text": body[offset:offset + limit],
+            "total_chars": len(body), "offset": offset, "limit": limit}
 
 
 def list_by_tag(code=None, region=None, reuse_level=None, source_type=None, db=None):

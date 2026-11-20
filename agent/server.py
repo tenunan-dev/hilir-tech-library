@@ -9,8 +9,8 @@
 An HTML web interface (cards, catalog, gaps, database console) is served under / — see agent/web.py; set DATABASE_URL (a read-only DSN) to enable the Postgres-backed tools.
 
 HTTP mode requires a hilir Access bearer token (Authorization: Bearer <access
-token>, forwarded by the edge, verified here against the issuer's JWKS) and by
-default does not serve text from full-text-restricted sources, because people
+token>, forwarded by the edge, verified here against the issuer's JWKS) and
+restricted text is off by default on every surface (stdio included): people
 other than the owner may reach it. --include-restricted turns that off for a
 server only the owner can use.
 LIBRARY_ALLOWED_HOSTS (comma-separated) enables Host header checks behind a known hostname.
@@ -85,7 +85,7 @@ RULES THAT MATTER:
 server = Server("hilir-tech-library", instructions=INSTRUCTIONS)
 _db = None
 _embedder = False
-EXCLUDE_RESTRICTED = False
+EXCLUDE_RESTRICTED = True  # default ON: only the owner's own server may serve restricted text
 
 
 def db():
@@ -122,8 +122,12 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     list is exact, not a free-text filter.
     sector / discipline: a taxonomy code such as H2 or ROT — call taxonomy() first; a wrong code
     silently returns empty. region: e.g. sea, apac, global. limit: rows returned, capped at 50.
+    NOTE: a discipline (or region) filter keeps only sources and their passages — technology
+    cards, vendors, equipment and projects carry no such tags and are silently excluded on both
+    the database and the baked-index path.
     Rows are lean summaries whose extra fields vary by kind (vendors carry roles, projects carry
-    status and capacities); an empty result can mean a wrong code or a real gap — follow the get_*
+    status and capacities; a "gaps" count or "stub": true marks a recorded data gap — see
+    get_* / list_gaps); an empty result can mean a wrong code or a real gap — follow the get_*
     tools for the full record, and do not read one empty page as "nothing exists"."""
     # Decision #34: with a database configured, search runs on Neon (single source of truth —
     # a publish shows up here without a deploy); the SQLite index is the fallback. All filters
@@ -180,12 +184,27 @@ def get_source(source_id: str) -> dict | None:
 
 
 @server.tool()
-def get_document(path: str) -> dict | None:
-    """Front matter and full text of one collected document, by the path a search result gave.
+def get_document(path: str, offset: int = 0, limit: int = 20000) -> dict | None:
+    """Front matter and text of one collected document, by the path a search result gave.
     Text of full-text-restricted documents is withheld on public servers — the front matter and
-    summary still come back, which is a licence boundary, not a fetch failure."""
-    return _with_neon(lambda: pg.document_row(path),
-                      lambda: library.get_document(path, db(), EXCLUDE_RESTRICTED))
+    summary still come back, which is a licence boundary, not a fetch failure.
+
+    offset/limit page through the text in characters (default limit 20,000, hard cap 100,000);
+    the response carries total_chars, so call again with offset += limit until you have the
+    part you need — the corpus holds documents over 2M characters."""
+    return _with_neon(lambda: pg.document_row(path, offset, limit),
+                      lambda: library.get_document(path, db(), EXCLUDE_RESTRICTED, offset, limit))
+
+
+@server.tool()
+def list_documents(source_id: str | None = None, sector: str | None = None, limit: int = 50) -> list[dict]:
+    """The collected documents index: one row per document with its path (the handle get_document
+    takes), title, source, url, reuse_level, the sectors it is tagged with, and text_included —
+    false for full-text-restricted documents, whose stored text is never served (the metadata is).
+    source_id narrows to one catalog source (the id get_source gives); sector narrows to a
+    taxonomy code. Rows are capped at 500."""
+    return _with_neon(lambda: pg.document_rows(source_id, sector, limit),
+                      lambda: library.list_documents(source_id, sector, limit, db(), EXCLUDE_RESTRICTED))
 
 
 @server.tool()
@@ -215,11 +234,14 @@ def get_technology(technology_id: str) -> dict | None:
 
 @server.tool()
 def compare_technologies(sector: str | None = None, maturity: str | None = None,
-                         application: str | None = None) -> list[dict]:
+                         application: str | None = None, technology_ids: list[str] | None = None) -> list[dict]:
     """Comparison table of technology options, commercial first. sector: e.g. CCS.
-    maturity: commercial, demonstration, pilot or lab. application: e.g. cement, power, hydrogen."""
-    return _with_neon(lambda: technologies.compare(pg.tech_cards(), sector, maturity, application),
-                      lambda: library.compare_technologies(sector, maturity, application, db()))
+    maturity: commercial, demonstration, pilot or lab. application: e.g. cement, power, hydrogen.
+    technology_ids: compare these named cards side by side in the order given (e.g.
+    ["ccs-amine-post-combustion", "ccs-polymeric-membrane"]) — when given, the filters do not
+    apply; unknown ids are skipped."""
+    return _with_neon(lambda: technologies.compare(pg.tech_cards(), sector, maturity, application, technology_ids),
+                      lambda: library.compare_technologies(sector, maturity, application, db(), technology_ids))
 
 
 @server.tool()
@@ -311,6 +333,15 @@ def list_technology_register(code: str | None = None, maturity: str | None = Non
 
 
 @server.tool()
+def get_register_entry(entry_id: str) -> dict | None:
+    """One register entry by its id, which list_technology_register rows carry ("code/slug-of-name",
+    e.g. "CCS/amine-solvent-post-combustion-capture"). Maturity and examples are indicative
+    and unverified. Returns null for an unknown id."""
+    return _with_neon(lambda: pg.register_row(entry_id),
+                      lambda: library.get_register_entry(entry_id))
+
+
+@server.tool()
 def list_gaps(sector: str | None = None, field: str | None = None, reason_code: str | None = None,
               include_no_card: bool = False) -> list[dict]:
     """Inputs the technology cards still lack, each with why it is missing (reason_code: not_in_sources_read,
@@ -336,8 +367,8 @@ def taxonomy() -> dict:
 def list_glossary(query: str | None = None) -> list[dict]:
     """The library's glossary: terms and abbreviations with their expansion and a short note.
 
-    Use it to resolve acronyms an agent or user may not know (PUE, WUE, TRL, SRU, MERCON, SMR,
-    DLE, HRSG...). query filters term, expansion and note by substring."""
+    Use it to resolve acronyms an agent or user may not know (PUE, WUE, TRL, SRU, SMR, DLE,
+    HRSG...). query filters term, expansion and note by substring."""
     return library.list_glossary(query)
 
 
@@ -479,12 +510,12 @@ def main(argv=None):
     ap.add_argument("--host", default="0.0.0.0")
     ap.add_argument("--port", type=int, default=int(os.environ.get("PORT", 8000)))
     ap.add_argument("--include-restricted", action="store_true",
-                    help="HTTP mode: also serve full-text-restricted text (only if no one but the owner can reach it)")
+                    help="also serve full-text-restricted text (only if no one but the owner can reach it)")
     args = ap.parse_args(argv)
+    EXCLUDE_RESTRICTED = not args.include_restricted
     if not args.http:
         server.run()
         return 0
-    EXCLUDE_RESTRICTED = not args.include_restricted
     web_on = os.environ.get("LIBRARY_WEB", "on").lower() not in ("off", "0", "false", "no")
     if web_on:
         # Loud at boot: a missing account store leaves every verified identity

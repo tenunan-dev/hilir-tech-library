@@ -529,11 +529,20 @@ def document_index() -> list[dict]:
     return _execute(work)
 
 
-def document_row(path: str) -> dict | None:
-    """library.get_document equivalent from og.document: front matter and full text. Text of
+def document_row(path: str, offset: int = 0, limit: int | None = None) -> dict | None:
+    """library.get_document equivalent from og.document: front matter and text. Text of
     full-text-restricted documents is never returned — the stored body is dropped and
     restricted=True is set, but the metadata (title, url, summary) still comes through so the
-    web viewer can cite the source."""
+    web viewer can cite the source.
+
+    offset/limit page through the text in characters (default limit 20,000, hard cap
+    100,000): the corpus holds documents over 2M characters, so an uncapped call is
+    unusable for an agent. total_chars lets the caller know when to page again."""
+
+    # Resolve the window OUTSIDE work(): assigning them inside would make them locals
+    # of the nested function and shadow these parameters (UnboundLocalError).
+    off = max(0, int(offset))
+    lim = 20000 if limit is None else max(0, min(int(limit), 100_000))
 
     def work(cur):
         cur.execute("""SELECT d.id, d.meta, d.body, d.reuse_level, s.reuse_level, s.url, s.name
@@ -544,10 +553,45 @@ def document_row(path: str) -> dict | None:
             return None
         did, meta, body, d_reuse, s_reuse, s_url, s_name = rows[0]
         restricted = (d_reuse or s_reuse) == "full-text-restricted"
+        text = "" if restricted else (body or "")
         return {"path": did, "meta": _jsonb(meta) or {},
-                "text": "" if restricted else (body or ""),
+                "text": text[off:off + lim],
                 "restricted": restricted,
+                "total_chars": len(text), "offset": off, "limit": lim,
                 "source_url": s_url, "source_name": s_name}
+
+    return _execute(work)
+
+
+def document_rows(source_id: str | None = None, sector: str | None = None,
+                  limit: int = 50) -> list[dict]:
+    """Document index rows for the MCP list_documents tool: path, title, source, reuse level
+    and whether the stored text is served. Restricted documents are listed (owner decision
+    2026-11-09: metadata is shown even when the text is withheld) with text_included=false."""
+
+    def work(cur):
+        sql = """SELECT d.id, d.meta->>'title', d.source_id, s.name, s.url,
+                        coalesce(d.reuse_level, s.reuse_level), d.text_included,
+                        (SELECT array_agg(code) FROM source_tag st
+                         WHERE st.source_id = d.source_id AND st.kind = 'sector')
+                 FROM document d LEFT JOIN source s ON s.id = d.source_id"""
+        conds, params = [], []
+        if source_id:
+            conds.append("d.source_id = %s")
+            params.append(source_id)
+        if sector:
+            conds.append("EXISTS (SELECT 1 FROM source_tag st WHERE st.source_id = d.source_id "
+                         "AND st.kind = 'sector' AND st.code = %s)")
+            params.append(sector)
+        if conds:
+            sql += " WHERE " + " AND ".join(conds)
+        sql += " ORDER BY d.id LIMIT %s"
+        params.append(max(1, min(int(limit), 500)))
+        cur.execute(sql, params)
+        return [{"path": did, "title": title, "source_id": sid, "source_name": sname,
+                 "source_url": surl, "reuse_level": reuse,
+                 "text_included": bool(included), "sectors": sectors or []}
+                for did, title, sid, sname, surl, reuse, included, sectors in cur.fetchall()]
 
     return _execute(work)
 
@@ -587,16 +631,34 @@ def gap_rows(sector: str | None = None, field: str | None = None, reason_code: s
 def register_rows(code: str | None = None, maturity: str | None = None, query: str | None = None) -> list[dict]:
     """Register entries from og.register_entry, filtered like library.list_register (code,
     maturity, text over name/area/examples). Order is by id (code, then name), not the YAML's
-    declaration order — content is identical."""
+    declaration order — content is identical. Each row carries its id, which
+    get_register_entry takes."""
 
     def work(cur):
-        cur.execute("SELECT sector, area, name, maturity, examples, card_id FROM register_entry ORDER BY id")
+        cur.execute("SELECT id, sector, area, name, maturity, examples, card_id FROM register_entry ORDER BY id")
         q = (query or "").lower()
-        return [{"code": code_, "area": area, "name": name, "maturity": maturity_, "examples": examples,
+        return [{"id": rid, "code": code_, "area": area, "name": name, "maturity": maturity_, "examples": examples,
                  "card": card_id}
-                for code_, area, name, maturity_, examples, card_id in cur.fetchall()
+                for rid, code_, area, name, maturity_, examples, card_id in cur.fetchall()
                 if (not code or code_ == code) and (not maturity or maturity_ == maturity)
                 and (not q or q in f"{name} {area} {examples}".lower())]
+
+    return _execute(work)
+
+
+def register_row(entry_id: str) -> dict | None:
+    """One register entry by its id (also mirrored on the SQLite path, which rebuilds the
+    same id from the YAML). Returns None for an unknown id."""
+
+    def work(cur):
+        cur.execute("SELECT id, sector, area, name, maturity, examples, card_id FROM register_entry WHERE id = %s",
+                    (entry_id,))
+        rows = cur.fetchall()
+        if not rows:
+            return None
+        rid, code_, area, name, maturity_, examples, card_id = rows[0]
+        return {"id": rid, "code": code_, "area": area, "name": name, "maturity": maturity_,
+                "examples": examples, "card": card_id}
 
     return _execute(work)
 
@@ -743,27 +805,29 @@ def search_library(q: str, kind: str = "all", sector: str | None = None, limit: 
                     row["title"] = name
                     out.append(row)
         if "vendor" in by_kind:
-            cur.execute("SELECT id, country, roles, products, technologies FROM vendor WHERE id = ANY(%s)", (by_kind["vendor"],))
+            cur.execute("SELECT id, country, roles, products, technologies, (record->>'stub')::boolean FROM vendor WHERE id = ANY(%s)", (by_kind["vendor"],))
             by_id = {r[0]: r for r in cur.fetchall()}
             for h in hits:
                 if h["kind"] == "vendor" and h["ref"] in by_id:
-                    _, country, roles, products, technologies = by_id[h["ref"]]
+                    _, country, roles, products, technologies, stub = by_id[h["ref"]]
                     out.append({"kind": "vendor", "ref": h["ref"], "title": h["title"], "score": round(h["score"], 4),
                                 "licence": "Library's own curated vendor record; cite the sources listed in the record",
                                 "reuse_level": "full-text-open", "permitted_use": "any",
                                 "country": country, "roles": roles or [], "products": products or [],
-                                "technologies": technologies or [],
+                                "technologies": technologies or [], "stub": bool(stub),
                                 "hint": "Call get_vendor for the full record and the sources behind it."})
         if "equipment" in by_kind:
-            cur.execute("SELECT id, equipment_type, vendors FROM equipment WHERE id = ANY(%s)", (by_kind["equipment"],))
+            cur.execute("SELECT id, equipment_type, vendors, record FROM equipment WHERE id = ANY(%s)", (by_kind["equipment"],))
             by_id = {r[0]: r for r in cur.fetchall()}
             for h in hits:
                 if h["kind"] == "equipment" and h["ref"] in by_id:
-                    _, etype, vendors_ = by_id[h["ref"]]
+                    _, etype, vendors_, erec = by_id[h["ref"]]
+                    rec = _jsonb(erec) or {}
                     out.append({"kind": "equipment", "ref": h["ref"], "title": h["title"], "score": round(h["score"], 4),
                                 "licence": "Library's own curated equipment record; cite the sources listed in the record",
                                 "reuse_level": "full-text-open", "permitted_use": "any",
-                                "equipment_type": etype, "vendors": vendors_ or [], "spec_metrics": [],
+                                "equipment_type": etype, "vendors": vendors_ or [],
+                                "spec_metrics": [s["metric"] for s in rec.get("specifications", [])],
                                 "hint": "Call get_equipment for the specification ranges, vendor model lines and sources."})
         if "project" in by_kind:
             import projects as project_records
@@ -791,15 +855,16 @@ def search_library(q: str, kind: str = "all", sector: str | None = None, limit: 
                                 "url": url, "regions": _jsonb(regions) or [], "sectors": _jsonb(sectors) or [],
                                 "disciplines": _jsonb(disciplines) or []})
         if "chunk" in by_kind:
-            cur.execute("""SELECT c.id, d.url, d.licence, d.reuse_level, d.summary, c.body, d.source_id
+            cur.execute("""SELECT c.id, d.url, d.licence, d.reuse_level, d.summary, c.body, d.source_id, s.permitted_use
                            FROM chunk c JOIN document d ON d.id = c.document_id
+                           LEFT JOIN source s ON s.id = d.source_id
                            WHERE c.id = ANY(%s)""", (by_kind["chunk"],))
             by_id = {r[0]: r for r in cur.fetchall()}
             for h in hits:
                 if h["kind"] == "chunk" and h["ref"] in by_id:
-                    _, url, licence, reuse, summary, body, source_id = by_id[h["ref"]]
+                    _, url, licence, reuse, summary, body, source_id, permitted = by_id[h["ref"]]
                     row = {"kind": "chunk", "ref": h["ref"], "title": h["title"], "score": round(h["score"], 4),
-                           "licence": licence, "reuse_level": reuse, "permitted_use": "unstated",
+                           "licence": licence, "reuse_level": reuse, "permitted_use": permitted or "unstated",
                            "path": h["ref"].split("#")[0], "url": url, "snippet": (body or "")[:400]}
                     if summary:
                         row["summary"] = summary
@@ -815,6 +880,11 @@ def search_library(q: str, kind: str = "all", sector: str | None = None, limit: 
 def tables_doc() -> dict:
     """Static schema description for the db_catalog MCP tool and the web /database page."""
     return {
+        "schema": "og",
+        "how_to_query": "Every table and view listed here lives in the `og` schema. Unqualified "
+                        "names also work (the connection sets search_path = og, public), but the "
+                        "robust form is qualified. Worked example: `select count(*) from og.source`. "
+                        "One SELECT or WITH statement, no semicolons, no comments.",
         "tables": [
             {"name": "source",
              "columns": ["id", "name", "url", "source_type", "publisher_org", "country", "access", "licence",
@@ -865,7 +935,8 @@ def tables_doc() -> dict:
                       "record the full catalog record (aliases, applications, notes, last_reviewed)"},
             {"name": "register_entry",
              "columns": ["id", "sector", "area", "name", "maturity", "examples", "card_id"],
-             "holds": "the ~300-technology register"},
+             "holds": "the technology register (indicative, unverified); the live count is in "
+                      "library_stats — get_register_entry takes one row's id"},
             {"name": "node",
              "columns": ["id", "kind", "label", "props", "embedding"],
              "holds": "knowledge graph nodes with ids \"<kind>:<key>\" (source:netl, document:corpus/..., "

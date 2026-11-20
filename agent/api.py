@@ -22,6 +22,10 @@ def _int(value, default, low, high):
 
 
 def _found(value):
+    # An error-shaped payload {"path", "error"} is a licence refusal (restricted text), not a
+    # success: answer 403 instead of 200-with-error-body. None stays a plain 404.
+    if value is not None and isinstance(value, dict) and set(value) == {"path", "error"}:
+        return JSONResponse(value, status_code=403)
     return JSONResponse(value) if value is not None else JSONResponse({"error": "not found"}, status_code=404)
 
 
@@ -43,14 +47,21 @@ def routes(tools):
         return _found(tools.get_source(request.path_params["source_id"]))
 
     async def document(request: Request):
-        path = request.query_params.get("path")
+        q = request.query_params
+        path = q.get("path")
         if not path:
-            return JSONResponse({"error": "query parameter path is required"}, status_code=400)
-        return _found(tools.get_document(path))
+            # List mode: the documents index (path/title/source/reuse_level/text_included),
+            # optionally narrowed to one source or sector.
+            return JSONResponse(tools.list_documents(q.get("source_id"), q.get("sector"),
+                                                     _int(q.get("limit"), 50, 1, 500)))
+        return _found(tools.get_document(path, _int(q.get("offset"), 0, 0, 10**9),
+                                         _int(q.get("limit"), 20000, 1, 100_000)))
 
     async def technologies(request: Request):
         q = request.query_params
-        return JSONResponse(tools.compare_technologies(q.get("sector"), q.get("maturity"), q.get("application")))
+        ids = [t.strip() for t in (q.get("technology_ids") or "").split(",") if t.strip()] or None
+        return JSONResponse(tools.compare_technologies(q.get("sector"), q.get("maturity"),
+                                                       q.get("application"), ids))
 
     async def technology(request: Request):
         return _found(tools.get_technology(request.path_params["technology_id"]))
@@ -79,6 +90,9 @@ def routes(tools):
     async def register(request: Request):
         q = request.query_params
         return JSONResponse(tools.list_technology_register(q.get("code"), q.get("maturity"), q.get("q")))
+
+    async def register_entry(request: Request):
+        return _found(tools.get_register_entry(request.path_params["entry_id"]))
 
     async def gaps(request: Request):
         q = request.query_params
@@ -138,6 +152,7 @@ def routes(tools):
         Route("/api/documents", document), Route("/api/technologies", technologies),
         Route("/api/technologies/{technology_id}", technology), Route("/api/vendors", vendors),
         Route("/api/vendors/{vendor_id}", vendor), Route("/api/register", register),
+        Route("/api/register/{entry_id:path}", register_entry),
         Route("/api/equipment", equipment_list), Route("/api/equipment/{equipment_id}", equipment),
         Route("/api/projects", project_list), Route("/api/projects/{project_id}", project),
         Route("/api/gaps", gaps), Route("/api/stats", stats), Route("/api/version", version),
@@ -153,7 +168,7 @@ def _param(name, description, required=False, schema=None, where="query"):
             "schema": schema or {"type": "string"}}
 
 
-SECTOR = _param("sector", "Sector code: UPS, MID, GAS, REF, PCH, PWR, H2 or CCS")
+SECTOR = _param("sector", "Sector code: UPS, MID, GAS, REF, PCH, PWR, H2, CCS, IDC or WWT")
 JSON_OK = {"200": {"description": "JSON result"}, "401": {"description": "Missing or wrong API key"}}
 JSON_OR_404 = {**JSON_OK, "404": {"description": "Not found"}}
 
@@ -174,11 +189,11 @@ def openapi_spec(server_url):
                                                            "description": "A hilir Access access token (aud = this app's resource)"}}},
         "security": [{"HilirBearer": []}],
         "paths": {
-            "/api/search": get("search", "Search catalog sources, document passages, technology cards, vendor records and equipment records", [
+            "/api/search": get("search", "Search catalog sources, document passages, technology cards, vendor records, equipment records and projects", [
                 _param("q", "Search text", required=True),
-                _param("kind", "all, source, chunk, technology, vendor or equipment"), SECTOR,
-                _param("discipline", "Discipline code: PRC, ROT, INS, MAT, HSE or DIG"),
-                _param("region", "Region code, e.g. sea, apac, global"),
+                _param("kind", "all, source, chunk, technology, vendor, equipment or project"), SECTOR,
+                _param("discipline", "Discipline code: PRC, ROT, ELE, CIV, INS, MAT, HSE or DIG (keeps only sources and passages)"),
+                _param("region", "Region code, e.g. sea, apac, global (keeps only sources and passages)"),
                 _param("reuse_level", "full-text-open, full-text-restricted, summary-only or catalog-only"),
                 _param("limit", "Results to return, 1-50 (default 10)", schema={"type": "integer"})]),
             "/api/sources": get("listSources", "List catalog sources by code, region, reuse level or type, Asia Pacific first", [
@@ -186,11 +201,19 @@ def openapi_spec(server_url):
                 _param("reuse_level", "Reuse level"), _param("source_type", "e.g. licensor, journal, agency-data")]),
             "/api/sources/{source_id}": get("getSource", "One catalog record with its collected documents",
                                             [_param("source_id", "Catalog id", where="path")], JSON_OR_404),
-            "/api/documents": get("getDocument", "Front matter and text of one document, by the path a search result gave",
-                                  [_param("path", "Document path, e.g. corpus/netl/....md", required=True)], JSON_OR_404),
-            "/api/technologies": get("compareTechnologies", "Comparison table of technology options, commercial first", [
+            "/api/documents": get("getDocument", "One document by path (front matter and text, paged in characters; "
+                                  "403 for restricted text), or the documents index when no path is given", [
+                _param("path", "Document path, e.g. corpus/netl/....md"),
+                _param("source_id", "List mode: one catalog source id"),
+                _param("sector", "List mode: a sector code"),
+                _param("offset", "Character offset into the text (default 0)", schema={"type": "integer"}),
+                _param("limit", "Characters to return, 1-100000 (default 20000)", schema={"type": "integer"})], JSON_OR_404),
+            "/api/technologies": get("compareTechnologies", "Comparison table of technology options, commercial first; "
+                                     "technology_ids compares named cards side by side in order", [
                 SECTOR, _param("maturity", "commercial, demonstration, pilot or lab"),
-                _param("application", "e.g. cement, power, hydrogen")]),
+                _param("application", "e.g. cement, power, hydrogen"),
+                _param("technology_ids", "Comma-separated card ids to compare in order, e.g. "
+                        "ccs-amine-post-combustion,ccs-polymeric-membrane (overrides the filters)")]),
             "/api/technologies/{technology_id}": get(
                 "getTechnology", "One technology card: process steps, equipment, block diagram (Mermaid), costs with basis, suppliers, sources",
                 [_param("technology_id", "Card id, e.g. ccs-amine-post-combustion", where="path")], JSON_OR_404),
@@ -218,6 +241,8 @@ def openapi_spec(server_url):
                 [_param("project_id", "Project id, e.g. hornsea-2-offshore-wind-farm-uk-north-sea-orsted", where="path")], JSON_OR_404),
             "/api/register": get("listTechnologyRegister", "The full technology register (400+ entries across all sectors)", [
                 _param("code", "Sector or discipline code"), _param("maturity", "Maturity filter"), _param("q", "Text filter")]),
+            "/api/register/{entry_id}": get("getRegisterEntry", "One register entry by its id, which register rows carry",
+                                            [_param("entry_id", "Register entry id (code/slug-of-name)", where="path")], JSON_OR_404),
             "/api/gaps": get("listGaps", "Inputs the technology cards still lack, with where to get them", [
                 SECTOR, _param("field", "trl, performance, costs, reference_plants, suppliers, status, process, other"),
                 _param("reason_code", "Why it is missing"),

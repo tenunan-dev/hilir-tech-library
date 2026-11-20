@@ -8,6 +8,44 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.20] — 2026-11-20 — Full techlib audit closed: callback XSS, hilir-auth 0.5.4, ranking parity, paged documents, merged duplicates
+
+### Security
+
+- **Reflected XSS in the sign-in-failed page (verified live, then fixed).** `deploy/frontend` interpolated `result.error` raw; hilir-auth's `callback` returns the caller-controlled `?error=` parameter **before** state validation, so `/auth/callback?error=<b>bold</b>` rendered markup from a URL. `escapeHtml` now escapes it (live probe returns `&lt;b&gt;`).
+- **`@tenunan-dev/hilir-auth` 0.5.3 → 0.5.4** in all three Workers, per the 2026-11-20 Access standard (failed token exchanges relay the provider's RFC 6749 §5.2 code instead of the invented `token_exchange_failed_*`). The estate note "VPS servers pick it up on rebuild" does not apply to Workers — they deploy from this repo.
+- **UI-host 401s now carry the RFC 9728 challenge** (`/api/stats`, `/api/version`), matching the API host and the container: `Bearer resource_metadata="…"`, with `error="invalid_token"` only when a credential was presented.
+- **`deploy/backend` `npm test` was unrunnable as committed** (plain `node --test` + ESM cannot resolve `./proxy`) — the suite HOSTING.md names as the API-door gate. Imports now carry explicit `.ts` extensions; **5/5 pass**, two new tests cover the container-hop header shaping (retired DSN header dropped, client `x-api-key` never overrides a verified bearer, a verified estate key re-attached as Bearer).
+
+### Ranking and data correctness
+
+- **Neon `og.hybrid_search` had none of the SQLite fallback's boosts** — the root cause of "carbon capture amine" surfacing a membrane vendor, an enzyme project and a urea condenser while the amine card stayed outside the top 3. The function now applies `TECHNOLOGY_BOOST 1.3` and the source-region boosts (sea 1.25, apac 1.15) exactly as `library.search` does. Applied live; the same query now returns six technology cards first, amine included.
+- **`og.refresh_similarity` (a DELETE+INSERT write path) was executable by `og_mcp_read`** — Postgres grants EXECUTE to PUBLIC by default and `db/readonly.sql` never revoked it. Revoked live.
+- **`_range` crashed on a schema-valid figure with no `low` and no `high`** (`TypeError` in `f"up to {hi:g}"`), which would have taken down `compare_technologies`, search rows and markdown rendering. Now renders "no range recorded".
+- **Malaysian duplicates merged** (Neon 299 → 295 projects): PFLNG Satu ×3 → one operating record (the copy that said "proposed" was wrong), PFLNG Dua ×2 → one, Kasawari ×2 → one record carrying gas + CCS, both sector codes, one status. The Kasawari milestone the old record called "start-up (per card source)" was the **FID** — relabelled from the source, and the injection timeline corrected (gas since Aug 2024, CO₂ injection not started as of April 2026, target as early as 2027). Card `reference_plants` updated to the surviving ids.
+
+### MCP surface
+
+- **`get_document(path, offset=0, limit=20000)`** — paged in characters, `total_chars` returned. The corpus holds a 2,138,151-character document; one uncapped call was unusable for an agent.
+- **`list_documents(source_id=None, sector=None, limit=50)`** — the documents index (path/title/source/reuse_level/text_included), previously only reachable through the web UI.
+- **`get_register_entry(entry_id)`** — single register entry by `code/slug-of-name`.
+- **`compare_technologies(technology_ids=[...])`** — named cards side by side in the given order.
+- **Blanks now read as gaps, not oversights**: `compare_technologies` rows carry `gaps`; project rows carry `gaps` + `stub`; equipment rows carry `gaps`; vendor rows carry `stub` (set true on `honeywell` and `honeywell-analytics`).
+- **`db_catalog` states the `og` schema** with a worked example (`select count(*) from og.source`) — `og.sources` (plural) was the tester's error.
+- **Glossary gained PUE, WUE, SRU and DLE** (the description named PUE/WUE/SRU/DLE; the file held none) and the docstring dropped MERCON, which the library never defined.
+- **Neon row parity**: chunk rows carry the source's real `permitted_use` (was hardcoded "unstated"), equipment search rows carry `spec_metrics` (was `[]`).
+- **REST**: `/api/documents` without `path` serves the index, with `offset`/`limit`; a restricted/unknown document answers **403** instead of 200-with-error-body; `/api/register/{entry_id}` added; `technology_ids` on `/api/technologies`; openapi enums gain IDC, WWT, ELE, CIV and kind `project`; the `discipline`/`region` filter caveat is documented.
+
+### Safety and hygiene
+
+- **Stdio now defaults to excluding full-text-restricted text** (`EXCLUDE_RESTRICTED = True`; `--include-restricted` opts out on either transport). Previously only HTTP mode set it.
+- **The container's key verifier logs HTTP 429 distinctly** ("the verifier is rate-limiting us") instead of folding it into a generic key failure — Access rate-limits `/api/v2-introspect` at the edge since 2026-11-20, and the 60 s negative cache means one 429 locks a key out for that window.
+- **Deploy footgun removed, same class Access closed 2026-11-19**: `deploy/edge` claimed BOTH live custom domains though it is not deployed (live probes: the PRM path 404s on the UI host). Its `routes` block is gone, its `AUDIENCE` corrected to the two-origin list, stale secrets and `src/authz.ts` references replaced. HOSTING.md now names the live pair (`og-tech-library-ui` + `og-tech-library-api`) as the only deploy targets.
+
+### Verified and deployed
+
+- pytest **1,424 passed, 12 skipped**; backend `npm test` **5/5**; `tsc --noEmit` clean. Neon reloaded (526 sources / 391 cards / 537 vendors / 37 equipment / 295 projects / 406 register / 16,902 vectors). Workers deployed (`og-tech-library-ui` `0cb6c392…`, `og-tech-library-api` `268bb7e4…`); containers shipped and healthy (api `118d022ee121`, ui `142453003dc5`), gate `mygis 303, techlib-origin 403, tlea-origin 403`. Live-verified: XSS escape, both 401 challenges, AUTH.md probe block, the paged document (total_chars 2,138,151, window 20,000), the PUE glossary entry, Honeywell stubs, `db_catalog` schema note, the merged Kasawari record, the ranked amine search, and a stub-flagged Malaysian project. Audit detail: [docs/AUDIT-techlib_2026-11-20.md](docs/AUDIT-techlib_2026-11-20.md).
+
 ## [2026.11.18.5] — 2026-11-18 — MCP/data audit after ETS work: `library_stats` gained projects and register; separator vendor list completed
 
 ### Found and fixed

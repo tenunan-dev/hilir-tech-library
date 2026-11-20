@@ -23,4 +23,5 @@ def summary(rec):
             "aliases": rec.get("aliases", []),
             "spec_metrics": [s["metric"] for s in rec.get("specifications", [])],
             "vendors": rec.get("vendors", []),
-            "technologies": rec.get("technologies", [])}
+            "technologies": rec.get("technologies", []),
+            "gaps": len(rec.get("gaps", []))}

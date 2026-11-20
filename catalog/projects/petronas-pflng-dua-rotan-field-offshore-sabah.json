@@ -1,33 +1,63 @@
 {
   "id": "petronas-pflng-dua-rotan-field-offshore-sabah",
-  "name": "PETRONAS PFLNG DUA, Rotan field, offshore Sabah",
-  "project_type": "greenfield",
+  "name": "PETRONAS PFLNG Dua (PFLNG 2), Rotan field, offshore Sabah",
+  "aliases": [
+    "PFLNG Dua",
+    "PFLNG 2",
+    "PETRONAS PFLNG DUA, Rotan field, Sabah"
+  ],
+  "project_type": "operating-asset",
   "sector": "GAS",
   "sector_codes": [
     "GAS"
   ],
   "country": "MY",
   "status": "operating",
-  "description": "1.5 Mtpa LNG, 1,300 m water depth; first floating LNG reference for BASF OASE",
+  "location": "Rotan field, offshore Sabah, Malaysia (about 1,300 m water depth)",
+  "description": "1.5 Mtpa LNG in 1,300 m water depth; first cargo 24 March 2021; first floating LNG reference for BASF OASE acid gas removal",
   "technologies": [
+    "lng-flng",
     "gas-amine-agr"
   ],
+  "owners": [
+    {
+      "name": "PETRONAS",
+      "vendor_id": "petronas",
+      "role": "operator"
+    }
+  ],
+  "capacities": [
+    {
+      "metric": "LNG production capacity",
+      "low": 1.5,
+      "unit": "Mtpa",
+      "basis": "PETRONAS release and BASF OASE page",
+      "source": {
+        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "note": "PETRONAS press release, 25 March 2021"
+      }
+    }
+  ],
+  "milestones": [
+    {
+      "event": "first cargo",
+      "date": "2021-03-24",
+      "source": {
+        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "note": "PETRONAS press release, 25 March 2021"
+      }
+    }
+  ],
   "sources": [
+    {
+      "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+      "note": "PETRONAS press release, 25 March 2021"
+    },
     {
       "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas",
       "note": "BASF OASE gas treatment, natural gas page, read 24 October 2026"
     }
   ],
-  "last_reviewed": "2026-11-11",
-  "milestones": [
-    {
-      "event": "start-up (per card source)",
-      "date": "2021",
-      "source": {
-        "url": "https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/solution_natural_gas",
-        "note": "BASF OASE gas treatment, natural gas page, read 24 October 2026"
-      }
-    }
-  ],
-  "notes": "Status per card source: first cargo 24 March 2021"
+  "notes": "Merged 2026-11-20 from petronas-pflng-dua-rotan-field-sabah and petronas-pflng-dua-rotan-field-offshore-sabah: one asset described twice.",
+  "last_reviewed": "2026-11-20"
 }

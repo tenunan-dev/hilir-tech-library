@@ -1,33 +1,84 @@
 {
   "id": "petronas-pflng-satu",
-  "name": "PETRONAS PFLNG SATU",
-  "project_type": "greenfield",
+  "name": "PETRONAS PFLNG Satu (PFLNG 1), Kanowit then Kebabangan, offshore Malaysia",
+  "aliases": [
+    "PFLNG 1",
+    "PFLNG Satu",
+    "PETRONAS PFLNG 1 (SATU)",
+    "PFLNG Satu, Kanowit gas field"
+  ],
+  "project_type": "operating-asset",
   "sector": "GAS",
   "sector_codes": [
     "GAS"
   ],
   "country": "MY",
-  "status": "proposed",
-  "description": "not stated in source read",
+  "status": "operating",
+  "location": "Kanowit gas field, offshore Sarawak (2016-2019); Kebabangan (KBB) field, offshore Sabah (since 2019)",
+  "description": "world's first operational floating LNG vessel: 360 m long, 1.2 Mtpa; first gas November 2016 at Kanowit, 180 km offshore Bintulu; redeployed to the Kebabangan (KBB) field, offshore Sabah, in 2019; 50th cargo delivered by October 2021; acid gas removal designed by PETRONAS and UOP (Amine Guard FS) for floating service",
   "technologies": [
-    "lng-flng"
+    "lng-flng",
+    "gas-amine-agr"
+  ],
+  "owners": [
+    {
+      "name": "PETRONAS",
+      "vendor_id": "petronas",
+      "role": "operator"
+    }
+  ],
+  "capacities": [
+    {
+      "metric": "LNG production capacity",
+      "low": 1.2,
+      "unit": "Mtpa",
+      "basis": "stated in the naming release and the UOP acid-gas-removal announcement",
+      "source": {
+        "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+        "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
+      }
+    }
+  ],
+  "milestones": [
+    {
+      "event": "first gas (Kanowit gas field)",
+      "date": "2016-11",
+      "source": {
+        "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+        "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
+      }
+    },
+    {
+      "event": "redeployment to the Kebabangan (KBB) field, offshore Sabah",
+      "date": "2019",
+      "source": {
+        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
+        "note": "PETRONAS press release, 25 March 2021"
+      }
+    },
+    {
+      "event": "50th LNG cargo",
+      "date": "2021-10",
+      "source": {
+        "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+        "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
+      }
+    }
   ],
   "sources": [
     {
       "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
       "note": "PETRONAS press release, 25 March 2021"
-    }
-  ],
-  "last_reviewed": "2026-11-11",
-  "milestones": [
+    },
     {
-      "event": "start-up (per card source)",
-      "date": "2016",
-      "source": {
-        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
-        "note": "PETRONAS press release, 25 March 2021"
-      }
+      "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+      "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
+    },
+    {
+      "url": "https://hydrocarbon-processing.com/news/2013/04/uop-technology-to-remove-acid-gases-for-petronas-floating-lng-in-malaysia/",
+      "note": "Hydrocarbon Processing news, 16 April 2013"
     }
   ],
-  "notes": "Status per card source: world's first operational FLNG (2016); moved from Kanowit to Kebabangan field in 2019"
+  "notes": "Merged 2026-11-20 from petronas-pflng-satu (was wrongly 'proposed'), pflng-satu-kanowit-gas-field-offshore-sarawak-petronas and petronas-pflng-1-satu-offshore-sarawak-amine-guard-fs: one asset, one record, one status.",
+  "last_reviewed": "2026-11-20"
 }

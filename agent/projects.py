@@ -19,13 +19,19 @@ def load_projects(folder=None):
 
 def summary(rec):
     """Compact row for listings: status, location and capacities, not every milestone."""
+    # A blank location/capacities/owners row is often a RECORDED gap, not an oversight —
+    # surface the gap count so callers can tell the two apart (get_project has the detail).
+    gaps = len(rec.get("gaps", []))
+    stub = bool(rec.get("stub")) or (
+        gaps == 0 and not rec.get("location") and not rec.get("capacities", []) and not rec.get("owners", []))
     return {"id": rec["id"], "name": rec["name"], "aliases": rec.get("aliases", []),
             "project_type": rec.get("project_type"), "sector": rec.get("sector"),
             "sector_codes": rec.get("sector_codes", []), "country": rec.get("country"),
             "location": rec.get("location"), "status": rec.get("status"),
             "capacities": rec.get("capacities", []),
             "technologies": rec.get("technologies", []),
-            "owners": [p.get("vendor_id") or p["name"] for p in rec.get("owners", [])]}
+            "owners": [p.get("vendor_id") or p["name"] for p in rec.get("owners", [])],
+            "gaps": gaps, "stub": stub}
 
 
 # Records store countries in mixed spellings ("US" and "United States", "CA" and "Canada"), so a

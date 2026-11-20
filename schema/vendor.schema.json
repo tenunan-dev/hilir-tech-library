@@ -132,6 +132,10 @@
     "last_reviewed": {
       "type": "string",
       "format": "date"
+    },
+    "stub": {
+      "type": "boolean",
+      "description": "true when the record is a deliberate placeholder — created to claim a supplier/project name, details not yet researched; blanks on a stub are known gaps, not oversights"
     }
   }
 }

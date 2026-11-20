@@ -1,12 +1,21 @@
 {
   "id": "honeywell-analytics",
   "name": "Honeywell Analytics",
-  "aliases": ["Honeywell Gas and Flame Detection"],
+  "aliases": [
+    "Honeywell Gas and Flame Detection"
+  ],
   "country": "USA",
-  "roles": ["oem", "supplier"],
-  "categories": ["equipment-oem"],
+  "roles": [
+    "oem",
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
   "description": "Honeywell's gas and flame detection business, part of its industrial automation portfolio, supplying fixed and portable gas detection and flame detection for industrial safety.",
-  "technologies": ["ins-fire-gas-detection"],
+  "technologies": [
+    "ins-fire-gas-detection"
+  ],
   "url": "https://www.honeywellanalytics.com",
   "sources": [
     {
@@ -14,5 +23,7 @@
       "note": "Honeywell gas and flame detection product category (redirect target of honeywellanalytics.com), read 2026-11-11"
     }
   ],
-  "last_reviewed": "2026-11-11"
+  "last_reviewed": "2026-11-11",
+  "stub": true,
+  "notes": "stub: the directory record exists to claim the card supplier name; products not yet researched (2026-11-20)."
 }

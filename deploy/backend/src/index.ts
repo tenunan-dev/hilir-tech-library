@@ -22,7 +22,7 @@ import {
   looksLikeAgentKey,
   verifyAgentKey,
 } from "@tenunan-dev/hilir-auth";
-import { upstreamFetch } from "./proxy";
+import { upstreamFetch } from "./proxy.ts";
 
 const ORIGIN = "https://techlib-api.hilir.app"; // owner-confirmed 2026-10-31 (P0.3)
 const INTERNAL = "https://library.internal"; // synthetic origin: the container serves by path
@@ -144,7 +144,7 @@ async function machineGate(request: Request, env: Env): Promise<Response | null>
   return null;
 }
 
-function containerHeaders(request: Request, env: Env): Headers {
+export function containerHeaders(request: Request, env: Env): Headers {
   const headers = new Headers(request.headers);
   // Step 3 (2026-11-05): the verified bearer travels to the container — it is
   // the only credential (machineGate already checked iss/aud/scope; the

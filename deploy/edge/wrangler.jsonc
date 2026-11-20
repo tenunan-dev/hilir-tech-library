@@ -1,16 +1,22 @@
 {
-  // Consolidated techlib edge (Phase 4). One Worker, both hostnames, two
-  // containers behind it. Deploy from this folder: npx wrangler deploy
+  // REFERENCE ONLY — NOT DEPLOYED (verified live 2026-11-20: the PRM path 404s on
+  // techlib.hilir.app with the UI handler's error, so the split pair
+  // og-tech-library-ui + og-tech-library-api serves production). This config
+  // CLAIMS BOTH custom domains, so a plain `npx wrangler deploy` here would
+  // re-point them away from the live workers — the same footgun hilir-access
+  // closed in 9754bc2. The `routes` block is therefore removed; if the Phase-4
+  // consolidation is ever finished, re-add:
+  //   "routes": [
+  //     { "pattern": "techlib.hilir.app", "custom_domain": true },
+  //     { "pattern": "techlib-api.hilir.app", "custom_domain": true }
+  //   ]
+  // and swap: deploy (fails on the domains) -> remove the domains from the two
+  // live Workers -> redeploy -> verify per docs/AUTH.md.
   //
-  // IMPORTANT — deploy order: a custom domain can belong to only one Worker.
-  // The two old Workers currently hold these domains, so the swap is:
-  //   1. npx wrangler deploy            (fails on the domains — expected)
-  //   2. remove the domains from og-tech-library-ui / -api, or delete those
-  //      Workers, then redeploy this one
-  //   3. verify, then keep the old Worker names for a week as rollback
-  // Secrets come from the same keys as before (wrangler secret put on THIS
-  // Worker): LIBRARY_API_KEY, ORIGIN_TOKEN, INTERNAL_TOKENS, DATABASE_URL,
-  // USER_STORE_URL.
+  // Secrets for that future deploy (wrangler secret put on THIS Worker):
+  // ORIGIN_TOKEN, HILIR_CLIENT_SECRET (the UI browser-login client). The
+  // retired LIBRARY_API_KEY / INTERNAL_TOKENS / DATABASE_URL / USER_STORE_URL
+  // are gone with the pre-rebuild auth — do not recreate them.
   "name": "techlib-edge",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
@@ -19,15 +25,15 @@
   "vars": {
     "API_ORIGIN": "https://techlib-api.hilir.app",
     "LIBRARY_ORIGIN": "https://techlib-origin.hilir.app",
-    "AUDIENCE": "https://techlib.hilir.app",
-    // Phase 4: the UI handler is now an OIDC client of the new Access.
+    // Both registered resource origins: the API handler runs on BOTH hostnames
+    // under this worker, so tokens minted for either resource must verify
+    // (the backend module parses the comma list; a single origin here would
+    // 401 every direct MCP client token on the API host).
+    "AUDIENCE": "https://techlib.hilir.app,https://techlib-api.hilir.app",
+    // Phase 4: the UI handler is an OIDC client of Access.
     "HILIR_ISSUER": "https://access.hilir.app/api/auth",
     "HILIR_CLIENT_ID": "YBUSRWpUyOKWcnrxJPITRYptIBsqtYFL",
     "APP_ORIGIN": "https://techlib.hilir.app",
     "REQUIRED_SCOPE": "catalog:read"
-  },
-  "routes": [
-    { "pattern": "techlib.hilir.app", "custom_domain": true },
-    { "pattern": "techlib-api.hilir.app", "custom_domain": true }
-  ]
+  }
 }

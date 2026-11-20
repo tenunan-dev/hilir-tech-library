@@ -22,6 +22,7 @@ import {
   discover,
   endSessionUrl,
   login as startLogin,
+  PROTECTED_RESOURCE_METADATA_PATH,
   readCookies,
   refresh as refreshTokens,
   safeNext,
@@ -30,7 +31,7 @@ import {
   verify,
   type OidcConfig,
 } from "@tenunan-dev/hilir-auth";
-import { upstreamFetch, userinfoFetch } from "./proxy";
+import { upstreamFetch, userinfoFetch } from "./proxy.ts";
 
 // keep in sync with PREFIXES in agent/web.py
 const UI_PREFIXES = ["/search", "/technologies", "/compare", "/export", "/database", "/glossary", "/standards", "/vendors", "/equipment", "/projects", "/register", "/sources", "/documents", "/gaps", "/admin", "/account"];
@@ -49,10 +50,10 @@ interface Env {
   USER_STORE_URL?: string;
   LIBRARY_ORIGIN: string; // https://techlib-origin.hilir.app
   ORIGIN_TOKEN: string; // shared origin secret Caddy requires
-  HILIR_ISSUER: string; // https://access-v2.hilir.app/api/auth
+  HILIR_ISSUER: string; // https://access.hilir.app/api/auth
   HILIR_CLIENT_ID: string; // opaque id — not the name "techlib"
   HILIR_CLIENT_SECRET: string;
-  APP_ORIGIN: string; // https://techlib.hiril.app
+  APP_ORIGIN: string; // https://techlib.hilir.app
 }
 
 function oidcConfig(env: Env): OidcConfig {
@@ -195,6 +196,29 @@ function principalCookies(email: string | null, sub: string | null): string[] {
   return out;
 }
 
+/**
+ * The RFC 9728 §5.1 challenge for the UI host's machine-held endpoints — same
+ * shape the backend worker and the container send, so every 401 from this app
+ * names the discovery document. The metadata URL points at THIS origin: the
+ * request is answered here, and the PRM path is served by the same host.
+ */
+function bearerChallenge(origin: string, presented: boolean): string {
+  return [
+    `Bearer resource_metadata="${origin.replace(/\/+$/, "")}${PROTECTED_RESOURCE_METADATA_PATH}"`,
+    ...(presented ? ['error="invalid_token"'] : []),
+  ].join(", ");
+}
+
+/** HTML-escape text before it lands in the sign-in-failed page. */
+function escapeHtml(text: string): string {
+  return text
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
 /** Decode a JWT's header and payload for diagnostics. Does not verify. */
 function decodeClaims(token: string): { header: Record<string, unknown>; payload: Record<string, unknown> } {
   const parts = token.split(".");
@@ -224,10 +248,17 @@ export default {
     }
 
     // Machine-held read-only endpoints: a hilir bearer token is required — the
-    // same verify/refresh path as the pages. No token = 401 JSON, not a redirect.
+    // same verify/refresh path as the pages. No token = 401 JSON with the RFC
+    // 9728 challenge (same shape as the backend worker and the container), not
+    // a redirect.
     if (TOKEN_HELD.includes(url.pathname)) {
       const { token, setCookies } = await resolveToken(request, env);
-      if (!token) return Response.json({ error: "missing or invalid token" }, { status: 401 });
+      if (!token) {
+        return Response.json(
+          { error: "missing or invalid token" },
+          { status: 401, headers: { "www-authenticate": bearerChallenge(url.origin, Boolean(request.headers.get("authorization"))) } },
+        );
+      }
       return withCookies(await toContainer(request, env, token), setCookies);
     }
 
@@ -247,12 +278,17 @@ export default {
       if (!result.ok) {
         // Show the reason instead of bouncing to /login: a silent bounce turns a
         // single failure into an endless sign-in loop (seen 2026-11-04 in Safari).
+        // result.error is HTML-ESCAPED: the provider-error path of hilir-auth's
+        // callback relays the caller-controlled `?error=` query parameter
+        // verbatim (before state validation), and 0.5.4 relays the provider's
+        // RFC 6749 codes — an unescaped interpolation here was a reflected XSS
+        // (verified live 2026-11-20 with a benign marker).
         const headers = new Headers({ "content-type": "text/html; charset=utf-8", "cache-control": "no-store" });
         for (const cookie of result.cookies) headers.append("set-cookie", cookie);
         return new Response(
           `<!doctype html><meta charset="utf-8"><title>Sign-in failed</title>` +
             `<body style="font:16px/1.6 system-ui,sans-serif;max-width:36em;margin:15vh auto;padding:0 24px">` +
-            `<h1>Sign-in failed</h1><p><code>${result.error}</code></p>` +
+            `<h1>Sign-in failed</h1><p><code>${escapeHtml(result.error)}</code></p>` +
             `<p><a href="/login">Try again</a></p></body>`,
           { status: 400, headers },
         );

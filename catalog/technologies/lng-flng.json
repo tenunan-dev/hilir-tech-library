@@ -96,41 +96,28 @@
       "project_id": "shell-prelude-flng"
     },
     {
-      "name": "PETRONAS PFLNG DUA, Rotan field, Sabah",
+      "name": "PETRONAS PFLNG Satu (PFLNG 1), Kanowit then Kebabangan, offshore Malaysia",
+      "country": "MY",
+      "capacity": "1.2 Mtpa LNG; first gas November 2016 at Kanowit, redeployed to Kebabangan in 2019",
+      "status": "operating",
+      "year": 2016,
+      "source": {
+        "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
+        "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
+      },
+      "project_id": "petronas-pflng-satu"
+    },
+    {
+      "name": "PETRONAS PFLNG Dua (PFLNG 2), Rotan field, offshore Sabah",
       "country": "MY",
       "capacity": "1.5 Mtpa LNG in 1,300 m water depth",
       "status": "first cargo 24 March 2021",
       "year": 2021,
       "source": {
         "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
-        "source_id": "petronas-tech",
         "note": "PETRONAS press release, 25 March 2021"
       },
-      "project_id": "petronas-pflng-dua-rotan-field-sabah"
-    },
-    {
-      "name": "PETRONAS PFLNG SATU",
-      "country": "MY",
-      "capacity": "not stated in source read",
-      "status": "world's first operational FLNG (2016); moved from Kanowit to Kebabangan field in 2019",
-      "year": 2016,
-      "source": {
-        "url": "https://www.petronas.com/media/press-release/petronas-becomes-worlds-first-produce-lng-two-floating-facilities",
-        "source_id": "petronas-tech",
-        "note": "PETRONAS press release, 25 March 2021"
-      },
-      "project_id": "petronas-pflng-satu"
-    },
-    {
-      "name": "PFLNG Satu, Kanowit gas field, offshore Sarawak (PETRONAS)",
-      "country": "MY",
-      "capacity": "world's first operational floating LNG vessel: 360 m long, 1.2 Mtpa; first gas November 2016 at Kanowit, 180 km offshore Bintulu; 50th cargo delivered by October 2021",
-      "status": "operating",
-      "source": {
-        "url": "https://maritime-executive.com/article/petronas-names-its-first-flng",
-        "note": "Maritime Executive, 7 Mar 2016 (naming, 1.2 Mtpa, Kanowit); LNG Industry (world's first operational FLNG, 2016); offshore-energy 5 Oct 2021 (50th cargo); read 2026-10-28"
-      },
-      "project_id": "pflng-satu-kanowit-gas-field-offshore-sarawak-petronas"
+      "project_id": "petronas-pflng-dua-rotan-field-offshore-sabah"
     }
   ],
   "advantages": [
@@ -154,7 +141,7 @@
       "note": "PETRONAS press release, 25 March 2021"
     }
   ],
-  "last_reviewed": "2026-11-17",
+  "last_reviewed": "2026-11-20",
   "gaps": [
     {
       "field": "trl",
