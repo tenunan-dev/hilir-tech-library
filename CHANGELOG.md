@@ -8,6 +8,19 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.21] — 2026-11-21 — Agent skill for using the MCP
+
+### Added
+
+- **`skills/techlib-mcp/SKILL.md`** — the `techlib-mcp` agent skill: connect (stdio /
+  hosted HTTP / REST), route the question, the four rules, and the working habits that
+  keep answers honest. Canonical home is **`tenunan-dev/hilir-skills`** (house rules:
+  frontmatter exactly `name` + `description`, third-person description with use-when
+  triggers and a Do-NOT boundary naming the sibling skills; pushed as `be4c2d5`); the copy
+  here is a synced mirror, and `.claude/skills/techlib-mcp` / `.github/skills/techlib-mcp`
+  are relative symlinks to it so Claude Code and Copilot discover the same file. Update
+  the skill in hilir-skills, then re-sync — do not edit the mirror in place.
+
 ## [2026.11.20] — 2026-11-20 — Full techlib audit closed: callback XSS, hilir-auth 0.5.4, ranking parity, paged documents, merged duplicates
 
 ### Security
